@@ -1,0 +1,40 @@
+# =============================================================================
+#  DART 공시 → 임베딩용 JSONL 수집 파이프라인 — Python 의존성
+# =============================================================================
+#  최소 Python 버전: 3.10 (권장: 3.11)
+# =============================================================================
+#
+#  ── 처음 셋업하는 팀원용 (Anaconda Prompt 에서 실행) ──
+#    1) conda create -n dart-rag python=3.11 -y
+#    2) conda activate dart-rag
+#    3) cd C:\Users\Admin\Desktop\DART\data_collection
+#    4) pip install -r requirements.txt
+#    5) python -m ipykernel install --user --name dart-rag --display-name "Python (dart-rag)"
+#    6) python -c "import lxml, requests, tqdm, pandas, nbformat; print('OK')"   ← 검증
+#
+#  ── 이미 dart-rag 환경이 있는 경우 ──
+#    1) conda activate dart-rag
+#    2) pip install -r requirements.txt --upgrade
+#
+#  ── 환경 삭제·재생성 시 ──
+#    conda deactivate
+#    conda env remove -n dart-rag -y
+#    (위 "처음 셋업" 1)~5) 다시 실행)
+# =============================================================================
+
+# ── XML 파싱·정제 (핵심) ────────────────────────────────────────────────────
+lxml>=4.9,<6.0                # DART XML strict + recover 파서
+
+# ── HTTP / 진행 표시 ────────────────────────────────────────────────────────
+requests>=2.31                # DART API 호출
+tqdm>=4.66                    # 진행률 표시
+
+# ── 데이터 가공·노트북 ──────────────────────────────────────────────────────
+pandas>=2.0,<3.0              # 회사별 결과 표 + CSV 저장
+ipykernel>=6.25               # VS Code 노트북 커널
+jupyter>=1.0                  # (선택) jupyter lab/notebook
+nbformat>=5.9                 # 노트북 자동 생성·검증
+
+# ── 표준 라이브러리만 사용 (별도 설치 불필요) ───────────────────────────────
+# json, re, pathlib, datetime, zipfile, io, urllib, ssl
+# python-dotenv 미사용: dart_downloader.py 내부 _load_env() 자체 구현
