@@ -1,0 +1,30 @@
+지금 단계 (POC): save_json()으로 로컬 파일에 저장이면 충분해요.
+data/parsed/아모레퍼시픽_2024_parsed_financials.json
+data/parsed/현대건설_2024_parsed_financials.json
+
+
+서비스화 단계: 아래 구조를 권장해요.
+
+SSQLite (로컬 개발) → PostgreSQL (배포)
+
+테이블 구조:
+┌─────────────────────────────────────────────┐
+│ financials                                  │
+│  corp_code   TEXT  (PK 1)                   │
+│  year        INT   (PK 2)                   │
+│  revenue     BIGINT                         │
+│  ebit        BIGINT                         │
+│  da          BIGINT                         │
+│  capex       BIGINT                         │
+│  delta_nwc   BIGINT                         │
+│  cash        BIGINT                         │
+│  noa         BIGINT                         │
+│  ibd         BIGINT                         │
+│  shares_issued  BIGINT                      │
+│  shares_float   BIGINT                      │
+│  raw_json    TEXT  (전체 dict JSON으로 저장) │
+│  updated_at  TIMESTAMP                      │
+└─────────────────────────────────────────────┘
+
+
+valuation_engine.py(Phase 4)에서 SELECT * FROM financials WHERE corp_code=? AND year=?로 조회하면 돼요. raw_json에 noa_items, ibd_detail 등 상세 필드도 통째로 보관하면 컬럼 추가 없이 확장 가능해요.
