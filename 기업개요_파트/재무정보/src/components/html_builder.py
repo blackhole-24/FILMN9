@@ -200,6 +200,7 @@ def _build_header(data: dict) -> str:
         ("52주최고", f"{pi.get('52주최고','-'):,}" if pi.get('52주최고') else "-"),
         ("52주최저", f"{pi.get('52주최저','-'):,}" if pi.get('52주최저') else "-"),
         ("PER/EPS", f"{pi.get('PER','-')} / {int(pi.get('EPS',0) or 0):,}" if pi.get('PER') else "-"),
+        ("PBR/BPS", f"{pi.get('PBR','-')} / {int(pi.get('BPS',0) or 0):,}" if pi.get('PBR') else "-"),
         ("외국인보유", pi.get("외국인보유", "-")),
     ]
 
@@ -370,15 +371,20 @@ def _build_financial_detail(data: dict) -> str:
     tabs_html, contents_html = "", ""
     tab_ids = []
 
-    tab_labels = {
-        "포괄손익계산서(연결)": "포괄손익계산서(연결)",
-        "재무상태표(연결)": "재무상태표(연결)",
-    }
+    # 표시 순서 + 레이블 정의 (여기 없는 키는 탭에서 제외)
+    TAB_ORDER = [
+        ("포괄손익계산서(연결)", "포괄손익계산서"),
+        ("재무상태표(연결)",    "재무상태표"),
+        ("현금흐름표(연결)",    "현금흐름표"),
+        ("자본변동표(연결)",    "자본변동표"),
+    ]
+    ordered_detail = [(label, disp, detail[key])
+                      for key, disp in TAB_ORDER
+                      if (label := key) and key in detail]
 
-    for i, (label, df) in enumerate(detail.items()):
+    for i, (label, display_label, df) in enumerate(ordered_detail):
         tab_id = f"ftab_{i}"
         tab_ids.append(tab_id)
-        display_label = tab_labels.get(label, label)
         active = "active" if i == 0 else ""
         tabs_html += f'<div class="tab {active}" onclick="switchTab(\'{tab_id}\')">{display_label}</div>'
 
