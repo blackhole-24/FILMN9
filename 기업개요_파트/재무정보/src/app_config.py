@@ -1,4 +1,4 @@
-"""
+﻿"""
 FILMN9 앱 설정 — 주가·재무정보 탭
 경로, API 키, 상수 등 앱 전역 설정.
 """
@@ -8,7 +8,7 @@ import os
 # ─────────────────────────────────────────────────────────────────────────────
 # 경로
 # ─────────────────────────────────────────────────────────────────────────────
-ROOT_DIR   = Path(__file__).parent.parent          # C:/Users/Admin/FILMN9
+ROOT_DIR   = Path(__file__).parent.parent.parent.parent  # C:/Users/Admin/FILMN9
 RAG_DIR    = ROOT_DIR / "data" / "RAG"             # 통합 JSONL 폴더 (2,596개)
 CACHE_DIR  = ROOT_DIR / "outputs" / "cache"        # SQLite 캐시
 CACHE_DIR.mkdir(parents=True, exist_ok=True)
@@ -73,6 +73,7 @@ SECTION = {
     "요약재무정보"  : "III. 재무에 관한 사항 > 1. 요약재무정보",
     "연결재무제표"  : "III. 재무에 관한 사항 > 2. 연결재무제표",
     "별도재무제표"  : "III. 재무에 관한 사항 > 4. 재무제표",
+    "주주정보"     : "VII. 주주에 관한 사항",
     "임원현황"     : "VIII. 임원 및 직원 등에 관한 사항 > 1. 임원 및 직원 등의 현황",
 }
 
@@ -97,3 +98,4 @@ if __name__ == "__main__":
     print(f"JSONL 파일 : {SAMPLE['jsonl_file']}")
     jsonl_path = RAG_DIR / SAMPLE["jsonl_file"]
     print(f"JSONL 존재 : {jsonl_path.exists()}")
+

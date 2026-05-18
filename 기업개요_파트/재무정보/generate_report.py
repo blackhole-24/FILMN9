@@ -74,7 +74,7 @@ def generate(stock_code: str = "090430") -> Path:
     out_path  = OUTPUT_DIR / f"{stock_code}_{corp_name}_report.html"
     out_path.write_text(html, encoding="utf-8")
 
-    print(f"\n✅ 리포트 생성 완료!")
+    print(f"\n[OK] 리포트 생성 완료!")
     print(f"   파일: {out_path}")
     print(f"   브라우저에서 열기: {out_path.as_uri()}")
     return out_path

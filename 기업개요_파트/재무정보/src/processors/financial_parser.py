@@ -324,60 +324,111 @@ def get_financial_highlight(stock_code: str = "090430") -> dict[str, pd.DataFram
 # 5) 재무정보 상세 탭용 — 연결재무제표 전체
 # ─────────────────────────────────────────────────────────────────────────────
 
-def _parse_detail_section(merged_text: str, unit_divisor: float = 1.0) -> pd.DataFrame:
-    """
-    연결/별도재무제표 merged_text → DataFrame.
-    제목 행(재무상태표, 포괄손익계산서 등 텍스트만 있는 행)은 스킵.
-    unit_divisor: 원→백만원 변환 시 1_000_000
-    """
-    lines = [l.strip() for l in merged_text.splitlines() if l.strip()]
-    md_lines = [l for l in lines if l.startswith("|")]
+# 사업보고서 > III. 재무에 관한 사항 > 2. 연결재무제표
+# 단일 셀 행이 섹션 구분자 역할을 함
+_FS_SECTION_MARKERS: dict[str, str] = {
+    "재무상태표"    : "재무상태표(연결)",
+    "포괄손익계산서" : "포괄손익계산서(연결)",
+    "현금흐름표"    : "현금흐름표(연결)",
+    "자본변동표"    : "자본변동표(연결)",
+}
 
-    if not md_lines:
+
+def _build_period_year_map(lines: list[str]) -> dict[int, int]:
+    """
+    단일 셀 날짜 참조 행에서 기수→연도 매핑 추출.
+
+    예) "| 제 20 기          2025.12.31 현재 |"
+        → {20: 2025}
+    """
+    mapping: dict[int, int] = {}
+    for line in lines:
+        cells = _split_md_row(line)
+        non_empty = [c for c in cells if c.strip()]
+        if len(non_empty) != 1:
+            continue
+        cell = non_empty[0]
+        m_p = re.search(r"제\s*(\d+)\s*기", cell)
+        m_y = re.search(r"(\d{4})\.\d{2}\.\d{2}", cell)
+        if m_p and m_y:
+            mapping[int(m_p.group(1))] = int(m_y.group(1))
+    return mapping
+
+
+def _parse_detail_section(lines: list[str], unit_divisor: float = 1.0) -> pd.DataFrame:
+    """
+    연결재무제표 한 섹션의 마크다운 행 리스트 → DataFrame.
+
+    Parameters
+    ----------
+    lines        : "| ... |" 형태의 행 리스트 (이미 필터된 것)
+    unit_divisor : 원→백만원 변환 시 1_000_000
+
+    Returns
+    -------
+    pd.DataFrame  컬럼=[구분, 2025, 2024, 2023, ...]
+    """
+    if not lines:
         return pd.DataFrame()
+
+    # 기수→연도 매핑: "제 20 기  2025.12.31 현재" 단일 셀 행에서 추출
+    period_to_year = _build_period_year_map(lines)
 
     # 헤더 찾기: "제 N 기" 패턴이 2개 이상 있는 다중 셀 행
     # (단일 셀 "제 20 기   2025.12.31 현재" 행은 제외)
     header_idx = 0
     header_cells = None
-    for i, line in enumerate(md_lines):
+    for i, line in enumerate(lines):
         cells = _split_md_row(line)
         matching = [c for c in cells if re.search(r"제\s*\d+\s*기", c)]
-        if len(matching) >= 2 and len(cells) >= 3:   # 다중 셀 헤더만 채택
+        if len(matching) >= 2 and len(cells) >= 3:
             header_cells = cells
             header_idx = i
             break
 
     if header_cells is None:
-        # fallback: 첫 행을 헤더로
-        header_cells = _split_md_row(md_lines[0])
+        header_cells = _split_md_row(lines[0])
         header_idx = 0
 
-    # 컬럼명: "제 20 기" → "2025" (연도 매핑)
-    # 사업보고서 기준: 제20기=2025, 제19기=2024, 제18기=2023
+    # 컬럼명: "제 N 기" → 연도 문자열
+    # 1순위: period_to_year 매핑 (단일 셀 날짜 행에서 추출)
+    # 2순위: 최대 기수 = 현재연도 방식 (fallback)
+    from datetime import date as _date
+    current_year = _date.today().year
+    period_nums_in_header = []
+    for c in header_cells:
+        m = re.search(r"제\s*(\d+)\s*기", c)
+        if m:
+            period_nums_in_header.append(int(m.group(1)))
+    max_period = max(period_nums_in_header) if period_nums_in_header else 0
+
     cleaned_cols = []
     for c in header_cells:
         m = re.search(r"제\s*(\d+)\s*기", c)
         if m:
-            # 기수→연도 변환: 아모레퍼시픽 제20기=2025년
-            # 일반식: 연도 = 2025 - (20 - 기수)
             period_num = int(m.group(1))
-            year = 2025 - (20 - period_num)
+            if period_num in period_to_year:
+                year = period_to_year[period_num]
+            else:
+                # fallback: 최대기수→당해연도 차이로 계산
+                if max_period and max_period in period_to_year:
+                    year = period_to_year[max_period] - (max_period - period_num)
+                else:
+                    year = current_year - (max_period - period_num)
             cleaned_cols.append(str(year))
         else:
             cleaned_cols.append(c.strip() if c.strip() else "구분")
 
     data_rows: list[list] = []
-    for line in md_lines[header_idx + 1:]:
+    for line in lines[header_idx + 1:]:
         if re.match(r"^\|\s*[-:]+", line):
             continue
         cells = _split_md_row(line)
         if cells == header_cells:
-            continue  # 중복 헤더 스킵
-        # 내용이 하나만 있는 섹션 제목 행 (재무상태표, 포괄손익계산서 등)
+            continue
         non_empty = [c for c in cells if c]
         if len(non_empty) == 1:
-            continue
+            continue  # 섹션 제목 행 스킵
         if len(cells) < len(cleaned_cols):
             cells += [""] * (len(cleaned_cols) - len(cells))
         else:
@@ -391,7 +442,6 @@ def _parse_detail_section(merged_text: str, unit_divisor: float = 1.0) -> pd.Dat
     first_col = df.columns[0]
     df[first_col] = df[first_col].apply(clean_label)
 
-    # 숫자 컬럼 변환 + 단위 조정
     year_cols = [c for c in df.columns if re.match(r"\d{4}", c)]
     for c in year_cols:
         df[c] = df[c].apply(clean_number)
@@ -403,37 +453,103 @@ def _parse_detail_section(merged_text: str, unit_divisor: float = 1.0) -> pd.Dat
     return df.reset_index(drop=True)
 
 
+def _split_연결재무제표(merged_text: str) -> dict[str, list[str]]:
+    """
+    연결재무제표 통합 마크다운 텍스트를 개별 재무제표별 행 리스트로 분리.
+
+    단일 셀 행이 섹션 구분자:
+      "연결 재무상태표"     → 재무상태표(연결) 섹션 시작
+      "연결 포괄손익계산서"  → 포괄손익계산서(연결) 섹션 시작
+      "연결 현금흐름표"     → 현금흐름표(연결) 섹션 시작
+      "연결 자본변동표"     → 자본변동표(연결) 섹션 시작
+
+    Returns
+    -------
+    {"재무상태표(연결)": [lines], "포괄손익계산서(연결)": [lines], ...}
+    """
+    md_lines = [l.strip() for l in merged_text.splitlines()
+                if l.strip() and l.strip().startswith("|")]
+
+    sections: dict[str, list[str]] = {}
+    current_key: str | None = None
+    current_lines: list[str] = []
+
+    for line in md_lines:
+        cells = _split_md_row(line)
+        non_empty = [c for c in cells if c.strip()]
+
+        if len(non_empty) == 1:
+            cell_text = non_empty[0]
+            matched_key = None
+            for marker, key in _FS_SECTION_MARKERS.items():
+                if marker in cell_text:
+                    matched_key = key
+                    break
+            if matched_key:
+                if current_key and current_lines:
+                    sections[current_key] = current_lines
+                current_key = matched_key
+                current_lines = []
+                continue   # 섹션 제목 행은 데이터에 포함하지 않음
+
+        if current_key:
+            current_lines.append(line)
+
+    if current_key and current_lines:
+        sections[current_key] = current_lines
+
+    return sections
+
+
 def get_financial_detail(stock_code: str = "090430") -> dict[str, pd.DataFrame]:
     """
     컴포넌트 ③ 재무정보 상세 탭용.
-    출처: JSONL 사업보고서 → "재무정보" 섹션 (prefix "1-1" 연결)
-         parse_재무정보(stock_code, "연결") 호출
-         → 재무상태표: 사업보고서 재무정보 1-1 상단 표 (연결 기준)
-         → 포괄손익계산서: 사업보고서 재무정보 1-1 하단 표 (연결 기준)
+
+    출처 (JSONL 직접 파싱):
+      사업보고서 > III. 재무에 관한 사항 > 2. 연결재무제표
+      app_config.SECTION["연결재무제표"] 섹션 경로 사용
 
     Returns
     -------
     {
-      "포괄손익계산서(연결)" : DataFrame,  ← 사업보고서 연결 포괄손익계산서 3개년
-      "재무상태표(연결)"     : DataFrame,  ← 사업보고서 연결 재무상태표 3개년
+      "재무상태표(연결)"     : DataFrame,  단위=백만원
+      "포괄손익계산서(연결)" : DataFrame,  단위=백만원
+      "현금흐름표(연결)"     : DataFrame,  단위=백만원  (있을 경우)
     }
-    단위: 백만원
+
+    Notes
+    -----
+    - JSONL 연결재무제표 원本 단위: 원(₩)
+    - 반환 단위: 백만원  (÷ 1,000,000)
+    - 컬럼명: "2025", "2024", "2023" (제N기 → 연도 자동 변환)
     """
-    result = {}
+    from src.collectors.jsonl_loader import get_section as _get_sec
+
+    result: dict[str, pd.DataFrame] = {}
     try:
-        data = parse_재무정보(stock_code, "연결")
-    except (ValueError, KeyError):
+        tables = _get_sec(stock_code, "연결재무제표")
+    except (ValueError, KeyError, FileNotFoundError):
         return result
 
-    # 포괄손익계산서 (연결) — 사업보고서 1-1 하단 섹션
-    pl = data.get("포괄손익", pd.DataFrame())
-    if not pl.empty:
-        result["포괄손익계산서(연결)"] = pl
+    if not tables:
+        return result
 
-    # 재무상태표 (연결) — 사업보고서 1-1 상단 섹션
-    bs = data.get("재무상태표", pd.DataFrame())
-    if not bs.empty:
-        result["재무상태표(연결)"] = bs
+    # 연결재무제표 섹션은 모든 청크가 하나의 대형 테이블로 병합됨
+    # (title=""인 단일 그룹)  →  내부 섹션별로 분리
+    all_text_lines: list[str] = []
+    for t in tables:
+        all_text_lines.extend(
+            l.strip() for l in t["merged_text"].splitlines()
+            if l.strip() and l.strip().startswith("|")
+        )
+
+    full_merged = "\n".join(all_text_lines)
+    sections = _split_연결재무제표(full_merged)
+
+    for key, lines in sections.items():
+        df = _parse_detail_section(lines, unit_divisor=1_000_000)
+        if not df.empty:
+            result[key] = df
 
     return result
 
@@ -548,5 +664,6 @@ if __name__ == "__main__":
 
     print("\n" + "=" * 60)
     print("✅ financial_parser 검증 완료")
+
 
 

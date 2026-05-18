@@ -55,7 +55,7 @@ def aggregate(
       "generated_at" : 생성 시각 str,
     }
     """
-    print(f"[aggregator] 데이터 수집 시작 — {stock_code}")
+    print(f"[aggregator] 데이터 수집 시작 - {stock_code}")
 
     # ── 1) 주가 ─────────────────────────────────────────────
     print("  → 주가 수집 (yfinance)...")
@@ -105,7 +105,7 @@ def aggregate(
     if others > 0:
         shareholder_chart.append({"name": "기타", "ratio": others, "shares": None})
 
-    print(f"[aggregator] 완료 — {datetime.now().strftime('%H:%M:%S')}")
+    print(f"[aggregator] 완료 - {datetime.now().strftime('%H:%M:%S')}")
 
     return {
         "meta"          : {"stock_code": stock_code, "corp_code": corp_code,

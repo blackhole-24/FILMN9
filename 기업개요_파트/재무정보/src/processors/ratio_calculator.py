@@ -1,4 +1,4 @@
-"""
+﻿"""
 processors/ratio_calculator.py
 ────────────────────────────────
 재무 건전성 5개 비율 계산 (Python only — LLM 사용 금지).
@@ -11,7 +11,7 @@ processors/ratio_calculator.py
 당좌비율    = (유동자산 - 재고자산) / 유동부채 × 100
 유보율      = (자본잉여금 + 이익잉여금) / 자본금 × 100
 
-출처: 별도재무제표 (financial_parser.get_financial_detail)
+출처: 재무상태표(연결) (financial_parser.get_financial_detail)
 단위: 백만원 (비율은 %)
 """
 
@@ -60,7 +60,7 @@ def _get_val(df: pd.DataFrame, keyword: str, year: str = "2025",
 def calculate_ratios(
     stock_code: str = "090430",
     year: str = "2025",
-    fs_type: str = "별도재무제표",   # "별도재무제표" | "연결재무제표"
+    fs_type: str = "재무상태표(연결)",  # "재무상태표(연결)" | "별도재무제표"
 ) -> dict:
     """
     재무 건전성 5개 비율 계산.
@@ -154,7 +154,7 @@ def calculate_ratios(
 # ─────────────────────────────────────────────────────────────────────────────
 
 if __name__ == "__main__":
-    ratios = calculate_ratios("090430", "2025", "별도재무제표")
+    ratios = calculate_ratios("090430", "2025", "재무상태표(연결)")
     print("=" * 55)
     print("FILMN9 ratio_calculator 검증 — 아모레퍼시픽(090430)")
     print("=" * 55)
@@ -171,3 +171,4 @@ if __name__ == "__main__":
 
     print("\n" + "=" * 55)
     print("✅ ratio_calculator 검증 완료")
+
