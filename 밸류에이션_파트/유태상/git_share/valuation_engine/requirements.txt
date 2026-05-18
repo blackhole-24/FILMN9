@@ -1,0 +1,22 @@
+# valuation_engine 의존성
+# conda dart-rag 환경에 추가 설치:
+#   pip install -r valuation_engine/requirements.txt
+
+# 공통
+pandas>=2.0
+numpy>=1.24
+python-dotenv>=1.0
+requests>=2.31
+
+# 팀원 XBRL 모듈
+lxml>=4.9
+
+# DCF 계산
+statsmodels>=0.14   # peer_beta 의존성 (이미 설치되어 있음)
+
+# Streamlit 대시보드 (★ 새로 필요)
+streamlit>=1.30
+plotly>=5.18
+
+# RAG + LLM (사업보고서 청크에서 발행/자기주식수 추출)
+openai>=1.30
