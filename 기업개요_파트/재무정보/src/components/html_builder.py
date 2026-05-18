@@ -1,4 +1,4 @@
-"""
+﻿"""
 components/html_builder.py
 ────────────────────────────
 data_aggregator 결과 → 완성된 HTML 문자열 생성.
@@ -349,7 +349,7 @@ def _build_highlight(data: dict) -> str:
   Plotly.newPlot('{chart_id}', [{{
     x:{lbl_json}, y:{bar_json}, type:'bar',
     marker:{{color:'{bar_color}'}},
-    text:{bar_json}.map(v=>v>=1e6?(v/1e6).toFixed(2)+'조':(v>=1e4?(v/1e4).toFixed(0)+'억':v.toFixed(0)+'백만')),
+    text:{bar_json}.map(v=>v>=1e6?(v/1e6).toFixed(2)+'조':(v>=100?(v/100).toFixed(0)+'억':v.toFixed(0)+'백만')),
     textposition:'outside', textfont:{{size:9}},
     hovertemplate:'%{{x}}<br>%{{y:,.0f}}백만원<extra></extra>'
   }}], {{
@@ -371,8 +371,8 @@ def _build_financial_detail(data: dict) -> str:
     tab_ids = []
 
     tab_labels = {
-        "연결재무제표": "포괄손익(연결)",
-        "별도재무제표": "포괄손익(별도)",
+        "포괄손익계산서(연결)": "포괄손익계산서(연결)",
+        "재무상태표(연결)": "재무상태표(연결)",
     }
 
     for i, (label, df) in enumerate(detail.items()):
@@ -461,7 +461,7 @@ def _build_ratios(data: dict) -> str:
 <div class="card">
   <div class="card-hdr">
     <div class="card-title">💪 기업 건전성</div>
-    <div class="card-sub">2025.12 기준 · 별도재무제표</div>
+    <div class="card-sub">2025.12 기준 · 연결재무제표</div>
   </div>
   {rows}
 </div>"""
@@ -536,27 +536,76 @@ Plotly.newPlot('donutChart', [{{
 
 
 def _build_executives(data: dict) -> str:
+    # 출처: financial_parser.py get_executive_table() → 사업보고서 "임원현황" 섹션
+    # 지분율 출처: dart_api_collector.py get_major_shareholders() → DART majorstock.json
     df = data["executives"]
     if df.empty:
         return ""
-    rows = ""
-    for _, r in df.head(15).iterrows():
-        rows += f"""<tr>
-          <td>{r.get('성명','-')}</td>
-          <td>{r.get('직위','-')}</td>
-          <td>{r.get('담당업무','-')}</td>
-          <td>{r.get('재직기간','-')}</td>
+
+    # 주주 지분율 매핑 (경영인 이름 → 지분율)
+    sh_map = {h["name"]: h["ratio"] for h in data.get("shareholders", [])}
+
+    rows_visible = ""   # 상위 5명 (기본 표시)
+    rows_hidden  = ""   # 나머지 (접기)
+
+    for idx, (_, r) in enumerate(df.iterrows()):
+        name     = r.get("성명", "-")
+        직위     = r.get("직위", "-")
+        담당업무 = r.get("담당업무", "-")
+        재직기간 = r.get("재직기간", "-")
+        관계     = r.get("최대주주와의관계", "")
+        own_pct  = sh_map.get(name)
+        own_html = f"{own_pct:.2f}%" if own_pct else ("-" if not 관계 else "-")
+        rel_html = f'<span style="font-size:10px;color:#94A3B8;">{관계}</span>' if 관계 else ""
+
+        row = f"""<tr>
+          <td>{name}{rel_html}</td>
+          <td>{직위}</td>
+          <td>{담당업무}</td>
+          <td>{재직기간}</td>
+          <td style="text-align:right;font-weight:700;color:#F97316;">{own_html}</td>
         </tr>"""
+        if idx < 5:
+            rows_visible += row
+        else:
+            rows_hidden += row
+
+    hidden_block = ""
+    toggle_btn   = ""
+    if rows_hidden:
+        hidden_block = f'<tbody id="execHidden" style="display:none;">{rows_hidden}</tbody>'
+        toggle_btn   = f"""
+  <div style="text-align:center;margin-top:8px;">
+    <button onclick="toggleExec()" id="execToggleBtn"
+      style="padding:4px 16px;border:1px solid #E2E8F0;border-radius:6px;
+             font-size:11px;cursor:pointer;background:#fff;color:#64748B;">
+      전체 보기 ({len(df)}명)
+    </button>
+  </div>
+  <script>
+  function toggleExec() {{
+    const h = document.getElementById('execHidden');
+    const b = document.getElementById('execToggleBtn');
+    if (h.style.display === 'none') {{
+      h.style.display = ''; b.textContent = '접기';
+    }} else {{
+      h.style.display = 'none'; b.textContent = '전체 보기 ({len(df)}명)';
+    }}
+  }}
+  </script>"""
+
     return f"""
 <div class="card">
   <div class="card-hdr">
     <div class="card-title">👤 경영인</div>
-    <div class="card-sub">2025.12 기준</div>
+    <div class="card-sub">2025.12 기준 · 사업보고서</div>
   </div>
   <table class="exec-table">
-    <thead><tr><th>성명</th><th>직위</th><th>담당업무</th><th>재직기간</th></tr></thead>
-    <tbody>{rows}</tbody>
+    <thead><tr><th>성명</th><th>직위</th><th>담당업무</th><th>재직기간</th><th style="text-align:right;">지분율</th></tr></thead>
+    <tbody>{rows_visible}</tbody>
+    {hidden_block}
   </table>
+  {toggle_btn}
 </div>"""
 
 
@@ -646,3 +695,5 @@ def build_html(data: dict) -> str:
 </div>
 </body>
 </html>"""
+
+

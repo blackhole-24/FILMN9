@@ -1,4 +1,4 @@
-"""
+﻿"""
 processors/financial_parser.py
 ────────────────────────────────
 jsonl_loader 가 병합한 마크다운 표 텍스트 → pandas DataFrame 변환.
@@ -406,32 +406,34 @@ def _parse_detail_section(merged_text: str, unit_divisor: float = 1.0) -> pd.Dat
 def get_financial_detail(stock_code: str = "090430") -> dict[str, pd.DataFrame]:
     """
     컴포넌트 ③ 재무정보 상세 탭용.
+    출처: JSONL 사업보고서 → "재무정보" 섹션 (prefix "1-1" 연결)
+         parse_재무정보(stock_code, "연결") 호출
+         → 재무상태표: 사업보고서 재무정보 1-1 상단 표 (연결 기준)
+         → 포괄손익계산서: 사업보고서 재무정보 1-1 하단 표 (연결 기준)
 
     Returns
     -------
     {
-      "연결재무제표" : DataFrame,
-      "별도재무제표" : DataFrame,
+      "포괄손익계산서(연결)" : DataFrame,  ← 사업보고서 연결 포괄손익계산서 3개년
+      "재무상태표(연결)"     : DataFrame,  ← 사업보고서 연결 재무상태표 3개년
     }
     단위: 백만원
-    숫자가 원 단위(10자리 이상)이면 자동으로 백만원으로 변환.
     """
     result = {}
+    try:
+        data = parse_재무정보(stock_code, "연결")
+    except (ValueError, KeyError):
+        return result
 
-    for sec_key, label in [("연결재무제표", "연결재무제표"), ("별도재무제표", "별도재무제표")]:
-        tables = get_section(stock_code, sec_key)
-        # 행 수 가장 많은 테이블 사용 (메인 재무제표)
-        if not tables:
-            continue
-        main = max(tables, key=lambda t: len(t["merged_text"].splitlines()))
+    # 포괄손익계산서 (연결) — 사업보고서 1-1 하단 섹션
+    pl = data.get("포괄손익", pd.DataFrame())
+    if not pl.empty:
+        result["포괄손익계산서(연결)"] = pl
 
-        # 원 단위 여부 감지 (숫자 길이 10자리 이상이면 원 단위)
-        sample_nums = re.findall(r"[\d,]{10,}", main["merged_text"])
-        unit_divisor = 1_000_000.0 if len(sample_nums) > 5 else 1.0
-
-        df = _parse_detail_section(main["merged_text"], unit_divisor)
-        if not df.empty:
-            result[label] = df
+    # 재무상태표 (연결) — 사업보고서 1-1 상단 섹션
+    bs = data.get("재무상태표", pd.DataFrame())
+    if not bs.empty:
+        result["재무상태표(연결)"] = bs
 
     return result
 
@@ -499,7 +501,7 @@ def get_executive_table(stock_code: str = "090430") -> pd.DataFrame:
     df = df[df["성명"].str.strip().ne("-")]
 
     # UI에 필요한 컬럼만 반환
-    keep = ["성명", "직위", "담당업무", "재직기간", "최대주주와의관계"]
+    keep = ["성명", "직위", "담당업무", "재직기간", "최대주주와의관계", "소유주식수_의결권"]
     df = df[keep].copy()
 
     # 주요경력이 담당업무 자리로 들어온 경우 정리
@@ -546,3 +548,5 @@ if __name__ == "__main__":
 
     print("\n" + "=" * 60)
     print("✅ financial_parser 검증 완료")
+
+
