@@ -1,0 +1,52 @@
+{
+  "folders": [
+    {
+      "name": "📁 RAG (통합 JSONL — 2,596개)",
+      "path": "data/RAG"
+    },
+    {
+      "name": "📂 RAG_by_team/팀원1 (642개)",
+      "path": "data/RAG_by_team/팀원1"
+    },
+    {
+      "name": "📂 RAG_by_team/팀원2 (652개)",
+      "path": "data/RAG_by_team/팀원2"
+    },
+    {
+      "name": "📂 RAG_by_team/팀원3 (653개)",
+      "path": "data/RAG_by_team/팀원3"
+    },
+    {
+      "name": "📂 RAG_by_team/팀원4 (652개)",
+      "path": "data/RAG_by_team/팀원4"
+    },
+    {
+      "name": "🔧 data_collection (파이프라인 코드)",
+      "path": "data_collection"
+    }
+  ],
+  "settings": {
+    "explorer.fileNesting.enabled": true,
+    "explorer.fileNesting.patterns": {
+      "*.jsonl": ""
+    },
+    "files.associations": {
+      "*.jsonl": "jsonl"
+    },
+    "search.exclude": {
+      "**/RAG_by_team/**": false,
+      "**/RAG/**": false
+    },
+    "files.exclude": {
+      "**/.git": true,
+      "**/raw": true
+    },
+    "explorer.sortOrder": "name"
+  },
+  "extensions": {
+    "recommendations": [
+      "mechatroner.rainbow-csv",
+      "ms-python.python"
+    ]
+  }
+}

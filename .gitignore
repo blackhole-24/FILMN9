@@ -216,3 +216,25 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+
+# 환경변수
+.env
+*.env
+
+# 데이터 파일
+data/raw/*.csv
+data/raw/*.xlsx
+data/raw/*.json
+
+# 결과물
+outputs/
+
+# VS Code
+.vscode/
+
+
+# 대용량 데이터 파일 제외
+data/
+*.jsonl
