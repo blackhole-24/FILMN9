@@ -90,6 +90,3 @@ python peer_group_finder.py sk하이닉스
 
 현재 커버되는 기업 nnn개 이상으로 확장하는 과정 진행 중
 
-```
-
-```
