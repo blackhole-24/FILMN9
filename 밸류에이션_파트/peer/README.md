@@ -1,4 +1,3 @@
-```markdown
 # peer_group_finder_fullkrx_A
 
 국내 상장 전종목(~2,766개)을 대상으로 기업명 또는 종목코드를 입력하면 정교한 알고리즘을 통해 가장 적합한 유사기업(Peer Group) 리스트를 산출하여 반환하는 Python 모듈입니다.
