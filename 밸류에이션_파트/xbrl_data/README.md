@@ -99,6 +99,23 @@ python xbrl_financials_v3.py {삼성전자} {2024} --api-key YOUR_KEY
 
 ---
 
+# run_all.py
+nnnn년도의 xbrl_data를 모두 한번에 수집하고 싶을 때,
+run_all.py, xbrl_data_v2.py, 전종목리스트.csv 세 파일을 한 폴더에 넣어두고 
+
+```bash
+
+python run_all.py
+```
+
+오류가 발생한 종목들을 리스트화해서 failed_stock_names.csv에 저장
+-> run_all_2차.py, xbrl_data_v2.py, 전종목리스트.csv 세 파일을 한 폴더에 넣어두고 
+
+```bash
+
+python run_all_2차.py
+```
+
 ## LLM 역할 경계
 
 수치 계산은 **Python에서만** 수행합니다. LLM은 추출·분류·요약 역할만 담당하며, IBD를 포함한 모든 재무 수치는 XBRL 원본 데이터를 파싱하여 직접 산출합니다.
