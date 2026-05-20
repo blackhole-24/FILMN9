@@ -1,5 +1,5 @@
 
-# xbrl_financials_v3
+# xbrl_data_v2.py
 
 DART OpenAPI의 XBRL 원본파일 + 택사노미를 이용해 국내 상장기업의 핵심 재무지표를 범용으로 추출하는 Python 모듈입니다.
 
@@ -103,7 +103,4 @@ python xbrl_financials_v3.py {삼성전자} {2024} --api-key YOUR_KEY
 
 수치 계산은 **Python에서만** 수행합니다. LLM은 추출·분류·요약 역할만 담당하며, IBD를 포함한 모든 재무 수치는 XBRL 원본 데이터를 파싱하여 직접 산출합니다.
 
----
 
-## TO-BE
-검증 중 '미래에셋증권' [2/5] 2025 사업보고서 접수번호 조회 단계에서 오류 발생 
