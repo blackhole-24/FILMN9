@@ -100,23 +100,17 @@ python xbrl_financials_v3.py {삼성전자} {2024} --api-key YOUR_KEY
 ---
 
 # run_all_{nnnn}.py
-nnnn년도의 xbrl_data를 모두 한번에 수집하고 싶을 때,
+{nnnn}년도의 xbrl_data를 모두 한번에 수집하고 싶을 때,
 
-1. run_all_{nnnn}.py 파일 내 ';target_year=nnnn' 부분을 수정
+1. run_all_{nnnn}.py 파일 내 'target_year={nnnn}' 부분을 수정
 2. run_all_{nnnn}.py, xbrl_data.py, 전종목리스트.csv 세 파일을 한 폴더에 넣어둠
 
 ```bash
 
-python run_all.py
+python run_all_{nnnn}.py
 ```
 
-run_all.py 로 수집되지 못한 종목들에 대한 2차 수집
-1. 오류가 발생한 종목들을 리스트화해서 failed_stock_names.csv에 저장
-2. run_all_2차.py, xbrl_data_v2.py, failed_stock_names.csv 세 파일을 한 폴더에 넣어두고 
 
-```bash
-
-python run_all_2차.py
 ```
 
 ---
