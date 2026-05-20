@@ -110,6 +110,7 @@ nnnn년도의 xbrl_data를 모두 한번에 수집하고 싶을 때,
 python run_all.py
 ```
 
+run_all.py 로 수집되지 못한 종목들에 대한 2차 수집
 1. 오류가 발생한 종목들을 리스트화해서 failed_stock_names.csv에 저장
 2. run_all_2차.py, xbrl_data_v2.py, failed_stock_names.csv 세 파일을 한 폴더에 넣어두고 
 
