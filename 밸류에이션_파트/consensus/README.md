@@ -36,6 +36,35 @@ data/
     └── by_stock_code/{code}.json   # A2 통합 최종 입력값 ← valuation.py에서 사용
 ```
 
+## 산출물 스키마 (valuation_input/{code}.json)
+
+```json
+{
+  "stock_code": "000080",
+  "stock_name": "하이트진로",
+  "data_quality": "green",
+  "consensus": {
+    "target_price_avg": 25000,
+    "target_price_range": [23000, 28000],
+    "analyst_count": 6,
+    "opinion_majority": "Buy"
+  },
+  "forecast": {
+    "revenue":    {"2025": 2532, "2026": 2560, "2027": 2604},
+    "op_income":  {"2025": 197,  "2026": 210,  "2027": 224},
+    "net_income": {"2025": null, "2026": null,  "2027": null}
+  },
+  "valuation_multiples": {
+    "per_estimate": [14.2, 13.1],
+    "pbr_estimate": [1.2, 1.1],
+    "roe_estimate": [9.5, 10.1]
+  }
+}
+```
+
+단위: 매출/영업이익/당기순이익 억원, 적정가 원
+
+
 ## 품질 기준
 
 | 등급 | 조건 | 현황 |
