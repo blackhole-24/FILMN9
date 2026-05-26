@@ -348,9 +348,11 @@ def main(query: str = "090430") -> None:
         n   = fin["net_income"].get(y0)
         d   = fin["debt_ratio"].get(y0)
         cf  = fin["cashflow_op"].get(y0)
-        if r:
+        if r is not None and o is not None and n is not None:
             print(f"  [{y0}] 매출={r:>14,.0f} 백만원  영업이익={o:>12,.0f}  순이익={n:>12,.0f}")
-        if d is not None and cf:
+        elif r is not None:
+            print(f"  [{y0}] 매출={r:>14,.0f} 백만원  (영업이익/순이익 일부 NULL)")
+        if d is not None and cf is not None:
             print(f"  [{y0}] 부채비율={d}%  영업CF={cf:>12,.0f} 백만원")
 
     print(f"\n  company_info.json : {ci_path.stat().st_size:,} bytes")

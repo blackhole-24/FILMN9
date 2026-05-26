@@ -16,14 +16,18 @@ FILMN9 FastAPI 서버 — 재무정보 파트
   GET /api/ohlcv/{code}          OHLCV 전체 (기간 필터 가능)
   GET /api/ohlcv/{code}/latest   최신 가격 단일 레코드
   GET /api/search?q=삼성         기업 검색 (corp_code_map)
+  GET /sankey/{code}             Sankey HTML 반환
   GET /docs                      Swagger UI (자동 생성)
   GET /health                    서버 상태 확인
 """
 
 from fastapi import FastAPI, Query, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import HTMLResponse, FileResponse
+from fastapi.staticfiles import StaticFiles
 from pathlib import Path
 import json
+import os
 import sys
 
 # ─── 경로 설정 ────────────────────────────────────────────────────────────────
@@ -32,9 +36,29 @@ _FIN  = _ROOT / "기업개요_파트" / "재무정보"
 if str(_FIN) not in sys.path:
     sys.path.insert(0, str(_FIN))
 
+# ─── .env 파일 수동 로드 (python-dotenv 없이) ──────────────────────────────────
+def _load_env(env_path: Path = _ROOT / ".env") -> None:
+    if not env_path.exists():
+        return
+    with open(env_path, encoding="utf-8") as f:
+        for line in f:
+            line = line.strip()
+            if not line or line.startswith("#") or "=" not in line:
+                continue
+            key, _, val = line.partition("=")
+            key = key.strip()
+            val = val.strip()
+            if key and key not in os.environ:
+                os.environ[key] = val
+
+_load_env()
+
 # ─── 라우터 임포트 ─────────────────────────────────────────────────────────────
-from api.routers.company import router as company_router
-from api.routers.ohlcv   import router as ohlcv_router
+from api.routers.company   import router as company_router
+from api.routers.ohlcv     import router as ohlcv_router
+from api.routers.overview  import router as overview_router
+from api.routers.extras    import router as extras_router
+from api.routers.valuation import router as valuation_router
 
 # ─── 앱 생성 ──────────────────────────────────────────────────────────────────
 app = FastAPI(
@@ -47,13 +71,21 @@ app = FastAPI(
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
-    allow_methods=["GET"],
+    allow_methods=["GET", "POST"],
     allow_headers=["*"],
 )
 
+# ─── 프론트엔드 정적 파일 서빙 ────────────────────────────────────────────────
+_FRONTEND = _ROOT / "frontend"
+if _FRONTEND.exists():
+    app.mount("/app", StaticFiles(directory=str(_FRONTEND), html=True), name="frontend")
+
 # ─── 라우터 등록 ───────────────────────────────────────────────────────────────
-app.include_router(company_router, prefix="/api")
-app.include_router(ohlcv_router,   prefix="/api")
+app.include_router(company_router,   prefix="/api")
+app.include_router(ohlcv_router,     prefix="/api")
+app.include_router(overview_router,  prefix="/api")
+app.include_router(extras_router,    prefix="/api")
+app.include_router(valuation_router, prefix="/api")
 
 
 # ─── 기업 검색 엔드포인트 (corp_code_map 활용) ────────────────────────────────
@@ -126,6 +158,27 @@ def root():
             "/api/overview/{code}",
             "/api/ohlcv/{code}",
             "/api/ohlcv/{code}/latest",
+            "/api/valuation/{code}",
             "/api/search?q=기업명",
+            "/sankey/{code}",
         ]
     }
+
+
+# ─── Sankey HTML 서빙 ─────────────────────────────────────────────────────────
+_SANKEY_DIR = _ROOT / "outputs" / "sankey"
+
+@app.get("/sankey/{stock_code}", response_class=HTMLResponse)
+def get_sankey(stock_code: str):
+    """
+    사전 생성된 Plotly Sankey HTML 반환.
+    파일 없으면 404.
+    실행: python db/build_sankey.py {code}
+    """
+    html_path = _SANKEY_DIR / f"{stock_code}_sankey.html"
+    if not html_path.exists():
+        raise HTTPException(
+            status_code=404,
+            detail=f"Sankey 미생성: {stock_code} — python db/build_sankey.py {stock_code} 실행 필요",
+        )
+    return HTMLResponse(content=html_path.read_text(encoding="utf-8"))

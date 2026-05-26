@@ -1,0 +1,910 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FILMN9 AI 기능 4종 설계서 v1.0</title>
+<style>
+  :root {
+    --orange: #F97316;
+    --blue: #1f4ed8;
+    --dark: #0A1628;
+    --slate: #64748b;
+    --border: #e2e8f0;
+    --bg: #f8fafc;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Pretendard', -apple-system, sans-serif; background: var(--bg); color: #1e293b; font-size: 14px; line-height: 1.7; }
+
+  /* ── Header ── */
+  .hero { background: linear-gradient(135deg, #0A1628, #1a3a5c); color: white; padding: 48px 40px 36px; }
+  .hero-badge { display: inline-block; background: rgba(249,115,22,.25); color: #fb923c; font-size: 11px; font-weight: 700; letter-spacing: .08em; padding: 4px 12px; border-radius: 100px; margin-bottom: 16px; border: 1px solid rgba(249,115,22,.4); }
+  .hero h1 { font-size: 28px; font-weight: 800; margin-bottom: 8px; }
+  .hero-sub { font-size: 14px; color: rgba(255,255,255,.6); }
+  .meta-row { display: flex; gap: 24px; margin-top: 24px; flex-wrap: wrap; }
+  .meta-item { font-size: 12px; color: rgba(255,255,255,.5); }
+  .meta-item strong { color: rgba(255,255,255,.85); font-weight: 600; }
+
+  /* ── Nav ── */
+  .toc { background: white; border-bottom: 1px solid var(--border); padding: 0 40px; display: flex; gap: 4px; overflow-x: auto; }
+  .toc a { display: inline-block; padding: 12px 16px; font-size: 13px; font-weight: 600; color: var(--slate); text-decoration: none; border-bottom: 3px solid transparent; white-space: nowrap; transition: all .2s; }
+  .toc a:hover { color: var(--orange); }
+  .toc a.active { color: var(--orange); border-bottom-color: var(--orange); }
+
+  /* ── Layout ── */
+  .container { max-width: 1100px; margin: 0 auto; padding: 40px; }
+  .section { margin-bottom: 56px; scroll-margin-top: 60px; }
+
+  /* ── Feature Card ── */
+  .feature-header { display: flex; align-items: center; gap: 16px; margin-bottom: 28px; padding-bottom: 16px; border-bottom: 2px solid var(--border); }
+  .feature-num { width: 40px; height: 40px; border-radius: 12px; display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 18px; color: white; flex-shrink: 0; }
+  .feature-title { font-size: 22px; font-weight: 800; }
+  .feature-eng { font-size: 13px; color: var(--slate); margin-top: 2px; }
+
+  /* ── Grid ── */
+  .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  .grid-3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16px; }
+  @media(max-width:768px) { .grid-2,.grid-3 { grid-template-columns: 1fr; } }
+
+  /* ── Cards ── */
+  .card { background: white; border: 1px solid var(--border); border-radius: 16px; padding: 20px; }
+  .card-title { font-size: 11px; font-weight: 700; letter-spacing: .08em; color: var(--slate); margin-bottom: 12px; text-transform: uppercase; }
+  .card-accent { border-left: 4px solid var(--orange); }
+  .card-blue { border-left: 4px solid var(--blue); }
+  .card-green { border-left: 4px solid #10b981; }
+  .card-purple { border-left: 4px solid #8b5cf6; }
+
+  /* ── Flow Diagram ── */
+  .flow { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; margin: 16px 0; }
+  .flow-box { background: white; border: 1px solid var(--border); border-radius: 10px; padding: 8px 14px; font-size: 12px; font-weight: 600; text-align: center; }
+  .flow-box.src { background: #eff6ff; border-color: #bfdbfe; color: #1d4ed8; }
+  .flow-box.proc { background: #fff7ed; border-color: #fed7aa; color: #c2410c; }
+  .flow-box.ai { background: #faf5ff; border-color: #ddd6fe; color: #6d28d9; }
+  .flow-box.out { background: #f0fdf4; border-color: #bbf7d0; color: #15803d; }
+  .flow-arrow { color: var(--slate); font-size: 18px; flex-shrink: 0; }
+
+  /* ── API Spec ── */
+  .api-block { background: #1e293b; border-radius: 12px; padding: 20px; margin: 12px 0; }
+  .api-block pre { color: #e2e8f0; font-family: 'Fira Code', 'Consolas', monospace; font-size: 12px; line-height: 1.6; white-space: pre-wrap; }
+  .api-method { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 11px; font-weight: 700; margin-right: 8px; }
+  .GET { background: #166534; color: #86efac; }
+  .POST { background: #1e40af; color: #93c5fd; }
+
+  /* ── Prompt Box ── */
+  .prompt-box { background: #faf5ff; border: 1px solid #ddd6fe; border-radius: 12px; padding: 16px; margin: 12px 0; }
+  .prompt-label { font-size: 10px; font-weight: 700; color: #6d28d9; letter-spacing: .1em; text-transform: uppercase; margin-bottom: 8px; }
+  .prompt-box pre { font-family: 'Fira Code', 'Consolas', monospace; font-size: 12px; color: #3b0764; line-height: 1.6; white-space: pre-wrap; }
+
+  /* ── Table ── */
+  table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  th { background: var(--bg); padding: 10px 14px; text-align: left; font-weight: 700; color: var(--slate); border-bottom: 2px solid var(--border); font-size: 11px; letter-spacing: .06em; text-transform: uppercase; }
+  td { padding: 10px 14px; border-bottom: 1px solid var(--border); vertical-align: top; }
+  tr:hover td { background: #f8fafc; }
+
+  /* ── Tags ── */
+  .tag { display: inline-block; padding: 2px 10px; border-radius: 100px; font-size: 11px; font-weight: 600; margin: 2px; }
+  .tag-orange { background: #fff7ed; color: #c2410c; border: 1px solid #fed7aa; }
+  .tag-blue { background: #eff6ff; color: #1d4ed8; border: 1px solid #bfdbfe; }
+  .tag-green { background: #f0fdf4; color: #15803d; border: 1px solid #bbf7d0; }
+  .tag-purple { background: #faf5ff; color: #6d28d9; border: 1px solid #ddd6fe; }
+  .tag-gray { background: #f1f5f9; color: #475569; border: 1px solid #cbd5e1; }
+
+  /* ── Phase Steps ── */
+  .phase-list { list-style: none; }
+  .phase-list li { display: flex; gap: 12px; margin-bottom: 12px; align-items: flex-start; }
+  .phase-num { width: 24px; height: 24px; border-radius: 50%; background: var(--orange); color: white; font-size: 11px; font-weight: 700; display: flex; align-items: center; justify-content: center; flex-shrink: 0; margin-top: 2px; }
+  .phase-num.blue { background: var(--blue); }
+  .phase-num.green { background: #10b981; }
+  .phase-num.purple { background: #8b5cf6; }
+
+  /* ── Summary Table (Feature Overview) ── */
+  .overview-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; margin-bottom: 48px; }
+  @media(max-width:900px) { .overview-grid { grid-template-columns: 1fr 1fr; } }
+  .ov-card { background: white; border: 1px solid var(--border); border-radius: 16px; padding: 24px; text-align: center; }
+  .ov-icon { font-size: 32px; margin-bottom: 12px; }
+  .ov-num { font-size: 11px; font-weight: 700; color: var(--slate); letter-spacing: .08em; margin-bottom: 4px; }
+  .ov-name { font-size: 15px; font-weight: 800; margin-bottom: 8px; }
+  .ov-desc { font-size: 12px; color: var(--slate); line-height: 1.5; }
+
+  /* ── Divider ── */
+  .divider { height: 1px; background: var(--border); margin: 40px 0; }
+
+  /* ── Note ── */
+  .note { background: #fffbeb; border: 1px solid #fde68a; border-radius: 10px; padding: 12px 16px; font-size: 13px; color: #92400e; margin: 12px 0; }
+  .note strong { color: #78350f; }
+
+  /* ── Status Badge ── */
+  .status { display: inline-flex; align-items: center; gap: 6px; font-size: 12px; font-weight: 600; }
+  .status::before { content: ''; width: 8px; height: 8px; border-radius: 50%; }
+  .status-poc::before { background: #f59e0b; }
+  .status-ready::before { background: #10b981; }
+  .status-future::before { background: #94a3b8; }
+
+  footer { text-align: center; padding: 32px; color: var(--slate); font-size: 12px; border-top: 1px solid var(--border); margin-top: 40px; }
+</style>
+</head>
+<body>
+
+<!-- ── Hero ── -->
+<div class="hero">
+  <div class="hero-badge">FILMN9 PoC · AI 기능 설계서</div>
+  <h1>AI 기능 4종 설계서</h1>
+  <p class="hero-sub">SWOT 자동분석 · RAG 챗봇 · 모닝루틴 브리핑 · 밸류에이션 AI 어시스트</p>
+  <div class="meta-row">
+    <div class="meta-item"><strong>버전</strong> v1.0</div>
+    <div class="meta-item"><strong>작성일</strong> 2026-05-22</div>
+    <div class="meta-item"><strong>작성자</strong> KPMG AI Lab</div>
+    <div class="meta-item"><strong>모델</strong> GPT-4o / text-embedding-3-large</div>
+    <div class="meta-item"><strong>상태</strong> PoC 설계 확정</div>
+  </div>
+</div>
+
+<!-- ── TOC ── -->
+<nav class="toc">
+  <a href="#overview">개요</a>
+  <a href="#feat1">① SWOT 자동분석</a>
+  <a href="#feat2">② RAG 챗봇</a>
+  <a href="#feat3">③ 모닝루틴 브리핑</a>
+  <a href="#feat4">④ 밸류에이션 AI 어시스트</a>
+  <a href="#roadmap">구현 로드맵</a>
+  <a href="#security">보안·비용</a>
+</nav>
+
+<div class="container">
+
+  <!-- ══════════════════════════════════════════════
+       OVERVIEW
+  ══════════════════════════════════════════════ -->
+  <div class="section" id="overview">
+    <h2 style="font-size:20px;font-weight:800;margin-bottom:24px;">AI 기능 전체 개요</h2>
+
+    <div class="overview-grid">
+      <div class="ov-card">
+        <div class="ov-icon">🤖</div>
+        <div class="ov-num">FEATURE 1</div>
+        <div class="ov-name">SWOT 자동분석</div>
+        <div class="ov-desc">재무 데이터 + 공시 기반<br>LLM 자동 SWOT 생성</div>
+      </div>
+      <div class="ov-card">
+        <div class="ov-icon">💬</div>
+        <div class="ov-num">FEATURE 2</div>
+        <div class="ov-name">RAG 챗봇</div>
+        <div class="ov-desc">사업보고서 18GB 임베딩<br>자연어 Q&A</div>
+      </div>
+      <div class="ov-card">
+        <div class="ov-icon">📅</div>
+        <div class="ov-num">FEATURE 3</div>
+        <div class="ov-name">모닝루틴 브리핑</div>
+        <div class="ov-desc">관심 종목 매일 아침<br>자동 요약 브리핑</div>
+      </div>
+      <div class="ov-card">
+        <div class="ov-icon">📊</div>
+        <div class="ov-num">FEATURE 4</div>
+        <div class="ov-name">밸류에이션 AI 어시스트</div>
+        <div class="ov-desc">DCF·WACC 결과 설명<br>시나리오 Q&A</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-title">기능별 현황 요약</div>
+      <table>
+        <thead>
+          <tr>
+            <th>기능</th>
+            <th>핵심 기술</th>
+            <th>필요 데이터</th>
+            <th>PoC 상태</th>
+            <th>의존성</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>① SWOT 자동분석</strong></td>
+            <td>GPT-4o + 구조화 프롬프트</td>
+            <td>재무제표, 공시, 주가</td>
+            <td><span class="status status-poc">Mock 구현 완료</span></td>
+            <td>OpenAI API 키</td>
+          </tr>
+          <tr>
+            <td><strong>② RAG 챗봇</strong></td>
+            <td>Embedding + Vector DB + GPT-4o</td>
+            <td>사업보고서 18GB 임베딩</td>
+            <td><span class="status status-future">USB 수령 후 연결</span></td>
+            <td>임베딩 파일 + pgvector/FAISS</td>
+          </tr>
+          <tr>
+            <td><strong>③ 모닝루틴 브리핑</strong></td>
+            <td>GPT-4o + 스케줄러</td>
+            <td>OHLCV, 공시, 뉴스(외부)</td>
+            <td><span class="status status-poc">UI 준비, 스케줄러 미구현</span></td>
+            <td>뉴스 API (선택)</td>
+          </tr>
+          <tr>
+            <td><strong>④ 밸류에이션 AI 어시스트</strong></td>
+            <td>GPT-4o + 구조화 프롬프트</td>
+            <td>valuation JSON (태상님)</td>
+            <td><span class="status status-future">JSON 수령 후 연결</span></td>
+            <td>run_valuation.py 결과 JSON</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════════════
+       FEATURE 1: SWOT
+  ══════════════════════════════════════════════ -->
+  <div class="section" id="feat1">
+    <div class="feature-header">
+      <div class="feature-num" style="background:#F97316;">1</div>
+      <div>
+        <div class="feature-title">🤖 SWOT 자동분석</div>
+        <div class="feature-eng">Auto SWOT Analysis via LLM</div>
+      </div>
+      <span class="tag tag-orange">GPT-4o</span>
+      <span class="tag tag-gray">SQLite</span>
+    </div>
+
+    <!-- 기능 개요 -->
+    <div class="grid-2" style="margin-bottom:16px;">
+      <div class="card card-accent">
+        <div class="card-title">기능 개요</div>
+        <p>종목 상세 페이지 진입 시 <strong>재무제표·공시·주가 데이터를 자동으로 구조화</strong>해 GPT-4o에 전달, Strengths / Weaknesses / Opportunities / Threats 4분면을 한국어로 자동 생성한다.<br><br>
+        결과는 SQLite에 캐싱(TTL 24h)하여 동일 종목 재진입 시 API 재호출 없이 즉시 반환한다.</p>
+      </div>
+      <div class="card card-accent">
+        <div class="card-title">입력 데이터 구성</div>
+        <ul style="list-style:disc;padding-left:16px;font-size:13px;line-height:2;">
+          <li>최근 3개년 매출·영업이익·순이익 (SQLite <code>financials</code>)</li>
+          <li>영업이익률·부채비율·유동비율 (SQLite <code>health_ratios</code>)</li>
+          <li>최근 공시 10건 제목 (SQLite <code>disclosures</code>)</li>
+          <li>주가 52주 고저·등락률 (SQLite <code>ohlcv</code>)</li>
+          <li>기업 업종·시총 (SQLite <code>company_info</code>)</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- 데이터 플로우 -->
+    <div class="card" style="margin-bottom:16px;">
+      <div class="card-title">데이터 플로우</div>
+      <div class="flow">
+        <div class="flow-box src">SQLite<br>(5개 테이블)</div>
+        <div class="flow-arrow">→</div>
+        <div class="flow-box proc">컨텍스트<br>빌더</div>
+        <div class="flow-arrow">→</div>
+        <div class="flow-box ai">GPT-4o<br>JSON mode</div>
+        <div class="flow-arrow">→</div>
+        <div class="flow-box proc">캐시<br>저장 (24h)</div>
+        <div class="flow-arrow">→</div>
+        <div class="flow-box out">Tab3<br>SWOT UI</div>
+      </div>
+      <p style="font-size:12px;color:var(--slate);margin-top:8px;">캐시 히트 시: SQLite → Tab3 SWOT UI (API 호출 없음)</p>
+    </div>
+
+    <!-- API 명세 -->
+    <div class="grid-2" style="margin-bottom:16px;">
+      <div class="card">
+        <div class="card-title">API 명세</div>
+        <div style="margin-bottom:8px;">
+          <span class="api-method GET">GET</span>
+          <code style="font-size:12px;">/api/swot/{stock_code}</code>
+        </div>
+        <div class="api-block">
+          <pre>{
+  "stock_code": "090430",
+  "corp_name": "아모레퍼시픽",
+  "generated_at": "2026-05-22 09:00",
+  "cache_hit": true,
+  "swot": {
+    "strengths": [
+      "글로벌 K-뷰티 선도 브랜드 포트폴리오",
+      "아시아 유통망 22개국 직접 운영",
+      "R&D 투자 매출 대비 3.2% 유지"
+    ],
+    "weaknesses": [
+      "중국 의존도 38% — 지정학적 취약",
+      "영업이익률 2023년 4.8% → 하락 추세",
+      "온라인 채널 전환 지연"
+    ],
+    "opportunities": [
+      "인도·동남아 프리미엄 뷰티 시장 급성장",
+      "K-컬처 글로벌 확산으로 브랜드 인지도 ↑",
+      "면세·역직구 채널 회복"
+    ],
+    "threats": [
+      "중국 소비 경기 침체 장기화",
+      "글로벌 럭셔리 브랜드 아시아 공세",
+      "원자재 비용 상승"
+    ]
+  }
+}</pre>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-title">캐싱 전략</div>
+        <table>
+          <tr><td style="color:var(--slate);width:100px;">캐시 키</td><td><code>swot:{stock_code}:{YYYYMMDD}</code></td></tr>
+          <tr><td style="color:var(--slate);">TTL</td><td>24시간 (일 1회 자동 갱신)</td></tr>
+          <tr><td style="color:var(--slate);">저장소</td><td>SQLite <code>ai_cache</code> 테이블</td></tr>
+          <tr><td style="color:var(--slate);">강제 갱신</td><td><code>?refresh=1</code> 파라미터</td></tr>
+          <tr><td style="color:var(--slate);">토큰 비용</td><td>약 1,200 tokens / 호출</td></tr>
+        </table>
+        <div style="margin-top:12px;">
+          <div class="card-title">ai_cache 테이블 스키마</div>
+          <div class="api-block">
+            <pre>CREATE TABLE ai_cache (
+  cache_key   TEXT PRIMARY KEY,
+  result_json TEXT NOT NULL,
+  created_at  TEXT NOT NULL,
+  expires_at  TEXT NOT NULL
+);</pre>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 프롬프트 설계 -->
+    <div class="card" style="margin-bottom:16px;">
+      <div class="card-title">프롬프트 설계</div>
+      <div class="prompt-box">
+        <div class="prompt-label">System Prompt</div>
+        <pre>당신은 한국 상장사 전문 기업분석가입니다.
+주어진 재무 데이터와 공시 정보를 바탕으로 SWOT 분석을 수행하세요.
+- 각 항목 3개씩, 한국어, 구체적 수치 포함
+- 투자자 관점에서 실질적 의미 중심
+- 반드시 아래 JSON 형식으로만 출력 (설명 없음)
+{"strengths":[...],"weaknesses":[...],"opportunities":[...],"threats":[...]}</pre>
+      </div>
+      <div class="prompt-box">
+        <div class="prompt-label">User Prompt 템플릿</div>
+        <pre>기업명: {corp_name} ({stock_code}) | 업종: {industry} | 시총: {market_cap}원
+
+[재무 요약 - 최근 3개년 (억원)]
+연도  | 매출액  | 영업이익 | 영업이익률 | 순이익
+{financials_table}
+
+[건전성 지표]
+부채비율: {debt_ratio}% | 유동비율: {current_ratio}% | 영업이익률(최근): {op_margin}%
+
+[주가 동향]
+현재가: {current_price}원 | 52주 고: {high_52w}원 | 52주 저: {low_52w}원
+연초 대비: {ytd_change}%
+
+[최근 주요 공시 (최신 5건)]
+{disclosure_titles}
+
+위 정보를 바탕으로 SWOT 분석을 JSON으로 출력하세요.</pre>
+      </div>
+    </div>
+
+    <!-- 구현 단계 -->
+    <div class="card">
+      <div class="card-title">구현 단계</div>
+      <ul class="phase-list">
+        <li><span class="phase-num">1</span><div><strong>ai_cache 테이블 생성</strong> — SQLite migration 추가 (30분)</div></li>
+        <li><span class="phase-num">2</span><div><strong>컨텍스트 빌더 함수</strong> — 5개 테이블 JOIN → 프롬프트용 텍스트 포맷 (1시간)</div></li>
+        <li><span class="phase-num">3</span><div><strong>FastAPI 엔드포인트</strong> — <code>GET /api/swot/{code}</code>, 캐시 조회 → 없으면 GPT 호출 → 저장 (1시간)</div></li>
+        <li><span class="phase-num">4</span><div><strong>프론트 연결</strong> — Tab3 SWOT 컴포넌트에서 /api/swot 호출 (30분)</div></li>
+      </ul>
+      <div class="note"><strong>PoC 현황:</strong> Tab3 UI에 Mock SWOT 구현 완료. API 엔드포인트 연결만 남은 상태.</div>
+    </div>
+  </div>
+
+  <div class="divider"></div>
+
+  <!-- ══════════════════════════════════════════════
+       FEATURE 2: RAG 챗봇
+  ══════════════════════════════════════════════ -->
+  <div class="section" id="feat2">
+    <div class="feature-header">
+      <div class="feature-num" style="background:#8b5cf6;">2</div>
+      <div>
+        <div class="feature-title">💬 RAG 챗봇</div>
+        <div class="feature-eng">Retrieval-Augmented Generation Chatbot</div>
+      </div>
+      <span class="tag tag-purple">Embedding</span>
+      <span class="tag tag-purple">Vector DB</span>
+      <span class="tag tag-purple">GPT-4o</span>
+    </div>
+
+    <div class="grid-2" style="margin-bottom:16px;">
+      <div class="card card-purple">
+        <div class="card-title">기능 개요</div>
+        <p>사업보고서 전문(18GB 임베딩)을 Vector DB에 저장하여, 사용자 자연어 질문에 대해 <strong>원문 근거 기반 답변</strong>을 생성한다.<br><br>
+        "이 회사 주요 사업은?", "2024년 리스크 요인은?", "R&D 투자 현황은?" 등 임의 질문에 사업보고서 원문 청크를 Retrieve 후 GPT-4o로 답변.</p>
+      </div>
+      <div class="card card-purple">
+        <div class="card-title">임베딩 파일 스펙 (수령 예정)</div>
+        <table>
+          <tr><td style="color:var(--slate);">총 용량</td><td><strong>18GB</strong></td></tr>
+          <tr><td style="color:var(--slate);">수령 방법</td><td>USB 직접 전달</td></tr>
+          <tr><td style="color:var(--slate);">모델</td><td>text-embedding-3-large (추정)</td></tr>
+          <tr><td style="color:var(--slate);">차원</td><td>3,072 dim (추정)</td></tr>
+          <tr><td style="color:var(--slate);">대상</td><td>전체 상장사 사업보고서</td></tr>
+          <tr><td style="color:var(--slate);">청크 단위</td><td>512 tokens / overlap 128</td></tr>
+        </table>
+      </div>
+    </div>
+
+    <!-- 아키텍처 -->
+    <div class="card" style="margin-bottom:16px;">
+      <div class="card-title">RAG 아키텍처</div>
+      <div class="flow">
+        <div class="flow-box src">사업보고서<br>PDF (원본)</div>
+        <div class="flow-arrow">→</div>
+        <div class="flow-box proc">청킹<br>+임베딩</div>
+        <div class="flow-arrow">→</div>
+        <div class="flow-box src">Vector DB<br>(18GB)</div>
+      </div>
+      <div style="margin:12px 0;font-size:12px;color:var(--slate);">위: 오프라인 사전 구축 (휘주님 팀) ↑ | 아래: 런타임 검색 ↓</div>
+      <div class="flow">
+        <div class="flow-box src">사용자<br>질문</div>
+        <div class="flow-arrow">→</div>
+        <div class="flow-box proc">질문<br>임베딩</div>
+        <div class="flow-arrow">→</div>
+        <div class="flow-box src">코사인<br>유사도 검색</div>
+        <div class="flow-arrow">→</div>
+        <div class="flow-box proc">Top-K<br>청크 (k=5)</div>
+        <div class="flow-arrow">→</div>
+        <div class="flow-box ai">GPT-4o<br>답변 생성</div>
+        <div class="flow-arrow">→</div>
+        <div class="flow-box out">답변 +<br>출처 인용</div>
+      </div>
+    </div>
+
+    <!-- API 명세 -->
+    <div class="grid-2" style="margin-bottom:16px;">
+      <div class="card">
+        <div class="card-title">API 명세</div>
+        <div style="margin-bottom:8px;">
+          <span class="api-method POST">POST</span>
+          <code style="font-size:12px;">/api/rag/chat</code>
+        </div>
+        <div class="api-block">
+          <pre><strong style="color:#93c5fd;">Request:</strong>
+{
+  "stock_code": "090430",
+  "question": "이 회사 주요 사업 부문은?",
+  "session_id": "uuid-optional",
+  "top_k": 5
+}
+
+<strong style="color:#86efac;">Response:</strong>
+{
+  "answer": "아모레퍼시픽의 주요 사업 부문은...",
+  "sources": [
+    {
+      "page": 42,
+      "section": "I. 회사의 개요",
+      "excerpt": "당사는 화장품 및 생활용품...",
+      "score": 0.912
+    }
+  ],
+  "tokens_used": 2840,
+  "fiscal_year": "2024"
+}</pre>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-title">Vector DB 옵션 비교</div>
+        <table>
+          <thead><tr><th>옵션</th><th>장점</th><th>단점</th></tr></thead>
+          <tbody>
+            <tr>
+              <td><strong>FAISS</strong><br><span class="tag tag-green" style="margin-top:4px;">권장 (PoC)</span></td>
+              <td>설치 불필요, 로컬 파일</td>
+              <td>영구 업데이트 어려움</td>
+            </tr>
+            <tr>
+              <td><strong>pgvector</strong><br><span class="tag tag-gray">서비스화</span></td>
+              <td>PostgreSQL 통합, ACID</td>
+              <td>DB 서버 필요</td>
+            </tr>
+            <tr>
+              <td><strong>Qdrant</strong></td>
+              <td>고성능, 메타데이터 필터</td>
+              <td>별도 컨테이너</td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="note" style="margin-top:12px;"><strong>PoC 권장:</strong> FAISS (InMemory) — 18GB 파일 로드 후 <code>.index</code> 파일로 저장, FastAPI 기동 시 자동 로드</div>
+      </div>
+    </div>
+
+    <!-- 프롬프트 -->
+    <div class="card" style="margin-bottom:16px;">
+      <div class="card-title">프롬프트 설계</div>
+      <div class="prompt-box">
+        <div class="prompt-label">System Prompt</div>
+        <pre>당신은 {corp_name}의 사업보고서 전문 분석 AI입니다.
+아래 [검색된 원문 단락]만을 근거로 질문에 답하세요.
+- 원문에 없는 내용은 "사업보고서에서 확인되지 않습니다"라고 답하세요
+- 답변은 200자 이내, 출처 페이지를 반드시 명시하세요
+- 금액은 원문 단위 그대로 (억원/조원) 사용하세요</pre>
+      </div>
+      <div class="prompt-box">
+        <div class="prompt-label">User Prompt 템플릿</div>
+        <pre>[검색된 원문 단락 - 사업보고서 FY{fiscal_year}]
+{chunk_1} (p.{page_1})
+{chunk_2} (p.{page_2})
+{chunk_3} (p.{page_3})
+{chunk_4} (p.{page_4})
+{chunk_5} (p.{page_5})
+
+[질문]
+{user_question}
+
+위 원문 단락을 바탕으로 답변해 주세요.</pre>
+      </div>
+    </div>
+
+    <!-- 구현 단계 -->
+    <div class="card">
+      <div class="card-title">구현 단계 (USB 수령 후)</div>
+      <ul class="phase-list">
+        <li><span class="phase-num purple">1</span><div><strong>임베딩 파일 파싱</strong> — 18GB 파일 포맷 확인 후 FAISS Index 로드/변환 (2~4시간)</div></li>
+        <li><span class="phase-num purple">2</span><div><strong>종목별 필터링</strong> — stock_code 메타데이터로 검색 범위 한정 (1시간)</div></li>
+        <li><span class="phase-num purple">3</span><div><strong>FastAPI 엔드포인트</strong> — <code>POST /api/rag/chat</code>, Top-K 검색 → GPT-4o 답변 (2시간)</div></li>
+        <li><span class="phase-num purple">4</span><div><strong>프론트 연결</strong> — Tab3 챗봇 UI에서 Mock 응답 → 실 API로 전환 (30분)</div></li>
+      </ul>
+      <div class="note"><strong>PoC 현황:</strong> Tab3 챗봇 UI 완성, Mock 응답 작동 중. 임베딩 파일 수령 후 API 엔드포인트 연결만 필요.</div>
+    </div>
+  </div>
+
+  <div class="divider"></div>
+
+  <!-- ══════════════════════════════════════════════
+       FEATURE 3: 모닝루틴 브리핑
+  ══════════════════════════════════════════════ -->
+  <div class="section" id="feat3">
+    <div class="feature-header">
+      <div class="feature-num" style="background:#10b981;">3</div>
+      <div>
+        <div class="feature-title">📅 모닝루틴 브리핑</div>
+        <div class="feature-eng">Morning Routine Automated Briefing</div>
+      </div>
+      <span class="tag tag-green">GPT-4o</span>
+      <span class="tag tag-green">Scheduler</span>
+    </div>
+
+    <div class="grid-2" style="margin-bottom:16px;">
+      <div class="card card-green">
+        <div class="card-title">기능 개요</div>
+        <p>사용자가 관심 종목을 등록해 두면, <strong>매일 오전 7시</strong>에 전날 주가 동향·신규 공시·주요 재무 변화를 LLM이 자동으로 요약해 <strong>개인화 브리핑</strong>을 생성한다.<br><br>
+        MongoDB <code>histories</code> 컬렉션에 저장된 히스토리 데이터와 SQLite OHLCV·공시를 결합하여 "어제 무슨 일이 있었는지"를 3~5문장으로 압축 제공.</p>
+      </div>
+      <div class="card card-green">
+        <div class="card-title">브리핑 구성 요소</div>
+        <ul style="list-style:disc;padding-left:16px;font-size:13px;line-height:2.2;">
+          <li><strong>주가 요약</strong> — 전일 등락·거래량 이상 여부</li>
+          <li><strong>신규 공시</strong> — 전일 공시 제목 + 한줄 요약</li>
+          <li><strong>재무 이벤트</strong> — 실적 발표·배당·증자 등 캘린더</li>
+          <li><strong>히스토리 컨텍스트</strong> — 같은 날 과거 주요 사건 (MongoDB)</li>
+          <li><strong>AI 한줄 진단</strong> — "오늘 주목해야 할 포인트"</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- 데이터 플로우 -->
+    <div class="card" style="margin-bottom:16px;">
+      <div class="card-title">데이터 플로우</div>
+      <div class="flow">
+        <div class="flow-box src">APScheduler<br>07:00 KST</div>
+        <div class="flow-arrow">→</div>
+        <div class="flow-box proc">관심종목<br>조회</div>
+        <div class="flow-arrow">→</div>
+        <div class="flow-box src">OHLCV +<br>공시 (SQLite)</div>
+        <div class="flow-arrow">→</div>
+        <div class="flow-box src">히스토리<br>(MongoDB)</div>
+        <div class="flow-arrow">→</div>
+        <div class="flow-box ai">GPT-4o<br>브리핑 생성</div>
+        <div class="flow-arrow">→</div>
+        <div class="flow-box proc">MongoDB<br>저장</div>
+        <div class="flow-arrow">→</div>
+        <div class="flow-box out">홈 화면<br>표시</div>
+      </div>
+    </div>
+
+    <!-- API 명세 -->
+    <div class="grid-2" style="margin-bottom:16px;">
+      <div class="card">
+        <div class="card-title">API 명세</div>
+        <div style="margin-bottom:12px;">
+          <span class="api-method GET">GET</span>
+          <code style="font-size:12px;">/api/briefing/today</code>
+          <p style="font-size:12px;color:var(--slate);margin-top:4px;">당일 브리핑 조회 (관심 종목 전체)</p>
+        </div>
+        <div style="margin-bottom:12px;">
+          <span class="api-method GET">GET</span>
+          <code style="font-size:12px;">/api/briefing/{stock_code}</code>
+          <p style="font-size:12px;color:var(--slate);margin-top:4px;">특정 종목 최신 브리핑 조회</p>
+        </div>
+        <div>
+          <span class="api-method POST">POST</span>
+          <code style="font-size:12px;">/api/briefing/generate/{stock_code}</code>
+          <p style="font-size:12px;color:var(--slate);margin-top:4px;">즉시 브리핑 강제 생성 (데모용)</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-title">응답 스키마</div>
+        <div class="api-block">
+          <pre>{
+  "stock_code": "090430",
+  "corp_name": "아모레퍼시픽",
+  "date": "2026-05-22",
+  "briefing": {
+    "headline": "전일 -2.3% 하락, 거래량 평소 3배",
+    "price_summary": "종가 126,500원 (-2.3%)...",
+    "disclosure_summary": "자기주식 취득 공시...",
+    "history_context": "2년 전 같은 날 실적 발표...",
+    "ai_point": "⚠️ 대량 거래 발생 — 기관 순매도 지속 여부 주목"
+  },
+  "generated_at": "2026-05-22 07:03:12",
+  "source": "auto_scheduled"
+}</pre>
+        </div>
+      </div>
+    </div>
+
+    <!-- 프롬프트 -->
+    <div class="card" style="margin-bottom:16px;">
+      <div class="card-title">프롬프트 설계</div>
+      <div class="prompt-box">
+        <div class="prompt-label">System Prompt</div>
+        <pre>당신은 한국 주식시장 전문 애널리스트입니다.
+주어진 전일 데이터를 바탕으로 개인 투자자를 위한 아침 브리핑을 작성하세요.
+- 5문장 이내, 핵심만 간결하게
+- 수치는 반드시 포함 (등락률%, 거래량 배율, 공시 제목)
+- 마지막 문장은 "오늘 주목할 점"으로 마무리
+- 반드시 JSON 형식 출력</pre>
+      </div>
+      <div class="prompt-box">
+        <div class="prompt-label">User Prompt 템플릿</div>
+        <pre>[{corp_name} ({stock_code}) — {date} 브리핑 데이터]
+
+전일 주가: {close}원 ({change_pct:+.1f}%) | 거래량: {volume_ratio:.1f}배(20일 평균 대비)
+52주 최고: {high_52w}원 | 52주 최저: {low_52w}원
+
+전일 신규 공시 ({disclosure_count}건):
+{disclosure_list}
+
+히스토리 컨텍스트 (과거 같은 날):
+{history_context}
+
+위 데이터를 기반으로 아침 브리핑 JSON을 작성하세요.</pre>
+      </div>
+    </div>
+
+    <!-- 구현 단계 -->
+    <div class="card">
+      <div class="card-title">구현 단계</div>
+      <ul class="phase-list">
+        <li><span class="phase-num green">1</span><div><strong>관심종목 테이블</strong> — SQLite <code>watchlist</code> 테이블 추가 (15분)</div></li>
+        <li><span class="phase-num green">2</span><div><strong>브리핑 컨텍스트 빌더</strong> — OHLCV + 공시 + MongoDB 히스토리 통합 (1시간)</div></li>
+        <li><span class="phase-num green">3</span><div><strong>APScheduler 연동</strong> — FastAPI lifespan에서 07:00 KST 스케줄 등록 (30분)</div></li>
+        <li><span class="phase-num green">4</span><div><strong>FastAPI 엔드포인트</strong> — 조회 + 강제 생성 API (30분)</div></li>
+        <li><span class="phase-num green">5</span><div><strong>홈 화면 연결</strong> — <code>page.tsx</code> 모닝루틴 섹션에서 /api/briefing/today 호출 (30분)</div></li>
+      </ul>
+      <div class="note"><strong>PoC 현황:</strong> 홈 화면(page.tsx)에 "모닝루틴 — 준비 중" placeholder 존재. 스케줄러·API 연결 필요. MongoDB 히스토리 데이터(휘주님) 도착 시 full 구현 가능.</div>
+    </div>
+  </div>
+
+  <div class="divider"></div>
+
+  <!-- ══════════════════════════════════════════════
+       FEATURE 4: 밸류에이션 AI 어시스트
+  ══════════════════════════════════════════════ -->
+  <div class="section" id="feat4">
+    <div class="feature-header">
+      <div class="feature-num" style="background:#1f4ed8;">4</div>
+      <div>
+        <div class="feature-title">📊 밸류에이션 AI 어시스트</div>
+        <div class="feature-eng">Valuation AI Assistant</div>
+      </div>
+      <span class="tag tag-blue">GPT-4o</span>
+      <span class="tag tag-blue">DCF JSON</span>
+    </div>
+
+    <div class="grid-2" style="margin-bottom:16px;">
+      <div class="card card-blue">
+        <div class="card-title">기능 개요</div>
+        <p>태상님 <code>run_valuation.py</code>가 산출한 DCF·WACC 결과 JSON을 컨텍스트로 제공하여, <strong>"왜 이 적정가가 나왔나?", "WACC가 높으면 어떻게 되나?", "Bear case 가정은?"</strong> 등 일반투자자의 자연어 질문에 GPT-4o가 구체적으로 답변한다.<br><br>
+        복잡한 재무 모델을 비전문가도 이해할 수 있도록 쉽게 설명하는 것이 핵심 목적.</p>
+      </div>
+      <div class="card card-blue">
+        <div class="card-title">활용 가능한 컨텍스트 (valuation JSON)</div>
+        <ul style="list-style:disc;padding-left:16px;font-size:13px;line-height:2;">
+          <li>DCF 5개년 FCFF 테이블 전체</li>
+          <li>WACC 구성 요소 (Rf, β, ERP, Ke, Kd)</li>
+          <li>Bear/Base/Bull 시나리오 가격·상승여력</li>
+          <li>민감도 매트릭스 (WACC × g)</li>
+          <li>토네이도 분석 (변수별 영향도)</li>
+          <li>피어 베타 비교 (Hamada 조정)</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- 데이터 플로우 -->
+    <div class="card" style="margin-bottom:16px;">
+      <div class="card-title">데이터 플로우</div>
+      <div class="flow">
+        <div class="flow-box src">valuation_<br>YYYYMMDD.json</div>
+        <div class="flow-arrow">→</div>
+        <div class="flow-box proc">질문 분류<br>(intent)</div>
+        <div class="flow-arrow">→</div>
+        <div class="flow-box proc">관련 섹션<br>선택 추출</div>
+        <div class="flow-arrow">→</div>
+        <div class="flow-box ai">GPT-4o<br>설명 생성</div>
+        <div class="flow-arrow">→</div>
+        <div class="flow-box out">Tab2<br>챗봇 UI</div>
+      </div>
+      <p style="font-size:12px;color:var(--slate);margin-top:8px;">전체 JSON을 프롬프트에 포함하지 않고 질문 의도에 따라 관련 섹션만 선택 → 토큰 비용 최소화</p>
+    </div>
+
+    <!-- API 명세 -->
+    <div class="grid-2" style="margin-bottom:16px;">
+      <div class="card">
+        <div class="card-title">API 명세</div>
+        <div style="margin-bottom:8px;">
+          <span class="api-method POST">POST</span>
+          <code style="font-size:12px;">/api/valuation/chat</code>
+        </div>
+        <div class="api-block">
+          <pre><strong style="color:#93c5fd;">Request:</strong>
+{
+  "stock_code": "090430",
+  "question": "WACC가 1% 높아지면 적정가가 얼마나 떨어져?",
+  "session_id": "optional"
+}
+
+<strong style="color:#86efac;">Response:</strong>
+{
+  "answer": "현재 WACC 8.2% 기준 적정가는 ₩199,800입니다. WACC가 9.2%로 1%p 상승하면 민감도 분석상 ₩172,000으로 약 -13.9% 하락합니다...",
+  "referenced_sections": ["sensitivity", "wacc_breakdown"],
+  "confidence": "high",
+  "tokens_used": 1840
+}</pre>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-title">질문 의도 분류 → 섹션 매핑</div>
+        <table>
+          <thead><tr><th>질문 패턴</th><th>참조 섹션</th></tr></thead>
+          <tbody>
+            <tr><td>"왜 이 적정가가?"</td><td>dcf + summary</td></tr>
+            <tr><td>"WACC 높으면?"</td><td>sensitivity + wacc_breakdown</td></tr>
+            <tr><td>"Bear case 가정?"</td><td>scenarios + tornado</td></tr>
+            <tr><td>"피어 대비?"</td><td>peers_hamada + multiples</td></tr>
+            <tr><td>"터미널 성장률?"</td><td>dcf + sensitivity</td></tr>
+            <tr><td>기타</td><td>summary + dcf</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- 프롬프트 -->
+    <div class="card" style="margin-bottom:16px;">
+      <div class="card-title">프롬프트 설계</div>
+      <div class="prompt-box">
+        <div class="prompt-label">System Prompt</div>
+        <pre>당신은 기업가치 평가(DCF/WACC) 전문 AI 어시스트입니다.
+주어진 밸류에이션 데이터를 바탕으로 일반 투자자가 이해할 수 있도록 설명하세요.
+- 전문 용어는 괄호 안에 쉬운 말로 설명
+- 수치는 항상 구체적으로 (₩199,800, +54.4% 등)
+- 200자 이내로 핵심만
+- 모르는 내용은 "해당 데이터에서 확인이 어렵습니다" 답변</pre>
+      </div>
+      <div class="prompt-box">
+        <div class="prompt-label">User Prompt 템플릿</div>
+        <pre>[{corp_name} 밸류에이션 데이터 — {as_of_date}]
+
+{selected_sections_json}
+
+[사용자 질문]
+{user_question}
+
+위 밸류에이션 데이터를 근거로 답변하세요.</pre>
+      </div>
+    </div>
+
+    <!-- 구현 단계 -->
+    <div class="card">
+      <div class="card-title">구현 단계 (태상님 JSON 수령 후)</div>
+      <ul class="phase-list">
+        <li><span class="phase-num blue">1</span><div><strong>JSON 로더</strong> — <code>valuation_{code}_{date}.json</code> 파싱 + 섹션 분리 (30분)</div></li>
+        <li><span class="phase-num blue">2</span><div><strong>의도 분류기</strong> — 키워드 매칭으로 참조 섹션 선택 (30분)</div></li>
+        <li><span class="phase-num blue">3</span><div><strong>FastAPI 엔드포인트</strong> — <code>POST /api/valuation/chat</code> (1시간)</div></li>
+        <li><span class="phase-num blue">4</span><div><strong>Tab2 챗봇 UI 추가</strong> — 밸류에이션 탭 하단에 Q&A 컴포넌트 신규 추가 (1시간)</div></li>
+      </ul>
+      <div class="note"><strong>PoC 현황:</strong> Tab2에 DCF·WACC·민감도 등 6개 서브탭 완성 (Mock 데이터). AI 어시스트 챗봇 UI는 미구현. JSON 수령 후 구현 필요.</div>
+    </div>
+  </div>
+
+  <div class="divider"></div>
+
+  <!-- ══════════════════════════════════════════════
+       구현 로드맵
+  ══════════════════════════════════════════════ -->
+  <div class="section" id="roadmap">
+    <h2 style="font-size:20px;font-weight:800;margin-bottom:24px;">구현 로드맵</h2>
+    <div class="card">
+      <table>
+        <thead>
+          <tr>
+            <th>기능</th>
+            <th>Phase 1 (5/26 데모)</th>
+            <th>Phase 2 (PoC 완성)</th>
+            <th>Phase 3 (서비스화)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>① SWOT 자동분석</strong></td>
+            <td><span class="status status-poc">Mock UI 완성</span></td>
+            <td>API 엔드포인트 연결<br>ai_cache 테이블 추가<br><span class="tag tag-orange">예상 3시간</span></td>
+            <td>GPT-4o 파인튜닝<br>업종별 프롬프트 최적화</td>
+          </tr>
+          <tr>
+            <td><strong>② RAG 챗봇</strong></td>
+            <td><span class="status status-poc">Mock 챗봇 완성</span></td>
+            <td>USB 임베딩 파일 로드<br>FAISS 인덱스 구축<br><span class="tag tag-orange">예상 반나절</span></td>
+            <td>pgvector 마이그레이션<br>멀티턴 대화 지원</td>
+          </tr>
+          <tr>
+            <td><strong>③ 모닝루틴 브리핑</strong></td>
+            <td><span class="status status-poc">Placeholder 완성</span></td>
+            <td>APScheduler 연동<br>관심종목 등록 기능<br><span class="tag tag-orange">예상 4시간</span></td>
+            <td>Push 알림 (카카오/Slack)<br>뉴스 API 연동</td>
+          </tr>
+          <tr>
+            <td><strong>④ 밸류에이션 AI 어시스트</strong></td>
+            <td><span class="status status-future">미구현</span></td>
+            <td>태상님 JSON 수령 후<br>챗봇 UI + API 연결<br><span class="tag tag-orange">예상 3시간</span></td>
+            <td>멀티 종목 비교 Q&A<br>시나리오 시뮬레이션</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════════════
+       보안·비용
+  ══════════════════════════════════════════════ -->
+  <div class="section" id="security">
+    <h2 style="font-size:20px;font-weight:800;margin-bottom:24px;">보안 및 비용 추정</h2>
+    <div class="grid-2">
+      <div class="card">
+        <div class="card-title">OpenAI API 비용 추정 (3종목 기준)</div>
+        <table>
+          <thead><tr><th>기능</th><th>호출/일</th><th>토큰/호출</th><th>비용/일</th></tr></thead>
+          <tbody>
+            <tr><td>SWOT 자동분석</td><td>3회 (1회/종목)</td><td>1,500</td><td>$0.02</td></tr>
+            <tr><td>RAG 챗봇</td><td>~30회</td><td>3,000</td><td>$0.14</td></tr>
+            <tr><td>모닝루틴 브리핑</td><td>3회 (07:00)</td><td>2,000</td><td>$0.04</td></tr>
+            <tr><td>밸류에이션 어시스트</td><td>~20회</td><td>2,000</td><td>$0.06</td></tr>
+            <tr style="background:#f8fafc;font-weight:700;"><td>합계</td><td>~56회</td><td>—</td><td><strong>~$0.26/일</strong></td></tr>
+          </tbody>
+        </table>
+        <p style="font-size:12px;color:var(--slate);margin-top:8px;">* GPT-4o 기준 (input $2.5/1M, output $10/1M tokens) · PoC 규모</p>
+      </div>
+      <div class="card">
+        <div class="card-title">보안 고려사항</div>
+        <ul class="phase-list">
+          <li><span class="phase-num">!</span><div><strong>API 키 관리</strong> — <code>.env</code> 파일, git에 절대 미포함, FILMN9_env 환경변수로 관리</div></li>
+          <li><span class="phase-num">!</span><div><strong>개인정보 미포함</strong> — 프롬프트에 사용자 개인정보 전송 없음, 공개 재무데이터만 활용</div></li>
+          <li><span class="phase-num">!</span><div><strong>캐싱 전략</strong> — 동일 질문 반복 시 GPT 미호출, SQLite 캐시 반환으로 비용 절감</div></li>
+          <li><span class="phase-num">!</span><div><strong>Rate Limit</strong> — FastAPI 미들웨어로 IP당 분당 20회 제한 (PoC)</div></li>
+          <li><span class="phase-num">!</span><div><strong>임베딩 파일(18GB)</strong> — 로컬 전용, 외부 네트워크 전송 금지</div></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<footer>
+  FILMN9 AI 기능 4종 설계서 v1.0 &nbsp;·&nbsp; 2026-05-22 &nbsp;·&nbsp; KPMG AI Lab
+</footer>
+
+</body>
+</html>

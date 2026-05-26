@@ -238,3 +238,29 @@ outputs/
 # 대용량 데이터 파일 제외
 data/
 *.jsonl
+
+# ─────────────────────────────────────────────────
+# 2026-05-26 추가: Claude Code 작업 산출물 정리
+# ─────────────────────────────────────────────────
+
+# Claude 개인 설정·캐시
+.claude/
+.claude-cache/
+
+# Claude 작업 도중 생성된 임시 스크린샷
+sc_*.png
+screenshot_*.png
+crop_*.png
+
+# Office 임시 파일
+~$*.docx
+~$*.xlsx
+~$*.pptx
+
+# 일회성 검증 스크립트 (재실행 가능한 것만 남김)
+check_bs*.py
+check_sector*.py
+
+# Worktree (Claude Code 자동 생성)
+.claude-worktrees/
+

@@ -1,0 +1,391 @@
+================================================================
+  FILMN9 — 팀원 개발환경 통합 구축 인수인계서
+  대상: 팀원 PC의 Claude Code
+  GitHub 레포: github.com/<ORG>/FILMN9
+  대상 폴더: 개발환경_통합/
+  작성일: 2026-05-26
+  목표: 본 인수인계서 1개로 팀원 PC에서 메인 개발자와
+        완전히 동일한 환경을 자동 구축한다.
+================================================================
+
+[전제 조건]
+- 본인의 GitHub 계정이 FILMN9 레포에 collaborator로 등록됨
+- 본인 PC에 git 명령어 사용 가능
+- Python 3.10+ 설치되어 있음
+- Node.js 20+ 설치되어 있음
+- 인터넷 연결 가능
+- (Windows / Mac / Linux 무관)
+
+
+================================================================
+[작업 흐름 한눈에]
+================================================================
+
+STEP 0. 사전 점검 (Python·Node·Git 버전)
+STEP 1. GitHub 레포 클론
+STEP 2. 개발환경_통합/ 폴더 진입 및 setup 실행
+STEP 3. .env 파일 생성 (사용자에게 API 키 요청)
+STEP 4. Python 가상환경 + 의존성 설치
+STEP 5. Frontend npm install
+STEP 6. SQLite DB 초기화 + 데모 데이터 적재
+STEP 7. MongoDB 연결 시도 (실패 시 폴백 모드)
+STEP 8. 백엔드 + 프런트엔드 동시 기동
+STEP 9. 3종목 데모 검증
+STEP 10. 최종 보고
+
+
+================================================================
+STEP 0. 사전 점검
+================================================================
+
+  Bash 도구로 차례대로 실행하고 결과 확인:
+
+  > python --version       # Python 3.10+ 필요
+  > node --version          # v20+ 필요
+  > npm --version           # 10+ 권장
+  > git --version           # 2.30+ 권장
+
+  하나라도 없거나 버전 미달이면 사용자에게 설치 요청:
+    - Python: https://www.python.org/downloads/
+    - Node.js: https://nodejs.org/ (LTS 20+)
+    - Git: https://git-scm.com/downloads
+
+
+================================================================
+STEP 1. GitHub 레포 클론
+================================================================
+
+  ① 작업 디렉터리 결정 (사용자에게 확인 후 결정)
+    - Windows 권장: C:\Users\<본인>\FILMN9
+    - Mac/Linux 권장: ~/projects/FILMN9
+
+  ② 클론 실행:
+  > cd <상위 디렉터리>
+  > git clone https://github.com/<ORG>/FILMN9.git
+  > cd FILMN9
+
+  ③ 클론 확인:
+  > ls 개발환경_통합/
+  (또는 dir 개발환경_통합\ on Windows)
+
+  파일들이 보여야 함:
+    - SETUP.md
+    - setup.bat (Windows) / setup.sh (Mac/Linux)
+    - .env.template
+    - requirements.txt
+    - 폴더구조_가이드.md
+    - 기타 가이드 문서
+
+
+================================================================
+STEP 2. 개발환경_통합/ 폴더 진입 및 setup 자동화
+================================================================
+
+  ① 사용자에게 SETUP.md 내용 확인 권장:
+  > Read C:\Users\<본인>\FILMN9\개발환경_통합\SETUP.md
+
+  ② 자동 setup 스크립트 실행:
+    Windows:
+    > 개발환경_통합\setup.bat
+
+    Mac/Linux:
+    > bash 개발환경_통합/setup.sh
+
+  ③ setup 스크립트가 실패하면 STEP 3~6을 수동 진행.
+
+
+================================================================
+STEP 3. .env 파일 생성 (사용자 입력 필수)
+================================================================
+
+  ⚠️ 보안상 .env는 GitHub에 커밋되지 않음.
+     사용자가 직접 API 키를 입력해야 함.
+
+  ① 템플릿 복사:
+  Windows:
+  > copy 개발환경_통합\.env.template .env
+
+  Mac/Linux:
+  > cp 개발환경_통합/.env.template .env
+
+  ② 사용자에게 .env 파일 열어서 다음 키 입력 요청:
+    - DART_API_KEY        (https://opendart.fss.or.kr/ 발급)
+    - OPENAI_API_KEY      (https://platform.openai.com/api-keys)
+    - MONGO_URI           (팀 리더에게 받은 Atlas URI)
+    - MONGO_DB=filmn9
+    - MONGO_COLLECTION=histories
+
+  ③ 입력 확인:
+  > Grep "MONGO_URI" .env       # 값이 채워졌는지 확인
+
+  ※ 빈 값으로 두어도 진행 가능 (폴백 모드 동작),
+    단 데이터 수집/LLM 기능은 제한됨.
+
+
+================================================================
+STEP 4. Python 가상환경 + 의존성 설치
+================================================================
+
+  ① 가상환경 생성:
+  > python -m venv venv
+
+  ② 활성화:
+    Windows:
+    > venv\Scripts\activate
+    Mac/Linux:
+    > source venv/bin/activate
+
+  ③ 의존성 설치:
+  > pip install --upgrade pip
+  > pip install -r requirements.txt
+
+  ④ 핵심 패키지 확인:
+  > pip show fastapi pymongo openai pandas
+
+  설치 실패 시 사용자에게 에러 메시지 그대로 보고.
+
+
+================================================================
+STEP 5. Frontend 의존성 설치
+================================================================
+
+  ① frontend-next/ 폴더 진입:
+  > cd frontend-next
+
+  ② npm install:
+  > npm install
+
+  설치 시간: 약 2-5분 (인터넷 속도 의존)
+
+  ③ 설치 확인:
+  > Glob frontend-next/node_modules/.bin/next
+  (파일 존재하면 OK)
+
+  ④ 루트로 복귀:
+  > cd ..
+
+
+================================================================
+STEP 6. SQLite DB 초기화 + 데모 데이터 적재
+================================================================
+
+  ① DB 파일이 이미 있는지 확인:
+  > ls data/filmn9.db
+  (또는 dir data\filmn9.db on Windows)
+
+  ② GitHub 레포에 filmn9.db 가 포함되어 있다면 → STEP 6 건너뜀.
+
+  ③ 없으면 초기화 + 적재:
+  > python db/init_db.py
+  > python db/batch_demo3.py
+
+  ④ 검증:
+  > python check_full_schema.py
+
+  출력에 9개 테이블 모두 보여야 함:
+    - company_info
+    - financials
+    - financial_detail
+    - ohlcv
+    - shareholders
+    - executives
+    - disclosures
+    - credit_ratings
+    - valuations
+
+
+================================================================
+STEP 7. MongoDB 연결 시도 (실패 시 폴백)
+================================================================
+
+  ① 연결 테스트:
+  > python db/test_mongo.py
+
+  ② 분기 처리:
+
+  성공 → STEP 8로 진행
+
+  실패 (TLSV1_ALERT 등) → 폴백 모드 활성화:
+    ① data/parsed_history/ 폴더 확인:
+       > Glob data/parsed_history/*.json
+       (최소 3개 — 090430, 009150, 035420 — 있어야 함)
+
+    ② 파일 없으면 사용자에게 briefs_final.zip 또는
+       parsed_history 폴더 공유 요청.
+
+    ③ 폴백 모드는 자동 동작하므로 별도 설정 불필요.
+
+
+================================================================
+STEP 8. 백엔드 + 프런트엔드 동시 기동
+================================================================
+
+  ① Windows 사용자:
+  > start.bat
+
+  Mac/Linux 사용자:
+  > bash start.sh
+  (없으면 별도 터미널 2개에서 각각:)
+    터미널1: python -m uvicorn api.main:app --port 8000 --reload
+    터미널2: cd frontend-next && npm run dev
+
+  ② 정상 기동 확인:
+  > curl http://localhost:8000/         # 백엔드 응답
+  > curl http://localhost:3000/         # 프런트엔드 응답
+
+  ③ 양쪽 모두 200 OK 가 나오면 STEP 9으로.
+
+
+================================================================
+STEP 9. 3종목 데모 검증
+================================================================
+
+  ① 백엔드 API 검증:
+  > curl http://localhost:8000/api/overview/090430
+  > curl http://localhost:8000/api/overview/009150
+  > curl http://localhost:8000/api/overview/035420
+
+  모두 JSON 응답에 company, financials, shareholders 등 포함되어야 함.
+
+  ② 브라우저 화면 검증 요청 (사용자에게):
+    - http://localhost:3000/                  → 홈페이지 (3종목 카드)
+    - http://localhost:3000/stock/090430      → 아모레퍼시픽 (3개 탭)
+    - http://localhost:3000/stock/009150      → 삼성전기 (3개 탭)
+    - http://localhost:3000/stock/035420      → NAVER (3개 탭)
+
+  ③ 각 페이지에서 확인:
+    - 헤더에 실시간 주가 + (Yahoo Finance ... KST) 표시
+    - Hero 배너에 시총·대표·업종(WICS) 표시
+    - 주가차트 1Y 기본 표시 + 이평선·볼린저밴드 토글
+    - 기업건전성 부채비율·유동비율·영업이익률 바
+    - 밸류에이션 탭 Bear/Base/Bull 카드 + 6서브탭
+    - AI분석 탭 추천 질문 칩 종목별로 다르게 표시
+
+
+================================================================
+STEP 10. 최종 보고
+================================================================
+
+  사용자에게 다음 형식으로 보고:
+
+  ┌─────────────────────────────────────────────────────────┐
+  │ FILMN9 개발환경 구축 결과 보고                          │
+  ├─────────────────────────────────────────────────────────┤
+  │ OS                : <Windows/Mac/Linux>                 │
+  │ Python 버전       : <x.y.z>                             │
+  │ Node 버전         : <x.y.z>                             │
+  │ 작업 디렉터리     : <path>                              │
+  │                                                          │
+  │ 의존성 설치       : Python [OK/실패]  Frontend [OK/실패]│
+  │ SQLite DB         : [OK / 누락 / 일부]                  │
+  │ MongoDB 연결      : [Atlas / 폴백 모드 / 실패]          │
+  │ 백엔드(8000)      : [OK / 실패: 에러]                   │
+  │ 프런트엔드(3000)  : [OK / 실패: 에러]                   │
+  │                                                          │
+  │ 3종목 페이지 검증                                       │
+  │ - 090430 아모레퍼시픽 : [OK / 일부 / 실패]              │
+  │ - 009150 삼성전기     : [OK / 일부 / 실패]              │
+  │ - 035420 NAVER        : [OK / 일부 / 실패]              │
+  │                                                          │
+  │ 추가 필요 조치 :                                        │
+  │ - <팀 리더에게 요청할 사항>                             │
+  └─────────────────────────────────────────────────────────┘
+
+
+================================================================
+[자주 발생하는 문제 & 해결]
+================================================================
+
+Q1. "ModuleNotFoundError: No module named 'fastapi'"
+    A. venv 활성화 안 됨. STEP 4-② 다시 수행.
+
+Q2. "npm ERR! ENOENT package.json"
+    A. frontend-next/ 폴더에 있는지 확인. cd frontend-next 필수.
+
+Q3. "filmn9.db: no such table"
+    A. STEP 6 다시 수행. init_db.py → batch_demo3.py 순서.
+
+Q4. MongoDB TLSV1_ALERT 에러
+    A. 폴백 모드로 진행. STEP 7 분기 처리 참조.
+       자세한 해결은 휘주님_MongoDB_환경구축_가이드.md 참조.
+
+Q5. 포트 충돌 (3000 or 8000 already in use)
+    A. Windows: netstat -ano | findstr ":3000"
+       찾은 PID 종료: taskkill /PID <pid> /F
+       Mac/Linux: lsof -i :3000 → kill -9 <pid>
+
+Q6. CORS 에러 (브라우저 콘솔)
+    A. api/main.py 의 CORS 설정 확인.
+       localhost:3000 이 allow_origins 에 포함되어야 함.
+
+Q7. 한글 깨짐 (Windows PowerShell)
+    A. chcp 65001 실행 → UTF-8 모드 전환.
+       또는 git config --global core.quotepath false
+
+
+================================================================
+[금지 사항]
+================================================================
+
+1. .env 파일을 Git에 커밋하지 말 것 (이미 .gitignore 등록됨)
+2. data/filmn9.db 를 임의로 삭제하지 말 것 (필요 시 백업 후)
+3. node_modules/ 를 commit 하지 말 것 (이미 gitignore)
+4. venv/ 를 commit 하지 말 것 (이미 gitignore)
+5. main 브랜치에 직접 push 금지 (feature 브랜치 + PR 권장)
+
+
+================================================================
+[참고 문서 — 개발환경_통합/ 폴더 안]
+================================================================
+
+개발환경_통합/
+├── SETUP.md                       ← 메인 셋업 가이드
+├── 폴더구조_가이드.md             ← 전체 폴더 구조 설명
+├── 시스템아키텍쳐_최종.html       ← 시스템 아키텍처 다이어그램
+├── mermaid_erd_prompt.md          ← ERD 작성 프롬프트
+├── 휘주님_MongoDB_환경구축_가이드.md ← MongoDB 상세 가이드
+├── setup.bat                      ← Windows 자동 셋업
+├── setup.sh                       ← Mac/Linux 자동 셋업
+├── start.bat / start.sh           ← 원클릭 기동
+├── .env.template                  ← 환경변수 템플릿
+├── requirements.txt               ← Python 의존성
+└── package.json (frontend 참조)
+
+
+================================================================
+[중요: 메인 개발자에게 요청할 자료]
+================================================================
+
+GitHub 클론만으로 부족할 수 있는 자료들 — 팀 리더에게 별도 요청:
+
+1. ✅ MONGO_URI (Atlas 연결 문자열) — 비밀번호 포함
+2. ✅ DART_API_KEY — 개인 발급 권장 (무료, 1분)
+3. ✅ OPENAI_API_KEY — 팀 공용 키 또는 개인 발급
+4. ⚠️ data/raw/ 폴더 (XBRL 원본) — 크기 큼, Git LFS 또는 별도 전송
+5. ⚠️ data/parsed_history/ 폴더 (LLM 브리핑 2,526개) — 압축 zip 전송
+6. ⚠️ data/filmn9.db — 별도 전송 또는 init_db + load 스크립트로 재생성
+
+
+================================================================
+[작업 시작 가이드 — Claude Code에게]
+================================================================
+
+이 인수인계서를 받으면:
+
+1. 먼저 사용자에게 본인 PC 환경 확인 요청:
+   - OS (Windows / Mac / Linux)
+   - 작업 디렉터리 선호 경로
+   - Python·Node·Git 설치 상태
+
+2. STEP 0부터 순차 진행. 각 STEP 완료 후 결과 보고.
+
+3. 분기 발생 시 (예: MongoDB 실패) 가이드대로 폴백 처리.
+
+4. STEP 10 보고서를 사용자에게 전달.
+
+5. 후속 작업이 필요하면 사용자 확인 후 진행.
+
+
+================================================================
+문서 종료. 작업 시작하세요.
+================================================================

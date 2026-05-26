@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FILMN9 시스템 아키텍처 (최종)</title>
+<style>
+  :root {
+    --indigo: #4f46e5;
+    --indigo-light: #818cf8;
+    --indigo-bg: #eef2ff;
+    --purple: #7c3aed;
+    --blue: #2563eb;
+    --blue-light: #60a5fa;
+    --green: #16a34a;
+    --green-light: #4ade80;
+    --orange: #d97706;
+    --orange-light: #fb923c;
+    --red: #dc2626;
+    --pink: #ec4899;
+    --navy: #1e3a5f;
+    --slate-50: #f8fafc;
+    --slate-100: #f1f5f9;
+    --slate-200: #e2e8f0;
+    --slate-400: #94a3b8;
+    --slate-600: #475569;
+    --slate-700: #334155;
+    --slate-800: #1e293b;
+    --slate-900: #0f172a;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'Malgun Gothic', 'Segoe UI', -apple-system, sans-serif;
+    background: linear-gradient(135deg, #0f172a 0%, #1e3a5f 50%, #312e81 100%);
+    color: #f1f5f9;
+    min-height: 100vh;
+    padding: 40px 20px;
+    line-height: 1.5;
+  }
+  .container { max-width: 1400px; margin: 0 auto; }
+
+  /* ── 헤더 ── */
+  .header {
+    text-align: center;
+    margin-bottom: 50px;
+    padding: 20px;
+  }
+  .header h1 {
+    font-size: 36px;
+    font-weight: 900;
+    background: linear-gradient(135deg, #818cf8, #c4b5fd);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 8px;
+  }
+  .header p {
+    color: #94a3b8;
+    font-size: 14px;
+  }
+  .header .badge {
+    display: inline-block;
+    padding: 4px 12px;
+    background: rgba(129, 140, 248, 0.2);
+    border: 1px solid rgba(129, 140, 248, 0.4);
+    border-radius: 20px;
+    color: #c4b5fd;
+    font-size: 11px;
+    font-weight: 600;
+    margin-top: 8px;
+  }
+
+  /* ── 레이어 카드 ── */
+  .layer {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    padding: 22px 24px;
+    margin-bottom: 12px;
+    position: relative;
+  }
+  .layer-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 14px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  .layer-num {
+    width: 36px; height: 36px;
+    background: linear-gradient(135deg, #4f46e5, #7c3aed);
+    border-radius: 10px;
+    display: flex; align-items: center; justify-content: center;
+    font-weight: 800;
+    font-size: 16px;
+    color: white;
+  }
+  .layer-title { font-size: 19px; font-weight: 700; color: white; }
+  .layer-sub { font-size: 12px; color: #94a3b8; margin-top: 2px; }
+  .layer-tag {
+    margin-left: auto;
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-size: 10.5px;
+    font-weight: 600;
+  }
+
+  /* ── 카드 그리드 ── */
+  .grid { display: grid; gap: 12px; }
+  .grid-2 { grid-template-columns: repeat(2, 1fr); }
+  .grid-3 { grid-template-columns: repeat(3, 1fr); }
+  .grid-4 { grid-template-columns: repeat(4, 1fr); }
+  .grid-5 { grid-template-columns: repeat(5, 1fr); }
+  .grid-6 { grid-template-columns: repeat(6, 1fr); }
+  @media (max-width: 900px) { .grid-3, .grid-4, .grid-5, .grid-6 { grid-template-columns: 1fr 1fr; } }
+
+  .card {
+    background: rgba(255, 255, 255, 0.07);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 10px;
+    padding: 12px 14px;
+    transition: all 0.2s;
+  }
+  .card:hover {
+    background: rgba(255, 255, 255, 0.12);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  }
+  .card-icon { font-size: 22px; margin-bottom: 4px; }
+  .card-title { font-size: 12.5px; font-weight: 700; color: white; margin-bottom: 4px; }
+  .card-desc { font-size: 10.5px; color: #cbd5e1; line-height: 1.4; }
+  .card-tech { font-size: 10px; color: #94a3b8; margin-top: 5px; font-family: 'Consolas', monospace; }
+
+  /* ── 색상 테마 ── */
+  .layer-data { border-left: 4px solid #ec4899; }
+  .layer-data .layer-num { background: linear-gradient(135deg, #ec4899, #f43f5e); }
+  .layer-data .layer-tag { background: rgba(236, 72, 153, 0.2); color: #f9a8d4; }
+
+  .layer-etl { border-left: 4px solid #d97706; }
+  .layer-etl .layer-num { background: linear-gradient(135deg, #d97706, #f59e0b); }
+  .layer-etl .layer-tag { background: rgba(217, 119, 6, 0.2); color: #fcd34d; }
+
+  .layer-storage { border-left: 4px solid #16a34a; }
+  .layer-storage .layer-num { background: linear-gradient(135deg, #16a34a, #22c55e); }
+  .layer-storage .layer-tag { background: rgba(22, 163, 74, 0.2); color: #86efac; }
+
+  .layer-backend { border-left: 4px solid #2563eb; }
+  .layer-backend .layer-num { background: linear-gradient(135deg, #2563eb, #3b82f6); }
+  .layer-backend .layer-tag { background: rgba(37, 99, 235, 0.2); color: #93c5fd; }
+
+  .layer-frontend { border-left: 4px solid #7c3aed; }
+  .layer-frontend .layer-num { background: linear-gradient(135deg, #7c3aed, #a855f7); }
+  .layer-frontend .layer-tag { background: rgba(124, 58, 237, 0.2); color: #c4b5fd; }
+
+  .layer-user { border-left: 4px solid #4f46e5; }
+  .layer-user .layer-num { background: linear-gradient(135deg, #4f46e5, #6366f1); }
+  .layer-user .layer-tag { background: rgba(79, 70, 229, 0.2); color: #c4b5fd; }
+
+  /* ── 화살표 ── */
+  .arrow {
+    text-align: center;
+    margin: 4px 0;
+    color: #818cf8;
+    font-size: 28px;
+    line-height: 1;
+    text-shadow: 0 0 12px rgba(129, 140, 248, 0.5);
+  }
+  .arrow-label {
+    display: inline-block;
+    padding: 3px 12px;
+    background: rgba(129, 140, 248, 0.15);
+    border: 1px solid rgba(129, 140, 248, 0.3);
+    border-radius: 20px;
+    font-size: 11px;
+    color: #c4b5fd;
+    margin-left: 8px;
+    vertical-align: middle;
+    font-weight: 600;
+  }
+
+  /* ── 데이터 흐름 박스 ── */
+  .flow-box {
+    display: inline-block;
+    padding: 6px 12px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    font-size: 11px;
+    margin: 2px;
+    color: #e0e7ff;
+    font-family: 'Consolas', monospace;
+  }
+
+  /* ── 푸터 ── */
+  .footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+    color: #94a3b8;
+    font-size: 12px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  /* ── 강조 라벨 ── */
+  .pk { color: #fbbf24; font-weight: 700; font-size: 10px; }
+  .fk { color: #60a5fa; font-weight: 700; font-size: 10px; }
+
+  /* ── 통계 박스 ── */
+  .stats {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+    margin-bottom: 40px;
+  }
+  .stat-box {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 14px;
+    padding: 18px;
+    text-align: center;
+  }
+  .stat-num {
+    font-size: 32px;
+    font-weight: 900;
+    background: linear-gradient(135deg, #818cf8, #c4b5fd);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .stat-label { font-size: 11.5px; color: #94a3b8; margin-top: 4px; }
+
+  @media print {
+    body { background: white; color: black; }
+    .card, .layer { background: #f8fafc; color: #1e293b; }
+  }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <!-- ─────────────── 헤더 ─────────────── -->
+  <div class="header">
+    <h1>🏗️ FILMN9 시스템 아키텍처</h1>
+    <p>AI 기반 기업 분석 자동화 플랫폼 · 전체 개발 파이프라인</p>
+    <div class="badge">KPMG AI Lab · 2026-05-26 · v3.0 FINAL</div>
+  </div>
+
+  <!-- ─────────────── 통계 ─────────────── -->
+  <div class="stats">
+    <div class="stat-box">
+      <div class="stat-num">6+</div>
+      <div class="stat-label">외부 데이터 소스</div>
+    </div>
+    <div class="stat-box">
+      <div class="stat-num">3-Tier</div>
+      <div class="stat-label">하이브리드 스토리지</div>
+    </div>
+    <div class="stat-box">
+      <div class="stat-num">15+</div>
+      <div class="stat-label">API 엔드포인트</div>
+    </div>
+    <div class="stat-box">
+      <div class="stat-num">3</div>
+      <div class="stat-label">탭 · 9+ 컴포넌트</div>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════════════════════════════════ -->
+  <!-- LAYER 1: 외부 데이터 소스 -->
+  <!-- ═══════════════════════════════════════════════════════════ -->
+  <div class="layer layer-data">
+    <div class="layer-header">
+      <div class="layer-num">1</div>
+      <div>
+        <div class="layer-title">🌐 외부 데이터 소스 (External Data Sources)</div>
+        <div class="layer-sub">공시 · 시세 · 거시지표 · 신용평가 · 뉴스 · 실시간 가격</div>
+      </div>
+      <div class="layer-tag">6개 외부 API</div>
+    </div>
+    <div class="grid grid-6">
+      <div class="card">
+        <div class="card-icon">📑</div>
+        <div class="card-title">DART OpenAPI</div>
+        <div class="card-desc">사업보고서·재무제표·공시·주주·경영진</div>
+        <div class="card-tech">XBRL · JSON</div>
+      </div>
+      <div class="card">
+        <div class="card-icon">📈</div>
+        <div class="card-title">KRX OpenAPI</div>
+        <div class="card-desc">일봉 OHLCV·시가총액·상장 정보</div>
+        <div class="card-tech">pykrx</div>
+      </div>
+      <div class="card">
+        <div class="card-icon">🏦</div>
+        <div class="card-title">ECOS (한국은행)</div>
+        <div class="card-desc">국고채 10년 금리 (무위험수익률 Rf)</div>
+        <div class="card-tech">REST API</div>
+      </div>
+      <div class="card">
+        <div class="card-icon">💼</div>
+        <div class="card-title">KOFIA</div>
+        <div class="card-desc">회사채 5년 수익률 (Kd 산출)</div>
+        <div class="card-tech">CSV 다운로드</div>
+      </div>
+      <div class="card">
+        <div class="card-icon">⚡</div>
+        <div class="card-title">Yahoo Finance</div>
+        <div class="card-desc">실시간 주가·시총 (15분 지연)</div>
+        <div class="card-tech">yfinance</div>
+      </div>
+      <div class="card">
+        <div class="card-icon">📰</div>
+        <div class="card-title">Google News RSS</div>
+        <div class="card-desc">최신 뉴스 기사 (종목별 키워드)</div>
+        <div class="card-tech">XML RSS</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="arrow">▼ <span class="arrow-label">수집 · ETL</span></div>
+
+  <!-- ═══════════════════════════════════════════════════════════ -->
+  <!-- LAYER 2: ETL / 데이터 파이프라인 -->
+  <!-- ═══════════════════════════════════════════════════════════ -->
+  <div class="layer layer-etl">
+    <div class="layer-header">
+      <div class="layer-num">2</div>
+      <div>
+        <div class="layer-title">🔄 ETL · 데이터 가공 파이프라인</div>
+        <div class="layer-sub">Python 수집 스크립트 + XBRL 파서 + LLM 자동 요약</div>
+      </div>
+      <div class="layer-tag">Python + LLM</div>
+    </div>
+    <div class="grid grid-4">
+      <div class="card">
+        <div class="card-icon">🔧</div>
+        <div class="card-title">수집 스크립트</div>
+        <div class="card-desc">cron 기반 일/주 단위 수집 + 적재</div>
+        <div class="card-tech">scripts/load_*.py</div>
+      </div>
+      <div class="card">
+        <div class="card-icon">📊</div>
+        <div class="card-title">XBRL Parser</div>
+        <div class="card-desc">DART 재무제표 XBRL → 정형 테이블</div>
+        <div class="card-tech">arelle · lxml</div>
+      </div>
+      <div class="card">
+        <div class="card-icon">🤖</div>
+        <div class="card-title">LLM 요약</div>
+        <div class="card-desc">사업보고서 → 5섹션 자동 요약</div>
+        <div class="card-tech">OpenAI gpt-5-mini</div>
+      </div>
+      <div class="card">
+        <div class="card-icon">💎</div>
+        <div class="card-title">밸류에이션 엔진</div>
+        <div class="card-desc">DCF·WACC·민감도·토네이도 산출</div>
+        <div class="card-tech">팀원 산출물</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="arrow">▼ <span class="arrow-label">저장</span></div>
+
+  <!-- ═══════════════════════════════════════════════════════════ -->
+  <!-- LAYER 3: 스토리지 (3-Tier 하이브리드) -->
+  <!-- ═══════════════════════════════════════════════════════════ -->
+  <div class="layer layer-storage">
+    <div class="layer-header">
+      <div class="layer-num">3</div>
+      <div>
+        <div class="layer-title">🗄️ 스토리지 레이어 — 3-Tier 하이브리드</div>
+        <div class="layer-sub">정형(SQLite) + 반정형(MongoDB) + 외부 산출물(JSON 파일)</div>
+      </div>
+      <div class="layer-tag">11개 엔티티</div>
+    </div>
+    <div class="grid grid-3">
+      <div class="card">
+        <div class="card-icon">📦</div>
+        <div class="card-title">SQLite — filmn9.db</div>
+        <div class="card-desc">
+          정형 데이터 9개 테이블<br>
+          <span class="pk">PK</span> company_info<br>
+          financials · financial_detail<br>
+          ohlcv · shareholders · executives<br>
+          disclosures · credit_ratings · valuations
+        </div>
+        <div class="card-tech">단일 파일 · stock_code 허브</div>
+      </div>
+      <div class="card">
+        <div class="card-icon">🍃</div>
+        <div class="card-title">MongoDB Atlas</div>
+        <div class="card-desc">
+          반정형 데이터 (LLM 산출물)<br>
+          • histories 컬렉션<br>
+          • brief 객체(요약·리스크·모델)<br>
+          • 실패 시 로컬 파일 폴백
+        </div>
+        <div class="card-tech">filmn9.histories</div>
+      </div>
+      <div class="card">
+        <div class="card-icon">📁</div>
+        <div class="card-title">JSON 파일</div>
+        <div class="card-desc">
+          외부 팀 산출물 + 캐시<br>
+          • data/valuation_share/<br>
+          • data/parsed_history/<br>
+          • 종목당 1 파일
+        </div>
+        <div class="card-tech">중첩 구조 무손실 보관</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="arrow">▼ <span class="arrow-label">조회 · API</span></div>
+
+  <!-- ═══════════════════════════════════════════════════════════ -->
+  <!-- LAYER 4: 백엔드 API -->
+  <!-- ═══════════════════════════════════════════════════════════ -->
+  <div class="layer layer-backend">
+    <div class="layer-header">
+      <div class="layer-num">4</div>
+      <div>
+        <div class="layer-title">⚡ 백엔드 API (FastAPI)</div>
+        <div class="layer-sub">RESTful 엔드포인트 · Port 8000 · uvicorn ASGI</div>
+      </div>
+      <div class="layer-tag">15+ Endpoints</div>
+    </div>
+    <div class="grid grid-5">
+      <div class="card">
+        <div class="card-icon">🎯</div>
+        <div class="card-title">/api/overview</div>
+        <div class="card-desc">종목 전체 통합 응답 (5개 테이블 조인)</div>
+        <div class="card-tech">overview.py</div>
+      </div>
+      <div class="card">
+        <div class="card-icon">📊</div>
+        <div class="card-title">/api/ohlcv</div>
+        <div class="card-desc">일봉 시계열 (Lightweight Charts용)</div>
+        <div class="card-tech">ohlcv.py</div>
+      </div>
+      <div class="card">
+        <div class="card-icon">💰</div>
+        <div class="card-title">/api/valuation</div>
+        <div class="card-desc">DCF·WACC·멀티플·시나리오</div>
+        <div class="card-tech">valuation.py</div>
+      </div>
+      <div class="card">
+        <div class="card-icon">📋</div>
+        <div class="card-title">/api/financial_detail</div>
+        <div class="card-desc">B/S·I/S 계정별 상세</div>
+        <div class="card-tech">extras.py</div>
+      </div>
+      <div class="card">
+        <div class="card-icon">🩺</div>
+        <div class="card-title">/api/health</div>
+        <div class="card-desc">기업 건전성 (부채·유동·OPM)</div>
+        <div class="card-tech">extras.py</div>
+      </div>
+      <div class="card">
+        <div class="card-icon">⏱️</div>
+        <div class="card-title">/api/realtime</div>
+        <div class="card-desc">실시간 주가 (yfinance · 60초 폴링)</div>
+        <div class="card-tech">extras.py</div>
+      </div>
+      <div class="card">
+        <div class="card-icon">📰</div>
+        <div class="card-title">/api/news</div>
+        <div class="card-desc">최신 뉴스 (Google News RSS)</div>
+        <div class="card-tech">extras.py</div>
+      </div>
+      <div class="card">
+        <div class="card-icon">👥</div>
+        <div class="card-title">/api/shareholders</div>
+        <div class="card-desc">주주 구성·지분율</div>
+        <div class="card-tech">extras.py</div>
+      </div>
+      <div class="card">
+        <div class="card-icon">👔</div>
+        <div class="card-title">/api/executives</div>
+        <div class="card-desc">경영진 정보</div>
+        <div class="card-tech">extras.py</div>
+      </div>
+      <div class="card">
+        <div class="card-icon">📜</div>
+        <div class="card-title">/api/disclosures</div>
+        <div class="card-desc">공시 목록·DART 링크</div>
+        <div class="card-tech">extras.py</div>
+      </div>
+      <div class="card">
+        <div class="card-icon">⭐</div>
+        <div class="card-title">/api/credit</div>
+        <div class="card-desc">신용등급 추이 (5년)</div>
+        <div class="card-tech">extras.py</div>
+      </div>
+      <div class="card">
+        <div class="card-icon">🔍</div>
+        <div class="card-title">/api/search</div>
+        <div class="card-desc">종목코드·회사명 검색</div>
+        <div class="card-tech">company.py</div>
+      </div>
+      <div class="card">
+        <div class="card-icon">📈</div>
+        <div class="card-title">/api/sankey</div>
+        <div class="card-desc">손익 흐름 Sankey 다이어그램</div>
+        <div class="card-tech">사전 렌더 PNG</div>
+      </div>
+      <div class="card">
+        <div class="card-icon">📚</div>
+        <div class="card-title">/api/history</div>
+        <div class="card-desc">LLM 사업보고서 브리핑</div>
+        <div class="card-tech">MongoDB + 폴백</div>
+      </div>
+      <div class="card">
+        <div class="card-icon">💬</div>
+        <div class="card-title">/api/rag (예정)</div>
+        <div class="card-desc">RAG 챗봇 (현재 사전매핑)</div>
+        <div class="card-tech">Chroma + LLM</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="arrow">▼ <span class="arrow-label">HTTP / JSON</span></div>
+
+  <!-- ═══════════════════════════════════════════════════════════ -->
+  <!-- LAYER 5: 프런트엔드 -->
+  <!-- ═══════════════════════════════════════════════════════════ -->
+  <div class="layer layer-frontend">
+    <div class="layer-header">
+      <div class="layer-num">5</div>
+      <div>
+        <div class="layer-title">🎨 프런트엔드 (Next.js 16 + React 19)</div>
+        <div class="layer-sub">App Router · TypeScript · Tailwind · Port 3000</div>
+      </div>
+      <div class="layer-tag">SSR + CSR</div>
+    </div>
+    <div class="grid grid-2" style="margin-bottom: 14px;">
+      <div class="card" style="background: rgba(124, 58, 237, 0.15);">
+        <div class="card-icon">🏠</div>
+        <div class="card-title">홈 페이지 (/)</div>
+        <div class="card-desc">검색창 · 3종목 바로가기 · 다크모드 토글</div>
+        <div class="card-tech">app/page.tsx</div>
+      </div>
+      <div class="card" style="background: rgba(124, 58, 237, 0.15);">
+        <div class="card-icon">📊</div>
+        <div class="card-title">종목 페이지 (/stock/[code])</div>
+        <div class="card-desc">실시간 헤더 · Hero 배너 · 3개 탭 시스템</div>
+        <div class="card-tech">app/stock/[code]/page.tsx</div>
+      </div>
+    </div>
+    <div class="grid grid-3">
+      <div class="card" style="background: rgba(79, 70, 229, 0.12);">
+        <div class="card-icon">📋</div>
+        <div class="card-title">Tab 1 · 기업개요</div>
+        <div class="card-desc">
+          히스토리브리핑 · 주가차트 · 재무하이라이트<br>
+          신용등급 · 기업개요+경영인 · 주주+건전성<br>
+          재무제표(BS/IS/Sankey) · 최근 공시
+        </div>
+        <div class="card-tech">8개 섹션</div>
+      </div>
+      <div class="card" style="background: rgba(79, 70, 229, 0.12);">
+        <div class="card-icon">💎</div>
+        <div class="card-title">Tab 2 · 밸류에이션</div>
+        <div class="card-desc">
+          Bear/Base/Bull 3시나리오 카드<br>
+          DCF · WACC · 멀티플 · 민감도<br>
+          토네이도 · 피어 비교 (6 서브탭)
+        </div>
+        <div class="card-tech">팀원 산출물 통합</div>
+      </div>
+      <div class="card" style="background: rgba(79, 70, 229, 0.12);">
+        <div class="card-icon">🤖</div>
+        <div class="card-title">Tab 3 · AI분석</div>
+        <div class="card-desc">
+          AI 종합분석 (SWOT)<br>
+          RAG 챗봇 · 종목별 추천 질문 3개<br>
+          DART 사업보고서 기반 답변
+        </div>
+        <div class="card-tech">키워드 매칭 사전매핑</div>
+      </div>
+    </div>
+    <div style="margin-top: 14px; padding: 10px 14px; background: rgba(255,255,255,0.05); border-radius: 8px; font-size: 11px; color: #cbd5e1;">
+      <strong style="color: #c4b5fd;">📦 핵심 라이브러리:</strong>
+      <span class="flow-box">lightweight-charts v5</span>
+      <span class="flow-box">recharts</span>
+      <span class="flow-box">Tailwind CSS</span>
+      <span class="flow-box">shadcn/ui</span>
+      <span class="flow-box">next/dynamic (SSR off)</span>
+    </div>
+  </div>
+
+  <div class="arrow">▼ <span class="arrow-label">렌더링</span></div>
+
+  <!-- ═══════════════════════════════════════════════════════════ -->
+  <!-- LAYER 6: 사용자 -->
+  <!-- ═══════════════════════════════════════════════════════════ -->
+  <div class="layer layer-user">
+    <div class="layer-header">
+      <div class="layer-num">6</div>
+      <div>
+        <div class="layer-title">👤 사용자 (User)</div>
+        <div class="layer-sub">개인 투자자 · 비전공자 페르소나 1</div>
+      </div>
+      <div class="layer-tag">Browser</div>
+    </div>
+    <div class="grid grid-4">
+      <div class="card">
+        <div class="card-icon">🔍</div>
+        <div class="card-title">검색</div>
+        <div class="card-desc">기업명·종목코드로 즉시 진입</div>
+      </div>
+      <div class="card">
+        <div class="card-icon">📖</div>
+        <div class="card-title">분석</div>
+        <div class="card-desc">5분 안에 회사 전체 파악</div>
+      </div>
+      <div class="card">
+        <div class="card-icon">💎</div>
+        <div class="card-title">밸류에이션</div>
+        <div class="card-desc">적정주가·근거 확인</div>
+      </div>
+      <div class="card">
+        <div class="card-icon">💬</div>
+        <div class="card-title">질의응답</div>
+        <div class="card-desc">사업보고서 RAG 챗봇</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════════════════════════════════ -->
+  <!-- 데이터 흐름 요약 -->
+  <!-- ═══════════════════════════════════════════════════════════ -->
+  <div class="layer" style="border-left: 4px solid #fbbf24; margin-top: 30px;">
+    <div class="layer-header">
+      <div class="layer-num" style="background: linear-gradient(135deg, #fbbf24, #f59e0b);">⚙</div>
+      <div>
+        <div class="layer-title">🔄 전체 데이터 흐름 요약</div>
+        <div class="layer-sub">사용자 1회 요청 → 데이터 통합 → 화면 렌더링</div>
+      </div>
+    </div>
+    <div style="font-family: 'Consolas', monospace; font-size: 12px; line-height: 2; color: #e0e7ff;">
+      <div>① 사용자 종목 페이지 진입 → <span class="flow-box">/stock/009150</span></div>
+      <div>② Next.js dynamic import → React 컴포넌트 마운트</div>
+      <div>③ Promise.allSettled([15+ API 병렬 호출]) → FastAPI</div>
+      <div>④ FastAPI → <span class="flow-box">SQLite</span> + <span class="flow-box">MongoDB</span> + <span class="flow-box">JSON 파일</span> 통합 조회</div>
+      <div>⑤ 외부 실시간 호출 → <span class="flow-box">yfinance</span> · <span class="flow-box">Google News</span></div>
+      <div>⑥ JSON 응답 → 프런트 state 업데이트 → 3개 탭 렌더링</div>
+      <div>⑦ 60초마다 <span class="flow-box">/api/realtime</span> 자동 폴링 → 헤더 주가 갱신</div>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════════════════════════════════ -->
+  <!-- 기술 스택 -->
+  <!-- ═══════════════════════════════════════════════════════════ -->
+  <div class="layer" style="border-left: 4px solid #06b6d4; margin-top: 20px;">
+    <div class="layer-header">
+      <div class="layer-num" style="background: linear-gradient(135deg, #06b6d4, #0891b2);">🔧</div>
+      <div>
+        <div class="layer-title">🛠️ 기술 스택 (Tech Stack)</div>
+      </div>
+    </div>
+    <div class="grid grid-4">
+      <div class="card">
+        <div class="card-title" style="color: #f9a8d4;">Data</div>
+        <div class="card-desc">
+          DART · KRX · ECOS · KOFIA<br>
+          Yahoo Finance · Google News
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-title" style="color: #fcd34d;">Backend</div>
+        <div class="card-desc">
+          Python 3.11 · FastAPI<br>
+          SQLite · MongoDB Atlas<br>
+          OpenAI GPT-5-mini · pykrx<br>
+          uvicorn · pydantic
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-title" style="color: #c4b5fd;">Frontend</div>
+        <div class="card-desc">
+          Next.js 16 · React 19<br>
+          TypeScript · Tailwind CSS<br>
+          lightweight-charts · recharts<br>
+          shadcn/ui
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-title" style="color: #86efac;">DevOps</div>
+        <div class="card-desc">
+          Git · GitHub<br>
+          start.bat 원클릭 기동<br>
+          (Vercel · AWS EC2 예정)
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    🏢 KPMG AI Lab · FILMN9 (Financial Intelligence for Liberation of Mass Investing in 9 Steps)<br>
+    © 2026-05-26 · 시스템 아키텍처 v3.0 FINAL · 데모 시연용
+  </div>
+
+</div>
+</body>
+</html>

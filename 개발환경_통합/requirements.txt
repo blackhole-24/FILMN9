@@ -1,0 +1,49 @@
+# =============================================================================
+#  WACC 데이터 수집 — Python 의존성 (운영)
+# =============================================================================
+#  최소 Python 버전: 3.10 (권장: 3.11)
+#  운영 안정성을 위해 minor 버전 상한 명시.
+# =============================================================================
+#
+#  ── 처음 셋업하는 팀원용 (Anaconda Prompt 에서 실행) ──
+#    1) conda create -n wacc-poc python=3.11 -y
+#    2) conda activate wacc-poc
+#    3) cd C:\Users\Admin\Desktop\DART\wacc_poc
+#    4) pip install -r requirements.txt
+#    5) python -m ipykernel install --user --name wacc-poc --display-name "Python (wacc-poc)"
+#    6) python -c "import streamlit, pandas, numpy, openpyxl; print('OK')"   ← 검증
+#
+#  ── 이미 wacc-poc 환경이 있는 경우 ──
+#    1) conda activate wacc-poc
+#    2) pip install -r requirements.txt --upgrade
+#
+#  ── 환경 삭제·재생성 시 ──
+#    conda deactivate
+#    conda env remove -n wacc-poc -y
+#    (위 "처음 셋업" 1)~5) 다시 실행)
+# =============================================================================
+
+# ── UI / 시각화 ──────────────────────────────────────────────────────────────
+streamlit>=1.30,<2.0                 # WACC 검증·시나리오 UI
+
+# ── 데이터 가공 ──────────────────────────────────────────────────────────────
+pandas>=2.0,<3.0                     # 표/시계열 처리, 베타 회귀용 resample
+numpy>=1.24,<3.0                     # 수치 계산 (cov / var)
+
+# ── 노트북 ───────────────────────────────────────────────────────────────────
+ipykernel>=6.25                      # VS Code 노트북 커널
+jupyter>=1.0                         # (선택) jupyter lab/notebook
+nbformat>=5.9                        # 노트북 자동 생성·검증
+
+# ── DART 엑셀 검증용 ────────────────────────────────────────────────────────
+openpyxl>=3.1                        # peer.xlsx 같은 사람 정답 비교 시 필요
+
+# ── 표준 라이브러리 활용 (별도 설치 불필요) ─────────────────────────────────
+# urllib, ssl, json, re, pathlib, datetime: 외부 API 호출·정제·시계열
+# requests / python-dotenv 미사용: 의존성 최소화 정책
+# apis.py 내부에 _load_env() 자체 구현
+
+# ── (선택) 운영 분석·디버깅 ─────────────────────────────────────────────────
+# matplotlib>=3.7                    # 시각화 추가 시 주석 해제
+# scipy>=1.11                        # 통계 검정 (정규성·이분산성 등)
+# statsmodels>=0.14                  # OLS 표준오차·다양한 베타 추정 시 필요
