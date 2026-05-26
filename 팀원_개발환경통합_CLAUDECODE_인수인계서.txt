@@ -21,17 +21,112 @@
 [작업 흐름 한눈에]
 ================================================================
 
-STEP 0. 사전 점검 (Python·Node·Git 버전)
+STEP 0-A. 기존 FILMN9 폴더 백업 (있다면)
+STEP 0-B. 표준 경로 결정 + 메인 개발자 폴더 구성 확인
+STEP 0-C. 사전 점검 (Python·Node·Git 버전)
 STEP 1. GitHub 레포 클론
-STEP 2. 개발환경_통합/ 폴더 진입 및 setup 실행
+STEP 2. data 패키지 zip 받아서 압축 해제 (Google Drive)
 STEP 3. .env 파일 생성 (사용자에게 API 키 요청)
 STEP 4. Python 가상환경 + 의존성 설치
 STEP 5. Frontend npm install
-STEP 6. SQLite DB 초기화 + 데모 데이터 적재
+STEP 6. SQLite DB 검증 (zip에 포함됨, init 불필요)
 STEP 7. MongoDB 연결 시도 (실패 시 폴백 모드)
 STEP 8. 백엔드 + 프런트엔드 동시 기동
 STEP 9. 3종목 데모 검증
 STEP 10. 최종 보고
+
+
+================================================================
+STEP 0-A. 기존 FILMN9 폴더 백업 (충돌 방지)
+================================================================
+
+  ① 본인 PC에 이미 FILMN9 관련 폴더가 있는지 사용자에게 확인 요청:
+
+  사용자에게 질문 예시:
+    "본인 PC에 이미 FILMN9 또는 filmn9 폴더가 있나요?
+     있다면 어디 위치해 있나요? (예: C:\Users\<본인>\FILMN9)"
+
+  ② 기존 폴더가 있다면, Bash 도구로 백업 (이름만 변경):
+
+    Windows:
+    > cd C:\Users\<본인>
+    > Move-Item FILMN9 FILMN9_backup_20260526
+
+    Mac/Linux:
+    > cd ~/
+    > mv FILMN9 FILMN9_backup_20260526
+
+  ③ 백업 완료 후 사용자에게 보고:
+    "기존 FILMN9 폴더를 FILMN9_backup_20260526 으로 이름 변경했습니다.
+     이전 작업 내용은 보존되어 있으며, 환경 구축 완료 후 필요한 파일만
+     골라서 새 FILMN9 폴더로 옮기실 수 있습니다."
+
+  ⚠️ 절대 rm/Remove-Item으로 삭제하지 말 것. 반드시 백업.
+
+
+================================================================
+STEP 0-B. 표준 경로 결정 + 메인 개발자 폴더 구성 확인
+================================================================
+
+  [메인 개발자 FILMN9 폴더 구성 — 참고용 트리]
+
+  C:\Users\Admin\FILMN9\         ← 메인 개발자 표준 경로
+  ├── api/                       ← 백엔드 (FastAPI)
+  │   ├── main.py
+  │   └── routers/
+  │       ├── company.py
+  │       ├── ohlcv.py
+  │       ├── overview.py        ← 종목 통합 API
+  │       ├── extras.py          ← 보조 데이터 API
+  │       └── valuation.py
+  │
+  ├── frontend-next/             ← 프런트엔드 (Next.js)
+  │   ├── app/
+  │   │   ├── layout.tsx
+  │   │   ├── page.tsx           ← 홈페이지
+  │   │   └── stock/[code]/
+  │   │       └── page.tsx       ← 종목 페이지 (3개 탭)
+  │   ├── components/
+  │   └── package.json
+  │
+  ├── db/                        ← DB 적재·검증 스크립트
+  │   ├── init_db.py
+  │   ├── batch_demo3.py
+  │   └── load_history_to_mongo.py
+  │
+  ├── docs/                      ← 프로젝트 문서
+  │
+  ├── data/                      ← 데이터 (Google Drive에서 받음)
+  │   ├── filmn9.db              ← 메인 SQLite DB
+  │   ├── corp_code_map.json
+  │   ├── parsed_history/        ← MongoDB 폴백 (145개)
+  │   ├── parsed/                ← XBRL 파싱 결과
+  │   ├── valuation_results/
+  │   ├── raw/                   ← (선택) DART 원본
+  │   ├── 팀원1_DART/            ← (선택) 팀원 RAG 자료
+  │   ├── 팀원2_RAG/
+  │   ├── 팀원3_RAG/
+  │   ├── RAG/
+  │   ├── RAG_by_team/
+  │   └── embeddings/            ← (선택) 벡터 검색용 20GB
+  │
+  ├── 개발환경_통합/             ← 환경 구축 가이드 (이 폴더!)
+  ├── .env                       ← API 키 (Git 제외)
+  ├── .gitignore
+  ├── requirements.txt
+  └── start.bat
+
+
+  ① 사용자에게 표준 경로 선택 요청:
+    Windows 권장: C:\Users\<본인 이름>\FILMN9
+    Mac/Linux 권장: ~/FILMN9
+
+  ② 사용자가 선택한 경로를 기억하고 STEP 1로 진행.
+
+
+================================================================
+STEP 0-C. 사전 점검 (기존 STEP 0)
+================================================================
 
 
 ================================================================
@@ -78,7 +173,60 @@ STEP 1. GitHub 레포 클론
 
 
 ================================================================
-STEP 2. 개발환경_통합/ 폴더 진입 및 setup 자동화
+STEP 2. data 패키지 zip 받기 + 압축 해제
+================================================================
+
+  ⚠️ GitHub에는 data/ 폴더가 .gitignore 되어 있어 데이터 파일이 없음.
+     반드시 Google Drive에서 별도 다운로드 후 클론된 폴더에 풀어야 함.
+
+  ① 사용자에게 Google Drive 링크 확인 요청:
+
+  사용자에게 질문 예시:
+    "Google Drive에서 FILMN9_DATA_* zip 파일을 다운받으셨나요?
+     본인이 어떤 작업자인지 알려주세요:
+
+     [A] 데모 시연/검증만: FILMN9_DATA_1_필수.zip (3.4 MB) 만 필요
+     [B] RAG 작업자: 패키지 1 + FILMN9_DATA_2_RAG작업자.zip
+     [C] 재수집 작업자: 패키지 1 + 패키지 3a, 3b
+     [D] 모두 받음: 패키지 1, 2, 3 전부"
+
+  ② 다운로드 위치 확인:
+    보통 C:\Users\<본인>\Downloads\ 에 받았을 것임.
+
+  ③ data 폴더 생성 (FILMN9 루트 안):
+    Bash 도구로:
+    Windows:
+    > cd C:\Users\<본인>\FILMN9
+    > mkdir data
+
+    Mac/Linux:
+    > mkdir ~/FILMN9/data
+
+  ④ zip 압축 해제 (data 폴더 안에 풀기):
+
+    Windows PowerShell:
+    > Expand-Archive "C:\Users\<본인>\Downloads\FILMN9_DATA_1_필수.zip" -DestinationPath C:\Users\<본인>\FILMN9\data -Force
+
+    Mac/Linux:
+    > unzip ~/Downloads/FILMN9_DATA_1_필수.zip -d ~/FILMN9/data
+
+    ※ 필수 zip은 내부에 data\filmn9.db, data\parsed_history\ 등이
+      구조 그대로 들어있어 자동으로 올바른 위치에 풀림.
+
+  ⑤ 압축 해제 검증:
+    Glob 도구로 다음 경로에 파일 존재 확인:
+    - C:\Users\<본인>\FILMN9\data\filmn9.db (5.7 MB)
+    - C:\Users\<본인>\FILMN9\data\parsed_history\*.json (145개)
+    - C:\Users\<본인>\FILMN9\data\corp_code_map.json
+
+  ⑥ (RAG/재수집 작업자 한정) 추가 zip 풀기:
+    Package 2 (RAG): FILMN9_DATA_2_RAG작업자.zip → data 안 zip 파일들
+                     필요 시 각각 풀어야 함.
+    Package 3 (재수집): FILMN9_DATA_3a_raw.zip 등을 data\raw 등으로 풀기.
+
+
+================================================================
+STEP 2-B. 개발환경_통합/ 폴더 진입 및 setup 자동화
 ================================================================
 
   ① 사용자에게 SETUP.md 내용 확인 권장:
@@ -109,17 +257,32 @@ STEP 3. .env 파일 생성 (사용자 입력 필수)
   > cp 개발환경_통합/.env.template .env
 
   ② 사용자에게 .env 파일 열어서 다음 키 입력 요청:
-    - DART_API_KEY        (https://opendart.fss.or.kr/ 발급)
-    - OPENAI_API_KEY      (https://platform.openai.com/api-keys)
-    - MONGO_URI           (팀 리더에게 받은 Atlas URI)
+
+    [필수 키]
+    - DART_API_KEY        (각자 발급: https://opendart.fss.or.kr/ 무료, 1분)
+    - OPENAI_API_KEY      (팀 공용 — 이미 알고 있는 키 사용)
+    - MONGO_URI           (★ 메인 개발자에게 슬랙 DM 1:1 요청 필요)
     - MONGO_DB=filmn9
     - MONGO_COLLECTION=histories
 
-  ③ 입력 확인:
+    [선택 키]
+    - ECOS_API_KEY        (각자 발급: https://ecos.bok.or.kr/api/ 무료)
+
+  ③ MongoDB URI 요청 메시지 템플릿 (사용자에게 안내):
+
+    팀원 → 메인 개발자(이형주) 슬랙 DM 예시:
+    "FILMN9 환경 구축 중입니다. .env 입력을 위해 MONGO_URI 부탁드립니다.
+     입력 후 절대 GitHub 커밋하지 않겠습니다."
+
+  ④ 입력 확인:
   > Grep "MONGO_URI" .env       # 값이 채워졌는지 확인
 
-  ※ 빈 값으로 두어도 진행 가능 (폴백 모드 동작),
-    단 데이터 수집/LLM 기능은 제한됨.
+  ⑤ Git 무시 검증 (.env가 .gitignore에 등록되어 있는지):
+  > git check-ignore -v .env
+    → ".gitignore:151:.env  .env" 처럼 나와야 정상
+
+  ※ MONGO_URI 비워두어도 진행 가능 (폴백 모드 동작 — STEP 7 참조)
+    단, MongoDB 적재된 2,526개 종목 히스토리는 사용 불가.
 
 
 ================================================================
@@ -166,20 +329,23 @@ STEP 5. Frontend 의존성 설치
 
 
 ================================================================
-STEP 6. SQLite DB 초기화 + 데모 데이터 적재
+STEP 6. SQLite DB 검증 (zip에 포함 — init 불필요)
 ================================================================
 
-  ① DB 파일이 이미 있는지 확인:
-  > ls data/filmn9.db
-  (또는 dir data\filmn9.db on Windows)
+  ⚠️ STEP 2에서 FILMN9_DATA_1_필수.zip 을 풀었으면
+     data/filmn9.db (5.7 MB) 가 이미 존재해야 함.
 
-  ② GitHub 레포에 filmn9.db 가 포함되어 있다면 → STEP 6 건너뜀.
+  ① DB 파일 검증:
+  > Glob data/filmn9.db
 
-  ③ 없으면 초기화 + 적재:
+  파일이 없으면 → STEP 2 다시 진행 (사용자에게 zip 다운로드 재확인 요청)
+
+  ② 최후 수단 (zip 못 받았을 때만):
   > python db/init_db.py
   > python db/batch_demo3.py
+  (DART API 키 필요, 30초~수분 소요)
 
-  ④ 검증:
+  ③ 스키마 검증:
   > python check_full_schema.py
 
   출력에 9개 테이블 모두 보여야 함:

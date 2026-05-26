@@ -264,3 +264,7 @@ check_sector*.py
 # Worktree (Claude Code 자동 생성)
 .claude-worktrees/
 
+
+# data 배포용 zip 패키지 (Google Drive 전달, GitHub 금지)
+FILMN9_DATA_*.zip
+
