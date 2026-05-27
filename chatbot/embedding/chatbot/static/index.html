@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>사업보고서 RAG 챗봇</title>
+<style>
+  :root { --bg:#0f1115; --panel:#171a21; --bubble-u:#2563eb; --bubble-a:#232733;
+          --text:#e7e9ee; --muted:#9aa3b2; --border:#2a2f3a; --accent:#38bdf8; }
+  * { box-sizing: border-box; }
+  body { margin:0; font-family: "Segoe UI", system-ui, sans-serif; background:var(--bg);
+         color:var(--text); height:100vh; display:flex; flex-direction:column; }
+  header { padding:12px 18px; border-bottom:1px solid var(--border); background:var(--panel);
+           display:flex; align-items:center; gap:10px; }
+  header h1 { font-size:16px; margin:0; font-weight:600; }
+  header .meta { font-size:12px; color:var(--muted); margin-left:auto; }
+  #reset { margin-left:12px; padding:5px 12px; border-radius:8px; border:1px solid var(--border);
+           background:#1f2430; color:var(--text); font-size:12.5px; cursor:pointer; }
+  #reset:hover { border-color:var(--accent); }
+  #chat { flex:1; overflow-y:auto; padding:18px; display:flex; flex-direction:column; gap:14px; }
+  .row { display:flex; }
+  .row.user { justify-content:flex-end; }
+  .bubble { max-width:760px; padding:11px 14px; border-radius:12px; line-height:1.55;
+            white-space:pre-wrap; word-break:break-word; font-size:14.5px; }
+  .user .bubble { background:var(--bubble-u); color:#fff; border-bottom-right-radius:3px; }
+  .assistant .bubble { background:var(--bubble-a); border:1px solid var(--border);
+                       border-bottom-left-radius:3px; }
+  .sysnote { align-self:center; color:var(--muted); font-size:12.5px; }
+  .intro { align-self:center; max-width:760px; width:100%; background:var(--panel);
+           border:1px solid var(--border); border-radius:12px; padding:16px 20px; }
+  .intro-h { font-size:15px; font-weight:700; }
+  .intro-sub { color:var(--muted); font-size:13px; margin-top:4px; }
+  .intro-title { margin:14px 0 4px; font-weight:600; font-size:13px; color:var(--accent); }
+  .intro-title.warn { color:#fbbf24; }
+  .intro ul { margin:4px 0 0; padding-left:18px; }
+  .intro li { font-size:13px; line-height:1.6; color:#cdd3dd; margin:3px 0; }
+  .intro b { color:var(--text); }
+  .meta-line { font-size:12px; color:var(--muted); margin:6px 2px 0; display:flex;
+               gap:10px; flex-wrap:wrap; align-items:center; }
+  .meta-line a { color:var(--accent); text-decoration:none; }
+  .meta-line a:hover { text-decoration:underline; }
+  .src-title { font-size:12.5px; color:var(--muted); margin:10px 2px 4px; font-weight:600; }
+  .src { border:1px solid var(--border); border-radius:9px; padding:8px 10px; margin:6px 0;
+         background:#1b1f29; font-size:12.5px; }
+  .src .head { display:flex; gap:8px; align-items:center; margin-bottom:3px; }
+  .badge { font-size:11px; padding:1px 7px; border-radius:10px; font-weight:600; }
+  .badge.table { background:#3b2f12; color:#fbbf24; }
+  .badge.text  { background:#13314a; color:#7dd3fc; }
+  .src .ttl { font-weight:600; color:var(--text); }
+  .src .sec { color:var(--muted); margin-top:2px; }
+  .src .snip { color:#aeb6c2; margin-top:4px; line-height:1.4;
+               overflow:hidden; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; }
+  .src a.dart { color:var(--accent); text-decoration:none; font-size:11.5px; margin-left:auto; }
+  .src a.dart:hover { text-decoration:underline; }
+  .cands { display:flex; flex-wrap:wrap; gap:6px; margin-top:8px; }
+  .cand { background:#1f2430; border:1px solid var(--border); color:var(--text);
+          border-radius:14px; padding:4px 10px; font-size:12.5px; cursor:pointer; }
+  .cand:hover { border-color:var(--accent); }
+  footer { padding:12px 16px; border-top:1px solid var(--border); background:var(--panel);
+           display:flex; gap:10px; }
+  #q { flex:1; resize:none; height:44px; max-height:140px; padding:11px 12px; border-radius:10px;
+       border:1px solid var(--border); background:#0c0e13; color:var(--text); font-size:14.5px;
+       font-family:inherit; }
+  #send { padding:0 20px; border:none; border-radius:10px; background:var(--bubble-u);
+          color:#fff; font-size:14.5px; font-weight:600; cursor:pointer; }
+  #send:disabled { opacity:.5; cursor:default; }
+  .cursor::after { content:"▋"; animation:blink 1s steps(1) infinite; color:var(--accent); }
+  @keyframes blink { 50% { opacity:0; } }
+  /* 답변 본문(마크다운 제거 + 가독성 렌더링) */
+  .answer-body { white-space:normal; }
+  .answer-body .ln { margin:2px 0; }
+  .answer-body .sp { height:8px; }
+  .answer-body .li { display:flex; gap:7px; margin:4px 0; }
+  .answer-body .li .mk { color:var(--accent); flex-shrink:0; }
+  .answer-body .li > span:last-child { flex:1; }
+</style>
+</head>
+<body>
+  <header>
+    <h1>📄 사업보고서 RAG 챗봇</h1>
+    <span class="meta">gpt-4o-mini · BGE-M3 · rerank · KOSPI/KOSDAQ</span>
+    <button id="reset" title="대화 기록을 지우고 새로 시작">새 대화</button>
+  </header>
+
+  <div id="chat">
+    <div class="intro">
+      <div class="intro-h">📄 사업보고서 RAG 챗봇입니다</div>
+      <div class="intro-sub">KOSPI·KOSDAQ 상장사의 최신 사업보고서(DART)를 검색해 근거와 함께 답합니다.</div>
+
+      <div class="intro-title">이렇게 사용하세요</div>
+      <ul>
+        <li><b>회사명과 함께</b> 질문하세요. 예) "현대건설의 주요 사업은?", "삼성전자 사업 부문별 매출은?"</li>
+        <li>같은 회사로 이어 물을 땐 <b>회사명을 생략</b>해도 됩니다. 예) "그럼 신용등급은?"</li>
+        <li>회사가 헷갈리면 <b>후보 버튼</b>이 떠요. 눌러서 선택하거나 <b>6자리 종목코드</b>를 입력하세요.</li>
+      </ul>
+
+      <div class="intro-title warn">반드시 알아두세요</div>
+      <ul>
+        <li>답변은 <b>보고서에 있는 내용만</b> 근거로 합니다. 없는 정보는 "찾을 수 없습니다"라고 답합니다.</li>
+        <li>수치·재무 데이터는 <b>아래 출처의 원문 링크로 반드시 직접 확인</b>하세요. 투자 판단 전 원문 대조는 필수입니다.</li>
+        <li>현재는 <b>최신 사업연도</b> 보고서 기준이며, 본 답변은 정보 제공용이고 투자 권유가 아닙니다.</li>
+      </ul>
+    </div>
+  </div>
+
+  <footer>
+    <textarea id="q" placeholder="질문을 입력하세요 (Enter 전송 · Shift+Enter 줄바꿈)"></textarea>
+    <button id="send">전송</button>
+  </footer>
+
+<script>
+const chat = document.getElementById("chat");
+const qEl  = document.getElementById("q");
+const send = document.getElementById("send");
+// 세션을 localStorage 에 보관 → 새로고침해도 대화가 이어짐(멀티턴 유지)
+function newId() { return (crypto.randomUUID && crypto.randomUUID()) || ("s" + Date.now()); }
+let sessionId = localStorage.getItem("ragChatSession");
+if (!sessionId) { sessionId = newId(); localStorage.setItem("ragChatSession", sessionId); }
+
+async function resetConversation() {
+  try { await fetch("/session/reset", { method: "POST", headers: {"Content-Type":"application/json"},
+        body: JSON.stringify({ session_id: sessionId }) }); } catch (e) {}
+  sessionId = newId();
+  localStorage.setItem("ragChatSession", sessionId);
+  // 화면 비우고 인트로만 남김
+  document.querySelectorAll("#chat .row, #chat .sysnote").forEach(el => el.remove());
+  const note = el("div", "sysnote", "새 대화를 시작했습니다.");
+  chat.appendChild(note);
+}
+
+function addRow(role) {
+  const row = document.createElement("div");
+  row.className = "row " + role;
+  const bubble = document.createElement("div");
+  bubble.className = "bubble";
+  row.appendChild(bubble);
+  chat.appendChild(row);
+  chat.scrollTop = chat.scrollHeight;
+  return bubble;
+}
+function scroll() { chat.scrollTop = chat.scrollHeight; }
+
+function el(tag, cls, txt) {
+  const e = document.createElement(tag);
+  if (cls) e.className = cls;
+  if (txt != null) e.textContent = txt;
+  return e;
+}
+
+function escapeHtml(s) {
+  return s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+}
+
+// 마크다운 기호 제거 + 번호/불릿을 보기 좋게 렌더링 (안전망: LLM이 마크다운을 흘려도 정리)
+function formatAnswer(raw) {
+  if (!raw) return "";
+  let t = escapeHtml(raw)
+    .replace(/\*\*/g, "").replace(/__/g, "")   // 굵게 기호 제거
+    .replace(/`/g, "");                          // 백틱 제거
+  const out = [];
+  for (let line of t.split(/\r?\n/)) {
+    let s = line.replace(/^\s*#{1,6}\s*/, "");   // 헤딩 기호 제거
+    const trimmed = s.trim();
+    if (trimmed === "") { out.push('<div class="sp"></div>'); continue; }
+    let m;
+    if ((m = trimmed.match(/^(\d+)[.)]\s+(.*)$/))) {
+      out.push(`<div class="li"><span class="mk">${m[1]}.</span><span>${m[2]}</span></div>`);
+    } else if ((m = trimmed.match(/^[-•·*]\s+(.*)$/))) {
+      out.push(`<div class="li"><span class="mk">·</span><span>${m[1]}</span></div>`);
+    } else {
+      out.push(`<div class="ln">${s.replace(/^\s+/, "")}</div>`);
+    }
+  }
+  return out.join("");
+}
+
+function renderSources(bubble, sources, meta) {
+  if (meta) {
+    const m = el("div", "meta-line");
+    const tags = [];
+    if (meta.corp_name) tags.push(`${meta.corp_name}(${meta.ticker||""})`);
+    if (meta.year) tags.push(`${meta.year}년`);
+    if (meta.intent) tags.push(meta.intent);
+    if (meta.reranked) tags.push("rerank✓");
+    m.appendChild(el("span", null, tags.join("  ·  ")));
+    if (meta.report_url) {
+      const a = el("a", null, "📄 사업보고서 원문");
+      a.href = meta.report_url; a.target = "_blank"; a.rel = "noopener";
+      m.appendChild(a);
+    }
+    bubble.appendChild(m);
+  }
+
+  if (sources && sources.length) {
+    bubble.appendChild(el("div", "src-title", `출처 ${sources.length}건`));
+    sources.forEach((src, i) => {
+      const card = el("div", "src");
+
+      const head = el("div", "head");
+      const isTable = src.kind === "table";
+      head.appendChild(el("span", "badge " + (isTable ? "table" : "text"),
+                          isTable ? "표" : "텍스트"));
+      // 제목: 표면 표 제목, 없으면(또는 텍스트면) 섹션 경로
+      const title = (isTable && src.table_title) ? src.table_title : (src.section || "(제목 없음)");
+      head.appendChild(el("span", "ttl", `${i + 1}. ${title}`));
+      if (src.dart_url) {
+        const a = el("a", "dart", "원문 ↗");
+        a.href = src.dart_url; a.target = "_blank"; a.rel = "noopener";
+        head.appendChild(a);
+      }
+      card.appendChild(head);
+
+      // 표는 제목과 별개로 담긴 섹션도 표시
+      if (isTable && src.table_title && src.section) {
+        card.appendChild(el("div", "sec", `섹션: ${src.section}`));
+      }
+      if (src.snippet) card.appendChild(el("div", "snip", src.snippet));
+      bubble.appendChild(card);
+    });
+  }
+  scroll();
+}
+
+function renderCandidates(bubble, candidates) {
+  if (!candidates || !candidates.length) return;
+  const wrap = document.createElement("div");
+  wrap.className = "cands";
+  candidates.forEach(c => {
+    const chip = document.createElement("span");
+    chip.className = "cand";
+    chip.textContent = `${c.corp_name} (${c.ticker})`;
+    // 칩 클릭 시 종목코드를 강제 지정 → 분석기 우회로 항상 결정적으로 해석
+    chip.onclick = () => askQuestion(pendingQuestion, c.ticker, `${c.corp_name} · ${pendingQuestion}`);
+    wrap.appendChild(chip);
+  });
+  bubble.appendChild(wrap);
+  scroll();
+}
+
+let busy = false;
+let pendingQuestion = "";
+
+async function askQuestion(text, ticker, displayText) {
+  if (busy || !text.trim()) return;
+  busy = true; send.disabled = true;
+  pendingQuestion = text;
+
+  addRow("user").textContent = displayText || text;
+  const bubble = addRow("assistant");
+  const body = el("div", "answer-body cursor");
+  bubble.appendChild(body);
+
+  try {
+    const payload = { message: text, session_id: sessionId };
+    if (ticker) payload.ticker = ticker;
+    const resp = await fetch("/chat/stream", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(payload),
+    });
+    if (!resp.ok || !resp.body) throw new Error("HTTP " + resp.status);
+
+    const reader = resp.body.getReader();
+    const decoder = new TextDecoder("utf-8");
+    let buf = "", answer = "", head = null;
+
+    while (true) {
+      const { value, done } = await reader.read();
+      if (done) break;
+      buf += decoder.decode(value, { stream: true });
+
+      let idx;
+      while ((idx = buf.indexOf("\n\n")) !== -1) {
+        const block = buf.slice(0, idx); buf = buf.slice(idx + 2);
+        let event = "message", data = "";
+        block.split("\n").forEach(line => {
+          if (line.startsWith("event:")) event = line.slice(6).trim();
+          else if (line.startsWith("data:")) data += line.slice(5).trim();
+        });
+        if (!data) continue;
+        const payload = JSON.parse(data);
+
+        if (event === "head") {
+          head = payload;
+          if (payload.status && payload.status !== "ok") {
+            body.classList.remove("cursor");
+            body.textContent = payload.message || "회사를 특정하지 못했습니다.";
+            renderCandidates(bubble, payload.candidates);
+          }
+        } else if (event === "token") {
+          answer += payload.t;
+          body.innerHTML = formatAnswer(answer);
+          body.classList.add("cursor");
+          scroll();
+        }
+      }
+    }
+    body.classList.remove("cursor");
+    if (answer) body.innerHTML = formatAnswer(answer);
+    if (head && head.status === "ok") renderSources(bubble, head.sources, head.meta);
+  } catch (e) {
+    body.classList.remove("cursor");
+    body.textContent = "⚠ 오류: " + e.message;
+  } finally {
+    busy = false; send.disabled = false; qEl.focus();
+  }
+}
+
+function submit() {
+  const text = qEl.value.trim();
+  if (!text) return;
+  qEl.value = "";
+  askQuestion(text);
+}
+send.onclick = submit;
+document.getElementById("reset").onclick = resetConversation;
+qEl.addEventListener("keydown", e => {
+  if (e.key === "Enter" && !e.shiftKey) { e.preventDefault(); submit(); }
+});
+qEl.focus();
+</script>
+</body>
+</html>

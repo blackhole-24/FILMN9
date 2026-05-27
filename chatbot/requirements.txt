@@ -1,0 +1,22 @@
+# 사업보고서 RAG 챗봇 의존성
+# 설치: pip install -r requirements.txt
+# (권장 환경: Python 3.11, CUDA GPU)
+
+# ── 임베딩 + 재랭킹 (BGE-M3 / bge-reranker-v2-m3, transformers 직접 사용) ──
+torch>=2.0
+transformers>=4.40,<5.0
+sentencepiece>=0.1.99
+numpy>=1.24
+tqdm>=4.65
+
+# ── 벡터 DB (인덱스 호환을 위해 버전 고정) ──
+chromadb==1.5.9
+
+# ── 회사명 퍼지 매칭 ──
+rapidfuzz>=3.0
+
+# ── 챗봇 백엔드 (RAG 오케스트레이션 + OpenAI + FastAPI) ──
+openai>=1.0
+fastapi>=0.110
+uvicorn>=0.20
+python-dotenv>=1.0
