@@ -6,6 +6,31 @@
 
 ---
 
+## 📌 이 폴더의 위치 + 메인 프로젝트와의 관계
+
+`FILMN9/기업개요_파트/히스토리브리핑/` — 전체 프로젝트 중 **연 1회 사업보고서 자동화** 담당.
+
+```
+┌─────────────────────────────────┐         ┌──────────────────────────────┐
+│ 이 폴더 (연 1회 실행)             │         │ 메인 서비스 (24/7 운영)        │
+│                                   │         │                              │
+│  ① 사업보고서 수집 (DART)         │         │  api/ (FastAPI 백엔드)         │
+│  ② LLM 브리핑 생성               │         │  frontend-next/ (Next.js)     │
+│  ③ MongoDB Atlas 적재             │ ───┐   │  사용자 화면                   │
+└─────────────────────────────────┘   │   └──────────────────────────────┘
+                                       │                ▲
+                                       └──→ filmn9.histories ─┘
+                                       (브리핑이 자동 반영됨)
+```
+
+**필요한 셋업 가이드** (메인 프로젝트):
+- `개발환경_통합/SETUP.md` — 메인 프로젝트 전체 셋업 (백엔드+프런트)
+- `개발환경_통합/휘주님_MongoDB_환경구축_가이드.md` — MongoDB 상세
+
+> 본 폴더는 **자동화 전용**. 메인 서비스(api/frontend)와 무관하게 독립 실행됨.
+
+---
+
 ## 📋 목차
 
 - [빠른 시작](#-빠른-시작)
@@ -250,10 +275,12 @@ python -m code.load_mongo --list                 # 전체 목록
 대표적 이슈:
 | 증상 | 원인 | 해결 |
 |------|------|------|
-| `MONGO_URI` SSL handshake fail | Atlas IP whitelist | Atlas 콘솔에서 0.0.0.0/0 허용 |
+| `MONGO_URI` SSL handshake fail | Atlas IP whitelist | Atlas 콘솔에서 `0.0.0.0/0` 허용 (메인 프로젝트 가이드 참조) |
 | `OPENAI_API_KEY` 미설정 | .env 누락 | `.env.example` 복사 후 채움 |
-| `'#'은(는) 내부 명령 아님` | 주석을 그대로 실행 | 주석(# ...) 제외하고 명령만 입력 |
-| Windows 인코딩 깨짐 | cp949 | `chcp 65001` 실행 후 재시도 |
+| `'#'은(는) 내부 명령 아님` | 주석을 그대로 실행 | 주석(`# ...`) 제외하고 명령만 입력 |
+| Windows 한글 깨짐 | cp949 인코딩 | `chcp 65001` 실행 후 재시도 |
+| `ModuleNotFoundError: finance_datareader` | 패키지명 오타 | `pip install finance-datareader` (소문자+하이픈) |
+| `NameError: name 're' is not defined` | helpers/extraction.py 손상 | GitHub에서 원본 파일 다시 받기 |
 
 ---
 
@@ -286,11 +313,23 @@ python -m code.load_mongo --list                 # 전체 목록
 
 ## 🤝 운영 책임 분담
 
-| 작업 | 담당 |
-|------|------|
-| 자동화 코드 (이 폴더) | 본인 |
-| MongoDB Atlas 운영 | 팀원 (재무정보 파트) |
-| FastAPI 백엔드 | 팀원 |
-| 화면 표시 | 팀원 |
+| 작업 | 담당 | 관련 폴더 |
+|------|------|----------|
+| 자동화 코드 (연 1회) | 본인 | `기업개요_파트/히스토리브리핑/` (이 폴더) |
+| MongoDB Atlas 운영 | 재무정보 파트 | (인프라) |
+| FastAPI 백엔드 | 팀원 | `api/` |
+| 프런트엔드 (Next.js) | 팀원 | `frontend-next/` |
+| 화면 디자인 / 데이터 시각화 | 팀원 | `frontend-next/` |
 
-자동화는 본인 PC에서 매년 1회 실행 → MongoDB 업로드 → 서비스 자동 반영.
+**자동화 흐름**:
+```
+본인 PC (매년 4월 1일)
+  ↓ python run_annual_pipeline.py
+  ↓ ... (~3-5시간) ...
+  ↓
+MongoDB Atlas (filmn9.histories)
+  ↓
+[팀원의 FastAPI] → [화면 자동 반영]
+```
+
+→ 본인은 **연 1회 실행**만 신경쓰면 됨. 나머지 24/7 서비스는 메인 프로젝트에서 자동 처리.
