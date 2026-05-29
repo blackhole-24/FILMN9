@@ -63,7 +63,7 @@ def index():
 class ChatRequest(BaseModel):
     message: str
     session_id: Optional[str] = None
-    current_year: int = 2025
+    current_year: int = 2026
     ticker: Optional[str] = None     # 후보 칩 클릭 등으로 회사 강제 지정 시
 
 
@@ -101,18 +101,23 @@ def chat(req: ChatRequest):
 
 @app.post("/chat/stream")
 def chat_stream(req: ChatRequest):
-    head, token_iter = pipeline.answer_stream(
+    """단계별 SSE 스트림.
+
+    이벤트 유형(pipeline.answer_stream 참고):
+      stage   — 진행 상태(분석/검색/생성)
+      head    — 메타/상태
+      sources — 출처 카드(답변보다 먼저 도착해 사용자 미리 읽기)
+      token   — LLM 토큰
+      done    — 종료
+    """
+    events = pipeline.answer_stream(
         req.message, session_id=req.session_id,
         current_year=req.current_year, ticker=req.ticker)
 
     def _sse():
-        # 1) 메타(head) 먼저
-        yield f"event: head\ndata: {json.dumps(head, ensure_ascii=False)}\n\n"
-        # 2) 본문 토큰
-        if token_iter is not None:
-            for tok in token_iter:
-                yield f"event: token\ndata: {json.dumps({'t': tok}, ensure_ascii=False)}\n\n"
-        yield "event: done\ndata: {}\n\n"
+        for ev in events:
+            etype = ev.pop("type", "message")
+            yield f"event: {etype}\ndata: {json.dumps(ev, ensure_ascii=False)}\n\n"
 
     return StreamingResponse(_sse(), media_type="text/event-stream")
 

@@ -33,6 +33,13 @@ _ANALYZER_SYSTEM = """당신은 한국 상장사 사업보고서 검색을 위�
   "HD현대중공업" → ["에이치디현대중공업"]; "엘지화학" → ["LG화학"]). 모르면 [].
 - "year": 회계연도(정수). "작년"·"최근" 등 상대표현은 기준연도 {current_year} 로 환산.
   명시 없으면 null.
+- "period": 보고서 종류. 다음 중 하나 또는 null:
+  · "annual" : "사업보고서"·"연간"·"연차"·"사업연도" 언급
+  · "q1"     : "1분기"·"Q1"·"1Q"·"first quarter" 언급
+  · "q2"     : "2분기"·"Q2"·"2Q"
+  · "h1"     : "반기"·"상반기"·"H1"
+  · "q3"     : "3분기"·"Q3"·"3Q"
+  명시 없으면 null.
 - "intent": 질문 의도를 한국어 짧은 라벨로 (예: "사업개요", "재무실적", "주식수", "신용등급").
 - "search_query": 벡터 검색에 최적화한 핵심 질의. 회사명은 빼고 사업보고서에 나올 법한
   명사·키워드 중심으로 재작성.
@@ -45,7 +52,8 @@ _USER_TMPL = """이전 대화에서 마지막으로 다룬 회사: {prev_company
 질문: {question}
 
 JSON 형식:
-{{"company": str|null, "company_aliases": [str, ...], "year": int|null, "intent": str,
+{{"company": str|null, "company_aliases": [str, ...], "year": int|null,
+  "period": "annual"|"q1"|"q2"|"h1"|"q3"|null, "intent": str,
   "search_query": str, "query_variants": [str, ...], "hypothetical_answer": str}}"""
 
 
@@ -96,6 +104,10 @@ def analyze(question: str,
     if not isinstance(year, int):
         year = None
 
+    period = data.get("period")
+    if period not in ("annual", "q1", "q2", "h1", "q3"):
+        period = None
+
     aliases = data.get("company_aliases") or []
     if not isinstance(aliases, list):
         aliases = []
@@ -105,6 +117,7 @@ def analyze(question: str,
         "company": (data.get("company") or None),
         "company_aliases": aliases,    # 회사 해석 시 원문과 함께 모두 대조
         "year": year,
+        "period": period,              # annual/q1/q2/h1/q3 또는 None (메타 필터용)
         "intent": data.get("intent") or "",
         "search_query": search_query,
         "queries": queries,            # 실제 검색에 사용할 쿼리 리스트

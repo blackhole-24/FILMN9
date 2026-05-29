@@ -51,7 +51,7 @@ def _load():
 
 
 def rerank(query, candidates: list[dict], top_k: int,
-           batch_size: int = 16) -> list[dict]:
+           batch_size: int = 32) -> list[dict]:
     """(query, candidate['text']) 쌍을 채점해 상위 top_k 반환.
 
     query 는 str 또는 list[str]. 리스트면 각 질의로 채점한 뒤 청크별 **최고점(max)**을

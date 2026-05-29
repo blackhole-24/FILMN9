@@ -27,7 +27,7 @@ OPENAI_TEMPERATURE    = 0.1   # 사실 기반 답변 → 낮게 (미지원 모�
 # 1단계 recall: 각 변형 쿼리마다 넓게 가져옴 (속도/정확도 균형: 12)
 RECALL_TOP_K   = 12
 # RRF 융합 후 reranker 에 넘길 후보 상한 (작을수록 재랭킹 빠름)
-RERANK_POOL    = 24
+RERANK_POOL    = 16
 # 2단계 precision: 최종 LLM 컨텍스트에 넣을 청크 수 (구체성 위해 12)
 FINAL_TOP_K    = 12
 # RRF 상수 (작을수록 상위 랭크 가중 ↑)
@@ -54,7 +54,7 @@ RERANKER_MAX_LEN = 1024
 # 확장 인지 재랭킹: 원본 질문 + 온톨로지 확장 개념어로 각각 채점 후 청크별 max.
 # 단어중심 질문(예: "우발부채")이 끌어온 동의 청크(지급보증·담보)가 재랭킹에서 살아남게 함.
 ENABLE_EXPANSION_RERANK = True
-RERANK_MAX_QUERIES      = 5     # 재랭킹에 쓸 질의 수 상한(원본 1 + 확장 4)
+RERANK_MAX_QUERIES      = 3     # 재랭킹에 쓸 질의 수 상한(원본 1 + 확장 2). 속도 위해 5→3
 # 빈 stub 테이블(키워드만 있고 값 없는 헤더/라벨) 강등 — 값 있는 표가 위로 오게.
 # '짧으면서(헤더 수준) 숫자가 거의 없는' 표만 강등(값 있는 짧은 표·긴 정성표는 보존).
 ENABLE_STUB_DEMOTE   = True

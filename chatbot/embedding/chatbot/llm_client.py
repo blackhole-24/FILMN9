@@ -29,15 +29,18 @@ def _get_client():
 
 
 # 모델별로 미지원할 수 있는 파라미터 (GPT-5/o 계열은 custom temperature 거부 사례)
-_DROPPABLE_PARAMS = ("temperature", "top_p")
+# reasoning_effort/verbosity 는 GPT-5 계열 전용 — 미지원 모델에선 자동 폴백
+_DROPPABLE_PARAMS = ("reasoning_effort", "verbosity", "temperature", "top_p")
 
 
 def chat_create(*, model, messages, temperature=None, response_format=None,
-                stream=False, stream_options=None):
-    """chat.completions.create 래퍼 — 미지원 파라미터(예: temperature) 자동 폴백.
+                stream=False, stream_options=None,
+                reasoning_effort=None, verbosity=None):
+    """chat.completions.create 래퍼 — 미지원 파라미터 자동 폴백.
 
-    GPT-5/o 계열은 custom temperature 를 거부할 수 있어, 해당 오류 시 그 파라미터를
-    제거하고 1회 재시도한다(모델 교체 시 호환성 확보).
+    GPT-5 계열은 reasoning_effort("minimal"/"low"/"medium"/"high")로 추론 깊이 조절,
+    verbosity("low"/"medium"/"high")로 출력 길이 조절 가능. 미지원 모델은 그 파라미터만
+    제거하고 재시도.
     """
     client = _get_client()
     kwargs: dict = {"model": model, "messages": messages}
@@ -45,6 +48,10 @@ def chat_create(*, model, messages, temperature=None, response_format=None,
         kwargs["response_format"] = response_format
     if temperature is not None:
         kwargs["temperature"] = temperature
+    if reasoning_effort is not None:
+        kwargs["reasoning_effort"] = reasoning_effort
+    if verbosity is not None:
+        kwargs["verbosity"] = verbosity
     if stream:
         kwargs["stream"] = True
         if stream_options:
@@ -80,6 +87,12 @@ SYSTEM_PROMPT = """당신은 한국 상장사 사업보고서(DART) 기반 금�
 3. 표·목록형 데이터(보증내역·주식수·소송·재무·배당 등)는 컨텍스트에 있는
    **관련 항목을 빠짐없이** 항목별로 구체적으로 제시하십시오 — 상위 몇 건만 요약하지 말고,
    각 항목의 핵심 수치(금액·비율·기간·상대방 등)를 정확히 인용하십시오. 임의로 계산하지 마십시오.
+   - **★ 모든 금액·재무 수치에는 단위를 반드시 함께 표기**하십시오. 표 청크 상단에 보통
+     "(단위 : 백만원)" / "(단위 : 천원)" / "(단위 : 원)" / "(단위 : 주, %)" 등이 있습니다.
+     이 단위를 답변에서 **매 수치마다** 그대로 같이 적으십시오.
+     (예: "매출액 333,605,938 백만원", "영업이익 43,601,051 백만원").
+     단위가 청크에 없으면 "(단위 미확인)"이라고 명시하고 절대 임의로 단위를 붙이지 마십시오.
+     주의: 백만원과 천원은 1,000배 차이라 단위 누락 시 큰 오해 발생.
    - **우발부채를 물으면 회사가 '의무자'인 항목을 빠짐없이 포함하십시오** —
      제공한 지급보증·채무보증·타인을 위한 담보제공·약정사항·계류 중 소송·충당부채 등.
      단, **'제공받은 지급보증'처럼 회사가 수혜자인 항목은 회사의 우발부채(부채)가 아니므로**
@@ -97,6 +110,9 @@ SYSTEM_PROMPT = """당신은 한국 상장사 사업보고서(DART) 기반 금�
 6. 여러 항목을 나열할 때는 한 줄에 하나씩, 줄 앞에 "1) " 또는 "- " 를 붙이십시오.
 7. 질문 성격에 맞게 작성하십시오 — 수치·내역·목록을 묻는 질문은 항목을 빠짐없이 담아
    충분히 상세하게, 일반·서술형 질문은 간결하게. 한국어로 줄바꿈하여 가독성 있게.
+8. 청크 헤더에는 출처 보고서(예: "2026 1분기보고서", "2025 사업보고서")가 표기돼 있습니다.
+   **수치를 언급할 때 어느 보고서·연도 기준인지 밝히고**, 서로 다른 보고서(연간/분기) 수치가
+   섞이면 각각 어느 보고서 것인지 구분해 답하십시오.
 """
 
 
@@ -131,10 +147,15 @@ def generate_answer(question: str, context: str,
                     model: str = OPENAI_MODEL,
                     company: Optional[str] = None,
                     coverage: Optional[list[str]] = None) -> str:
-    """논스트리밍 답변 생성."""
+    """논스트리밍 답변 생성.
+
+    ★ reasoning_effort="high" — 표 독해/수치 추출/단위 처리 등 누락 없도록 최대 추론.
+       속도 비용은 분석기 무변경 + A1/A2 진행 표시·출처 미리 표시로 체감 보완.
+    """
     resp = chat_create(
         model=model,
         temperature=OPENAI_TEMPERATURE,
+        reasoning_effort="high",
         messages=_build_messages(question, context, history, company, coverage),
     )
     return resp.choices[0].message.content or ""
@@ -145,10 +166,11 @@ def stream_answer(question: str, context: str,
                   model: str = OPENAI_MODEL,
                   company: Optional[str] = None,
                   coverage: Optional[list[str]] = None) -> Iterator[str]:
-    """스트리밍 답변 생성 (토큰 단위 yield)."""
+    """스트리밍 답변 생성 (토큰 단위 yield). reasoning_effort='high' — 표 누락 방지."""
     stream = chat_create(
         model=model,
         temperature=OPENAI_TEMPERATURE,
+        reasoning_effort="high",
         messages=_build_messages(question, context, history, company, coverage),
         stream=True,
     )

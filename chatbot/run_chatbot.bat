@@ -1,16 +1,19 @@
 @echo off
-REM ─────────────────────────────────────────────────────────────
-REM  사업보고서 RAG 챗봇 실행 (Windows)
-REM  사전 준비:
-REM    1) 파이썬 환경 활성화 (예: conda activate dart-rag)
-REM    2) .env 에 OPENAI_API_KEY 설정 (.env.example 참고)
-REM    3) embedding\chroma_db\ (임베딩 DB) 배치 — 별도 공유받은 파일
-REM  실행 후 브라우저에서 http://127.0.0.1:8000 접속
-REM ─────────────────────────────────────────────────────────────
+REM ──────────────────────────────────────────────────────────────────
+REM run_chatbot.bat — 챗봇 서버 1-클릭 실행 (Windows)
+REM   사전 조건:
+REM     1) .env 작성 완료 (OPENAI_API_KEY · DART_API_KEY)
+REM     2) pip install -r requirements.txt 완료
+REM     3) embedding\chroma_db\ 배치 완료
+REM ──────────────────────────────────────────────────────────────────
 setlocal
-set HOST=127.0.0.1
-set PORT=8000
-cd /d "%~dp0"
-echo [run_chatbot] http://%HOST%:%PORT%  (종료: Ctrl+C)
-python -m uvicorn embedding.chatbot.api:app --host %HOST% --port %PORT%
+set "PYTHONIOENCODING=utf-8"
+cd /d %~dp0
+
+echo [run_chatbot] 챗봇 서버 시작 — http://localhost:8000
+echo [run_chatbot] 종료: Ctrl + C
+echo.
+
+python -m uvicorn embedding.chatbot.api:app --host 0.0.0.0 --port 8000
+
 endlocal

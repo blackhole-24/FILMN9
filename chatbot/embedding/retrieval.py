@@ -137,11 +137,17 @@ def format_chunks_for_llm(chunks: list[dict], max_chars: int = 10000) -> str:
 
     각 청크에 출처 메타데이터 포함 (LLM이 인용 시 활용).
     """
+    _RNAME = {"annual": "사업보고서", "q1": "1분기보고서", "q2": "2분기보고서",
+              "q3": "3분기보고서", "semiannual": "반기보고서"}
     lines = []
     used = 0
     for i, c in enumerate(chunks, 1):
         meta = c["metadata"]
-        header = (f"[청크 {i} | {meta.get('corp_name','')} {meta.get('year','')} "
+        # 보고서 종류(신규 청크: report_kind '2026-q1' / 구 청크: 사업보고서로 간주)
+        _rk = meta.get("report_kind") or ""
+        _period = _rk.split("-")[-1] if "-" in _rk else (meta.get("report_type") or "annual")
+        _rname = _RNAME.get(_period, "사업보고서")
+        header = (f"[청크 {i} | {meta.get('corp_name','')} {meta.get('year','')} {_rname} "
                   f"| {meta.get('section_path_str','')} | {meta.get('kind','')}]")
         text = c["text"]
         block = f"{header}\n{text}\n"

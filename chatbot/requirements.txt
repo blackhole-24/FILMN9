@@ -1,22 +1,27 @@
-# 사업보고서 RAG 챗봇 의존성
-# 설치: pip install -r requirements.txt
-# (권장 환경: Python 3.11, CUDA GPU)
+# DART RAG 챗봇 의존성 — 테스트된 버전 (Python 3.11 권장)
 
-# ── 임베딩 + 재랭킹 (BGE-M3 / bge-reranker-v2-m3, transformers 직접 사용) ──
-torch>=2.0
-transformers>=4.40,<5.0
-sentencepiece>=0.1.99
-numpy>=1.24
-tqdm>=4.65
+# 백엔드 / API
+fastapi>=0.110
+uvicorn[standard]>=0.27
+python-dotenv>=1.0
+requests>=2.31
 
-# ── 벡터 DB (인덱스 호환을 위해 버전 고정) ──
+# OpenAI (LLM)
+openai>=1.40
+
+# 벡터 DB — ★ 1.5.9 권장(인덱스 호환), 다른 1.5.x 도 호환 가능하나 미검증
 chromadb==1.5.9
 
-# ── 회사명 퍼지 매칭 ──
-rapidfuzz>=3.0
+# 임베딩·재랭커 (GPU 권장, CPU fallback 가능)
+torch>=2.1                  # CUDA 12.x 환경 권장
+transformers>=4.36
+numpy>=1.24
 
-# ── 챗봇 백엔드 (RAG 오케스트레이션 + OpenAI + FastAPI) ──
-openai>=1.0
-fastapi>=0.110
-uvicorn>=0.20
-python-dotenv>=1.0
+# DART XML 파싱·청킹
+lxml>=5.0
+
+# 회사명 퍼지 매칭
+rapidfuzz>=3.5
+
+# (선택) tqdm — 진행률 표시
+tqdm>=4.66

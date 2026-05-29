@@ -51,12 +51,23 @@ def _demote_stubs(chunks: list[dict]) -> list[dict]:
     )
 
 
-def _build_where(ticker: Optional[str], year: Optional[int]) -> Optional[dict]:
-    """ChromaDB 메타데이터 필터 구성 (retrieval.retrieve 와 동일 규칙)."""
+def _build_where(ticker: Optional[str], year: Optional[int],
+                 report_kind: Optional[str] = None) -> Optional[dict]:
+    """ChromaDB 메타데이터 필터 구성 (retrieval.retrieve 와 동일 규칙).
+
+    호환성 주의:
+      - 백업 era로 임베딩된 2025 사업보고서 청크(약 192만)에는 report_kind/report_type 메타가
+        없다(year/ticker 등 13개 키만 있음). 따라서 report_kind="2025-annual"로 필터하면 그 청크가
+        전부 누락된다 → 사업보고서는 year로만 필터한다(모든 청크에 year 있음).
+      - 분기/반기 청크는 모두 새 dc_chunker로 임베딩돼 report_kind가 항상 있음 → 정확 필터 가능.
+    """
     where: dict = {}
     if ticker:
         where["ticker"] = ticker
-    if year is not None:
+    # annual 은 백업 호환을 위해 year 로만 필터, 나머지(q1/q2/h1/q3)는 report_kind 정확 필터
+    if report_kind and not report_kind.endswith("-annual"):
+        where["report_kind"] = report_kind
+    elif year is not None:
         where["year"] = year
     if not where:
         return None
@@ -85,6 +96,7 @@ def search(queries: list[str],
            rerank_query: str,
            ticker: Optional[str] = None,
            year: Optional[int] = None,
+           report_kind: Optional[str] = None,
            final_top_k: int = FINAL_TOP_K,
            rerank_extra: Optional[list[str]] = None) -> dict:
     """강화 검색 실행.
@@ -111,7 +123,7 @@ def search(queries: list[str],
     res = coll.query(
         query_embeddings=[e.tolist() for e in embs],
         n_results=RECALL_TOP_K,
-        where=_build_where(ticker, year),
+        where=_build_where(ticker, year, report_kind),
     )
 
     ids_all   = res.get("ids", []) or []

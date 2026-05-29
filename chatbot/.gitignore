@@ -1,0 +1,59 @@
+# ─── 민감 정보 (절대 commit 금지) ────────────────────────────────────
+.env
+.env.local
+*.pem
+*.key
+
+# ─── 대용량 데이터 (별도 공유 — Drive/S3) ────────────────────────────
+embedding/chroma_db/
+KOSPI/
+KOSDAQ/
+embedding/corpcode.xml
+*.zip
+*.tar.gz
+
+# ─── 런타임 캐시·로그·진행상태 ──────────────────────────────────────
+__pycache__/
+*.py[co]
+*.log
+embedding/collect_progress.json
+embedding/embed_progress.json
+embedding/embed_progress.json.*
+embedding/chatbot/dart_toc_cache.json
+
+# ─── 정리·백업 폴더 (실행 중 생성됨) ────────────────────────────────
+embedding/_duplicate_jsonl_backup/
+embedding/_archive_replaced/
+embedding/_trash/
+
+# ─── 일회성·임시 스크립트 ───────────────────────────────────────────
+embedding/_patch_*.py
+embedding/_dart_watch.py
+embedding/_wave_watch.py
+embedding/_cells_dump.txt
+embedding/cleanup_q1.py
+embedding/collect_embed_new_reports.ipynb
+
+# ─── 모델 캐시 (사용자 HF 캐시는 외부) ──────────────────────────────
+.cache/
+.huggingface/
+
+# ─── IDE / OS ──────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# ─── Python 가상환경 ───────────────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+
+# ─── 빌드·테스트 산출물 ────────────────────────────────────────────
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.coverage
