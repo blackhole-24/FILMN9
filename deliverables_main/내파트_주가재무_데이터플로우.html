@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FILMN9 — 주가·재무 파트 데이터 플로우</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Malgun Gothic','맑은 고딕',sans-serif; background:#0b1020; color:#e6edf7; padding:32px; line-height:1.5; }
+  h1 { font-size:24px; margin-bottom:4px; color:#7dd3fc; }
+  h2 { font-size:17px; margin:28px 0 12px; color:#a5b4fc; border-left:4px solid #6366f1; padding-left:10px; }
+  .sub { color:#94a3b8; font-size:13px; margin-bottom:20px; }
+  .legend { display:flex; gap:16px; flex-wrap:wrap; margin:14px 0 24px; font-size:12.5px; }
+  .legend span { display:inline-flex; align-items:center; gap:6px; }
+  .dot { width:12px; height:12px; border-radius:3px; display:inline-block; }
+  .g{background:#22c55e}.y{background:#eab308}.r{background:#ef4444}.b{background:#38bdf8}
+
+  /* 레이어 다이어그램 */
+  .layers { display:flex; flex-direction:column; gap:6px; }
+  .layer { background:#131a2e; border:1px solid #263150; border-radius:12px; padding:14px 16px; }
+  .layer-title { font-size:12px; font-weight:700; color:#64748b; letter-spacing:1px; margin-bottom:10px; text-transform:uppercase;}
+  .chips { display:flex; gap:8px; flex-wrap:wrap; }
+  .chip { background:#1e293b; border:1px solid #334155; border-radius:8px; padding:7px 11px; font-size:12.5px; }
+  .chip b{color:#fde68a}
+  .arrow { text-align:center; color:#475569; font-size:18px; margin:1px 0; }
+
+  /* 정보별 lineage 카드 */
+  .lanes { display:grid; grid-template-columns:1fr 1fr; gap:14px; margin-top:8px; }
+  .lane { border-radius:12px; padding:14px; border:1px solid #263150; background:#121a2e; }
+  .lane h3 { font-size:15px; margin-bottom:8px; display:flex; align-items:center; gap:8px; }
+  .badge { font-size:11px; padding:2px 8px; border-radius:20px; font-weight:700; color:#0b1020; }
+  .flow { font-size:12.5px; color:#cbd5e1; }
+  .flow code { background:#0b1020; color:#7dd3fc; padding:1px 6px; border-radius:5px; font-size:11.5px; }
+  .flow .step { margin:5px 0; }
+  .flow .src { color:#fca5a5; }
+  .cov { font-size:11.5px; margin-top:8px; padding:6px 9px; border-radius:7px; }
+  .cov.g{background:#14331f;color:#86efac}.cov.y{background:#3a300f;color:#fde68a}.cov.r{background:#3a1414;color:#fca5a5}.cov.b{background:#0c2b3a;color:#7dd3fc}
+
+  .box-warn { background:#2a1212; border:1px solid #7f1d1d; border-radius:12px; padding:16px 18px; margin-top:14px; }
+  .box-warn h3{color:#fca5a5; margin-bottom:8px;}
+  .box-warn li{margin:5px 0; font-size:13px;}
+  .box-info { background:#0c2030; border:1px solid #155e75; border-radius:12px; padding:16px 18px; margin-top:14px; }
+  .box-info h3{color:#7dd3fc; margin-bottom:8px;}
+  ul{padding-left:20px;}
+  .files { font-size:12px; color:#94a3b8; margin-top:6px; }
+  .files code{color:#a5b4fc;background:#0b1020;padding:1px 5px;border-radius:4px;}
+</style>
+</head>
+<body>
+
+<h1>FILMN9 — 주가·재무 파트 데이터 플로우</h1>
+<div class="sub">히스토리 브리핑 아래 모든 정보(주가차트·재무·공시·주주·경영인·밸류에이션)가 어디서 와서 어떻게 화면으로 나오는지 · 2026-06-01</div>
+
+<div class="legend">
+  <span><i class="dot g"></i> 전수 적재(정상)</span>
+  <span><i class="dot y"></i> 일부 누락</span>
+  <span><i class="dot r"></i> 거의 비어있음(문제)</span>
+  <span><i class="dot b"></i> 실시간 외부호출(간헐적)</span>
+</div>
+
+<!-- ===== 핵심 개념 ===== -->
+<div class="box-info">
+  <h3>❓ "기업마다 정확히 나오게 하는 메인 파일 하나가 있나?" → 아니요.</h3>
+  <ul style="font-size:13px">
+    <li><b>단일 프롬프트/설정 파일은 없습니다.</b> 히스토리 브리핑처럼 "한 파일로 전 기업"이 아니라, <b>정보 블록마다 독립된 API 엔드포인트</b>가 각자 <b>다른 DB 테이블</b> 또는 <b>실시간 외부 API</b>를 호출합니다.</li>
+    <li>이걸 한 화면에 묶는 "오케스트레이터"는 <b>프론트엔드 <code>frontend/app/stock/[code]/page.tsx</code></b> — 종목코드 하나로 15개를 동시에 fetch합니다.</li>
+    <li>즉 <b>"기업개요·주가·재무·공시는 각각 따로 작동"</b>이 맞고, 정확도는 <b>각 DB 테이블의 적재 커버리지</b>에 달려 있습니다. 비어 보이는 건 그 테이블에 그 종목이 없기 때문.</li>
+  </ul>
+</div>
+
+<!-- ===== 레이어 다이어그램 ===== -->
+<h2>① 전체 5계층 흐름 (외부 → 적재 → DB → 백엔드 → 화면)</h2>
+<div class="layers">
+  <div class="layer">
+    <div class="layer-title">외부 데이터 소스</div>
+    <div class="chips">
+      <div class="chip">📄 <b>DART OpenAPI</b><br>재무·주주·경영인·공시</div>
+      <div class="chip">📈 <b>yfinance / FinanceDataReader</b><br>주가 OHLCV·상폐목록</div>
+      <div class="chip">🏛️ <b>KRX / KIND</b><br>거래정지 현황</div>
+      <div class="chip">📰 <b>Naver API + 한경/파이낸셜 RSS</b><br>뉴스</div>
+      <div class="chip">🍃 <b>MongoDB Atlas</b><br>히스토리 브리핑 2,526</div>
+      <div class="chip">💰 <b>밸류에이션팀 산출물</b><br>DCF JSON</div>
+    </div>
+  </div>
+  <div class="arrow">▼ 배치 적재 스크립트(루트 *.py) — 사전에 1회/일일 실행</div>
+  <div class="layer">
+    <div class="layer-title">적재 스크립트 (Loader)</div>
+    <div class="chips">
+      <div class="chip">unified_financial_loader.py<br><span style="color:#94a3b8">+ parse_jsonl_chunks_to_db.py</span></div>
+      <div class="chip">load_all_extras_dart.py</div>
+      <div class="chip">ohlcv_daily_sync.py / backfill_price.py</div>
+      <div class="chip">build_competitors.py / build_customers.py</div>
+      <div class="chip">build_sankey_all.py</div>
+      <div class="chip">build_stock_status.py (+halt_sources, dart_halt_scan)</div>
+    </div>
+  </div>
+  <div class="arrow">▼ 저장</div>
+  <div class="layer">
+    <div class="layer-title">저장소 (data/filmn9.db + 파일)</div>
+    <div class="chips">
+      <div class="chip" style="border-color:#22c55e">ohlcv <b>2,871</b></div>
+      <div class="chip" style="border-color:#22c55e">financial_detail <b>2,708</b></div>
+      <div class="chip" style="border-color:#ef4444">financials <b>23</b> ⚠</div>
+      <div class="chip" style="border-color:#22c55e">company_info <b>3,965</b></div>
+      <div class="chip" style="border-color:#22c55e">shareholders <b>3,009</b></div>
+      <div class="chip" style="border-color:#22c55e">executives <b>2,918</b></div>
+      <div class="chip" style="border-color:#22c55e">peer_competitors <b>2,580</b></div>
+      <div class="chip" style="border-color:#22c55e">company_customers <b>2,546</b></div>
+      <div class="chip" style="border-color:#22c55e">stock_status <b>4,080</b></div>
+      <div class="chip" style="border-color:#ef4444">valuations <b>0</b> ⚠</div>
+      <div class="chip" style="border-color:#eab308">sankey HTML <b>1,861</b></div>
+      <div class="chip" style="border-color:#eab308">parsed_history JSON 145 / Mongo 2,526</div>
+    </div>
+  </div>
+  <div class="arrow">▼ 조회 (SELECT / 파일읽기 / 실시간 외부호출)</div>
+  <div class="layer">
+    <div class="layer-title">백엔드 API (backend/routers/*.py)</div>
+    <div class="chips">
+      <div class="chip">ohlcv.py → <code>/api/ohlcv</code></div>
+      <div class="chip">overview.py → <code>/api/overview</code></div>
+      <div class="chip">company.py → <code>/api/company · /financials</code></div>
+      <div class="chip">extras.py → <code>/financial_detail · shareholders · executives · dart_disclosures · news · health · realtime · peers · stock_status</code></div>
+      <div class="chip">valuation.py → <code>/api/valuation</code></div>
+    </div>
+  </div>
+  <div class="arrow">▼ fetch (병렬 15개)</div>
+  <div class="layer">
+    <div class="layer-title">프론트엔드 (frontend/app/stock/[code]/page.tsx)</div>
+    <div class="chips">
+      <div class="chip">📈 주가 차트</div><div class="chip">💰 재무 하이라이트</div>
+      <div class="chip">📊 재무정보(BS/IS/Sankey)</div><div class="chip">🚦 거래상태 배너</div>
+      <div class="chip">👥 주주·경영인</div><div class="chip">🤝 경쟁사·고객사</div>
+      <div class="chip">📃 전자공시·공급계약</div><div class="chip">📰 뉴스</div>
+      <div class="chip">🧮 밸류에이션</div>
+    </div>
+  </div>
+</div>
+
+<!-- ===== 정보별 상세 lineage ===== -->
+<h2>② 화면 블록별 데이터 계보 (각각 따로 작동)</h2>
+<div class="lanes">
+
+  <div class="lane">
+    <h3>📈 주가 차트 <span class="badge g">전수 2,871</span></h3>
+    <div class="flow">
+      <div class="step">화면 <code>FullChart</code> ← <code>GET /api/ohlcv/{code}</code></div>
+      <div class="step">← DB <code>ohlcv</code> 테이블</div>
+      <div class="step src">← yfinance/FDR (ohlcv_daily_sync·backfill_price)</div>
+      <div class="step">실시간 시세 배지 ← <code>/api/realtime</code> ← DART/Naver <b>LIVE</b></div>
+    </div>
+    <div class="cov g">상장 거의 전수 적재. 정지/신규 ~9개만 빈 차트 → 거래상태 배너로 대체.</div>
+  </div>
+
+  <div class="lane">
+    <h3>💰 재무 하이라이트 <span class="badge r">23개뿐 ⚠</span></h3>
+    <div class="flow">
+      <div class="step">화면 매출·영업이익·순이익 카드 ← <code>/api/overview</code> → <code>tab1.financials</code></div>
+      <div class="step src">← DB <code>financials</code> 테이블 (요약 재무) — <b>23개 종목만 적재됨</b></div>
+    </div>
+    <div class="cov r">🔴 핵심 문제: 랜덤 종목 대부분 여기서 빈칸. financial_detail(2,708)은 있으나 요약 테이블 미생성.</div>
+  </div>
+
+  <div class="lane">
+    <h3>📊 재무정보 — BS/IS <span class="badge y">2,708</span></h3>
+    <div class="flow">
+      <div class="step">화면 재무상태표/손익계산서 ← <code>/api/financial_detail/{code}/BS|IS</code></div>
+      <div class="step">← DB <code>financial_detail</code> 테이블</div>
+      <div class="step src">← 사업보고서 XML + DART API + 외감 JSONL (unified_financial_loader·parse_jsonl)</div>
+    </div>
+    <div class="cov y">상장 2,708/2,871. 신규상장·미제출 ~160개 빈 표.</div>
+  </div>
+
+  <div class="lane">
+    <h3>📊 재무정보 — 손익흐름도(Sankey) <span class="badge y">1,861</span></h3>
+    <div class="flow">
+      <div class="step">화면 <code>&lt;iframe src=/sankey/{code}&gt;</code></div>
+      <div class="step">← 사전 렌더링 HTML 파일</div>
+      <div class="step src">← financial_detail IS/CIS (build_sankey_all)</div>
+    </div>
+    <div class="cov y">IS/CIS 보유 기업만. ~1,000개는 손익흐름도 없음.</div>
+  </div>
+
+  <div class="lane">
+    <h3>🚦 거래상태 배너 <span class="badge g">4,080</span></h3>
+    <div class="flow">
+      <div class="step">화면 배너 ← <code>/api/stock_status/{code}</code></div>
+      <div class="step">← DB <code>stock_status</code> 테이블</div>
+      <div class="step src">← KIND + DART 3년공시 + 거래량 (build_stock_status)</div>
+    </div>
+    <div class="cov g">전수. 상폐·정지·신규·정상 분류 완료.</div>
+  </div>
+
+  <div class="lane">
+    <h3>👥 주주 · 경영인 <span class="badge g">3,009 / 2,918</span></h3>
+    <div class="flow">
+      <div class="step">화면 ← <code>/api/shareholders</code> · <code>/api/executives</code></div>
+      <div class="step">← DB <code>shareholders</code> · <code>executives</code></div>
+      <div class="step src">← DART hyslrSttus·majorstock·exctvSttus (load_all_extras_dart)</div>
+    </div>
+    <div class="cov g">거의 전수 적재.</div>
+  </div>
+
+  <div class="lane">
+    <h3>🤝 경쟁사 · 고객사 <span class="badge g">2,580 / 2,546</span></h3>
+    <div class="flow">
+      <div class="step">화면 ← <code>/api/peers/{code}</code></div>
+      <div class="step">← DB <code>peer_competitors</code> · <code>company_customers</code></div>
+      <div class="step src">← WICS + TF-IDF / 사업보고서 매출처 (build_competitors·build_customers)</div>
+    </div>
+    <div class="cov g">전수 적재.</div>
+  </div>
+
+  <div class="lane">
+    <h3>📃 전자공시 · 공급계약 <span class="badge b">실시간</span></h3>
+    <div class="flow">
+      <div class="step">화면 ← <code>/api/dart_disclosures</code> · <code>/api/supply_contracts</code></div>
+      <div class="step src">← <b>DART OpenAPI 실시간 호출</b> (DB 적재 안 함)</div>
+    </div>
+    <div class="cov b">매 검색마다 DART 직접 호출 → 지연·간헐적 빈값 가능.</div>
+  </div>
+
+  <div class="lane">
+    <h3>📰 최신 뉴스 <span class="badge b">실시간</span></h3>
+    <div class="flow">
+      <div class="step">화면 ← <code>/api/news/{code}</code></div>
+      <div class="step src">← <b>Naver API + 한경/파이낸셜 RSS 실시간</b> (5분 캐시)</div>
+    </div>
+    <div class="cov b">실시간. 일부 종목 뉴스 적거나 날짜 누락.</div>
+  </div>
+
+  <div class="lane">
+    <h3>🧮 밸류에이션 <span class="badge r">JSON 소수 ⚠</span></h3>
+    <div class="flow">
+      <div class="step">화면 밸류 탭 ← <code>/api/valuation/{code}</code></div>
+      <div class="step src">← 종목별 JSON 파일(dcf_result.json 등) — 밸류에이션팀 산출 종목만</div>
+      <div class="step">DB <code>valuations</code> 테이블 = 0개 (미사용)</div>
+    </div>
+    <div class="cov r">🔴 처리된 소수 종목 외 빈값. 6/3 태상님 산출물 수령 후 전수화 예정.</div>
+  </div>
+
+</div>
+
+<!-- ===== 진단 & 처방 ===== -->
+<div class="box-warn">
+  <h3>🔴 "랜덤 종목 빈칸" 원인 & 처방</h3>
+  <ul>
+    <li><b>1. 재무 하이라이트 (최우선)</b> — <code>financials</code> 테이블 23개뿐. → <b>financial_detail(2,708)에서 매출·영업이익·순이익 요약을 추출해 financials 테이블 전수 생성</b>하면 해결. (스크립트 1개로 가능)</li>
+    <li><b>2. 밸류에이션</b> — valuations 테이블 0 + JSON 소수. → 6/3 태상님 SQLite 수령 후 전수 적재.</li>
+    <li><b>3. 손익흐름도(Sankey)</b> — 1,861개. → IS/CIS 없는 기업은 BS 기반 대체 또는 "데이터 없음" 안내.</li>
+    <li><b>4. 재무정보 BS/IS</b> — 2,708개. → 누락 ~160개(신규상장·미제출)은 거래상태/신규상장 안내로 대체.</li>
+    <li><b>5. 전자공시·뉴스·실시간</b> — 외부 LIVE라 간헐적. → 자주 쓰는 건 DB 캐시 적재 검토(6/4 성능).</li>
+  </ul>
+</div>
+
+<div class="box-info">
+  <h3>🗂️ 내 파트 관련 파일 한눈에</h3>
+  <div class="files">
+    <b>프론트(오케스트레이터):</b> <code>frontend/app/stock/[code]/page.tsx</code><br>
+    <b>백엔드 API:</b> <code>backend/routers/ohlcv.py · overview.py · company.py · extras.py · valuation.py</code> + <code>backend/main.py</code><br>
+    <b>적재 스크립트:</b> <code>unified_financial_loader.py · parse_jsonl_chunks_to_db.py · load_all_extras_dart.py · ohlcv_daily_sync.py · backfill_price.py · build_competitors.py · build_customers.py · build_sankey_all.py · build_stock_status.py</code><br>
+    <b>저장소:</b> <code>data/filmn9.db</code> (테이블들) · <code>data/parsed_history/*.json</code> · sankey HTML · 밸류 JSON · MongoDB Atlas
+  </div>
+</div>
+
+</body>
+</html>

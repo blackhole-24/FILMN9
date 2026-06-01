@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FILMN9 주가·재무 파트 — 데이터 플로우 아키텍처</title>
+<style>
+  *{box-sizing:border-box;margin:0;padding:0;}
+  body{font-family:'Malgun Gothic','맑은 고딕',sans-serif;background:#f4f1ea;color:#1f2937;padding:28px 22px;}
+  h1{font-size:23px;color:#1e3a5f;margin-bottom:2px;}
+  .sub{color:#6b7280;font-size:13px;margin-bottom:18px;}
+  .legend{display:flex;gap:18px;flex-wrap:wrap;font-size:12.5px;margin-bottom:18px;align-items:center;}
+  .legend i{width:22px;height:13px;border-radius:4px;display:inline-block;vertical-align:-2px;margin-right:5px;border:2px solid #334155;}
+  .g{background:#bbf7d0}.y{background:#fde68a}.r{background:#fecaca}.b{background:#bae6fd}.p{background:#e9d5ff}.gr{background:#e5e7eb}
+
+  /* 컬럼 헤더 */
+  .cols{display:grid;grid-template-columns:160px 40px 175px 40px 235px 40px 200px 40px 215px;gap:0;align-items:center;margin-bottom:6px;}
+  .colh{font-size:11px;font-weight:800;color:#475569;letter-spacing:.5px;text-align:center;text-transform:uppercase;}
+
+  /* 스윔레인 */
+  .group-title{font-size:13px;font-weight:800;color:#1e3a5f;margin:18px 0 8px;padding:4px 10px;background:#dbe4f0;border-radius:6px;display:inline-block;}
+  .lane{display:grid;grid-template-columns:160px 40px 175px 40px 235px 40px 200px 40px 215px;align-items:center;margin-bottom:10px;}
+  .node{border:2.5px solid #334155;border-radius:12px;padding:9px 11px;font-size:12px;background:#fff;
+        box-shadow:3px 3px 0 rgba(51,65,85,.18);min-height:54px;display:flex;flex-direction:column;justify-content:center;}
+  .node b{font-size:12.5px;display:block;margin-bottom:2px;}
+  .node small{color:#6b7280;font-size:10.5px;line-height:1.35;}
+  .fields{color:#1d4ed8;font-size:10px;font-family:'Consolas',monospace;margin-top:2px;word-break:break-all;}
+  .cnt{font-size:10px;font-weight:800;padding:1px 6px;border-radius:10px;background:#1e3a5f;color:#fff;display:inline-block;margin-top:3px;}
+  .cnt.bad{background:#b91c1c;}
+
+  /* 연결선(화살표) */
+  .conn{position:relative;height:3px;background:#475569;margin:0 2px;}
+  .conn::after{content:'';position:absolute;right:-2px;top:-4px;border-left:9px solid #475569;border-top:5.5px solid transparent;border-bottom:5.5px solid transparent;}
+
+  .note{font-size:11px;color:#6b7280;margin-top:3px;}
+  .warn{background:#fef2f2;border:2px solid #b91c1c;border-radius:10px;padding:13px 16px;margin-top:18px;}
+  .warn b{color:#b91c1c;}
+  .warn li{font-size:13px;margin:4px 0;}
+  .orch{background:#eef2ff;border:2px dashed #6366f1;border-radius:10px;padding:12px 16px;margin:14px 0;font-size:13px;}
+  .orch code{background:#1e1b4b;color:#c7d2fe;padding:1px 6px;border-radius:5px;font-size:11.5px;}
+</style>
+</head>
+<body>
+<h1>🗺️ FILMN9 주가·재무 파트 — 데이터 플로우 아키텍처</h1>
+<div class="sub">히스토리 브리핑 아래 모든 서비스 · 외부소스 → 적재 → DB(필드) → API → 화면 · 2026-06-01</div>
+
+<div class="legend">
+  <span><i class="g"></i>전수(정상)</span>
+  <span><i class="y"></i>일부 누락</span>
+  <span><i class="r"></i>거의 비어있음(문제)</span>
+  <span><i class="b"></i>실시간 외부호출</span>
+  <span><i class="p"></i>외부 데이터</span>
+  <span><i class="gr"></i>적재 스크립트</span>
+</div>
+
+<div class="orch">
+  🎼 <b>오케스트레이터(지휘자) = 프론트엔드 <code>frontend/app/stock/[code]/page.tsx</code></b><br>
+  종목코드 1개로 아래 모든 API를 <b>동시에 15개 fetch</b> → 각 화면 블록에 뿌림. (단일 통합 파일이 아니라, 블록마다 독립 호출)
+</div>
+
+<!-- 컬럼 헤더 -->
+<div class="cols">
+  <div class="colh">🌐 외부 소스</div><div></div>
+  <div class="colh">⚙️ 적재 스크립트</div><div></div>
+  <div class="colh">🗄️ DB 저장(필드)</div><div></div>
+  <div class="colh">🔌 백엔드 API</div><div></div>
+  <div class="colh">🖥️ 화면 블록</div>
+</div>
+
+<!-- ===== 주가 ===== -->
+<div class="group-title">📈 주가</div>
+<div class="lane">
+  <div class="node p"><b>yfinance / FDR</b><small>한국주식 .KS/.KQ</small></div>
+  <div class="conn"></div>
+  <div class="node gr"><b>backfill_ohlcv_full.py</b><small>period=max 장기 이력<br>+ daily_sync</small></div>
+  <div class="conn"></div>
+  <div class="node g"><b>ohlcv</b><div class="fields">date·open·high·low·close·volume</div><span class="cnt">2,871 · 장기 백필중</span></div>
+  <div class="conn"></div>
+  <div class="node g"><b>/api/ohlcv/{code}</b><small>ohlcv.py</small></div>
+  <div class="conn"></div>
+  <div class="node g"><b>📈 주가 차트</b><small>FullChart (MA·볼린저·거래량)</small></div>
+</div>
+<div class="lane">
+  <div class="node b"><b>DART · Naver</b><small>실시간 시세</small></div>
+  <div class="conn"></div>
+  <div class="node gr" style="opacity:.5"><b>(적재 없음)</b><small>매 요청 직접 호출</small></div>
+  <div class="conn"></div>
+  <div class="node b"><b>실시간 호출</b><small>현재가·시총·등락</small></div>
+  <div class="conn"></div>
+  <div class="node b"><b>/api/realtime/{code}</b><small>extras.py · 60초 polling</small></div>
+  <div class="conn"></div>
+  <div class="node b"><b>📈 현재가 배지</b><small>차트 상단</small></div>
+</div>
+
+<!-- ===== 재무 ===== -->
+<div class="group-title">💰 재무</div>
+<div class="lane">
+  <div class="node p"><b>사업보고서 XML<br>+ DART API + 외감 JSONL</b><small>fnlttSinglAcntAll</small></div>
+  <div class="conn"></div>
+  <div class="node gr"><b>unified_financial_loader.py</b><small>parse_jsonl_chunks_to_db.py</small></div>
+  <div class="conn"></div>
+  <div class="node y"><b>financial_detail</b><div class="fields">account_nm·amount·fiscal_year·statement_type(BS/IS/CIS)·scope(연결/별도)</div><span class="cnt">2,708</span></div>
+  <div class="conn"></div>
+  <div class="node y"><b>/api/financial_detail<br>/{code}/BS · /IS</b><small>extras.py · 연도 pivot</small></div>
+  <div class="conn"></div>
+  <div class="node y"><b>📊 재무상태표(BS)<br>손익계산서(IS)</b><small>재무정보 탭</small></div>
+</div>
+<div class="lane">
+  <div class="node y" style="opacity:.85"><b>(financial_detail<br>IS/CIS에서 가공)</b></div>
+  <div class="conn"></div>
+  <div class="node gr"><b>build_sankey_all.py</b><small>Plotly 사전 렌더</small></div>
+  <div class="conn"></div>
+  <div class="node y"><b>sankey HTML 파일</b><div class="fields">매출→비용→이익 노드/링크</div><span class="cnt">1,861</span></div>
+  <div class="conn"></div>
+  <div class="node y"><b>/sankey/{code}</b><small>main.py · iframe</small></div>
+  <div class="conn"></div>
+  <div class="node y"><b>📊 손익흐름도(Sankey)</b><small>재무정보 탭</small></div>
+</div>
+<div class="lane">
+  <div class="node y"><b>financial_detail<br>(2025 사업보고서)</b><small>매출·영업이익·순이익 계정</small></div>
+  <div class="conn"></div>
+  <div class="node gr"><b>build_financials_summary.py</b><small>연결우선·단위자동정규화</small></div>
+  <div class="conn"></div>
+  <div class="node g"><b>financials</b><div class="fields">revenue·op_income·net_income·assets·liabilities·equity·debt_ratio</div><span class="cnt">2,705 ✅</span></div>
+  <div class="conn"></div>
+  <div class="node g"><b>/api/overview<br>(tab1.financials)</b><small>overview.py</small></div>
+  <div class="conn"></div>
+  <div class="node g"><b>💰 재무 하이라이트</b><small>매출·영업이익·순이익 카드</small></div>
+</div>
+<div class="lane">
+  <div class="node g"><b>financials +<br>financial_detail</b><small>자산·부채·자본·유동</small></div>
+  <div class="conn"></div>
+  <div class="node gr"><b>build_financials_summary.py</b><small>+ 조회 시 비율계산</small></div>
+  <div class="conn"></div>
+  <div class="node g"><b>financials + financial_detail</b><div class="fields">부채비율·유동비율·영업이익률 (비율=단위무관)</div><span class="cnt">~2,570 ✅</span></div>
+  <div class="conn"></div>
+  <div class="node g"><b>/api/health/{code}</b><small>extras.py · 등급 계산</small></div>
+  <div class="conn"></div>
+  <div class="node g"><b>🩺 재무 건전성</b><small>부채/유동/이익률 + 등급</small></div>
+</div>
+
+<!-- ===== 지배구조 ===== -->
+<div class="group-title">👥 지배구조</div>
+<div class="lane">
+  <div class="node p"><b>DART</b><small>hyslrSttus·majorstock</small></div>
+  <div class="conn"></div>
+  <div class="node gr"><b>load_all_extras_dart.py</b></div>
+  <div class="conn"></div>
+  <div class="node g"><b>shareholders</b><div class="fields">name·relation·shares·ratio·rank</div><span class="cnt">3,009</span></div>
+  <div class="conn"></div>
+  <div class="node g"><b>/api/shareholders/{code}</b><small>extras.py</small></div>
+  <div class="conn"></div>
+  <div class="node g"><b>👥 주주 구성</b></div>
+</div>
+<div class="lane">
+  <div class="node p"><b>DART</b><small>exctvSttus</small></div>
+  <div class="conn"></div>
+  <div class="node gr"><b>load_all_extras_dart.py</b></div>
+  <div class="conn"></div>
+  <div class="node g"><b>executives</b><div class="fields">name·position·career·birth_year</div><span class="cnt">2,918</span></div>
+  <div class="conn"></div>
+  <div class="node g"><b>/api/executives/{code}</b><small>extras.py</small></div>
+  <div class="conn"></div>
+  <div class="node g"><b>🧑‍💼 경영인</b></div>
+</div>
+<div class="lane">
+  <div class="node p"><b>WICS + TF-IDF<br>사업보고서 매출처</b></div>
+  <div class="conn"></div>
+  <div class="node gr"><b>build_competitors.py<br>build_customers.py</b></div>
+  <div class="conn"></div>
+  <div class="node g"><b>peer_competitors · company_customers</b><div class="fields">competitor_name·wics·similarity / customer_name·channel</div><span class="cnt">2,580 / 2,546</span></div>
+  <div class="conn"></div>
+  <div class="node g"><b>/api/peers/{code}</b><small>extras.py</small></div>
+  <div class="conn"></div>
+  <div class="node g"><b>🤝 경쟁사·고객사</b><small>히스토리 브리핑 카드</small></div>
+</div>
+
+<!-- ===== 상태·공시·뉴스 ===== -->
+<div class="group-title">🚦 상태 · 공시 · 뉴스</div>
+<div class="lane">
+  <div class="node p"><b>KIND + DART 3년공시<br>+ 거래량</b></div>
+  <div class="conn"></div>
+  <div class="node gr"><b>build_stock_status.py</b><small>halt_sources · dart_halt_scan</small></div>
+  <div class="conn"></div>
+  <div class="node g"><b>stock_status</b><div class="fields">status·label·reason·ref_date</div><span class="cnt">4,080</span></div>
+  <div class="conn"></div>
+  <div class="node g"><b>/api/stock_status/{code}</b><small>extras.py</small></div>
+  <div class="conn"></div>
+  <div class="node g"><b>🚦 거래상태 배너</b><small>상폐/정지/신규 안내</small></div>
+</div>
+<div class="lane">
+  <div class="node b"><b>DART OpenAPI</b><small>list.json 실시간</small></div>
+  <div class="conn"></div>
+  <div class="node gr" style="opacity:.5"><b>(적재 없음)</b></div>
+  <div class="conn"></div>
+  <div class="node b"><b>실시간 응답</b><div class="fields">report_nm·rcept_dt·rcept_no</div></div>
+  <div class="conn"></div>
+  <div class="node b"><b>/api/dart_disclosures<br>/api/supply_contracts</b><small>extras.py</small></div>
+  <div class="conn"></div>
+  <div class="node b"><b>📃 전자공시·공급계약</b><small>팝업 뷰어</small></div>
+</div>
+<div class="lane">
+  <div class="node b"><b>Naver API +<br>한경·파이낸셜 RSS</b></div>
+  <div class="conn"></div>
+  <div class="node gr" style="opacity:.5"><b>(5분 캐시만)</b></div>
+  <div class="conn"></div>
+  <div class="node b"><b>실시간 응답</b><div class="fields">title·link·date</div></div>
+  <div class="conn"></div>
+  <div class="node b"><b>/api/news/{code}</b><small>extras.py</small></div>
+  <div class="conn"></div>
+  <div class="node b"><b>📰 최신 뉴스</b></div>
+</div>
+
+<!-- ===== 밸류에이션 ===== -->
+<div class="group-title">🧮 밸류에이션</div>
+<div class="lane">
+  <div class="node p"><b>밸류에이션팀 산출물</b><small>DCF·WACC 계산</small></div>
+  <div class="conn"></div>
+  <div class="node gr"><b>(팀 산출 JSON 배치)</b></div>
+  <div class="conn"></div>
+  <div class="node r"><b>종목별 JSON 파일</b><div class="fields">dcf_result·fcff_result·wacc·multiples</div><span class="cnt bad">소수 · valuations 테이블 0</span></div>
+  <div class="conn"></div>
+  <div class="node r"><b>/api/valuation/{code}</b><small>valuation.py</small></div>
+  <div class="conn"></div>
+  <div class="node r"><b>🧮 밸류에이션 탭</b><small>Bear/Base/Bull·DCF</small></div>
+</div>
+
+<!-- 진단 -->
+<div class="warn" style="background:#dcfce7;border-color:#16a34a">
+  <b style="color:#15803d">✅ 2026-06-01 개선 완료</b>
+  <ul>
+    <li><b>재무 하이라이트</b>: financials 23 → <b>2,705종목</b> 전수 생성(build_financials_summary.py, 외부호출 0) → 매출·영업이익·순이익 정상</li>
+    <li><b>재무 건전성</b>: 부채비율·유동비율·영업이익률 <b>~2,570종목</b>(비율=단위무관 전수 정확) · 명칭 통일</li>
+    <li><b>주가 차트</b>: 수주~1년 → <b>period=max 장기 이력 전수 백필 진행중</b></li>
+  </ul>
+</div>
+<div class="warn">
+  <b>🔶 남은 보완 (배포 전)</b>
+  <ul>
+    <li><b>밸류에이션</b>: valuations 0 + JSON 소수 → 6/3 태상님 SQLite 수령 후 전수화</li>
+    <li><b>손익흐름도</b>: 1,861 (IS/CIS 보유분) · <b>재무정보 BS/IS</b>: 2,708 (신규·미제출 ~160)</li>
+    <li><b>신용등급</b>: 무료 종합 출처 없음(평가사 유료) → 데이터 없으면 화면 자동 숨김</li>
+    <li><b>전자공시·뉴스·실시간</b>: 외부 LIVE → 간헐적 (자주 쓰면 DB 캐시 검토 6/4)</li>
+  </ul>
+</div>
+
+</body>
+</html>

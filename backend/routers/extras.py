@@ -91,6 +91,28 @@ def stock_status(stock_code: str):
     }
 
 
+# ─── 주주 관계 한자 → 한글 정규화 (DART relate 필드가 한자인 경우) ──────────────
+_HANJA_REL = [
+    ("配偶者", "배우자"), ("子女", "자녀"), ("叔父", "삼촌"), ("妹兄", "매형"),
+    ("外叔", "외삼촌"), ("本人", "본인"),
+    ("子", "자녀"), ("女", "딸"), ("父", "부"), ("母", "모"),
+    ("兄", "형"), ("弟", "동생"), ("妹", "여동생"), ("姉", "누나"),
+    ("妻", "배우자"), ("夫", "배우자"), ("孫", "손주"), ("姪", "조카"),
+    ("叔", "삼촌"), ("婿", "사위"), ("媳", "며느리"), ("姑", "고모"),
+    ("舅", "외삼촌"), ("甥", "생질"), ("姻", "인척"), ("族", "친족"), ("血", "혈"),
+]
+
+
+def _norm_relation(rel):
+    """관계 문자열 내 한자를 한글로 치환 (한글 부분은 유지)."""
+    if not rel:
+        return rel
+    s = str(rel)
+    for h, k in _HANJA_REL:
+        s = s.replace(h, k)
+    return s
+
+
 # ─── 주주 ─────────────────────────────────────────────────────────────────────
 
 @router.get("/shareholders/{stock_code}")
@@ -120,6 +142,10 @@ def get_shareholders(stock_code: str):
             if cur is None or (r["ratio"] or 0) > (cur["ratio"] or 0):
                 dedup[key] = dict(r)
         items = sorted(dedup.values(), key=lambda x: -(x["ratio"] or 0))
+
+    # 관계 한자 → 한글 (전 종목 일괄 적용)
+    for it in items:
+        it["relation"] = _norm_relation(it.get("relation"))
 
     return {
         "stock_code": stock_code,
@@ -227,7 +253,7 @@ def get_peers(stock_code: str):
         """, (stock_code,)).fetchall()
 
         cust_row = conn.execute("""
-            SELECT customer_type, customers, source_grade, source_text
+            SELECT customer_type, customers, channels, source_grade, source_text
             FROM company_customers WHERE stock_code = ?
         """, (stock_code,)).fetchone()
 
@@ -239,10 +265,11 @@ def get_peers(stock_code: str):
 
     customers = None
     if cust_row:
-        grade_label = {"B": "사업보고서 매출처", "D": "판매채널"}.get(cust_row["source_grade"], "")
+        grade_label = {"B": "사업보고서 매출처", "C": "소비자(B2C)", "M": "B2B+B2C"}.get(cust_row["source_grade"], "")
         customers = {
-            "type": cust_row["customer_type"],          # B2B / CHANNEL
+            "type": cust_row["customer_type"],          # B2B / B2C / MIXED
             "items": [c.strip() for c in (cust_row["customers"] or "").split(",") if c.strip()],
+            "channels": cust_row["channels"] or "",     # 판매채널·지역 (빈도순)
             "grade": cust_row["source_grade"],
             "grade_label": grade_label,
             "source_text": cust_row["source_text"],
@@ -503,6 +530,36 @@ def get_supply_contracts(stock_code: str, years: int = Query(5, ge=1, le=10)):
 
 # ─── 재무상세 ────────────────────────────────────────────────────────────────
 
+def _detect_fd_unit(conn, stock_code: str) -> str:
+    """
+    financial_detail 금액의 단위(원/천원/백만원)를 종목별로 감지.
+    DART financials.assets(백만원=진실값)를 기준으로 financial_detail 자산총계와 비교해 역산.
+    DART 값이 없으면 자산총계 자릿수로 폴백.
+    """
+    fd = conn.execute(
+        "SELECT amount FROM financial_detail "
+        "WHERE stock_code=? AND statement_type='BS' AND account_nm LIKE '%자산총계%' AND amount>0 "
+        "ORDER BY (statement_scope='연결') DESC, fiscal_year DESC LIMIT 1", (stock_code,)).fetchone()
+    if not fd or not fd[0]:
+        return "원"
+    fdv = float(fd[0])
+    fa = conn.execute(
+        "SELECT assets FROM financials WHERE stock_code=? AND assets IS NOT NULL "
+        "ORDER BY fiscal_year DESC LIMIT 1", (stock_code,)).fetchone()
+    if fa and fa[0]:
+        true_won = float(fa[0]) * 1e6          # DART assets(백만) → 원
+        ratio = true_won / fdv                 # financial_detail × ratio ≈ 원
+        for mult, label in ((1, "원"), (1e3, "천원"), (1e6, "백만원")):
+            if 0.3 <= ratio / mult <= 3:       # 연도차 ±3배 허용
+                return label
+    # 폴백: 자산총계 자릿수 (상장사 자산 ≥ ~1000억 in 원)
+    if fdv >= 1e11:
+        return "원"
+    if fdv >= 1e8:
+        return "백만원"
+    return "천원"
+
+
 @router.get("/financial_detail/{stock_code}/{statement_type}")
 def get_financial_detail(stock_code: str, statement_type: str, scope: str = "연결"):
     """
@@ -546,6 +603,7 @@ def get_financial_detail(stock_code: str, statement_type: str, scope: str = "연
             f"  AND statement_scope = ? "
             f"ORDER BY fiscal_year DESC, display_order",
             (stock_code, *st_filter, scope)).fetchall()
+        unit = _detect_fd_unit(conn, stock_code)   # 종목별 단위 감지
 
     if not rows:
         raise HTTPException(404,
@@ -615,7 +673,7 @@ def get_financial_detail(stock_code: str, statement_type: str, scope: str = "연
         "statement_type": st,
         "scope": scope,
         "fiscal_years": [str(y) for y in years],
-        "unit": "원",
+        "unit": unit,
         "items": items,
         "count": len(items),
     }
@@ -732,15 +790,42 @@ def get_health(stock_code: str):
 # ─── 실시간 주가 / 시총 (yfinance, ~15분 지연) ───────────────────────────────
 
 # KRX → yfinance 티커 매핑 (필요 시 확장)
-_YF_SUFFIX = ".KS"   # KOSPI; KOSDAQ은 ".KQ"
+_YF_SUFFIX = ".KS"   # 기본값 (KOSPI)
 
-_MARKET_MAP: dict[str, str] = {}  # stock_code → 시장 (DB에서 읽어 KQ/KS 결정)
+_SUFFIX_MAP: dict[str, str] = {}   # stock_code → .KS/.KQ (ticker_suffix 테이블 캐시)
+_SUFFIX_LOADED = False
+
+
+def _load_suffix_map():
+    """ticker_suffix 테이블 → 캐시 (KOSDAQ .KQ 정확 매핑). 1회 로드."""
+    global _SUFFIX_LOADED
+    if _SUFFIX_LOADED:
+        return
+    try:
+        with _conn() as conn:
+            for code, suf in conn.execute("SELECT stock_code, suffix FROM ticker_suffix").fetchall():
+                _SUFFIX_MAP[code] = suf
+    except Exception:
+        pass
+    _SUFFIX_LOADED = True
 
 
 def _yf_ticker(stock_code: str) -> str:
-    """종목코드 → yfinance 티커 (예: '090430' → '090430.KS')"""
-    # 필요 시 KOSDAQ 종목은 .KQ 사용 (간단히 .KS 우선 시도)
-    return f"{stock_code}{_YF_SUFFIX}"
+    """종목코드 → yfinance 티커. KOSDAQ은 .KQ (ticker_suffix 기준)."""
+    _load_suffix_map()
+    return f"{stock_code}{_SUFFIX_MAP.get(stock_code, _YF_SUFFIX)}"
+
+
+def _ohlcv_last_close(stock_code: str):
+    """우리 DB 최신 종가 (가격 sanity 대조용)."""
+    try:
+        with _conn() as conn:
+            r = conn.execute(
+                "SELECT close FROM ohlcv WHERE stock_code=? ORDER BY date DESC LIMIT 1",
+                (stock_code,)).fetchone()
+        return float(r[0]) if r and r[0] else None
+    except Exception:
+        return None
 
 
 @router.get("/realtime/{stock_code}")
@@ -758,6 +843,21 @@ def get_realtime(stock_code: str):
 
         price = fi.last_price
         market_cap = fi.market_cap
+
+        # ── 안전장치: 우리 ohlcv 최신 종가와 50%↑ 벗어나면 반대 접미사로 자동 교정 ──
+        # (KOSDAQ 종목이 잘못된 .KS 유령 티커 값을 받는 경우 방지)
+        ref = _ohlcv_last_close(stock_code)
+        if ref and price and abs(price - ref) / ref > 0.5:
+            alt_suffix = ".KQ" if ticker.endswith(".KS") else ".KS"
+            alt_ticker = f"{stock_code}{alt_suffix}"
+            try:
+                t2 = yf.Ticker(alt_ticker)
+                p2 = t2.fast_info.last_price
+                if p2 and abs(p2 - ref) / ref < abs(price - ref) / ref:
+                    t, fi, ticker = t2, t2.fast_info, alt_ticker
+                    price, market_cap = p2, fi.market_cap
+            except Exception:
+                pass
 
         # 최신 1분봉으로 타임스탬프 확인
         now_kst = datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=9)))

@@ -497,6 +497,7 @@ export default function StockPage() {
   const [miniSearch,   setMiniSearch]   = useState('');
   const [miniResults,  setMiniResults]  = useState<any[]>([]);
   const [miniOpen,     setMiniOpen]     = useState(false);
+  const [recent,       setRecent]       = useState<{stock_code:string;corp_name:string}[]>([]);
   const [chatInput,    setChatInput]    = useState('');
   const [chatMessages, setChatMessages] = useState<{text:string;isUser:boolean}[]>([
     { text:'안녕하세요! DART 2024 사업보고서 기반으로 답변드립니다.\n아래 추천 질문을 클릭하시거나 직접 질문해주세요. (PoC 데모용 · 사전 매핑 답변)', isUser:false }
@@ -675,11 +676,28 @@ export default function StockPage() {
       fetch(`${API}/api/realtime/${code}`)
         .then(r=>r.json()).then(setRealtime).catch(()=>{});
     fetchRealtime();
-    const timer = setInterval(fetchRealtime, 60_000);
+    const timer = setInterval(fetchRealtime, 300_000);  // 5분 (yfinance 15분 지연 대비 충분)
     return () => clearInterval(timer);
   }, [code]);
 
   useEffect(() => { chatEndRef.current?.scrollIntoView({ behavior:'smooth' }); }, [chatMessages]);
+
+  // 최근 검색 종목 로드 (localStorage)
+  useEffect(() => {
+    try { setRecent(JSON.parse(localStorage.getItem('filmn9_recent') || '[]')); } catch {}
+  }, []);
+
+  // 현재 종목을 최근 검색에 저장 (기업명 확보 시)
+  useEffect(() => {
+    const nm = overview?.tab1?.company?.corp_name;
+    if (!code || !nm) return;
+    setRecent(prev => {
+      const next = [{ stock_code: code, corp_name: nm },
+                    ...prev.filter(r => r.stock_code !== code)].slice(0, 6);
+      try { localStorage.setItem('filmn9_recent', JSON.stringify(next)); } catch {}
+      return next;
+    });
+  }, [code, overview]);
 
   useEffect(() => {
     const handler = (e: MouseEvent) => {
@@ -690,12 +708,22 @@ export default function StockPage() {
   }, []);
 
   const doMiniSearch = async (q: string) => {
-    if (!q.trim()) { setMiniOpen(false); return; }
+    if (!q.trim()) { setMiniResults([]); setMiniOpen(true); return; }  // 빈입력 → 최근검색 표시 유지
     try {
       const res = await fetch(`${API}/api/search?q=${encodeURIComponent(q)}&limit=8`).then(r=>r.json());
       setMiniResults(res.results||[]);
       setMiniOpen(true);
     } catch {}
+  };
+
+  // 최근 검색 즉시 저장 (네비게이션 시점)
+  const pushRecent = (sc: string, nm: string) => {
+    setRecent(prev => {
+      const next = [{ stock_code: sc, corp_name: nm || sc },
+                    ...prev.filter(r => r.stock_code !== sc)].slice(0, 6);
+      try { localStorage.setItem('filmn9_recent', JSON.stringify(next)); } catch {}
+      return next;
+    });
   };
 
   // 엔터로 즉시 이동: 입력값을 코드로 해석해 바로 종목 페이지로 push
@@ -716,6 +744,7 @@ export default function StockPage() {
     const exact = list.find((r:any)=> (r.corp_name||'').replace(/\s/g,'') === q.replace(/\s/g,''))
                || list.find((r:any)=> r.stock_code === q);
     const target = exact || list[0];
+    pushRecent(target.stock_code, target.corp_name);
     router.push(`/stock/${target.stock_code}`);
     setMiniOpen(false);
     setMiniSearch('');
@@ -779,9 +808,9 @@ export default function StockPage() {
 
   // 건전성 바 설정 + 의미 설명
   const healthMetaMap: Record<string,{label:string;max:number;hint:string}> = {
-    debt_ratio:    { label:'부채비율',   max:300, hint:'부채/자본 (100% 이하 우량, 200% 초과 주의)' },
-    current_ratio: { label:'유동비율',   max:300, hint:'유동자산/유동부채 (150% 이상 우량)' },
-    op_margin:     { label:'영업이익률', max:30 , hint:'영업이익/매출 (10% 이상 우량)' },
+    debt_ratio:    { label:'부채비율',   max:300, hint:'부채/자본 · 100%↓ 우량, 100~200% 주의, 200%↑ 위험' },
+    current_ratio: { label:'유동비율',   max:300, hint:'유동자산/유동부채 · 200%↑ 우량, 150~200% 주의, 150%↓ 위험' },
+    op_margin:     { label:'영업이익률', max:30 , hint:'영업이익/매출 · 10%↑ 우량, 5~10% 주의, 5%↓ 위험' },
   };
   const gradeColor: Record<string,string> = {
     green: 'bg-emerald-100 text-emerald-700',
@@ -837,6 +866,11 @@ export default function StockPage() {
     const hasMore = rows.length > LIMIT;
     return (
       <div>
+        <div className="flex justify-end mb-2">
+          <span className="text-[11px] font-semibold text-indigo-600 bg-indigo-50 border border-indigo-100 dark:bg-indigo-900/40 dark:text-indigo-300 dark:border-indigo-800 px-2.5 py-1 rounded-full">
+            단위: {data.unit || '원'}
+          </span>
+        </div>
         <div className="overflow-x-auto">
           <table className="w-full text-xs">
             <thead>
@@ -1060,17 +1094,31 @@ export default function StockPage() {
             <input
               value={miniSearch}
               onChange={e=>{setMiniSearch(e.target.value);doMiniSearch(e.target.value);}}
+              onFocus={()=>setMiniOpen(true)}
               onKeyDown={e=>{ if(e.key==='Enter'){ e.preventDefault(); goMiniSearch(); } }}
               placeholder="다른 종목 검색... (엔터로 이동)"
               className="text-sm border border-slate-200 rounded-lg px-3 py-1.5 outline-none w-48 bg-slate-50 focus:border-indigo-400 focus:bg-white transition-all dark:bg-slate-700 dark:border-slate-600 dark:text-white"
             />
-            {miniOpen && miniResults.length>0 && (
+            {/* 입력 중 → 검색결과 / 입력 없음 + 포커스 → 최근 검색 3개 */}
+            {miniOpen && miniSearch.trim() && miniResults.length>0 && (
               <div className="absolute top-full left-0 right-0 mt-1 bg-white border border-slate-200 rounded-xl shadow-xl z-50 overflow-hidden">
                 {miniResults.map(r=>(
-                  <button key={r.stock_code} onClick={()=>{router.push(`/stock/${r.stock_code}`);setMiniOpen(false);}}
+                  <button key={r.stock_code} onClick={()=>{pushRecent(r.stock_code, r.corp_name);router.push(`/stock/${r.stock_code}`);setMiniOpen(false);}}
                     className="w-full flex items-center gap-2 px-3 py-2 hover:bg-indigo-50 text-left">
                     <span className="font-mono text-xs text-slate-400 w-14">{r.stock_code}</span>
                     <span className="text-sm font-semibold text-slate-800">{r.corp_name}</span>
+                  </button>
+                ))}
+              </div>
+            )}
+            {miniOpen && !miniSearch.trim() && recent.filter(r=>r.stock_code!==code).length>0 && (
+              <div className="absolute top-full left-0 right-0 mt-1 bg-white border border-slate-200 rounded-xl shadow-xl z-50 overflow-hidden dark:bg-slate-800 dark:border-slate-700">
+                <div className="px-3 py-1.5 text-[10px] font-semibold text-slate-400 border-b border-slate-100 dark:border-slate-700">🕘 최근 검색</div>
+                {recent.filter(r=>r.stock_code!==code).slice(0,3).map(r=>(
+                  <button key={r.stock_code} onClick={()=>{router.push(`/stock/${r.stock_code}`);setMiniOpen(false);}}
+                    className="w-full flex items-center gap-2 px-3 py-2 hover:bg-indigo-50 dark:hover:bg-slate-700 text-left">
+                    <span className="font-mono text-xs text-slate-400 w-14">{r.stock_code}</span>
+                    <span className="text-sm font-semibold text-slate-800 dark:text-slate-100">{r.corp_name}</span>
                   </button>
                 ))}
               </div>
@@ -1256,22 +1304,27 @@ export default function StockPage() {
                         <div className="bg-slate-50 dark:bg-slate-700 rounded-lg px-3 py-2">
                           <div className="flex items-center gap-1.5 mb-1">
                             <span className="text-xs font-semibold text-emerald-600 dark:text-emerald-400">고객사</span>
-                            {peers.customers?.grade_label && (
+                            {peers.customers?.type && (
                               <span className="text-[10px] px-1.5 py-0.5 rounded bg-emerald-100 text-emerald-700 dark:bg-emerald-900 dark:text-emerald-300">
-                                {peers.customers.grade_label}
+                                {({B2B:'B2B (기업)', B2C:'B2C (개인)', MIXED:'B2B+B2C'} as any)[peers.customers.type] || peers.customers.type}
                               </span>
                             )}
                           </div>
                           {peers.customers?.items?.length > 0 ? (
                             <div className="flex flex-wrap gap-1">
                               {peers.customers.items.map((c: string, i: number) => (
-                                <span key={i} className="text-xs px-2 py-0.5 rounded-full bg-white dark:bg-slate-600 border border-slate-200 dark:border-slate-500 text-slate-700 dark:text-slate-200">
+                                <span key={i} className={`text-xs px-2 py-0.5 rounded-full border ${c.includes('일반 소비자')||c.includes('불특정')
+                                  ? 'bg-emerald-50 text-emerald-700 border-emerald-200 dark:bg-emerald-900/40 dark:text-emerald-300 dark:border-emerald-700'
+                                  : 'bg-white dark:bg-slate-600 border-slate-200 dark:border-slate-500 text-slate-700 dark:text-slate-200'}`}>
                                   {c}
                                 </span>
                               ))}
                             </div>
                           ) : (
                             <div className="text-xs text-slate-400">정보 없음</div>
+                          )}
+                          {peers.customers?.channels && (
+                            <div className="text-[10px] text-slate-400 mt-1.5">🛒 판매채널: {peers.customers.channels}</div>
                           )}
                         </div>
                         {/* 경쟁사 */}
@@ -1366,29 +1419,7 @@ export default function StockPage() {
               </div>
             </div>
 
-            {/* 재무제표 */}
-            <div className="bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-xl p-5">
-              <div className="flex gap-1 mb-4 border-b border-slate-100 dark:border-slate-700 pb-3">
-                {(['SANKEY','BS','IS'] as FinTab[]).map(t=>(
-                  <button key={t} onClick={()=>setFinTab(t)}
-                    className={`px-4 py-1.5 text-xs rounded-full font-semibold transition-colors ${finTab===t
-                      ? 'text-white bg-indigo-600'
-                      : 'bg-slate-100 text-slate-600 hover:bg-slate-200 dark:bg-slate-700 dark:text-slate-300'}`}>
-                    {t==='BS'?'재무상태표(연결)':t==='IS'?'손익계산서(연결)':'손익흐름도'}
-                  </button>
-                ))}
-              </div>
-              {listStatus && !listStatus.tradable && (
-                <div className="mb-3"><ListingStatusBanner s={listStatus} compact /></div>
-              )}
-              {finTab==='BS' && <FinTable data={bsData}/>}
-              {finTab==='IS' && <FinTable data={isData}/>}
-              {finTab==='SANKEY' && (
-                <iframe src={`${API}/sankey/${code}`} className="w-full rounded-lg" style={{height:520,border:'none'}}/>
-              )}
-            </div>
-
-            {/* ── 재무 하이라이트 (full width) ── */}
+            {/* ── 재무 하이라이트 (주가차트 바로 아래, full width) ── */}
             <div className="bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-xl p-5">
               <div className="text-sm font-bold text-slate-700 dark:text-slate-200 mb-3">💰 재무 하이라이트 <span className="text-xs font-normal text-slate-400">(연결 기준)</span></div>
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
@@ -1414,21 +1445,126 @@ export default function StockPage() {
               </div>
             </div>
 
-            {/* ── 신용등급 추이 (재무하이라이트 바로 아래) ── */}
-            {creditChartData.length > 0 && (
+            {/* ── 재무 건전성 + 주주 구성 (2컬럼) ── */}
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              {/* 재무 건전성 */}
               <div className="bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-xl p-5">
-                <div className="text-sm font-bold text-slate-700 dark:text-slate-200 mb-3">⭐ 신용등급 추이</div>
-                <ResponsiveContainer width="100%" height={120}>
-                  <LineChart data={creditChartData}>
-                    <XAxis dataKey="year" tick={{fontSize:11}} tickLine={false} axisLine={false}/>
-                    <YAxis domain={[0,11]} ticks={[1,2,3,4,5,6,7,8,9,10]}
-                      tickFormatter={v=>NUM_TO_GRADE[v]||''} tick={{fontSize:11}} tickLine={false} axisLine={false} width={42}/>
-                    <Tooltip formatter={(_:any,__:any,props:any)=>props.payload[0]?.payload?.grade}/>
-                    <Line type="monotone" dataKey="num" stroke={BRAND} strokeWidth={2} dot={{fill:BRAND,r:4}}/>
-                  </LineChart>
-                </ResponsiveContainer>
+                <div className="flex items-center justify-between mb-3">
+                  <span className="text-sm font-bold text-slate-700 dark:text-slate-200 inline-flex items-center">
+                    💪 재무 건전성 <span className="text-xs font-normal text-slate-400 ml-1">(연결 기준)</span>
+                    {/* ⓘ 등급 설명 툴팁 */}
+                    <span className="group relative inline-flex items-center ml-1.5 cursor-help align-middle">
+                      <span className="flex items-center justify-center w-4 h-4 rounded-full bg-slate-300 dark:bg-slate-600 text-white text-[10px] font-bold leading-none">i</span>
+                      <div className="hidden group-hover:block absolute z-50 p-3 bg-slate-800 text-white text-[11px] leading-relaxed rounded-lg shadow-xl border border-slate-700 font-normal text-left"
+                           style={{width:'18rem', left:'1.4rem', top:0, whiteSpace:'normal'}}>
+                        <div className="font-bold mb-1.5 text-slate-100">등급 의미</div>
+                        <div className="mb-0.5">🟢 <b>우량</b> = 좋음 (안전)</div>
+                        <div className="mb-0.5">🟡 <b>주의</b> = 보통 · 경계</div>
+                        <div className="mb-2">🔴 <b>위험</b> = 나쁨</div>
+                        <div className="font-bold mb-1 text-slate-100">등급 기준</div>
+                        <div>• 부채비율: 100%↓ 🟢 · 100~200% 🟡 · 200%↑ 🔴</div>
+                        <div>• 유동비율: 200%↑ 🟢 · 150~200% 🟡 · 150%↓ 🔴</div>
+                        <div>• 영업이익률: 10%↑ 🟢 · 5~10% 🟡 · 5%↓ 🔴</div>
+                        <div className="mt-1.5 text-[10px] text-slate-400">출처: 2025 사업보고서(연결) 자동 계산</div>
+                      </div>
+                    </span>
+                  </span>
+                  {health && <span className={`text-xs px-2 py-0.5 rounded-full font-semibold ${overallColor}`}>
+                    {overallLabel[health.overall_grade]||'—'}
+                  </span>}
+                </div>
+                {health ? (
+                  <div className="space-y-4">
+                    {Object.entries(health.metrics||{}).map(([k,m]:any)=>{
+                      const meta = healthMetaMap[k] || {label:k,max:100,hint:''};
+                      const pct = m.value!=null ? Math.min(100,(m.value/meta.max)*100) : 0;
+                      const barCol = {green:'#10B981',yellow:'#F59E0B',red:'#EF4444',gray:'#CBD5E1'}[m.grade as string]||'#CBD5E1';
+                      const gradeBadge = {green:'우량',yellow:'주의',red:'위험',gray:'—'}[m.grade as string]||'—';
+                      return (
+                        <div key={k}>
+                          <div className="flex items-center gap-2 mb-1">
+                            <span className="text-xs font-semibold text-slate-700 dark:text-slate-200 w-20">{meta.label}</span>
+                            <span className={`text-[10px] px-1.5 py-0.5 rounded font-semibold ${
+                              m.grade==='green'?'bg-emerald-100 text-emerald-700':
+                              m.grade==='yellow'?'bg-yellow-100 text-yellow-700':
+                              m.grade==='red'?'bg-red-100 text-red-700':'bg-slate-100 text-slate-500'
+                            }`}>{gradeBadge}</span>
+                            <span className="ml-auto text-xs font-mono font-bold text-slate-700 dark:text-slate-200">
+                              {m.value!=null?m.value.toFixed(2)+'%':'—'}
+                            </span>
+                          </div>
+                          <div className="bg-slate-100 dark:bg-slate-700 rounded-full h-1.5">
+                            <div className="h-1.5 rounded-full transition-all" style={{width:`${pct}%`,background:barCol}}/>
+                          </div>
+                          <div className="text-[10px] text-slate-400 mt-1">{meta.hint}</div>
+                        </div>
+                      );
+                    })}
+                  </div>
+                ) : <div className="text-xs text-slate-400 text-center py-2">데이터 없음</div>}
               </div>
-            )}
+
+              {/* 주주 구성 */}
+              <div className="bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-xl p-5">
+                <div className="flex items-center justify-between mb-3">
+                  <div className="text-sm font-bold text-slate-700 dark:text-slate-200">🍩 주주 구성</div>
+                  <div className="text-[10px] text-slate-400">출처: DART 사업보고서</div>
+                </div>
+                {(() => {
+                  const list = shareholders.filter(r => (r.ratio||0) > 0).slice(0,8);
+                  if (list.length === 0) return <div className="text-xs text-slate-400 text-center py-4">데이터 없음</div>;
+                  const fmtPct = (v:number) => v >= 1 ? v.toFixed(2) + '%' : v >= 0.01 ? v.toFixed(3) + '%' : v.toFixed(4) + '%';
+                  const relColor = (rel:string) => {
+                    if (rel?.includes('최대주주') && rel?.includes('본인')) return 'bg-red-100 text-red-700 dark:bg-red-900 dark:text-red-300';
+                    if (rel?.includes('5%')) return 'bg-amber-100 text-amber-700 dark:bg-amber-900 dark:text-amber-300';
+                    if (rel?.includes('계열')) return 'bg-indigo-100 text-indigo-700 dark:bg-indigo-900 dark:text-indigo-300';
+                    if (rel?.includes('임원')) return 'bg-emerald-100 text-emerald-700 dark:bg-emerald-900 dark:text-emerald-300';
+                    return 'bg-slate-100 text-slate-600 dark:bg-slate-700 dark:text-slate-300';
+                  };
+                  return (
+                    <div className="flex gap-3 items-start">
+                      <PieChart width={120} height={120}>
+                        <Pie data={list} dataKey="ratio" cx={55} cy={55} innerRadius={32} outerRadius={52} paddingAngle={2}>
+                          {list.map((_,i)=><Cell key={i} fill={DONUT_COLORS[i%DONUT_COLORS.length]}/>)}
+                        </Pie>
+                      </PieChart>
+                      <div className="space-y-1 flex-1 min-w-0">
+                        {list.map((r,i)=>(
+                          <div key={i} className="flex items-center gap-1.5 text-xs">
+                            <span className="w-2.5 h-2.5 rounded-full flex-shrink-0" style={{background:DONUT_COLORS[i%DONUT_COLORS.length]}}/>
+                            <span className="flex-1 text-slate-700 dark:text-slate-300 truncate" title={r.name}>{r.name}</span>
+                            {r.relation && <span className={`text-[9px] px-1 py-0.5 rounded ${relColor(r.relation)}`}>{r.relation.length>6 ? r.relation.slice(0,5)+'…' : r.relation}</span>}
+                            <span className="font-mono font-semibold text-xs w-16 text-right">{fmtPct(r.ratio||0)}</span>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  );
+                })()}
+              </div>
+            </div>
+
+            {/* 재무제표 (B/S · I/S · 손익흐름도) */}
+            <div className="bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-xl p-5">
+              <div className="flex gap-1 mb-4 border-b border-slate-100 dark:border-slate-700 pb-3">
+                {(['SANKEY','BS','IS'] as FinTab[]).map(t=>(
+                  <button key={t} onClick={()=>setFinTab(t)}
+                    className={`px-4 py-1.5 text-xs rounded-full font-semibold transition-colors ${finTab===t
+                      ? 'text-white bg-indigo-600'
+                      : 'bg-slate-100 text-slate-600 hover:bg-slate-200 dark:bg-slate-700 dark:text-slate-300'}`}>
+                    {t==='BS'?'재무상태표(연결)':t==='IS'?'손익계산서(연결)':'손익흐름도'}
+                  </button>
+                ))}
+              </div>
+              {listStatus && !listStatus.tradable && (
+                <div className="mb-3"><ListingStatusBanner s={listStatus} compact /></div>
+              )}
+              {finTab==='BS' && <FinTable data={bsData}/>}
+              {finTab==='IS' && <FinTable data={isData}/>}
+              {finTab==='SANKEY' && (
+                <iframe src={`${API}/sankey/${code}`} className="w-full rounded-lg" style={{height:520,border:'none'}}/>
+              )}
+            </div>
 
             {/* ── 기업 개요 + 경영인 (2컬럼) ── */}
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
@@ -1486,85 +1622,6 @@ export default function StockPage() {
                     })}
                   </div>
                 ) : <div className="text-xs text-slate-400 text-center py-4">데이터 없음</div>}
-              </div>
-            </div>
-
-            {/* ── 기업 건전성 + 주주 구성 (2컬럼) ── */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-              {/* 건전성 */}
-              <div className="bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-xl p-5">
-                <div className="flex items-center justify-between mb-3">
-                  <span className="text-sm font-bold text-slate-700 dark:text-slate-200">💪 기업 건전성</span>
-                  {health && <span className={`text-xs px-2 py-0.5 rounded-full font-semibold ${overallColor}`}>
-                    {overallLabel[health.overall_grade]||'—'}
-                  </span>}
-                </div>
-                <div className="space-y-4">
-                  {health ? Object.entries(health.metrics||{}).map(([k,m]:any)=>{
-                    const meta = healthMetaMap[k] || {label:k,max:100,hint:''};
-                    const pct = m.value!=null ? Math.min(100,(m.value/meta.max)*100) : 0;
-                    const barCol = {green:'#10B981',yellow:'#F59E0B',red:'#EF4444',gray:'#CBD5E1'}[m.grade as string]||'#CBD5E1';
-                    const gradeBadge = {green:'우량',yellow:'주의',red:'위험',gray:'—'}[m.grade as string]||'—';
-                    return (
-                      <div key={k}>
-                        <div className="flex items-center gap-2 mb-1">
-                          <span className="text-xs font-semibold text-slate-700 dark:text-slate-200 w-20">{meta.label}</span>
-                          <span className={`text-[10px] px-1.5 py-0.5 rounded font-semibold ${
-                            m.grade==='green'?'bg-emerald-100 text-emerald-700':
-                            m.grade==='yellow'?'bg-yellow-100 text-yellow-700':
-                            m.grade==='red'?'bg-red-100 text-red-700':'bg-slate-100 text-slate-500'
-                          }`}>{gradeBadge}</span>
-                          <span className="ml-auto text-xs font-mono font-bold text-slate-700 dark:text-slate-200">
-                            {m.value!=null?m.value.toFixed(2)+'%':'—'}
-                          </span>
-                        </div>
-                        <div className="bg-slate-100 dark:bg-slate-700 rounded-full h-1.5">
-                          <div className="h-1.5 rounded-full transition-all" style={{width:`${pct}%`,background:barCol}}/>
-                        </div>
-                        <div className="text-[10px] text-slate-400 mt-1">{meta.hint}</div>
-                      </div>
-                    );
-                  }) : <div className="text-xs text-slate-400 text-center py-2">데이터 없음</div>}
-                </div>
-              </div>
-
-              {/* 주주 구성 */}
-              <div className="bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-xl p-5">
-                <div className="flex items-center justify-between mb-3">
-                  <div className="text-sm font-bold text-slate-700 dark:text-slate-200">🍩 주주 구성</div>
-                  <div className="text-[10px] text-slate-400">출처: DART 사업보고서</div>
-                </div>
-                {(() => {
-                  const list = shareholders.filter(r => (r.ratio||0) > 0).slice(0,8);
-                  if (list.length === 0) return <div className="text-xs text-slate-400 text-center py-4">데이터 없음</div>;
-                  const fmtPct = (v:number) => v >= 1 ? v.toFixed(2) + '%' : v >= 0.01 ? v.toFixed(3) + '%' : v.toFixed(4) + '%';
-                  const relColor = (rel:string) => {
-                    if (rel?.includes('최대주주') && rel?.includes('본인')) return 'bg-red-100 text-red-700 dark:bg-red-900 dark:text-red-300';
-                    if (rel?.includes('5%')) return 'bg-amber-100 text-amber-700 dark:bg-amber-900 dark:text-amber-300';
-                    if (rel?.includes('계열')) return 'bg-indigo-100 text-indigo-700 dark:bg-indigo-900 dark:text-indigo-300';
-                    if (rel?.includes('임원')) return 'bg-emerald-100 text-emerald-700 dark:bg-emerald-900 dark:text-emerald-300';
-                    return 'bg-slate-100 text-slate-600 dark:bg-slate-700 dark:text-slate-300';
-                  };
-                  return (
-                    <div className="flex gap-3 items-start">
-                      <PieChart width={120} height={120}>
-                        <Pie data={list} dataKey="ratio" cx={55} cy={55} innerRadius={32} outerRadius={52} paddingAngle={2}>
-                          {list.map((_,i)=><Cell key={i} fill={DONUT_COLORS[i%DONUT_COLORS.length]}/>)}
-                        </Pie>
-                      </PieChart>
-                      <div className="space-y-1 flex-1 min-w-0">
-                        {list.map((r,i)=>(
-                          <div key={i} className="flex items-center gap-1.5 text-xs">
-                            <span className="w-2.5 h-2.5 rounded-full flex-shrink-0" style={{background:DONUT_COLORS[i%DONUT_COLORS.length]}}/>
-                            <span className="flex-1 text-slate-700 dark:text-slate-300 truncate" title={r.name}>{r.name}</span>
-                            {r.relation && <span className={`text-[9px] px-1 py-0.5 rounded ${relColor(r.relation)}`}>{r.relation.length>6 ? r.relation.slice(0,5)+'…' : r.relation}</span>}
-                            <span className="font-mono font-semibold text-xs w-16 text-right">{fmtPct(r.ratio||0)}</span>
-                          </div>
-                        ))}
-                      </div>
-                    </div>
-                  );
-                })()}
               </div>
             </div>
 

@@ -466,6 +466,32 @@ export default function FullChart({ data }: Props) {
             <span style={{ width: 10, height: 4, background: '#db2777', display: 'inline-block' }} />
             볼린저밴드
           </label>
+          {/* ⓘ 볼린저밴드 해석 툴팁 */}
+          <span className="group" style={{ position: 'relative', display: 'inline-flex', alignItems: 'center' }}>
+            <span style={{
+              display: 'inline-flex', alignItems: 'center', justifyContent: 'center',
+              width: 16, height: 16, borderRadius: '50%',
+              border: '1.5px solid #94a3b8', color: '#94a3b8',
+              fontSize: 10, fontWeight: 700, cursor: 'help', userSelect: 'none',
+            }}>i</span>
+            <span style={{
+              display: 'none', position: 'absolute', right: 0, top: '100%', marginTop: 6,
+              width: 320, background: '#1e293b', color: '#e2e8f0',
+              borderRadius: 8, padding: '10px 12px', fontSize: 11, lineHeight: 1.6,
+              zIndex: 100, boxShadow: '0 8px 24px rgba(0,0,0,0.3)', textAlign: 'left', whiteSpace: 'normal',
+            }} className="group-hover:!block">
+              <div style={{ fontWeight: 700, marginBottom: 6, color: '#93c5fd' }}>📊 볼린저밴드</div>
+              <div>20일 이동평균(중심선) 위·아래에 표준편차 2배(±2σ) 폭의 밴드. 주가가 약 95% 확률로 밴드 안에서 움직입니다.</div>
+              <div style={{ marginTop: 5 }}><b>구성</b> · 중심선=MA20 / 상단=+2σ / 하단=−2σ</div>
+              <div style={{ marginTop: 5, fontWeight: 700, color: '#cbd5e1' }}>해석</div>
+              <div>🔴 상단밴드 접근·돌파 → 단기 과열(과매수)</div>
+              <div>🔵 하단밴드 접근·돌파 → 단기 침체(과매도)</div>
+              <div>🔶 밴드 폭 좁아짐(스퀴즈) → 변동성 축소·큰 변동 예고</div>
+              <div>🔷 밴드 폭 넓어짐 → 변동성 확대 국면</div>
+              <div>📈 상단밴드 타고 상승 → 강한 상승추세</div>
+              <div style={{ marginTop: 5, fontSize: 10, color: '#94a3b8' }}>※ 단독 매매신호 아님 · 추세·거래량과 함께 판단</div>
+            </span>
+          </span>
         </div>
       </div>
 

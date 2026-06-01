@@ -1,0 +1,318 @@
+================================================================================
+  FILMN9 — MASTER HANDOVER (단일 진입점)
+  새 Claude 세션에서 이 파일 하나만 읽으면 프로젝트 전체를 따라잡을 수 있습니다.
+  최종 갱신: 2026-06-01  |  담당자: 이관일 (blackhole1247@gmail.com)
+================================================================================
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  [CLAUDE 에게] 새 세션 시작 시 반드시 수행할 5단계
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+STEP 1. 과거 대화 복구 (먼저 시도)
+  cd C:\Users\Admin\FILMN9
+  claude --continue          ← 직전 세션 즉시 복구 (가장 빠름)
+  claude --resume            ← 세션 목록에서 날짜 선택해 복구 가능
+
+  → 복구되면 아래 STEP 2~5 불필요. 대화 맥락이 그대로 살아납니다.
+
+STEP 2. GitHub 리포지토리 확인
+  URL: https://github.com/blackhole-24/FILMN9
+  Branch: main
+  로컬 경로: C:\Users\Admin\FILMN9
+
+  명령어:
+    cd C:\Users\Admin\FILMN9
+    git log --oneline -20        ← 최근 작업 커밋 이력
+    git status                   ← 로컬 미커밋 변경사항
+    git diff HEAD~1 --stat       ← 직전 커밋 변경 파일
+
+STEP 3. 로컬 폴더 구조 파악
+  C:\Users\Admin\FILMN9\
+    backend/          FastAPI 서버 (Python 3.11)
+      routers/
+        extras.py     ← 핵심 API: 주가실시간·재무건전성·고객사·거래정지·주주관계
+        company.py    기업개요·경영인
+        ohlcv.py      주가차트
+        valuation.py  밸류에이션
+        overview.py   종목 개요
+    frontend/         Next.js 16 / React 19 (Turbopack)
+      app/stock/[code]/page.tsx   ← 종목 상세화면 메인 (가장 많이 수정)
+    data/
+      filmn9.db       SQLite DB (git 제외 — 로컬 전용)
+    outputs/
+      sankey/         {code}_sankey.html (2,750개)
+    deliverables_main/  심사용 통합 산출물
+    build_sankey_v3.py        Sankey 손익흐름도 전수 생성
+    build_financials_from_dart.py  재무 하이라이트 DART 재적재
+    build_customers.py        고객사 B2B/B2C/MIXED 분류
+    update_display_names.py   종목명 KRX 기준 교정
+    daily_status_update.py    거래정지/상폐 일일 갱신 스케줄러
+    validate_financials.py    재무 검증 (내부 + DART 대조)
+    CLAUDE.md         ← 새 세션 자동 로드 진입점 (이 파일의 요약본)
+
+STEP 4. DB 현황 빠른 확인
+  python -c "
+  import sqlite3, glob
+  c = sqlite3.connect('data/filmn9.db')
+  for t in ['company_info','financials','financial_detail','ohlcv','company_customers','stock_status']:
+      print(t, c.execute(f'SELECT COUNT(*) FROM {t}').fetchone()[0])
+  print('sankey html:', len(glob.glob('outputs/sankey/*_sankey.html')))
+  c.close()
+  "
+
+  정상 기준값 (2026-06-01):
+    company_info     3,965행
+    financials       2,702행
+    financial_detail 893,895행
+    ohlcv            10,662,610행
+    company_customers 2,455행
+    stock_status     4,080행
+    sankey html      2,750개
+
+STEP 5. 서버 기동 (수동)
+  # 백엔드 (포트 8000) — 반드시 conda 환경 사용
+  C:\Users\Admin\miniconda3\envs\FILMN9_env\python.exe -m uvicorn backend.main:app --port 8000
+
+  # 프론트엔드 (포트 3000) — 별도 터미널
+  cd C:\Users\Admin\FILMN9\frontend
+  npm run dev
+
+  확인: http://localhost:3000  /  API: http://localhost:8000/docs
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  [프로젝트 개요]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+프로젝트명: FILMN9 (KPMG AI Lab)
+목적: KOSPI/KOSDAQ 약 3,000개 기업 AI 주식 분석 플랫폼
+데모 일정: 2026-06-05 (금) — 전수 시연 (3,000개 중 아무 종목이나 검색해도 동작)
+내 파트: 종목 상세화면 (주가차트·재무하이라이트·재무건전성·주주구성·Sankey 손익흐름도·
+          기업개요·경영인·공시·뉴스·거래정지 배너)
+팀: AI Lab 내부 개발 (이관일 파트)
+
+기술 스택:
+  백엔드:   FastAPI (Python 3.11) + SQLite (filmn9.db) + MongoDB Atlas + Chroma
+  프론트:   Next.js 16 / React 19 (Turbopack), Tailwind CSS, Plotly
+  데이터:   DART OpenAPI + yfinance (.KS/.KQ) + FinanceDataReader + KIND(거래정지)
+  AI:       OpenAI GPT (Tab3 챗봇) — 사용 사전 승인 필수, $50 팀 공유 잔액
+  환경:     conda env FILMN9_env (C:\Users\Admin\miniconda3\envs\FILMN9_env\)
+  git:      github.com/blackhole-24/FILMN9 (branch main)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  [스프린트 현황 — 2026-06-01 기준]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+◆ Sprint 1~3 (완료) — 5/29 이전
+  ✅ 종목 DB 3,000개 기본 적재 (company_info, ohlcv, financial_detail)
+  ✅ FastAPI 백엔드 6개 라우터 구축
+  ✅ Next.js 프론트 종목 상세 페이지 (Tab1) 기본 구조
+  ✅ DART 공시 전수 수집 (disclosures)
+  ✅ 주주·경영인 데이터 적재
+  ✅ 시스템 아키텍처 다이어그램 (deliverables_main/)
+  ✅ 데이터 흐름도 HTML (deliverables_main/내파트_데이터플로우_아키텍처.html)
+
+◆ Sprint 4 (진행 중) — 5/29 ~ 6/5 데모 전날
+  ✅ 거래정지/상폐 일일 갱신 시스템 (daily_status_update.py + Windows 작업스케줄러 18:30)
+  ✅ 주가 장기차트 백필 (backfill_ohlcv_full.py — 2,769종목 250봉+)
+  ✅ KOSDAQ 종목 주가오류 수정 (ticker_suffix 테이블, RFHIC 등 1,929종목)
+  ✅ 재무 하이라이트 DART 재적재 (build_financials_from_dart.py — 2,702종목)
+  ✅ 재무건전성 지표 전수 적재 (부채비율·유동비율·영업이익률)
+  ✅ 고객사 B2B/B2C/MIXED 분류 (build_customers.py — 2,455종목)
+  ✅ 종목명 KRX 기준 교정 (update_display_names.py)
+  ✅ 재무표 단위 자동감지 (원/천원/백만원 per-stock)
+  ✅ Sankey 손익흐름도 적자종목 포함 전수 생성 (build_sankey_v3.py — 2,750개)
+  ✅ 검색창 enter 네비게이션 + 최근 검색 3개 드롭다운
+  ✅ 볼린저밴드 (i) 해석 툴팁
+  ✅ 재무건전성 (i) 툴팁 (우량/양호/주의/위험 기준)
+  ✅ ListingStatusBanner (거래정지/상폐 배너)
+  ✅ 주주구성 2컬럼 배치 (재무건전성 옆)
+  ✅ 주주 관계 한자→한글 자동변환
+  ✅ CLAUDE.md 루트 생성 (새 세션 자동 컨텍스트 로드)
+
+  🔄 진행 중 (이 파일 건네는 시점 기준):
+    - Sankey 디자인 보강 (build_sankey_v3.py 수정 중)
+        a) 음수(-)로 전환되는 값의 노드/링크 → 노란색(#eab308)으로 변경
+        b) 매출액 노드를 "{기업명} 총매출" 텍스트 + 파란 띠(bar)가 길게 나오도록
+        → 수정 후 3,000개 전수 재생성 필요 (python build_sankey_v3.py, 약 15분)
+
+  ⏸ 보류/미착수:
+    - OpenAI API 키 교체 → 6/2 본인이 직접 수행
+        platform.openai.com → 기존 키 Revoke → 새 키 발급
+        → C:\Users\Admin\FILMN9\.env 의 OPENAI_API_KEY 값만 교체 (코드 수정 금지)
+    - GitHub 폴더명 영문 재구성 (시연 6/5 안정성 위해 보류)
+
+◆ Sprint 5 (미착수) — 6/2~6/5
+  ⬜ 메인 모닝루틴 위젯
+  ⬜ AI 챗봇 RAG (Tab3) — 80% 이상 완성 전 삭제 금지
+  ⬜ 산업별 대장주 화면
+  ⬜ AWS 배포 (목표 6/4)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  [지금 당장 해야 할 일 (우선순위 순)]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1순위 — Sankey 디자인 보강 (오늘 6/1 완료 목표)
+  파일: C:\Users\Admin\FILMN9\build_sankey_v3.py
+  수정사항:
+    (a) ncolor() 함수에서 해당 노드 val이 음수이면 노란색 #eab308 반환
+    (b) 매출액 노드 라벨을 "{기업명} 총매출 {금액}원" 형태로 변경
+        + plotly Sankey 에서 매출액 x=0.0 으로 고정해 파란 띠가 왼쪽에서 길게 나오도록
+    (c) 확인: 양수 기업(삼성전기 009150), 음수 기업(LK삼양 225190) 각 1종목 브라우저 확인
+  재생성:
+    python build_sankey_v3.py
+    (예상 소요: 약 15분, 2,750개 생성)
+
+2순위 — 전수 시연 검증 (6/3~4)
+  아무 종목 코드나 5~10개 골라서 http://localhost:3000/stock/{code} 확인
+  체크리스트:
+    □ 주가차트 250봉 이상 (yfinance period=max)
+    □ 재무 하이라이트 매출/영업이익/순이익 숫자 있음
+    □ 재무건전성 부채비율/유동비율/영업이익률 있음
+    □ Sankey 모든 노드 표시 + 음수는 노란색
+    □ 고객사 B2B/B2C/MIXED 배지 표시
+    □ 거래정지 종목은 배너 표시
+  검증 스크립트: python demo_healthcheck.py
+
+3순위 — AWS 배포 (6/4)
+  현재 로컬(localhost)만 동작. 데모 당일 URL 공유 필요 시 배포 필요.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  [핵심 API 엔드포인트]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+GET /api/company/{code}              기업 기본 정보
+GET /api/ohlcv/{code}                주가 OHLCV
+GET /api/realtime/{code}             실시간 현재가 (yfinance, ticker_suffix .KS/.KQ 자동)
+GET /api/financials/{code}           재무 하이라이트 (매출/영업이익/순이익/자산/부채/자본)
+GET /api/financial_detail/{code}     재무 상세 (BS/IS, 단위 자동감지)
+GET /api/stock_status/{code}         거래정지/상폐 상태
+GET /api/peers/{code}                경쟁사/고객사 (B2B/B2C/MIXED)
+GET /api/shareholders/{code}         주주 구성
+GET /api/executives/{code}           경영인
+GET /api/disclosures/{code}          전자공시 (DART)
+GET /api/health_indicators/{code}    재무건전성 (부채비율/유동비율/영업이익률)
+/sankey/{code}                       Sankey iframe (outputs/sankey/{code}_sankey.html)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  [절대 해서는 안 되는 것 — 보안 제약]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+❌ .env 파일을 git commit / 채팅에 붙여넣기 / 화면 캡처에 노출 — 절대 금지
+❌ MONGO_URI GitHub 커밋·그룹채팅·캡처 금지
+❌ OpenAI API 키 코드에 하드코딩 금지 (반드시 .env 읽기)
+❌ OpenAI API 키 삭제 금지 (팀 공유 키, 삭제 시 전원 영향)
+❌ OpenAI $50 잔액 초과 사용 — 사용 전 팀 승인 필수
+❌ Tab3 AI 챗봇 80% 완성 전 삭제 금지
+❌ LLM 5단계 기능 구현 (보류)
+❌ data/ 폴더, *.jsonl 파일 git push (용량·보안)
+
+.env 위치: C:\Users\Admin\FILMN9\.env
+  포함 키: DART_API_KEY, OPENAI_API_KEY, MONGO_URI
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  [데이터 파이프라인 — 재실행이 필요할 때]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+# 재무 하이라이트 전수 재적재 (DART 진실원천, FY2024, ~50분)
+python build_financials_from_dart.py
+
+# Sankey 손익흐름도 전수 재생성 (~15분)
+python build_sankey_v3.py
+
+# 주가 장기차트 백필 (period=max, ~2시간, 이미 완료)
+python backfill_ohlcv_full.py
+
+# 고객사 B2B/B2C/MIXED 재분류
+python build_customers.py
+
+# 거래정지/상폐 일일갱신 수동 실행
+python daily_status_update.py
+  → Windows 작업스케줄러: FILMN9_DailyStatus (매일 18:30 자동 실행)
+
+# 재무 검증
+python validate_financials.py           내부 일관성 검증
+python validate_financials.py --dart    DART 대조 표본 검증 (120개)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  [주요 설계 결정 사항 (왜 이렇게 했는지)]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. 재무 단위 통일
+   - financial_detail은 종목마다 단위 혼재 (원/천원/백만원)
+   - financials 테이블은 DART API 직접 재적재 → 전체 /1e6 백만원 통일
+   - 재무표 화면 표시 시 per-stock 단위 자동감지 (_detect_fd_unit)
+
+2. 주가 suffix (.KS/.KQ)
+   - yfinance는 KOSPI=.KS, KOSDAQ=.KQ 구분 필수
+   - ticker_suffix 테이블에 2,877개 종목 매핑
+   - 실시간 가격이 50% 이상 괴리 시 반대 suffix 자동 fallback
+
+3. 거래정지 판단 로직 (우선순위)
+   - 1순위: KIND 공식 (kind.krx.co.kr) — 로그인 불필요 AJAX API
+   - 2순위: 추정 하이브리드 (주가 0, 유의종목, 관리종목)
+   - 3순위: DART 공시에서 거래정지 공시 보완
+
+4. 고객사 표기
+   - B2B (기업 고객), B2C (개인/소비자 고객), MIXED (둘 다)
+   - 자기 자신/자회사 제외 (_core 함수)
+   - 표현 빈도 높은 순으로 채널 표기 (수출/내수/온라인 등)
+
+5. Sankey 손익흐름도
+   - 색상: 매출=파랑(#3b82f6), 이익=초록(#22c55e), 비용=빨강(#ef4444)
+   - 음수 노드: 노란색(#eab308) — 적자 구간 강조
+   - 적자 기업도 모든 노드 표시: abs()+floor 폭으로 최소 띠 보장
+   - 연결 재무제표 우선, 없으면 별도 재무
+
+6. 신용등급
+   - NICE/한기평/KIS 모두 유료 API → 무료 커버리지 없음
+   - credit_ratings 테이블 없음 (Mock 데모 3개만 처리, 현재 화면에서 제거됨)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  [자주 쓰는 종목 코드 (테스트용)]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+090430  아모레퍼시픽   (KOSPI, 대형주 테스트)
+009150  삼성전기       (KOSPI, 대형주 테스트)
+035420  NAVER          (KOSPI, IT)
+005930  삼성전자       (KOSPI, 초대형주 — 재무 단위 백만원)
+225190  LK삼양         (KOSDAQ, 적자종목 테스트)
+218410  RFHIC          (KOSDAQ, KOSDAQ suffix 수정 기준 종목)
+085620  미래에셋생명   (KOSPI, 금융업 테스트)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  [문제 발생 시 체크리스트]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+증상: 서버 안 켜짐 → ModuleNotFoundError
+  해결: conda activate FILMN9_env 후 재실행
+        반드시 C:\Users\Admin\miniconda3\envs\FILMN9_env\python.exe 사용
+
+증상: 재무 하이라이트 빈칸
+  해결: python build_financials_from_dart.py 재실행
+        또는 python build_financials_summary.py (financial_detail 기반 보완)
+
+증상: 주가 이상값 (KOSDAQ 종목)
+  해결: python build_ticker_suffix.py 재실행 → ticker_suffix 테이블 재구축
+
+증상: Sankey 안 보임
+  해결: outputs/sankey/{code}_sankey.html 존재 여부 확인
+        python build_sankey_v3.py 재실행
+
+증상: 거래정지 배너 오표시
+  해결: python daily_status_update.py 수동 실행
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  [이 파일의 관리 규칙]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+- 이 파일 위치: C:\Users\Admin\FILMN9\FILMN9_MASTER_HANDOVER.txt
+- .gitignore에 포함되지 않으므로 git push 가능 (보안 정보 없음)
+- 작업이 끝날 때마다 "스프린트 현황"과 "지금 당장 해야 할 일" 두 섹션만 갱신
+- 날짜별 인수인계서(.txt)는 더 이상 새로 만들지 않음
+- CLAUDE.md (루트)는 이 파일의 축약 요약본 — 새 세션 자동 로드용
+
+참고 파일 (더 깊은 내용 필요 시):
+  deliverables_main/내파트_데이터플로우_아키텍처.html    데이터 흐름 전체 다이어그램
+  휘주님_MongoDB_환경구축_가이드.md                     MongoDB Atlas 연결 설정
+  개발환경_통합/팀원_개발환경통합_CLAUDECODE_인수인계서.txt  팀원 환경 구축 가이드
+================================================================================
