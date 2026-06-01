@@ -1,0 +1,77 @@
+{
+  "stock_code": "417840",
+  "corp_name": "저스템",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 19:13",
+  "meta": {
+    "wics": "반도체와반도체장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "저스템은 2016년 화성시 능동에서 반도체·디스플레이 관련 기술과 영업 경력을 가진 구성원 중심으로 창업한 기업으로, FOUP(Front Opening Unified Pod) 내부의 환경제어를 통한 반도체 수율 개선용 N₂ Purge 시스템과 LPM(Load Port Module) 등 장비를 개발·양산하고 있습니다. 국내 최초로 N₂ Purge 시스템 양산을 시작하며 맞춤형 LPM(약 110종)을 통해 반도체 제조 공정용 핵심 장비 공급자로 자리매김하고 있습니다.",
+    "business_model": "FY2025 기준 사업부문별 영업수익 구성은 A사 25.0%, B사 27.0%, C사 2.0%, D사 22.0%, E사 5.0%, 기타 18.0%로 구성되어 있으며, 핵심 수익원은 N₂ Purge 기반의 환경제어 시스템(LPM, BIP, CFB 등)과 이에 파생된 고객 맞춤형 장비입니다. LPM(Load Port Module)은 FOUP 도어 개폐와 웨이퍼 반송을 지원하는 장치로 고객 맞춤형 개발을 통해 매출 확대를 추구하고 있습니다.",
+    "main_customers": "LPM/BIP/CFB/JFS — 반도체 제조업체(종합반도체기업·파운드리 등) / 2세대 JFS 제품 — M社 및 글로벌 종합반도체기업",
+    "price_factors": [
+      {
+        "factor": "반도체 슈퍼사이클",
+        "detail": "AI·HPC 수요에 따른 반도체 제조 투자 확대는 장비 수요 증가로 실적에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "공급망 현지화",
+        "detail": "글로벌 공급망의 지정학적 다변화로 주요 거점별 현지 대응력이 실적·수주에 중요한 변수로 작용합니다."
+      },
+      {
+        "factor": "미세공정 고도화",
+        "detail": "공정의 미세화·고집적화로 환경제어 장비의 정밀성 수요가 증가하면 고기능 제품 비중 상승이 실적에 긍정적입니다."
+      },
+      {
+        "factor": "기술·특허 경쟁력",
+        "detail": "등록 11건·출원 9건 등 보유 특허는 제품 차별화와 수주 경쟁력에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "당사는 2016년 화성시 능동에 본점을 두고"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "A사: 9,127,785,673 (25.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "JFS는 M社의 양산 평가를 거쳐"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나. 시장여건 및 영업의 개황",
+        "evidence_text": "주요 거점별 현지 대응력이 핵심 경쟁력으로 부상하였으며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나. 시장여건 및 영업의 개황",
+        "evidence_text": "반도체 슈퍼사이클에 따라 꾸준한 성장이 예상됩니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "영업 현황",
+        "evidence_text": "주) 보고서 작성기준일 현재 진행중인 특허는 등록 11건 출원 9건 총 20건입니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4780,
+    "completion_tokens": 4889,
+    "reasoning_tokens": 3968,
+    "output_tokens": 921
+  },
+  "warnings": []
+}

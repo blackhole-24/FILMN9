@@ -1,0 +1,67 @@
+{
+  "stock_code": "482630",
+  "corp_name": "삼양엔씨켐",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 20:51",
+  "meta": {
+    "wics": "반도체와반도체장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "당사는 한국표준산업분류상 그 외 기타 화학제품 제조업(C2049)에 속하며 반도체용 정밀화학 소재를 전문적으로 개발·생산하는 기업입니다. 포토레지스트(PR)용 고분자(Polymer), 광산발산제(PAG) 및 세정 공정용 중간체 등을 공급하며, 당기 코스닥시장 상장에 따른 공모자금 유입으로 현금성자산이 증가했습니다.",
+    "business_model": "제18기(2025) 기준 매출에서 PR용 소재가 67.19%, Wet-Chemical이 27.43%, 기타가 5.38%를 차지합니다. 핵심 사업은 노광 공정용 포토레지스트 핵심소재(Polymer, PAG 등)와 세정 공정용 PERR 중간체 등 반도체 제조용 정밀화학 소재의 개발·생산·판매이며, 포토레지스트 및 세정액 제조업체에 맞춤형으로 공급합니다.",
+    "main_customers": "PR용 소재 — 포토레지스트(PR) 제조업체 / Wet-Chemical — 세정액 및 포토레지스트 제조업체",
+    "price_factors": [
+      {
+        "factor": "반도체 생산량",
+        "detail": "반도체 생산량 변화에 따라 포토레지스트 사용량이 변동하여 매출에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "제품 고사양화",
+        "detail": "공정 미세화·고집적화가 진행될수록 고사양 제품 비중이 확대되어 평균 판매단가 상승(실적 개선) 요인이 됩니다."
+      },
+      {
+        "factor": "원재료가",
+        "detail": "주요 원재료 가격 변동 시 신규 계약 또는 갱신 시점에 단가 협의가 이루어져 수익성에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "공급자 검증",
+        "detail": "시장 과점 구조와 장기간 검증 절차로 인해 신규 수주 확보가 느리지만 기존 거래관계는 안정적 수익으로 이어질 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 가. 사업의 내용",
+        "evidence_text": "반도체용 정밀화학 소재를 전문적으로 개발 및 생산하는 기업으로"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > [표] 가. 주요 제품 등의 현황",
+        "evidence_text": "PR용 소재 84,247,343(67.19%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 가. 사업의 내용",
+        "evidence_text": "포토레지스트(PR) 및 세정액 제조업체에 공급되고 있으며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 경쟁 환경 및 시장 특성",
+        "evidence_text": "반도체 생산량과 밀접한 연관성을 가지고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4566,
+    "completion_tokens": 4531,
+    "reasoning_tokens": 3776,
+    "output_tokens": 755
+  },
+  "warnings": []
+}

@@ -1,0 +1,86 @@
+{
+  "stock_code": "018000",
+  "corp_name": "유니슨",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 12:16",
+  "meta": {
+    "wics": "에너지장비및서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "유니슨은 주된 사업으로 풍력발전사업을 영위하는 기업으로, 풍력발전기 완제품 생산과 풍력발전단지의 조성·운영 경험을 보유하고 있습니다. 국내 최초·최대 규모의 상업용 풍력발전단지 건설 및 운영 실적을 통해 업계에서 브랜드 입지를 확립해 왔습니다.",
+    "business_model": "사업부문별로 풍력발전사업이 매출의 100%를 차지하며, 750㎾·2㎿·4㎿급 풍력발전시스템 및 풍력발전타워 제조와 발전단지 건설(EPC), 설계용역 및 유지보수(운영·O&M)를 통해 수익을 창출합니다. 제품은 국내·외에 판매·설치되며, 발전단지 개발 및 운영으로도 매출을 발생시킵니다.",
+    "main_customers": "풍력발전사업 — 국내·외 구매·설치 고객 (풍력발전시스템 및 발전단지 수요자)",
+    "price_factors": [
+      {
+        "factor": "정책지원",
+        "detail": "재생에너지 3020·그린뉴딜 등 정부 정책에 따른 재생에너지 확대는 수주와 사업 기회에 직접 영향합니다."
+      },
+      {
+        "factor": "인허가",
+        "detail": "풍력발전단지 건설 시 산지관리·문화재·자연공원법 등 다양한 법률 적용으로 인허가 지연이 실적·일정에 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "입지·인프라",
+        "detail": "대규모 토지·송전선로·운송·설치 등 인프라 요구로 사업비와 착공 가능성에 영향이 있어 실적 변동 요인이 됩니다."
+      },
+      {
+        "factor": "수주량",
+        "detail": "수주 증가 시 매출 확대에 직접 연결되며, 보고서에서는 수주 증가에 따른 매출 확대가 실적 변화 요인으로 언급됩니다."
+      },
+      {
+        "factor": "원가구조",
+        "detail": "원가 및 판관비 절감은 영업적자 폭 축소에 기여한 만큼 원가 관리가 실적 개선에 중요합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사의 주된 사업은 풍력발전사업으로"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "40,268(100%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "생산하여 국내ㆍ외에 판매, 설치하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "다. 관계 법률/규정 등에 관한 사항",
+        "evidence_text": "산지관리법, 문화재관리법, 자연공원법, 해양환경관리법"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "다. 관계 법률/규정 등에 관한 사항",
+        "evidence_text": "재생에너지 3020, 그린뉴딜 등의 정책"
+      },
+      {
+        "field": "key_financial",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "당기 매출은 403억원으로 전년대비 56% 증가하였으며"
+      },
+      {
+        "field": "key_evidence_environment",
+        "source_section": "다. 관계 법률/규정 등에 관한 사항",
+        "evidence_text": "환경경영시스템(ISO14001)인증을 획득하였으며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3715,
+    "completion_tokens": 3304,
+    "reasoning_tokens": 2368,
+    "output_tokens": 936
+  },
+  "warnings": []
+}

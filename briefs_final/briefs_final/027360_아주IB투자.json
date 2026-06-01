@@ -1,0 +1,62 @@
+{
+  "stock_code": "027360",
+  "corp_name": "아주IB투자",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 23:21",
+  "meta": {
+    "wics": "창업투자",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "아주IB투자는 벤처캐피탈(VC)과 사모투자(PE)를 주력으로 하는 투자운용회사로, 펀드 결성을 통한 초기·중견기업 투자와 PEF 운용을 병행합니다. 2025년 말 기준 약 2조 5천억 원 규모의 펀드를 운용하고 있으며, AUM 기준 업계 상위권(더벨 집계 상 '상위 5위')에 해당합니다.",
+    "business_model": "주요 수익원은 펀드 관리수수료와 투자자산 가치변동에서 나옵니다; 2025년 연결 기준 영업수익 구성은 관리보수 33.2%, 지분법이익 28.0%, 기타영업수익 16.3%, 투자자산관련수익 15.6%, 성과보수 6.9%로 나타났습니다. 관리보수·성과보수는 펀드 운용(관리·성과에 대한 보수)에서 발생하고, 지분법이익 및 투자자산관련수익은 피투자회사와 투자자산의 가치 변화에 따른 수익입니다.",
+    "main_customers": "벤처캐피탈(VC) — 기술력·성장성이 있는 벤처기업(투자 대상) / PEF(사모투자) — 특정 소수의 펀드 출자자(투자자) 및 경영참여 대상 기업",
+    "price_factors": [
+      {
+        "factor": "펀드결성(자금조달)",
+        "detail": "연간 결성 규모가 클수록 관리보수와 운용자산 규모가 증가하여 안정적 수익 기반이 확대됩니다."
+      },
+      {
+        "factor": "포트폴리오 가치변동",
+        "detail": "지분법이익·투자자산관련수익 비중이 큰 만큼 피투자회사 가치 변동이 실적에 직접적으로 반영됩니다."
+      },
+      {
+        "factor": "출구(회수) 환경",
+        "detail": "IPO·M&A 등 회수 경로가 원활해야 투자금 회수 및 성과보수 실현이 쉬워집니다."
+      },
+      {
+        "factor": "거시·산업 환경",
+        "detail": "글로벌 통상 이슈, 금리·환율 등 거시 변수와 AI 등 산업별 투자 흐름이 포트폴리오 성과에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "당사는 벤처캐피탈(VC, Venture Capital) 투자 및 사모투자(PE, Private Equity) 등 투자업을 영위하고 있으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "영업수익 합계(연결기준) | 50,749"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "MD&A",
+        "evidence_text": "2025년 한 해 동안 5,200억 원의 재원을 추가로 확보하였습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4086,
+    "completion_tokens": 4987,
+    "reasoning_tokens": 4224,
+    "output_tokens": 763
+  },
+  "warnings": []
+}

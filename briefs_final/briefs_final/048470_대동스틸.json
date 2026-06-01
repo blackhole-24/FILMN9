@@ -1,0 +1,67 @@
+{
+  "stock_code": "048470",
+  "corp_name": "대동스틸",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 02:29",
+  "meta": {
+    "wics": "철강",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "대동스틸은 1973년 8월 설립되어 철강재 유통업을 시작한 기업으로, 1975년 POSCO의 열연제품 지정판매점으로 선정되어 유통망을 확립했습니다. 포항과 인천에 Coil Service(코일 절단·가공) 설비를 보유·운영하며 철강재 유통과 후가공을 결합한 사업모델을 운영하고 있습니다.",
+    "business_model": "주요 사업은 제품(1차금속 제조업)·상품(도매 및 상품 중개업)·임가공(철판 절단 가공)으로 구성되며, 매출은 제품 48.2%, 상품 50.7%, 임가공 1.1%로 형성되어 있습니다. 포항공장의 POSCO 인접 입지와 인천공장의 수입물류를 통한 원가경쟁력 확보, Coil Service Center를 통한 절단·가공 서비스 제공이 핵심 수익원입니다.",
+    "main_customers": "제품 — 자동차·선박·기계·건설·보일러 및 구조물 관련 제조업체 / 상품 — 자동차·선박·기계 및 건설 관련 수요자 / 임가공 — COIL 절단가공을 필요로 하는 제조업체",
+    "price_factors": [
+      {
+        "factor": "중국산 영향",
+        "detail": "중국발 가격 변동과 저가 제품 유입이 국내 가격과 마진을 직접 압박하여 실적 변동성을 높입니다."
+      },
+      {
+        "factor": "전방수요",
+        "detail": "자동차·조선·건설 등 전방 산업 수요 회복 또는 둔화가 매출과 영업이익에 직결됩니다."
+      },
+      {
+        "factor": "원재료 의존",
+        "detail": "주요 구매처인 POSCO의 원료·제품 수급 정책 변화가 조달 비용과 공급 안정성에 영향을 미칩니다."
+      },
+      {
+        "factor": "물류비",
+        "detail": "철강은 운송비 부담이 커 물류비 변동이 원가 및 수익성에 즉각적인 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "(1) 영업개황",
+        "evidence_text": "당사는 1973년 8월 법인을 설립하여 철강재 유통업을 시작하였으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[표] 가. 주요 제품 등의 현황",
+        "evidence_text": "당사의 매출구성은 제품 48.2%를, 상품이 50.7%를"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "[표] 가. 주요 제품 등의 현황",
+        "evidence_text": "자동차,선박,기계,건설,보일러 및 구조물"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "(3) 시장의 특성",
+        "evidence_text": "중국측 가격변동에 따라 국내시장이 직접적으로 영향을 받는다는 점"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4665,
+    "completion_tokens": 3445,
+    "reasoning_tokens": 2688,
+    "output_tokens": 757
+  },
+  "warnings": []
+}

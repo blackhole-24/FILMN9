@@ -1,0 +1,62 @@
+{
+  "stock_code": "093920",
+  "corp_name": "서원인텍",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 07:27",
+  "meta": {
+    "wics": "핸드셋",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "서원인텍은 전기·전자(핸드셋) 분야에서 휴대폰용 외장부품 및 가공장비를 제조·공급하는 기업입니다. 보고서에 따르면 키패드·커버류와 레이저·CNC 등 가공장비를 삼성전자 등 국내외 휴대폰 제조사에 공급하고 있습니다.",
+    "business_model": "회사는 내부적으로 Manufacturing, Sourcing, 기타의 사업부문으로 구분되어 있으나, FY2025 영업수익 구성에서는 기타부문이 100.0%를 차지하고 있습니다. 제품 포트폴리오는 이동통신용 휴대폰 키패드, Flip/Book/Silicone 커버 등 외장부품과 고속가공기·레이저·CNC 장비 등으로 구성되어 있습니다.",
+    "main_customers": "Accessory(외장부품) — 삼성전자 등 국내외 휴대폰 제조사 / 기타부문 — 기타 사업 관련 기업(보고서 집계 기준)",
+    "price_factors": [
+      {
+        "factor": "스마트폰 수요",
+        "detail": "스마트폰 시장 성장 여부가 휴대폰 외장부품 수요에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "디자인·기능",
+        "detail": "휴대폰의 디자인·부가기능 강화 추세가 외장부품(케이스·키패드) 수요와 제품 사양을 좌우합니다."
+      },
+      {
+        "factor": "대형고객 의존",
+        "detail": "삼성전자 등 주요 고객사 수주 변동이 매출 변동에 큰 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "제품가격변동",
+        "detail": "제품별 가격 변동은 매출 및 이익률에 직접 영향을 미칠 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "business_model",
+        "source_section": "(사업부문별 요약 재무현황)",
+        "evidence_text": "사업부문은 Manufacturing 부문, Sourcing 부문 및 기타 부문으로 구분하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "기타부문: 194,904 (100.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "나. Accessory 부문",
+        "evidence_text": "삼성전자 등 국내외 등에 생산, 공급하고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3186,
+    "completion_tokens": 3224,
+    "reasoning_tokens": 2624,
+    "output_tokens": 600
+  },
+  "warnings": []
+}

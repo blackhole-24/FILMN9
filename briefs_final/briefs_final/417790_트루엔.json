@@ -1,0 +1,72 @@
+{
+  "stock_code": "417790",
+  "corp_name": "트루엔",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 19:12",
+  "meta": {
+    "wics": "전자장비와기기",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "트루엔은 2005년에 IP카메라 태동기에 창업한 디지털 영상감시시스템 및 IoT 전문기업으로, IP카메라 기반의 엣지(Edge) AI 기술을 중심으로 업계에서 입지를 형성하고 있습니다. 디지털 영상감시와 소비자 대상 IoT(스마트홈) 사업을 병행하며 영상분석·클라우드 서비스 결합을 추진하고 있습니다.",
+    "business_model": "사업은 IP 카메라(76.3%), 영상스트리밍솔루션(4.1%), IoT 기기 및 솔루션(16.5%), 기타(3.1%)로 구성되어 있으며, IP 카메라 제품 판매가 주된 수익원입니다. IoT 부문에서는 클라우드 기반 앱과 녹화·라이브스트리밍 구독(SaaS) 서비스를 통해 고정적(정기) 수입원을 확보하는 구조를 갖추고 있습니다.",
+    "main_customers": "디지털 영상감시시스템 — 지방자치단체·교통·공항·산업·군사 시설 등 공공·산업 고객 / IoT 기기 및 솔루션 — 가정용 소비자(베이비·반려동물·시니어 케어) 및 매장(상업 고객)",
+    "price_factors": [
+      {
+        "factor": "AI 경쟁",
+        "detail": "엣지 AI와 딥러닝 모델 성능이 개선될수록 제품 차별화로 실적에 긍정적 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "기술난이도",
+        "detail": "SoC·영상처리·엣지컴퓨팅 기술 장벽이 높아 신규 진입이 어려워 경쟁 완화 및 가격경쟁력 유지에 유리합니다."
+      },
+      {
+        "factor": "공공 수요",
+        "detail": "스마트시티·통합관제 등 공공 인프라 투자 확대는 대형 프로젝트 수주와 매출 확대로 연결될 가능성이 있습니다."
+      },
+      {
+        "factor": "서비스 전환",
+        "detail": "IoT 구독(SaaS) 서비스 확대는 하드웨어 의존성을 낮추고 안정적·반복적 매출을 증가시킬 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "디지털 영상감시시스템 사업과 IoT(Internet of Things) 사업입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "IP 카메라 37,463,172 (76.3%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "나. IoT(Internet of Things) 사업",
+        "evidence_text": "구독(SaaS)서비스를 통해 고정적인 수입원을 확보"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "도시방범, 도로, 공항, 산업, 군사 시설"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "IP카메라 중심으로 빠르게 변화하고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5451,
+    "completion_tokens": 3690,
+    "reasoning_tokens": 2880,
+    "output_tokens": 810
+  },
+  "warnings": []
+}

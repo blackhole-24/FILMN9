@@ -1,0 +1,74 @@
+{
+  "stock_code": "310210",
+  "corp_name": "보로노이",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 16:02",
+  "meta": {
+    "wics": "제약",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "보로노이는 자체 파이프라인으로 초기 임상개발(임상 1상~2상)에 집중하는 신약개발 전문기업으로, 주로 폐암·유방암 등 항암제 분야의 표적치료제 개발에 주력하고 있습니다. 자체 연구소와 AI 연구 플랫폼을 보유해 후보물질을 발굴하고 초기 임상을 수행하는 것을 핵심 역량으로 삼고 있습니다.",
+    "business_model": "핵심 사업은 자체 개발한 후보물질을 초기 임상에서 검증한 뒤 글로벌 제약사에 기술이전(License-Out, 기술이전)하는 모델로, 완제품(시판 신약)을 생산하지 않는 연구개발(R&D) 중심 구조입니다. 연구개발 가속화를 위해 자체 인공지능(AI) 플랫폼인 보로노믹스와 연구인프라를 활용해 파이프라인을 확보·진행하는 점이 특징입니다.",
+    "main_customers": "임상개발·파이프라인 개발 — 글로벌 제약사(라이선스 인/기술이전 대상) / 기술이전(라이선스아웃) — 글로벌 제약사",
+    "price_factors": [
+      {
+        "factor": "개발리스크",
+        "detail": "신약개발은 고위험·고비용 사업이므로 임상 지연이나 실패가 실적과 가치에 직접적 영향을 줍니다."
+      },
+      {
+        "factor": "임상성과",
+        "detail": "임상(안전성·효능) 결과가 기술이전 성사 여부 및 마일스톤 수령에 직결되어 실적 변동성이 큽니다."
+      },
+      {
+        "factor": "기술이전 수요",
+        "detail": "오픈 이노베이션(글로벌 제약사의 라이선스 인) 시장의 수요와 조건이 기술이전(수익화) 가능성에 영향을 미칩니다."
+      },
+      {
+        "factor": "Kinase 경쟁",
+        "detail": "Kinase 표적치료제 시장의 성장과 경쟁 신약 승인 현황이 파이프라인의 상업적 기회를 좌우합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "초기 임상개발(임상 1상~2상)에 집중하는 신약개발 전문기업"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "글로벌 기술이전(License-Out, L/O)하는 사업 모델을 추구하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "자체 인공지능(AI) 기반 신약개발 플랫폼인 '보로노믹스'를 활용하여"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "오릭에 최대 마일스톤 6억 2,100만 달러(계약금 1,300만 달러 포함)에 기술이전 하였습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "임상 1상 IND 승인을 받아 임상 개발을 진행하고 있습니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 5599,
+    "completion_tokens": 4866,
+    "reasoning_tokens": 4032,
+    "output_tokens": 834
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

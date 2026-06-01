@@ -1,0 +1,69 @@
+{
+  "stock_code": "043910",
+  "corp_name": "자연과환경",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 01:52",
+  "meta": {
+    "wics": "상업서비스와공급품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "자연과환경은 환경생태복원, 토양오염정화, PC저류조 등 친환경 제품의 제조·판매·시공을 주된 사업으로 하는 종합 환경업체입니다. 조경·환경플랜트·기타 건축공사 등 관련 사업과 모듈러·부동산 계열의 종속회사를 통해 사업영역을 확장하고 있으며, 매출은 주로 내수(공공 발주) 중심으로 형성되어 있습니다.",
+    "business_model": "핵심 사업은 생태복원용 블록·친환경 PC(Precast Concrete)와 저류조 PC의 제조·판매·시공, 토양·지하수 오염정화 및 환경컨설팅, 조경자재 유통·시공, 수처리·오염정화 플랜트 등으로 구성됩니다. 제품 가격은 조달청 납품가격을 기준으로 책정되는 경우가 많아 공공발주 비중이 높고, 최근 모듈러 신사업을 위한 인력확충과 R&D(연구개발) 투자도 진행하고 있습니다.",
+    "main_customers": "친환경 사업 — 조달청·국가·지방자치단체(공공 발주처) / 조경사업 — 지자체 및 건설발주처 / 환경플랜트 — 환경부·한국농어촌공사 등 공공기관",
+    "price_factors": [
+      {
+        "factor": "정부 발주규모",
+        "detail": "국가·지자체 예산 편성에 따라 하천정비·복원사업 발주 규모가 결정되어 매출 변동에 직접 영향."
+      },
+      {
+        "factor": "조달청 납품가",
+        "detail": "제품 가격이 조달청 납품가격을 기준으로 책정되는 경우가 많아 납품가 변동이 매출과 마진에 영향."
+      },
+      {
+        "factor": "주택·부지조성 사업",
+        "detail": "백만호 주택공급 및 대규모 부지조성 발주 확대 시 투수블록·조경자재 수요 증가로 수혜 가능."
+      },
+      {
+        "factor": "건설경기·계절성",
+        "detail": "조경사업은 건설경기 및 계절적 요인에 민감해 경기후퇴나 계절 영향으로 매출 변동성이 발생."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 사업의 내용",
+        "evidence_text": "지배회사인 당사의 주된사업은 환경생태복원사업, 토양정화사업, PC저류조사업"
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. 사업의 내용",
+        "evidence_text": "생태(호안)블록 및 투수(보도)블록"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "(1) 산출기준",
+        "evidence_text": "제품별 가격은 당사 매출의 대부분을 차지하는 조달청 납품가격을 기준으로 하였습니다"
+      },
+      {
+        "field": "business_model",
+        "source_section": "마. 연구개발활동",
+        "evidence_text": "2001년 5월 11일 기업부설  \"환경생태공학연구소\" 를 설립하여"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 5153,
+    "completion_tokens": 3822,
+    "reasoning_tokens": 3008,
+    "output_tokens": 814
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

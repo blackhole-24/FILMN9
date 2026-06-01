@@ -1,0 +1,67 @@
+{
+  "stock_code": "054300",
+  "corp_name": "팬스타엔터프라이즈",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 12:50",
+  "meta": {
+    "wics": "해운사",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "팬스타엔터프라이즈는 자동차 정비기기 사업을 영위하는 회사로서 정비용 리프트 등 자동차 점검·정비에 사용되는 장비를 다룹니다. 산업 특성상 기계적 구조와 전자제어·소프트웨어 기술이 접목된 제품을 공급하며, 국내 대기업 및 총판망을 통한 판매를 주요 채널로 삼고 있습니다.",
+    "business_model": "사업부문별로 FY2025 기준 자동차 부문이 56.0%를 차지하고, 상품 부문이 24.6%를 차지합니다 (자동차: 11,845 백만원, 상품: 5,216 백만원). 국내에서는 대기업 자동차 메이커 및 전국 총판을 통한 직접판매·설치와 A/S(사후관리)를 제공하고, 수출은 현지 바이어 및 딜러를 통한 직수출(T/T·L/C) 방식으로 이뤄집니다.",
+    "main_customers": "자동차 — 대기업 자동차 메이커 및 전국지역 총판 / 상품 — 총판·소비자 및 해외 현지 바이어",
+    "price_factors": [
+      {
+        "factor": "차량 보유대수",
+        "detail": "국내 차량 보유대수 증가·차종 변화는 정비수요와 장비 교체 수요를 늘려 실적에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "환경규제",
+        "detail": "배기가스·연비 규제와 신에너지(하이브리드·EV) 확산은 정비기기의 기술적 업그레이드 수요를 촉진합니다."
+      },
+      {
+        "factor": "유통망 의존성",
+        "detail": "대기업 고객과 전국 총판, 해외 딜러망에 대한 의존도가 높아 해당 채널의 수요 변동이 매출에 직결됩니다."
+      },
+      {
+        "factor": "제품 품질·A/S",
+        "detail": "ISO 9001 공정과 사후관리 서비스가 경쟁력 요소로, 품질·A/S 수준 저하는 수주 감소로 이어질 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "1-1. 자동차정비기기 사업",
+        "evidence_text": "자동차 정비기기는 개별 정비업소에서 사용하는 제품으로써"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 영업수익 구성]",
+        "evidence_text": "자동차: 11,845 (56.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 영업수익 구성]",
+        "evidence_text": "상품: 5,216 (24.6%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "4) 판매전략",
+        "evidence_text": "당사는 대기업 자동차 메이커와 전국지역 총판을 확보하고 있어"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3993,
+    "completion_tokens": 3408,
+    "reasoning_tokens": 2688,
+    "output_tokens": 720
+  },
+  "warnings": []
+}

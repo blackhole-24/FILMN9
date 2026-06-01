@@ -1,0 +1,72 @@
+{
+  "stock_code": "353190",
+  "corp_name": "휴럼",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 17:26",
+  "meta": {
+    "wics": "건강관리업체및서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "휴럼은 건강기능식품을 제조·판매하는 기업으로, 2017년 요거트 전문회사 (주)후스타일과의 합병을 통해 현재의 사업구조를 구축하였습니다. 자체 생산시설과 다수의 천연소재 특허를 보유하고 있으며, 종속회사(와이유, 네이처가든)를 통해 의료기기·온라인 홍삼 등으로 사업영역을 확장하고 있습니다.",
+    "business_model": "매출은 제품(자체 제조 제품)이 주요 축으로, 사업부문별 영업수익 구성은 제품이 45.3%, 상품이 21.3%로 기재되어 있습니다. 주력 제품으로는 프리미엄 유산균 '트루락', 식물성 에너지 '비너지', 카페원료 브랜드 '아임요'의 요거트 파우더 '요거에스', 홍삼 제품군 등이 있으며, 자체 생산·특허를 기반으로 홈쇼핑·온라인·대형마트 등 다양한 유통채널로 판매합니다.",
+    "main_customers": "제품(휴럼) — 홈쇼핑·온라인·대형마트·국군복지단 / 의료기기(와이유) — OEM 브랜드·해외 바이어 / 온라인 홍삼(네이처가든) — 소셜·오픈마켓·해외온라인 소비자",
+    "price_factors": [
+      {
+        "factor": "온라인·디지털광고",
+        "detail": "디지털 광고비와 온라인 구매가 증가함에 따라 온라인 채널 중심의 매출 변동이 실적에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "원재료·환율",
+        "detail": "원재료 수입 의존도와 환율 변동이 원가에 영향을 주어 이익률 변동 요인이 됩니다."
+      },
+      {
+        "factor": "소비자 트렌드",
+        "detail": "MZ세대 중심의 저당·저칼로리·건강 전문 브랜드 수요 확대는 제품 라인업과 판매전략에 영향을 줍니다."
+      },
+      {
+        "factor": "계절성",
+        "detail": "원재료(과일 등) 공급 및 소비 패턴의 계절적 변동이 매출에 일정한 영향을 미칠 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 건강기능식품 등을 제조, 판매하는 회사입니다."
+      },
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "자체 생산시설을 보유하고 있으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "제품: 44,868,234 (45.3%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "상품: 21,060,376 (21.3%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "홈쇼핑(현대홈쇼핑, GS홈쇼핑, 씨제이오쇼핑 등)"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4386,
+    "completion_tokens": 4776,
+    "reasoning_tokens": 3968,
+    "output_tokens": 808
+  },
+  "warnings": []
+}

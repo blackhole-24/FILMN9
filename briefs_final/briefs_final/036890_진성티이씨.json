@@ -1,0 +1,66 @@
+{
+  "stock_code": "036890",
+  "corp_name": "진성티이씨",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 00:44",
+  "meta": {
+    "wics": "기계",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "진성티이씨는 무한궤도식(크롤러형) 하부주행체용 Roller류(Idler, Sprocket 등) 등 건설중장비 부품을 전문적으로 생산하는 기업입니다. 연결 기준 매출은 2025년 4,638억원으로 2024년 대비 18.8% 증가했고, 주요 고객으로 Caterpillar, Hitachi, HD건설기계, 밥캣 등이 있습니다.",
+    "business_model": "사업부문은 건설중장비 부품(롤러류)이 핵심으로, [사업부문별 매출 구성]에 따르면 해당 부문이 매출의 100%를 차지합니다. 제품매출과 상품매출을 통해 수익을 창출하며 OEM(완성차·중장비 제조사 납품) 중심의 공급과 애프터마켓(주기적 교체수요)을 통해 지속적인 수요를 확보하고 있습니다.",
+    "main_customers": "건설중장비 부품 — 글로벌 중장비 제조사(예: Caterpillar, Hitachi, Bobcat, John Deere, HD건설기계)",
+    "price_factors": [
+      {
+        "factor": "애프터마켓 수요",
+        "detail": "롤러류 등 부품은 사용 정도에 따라 6개월~2년 내 교체가 필요해 애프터마켓(부품교체) 수요가 실적의 안정성에 기여합니다."
+      },
+      {
+        "factor": "글로벌 건설경기",
+        "detail": "도로·항만·토목·광산 등 고정자산투자와 글로벌 인프라 투자 변동이 장비 생산과 부품 수요에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "관세·무역정책",
+        "detail": "미국의 보호무역주의와 관세정책 불확실성은 수출시장 및 고객사의 조달환경에 영향을 주어 실적 변동성을 키울 수 있습니다."
+      },
+      {
+        "factor": "원자재·환율",
+        "detail": "환율 및 원자재 가격 변동은 원가에 영향을 미치며, 회사는 6개월 단위로 고객과 가격조정을 실시해 수익성에 영향을 줍니다."
+      },
+      {
+        "factor": "가격·납기·품질 경쟁",
+        "detail": "글로벌 메이저 제조사의 아웃소싱 확대 속에서 가격·납기·품질 경쟁이 심화되면 수주와 마진에 직접적인 영향이 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 가. 산업의 특성",
+        "evidence_text": "당사가 속한 사업은 건설중장비를 생산하는 부품 산업으로 하부주행체(Under-carriage)부품을 주로 생산하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "463,820(100%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "주요 매출처로는 Caterpillar, Hitachi, HD건설기계, 밥캣이 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4722,
+    "completion_tokens": 4190,
+    "reasoning_tokens": 3392,
+    "output_tokens": 798
+  },
+  "warnings": []
+}

@@ -1,0 +1,84 @@
+{
+  "stock_code": "396270",
+  "corp_name": "넥스트칩",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 18:48",
+  "meta": {
+    "wics": "반도체와반도체장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "넥스트칩은 2019년 설립된 차량용 지능형 카메라 영상처리 및 인식용 시스템 반도체 전문기업입니다. Vision(영상처리), Recognition(인지), Transmission(전송) 분야 기술을 바탕으로 자동차용 카메라용 ISP·AHD·ADAS SoC 제품을 공급하며, 로봇·드론 등 산업용 영상 솔루션으로 사업영역을 확장하고 있습니다.",
+    "business_model": "핵심 사업은 차량용 ISP(이미지 신호처리기), AHD(아날로그 고해상도 전송), ADAS SoC(첨단 운전자보조용 시스템 반도체) 등 카메라용 반도체 제품의 개발·판매입니다. 이외에 상품매출, 용역매출, 로열티 매출 등으로 수익을 창출하며, 제품·모듈화(SoM, 시스템온모듈) 전략을 통해 자동차 외 산업(로봇·드론)으로 사업 포트폴리오를 확장하고 있습니다.",
+    "main_customers": "ISP — 자동차 제조사 및 카메라 모듈 업체 / AHD — 상용차·승용차의 영상시스템 채택업체 / ADAS SoC — 완성차 및 자율주행 시스템 공급사 / 로봇·드론 솔루션 — 제조·물류 기업 및 드론 부품 수요처",
+    "price_factors": [
+      {
+        "factor": "규제 의무화",
+        "detail": "미국 등 주요 시장의 ADAS 의무화(예: AEB 단계적 의무화)는 카메라 기반 반도체 수요 증가로 실적에 긍정적 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "카메라 탑재 확대",
+        "detail": "1대 차량당 카메라 수 증가와 전방·인캐빈 등 기능 다변화는 ISP·Recognition 제품의 수요를 확대합니다."
+      },
+      {
+        "factor": "고해상도화·다기능화",
+        "detail": "HD·UHD 등 고해상도 및 객체인식 기능 강화는 고성능 ISP·AHD 기술 경쟁력에 따라 실적 변동을 유발합니다."
+      },
+      {
+        "factor": "글로벌 경기·무역",
+        "detail": "국제 정세와 무역 분쟁 등 글로벌 불확실성은 자동차 수요 변동으로 연결되어 매출에 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "차량용 지능형 카메라 영상처리 및 인식용 시스템 반도체 전문기업입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황 > 가. 주요 제품 설명",
+        "evidence_text": "당사의 제품은 ① 고화질 영상 처리를 위한 차량용 ISP 기술"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "글로벌 고객사에 안정적으로 제품을 공급하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "상품매출·용역매출·로열티 매출"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "로봇 및 드론 시장으로 사업 영역을 확장하고 있습니다."
+      },
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "2025년 매출액은 396억 원을 기록"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황 > 가. 지적재산권 현황",
+        "evidence_text": "국내특허 65건(등록 44건, 출원 21건)"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 5104,
+    "completion_tokens": 3806,
+    "reasoning_tokens": 2816,
+    "output_tokens": 990
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

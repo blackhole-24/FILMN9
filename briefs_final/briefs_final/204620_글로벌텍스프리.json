@@ -1,0 +1,66 @@
+{
+  "stock_code": "204620",
+  "corp_name": "글로벌텍스프리",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 11:46",
+  "meta": {
+    "wics": "기타금융",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "글로벌텍스프리는 2005년 설립된 아시아 최초의 세금환급(Tax Refund) 대행사업자입니다. 외국인 관광객의 국내 소비에 대한 부가가치세 환급대행을 주업으로 하는 기타금융업(금융 및 보험업 내 기타 금융 지원 서비스)에 해당합니다.",
+    "business_model": "핵심 수익원은 외국인 관광객의 부가세 환급 대행으로, 환급액의 일정비율을 수수료로 수취하여 매출이 발생합니다. 사업부문별로는 부가세 환급 등(96.5%)이 대부분을 차지하고, 기타수익(3.5%)은 공항 위탁환급수수료·외화환급 손익·자회사 시스템구축 용역수익 등으로 구성됩니다.",
+    "main_customers": "부가세 환급 등 — 외국인 관광객 / 기타수익 — 공항·항만의 타 환급사업자, 쇼핑몰·법인 및 자회사 관련 거래처",
+    "price_factors": [
+      {
+        "factor": "관광객 유입",
+        "detail": "방한 외국인 관광객 수 증가는 환급 신청 건수와 매출을 직접적으로 늘립니다."
+      },
+      {
+        "factor": "중국관광객",
+        "detail": "중국인 관광객 비중이 높아 이들의 소비와 플랫폼 이용 변화가 환급률에 영향을 미칩니다."
+      },
+      {
+        "factor": "결제수단",
+        "detail": "알리페이·유니온페이 등 다양한 환급수단 도입은 고객편의성 제고로 환급수익에 영향합니다."
+      },
+      {
+        "factor": "출국항 운영",
+        "detail": "공항·항만 등 출국항 환급창구의 운영 상황과 위탁수주가 서비스 제공능력과 매출에 영향을 줍니다."
+      },
+      {
+        "factor": "환율 변동",
+        "detail": "공항 등 외화환급에서 발생하는 환손익이 실적에 영향을 미칠 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "당사는 2005년 설립된 아시아 최초의 세금환급(Tax Refund) 대행사업자로서"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성 (FY2025)",
+        "evidence_text": "부가세 환급 등: 131,481,768 (96.5%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업의 개황",
+        "evidence_text": "환급금의 일정비율을 수수료로 수취하여 매출이 발생하고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3761,
+    "completion_tokens": 3566,
+    "reasoning_tokens": 2880,
+    "output_tokens": 686
+  },
+  "warnings": []
+}

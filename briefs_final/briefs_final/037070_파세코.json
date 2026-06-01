@@ -1,0 +1,81 @@
+{
+  "stock_code": "037070",
+  "corp_name": "파세코",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 00:46",
+  "meta": {
+    "wics": "가정용기기와용품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "파세코는 1986년에 설립된 가전제품 제조업체로, 계절가전과 주방·생활가전을 주로 생산·판매합니다. 국내는 물론 미국·유럽·중동 등 해외시장에도 진출해 있으며, 2025년 매출은 1,679억원으로 전년 대비 6.4% 증가했습니다.",
+    "business_model": "사업부문별로 정수기·의류청정기가 매출의 47.5%로 가장 큰 비중을 차지하며, 석유스토브·히터 25.3%, 가스쿡탑·후드 8.7%, 창문형에어컨·써큘레이터·생활가전·상업기기 등이 18.5%를 차지합니다. 생활가전에서는 OEM/ODM(제조자 위탁생산·설계생산) 방식으로 정수기 및 의류청정기 등을 생산하며, 제품별 가격 변화와 수출 채널 다변화가 수익 구조에 영향을 미칩니다.",
+    "main_customers": "정수기·의류청정기 — 코웨이㈜ 및 온라인 플랫폼(네이버스마트스토어·쿠팡) / 석유스토브·히터 — 국내 유통채널 및 수출 바이어(TRUST·Menards) / 가스쿡탑·후드 — 가전 유통채널 및 업소용 시장 / 창문형에어컨 등 — 국내외 바이어 및 상업용 채널",
+    "price_factors": [
+      {
+        "factor": "계절성",
+        "detail": "계절가전 특성상 폭염·한파 등 기후에 따른 수요 변동이 실적에 직접 영향을 줍니다."
+      },
+      {
+        "factor": "환경규제",
+        "detail": "환경 관련 법규 미준수 시 벌금·조업정지 등 제재와 준수 비용이 실적에 부담으로 작용할 수 있습니다."
+      },
+      {
+        "factor": "제품가격",
+        "detail": "정수기·석유스토브·창문형에어컨 등 제품별 평균판매가격 변동이 매출과 이익률에 영향을 미칩니다."
+      },
+      {
+        "factor": "대체수요",
+        "detail": "전기난방 등 대체 수단 확산은 전통 연소식 기기 수요 감소로 이어져 해당 품목 실적에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "해외수출",
+        "detail": "미주·중동·유럽 등 수출 채널 확대는 매출 다변화의 기회이나, 지역별 수요 변화에 따른 변동성도 존재합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "당사는 1986년에 설립된 가전제품 제조업체로,"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "정수기, 의류청정기: 79,774 (47.5%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "석유스토브, 히터: 42,522 (25.3%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "주요 매출처로는 코웨이㈜, 네이버스마트스토어, 쿠팡,"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 환경 관련 규제사항",
+        "evidence_text": "당사는 다양한 환경 관련 법적 규제 하에 있으며,"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "다. 사업부문별 현황 [계절가전 부문]",
+        "evidence_text": "계절성과 지역성이 강한 특징을 가집니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4088,
+    "completion_tokens": 5715,
+    "reasoning_tokens": 4736,
+    "output_tokens": 979
+  },
+  "warnings": []
+}

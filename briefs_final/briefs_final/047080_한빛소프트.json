@@ -1,0 +1,79 @@
+{
+  "stock_code": "047080",
+  "corp_name": "한빛소프트",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 02:20",
+  "meta": {
+    "wics": "게임엔터테인먼트",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "한빛소프트는 PC·모바일 게임의 개발·서비스와 퍼블리싱을 핵심으로 하는 게임사이며, 종속회사 한빛드론을 통해 DJI 드론의 국내 판매 및 서비스를 병행하고 있습니다. 다양한 장르의 게임 퍼블리싱 경험과 드론 유통사업을 함께 영위하는 것이 회사 정체성입니다.",
+    "business_model": "핵심 사업은 게임서비스(PC·모바일)로, 자체 보유 IP(예: 그라나도 에스파다)를 직접 개발·서비스하며 라이브 서비스(운영)와 모바일 퍼블리싱을 통해 수익을 창출합니다. 또한 종속회사 한빛드론을 통한 DJI 드론의 국내 유통·판매 및 서비스가 연결 실적에 기여하고 있습니다.",
+    "main_customers": "게임서비스부문 — 국내외 게임 이용자(플레이어) / 유통(드론)부문 — 국내 드론 구매자 및 서비스 고객(농업용 드론 수요 포함)",
+    "price_factors": [
+      {
+        "factor": "신작 런칭",
+        "detail": "신작 IP의 신규 지역 런칭이 매출과 영업이익 증가로 이어져 실적에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "드론 판매",
+        "detail": "종속회사 한빛드론의 농업용 드론 기체 판매 증가가 유통부문 매출을 끌어올려 연결 실적에 기여합니다."
+      },
+      {
+        "factor": "환율",
+        "detail": "글로벌 영업에서 USD·JPY 등 외화에 노출되어 환율 변동이 수익성과 비용에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "IP·라이브역량",
+        "detail": "자체 IP와 안정적 라이브 서비스 역량은 글로벌 유저 확보와 장기적 매출 안정성에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 게임서비스부문",
+        "evidence_text": "다양한 장르의 PC 및 모바일 게임을 개발 및 서비스하고 있으며"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "가. 게임서비스부문",
+        "evidence_text": "DJI를 통하여 수입한 드론을 국내에 판매 및 서비스하고 있습니다"
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. 게임서비스부문",
+        "evidence_text": "당사는 <그라나도 에스파다M>을 직접 개발하여 서비스를 하고 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 게임서비스부문",
+        "evidence_text": "다양한 장르의 게임을 안정적으로 국내외에 서비스하며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "라. 경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "농업용 드론 기체 판매 증가에 따른 매출액 증가"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "라. 환율변동에 관한 사항",
+        "evidence_text": "환포지션의 주요 통화로는 USD, JPY 등이 있습니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 3815,
+    "completion_tokens": 4178,
+    "reasoning_tokens": 3392,
+    "output_tokens": 786
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

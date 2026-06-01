@@ -1,0 +1,79 @@
+{
+  "stock_code": "419530",
+  "corp_name": "SAMG엔터",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 19:22",
+  "meta": {
+    "wics": "방송과엔터테인먼트",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "SAMG엔터는 2000년 설립된 1세대 애니메이션 제작사로, 자체 IP(지식재산권)를 기반으로 콘텐츠 기획·제작, 캐릭터 라이선싱 및 머천다이징(MD), 글로벌 배급, 오프라인 상설 매장·테마공간 운영 등을 영위하는 종합 패밀리 엔터테인먼트 기업입니다. 국내 최대 3D 애니메이션 제작사로 자리매김하며 중국·일본 등 아시아와 러시아, 유럽, 북미 등으로 글로벌 사업을 확장하고 있습니다.",
+    "business_model": "핵심은 자체 애니메이션 IP를 제작해 OTT·유튜브 등 플랫폼에서 유통하고, 캐릭터를 활용한 완구·F&B·굿즈 등 머천다이징(MD)과 라이선싱, 오프라인 상설 매장 및 테마공간 운영으로 수익을 다각화하는 통합 비즈니스 모델입니다. 경영진은 제품 및 라이선스 매출 증가를 실적 개선의 주요 원인으로 제시하고 있습니다.",
+    "main_customers": "콘텐츠 유통 — OTT·인터넷 동영상 플랫폼 및 해당 플랫폼의 시청자 / 머천다이징·라이선싱 — 완구·F&B·굿즈 구매를 하는 일반 소비자 및 유통채널 / 오프라인 테마공간 — 쇼핑몰 방문 가족 단위 고객",
+    "price_factors": [
+      {
+        "factor": "성수기(4분기)",
+        "detail": "매출이 4분기에 집중되는 계절성으로 연간 실적과 분기별 변동성이 커질 수 있습니다."
+      },
+      {
+        "factor": "플랫폼 수요",
+        "detail": "OTT·유튜브 등 뉴미디어의 성장에 따른 콘텐츠 수요 확대가 제작사 실적 개선에 긍정적 영향을 미칩니다."
+      },
+      {
+        "factor": "캐릭터 IP 파워",
+        "detail": "인지도 높은 IP는 라이선싱·MD 확대를 가능하게 해 매출 다각화와 수익성 개선에 기여합니다."
+      },
+      {
+        "factor": "환율 변동",
+        "detail": "USD·EUR·JPY·CNY 등 외화거래 노출로 환율 변동이 연결실적에 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "당사는 2000년에 설립된 1세대 애니메이션 기업으로"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "국내 최대 3D 애니메이션 제작사"
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황",
+        "evidence_text": "자체 캐릭터와 애니메이션 콘텐츠를 기획 및 제작하여"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "인터넷 동영상 서비스(YouTube, iQiyi, YOUKU, Tencent 등)"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "매출액은 매년 4분기에 집중되는 경향이 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "매출액은 141,252백만원으로"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 5399,
+    "completion_tokens": 4641,
+    "reasoning_tokens": 3776,
+    "output_tokens": 865
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

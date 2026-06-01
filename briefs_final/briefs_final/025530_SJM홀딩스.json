@@ -1,0 +1,71 @@
+{
+  "stock_code": "025530",
+  "corp_name": "SJM홀딩스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 12:56",
+  "meta": {
+    "wics": "자동차부품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "SJM홀딩스는 공정거래법에 따른 지주회사(주식을 통해 자회사를 지배하는 회사)로 전환하여 자회사 지분 소유를 통해 사업을 통제하는 것을 주요 사업으로 하고 있습니다. 보고서 기준일 현재 20개의 종속회사를 보유하고 있으며, 주요종속회사로는 상장사 (주)에스제이엠과 다수의 해외법인이 있습니다. 2025년 연결기준 회사들의 연간 매출액은 205,799백만원으로 그룹 규모를 가늠할 수 있습니다.",
+    "business_model": "연결 기준으로 매출은 자동차사업부(자동차용 BELLOWS)가 84.9%로 압도적 비중을 차지하며, 플랜트사업부(산업용 BELLOWS)가 11.1%, 기타부문(통신용반도체 MMIC 등)이 1.2%를 차지합니다. 핵심 수익원은 주요 종속회사인 (주)에스제이엠을 통한 자동차용 Flexible Coupling(유연 커플링) 제조·판매이며, 플랜트용 Expansion Joint와 통신용 MMIC(무선신호용 집적회로) 설계·판매가 그 밖의 수익을 보완합니다.",
+    "main_customers": "자동차사업부 — 완성차 및 자동차부품 제조사 / 플랜트사업부 — 조선·LNG 등 플랜트 설비 발주·운영사 / 기타부문 — 통신장비·반도체 설계·제조 관련 기업",
+    "price_factors": [
+      {
+        "factor": "환율",
+        "detail": "수출제품의 환율 변동은 매출과 외화표시 자산·부채의 외화환산손익에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "원재료·노무비",
+        "detail": "원재료와 노무비가 오르면 제품 단가에 반영되어 원가율과 영업이익에 영향을 줍니다."
+      },
+      {
+        "factor": "판매물량·판가",
+        "detail": "판가 하락이나 판매물량 감소는 매출 축소로 이어져 실적에 부정적 영향을 미칩니다."
+      },
+      {
+        "factor": "무역·관세 이슈",
+        "detail": "미국 관세 등 무역장벽은 수출 단가와 수익성에 부정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "플랜트 수주 변동",
+        "detail": "조선업 등 플랜트 수주 호조는 플랜트사업부 매출에 긍정적 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 가. 사업의 내용",
+        "evidence_text": "보고서 작성 기준일 현재 20개의 종속회사를 소유하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "자동차사업부(자동차용 BELLOWS): 174,771,839 (84.9%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 가. 사업의 내용 (자동차사업부문 설명)",
+        "evidence_text": "Flexible Coupling의 제조 및 판매하고 있으며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 가. 사업의 내용 (가격변동원인)",
+        "evidence_text": "수출제품의 환율변동 및 원재료, 노무비 인상으로 인한 가격의 변화"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5116,
+    "completion_tokens": 5436,
+    "reasoning_tokens": 4544,
+    "output_tokens": 892
+  },
+  "warnings": []
+}

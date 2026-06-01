@@ -1,0 +1,67 @@
+{
+  "stock_code": "005430",
+  "corp_name": "한국공항",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 12:19",
+  "meta": {
+    "wics": "운송인프라",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "한국공항은 1999년 5월 1일 비상장사 (주)한국항공과 합병한 이후 항공기 지상조업을 중심으로 급유·화물취급·정비·렌탈·생수·축산 등 다양한 부문으로 사업을 확장해온 항공기 지상조업 전문 기업입니다. 인천·김포·김해·제주 등 주요 국내 공항에서 대한항공·진에어 등과 함께 조업을 수행하며 국내 항공조업 시장에서 높은 점유율과 축적된 노하우를 보유하고 있습니다.",
+    "business_model": "주력은 항공운수보조(지상조업)로, FY2025 사업부문별 영업수익에서 '여객수속, 운항관리, 전세기'가 100.0%를 차지합니다. 이와 별개로 항공기 급유, 항공화물 취급, 항공기 정비, 지게차 렌탈, 생수·축산사업 등 비지상조업 활동을 영위하며 보고서에 따르면 전체 매출에서 지상조업부문 비중은 약 90%, 비지상조업은 약 10%를 차지하고 있습니다.",
+    "main_customers": "지상조업(여객수속·운항관리) — 대한항공·진에어 및 국내 취항 외국항공사 / 여객서비스(자회사 에어코리아) — 항공사(탑승수속·출입국 지원·운항관리 위탁)",
+    "price_factors": [
+      {
+        "factor": "운항편수",
+        "detail": "항공사의 운항편수 증감이 조업 수요와 매출에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "고객사 집중",
+        "detail": "대한항공·진에어 등 주요 항공사와의 관계 변화가 실적에 큰 변수로 작용합니다."
+      },
+      {
+        "factor": "경쟁심화",
+        "detail": "다국적 조업사의 국내 진출 및 LCC(저비용항공사)의 자체 조업 강화는 경쟁을 심화시킵니다."
+      },
+      {
+        "factor": "대내외 환경",
+        "detail": "국제정세 불안정과 원화 약세 등 대외 요인이 여행수요와 비용 구조에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 1999년 5월 1일부로 비상장사인 (주)한국항공과 합병 이후"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "여객수속, 운항관리, 전세기: 81,368 (100.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "대한항공 및 진에어를 비롯한 국내 취항 외국항공사의 지상조업을 수행"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사의 업황은 항공사 및 항공산업의 사업환경과 시장구조에 크게 영향을 받고 있으며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5234,
+    "completion_tokens": 4739,
+    "reasoning_tokens": 3904,
+    "output_tokens": 835
+  },
+  "warnings": []
+}

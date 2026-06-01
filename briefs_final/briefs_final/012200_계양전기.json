@@ -1,0 +1,67 @@
+{
+  "stock_code": "012200",
+  "corp_name": "계양전기",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 20:57",
+  "meta": {
+    "wics": "자동차부품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "계양전기는 1977년 설립 이후 축적된 모터 기술력을 바탕으로 전동공구를 전문 제조해 온 기업으로, 1987년부터는 자동차용 모터 사업으로 사업영역을 확대하여 전동공구와 전장품을 양대 축으로 영위하고 있습니다.",
+    "business_model": "사업부문은 산업용품과 전장품으로 구분되며, 산업용품은 전동공구·소형엔진·산업용구를 제조·판매하고 전장품은 Seat용 모터, Electric parking brake actuator, Tilt&Tele actuator, Powertrain 모터 등 차량용 모터를 생산합니다. 연결매출액은 산업용품 1,001억원(25.7%), 전장품 2,897억원(74.3%)로, 전장품 비중이 높은 구조입니다.",
+    "main_customers": "산업용품 — 대리점을 통한 국내 소비자 및 해외 거래선(수출) / 전장품 — 현대·기아자동차 등 완성차업체(내수) 및 Mando, Nexteer 등 해외 거래선(수출)",
+    "price_factors": [
+      {
+        "factor": "완성차 경기",
+        "detail": "전장품은 자동차 산업의 경기에 밀접히 영향을 받아 완성차 생산·판매 감소 시 실적에 직접적인 영향을 받습니다."
+      },
+      {
+        "factor": "기술·품질 경쟁",
+        "detail": "전장품 부문은 높은 수준의 기술력과 품질을 바탕으로 경쟁우위를 확보해야 하므로 기술 개발과 품질관리 비용이 실적에 영향을 미칩니다."
+      },
+      {
+        "factor": "충전공구 확산",
+        "detail": "전동공구 시장은 리튬이온 배터리 기반의 충전공구 확산에 따라 성장하고 있어 관련 제품 개발 및 수요 변동이 실적에 영향을 줍니다."
+      },
+      {
+        "factor": "환율·원자재",
+        "detail": "연결회사는 달러·유로 등 외화에 노출되어 있어 환율 변동 및 원자재 가격 상승이 원가와 손익에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "당사는 1977년 설립 이래 축적된 모터 기술력과 경험을 바탕으로 전동공구를 전문으로 제조하는 업체로서 위치를 공고히 하고 있으며, 1987년 자동차용 모터 사업으로 사업영역을 확대하였습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "연결매출액은 산업용품 1,001억원(25.7%), 전장품 2,897억원(74.3%) 입니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "내수는 현대, 기아자동차 중형 이상 차종 대부분에 당사의 Seat용 모터를 납품하고 있으며, 수출은 Mando(해외)사에 Electric parking brake actuator를, Nexteer사에 Tilt&Tele actuator를 납품하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 시장여건",
+        "evidence_text": "전장품은 전방산업인 자동차 산업의 경기에 밀접한 영향을 받고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5364,
+    "completion_tokens": 3164,
+    "reasoning_tokens": 2304,
+    "output_tokens": 860
+  },
+  "warnings": []
+}

@@ -1,0 +1,69 @@
+{
+  "stock_code": "018880",
+  "corp_name": "한온시스템",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 22:23",
+  "meta": {
+    "wics": "자동차부품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "한온시스템은 자동차용 열관리(히트 매니지먼트) 전문업체로, OEM(주문자생산방식)으로 완성차 업체에 공조·쿨링 시스템을 납품합니다. 국내에 대전·평택·울산·아산·경주 등 생산거점을 보유하고, 글로벌 매출로 매출액 약 73억 달러(세계 100대 부품업체 39위)를 기록한 기업입니다.",
+    "business_model": "핵심 사업은 자동차 열 관리 시스템(공조·파워트레인 쿨링·압축기·플루이드 트랜스포트·유압제어·히트펌프 등) 단일 사업부문으로, 완성차(및 일부 부품사)와의 OEM 계약을 통해 부품과 시스템을 공급합니다. 연결회사는 단일 영업부문을 영위하며 영업부문별 실적은 공시하지 않습니다.",
+    "main_customers": "자동차 열 관리시스템 — 완성차 및 부품사(현대자동차·현대모비스·Ford 등)",
+    "price_factors": [
+      {
+        "factor": "완성차 수요",
+        "detail": "완성차 시장의 경기 변동이 매출과 실적에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "친환경차 트렌드",
+        "detail": "하이브리드·전기차 등 친환경차 확대에 따라 히트펌프·대체냉매 등 제품 수요가 변화합니다."
+      },
+      {
+        "factor": "환율(외화변동)",
+        "detail": "국제 영업비중이 커 달러·유로 환율 변동이 실적과 현금흐름에 영향을 줍니다."
+      },
+      {
+        "factor": "주요 고객 집중",
+        "detail": "현대차·현대모비스·Ford 등 주요 고객 비중이 높아 특정 고객의 물량 변동이 실적에 영향합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 업계의 현황",
+        "evidence_text": "당사는 매출액 73억 달러로 2단계 상승한 39위를 차지하였습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "연결회사는 단일 영업부문을 영위하고 있으며, 영업부문별 정보를 공시하지 아니합니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "주요 매출처로는 현대자동차, 현대모비스, Ford 등이 있으며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "당사가 영위하는 자동차 부품 산업은 시장 경기변동 및 완성차 시장의 영향을 많이 받는 산업으로"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 5492,
+    "completion_tokens": 4524,
+    "reasoning_tokens": 3776,
+    "output_tokens": 748
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "stock_code": "432720",
+  "corp_name": "퀄리타스반도체",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 19:32",
+  "meta": {
+    "wics": "반도체와반도체장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "퀄리타스반도체는 초고속 인터커넥트(Interconnect) 기술을 기반으로 한 반도체 IP 설계 전문기업으로, 초고속 인터페이스 IP 라이선싱 및 디자인 서비스(Design Service)를 주력으로 영위하고 있습니다. MIPI, PCIe, SERDES, UCIe 등 폭넓은 IP 포트폴리오와 FinFET 등 초미세 공정에서의 양산 이력을 바탕으로 시스템반도체 분야의 핵심 인터페이스 기술에 집중하고 있습니다.",
+    "business_model": "핵심 사업은 IP 라이선싱과 디자인 서비스로, 반도체 제품(SoC, ASIC)에 포함되는 회로 설계도면·사용설명서·검증결과 등의 지적재산권을 고객에게 제공하여 대가를 받는 구조입니다. 사업부문별 영업수익 구성(FY2025)은 A 34.4%, B 17.7%, C 12.3%, 기타 35.6%로 표기되어 있으며, 고객사는 검증된 IP 채택을 통해 개발 인력·비용 절감과 개발기간 단축 효과를 얻습니다.",
+    "main_customers": "IP 라이선싱 — 파운드리를 이용한 SoC 개발업체·디자인하우스 / 디자인 서비스 — SoC 개발업체 및 파운드리 고객 / 응용처(제품 적용 고객) — 모바일 AP·자동차용 SoC·AI용 SoC·Surveillance용 SoC",
+    "price_factors": [
+      {
+        "factor": "AI 수요",
+        "detail": "AI 시장의 성장으로 PCIe·메모리 컨트롤러 등 인터페이스 IP 수요가 증가하면 매출에 직접적인 영향이 있을 수 있습니다."
+      },
+      {
+        "factor": "초미세 공정",
+        "detail": "초미세 공정에서 Hardmacro IP 가격 상승은 IP의 부가가치와 매출 구조에 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "전방 수요",
+        "detail": "스마트폰·PC 등 전방 수요 변동은 반도체 전반 수요에 영향을 주어 간접적으로 실적 변동성을 유발할 수 있습니다."
+      },
+      {
+        "factor": "지정학 리스크",
+        "detail": "지정학적 불확실성 및 수주 지연은 단기 매출 감소와 영업 실적에 부정적 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "초고속 인터페이스 IP 라이선싱 및 디자인 서비스"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사의 주요 사업인 반도체 IP 라이선싱은"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "A: 1,842 (34.4%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "파운드리를 이용하는 SoC 개발사 및 디자인하우스"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "AI 시장의 개화는 2020년부터 반도체 시장을 주도"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5290,
+    "completion_tokens": 3727,
+    "reasoning_tokens": 2880,
+    "output_tokens": 847
+  },
+  "warnings": []
+}

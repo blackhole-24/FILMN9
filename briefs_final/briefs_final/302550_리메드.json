@@ -1,0 +1,67 @@
+{
+  "stock_code": "302550",
+  "corp_name": "리메드",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 15:41",
+  "meta": {
+    "wics": "건강관리장비와용품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "리메드는 강력한 자기장을 이용한 비침습적 의료기기를 개발·제조·판매하는 기업입니다. 우울증용 TMS(경두개자기자극), 만성통증용 PMS, 코어근력 강화용 CSMS, 에스테틱용 EBD 장비 등을 주요 제품으로 보유하고 있으며 TMS 분야에서 국내 시장을 주도하고 있습니다.",
+    "business_model": "FY2025 기준 국내 매출 비중은 9.7%이고 해외 매출 비중은 44.5%입니다. 핵심 수익원은 우울증 치료용 TMS(BrainStim·ALTMS), 만성통증 치료용 PMS(Salus 계열)와 이를 바탕으로 한 수출 중심의 의료기기 및 에스테틱(EBD) 장비입니다.",
+    "main_customers": "TMS — 정신과·신경과·재활의학과의 병·의원 / PMS — 근골격계·통증 클리닉 및 병원 / CSMS — 의료기기 OEM·해외기업(예: Zimmer) / EBD(에스테틱) — 피부미용·에스테틱 클리닉",
+    "price_factors": [
+      {
+        "factor": "허가절차",
+        "detail": "국내외 제품 판매를 위해 각국 규제당국의 허가가 필요해 출시 시점과 매출 확대에 직접적 영향이 있습니다."
+      },
+      {
+        "factor": "환율",
+        "detail": "수출 비중이 높은 구조에서 원화 대비 달러 강세·약세는 매출 및 이익에 즉각적 영향을 미칩니다."
+      },
+      {
+        "factor": "시장수요",
+        "detail": "고령화에 따른 뇌졸중·만성통증 치료 수요와 에스테틱 시장 성장 여부가 제품 수요를 좌우합니다."
+      },
+      {
+        "factor": "경쟁가격",
+        "detail": "해외 저가 제품의 진입 시 가격 경쟁과 납기·A/S 대응력이 실적에 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 사업의 개요",
+        "evidence_text": "의료기기를 개발 및 제조, 판매하는 업체입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "국내: 2,274,147 (9.7%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "해외: 10,388,837 (44.5%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "(1) TMS 제품 : BrainStim, ALTMS",
+        "evidence_text": "정신과, 신경과적 적응증으로 사용되는 치료 기기입니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5035,
+    "completion_tokens": 4366,
+    "reasoning_tokens": 3648,
+    "output_tokens": 718
+  },
+  "warnings": []
+}

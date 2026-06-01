@@ -1,0 +1,67 @@
+{
+  "stock_code": "095700",
+  "corp_name": "제넥신",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 07:35",
+  "meta": {
+    "wics": "생물공학",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "제넥신은 독자적 원천기술인 hyFc 융합 단백질 및 DNA 백신 제조기술을 바탕으로 차세대 혁신 신약을 개발하는 바이오의약품 기업입니다. 최근 ㈜이피디바이오와의 합병을 통해 bioPROTAC 플랫폼 기술인 EPDeg™을 확보하여 신규 파이프라인 구축에 주력하고 있습니다.",
+    "business_model": "핵심 사업은 신약개발(기술이전·연구용역·로열티)이며, 2025년 매출은 기술이전(주로 라이선스) 60.8%, 프로젝트개발용역 32.7%, 기타용역 4.2%, 기술재산권(로열티) 2.4%로 구성되어 있습니다. 회사는 hyFc 플랫폼(지속형 단백질 치료제 개발)과 DNA 백신 등 원천기술을 바탕으로 파이프라인을 사업화하고 파트너십을 통한 기술이전을 핵심 수익원으로 삼고 있습니다.",
+    "main_customers": "기술이전(신약라이선스) — 제약·바이오 파트너사(예: NeoImmuneTech, TJbio) / 프로젝트개발·연구용역 — 제약·바이오기업(예: NeoImmuneTech, KGbio, 프로젠) / 로열티 — 라이선스 파트너(예: 동아ST)",
+    "price_factors": [
+      {
+        "factor": "기술이전 의존도",
+        "detail": "매출의 상당 부분(2025년 기준 기술이전 약 60.8%)이 대형 기술이전·라이선스 계약에 의존하므로, 계약 체결 여부가 실적 변동을 크게 좌우합니다."
+      },
+      {
+        "factor": "임상·인허가 리스크",
+        "detail": "바이오 신약은 다단계 임상과 인허가 과정이 필요해 개발 성과 지연 또는 실패 시 실적과 가치에 부정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "장기 R&D 투자",
+        "detail": "생명공학 기술은 실용화까지 장기간과 대규모 연구개발비가 필요하므로 자금조달 상황이 회사 운영과 개발 일정에 영향을 미칩니다."
+      },
+      {
+        "factor": "시장 성장성",
+        "detail": "바이오의약품 시장의 고성장 추세는 파이프라인 상용화 시 성장 기회를 제공하지만, 경쟁 심화와 기술 재편도 병존합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 사업 영역",
+        "evidence_text": "차세대 혁신 신약을 개발하는 바이오의약품 기업으로서"
+      },
+      {
+        "field": "business_model",
+        "source_section": "재무상태 > 2) 요약손익계산서",
+        "evidence_text": "당기 매출은 46억원이며, 이 중 기술이전매출은 28억원으로 전체의 60.8%"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "[사업부문별 매출]",
+        "evidence_text": "프로젝트개발용역 | NeoImmuneTech, KGbio 외"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나. 산업의 현황 1) 산업의 특성",
+        "evidence_text": "장기투자가 필요한 산업생명공학기술은"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 6071,
+    "completion_tokens": 6417,
+    "reasoning_tokens": 5568,
+    "output_tokens": 849
+  },
+  "warnings": []
+}

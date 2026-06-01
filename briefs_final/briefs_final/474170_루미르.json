@@ -1,0 +1,76 @@
+{
+  "stock_code": "474170",
+  "corp_name": "루미르",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:46",
+  "meta": {
+    "wics": "우주항공과국방",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "루미르는 우주산업 중에서도 위성제조와 위성서비스 분야에 집중하는 기업입니다. 최근에는 독자기술로 누리호 3차 부탑재위성 Lumir-T1의 발사와 임무 수행에 성공했고, 차세대중형위성 5호의 C-Band SAR 시스템 전체를 수주하며 위성 시스템 레벨 사업자로 성장하고 있습니다.",
+    "business_model": "FY2025 사업부문별 영업수익은 우주(제품, 용역) 61.0%, 조선(제품) 39.0%로 구성되어 있습니다. 우주 부문에서는 초고해상도 초소형 SAR(Synthetic Aperture Radar, 합성개구레이더) 위성 LumirX 개발과 위성 영상 기반 서비스 확대가 핵심이며, 조선 부문에서는 솔레노이드 판매가 실적에 기여하고 있습니다. 회사는 위성 영상 획득부터 데이터 분석, 서비스 제공까지 전 과정을 내재화해 지구관측 영상/정보 서비스 사업자로 성장하는 것을 목표로 하고 있습니다.",
+    "main_customers": "우주(제품, 용역) — 국가위성 사업, 국방·안보, 재난 대응, 인프라 모니터링 관련 수요처 / 조선(제품) — 솔레노이드 구매 고객",
+    "price_factors": [
+      {
+        "factor": "정부수요",
+        "detail": "지구관측 위성은 국가안보와 국민안전을 위한 정부 수요에 기반해 경기 영향이 상대적으로 적습니다."
+      },
+      {
+        "factor": "국방수요",
+        "detail": "우크라이나 전쟁 같은 국제 분쟁이 커지면 지구관측 위성의 중요성이 높아져 수요 확대 요인으로 작용합니다."
+      },
+      {
+        "factor": "기술장벽",
+        "detail": "SAR 위성은 높은 기술 장벽이 있어 개발 난도가 높고, 관련 기업의 사업 진입과 경쟁 구도에 영향을 줍니다."
+      },
+      {
+        "factor": "비용감소",
+        "detail": "New Space 확산으로 위성 제작·발사 비용이 낮아지면 시장 규모와 영상 분석 부가가치(VAS) 수요가 함께 커질 수 있습니다."
+      },
+      {
+        "factor": "경쟁구도",
+        "detail": "MAXAR와 AIRBUS가 시장을 주도하고 있어, 고신뢰성 위성 개발 역량과 제품 경쟁력이 실적에 중요한 변수입니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "최근에는 독자기술로 누리호 3차 부탑재위성인 Lumir-T1을 민간기업 최초로 발사 및 임무를 성공적으로 수행하였고"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "우주 (제품, 용역): 6,433,918 (61.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "조선 (제품): 4,134,600 (39.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "국방·안보, 재난 대응, 인프라 모니터링 등 다양한 분야에서 확대"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성 — price_factors 참고용",
+        "evidence_text": "지구관측 위성시장은 국가안보와 국민안전을 위한 정부의 지속적인 수요"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4173,
+    "completion_tokens": 901,
+    "reasoning_tokens": 0,
+    "output_tokens": 901
+  },
+  "warnings": []
+}

@@ -1,0 +1,71 @@
+{
+  "stock_code": "008040",
+  "corp_name": "사조동아원",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 19:59",
+  "meta": {
+    "wics": "식품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "사조동아원은 제분(밀가루)과 생물자원(사료) 사업을 영위하는 식품업체로, 2017년 한국제분을 흡수합병해 제분사업을 통합하며 재무구조 개선과 경쟁력 강화의 계기를 마련했습니다. 2025년 연결 기준 매출은 약 6,743억원, 영업이익은 425억원을 시현했습니다.",
+    "business_model": "핵심 사업은 제분부문(밀가루·프리믹스·메밀·유기농 등)과 생물자원부문(사료 제조)으로 구성되며, 2025년 영업수익 구성은 제분부문 63.5%, 생물자원부문 36.5%를 차지합니다. 제분은 식품가공업체 납품, 생물자원은 축산·양식용 배합사료(가축·양식어류에 주는 혼합사료) 생산이 주된 수익원입니다.",
+    "main_customers": "제분부문 — 대기업 위주의 식품가공업체 / 생물자원부문 — 축산업·양식업자(사료 수요처)",
+    "price_factors": [
+      {
+        "factor": "원자재비",
+        "detail": "원맥·옥수수·대두박 등 주요 원재료를 수입에 의존하기 때문에 국제 곡물가격 상승 시 원가 부담이 커져 실적에 부정적 영향을 미칩니다."
+      },
+      {
+        "factor": "환율",
+        "detail": "원화 약세(달러 강세)가 지속되면 수입 원료비가 증가해 수익성이 악화될 수 있습니다."
+      },
+      {
+        "factor": "수입경쟁",
+        "detail": "수입 밀가루 및 수입 축산물의 유입이 늘면 제분·사료 관련 국내 수요와 가격에 하방 압력이 발생할 수 있습니다."
+      },
+      {
+        "factor": "가축질병",
+        "detail": "조류독감·구제역 등 가축질병 발생 시 사료 수요 변동 및 축산업 위축으로 생물자원부문 실적이 영향을 받을 수 있습니다."
+      },
+      {
+        "factor": "시장경쟁",
+        "detail": "사료시장은 농협이 약 30%의 점유율을 보유하는 등 경쟁이 치열해 영업력·품질이 실적에 중요한 변수입니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업개황",
+        "evidence_text": "제분사업부문을 통합"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "제분부문: 428,056,265 (63.5%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "산업의 특성 및 성장성",
+        "evidence_text": "제분업의 최대 수요처인 대기업 위주의 식품가공업체"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "환율변동현황",
+        "evidence_text": "원료의 대부분을 해외 수입에 의존하고 있어"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5058,
+    "completion_tokens": 3883,
+    "reasoning_tokens": 3072,
+    "output_tokens": 811
+  },
+  "warnings": []
+}

@@ -1,0 +1,67 @@
+{
+  "stock_code": "096250",
+  "corp_name": "와이즈넛",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 07:37",
+  "meta": {
+    "wics": "소프트웨어",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "와이즈넛은 2000년 설립 이후 자체 개발한 자연어처리 기술을 바탕으로 성장한 국내 AI 에이전트 전문 기업으로, 챗봇·검색 분야에서 다수의 레퍼런스를 보유하고 있습니다.",
+    "business_model": "핵심 사업은 AI 에이전트와 인공지능(챗봇/검색) 솔루션으로, 검색 소프트웨어와 챗봇은 안정적 수익원(캐시카우) 역할을 합니다. 사업부문별로는 인공지능(AI)이 17.0%, 서비스가 1.6%를 차지하며(사업부문별 매출 구성), 공공부문이 전체 매출의 약 60%를 점유해 매출 안정성이 높습니다.",
+    "main_customers": "인공지능(AI) — B2B 및 B2G(기업·공공기관) / 서비스 — 구축형 솔루션 이용 6,000여 개 고객사(장기 고객 중심)",
+    "price_factors": [
+      {
+        "factor": "AI 시장 성장",
+        "detail": "전 세계 및 국내 AI 시장의 고성장이 수요 확대를 견인해 매출 성장에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "공공부문 의존",
+        "detail": "공공부문 매출 비중 약 60%로 경기 변동에 따른 공공 예산 집행 지연이 매출에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "클라우드 수요",
+        "detail": "AI 워크로드의 클라우드 의존도 증가는 클라우드 인프라 연계 사업 기회 및 비용 구조에 영향을 미칩니다."
+      },
+      {
+        "factor": "장기고객 기반",
+        "detail": "10년 이상 장기 고객 비중이 높아(81%) 매출 안정성은 높지만, 신규 고객 확보 속도가 실적 변화에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 기업소개",
+        "evidence_text": "국내 대표 AI 에이전트 전문 기업입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "- 인공지능(AI): 5,905,982,674 (17.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "- 서비스: 542,384,280 (1.6%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "나. 주요사업",
+        "evidence_text": "당사는 B2B 및 B2G 시장을 중심으로 AI 에이전트와 인공지능(챗봇/검색) 부문을 핵심 사업 영역으로 영위하고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5373,
+    "completion_tokens": 4090,
+    "reasoning_tokens": 3392,
+    "output_tokens": 698
+  },
+  "warnings": []
+}

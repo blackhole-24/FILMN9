@@ -1,0 +1,87 @@
+{
+  "stock_code": "088340",
+  "corp_name": "유라클",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 06:45",
+  "meta": {
+    "wics": "소프트웨어",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "유라클은 기업용 AI·모바일 플랫폼을 개발·공급하는 소프트웨어 기업으로, 모바일 플랫폼 '모피어스'를 통해 대기업 등 1,000개 이상 기업의 모바일 업무환경 구축에 참여하며 시장 지위를 확보하고 있습니다. 자회사로는 모바일 기기 유통을 담당하는 에이네트웍스와 지네트웍스를 보유하고 있습니다.",
+    "business_model": "사업부문별로 플랫폼·서비스(AI·모바일) 매출이 77.5%, 모바일 기기 유통이 21.3%, 기타가 1.2%를 차지하며(사업부문별 영업수익 구성), 플랫폼·서비스 판매 후 운영·유지보수(다년 계약)를 통해 반복적 매출을 확보하는 구조입니다. 최근에는 AI 플랫폼(아테나, AURDA, 코드 어시스턴트) 고도화에 집중하며 제품과 운영 인프라를 결합한 솔루션·서비스 확장을 추진하고 있습니다.",
+    "main_customers": "플랫폼·서비스 — 기업 고객(대기업 그룹사, 금융기관 등) / 모바일 기기 유통 — 기업 고객(업무용 스마트폰·태블릿·IoT 단말기) / 기타 — 기타 고객·서비스",
+    "price_factors": [
+      {
+        "factor": "AI시장성장",
+        "detail": "국내외 AI 소프트웨어 시장의 고성장은 플랫폼·서비스 수요 확대를 통해 실적에 긍정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "온디바이스AI",
+        "detail": "생성형·온디바이스 AI 스마트폰의 확산은 모바일 플랫폼의 기능 전환 수요를 자극해 사업 기회를 확대할 수 있습니다."
+      },
+      {
+        "factor": "R&D투자비용",
+        "detail": "AI 고도화를 위한 연구개발 및 인력확대는 단기적 비용 증가(영업손실) 요인이 될 수 있습니다."
+      },
+      {
+        "factor": "기기교체주기",
+        "detail": "업무용 모바일 기기의 통상적 교체(약 2년)는 자회사 유통부문의 반복적 매출에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "당사는 AIㆍ모바일 플랫폼 전문기업으로서"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "매출액: 3,593 (77.5%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "모바일 기기 유통: 9,331 (21.3%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "나. 회사의 현황 > 모바일 플랫폼 시장",
+        "evidence_text": "다수 대기업 그룹사와 금융기관을 고객으로 확보하여"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나. 회사의 현황 > AI 플랫폼 시장",
+        "evidence_text": "한국 AI 소프트웨어 시장에 대해서는 2024년 기준 9,430억원"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나. 회사의 현황 > 모바일 플랫폼 시장",
+        "evidence_text": "생성형 AI를 적용한 차세대 AI 스마트폰이 출시되기 시작하면서"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "전폭적이고 전략적인 투자의 결과입니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "영업 현황",
+        "evidence_text": "많은 기업이 2년 주기로 교체하고 있으며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4909,
+    "completion_tokens": 4011,
+    "reasoning_tokens": 3072,
+    "output_tokens": 939
+  },
+  "warnings": []
+}

@@ -1,0 +1,72 @@
+{
+  "stock_code": "102120",
+  "corp_name": "어보브반도체",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 08:10",
+  "meta": {
+    "wics": "반도체와반도체장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "어보브반도체는 MCU(마이크로컨트롤러)와 센서, 파워 반도체를 개발·공급하는 팹리스(설계전문) 회사로, 1,000여 가지 이상의 가전·산업용 전자기기에 적용되는 제품 포트폴리오를 보유하고 있습니다. 주력은 8-bit·32-bit 가전용 MCU이며 국내를 비롯해 중국·일본, 최근 유럽·인도 시장까지 공급망을 확장하고 있습니다.",
+    "business_model": "핵심 수익원은 8-bit·32-bit MCU 제품군이며, Touch Sensor·Ambient Light Sensor 등 센서 제품과 High Voltage 소자가 적용되는 파워 반도체도 함께 공급합니다. FY2025 기준 사업부문별 영업수익은 매출액 128,808(100.0%)이며, 자체 설계 아날로그 IP 보유와 고객 대상 HW·SW 개발 지원(제품 생태계 제공), 종속회사(윈팩)를 통한 패키징·테스트(후공정) 외주 사업 등으로 밸류체인을 확장하고 있습니다.",
+    "main_customers": "MCU — 백색가전·TV·모바일 등 가전사 (삼성전자, LG전자 등 국내 일류 가전사 및 중국 Midea, XIAOMI 등) / Sensor·Driver IC — 전자제품 제조사 / PKG·TEST(후공정) — 반도체 제조사 대상(종속회사 (주)윈팩을 통한 외주사업)",
+    "price_factors": [
+      {
+        "factor": "시장성장",
+        "detail": "전세계 MCU 시장의 성장성(보고서 기준 2025→2034년 연평균 성장)이 매출 확대와 실적에 직접적인 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "주요고객",
+        "detail": "삼성·LG 등 대형 가전사와 중국·일본 업체 비중 변화는 매출 변동성에 직접 연결됩니다."
+      },
+      {
+        "factor": "IP경쟁력",
+        "detail": "자체 설계 아날로그 IP 보유는 파운드리의 기성 IP를 쓰는 경쟁사 대비 기술경쟁력을 좌우해 제품 수주에 영향을 줍니다."
+      },
+      {
+        "factor": "제품생태계",
+        "detail": "MCU는 HW·SW 연계 지원이 필요한 제품이므로 에코시스템(개발환경·도구) 제공 능력이 수주와 고객유지에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "당사는 1,000여가지 이상의 다양한 가전용 전자기기 및 산업용 전자가기 등에 적용되는 MCU 제품을 공급하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "당사의 주력 사업은 가전용 전자기기에 사용되는 8-bit, 32-bit MCU이며 국내 및 중국, 일본 시장 그리고 최근 유럽 및 인도 등의 시장을 개척하고 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 주요 제품 매출액",
+        "evidence_text": "당사는 삼성전자, LG전자 등 국내 일류 가전사들을 비롯하여 중국의 Midea, XIAOMI 및 일본, 유럽, 미국의 유수한 업체에 제품을 공급하며,"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나. 환경 관련 규제 사항",
+        "evidence_text": "당사는 국제규격의 환경경영시스템인증 ISO14001을 취득 및 운영하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "매출액: 128,808 (100.0%)"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4141,
+    "completion_tokens": 3895,
+    "reasoning_tokens": 2944,
+    "output_tokens": 951
+  },
+  "warnings": []
+}

@@ -1,0 +1,87 @@
+{
+  "stock_code": "065500",
+  "corp_name": "오리엔트정공",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 04:31",
+  "meta": {
+    "wics": "자동차부품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "오리엔트정공은 1987년 설립된 자동차 부품 전문 제조업체로, 변속기·엔진 관련 알루미늄 가공 및 조립부품을 주로 생산합니다. 국내 완성차업체인 현대자동차·기아자동차의 협력업체로서 자동화 설비와 나노복합소재 관련 기술을 강점으로 보유하고 있습니다.",
+    "business_model": "핵심은 자동차 부품사업으로, 알루미늄 가공·조립부품과 주철·고무·플라스틱·프레스 부품의 조립 생산을 수행합니다. 사업부문별 FY2025 영업수익 구성은 자동차사업부(오리엔트정공) 15.9%, 플라스틱사출(오리엔트플라스틱) 1.1%, 자동차사업부(오리엔트신소재) 1.2%로 표기되어 있으며(사업부별 매출 구성), 품질·가격경쟁력·자동화 설비로 신차종 부품개발에 참여하고 있습니다.",
+    "main_customers": "자동차사업부(오리엔트정공) — 현대자동차·기아자동차 협력업체 / 플라스틱사출(오리엔트플라스틱) — 완성차업체 및 모듈 납품처",
+    "price_factors": [
+      {
+        "factor": "경기민감성",
+        "detail": "자동차 수요가 경기 변동에 민감해 경기 하강 시 판매량과 매출에 직접적 영향을 받습니다."
+      },
+      {
+        "factor": "원재료가격",
+        "detail": "원재료 가격 변동은 제품 원가와 가격에 영향을 주어 마진 변동 요인이 됩니다."
+      },
+      {
+        "factor": "가격경쟁",
+        "detail": "완성차사 발주 시 경쟁입찰이 일반화되어 납품가격과 수주 확보에 따른 실적 변동성이 있습니다."
+      },
+      {
+        "factor": "노사 이슈",
+        "detail": "완성차 관련 파업 등 생산 차질은 판매량과 매출 감소로 연결될 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "1987년 6월 25일에 설립"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "현대자동차, 기아자동차 협력업체"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "자동차사업부(오리엔트정공): 24,981,620 (15.9%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "플라스틱사출(오리엔트플라스틱): 1,693,992 (1.1%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "자동차사업부(오리엔트신소재): 1,964,370 (1.2%)"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황 (2) 주요 가격변동원인",
+        "evidence_text": "원재료 가격 변동"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황 (라) 경쟁요소",
+        "evidence_text": "가격경쟁 입찰"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황 (다) 경기변동의 특성",
+        "evidence_text": "자동차 수요는 경기 변동과 밀접한 관계"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3600,
+    "completion_tokens": 4951,
+    "reasoning_tokens": 3968,
+    "output_tokens": 983
+  },
+  "warnings": []
+}

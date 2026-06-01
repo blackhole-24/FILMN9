@@ -1,0 +1,67 @@
+{
+  "stock_code": "060560",
+  "corp_name": "HC홈센타",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 04:01",
+  "meta": {
+    "wics": "건축자재",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "HC홈센타는 사업지주회사(다른 회사의 주식을 소유해 지배하는 회사)로 건축자재 도소매와 레저스포츠·근린생활시설 운영·임대업을 영위합니다. 종속회사는 레미콘·골재·아스콘 제조, 유류도매, 물류운송 및 아파트건설업 등을 영위하고 있어 사업 포트폴리오가 건설자재 공급과 레저 운영을 축으로 구성되어 있습니다.",
+    "business_model": "FY2025 기준 사업부문별 영업수익은 건축자재 도소매 31.9%, 레저 20.1%, 비금융지주업 48.0%로 구성되어 있습니다. 핵심 수익원은 건축자재 판매(타일·위생도기 등)와 레저시설 운영, 그리고 비금융지주업(금융업을 영위하지 않는 지주회사)을 통한 자회사 관리이며, 연결실체의 레미콘(혼합 콘크리트)·아스콘 제조 및 유류도매업이 실적을 뒷받침합니다.",
+    "main_customers": "건축자재 도소매 — 건축현장·건설업체(납품 대상) / 레저 — 스위밍풀·헬스클럽·온천 이용 일반 고객 / 비금융지주업 — 자회사·계열사(지배·관리 대상)",
+    "price_factors": [
+      {
+        "factor": "건설경기",
+        "detail": "건설·건축 투자 축소 시 건축자재 수요가 줄어 실적에 직접 영향이 발생합니다."
+      },
+      {
+        "factor": "원자재가격",
+        "detail": "골재·레미콘·아스콘 등 원재료 가격 변동은 제조원가와 마진에 즉각적 영향을 줍니다."
+      },
+      {
+        "factor": "레저수요",
+        "detail": "웰빙 트렌드 및 소비자 여가 활동 변화에 따라 스파·헬스클럽 등 레저 부문 실적이 변동합니다."
+      },
+      {
+        "factor": "지주회사 규제",
+        "detail": "공정거래법상 지주회사 관련 규제는 계열사 소유·운영 범위에 제한을 주어 전략적 선택에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 사업지주회사로서 타일, 위생도기, 위생금구 등을  판매하는 건축자재 도소매업"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "- 건축자재 도소매: 6,732,306 (31.9%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "- 레저: 4,233,141 (20.1%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "- 비금융지주업: 10,119,593 (48.0%)"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4367,
+    "completion_tokens": 5024,
+    "reasoning_tokens": 4224,
+    "output_tokens": 800
+  },
+  "warnings": []
+}

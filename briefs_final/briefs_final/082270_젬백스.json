@@ -1,0 +1,67 @@
+{
+  "stock_code": "082270",
+  "corp_name": "젬백스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 06:14",
+  "meta": {
+    "wics": "반도체와반도체장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "젬백스는 반도체·디스플레이용 Chemical Air Filter 제조를 중심으로 하는 환경오염제어 사업과 펩타이드 기반 신약 연구개발을 병행하는 기업입니다. 반도체·디스플레이 공정용 핵심 필터를 국산화해 공급하는 한편, GV1001 등 신경퇴행성 질환 중심의 임상개발을 진행하고 있습니다.",
+    "business_model": "주요 수익은 환경오염제어사업(환경용 필터 및 관련 장비)이 주를 이루며, FY2025 사업부문별 영업수익은 환경오염제어사업 82.7%, Filter media 2.9%, 제품 0.0%, 상품외 0.0%, 바이오사업 14.1%로 구성되어 있습니다. 환경오염제어사업은 반도체·디스플레이 제조 공정의 고청정 요구를 충족하는 주문제작형 Chemical Air Filter 판매(교체 수요 포함)를 통해 안정적 매출을 창출하고, 바이오사업은 GV1001을 중심으로 국내외 임상 진행을 통해 가치 제고를 도모하고 있습니다.",
+    "main_customers": "환경오염제어사업 — 글로벌 반도체·디스플레이 제조사 및 클린룸·장비 운영자 / 바이오사업 — 국내외 임상시험 수행 기관 및 공동 연구기관",
+    "price_factors": [
+      {
+        "factor": "반도체 투자",
+        "detail": "전방 산업인 반도체·디스플레이의 설비투자 규모 변동이 신규 생산라인 수요에 직접 영향합니다."
+      },
+      {
+        "factor": "교체수요",
+        "detail": "Chemical Air Filter는 소모성 제품으로 교체 수요가 지속되어 매출의 안정성을 일정 부분 뒷받침합니다."
+      },
+      {
+        "factor": "기술고도화",
+        "detail": "공정 미세화로 고성능·복합 기능 필터 수요가 확대되면 제품 경쟁력과 마진에 긍정적 영향을 줍니다."
+      },
+      {
+        "factor": "계약구조",
+        "detail": "주문제작·연간 공급단가 계약 특성으로 인해 체결 단가와 장기계약 여부가 매출에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용",
+        "evidence_text": "환경오염제어 사업부문과 신약 연구개발을 수행하는 바이오사업부문으로 구분되어 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "환경오염제어사업: 67,407 (82.7%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "글로벌 반도체 및 디스플레이 제조사에 공급하고 있는"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "Chemical Air Filter는 일정 기간 사용 후 교체가 필요한 소모성 제품으로서"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4724,
+    "completion_tokens": 3414,
+    "reasoning_tokens": 2624,
+    "output_tokens": 790
+  },
+  "warnings": []
+}

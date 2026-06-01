@@ -1,0 +1,67 @@
+{
+  "stock_code": "047560",
+  "corp_name": "이스트소프트",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 02:22",
+  "meta": {
+    "wics": "소프트웨어",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "이스트소프트는 AI·SW 중심의 IT 서비스 기업으로, AI 플랫폼과 유틸리티·보안 소프트웨어, 포털·커머스·게임 사업을 연결된 사업부문으로 운영하고 있습니다. 페르소에이아이(Perso AI), 초거대언어모델 앨런(Alan), 알툴즈·알약, 줌닷컴, 라운즈 등 다양한 서비스를 통해 서비스형 소프트웨어(SaaS)와 플랫폼 비즈니스를 전개하고 있습니다.",
+    "business_model": "핵심 수익은 서비스형 매출 중심으로 구성되어 있으며 FY2025 기준 서비스매출이 92.9%, 상품매출이 7.1%를 차지합니다. 사업부문별로는 AI·SW(페르소에이아이, 앨런, 온디바이스·피지컬 AI), 포털(줌닷컴·콘텐츠 플랫폼), 커머스(라운즈의 안경 가상피팅), 유틸리티·보안SW(알툴즈·알약), 게임 사업 등이 주요 축입니다.",
+    "main_customers": "AI·SW — 관광·금융·공공 등 산업별 기업·기관 / 포털 — 줌닷컴·앱을 이용하는 일반 사용자 및 콘텐츠 제작자 / 커머스 — 안경 구매 소비자(O2O 이용자) / 유틸리티·보안SW — 개인·기업 소프트웨어 사용자 / 게임 — MMORPG 이용자(게임 유저)",
+    "price_factors": [
+      {
+        "factor": "생성형 AI 성장",
+        "detail": "생성형 AI 시장 확대는 Perso AI 등 AI 서비스 수요 증가로 실적에 긍정적 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "AI 인프라 비용",
+        "detail": "고성능 GPU 등 AI 하드웨어와 인프라 구축 비용 증가가 영업비용 확대와 수익성에 부담을 줄 수 있습니다."
+      },
+      {
+        "factor": "글로벌 현지화 수요",
+        "detail": "해외 이용자 비중이 높은 SaaS 모델의 현지화(다국어·음성 옵션 등)는 매출 확장과 동시에 운영·마케팅 비용을 동반할 수 있습니다."
+      },
+      {
+        "factor": "포털 경쟁력",
+        "detail": "AI 기반 검색 품질과 사용자 경험이 포털(줌닷컴) 이용률과 광고·리워드 생태계 매출에 직접적인 영향을 미칠 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 AI, SW 분야에서 글로벌 경쟁력을 갖춘 다양한 서비스를 제공하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "AI 더빙 및 AI 아바타를 활용한 영상 생성 기능을 지원하는 글로벌 AI SaaS 플랫폼 '페르소에이아이(Perso AI)'"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "서비스매출: 99,234 (92.9%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "- 관광, 금융, 공공 등 산업별 맞춤형 AI 비서/가이드 제공-"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5769,
+    "completion_tokens": 3585,
+    "reasoning_tokens": 2752,
+    "output_tokens": 833
+  },
+  "warnings": []
+}

@@ -1,0 +1,76 @@
+{
+  "stock_code": "042500",
+  "corp_name": "링네트",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 01:40",
+  "meta": {
+    "wics": "IT서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "링네트는 클라우드·보안·지능형 네트워크·데이터센터를 통합하는 '지능형 ICT 플랫폼 서비스'를 제공하는 IT 서비스 기업입니다. Cisco와의 전략적 파트너십을 기반으로 AX(AI Transformation) 시대의 인프라·보안 통합 솔루션을 제공하는 것을 회사 핵심 역량으로 삼고 있습니다.",
+    "business_model": "핵심은 클라우드, 보안, 지능형 네트워크, 데이터센터를 하나의 유기적 아키텍처로 통합하는 '지능형 ICT 플랫폼 서비스'이며, AI·대규모 워크로드용 GPU 인프라 및 멀티·하이브리드 클라우드 설계, 통합 관제 서비스를 통해 수익을 창출합니다. FY2025 사업부문별 영업수익 구성은 아이티센씨티에스 22.5%, 에스넷시스템 19.5%, 인성정보 8.3%, 오픈베이스 7.8%, 정원엔시스 11.7%, 아이티센엔텍 19.1%, 링네트 11.0%로 보고되어 있습니다.",
+    "main_customers": "클라우드·AI 인프라 — 엔터프라이즈·금융·공공기관 / 보안 플랫폼 — 금융·공공·기업 고객 / 지능형 네트워크 통합(NI) — 교육기관·국방·공공·기업",
+    "price_factors": [
+      {
+        "factor": "AI수요",
+        "detail": "생성형 AI와 대규모 워크로드 확대는 GPU·HPC·저지연 네트워크 수요를 늘려 관련 인프라 서비스 매출에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "공공·국방수주",
+        "detail": "정부의 클라우드 네이티브 전환 가이드라인과 군 차세대망 사업 참여는 수주 규모와 매출 변동성에 큰 영향을 줍니다."
+      },
+      {
+        "factor": "보안규제",
+        "detail": "ISMS-P·공공 컴플라이언스 등 보안 규제가 강화되면 통합 보안 플랫폼 수요가 증가하여 실적에 긍정적 영향을 미칩니다."
+      },
+      {
+        "factor": "파트너의존",
+        "detail": "Cisco·국내 CSP 등 주요 기술 파트너와의 협력 강도는 제품·서비스 경쟁력과 수익성에 직접 연결됩니다."
+      },
+      {
+        "factor": "지정학 리스크",
+        "detail": "글로벌 기술 규제와 지정학적 불확실성은 공급망 및 해외 사업 전개에 제약을 가져와 실적 변동성을 키울 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "1) 사업의 현황",
+        "evidence_text": "'지능형 ICT 플랫폼 서비스' 체계를 확립하였습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "링네트: 160,769 (11.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "나. 전략적 핵심 경쟁력: Cisco AX Alliance 및 Security Platform",
+        "evidence_text": "'AX Alliance'를 주도하고 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "1) 클라우드 및 AI 인프라 사업",
+        "evidence_text": "엔터프라이즈, 금융, 공공기관의 성공적인 AI 도입"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "AI 산업이 핵심 성장 동력으로 부상"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5645,
+    "completion_tokens": 3671,
+    "reasoning_tokens": 2752,
+    "output_tokens": 919
+  },
+  "warnings": []
+}

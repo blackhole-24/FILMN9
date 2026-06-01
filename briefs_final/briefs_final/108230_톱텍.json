@@ -1,0 +1,62 @@
+{
+  "stock_code": "108230",
+  "corp_name": "톱텍",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 08:33",
+  "meta": {
+    "wics": "디스플레이장비및부품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "톱텍은 당사 및 연결종속회사가 FA사업과 제품판매 관련 사업을 주로 영위하는 기계·장비업체로, 디스플레이장비및부품 섹터에 속해 있습니다. FA(공장자동화)와 제품판매를 중심으로 제조업 전반의 자동화 솔루션을 제공하고 있습니다.",
+    "business_model": "주요 사업은 FA부문과 제품판매부문으로 구성되며, FY2025 기준 영업수익에서 FA가 91.4%로 압도적 비중을 차지하고, 제품판매가 5.7%, 공사 0.1%, 기타 2.8%를 차지합니다(FA 중심의 수익구조). FA부문은 이차전지·디스플레이·스마트팩토리 수요를 배경으로 성장성을 확보하고 있습니다.",
+    "main_customers": "FA — 이차전지·디스플레이 제조업체 및 스마트팩토리 도입 기업 / 제품판매 — 산업용 설비를 구매하는 제조업체 및 산업 고객",
+    "price_factors": [
+      {
+        "factor": "원자재 가격",
+        "detail": "리튬·니켈 등 주요 원자재 가격 변동은 이차전지 관련 수요와 제조투자에 영향을 주어 실적 변동성으로 연결됩니다."
+      },
+      {
+        "factor": "패널 과잉공급",
+        "detail": "디스플레이 패널의 공급 과잉과 가격 경쟁 심화는 디스플레이 장비 수요와 장비가격에 하방 압력을 줄 수 있습니다."
+      },
+      {
+        "factor": "스마트팩토리 투자",
+        "detail": "스마트팩토리 도입 확대는 FA 수요 증가로 이어져 매출 성장에 긍정적 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "기술 경쟁",
+        "detail": "차세대 디스플레이·배터리 및 자동화 기술 경쟁 심화는 장비업체의 기술 개발·투자 비용과 수주 확보에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "당사 및 연결종속회사는 FA사업과 제품판매관련사업 등을 주된 사업으로 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "FA: 156,293 (91.4%)"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 영업의 현황 (1) FA부문",
+        "evidence_text": "리튬·니켈 등 주요 원자재 가격 변동성"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 2870,
+    "completion_tokens": 2921,
+    "reasoning_tokens": 2240,
+    "output_tokens": 681
+  },
+  "warnings": []
+}

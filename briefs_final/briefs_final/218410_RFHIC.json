@@ -1,0 +1,67 @@
+{
+  "stock_code": "218410",
+  "corp_name": "RFHIC",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 12:31",
+  "meta": {
+    "wics": "통신장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "RFHIC은 질화갈륨(GaN) 계열 화합물 반도체를 개발·생산하는 전문기업으로, 무선 통신·방위산업·RF 에너지 분야용 GaN 트랜지스터·전력증폭기·Microwave Generator를 주력으로 합니다. 당사는 GaN 트랜지스터를 자체 설계·시험하고 국내에서 유일하게 대량 생산할 수 있는 기술과 설비를 보유하고 있는 것이 특징입니다.",
+    "business_model": "2025년 매출 구성은 GaN 전력증폭기 71.7%, GaN 트랜지스터 23.7%, GaAs MMIC 0.3%, 상품 4.1%, 기타 0.2%로 제품 중심의 매출 구조입니다. 핵심 수익원은 효율이 높고 소형화가 가능한 GaN 전력증폭기 및 이를 활용한 Microwave Generator이며, 통신용(기지국·Open-RAN 등)과 방위·RF 에너지용 제품 수주·납품이 주요 사업활동입니다.",
+    "main_customers": "무선 통신 — 통신 서비스 사업자, 기지국 장비 업체 및 Open-RAN 진입 통신사업자 / 방위산업 — 레이더·전자전 장비 제조사(군·방위 사업체) / RF 에너지 — 반도체 공정장비·의료기기·가속기·플라즈마 장비 제조사 / 위성통신 — 위성 제조사 및 정부 주도 프로젝트 발주처 / GaAs MMIC — CATV·광대역 응용업체",
+    "price_factors": [
+      {
+        "factor": "이동통신 상용화",
+        "detail": "5G·6G 등 차세대 이동통신의 상용화 시점이 앞당겨지거나 투자 확대되면 통신용 GaN 전력증폭기 수요가 증가합니다."
+      },
+      {
+        "factor": "방위 레이더 수요",
+        "detail": "중장거리 정밀타격 및 스텔스 대응을 위한 레이더·전자전 장비 개발이 늘면 방위용 GaN 제품 수요가 확대됩니다."
+      },
+      {
+        "factor": "RF 에너지 확대",
+        "detail": "반도체 공정장비·의료기기 등에서 반도체 기반 Microwave Generator 수요가 증가하면 관련 매출에 긍정적 영향을 줍니다."
+      },
+      {
+        "factor": "위성 투자정책",
+        "detail": "위성통신 분야의 정부·민간 투자 증가와 소형화 요구는 위성용 GaN 전력증폭기 수요 변동에 직접적 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "화합물 반도체 전문기업인 알에프에이치아이씨 주식회사는 무선 통신, 방위 산업 및 RF 에너지 분야에서 활용되는 질화갈륨(Gallium Nitride, 이하 GaN) 반도체를 개발 및 생산하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "당사의 주요 제품은 GaN 트랜지스터, GaN 전력증폭기 그리고  Microwave Generator 입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "국내에서 유일하게 대량으로 생산할 수 있는 기술과 설비를 보유하고 있다는 것입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[표] 당사의 매출실적은 다음과 같습니다.",
+        "evidence_text": "합계 | 185,804 | 114,876 | 111,433 |"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5329,
+    "completion_tokens": 3688,
+    "reasoning_tokens": 2752,
+    "output_tokens": 936
+  },
+  "warnings": []
+}

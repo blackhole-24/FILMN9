@@ -1,0 +1,67 @@
+{
+  "stock_code": "140520",
+  "corp_name": "대창스틸",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 13:10",
+  "meta": {
+    "wics": "철강",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "대창스틸은 1980년 6월 창업한 철강 유통·가공 전문기업으로, (주)포스코의 냉연강판을 전ㆍ절단 가공해 자동차·가전·건자재 등 산업 전반에 공급하는 Steel Service Center(SSC, 철강서비스센터) 역할을 해왔습니다. 이중바닥재 제조·시공, 알루미늄 사업부 편입(합병) 및 부동산 개발·임대 사업을 함께 영위하고 있습니다.",
+    "business_model": "핵심은 포스코 등으로부터 공급받는 강판을 슬리팅·시어링 등으로 가공해 판매하는 철강사업(유통·가공), 이중바닥재의 제조·시공, 알루미늄 유통·판매 및 부동산(지식산업센터·오피스텔 등) 개발·임대입니다. 사업부문별 매출 구성은 원문에 기재된 대로 15%, 22%, 16%, 9%, 10%, 26%, 2%로 제시되어 있습니다.",
+    "main_customers": "철강사업 — 자동차·가전·건자재·산업기기 등 다양한 산업수요자 / 이중바닥재부문 — 건설사(인텔리전트빌딩·오피스빌딩·병원·공공기관 등) / 알루미늄사업부 — 외주생산 및 유통판매를 통한 유통·납품 고객 / 부동산사업부문 — 지식산업센터·오피스텔 구매자 및 임차인",
+    "price_factors": [
+      {
+        "factor": "철강가격",
+        "detail": "국내 철강 공시가격 변동은 원재료 매입단가에 직접 영향을 주어 실적 변동성으로 연결됩니다."
+      },
+      {
+        "factor": "원재료 의존",
+        "detail": "포스코로부터의 매입 비중이 매우 높아(원문 근거 참조) 공급처 가격·공급계약 변화에 민감합니다."
+      },
+      {
+        "factor": "건설경기",
+        "detail": "건설 경기 침체 시 이중바닥재 수요 감소로 매출과 수익성에 부정적 영향을 받을 수 있습니다."
+      },
+      {
+        "factor": "중국산 저가",
+        "detail": "중국산 저가 철강재·OA FLOOR의 유입 확대는 가격경쟁과 수익성 압박 요인이 됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "당사는 1980년도 6월 10일에 창업하여 현재에 이르기까지"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "15%, 22%, 16%, 9%, 10%, 26%, 2%"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 제품 설명 및 구체적 용도",
+        "evidence_text": "자동차, 산업기기, 건자재 등 모든 산업분야에 공급"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "(3) 경기변동의 특성",
+        "evidence_text": "국내 철강가격은 (주)포스코의 철강 공시가격에 따라 변동됩니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4938,
+    "completion_tokens": 5070,
+    "reasoning_tokens": 4224,
+    "output_tokens": 846
+  },
+  "warnings": []
+}

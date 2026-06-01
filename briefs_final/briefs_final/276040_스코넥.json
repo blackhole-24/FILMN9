@@ -1,0 +1,71 @@
+{
+  "stock_code": "276040",
+  "corp_name": "스코넥",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 14:43",
+  "meta": {
+    "wics": "소프트웨어",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "스코넥은 2002년 설립된 게임 개발사 출신의 XR(확장현실) 전문 기업으로, 콘솔·아케이드 경험을 바탕으로 2010년대 이후 VR·MR 콘텐츠와 XR 교육·훈련 사업으로 전환·확장하였습니다. 대공간 XR 워킹시스템 등 핵심기술을 보유하고 있으며, 국제표준 등재 등을 통해 기술 경쟁력을 확보해 해외 진출을 추진하고 있습니다.",
+    "business_model": "주요 수익원은 메타버스XR 사업으로 FY2025에서 메타버스XR 사업이 82.9%를 차지하며, 세부적으로 메타버스XR 게임사업 9.7%, 메타버스 미래사업 14.3%, 면세 쇼핑 중개 사업 7.4%로 구성되어 있습니다. 매출은 프로젝트별 계약금액이 상이한 제품매출·용역매출 비중이 크기 때문에 가격변동 추이와의 연관성은 낮습니다.",
+    "main_customers": "메타버스XR 게임사업 — 북미·유럽·일본 등 글로벌 VR/MR 플랫폼 이용자 / XR 교육·훈련 사업 — 국방·치안 등 공공기관 및 관련 기관 / 면세 쇼핑 중개 사업 — 면세 관련 사업자 및 이용자(신규 사업분야)",
+    "price_factors": [
+      {
+        "factor": "정부지원",
+        "detail": "과기정통부의 메타버스 산업 지원(플랫폼 개발·인력양성 등)이 수주·개발 기회 확대를 통해 실적에 긍정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "법·규제(유리)",
+        "detail": "가상융합산업 진흥법 등 제도화는 산업 저변 확대와 규제 명확성으로 사업 안정성에 기여할 수 있습니다."
+      },
+      {
+        "factor": "기술표준화",
+        "detail": "XR 워킹시스템의 국내·국제 표준 등재는 해외 진출과 공공(국방·치안) 수주 경쟁력에 중요한 영향요인입니다."
+      },
+      {
+        "factor": "프로젝트 매출구조",
+        "detail": "주요 매출이 프로젝트·용역 기반이라 계약 건수·수주 증가가 실적 변동성을 좌우합니다."
+      },
+      {
+        "factor": "기술개발투자",
+        "detail": "메타버스 핵심기술 및 디바이스 개발 투자가 지속되면 중장기 경쟁력 강화와 비용 부담이 동시에 발생할 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 회사 개요",
+        "evidence_text": "2015년 세계 최초 VR FPS게임인 모탈블리츠VR을 상용화"
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "메타버스XR 사업: 5,604 (82.9%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 회사 개요",
+        "evidence_text": "XR 교육ㆍ훈련 사업은 국방 분야를 중심으로 확장할 계획입니다."
+      },
+      {
+        "field": "company_overview",
+        "source_section": "가. 회사 개요",
+        "evidence_text": "2024년 2월 미국 전기전자공학자협회의 국제표준(IEEE P2888.4)으로 등재되었습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 6106,
+    "completion_tokens": 4691,
+    "reasoning_tokens": 3840,
+    "output_tokens": 851
+  },
+  "warnings": []
+}

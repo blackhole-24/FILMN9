@@ -1,0 +1,67 @@
+{
+  "stock_code": "012210",
+  "corp_name": "삼미금속",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 20:58",
+  "meta": {
+    "wics": "기계",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "삼미금속은 1977년 설립된 금속 형단조(금형을 이용한 단조) 전문기업으로, 국내에서 가장 큰 해머를 보유하고 있습니다. 상용차용 프론트 액슬·스티어링 너클 등 자동차 부품을 포함해 중장비·선박엔진·발전설비용 중대형 단조품을 주로 생산하며, 특히 지난 40여년간 현대차 상용차에 부품을 공급해왔습니다.",
+    "business_model": "회사는 형단조(금형을 이용해 특정 형상을 만드는 단조) 방식으로 프론트 액슬, 스티어링 너클, 크랭크 샤프트 등 중소형 금속단조품을 생산합니다. 사업부문별로는 제품 44.7%, 중장비부품 22.6%, 선박엔진부품 16.6%, 방산부품 4.2%, 상품 5.2%, 기타 3.2% 등으로 매출이 구성되어 있어 자동차·중장비·조선·방산 등 복수의 전방산업에 노출되어 있습니다.",
+    "main_customers": "제품 — 상용차 제조사(현대차 등) / 중장비부품 — 건설·중장비 제조사 / 선박엔진부품 — 선박·엔진 제조사 / 방산부품 — 방위산업체 / 상품·기타 — 기타 산업체",
+    "price_factors": [
+      {
+        "factor": "전방산업 경기",
+        "detail": "자동차·건설·조선 등 전방산업이 둔화되면 단조품 수요가 직접 감소해 실적에 악영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "금형기술",
+        "detail": "금형의 설계·제작능력이 기술적 진입장벽이자 제품 생산의 핵심이므로 경쟁력 유무가 실적에 영향합니다."
+      },
+      {
+        "factor": "설비투자",
+        "detail": "단조는 초기 설비투자비용이 크므로 설비 가동률과 투자 상태가 수익성에 직결됩니다."
+      },
+      {
+        "factor": "환율",
+        "detail": "환율 변동은 수익성에 영향(예: 환율상승으로 수익성 개선 사례가 있음)으로 실적 변동 요인이 됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 1977년 설립된 국내에서 가장 큰 해머를 보유한 금속 형단조 전문회사입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "제 품: 32,964 (44.7%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사가 생산하는 단조품은 국내외 상용차, 중장비, 선박엔진, 발전설비 등에 사용됩니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "설비 구비를 위한 초기투자비용이 많습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4939,
+    "completion_tokens": 4465,
+    "reasoning_tokens": 3648,
+    "output_tokens": 817
+  },
+  "warnings": []
+}

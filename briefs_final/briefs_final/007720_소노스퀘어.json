@@ -1,0 +1,69 @@
+{
+  "stock_code": "007720",
+  "corp_name": "소노스퀘어",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 19:54",
+  "meta": {
+    "wics": "판매업체",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "소노스퀘어는 MRO사업, 유통사업, 렌탈사업을 주요 사업으로 영위하는 기업으로, 1972년에 종합건설업체로 출발해 이후 사업구조를 재편하며 도소매·렌탈 등으로 확장해왔습니다. 연결기준으로 당기는 매출은 162,871백만원을 기록했습니다.",
+    "business_model": "핵심 사업은 호텔·리조트 등을 대상으로 소모성 자재를 공급하는 MRO사업(MRO: 기업용 소모성자재 구매)으로, 기업 고객 대상의 B2B(기업간 거래) 구조로 운영됩니다. 유통사업은 자사 브랜드 GOOD&GOODS로 리조트 내 쇼핑 매장을 운영하고 디지털 광고 서비스를 병행하며, 렌탈사업은 매트리스를 중심으로 한 리빙 제품을 온·오프라인 채널을 통해 제공합니다.",
+    "main_customers": "MRO사업 — 호텔·리조트 등 호스피탈리티 산업의 기업 고객 (B2B) / 유통사업 — 리조트 내 쇼핑 매장 이용 고객 및 디지털 광고주 / 렌탈사업 — 개인 소비자(온·오프라인)",
+    "price_factors": [
+      {
+        "factor": "관광숙박업 회복",
+        "detail": "관광숙박업 매출이 회복·성장하면 호텔·리조트 대상 MRO 및 리조트 유통 수요가 함께 증가해 실적에 영향을 미칩니다."
+      },
+      {
+        "factor": "B2B 전자상거래 확산",
+        "detail": "전사적 전자화(EDI·인트라넷·엑스트라넷) 확대로 구매효율성이 커지면 MRO 유통 경쟁구도와 수요 구조에 영향을 줍니다."
+      },
+      {
+        "factor": "공급사슬·원가관리",
+        "detail": "기업들의 원가절감 요구와 공급사슬관리 강화는 MRO 사업에서의 구매조건과 마진에 직접적 영향을 미칩니다."
+      },
+      {
+        "factor": "리조트 소비 트렌드",
+        "detail": "호캉스·웰니스 등 고급 숙박 수요 이동은 리조트 내 유통 매출과 렌탈 제품 수요에 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "당사는 1972년에 설립된 종합건설업체로 출발하여"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "기업 고객 대상의 B2B 구조로 운영되고 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "리조트 내 쇼핑 매장을 운영하며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황 > 나. 사업의 현황 1) 도소매업",
+        "evidence_text": "2023년에는 7.4조 원으로 2년 만에 약 2.5배 성장"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4682,
+    "completion_tokens": 4313,
+    "reasoning_tokens": 3520,
+    "output_tokens": 793
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

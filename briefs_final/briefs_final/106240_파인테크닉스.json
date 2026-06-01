@@ -1,0 +1,97 @@
+{
+  "stock_code": "106240",
+  "corp_name": "파인테크닉스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 08:30",
+  "meta": {
+    "wics": "디스플레이장비및부품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "파인테크닉스는 LED조명 기기를 설계·제조하는 기업으로 실내·실외용 조명과 방폭조명 등 전 품목을 생산·판매하고 있습니다. 경기도 안양에 본점 및 제조시설을 두고 있으며 해외법인과 글로벌 네트워크를 확보해 B2G·B2B·B2C 및 해외시장을 대상으로 사업을 영위하고 있습니다.",
+    "business_model": "주요 매출은 제품매출 기반의 LED조명 사업이며, 사업부문별 매출 비중은 실내용 52.10%, 실외용 30.94%, 기타(전기공사 등) 16.96%로 구성됩니다. 기술적으로는 방열설계·광학설계·기구설계를 원천으로 한 제조역량과 자동에이징 등 양산설비를 바탕으로 B2G(공공조달), B2B(산업·플랜트·건설) 및 B2C('파인홈즈' 브랜드) 채널을 통해 수익을 창출하고 있습니다.",
+    "main_customers": "실내용 — B2B(산업·건설사)·세대(유통·소비자) / 실외용 — B2G(지자체·국가기관)·B2B(석유화학·플랜트·조선) / 기타 — 전기공사 등 업자",
+    "price_factors": [
+      {
+        "factor": "시장성장 둔화",
+        "detail": "보급률 상승에 따른 LED 시장 성장 속도 둔화는 매출 확대 여력에 제약을 줄 수 있습니다."
+      },
+      {
+        "factor": "스마트조명 수요",
+        "detail": "IoT·통신제어·AI 확산에 따른 스마트·융복합 조명 수요 확대는 고부가 제품 판매에 긍정적 영향을 미칩니다."
+      },
+      {
+        "factor": "중국산 경쟁",
+        "detail": "중국산 제품 점유율 확대는 가격 경쟁을 심화시켜 수익성에 압박을 줄 수 있습니다."
+      },
+      {
+        "factor": "정부조달·인프라",
+        "detail": "정부의 인프라 투자·조달 예산 집행 확대는 B2G 수주 및 매출 회복에 영향을 미칠 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "당사는 LED조명사업을 주요사업으로 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[표] (1) 주요 제품 등의 현황",
+        "evidence_text": "LED조명(안양) 실내용 22,340(52.10)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[표] (1) 주요 제품 등의 현황",
+        "evidence_text": "실외용 13,264(30.94)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[표] (1) 주요 제품 등의 현황",
+        "evidence_text": "기타 7,272(16.96)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "(1) 영업개황",
+        "evidence_text": "B2G 공공시장"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "(1) 영업개황",
+        "evidence_text": "B2B 민수시장"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "B2G, B2B 그리고 '파인홈즈'를 브랜드로 하는 B2C 시장"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "중국산 제품의 점유율이 확대되는 추세"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "스마트조명 보급이 확대되고"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "전체 전력수요의 약 15% 이상을 차지하는 조명"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4621,
+    "completion_tokens": 5284,
+    "reasoning_tokens": 4224,
+    "output_tokens": 1060
+  },
+  "warnings": []
+}

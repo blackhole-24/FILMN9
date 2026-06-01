@@ -1,0 +1,72 @@
+{
+  "stock_code": "065150",
+  "corp_name": "대산F&B",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 04:26",
+  "meta": {
+    "wics": "식품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "대산F&B는 육가공(돈육 가공·판매)을 주력으로 하는 식품 유통기업으로, 합병을 통해 축산물 가공·판매 사업을 확대한 회사입니다. 대전 지역을 중심으로 거래처 기반을 확보하고 있으며, 매년 약 20만두 규모의 도축을 기반으로 영업활동을 수행하고 있습니다.",
+    "business_model": "사업부문별 매출은 유통거래처가 86.3%, 소매거래처가 10.1%, 기타거래처가 3.6%로 유통 거래처 중심의 수익 구조를 보이고 있습니다(유통거래처: 95,659 (86.3%), 소매거래처: 11,198 (10.1%), 기타거래처: 3,971 (3.6%)). 원료육을 농가와 직접계약으로 확보하고 다수 도축장에 위탁해 가공(소비자에 판매)하는 구조이며, HACCP·무항생제·한돈 BI 등 인증으로 안전성·신뢰성을 강조하고 있습니다.",
+    "main_customers": "유통거래처 — 도매·유통업체 / 소매거래처 — 소매업체(점포) / 기타거래처 — 기타 거래처(법인·사업체)",
+    "price_factors": [
+      {
+        "factor": "거래처 집중",
+        "detail": "매출의 대부분(86.3%)이 유통거래처에 편중되어 있어 주요 거래처 변화가 실적에 직접적 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "원료육 조달",
+        "detail": "농가와의 직접계약 및 도축장 위탁 의존도가 원료 조달 안정성과 원가 구조에 영향을 줍니다."
+      },
+      {
+        "factor": "안전·인증 리스크",
+        "detail": "HACCP·무항생제·한돈 BI 등 인증은 소비자 신뢰와 판매에 긍정적이나 인증 유지 실패 시 부정적 영향이 발생할 수 있습니다."
+      },
+      {
+        "factor": "지역 집중성",
+        "detail": "대전 지역을 중심으로 한 영업 기반은 지역 수요 변동이 실적에 미치는 영향력을 키웁니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "대전 지역 일대의 거래처를 통해 시장 점유율을 확보 하고 있었으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "유통거래처: 95,659 (86.3%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "소매거래처: 11,198 (10.1%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "이를 기반으로 하여 주요 거래처 등과 신뢰 기반의 거래 관계를 유지 하고 있습니다."
+      },
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "매년 20만두 규모의 도축을 진행하고 있으며,"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 2924,
+    "completion_tokens": 3320,
+    "reasoning_tokens": 2496,
+    "output_tokens": 824
+  },
+  "warnings": []
+}

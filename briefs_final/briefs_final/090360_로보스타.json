@@ -1,0 +1,76 @@
+{
+  "stock_code": "090360",
+  "corp_name": "로보스타",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:14",
+  "meta": {
+    "wics": "기계",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "로보스타는 제조시설 투자를 대상으로 하는 수주사업을 영위하는 기계·장비 기업으로, 연결대상 종속회사 ROBOSTAR(SHANGHAI) CO., LTD.와 함께 제조용 로봇과 공정·물류장비를 생산·판매하고 있습니다. 디스플레이와 자동차뿐 아니라 2차전지, 반도체 산업용 제품 비중을 넓히며 특정 산업 투자환경에 따른 위험을 줄이려는 포트폴리오를 구축하고 있습니다.",
+    "business_model": "핵심 사업은 Robot 사업과 System Engineering 사업으로 나뉘며, 2025년 매출 기준 Robot 사업이 53.17%, System Engineering 사업이 30.25%, 기타(A/S) 등 기타 매출이 16.58%를 차지합니다. Robot 사업은 직각좌표 로봇과 AGV(무인운반차) 등을 중심으로 하고, System Engineering 사업은 공정 장비와 물류장비를 공급하는 구조입니다. 또한 유지보수 성격의 기타(A/S) 매출도 일정 비중을 차지해 제품 판매와 사후 서비스가 함께 수익 구조를 이루고 있습니다.",
+    "main_customers": "Robot 사업 — 제조시설 투자 기업, 디스플레이·자동차·2차전지·반도체 산업 고객 / System Engineering 사업 — 공정장비·물류장비 수요 기업, 반도체·OLED·LCD·2차전지 관련 고객 / 기타(A/S) — 기존 장비 도입 고객",
+    "price_factors": [
+      {
+        "factor": "설비투자",
+        "detail": "주 사업이 제조시설 투자 대상 수주사업이라 전방산업의 설비투자 확대나 축소가 매출에 직접 영향을 줍니다."
+      },
+      {
+        "factor": "산업다변화",
+        "detail": "디스플레이·자동차 외 2차전지와 반도체 비중이 늘수록 특정 산업 투자 위축에 따른 실적 변동성이 줄어듭니다."
+      },
+      {
+        "factor": "로봇수요",
+        "detail": "국내 제조업용 로봇 수요가 증가하면 Robot 사업과 관련 장비 매출 확대에 유리하게 작용할 수 있습니다."
+      },
+      {
+        "factor": "물류자동화",
+        "detail": "OLED, LCD, 2차전지 분야의 물류장비 수요가 늘면 클린 물류 및 산업용 물류 사업의 성장 여지가 커집니다."
+      },
+      {
+        "factor": "실적개선",
+        "detail": "원가구조 재정비, 품질 강화, R&D(연구개발) 로드맵 추진이 수익성 개선과 중장기 경쟁력에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사가 영위하는 주 사업은 제조시설의 투자를 대상으로 하는 수주사업"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "Robot 사업 | 직각좌표 로봇/ AGV 외 | 40,269(53.17)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "System Engineering 사업 | 공정 장비/ 물류장비 외 | 22,907(30.25)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "디스플레이, 자동차 산업 외 2차 전지 및 반도체 산업용 제품"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "전방산업의 투자 환경에 따라 매출액의 영향을 받으나"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4594,
+    "completion_tokens": 945,
+    "reasoning_tokens": 0,
+    "output_tokens": 945
+  },
+  "warnings": []
+}

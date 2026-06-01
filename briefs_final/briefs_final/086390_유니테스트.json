@@ -1,0 +1,87 @@
+{
+  "stock_code": "086390",
+  "corp_name": "유니테스트",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 06:35",
+  "meta": {
+    "wics": "반도체와반도체장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "유니테스트는 2000년에 설립된 반도체 검사장비 개발·판매업체로, 메모리용 테스터 등 후공정 검사장비를 주력으로 합니다. 2009년부터는 태양광 EPC(설계·조달·시공) 사업을 신규사업으로 시작하여 발전시공 매출도 보유하고 있으며, 2025년 연결 기준 매출은 1,102억원입니다.",
+    "business_model": "핵심은 반도체 검사장비 판매로, 연결 매출의 74.29%(81,862,867천원)가 반도체 검사장비에서 발생하고 메모리 컴포넌트·모듈테스터, 고속 번인테스터, 스토리지(SSD) 테스터 등이 주요 제품입니다. 태양광 EPC(설치·시공) 사업이 22.35%(24,624,954천원)를 차지하고, 상품·프로그램·보수 등 기타 항목이 소폭의 매출을 구성합니다.",
+    "main_customers": "반도체 검사장비 — 메모리·패키징 공정의 반도체 제조사 및 패키징업체 / 태양광 EPC — 정부 및 민자사업 발주처(공공·민자 EPC 입찰 참여) / 소모성 상품·보수 — 장비 유지보수 및 소모부품 수요처",
+    "price_factors": [
+      {
+        "factor": "R&D·인력",
+        "detail": "지속적 R&D 투자와 우수 인력 확보 여부가 장비 개발 속도와 수주 경쟁력에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "수주 변동성",
+        "detail": "장비가 주문생산 방식인 만큼 수주 상황에 따라 분기별·연도별 매출 변동폭이 크게 나타납니다."
+      },
+      {
+        "factor": "부품 조달·환율",
+        "detail": "장비 핵심 부품을 해외에서 조달하는 비중이 높아 환율 변동이 원가와 마진에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "반도체 수요 사이클",
+        "detail": "자율주행, 5G, AI 등 최종 수요 확대가 반도체 투자(설비)로 이어지면 장비 수요 증가로 연결될 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 2000년도에 설립되어"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "2009년부터는 태양광사업을 신규사업으로 시작하였습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "81,862,867(74.29%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "24,624,954(22.35%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "정부와 민자사업의 EPC(설계, 조달, 시공 일괄 수주)사업 입찰에 참여"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "(5) 경쟁상황",
+        "evidence_text": "지속적인 R&D 투자 및 우수 인력 확보는"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 주요 제품 등의 현황",
+        "evidence_text": "반도체 검사장비 제품은 수주상황에 따라 연도별·분기별 매출 편차가 크게 나타나는 특징이 있습니다."
+      },
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "2025년 당사는 연결기준으로 매출 1,102억원"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5265,
+    "completion_tokens": 5417,
+    "reasoning_tokens": 4416,
+    "output_tokens": 1001
+  },
+  "warnings": []
+}

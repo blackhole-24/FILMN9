@@ -1,0 +1,67 @@
+{
+  "stock_code": "020710",
+  "corp_name": "시공테크",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 22:33",
+  "meta": {
+    "wics": "호텔,레스토랑,레저",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "시공테크는 1988년 창업한 전시·문화·인테리어 전문기업으로, 박물관·과학관·전시관·테마파크 등 전시문화시설의 기획·설계·제작·설치와 특수영상 제작을 주요 사업으로 영위하고 있습니다. 연결기준 매출은 약 1,684억원(전기 대비 14% 증가)이며, 창립 이후 무차입경영의 건전한 재무상태를 유지해 왔습니다.",
+    "business_model": "핵심은 전시물과 전시시설·인테리어의 제작·설치(제품부문)와 전시·인테리어 설계(용역부문)로, 제품부문이 매출의 약 98.6%를 차지하고 용역부문이 약 1.4%를 차지합니다. 기획·설계·제작·설치와 영상제작 등 전 과정(설계→제작→설치)이 수익의 기반을 이루고 있습니다.",
+    "main_customers": "제품부문(전시물/전시시설/인테리어) — 국공립 박물관·과학관·테마파크·지방자치단체 / 용역부문(설계) — 공공기관·지방자치단체 및 정책 기반 전시사업 주체",
+    "price_factors": [
+      {
+        "factor": "공공투자·정책",
+        "detail": "국가·지방자치단체 주도의 전시사업이 많아 공공 예산·정책 변화가 실적에 직접 영향"
+      },
+      {
+        "factor": "기술·콘텐츠 경쟁력",
+        "detail": "영상·시스템·디자인 등 기술·창의력 투자가 부족하면 경쟁력 약화로 수주에 영향"
+      },
+      {
+        "factor": "지방 개발 수요",
+        "detail": "지방자치단체의 지역문화개발 및 혁신도시 등 프로젝트 확대 시 수혜 가능성"
+      },
+      {
+        "factor": "환율·해외수주",
+        "detail": "해외 매출 비중과 외화자산 노출로 인해 환율 변동이 원화 실적에 영향"
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 사업의 개요",
+        "evidence_text": "당기 연결기준 매출액은 약 1,684억을 시현하였으며, 이는 전기 대비 14% 증가한 금액입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 매출 (원문 테이블)",
+        "evidence_text": "166,024(98.6%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 업계의 현황 (3) 경기변동의 특성",
+        "evidence_text": "주로 정부나 지방자치단체 또는 정부투자기관 등의 공공부문의 주도성이 큽니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 업계의 현황 (4) 경쟁요소",
+        "evidence_text": "전시문화산업은 ... 지식 집약적 성격을 갖습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5131,
+    "completion_tokens": 4444,
+    "reasoning_tokens": 3648,
+    "output_tokens": 796
+  },
+  "warnings": []
+}

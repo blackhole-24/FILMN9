@@ -1,0 +1,77 @@
+{
+  "stock_code": "011300",
+  "corp_name": "우성머티리얼스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 20:46",
+  "meta": {
+    "wics": "섬유,의류,신발,호화품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "우성머티리얼스는 폴리에스터 직물 제조와 도매를 주력으로 하는 섬유기업으로, 직수출 중심의 사업구조를 가지고 있습니다. 2025년 연결재무제표 기준 매출액은 247억원이며, 수출 비중이 매우 높은 수출주도형 기업입니다.",
+    "business_model": "주력은 폴리에스터 F직물제조로 전체 매출의 62.1%를 차지하며, 도매업(원단·염료 등)이 약 34.4%, 부동산 임대업이 약 3.5%를 차지합니다. 매출의 대부분이 수출(직수출 포함)으로 발생하고, 주요 제품은 의류용 및 커텐·침대커버 등 비의류용으로 판매됩니다.",
+    "main_customers": "폴리에스터 F직물제조 — 의류 제조업체 및 커텐·침구류 등 비의류 제조업체 / 도매업 — 직물제조 업체(원단·염료 등 구매처) / 부동산업 — 오피스텔 임차인(임대 이용자)",
+    "price_factors": [
+      {
+        "factor": "환율 변동",
+        "detail": "수출 비중이 높아 원·달러 환율 변동은 매출 원화 환산액과 가격 경쟁력에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "원자재가격",
+        "detail": "원사 등 수입 원자재 가격 상승은 제품 원가를 끌어올려 수익성에 부담을 줄 수 있습니다."
+      },
+      {
+        "factor": "저가 경쟁",
+        "detail": "중국·베트남 등 개발도상국의 저임금 기반 저가물량 공세는 가격 경쟁을 심화시켜 마진 압박으로 연결됩니다."
+      },
+      {
+        "factor": "글로벌 수요",
+        "detail": "유럽·중동 등 주요 수출시장 섬유 경기 침체는 수요 감소로 매출에 부정적 영향을 미칠 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "산출기준",
+        "evidence_text": "수출이 전체 매출액의 95%이상을 차지하고 내수는 수출시 발생되는 부수적인 매출이므로"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "2025년 연결재무제표 기준으로 매출액은 247억원"
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. 주요 제품등의 현황",
+        "evidence_text": "폴리에스터 F직물제조 ... 15,333(62.1%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. 주요 제품등의 현황",
+        "evidence_text": "도매업 ... 8,509(34.4%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 주요 제품등의 현황",
+        "evidence_text": "의류, 비의류(커텐,침대카바)등의  제조"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "주요 가격변동원인",
+        "evidence_text": "제품 수입국의 경기 상황과 환율변동이 가장 큰 가격 변동원인으로 작용하며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4315,
+    "completion_tokens": 2831,
+    "reasoning_tokens": 1984,
+    "output_tokens": 847
+  },
+  "warnings": []
+}

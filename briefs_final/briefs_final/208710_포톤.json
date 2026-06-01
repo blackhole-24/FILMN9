@@ -1,0 +1,67 @@
+{
+  "stock_code": "208710",
+  "corp_name": "포톤",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 11:58",
+  "meta": {
+    "wics": "핸드셋",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "포톤은 스마트폰 카메라용 FPCB Assy(플렉서블 인쇄회로기판 조립품)를 제조·공급하는 전기·전자(핸드셋) 기업입니다. 주요 고객은 휴대폰 카메라의 Actuator(구동부) 제조사이며, 매출이 카메라 모듈 관련 제품에 집중되어 있습니다.",
+    "business_model": "핵심 제품은 AF/OIS FPCB Assy와 F/Z FPCB Assy이며, FY2025 기준 매출에서 AF/OIS FPCB Assy가 45.9%, F/Z FPCB Assy가 45.8%로 대부분을 차지합니다. 이 외에 권선코일(5.1%), ISM(3.1%), 기타(0.2%)가 있으며, OIS(광학식 손떨림 방지)와 F/Z(폴디드 줌) 제품의 확대 적용이 수익 구조에 중요한 변수입니다.",
+    "main_customers": "AF/OIS FPCB Assy — 국내 대기업의 1차 벤더인 Actuator 제조업체 / F/Z FPCB Assy — 국내 대기업의 1차 벤더인 Actuator 제조업체 / ISM — 명시된 바 없음 / 권선코일 — 명시된 바 없음",
+    "price_factors": [
+      {
+        "factor": "스마트폰 수요",
+        "detail": "스마트폰 출하량과 폼팩터(폴더블·프리미엄) 변화에 따라 카메라 모듈 수요가 변동되어 실적에 직접 영향합니다."
+      },
+      {
+        "factor": "OIS/FZ 확산",
+        "detail": "OIS와 F/Z 기능의 중저가·중가 모델 확산은 AF/OIS·F/Z FPCB Assy 수요 확대를 견인합니다."
+      },
+      {
+        "factor": "메모리 공급",
+        "detail": "모바일용 메모리 공급 차질과 가격 상승은 스마트폰 판가를 올려 중저가 수요에 타격을 주고, 결과적으로 고객사 수요에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "시장 성장성",
+        "detail": "카메라 모듈 시장의 완만한 성장(연평균 약 4%대)은 장기적으로 수요 기반을 지지합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "당사는 스마트폰 카메라 모듈 부품인 FPCB Assy의 제조 및 공급을 주요 사업으로 하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황",
+        "evidence_text": "본 보고서 기준 2025년 당기매출 비중은 AF/OIS FPCB Assy 약 45.86%, F/Z FPCB Assy 45.77%, 권선코일 약 5.12%, ISM SMT 약 3.06% 입니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "주요 제품은 휴대폰용 카메라의 Actuator에 탑재되는 AF/OIS, F/Z FPCB Assy 로 국내 대기업의 1차 벤더인 Actuator 제조업체에 판매하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "업계의 현황 (1) 산업의 연혁 및 특성",
+        "evidence_text": "OIS(광학식 손떨림 방지) 기능은 현재 중저가 스마트폰 시장으로까지 확대 적용되어 있으며, F/Z(Folded Zoom)은 현재 플래그쉽 스마트폰에만 적용되고 있으나, 중화권 스마트폰 메이커를 중심으로 중가 모델로까지 적용이 확대되고 있는 추세입니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4382,
+    "completion_tokens": 3410,
+    "reasoning_tokens": 2496,
+    "output_tokens": 914
+  },
+  "warnings": []
+}

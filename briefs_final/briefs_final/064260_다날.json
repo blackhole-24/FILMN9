@@ -1,0 +1,71 @@
+{
+  "stock_code": "064260",
+  "corp_name": "다날",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 04:16",
+  "meta": {
+    "wics": "IT서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "다날은 전자지급결제(Payment Gate) 중심의 IT 서비스 기업으로, 휴대폰결제 등 간편결제 서비스를 주요 사업으로 운영하고 있습니다. 커머스(결제), 디지털콘텐츠, 프랜차이즈 등 다각적 사업을 영위하며 휴대폰결제 분야에서 국내 점유율 1위를 차지하고 있습니다.",
+    "business_model": "핵심은 전자지급결제(휴대폰결제·신용카드·계좌이체 등)를 제공하는 커머스 부문이며, 디지털콘텐츠(음원 제작·유통·라이선스)와 프랜차이즈(카페 '달콤' 운영)로 수익을 다각화하고 있습니다. 사업부문별 영업수익 구성(FY2025) 중 디지털콘텐츠부문은 21,306원(9.4%), 프랜차이즈부문은 9,971원(4.4%)를 차지하며, 커머스(전자지급결제)는 회사의 주력 수익원으로 설명되고 있습니다.",
+    "main_customers": "커머스 — 온라인 쇼핑몰·콘텐츠 공급자(가맹점) / 디지털콘텐츠 — 음원 플랫폼·콘텐츠 유통 채널 및 최종 소비자 / 프랜차이즈 — 카페 이용 일반 소비자(주로 MZ세대)",
+    "price_factors": [
+      {
+        "factor": "정책·규제",
+        "detail": "휴대폰결제 한도 상향 및 결제 가능 연령 하향(자료상의 규정 변경)은 거래금액 및 이용자 기반 확대를 통해 실적에 영향할 수 있습니다."
+      },
+      {
+        "factor": "이커머스 성장",
+        "detail": "온라인·모바일 쇼핑의 지속적 성장(모바일 쇼핑 비중이 큼)은 전자지급결제 서비스의 거래 규모 확대를 유도합니다."
+      },
+      {
+        "factor": "모바일 보급",
+        "detail": "높은 스마트폰 보급률과 모바일 사용 증가는 휴대폰결제 등 간편결제 이용 증가로 실적에 긍정적 영향을 미칩니다."
+      },
+      {
+        "factor": "계절성",
+        "detail": "여름·겨울 방학 기간 중 디지털콘텐츠(게임·음원 등) 매출이 증가하는 계절적 패턴이 실적 변동에 반영됩니다."
+      },
+      {
+        "factor": "경쟁요소",
+        "detail": "결제시스템 구축 기술력·운영 노하우·재무건전성 등의 진입장벽은 신규 경쟁 진입을 제한해 기존 사업자의 안정성에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황 [커머스]",
+        "evidence_text": "국내 점유율 1위인 휴대폰 결제서비스"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "디지털콘텐츠부문: 21,306 (9.4%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "프랜차이즈부문: 9,971 (4.4%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황 [커머스] > 산업의 특성",
+        "evidence_text": "온라인 쇼핑몰, 콘텐츠 공급자 등"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4209,
+    "completion_tokens": 3030,
+    "reasoning_tokens": 2176,
+    "output_tokens": 854
+  },
+  "warnings": []
+}

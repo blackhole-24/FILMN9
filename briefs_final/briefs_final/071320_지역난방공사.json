@@ -1,0 +1,72 @@
+{
+  "stock_code": "071320",
+  "corp_name": "지역난방공사",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 11:50",
+  "meta": {
+    "wics": "복합유틸리티",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "한국지역난방공사는 집단에너지 공급을 통해 에너지 절약과 환경개선에 기여하기 위해 집단에너지사업법에 의거하여 1985년 11월에 설립되었습니다. 전국 19개 사업장에서 약 1,910천호의 공동주택과 3,005개소의 건물에 냉·난방을 공급하고, 발전설비 총 2,982MW를 보유한 공기업입니다.",
+    "business_model": "핵심 사업은 집단에너지사업(지역냉·난방), 전기사업(구역전기 포함, 전력시장·지역내 직접판매), 신·재생에너지사업으로 구성되어 있으며 주요 제품은 열·냉수·전기입니다. 연결기준 매출은 열 44.19%, 냉수 0.68%, 전기 53.48%의 비중으로 전기 매출이 과반을 차지하고 있습니다.",
+    "main_customers": "집단에너지사업 — 주거 밀집지역·상업지역의 다수 고객 / 전기사업 — 전력시장 및 지역난방 공급지역의 고객 / 신·재생에너지사업 — 지역난방 및 전력시장에 열·전기 공급 대상",
+    "price_factors": [
+      {
+        "factor": "연료단가",
+        "detail": "연료단가 변동은 매출원가와 영업이익에 직접 영향(실제 연료단가 감소로 영업이익 증가 기록)."
+      },
+      {
+        "factor": "판매량(수요)",
+        "detail": "열·전기 판매량 증감은 매출과 영업이익에 직결되며, 최근 열·전기 판매량이 상승함에 따라 매출 증가가 관찰됨."
+      },
+      {
+        "factor": "친환경 정책",
+        "detail": "친환경·저탄소 에너지 확대(신·재생 설비 투자)는 사업 확장 및 장기 수요에 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "미활용에너지 활용",
+        "detail": "산업공정 폐열·쓰레기 소각열 등 미활용에너지의 활용 확대는 비용절감·공급원 다변화에 기여합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 영업 현황",
+        "evidence_text": "1985년 11월에 설립되었습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 영업 현황",
+        "evidence_text": "각각의 매출비중은 열 44.19%, 냉수 0.68%, 전기 53.48%입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 2. 주요 제품 및 서비스",
+        "evidence_text": "당사의 주요 제품은 열, 냉수, 전기입니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "7-2. 사업의 개요(산업분석) > 집단에너지사업 부문",
+        "evidence_text": "주거 밀집지역, 상업지역 등의 다수의고객에게 일괄적으로 공급하는 사업을 말합니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "연료단가 감소 등으로 영업이익은 전년 대비 61.51% 증가한 5,296억을 기록하였습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4459,
+    "completion_tokens": 4834,
+    "reasoning_tokens": 3968,
+    "output_tokens": 866
+  },
+  "warnings": []
+}

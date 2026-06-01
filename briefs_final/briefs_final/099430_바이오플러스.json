@@ -1,0 +1,72 @@
+{
+  "stock_code": "099430",
+  "corp_name": "바이오플러스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 07:49",
+  "meta": {
+    "wics": "건강관리장비와용품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "바이오플러스는 2003년 5월 설립되어 히알루론산(HA) 기반의 더말 필러를 중심으로 유착방지제, 관절·방광용 조직수복제 등 바이오 의료기기와 바이오 코스메틱·바이오의약품 연구개발 및 제조·판매를 영위하고 있습니다. 자체 MDM 기술 등 플랫폼을 바탕으로 의료기기와 코스메틱을 병행하며 사업을 확장해왔습니다.",
+    "business_model": "사업부문별 FY2025 영업수익 구성은 HA 필러 55.6%, 메디컬 디바이스 12.6%, 기타(코스메틱 등) 6.0%, 상품 25.7%, 용역 0.1%로 HA 필러가 핵심 수익원입니다. 판매는 파트너사를 통한 국내외 유통과 최근 강화한 직접 영업조직을 병행하는 방식으로 이루어집니다.",
+    "main_customers": "HA 필러 — 글로벌 미용성형 시장 / 메디컬 디바이스 — 치료재료 시장 및 의료기기 수요처 / 기타(코스메틱 등) — 국내외 유통망을 통한 소비자 및 유통 채널 / 상품 — 국내외 유통·수출입 파트너사 / 용역 — 제조·개발 관련 수요처",
+    "price_factors": [
+      {
+        "factor": "필러 의존도",
+        "detail": "매출에서 HA 필러 비중이 높아(55.6%) 글로벌 미용성형 수요 변동이 실적에 직접 영향"
+      },
+      {
+        "factor": "규제(인허가)",
+        "detail": "히알루론산 기반 제품은 고위험 등급(4등급) 의료기기로 인허가와 규제 이슈가 실적·출시에 영향"
+      },
+      {
+        "factor": "글로벌 진출",
+        "detail": "중국·미국 등 대형 시장 진출과 현지 생산(하이난 법인 등) 성과에 따라 해외매출 성장성이 좌우"
+      },
+      {
+        "factor": "제품경쟁력",
+        "detail": "제품 품질과 합리적 가격 전략으로 얻는 이익률과 시장점유율 변화가 실적에 직결"
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "히알루론산(HA)을 주재료로 하는 의료기기"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "HA 필러: 50,588 (55.6%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "(3) 국내외 시장여건",
+        "evidence_text": "글로벌 미용성형 시장과 밀접하게 연관되어 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "영업 현황",
+        "evidence_text": "중국 하이난(海南)에 해외법인을 설립하여"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "(4) 경쟁 상황",
+        "evidence_text": "4등급 의료기기로 분류됩니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4852,
+    "completion_tokens": 5659,
+    "reasoning_tokens": 4864,
+    "output_tokens": 795
+  },
+  "warnings": []
+}

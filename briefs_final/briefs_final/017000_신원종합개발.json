@@ -1,0 +1,66 @@
+{
+  "stock_code": "017000",
+  "corp_name": "신원종합개발",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 21:58",
+  "meta": {
+    "wics": "건설",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "신원종합개발은 건설업을 영위하는 기업으로 주로 건축·토목 중심의 공사를 수행합니다. 2025년 공사수익과 전체 매출이 감소했으나 원가관리로 이익을 방어하는 등 수익성 중심의 사업운영을 유지하고 있습니다.",
+    "business_model": "주요 사업부문은 건축(78.8%), 토목(20.2%), 기타(0.9%)로 구성되며, 공사수익이 핵심 수익원입니다. 회사는 철저한 원가관리와 수익성 중심의 사업운영을 통해 포트폴리오를 관리하고 있으며 민간·관급·플랜트 공사를 중심으로 수주 기반을 유지하고 있습니다.",
+    "main_customers": "건축 — 민간·관급 / 토목 — 관급·플랜트",
+    "price_factors": [
+      {
+        "factor": "금리·자본",
+        "detail": "고금리 및 자본 가용성 제한은 공사비 조달비용을 높여 실적과 현금흐름에 부정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "정부정책",
+        "detail": "주택·SOC(사회간접자본) 관련 정부정책 변화는 수주 수요를 직접 좌우하여 실적 변동성을 키웁니다."
+      },
+      {
+        "factor": "원자재수급",
+        "detail": "자재가격 상승이나 수급 불안정은 공사비 상승으로 수익성 악화로 이어질 수 있습니다."
+      },
+      {
+        "factor": "관급수주",
+        "detail": "관급(공공) 수주 비중 확대는 수주 안정성 제고로 실적 방어에 도움을 줄 수 있습니다."
+      },
+      {
+        "factor": "해외정세",
+        "detail": "중동 등 국제 분쟁은 원유·자재 가격 변동을 초래해 공사비와 실적에 부정적 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "나. 영업부문별 실적",
+        "evidence_text": "당기 공사수익은 전년대비 14.63% 감소한 209,316백만원이며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "건축: 166,522 (78.8%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "당사는 국내 민간/관급/플랜트공사를 중심으로 안정적 수주 기반을 유지하고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4382,
+    "completion_tokens": 3553,
+    "reasoning_tokens": 2880,
+    "output_tokens": 673
+  },
+  "warnings": []
+}

@@ -1,0 +1,64 @@
+{
+  "stock_code": "041190",
+  "corp_name": "우리기술투자",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 01:27",
+  "meta": {
+    "wics": "창업투자",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "우리기술투자는 금융(창업투자) 섹터에 속한 신기술금융·벤처투자 활동을 영위하는 회사입니다. 2025년 말 연결기준 자산총계는 9,409억원, 연결당기순이익은 1,105억원을 기록했고 부채비율은 21%로 안정적 재무구조를 유지하고 있습니다.",
+    "business_model": "주요 활동은 신기술사업자에 대한 지분투자·융자, 경영·기술지도 및 신기술사업투자조합의 설립·자금운용 등 신기술사업금융업(벤처투자) 성격의 자금운용입니다. 사업보고서상 주요 사업부문은 '조달'로 표기되어 있으며, 투자자산의 평가익·회수에 기반해 수익을 창출합니다.",
+    "main_customers": "조달 — 신기술사업자(투자대상) / 투자조합 운용 — 신기술사업투자조합(자금운용 대상)",
+    "price_factors": [
+      {
+        "factor": "시장 변동성",
+        "detail": "2025년처럼 주요국 통화정책 전환과 지정학적 리스크로 시장 변동성이 확대되면 투자자산 평가와 실적 변동성이 커집니다."
+      },
+      {
+        "factor": "금리·환율",
+        "detail": "금리·환율 변동성은 자금조달 비용과 자산평가에 영향을 미쳐 실적에 직접적인 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "산업 수요",
+        "detail": "반도체 업황 회복·AI 수요 확대 등 특정 산업의 회복은 해당 분야에 투자한 자산의 가치 상승으로 연결될 수 있습니다."
+      },
+      {
+        "factor": "투자자산 평가",
+        "detail": "신기술금융자산의 평가익·평가손실 변화가 영업수익과 당기순이익에 큰 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "나. 회사의 현황 > (가) 영업개황",
+        "evidence_text": "연결당기순이익은 1,105억원을 기록하였으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. 업계의 현황",
+        "evidence_text": "신기술사업자에 대한 투자ㆍ융자, 경영 및 기술의 지도"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 업계의 현황",
+        "evidence_text": "신기술사업자에 대한 투자"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4434,
+    "completion_tokens": 5076,
+    "reasoning_tokens": 4416,
+    "output_tokens": 660
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

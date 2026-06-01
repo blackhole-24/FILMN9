@@ -1,0 +1,67 @@
+{
+  "stock_code": "060720",
+  "corp_name": "KH바텍",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 04:03",
+  "meta": {
+    "wics": "핸드셋",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "KH바텍은 다이캐스팅·CNC 등 금속부품 가공 기술을 활용해 주로 스마트폰·노트북·태블릿 등 휴대용 IT 디바이스의 내외장 부품을 제조하는 기업입니다. 최근에는 자동차 부품사업을 추가해 내연기관부터 전기차·하이브리드 등 친환경 차량용 부품까지 사업 영역을 확장하고 있습니다. 사업장으로는 KH바텍, KHV(혜주), KHV(하노이), KHV(타이응웬), KHV(인도)가 존재합니다.",
+    "business_model": "사업부문별로 조립모듈이 핵심 수익원으로 FY2025 기준 매출의 59.8%를 차지하며, 알루미늄 캐스팅(16.0%), 기타(18.3%), 자동차 부품(6.0%) 순으로 구성됩니다. 주요 제품은 폴더블 힌지, IDC 기술 기반 외장케이스, Bracket 등으로, EMS(전자제품 위탁생산)와 친환경 칙소몰딩(Thixomolding) 등 다양한 금속 가공 기술을 적용해 원가 경쟁력과 제품 확장을 추진하고 있습니다.",
+    "main_customers": "정밀기구사업부문 — 스마트폰·태블릿 등 휴대용 IT 디바이스 제조업체 및 EMS 고객 / 자동차부품사업 — 완성차 업체(내연기관 및 친환경 차량 제조업체) / 기타(네트워크·ATM·로봇) — 통신장비·금융기관·로봇·장비 제조업체",
+    "price_factors": [
+      {
+        "factor": "경기 민감성",
+        "detail": "스마트폰 수요는 소비심리에 민감해 경기 침체 시 최종 수요 감소로 실적에 부정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "프리미엄 수요",
+        "detail": "폴더블·프리미엄 스마트폰 확산은 힌지 등 정밀 부품 수요 확대에 긍정적 영향을 미칩니다."
+      },
+      {
+        "factor": "환율 변동",
+        "detail": "글로벌 고객사와 거래하는 구조로 USD·CNY·INR·VND 등 통화 변동이 매출·원가에 직간접적 영향을 미칩니다."
+      },
+      {
+        "factor": "기술 고도화",
+        "detail": "초경박·초소형화·고신뢰성 등 고도화된 가공 기술 확보 여부가 경쟁력과 수주에 직접적인 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "주로 스마트폰, 노트북, 태블릿 등 주요 휴대용 IT 디바이스"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "조립모듈: 2,539 (59.8%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "내연기관 ~ 친환경 자동차의 내부에 탑재되는 디스플레이 브라켓"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "주로 연관된 통화는 USD(미국),CNY(중국),INR(인도),VND(베트남)가 해당됩니다"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4774,
+    "completion_tokens": 4456,
+    "reasoning_tokens": 3584,
+    "output_tokens": 872
+  },
+  "warnings": []
+}

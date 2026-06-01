@@ -1,0 +1,72 @@
+{
+  "stock_code": "020760",
+  "corp_name": "일진디스플",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 22:33",
+  "meta": {
+    "wics": "디스플레이패널",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "일진디스플레이는 터치스크린패널을 공급하는 전기·전자 계열의 기업으로, 연결대상 종속기업으로 ILJIN DISPALY VINA CO., LTD를 보유하고 있습니다. 공시상 보고 가능한 영업부문은 DS사업부(구 '터치사업부')와 AD사업부(구 '사파이어사업부')로 구분되며, AD사업부는 생산중단으로 중단영업(생산중단으로 손익이 별도 표시된 항목)으로 처리되어 있습니다.",
+    "business_model": "매출은 DS사업부(구 '터치사업부')의 Touch Screen Panel(터치스크린 패널)에서 발생하며, 제공된 사업부문별 매출표에 따르면 DS사업부가 전체 매출의 100%를 차지합니다. AD사업부(구 '사파이어사업부')는 생산중단으로 중단영업으로 분류되어 매출에서 제외되어 있습니다.",
+    "main_customers": "DS사업부 — 자동차전장/PC/휴대폰 등 (터치스크린 패널 수요처)",
+    "price_factors": [
+      {
+        "factor": "스마트폰 수요",
+        "detail": "글로벌 스마트폰 출하량의 역성장은 터치스크린 패널 수요 감소로 이어져 실적에 부정적 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "환율·원자재",
+        "detail": "국내 시장 가격은 환율변동 및 원자재 가격 변동에 따라 영향을 받아 매출 단가와 이익률에 영향이 있습니다."
+      },
+      {
+        "factor": "5G 도입",
+        "detail": "5G 상용화가 확대되면 2025년 이후 교체수요로 물량과 가격이 개선될 가능성이 있어 실적에 긍정적 요인이 될 수 있습니다."
+      },
+      {
+        "factor": "지역별 흐름",
+        "detail": "중국·미국의 출하량 역성장과 인도의 성장 등 지역별 수요 차이는 매출 구성과 실적 변동성의 원인이 됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "1. 회사의 현황 1). 영업개황",
+        "evidence_text": "터치스크린패널을 공급하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[표] 1. 주요제품 등의 현황",
+        "evidence_text": "DS사업부 (구 '터치사업부')"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[표] 1. 주요제품 등의 현황",
+        "evidence_text": "합계 57,847"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "[표] 1. 주요제품 등의 현황",
+        "evidence_text": "자동차전장/PC/ 휴대폰 등"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "스마트폰 출하량은 2025년까지 역성장이 불가피한 상황입니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4424,
+    "completion_tokens": 3454,
+    "reasoning_tokens": 2688,
+    "output_tokens": 766
+  },
+  "warnings": []
+}

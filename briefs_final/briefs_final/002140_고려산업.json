@@ -1,0 +1,67 @@
+{
+  "stock_code": "002140",
+  "corp_name": "고려산업",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 17:47",
+  "meta": {
+    "wics": "식품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "고려산업은 1957년 설립된 전통 사료업체로 1991년 유가증권시장에 상장되어 금강공업(주) 계열에 속해 있습니다. 가축용 배합사료의 제조·판매를 주력으로 하며 창녕·대구 등 생산공장을 보유하고 있습니다.",
+    "business_model": "주력은 가축용 배합사료 생산·판매이며, 2025회계연도 기준 사료부문이 전체 매출의 93.9%를 차지합니다. 안정적 판로확보를 위해 식육사업(기타부문)과 건물임대, 종속기업을 통한 농산물수탁판매 등도 병행하고 있습니다.",
+    "main_customers": "사료부문 — 가축 사육 농가·축산업체 / 식육(기타) — 육가공업체·축산물 유통업체 / 임대 — 빌딩 임차인",
+    "price_factors": [
+      {
+        "factor": "원재료가격",
+        "detail": "옥수수·대두박 등 국제 곡물가격 변동은 판매가격과 원가에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "환율",
+        "detail": "원재료 대부분을 수입에 의존하기 때문에 환율 변동은 원가와 수익성에 큰 영향을 줍니다."
+      },
+      {
+        "factor": "수요(경기)",
+        "detail": "축산물 소비와 사육 두수는 경기·국민소득 변화에 따라 배합사료 수요가 증감합니다."
+      },
+      {
+        "factor": "서비스경쟁",
+        "detail": "품질·사육기술 지도·축산정보 제공 등 서비스 경쟁 강화는 가격경쟁을 완화하는 요인입니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "가축용 배합사료의 제조 및 판매를 주업종으로 하고 있으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "사료부문: 279,226 (93.9%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "축산정보 제공 및 육가공업체와의 계약을 통해"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "(2) 주요 가격변동요인",
+        "evidence_text": "국제 곡물가격 및 환율 변동은 판매가격에 중대한 영향을 미치고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5183,
+    "completion_tokens": 4327,
+    "reasoning_tokens": 3648,
+    "output_tokens": 679
+  },
+  "warnings": []
+}

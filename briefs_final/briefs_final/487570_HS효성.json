@@ -1,0 +1,97 @@
+{
+  "stock_code": "487570",
+  "corp_name": "HS효성",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 20:56",
+  "meta": {
+    "wics": "복합기업",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "HS효성은 2024년 7월 1일 (주)효성으로부터 분할되어 설립된 공정거래법상 지주회사로, 2025년 12월 31일 기준 HS효성첨단소재㈜ 등 4개 자회사를 지배하고 있습니다. 지주회사로서 자회사의 지분관리·투자 및 운송주선사업을 병행하며, 2025년 연결 기준 매출액 1조 4,099억원을 기록했습니다.",
+    "business_model": "주요 수익원은 자회사 중심의 산업자재 사업(매출의 68.6%)과 운송주선사업(매출의 29.5%)이며, 지주사업(1.7%)과 수입차딜러(1.6%)가 나머지를 구성합니다. 지주회사로서의 역할(지분관리·투자)과 함께 지분법손익(지분법손익)과 운송매출(운송주선사업)을 매출로 인식합니다.",
+    "main_customers": "지주사업 — 자회사(지분관리 대상) / 산업자재 — 타이어 제조사·자동차 업체·건설·일반 산업현장 / 운송주선사업 — 계열사 등 고객사(국내 및 베트남 등) / 수입차딜러 — 수입차 구매자(정비·판매 대상)",
+    "price_factors": [
+      {
+        "factor": "원재료 가격",
+        "detail": "원재료 가격 변동은 타이어코드·카페트 등 제품 원가와 판가에 직접 반영되어 실적과 마진에 영향."
+      },
+      {
+        "factor": "자동차 OEM 조건",
+        "detail": "카페트 등 자동차 내장재는 자동차 업체의 초기 공급 조건에 따라 가격 변동 여부가 결정되어 매출에 영향."
+      },
+      {
+        "factor": "공급망·지정학 리스크",
+        "detail": "글로벌 지정학적 갈등·공급망 불안정은 산업자재 조달과 수출입에 영향을 주어 실적 변동성을 키울 수 있음."
+      },
+      {
+        "factor": "지주회사 규제",
+        "detail": "공정거래법상 지주회사 관련 행위제한은 자회사 지분 운용 및 사업확장 정책에 제약 요인으로 작용할 수 있음."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "다. 사업부문 현황 (1) 지주사업",
+        "evidence_text": "당사는 공정거래법상 지주회사로서 2024년 7월 1일 설립되었습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "지주사업: 23,674 (1.7%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "산업자재: 966,758 (68.6%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "운송주선사업: 415,727 (29.5%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "수입차딜러: 22,076 (1.6%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "타이어보강재는 타이어제조에 필수적으로 사용되며,"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "운송주선사업은 국내 및 베트남 등에서 계열사 등 고객사의 화물을 포워딩하고 있으며,"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "수입차 딜러 사업은 수입 자동차를 정비/판매합니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "다. 가격변동 원인 (1) 타이어코드",
+        "evidence_text": "시황에 따른 시장 가격 변동 및 원료가 변동분을 판가에 반영하여 가격이 변동함"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "다. 가격변동 산출기준 (2) 카 인테리어 : 카페트",
+        "evidence_text": "카페트의 Back coating 사양이 다양하여 제품별 공급가 Range를 기재함"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5562,
+    "completion_tokens": 4364,
+    "reasoning_tokens": 3200,
+    "output_tokens": 1164
+  },
+  "warnings": []
+}

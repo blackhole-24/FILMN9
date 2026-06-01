@@ -1,0 +1,67 @@
+{
+  "stock_code": "017810",
+  "corp_name": "풀무원",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 22:09",
+  "meta": {
+    "wics": "식품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "풀무원은 지주회사 구조를 가진 식품·건강케어 계열사 그룹으로, 공시 기준일 현재 총 6개의 자회사를 보유하고 있으며 연결대상 종속회사 29개를 포함한 연결재무제표를 작성하고 있습니다. 사업은 지주, 국내식품제조유통, 식품서비스유통, 건강케어제조유통, 해외식품제조유통 등 다섯 부문으로 구분됩니다.",
+    "business_model": "사업부문별 FY2025 기준 매출 비중은 지주 부문 0.1%, 국내식품제조유통 47.7%, 식품서비스유통 29.4%, 건강케어제조유통 3.1%, 해외식품제조유통 19.7%로 구성되어 있으며(각 수치는 사업부문별 영업수익 구성 기준), 제조·유통 기반의 국내 사업과 해외식품·건강케어 사업을 핵심 수익원으로 운영합니다.",
+    "main_customers": "지주 부문 — 공개된 주요 고객 정보 없음 / 국내식품제조유통 부문 — 공개된 주요 고객 정보 없음 / 식품서비스유통 부문 — 공개된 주요 고객 정보 없음 / 건강케어제조유통 부문 — 공개된 주요 고객 정보 없음 / 해외식품제조유통 부문 — 공개된 주요 고객 정보 없음",
+    "price_factors": [
+      {
+        "factor": "환경규제",
+        "detail": "기후·환경 규제와 정책 변화는 공급망과 생산비용에 영향을 주며, 회사는 TCFD 권고안에 따라 물리적·이행 리스크를 분석해 비용 상승 요인에 대비하고 있습니다."
+      },
+      {
+        "factor": "탄소관리",
+        "detail": "전사적 넷제로(탄소중립) 관리와 LCA(전과정평가) 기반 배출 산정은 제품별 탄소정보를 공개·관리해 친환경 경쟁력과 브랜드 신뢰도에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "식물성전환",
+        "detail": "식물성 지향 식품 확대는 제품의 탄소발자국 저감과 친환경 이미지 강화에 기여할 수 있습니다."
+      },
+      {
+        "factor": "저탄소물류",
+        "detail": "전기차 도입·운송 동선 최적화 등 저탄소 물류 전략은 물류비와 공급망 효율성에 직간접적으로 영향을 미칠 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 영업 현황",
+        "evidence_text": "총 6개의 자회사를 보유하고 있습니다."
+      },
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 영업 현황",
+        "evidence_text": "연결대상 종속회사 29개를 포함하여 연결재무제표를 작성하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "국내식품제조유통 부문: 1,611,341 (47.7%)"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 영업 현황",
+        "evidence_text": "전과정 평가(LCA : Life Cycle Assessment) 기반으로 제품별 탄소배출량을 산정하며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3569,
+    "completion_tokens": 5193,
+    "reasoning_tokens": 4352,
+    "output_tokens": 841
+  },
+  "warnings": []
+}

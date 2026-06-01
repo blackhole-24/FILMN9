@@ -1,0 +1,62 @@
+{
+  "stock_code": "077500",
+  "corp_name": "유니퀘스트",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 05:42",
+  "meta": {
+    "wics": "반도체와반도체장비",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "유니퀘스트는 특정 지역과 고객사를 대상으로 반도체 솔루션을 제공하는 유통·기술지원(솔루션) 회사입니다. 2025년 연결기준 매출은 7,300억원, 영업이익은 367억원, 당기순이익은 193억원으로 전년 대비 이익이 개선되었습니다.",
+    "business_model": "당사는 반도체 제품의 유통(상품매출)과 기술 마케팅·기술지원·교육 등 솔루션 제공을 통해 수익을 창출합니다. FY2025 사업부문별 영업수익 구성은 상품매출 98.3%, 대행매출 1.6%, 기타매출 0.1%로 상품매출 비중이 압도적으로 높습니다.",
+    "main_customers": "상품매출 — 전자 IT 제품을 개발하는 기업(제조사) / 대행매출 — 대행서비스를 의뢰하는 고객사 / 기타매출 — 기타 고객",
+    "price_factors": [
+      {
+        "factor": "AI수요",
+        "detail": "AI 반도체 수요 확대는 반도체 전반의 매출 성장과 유니퀘스트의 제품·솔루션 수요에 직간접적 영향을 미칩니다."
+      },
+      {
+        "factor": "재고증가",
+        "detail": "2025년 재고자산이 17% 증가하여 운전자본 부담과 실적 변동성에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "무역·환율",
+        "detail": "국가 간 무역장벽과 환율·금리 변동성은 수출조건과 비용구조에 영향을 미쳐 실적에 부담으로 작용할 수 있습니다."
+      },
+      {
+        "factor": "공급지연",
+        "detail": "반도체 생산기간 증가로 재고 확보가 어려워지면 매입채무·재고관리 부담과 영업 흐름에 영향이 있을 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "당사는 특정 지역 및 고객사를 대상으로 전문적인 영업 및 테크니컬 마케팅을 전문으로 하는 비메모리 반도체 유통 및 기술지원(솔루션) 회사 입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "- 상품매출: 717,574,092 (98.3%)"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "2025년 연결포괄손익계산서상의 매출액은 전년 동기 대비 2.8% 증가한 7,300억원이며, 영업이익은 전년 동기 대비 7.5% 증가한 367억원 입니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4176,
+    "completion_tokens": 4370,
+    "reasoning_tokens": 3648,
+    "output_tokens": 722
+  },
+  "warnings": []
+}

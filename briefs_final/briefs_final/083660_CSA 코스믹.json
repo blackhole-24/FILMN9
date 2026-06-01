@@ -1,0 +1,67 @@
+{
+  "stock_code": "083660",
+  "corp_name": "CSA 코스믹",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 06:23",
+  "meta": {
+    "wics": "화장품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "CSA 코스믹은 1989년 설립되어 2006년 코스닥에 상장된 화장품 제조·판매 기업으로, 과거 합성수지사업에서 화장품 중심으로 사업을 전환하여 현재 다수의 브랜드를 운영하고 있습니다. 대표이사의 뷰티업계 경력과 자체 상품개발 역량을 바탕으로 브랜드 중심의 화장품 사업에 집중하고 있습니다.",
+    "business_model": "주요 사업은 화장품 제조 및 판매로, 국내 판매가 전체의 78.4%를 차지하고 해외 판매가 21.6%를 구성합니다. 여러 연령대 타깃의 7개 브랜드를 통해 제품 라인업을 구분·판매하고 자체 상품개발팀을 통해 신제품을 개발하는 구조입니다.",
+    "main_customers": "국내 — 국내 일반 소비자(연령별 타겟층) / 해외 — 해외 소비자",
+    "price_factors": [
+      {
+        "factor": "브랜드인지",
+        "detail": "대표이사 이름을 딴 브랜드 인지도와 업계 내 인식은 제품 판매와 매출에 직간접적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "제품개발속도",
+        "detail": "독자적 상품개발팀을 통한 빠른 신제품 출시 여부는 소비자 수요 대응과 실적에 영향합니다."
+      },
+      {
+        "factor": "이커머스진출",
+        "detail": "이커머스 채널에서의 성과는 판매 채널 다변화에 따른 매출 변화로 연결됩니다."
+      },
+      {
+        "factor": "지적재산권",
+        "detail": "특허·신기술 기반 제품 보유는 제품 차별화와 브랜드 경쟁력에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "당사는 1989년 11월 설립 후 2006년 07월 코스닥 시장에 상장되었습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "국 내 (78.4%), 해 외 (21.6%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "각 브랜드는 연령별 타겟층에 따라"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 상표 및 고객관리 정책",
+        "evidence_text": "당사 제품은 특허와 신기술을 바탕으로"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 2897,
+    "completion_tokens": 3010,
+    "reasoning_tokens": 2368,
+    "output_tokens": 642
+  },
+  "warnings": []
+}

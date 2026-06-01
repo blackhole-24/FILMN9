@@ -1,0 +1,67 @@
+{
+  "stock_code": "004100",
+  "corp_name": "태양금속",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 18:42",
+  "meta": {
+    "wics": "자동차부품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "태양금속은 자동차 및 전자부품용 냉간단조제품을 주력으로 생산·판매하는 제조업체로, 지배적 단일사업부문으로 운영되고 있습니다. 'TMC' 브랜드를 활용해 국내외 수주물량을 수행하며 고객주문생산(다품종 소량생산)을 기본으로 하고 있습니다.",
+    "business_model": "주요 수익원은 냉간단조제품 제조·판매이며, 사업부문별 매출은 자동차 및 전자부품용 냉간단조제품이 98.0%, 냉간단조용 선재류 및 취부와샤가 2.0%를 차지합니다. 생산은 고객주문생산 방식이며(다품종 소량 생산), 장비투자와 기술력이 실적에 중요한 영향요인입니다(설비투자 회수기간이 길음).",
+    "main_customers": "자동차 및 전자부품용냉간단조제품 제조업 — 자동차 제조사·자동차부품업체·기계부품·전자제품 제조업체 / 냉간단조용 선재류 및취부와샤 — 자동차 및 기계·가전 관련 제조업체",
+    "price_factors": [
+      {
+        "factor": "자동차수요",
+        "detail": "국내외 자동차(내수·수출) 생산량 변동에 따라 제품 수요가 직접 좌우되어 실적에 영향합니다."
+      },
+      {
+        "factor": "수출여건",
+        "detail": "관세·해외공장 가동 등 수출환경 변화는 수출물량과 원가구조에 영향을 미쳐 실적 변동요인이 됩니다."
+      },
+      {
+        "factor": "경기민감성",
+        "detail": "주요 수요처가 제조업 중심이어서 국내외 경기 변동 시 수요가 민감하게 반응합니다."
+      },
+      {
+        "factor": "원가·품질",
+        "detail": "원가 경쟁력과 제품 품질(인증 및 품질등급 등)이 수주 확보와 이익률에 중요한 변수로 작용합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "지배적 단일사업부문으로 운영되고  있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "607,468(98.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "자동차, 수송기계, 가전, 전기자재"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "경기 변동에 따라 그 수요가 좌우됩니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4145,
+    "completion_tokens": 3724,
+    "reasoning_tokens": 3008,
+    "output_tokens": 716
+  },
+  "warnings": []
+}

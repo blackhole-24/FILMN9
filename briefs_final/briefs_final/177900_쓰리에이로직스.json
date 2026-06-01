@@ -1,0 +1,69 @@
+{
+  "stock_code": "177900",
+  "corp_name": "쓰리에이로직스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 10:51",
+  "meta": {
+    "wics": "통신장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "쓰리에이로직스는 2004년 창업한 국내 유일의 근거리 무선 통신 칩(근거리 통신 IC) 전문 설계업체로, 반도체 설계기술을 기반으로 RFID·NFC 계열 리더·태그 칩의 국산화와 양산을 추진해 왔습니다. 최근에는 자동차용 디지털 키와 스마트물류용 NFC 솔루션 등 특정 응용분야에 집중해 기술역량을 확장하고 있습니다.",
+    "business_model": "핵심 사업은 NFC(근거리 무선통신) 반도체 설계로, 주요 제품군은 NFC Reader IC와 NFC Tag IC 등이 있으며(사업부문 표기: NFC Reader IC, 기타), 제품은 디지털도어락·차량용 디지털키·ESL(전자 가격 표시기) 등 다양한 응용처에 공급됩니다. 회사는 자동차 및 스마트 물류 분야를 목표로 연구개발(R&D)과 양산을 통해 시장 확대를 도모하고 있습니다.",
+    "main_customers": "NFC Reader IC — 디지털도어락·스마트도어락·차량용 디지털키 업체 / NFC Tag IC — 대형마트·백화점·유통·물류 기업 / 기타 — 스마트물류·헬스케어·결제·금융 서비스 등 NFC 응용 업계",
+    "price_factors": [
+      {
+        "factor": "시장수요",
+        "detail": "IoT·스마트물류·자동차 등 NFC 적용 분야 확대 여부가 제품 수요와 실적에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "글로벌경쟁",
+        "detail": "NXP·ST·Infineon·TI 등 기술력과 특허를 보유한 글로벌 공급사들과의 경쟁이 가격·수주에 영향을 미칩니다."
+      },
+      {
+        "factor": "규제·보안",
+        "detail": "무선 주파수 규제와 개인정보·데이터 보호 규정 준수 여부가 제품 설계와 시장 진입에 영향을 줍니다."
+      },
+      {
+        "factor": "R&D·양산능력",
+        "detail": "신규 기능 개발과 품질인증(AEC-Q100 등) 및 안정적 양산 능력이 수주 확보와 매출 지속성에 중요합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "당사는 국내 유일의 근거리 무선 통신 칩 전문 설계업체로"
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황",
+        "evidence_text": "2006년 국내 최초로 13.56MHz 대역 RFID 리더 칩을 국산화 성공하고"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "2-2. 제품설명",
+        "evidence_text": "대형마트 및 백화점 등에서 손쉽게 찾아볼 수 있는 ESL에 내장되어 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "7-3. 사업영위에 중요한 영향을 미치는 법규 및 규제사항",
+        "evidence_text": "각 국가에서는 무선 주파수 스펙트럼의 사용 규칙을 정하고 있으며"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 5515,
+    "completion_tokens": 4565,
+    "reasoning_tokens": 3776,
+    "output_tokens": 789
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

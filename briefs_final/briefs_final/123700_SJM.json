@@ -1,0 +1,69 @@
+{
+  "stock_code": "123700",
+  "corp_name": "SJM",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 09:24",
+  "meta": {
+    "wics": "자동차부품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "SJM은 자동차용 Flexible Coupling(유연 커플링)과 건축·플랜트용 Expansion Joint(배관 이음쇠)를 제조·판매하는 기업으로, 자동차사업부문은 한국 및 해외 다수의 생산·판매 종속법인으로 구성된 글로벌 사업을 영위하고 있습니다. 2025년 기준 연결기준 자산은 2,858억원, 매출은 2,014억원 수준입니다.",
+    "business_model": "핵심 사업은 자동차용 BELLOWS 사업(자동차용 Flexible Coupling 제조·판매)과 산업용 BELLOWS 사업(건축·플랜트용 Expansion Joint 제조·판매)으로 나뉘며, 자동차사업부문은 한국 및 해외 종속법인을 통해 글로벌 생산·판매를 수행하고 플랜트사업부문은 한국에서 생산·판매합니다.",
+    "main_customers": "자동차사업부문 — 완성차 제조업체 / 플랜트사업부문 — 건축·플랜트 관련 수요처",
+    "price_factors": [
+      {
+        "factor": "경기민감성",
+        "detail": "완성차 수요가 경기 변동에 따라 크게 움직여 자동차부문 매출과 실적에 직접 영향이 발생합니다."
+      },
+      {
+        "factor": "전동화전환",
+        "detail": "전동차 전환 속도에 따라 내연기관 부품 수요 구조가 변화하여 제품·사업 포트폴리오의 조정 필요성이 커집니다."
+      },
+      {
+        "factor": "환율·원자재",
+        "detail": "수출제품의 환율 변동과 원재료·노무비 변동이 제품 가격과 마진에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "관세·지정학",
+        "detail": "미국 관세 부과 및 지정학적 리스크는 자동차사업부문의 매출 감소 요인으로 작용할 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "나. 연결대상 종속회사 요약재무정보",
+        "evidence_text": "제16기 당사의 자산은 전년 대비 7억원 증가한 2,858억원입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "Flexible Coupling의 제조 및 판매를 영위하는"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황 > 산업의 특성",
+        "evidence_text": "자동차 부품업체의 경영성과는 국내 완성차업체의 성과와 밀접한 관계를 가지고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나. 연결대상 종속회사 요약재무정보 > (1) 사업부별 매출 분석",
+        "evidence_text": "판가 하락, 미국 관세 영향 및 지정학적 위험"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 5299,
+    "completion_tokens": 5076,
+    "reasoning_tokens": 4352,
+    "output_tokens": 724
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

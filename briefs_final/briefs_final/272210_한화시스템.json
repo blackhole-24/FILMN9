@@ -1,0 +1,62 @@
+{
+  "stock_code": "272210",
+  "corp_name": "한화시스템",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 14:37",
+  "meta": {
+    "wics": "우주항공과국방",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "한화시스템은 방산 전자기기와 ICT(정보통신기술)를 주력으로 하는 기업으로, 방산사업과 ICT사업을 중심으로 제품 개발·생산·서비스를 수행합니다. 그룹 내·외부 인프라와 위성·레이다 등 첨단 분야를 바탕으로 국내외 방산 및 공공·산업 고객을 대상으로 사업을 전개하고 있습니다.",
+    "business_model": "FY2025 사업부문별 영업수익 구성은 제품용역기타매출등 66.6%, 상품용역 17.8%, 제품상품용역 15.7%로 나타났습니다. 주요 수익원은 방산부문(레이다·항공전자·해양시스템·위성·MRO 등 무기체계 전자장비 개발·생산)과 ICT부문(SI(시스템 통합), ITO(IT 아웃소싱·운영), 디지털플랫폼 및 AI·블록체인 기반 서비스)입니다.",
+    "main_customers": "방산 — 국내 군(우리 군) 및 해외 정부·군 / ICT — 제조·방산·건설·금융·서비스·교육 기관 및 공공 인프라 운영자",
+    "price_factors": [
+      {
+        "factor": "수출·수주",
+        "detail": "다기능레이다(MFR) 등 수출계약 확대는 매출 증가와 수주잔고에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "공급망 불안",
+        "detail": "공급망 불안은 부품 조달과 생산 차질을 유발해 납기·원가에 악영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "기술력·R&D",
+        "detail": "고도 기술력(전문 엔지니어 비중 60% 이상)은 제품 차별화와 해외 수출 경쟁력에 중요한 변수입니다."
+      },
+      {
+        "factor": "제조 인프라",
+        "detail": "구미 신사업장·제주우주센터 등 제조 역량 확대는 위성·방산 제품의 생산성·규모에 영향합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "방산사업과 ICT 사업을 주로 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "제품용역기타매출등: 2,438,850 (66.6%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "우리 군의 전력증강에 기여하고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5261,
+    "completion_tokens": 3250,
+    "reasoning_tokens": 2560,
+    "output_tokens": 690
+  },
+  "warnings": []
+}

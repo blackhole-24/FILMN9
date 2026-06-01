@@ -1,0 +1,62 @@
+{
+  "stock_code": "042700",
+  "corp_name": "한미반도체",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 01:42",
+  "meta": {
+    "wics": "반도체와반도체장비",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "한미반도체는 1980년 설립된 반도체 제조용 장비 개발 기업으로, 주물·설계·제작·조립·검사·테스트까지 수직통합제조(Vertical Integration Manufacture) 시스템을 구축해 왔습니다. 글로벌 주요 AI 반도체 기업에 최첨단 장비를 공급해 온 점이 회사의 정체성입니다.",
+    "business_model": "주요 사업은 반도체 장비의 개발·제작·판매로, FY2025 기준 반도체장비가 영업수익의 84.6%를 차지합니다. 핵심 제품은 HBM TC(Thermal Compression) 본더(고대역폭메모리 적층용 핵심 장비), 6-SIDE INSPECTION(검사 장비), BOC COB 본더(투인원 본딩 장비) 등으로 메모리(고적층 HBM 등)와 고성능 AI 메모리 패키징 수요에 대응하는 장비를 중심으로 수익을 창출하고 있습니다.",
+    "main_customers": "반도체장비 — 글로벌 AI 반도체 기업 및 메모리 제조사 / 패키징·검사 장비 — 패키징 업체 및 검사/서비스 업체",
+    "price_factors": [
+      {
+        "factor": "HBM 수요",
+        "detail": "AI 서버·데이터센터 투자 확대에 따른 HBM 수요 급증은 TC 본더 등 핵심 장비의 주문과 실적에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "제품주기",
+        "detail": "반도체 장비의 Life-Cycle이 짧아 집중적인 R&D와 적기 제품 출시가 경쟁력 및 실적을 좌우합니다."
+      },
+      {
+        "factor": "고객 CAPEX",
+        "detail": "장비 수주는 고객사의 설비투자에 의존하므로 글로벌 반도체 업황과 설비투자 사이클 변화에 실적이 민감합니다."
+      },
+      {
+        "factor": "주문형 가격",
+        "detail": "장비는 주문 기반으로 가격이 개별 산정되므로 원재료비·사양 변화에 따라 매출단가와 마진 변동성이 존재합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "한미반도체는 1980년 설립후"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "반도체장비: 487,968 (84.6%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "글로벌 주요 AI 반도체 기업에 최첨단 장비를 공급해 오고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5355,
+    "completion_tokens": 2801,
+    "reasoning_tokens": 2112,
+    "output_tokens": 689
+  },
+  "warnings": []
+}

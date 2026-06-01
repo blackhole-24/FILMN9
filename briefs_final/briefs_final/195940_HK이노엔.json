@@ -1,0 +1,72 @@
+{
+  "stock_code": "195940",
+  "corp_name": "HK이노엔",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 11:27",
+  "meta": {
+    "wics": "제약",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "HK이노엔은 1984년 제약 사업을 시작한 이후 한일약품 인수 등으로 전문의약품 포트폴리오를 강화해 온 제약사입니다. 2014년 씨제이제일제당에서 물적분할되어 법인이 설립되었고, 2018년 한국콜마에 인수된 이후 의약품과 H&B(건강·뷰티) 사업을 병행하며 국내 대표 제약사로 자리잡았습니다.",
+    "business_model": "핵심 사업은 전문의약품(ETC)과 H&B 사업으로 이루어져 있으며, 전사 매출 중 전문의약품 부문이 93%, H&B 부문이 7%를 차지합니다. 제품별 FY2025 영업수익 구성은 수액 13.3%, 에포카인 3.8%, 로바젯 3.6%, 헛개수 0.8%, 기타 88.2%로 나타나며(%) 전문의약품의 제조·유통과 글로벌 라이선스·수출, H&B의 음료·헬스뷰티 신제품 및 온라인 채널 확장이 수익 축을 형성하고 있습니다.",
+    "main_customers": "전문의약품 — 병원·의료기관 및 국내외 제약사(라이선스·수출 대상) / H&B — 일반 소비자(음료·헬스뷰티), 온라인 쇼핑몰 이용 고객",
+    "price_factors": [
+      {
+        "factor": "규제·약가",
+        "detail": "의약품은 허가·보험 약가 등 정부 통제가 강해 약가 인하나 등재 여부가 실적에 직접적 영향을 미칩니다."
+      },
+      {
+        "factor": "신약 R&D",
+        "detail": "신약 개발 성과(예: 포스트 케이캡, 임상 진전)가 장기적 매출 성장과 밸류에이션에 중요한 영향을 줍니다."
+      },
+      {
+        "factor": "수요 성장",
+        "detail": "인구 고령화 및 만성질환 증가로 의약품 수요가 확대되어 안정적 매출 기반을 형성합니다."
+      },
+      {
+        "factor": "소비 트렌드",
+        "detail": "H&B 부문은 헬시플레저 등 소비 트렌드와 온라인 채널 확장 여부에 따라 매출 변동성이 발생할 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 1984년 제약 사업을 시작하였으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "전사 매출 중 전문의약품 부문의 비중은 93%이며, H&B 부문은 7%입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "수액: 141,699 (13.3%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "H&B 부문의 주요 제품은 컨디션, 헛개수, 비원츠 등이 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "'포스트 케이캡' 발굴에 집중하고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5259,
+    "completion_tokens": 4380,
+    "reasoning_tokens": 3520,
+    "output_tokens": 860
+  },
+  "warnings": []
+}

@@ -1,0 +1,82 @@
+{
+  "stock_code": "071850",
+  "corp_name": "캐스텍코리아",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:08",
+  "meta": {
+    "wics": "자동차부품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "캐스텍코리아는 자동차부품과 전자 Comp.부품, 중장비 유압부품 등을 만드는 제조업체입니다. 특히 터보차저(배기가스로 구동되는 과급기)용 하우징 등 고난도 주물 부품 분야에서 기술 경쟁력을 보유하고 있으며, Garrett, BorgWarner 같은 세계적 Tier-1 고객사와의 협력을 유지하고 있습니다. 2025년 연결 기준 매출은 155,325백만원이었습니다.",
+    "business_model": "주력 매출은 자동차 터보부품(주물소재 및 가공/부품조립) 66.1%에서 나오며, 전자 Comp.부품(Scroll & Rotary Comp.) 9.3%, 기타 부품 9.3%, 기타 자동차 부품 7.9%, 자동차용 Comp.부품 4.8%, 중장비 유압 부품 2.6%가 나머지를 구성합니다. 자동차 터보부품에는 터빈하우징(Turbine Housing)과 센터하우징(Center Housing)이 포함되고, 전자 Comp.부품은 냉매 압축기(Compressor)에 들어가는 스크롤·메인프레임 등을 생산하는 구조입니다. 전반적으로 자동차 내연기관 관련 부품과 냉방·유압용 정밀 부품을 함께 공급하는 사업 모델입니다.",
+    "main_customers": "자동차 터보부품 — Garrett, BorgWarner 등 세계적 Tier-1 고객사 / 전자 Comp.부품 — LG전자 / 기타 자동차 부품 — 자동차 부품 수요처 / 중장비 유압 부품 — 중장비 관련 수요처",
+    "price_factors": [
+      {
+        "factor": "터보수요",
+        "detail": "하이브리드 차량 확대와 엔진 다운사이징이 이어질수록 터보차저 부품 수요에 영향을 줍니다."
+      },
+      {
+        "factor": "고객집중",
+        "detail": "글로벌 Tier-1 고객사 공급망에 얼마나 안정적으로 포함되는지가 매출 안정성에 중요합니다."
+      },
+      {
+        "factor": "차량전환",
+        "detail": "전기차(EV) 전환 속도는 내연기관 기반 터보부품 수요의 방향에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "수익성",
+        "detail": "베트남법인 실적과 한국·중국법인의 유형자산손상 여부가 손익 변동폭을 키울 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 가. 터보차저 산업의 연혁 및 특성",
+        "evidence_text": "당사는 이러한 주물 제품군 중 고난도의 기술력을 요하는 터보차저 하우징"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 가. 터보차저 산업의 연혁 및 특성",
+        "evidence_text": "Garrett, BorgWarner 등 세계 최고 수준의 Tier-1 고객사"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성 (FY2025)",
+        "evidence_text": "자동차 터보부품 (주물소재 및 가공/부품조립): 102,605 (66.1%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성 (FY2025)",
+        "evidence_text": "전자 Comp.부품 (Scroll & Rotary Comp.): 14,483 (9.3%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성 (FY2025)",
+        "evidence_text": "기타 부품: 14,478 (9.3%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 가. 터보차저 산업의 연혁 및 특성",
+        "evidence_text": "Garrett, BorgWarner 등 세계 최고 수준의 Tier-1 고객사"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 가. 터보차저 산업의 연혁 및 특성",
+        "evidence_text": "국내는 LG전자에 에어컨과 냉장고에 필요한 부품을 공급"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4876,
+    "completion_tokens": 1041,
+    "reasoning_tokens": 0,
+    "output_tokens": 1041
+  },
+  "warnings": []
+}

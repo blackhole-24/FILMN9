@@ -1,0 +1,67 @@
+{
+  "stock_code": "053700",
+  "corp_name": "삼보모터스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 03:17",
+  "meta": {
+    "wics": "자동차부품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "삼보모터스는 자동차용 파이프류와 플라스틱 부품 등을 생산하는 자동차부품 그룹으로, 국내외 다수의 자회사(체코, 멕시코, 미국 등)를 통해 글로벌 생산·납품 체인을 운영하고 있습니다. 완성차업체 대상 공급을 중심으로 파이프·플라스틱·금형 등 다양한 제품 포트폴리오를 보유하고 있으며 최근 친환경차 부품 관련 수주와 양산이 진행되고 있습니다.",
+    "business_model": "사업부문별로 플라스틱부품이 매출의 63.5%로 가장 큰 비중을 차지하고, Pipe Part가 26.5%, Auto Part가 7.5%, 금형이 2.6%를 차지합니다(영업수익 구성). 국내외 완성차(현대·기아 등)와 부품업체에 직접 납품하는 B2B(기업간 거래)가 핵심 수익원이며, 친환경차(전기·수소차) 관련 아이템의 양산이 실적에 영향을 주고 있습니다.",
+    "main_customers": "Auto Part — 국내외 완성차업체(현대·기아 등) / Pipe Part — 북경현대·강소열달기아 등 현지 완성차 공장 / 플라스틱부품 — 기아자동차·현대모비스·현대자동차 등 국내 대형 완성차·부품사 / 금형 — 르노삼성·타타·닛산 등 국내외 완성차 및 금형 수요처",
+    "price_factors": [
+      {
+        "factor": "원재료가격",
+        "detail": "원소재 Coil 등 철강 소재 가격 변동은 제품 원가와 판매가에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "글로벌경쟁",
+        "detail": "완성차의 경쟁입찰과 글로벌 소싱 확대로 부품사의 경쟁이 심화되어 수익성 확보가 어렵습니다."
+      },
+      {
+        "factor": "완성차수요",
+        "detail": "완성차 판매 변동(계절성·경기)에 따라 부품 수요와 분기별 매출 패턴이 좌우됩니다."
+      },
+      {
+        "factor": "환율변동",
+        "detail": "해외 매출과 원가, 파생상품 등 외환 노출로 환율 변동이 실적(외환손익)에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "1. 연결대상 종속회사의 사업의 개요 (1)",
+        "evidence_text": "주된 품목은 자동차용 파이프류이며 최근 친환경차 아이템 수주가 진행중입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "플라스틱부품: 1,068,904,030 (63.5%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "1. 연결대상 종속회사의 사업의 개요 (1)",
+        "evidence_text": "주된 판매처는 북경현대 21.3% 및 강소열달기아 24.1%이며 기타 54.6%입니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "(5) 자원조달의 특성",
+        "evidence_text": "원소재 Coil의 경우 국제 철강소재 가격의 변동에 영향을 받으며 이는 제품의 판매가에도 영향을 미치고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5504,
+    "completion_tokens": 3167,
+    "reasoning_tokens": 2304,
+    "output_tokens": 863
+  },
+  "warnings": []
+}

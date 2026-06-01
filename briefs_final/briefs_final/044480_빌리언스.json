@@ -1,0 +1,72 @@
+{
+  "stock_code": "044480",
+  "corp_name": "빌리언스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 01:56",
+  "meta": {
+    "wics": "방송과엔터테인먼트",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "빌리언스는 위생 및 의료용 고무제품 제조와 엔터테인먼트 사업을 영위하는 기업입니다. 연결재무제표 기준 FY2025 매출은 25,310백만원으로 전년 동기 대비 39.3% 감소하였습니다.",
+    "business_model": "주요 사업부문은 의료기기 제조와 상품(유통) 및 엔터테인먼트로 구성되며, 사업부문별로 의료기기 제조 23.0%, 상품 17.0%, 엔터테인먼트 5.0%, ㈜빌리언스 엔터부문 55.0%의 매출 비중을 보입니다. 제조부문은 콘돔·의료용 장갑 등 위생·의료용 고무제품 생산이 핵심이고, 엔터테인먼트는 소속 아티스트 활동과 드라마 등 콘텐츠 기획·제작이 핵심 수익원입니다.",
+    "main_customers": "의료기기 제조 — 일반 소비자(콘돔·의료용장갑) / 상품 — 유통업체 및 구매처 / 엔터테인먼트 — 콘텐츠 소비자 및 사업 파트너(아티스트 활동·드라마 제작 등)",
+    "price_factors": [
+      {
+        "factor": "원자재 가격",
+        "detail": "라텍스 등 원료 가격 상승은 제조원가를 올려 실적에 직접적인 하방 압력을 줍니다."
+      },
+      {
+        "factor": "경쟁 심화",
+        "detail": "가격덤핑·저가판매 경쟁 심화는 마진 축소와 시장점유율 방어 부담을 키웁니다."
+      },
+      {
+        "factor": "수요 변동성",
+        "detail": "국내외 경기 둔화나 소비심리 약화는 제조부문 매출 감소로 이어질 수 있습니다."
+      },
+      {
+        "factor": "콘텐츠 계약 변동",
+        "detail": "엔터테인먼트는 작품별 계약금액 차이로 매출과 수익성이 불규칙하게 변동합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "지배회사는 위생 및 의료용 고무제품 제조 및 엔터테인먼트 사업을 영위하고 있습니다."
+      },
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "연결재무제표 기준 당사의 매출액은 25,310백만원으로 전년 동기 41,725백만원 대비 39.3% 감소하였습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "의료기기 제조: 5,884 (23.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "㈜빌리언스 엔터부문: 11,170 (55.0%)"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "동 산업의 경우 원가상승에 매우 민감한 변동성을 가지고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4026,
+    "completion_tokens": 4506,
+    "reasoning_tokens": 3712,
+    "output_tokens": 794
+  },
+  "warnings": []
+}

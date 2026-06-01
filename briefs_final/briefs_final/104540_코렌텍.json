@@ -1,0 +1,81 @@
+{
+  "stock_code": "104540",
+  "corp_name": "코렌텍",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:16",
+  "meta": {
+    "wics": "건강관리장비와용품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "코렌텍은 2000년 설립된 국내 최초의 인공관절 전문 제조기업으로, 인공관절의 개발·제조·판매를 주력 사업으로 하고 있습니다. 제품의 안정성과 운동성에 특화된 설계 기술과 차별화된 표면처리 기술을 보유하고 있으며, 세계 최초로 인공관절 생산에 3D 프린팅 기술을 적용한 점이 특징입니다.",
+    "business_model": "코렌텍의 핵심 수익은 정형외과용 인공관절에서 나오며, 사업부문별 영업수익은 인공고관절(HIP) 40.2%, 인공슬관절(KNEE) 46.1%, 척추고정체(SPINE) 4.6%, 인공견관절(SHOULDER) 6.6%, 기타 2.5%로 구성됩니다. 인공고관절과 인공슬관절이 매출의 85% 이상을 차지해 중심 축을 이루고, 척추고정기기·견관절·족관절 등으로 제품군을 넓혀 ‘인공관절 토탈 솔루션’ 제공 기업으로 자리잡고 있습니다.",
+    "main_customers": "인공고관절(HIP) — 정형외과 환자 및 의료기관 / 인공슬관절(KNEE) — 정형외과 환자 및 의료기관 / 척추고정체(SPINE) — 척추 질환 치료 의료기관 / 인공견관절(SHOULDER) — 어깨 관절 치료 의료기관 / 기타 — 관련 의료기기 수요처",
+    "price_factors": [
+      {
+        "factor": "수술수요",
+        "detail": "인공관절 수술 건수가 늘수록 제품 수요가 증가해 매출에 직접 영향을 줍니다."
+      },
+      {
+        "factor": "기술진입",
+        "detail": "바이오·의료기기 산업은 기술 난이도가 높아 선도 기업의 기술력과 특허가 시장 경쟁력에 중요합니다."
+      },
+      {
+        "factor": "R&D투자",
+        "detail": "인공관절 산업은 연구개발 중심의 장기 투자 산업이라 제품 경쟁력 확보에 시간이 걸릴 수 있습니다."
+      },
+      {
+        "factor": "시장경쟁",
+        "detail": "글로벌 기업들과의 경쟁이 치열해지면 점유율 확대와 제품 포트폴리오 강화의 중요성이 커집니다."
+      },
+      {
+        "factor": "해외확장",
+        "detail": "전세계 시장을 대상으로 사업을 전개하고 있어 해외 시장 확대 여부가 성장 방향에 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "국내 최초 인공관절 전문 제조기업으로 2000년 설립"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "세계 최초로 인공관절 생산에 3D 프린팅 기술을 적용하였습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "인공고관절(HIP): 30,749,228 (40.2%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "인공슬관절(KNEE): 35,280,101 (46.1%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "연간 61개 기업, 22만명에게 건강관리 서비스를"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "미국 인공관절수술 전문병원(ASC)을 운영"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4152,
+    "completion_tokens": 963,
+    "reasoning_tokens": 0,
+    "output_tokens": 963
+  },
+  "warnings": []
+}

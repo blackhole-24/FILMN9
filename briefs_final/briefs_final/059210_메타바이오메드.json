@@ -1,0 +1,67 @@
+{
+  "stock_code": "059210",
+  "corp_name": "메타바이오메드",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:04",
+  "meta": {
+    "wics": "건강관리장비와용품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "메타바이오메드는 치과용재료와 수술용 흡수성 봉합원사, 의료기기, 성형·미용재료를 제조해 수출하는 기업입니다. 사업보고서에서는 덴탈사업부, 봉합원사 사업부, 메디컬 사업부, CM사업부로 나누어 설명하고 있으며, 덴탈과 봉합사 부문이 매출의 중심을 이룹니다.",
+    "business_model": "매출 구성은 덴탈(Dental) 48.5%, 봉합사(Suture) 42.8%, 기타 8.7%로, 치과용재료 및 기구와 흡수성 봉합원사가 핵심 수익원입니다. 덴탈사업부는 신경치료재, 보존제품, 치과용기기 등을 생산·판매하고, 봉합사 사업부는 생체분해성(흡수성) 합성 봉합원사를 제조합니다. 메디컬 사업부는 정형외과·치과용 골수복재와 의료기기를, CM사업부는 성형외과용 봉합사와 필러 제품을 다룹니다.",
+    "main_customers": "덴탈 — 세계 메이저업체, 치과용재료·기기 수요처 / 봉합사 — 수술용 흡수성 봉합원사 수요 병원·의료기기 관련 시장 / 메디컬·CM — 의료기기 및 성형·미용재료 수요처",
+    "price_factors": [
+      {
+        "factor": "치과시장",
+        "detail": "치과용 신경치료 및 수복재료 시장 확대가 관련 제품 수요 증가로 이어질 수 있습니다."
+      },
+      {
+        "factor": "흡수봉합",
+        "detail": "합성 흡수성 봉합사 시장이 성장하고 있어 봉합원사 부문의 판매 확대에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "신제품",
+        "detail": "CE, FDA 인증을 통한 신제품 출시가 매출 확대와 시장 진입 속도에 영향을 줍니다."
+      },
+      {
+        "factor": "경기둔감",
+        "detail": "사업 특성상 타 산업보다 경기 영향을 덜 받는다고 설명되어 있어 경기 변동의 영향이 상대적으로 작을 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "나. 회사의 현황 > (1) 영업개황 및 사업부문의 구분",
+        "evidence_text": "당사가 속해있는 분야는(봉합원사, 치과용제품, 치과용기기, 골수복재, 성형사 및 미용재료)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "덴탈(Dental) ... 49,916(48.5%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "봉합사(Suture) ... 44,086(42.8%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "기타 ... 8,950(8.7%)"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3613,
+    "completion_tokens": 787,
+    "reasoning_tokens": 0,
+    "output_tokens": 787
+  },
+  "warnings": []
+}

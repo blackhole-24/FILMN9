@@ -1,0 +1,73 @@
+{
+  "stock_code": "045660",
+  "corp_name": "에이텍",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 02:06",
+  "meta": {
+    "wics": "컴퓨터와주변기기",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "에이텍은 금융자동화와 물류자동화를 주축으로 하는 자동화 솔루션 업체로, 하드웨어와 소프트웨어를 모두 공급하는 자동화 플랫폼 전문회사로 변모하고 있습니다. 해외 시장(포르투갈·러시아·유럽·미국 등)에서 대규모 ATM 공급 성과를 내며 글로벌 진출을 확대하고 있습니다. 최근 연결기준 매출액이 247% 증가한 160,212백만원을 기록했습니다.",
+    "business_model": "주요 사업부문은 금융자동화와 물류자동화로 구분되며 각 부문에서 자동화 장비와 관련 소프트웨어를 통합 제공하는 방식으로 수익을 창출합니다. 금융자동화 부문은 ATM·금융단말기 등 금융기기와 관련 모듈(지폐환류식입출금모듈 등) 기술을 기반으로, 물류자동화 부문은 창고·물류센터의 분류·포장·배송 준비 자동화 솔루션을 제공합니다.",
+    "main_customers": "금융자동화 — 핀테크 기업·해외 ATM 수요처 / 물류자동화 — 대형 창고·물류센터·유통업체",
+    "price_factors": [
+      {
+        "factor": "결제수단 전환",
+        "detail": "국내에서 신용카드·모바일 결제 확산으로 현금 수요와 ATM·CD 시장이 축소되면 금융자동화 매출에 직접적인 하방 압력이 됩니다."
+      },
+      {
+        "factor": "해외 신흥국 수요",
+        "detail": "해외 특히 신흥국은 금융자동기기 보급률이 낮아 지속적인 수요가 예상되어 해외 수출이 실적에 긍정적 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "무인화 니즈",
+        "detail": "최저임금 상승 등으로 무인점포 전환 수요가 증가하면 다기능 통합단말기 등 제품에 대한 수요가 늘어날 수 있습니다."
+      },
+      {
+        "factor": "보안·규제",
+        "detail": "금융서비스 특성상 보안성과 안정성, 규제 준수가 중요하여 관련 규제 변화나 보안사고는 사업 운영과 비용에 영향을 줍니다."
+      },
+      {
+        "factor": "대형프로젝트·경기",
+        "detail": "자동화 시스템 도입은 초기 투자와 공공 프로젝트 의존도가 있어 경기변동이나 정부 IT투자 계획에 따라 수주와 매출이 변동될 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "하드웨어와 소프트웨어를 모두 공급하는 자동화 플랫폼 전문회사로 변모하고 있습니다."
+      },
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "매출액이 247% 증가한 160,212백만원이며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "금융자동화기기 관련 산업은 최신 IT 기술과 금융 서비스를 융합한 고도화된 산업입니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "유럽 주요 핀테크 기업을 고객으로 확보하였습니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 3914,
+    "completion_tokens": 4182,
+    "reasoning_tokens": 3328,
+    "output_tokens": 854
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

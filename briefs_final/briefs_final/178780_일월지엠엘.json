@@ -1,0 +1,78 @@
+{
+  "stock_code": "178780",
+  "corp_name": "일월지엠엘",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 10:52",
+  "meta": {
+    "wics": "전문소매",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "일월지엠엘은 2006년 8월 금형개발업체로 설립되어 모바일 전자부품(정밀사출) 제조와 전기·온수매트 등 유통사업을 병행하는 중소형 기업입니다. 2023년 최대주주 변경 및 사명 변경 이후 유통(전기매트) 중심으로 사업 포트폴리오를 전환하고 있습니다.",
+    "business_model": "주요 사업은 정밀사출부문(정밀사출 제품 등 생산·판매)과 유통사업부문(전기 온수매트·소형가전 상품유통)으로 구분되며, 정밀부문은 맞춤형 B to B(기업 간 거래) 제품을, 유통부문은 온라인·홈쇼핑 등 채널을 통한 소비재 유통을 통한 매출을 창출합니다. 다만 LGP(도광판) 기반 제조사업 일부는 현재 중단되어 제조와 유통의 비중 변화가 진행 중입니다.",
+    "main_customers": "정밀사출부문 — 모바일 디스플레이 장비·부품을 필요로 하는 기업 고객(B2B) / 유통사업부문 — 네이버쇼핑 등 온라인몰 이용 일반 소비자·홈쇼핑·소매 유통 채널",
+    "price_factors": [
+      {
+        "factor": "디스플레이전환",
+        "detail": "OLED 등 차세대 디스플레이로의 전환이 진행되면 기존 LGP 수요가 감소하여 실적에 부정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "단가하락",
+        "detail": "부품업계의 경쟁 심화로 매분기 3~5% 수준의 단가 인하가 발생하여 매출과 이익률에 압박을 줄 수 있습니다."
+      },
+      {
+        "factor": "기술·납기",
+        "detail": "고객 맞춤형 제품 특성상 초정밀 금형 기술과 납기준수가 실적·거래 유지에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "유통채널",
+        "detail": "온라인·홈쇼핑·해외법인 등 유통채널 확대 성과에 따라 유통부문 매출 변동성이 커질 수 있습니다."
+      },
+      {
+        "factor": "해외경쟁",
+        "detail": "중저가 휴대폰 부품 부문에서 해외업체 경쟁력 강화는 국내 매출 확장에 제약을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "MD&A",
+        "evidence_text": "당사는 2006년 8월 금형개발업체로서 설립되어"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 (원문 테이블)",
+        "evidence_text": "정밀사출 제품 등의 생산 판매"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 (원문 테이블)",
+        "evidence_text": "전기 온수매트, 소형가전 등의 상품유통"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "[전자부품 제조] 1) 영업현황",
+        "evidence_text": "B to B 비즈니스를 기반으로 하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "디스플레이 기술의 변화에 따라 OLED로 시장으이전되고 있으며"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 5280,
+    "completion_tokens": 4891,
+    "reasoning_tokens": 4032,
+    "output_tokens": 859
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

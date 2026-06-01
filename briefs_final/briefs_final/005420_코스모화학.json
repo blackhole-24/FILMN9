@@ -1,0 +1,67 @@
+{
+  "stock_code": "005420",
+  "corp_name": "코스모화학",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 19:13",
+  "meta": {
+    "wics": "화학",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "코스모화학은 황산코발트(이차전지 양극소재 원료)와 이산화티타늄(백색안료)을 제조·판매하는 기업으로, 4개 사업부문(전지소재·이산화티타늄·신소재·촉매)을 중심으로 사업을 영위하고 있습니다. 2025년 연결기준 매출액은 6,642억원을 기록했습니다.",
+    "business_model": "사업부문별 매출 비중은 신소재 68.5%, 이산화티타늄 20.0%, 전지소재 10.1%, 촉매 1.5%로 신소재(이차전지용 양극활물질·기능성필름·토너 등)가 전체 매출의 대부분을 차지합니다. 특히 황산코발트 등 전지소재의 판가는 국제금속 시세에 민감하게 반응하여 수익성에 직접적인 영향을 미칩니다.",
+    "main_customers": "전지소재 — 양극활물질 제조업체(전기차·ESS 등 전방산업) / 이산화티타늄 — 플라스틱·도료·고무·제지 등 제조업체 / 신소재 — 이차전지용 양극재 제조업체 및 필름·토너 수요처 / 촉매 — 제올라이트·SCR 시스템 등 환경·공정 장비 수요처",
+    "price_factors": [
+      {
+        "factor": "원자재 시세",
+        "detail": "코발트·리튬 등 국제금속 시세 변동이 전지소재 판가와 이익률에 직접 영향을 미칩니다."
+      },
+      {
+        "factor": "전기차 수요",
+        "detail": "전기차(EV) 및 ESS 수요 변화는 전지소재(황산코발트 등) 매출 변동으로 이어집니다."
+      },
+      {
+        "factor": "환율·원재료",
+        "detail": "이산화티타늄 가격은 원부자재 비용과 환율 변동에 따라 판매가가 흔들릴 수 있습니다."
+      },
+      {
+        "factor": "가격경쟁",
+        "detail": "제품 가격은 경쟁사 간 가격경쟁 및 정보 유출 우려가 있어 실적에 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 이차전지 양극소재 주요 원료인 황산코발트와 대표적인 백색안료인 이산화티타늄을 제조 및 판매하는 국내 유일의 회사입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 연결회사로서 4개의 사업부문(황산코발트, 이산화티타늄, 신소재, 촉매)을 중심으로 사업의 내용을 작성하였습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "이산화티타늄은 대표적인 백색안료로서 플라스틱, 도료, 고무, 제지 등 실생활에 널리 적용되는 무기화합물"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "황산코발트 가격은 국제금속 가격에 민감하게 반응합니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5264,
+    "completion_tokens": 4522,
+    "reasoning_tokens": 3648,
+    "output_tokens": 874
+  },
+  "warnings": []
+}

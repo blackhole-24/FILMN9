@@ -1,0 +1,67 @@
+{
+  "stock_code": "053280",
+  "corp_name": "예스24",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 03:10",
+  "meta": {
+    "wics": "인터넷과카탈로그소매",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "예스24는 1999년 설립된 온라인 서점 기반의 대한민국 대표 인터넷 전문 쇼핑몰입니다. 도서 판매를 근간으로 공연 티켓 판매, 음반/DVD 및 디지털 콘텐츠(전자책·웹소설·웹툰) 서비스를 병행 운영하고 있습니다.",
+    "business_model": "핵심 수익원은 온라인 서점(도서·음반·DVD 등)이며, ENT(공연·티켓) 부문과 디지털(전자책·웹콘텐츠·이북 리더기) 부문을 운영합니다. 회사는 “도서/eBook/음반/DVD의 매출이 전체 매출의 92.0%를 차지”하고 있으며, FY2025 사업부문별 영업수익 구성은 도서/음반/DVD/기타 0.2%, 일본 0.5%, 영국 0.1%, 기타 0.0%, 매입 99.2%로 보고되어 있습니다.",
+    "main_customers": "온라인 서점 — 일반 소비자(도서·음반·멀티미디어 구매자) / ENT(공연) — 공연 관객·제휴 공연기획사 / 디지털 — 전자책·웹콘텐츠 이용자",
+    "price_factors": [
+      {
+        "factor": "도서정가제",
+        "detail": "도서정가제(할인폭 제한)로 가격 경쟁이 제한되어 서비스·고객경험이 실적과 주가에 더 큰 영향을 미칩니다."
+      },
+      {
+        "factor": "전자책 확산",
+        "detail": "스마트기기 보급 확대에 따른 전자책 수요 증가는 디지털 매출 확대에 긍정적 영향을 줍니다."
+      },
+      {
+        "factor": "공연시장 회복",
+        "detail": "COVID-19 회복으로 공연 수요가 증가하면 ENT 부문의 티켓·수수료 매출이 개선될 수 있습니다."
+      },
+      {
+        "factor": "온라인 쇼핑 환경",
+        "detail": "전문몰 중심의 온라인 쇼핑 거래 증가 추세는 플랫폼 경쟁과 고객유입에 직접적인 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "온라인 서점 분야 대한민국 대표 인터넷 전문 쇼핑몰 입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황",
+        "evidence_text": "도서/eBook/음반/DVD의 매출이 전체 매출의 92.0%를 차지하며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "개정 후 도서시장은 안정화에 접어 들었으며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "스마트폰과 태블릿PC, 스마트단말기가 급속히 보급되고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3529,
+    "completion_tokens": 3410,
+    "reasoning_tokens": 2688,
+    "output_tokens": 722
+  },
+  "warnings": []
+}

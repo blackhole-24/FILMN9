@@ -1,0 +1,67 @@
+{
+  "stock_code": "372170",
+  "corp_name": "윤성에프앤씨",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 18:05",
+  "meta": {
+    "wics": "전자장비와기기",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "윤성에프앤씨는 2차전지용 분체·액체 원재료 혼합을 위한 믹싱 장비와 시스템의 제조·판매를 주력으로 하는 기업으로, 제약·바이오 및 식품제조 장비도 생산하고 있습니다(매출액 비율 10% 미만). 전기차, ESS, 스마트폰 등 2차전지 수요 확대에 대응해 2차전지 사업에 영업력을 집중하고 있습니다.",
+    "business_model": "주요 매출 구성은 제품(74.1%), 내수(25.2%), 바이오제약(0.7%)으로 이루어져 있으며, 핵심은 전극 공정의 첫 단계인 믹싱공정을 Turn-Key(설계·제작·설치 일괄공급)로 공급하는 장비·시스템 판매입니다. 또한 설계에서 시운전까지 전과정을 제공하는 Total Engineering Service를 통해 고객 맞춤형 장비를 공급합니다.",
+    "main_customers": "2차전지 믹싱장비 — 2차전지 제조업체 / 바이오제약 장비 — 제약·바이오 기업 / 식품제조 장비 — 식품 제조기업",
+    "price_factors": [
+      {
+        "factor": "기술진입장벽",
+        "detail": "기술적 진입장벽이 높아 수준 높은 장비 개발 역량이 수주·실적에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "전기차·ESS수요",
+        "detail": "전기차·ESS 등 2차전지 수요 확대는 믹싱 장비의 수요 증가로 이어져 매출에 직접 영향합니다."
+      },
+      {
+        "factor": "주문생산구조",
+        "detail": "100% 특정 고객 맞춤형 수주 산업 특성상 주요 고객의 설비투자 변동이 실적 변동성으로 연결됩니다."
+      },
+      {
+        "factor": "환율영향",
+        "detail": "원재료 수입 및 제품 수출 관련 환율 변동은 비용과 매출에 영향을 미칠 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "믹싱 장비와 그 시스템 판매를 주력사업으로 영위하고 있으며,"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "제품 (74.1%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "제약·바이오 및 식품제조 장비를 제조하고 있습니다"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "시장여건 및 영업의 개황",
+        "evidence_text": "기술적 진입장벽이 있는 산업"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5739,
+    "completion_tokens": 4047,
+    "reasoning_tokens": 3328,
+    "output_tokens": 719
+  },
+  "warnings": []
+}

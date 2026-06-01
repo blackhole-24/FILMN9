@@ -1,0 +1,66 @@
+{
+  "stock_code": "008260",
+  "corp_name": "NI스틸",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 09:46",
+  "meta": {
+    "wics": "건축자재",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "NI스틸은 건축물의 기초토목공사부터 골격, 바닥, 외벽까지 이어지는 강건재와 강재리스 사업을 함께 하는 금속·건축자재 기업입니다. 사업보고서 기준으로 합성보·합성기둥, Deck Plate, Steel Curtain Wall, Sheet Pile, H Beam, N.I-Strut(조립식 H/Beam) 등 다양한 제품군을 바탕으로 토목·건축 현장에 공급과 리스를 제공하고 있습니다.",
+    "business_model": "회사는 제품 매출액, 상품 매출액, 강재리스 매출액, 기타 매출액으로 사업을 운영하지만, 제공된 자료에는 각 부문별 비율(%)이 제시되지 않았습니다. 강건재 제품은 합성보·합성기둥, Deck Plate, Steel Curtain Wall 등으로 건축자재를 공급하고, 강재리스는 Sheet Pile, H Beam, N.I-Strut(조립식 H/Beam), System비계&Support 등을 현장에 빌려주거나 판매하는 구조입니다. 또한 공사(시공) 매출도 함께 발생해, 단순 제조업보다 토목·건축 현장 전반을 아우르는 일괄형 사업모델을 갖고 있습니다.",
+    "main_customers": "강건재 제품 — 건축사, 시공사, 민간 건축현장, SOC 공사 / 강재리스 — 토목·건축 현장, 고객사 / 공사(시공) — 대규모 토목공사 및 민간 건축현장",
+    "price_factors": [
+      {
+        "factor": "건설경기",
+        "detail": "토목·건축산업이 전방산업이라 착공과 공사 물량이 늘면 제품 판매와 리스 수요가 함께 증가하고, 경기 둔화 시에는 매출이 줄 수 있습니다."
+      },
+      {
+        "factor": "철강가격",
+        "detail": "원자재인 철강산업의 영향이 커서 철강 가격 변동은 수익성에 직접적인 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "계절요인",
+        "detail": "2분기와 3분기는 혹서기·장마·휴가기간 영향으로 매출이 줄고, 4분기와 1분기는 예산 집행과 연말 마감으로 매출이 늘어나는 경향이 있습니다."
+      },
+      {
+        "factor": "공기단축",
+        "detail": "거푸집 공정 생략과 공기 단축 효과가 있는 제품의 수요가 커질수록 NI스틸의 강건재 경쟁력이 부각될 수 있습니다."
+      },
+      {
+        "factor": "자재공유",
+        "detail": "고가의 강재를 소유하기보다 공유하려는 흐름이 강해지면 강재리스 사업의 물류량과 수요 확대에 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "나. 주요 서비스 등의 현황",
+        "evidence_text": "당사는 ... 기초토목공사부터 건물의 골격, 바닥, 외벽 전체를 완성하는 제품군"
+      },
+      {
+        "field": "business_model",
+        "source_section": "나. 주요 서비스 등의 현황",
+        "evidence_text": "당사는 ... 토목자재 리스 및 판매와 ... 합성기둥과 합성보"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "- 경기변동의 특성",
+        "evidence_text": "당사의 건설자재 판매 및 강재리스시장은 토목, 건축산업을 전방산업"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 5884,
+    "completion_tokens": 873,
+    "reasoning_tokens": 0,
+    "output_tokens": 873
+  },
+  "warnings": []
+}

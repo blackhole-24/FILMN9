@@ -1,0 +1,96 @@
+{
+  "stock_code": "058850",
+  "corp_name": "KTcs",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 03:48",
+  "meta": {
+    "wics": "상업서비스와공급품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "KTcs는 KT 고객센터 운영과 114번호안내, 유통·B2B 서비스를 제공하는 IT 서비스 회사로서 컨택센터 운영에 강점이 있습니다. 자체 AICC(인공지능 컨택센터) 솔루션 'HiQri' 상용화 등으로 AI 기반의 서비스 전환을 추진하고 있습니다.",
+    "business_model": "FY2025 기준 사업부문별로 B2B 매출이 33.6%로 가장 큰 비중을 차지하며, 컨택서비스사업수익 23.1%, KT고객서비스수익 21.3%, 유통 사업수익 15.4% 등이 주요 수익원입니다. 컨택서비스(BPO: 비즈니스프로세스아웃소싱)와 유통 판매, 114 안내·우선번호안내를 중심으로 수익 구조가 형성되며, AICC(인공지능 컨택센터)를 통한 고부가가치 전환을 목표로 하고 있습니다.",
+    "main_customers": "컨택서비스사업 — KT 유선·무선 고객센터 및 공공기관·의료기관·지자체·일반기업 / 114사업 — 114 이용자 및 서비스 가입업체(광고 대상) / 유통사업 — 통신상품 구매 고객(직영매장·플라자 채널) / B2B — 국내 유수 기업 고객",
+    "price_factors": [
+      {
+        "factor": "인건비 비중",
+        "detail": "인건비가 매출원가에서 큰 비중(약 85~90%)을 차지해 인건비 변동이 수익성에 직접 영향을 줍니다."
+      },
+      {
+        "factor": "시장규모·경쟁",
+        "detail": "컨택센터 전체 시장 규모(약 8.8조 원)와 kt cs의 시장점유율(약 3.0%) 수준에 따라 경쟁압력과 성장여지가 실적에 반영됩니다."
+      },
+      {
+        "factor": "채널·기술전환",
+        "detail": "옴니채널·AICC 전환 추세로 기술투자 필요성이 커지며, AICC 내재화 여부가 고부가가치 전환에 영향을 미칩니다."
+      },
+      {
+        "factor": "유통가격 정책",
+        "detail": "유무선 통신사업의 경우 단말기는 제조사 가격정책을 따르고 주요 통신 서비스는 KT 가격 정책을 준용해 마진과 판매구조에 영향이 있습니다."
+      },
+      {
+        "factor": "114 사업 구조",
+        "detail": "114 번호안내 및 우선번호안내는 KT 계열사들이 독점적으로 영위하는 구조로 규제·시장구조 변화가 수익성에 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "연결회사의 각 부분",
+        "evidence_text": "KT고객센터를 비롯해 114번호안내,"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "KT고객서비스수익: 222,070 (21.3%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "컨택서비스사업수익: 241,000 (23.1%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "B2B 매출: 350,174 (33.6%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "사업의 개요(상세)",
+        "evidence_text": "공공기관, 의료기관, 지자체,일반기업"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "2. 주요 제품 등의 가격 변동 추이",
+        "evidence_text": "인건비가 약 85~90%"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "사업의 개요(상세)",
+        "evidence_text": "컨택센터 전체 시장 규모는 약 8.8조 원"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "사업의 개요(상세)",
+        "evidence_text": "이 중 kt cs는 약 3.0%의 시장점유율을 차지하고 있습니다"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "2. 주요 제품 등의 가격 변동 추이",
+        "evidence_text": "유무선 통신사업은 단말기의 경우 제조사의 가격 정책을 따르며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4543,
+    "completion_tokens": 4630,
+    "reasoning_tokens": 3520,
+    "output_tokens": 1110
+  },
+  "warnings": []
+}

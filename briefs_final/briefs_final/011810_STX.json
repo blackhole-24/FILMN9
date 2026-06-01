@@ -1,0 +1,64 @@
+{
+  "stock_code": "011810",
+  "corp_name": "STX",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 20:52",
+  "meta": {
+    "wics": "무역회사와판매업체",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "STX는 철강·비철금속 원자재 수출입, 에너지, 기계·엔진 등 전통적 무역·자원 사업을 중심으로 사업을 영위하는 기업으로, 신소재와 수소 발전 등 친환경 에너지 분야로 영역을 확대하고 있습니다. 주요 종속회사로 리조트 운영사인 STX리조트와 산업용 밸브 제조업체인 피케이밸브앤엔지니어링 등을 두고 있으며, 자체 경쟁력으로 '글로벌 전문 무역상사'로의 전환을 추구하고 있습니다.",
+    "business_model": "회사 사업부문은 무역, 제조업, 리조트 운영사업 등으로 구성되어 있으며(사업부문별 재무정보를 내부 관리 목적 사용), 무역부문에서는 금속·철강·석유제품·우드펠릿 등 에너지 자원과 산업기자재를 국내외에 공급하는 거래가 핵심 수익원입니다. 제조업부문은 산업용 밸브 등 장비 생산·공급을 담당하고, 리조트 운영은 서비스형 레저사업을 통해 별도 수익을 창출합니다. 또한 2024년부터 실물 원자재의 온라인 거래가 가능한 디지털 플랫폼 'TrollyGo'를 도입해 무역거래의 효율성 제고를 추진하고 있습니다.",
+    "main_customers": "무역부문 — 국내외 기업(원자재·중간재 수요자) / 제조업 — 산업용 장비·설비를 필요로 하는 기업 / 리조트 운영사업 — 리조트 이용 고객",
+    "price_factors": [
+      {
+        "factor": "글로벌 경기",
+        "detail": "무역사업은 글로벌 경기 순환에 민감해 경기 둔화 시 수요와 거래량이 줄어 실적에 직접 영향이 발생합니다."
+      },
+      {
+        "factor": "수급·가격 변동",
+        "detail": "금속·에너지 등 원자재의 수급 및 가격 변동성은 마진과 매출액에 직결됩니다."
+      },
+      {
+        "factor": "공급망 디지털화",
+        "detail": "디지털 플랫폼('TrollyGo') 채택 수준에 따라 거래 효율성과 경쟁력이 달라질 수 있습니다."
+      },
+      {
+        "factor": "신용·유동성",
+        "detail": "금융권 신용한도 축소나 자금유동성 악화는 영업 지속성과 재무구조에 중대한 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "에너지 물류 혁신 기업으로 성장동력을 확보해 나가고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황",
+        "evidence_text": "사업부문을 무역, 제조업, 리조트 운영사업 등으로 구분하여"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "I. 지배 기업 및 무역부문",
+        "evidence_text": "무역사업은 국가 간 및 지역 간 수급과 정보, 가격의 비대칭을 적극 활용하여"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4287,
+    "completion_tokens": 4160,
+    "reasoning_tokens": 3392,
+    "output_tokens": 768
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

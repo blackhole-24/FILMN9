@@ -1,0 +1,66 @@
+{
+  "stock_code": "226330",
+  "corp_name": "신테카바이오",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:29",
+  "meta": {
+    "wics": "건강관리업체및서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "신테카바이오는 2009년 9월에 설립된 바이오 벤처회사로, 유전체 빅데이터와 인공지능(AI)을 활용한 신약개발 플랫폼을 주력으로 하는 기업입니다. 3차원 단백질 구조와 유전체 빅데이터를 처리하는 기술을 바탕으로 AI 신약 플랫폼과 정밀의료 서비스를 제공하고 있습니다.",
+    "business_model": "주요 수익은 AI 신약 플랫폼 서비스와 유전체 빅데이터 플랫폼 서비스에서 발생하며, FY2025 사업부문별 영업수익 구성은 용역 69.0%, 기타 31.0%입니다. AI 신약 플랫폼은 DeepMatcher® 유효물질 스크리닝(초기 후보물질 발굴), 선도물질 최적화(후보물질 개선), NEO-ARS®(신생항원 발굴), AB-ARS™(항체신약 스크리닝) 등으로 구성됩니다. 유전체 빅데이터 플랫폼은 NGS-ARS®(유전체 정밀의료 서비스)를 중심으로 병원 대상 서비스를 제공하고 있으며, 이 밖에 플랫폼 유지보수·업데이트와 바이오 기업 대상 디지털 솔루션 구축(SI 서비스)도 추진하고 있습니다.",
+    "main_customers": "AI 신약 플랫폼 — 제약사, 바이오기업, 공동연구개발 파트너 / 유전체 빅데이터 플랫폼 — 국내 대학병원, 대형 병원 / SI 서비스 — 바이오 기업",
+    "price_factors": [
+      {
+        "factor": "AI수요",
+        "detail": "제약·바이오 업계의 AI 신약개발 수요가 늘수록 플랫폼 서비스와 공동연구개발 기회가 확대될 수 있습니다."
+      },
+      {
+        "factor": "병원도입",
+        "detail": "유전체 빅데이터 플랫폼이 병원에 추가로 도입될수록 정밀의료 서비스 매출 기반이 넓어질 수 있습니다."
+      },
+      {
+        "factor": "기술검증",
+        "detail": "AI 신약개발 분야는 기술이 검증된 회사로 자금조달이 집중될 수 있어, 실증 사례와 기술 신뢰도가 중요합니다."
+      },
+      {
+        "factor": "경쟁심화",
+        "detail": "글로벌 AI 신약개발 회사들과의 경쟁이 치열해질수록 기술 고도화와 차별화가 실적과 시장 평가에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "공동연구",
+        "detail": "전통 제약회사나 IT기업과의 M&A·공동연구 사례가 늘면 사업 확장과 기술사업화 속도에 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 2009년 9월에 설립된 바이오 벤처회사로서"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "용역: 2,181 (69.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "현재 국내 대학병원에 서비스를 제공함으로써 매출이 발생하고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5646,
+    "completion_tokens": 804,
+    "reasoning_tokens": 0,
+    "output_tokens": 804
+  },
+  "warnings": []
+}

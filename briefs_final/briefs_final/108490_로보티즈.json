@@ -1,0 +1,69 @@
+{
+  "stock_code": "108490",
+  "corp_name": "로보티즈",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 08:35",
+  "meta": {
+    "wics": "기계",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "로보티즈는 액츄에이터(DYNAMIXEL)와 정밀 감속기(DYD) 등 원천기술을 바탕으로 로봇 전용 부품과 완제품을 개발·제조하는 로봇 전문 기업입니다. Physical AI(물리 인공지능) 기반의 로봇 플랫폼 전환과 액션 데이터 확보를 통한 데이터 팩토리 사업으로 기업 가치를 확장하려고 하고 있습니다.",
+    "business_model": "핵심 사업은 로봇 전용 부품(액츄에이터·감속기)을 생산하는 부품 사업과 자율주행 로봇 '개미'·양팔 로봇 'AI 워커' 등 완제품 사업으로 구성됩니다. 하드웨어(모터·감속기·제어기)와 ROS 기반 소프트웨어를 결합해 로봇 플랫폼을 제공하고, 하드웨어 운용으로 얻는 고품질 Action 데이터를 수집·가공·판매하는 데이터 사업(데이터 팩토리)으로 수익 모델을 확장하고 있습니다.",
+    "main_customers": "액츄에이터 — 로봇 개발자·연구자 및 로봇 제조사 / 자율주행로봇 — 실내·외 배송 등 물류·서비스 운영자",
+    "price_factors": [
+      {
+        "factor": "법·규제",
+        "detail": "도로교통법·지능형로봇법 등 규제 범위와 완화 수준이 실외 자율주행 로봇 상용화 및 매출화 시점에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "기술진화",
+        "detail": "AI·센서·통신(5G) 성능 향상은 자율성·안전성 개선으로 로봇 수요 확대 및 제품 경쟁력 강화로 연결됩니다."
+      },
+      {
+        "factor": "사회구조",
+        "detail": "저출산·고령화·주 52시간 근무제 등 인력 대체 수요 증가는 서비스형 로봇 수요를 견인합니다."
+      },
+      {
+        "factor": "경쟁·빅테크",
+        "detail": "소프트웨어 기반 빅테크의 하드웨어·데이터 시장 진출과 시장확대 움직임은 경쟁 환경과 가격·데이터 확보 경쟁에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 개황",
+        "evidence_text": "당사는 로봇 전용 부품 사업과 로봇 완제품 사업을 모두 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "주요 제품 및 서비스",
+        "evidence_text": "다이나믹셀은 로봇 전용 구동장치로서"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "이는 주로 해외의 로봇 개발자들에게 활용되기 시작하였으며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "법률, 규정 등에 의한 규제사항",
+        "evidence_text": "지능형 로봇 개발 및 보급 촉진법은 2023년 11월 17일 시행되었습니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 5459,
+    "completion_tokens": 3232,
+    "reasoning_tokens": 2432,
+    "output_tokens": 800
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

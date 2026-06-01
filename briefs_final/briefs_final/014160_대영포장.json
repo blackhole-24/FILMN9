@@ -1,0 +1,71 @@
+{
+  "stock_code": "014160",
+  "corp_name": "대영포장",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 09:48",
+  "meta": {
+    "wics": "포장재",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "대영포장은 골판지 원단과 골판지 상자를 일괄 생산·판매하는 골판지 전문업체로, 업계 상위권에 위치해 있습니다. 3중골판지(빠렛트) 시장에서도 수요 증가에 힘입어 상위권을 유지하고 있으며, 다품종·고품질 제품으로 시장점유율을 높이려는 노력을 이어가고 있습니다.",
+    "business_model": "회사의 매출은 골판지원단·상자 제품이 88.7%로 대부분을 차지하고, 골판지상자 상품이 10.2%, 기타가 1.1%를 차지합니다. 골판지 및 골판지상자는 주문에 따라 생산·판매하는 수주산업(주문생산 산업) 성격이 강해, 고객 요구에 맞춘 규격·인쇄사양 대응과 납기, 물류비 절감이 중요한 사업 구조입니다.",
+    "main_customers": "제 품 — 상자제조용 고객 / 상 품 — 상자 수요 고객 / 기 타 — 파지 등 관련 수요처",
+    "price_factors": [
+      {
+        "factor": "수주경쟁",
+        "detail": "브랜드 차별성이 크지 않아 업체 간 수주경쟁이 치열하며, 품질·납기·가격 경쟁력이 실적에 직접 영향을 줍니다."
+      },
+      {
+        "factor": "내수의존",
+        "detail": "골판지포장산업은 제품 수출입이 거의 없는 내수산업이라 국내 포장 수요 변화가 실적에 큰 영향을 줍니다."
+      },
+      {
+        "factor": "농식품수요",
+        "detail": "농수산물과 식음료 비중이 늘어나는 흐름은 골판지 포장 수요 확대에 긍정적으로 작용합니다."
+      },
+      {
+        "factor": "택배성장",
+        "detail": "택배산업 성장으로 2차 포장 수요가 늘면 골판지 상자 수요도 함께 증가할 수 있습니다."
+      },
+      {
+        "factor": "원가경쟁",
+        "detail": "대형화·고속화·자동화와 물류비 절감 능력이 중요해 원가 경쟁력이 수익성에 큰 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 회사의 현황 > (1) 영업개황 및 사업부문의 구분 > (가) 영업개황",
+        "evidence_text": "골판지 원단 및 골판지 상자 일괄 생산 판매하는 골판지 전문업체"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "가. 회사의 현황 > (1) 영업개황 및 사업부문의 구분 > (가) 영업개황",
+        "evidence_text": "3중골판지(빠렛트)시장이 수요의 증가로 인한 업계 상위를 유지"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "제 품 | 골판지원단,상자 | ... | 251,647(88.7%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "상  품 | 골판지상자 | ... | 28,862(10.2%)"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4566,
+    "completion_tokens": 822,
+    "reasoning_tokens": 0,
+    "output_tokens": 822
+  },
+  "warnings": []
+}

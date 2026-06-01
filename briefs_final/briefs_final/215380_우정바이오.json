@@ -1,0 +1,72 @@
+{
+  "stock_code": "215380",
+  "corp_name": "우정바이오",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 12:23",
+  "meta": {
+    "wics": "생명과학도구및서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "우정바이오는 1989년 신약연구 지원을 목표로 창업하여 실험용 SPF(무균동물) 공급부터 시작한 바이오 연구 지원 서비스 기업입니다. 정밀 의학과 감염관리 분야에서 동물모델 제작, 시험대행 및 멸균·감염관리 서비스를 제공하며 면역종양학 기반 플랫폼을 구축하고 있습니다.",
+    "business_model": "사업부문은 상품, 용역, 기타로 구분되며 FY2025 기준 매출 구성은 상품 47.2%, 용역 23.4%, 기타 9.1%입니다. 핵심 수익원은 동물모델을 통한 정밀 의학(바이오마커·면역항암 관련) 서비스와 연구시설의 멸균·감염관리 및 시험대행(용역)입니다.",
+    "main_customers": "기타 — 기타 고객 / 상품 — 연구자 / 용역 — 의료 업계 및 연구자",
+    "price_factors": [
+      {
+        "factor": "연구수요",
+        "detail": "연구자·의료 업계의 신약개발 및 연구수요 변동이 상품과 용역 매출에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "규제·품질",
+        "detail": "GLP(비임상시험 기준) 등 규제·품질 요구가 높아지면 시험서비스 수요와 비용구조에 영향이 있습니다."
+      },
+      {
+        "factor": "재무구조",
+        "detail": "유형자산·차입금 비중이 큰 편이어서 차입금 변화나 이자 비용 증가는 실적·현금흐름에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "기술플랫폼",
+        "detail": "면역종양학 등 플랫폼 기술의 상용화 성과는 신규 서비스 확대와 수익성 개선에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "당사는 1989년 신약연구 지원 사업을 목표로 창업하여"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "특히 면역 종양학 (Immuno Oncology) 기술에 기반을 둔 플랫폼을 구축하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "상품: 3,768 (47.2%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "용역: 8,809 (23.4%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "기타: 2,099 (9.1%)"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3575,
+    "completion_tokens": 4570,
+    "reasoning_tokens": 3840,
+    "output_tokens": 730
+  },
+  "warnings": []
+}

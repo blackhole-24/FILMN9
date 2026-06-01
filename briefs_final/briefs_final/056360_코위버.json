@@ -1,0 +1,66 @@
+{
+  "stock_code": "056360",
+  "corp_name": "코위버",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:03",
+  "meta": {
+    "wics": "통신장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "코위버는 광 전송장비와 양자암호 분야에 주력하는 통신장비 기업입니다. 국내 메이저 통신사업자(KT, LGU+, SKT, SKB)와 한국철도공사, 한국도로공사, 한국전력공사 등 공공기관을 거래선으로 확보하고 있습니다. 2.4T급 POTN장치가 과학기술정보통신부의 우수연구개발 혁신제품으로 지정된 점도 특징입니다.",
+    "business_model": "매출 구성은 제품 22.3%, WDM(파장분할다중화 장비) 16.0%, 송변전용 6.7%, MSPP(다중서비스전송플랫폼) 5.5%, 5G-MUX(5G 연계 다중화 장비) 4.1%, 기타 38.2%, 상품 7.4%로 이루어져 있습니다. 회사는 POTN, ROADM, PTN, 캐리어 이더넷(CPE 없이 사업자망에 쓰는 이더넷 기반 전송장비) 같은 전송장비와 양자암호, 고속스위칭, AI기반 데이터센터 전용 OLS 시스템, DCI & NIC 장치 등 차세대 제품을 함께 개발·공급하는 구조입니다. 또한 52.6T급 대용량 POTN장비 출시를 앞두고 있어 전송망 고도화 수요에 맞춘 제품 확대를 추진하고 있습니다.",
+    "main_customers": "제품/WDM/송변전용/MSPP/5G-MUX — 국내 메이저 통신사업자 및 SI/NI 사업자 / 제품/WDM/송변전용/MSPP/5G-MUX — 한국철도공사, 한국도로공사, 한국전력공사 등 공공기관 / 상품 — 통신장비 관련 수요처",
+    "price_factors": [
+      {
+        "factor": "통신투자",
+        "detail": "이동통신 5G 투자와 전용망 구축이 늘면 통신장비 수요가 증가해 실적에 영향을 줍니다."
+      },
+      {
+        "factor": "공공조달",
+        "detail": "혁신제품 지정과 같은 조달 연계는 공공사업 수주 가능성을 높여 매출 흐름에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "기술교체",
+        "detail": "ROADM, POTN, 양자암호 등 차세대 장비로의 전환 속도가 빨라질수록 제품 수요가 달라집니다."
+      },
+      {
+        "factor": "부품수급",
+        "detail": "반도체 및 핵심부품 수급 상황이 악화되면 통신장비 공급과 실적 변동성이 커질 수 있습니다."
+      },
+      {
+        "factor": "환율변동",
+        "detail": "글로벌 통신장비 산업 특성상 환율 변동이 원가와 수익성에 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 회사의 현황 > (1) 영업개황 및 사업부문의 구분 1) 영업개황",
+        "evidence_text": "당사는 광 전송장비 및 양자암호 전문기업으로서"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "제품: 18,552 (22.3%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 회사의 현황 > (1) 영업개황 및 사업부문의 구분 1) 영업개황",
+        "evidence_text": "국내 메이저 통신사업자(KT, LGU+, SKT, SKB)"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4303,
+    "completion_tokens": 899,
+    "reasoning_tokens": 0,
+    "output_tokens": 899
+  },
+  "warnings": []
+}

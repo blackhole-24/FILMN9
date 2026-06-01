@@ -1,0 +1,68 @@
+{
+  "stock_code": "208640",
+  "corp_name": "썸에이지",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:26",
+  "meta": {
+    "wics": "게임엔터테인먼트",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "썸에이지는 모바일게임 개발 및 서비스 사업을 영위하는 IT 서비스 기업으로, 보고서 제출일 기준 한국표준산업분류상 온라인/모바일 게임 소프트웨어 개발 및 공급업에 속합니다. MMORPG, RPG, 전략시뮬레이션게임, AR게임 등 다양한 장르를 개발·서비스해 왔으며, 현재는 모바일게임 중심으로 사업을 이어가고 있습니다.",
+    "business_model": "회사의 주된 사업은 모바일게임 개발 및 서비스이며, 퍼블리셔(게임 배급사)로서 구글·애플·원스토어 같은 모바일 플랫폼을 통해 게임을 판매합니다. 또한 모바일/웹 광고, 온·오프라인 광고, 사전예약 등을 활용해 이용자를 확보하고 있습니다. 현재 서비스 중인 게임으로는 MMORPG '데카론M', 스포츠 대전 장르의 '복싱스타', 팀배틀 RPG '갓레이드'가 있습니다.",
+    "main_customers": "모바일게임 — 구글·애플·원스토어 등 플랫폼 이용자 / 광고·사전예약 — 신규 게임 이용자 / 라이브 서비스 게임 — 기존 게임 이용자",
+    "price_factors": [
+      {
+        "factor": "이용자확대",
+        "detail": "모바일게임은 접근성과 대중성이 높아 이용자 수가 늘수록 게임 판매와 광고 기반 수익에 영향을 줍니다."
+      },
+      {
+        "factor": "플랫폼경쟁",
+        "detail": "구글·애플·원스토어 등 모바일 플랫폼 경쟁과 유통 구조 변화가 게임 노출과 서비스 확산에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "업데이트",
+        "detail": "정기적인 콘텐츠 업데이트와 운영 능력이 중요해 기존 게임의 수명과 매출 유지에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "기술고도화",
+        "detail": "스마트폰·태블릿PC 등 기기 성능이 높아질수록 고사양 장르 구현이 가능해져 게임 개발 방향과 경쟁 구도에 영향을 줍니다."
+      },
+      {
+        "factor": "진입경쟁",
+        "detail": "모바일게임 시장의 낮은 진입장벽과 기업집중화 현상은 상위 업체와의 경쟁 강도를 높입니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사의 주된 사업은 한국표준산업분류 중 온라인/모바일 게임 소프트웨어 개발 및 공급업(J58211)에 속하며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "퍼블리셔인 당사는 구글, 애플, 원스토어 등 모바일 플랫폼을 통해 모바일게임을 판매하고 있으며"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "구글, 애플, 원스토어 등 모바일 플랫폼을 통해 모바일게임을 판매하고 있으며"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4367,
+    "completion_tokens": 736,
+    "reasoning_tokens": 0,
+    "output_tokens": 736
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

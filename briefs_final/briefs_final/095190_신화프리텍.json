@@ -1,0 +1,71 @@
+{
+  "stock_code": "095190",
+  "corp_name": "신화프리텍",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:14",
+  "meta": {
+    "wics": "기계",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "신화프리텍은 방산·항공 부품과 발전설비 부품, 그리고 다양한 산업용 부품 및 설비를 국내 주요 업체에 공급하는 기업입니다. 사업보고서 기준으로 방산/항공 부문과 발전설비 부문을 중심으로 영위하고 있으며, 2025년에는 공작기계사업(OEM) 함안사업장을 폐업해 중단영업으로 분류했습니다.",
+    "business_model": "FY2025 사업부문별 영업수익 구성은 제품 31,775(96.8%), 기타 4,014(3.2%)입니다. 회사는 방위산업 및 항공기용 부품을 만드는 방산/항공 부문과 원자력·핵융합 발전설비를 제작하는 발전설비 부문을 중심으로, 주문생산 방식의 다품종 소량생산 구조로 사업을 운영합니다. 방산사업은 정부의 보상정책(원가+@)과 장기 수주 계약의 영향을 받는 구조입니다.",
+    "main_customers": "방산/항공 부문 — 국방기관, 방산물자 관련 수요처 / 발전설비 부문 — 원자력 및 핵융합 발전설비 관련 수요처 / 제품·기타 — 국내 주요 업체 중심의 산업용 부품 수요처",
+    "price_factors": [
+      {
+        "factor": "국방예산",
+        "detail": "방산 부문은 정부 주도의 국방비와 장기 사업 계획에 따라 수주와 매출이 좌우됩니다."
+      },
+      {
+        "factor": "수출지원",
+        "detail": "정부의 방산 수출 지원과 기술 개발 정책이 강화되면 방산 산업 전반의 성장 기대가 커집니다."
+      },
+      {
+        "factor": "장기수주",
+        "detail": "방산·항공 부문은 장기 공급계약 비중이 높아 수주 흐름이 실적 안정성에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "R&D비용",
+        "detail": "연구개발 활동 확대는 미래 경쟁력에는 도움이 될 수 있지만, 단기적으로는 판관비 부담을 키울 수 있습니다."
+      },
+      {
+        "factor": "구조조정",
+        "detail": "사업 구조조정이나 중단영업 발생은 매출과 수익성, 현금흐름에 부담으로 작용할 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 방산·항공 부품, 발전설비 부품 및 다양한 산업용 부품과 설비를 국내 주요 업체를 중심으로 공급하고 있습니다."
+      },
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "공작기계사업(OEM)을 영위하는 함안사업장을 2025년 9월 12일 폐업하여 생산이 중단되었으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "제품: 31,775 (96.8%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "기타: 4,014 (3.2%)"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4325,
+    "completion_tokens": 816,
+    "reasoning_tokens": 0,
+    "output_tokens": 816
+  },
+  "warnings": []
+}

@@ -1,0 +1,77 @@
+{
+  "stock_code": "014680",
+  "corp_name": "한솔케미칼",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 21:32",
+  "meta": {
+    "wics": "화학",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "한솔케미칼은 정밀화학, 제지·환경 제품과 전자·이차전지 소재를 생산하는 화학회사입니다. 과산화수소, 라텍스·제지약품, BPO(중합개시제), 박막소재(Precursor) 등 다양한 산업용 화학제품을 제조하고 있습니다. 연결 기준 부채비율 36.7%의 우량한 재무구조를 보유하고 있습니다.",
+    "business_model": "주요 사업부문은 정밀화학제품, 제지/환경제품, 전자 및 이차전지소재제품으로 구성되어 있으며, 사업부문별 매출 비중은 정밀화학제품 31.9%, 제지/환경제품 16.1%, 전자 및 이차전지소재제품 47.5%입니다. 과산화수소 등 정밀화학과 전자소재(박막소재, Resin, QD 등)가 핵심 수익원입니다.",
+    "main_customers": "정밀화학제품 — 반도체·디스플레이·제지·섬유 제조업체 / 제지·환경제품 — 제지업체 및 폐수처리·환경 관련 사업자 / 전자 및 이차전지소재제품 — 반도체·디스플레이 제조사 및 이차전지 소재 수요기업",
+    "price_factors": [
+      {
+        "factor": "반도체수요",
+        "detail": "고객사의 반도체 라인 증설 시 초고순도 과산화수소 및 박막소재 수요가 증가하여 실적에 영향이 있음."
+      },
+      {
+        "factor": "환경규제",
+        "detail": "수자원·환경 중요성 대두로 고분자응집제(PAM) 등 수처리 약품 수요가 지속적으로 늘어날 가능성이 있음."
+      },
+      {
+        "factor": "섬유경쟁",
+        "detail": "섬유산업의 장기불황 및 저가 수입품 경쟁은 차아황산소다 등 관련 제품의 시장·가격에 영향을 미칠 수 있음."
+      },
+      {
+        "factor": "환율",
+        "detail": "연결회사들이 외화거래를 수행하므로 환율 변동은 실적과 현금흐름에 리스크로 작용할 수 있음."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "정밀화학제품 217,726(31.9%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "전자 및 이차전지소재제품 324,714(47.5%)"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "가. 재무상태(연결기준)",
+        "evidence_text": "부채비율 36.7%의 우량한 재무구조를 가지고 있으며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 업계의 현황 (과산화수소)",
+        "evidence_text": "초고순도 과산화수소의 수요량이 꾸준히 증가하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "마. 환율변동 영향",
+        "evidence_text": "환율변동으로 인한 위험에 노출되어 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "당사의 전자 및 이차전지소재 제품",
+        "evidence_text": "반도체 공정에서 반도체 박막을 형성하는 데에 사용하는 박막소재(Precursor)"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5085,
+    "completion_tokens": 5642,
+    "reasoning_tokens": 4736,
+    "output_tokens": 906
+  },
+  "warnings": []
+}

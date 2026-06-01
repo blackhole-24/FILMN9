@@ -1,0 +1,81 @@
+{
+  "stock_code": "047040",
+  "corp_name": "대우건설",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 02:18",
+  "meta": {
+    "wics": "건설",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "대우건설은 국내 주요 건설사로서 주택 공급을 중심으로 한 종합 건설역량을 보유하고 있습니다. 2025년에는 전국적으로 18,834세대를 공급하며 2년 연속 국내 주택공급 1위를 달성하는 등 주택시장 리더십을 유지하고 있습니다.",
+    "business_model": "사업부문별로 2025년 영업수익은 건축이 68.4%로 가장 큰 비중을 차지하고, 토목 17.4%, 플랜트 10.4%, 기타 8.3%로 구성됩니다. 건축 부문은 주택공급과 정비사업·비주거(오피스·데이터센터) 수행역량을 기반으로 주요 수익을 창출하며, 토목과 플랜트는 공공·해외 대형공사 중심으로 매출을 보완합니다.",
+    "main_customers": "토목 — 공공 발주처(항만·발전 등) / 건축 — 주택 수요자 및 민간·공공 발주처(정비사업·신도시 참여) / 플랜트 — 해외 정부·산업 발주처(대형 공장·인프라) / 기타 — 입주고객(주거 서비스 수요층)",
+    "price_factors": [
+      {
+        "factor": "금리",
+        "detail": "금리 상승은 금융비용과 원가부담을 확대해 수익성 악화로 이어질 수 있습니다."
+      },
+      {
+        "factor": "원가상승",
+        "detail": "급격한 원자재·공사비 상승은 마진을 압박하여 영업손익에 직접적인 부담을 줍니다."
+      },
+      {
+        "factor": "부동산시장",
+        "detail": "부동산 시장의 양극화는 지역·상품별 수요 차이로 매출과 입주 리스크에 영향을 미칩니다."
+      },
+      {
+        "factor": "해외리스크",
+        "detail": "해외 대형공사에서 발생하는 공사지연·손실은 전체 실적에 큰 변동성을 유발할 수 있습니다."
+      },
+      {
+        "factor": "보육의무화",
+        "detail": "국공립어린이집 의무화 등 정책 변화는 분양 경쟁력과 입주만족도에 영향을 주어 주택사업 성과에 작용합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "건축 부문",
+        "evidence_text": "전국적으로 18,834세대를 공급하며 2년 연속 국내 주택공급 1위를 달성"
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "토     목: 1,404,097 (17.4%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "건     축: 5,508,435 (68.4%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "플 랜 트: 841,142 (10.4%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "기    타: 664,720 (8.3%)"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "토목 부문",
+        "evidence_text": "금리상승 및 시장환경 악화 등으로 매출 및 영업손익에 많은 손실이 발생하였습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5710,
+    "completion_tokens": 4633,
+    "reasoning_tokens": 3712,
+    "output_tokens": 921
+  },
+  "warnings": []
+}

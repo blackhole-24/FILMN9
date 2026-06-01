@@ -1,0 +1,71 @@
+{
+  "stock_code": "143210",
+  "corp_name": "핸즈코퍼레이션",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 10:14",
+  "meta": {
+    "wics": "자동차부품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "핸즈코퍼레이션은 자동차용 알루미늄 휠을 전문적으로 제조하는 기업으로, 주로 OEM(주문자 상표 부착 생산) 방식으로 완성차 업체에 제품을 공급합니다. 국내 5개 공장(인천 4개, 경기도 화성 1개)과 중국 청도·모로코 공장을 포함해 연간 1,270만개 생산능력을 보유하고 있으며, 매출의 약 50%가 해외 수출을 통해 발생합니다.",
+    "business_model": "매출의 대부분이 알루미늄 휠(99.8%)이며 기타 부산물 등은 0.2%를 차지합니다. 제품은 완성차 제조사에 OEM으로 공급되며, 매출단가는 원자재(알루미늄 합금) 가격 Index(LME 등)에 연동되는 원재료 인정분(원가의 50~60%)과 가공비용(생산비·관리비·마진)으로 구성됩니다.",
+    "main_customers": "알루미늄 휠 — 완성차 제조업체(현대기아차그룹, GM그룹, 르노닛산그룹, 폭스바겐그룹, 포드, 스즈끼 등)",
+    "price_factors": [
+      {
+        "factor": "알루미늄 시세",
+        "detail": "국제 알루미늄 시세 변동은 원재료 인정분(원가의 50~60%)과 매출단가에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "환율(USD)",
+        "detail": "원재료(알루미늄 합금)를 전량 해외에서 USD로 수입하고 매출의 약 50%가 수출로 발생하여 환율 변동이 실적에 영향을 줍니다."
+      },
+      {
+        "factor": "완성차 수요",
+        "detail": "완성차 생산량 및 수요 변동은 OEM 공급물량과 매출에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "차종 트렌드",
+        "detail": "SUV 등 대형 차종 판매 증가로 대형·고급 디자인 휠 수요가 늘어나 해당 제품군 매출에 영향을 줍니다."
+      },
+      {
+        "factor": "환경규제",
+        "detail": "환경·안전 관련 규제 강화는 공정·기술 대응 및 관련 비용에 영향을 미칠 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "당사는 자동차부품 제조업체로서 자동차용 알루미늄 휠을 전문으로 생산하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "알루미늄 휠 (제품, 상품): 783,470 (99.8%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "완성차 제조업체에 제품을 공급하고있으며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 가격변동원인",
+        "evidence_text": "완성품의 중량을 원자재 가격 Index에 연동하여 매출단가가 산정됩니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3931,
+    "completion_tokens": 4680,
+    "reasoning_tokens": 3840,
+    "output_tokens": 840
+  },
+  "warnings": []
+}

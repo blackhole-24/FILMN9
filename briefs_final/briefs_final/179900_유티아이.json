@@ -1,0 +1,66 @@
+{
+  "stock_code": "179900",
+  "corp_name": "유티아이",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 10:54",
+  "meta": {
+    "wics": "핸드셋",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "유티아이는 강화유리 가공을 주력으로 하는 전기·전자(핸드셋 부품) 업체로, 스마트폰·태블릿 등 모바일 단말기의 카메라 윈도우 커버 글래스를 핵심 제품으로 공급하고 있습니다. 2015년 하반기 갤럭시 노트5를 시작으로 삼성전자의 1차 협력업체로 공급을 확대했으며, 베트남 현지법인 설립과 Corning과의 전략적 제휴 등을 통해 생산·기술 역량을 강화하고 있습니다.",
+    "business_model": "FY2025 기준 사업부문별 영업수익은 카메라윈도우 64.8%, Slimming 22.2%, 기타 12.9%로 카메라윈도우가 핵심 매출원입니다. Slimming은 Corning 유리를 공급받아 가공 후 단말기 업체에 공급하는 가공사업이며, Flexible glass 등 신제품(2026년 양산 준비중)과 소재 응용을 통한 사업다각화로 수익 기반을 확장하고 있습니다.",
+    "main_customers": "카메라윈도우 — 스마트폰·태블릿 등 단말기 제조업체(삼성전자 포함) / Slimming — 삼성전자 등 단말기 제조사 / 기타 — 해외 모바일 및 노트북 메이커",
+    "price_factors": [
+      {
+        "factor": "글로벌 수요",
+        "detail": "글로벌 스마트폰 출하량 변동은 제품 출하량과 매출에 직접 영향을 미칩니다."
+      },
+      {
+        "factor": "고객 집중",
+        "detail": "주요 단말기 제조사(예: 삼성) 의향에 따라 실적 변동성이 커질 수 있습니다."
+      },
+      {
+        "factor": "기술·자본",
+        "detail": "강화유리 가공은 기술·자본집약적 특성으로 원천기술 확보 여부가 경쟁력에 영향합니다."
+      },
+      {
+        "factor": "제품 경쟁",
+        "detail": "프리미엄 모델의 카메라·디자인 차별화는 고품질 윈도우 수요 확대나 축소로 연결됩니다."
+      },
+      {
+        "factor": "설비·재무",
+        "detail": "대규모 설비투자(생산법인·CAPA 증대)는 자산·부채 구조와 현금흐름에 영향합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 > 영업 현황",
+        "evidence_text": "당사의 주력사업인 강화유리 가공은 외부로부터의 충격과 이물 등으로부터"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "카메라윈도우: 12,952 (64.8%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 > 사업 개황",
+        "evidence_text": "단말기 제조업체에 공급하는 사업을 영위하고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5091,
+    "completion_tokens": 3822,
+    "reasoning_tokens": 3072,
+    "output_tokens": 750
+  },
+  "warnings": []
+}

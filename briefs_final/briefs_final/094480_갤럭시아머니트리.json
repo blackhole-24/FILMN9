@@ -1,0 +1,72 @@
+{
+  "stock_code": "094480",
+  "corp_name": "갤럭시아머니트리",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 07:29",
+  "meta": {
+    "wics": "IT서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "갤럭시아머니트리는 전자지급결제 서비스를 제공하는 결제 전문 대행사로, 온·오프라인의 다양한 결제 수단을 가맹점에 맞춤형으로 제공하는 것이 핵심 역량입니다. 2025년 연결기준 매출액은 1,297억 원이며 휴대폰결제·편의점 기반 결제·머니트리카드 등으로 거래대금을 확대해 왔습니다.",
+    "business_model": "사업부문은 전자결제사업과 O2O사업으로 구성되며, FY2025 기준 전자결제사업이 74.7%, O2O사업이 25.2%의 매출 비중을 차지합니다. 전자결제사업은 휴대폰결제·신용카드결제·계좌이체 등 결제대행(PG: Payment Gateway)을 통해 가맹점의 결제·정산을 대행하고, O2O사업은 머니트리 앱과 머니트리카드·편의점 네트워크를 통한 모바일 상품권·선불결제 중심의 서비스를 제공합니다.",
+    "main_customers": "전자결제사업 — 가맹점(인터넷 쇼핑몰, 게임사, 배달앱 등) / O2O사업 — 편의점 등 오프라인 가맹점 및 머니트리 앱을 이용하는 일반 소비자",
+    "price_factors": [
+      {
+        "factor": "시장집중도",
+        "detail": "대형 상위 PG사들이 시장의 큰 비중(약 80%)을 차지해 경쟁 심화 시 가맹점 확보와 수수료 구조에 영향이 클 수 있습니다."
+      },
+      {
+        "factor": "모바일전환",
+        "detail": "간편결제·모바일 이용 비중 확대(간편결제 72.3%)는 휴대폰결제·앱 기반 O2O 거래 증가로 실적에 긍정적으로 작용합니다."
+      },
+      {
+        "factor": "제도·규제",
+        "detail": "전자금융거래법 등 규제 강화는 정산·보안 요건과 비용에 영향을 주어 운영비용 및 리스크 관리에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "이커머스 경기",
+        "detail": "온라인 쇼핑 시장 축소(2025년 시장 위축)는 거래대금 및 결제 이용 증가율에 영향을 주어 매출 변동성을 유발할 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 > 영업 현황",
+        "evidence_text": "당사는 전자지급결제를 위한 결제 전문 대행사로,"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "전자결제사업: 96,926 (74.7%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "O2O사업: 32,744 (25.2%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 > 영업 현황",
+        "evidence_text": "가맹점(인터넷 쇼핑몰, 게임사, 배달앱 등)"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 > 산업의 특성",
+        "evidence_text": "대형 상위 PG사들이 전체점유율의 약 80%를 차지하고 있으며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5232,
+    "completion_tokens": 3170,
+    "reasoning_tokens": 2304,
+    "output_tokens": 866
+  },
+  "warnings": []
+}

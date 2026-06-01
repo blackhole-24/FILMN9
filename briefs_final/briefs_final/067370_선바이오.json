@@ -1,0 +1,81 @@
+{
+  "stock_code": "067370",
+  "corp_name": "선바이오",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 04:54",
+  "meta": {
+    "wics": "생물공학",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "선바이오는 1997년 설립되어 PEG(Polyethylene glycol) 계열의 PEG 유도체(PEG derivatives) 소재를 설계·합성·생산·판매하는 바이오·소재 기업입니다. 호중구감소증 치료제(PEG-filgrastim), 구강건조증 치료제(MucoPEG), 인공혈액(SBX) 연구개발과 이차전지 전해질 연구개발 등을 병행하며 PEG 유도체 생산을 핵심 사업으로 삼고 있습니다.",
+    "business_model": "주요 수익원은 제품매출(PEG 유도체 등 제품 판매)과 로열티(라이센싱 아웃)로 구성되며, 2025년 기준 제품매출이 70.0%, 로열티매출이 30.0%를 차지합니다. 자사 생산한 PEG 유도체를 완제품 제조사에 공급하고(생산판매), 일부 기술·제품은 해외 기업과의 라이센싱을 통해 로열티를 확보하는 구조입니다.",
+    "main_customers": "PEG 유도체 — 완제품 생산업체(제약사, 예: Intas Pharma) / MucoPEG(제품·라이선스) — 미국 등 해외 제약회사(LO 대상)",
+    "price_factors": [
+      {
+        "factor": "허가·규제",
+        "detail": "미국 등 주요국의 판매승인 지연 또는 확보 여부가 제품 판매와 로열티 수입에 직접적 영향을 미칩니다."
+      },
+      {
+        "factor": "특허·지식재산",
+        "detail": "MucoPEG 등의 특허 등록 상태(출원·등록 여부)가 해외 라이센싱 논의 진척과 로열티 창출에 영향을 줍니다."
+      },
+      {
+        "factor": "매출구성",
+        "detail": "제품매출(70%)과 로열티(30%) 비중 변화는 분기·연도별 수익성 변동성에 영향합니다."
+      },
+      {
+        "factor": "생산능력",
+        "detail": "기존 cGMP 생산 및 인천 신공장 확대로 제조규모 확대가 제품 공급과 매출 확장에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "환율",
+        "detail": "외화(USD) 변동성은 환율 민감도에 따라 손익에 영향을 미칠 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "당사는 1997년 설립이후 20여년간 PEG(Polyethylene glycol)라는 생체적합 고분자를 주 성분으로 하는 파생 물질인 “PEG 유도체(PEG derivatives) 소재\"를 다양한 형태로 디자인하여 합성, 생산 및 판매하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "로열티매출: 3,692,874 (30.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "제품매출: 7,783,740 (70.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 최근 사업 현황",
+        "evidence_text": "mPEG-PAL을 당사가 생산하여 완제품 생산자인 Intas Pharma사에 수출하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 최근 사업 현황",
+        "evidence_text": "현재 미국 승인은 아직 득하지 못했으나, 승인절차가 진행중입니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "(2) 민감도 분석보고기간종료일 현재",
+        "evidence_text": "기능통화의 환율 10% 변동시 환율변동이 손익에 미치는 영향은 다음과 같습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4256,
+    "completion_tokens": 4555,
+    "reasoning_tokens": 3584,
+    "output_tokens": 971
+  },
+  "warnings": []
+}

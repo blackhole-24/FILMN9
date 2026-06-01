@@ -1,0 +1,81 @@
+{
+  "stock_code": "120240",
+  "corp_name": "대정화금",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 09:09",
+  "meta": {
+    "wics": "화학",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "대정화금은 일반·분석·진단·특수 시험용 시약과 전자급 솔벤트 및 원료의약품을 생산하여 국내외로 수출하는 화학회사입니다. 주요 제품으로는 각종 Alcohol류, Acetonitrile, Tetrahydrofuran, Ethyl acetate 등이 있으며 시약 사업과 원료의약품 사업을 영위하고 있습니다.",
+    "business_model": "사업부문은 시약 사업과 원료의약품(API, 원료의약품) 사업으로 구분되며, FY2025 제품별 영업수익 구성은 Ethyl acetate 3.5%, n-Hexane 3.4%, Methyl alcohol 0.7%, 기타 85.7%입니다. 시약류와 전자급 용매(High‑Purity Solvents) 판매 및 제약·화학사 대상의 원료 공급이 핵심 수익원입니다.",
+    "main_customers": "시약 — 연구개발·바이오·환경 분야 및 화학회사 (예: ㈜ LG화학, 한미정밀화학㈜, ㈜효성) / 원료의약품 — 완제의약품 제조업체(예: ㈜종근당, 보령제약㈜, 한국유나이티드제약㈜)",
+    "price_factors": [
+      {
+        "factor": "품질요구성",
+        "detail": "시약과 원료의약품은 높은 순도·성능·보증 수준이 요구되어 품질 문제가 발생하면 실적에 즉각적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "규제·허가",
+        "detail": "원료의약품은 각국의 의약품 허가·안전성 규제 영향을 크게 받아 규제 변화가 사업 진입 및 매출에 영향을 미칩니다."
+      },
+      {
+        "factor": "글로벌경쟁",
+        "detail": "중국 등 신흥 원료의약품·시약 업체의 시장 진입은 가격 경쟁을 촉발해 수익성에 부담을 줄 수 있습니다."
+      },
+      {
+        "factor": "수요변동성",
+        "detail": "진단·바이오·전자 등 최종산업의 수요 변동(예: 진단시장 팽창·위축)은 시약 수요의 변동성으로 연결됩니다."
+      },
+      {
+        "factor": "기술혁신",
+        "detail": "BT·IT·NT 등 기술 융합에 따른 신제품 수요 증가는 매출 다변화 기회가 되지만 기술 수명의 단축은 변동성을 키울 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "국내 또는 해외에 수출하는 화학회사입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "Ethyl acetate: 3,758,166 (3.5%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "기타: 53,155,043 (85.7%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "주요 매출처는 ㈜ LG화학,한미정밀화학㈜,㈜효성 등의 화학회사"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "㈜종근당, 보령제약㈜, 한국유나이티드제약㈜ 등의 제약사입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "당사의 2025년 매출액은 전년 대비 17.09% 증가한 108,081백만원,"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4980,
+    "completion_tokens": 4884,
+    "reasoning_tokens": 3904,
+    "output_tokens": 980
+  },
+  "warnings": []
+}

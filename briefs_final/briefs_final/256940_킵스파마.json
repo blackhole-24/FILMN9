@@ -1,0 +1,87 @@
+{
+  "stock_code": "256940",
+  "corp_name": "킵스파마",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 13:58",
+  "meta": {
+    "wics": "비철금속",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "킵스파마(종목코드 256940)는 OLED 장비 사업을 영위하던 회사가 계열사 인수·합병을 통해 제약·바이오로 업종 전환을 완료한 기업입니다. 2024~2025년 한국글로벌제약 인수 및 흡수합병을 통해 완제의약품 생산능력을 확보했고, 사업 포트폴리오에는 제약·바이오, 리사이클링, OLED가 공존합니다.",
+    "business_model": "FY2025 기준 사업부문별 영업수익 구성은 제약·바이오 29.0%, 리사이클링 68.0%, OLED 3.0%로 수익이 구성되어 있습니다. 제약·바이오는 KGMP 인증을 받은 서천공장을 통해 주로 전문의약품(ETC)을 생산·공급하고 위탁영업 방식을 통해 의료기관에 판매하며, OLED는 고객사 요구에 따른 주문생산 방식으로 장비를 공급합니다.",
+    "main_customers": "제약·바이오 — 의료기관(전문의약품 판매 대상) / 리사이클링 — (보고서에 특정 고객군 미기재) / OLED — 장비 주문자(고객사, 주문생산 방식)",
+    "price_factors": [
+      {
+        "factor": "규제",
+        "detail": "약사법·KGMP 등 제약 관련 규제 강화는 허가·생산비용·시판 절차에 영향을 미쳐 실적과 리스크에 직접 영향합니다."
+      },
+      {
+        "factor": "연구개발",
+        "detail": "제약산업은 연구개발 비중이 높은 산업으로 R&D 투자 성향이 실적과 사업성에 영향을 줍니다."
+      },
+      {
+        "factor": "LME시세",
+        "detail": "리사이클링 부문은 국제금속시장(LME) 시세 변동에 따라 원재료비 및 수익성이 변동합니다."
+      },
+      {
+        "factor": "주문생산",
+        "detail": "OLED 장비는 전량 주문생산 방식으로 사양별 가격 차이가 커 가격표준화 부재가 수익성 변동 요인입니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "<제약·바이오 사업부문>",
+        "evidence_text": "제약·바이오 사업부문으로의 업종 전환을 완료했습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "제약·바이오(*4): 49,215 (29.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "리사이클링: 115,607 (68.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "OLED: 5,324 (3.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "<제약·바이오 사업부문>",
+        "evidence_text": "주로 전문의약품(ETC)을 생산하여 의료기관에 판매하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "<제약·바이오 사업부문> 1) 산업의 이해 및 특성",
+        "evidence_text": "① 연구개발 비중이 높은 산업"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "<제약·바이오 사업부문> 2) 주요 제품 등의 가격변동추이",
+        "evidence_text": "이에 따라 회사의 수익성은 LME (London Metal Exchange, 국제시장가격) 시세의 변동에 영향을 받게 됩니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "<OLED 사업부문> 2) 주요 제품 등의 가격변동추이",
+        "evidence_text": "회사의 장비는 전량 주문생산방식으로, 고객사의 요구 사양에 따라 장비 스펙이 상이하여 장비의 연도별 가격 변동 추이 산출이 어렵습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5608,
+    "completion_tokens": 4368,
+    "reasoning_tokens": 3328,
+    "output_tokens": 1040
+  },
+  "warnings": []
+}

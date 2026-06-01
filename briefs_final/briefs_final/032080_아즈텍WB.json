@@ -1,0 +1,88 @@
+{
+  "stock_code": "032080",
+  "corp_name": "아즈텍WB",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 13:03",
+  "meta": {
+    "wics": "섬유,의류,신발,호화품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "아즈텍WB는 1969년 왕벌물산에서 출발한 모직물 기반의 섬유·의류 기업으로, 모직물 사업에서 업계 상위권을 유지하며 의류 브랜드(아바몰리)와 스포츠웨어(골프프로모션) 등으로 사업을 확장해왔습니다. 기능성 모직물과 해외 수출 확대를 통해 부가가치 창출을 도모하고 있습니다.",
+    "business_model": "핵심 사업은 직물(모직물) 제조와 프로모션(의류 디자인 및 자사 브랜드·스포츠웨어)이며, 임가공 및 기타 제조서비스도 수행합니다. 2009년 프로모션 부문 출범과 2017년 자사 브랜드 아바몰리(AVAMOLLI) 론칭, 2021년 골프프로모션 출범을 통해 제조형 사업과 브랜드·유통형 사업을 병행하는 구조입니다.",
+    "main_customers": "프로모션 — 기존 거래업체·유통(코스트코, 아울렛)·홈쇼핑 / 직물 — 온라인 판매 채널 및 해외 수출 바이어 / 의류 — 기존 거래처 및 신규 유통망 / 임가공/기타 — 제조업체 의뢰처",
+    "price_factors": [
+      {
+        "factor": "내수 의존도",
+        "detail": "국내 섬유·패션 업계의 내수 의존도가 높아 국내 소비 침체가 실적에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "수요 변동성",
+        "detail": "패션은 유행 변화와 수요 민감도가 커 경기 변동에 따라 매출 변동성이 큽니다."
+      },
+      {
+        "factor": "중국 경쟁",
+        "detail": "중국과의 가격 경쟁력 약화는 직물 수주량과 매출에 부정적 영향을 줍니다."
+      },
+      {
+        "factor": "원가 상승",
+        "detail": "전력·연료·운반비 등 제조경비 상승은 임가공 부문에서 배드코스트(손실)를 발생시킵니다."
+      },
+      {
+        "factor": "브랜드 충성도",
+        "detail": "명품·충성도 높은 브랜드는 경기 충격에 덜 민감해 브랜드 강화가 수익 안정성에 기여합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황 > 2. 회사의 현황",
+        "evidence_text": "당사는 1969년 설립된 국내 1세대 모직물 기업 왕벌물산에서 출발하여"
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황 > 2. 회사의 현황",
+        "evidence_text": "2009년 프로모션 부문을 출범하여 의류 디자인 사업을 시작하였고"
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황 > 2. 회사의 현황",
+        "evidence_text": "자사 브랜드인 \"아바몰리(AVAMOLLI)\"를 론칭하였습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황 > [2025년도 부문별 매출 증감사유 및 대책]",
+        "evidence_text": "기존 거래 업체 및 브랜드의 코스트코 유통량 증가"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "영업 현황 > 1. 업계의 현황",
+        "evidence_text": "국내 섬유·패션업계는 업계의 특성상 내수 의존도가 높은 편입니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "영업 현황 > 1. 업계의 현황",
+        "evidence_text": "패션시장은 유행이 빠르게 변하고 타 업계에 비해 수요의 민감도가 큰 편입니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "영업 현황 > [2025년도 부문별 매출 증감사유 및 대책]",
+        "evidence_text": "중국과의 가격 경쟁력 약화로 인한 수주량 및 매출 감소"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4258,
+    "completion_tokens": 3648,
+    "reasoning_tokens": 2624,
+    "output_tokens": 1024
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

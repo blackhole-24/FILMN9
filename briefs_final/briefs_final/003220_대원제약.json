@@ -1,0 +1,72 @@
+{
+  "stock_code": "003220",
+  "corp_name": "대원제약",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 18:26",
+  "meta": {
+    "wics": "제약",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "대원제약은 의약품 제조·판매를 주력으로 하는 제약회사로, 연결회사에는 화장품·건강기능식품·의료기기 관련 계열사가 포함되어 있습니다. 의약품과 일반의약품, CMO(수탁생산) 및 해외수출을 통해 제품 포트폴리오를 운영하고 있습니다.",
+    "business_model": "주요 사업부문은 제약부문(의약품 제조·판매), 화장품부문, 건강기능식품부문 및 기타부문으로 구성되어 있으며, FY2025 사업부문별 영업수익 중 코대원포르테/에스는 12.2%, 마스크팩은 2.7%를 차지합니다. 자체 의약품 판매 외에 우수한 선진 GMP급 생산시설을 기반으로 한 CMO(수탁생산) 사업과 해외 완제의약품·의료기기 수출도 핵심 수익원으로 작용합니다.",
+    "main_customers": "제약부문 — 국내 병·의원·약국 / CMO(수탁생산) — 국내 유수 제약기업 / 화장품(마스크팩 등) — 국내 및 해외 소비자 / 건강기능식품 — 일반 소비자 / 의료기기 — 보청기·의료기기 구매처(해외 포함)",
+    "price_factors": [
+      {
+        "factor": "약가정책",
+        "detail": "정부의 약가인하·보험급여 재평가 등 약가정책 변화가 의약품 매출에 직접적 영향을 미칩니다."
+      },
+      {
+        "factor": "제조규제",
+        "detail": "GMP·품목별 사전 GMP 등 제조·인허가 규제가 강화되면 연구·생산 비용과 시간 부담이 확대됩니다."
+      },
+      {
+        "factor": "생산능력",
+        "detail": "선진 GMP급 생산시설과 CMO 역량은 수탁물량 확보와 상업생산 가동에 따른 실적 변동 요인입니다."
+      },
+      {
+        "factor": "해외시장",
+        "detail": "해외 수출·현지 판매(동남아 등) 확대는 환율 및 현지 수요 변화에 따라 실적에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 지배기업의 현황",
+        "evidence_text": "당사는 의약품 제조 및 판매를 주요 사업으로 영위하는 업체"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "코대원포르테/에스: 73,650 (12.2%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. 지배기업의 현황",
+        "evidence_text": "우수한 선진 GMP급 생산시설과 특화된 제품력을 기반"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 지배기업의 현황",
+        "evidence_text": "국내 병ㆍ의원ㆍ약국을 대상으로 공급하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "다. 영위 중인 사업의 특성",
+        "evidence_text": "약가인하와 같은 정부의 정책 변화에 상대적으로 더욱 큰 영향을 받고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4792,
+    "completion_tokens": 4849,
+    "reasoning_tokens": 4032,
+    "output_tokens": 817
+  },
+  "warnings": []
+}

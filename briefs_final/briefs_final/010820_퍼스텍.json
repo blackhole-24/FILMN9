@@ -1,0 +1,67 @@
+{
+  "stock_code": "010820",
+  "corp_name": "퍼스텍",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 12:17",
+  "meta": {
+    "wics": "우주항공과국방",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "퍼스텍은 1975년 전신 제일정밀공업으로 설립된 방위산업 전문 기업으로, T-50·수리온·K-9 자주포 등 굵직한 체계사업에 참여하며 발사통제장비·구동장치·냉각장치 등 다양한 방산 부품을 개발·생산해 왔습니다. 국가 방위사업체로 지정된 이후 장기간 방위산업 분야에서 기술과 품질을 인정받아온 국내 방산업체입니다.",
+    "business_model": "회사는 단일 사업부문인 방위산업(무기 및 총포탄 제조업)을 통해 수익을 창출하며, 관련 전자자동제어기기·무인항공기 지상통제시스템 등 제품 판매가 핵심 수익원으로 매출의 100%가 방위산업 부문에서 발생합니다. 주요 사업 특성상 정부(국방부·군)를 대상으로 한 장기 공급계약과 체계사업 참여를 통해 안정적인 매출 기반을 유지합니다.",
+    "main_customers": "무기 및 총포탄 제조업(방위산업) — 국방부·군(정부기관)",
+    "price_factors": [
+      {
+        "factor": "국방예산",
+        "detail": "국방예산 규모 변화에 따라 수주 규모와 매출이 직접 영향을 받아 실적 변동성이 생깁니다."
+      },
+      {
+        "factor": "국제정세",
+        "detail": "안보 상황(국제정세) 변화가 방산 수요를 좌우하여 사업 계획과 수주에 영향을 줍니다."
+      },
+      {
+        "factor": "기술진보",
+        "detail": "제품 성능과 기술 수준이 중요한 산업 특성상 기술 경쟁력이 실적과 평가에 큰 영향을 미칩니다."
+      },
+      {
+        "factor": "시장집중도",
+        "detail": "상위 업체들이 시장을 대부분 점유하는 구조로 경쟁·협력 관계와 수주 기회가 제한될 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 1975년 9월에 전신인 제일정밀공업㈜가 설립되어"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "회사는 당기말 현재 국내에 단일 사업 부문(방위산업)을 운영하고 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "군이라는 안정적인 고객이 존재하는 특성이 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "매출액은 전년대비 42.2%가 증가한 2,948억원을 기록하였으며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4023,
+    "completion_tokens": 3233,
+    "reasoning_tokens": 2496,
+    "output_tokens": 737
+  },
+  "warnings": []
+}

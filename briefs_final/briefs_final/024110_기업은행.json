@@ -1,0 +1,76 @@
+{
+  "stock_code": "024110",
+  "corp_name": "기업은행",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 09:53",
+  "meta": {
+    "wics": "은행",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "기업은행은 1961년 중소기업자의 자주적인 경제활동과 경제적 지위 향상을 돕기 위해 설립된 은행입니다. 중소기업금융시장에서 2025년말 중소기업대출 잔액 261.9조원, 시장점유율 24.41%를 기록하며 리딩뱅크(시장 선도 은행) 지위를 유지하고 있습니다. 비은행 자회사 9개와 해외법인 4개, 해외지점 9개, 사무소 2개를 운영하고 있습니다.",
+    "business_model": "사업부문별 매출 구성은 은행계정 99.4%, 신탁계정 0.6%로, 사실상 은행 본업이 대부분의 수익을 차지합니다. 예금·대출·어음할인 같은 은행 고유업무와 함께 파생상품, 국채·지방채·특수채 관련 업무, 투자자문업, 신탁업, 보험대리점, 퇴직연금, 신용카드업까지 폭넓게 영위합니다. 또한 중소기업금융채권 발행과 재정자금 차입을 통해 중소기업과 소상공인 지원 역할을 수행합니다.",
+    "main_customers": "은행계정 — 중소기업, 소상공인, 수출입기업, 유망 성장기업 / 신탁계정 — 신탁상품 이용 고객 / 해외법인·해외지점 — 진출 중소기업, 현지화 영업 대상 기업",
+    "price_factors": [
+      {
+        "factor": "금리환경",
+        "detail": "금리 인하기에는 NIM(순이자마진) 악화로 수익성이 약해질 수 있어 실적에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "대출성장",
+        "detail": "중소기업대출 잔액이 늘어날수록 이자이익 기반이 확대되어 은행 실적에 긍정적으로 작용합니다."
+      },
+      {
+        "factor": "건전성",
+        "detail": "고정이하여신비율과 대손비용률이 높아지면 충당금 부담이 커져 실적 변동성이 커질 수 있습니다."
+      },
+      {
+        "factor": "지정학",
+        "detail": "중동발 지정학적 리스크나 국제유가 급등은 대내외 경기를 흔들어 기업여신 환경에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "해외확장",
+        "detail": "폴란드 법인 등 해외 확장은 진출 중소기업 지원과 현지 영업 확대에 연결되어 성장 동력으로 작용할 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "1961년 중소기업은행법에 의거하여 설립되었습니다."
+      },
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "중소기업대출 잔액은 261.9조원으로, 시장점유율 24.41%"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "은행계정 주1) | 265,981"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "신탁계정 주2) | 1,589"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "중소기업자의 자주적인 경제활동을 원활하게"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4271,
+    "completion_tokens": 909,
+    "reasoning_tokens": 0,
+    "output_tokens": 909
+  },
+  "warnings": []
+}

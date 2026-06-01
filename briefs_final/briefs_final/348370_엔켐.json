@@ -1,0 +1,67 @@
+{
+  "stock_code": "348370",
+  "corp_name": "엔켐",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 17:13",
+  "meta": {
+    "wics": "전기제품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "엔켐은 전기차용 전해액과 전해액 첨가제를 제조·판매하는 2차전지 소재기업으로, 2012년 제천공장 가동과 2015년 설비 인수로 국내 생산능력을 확보한 뒤 글로벌 생산기지로 확장해 왔습니다. 보고서 기준 연간 글로벌 전해액 Capa 570,000톤과 NMP 20,000톤을 보유하고 있습니다.",
+    "business_model": "핵심 사업은 전기자동차 및 ESS용 전해액(리튬이온 2차전지용)과 전해액 제조에 쓰이는 용매(NMP) 생산으로, FY2025 기준 전해액 매출이 95.2%를 차지하고 NMP가 4.8%를 차지합니다(전해액 중심의 수익구조). 전해액은 배터리 성능(수명·출력·안전성)에 직결되는 핵심소재입니다.",
+    "main_customers": "전해액 — 배터리 회사 및 자동차 OEM(완성차 업체) / NMP — 전해액·2차전지 제조사",
+    "price_factors": [
+      {
+        "factor": "전방수요",
+        "detail": "전기차·ESS 수요 변화에 실적이 민감하여 전기차 시장 확대 시 수혜가 예상됩니다."
+      },
+      {
+        "factor": "정책(IRA)",
+        "detail": "미국의 IRA 등 정책에 따라 북미 현지 생산 전해액 수요가 늘어나면 지역별 수혜·공급구조 변화가 발생합니다."
+      },
+      {
+        "factor": "기술경쟁",
+        "detail": "첨가제 및 배합조성 개발 노하우가 핵심 경쟁력으로, 기술 우위가 실적과 거래처 확보에 영향합니다."
+      },
+      {
+        "factor": "공장근접성",
+        "detail": "전해액은 유통기간과 안전 이슈로 고객사 인근 생산능력과 규모의 경제가 공급 안정성·원가에 직결됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 주요 제품에 관한 사항",
+        "evidence_text": "당시는 2차전지 핵심소재 중 전해액을 생산 및 판매하는 사업을 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "전해액: 297,637 (95.2%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "전해액 회사의 고객인 배터리 회사와 배터리 회사의 고객인 자동차 OEM 회사들"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나. 업계의 현황",
+        "evidence_text": "인플레이션 감축법(IRA)에 따라 북미 시장에서의 현지 공장에서 생산된 전해액의 수요가 높아짐"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4308,
+    "completion_tokens": 4012,
+    "reasoning_tokens": 3264,
+    "output_tokens": 748
+  },
+  "warnings": []
+}

@@ -1,0 +1,62 @@
+{
+  "stock_code": "297890",
+  "corp_name": "HB솔루션",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 15:29",
+  "meta": {
+    "wics": "디스플레이장비및부품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "HB솔루션은 2001년 9월 6일 설립된 디스플레이·반도체 장비 제조 기업으로, 레진 도포·접합 및 검사 설비와 물성분석 기술을 바탕으로 장비를 개발·생산·판매하고 있습니다. 잉크젯 프린팅 장비와 반도체 웨이퍼 검사장비 등 전후공정 전반에 적용 가능한 장비 포트폴리오를 보유하고 있습니다.",
+    "business_model": "주요 매출원은 도포기(64.3%), 전공정용 측정·검사기(11.8%), 기타(상품·CS)(23.9%)로 구성되어 있으며, 도포기(레진 도포·검사·접합 자동화 장비)가 전체 매출의 주요 축을 차지합니다. 또한 잉크젯 장비와 반도체 검사장비 개발을 통한 제품 다각화(신사업 적용 가능성)를 통해 수익 기반을 확장하려 하고 있습니다.",
+    "main_customers": "도포기 — 디스플레이 모듈 제조업체 / 전공정용 측정·검사기 — 디스플레이 패널 제조업체·반도체 생산 기업 / 기타(상품,CS) — 상품 구매처 및 서비스 고객",
+    "price_factors": [
+      {
+        "factor": "경기민감성",
+        "detail": "디스플레이 최종제품이 소비재이므로 경기변동에 따라 장비 수요와 실적이 크게 변동합니다."
+      },
+      {
+        "factor": "전방투자",
+        "detail": "디스플레이 패널 제조업체의 생산라인 증설·신규투자 계획이 장비 수주에 직접 영향을 미칩니다."
+      },
+      {
+        "factor": "공정특화",
+        "detail": "각 공정에 따라 필요한 장비가 달라 업체별 진입 공정 차이가 실적과 경쟁력에 영향을 줍니다."
+      },
+      {
+        "factor": "사업다각화",
+        "detail": "잉크젯·반도체 장비 외 2차전지·자동차·바이오 적용 가능성은 성공 시 매출원 분산에 기여할 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "당사는 2001년 9월 6일 설립하였으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "도포기: 61,854 (64.3%)"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "디스플레이 산업은 경기에 민감하게 반응하는 산업적 특성을 가지고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4034,
+    "completion_tokens": 3018,
+    "reasoning_tokens": 2304,
+    "output_tokens": 714
+  },
+  "warnings": []
+}

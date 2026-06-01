@@ -1,0 +1,64 @@
+{
+  "stock_code": "021320",
+  "corp_name": "KCC건설",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 22:37",
+  "meta": {
+    "wics": "건설",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "KCC건설은 토목·건축 공사를 수행하는 건설업체로, 댐·철도·지하철·고속도로 등 토목공사와 호텔·오피스텔·병원·연구시설·물류시설·아파트 등 다양한 건축물을 국내외에 건립해 왔습니다. 오랜 공법개발과 품질관리를 바탕으로 공공기관 등으로부터 우수시공업체로 선정된 이력이 있습니다.",
+    "business_model": "당사는 '국내도급공사(도급공사: 발주자로부터 직접 수주해 공사 수행)'를 주요 사업으로 하는 건설업자이며, 공공 공사(토목·공공시설)와 민간 건축공사(공동주택·복합시설·물류센터 등)를 수행합니다. 내부적으로는 서로 다른 기술·마케팅을 가진 3개의 전략적 보고부문을 운영하여 분기 단위로 실적을 모니터링합니다.",
+    "main_customers": "공공공사 — 정부·공공기관(예: 한국토지주택공사, 청주시청사 등) / 민간공사 — 민간 발주자(공동주택·복합시설·창고시설 등)",
+    "price_factors": [
+      {
+        "factor": "건설수주",
+        "detail": "국내 건설수주 규모 변동(연간 전망치)은 수주 확보와 향후 매출에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "공공예산",
+        "detail": "SOC 예산 등 공공 예산 확대·축소는 공공 공사 수주량에 영향을 주어 실적 변동 요인이 됩니다."
+      },
+      {
+        "factor": "경기민감성",
+        "detail": "건설업은 경기변동에 민감하여 경기 둔화나 금리 변화 시 민간 투자·주택수요가 위축될 수 있습니다."
+      },
+      {
+        "factor": "자금조달",
+        "detail": "수주산업 특성상 선투입 부담과 자금조달 여건은 재무구조와 공사 수행 능력에 중요한 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "Ⅱ. 사업의 내용 > 영업의 현황",
+        "evidence_text": "댐, 철도, 지하철, 고속도로 등의 토목건설"
+      },
+      {
+        "field": "business_model",
+        "source_section": "Ⅱ. 사업의 내용",
+        "evidence_text": "당사는 전략적인 영업단위인 3개의 보고부문을 가지고 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "Ⅱ. 사업의 내용 > 영업의 현황",
+        "evidence_text": "한국토지주택공사 등 여러 기관으로부터 우수시공업체로 선정된 바 있으며"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4764,
+    "completion_tokens": 5060,
+    "reasoning_tokens": 4352,
+    "output_tokens": 708
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

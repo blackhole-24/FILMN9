@@ -1,0 +1,86 @@
+{
+  "stock_code": "037230",
+  "corp_name": "한국팩키지",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 12:46",
+  "meta": {
+    "wics": "포장재",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "한국팩키지는 1979년 대한민국 최초로 우유팩을 생산한 이후 카톤팩과 포장자재를 제조해 온 포장 전문기업입니다. 1993년 한국제지에서 분사하였고, 2021년 원창포장공업(주)을 흡수합병하여 종합포장회사로 사업을 확장했습니다. 매출의 일부는 일본·동남아 등으로 수출되며 매출 중 수출 비중이 약 30% 이상입니다.",
+    "business_model": "주요 사업부문은 카톤팩(35.2%)과 포장자재(64.8%)로 구성되어 있으며(사업부문별 영업수익 구성 기준), 카톤팩은 액체식품용 위생 포장재로, 포장자재는 섬유·전자·식품 등 다양한 제품의 외부포장용으로 주문생산 방식(100% 주문생산)에 의해 판매됩니다. 카톤팩은 수입원재료 비중이 높아 환율에 민감하고, 포장자재는 국내 골판지원지 등 원재료 가격에 따라 판매단가가 결정됩니다.",
+    "main_customers": "카톤팩 — 우유·주스 등 액체식품 제조업체 / 포장자재 — 섬유제품·전자제품·식품·의약품·농·수산물 제조업체 및 전자상거래·홈쇼핑 유통업체",
+    "price_factors": [
+      {
+        "factor": "환율",
+        "detail": "카톤팩은 수입원재료 비중이 높아 환율 변동이 판매가격 및 수출수익에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "원재료가격",
+        "detail": "포장자재는 국내 골판지원지 등 원재료 매입가격에 따라 판매단가가 변동되어 실적에 영향을 줍니다."
+      },
+      {
+        "factor": "경기민감성",
+        "detail": "포장자재 수요는 산업생산과 연동해 경기 변동에 순행하는 특성이 있어 경기 둔화 시 실적에 부담이 될 수 있습니다."
+      },
+      {
+        "factor": "환경규제",
+        "detail": "1회용품 규제 강화와 친환경 선호 확산은 카톤팩과 같은 친환경 포장수요를 증가시켜 장기 수요에 긍정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "기술·품질",
+        "detail": "인쇄·제판·품질관리 기술 수준은 제품 경쟁력의 핵심으로, 기술·품질 확보 여부가 시장 경쟁력에 직결됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "당사는 1979년 대한민국 최초로 우유팩을 생산한 이후"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A) > 마. 환율변동 영향",
+        "evidence_text": "매출액 중 수출 비중이 약 30% 이상으로 글로벌 영업활동을 영위하고 있기 때문에"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "카톤팩: 78,946 (35.2%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "포장자재: 145,133 (64.8%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황 > 2. 사업부문별 시장여건 및 사업의 개황",
+        "evidence_text": "포장자재는 섬유제품, 전자제품, 식품, 의약품 및 농ㆍ수산물"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "영업 현황 > 2. 주요 제품 등의 가격변동추이",
+        "evidence_text": "카톤팩은 수입원재료가 차지하는 비중이 높기 때문에"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "영업 현황 > 2. 사업부문별 시장여건 및 사업의 개황",
+        "evidence_text": "환경부의 1회용품 규제 강화"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5177,
+    "completion_tokens": 4208,
+    "reasoning_tokens": 3136,
+    "output_tokens": 1072
+  },
+  "warnings": []
+}

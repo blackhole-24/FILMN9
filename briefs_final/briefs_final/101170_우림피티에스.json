@@ -1,0 +1,62 @@
+{
+  "stock_code": "101170",
+  "corp_name": "우림피티에스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 07:59",
+  "meta": {
+    "wics": "기계",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "우림피티에스는 반세기 동안 파워트레인(Power Train) 분야에서 제철설비, 건설중장비 등 산업용 감속기(Gear Box)를 전문으로 생산해 온 기어박스 전문기업입니다. 초정밀에서 초대형까지 기어박스를 포괄하는 설계·제조 역량을 바탕으로 방산·항공·로봇 등 고부가가치 분야로 사업을 확장하고 있습니다.",
+    "business_model": "주요 제품은 제철설비·산업용 기어박스와 건설장비·방산·항공·로봇용 기어박스로 구성되며, FY2025 기준 제철설비·산업용 기어박스가 매출의 38.7%, 건설장비·방산·항공·로봇용 기어박스가 매출의 61.3%를 차지합니다. 제품은 완제품보다는 중간재(SUB ASS'Y) 형태로 수주 설계·생산하여 공급하며 제철설비는 턴키(Turnkey) 방식으로도 생산합니다.",
+    "main_customers": "제철설비·산업용 기어박스 — 국내외 제철·에너지·플랜트 기업 / 건설장비·방산·항공·로봇용 기어박스 — 건설중장비 제조사, 방산·항공업체, 로봇 제조사",
+    "price_factors": [
+      {
+        "factor": "설비투자",
+        "detail": "국가·기업의 신설·증설·유지보수 등 설비투자가 늘면 산업용 감속기 수주가 증가하여 실적에 긍정적 영향을 미칩니다."
+      },
+      {
+        "factor": "건설경기",
+        "detail": "건설중장비용 기어박스는 전방의 건설경기와 인프라 투자에 직접 연동되어 경기 둔화 시 수요 감소가 발생합니다."
+      },
+      {
+        "factor": "해외수요(수출)",
+        "detail": "수출 비중이 높아(보고서상 FY2025 수출 54%) 해외 인프라 투자나 무역환경 변화가 실적에 크게 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "방산·항공 수요",
+        "detail": "방산·항공 부문의 국산화 및 군비증강 등 수요 증가는 초정밀 기어박스의 매출·수익성 개선에 중요한 요인입니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "(2) 회사의 현황",
+        "evidence_text": "당사는 파워트레인(Power Train) 분야에서 반세기 동안 제철설비, 건설중장비, 풍력발전기, 셰일오일 설비에 소요되는 감속기(Gear Box) 전문기업으로 성장하여 왔습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "제철설비.산업용 기어박스: 22,106,342 (38.7%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "(3) 시장의 현황 > 1) 제철설비/산업용 감속기(Gear Box)",
+        "evidence_text": "국.내외 제철, 에너지, 플랜트 산업을 중심으로 수주가 이루어지고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5336,
+    "completion_tokens": 3535,
+    "reasoning_tokens": 2688,
+    "output_tokens": 847
+  },
+  "warnings": []
+}

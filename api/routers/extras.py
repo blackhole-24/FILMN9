@@ -16,6 +16,9 @@ GET /api/news/{stock_code}?limit=5                        (최신 뉴스)
 """
 from __future__ import annotations
 
+import json
+import os
+import re
 import sqlite3
 import urllib.request
 import urllib.parse
@@ -29,6 +32,20 @@ from fastapi import APIRouter, HTTPException, Query
 router = APIRouter()
 _ROOT = Path(__file__).resolve().parent.parent.parent
 _DB = _ROOT / "data" / "filmn9.db"
+_CORP_MAP = _ROOT / "data" / "corp_code_map.json"
+
+_log = logging.getLogger(__name__)
+
+
+def _load_corp_code(stock_code: str) -> str | None:
+    if not _CORP_MAP.exists():
+        return None
+    try:
+        with open(_CORP_MAP, encoding="utf-8") as f:
+            m = json.load(f).get("by_stock_code", {})
+        return (m.get(stock_code) or {}).get("corp_code")
+    except Exception:
+        return None
 
 
 def _conn():
@@ -37,6 +54,41 @@ def _conn():
     c = sqlite3.connect(_DB)
     c.row_factory = sqlite3.Row
     return c
+
+
+@router.get("/stock_status/{stock_code}")
+def stock_status(stock_code: str):
+    """
+    상장 상태 조회 — 상장폐지/거래정지/관리종목/정상.
+    프론트는 status != NORMAL 일 때 주가차트·재무탭에 배너를 띄움.
+    stock_status 테이블은 build_stock_status.py 가 하루 1회 갱신.
+    """
+    c = _conn()
+    try:
+        row = c.execute(
+            "SELECT status,label,reason,ref_date,last_trade_date,checked_at "
+            "FROM stock_status WHERE stock_code=?", (stock_code,)
+        ).fetchone()
+    except sqlite3.OperationalError:
+        # 테이블 미생성 시 정상으로 간주 (배너 없음)
+        return {"stock_code": stock_code, "status": "NORMAL", "label": "",
+                "tradable": True}
+    finally:
+        c.close()
+    if not row:
+        return {"stock_code": stock_code, "status": "NORMAL", "label": "",
+                "tradable": True}
+    status = row["status"]
+    return {
+        "stock_code": stock_code,
+        "status": status,                       # NORMAL/ADMIN/HALT/DELISTED
+        "label": row["label"],                  # 화면 표기 한글
+        "reason": row["reason"],
+        "ref_date": row["ref_date"],            # 상폐일/지정일
+        "last_trade_date": row["last_trade_date"],
+        "checked_at": row["checked_at"],
+        "tradable": status in ("NORMAL", "ADMIN"),
+    }
 
 
 # ─── 주주 ─────────────────────────────────────────────────────────────────────
@@ -55,14 +107,25 @@ def get_shareholders(stock_code: str):
         rows = conn.execute(
             "SELECT rank, name, relation, shares, ratio "
             "FROM shareholders WHERE stock_code = ? AND fiscal_year = ? "
+            "  AND name NOT IN ('계','합계','소계') "
+            "  AND (shares IS NULL OR shares > 0) "
             "ORDER BY rank",
             (stock_code, latest_year)).fetchall()
+
+        # 중복 (name, relation) 행 → ratio 최대값만 채택
+        dedup: dict = {}
+        for r in rows:
+            key = (r["name"], r["relation"])
+            cur = dedup.get(key)
+            if cur is None or (r["ratio"] or 0) > (cur["ratio"] or 0):
+                dedup[key] = dict(r)
+        items = sorted(dedup.values(), key=lambda x: -(x["ratio"] or 0))
 
     return {
         "stock_code": stock_code,
         "fiscal_year": latest_year,
-        "items": [dict(r) for r in rows],
-        "total_ratio": round(sum(r["ratio"] or 0 for r in rows), 2),
+        "items": items,
+        "total_ratio": round(sum((r["ratio"] or 0) for r in items), 3),
     }
 
 
@@ -116,53 +179,445 @@ def get_disclosures(stock_code: str,
     }
 
 
+# ─── WICS 산업·업종 검색 (유사어 사전 기반) ───────────────────────────────
+@router.get("/sectors/search")
+def search_sectors(q: str = Query(..., min_length=1, max_length=30)):
+    """키워드(유사어)로 WICS 업종 찾기
+    예: ?q=방산 → 우주항공과국방
+    """
+    q_norm = re.sub(r"\s+", "", q).lower()
+    with _conn() as conn:
+        rows = conn.execute("""
+            SELECT DISTINCT wics_name FROM wics_keywords
+            WHERE keyword_norm LIKE '%' || ? || '%'
+            ORDER BY wics_name
+        """, (q_norm,)).fetchall()
+    return {
+        "query": q,
+        "matched_sectors": [r["wics_name"] for r in rows],
+        "count": len(rows),
+    }
+
+
+@router.get("/sectors/all")
+def list_all_sectors():
+    """WICS 78개 업종 전체 목록 + 키워드 수"""
+    with _conn() as conn:
+        rows = conn.execute("""
+            SELECT wics_name, COUNT(*) as kw_count
+            FROM wics_keywords
+            GROUP BY wics_name
+            ORDER BY wics_name
+        """).fetchall()
+    return {
+        "total": len(rows),
+        "sectors": [dict(r) for r in rows],
+    }
+
+
+# ─── 고객사·경쟁사 (히스토리 브리핑 보강) ──────────────────────────────────
+@router.get("/peers/{stock_code}")
+def get_peers(stock_code: str):
+    """경쟁사 (WICS 동종업계) + 고객사 (사업보고서 기반)"""
+    with _conn() as conn:
+        comp_rows = conn.execute("""
+            SELECT competitor_code, competitor_name, rank, basis, wics
+            FROM peer_competitors WHERE stock_code = ?
+            ORDER BY rank
+        """, (stock_code,)).fetchall()
+
+        cust_row = conn.execute("""
+            SELECT customer_type, customers, source_grade, source_text
+            FROM company_customers WHERE stock_code = ?
+        """, (stock_code,)).fetchone()
+
+    competitors = [
+        {"code": r["competitor_code"], "name": r["competitor_name"], "rank": r["rank"]}
+        for r in comp_rows
+    ]
+    wics = comp_rows[0]["wics"] if comp_rows else None
+
+    customers = None
+    if cust_row:
+        grade_label = {"B": "사업보고서 매출처", "D": "판매채널"}.get(cust_row["source_grade"], "")
+        customers = {
+            "type": cust_row["customer_type"],          # B2B / CHANNEL
+            "items": [c.strip() for c in (cust_row["customers"] or "").split(",") if c.strip()],
+            "grade": cust_row["source_grade"],
+            "grade_label": grade_label,
+            "source_text": cust_row["source_text"],
+        }
+
+    return {
+        "stock_code": stock_code,
+        "wics": wics,
+        "competitors": competitors,
+        "customers": customers,
+    }
+
+
+# ─── 전자공시 (DART list.json 실시간, 페이지네이션·필터) ─────────────────────
+_DART_DISC_CACHE: dict = {}   # {(corp_code,bgn,end,types,page): (ts, data)}
+_DART_DISC_TTL = 600          # 10분 캐시
+
+# 화면 라벨 → DART pblntf_ty 코드 매핑
+_DISCLOSURE_TYPES = {
+    "A": "정기공시",
+    "B": "주요사항보고",
+    "C": "발행공시",
+    "D": "지분공시",
+    "E": "기타공시",
+    "F": "외부감사관련",
+    "G": "펀드공시",
+    "H": "자산유동화",
+    "I": "거래소공시",
+    "J": "공정위공시",
+}
+
+
+def _infer_disclosure_type(report_nm: str) -> tuple[str, str]:
+    """보고서명 패턴 → (코드, 라벨) 추정 (DART 응답엔 pblntf_ty가 없어서 별도 추정)"""
+    nm = report_nm or ""
+    n = nm.replace(" ", "")
+    if any(k in n for k in ["사업보고서", "분기보고서", "반기보고서"]):
+        return "A", "정기공시"
+    if "주요사항보고" in n:
+        return "B", "주요사항보고"
+    if any(k in n for k in ["증권신고", "증권발행", "투자설명서", "일괄신고"]):
+        return "C", "발행공시"
+    if any(k in n for k in ["임원ㆍ주요주주", "임원·주요주주", "주식등의대량보유", "의결권대리행사권유"]):
+        return "D", "지분공시"
+    if any(k in n for k in ["감사보고서"]):
+        return "F", "외부감사관련"
+    if "펀드" in n or "투자회사" in n:
+        return "G", "펀드공시"
+    if "자산유동화" in n or "유동화증권" in n:
+        return "H", "자산유동화"
+    if any(k in n for k in ["대규모기업집단", "기업집단현황", "비상장회사중요사항", "동일인등출자계열"]):
+        return "J", "공정위공시"
+    if any(k in n for k in ["영업(잠정)실적", "단일판매ㆍ공급계약", "단일판매·공급계약",
+                            "기업설명회", "투자판단", "거래정지", "지배구조보고서",
+                            "기업지배구조", "주식분할", "주식병합", "공정공시"]):
+        return "I", "거래소공시"
+    return "E", "기타공시"
+
+
+@router.get("/dart_disclosures/{stock_code}")
+def get_dart_disclosures(
+    stock_code: str,
+    period: str = Query("1y", regex="^(1m|6m|1y|3y|5y|10y|custom)$"),
+    bgn_de: str | None = Query(None, regex="^[0-9]{8}$"),
+    end_de: str | None = Query(None, regex="^[0-9]{8}$"),
+    types: str | None = Query(None, description="공시유형 다중 (A,B,C 콤마구분, 빈값=전체)"),
+    page: int = Query(1, ge=1, le=100),
+    page_count: int = Query(15, ge=5, le=100),
+    final: bool = Query(True, description="최종보고서만"),
+):
+    """
+    DART 전자공시 — 종목별 전체 공시 목록 (실시간)
+    네이버 증권 전자공시 탭과 동일한 UX 지원
+    """
+    corp_code = _load_corp_code(stock_code)
+    if not corp_code:
+        raise HTTPException(404, f"{stock_code} corp_code 없음")
+
+    api_key = os.environ.get("DART_API_KEY", "").strip()
+    if not api_key:
+        raise HTTPException(500, "DART_API_KEY 환경변수 없음")
+
+    # 기간 산출
+    today = datetime.datetime.today()
+    if period == "custom" and bgn_de and end_de:
+        bgn, end = bgn_de, end_de
+    else:
+        period_map = {"1m": 30, "6m": 180, "1y": 365,
+                      "3y": 365*3, "5y": 365*5, "10y": 365*10}
+        days = period_map.get(period, 365)
+        end = today.strftime("%Y%m%d")
+        bgn = (today - datetime.timedelta(days=days)).strftime("%Y%m%d")
+
+    cache_key = f"{corp_code}_{bgn}_{end}_{types or 'ALL'}_{page}_{page_count}_{final}"
+    now_ts = datetime.datetime.now().timestamp()
+    cached = _DART_DISC_CACHE.get(cache_key)
+    if cached and now_ts - cached[0] < _DART_DISC_TTL:
+        return cached[1]
+
+    # DART API 파라미터
+    params = {
+        "crtfc_key": api_key,
+        "corp_code": corp_code,
+        "bgn_de": bgn,
+        "end_de": end,
+        "page_no": page,
+        "page_count": page_count,
+        "sort": "date",
+        "sort_mth": "desc",
+    }
+    if final:
+        params["last_reprt_at"] = "Y"
+
+    # 공시유형은 단일만 지원 — 여러 개면 클라이언트 측에서 호출 분할하거나 전체 후 필터
+    types_list = [t.strip() for t in (types or "").split(",") if t.strip()]
+    if len(types_list) == 1:
+        params["pblntf_ty"] = types_list[0]
+
+    url = "https://opendart.fss.or.kr/api/list.json?" + urllib.parse.urlencode(params)
+    try:
+        with urllib.request.urlopen(url, timeout=8) as r:
+            raw = json.loads(r.read().decode("utf-8"))
+    except Exception as e:
+        raise HTTPException(502, f"DART API 호출 실패: {e}")
+
+    status = raw.get("status")
+    if status == "013":   # 데이터 없음
+        result = {
+            "stock_code": stock_code, "corp_code": corp_code,
+            "items": [], "total_count": 0, "total_page": 0,
+            "page_no": page, "page_count": page_count,
+            "bgn_de": bgn, "end_de": end,
+        }
+        _DART_DISC_CACHE[cache_key] = (now_ts, result)
+        return result
+    if status not in ("000",):
+        raise HTTPException(502, f"DART API: {raw.get('message')}")
+
+    items = []
+    for it in raw.get("list", []):
+        report_nm = (it.get("report_nm", "") or "").strip()
+        # 보고서명 패턴으로 유형 추정 (DART 응답엔 pblntf_ty 없음)
+        ptype, plabel = _infer_disclosure_type(report_nm)
+        # types 다중 필터 (클라이언트 측 필터링)
+        if len(types_list) > 1 and ptype not in types_list:
+            continue
+        rcept_no = it.get("rcept_no", "")
+        items.append({
+            "rcept_no":     rcept_no,
+            "rcept_dt":     it.get("rcept_dt", ""),
+            "corp_name":    it.get("corp_name", ""),
+            "corp_cls":     it.get("corp_cls", ""),    # Y=유가, K=코스닥, N=코넥스, E=기타
+            "report_nm":    report_nm,
+            "flr_nm":       it.get("flr_nm", ""),
+            "rm":           it.get("rm", ""),
+            "pblntf_ty":    ptype,
+            "pblntf_label": plabel,
+            "dart_url":     f"https://dart.fss.or.kr/dsaf001/main.do?rcpNo={rcept_no}",
+        })
+
+    result = {
+        "stock_code": stock_code,
+        "corp_code": corp_code,
+        "items": items,
+        "total_count": int(raw.get("total_count", 0)),
+        "total_page": int(raw.get("total_page", 0)),
+        "page_no": page,
+        "page_count": page_count,
+        "bgn_de": bgn,
+        "end_de": end,
+    }
+    _DART_DISC_CACHE[cache_key] = (now_ts, result)
+    return result
+
+
+# ─── 단일판매·공급계약 공시 (DART list.json 실시간) ─────────────────────────
+_SUPPLY_CACHE: dict = {}  # {corp_code: (timestamp, data)}
+_SUPPLY_TTL = 3600  # 1시간 캐시
+
+
+@router.get("/supply_contracts/{stock_code}")
+def get_supply_contracts(stock_code: str, years: int = Query(5, ge=1, le=10)):
+    """단일판매·공급계약 체결/해지 공시 목록 (DART list.json 실시간 호출)"""
+    corp_code = _load_corp_code(stock_code)
+    if not corp_code:
+        raise HTTPException(404, f"{stock_code} corp_code 없음")
+
+    api_key = os.environ.get("DART_API_KEY", "").strip()
+    if not api_key:
+        raise HTTPException(500, "DART_API_KEY 환경변수 없음")
+
+    # 캐시 확인
+    now_ts = datetime.datetime.now().timestamp()
+    cache_key = f"{corp_code}_{years}"
+    cached = _SUPPLY_CACHE.get(cache_key)
+    if cached and now_ts - cached[0] < _SUPPLY_TTL:
+        return cached[1]
+
+    today = datetime.datetime.today()
+    end_de = today.strftime("%Y%m%d")
+    bgn_de = today.replace(year=today.year - years).strftime("%Y%m%d")
+
+    params = {
+        "crtfc_key": api_key,
+        "corp_code": corp_code,
+        "bgn_de": bgn_de,
+        "end_de": end_de,
+        "pblntf_ty": "I",          # 거래소공시
+        "pblntf_detail_ty": "I001",  # 수시공시
+        "page_count": 100,
+        "sort": "date",
+        "sort_mth": "desc",
+    }
+    url = "https://opendart.fss.or.kr/api/list.json?" + urllib.parse.urlencode(params)
+    try:
+        with urllib.request.urlopen(url, timeout=8) as r:
+            raw = json.loads(r.read().decode("utf-8"))
+    except Exception as e:
+        raise HTTPException(502, f"DART API 호출 실패: {e}")
+
+    if raw.get("status") not in ("000", "013"):
+        # 013 = 데이터 없음
+        if raw.get("status") == "013":
+            result = {"stock_code": stock_code, "corp_code": corp_code,
+                      "items": [], "count": 0, "years": years}
+            _SUPPLY_CACHE[cache_key] = (now_ts, result)
+            return result
+        raise HTTPException(502, f"DART API: {raw.get('message')}")
+
+    items = []
+    for it in raw.get("list", []):
+        nm = it.get("report_nm", "")
+        norm = nm.replace("ㆍ", "").replace("·", "").replace(" ", "")
+        if "단일판매공급계약체결" in norm:
+            event = "체결"
+        elif "단일판매공급계약해지" in norm:
+            event = "해지"
+        else:
+            continue
+        rcept_no = it.get("rcept_no", "")
+        items.append({
+            "rcept_no": rcept_no,
+            "rcept_dt": it.get("rcept_dt", ""),
+            "report_nm": nm,
+            "event_type": event,
+            "flr_nm": it.get("flr_nm", ""),
+            "rm": it.get("rm", ""),
+            "url": f"https://dart.fss.or.kr/dsaf001/main.do?rcpNo={rcept_no}",
+        })
+
+    result = {
+        "stock_code": stock_code, "corp_code": corp_code,
+        "items": items, "count": len(items), "years": years,
+    }
+    _SUPPLY_CACHE[cache_key] = (now_ts, result)
+    return result
+
+
 # ─── 재무상세 ────────────────────────────────────────────────────────────────
 
 @router.get("/financial_detail/{stock_code}/{statement_type}")
-def get_financial_detail(stock_code: str, statement_type: str):
+def get_financial_detail(stock_code: str, statement_type: str, scope: str = "연결"):
     """
-    재무제표 상세 (B/S 또는 I/S).
+    재무제표 상세 (B/S, I/S, CIS).
     pivot: 행=account_nm, 열=fiscal_year
+
+    [Query Parameter]
+    - statement_type: BS (재무상태표), IS (손익계산서), CIS (포괄손익계산서)
+                      ※ IS 호출 시 자동으로 IS+CIS 모두 검색 (사업보고서마다 다름)
+    - scope: "연결" (기본값) | "별도"
+
+    [수정 이력 2026-05-27]
+    - CIS (포괄손익계산서) 지원 추가
+    - statement_scope 필터 추가 (연결/별도)
+    - 단위 '원' 명시
+    - account_id 기준 중복 제거 (account_nm 중복 시 덮어씀 방지)
     """
     st = statement_type.upper()
-    if st not in ("BS", "IS"):
-        raise HTTPException(400, "statement_type은 BS 또는 IS")
+    if st not in ("BS", "IS", "CIS"):
+        raise HTTPException(400, "statement_type은 BS, IS, CIS 중 하나")
+
+    if scope not in ("연결", "별도"):
+        raise HTTPException(400, "scope는 '연결' 또는 '별도'")
+
+    # IS 호출 시 IS 또는 CIS 모두 검색 (회사마다 다른 명칭 사용)
+    if st == "IS":
+        st_filter = ("IS", "CIS")
+    elif st == "CIS":
+        st_filter = ("CIS", "IS")
+    else:
+        st_filter = (st,)
+
+    placeholders = ",".join("?" * len(st_filter))
 
     with _conn() as conn:
         rows = conn.execute(
-            "SELECT fiscal_year, account_id, account_nm, amount, "
-            "       statement_scope, display_order "
-            "FROM financial_detail "
-            "WHERE stock_code = ? AND statement_type = ? "
-            "ORDER BY fiscal_year DESC, display_order",
-            (stock_code, st)).fetchall()
+            f"SELECT fiscal_year, account_id, account_nm, amount, "
+            f"       statement_scope, statement_type, display_order "
+            f"FROM financial_detail "
+            f"WHERE stock_code = ? AND statement_type IN ({placeholders}) "
+            f"  AND statement_scope = ? "
+            f"ORDER BY fiscal_year DESC, display_order",
+            (stock_code, *st_filter, scope)).fetchall()
 
     if not rows:
-        raise HTTPException(404, f"{stock_code} {st} 데이터 없음")
+        raise HTTPException(404,
+            f"{stock_code} {st} ({scope}) 데이터 없음")
 
-    # pivot
+    # pivot — account_id 기준 (계정명이 같아도 ID 다르면 별개 행)
     years = sorted({r["fiscal_year"] for r in rows}, reverse=True)
     accounts: dict[str, dict] = {}
     for r in rows:
-        nm = r["account_nm"]
-        if nm not in accounts:
-            accounts[nm] = {
-                "account_id": r["account_id"],
-                "account_nm": nm,
+        key = r["account_id"]
+        if key not in accounts:
+            accounts[key] = {
+                "account_id": key,
+                "account_nm": r["account_nm"],
                 "display_order": r["display_order"],
                 "scope": r["statement_scope"],
+                "statement_type": r["statement_type"],
                 "values": {},
             }
-        accounts[nm]["values"][str(r["fiscal_year"])] = r["amount"]
+        accounts[key]["values"][str(r["fiscal_year"])] = r["amount"]
 
-    items = sorted(accounts.values(), key=lambda x: x["display_order"] or 0)
+    # ─── 핵심 항목 우선 정렬 (2026-05-27 추가) ───
+    # 매출액/자산총계 등이 화면 맨 위로 오도록 우선순위 부여
+    PRIORITY_KEYWORDS_BS = [
+        "자산총계", "자산 총계", "유동자산", "비유동자산",
+        "현금및현금성자산", "부채총계", "부채 총계", "유동부채",
+        "비유동부채", "자본총계", "자본 총계", "자본금",
+    ]
+    PRIORITY_KEYWORDS_IS = [
+        "매출액", "영업수익", "수익(매출액)", "매출",
+        "영업비용", "매출원가", "매출총이익",
+        "영업이익", "영업손실",
+        "법인세비용차감전순이익", "당기순이익", "당기순손실",
+        "지배기업", "비지배지분", "주당순이익", "총포괄이익",
+    ]
+
+    if st == "BS":
+        keywords = PRIORITY_KEYWORDS_BS
+    else:
+        keywords = PRIORITY_KEYWORDS_IS
+
+    def priority(item):
+        nm = item["account_nm"] or ""
+        for idx, kw in enumerate(keywords):
+            if kw in nm:
+                return (0, idx, item["display_order"] or 0)
+        return (1, 999, item["display_order"] or 0)
+
+    items = sorted(accounts.values(), key=priority)
+
+    # ─── 음수 부호 처리 (XBRL ANEGATED 의미를 화면용 부호로) ───
+    # DB에는 절댓값으로 저장되어 있지만, 비용·차감 항목은 음수로 표시
+    NEGATIVE_KEYWORDS_IS = [
+        "영업비용", "매출원가", "판매비", "관리비", "비용",
+        "법인세비용", "감가상각", "차감",
+    ]
+    for item in items:
+        nm = item["account_nm"] or ""
+        # IS/CIS 에서 비용 키워드 포함된 계정명은 음수로 표시
+        if st in ("IS", "CIS") and any(kw in nm for kw in NEGATIVE_KEYWORDS_IS):
+            for yr, v in item["values"].items():
+                if v is not None and v > 0:
+                    item["values"][yr] = -abs(v)
 
     return {
         "stock_code": stock_code,
         "statement_type": st,
+        "scope": scope,
         "fiscal_years": [str(y) for y in years],
-        "unit": "백만원",
+        "unit": "원",
         "items": items,
+        "count": len(items),
     }
 
 
@@ -344,46 +799,248 @@ def get_realtime(stock_code: str):
 _CORP_NAME_MAP: dict[str, str] = {
     "090430": "아모레퍼시픽",
     "009150": "삼성전기",
-    "035420": "NAVER",
+    "035420": "네이버",   # 영문 'NAVER' 대신 한글 '네이버' 사용 (정확도 ↑)
 }
+
+
+_TICKER_NAME_CACHE: dict = {}  # ticker_universe.csv 캐시
+
+
+def _load_ticker_universe():
+    """ticker_universe.csv 한 번만 메모리에 로드"""
+    global _TICKER_NAME_CACHE
+    if _TICKER_NAME_CACHE:
+        return
+    csv_path = _ROOT / "data" / "ticker_universe.csv"
+    if not csv_path.exists():
+        return
+    try:
+        import csv
+        with open(csv_path, encoding="utf-8-sig") as f:
+            for r in csv.DictReader(f):
+                code = (r.get("stock_code") or "").strip()
+                name = (r.get("corp_name") or "").strip()
+                if code and name:
+                    _TICKER_NAME_CACHE[code] = name
+    except Exception as e:
+        logging.warning(f"ticker_universe.csv 로드 실패: {e}")
+
+
+def _load_corp_name(stock_code: str) -> str:
+    """1순위 매핑 테이블 → 2순위 ticker_universe.csv → 3순위 DB company_info → 4순위 stock_code"""
+    if stock_code in _CORP_NAME_MAP:
+        return _CORP_NAME_MAP[stock_code]
+    _load_ticker_universe()
+    if stock_code in _TICKER_NAME_CACHE:
+        name = re.sub(r"[\(\)（）㈜]|주식회사", "", _TICKER_NAME_CACHE[stock_code]).strip()
+        return name or stock_code
+    try:
+        with _conn() as conn:
+            row = conn.execute(
+                "SELECT corp_name FROM company_info WHERE stock_code = ?",
+                (stock_code,)).fetchone()
+            if row and row["corp_name"]:
+                name = re.sub(r"[\(\)（）㈜]|주식회사", "", row["corp_name"]).strip()
+                return name or stock_code
+    except Exception:
+        pass
+    return stock_code
+
+
+_NEWS_CACHE: dict = {}   # {stock_code: (timestamp, items)}
+_NEWS_TTL = 300          # 5분 캐시
+
+
+def _strip_html(text: str) -> str:
+    """네이버 응답의 <b>·HTML 엔티티 제거"""
+    if not text:
+        return ""
+    text = re.sub(r"<[^>]+>", "", text)
+    text = (text.replace("&amp;", "&").replace("&lt;", "<").replace("&gt;", ">")
+                .replace("&quot;", '"').replace("&apos;", "'").replace("&#39;", "'"))
+    return text.strip()
+
+
+def _domain_from_url(url: str) -> str:
+    """링크에서 매체명 추출 (예: https://www.hankyung.com/... → hankyung.com)"""
+    if not url:
+        return ""
+    m = re.match(r"https?://(?:www\.)?([^/]+)", url)
+    return m.group(1) if m else ""
 
 
 @router.get("/news/{stock_code}")
 def get_news(stock_code: str, limit: int = Query(5, ge=1, le=20)):
     """
-    Google News RSS 기반 최신 뉴스 (한국어, 무료·API키 불필요).
+    네이버 검색 API (뉴스) 기반 최신 뉴스 (한국어).
+    - 일일 25,000건 한도 (무료)
+    - 5분 메모리 캐시
+    - 환경변수 NAVER_CLIENT_ID, NAVER_CLIENT_SECRET 필요
+    - 키 없으면 Google News RSS 폴백
     """
-    corp = _CORP_NAME_MAP.get(stock_code, stock_code)
-    query = f"{corp} 주식 주가"
-    url = (
-        "https://news.google.com/rss/search?"
-        + urllib.parse.urlencode({"q": query, "hl": "ko", "gl": "KR", "ceid": "KR:ko"})
-    )
-    try:
-        req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
-        with urllib.request.urlopen(req, timeout=8) as resp:
-            data = resp.read()
-        root = ET.fromstring(data)
-        items = root.findall(".//item")
-        news = []
-        for item in items[:limit]:
-            title   = (item.findtext("title") or "").strip()
-            link    = (item.findtext("link") or "").strip()
-            pubdate = (item.findtext("pubDate") or "").strip()
-            source_el = item.find("{http://purl.org/rss/1.0/modules/dc/}creator")
-            source = source_el.text.strip() if source_el is not None else ""
-            # Google News redirect URL → 그대로 사용 (클릭 시 실제 기사로 이동)
-            news.append({
-                "title":   title,
-                "link":    link,
-                "pubdate": pubdate[:16] if pubdate else "",
-                "source":  source,
+    corp = _load_corp_name(stock_code)
+    now_ts = datetime.datetime.now().timestamp()
+
+    # 캐시 확인
+    cache_key = f"{stock_code}_{limit}"
+    cached = _NEWS_CACHE.get(cache_key)
+    if cached and now_ts - cached[0] < _NEWS_TTL:
+        return {"stock_code": stock_code, "corp": corp,
+                "items": cached[1], "_cached": True, "_source": "Naver (cached)"}
+
+    # Windows·Linux 호환 위해 여러 케이스 시도
+    naver_id = (os.environ.get("NAVER_CLIENT_ID") or
+                os.environ.get("Naver_Client_Id") or "").strip()
+    naver_secret = (os.environ.get("NAVER_CLIENT_SECRET") or
+                    os.environ.get("Naver_Client_Secret") or "").strip()
+
+    # ── 1순위: 네이버 검색 API ─────────────────────────────────
+    if naver_id and naver_secret:
+        try:
+            # 회사명 + 주식·종목 관련 키워드로 narrowing → 종목 관련 기사만
+            # OR 검색이 안 되므로 가장 일반적인 "주가" 추가
+            query = f"{corp} 주가"
+            params = {"query": query, "display": 50,   # 넉넉히 받아 필터
+                      "start": 1, "sort": "date"}
+            url = "https://openapi.naver.com/v1/search/news.json?" + urllib.parse.urlencode(params)
+            req = urllib.request.Request(url, headers={
+                "X-Naver-Client-Id": naver_id,
+                "X-Naver-Client-Secret": naver_secret,
+                "User-Agent": "Mozilla/5.0",
             })
-        return {"stock_code": stock_code, "corp": corp, "items": news}
+            with urllib.request.urlopen(req, timeout=6) as resp:
+                data = json.loads(resp.read().decode("utf-8"))
+
+            items_raw = data.get("items", [])
+            # 회사명이 제목에 포함된 기사만 채택 (본문만 스치는 기사 제거)
+            corp_norm = corp.replace(" ", "")
+            news = []
+            for it in items_raw:
+                title_clean = _strip_html(it.get("title", ""))
+                if not title_clean:
+                    continue
+                title_norm = title_clean.replace(" ", "")
+                # 제목에 회사명 포함 필수
+                if corp_norm not in title_norm:
+                    continue
+                pub = it.get("pubDate", "")
+                try:
+                    dt = datetime.datetime.strptime(pub[:25], "%a, %d %b %Y %H:%M:%S")
+                    pub_fmt = dt.strftime("%Y-%m-%d %H:%M")
+                except Exception:
+                    pub_fmt = pub[:16]
+                link = it.get("link") or it.get("originallink", "")
+                news.append({
+                    "title":   title_clean,
+                    "link":    link,
+                    "pubdate": pub_fmt,
+                    "source":  _domain_from_url(it.get("originallink") or link),
+                    "summary": _strip_html(it.get("description", ""))[:140],
+                })
+                if len(news) >= limit:
+                    break
+
+            if news:
+                _NEWS_CACHE[cache_key] = (now_ts, news)
+                return {"stock_code": stock_code, "corp": corp,
+                        "items": news, "_source": "Naver Open API"}
+            # 0건이면 폴백으로 진행 (return 안 함)
+        except Exception as e:
+            logging.warning(f"naver news {stock_code} 실패 → RSS 폴백: {e}")
+
+    # ── 2순위 폴백: 파이낸셜뉴스(증권) + 한국경제 병렬 RSS ─────
+    import ssl as _ssl
+    from concurrent.futures import ThreadPoolExecutor
+
+    _ctx = _ssl.create_default_context()
+    _ctx.check_hostname = False
+    _ctx.verify_mode = _ssl.CERT_NONE
+
+    RSS_SOURCES = [
+        ("파이낸셜뉴스",  "https://www.fnnews.com/rss/r20/fn_realnews_stock.xml"),
+        ("한국경제",      "https://www.hankyung.com/feed/economy"),
+    ]
+
+    # 종목명 키워드 (회사명 + 약칭)
+    keywords = {corp}
+    short = re.sub(r"[\(\)（）주식회사주㈜]", "", corp).strip()
+    if short and short != corp:
+        keywords.add(short)
+    if corp:
+        parts = re.sub(r"[\(\)（）주식회사주㈜]", "", corp).split()
+        if parts and len(parts[0]) >= 2:
+            keywords.add(parts[0])
+    keywords = {k for k in keywords if k}
+
+    def _fetch_rss(src_url):
+        src_name, url = src_url
+        try:
+            req = urllib.request.Request(url, headers={
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120 Safari/537.36",
+                "Accept": "application/xml, text/xml, */*",
+            })
+            with urllib.request.urlopen(req, context=_ctx, timeout=3) as resp:
+                body = resp.read()
+            root = ET.fromstring(body)
+            return src_name, root.findall(".//item")
+        except Exception as e:
+            logging.warning(f"RSS {src_name} 실패: {e}")
+            return src_name, []
+
+    try:
+        # 병렬 호출
+        with ThreadPoolExecutor(max_workers=2) as ex:
+            results = list(ex.map(_fetch_rss, RSS_SOURCES))
+
+        # 매체별 종목명 필터링·통합
+        collected = []
+        seen_titles = set()
+        for src_name, items in results:
+            for item in items:
+                title = _strip_html((item.findtext("title") or "").strip())
+                if not title or title in seen_titles:
+                    continue
+                desc = _strip_html((item.findtext("description") or "").strip())
+                # 종목명 매칭 (제목+요약)
+                if not any(k in (title + desc) for k in keywords):
+                    continue
+                seen_titles.add(title)
+                link = (item.findtext("link") or "").strip()
+                pubdate = (item.findtext("pubDate") or "").strip()
+                try:
+                    dt = datetime.datetime.strptime(pubdate[:25], "%a, %d %b %Y %H:%M:%S")
+                    pub_fmt = dt.strftime("%Y-%m-%d %H:%M")
+                except Exception:
+                    pub_fmt = pubdate[:16]
+                collected.append({
+                    "title":   title,
+                    "link":    link,
+                    "pubdate": pub_fmt,
+                    "source":  src_name,
+                    "summary": desc[:140],
+                    "_pub_raw": pubdate,
+                })
+
+        # 최신순 정렬 → 상위 limit개
+        def _sort_key(x):
+            try:
+                return datetime.datetime.strptime(x["_pub_raw"][:25],
+                                                  "%a, %d %b %Y %H:%M:%S")
+            except Exception:
+                return datetime.datetime.min
+        collected.sort(key=_sort_key, reverse=True)
+        news = [{k: v for k, v in it.items() if k != "_pub_raw"}
+                for it in collected[:limit]]
+
+        _NEWS_CACHE[cache_key] = (now_ts, news)
+        src_label = ("파이낸셜뉴스+한국경제 RSS" if news
+                     else "파이낸셜뉴스+한국경제 RSS (매칭 0건)")
+        return {"stock_code": stock_code, "corp": corp,
+                "items": news, "_source": src_label}
     except Exception as e:
-        logging.warning(f"news {stock_code}: {e}")
-        # 뉴스 실패는 빈 배열로 graceful 처리
-        return {"stock_code": stock_code, "corp": corp, "items": [], "error": str(e)}
+        logging.warning(f"RSS fallback {stock_code}: {e}")
+        return {"stock_code": stock_code, "corp": corp,
+                "items": [], "_source": "전체 실패", "error": str(e)}
 
 
 # ─── 신용등급 추이 (Task #13) ────────────────────────────────────────────────

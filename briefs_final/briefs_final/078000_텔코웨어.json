@@ -1,0 +1,67 @@
+{
+  "stock_code": "078000",
+  "corp_name": "텔코웨어",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 12:05",
+  "meta": {
+    "wics": "소프트웨어",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "텔코웨어는 통신사의 Core Network(핵심망)에 필요한 통신 솔루션을 개발·공급하는 소프트웨어 기업으로 단일 사업을 영위하고 있습니다. 주요 매출처는 SKT, SKB, LGU+ 등 이동통신 사업자이며, 최근 보고서 기준 지난해 매출액은 384억 원, 영업이익은 33억 원을 기록했습니다.",
+    "business_model": "단일 사업(소프트웨어 개발·공급) 구조에서 음성핵심망 솔루션, 무선데이터 솔루션, 요소기술 등 제품군을 보유하고 있으며, 보고서상의 매출 구성은 무선데이터가 81.9%(33,296,221), 기타가 0.9%(361,217)로 표기되어 있습니다. 제품은 통신사업자의 네트워크 환경에 맞춰 커스터마이징하여 장기 프로젝트 형태로 공급됩니다.",
+    "main_customers": "무선데이터 — 이동통신 사업자(SK텔레콤·SK브로드밴드·LGU+ 등) / 음성핵심망·요소기술 — 이동통신 사업자(SK텔레콤·SK브로드밴드·LGU+ 등)",
+    "price_factors": [
+      {
+        "factor": "통신사 투자",
+        "detail": "통신사업자의 투자계획 축소 시 솔루션 도입·교체 수요가 줄어 실적에 직접적인 하방 압력을 줄 수 있습니다."
+      },
+      {
+        "factor": "5G 투자",
+        "detail": "5G 투자 정점 이후 통신시장 투자 규모 감소는 단기적으로 제품 수요 감소로 이어질 가능성이 있습니다."
+      },
+      {
+        "factor": "기술장벽",
+        "detail": "네트워크 안정성·노하우가 중요한 산업 특성상 높은 진입장벽은 기존 기술력을 보유한 회사에 유리하게 작용합니다."
+      },
+      {
+        "factor": "보안수요",
+        "detail": "강화된 보안 인식과 네트워크 고도화 수요는 신규 솔루션 공급 기회를 확대해 중장기적 실적에 긍정적으로 작용할 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "통신 솔루션을 개발 공급하며 단일 사업을 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "무선데이터: 33,296,221 (81.9%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사의 주요 매출처는 SKT, SKB, LGU+ 등으로"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "최근 통신 산업의 5G 투자가 정점을 지나며 통신 시장의 투자 규모는 지속적으로 감소해왔습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4973,
+    "completion_tokens": 5631,
+    "reasoning_tokens": 4864,
+    "output_tokens": 767
+  },
+  "warnings": []
+}

@@ -1,0 +1,72 @@
+{
+  "stock_code": "359090",
+  "corp_name": "씨엔알리서치",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 17:41",
+  "meta": {
+    "wics": "제약",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "씨엔알리서치는 1997년 국내 최초 CRO(임상시험 수탁기관)인 씨엔알컨설팅으로 설립되어 2000년 법인으로 전환한 임상시험 전문 기업입니다. 임상시험의 기획부터 실행·분석·보고까지 전 영역 서비스를 제공하며, 내자 CRO업체 중 2024년 매출기준 1위를 유지하는 국내 선도 업체입니다. 2025년 매출액은 64,982백만원입니다.",
+    "business_model": "핵심 사업은 신약 개발의 허가용 임상시험(Phase I~III)과 시판 후 조사·OS 등 비허가용 임상시험(PMS, OS, Phase IV) 관련 용역을 제공하는 것입니다. 제공 서비스는 임상 컨설팅, Protocol 개발, Project Management, Monitoring, Data Management, 통계분석, CSR 작성 등이며, 사업부문별 영업수익 구성은 용역수익 100.0%, 기타수익 9.0%로 기재되어 있습니다.",
+    "main_customers": "용역수익(임상시험 용역) — 국내 제약사·바이오벤처 / 기타수익 — 자료에 고객 명시 없음",
+    "price_factors": [
+      {
+        "factor": "시장성장",
+        "detail": "글로벌 CRO 시장의 연평균 성장(예: 2027년까지 약 10.5%)은 전체 수주·매출 확대에 긍정적 영향을 미칩니다."
+      },
+      {
+        "factor": "아웃소싱수요",
+        "detail": "다국적 제약사와 바이오기업의 임상 아웃소싱 확대는 용역 주문 증가로 이어져 실적에 직접적 영향을 줍니다."
+      },
+      {
+        "factor": "규제환경",
+        "detail": "임상시험은 법적 규제 틀 안에서 수행되므로 규제 변화는 수행 절차와 비용에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "인력경쟁",
+        "detail": "지식집약적 산업 특성상 우수 인력 확보·유지는 수행 능력과 원가 구조에 중요한 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "임상시험 수탁기관(CRO: Contract Research Organization)입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "허가용 임상시험(Phase I~III)과 비허가용 임상시험"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "용역수익: 41,943 (100.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "주요 의뢰사로는 국내제약사와 바이오벤처가 있으며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "글로벌 임상 CRO 시장은 2027년까지 연평균 성장률 약 10.5%로 성장해"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5046,
+    "completion_tokens": 5283,
+    "reasoning_tokens": 4480,
+    "output_tokens": 803
+  },
+  "warnings": []
+}

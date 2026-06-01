@@ -1,0 +1,71 @@
+{
+  "stock_code": "445090",
+  "corp_name": "에이직랜드",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 19:42",
+  "meta": {
+    "wics": "반도체와반도체장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "에이직랜드는 TSMC의 국내 유일 공식 협력사(VCA)로서 팹리스(Fabless) 기업을 주요 고객으로 반도체 디자인 솔루션과 턴키(생산까지 지원) 서비스를 제공하는 디자인하우스입니다. SoC(System on Chip) 설계부터 회로 설계·검증, 패키징·테스트까지 종합 설계 역량으로 다양한 응용처의 시스템 반도체 개발을 지원합니다.",
+    "business_model": "핵심은 팹리스 고객의 논리 설계를 제조 가능한 물리 설계로 전환하는 디자인 솔루션 및 Spec-in(고객 IP 기반 완전한 SoC 개발) 서비스와 턴키(생산지원) 솔루션입니다. 사업부문별 영업수익 구성은 AI 26.7%, Automotive 11.3%, Display 10.3%, Memory 32.1%, IoT&5G 9.4%, Others 10.3%로 메모리·AI 비중이 큰 편입니다.",
+    "main_customers": "AI — 팹리스 고객사 / Automotive — 팹리스 고객사 / Display — 국내 팹리스 고객사 / Memory — 팹리스 고객사 / IoT&5G — 팹리스 고객사 / Others — 팹리스 고객사",
+    "price_factors": [
+      {
+        "factor": "파운드리 의존도",
+        "detail": "TSMC VCA로서 파운드리 공정 정보와 협력이 핵심 경쟁력이며, 파운드리와의 관계 변화가 실적에 직결됩니다."
+      },
+      {
+        "factor": "개발일정 변동",
+        "detail": "주요 고객사의 개발 일정 조정으로 공급 시점 이월이 발생하면 매출이 일시적으로 감소합니다."
+      },
+      {
+        "factor": "선단 공정 경쟁",
+        "detail": "선단 공정 역량 확보를 위한 투자 부담이 커지면 단기적으로 영업수익성에 부정적 영향을 미칩니다."
+      },
+      {
+        "factor": "R&D·해외투자",
+        "detail": "신규 연구과제 및 해외 거점 투자 확대는 비용 증가로 영업손실 확대 요인이 됩니다."
+      },
+      {
+        "factor": "IP·인력 확보",
+        "detail": "EDA 툴, IP(지적재산)·전문인력 등 핵심 인프라 확보 수준에 따라 설계 역량과 진입장벽이 달라집니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "당사는 시스템 반도체 생태계에서 주요 사업을 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "AI: 19,422 (26.7%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "팹리스(Fabless) 기업을 주요 고객으로 하여"
+      },
+      {
+        "field": "financials",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "연결기준 매출액 728억원, 영업손실 276억원, 당기순손실 272억원을 기록하였습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 6533,
+    "completion_tokens": 4095,
+    "reasoning_tokens": 3264,
+    "output_tokens": 831
+  },
+  "warnings": []
+}

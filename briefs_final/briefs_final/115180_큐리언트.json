@@ -1,0 +1,72 @@
+{
+  "stock_code": "115180",
+  "corp_name": "큐리언트",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 08:51",
+  "meta": {
+    "wics": "제약",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "큐리언트는 정부와 국제기관의 투자로 설립된 신약 개발 전문 바이오텍으로, 한국파스퇴르연구소의 연구성과를 상업화하기 위해 스핀오프(spin-off)되었습니다. 프랑스 파스퇴르연구소 및 독일 막스플랑크연구소 등 유수 연구기관과의 협력으로 글로벌 수준의 파이프라인 도입·개발 역량을 보유하고 있습니다.",
+    "business_model": "회사가 영위하는 사업은 연구개발총괄부문과 의약품유통부문으로 나뉘어져 있으며, FY2025 기준 의약품 유통사업이 매출의 96.0%를 차지하고 기타가 4.0%를 차지합니다. 연구개발부문에서는 항암·항생제 등 First-in-class(기존과 다른 혁신적 신약) 파이프라인을 개발하고, 환자 투약 시 효능 입증 단계에서 기술이전을 통한 수익 창출 및 품목허가 시 국내판권을 통한 유통수익 확보를 목표로 하고 있습니다.",
+    "main_customers": "의약품 유통사업 — 전문의약품 수요 의료기관·약국 / 연구개발 — 다국적 제약사·연구기관(공동개발·기술이전 파트너)",
+    "price_factors": [
+      {
+        "factor": "임상 성과",
+        "detail": "모카시클립(Q901), 텔라세벡 등 핵심 파이프라인의 임상 결과가 가시화될수록 기술이전·가치평가에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "기술이전·제휴",
+        "detail": "다국적 제약사(MSD) 등과의 공동개발·무상공급·기술이전 여부가 수익 흐름과 파이프라인 상용화 속도를 좌우합니다."
+      },
+      {
+        "factor": "재무 유동성",
+        "detail": "사모 전환사채·신주인수권부사채 발행 등으로 확보한 운영자금은 R&D 지속성과 임상 추진에 중요한 변수입니다."
+      },
+      {
+        "factor": "시장 성장성",
+        "detail": "글로벌 항암제·ADC(항체약물접합체) 시장의 성장 및 대형 기술거래 활성화는 회사의 ADC 관련 기술(QP101 등) 가치에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "신약 개발 전문 바이오텍입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황",
+        "evidence_text": "회사가 영위하는 사업은 연구개발총괄부문과 의약품유통부문으로 나뉘어져 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "의약품 유통사업: 6,720,283 (96.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "의약품유통부문에서는 전문의약품 유통을 담당하고 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "다국적 제약회사 MSD(미국 머크)와의 공동연구개발을 체결하고"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 6193,
+    "completion_tokens": 3870,
+    "reasoning_tokens": 3008,
+    "output_tokens": 862
+  },
+  "warnings": []
+}

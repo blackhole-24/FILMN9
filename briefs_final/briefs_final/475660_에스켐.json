@@ -1,0 +1,72 @@
+{
+  "stock_code": "475660",
+  "corp_name": "에스켐",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 20:43",
+  "meta": {
+    "wics": "디스플레이장비및부품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "에스켐은 2014년 설립된 유기소재 합성 전문기업으로, 정밀화학 분야에서 OLED(Organic Light Emitting Diodes, 유기발광다이오드) 소재와 헬스케어(Health Care) 소재의 연구개발·생산·판매를 영위하고 있습니다. 디스플레이 소재와 바이오·제약(헬스케어) 소재를 주력으로 둔 기업입니다.",
+    "business_model": "핵심 사업은 디스플레이 소재(특히 OLED 관련 소재)와 헬스케어 소재로 구성되며, FY2025 사업부문별 영업수익은 발광 보조층 41.9%, 공통층 31.6%, 헬스케어 14.4%, 기타 1.2%로 나타났습니다. 디스플레이 부문은 완제품 및 중간체 합성과 소재 재생(재활용) 사업을 포함하고, 헬스케어 부문은 체외진단(IVD)·생명과학 연구용 시약 및 비타민·의약중간체 등을 생산·공급합니다.",
+    "main_customers": "디스플레이 — OLED 소재를 필요로 하는 고객사(완제품·중간체 합성 및 소재 재생 수요) / 헬스케어 — 체외진단(IVD) 및 생명과학(Life Science) 연구용 시약 수요처",
+    "price_factors": [
+      {
+        "factor": "원자재가",
+        "detail": "원자재 가격 상승 시 제품 단가 조정이나 원가 압박으로 실적에 직접적 영향을 미칩니다."
+      },
+      {
+        "factor": "고객 단가요구",
+        "detail": "고객사의 단가 인하 요구가 있으면 판매단가가 하향 조정되어 수익성에 부담을 줄 수 있습니다."
+      },
+      {
+        "factor": "신규제품주기",
+        "detail": "신규 아이템 출시 초기에는 높은 가격이 책정되지만 이후 단가가 낮아져 평균 판매단가에 변동을 초래합니다."
+      },
+      {
+        "factor": "전방수요",
+        "detail": "디스플레이 산업의 수요 변동(전방산업 투자·수요 회복 지연)은 매출 규모와 고정비 부담에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 - 영업의 현황",
+        "evidence_text": "유기소재 합성 전문기업입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 - 영업의 현황",
+        "evidence_text": "당사의 주력 사업은 디스플레이 소재와 바이오·제약 소재 두 축으로 구성되어 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "발광 보조층: 9,269 (41.9%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 - 영업의 현황",
+        "evidence_text": "헬스케어 분야에서는 체외진단(IVD) 및 생명과학(Life Science) 연구"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 - 영업의 현황",
+        "evidence_text": "고객사의 상황, 생산 공정 원가, 원자재 가격 등"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4777,
+    "completion_tokens": 4630,
+    "reasoning_tokens": 3776,
+    "output_tokens": 854
+  },
+  "warnings": []
+}

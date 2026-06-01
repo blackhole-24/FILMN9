@@ -1,0 +1,71 @@
+{
+  "stock_code": "360350",
+  "corp_name": "코셈",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 17:42",
+  "meta": {
+    "wics": "전자장비와기기",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "코셈은 나노 단위 미세물 분석을 위한 주사전자현미경(SEM)과 그 주변기기를 제조·판매하는 기업입니다. Tabletop SEM 분야에서 글로벌 경쟁력을 확보했으며, 20개의 대리점 네트워크를 통해 41개국에 간접판매를 진행하고 있습니다.",
+    "business_model": "핵심 제품은 주사전자현미경(SEM)과 Tabletop SEM, 전처리장비(이온밀러·이온코터) 등으로 구성되며, 연구개발을 통해 IP-SEM, A SEM(대기압 SEM), AI-SEM 등 융복합 제품을 개발하고 있습니다. 사업부문별 FY2025 영업수익 구성은 제품 80.8%, 형광현미경 4.2%, 주변기기 9.2%, 상품 매출 7.8%, 용역 매출 2.1%로 제품(SEM) 매출 비중이 가장 큽니다.",
+    "main_customers": "제품(SEM·Tabletop SEM·Normal SEM) — 대학교·연구소·산업체(반도체·생명공학·재료과학 등) / Tabletop SEM — 개별 연구실 및 전문가가 없는 산업현장 / 주변기기(IP·SPT 등) — 전자현미경 사용자(연구소·산업체)",
+    "price_factors": [
+      {
+        "factor": "수출 의존도",
+        "detail": "중국 매출 비중이 높아(보고서 상 중국 비중 기술) 수출 감소나 무역장벽 심화 시 실적에 크게 영향받습니다."
+      },
+      {
+        "factor": "글로벌 과점 구조",
+        "detail": "Thermo Fisher 등 글로벌 대기업의 과점 구조로 인해 경쟁 심화 및 시장 진입 장벽이 높아 가격·점유율에 부담이 될 수 있습니다."
+      },
+      {
+        "factor": "제품 고도화·신제품",
+        "detail": "Tabletop SEM 고사양화 및 IP-SEM, A SEM, AI-SEM 등 신제품 상용화 여부가 수익성·시장 확장에 영향을 미칩니다."
+      },
+      {
+        "factor": "시장 성장률",
+        "detail": "SEM 시장의 연평균 성장 전망(보고서 상 연평균 약 8%)은 수요 증가로 실적에 우호적 요인입니다."
+      },
+      {
+        "factor": "국산화 기회",
+        "detail": "정밀 시편 가공 등에서 이온밀러 등의 국산화 성공은 가격경쟁력 확보 및 수출 확대에 긍정적 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "주사전자현미경(SEM)과 그 주변기기 제조 및 판매입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "제품: 6,676 (80.8%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사의 고객층은 전세계에 걸쳐 매우 다변화되어 있는 것이 특징입니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "MD&A (경영진 실적·전략 요약)",
+        "evidence_text": "해외 매출은 약 72.2억원으로 전년대비 23.0% 급감하며 전체 실적 하락의 주요 원인이 되었습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5308,
+    "completion_tokens": 4706,
+    "reasoning_tokens": 3840,
+    "output_tokens": 866
+  },
+  "warnings": []
+}

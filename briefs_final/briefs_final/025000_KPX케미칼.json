@@ -1,0 +1,81 @@
+{
+  "stock_code": "025000",
+  "corp_name": "KPX케미칼",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 12:54",
+  "meta": {
+    "wics": "화학",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "KPX케미칼은 폴리프로필렌글리콜(PPG) 등 유기화학제품의 제조·합성·판매를 주력으로 하는 화학회사로, 국내외에 제조·판매법인을 두고 글로벌 고객사에 기술서비스를 제공해 왔습니다. 연결기준 매출액은 808,351백만원(2025년 기준)을 기록하였고, 해외법인(중국, 미국, 인도, 베트남, 태국, 인도네시아, 말레이시아 등)을 통해 수출·현지 영업을 강화하고 있습니다.",
+    "business_model": "핵심 사업은 PPG 기반의 기초화합물제조(폴리올 등)이며, 연결 매출의 사업부문별 비중은 기초화합물제조가 89.97%, 상품(유통)이 9.79%, 기타가 0.25%로 기초화합물제조에 매출이 크게 집중되어 있습니다. PPG는 폴리우레탄 중간체로 자동차 시트·가구·단열재 등 다양한 산업의 원료로 공급되는 점이 수익구조의 핵심입니다.",
+    "main_customers": "기초화합물제조 — 자동차 시트·가구·가전·단열재·LNG선 보냉재·건축자재 제조업체 및 폴리우레탄(우레탄폼) 생산업체 / 상품 — 유통업자 및 해외 현지 거래처 / 기타 — 기타 산업용 원료 수요처",
+    "price_factors": [
+      {
+        "factor": "공급과잉",
+        "detail": "중국 중심의 증설과 글로벌 수요 둔화로 석유화학 전반의 공급과잉이 지속되면 제품 판가 하락으로 실적이 압박받습니다."
+      },
+      {
+        "factor": "스프레드(마진)",
+        "detail": "제품 판가와 원재료 구매단가 간 스프레드 축소는 매출 감소와 함께 영업이익률을 낮추는 직접적 요인입니다."
+      },
+      {
+        "factor": "원자재·지정학",
+        "detail": "중동 등 지정학적 갈등으로 원자재 가격 상승 및 공급망 리스크가 확대되면 원가 상승과 납기 차질 가능성이 높아집니다."
+      },
+      {
+        "factor": "환경규제",
+        "detail": "온실가스 배출관리·환경규제 준수 의무로 인해 배출·에너지 관리 비용과 관련 보고 부담이 실적에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "지적재산권",
+        "detail": "보유 특허를 통한 제품 차별화는 경쟁사 대비 가격·수주 경쟁에서 우위를 제공할 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "1) 회사의 개요",
+        "evidence_text": "당사는 폴리프로필렌글리콜(POLYPROPYLENE GLYCOL, 이하 \"PPG\")과 같은 유기화학 및 화공약품의 제조, 합성 및 판매업 등을 목적사업으로 하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "나. 주요 제품 등의 매출현황",
+        "evidence_text": "기초화합물제조 | 제품 | PPGPU RESINCHEMICAL등 | 727,246 | 89.97"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "1) 당사 및 종속회사의 주요 제품 및 서비스 > 가. 주요 제품의 내용",
+        "evidence_text": "PPG는 자동차용 시트, 가구, 가전제품용 단열재, LNG선 보냉재, 건축용 자재 등 다양한 산업의 원료에 사용되고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "석유화학 산업은 중국 중심의 대규모 증설과 글로벌 수요 둔화의 영향으로 전반적인 공급과잉과 수익성 압박이 지속되는 어려운 한 해를 보냈습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "전반적인 공급과잉과 글로벌 수요 둔화의 영향으로 인한 제품 판가와 원재료 구매단가 간 스프레드 축소가 주요인입니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 지적재산권 보유현황",
+        "evidence_text": "당기 말 현재 총38건의 특허권을 보유하고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5277,
+    "completion_tokens": 6006,
+    "reasoning_tokens": 4864,
+    "output_tokens": 1142
+  },
+  "warnings": []
+}

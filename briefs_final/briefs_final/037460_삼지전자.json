@@ -1,0 +1,69 @@
+{
+  "stock_code": "037460",
+  "corp_name": "삼지전자",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 00:49",
+  "meta": {
+    "wics": "통신장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "삼지전자는 무선 접속 장비와 중계기 등 통신 인프라 장비를 개발·제조하여 글로벌 시장에 공급하는 전기·전자 기업입니다. 통신기기 사업을 중심으로 전자부품 유통, 건설 및 부동산 임대 등으로 사업을 다각화하고 있습니다.",
+    "business_model": "핵심 사업은 통신기기 부문으로, Open RAN 기반 O-RU와 뉴트럴 호스트 DAS 등 4G·5G 전대역 장비의 개발·공급을 통해 수익을 창출하며 R&D와 자동화 생산으로 품질 및 원가 경쟁력을 확보하고 있습니다. 그 외 전자부품 유통부문에서는 Memory·S.LSI·MLCC 등을 글로벌 IT기업에 공급하고, 건설부문과 부동산 임대를 통해 추가 수익원을 보유하고 있습니다.",
+    "main_customers": "통신기기 부문 — 이동통신사업자(국내 이통 3사 및 해외 통신사업자) / 전자부품 유통부문 — 삼성전자·삼성전기·삼성SDI·삼성디스플레이 등 글로벌 IT기업 / 건설부문 — 반도체·하이테크 설비투자 발주처",
+    "price_factors": [
+      {
+        "factor": "이통사 투자",
+        "detail": "이동통신 사업자의 네트워크 구축·증설 투자에 따라 수요와 실적 변동이 직접 발생합니다."
+      },
+      {
+        "factor": "기술·품질",
+        "detail": "LTE·5G 등 세대별 장비 고도화와 품질검증 능력이 경쟁력과 수주에 큰 영향을 줍니다."
+      },
+      {
+        "factor": "Open RAN 확산",
+        "detail": "Open RAN 보급 확대는 새로운 참여자 유입과 제품·제안 기회 확대를 동시에 가져옵니다."
+      },
+      {
+        "factor": "지정학 리스크",
+        "detail": "미중 무역분쟁·관세부과·생산기지 이전 등 외부 리스크는 전자부품 유통부문의 실적 변동성을 키울 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황 (통신기기 부문)",
+        "evidence_text": "무선 접속 장비 및 중계기 시스템을 개발·제조"
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황 (통신기기 부문)",
+        "evidence_text": "Open RAN 기반 O-RU와 뉴트럴 호스트 DAS를 운용 중입니다"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황 (통신기기 부문)",
+        "evidence_text": "당사는 국내 이통 3사를 대상으로 한 탄탄한 공급 레퍼런스"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "영업 현황 (전자부품 유통부문)",
+        "evidence_text": "미중 무역분쟁 및 관세부과, 스마트폰 성장세 둔화"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 5106,
+    "completion_tokens": 4090,
+    "reasoning_tokens": 3328,
+    "output_tokens": 762
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

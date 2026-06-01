@@ -1,0 +1,77 @@
+{
+  "stock_code": "430690",
+  "corp_name": "한싹",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:43",
+  "meta": {
+    "wics": "소프트웨어",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "한싹은 1992년 7월 1일 설립된 응용 소프트웨어 개발 및 공급 기업으로, 2023년 10월 4일 코스닥시장에 상장했습니다. 설립 이후 통신 서비스 시장에 진출해 성장 기반을 마련했고, 이후 망간자료전송솔루션을 출시하며 정보보안시장에서 입지를 넓혀 왔습니다.",
+    "business_model": "한싹은 망간자료전송솔루션, 분리망보안통제솔루션, 패스워드관리솔루션, 시스템접근제어솔루션, 보안전자팩스솔루션, SSL가시성솔루션, 스마트빌링솔루션, 통합관제시스템 등을 공급하는 보안 소프트웨어 기업입니다. FY2025 사업부문별 영업수익은 제품매출 18,947(72.2%), 용역매출 6,447(24.6%), 상품매출 719(2.7%), 임대수익 145(0.6%)으로 구성되어 있으며, 제품 중심의 매출 구조를 보이고 있습니다. 또한 클라우드 개발 및 AI연구센터를 기반으로 신제품 출시와 제품 경쟁력 강화에 나서고 있습니다.",
+    "main_customers": "망연계·보안솔루션 — 공공기관, 금융기관, 민간기업 / 용역매출 — 고객사별 최적화가 필요한 기관·기업 / 상품매출 — 보안 관련 상품 수요처",
+    "price_factors": [
+      {
+        "factor": "보안수요",
+        "detail": "디지털 전환과 사이버 위협 고도화로 보안 투자 필요성이 커질수록 한싹의 솔루션 수요에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "공공정책",
+        "detail": "망분리 정책과 정보보호 관련 법·제도 환경은 망연계 솔루션 수요를 좌우하는 중요한 변수입니다."
+      },
+      {
+        "factor": "클라우드",
+        "detail": "기업 IT 환경이 온프레미스에서 클라우드·하이브리드로 전환될수록 안전한 데이터 연계 관련 수요가 확대될 수 있습니다."
+      },
+      {
+        "factor": "AI확산",
+        "detail": "AI 기반 보안 솔루션과 제로트러스트(신뢰하지 않고 계속 검증하는 보안 방식) 확산은 관련 제품 경쟁력에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "MD&A",
+        "evidence_text": "1992년 07월 01일에 설립되어 34년간 지속 성장"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "MD&A",
+        "evidence_text": "2023년 10월 04일 코스닥시장에 주권을 상장"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "제품매출: 18,947 (72.2%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "용역매출: 6,447 (24.6%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "MD&A",
+        "evidence_text": "공공기관 및금융권을 중심으로 안정적인 수요 기반"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "MD&A",
+        "evidence_text": "민간기업 및 금융기관에서도 내부망과 외부망 간"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3846,
+    "completion_tokens": 879,
+    "reasoning_tokens": 0,
+    "output_tokens": 879
+  },
+  "warnings": []
+}

@@ -1,0 +1,63 @@
+{
+  "stock_code": "086980",
+  "corp_name": "쇼박스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 06:40",
+  "meta": {
+    "wics": "방송과엔터테인먼트",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "쇼박스는 1999년 (주)미디어플렉스로 설립되어 영화 투자·배급·제작을 중심으로 성장해 왔습니다. 2007년 메가박스 매각 이후 영화 투자와 배급·제작에 역량을 집중했으며, 2015년 사명을 쇼박스로 변경하고 드라마 제작과 글로벌 플랫폼 협력으로 사업 영역을 확장하고 있습니다.",
+    "business_model": "핵심 사업은 영화의 투자·배급·제작과 드라마의 기획·제작으로, 매출의 큰 부분은 영화 매출(투자·배급·판권 판매 등)을 통해 발생합니다. 최근에는 OTT·해외 플랫폼과의 협력, 숏폼 드라마 등 신규 포맷으로 콘텐츠 유통 채널을 다변화하는 전략을 추진하고 있습니다.",
+    "main_customers": "영화(투자·배급·판권) — 극장(관객)·영화관 및 디지털 유통사업자 / 드라마(기획·제작) — 방송사·OTT 플랫폼·해외 플랫폼",
+    "price_factors": [
+      {
+        "factor": "극장수요",
+        "detail": "극장 관객 수 변동이 실적에 직접적 영향을 미쳐 관객 감소 시 매출이 줄어듭니다."
+      },
+      {
+        "factor": "OTT확산",
+        "detail": "OTT 플랫폼의 성장으로 유통구조가 바뀌며 플랫폼과의 계약 조건이 실적 변동성에 영향을 줍니다."
+      },
+      {
+        "factor": "흥행편차",
+        "detail": "작품별 흥행 성과 편차 확대는 개별 작품에 대한 수익 기여도를 불안정하게 만듭니다."
+      },
+      {
+        "factor": "글로벌유통",
+        "detail": "해외 플랫폼과의 협력 확대는 해외 판권 판매 등 추가 수익 기회를 제공할 수 있습니다."
+      },
+      {
+        "factor": "콘텐츠트렌드",
+        "detail": "숏폼 및 모바일 중심 소비 증가에 대한 적응 여부가 콘텐츠 유통성과에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "영화 투자배급제작과 드라마 제작사로서 위상을 확대해가고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "당사는 2025년에 1편의 한국 애니메이션의 배급 및 3편의 한국영화를 배급하였습니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4898,
+    "completion_tokens": 4100,
+    "reasoning_tokens": 3456,
+    "output_tokens": 644
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

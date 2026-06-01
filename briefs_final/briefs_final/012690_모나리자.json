@@ -1,0 +1,67 @@
+{
+  "stock_code": "012690",
+  "corp_name": "모나리자",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 11:16",
+  "meta": {
+    "wics": "가정용품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "모나리자는 제지부문을 중심으로 위생용지 등 가정용품을 생산·판매하는 종이·목재 업종 기업입니다. 2025년 매출액은 1,240억원으로 보고되었습니다.",
+    "business_model": "사업부문별 영업수익은 제지부문 68.9%, 상품매출 16.3%, 반제품매출 14.0%, 기타매출 0.8%로 구성되며 제지부문이 핵심 수익원입니다. 제품 다양화와 유통망 확보, 원가관리(펄프 등 원재료 관리)가 수익 구조의 주요 축입니다.",
+    "main_customers": "제지부문 — 유통사(PB)·최종 소비자 / 상품매출 — 유통망·소매업체 / 반제품매출 — 산업·제조업체",
+    "price_factors": [
+      {
+        "factor": "펄프가격",
+        "detail": "펄프 가격 변동은 제조원가에 직접 영향을 줘 영업이익 변동성을 키웁니다."
+      },
+      {
+        "factor": "물류비",
+        "detail": "물류비 상승은 전반적 제조원가를 높여 이익률을 압박합니다."
+      },
+      {
+        "factor": "유통PB",
+        "detail": "유통사 PB 제품 확산은 가격 경쟁을 심화시켜 단가와 수익성에 부담을 줍니다."
+      },
+      {
+        "factor": "환경규제",
+        "detail": "탄소중립 등 환경규제 강화는 설비·공정 개선을 요구해 비용 요인이 될 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "다. 영업 개황 및 요약 재무현황",
+        "evidence_text": "매출액은 1,240억원"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "제지부문: 85,451 (68.9%)"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "다. 영업 개황 및 요약 재무현황",
+        "evidence_text": "주요 원재료인 펄프 가격 및 물류비 등 전반적인 제조원가 상승이 영업이익 하락의 주요 원인입니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "<제지 사업부문> 다. 경쟁요소",
+        "evidence_text": "유통사 PB 제품의 확산"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4219,
+    "completion_tokens": 5883,
+    "reasoning_tokens": 5248,
+    "output_tokens": 635
+  },
+  "warnings": []
+}

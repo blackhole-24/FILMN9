@@ -1,0 +1,84 @@
+{
+  "stock_code": "369370",
+  "corp_name": "블리츠웨이엔터테인먼트",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 18:01",
+  "meta": {
+    "wics": "방송과엔터테인먼트",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "reit"
+  },
+  "brief": {
+    "company_overview": "블리츠웨이엔터테인먼트는 아티스트 매니지먼트, 드라마 제작, 피규어 개발·제작을 주요 사업으로 영위하는 콘텐츠 기업입니다. 해외 자회사(BLITZWAY JAPAN, BLITZWAY USA)를 통해 글로벌 시장 확장을 추진하고 있으며, 2025년에는 음악 전문 레이블(주)클렙 설립으로 K-POP 아티스트 매니지먼트로 사업 영역을 확대했습니다. 2025년 연결기준 매출액은 302억원, 영업손실은 90억원을 기록하였습니다.",
+    "business_model": "핵심 사업은 아티스트 매니지먼트(배우·가수 등), 드라마 제작, 피규어 개발·제작으로 구성되며, 각 부문 간 IP(지식재산) 연계를 통한 멀티 수익구조(출연·음반·굿즈·라이선싱 등)를 목표로 운영합니다. 피규어 제품은 글로벌 총판 중심의 온라인 도·소매 채널과 자사 홈페이지를 통한 B2C(기업-소비자) 판매를 주요 유통경로로 활용하며, 원가경쟁력 제고를 위해 중국에서 외주생산을 진행하고 있습니다.",
+    "main_customers": "매니지먼트 — 방송국·미디어 플랫폼·광고주 / 드라마 제작 — 방송국·미디어 플랫폼·해외 바이어 / 피규어 사업 — 글로벌 유통사(총판)·온라인 도소매 및 최종 소비자(B2C)",
+    "price_factors": [
+      {
+        "factor": "플랫폼 트렌드",
+        "detail": "OTT·유튜브 등 디지털 플랫폼 성장에 따라 매니지먼트·드라마 수요와 유통 경로가 변동합니다."
+      },
+      {
+        "factor": "환율(외환위험)",
+        "detail": "미·일·중 통화 노출이 있어 환율 변동이 해외매출과 원재료·결제에 실적 영향을 줍니다."
+      },
+      {
+        "factor": "제조 아웃소싱",
+        "detail": "중국 외주생산에 따른 원가·납기·품질 이슈가 피규어 사업 실적에 직결됩니다."
+      },
+      {
+        "factor": "글로벌 유통 의존",
+        "detail": "글로벌 총판·온라인 채널의 판매 환경 변화가 피규어 매출에 직접적 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "아티스트 매니지먼트 사업 및 드라마 제작 사업, 피규어 개발 및 제작 사업"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "해외 자회사인 BLITZWAY JAPAN CO., LTD. 및 BLITZWAY USA, INC.를 통하여 지속적으로 해외시장 확장을 진행하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "피규어 제품은 글로벌 총판 위주의 온라인 도/소매 채널 및 당사 홈페이지를 활용한 B2C 판매형태"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "현재 원가경쟁력 제고를 위하여 중국에서 외주생산을 하고 있으며"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "드라마 제작 사업은 국내 드라마를 기획 및 제작하여 방송국, 미디어 플랫폼, 해외시장에 공급"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "연결기준 매출액 302억원, 영업손실 90억원을 기록하였습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 시장위험과 위험관리 (1) 재무위험관리요소",
+        "evidence_text": "외환 위험에 노출돼 있습니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4775,
+    "completion_tokens": 5024,
+    "reasoning_tokens": 3968,
+    "output_tokens": 1056
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

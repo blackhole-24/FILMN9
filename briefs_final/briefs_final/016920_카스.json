@@ -1,0 +1,64 @@
+{
+  "stock_code": "016920",
+  "corp_name": "카스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 21:57",
+  "meta": {
+    "wics": "전자장비와기기",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "카스는 전자저울 및 관련 응용상품을 제조·판매하는 기업으로 전자장비와기기 섹터에 속해 있습니다. 최근 연결기준 매출은 1,610억원(전년대비 3.25% 증가)이며 영업이익과 당기순이익은 감소했습니다.",
+    "business_model": "주요 사업부문은 전자저울제조 및 판매, 로드셀, 라벨지, 상품 등과 임대업으로 구성되어 있습니다. 제품 특성상 검정(approvals)과 교정(calibrations), 현장 밀착형 기술서비스 제공이 구매 결정과 경쟁력에 중요한 역할을 합니다.",
+    "main_customers": "전자저울제조 및 판매 — 대형딜러·소매업자·최종소비자 / 로드셀·인디케이터 등 중간구성품 — 모듈·중간구성품을 생산하는 제조업체 / 임대업 — 임차인(임대수입 발생처)",
+    "price_factors": [
+      {
+        "factor": "판매망",
+        "detail": "대형 딜러(Mass Merchants)와의 유통망 확보·관리 여부가 매출과 실적에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "교정·서비스",
+        "detail": "제품의 검정(approvals) 및 교정(calibrations)과 현장 기술서비스 제공 역량이 구매결정과 유지보수 수요에 영향을 줍니다."
+      },
+      {
+        "factor": "시장성장",
+        "detail": "무게 관련 시장의 연평균 성장률(과거 기준)이 향후 수요와 매출 성장에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "외화평가",
+        "detail": "외화평가손익 변동은 당기순이익 등 실적 변동성에 영향을 미쳤습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "당기 매출은 1,610억원으로 전년대비 3.25% 증가하였으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "전자저울제조 및 판매"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 업계의 현황 (1) 시장 구조 및 산업가치 사슬",
+        "evidence_text": "대형딜러(Mass Merchants)들에 의해 구매되며"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 3278,
+    "completion_tokens": 3583,
+    "reasoning_tokens": 2944,
+    "output_tokens": 639
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "stock_code": "001550",
+  "corp_name": "조비",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 17:33",
+  "meta": {
+    "wics": "화학",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "조비는 비료 전문 제조·판매 회사로, 약 675개 품목에 대한 비료생산업 허가를 보유하고 이 중 약 280여개 품목의 복합비료를 생산하고 있습니다. 농협경제지주 및 전국 단위농협·대리점을 통해 판매하며, 2024년 기말 기준 국내 비료시장 점유율은 약 9.4%입니다.",
+    "business_model": "사업부문별 영업수익은 비료(57.3%), 대리점외(41.7%), 지배회사(㈜경농, 1.0%)로 구성되어 있으며, 핵심 수익원은 완효성 비료 등 기능성 비료 중심의 제품 판매입니다. 주요 제품으로는 완효성 비료 '단한번' 등 기능성 비료가 포함되어 있으며, 농협 유통망을 통한 대량 판매가 매출의 큰 부분을 차지합니다.",
+    "main_customers": "비료 — 농협중앙회·단위농협·당사 대리점 / 대리점외 — 대리점 외 기타 거래처(자료상 구체 명시 없음) / 지배회사 — (주)경농",
+    "price_factors": [
+      {
+        "factor": "원료의존",
+        "detail": "천연가스·인광석 등 주요 원료를 수입에 의존하여 원자재 가격·공급 변동이 실적에 직접 영향합니다."
+      },
+      {
+        "factor": "정부규제",
+        "detail": "비료관리법에 따른 품질관리·행정처분 가능성은 영업 지속성과 비용에 영향을 미칩니다."
+      },
+      {
+        "factor": "유통경쟁",
+        "detail": "비료판매 자유화와 농협 납품 입찰경쟁 심화로 수익성 악화 압력이 존재합니다."
+      },
+      {
+        "factor": "수요구조",
+        "detail": "완효성·기능성 비료 수요 증가는 제품 믹스와 고부가가치 전환에 영향을 줍니다."
+      },
+      {
+        "factor": "환율·원자재",
+        "detail": "원달러 환율 변동과 원자재 가격 불안은 수입원가와 비용구조에 직접 작용합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 비료전문제조판매회사로서"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "비료 (57.3%), 대리점외 (41.7%), 지배회사 : (주)경농 (1.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "매출의 상당수는 농협중앙회를 통해 이루어지고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "주요 원료의 대부분을 수입에 의존합니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5129,
+    "completion_tokens": 3594,
+    "reasoning_tokens": 2816,
+    "output_tokens": 778
+  },
+  "warnings": []
+}

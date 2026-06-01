@@ -1,0 +1,62 @@
+{
+  "stock_code": "323990",
+  "corp_name": "박셀바이오",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 16:34",
+  "meta": {
+    "wics": "제약",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "박셀바이오는 2010년 2월 설립된 항암면역치료제 개발 전문 기업으로, 자연살해세포(NK세포) 기반과 CAR 계열 등 다수의 항암면역파이프라인을 보유하고 있습니다. 반려동물용 면역보조치료제인 박스루킨-15 등 반려동물 헬스케어 사업도 전개하며 파이프라인 다각화를 추진하고 있습니다.",
+    "business_model": "매출의 100.0%가 반려동물헬스케어 부문(반려동물용 처방 전문의약품)에서 발생합니다. 연구개발 측면에서는 Vax-NK(자연살해세포 기반) 및 Vax-CAR(키메라항원수용체, CAR) 계열의 세포치료제 플랫폼, 저분자 표적항암제, 이중항체·DDS(약물전달시스템)·제제 기반 신약개발 플랫폼 등을 통해 장기적 가치 창출을 목표로 하고 있습니다.",
+    "main_customers": "반려동물헬스케어 — 반려동물(반려견) 및 수의료기관 / 항암면역치료제(연구개발) — 환자(임상 대상자) 및 임상 수행 의료기관·협력연구기관",
+    "price_factors": [
+      {
+        "factor": "시장 성장성",
+        "detail": "글로벌 세포·유전자치료제 시장의 고성장 전망은 장기적 수요 확대와 파이프라인 가치에 영향을 미칩니다."
+      },
+      {
+        "factor": "임상 진행상황",
+        "detail": "Vax-NK 등 파이프라인의 임상 속도와 결과(효능·안전성) 공개 여부가 실적 기대치와 기업 가치에 직결됩니다."
+      },
+      {
+        "factor": "규제·허가 환경",
+        "detail": "국내외 품목허가(식약처·FDA 등) 추이와 승인 사례는 시장 진입 시점과 상업화 가능성에 영향을 줍니다."
+      },
+      {
+        "factor": "지적재산권",
+        "detail": "특허 등록·명의 변경 등 지적재산권 확보는 기술 독점성과 기술이전 기회에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 항암면역치료제 개발 전문 회사로"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "반려동물헬스케어 부문: 13,723 (100.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "Vax-NK 항암면역세포치료제 플랫폼은 환자의 혈액에서"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5660,
+    "completion_tokens": 3422,
+    "reasoning_tokens": 2688,
+    "output_tokens": 734
+  },
+  "warnings": []
+}

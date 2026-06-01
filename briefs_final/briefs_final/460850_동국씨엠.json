@@ -1,0 +1,67 @@
+{
+  "stock_code": "460850",
+  "corp_name": "동국씨엠",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 20:15",
+  "meta": {
+    "wics": "철강",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "동국씨엠은 도금강판과 컬러강판을 주력으로 생산하는 철강회사로, 세계 최대 수준의 컬러강판 생산능력과 태국·인도·멕시코의 코일센터를 통한 글로벌 공급망을 보유하고 있습니다. 프리미엄 컬러강판 브랜드 Luxteel·Appsteel과 디지털 프린팅 제품 등 고부가가치 제품을 중심으로 브랜드화와 B2C 영역 확대를 추진하고 있습니다.",
+    "business_model": "사업은 철강부문(컬러강판·냉연도금강판 등)을 중심으로 이루어지며, 사업부문별 매출 비중은 컬러강판 35.5%, 냉연도금강판 25.0%, 기타 4.0% 등으로 구성되어 있습니다. 2025년 아주스틸 인수로 영상가전·생활가전·건재 등 세부 품목 매출이 합쳐지며 규모의 경제와 컬러강판 중심의 고부가가치 전략으로 수익성 제고를 노리고 있습니다.",
+    "main_customers": "컬러강판 — 가전·건자재 / 냉연도금강판 — 가전·건자재·자동차 / 아주스틸(영상가전) — TV 제조사 / 아주스틸(생활가전) — 냉장고·세탁기 등 생활가전 업체 / Aju Steel USA(영상가전·생활가전) — 북미 가전사",
+    "price_factors": [
+      {
+        "factor": "수요 민감성",
+        "detail": "건설·가전·자동차 등 주요 수요산업의 경기변동에 따라 실적이 직간접적으로 영향을 받습니다."
+      },
+      {
+        "factor": "관세·보호무역",
+        "detail": "미국 등 주요 시장의 관세·보호무역 강화는 수출과 수익성에 큰 부담으로 작용합니다."
+      },
+      {
+        "factor": "원자재 가격",
+        "detail": "철광석·고철 등 원료가격 변동은 제조원가와 수익성에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "환경 규제",
+        "detail": "EU의 CBAM 등 탄소 관련 규제 확산은 수출구조와 비용에 영향을 미칠 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "또한 세계 최대 규모의 컬러강판 생산 능력을 갖추고 있으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. 주요 제품, 서비스 등의 현황",
+        "evidence_text": "컬러강판 | 가전, 건자재 등 | 1,086,870 | 35.5"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 주요 제품, 서비스 등의 현황",
+        "evidence_text": "컬러강판 | 가전, 건자재 등"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "사업의 내용(상세) 가. 업계의 현황 (3) 경기변동의 특성",
+        "evidence_text": "철강산업의 경기 변동에 영향을 주는 것은 철강 주요산업별 수요의 등락입니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5928,
+    "completion_tokens": 4787,
+    "reasoning_tokens": 3968,
+    "output_tokens": 819
+  },
+  "warnings": []
+}

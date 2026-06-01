@@ -1,0 +1,67 @@
+{
+  "stock_code": "006220",
+  "corp_name": "제주은행",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 19:32",
+  "meta": {
+    "wics": "은행",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "제주은행은 1969년 설립된 지방은행으로 제주지역의 균형발전과 활성화를 목표로 창립되어 지역사회에서 중추적 역할을 수행해 왔습니다. 신한금융그룹의 일원으로 제주도내 19개 지점·4개 출장소와 제주 외 3개 지점 등 총 26개 영업망과 116개의 ATM을 운영하고 있습니다.",
+    "business_model": "수익은 순이자이익(대출·예금 간 마진)이 중심이며 2025년 순이자익은 1,629억원, 순수수료이익은 128억원을 기록했습니다. 사업부문별 영업수익(FY2025)은 조달 12.3%, 외화자금 0.2%, 원가성 자금계 87.7%, 기타 9.9%로 구성되어 있으며, 조달비용 관리와 예대마진(순이자마진: NIM)이 핵심 수익 변수입니다.",
+    "main_customers": "리테일·지역금융 — 제주지역 개인 및 소상공인·지역기업 / SOHO·중소기업금융 — SOHO 중심(영세 자영업자 포함) 및 수도권 기업(수도권 기업금융 확대 추진)",
+    "price_factors": [
+      {
+        "factor": "지역경기",
+        "detail": "제주지역 경기 침체 시 연체율이 상승하고 대손충당금 적립이 늘어 순이익에 부정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "조달비용",
+        "detail": "조달비용 변화는 NIM(순이자마진)에 직접 영향을 주어 이자이익과 영업이익 변동을 초래합니다."
+      },
+      {
+        "factor": "자본지표",
+        "detail": "BIS총자본비율 변동은 여신 성장 여력과 규제 관련 대응 여건에 영향을 미쳐 중장기 영업전략에 제약을 줄 수 있습니다."
+      },
+      {
+        "factor": "디지털전환",
+        "detail": "디지털·비대면 서비스 경쟁력 강화는 운영효율성과 고객확대에 기여해 비용구조 및 수익성 개선 요인이 됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "지방은행입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "조달: 3,102 (12.3%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "제주지역 고객들께 수준 높은 금융서비스를 제공하고,"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "NIM은 조달비용 감소 등의 영향으로 전년대비 0.03%p 상승한 2.10%를 기록하였습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4093,
+    "completion_tokens": 5448,
+    "reasoning_tokens": 4672,
+    "output_tokens": 776
+  },
+  "warnings": []
+}

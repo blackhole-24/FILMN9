@@ -1,0 +1,77 @@
+{
+  "stock_code": "126560",
+  "corp_name": "현대퓨처넷",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 09:29",
+  "meta": {
+    "wics": "화장품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "현대퓨처넷은 디지털 미디어와 IT 서비스 사업을 영위하는 ICT 기업으로, 디지털 사이니지·기업 메시징·실감콘텐츠·IT 서비스 등을 주요 사업으로 삼고 있습니다. 화장품소재·건강기능식품·원료의약품·바이오의료소재·브랜드 유통 사업을 영위하는 ㈜현대바이오랜드를 자회사로 보유하고 있습니다.",
+    "business_model": "FY2025 기준으로 디지털 사이니지 매출 10.2%, 기업 메시징 8.8%, 실감콘텐츠 3.3%, IT 서비스 26.8% 등으로 매출이 구성되어 있습니다. 디지털 사이니지와 기업 메시징은 공간 기반 디지털 미디어와 B2B 메시징 서비스(기업 대상 대량 문자·모바일 발송)가 핵심 수익원이며, IT 서비스는 시스템 운영·멀티클라우드·AI 솔루션 등으로 안정적 매출을 담당합니다.",
+    "main_customers": "디지털 사이니지 — 관광명소·교통 인프라·복합상업시설 및 공공시설 운영자 / 기업 메시징 — 유통·금융·의료·교육·제조 등 기업 고객 / 실감콘텐츠 — 전시관 운영사 및 일반 관람객(입장권 등) / IT 서비스 — 유통·패션·제조 등 산업의 기업 고객",
+    "price_factors": [
+      {
+        "factor": "수주 구조",
+        "detail": "디지털 사이니지는 프로젝트 단위 수주 방식이므로 수주 경쟁력과 기획·설계 역량이 실적에 직접 영향합니다."
+      },
+      {
+        "factor": "하드웨어 가격",
+        "detail": "디지털 사이니지의 H/W 가격은 시간 경과에 따라 하락하는 경향이 있어 단가와 마진에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "메시지 과금",
+        "detail": "기업 메시징은 메시지 발송 건수 기반 과금 구조여서 발송량 변동이 매출 변동으로 직결됩니다."
+      },
+      {
+        "factor": "기술 고도화",
+        "detail": "실감콘텐츠와 IT 서비스는 AI·고해상도 콘텐츠·클라우드 기술 도입이 경쟁력으로, 기술 대응력에 따라 수익성 차이가 발생합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "[현대퓨처넷 사업부문]",
+        "evidence_text": "현대퓨처넷은 디지털 미디어 사업 및 IT 서비스 사업을 영위하는 ICT 기업으로,"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[현대퓨처넷 사업부문]",
+        "evidence_text": "디지털 사이니지 매출은 전체 매출의 10.2%를 차지하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[현대퓨처넷 사업부문]",
+        "evidence_text": "기업 메시징 매출은 전체 매출의 8.8%를 차지하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[현대퓨처넷 사업부문]",
+        "evidence_text": "실감콘텐츠의 매출은 전체 매출의 3.3%를 차지하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[현대퓨처넷 사업부문]",
+        "evidence_text": "IT 서비스 매출은 전체 매출의 26.8%를차지하고 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 업계의 현황",
+        "evidence_text": "주요 수요는 유통, 금융, 의료, 교육, 제조 등 다양한 산업에서 발생하며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5141,
+    "completion_tokens": 4050,
+    "reasoning_tokens": 3136,
+    "output_tokens": 914
+  },
+  "warnings": []
+}

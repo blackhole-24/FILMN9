@@ -1,0 +1,81 @@
+{
+  "stock_code": "017480",
+  "corp_name": "삼현철강",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 22:03",
+  "meta": {
+    "wics": "철강",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "삼현철강은 철강재 제조·도매를 주력으로 하는 국내 금속(철강) 기업으로, 다년간 축적한 부품제작·가공기술을 바탕으로 제조업체로서의 입지를 유지하고 있습니다. 2025년에는 매출액 2,180억원, 영업이익 51억원을 기록했으며(영업이익률 2.3%), 어려운 영업환경 속에서도 원가절감과 영업에 주력했습니다.",
+    "business_model": "주요 수익원은 제조 및 도매 부문으로, 사업부문별 영업수익 구성에서 제조/도매가 FY2025 기준 매출의 49.3%를 차지합니다. 다년간의 부품제작·가공역량을 통해 제조업체 대상 제품 생산·납품이 핵심 비즈니스 모델이며, 원가관리와 효율적 영업 전략으로 수익성을 확보하려는 구조입니다.",
+    "main_customers": "제조/도매 — 조선·건설·전자·자동차 등 제조업체 및 중장비·기계 산업",
+    "price_factors": [
+      {
+        "factor": "전방산업 경기",
+        "detail": "조선·건설·자동차·기계 등 전방 수요산업의 경기 부진은 판매량과 매출에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "공급과잉·가격압력",
+        "detail": "철강산업 전반의 공급 과잉과 가격 경쟁 심화는 제품 판매가격과 마진을 압박할 수 있습니다."
+      },
+      {
+        "factor": "제조원가 부담",
+        "detail": "제조원가 상승이나 생산량 조정은 회사의 영업이익 변동성에 영향을 줍니다."
+      },
+      {
+        "factor": "제품 경쟁력",
+        "detail": "품질 수준·제품 다양성 및 적기 공급 여부는 기존사업자 간 경쟁에서 중요한 요소로 작용합니다."
+      },
+      {
+        "factor": "환경규제·관리",
+        "detail": "ISO 14001 기반의 환경관리 체계와 대기·수질·폐기물 관리가 규제 대응과 운영비용에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "회사는 여러 어려운 경제 환경 속에서도 철강재 판매에 매진하였으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "제조/도매: 107,508 (49.3%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 업계의 현황",
+        "evidence_text": "철강산업은 조선, 건설, 전자, 자동차 등의 산업에"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 업계의 현황",
+        "evidence_text": "제품의 품질 수준 및 다양성, 적기 공급에 의한 고객만족도"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "2025년 매출액은 2,180억원, 영업이익 51억원, 영업이익률은 2.3%를 달성 하였습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 환경관련 규제사항",
+        "evidence_text": "ISO 14001 인증을 취득하였습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4349,
+    "completion_tokens": 3529,
+    "reasoning_tokens": 2624,
+    "output_tokens": 905
+  },
+  "warnings": []
+}

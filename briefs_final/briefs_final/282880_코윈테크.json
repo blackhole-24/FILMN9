@@ -1,0 +1,64 @@
+{
+  "stock_code": "282880",
+  "corp_name": "코윈테크",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 14:57",
+  "meta": {
+    "wics": "기계",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "코윈테크는 로봇 기반의 제조·물류 자동화 시스템 구축을 주력으로 하는 기계·장비 업체로, 하드웨어(자동화 설비·로봇)부터 소프트웨어(로봇 제어·상위 관제), IT(Digital Twin 등)와 유지보수까지 통합 솔루션을 제공합니다. 배터리·반도체·자동차·ESS 등 첨단 제조라인과 유통·식품·제약 등 물류센터를 대상으로 한 맞춤형 자동화 구축에 강점을 가지고 있습니다.",
+    "business_model": "핵심은 로봇·제조 물류 자동화 사업으로, AMR(자율이동로봇), AGV, ASRS, 셔틀 등 로봇·설비를 고객 환경에 맞춰 통합 설계·시공하고 유지보수(A/S)까지 제공하는 토탈 솔루션 기반의 수주형(주문형) 비즈니스입니다. 별도 사업부문으로 자회사 탑머티리얼을 통한 2차전지 소재 및 전극·양극재 관련 엔지니어링 사업도 병행하고 있습니다.",
+    "main_customers": "로봇·제조 물류 자동화 — 배터리·반도체·자동차·ESS 생산업체 / 물류 자동화·유지보수 — 유통사, 식품사, 제약사, 초중량물 물류센터 운영자 / 2차전지 소재 및 엔지니어링 — EV(전기차) 및 ESS용 리튬이온전지 제조업체",
+    "price_factors": [
+      {
+        "factor": "자동화 수요",
+        "detail": "전자상거래 확대와 인건비 상승으로 자동화 도입이 늘어나 매출 증가로 연결될 수 있습니다."
+      },
+      {
+        "factor": "기술경쟁력",
+        "detail": "AI·센서·자율주행 기술 발전은 제품 경쟁력과 수주 성과에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "2차전지 산업 동향",
+        "detail": "2차전지·배터리 시장의 수요 변동은 자회사 실적과 연결된 연결 실적에 큰 영향을 줍니다."
+      },
+      {
+        "factor": "환율 변동",
+        "detail": "달러·유로 등 외화 계약이 존재해 환율 변동은 손익에 영향을 끼칠 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황 > 1) 로봇·제조 물류 자동화 사업부문",
+        "evidence_text": "당사는 로봇 기반 제조·물류 자동화 시스템 구축을 주요 사업으로 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황 > 1) 로봇·제조 물류 자동화 사업부문",
+        "evidence_text": "전체 영역을 아우르는 토탈 솔루션을 제공하고 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "특히, 당사는 2차전지 산업 초기부터 자동화시스템 사업을 시작하여 전문성을 축적해 왔습니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4651,
+    "completion_tokens": 4442,
+    "reasoning_tokens": 3648,
+    "output_tokens": 794
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

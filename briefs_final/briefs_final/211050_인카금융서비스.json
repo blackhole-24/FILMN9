@@ -1,0 +1,77 @@
+{
+  "stock_code": "211050",
+  "corp_name": "인카금융서비스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 12:08",
+  "meta": {
+    "wics": "손해보험",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "insurance"
+  },
+  "brief": {
+    "company_overview": "인카금융서비스는 독립보험대리점(GA)으로 출발해 최초에는 자동차 보험료 비교서비스로 시작했으며, 현재는 손·생보 약 30여개사의 상품을 비교·분석해 재무설계 서비스를 제공하고 있습니다. 2025년 연결매출액은 1,021,769백만원으로 전년 대비 22.8% 증가하는 등 설계사 영입과 제휴 기반으로 외형이 확대되고 있습니다.",
+    "business_model": "매출은 보험사로부터 수취하는 판매수수료와 계약관리수수료(회계상 매출로 인식)가 전부이며, 수수료 차액이 주요 영업이익원입니다. 사업부문별 영업수익 구성(FY2025)은 손해보험(장기) 54.2%, 생명보험(장기) 41.0%, 손해보험(자동차) 4.0%, 손해보험(일반) 0.8%로 장기보험(손·생보)이 매출의 대부분을 차지합니다.",
+    "main_customers": "손해보험(장기) — 장기 보장을 필요로 하는 일반 소비자 / 생명보험(장기) — 종신·연금 등 장기 보장·노후 대비 고객 / 손해보험(자동차) — 자동차 보험 가입자(개인·법인 운전자) / 손해보험(일반) — 여행·화재 등 단기 보장 필요 개인 및 소상공인",
+    "price_factors": [
+      {
+        "factor": "수수료율",
+        "detail": "매출이 보험사로부터의 판매수수료에 의존하므로 수수료율 변화는 매출과 이익에 직접 영향을 미칩니다."
+      },
+      {
+        "factor": "손해율·예정이율",
+        "detail": "보험료와 수수료율은 보험사의 손해율 및 정부 기준금리에 따른 예정이율에 연동되어 있어 보험사 손익 환경 변화가 수수료 구조에 영향을 줍니다."
+      },
+      {
+        "factor": "설계사 규모",
+        "detail": "설계사(영업가족) 인원 확대가 신계약 실적 및 매출 증가로 이어지므로 리크루팅 성과가 실적 변동 요인입니다."
+      },
+      {
+        "factor": "판매채널",
+        "detail": "현재는 대면 판매채널에 집중하고 있어 대면 영업 효율성과 채널 전환(비대면 확대) 경로가 실적에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "독립보험대리점(이하 'GA')"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "손해보험(장기): 548,597 (54.2%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "생명보험(장기): 414,686 (41.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "손해보험(자동차): 40,546 (4.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "손해보험(일반): 7,797 (0.8%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "당사는 생명보험, 손해보험, 자동차보험 등"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4803,
+    "completion_tokens": 4634,
+    "reasoning_tokens": 3712,
+    "output_tokens": 922
+  },
+  "warnings": []
+}

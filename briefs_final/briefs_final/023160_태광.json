@@ -1,0 +1,62 @@
+{
+  "stock_code": "023160",
+  "corp_name": "태광",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 22:40",
+  "meta": {
+    "wics": "기계",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "태광은 1982년 설립된 배관자재·관이음쇠류 제조업체로, 1994년 기업공개(IPO)를 거쳐 2001년 현재 상호로 변경하였습니다. 산업용 피팅(배관 이음쇠) 분야에서 높은 기술력과 생산능력을 보유한 업계 선도기업이며, 파운드리서울(주)과 (주)에이치와이티씨를 종속회사로 두고 있습니다.",
+    "business_model": "사업부문별로 플랜트용 기자재가 매출의 89.4%로 핵심 수익원이며, 2차전지용 기자재가 10.1%, 부동산 임대 외가 0.4%를 차지합니다. 플랜트용 기자재는 LNG·석유화학·정유·발전·조선 등 국가기간산업의 설비투자에 연동되는 수주산업(주문 기반 산업)이고, 2차전지용 기자재는 고객 주문에 따라 개별 설계·제작되는 맞춤형 제품으로 제품별 단가 차이가 큽니다.",
+    "main_customers": "플랜트용 기자재 — LNG·석유화학·발전·담수·조선·해양구조물 프로젝트 / 부동산 임대 외 — 임차인(임대 대상) / 2차전지용 기자재 — 2차전지 제조업체(주문 맞춤형 제품)",
+    "price_factors": [
+      {
+        "factor": "플랜트 발주",
+        "detail": "LNG·석유화학·발전 등 플랜트 설비투자 확대 시 매출과 실적이 직접 개선될 수 있습니다."
+      },
+      {
+        "factor": "원재료·환율",
+        "detail": "원재료 가격 변동 및 수입 원재료의 환율 영향은 원가에 직접 영향을 미쳐 수익성 변동을 초래할 수 있습니다."
+      },
+      {
+        "factor": "수주 특성",
+        "detail": "수주산업 특성상 프로젝트 수주·납기 변동이 실적 변동성으로 이어질 가능성이 큽니다."
+      },
+      {
+        "factor": "기술경쟁력",
+        "detail": "초고압·내열 피팅 등 고기술 제품의 경쟁우위는 원전·조선·우주항공 등 고부가 시장에서 수주 확보에 유리하게 작용합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "당사는 1982년 8월 1일에 태광벤드공업주식회사로 설립되었으며,"
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "플랜트용 기자재: 265,617 (89.4%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 플랜트용 기자재 - (주)태광(1) 사업의 현황",
+        "evidence_text": "LNG, 석유화학, 발전, 담수, 조선, 해양구조물 등"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4595,
+    "completion_tokens": 3350,
+    "reasoning_tokens": 2560,
+    "output_tokens": 790
+  },
+  "warnings": []
+}

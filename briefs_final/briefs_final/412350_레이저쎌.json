@@ -1,0 +1,66 @@
+{
+  "stock_code": "412350",
+  "corp_name": "레이저쎌",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 19:04",
+  "meta": {
+    "wics": "반도체와반도체장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "레이저쎌은 2015년 4월 설립된 면광원-에이리어 레이저 기술 기반 장비 개발·제조사로, 반도체·디스플레이·2차전지 후공정의 본딩(접합) 장비를 주력으로 합니다. LSR 시리즈 등 장비와 BSOM·NBOL 디바이스를 통해 칩과 PCB(인쇄회로기판) 패키징 공정에 적용되는 솔루션을 제공합니다.",
+    "business_model": "주요 수익원은 장비(LSR, LCB, LSB 등)와 장비용 디바이스(BSOM, NBOL)이며, FY2025 기준 매출은 국내 50.0%, 해외 50.0%로 구성되어 있습니다. LSR 계열은 면(Area) 레이저를 이용해 짧은 시간 내 본딩을 구현하는 고속·저휘형 장비이고, BSOM 등은 장비에 탑재되는 핵심 광학 모듈(초정밀광학 모듈) 형태로 납품됩니다.",
+    "main_customers": "장비 사업부문 — 첨단반도체 제조사·차세대디스플레이 제조사·전기자동차 배터리 제조사 / 디바이스 사업부문 — 패키징 장비를 도입하는 반도체·디스플레이 관련 장비 고객사",
+    "price_factors": [
+      {
+        "factor": "전방시장 성장",
+        "detail": "반도체·디스플레이·전기차 배터리 시장의 설비투자 확대가 장비 수요와 실적에 직결됩니다."
+      },
+      {
+        "factor": "후공정 수요",
+        "detail": "Advanced Packaging(고급 패키징) 확산으로 후공정 장비 수요가 증가하면 회사의 장비 매출에 유리합니다."
+      },
+      {
+        "factor": "데모·평가 의존",
+        "detail": "장비 구매 전 고객사의 사전 평가(데모)가 필수여서 데모센터 접근성 및 성과가 수주에 영향을 미칩니다."
+      },
+      {
+        "factor": "글로벌 파트너",
+        "detail": "미국·대만·일본·중국 등 데모거점과 판매 파트너 네트워크의 확장이 해외수주와 매출에 영향합니다."
+      },
+      {
+        "factor": "High‑End 집중",
+        "detail": "마진이 높은 High‑End 제품군(LSR, LCB, LSB, 디바이스) 비중 증가가 영업이익률에 긍정적 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 회사의 현황(1) 사업개황",
+        "evidence_text": "면광원 에이리어 레이저 기술을 바탕으로"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "국 내: 1,974 (50.0%)"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성 > (다) LSR Global 데모거점(미국, 한국, 대만, 일본, 중국) 구축",
+        "evidence_text": "데모거점(미국, 한국, 대만, 일본, 중국) 구축"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5277,
+    "completion_tokens": 4407,
+    "reasoning_tokens": 3584,
+    "output_tokens": 823
+  },
+  "warnings": []
+}

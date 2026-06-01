@@ -1,0 +1,72 @@
+{
+  "stock_code": "318410",
+  "corp_name": "비비씨",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 16:25",
+  "meta": {
+    "wics": "가정용품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "비비씨는 PBT 기반 모노필라멘트와 기능성 에어필터를 생산하는 화학·가정용품 회사입니다. 모노필라멘트는 덴탈케어(칫솔모), 뷰티케어 및 산업용 브러쉬 등에 적용되며, 필터는 차량용 캐빈 필터·발전소용 필터·크린룸·공기청정용 등으로 공급됩니다.",
+    "business_model": "FY2025 기준 사업부문별 영업수익은 모노필라멘트 75.5%, 필터 1.7%, 헬스케어 5.6%, 패션잡화 4.9%, 기타 12.3%로 구성되어 있으며, 핵심 수익원은 모노필라멘트(칫솔모 등)입니다. 헬스케어는 모노필라멘트를 활용한 칫솔 완제품과 브랜드(덴터치·덴띠끄·세이이 등)를, 패션잡화는 홈쇼핑·온라인 채널을 통한 신발류 판매를 포함합니다.",
+    "main_customers": "모노필라멘트 — 칫솔 제조사 및 뷰티케어·산업용 브러쉬 업체 / 필터 — 차량용·발전소·크린룸·공기청정기 관련 고객 / 헬스케어 — 브랜드 제품 구매 일반 소비자 / 패션잡화 — 홈쇼핑·온라인을 통한 소비자 (CJ 홈쇼핑 공급 등)",
+    "price_factors": [
+      {
+        "factor": "칫솔 수요",
+        "detail": "국내 칫솔 시장 규모와 교체주기 단축은 모노필라멘트 수요에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "수입 의존",
+        "detail": "고부가 필터 제품의 수입 의존도가 높은 상황에서 국산화 진전 여부가 실적에 영향합니다."
+      },
+      {
+        "factor": "성능검증",
+        "detail": "공인시험기관의 성능 검증 및 항균성 입증은 제품 경쟁력과 시장 진출에 영향을 줍니다."
+      },
+      {
+        "factor": "친환경 수요",
+        "detail": "친환경 칫솔모 등 ESG 관련 요구 증가는 제품 개발과 시장 포지셔닝에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "덴탈케어(칫솔모), 뷰티케어 및 산업용 브러쉬"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "- 모노필라멘트: 34,187 (75.5%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "칫솔과  칫솔브랜드로는 덴터치, 덴띠끄, 세이이등이 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "수입 의존도가 높은 상황"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "국내 칫솔시장규모는 2025년 기준 2,415억원으로 파악됩니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3762,
+    "completion_tokens": 4439,
+    "reasoning_tokens": 3584,
+    "output_tokens": 855
+  },
+  "warnings": []
+}

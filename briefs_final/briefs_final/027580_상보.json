@@ -1,0 +1,76 @@
+{
+  "stock_code": "027580",
+  "corp_name": "상보",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 23:23",
+  "meta": {
+    "wics": "화학",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "상보는 코팅필름을 제조·판매하는 화학업체로, 주요 매출 품목은 차량용 및 건축용 윈도우필름과 보호필름(PPF)입니다. 연결기준 당기 매출에서 내수·수출 비중이 모두 존재하며(보고서 상 내수·수출 수치 기재), 신사업으로 퀀텀닷용 배리어필름 등도 추진하고 있습니다.",
+    "business_model": "핵심 사업은 차량/건축용 코팅필름의 제조·판매이며, 고성능 윈도우필름과 보호필름(PPF)이 주된 수익원입니다. 보고서의 사업부문별 구성에서 '기타'는 FY2025 기준으로 17.0%를 차지하고 있으며(신사업·산업재 포함), 기존 필름 사업의 품질 경쟁력과 일부 신사업 인증·양산으로 수익 구조를 보완하고 있습니다.",
+    "main_customers": "차량/건축용 필름 — 고객사(내수·수출) / 기타(신사업·산업재) — 국내외 고객사",
+    "price_factors": [
+      {
+        "factor": "수요 성장",
+        "detail": "개발도상국의 보급화 및 해외 고품질 수요 증가가 실적 성장에 영향을 미칩니다."
+      },
+      {
+        "factor": "친환경 트렌드",
+        "detail": "에너지 절감·열차단 수요 확대로 건축용 필름 수요가 꾸준히 유지됩니다."
+      },
+      {
+        "factor": "경기 민감도",
+        "detail": "차량 보급률 및 글로벌 경제성장률 변동이 차량용 필름 수요에 영향을 줍니다."
+      },
+      {
+        "factor": "경쟁 강도",
+        "detail": "글로벌 대기업 2곳 외 다수 업체와의 경쟁에서 품질·인증이 실적 변수로 작용합니다."
+      },
+      {
+        "factor": "PPF 도입기",
+        "detail": "PPF는 도입기 시장으로 고가 차량 수요 변화에 민감하게 반응합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "당사는 코팅필름 제조 및 판매 사업을 영위하고 있으며,"
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황",
+        "evidence_text": "주요 매출 품목은 차량/건축용 필름입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "기 타: 8,366 (17.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "(내수 19,971백만원, 수출 21,769백만원)"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "자외선 차단율이 99%"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4522,
+    "completion_tokens": 4986,
+    "reasoning_tokens": 4224,
+    "output_tokens": 762
+  },
+  "warnings": []
+}

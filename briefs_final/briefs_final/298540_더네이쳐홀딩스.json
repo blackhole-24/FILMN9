@@ -1,0 +1,78 @@
+{
+  "stock_code": "298540",
+  "corp_name": "더네이쳐홀딩스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 15:33",
+  "meta": {
+    "wics": "섬유,의류,신발,호화품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "더네이쳐홀딩스는 라이선스 기반 패션·아웃도어 브랜드를 전개하는 기업으로, 2010년 영국 브랜드 라이선스 도입을 계기로 본격적인 사업을 시작했습니다. 내셔널지오그래픽, 마크곤잘레스, 브롬톤 등 글로벌 브랜드와의 라이선스 및 직영 매장 운영을 통해 국내외에서 의류·잡화·여행가방 사업을 전개하고 있습니다.",
+    "business_model": "핵심은 글로벌 브랜드 라이선스(브랜드 사용권 확보) 기반의 제품 기획·유통으로, 캠핑용품·여행가방·의류 등 라이선스 상품과 직영 매장 판매를 결합한 구조입니다. 또한 2022년 배럴 지분 인수와 2024년 데우스 엑스 마키나 지분 취득 등 지분투자를 통한 브랜드 포트폴리오 강화와 해외 직영점 확장을 통해 수익 기회를 다각화하고 있습니다. 제품군은 약 300개 세부 아이템으로 시즌별 제품 구성과 짧은 라이프사이클이 특징이며, 최근 3년간 주요 제품 단가는 큰 변동이 없었습니다.",
+    "main_customers": "패션부문 — 국내·중화권 등 지역의 일반 소비자(직영매장·매장 방문 고객) / 라이선스·브랜드 제휴 — 라이선스 보유사 및 글로벌 브랜드 파트너 / 해외·수출 — 중국·대만 등 중화권 현지 소비자",
+    "price_factors": [
+      {
+        "factor": "트렌드 민감성",
+        "detail": "빠르게 변하는 패션 트렌드로 제품 라이프사이클이 짧아 기획·재고 관리 역량이 실적에 직접 영향"
+      },
+      {
+        "factor": "경쟁 진입장벽",
+        "detail": "진입장벽이 낮아 후발업체 출현이 쉬워 가격·디자인 경쟁이 심화될수록 마진 압박이 발생"
+      },
+      {
+        "factor": "중국 소비심리",
+        "detail": "중국·중화권 시장 침체 시 직영 매장·현지 매출에 직접적 타격이 발생"
+      },
+      {
+        "factor": "시즌성(제품)",
+        "detail": "계절별로 제품 구성이 달라 판매 성수기·비수기 변화가 실적 변동성으로 연결"
+      },
+      {
+        "factor": "브랜드력·마케팅",
+        "detail": "브랜드 인지도와 공격적 마케팅에 따른 시장 점유율 변동이 매출과 수익성에 영향"
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "본격적으로 라이선스 사업을 시작하였습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "캠핑용품, 여행용 가방 및의류 라이선스 계약을 체결"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "직영 매장을 오픈하였으며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "패션산업은 소비자들의 일상에 직결되는 의식주 중 \"의\"에 해당하는 필수 산업군입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "배럴의 지분을 인수하였습니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 5074,
+    "completion_tokens": 4179,
+    "reasoning_tokens": 3264,
+    "output_tokens": 915
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

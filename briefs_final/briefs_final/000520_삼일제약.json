@@ -1,0 +1,76 @@
+{
+  "stock_code": "000520",
+  "corp_name": "삼일제약",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 16:52",
+  "meta": {
+    "wics": "제약",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "삼일제약은 1947년 설립된 의약품 제조·판매 중견 제약회사로, 어린이부루펜시럽·티어실원스·아이투오미니 등으로 알려져 있습니다. 안과·간질환·소화기계 등 전문의약품을 중심으로 기술도입 생산, 제네릭(복제약) 및 개량신약 개발·판매와 직수입 상품 유통을 병행하는 구조입니다.",
+    "business_model": "주력은 전문의약품 중심의 제약사업이며 2025년 연결 기준 매출의 제약부문 비중은 97.8%, 기타부문 2.2%입니다. FY2025 사업부문별 영업수익 구성에서는 제 약 14,103(6.7%), 리박트 17,713(8.4%), 글립타이드 11,317(5.4%), 부루펜류 3,654(1.7%), 리비디 4,976(2.4%), 액티피드 3,843(1.8%), 상품 14,677(7.0%), 레바케이 9,621(4.6%), 졸로푸트 9,315(4.4%), 히아박 6,249(3.0%), 레스타시스 5,811(2.8%) 등 개별 품목들이 매출을 구성합니다.",
+    "main_customers": "제약(전문의약품) — 의료기관·진료과(안과 등) / 상품(직수입 의약품) — 유통업체·약국 / 기타 — 기타 사업 관련 고객",
+    "price_factors": [
+      {
+        "factor": "규제·약가",
+        "detail": "정부의 의약품 허가 및 보험 약가 등재 정책 변화가 매출과 수익성에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "제네릭 경쟁",
+        "detail": "국내 기업들의 제네릭 개발 집중으로 제품별 경쟁이 치열해져 실적 변동성이 커질 수 있습니다."
+      },
+      {
+        "factor": "글로벌 라이선스",
+        "detail": "Aramchol·Lorecivivint 등 라이선스 계약의 성과는 중장기 매출 구성에 영향을 줍니다."
+      },
+      {
+        "factor": "CDMO 투자·인증",
+        "detail": "베트남 안과 CDMO 공장 가동과 인증 진행은 감가상각·임상비 등 비용과 미래 매출에 영향을 미칩니다."
+      },
+      {
+        "factor": "산업 성장성",
+        "detail": "고령화 등으로 의약품 시장이 연간 성장세를 보이는 점이 회사의 수혜 요인이 될 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "지배회사의 개요",
+        "evidence_text": "당사는 1947년에 설립된 의약품 제조 및 판매하는 제약회사로"
+      },
+      {
+        "field": "business_model",
+        "source_section": "지배회사의 개요",
+        "evidence_text": "매출비중은 제약 97.8%, 기타 2.2%로 이루어져 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "지배회사의 개요",
+        "evidence_text": "오리지널 제품을 직수입 및 국내 독점 판매하는 상품 매출"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 업계의 현황 [삼일제약(주)]",
+        "evidence_text": "업체간 경쟁이 치열합니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "지배회사의 개요",
+        "evidence_text": "2022년 11월 cGMP 및 EU-GMP 수준의 글로벌 안과 CMO 공장을 준공하였습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4939,
+    "completion_tokens": 3433,
+    "reasoning_tokens": 2496,
+    "output_tokens": 937
+  },
+  "warnings": []
+}

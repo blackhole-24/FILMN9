@@ -1,0 +1,67 @@
+{
+  "stock_code": "046310",
+  "corp_name": "백금T&A",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 02:11",
+  "meta": {
+    "wics": "전자장비와기기",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "백금T&A는 레이더디텍터(RD), 무전기(TWR), 차량용 블랙박스(DC) 및 RDVR 콤보 등 차량용 전자기기를 주력으로 하는 전기·전자업체로, ODM(Original Design Manufacturing: 주문자상표부착생산) 방식으로 제품을 설계·개발·생산하여 공급합니다. 국내 시장뿐 아니라 일본·미국 등 해외 시장으로 공급을 확대하며 제품 포트폴리오를 운영하고 있습니다.",
+    "business_model": "주요 수익원은 RD(레이더디텍터), TWR(무전기), DC/RDVR 콤보(차량용 블랙박스 및 콤보) 등으로 구성되며, 2025 회계연도 영업수익은 RD 26.4%, TWR 21.1%, DC/RDVR 콤보 51.2% 등으로 DC/RDVR 콤보가 과반을 차지합니다. ODM 방식 특성상 매출은 주요 고객사의 주문 물량에 따라 변동하며, 제품의 성능·품질·데이터베이스 유지가 경쟁력의 핵심입니다.",
+    "main_customers": "RD — 애프터마켓(Aftermarket) 중심의 전자기기 수요처 / TWR — Motorola Solutions Inc. (주요 공급처) / DC / RDVR 콤보 — 국내·일본 시장 및 2024년부터 공급을 시작한 미국 시장",
+    "price_factors": [
+      {
+        "factor": "지역별 규제",
+        "detail": "국가·지역별 단속장비 주파수와 운용방식 차이에 따라 제품 적응과 인증 비용이 발생해 실적에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "기술·데이터 경쟁력",
+        "detail": "지도·단속장비 DB와 소프트웨어 업데이트 능력이 제품 경쟁력의 핵심이어서 기술 유지·개선 비용과 서비스 품질이 실적에 직결됩니다."
+      },
+      {
+        "factor": "주문 집중성(ODM)",
+        "detail": "ODM 구조로 주요 고객사의 주문 물량 변화가 매출에 직접적인 영향을 미치므로 안정적 수주 확보가 실적 변동성을 줄이는 요소입니다."
+      },
+      {
+        "factor": "해외시장 개척",
+        "detail": "미국 등 신규 시장 공급 확대는 매출 성장 기회이나 시장 적응과 초기 영업비용이 실적에 단기적 부담을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "연결회사는 레이더디텍터(RD), 무전기(TWR), 차량용 블랙박스(DC) 및 RDVR 콤보 제품 등을 ODM(Original Design Manufacturing) 방식으로 생산·판매하는 사업을 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "RD: 39,379 (26.4%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 주요 제품군의 현황 > 무전기(TWR)",
+        "evidence_text": "모두 Motorola Solutions Inc.에 공급하며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "DC / RDVR 콤보: 76,240 (51.2%)"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4889,
+    "completion_tokens": 4429,
+    "reasoning_tokens": 3584,
+    "output_tokens": 845
+  },
+  "warnings": []
+}

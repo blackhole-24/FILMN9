@@ -1,0 +1,66 @@
+{
+  "stock_code": "003470",
+  "corp_name": "유안타증권",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 18:31",
+  "meta": {
+    "wics": "증권",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "유안타증권은 투자매매·투자중개·투자자문·투자일임·신탁 등 금융투자업을 영위하는 증권사입니다. 2025년 기준 연결기준 총 자산은 20조 301억원, 자기자본은 1조 9,059억원이며, 총 임직원 수는 1,777명으로 51개 지점과 2개의 해외 현지법인을 운영하고 있습니다.",
+    "business_model": "사업부문은 Retail(위탁매매 등), Wholesale(법인영업), 전략운용(주식/채권/파생상품 트레이딩), 기업금융(유가증권 인수·구조화금융·IPO(기업공개)) 등으로 구성되어 수익구조를 다변화하고 있습니다. 별도재무제표 기준 영업관련 수익비중은 위탁영업 40%, 금융상품 19%, 자산운용 24%, 인수영업 1%, 자금수지 17%를 기록하였습니다.",
+    "main_customers": "Retail — 개인·기관 투자자 (위탁매매 대상) / Wholesale — 법인 고객 (법인영업 대상) / 전략운용 — 주식·채권·파생상품 거래 참여자 / 기업금융 — 자금조달·상장(IPO) 추진 기업",
+    "price_factors": [
+      {
+        "factor": "위탁영업 거래량",
+        "detail": "위탁영업 비중이 40%여서 개인·기관의 매매거래량 변동이 실적에 직접적 영향을 줍니다."
+      },
+      {
+        "factor": "금융상품 판매",
+        "detail": "금융상품 비중(19%)의 증감은 판매수수료 및 관련 수익성에 영향을 미칩니다."
+      },
+      {
+        "factor": "자산운용 성과",
+        "detail": "자산운용 비중(24%)의 운용수익률 변동이 전체 영업관련 수익에 영향을 줍니다."
+      },
+      {
+        "factor": "인수영업(IPO)",
+        "detail": "인수영업 비중은 작으나 IPO(기업공개)·유가증권 인수 실적에 따라 관련 수수료 수익이 변동합니다."
+      },
+      {
+        "factor": "자금수지·금리",
+        "detail": "자금수지 비중(17%)과 금리 환경 변화가 이자수익·비용과 자금흐름에 영향을 미칠 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 사업의 내용 [금융투자업]",
+        "evidence_text": "총 임직원 수는 1,777명"
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. 사업의 내용 [금융투자업]",
+        "evidence_text": "위탁영업 40%, 금융상품 19%, 자산운용 24%"
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. 사업의 내용 [금융투자업]",
+        "evidence_text": "Retail사업부문(위탁매매 등), Wholesale사업부문(법인영업 등)"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 2828,
+    "completion_tokens": 4878,
+    "reasoning_tokens": 4096,
+    "output_tokens": 782
+  },
+  "warnings": []
+}

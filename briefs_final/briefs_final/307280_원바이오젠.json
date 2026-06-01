@@ -1,0 +1,67 @@
+{
+  "stock_code": "307280",
+  "corp_name": "원바이오젠",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 15:49",
+  "meta": {
+    "wics": "건강관리장비와용품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "원바이오젠은 2006년 9월 설립된 의료용 고분자 연구개발 중심 기업으로, 경상북도 구미시에 본사를 두고 있습니다. 창상피복재(상처치료용 드레싱) 분야에서 폼드레싱과 하이드로콜로이드 드레싱을 주력으로 생산하며, 2021년 합병 이후 같은 해 코스닥시장에 상장했습니다.",
+    "business_model": "핵심 사업은 창상피복재 제품군이며, 제품군별 FY2025 매출 구성은 폴리우레탄 폼 드레싱류 44.5%, 하이드로콜로이드 드레싱류 8.6%, 화장품류 29.6%, 기타 드레싱류 12.0%, 생활용품 5.3%입니다. 당사는 주력 드레싱을 중심으로 국내 제약사(ODM(위탁생산) 포함)와 유통 채널을 통해 병원과 약국·일반유통(OTC: 일반판매처)을 대상으로 공급·판매하고 있습니다.",
+    "main_customers": "폴리우레탄 폼 드레싱류 — 병원(ETC)·약국 및 일반유통(OTC)·국내 제약사(ODM) / 하이드로콜로이드 드레싱류 — 병원(ETC)·약국 및 일반유통(OTC)·국내 제약사(ODM) / 기타 드레싱류 — 병원(ETC)·약국 및 일반유통(OTC)·국내 제약사(ODM) / 화장품류 — (고객 정보 없음) / 생활용품 — (고객 정보 없음)",
+    "price_factors": [
+      {
+        "factor": "급여제도",
+        "detail": "건강보험 급여 확대 시 환자 부담이 줄어 의료기관에서의 창상피복재 사용량이 증가하여 실적에 영향."
+      },
+      {
+        "factor": "인구고령화",
+        "detail": "고령인구 증가로 당뇨성 족부궤양·욕창 등 만성창상 환자가 늘어나며 창상피복재 수요가 장기적으로 증가할 가능성."
+      },
+      {
+        "factor": "만성질환증가",
+        "detail": "당뇨성 족부궤양 등 만성 창상의 증가는 정기적 치료로 드레싱 수요를 지속적으로 지지."
+      },
+      {
+        "factor": "실손보험",
+        "detail": "실손보험 보급 확대는 비급여 품목이나 본인부담분의 사용 증가에 영향을 미쳐 수요에 기여할 수 있음."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "2006년 9월 설립하여"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "폼드레싱과 하이드로 콜로이드 드레싱 품목을 주력으로 생산하여"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "폴리우레탄 폼 드레싱류: 15,688,966 (44.5%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "국내 제약사(ODM)와 자사브랜드 총판대리점으로 공급 및 판매"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3535,
+    "completion_tokens": 4536,
+    "reasoning_tokens": 3648,
+    "output_tokens": 888
+  },
+  "warnings": []
+}

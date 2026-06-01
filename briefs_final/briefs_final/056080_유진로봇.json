@@ -1,0 +1,76 @@
+{
+  "stock_code": "056080",
+  "corp_name": "유진로봇",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 03:35",
+  "meta": {
+    "wics": "기계",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "유진로봇은 자율주행 물류로봇과 스마트 자동화 장비의 개발·판매를 주력으로 하는 로봇 전문기업입니다. 2019년 이후 B2C 중심에서 벗어나 자율주행 솔루션을 중심으로 B2B 시장으로 사업구조를 전환하고, 고카트(Go-Cart) 등 자율주행 물류로봇과 3D 라이다(LiDAR) 등 핵심 부품의 상용화를 진행하고 있습니다.",
+    "business_model": "주요 사업부문은 제조업용 로봇(매출 49.3%), 로봇 부품 및 부분품(34.6%), 전문서비스용 로봇(8.8%), 개인서비스용 로봇(7.2%)으로 구성되며, 제조용·물류용 로봇과 라이다·SLAM(동시적 위치추정 및 지도작성) 등 로봇 부품 판매가 핵심 수익원입니다. 또한 '로봇자동화 패키지(Robotization Package)'와 고카트 같은 자율주행 솔루션을 통해 자동화 솔루션 공급을 확대하고 있습니다.",
+    "main_customers": "제조업용 로봇 — 제조업 공장·산업현장 / 로봇 부품 및 부분품 — 로봇 제조사·산업용 센서 수요업체 / 전문서비스용 로봇 — 병원·호텔·빌딩서비스·공공기관 / 개인서비스용 로봇 — 가정(청소로봇 등) 및 소비자용 소형가전",
+    "price_factors": [
+      {
+        "factor": "수요성장",
+        "detail": "물류자동화·스마트팩토리 확대는 자율주행 물류로봇 매출 증가로 이어져 실적에 긍정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "기술상용화",
+        "detail": "라이다·SLAM 등 핵심기술의 상용화 성공 여부가 제품 경쟁력과 수익성에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "해외투자비용",
+        "detail": "해외진출과 초기 프로젝트 투자비용 증가는 단기적으로 영업이익과 현금흐름에 부담이 될 수 있습니다."
+      },
+      {
+        "factor": "경쟁",
+        "detail": "청소로봇 등 개인서비스 시장에서는 아이로봇 등 해외 경쟁사의 존재가 시장점유율과 가격 경쟁에 영향을 줍니다."
+      },
+      {
+        "factor": "중단사업영향",
+        "detail": "중단 및 매각된 완구·청소로봇 관련 사업은 매출 구성과 손익에 변동을 일으킬 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "자율주행 물류로봇 및 스마트 자동화 장비 등 완제품 로봇 개발 및 판매"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "제조업용 로봇: 2,891,489 (49.3%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "나. 주요 제품 설명 (1) 주요제품 개요",
+        "evidence_text": "제조공정이나 일반 시설, 병원, 호텔 등과 같은 실내 환경"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 업계의 현황(1)지능형 서비스 로봇사업",
+        "evidence_text": "청소로봇의 경쟁 해외기업으로는 아이로봇사"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "영업손실 50.3억원 당기순손실 69.8억원"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5723,
+    "completion_tokens": 3707,
+    "reasoning_tokens": 2752,
+    "output_tokens": 955
+  },
+  "warnings": []
+}

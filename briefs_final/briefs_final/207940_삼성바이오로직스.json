@@ -1,0 +1,78 @@
+{
+  "stock_code": "207940",
+  "corp_name": "삼성바이오로직스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 11:53",
+  "meta": {
+    "wics": "제약",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "삼성바이오로직스는 바이오의약품 위탁생산(CDMO)과 세포주·공정 개발 서비스를 제공하는 기업으로, 2022년 삼성바이오에피스 지분을 취득한 뒤 2025년 인적분할로 바이오의약품 개발·상업화 부문을 분리하여 지배구조를 정비했습니다. 2025년 연결 매출은 4조 5,570억 원이며 매출의 다수는 유럽(52.0%)과 미국(38.0%)에서 발생합니다.",
+    "business_model": "핵심 사업은 바이오의약품 위탁생산(CMO)과 위탁개발(CDO)으로, 제품 매출과 서비스 매출을 통해 수익을 창출합니다. 2025년에는 제품 매출 4조 3,583억 원, 서비스 매출 1,987억 원을 기록했으며, 자체 세포주·고농도 제형 등 플랫폼 기술을 바탕으로 고객 맞춤형 CDO·CDMO 서비스를 제공합니다.",
+    "main_customers": "CDMO — 글로벌 제약사(상위 빅파마 포함) / CDO — 제약·바이오 개발사(고객사)",
+    "price_factors": [
+      {
+        "factor": "시장성장",
+        "detail": "바이오의약품 시장의 연평균 고성장(보고서의 전망)은 CDMO 수요와 매출 확대에 직접 영향합니다."
+      },
+      {
+        "factor": "계약가격 조정",
+        "detail": "제품 판매가격은 고객 계약에 따라 CPI(소비자물가지수) 반영 등으로 조정되어 매출 및 마진에 영향을 줍니다."
+      },
+      {
+        "factor": "생산능력",
+        "detail": "공장 가동률과 생산 용량 증설은 수주 처리능력 및 매출 확대에 중요한 변수입니다."
+      },
+      {
+        "factor": "기술·지적재산",
+        "detail": "자체 세포주·공정 플랫폼과 등록 특허는 경쟁력과 서비스 차별화로 실적에 영향을 미칩니다."
+      },
+      {
+        "factor": "규제·환경",
+        "detail": "환경 규제 준수와 ESG 관련 요구 증가는 운영비용 및 설비·공정 대응에 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 사업개요",
+        "evidence_text": "바이오의약품 위탁생산 및 세포주ㆍ공정 개발 서비스를 제공하는 CDMO"
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. 사업개요",
+        "evidence_text": "2025년 당기 연결 매출은 4조 5,570억 원이며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. 사업개요",
+        "evidence_text": "제품 매출 4조 3,583억 원, 서비스 매출 1,987억 원입니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "상위 20위 빅파마에 이어 상위 40위까지 고객사를 확대하기 위해"
+      },
+      {
+        "field": "business_model",
+        "source_section": "나. 영업개황",
+        "evidence_text": "총 78만 5천리터의 생산 용량을 보유하고 있습니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4972,
+    "completion_tokens": 5264,
+    "reasoning_tokens": 4416,
+    "output_tokens": 848
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

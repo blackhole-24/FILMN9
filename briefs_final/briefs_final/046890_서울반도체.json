@@ -1,0 +1,71 @@
+{
+  "stock_code": "046890",
+  "corp_name": "서울반도체",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 02:14",
+  "meta": {
+    "wics": "디스플레이장비및부품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "서울반도체는 LED 칩을 조달받아 패키징(Package)해 판매하는 전광·전자부품 기업으로, 글로벌 시장에서 TOP3에 자리하고 LED 백라이트 부문에서는 세계 1위에 올라 선도적 위치를 차지하고 있습니다. 창립 이후 꾸준히 매출의 일정 비중을 연구개발에 재투자하며 다수의 지적재산권을 확보해 기술경쟁력을 유지하고 있습니다.",
+    "business_model": "사업부문별 영업수익은 FY2025 기준 LED가 99.5%, 연구개발이 0.5%로 대부분이 LED 제품 판매에 집중되어 있습니다(패키지 제조 중심). 당사는 계열사인 서울바이오시스로부터 LED 칩을 조달 받아 Packaging 하여 판매하는 구조(단일 사업부문)를 핵심 수익원으로 하고 있습니다.",
+    "main_customers": "디스플레이(Backlight) — TV·디스플레이 제조사 / 자동차(Automotive) — 자동차 제조사 / 조명(Lighting) — 공공 인프라·산업용·실외조명 발주처 / 모바일·중대형 LCD — 모바일·중대형 디스플레이 제조사",
+    "price_factors": [
+      {
+        "factor": "원자재·환율",
+        "detail": "원자재 가격과 환율 변동은 제품 원가와 수익성에 직결되어 실적에 즉각적 영향을 미칩니다."
+      },
+      {
+        "factor": "시장성숙",
+        "detail": "일반조명 시장의 성숙화와 가격경쟁 심화는 마진 압박을 가중시킬 수 있습니다."
+      },
+      {
+        "factor": "애플리케이션",
+        "detail": "자동차·디스플레이·미니·마이크로 LED 등 고부가가치 응용처 확대는 실적 성장의 주요 동력이 됩니다."
+      },
+      {
+        "factor": "지적재산권",
+        "detail": "강력한 특허 포트폴리오와 기술 리딩은 경쟁우위 유지 및 수주 확보에 유리하게 작용합니다."
+      },
+      {
+        "factor": "정부정책",
+        "detail": "친환경 LED에 대한 정부의 지원·육성 기조는 산업 전반의 수요 확대로 연결될 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 업계의 현황",
+        "evidence_text": "당사의 주요 사업은 조달 받은 칩을 Packaging 하는 업체입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "LED: 1,942,530 (99.5%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 업계의 현황",
+        "evidence_text": "공공 인프라, 산업용, 실외조명 분야의 수요가 이어지고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 업계의 현황",
+        "evidence_text": "환율 및 원자재 가격 변동"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4605,
+    "completion_tokens": 3580,
+    "reasoning_tokens": 2816,
+    "output_tokens": 764
+  },
+  "warnings": []
+}

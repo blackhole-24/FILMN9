@@ -1,0 +1,81 @@
+{
+  "stock_code": "241770",
+  "corp_name": "메카로",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:30",
+  "meta": {
+    "wics": "반도체와반도체장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "메카로는 2000년 10월 6일 설립된 반도체 부품 및 소재 전문 기업입니다. 반도체 제조공정에서 웨이퍼에 열에너지를 균일하게 공급하는 메탈히터블럭을 주력으로 생산하며, 국내 삼성전자와 SK하이닉스 기준 시장점유율 90% 이상을 기록하고 있습니다.",
+    "business_model": "사업부문별 영업수익 구성은 히터블럭 93.7%, 상품 6.1%, 기타 0.2%입니다. 핵심 수익원은 반도체 공정용 히터블럭으로, 이 제품은 소모성 부품이라 반도체 FAB(반도체 제조공장) 가동률과 증설 흐름에 따라 수요가 영향을 받습니다. 회사는 세라믹 소재 부품 개발과 태양전지 신규사업도 준비하며 사업 다각화를 추진하고 있습니다.",
+    "main_customers": "히터블럭 — 삼성전자, SK하이닉스 및 국내외 주요 FAB 업체 / 상품 — 상세 고객 미공시 / 기타 — 상세 고객 미공시",
+    "price_factors": [
+      {
+        "factor": "FAB가동률",
+        "detail": "히터블럭이 소모성 부품이어서 반도체 FAB의 가동률과 증설 규모가 커질수록 수요가 늘어 실적에 직접 영향을 줍니다."
+      },
+      {
+        "factor": "환율효과",
+        "detail": "해외매출이 늘어날 때 환율 변동이 원화 환산 실적에 영향을 주며, 회사도 2025년 해외매출 증대와 환율효과를 언급했습니다."
+      },
+      {
+        "factor": "세라믹전환",
+        "detail": "500℃ 이상의 공정에서는 세라믹소재 히터블럭이 필요해, 세라믹 공장 증축과 양산화 진행이 중장기 사업 확장과 연결됩니다."
+      },
+      {
+        "factor": "중국증설",
+        "detail": "중국을 중심으로 반도체 팹(FAB, 제조공장) 증설이 이어지면 국내외 히터블럭 시장 개척 기회가 커질 수 있습니다."
+      },
+      {
+        "factor": "고객신뢰",
+        "detail": "반도체 장비·소재는 거래실적과 고객 신뢰가 중요해, 기존 거래 이력이 시장 유지와 신규 수주 가능성에 큰 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "2000년 10월 6일 설립 된 반도체 부품 및 소재 전문 기업입니다."
+      },
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "국내 삼성전자 및 SK하이닉스 기준으로 90%이상을 견고하게 기록하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업분야 데이터 등급(tier) > 사업부문별 매출 구성",
+        "evidence_text": "히터블럭: 88,608,190 (93.7%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업분야 데이터 등급(tier) > 사업부문별 매출 구성",
+        "evidence_text": "상      품: 5,797,860 (6.1%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업분야 데이터 등급(tier) > 사업부문별 매출 구성",
+        "evidence_text": "기   타: 207,697 (0.2%)"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "히터블럭 제품은 소모성 부품으로 반도체FAB의 가동율에 따라 그 수요가 영향을 받습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5253,
+    "completion_tokens": 966,
+    "reasoning_tokens": 0,
+    "output_tokens": 966
+  },
+  "warnings": []
+}

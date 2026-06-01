@@ -1,0 +1,69 @@
+{
+  "stock_code": "043150",
+  "corp_name": "바텍",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 01:45",
+  "meta": {
+    "wics": "건강관리장비와용품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "바텍은 치과용 디지털 영상장비(덴탈 이미징)의 개발·제조·판매를 통합 운영하는 기업집단으로, 본사를 중심으로 국내외 법인을 통해 글로벌 영업망을 구축하고 있습니다. 센서(Detector)를 보유·생산하는 관계회사 레이언스 등 기술과 특허를 기반으로 덴탈 이미징 분야에서 기술적 경쟁력을 갖추고 있습니다.",
+    "business_model": "주요 제품은 Digital X-ray Panorama, CT, Generator 등 치과용 영상진단장비이며, 자체 개발한 센서 기술을 포함한 풀라인업으로 제품을 공급합니다. 국내는 바텍엠시스를 통한 직접판매 및 대리점 채널을, 해외는 미국·유럽 등 현지 법인과 약 50여개 대리점을 통해 판매 및 A/S(사후관리)를 제공합니다.",
+    "main_customers": "치과용 2D Digital X-ray 촬영 제품 — 치과 병·의원 / 치과용 구강 내 X-ray 촬영 센서 — 치과 병·의원 및 해외 대리점·현지법인 / 서비스 등 — 국내외 치과 병·의원 및 대리점",
+    "price_factors": [
+      {
+        "factor": "규제(인허가)",
+        "detail": "FDA 등 국가별 인허가 소요기간과 규제가 길어지면 신제품의 시장 진입 및 매출화 지연으로 실적에 영향."
+      },
+      {
+        "factor": "연구개발 투자",
+        "detail": "의료기기는 연구개발 비용과 개발 기간이 길어 지속적 R&D 투자가 실적과 경쟁력에 직결됩니다."
+      },
+      {
+        "factor": "시장수요 집중",
+        "detail": "수요처가 병·의원 등으로 한정되어 있어 해당 진료 수요 변화가 매출에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "높은 진입장벽",
+        "detail": "제품 신뢰도와 브랜드 충성도가 높아 경쟁사 대비 품질·서비스 확보가 실적에 중요한 경쟁 요소입니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "26개의 국내 및 해외 법인으로 구성된 기업 집단입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황",
+        "evidence_text": "Digital X-ray Panorama와 CT를 개발, 제조하여 판매하고 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "치과 병ㆍ의원에 직접 또는 대리점에 판매하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나. 산업의 특성",
+        "evidence_text": "의료기기 산업은 다품종 소량생산 산업입니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 5485,
+    "completion_tokens": 3900,
+    "reasoning_tokens": 3200,
+    "output_tokens": 700
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

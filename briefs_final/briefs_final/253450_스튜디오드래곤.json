@@ -1,0 +1,82 @@
+{
+  "stock_code": "253450",
+  "corp_name": "스튜디오드래곤",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 13:50",
+  "meta": {
+    "wics": "방송과엔터테인먼트",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "스튜디오드래곤은 2016년 5월 3일 씨제이이앤엠(주)로부터 분할되어 설립된 드라마 제작 전문기업으로, 드라마 기획·제작·판매 및 관련 부가사업을 주력으로 영위하고 있습니다. 국내외 TV 채널과 글로벌 OTT를 포함한 플랫폼으로의 콘텐츠 공급과 IP(지적재산권) 기반 부가사업을 핵심 활동으로 하고 있습니다.",
+    "business_model": "주요 사업은 드라마 제작과 판권 판매 및 부가사업으로 구성되며, 사업부문별 영업수익 구성은 드라마사업 21.7%, 판매 75.3%, 기타 3.0%로 판매(판권·라이선싱)가 매출의 큰 비중을 차지합니다. 주요 원재료는 방송 판권·연출자·작가·출연자 등 인적·물적 자원이 중심이며, 제작은 대부분 임차한 시설에서 진행합니다.",
+    "main_customers": "드라마사업 — 지상파·주요 TV 채널 및 방송 플랫폼 / 판매 — 글로벌 OTT 및 판권 구매자(라이선시) / 기타 — 국내외 라이선싱·전시·굿즈·OST 관련 고객",
+    "price_factors": [
+      {
+        "factor": "OTT 이동",
+        "detail": "콘텐츠 소비가 전통 TV에서 OTT 중심으로 이동하면 플랫폼별 투자 규모와 판권 수요 변화가 실적에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "제작비 상승",
+        "detail": "글로벌 수요 확대에 따른 제작비 상승은 제작 비용 부담을 키워 수익성에 부정적 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "편성·투자 축소",
+        "detail": "지상파·TV 채널의 콘텐츠 투자 축소나 편성 이연은 편성 매출과 단기 실적에 부정적 영향을 줍니다."
+      },
+      {
+        "factor": "환율(외화리스크)",
+        "detail": "보유 외화에 대한 환리스크가 존재하여 환율 변동이 재무상태와 손익에 영향을 미칠 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "당사는 드라마 제작 전문기업으로 2016년 5월 3일 씨제이이앤엠(주)로부터 분할되어 설립되었습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "드라마를 기획ㆍ제작ㆍ판매하고 관련 부가사업을 영위하는 방송영상물제작사업을 주사업으로 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "드라마사업: 115,234 (21.7%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "판매: 399,726 (75.3%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "기타: 15,725 (3.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "TV 및 글로벌 OTT를 아우르는 공급 구조 재정비"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 지적재산권 관련 사항",
+        "evidence_text": "당사는 제작한 드라마와 관련하여 상표권 등 주요한 권리를 보유하고 있으며, 이를 기반하여 국내외 라이센싱 및 전시, 굿즈 판매, OST 등 다양한 부가 사업을 전개하고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4489,
+    "completion_tokens": 3461,
+    "reasoning_tokens": 2496,
+    "output_tokens": 965
+  },
+  "warnings": []
+}

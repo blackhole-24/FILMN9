@@ -1,0 +1,67 @@
+{
+  "stock_code": "125490",
+  "corp_name": "한라캐스트",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 09:29",
+  "meta": {
+    "wics": "자동차부품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "한라캐스트는 1996년 설립된 알루미늄·마그네슘·아연 등 다양한 소재를 적용한 정밀 부품제조 기업으로, 모바일·가전·자동차·로봇 등으로 공급처를 확장해왔습니다. LG전자, 현대모비스, 삼성전기 등 1차 고객사를 통해 현대·기아·벤츠 등 글로벌 완성차와 거래하며 자율주행·커넥티드 디스플레이 등 미래차 핵심 부품에 주력하고 있습니다.",
+    "business_model": "사업부문별로 디스플레이(33.0%), 금형 및 가전(32.6%), 자율주행차(22.0%), 배터리(5.1%), 그외 기타(4.9%), 기타(2.4%)로 구성되어 있으며, 전장용 디스플레이와 자율주행 부품이 주요 매출원입니다. 2024년 대형 다이캐스팅 설비 도입과 첨단 기술 개발을 통해 글로벌 AI 자동차사와 1차 협력사 계약 및 수주를 확보하는 등 다이캐스팅 기반의 부품 공급을 확대하고 있습니다.",
+    "main_customers": "자율주행차 — LG전자·현대모비스 등 1차 고객사 및 현대·기아·벤츠 등 글로벌 완성차 / 디스플레이 — LG전자·삼성전기 등 1차 고객사 및 완성차 / 배터리 — 전장·배터리 관련 모듈 제조업체 및 완성차 / 금형 및 가전 — 가전 제조사 및 모듈업체",
+    "price_factors": [
+      {
+        "factor": "친환경차 전환",
+        "detail": "전 세계적 전기·하이브리드 전환 가속은 친환경차 부품 수요를 높여 실적에 직접 영향을 줍니다."
+      },
+      {
+        "factor": "전장부품 수요",
+        "detail": "스마트 모빌리티·AI 적용 확대로 전장(디스플레이·자율주행) 부품 수요가 증가하면 매출 증가로 연결될 수 있습니다."
+      },
+      {
+        "factor": "원자재 가격",
+        "detail": "다이캐스팅 부품은 원부자재 가격 변동에 민감해 원가와 마진에 직접적인 영향이 있습니다."
+      },
+      {
+        "factor": "글로벌 수요회복",
+        "detail": "세계 자동차 판매 회복과 완성차사의 전동화 전략은 중장기적인 수주 기회를 확대합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 > 영업 현황",
+        "evidence_text": "정밀 부품제조 사업을 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "디스플레이: 51,463,387 (33.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 주요 제품에 대한 내용",
+        "evidence_text": "LG전자, 현대모비스, 삼성전기 등을 통하여"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "다. 주요 제품 가격 변동 추이",
+        "evidence_text": "원부자재 가격 변동에 영향을 받지만"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4377,
+    "completion_tokens": 4981,
+    "reasoning_tokens": 4160,
+    "output_tokens": 821
+  },
+  "warnings": []
+}

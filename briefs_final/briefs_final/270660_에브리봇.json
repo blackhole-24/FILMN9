@@ -1,0 +1,71 @@
+{
+  "stock_code": "270660",
+  "corp_name": "에브리봇",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 11:15",
+  "meta": {
+    "wics": "가정용기기와용품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "에브리봇은 2015년 1월 설립된 서비스 로봇(가사용 로봇) 개발 기업으로, 물걸레 로봇청소기 등 가정용 로봇을 중심으로 제품 라인업을 구축해 온 중소형 제조업체입니다. 자체 스핀 방식 청소기술과 자율주행·AI 연구를 바탕으로 국내 로봇청소기 시장에서 높은 지배력을 갖추고 있습니다.",
+    "business_model": "주요 매출은 제품·상품·기타로 구성되며, 사업부문별 영업수익은 제품 43.3%, 상품 14.7%, 기타 6.2%입니다. 핵심 매출원은 물걸레형 로봇청소기와 흡입·물걸레 올인원 제품군이며, 판매는 주로 홈쇼핑과 온라인 채널을 통해 이뤄집니다.",
+    "main_customers": "제품 — 홈쇼핑·온라인을 통해 구매하는 일반 소비자 / 상품 — 홈쇼핑·온라인을 통해 구매하는 일반 소비자 / 기타 — 세부 고객·채널은 보고서에 명시되어 있지 않음",
+    "price_factors": [
+      {
+        "factor": "기술신뢰성",
+        "detail": "가사용 로봇은 안정성·신뢰성이 중요해 기술 완성도 부족 시 실적과 브랜드 신뢰에 부정적 영향이 발생합니다."
+      },
+      {
+        "factor": "경쟁심화",
+        "detail": "국내외 다수 브랜드와 대기업(예: 삼성·LG)의 경쟁, 중국 업체 약진 등으로 시장 점유율·마진 압박이 커질 수 있습니다."
+      },
+      {
+        "factor": "저가공세",
+        "detail": "라이다 등 첨단 부품 가격 하락으로 저가형 고기능 제품이 증가하면 가격 경쟁이 심화되어 수익성에 영향이 있을 수 있습니다."
+      },
+      {
+        "factor": "R&D 부담",
+        "detail": "AI자율주행 플랫폼 등 연구개발 비용 증가는 단기적으로 영업이익을 축소시킬 수 있습니다."
+      },
+      {
+        "factor": "해외채널",
+        "detail": "Amazon 등 해외 온라인 채널 확대로 해외 매출 확대가 가능하나, 글로벌 경쟁 환경에 따른 리스크도 존재합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "에브리봇 주식회사는 2015년 1월 설립하여"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "제품: 21,976 (43.3%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "주로 홈쇼핑과 온라인을 통해 판매되고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "국내 제조 기업으로는 삼성전자, LG전자 등이 있고"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 6000,
+    "completion_tokens": 4361,
+    "reasoning_tokens": 3584,
+    "output_tokens": 777
+  },
+  "warnings": []
+}

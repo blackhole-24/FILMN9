@@ -1,0 +1,87 @@
+{
+  "stock_code": "159580",
+  "corp_name": "제로투세븐",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 10:32",
+  "meta": {
+    "wics": "화장품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "제로투세븐은 유아동 스킨케어 브랜드 '궁중비책'과 포장사업을 영위하는 기업으로, 2025년 연결 기준 매출 710억원을 기록했습니다. 궁중비책 브랜드를 중심으로 국내 온라인·오프라인 유통과 글로벌 시장에 진출해 있는 중견 화장품 유통기업입니다.",
+    "business_model": "사업부문별로 궁중비책(유아동 스킨케어)이 56.1%, 포장(POE 제조)이 43.9%를 차지하며 수익구조를 형성합니다. 궁중비책은 온라인몰·H&B·대형마트·면세점 등 다양한 유통 채널과 해외 진출을 통해 매출을 확대하고, 포장사업은 분유 등 분말식품용 POE(Peel Off End)를 국내외 식품사에 공급하는 B2B(기업 간 거래) 모델입니다.",
+    "main_customers": "궁중비책 — 온라인몰·오픈마켓·H&B·유아동 전용 매장·대형마트 등 국내 소비자 대상 유통채널 / 포장 — 분유 등 분말식품 제조업체(국내외 기업)",
+    "price_factors": [
+      {
+        "factor": "계절성",
+        "detail": "화장품의 계절적 수요 변동이 매출과 실적에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "온라인채널",
+        "detail": "온라인 및 디지털 채널 비중 확대는 궁중비책의 판매경로와 매출 확장에 영향합니다."
+      },
+      {
+        "factor": "원자재비",
+        "detail": "원자재 가격·운송비 상승은 포장사업의 수익성에 부정적 영향을 미칩니다."
+      },
+      {
+        "factor": "저출산·지출",
+        "detail": "출생아 수 감소에도 유아 1인당 소비 증가로 제품 수요 구조에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 사업부문별 현황",
+        "evidence_text": "당사의 사업은 궁중비책, 포장사업으로 구분됩니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "궁중비책: 39,783 (56.1%), 포장: 31,166 (43.9%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "(가) 영업의 현황",
+        "evidence_text": "국내 온라인몰, 오픈마켓몰 등의 주요 온라인 채널"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "POE(Peel Off End)를 제조하여 국내외 시장에 공급하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "(다) 경기변동의 특성",
+        "evidence_text": "화장품은 계절성 경기를 많이 타는 산업군에 속하며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 사업부문별 현황",
+        "evidence_text": "모바일을 중심으로 하는 온라인 등 디지털채널 구매 확대"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "다. 영업실적",
+        "evidence_text": "원자재 가격 상승 및 운송비 증가 등의 영향으로 수익성이 하락"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 사업부문별 현황 (나) 산업의 성장성",
+        "evidence_text": "유아 일인당 객단가는 매우 빠르게 증가하고"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4426,
+    "completion_tokens": 4831,
+    "reasoning_tokens": 3904,
+    "output_tokens": 927
+  },
+  "warnings": []
+}

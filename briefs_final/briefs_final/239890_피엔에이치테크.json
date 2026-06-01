@@ -1,0 +1,91 @@
+{
+  "stock_code": "239890",
+  "corp_name": "피엔에이치테크",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 13:29",
+  "meta": {
+    "wics": "디스플레이장비및부품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "피엔에이치테크는 2007년 설립된 OLED(유기발광다이오드)용 소재 개발·양산 기업으로, HTL 중간체와 팔라듐 기반 촉매 등 OLED용 핵심 재료를 공급해왔습니다. 2015년 진천공장 가동 이후 생산능력 확대와 지속적 연구개발을 통해 국산 OLED 소재 시장에서 제품 공급을 확대해왔습니다.",
+    "business_model": "주력 사업은 OLED 소재 판매로, 사업부문별 매출 구성은 OLED 소재 96.2%, OLED 원료 1.5%, 상품 2.0%, 기타 0.3%로 구성되어 있습니다. 주요 제품으로는 고굴절 CPL 등 OLED 특허소재와 Pd(팔라듐) 촉매 중심의 원료를 양산·공급하며 매출은 주로 직판 형식의 국내 매출이 대부분을 차지합니다.",
+    "main_customers": "OLED 소재 — OLED Panel 제조업체 및 1차 Vendor 업체 / OLED 원료 — OLED 재료업체 (Pd 촉매 등) / 상품 — 주로 국내 직판 고객 / 기타 — 주로 국내 직판 고객",
+    "price_factors": [
+      {
+        "factor": "재료구조변화",
+        "detail": "디스플레이 업체의 재료구조 변경 시 공급사 선정이 바뀌어 매출과 실적 변동이 발생할 수 있습니다."
+      },
+      {
+        "factor": "양산능력",
+        "detail": "양산능력(Capa)은 대규모 수요를 소화할 수 있는지 여부를 결정해 매출 확대 가능성에 직접 영향합니다."
+      },
+      {
+        "factor": "원재료비",
+        "detail": "원자재 가격 변동은 제품 원가와 수익성에 직접적인 영향을 미치며 회사는 원가절감으로 대응하고 있습니다."
+      },
+      {
+        "factor": "단가압박",
+        "detail": "고객사의 단가인하 요구는 수익성에 부담을 줄 수 있어 가격·생산성 관리가 중요합니다."
+      },
+      {
+        "factor": "국산화경쟁",
+        "detail": "국내 업체들의 국산화 진전과 글로벌 경쟁 구도 변화는 해외 의존도 및 경쟁강도를 동시에 바꿀 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "당사는 2007년 5월에 설립된 후,"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "2009년부터 양산공급을 시작하였으며,"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "OLED 소재: 28,981,561 (96.2%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "OLED 원료: 456,910 (1.5%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "상품: 589,121 (2.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "주로 직판 형식의 국내 매출이 대부분을 차지합니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "시장 현황",
+        "evidence_text": "재료구조가 변경될 때마다 재료별 업체선정에 따른 경쟁구도는 지속되고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "시장 현황",
+        "evidence_text": "진입장벽은 더욱더 높다고 할 수 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4500,
+    "completion_tokens": 4270,
+    "reasoning_tokens": 3328,
+    "output_tokens": 942
+  },
+  "warnings": []
+}

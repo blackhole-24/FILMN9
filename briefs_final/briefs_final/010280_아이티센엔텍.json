@@ -1,0 +1,66 @@
+{
+  "stock_code": "010280",
+  "corp_name": "아이티센엔텍",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 09:47",
+  "meta": {
+    "wics": "IT서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "아이티센엔텍은 공공, 제조, 물류, 서비스, 금융 등 다양한 산업의 디지털 전환(DX)과 인공지능 전환(AX)을 지원하는 IT 서비스 기업입니다. AI, 데이터, 클라우드를 기반으로 업무시스템 구축부터 운영, 클라우드 전환, 지능형 서비스 구현까지 전 과정을 제공하고 있습니다.",
+    "business_model": "사업은 디지털 엔지니어링(Digital Engineering), ITO(IT Outsourcing, IT 운영·관리 위탁), CX(Cloud Transformation, 클라우드 전환)로 구성되며, FY2025 기준 IT 서비스 부문이 영업수익의 67.0%를 차지합니다. 프로젝트 단위의 서비스 사업이 중심이라 정형화된 제품 판매보다는 시스템 구축, 운영, 전환 서비스에서 수익이 발생합니다. 자체 AI 소프트웨어 개발 솔루션 ‘인텔리센 코드(IntelliCEN Code)’와 엔터프라이즈 AI 에이전트 플랫폼 ‘AgentGO’를 활용해 개발 자동화와 운영 효율을 높이고 있습니다.",
+    "main_customers": "디지털 엔지니어링 — 공공, 국방, 제조 등 산업 고객 / ITO — 정보시스템·IT 인프라 운영이 필요한 기업 및 기관 / CX — 클라우드 전환을 추진하는 고객사",
+    "price_factors": [
+      {
+        "factor": "수주 규모",
+        "detail": "공공·민간 프로젝트 수주가 늘수록 매출 인식이 확대되어 실적에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "IT투자",
+        "detail": "기업과 공공기관의 DX·AX 투자 확대는 시스템 구축과 운영 수요를 늘리는 요인입니다."
+      },
+      {
+        "factor": "인력단가",
+        "detail": "프로젝트 원가가 인건비 단가와 투입 인력에 따라 변동되어 수익성에 영향을 줍니다."
+      },
+      {
+        "factor": "공공발주",
+        "detail": "공공 분야는 발주 기반 사업이어서 정부·공공기관 투자 흐름에 따라 실적 변동성이 생길 수 있습니다."
+      },
+      {
+        "factor": "클라우드전환",
+        "detail": "클라우드 전환과 운영 자동화 수요가 커질수록 CX와 ITO 관련 사업 기회가 확대됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "고객의 AX(AI Transformation) 및 DX(Digital Transformation)를 전방위적으로 지원하는 종합 IT 서비스입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성 / DART 사업보고서 — 영업 현황",
+        "evidence_text": "IT 서비스 부문 (67.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "공공, 제조, 물류, 서비스, 금융 산업 전반의 IT 서비스"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5591,
+    "completion_tokens": 736,
+    "reasoning_tokens": 0,
+    "output_tokens": 736
+  },
+  "warnings": []
+}

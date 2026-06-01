@@ -1,0 +1,67 @@
+{
+  "stock_code": "031510",
+  "corp_name": "오스템",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 23:38",
+  "meta": {
+    "wics": "자동차부품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "오스템은 1990년 설립된 자동차부품 제조업체로, 한국GM·글로벌 GM 등을 주요 매출처로 두고 있습니다. 기술집약적 제조 역량(TWB용접, MAGNETIC용접, HYDRO FORM`G 등)과 계열사 인수를 통한 사업 확장 노력을 병행하고 있습니다.",
+    "business_model": "주력 사업은 자동차 부품 제조로 FY2025 기준 자동차 부품 매출이 63.5%를 차지하며, 기타 사업이 36.5%를 차지합니다. 고부가가치 부품 생산을 위한 자체 기술개발과 품질관리, 공정개선을 통해 완성차업체에 부품을 공급하는 구조입니다.",
+    "main_customers": "자동차 부품 — 완성차업체(한국GM, 글로벌 GM) / 기타 — 계열회사 인수로 확장된 사업 분야 관련 고객",
+    "price_factors": [
+      {
+        "factor": "경기민감성",
+        "detail": "자동차 수요가 경기 변동과 밀접해 경기침체 시 실적에 부정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "주요고객의존",
+        "detail": "한국GM·글로벌 GM 등 일부 완성차업체에 대한 매출 의존도가 실적 변동성으로 연결될 수 있습니다."
+      },
+      {
+        "factor": "산업연관성",
+        "detail": "철강·화학 등 전후방 산업과의 연계가 커 원자재 가격·공급 차질이 비용과 생산에 직접적 영향을 미칩니다."
+      },
+      {
+        "factor": "수출환경",
+        "detail": "글로벌 수요와 대외정책(관세·우호환율 등)에 따라 수출 및 실적이 영향을 받을 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 당사 및 연결종속회사의 사업현황",
+        "evidence_text": "1990년 설립된 (주)오스템은 자동차부품 생산을 중점사업으로 하고 있으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "자동차 부품: 81,605 (63.5%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 당사 및 연결종속회사의 사업현황",
+        "evidence_text": "주요 매출처로는 한국GM 및 글로벌 GM 등이며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "자동차 수요는 경기 변동과 밀접한 관계를 맺고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4120,
+    "completion_tokens": 2728,
+    "reasoning_tokens": 2048,
+    "output_tokens": 680
+  },
+  "warnings": []
+}

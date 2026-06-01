@@ -1,0 +1,74 @@
+{
+  "stock_code": "250930",
+  "corp_name": "예선테크",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 13:46",
+  "meta": {
+    "wics": "디스플레이장비및부품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "예선테크는 2005년 설립된 기능성 접착(점착)소재 및 관련 부품의 제조·판매 기업으로, 중대형 LCD TV·모니터를 주력 시장으로 하며 최근 OLED TV, 휴대폰, 자동차, 2차전지 등으로 전방산업을 다각화하고 있습니다. 화학·물리·전기 분야 기술을 바탕으로 접착 소재 개발 역량을 보유하고 있습니다.",
+    "business_model": "핵심은 기능성 접착소재(예: 아크릴 폼 테이프, Foam Pad, ESD Tape, Thermal Interface Tape, TBF 등)의 개발·제조·납품으로, 주로 디스플레이용 모듈(예: BLU, 터치윈도우)과 최근 진입한 OLED·자동차·2차전지 부문에 제품을 공급합니다. 사업부문별 매출 비율은 제공되지 않아 비율 표기는 생략합니다.",
+    "main_customers": "제품 — 디스플레이 패널·모듈 제조사(중대형 TV·모니터) / Gasket Pad — 디스플레이·기구부품 제조사(충격·진동 흡수용) / LED array tape — LED 모듈·자동차 헤드라이트 제조사 / Bonding — 2차전지 및 전자기기 조립업체 / 기타 — 전자부품 및 완성품 제조사",
+    "price_factors": [
+      {
+        "factor": "패널업체 의존성",
+        "detail": "OLED·디스플레이 패널 제조사 중심의 수요 구조로 주요 고객사의 수주 변동이 실적에 직접 영향."
+      },
+      {
+        "factor": "기술·특허 경쟁력",
+        "detail": "특허·공정 기술을 통한 생산성 개선과 원가 경쟁력이 확보되면 가격경쟁 우위 및 수주 확대에 유리."
+      },
+      {
+        "factor": "중국 CAPA 확장",
+        "detail": "광저우 제2공장 등 현지 생산능력 확대로 중국 고객 대응과 출하 확대가 실적에 긍정적 영향을 줄 수 있음."
+      },
+      {
+        "factor": "환율(외환) 리스크",
+        "detail": "국제 영업으로 달러 등 환율 변동에 노출되어 환율 변동이 손익에 영향을 미칠 수 있음."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "당사는 지난 2005년 설립되어 다양한 기능성 접착 소재 및 관련품의 제조, 판매사업을 주요 사업으로 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 가. 주요 사업소개",
+        "evidence_text": "당사는 접착/점착소재를 개발하고 관련 부품을 제조하여 고객사에게 납품하고 있으며"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 가. 주요 사업소개",
+        "evidence_text": "중대형 LCD TV, 모니터를 주력 시장으로 사업을 영위하고 있고"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나. 추진중인 사업 등의 내용",
+        "evidence_text": "OLED Display 특허출원과 중국법인 제2공장 설립"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 라. 환율변동 영향",
+        "evidence_text": "당사는 국제적으로 영업활동을 영위하고 있기 때문에 외환위험...에 노출되어 있습니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4624,
+    "completion_tokens": 3458,
+    "reasoning_tokens": 2560,
+    "output_tokens": 898
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

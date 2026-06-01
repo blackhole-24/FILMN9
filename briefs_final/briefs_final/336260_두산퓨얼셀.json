@@ -1,0 +1,72 @@
+{
+  "stock_code": "336260",
+  "corp_name": "두산퓨얼셀",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 16:47",
+  "meta": {
+    "wics": "전기제품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "두산퓨얼셀은 2019년 10월 1일 ㈜두산의 연료전지 사업부를 인적분할하여 설립된 발전용 연료전지 전문기업으로, 발전용 연료전지 기자재 공급과 장기유지보수서비스를 주된 사업으로 영위합니다. 당사가 제작·공급하는 연료전지는 복합효율이 높고 안정성이 우수해 국내 발전용 연료전지 시장 누적점유율 1위를 기록하고 있습니다.",
+    "business_model": "핵심 사업은 발전용 연료전지의 기자재 공급과 장기유지보수서비스이며, 2025년 기준 매출은 기자재 공급 79% 및 장기유지보수서비스 21%로 구성되어 있습니다. 주수익원은 기자재(설비) 판매와 이에 따른 유지보수(서비스)로, 주요 고객은 공공 및 민간 발전사업자입니다.",
+    "main_customers": "기자재 공급 — 공공 및 민간 발전사업자 / 장기유지보수서비스 — 공공 및 민간 발전사업자",
+    "price_factors": [
+      {
+        "factor": "정부정책",
+        "detail": "RPS·CHPS 등 정부 정책 강화 시 수주 확대 및 시장 성장에 유리하게 작용합니다."
+      },
+      {
+        "factor": "입찰경쟁",
+        "detail": "공급가격이 입찰을 통해 결정되므로 입찰에서의 가격경쟁 심화 시 수익성에 부담을 줄 수 있습니다."
+      },
+      {
+        "factor": "원자재비",
+        "detail": "백금 등 원자재 가격 상승은 제조원가와 품질비용 증가로 이어져 실적에 부정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "양산수율",
+        "detail": "신제품(SOFC) 양산 초기의 낮은 수율은 대규모 손실 발생 위험으로 연결됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "인적분할하여 2019년 10월 1일 설립되었습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "기자재 공급 79% 및 장기유지보수서비스 21%"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "주요 고객사는 공공 및 민간 발전사업자입니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나. 주요 제품의 가격변동추이",
+        "evidence_text": "공급가격이 경쟁입찰 과정을 통하여 결정됩니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "낮은 수율로 인하여 대규모 손실이 발생하였기 때문입니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5172,
+    "completion_tokens": 3187,
+    "reasoning_tokens": 2432,
+    "output_tokens": 755
+  },
+  "warnings": []
+}

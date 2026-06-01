@@ -1,0 +1,68 @@
+{
+  "stock_code": "354200",
+  "corp_name": "엔젠바이오",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 13:14",
+  "meta": {
+    "wics": "생명과학도구및서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "엔젠바이오는 NGS(차세대 염기서열 분석) 기술과 유전체 분석 소프트웨어를 기반으로 정밀의료용 정밀진단 제품과 솔루션을 개발·공급하는 기업입니다. 종속회사를 통해 의약품 및 건강기능식품 유통 사업도 영위하며 정밀진단과 유통을 아우르는 사업 포트폴리오를 구성하고 있습니다.",
+    "business_model": "핵심 사업은 NGS 기반의 정밀진단 패널과 유전체 분석 소프트웨어 제공으로, 병원·검사기관에 검사용 키트 및 분석 리포트를 공급합니다. 또한 종속회사들을 통해 의약품 유통 및 건강기능식품 유통 사업을 병행하며 제품 매출·서비스 매출·상품 매출이 매출 성장에 기여하고 있습니다.",
+    "main_customers": "정밀진단(패널·SW) — 병원·검사기관 / 액체생검·동반진단 연구 — 제약사·임상연구기관 / 유통(의약품·건강기능식품) — 문전 대형약국·약국 파트너 / TOPLAB(검사서비스) — 병·의원·기업 고객·일반 환자",
+    "price_factors": [
+      {
+        "factor": "인허가 장벽",
+        "detail": "체외진단기기는 높은 인허가 요구로 신규 진입이 제한되며, 인허가 환경 변화는 실적과 사업 확장에 직접 영향합니다."
+      },
+      {
+        "factor": "임상 채택",
+        "detail": "의료기관은 임상 활용 사례가 많은 제품을 선호하므로 병원 채택도와 임상 근거 축적이 매출에 영향합니다."
+      },
+      {
+        "factor": "해외수출",
+        "detail": "일부 제품이 독일·사우디아라비아·싱가포르 등으로 공급되는 점에서 해외 수요 변동이 실적에 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "유통 파트너 의존",
+        "detail": "문전 대형약국 등 파트너십을 통한 유통 기반이 견고한 반면, 파트너 관계 변화는 유통부문 매출 변동성을 유발할 수 있습니다."
+      },
+      {
+        "factor": "기술 고도화",
+        "detail": "AI 기반 분석 기능 고도화 및 데이터 연계 확대는 제품 경쟁력과 시장 확대 가능성에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 사업의 개요",
+        "evidence_text": "정밀진단 제품 및 솔루션을 개발·공급하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "매출액은 전년 대비 156.29억원 증가한 212.40억원입니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "병·의원과 기업 고객을 대상으로"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 5819,
+    "completion_tokens": 3709,
+    "reasoning_tokens": 2944,
+    "output_tokens": 765
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

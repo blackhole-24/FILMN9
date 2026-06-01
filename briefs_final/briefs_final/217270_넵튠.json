@@ -1,0 +1,62 @@
+{
+  "stock_code": "217270",
+  "corp_name": "넵튠",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 12:27",
+  "meta": {
+    "wics": "게임엔터테인먼트",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "넵튠은 캐주얼 게임을 중심으로 모바일 및 PC 온라인 게임의 개발과 퍼블리싱을 하는 IT서비스·게임엔터테인먼트 기업입니다. 또한 광고 수익화 플랫폼 등 애드테크(AdTech) 사업을 운영하며 개발사 인수로 포트폴리오를 확장해 왔습니다.",
+    "business_model": "주요 수익원은 게임사업의 인앱 아이템 판매(In-App Purchase)와 게임 내 광고(In-App Advertising)이며, 2025년 기준 사업부문별 영업수익은 게임사업 83.8%, 애드테크(AdTech) 9.0%, 기타매출 7.2%로 구성됩니다. 애드테크는 'AD(X)', 'AdPie', 'PointPub', 'KLAT' 등 광고 수익화 서비스를 통해 게임 퍼블리싱과 연계된 통합 수익 구조를 추구합니다.",
+    "main_customers": "게임사업 — 게임 이용자(부분유료화) / 애드테크 — 모바일 게임·앱 개발사 / 기타 — 비게임 앱·콘텐츠 이용자 및 제휴사",
+    "price_factors": [
+      {
+        "factor": "마케팅비",
+        "detail": "이용자 확보(User Acquisition) 비용 비중이 커지면 영업비용이 늘어나 실적에 부정적 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "애드테크 역량",
+        "detail": "광고 수익화 플랫폼 성과가 개선되면 광고 기반 수익이 증가해 전체 수익구조에 긍정적으로 작용합니다."
+      },
+      {
+        "factor": "이용률 변화",
+        "detail": "게임 이용률이 감소하는 경향이 지속되면 인앱 결제 및 광고 수익이 줄어 실적에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "히트작 의존",
+        "detail": "대형 흥행작 부재 시 다수 소규모 타이틀로 매출이 분산되어 개별 게임의 매출 변동성이 커집니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용",
+        "evidence_text": "당사는 캐주얼 게임을 중심으로 모바일 및 PC 온라인 게임의 개발과 퍼블리싱 사업을 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "게임사업: 102,722 (83.8%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "애드테크(AdTech) 사업 부문에서는 모바일 게임 및 앱 개발사를 대상으로 광고 수익화 서비스를 제공하고 있으며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4527,
+    "completion_tokens": 4202,
+    "reasoning_tokens": 3520,
+    "output_tokens": 682
+  },
+  "warnings": []
+}

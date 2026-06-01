@@ -1,0 +1,67 @@
+{
+  "stock_code": "049120",
+  "corp_name": "파인디앤씨",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 02:37",
+  "meta": {
+    "wics": "디스플레이장비및부품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "파인디앤씨는 정밀금형기술을 바탕으로 디스플레이용 Chassis류 등 패널 모듈 관련 주요 부품을 생산하는 기업입니다. 금형·목업 등 다양한 제품군을 보유하며 디스플레이 패널 업체를 주요 수요처로 삼고 있습니다.",
+    "business_model": "사업부문별 매출 구성은 기타(금형·MOCK-UP·상품) 56.09%, CHASSIS(디스플레이부품·국내) 13.74%, 2차전지부품 등(국내) 12.84%, IT부품(해외·모바일) 11.65%, 기타(금형·상품) 3.40%, ESS함 부품 2.28%로 이루어져 있습니다. 핵심 수익원은 금형·MOCK-UP 등(56.09%)과 Chassis류(13.74%)이며, 고객사의 신모델 사양에 따른 금형 확보 및 수주가 매출에 큰 영향을 미칩니다.",
+    "main_customers": "디스플레이부품(국내) — 디스플레이 패널·모듈 업체(예: 삼성디스플레이) / 기 타(금형·MOCK-UP·상품) — 금형·목업·상품 수요처(다양한 제조사) / 2차전지부품 등(국내) — 자동차용 부품(제품 용도 기준) / IT부품(해외) — 모바일 기기 관련 부품 고객",
+    "price_factors": [
+      {
+        "factor": "고객 생산량",
+        "detail": "주요 수요처의 완성품 생산량 변동이 매출에 직접적 영향을 미칩니다."
+      },
+      {
+        "factor": "기술경쟁력",
+        "detail": "패널 경쟁력은 제조장비·소재 기술력에 좌우되어 기술개발 속도가 실적에 영향합니다."
+      },
+      {
+        "factor": "신모델 수주",
+        "detail": "고객사의 신모델 개발 시 금형 확보와 수주가 매출 증감의 핵심 요인입니다."
+      },
+      {
+        "factor": "OLED 성장",
+        "detail": "OLED 패널 생산 효율성 향상과 글로벌 시장 성장 전망이 부품 수요를 좌우합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "(1) 영업개황<디스플레이 부품 사업부문>",
+        "evidence_text": "정밀금형기술을 바탕으로 메탈스탬핑, 목업 등을 활용하여"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[표] (1) 주요 제품 등의 현황",
+        "evidence_text": "36,906(56.09%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "(1) 영업개황<디스플레이 부품 사업부문>",
+        "evidence_text": "주요 수요처는 삼성디스플레이 등 디스플레이 패널 및 모듈 업체 등이며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "(1) 업계의 현황",
+        "evidence_text": "패널의 경쟁력은 제조장비와 소재의 기술력이 결정"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3778,
+    "completion_tokens": 4697,
+    "reasoning_tokens": 3904,
+    "output_tokens": 793
+  },
+  "warnings": []
+}

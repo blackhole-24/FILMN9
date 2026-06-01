@@ -1,0 +1,71 @@
+{
+  "stock_code": "489460",
+  "corp_name": "바이오비쥬",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 20:59",
+  "meta": {
+    "wics": "화장품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "바이오비쥬는 히알루론산(HA) 기반의 스킨부스터와 필러 제품을 연구개발·제조·수출하는 에스테틱 전문 기업입니다. 2025년 연결기준 매출액은 285억원이며 수출 중심 영업을 기반으로 글로벌 메디컬·코슈메디컬(화장품+의학적 효능) 시장을 공략하고 있습니다.",
+    "business_model": "주요 사업은 제품(스킨부스터), 필러, 코스메틱, 상품(총판), OEM(수탁제조), 일반유통으로 구성되며, FY2025 기준 사업부문별 영업수익 구성은 제품 34.1%, 필러 23.0%, 코스메틱 21.0%, 상품 2.0%, OEM 21.7%, 일반유통 6.4%입니다. 자체 특허 가교 기술과 OEM 생산능력을 바탕으로 B2B(브랜드 의뢰 생산)와 수출 중심의 판매채널을 병행하고 있습니다.",
+    "main_customers": "스킨부스터 — 개인용 MTS 사용자·에스테틱·의료기관 / 필러 — 자격을 갖춘 의료인·의료기관 / OEM — 브랜드 업체(수탁생산 의뢰처) / 상품(총판) — 중국 시장 바이어·유통업체 / 일반유통 — 국내 유통 채널",
+    "price_factors": [
+      {
+        "factor": "환율",
+        "detail": "수출 중심 영업구조로 달러 등 환율 변동이 세전손익에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "중국 수요",
+        "detail": "중국·홍콩 등 주요 수출국의 경기와 소비심리 변화가 수출액 증감에 영향합니다."
+      },
+      {
+        "factor": "규제·인증",
+        "detail": "필러는 식약처(KFDA) 승인 등 의료기기 규제에 따라 시장 진입 및 판매가 좌우됩니다."
+      },
+      {
+        "factor": "판관비(광고)",
+        "detail": "신규 브랜드·상품 확대에 따른 광고선전비 증가는 영업이익 변동에 영향을 미칩니다."
+      },
+      {
+        "factor": "무역정책",
+        "detail": "국가간 무역규제나 제재·관광·입국정책 변화는 해외판매 환경과 수출에 변수로 작용합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 사업의 현황",
+        "evidence_text": "제조·판매하는 수출전문 기업입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "제품: 8,487 (34.1%)"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "바. 환율 변동에 따른 손익 영향",
+        "evidence_text": "환율변동위험에 노출되어 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나. 규제환경 (나) 필러",
+        "evidence_text": "모든 시술은 자격을 갖춘 의료인에 의해 수행되어야 합니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4714,
+    "completion_tokens": 3421,
+    "reasoning_tokens": 2624,
+    "output_tokens": 797
+  },
+  "warnings": []
+}

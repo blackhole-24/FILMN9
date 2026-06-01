@@ -1,0 +1,75 @@
+{
+  "stock_code": "000070",
+  "corp_name": "삼양홀딩스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 16:37",
+  "meta": {
+    "wics": "화학",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "삼양홀딩스는 삼양그룹의 지주회사로, 지주사업과 투자 및 임대사업을 영위하는 사업지주회사입니다. 보고서 기준으로 총 6개의 자회사를 보유하며(종속회사 중심의 지배구조), 배당·상표권사용·임대수익 등으로 안정적 수익원을 확보하고 있습니다.",
+    "business_model": "당사는 지주회사로서 자회사 지분을 통해 그룹 전반을 지배하면서, 배당금수익·상표권사용수익·임대수익 등을 주요 수입원으로 확보하는 것이 사업구조의 핵심입니다. 연결 기준으로 식품부문, 화학부문, 기타부문을 자회사들이 영위하고 있으며(각 부문은 보고서상 별도 구분됨), 지주·투자·임대 활동을 통해 그룹 가치 관리에 집중합니다.",
+    "main_customers": "식품 — 실수요업체(B2B, 식음료 제조사 등) / 화학 — 전자·반도체 관련 제조사 등 전방 산업체 / 기타 — 자회사·계열사(배당·상표권·임대 관련 수익원)",
+    "price_factors": [
+      {
+        "factor": "원재료(곡물)",
+        "detail": "식품 부문은 옥수수·원당·원맥 등 대부분을 수입하므로 국제 곡물가·운임·환율 변동이 매출원가와 실적에 직접 영향을 줍니다."
+      },
+      {
+        "factor": "계절성",
+        "detail": "PET 용기 등 패키징 수요는 음료 전방 산업의 여름철 판매 집중에 따라 3~9월에 성수기가 발생하며 실적 변동성을 키울 수 있습니다."
+      },
+      {
+        "factor": "납기·주문생산",
+        "detail": "PET 용기 산업은 다품종·다규격의 주문생산형(납기 민감) 구조이므로 납기 지연이나 수요 변동에 민감하게 반응합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황 > 2. 회사의 현황",
+        "evidence_text": "당사는 삼양그룹의 지주회사로서 지주사업과 투자 및 임대사업"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황 > 2. 회사의 현황",
+        "evidence_text": "배당금수익, 상표권사용수익, 임대수익을 통해 안정적인 수익 원천을 확보하고 있습니다"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황 > 7-1. 사업부문별 영업개황 1-1. 식품 부문",
+        "evidence_text": "실수요업체와의 직거래(B2B) 위주로 운영되고"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황 > 7-1. 사업부문별 영업개황 1-1. 식품 부문",
+        "evidence_text": "옥수수 및 원당, 원맥 등 거의 대부분을 해외로부터 수입"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성 — price_factors 참고용",
+        "evidence_text": "전체 음료 판매의 절반 가량이 여름철에 집중되고 있습니다"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성 — price_factors 참고용",
+        "evidence_text": "다품종/다규격의 주문생산형 산업입니다"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4914,
+    "completion_tokens": 4764,
+    "reasoning_tokens": 3840,
+    "output_tokens": 924
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

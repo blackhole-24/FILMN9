@@ -1,0 +1,71 @@
+{
+  "stock_code": "267980",
+  "corp_name": "매일유업",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 14:31",
+  "meta": {
+    "wics": "식품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "매일유업은 국내 유가공·식품 기업으로, 백색우유 시장에서 상위 3개 업체 가운데 하나로 높은 브랜드 인지도를 보유하고 있습니다. 유당분해 우유 등 자체 특허(UF 공법)를 활용한 제품과 발효유·식물성 음료 등 다각적 제품군을 운영하며 프리미엄 제품 수요에 대응하고 있습니다.",
+    "business_model": "사업부문별 영업수익 구성은 유제품 외 59.5%, 기타 39.8%로 보고되어 있으며([사업부문별 매출 구성] 기준), 매출은 우유류(백색우유 및 특화 우유)와 발효유·식물성·기능성 제품 및 푸드서비스 등으로 나뉩니다. 자체 특허 기술과 브랜드 육성으로 프리미엄 제품(유기농, 락토프리 등) 수요를 공략하는 것이 핵심 수익 구조입니다.",
+    "main_customers": "유제품 외 — 일반 소비자(오프라인·온라인) 및 B2B 채널(카페·베이커리) / 기타 — 발효유·식물성·기능성 제품 소비자 및 푸드서비스 채널",
+    "price_factors": [
+      {
+        "factor": "인구·출산율",
+        "detail": "출산율 감소와 인구 감소는 우유 소비 규모 축소로 실적에 하방 압력을 줄 수 있습니다."
+      },
+      {
+        "factor": "대체우유 성장",
+        "detail": "식물성 음료 등 대체 우유 시장의 성장으로 전통 우유 시장의 경쟁이 심화될 수 있습니다."
+      },
+      {
+        "factor": "환율 변동",
+        "detail": "주요 거래통화(USD, EUR, CNY, AUD) 환율 변동은 원가·해외 거래에 영향을 주어 실적 변동성을 키울 수 있습니다."
+      },
+      {
+        "factor": "규제·안전",
+        "detail": "식품위생·축산물위생관리 등 관련 규제 준수 비용과 인증 리스크가 영업비용 및 출시 일정에 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "프리미엄 수요",
+        "detail": "유기농·락토프리 등 프리미엄 제품 수요 증가는 포트폴리오 전환 시 매출·마진 개선에 기여할 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "라. 각 사업 부문의 시장여건 및 영업의 개황 (시유 부문)",
+        "evidence_text": "당사는 백색우유 시장 상위 3개 업체 중 하나로 회사 및 브랜드의 높은 인지도를 보유하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "유제품 외: 1,097,780,502 (59.5%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "라. 각 사업 부문의 시장여건 및 영업의 개황 (시유 부문)",
+        "evidence_text": "소비 방식은 오프라인 채널에서 온라인 채널로 전환되고 있고 카페, 베이커리와 같은 B2B 채널이 성장하며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "마. 환율변동 영향",
+        "evidence_text": "환율변동 위험에 노출되어 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4732,
+    "completion_tokens": 3855,
+    "reasoning_tokens": 3008,
+    "output_tokens": 847
+  },
+  "warnings": []
+}

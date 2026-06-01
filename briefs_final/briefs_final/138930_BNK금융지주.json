@@ -1,0 +1,83 @@
+{
+  "stock_code": "138930",
+  "corp_name": "BNK금융지주",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 12:21",
+  "meta": {
+    "wics": "은행",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "BNK금융그룹은 2011년 설립된 대한민국 최초의 지방은행 금융지주회사로, 2014년 경남은행을 편입하고 2015년 사명을 BNK금융지주로 변경하여 지역을 대표하는 종합금융그룹으로 성장했습니다. 2025년말 기준 국내 381개 점포와 해외 66개 거점 네트워크를 보유하고 있으며, 은행 중심의 9대 계열사를 통해 지역 기반의 금융서비스를 제공하고 있습니다.",
+    "business_model": "핵심 사업은 은행업을 축으로 여신전문금융, 금융투자, 저축은행, 창업투자 등 금융업 전반으로 확장되어 있으며, 대출·예금 등 전통적 은행업(이자수익)과 수수료·유가증권 관련 이익 등 비이자부문이 함께 수익을 창출합니다. MD&A에서는 이자부문이 우량자산 확대에 따른 NIM(순이자마진) 하락 영향을 받았고, 비이자부문은 유가증권 관련 이익 증가 등으로 개선되었다고 설명하고 있습니다.",
+    "main_customers": "부산은행 — 지역(동남권) 개인·기업 고객 / 경남은행 — 지역(동남권) 개인·기업 고객 / BNK캐피탈 — 자금조달이 필요한 기업·개인 / BNK투자증권 — 투자자 및 자본시장 참가자 / BNK저축은행·자산운용 등 — 소매 예금자 및 투자 수익자",
+    "price_factors": [
+      {
+        "factor": "인터넷은행",
+        "detail": "인터넷 전문은행의 성장으로 금융권 경쟁이 심화되어 수익성(예: 수수료·예대마진)에 압박을 줄 수 있습니다."
+      },
+      {
+        "factor": "지역경기",
+        "detail": "동남경제권 산업의 경기회복 지연은 자산성장 둔화 및 건전성 악화 가능성으로 대출·이익에 영향을 미칩니다."
+      },
+      {
+        "factor": "NIM(금리마진)",
+        "detail": "우량자산 확대에 따른 NIM 하락은 이자수익 감소로 그룹 실적에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "부동산PF",
+        "detail": "부동산 PF규제는 PF 관련 수수료 축소로 비이자 수익에 하방 압력을 가할 수 있습니다."
+      },
+      {
+        "factor": "자본비율",
+        "detail": "BIS 등 자본적정성 변동은 향후 영업·대출 여력과 리스크 관리에 영향을 미칠 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "2011년 3월 15일 설립된 대한민국 최초의 지방은행 금융지주회사로"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "은행업, 여신전문금융업, 금융투자업, 저축은행업, 창업투자업"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "2-2 영업 종류별 현황 (부산은행)",
+        "evidence_text": "지역 대표 금융기관 입니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "2-2 영업 종류별 현황 (부산은행)",
+        "evidence_text": "인터넷 전문은행의 급속한 성장"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "2-2 영업 종류별 현황 (부산은행)",
+        "evidence_text": "동남경제권의 주요 산업의 경기회복 지연"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "MD&A",
+        "evidence_text": "부동산 PF규제 등으로 PF관련수수료 감소"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4781,
+    "completion_tokens": 4951,
+    "reasoning_tokens": 3968,
+    "output_tokens": 983
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

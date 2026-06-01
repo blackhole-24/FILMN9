@@ -1,0 +1,67 @@
+{
+  "stock_code": "092130",
+  "corp_name": "이크레더블",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 13:17",
+  "meta": {
+    "wics": "상업서비스와공급품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "이크레더블은 신용정보를 수집·가공해 기업간 거래에 필요한 신용정보를 제공하는 기업입니다. 연결실체는 신용조회사업을 중심으로 기업정보조회사업과 결제형 B2B 사업을 영위하고 있습니다.",
+    "business_model": "주요 수익원은 신용조회서비스와 기술평가 서비스로 구성되어 있으며, 2025 회계연도 기준 사업부문별 매출 비중은 신용조회사업 65.2%, 기술평가 서비스 27.0%, 기업정보사업 4.6%, 결제형 B2B 사업 3.2%입니다. 신용조회 및 기술평가를 바탕으로 기업고객에게 의사결정 콘텐츠와 B2B 전자상거래·구매금융 지원을 제공합니다(신용조회·기업정보·결제형 B2B 등).",
+    "main_customers": "신용조회사업 — 대기업 및 협력기업 / 기술평가 서비스 — 금융기관(대출·심사 담당기관) / 기업정보사업 — 기업·기관(기업신용정보 수요자) / 결제형 B2B 사업 — 기업간 전자상거래 참여기업(구매·판매 기업)",
+    "price_factors": [
+      {
+        "factor": "경기민감성",
+        "detail": "기업간 거래량 및 전방산업(예: 건설) 실적에 따라 서비스 이용량과 수익이 변동합니다."
+      },
+      {
+        "factor": "시장성숙도",
+        "detail": "기업신용정보산업이 성숙단계에 있어 전체 시장 성장률이 제한적이면 추가 성장에 제약이 됩니다."
+      },
+      {
+        "factor": "계절성",
+        "detail": "재무정보 생성 시기(3~6월)에 매출 집중도가 높아 분기별 실적 변동성이 발생합니다."
+      },
+      {
+        "factor": "진입규제",
+        "detail": "일정한 인적·물적 요건과 허가가 필요해 신규사업자 진입은 제한적이나 규제 변화는 산업구조에 영향입니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "연결실체는 신용조회사업을 중심으로 기업정보조회사업과 결제형 B2B 사업을 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "신용조회사업 32,598(65.2%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "(1) 산업현황",
+        "evidence_text": "전자신용인증서비스는 대기업과 협력기업간 거래관계의 개설 및 유지에 필요한 정보제공 등의 사업이며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "(1) 산업현황",
+        "evidence_text": "전체적인 기업신용정보산업 시장이 성숙단계로 진입하고"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4581,
+    "completion_tokens": 4007,
+    "reasoning_tokens": 3264,
+    "output_tokens": 743
+  },
+  "warnings": []
+}

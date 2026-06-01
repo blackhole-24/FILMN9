@@ -1,0 +1,62 @@
+{
+  "stock_code": "009900",
+  "corp_name": "명신산업",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 20:29",
+  "meta": {
+    "wics": "자동차부품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "명신산업은 핫스탬핑 공법으로 경량화한 자동차 차체부품을 제조하여 차체 부품업체와 완성차업체에 공급하는 자동차부품 전문기업입니다. 미국·중국 등 해외 연결종속법인과 2025년 7월 편입된 명신브라질을 통해 글로벌 전기차업체 및 OEM사에 부품을 공급하고 있습니다.",
+    "business_model": "핵심 사업은 핫스탬핑 공법을 활용한 차체부품의 제조·납품이며, 주로 1차 협력업체를 통해 완성차 OEM에 최종 공급되는 구조입니다. FY2025 사업부문별 영업수익 구성은 8.47%, 8.54%, 27.81%, -6.45%로 표기되어 있으며(사업부문별 매출 구성이 제공된 표 기준), 해외법인을 통한 글로벌 전기차 고객사 매출 확대가 주요 수익 동인입니다.",
+    "main_customers": "차체부품(핫스탬핑) — 1차 협력업체(차체 부품업체) / 최종수요처 — 완성차 업체",
+    "price_factors": [
+      {
+        "factor": "완성차 수요",
+        "detail": "완성차 판매량 변동에 민감하여 완성차 판매 감소 시 실적(및 주가)에 직접적인 하방압력을 받을 수 있습니다."
+      },
+      {
+        "factor": "관세·무역",
+        "detail": "미국 등 지역의 관세·무역정책 변화는 수익성에 영향을 주며, 관세 부담 증가 시 영업이익률에 부정적 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "환율 변동",
+        "detail": "USD 등 외화 노출이 있어 환율 변동은 환산평가손익 및 영업외손익에 영향을 주어 실적 변동성을 높일 수 있습니다."
+      },
+      {
+        "factor": "규제·환경비용",
+        "detail": "하도급거래공정화법·대기환경보전법 등 생산 관련 규제 준수에 따른 비용 및 공장 운영 부담이 실적에 영향을 미칠 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "핫스탬핑 공법으로 경량화시켜 만든 제품을"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "8.47%: 216,557 (17.2%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "주요 매출처는 주로 1차 협력업체입니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 6530,
+    "completion_tokens": 4476,
+    "reasoning_tokens": 3776,
+    "output_tokens": 700
+  },
+  "warnings": []
+}

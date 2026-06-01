@@ -1,0 +1,76 @@
+{
+  "stock_code": "078590",
+  "corp_name": "휴림에이텍",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 05:49",
+  "meta": {
+    "wics": "자동차부품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "휴림에이텍은 1993년 8월 설립된 자동차 내·외장재 전문 제조업체로, 현대자동차 및 기아자동차의 1차 협력사로서 국내 완성차사에 부품을 납품하는 공급망에 자리하고 있습니다. 카페트 등 내장재와 소재 개발을 중심으로 신소재 개발·품질 향상에 집중해온 기업입니다.",
+    "business_model": "주요 제품은 자동차 내장재로, FY2025 기준 카페트(33.0%), 트렁크 트림(27.0%), 휠가드(21.0%), 언더커버(13.0%), 대쉬(5.0%) 순으로 매출이 구성됩니다. 회사는 경량화·친환경 소재와 감성품질 향상을 위한 연구개발(신소재·신기술)로 완성차 OEM(주문자상표부착생산 대상) 공급을 통해 수익을 창출합니다.",
+    "main_customers": "카페트 — 국내 완성차 제조업체(현대·기아) / 트렁크 트림 — 국내 완성차 제조업체(현대·기아) / 휠가드 — 국내 완성차 제조업체(현대·기아) / 언더커버 — 국내 완성차 제조업체(현대·기아) / 대쉬 — 국내 완성차 제조업체(현대·기아)",
+    "price_factors": [
+      {
+        "factor": "경기민감도",
+        "detail": "자동차는 내구재로 경기변동에 민감해 경기침체 시 차량 수요 감소로 실적에 직접적인 영향이 발생합니다."
+      },
+      {
+        "factor": "친환경차전환",
+        "detail": "하이브리드·전기차 비중 확대는 경량·친환경 소재 수요 변화를 촉발해 제품 구성과 기술 경쟁력에 영향을 줍니다."
+      },
+      {
+        "factor": "신소재개발",
+        "detail": "신소재·신기술 개발 역량이 제품 차별화와 원가절감에 직결되어 경쟁력 확보에 중요한 요소입니다."
+      },
+      {
+        "factor": "고객집중도",
+        "detail": "대형 국내 완성차사(현대·기아) 중심의 매출 구조는 납품 물량 변화에 따른 실적 변동성을 높일 수 있습니다."
+      },
+      {
+        "factor": "원가경쟁",
+        "detail": "원가절감과 품질 향상을 통한 가격경쟁력 확보 요구가 실적과 마진에 직접적인 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 1993년 8월 설립된 현대자동차 및 기아자동차의 1차 협력사"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "카페트: 21,541 (33.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "국내 생산 완성차 제조업체에 납품하는"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "자동차는 대표적인 내구재 상품으로 경기변동과 밀접한 연관을 맺고 있으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "끊임없는 연구개발을 통해 신소재와 신기술을 개발해온 당사는"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4320,
+    "completion_tokens": 4317,
+    "reasoning_tokens": 3392,
+    "output_tokens": 925
+  },
+  "warnings": []
+}

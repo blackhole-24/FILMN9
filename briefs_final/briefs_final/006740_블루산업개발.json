@@ -1,0 +1,67 @@
+{
+  "stock_code": "006740",
+  "corp_name": "블루산업개발",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 19:38",
+  "meta": {
+    "wics": "종이와목재",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "블루산업개발은 1970년 설립되어 경기도 평택시 소재 공장에서 제지 원지를 생산해 온 기업입니다. 지관용원지(30%)와 라이너원지(70%) 등 제지 제품을 주력으로 하며, 종속기업인 블루팩키지(주)를 통해 골판지·골판지상자 사업도 영위하고 있습니다.",
+    "business_model": "주요 수익은 제지부문과 골판지부문에서 발생하며, FY2025 기준 제지부문이 84.6%, 골판지부문이 12.7%, 기타가 2.7%를 차지합니다. 제지(원지) 생산이 핵심이며, 골판지부문은 주문생산 방식의 중간재 공급을 통해 연계된 매출을 창출합니다.",
+    "main_customers": "제지부문 — 화섬·면방업계 등 섬유업계 및 원지 구매처 / 골판지부문 — 골판지상자 주문생산을 의뢰하는 제조·유통업체 (중간재)",
+    "price_factors": [
+      {
+        "factor": "에너지비용",
+        "detail": "전력비·연료비 등 에너지 비용 급등은 고정비 부담을 키워 실적에 부정적 영향을 미칩니다."
+      },
+      {
+        "factor": "원자재가격",
+        "detail": "폐지·펄프 등 주요 원자재 가격과 수급 불안정은 원가 상승으로 이어져 수익성에 직접적 영향을 줍니다."
+      },
+      {
+        "factor": "수요구조",
+        "detail": "전자상거래·택배 수요 증가는 포장용지 수요를 늘려 매출에 긍정적 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "산업구조",
+        "detail": "라이너원지 시장의 대형사 집중과 수직계열화는 가격 전가 능력을 높여 마진 구조에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "당사는 1970년 설립되어 경기도 평택시 소재의 공장에"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "제지부문: 82,145 (84.6%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "골판지 포장산업은 일반 대중에게 직접 판매하지 못하는 중간재로"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 산업의 개요",
+        "evidence_text": "국제 유가 상승으로 인한 에너지 비용 급등"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4952,
+    "completion_tokens": 3838,
+    "reasoning_tokens": 3136,
+    "output_tokens": 702
+  },
+  "warnings": []
+}

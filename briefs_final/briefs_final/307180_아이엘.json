@@ -1,0 +1,62 @@
+{
+  "stock_code": "307180",
+  "corp_name": "아이엘",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 15:48",
+  "meta": {
+    "wics": "디스플레이장비및부품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "아이엘은 2008년 설립 이후 LED용 실리콘렌즈 설계·제작 기술을 기반으로 LED 조명 및 차량용 램프, IoT 기반 조명 시스템 등을 생산하는 핵심 소재·부품 기업입니다. 자체 생산 설비와 맞춤형 렌즈 제작 역량을 보유하며 자동차 전장용 램프 등 고신뢰성 시장 진출을 추진하고 있습니다.",
+    "business_model": "주력은 세계최초로 개발한 LED용 실리콘렌즈와 이를 응용한 차량용 램프, LED조명, IoT 조명시스템 및 LED 뷰티케어기기 생산·판매이며, FY2025 기준 영업수익은 B2G 14.1%, B2B 85.0%, B2C 0.9%로 B2B(기업 대상) 매출 비중이 가장 큽니다.",
+    "main_customers": "B2G — 정부·공공기관 / B2B — 기업 고객(자동차·조명 제조사 등) / B2C — 일반 소비자",
+    "price_factors": [
+      {
+        "factor": "전장시장성장",
+        "detail": "자동차 전장시장 성장성에 따라 차량용 램프 수요가 늘면 실적에 긍정적 영향이 있을 수 있습니다."
+      },
+      {
+        "factor": "원가경쟁력",
+        "detail": "금형 없이 2주 내 양산 가능한 공정은 납품기간 단축과 투자비 절감으로 원가 우위를 제공합니다."
+      },
+      {
+        "factor": "품질·인증요구",
+        "detail": "IATF 16949 등 자동차 품질인증 보유 여부가 자동차사 납품 가능성 및 수주에 직접 영향합니다."
+      },
+      {
+        "factor": "정책·경기변동",
+        "detail": "에너지정책과 글로벌 경기 변동은 조명 및 신규사업(전고체 배터리 등)의 성장 전망에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "당사는 실리콘렌즈 기술을 이용한 핵심 소재 기업으로"
+      },
+      {
+        "field": "business_model",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "세계 최초로 개발한 LED용 실리콘렌즈 제품"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "B2B: 87,380 (85.0%)"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5730,
+    "completion_tokens": 3597,
+    "reasoning_tokens": 2944,
+    "output_tokens": 653
+  },
+  "warnings": []
+}

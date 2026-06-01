@@ -1,0 +1,72 @@
+{
+  "stock_code": "134060",
+  "corp_name": "이퓨쳐",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 09:46",
+  "meta": {
+    "wics": "교육서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "이퓨쳐는 2003년 Phonic 교수법 기반의 자체 콘텐츠인 EFL Phonics로 ELT(English Language Teaching) 시장에 진입한 교육콘텐츠 제작업체입니다. 2025년 기준 자산총계 280억 원, 부채비율 20%로 비교적 건실한 재무구조를 유지하고 있으며, 2025년에 매출액 111억원을 기록했습니다.",
+    "business_model": "핵심은 ELT 관련 디지털·인쇄 영어학습 콘텐츠의 자체 개발 및 공급이며, 사업부문별로 Phonics 36.0%, Course Book 25.5%, Grammar 13.4%, Reading 14.0%, 기타 11.1%의 매출 구성을 보입니다. 연구소를 통한 자체 콘텐츠 개발과 강사진 기반 교육지원서비스 제공이 수익 원천입니다.",
+    "main_customers": "Phonics — 유아·초등 중심의 학원·학습지·일반 수요자 / Course Book — 초·중등 학습용 콘텐츠를 구매하는 학원·학습지·일반 수요자 / Grammar — 학원·학습지·일반 수요자 / Reading — 학원·학습지·일반 수요자 / 기타 — 학원·학습지·일반 수요자",
+    "price_factors": [
+      {
+        "factor": "학령인구 감소",
+        "detail": "저출산에 따른 취학인구 감소는 전체 시장 규모 축소로 매출에 하방 압력을 줄 수 있습니다."
+      },
+      {
+        "factor": "교육정책",
+        "detail": "수능절대평가·선행학습금지법 등 공교육 정책 변화는 사교육 수요의 구조적 변동으로 실적 변동성을 높일 수 있습니다."
+      },
+      {
+        "factor": "해외경쟁",
+        "detail": "Oxford·Cambridge·Pearson 등 해외 유수 출판사와의 경쟁 심화는 시장 점유율과 가격 경쟁력에 영향을 미칩니다."
+      },
+      {
+        "factor": "디지털전환",
+        "detail": "AI 기반 에듀테크 및 디지털 학습물 활용 증가는 신제품·채널 도입으로 수요 창출과 비용 투자의 양면 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 산업의 현황 (1) 시장 개황",
+        "evidence_text": "EFL Phonics라는 제품을 출시하면서 ELT 시장에 진입하였습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "- Phonics: 3,753,714 (36.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 산업의 현황 (1) 산업의 특성",
+        "evidence_text": "컨텐츠 제작업은 교육서비스를 제공하는 학원 및 학습지 업체 또는 일반 수요자를 대상으로"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 산업의 현황 (2) 수요의 구성 및 특성",
+        "evidence_text": "저출산으로 인한 취학인구도 감소하고 있는 상황입니다."
+      },
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "2025년은 매출액 111억원, 영업이익 9억원, 당기순이익 12억원의 실적을 달성하였으며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4085,
+    "completion_tokens": 5272,
+    "reasoning_tokens": 4416,
+    "output_tokens": 856
+  },
+  "warnings": []
+}

@@ -1,0 +1,71 @@
+{
+  "stock_code": "008730",
+  "corp_name": "율촌화학",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 20:10",
+  "meta": {
+    "wics": "포장재",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "율촌화학은 필름 형태를 기반으로 전자소재 부품과 플라스틱 필름·포장재를 제조·판매하는 기업입니다. 2025년 연결기준 매출은 약 4,854억 원으로 포장사업부문과 전자소재사업부문을 중심으로 영업하고 있습니다.",
+    "business_model": "주요 사업은 포장사업부문과 전자소재사업부문으로 구분되며, 2025년 기준 포장사업부문 매출이 약 65.9%를 차지하고 전자소재사업부문이 약 34.1%를 차지합니다. 주요 원재료로는 Polypropylene과 PET Film 등이 사용되며, 자체 기술연구소를 통해 매출의 약 1.89%를 연구개발(R&D) 비용으로 집행해 고기능·친환경 제품 개발에 집중하고 있습니다.",
+    "main_customers": "포장사업부문 — 식품산업 및 생활소비재 제조업체 / 전자소재사업부문 — 배터리(전기차·에너지저장장치) 및 디스플레이·반도체 관련 제조업체, 글로벌 배터리 제조사",
+    "price_factors": [
+      {
+        "factor": "경기변동",
+        "detail": "포장사업은 식품·생활소비재 수요에 민감해 글로벌 경기 둔화 시 수요 감소로 실적에 부정적 영향을 받을 수 있습니다."
+      },
+      {
+        "factor": "원재료비",
+        "detail": "원재료 비중(제조비 대비 원재료비 62.7%)이 높아 원자재 가격 상승 시 수익성에 직접적인 부담이 발생합니다."
+      },
+      {
+        "factor": "배터리수요",
+        "detail": "전자소재(2차전지용 필름)는 전기차·ESS(에너지저장장치) 시장 확대에 따라 매출 변동성이 결정되므로 관련 수요 증감이 실적에 큰 영향을 미칩니다."
+      },
+      {
+        "factor": "환경규제",
+        "detail": "친환경·재활용 요구가 강화되면서 친환경 소재 및 공정 대응 여부가 경쟁력과 비용 구조에 영향을 줍니다."
+      },
+      {
+        "factor": "거래계약리스크",
+        "detail": "대형 고객·공급계약의 변경이나 해지(예: 계약 해지에 따른 정산)가 매출 및 수익성에 즉시 반영될 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "포장사업부문과 전자소재사업부문으로 사업부를 구분하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "포장사업부문은 생활 전반에 적용되는 필름 기반 포장재를 공급합니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "전자소재사업부문은 ... 2025년 기준 165,841백만원의 매출을 기록하였습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "포장산업 : 식품산업 및 생활소비재 산업의 경기 변동에 크게 영향을 받습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4342,
+    "completion_tokens": 4566,
+    "reasoning_tokens": 3712,
+    "output_tokens": 854
+  },
+  "warnings": []
+}

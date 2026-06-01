@@ -1,0 +1,72 @@
+{
+  "stock_code": "303030",
+  "corp_name": "지니틱스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 15:41",
+  "meta": {
+    "wics": "반도체와반도체장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "지니틱스는 시스템 반도체 설계기술을 전문으로 하는 팹리스(Fabless, 반도체를 설계하여 파운드리에 위탁 생산하는 기업) 기업으로, 휴대폰·태블릿·노트북 등 전자기기와 가전기기에 들어가는 다양한 시스템 반도체를 회로설계·개발하여 외주 생산 후 고객사에 판매합니다. 주요 제품군으로 터치 컨트롤러 IC, 햅틱(IC), AF(오토포커스) 드라이버 등 여러 라인업을 보유하고 있습니다.",
+    "business_model": "주요 사업은 시스템 반도체 설계(팹리스) 및 외주 생산을 통한 완성칩 판매이며, 제품 포트폴리오에는 터치 컨트롤러 IC, 햅틱 IC, DC-DC IC, AF Driver IC, MST IC 등이 포함됩니다. 사업부문별 FY2025 영업수익은 SYSTEM IC 81.4%, TOUCH IC외 18.6%로 SYSTEM IC가 매출의 대부분을 차지합니다.",
+    "main_customers": "SYSTEM IC — 휴대폰·태블릿·노트북 등의 전자기기 제조사 / TOUCH IC외 — 웨어러블·가전기기 등 터치 인터페이스를 채용하는 기기 제조사",
+    "price_factors": [
+      {
+        "factor": "제품가격",
+        "detail": "공급업체 간 경쟁 및 신제품 출시로 제품 가격이 전반적으로 하락하면 마진에 부담이 될 수 있습니다."
+      },
+      {
+        "factor": "터치수요",
+        "detail": "터치스크린 채용 증가와 디바이스 확대(웨어러블·가전 등)는 터치IC 수요 확대를 통해 실적에 긍정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "디스플레이전환",
+        "detail": "OLED 등 디스플레이 기술 채택 확대는 관련 터치·디스플레이 드라이버 수요 변화로 실적에 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "자동차수요",
+        "detail": "자동차 전자화(자율주행·디스플레이 증가)는 차량용 반도체 수요 확대를 통해 중장기 수요처 확대로 연결될 가능성이 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "팹리스(Fabless) 기업으로"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "터치 컨트롤러 IC"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "SYSTEM IC: 29,602 (81.4%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "TOUCH IC외: 6,778 (18.6%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "휴대폰, 태블릿, 노트북 등 전자기기"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3996,
+    "completion_tokens": 3472,
+    "reasoning_tokens": 2688,
+    "output_tokens": 784
+  },
+  "warnings": []
+}

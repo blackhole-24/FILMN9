@@ -1,0 +1,67 @@
+{
+  "stock_code": "082660",
+  "corp_name": "코스나인",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 06:14",
+  "meta": {
+    "wics": "화장품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "코스나인은 화장품 제조업 및 유통판매업을 영위하는 기업으로, OEM·ODM·OCM 방식의 맞춤형 생산과 관련 부대사업을 운영하고 있습니다. 국내외 화장품 시장에서 연구개발과 생산대응능력 강화를 통해 고객사 니즈에 대응하고 있습니다.",
+    "business_model": "주요 수익원은 화장품 사업으로 FY2025 기준 매출의 약 72.5%를 차지합니다. 당사는 고객사 요구에 따라 화장품 전 제품군을 OEM(주문자상표부착생산), ODM(제조자개발생산), OCM(원천기획·제작) 방식으로 생산하고, R&D·디자인·마케팅 컨설팅을 결합한 OCM 서비스를 제공하여 차별화를 추구합니다.",
+    "main_customers": "화장품 — 국내외 화장품 회사(ODM/OEM 의뢰 고객)",
+    "price_factors": [
+      {
+        "factor": "트렌드 변동",
+        "detail": "시장 트렌드가 빠르게 변함에 따라 제품 기획·라인업 적응 속도가 실적에 직접적인 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "ODM/OEM 수요",
+        "detail": "글로벌 화장품 업체들의 국내 ODM/OEM 아웃소싱 증가가 이어지면 수주 및 매출 확대에 영향을 줍니다."
+      },
+      {
+        "factor": "R&D·생산력",
+        "detail": "높은 수준의 연구개발 능력과 생산대응능력은 고객사 확보와 제품 경쟁력에 중요한 변수입니다."
+      },
+      {
+        "factor": "품질관리",
+        "detail": "엄격한 품질관리시스템과 ERP 기반 생산관리 시스템은 제조 신뢰도와 납기 준수에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 사업부문별 현황",
+        "evidence_text": "화장품 제조업 및 유통판매업"
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. 사업부문별 현황",
+        "evidence_text": "화장품 전 제품군을  OEM,  ODM , OCM을 방식으로 생산하고 있으며"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 사업부문별 현황",
+        "evidence_text": "글로벌 화장품 업체들의 국내ODM/OEM 아웃소싱이 증가"
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "화장품: 343,546 (72.5%)"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 2649,
+    "completion_tokens": 4312,
+    "reasoning_tokens": 3648,
+    "output_tokens": 664
+  },
+  "warnings": []
+}

@@ -1,0 +1,82 @@
+{
+  "stock_code": "131370",
+  "corp_name": "알서포트",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 09:42",
+  "meta": {
+    "wics": "소프트웨어",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "알서포트는 2001년 설립된 원격 소프트웨어 연구·개발·공급 기업으로, 일본과 중국에 종속회사를 두고 수출비중이 60% 이상인 글로벌 테크기업입니다. 원격지원·원격제어·화상회의 등 원격 소프트웨어를 핵심으로 글로벌 시장에서 활동하고 있습니다.",
+    "business_model": "FY2025 기준 사업부문별 매출은 원격지원 등 92.5%, 기타 7.5%로 구성되어 있습니다(원격지원 등: 45,170 (92.5%) / 기타: 3,675 (7.5%)). 매출의 60% 이상은 물리적 설비 구축이 필요없는 클라우드 서비스(Cloud Service) 방식으로 발생하며, 주요 제품으로는 리모트콜(RemoteCall)과 리모트뷰(RemoteView)가 있습니다.",
+    "main_customers": "원격지원 등 — 국내외 통신사·휴대폰/PC 제조사·금융권·정부/공공기관/교육기관·IT기업/일반제조업 회사 / 기타 — 별도 표기 없음",
+    "price_factors": [
+      {
+        "factor": "일본 수출 의존",
+        "detail": "일본향 매출 비중이 높아(문서상 일본향 60% 이상) 엔화 환율과 일본 수요 변화가 실적에 직접 영향력을 미칩니다."
+      },
+      {
+        "factor": "디지털 전환",
+        "detail": "기업의 디지털 전환 가속화는 원격지원·원격제어 수요를 확대하여 매출에 긍정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "클라우드 비용",
+        "detail": "매출의 60% 이상이 클라우드 서비스로 발생하므로 클라우드 이용료 상승은 원가·이익률에 영향을 줍니다."
+      },
+      {
+        "factor": "경쟁·시장점유",
+        "detail": "아시아·글로벌 시장에서의 경쟁 위치(문서상 아시아-태평앙 시장점유 2위, 세계 7위)는 가격·영업 전략과 성장성에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "당사는 2001년 창사부터 현재까지 원격 소프트웨어를 연구, 개발, 공급하고 있습니다."
+      },
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "일본과 중국에 종속회사를 두고 있으며, 수출비중이 60% 이상인 글로벌 테크기업입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "원격지원 등: 45,170 (92.5%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "기타: 3,675 (7.5%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황",
+        "evidence_text": "클라우드 서비스(Cloud Service) 방식이 매출의 60% 이상입니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "국내외 통신사, 휴대폰/PC 제조사, 금융권"
+      },
+      {
+        "field": "business_model",
+        "source_section": "경쟁환경",
+        "evidence_text": "아시아-태평앙 시장점유 2위, 세계 시장점유 7위"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5157,
+    "completion_tokens": 4862,
+    "reasoning_tokens": 3968,
+    "output_tokens": 894
+  },
+  "warnings": []
+}

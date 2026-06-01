@@ -1,0 +1,62 @@
+{
+  "stock_code": "043590",
+  "corp_name": "웰킵스하이텍",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 01:49",
+  "meta": {
+    "wics": "전기제품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "웰킵스하이텍은 1974년에 설립된 IT 전자부품 전문기업으로, 반도체 설계(Driver IC Design)와 반도체 후공정(Driver IC Packaging), 전원공급 부품(Transformer & Coil) 및 무선 충전 부품, 자동차 부품 제조 사업을 영위하고 있습니다. 디스플레이용 드라이버 IC와 터치 컨트롤러 등 전자부품 중심의 사업구조를 갖추고 있습니다.",
+    "business_model": "핵심 사업은 Driver IC 설계(팹리스), Driver IC 패키징, Transformer & Coil 및 무선 충전 부품 납품, 그리고 자동차 부품 제조로 구성되어 있습니다. 사업부문별 영업수익 구성은 제조가 35.9%, 기타가 0.2%로 표기되어 있으며(제조 중심의 생산·납품 활동이 주요 수익원임을 시사합니다).",
+    "main_customers": "Driver IC Design — 디스플레이 패널·휴대형 기기 제조사 / Driver IC Packaging — 디스플레이 패널 및 전자기기 제조사 / Transformer & Coil·무선충전 — 충전기·모니터·TV 등 전자제품 제조사 / 자동차부품 제조 — 완성차 업체(현대·기아자동차 등)",
+    "price_factors": [
+      {
+        "factor": "디스플레이수요",
+        "detail": "DDI(디스플레이 드라이버)와 Touch IC 수요 변동은 설계·패키징 매출에 직접적 영향을 미칩니다."
+      },
+      {
+        "factor": "휴대기기수요",
+        "detail": "터치 컨트롤러 등 휴대형 기기용 IC 수요 축소 시 관련 매출이 감소할 수 있습니다."
+      },
+      {
+        "factor": "완성차수요",
+        "detail": "완성차 생산·판매 변동은 자동차 부품 공급 실적에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "제조의존도",
+        "detail": "제조 매출(표시상 35.9%) 비중이 높아 생산·공급 차질이나 원가 변동이 실적에 영향을 미칠 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 1974년에 설립되어"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "제조: 7,676,307 (35.9%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "현대 기아자동차 등으로 공급하고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 2726,
+    "completion_tokens": 3892,
+    "reasoning_tokens": 3200,
+    "output_tokens": 692
+  },
+  "warnings": []
+}

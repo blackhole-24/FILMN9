@@ -1,0 +1,76 @@
+{
+  "stock_code": "445680",
+  "corp_name": "큐리옥스바이오시스템즈",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 19:43",
+  "meta": {
+    "wics": "생명과학도구및서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "큐리옥스바이오시스템즈는 세포 분석 공정의 자동화 장비와 소모품을 판매하는 기업으로, Pluto Wash 기술을 기반으로 세포 분석 공정의 재현성 향상과 글로벌 표준화에 기여하고 있습니다. 세포 세척을 원심분리 없이 자동화하는 독자 기술을 상용화하여 연구·신약개발·진단 분야의 자동화 수요를 공략하고 있습니다.",
+    "business_model": "주요 수익원은 장비와 소모품 판매로 구성되며, FY2025 기준 세포전처리자동화 기기 등 57.1%, 플레이트 9.8%, 부속품 8.0%, 기타 25.1%로 보고되었습니다. 핵심 제품인 Pluto Workstation(플랫폼 기반 자동화 기기)과 부속 소모품 판매가 주 수익을 형성하며, 소프트웨어인 Pluto Code를 통해 기존 자동 액체 핸들러에 기술을 적용(라이선스/호환성 제공)하는 비즈니스도 병행하고 있습니다.",
+    "main_customers": "세포전처리자동화 기기 등 — 제약·바이오 기업, CRO(임상시험수탁기관), 대학 및 연구기관, 임상검사실·병원 / 플레이트·부속품 — 제약·바이오 기업, 연구기관, 대학 및 실험실 / 기타(소프트웨어·서비스 등) — 글로벌 바이오기업 및 연구시설",
+    "price_factors": [
+      {
+        "factor": "자금 사이클",
+        "detail": "바이오기업의 펀딩 축소나 R&D 예산 감소는 설비(CapEx) 투자를 위축시켜 실적에 부정적 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "자동화 대체기술",
+        "detail": "원심분리 기반 공정의 구조적 제약으로 완전 자동화 수요가 존재하며, 당사의 무원심 자동화 기술 채택률이 실적에 직접 연결됩니다."
+      },
+      {
+        "factor": "플랫폼 의존성",
+        "detail": "Pluto Code가 Hamilton·Tecan 등 상용 워크스테이션과의 호환성에 의존하므로 주요 플랫폼 채택 변화가 수요에 영향합니다."
+      },
+      {
+        "factor": "진단 규제",
+        "detail": "북미 진단시장 진입 시 규제 승인(예: CLIA/LDT 관련 요건)이 필요할 경우 진입 시점과 매출화 속도에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "장비 가격 민감도",
+        "detail": "장비 도입은 설비투자 성격이 강해 장비 가격·유지비용과 고객의 CAPEX 결정이 실적 변동성을 키울 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 사업의 내용 요약",
+        "evidence_text": "세포 분석 공정의 자동화 장비와 소모품을 판매"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "세포전처리자동화 기기 등: 2,945 (57.1%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 기기 > ① Pluto  Workstation",
+        "evidence_text": "Pluto Workstation은 mass market을 겨냥하는 제품이면서"
+      },
+      {
+        "field": "business_model",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "Pluto Code라는 소프트웨어 제품을 출시해"
+      },
+      {
+        "field": "regulation_note",
+        "source_section": "나. 산업 관련 법령 및 정부 규제",
+        "evidence_text": "당사의 제품은 세포전처리를 위한 자동화 장비로서 의료기기에 해당하지는 않으며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5475,
+    "completion_tokens": 3380,
+    "reasoning_tokens": 2432,
+    "output_tokens": 948
+  },
+  "warnings": []
+}

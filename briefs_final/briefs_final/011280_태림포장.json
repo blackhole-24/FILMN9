@@ -1,0 +1,67 @@
+{
+  "stock_code": "011280",
+  "corp_name": "태림포장",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 20:45",
+  "meta": {
+    "wics": "포장재",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "태림포장은 골판지 원지를 가공해 골판지 및 골판지 상자를 생산·판매하는 포장재 전문회사입니다. 골판지 포장산업의 특성상 100% 주문생산방식으로 수요처의 제품 특성에 맞춘 맞춤형 생산을 수행하고 있습니다.",
+    "business_model": "주요 제품은 이면지 외(5.6%), 상자 외(94.4%), 화물운송(0.0%)로 구성되어 있으며, 주력은 골판지 상자 생산으로 매출의 대부분을 차지합니다. 생산은 주문생산(주문에 따른 재단·인쇄) 방식으로 이뤄지며, 전자상거래·홈쇼핑 등 포장수요 증가에 대응하고 있습니다.",
+    "main_customers": "상자 외 — 제조업체·유통업체(전자상거래·홈쇼핑·농수산물 관련 업체) / 이면지 외 — 골판지 원지 가공 관련 수요처 / 화물운송 — 화물운송 서비스를 이용하는 기업 고객",
+    "price_factors": [
+      {
+        "factor": "주문생산",
+        "detail": "100% 주문생산방식(주문에 따른 재단·인쇄)으로 수요 변화나 납기 문제는 실적과 직결될 수 있습니다."
+      },
+      {
+        "factor": "경쟁심화",
+        "detail": "상위업체들의 활발한 지역진출로 산업구조조정과 시장점유율 경쟁이 실적에 영향줄 수 있습니다."
+      },
+      {
+        "factor": "수요증가",
+        "detail": "전자상거래·홈쇼핑·농수산물 등 포장수요 증가가 매출 확대 요인으로 작용합니다."
+      },
+      {
+        "factor": "경기민감성",
+        "detail": "골판지 포장산업은 전체 산업의 경기변동에 민감하게 연동되어 경기 흐름에 따라 실적 변동성이 존재합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 사업부문별 현황 및 영업개황[골판지 및 골판지 상자 부문]",
+        "evidence_text": "골판지 및 골판지 상자를 생산 및 판매"
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "상자 외: 711,944 (94.4%)"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 사업부문별 현황 및 영업개황[골판지 및 골판지 상자 부문]",
+        "evidence_text": "100%주문생산방식에 의하여 거래가 이루어지고 있습니다"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 사업부문별 현황 및 영업개황[골판지 및 골판지 상자 부문]",
+        "evidence_text": "농수산물과 전자상거래 등 홈쇼핑의 증가에 따른 포장수요의 증가"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 2935,
+    "completion_tokens": 3067,
+    "reasoning_tokens": 2304,
+    "output_tokens": 763
+  },
+  "warnings": []
+}

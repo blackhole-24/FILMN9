@@ -1,0 +1,67 @@
+{
+  "stock_code": "011790",
+  "corp_name": "SKC",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 20:51",
+  "meta": {
+    "wics": "화학",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "SKC는 1973년 설립된 화학 계열의 지주회사로, 전지박(Copper Foil) 등 이차전지 소재, PO·PG 등 기초화학제품, 반도체 테스트용 소켓 등 소재·부품을 생산·판매하는 계열사들을 보유하고 있습니다. 반도체 테스트용 실리콘러버 소켓은 글로벌 시장점유율이 매우 높은 제품 포트폴리오를 보유하고 있습니다.",
+    "business_model": "핵심 사업부문은 이차전지 소재(전지박), 화학(PO·PG 등), 반도체 소재(테스트 소켓)로 구성되며, 2025년 연결 기준 매출 비중은 이차전지 소재 27.5%, 화학 59.3%, 반도체 소재 12.0%, 기타 1.4%입니다. 이차전지 분야는 주로 수출 중심의 전지박(음극집전체) 공급이, 화학은 PO·PG 등 기초화학제품의 국내외 공급이, 반도체는 주문 제작형 테스트 소켓의 공급이 수익을 창출합니다.",
+    "main_customers": "이차전지 소재 — 전기차 제조사, ESS(에너지저장장치) 및 중소형 IT기기 관련 제조사 / 화학 — 윤활제·자동차·화장품·가전제품·단열재 등 관련 제조업체(PO·PG 수요처) / 반도체 소재 — 반도체 제조업체 및 테스트업체 / 기타 — 지주사업 관련 수익처",
+    "price_factors": [
+      {
+        "factor": "구리가격",
+        "detail": "전지박 판가는 주요 원재료인 구리값에 가공비를 더해 결정되므로 구리가격 변동은 매출단가와 마진에 직접 영향합니다."
+      },
+      {
+        "factor": "전방수요",
+        "detail": "전기차·ESS 등 전방산업의 성장세가 전지박 수요에 직결되어 실적 변동 요인이 됩니다."
+      },
+      {
+        "factor": "화학시황",
+        "detail": "화학제품은 원재료·국제가격과 공급과잉·수요부진에 따라 가격 약세가 지속되면 실적에 부담이 됩니다."
+      },
+      {
+        "factor": "제품수명주기",
+        "detail": "반도체 소재는 출시 초기 고부가가치 형성 후 시간이 지나며 가격이 하락하는 경향이 있어 수익성 관리가 중요합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "1973년 7월 16일에 설립되었으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "합계 1,091,179,073,819 59.3%"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 주요 제품등의 현황",
+        "evidence_text": "전기차, ESS 및 기타 중소형 IT기기 산업에 적용되는 제품 입니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나. 주요 제품 등의 가격변동추이",
+        "evidence_text": "전지박 판가는 주요 원재료인 구리값에 가공비를 더하여 결정되고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5260,
+    "completion_tokens": 3594,
+    "reasoning_tokens": 2752,
+    "output_tokens": 842
+  },
+  "warnings": []
+}

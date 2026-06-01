@@ -1,0 +1,66 @@
+{
+  "stock_code": "071280",
+  "corp_name": "로체시스템즈",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:08",
+  "meta": {
+    "wics": "반도체와반도체장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "로체시스템즈는 1997년 11월 설립된 반도체·디스플레이 물류이송장비 제조업체입니다. Glass Cutting System, 반도체용 Mobile Robot·EFEM, 디스플레이용 Index·Sorter·Stocker·Module 장비 등을 개발·공급하며 수익을 창출하고 있습니다.",
+    "business_model": "사업부문별 영업수익 구성에서 제조가 48.4%, 기타가 6.9%로 제시되어 있습니다. 회사는 FPD(평판디스플레이) 및 반도체 생산장비의 물류제어 기술을 바탕으로 장비를 개발·생산·판매하고, 부품 판매와 Set-Up 및 A/S 용역도 함께 제공합니다. 또한 세계 최초로 FPD 생산공정에 적용되는 Laser를 이용한 Glass Cutting Machine(GCM)을 개발해 양산제품으로 판매하고 있습니다.",
+    "main_customers": "제조 — FPD 모듈업체, 반도체소자업체 / 기타 — 장비 납품 고객 및 유지보수 수요처",
+    "price_factors": [
+      {
+        "factor": "반도체수요",
+        "detail": "반도체 소자의 미세화·고집적화와 공정 고도화가 진행될수록 대형·진화된 장비 수요가 늘어 실적에 영향을 줍니다."
+      },
+      {
+        "factor": "디스플레이투자",
+        "detail": "TV, 노트북, 스마트폰 수요 확대와 패널 생산라인 증설이 이어지면 디스플레이 장비 수요가 증가합니다."
+      },
+      {
+        "factor": "기술경쟁",
+        "detail": "반도체·디스플레이 장비는 R&D(연구개발)와 설계 기술이 중요해 기술력과 신제품 경쟁력이 실적에 직접 연결됩니다."
+      },
+      {
+        "factor": "설치·A/S",
+        "detail": "장비 납품 후 Set-Up 및 A/S 용역과 부품 판매가 함께 발생해 사후 서비스 능력이 수익 구조에 영향을 줍니다."
+      },
+      {
+        "factor": "산업변동성",
+        "detail": "디스플레이 산업은 전방산업과 경기 변동의 영향을 크게 받아 장비 수요가 호황과 불황을 반복할 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 1. 사업의 개요",
+        "evidence_text": "1997년 11월에 설립된 당사는 반도체 및 디스플레이 물류이송장비를 생산하는 제조업체"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "제조: 60,407,220 (48.4%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 1. 사업의 개요",
+        "evidence_text": "FPD모듈업체, 반도체소자업체 등에 판매 및 설치"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4140,
+    "completion_tokens": 749,
+    "reasoning_tokens": 0,
+    "output_tokens": 749
+  },
+  "warnings": []
+}

@@ -1,0 +1,62 @@
+{
+  "stock_code": "000300",
+  "corp_name": "DH오토넥스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 16:45",
+  "meta": {
+    "wics": "자동차부품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "DH오토넥스는 1998년 차량용 LPG 연료탱크의 자체 설계 및 양산을 시작하며 자동차 부품 사업에 진출한 기업입니다. 용접·프레스 기반 제조기술로 LPG 연료탱크(연료저장장치)와 열관리 부품을 주력으로 완성차·부품업체에 공급해 왔으며, 2025년 전북 김제시로 본사·생산기지를 확장 이전하여 액체수소 저장용기 등 친환경 모빌리티 핵심부품 개발에 주력하고 있습니다.",
+    "business_model": "FY2025 기준 사업부문별 매출 구성은 LPG BOMBE 55.7%, 버큠탱크 0.6%, 햅틱모터 13.2%, 가전부품 12.6%, 기타 18.0%로 LPG 연료탱크(연료저장장치)가 핵심 수익원입니다. 아울러 용접·가공·설계 역량을 바탕으로 면상발열체(복사난방), 전기차·수소차 부품, 액체수소 저장용기 등 친환경·전동화 관련 제품의 R&D와 상용화에 집중하고 있습니다.",
+    "main_customers": "LPG BOMBE — 국내외 완성차 및 부품업체(현대자동차·기아 등) / 버큠탱크 — 완성차·부품업체 / 햅틱모터 — 완성차업체 및 전장부품 수요처 / 가전부품·기타 — 가전업체 및 건설·스마트팜 등 타산업",
+    "price_factors": [
+      {
+        "factor": "국제유가",
+        "detail": "국제 유가 상승 시 LPG의 연료비 경쟁력이 부각되어 LPG 탱크 수요가 증가할 가능성이 있습니다."
+      },
+      {
+        "factor": "친환경차확대",
+        "detail": "전기차·수소차 보급 확대와 정부정책이 진행될수록 액체수소 저장용기·열관리 부품 수요가 변동합니다."
+      },
+      {
+        "factor": "기술·협력",
+        "detail": "R&D 투자와 완성차·소재기업과의 협력 성과가 신제품 상용화 및 매출 확대에 영향을 미칩니다."
+      },
+      {
+        "factor": "적용산업확대",
+        "detail": "면상발열체 등 기술의 건설·스마트팜·가전 등 타산업 적용 확대가 실적 다변화에 기여할 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "[DART 사업보고서 — 영업 현황]",
+        "evidence_text": "당사는 1998년 차량용 LPG 연료탱크의 자체 설계 및 양산을 시작으로"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "LPG BOMBE: 22,375 (55.7%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "[경영진 실적·전략 요약 (MD&A)]",
+        "evidence_text": "현대자동차, 기아, General Motors"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4464,
+    "completion_tokens": 3680,
+    "reasoning_tokens": 2880,
+    "output_tokens": 800
+  },
+  "warnings": []
+}

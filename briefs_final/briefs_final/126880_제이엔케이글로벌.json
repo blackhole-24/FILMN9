@@ -1,0 +1,72 @@
+{
+  "stock_code": "126880",
+  "corp_name": "제이엔케이글로벌",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 09:32",
+  "meta": {
+    "wics": "석유와가스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "제이엔케이글로벌은 국내 유일의 산업용가열로 전문기업으로 전 세계 정유·석유화학 플랜트 시장에서 가열로 설계·제작·설치·유지보수 업무를 수행해 왔습니다. 2025년 기준 매출 1,473억원을 기록하며 가열로 분야에서 선도적 위치를 확보하고 있습니다.",
+    "business_model": "핵심 사업은 산업용가열로(FH) 설계·제작·설치·보수로, 해당 부문이 전체 매출의 약 84.2%를 차지합니다. 또 다른 축은 수소추출기 및 수소충전소 패키지(설계부터 제작·설치까지 턴키(설계·제작·설치 일괄 납품) 형태)로, 수소사업부문은 전체의 약 15.8%를 차지합니다.",
+    "main_customers": "산업용가열로 — 정유·석유화학 사업주(현대케미칼·에스오일·YNCC·FCFC·BPCL 등) 및 EPC 엔지니어링사(현대엔지니어링·현대건설·삼성엔지니어링·지에스건설·SK에코플랜트·Toyo Engineering 등) / 수소사업 — 사업주(수소충전소 발주처) 및 연구·공급 파트너(한국과학기술원·한국가스공사 등) 및 수소생산 관련 기업",
+    "price_factors": [
+      {
+        "factor": "국제정세",
+        "detail": "이란-이스라엘 전쟁 등 복잡한 국제정세로 플랜트 투자 결정이 지연되면 수주·실적에 직접적인 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "동남아 경쟁",
+        "detail": "동남아 시장에서 중국 업체와의 가격경쟁 심화는 수주단가 하락과 마진 압박으로 이어질 위험이 있습니다."
+      },
+      {
+        "factor": "중동 투자동향",
+        "detail": "중동의 정유→석유화학 전환과 대규모 투자가 지속되면 장기적 수주 기회가 확대될 가능성이 있습니다."
+      },
+      {
+        "factor": "수소정책",
+        "detail": "정부의 수소인프라 확충과 수소전문기업 인증 등 정책 추진은 수소사업의 수요와 사업 확장성에 긍정적 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "당사는 국내 유일의 산업용가열로 전문기업으로"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "전체 매출액의 약 84.2%를 차지하고 있습니다"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "전체 매출액의 약 15.8%를 차지하고 있습니다"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "주요 고객사로는 현대케미칼, 에스오일, YNCC, FCFC, BPCL 등"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 업계의 현황",
+        "evidence_text": "동남아 시장은 중국 업체와의 가격 경쟁이 더욱 심화될 것으로 보입니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4510,
+    "completion_tokens": 4428,
+    "reasoning_tokens": 3520,
+    "output_tokens": 908
+  },
+  "warnings": []
+}

@@ -1,0 +1,72 @@
+{
+  "stock_code": "042370",
+  "corp_name": "비츠로테크",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 01:39",
+  "meta": {
+    "wics": "전기제품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "비츠로테크는 지주회사로서 주요 자회사인 비츠로셀, 비츠로일렉트릭, 비츠로넥스텍 등을 통해 전력기기, 전지, 특수사업을 영위하고 있습니다. 2025년(제60기) 연결기준 매출액은 4,323억원, 영업이익 557억원, 당기순이익 427억원을 기록하였습니다.",
+    "business_model": "사업부문별 영업수익 구성(FY2025)은 전지부문 56.2%, 전력부문 6.9%, 특수부문 8.4%, 기타 1.6%로 전지부문이 그룹 내 핵심 수익원입니다. 전지부문은 군수용·석유가스 시추용 등 특수 목적 전지를 주력으로 하고, 전력부문과 특수부문은 입찰·프로젝트(프로젝트성 판매) 중심의 생산·납품 구조를 가집니다.",
+    "main_customers": "전력부문 — 전력사업자 및 산업체 / 전지부문 — 군수용 고객, 석유가스 시추업체 및 민수용 고객 / 특수부문 — 우주항공업계·발주처 / 기타 — 관련 산업체 및 프로젝트 발주처",
+    "price_factors": [
+      {
+        "factor": "원자재 가격",
+        "detail": "구리·은·리튬 등 주요 원자재 가격 상승은 전력·전지 부문 원가와 수익성에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "환율(USD)",
+        "detail": "달러 강세 또는 약세는 수출 실적과 원자재 수입 비용을 동시에 바꿔 실적 변동으로 연결됩니다."
+      },
+      {
+        "factor": "경기·설비투자",
+        "detail": "발전·송·배전 설비 투자 및 산업 설비투자의 증감에 따라 수주·매출 변동성이 큽니다."
+      },
+      {
+        "factor": "입찰 경쟁",
+        "detail": "경쟁입찰 체제에서 가격 경쟁이 심해지면 계약단가 하락으로 수익성 압박이 발생합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "당사는 다른 회사의 주식을 소유함으로써 그 회사 지배를 목적으로 하는 지주회사로써 보고서 작성 기준일 현재 (주) 비츠로셀, (주) 비츠로일렉트릭, (주) 비츠로넥스텍, 등을 자회사를 두고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "전지부문: 243,038 (56.2%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "3) 사업부문의 시장여건 및 영업의 개황",
+        "evidence_text": "주 수요처는 전력사업자 및 산업체입니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "전력사업 부문이 영위하는 수배전반 시장은 국내외 경쟁심화와 전력기기 주요 원자재 가격(동, 은)의 상승으로 인해 영업손실을 기록하였습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "4) 환율 변동 영향",
+        "evidence_text": "연결회사는 매출 및 원자재 수입 거래 등과 관련하여 주로 USD의 환율변동위험에 노출되어 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5532,
+    "completion_tokens": 3860,
+    "reasoning_tokens": 2944,
+    "output_tokens": 916
+  },
+  "warnings": []
+}

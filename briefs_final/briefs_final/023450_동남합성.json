@@ -1,0 +1,72 @@
+{
+  "stock_code": "023450",
+  "corp_name": "동남합성",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 22:42",
+  "meta": {
+    "wics": "화학",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "동남합성은 1965년 설립된 계면활성제(계면장력을 감소시키는 물질) 제조·판매 기업으로, 정밀화학 기술을 바탕으로 계면화학 분야에서 선도적 지위를 유지하고 있습니다. 3개 공장을 통해 연간 약 17만톤의 생산체제를 갖추고 있으며, 국내 국산화 및 제품 개발을 지속해왔습니다.",
+    "business_model": "매출은 계면활성제 중심으로 구성되며, 2025회계연도 기준 계면활성제 매출이 95.5%를 차지하고 상품 등은 4.5%를 차지합니다 (계면활성제: 95.5% / 상품 등: 4.5%). 주원료인 ETHYLENE OXIDE(에틸렌 옥사이드, 주요 원료) 등으로부터 다양한 계면활성제를 생산·공급하며, 연구개발과 공정기술을 통해 제품 다양화와 생산효율을 추구하고 있습니다.",
+    "main_customers": "계면활성제 — 세제·섬유·제지·금속·농약·페인트·피혁 등 전 산업의 제조업체 / 상품 등 — 별도 세부 고객군 미기재",
+    "price_factors": [
+      {
+        "factor": "산업수요",
+        "detail": "세제·화장품·섬유·제지 등 전 산업에서 수요가 확대되면 계면활성제 매출에 직접적인 호응이 나타납니다."
+      },
+      {
+        "factor": "경기민감도",
+        "detail": "국가 전체 경기 변동에 따라 수요가 영향을 받아 실적 변동성이 발생할 수 있습니다."
+      },
+      {
+        "factor": "원료공급",
+        "detail": "주원료인 ETHYLENE OXIDE의 공급 및 가격 변동은 제품 원가와 이익률에 직접적인 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "수입경쟁",
+        "detail": "국내 제조업체와 수입제품 간의 경쟁이 치열해 품질·가격 경쟁력 변화가 실적에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "당사는 계면활성제를 제조, 판매하는 회사입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "계면활성제: 185,534 (95.5%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "상품 등: 8,731 (4.5%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "세제, 섬유, 제지, 금속, 농약, 페인트, 피혁 등"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "당사 3개 공장의 총 생산능력규모는 연간 기준 약 17만톤"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3613,
+    "completion_tokens": 4337,
+    "reasoning_tokens": 3520,
+    "output_tokens": 817
+  },
+  "warnings": []
+}

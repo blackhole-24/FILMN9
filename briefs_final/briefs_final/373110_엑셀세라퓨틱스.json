@@ -1,0 +1,76 @@
+{
+  "stock_code": "373110",
+  "corp_name": "엑셀세라퓨틱스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 18:09",
+  "meta": {
+    "wics": "생물공학",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "엑셀세라퓨틱스는 2015년 창업 이후 세포유전자치료제(Cell&Gene Therapy) 산업의 핵심 소재인 세포배양배지(Media)의 연구개발과 생산을 주사업으로 영위하는 바이오기업입니다. 동물·인체유래물질을 배제한 화학조성배지(CellCor™)를 주력 제품으로 개발·공급하고 있습니다.",
+    "business_model": "주요 수익원은 제품 판매와 용역으로 구성되며, FY2025 기준 세포배양배지 매출이 33.5%를 차지하고 상품 매출이 64.8%를 차지합니다(기타 0.5%, 용역 1.2%). 배지 판매를 축으로 CDO(세포치료제 공정개발)·CPC(세포제조배양시설) 등 용역과 바이오 솔루션 판권을 결합한 'CGT-Total Solution Provider' 모델을 통해 수직적 사업 확장을 추진하고 있습니다.",
+    "main_customers": "세포배양배지 — 국내외 세포치료개발사, 병원, 연구소, 공공기관 / 용역 — 세포치료개발사 등 CDO·CPC 서비스를 필요로 하는 기관 / 상품 — 판권을 확보한 바이오 솔루션 관련 고객(보고서에 구체 고객군 명시 없음) / 기타 — 보고서에 구체적 고객군 명시 없음",
+    "price_factors": [
+      {
+        "factor": "시장성장",
+        "detail": "세포유전자치료제 시장의 고성장(연평균 약 16.8%)은 배지 수요와 매출에 직접적 영향을 줍니다."
+      },
+      {
+        "factor": "진입장벽",
+        "detail": "배지의 기술집약성과 기존 사용자의 교체 기피로 신규 공급자 진입이 어렵고 이는 가격·수익성에 영향을 미칩니다."
+      },
+      {
+        "factor": "공급망·국산화",
+        "detail": "국내 배지의 높은 수입 의존도와 글로벌 공급망 재편 가능성은 국산화 성과에 따라 실적 변동성을 유발합니다."
+      },
+      {
+        "factor": "지식재산권",
+        "detail": "특허 포트폴리오 보유는 경쟁우위와 제품 보호에 기여해 실적 안정성에 영향을 미칩니다."
+      },
+      {
+        "factor": "계약단가",
+        "detail": "매출 단가는 고객과의 공급계약에 따라 결정되어 경제환경·협상력에 따라 실적에 직접적인 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "엑셀세라퓨틱스는 '세포유전자치료제(Cell&Gene Therapy)' 산업의 핵심 소재인 세포배양 배지(Media)에 대한 연구개발과 생산을 주사업으로 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "- 세포배양배지: 653,140 (33.5%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "- 상품: 1,262,992 (64.8%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "현재 경기도 용인에 위치한 GMP 생산시설을 활용하여 국내외 세포치료개발사, 병원, 연구소, 공공기관 등에 제품을 공급하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 지식재산권 보유현황 (1) 특허 현황",
+        "evidence_text": "당사는 본 보고서 제출일 현재 등록결정 특허 15개, 심사 중인 특허 10개, 총 25개의 특허 포트폴리오를 보유하고 있으며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4897,
+    "completion_tokens": 4007,
+    "reasoning_tokens": 3008,
+    "output_tokens": 999
+  },
+  "warnings": []
+}

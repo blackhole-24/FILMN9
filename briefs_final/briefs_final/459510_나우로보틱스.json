@@ -1,0 +1,67 @@
+{
+  "stock_code": "459510",
+  "corp_name": "나우로보틱스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 20:13",
+  "meta": {
+    "wics": "기계",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "나우로보틱스는 2016년 설립된 로보틱스 전문기업으로 산업용 로봇과 자율주행 물류로봇(AMR), 로봇 자동화 시스템을 개발·제조·공급합니다. 로봇 SW·HW와 서보제어 기반 초정밀 제어기술 등 완제품 로봇 제조를 위한 핵심 기술을 보유하고 스마트팩토리 구축을 지원하는 자동화 솔루션을 제공합니다.",
+    "business_model": "매출의 대부분은 제품매출(로봇 완제품 등)로 구성되며,  최신 연도 기준 제품매출이 95.9%, 기타매출이 4.1%를 차지합니다. 핵심 제품군은 직교로봇·다관절로봇·스카라로봇 등 산업용 로봇과 자율주행 물류로봇(AMR), 그리고 로봇 기반 자동화 시스템 및 EOAT(End of Arm Tooling)으로, 통합 SI(시스템 통합) 서비스를 통해 설치·구축·운영 지원을 제공합니다.",
+    "main_customers": "산업용 로봇 — 자동차·전기·전자·반도체·의료기기·식품가공·이차전지 제조업체 / 자율주행 물류로봇·로봇 자동화 시스템(SI) — 제조공정·물류 운용을 자동화하려는 제조업체 및 물류 담당자",
+    "price_factors": [
+      {
+        "factor": "자동화 수요",
+        "detail": "제조업의 인력 부족 및 생산비 상승은 로봇·자동화 수요를 늘려 실적에 긍정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "기술발전",
+        "detail": "로봇 기술 고도화는 적용 산업 범위를 넓히고 제품 경쟁력을 강화해 매출 확대에 기여할 수 있습니다."
+      },
+      {
+        "factor": "AMR 전환",
+        "detail": "AGV에서 AMR로의 전환과 스마트팩토리 확산은 자율주행 물류로봇 수요 증가로 연결됩니다."
+      },
+      {
+        "factor": "경쟁 심화",
+        "detail": "글로벌 경쟁이 치열한 시장 특성은 가격·기술 경쟁을 통해 수익성에 영향을 미칠 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 산업용 로봇 및 서비스용 로봇인 자율주행 물류로봇,  로봇 자동화 시스템을 개발, 제조 및 공급하는 기업으로서, 해당 산업은 다음과 같은 요인으로 인해 높은 성장 잠재력을 가지고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "제품매출: 12,012,143 (95.9%) - 기타매출: 513,890 (4.1%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "산업용 로봇 및 자동화 솔루션은 자동차, 반도체, 전자, 의료기기, 물류 및 이차전지 제조 등 다양한 산업에 적용되며, 고객의 생산성을 극대화하고 품질을 향상시키는 데 기여하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "제조업의 인력 부족 및 생산 비용 상승으로 인해 산업 전반에서 자동화 수요가 증가하고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5412,
+    "completion_tokens": 3461,
+    "reasoning_tokens": 2560,
+    "output_tokens": 901
+  },
+  "warnings": []
+}

@@ -1,0 +1,73 @@
+{
+  "stock_code": "088800",
+  "corp_name": "에이스테크",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 06:47",
+  "meta": {
+    "wics": "통신장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "에이스테크는 통신장비·전기전자 분야에서 RF부품과 기지국용 안테나 등을 개발·제조하는 기업입니다. 주요 제품으로 이동통신용 기지국용 필터·안테나, Radio System, 차량용 통합안테나 및 방산용 통신안테나를 보유하고 있으며, 전장(자동차)·방산 분야로 사업을 확대하고 있습니다.",
+    "business_model": "핵심 사업은 RF부품, 기지국용 안테나, Radio System, 차량용 통합안테나 및 방산용 통신안테나 등 통신장비 전반의 설계·제조·공급입니다. 제품은 거래처 주문(spec)에 따라 생산되는 주문판매 형태이며(주문자 사양에 맞춘 공급), 이를 바탕으로 통신사업자 및 관련 장비업체·전장·방산 분야로 매출을 창출합니다.",
+    "main_customers": "RF부품 — 이동통신 기지국 장비업체 / 기지국용안테나 — 이동통신사업자·기지국 설치업체 / Radio System — 기지국 신호처리 시스템 수요처(통신사업자·장비업체) / 차량용 통합안테나 — 차량 제조사(전장부품) / 방산용 통신안테나 — 정부 및 방산업체",
+    "price_factors": [
+      {
+        "factor": "5G 수요",
+        "detail": "국내외 5G 전개 속도에 따라 기지국·안테나 장비 수요와 실적 변동이 나타납니다."
+      },
+      {
+        "factor": "제품 판가",
+        "detail": "동일품목이라도 사양별 판가 차이로 가격 변동성이 크며 수익성에 영향이 있습니다."
+      },
+      {
+        "factor": "주문형 생산",
+        "detail": "거래처 요구 사양별 주문생산 구조로 원가·공급 일정 변화가 실적에 직접적으로 반영됩니다."
+      },
+      {
+        "factor": "환율(USD)",
+        "detail": "주요 결제 통화가 USD여서 환율 변동이 매출·비용 및 환산손익에 영향을 미칩니다."
+      },
+      {
+        "factor": "방산 수요 구조",
+        "detail": "방산 사업은 수요처가 정부 및 방산업체로 제한적이어서 수주 환경이 경직될 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "RF부품 : 이동통신용 기지국에 내장되는 주파수 필터 통신장비 일체"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "Radio System : 이동통신용 기지국에서 신호처리 시스템 장비"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "수요처가 정부및 방산업체로 제한적이며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "가격변동이 크게 나타날 수 있습니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 3691,
+    "completion_tokens": 4727,
+    "reasoning_tokens": 3904,
+    "output_tokens": 823
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "stock_code": "036540",
+  "corp_name": "SFA반도체",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 00:38",
+  "meta": {
+    "wics": "반도체와반도체장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "SFA반도체는 반도체 후공정(패키징·TEST) 전문기업으로, 반도체 조립 및 TEST 제품을 주력으로 생산하며 삼성전자·Micron 등 글로벌 반도체 업체에 솔루션을 제공하고 있습니다. 2025년 연결기준 매출액은 3,674억원으로 전년대비 감소했고, 메모리 사업의 하반기 개선을 통해 2026년 수익성 정상화를 기대하고 있습니다.",
+    "business_model": "주요 사업은 반도체 패키징 및 TEST 중심의 후공정이며, FY2025 기준 사업부문별 영업수익은 반도체 제조 81.2%, 비메모리 18.1%, 상품 0.4%, 기타 0.3%로 구성되어 있습니다. IDM·파운드리·팹리스로부터의 수주를 바탕으로 고부가 패키징 기술과 원가 경쟁력을 통해 매출을 창출합니다.",
+    "main_customers": "반도체 제조 — IDM(종합반도체회사)·파운드리·팹리스(예: 삼성전자, Micron 등 세계 반도체 업체) / 비메모리 — 팹리스·시스템업체 및 반도체 수요처",
+    "price_factors": [
+      {
+        "factor": "공정·설비기술",
+        "detail": "고난도 패키징 기술 보유 여부가 수주 확보 및 단가 경쟁력에 직접 영향을 미칩니다."
+      },
+      {
+        "factor": "납기·품질 대응력",
+        "detail": "단기 납기 대응 및 엄격한 품질관리가 부족하면 주요 고객사의 공급선 배제 위험과 실적 악화로 이어질 수 있습니다."
+      },
+      {
+        "factor": "제품 믹스(가격변동)",
+        "detail": "제품 구성(믹스)에 따라 평균 판매단가가 변동되어 매출액과 이익률에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "대외정세·수요 변동",
+        "detail": "글로벌 정치·무역 불확실성 및 반도체 시황 악화 시 수주 감소로 매출과 실적에 부정적 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "당사의 사업분야는 반도체 산업의 후공정 분야인 반도체 조립 및 TEST제품을 주력으로 생산하고 있으며, 최고의 기술력을 바탕으로 삼성전자, Micron 등 세계 유수의 반도체 업체들에게 최첨단 반도체 패키징 솔루션을 제공하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "반도체 제조: 298,306 (81.2%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "나. 산업의 개황 (1) 산업의 특성",
+        "evidence_text": "반도체 생산업체는 제조공정에 따라 크게 종합반도체업체(IDM : Integrated Device Manufacturer), 설계전문업체(Fabless), 수탁제조업체(Foundry), IP 개발업체(Chipless) 등의 전공정(Front-end Process) 업체와 후공정(Back-end Process)의 패키징(packaging) 및 테스트(test) 전문업체가 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁요소",
+        "evidence_text": "패키징별 제조설비 및 공정 보유여부, 공정 및 설비기술 대응 능력, 주문에 따른 최단 납기 대응능력, 엄격한 품질관리 능력 및 원가 수준 등이 패키징업체의 경쟁력을 결정짓는 주요 요소로 작용하고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4182,
+    "completion_tokens": 3817,
+    "reasoning_tokens": 2880,
+    "output_tokens": 937
+  },
+  "warnings": []
+}

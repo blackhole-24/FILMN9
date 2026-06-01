@@ -1,0 +1,62 @@
+{
+  "stock_code": "063160",
+  "corp_name": "종근당바이오",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 04:12",
+  "meta": {
+    "wics": "제약",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "종근당바이오는 2001년 종근당에서 원료의약품 사업부문이 분할되어 설립된 발효·바이오 전문기업입니다. 국내 안산·오송·예산 등 3곳의 생산거점을 운영하며 세계 40여 개국에 원료의약품·프로바이오틱스·보툴리눔톡신 제품을 공급하고 있습니다.",
+    "business_model": "핵심은 발효·합성 기반의 원료의약품(API)과 프로바이오틱스·마이크로바이옴 CDMO(위탁개발·생산)입니다. 사업부문별 FY2025 매출 구성은 항생제 59.2%, 순환기계 4.3%, 면역억제제 12.1%, Probiotics 11.1%로 항생제 중심의 매출 구조를 보이며, 선진국 수준의 QA/QC·cGMP(우수 의약품 제조관리기준) 역량을 바탕으로 고부가가치 제품을 공급하고 있습니다.",
+    "main_customers": "항생제(API) — 국내외 주요 제약사 / 순환기계·면역억제제 — 완제의약품 제조사(원료 수요처) / Probiotics — 건강기능식품 시장(원료·완제품 수요처) / 마이크로바이옴(CDMO) — 제약·바이오업체",
+    "price_factors": [
+      {
+        "factor": "저가 공세",
+        "detail": "중국·인도 등 경쟁사의 저가 공세는 판매단가 하락을 촉발해 원료의약품 실적에 직접적인 부담을 줍니다."
+      },
+      {
+        "factor": "글로벌 약가정책",
+        "detail": "글로벌 약가 인하 기조와 제네릭 확산은 API 단가 하락 및 마진 압박으로 연결됩니다."
+      },
+      {
+        "factor": "품질·규제 기준",
+        "detail": "미국 FDA·유럽 EMA 수준의 cGMP·QA/QC 요구는 고품질 제품 공급의 장점이자 인증·유지 비용 요소로 작용합니다."
+      },
+      {
+        "factor": "수요·제품 가격",
+        "detail": "Probiotics 시장의 수요 정체와 제품 단가 하락은 관련 매출과 이익률에 부정적 영향을 미칠 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 회사의 개황",
+        "evidence_text": "발효·바이오 전문기업입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "항생제: 94,824 (59.2%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "나. 사업의 특성 및 구조 > ① 원료의약품(API) 사업",
+        "evidence_text": "국내외 주요 제약사에공급하고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5407,
+    "completion_tokens": 3503,
+    "reasoning_tokens": 2752,
+    "output_tokens": 751
+  },
+  "warnings": []
+}

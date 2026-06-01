@@ -1,0 +1,71 @@
+{
+  "stock_code": "067770",
+  "corp_name": "세진티에스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 04:58",
+  "meta": {
+    "wics": "디스플레이장비및부품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "세진티에스는 LED·LCD용 광기능성 필름(반사시트·확산시트·보호시트·프리즘시트 등)을 가공·생산하는 전문 제조업체로, 국내 주요 TV·패널 업체에 부품을 납품하며 업계에서 안정적 공급망을 확보하고 있습니다.",
+    "business_model": "핵심 사업은 TV용 광기능성 시트 제조(LED부품)로, 2025년 총매출 11,896백만원 중 제품매출(LED부품)이 약 98.9%를 차지하고 기타매출이 약 1.1%를 차지합니다(상품매출은 내부거래 제거로 실질적 비중 없음). 고품질 광학용 PET 필름 가공과 인쇄영역 품질관리 역량이 수익 기반입니다.",
+    "main_customers": "LED부품 — 삼성전자·LG디스플레이·삼성전자 VD 사업부·SDC·희성전자·원우정밀·뉴옵틱스 (TV 패널 및 BLU 제조업체)",
+    "price_factors": [
+      {
+        "factor": "시장점유율",
+        "detail": "주요 고객사에 대한 안정적 공급으로 시장점유율 변화에 따라 실적 변동성이 발생할 수 있습니다."
+      },
+      {
+        "factor": "기술·품질장벽",
+        "detail": "시트별 인쇄영역 등 고도의 품질 관리 역량이 경쟁우위로 작용하여 가격·수주에 영향을 미칩니다."
+      },
+      {
+        "factor": "공급과잉",
+        "detail": "패널 업계의 설비투자에 따른 생산능력 증대로 공급과잉이 발생하면 제품가격 하락으로 실적이 압박받을 수 있습니다."
+      },
+      {
+        "factor": "해외수요(美·中)",
+        "detail": "미국·중국 등 선진국·중국 시장의 수요 변동이 매출에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "계절성",
+        "detail": "3·4분기(크리스마스·입학시즌 등)에 수요가 증가하는 계절적 요인이 실적에 반영됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "LED 및 LCD용 광기능성 SHEET 및 관련 응용제품을 생산하여 납품하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "감소한 11,896백만원 기록하였습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "세계 TV 생산 1,2위 업체인 삼성전자와 LG디스플레이"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성 — price_factors 참고용",
+        "evidence_text": "40%의 시장점유율을 유지하고 있고"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4210,
+    "completion_tokens": 4680,
+    "reasoning_tokens": 3904,
+    "output_tokens": 776
+  },
+  "warnings": []
+}

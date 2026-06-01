@@ -1,0 +1,67 @@
+{
+  "stock_code": "272450",
+  "corp_name": "진에어",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 14:39",
+  "meta": {
+    "wics": "항공사",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "진에어는 항공기를 이용한 운송 서비스를 주요 상품으로 제공하는 항공운송회사입니다. 2025년말 기준 매출의 93.6%가 여객 운송에서 발생하며, 리스계약을 통해 총 31대의 항공기를 보유하고 있습니다.",
+    "business_model": "사업부문별 영업수익은 국제 76.2%, 화물 1.1%, 기타 5.3%로 구성되어 있으며, 여객 운송(여객 서비스)이 핵심 수익원입니다. 주요 원재료인 항공유는 GS칼텍스·S-Oil 등에서 매입하며 운항·정비 등 서비스 제공을 통해 수익을 창출합니다.",
+    "main_customers": "국제 — 항공 여객(소비자) / 화물 — 화물 운송 서비스 이용자 / 기타 — 기타 항공 관련 서비스 이용자",
+    "price_factors": [
+      {
+        "factor": "수요동시성",
+        "detail": "좌석과 화물공간은 재고가 불가능하므로 수요 감소가 곧바로 매출 손실로 이어져 실적 변동성이 커집니다."
+      },
+      {
+        "factor": "공급경쟁",
+        "detail": "국내외 LCC 및 항공사들의 공급 확대는 운임 경쟁을 심화시켜 수익성에 압박을 줍니다."
+      },
+      {
+        "factor": "항공유",
+        "detail": "주요 원재료인 항공유 가격 상승은 직접적인 연료비 부담 증가로 실적에 부정적 영향을 미칩니다."
+      },
+      {
+        "factor": "환율",
+        "detail": "외화표시 거래 노출로 환율 변동이 영업거래·자산·부채에 영향을 미쳐 손익 변동성을 초래합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "항공운송산업에 속한 회사로서"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "전체 매출 중 93.6%는 여객 운송 서비스에서 발생"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 영업수익 구성 (FY2025)]",
+        "evidence_text": "국제: 1,052,481 (76.2%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황",
+        "evidence_text": "총 31대를 보유하고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4855,
+    "completion_tokens": 3651,
+    "reasoning_tokens": 3008,
+    "output_tokens": 643
+  },
+  "warnings": []
+}

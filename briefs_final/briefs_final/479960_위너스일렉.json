@@ -1,0 +1,86 @@
+{
+  "stock_code": "479960",
+  "corp_name": "위너스일렉",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:47",
+  "meta": {
+    "wics": "전기장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "위너스일렉은 전기·전자 업종의 전기장비 기업으로, 스위치와 콘센트 등 배선기구를 중심으로 사업을 해왔습니다. 최근에는 스마트홈과 연계되는 스마트 배선기구·스마트 분전함, 그리고 전기차 충전기 분야로 사업 영역을 넓히고 있습니다. 국내 건설사, 대형 유통업체, 온라인 판매 채널을 통해 시장 점유율을 확대하고 있다고 설명합니다.",
+    "business_model": "주력 사업은 배선기구, 멀티탭, 스마트배선기구/분전함 제조 및 판매입니다. FY2025 사업부문별 영업수익은 멀티탭 51.0%, 배선기구 31.4%, 스마트배선기구/분전함 17.6%로 구성되어 있으며, 전통 배선기구에서 고부가가치 스마트 제품으로 비중을 넓히는 구조입니다. 또한 전기차 충전 콘센트, 전기차 충전기, 전력 분배 시스템으로도 사업을 확장하고 있습니다.",
+    "main_customers": "배선기구 — 국내 건설사, 대형 유통업체, 온라인 판매 채널 이용 고객 / 멀티탭 — 국내 유통 및 온라인 채널의 일반 소비자 / 스마트배선기구·분전함 — 신규 아파트 및 주거용 건물 관련 수요처",
+    "price_factors": [
+      {
+        "factor": "주거시장",
+        "detail": "신규 아파트와 주거용 건물에서 스마트홈 적용이 늘면 스마트 배선기구와 분전함 수요에 직접 영향을 줍니다."
+      },
+      {
+        "factor": "스마트홈",
+        "detail": "IoT(사물인터넷)와 AIoT(인공지능 결합 사물인터넷) 확산은 스마트홈 연동 제품의 시장 확대에 유리하게 작용합니다."
+      },
+      {
+        "factor": "호환성",
+        "detail": "다양한 플랫폼과 통신 프로토콜(Matter 등)과의 호환성이 중요해지면서 제품 경쟁력이 실적에 영향을 줍니다."
+      },
+      {
+        "factor": "전기차충전",
+        "detail": "전기차 충전기 시장 진출 여부와 관련 제품 확대는 향후 사업 영역과 매출 구조 변화에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "안전·디자인",
+        "detail": "전기사고 예방을 위한 안전성과 인테리어와의 조화가 중요한 구매 기준이라 제품 경쟁력 차이가 수요에 연결됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "스위치 및 콘센트 등 배선기구를 중심으로"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "전기차 충전기 시장에 진출하여 사업 영역을 확대"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "배선기구: 3,146 (31.4%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "멀티탭: 14,040 (51.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "스마트배선기구/분전함: 627 (17.6%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "국내 건설사, 대형 유통업체 및 온라인 판매 채널"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나. 시장 현황 (1) 시장의 특성 (가) 주요 목표시장",
+        "evidence_text": "신규 아파트 및 주거용 건물을 중심으로 스마트홈 시스템 적용이 보편화"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3950,
+    "completion_tokens": 1001,
+    "reasoning_tokens": 0,
+    "output_tokens": 1001
+  },
+  "warnings": []
+}

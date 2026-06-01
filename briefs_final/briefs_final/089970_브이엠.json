@@ -1,0 +1,67 @@
+{
+  "stock_code": "089970",
+  "corp_name": "브이엠",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 06:57",
+  "meta": {
+    "wics": "반도체와반도체장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "브이엠은 2002년 설립된 반도체 제조 전공정용 건식 식각장비(Dry Etcher) 제조업체로, 200mm 및 300mm 웨이퍼용 식각장비를 개발·납품해왔습니다. '플라즈마 소스' 원천기술을 보유해 300mm 장비에서 성능·가격 경쟁력을 확보하고 있으며, SK하이닉스 등 국내 주요 반도체 고객에 납품하고 있습니다.",
+    "business_model": "주력은 반도체 건식 식각장비 제조로, 제품 및 상품매출이 전체 매출의 98.82%(내수 88.74%, 수출 10.08%)를 차지하며 기타매출은 1.18%입니다. FY2025 기준 수출 비중은 10.6%로, 주로 200mm·300mm 폴리(Polysilicon)·금속(Metal)·산화막(Oxide) 식각장비의 단품(장비) 판매가 수익의 중심입니다.",
+    "main_customers": "제품(반도체장비) — 반도체 제조사(예: SK하이닉스(주))·연구기관(ETRI)·대학(연세대학교)·부품·장비업체(LG이노텍, 와이솔, 이피웍스)",
+    "price_factors": [
+      {
+        "factor": "경기민감성",
+        "detail": "반도체 업황의 호·불황에 따라 설비투자(매출)가 크게 변동하여 실적에 직접 영향이 있습니다."
+      },
+      {
+        "factor": "글로벌 과점",
+        "detail": "건식 식각장비 시장이 미국·일본의 소수 글로벌업체에 과점되어 기술 경쟁 및 시장진입 장벽이 높습니다."
+      },
+      {
+        "factor": "기술력",
+        "detail": "플라즈마 소스 등 핵심 원천기술 보유 여부가 장비 성능과 외산 대체 가능성에 영향을 미칩니다."
+      },
+      {
+        "factor": "환율·조달",
+        "detail": "장비 부품 상당수가 해외 조달이어서 환율 변동과 해외 공급망 변화가 원가 및 납기 리스크로 작용합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "건식 식각장비(Dry Etcher) 제조업체"
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황",
+        "evidence_text": "제품 및 상품매출 98.82%(내수 88.74%, 수출 10.08%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "SK하이닉스(주)에 공급했습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "수 출: 15,278 (10.6%)"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 6262,
+    "completion_tokens": 4151,
+    "reasoning_tokens": 3392,
+    "output_tokens": 759
+  },
+  "warnings": []
+}

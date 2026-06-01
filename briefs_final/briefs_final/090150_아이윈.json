@@ -1,0 +1,69 @@
+{
+  "stock_code": "090150",
+  "corp_name": "아이윈",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 06:59",
+  "meta": {
+    "wics": "자동차부품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "아이윈은 자동차용 시트히터를 주력으로 제조·판매하는 기업으로, 지배회사와 연결 종속회사가 해당 사업을 영위하고 있습니다. 2006년 코스닥시장에 상장하였고, 2025년 연결기준 매출액은 1,159억원을 기록하였습니다.",
+    "business_model": "핵심 사업은 자동차부품(시트히터) 제조·판매로, 제품군에는 시트히터 외에 발열핸들, 통풍시트 등이 포함됩니다. 공급가격은 원재료(열선) 가격 변동과 완성차별 제품단가 요청, 환율(EUR, USD)에 따라 유동적이며, R&D를 통한 통풍시트·복사열워머 등 신제품 상용화와 CCS 제품 개발 추진이 수익 확대의 중심 전략입니다.",
+    "main_customers": "자동차부품 — 기존 고객사 및 글로벌 완성차업체 / 상품 — 거래처",
+    "price_factors": [
+      {
+        "factor": "원재료 가격",
+        "detail": "주요 원재료인 열선 가격 하락이나 상승이 평균판매단가와 이익률에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "환율",
+        "detail": "EUR·USD 환율 변동에 따라 공급가격과 원가가 유동적으로 변동되어 실적에 영향을 줍니다."
+      },
+      {
+        "factor": "친환경차 전환",
+        "detail": "친환경차 시장 전환 및 완성차사의 신차 출시 방향에 따라 시트히터 수요 구조가 변화할 수 있습니다."
+      },
+      {
+        "factor": "글로벌 경쟁",
+        "detail": "글로벌 보호무역주의, 보조금 정책 가변성 및 중국·신흥국 완성차업체와의 경쟁 심화가 수출 여건에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "지배회사인 당사와  연결 종속회사는 자동차 시트히터 제조 및 판매를 주된 사업으로영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사의 2025년 연결기준 매출액은 1,159억원"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 경쟁 환경 및 시장 특성",
+        "evidence_text": "기존 고객사와의 공급관계 강화 및 글로벌 완성차업체 수주확대"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "주요 원재료인 열선 가격하락으로 평균판매단가가 인하되었으며"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4757,
+    "completion_tokens": 3846,
+    "reasoning_tokens": 3136,
+    "output_tokens": 710
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

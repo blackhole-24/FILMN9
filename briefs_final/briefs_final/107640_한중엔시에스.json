@@ -1,0 +1,66 @@
+{
+  "stock_code": "107640",
+  "corp_name": "한중엔시에스",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:16",
+  "meta": {
+    "wics": "전기장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "한중엔시에스는 에너지저장장치(ESS, Energy Storage Systems) 부품과 전기자동차(EV, Electric Vehicle) 부품을 생산·판매하는 전기장비 기업입니다. 주력인 ESS 분야에서는 수냉식 냉각시스템을 개발해 ESS용 부품을 공급하고, 자동차부품 분야에서는 전기차용 공조 관련 부품을 공급하고 있습니다.",
+    "business_model": "FY2025 사업부문별 영업수익 구성은 (주)한중엔시에스 및 종속회사가 81.6%, 자동차부품이 16.4%, 기타가 2.0%입니다. 핵심 수익은 ESS용 수냉식 Cooling System 제품과 전기차용 Cooling Fan Module, Active Air Flap Module, Air Guard Module 공급에서 발생합니다. ESS는 배터리에 저장한 전기에너지를 필요할 때 다시 쓰는 장치이고, 자동차부품은 전기차 전환 흐름에 맞춘 공조 관련 부품 중심으로 운영됩니다.",
+    "main_customers": "에너지저장장치(ESS) 사업부문 — 고객사 / 자동차부품 사업부문 — 고객사",
+    "price_factors": [
+      {
+        "factor": "원자재",
+        "detail": "ESS 사업부문은 원자재 수급과 제품사양변경에 따라 가격 변동 요인이 생길 수 있습니다."
+      },
+      {
+        "factor": "철광석",
+        "detail": "자동차부품 사업부문은 철광석 등의 국제가격 변화에 따라 단가와 수익성이 영향을 받을 수 있습니다."
+      },
+      {
+        "factor": "차종변경",
+        "detail": "완성차의 차종 및 사양 변경은 자동차부품의 가격 변동 요인으로 작용할 수 있습니다."
+      },
+      {
+        "factor": "재생에너지",
+        "detail": "재생에너지 확대와 ESS 보급 정책은 ESS 시장 성장과 부품 수요에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "전기차전환",
+        "detail": "자동차 산업이 내연기관에서 전기차로 전환될수록 EV 관련 부품 수요 환경이 달라집니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "에너지저장장치(ESS, Energy Storage Systems) 부품을 생산ㆍ판매하는"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "(주)한중엔시에스및 종속회사: 142,955 (81.6%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "고객사에 공급하고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4452,
+    "completion_tokens": 688,
+    "reasoning_tokens": 0,
+    "output_tokens": 688
+  },
+  "warnings": []
+}

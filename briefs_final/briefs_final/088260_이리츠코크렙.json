@@ -1,0 +1,64 @@
+{
+  "stock_code": "088260",
+  "corp_name": "이리츠코크렙",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 06:43",
+  "meta": {
+    "wics": "부동산",
+    "market": "KOSPI",
+    "has_revenue_data": false,
+    "tier": 4,
+    "tier_mode": "best_effort_summary",
+    "corp_type": "reit"
+  },
+  "brief": {
+    "company_overview": "이리츠코크렙은 2005년 설립된 기업구조조정부동산투자회사(리츠)로, 부동산의 취득·관리·개량·처분·임대차·개발 등을 통해 자산을 운용하고 그 수익을 주주에게 배당하는 것을 목적으로 합니다. 본점은 서울특별시 강남구에 위치하며, 2018년 6월 27일 한국거래소 유가증권시장에 상장하였습니다.",
+    "business_model": "이리츠코크렙은 단일하게 부동산의 취득·관리·개량·처분·임대차·개발을 통한 자산투자·운용을 주력 사업으로 영위하며, 사업보고서상 사업부문별 매출 구성은 별도 제시되지 않습니다(사업부문이 명확히 구분되지 않음).",
+    "main_customers": "임대차 — 임차인(부동산 이용자) / 투자운용 — 주주(배당 수익을 받는 투자자)",
+    "price_factors": [
+      {
+        "factor": "상장리츠수",
+        "detail": "상장 리츠 수(25개)는 투자자 관심과 자본 유입 경쟁에 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "총자산규모",
+        "detail": "리츠 시장의 총자산규모(19.09조원)는 시장 유동성과 비교 지표로서 회사의 상대적 위치에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "자산편입",
+        "detail": "종속회사(케이비와이즈스타제6호) 보유와 같은 신규 자산 편입이 배당원천과 실적에 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "법적지위",
+        "detail": "부동산투자회사법에 따른 기업구조조정부동산투자회사라는 법적 형태가 영업 범위와 배당정책에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "1. 일반사항가. 회사 현황",
+        "evidence_text": "2018년 6월 27일자로 한국거래소 유가증권시장에 상장하였습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "1. 일반사항가. 회사 현황",
+        "evidence_text": "주요 사업목적은 부동산의 취득ㆍ관리ㆍ개량 및 처분"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "2. 사업의 개요가. 업계의 현황",
+        "evidence_text": "이 중 상장리츠는 25개, 총 자산규모 19.09조원 수준입니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 3763,
+    "completion_tokens": 3628,
+    "reasoning_tokens": 2944,
+    "output_tokens": 684
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

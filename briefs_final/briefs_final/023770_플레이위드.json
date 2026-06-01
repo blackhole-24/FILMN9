@@ -1,0 +1,67 @@
+{
+  "stock_code": "023770",
+  "corp_name": "플레이위드",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 22:45",
+  "meta": {
+    "wics": "게임엔터테인먼트",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "플레이위드는 게임소프트웨어의 개발·제작·공급을 주력으로 하는 게임 개발·퍼블리싱 기업으로, 로한온라인·씰온라인 등 PC 온라인 타이틀과 씰M·드래곤플라이트2 등 모바일 타이틀을 서비스하고 있습니다. 보유 IP(지식재산권)를 기반으로 온라인 및 모바일 플랫폼에서 국내외 시장에 게임을 선보여 온 점이 회사 정체성의 핵심입니다.",
+    "business_model": "사업부문별로 모바일게임이 매출의 86.6%를 차지하고, 온라인게임이 11.7%, 기타가 1.7%를 구성하며(FY2025), 모바일(앱 마켓)과 온라인(PC 서버 기반) 게임의 서비스·과금(광고·인액구매)으로 수익을 창출합니다. 또한 자사 및 관계사가 보유한 '로한'·'씰' 등 IP(지식재산권)를 활용한 신작 개발과 글로벌 퍼블리싱이 핵심 성장 전략입니다.",
+    "main_customers": "모바일게임 — 국내·해외 모바일 게임 이용자 / 온라인게임 — 국내·해외 PC 온라인 게임 이용자",
+    "price_factors": [
+      {
+        "factor": "플랫폼 고도화",
+        "detail": "모바일 플랫폼 사양·기술 발전으로 개발비와 제작기간이 증가하면 비용 부담이 커져 실적에 영향을 미칩니다."
+      },
+      {
+        "factor": "IP 활용도",
+        "detail": "로한·씰 등 보유 IP의 신작화·퍼블리싱 성과에 따라 매출 변동성이 발생합니다."
+      },
+      {
+        "factor": "글로벌 수요",
+        "detail": "언어·문화 장벽이 낮은 게임의 특성상 해외(대만·동남아 등) 성과가 실적에 직결됩니다."
+      },
+      {
+        "factor": "환율 변동",
+        "detail": "해외 서비스 수익의 달러화 노출이 있어 환율 변동이 매출·이익에 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 게임소프트웨어의 개발, 제작 및 공급업이 주요 사업입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "모바일게임: 30,003 (86.6%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "현재 동남아시아, 대만, 일본 및 국내 등에서 서비스되고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "2025년 매출액은 신작 '드래곤플라이트2'의 한국 출시로 인하여 전년대비 약 23.5 억원(약 7.3%) 증가한 약 346억 원을 기록하였습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5717,
+    "completion_tokens": 3004,
+    "reasoning_tokens": 2240,
+    "output_tokens": 764
+  },
+  "warnings": []
+}

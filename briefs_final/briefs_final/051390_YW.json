@@ -1,0 +1,72 @@
+{
+  "stock_code": "051390",
+  "corp_name": "YW",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 02:51",
+  "meta": {
+    "wics": "판매업체",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "YW(종목코드 051390)는 1995년 7월 26일 영우통신(주)로 설립되어 2001년 코스닥에 상장한 이후 2015년 와이더블유(주)로 상호를 변경한 기업입니다. 무선통신에서 렌탈·도매 중심으로 주력사업을 전환했으며, 2025년 연결기준 매출 165.4억원, 영업이익 57.8억원, 당기순이익 50.8억원을 기록했습니다.",
+    "business_model": "핵심은 기업고객 대상 도매업(렌탈포함)으로, 고객 요구 사양에 맞춰 물품을 매입·일시불 판매하거나 약 3년 전후 약정으로 대여(렌탈료 수취)하는 구조입니다. 사업부문별 매출 구성은 도매 43.9%, 기업금융 1.6%, 기타 4.5%로 표기되어 있으며, 렌탈 품목을 OA기기·가전·의료기기·산업장비·무인매장·자동화 로봇 등으로 확장하고 있습니다.",
+    "main_customers": "도매(렌탈포함) — 기업고객(개인사업자·법인사업자) / 기업금융 — 신뢰관계가 형성된 특정기업 / 기타 — 명시되지 않음",
+    "price_factors": [
+      {
+        "factor": "렌탈시장 성장",
+        "detail": "최근 렌탈시장은 연간 11% 이상 성장세로 도매(렌탈) 매출 확대에 우호적입니다."
+      },
+      {
+        "factor": "경기변동",
+        "detail": "호황 시 생산 증가에 따른 렌탈 수요가 늘고, 불황 시에는 자금 여력이 있는 기업의 렌탈 수요가 상대적으로 유지됩니다."
+      },
+      {
+        "factor": "금리환경",
+        "detail": "기업금융은 금리 상승 시 채권 매입 운용에 유리하나 보고서상 기준금리 인하 추세도 관찰됩니다."
+      },
+      {
+        "factor": "환율영향",
+        "detail": "JPY 등 환율변동에 노출되어 있으나 연결기준 영향은 경미하다고 회사는 밝히고 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "1995년 7월 26일 영우통신(주)로 설립되어"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "도매: 32,437,874 (43.9%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황 가. 렌탈사업",
+        "evidence_text": "도매사업(렌탈포함)은 기업고객을 대상으로"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황 나. 기업금융",
+        "evidence_text": "주로 신뢰관계가 형성되어 있는 특정기업을 대상으로"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성 1) 산업의 특성 및 성장성",
+        "evidence_text": "최근 렌탈시장은 연간 11%가 넘는 가파른 상승세를 구가"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4529,
+    "completion_tokens": 4315,
+    "reasoning_tokens": 3456,
+    "output_tokens": 859
+  },
+  "warnings": []
+}

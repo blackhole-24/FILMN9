@@ -1,0 +1,76 @@
+{
+  "stock_code": "465480",
+  "corp_name": "인스피언",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 20:30",
+  "meta": {
+    "wics": "IT서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "인스피언은 2009년 설립된 SAP 컨설팅 및 보안·EDI 솔루션 개발·판매 회사로, 제조·금융·서비스·공공 등 전(全) 분야의 기업 고객을 대상으로 서비스를 제공합니다. 2024년 코스닥 상장 이후 매출은 약 200억원 수준이며 SAP 연계 기술을 핵심 경쟁력으로 보유하고 있습니다.",
+    "business_model": "당사는 컨설팅사업부, 솔루션사업부, 서비스사업부로 구성되며 보고서에 기재된 사업부문별 매출 구성은 55.11%, 37.40%, 6.03%, 1.47%로 표기되어 있습니다. 컨설팅사업부는 EAI(시스템 통합) 구축·운영·유지보수, 솔루션사업부는 SAP 시스템 내 보안솔루션, 서비스사업부는 EDI SaaS(전자문서교환 서비스)를 중심으로 수익을 창출합니다.",
+    "main_customers": "컨설팅사업부 — 제조·금융·서비스·공공 등 전 분야의 기업 고객 / 솔루션사업부 — SAP/ERP를 도입·운영하는 기업 고객 / 서비스사업부 — EDI SaaS를 이용하는 기업(유통·B2B 거래처)",
+    "price_factors": [
+      {
+        "factor": "ERP 수요",
+        "detail": "전반적인 ERP(전사적자원관리) 시장 확대는 EAI·보안·EDI 솔루션 수요를 직접적으로 늘립니다."
+      },
+      {
+        "factor": "SAP 생태계",
+        "detail": "SAP 코리아의 소프트웨어 매출 증가가 관련 보안·통합 솔루션의 시장확대를 촉진합니다."
+      },
+      {
+        "factor": "클라우드 전환",
+        "detail": "SAP 제품의 클라우드 전환은 EAI 컨설팅 수요를 바꿀 수 있어 사업 기회이자 기술적 전환 리스크가 됩니다."
+      },
+      {
+        "factor": "인건비 부담",
+        "detail": "상장 이후 인력 채용으로 인건비가 증가하면 영업이익에 단기적 부담을 줄 수 있습니다."
+      },
+      {
+        "factor": "거시불확실성",
+        "detail": "환율·유가·지정학적 요인 등 거시 리스크는 고객사의 IT 투자 결정에 영향을 미쳐 실적 변동성을 높일 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "당사는 2009년 6월 15일, 기업 고객을 대상으로 SAP 컨설팅 사업 및 보안솔루션을 개발, 판매하는 회사로 설립되었으며,"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "당사의 사업부문은 크게 컨설팅사업부, 솔루션사업부, 서비스사업부로 구분되며,"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "제조, 금융, 서비스, 공공 등 전 분야의 기업 고객을 대상으로 SAP 구축/유지보수 컨설팅, 보안솔루션, EDI 솔루션을 개발, 판매하는 사업을 수행하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나. 시장 규모 및 전망",
+        "evidence_text": "ERP 소프트웨어 시장 규모는 2023년부터 연평균 약 10% 성장하여 2035년 1,310억 달러가 넘는 시장 규모를 이룰 것으로 예상됩니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "당사의 사업부문은 크게 컨설팅사업부, 솔루션사업부, 서비스사업부로 구분되며, 컨설팅사업부에서는 EAI 구축 및 운영유지보수 서비스 사업을, 솔루션사업부에서는 SAP 시스템 내 보안솔루션 사업을, 서비스사업부에서는 EDI SaaS 서비스 사업을 영위하고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4390,
+    "completion_tokens": 4997,
+    "reasoning_tokens": 3968,
+    "output_tokens": 1029
+  },
+  "warnings": []
+}

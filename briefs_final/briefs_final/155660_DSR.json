@@ -1,0 +1,76 @@
+{
+  "stock_code": "155660",
+  "corp_name": "DSR",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 10:30",
+  "meta": {
+    "wics": "비철금속",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "DSR은 합성섬유 로프, 스테인리스 와이어 및 와이어로프 등을 제조·판매하는 제조업체로서 한국을 중심으로 중국·베트남·미국에 사업부문을 운영하고 있습니다. 사업보고서에서는 지역별 생산·판매 거점을 바탕으로 글로벌 공급망을 운영하는 중견 제조업체로 소개하고 있습니다.",
+    "business_model": "사업부문별 매출 구성은 한국내 사업 65.5%, 중국내 사업 20.6%, 베트남내 사업 21.0%, 미국내 사업 17.3%로 지역별 매출 비중을 명시하고 있습니다. 주력 제품은 합성섬유로프와 스테인리스 와이어 및 카본스틸 등이며, 미국 부문은 도매업(유통)을 통해 판매를 수행합니다. 또한 IATF16949:2016(자동차 품질 인증) 등 품질인증을 통해 자동차 부품사 납품 체계를 갖추고 있습니다.",
+    "main_customers": "한국내 사업 — 중공업·조선소·산업현장 / 중국내 사업 — 현지 제조업체·유통업체 / 베트남내 사업 — 현지 제조업체·유통업체 / 미국내 사업 — 도매상·유통업체",
+    "price_factors": [
+      {
+        "factor": "환율변동",
+        "detail": "급격한 환율 변동은 수출입 원가와 환산실적에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "보호무역",
+        "detail": "보호무역주의 강화는 해외 판매와 공급망 운영에 제약을 줄 수 있습니다."
+      },
+      {
+        "factor": "에너지비용",
+        "detail": "에너지 가격 불안은 제조 원가 상승과 수익성 압박으로 연결됩니다."
+      },
+      {
+        "factor": "품질인증",
+        "detail": "자동차 등 산업 고객의 품질인증 요구는 수주와 거래 지속성에 영향을 줍니다."
+      },
+      {
+        "factor": "공급망",
+        "detail": "공급망 불안정은 원자재 조달과 생산 차질로 이어질 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "한국내 사업 | 합성섬유, 스테인리스 | 198,192 (65.5%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "중국내 사업 | 카본스틸, 합성섬유 | 63,400 (20.6%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "미국내 사업 | 도매업 | 52,388 (17.3%)"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "매출 3,023억원, 영업이익 192억원이라는 값진 성과를 거두었습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "급격한 환율 변동과 보호무역주의 강화"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4230,
+    "completion_tokens": 4417,
+    "reasoning_tokens": 3584,
+    "output_tokens": 833
+  },
+  "warnings": []
+}

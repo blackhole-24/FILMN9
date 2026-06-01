@@ -1,0 +1,67 @@
+{
+  "stock_code": "012860",
+  "corp_name": "모베이스전자",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 21:10",
+  "meta": {
+    "wics": "자동차부품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "모베이스전자는 자동차용 Smart key, Car lock set, Power window switch 등 다양한 전자·전장부품을 생산·공급하는 기업입니다. R&D센터 중심의 기술개발과 전기차용 BMS(배터리제어시스템)·BMM(배터리관리모듈) 등 전기차 부품 수주 및 양산 추진을 통해 제품 포트폴리오를 확장하고 있습니다. 당기 연결기준 매출액은 약 8,069억원이며 영업이익은 약 215억원, 당기순이익은 약 142억원입니다.",
+    "business_model": "주요 수익원은 자동차용 전자부품의 제조·공급으로, FY2025 기준 ELECTRONIC UNIT이 매출의 78.7%를 차지합니다. 핵심 제품군은 Smart key system·Car lock set·BDC·BCM·무선충전기·집중형조작계 등 보안·전장·편의 장치이며, 전기차용 BMS·BMM 등 전장화·전동화 부품으로의 진출도 진행 중입니다.",
+    "main_customers": "Security system — 완성차 제조사(국내외) / Electronic control system — 완성차 제조사(국내외) / Convenience control system — 완성차 제조사(국내외) / ADAS·Sensors — 완성차 제조사(국내외)",
+    "price_factors": [
+      {
+        "factor": "완성차 생산",
+        "detail": "완성차 생산대수가 줄면 부품 수요 감소로 매출과 실적에 직접적인 영향이 발생합니다."
+      },
+      {
+        "factor": "환율·금리",
+        "detail": "국제환율 및 금리 변동은 수출입 가격과 수익성에 영향을 주어 실적 변동 요인이 됩니다."
+      },
+      {
+        "factor": "전장화·전기차",
+        "detail": "차량 전장화 및 전기차 확산은 BMS 등 전동화 부품 수요를 늘려 사업 기회와 경쟁 환경을 동시에 바꿉니다."
+      },
+      {
+        "factor": "경기 변동성",
+        "detail": "자동차 산업은 경기에 매우 민감하여 경기 후퇴 시 판매·수주 감소로 실적 타격 가능성이 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "전장부품을 생산, 공급하는 기업입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "ELECTRONIC UNIT: 60,148 (78.7%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "1. 업계의 현황 > (4) 경쟁 요소",
+        "evidence_text": "글로벌 완성차업체로 진출이 활발히 진행되고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "1. 업계의 현황 (1) 산업의 특성",
+        "evidence_text": "경기에 매우 민감한 산업입니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5384,
+    "completion_tokens": 3653,
+    "reasoning_tokens": 2880,
+    "output_tokens": 773
+  },
+  "warnings": []
+}

@@ -1,0 +1,62 @@
+{
+  "stock_code": "307950",
+  "corp_name": "현대오토에버",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 15:52",
+  "meta": {
+    "wics": "IT서비스",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "현대오토에버는 정보시스템 기획(IT 컨설팅)부터 구축·운영·유지보수까지 전 과정을 제공하는 IT 서비스 기업으로, 차량용 소프트웨어(내비게이션·차량 SW 플랫폼) 사업도 영위하고 있습니다. 그룹 내 IT·자동차 소프트웨어 역량을 결합해 엔터프라이즈 IT와 차량 SW를 동시에 다루는 점이 특징입니다.",
+    "business_model": "핵심 사업은 IT 서비스(ITO·SI)와 차량용 SW로 구성되며, FY2025 기준 ITO 부문 41.6%, SI 부문 39.0%, 차량용 SW 부문 19.5%의 매출 비중을 차지합니다. SI(시스템 통합)는 기업의 정보화 시스템 구축을, ITO(IT 아웃소싱)는 고객 전산시스템의 운영·관리·유지보수를 담당하며, 차량용 SW는 내비게이션·ADAS·SW 플랫폼 및 OTA(무선 업데이트) 등 제품을 제공합니다.",
+    "main_customers": "ITO 부문 — 기업의 IT 운영 담당자 및 전산시스템 보유 기업 / SI 부문 — 기업(완성차·그룹사 포함)의 정보화 프로젝트 발주처 / 차량용 SW 부문 — 완성차(현대·기아·제네시스 등) 및 OEM",
+    "price_factors": [
+      {
+        "factor": "디지털전환",
+        "detail": "기업의 디지털 전환 수요 확대는 SI 매출과 고부가 프로젝트 수주에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "글로벌경쟁",
+        "detail": "미국 관세 영향 및 유럽 내 가격경쟁 심화는 내비게이션 등 차량SW 매출과 수익성에 부담을 줄 수 있습니다."
+      },
+      {
+        "factor": "환율",
+        "detail": "USD·EUR 등 환율 변동은 해외 영업과 수입·수출 기반 비용 및 매출의 환산에 영향을 미칩니다."
+      },
+      {
+        "factor": "지식재산",
+        "detail": "차량 SW 플랫폼 관련 특허 비중(약 58%) 등 지식재산 경쟁력은 기술수주 및 장기적 경쟁우위에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 가. 사업부문별 개요 (2) 차량용 SW 부문",
+        "evidence_text": "당사는 내비게이션 SW, 차량 SW 플랫폼 등을 포함한 차량용 SW 사업을 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "ITO 부문: 1,767,173,268 (41.6%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 가. 사업부문별 개요 (1) SI(System Integration)",
+        "evidence_text": "SI는 기업이 비즈니스를 수행하기 위해 필요한 정보화 시스템을 구축하는 사업"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4887,
+    "completion_tokens": 3496,
+    "reasoning_tokens": 2752,
+    "output_tokens": 744
+  },
+  "warnings": []
+}

@@ -1,0 +1,86 @@
+{
+  "stock_code": "119850",
+  "corp_name": "지엔씨에너지",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 09:06",
+  "meta": {
+    "wics": "전기장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "지엔씨에너지는 비상·상용 발전기와 바이오가스 발전을 주력으로 하는 종합 에너지 솔루션 기업입니다. 종속회사를 통해 지열 냉난방, 연료전지, 냉난방 공조시스템 및 해외 발전사업 등 신재생 에너지 포트폴리오를 확장하고 있습니다.",
+    "business_model": "주요 수익원은 디젤엔진·가스터빈 계열의 비상·상용 발전기로 매출 비중이 75.3%(197,882)로 집중되어 있으며, 기계설비(냉·난방·지열·연료전지)가 8.0%(21,111), 바이오가스 발전이 1.8%(4,815)를 차지합니다. 당사는 발전소 투자·설계·시공·설치·운영까지 전 과정을 직접 수행하며 발전설비 판매·설치와 전력판매를 통해 수익을 창출합니다.",
+    "main_customers": "비상·상용 발전기 — 데이터센터·연구시설(R&D)·산업시설·대형 상업시설·주택 및 일반 건축물 / 바이오가스 발전 — 환경기초시설·지방자치단체·매립가스·가축분뇨 보유 사업장 / 기계설비(냉·난방·연료전지) — 공공·상업시설 및 지역사회(열·전력 수요처)",
+    "price_factors": [
+      {
+        "factor": "법규 의무화",
+        "detail": "일정 규모 이상 건축물의 비상발전기 설치 의무로 안정적 수요가 유지되어 실적에 우호적 영향을 줍니다."
+      },
+      {
+        "factor": "데이터센터",
+        "detail": "데이터센터·R&D센터 등 대형 전력수요처 건설·투자가 늘면 발전기 공급 수요가 증가해 실적에 기여합니다."
+      },
+      {
+        "factor": "바이오가스 수익성",
+        "detail": "SMP·REC(재생에너지 인증서) 가격 상승 및 법제화된 바이오가스 의무 생산 제도는 바이오가스 사업의 수익성 개선으로 연결됩니다."
+      },
+      {
+        "factor": "연료전지 확산",
+        "detail": "분산형 전원·저탄소 정책에 따라 연료전지 보급이 확대되면 관련 설계·시공·운영 매출이 증가할 수 있습니다."
+      },
+      {
+        "factor": "해외 사업",
+        "detail": "파푸아뉴기니 등 해외 발전소 운영 확대는 매출 다변화와 지역 리스크 노출을 동시에 높이는 요인입니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. (주)지엔씨에너지의 사업의 개요",
+        "evidence_text": "비상 및 상용 발전기 사업과 바이오가스 발전사업을 주력으로 하며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[표] 가. 주요 제품 등의 현황",
+        "evidence_text": "197,882 (75.3%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[표] 가. 주요 제품 등의 현황",
+        "evidence_text": "4,815 (1.8%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[표] 가. 주요 제품 등의 현황",
+        "evidence_text": "21,111 (8.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. (주)지엔씨에너지의 사업의 개요",
+        "evidence_text": "당사는 발전소 투자,설계,시공,설치,운영까지 전 과정을 직접 수행해 왔으며"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. (주)지엔씨에너지의 사업의 개요",
+        "evidence_text": "데이터센터, R&D센터, 발전소 및 플랜트"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "2. 신재생에너지.환경설비 사업",
+        "evidence_text": "법제화된 바이오가스 의무 생산 제도"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5572,
+    "completion_tokens": 4749,
+    "reasoning_tokens": 3712,
+    "output_tokens": 1037
+  },
+  "warnings": []
+}

@@ -1,0 +1,62 @@
+{
+  "stock_code": "006490",
+  "corp_name": "인스코비",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 11:43",
+  "meta": {
+    "wics": "무선통신서비스",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "인스코비는 알뜰폰(MVNO), 스마트그리드, 유통사업을 주요 사업으로 영위하는 통신업체입니다. 알뜰폰 브랜드 '프리티'로 통신 3사 망을 임차해 서비스를 제공하며 전국 영업대리점과 우체국 기반의 유통망을 운영하고 있습니다.",
+    "business_model": "FY2025 기준 사업부문별 매출 구성은 MVNO가 88.3%, 스마트그리드가 6.8%, 화장품 등 유통이 4.8%, 시계가 0.2%를 차지합니다. MVNO는 이동통신망사업자(MNO)의 망을 임차해 저비용으로 통신서비스를 제공하는 모델이며, 스마트그리드는 AMI(지능형 검침 인프라) 관련 모뎀·집중장치 등 솔루션과 장비 개발을 통해 수익을 창출합니다.",
+    "main_customers": "MVNO — 일반 소비자(알뜰폰 가입자) / 스마트그리드 — 전력회사(한국전력) 및 전력수용가(소비자) / 유통(H&B) — 홈쇼핑·자사몰·해외 유통망을 통한 일반 소비자 / 시계 — 국가 공공기관(입찰) 등",
+    "price_factors": [
+      {
+        "factor": "정부정책",
+        "detail": "가계통신비 절감 정책 등 정부 정책의 방향이 알뜰폰 시장 성장성 및 계약 구조에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "시장침투율",
+        "detail": "알뜰폰 회선 비중(전국 이동통신의 21.3%) 증가는 MVNO 매출 안정성에 긍정적 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "정부사업 의존성",
+        "detail": "스마트그리드는 한국전력의 AMI·원격검침 사업 등 국가사업에 의존도가 높아 정부 예산·정책 변화에 따라 매출 변동성이 큽니다."
+      },
+      {
+        "factor": "마케팅비",
+        "detail": "알뜰폰 분야의 시장 불확실성 및 마케팅비 증가가 수익성에 부담을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "당사는 알뜰폰, 스마트그리드, 유통사업을 주요 사업으로 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "MVNO: 93,156,369 (88.3%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "전국의 영업대리점, 우체국을 기반으로 영업망을 구축하였으며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4573,
+    "completion_tokens": 5087,
+    "reasoning_tokens": 4352,
+    "output_tokens": 735
+  },
+  "warnings": []
+}

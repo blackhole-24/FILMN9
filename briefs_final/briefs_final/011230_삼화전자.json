@@ -1,0 +1,67 @@
+{
+  "stock_code": "011230",
+  "corp_name": "삼화전자",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 20:45",
+  "meta": {
+    "wics": "전자장비와기기",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "삼화전자는 페라이트 코어를 주력으로 하는 전기·전자 업체로, 친환경 전기자동차용 전장부품과 생활가전·산업용 제품으로 사업을 확대하고 있습니다. 국내 고객사 및 글로벌 전기차 업체에 공급 실적을 보유하며 저손실(Low Loss)·고효율·고주파용 신규 재질 개발에 집중하고 있습니다.",
+    "business_model": "주요 매출은 제조업(전자·전기부품)으로 FY2025 기준 해당 부문이 전체 영업수익의 83.0%를 차지합니다. 핵심 제품인 페라이트 코어를 바탕으로 친환경자동차 전장부품, 생활가전용 EMI/EMC·IH 제품, 전파암실용 전파흡수체 등으로 매출을 창출하고 있습니다.",
+    "main_customers": "친환경자동차용 전장부품 — 국내 자동차 제조사·글로벌 전기차 제조사 / 생활(주방)가전용 EMI/EMC 제품 — 생활가전 제조업체(에어컨, 냉장고, 전자레인지 등) / 전파암실용 전파흡수체 — 전파시험·검증을 수행하는 전파암실·테스트 기관",
+    "price_factors": [
+      {
+        "factor": "경쟁 심화",
+        "detail": "페라이트 코어 시장에 수백 개 경쟁업체 존재 — 가격·마진 압력으로 실적 변동성 확대 가능"
+      },
+      {
+        "factor": "전기차 수요",
+        "detail": "친환경 자동차용 부품 적용 확대 시 매출 증가에 직접적인 영향 — 신규 차종 채택이 중요"
+      },
+      {
+        "factor": "무역·정책 리스크",
+        "detail": "보호무역·관세·지정학적 불확실성 확대는 글로벌 공급망과 수출 실적에 영향을 미칠 수 있습니다"
+      },
+      {
+        "factor": "원자재·환율",
+        "detail": "수입 원자재 가격 상승과 환율 변동성 확대는 원가와 이익률에 부정적 영향을 줄 수 있습니다"
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "나. 회사의 현황 (1) 영업개황",
+        "evidence_text": "당사는 페라이트 코어를 주요 사업으로 영위하고 있으며,"
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "제조업전자, 전기부품: 24,600 (83.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "나. 회사의 현황 (1) 영업개황",
+        "evidence_text": "2023년부터 국내 고객사의 친환경 자동차 주력 모델에 제품을 공급 중입니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 업계의 현황",
+        "evidence_text": "페라이트 코어 시장의 경우 수백 개의 경쟁업체가 있어"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3720,
+    "completion_tokens": 5172,
+    "reasoning_tokens": 4416,
+    "output_tokens": 756
+  },
+  "warnings": []
+}

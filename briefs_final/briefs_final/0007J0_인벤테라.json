@@ -1,0 +1,83 @@
+{
+  "stock_code": "0007J0",
+  "corp_name": "인벤테라",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 17:03",
+  "meta": {
+    "wics": "제약",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "인벤테라는 자체 개발한 나노구조체 원천 플랫폼(Invinity™)을 기반으로 진단 및 치료 영역 적용 가능한 나노의약품을 연구·개발하는 나노의약품 개발 바이오텍입니다. 기술 검증과 조기 상업화를 목표로 나노-MRI 조영제에 우선 집중하고 있으며, 기술성장기업 코스닥시장 특례상장(2026-04-02 예정)을 통해 상업화와 파이프라인 확장을 추진하고 있습니다.",
+    "business_model": "핵심은 Invinity™ 플랫폼(나노약물전달체)을 활용한 제품화 및 기술사업화이며, 우선적으로 나노-MRI 조영제 신약 개발을 통해 플랫폼의 기술적·임상적 유효성을 검증하려 하고 있습니다. 주요 파이프라인(INV-002, INV-001, INV-003)의 임상 진척을 기반으로 국내외 직접 출시와 글로벌 제약사 대상 기술이전·공동개발을 병행하여 매출원을 확보하려는 사업모델을 갖추고 있습니다.",
+    "main_customers": "제품판매 — 국내외 시장(직접 출시 대상) / 기술이전·공동개발 — 글로벌 제약사 및 관련 기업",
+    "price_factors": [
+      {
+        "factor": "시장 보수성",
+        "detail": "MRI 조영제 시장은 제품 구조 측면에서 보수적인 특성을 보여 신규 제품의 의료현장 채택이 더딜 수 있어 실적 반영이 지연될 수 있습니다."
+      },
+      {
+        "factor": "가격 경쟁",
+        "detail": "기존 가돌리늄 계열의 오리지널·제네릭 제품이 많아 보험 약가 인하와 가격 경쟁 압력이 실적에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "임상 리스크",
+        "detail": "주요 파이프라인이 임상 단계에 있어 임상 결과에 따라 상업화 시기와 매출 발생 여부가 크게 달라집니다."
+      },
+      {
+        "factor": "기술확장성",
+        "detail": "플랫폼의 약물·항체 결합 가능성은 기술이전·공동개발 기회를 확대해 장기적 수익원으로 연결될 수 있습니다."
+      },
+      {
+        "factor": "시장 성장성",
+        "detail": "글로벌 나노의약품 시장의 장기 성장 전망은 플랫폼 기반 제품의 수요 확대를 뒷받침할 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "나노의약품 개발 바이오텍 기업입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황",
+        "evidence_text": "Invinity™는 생체친화적 다당류 고분자를 가교결합하여 형성한 나노약물전달체로"
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황",
+        "evidence_text": "INV-002(국내 임상 3상 진행 중)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "국내외 시장에 직접 출시하는 것을 목표로 하고 있으며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "제품 구조 측면에서는 비교적 보수적인 특성을 유지하고 있습니다."
+      },
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "매출액이 발생하고 있지 않으며,"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 5157,
+    "completion_tokens": 4797,
+    "reasoning_tokens": 3904,
+    "output_tokens": 893
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

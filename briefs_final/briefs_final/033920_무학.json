@@ -1,0 +1,67 @@
+{
+  "stock_code": "033920",
+  "corp_name": "무학",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 00:03",
+  "meta": {
+    "wics": "음료",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "무학은 소주·리큐르·과실주 등 다양한 주류의 제조 및 판매를 주된 사업으로 영위하는 기업입니다. 국내 판매는 각 사업본부의 지점들이 담당하고 해외 판매는 해외영업팀이 담당하며, 전기강판 가공, 와인 도소매, 음식점업 등 기타사업도 영위하고 있습니다.",
+    "business_model": "주요 매출은 희석식소주 외(브랜드: 깔끔한좋은데이청춘 등)에서 발생하며, 사업부문별 매출표에 따르면 희석식소주외 매출이 139,567백만원(100.0%)로 전부를 차지합니다. 그 외에 전기강판·스테인레스 등 가공제품 판매, 와인 도소매, 음식점업 및 금융투자업 등 기타사업을 병행하고 있습니다.",
+    "main_customers": "주류사업 — 국내 판매망(각 사업본부 10개 지점) / 주류사업 — 해외 판매망(해외영업팀 담당) / 기타사업 — 가공제품·와인 도소매·음식점·인력서비스 및 금융투자 관련 거래처",
+    "price_factors": [
+      {
+        "factor": "규제·면허",
+        "detail": "주세법과 면허제도의 엄격한 적용은 신규 진입을 제한하여 업계의 경쟁 구조와 장기 실적에 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "주종 다변화",
+        "detail": "위스키·와인·전통주·새로운 증류주 등 주종 다변화는 소비자 선택 폭 확대에 따른 포트폴리오 대응 필요성을 높입니다."
+      },
+      {
+        "factor": "건강 트렌드",
+        "detail": "저알코올·저칼로리·제로 슈거 제품의 강세는 제품 기획과 라인업(상품 구성)에 따라 실적 변동 요인이 됩니다."
+      },
+      {
+        "factor": "RTD·홈텐딩",
+        "detail": "RTD(간편 칵테일) 및 홈텐딩 문화 확산은 신제품 개발과 마케팅 성과에 따른 매출 기회로 작용할 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 주류사업",
+        "evidence_text": "제조 및 판매를 주된 영업으로 하고 있으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 매출",
+        "evidence_text": "139,567(100.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 주류사업",
+        "evidence_text": "국내판매는 각 사업본부의 10개 지점에서 담당"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "2. 업계의 현황 > 가. 산업의 특성",
+        "evidence_text": "주세법을 비롯한 정부의 엄격한 규제와 면허 제도"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3127,
+    "completion_tokens": 4645,
+    "reasoning_tokens": 3904,
+    "output_tokens": 741
+  },
+  "warnings": []
+}

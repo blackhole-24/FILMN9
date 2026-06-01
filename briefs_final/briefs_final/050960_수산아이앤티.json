@@ -1,0 +1,62 @@
+{
+  "stock_code": "050960",
+  "corp_name": "수산아이앤티",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 02:49",
+  "meta": {
+    "wics": "소프트웨어",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "수산아이앤티는 인터넷 트래픽 분석 기술을 기반으로 ISP(통신사업자) 협력사업과 보안솔루션을 개발·공급하는 IT서비스 기업입니다. KT·SK브로드밴드·LG유플러스와의 공동사업을 통해 공유단말접속관리서비스를 상용화한 점이 특징입니다.",
+    "business_model": "FY2025 기준 사업부문별로 보안솔루션이 매출의 72.6%, 공유단말접속관리서비스가 25.1%, 기타수입이 2.3%를 차지합니다. 공유단말접속관리서비스는 통신사업자에 공급되어 초과 단말에 대해 1대당 5천원 요금을 부과하고 ISP와 매출을 배분하며, 보안솔루션은 SWG, SSL 가시화, DLP 등 제품을 판매하는 방식으로 수익을 창출합니다.",
+    "main_customers": "공유단말접속관리서비스 — 통신사업자(ISP) / 보안솔루션 — 정부기관·기업",
+    "price_factors": [
+      {
+        "factor": "보안규제",
+        "detail": "정보유출 사고와 관련 법규 강화는 보안솔루션 수요를 늘려 실적에 긍정적 영향을 미칩니다."
+      },
+      {
+        "factor": "단말증가",
+        "detail": "기가인터넷·IoT 확대로 접속 단말이 증가하면 공유단말접속관리서비스의 시장 확대가 기대됩니다."
+      },
+      {
+        "factor": "ISP의 ARPU",
+        "detail": "초고속인터넷 가입자 포화로 ISP가 가입자당 매출(ARPU) 확대 수단을 찾으면 당사 부가서비스 수요가 증가합니다."
+      },
+      {
+        "factor": "통신사 의존",
+        "detail": "공유단말접속관리서비스를 통신 3사에 독점 공급하는 구조는 특정 사업자 계약 변화에 실적 영향이 클 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "(가) 영업개황",
+        "evidence_text": "기 개발된 트래픽 분석 기술을 바탕으로"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "보안솔루션: 22,291 (72.6%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 업계의 현황",
+        "evidence_text": "서비스의 성격상 주 고객층은 다수의 단말(PC)을 사용하는 기업고객의 비중이 높습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4629,
+    "completion_tokens": 4109,
+    "reasoning_tokens": 3456,
+    "output_tokens": 653
+  },
+  "warnings": []
+}

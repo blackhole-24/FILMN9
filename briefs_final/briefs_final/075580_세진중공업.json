@@ -1,0 +1,66 @@
+{
+  "stock_code": "075580",
+  "corp_name": "세진중공업",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:11",
+  "meta": {
+    "wics": "조선",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "세진중공업은 조선기자재회사로, 조선부문과 플랜트부문으로 사업을 운영하고 있습니다. 조선부문에서는 선실과 선체 관련 제품을 생산하며, 플랜트부문에서는 해양 플랜트 산업과 연관된 사업을 영위합니다. 2025년 연결 기준 매출액은 4,027억원으로 전년 대비 14.3% 증가했습니다.",
+    "business_model": "사업부문별 영업수익 구성은 조선 99.2%, 플랜트 0.9%로, 매출의 대부분이 조선부문에서 발생합니다. 조선부문은 선원들의 주거공간으로 쓰이는 Deck House를 제작하는 선실과, LPG 운반선에 탑재되는 LPG Tank 및 기타 블록을 제작하는 선체에서 매출이 발생합니다. 플랜트부문은 해양 시추·생산설비와 같은 해양 플랜트 관련 사업으로, 국제 유가와 글로벌 에너지 수요에 영향을 받는 구조입니다.",
+    "main_customers": "조선부문 — 조선사 및 선박 건조 관련 수요처 / 플랜트부문 — 에너지·해양 자원 개발 관련 프로젝트 발주처",
+    "price_factors": [
+      {
+        "factor": "신조선발주",
+        "detail": "글로벌 신조선 발주량과 조선소 수주잔량이 늘면 조선부문 매출에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "친환경규제",
+        "detail": "IMO(국제해사기구) 환경규제 강화로 친환경 선박 발주가 늘어나면 조선 수요 구조가 바뀝니다."
+      },
+      {
+        "factor": "선가수준",
+        "detail": "신조선가가 높은 수준을 유지하면 조선사들의 발주 여건과 기자재 수요에 영향을 줍니다."
+      },
+      {
+        "factor": "유가변동",
+        "detail": "플랜트부문은 국제 유가와 글로벌 에너지 수요 변화에 따라 해양 플랜트 발주 규모가 달라집니다."
+      },
+      {
+        "factor": "에너지전환",
+        "detail": "해상풍력 등 신재생에너지 기반 해양 인프라 확대는 플랜트부문의 사업 영역 변화와 연결됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 사업의 개요",
+        "evidence_text": "연결회사는 조선부문과 플랜트부문으로 이루어진 조선기자재회사입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "조선: 237,428 (99.2%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 사업의 개요",
+        "evidence_text": "Deck House를 제작하는 선실"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5035,
+    "completion_tokens": 717,
+    "reasoning_tokens": 0,
+    "output_tokens": 717
+  },
+  "warnings": []
+}

@@ -1,0 +1,73 @@
+{
+  "stock_code": "226950",
+  "corp_name": "올릭스",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:29",
+  "meta": {
+    "wics": "생명과학도구및서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "올릭스는 RNA간섭(RNAi) 플랫폼 기술을 기반으로 기존 치료제가 접근하기 어려운 질환의 치료제를 개발하는 신약개발 기업입니다. siRNA(작은 간섭 RNA) 원천기술인 자가전달 비대칭 siRNA(cp-asiRNA)를 확보하고, 이를 바탕으로 국내외 제약사에 기술을 이전해 수익화하는 사업을 영위하고 있습니다.",
+    "business_model": "올릭스의 주요 수익은 기술이전수익과 연구용역매출로 구성됩니다. 2025년 매출 기준 기술이전수익이 9,608,584, 연구용역매출이 5,058,270이며, 기술이전은 신약 후보물질이나 플랫폼 기술을 제약사에 넘기고 계약금·마일스톤(단계별 대금)·로열티(매출연동 수수료)로 수익을 얻는 구조입니다. 회사는 간 질환, 피부·안과 등 국소투여 질환, 지방조직 및 뇌 신경 질환 관련 파이프라인을 함께 개발하고 있습니다.",
+    "main_customers": "기술이전수익 — 국내외 제약사 / 연구용역매출 — 제약·바이오 관련 연구 의뢰처",
+    "price_factors": [
+      {
+        "factor": "기술이전",
+        "detail": "기술이전 계약의 체결 여부와 규모가 계약금·마일스톤·로열티 수익에 직접 영향을 줍니다."
+      },
+      {
+        "factor": "임상진행",
+        "detail": "신약 후보물질의 임상 단계 진척이 빠를수록 조기 기술이전 가능성이 높아질 수 있습니다."
+      },
+      {
+        "factor": "플랫폼경쟁",
+        "detail": "RNA간섭 치료제 시장에서 플랫폼 기술 경쟁이 치열할수록 기술 차별성과 상용화 기대가 중요해집니다."
+      },
+      {
+        "factor": "간질환수요",
+        "detail": "MASH(대사이상 지방간염), 비만, 간 섬유화 등 간질환 관련 개발 성과가 사업 기대에 영향을 줍니다."
+      },
+      {
+        "factor": "글로벌제휴",
+        "detail": "해외 대형 제약사와의 제휴는 기술의 외부 검증으로 받아들여질 수 있어 시장 관심에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "RNA간섭(RNA interference; RNAi) 플랫폼 기술을 기반으로"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "기술이전수익 | 9,608,584 | 5,677,152 | 16,409,029"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "국내외 제약사에 이전하여 수익화하는 사업을 영위"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "기술을 국내외 제약사에 이전하여 수익화"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5279,
+    "completion_tokens": 802,
+    "reasoning_tokens": 0,
+    "output_tokens": 802
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

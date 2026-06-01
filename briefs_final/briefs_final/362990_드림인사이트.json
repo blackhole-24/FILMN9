@@ -1,0 +1,67 @@
+{
+  "stock_code": "362990",
+  "corp_name": "드림인사이트",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 17:45",
+  "meta": {
+    "wics": "광고",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "드림인사이트는 자사의 마케팅 모델 '크리X테크'를 활용해 광고 기획·제작부터 온라인 플랫폼 매체 광고 게재 및 사후관리까지 광고대행업을 수행하는 기업입니다. 2024~2025년 사이 라르츠엑스, 유니콘트로피엔터테인먼트 및 싱가포르법인 DREAMINSIGHT SG PTE.LTD. 등을 설립하며 광고·커머스·엔터사업으로 확장하고 있습니다.",
+    "business_model": "사업부문별로 광고대행업(광고 기획·제작·운영)이 핵심이며, FY2025 기준 광고대행업이 74.0%를 차지합니다; D2C(Direct To Customer) 커머스가 23.0%, 엔터테인먼트업이 1.0%, 기타 1.0%로 구성됩니다. 광고 운영에서는 크리테크솔루션과 자체 솔루션 디플래너(Dplanner)를 활용해 광고 집행 이력 및 성과를 자동 리포트하고 A/B 테스트 등을 통해 성과 최적화를 도모합니다.",
+    "main_customers": "광고대행업 — 광고주(기업) / D2C — 최종 소비자(온라인 스토어 이용자) / 엔터테인먼트업 — 소속 연예인(매니지먼트 대상)·유튜브 플랫폼",
+    "price_factors": [
+      {
+        "factor": "매체정책",
+        "detail": "네이버·카카오·구글·페이스북 등 매체별 광고게재 정책과 과금·수수료 구조 변화가 광고 집행 전략과 수익성에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "개인정보규제",
+        "detail": "개인정보 보호 규제 강화로 쿠키 기반 타겟팅이 약화되면 퍼스트파티 데이터 및 컨텍스트 광고 전환 비용·성과에 변화가 발생할 수 있습니다."
+      },
+      {
+        "factor": "디지털전환",
+        "detail": "전체 광고 매출에서 디지털 비중이 높아지는 추세(디지털 비중 73.2%)는 온라인 광고 중심 서비스의 수요에 영향을 줍니다."
+      },
+      {
+        "factor": "숏폼·모바일",
+        "detail": "모바일·숏폼 콘텐츠의 급성장은 숏폼·리테일미디어 등 신규 광고 포맷 수요를 확대하여 관련 제작·운영 역량이 실적에 영향을 미칠 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "광고대행업을 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "광고대행업: 6,455 (74.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. 주요 제품 등의 현황",
+        "evidence_text": "상/제품을 판매하는 D2C(커머스)사업"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "라. 시장여건 및 영업의 개황",
+        "evidence_text": "전체 광고 매출의 73.2%가 디지털 광고에서 발생"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5674,
+    "completion_tokens": 4273,
+    "reasoning_tokens": 3456,
+    "output_tokens": 817
+  },
+  "warnings": []
+}

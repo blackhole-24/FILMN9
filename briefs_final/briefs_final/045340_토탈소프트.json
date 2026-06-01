@@ -1,0 +1,72 @@
+{
+  "stock_code": "045340",
+  "corp_name": "토탈소프트",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 02:02",
+  "meta": {
+    "wics": "운송인프라",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "토탈소프트는 항만·물류 산업의 디지털 전환을 선도하는 IT 솔루션 기업입니다. 주요 제품군은 터미널 운영 시스템(TOS), 적재계획 시스템, 항만 커뮤니티 시스템 등이며, 제37기 누적 매출액은 274억원으로 영업이익 93억원, 당기순이익 85억원을 기록했습니다.",
+    "business_model": "핵심 수익은 항만·터미널 운영 관련 소프트웨어 제공에서 발생하며, 사업부문별로는 Marine Terminal 73.7%, Port Community 0.4%, Shipping 13.0%, E-learning 2.4%, 기타 1.2%로 구성되어 있습니다. 또한 AI·빅데이터·클라우드 등 첨단 기술 연구개발을 통해 터미널운영시스템(CATOS 등)과 통합 플랫폼(PLUS) 중심의 솔루션 제공을 강화하고 있습니다.",
+    "main_customers": "Marine Terminal — 항만 터미널 운영사 / Port Community — 선주·대행사·서비스업체·정부 부서 / Shipping — 선사·선박 운영사 / E-learning — 항만·선박 운영 관련 교육 및 훈련 수요자",
+    "price_factors": [
+      {
+        "factor": "글로벌 교역 불확실성",
+        "detail": "미·중 무역갈등 등 글로벌 교역 변동성은 항만 물동량과 연동되어 실적 변동성으로 이어질 수 있습니다."
+      },
+      {
+        "factor": "통합 솔루션 수요",
+        "detail": "고객이 원스톱 통합 플랫폼을 선호함에 따라 통합 제공 능력이 경쟁우위 및 수주에 중요한 영향을 미칩니다."
+      },
+      {
+        "factor": "기술 경쟁력",
+        "detail": "AI·빅데이터·클라우드 등 첨단 기술 도입과 R&D 투자는 제품 차별화와 장기적 매출 성장에 관건입니다."
+      },
+      {
+        "factor": "장기 계약 구조",
+        "detail": "SOC 성격의 장기 계약과 높은 신뢰성 요구는 수주 지속성(계약 연장)에 중요한 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "당사는 항만·물류 산업의 디지털 전환을 선도하는 IT 솔루션 기업"
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황",
+        "evidence_text": "주요 제품 포트폴리오는 터미널 운영 시스템(TOS), 적재계획 시스템, 선박 적재 컴퓨터"
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황",
+        "evidence_text": "이 중 컨테이너터미널운영시스템 부문이  약 73.7%를 차지하고 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "PLUS (Port Logistics Unifying System)",
+        "evidence_text": "선주, 대행사, 선박, 서비스업체, 정부 부서"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "장기 계약 구조와 높은 신뢰성"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4693,
+    "completion_tokens": 3814,
+    "reasoning_tokens": 3008,
+    "output_tokens": 806
+  },
+  "warnings": []
+}

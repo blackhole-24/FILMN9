@@ -1,0 +1,82 @@
+{
+  "stock_code": "053260",
+  "corp_name": "금강철강",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 03:09",
+  "meta": {
+    "wics": "철강",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "금강철강은 1973년에 창업한 철강 가공 전문회사로, 포스코의 지정 가공센터로서 냉연코일을 고객이 원하는 규격으로 전·절단 가공하여 공급하는 역할을 합니다. 자동차·가전·건설·산업용기 등 산업용 원자재를 주로 취급하는 전문 가공센터입니다.",
+    "business_model": "매출의 대부분은 철강부문에서 발생하며, 2025년 사업부문별 매출 기준으로 철강부문이 약 97.9%, 기타부문이 약 2.1%를 차지합니다. 핵심 업무는 냉연코일의 전·절단 가공과 신속한 공급(정밀 가공 및 자동화 설비 기반)이며, 가공·유통에 특화된 서비스(JIT 등)를 통해 수요처 맞춤형 제품을 제공합니다.",
+    "main_customers": "철강부문 — 자동차·가전·건설·산업용기 제조업체 / 기타부문 — 농가(가축분뇨 수거처)",
+    "price_factors": [
+      {
+        "factor": "중국수요",
+        "detail": "중국의 철강 소비 감소는 저가 수출 확대와 세계 시황 약세로 연결되어 실적에 부담을 줄 수 있습니다."
+      },
+      {
+        "factor": "건설경기",
+        "detail": "국내 건설 경기 침체가 장기화되면 철강 수요 감소로 매출에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "원재료가",
+        "detail": "포스코 일부 품목의 국제 원재료 가격 변동은 제품 단가와 마진에 영향을 줍니다."
+      },
+      {
+        "factor": "전방수요",
+        "detail": "자동차·가전 등 전방 산업의 생산 변동은 철강 수요 변동으로 이어져 실적에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "나. 사업부문별 현황 [철강부문]",
+        "evidence_text": "금강철강(주)는 1973년에 창업하여"
+      },
+      {
+        "field": "business_model",
+        "source_section": "나. 사업부문별 현황 [철강부문]",
+        "evidence_text": "냉연코일을 자동화 기계설비를 갖추고"
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. 사업부문별 요약 재무현황",
+        "evidence_text": "철강부문 173,567,673"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "나. 사업부문별 현황 [철강부문]",
+        "evidence_text": "자동차, 가전, 건설, 산업용기"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "2025년 중국의 철강 소비가 전년 대비 5.4% 감소하면서"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "철강부문",
+        "evidence_text": "국제 원재료 가격에 따른 가격 변동이 있음."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나. 사업부문별 현황 [철강부문]",
+        "evidence_text": "건설 경기 침체가 장기화되면서"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4981,
+    "completion_tokens": 4630,
+    "reasoning_tokens": 3776,
+    "output_tokens": 854
+  },
+  "warnings": []
+}

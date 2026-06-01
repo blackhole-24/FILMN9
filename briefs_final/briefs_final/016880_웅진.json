@@ -1,0 +1,62 @@
+{
+  "stock_code": "016880",
+  "corp_name": "웅진",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 21:56",
+  "meta": {
+    "wics": "출판",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "웅진은 웅진그룹의 사업지주회사로 지주부문과 사업부문(IT서비스)을 함께 운영하는 기업지주회사입니다. 보고서 기준일 현재 21개의 계열회사를 보유하고 있으며, 지주부문은 계열회사 관련 수익과 함께 독자적인 IT서비스 사업을 수행하고 있습니다.",
+    "business_model": "사업부문별 매출구성에서 (주)웅진씽크빅이 41.3%로 가장 큰 비중을 차지하고, ㈜웅진프리드라이프 22.3%, (주)웅진 13.1%, (주)웅진북센 15.2% 등으로 매출이 구성됩니다. 동시에 IT서비스 사업부문은 IT컨설팅, 시스템 구축(SI, 시스템 통합), 운영·유지보수(SM), IT 아웃소싱(ITO, IT Outsourcing)과 ERP(전사적자원관리)·클라우드·디지털 컨택센터·산업특화 솔루션(예: WRMS, WDMS) 제공을 통해 기업 고객의 디지털 전환을 지원합니다.",
+    "main_customers": "지주부문 — 계열회사 (배당·상표사용·경영자문 등 수익원) / IT서비스 — 국내외 기업 고객 및 계열회사(전사적자원관리·클라우드·솔루션 수요처)",
+    "price_factors": [
+      {
+        "factor": "디지털 수요",
+        "detail": "클라우드 전환·AI 확대 등 디지털 전환 가속 시 IT서비스 수요 증가로 매출에 긍정적 영향을 미칩니다."
+      },
+      {
+        "factor": "계열 배당",
+        "detail": "계열회사의 현금창출 능력 및 배당수익 변화는 지주부문 영업이익에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "대외 불확실성",
+        "detail": "지정학적 갈등·무역정책 등 글로벌 불확실성 심화 시 기업투자 위축으로 IT 프로젝트 지연 가능성이 있습니다."
+      },
+      {
+        "factor": "IT 경쟁",
+        "detail": "전문 IT서비스 기업 간 경쟁 및 협력 확대는 수주 성과와 마진에 영향을 미칠 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 영업 현황",
+        "evidence_text": "당사는 기업집단 웅진그룹의 사업지주회사로서"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "(주)웅진씽크빅: 574,031 (41.3%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 영업 현황",
+        "evidence_text": "IT서비스 사업부문은 기업 고객의 디지털 경영 환경 구축을 지원"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4916,
+    "completion_tokens": 4765,
+    "reasoning_tokens": 4032,
+    "output_tokens": 733
+  },
+  "warnings": []
+}

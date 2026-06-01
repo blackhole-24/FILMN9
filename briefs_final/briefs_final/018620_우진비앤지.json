@@ -1,0 +1,87 @@
+{
+  "stock_code": "018620",
+  "corp_name": "우진비앤지",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 22:20",
+  "meta": {
+    "wics": "제약",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "우진비앤지는 연구개발과 생산, 다국적 기술 네트워크를 바탕으로 동물용 의약품을 국내외에 공급하는 동물 의약 전문 기업입니다. 2025년 별도 기준 매출은 302억원이며 이중 수출 비중은 전체 매출의 39%입니다.",
+    "business_model": "주요 제품은 항생제·영양제·소독제·미생물제·보조사료·백신 등 동물용 의약품과 일부 인체 원료의약품으로 구성되며, 사업부문별로 인체용의약품 2.3%, 동물용의약품 33.6%, 동물용의약품 외 60.8%의 매출 비중을 기록하고 있습니다. 판매는 대리점 공급, 회사 직접 납품, 조달청을 통한 관공서 납품 등으로 이루어지며, 종속회사(오에스피·바우와우코리아)를 통해 펫푸드 및 기능성 보충제·간식 등으로 제품 포트폴리오를 확장하고 있습니다.",
+    "main_customers": "인체용의약품 — 회사 등에 직접 납품 / 동물용의약품 — 대리점·농장(축산업체)·해외 바이어 / 동물용의약품 외 — B2B(ODM) 고객 및 B2C 소비자 채널",
+    "price_factors": [
+      {
+        "factor": "수출비중",
+        "detail": "수출 비중(39%)이 높아 해외 수요 변동이나 수출 허가 확대·제한이 실적에 직접적 영향을 미칩니다."
+      },
+      {
+        "factor": "수입경쟁",
+        "detail": "국내 시장에서 수입산 비중이 45%에 달해 수입 경쟁 심화는 가격·마진에 부담을 줄 수 있습니다."
+      },
+      {
+        "factor": "과다경쟁",
+        "detail": "국내 동물약품 업체 수가 많아(1,412개) 가격경쟁 및 시장점유율 확보 경쟁이 실적 변동 요인이 됩니다."
+      },
+      {
+        "factor": "세계수요",
+        "detail": "세계 동물용의약품 시장이 연평균 6~8% 성장하는 가운데 글로벌 수요 증가가 수출 및 성장 기회를 제공합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "세계시장에서 활약하고 있는 동물 의약 전문 기업입니다."
+      },
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "매출은 2025년 별도 기준 302억원이며"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "이중 수출 비중은 전체 매출에 39%를 차지하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "우수한 동물용의약품을 국내에 공급하고 있으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "인체용의약품: 227,083 (2.3%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "동물용의약품: 104,933 (33.6%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "동물용의약품 외: 16,113,132 (60.8%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "판매 유통 구조는 대리점으로 공급하는 경로"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4724,
+    "completion_tokens": 5478,
+    "reasoning_tokens": 4480,
+    "output_tokens": 998
+  },
+  "warnings": []
+}

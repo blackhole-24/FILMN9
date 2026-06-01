@@ -1,0 +1,72 @@
+{
+  "stock_code": "048770",
+  "corp_name": "TPC로보틱스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 02:32",
+  "meta": {
+    "wics": "기계",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "TPC로보틱스는 공압(공기압) 기기와 모션(모션구동) 장비를 주력으로 하는 기계·장비 제조업체로, 공압기기 국산화 및 대규모 프로젝트 수주를 통해 국내 시장에서 영향력을 확보하고 있습니다. 회사는 국내 공압시장에서 원가 경쟁력과 수입대체 역량을 바탕으로 국내 주요 제조업체로 인정받고 있습니다.",
+    "business_model": "주요 사업부문은 공압사업부문과 모션사업부문이며, FY2025 기준 영업수익에서 공압이 81.9%를 차지하고 모션이 18.1%를 차지합니다. 공압부문은 액츄에이터(구동기기), 방향제어기기, FRL(공압용 필터·레귤레이터·윤활기) 등 자동화 핵심 부품 제조·판매가 주된 수익원이며, 모션부문은 직교로봇·리니어모터·리니어로봇 등 모션 솔루션 판매가 주요 매출을 담당합니다.",
+    "main_customers": "공압 — 전기·전자·반도체·물류·자동차·조선·화학·플랜트 등 제조업체 / 모션 — 로봇·리니어모터 등 모션 솔루션을 도입하는 제조업 및 자동화 현장",
+    "price_factors": [
+      {
+        "factor": "전방산업 수요",
+        "detail": "반도체·자동차·이차전지 등 전방산업의 투자 지연·확대에 따라 공압·모션 제품 수요와 실적이 직접 변동합니다."
+      },
+      {
+        "factor": "국제경쟁",
+        "detail": "한국에스엠씨공압(일본), 한국훼스토(독일) 등 외국계 업체와의 가격·품질 경쟁이 시장점유율과 수익성에 영향을 미칩니다."
+      },
+      {
+        "factor": "제품 고도화",
+        "detail": "초소형 정밀 솔레노이드 밸브·정밀 소형 실린더 등 정밀 제품 개발 여부가 시장점유율 및 고마진 확보에 중요합니다."
+      },
+      {
+        "factor": "수급에 따른 가격·이익",
+        "detail": "공기압기기 제품의 가격 및 수익성은 시장의 수급 상황에 의해 결정되어 실적 변동성을 유발합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "공압사업부문",
+        "evidence_text": "현재 국내시장 규모는 약 1.2조원 정도로 추산되고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "공압: 59,888,939 (81.9%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "액츄에이터, 방향제어기기, FRL 등을 생산/판매"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "공압사업부문",
+        "evidence_text": "전기, 전자, 반도체,물류, 자동차, 조선, 화학, 플랜트"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "공압사업부문",
+        "evidence_text": "주요 경쟁업체로는 한국에스엠씨공압(일본회사), 한국훼스토(독일회사)등"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3913,
+    "completion_tokens": 4408,
+    "reasoning_tokens": 3520,
+    "output_tokens": 888
+  },
+  "warnings": []
+}

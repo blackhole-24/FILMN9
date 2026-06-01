@@ -1,0 +1,67 @@
+{
+  "stock_code": "065440",
+  "corp_name": "이루온",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 04:29",
+  "meta": {
+    "wics": "IT서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "이루온은 소프트웨어 개발 및 공급을 주된 사업으로 하는 IT서비스 기업으로, 특히 유무선 통신사업 분야에 특화되어 있습니다. 연결기준으로 2025사업연도 매출은 615.61억원으로 보고되었습니다.",
+    "business_model": "사업부문은 통신솔루션 및 서비스, 기타시스템, 카드솔루션 등으로 구성되며 각 부문별 매출 비중은 통신솔루션 및 서비스 약 31.2%, 기타(기타상품) 약 1.1%, 기타시스템 약 50.9%, 카드솔루션 약 16.8%, 기타(임대) 약 0.1%입니다. 통신솔루션은 이동통신사업자 대상의 핵심망·부가서비스 솔루션을, 기타시스템은 디지털 아카이브·스토리지 등 대형 기관 대상 인프라 서비스를, 카드솔루션은 카드발급/발송 장비 및 소프트웨어를 중심으로 수익을 창출합니다.",
+    "main_customers": "통신솔루션 및 서비스 — 국내외 이동통신사업자 / 기타(기타상품) — 국내 통신사업자 및 서비스가입자 / 기타시스템 — 금융사 및 국내방송사업 / 카드솔루션 — 금융사 및 카드사 / 기타(임대) — 국내",
+    "price_factors": [
+      {
+        "factor": "서비스 안정성",
+        "detail": "통신 서비스는 365일 24시간 안정적 운영이 필수여서 시스템 장애나 품질 문제가 발생하면 실적·신뢰도에 즉각적 타격이 있을 수 있습니다."
+      },
+      {
+        "factor": "원가경쟁력",
+        "detail": "원천기술 보유 여부에 따라 원가구조와 이익률이 달라지므로 원가경쟁력 약화는 실적 저하로 연결될 수 있습니다."
+      },
+      {
+        "factor": "기술 통찰력",
+        "detail": "관련 기술 확보와 선제적 투자 역량이 부족하면 신기술·신제품 경쟁에서 밀려 성장 기회를 놓칠 위험이 있습니다."
+      },
+      {
+        "factor": "투자환경",
+        "detail": "글로벌 경기 둔화와 통신시장 투자 위축은 수주 감소로 이어져 매출과 이익에 부정적 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "특히 유무선 통신사업분야를 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "연결회사의 매출액은 61,561백만원입니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > [사업부문별 매출 구성]",
+        "evidence_text": "금융사 및 국내방송사업"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 2) 업계의 현황",
+        "evidence_text": "365일 24시간 안정된 서비스가 유지되어야 합니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4643,
+    "completion_tokens": 4748,
+    "reasoning_tokens": 3968,
+    "output_tokens": 780
+  },
+  "warnings": []
+}

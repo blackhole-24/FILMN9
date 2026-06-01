@@ -1,0 +1,68 @@
+{
+  "stock_code": "010770",
+  "corp_name": "평화홀딩스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 20:39",
+  "meta": {
+    "wics": "자동차부품",
+    "market": "KOSPI",
+    "has_revenue_data": false,
+    "tier": 3,
+    "tier_mode": "narrative_segments",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "평화홀딩스는 투자부문과 제조부문 인적분할을 통해 2006년 지주회사로 전환된 기업으로, 여러 제조 자회사를 보유한 지주회사입니다. 지주회사의 주된 활동은 자회사에 대한 지배(주식보유)이며, 자회사로부터의 배당과 용역수익이 주요 수입원입니다.",
+    "business_model": "지주회사로서 자회사의 지분을 통해 경영권을 확보하고, 용역수익(전산용역 등)과 배당금수익을 주요 영업수익원으로 삼고 있습니다. 주요 자회사들은 방진·호스 등 자동차부품 제조를 영위하며, 이를 통해 국내 완성차업체들과 해외 법인을 통한 제품공급으로 수익을 창출합니다.",
+    "main_customers": "방진·호스 부품(평화산업) — 국내 완성차 메이커(현대차·기아차·한국GM·쌍용차) / OIL SEAL·O-RING(평화오일씰공업) — 자동차·이륜차 및 일반산업용 제조업체 / 지주회사(평화홀딩스) — 자회사(배당수익·용역수익)",
+    "price_factors": [
+      {
+        "factor": "무역환경",
+        "detail": "미국발 관세부과와 보호무역주의 확산은 수출·해외사업에 부정적 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "완성차 생산",
+        "detail": "자동차 생산량 변동은 자회사들의 제품수요와 실적에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "원자재가격",
+        "detail": "달러 강세와 원자재 가격 상승은 제조원가를 높여 자회사 마진에 부담을 줄 수 있습니다."
+      },
+      {
+        "factor": "자회사실적",
+        "detail": "지주회사 수익은 자회사 배당 및 용역수익에 의존하므로 자회사 실적 변동이 지주 실적에 직결됩니다."
+      },
+      {
+        "factor": "지주규제·공시",
+        "detail": "지주회사 관련 공정거래법·공시 의무는 지배구조 및 사업범위에 제약을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 회사의 현황 (1) 영업개황 (가) 영업개황",
+        "evidence_text": "당사는 2006년 5월 1일부로 ... 지주회사로 전환되었습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. 회사의 현황 (1) 영업개황 (가) 영업개황",
+        "evidence_text": "지주회사의 영업수익은 용역수익(전산용역 및 기타용역)과 배당금수익 등으로 구성되어 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "■ 평화산업(주)",
+        "evidence_text": "평화산업은 방진 및 호스 자동차 부품을 생산하여 국내 완성차 메이커인 현대차, 기아차, 한국GM, 쌍용차에 중점 판매하고 있으며,"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 5688,
+    "completion_tokens": 4650,
+    "reasoning_tokens": 3840,
+    "output_tokens": 810
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

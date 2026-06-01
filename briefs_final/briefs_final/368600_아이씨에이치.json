@@ -1,0 +1,78 @@
+{
+  "stock_code": "368600",
+  "corp_name": "아이씨에이치",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 17:56",
+  "meta": {
+    "wics": "전자장비와기기",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "아이씨에이치는 2012년 설립된 친환경 유연소재(Flexible Material) 기반의 첨단 회로소자 전문 기술기업으로, 기초소재·복합소재·첨단소재를 바탕으로 IT기기용 소재와 부품을 자체 양산·공급합니다. 2020년 자사 개발 상온프레스 패턴화 기술을 적용한 친환경 필름형 박막 회로 제품(Eco-Flex)을 출시·양산하여 사업화를 본격화했습니다.",
+    "business_model": "사업은 기초소재 제품군(IT용 점착테이프 등), 복합소재 제품군(전자파 차폐 가스켓·방열 복합시트 등), 첨단소재 제품군(필름형 회로·안테나 등)으로 구성되며, 각 군의 제품을 자체 양산하여 IT기기 업체 등에 공급하는 것이 핵심 수익원입니다. 2020년 출시한 친환경 유연 박막 회로 제품(Eco-Flex)이 빠르게 시장에 자리잡으며 매출 성장의 주요 동력이 되었고, OLED용 복합소재·EV·ESS 배터리용 난연 PU폼 등 신규 제품으로 사업 영역을 확장 중입니다.",
+    "main_customers": "기초소재 제품군 — IT기기 제조사(점착테이프 등 소재 구매) / 복합소재 제품군 — 네트워크·디스플레이·자동차 전장 제조사(가스켓·방열시트 등) / 첨단소재 제품군(Eco-Flex 등) — 스마트기기·네트워크 장비 제조사",
+    "price_factors": [
+      {
+        "factor": "제품 규격 다양성",
+        "detail": "제품이 IT기기 모델·용도별로 형상·사이즈·패턴이 달라 수요 변동과 가격 일관성 부재로 실적 변동성에 영향"
+      },
+      {
+        "factor": "경쟁 다수",
+        "detail": "다수 경쟁사가 존재하는 소재·부품 업종 특성상 가격·수주 경쟁이 심화되면 마진 압박이 발생할 수 있습니다."
+      },
+      {
+        "factor": "기술고도화",
+        "detail": "상온프레스 패턴화 등 독자 기술의 고도화 여부가 제품 경쟁력 및 시장 점유율에 직접적 영향을 미칩니다."
+      },
+      {
+        "factor": "수직계열화 효과",
+        "detail": "폴리우레탄 사업부 인수로 원가경쟁력 확보가 가능해지면 수익성 개선에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "시장 다변화",
+        "detail": "네트워크·디스플레이·자동차 전장·배터리 등으로의 확장이 성공하면 매출 구조 변화에 따른 실적 개선 요인이 됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "[DART 사업보고서 — 영업 현황]",
+        "evidence_text": "친환경 유연소재(Flexible Material) 기반 첨단 회로소자 전문 기술 기업입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "(3) 제품 설명",
+        "evidence_text": "기초소재 제품군, 복합소재 제품군, 첨단소재 제품군으로 구분할 수 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "[DART 사업보고서 — 영업 현황]",
+        "evidence_text": "친환경 유연 박막 회로 제품은 IT기기에 탑재되어"
+      },
+      {
+        "field": "business_model",
+        "source_section": "(1) 주요 제품 등의 현황",
+        "evidence_text": "2020년부터 당사 자체 개발 기술인 첨단소재 기술... 출시, 공급하여 본격적인 사업화를 개시하였습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "다. 신규 사업 및 중단 사업",
+        "evidence_text": "주식회사 메인일렉콤의 폴리우레탄 사업부문에 대한 영업양수도를 완료하였습니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4162,
+    "completion_tokens": 3999,
+    "reasoning_tokens": 3008,
+    "output_tokens": 991
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

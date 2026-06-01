@@ -1,0 +1,66 @@
+{
+  "stock_code": "018700",
+  "corp_name": "바른손",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 22:22",
+  "meta": {
+    "wics": "화장품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "바른손은 온라인 쇼핑몰 졸스(jolse.com)를 기반으로 한국 화장품을 전 세계에 직접 판매하는 뷰티 중심의 사업을 운영하며, 영화 제작·투자와 VFX(시각특수효과) 제작 등 콘텐츠 관련 사업도 함께 영위하는 기업입니다. 뷰티사업부문은 회사의 성장 동력으로서 전체 매출에서 높은 비중을 차지하고 있습니다.",
+    "business_model": "FY2025 기준 사업부문별로 화장품 부문 매출은 18.5%, VFX 부문 매출은 0.7%로 보고되었으며(숫자는 사업부문별 영업수익 구성 기준), 뷰티사업은 졸스를 통한 해외 직판(온라인 유통)이 핵심 수익원입니다. 그 외 영화 제작·투자 및 VFX 수주를 통한 수익 다각화 노력이 병행되고 있습니다.",
+    "main_customers": "화장품 — 해외 온라인 소비자(졸스 이용자) 및 트렌드에 민감한 소비자 / 영화 — 극장 관객 및 OTT·채널 플랫폼을 통한 시청자·콘텐츠 유통 관계자 / VFX — 영화·드라마·광고·뉴미디어 콘텐츠 제작사",
+    "price_factors": [
+      {
+        "factor": "온라인 유통 성장",
+        "detail": "온라인 쇼핑 수요 확대 시 졸스를 통한 해외 매출 증가로 실적에 긍정적 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "트렌드 민감성",
+        "detail": "화장품 수요가 빠른 트렌드 변화에 좌우되므로 제품 경쟁력·신제품 적시 출시 여부가 실적 변동을 키웁니다."
+      },
+      {
+        "factor": "환율(달러 기준)",
+        "detail": "판매가격 기준통화가 달러이므로 환율 변동은 매출원가 및 원화 환산 매출에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "시장 경쟁 심화",
+        "detail": "중소 뷰티 브랜드의 진입 용이성 등 경쟁 심화는 가격·마케팅 비용 부담을 높여 이익률에 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "VFX 수주 변동성",
+        "detail": "국내외 제작편수·투자 변화로 VFX 수주 환경의 변동성이 확대되면 관련 매출이 불안정해질 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 뷰티사업부문",
+        "evidence_text": "졸스(jolse.com)를 기반으로 ... 전 세계에 한국 화장품을 직접 판매하는 사업을 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "화장품: 11,903,033 (18.5%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 뷰티사업부문",
+        "evidence_text": "특히 트렌드에 민감한 소비자가 주요 고객층인"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4958,
+    "completion_tokens": 3086,
+    "reasoning_tokens": 2304,
+    "output_tokens": 782
+  },
+  "warnings": []
+}

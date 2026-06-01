@@ -1,0 +1,84 @@
+{
+  "stock_code": "000120",
+  "corp_name": "CJ대한통운",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 16:38",
+  "meta": {
+    "wics": "항공화물운송과물류",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "CJ대한통운은 국내 최대 종합물류기업으로 계약물류(CL), 택배·이커머스, 포워딩·국제특송, 항만·하역 등 물류 전영역에서 사업을 영위합니다. 2025년 연결기준 매출은 전년 대비 1.4% 증가한 12조 2,847억원을 기록하였습니다.",
+    "business_model": "핵심 사업부문은 CL(Contract Logistics, 계약물류), 택배·이커머스, 포워딩·국제특송, 항만·하역이며, CL은 W&D(Warehousing&Distribution)와 P&D(Port&Delivery)로 구성됩니다. W&D는 자동화·무인화(TES 기반) 기술을 적용해 입고·보관·출고까지 통합 물류서비스를 제공하고, 택배 부문은 대형 허브·자동화 설비와 차세대 시스템(LoIS Parcel)을 통해 대량 물량 처리를 수행합니다.",
+    "main_customers": "W&D — CPG·D2C·제약·리테일 등 다양한 산업군 / P&D — 철강·자동차·관급물자·산업재 관련 기업 / 택배·이커머스 — e-Commerce 사업자 및 소비시장(일반 소비자)",
+    "price_factors": [
+      {
+        "factor": "e‑커머스 확장",
+        "detail": "e‑커머스 시장 확대는 택배·e‑Fulfillment 물량 증가로 매출과 설비 활용도에 직접 영향."
+      },
+      {
+        "factor": "자동화 수요",
+        "detail": "유류비·인건비 상승 등으로 자동화 설비 기반 3PL 위탁 수요가 증가하여 자동화 역량이 경쟁력에 영향."
+      },
+      {
+        "factor": "원가상승(인플레이션)",
+        "detail": "인플레이션과 에너지·원자재 비용 상승은 산업재 물류 수요 둔화로 P&D 사업 성장에 제약을 줄 수 있음."
+      },
+      {
+        "factor": "직영화 경쟁",
+        "detail": "유통업체의 물류 직영화 확대는 외주 물류업체에 대한 경쟁압력을 높여 수익성에 영향을 미칠 수 있음."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "당사는 국내 최대 종합물류기업으로 국내외 계약물류(CL), 택배ㆍ이커머스, 포워딩ㆍ국제특송, 항만ㆍ하역 등 물류 全영역에 걸쳐 사업을 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 나. 사업부문별 현황(1) CL 사업부문",
+        "evidence_text": "W&D(Warehousing&Distribution)사업"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 나. 사업부문별 현황(1) CL 사업부문",
+        "evidence_text": "P&D(Port&Delivery)사업"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 나. 사업부문별 현황(1) CL 사업부문",
+        "evidence_text": "W&D사업은 CPG, D2C, 제약, 리테일 등 다양한 산업군의 사업을 영위하고 있으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 나. 사업부문별 현황(2) 택배 사업부문",
+        "evidence_text": "日 최고 약 9.2백만 Box의 물량을 처리하며 다양한 배송 서비스를 제공하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 라. 사업의 현황 (1) CL 사업부문(산업의 특성)",
+        "evidence_text": "자동화 설비 기반의 제3자물류 위탁에 대한 수요가 증가하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 라. 사업의 현황 (1) CL 사업부문(산업의 특성)",
+        "evidence_text": "P&D(Port & Delivery) 사업의 성장은 다소 제한적일 것으로 전망됩니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4855,
+    "completion_tokens": 5352,
+    "reasoning_tokens": 4288,
+    "output_tokens": 1064
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "stock_code": "003090",
+  "corp_name": "대웅",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 18:23",
+  "meta": {
+    "wics": "제약",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "주식회사 대웅은 '삶의 질 향상을 선도하는 글로벌 헬스케어 그룹'을 표방하는 지주회사로, 투자사업과 관리용역을 제공하며 계열사 중심의 사업구조를 가지고 있습니다. 2025년 연결기준 누적 매출액은 2조 684억이며, 대웅제약·대웅바이오·한올바이오파마 등 총 35개의 종속회사를 보유하고 있습니다.",
+    "business_model": "별도 재무제표 기준으로 영업수익은 주로 종속회사로부터의 용역수익, 로열티수익, 배당수익 등으로 구성됩니다(관리용역·투자수익 중심). 제품 매출과 상품 매출도 연결 실적 일부를 차지하며, 사업부문별 매출 구성은 제품 16.5%, 상품 7.8%로 보고되었습니다.",
+    "main_customers": "관리용역·로열티·배당 — 종속회사 및 기타 투자사 / 제품 — 의약품 구매자(보고서에서 구체적 고객 유형 미기재)",
+    "price_factors": [
+      {
+        "factor": "자회사 실적 의존도",
+        "detail": "지주회사 수익구조상 자회사·관계회사 실적이 악화되면 지주사 실적에도 직접 영향이 발생합니다."
+      },
+      {
+        "factor": "지적재산권",
+        "detail": "보유한 특허권 규모와 특허 포트폴리오 변화는 신약·제품 매출의 지속성에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "지주회사 규제 리스크",
+        "detail": "지주회사 관련 법규(행위제한 등)를 위반할 경우 행정적·재무적 제재(과징금 등)가 발생할 수 있습니다."
+      },
+      {
+        "factor": "주요 제품 매출",
+        "detail": "자회사(대웅제약)의 주요 제품(예: 나보타 등) 글로벌 매출 변동이 연결 실적에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "총 35개의 종속회사를 보유하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "용역수익, 로열티수익, 배당수익 등으로 구성되어 있으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "제품: 228,860 (16.5%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "상품: 108,452 (7.8%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "종속회사와 기타 투자사로부터 수취하는"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "자회사를 포함한 관계회사에 대한 의존도가 높습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "보유하고 있는 특허권은 국내 18건, 해외 117건으로 총 135건이며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "지주회사의 행위제한 요건을 열거하였으며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5997,
+    "completion_tokens": 6042,
+    "reasoning_tokens": 5120,
+    "output_tokens": 922
+  },
+  "warnings": []
+}

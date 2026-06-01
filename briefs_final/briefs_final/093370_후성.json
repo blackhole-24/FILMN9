@@ -1,0 +1,62 @@
+{
+  "stock_code": "093370",
+  "corp_name": "후성",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 07:26",
+  "meta": {
+    "wics": "화학",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "후성은 불소화합물(기초화합물)을 중심으로 40여년간 기술을 축적해 온 화학업체로, 국내에서 냉매·2차전지 전해질·반도체 특수가스 등 고부가 불소화합물 분야에서 선도적 지위를 확보하고 있습니다. 2022년 12월 포괄적 주식교환으로 100% 종속회사 한텍을 편입하여 화공기기 설계·제작 역량도 보유하고 있습니다.",
+    "business_model": "사업은 기초화합물(냉매, 2차전지 전해질(LiPF6, 육불화인산리튬), 반도체 특수가스(C4F6, 육불화부타디엔) 등)과 화공기기(열교환기·압력용기 등 수주 제작)로 구분되며, 2025년 기준 기초화합물이 총매출의 약 67.8%, 화공기기가 약 36.5%를 차지합니다(총 매출액 471,564백만원 기준). 기초화합물은 소재 제조·판매 중심, 화공기기는 주문형 설계·제작 중심의 수익구조입니다.",
+    "main_customers": "기초화합물 — 삼성전자·SK하이닉스 등 전방 반도체 및 가전사, 전해액 메이커 / 화공기기 — 삼성엔지니어링, KBR 등 플랜트 엔지니어링 업체",
+    "price_factors": [
+      {
+        "factor": "전방 경기",
+        "detail": "가전·반도체·2차전지 등 전방 산업의 경기 변동이 제품 수요와 실적에 민감한 영향을 미칩니다."
+      },
+      {
+        "factor": "환경규제",
+        "detail": "냉매 관련 글로벌 환경규제와 허가 제한은 진입장벽을 높여 공급 및 가격에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "원재료 수급",
+        "detail": "형석, 탄산리튬 등 원재료를 중국 등 다수 거래처를 통해 조달하고 있어 수급·가격 변동이 원가와 생산에 영향합니다."
+      },
+      {
+        "factor": "대체수요",
+        "detail": "전세계적 환경문제 및 대체에너지 개발로 대체물질 수요가 증가하면 시장구조와 수요 패턴이 변화할 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "40여년간 축적된 불소기술의 노하우와 고도화된 공정기술"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "2025년 매출(누계)은 471,564백만원을 기록"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "삼성전자, SK하이닉스 등 유수의 국내 및 해외 전방 가전사"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5651,
+    "completion_tokens": 4892,
+    "reasoning_tokens": 4096,
+    "output_tokens": 796
+  },
+  "warnings": []
+}

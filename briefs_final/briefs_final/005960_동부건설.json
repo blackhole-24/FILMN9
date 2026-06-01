@@ -1,0 +1,81 @@
+{
+  "stock_code": "005960",
+  "corp_name": "동부건설",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 09:44",
+  "meta": {
+    "wics": "건설",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "동부건설은 건설업을 주력으로 하는 코스피 상장사로, 국내도급공사와 부동산 관련 종속회사를 함께 운영하고 있습니다. 2025년 기준 연결 매출 1조 7,586억원, 별도 매출 1조 6,315억원을 기록했고, 시공순위는 28위였습니다. 브랜드로는 주거문화 브랜드 '센트레빌'과 복합단지 브랜드 '아스테리움'을 운영하고 있습니다.",
+    "business_model": "동부건설의 사업은 건설부문과 기타부문으로 나뉘며, FY2025 사업부문별 영업수익 기준으로 건설부문 42.9%, 토목공사 31.4%, 플랜트공사 18.5%, 기타부문 6.3%, 동부자산관리㈜ 0.9%로 구성됩니다. 지배회사 기준 주요 매출은 건축·토목·플랜트 등 국내도급공사에서 발생하고, 종속회사는 설계·감리와 부동산업을 함께 담당합니다. 건설시공에 필요한 철근과 레미콘 등은 주로 국내 생산회사로부터 조달합니다.",
+    "main_customers": "건설부문 — 관급공사 발주처, 민간공사 발주처 / 토목공사 — 공공기관, 민간 발주처 / 플랜트공사 — 플랜트 발주처 / 설계·감리 — 관련 공사 수요처 / 부동산업 — 부동산 수요자 및 개발 관련 거래처",
+    "price_factors": [
+      {
+        "factor": "수주물량",
+        "detail": "관급공사와 민간공사 수주가 늘수록 향후 매출과 계약잔액이 확대될 수 있습니다."
+      },
+      {
+        "factor": "공사원가",
+        "detail": "고금리 장기화와 높은 건설공사비는 수익성 악화로 이어져 실적에 부담이 됩니다."
+      },
+      {
+        "factor": "자재단가",
+        "detail": "철근·레미콘 등 주요 건설자재 단가 상승은 공사 원가를 높여 수익성에 영향을 줍니다."
+      },
+      {
+        "factor": "부동산경기",
+        "detail": "분양공사와 주택 브랜드 사업은 부동산 시장 상황에 따라 매출 흐름이 달라질 수 있습니다."
+      },
+      {
+        "factor": "환율변동",
+        "detail": "미국 달러화와 베트남 동화 관련 환율 변동은 외환 위험을 통해 재무 성과에 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사의 주요제품 및 서비스는 국내도급공사(건축, 토목, 플랜트)와 기타부대사업으로 구분되고"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "연결기준 매출 17,586억원, 영업이익 426억원"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "건설부문: 4,175 (42.9%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "토목공사: 5,030 (31.4%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "플랜트공사: 180 (18.5%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "관급공사 180건, 민간공사 96건"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5081,
+    "completion_tokens": 973,
+    "reasoning_tokens": 0,
+    "output_tokens": 973
+  },
+  "warnings": []
+}

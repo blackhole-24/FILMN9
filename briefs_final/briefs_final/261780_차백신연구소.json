@@ -1,0 +1,67 @@
+{
+  "stock_code": "261780",
+  "corp_name": "차백신연구소",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 14:09",
+  "meta": {
+    "wics": "제약",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "차백신연구소는 2000년 설립된 바이오 벤처로, 자체 개발한 면역증강 플랫폼(Adjuvant platform)을 바탕으로 차세대 백신 및 면역치료제를 개발하는 회사입니다. 2011년 ㈜차바이오텍을 최대주주로 하여 차병원·차바이오그룹에 편입되었고, L-pampo®와 Lipo-pam® 등 면역증강 기술을 핵심역량으로 보유하고 있습니다.",
+    "business_model": "사업의 핵심은 면역증강 플랫폼을 활용한 백신(예방·치료) 및 항암 면역치료제의 연구개발(R&D)이며, 현재 제품 매출은 Enzyme(G6PDH) 수출(연구용 시약)이 전부로 매출 비중이 100.00%를 차지합니다(제품매출 100.00%). 연구개발 중심의 파이프라인 확장과 기술이전(라이선스 아웃) 가능성이 핵심 가치원천입니다.",
+    "main_customers": "제품매출(Enzyme·G6PDH 수출) — 연구용 시약을 사용하는 연구기관·실험실 및 연구자",
+    "price_factors": [
+      {
+        "factor": "임상·규제리스크",
+        "detail": "임상시험 단계와 규제 승인 결과에 따라 실적 변동성이 크며, 심각한 부작용 보고 시 개발 중단 가능성이 있음."
+      },
+      {
+        "factor": "백신시장 성장성",
+        "detail": "글로벌 백신시장 성장(보고서 기준 연평균 성장 전망)은 장기적 수혜 요인이 될 수 있음."
+      },
+      {
+        "factor": "연구협력·인력",
+        "detail": "신약개발은 협력 네트워크와 연구인력 역량이 성패를 좌우하므로, 협업 성과가 실적과 기업가치에 영향."
+      },
+      {
+        "factor": "환율(CNY)",
+        "detail": "대외 영업·지출에서 CNY 관련 환율 변동이 외환손익 및 비용에 영향을 줄 수 있음."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 사업의 내용 요약 (4)",
+        "evidence_text": "당사는 2000년 설립되었으며, 2011년 최대주주가 ㈜차바이오텍으로 변경되면서 차병원/차바이오그룹에 편입되었습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "나. 주요파이프라인에 관한 사항",
+        "evidence_text": "당사는 자체 개발한 면역증강제 플랫폼 기술을 보유하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 매출 (원문 테이블)",
+        "evidence_text": "비율 | 100.00"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "■ 사업부문별 매출 (원문 테이블)",
+        "evidence_text": "연구용 시약"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 6275,
+    "completion_tokens": 5112,
+    "reasoning_tokens": 4352,
+    "output_tokens": 760
+  },
+  "warnings": []
+}

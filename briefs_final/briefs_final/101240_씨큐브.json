@@ -1,0 +1,81 @@
+{
+  "stock_code": "101240",
+  "corp_name": "씨큐브",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:15",
+  "meta": {
+    "wics": "화학",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "씨큐브는 2000년 10월 20일 스카이케미칼이라는 상호로 설립된 진주광택안료 제조·판매 회사입니다. 2001년 합성운모 펄 생산을 시작했고, 2011년 11월 코스닥시장에 상장했으며, 현재는 화장품용·산업용·자동차용 진주광택안료를 중심으로 사업을 전개하고 있습니다.",
+    "business_model": "회사의 핵심 매출은 진주광택안료에서 발생하며, FY2025 사업부문별 영업수익 구성 기준 진주광택안료가 90.0%, 기타가 10.0%를 차지합니다. 제품은 산업용(도료, 벽지, 건축자재 등), 화장품용(기초·색조화장품), 자동차용(자동차도료, 건축외장재 등)으로 나뉘며, 국내외 협력대리점을 통한 판매가 기본입니다. 다만 자동차 사업부문은 국내 소재 도료업체를 상대로 직접판매도 병행합니다.",
+    "main_customers": "산업용 — 도료·플라스틱·종이·코팅 회사 / 화장품용 — 화장품 회사 및 색조 제조회사 / 자동차용 — 자동차 도료를 생산하는 회사 및 도료업체",
+    "price_factors": [
+      {
+        "factor": "자동차수요",
+        "detail": "자동차 생산과 판매가 늘면 자동차용 진주광택안료 수요가 늘어 실적에 직접 영향을 줍니다."
+      },
+      {
+        "factor": "화장품트렌드",
+        "detail": "색조·스킨케어 트렌드 변화에 따라 화장품용 제품 수요가 달라져 매출 흐름이 영향을 받습니다."
+      },
+      {
+        "factor": "글로벌경기",
+        "detail": "산업용 제품은 글로벌 경기변동 영향을 크게 받아 경기 둔화 시 수익성이 약해질 수 있습니다."
+      },
+      {
+        "factor": "관세영향",
+        "detail": "미국발 관세 영향은 주요 지역의 자동차 생산·판매와 화장품 위탁생산 구조에 불확실성을 키울 수 있습니다."
+      },
+      {
+        "factor": "고부가제품",
+        "detail": "글라스기질, 컬러알루미늄 같은 고부가가치 제품 비중이 늘면 매출과 수익성 개선에 도움이 됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "2000년 10월 20일에 스카이케미칼의 상호로 설립"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "2011년 11월 코스닥시장에 상장되었습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "진주광택안료: 50,927 (90.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "기타: 5,592 (10.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 영업현황",
+        "evidence_text": "도료, 플라스틱, 종이, 코팅 회사들과 화장품 회사"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 영업현황",
+        "evidence_text": "자동차 도료를 생산하고 있는 회사들과 직접영업"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5018,
+    "completion_tokens": 915,
+    "reasoning_tokens": 0,
+    "output_tokens": 915
+  },
+  "warnings": []
+}

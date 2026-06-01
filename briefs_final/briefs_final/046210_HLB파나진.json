@@ -1,0 +1,62 @@
+{
+  "stock_code": "046210",
+  "corp_name": "HLB파나진",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 02:10",
+  "meta": {
+    "wics": "생명과학도구및서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "HLB파나진은 인공 유전자 PNA(Peptide Nucleic Acid)를 활용하는 전문 바이오 벤처기업으로, PNA 소재와 이를 응용한 분자진단 및 진단 자동화 사업을 주력으로 영위합니다. 종속회사 (주)바이오스퀘어를 통해 면역진단 플랫폼도 확장하고 있으며, 2025년 매출은 약 150억 원을 기록했습니다.",
+    "business_model": "주요 사업은 소재사업, 분자진단, 핵산추출, 면역진단으로 구성되며, FY2025 기준 분자진단이 매출의 76.8%로 핵심 수익원입니다(소재사업 18.5%, 핵산추출 4.2%, 면역진단 0.5%). PNA 기반의 플랫폼 기술(PNAClamp™, PANA RealTyper™, PANAMutyper™, OncoTector™)과 핵산 추출 자동화 장비(PANAMAX™ 시리즈), 종속회사를 통한 퀀텀팩 기반 면역진단 플랫폼을 결합해 제품과 장비·시약을 통합 제공하는 점이 사업 특징입니다.",
+    "main_customers": "소재사업 — 연구개발 분야의 고객(연구기관·연구자) / 분자진단 — 임상 현장 및 중앙검사실, 제약사(동반진단 협업) / 핵산추출 — 진단장비 사용자 및 임상검사기관 / 면역진단 — 체외진단 플랫폼을 도입하는 진단기관·임상현장",
+    "price_factors": [
+      {
+        "factor": "자동화 경쟁",
+        "detail": "글로벌 기업들의 자동화 플랫폼 확산은 장비·시약 결합 공급에서 경쟁심화를 불러 실적과 수익성에 직접 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "동반진단 수요",
+        "detail": "표적치료제의 동반진단 확대는 분자진단 제품 수요를 증가시켜 매출에 긍정적 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "규제·인증",
+        "detail": "유럽 CE-IVDR 등 강화된 규제 환경은 인증 획득 시 시장 진입이 가능하지만 인증 실패 시 매출 확대에 제약이 될 수 있습니다."
+      },
+      {
+        "factor": "핵산치료제 시장",
+        "detail": "핵산 치료제 및 신약개발 증가로 PNA 대량수요가 확대되면 소재사업의 중장기 성장에 기여할 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 전문 바이오 벤처기업으로서"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "분자진단: 11,560 (76.8%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "PNA를 다양한 연구개발 분야의 고객들에게 지속적으로 공급하고 있으며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 6215,
+    "completion_tokens": 4370,
+    "reasoning_tokens": 3584,
+    "output_tokens": 786
+  },
+  "warnings": []
+}

@@ -1,0 +1,67 @@
+{
+  "stock_code": "066360",
+  "corp_name": "체리부로",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 04:40",
+  "meta": {
+    "wics": "식품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "체리부로는 체리와 브로일러의 합성어로 닭고기 전문기업 정체성을 가진 육계계열화업체로, 조부모계·종계·부화장·육계사육·사료공장·도계장·부분육 가공공장 등 닭고기 생산·유통의 전(全) 공정을 담당하고 있습니다. 2025년 기준 총매출액은 4,054억원이며, 당사의 매출은 100% 내수시장에서 발생합니다.",
+    "business_model": "주요 매출은 육계(닭고기) 부문에 집중되어 있으며, 사업부문별 영업수익 구성은 육계 93.9%, 사료 1.6%, 병아리 1.6%, 상품 2.3%, 기타 0.6%입니다. 사육에서 도계·부분육 가공·유통까지의 계열화(수직적 통합)를 통해 공급안정성과 원가관리로 수익을 창출하고 있습니다.",
+    "main_customers": "육계 — 프랜차이즈 및 외식산업·유통업체 / 사료 — 위탁 사육 농가(계열화 참여 농가) / 병아리 — 위탁 사육 농가(종계·부화장 대상) / 상품 — 유통·가공업체",
+    "price_factors": [
+      {
+        "factor": "계열화",
+        "detail": "육계계열화(수직적 통합) 확대는 규모의 경제와 비용 절감, 품질·생산성 향상으로 실적에 영향을 줍니다."
+      },
+      {
+        "factor": "정부규제",
+        "detail": "HACCP 등 식품안전 규제 강화는 시장의 계열화 진행을 촉진해 업체 구조와 매출 안정성에 영향을 미칩니다."
+      },
+      {
+        "factor": "환율",
+        "detail": "사료 원재료 매입 시 달러화 결제 노출로 환율 변동이 원가와 영업외 손익에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "외부충격",
+        "detail": "곡물가 급등·가축 전염병 등 외부 충격은 생산비용과 도계량 변동을 통해 실적 변동성을 키울 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "육계계열화업을 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "육   계: 380,644 (93.9%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "염장육, 부분육에 대한 수요가 점차 증가하고 있는 추세"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "환율의 변동에 따른 환위험에 노출되어 있는 바"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4421,
+    "completion_tokens": 4866,
+    "reasoning_tokens": 4096,
+    "output_tokens": 770
+  },
+  "warnings": []
+}

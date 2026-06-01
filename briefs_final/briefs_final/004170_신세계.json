@@ -1,0 +1,81 @@
+{
+  "stock_code": "004170",
+  "corp_name": "신세계",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 18:44",
+  "meta": {
+    "wics": "백화점과일반상점",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "신세계는 백화점·도소매·면세·호텔·부동산 등 유통 전반을 영위하는 대형 유통기업으로, 2025년 연결기준 매출이 6조 9,295억원에 달합니다. 백화점을 핵심 축으로 전국 주요 상권에 점포를 운영하며 복합 유통체계를 갖추고 있습니다.",
+    "business_model": "2025년 연결 매출 기준 백화점업 38.4%, 도소매업 28.1%, 면세업 33.3%, 부동산 및 자동차여객터미널업 3.7%, 호텔업 2.2%로 구성되어 있습니다. 백화점·도소매·면세 사업부문을 중심으로 온라인·오프라인 유통채널을 통해 식품·의류·화장품·가구·가전 등을 판매하고, 오프라인 공간을 통한 임대수입 및 터미널 매표·호텔 객실·식음료 매출 등으로 수익을 창출합니다.",
+    "main_customers": "백화점업 — 내점(방문) 소비자 / 도소매업 — 패션·라이프스타일·화장품 구매 소비자 / 면세업 — 외국인 관광객 및 여행자 / 부동산·터미널업 — 터미널 이용객·임차인 / 호텔업 — 숙박 및 식음료 이용 고객",
+    "price_factors": [
+      {
+        "factor": "입지 경쟁",
+        "detail": "백화점은 상권·교통·접근성이 수익성에 직접적 영향을 주어 입지 경쟁 심화가 실적에 민감하게 작용합니다."
+      },
+      {
+        "factor": "소비심리",
+        "detail": "고금리·고물가에 따른 소비 심리 위축은 백화점·리테일 매출에 직접적인 하방 압력을 가합니다."
+      },
+      {
+        "factor": "외국인 수요",
+        "detail": "외국인 관광객 유입 변화는 면세업 매출에 큰 영향을 미치며, 관광 흐름에 민감합니다."
+      },
+      {
+        "factor": "운영원가",
+        "detail": "글로벌 공급망 불확실성과 원가 상승은 영업비용을 올려 영업이익에 부담을 줄 수 있습니다."
+      },
+      {
+        "factor": "유통채널 변화",
+        "detail": "오프라인 체험형 리뉴얼과 온라인 채널 강화 여부가 매출 구성과 점포 수익성에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "2025년 연결 기준 매출은 6조 9,295억원이며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황",
+        "evidence_text": "백화점업이 2조 6,611억으로 38.4%"
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황",
+        "evidence_text": "면세업이 2조 3,056억으로 33.3%를 차지하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. 사업부문별 주요 재화 및 서비스",
+        "evidence_text": "오프라인 공간을 통해 임대수입을 얻고 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "백화점업(1) 산업의 특성",
+        "evidence_text": "백화점은 통상 고객이 내점하여 소비행위가 이루어지기 때문에"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "백화점업(1) 산업의 특성",
+        "evidence_text": "백화점 산업은 고금리, 고물가로 인한 소비 심리 위축"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4956,
+    "completion_tokens": 4269,
+    "reasoning_tokens": 3328,
+    "output_tokens": 941
+  },
+  "warnings": []
+}

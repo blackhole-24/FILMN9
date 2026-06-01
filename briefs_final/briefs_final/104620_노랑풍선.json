@@ -1,0 +1,76 @@
+{
+  "stock_code": "104620",
+  "corp_name": "노랑풍선",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:16",
+  "meta": {
+    "wics": "호텔,레스토랑,레저",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "노랑풍선은 2001년 8월 13일에 설립된 여행업체로, 종합여행업과 항공권 및 선표 발권 판매업을 주요 사업으로 영위하고 있습니다. 내국인과 외국인을 대상으로 국내외 기획여행상품과 항공권 판매 서비스를 제공하며, 2025년 기준 연간 매출액은 1,197억 원입니다.",
+    "business_model": "노랑풍선의 연결 기준 영업수익은 여행알선수입 66,290백만 원(55.38%), 항공권판매수입 등 11,505백만 원(9.61%), 항공권 총액매출 30,155백만 원(25.19%), 기타매출 11,755백만 원(9.82%)로 구성됩니다. 회사는 여행알선 서비스, 시내 순환 관광업, 정보제공 서비스로 사업을 구분하고 있으며, 실제 영업은 여행알선과 항공권 판매 중심으로 이뤄집니다. 여행업 특성상 다수의 일반 이용자를 대상으로 국내외 여행 상품과 항공권을 판매해 수익을 창출합니다.",
+    "main_customers": "여행알선 서비스 — 내국인 및 외국인 여행객 / 항공권 판매 — 항공권을 구매하는 일반 이용자 / 시내 순환 관광업 — 관광 목적의 방문객 / 정보제공 서비스 — 여행 관련 정보를 찾는 이용자",
+    "price_factors": [
+      {
+        "factor": "소득증가",
+        "detail": "국민소득이 늘면 여행에 쓸 수 있는 여력이 커져 여행 수요와 회사의 매출 확대에 영향을 줍니다."
+      },
+      {
+        "factor": "항공공급",
+        "detail": "저비용 항공사(LCC) 확대와 노선 증가는 항공권 가격과 여행 접근성에 영향을 주어 여행 수요에 직접 연결됩니다."
+      },
+      {
+        "factor": "수요이연",
+        "detail": "여행 수요는 일시적으로 줄어도 사라지기보다 미뤄지는 성격이 있어, 환경이 개선되면 수요가 다시 늘 수 있습니다."
+      },
+      {
+        "factor": "경기변동",
+        "detail": "경기 침체, 금리 변화, 환율 변동이 생기면 소비자들이 여행 예산을 줄일 수 있어 실적에 영향을 줍니다."
+      },
+      {
+        "factor": "계절성",
+        "detail": "여행 산업은 여름·겨울 성수기와 비수기 차이가 커서 시기별 매출 변동이 나타날 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 종합여행업(여행알선)과 항공권 및 선표 발권 판매업"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "2001년 8월 13일에 설립되었습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "여행알선수입에서 66,290백만 원(55.38%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "항공권판매수입 등에서 11,505백만 원(9.61%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "내국인 및 외국인들을 대상으로"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5091,
+    "completion_tokens": 896,
+    "reasoning_tokens": 0,
+    "output_tokens": 896
+  },
+  "warnings": []
+}

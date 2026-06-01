@@ -1,0 +1,76 @@
+{
+  "stock_code": "321820",
+  "corp_name": "아티스트컴퍼니",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 16:29",
+  "meta": {
+    "wics": "방송과엔터테인먼트",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "아티스트컴퍼니는 연예 매니지먼트, 콘텐츠 제작·배급, 애드테크 플랫폼 등을 영위하는 엔터테인먼트-테크 융합 기업으로, 2025년 합병을 통해 기존 애드테크 사업과 연예기획·콘텐츠 역량을 결합하여 재편되었습니다. 당기(제16기) 연결 기준 매출은 466억원이며, 합병 효과로 자산과 자본이 확대되는 등 규모가 확대되었습니다.",
+    "business_model": "사업부문별 영업수익 구성은 연예 매니지먼트 74.6%, 애드테크 플랫폼 20.0%, 콘텐츠 제작/배급 4.4%, 기타 1.0%로 구성되어 있으며(사업부문별 매출 구성), 연예 매니지먼트는 아티스트 활동 지원·수수료(로열티)를, 콘텐츠 제작/배급은 제작·판권·배급 수익을, 애드테크는 타겟팅 광고 플랫폼을 통한 CPC(클릭당 비용) 기반 수익을 주요 수익원으로 삼고 있습니다.",
+    "main_customers": "연예 매니지먼트 — 제작사·광고주·방송사 / 콘텐츠 제작/배급 — 극장·방송사·OTT 플랫폼 / IP 기반 브랜드 커머스 — 팬 기반 소비자·브랜드 협업 파트너 / 애드테크 플랫폼 — 기업(광고주)",
+    "price_factors": [
+      {
+        "factor": "아티스트 인기",
+        "detail": "아티스트 인지도와 활동 성과에 따라 매니지먼트 수익과 로열티가 크게 변동하여 실적 변동성으로 연결됩니다."
+      },
+      {
+        "factor": "제작비 상승",
+        "detail": "제작비·출연료 상승은 콘텐츠 제작원가를 높여 제작·배급 부문의 수익성을 압박합니다."
+      },
+      {
+        "factor": "OTT 경쟁",
+        "detail": "글로벌 OTT 투자 재편과 K-콘텐츠 수요 증가는 판권 가치와 해외 매출 기회를 동시에 확대하거나 재조정합니다."
+      },
+      {
+        "factor": "광고단가",
+        "detail": "디지털 광고 시장의 경쟁 심화로 CPC 단가가 하락하면 애드테크 플랫폼 수익이 줄어들 수 있습니다."
+      },
+      {
+        "factor": "법·규제",
+        "detail": "전속계약 표준화, 방송·저작권·개인정보 규제 등은 운영 관행과 비용·계약 조건에 직접적인 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "당기(제16기) 연결 기준 매출은 466억원"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "연예 매니지먼트: 34,367 (74.6%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 나. 콘텐츠 제작 및 배급 사업",
+        "evidence_text": "극장, 방송사, OTT 플랫폼 등 다양한 채널"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 나. 애드테크(Ad-Tech) 플랫폼 사업",
+        "evidence_text": "CPC 단가는 전반적으로 하락하는 추세를 보이고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "제작비ㆍ출연료 상승이라는 비용 압박"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 6108,
+    "completion_tokens": 5639,
+    "reasoning_tokens": 4736,
+    "output_tokens": 903
+  },
+  "warnings": []
+}

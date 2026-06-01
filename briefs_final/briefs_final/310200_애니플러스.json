@@ -1,0 +1,71 @@
+{
+  "stock_code": "310200",
+  "corp_name": "애니플러스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 16:00",
+  "meta": {
+    "wics": "방송과엔터테인먼트",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "애니플러스는 국내 및 동남아시아에서 애니메이션 콘텐츠 유통과 상품화(굿즈) 사업을 주력으로 하는 방송·엔터테인먼트 기업입니다. 종속회사를 통해 전시, 드라마 제작, 굿즈 사업 등을 영위하며 라프텔·애니맥스 인수로 국내 일본 유스애니메이션 시장에서 입지를 강화했습니다.",
+    "business_model": "매출은 컨텐츠(방송·OTT·영화유통) 70.56%, 상품(캐릭터 굿즈) 18.86%, 기타(전시·행사·드라마) 10.58%로 구성되어 있으며, IP(지식재산권)를 기반으로 방송·OTT 유통, 굿즈 제작·판매, 전시·이벤트 등으로 수익을 창출합니다.",
+    "main_customers": "컨텐츠 — IPTV·인터넷·OTT 플랫폼 / 상품 — 캐릭터상품 소비자(굿즈 구매층) / 기타(전시·드라마) — 전시 관람객·행사 참가자 및 드라마 관련 사업 수요처",
+    "price_factors": [
+      {
+        "factor": "IP 수급력",
+        "detail": "애니메이션 IP 판권 확보력이 약화되면 콘텐츠 공급과 굿즈·전시 연계에 영향을 주어 실적에 직접적인 하방 요인이 됩니다."
+      },
+      {
+        "factor": "OTT 수요",
+        "detail": "OTT 플랫폼의 콘텐츠 수급 확대는 방송·OTT 유통 매출을 늘려 실적 개선에 긍정적으로 작용합니다."
+      },
+      {
+        "factor": "전시 민감성",
+        "detail": "전시 콘텐츠는 경기 변동에 민감해 경기 침체 시 관람객 감소로 전시·행사 매출이 줄어들 수 있습니다."
+      },
+      {
+        "factor": "제작비 인플레",
+        "detail": "드라마 제작비 상승(출연료·인건비 등)은 제작비 부담으로 수익성 악화 리스크를 높일 수 있습니다."
+      },
+      {
+        "factor": "글로벌 시장 성장",
+        "detail": "글로벌 콘텐츠 시장의 성장 흐름은 동남아 등 해외 유통 확대를 통한 매출 성장에 유리하게 작용합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "라프텔을 글로벌 OTT 플랫폼으로 성장시켜 나가고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "106,054(70.56%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "(2) 콘텐츠 산업 환경",
+        "evidence_text": "굿즈 구매, 콜라보카페&팝업스토어 방문, 전시이벤트 참가"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "4. 경쟁요소 (1) 애니메이션 사업",
+        "evidence_text": "애니메이션 IP 판권 수급력"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5184,
+    "completion_tokens": 4529,
+    "reasoning_tokens": 3776,
+    "output_tokens": 753
+  },
+  "warnings": []
+}

@@ -1,0 +1,72 @@
+{
+  "stock_code": "115310",
+  "corp_name": "인포바인",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 08:52",
+  "meta": {
+    "wics": "IT서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "인포바인은 정보보호(보안)와 모바일 기반 서비스를 제공하는 통신·IT서비스 기업입니다. 당사의 제26기 연결기준 영업수익은 287억원이며, 영업이익 65억원, 당기순이익 70억원을 기록하였습니다.",
+    "business_model": "주요 매출원은 휴대폰인증서보관서비스(44.3%)와 기타서비스(52.0%)가 대부분을 차지하며, 게임 서비스(2.7%)와 기타(1.0%)가 나머지를 구성합니다. 휴대폰인증서보관서비스는 이동통신사와의 협의를 통해 가격이 결정되고, 게임 수익은 부분유료화(앱 내 아이템 판매)를 통한 구조로 고정가격 산정이 어렵습니다.",
+    "main_customers": "휴대폰인증서보관서비스 — 이동통신사·휴대폰 이용자 / 기타서비스 — 제휴사 및 모바일 서비스 이용자 / 게임 서비스 — 게임 이용자(아이템 구매)",
+    "price_factors": [
+      {
+        "factor": "통신사 협상력",
+        "detail": "휴대폰인증서보관서비스 가격이 이동통신사와 협의하여 결정되므로 통신사와의 계약 조건이 실적에 직결됩니다."
+      },
+      {
+        "factor": "모바일 이용증가",
+        "detail": "모바일 인터넷 및 애플리케이션 사용 증가가 서비스 수요 확대에 영향을 미칩니다."
+      },
+      {
+        "factor": "게임 매출 변동성",
+        "detail": "게임 매출은 부분유료화(아이템 판매)에 의존해 매출 변동성이 클 수 있습니다."
+      },
+      {
+        "factor": "정보보호 수요",
+        "detail": "정보보호 관련 규제·안전 수요 증가는 인증·보관 서비스 등 수익성에 긍정적 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "당사의 제26기 영업실적은 연결기준 영업수익(매출) 287억원, 영업이익 65억원, 당기순이익 70억원을 기록 하였습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "휴대폰인증서보관서비스: 12,728 (44.3%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "기타서비스: 14,928 (52.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "나. 주요 제품 등의 가격변동 추이",
+        "evidence_text": "게임서비스 매출은 부분 유료화를 통한 아이템 판매가 이뤄지므로 정액제 게임과 달리 고정가격 산정이 어렵습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "나. 주요 제품 등의 가격변동 추이",
+        "evidence_text": "휴대폰인증서 보관서비스의 가격은 이동통신사와 협의하여 결정하고"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3416,
+    "completion_tokens": 3231,
+    "reasoning_tokens": 2432,
+    "output_tokens": 799
+  },
+  "warnings": []
+}

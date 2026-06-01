@@ -1,0 +1,67 @@
+{
+  "stock_code": "002030",
+  "corp_name": "아세아",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 17:44",
+  "meta": {
+    "wics": "건축자재",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "아세아는 시멘트 중심의 건축자재 제조·판매 기업으로, 시멘트·레미콘·드라이몰탈 등을 생산하며 국내 건설 현장에 공급해온 회사입니다. 시멘트 생산능력은 450만톤/년 수준이며, 기술영업과 연구개발을 통해 제품 다각화와 기술우위를 확보하고자 하고 있습니다.",
+    "business_model": "FY2025 기준 영업수익은 시멘트부문이 43.7%, 제지부문이 31.1%, 기타부문이 4.4%를 차지하며(시멘트부문: 824,308 (43.7%), 제지부문: 586,543 (31.1%), 기타부문: 83,104 (4.4%)), 주력은 시멘트 제조·판매입니다. 추가적으로 레미콘(레디믹스 콘크리트)과 드라이몰탈(현장용 건조 모르타르) 생산을 통해 건설 현장에 원스톱 공급을 제공하고, 제지 사업을 통해 그룹 차원의 수익 다각화를 추구합니다.",
+    "main_customers": "시멘트부문 — 건설 현장·건설업체 / 제지부문 — 제지 제품 수요처 / 기타부문 — 레미콘·드라이몰탈을 사용하는 건설 현장",
+    "price_factors": [
+      {
+        "factor": "건설투자·SOC정책",
+        "detail": "정부의 SOC 투자 확대·축소에 따라 시멘트 수요가 크게 변동해 실적에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "부동산·규제정책",
+        "detail": "부동산 규제 및 가계부채 대책 등으로 건설수주가 줄어들면 시멘트 수요와 매출이 감소할 수 있습니다."
+      },
+      {
+        "factor": "생산규모(경쟁력)",
+        "detail": "동종업체 대비 작은 생산능력은 가격·공급 측면에서 제약이 될 수 있어 수익성에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "기술·제품다각화",
+        "detail": "GPC·특수몰탈 등 기술개발과 기술영업을 통해 제품 차별화가 가능하면 마진 개선에 도움이 됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "상표, 고객관리 정책[시멘트사업부문]",
+        "evidence_text": "시멘트, 레미콘, 드라이몰탈을 제조, 판매하는"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "시멘트부문: 824,308 (43.7%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "상표, 고객관리 정책[시멘트사업부문]",
+        "evidence_text": "영업부문에서는 기술영업을 기반으로 건설 현장"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "정부의 SOC투자 확대정책"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4041,
+    "completion_tokens": 4560,
+    "reasoning_tokens": 3776,
+    "output_tokens": 784
+  },
+  "warnings": []
+}

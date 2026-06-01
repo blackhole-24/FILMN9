@@ -1,0 +1,74 @@
+{
+  "stock_code": "0030R0",
+  "corp_name": "대신밸류리츠",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 18:24",
+  "meta": {
+    "wics": "부동산",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "reit"
+  },
+  "brief": {
+    "company_overview": "대신밸류리츠는 부동산투자회사법에 따라 설립된 부동산투자회사(리츠)로, 투자자들로부터 자금을 확보하여 대신 기초부동산 관련 증권에 투자하고 자산관리로 부가가치를 제고해 안정적 배당을 추구하는 것을 목적으로 합니다. 주요 투자대상은 서울 핵심 오피스권인 을지로에 위치한 Core오피스인 대신343 빌딩에서 창출되는 배당수익입니다.",
+    "business_model": "자금을 조달해 대신 기초부동산 관련 증권(자리츠 보통주 지분증권)에 투자하고, 선진적 자산관리시스템을 통해 자산의 부가가치를 제고한 뒤 투자자에게 안정적인 배당을 실시하는 구조입니다. 구체적으로 자리츠의 투자자산인 대신343 빌딩으로부터 창출되는 배당수익을 향유하는 것을 목적으로 합니다.",
+    "main_customers": "자본조달(투자) — 리츠 투자자(일반 투자자·주주) / 자산운용(임대수익) — 마스터리스 임차인(대신프라퍼티(주))",
+    "price_factors": [
+      {
+        "factor": "임대계약",
+        "detail": "임대료 조정 구간(연 2.75%~10%)과 연장 옵션이 임대수익 및 배당에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "마스터리스",
+        "detail": "마스터리스 구조상 공실 리스크 귀속 및 임차인 계약 이행이 배당 안정성에 영향을 줍니다."
+      },
+      {
+        "factor": "임차인신용",
+        "detail": "임차인의 재무상태와 임대차 계약 준수 여부가 임대수익의 지속성에 영향합니다."
+      },
+      {
+        "factor": "자본구조",
+        "detail": "회사가 이용하는 부채비율 등 자본관리지표와 자본비용 변화가 실적 및 배당여력에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 업계의 현황",
+        "evidence_text": "이 중 상장리츠는 25개, 총 자산규모 19.2조원 수준입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "다. 사업내용",
+        "evidence_text": "대신343 빌딩으로부터 창출되는 배당수익 향유를 목적으로 합니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "다. 사업내용",
+        "evidence_text": "투자자들로부터 자금을 확보하여"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "임차 계약기간은 7년 만기 후 3년 연장 옵션으로"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "라. 조직도 > 2. 자본위험관리",
+        "evidence_text": "회사는 자본관리지표로 부채비율을 이용하고 있으며"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 3078,
+    "completion_tokens": 7121,
+    "reasoning_tokens": 6336,
+    "output_tokens": 785
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "stock_code": "090350",
+  "corp_name": "노루페인트",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 07:00",
+  "meta": {
+    "wics": "건축자재",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "노루페인트는 도료와 합성수지의 제조·판매를 주력으로 하는 기업으로, 건축용·공업용·자동차보수용·PCM강판용 등 다양한 용도의 도료를 공급하고 있습니다. 2025년 연결기준 매출액은 7,710억원입니다.",
+    "business_model": "사업부문별 매출 구성은 건축·공업용도료 등 44.0%, 공업도료 18.6%, 자보도료 7.8%, 기타 11.5%, PCM도료 등 18.1%로 구성되어 있으며, 제품/상품 판매가 주된 매출원입니다. 세부적으로 건축용·공업용 제품 비중이 가장 크고 PCM강판용 등 특수용도 도료도 주요 수익을 담당합니다.",
+    "main_customers": "건축, 공업용도료 등 — 건설·철강·금속·선박·자동차·전기전자 산업 / PCM도료 등 — PCM강판용 도료 수요처",
+    "price_factors": [
+      {
+        "factor": "원재료 의존도",
+        "detail": "원재료의 수입 비중이 높아 환율·유가 변동이 매출원가와 실적에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "전방산업 경기",
+        "detail": "건설·자동차·조선 등 전방산업의 경기 변동에 따라 도료 수요가 민감하게 변동합니다."
+      },
+      {
+        "factor": "경쟁심화",
+        "detail": "내수 중심의 성숙 시장에서 업체 간 경쟁이 심화되면 가격·마진 압박으로 이어질 수 있습니다."
+      },
+      {
+        "factor": "친환경 수요",
+        "detail": "환경·건강 이슈로 고기능·친환경 페인트에 대한 수요가 증가하며 제품 포트폴리오 변화가 실적에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "Ⅱ. 사업의 내용 > 2. 주요 제품 및 서비스",
+        "evidence_text": "당사는 도료, 합성수지 등의 제조 및 판매를 영위하고 있으며,"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "건축, 공업용도료 등: 382,034 (44.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 시장여건 및 영업의 개황 (1)산업의 특성",
+        "evidence_text": "건설, 철강, 금속, 선박, 자동차, 전기전자 등에 광범위한 마감소재로 사용되어,"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 시장여건 및 영업의 개황 (1)산업의 특성",
+        "evidence_text": "원재료의 수입 비중이 높고, 매출은 내수 비중이 높아"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5089,
+    "completion_tokens": 5163,
+    "reasoning_tokens": 4416,
+    "output_tokens": 747
+  },
+  "warnings": []
+}

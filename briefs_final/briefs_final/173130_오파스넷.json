@@ -1,0 +1,81 @@
+{
+  "stock_code": "173130",
+  "corp_name": "오파스넷",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:22",
+  "meta": {
+    "wics": "IT서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "오파스넷은 네트워크 통합(NI, Network Integration)과 시스템 통합(SI, System Integration)을 주요 사업으로 하는 IT 서비스 기업입니다. 당기 말 기준 수주 총액은 약 4,562억원, 수주잔고는 약 1,129억원이며, 연결기준 매출액 2,332억원과 영업이익 140억원을 기록했습니다.",
+    "business_model": "오파스넷의 매출은 용역매출 58.7%, 유지보수 35.6%, 기타 5.7%로 구성되어 있습니다. NI(네트워크 통합)는 네트워크 설계·구축·운영·유지보수를 아우르고, SI(시스템 통합)는 설계·소프트웨어 개발·장비 납품·구축·운용·유지보수를 통합 수행하는 사업입니다. 회사는 기존 네트워크 본연의 영역에서 수익성을 개선하는 동시에 SI와 컨설팅으로 범위를 넓혀 Total ICT 서비스 업체를 목표로 하고 있습니다.",
+    "main_customers": "NI — SK텔레콤, SK텔링크, SK주식회사 등 SK그룹 계열사 / NI·SI — 삼성전자, 한국거래소, KB국민카드, 넥슨, 엔씨소프트, 쿠팡, 한화시스템 등 국내 주요 대기업 / SI·NI — 삼성SDS, LG CNS, 포스코DX 같은 그룹사 IT 업체 및 IBM, AT&T 같은 글로벌 IT 업체 / NI·SI — 공공기관, 국방부 등 정부부처",
+    "price_factors": [
+      {
+        "factor": "IT투자",
+        "detail": "기업과 공공기관의 IT 투자 집행이 늘면 네트워크 구축·운영 수요가 확대되어 실적에 영향을 줍니다."
+      },
+      {
+        "factor": "DX확산",
+        "detail": "디지털 전환(DX, 디지털 전환)과 클라우드 확산이 이어질수록 안정적인 인프라 구축 수요가 늘어납니다."
+      },
+      {
+        "factor": "고금리",
+        "detail": "고금리 기조가 길어지면 기업의 설비투자와 IT 투자 의사결정이 신중해져 프로젝트 수주에 부담이 될 수 있습니다."
+      },
+      {
+        "factor": "환율변동",
+        "detail": "환율 변동성 확대는 IT 장비 가격과 투자 집행에 영향을 주어 프로젝트 수익성 관리에 변수가 됩니다."
+      },
+      {
+        "factor": "공공수요",
+        "detail": "공공·금융권 데이터센터와 인프라 구축 수요가 늘면 NI·SI 사업의 기회가 확대될 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 네트워크 통합(NI, Network Integration) 및 시스템 통합(SI, System Integration)을 주요 사업으로 영위"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당기 연결기준 매출액은 약 233,294백만원"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "용역매출: 102,624,297 (58.7%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "유지보수: 82,779,343 (35.6%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "주요 매출처로는 SK텔레콤, SK텔링크"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "삼성전자, 한국거래소, KB국민카드, 넥슨"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4682,
+    "completion_tokens": 980,
+    "reasoning_tokens": 0,
+    "output_tokens": 980
+  },
+  "warnings": []
+}

@@ -1,0 +1,72 @@
+{
+  "stock_code": "089140",
+  "corp_name": "넥스턴앤롤코리아",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 06:49",
+  "meta": {
+    "wics": "기계",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "넥스턴앤롤코리아는 CNC자동선반과 중장비부품을 제조하는 기계·장비업체로, 제조업 중심의 매출 구조를 가지고 있습니다. CNC자동선반은 자동차·통신장비·의료부품·전자가전 등 다양한 산업의 부품 가공에 활용되며, 중장비부품은 굴착기·지게차·산업차량 등에 공급됩니다.",
+    "business_model": "매출 구성은 중장비부품이 99.4%를 차지하고 기타가 0.6%로 구성되어 있습니다(사업부문별 매출 구성 기준). 주력은 CNC자동선반(컴퓨터 수치제어 장비, CNC: 컴퓨터 수치제어)과 중장비부품이며, B2B(기업간 거래) 수주형 구조로 완성차·산업기계·물류 관련 기업 등에 납품하여 수익을 창출합니다.",
+    "main_customers": "CNC자동선반 — 자동차·통신장비·의료부품·전자가전 제조업체 / 중장비부품 — 굴착기·지게차·산업차량 제조업체 및 물류·제조업체",
+    "price_factors": [
+      {
+        "factor": "설비투자",
+        "detail": "공작기계 산업은 제조업의 설비투자 동향에 절대적으로 좌우되어 설비투자 축소 시 실적에 직접적인 영향이 있습니다."
+      },
+      {
+        "factor": "자동차 수요",
+        "detail": "자동차 관련 부품 수요 변동이 크기 때문에 완성차 산업의 생산계획 변화가 실적 변동으로 이어집니다."
+      },
+      {
+        "factor": "자동화 전환",
+        "detail": "무인자동화·NC공작기계 수요 증가 추세는 자동화 장비를 보유한 기업에 유리하게 작용합니다."
+      },
+      {
+        "factor": "기술·부품 의존",
+        "detail": "핵심 부품 기술이나 일부 수입 의존도가 높아 기술력·부품 확보 상황이 경쟁력과 실적에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 회사의 현황 > (나) 공시대상 사업부문의 구분",
+        "evidence_text": "당사는 한국표준산업분류상 제조업이 전체 매출의 100%로 구성되어 있으며,"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "중장비부품: 3,927 (99.4%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 회사의 현황 > (1) 영업개황",
+        "evidence_text": "CNC자동선반은 자동차, 통신장비, 의료부품, 전자가전 등"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 업계의 현황 > (3) 경기변동의 특성",
+        "evidence_text": "공작기계산업은 제조업의 설비투자 동향에 절대적으로 좌우되는 경기민감형 산업입니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 업계의 현황 > (4) 경쟁요소",
+        "evidence_text": "당사는 짧은 연혁에도 불구하고 자체기술 개발능력을 보유하고 있어"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4367,
+    "completion_tokens": 4250,
+    "reasoning_tokens": 3392,
+    "output_tokens": 858
+  },
+  "warnings": []
+}

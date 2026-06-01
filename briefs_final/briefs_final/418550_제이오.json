@@ -1,0 +1,71 @@
+{
+  "stock_code": "418550",
+  "corp_name": "제이오",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 19:18",
+  "meta": {
+    "wics": "건설",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "제이오는 전지소재(탄소나노튜브) 생산과 플랜트엔지니어링을 양대 축으로 영위하는 기업으로, 전지용 도전재 개발에 20여 년간 투자해 독자 기술과 생산설비를 확보하고 국내 최초로 탄소나노튜브 대량생산에 성공했습니다. 확보한 기술과 인증을 바탕으로 국내·외 주요 전지사에 제품을 공급하고 있습니다.",
+    "business_model": "주요 사업은 전지소재(탄소나노튜브) 생산과 플랜트엔지니어링(설계·EPC)이며, FY2025 기준 전지소재 19.8%, 해외 25.6%, 플랜트엔지니어링 54.3%, 기타 0.3%의 매출 구성을 보입니다. 전지소재는 JENOTUBE 브랜드의 여러 규격 탄소나노튜브를 이차전지 도전재로 공급하고, 플랜트엔지니어링은 반도체·이차전지·석유화학 등 산업용 설계·시공·시운전 서비스를 제공합니다.",
+    "main_customers": "전지소재 — 국내·외 주요 전지사 / 플랜트엔지니어링 — 반도체·석유화학·환경·에너지·바이오 관련 기업 / 해외 — 해외 바이어 및 글로벌 고객",
+    "price_factors": [
+      {
+        "factor": "전기차 수요",
+        "detail": "글로벌 전기차 시장 회복 여부가 탄소나노튜브 수요와 전지소재 부문 실적에 직접 영향합니다."
+      },
+      {
+        "factor": "전고체 전환",
+        "detail": "전고체 배터리 등 차세대 배터리 적용 확대 시 탄소나노튜브의 수요 구조가 변화할 가능성이 있습니다."
+      },
+      {
+        "factor": "제조·진입장벽",
+        "detail": "촉매·합성 공정 등 기술·설비 변수와 대규모 CAPA 투자가 필요해 공급 확장 속도에 제약이 됩니다."
+      },
+      {
+        "factor": "규제·인증",
+        "detail": "화평법 등록·EPA·REACH 등 규제·등록이 없으면 해외 유통이 제한되어 실적에 영향을 미칩니다."
+      },
+      {
+        "factor": "플랜트 수주",
+        "detail": "플랜트사업은 경기민감적 수주산업으로 전방산업(석유화학 등) 상황에 따라 수익 변동성이 큽니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "당사는 국내 최초로 탄소나노튜브 대량 생산에 성공하였으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "전지소재: 10,913,949 (19.8%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "플랜트엔지니어링: 29,961,362 (54.3%)"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "마. 시장 여건 및 영업의 개황 등",
+        "evidence_text": "탄소나노튜브는 기존에 이차전지 도전재로 사용되던 카본블랙 대비 전기전도성이 뛰어나고 접촉 면적이 넓어,"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5685,
+    "completion_tokens": 3499,
+    "reasoning_tokens": 2624,
+    "output_tokens": 875
+  },
+  "warnings": []
+}

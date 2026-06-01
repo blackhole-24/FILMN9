@@ -1,0 +1,77 @@
+{
+  "stock_code": "000230",
+  "corp_name": "일동홀딩스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 16:42",
+  "meta": {
+    "wics": "제약",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "일동홀딩스는 제약업을 포괄하는 지주회사(홀딩컴퍼니)로, 지주사업과 다양한 계열사를 통해 그룹의 전략과 운영을 총괄합니다. 연결회사의 영업수익은 총 5,908.9억이며 전년동기 대비 6.9% 하락하는 등 그룹 전체 실적이 변동성을 보였습니다.",
+    "business_model": "수익원은 지주사업을 통한 배당·경영자문·브랜드수수료·임대수익과, 계열사를 통한 의약품 제조·판매 및 광고대행·소프트웨어 개발·의료기기 제조 등으로 구성됩니다. 사업부문별 영업수익 구성은 브랜드 16.2%, 임대료 20.0%, 배당금 0.9%로 나타났습니다.",
+    "main_customers": "지주사업 — 자회사(배당·경영자문·브랜드수수료·임대수익 제공) / 광고대행 — 광고주 / 소프트웨어·의료기기 — 산업별 기업 및 소비자 시장 / 의약품 제조 및 판매 — 국민(보건 수요자) 및 관련 의료시장",
+    "price_factors": [
+      {
+        "factor": "광고수요",
+        "detail": "광고시장은 경기변동과 소비패턴에 민감해 경기침체 시 광고대행 매출이 줄어 실적에 영향이 발생할 수 있습니다."
+      },
+      {
+        "factor": "지주수익성",
+        "detail": "지주사업은 자회사 배당·수수료 비중이 높아 자회사 실적이나 배당정책 변화가 지주 실적에 직접 영향을 줍니다."
+      },
+      {
+        "factor": "제약정책",
+        "detail": "정부의 약가 제도 개편 및 의약품 유통 구조 변화는 의약품 관련 계열사의 매출성과 수익성에 중요한 변수입니다."
+      },
+      {
+        "factor": "원자재·환율",
+        "detail": "국제 정세에 따른 유가·원자재 가격 상승과 환율 변동성 확대가 계열사의 비용구조와 실적에 부담을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "연결회사의 영업수익은 총 5,908.9억이며 전년동기 대비 6.9% 하락하였습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "브랜드: 3,053,609 (16.2%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "임대료: 3,764,936 (20.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "배당금: 164,017 (0.9%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "지배회사 내용",
+        "evidence_text": "배당금, 경영자문수수료, 브랜드수수료, 임대수익"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "영업 현황",
+        "evidence_text": "광고시장은 경기변동에 대한 탄력도가 높은 편"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5684,
+    "completion_tokens": 4495,
+    "reasoning_tokens": 3648,
+    "output_tokens": 847
+  },
+  "warnings": []
+}

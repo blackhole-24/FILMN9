@@ -1,0 +1,62 @@
+{
+  "stock_code": "078140",
+  "corp_name": "대봉엘에스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 05:45",
+  "meta": {
+    "wics": "제약",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "대봉엘에스는 1986년 설립된 화장품소재·원료의약품 전문 기업으로 플랫폼 개발 기술을 바탕으로 메디컬 뷰티와 바이오 등 사업을 영위하고 있습니다. 당기 연결 매출액은 전기 대비 8.6% 성장한 1,021억원을 기록했습니다.",
+    "business_model": "주요 사업부문은 화장품 소재·원료의약품, 상품 판매, 용역(임상·시험 등) 및 임대이며, FY2025 기준으로 화장품 소재·원료의약품 21.8%, 상품 55.9%, 용역 22.0%, 임대 0.3%의 매출 비중을 보입니다. 자회사(피엔케이피부임상연구센타)를 통해 인체적용시험·in vitro 시험·빅데이터 컨설팅 등 고부가가치 서비스까지 원스톱으로 제공하는 구조입니다.",
+    "main_customers": "화장품 소재·원료의약품 — 화장품 제조사·제약사 / 상품 — 유통업체·도매업자 / 용역(임상·시험) — 화장품·건강기능식품 등 제조사(기업 고객) / 임대 — 임차인(부동산 임대 고객)",
+    "price_factors": [
+      {
+        "factor": "원료 자급도",
+        "detail": "국내 원료의약품 자급도 상승은 국내 생산 확대 및 경쟁 환경 변화로 가격과 수익성에 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "규제·허가",
+        "detail": "의약품 안전성·유통 관련 규제 강화(예: DUR 등)는 제품 허가와 유통 과정의 비용·절차에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "소비자 수요",
+        "detail": "고령화 및 삶의 질(헬스·뷰티) 관심 증가는 화장품 소재와 인체적용시험 수요 증가로 이어져 매출에 영향합니다."
+      },
+      {
+        "factor": "환율",
+        "detail": "수출입 활동에서의 USD 등 외화 변동은 매출과 원가에 직간접적 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "1986년 설립부터 쌓은 플랫폼 개발 기술"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "화장품 소재 ㆍ 원료 의약품: 22,271,855 (21.8%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 7. 기타 참고사항",
+        "evidence_text": "인체적용시험, in vitro 시험, 빅데이터 컨설팅 서비스를 제공합니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4752,
+    "completion_tokens": 3605,
+    "reasoning_tokens": 2880,
+    "output_tokens": 725
+  },
+  "warnings": []
+}

@@ -1,0 +1,71 @@
+{
+  "stock_code": "306200",
+  "corp_name": "세아제강",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 15:47",
+  "meta": {
+    "wics": "철강",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "세아제강은 강관 제조·판매를 주력으로 하는 철강업체로, 포항·군산·순천·창원 등 4개 공장을 운영하고 있습니다. 2025년 전체 생산능력은 1,600,000톤이며 생산실적은 793,913톤, 연결기준 매출은 1,484,797백만원을 기록했습니다.",
+    "business_model": "핵심 사업은 강관(배관용·유정용·구조용 등) 제조·판매로, 사업부문별 영업수익에서 강관이 92.0%를 차지합니다. 주요 원재료는 HR Coil, HR Plate, STS 등이며, 국내 유통과 해외 Master·Local 판매를 통해 제품을 공급합니다.",
+    "main_customers": "강관 — 건설사·철강 유통사·EPC업체·해외판매법인",
+    "price_factors": [
+      {
+        "factor": "건설업 경기",
+        "detail": "건설업 시황에 따라 강관 수요가 크게 변동하므로 실적에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "무역규제",
+        "detail": "보호무역주의와 관세 부과·쿼터 등 수출환경 변화가 수출물량과 수익성에 영향을 줍니다."
+      },
+      {
+        "factor": "원자재 가격",
+        "detail": "HR Coil·HR Plate·STS 등 원재료 가격 변동이 매출원가와 이익률에 직접 영향합니다."
+      },
+      {
+        "factor": "계절성",
+        "detail": "계절적으로 1·3분기는 비수기, 2·4분기는 성수기여서 분기별 실적 변동성이 존재합니다."
+      },
+      {
+        "factor": "에너지·친환경 산업",
+        "detail": "풍력·LNG 등 친환경·에너지 산업의 성장 속도가 관련 수요(에너지용 강관)에 영향합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "당사의 강관 사업부문은 배관용, 유정용, 구조용 등에 사용되는 강관 제품을 생산 및 판매하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 영업수익 구성 (FY2025)]",
+        "evidence_text": "- 강관: 1,366,303 (92.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "주요 매출처로는 건설사, 철강 유통사, EPC업체, 해외판매법인 등이 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "계절적으로는 1,3분기는 비수기, 2,4분기는 성수기에 해당됩니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4279,
+    "completion_tokens": 3754,
+    "reasoning_tokens": 3008,
+    "output_tokens": 746
+  },
+  "warnings": []
+}

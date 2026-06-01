@@ -1,0 +1,67 @@
+{
+  "stock_code": "033130",
+  "corp_name": "디지틀조선",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 23:50",
+  "meta": {
+    "wics": "IT서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "디지틀조선은 인터넷 매체 'dizzo.com'을 포함해 옥외전광판(시티비전), CTS·SI 전산서비스, 교육서비스, 건물 임대 등 5개 사업군을 운영하는 IT 서비스 기업입니다. 제31기 매출액은 약 399억원, 영업이익 약 55억원, 당기순이익 약 54억원을 기록했습니다.",
+    "business_model": "주요 사업부문은 인터넷(뉴스·콘텐츠), 영상(시티비전·디지틀조선TV), 전산(CTS·SI), 교육(캐나다문화어학원·토플TPO), 기타(디조빌딩 임대)로 구성되어 있으며, 옥외전광판 광고 사업은 당사 매출의 약 20%를 차지하는 대표적인 수익사업입니다. CTS 자동화와 다중 플랫폼(홈페이지·유튜브·SNS 등)을 통한 콘텐츠·광고 수익, 교육서비스 및 건물임대를 통해 수익원을 다각화하고 있습니다.",
+    "main_customers": "인터넷 사업부문 — 웹·모바일 이용 독자 / 영상사업부문(시티비전) — 광고주(제품·기업 홍보) / 디지틀조선TV — SNS·플랫폼 이용 시청자 및 광고주 / 전산사업부문(CTS) — 신문발행 관련 기관(신문사) / 전산사업부문(SI) — 외부 기업(전산·정보시스템 수요 기업) / 교육사업부문 — 유아·초등·중등 수강생 및 영어 학습 고객 / 기타사업부문 — 건물 임차인(임대 수요)",
+    "price_factors": [
+      {
+        "factor": "옥외광고 수요",
+        "detail": "전광판(시티비전) 매출 비중이 높아 유동인구와 광고주 수요 변화에 실적이 민감하게 반응합니다."
+      },
+      {
+        "factor": "CTS 자동화 경쟁력",
+        "detail": "신문제작 전 과정의 자동화 구축은 비용우위·서비스 공급 경쟁력으로 이어질 수 있습니다."
+      },
+      {
+        "factor": "교육사업 계약·수요",
+        "detail": "TOEFL TPO 독점 판매 등 교육 관련 계약과 학습 수요 변동이 교육부문 실적에 직접 영향합니다."
+      },
+      {
+        "factor": "플랫폼 확산",
+        "detail": "디지틀조선TV의 다중 플랫폼 송출로 콘텐츠 도달 범위 확대가 광고·콘텐츠 수익에 영향합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 주요 사업의 내용 > 인터넷/콘텐츠 서비스",
+        "evidence_text": "인터넷 사업부문은 인터넷 매체인 'dizzo.com'을 운영하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "옥외전광판 광고 사업은 당사 매출의 약 20%를 차지하는 대표적인 수익사업입니다"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 주요 사업의 내용 > SI사업",
+        "evidence_text": "SI컨설팅 사업 - 외부 기업의 차세대 전산, 정보시스템 구축사업 등에 참여하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 주요 사업의 내용 > CTS사업",
+        "evidence_text": "당사는 업계최초로 CTS, 인쇄 및 발송 등 신문제작의 전 과정에 자동화 시스템을 구축하였으며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3663,
+    "completion_tokens": 5734,
+    "reasoning_tokens": 4864,
+    "output_tokens": 870
+  },
+  "warnings": []
+}

@@ -1,0 +1,77 @@
+{
+  "stock_code": "078130",
+  "corp_name": "국일제지",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 05:44",
+  "meta": {
+    "wics": "종이와목재",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "국일제지는 특수지(산업용 기능지)의 제조·판매를 주력으로 하는 제지기업입니다. 담배관련지·강판간지 등 고기능성 지종을 중심으로 설비투자와 품질관리로 경쟁력을 유지하고 있으며, 그래핀(탄소계 나노소재) 연구개발을 위해 자회사 국일그래핀(주)을 운영하고 있습니다.",
+    "business_model": "핵심 수익원은 특수지(박엽지·담배관련지 등) 제조·판매이며, 다품종 소량생산 기반의 고부가가치 제품 비중 확대를 추구합니다. FY2025 사업부문별 영업수익 구성은 기타 37.0% 및 수출 16.0%로 표기되어 있으며, 자회사 국일그래핀(주)은 현재 매출 실적이 없습니다(연구개발 중).",
+    "main_customers": "특수지 — 중간 가공업체(담배업체 등) / 산업용지(아산, 중단사업) — 포장·특수지 용도 기업 / 그래핀(자회사) — 전자·이차전지·디스플레이 등 소재 수요처",
+    "price_factors": [
+      {
+        "factor": "원재료(펄프)",
+        "detail": "펄프를 대부분 해외에서 수입하므로 국제 펄프가격 변동이 원가와 실적에 직접 영향."
+      },
+      {
+        "factor": "환율",
+        "detail": "원재료 수입 의존도가 높아 환율 변동 시 생산원가와 마진에 즉각적 영향을 미침."
+      },
+      {
+        "factor": "수요구조",
+        "detail": "디지털 전환으로 인쇄용지 수요는 감소하는 반면 특수지·친환경 지종 수요 확대가 실적 방향을 좌우."
+      },
+      {
+        "factor": "경쟁심화",
+        "detail": "해외 생산국의 설비확대로 가격경쟁이 심화될 경우 범용 제품 수익성 압박이 우려됨."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "국일제지(주)는 특수지 사업부문의 제조 및 판매 등 제지 고유 사업을 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "주로 담배관련지 및 간지와 같은 산업용 기능지 및 특수지가 주를 이루고 있으며,"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "기타 (37.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "수출 (16.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "구매자인 가공업체에 의해 요구되는 품질 및 마케팅이 매우 중요하다고 볼 수 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "펄프는 제지산업의 핵심 원재료로 대부분을 해외에서 수입하고 있으며,"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5178,
+    "completion_tokens": 4173,
+    "reasoning_tokens": 3328,
+    "output_tokens": 845
+  },
+  "warnings": []
+}

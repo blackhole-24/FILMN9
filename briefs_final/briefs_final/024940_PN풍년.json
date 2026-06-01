@@ -1,0 +1,72 @@
+{
+  "stock_code": "024940",
+  "corp_name": "PN풍년",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 23:01",
+  "meta": {
+    "wics": "가정용기기와용품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "PN풍년은 1954년 세광알미늄 공업사로 설립되어 수차례 상호 변경을 거쳐 2009년 주식회사 피엔풍년으로 재명명된 종합주방회사입니다. 주방·생활용품 제조·유통을 기반으로 오프라인과 직영몰 중심의 온라인 채널을 병행하며 브랜드 가치를 제고하고 있습니다.",
+    "business_model": "사업부문별 FY2025 영업수익 구성은 피엔풍년이 35.9%, 자회사 피엔랩이 1.4%를 차지하며(사업부문별 매출 구성), 주력은 전통적 오프라인 유통 채널과 직영몰·디지털 마케팅을 통한 온라인 판매입니다. 또한 박람회 참가 및 해외바이어 미팅을 통한 수출 활동으로 글로벌 판로 확대를 모색하고 있습니다.",
+    "main_customers": "피엔풍년 — 오프라인 소매점·대형 균일가 생활용품 매장·직영몰 이용 일반 소비자 / 피엔랩 — 온라인 채널(직영몰) 기반 온라인 소비자 및 가전 관련 온라인 수요",
+    "price_factors": [
+      {
+        "factor": "가성비 수요",
+        "detail": "소비심리 위축 시 가성비·저가형·필수품 중심의 구매가 증가하여 주력 제품군 매출 변화에 직접 영향이 있습니다."
+      },
+      {
+        "factor": "유통구조",
+        "detail": "오프라인에서 대형 균일가 매장 중심으로 판매구조가 변화하면서 기존 소매 채널 실적에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "경쟁심화",
+        "detail": "진입장벽이 낮아 국내외 다수 브랜드 및 군소업체의 경쟁 심화가 제품 차별화 및 마진에 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "1인 가구",
+        "detail": "1인 가구 증가로 소용량·다기능 제품 수요가 확대되어 제품 기획과 판매 전략의 성패가 실적에 반영됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 1954.05.01 세광알미늄 공업사로 설립된 후"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "피엔풍년: 20,142,430 (35.9%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "피엔랩: 763,640 (1.4%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "온라인 판매는 직영몰 중심으로 시스템 리뉴얼 및 일원화로 운영 효율을 제고하였으며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "다. 업계의 현황 (1) 산업의 특성",
+        "evidence_text": "진입장벽이 비교적 낮은 시장으로 국내외 다수 브랜드 및 군소업체가 시장에 참여하고 있으며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5164,
+    "completion_tokens": 3758,
+    "reasoning_tokens": 2944,
+    "output_tokens": 814
+  },
+  "warnings": []
+}

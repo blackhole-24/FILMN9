@@ -1,0 +1,77 @@
+{
+  "stock_code": "035760",
+  "corp_name": "CJ ENM",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 00:25",
+  "meta": {
+    "wics": "방송과엔터테인먼트",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "CJ ENM은 방송·콘텐츠 제작과 커머스까지 아우르는 종합 콘텐츠·미디어 기업으로, 사업은 미디어플랫폼, 영화드라마, 음악, 커머스의 4개 부문으로 구성되어 있습니다. 티빙(OTT(온라인동영상서비스))을 포함한 플랫폼 운영과 드라마·영화·음악 제작·유통을 주요 축으로 사업을 전개하고 있습니다.",
+    "business_model": "사업부문은 미디어플랫폼(광고·수신료·유료구독), 영화드라마(콘텐츠 판매·극장수입), 음악(음반·음원·공연), 커머스(TV커머스·e커머스)로 구성되어 있으며, FY2025 사업부문별 영업수익 구성에서 매출액 비중은 75.5%입니다. 미디어플랫폼은 광고와 수신료, 티빙 구독(유료가입상품)으로 수익을 창출하고, 영화드라마는 국내외 콘텐츠 판매 및 극장수입, 음악은 음원·공연 관련 매출, 커머스는 TV·전자상거래 판매가 핵심 수익원입니다.",
+    "main_customers": "미디어플랫폼사업 — 광고주·PP 및 플랫폼 사업자·티빙 이용 소비자 / 영화드라마사업 — 국내외 방송·미디어 사업자·온라인·모바일 플랫폼·콘텐츠 유통사업자 / 음악사업 — (사업 설명에 고객 명시 없음) / 커머스사업 — (사업 설명에 고객 명시 없음)",
+    "price_factors": [
+      {
+        "factor": "OTT경쟁",
+        "detail": "국내 OTT 시장의 경쟁 심화는 콘텐츠 투자 확대와 가입자 확보 비용 증가로 실적에 부담을 줄 수 있습니다."
+      },
+      {
+        "factor": "광고구조",
+        "detail": "광고시장의 매체 구성이 변화하고 모바일 광고가 성장하면 방송 광고 수익 구조와 광고 단가에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "수신료증가",
+        "detail": "디지털 가입자 증가 및 수신료 배분 정책 변화는 수신료 기반 수익성에 영향을 줍니다."
+      },
+      {
+        "factor": "방송규제",
+        "detail": "방송사업 관련 진입·소유·내용 규제는 사업 확장과 플랫폼 운영에 제약 또는 비용 요인으로 작용할 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사의 사업은 크게 4개 부문으로 구성되어 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "- 매출액 (75.5%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "방송채널, 광고, 티빙 사업 등이 편제되어 있는 미디어플랫폼사업"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "콘텐츠 판매는 국내외 방송, 미디어 사업자에게"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "국내 OTT 시장은 매년 급속하게 성장하고 있고"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "방송사업은 방송법 및 인터넷 멀티미디어 방송사업법 등으로 규제되고"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4095,
+    "completion_tokens": 4665,
+    "reasoning_tokens": 3776,
+    "output_tokens": 889
+  },
+  "warnings": []
+}

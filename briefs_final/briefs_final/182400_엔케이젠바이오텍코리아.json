@@ -1,0 +1,77 @@
+{
+  "stock_code": "182400",
+  "corp_name": "엔케이젠바이오텍코리아",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 10:58",
+  "meta": {
+    "wics": "생명과학도구및서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "엔케이젠바이오텍코리아는 회생절차 종료(2025-09-04) 후 사명을 변경한 기업으로, 면역 진단과 면역치료 기반의 통합 헬스케어 솔루션을 제공하는 것을 핵심 사업으로 하고 있습니다. 면역세포치료제 플랫폼과 면역력 관리를 위한 건강기능식품 등 면역 기반 제품·서비스를 운영하고 있습니다.",
+    "business_model": "주요 사업은 면역세포치료제, 면역진단키트, 건강기능식품 판매, 바이오 연구용 시약 등이며, FY2025 기준 매출 구성은 제품이 99.9%, 용역이 0.1%로 제품 매출 비중이 매우 높습니다. 핵심 기술로는 NK세포 기반의 면역세포치료제 플랫폼 ‘SuperNK(SNK)’를 보유하고 있으며, 한국과 미국의 GMP 생산시설을 통해 임상시험용 의약품을 생산하고 있습니다.",
+    "main_customers": "면역세포치료제 — 임상시험 대상 환자·의료기관 / 면역진단키트 — 국내 대학병원 및 주요 종합병원(임상 파트너 포함) / 건강기능식품 — 일반 소비자(자사몰·오픈마켓·라이브커머스 등 유통채널) / 연구용 시약 — 연구기관 및 기업 연구실",
+    "price_factors": [
+      {
+        "factor": "글로벌경쟁",
+        "detail": "상위 글로벌 기업의 높은 시장 점유율은 경쟁 강도를 높여 국내 중소기업의 해외 시장 진입과 점유율 확보에 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "면역분석수요",
+        "detail": "면역분석 분야의 시장 확대(체외진단 내 비중이 큼)는 면역진단 키트와 관련 제품의 수요 증가로 이어질 수 있습니다."
+      },
+      {
+        "factor": "국내시장다각화",
+        "detail": "포스트 코로나 환경에서 분자진단·면역진단·POCT 등 사업 영역 다각화 추세는 경쟁구도와 제품 포지셔닝에 영향을 줍니다."
+      },
+      {
+        "factor": "생산능력",
+        "detail": "한국·미국의 GMP 생산시설 보유는 임상용 제품 공급과 해외 임상 수행에 있어 중요한 운영적 이점이 됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "이후 사명을 주식회사 엔케이젠바이오텍코리아로 변경하였습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "제품: 2,609,180 (99.9%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황 > 가. 주요사업부문별 현황 (1) 면역세포치료제 사업",
+        "evidence_text": "면역세포치료제 플랫폼 기술 ‘SuperNK(SNK)’를 보유하고 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "이를 위해 국내외에서 다양한 임상시험을 수행하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "상위 5개 기업이 약 57~59%의 시장 점유율을 차지"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "면역분석 분야는 전체 체외진단 시장의 약 45.1%를 차지"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4627,
+    "completion_tokens": 4328,
+    "reasoning_tokens": 3392,
+    "output_tokens": 936
+  },
+  "warnings": []
+}

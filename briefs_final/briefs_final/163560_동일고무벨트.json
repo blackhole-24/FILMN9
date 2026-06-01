@@ -1,0 +1,86 @@
+{
+  "stock_code": "163560",
+  "corp_name": "동일고무벨트",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 10:39",
+  "meta": {
+    "wics": "화학",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "동일고무벨트는 산업용 고무제품을 제조하는 기업으로, 전동벨트·컨베어벨트·러버트랙과 엔지니어링·헬스케어 관련 제품을 영위하고 있습니다. 최근 연결 기준 매출은 3,646억원(전년대비 8.2% 증가)을 기록하며 글로벌 건설기계·산업용 수요를 주요 시장으로 하고 있습니다.",
+    "business_model": "핵심 사업은 고무벨트부문(전동벨트·컨베어벨트)과 기타고무제품 및 기타부문(러버트랙·엔지니어링·헬스케어)으로 구성되며, FY2025 기준 기타고무제품 및 기타부문이 62.3%를 차지합니다. 전동벨트는 제조업 전반(자동차·농기계·가전·정밀기계)에 공급되며, 러버트랙은 OE(완성장비 공급) 중심의 매출 구조(보고서상 OE 비중 높은 수준)를 바탕으로 기술·품질 중심의 경쟁력을 강조하고 있습니다.",
+    "main_customers": "고무벨트부문 — 자동차·농기계·가전·정밀기계 제조업체 / 기타고무제품 및 기타부문 — 굴삭기·로더·콤바인 등 건설·농업용 기계 제조사 및 토목·건설 고객 / 엔지니어링·헬스케어 — 철도·토목건설사 및 의료기기 관련 수요처",
+    "price_factors": [
+      {
+        "factor": "전기차 전환",
+        "detail": "내연기관에서 전기차로의 전환은 전동벨트 국내 수요 성장에 제약을 줄 수 있습니다."
+      },
+      {
+        "factor": "원자재·환율",
+        "detail": "국제원자재 가격·달러강세·금리 등 외부환경 변동성은 원가와 실적에 민감한 영향을 미칩니다."
+      },
+      {
+        "factor": "저가 경쟁",
+        "detail": "중국·동남아 저가 제품과의 경쟁은 일반 컨베어벨트 시장에서 수익성 악화를 초래할 수 있습니다."
+      },
+      {
+        "factor": "고기능 수요",
+        "detail": "친환경·기능성(그린·필터벨트) 제품 수요 증가는 고부가가치 영역에서의 성장 기회입니다."
+      },
+      {
+        "factor": "OE 의존도",
+        "detail": "러버트랙의 높은 OE 비중은 주요 고객사 수주에 따른 실적 변동성을 키울 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 산업용 고무제품 사업을 영위하고 있으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. 고무벨트 부문",
+        "evidence_text": "전동벨트는 동일고무벨트의 주요 제품으로"
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "기타고무제품 및 기타 부문: 227,028,576 (62.3%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 고무벨트 부문",
+        "evidence_text": "자동차, 농기계, 가전, 정밀기계등에 널리 사용되고 있는 전동벨트"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "나. 기타고무제품부문 및 기타부분",
+        "evidence_text": "굴삭기, 로더, 콤바인, 운반기 등 건설 및 농업용 기계에 사용되며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나. 사업부문별 현황 1. 고무벨트부문 (2) 경기변동의 특성",
+        "evidence_text": "국제원자재 가격급등, 금리인상, 달러강세 등 외부환경요인에 민감한 특성"
+      },
+      {
+        "field": "business_model",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "전체 매출액의 95%이상이 OE공급에서 발생하고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4981,
+    "completion_tokens": 4473,
+    "reasoning_tokens": 3392,
+    "output_tokens": 1081
+  },
+  "warnings": []
+}

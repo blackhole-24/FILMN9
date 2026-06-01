@@ -1,0 +1,82 @@
+{
+  "stock_code": "095270",
+  "corp_name": "웨이브일렉트로",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 07:32",
+  "meta": {
+    "wics": "우주항공과국방",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "웨이브일렉트로는 방산사업부문과 통신사업부문으로 구성된 기업으로, 유도무기용 신호처리장치·위성 SAR 탑재체 등 방산·우주 분야 장비와 기지국용 전력증폭기·RRH 등 통신장비를 개발·공급합니다. 종속회사(아데나, 텔라움, 아게이트)를 통해 군용 전원공급장치, 초고속통신망 전송장비, 보청기 유통 등 관련 사업을 운영하고 있습니다.",
+    "business_model": "제27기 연결기준으로 매출은 방산사업부문이 약 77.1% (62,060/80,533), 통신사업부문이 약 18.8% (15,100/80,533), 기타가 약 5.4% (4,343/80,533)를 차지하며, 방산은 유도무기용 신호처리장치·위성 탑재체·군용전원장치 등이, 통신은 전력증폭기(RF Power Amplifier), 필터, RRH 및 초고속통신망 전송장비 등이 핵심 수익원입니다.",
+    "main_customers": "방산사업부문 — 국가(군·방위사업체) 및 무기체계 개발 주체 / 통신사업부문 — 이동통신사 및 통신장비 제조업체, 유선방송·인터넷 서비스 제공업체 (예: LG유플러스, SK브로드밴드, HCN)",
+    "price_factors": [
+      {
+        "factor": "국방예산",
+        "detail": "국가의 안보정책과 국제정세 변화에 따라 방산 수요가 직접 변동하여 실적에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "진입장벽",
+        "detail": "방산은 방산업체 지정 등 진입장벽이 매우 높아 수주·공급 구조와 경쟁 구도가 실적에 직결됩니다."
+      },
+      {
+        "factor": "통신투자",
+        "detail": "통신사업자는 설비투자 규모에 절대적으로 의존하므로 통신사 투자 축소·확대가 통신부문 실적에 즉각적 영향을 미칩니다."
+      },
+      {
+        "factor": "6G·오픈RAN",
+        "detail": "6G 도입과 오픈RAN 확산은 글로벌 및 개발도상국 시장으로의 공급처 확대 기회를 제공할 가능성이 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "사업부문은 방산사업부문, 통신사업부문으로 구성되어 있으며, 각사업부문별 주요 제품은 다음과 같습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[표] 1. 매출실적(연결 기준)",
+        "evidence_text": "계 | 62,060 | 42,580 | 30,131"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[표] 1. 매출실적(연결 기준)",
+        "evidence_text": "합계(연결 조정 후) | 80,533 | 78,044 | 77,984"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "통신사업부문",
+        "evidence_text": "LG유플러스, SK브로드밴드 등 인터넷 서비스 제공 업체들과 HCN 등 유선방송사업자들이 고객사입니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "업계의 현황",
+        "evidence_text": "방위산업은 방위산업청에서 지정한 방산업체인 경우에만 공급이 가능한 진입장벽이 매우 높은 산업입니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "통신사업부문",
+        "evidence_text": "통신장비 산업은 ... 통신 사업자(SKT, KT, LGT)의 투자규모에 절대적으로 의존하는 산업 특성을 갖고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "산업의 성장성",
+        "evidence_text": "6G 통신은 ... 오픈RAN 구조로 구축되어 당사와 같은 무선 통신장비 제조사들에게는 ... 공급처를 확대할 수 있는 기회가 열립니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4548,
+    "completion_tokens": 4654,
+    "reasoning_tokens": 3584,
+    "output_tokens": 1070
+  },
+  "warnings": []
+}

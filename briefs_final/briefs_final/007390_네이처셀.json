@@ -1,0 +1,62 @@
+{
+  "stock_code": "007390",
+  "corp_name": "네이처셀",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 19:47",
+  "meta": {
+    "wics": "생물공학",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "네이처셀은 제약·생물공학 분야에서 줄기세포 기반 치료제 연구·임상과 줄기세포배양액 원료 화장품 및 건강음료 사업을 영위하는 기업입니다. 자가지방유래 성체줄기세포를 활용한 치료제 개발과 관련 제품의 제조·판매를 주요 활동으로 삼고 있습니다.",
+    "business_model": "주요 수익원은 줄기세포 사업(치료제 연구개발·배지·보관사업)과 줄기세포배양액 원료 화장품 판매, 그리고 음료(OEM 포함) 사업으로 구성됩니다. 사업부문별 영업수익 구성은 줄기세포사업 10.0%, 화장품 98.0%로 보고되고 있으며(※원문 표기 기준), 줄기세포부문은 임상개발 및 상용화 이후 판매·공동개발 매출이 발생하고 화장품·식품부문은 유통 채널을 통한 제품 판매로 매출을 창출합니다.",
+    "main_customers": "줄기세포사업 — 임상·연구 파트너 및 상용화 시 의료기관·퇴행성관절염 환자 / 화장품 — 자사몰·홈쇼핑·공항 면세점 등 유통 채널을 통한 일반 소비자 / 식품사업(음료) — 편의점·홈쇼핑·온라인몰·직영점 등 유통망을 통한 소비자 및 유통업체",
+    "price_factors": [
+      {
+        "factor": "규제·허가",
+        "detail": "줄기세포치료제는 허가·임상 규제가 엄격하여 인허가 관련 이슈가 실적과 가치에 직접적 영향을 미칩니다."
+      },
+      {
+        "factor": "임상성과",
+        "detail": "조인트스템 등 파이프라인의 FDA 지정·임상 성과에 따라 상용화 가능성과 매출 전개 전망이 변동됩니다."
+      },
+      {
+        "factor": "원자재·환율",
+        "detail": "음료류는 원부자재의 수입 의존도가 높아 환율·원자재 가격 변동에 민감하게 반응합니다."
+      },
+      {
+        "factor": "유통경쟁",
+        "detail": "음료 및 화장품 시장은 진입장벽이 낮고 대형 유통사의 PB(자체브랜드) 확대 등 경쟁 심화가 수익성에 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "자가지방유래 성체줄기세포를 이용한 줄기세포치료제"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "줄기세포사업 (10.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "자사몰을 비롯한 홈쇼핑, 공항 면세점 등에서 판매하고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 6180,
+    "completion_tokens": 3836,
+    "reasoning_tokens": 3072,
+    "output_tokens": 764
+  },
+  "warnings": []
+}

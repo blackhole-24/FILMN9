@@ -1,0 +1,71 @@
+{
+  "stock_code": "460860",
+  "corp_name": "동국제강",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 20:16",
+  "meta": {
+    "wics": "철강",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "동국제강은 철강 제조기업으로서 1960년대 큐폴라로(爐) 가동으로 쇳물 생산을 시작하였고, 봉형강·형강·후판을 주력으로 생산해 온 기업입니다. 1971년 후판 사업에 진출하는 등 전기로 기반 생산 역사를 이어오며 철강 제조에 특화되어 있습니다.",
+    "business_model": "매출은 철강부문 중심으로 구성되며, 사업부문별 매출 비중은 봉형강(69.93%), 후판(27.81%), 기타(2.26%)로 봉형강(봉·형강류)이 핵심 수익원입니다. 생산에서는 직류·교류 전기로 및 친환경 에코아크 전기로 등 전기로 기반 설비를 활용하고, 'Steel for Green' 전략과 스마트팩토리·공정투자를 통해 원가경쟁력과 품질 고도화를 추구하고 있습니다.",
+    "main_customers": "봉형강 — 건설업체(건축용·구조용) / 후판 — 조선사 및 건축구조용 수요처 / 기타 — 상품·부산물 구매처 및 임대 수요자",
+    "price_factors": [
+      {
+        "factor": "건설경기",
+        "detail": "건설 투자와 주택공급 정책에 따라 봉형강 수요가 직접 변동하여 매출과 실적에 영향을 미칩니다."
+      },
+      {
+        "factor": "조선수요",
+        "detail": "조선 업황이 호조일 경우 후판 수요가 견조하게 유지되어 후판 부문 실적에 긍정적 영향을 줍니다."
+      },
+      {
+        "factor": "원자재가격",
+        "detail": "철광석·고철·슬래브 등 원자재 가격 변동은 생산원가와 마진에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "탄소규제",
+        "detail": "탄소중립 관련 규제와 배출권제 참여가 생산비용과 설비투자 방향성에 영향을 주어 중장기 비용 구조에 변화 가능성이 있습니다."
+      },
+      {
+        "factor": "대외공급",
+        "detail": "중국의 정책 변화 및 공급과잉은 글로벌 수급에 영향을 주어 가격과 판매환경을 불안정하게 만들 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "사업의 내용(요약)",
+        "evidence_text": "봉강, 형강, 후판은 동국제강의 주력 제품입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[표] 가. 주요 제품, 서비스 등의 현황",
+        "evidence_text": "봉형강 69.93%, 후판 27.81%, 기타 2.26%"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "[표] 가. 주요 제품, 서비스 등의 현황",
+        "evidence_text": "봉형강 | 건축용, 구조용"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "사업의 내용(상세) - 업계의 현황",
+        "evidence_text": "철광석, 고철, 슬래브 등의 가격변동에 따라 결정"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4460,
+    "completion_tokens": 3484,
+    "reasoning_tokens": 2688,
+    "output_tokens": 796
+  },
+  "warnings": []
+}

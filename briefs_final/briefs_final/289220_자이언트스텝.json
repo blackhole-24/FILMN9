@@ -1,0 +1,71 @@
+{
+  "stock_code": "289220",
+  "corp_name": "자이언트스텝",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 15:09",
+  "meta": {
+    "wics": "양방향미디어와서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "자이언트스텝은 광고 VFX, 영상 VFX 및 리얼타임 콘텐츠 솔루션을 제작하는 AI기반 리얼타임 콘텐츠 솔루션 전문기업입니다. 자체 버추얼 스튜디오 'A.I-One Studio'와 버추얼 휴먼 등 리얼타임 XR(확장현실) 기반의 버추얼 프로덕션을 통해 제작부터 송출까지 원스톱 콘텐츠 제작 역량을 보유하고 있습니다.",
+    "business_model": "주요 수익원은 콘텐츠 제작(79.6%), 영상 기획 제작(10.9%), 장비판매(9.5%)으로 구성되며, 광고 VFX·영상 VFX는 프로젝트(수주) 기반의 제작 서비스로 매출을 창출하고 리얼타임 콘텐츠(버추얼 프로덕션·버추얼 휴먼·기업용 솔루션 등)를 통해 솔루션형 매출을 확대하고 있습니다.",
+    "main_customers": "광고 VFX·영상 VFX — 광고주·영화사·다양한 클라이언트 / 리얼타임 콘텐츠 — 기업(오토모티브 시장 등)·전시·미디어아트 협력사 / 장비판매 — 제작사·스튜디오",
+    "price_factors": [
+      {
+        "factor": "수주 변동성",
+        "detail": "수주 기반 사업구조 특성상 수주 증가 시 실적 개선에 직접 연결되며, 수주 감소 시 실적 변동성이 커집니다."
+      },
+      {
+        "factor": "기술 경쟁력",
+        "detail": "리얼타임 엔진·버추얼 휴먼 등 기술 우위는 고부가가치 프로젝트 수주와 가격 경쟁력에 긍정적 영향을 미칩니다."
+      },
+      {
+        "factor": "신사업 확장",
+        "detail": "전시공간·RX(Real-time eXperience)·AI 등 신사업 전개 성공 여부가 사업 다각화와 중장기 실적에 영향을 줍니다."
+      },
+      {
+        "factor": "글로벌 런칭",
+        "detail": "Project KAMPERS 등 콘텐츠의 해외 런칭 성과는 해외 매출 성장과 수익성에 직결됩니다."
+      },
+      {
+        "factor": "IP·파트너십",
+        "detail": "IP 협업 및 파트너사와의 프로젝트 진행은 수익 기회 확대와 브랜드 인지도 제고에 기여합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "AI기반의 리얼타임 콘텐츠 솔루션 전문기업입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "콘텐츠 제작(주1): 29,232 (79.6%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "다양한 클라이언트와 소비자의 요구에 맞춰"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "리얼타임 엔진을 활용한 기업용 솔루션(오토모티브 시장 등)"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4335,
+    "completion_tokens": 4128,
+    "reasoning_tokens": 3328,
+    "output_tokens": 800
+  },
+  "warnings": []
+}

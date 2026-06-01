@@ -1,0 +1,71 @@
+{
+  "stock_code": "069140",
+  "corp_name": "누리플랜",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:08",
+  "meta": {
+    "wics": "건설",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "누리플랜은 도시환경개선 분야를 중심으로 디자인, 설계, 제조, 설치까지 수행하는 전문회사입니다. 도시건설, 경관조명, 건설/플랜트, 대기환경, 방산 및 IT 관련 사업을 함께 운영하며, 연결기준 매출 1,176억원 규모의 사업 포트폴리오를 갖추고 있습니다.",
+    "business_model": "사업부문별로 건설/플랜트가 53.6%, 도시건설이 29.9%, 경관조명이 15.8%, 대기환경이 2.0%를 차지합니다. 도시환경개선 관련 시설물과 조명, 플랜트 부품, 환경저감 시스템을 설계·제작·설치하는 구조이며, 방산사업과 IT 기반 스마트빌리지 사업도 병행하고 있습니다. 회사는 프로젝트 수주와 실행률, 원가 관리에 따라 실적이 영향을 받는 사업 구조입니다.",
+    "main_customers": "도시건설 — 건설사 / 경관조명 — 건설사, 지방자치단체, 해외 / 건설·플랜트 — 플랜트기업, 건설사, 조선해운사 / 방산 — 국방부 및 예하 소요부대 / 대기환경 — 제조업을 영위하는 다양한 산업군",
+    "price_factors": [
+      {
+        "factor": "SOC투자",
+        "detail": "지역밀착형 SOC사업과 도시재생 뉴딜사업 확대는 보도육교, 방음벽 등 도시건설 관련 수요를 늘릴 수 있습니다."
+      },
+      {
+        "factor": "공공수주",
+        "detail": "지자체와 공공기관 비중이 높아 입찰과 공모전, 협상계약 결과에 따라 매출 변동이 커질 수 있습니다."
+      },
+      {
+        "factor": "계절영향",
+        "detail": "겨울철과 장마철에는 공사형 계약의 진행이 늦어져 매출이 다소 줄어드는 경향이 있습니다."
+      },
+      {
+        "factor": "환경수요",
+        "detail": "대기오염 이슈가 커질수록 백연·악취·먼지 저감 시스템에 대한 장기 수요 확대 가능성이 있습니다."
+      },
+      {
+        "factor": "방산투자",
+        "detail": "국방부와 예하 부대의 지속적인 투자 여부가 방산사업 매출 흐름에 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 가. 회사의 현황",
+        "evidence_text": "당사는 전문건설사업 등의 디자인, 설계, 제조, 설치를 주사업으로 하는 도시환경개선 전문회사입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "■ 사업부문별 영업수익 구성 (FY2025)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "건설/플랜트: 63,042 (53.6%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 가. 회사의 현황",
+        "evidence_text": "주요 고객사로는 건설사 등이 대부분"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5104,
+    "completion_tokens": 806,
+    "reasoning_tokens": 0,
+    "output_tokens": 806
+  },
+  "warnings": []
+}

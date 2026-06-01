@@ -1,0 +1,76 @@
+{
+  "stock_code": "900260",
+  "corp_name": "로스웰",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:48",
+  "meta": {
+    "wics": "통신장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "로스웰은 자동차용 전장제품과 통신 단말 사업을 함께 하는 기업으로, 2025년 기준 주된 영업활동은 자동차용 전장제품의 연구개발과 제조 및 유통입니다. 사업부문은 CAN bus 부문과 ZTE통신 가정용 정보단말 사업부문으로 구성되어 있으며, 2025년에는 ZTE통신향 물량공급 확대에 힘입어 최고 매출액을 기록했습니다.",
+    "business_model": "로스웰의 핵심 사업은 CAN 제어시스템을 기반으로 한 CAN bus 부문과 ZTE통신향 가정용 정보단말 사업부문입니다. 사업부문별 매출은 ZTE통신 가정용 정보 단말 등 3,672,442,730원(약 96.2%), CAN bus 제품 145,789,831원(약 3.8%)으로, 통신 단말 매출 비중이 매우 높습니다. CAN bus 부문은 자동차 내 차체제어기, 공조제어기, 리모트키 등 전장제품을 다루고, 통신 부문은 GPON(기가 비트 수동 광네트워크) 단말제품을 생산합니다.",
+    "main_customers": "CAN bus 부문 — 완성차업체 / ZTE통신 가정용 정보 단말 부문 — ZTE통신",
+    "price_factors": [
+      {
+        "factor": "ZTE물량",
+        "detail": "ZTE통신향 공급 물량이 늘거나 줄면 통신 단말 매출 비중이 크게 변동해 전체 실적에 직접 영향을 줍니다."
+      },
+      {
+        "factor": "자동차업황",
+        "detail": "자동차 산업 업황과 완성차업체의 전장부품 수요가 CAN bus 부문 매출과 수주 흐름에 영향을 줍니다."
+      },
+      {
+        "factor": "원가율",
+        "detail": "제조원가율 상승은 매출총이익을 줄이고 영업이익에 부담을 주는 요인으로 작용합니다."
+      },
+      {
+        "factor": "R&D투자",
+        "detail": "연구개발비를 매출액 대비 3.6% 수준으로 유지하는 만큼, 제품 경쟁력 강화와 비용 부담이 함께 실적에 영향을 줍니다."
+      },
+      {
+        "factor": "중국정책",
+        "detail": "통신산업이 중국의 디지털경제와 정책 추진의 영향을 크게 받아, 관련 인프라와 상용화 흐름이 사업 환경에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "MD&A",
+        "evidence_text": "당사와 연결종속회사의 주된 영업활동은 자동차용 전장제품의 연구개발과 제조 및 유통이며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[표] 당사의 매출은 전액 중국 내수에서 발생하였습니다. 가. 사업부문별",
+        "evidence_text": "ZTE통신 가정용 정보 단말 등 3,672,442,730"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[표] 당사의 매출은 전액 중국 내수에서 발생하였습니다. 가. 사업부문별",
+        "evidence_text": "CAN bus 제품 145,789,831"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "관련제품은 세단, 트럭 및 승객용 버스에 사용됩니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 ZTE통신(중흥통신) 향 공급계약을 공시한바 있으며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 6229,
+    "completion_tokens": 920,
+    "reasoning_tokens": 0,
+    "output_tokens": 920
+  },
+  "warnings": []
+}

@@ -1,0 +1,76 @@
+{
+  "stock_code": "446540",
+  "corp_name": "메가터치",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 19:44",
+  "meta": {
+    "wics": "전자장비와기기",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "메가터치는 배터리 충방전용 테스트 PIN·CLIP과 반도체 TEST용 PROBE PIN·ICT PIN 등을 개발·제조·판매하는 전자장비·기기 기업입니다. 배터리의 활성화 공정에서 사용되는 핀과 비메모리 반도체의 Wafer Test·Final Test용 핀을 주력 제품으로 하고 있습니다.",
+    "business_model": "사업부문별로 매출은 반도체가 가장 큰 비중을 차지하며, FY2025 기준 반도체 55.6%, 배터리 22.8%, 기타 21.6%의 영업수익 구성을 보이고 있습니다. 배터리 부문은 활성화 공정용 테스트 핀을 중심으로, 반도체 부문은 CPU/GPU 등 고난이도 비메모리 제품의 테스트용 핀과 인터포저 등을 중심으로 수익을 창출합니다.",
+    "main_customers": "배터리 — 국내 배터리 제조사(국내 배터리 3社) 및 완성차사 배터리 투자 프로젝트 / 반도체 — 비메모리 반도체 기업(특히 CPU/GPU 제품군) 및 테스트 장비업체 / 기타 — 별도 세부 고객 정보 미기재",
+    "price_factors": [
+      {
+        "factor": "전기차 수요",
+        "detail": "전기자동차 보급 확대는 리튬이온 배터리 수요를 늘려 배터리 테스트 핀 수요 증가로 이어집니다."
+      },
+      {
+        "factor": "반도체 투자",
+        "detail": "비메모리 반도체(특히 CPU/GPU) 시험 수요와 제조사 투자 확대는 반도체 부문 실적에 직결됩니다."
+      },
+      {
+        "factor": "규제준수",
+        "detail": "화학물질관리법·산업안전보건법 등 제조 관련 규제 준수 비용과 설비 조건이 생산·납품에 영향합니다."
+      },
+      {
+        "factor": "정부정책",
+        "detail": "K칩스법 등 첨단산업 지원 정책과 민관 R&D 투자 확대는 반도체·이차전지 관련 수요와 설비투자에 영향을 줍니다."
+      },
+      {
+        "factor": "해외수주",
+        "detail": "미국·유럽 등 해외 완성차·배터리 프로젝트 참여 확대는 수출·매출 성장과 직결됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "활성화 공정에서 사용되는 핀을 제조하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "배터리: 9,875,653 (22.8%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "반도체: 24,032,739 (55.6%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "기타: 9,305,302 (21.6%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "주로 국내 대기업 기반으로 제품 개발 및 납품하고 있으며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4963,
+    "completion_tokens": 3732,
+    "reasoning_tokens": 2880,
+    "output_tokens": 852
+  },
+  "warnings": []
+}

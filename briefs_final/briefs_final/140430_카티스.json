@@ -1,0 +1,66 @@
+{
+  "stock_code": "140430",
+  "corp_name": "카티스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 13:11",
+  "meta": {
+    "wics": "통신장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "카티스는 산업인프라 보안플랫폼과 PIDS(경계선 방호 보안시스템)를 중심으로 하는 공간인지 보안플랫폼 전문기업입니다. 정부기관·원자력발전소·공항·인터넷 데이터센터 등 하이엔드 보안 수요처에 플랫폼(소프트웨어와 하드웨어)을 공급합니다.",
+    "business_model": "주요 수익원은 제품판매(산업인프라 보안플랫폼, PIDS)와 기술서비스(용역)로 구성되며, 2025년 매출 구성은 산업인프라 보안플랫폼 약 85.7%, PIDS 약 6.7%, 기술서비스 등 약 7.6%로 집계됩니다. 핵심 제품군으로는 ACAM(출입통제 및 경보감시), AxiQuant·AxiLog 플랫폼과 Detection System 등이 있으며 온프레미스(자사서버 기반) 솔루션과 제품판매 중심의 수익구조입니다.",
+    "main_customers": "산업인프라 보안플랫폼 — 정부기관·원자력발전소·공항·인터넷 데이터센터·금융기관 및 전산센터 / PIDS — 국가중요시설의 외곽보안 담당 기관 / 기술서비스 등 — 보안시스템을 운영·관리하는 공공·산업시설 운영자",
+    "price_factors": [
+      {
+        "factor": "보안수요 변동",
+        "detail": "보안 사고나 사건 발생 시 즉각적 수요 증가로 매출이 단기적으로 확대될 수 있습니다."
+      },
+      {
+        "factor": "정책·안보 이슈",
+        "detail": "국내외 정치·안보 긴장(예: 국제 분쟁 등)은 국가·공공부문 보안 투자 증대로 실적에 영향을 미칩니다."
+      },
+      {
+        "factor": "기술변화",
+        "detail": "AI·사물인터넷 등 신기술 도입·위협 변화에 대한 대응력은 제품 경쟁력과 수주에 직결됩니다."
+      },
+      {
+        "factor": "제도·규제",
+        "detail": "보안 관련 법규 강화는 국가중요시설의 보안 투자 확대를 유도해 매출에 영향을 미칩니다."
+      },
+      {
+        "factor": "글로벌경쟁력",
+        "detail": "해외 수출 확대 여부와 국제시장 경쟁력은 수출 비중 및 성장성에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 주요 제품 및 서비스 설명",
+        "evidence_text": "당사 제품 라인업은 산업인프라 보안플랫폼과 PIDS시스템 품목으로 구성되어 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[표] 가. 매출실적",
+        "evidence_text": "합계 | 27,901 | 31,673 | 30,016"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "정부기관, 원자력발전소, 공항, 인터넷 데이터센터, 금융기관 및 전산센터"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 6078,
+    "completion_tokens": 3843,
+    "reasoning_tokens": 3072,
+    "output_tokens": 771
+  },
+  "warnings": []
+}

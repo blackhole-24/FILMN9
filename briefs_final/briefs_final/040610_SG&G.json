@@ -1,0 +1,76 @@
+{
+  "stock_code": "040610",
+  "corp_name": "SG&G",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 09:59",
+  "meta": {
+    "wics": "자동차부품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "SG&G는 운송장비·부품 업종의 자동차부품 기업으로, 사업보고서에서는 자동차부품제조 부문과 물류부문(3PL, 국제물류)을 주요 사업으로 설명하고 있습니다. 자동차 산업의 전후방 연관효과와 물류산업의 성장성을 함께 언급하고 있어, 제조와 물류를 아우르는 구조를 가진 회사로 볼 수 있습니다.",
+    "business_model": "자동차부품제조 부문은 완성차 업체에 납품하는 시트 부품 사업이 중심이며, 회사는 이를 통해 자동차 부품 공급망에 참여하고 있습니다. 물류부문은 3PL(3자물류)과 국제물류를 포함하며, 생산자에서 소비자까지의 운송·보관을 담당하는 물류 서비스를 제공합니다. 다만 제공된 사업부문별 매출 구성에는 부문명만 있고 매출 비율(%)은 없어, 비중 수치는 적지 않았습니다.",
+    "main_customers": "자동차부품제조 부문 — 완성차 업체(한국지엠 중심) / 물류부문 — 물류 서비스를 위탁하는 기업 고객",
+    "price_factors": [
+      {
+        "factor": "완성차수요",
+        "detail": "자동차부품 수요는 완성차 시장과 밀접해 경기와 소비심리가 약해지면 납품 물량도 영향을 받을 수 있습니다."
+      },
+      {
+        "factor": "수출확대",
+        "detail": "자동차부품업계의 수출이 늘면 대형 부품업체의 실적 개선으로 이어질 수 있어 회사의 납품 환경에도 영향을 줍니다."
+      },
+      {
+        "factor": "3PL확대",
+        "detail": "기업들이 물류를 전문업체에 맡기는 3PL(3자물류) 활용이 늘수록 물류부문 성장 기대가 커집니다."
+      },
+      {
+        "factor": "글로벌물동",
+        "detail": "무역개방화와 글로벌소싱으로 물동량이 증가하면 국제물류 수요가 확대될 가능성이 있습니다."
+      },
+      {
+        "factor": "경쟁우위",
+        "detail": "물류산업은 가격·품질·서비스·자동화 경쟁이 중요해, 회사의 서비스 경쟁력이 실적에 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "자동차부품제조 부문"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "물류부문(3PL, 국제물류)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 (주)케이엠앤아이가 생산하는 시트의 부품을 납품"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "물류산업은 생산자에서 소비자에 이르기까지"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "한국지엠에 대부분 판매됨"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 3465,
+    "completion_tokens": 813,
+    "reasoning_tokens": 0,
+    "output_tokens": 813
+  },
+  "warnings": []
+}

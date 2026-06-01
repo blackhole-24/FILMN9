@@ -1,0 +1,67 @@
+{
+  "stock_code": "175330",
+  "corp_name": "JB금융지주",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 10:49",
+  "meta": {
+    "wics": "은행",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "JB금융지주는 2013년 전북은행을 주식의 포괄적 이전 방식으로 설립된 지주회사로, 전북은행·광주은행 등 은행 계열사와 캐피탈·자산운용·투자회사를 거느린 지역 기반의 종합금융그룹입니다. 총자산은 73조원을 달성하며 외형 성장을 이어가고 있으며, 그룹의 수익성 지표(ROE·ROA)는 양호한 수준을 유지하고 있습니다.",
+    "business_model": "당사의 핵심 수익원은 자회사로부터의 배당수익(지주회사 특성)이며, 은행업·여신전문금융·자산운용·신기술투자 등을 자회사 중심으로 관리·지원하는 지주회사형 사업구조입니다. FY2025 영업수익 구성에서는 금전신탁 9.1%, 양도성예금증서 3.6%, 외화예수금 0.6% 등이 확인됩니다.",
+    "main_customers": "은행업 — 예금·대출 관련 고객 / 여신전문금융 — 대출 수요 고객 / 집합투자업 — 펀드 가입자(투자자) / 신기술사업금융 — 신기술·사업투자 관련 대상기업",
+    "price_factors": [
+      {
+        "factor": "정책기조",
+        "detail": "정책 기조 변화·통상 환경 불확실성 확대 시 대외영향으로 자산성장·수익성 변동성이 커질 수 있습니다."
+      },
+      {
+        "factor": "금리(이자)",
+        "detail": "금리 변동성 확대는 은행 자회사의 이자수익(순이자마진, NIM)에 직접 영향을 미쳐 그룹 실적에 영향을 줍니다."
+      },
+      {
+        "factor": "자회사 배당",
+        "detail": "지주의 주수익원인 자회사 배당 흐름이 변하면 지주 실적 및 현금흐름에 직접적인 영향이 발생합니다."
+      },
+      {
+        "factor": "경쟁강도",
+        "detail": "금융권 경쟁 가속화는 자본 효율성과 수익성(ROE) 관리를 어렵게 만들어 비용·사업구조 조정 필요성을 높입니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "총자산은 73조원을 달성하며 외형 성장을 이어갔고,"
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황",
+        "evidence_text": "당사의 주수익원은 자회사로부터의 배당수익이며,"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "자회사로는 은행업을 영위하는 (주)전북은행과 (주)광주은행,"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "정치적 불확실성과 금리 변동성 확대"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4252,
+    "completion_tokens": 4172,
+    "reasoning_tokens": 3392,
+    "output_tokens": 780
+  },
+  "warnings": []
+}

@@ -1,0 +1,67 @@
+{
+  "stock_code": "382800",
+  "corp_name": "지앤비에스 에코",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 18:32",
+  "meta": {
+    "wics": "반도체와반도체장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "지앤비에스 에코는 2005년 설립된 친환경 공정장비 전문 기업으로, 반도체·태양광·디스플레이·발전소 등 핵심 산업 현장에서 발생하는 유해가스와 분진을 처리하는 장비를 연구개발·공급하고 있습니다. 지속적인 연구개발을 통해 글로벌 ESG(환경·사회·지배구조) 트렌드에 부합하는 제품을 제공하고 있습니다.",
+    "business_model": "핵심 수익원은 장비별 공급으로, 특히 스크러버(Scrubber)가 주요 매출원입니다; FY2025 기준 스크러버는 29.7%를 차지합니다. 그 외 사업부문별 영업수익 구성은 '2007년' 18.3%, '2018년' 12.0%, 질소산화물처리설비(De-NoX) & E.P시스템 0.5%, 트랩(Powder Trap) 1.7%, 플라즈마 백연제거장치 2.0%, 기타 35.8%로 구성되어 있습니다.",
+    "main_customers": "스크러버 — 반도체·디스플레이·태양광·발전소 등 제조사 및 공기업 / 질소산화물처리설비·E.P시스템 — 발전소·공기업 / 트랩·플라즈마 백연제거장치 — 태양광·발전소·대형 제조사",
+    "price_factors": [
+      {
+        "factor": "반도체 사이클",
+        "detail": "반도체 투자 사이클(실리콘 사이클)에 따라 장비 수주와 실적이 4년 주기의 호황·불황 영향을 받습니다."
+      },
+      {
+        "factor": "신재생 정책",
+        "detail": "국가별 태양광·신재생에너지 투자 및 보조금 정책 강화는 태양광 장비 수요 증가로 실적에 긍정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "대기업 투자 의존",
+        "detail": "주요 고객이 국내외 대형 제조사에 집중되어 있어 대기업의 설비투자 결정이 수주와 실적에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "환율 변동",
+        "detail": "외화표시 거래 비중으로 환율 변동 시 매출·비용에 영향을 받을 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "당사는 2005년 설립 이후 지속적인 연구개발을 기반으로"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "스크러버(Scrubber): 27,291 (29.7%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "주요 납품사는 국내외 대형 반도체 제조기업으로 중국 등 해외 기업 비중이 높으며,"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "산업의 특성과 성장성",
+        "evidence_text": "반도체 산업은 '실리콘 사이클'에 따라 4년 주기로 호황과 불황이 반복되는 것을 의미하며,"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5187,
+    "completion_tokens": 4139,
+    "reasoning_tokens": 3328,
+    "output_tokens": 811
+  },
+  "warnings": []
+}

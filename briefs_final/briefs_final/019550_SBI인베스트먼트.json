@@ -1,0 +1,66 @@
+{
+  "stock_code": "019550",
+  "corp_name": "SBI인베스트먼트",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 22:27",
+  "meta": {
+    "wics": "창업투자",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "SBI인베스트먼트는 1986년 설립된 벤처투자회사로, 벤처투자 촉진에 관한 법률에 근거해 중소·창업기업에 대한 투자지원과 벤처투자조합의 결성·운영을 주된 목적으로 합니다. 설립 이후 총 87개의 펀드를 운영하며 900개 이상의 기업에 투자를 집행했고, 220개 이상 회사의 상장을 견인했으며, 2025년말 운용자산 총액은 1조 1,855억원(Co-GP 안분)으로 업계 10위권에 위치합니다.",
+    "business_model": "핵심 사업은 벤처투자(벤처펀드의 결성·운영 및 스타트업 투자), PEF(사모투자펀드)의 설립·운용, 기업인수합병(M&A), SPAC(기업인수목적회사) 운용 등입니다. 2025년 영업수익 구성은 관계기업 투자이익 61.0%, 수수료수익(조합관리보수·성과보수) 34.9%, 이자수익 2.8% 등으로 투자수익과 수수료수익이 실적을 주로 견인합니다.",
+    "main_customers": "벤처투자 — 중소·창업기업(투자대상) / PEF·M&A·SPAC — 인수·합병·상장 관련 기업 / 펀드운용(수수료) — 연기금·금융회사 등 출자자(투자자)",
+    "price_factors": [
+      {
+        "factor": "LP 출자",
+        "detail": "연기금·금융사 등의 벤처펀드 출자 축소는 신규 펀드 결성과 자금조달 능력에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "투자 회수",
+        "detail": "투자자산 회수이익 및 평가이익과 조합운용으로 수령하는 수수료가 회사 실적에 큰 영향을 미칩니다."
+      },
+      {
+        "factor": "VC 등급",
+        "detail": "VC 자율규제 평가에서의 높은 등급은 펀드레이징(자금유치) 우위로 연결될 수 있습니다."
+      },
+      {
+        "factor": "AUM 규모",
+        "detail": "운용자산 총액과 업계 순위는 수수료수익 기반과 시장 신뢰도에 영향을 미칩니다."
+      },
+      {
+        "factor": "IPO 시장",
+        "detail": "코스닥 등 상장시장 환경은 투자회수(엑시트) 기회와 매각수익률에 직결됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A) > 가. 회사의 영업현황",
+        "evidence_text": "당사는 1986년 11월 설립된 벤처투자회사로서"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 다. 영업의 현황",
+        "evidence_text": "투자수익 및 수수료수익의 비중은 각각 65.1%, 34.9%"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 다. 영업의 현황",
+        "evidence_text": "SBI인베스트먼트는 이번 VC 자율규제 평가에서 최고 등급(S등급)을 획득하였습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4018,
+    "completion_tokens": 5791,
+    "reasoning_tokens": 4928,
+    "output_tokens": 863
+  },
+  "warnings": []
+}

@@ -1,0 +1,68 @@
+{
+  "stock_code": "091120",
+  "corp_name": "이엠텍",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 07:07",
+  "meta": {
+    "wics": "핸드셋",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "이엠텍은 핸드셋(휴대폰) 관련 부품과 자체 제품을 병행하는 전기·전자 기업으로, 사업부문은 부품사업부문과 제품사업부문으로 구성되어 있습니다. 연구개발과 마케팅은 국내에서 수행하고, 제조는 베트남·인도네시아·중국 등 해외사업장을 중심으로 운영하고 있습니다.",
+    "business_model": "핵심은 부품사업(휴대폰·Smart Watch·TWS용 모듈, 스피커, 진동모터 등)과 제품사업(전자담배, 자동주사기 등)의 투트랙 구조로 수익을 창출합니다. 개발·지적재산권을 바탕으로 메이저 업체와 협업 개발을 진행하고, 생산은 해외 제조기지 중심으로 운영하며 고부가 제품은 국내 라인에서 성장시켜 나가고자 합니다.",
+    "main_customers": "부품사업 — 휴대폰·스마트기기 제조사 및 자동차 전장업체 / 제품사업 — 전자담배 브랜드·제약·바이오(자동주사기 협업 대상), 메이저 OEM/브랜드사",
+    "price_factors": [
+      {
+        "factor": "전방산업 의존성",
+        "detail": "휴대폰 등 전방산업 수요 변화 시 부품사업 실적에 직접적인 영향이 발생합니다."
+      },
+      {
+        "factor": "고사양화 수요",
+        "detail": "스마트기기 고사양화에 따라 모듈화·고부가가치 부품 수요 증감이 실적에 영향을 미칩니다."
+      },
+      {
+        "factor": "진입장벽·품질",
+        "detail": "고품질·자동화 라인과 협업 능력이 부족하면 신규 수주 확보가 어렵습니다."
+      },
+      {
+        "factor": "제품사업 상용화",
+        "detail": "전자담배·자동주사기 등 제품사업의 사업화 진전 수준에 따라 매출과 수익성 개선 폭이 달라집니다."
+      },
+      {
+        "factor": "해외생산 리스크",
+        "detail": "주요 제조가 해외에 집중되어 있어 공급망·생산차질이 발생하면 실적에 영향이 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 사업구분",
+        "evidence_text": "당사의 사업부문은 부품사업부문과 제품사업부문으로 구분되어 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. 사업구분",
+        "evidence_text": "부품사업부문은 휴대폰, Smart Watch, TWS 등에 들어가는 Module Ass'y,  Speaker, Vibration Motor를 주력사업으로 추진하고 있고, 자동차용 전장메카, 햅틱 모듈 분야로 사업을 성장시켜 가고 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "나. 업계의 현황 (1) 부품사업",
+        "evidence_text": "모델별 부품 제작과 생산은 휴대폰 제조사와 협업 관계를 유지해야하며"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4151,
+    "completion_tokens": 4218,
+    "reasoning_tokens": 3456,
+    "output_tokens": 762
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

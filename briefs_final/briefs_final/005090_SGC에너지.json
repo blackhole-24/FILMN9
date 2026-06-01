@@ -1,0 +1,66 @@
+{
+  "stock_code": "005090",
+  "corp_name": "SGC에너지",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 19:06",
+  "meta": {
+    "wics": "에너지장비및서비스",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "SGC에너지는 전라북도 군산시에 열병합발전소를 운영하는 전기·가스 계열 회사로, 2008년 4월부터 상업 생산을 시작하여 증기와 전기를 동시에 생산해 공급하고 있습니다. 발전·건설·유리 등 세 가지 사업부문을 영위하며 발전부문에서 안정적 수익원을 확보하고 있습니다.",
+    "business_model": "사업부문별 영업수익(FY2025)은 전기 48.5%, 증기 19.1%, REC(재생에너지공급인증서) 28.5%, 기타 3.8%로 구성되어 있습니다. 전력은 자체 사용 후 전력거래소에 계통한계가격(SMP)으로 판매하고, 증기는 20개 수요처에 공정용으로 공급하며, REC 판매와 온실가스배출권 거래로 수익성을 보완하고 있습니다.",
+    "main_customers": "전기·증기 — 20개 공정용 증기 수요처 및 전력거래소(전기 판매) / 건설및부동산(플랜트·EPC) — 석유화학·정밀화학·무기화학·발전·바이오/제약·반도체&LCD 업계 / 유리(B2B) — 음료·주류 업체 / 유리(B2C) — 생활용품 소비자",
+    "price_factors": [
+      {
+        "factor": "환경규제",
+        "detail": "강화되는 환경 관련 규제와 온실가스 관리 의무는 비용·설비투자 부담과 동시에 친환경 인증을 통한 차별화 요소로 작용합니다."
+      },
+      {
+        "factor": "전력가격",
+        "detail": "전기는 전력거래소에 계통한계가격(SMP)으로 판매되므로 SMP 변동이 매출과 이익에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "연료전환",
+        "detail": "목재펠릿 등 바이오매스 혼소·전환 추진은 연료비 구조와 REC 확보에 영향을 주어 실적 변동 요인이 됩니다."
+      },
+      {
+        "factor": "REC·탄소수익",
+        "detail": "REC 판매와 확보한 온실가스배출권 거래는 친환경 전환에 따른 추가 수익원으로 작용합니다."
+      },
+      {
+        "factor": "환경인증",
+        "detail": "ISO 14001 등 환경경영 인증 보유는 규제 대응력과 고객사 신뢰도에 긍정적 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "[발전/에너지 부문]",
+        "evidence_text": "2008년 4월부터 상업 생산을 시작하였습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "전기: 324,017 (48.5%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "[발전/에너지 부문]",
+        "evidence_text": "증기는 현재 20개의 증기 수요처에 공정용 증기를 공급하고 있으며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4224,
+    "completion_tokens": 3020,
+    "reasoning_tokens": 2240,
+    "output_tokens": 780
+  },
+  "warnings": []
+}

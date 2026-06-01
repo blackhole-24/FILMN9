@@ -1,0 +1,76 @@
+{
+  "stock_code": "031820",
+  "corp_name": "아이티센씨티에스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 23:38",
+  "meta": {
+    "wics": "IT서비스",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "아이티센씨티에스는 1983년 설립된 IT 서비스 기업으로, 공공·금융·엔터프라이즈 분야의 주요 Captive 고객을 기반으로 AI 인프라 컨설팅·구축·운영 사업을 전문으로 수행합니다. AI 솔루션 구축과 AI·Cloud 인프라 운영, AI&Cloud 컨설팅을 핵심 역량으로 삼고 있으며 연결종속회사 10개(상장사 2개 포함)를 보유하고 있습니다.",
+    "business_model": "핵심 사업은 Consulting Service(IT·AI 컨설팅), AI & Cloud(인프라 구축·운영·솔루션 제공), Digital Service(데이터센터·인프라·DX(디지털 전환) 솔루션)으로 구성됩니다. 주요 연결종속회사인 (주)아이티센엔텍의 사업부문별 매출 비중은 ITO(IT Outsourcing) 50.19%, DX(Digital Transformation) 43.93%, AX(AI Transformation) 4.53%, 기타 1.35%입니다.",
+    "main_customers": "Consulting Service — 공공·금융·엔터프라이즈 / AI & Cloud — 공공·엔터프라이즈(기업) / Digital Service — 공공·제조·물류·서비스·금융",
+    "price_factors": [
+      {
+        "factor": "AI수요",
+        "detail": "국내 AI 시장 성장(+25%)에 따라 AI 인프라·솔루션 수요 확대가 실적에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "데이터센터",
+        "detail": "데이터센터 시장의 중장기 성장(~연평균 6%)으로 대규모 인프라 구축 및 운영 매출 증대 요인이 됩니다."
+      },
+      {
+        "factor": "클라우드전환",
+        "detail": "공공·기업의 클라우드 전환 가속화는 클라우드 구축·마이그레이션·운영 수요를 늘려 매출에 긍정적 영향을 줍니다."
+      },
+      {
+        "factor": "예산집행",
+        "detail": "공공·금융 등 고객의 예산 특성상 하반기·4분기에 대형 프로젝트 매출이 집중되는 경향이 실적 변동성을 키웁니다."
+      },
+      {
+        "factor": "인력확보",
+        "detail": "고숙련 엔지니어 중심의 산업 특성상 우수 인력 확보와 기술 역량 유지가 수주 경쟁력에 중요한 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "당사는 1983년 설립하여, 공공 / 금융 / 엔터프라이즈 분야의 주요 Captive 고객을 기반"
+      },
+      {
+        "field": "business_model",
+        "source_section": "(2) AI & Cloud",
+        "evidence_text": "당사는 AI인프라 운영 및 통합 서비스 제공 사업자로서"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[표] (1) 매출현황",
+        "evidence_text": "ITO (IT Outsourcing) | 170,392 | 50.19"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "주요종속회사 : (주)아이티센엔텍",
+        "evidence_text": "주요 사업 분야는 공공, 제조, 물류, 서비스, 금융 산업 전반"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "(1) 업계의 현황",
+        "evidence_text": "국내 AI 시장은 전년 대비 +25% 성장"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4398,
+    "completion_tokens": 4660,
+    "reasoning_tokens": 3776,
+    "output_tokens": 884
+  },
+  "warnings": []
+}

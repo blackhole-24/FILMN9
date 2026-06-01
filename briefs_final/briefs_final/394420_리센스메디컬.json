@@ -1,0 +1,72 @@
+{
+  "stock_code": "394420",
+  "corp_name": "리센스메디컬",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 18:47",
+  "meta": {
+    "wics": "건강관리장비와용품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "리센스메디컬은 극저온-열전 복합 급속정밀냉각기술을 바탕으로 피부·안과·동물의료용 냉각 의료기기를 개발·상용화한 의료기기업니다. 타겟쿨(TargetCool), 안과용 오큐쿨(OcuCool), 경피약물전달 기기 타겟쿨 플러스(TargetCool+), 동물용 벳이즈(VetEase) 등을 보유하고 있으며, 제10기 연결기준 매출액은 88억원, 영업손실 106억원, 당기순손실 191억원을 기록했습니다.",
+    "business_model": "FY2025 기준 사업부문별 영업수익에서 '제품'이 100.0%로 핵심 수익원이며, 세부 항목으로 VetEase 3.8%, 기타 1.0%, 상품 0.0%로 표기되어 있습니다. 주력 제품은 냉각마취·정밀냉각치료 기기와 경피약물전달 솔루션으로, 기술개발(R&D) 중심의 상용화 단계에 있어 단기적 수익성은 제한적인 구조입니다.",
+    "main_customers": "제품 — 피부과·안과 의료기관 및 클리닉 / VetEase — 동물병원·수의사(동물의료 시장) / 상품·기타 — 의료기기 유통업체 및 병·의원",
+    "price_factors": [
+      {
+        "factor": "규제·허가",
+        "detail": "시술 부위가 피부여서 중등도 위험(Class II/IIa)으로 분류되며 전기안전·전자파 규격 준수가 판매 허가와 비용에 영향."
+      },
+      {
+        "factor": "동물용 규제",
+        "detail": "동물용 의료기기는 GMP 의무가 없고 사후관리 중심이어서 동물의료 시장 진입장벽이 상대적으로 낮음."
+      },
+      {
+        "factor": "기술경쟁력",
+        "detail": "초당 100˚C, ±1˚C 수준의 급속정밀냉각 제어 성능은 제품 차별화와 수요 확보에 직접 영향."
+      },
+      {
+        "factor": "R&D·수익성",
+        "detail": "연구개발 및 시장 진입 단계로 인한 높은 R&D 비용과 초기 적자가 실적에 영향을 미침."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "제품: 281,760 (100.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "VetEase: 236,120 (3.8%)"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "극저온 냉매와 열전기술을 결합한 ‘급속 정밀 냉각기술’을 개발하였습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "피부과 및 안과를 넘어 고성장 중인 동물의료 시장으로 적극적인 사업 확장을 진행하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "극저온냉매 고유온도를 빠르고(100˚C/sec) 정밀(±1˚C)하게 제어할 수 있는 기술입니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4875,
+    "completion_tokens": 5625,
+    "reasoning_tokens": 4736,
+    "output_tokens": 889
+  },
+  "warnings": []
+}

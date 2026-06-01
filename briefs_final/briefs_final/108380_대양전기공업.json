@@ -1,0 +1,72 @@
+{
+  "stock_code": "108380",
+  "corp_name": "대양전기공업",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:16",
+  "meta": {
+    "wics": "조선",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "대양전기공업은 1977년 개인기업으로 창업해 1988년 법인으로 전환한 운송장비·부품 업종의 조선 관련 기업입니다. 사업은 조선산업, 방위산업, 철도산업, 자동차산업으로 나뉘며, 선박용 조명 분야에서 48년 업력을 바탕으로 국내에서 압도적인 시장점유율을 차지하고 있다고 설명합니다.",
+    "business_model": "FY2025 사업부문별 영업수익 구성은 조명 64.5%, 전기시스템 35.5%로, 조명 부문이 매출의 핵심입니다. 회사는 선박용 조명, 전자·전기 시스템, 수중로봇, 압력센서 등을 생산하며, 종속회사인 한국특수전지(주)는 잠수함 연축전지 등 방위산업 제품을 제조·판매하고 있습니다. 조선산업과 방위산업을 중심으로 실적을 내는 구조입니다.",
+    "main_customers": "조명 — 조선사 및 선박 건조 관련 고객 / 전기시스템 — 조선·방위 분야 고객 / 방산전지 — 방위산업 고객",
+    "price_factors": [
+      {
+        "factor": "조선경기",
+        "detail": "국내 조선시장의 성장 여부가 선박용 조명 수요에 직접 영향을 주어 조명 부문 실적에 연결됩니다."
+      },
+      {
+        "factor": "수주잔고",
+        "detail": "방산부문의 수주 잔고가 증가하면 향후 매출 증가 기대가 커져 실적 가시성에 영향을 줍니다."
+      },
+      {
+        "factor": "고금리",
+        "detail": "고금리 환경은 소비·투자·고용을 위축시켜 전반적인 경영환경을 어렵게 만들 수 있습니다."
+      },
+      {
+        "factor": "고환율",
+        "detail": "고환율은 원가와 조달 부담을 키울 수 있어 가격경쟁력과 수익성 관리에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 사업의 개요",
+        "evidence_text": "당사의 사업은 다음과 같이 사업부문별, 제품별로 구분을 할 수 있습니다."
+      },
+      {
+        "field": "company_overview",
+        "source_section": "가. 사업의 개요",
+        "evidence_text": "당사는 1977년 5월 개인 기업으로 창업하였으며, 1988년 법인으로 전환되었습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "조명: 47,603 (64.5%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "전기시스템: 15,505 (35.5%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "나. 회사의 현황(1) 조선산업",
+        "evidence_text": "국내 선박용 조명 분야에서 압도적인 시장점유율"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3578,
+    "completion_tokens": 779,
+    "reasoning_tokens": 0,
+    "output_tokens": 779
+  },
+  "warnings": []
+}

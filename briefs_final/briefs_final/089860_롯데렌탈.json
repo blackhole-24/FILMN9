@@ -1,0 +1,62 @@
+{
+  "stock_code": "089860",
+  "corp_name": "롯데렌탈",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 06:55",
+  "meta": {
+    "wics": "도로와철도운송",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "롯데렌탈은 2005년 인적분할로 설립된 렌탈 전문 기업으로, 차량렌탈을 중심으로 Biz렌탈 및 중고차 매각 등 차량 관련 풀라인업을 운영하고 있습니다. 인가대수 및 시장 지위를 바탕으로 렌터카 업계 내 선도적 위치를 유지하고 있습니다.",
+    "business_model": "주요 사업은 차량렌탈(65.1%), 중고차(27.7%), Biz렌탈 등 기타(7.2%)로 구성되어 있으며, 렌탈료 수익과 렌탈기간 종료 후 중고차 매각이 핵심 수익원입니다. 또한 연결종속회를 통해 오토리스 및 할부금융(리스·할부) 관련 서비스를 영위하고 있습니다.",
+    "main_customers": "차량렌탈 — 개인(단기대여) 및 공공기관·기업(장기대여) / 중고차 — 소매 고객(개인) 및 중고차 경매장·해외 법인 통한 매각처 / Biz렌탈 — 법인 및 개인사업자",
+    "price_factors": [
+      {
+        "factor": "경기변동",
+        "detail": "장기렌탈은 경기 불황 시 수요가 증가하는 경향이 있어 실적 변동성에 영향을 줍니다."
+      },
+      {
+        "factor": "성수기효과",
+        "detail": "단기렌탈은 여름 성수기(3분기) 등 계절적 수요 증가로 실적이 개선되는 경향이 있습니다."
+      },
+      {
+        "factor": "규모의경제",
+        "detail": "전국 네트워크·차량 보유·대량구매 등 규모의 경제가 경쟁우위로 작용하여 매출·원가에 영향합니다."
+      },
+      {
+        "factor": "경쟁심화",
+        "detail": "캐피탈사 및 기타 업체들의 장기렌탈 진출로 시장 경쟁이 심화되어 점유율·마진에 부담이 될 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "2005년 10월 17일을 분할기준일로 하여 설립되었으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "라. 사업부문 별 매출 요약",
+        "evidence_text": "사업부문 별 매출 비중은 차량렌탈 부문이 1,900,164백만 원으로 65.1%,"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 차량렌탈 부문",
+        "evidence_text": "장기대여 시장의 주요 고객층은 주로 공공기관, 외국기업, 국내기업 등으로"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5210,
+    "completion_tokens": 5420,
+    "reasoning_tokens": 4736,
+    "output_tokens": 684
+  },
+  "warnings": []
+}

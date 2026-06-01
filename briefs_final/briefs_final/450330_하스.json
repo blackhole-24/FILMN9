@@ -1,0 +1,62 @@
+{
+  "stock_code": "450330",
+  "corp_name": "하스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 13:00",
+  "meta": {
+    "wics": "건강관리장비와용품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "하스는 2008년 설립되어 리튬 디실리케이트 결정화 유리와 지르코니아 소재를 주력으로 하는 치과용 수복소재 제조 기업입니다. 나노 크기 결정화 유리 기반의 심미·고강도 소재(Ambre mill 등)를 통해 글로벌 수요층을 확대하고 있습니다.",
+    "business_model": "핵심 수익은 치과용 수복소재 제품군과 상품 매출에서 발생하며, 사업부문별로 제품 비중이 큽니다. FY2025 기준 사업부문별 영업수익 구성은 제품(20.8%), Amber Ingot(13.3%), Rosetta Block(15.6%), Rosetta Ingot(17.4%), 유치관(21.7%), 기타(1.2%), 상품(6.7%), Amber vest(2.4%)로 세부 제품 라인별 매출이 구분되어 있습니다.",
+    "main_customers": "제품/Amber Ingot/Rosetta Block/Rosetta Ingot/유치관 — 치과 병원·치과기공소 / 상품 — 유통업체·해외 딜러",
+    "price_factors": [
+      {
+        "factor": "인허가 규제",
+        "detail": "의료기기 인허가(CE, FDA, MFDS 등) 진행 여부와 지연이 제품 매출 진입 시점 및 비용에 직접적 영향을 줍니다."
+      },
+      {
+        "factor": "국가·병원별 가격정책",
+        "detail": "판매방식과 국가·병원규모에 따른 가격 차별화로 평균판매단가 변동과 수익성에 영향을 미칩니다."
+      },
+      {
+        "factor": "환율·글로벌 수요",
+        "detail": "글로벌 경기 불확실성과 환율 변동성은 해외 매출의 원화 환산액과 수익성에 영향을 줍니다."
+      },
+      {
+        "factor": "제품 경쟁력(기술)",
+        "detail": "나노 결정화 유리 등 기술적 차별성은 고부가가치 제품 판매 확대와 시장점유율 확보에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "전세계적으로 소비자층이 확대되고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "제품: 3,444 (20.8%)"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "판매방식과 국가 및 병원규모에 따라 가격을 달리 설정하고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4752,
+    "completion_tokens": 3819,
+    "reasoning_tokens": 3136,
+    "output_tokens": 683
+  },
+  "warnings": []
+}

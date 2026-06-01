@@ -1,0 +1,81 @@
+{
+  "stock_code": "006260",
+  "corp_name": "LS",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 19:33",
+  "meta": {
+    "wics": "전기장비",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "LS는 지주회사로 주요 자회사를 통해 전선·전력기기·금속·기계·부동산 등 다양한 산업을 포괄하는 기업집단입니다. 2025년에는 매출 31조 8,700억 원과 영업이익 1조 526억 원을 기록하며 실적 개선을 시현했습니다.",
+    "business_model": "연결기준으로 전선부문(9.2%), 중간재부문(2.5%), 전력선부문(10.2%), 통신부문(0.4%), 일렉트릭부문(11.5%), 자동화부문(1.3%), 금속부문(1.5%), IT부문(0.3%), 엠트론부문(3.0%), 부품부문(0.3%), 엠앤엠부문(44.1%), 글로벌부문(1.3%), 해외투자부문(14.3%) 등으로 수익구조가 구성되어 있습니다. 또한 지주사로서 LS상표권을 보유·관리하며 상표권 사용료(2025년 인식 577억원)를 수취하는 구조도 수익원으로 존재합니다.",
+    "main_customers": "전선부문 — 전력·통신 분야 / 전력선·일렉트릭부문 — 전력 인프라 및 산업용 수요처 / 엠앤엠부문 — 금속·제련 관련 시장 / 엠트론부문 — 기계·부품 수요처 / 아이앤디·해외투자부문 — 부동산 개발·해외투자 관련 이해관계자",
+    "price_factors": [
+      {
+        "factor": "전력수요",
+        "detail": "글로벌 전력망·데이터센터 투자 확대는 고부가가치 전력기기·케이블 수주와 실적에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "구리가격",
+        "detail": "구리가격 상승은 엠앤엠부문의 매출·이익에 긍정적 영향을 주어 전체 실적에 기여합니다."
+      },
+      {
+        "factor": "지식재산권",
+        "detail": "특허·상표권 보호는 차세대 제품 기술 경쟁력을 유지하고 경쟁사 견제에 도움이 됩니다."
+      },
+      {
+        "factor": "환경규제",
+        "detail": "제품 환경규제와 사업장 관리 규제 준수는 운영비용 및 리스크 관리에 영향을 미칩니다."
+      },
+      {
+        "factor": "환율·물가",
+        "detail": "고환율·고물가 등 거시적 요인은 수출입 원가와 전반적 경영환경의 불확실성을 높입니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "[경영진 실적·전략 요약 (MD&A)]",
+        "evidence_text": "당사는 지주회사로서 주요 자회사로는 전선 제조업체인 LS전선(주) 등이있습니다."
+      },
+      {
+        "field": "company_overview",
+        "source_section": "[경영진 실적·전략 요약 (MD&A)]",
+        "evidence_text": "2025년, 매출 31조 8,700억 원과 영업이익 1조 526억 원을 기록"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "엠앤엠부문: 14,942,426 (44.1%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "해외투자부문: 4,841,938 (14.3%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "2025년 인식한 상표권 사용수익은 577억원입니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "이들은 각국 특허법 및 상표법 등에 근거하여 보호되고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4314,
+    "completion_tokens": 4729,
+    "reasoning_tokens": 3712,
+    "output_tokens": 1017
+  },
+  "warnings": []
+}

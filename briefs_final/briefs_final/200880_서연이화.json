@@ -1,0 +1,76 @@
+{
+  "stock_code": "200880",
+  "corp_name": "서연이화",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 11:41",
+  "meta": {
+    "wics": "자동차부품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "서연이화는 자동차용 내·외장 부품을 전문으로 생산하는 기업으로, 도어 트림·콘솔·헤드라이닝·범퍼 등 내외장품을 주력으로 합니다. 국내외에 33개의 종속법인을 두고 미국·유럽·중국·인도 등 글로벌 생산거점을 운영하며, 매출은 현대자동차(약 52%)와 기아(약 34%)에 크게 의존합니다.",
+    "business_model": "단일 사업부문(자동차 신품 부품제조)이 지배적인 구조로, 지역별로는 한국 26.7%, 유럽 15.6%, 중국 3.1%, 인도 13.2%, 미국 31.2%, 멕시코 7.1%, 브라질 2.1%, 기타 1.0%의 매출구성이 있습니다. 주요 수익원은 승용차 및 소형 상용차용 내외장 부품(도어 트림, 콘솔, LUGGAGE SIDE TRIM, HEADLINING, PACKAGE TRAY, SEAT, BUMPER 등)이며, 중앙연구소를 중심으로 R&D와 지적재산권 확보를 통해 기술경쟁력 강화를 추진하고 있습니다.",
+    "main_customers": "내·외장 부품 — 현대자동차㈜(완성차), 기아㈜(완성차) / 해외 완성차 — 포드·벤츠·폭스바겐·아우디(해외 완성차 메이커)",
+    "price_factors": [
+      {
+        "factor": "고객 의존도",
+        "detail": "현대자동차·기아 매출 비중이 높아 해당 완성차사의 생산·수주 변동이 실적에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "환율",
+        "detail": "원/달러 환율 변동은 해외매출의 원화 환산과 비용에 영향을 미쳐 실적 변동성을 키울 수 있습니다."
+      },
+      {
+        "factor": "완성차 생산",
+        "detail": "완성차의 생산량 및 신차 출시 일정이 부품 수요와 매출에 직결됩니다."
+      },
+      {
+        "factor": "지역 편중",
+        "detail": "미국·한국·유럽 등 특정 지역에 매출이 집중되어 지역별 수요·정책 리스크가 실적에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "기술경쟁력",
+        "detail": "신소재·신공법·친환경·미래차 관련 기술 보유는 수주경쟁력과 장기적인 수익성에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "당사를 포함한 연결회사는 자동차용 내외장 부품을 전문으로 생산하는 업체로서"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "한국: 1,201,609,290 (26.7%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "미국: 1,406,724,420 (31.2%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "현대자동차㈜에 약 52%, 기아㈜에 약 34%의 매출을 기록하며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "보고기간말 현재 총 2,241건의 지적재산권이 등록되어 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4700,
+    "completion_tokens": 3379,
+    "reasoning_tokens": 2432,
+    "output_tokens": 947
+  },
+  "warnings": []
+}

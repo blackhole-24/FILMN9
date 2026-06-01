@@ -1,0 +1,71 @@
+{
+  "stock_code": "035600",
+  "corp_name": "KG이니시스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 00:20",
+  "meta": {
+    "wics": "IT서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "KG이니시스는 1998년 창립 이후 전자결제(PG: Payment Gateway) 솔루션을 제공해온 기업으로, 자체 결제브랜드 '이니페이' 등을 통해 업계 내 선도적 지위를 확보했습니다. 누적 약 19만여 가맹점을 보유하고 일본 현지법인 설립(2021년)을 통해 해외 결제 서비스도 확장하고 있습니다.",
+    "business_model": "매출은 전자상거래 및 유통(67.1%)이 핵심이며, 그 외 요식업(25.1%), 미디어 및 방송(5.0%), 부동산임대업(0.9%), 금융업(0.8%) 순으로 구성되어 있습니다. 주요 수익원은 전자지불결제(PG) 솔루션과 모바일·간편결제 서비스 제공입니다.",
+    "main_customers": "전자상거래 및 유통 — 은행·카드사 등 금융기관, 쇼핑몰·가맹점, 소비자 / 요식업 — 문서에 별도 명시 없음 / 금융업 — 문서에 별도 명시 없음 / 부동산임대업 — 문서에 별도 명시 없음 / 미디어 및 방송 — 문서에 별도 명시 없음",
+    "price_factors": [
+      {
+        "factor": "전자상거래 성장",
+        "detail": "전자상거래 시장 규모 확대는 결제거래량 증가로 매출 확대에 긍정적 영향을 미칩니다."
+      },
+      {
+        "factor": "수수료 정책",
+        "detail": "정부 금융정책·카드사 수수료정책 변화는 결제수익성과 수수료 수입에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "시장구조",
+        "detail": "전자지불결제대행시장은 소수 사업자가 과점 상태여서 경쟁사 행보가 실적에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "모바일 결제 확대",
+        "detail": "스마트폰 보급에 따른 모바일 결제 증가로 모바일·간편결제 솔루션의 수요가 확대됩니다."
+      },
+      {
+        "factor": "서비스 안정성",
+        "detail": "거래 안정성(예: IDC 이중화)은 가맹점 신뢰와 거래 유지에 중요한 요소입니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "(4)-1. 영업개황 - 전자상거래",
+        "evidence_text": "국내 인터넷 전자결제 서비스 분야 1위 기업으로 성장했습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "전자상거래 및 유통: 911,313,083 (67.1%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 산업의 특성 - 전자상거래",
+        "evidence_text": "은행, 카드사 등 금융기관과 쇼핑몰, 소비자"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "(4)-2. 시장점유율",
+        "evidence_text": "전자지불결제대행시장은 소수 기업이 시장 과반을 점유하는 과점 체제로"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4240,
+    "completion_tokens": 3737,
+    "reasoning_tokens": 2944,
+    "output_tokens": 793
+  },
+  "warnings": []
+}

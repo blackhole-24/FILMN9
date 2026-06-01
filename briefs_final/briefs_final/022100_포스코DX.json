@@ -1,0 +1,71 @@
+{
+  "stock_code": "022100",
+  "corp_name": "포스코DX",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 22:38",
+  "meta": {
+    "wics": "IT서비스",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "포스코DX는 IT서비스와 공장 자동화(엔지니어링)를 주력으로 하는 기업으로, 연결대상 회사는 총 4개사이며 그중 종속회사 3개사는 해외에 소재합니다. 2025년 연결기준 매출은 10,752억원, 영업이익은 604억원을 기록하였습니다.",
+    "business_model": "사업은 자동화(전기/계측/제어기술을 활용한 공장자동화), IT서비스, 기타(물류자동화 등)로 구성되며 프로젝트 단위의 시스템·용역·정비 수익이 주요합니다. FY2025 기준 세부 매출 구성은 IT서비스 및 엔지니어링 외 44.0%, 상품 3.0%, 용역 37.0%, 정비 14.0%, 통신 2.0%입니다.",
+    "main_customers": "자동화 — 포스코 그룹의 철강·이차전지소재 사업부 및 제철소 / IT서비스 — 포스코 그룹 및 대내외 산업현장(그룹사 포함) / 기타(물류자동화 등) — 공항·택배·물류센터 운영사 및 제조물류 부문 (예: 인천국제공항 BHS, 한진택배 메가허브, 포스코 풀필먼트센터)",
+    "price_factors": [
+      {
+        "factor": "특허·기술력",
+        "detail": "지식재산권을 통한 기술 우위(독점적 활용 가능)는 수주 경쟁력과 실적에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "공공 규제",
+        "detail": "공공SW사업 대기업 참여 제한 완화(’24년)는 대형 공공사업 수주 기회 변화로 실적에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "장비가격",
+        "detail": "컴퓨터·네트워크 장비 공급업체의 가격 변동은 시스템 매출의 원가와 수익성에 영향을 미칩니다."
+      },
+      {
+        "factor": "인건비(노임)",
+        "detail": "SW기술자별 노임단가가 용역·정비 매출의 가격 산정 기준에 반영되어 수익성에 직접 영향을 줍니다."
+      },
+      {
+        "factor": "시장수요",
+        "detail": "Intelligent Factory·로봇 등 산업현장의 스마트화 수요 확대는 자동화 사업의 매출에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "IT서비스 사업과 자동화(엔지니어링) 사업을 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "IT서비스 및 엔지니어링 외: 478,907 (44.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "자동화 사업은 포스코 그룹 철강 및 이차전지소재 사업분야 등에서의 공장 자동화"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "IT서비스 사업은 포스코 그룹을 비롯한 대내외 산업현장의 디지털 전환"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 6408,
+    "completion_tokens": 6005,
+    "reasoning_tokens": 5184,
+    "output_tokens": 821
+  },
+  "warnings": []
+}

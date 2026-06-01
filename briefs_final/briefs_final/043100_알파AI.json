@@ -1,0 +1,81 @@
+{
+  "stock_code": "043100",
+  "corp_name": "알파AI",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:00",
+  "meta": {
+    "wics": "건강관리장비와용품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "알파AI는 병원용 생체용금속(임플란트)과 외과용 수술기구를 제조·판매해 온 의료기기 기업입니다. 다만 헬스케어 사업부는 지속적인 적자로 2025년 9월 영업을 중단했으며, 현재는 메디칼 사업과 함께 신규로 추가한 부동산 관련 사업도 진행하고 있습니다. 메디칼 부문에서는 Trauma(골절치료용)와 Spine(척추 고정장치) 분야에서 국내 시장 상위권에 포지셔닝하고 있습니다.",
+    "business_model": "주력 사업은 메디칼(Medical)과 헬스케어(Healthcare) 두 부문이었고, FY2025 사업부문별 영업수익은 메디칼 8,752(52.5%), 헬스케어 1,364(8.9%)입니다. 메디칼 부문은 생체용금속(임플란트)과 외과용 수술기구를 중심으로 수입대체와 수출을 병행해 왔고, 헬스케어 부문은 온열매트·가정용의료기·건강기능식품 등을 다뤘습니다. 최근에는 헬스케어 사업을 중단하고 웅촌곡천협동조합형 장기일반민간임대주택사업 등 부동산 관련 사업도 추가했습니다.",
+    "main_customers": "메디칼 — 병원, 의료기관, 해외 수입·유통 거래처 / 헬스케어 — 일반 소비자, 건강기능식품·가정용의료기 이용 고객 / 부동산 관련 사업 — 협동조합 조합원 및 관련 사업 참여자",
+    "price_factors": [
+      {
+        "factor": "고령화",
+        "detail": "고령인구 증가로 임플란트와 의료기기 수요가 늘 수 있어 메디칼 부문 실적에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "임플란트",
+        "detail": "Spine·Trauma·Knee 제품의 시장 경쟁력과 점유율 변화가 매출 흐름을 좌우합니다."
+      },
+      {
+        "factor": "수출비중",
+        "detail": "미국, 일본, 유럽, 중동, 남미 등 수출 지역의 수요 변화가 해외 매출에 영향을 줍니다."
+      },
+      {
+        "factor": "환율변동",
+        "detail": "USD, EUR, GBP 등 외화 거래가 있어 환율 변동이 수익성과 손익에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "사업중단",
+        "detail": "헬스케어 사업 중단 이후 매출 구조가 바뀌어 부문별 실적 변동성이 커질 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 병원에서 의료 및 치료 목적으로 사용되는 생체용금속(Implants)... 제조ㆍ판매하는 메디칼(Medical) 사업부문"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "헬스케어 사업부분은 지속적인 적자로 인해 2025년 9월 영업을 중단 하였습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "메디칼: 8,752 (52.5%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "헬스케어: 1,364 (8.9%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "병원에서 의료 및 치료 목적으로 사용되는"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "고령인구 비중 2025년 20%, 2036년 30% 2050년 40%를 초과"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4734,
+    "completion_tokens": 1017,
+    "reasoning_tokens": 0,
+    "output_tokens": 1017
+  },
+  "warnings": []
+}

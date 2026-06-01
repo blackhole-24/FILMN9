@@ -1,0 +1,69 @@
+{
+  "stock_code": "206640",
+  "corp_name": "바디텍메드",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 11:50",
+  "meta": {
+    "wics": "생명과학도구및서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "바디텍메드는 면역진단 기반의 체외진단(IVD) 기업으로, 카트리지형 면역진단 제품을 중심으로 전세계 시장에 진단 솔루션을 제공하고 있습니다. 약 120여종의 카트리지 제품을 전세계 130개국에 판매하고 있으며, 최근 POCT(현장진단) 중심의 제품 포트폴리오와 글로벌 매출 확대를 통해 안정적 매출 구조를 형성하고 있습니다.",
+    "business_model": "주요 사업은 면역진단카트리지(소모품)와 면역진단기기(플랫폼), 기타매출(부속품 등)으로 구성되며, 기기는 플랫폼 역할을 통해 반복 구매되는 카트리지 매출을 창출하는 구조입니다. 주요 진단기기로는 ichroma 계열과 AFIAS 계열이 있으며, 기기 설치 확대가 카트리지 기반의 시약·소모품 매출로 연결되는 것이 핵심 수익원입니다.",
+    "main_customers": "면역진단카트리지 — 병원·검사실(전세계 130개국 대상) / 면역진단기기 — 대형병원·현장진단(POCT) 환경(개발도상국 포함) / 기타매출 — 장비 부속품 구매처",
+    "price_factors": [
+      {
+        "factor": "설치기반",
+        "detail": "진단기기 설치 확대 시 1회성 소모품인 카트리지 판매가 늘어나 실적에 긍정적 영향을 줍니다."
+      },
+      {
+        "factor": "POCT수요",
+        "detail": "현장진단(POCT) 수요 확대는 소형·신속 진단 기기와 카트리지 수요를 함께 늘립니다."
+      },
+      {
+        "factor": "글로벌경쟁",
+        "detail": "글로벌 POCT 업체들과의 경쟁은 가격·기술 수준과 시장 점유율에 영향을 미칩니다."
+      },
+      {
+        "factor": "제품다각화",
+        "detail": "심장질환, 호르몬, 항체치료제 TDM 등 비감염성 제품군 확대가 매출 안정성에 기여합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 주요 제품 및 서비스",
+        "evidence_text": "120여종의 제품을 전세계 130개국에 판매하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 2. 주요 제품 및 서비스",
+        "evidence_text": "면역진단 기기 부문은 카트리지 매출을 창출할 수 있는 플랫폼 역할을 담당합니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 2. 주요 제품 및 서비스",
+        "evidence_text": "대형병원이나 개발도상국에 적합한 제품입니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > POCT산업의 전망",
+        "evidence_text": "POCT는 소량의 검체로 빠르고 간편하게 결과를 도출"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 5016,
+    "completion_tokens": 3397,
+    "reasoning_tokens": 2624,
+    "output_tokens": 773
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

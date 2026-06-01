@@ -1,0 +1,67 @@
+{
+  "stock_code": "219550",
+  "corp_name": "디와이디",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 12:33",
+  "meta": {
+    "wics": "화장품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "디와이디는 2000년 12월 22일 설립된 화장품 기업으로, 자체 브랜드 제품을 온·오프라인 및 해외 총판대리점을 통해 판매하고 있습니다. 릴리바이레드(lilybyred), 해서린(HATHERINE), 슬로우허밍(Slow Humming) 등 자체 브랜드를 중심으로 매출을 확대해왔으며, 바이오 분야에서 당뇨병 진단키트 등 신기술 개발도 병행하고 있습니다.",
+    "business_model": "핵심 사업은 자체 화장품 브랜드의 제조·판매와 바이오(진단키트 등) 연구개발로 구성됩니다. 사업부문별 매출 구성은 34.02%, 10.41%, 55.56%로 표기되어 있으며 합계는 100.00%입니다. 화장품은 온라인·오프라인과 해외 총판대리점을 통한 유통이 주된 수익원이며, 바이오 부문은 개발 단계에서 기술 상용화를 통해 향후 수익화를 모색하고 있습니다.",
+    "main_customers": "화장품 — 온·오프라인 소비자 및 해외 총판대리점 / 바이오 — 개발 중(판매처 명시 없음)",
+    "price_factors": [
+      {
+        "factor": "소비심리",
+        "detail": "경기 침체로 소비지출이 줄면 화장품 수요 감소로 매출에 부정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "유통채널",
+        "detail": "온라인·오프라인 및 해외 총판의 확보·확장 여부가 매출 증감에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "브랜드확장",
+        "detail": "신규 브랜드와 마케팅 활성화가 소비자층 확대 및 매출 신장에 중요한 요인입니다."
+      },
+      {
+        "factor": "바이오개발",
+        "detail": "당뇨병 진단키트 등 바이오 기술 개발 성과에 따라 신규 매출원이 될 가능성이 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 2000년 12월 22일 설립하였으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "자체 브랜드 제품 판매를 통해 매출 신장"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "온/오프라인 및 해외 총판대리점을 통해 판매하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "매출액은 전년대비 약 20% 증가한 449억원을 기록하였습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 2660,
+    "completion_tokens": 3473,
+    "reasoning_tokens": 2752,
+    "output_tokens": 721
+  },
+  "warnings": []
+}

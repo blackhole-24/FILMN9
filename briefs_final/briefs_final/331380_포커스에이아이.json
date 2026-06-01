@@ -1,0 +1,67 @@
+{
+  "stock_code": "331380",
+  "corp_name": "포커스에이아이",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 16:39",
+  "meta": {
+    "wics": "전자장비와기기",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "포커스에이아이는 AI(Artificial Intelligence) 기반의 물리보안 및 관제 솔루션을 개발·판매하는 기업으로, CCTV용 AI 카메라와 영상저장장치(NVR·DVR), 모빌리티·스마트팩토리 안전 솔루션 등을 제공하고 있습니다. AI 영상기술을 특수차량, 드론, 로봇 등으로 확장하며 B2B(기업 간 거래) 중심의 물리보안 시장을 공략하고 있습니다.",
+    "business_model": "주요 수익원은 영상저장장치, 카메라, 기타(스마트팩토리·모빌리티·플랫폼 등)로 구성되며, 2025 회계연도 기준 영상저장장치 24.0%, 카메라 30.4%, 기타 45.6%의 매출 비중을 차지합니다. 하드웨어(DVR/NVR, 카메라)와 AI 기반 소프트웨어(객체인식·얼굴·차량번호판 인식 등)를 결합한 통합 관제 플랫폼 구축 및 공공·기업 대상 B2B 프로젝트 수행이 핵심 사업 구조입니다.",
+    "main_customers": "영상저장장치 — 시큐리티 보안 경비업체·유통(Distributor/Dealer)·SI(System Integrator)·정부기관 / 카메라 — 시큐리티 업체·유통업체·SI / 기타(스마트팩토리·모빌리티·플랫폼) — 대형 중장비·플랜트 기업·무인매장 운영사 및 공공기관",
+    "price_factors": [
+      {
+        "factor": "기술고도화",
+        "detail": "AI(객체인식, 얼굴·번호판 인식 등) 기능 고도화는 제품 교체 수요와 고부가가치 제품 매출 확대에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "정부수요",
+        "detail": "지자체·공공기관의 지능형 CCTV 전환 등 정부 프로젝트 확대는 실적 성장의 촉매가 될 수 있습니다."
+      },
+      {
+        "factor": "고객집중",
+        "detail": "주요 고객사 비중이 높은 경우(예: 대형 시큐리티사) 매출 변동이 실적에 큰 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "교체주기",
+        "detail": "카메라·저장장치의 통상적 교체주기(약 3~4년)는 주기적 교체 수요로 실적에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "당사는 고객의 안전한 삶을 만들어가는 'AI(Artificial Intelligence)' 기반의 물리보안 및 관제 솔루션 기업입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "영상저장장치: 8,926,027 (24.0%), 카메라: 165,706 (30.4%), 기타: 5,879,111 (45.6%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "물리보안 산업의 주요 고객으로는 보안시스템 서비스를 제공하는 시큐리티 업체, 정부의 보안 인프라 사업, 물리보안 제품을 유통하는 Distributor 또는 Dealer, 보안 프로젝트 사업에 참여하는 SI(System Integrator: 시스템 통합) 업체 등 입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "2025년 별도 기준 실적은 매출액 453억 원(전년대비 22.1% 감소), 영업손실102억 원을 기록하였습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5192,
+    "completion_tokens": 2921,
+    "reasoning_tokens": 1984,
+    "output_tokens": 937
+  },
+  "warnings": []
+}

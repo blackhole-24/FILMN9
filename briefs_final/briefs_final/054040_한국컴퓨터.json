@@ -1,0 +1,67 @@
+{
+  "stock_code": "054040",
+  "corp_name": "한국컴퓨터",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 03:20",
+  "meta": {
+    "wics": "디스플레이장비및부품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "한국컴퓨터는 종속회사 KCI VINA CO., LTD와 함께 전자제품 생산 서비스인 EMS(전자제품 생산 서비스)를 주력으로 하는 제조업체입니다. 현재 Total제조 System을 갖추고 QD-OLED PBA(모니터·TV용) 및 OLED PBA(스마트폰·태블릿용) 제품과 산업용 INVERTER 등을 생산·판매하고 있습니다.",
+    "business_model": "핵심 사업은 EMS(Electronics Manufacturing Service: 제품설계·부품조달·생산·물류 일괄수탁)로, FY2025 기준 사업부문별 영업수익 구성은 제품 32.3%, 내수 50.5%, OLED-PBA 제품 18.0%, 상품 0.1%입니다. 보고서에 따르면 QD-OLED PBA 및 OLED PBA 제품의 매출 비중이 전체에서 가장 높습니다.",
+    "main_customers": "QD-OLED PBA — 삼성디스플레이㈜ / OLED PBA — Young Poong Electronics Vina Co.,Ltd., BH Flex vina Co.,Ltd., Samsung Display Vietnam Co.,Ltd.(SDV) / 산업용 INVERTER — 엘에스일렉트릭(주)",
+    "price_factors": [
+      {
+        "factor": "경쟁심화",
+        "detail": "업계 경쟁 심화는 가격·원가 압박으로 이어져 수익성 변동성을 확대할 수 있습니다."
+      },
+      {
+        "factor": "원가상승",
+        "detail": "원재료 구매단가 및 인건비 상승은 제조원가를 증가시켜 영업이익률에 부정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "가격압박",
+        "detail": "고객의 지속적인 가격인하 요구는 매출 성장에도 불구하고 마진 축소를 초래할 가능성이 있습니다."
+      },
+      {
+        "factor": "제품수명",
+        "detail": "제품 수명주기가 짧은 정보통신 제품 특성상 신제품 대응과 생산 전환 속도가 실적에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "Total제조 System을 갖춘 업체로써"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "제품: 134,974,424,677 (32.3%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "주요 고객은 삼성디스플레이㈜ 이며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 업계의 현황",
+        "evidence_text": "업계의 경쟁이 한층 심화되어가고 있는 시장환경"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4729,
+    "completion_tokens": 4277,
+    "reasoning_tokens": 3584,
+    "output_tokens": 693
+  },
+  "warnings": []
+}

@@ -1,0 +1,67 @@
+{
+  "stock_code": "200710",
+  "corp_name": "에이디테크놀로지",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 11:40",
+  "meta": {
+    "wics": "반도체와반도체장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "에이디테크놀로지는 2002년 설립된 시스템 반도체 디자인하우스로, 파운드리 공정에 맞춘 맞춤형 설계 솔루션을 제공하며 국내·글로벌 시장에서 입지를 확장해왔습니다. SoC(시스템온칩), 플랫폼, 인프라 등 통합 설계 역량을 기반으로 원스톱(One-stop) 반도체 개발 서비스를 제공합니다.",
+    "business_model": "사업은 SoC(시스템온칩) 설계, 플랫폼(설계기반) 제공, 인프라(파운데이션 IP·S램 라이브러리) 개발 등으로 구성되며, 서비스(용역) 비중이 가장 큽니다. FY2025 기준 사업부문별 영업수익 구성은 제품 6.8%, 사물인터넷 0.9%, 디스플레이 10.6%, 상품 2.4%, 용역 85.3%, 기타 2.8%로, 용역(설계·개발 수주)이 핵심 수익원입니다.",
+    "main_customers": "SoC — 고객사(반도체 설계 의뢰 기업) / 플랫폼 — 고객사(SoC 설계 기반 제공 대상) / 인프라 — 고객사(파운데이션 IP·라이브러리 수요 기업)",
+    "price_factors": [
+      {
+        "factor": "파운드리 의존성",
+        "detail": "소수 파운드리의 공급·파트너십 변화는 에이디테크놀로지의 수주와 생산연계에 직접 영향합니다."
+      },
+      {
+        "factor": "AI·HPC 수요",
+        "detail": "AI·고성능컴퓨팅(HPC) 도입 확산은 고성능 SoC 설계 수요를 증가시켜 실적에 긍정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "업계 집중도",
+        "detail": "상위 업체가 시장을 지배하는 구조는 경쟁 심화와 수주 확보의 난이도를 높여 실적 변동성을 키울 수 있습니다."
+      },
+      {
+        "factor": "경기 민감도",
+        "detail": "시스템반도체 수요는 GDP·설비투자 및 내구재 소비에 민감하여 경기 변동 시 실적에 영향을 받습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "에이디테크놀로지는 2002년 설립된 이후"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "용역: 41,731 (85.3%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "고객사에게 용역 의뢰를 받아 개발을 진행 하며,"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "(라) 시장여건",
+        "evidence_text": "상위 5개 업체가 전체 디자인 하우스 매출액의 80% 이상"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4297,
+    "completion_tokens": 3530,
+    "reasoning_tokens": 2752,
+    "output_tokens": 778
+  },
+  "warnings": []
+}

@@ -1,0 +1,72 @@
+{
+  "stock_code": "015230",
+  "corp_name": "대창단조",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 21:39",
+  "meta": {
+    "wics": "기계",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "대창단조는 중장비(굴삭기·불도저 등) 및 자동차용 단조(주로 하부주행체 부품과 크랭크샤프트)와 관련 부품을 생산·판매하는 기업으로, 국내외 OEM 및 A/S 시장에 제품을 공급하고 있습니다. 2025년 연결매출은 3,463억원으로 제조와 유통(상품) 중심의 매출구조를 보입니다.",
+    "business_model": "주요 매출원은 중장비 하부주행체용 부품(링크·로라·슈 등)과 유통(상품) 매출로 구성되며, 보고서상 제조분야 중 링크슈아세이·링크아세이가 59.6%를 차지하고 유통(상품)매출이 35.2%를 차지합니다. 진입장벽이 높은 열처리·설비 중심의 단조(열간 형단조) 기술을 기반으로 OEM(주문자상표부착생산) 수주와 A/S용 유통을 병행하여 수익을 창출합니다.",
+    "main_customers": "제조(단조부품) — 국내외 OEM(중장비·자동차 제조사, 예: VOLVO, HD건설기계 등) / 유통(Aftermarket) — A/S업체 및 도매 유통업체(Wholesaler, 예: Caterpillar·Komatsu·John Deere 관련 거래처)",
+    "price_factors": [
+      {
+        "factor": "건설투자 의존",
+        "detail": "건설·토목 경기 및 SOC(사회간접자본) 투자 변동에 따라 중장비 수요가 직접 변동하여 실적에 영향합니다."
+      },
+      {
+        "factor": "원자재·환율",
+        "detail": "원자재 가격과 환율 변동이 제품 단가와 수출 수익성에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "글로벌 수요 변동",
+        "detail": "해외 시장의 경기·무역 환경 변화(예: 주요 수출국 수요 감소)는 수출 실적에 민감하게 작용합니다."
+      },
+      {
+        "factor": "가격경쟁 심화",
+        "detail": "Aftermarket(유통) 부문에서는 품질뿐 아니라 가격 경쟁력이 실적 및 마진에 큰 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "25년도 연결매출액은 3,463억원으로"
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황",
+        "evidence_text": "링크슈아세이와 링크아세이가 2,063억원으로 59.6%정도를 차지"
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황",
+        "evidence_text": "상품매출이 1,218억원으로 35.2% 정도를 차지하고 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "국내 및 해외 OEM업체와 A/S업체에 판매를 하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 산업의 현황",
+        "evidence_text": "건설기계 산업은 글로벌 경기 변동 및 인프라 투자 정책과 밀접하게 연동되는 특성"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5534,
+    "completion_tokens": 3143,
+    "reasoning_tokens": 2304,
+    "output_tokens": 839
+  },
+  "warnings": []
+}

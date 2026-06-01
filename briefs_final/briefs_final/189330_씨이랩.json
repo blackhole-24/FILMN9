@@ -1,0 +1,71 @@
+{
+  "stock_code": "189330",
+  "corp_name": "씨이랩",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 11:13",
+  "meta": {
+    "wics": "IT서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "씨이랩은 'Seeing the Unseen : Vision AI'를 기치로 삼아 사람의 눈에 보이지 않는 데이터를 AI로 가시화하는 것을 목표로 하는 AI 전문 기업입니다. 사업부문은 AI Infra, Vision AI, Digital Twin의 3개로 구분되며 5개의 핵심 솔루션 제품을 기반으로 서비스를 제공합니다.",
+    "business_model": "주요 매출원은 AI Infra(61.5%), Vision AI(17.9%), Digital Twin(20.5%)으로 구성되며, AI Infra는 AstraGo 기반의 GPU 어플라이언스(서버+SW 번들) 판매 및 유지보수(기술지원)로 수익을 창출합니다. Vision AI는 XAIVA·VidiGo를 구축형(커스터마이징) 또는 클라우드(서비스형)로 제공해 사용료(라이선스·서비스) 매출을 올리고, Digital Twin은 합성데이터(Synthetic data) 생성 솔루션 X-GEN과 Omniverse 플랫폼을 활용한 디지털 트윈 구축 및 학습데이터 공급으로 수익을 확보합니다.",
+    "main_customers": "AI Infra — 인프라 제조사·데이터센터 및 AI 플랫폼 도입 기업 / Vision AI — 대규모 제조시설 및 보안·감시·유통·서비스업체 / Digital Twin — 반도체·제조·모빌리티·물류 등 산업별 운영·시뮬레이션 수요 기업",
+    "price_factors": [
+      {
+        "factor": "AI 수요",
+        "detail": "데이터 증가와 AI 기술 확산으로 Vision AI·Digital Twin 수요가 늘어나면 제품·서비스 매출에 직접 영향을 미칩니다."
+      },
+      {
+        "factor": "GPU 공급",
+        "detail": "AstraGo가 탑재된 GPU 어플라이언스 판매 구조상 GPU 공급 제약이나 가격 변동은 제품 공급 및 매출에 영향이 있습니다."
+      },
+      {
+        "factor": "파트너십",
+        "detail": "NVIDIA, HPE, Dell, Lenovo 등 글로벌 파트너와의 협력 확대 여부가 어플라이언스 공급 확대에 직결됩니다."
+      },
+      {
+        "factor": "피지컬AI 확산",
+        "detail": "피지컬 AI(현실과 상호작용하는 AI) 확산은 제조·안전모니터링 등 현장 적용 확대를 통해 Vision AI 수요를 견인할 수 있습니다."
+      },
+      {
+        "factor": "환율",
+        "detail": "회사 자체적으로 외환(환율) 변동 위험에 노출돼 있어 환율 변동은 연결 실적에 영향을 미칠 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사의 사업부문은 ▲AI Infra ▲Vision AI, ▲Digital Twin으로 구분되며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "AI Infra: 6,321,857 (61.5%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "Digital Twin",
+        "evidence_text": "반도체, 제조,모빌리티, 물류 등 다양한 산업에서"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "MD&A",
+        "evidence_text": "당사는 외환과 관련된 환율 변동 위험에 노출돼 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5229,
+    "completion_tokens": 3786,
+    "reasoning_tokens": 2944,
+    "output_tokens": 842
+  },
+  "warnings": []
+}

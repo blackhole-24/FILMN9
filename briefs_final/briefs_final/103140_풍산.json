@@ -1,0 +1,72 @@
+{
+  "stock_code": "103140",
+  "corp_name": "풍산",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 08:15",
+  "meta": {
+    "wics": "비철금속",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "풍산은 동(구리) 및 동합금 소재의 신동사업과 군용·스포츠 탄약 등의 방산사업을 영위하는 비철금속 전문 기업입니다. 국내외 현지법인을 통해 미국·중국·동남아 등 주요 지역에 생산·판매 라인을 구축하며 글로벌 시장 점유율 확대를 추진하고 있습니다.",
+    "business_model": "핵심 사업부문은 신동사업(동 및 동합금 판·대, 리드프레임, 봉·선, 소전 등 소재 생산)과 방산사업(소구경~대구경 군용·스포츠 탄약 및 관련 부품 생산)으로 수익을 창출하며, 당기 전체 매출에서 신동 부문이 69%, 방산 부문이 31%를 차지합니다. 원재료(전기동·아연·니켈지금·동 Scrap 등) 가격 변동 관리를 위해 장기계약과 선물거래 등 리스크 관리를 병행하고 있습니다.",
+    "main_customers": "신동부문 — 전기·전자·반도체·통신·자동차·플랜트·건설 등 산업용 제조업체 / 방산부문 — 군(국방) 및 스포츠용 탄약 수요처",
+    "price_factors": [
+      {
+        "factor": "금속가격 변동",
+        "detail": "비철금속 거래소 가격 변동은 원재료비와 손익에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "원료수급",
+        "detail": "전기동·스크랩 등의 안정적 수급 여부와 장기계약 체결이 원가 구조에 영향을 줍니다."
+      },
+      {
+        "factor": "글로벌 수요",
+        "detail": "전기차·신재생·반도체·전자산업 등 주요 산업의 수요 변화가 신동제품 판매에 직결됩니다."
+      },
+      {
+        "factor": "방산 수요",
+        "detail": "내수 및 군수품 수요 변화는 방산부문 매출에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당기 전체 매출은 3조 8,491억원으로 신동 및 방산 부문의 매출 비중은 각각 69%, 31%를 차지하였습니다."
+      },
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "국내외 현지법인을 통해 미국, 중국, 동남아 등 주요 지역에 생산ㆍ판매 라인을 구축하여 글로벌 시장 점유율 확대를 추진하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "신동사업 부문에서는 동 및 동합금 소재로 판ㆍ대, 리드프레임 소재, 봉ㆍ선, 주화용 소전을 생산하고 있으며,"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "비철금속이 거래되는 금속거래소의 가격변동에 따라 손익에 영향을 받을수 있으나,"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "나. 사업부문별 현황",
+        "evidence_text": "전기, 전자, 반도체, 통신, 자동차, 플랜트, 건설, 주화, 식품, 예술, 방위산업 등 각 분야에 걸쳐 많은 수요를 가지고 있는"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5294,
+    "completion_tokens": 3059,
+    "reasoning_tokens": 2176,
+    "output_tokens": 883
+  },
+  "warnings": []
+}

@@ -1,0 +1,77 @@
+{
+  "stock_code": "001790",
+  "corp_name": "대한제당",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 17:40",
+  "meta": {
+    "wics": "식품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "대한제당은 식품(제당) 중심의 식음료 기업으로, 주요 사업부문은 식품·축산유통·사료 및 기타로 구성되어 있습니다. 2025년 연결기준 매출은 1,356,276백만원으로 사업부문별 매출 비중이 공개되어 있습니다.",
+    "business_model": "사업부문별 매출 구성은 식품 51.2%, 축산유통 27.6%, 사료 17.4%, 기타 3.8%로 이루어져 있으며, 핵심 제품은 정백(설탕)과 배합사료입니다. 원재료(원당·옥수수 등)는 국제 시세와 환율에 따라 가격 변동성이 커 원가에 직접적 영향을 미칩니다.",
+    "main_customers": "식품부문 — 설탕·조제품 수요처 / 축산유통부문 — 수입육·수산물 유통 채널 / 사료부문 — 배합사료 수요처",
+    "price_factors": [
+      {
+        "factor": "원재료 시세",
+        "detail": "원당·곡물의 국제 시세 변동으로 제품 원가가 흔들려 실적에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "환율 변동",
+        "detail": "원/달러 환율 상승은 수입 원가를 높여 마진 압박 요인이 됩니다."
+      },
+      {
+        "factor": "국내 경쟁",
+        "detail": "대한제당·CJ제일제당·삼양 3사 경쟁구도로 원가절감 및 가격경쟁이 실적 변수로 작용합니다."
+      },
+      {
+        "factor": "식품안전 규제",
+        "detail": "소비자 안전성 강화로 위생·규정 준수가 비용·운영에 영향을 미칠 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "당사의 주요사업부문은 식품, 축산유통 및 기타로 구성되어 있으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황",
+        "evidence_text": "식품부문 695,088백만원(51.2%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황",
+        "evidence_text": "축산유통부문 374,073백만원(27.6%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황",
+        "evidence_text": "사료부문 235,227백만원(17.4%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황",
+        "evidence_text": "기타부문 51,888백만원(3.8%)입니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "영업 현황",
+        "evidence_text": "정백과 배합사료의 가격은 원재료의 국제 시세 및 환율에 따라 변동되며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4817,
+    "completion_tokens": 3444,
+    "reasoning_tokens": 2688,
+    "output_tokens": 756
+  },
+  "warnings": []
+}

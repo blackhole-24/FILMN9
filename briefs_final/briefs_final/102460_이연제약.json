@@ -1,0 +1,66 @@
+{
+  "stock_code": "102460",
+  "corp_name": "이연제약",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 08:12",
+  "meta": {
+    "wics": "제약",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "이연제약은 1964년 설립된 전문의약품 제조·판매 기업으로, 연결기준 자산총액 4,651억 원, 매출액 1,459억 원(영업손실 -303억 원)을 기록하고 있습니다. 처방의약품, 오리지널 조영제 및 원료의약품을 중심으로 사업을 영위하며 충주공장을 기반으로 생산플랫폼을 확대하고 있습니다.",
+    "business_model": "사업부문별 매출 구성은 의약품 14.6%, 항생제 12.8%, 점안제 7.5%, 소화기 33.0%, 상품 23.9%, 기타 8.2%로 표에 기재되어 있습니다. 회사는 처방의약품·오리지널의약품(조영제)·원료의약품을 핵심 제품군으로 보유하고, 충주공장을 중심으로 CMO(의약품 위탁생산) 및 생산플랫폼 기반 R&BD(연구·개발·생산) 모델을 추진하고 있습니다.",
+    "main_customers": "처방의약품 — 처방의사·의료기관 / 오리지널의약품(조영제) — 유통사(예: ISK와의 독점공급계약 대상) / 원료의약품 — 제약사·바이오벤처 및 개발 파트너",
+    "price_factors": [
+      {
+        "factor": "정부 규제",
+        "detail": "약가재평가·약가인하 정책이 수익성에 직접적 영향을 미쳐 실적 변동성을 키울 수 있습니다."
+      },
+      {
+        "factor": "처방권 구조",
+        "detail": "전문의약품은 처방의사가 최종 선택권을 가지므로 의사·의료기관의 처방 행태가 매출에 중요합니다."
+      },
+      {
+        "factor": "인구구조",
+        "detail": "고령화 및 만성질환 증가로 고령·QoL(생활의 질) 관련 품목 수요가 장기적으로 우호적입니다."
+      },
+      {
+        "factor": "신약개발 리스크",
+        "detail": "신약 개발은 장기간·고비용 투자가 수반되며 실패율이 높아 연구개발 성과가 실적 변동을 유발합니다."
+      },
+      {
+        "factor": "외주생산 트렌드",
+        "detail": "CRO·CMO 등 분업화 확대는 파트너십·생산설비 가동률이 실적에 영향을 미치는 요인이 됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업의 개황",
+        "evidence_text": "1964년 법인 설립 이후 전문의약품의 제조 및 판매"
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업의 개황",
+        "evidence_text": "처방의약품, 오리지널의약품(조영제) 및 원료의약품"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "- 소화기: 9,213 (33.0%)"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4703,
+    "completion_tokens": 4362,
+    "reasoning_tokens": 3584,
+    "output_tokens": 778
+  },
+  "warnings": []
+}

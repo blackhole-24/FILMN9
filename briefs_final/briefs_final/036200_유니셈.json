@@ -1,0 +1,62 @@
+{
+  "stock_code": "036200",
+  "corp_name": "유니셈",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 00:33",
+  "meta": {
+    "wics": "반도체와반도체장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "유니셈은 반도체·디스플레이 장비 전문기업으로 스크러버(Scrubber, 유해가스 정화장치)와 칠러(Chiller, 온도조절 장치)를 주력으로 제작·판매·A/S를 제공하고 있습니다. 국내 Gas Scrubber 시장점유율 40% 이상, Chiller 시장점유율 30% 이상을 확보하며 반도체 장비 후방 산업에서 중요한 지위를 유지하고 있습니다.",
+    "business_model": "주요 수익원은 제품 판매와 유지보수(서비스)로 구성되며, 핵심 제품은 스크러버와 칠러입니다. FY2025 기준 부문별 매출 비중은 반도체장비사업부 21.4%, CHILLERUNIT 44.8%, 공사 2.1%, 기타 31.7%로 칠러(Chiller) 관련 매출 비중이 가장 큽니다.",
+    "main_customers": "반도체장비사업부 — 반도체소자업체(반도체 제조기업) / CHILLERUNIT — 반도체 제조기업(공정용 냉각 수요) / 공사 — 고객사 설비 발주처 / 기타 — 유지보수 및 기타서비스 수요처",
+    "price_factors": [
+      {
+        "factor": "CAPEX(설비투자)",
+        "detail": "전방 반도체 고객사의 설비투자 규모(CAPEX)가 늘어나면 장비 수요와 실적에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "제품사양",
+        "detail": "고객사(반도체소자업체)의 제품사양·품질 요구에 따라 장비 가격과 수주 성사 여부가 결정됩니다."
+      },
+      {
+        "factor": "가격경쟁",
+        "detail": "메모리 공급 과잉에 따른 기업간 가격경쟁 심화는 장비업체의 수익성에 부담을 줄 수 있습니다."
+      },
+      {
+        "factor": "친환경 규제",
+        "detail": "탄소중립·ESG 요구와 RE100 등으로 친환경 장비 수요 및 기술개발 필요성이 증가합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "반도체/디스플레이 장비 전문기업"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "반도체장비사업부: 58,504,823 (21.4%)"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "산업의 특성",
+        "evidence_text": "기술적인 진입 장벽과 자본적인 진입 장벽이 동시에 존재"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4741,
+    "completion_tokens": 3881,
+    "reasoning_tokens": 3200,
+    "output_tokens": 681
+  },
+  "warnings": []
+}

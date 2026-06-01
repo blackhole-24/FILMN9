@@ -1,0 +1,82 @@
+{
+  "stock_code": "007120",
+  "corp_name": "미래아이앤지",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 19:43",
+  "meta": {
+    "wics": "IT서비스",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "미래아이앤지는 IT서비스업에 속한 기업으로, 금융솔루션사업을 주사업으로 영위하고 있습니다. 2010년 영업양수도를 통해 금융솔루션사업부문을 추가했으며, B&E사업부를 통해 사업 다각화를 추진하고 있습니다.",
+    "business_model": "사업부문별 매출은 솔루션이 74.42%(10,514 백만원), B&E가 25.58%(3,615 백만원)를 차지합니다. 솔루션부문은 SWIFT 전문 관리 솔루션(eNisis), 자금세탁방지 솔루션(SafeWatch), 외화트레이딩 솔루션(Summit) 등 유지보수 및 솔루션 납품이 핵심 수익원이며, B&E는 엔터테인먼트 관련 사업과 건물 임대·관리로 매출을 창출합니다.",
+    "main_customers": "솔루션 — 은행권(하나, 신한, 우리은행 등) / B&E — 엔터테인먼트 관련 사업 및 건물 임대·관리",
+    "price_factors": [
+      {
+        "factor": "SWIFT 표준 전환",
+        "detail": "ISO20022 등 국제표준 전환에 따른 시스템 업그레이드 수요가 솔루션 매출 증대로 연결될 가능성이 큽니다."
+      },
+      {
+        "factor": "규제·컴플라이언스",
+        "detail": "자금세탁방지 등 국제 규제 강화 시 SafeWatch 등 컴플라이언스 솔루션 수요가 증가할 수 있습니다."
+      },
+      {
+        "factor": "클라우드·AI 전환",
+        "detail": "클라우드와 AI 기술 접목이 성공하면 제품 고도화와 신규시장 진출로 수익성 개선에 기여할 수 있습니다."
+      },
+      {
+        "factor": "엔터사업 경쟁",
+        "detail": "B&E는 기존 선점 기업과의 격차로 사업 활성화가 쉽지 않아 성과 변동성이 존재합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 금융솔루션사업 등을 주사업으로 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "10,514(74.42)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "3,615(25.58)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "주요 거래처로는 하나, 신한, 우리은행 등 은행권"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 개요 > 가. 업계의 현황",
+        "evidence_text": "SWIFT 또한 ISO20022 국제메시지표준 방식으로 변경을 공표하였으며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 개요 > 가. 업계의 현황",
+        "evidence_text": "클라우드와 AI(Artificial Intelligence) 기술을 접목"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "블록체인 프로젝트(PJT: BlockChain)에 역량을 집중할 예정입니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4262,
+    "completion_tokens": 4890,
+    "reasoning_tokens": 4032,
+    "output_tokens": 858
+  },
+  "warnings": []
+}

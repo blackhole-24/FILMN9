@@ -1,0 +1,67 @@
+{
+  "stock_code": "023760",
+  "corp_name": "한국캐피탈",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 11:34",
+  "meta": {
+    "wics": "기타금융",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "finance"
+  },
+  "brief": {
+    "company_overview": "한국캐피탈은 여신전문금융업을 영위하는 기업으로, 리스·할부·신기술사업금융 등 여신 제공이 주된 영업입니다. 소매금융·기업금융·리스금융을 포트폴리오로 운영하며 자산총계는 5조 1,559억원 수준입니다.",
+    "business_model": "핵심 사업은 리스금융(시설임대), 할부금융(내구소비재 할부) 및 신기술사업금융(벤처·지분투자)으로 구성됩니다. FY2025 사업부문별 영업수익 구성은 조달 149,944 (2.9%), 기타포괄손익누계액 457,956 (80.3%), 원화 474,767 (9.2%), 기타 8,803 (4.8%)입니다.",
+    "main_customers": "리스금융(시설임대) — 의료·건설 등 설비 도입 기업 및 자동차 관련 수요자 / 할부금융(할부대출) — 자동차 등 고가 내구소비재 구매를 하는 일반 소비자 / 신기술사업금융 — 유망 중소·벤처기업",
+    "price_factors": [
+      {
+        "factor": "금리환경",
+        "detail": "고금리 기조는 조달비용을 높여 순이자마진과 수익성에 직접적인 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "자동차금융 경쟁",
+        "detail": "은행 및 렌터카업체의 공격적 영업으로 자동차금융 관련 수익성이 압박을 받을 가능성이 있습니다."
+      },
+      {
+        "factor": "할부시장 경쟁",
+        "detail": "은행·보험사 등 타 금융권의 진입으로 할부금융시장의 경쟁 심화 및 수익성 악화가 우려됩니다."
+      },
+      {
+        "factor": "경기·수요 변동",
+        "detail": "설비투자 위축이나 경기 침체 시 기업의 리스 수요 및 소비자의 할부 수요가 감소하여 실적에 부정적 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "여신을 제공하는 것을 주업무로 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "기타포괄손익누계액: 457,956 (80.3%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "소비자가 일시불로 구입하기 어려운 고가의 내구소비재(자동차 등)"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "자산총계는 전기 대비 6,956억원(15.6%) 증가한 5조 1,559억원"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3483,
+    "completion_tokens": 3970,
+    "reasoning_tokens": 3200,
+    "output_tokens": 770
+  },
+  "warnings": []
+}

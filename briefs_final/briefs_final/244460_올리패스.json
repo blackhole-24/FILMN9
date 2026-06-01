@@ -1,0 +1,69 @@
+{
+  "stock_code": "244460",
+  "corp_name": "올리패스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 13:38",
+  "meta": {
+    "wics": "제약",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "올리패스는 자체 개발한 OPNA(올리패스 PNA) 플랫폼을 기반으로 RNA 치료제를 개발하는 제약사입니다. 플랫폼은 세포 투과성이 우수한 화학적 변형 올리고뉴클레오티드를 이용해 pre-mRNA를 조절하는 Exon Skipping 기전을 갖고 있으며, 비마약성 진통제 OLP-1002 등 파이프라인을 보유하고 있습니다.",
+    "business_model": "핵심은 OPNA 플랫폼 기술을 바탕으로 한 신약 개발(연구매출 포함)이며, 연구매출, PDRN 매출, 화장품 매출 및 기타 매출 등으로 구성되어 있습니다. 플랫폼을 통해 선도물질 도출 후 임상 진입 및 기술수출(라이선스아웃)·공동연구 계약을 통한 상업화가 주요 수익 창출 경로입니다.",
+    "main_customers": "연구매출 — 고객 유형: 명시되지 않음 / PDRN 매출 — 고객 유형: 명시되지 않음 / 화장품 매출 — 고객 유형: 명시되지 않음 / 기타 매출 — 고객 유형: 명시되지 않음",
+    "price_factors": [
+      {
+        "factor": "임상성공 여부",
+        "detail": "OLP-1002의 임상 결과(안전성·유효성)가 회사 실적 및 기술수출 가능성에 직접적 영향을 미칩니다."
+      },
+      {
+        "factor": "기술수출·파트너십",
+        "detail": "Vanda 등 글로벌 제약사와의 공동연구·기술이전 협의 진전이 매출 발생 및 가치 재평가로 연결될 수 있습니다."
+      },
+      {
+        "factor": "RNA 시장 성장",
+        "detail": "글로벌 RNA치료제 시장의 성장 기대감은 파이프라인의 상업적 잠재력에 우호적으로 작용합니다."
+      },
+      {
+        "factor": "재무구조",
+        "detail": "자산·자본 감소 및 전환사채 등 부채 변화는 유동성·재무안정성에 영향을 주어 기업가치 평가에 반영됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "OPNA(OliPass Peptide Nucleic Acid)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "우수한 세포 투과성과 높은 핵산 친화성"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "선도프로그램인 OLP-1002는 비마약성 진통제"
+      },
+      {
+        "field": "financials",
+        "source_section": "나. 재무상태 및 영업실적",
+        "evidence_text": "당기의 자본 총계는 17억원으로 전기 118억원에서 101억 감소하였습니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 5388,
+    "completion_tokens": 4198,
+    "reasoning_tokens": 3456,
+    "output_tokens": 742
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

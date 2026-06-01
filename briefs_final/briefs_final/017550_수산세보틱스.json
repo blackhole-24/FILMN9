@@ -1,0 +1,86 @@
+{
+  "stock_code": "017550",
+  "corp_name": "수산세보틱스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 22:05",
+  "meta": {
+    "wics": "기계",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "수산세보틱스는 건설기계·건설장비용 부품과 특장장비를 제조하는 기업으로, 유압브레이커(SOOSAN 브랜드) 분야에서 국내 1위·세계 6위권의 입지를 유지하고 있습니다. 연결기준 매출액은 약 2,294억원, 영업이익은 약 190억원을 기록하며 국내외 시장을 대상으로 제품을 공급하고 있습니다.",
+    "business_model": "주요 사업부문은 어태치먼트(19.2%)와 특수장비(80.8%)로 구성되며, 특수장비가 매출의 대다수를 차지합니다. 핵심 제품인 유압브레이커는 자체 브랜드 'SOOSAN'으로 국내뿐만 아니라 해외 대리점·OEM을 통해 수출되며, 신제품 개발과 해외 판로 확대가 주요 수익원입니다.",
+    "main_customers": "어태치먼트 — 굴착기 주요 고객·사용자 단체·대리점/OEM / 특수장비 — 건설사·광산업체·장비 제조사",
+    "price_factors": [
+      {
+        "factor": "건설경기",
+        "detail": "건설경기와 직접 연동되어 경기 침체 시 매출이 크게 줄어 실적에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "중국산 경쟁",
+        "detail": "중국산 저가 장비의 확대는 가격경쟁을 심화시켜 매출·마진에 부정적 압력을 가합니다."
+      },
+      {
+        "factor": "OEM 패키지 경쟁",
+        "detail": "굴착기 제조사의 브레이커 패키지(OEM) 전략 확대로 직거래·시장점유율 확보에 장애가 될 수 있습니다."
+      },
+      {
+        "factor": "환율(수출비중)",
+        "detail": "수출 비중이 높은 만큼 환율 변동은 매출 원화 환산과 경쟁력에 직접 영향을 줍니다."
+      },
+      {
+        "factor": "해외정부 사업",
+        "detail": "해외(인도·중동 등) 정부 주도의 인프라 프로젝트 진행 여부가 수요 변동의 주요 변수입니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 회사의 상표, 고객관리 정책",
+        "evidence_text": "국내1위, 세계 6위권의 유압브레이커 회사로서의 입지를 유지하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "어태치먼트: 44,003 (19.2%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "특수장비: 185,385 (80.8%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "나. 회사의 현황 (1) 영업현황 > 해외현황",
+        "evidence_text": "인도 시장은 전역에 권역별로 대리점을 운영하고 있고,"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 업계의 현황 (4) 경쟁요소",
+        "evidence_text": "중국산 장비 제조업체들이 위협적인 존재로 급부상하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 업계의 현황 (3) 경기변동의 특성",
+        "evidence_text": "건설경기와 직접적인 관련이 있으며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 업계의 현황 (3) 경기변동의 특성",
+        "evidence_text": "수출의 비중이 높은만큼 환율 변동의 영향도 큽니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4062,
+    "completion_tokens": 5293,
+    "reasoning_tokens": 4352,
+    "output_tokens": 941
+  },
+  "warnings": []
+}

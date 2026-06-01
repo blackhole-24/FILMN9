@@ -1,0 +1,71 @@
+{
+  "stock_code": "418620",
+  "corp_name": "E8",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 19:18",
+  "meta": {
+    "wics": "소프트웨어",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "E8은 온톨로지(Ontology) 기반 AI 디지털 트윈 기술을 중심으로 산업·도시·시설 등 복합 환경의 데이터를 의미 단위로 구조화해 지능형 플랫폼을 개발하는 소프트웨어 기업입니다. 의사결정형 디지털 트윈(실제 현장 문제를 AI가 인식하고 해결 방안을 제시하는 플랫폼)을 핵심 사업 영역으로 삼아 스마트시티, 에너지, 제조 등 다양한 산업에 기술을 적용하고 있습니다.",
+    "business_model": "사업부문별 영업수익 구성(FY2025)은 서비스 6.0%, 용역 65.0%, 상품 29.0%로 나타나며, 핵심 수익원은 프로젝트형 용역(대규모 공공·민간 프로젝트 수행)과 상품(소프트웨어·플랫폼) 판매 및 SaaS(서비스형 소프트웨어) 기반 서비스로 이루어져 있습니다. NDX PRO AI(온톨로지 기반 플랫폼)와 NFLOW AI(입자 기반 CFD 해석 엔진)를 중심으로 플랫폼·시뮬레이션·공간정보를 융합한 솔루션을 제공하는 점이 사업의 특징입니다.",
+    "main_customers": "서비스 — 공공기관 및 기업(클라우드 기반 SaaS 이용자) / 용역 — 공공 프로젝트 발주처(스마트시티·국방 등) 및 대형 민간 프로젝트 수요처 / 상품 — 제조·건설·에너지·교통 등 인프라 운영 기업 및 기관",
+    "price_factors": [
+      {
+        "factor": "정책·투자",
+        "detail": "정부의 디지털 인프라·R&D 투자 확대가 이어지면 공공 대형사업 수요가 증가하여 매출에 긍정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "프로젝트 일정",
+        "detail": "주요 프로젝트 일정 지연 시 매출 인식이 미뤄져 분기·연간 실적이 악화될 수 있습니다."
+      },
+      {
+        "factor": "기술 표준화",
+        "detail": "디지털 트윈 기술의 표준화 지연은 도입 속도를 저해하여 수요 확대에 부정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "초기 도입비",
+        "detail": "초기 구축 비용 부담 및 고객의 ROI(투자수익성) 기대치가 높아지면 신규 수주와 확산이 제한될 수 있습니다."
+      },
+      {
+        "factor": "전문인력",
+        "detail": "전문 인력 부족 및 유지보수 역량 미흡은 프로젝트 수행 능력과 고객 신뢰에 직접적인 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 회사의 현황",
+        "evidence_text": "'의사결정형 디지털 트윈' 기술을 핵심 사업 영역으로 하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "- 용역: 391,055 (65.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "나. 시장 현황 > 활용 분야",
+        "evidence_text": "스마트시티, 제조, 교통, 건설, 에너지, 국방 등 다양한 산업 환경에서"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "다. 경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "작년과 마찬가지로 세종스마트시티 등 주요 프로젝트 일정 지연으로 인해 매출이 저조하여 손익구조가 악화되었습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5433,
+    "completion_tokens": 3693,
+    "reasoning_tokens": 2816,
+    "output_tokens": 877
+  },
+  "warnings": []
+}

@@ -1,0 +1,62 @@
+{
+  "stock_code": "253590",
+  "corp_name": "네오셈",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 13:50",
+  "meta": {
+    "wics": "반도체와반도체장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "네오셈은 2002년 4월 설립된 반도체 후공정 검사장비 업체로, SSD와 MBT(모니터링 번인 테스터)를 중심으로 메모리반도체의 성능·신뢰성 검사 장비를 주력으로 제조합니다. 또한 반도체·정밀산업용 해외 장비에 대한 총판 사업도 병행하고 있습니다.",
+    "business_model": "주요 매출원은 제품매출(장비 판매)이며, 2025 회계연도에 제품매출이 전체의 90.4%를 차지합니다(상품매출 3.8%, 용역&기타 5.8%). 핵심 제품으로는 SSD Tester와 MBT(번인 테스터)를 제공하며, 다양한 프로토콜을 지원하는 All-in-one test solution(종합 시험 솔루션)과 HBM(고대역폭 메모리) 테스트가 가능한 HSBI(High Speed Burn In Tester) 같은 프리미엄 장비를 보유하고 있습니다.",
+    "main_customers": "SSD 테스트 — 메모리반도체 제조사 / MBT(번인) — 메모리칩 및 HBM 신뢰성 검증이 필요한 고객사 / 총판(ASSEMBLY MACHINE·PARTICLE DETECTOR) — 반도체 및 정밀산업 기업",
+    "price_factors": [
+      {
+        "factor": "반도체 경기",
+        "detail": "반도체 장비 산업은 반도체 산업 업황에 크게 영향받아 메모리 수요 변동 시 네오셈 실적에 직결됩니다."
+      },
+      {
+        "factor": "메모리 수급",
+        "detail": "DRAM·HBM·NAND 수요와 가격 변동은 고부가 장비 수요와 장비 주문에 영향을 미칩니다."
+      },
+      {
+        "factor": "공정 업그레이드",
+        "detail": "고부가 제품 중심의 공정 업그레이드(예: HBM 대응)는 고성능 검사장비 수요를 촉진합니다."
+      },
+      {
+        "factor": "환율 변동",
+        "detail": "국제 영업을 영위하므로 달러 등 외환 변동은 수익성과 영업외손익에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 2002년 4월 설립된 반도체 후공정 검사장비 업체로"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "제품매출: 57,781 (90.4%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "크게 SSD(SOLID STATE DRIVE)의 성능 및 신뢰성을 검사하는 사업과, 메모리반도체에 가혹 조건을 적용하여 검사하는 MBT (MONITORING BURN-IN TESTER) 장비 사업으로 나누어집니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4206,
+    "completion_tokens": 2930,
+    "reasoning_tokens": 2176,
+    "output_tokens": 754
+  },
+  "warnings": []
+}

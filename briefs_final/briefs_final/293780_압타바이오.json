@@ -1,0 +1,72 @@
+{
+  "stock_code": "293780",
+  "corp_name": "압타바이오",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 15:23",
+  "meta": {
+    "wics": "건강관리업체및서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "압타바이오는 플랫폼 기술 기반 'First-in-Class' 신약개발 전문기업으로, 산화 스트레스 조절·CAF Modulation·압타머-약물 복합체(Apta-DC) 등 3가지 독창적 플랫폼을 통해 난치성 질환용 혁신 신약을 개발하고 있습니다. 일부 파이프라인은 기술이전이 완료되었고, 당뇨병성신증 치료제는 임상 2b상 단계에 진입했습니다.",
+    "business_model": "FY2025 기준 사업부문별 영업수익은 제품매출 45.5%, 펫제품 51.5%, 상품매출 1.6%, 기타매출 1.4%로 구성되어 있습니다(제품매출은 연구용 시약·ODM 등, 펫제품은 자사몰·오픈마켓 유통 중심). 핵심은 플랫폼 기반 신약개발(산화 스트레스 조절·CAF Modulation·Apta-DC)이며, 신사업본부의 건강기능식품 ODM과 펫케어, 시약매출이 현재 매출의 상당 부분을 차지합니다.",
+    "main_customers": "제품매출 — ODM 주문사 및 시약 요청 고객 / 펫제품 — 자사몰·오픈마켓을 통한 최종 소비자 / 상품매출 — 국내 유통망 및 소비자",
+    "price_factors": [
+      {
+        "factor": "임상데이터",
+        "detail": "2026년 발표될 임상시험 데이터에 따라 글로벌 라이선스아웃(기술수출) 가능성과 실적 변동성이 결정됩니다."
+      },
+      {
+        "factor": "기술독점성",
+        "detail": "NOX 저해 평가법 등 모방 난이도가 높다는 기술적 우위는 경쟁사 대비 장기적 우호적 포지션을 제공합니다."
+      },
+      {
+        "factor": "R&D비용",
+        "detail": "신약개발 초기단계 특성상 기술수출 전까지 위탁임상비용 등 경상 연구개발비 지출로 영업손실이 지속될 가능성이 있습니다."
+      },
+      {
+        "factor": "매출구조",
+        "detail": "신사업본부와 오브젝티보 사업본부에서 현재 대부분의 매출이 발생하고 있어, 신약개발 성과 전까지 매출 변동성에 민감합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "'First-in-Class' 신약개발 전문기업"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "제품매출: 1,433,965 (45.5%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "펫제품: 1,624,749 (51.5%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "사업의 개요 상세",
+        "evidence_text": "프리미엄 펫제품을 자사몰과 주요 오픈마켓을 통해 유통하고 있습니다."
+      },
+      {
+        "field": "company_overview",
+        "source_section": "사업의 개요 상세",
+        "evidence_text": "당뇨병성신증 치료제는 현재 임상 2b상에 진입 하였습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5230,
+    "completion_tokens": 3907,
+    "reasoning_tokens": 3072,
+    "output_tokens": 835
+  },
+  "warnings": []
+}

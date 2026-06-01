@@ -1,0 +1,71 @@
+{
+  "stock_code": "111710",
+  "corp_name": "남화산업",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 12:52",
+  "meta": {
+    "wics": "호텔,레스토랑,레저",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "남화산업은 '무안컨트리클럽'이라는 상호로 광주·전남권 최초의 대중골프장(비회원제)을 설립하여 꾸준한 코스 증설을 통해 국내 3위 규모의 54홀을 보유한 골프장 운영회사입니다. 2018년 11월 29일 코스닥에 상장하며 국내 골프장 업계에서 최초의 골프장 전용 상장사로 자리매김했습니다.",
+    "business_model": "주요 수익원은 골프장 운영으로, FY2025 기준 골프입장이 77.2%, 식음료가 6.5%, 대여(골프카트 등)가 15.5%, 숙박(골프텔)이 0.8%를 차지합니다. 매출은 입장수입, 식음료매출, 골프카트 대여수입, 골프텔 숙박수입으로 구성되며 주요 비용은 잔디관리를 위한 비료, 잔디깎기 장비의 유지관리, 코스 살포용 모래 등의 원재료비(필드 관리비)입니다.",
+    "main_customers": "골프입장 — 광주·전남권 골퍼(지역 방문 고객) / 식음료 — 내장객·방문객 / 대여 — 골퍼(카트·장비 대여 고객) / 숙박 — 체류형 내장고객(골프텔 이용)",
+    "price_factors": [
+      {
+        "factor": "내장객수",
+        "detail": "내장객 감소는 입장수입(매출의 주요 부분)에 직접적인 감소로 이어져 실적에 영향."
+      },
+      {
+        "factor": "카트수입",
+        "detail": "카트대여료 수입 비중이 높아(약 15%) 카트 관련 제도 변화가 수익성에 영향."
+      },
+      {
+        "factor": "요금규제",
+        "detail": "대중형골프장 지정·이용요금 표준화 등 규제는 가격 설정과 세제혜택에 영향을 미침."
+      },
+      {
+        "factor": "원재료비",
+        "detail": "잔디관리용 비료·장비 유지·코스용 모래 비용 변동은 영업비용에 직결됨."
+      },
+      {
+        "factor": "지역접근성",
+        "detail": "무안공항·KTX 연계 등 교통 여건 개선은 체류형 고객 유치(숙박수입)에 긍정적 영향을 줄 수 있음."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "현재 국내 3위 규모의 54홀을 보유하고"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "골프입장: 12,938 (77.2%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "라. 경쟁현황",
+        "evidence_text": "당사의 경우 광주 및 전남권 고객들이 주 고객이라 할 수 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "카트대여료 수입이 전체 골프장 수입의 약 15% 수준에 달하기 때문에"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4724,
+    "completion_tokens": 4348,
+    "reasoning_tokens": 3520,
+    "output_tokens": 828
+  },
+  "warnings": []
+}

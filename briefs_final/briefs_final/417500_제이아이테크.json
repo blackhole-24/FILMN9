@@ -1,0 +1,71 @@
+{
+  "stock_code": "417500",
+  "corp_name": "제이아이테크",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 19:12",
+  "meta": {
+    "wics": "반도체와반도체장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "제이아이테크는 반도체용 프리커서 원료·제품과 FPD용 포토마스크 케이스 원료·제품, OLED 유기재료 및 액화탄산가스 등을 생산·판매하는 화학기업으로 반도체·디스플레이 시장을 주요 고객군으로 삼고 있습니다. 2025년 연결기준 매출은 535억원, 영업이익은 104억원이며 자산총계는 1,292억원 수준입니다.",
+    "business_model": "주요 수익원은 반도체 공정용 고순도 프리커서(Precursor: 반도체 전구체)이며, 2025년 사업부문별 구성은 Precursor 73.8%, PMC 16.0%, 전자재료 2.1%, 액화탄산가스 3.3%, 상품·설비 등 기타로 구성되어 있습니다. 핵심은 대규모 시설투자와 품질·안전관리 역량을 바탕으로 반도체·디스플레이 전방업체에 안정적으로 소재를 공급하는 사업구조이며, CANISTER(2차전지용)·OLED 유기재료·특수가스 등 신사업도 확대 중입니다.",
+    "main_customers": "Precursor — 반도체 제조사 / PMC — FPD 관련 제조사(포토마스크 케이스 수요처) / 전자재료 — 디스플레이 제조사 / 액화탄산가스 — 선박용접 등 산업용 수요처",
+    "price_factors": [
+      {
+        "factor": "기술집약성",
+        "detail": "기술혁신 속도가 빠르고 고품질 관리가 필수여서 기술경쟁에서 밀리면 수주와 실적에 부정적 영향을 받을 수 있습니다."
+      },
+      {
+        "factor": "설비투자 부담",
+        "detail": "진입장벽이 높은 만큼 대규모 시설투자 필요성이 실적 변동과 자산·현금흐름에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "전자제품 경기",
+        "detail": "반도체·디스플레이 수요는 전자제품 시장의 경기흐름에 연동되어 경기변동에 따라 매출 변동성이 커집니다."
+      },
+      {
+        "factor": "글로벌 경쟁",
+        "detail": "CANISTER 등 신사업은 기존 중국 제품의 과점 시장에 진입하는 전략으로, 경쟁구도와 원가구조가 실적에 영향합니다."
+      },
+      {
+        "factor": "환율(외화위험)",
+        "detail": "해외 법인 및 거래로 외화자산·부채 노출이 있어 환율 변동이 수익성에 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "반도체용 프리커서 원료 및 제품과  FPD용 포토마스크 케이스 원료 및 제품을 생산, 판매하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "Precursor: 39,534 (73.8%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "OLED 유기재료를 정제가공하여 디스플레이 제조사에 납품하고 있으며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "수요측면에서는 반도체, 반도체 소재산업 및 디스플레이 산업은 ... 전자제품 시장 경기흐름에 연동되어 있으며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4225,
+    "completion_tokens": 3030,
+    "reasoning_tokens": 2112,
+    "output_tokens": 918
+  },
+  "warnings": []
+}

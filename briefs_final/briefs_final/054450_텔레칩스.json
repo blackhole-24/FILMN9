@@ -1,0 +1,62 @@
+{
+  "stock_code": "054450",
+  "corp_name": "텔레칩스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 03:26",
+  "meta": {
+    "wics": "반도체와반도체장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "텔레칩스는 1999년 설립된 반도체 및 솔루션 공급기업으로, 멀티미디어·통신 관련 반도체를 시작으로 차량용 반도체 시장으로 사업을 전환해 왔습니다. 현재는 AP(Application Processor)를 중심으로 인포테인먼트에서 ADAS·게이트웨이에 이르기까지 종합 차량용 반도체와 솔루션을 제공하고 있습니다.",
+    "business_model": "핵심 수익원은 차량용 반도체 설계 및 솔루션 공급으로, 인포테인먼트용 AP와 ADAS용 비전 프로세서, 차량용 게이트웨이 프로세서 등을 통해 매출을 창출합니다. 사업부문별 영업수익 구성은 해외 54.9%, 텔레칩스→대리점→고객 38.4%, 제품 5.7%, 기타매출 1.0%, 기타 0.1%, 모바일 TV 수신칩 0.1%로 구성되어 있습니다.",
+    "main_customers": "인포테인먼트 — 주요 글로벌 완성차 및 부품업체 / ADAS·게이트웨이 — 주요 글로벌 완성차 및 부품업체 / 유통(대리점) 채널 — 대리점 및 해당 고객",
+    "price_factors": [
+      {
+        "factor": "글로벌 자동차 수요",
+        "detail": "글로벌 자동차 생산·판매가 줄면 차량용 반도체 수요가 동반 감소하여 실적에 직접 영향을 줍니다."
+      },
+      {
+        "factor": "전장화·기술혁신",
+        "detail": "인포테인먼트·자율주행 관련 기술 요구가 커지면 고성능·저전력 AP 등 제품 수요가 증가합니다."
+      },
+      {
+        "factor": "경쟁 강도",
+        "detail": "고성능 반도체와 자율주행용 솔루션 경쟁이 치열하면 가격·수주 경쟁 및 제품 차별화 압력이 커집니다."
+      },
+      {
+        "factor": "파운드리 의존",
+        "detail": "설계 중심 구조로 파운드리·패키지 공급 상황에 따라 제품 출하와 원가에 영향이 발생할 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "현재는 차량용 반도체 시장에서 AP(Application Processor)를 중심으로 종합 차량용 반도체 및 솔루션을 제공하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "해외: 78,522,851 (54.9%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "주요 글로벌 완성차 및 부품업체와 협력을 확대해"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4217,
+    "completion_tokens": 3223,
+    "reasoning_tokens": 2496,
+    "output_tokens": 727
+  },
+  "warnings": []
+}

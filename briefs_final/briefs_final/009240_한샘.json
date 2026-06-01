@@ -1,0 +1,66 @@
+{
+  "stock_code": "009240",
+  "corp_name": "한샘",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 11:09",
+  "meta": {
+    "wics": "가구",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "한샘은 리빙 분야에서 홈리모델링의 판매·시공과 가구·생활용품 판매를 주력으로 하는 기업입니다. 당사는 K-IFRS에 따라 7개의 종속회사를 보유하고 있으며 단일 보고부문인 '한샘'으로 매출을 집계하고 있습니다.",
+    "business_model": "회사는 단일 보고부문 '한샘'(매출 비중 100.0%)으로 집계되며, 핵심 사업은 리하우스(홈리모델링), 홈퍼니싱(가구·생활용품·패브릭), B2B(특판·자재판매)입니다. 2025년 연결기준 총매출은 1조 7,445억 원이며, 리하우스 5,441억원, 홈퍼니싱 4,778억원, B2B 3,957억원의 매출을 기록했습니다.",
+    "main_customers": "리하우스사업 — 주거용 고객(개별 가구·아파트 등) / 홈퍼니싱사업 — 일반 소비자(백화점·온라인·유통 채널을 통한 구매자) / B2B사업 — 건설사 및 재건축·재개발 조합, 오피스 가구 수요처",
+    "price_factors": [
+      {
+        "factor": "소비심리",
+        "detail": "국내 소비 심리 위축 시 홈퍼니싱 매출이 감소하고 실적에 부정적 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "주택경기",
+        "detail": "주택 거래량과 주택 건설 경기 둔화는 리모델링·B2B 수요 축소로 이어질 수 있습니다."
+      },
+      {
+        "factor": "주택 노후도",
+        "detail": "노후 주택 증가와 국민소득 상승은 중장기적으로 홈리모델링 시장 성장과 수요 확대에 기여합니다."
+      },
+      {
+        "factor": "계절성",
+        "detail": "홈리모델링은 계절적으로 봄·가을 성수기가 있어 분기별 실적 변동성이 발생할 수 있습니다."
+      },
+      {
+        "factor": "원가·유통구조",
+        "detail": "원가율 및 유통망 효율화(온라인 채널 강화 등)는 수익성 개선과 실적 안정성에 직접적인 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "리빙 분야에서 홈리모델링 판매 및 시공을 하는 리하우스사업과"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "한샘 - 100.0%"
+      },
+      {
+        "field": "business_model",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "당사의 2025년 연결기준 매출액은 1조 7,445억 원이며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4397,
+    "completion_tokens": 4083,
+    "reasoning_tokens": 3328,
+    "output_tokens": 755
+  },
+  "warnings": []
+}

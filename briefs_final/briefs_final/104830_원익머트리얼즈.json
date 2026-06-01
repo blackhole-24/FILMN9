@@ -1,0 +1,67 @@
+{
+  "stock_code": "104830",
+  "corp_name": "원익머트리얼즈",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 08:23",
+  "meta": {
+    "wics": "화학",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "원익머트리얼즈는 고순도 특수가스를 생산하는 기업으로, 반도체와 디스플레이 제조공정에 사용하는 다양한 가스를 제품 및 상품 형태로 공급하고 있습니다. 미국법인(WMNA)과 중국법인(신원익, 위남원익)을 통해 연구·해외영업을 전개하며 글로벌 Major 반도체·디스플레이사에 납품하고 있습니다.",
+    "business_model": "주요 수익원은 고순도 전자재료용 특수가스의 생산·판매이며, 제품군에는 NH3(암모니아), N2O, F2 mix, C4F8, Xe 등과 CO2, Si2H6, GeH4 Mix, CH2F2 등의 상품이 포함됩니다. 제20기에는 NH3가 매출의 59.08%를 차지하는 등(제20기 매출 178,960(59.08%)) 특정 제품군의 의존도가 높습니다.",
+    "main_customers": "반도체용 특수가스 — 삼성전자·SK하이닉스 등 종합반도체회사(메모리 및 비메모리 포함) / 디스플레이용 특수가스 — 삼성디스플레이·LG디스플레이 등 디스플레이 제조사",
+    "price_factors": [
+      {
+        "factor": "AI 수요",
+        "detail": "AI·데이터센터 투자 확대는 반도체 시장과 소재(특수가스) 수요를 늘려 실적에 긍정적 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "Fab 가동률",
+        "detail": "특수가스 수요는 Fab(반도체 생산시설) 가동률에 기반하므로 가동률 변동이 매출 안정성에 직접 영향합니다."
+      },
+      {
+        "factor": "글로벌 경쟁",
+        "detail": "전자용 특수가스 시장은 소수 글로벌 업체 중심으로 높은 점유율을 유지해 경쟁·가격 환경이 기업 실적에 영향을 줍니다."
+      },
+      {
+        "factor": "환율 변동",
+        "detail": "외화매출·외화채무 노출로 USD·JPY 등 환율 변동이 수익성 및 재무에 영향을 미칠 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "(주)원익머트리얼즈는 고순도 특수가스를 생산하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 (원문 테이블)",
+        "evidence_text": "NH3 제20기매출액(비율) 178,960(59.08%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사가 생산하는 고순도 특수가스는 글로벌 Major 반도체 및 디스플레이 회사에 납품하고 있으며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "반도체용 특수가스 시장 규모는 2025년 38억 달러로 추정되고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4976,
+    "completion_tokens": 3284,
+    "reasoning_tokens": 2496,
+    "output_tokens": 788
+  },
+  "warnings": []
+}

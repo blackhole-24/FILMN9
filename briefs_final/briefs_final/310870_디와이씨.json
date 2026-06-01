@@ -1,0 +1,62 @@
+{
+  "stock_code": "310870",
+  "corp_name": "디와이씨",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 16:02",
+  "meta": {
+    "wics": "자동차부품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "디와이씨는 2000년 Rear Axle Shaft를 생산하는 기업으로 출발해 구동(동력전달) 부품 중심의 가공 전문기업으로 성장한 회사입니다. 선진 제조기술과 고주파 열처리 등 가공기술을 바탕으로 글로벌 완성차·부품사에 주요 부품을 공급하는 기업 정체성을 갖고 있습니다.",
+    "business_model": "주요 사업은 구동부품(동력전달장치) 가공이며 샤프트·플랜지·피니언·디프케이스·요크·링기어 등 제품군을 통해 매출을 창출합니다. FY2025 기준 사업부문별 영업수익 구성은 샤프트 45.1%, 플랜지 20.0%, 피니언 9.5%, 디프케이스 8.1%, 요크 6.0%, 링기어 6.5%, 방산 4.1% 등으로 샤프트 중심의 수익 구조를 보입니다.",
+    "main_customers": "구동부품 — 자동차부품업체 및 완성차업체(예: GKN, ZF, AAM, GM 코리아, 엘지마그나이파워트레인, 파인툴, 마그나 / 다임러, 마세라티, 포르쉐, 아우디, GM, 포드, STELLANTIS) / 방산 — 방산업체 및 협력사(예: ㈜한화 구미사업장 협력업체, 풍산 F.N.S, 코리아디펜스인더스트리)",
+    "price_factors": [
+      {
+        "factor": "완성차 의존도",
+        "detail": "완성차업체의 신차 수요 변동이나 경쟁입찰 확대 시 매출과 수익성에 직접적 영향이 큽니다."
+      },
+      {
+        "factor": "글로벌 경쟁",
+        "detail": "신흥시장 현지업체의 성장 및 글로벌 업체의 해외 생산 확대는 가격경쟁과 수주 환경을 압박합니다."
+      },
+      {
+        "factor": "환경규제",
+        "detail": "온실가스·연비 규제 강화로 친환경·전동화 부품 수요 전환이 가속되면 제품 구성 및 기술투자가 영향을 받습니다."
+      },
+      {
+        "factor": "방산 수요",
+        "detail": "방산 매출은 정부의 국방예산 및 방위사업 정책 변화에 민감하게 반응합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "디와이씨(주)는 2000년 Rear Axle Shaft를 생산하는 기업으로 시작"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "샤프트: 50,073 (45.1%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "당사의 제품은 주요 고객사인 GKN, ZF, AAM, GM 코리아"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5257,
+    "completion_tokens": 3401,
+    "reasoning_tokens": 2624,
+    "output_tokens": 777
+  },
+  "warnings": []
+}

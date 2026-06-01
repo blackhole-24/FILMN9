@@ -1,0 +1,71 @@
+{
+  "stock_code": "110790",
+  "corp_name": "크리스에프앤씨",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 08:41",
+  "meta": {
+    "wics": "섬유,의류,신발,호화품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "크리스에프앤씨는 1998년 설립된 골프·스포츠 의류 전문 기업으로, 핑(PING) 라이선스 론칭 이후 팬텀(FANTOM), 파리게이츠(PEARLY GATES) 등 자체 및 라이선스 브랜드를 운영해왔습니다. 최근 하이드로겐(HYDROGEN), 마무트(MAMMUT), 앤드원더(AND WANDER) 등 아웃도어·스포츠 브랜드를 추가하며 골프웨어를 넘는 포트폴리오 확장과 종속회사를 통한 골프장 사업 진출로 성장동력을 다지고 있습니다.",
+    "business_model": "주요 수익은 제품매출(제품 제조·판매) 중심으로 구성되어 있으며, FY2025 기준 제품매출이 97.5%를 차지합니다(상품매출 1.1%, 임대매출 0.3%, 수수료매출 0.6%, 기타매출 0.1%). 브랜드별로 하이엔드부터 중저가까지 가격대를 형성해 백화점·아울렛·대리점·직영·온라인 등 다양한 유통채널을 통해 판매하는 것이 핵심 수익 구조입니다.",
+    "main_customers": "골프의류 — 백화점·아울렛·대리점·직영점·온라인을 이용하는 20대부터 고령층까지의 일반 소비자 / 스포츠 의류 — 퍼포먼스·라이프스타일을 추구하는 아웃도어·스포츠 소비자 / 골프장 — 소득수준이 높은 구매층(회원제)",
+    "price_factors": [
+      {
+        "factor": "수요조정",
+        "detail": "팬데믹 이후 골프 참여자 감소(영골퍼 이탈)는 매출 축소로 연결되어 실적에 부정적 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "소비심리",
+        "detail": "고금리·고물가로 인한 소비 심리 위축은 고가 상품 수요 감소로 실적 하방 압력으로 작용합니다."
+      },
+      {
+        "factor": "원가상승",
+        "detail": "원자재·원가 상승은 마진(영업이익)을 악화시켜 실적과 투자지표에 부정적 영향을 줍니다."
+      },
+      {
+        "factor": "계절성",
+        "detail": "간절기(봄·가을) 수요 축소는 특정 분기 매출 변동성을 키워 실적 변동에 영향을 줍니다."
+      },
+      {
+        "factor": "브랜드경쟁",
+        "detail": "브랜드 인지도와 고객충성도가 실적 안정성에 중요해 신규 브랜드 경쟁 심화는 시장점유율에 영향합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 영업 현황",
+        "evidence_text": "당사는 1998년 8월 설립 이후"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "제품매출: 303,998,980 (97.5%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "(1) 골프의류 사업 부문",
+        "evidence_text": "유통 채널은 백화점, 아울렛, 대리점, 직영점, 온라인으로 다양하게 판매되고 있으며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "지난해 골프 의류 시장은 전반적으로 성장세가 둔화되었습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4568,
+    "completion_tokens": 3832,
+    "reasoning_tokens": 2944,
+    "output_tokens": 888
+  },
+  "warnings": []
+}

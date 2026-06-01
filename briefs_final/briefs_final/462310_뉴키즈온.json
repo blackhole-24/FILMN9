@@ -1,0 +1,71 @@
+{
+  "stock_code": "462310",
+  "corp_name": "뉴키즈온",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 20:20",
+  "meta": {
+    "wics": "섬유,의류,신발,호화품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "뉴키즈온은 유아동 의류와 화장품을 제조·판매하는 온라인 중심의 패션·화장품 전문기업입니다. 젤리스푼 등 다수 브랜드로 이커머스 초기부터 시장을 공략해 왔으며, 현재 총 11개의 패션 브랜드와 1개의 화장품 브랜드를 보유하고 있습니다.",
+    "business_model": "주요 수익원은 유아동패션(2025년 영업수익의 92.3%)이며, 유아동화장품이 나머지(7.7%)를 차지합니다. 이커머스 플랫폼(네이버, 쿠팡, 카카오, 무신사 등)과 자사 통합몰을 중심으로 브랜드 런칭·콜라보레이션을 통해 매출을 확대하고 있으며, 자회사 에코더마랩(오가본)과 소금도서관(향기 브랜드 솔테라이브러리)을 통해 화장품·프래그런스 영역으로 포트폴리오를 확장하고 있습니다.",
+    "main_customers": "유아동패션 — 온라인으로 구매하는 부모(주로 엄마들) / 유아동화장품 — 영유아 대상(부모가 구매)",
+    "price_factors": [
+      {
+        "factor": "출생률",
+        "detail": "출생아 수 감소는 전체 수요 축소로 이어져 실적에 하방 압력을 줄 수 있습니다."
+      },
+      {
+        "factor": "온라인경쟁",
+        "detail": "이커머스 플랫폼과 중저가 브랜드 확대는 가격·마케팅 경쟁을 심화시켜 마진에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "브랜드프리미엄",
+        "detail": "프리미엄화 및 캐릭터·콘텐츠 협업은 평균판매단가(ASP)와 충성고객 확보에 긍정적 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "시즌성",
+        "detail": "가을·겨울(FW) 성수기 매출 비중이 높아 계절별 실적 변동성이 존재합니다."
+      },
+      {
+        "factor": "입점수수료",
+        "detail": "입점사 수수료 증가 등 유통비용 상승은 영업이익률을 낮출 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "당사는 유아동 의류 및 화장품을 제조, 판매하는 회사로"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "유아동패션: 9,920 (92.3%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "유아동화장품: 3,791 (7.7%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "엄마들 사이에서 가성비와 디자인이 우수한 브랜드로 자리매김하였고"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5567,
+    "completion_tokens": 5182,
+    "reasoning_tokens": 4416,
+    "output_tokens": 766
+  },
+  "warnings": []
+}

@@ -1,0 +1,67 @@
+{
+  "stock_code": "082640",
+  "corp_name": "동양생명",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 11:57",
+  "meta": {
+    "wics": "생명보험",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "insurance"
+  },
+  "brief": {
+    "company_overview": "동양생명은 1989년 4월 창립된 생명보험사로, 생명보험업을 중심으로 다양한 보장성·저축성 상품을 판매하고 있습니다. 2025년 말 기준 수입보험료 4조 8,144억원, 연결기준 총자산 35조 3,472억원 규모이며, 2025년 7월 1일 최대주주가 우리금융지주로 변경되어 동 지주의 자회사로 편입되었습니다.",
+    "business_model": "주요 수익원은 사망보험·생사혼합보험·생존보험 등 보장성 상품과 퇴직연금·퇴직보험·변액보험 등 저축성 상품의 수입보험료이며, 2025년 말 기준 사망보험 65.9%, 생사혼합보험 5.1%, 생존보험 10.1%, 퇴직연금·퇴직보험·변액보험 등 18.8%의 비중을 기록했습니다(수입보험료 기준). 또한 자산운용을 통해 약 3.4%의 투자수익률을 확보하며 보험금·이자 지급을 대비한 운용을 병행하고 있습니다.",
+    "main_customers": "보장성보험(사망·생존·생사혼합) — 개인 계약자 및 피보험자 / 단체보험 — 단체(기업·기관) 가입자 / 퇴직연금·퇴직보험 — 퇴직연금 가입자(근로자 및 가입처)",
+    "price_factors": [
+      {
+        "factor": "금리(이자율)",
+        "detail": "금리 변동은 보유자산의 평가이익·손익과 투자수익률에 영향을 미쳐 실적과 재무상태에 직결됩니다."
+      },
+      {
+        "factor": "보험금 지급",
+        "detail": "예상 대비 실제보험금 차이 증가 등 보험영업손익 악화는 영업이익 감소로 이어집니다."
+      },
+      {
+        "factor": "지급여력비율",
+        "detail": "지급여력비율 수준은 보험사의 건전성 지표로 시장의 신뢰와 재무여력 인식에 영향을 줍니다."
+      },
+      {
+        "factor": "지배구조(주주변동)",
+        "detail": "최대주주 변경 및 그룹 편입은 경영정책·협업 기회 및 시장 인식에 영향을 미칠 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "동양생명은 1989년 4월 창립 이래 생명보험업을 중심으로 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "사망보험 3조 1,744억원(65.9%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "퇴직연금 등 저축성 상품을 통해 고객의 다양한 니즈를 충족하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "예상 대비 실제보험금 차이 증가"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3405,
+    "completion_tokens": 4021,
+    "reasoning_tokens": 3200,
+    "output_tokens": 821
+  },
+  "warnings": []
+}

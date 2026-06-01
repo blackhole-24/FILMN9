@@ -1,0 +1,71 @@
+{
+  "stock_code": "095910",
+  "corp_name": "에스에너지",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 07:36",
+  "meta": {
+    "wics": "에너지장비및서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "에스에너지는 ‘국내 최초 태양광 기업’이라는 역사를 바탕으로 태양광 모듈 제조와 프로젝트 개발을 영위하는 기업입니다. 수소연료전지 전문 자회사 에스퓨얼셀과 O&M(운영·유지보수) 전문 자회사 에스파워와 함께 신재생에너지 통합 로드맵을 구축하고 있습니다.",
+    "business_model": "주요 사업은 EPC 건설(6.9%), 수소연료전지 등(15.4%), O&M(14.0%), 임대매출 등(0.1%)으로 구성되어 있으며, 태양광 모듈 제조 경쟁력을 바탕으로 EPC(설계·조달·시공)와 모듈 공급, 발전소 운영관리(O&M) 및 수소연료전지 사업을 병행하고 있습니다.",
+    "main_customers": "EPC 건설 — 루프·산단·자전거도로 태양광 프로젝트 발주처 및 해외 ODA·수출처 / 수소연료전지 등 — 수소연료전지 관련 협력업체·생태계 참여자 / O&M — 태양광 발전소 운영주체(국내외)",
+    "price_factors": [
+      {
+        "factor": "중국 공급 집중",
+        "detail": "글로벌 공급망에서 중국의 생산 집중과 공급과잉은 모듈 가격 하락 압력을 높여 실적과 마진에 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "정책 수요",
+        "detail": "그린뉴딜·탄소중립·ESG 확산은 국내외 태양광 설치량 증가로 수요 확대로 연결될 가능성이 있습니다."
+      },
+      {
+        "factor": "제품 경쟁력",
+        "detail": "고효율 HJT 모듈의 KS인증 등 기술·품질 경쟁력은 수주·가격 경쟁에서 유리하게 작용할 수 있습니다."
+      },
+      {
+        "factor": "O&M 디지털화",
+        "detail": "ICT 기반의 디지털 O&M 수요 확대는 에스파워의 중앙관제 역량과 연동되어 수익성에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "수소경제",
+        "detail": "수소연료전지 생태계 확대는 에스퓨얼셀의 시설·품질관리 역량과 연계되어 관련 매출에 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 업계의 현황",
+        "evidence_text": "국내 최초 태양광 기업"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "EPC 건설: 7,035 (6.9%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "(가) 영업개황",
+        "evidence_text": "루프 태양광, 산단 태양광, 자전거도로 태양광등"
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. 업계의 현황",
+        "evidence_text": "Q1센터는 국내 최대 규모의 수소연료전지 품질평가 사이트로"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3397,
+    "completion_tokens": 3855,
+    "reasoning_tokens": 3072,
+    "output_tokens": 783
+  },
+  "warnings": []
+}

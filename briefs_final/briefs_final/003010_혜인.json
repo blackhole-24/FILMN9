@@ -1,0 +1,67 @@
+{
+  "stock_code": "003010",
+  "corp_name": "혜인",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 18:20",
+  "meta": {
+    "wics": "기계",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "혜인은 국내 에너지동력 및 종합건설기계 그룹으로, 캐터필라 등 글로벌 브랜드의 공식 딜러십을 통해 굴착기·휠로더·엔진·발전기 등 광범위한 장비를 공급하고 있습니다. 천안 제1공장 등 대규모 정비공장과 고객지원센터를 통해 장비 판매 후 정비·교육 서비스까지 제공하고 있습니다.",
+    "business_model": "주요 수익은 장비·엔진 판매와 부품·정비 서비스에서 발생하며, FY2025 기준 장비/엔진이 63.4%, 부품이 28.2%, 정비매출이 7.5%를 차지합니다. 임대(1.1%), 오파(0.3%), 전력(0.1%) 매출도 존재하며, 장비 공급뿐 아니라 부품판매와 정비(유지·보수) 서비스가 부가가치 원천입니다.",
+    "main_customers": "장비/엔진 — 건설·토목 및 산업현장 / 엔진·발전기 — 육상·해상 산업분야(선박·시추선 포함) / 산업장비 — 광산·건설업체 및 광물처리 현장 / 물류장비 — 물류현장 및 물류 관련 고객",
+    "price_factors": [
+      {
+        "factor": "건설경기",
+        "detail": "건설산업 경기 변동에 따라 장비 수요가 크게 달라져 실적에 직결됩니다."
+      },
+      {
+        "factor": "환율변동",
+        "detail": "달러화 추세에 민감해 환율에 따라 가격경쟁력과 매출에 영향이 발생합니다."
+      },
+      {
+        "factor": "경쟁심화",
+        "detail": "HD현대인프라코어·볼보 등과의 경쟁 및 소형 굴삭기 시장 강화로 경쟁 압력이 커질 수 있습니다."
+      },
+      {
+        "factor": "환경규제",
+        "detail": "배출가스·소음 규제 강화로 친환경 장비 수요 및 제품사양 대응이 실적에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "국내 에너지동력 및 종합건설기계 그룹으로 성장해 온 당사는"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "장비/엔진: 59,472 (63.4%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "1) CAT 건설기계",
+        "evidence_text": "건설/토목 및 산업현장에 다양한 캐터필라 건설기계를 공급합니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "[일반상품판매 및 정비부문]가. 업계의 현황(1) 산업의 특성",
+        "evidence_text": "건설기계산업은 전방산업인 건설산업의 경기동향과 매우 밀접한 상관관계를 가지고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5033,
+    "completion_tokens": 4239,
+    "reasoning_tokens": 3456,
+    "output_tokens": 783
+  },
+  "warnings": []
+}

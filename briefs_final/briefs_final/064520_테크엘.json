@@ -1,0 +1,57 @@
+{
+  "stock_code": "064520",
+  "corp_name": "테크엘",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 04:20",
+  "meta": {
+    "wics": "반도체와반도체장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "테크엘은 단일 사업부인 SIP 사업부를 중심으로 반도체용 메모리 카드를 제조하는 기업입니다. 낸드플래시 기반의 Wafer-Level 칩 적층 기술을 바탕으로 초소형·고용량 메모리카드 제품을 공급하고 있습니다.",
+    "business_model": "핵심은 SIP 사업부에서의 메모리 카드(낸드플래시 기반) 생산·판매로, FY2025 기준 '메모리 카드 등'이 매출의 100.0%를 차지합니다(스토리지용 메모리카드 제조가 단일 수익원). 판매가격은 Density 및 Stack(적층)에 따라 달라지며, 주요 원자재인 NAND 가격 변동에 영향을 받습니다.",
+    "main_customers": "SIP 사업부(메모리 카드 등) — 멀티미디어 기기·정보가전 등 저장장치 수요처",
+    "price_factors": [
+      {
+        "factor": "NAND 가격",
+        "detail": "주요 원자재인 NAND 가격 변동은 제품 판매가격과 원가에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "전방수요",
+        "detail": "모바일·정보가전 등 전방산업의 수요 증감이 메모리카드 수요에 직결되어 실적에 영향을 줍니다."
+      },
+      {
+        "factor": "공정 전환",
+        "detail": "공정 전환 및 선별 기준 강화로 B급 NAND 가용 물량이 축소되면 매출이 감소할 수 있습니다."
+      },
+      {
+        "factor": "가동률·고정비",
+        "detail": "가동률 하락 시 원가율이 상승하고 고정비 부담이 커져 수익성이 악화될 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사의 사업부문은 SIP사업부, 단일사업부입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "메모리 카드 등: 18,150 (100.0%)"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4651,
+    "completion_tokens": 3494,
+    "reasoning_tokens": 2944,
+    "output_tokens": 550
+  },
+  "warnings": []
+}

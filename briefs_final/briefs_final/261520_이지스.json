@@ -1,0 +1,66 @@
+{
+  "stock_code": "261520",
+  "corp_name": "이지스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 14:08",
+  "meta": {
+    "wics": "IT서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "이지스는 2001년 설립된 3차원 GIS(지리정보시스템) 및 디지털 트윈(Digital Twin) 기술 전문 기업으로, 자체 개발한 고해상도 공간정보와 디지털 트윈 플랫폼을 중심으로 공공 및 민간 분야에 서비스를 제공하고 있습니다. 외산 소프트웨어나 오픈소스에 의존하지 않고 모든 솔루션을 자체 기술로 개발해 온 점을 강점으로 내세우고 있습니다.",
+    "business_model": "주요 수익원은 용역매출과 기타매출로 구성되어 있으며, FY2025 기준 용역매출이 82.9%, 기타매출이 17.2%를 차지합니다. 핵심 제품인 통합 디지털 트윈 플랫폼(XDCloud)을 바탕으로 SI(시스템 통합) 프로젝트와 클라우드 기반의 구독형 SaaS(Software as a Service) 모델을 병행하여 제공하고 있으며, 사용자 데이터 클라우드와 앱 스토어는 현재 아직 매출이 발생하지 않고 향후 구독형 모델 확대 시 점진적 매출이 기대됩니다.",
+    "main_customers": "디지털 트윈 플랫폼(XDCloud) — 정부기관·지자체·민간기업 / SI(시스템 통합) 용역 — 정부 및 공공기관 / 구독형 SaaS 서비스(향후) — 기관·기업 및 단계적 개인 사용자 확대",
+    "price_factors": [
+      {
+        "factor": "구독 전환",
+        "detail": "구독형(SaaS·PaaS) 모델 확대로 안정적 반복 매출이 증가하면 실적 안정성에 긍정적 영향을 미칩니다."
+      },
+      {
+        "factor": "공공 정책 수요",
+        "detail": "국가 차원의 디지털 전환 및 스마트시티 정책 추진이 공공(B2G) 수주 확대에 직접적 영향을 줍니다."
+      },
+      {
+        "factor": "보안·규제",
+        "detail": "공간정보 관련 보안 인증 및 국외 반출 규제는 사업 수주와 플랫폼 도입에 중요한 제약요인입니다."
+      },
+      {
+        "factor": "글로벌 경쟁",
+        "detail": "Unity·Dassault·Siemens 등 글로벌 경쟁사의 산업 특화 플랫폼 확산은 시장 점유율에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "플랫폼 개방성",
+        "detail": "API 중심의 개방형 플랫폼 생태계 경쟁력은 다양한 산업 데이터 연계와 사업 확장성에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "국내 3차원 GIS 및 디지털 트윈(Digital Twin) 기술을 선도해 온 전문 기업"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "용역매출: 14,546,821 (82.9%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "정부기관ㆍ지자체ㆍ민간기업 등"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5514,
+    "completion_tokens": 3389,
+    "reasoning_tokens": 2624,
+    "output_tokens": 765
+  },
+  "warnings": []
+}

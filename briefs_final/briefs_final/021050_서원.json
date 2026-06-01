@@ -1,0 +1,67 @@
+{
+  "stock_code": "021050",
+  "corp_name": "서원",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 22:35",
+  "meta": {
+    "wics": "비철금속",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "서원은 1988년 설립된 신동(동합금) 가공업체로, 황동빌레트·인고트 등 동합금 제품을 주력으로 생산하는 신동업계의 기업입니다. 제품은 자동차부품소재·전기·반도체·건설·가전 등 전방산업에서 널리 쓰이며 국내·외 판매를 병행하고 있습니다.",
+    "business_model": "주요 매출은 제품 직접판매가 핵심으로, FY2025 기준 사업부문별 영업수익은 직접판매가 100.0%를 차지합니다. 주력제품(황동빌레트·인고트 등) 중심의 제조·판매 구조이며, 1일 생산능력 350톤·조업일수 264일로 연간 약 92,400톤의 생산능력을 보유하고, 매출은 수출 49.7%·내수 50.3%로 배분됩니다.",
+    "main_customers": "직접판매 — 자동차부품소재·전기·반도체·건설·가전 제조사 및 부품업체",
+    "price_factors": [
+      {
+        "factor": "LME시세",
+        "detail": "제품가격이 LME(런던금속거래소) 시세와 연동되어 국제 구리가격 변동이 수익성에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "환율",
+        "detail": "수입 원자재 비중과 수출 매출구조로 환율 변동이 원가와 환산 매출에 동시에 영향을 미치며, 실제로 환율 급등과 헷지 손실이 실적에 반영된 바 있습니다."
+      },
+      {
+        "factor": "경기변동",
+        "detail": "비철금속은 전후방 연관효과가 높아 경기 침체 시 수요가 급감하여 영업실적 변동성이 커집니다."
+      },
+      {
+        "factor": "원자재수급",
+        "detail": "원재료(황동스크랩·동스크랩·아연)의 국내조달과 수입 비중(국내72%·수입28%) 및 스크랩 수급상황이 원가와 생산에 영향합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "지배기업 (주)서원은 1988년 설립이래"
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "직 접 판 매: 273,226 (100.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "자동차부품소재 및 전기, 반도체, 건설 및 가전 등"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 업계의 현황 및 시장여건(3) 경기변동의 특성",
+        "evidence_text": "제품가격이 LME와 연동되어"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5041,
+    "completion_tokens": 4306,
+    "reasoning_tokens": 3520,
+    "output_tokens": 786
+  },
+  "warnings": []
+}

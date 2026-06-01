@@ -1,0 +1,62 @@
+{
+  "stock_code": "251970",
+  "corp_name": "펌텍코리아",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 13:48",
+  "meta": {
+    "wics": "포장재",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "펌텍코리아는 2001년 설립된 플라스틱 용기 제조·판매 기업으로, 주로 화장품 용기(펌프·튜브·콤팩트 등)를 전문으로 생산합니다. 생활용품과 건강기능식품 유통 등으로 포트폴리오를 확장하며 2025년 연결 매출 3,720억원을 기록했습니다.",
+    "business_model": "핵심 사업은 화장품 용기 제조이며, 2025년 사업부문별 매출에서 화장품 용기 외가 97.9%, 건강기능식품 외가 2.1%를 차지합니다. 사출품 등 주요 부품은 종속회사 및 협력업체로부터 구매하여 후가공·조립을 통해 주문생산(단납기) 방식으로 공급하는 제조·유통 구조입니다.",
+    "main_customers": "화장품 용기 — 국내외 화장품완제품 브랜드, ODM/OEM 업체, Sales Partner사 / 건강기능식품 — 인플루언서 플랫폼을 통한 SNS 공동구매 소비자",
+    "price_factors": [
+      {
+        "factor": "트렌드 민감성",
+        "detail": "화장품 시장의 빠른 트렌드 변화는 용기 수요(디자인·기능)를 급변시켜 실적 변동성을 키울 수 있습니다."
+      },
+      {
+        "factor": "주문생산성",
+        "detail": "다품종 소량·단납기 주문 생산 특성상 생산 유연성 및 납기 대응력이 실적에 직접 영향합니다."
+      },
+      {
+        "factor": "프리미엄 수요",
+        "detail": "프리미엄 제품 선호 확대로 고급 디자인·정밀 기능을 제공하는 용기에 대한 수요 증가가 수익성에 영향을 미칩니다."
+      },
+      {
+        "factor": "환율·관세",
+        "detail": "수출 비중이 있는 글로벌 영업환경에서 환율 및 관세 이슈는 매출과 손익에 직결되는 요인입니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "당사는 2001년 8월 10일 플라스틱 용기 제조 및 판매업을 주목적으로 설립되었습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "화장품 용기 외: 364,263 (97.9%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "주요 고객은 국내외 화장품완제품 Brand 업체, ODM / OEM 업체, Sales Partner사 등이며,"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5273,
+    "completion_tokens": 3638,
+    "reasoning_tokens": 2944,
+    "output_tokens": 694
+  },
+  "warnings": []
+}

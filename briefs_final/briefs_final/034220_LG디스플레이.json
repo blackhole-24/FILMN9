@@ -1,0 +1,66 @@
+{
+  "stock_code": "034220",
+  "corp_name": "LG디스플레이",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 11:40",
+  "meta": {
+    "wics": "디스플레이패널",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "LG디스플레이는 OLED 및 TFT-LCD 등 디스플레이 패널의 연구·개발·제조·판매를 하는 기업으로, 수출 비중이 높은 글로벌 패널 공급업체입니다. 2025년 기준 해외 매출 비중이 약 96%에 달하고, 상위 고객 집중도가 높은 구조를 보유하고 있습니다.",
+    "business_model": "사업부문별로 매출은 Display 18.6%, IT 36.8%, Mobile 등 36.3%, Auto 8.3%로 구성되어 있으며(제품 매출 비중 기준), TV·IT·모바일·자동차용 패널을 중심으로 매출을 창출합니다. OLED 전환(고부가 제품 확대)과 연구개발(매출 대비 약 9%)·대규모 설비투자(2025년 약 1.4조원, 2026년 2조원 중후반 계획)를 통해 제품 믹스 고도화와 수익성 개선을 추진하고 있습니다.",
+    "main_customers": "Display — Global Set Maker(세트 제조사) / IT — Global Set Maker(세트 제조사) / Mobile 등 — Global Set Maker(세트 제조사) / Auto — 자동차 제조사(완성차업체)",
+    "price_factors": [
+      {
+        "factor": "글로벌 수요",
+        "detail": "디스플레이 수요는 글로벌 매크로·시즌성에 민감해 수요 둔화 시 패널 가격과 실적이 하방 압력을 받을 수 있습니다."
+      },
+      {
+        "factor": "제품 믹스·판가",
+        "detail": "면적당 판가와 제품 믹스 변화(예: OLED 비중 확대)에 따라 매출과 이익률이 크게 달라집니다."
+      },
+      {
+        "factor": "생산능력·설비투자",
+        "detail": "대규모 설비투자와 생산능력 변화는 공급량과 원가구조에 영향을 주어 수익성 변동 요인이 됩니다."
+      },
+      {
+        "factor": "환율",
+        "detail": "해외 매출 비중이 높고 원자재 다통화로 조달되므로 환율 변동은 영업실적에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "기술 전환",
+        "detail": "OLED 채용률 확대 등 기술 경쟁력은 고부가 제품 비중과 마진 개선에 중요한 변수입니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "Ⅱ. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "해외 매출 비중은 약 96% 입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "Ⅱ. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "TV 19%, IT 37%, Mobile 및 기타 부분이 36%, Auto 8%"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "Ⅱ. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "Global Set Maker가 주된 고객"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5116,
+    "completion_tokens": 3508,
+    "reasoning_tokens": 2752,
+    "output_tokens": 756
+  },
+  "warnings": []
+}

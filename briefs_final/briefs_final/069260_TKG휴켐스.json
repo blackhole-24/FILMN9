@@ -1,0 +1,71 @@
+{
+  "stock_code": "069260",
+  "corp_name": "TKG휴켐스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 05:09",
+  "meta": {
+    "wics": "화학",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "TKG휴켐스는 정밀화학 분야의 제조업을 주력으로 하는 화학기업으로, 폴리우레탄 중간소재(NT계열)와 질산 등(NA계열)을 주요 제품으로 생산하고 있습니다. 최근 설비증설을 통해 생산능력을 확대하며 규모의 경제를 확보해 나가고 있습니다.",
+    "business_model": "주요 수익원은 제조업(폴리우레탄 중간소재 등)으로 FY2025 기준 제조업이 68.0%를 차지하며, NA계열(희질산·농질산·초안 등)이 31.3%, 기타(전자소재·요소수·탄소배출권 판매)가 3.0%를 차지합니다. NT계열(MNB·DNT)과 NA계열 제품을 중심으로 장기공급계약과 설비증설을 통해 안정적 매출을 추구하고 있습니다.",
+    "main_customers": "제조업(폴리우레탄 중간소재 NT계열) — 화학기업·폴리우레탄 전방업체 / NA계열(희질산·농질산·초안) — 산업용 원료 수요처 및 주요 고객사 / 기타(전자소재·요소수·탄소배출권) — 전자소재 수요처·요소수 구매처·탄소배출권 시장 참여자",
+    "price_factors": [
+      {
+        "factor": "원재료 가격",
+        "detail": "제품 판매가격이 원재료 가격과 연동되어 암모니아·벤젠·톨루엔 등 원재료 변동이 실적에 직접 영향을 미칩니다."
+      },
+      {
+        "factor": "국제경기·유가",
+        "detail": "석유화학 제품 가격은 세계경기·수급·국제유가 등 복합요인에 따라 결정되어 글로벌 경기 변동에 민감합니다."
+      },
+      {
+        "factor": "전방 수요",
+        "detail": "폴리우레탄 전방시장의 수요 탄력성에 따라 NT계열 제품의 매출과 가동률이 달라집니다."
+      },
+      {
+        "factor": "공정·정기보수",
+        "detail": "주요 고객사의 정기보수 일정에 따른 생산량 일시 축소가 매출과 수익성에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "환경·규제",
+        "detail": "환경·안전 규제(위험물안전관리법·환경관련법 등) 준수가 비용 및 설비 운영에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 정밀화학분야 제조업을 주력 사업으로 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "제조업: 766,478 (68.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "마. 사업의 내용 및 전망",
+        "evidence_text": "금호미쓰이화학과 장기공급 계약을 체결하였으며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "판매가격은 원재료 가격과 연동하여"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4502,
+    "completion_tokens": 4297,
+    "reasoning_tokens": 3456,
+    "output_tokens": 841
+  },
+  "warnings": []
+}

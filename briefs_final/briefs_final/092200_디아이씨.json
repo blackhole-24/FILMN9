@@ -1,0 +1,81 @@
+{
+  "stock_code": "092200",
+  "corp_name": "디아이씨",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:14",
+  "meta": {
+    "wics": "자동차부품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "디아이씨는 1976년 부산에서 설립된 자동차부품·중장비부품 제조업체로, 현재 울산광역시에 본사와 여러 생산공장을 두고 있습니다. 설립 초기에는 농기계부품을 만들었지만, 연구개발과 기술 축적을 바탕으로 자동차부품과 지게차 등 중장비부품으로 사업을 넓혀온 기업입니다. 사업보고서 기준으로 자동차부품이 매출의 대부분을 차지하는 구조입니다.",
+    "business_model": "디아이씨의 핵심 사업은 자동차부품과 중장비부품 제조·공급이며, FY2025 기준 자동차부품이 82.6%, 중장비부품이 9.5%를 차지합니다. 자동차부품은 현대자동차, 기아자동차, 현대트랜시스, 한국GM 등 완성차·대형 부품 조립업체에 공급하고, 해외로도 직접 수출합니다. 친환경차용 감속기, SBW(전자식변속기), EOP(전자식오일펌프), e-Axle(전자식 액슬) 같은 전동화 부품으로 사업을 넓히고 있습니다.",
+    "main_customers": "자동차부품 — 현대자동차, 기아자동차, 현대트랜시스, 한국GM, 해외 완성차·부품업체 / 중장비부품 — 두산밥캣코리아, HD현대사이트솔루션, 클라크",
+    "price_factors": [
+      {
+        "factor": "완성차수요",
+        "detail": "자동차 생산과 판매가 늘면 부품 공급 물량도 함께 증가해 매출에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "전동화전환",
+        "detail": "전기차·수소차 중심으로 생산 체계가 바뀌면 감속기, SBW, e-Axle 같은 신규 부품 수요가 실적에 영향을 줍니다."
+      },
+      {
+        "factor": "납품단가",
+        "detail": "완성차업체와의 부품공급가 협의 결과에 따라 납품단가가 조정되어 수익성에 영향을 줍니다."
+      },
+      {
+        "factor": "해외수출",
+        "detail": "미국, 일본, 유럽 등 해외 판매가 확대되면 외형 성장에 도움이 되지만, 수출 환경 변화의 영향을 받습니다."
+      },
+      {
+        "factor": "중장비수요",
+        "detail": "지게차·굴삭기 등 중장비 수요가 늘면 중장비부품 매출과 가동률에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황 > 가. 당사의 개황",
+        "evidence_text": "1976년 부산시 금정구 금사동에서 설립"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황 > 가. 당사의 개황",
+        "evidence_text": "현재 울산광역시 울주군에 본사 및 두동공장"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성 > FY2025",
+        "evidence_text": "자동차 부품: 625,409,361 (82.6%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성 > FY2025",
+        "evidence_text": "중장비 부품: 72,047,924 (9.5%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황 > 가. 당사의 개황",
+        "evidence_text": "국내 현대자동차, 기아자동차, 현대트랜시스"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황 > 가. 당사의 개황",
+        "evidence_text": "두산밥캣코리아, HD현대사이트솔루션, 클라크"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3782,
+    "completion_tokens": 996,
+    "reasoning_tokens": 0,
+    "output_tokens": 996
+  },
+  "warnings": []
+}

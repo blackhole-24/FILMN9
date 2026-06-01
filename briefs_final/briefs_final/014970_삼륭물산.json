@@ -1,0 +1,67 @@
+{
+  "stock_code": "014970",
+  "corp_name": "삼륭물산",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 21:37",
+  "meta": {
+    "wics": "포장재",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "삼륭물산은 우유용 카톤팩(종이팩) 중심의 포장재 제조업체로, 지배회사 기준 전통적으로 우유용기를 생산해 왔습니다. 1960년대부터 우유용기 생산 이력이 있으며 카톤팩 시장이 소수 업체 중심으로 형성된 시장에서 활동하고 있습니다.",
+    "business_model": "주력 사업은 제조(우유팩)로 매출의 93.3%를 차지하며, 부동산 임대가 6.7%를 차지합니다. 주요 종속회사인 에스알테크노팩(플라스틱 식품용기·필름)과 에스알케미칼(도료)을 통해 포장재 관련 플라스틱 용기와 기능성 도료 분야도 영위하고 있습니다.",
+    "main_customers": "제조 — 우유 및 유가공업체 / 부동산 — 물류창고 등 임차인(임대수익) / 에스알테크노팩(플라스틱) — 기초식품군 제조회사·제약회사 / 에스알케미칼(도료) — 건설·자동차·전자 등 산업체",
+    "price_factors": [
+      {
+        "factor": "원자재·환율",
+        "detail": "원자재 비중이 높아 환율 변동 시 원가와 판매가격에 직접적 영향을 줍니다."
+      },
+      {
+        "factor": "우유수요",
+        "detail": "카톤팩 수요는 국내 우유소비와 밀접하게 연동되어 소비 감소 시 매출에 영향이 큽니다."
+      },
+      {
+        "factor": "품질·위생",
+        "detail": "음료·식료 포장 특성상 고객의 엄격한 품질·위생 요구가 수주와 가격 경쟁력에 영향을 미칩니다."
+      },
+      {
+        "factor": "제품수요 변화",
+        "detail": "무균밥용기·커피음료컵 등 외식·배달·편의형 제품 수요 변동이 연결종속회사의 실적에 영향합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "1960년 유리병을 최초의 우유용기로 사용하였고"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[표] 가. 주요 제품 등의 현황[지배회사 : 삼륭물산(주)]",
+        "evidence_text": "우유팩 51,927(93.3%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "우유 및 유가공업체에 공급하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "환율의 상승   또는 하락에 따라 판매가격이 변동되고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5224,
+    "completion_tokens": 3680,
+    "reasoning_tokens": 2944,
+    "output_tokens": 736
+  },
+  "warnings": []
+}

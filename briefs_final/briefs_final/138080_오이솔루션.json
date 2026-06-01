@@ -1,0 +1,67 @@
+{
+  "stock_code": "138080",
+  "corp_name": "오이솔루션",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 12:44",
+  "meta": {
+    "wics": "통신장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "오이솔루션은 광트랜시버와 그 핵심 광소자 제조·판매를 주력으로 하는 전기·전자 통신장비 업체입니다. 2025년 연결기준 매출은 약 574억원이었고, 영업손실과 당기순손실을 기록하였습니다. 주요 제품은 대용량 라우터·스위치 등 광통신 장비에 사용되는 광트랜시버(송·수신 모듈)입니다.",
+    "business_model": "주력은 광통신 송수신 모듈 및 부품과 광통신용 소자 제조·판매로, FY2025 기준 사업부문별 매출은 광통신 송수신 모듈 및부품 88.9%, 광통신용 소자 5.9%, 상품 4.4%, 용역 0.8%입니다. 제품은 통신사업자와 시스템 제조사의 검증을 거쳐 장기간 납품되는 B2B(기업 간 거래) 특성을 가지며, 선행개발과 차별화 제품으로 시장경쟁력을 확보하고자 합니다.",
+    "main_customers": "광통신 송수신 모듈 및부품 — 통신서비스 사업자 및 시스템 제조사(라우터·스위치 등) / 광통신용 소자 — 통신장비 제조사 및 관련 산업체 / 상품·용역 — 통신사업자 및 기업 고객",
+    "price_factors": [
+      {
+        "factor": "국가정책",
+        "detail": "통신 인프라가 국가정책의 영향을 크게 받아 관련 투자·정책 변화가 실적에 직·간접 영향을 미칩니다."
+      },
+      {
+        "factor": "제품신뢰성",
+        "detail": "광트랜시버는 장기간 신뢰성 검증(수천 시간 및 수개월의 시스템 시험)이 필요해 승인 지연이 매출 흐름에 영향을 줍니다."
+      },
+      {
+        "factor": "고객맞춤화",
+        "detail": "고객 사양에 맞춘 커스터마이징이 필수여서 수주 전 검증·개발 기간이 길어 납품 시기와 수주 확보에 영향을 줍니다."
+      },
+      {
+        "factor": "진입장벽",
+        "detail": "높은 기술·검증 장벽으로 신규 경쟁자 진입이 제한되며, 승인 후에는 장기간 안정적 수요가 이어질 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "광트랜시버의 핵심 광소자 제조 및 판매를 주력사업으로 하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "광통신 송수신 모듈 및부품: 50,993 (88.9%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "B2B 사업적 특성이 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 산업의 특성",
+        "evidence_text": "(1) 국가 인프라 산업으로서 국가정책과 관련성이 큽니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5119,
+    "completion_tokens": 3221,
+    "reasoning_tokens": 2432,
+    "output_tokens": 789
+  },
+  "warnings": []
+}

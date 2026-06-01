@@ -1,0 +1,72 @@
+{
+  "stock_code": "024890",
+  "corp_name": "대원화성",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 22:58",
+  "meta": {
+    "wics": "섬유,의류,신발,호화품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "대원화성은 합성피혁(PU)을 주력으로 생산하는 화학·섬유기업으로, 신발용·볼용·자동차내장재용 등 다양한 용도의 합성피혁을 제조합니다. 합성피혁 매출의 상당 부분을 수출하고 있으며, 합성피혁 제조과정에서 발생하는 폐용제(DMF)를 정제해 판매하는 정제 사업도 영위하고 있습니다.",
+    "business_model": "주력 사업은 합성피혁 제조로, FY2025 기준 합성피혁이 매출의 90.9%를 차지하고, 정제(폐용제 회수 및 판매)가 3.5%를 차지합니다. 합성피혁은 신발용·의류용·볼용·가구용·자동차용·잡화용 등으로 납품되며, 정제부문은 폐DMF를 회수·정제해 재판매하는 구조입니다.",
+    "main_customers": "합성피혁 — 글로벌 스포츠·의류·신발 제조사(Nike·Adidas 등), 스포츠용품사(Wilson·Spalding 등), 국내 자동차메이커 / 정제 — 합성피혁 제조업체 등 폐용제 회수·구매처",
+    "price_factors": [
+      {
+        "factor": "환율",
+        "detail": "수출 비중이 높아(매출의 상당 부분 수출) 원·달러 환율 변동이 매출 및 가격에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "제품구성",
+        "detail": "합성피혁의 제품 구성 변화(신발·자동차용 등)에 따라 평균 판매단가와 실적 변동이 발생합니다."
+      },
+      {
+        "factor": "환경규제",
+        "detail": "PVC 사용 금지 등 규제 변화는 폴리우레탄(PU) 수요에 영향을 주어 사업구조와 수요에 변동을 초래할 수 있습니다."
+      },
+      {
+        "factor": "수급(정제)",
+        "detail": "정제부문은 폐용제 수급에 따른 단가 변동성이 실적에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "[DART 사업보고서 — 영업 현황]",
+        "evidence_text": "지배기업과 종속회사는 주요제품은 합성피혁으로"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "합성피혁: 114,909 (90.9%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "정제: 4,472 (3.5%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "[DART 사업보고서 — 영업 현황]",
+        "evidence_text": "신발용은 주로 Nike,Adidas 등에 납품"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "[DART 사업보고서 — 영업 현황]",
+        "evidence_text": "합성피혁의 가격변동은 환율 및 매출 제품구성의 변화에 따른 변동임."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4407,
+    "completion_tokens": 3672,
+    "reasoning_tokens": 2880,
+    "output_tokens": 792
+  },
+  "warnings": []
+}

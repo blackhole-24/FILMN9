@@ -1,0 +1,76 @@
+{
+  "stock_code": "086960",
+  "corp_name": "MDS테크",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 06:40",
+  "meta": {
+    "wics": "소프트웨어",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "MDS테크는 임베디드 개발 솔루션과 소프트웨어(SW) 솔루션을 주로 공급하는 기업으로, 연결기업을 통해 임베디드 툴·기술지원·컨설팅과 OS·애플리케이션 등 솔루션을 제공하고 있습니다. 주요 종속회사인 ㈜MDS인텔리전스를 중심으로 AI, IoT, 빅데이터, 클라우드, 디지털트윈 등 4차산업혁명 관련 솔루션과 서비스를 확대하고 있습니다.",
+    "business_model": "FY2025 기준 사업부문별 영업수익 구성은 임베디드 SW개발 솔루션 19.0%, 임베디드 시스템SW 솔루션 34.0%, 기타부문 18.1%로 구성되어 있습니다. 회사는 해외 파트너사의 장기 독점 공급·라이선스 계약을 통해 개발 툴을 확보하고 자체 개발한 부가기능을 Add-on하여 교육·기술지원 등과 함께 직접판매 방식으로 수익을 창출합니다.",
+    "main_customers": "임베디드 SW개발 솔루션 — 자동차·기계/로봇·전자 제조사 / 임베디드 시스템SW 솔루션 — 정보가전 제조사 / 기타부문 — 산업자동화·사무자동화 솔루션 수요 기업",
+    "price_factors": [
+      {
+        "factor": "AI·전장수요",
+        "detail": "AI 인프라 및 자동차 전장(전장장치) 수요 확대는 해당 솔루션 매출 증가로 연결되어 실적에 긍정적 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "파트너 의존",
+        "detail": "해외 파트너사와의 장기 독점 공급·라이선스 계약 의존도는 공급조건 변화나 계약 리스크가 실적에 영향줄 수 있습니다."
+      },
+      {
+        "factor": "글로벌 불안",
+        "detail": "보호무역주의 확산과 글로벌 공급망 재편 우려는 고객사의 투자 심리 위축을 통한 수주 감소로 실적에 부정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "환율 변동",
+        "detail": "MD&A에서 언급된 환율 변동성은 해외 매출 및 비용 환산에 영향을 미쳐 실적 변동성을 증가시킬 수 있습니다."
+      },
+      {
+        "factor": "단기수주구조",
+        "detail": "수주 후 납기가 일반적으로 1개월 내외인 단기 수주 구조는 매출는 빠르게 반영되지만 분기별 실적 변동성을 높일 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "임베디드 개발 솔루션(툴, 기술지원, 컨설팅 등), SW 솔루션(OS, 애플리케이션)을 주로 공급하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "임베디드 SW개발 솔루션 (19.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "임베디드 시스템SW 솔루션 (34.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "기타부문 (18.1%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "자동차, 기계/로봇, 전자 시장을 주요 목표 시장으로 하고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5771,
+    "completion_tokens": 3673,
+    "reasoning_tokens": 2752,
+    "output_tokens": 921
+  },
+  "warnings": []
+}

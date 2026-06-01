@@ -1,0 +1,72 @@
+{
+  "stock_code": "004430",
+  "corp_name": "송원산업",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 18:47",
+  "meta": {
+    "wics": "화학",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "송원산업은 폴리머 안정제, 주석화합물, PVC 안정제 등 산업용·기능성 화학제품을 제조하는 기업으로, 전 세계에 생산기지와 유통망을 운영하며 글로벌 고객을 대상으로 제품을 공급하고 있습니다. 연결기업은 산업용 화학제품과 기능성 화학제품 두 개 부문을 중심으로 사업을 영위하고 있습니다.",
+    "business_model": "주요 사업은 산업용 화학제품(Industrial Chemicals)과 기능성 화학제품(Performance Chemicals)으로 나뉘며, 2025 회계연도 매출 비중은 산업용 화학제품 72.5%, 기능성 화학제품 27.5%로 구성됩니다. 산업용 부문은 폴리머 안정제·연료·윤활유 첨가제·코팅제 등이 주력이고, 기능성 부문은 주석 중간체, PVC 안정제, TPU/SPU, 가소제 및 특수화학제품을 포함합니다.",
+    "main_customers": "Industrial Chemicals — 석유화학제품(PP, PE, ABS) 제조업체 및 컴파운딩 업체 / Performance Chemicals — PVC가공업체, 도료·합성피혁·전기·전자 소재 제조업체",
+    "price_factors": [
+      {
+        "factor": "원재료·환율",
+        "detail": "주요 제품의 단가가 원료가격과 환율 변동에 민감해 원재료 상승 또는 원화 약세는 원가·매출(환산) 영향으로 실적 변동성을 키웁니다."
+      },
+      {
+        "factor": "수요 둔화",
+        "detail": "최종 소비시장 전반의 수요 약화는 폴리머 안정제 등 주력 제품 수요 감소로 매출과 이익률에 부정적 영향을 미칩니다."
+      },
+      {
+        "factor": "공급 과잉",
+        "detail": "업계 생산능력 증대와 공급 과잉은 아시아 지역을 중심으로 가격경쟁을 심화시켜 매출과 마진 압력으로 이어질 수 있습니다."
+      },
+      {
+        "factor": "지역별 비용압박",
+        "detail": "유럽 등지의 높은 에너지 비용과 무역제재·관세정책 등 지역적 요인은 해당 지역 판매량과 마진에 부정적 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 가. 주요 제품등의 현황",
+        "evidence_text": "연결기업은 전세계적으로 활동하고 있는 바, 그 지역별 정보에 대하여 공시하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "Industrial Chemicals산업용 화학제품: 752,925 (72.5%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "Performance Chemicals기능성 화학제품: 286,237 (27.5%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 가. 주요 제품등의 현황",
+        "evidence_text": "연결기업의 주요 목표시장은 석유화학제품(PP, PE, ABS)제조업체와 PVC가공업체입니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 나. 주요 제품 등의 가격변동추이",
+        "evidence_text": "주요 제품의 가격은 환율과 원료가격 변동에 영향을 받습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 6177,
+    "completion_tokens": 4339,
+    "reasoning_tokens": 3456,
+    "output_tokens": 883
+  },
+  "warnings": []
+}

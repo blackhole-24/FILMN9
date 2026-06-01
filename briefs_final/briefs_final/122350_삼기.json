@@ -1,0 +1,67 @@
+{
+  "stock_code": "122350",
+  "corp_name": "삼기",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 09:16",
+  "meta": {
+    "wics": "자동차부품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "삼기는 알루미늄 다이캐스팅 전문 기업으로, 합금·주조·가공 사업부를 통해 엔진·변속기 부품과 샤시 및 전기차(EV) 관련 부품을 제조합니다. 30년 이상의 자동차 부품 개발 노하우를 바탕으로 내연기관과 친환경차용 핵심 부품을 공급하고 있습니다.",
+    "business_model": "주요 수익원은 자동차용 알루미늄 다이캐스팅 부품 제조로, FY2025 기준 엔진부품 35.7%, 변속기부품 31.7%, EV 3.2%, HEV 22.2%, 합금 4.7%, 기타 2.5%의 매출 구성이 핵심입니다. 엔진·변속기 부품(밸브바디, 실린더·하우징 등)과 전기차 배터리 모듈·모터 하우징 등으로 제품 포트폴리오를 구성하고 있습니다.",
+    "main_customers": "엔진부품 — 완성차 제조사(엔진룸 부품 장착사) / 변속기부품 — 완성차 제조사(예: 현대자동차·폭스바겐 등) / EV — 전기차 제조사·배터리·모터 모듈 공급사 / HEV — 하이브리드 차량 제조사 / 합금 — 주조·가공 및 자동차 부품 OEM",
+    "price_factors": [
+      {
+        "factor": "원재료(Al)",
+        "detail": "AL 원재료 가격 변동은 개별 품목 단가에 직접 영향을 주어 이익률과 실적 변동성을 키웁니다."
+      },
+      {
+        "factor": "친환경차 수요",
+        "detail": "전기차·하이브리드 수요 확대는 EV·HEV 부문 매출 증가로 연결되어 회사 실적에 영향합니다."
+      },
+      {
+        "factor": "미국 관세",
+        "detail": "미국의 관세 환경과 통상 이슈는 수출·공장 가동 및 글로벌 수주에 영향을 미칩니다."
+      },
+      {
+        "factor": "제품 단가 경쟁",
+        "detail": "이원화된 제품 공급구조와 타업체 단가 일원화는 개별 품목의 가격 압박으로 이어질 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "당사는 알루미늄 다이캐스팅 전문 회사로"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "엔진부품: 174,900 (35.7%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "현대자동차의 DCT, 폭스바겐의 7단 DSG 트랜스미션의 핵심 부품인 밸브바디"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "AL 원재료의 가격변동과 이원화제품 공급에 따른 타업체 단가 일원화"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4121,
+    "completion_tokens": 3508,
+    "reasoning_tokens": 2688,
+    "output_tokens": 820
+  },
+  "warnings": []
+}

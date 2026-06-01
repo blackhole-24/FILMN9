@@ -1,0 +1,76 @@
+{
+  "stock_code": "060260",
+  "corp_name": "뉴보텍",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 03:56",
+  "meta": {
+    "wics": "건축제품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "뉴보텍은 상하수도 인프라를 기반으로 제설 및 재활용사업을 병행하는 환경·인프라 기업입니다. 플라스틱 상·하수도관 제조와 제설제 공급, 폐기물 재활용 원료 생산을 주요 사업으로 영위합니다.",
+    "business_model": "핵심 수익원은 상하수도사업부문으로 지방자치단체 및 공공기관을 중심으로 관급(공공 발주)과 건설사 등 사급(민간 발주)시장에 제품을 공급합니다. FY2025 기준 주요 매출처로는 수지산업(3.5%), 한국환경공단(2.3%), 강원도 강릉시상하수도사업소(2.0%) 등 다수의 공공·건설 관련 고객이 포함됩니다.",
+    "main_customers": "상하수도사업부문 — 지방자치단체·공공기관(관급) / 건설사·민간 발주처(사급) / 제설사업부문 — 지방자치단체·공공기관 / 재활용사업부문 — 폐기물 배출 사업장(반도체 공정 포함)",
+    "price_factors": [
+      {
+        "factor": "공공예산",
+        "detail": "정부·지자체의 예산 편성 및 공공 발주 변동은 상하수도 관련 매출에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "원재료비",
+        "detail": "PVC RESIN 등 원재료 가격 변동은 제품 원가와 이익률에 영향을 줍니다."
+      },
+      {
+        "factor": "계절성",
+        "detail": "제설제는 겨울철 강설량·기온에 따라 수요가 변동해 연간 매출 변동성을 유발합니다."
+      },
+      {
+        "factor": "환경규제",
+        "detail": "친환경 정책과 규제 강화는 친환경 제설제 및 재활용 원료 수요를 확대시킬 수 있습니다."
+      },
+      {
+        "factor": "품질·인증",
+        "detail": "제품 품질·시공성·기술 인증 및 납품 실적은 공공시장 수주 경쟁력에 직결됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "주요 사업부문은 상하수도사업부문, 제설사업부문, 재활용사업부문으로 구성되어 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사의 매출 구조는 상하수도사업부문을 중심으로 형성되어 있으며,"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "수지산업 (3.5%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "지방자치단체 및 공공기관을 대상으로 하는 관급시장"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A) (1) 상하수도사업부문",
+        "evidence_text": "원유에서 추출된 PVC RESIN을 주요 원재료로 생산되고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4685,
+    "completion_tokens": 3726,
+    "reasoning_tokens": 2880,
+    "output_tokens": 846
+  },
+  "warnings": []
+}

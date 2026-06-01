@@ -1,0 +1,71 @@
+{
+  "stock_code": "033320",
+  "corp_name": "제이씨현시스템",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 09:56",
+  "meta": {
+    "wics": "컴퓨터와주변기기",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "제이씨현시스템은 컴퓨터기기, 통합배선솔루션, 드론, VR기기 등 IT제품을 판매·리스하는 회사입니다. 종속회사를 통해서는 네트워크 및 정보보안, 온라인 화상회의, 온라인 솔루션 서비스를 제공하고 있으며, 사업보고서 기준 IT제품 판매가 매출의 대부분을 차지합니다.",
+    "business_model": "사업부문별 영업수익 구성은 IT제품 판매가 93.5%, 인터넷 보안 서비스가 6.5%입니다. 지배회사는 컴퓨터 관련 제품과 드론·VR·통합배선솔루션을 판매하고, 종속회사인 엘림넷은 인터넷 회선 보안 서비스, IDC 서비스(인터넷데이터센터), 네트워크 보안장비 판매, 온라인 화상회의 서비스를 제공하는 구조입니다.",
+    "main_customers": "IT제품 판매 — 유통업체, 도소매상, 컴퓨터 관련 제품 구매 고객 / 인터넷 보안 서비스 — 인터넷 회선 보안 및 온라인 화상회의 이용 기업·기관 / 통합배선솔루션·드론·VR — 관련 솔루션을 도입하는 기업 및 산업 현장 고객",
+    "price_factors": [
+      {
+        "factor": "PC수요",
+        "detail": "PC 출하량과 교체 수요가 늘면 그래픽카드·컴퓨터기기 판매가 늘어 실적에 영향을 줍니다."
+      },
+      {
+        "factor": "AI PC",
+        "detail": "AI PC와 고사양 제품 비중이 커질수록 프리미엄 제품군 중심의 매출 확대에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "통합배선",
+        "detail": "지능형빌딩시스템(IBS)과 AIM(지능형패칭시스템) 확산은 통합배선솔루션 수요에 영향을 줍니다."
+      },
+      {
+        "factor": "드론시장",
+        "detail": "드론이 농약 살포, 안전관리, 인명 구조 등으로 확대될수록 관련 제품과 솔루션 판매 기회가 커집니다."
+      },
+      {
+        "factor": "보안수요",
+        "detail": "네트워크 보안과 정보보안 수요가 커질수록 종속회사의 인터넷 보안 서비스 매출에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "컴퓨터기기 및 통합배선솔루션, 드론, VR기기 등 IT제품 등을 판매, 리스하는 부문"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "IT제품 판매: 255,605 (93.5%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "인터넷 보안 서비스: 17,717 (6.5%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "유통업체, 도소매상들과 오랜 신뢰관계를 구축"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4441,
+    "completion_tokens": 778,
+    "reasoning_tokens": 0,
+    "output_tokens": 778
+  },
+  "warnings": []
+}

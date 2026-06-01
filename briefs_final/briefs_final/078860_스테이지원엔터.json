@@ -1,0 +1,91 @@
+{
+  "stock_code": "078860",
+  "corp_name": "스테이지원엔터",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:11",
+  "meta": {
+    "wics": "방송과엔터테인먼트",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "스테이지원엔터는 방송인(연기자, 예능인, 가수 등) 매니지먼트를 기반으로 한 엔터테인먼트사업을 주요사업으로 영위하는 회사입니다. 종속회사로는 콘텐츠 관련 사업, 학원사업, 음원사업 관련 법인 등이 언급되며, 아이오케이엠은 사업중단 사유로 청산이 진행 중입니다.",
+    "business_model": "핵심 사업은 엔터사업, 제작사업, 투자사업 등으로 나뉘며, 당기 매출 기준 엔터사업이 9,827,089천원으로 전체의 약 80.4%, 제작사업이 1,392,388천원으로 약 11.4%, 투자사업 등이 1,008,243천원으로 약 8.2%를 차지합니다. 회사는 방송·광고·행사 등에서 아티스트 활동을 지원하는 매니지먼트 사업과 함께 광고, 음원, 공연사업도 주요사업으로 영위하고 있습니다. 매니지먼트 비즈니스는 아티스트 발굴·육성·관리를 통해 영화, 드라마, 광고 등에서 부가가치를 창출하는 구조입니다.",
+    "main_customers": "엔터사업 — 방송·드라마·예능·광고·행사 관련 수요처 / 제작사업 — 콘텐츠 제작 관련 수요처 / 투자사업 등 — 음원·투자 관련 거래 상대방",
+    "price_factors": [
+      {
+        "factor": "아티스트활동",
+        "detail": "소속 아티스트의 방송·광고·행사 활동이 늘수록 매출 창출 기회가 확대됩니다."
+      },
+      {
+        "factor": "방송시장",
+        "detail": "국내 방송산업과 디지털미디어 채널이 성장할수록 매니지먼트 사업의 활동 무대도 넓어집니다."
+      },
+      {
+        "factor": "해외진출",
+        "detail": "국내 아티스트의 해외시장 진출이 확대되면 성장 기회가 커지지만, 외부 환경 변화의 영향도 함께 받을 수 있습니다."
+      },
+      {
+        "factor": "중국관계",
+        "detail": "중국과의 관계 악화 같은 외부 요인은 해외 활동과 관련 매출에 영향을 줄 개연성이 높다고 언급됩니다."
+      },
+      {
+        "factor": "경기변동",
+        "detail": "엔터테인먼트 산업은 일반 경기변동과 상관관계가 있어 경기 흐름이 실적에 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "방송인(연기자, 예능인, 가수 등) 매니지먼트를 기반으로 한 엔터테인먼트사업"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "아이오케이엠은 사업중단 사유로 청산진행중입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "매출액 | 9,827,089 | 1,392,388 | 1,008,243 | 12,227,720"
+      },
+      {
+        "field": "business_model",
+        "source_section": "MD&A",
+        "evidence_text": "엔터테인먼트 매니지먼트 사업 및 광고, 음원. 공연사업"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "영화, 드라마, 광고 등 다방면에서 부가가치를 창출"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "드라마나 영화, 예능프로그램과 같은 방송 및 다양한 미디어"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 업계의 현황 (3) 경기변동의 특성",
+        "evidence_text": "엔터테인먼트 산업은 일반경기변동에 따른 상관관계가 있으며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 업계의 현황 (2) 산업의 성장성",
+        "evidence_text": "국내 아티스트들의 해외시장 진출이 활발해졌으며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3413,
+    "completion_tokens": 1083,
+    "reasoning_tokens": 0,
+    "output_tokens": 1083
+  },
+  "warnings": []
+}

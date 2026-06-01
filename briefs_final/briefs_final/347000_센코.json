@@ -1,0 +1,76 @@
+{
+  "stock_code": "347000",
+  "corp_name": "센코",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 17:02",
+  "meta": {
+    "wics": "전자장비와기기",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "센코는 센서 및 모듈, 센서기기, 환경측정시스템을 주력으로 하는 센서 기술 기반 전문 기업으로, 다양한 산업현장의 가스 관련 안전 솔루션을 제공하는 국내 유일의 기업으로 소개되고 있습니다. 당기 매출은 36,725백만원(연결기준 매출 367억원)이며, 연결기준 영업이익은 25억원으로 보고되었습니다.",
+    "business_model": "사업부문은 센서(3.19%), 센서기기(62.63%), 환경측정기 및 시스템(33.81%), 기타(0.37%)로 구성되며, 매출의 대부분이 센서기기(휴대용·고정식 가스 안전기기) 부문에서 발생합니다. 센서부문은 전기화학식 가스 센서(80여종)와 광학식 미세먼지 센서 등 제품군을 개발·공급하고, ODM(주문자상표부착) 방식과 글로벌 디스트리뷰터를 통해 판매됩니다.",
+    "main_customers": "센서 — 유통업체(Distributor, 45개국 109개사) / 센서기기 — 산업 현장(휴대용·고정식 가스 안전기기 수요처) / 환경측정기 및 시스템 — 환경 모니터링 수요처 및 IoT 기반 실내공기질 관리 수요처",
+    "price_factors": [
+      {
+        "factor": "규제·안전기준",
+        "detail": "산업 안전 및 규제 강화는 가스 감지기 수요를 직접적으로 늘려 실적에 긍정적 영향을 미칩니다."
+      },
+      {
+        "factor": "환경 모니터링",
+        "detail": "대기오염·온실가스 규제 강화로 환경측정기 및 시스템 수요가 확대되어 매출에 영향을 줍니다."
+      },
+      {
+        "factor": "IoT·스마트화",
+        "detail": "스마트홈·IoT 확산은 실내공기질 측정기 등 제품군의 수요 증가로 이어집니다."
+      },
+      {
+        "factor": "수주규모별 가격",
+        "detail": "제품 판매 가격은 주문 수량에 따라 변경되므로 수주 구성에 따라 매출단가와 이익률이 변동합니다."
+      },
+      {
+        "factor": "글로벌 공급망 변동",
+        "detail": "무역·공급망 불확실성 증가는 조달비용 및 영업 환경에 영향을 주어 실적 변동성을 키울 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 센서 및 모듈, 센서기기, 환경측정시스템 사업을 주력으로 하는 센서 기술기반 전문 기업입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "매출비중은 센서사업부문 3.19%,  센서기기사업부문 62.63%, 환경측정기 및 시스템 사업부문 33.81%, 기타 0.37% 입니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사의 제품을 공급받아 판매하는 Distributor는 45개국 109개사이며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사의 제품 판매 가격은 제품의 특성상 주문 수량에 따라 가격이 변경됩니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 시장 현황",
+        "evidence_text": "산업 안전 및 규제 강화"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5029,
+    "completion_tokens": 4587,
+    "reasoning_tokens": 3648,
+    "output_tokens": 939
+  },
+  "warnings": []
+}

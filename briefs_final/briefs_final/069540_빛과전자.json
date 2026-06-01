@@ -1,0 +1,73 @@
+{
+  "stock_code": "069540",
+  "corp_name": "빛과전자",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 05:13",
+  "meta": {
+    "wics": "통신장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "빛과전자는 광통신용 광송신기·광수신기·광송수신기(광모듈)의 연구개발·제조·판매를 영위하는 통신장비 전문 기업입니다. 무선이동통신 기지국·Telecom/Datacom·FTTH(유선 광가입자망), 방송·케이블TV용 광모듈을 주력으로 하며, 데이터센터용 고속 광모듈과 방위산업 분야로 사업영역을 확장하고 있습니다.",
+    "business_model": "핵심 사업은 통신용 광모듈(무선기지국/중계기용), Telecom/Datacom용 광모듈, FTTH용 광모듈, 방송·케이블TV용 광모듈 등 제품군의 연구개발·양산·납품입니다. 최근 데이터센터용 High Data rate 광모듈과 방산 협력을 통해 고속 대용량·저전력 제품 개발을 강화하며 고객사(장비사·통신사·데이터센터 등)에 양산 납품하는 구조입니다.",
+    "main_customers": "통신용광모듈 — 이동통신 기지국·장비 제조사 및 통신사업자 / FTTH — 유선 가입자망 사업자(통신사) / RF — RF·영상기기 제조사 및 임가공(PCB Assembly) 고객 / 기타 — 데이터센터 운영자, 방송·케이블TV 사업자, 방산업체",
+    "price_factors": [
+      {
+        "factor": "5G 투자",
+        "detail": "통신사업자의 5G 설비투자 확대·축소가 매출과 실적에 직결되어 경기 순환에 민감합니다."
+      },
+      {
+        "factor": "데이터센터 수요",
+        "detail": "AI·클라우드 확장으로 데이터센터용 고속 광모듈 수요가 늘면 실적 개선으로 이어질 가능성이 큽니다."
+      },
+      {
+        "factor": "제품 세대전환",
+        "detail": "100G→400G→800G 등 차세대 광트랜시버 채택 속도에 따라 기술력과 판매 경쟁력이 좌우됩니다."
+      },
+      {
+        "factor": "에너지·환경 규제",
+        "detail": "저전력·친환경 제품 수요가 커지면서 전력효율 경쟁력과 규제 대응 능력이 중요해집니다."
+      },
+      {
+        "factor": "글로벌 CAPEX",
+        "detail": "북미 등 주요 지역 통신사 설비투자(CapEx) 회복 여부가 수출·매출 회복의 변수입니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "당사는 광통신 분야에서 광섬유를 매개로 광신호를 변환/전송하는 광송신기(Optical Transmitter) 및 광수신기(Optical Receiver), 광송수신기(Optical Transceiver) 모듈의 연구개발, 제조 및 판매를 사업으로 하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "세부적으로는 무선이동통신 기지국/중계기용 광모듈, Telecom/Datacom 용 광모듈, 유선 광가입자망(FTTH)용 광모듈, SD/HD급의 고화질 Broadcasting 전송용 광모듈, Cable TV용 광모듈 등을 주력 사업으로 전개하고 있으며, 최근에는 데이터센터 시장의 급성장에 따라 데이터센터용 High Data rate 광모듈 분야 및 방산업체와의 협력을 통해 방위산업분야로 사업영역을 확대해 나가고 있습니다."
+      },
+      {
+        "field": "market_trend",
+        "source_section": "나. 시장여건 및 영업의 개황 등 > (2) 산업의 성장성",
+        "evidence_text": "광트랜시버 산업은 5G 네트워크의 보급, AI, 클라우드 컴퓨팅 및 데이터센터의 확장, 전 세계적인 데이터 트래픽 급증에 힘입어 가파른 성장세를 보이고 있습니다."
+      },
+      {
+        "field": "intellectual_property",
+        "source_section": "가. 사업과 관련된 중요한 지식재산권(특허권) 등",
+        "evidence_text": "당사가 보유하고 있는 지식재산권은 디자인과 상표를 제외한 국내외 특허등록 40건, 국내특허출원 진행 중 1건입니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 5196,
+    "completion_tokens": 5397,
+    "reasoning_tokens": 4288,
+    "output_tokens": 1109
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

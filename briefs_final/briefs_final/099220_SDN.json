@@ -1,0 +1,67 @@
+{
+  "stock_code": "099220",
+  "corp_name": "SDN",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 13:20",
+  "meta": {
+    "wics": "에너지장비및서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "에스디엔은 태양광과 엔진·조선을 주력으로 하는 기업으로, 태양광 발전시스템과 모듈, 인버터 공급 및 소형 선박 엔진 유통을 주요 사업으로 운영하고 있습니다. 태양광 분야에서는 자체 연구소 설립 이후 국내 1세대 태양광 기업으로 기술력과 경험을 축적해왔고, 엔진·조선 부문은 HONDA와의 총판 계약을 바탕으로 소형 선박 엔진 유통 체계를 구축해왔습니다.",
+    "business_model": "핵심 사업은 태양광사업부와 엔진·조선사업부로 구성되며, FY2025 기준 태양광사업부 매출 비중은 22.4%, 엔진·조선사업부는 34.1%입니다. 태양광사업부는 모듈 제조·개발부터 EPC(설계·조달·시공)와 발전소 유지보수(O&M, 운영·유지보수)까지 통합 솔루션을 제공하고, 엔진·조선사업부는 소형 선박용 선외기와 부품, 해양 액세서리 유통이 핵심 수익원입니다.",
+    "main_customers": "태양광사업부 — 태양광 프로젝트 발주처(발전사업자)·ODA 협력 기관 / 엔진·조선사업부 — 어업인·레저사업자·관공선",
+    "price_factors": [
+      {
+        "factor": "SMP 변동성",
+        "detail": "SMP(계통한계가격) 변동성이 확대될 경우 태양광 발전수익성 및 모듈 가격 전략에 직접적인 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "제품포트폴리오",
+        "detail": "다양한 가격대·사양의 모듈 확보와 프리미엄 제품군 확보 여부가 매출과 마진 구조에 영향을 줍니다."
+      },
+      {
+        "factor": "ODA·해외사업",
+        "detail": "KOICA 등 정부기관과의 ODA 프로젝트 수행은 해외 수주와 기술 입지 확대에 기여할 수 있습니다."
+      },
+      {
+        "factor": "교체수요",
+        "detail": "어업용 선외기는 교체 수요(내구연수 약 5년)가 지속적으로 발생하여 엔진·조선 부문 매출에 안정적 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "에스디엔은 태양광 발전시스템, 태양광 모듈, 인버터 등을 공급하는 태양광 사업부와 어민 및 레저 사업자를 대상으로 Outboard Motor(선외기)를 공급하는 엔진ㆍ조선 사업부를 운영하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "태양광사업부: 19,609 (22.4%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "엔진ㆍ조선사업부: 29,843 (34.1%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "엔진ㆍ조선 사업부",
+        "evidence_text": "본 사업부문은 어업용, 레저 스포츠용, 관공선 등 다양한 수요처를 대상으로 HONDA의 4행정 저연비 선외기 및 순정 부품은 물론, 각종 해양 액세서리도 함께 공급하고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3401,
+    "completion_tokens": 4538,
+    "reasoning_tokens": 3648,
+    "output_tokens": 890
+  },
+  "warnings": []
+}

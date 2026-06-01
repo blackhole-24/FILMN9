@@ -1,0 +1,76 @@
+{
+  "stock_code": "035610",
+  "corp_name": "솔본",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 09:56",
+  "meta": {
+    "wics": "건강관리기술",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "솔본은 다른 회사의 주식을 소유해 경영에 참여하는 사실적 지주회사로, 2025년 12월 31일 기준 인피니트헬스케어와 솔본인베스트먼트를 포함한 14개 계열회사를 거느리고 있습니다. 의료-IT, 벤처투자, 해외 상장주식 투자와 임대사업을 함께 영위하며, 계열사 성장과 기업가치 극대화를 핵심 방향으로 삼고 있습니다.",
+    "business_model": "사업부문은 투자사업과 임대사업으로 구성되어 있으며, 투자사업은 주식소유를 통한 타법인의 경영참여 및 지배, 경영지도, 정리, 육성을 뜻합니다. FY2025 사업부문별 영업수익 구성에서는 의료기기 102,392(85.0%), 기타 18,259(15.0%)로 제시되어 있습니다. 회사는 지주사업 수익에 더해 청담본점 임대 수익, 배당금수익, 용역 제공 등 기타수익을 통해 수익을 만들고 있습니다.",
+    "main_customers": "투자사업 — 자회사 및 피투자기업 / 임대사업 — 청담본점 임차 수요",
+    "price_factors": [
+      {
+        "factor": "자회사실적",
+        "detail": "자회사들의 실적과 성장성이 높아질수록 배당수익과 지주사업 가치에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "의료인증",
+        "detail": "의료기기와 소프트웨어는 FDA, CE 등 인증이 중요해 인증 획득 여부가 해외 판매와 매출 확대에 영향을 줍니다."
+      },
+      {
+        "factor": "글로벌수출",
+        "detail": "미국과 유럽 수출이 가능해질수록 의료-IT 제품의 시장 범위가 넓어져 실적 변수로 작용합니다."
+      },
+      {
+        "factor": "임대수요",
+        "detail": "청담본점 임대 수익은 임차 수요 변화에 따라 안정적인 수익원 역할이 달라질 수 있습니다."
+      },
+      {
+        "factor": "투자포트폴리오",
+        "detail": "해외 상장주식과 벤처투자 성과는 투자수익 변동성을 키워 전체 실적에 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "나. 회사의 현황 > (1) 영업개황",
+        "evidence_text": "당사는 현재 사실상의 지주회사에 해당하며"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "나. 회사의 현황 > (1) 영업개황",
+        "evidence_text": "2025 년 12 월 31 일 기준 ... 14 개의 전문성을 갖춘 계열회사를 포함하고 있습니다"
+      },
+      {
+        "field": "business_model",
+        "source_section": "나. 회사의 현황 > (2) 공시대상 사업부문의 구분",
+        "evidence_text": "가. 투자사업 : 주식소유를 통한 타법인의 경영참여 및 지배"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "의료기기: 102,392 (85.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "기타: 18,259 (15.0%)"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5294,
+    "completion_tokens": 852,
+    "reasoning_tokens": 0,
+    "output_tokens": 852
+  },
+  "warnings": []
+}

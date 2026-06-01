@@ -1,0 +1,81 @@
+{
+  "stock_code": "001250",
+  "corp_name": "GS글로벌",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 09:39",
+  "meta": {
+    "wics": "무역회사와판매업체",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "GS글로벌은 1954년 국제무역을 전문으로 하는 금성산업주식회사로 처음 설립된 종합무역상사입니다. 2009년 GS가 대주주가 되면서 사명이 변경됐고, 현재는 철강·석유화학·에너지 무역과 물류, 신사업까지 함께 운영하는 구조입니다. 해외 주요 지역에 25개의 해외 네트워크를 두고 있습니다.",
+    "business_model": "사업부문별로 보면 철강·석유화학·석탄·바이오매스·시멘트 등 무역/유통 부문이 92.9%로 사실상 핵심 매출원입니다. 수입자동차 PDI(출고 전 점검) 서비스와 하역·운송 등 물류 부문은 1.0%, 해상풍력 하부구조물 제작 등 제조 부문은 2.1%, 전기차·태양광 기자재·헬스케어·리사이클링 등 신사업 및 기타 부문은 4.0%를 차지합니다. 전통적인 Trading(무역거래)과 PDI 서비스에 더해 제조와 신사업으로 사업을 넓히는 구조입니다.",
+    "main_customers": "무역/유통 부문 — 국내외 철강·석유화학·에너지 제품 수요처 / 물류 부문 — 수입자동차 브랜드 및 내수 물류 이용처 / 제조 부문 — 해상풍력 하부구조물 및 화공기기 관련 수요처 / 신사업 및 기타 부문 — 전기차·태양광·헬스케어·리사이클링 관련 수요처",
+    "price_factors": [
+      {
+        "factor": "환율변동",
+        "detail": "무역/유통 사업은 USD 및 EUR 환율변동위험에 노출되어 있어 환율이 실적과 수익성에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "원자재시황",
+        "detail": "철강과 석유화학 등 산업재 비중이 높아 원자재 시황 변화가 거래 조건과 수익성에 영향을 줍니다."
+      },
+      {
+        "factor": "글로벌경기",
+        "detail": "주요 수출국의 경기변동과 글로벌 수요 둔화는 무역 사업의 매출 흐름을 흔들 수 있습니다."
+      },
+      {
+        "factor": "지정학리스크",
+        "detail": "미·중 갈등, 중동 및 우크라이나 정세 같은 지정학적 불안정성은 공급망과 교역 환경의 불확실성을 키웁니다."
+      },
+      {
+        "factor": "신사업확대",
+        "detail": "전기차·태양광·리사이클링 등 신사업의 확대는 사업구조 다변화와 실적 변동성 완화에 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "MD&A",
+        "evidence_text": "1954년 국제무역을 전문으로 하는 금성산업주식회사"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "MD&A",
+        "evidence_text": "2009년 7월에 ㈜ GS로 대주주가 변경"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "무역/ 유통 부문: 3,817,486 (92.9%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "수입자동차 PDI서비스, 하역ㆍ운송 등: 40,450 (1.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "해상풍력 하부 구조물 제작 및 화공기기 제작 등: 85,065 (2.1%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "전기차, 태양광 기자재, 헬스케어, 리사이클링 등: 166,264 (4.0%)"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5282,
+    "completion_tokens": 1049,
+    "reasoning_tokens": 0,
+    "output_tokens": 1049
+  },
+  "warnings": []
+}

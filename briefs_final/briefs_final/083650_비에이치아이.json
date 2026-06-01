@@ -1,0 +1,77 @@
+{
+  "stock_code": "083650",
+  "corp_name": "비에이치아이",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 06:22",
+  "meta": {
+    "wics": "에너지장비및서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "비에이치아이는 발전소 및 제철공정에 필요한 발전용 기자재를 설계·제작·설치·시공하는 발전기자재 전문기업입니다. 보일러류, 배열회수보일러(HRSG), 복수기(Condenser), 열교환기 등 발전설비 핵심 장비를 주로 생산합니다.",
+    "business_model": "2025년 연결기준으로 매출은 HRSG(Heat Recovery Steam Generator)가 78.3%로 핵심 수익원이며, B.O.P(Balance of Plant)가 3.4%, 기타가 5.8%를 차지합니다. 주로 맞춤형 설계·프로젝트 수주를 통해 매출이 발생하며 HRSG 원천기술 보유 등을 기반으로 해당 분야에 집중하고 있습니다.",
+    "main_customers": "HRSG — 한전 등 전력회사 및 발전사업자 / B.O.P — 국내외 대형건설사, 제철회사(포스코 등) / 기타 — 기타 산업 고객",
+    "price_factors": [
+      {
+        "factor": "수주변동성",
+        "detail": "수주 산업 특성상 수주 실적이 매출과 이익에 선행하므로 수주 회복 여부가 실적에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "전력수요",
+        "detail": "국내·외 전력수요 증가 및 복합화력·LNG 전환 등 발전정책 변화가 HRSG 수요에 영향을 줍니다."
+      },
+      {
+        "factor": "기술장벽",
+        "detail": "발전설비는 높은 기술수준과 수행경험이 중시되어 진입장벽이 높아 경쟁구도 및 수주 확보에 영향을 미칩니다."
+      },
+      {
+        "factor": "프로젝트규모",
+        "detail": "대규모 플랜트 발주가 늘면 수주·매출이 급증할 수 있고, 발주 지연이나 취소는 실적에 부정적 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "발전기자재 전문기업입니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "한전을 비롯한 전력회사 및 발전사업자"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "HRSG(Heat Recovery Steam Generator): 605,913 (78.3%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "B.O.P(Balance of Plant): 26,113 (3.4%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "기타: 44,864 (5.8%)"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "진입장벽이 높은 특성을 갖고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4990,
+    "completion_tokens": 5323,
+    "reasoning_tokens": 4544,
+    "output_tokens": 779
+  },
+  "warnings": []
+}

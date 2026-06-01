@@ -1,0 +1,67 @@
+{
+  "stock_code": "140670",
+  "corp_name": "알에스오토메이션",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 10:06",
+  "meta": {
+    "wics": "기계",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "알에스오토메이션은 로봇 모션 제어와 에너지 제어 장치를 개발·제조·판매하는 국내 기업으로, 스마트 팩토리·로봇·IoT 등 자동화·디지털 전환 관련 장치들을 주요 제품군으로 보유하고 있습니다. 두 축의 제품군을 바탕으로 산업 자동화와 신재생에너지 제어 시장을 대상으로 사업을 영위합니다.",
+    "business_model": "주요 사업부문은 로봇모션제어기와 에너지제어장치로, FY2025 기준 로봇모션제어기가 53.1%, 에너지제어장치가 46.9%의 매출 비중을 차지합니다(모션 제어는 반도체·디스플레이 등 제조업의 자동화 장비에, 에너지 제어는 태양광·ESS·수소연료전지 PCS 및 UPS 등 에너지 인프라에 적용). 전문 제어기(모션컨트롤러)와 PCS/UPS 등 전력제어 장비의 개발·생산·판매가 핵심 수익원입니다.",
+    "main_customers": "로봇모션제어기 — 반도체·LCD·휴대폰 등 제조업 / 에너지제어장치 — 신재생에너지 사업자 및 데이터센터·대형 전력 인프라 운영자",
+    "price_factors": [
+      {
+        "factor": "업종투자",
+        "detail": "반도체·디스플레이·휴대폰 등 주요 고객 산업의 신규 투자 지연 시 로봇 모션 제어 매출이 직접적으로 감소할 수 있습니다."
+      },
+      {
+        "factor": "신재생정책",
+        "detail": "정부의 신재생에너지 확대 정책 강화는 PCS·ESS 등 에너지제어 장비 수요 증가로 이어져 실적에 긍정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "기술진화",
+        "detail": "고해상도 엔코더, EtherCAT 등 산업용 네트워크 및 피지컬AI 도입 속도에 따라 제품 경쟁력과 수주 기회가 달라집니다."
+      },
+      {
+        "factor": "디지털인프라수요",
+        "detail": "데이터센터 등 디지털 인프라 확대는 UPS 등 에너지제어 제품 수요를 견인해 매출에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 주요 제품 및 서비스",
+        "evidence_text": "당사는 로봇 모션 제어 및 에너지 제어 장치를 제품군으로 사업을 영위하는 국내 기업입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "로봇모션제어기: 35,568 (53.1%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "에너지제어장치: 31,470 (46.9%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 2. 사업부문별 시장여건 및 영업의 개황",
+        "evidence_text": "로봇 모션 제어 관련 제품이 가장 많이 사용되는 반도체, LCD, 휴대폰 등의 산업"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4673,
+    "completion_tokens": 3325,
+    "reasoning_tokens": 2496,
+    "output_tokens": 829
+  },
+  "warnings": []
+}

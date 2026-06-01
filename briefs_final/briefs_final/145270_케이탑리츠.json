@@ -1,0 +1,77 @@
+{
+  "stock_code": "145270",
+  "corp_name": "케이탑리츠",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 13:21",
+  "meta": {
+    "wics": "부동산",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "reit"
+  },
+  "brief": {
+    "company_overview": "케이탑리츠는 자기관리부동산투자회사(REITs)로서 2011년 영업인가 후 2012년 1월 유가증권시장에 상장된 회사입니다. 보고서 제출일 기준 9개의 상업용 부동산에 투자하고 있으며, 투자부동산 장부가는 1,830억원으로 총자산 대비 비중이 높은 편입니다.",
+    "business_model": "주요 수익원은 부동산(임대수익, 개발이익, 매매차익)이며, FY2025 사업부문별 영업수익은 부동산 84.8%, 현금 9.6%, 기타 자산 5.6%로 구성되어 있습니다. 자기관리 방식으로 자산의 취득·관리·개량·처분과 개발사업을 통해 발생한 수익을 주주에게 배당하는 구조입니다.",
+    "main_customers": "부동산 — 임차인(임대수익의 원천) / 현금·기타자산 — 주주·일반투자자",
+    "price_factors": [
+      {
+        "factor": "이자율",
+        "detail": "변동금리 성격의 차입금 보유로 이자율 상승 시 이자비용 증가와 현금흐름 변동성이 커집니다."
+      },
+      {
+        "factor": "부동산가치",
+        "detail": "투자부동산 장부가 비중이 높아(총자산 대비 84.8%) 평가손익 및 자산가치 변동에 민감합니다."
+      },
+      {
+        "factor": "임대수익",
+        "detail": "임대차로부터 발생하는 수익이 핵심이므로 공실률·임차료 변동이 실적에 직접 영향을 줍니다."
+      },
+      {
+        "factor": "신용리스크",
+        "detail": "수취채권 및 금융기관 거래에 따른 신용위험이 존재하여 채권회수·예치금 운용에 리스크가 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "MD&A",
+        "evidence_text": "회사는『부동산투자회사법』에 따라 설립된 자기관리부동산투자회사로서"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "MD&A",
+        "evidence_text": "투자부동산 장부가는 1,830억원입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "부동산: 182,985 (84.8%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "(2) 회사의 현황 > 가. 사업의 목적",
+        "evidence_text": "부동산의 임대차로부터 발생한 수익"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "(2) 회사의 현황",
+        "evidence_text": "일반 투자자는 소액으로 부동산투자회사의 주식을 취득함으로써"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "(2) 금융위험관리",
+        "evidence_text": "변동이자율로 발행된 차입금으로 인하여 현금흐름 이자율 위험에 노출되어 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3814,
+    "completion_tokens": 4272,
+    "reasoning_tokens": 3456,
+    "output_tokens": 816
+  },
+  "warnings": []
+}

@@ -1,0 +1,69 @@
+{
+  "stock_code": "271560",
+  "corp_name": "오리온",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 14:34",
+  "meta": {
+    "wics": "식품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "오리온은 2017년 오리온홀딩스(구 오리온)에서 인적분할되어 식품사업에 집중하기 위해 설립된 기업으로, 전신은 1974년 초코파이를 출시한 제과회사입니다. 국내에서는 초코파이·파이·포카칩·오징어땅콩 등 장수 브랜드를 바탕으로 안정적 입지를 유지하고, 중국·베트남·러시아 등에서 생산법인과 현지 영업을 통해 해외 매출을 확대해 왔습니다.",
+    "business_model": "핵심 사업은 제과부문으로, 과자 및 스낵의 제조·가공·판매를 중심으로 파이, 스낵, 기타 상품군을 통해 매출을 창출합니다. 또한 간편대용식·닥터유 제주용암수 등 신규 카테고리 확장과 중국·베트남·러시아 등 해외 생산법인을 통한 현지 판매가 주요 수익 축을 형성하고 있습니다.",
+    "main_customers": "파이·스낵 — 대형할인점·창고형매장·편의점·온라인(이커머스) 및 슈퍼·도·소매상 / 기타 상품 — 국내 유통사 및 해외 현지 유통채널",
+    "price_factors": [
+      {
+        "factor": "원재료비",
+        "detail": "코코아·유지류 등 주요 원재료 가격 상승은 원가 부담을 높여 영업이익 압박으로 이어질 수 있습니다."
+      },
+      {
+        "factor": "내수소비",
+        "detail": "국내 소비심리 위축과 경기 둔화는 국내 판매 성장률을 낮춰 실적에 부정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "유통채널",
+        "detail": "창고형매장·편의점·이커머스 등 채널 변화에 따른 판매전략 성패가 매출 성장에 직접적 영향을 미칩니다."
+      },
+      {
+        "factor": "경쟁심화",
+        "detail": "글로벌·로컬 경쟁사 및 PB(자체상표) 제품과의 경쟁 심화는 가격·마케팅 비용 증가로 수익성에 부담을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "음ㆍ식료품의 제조, 가공 및 판매 등 식품사업부문에 더욱 집중하기 위하여"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 재무정보",
+        "evidence_text": "제과부문(과자 및 스낵의 제조 및 판매)을 가지고있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "산출기준",
+        "evidence_text": "당사 판매처인 도ㆍ소매상(할인매장, 도매상, 슈퍼 등)에 납품"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "산업의 특성",
+        "evidence_text": "최근 원재료 가격 상승, 내수소비 침체 등"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 5415,
+    "completion_tokens": 4029,
+    "reasoning_tokens": 3264,
+    "output_tokens": 765
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "stock_code": "002790",
+  "corp_name": "아모레퍼시픽홀딩스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 12:52",
+  "meta": {
+    "wics": "화장품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "아모레퍼시픽홀딩스는 순수지주회사로서(다른 회사 지분을 소유해 지배하는 회사) 자회사의 지분 보유를 통해 그룹을 지배하는 본사 역할을 합니다. 주요 자회사로 (주)아모레퍼시픽 등 8개사를 보유하고 있으며, 지주회사의 영업수익은 배당금·로열티·용역·임대료 등으로 구성됩니다.",
+    "business_model": "지주회사로서 자회사의 지분 보유를 통해 배당금 수익, 로열티, 용역수익, 임대료 수익 등을 주요 수익원으로 확보합니다(지주회사: 다른 회사 지분을 소유해 지배하는 회사). 사업부문별로는 화장품사업부문 매출 비중 89.2%와 헤어 앤 뷰티(Hair & Beauty)사업부문 매출 비중 10.8%로 구성되며, 화장품부문은 설화수·헤라·아이오페·라네즈 등 주요 브랜드 중심, 헤어앤뷰티부문은 미쟝센·해피바스·려 등 브랜드가 수익을 담당합니다.",
+    "main_customers": "화장품사업부문 — 국내·해외 일반 소비자(온라인, 백화점, 방문판매, 전문점, 할인점, 대리점 및 면세·해외법인·수출 경로) / 헤어 앤 뷰티사업부문 — 개인용 생활용품 소비자(미쟝센·해피바스·려 등 브랜드 이용자)",
+    "price_factors": [
+      {
+        "factor": "소비트렌드",
+        "detail": "기능성·클린·비건 뷰티 등 소비자 트렌드 변화는 제품 수요와 브랜드별 실적에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "온라인경쟁",
+        "detail": "온라인·멀티브랜드숍 채널 성장과 중소 브랜드의 신규 진입은 경쟁강도와 가격·마케팅 비용에 영향을 미칩니다."
+      },
+      {
+        "factor": "ODM/OEM발달",
+        "detail": "ODM·OEM의 발달로 상품 다양성이 확대되면 기존 브랜드의 시장점유율 유지 및 차별화 전략이 중요해집니다."
+      },
+      {
+        "factor": "환율변동",
+        "detail": "해외 매출 비중이 큰 만큼 달러 등 환율 변동은 원화 기준 실적 변동성과 연결됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 순수지주회사로서 자회사의 지분 소유를 통해"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사의 영업수익은 배당금 수익, 로열티 수익, 용역 수익"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "화장품사업부문 89.2% / 헤어 앤 뷰티 10.8%"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "판매 경로는 크게 순수 국내, 면세와 해외법인 및 수출"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5618,
+    "completion_tokens": 4113,
+    "reasoning_tokens": 3264,
+    "output_tokens": 849
+  },
+  "warnings": []
+}

@@ -1,0 +1,76 @@
+{
+  "stock_code": "236200",
+  "corp_name": "슈프리마",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 13:21",
+  "meta": {
+    "wics": "전자장비와기기",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "슈프리마는 바이오인식(Biometrics) 기술을 바탕으로 통합보안 시스템과 바이오인식 솔루션을 제공하는 전기·전자업체입니다. 북미·유럽 등 전략지역의 현지 진출과 국내 공공조달을 통한 출입보안 프로젝트 수주로 엔터프라이즈(기업) 및 공공 부문에서 매출 기반을 확장하고 있습니다.",
+    "business_model": "FY2025 기준 사업부문별 영업수익 구성은 슈프리마 75.1%, 바이오인식솔루션 11.6%, 용역 8.2%, 기타 5.1%입니다. 통합보안시스템 사업은 얼굴·지문 등 바이오인식과 모바일·RF 기반의 출입보안·근태관리시스템을 공급하며, 바이오인식솔루션 사업은 스마트폰용 지문인식 알고리즘(BioSign)과 바이오인식 모듈(SFM), Q-Vision Pro·Q-Face 등 온디바이스 AI·모듈형 솔루션 공급에 주력합니다.",
+    "main_customers": "통합보안시스템 — 엔터프라이즈(기업) 및 공공기관(공공조달을 통한 프로젝트 수주) / 바이오인식솔루션 — 스마트폰·디바이스용 지문인식 알고리즘·모듈을 도입하는 기업 / 용역 — 출입보안 프로젝트 수주처(설치·유지보수 수요처)",
+    "price_factors": [
+      {
+        "factor": "기술경쟁",
+        "detail": "인증정확도·속도·사용편의성·가격 경쟁에 따라 제품 채택과 마진이 좌우됩니다."
+      },
+      {
+        "factor": "지문·얼굴수요",
+        "detail": "지문인식과 얼굴인식 기술의 확산 정도가 제품 수요와 실적에 직접적 영향을 줍니다."
+      },
+      {
+        "factor": "진입장벽",
+        "detail": "높은 기술·신뢰성 요구로 후발주자 진입이 어려워 기존 사업자의 수익성 유지에 유리합니다."
+      },
+      {
+        "factor": "스마트폰전환",
+        "detail": "디스플레이 지문인식 등 스마트폰 기술 전환은 바이오인식솔루션의 적용과 수익성 확대에 영향을 미칩니다."
+      },
+      {
+        "factor": "공공조달",
+        "detail": "공공조달을 통한 대형 출입보안 프로젝트 수주는 매출 확대 및 계절적·프로젝트 리스크에 대한 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 > 영업 현황",
+        "evidence_text": "당사와 당사의 종속회사가 속한 산업은 바이오인식(Biometrics) 기술에 기반한 응용 산업과 물리적 보안(Physical Security) 산업에 해당합니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "슈프리마: 92,620 (75.1%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 > 영업 현황",
+        "evidence_text": "통합보안 시스템 사업은 얼굴, 지문 등 바이오인식 기술, 모바일,RF 등 비접촉 기술에 기반한 출입보안 및 근태관리시스템을 공급하고 있으며"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 > 영업 현황",
+        "evidence_text": "국내 시장에서는 공공조달 시장 진출을 통하여 출입보안 프로젝트 수주 매출 또한 크게 증가하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 > 영업 현황",
+        "evidence_text": "바이오인식 솔루션 사업은 스마트폰용 지문인식 알고리즘(BioSign)과 바이오인식 모듈(SFM) 공급에 주력하고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4581,
+    "completion_tokens": 5665,
+    "reasoning_tokens": 4672,
+    "output_tokens": 993
+  },
+  "warnings": []
+}

@@ -1,0 +1,62 @@
+{
+  "stock_code": "082850",
+  "corp_name": "우리바이오",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 06:16",
+  "meta": {
+    "wics": "디스플레이장비및부품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "우리바이오는 기존 전자부품 중심에서 2019년 사명 변경을 통해 식물공장을 기반으로 한 천연소재를 활용한 건강기능식품 사업으로 진출한 기업입니다. 연결실체는 자체 브랜드인 '솔루티오', '신비락'과 자회사 우리이앤엘의 '하루틴' 등을 출시했으며 LED 디스플레이 사업도 병행하고 있습니다.",
+    "business_model": "핵심 사업은 건강기능식품과 LED 디스플레이로 구분되며 자체 브랜드를 통한 제품 출시와 마케팅으로 매출을 창출합니다. 사업부문별 영업수익 구성은 제품 상품 등이 6.9%, 제품이 6.1%를 차지합니다.",
+    "main_customers": "건강기능식품 — 일반 소비자(건강 관심층, 노인층) / LED 디스플레이 — TV 세트 관련 시장(국내·글로벌)",
+    "price_factors": [
+      {
+        "factor": "글로벌수요",
+        "detail": "국내 및 글로벌 시장 수요 감소 시 LED 디스플레이·건강기능식품 매출이 줄어 실적에 직접 영향."
+      },
+      {
+        "factor": "원가·비용",
+        "detail": "제조원가 및 판매관리비 증가 시 영업이익이 감소하는 요인으로 작용."
+      },
+      {
+        "factor": "브랜드성공",
+        "detail": "자체 브랜드('솔루티오','신비락','하루틴')의 시장 인지도와 판매호조 여부가 건강기능식품 매출에 영향."
+      },
+      {
+        "factor": "유동성",
+        "detail": "대규모 투자와 시설자금 필요성으로 유동성 관리(현금성자산·차입한도 확보)가 실적 안정성에 중요."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "당사의 매출은 건강기능식품, LED 디스플레이 등의 부문으로 분류합니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "제품 상품 등: 72,436 (6.9%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "제품: 63,464 (6.1%)"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3975,
+    "completion_tokens": 3497,
+    "reasoning_tokens": 2880,
+    "output_tokens": 617
+  },
+  "warnings": []
+}

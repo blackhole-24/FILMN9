@@ -1,0 +1,77 @@
+{
+  "stock_code": "017670",
+  "corp_name": "SK텔레콤",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 22:07",
+  "meta": {
+    "wics": "무선통신서비스",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "SK텔레콤은 무선·유선·기타 통신서비스를 제공하는 종합 통신회사로, 연결실체 관점에서 이동전화·초고속인터넷·데이터방송 등 주요 통신사업을 운영하고 있습니다. 2019년 세계 최초 5G 상용화 이후 프리미엄 네트워크 사업자로서의 지위를 유지하고 있으며, 2025년 말 기준 5G 가입자 1,749만 명(5G 고객 비중 80%)을 보유하고 있습니다.",
+    "business_model": "매출은 무선통신사업(이동전화·무선데이터 등)이 약 73%, 유선통신사업(IPTV·초고속인터넷·데이터센터 등)이 약 25%, 기타사업(상품판매형 데이터방송)이 약 2%로 구성되어 있습니다. 무선사업은 5G 가입자 기반의 안정적 매출과 네트워크 운용 효율화로 수익성을 유지하고, 유선사업은 초고속인터넷 가입자 확대와 데이터센터(B2B) 중심의 성장으로 매출을 뒷받침합니다.",
+    "main_customers": "무선통신사업 — 국내 일반 소비자 및 B2B(기업) 고객 / 유선통신사업 — 가정(IPTV·초고속인터넷) 및 기업(B2B 데이터센터·전용회선) 고객 / 기타사업 — TV·모바일 기반 쇼핑 서비스 이용 소비자",
+    "price_factors": [
+      {
+        "factor": "5G 가입자 성장",
+        "detail": "5G 가입자 수와 5G 고객 비중 변화는 무선매출 및 ARPU(가입자당평균매출)에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "망 투자 규모",
+        "detail": "커버리지·품질 유지를 위한 대규모 시설투자(예: 1.24조원 집행)는 현금흐름과 단기 이익에 영향을 줍니다."
+      },
+      {
+        "factor": "사이버보안 리스크",
+        "detail": "사이버 침해사고 발생 시 가입자 감소·요금감면·대응 비용으로 매출과 영업이익이 감소할 수 있습니다."
+      },
+      {
+        "factor": "규제·인허가",
+        "detail": "통신은 인허가 대상 산업으로 규제 변화나 공정거래 관련 제한이 사업 운영과 비용에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 가. 무선통신사업",
+        "evidence_text": "2019년 세계 최초 5G 상용화"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 가. 무선통신사업",
+        "evidence_text": "5G 가입자 수는 2025년 12월 말 기준 1,749만 명"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "무선통신사업 비율(%) 73"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "유선통신사업 비율(%) 25"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "기타사업 비율(%) 2"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "사이버 침해사고로 인한 이동통신 매출 감소"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 6557,
+    "completion_tokens": 4993,
+    "reasoning_tokens": 4096,
+    "output_tokens": 897
+  },
+  "warnings": []
+}

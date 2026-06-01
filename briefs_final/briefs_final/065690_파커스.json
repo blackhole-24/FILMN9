@@ -1,0 +1,72 @@
+{
+  "stock_code": "065690",
+  "corp_name": "파커스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 04:35",
+  "meta": {
+    "wics": "컴퓨터와주변기기",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "파커스는 프린터 부품과 LED 조명 사업을 주력으로 영위하는 기업으로, 프린터용 고무배합 기술과 LED 조명 개발 역량을 보유하고 있습니다. 사업 관련 해외법인은 중국과 홍콩에 있으며, 양대 사업을 중심으로 제품 개발과 판매를 전개하고 있습니다.",
+    "business_model": "주요 수익원은 프린터 부품과 LED부품으로, 2025 회계연도 기준 프린터 부품이 85.7%, LED부품이 14.3%를 차지합니다. 프린터 부문은 고무배합 기술과 제조 노하우를 기반으로 부품을 공급하며, LED부문은 자체 개발한 PKG와 오브라이트(OhBright) 브랜드 및 헬스케어 제품을 통해 매출을 창출합니다.",
+    "main_customers": "프린터 부품 — 관련업계 / LED부품 — 오브라이트 브랜드 유통 채널 및 헬스케어 제품 수요처",
+    "price_factors": [
+      {
+        "factor": "레이저전환",
+        "detail": "잉크젯에서 레이저 프린터 중심으로 시장이 재편되면 레이저 부품 수요 변화가 실적에 영향."
+      },
+      {
+        "factor": "시장고급화",
+        "detail": "국내 프린터 시장의 고급화(복합기 등) 추세는 고부가가치 부품 수요에 유리하게 작용할 수 있음."
+      },
+      {
+        "factor": "환율변동",
+        "detail": "제품 가격은 환율 영향으로 변동될 수 있어 수익성에 직접적인 영향을 미칠 수 있음."
+      },
+      {
+        "factor": "제품수명주기",
+        "detail": "제품별 구성비와 개별 제품의 라이프사이클에 따른 수요 변동이 매출에 영향을 줌."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "당사는 프린터 부품사업과 LED 사업을 주요 사업으로 영위하고 있으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "프린터 부품: 45,868 (85.7%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "LED부품: 7,632 (14.3%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "프린터 부품 사업부문은 관련업계와 차별화 된 고무배합 기술과"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "국내는 프리미엄 조명 브랜드인 오브라이트(OhBright)를 통해 인지도를 확대하고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4630,
+    "completion_tokens": 2804,
+    "reasoning_tokens": 2048,
+    "output_tokens": 756
+  },
+  "warnings": []
+}

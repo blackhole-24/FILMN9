@@ -1,0 +1,62 @@
+{
+  "stock_code": "126700",
+  "corp_name": "하이비젼시스템",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 12:51",
+  "meta": {
+    "wics": "핸드셋",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "하이비젼시스템은 휴대폰용 카메라 모듈 및 스마트 부품의 공정·검사 자동화 장비를 개발·제조하는 기업으로, 한국을 비롯해 중국·베트남·인도 등 6개 종속회사를 통해 글로벌 네트워크를 구축하고 있는 중견 정밀장비업체입니다.",
+    "business_model": "핵심 수익원은 IT/모바일용 공정·검사 자동화 장비로, 2025년 사업부문별 영업수익은 IT/모바일 부문 72.3%, 2차전지 부문 25.1%, 전장 부문 1.1%, 3D 프린터 및 기타 부문 1.5%로 구성되어 있습니다. 주로 주문제작형(고객 맞춤형) 장비를 납품하며, 신제품 개발과 R&D(연구개발) 투자로 기술 우위를 유지하려는 전략을 병행하고 있습니다.",
+    "main_customers": "IT/모바일 — 국내외 주요 카메라 모듈사 및 글로벌 스마트폰 고객사 / 2차전지 부문 — 명시된 고객 없음 / 전장 부문 — 명시된 고객 없음 / 3D 프린터 및 기타 부문 — 명시된 고객 없음",
+    "price_factors": [
+      {
+        "factor": "스마트폰수요",
+        "detail": "스마트폰 시장의 수요 감소는 장비 주문 및 매출 감소로 직결되어 실적에 부정적 영향을 미칩니다."
+      },
+      {
+        "factor": "기술고도화",
+        "detail": "카메라 화소 증가·다기능화 등 기술 고도화는 고도화된 검사장비 수요를 늘려 매출에 긍정적 영향을 줍니다."
+      },
+      {
+        "factor": "외주의존",
+        "detail": "대부분 생산 공정을 종속회사·외주협력사에 의존하고 있어 외주처 리스크가 생산 및 원가·납기 안정성에 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "R&D지출",
+        "detail": "매출의 약 10% 내외를 연구개발비로 집행하고 있어 단기적으로 비용 부담이 존재하나 장기적 기술경쟁력 확보에 기여합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 기업개요",
+        "evidence_text": "당사는 본사를 거점으로 하여 한국, 중국, 베트남, 인도에 총 6개의 종속회사를보유하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "IT/모바일 부문이 123,677백만원, 2차전지 부문이 42,912백만원"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "[ IT/모바일 부문 ]",
+        "evidence_text": "매뉴얼 검사 장비의 자동화 장비로의 교체 수요는 지속될 것으로 판단되며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5481,
+    "completion_tokens": 3706,
+    "reasoning_tokens": 2944,
+    "output_tokens": 762
+  },
+  "warnings": []
+}

@@ -1,0 +1,67 @@
+{
+  "stock_code": "082920",
+  "corp_name": "비츠로셀",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 06:17",
+  "meta": {
+    "wics": "전기제품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "비츠로셀은 리튬일차전지를 주력으로 생산하는 전기제품 업체로, Li/SOCl2 전지와 Li/MnO2 전지 분야를 핵심 사업영역으로 영업하고 있습니다. 제41기 연결기준 매출액 2,431억 원, 영업이익 693억 원, 당기순이익 569억 원으로 창사 이래 최고 실적을 기록했습니다.",
+    "business_model": "사업부문별로 BOBBIN전지(51.2%), 고온전지(17.5%), 앰플전지(9.5%), WOUND전지(7.2%), 열전지(5.7%) 등이 주요 매출을 차지하며, EDLC·CR전지·리튬이온전지 등도 소수 제품군으로 매출을 구성합니다. 군수용 전지와 석유·가스 시추용 고온전지 수요 확대, 달러 환율 강세 및 원자재 가격 안정화 등이 실적 개선의 주요 요인으로 보고되고 있으며, Innova 인수에 따른 연결 매출(3.0%)도 포함되어 있습니다.",
+    "main_customers": "BOBBIN전지 — 산업용 계측기(전기·가스·워터 미터) 및 산업기기 / 고온전지 — 석유·가스 시추업체 / 군수용 전지 — 군·방산 관련 기관 및 업체 / 앰플·WOUND·열전지·리튬이온전지·EDLC 등 — 무선통신기기·RFID·IT·전자기기 제조업체",
+    "price_factors": [
+      {
+        "factor": "군사안보",
+        "detail": "군사적 긴장 고조 시 군수용 전지 수요가 급증하여 실적에 즉각적 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "산업정책",
+        "detail": "스마트미터 등 에너지 절감 관련 산업 투자 확대는 Li/SOCl2 전지 수요를 장기적으로 증가시킵니다."
+      },
+      {
+        "factor": "환율(달러)",
+        "detail": "달러 강세는 수출 매출 확대 요인으로 실적에 긍정적 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "원자재가격",
+        "detail": "리튬 등 주요 원자재 가격 안정화는 재료비 절감으로 영업이익 개선에 기여합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "매출액은 15.3% 증가한 2,431억 원"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "BOBBIN전지: 124,551 (51.2%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "군수용 전지는 경기와 상관없이 수요가 일정하지만"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "달러 환율 강세에 따른 매출 증가"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4881,
+    "completion_tokens": 4269,
+    "reasoning_tokens": 3456,
+    "output_tokens": 813
+  },
+  "warnings": []
+}

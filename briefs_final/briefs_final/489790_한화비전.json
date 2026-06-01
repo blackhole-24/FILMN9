@@ -1,0 +1,66 @@
+{
+  "stock_code": "489790",
+  "corp_name": "한화비전",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 21:00",
+  "meta": {
+    "wics": "통신장비",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "한화비전은 2024년 한화에어로스페이스에서 인적분할되어 설립된 기업으로, 시큐리티(영상보안)와 산업용장비 사업을 중심으로 영업하고 있습니다. 2025년 연결 기준 매출액 1조 7,909억원을 기록하는 등 글로벌 영상 보안 시장에서 유의미한 규모를 확보하고 있습니다.",
+    "business_model": "주요 사업은 시큐리티(영상 보안 솔루션)와 산업용장비로, FY2025 기준 시큐리티가 매출의 55.6%, 산업용장비가 15.5%를 차지합니다. 시큐리티 부문은 카메라·저장장치·통합관리 소프트웨어와 AI·클라우드 기반 플랫폼(VSaaS/ACaaS, 서비스형 보안)을 제공하며, 산업용장비 부문은 칩마운터·반도체 전·후공정 장비 등 정밀 제조장비를 공급합니다. 반도체설계(Fabless) 부문은 외부매출이 없으며 영상처리 SoC(System on Chip) 및 NPU(신경망처리장치) 설계 연구개발을 수행하고 있습니다.",
+    "main_customers": "시큐리티 — 주거·도시 인프라·상업시설 등 다양한 분야의 기관 및 기업 고객 / 산업용장비 — 글로벌 반도체 제조사",
+    "price_factors": [
+      {
+        "factor": "글로벌 수요",
+        "detail": "북미·유럽 등 선진시장 의존도가 높아 해당 지역 경기·수요 변동이 실적에 직접 영향."
+      },
+      {
+        "factor": "기술 경쟁",
+        "detail": "엣지 AI와 SoC·영상처리 기술 고도화 속도에 따라 제품 경쟁력과 마진이 달라짐."
+      },
+      {
+        "factor": "플랫폼 전환",
+        "detail": "클라우드 기반 VSaaS/ACaaS 확산은 하드웨어 중심 매출구조를 서비스형 수익으로 다변화함."
+      },
+      {
+        "factor": "공급망·원가",
+        "detail": "베트남 등 해외 생산 거점 운영 효율화는 원가경쟁력과 공급 안정성에 영향."
+      },
+      {
+        "factor": "지정학 리스크",
+        "detail": "글로벌 경기 변동성·지정학적 리스크는 수출 중심 사업의 실적 변동성을 확대할 수 있음."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "한화비전은 2025년 연결 기준 매출액 1조 7,909억원을 달성하였습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 영업수익 구성 (FY2025)]",
+        "evidence_text": "시큐리티: 996,203 (55.6%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 영업수익 구성 (FY2025)]",
+        "evidence_text": "산업용장비: 278,085 (15.5%)"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5353,
+    "completion_tokens": 4118,
+    "reasoning_tokens": 3328,
+    "output_tokens": 790
+  },
+  "warnings": []
+}

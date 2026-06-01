@@ -1,0 +1,66 @@
+{
+  "stock_code": "209640",
+  "corp_name": "와이제이링크",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:26",
+  "meta": {
+    "wics": "전자장비와기기",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "와이제이링크는 SMT(표면실장기술) 공정의 스마트화를 위한 장비를 제조·판매하는 회사입니다. SMT Line의 스마트공정장비를 주력으로 하며, PCB(인쇄회로기판) 이송과 추적, 후공정, Smart Factory Solution까지 다루는 것이 특징입니다. 사업보고서 기준으로 글로벌 Top Maker와 EMS(전자제품 제조수탁) 업체, 자동차 전장 부품 제조기업 등에 장비를 공급하고 있습니다.",
+    "business_model": "매출은 제품매출 32.4%가 가장 크고, 세부적으로 Loader/Unloader 17.8%, Buffer 11.3%, Laser Marking 17.4%, Router 0.9%, Smart Factory Solution 1.1%, 기타 10.2%, 상품매출 3.9%, 기타매출 5.1%로 구성됩니다. 즉, SMT 공정용 장비를 중심으로 표준형 양산 장비와 추적·후공정·스마트팩토리 솔루션을 함께 공급하는 구조입니다. 특히 Loader, Unloader, Conveyor, Buffer 같은 PCB이송장비와 Laser Marking 같은 PCB추적장비가 핵심 제품군입니다.",
+    "main_customers": "PCB이송장비 — 글로벌 Top Maker 및 EMS 업체, 자동차 전장 부품 제조기업 / PCB추적장비 — SMT 공정에서 PCB 이력 관리를 필요로 하는 제조 고객 / Smart Factory Solution — SMT Line의 자동화·물류 스마트화를 추진하는 제조 고객",
+    "price_factors": [
+      {
+        "factor": "전방산업",
+        "detail": "자동차·휴대폰·반도체·가전 등 전방산업의 신제품 출시와 교체 주기가 빠를수록 SMT 장비 수요가 늘어 실적에 영향을 줍니다."
+      },
+      {
+        "factor": "전기차",
+        "detail": "최근 전기자동차 산업의 발전이 회사 성장에 일조했다고 밝히고 있어, 전장 부품 생산 확대는 수요 확대 요인이 될 수 있습니다."
+      },
+      {
+        "factor": "고객투자",
+        "detail": "글로벌 관세 영향에 따른 고객사 투자지연은 2025년 매출 감소 요인으로 언급돼, 고객의 설비투자 시점이 실적에 직접 연결됩니다."
+      },
+      {
+        "factor": "해외확장",
+        "detail": "멕시코 생산법인 전환과 인도법인 설립 등 해외 생산·영업 확대는 중장기 수주 기반과 비용 구조에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "R&D",
+        "detail": "Smart Factory Solution과 후공정 장비 라인업 확대를 위한 연구개발은 제품 경쟁력과 신규 매출원 확보에 중요합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 가. 사업 개황",
+        "evidence_text": "당사는 SMT 공정의 스마트化를 위한 장비를 제조, 판매하는 회사입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > [사업부문별 매출 구성]",
+        "evidence_text": "제품매출: 13,943 (32.4%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 가. 사업 개황",
+        "evidence_text": "Tesla, SpaceX, Apple 등의 글로벌 Top Maker"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5768,
+    "completion_tokens": 827,
+    "reasoning_tokens": 0,
+    "output_tokens": 827
+  },
+  "warnings": []
+}

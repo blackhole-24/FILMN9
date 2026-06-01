@@ -1,0 +1,62 @@
+{
+  "stock_code": "089600",
+  "corp_name": "KT나스미디어",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 06:53",
+  "meta": {
+    "wics": "광고",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "KT나스미디어는 디지털 미디어렙사로서 광고매체 판매 대행을 주력으로 하는 광고업 기업입니다. 매체사 대상의 광고매체 판매 대행 수수료가 주요 수익원이며, 플랫폼 기반의 디지털 광고로 사업영역을 확장해 왔습니다.",
+    "business_model": "핵심 사업은 광고매체판매대행(매체사 대상의 광고상품 판매·집행 관리)과 광고대행(광고주 대상의 캠페인 집행·분석)으로 구성되며, 2025년 영업수익 기준으로 광고매체판매대행 93.9%, 광고대행 6.1%를 차지합니다. 자체 모바일 광고 플랫폼(NAP SSP·NAP DSP 등)과 미디어플래닝·광고효과 분석 서비스를 결합해 광고주와 매체사 사이에서 수수료 기반 수익을 창출하고 있습니다.",
+    "main_customers": "광고매체판매대행 — 국내외 인터넷 매체사·중소 인터넷 매체사·IPTV·모바일 네트워크사·옥외 매체사 / 광고대행 — 대형·중견기업 광고주 및 종합·온라인 전문 광고대행사",
+    "price_factors": [
+      {
+        "factor": "경기민감성",
+        "detail": "광고비가 경기 변동에 선행해 실물경기에 매우 민감하므로 경기 하락 시 광고 집행 축소로 실적에 직접적 영향을 받을 수 있습니다."
+      },
+      {
+        "factor": "디지털전환",
+        "detail": "전통 4대 매체에서 PC·모바일 중심의 디지털 광고로 전환되며 디지털광고 비중 확대가 플랫폼광고 매출 구조와 수익성에 영향을 줍니다."
+      },
+      {
+        "factor": "모바일성장",
+        "detail": "모바일 광고 시장 확대는 자사 모바일 플랫폼 판매 확대와 플랫폼광고 매출 증가로 직결됩니다."
+      },
+      {
+        "factor": "기술경쟁력",
+        "detail": "미디어렙은 광고솔루션 기술력·미디어플래닝·매체 네트워크·영업력이 경쟁요소라서 기술·플랫폼 투자 성과가 실적에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 나. 사업의 내용",
+        "evidence_text": "당사는 광고업 내에서 매체사 대상의 광고매체 판매 대행 서비스를 제공하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "광고매체판매대행: 117,893 (93.9%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 나. 사업의 내용",
+        "evidence_text": "당사가 거래하는 광고주는 주로 대형, 중견기업이며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5060,
+    "completion_tokens": 4687,
+    "reasoning_tokens": 3968,
+    "output_tokens": 719
+  },
+  "warnings": []
+}

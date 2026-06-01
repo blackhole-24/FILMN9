@@ -1,0 +1,81 @@
+{
+  "stock_code": "061040",
+  "corp_name": "알에프텍",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 04:06",
+  "meta": {
+    "wics": "핸드셋",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "알에프텍은 1995년 설립된 전기·전자(핸드셋) 기업으로, IT무선통신응용장치·바이오·장비 등 3개 사업부문을 영위하며 글로벌 생산거점을 운영하고 있습니다. 스마트폰 부가제품(ODM)과 5G 기지국 안테나 모듈, 바이오 의약품 연구개발 및 장비 공급을 핵심 활동으로 하고 있습니다.",
+    "business_model": "FY2025 기준 사업부문별 영업수익은 IT무선통신응용장치 15.7%, 바이오 6.7%, 장비 16.1%로 보고되었으며(%) IT부문은 스마트폰 부가제품의 ODM(자체개발주문자상표부착) 공급과 5G 기지국 안테나 모듈, 바이오부문은 히알루론산 필러(YOUTHFILL)와 보툴리눔 톡신 연구·제조, 장비부문은 디스플레이 및 이차전지 공정용 장비 공급이 주요 수익원입니다.",
+    "main_customers": "IT무선통신응용장치 — 스마트폰 제조사(부가제품 ODM 공급 대상) / 바이오 — 의료·미용기관(히알루론산 필러·보툴리눔 톡신 수요처) / 장비 — 디스플레이 제조사 및 이차전지 공정업체",
+    "price_factors": [
+      {
+        "factor": "단가경쟁",
+        "detail": "부품업계의 경쟁심화로 매분기 3~4% 수준의 단가 인하가 발생해 매출단가와 이익률에 압박을 줄 수 있습니다."
+      },
+      {
+        "factor": "신모델주기",
+        "detail": "스마트폰 가입자수 변동 및 신규 모델 출시 여부에 따라 IT 부문 제품 수요가 직접적으로 영향을 받습니다."
+      },
+      {
+        "factor": "5G투자",
+        "detail": "5G 기지국 및 네트워크 고도화 투자가 확대되면 5G 안테나 모듈 등 관련 제품의 수요 증가로 실적에 긍정적 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "디스플레이전환",
+        "detail": "LCD에서 OLED로의 전환과 IT용 OLED 출하 증가 전망은 장비부문의 수요 확대 요인이 됩니다."
+      },
+      {
+        "factor": "바이오수요",
+        "detail": "보툴리눔 톡신·히알루론산 필러 시장의 성장(시술 증가)은 바이오부문 매출 확대에 영향을 미칠 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "(1) 영업개황<IT사업>",
+        "evidence_text": "당사는 1995년 설립되어"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "IT무선통신응용장치: 41,375 (15.7%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "바이오: 18,910 (6.7%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "장비: 43,024 (16.1%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "IT 사업 가. 모바일 부품",
+        "evidence_text": "자체개발주문자상표부착(ODM) 방식으로 고객사에 공급"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "2. 주요 제품 등의 가격변동추이",
+        "evidence_text": "매분기 3~4% 또는 그 이상 수준의 단가가 인하 됩니다"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5561,
+    "completion_tokens": 4038,
+    "reasoning_tokens": 3072,
+    "output_tokens": 966
+  },
+  "warnings": []
+}

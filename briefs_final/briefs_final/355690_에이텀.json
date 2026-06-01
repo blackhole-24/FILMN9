@@ -1,0 +1,69 @@
+{
+  "stock_code": "355690",
+  "corp_name": "에이텀",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 17:32",
+  "meta": {
+    "wics": "전자장비와기기",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "에이텀은 트랜스(변압기) 제조를 중심으로 MLCC(적층세라믹콘덴서) 유통과 선박·산업기계 부품 제조를 영위하는 전기·전자 기업입니다. 휴대용 충전기와 TV용 트랜스 공급 경험을 바탕으로 전기자동차(EV) 관련 부품과 충전기 분야로 사업을 확장하고 있습니다.",
+    "business_model": "핵심은 트랜스 제조업으로, 지배기업(본사·베트남 법인)이 트랜스 생산을 담당하고 종속회사(청한전자)가 MLCC 유통을, 주식회사 디에스티가 선박·산업기계 부문을 담당합니다. 트랜스 내에서는 TA부문(휴대용 충전기용), TV부문(TV SMPS용) 등을 현재 영위하며, OBC·LDC 등 EV 부품 및 EV 충전기 부문은 신규 진출을 앞두고 있어 기술검증과 납품 전환이 수익 구조의 관건입니다.",
+    "main_customers": "TA부문 — 휴대용 충전기 제조사(예: S사) / TV부문 — TV 제조사(예: L사) / MLCC 유통 — 종속회사 청한전자를 통한 유통 채널(구체적 고객 미기재) / 선박·산업기계 — 주식회사 디에스티(제조 담당) / EV부품·충전기 — 국내 주요 기업들과 협의·검증 중",
+    "price_factors": [
+      {
+        "factor": "고출력수요",
+        "detail": "25W 이상, 100W대 수요 확대는 고출력 트랜스 판매와 실적에 직접적 영향을 줍니다."
+      },
+      {
+        "factor": "소형경량화",
+        "detail": "시장과 고객의 소형·경량화 요구는 에이텀의 평판형·몰딩코일 기술 경쟁력에 따른 수혜 여부를 좌우합니다."
+      },
+      {
+        "factor": "EV시장확장",
+        "detail": "전기차 보급 및 충전 인프라 확장은 OBC·LDC 등 EV용 트랜스와 충전기 수요로 연결됩니다."
+      },
+      {
+        "factor": "검증·납품리스크",
+        "detail": "제품 검증 및 협력사 등록(예: 예비협력사→정규협력사 전환) 진행 여부와 시점이 실적 전개에 영향합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 주요 제품 등의 현황",
+        "evidence_text": "당사의 사업영역은 크게 트랜스 제조업과 MLCC 유통, 선박엔진 및 산업기계 부품 제조업으로 나눌 수 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. 주요 제품 등의 현황",
+        "evidence_text": "이 가운데 TA부문과 TV부문은 현재 영위하고 있으며, EV 부품 및 EV 충전기 부문은 신규 진출을 앞두고 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "이와 같은 장점은 S사의 휴대용 충전기용 트렌스 제품 공급 경험이 증명합니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "휴대용 충전기는 고출력(25W 이상)화되고 있으며, 100W 이상의 시장 수요가 빠르게 증가하고 있습니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4345,
+    "completion_tokens": 4343,
+    "reasoning_tokens": 3456,
+    "output_tokens": 887
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

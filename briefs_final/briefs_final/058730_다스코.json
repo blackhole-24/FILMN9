@@ -1,0 +1,67 @@
+{
+  "stock_code": "058730",
+  "corp_name": "다스코",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 03:47",
+  "meta": {
+    "wics": "건축자재",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "다스코는 도로안전시설물(차량 방호 울타리·방음벽)을 주력으로 하는 금속·건축자재 기업으로, SOC(사회간접자본) 관련 공공공사와 밀접하게 연계되어 성장해 왔습니다. 건축자재, 신재생에너지(태양광), 철강재 등으로 사업을 다각화하고 있습니다.",
+    "business_model": "주요 사업부문은 에너지사업부문(태양광 EPC·구조물·O&M)과 건축자재, SOC사업부문(도로안전시설물), 철강재사업부문으로 구성되며, 2023년 기준 매출 비중은 에너지 약 34.1%, 건축자재 약 23.4%, SOC 약 31.1%, 철강재 약 11.5%입니다. 에너지 부문은 구조물 납품·시공에서 EPC·O&M까지 사업영역을 확장하며 매출을 창출하고 SOC 부문은 정부 발주 공사를 중심으로 수주가 발생합니다.",
+    "main_customers": "에너지사업부문 — 발전사업자·민간기업(태양광 발주처) / 건축자재사업부문 — 건설사(층간소음·건자재 수요처) / SOC사업부문 — 정부·공공기관(도로·인프라 발주처) / 철강재사업부문 — 건설·제조업체",
+    "price_factors": [
+      {
+        "factor": "정부정책",
+        "detail": "정부의 신재생에너지 지원정책과 설계단가(공사 예산) 변화는 수주 단가와 매출에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "REC·SMP 가격",
+        "detail": "REC(신재생에너지공급인증서)·SMP(전력시장가격) 변동은 태양광 발전사업 수익성에 직접적으로 영향을 줍니다."
+      },
+      {
+        "factor": "원자재가격",
+        "detail": "원자재 가격 상승은 설계단가 조정과 비용구조에 영향을 주어 수익성 변동 요인이 됩니다."
+      },
+      {
+        "factor": "경쟁심화",
+        "detail": "수상태양광·EPC 시장의 경쟁 심화는 수주가격 하락과 수익성 압박으로 이어질 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "회사는 도로안전시설물 중 차량 방호 울타리 및 방음벽 등을 주력으로"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[표] 가. 주요 제품 등의 현황",
+        "evidence_text": "에너지사업부문 93,064,745, 건축자재사업부문 63,837,412"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "민간기업에서도 탄소배출권확보를 위한 신재생에너지발전소의 수요가 크게 늘고 있어"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황 (에너지사업부문)",
+        "evidence_text": "육상 태양광과 수상 태양광 시장의 차별화된 성장률이 예측되는 상황입니다"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5670,
+    "completion_tokens": 4114,
+    "reasoning_tokens": 3264,
+    "output_tokens": 850
+  },
+  "warnings": []
+}

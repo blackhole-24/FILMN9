@@ -1,0 +1,72 @@
+{
+  "stock_code": "002870",
+  "corp_name": "신풍",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 18:15",
+  "meta": {
+    "wics": "포장재",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "신풍은 평택공장 조업 중단 후 2020년 1월부터 지류 유통·판매를 주력으로 영업을 전환한 기업으로, 약 60년간의 제조업 기반에서 확보한 고객 네트워크를 활용해 산업용 포장지(백판지 등) 유통을 하고 있습니다. 주력은 산업용 포장재로 쓰이는 지류의 수입 및 유통입니다.",
+    "business_model": "핵심 사업은 지류유통으로 FY2025 기준 매출의 지류유통 93.5%, 기타사업 6.5%로 구성되어 있습니다. 외부 공급처로부터 국내외 제지제품을 매입해 수요처에 공급하는 유통·중개형 영업을 주로 하며, 컨버팅 기기 도입으로 가공능력 확대와 외주비 절감 등을 통해 상품 다양화와 영업경쟁력 강화를 추진하고 있습니다.",
+    "main_customers": "지류유통 — 식료품·전자제품·티슈·세제·장난감 등 포장재 수요기업 / 기타사업 — 외식사업 관련(기타사업부문)",
+    "price_factors": [
+      {
+        "factor": "원자재·환율",
+        "detail": "국제 원자재 가격과 환율 변동은 매입원가와 마진에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "수요구조",
+        "detail": "디지털화 등 구조적 변화로 종이 수요가 점차 감소하는 점은 장기적 수요에 부담이 될 수 있습니다."
+      },
+      {
+        "factor": "친환경 규제",
+        "detail": "일회용품 규제 등 친환경 정책에 따라 산업용지·식품용지 등 특정 수요는 상대적 성장세를 보일 수 있습니다."
+      },
+      {
+        "factor": "가격경쟁",
+        "detail": "내수 제조업체의 과점 구조와 수입지의 공급으로 인한 치열한 가격경쟁이 수익성에 압박을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "나. 각 사업부문의 시장여건 및 영업의 개황등[지류사업부문] (5) 영업개황",
+        "evidence_text": "2020년 1월부터 유통업으로 업종을 변경하였습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성] (FY2025)",
+        "evidence_text": "지류유통: 20,177 (93.5%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "나. 각 사업부문의 시장여건 및 영업의 개황등[지류사업부문] (6) 기타사항",
+        "evidence_text": "당사는 전기 중 컨버팅 기기 도입을 완료하여 운용 중에 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "식료품, 전자제품, 티슈, 세제, 장난감 등"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나. 각 사업부문의 시장여건 및 영업의 개황등[지류사업부문] (1) 산업 개황",
+        "evidence_text": "국제 원자재 가격, 환율, 물류비, 내수시장 상황"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4644,
+    "completion_tokens": 4687,
+    "reasoning_tokens": 3840,
+    "output_tokens": 847
+  },
+  "warnings": []
+}

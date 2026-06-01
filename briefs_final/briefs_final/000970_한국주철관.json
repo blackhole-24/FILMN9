@@ -1,0 +1,73 @@
+{
+  "stock_code": "000970",
+  "corp_name": "한국주철관",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 17:11",
+  "meta": {
+    "wics": "철강",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "한국주철관공업은 1953년 설립된 기간산업 계열의 주철관 제조업체로, 1969년에 한국거래소에 상장되어 있습니다. 주력 제품은 상하수도용 덕타일주철관(연성주철관)이며, 부산공장과 포항공장을 운영하되 포항공장의 생산비중은 매우 낮아 주철관부문을 단일화하여 관리하고 있습니다.",
+    "business_model": "핵심 수익원은 상하수도용 덕타일주철관 제조·납품으로, 정부의 사회간접자본(SOC) 예산에 따른 내수 수요에 밀접하게 연동됩니다. 연결 대상 종속회사들을 통해 구조용강관(철코일 기반 아연도금관 등) 생산도 영위하고 있으며, 원가절감과 기술개발을 통한 품질향상에 주력하고 있습니다.",
+    "main_customers": "주철관부문 — 정부(상하수도 공사) 및 건설업체 / 구조용강관부문 — 건설부자재업체 및 농업용 하우스 제작업체",
+    "price_factors": [
+      {
+        "factor": "SOC 예산",
+        "detail": "정부의 SOC(사회간접자본) 예산 규모가 축소되면 상하수도관 수요가 줄어 실적에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "원자재가",
+        "detail": "원자재 가격 변동에 따라 수익성이 변동하므로 원자재비 상승은 마진 압박으로 연결됩니다."
+      },
+      {
+        "factor": "경쟁 심화",
+        "detail": "다수의 타 관종업체 및 저가 수입품과의 경쟁 심화는 가격경쟁과 수주 확보에 부담이 됩니다."
+      },
+      {
+        "factor": "건설경기",
+        "detail": "건설경기 호·부침에 따라 구조용강관 수요가 변동하여 실적에 영향을 미칩니다."
+      },
+      {
+        "factor": "계절성·재해",
+        "detail": "계절적 건설활동과 풍수해 등 재해복구 수요의 영향으로 매출이 일시적으로 변동할 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A) > 지배회사의 개요",
+        "evidence_text": "당사는 1969년 12월 한국거래소에 주식을 상장하였으며,"
+      },
+      {
+        "field": "business_model",
+        "source_section": "경영진 실적·전략 요약 (MD&A) > 지배회사의 개요",
+        "evidence_text": "덕타일주철관을 생산하는 등"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "<지배회사> 주철관부문 > (3) 시장의 특성",
+        "evidence_text": "상하수도용 주철관은 정부의 SOC사업 예산규모에 밀접하게 연관되어 있으며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "<지배회사> 나. 회사의 현황 (1) 영업개황",
+        "evidence_text": "정부의 사회간접자본 투자의 규모 및 원자재 가격에 따라 수익성의 변화가 있으나"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 3649,
+    "completion_tokens": 4926,
+    "reasoning_tokens": 4096,
+    "output_tokens": 830
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

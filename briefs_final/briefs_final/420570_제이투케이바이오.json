@@ -1,0 +1,67 @@
+{
+  "stock_code": "420570",
+  "corp_name": "제이투케이바이오",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 19:23",
+  "meta": {
+    "wics": "화장품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "제이투케이바이오는 2017년 설립된 화장품 원료 소재 생산·판매 기업으로, 천연물 신규 공법과 발효미생물을 활용한 신소재 개발을 주력으로 합니다. 자체 효능검증 기술을 보유하고 있으며 종속기업을 통해 임상서비스(효능평가)를 제공하고 있습니다.",
+    "business_model": "핵심 사업은 화장품 원료 소재 제조·판매와 임상서비스로, 제품군은 천연소재·바이오소재(발효물)·Solvent(용매제)로 구성됩니다. FY2025 기준 매출 구성은 화장품소재제조·판매 96.9%, 임상서비스 3.1%로 원료 제조·판매가 압도적인 수익원입니다.",
+    "main_customers": "화장품원료 소재 — 고객 브랜드사(화장품·퍼스널케어 제조사) / 임상서비스 — 화장품·건강기능식품 및 뷰티 디바이스 관련 기업",
+    "price_factors": [
+      {
+        "factor": "유통채널 변화",
+        "detail": "온라인 채널 확대와 오프라인 다변화는 원료 공급 채널과 수요 패턴에 영향을 주어 매출 구조에 변동을 초래할 수 있습니다."
+      },
+      {
+        "factor": "신규 브랜드 경쟁",
+        "detail": "감성과 경험을 앞세운 중소형 브랜드의 확산으로 원료 개발 속도와 차별화된 기능성 소재 수요가 중요해집니다."
+      },
+      {
+        "factor": "제품 트렌드",
+        "detail": "코스메슈티컬·비건·클린뷰티 등 기능성·친환경 트렌드의 확산이 특정 원료(발효·천연소재)의 수요에 직접적인 영향력을 미칩니다."
+      },
+      {
+        "factor": "맞춤형 수요",
+        "detail": "맞춤형 화장품 확산은 개별 소비자 요구에 맞춘 소재 개발 역량과 임상검증(효능평가) 서비스의 중요성을 높입니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "1. 사업의 내용",
+        "evidence_text": "2017년 설립되었으며, 화장품 원료 소재 생산 및 판매를 영위하는 기업입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "화장품소재제조, 판매: 12,136 (96.9%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "1. 사업의 내용",
+        "evidence_text": "발효미생물을 통한 새로운 신소재를 개발, 기획하고 있으며"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "1. 사업의 내용",
+        "evidence_text": "임상서비스 사업부문은 화장품과 건강기능식품의 효능을 평가하는 서비스를 운영하고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4409,
+    "completion_tokens": 2404,
+    "reasoning_tokens": 1664,
+    "output_tokens": 740
+  },
+  "warnings": []
+}

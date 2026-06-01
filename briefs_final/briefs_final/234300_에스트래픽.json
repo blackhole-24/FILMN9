@@ -1,0 +1,64 @@
+{
+  "stock_code": "234300",
+  "corp_name": "에스트래픽",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 13:15",
+  "meta": {
+    "wics": "IT서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "에스트래픽은 도로·철도 등 교통 관련 SI(System Integration, 시스템통합)를 주요 사업영역으로 하는 교통 솔루션 전문기업입니다. 요금징수시스템(TCS/ETCS/Smart Tolling), 지능형교통시스템(ITS), 철도신호·통신 분야에서 자체 솔루션과 숙련된 인력을 보유해 시스템 설계·구축·유지보수까지 총괄적으로 수행합니다.",
+    "business_model": "핵심 사업은 도로 요금징수시스템(요금소·무정차 전자지불), 지능형교통시스템(FTMS·UTMS·ATMS) 및 철도신호·철도통신 공급으로 구성되며, Software+Hardware+Integration+Maintenance를 결합한 일괄(턴키) 공급과 유지관리에서 수익을 창출합니다. 최근 국내 SOC 예산 감소로 국내사업이 부진한 반면 미국 등 해외 대형 프로젝트 수주로 해외 매출 비중 확대를 모색하고 있습니다.",
+    "main_customers": "도로 요금징수시스템 — 한국도로공사·민자고속도로 운영사·시설공단 / 신공항·대교·터널 프로젝트 — 건설사(삼성물산, SK건설 등) / 철도신호·통신 — 철도 운영기관 및 대형 신호시스템 발주처",
+    "price_factors": [
+      {
+        "factor": "국가예산",
+        "detail": "국토교통부의 SOC 예산 증감이 국내 수주량과 매출에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "해외수주",
+        "detail": "미국 등 해외 인프라 투자 확대 여부가 국내 부진을 상쇄할 수 있는 주요 변수가 됩니다."
+      },
+      {
+        "factor": "진입장벽",
+        "detail": "높은 신뢰성·기술요구로 소수 업체만 입찰에 참여해 장기 계약·안정적 수익이 가능하지만 신규 진입은 어려움이 큽니다."
+      },
+      {
+        "factor": "유지보수수요",
+        "detail": "인프라 장비의 주기적 교체 및 유지관리 수요로 장기적 서비스·수익 기회가 존재합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "1) 개요",
+        "evidence_text": "에스트래픽은 교통(도로/철도)관련 SI를 주요사업영역으로 하고 있으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "1) 주요 제품 및 서비스 개요",
+        "evidence_text": "현재 당사는 TCS와 관련된 각종 장비를 제조하고 시스템을 설치. 구축하며 유지. 보수하는 사업 수행."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "2) 국내외 시장현황 및 주요 정부 정책",
+        "evidence_text": "국내 SOC 예산감소에 따른 국내사업 부진이 계속되고 있고"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 6362,
+    "completion_tokens": 4128,
+    "reasoning_tokens": 3392,
+    "output_tokens": 736
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

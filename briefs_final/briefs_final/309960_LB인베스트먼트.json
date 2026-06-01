@@ -1,0 +1,86 @@
+{
+  "stock_code": "309960",
+  "corp_name": "LB인베스트먼트",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 15:59",
+  "meta": {
+    "wics": "창업투자",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "LB인베스트먼트는 중소·벤처기업에 대한 투자금융을 제공하는 벤처투자회사(VC)로, 벤처투자조합 결성과 PEF(사모집합투자기구) 운용을 주력으로 합니다. 보고서 기준 청산중인 조합을 포함해 11개 벤처투자조합과 1개의 사모집합투자기구를 운용하며, 전체 운용자산은 약 1조 4,990억원입니다. 회사는 관리의 투명성과 신뢰성을 인정받아 2023년·2024년에 대외수상 실적이 있습니다.",
+    "business_model": "주요 수익원은 벤처투자조합 및 PEF 운용을 통한 관리보수(Management fee)와 성과보수(Carried interest)이며, 창업 초기 및 성장단계 기업에 대한 지분투자를 통해 투자수익을 실현합니다. FY2025 사업부문별 영업수익 구성은 자본 27.6%, 기타포괄손익누계 70.8%, 부채 1.5%로 보고되었습니다.",
+    "main_customers": "지분투자(벤처투자) — 중소·벤처기업 / 펀드운용·조합 — 출자자(LP, 투자기관 및 개인 출자자)",
+    "price_factors": [
+      {
+        "factor": "출자자 신뢰",
+        "detail": "출자자 신뢰가 높아야 대규모 펀드 결성(자금조달)에 유리 — 보고서에서 출자자 신뢰를 바탕으로 펀드를 결성했다고 명시됨."
+      },
+      {
+        "factor": "투자평가",
+        "detail": "관계기업투자평가이익 변동은 영업수익에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "수수료 수익",
+        "detail": "관리보수(수수료) 증가는 영업현금흐름 개선으로 연결되어 실적의 질적 변화를 가져옵니다."
+      },
+      {
+        "factor": "거시환경",
+        "detail": "불안정한 금리·거시경제 여건은 펀드 운용과 투자회수 환경에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "펀드 성과",
+        "detail": "펀드 청산(성과)은 성과보수(캐리)에 직접 연동되어 회사의 실적 변동성을 유발합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 가. 사업 개황",
+        "evidence_text": "중소ㆍ벤처기업에 대한 투자금융을 제공하는 벤처캐피탈"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 가. 사업 개황",
+        "evidence_text": "전체 운용자산은 약 1조 4,990억원입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "자본: 23,217 (27.6%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "기타포괄손익누계: 92,004 (70.8%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "부채: 1,976 (1.5%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 가. 사업 개황",
+        "evidence_text": "벤처기업에게 자금과 경영서비스 등을 제공하고"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "수수료 수익은 전기 132억원에서 당기 174억원으로 증가하여"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3282,
+    "completion_tokens": 4310,
+    "reasoning_tokens": 3328,
+    "output_tokens": 982
+  },
+  "warnings": []
+}

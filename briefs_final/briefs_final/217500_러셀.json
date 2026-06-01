@@ -1,0 +1,71 @@
+{
+  "stock_code": "217500",
+  "corp_name": "러셀",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:27",
+  "meta": {
+    "wics": "반도체와반도체장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "러셀은 반도체산업의 후방 산업에 속한 반도체 장비 리퍼비시 전문 기업으로, 반도체 장비부문과 2020년 자회사로 편입된 러셀로보틱스의 무인자동화시스템부문을 함께 영위하고 있습니다. 2025년 매출 기준으로 반도체장비와 무인자동화시스템 두 축으로 사업이 구성되어 있습니다.",
+    "business_model": "2025년 사업부문별 영업수익은 반도체장비 82.9%, 무인자동화시스템 17.1%로 구성되어 있습니다. 반도체장비 부문은 PVD/CVD(증착 장비)와 식각공정장비를 수리·개조·부품교체·세정·업그레이드하는 리퍼비시(중고 장비 재생) 사업이 중심이며, 자동화 생산 장비도 제조·납품합니다. 무인자동화시스템 부문은 AGV(무인운반차), AGF(무인지게차), AMR(자율주행로봇) 등을 활용해 스마트팩토리와 물류창고의 무인물류 솔루션을 제공합니다.",
+    "main_customers": "반도체장비 — 반도체 제조업체 / 무인자동화시스템 — 스마트팩토리 운영 기업, 물류창고 운영 기업",
+    "price_factors": [
+      {
+        "factor": "반도체경기",
+        "detail": "반도체 장비 투자는 반도체 산업의 경기 사이클과 함께 움직여, 업황이 좋아질수록 장비 수요가 늘어날 수 있습니다."
+      },
+      {
+        "factor": "AI수요",
+        "detail": "AI 및 빅데이터 관련 고성능 컴퓨팅 수요 확대는 반도체 수요와 장비 수요를 함께 자극하는 요인입니다."
+      },
+      {
+        "factor": "장비투자",
+        "detail": "SEMI가 제시한 글로벌 반도체 장비 시장 성장 전망처럼 전방 업체의 설비투자 확대가 실적에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "맞춤형수요",
+        "detail": "반도체 장비는 고객사·사양·공정·옵션에 따라 가격이 달라지는 주문자 생산 특성이 강해 수주 조건이 중요합니다."
+      },
+      {
+        "factor": "자동화확산",
+        "detail": "공정과 물류창고의 무인화 수요가 늘어날수록 AGV, AGF, AMR 중심의 무인자동화시스템 수요가 확대될 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 반도체산업의 후방 산업으로 분류되는 반도체 장비 리퍼비시 전문 기업"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "반도체장비: 7,742 (82.9%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "무인자동화시스템: 7,647 (17.1%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "스마트팩토리 공정(공장) 내 무인물류와 물류창고 내 무인물류환경"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4987,
+    "completion_tokens": 866,
+    "reasoning_tokens": 0,
+    "output_tokens": 866
+  },
+  "warnings": []
+}

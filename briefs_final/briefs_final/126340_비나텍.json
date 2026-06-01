@@ -1,0 +1,76 @@
+{
+  "stock_code": "126340",
+  "corp_name": "비나텍",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 09:29",
+  "meta": {
+    "wics": "전기장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "비나텍은 슈퍼커패시터와 수소연료전지의 핵심 소재·부품을 연구·개발·양산하는 글로벌 친환경 에너지 기업으로, 에너지 효율과 안정적 전력망 구축을 위한 인프라 기술을 중심으로 사업을 전개하고 있습니다. 전력 저장 및 수소 분야의 기술력을 바탕으로 '셀'에서 '시스템' 단위로 사업 영역을 확장하고 있습니다.",
+    "business_model": "주요 사업은 슈퍼커패시터 등 전력 저장용 핵심소재·부품과 수소연료전지(PEMFC) 관련 소재·부품이며, 매출 구성은 제품 49.1%·상품 50.9%로 구성되어 있습니다. 최근에는 단일 '셀' 공급에서 벗어나 '시스템(System)' 단위의 전력 솔루션으로 영역을 확장하며 고부가가치 제품 판매와 생산 효율화로 수익성 개선을 추구하고 있습니다.",
+    "main_customers": "슈퍼커패시터 — AI 데이터센터(AIDC)·스마트 전력망(Grid) 및 UPS 관련 사업자 / 수소연료전지 — 수소 생태계 참여 기업 및 수전해 관련 업체",
+    "price_factors": [
+      {
+        "factor": "AIDC 수요",
+        "detail": "AI 데이터센터 증가로 무정전 전원장치(UPS)와 피크 전력 제어 수요가 확대되면 슈퍼커패시터 수주 증가로 실적에 긍정적 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "수소 상용화",
+        "detail": "수소 생태계의 상용화 진전은 PEMFC 및 수전해 관련 소재·부품 수요 증가로 연결되어 수익 성장에 영향을 줍니다."
+      },
+      {
+        "factor": "슈퍼커패시터 채택",
+        "detail": "고출력·장수명 특성을 갖춘 슈퍼커패시터의 채택률이 높아지면 기존 이차전지를 보완하는 시장 확대로 매출 확대가 기대됩니다."
+      },
+      {
+        "factor": "환율",
+        "detail": "연결회사의 외화 자산·부채에 대한 환율 변동은 손익 및 자본에 직접적인 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "생산능력",
+        "detail": "베트남 해외법인 등 생산능력 확대 투자가 안정적 글로벌 공급망 구축과 수주 대응력에 기여할 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "[DART 사업보고서 — 영업 현황]",
+        "evidence_text": "친환경 고출력 에너지 저장 장치인 슈퍼커패시터"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업분야 데이터 등급(tier)] [사업부문별 매출 구성]",
+        "evidence_text": "제품: 53,998,331 (49.1%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "[DART 사업보고서 — 영업 현황]",
+        "evidence_text": "AI 데이터센터(AIDC)의 폭발적인 증가"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[경영진 실적·전략 요약 (MD&A)]",
+        "evidence_text": "전년 대비 약 37.9% 증가한 매출액 822억 원을 달성"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[DART 사업보고서 — 영업 현황]",
+        "evidence_text": "베트남 해외법인에 생산능력 확대를 위한 투자를 진행"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3388,
+    "completion_tokens": 3327,
+    "reasoning_tokens": 2432,
+    "output_tokens": 895
+  },
+  "warnings": []
+}

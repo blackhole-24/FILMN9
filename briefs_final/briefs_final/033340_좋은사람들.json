@@ -1,0 +1,72 @@
+{
+  "stock_code": "033340",
+  "corp_name": "좋은사람들",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 23:57",
+  "meta": {
+    "wics": "섬유,의류,신발,호화품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "좋은사람들은 1993년 5월 1일 설립된 이너웨어(속옷) 제조·판매 전문기업으로, '패션이너웨어'라는 카테고리를 선도하며 보디가드, 섹시쿠키, 예스 등 여러 브랜드를 런칭해 왔습니다. 원가절감을 위해 캄보디아 법인 및 개성 공장을 설립했으며(개성1공장은 2016년 가동 중단), 내의류 제조·판매를 주된 사업으로 영위하고 있습니다.",
+    "business_model": "핵심 사업은 내의류 제조 및 판매이며, [사업부문별 매출 구성]에 따르면 종속회사 현지매출이 82,568으로 매출의 100.0%를 차지합니다. 브랜드 라이선스(과거 리바이스 바디웨어 종료, 향후 LEE 바디웨어 런칭 예정)와 자회사 생산기지(원가절감 목적)를 통해 매출과 제품포트폴리오를 운용합니다.",
+    "main_customers": "내의류 제조 및 판매 — 백화점·대형마트·홈쇼핑·온라인을 이용하는 일반 소비자",
+    "price_factors": [
+      {
+        "factor": "경기민감성",
+        "detail": "의류산업 특성상 경제성장과 가계소득 변동에 따라 매출과 수익이 민감하게 변동합니다."
+      },
+      {
+        "factor": "유통경쟁",
+        "detail": "가두점·할인점·홈쇼핑·온라인 등 채널 경쟁 심화는 판매채널별 실적 차이를 확대시킬 수 있습니다."
+      },
+      {
+        "factor": "브랜드력",
+        "detail": "소비자 충성도와 브랜드 가치가 매출 규모와 마진에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "기능성수요",
+        "detail": "기후변화 등으로 기능성 제품 수요가 확대되면 관련 제품의 매출 기회가 증가합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "(1) 지배기업의 개요",
+        "evidence_text": "1993년 5월 1일에 설립되었습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "(1) 지배기업의 개요",
+        "evidence_text": "지배기업과 종속기업의 사업부문이 내의류 제조 및 판매로 동일합니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "종속회사 현지매출: 82,568 (100.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "(4) 국내시장의 여건",
+        "evidence_text": "가두점을 비롯하여 할인점, 홈쇼핑, 온라인 등을 주요 유통채널로"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "(3) 경기변동의 특성",
+        "evidence_text": "국내 의류산업은 그 특성상 경제성장과 경기상황에 비교적 민감하게 반응하고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4888,
+    "completion_tokens": 3085,
+    "reasoning_tokens": 2304,
+    "output_tokens": 781
+  },
+  "warnings": []
+}

@@ -1,0 +1,67 @@
+{
+  "stock_code": "197140",
+  "corp_name": "디지캡",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 11:32",
+  "meta": {
+    "wics": "소프트웨어",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "디지캡은 디지털콘텐츠 전문기술기업으로 AI 기술을 접목한 솔루션을 중심으로 영상보안, 영상 AI, 메타버스, 디지털트윈 등 다양한 소프트웨어 서비스를 제공합니다. 2025년 매출은 666억원으로, 흡수합병 및 영업권 취득을 반영해 전년 대비 매출이 크게 증가했습니다.",
+    "business_model": "주요 사업부문은 영상보안/보안 SW·솔루션, 영상 AI SW·솔루션, 메타버스 SW·솔루션, 디지털트윈 SW·솔루션, 콘텐츠 SW·솔루션, 디지털방송 솔루션 및 기타 솔루션으로 구성되며, FY2025 기준 부문별 매출 비중은 디지털트윈 34.4%, 메타버스 20.1%, 콘텐츠 25.3%, 영상보안 9.7%, 디지털방송 8.3%, 영상 AI 0.5%, 기타 1.6%입니다. AI 기반 콘텐츠 생성·압축·전송, 보안(저작권·기밀유출 차단) 및 디지털트윈을 통한 시뮬레이션·유지보수 최적화가 수익 구조의 핵심입니다.",
+    "main_customers": "영상보안/보안 SW·솔루션 — 방송사·콘텐츠 유통사업자 / 영상 AI SW·솔루션 — 콘텐츠 제작자·플랫폼 사업자 / 메타버스 SW·솔루션 — 콘텐츠 제작자(가상 캐릭터·특수시각효과)·AR/VR 서비스 제공자 / 디지털트윈 SW·솔루션 — 제조·건설 관련 현장 운영자 및 설계 담당자 / 콘텐츠 SW·솔루션 — 콘텐츠 제작자(저작권자 포함)·유통사업자 / 디지털방송 솔루션 — IPTV·디지털케이블TV 등 유료방송 사업자 / 기타 솔루션 — 다양한 기업 고객",
+    "price_factors": [
+      {
+        "factor": "생성형 AI 발전",
+        "detail": "생성형 AI 성능 향상은 영상 제작·자동화 솔루션 수요를 증가시켜 실적에 긍정적 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "글로벌 콘텐츠 시장 성장",
+        "detail": "디지털콘텐츠 시장의 빠른 성장(연평균 성장률 등)은 전체 매출 확대 요인으로 작용합니다."
+      },
+      {
+        "factor": "컴퓨팅(GPU) 수급",
+        "detail": "AI 학습·처리에 필요한 고성능 GPU 확보난은 개발·서비스 비용과 제공 속도에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "산업표준 및 보안 규제",
+        "detail": "방송·콘텐츠 보호 관련 표준 준수와 개인정보·기밀유출 방지 요구 증가는 보안 솔루션 수요와 비용 구조에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "당사는 디지털콘텐츠 전문기술기업으로"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "디지털트윈 SWㆍ솔루션: 22,936,024 (34.4%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 사업 개황 및 동향",
+        "evidence_text": "생산은 저작권자를 포함한 콘텐츠 제작자가"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "영업 현황",
+        "evidence_text": "현재 AI 기술은 데이터 분석, 예측 모델링, 자동화"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5277,
+    "completion_tokens": 4100,
+    "reasoning_tokens": 3200,
+    "output_tokens": 900
+  },
+  "warnings": []
+}

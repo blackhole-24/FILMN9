@@ -1,0 +1,71 @@
+{
+  "stock_code": "291230",
+  "corp_name": "엔피",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 11:31",
+  "meta": {
+    "wics": "광고",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "엔피는 2006년 7월 설립된 브랜드 익스피어리언스(Brand Experience) 중심의 마케팅 콘텐츠 제작사입니다. 오프라인 런칭 행사·전시 중심의 BE 사업에서 출발해 XR(확장현실)·뉴미디어로 사업 영역을 확장했으며, 2021년 코스닥에 상장했습니다.",
+    "business_model": "사업부문은 BE 41.4%, 뉴미디어 1.8%, 기타매출 0.7%, 디지털마케팅 56.1%로 구성되며 프로젝트 기반 제작 대행과 플랫폼·구독형 서비스가 혼재된 수익 구조입니다. BE 부문은 오프라인·온라인 브랜드 체험 콘텐츠 기획·제작을 수행하고, 뉴미디어 부문은 NP XR STAGE 기반의 버추얼 스튜디오 대관·버추얼 콘텐츠 제작, XR 기반 구독형 마인드케어 'MUA' 및 OTT용 숏폼 제작·배급을 포함합니다. MUA는 월 구독료 USD 9.99·연 구독료 USD 39.99 수준의 가격정책을 적용하고 있습니다.",
+    "main_customers": "BE — 광고주·광고대행사 / 뉴미디어 — OTT 플랫폼·MUA 구독자(스마트기기 이용 개인) / 디지털마케팅 — 광고주·기업 고객 / 기타매출 — 기타",
+    "price_factors": [
+      {
+        "factor": "광고수요",
+        "detail": "광고주 예산 축소 시 프로젝트성 BE 매출과 디지털마케팅 매출이 감소할 수 있습니다."
+      },
+      {
+        "factor": "디지털플랫폼",
+        "detail": "SNS·OTT 등 디지털 플랫폼 확산은 BE 콘텐츠의 온라인 확산과 숏폼 수요에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "인력·기술력",
+        "detail": "창의적 기획과 뉴미디어 제작 역량이 수주 경쟁력 및 수익성 차별화에 핵심적인 영향을 미칩니다."
+      },
+      {
+        "factor": "프로젝트변동성",
+        "detail": "제작 대행은 프로젝트 규모·난이도에 따라 계약금액 변동성이 커 실적 변동에 민감합니다."
+      },
+      {
+        "factor": "XR·AI기술",
+        "detail": "NP XR STAGE와 생성형 AI·XR 기술 도입은 스튜디오 활용도 및 구독형 서비스 확대에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 2006년 7월 설립되어"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "디지털마케팅: 15,277 (56.1%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "Brand Experience 사업",
+        "evidence_text": "광고주 - 광고대행사 - 광고제작사로 구성"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "약 300평 규모의 LED Wall 기반 버추얼 스튜디오"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4741,
+    "completion_tokens": 4258,
+    "reasoning_tokens": 3456,
+    "output_tokens": 802
+  },
+  "warnings": []
+}

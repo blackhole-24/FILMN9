@@ -1,0 +1,71 @@
+{
+  "stock_code": "115160",
+  "corp_name": "휴맥스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 08:50",
+  "meta": {
+    "wics": "전자제품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "휴맥스는 글로벌 셋톱박스 제조기업으로서 유료방송사업자에게 디지털 방송 수신 및 브로드밴드 관련 단말과 솔루션을 공급하는 기업입니다. 차량용 안테나를 생산하는 위너콤 등 전장(車)사업 자회사를 보유하고 모빌리티 분야로 사업 영역을 확장하고 있습니다.",
+    "business_model": "주요 사업은 게이트웨이(셋톱박스·비디오·브로드밴드 게이트웨이)와 차량용 안테나로 양분되며, 게이트웨이부문 매출이 49.76%, 차량용 안테나부문 매출이 50.24%로 거의 균형을 이루고 있습니다. 게이트웨이부문은 유료방송·IPTV 사업자 대상 단말 공급이 핵심 수익원이고, 차량용 안테나부문은 통합샤크안테나·마이크로안테나·스마트키 안테나 등 자동차용 수신장치 판매가 주된 매출원입니다.",
+    "main_customers": "게이트웨이부문 — 유료방송사업자 / 차량용 안테나부문 — 현대자동차·기아자동차·르노삼성자동차·르노닛산미쓰비시얼라이언스 등 완성차 업체",
+    "price_factors": [
+      {
+        "factor": "유료방송 축소",
+        "detail": "글로벌 Pay TV 가입자 감소는 전통적 게이트웨이 수요에 하방 압력을 줄 수 있습니다."
+      },
+      {
+        "factor": "IPTV 수요",
+        "detail": "코로나 이후 가정 중심 시청 변화로 IPTV 이용 및 VOD 매출 증가는 게이트웨이 수요를 지지할 수 있습니다."
+      },
+      {
+        "factor": "기술경쟁력",
+        "detail": "우수한 기술력·신속한 제품개발·대규모 생산능력 등은 게이트웨이 경쟁에서 실적을 좌우하는 핵심 요소입니다."
+      },
+      {
+        "factor": "안테나 수요",
+        "detail": "5G 보급(MIMO·빔포밍 적용)과 스마트카·자율주행 등 기술 진전은 차량용 안테나 시장 수요를 견인할 가능성이 큽니다."
+      },
+      {
+        "factor": "재무건전성",
+        "detail": "유동비율·부채비율 등 재무지표 변동은 자금조달 비용과 단기 유동성에 영향을 미쳐 실적과 기업가치에 연동될 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "[ 게이트웨이 사업 ]",
+        "evidence_text": "글로벌 셋톱박스 제조기업으로서"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[표] 가. 주요 제품 등의 현황",
+        "evidence_text": "게이트웨이부문 49.76"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[표] 가. 주요 제품 등의 현황",
+        "evidence_text": "차량용 안테나부문 50.24"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "자동차 전장사업 : 차량용 안테나 사업 ( 위너콤 )",
+        "evidence_text": "현대자동차 , 기아자동차 , 르노삼성자동차"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3496,
+    "completion_tokens": 4872,
+    "reasoning_tokens": 4032,
+    "output_tokens": 840
+  },
+  "warnings": []
+}

@@ -1,0 +1,71 @@
+{
+  "stock_code": "123420",
+  "corp_name": "위메이드플레이",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 09:23",
+  "meta": {
+    "wics": "게임엔터테인먼트",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "위메이드플레이는 주로 모바일 게임을 개발·서비스하는 게임 소프트웨어 개발회사로, 대표 IP로 '애니팡' 시리즈 등 다수의 캐주얼 및 소셜게임을 보유하고 있습니다. 2025년 연결기준 매출은 1,253억원이며, 지역별로는 국내 485억원, 해외 767억원으로 해외 매출 비중이 큽니다.",
+    "business_model": "당사는 단일 영업부문인 모바일 게임을 중심으로 수익을 창출하며, 2025년 사업부문별 영업수익은 모바일게임 81.6%, 광고 등 기타 18.4%입니다. 주요 수익원은 게임 내 유료 아이템 판매를 통한 인앱 결제(앱 내 구매)와 Google AdMob·Facebook·Unity Ad 등 광고 수익화 플랫폼을 통한 광고 매출이며, 유통은 Google Play·App Store·One Store 등 오픈마켓(앱스토어)을 통해 이뤄집니다.",
+    "main_customers": "모바일게임 — 게임 이용자(인앱 결제 고객) / 광고 등 기타 — 광고 플랫폼(예: Google AdMob 등) 및 광고주",
+    "price_factors": [
+      {
+        "factor": "장르구조",
+        "detail": "RPG 비중이 크지만 퍼즐·전략 장르 수익이 전년대비 크게 성장한 점은 애니팡 등 퍼즐류를 보유한 회사의 실적에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "광고수익",
+        "detail": "광고 등 기타 매출이 18.4%를 차지해 모바일 광고시장의 변동성이나 광고 플랫폼 정책 변화가 실적에 직접적인 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "플랫폼의존",
+        "detail": "게임 유통이 Google Play·App Store·One Store 등 오픈마켓 중심인 만큼 플랫폼 정책·수수료 변화가 수익구조에 영향합니다."
+      },
+      {
+        "factor": "콘텐츠수명",
+        "detail": "게임은 제품 수명주기가 짧고 히트작 의존도가 높은 산업 특성상 신작 성과와 기존 게임의 운영(유지보수)이 실적 변동성을 좌우합니다."
+      },
+      {
+        "factor": "경기민감도",
+        "detail": "모바일게임 이용요금이 비교적 저렴하고 소비패턴이 게임성에 좌우되므로 일반 경기변동보다는 게임 재미와 운영이 실적에 더 큰 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "주요 매출은 모바일 게임 매출과 광고 등 기타 매출로 구분됩니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "모바일게임: 102,167 (81.6%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "게임 내 유료 아이템 판매를 통해 발생한 인앱 결제 매출"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "수요의 불확실성이 매우 높고 제품 판매의 라이프 사이클이 짧다"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4952,
+    "completion_tokens": 4486,
+    "reasoning_tokens": 3648,
+    "output_tokens": 838
+  },
+  "warnings": []
+}

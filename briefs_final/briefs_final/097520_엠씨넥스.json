@@ -1,0 +1,62 @@
+{
+  "stock_code": "097520",
+  "corp_name": "엠씨넥스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 07:42",
+  "meta": {
+    "wics": "핸드셋",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "엠씨넥스는 카메라 모듈(CCM: 초소형 카메라모듈) 기술을 바탕으로 모바일(휴대폰)용과 전장(자동차)용 카메라모듈을 공급하는 전기·전자(핸드셋) 분야 기업입니다. 모바일 카메라 모듈 시장이 여전히 전체 카메라모듈 시장에서 높은 비중을 차지하는 가운데, 멀티카메라·고화소화 추세와 전장용 수요 확대의 수혜권에 있는 구조입니다.",
+    "business_model": "FY2025 기준 사업부문별 영업수익은 자동차 28.6%, 제품 매출 14.3%, 상품 매출 0.3%, 개발 매출 0.5%, 기타 매출 0.2%로 구성되어 있습니다. 핵심은 모바일용 카메라모듈(제품 매출)과 전장용 카메라모듈(자동차 매출)이며, 고부가가치 플래그십 모델과 카메라 구동계(액츄에이터) 공급 확대가 수익성에 기여하고 있습니다.",
+    "main_customers": "제품(모바일) — 스마트폰 제조사 / 자동차(전장) — 자동차 제조사",
+    "price_factors": [
+      {
+        "factor": "카메라수 증가",
+        "detail": "스마트폰의 멀티카메라(듀얼·트리플 등) 채용 확대는 제품 수량과 모델별 고기능화 수요를 늘려 실적에 긍정적 영향을 미칩니다."
+      },
+      {
+        "factor": "고부가가치",
+        "detail": "플래그십·고부가가치 모델 비중 확대는 평균판매단가(ASP)와 영업이익 개선에 기여합니다."
+      },
+      {
+        "factor": "전장수요",
+        "detail": "ADAS(첨단운전자보조) 등 전장용 카메라 채용 확대는 자동차 매출 성장을 뒷받침합니다."
+      },
+      {
+        "factor": "수율·원가",
+        "detail": "수율 개선과 원가 절감은 영업이익률에 직접적인 영향을 미치며, 보고서상 영업이익 개선의 원인으로 제시되어 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 업계의 현황",
+        "evidence_text": "모바일 카메라 모듈 시장은 지속적으로 성장하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "자동차: 304,886 (28.6%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "매출액은 직전 사업연도 대비 222,179백만원(21.02%) 증가하였습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4776,
+    "completion_tokens": 3670,
+    "reasoning_tokens": 2944,
+    "output_tokens": 726
+  },
+  "warnings": []
+}

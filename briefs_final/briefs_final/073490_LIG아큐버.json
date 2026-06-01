@@ -1,0 +1,68 @@
+{
+  "stock_code": "073490",
+  "corp_name": "LIG아큐버",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:09",
+  "meta": {
+    "wics": "통신장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "LIG아큐버는 전기·전자 업종의 통신장비 기업으로, 주요 사업영역이 이동통신 사업부문과 오토모티브 사업부문으로 구분됩니다. 이동통신 시험·계측, SmallCell, 방산 관련 사업과 함께 차량용 반도체 유통 및 V2X 시험 솔루션을 전개하고 있으며, 국내외 고객에게 제품과 서비스를 공급하고 있습니다.",
+    "business_model": "이동통신 사업부문에서는 통신용 시험·계측기, SmallCell, 방산 관련 사업을, 오토모티브 사업부문에서는 반도체 유통과 V2X(차량과 사물 간 통신) 시험 솔루션을 영위합니다. 사업부문별 매출 구성 수치가 제공되지 않아 비율은 명시할 수 없지만, 무선망 최적화 제품군이 주요 매출원이며 연구개발(기술 개발) 기반의 B2B(기업 간 거래)·B2G(정부 대상 거래) 중심 구조로 운영됩니다. 주요 제품과 솔루션은 당사 및 자회사가 직접 개발·생산하여 판매합니다.",
+    "main_customers": "이동통신 사업부문 — 이동통신사업자, 단말기 제조사, 네트워크 장비 사업자 / 오토모티브 사업부문 — 자동차 전장 부품 제조업체 / 해외 판매 — 미국·일본·홍콩·영국·폴란드·중국·인도 지역 고객",
+    "price_factors": [
+      {
+        "factor": "5G·6G",
+        "detail": "5G 고도화와 6G 기술 개발이 진행될수록 성능 시험·검증 수요가 늘어 통신장비와 계측 솔루션 수요에 영향을 줍니다."
+      },
+      {
+        "factor": "투자집행",
+        "detail": "국내 네트워크 장비 투자 확대 여부에 따라 통신사업 부문 매출이 크게 달라질 수 있습니다."
+      },
+      {
+        "factor": "방산확대",
+        "detail": "기존 방산사업의 경쟁력과 사업 영역 확대 속도는 성장 동력 확보와 실적 개선 기대에 연결됩니다."
+      },
+      {
+        "factor": "모빌리티",
+        "detail": "자율주행과 차량 소프트웨어 확대가 이어질수록 차량용 반도체와 V2X 시험 솔루션 수요가 커질 수 있습니다."
+      },
+      {
+        "factor": "환율변동",
+        "detail": "USD, JPY, GBP, EUR, CNY 등 외화 환산 손익이 발생해 환율 변동이 세전이익에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "주요 사업영역은 이동통신 사업부문과 오토모티브 사업부문"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "이동통신 사업부문에서는 통신용 시험·계측기, SmallCell, 방산 관련 사업"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "이동통신 사업자, 단말기 및 네트워크 장비 제조업체"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 5306,
+    "completion_tokens": 816,
+    "reasoning_tokens": 0,
+    "output_tokens": 816
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "stock_code": "008350",
+  "corp_name": "남선알미늄",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 09:46",
+  "meta": {
+    "wics": "비철금속",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "남선알미늄은 알루미늄과 자동차 사업을 중심으로 사업을 영위하는 비철금속 기업입니다. 사업보고서에는 알미늄 사업, 자동차 사업, 건설 사업, 기타 부문으로 구분해 실적을 제시하고 있으며, 2025년에는 건설사업부문 인수 및 합병이 반영되었습니다.",
+    "business_model": "남선알미늄의 사업은 알미늄사업과 자동차사업이 핵심이며, 2025년 제53기 매출 기준으로 알미늄사업이 약 44.7%, 자동차사업이 약 53.9%, 건설사업이 약 1.1%를 차지합니다. 알미늄사업은 고성능 창호, 프리미엄 시스템 창호, 방화창 같은 제품 개발에 집중하고 있고, 자동차사업은 자동차 부품 관련 사업을 영위합니다. 건설사업은 2025년 6월 인수된 에스티엑스건설(주)와 관련된 부문으로, 수주산업(주문을 받아 생산하는 산업) 특성을 가집니다.",
+    "main_customers": "알미늄사업 — 건설사, 창호 수요처 / 자동차사업 — 자동차 제조 관련 부품 수요처 / 건설사업 — 발주자, 건설주",
+    "price_factors": [
+      {
+        "factor": "건설경기",
+        "detail": "건설업경기가 위축되면 창호 등 알미늄사업의 수요가 줄어 매출과 수익성에 부담이 될 수 있습니다."
+      },
+      {
+        "factor": "전기차",
+        "detail": "전기차 산업 확대로 알루미늄 활용 수요와 2차전지 관련 수요가 늘면 알미늄사업에 우호적으로 작용할 수 있습니다."
+      },
+      {
+        "factor": "자동차수요",
+        "detail": "자동차 산업 전반의 경기와 부품 수요 변화가 자동차사업 실적에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "기술개발",
+        "detail": "고성능 창호, 방화창, 단열 제품 같은 신제품 개발 성과가 시장 반응과 경쟁력에 영향을 미칩니다."
+      },
+      {
+        "factor": "수주변동",
+        "detail": "건설사업은 수주산업이라 발주 물량과 프로젝트 진행 상황에 따라 실적 변동성이 생길 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "기업 기본 정보 / DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 현재 알미늄 사업부문과 자동차 사업부문, 건설 사업부문, 기타 부문으로 크게 4부문으로 나누어져"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "알미늄사업 115,566,343 / 자동차사업 139,245,959 / 건설사업 2,863,333"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "고성능 창호, 프리미엄 시스템 창호 등의 신제품 개발에 꾸준히 집중하고 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "건설업은 발주자나 건설주로부터 주문을 받아 생산 활동에 착수하고"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "전기차 산업의 영향으로 알루미늄을 활용한 2차전지 수요가 증가"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4166,
+    "completion_tokens": 919,
+    "reasoning_tokens": 0,
+    "output_tokens": 919
+  },
+  "warnings": []
+}

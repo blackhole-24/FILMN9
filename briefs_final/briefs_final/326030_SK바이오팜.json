@@ -1,0 +1,62 @@
+{
+  "stock_code": "326030",
+  "corp_name": "SK바이오팜",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 16:34",
+  "meta": {
+    "wics": "제약",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "SK바이오팜은 1993년 신약 연구개발을 시작해 중추신경계(CNS), 특히 뇌전증 분야의 혁신 신약 개발에 집중해온 바이오기업입니다. 글로벌 시장(특히 미국)을 주요 무대로 삼아 직접판매와 기술수출(라이선스) 전략을 병행하고 있습니다.",
+    "business_model": "2025년 매출은 세노바메이트가 96.7%로 압도적 비중을 차지하며, 솔리암페톨 1.6%, 기타 1.7%로 구성됩니다. 주력은 뇌전증 치료제 세노바메이트 중심의 제품매출 및 기술수출 수익이며, 미국은 직접 판매하고 유럽·아시아 등 다수 국가는 기술수출(라이선스)을 통한 상용화 모델을 활용합니다. 또한 RPT(방사성의약품)·TPD(표적단백질분해) 등 새로운 모달리티 도입을 통한 파이프라인 확장이 핵심 전략입니다.",
+    "main_customers": "미국(직접판매) — 미국 시장(직접 판매 지역) / 기타 지역(기술수출) — 기술수출 계약을 체결한 현지 제약사(라이선스 파트너)",
+    "price_factors": [
+      {
+        "factor": "특허보호",
+        "detail": "특허·독점판매 기간(라이프사이클)이 신약의 매출 회수와 장기 실적에 직접 영향을 미칩니다."
+      },
+      {
+        "factor": "규제승인",
+        "detail": "FDA·EMA 등 규제기관의 제조시설 승인 및 정기 실사는 제품의 생산·판매에 실무적·시기적 영향을 미칩니다."
+      },
+      {
+        "factor": "약가정책",
+        "detail": "국내 약가 통제는 제약업 전반에 영향을 미치나, 회사는 주력 시장이 미국인 만큼 국내 약가정책 영향은 상대적으로 제한적입니다."
+      },
+      {
+        "factor": "제품집중",
+        "detail": "매출이 세노바메이트에 거의 집중되어 있어 해당 제품의 판매 동향이나 기술수출 성과에 실적 변동성이 큽니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "뇌전증 분야의 혁신 신약 개발에 집중해 왔습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "세노바메이트의 매출이 6,830억원으로 전체 매출의 96.7%를 차지하였습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "대부분의 국가에 기술수출 계약을 체결하는 성과를 거두었습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5660,
+    "completion_tokens": 3352,
+    "reasoning_tokens": 2624,
+    "output_tokens": 728
+  },
+  "warnings": []
+}

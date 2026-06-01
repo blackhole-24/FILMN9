@@ -1,0 +1,71 @@
+{
+  "stock_code": "352480",
+  "corp_name": "씨앤씨인터내셔널",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:38",
+  "meta": {
+    "wics": "화장품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "씨앤씨인터내셔널은 색조화장품을 전문적으로 개발·생산하는 ODM(제조업자 개발생산) 기업입니다. 설립 초기에는 눈화장용 펜슬을 중심으로 시작했으며, 이후 립스틱·립틴트로 품목을 넓히면서 국내외 브랜드 고객을 확보해 온 회사입니다. 2025년에는 창사 이래 최대 실적을 다시 경신했다고 제시되어 있습니다.",
+    "business_model": "씨앤씨인터내셔널은 100% ODM 방식만 운영하며, 자체 기획을 원칙으로 상품기획부터 개발, 생산, 품질관리, 출하까지 전 과정을 수행합니다. FY2025 기준 화장품사업이 63.6%, 눈화장용제품이 14.1%, 베이스용제품이 20.8%, 기타가 1.5%로 구성되어 있습니다. 초기에는 눈화장용 제품 중심이었지만, 현재는 입술화장용 제품과 함께 다양한 색조 제품군으로 사업영역을 넓혀가고 있습니다.",
+    "main_customers": "화장품사업 — 국내외 브랜드사 / 눈화장용제품 — 국내의 중저가 브랜드 / 베이스용제품 — 국내외 화장품 브랜드사 / 기타 — 브랜드사 및 관련 고객",
+    "price_factors": [
+      {
+        "factor": "인디뷰티",
+        "detail": "인디 뷰티(독립 브랜드) 성장과 트렌드 변화가 빠를수록 ODM 수요가 늘어나 회사의 수주 확대에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "북미성장",
+        "detail": "북미 지역에서 신제형·신제품 출하가 본격화되면 해외 매출 증가에 직접적인 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "중국법인",
+        "detail": "중국법인의 흑자전환과 매출 확대는 전체 실적 개선과 수익성 회복에 중요한 변수입니다."
+      },
+      {
+        "factor": "환율변동",
+        "detail": "미국달러화 환율 변동은 국제 영업활동에서 발생하는 외환위험으로, 실적 변동성을 키울 수 있습니다."
+      },
+      {
+        "factor": "기술력",
+        "detail": "기획·개발·생산·품질관리 전반의 기술력은 후발 주자 진입 장벽을 높여 경쟁력 유지에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 색조화장품을 전문적으로 개발하고 생산하는 색조화장품 전문 ODM 기업입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 영업 특성 상 자체 기획을 원칙으로 하고 있기 때문에 100% ODM 방식만을 운영하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "화장품사업: 183,351 (63.6%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "국내의 중저가 브랜드들이 주요 고객이었습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5275,
+    "completion_tokens": 814,
+    "reasoning_tokens": 0,
+    "output_tokens": 814
+  },
+  "warnings": []
+}

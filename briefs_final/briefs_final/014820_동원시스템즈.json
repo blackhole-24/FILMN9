@@ -1,0 +1,71 @@
+{
+  "stock_code": "014820",
+  "corp_name": "동원시스템즈",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 21:34",
+  "meta": {
+    "wics": "포장재",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "동원시스템즈는 1980년 설립된 종합포장재 전문기업으로, 40년 이상의 업력을 바탕으로 국내 종합포장재 1위의 위상을 유지하고 있습니다. 북미·남미·유럽·동남아시아 등 전 세계에 포장재를 수출하며, 이차전지 소재(양극박·원통형캔) 등 신성장동력으로 사업 다각화를 진행하고 있습니다.",
+    "business_model": "주요 사업은 포장과 상품으로 구성되며, FY2025 기준 영업수익은 포장 87.6%, 상품 16.9%로 보고되었습니다. 포장 부문은 연포장재·식품·음료캔·유리병·PET병·알미늄호일·필름·종이박스·2차전지 소재 등을 포함하며, 기술력과 수출 중심의 제안 영업으로 부가가치를 창출합니다.",
+    "main_customers": "포장 — 식품·음료 제조업체(글로벌 음료기업 포함) / 상품 — 국내외 유통·무역업체",
+    "price_factors": [
+      {
+        "factor": "원자재가격",
+        "detail": "원자재 가격 변동은 포장재의 원가와 영업이익에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "환율",
+        "detail": "수출 비중 확대에 따라 미화(USD) 변동과 파생상품을 통한 환헤지 효과가 실적 변동성에 영향을 줍니다."
+      },
+      {
+        "factor": "전방수요",
+        "detail": "전방시장의 수요 감소는 포장 제품 판매와 영업이익에 하방 압력을 줄 수 있습니다."
+      },
+      {
+        "factor": "기술경쟁",
+        "detail": "고품질·고기능 제품 개발은 가격 상승 요인이지만, 경쟁심화 시 가격 하락 압력으로 전환될 수 있습니다."
+      },
+      {
+        "factor": "환경규제",
+        "detail": "폐기물·대기·수질·화학물질 관련 규제 준수 비용과 관리 의무가 제조 원가와 운영에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 > 지배기업의 개요",
+        "evidence_text": "1980년 5월 10일자로 설립되어"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "포장: 1,202,207 (87.6%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "글로벌 음료 기업들이 요구하는 공급망 안정성"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "환율변동 영향",
+        "evidence_text": "파생상품 통화선도계약을 통하여 환위험관리를 hedge하고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5298,
+    "completion_tokens": 4524,
+    "reasoning_tokens": 3776,
+    "output_tokens": 748
+  },
+  "warnings": []
+}

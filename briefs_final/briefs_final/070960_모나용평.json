@@ -1,0 +1,67 @@
+{
+  "stock_code": "070960",
+  "corp_name": "모나용평",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 05:20",
+  "meta": {
+    "wics": "호텔,레스토랑,레저",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "모나용평은 2000년 2월 7일 설립된 리조트 운영회사로, 호텔·콘도미니엄·스키장·골프장 등 종합휴양지 운영과 콘도미니엄 및 골프장 회원권 분양을 주요사업으로 영위합니다. 강원도 평창군 대관령면과 충청남도 보령시 웅천읍에 휴양지를 보유하고 있으며, 2016년 유가증권시장에 상장했고 2024년 현재 사명을 모나용평 주식회사로 변경했습니다.",
+    "business_model": "FY2025 기준 사업부문별 영업수익은 운영수입이 62.5%, 분양수입이 37.5%를 차지합니다. 운영부문은 스키 리조트 중심의 숙박·레저·부대시설(스키·골프·워터파크 등) 운영에서, 분양부문은 콘도미니엄 및 골프장 회원권 분양에서 수익을 창출합니다.",
+    "main_customers": "운영수입 — 숙박·레저 이용 고객(국내·외 관광객) / 분양수입 — 콘도미니엄·골프장 회원권 구매자",
+    "price_factors": [
+      {
+        "factor": "계절성",
+        "detail": "동계 성수기(스키) 및 기온·강설량 변화에 따라 실적이 크게 변동합니다."
+      },
+      {
+        "factor": "자본부담",
+        "detail": "대규모 시설투자와 유지보수 등 고정비 부담이 실적과 현금흐름에 영향을 줍니다."
+      },
+      {
+        "factor": "수요민감성",
+        "detail": "경기·소비심리·국내외 여행수요 변동 시 집객과 매출에 직격탄을 받을 수 있습니다."
+      },
+      {
+        "factor": "분양시장",
+        "detail": "분양수입 비중(37.5%)이 커 분양시장 침체 시 매출 변동성이 커질 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "라. 지배기업의 개요",
+        "evidence_text": "리조트 운영과 콘도미니엄 및 골프장의 회원권 분양을 주요사업으로 영위"
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "운영수입: 90,128 (62.5%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "분양수입: 93,791 (37.5%)"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 업계의 현황 (1) 산업의 특성 (가) 리조트 운영사업",
+        "evidence_text": "동계 시즌의 매출 비중이 상대적으로 높은 특성"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4569,
+    "completion_tokens": 3953,
+    "reasoning_tokens": 3200,
+    "output_tokens": 753
+  },
+  "warnings": []
+}

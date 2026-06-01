@@ -1,0 +1,83 @@
+{
+  "stock_code": "223310",
+  "corp_name": "사토시홀딩스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 12:44",
+  "meta": {
+    "wics": "식품과기본식료품소매",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "사토시홀딩스는 자사 브랜드를 포함한 건강기능식품을 중심으로 온라인 커머스를 주력으로 하는 유통업체로, 여성 속옷·의류, 반영구화장·스킨케어, 무인항공기(드론) 등 다각적 사업을 운영하고 있습니다. 2025년말 연결 기준 총자산은 약 691억원이며, 같은 기간 부채비율이 289.8%로 기재되어 있어 재무구조 개선이 과제로 표기되어 있습니다.",
+    "business_model": "핵심은 온라인 미디어 커머스로 자사 브랜드(웰로리아) 중심의 건강기능식품을 기획·판매하는 것이며, 여성 위생팬티(브랜드: 쿠프), 반영구화장·스킨케어(브랜드: 뷰티상회), 드론 및 무인비행장치 개발, 자회사 통한 F&B·공연기획 등 다양한 사업 부문을 통해 수익원을 확보하고 있습니다. 사업부문별 매출 비율은 공시된 형태로 제공되지 않아 구체적 비중은 명시되어 있지 않습니다.",
+    "main_customers": "온라인커머스 — 온라인 소비자(건강·웰빙 관심층) / 여성 속옷 및 의류 — 초경 청소년·가임기 여성·출산·완경·요실금 등 다양한 연령대의 여성 / 반영구화장·스킨케어 — 뷰티·에스테틱 이용 소비자 및 관련 교육 참가자 / 무인항공기(드론) — 글로벌 기업 및 방산·보안 기관(시장 진출 대상)",
+    "price_factors": [
+      {
+        "factor": "온라인 비중",
+        "detail": "건강기능식품 유통에서 인터넷몰 비중이 높은 만큼 온라인 채널 성장과 플랫폼 경쟁이 실적에 직접적 영향을 미칩니다."
+      },
+      {
+        "factor": "시장 성장",
+        "detail": "국내 건강기능식품 시장의 꾸준한 성장(규모 확장)은 주요 제품군의 매출 확대에 우호적입니다."
+      },
+      {
+        "factor": "제품 품질",
+        "detail": "제품 품질·안전성에 대한 소비자 신뢰가 매출과 브랜드 가치에 직결되므로 품질 관리가 중요합니다."
+      },
+      {
+        "factor": "신사업 비용",
+        "detail": "드론 등 신사업 추진에 따른 판관비 증가와 투자비용은 단기 실적에 부담으로 작용할 수 있습니다."
+      },
+      {
+        "factor": "친환경 트렌드",
+        "detail": "제로웨이스트·안전성 관심 증가는 고기능성·친환경 위생팬티 수요에 긍정적 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업의 개황",
+        "evidence_text": "온라인커머스를 주력사업으로 하고 있으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업의 개황",
+        "evidence_text": "자사브랜드(웰로리아) 제품으로는"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업의 개황",
+        "evidence_text": "자사브랜드 '쿠프(KHUF)' 를 통해"
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업의 개황",
+        "evidence_text": "양자보안(PQC) 기반 드론 플랫폼 'ARGUS-Q™'가 혁신상을 수상하며"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "당사의 총자산은 2025년말 현재 약 691억원으로 전년대비 약96% 증가하였습니다."
+      },
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "부채비율 289.8%, 유동비율 49.7%로 보여지나"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4371,
+    "completion_tokens": 4382,
+    "reasoning_tokens": 3392,
+    "output_tokens": 990
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

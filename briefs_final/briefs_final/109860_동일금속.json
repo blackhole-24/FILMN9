@@ -1,0 +1,67 @@
+{
+  "stock_code": "109860",
+  "corp_name": "동일금속",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 13:00",
+  "meta": {
+    "wics": "기계",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "동일금속은 건설기계장비 부품을 전문 생산하는 제조업체로, 크롤러 크레인용 트랙슈 어셈블리·텀블러·아이들러와 굴삭기용 어드져스트 컴포넌트·트랙스프링 어셈블리 등을 주생산품으로 합니다. 주로 일본·미국 등 해외 완성차·건설기계사에 수출하는 비중이 높습니다.",
+    "business_model": "사업부문별로 2025년 매출 기준 크롤러크레인용 제품이 약 45.7%, 굴삭기용 아이들러·트랙스프링·콘트롤로드가 약 36.6%, 초대형 굴삭기용 트랙슈가 약 12.8%, 굴삭기 BOOM류가 약 4.9%를 차지합니다. 수익은 수출 비중이 큰 구조로, 품질·가격·적기공급(Quality, Cost, Delivery)이 경쟁우위 요인입니다.",
+    "main_customers": "크롤러크레인용 부품 — 일본·미국의 크롤러 크레인 제작사(예: 히타치 등) / 굴삭기용 부품 — 국내 굴삭기 제조업체 3사(HD현대건설기계, 볼보건설기계 코리아, HD현대인프라코어) 및 일본·미국 등 해외 제조사",
+    "price_factors": [
+      {
+        "factor": "수출 의존도",
+        "detail": "수출 비중이 높아 해외 수요 감소(특히 일본향 수출 약세)는 매출에 즉각적 영향을 줍니다."
+      },
+      {
+        "factor": "원자재·광물",
+        "detail": "원자재 가격 하락과 광산장비 가동률 변동은 수요 및 원가 구조에 동시에 영향을 미칩니다."
+      },
+      {
+        "factor": "중국산 경쟁",
+        "detail": "중국산 저가 크롤러 크레인의 증가로 기존 일본향 수출 수요가 감소하는 영향이 있습니다."
+      },
+      {
+        "factor": "시장 구조(품질 기준)",
+        "detail": "트랙슈 등은 높은 품질·내구성이 요구되어 진입장벽이 높고, 이에 따른 납기·품질 경쟁이 실적 변수입니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 사업의내용",
+        "evidence_text": "당사는 현재 건설기계장비 부품전문생산업체로서"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "■ 사업부문별 매출 (단위: 백만원)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 사업의내용",
+        "evidence_text": "굴삭기용 부품은 국내 굴삭기 제조업체 3사와 해외 제조업체 4개사에 공급하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "1. 업계 현황 (1) 수급상황",
+        "evidence_text": "지속적인 원자재의 가격 하락과 광산장비의 가동률 저하"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5779,
+    "completion_tokens": 3882,
+    "reasoning_tokens": 3072,
+    "output_tokens": 810
+  },
+  "warnings": []
+}

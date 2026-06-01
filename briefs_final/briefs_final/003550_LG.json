@@ -1,0 +1,67 @@
+{
+  "stock_code": "003550",
+  "corp_name": "LG",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 18:33",
+  "meta": {
+    "wics": "복합기업",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "㈜LG는 공정거래법상 지주회사로, LG전자·LG화학·LG유플러스를 포함한 총 9개의 국내 자회사를 보유하고 있습니다. 2025년 연결기준 매출은 7조 2,525억원, 영업이익은 9,122억원을 기록했습니다.",
+    "business_model": "지주회사(다른 회사의 주식을 소유하는 회사)로서 별도 기준 영업수익은 자회사 및 투자회사로부터의 배당수익, 상표권 사용수익, 임대수익 등으로 구성됩니다(배당금수익 44.0%, 상표권 사용수익 39.4%, 임대수익 등 16.6%). FY2025 기준 사업부문별 영업수익 구성은 지주회사 11.0%, IT서비스 81.0%, 부동산 자산관련종합서비스 3.0%, (주)디앤오씨엠 1.0%, 교육 및 경영자문 3.0%, 스포츠구단 운영 1.0%입니다.",
+    "main_customers": "지주회사(별도) — 자회사 및 기타 투자회사 / IT서비스 — 기업(클라우드·AI 도입·활용을 추진하는 고객사)",
+    "price_factors": [
+      {
+        "factor": "AI 전환수요",
+        "detail": "기업의 AI 전환(AX) 수요가 늘어나면 IT서비스 매출과 장기 계약 기회가 확대될 가능성이 있습니다."
+      },
+      {
+        "factor": "IT 투자 경기",
+        "detail": "전통적으로 IT서비스는 경기 민감도가 있어 기업의 투자 축소 시 매출이 줄어들 수 있습니다."
+      },
+      {
+        "factor": "자회사 실적",
+        "detail": "별도 영업수익의 상당 부분이 자회사 배당·상표권 수익에 의존하므로 자회사 실적 변동이 수익에 직접 영향을 미칩니다."
+      },
+      {
+        "factor": "보안·인프라 수요",
+        "detail": "생성형 AI 등 신기술 도입에 따라 정보보안·인프라 관련 서비스 수요가 증가하면 IT서비스 부문의 수익 기회가 확대됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "총 9개의 국내 자회사를 보유하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황",
+        "evidence_text": "배당금수익 44.0%, 상표권 사용수익 39.4%"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성 (FY2025)",
+        "evidence_text": "IT서비스: 5,449,271 (81.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "IT 서비스 부문 (대상회사 : LG씨엔에스) > 클라우드&AI",
+        "evidence_text": "기업의 클라우드/AI 도입과 활용은"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5344,
+    "completion_tokens": 4787,
+    "reasoning_tokens": 4032,
+    "output_tokens": 755
+  },
+  "warnings": []
+}

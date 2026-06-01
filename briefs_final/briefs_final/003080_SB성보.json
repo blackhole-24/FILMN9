@@ -1,0 +1,62 @@
+{
+  "stock_code": "003080",
+  "corp_name": "SB성보",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 18:22",
+  "meta": {
+    "wics": "화학",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "SB성보는 작물보호제 제조·판매를 주력으로 하며 임대수입과 카페매출 등을 영위하는 화학(작물보호제)기업입니다. 보고서에 따르면 당사의 2025년도 매출액은 637억원을 기록하였습니다. 시장 변화에 대응해 판매망과 기술개발을 통해 내수 경쟁력 강화를 추진하고 있습니다.",
+    "business_model": "주요 수익원은 작물보호제 제조판매로, 2025년 영업수익의 94.0%를 차지하며(작물보호제 94.0%), 임대수입이 3.4%, 기타매출(카페) 가 2.6%를 구성합니다. 매출은 춘·하절기에 집중되는 계절적 특성이 있고, 품질 개선과 신제품 개발을 통해 경쟁력 확보에 주력하고 있습니다.",
+    "main_customers": "작물보호제 — 농민을 상대로 하는 도·소매상 / 임대수입 — 임차인(임대고객) / 기타매출(카페) — 카페 이용 고객",
+    "price_factors": [
+      {
+        "factor": "계절성",
+        "detail": "춘·하절기에 매출이 집중되어 기상여건·병충해 발생에 따라 실적 변동성이 커집니다."
+      },
+      {
+        "factor": "수입개방",
+        "detail": "농수산물 수입 개방과 원제 수입자유화로 경쟁이 심화되면 시장점유율과 마진에 압박이 발생합니다."
+      },
+      {
+        "factor": "원자재가",
+        "detail": "원·부자재 가격 상승은 제품 원가를 높여 실적에 부정적 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "규제(PLS)",
+        "detail": "PLS(Positive list system) 등 규제 변화에 대응해 필요 작물 등록을 수행하지 못하면 판매 제약이 발생할 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 영업 현황",
+        "evidence_text": "작물보호제 제조판매, 임대수입, 카페매출"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "작물보호제 매출액: 59,848,979 (94.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 시장의 특성",
+        "evidence_text": "당사의 매출 주대상은 농민을 상대로 하는 도 ·소매상이며,"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4387,
+    "completion_tokens": 2975,
+    "reasoning_tokens": 2304,
+    "output_tokens": 671
+  },
+  "warnings": []
+}

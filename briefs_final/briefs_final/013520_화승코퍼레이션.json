@@ -1,0 +1,67 @@
+{
+  "stock_code": "013520",
+  "corp_name": "화승코퍼레이션",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 21:15",
+  "meta": {
+    "wics": "자동차부품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "화승코퍼레이션은 자동차용 고무부품을 중심으로 소재, 종합무역, 산업용품·방산부품 등 다양한 사업을 영위하는 기업입니다. 2025년 연결기준 총 매출액은 16,398억원이며 북남미·아시아(중국·베트남 등)·인도 등 해외 생산거점을 활용해 글로벌 수주경쟁에서 우위를 확보하고 있습니다.",
+    "business_model": "주력 사업은 Auto Parts Business(자동차부품)로, 2025년 매출은 Auto Parts Business 11,743억원(71.6%), Material Business 2,192억원(13.4%), General Trade Business 1,722억원(10.5%), Product Business 741억원(4.5%)으로 구성되어 있습니다. 자동차부품은 입찰에 의해 판매단가가 산정되며 원재료 가격·환율 영향이 크고, 회사는 고부가가치 자동차부품 연구개발과 글로벌 생산·공급체계 최적화를 통해 매출 비중 확대를 추진하고 있습니다.",
+    "main_customers": "Auto Parts Business — 완성차업체 / Material Business — 산업재 제조업체(원재료 수요처) / General Trade Business — 유통업체·제조업체(화학원자재·철강 등 구매처) / Product Business — 산업현장 및 관련 기업(산업용품·EF·방산부품 수요처)",
+    "price_factors": [
+      {
+        "factor": "경기변동",
+        "detail": "자동차 수요는 경기민감도가 높아 경기 하강 시 완성차 생산 감소로 부품 수요와 실적에 직접적인 영향을 받습니다."
+      },
+      {
+        "factor": "원자재·환율",
+        "detail": "원재료 가격 및 환율 변동은 판매단가와 원가에 영향을 주어 실적 변동성을 키웁니다."
+      },
+      {
+        "factor": "계절성",
+        "detail": "완성차의 가동일수 차이에 따라 분기별 매출에 계절적 편차가 발생합니다."
+      },
+      {
+        "factor": "품질·가격경쟁",
+        "detail": "부품 산업은 품질과 가격 경쟁력이 핵심 경쟁요소여서 기술·품질 우위가 수주 및 수익성에 유리합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "총 매출액 16,398억원"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "Auto Parts Business 11,743억원(71.6%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 업계의 현황",
+        "evidence_text": "수요자인 완성차업체"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "원재료 가격 및 환율 등의 변동이 판매단가에 영향을 주고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5472,
+    "completion_tokens": 3402,
+    "reasoning_tokens": 2624,
+    "output_tokens": 778
+  },
+  "warnings": []
+}

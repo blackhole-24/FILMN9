@@ -1,0 +1,73 @@
+{
+  "stock_code": "303360",
+  "corp_name": "프로티아",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 15:42",
+  "meta": {
+    "wics": "건강관리장비와용품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "프로티아는 면역진단 핵심기술을 바탕으로 체외진단 의료기기를 개발·제조·판매하는 기업입니다. 인체용 및 동물용 알레르기 진단제품을 주력으로 국내외에 공급하며, 국내 알레르기 진단 시장에서 높은 점유율을 확보하고 있습니다. 현재 해외 80개국에 거래처를 보유하고 있습니다.",
+    "business_model": "주요 수익원은 인체용·동물용 알레르기 진단시약 및 진단장비 판매와 제품매출, 진단장비, 용역매출, 기타매출 등으로 구성되어 있습니다. 모든 제품을 자체 생산하여 국내는 대리점 경로로 병원·수탁기관에 공급하고, 해외는 현지 Agent(Distributor)를 통해 제품등록 후 판매합니다. 또한 기업부설연구소를 중심으로 국책과제 및 신제품 개발을 통해 파이프라인을 확대하고 있습니다.",
+    "main_customers": "제품매출 — 국내 대형 의료재단(수탁기관) 및 대형 종합병원 / 진단장비 — 검사를 직접 처방하는 의사 및 의료기관 / 해외판매(기타매출) — 각국 Agent(Distributor)",
+    "price_factors": [
+      {
+        "factor": "해외등록지연",
+        "detail": "국가별 제품등록이 선행되어야 수출이 가능하고, 국가에 따라 3개월~3년 소요로 수출 시점과 매출에 직접 영향"
+      },
+      {
+        "factor": "해외매출비중",
+        "detail": "해외 매출 비중(기준연도 당기 총매출 대비 약 51.7%) 변동이 실적에 큰 영향을 미침"
+      },
+      {
+        "factor": "신제품개발",
+        "detail": "지속적 R&D와 신제품 출시(항생제 감수성 검사, POCT 등)는 제품 라인업과 매출 성장에 직결"
+      },
+      {
+        "factor": "규제·허가",
+        "detail": "국내는 식약처 허가, 해외는 각국 등록 절차가 필요하여 허가 지연 시 판매 제약 발생"
+      },
+      {
+        "factor": "브랜드·학회홍보",
+        "detail": "전시회·학회 참가와 상표권 등록을 통한 마케팅은 거래처 확보 및 해외 파트너 발굴에 영향을 줌"
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 사업의 내용 요약",
+        "evidence_text": "당사는 모든 제품을 자체적으로 총괄 생산하여 국내외 시장에 제품을 공급하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "다. 주요 출시제품 현황",
+        "evidence_text": "당사는 인체용 및 동물용 알레르기 진단시약과 진단장비를 주력 제품으로 판매하고 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 사업의 내용 요약",
+        "evidence_text": "대리점을 통해 국내 대형 의료재단(수탁기관) 및 대형 종합병원에 납품을 하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "당기 총매출액 대비 해외 매출액은 약 51.7%입니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 5382,
+    "completion_tokens": 5186,
+    "reasoning_tokens": 4352,
+    "output_tokens": 834
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

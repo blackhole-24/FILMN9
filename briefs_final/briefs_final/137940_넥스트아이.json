@@ -1,0 +1,67 @@
+{
+  "stock_code": "137940",
+  "corp_name": "넥스트아이",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 09:55",
+  "meta": {
+    "wics": "화장품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "넥스트아이는 디스플레이용 검사장비와 화장품을 주요 사업으로 하는 기업으로, FY2025 기준 매출의 대부분이 화장품에서 발생합니다. 사업보고서상 화장품 비중이 매우 높아 제품·유통(온라인·면세 등) 중심의 매출 구조를 보입니다.",
+    "business_model": "사업부문은 디스플레이용 편광필름검사장비(2.6%), 3차원 측정기등(6.3%), 화장품(91.0%)으로 구성되어 있으며, 화장품이 핵심 매출원(91.0%)입니다. 디스플레이 장비·측정기 부문은 패널사 등 제조업체 대상의 장비·검사 솔루션을 제공하는 구조입니다.",
+    "main_customers": "디스플레이용 편광필름검사장비 — 패널업체(수직계열화된 전방업체) / 3차원 측정기등 — 제조업체(장비 수요처) / 화장품 — 온라인·해외 소비자(면세·크로스보더 채널 중심)",
+    "price_factors": [
+      {
+        "factor": "전방산업 의존도",
+        "detail": "디스플레이 장비 부문은 패널업체 수요에 크게 의존하므로 패널사 투자·수요 변동이 실적에 직접적 영향을 미칩니다."
+      },
+      {
+        "factor": "경기 민감도",
+        "detail": "LCD·부품 산업은 경기변동에 민감해 경기 둔화 시 장비 수요가 감소하여 실적 하방 위험이 커집니다."
+      },
+      {
+        "factor": "유통 채널 변화",
+        "detail": "화장품은 온라인·면세·크로스보더 채널 비중 확대에 따라 해당 채널의 수요 변동이 매출에 큰 영향을 줍니다."
+      },
+      {
+        "factor": "경쟁 심화·트렌드",
+        "detail": "화장품 시장의 빠른 트렌드 변화와 신생 브랜드 증가로 경쟁이 심화되며 제품·마케팅 경쟁력 유무가 실적을 좌우합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "화장품: 109,316,658 (91.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "디스플레이용 편광필름검사장비: 3,129,909 (2.6%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 산업의 특성(2) LCD부품산업의 특성",
+        "evidence_text": "패널업체를 기준으로 수직계열화가 이루어져 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 산업의 특성(4) 화장품 산업의 특성",
+        "evidence_text": "해외 면세 화장품 시장 또한 꾸준히 성장하고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3517,
+    "completion_tokens": 6533,
+    "reasoning_tokens": 5760,
+    "output_tokens": 773
+  },
+  "warnings": []
+}

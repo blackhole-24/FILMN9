@@ -1,0 +1,71 @@
+{
+  "stock_code": "0007C0",
+  "corp_name": "아크릴",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 17:02",
+  "meta": {
+    "wics": "IT서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "아크릴은 AI 개발 전 과정을 지원하는 인프라 기술과 서비스 구축 기술을 제공하는 AX 인프라 전문 기업입니다. 통합 인공지능 플랫폼 '조나단'과 의료특화 인공지능 플랫폼 '나디아'를 통해 헬스케어·공공 등 산업별 AI 솔루션을 제공하며, 국가 주도의 대형 의료 AI 과제를 수행하는 등 헬스케어 분야에서 강점을 보유하고 있습니다.",
+    "business_model": "주요 제품은 통합 인공지능 플랫폼 조나단(구성: GPU베이스, 모델베이스, 에이전트베이스)과 의료특화 플랫폼 나디아(구성: 코어, 에스더)로, 데이터 수집·전처리부터 모델 개발·배포·운영까지 전 과정을 서비스(컨설팅·운영지원·유지보수 포함) 형태로 제공합니다. 사업부문별 영업수익 구성은 2024년 (46.8%), 2023년 (18.9%)으로 표기되어 있습니다.",
+    "main_customers": "조나단 — 공공기관·의료·제약·F&B 등 산업특화 고객 / 나디아 — 국내 병원·해외 중저소득국 의료기관 / AI 인프라 솔루션 — 제조·금융·소매·자동차 등 기업 고객 및 데이터센터 운영자",
+    "price_factors": [
+      {
+        "factor": "정부 투자",
+        "detail": "정부의 AI 인프라 투자 확대는 대형 국책사업 수주와 플랫폼 적용 확대를 통한 매출 성장 기회를 늘립니다."
+      },
+      {
+        "factor": "대기업 인프라 내재화",
+        "detail": "네이버·카카오 등 ICT 대기업의 자체 데이터센터·AI 인프라 확장은 경쟁 심화와 수요 구조 변화를 야기할 수 있습니다."
+      },
+      {
+        "factor": "구축 비용 부담",
+        "detail": "GPU 등 특화 하드웨어와 숙련 인력 필요로 인한 높은 구현 비용은 고객 도입 속도를 제약할 수 있습니다."
+      },
+      {
+        "factor": "AI 반도체·효율 기술",
+        "detail": "AI 반도체 및 에너지 효율 개선 노력이 확산되면 인프라 운영 비용 절감과 기술적 차별화 기회가 생깁니다."
+      },
+      {
+        "factor": "국내·글로벌 격차",
+        "detail": "국내 인프라 수준이 선진국 대비 낮은 점은 정부·민간의 추가 투자로 기회를 제공하나 단기적 제약 요인이 될 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "AX 인프라 전문 기업입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "2024년 (46.8%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황 (1) 조나단(JONATHAN)",
+        "evidence_text": "공공기관을 비롯해 의료, 제약ㆍ바이오, F&B"
+      },
+      {
+        "field": "financials",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "133.1억원을 기록하였습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5691,
+    "completion_tokens": 3900,
+    "reasoning_tokens": 3072,
+    "output_tokens": 828
+  },
+  "warnings": []
+}

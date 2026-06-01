@@ -1,0 +1,66 @@
+{
+  "stock_code": "158430",
+  "corp_name": "아톤",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:22",
+  "meta": {
+    "wics": "소프트웨어",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "아톤은 1999년 설립된 핀테크 인증·보안 솔루션 기업입니다. 2000년 국내 최초로 모바일증권거래서비스(MTS)를 개발해 증권사에 공급했고, 이후 소프트웨어형 보안매체와 간편인증 솔루션으로 국내 금융권에서 입지를 넓혀왔습니다.",
+    "business_model": "사업부문별 영업수익은 서비스가 45.4%로 가장 크고, 기타가 53.5%, 제품이 1.1%를 차지합니다. 핵심은 보안매체(Secure Element)를 기반으로 모바일OTP, 사설인증서, 양자내성암호(PQC) 기반 인증 솔루션 등을 금융기관과 플랫폼 사업자에 제공하는 것이며, PASS인증서와 AICC(인공지능 기반 상담 서비스) 같은 플랫폼·클라우드 서비스도 함께 운영합니다. 주요 고객의 이용 과정에서 발생하는 매출을 플랫폼 사업자와 일정 비율로 분배하는 구조도 포함됩니다.",
+    "main_customers": "핀테크 보안 솔루션 — 신한, NH농협, KB국민, 하나, IBK 등 대형 은행과 신한금융투자, 한국투자증권, 삼성증권 등 주요 증권사 / 핀테크 플랫폼 — 통신 3사 PASS 이용자 / 스마트금융 — 국내 주요 금융기관 및 모바일 인증·보안 인프라가 필요한 기업 고객 / 티머니 솔루션 — 국내 1위 교통카드 티머니 이용 환경",
+    "price_factors": [
+      {
+        "factor": "비대면인증",
+        "detail": "온라인·모바일뱅킹이 확대될수록 간편하게 발급·이용할 수 있는 인증 솔루션 수요가 늘어 실적에 영향을 줍니다."
+      },
+      {
+        "factor": "보안투자",
+        "detail": "금융기관의 IT·보안 투자 확대가 이어지면 인증·보안 솔루션 도입 여건이 좋아질 수 있습니다."
+      },
+      {
+        "factor": "보안사고",
+        "detail": "대형 보안사고가 발생하면 보안 투자 필요성이 커져 정보보호 관련 수요가 늘어나는 경향이 있습니다."
+      },
+      {
+        "factor": "AI클라우드",
+        "detail": "AI 기반 클라우드 보안관제와 피싱방어 솔루션이 본격적으로 매출에 기여할수록 사업 확장 기대가 커질 수 있습니다."
+      },
+      {
+        "factor": "양자보안",
+        "detail": "양자내성암호(PQC) 기반 차세대 인증 솔루션의 도입 확대는 회사의 신사업 성과와 연결됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 1999년 설립한 핀테크 인증/보안 솔루션 기업입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "■ 사업부문별 영업수익 구성 (FY2025)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "주요 고객사로는 신한, NH농협, KB국민, 하나, IBK 등"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4884,
+    "completion_tokens": 818,
+    "reasoning_tokens": 0,
+    "output_tokens": 818
+  },
+  "warnings": []
+}

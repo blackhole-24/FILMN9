@@ -1,0 +1,69 @@
+{
+  "stock_code": "452450",
+  "corp_name": "피아이이",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 19:58",
+  "meta": {
+    "wics": "IT서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "피아이이는 AI 기반 제조지능화(Manufacturing Intelligence) 솔루션을 개발·판매하는 기업으로, 제조 현장의 검사·공정·설비 데이터를 수집·분석해 품질관리와 운영효율 개선을 지원합니다. AI 비전 검사와 데이터 기반 스마트팩토리 솔루션을 중심으로 장비·시스템 통합형 모델로 사업영역을 확장하고 있습니다.",
+    "business_model": "핵심 사업은 AI 비전 솔루션(이차전지 등 제조 공정의 결함 판별)과 데이터기반 스마트팩토리 솔루션(공정 모니터링·예측·MLOps 기반 운영)이며, 기존 소프트웨어형에서 장비·시스템 통합형(피지컬 AI) 사업모델 확대를 검토하고 있습니다. [사업부문별 매출 구성]에는 제품·용역·상품·AI 솔루션이 주요 부문으로 기재되어 있으나 비율은 불명확합니다 (비율 미제공).",
+    "main_customers": "AI 비전 솔루션 — 이차전지 제조사 / 데이터기반 스마트팩토리 — 반도체·디스플레이·자동차 등 제조사(글로벌 제조사 포함) / 장비·시스템 통합형 솔루션 — 유리기판·PCB 밸류체인 내 제조사",
+    "price_factors": [
+      {
+        "factor": "전방산업 투자",
+        "detail": "전기차·이차전지 등 전방산업의 투자 둔화는 수요 지연으로 매출과 실적에 부정적 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "고도화된 검사 수요",
+        "detail": "첨단 패키징·고사양 PCB·반도체 공정의 고정밀 검사 수요 확대는 고부가가치 솔루션 매출 확대에 긍정적 요인입니다."
+      },
+      {
+        "factor": "품질·안전 규제",
+        "detail": "글로벌 안전 규제와 품질 인증 강화는 고성능 AI 검사 솔루션의 도입을 촉진해 수혜로 작용할 수 있습니다."
+      },
+      {
+        "factor": "제품·구성 다양성",
+        "detail": "고객사별 공정·사양 차이에 따른 가격 편차는 매출 예측과 마진 관리에 변수로 작용합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "당사는 AI 기반 제조지능화(Manufacturing Intelligence)를 제조 현장에서 생성되는 검사, 공정, 설비 데이터를 수집, 분석하여 품질 관리 및 운영 효율 개선을 지원하는 솔루션 영역으로 정의하고, 관련 솔루션을 개발, 판매하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황",
+        "evidence_text": "당사는 기존 소프트웨어 중심 사업 구조를 기반으로 현장 적용성과 사업 확장성을 고려한 장비, 시스템 통합형 사업모델 확대를 검토하고 있으며, AI(Artificial Intelligence) 기반 분석 역량과 현장 적용 경험을 바탕으로 적용 산업의 다변화를 추진하고 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "나. 시장 개요 (1) AI 기반 제조지능화 시장",
+        "evidence_text": "대표적인 전방 산업으로는 AI 산업 확산의 직접적인 수혜를 받고 있는 유리기판, 고사양 PCB, 반도체, 오토모티브(자동차) 및 이차전지 등 첨단 제조업 분야가 있습니다."
+      },
+      {
+        "field": "company_financials",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "2025년 실적으로는 매출액 약 651억원, 영업손실 약 212억원, 그리고 약 246억원의 당기순손실이 발생하였으며, 당사의 실적 및 자산현황과 관련한 자세한 사항은 'Ⅲ.재무에 관한 사항- 3. 연결재무제표 주석'을 참조하여 주시기 바랍니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 5298,
+    "completion_tokens": 4136,
+    "reasoning_tokens": 3136,
+    "output_tokens": 1000
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "stock_code": "019570",
+  "corp_name": "플루토스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 22:28",
+  "meta": {
+    "wics": "창업투자",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "플루토스는 1986년(86년 11월) 설립된 창업투자·신기술사업금융업 계열 회사로, 중소·벤처기업에 대한 투자·융자와 경영지원을 영업의 핵심으로 하고 있습니다. 최근 사업을 신기술사업금융업으로 전환하면서 신기술사업자에 대한 지분투자와 자금지원 등을 중심으로 운용하고 있습니다.",
+    "business_model": "주요 수익원은 신기술사업자에 대한 지분투자(주식인수)와 전환사채·신주인수권부사채 인수, 투자조합 출자 등 투자활동을 통해 자본이득을 실현하는 구조이며, 포트폴리오 기업에 대한 융자·경영·기술지도 등 종합지원도 수행합니다. 보고서에 따르면 향후 투자 형태로 주식인수, 전환사채 인수, 신주인수권부사채 인수, 투자조합 출자 및 기투자 기업에 대한 자금 지원 등을 계획하고 있습니다.",
+    "main_customers": "지분투자·융자 — 기술성·사업화 단계의 중소 신기술사업자(벤처) / 경영·기술지도 — 창업기업 및 중소기업 / 자금조달·조합관리 — 투자조합 및 정책자금 관련 주체",
+    "price_factors": [
+      {
+        "factor": "증시환경",
+        "detail": "포트폴리오 주식의 매각(엑시트)으로 자본이득을 실현하기 때문에 증시 호황·부진이 실적에 직접적 영향을 줍니다."
+      },
+      {
+        "factor": "자금조달",
+        "detail": "투자조합 결성·정책자금·회사채 등 자금조달 여건이 투자 여력과 운용규모에 영향을 미칩니다."
+      },
+      {
+        "factor": "경쟁심화",
+        "detail": "신기술사업금융업 및 창업투자회사 수가 증가하면 유망 딜 확보 경쟁이 심화되어 투자성과에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "경기변동",
+        "detail": "전반적인 경기 및 증시 변동성이 클수록 포트폴리오 기업의 상장·매각 시점과 가격에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "당사는 중소기업 창업지원을 목적으로 86년 11월 설립되어"
+      },
+      {
+        "field": "business_model",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "당사는 향후 신기술사업자에 대한 투자를 주식인수, 전환사채 인수, 신주인수권부사채 인수,"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "연결기준 매출액 129억원, 영업이익 33.1억원"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 업계의 현황 (4) 산업의 성장성",
+        "evidence_text": "자본이득이 회사수익의 상당부분을 차지"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 업계의 현황 (7) 경쟁요소",
+        "evidence_text": "등록회사는 2019년 12월말 현재 113개사로 매년 증가추세에 있습니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 3950,
+    "completion_tokens": 3980,
+    "reasoning_tokens": 3072,
+    "output_tokens": 908
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

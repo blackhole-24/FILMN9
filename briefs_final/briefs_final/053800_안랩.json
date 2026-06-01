@@ -1,0 +1,72 @@
+{
+  "stock_code": "053800",
+  "corp_name": "안랩",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 03:17",
+  "meta": {
+    "wics": "소프트웨어",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "안랩은 국내에서 오랜 역사와 규모를 갖춘 통합보안(정보보안) 기업으로, 자체 개발한 솔루션과 보안 서비스(컨설팅·관제)를 통해 시큐리티 라이프사이클(보안 수명주기)을 자체 역량으로 제공하는 점이 특징입니다. 제31기 연결기준 매출은 267,657백만원을 기록했습니다.",
+    "business_model": "주요 수익원은 보안 솔루션(소프트웨어·하드웨어)과 보안 관제·컨설팅 등 서비스이며, 제31기 기준 보안 솔루션·서비스(제품/서비스)가 매출의 약 94.0%를 차지하고 상품/기타가 약 6.0%를 차지합니다. 핵심 제품군으로는 V3 안티바이러스 제품군, 차세대 엔드포인트 보안(EPP), 위협 탐지·대응(EDR), EPS(생산라인 보안), APT 대응(MDS), 위협 인텔리전스(TI) 등이 있으며, 보안 컨설팅과 24시간 보안관제 서비스가 서비스 매출을 뒷받침합니다.",
+    "main_customers": "보안 솔루션 — 정보 네트워크 운영자(기업·기관) / 보안 관제서비스 — 기업의 IT 인프라 운영자 / 보안 컨설팅 — 정부·공공기관 및 기업(취약점 점검 대상) / 상품·기타 — 외부상품 관련 거래처 및 기타 고객",
+    "price_factors": [
+      {
+        "factor": "사이버위협",
+        "detail": "랜섬웨어·APT 등 사이버 공격 증가 시 솔루션·관제 수요가 증가하여 실적에 긍정적 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "AI공격",
+        "detail": "AI를 활용한 공격 고도화는 방어 기술 고도화와 추가 투자 수요를 유발해 비용과 제품 경쟁력에 영향을 줍니다."
+      },
+      {
+        "factor": "글로벌경쟁",
+        "detail": "국외 대형 벤더 및 클라우드·컨설팅 기업의 시장 진입은 가격·기술 경쟁을 심화시켜 수익성에 부담을 줄 수 있습니다."
+      },
+      {
+        "factor": "규제·공공수요",
+        "detail": "정부의 N²SF 등 보안 가이드라인 강화는 공공부문 수요 증가로 연결될 가능성이 있어 매출에 영향을 미칠 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 글로벌 통합보안 기업으로서 세계 수준의 기술력으로 개발한 솔루션과 전문적인 서비스 체계를 갖춘 기업입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "서비스 분야는 보안 컨설팅과 보안 관제 등이 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 제31기 연결 포괄손익계산서 기준 267,657백만원의 매출을 기록하였으며, 유형별 매출액은 다음 표와 같습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "보안관제는 기업 IT 인프라가 중단 없이 지속적으로 운용될 수 있도록 해킹을 비롯한 네트워크 침해 사고 여부를 24시간 모니터링 및 대응하는 서비스입니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "공급망 공격 역시 주요한 이슈입니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4553,
+    "completion_tokens": 4523,
+    "reasoning_tokens": 3584,
+    "output_tokens": 939
+  },
+  "warnings": []
+}

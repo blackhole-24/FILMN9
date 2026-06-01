@@ -1,0 +1,62 @@
+{
+  "stock_code": "466410",
+  "corp_name": "사이냅소프트",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 20:32",
+  "meta": {
+    "wics": "소프트웨어",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "사이냅소프트는 기업시장(B2B)과 공공 및 교육시장(B2G)을 대상으로 디지털 문서 처리와 Document AI 솔루션을 제공하는 소프트웨어 기업입니다. 2025년 매출액은 13,472백만원을 기록했으며, 7,000개 이상의 기업·기관에 제품을 공급하고 Google Workspace Marketplace를 통해 100만명 이상의 개인 사용자를 확보하고 있습니다.",
+    "business_model": "사업부문은 디지털 문서 솔루션이 82.7%와 디지털 문서 AI가 17.3%로 구성되어 있으며(사업부문별 영업수익 구성), 문서 뷰어·에디터·OCR·도큐애널라이저 등 제품을 기업·공공 솔루션의 핵심 구성요소(컴포넌트)로 공급해 라이선스·구축·서비스 수익을 창출합니다. 또한 SI 파트너 및 300여개 솔루션과 협력을 통해 대기업 계열사부터 중견기업까지 확장하고 있습니다.",
+    "main_customers": "디지털 문서 AI — 기업·공공기관·교육기관 / 디지털 문서 솔루션 — 대기업 계열사·중견기업·SI 파트너",
+    "price_factors": [
+      {
+        "factor": "대기업 도입",
+        "detail": "100대 대기업군 내 다수 그룹사 도입이 늘면 라이선스·유지보수 수익 증대로 실적에 긍정적 영향을 줍니다."
+      },
+      {
+        "factor": "신제품 출시",
+        "detail": "Kynapse와 AI Data Foundry 등 신제품 출시가 고객확대와 매출 성장에 직접적인 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "OCR 품질",
+        "detail": "TTA 인증 99.3%의 한글 인식률 등 높은 인식 성능은 공공·금융 분야 수주 경쟁력과 수익성에 영향을 줍니다."
+      },
+      {
+        "factor": "채널 의존",
+        "detail": "300여개 이상의 SI 파트너 및 플랫폼(예: Google Workspace) 채널을 통한 공급이 감소·확대되면 실적에 민감하게 작용합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 사업영역",
+        "evidence_text": "사이냅소프트는 기업시장(B2B)과 공공 및 교육시장(B2G)을 대상으로"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "디지털 문서 AI: 2,333,513 (17.3%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 사업영역",
+        "evidence_text": "7,000개 이상의 기업과 기관에 공급되고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4833,
+    "completion_tokens": 4154,
+    "reasoning_tokens": 3456,
+    "output_tokens": 698
+  },
+  "warnings": []
+}

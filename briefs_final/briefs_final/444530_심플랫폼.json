@@ -1,0 +1,72 @@
+{
+  "stock_code": "444530",
+  "corp_name": "심플랫폼",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 19:42",
+  "meta": {
+    "wics": "IT서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "심플랫폼은 산업 현장용 AI 전환(AX)을 위한 올인원 플랫폼 'NUBISON AX'를 운영하는 IT 서비스 기업으로, IoT 기반 데이터 수집부터 AI 분석·현장 적용까지 end-to-end(종단간) 솔루션을 제공합니다. 2025년 3월 21일 코스닥에 기술성장기업으로 상장하여 본격적인 사업화를 진행하고 있습니다.",
+    "business_model": "핵심 사업은 산업 특화 AX 플랫폼 'NUBISON AX'로 FY2025 영업수익의 100.0%를 차지합니다. NUBISON AX는 IoT, MLOps, SDA 기능을 통합한 올인원 구조로 클라우드 및 온프레미스(자체 서버) 방식을 모두 지원하며, 고객의 필요에 따라 개별 기능을 선택해 단계적으로 도입할 수 있도록 설계되어 초기 구축 부담을 낮추는 것이 특징입니다.",
+    "main_customers": "NUBISON AX — 제조(반도체·디스플레이·2차전지)·공공·헬스케어·농업·소매",
+    "price_factors": [
+      {
+        "factor": "정부 예산·정책",
+        "detail": "정부의 AI·산업 AX 예산 확대(예: 산업부 예산 증가)는 플랫폼 도입 수요 확대로 실적에 긍정적 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "제조업 수요",
+        "detail": "반도체·디스플레이 등 첨단 제조 공정의 AX 도입 확대는 레퍼런스 기반 수주 증가로 연결될 가능성이 큽니다."
+      },
+      {
+        "factor": "운영비용 구조",
+        "detail": "외주비·기술개발비·인건비 등 운영비 증가 시 영업이익에 부정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "플랫폼 확장성",
+        "detail": "클라우드·온프레미스 지원 및 모듈형 제공은 다양한 산업 환경 수요 수용으로 매출 기반 확대에 유리합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 이 모든 과정을 end to end로 제공하여 신속하고 효과적인 AX를 지원하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "NUBISON AX: 7,227,054 (100.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "주요 타깃 산업군(제조, 공공, 헬스케어, 농업, 소매)"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "2026년 산업부 예산은 9조 4,342억원으로 전년대비 약 18.8% 증가했습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "영업손실폭이 확대되었습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4636,
+    "completion_tokens": 4900,
+    "reasoning_tokens": 4096,
+    "output_tokens": 804
+  },
+  "warnings": []
+}

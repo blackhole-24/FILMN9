@@ -1,0 +1,71 @@
+{
+  "stock_code": "005500",
+  "corp_name": "삼진제약",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 19:15",
+  "meta": {
+    "wics": "제약",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "삼진제약은 일반의약품과 전문의약품, 원료의약품을 아우르는 포트폴리오를 바탕으로 제약시장에서 경쟁력을 유지하고 있는 제약기업입니다. 신약 연구개발에 집중하며 생산·설비 투자로 글로벌 수준의 제조역량을 확보하기 위해 노력하고 있으며, 2024년 6월 주사제 공장의 GMP 허가를 득하였습니다.",
+    "business_model": "사업부문별 매출은 제약(정제) 54.30%, 주사제 15.06%, 캡슐제 12.35%, 기타제형 1.42%, 상품(건강기능식품 등) 11.84%, 기타 5.03%로 구성되어 있으며 전체 매출은 309,134백만원입니다. 전문의약품(처방약) 중심의 매출 비중이 높아(전문의약품 매출 77.2%) 제약·원료·상품(건강기능식품·화장품)과 의료기기 등으로 포트폴리오를 확장하는 전략을 병행하고 있습니다.",
+    "main_customers": "제약(정제·주사제·캡슐제) — 병·의원(의료인) 및 약국(약사) / 상품(건강기능식품·화장품) — 일반 소비자 및 유통업체",
+    "price_factors": [
+      {
+        "factor": "약가·규제",
+        "detail": "의약품 허가·보험약가·지적재산권 등 정부정책과 규제가 매출과 마진에 직접적 영향을 줍니다."
+      },
+      {
+        "factor": "신약 R&D 성과",
+        "detail": "신약 연구개발의 성과와 특허 확보 여부가 기술적 경쟁력과 고마진 품목 확보에 결정적 영향을 미칩니다."
+      },
+      {
+        "factor": "고령화 수요",
+        "detail": "치매·만성질환 등 고령층 대상 치료제 수요 확대는 장기적 매출 성장의 주요 요인입니다."
+      },
+      {
+        "factor": "유통구조",
+        "detail": "의료행위·조제의 특성상 의사·약사 등 중간수요와 복잡한 유통구조가 제품 접근성과 판매에 영향을 줍니다."
+      },
+      {
+        "factor": "생산·허가 역량",
+        "detail": "EU-GMP 수준의 생산라인 및 GMP 허가 보유 여부가 해외진출과 고부가가치 품목 생산에 중요합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "이와 더불어 글로벌 기업으로 도약하기 위해 생산 및 설비 투자를 확대하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "전문의약품 매출은 전체 매출의 77.2%를 차지하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "167,849 | 54.30"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "조제 투약은 약사에게 면허된 행위이기 때문에"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5154,
+    "completion_tokens": 4697,
+    "reasoning_tokens": 3840,
+    "output_tokens": 857
+  },
+  "warnings": []
+}

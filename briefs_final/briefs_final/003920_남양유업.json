@@ -1,0 +1,66 @@
+{
+  "stock_code": "003920",
+  "corp_name": "남양유업",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 18:40",
+  "meta": {
+    "wics": "식품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "남양유업은 우유·분유 등 유제품을 생산하는 식품회사로, 연결 기준 매출액은 9,141억원(2025)입니다. 주요 매출은 국내 내수 중심으로 발생하며 제품군별로 우유류·분유류·기타로 구성되어 있습니다.",
+    "business_model": "주요 사업부문은 유제품(우유류), 분유류, 기타로 구성되며 매출 구성은 유제품 54.0%, 분유류 21.1%, 기타 24.9%입니다. 최근에는 수익성 위주의 제품 포트폴리오 재구성 및 원가·비용 효율화를 통해 수익성 개선을 추진하고 있습니다.",
+    "main_customers": "유제품 — 국내 일반 소비자 / 분유류 — 국내 내수(주요), 중국·동남아 수출 판로 모색 / 기타 — 기타 제품의 소비자",
+    "price_factors": [
+      {
+        "factor": "내수의존",
+        "detail": "전형적 내수산업 특성으로 국내 수요 변동, 계절성 및 위생 이슈가 매출·실적에 직접적인 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "품질이슈",
+        "detail": "소비자의 식품 안전성에 대한 관심이 높아 품질·위생 문제가 발생하면 브랜드 신뢰도와 매출에 즉각적 타격이 있을 수 있습니다."
+      },
+      {
+        "factor": "원유수급",
+        "detail": "원유의 구조적 수급불균형(가축질병·사육두수 제한 등)은 원가 상승과 생산 차질로 이어져 수익성에 부정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "프리미엄수요",
+        "detail": "소득수준 향상에 따른 기능성·고급 유제품 수요 증가는 제품 믹스 개선과 고마진 품목 확대로 실적에 긍정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "분유경쟁",
+        "detail": "분유류 시장은 진입장벽이 있으나 경쟁이 심화되고 있어 분유 매출과 마진에 하방 압력이 발생할 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "연결기업은 당기 9,141억원의 매출을 달성하였으며,"
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "유제품: 493,653 (54.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "낙농제조업은 전형적인 내수산업으로 보존기간이 짧은 특성을 지니고 있음."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4150,
+    "completion_tokens": 4243,
+    "reasoning_tokens": 3520,
+    "output_tokens": 723
+  },
+  "warnings": []
+}

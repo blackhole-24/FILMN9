@@ -1,0 +1,73 @@
+{
+  "stock_code": "045510",
+  "corp_name": "정원엔시스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 02:04",
+  "meta": {
+    "wics": "IT서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "정원엔시스는 1978년 한미시스템㈜로 설립되어 초기 8bit 컴퓨터 제조로 국내 IT업계에 진입한 후, HPE 등 주요 제조사 총판과의 파트너십을 통해 IT인프라 유통과 유지보수 중심의 사업을 전개해온 기업입니다. 최근 연결기준 매출액은 2,009억원, 영업이익 19.4억원, 당기순익 11.2억원을 기록했습니다.",
+    "business_model": "핵심은 IT인프라 판매(하드웨어·소프트웨어) 및 이에 수반되는 설계·컨설팅·구축·교육·유지보수 등 All-in-one(전과정) 서비스 제공입니다. 온라인 쇼핑몰을 통한 개인용 노트북 등 B2C 판매를 병행하며, 한국휴렛팩커드(HPE) 등 주요 제조사의 총판 및 파트너로서 유통 채널과 유지보수 서비스를 결합한 수익구조를 보유하고 있습니다.",
+    "main_customers": "IT인프라 판매 — 리셀러·SI(System Integration) 사업자·기업·공공기관 / B2C(온라인몰) — 일반 소비자 / 유지보수 서비스 — 기존 공급 고객(기업·기관)",
+    "price_factors": [
+      {
+        "factor": "공급·납기",
+        "detail": "제조사의 납기 연장이나 발주 거부는 제품 조달 불안으로 매출과 이익에 직접적인 부담을 줍니다."
+      },
+      {
+        "factor": "환율·관세",
+        "detail": "미국발 관세와 환율 급등은 ICT 제품가격 상승 압박으로 원가와 판매가격에 영향을 미칩니다."
+      },
+      {
+        "factor": "IT투자 경기",
+        "detail": "공공·기업의 전산 인프라 투자 축소·연기는 수요 감소로 이어져 실적 변동성을 키웁니다."
+      },
+      {
+        "factor": "파트너 의존",
+        "detail": "주요 제조사 총판 지위는 안정적 수익원이나 해당 제조사 관계 변화 시 리스크가 발생합니다."
+      },
+      {
+        "factor": "AI수요 변화",
+        "detail": "AI서버 수요 증가는 데이터센터 관련 수요·제품구성 변화를 촉발해 매출 구조에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "다. 영업개황 및 사업부문의 구분",
+        "evidence_text": "당사는 1978년 한미시스템㈜로 설립하여"
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. 사업의 현황(산업의 특성)",
+        "evidence_text": "IT인프라 판매사업은 제조사로부터 IT 관련 H/W 및 S/W 물품을 공급받아"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 사업의 현황(산업의 특성)",
+        "evidence_text": "리셀러, SI(System Integration) 사업자에 유통 형태로 공급"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "고객들은 기존의 투자 계획을 철회하거나 연기하는 양상을 보이고 있고"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 3774,
+    "completion_tokens": 3505,
+    "reasoning_tokens": 2688,
+    "output_tokens": 817
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

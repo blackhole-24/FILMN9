@@ -1,0 +1,69 @@
+{
+  "stock_code": "331740",
+  "corp_name": "아우토크립트",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 16:40",
+  "meta": {
+    "wics": "자동차부품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "아우토크립트는 차량의 외부·내부 연결성 증가에 따라 발생하는 사이버 위협에 대응하기 위해 설립된 모빌리티 보안 전문기업입니다. 보안 소프트웨어(S/W)와 관련 기술을 바탕으로 IVS(차량 내부 시스템)와 V2X(차량외부 통신) 영역을 보호하는 제품군을 개발·공급합니다.",
+    "business_model": "핵심 제품군은 차량 암호응용 개발·검증(CryptoDev)과 차량통신 보안·인프라 운영(CryptoComm) 중심의 솔루션으로 구성되며, 이를 IVS 보안·V2X 보안 사업으로 사업화합니다. 또한 보안 검증·테스트 도구와 전문가 서비스(Professional Service), vSOC(차량 보안 운영 센터) 등 보안 관리 및 운영 서비스도 제공하여 제품·서비스 기반으로 수익을 창출합니다.",
+    "main_customers": "IVS 보안 — 국내외 완성차 OEM 및 주요 Tier-1 부품사 / V2X 보안 — 완성차 제조사 및 인프라 관련 사업자 / 보안 운영·컨설팅 — 완성차·부품사",
+    "price_factors": [
+      {
+        "factor": "글로벌 규제",
+        "detail": "UNR155·R156 등 차량 사이버보안 규제 강화는 완성차·부품사의 보안 솔루션 수요를 확대해 실적에 직접적 영향을 미칩니다."
+      },
+      {
+        "factor": "차량 연결성",
+        "detail": "전기차·자율주행·커넥티드카 확대로 차량 내외 통신이 늘어나 사이버보안 솔루션 수요가 증가합니다."
+      },
+      {
+        "factor": "품질인증",
+        "detail": "A-SPICE 등 소프트웨어 개발 품질 기준 충족 여부가 완성차에 납품 가능성에 영향을 줍니다."
+      },
+      {
+        "factor": "투자·R&D",
+        "detail": "연구개발 인력 확충과 글로벌 대응을 위한 선제적 투자는 단기적으로 수익성에 부담을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 기업 개황",
+        "evidence_text": "당사는 자동차를 외부의 해킹으로부터 보호하기 위한 보안 S/W 솔루션과 보안 기술을 제공하는 회사입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. 주요 제품에 대한 내용",
+        "evidence_text": "차량 암호응용 개발 및 검증 기술(CryptoDev)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "국내외 완성차 OEM 및 주요 Tier-1 부품사를 대상으로 사업을 전개하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "라. 시장현황 및 전망",
+        "evidence_text": "UNR155가 2022년 7월부터 신규 형식승인 차량"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 5523,
+    "completion_tokens": 4150,
+    "reasoning_tokens": 3392,
+    "output_tokens": 758
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

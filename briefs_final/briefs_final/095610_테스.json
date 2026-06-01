@@ -1,0 +1,72 @@
+{
+  "stock_code": "095610",
+  "corp_name": "테스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 07:34",
+  "meta": {
+    "wics": "반도체와반도체장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "테스는 반도체 전공정 장비를 주력으로 제조·공급하는 장비업체로, 반도체 장비 관련 매출 비중이 매우 높은 기업입니다. PECVD(플라즈마 보조 화학증착)와 건식식각 장비 등 박막 증착·식각 장비를 중심으로 국내외 반도체·디스플레이 관련 업체에 장비를 납품하고 있습니다.",
+    "business_model": "매출의 98%가 반도체 장비, 2%가 기타(디스플레이·LED용 장비)로 구성되어 있으며, 국내 매출 비중은 80%, 해외는 20%입니다. 주력 제품은 PECVD(플라즈마 보조 화학증착), Gas Phase Etch & Cleaning(건식식각·세정) 장비이며, 박막봉지장비(Thin Film Encapsulation)와 MOCVD(금속유기화학증착) 장비도 개발·판매하고 주문형(customized) 방식으로 공급합니다.",
+    "main_customers": "반도체 장비 — 국내외 반도체 소자 업체(주요 수요처: 국내) / 디스플레이·LED 장비 — 디스플레이 제조업체 및 UVC LED용 웨이퍼 제작 관련 업체",
+    "price_factors": [
+      {
+        "factor": "글로벌 경기",
+        "detail": "글로벌 경기 사이클에 따라 반도체 설비투자(설비발주)가 민감하게 변동되어 실적에 직접적 영향을 줍니다."
+      },
+      {
+        "factor": "기술 개발",
+        "detail": "반도체 소자 기술 발전에 따른 장비 교체주기가 짧아 기술 경쟁력과 R&D 투자 수준이 실적에 중요한 요인입니다."
+      },
+      {
+        "factor": "맞춤화 수요",
+        "detail": "장비가 주문자생산 방식으로 공정·옵션별 커스터마이징이 필요해 고객사와의 협력관계 및 납품조건이 매출과 가격에 큰 영향을 미칩니다."
+      },
+      {
+        "factor": "지역별 매출",
+        "detail": "국내 매출 비중이 높아(80%) 국내 반도체 투자 동향이 회사 실적에 상대적으로 큰 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "반도체 장비 관련 매출이 전체 매출의 95% 이상"
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황",
+        "evidence_text": "PECVD와 건식식각장비인 Gas Phase Etch & Cleaning 장비를 생산"
+      },
+      {
+        "field": "business_model",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "매출비중은 반도체와 반도체 外 사업부문이 각각 98%, 2%"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "국내 반도체 소자 업체에 공급하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "반도체 산업은 과거 글로벌 경기 변동에 민감하게 반응"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4538,
+    "completion_tokens": 3191,
+    "reasoning_tokens": 2368,
+    "output_tokens": 823
+  },
+  "warnings": []
+}

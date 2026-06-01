@@ -1,0 +1,67 @@
+{
+  "stock_code": "416180",
+  "corp_name": "신성에스티",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 19:09",
+  "meta": {
+    "wics": "전기제품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "신성에스티는 2차전지(EV, ESS)와 IT/자동차 분야의 핵심 부품을 전문적으로 생산하는 글로벌 기업입니다. 버스바(Busbar)와 배터리 모듈 케이스(Battery Module Case)를 주력으로 하며 한국·중국·폴란드·미국에 생산공장을 운영하고 있습니다.",
+    "business_model": "주력 사업은 2차전지 부품으로, 2차전지 부문이 매출의 70.99%를 차지하고 IT/자동차 부문이 29.01%를 차지합니다(제품: Busbar, Module Case 등). 제품은 고객별 맞춤 계약 단가로 공급되며 원가 경쟁력 확보를 위해 R&D 투자와 생산 자동화, 금형 내재화 등으로 제조·양산 역량을 강화하고 있습니다.",
+    "main_customers": "2차전지 — 전기차(EV) 및 ESS 제조사 / IT/자동차 — 전기차 전장업체(카메라 모듈) 및 스마트폰 제조사",
+    "price_factors": [
+      {
+        "factor": "원자재(구리)",
+        "detail": "제품 단가는 원재료(LME Cu 등) 변동에 연동되어 분기 단위로 조정되므로 구리 가격 변동이 실적에 직접적 영향을 미칩니다."
+      },
+      {
+        "factor": "정책·보조금",
+        "detail": "전기차 보급 확대와 탄소중립 관련 규제·지원 정책 변화는 2차전지 수요에 영향을 주어 매출에 연결됩니다."
+      },
+      {
+        "factor": "지정학리스크",
+        "detail": "관세 강화 등 지정학적 리스크로 주요 고객사의 생산 거점 재편이 발생하면 납품 구조와 실적에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "고객납품일정",
+        "detail": "고객사 납품 일정에 맞춘 설비 투자와 가동 시점이 매출 및 수익성에 직접적인 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 미래 성장 동력인 2차전지(EV, ESS) 및 IT/자동차 분야의 핵심 부품을 전문적으로 생산하는 글로벌 기업입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[표] 가. 주요 제품 등의 현황",
+        "evidence_text": "| 2차전지 | 제품 | Busbar, Module Case 등 배터리 부품 | 83,004 | 70.99 |"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나. 주요 제품 등의 가격 변동 현황",
+        "evidence_text": "주요 제품의 단가는 원재료(LME Cu 등) 변동에 연동되어 분기 단위로 조정됩니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "베트남 법인에서는 전기차용 카메라 모듈과 스마트폰 내외장 부품 등을 생산하며 안정적인 사업 포트폴리오를 구축하고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5165,
+    "completion_tokens": 3676,
+    "reasoning_tokens": 2880,
+    "output_tokens": 796
+  },
+  "warnings": []
+}

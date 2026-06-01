@@ -1,0 +1,67 @@
+{
+  "stock_code": "166090",
+  "corp_name": "하나머티리얼즈",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 10:39",
+  "meta": {
+    "wics": "반도체와반도체장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "하나머티리얼즈는 반도체 에칭(식각) 공정에 사용되는 Silicon·SiC 기반의 소모성 부품(예: Electrode, Ring)을 제조하는 기업으로, 반도체 장비제조업체와 반도체 제조업체를 고객으로 확보하고 있습니다. 연결재무제표 기준 최근 매출은 2,735억원으로 전년 대비 성장한 모습을 보이고 있습니다.",
+    "business_model": "핵심 수익원은 반도체 부품 사업이며, FY2025 기준 반도체 부품이 매출의 87.7%를 차지하고 신기술사업금융이 0.2%를 차지합니다. 반도체 에칭 공정용 Silicon·SiC 부품을 주문생산 방식으로 공급하며, 신기술사업금융 부문은 반도체·배터리 분야 스타트업에 대한 투자·육성(지분투자 등)을 통해 신규사업 기회를 모색합니다.",
+    "main_customers": "반도체 부품 — 장비제조업체(예: Tokyo Electron, 세메스) 및 반도체 제조업체(삼성전자 등) / 신기술사업금융 — 반도체·배터리 소재·부품·장비 업종의 신기술사업자 및 중소·신규 스타트업",
+    "price_factors": [
+      {
+        "factor": "공정 미세화",
+        "detail": "선폭 미세화와 고밀도 플라즈마 도입, Dry Etching 확산은 Silicon 계 부품 수요를 직접적으로 증가시킵니다."
+      },
+      {
+        "factor": "주문 기반 변동성",
+        "detail": "고객 주문 시점과 수량이 실적 및 제품 가격에 변동을 주어 매출·이익 변동성으로 연결됩니다."
+      },
+      {
+        "factor": "글로벌 수요 사이클",
+        "detail": "AI·전기차 등 투자 확대에 따른 장비 수요 증감과 반도체 사이클 변동이 실적에 영향합니다."
+      },
+      {
+        "factor": "기술·품질 경쟁력",
+        "detail": "잉곳 성장·정밀가공 등 일관생산 프로세스와 품질은 수주 지속성 및 가격협상력에 유리하게 작용합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "연결재무제표 기준 전년대비 매출은 2,735억원으로 전년대비 (+)9% 증가했으며,"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "반도체 부품: 239,818 (87.7%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "신기술사업금융: 611 (0.2%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "Ⅱ. 사업의 내용 > 라. 산업분석 등 (1) 사업 개황",
+        "evidence_text": "당사는 Tokyo Electron, 세메스를 비롯한 장비제조업체와 삼성전자 등 반도체 제조업체를 고객으로 확보하고 있어 기술력과 품질수준은 검증되어 있으며,"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4228,
+    "completion_tokens": 4218,
+    "reasoning_tokens": 3392,
+    "output_tokens": 826
+  },
+  "warnings": []
+}

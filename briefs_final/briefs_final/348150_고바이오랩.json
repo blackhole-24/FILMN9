@@ -1,0 +1,67 @@
+{
+  "stock_code": "348150",
+  "corp_name": "고바이오랩",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 17:10",
+  "meta": {
+    "wics": "건강관리업체및서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "고바이오랩은 마이크로바이옴 원천기술과 신약개발 역량을 통합적으로 갖춘 글로벌 혁신 바이오 기업입니다. 기초연구에서 임상개발, 제품화까지 자체적으로 수행하며 Smartiome(스마티옴) 플랫폼을 기반으로 면역·대사·뇌 질환 등 파이프라인을 개발하고 있습니다.",
+    "business_model": "2025년 기준 사업부문별 매출은 제품매출 약 98.6%, 기술이전 약 0.7%, 상품매출 약 0.6%, 용역매출 약 0.1%로 제품매출(주로 위바이옴 건강기능식품)이 매출의 대부분을 차지합니다. 또 기술이전(라이선스)을 통한 수출수익과 Smartiome 기반 후보물질 발굴 및 임상개발이 핵심 사업축입니다.",
+    "main_customers": "제품매출 — 국내 소비자(위바이옴 건강기능식품) / 기술이전 — 해외 제약사·라이선스 파트너(SPH 등) / 상품매출 — 판매채널·유통업체 / 용역매출 — 내수 서비스 수요자(기관·기업 등)",
+    "price_factors": [
+      {
+        "factor": "시장성장",
+        "detail": "글로벌 마이크로바이옴 시장 성장 시 제품매출과 기술이전 기회 확대를 통해 실적 개선에 기여할 수 있습니다."
+      },
+      {
+        "factor": "임상성과",
+        "detail": "임상시험의 안전성·효능 결과(예: Topline 데이터)는 파이프라인 가치와 기술이전·투자 판단에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "기술이전 계약",
+        "detail": "국내외 라이선스(기술이전) 계약은 선급금·로열티 형태로 수익에 즉각적·중장기적 영향을 미칩니다."
+      },
+      {
+        "factor": "판매채널 비용",
+        "detail": "판매채널 수수료 등 유통비용 증가는 매출 증가에도 영업이익을 압박할 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "고바이오랩은 마이크로바이옴 원천기술과 신약개발 역량을 통합적으로 갖춘 글로벌 혁신 바이오 기업입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "제품매출 내 수 68,331,348,090"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 주요 제품 등의 현황",
+        "evidence_text": "기술이전(중국, 대만, 홍콩, 마카오 지역 한정)하여 계약금을 수취하였습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "매출액은 주요 증감 요인은 위바이옴의 건강기능식품 매출 증가이며,"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 6017,
+    "completion_tokens": 5846,
+    "reasoning_tokens": 5056,
+    "output_tokens": 790
+  },
+  "warnings": []
+}

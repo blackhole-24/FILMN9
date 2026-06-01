@@ -1,0 +1,62 @@
+{
+  "stock_code": "012340",
+  "corp_name": "뉴인텍",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 21:01",
+  "meta": {
+    "wics": "전기제품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "뉴인텍은 커패시터와 증착필름의 제조·판매를 주력으로 하는 운송장비·부품(전기제품) 기업입니다. 증착필름을 자체 생산해 자사 커패시터에 사용하고 일부는 전세계 필름커패시터 제조업체에 판매하는 점이 특징입니다.",
+    "business_model": "주요 사업은 생활가전·산업용 및 신재생에너지용 커패시터(필름 커패시터) 제조와 증착필름(커패시터 원재료) 생산·판매입니다. FY2025 기준 사업부문별 영업수익은 제품이 28.5%, 기타가 4.8%로 보고되었으며(제품: 커패시터, 기타: 증착필름 관련 수익을 포함), 증착필름은 자사 사용과 외부 판매 모두에서 매출을 창출합니다.",
+    "main_customers": "제품 — 백색가전 및 산업용 완제품 제조업체(세트 업체) / 제품 — 태양광·풍력 발전소 운영사 및 친환경(전기·하이브리드) 자동차 제조업체 / 제품 — 의료기기 제조업체 / 기타(증착필름) — 전세계 필름커패시터 제조업체 약 50여곳",
+    "price_factors": [
+      {
+        "factor": "가전수요",
+        "detail": "가전산업의 경기와 재고정책에 따라 생활가전용 커패시터 주문량이 변동해 실적에 직접 영향"
+      },
+      {
+        "factor": "신재생성장",
+        "detail": "태양광·풍력·친환경차 등 친환경 산업 성장으로 신재생에너지용 커패시터 수요가 꾸준히 증가할 가능성"
+      },
+      {
+        "factor": "저가경쟁",
+        "detail": "일부 전자제품의 해외 이전 및 개발도상국 커패시터 제조업체의 저가공세로 시장경쟁 압력이 발생"
+      },
+      {
+        "factor": "제품구조변화",
+        "detail": "인버터용 가전기기 개발 등 기술 변화로 필름 커패시터 수요 구조가 축소될 수 있음"
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "커패시터 및 증착필름의 제조 및 판매"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "제품: 23,608,326 (28.5%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "전세계 필름커패시터 제조업체 50여곳에 판매하고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4368,
+    "completion_tokens": 2996,
+    "reasoning_tokens": 2304,
+    "output_tokens": 692
+  },
+  "warnings": []
+}

@@ -1,0 +1,66 @@
+{
+  "stock_code": "269620",
+  "corp_name": "시스웍",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:33",
+  "meta": {
+    "wics": "전자장비와기기",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "시스웍은 디스플레이와 반도체 라인 같은 생산공정에서 필요한 클린룸(청정실) 환경 제어 장비와 시스템을 공급하는 기업입니다. FFU(Fan Filter Unit), EFU(Equipment Fan Unit) 관련 모터·제어기와 함께 통합환경 감시제어시스템, 공조장치, 환기장치 제어시스템 등을 다루고 있습니다.",
+    "business_model": "핵심 사업은 클린룸용 FFU·EFU의 구동과 제어, 감시·모니터링을 담당하는 자동제어시스템사업부이며, FY2025 기준 사업부문별 영업수익에서 17.9%를 차지합니다. 나머지 7.4%는 기타 부문이 차지하고 있으며, BLDC(Brush Less Direct Current)모터와 제어 기술을 활용한 제품 개발도 준비하고 있습니다. 이 회사의 수익 구조는 전방산업의 설비투자와 고객사별 유지보수 수요에 크게 연동됩니다.",
+    "main_customers": "자동제어시스템사업부 — 디스플레이·반도체 생산라인, 대형빌딩·상업시설, 아파트·관공서·학교 등 환기·공조 시스템 수요처 / 기타 — 제공된 자료에서 구체 고객 유형 미기재",
+    "price_factors": [
+      {
+        "factor": "설비투자",
+        "detail": "디스플레이·반도체 전방산업의 신규 설비투자가 늘면 클린룸 장비 수요가 확대되고, 투자 축소 시 매출과 수익성이 감소할 수 있습니다."
+      },
+      {
+        "factor": "유지보수",
+        "detail": "납품 후에도 고객사별 환경조건에 맞춘 유지보수와 기술 지원이 필요해, 사후관리 역량이 실적과 경쟁력에 영향을 줍니다."
+      },
+      {
+        "factor": "진입장벽",
+        "detail": "클린룸 시장은 높은 시장 진입장벽이 있어, 기술력과 현장 엔지니어 보유 여부가 수주 경쟁에 중요하게 작용합니다."
+      },
+      {
+        "factor": "경기둔화",
+        "detail": "글로벌 통화긴축과 국내 경기 둔화로 기업 투자 위축이 이어지면 주요 매출원인 자동제어시스템 수요도 약해질 수 있습니다."
+      },
+      {
+        "factor": "환율변동",
+        "detail": "해외영업활동이 있어 환율 변동이 금융상품의 공정가치와 손익에 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 나. 산업의 특성",
+        "evidence_text": "디스플레이 및 반도체 라인 등의 생산공정에 필수 요소인 클린룸에 사용되는 FFU(Fan Filter Unit), EFU(Equipment Fan Unit)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "자동제어시스템사업부: 1,109 (17.9%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 나. 산업의 특성",
+        "evidence_text": "디스플레이 및 반도체 라인 등의 생산공정에 필수요소인 클린룸 환경을 유지"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3966,
+    "completion_tokens": 824,
+    "reasoning_tokens": 0,
+    "output_tokens": 824
+  },
+  "warnings": []
+}

@@ -1,0 +1,72 @@
+{
+  "stock_code": "024090",
+  "corp_name": "디씨엠",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 22:51",
+  "meta": {
+    "wics": "비철금속",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "디씨엠은 1972년 설립되어 칼라코팅강판과 산업용 필름의 제조·판매를 주력으로 하는 금속(비철금속) 업체입니다. 본사는 경상남도 양산시에 위치하며 라미네이팅(코팅된 강판) 제품을 중심으로 국내외 가전 및 산업용 수요처에 납품하고 있습니다.",
+    "business_model": "주력 제품은 라미네이팅 칼라강판(LAMINATED 칼라강판, 가전 외장용)과 산업용 보호필름(제품보호용 FILM)으로, 제39기 기준 LAMINATED 칼라강판이 매출의 약 94.1%를 차지합니다. 산업용 FILM은 약 2.5%, 알루미늄 복합판넬 약 0.3%, 기타 약 3.1%의 매출 비중을 가지며(합계 227,053백만원), 라미네이팅 제품 중심의 공급·주문생산 체계가 수익 구조의 핵심입니다.",
+    "main_customers": "LAMINATED 칼라강판 — 가전업체(냉장고·세탁기·에어컨·김치냉장고 외장)·건축·가구·선박업체 / 산업용 FILM — PC·PET 등 플라스틱 시트 업계 및 강판업체 / 알루미늄 복합판넬 — 건축내외장재 관련 업체 / 기타 — 기타 산업용 거래처",
+    "price_factors": [
+      {
+        "factor": "원자재 가격",
+        "detail": "원자재 가격 상승 시 원가 부담이 커져 수익성에 부정적 영향을 미칩니다."
+      },
+      {
+        "factor": "수요주기",
+        "detail": "전방 산업(가전·건축 등)의 경기변동이 수요에 직접 연결되어 매출 변동성이 큽니다."
+      },
+      {
+        "factor": "공급과잉",
+        "detail": "경쟁업체의 설비증설로 인한 공급능력 확대가 가격경쟁과 수익성 약화로 이어질 수 있습니다."
+      },
+      {
+        "factor": "디자인·친환경",
+        "detail": "다양한 디자인과 친환경 제품에 대한 수요가 경쟁력과 판매가격에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "칼라코팅강판과 산업용 필름의 제조 및 판매"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "제39기 매출액 227,053백만원 중 LAMINATE 강판이 94%를 차지하고 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "주로 냉장고, 세탁기, 에어컨, 김치냉장고등 가전제품의 외장(Case)으로 사용"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "전방산업의 경기변동에 영향을 많이 받는 편입니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "원자재 공급망의 불안정이 우리에게도 적지 않은 피해를 끼쳤으며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4929,
+    "completion_tokens": 4212,
+    "reasoning_tokens": 3328,
+    "output_tokens": 884
+  },
+  "warnings": []
+}

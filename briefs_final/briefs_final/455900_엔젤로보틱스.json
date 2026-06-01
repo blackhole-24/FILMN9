@@ -1,0 +1,71 @@
+{
+  "stock_code": "455900",
+  "corp_name": "엔젤로보틱스",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:45",
+  "meta": {
+    "wics": "건강관리장비와용품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "엔젤로보틱스는 2017년 설립된 대한민국의 웨어러블 로봇 기업으로, 사람의 움직임을 보조하거나 회복시키는 로봇 제품을 연구·개발하고 상용화하고 있습니다. 헬스케어 시장을 중심으로 시작했으며, 국방과 산업체 안전 영역으로도 사업을 넓히고 있습니다.",
+    "business_model": "FY2025 기준 사업부문별 영업수익은 제품매출 1,686,806(71.2%), 용역매출 757,594(28.8%)로 구성됩니다. 핵심 수익은 보행 재활용 angel MEDI, 병원·가정 보행 치료용 angel SUIT, 산업 안전용 angel GEAR, 부품 브랜드 angel KIT 등 웨어러블 로봇 제품과 관련 서비스에서 발생합니다. 회사는 웨어러블 로봇 표준 플랫폼(WaSP, 제품 개발을 빠르게 돕는 공통 기반)을 활용해 신제품을 빠르게 확장하는 구조를 갖고 있습니다.",
+    "main_customers": "angel MEDI — 병원, 전문 서비스 시장, 요양기관, 가정 / angel SUIT — 전문 보행 치료 환자, 근골격계 질환 수술 후 환자, 가정 사용자 / angel GEAR — 산업 현장 근로자 / angel KIT — 로봇 제품 개발·연구·교육 목적 사용자",
+    "price_factors": [
+      {
+        "factor": "고령화",
+        "detail": "고령화와 만성질환 증가로 재활·보행 보조 수요가 늘수록 웨어러블 로봇의 시장 확대 기대가 커집니다."
+      },
+      {
+        "factor": "의료인력",
+        "detail": "의료 인력 부족과 치료 시간 제약이 심해질수록 로봇을 활용한 보행치료·보조 솔루션의 필요성이 커집니다."
+      },
+      {
+        "factor": "인허가",
+        "detail": "의료기기 인증과 해외 의료기기 인증 확보 여부가 제품 판매 범위와 시장 확장 속도에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "지재권",
+        "detail": "특허권·디자인권·상표권 등 지식재산권 확보 수준이 기술 경쟁력과 기술 분쟁 대응력에 영향을 줍니다."
+      },
+      {
+        "factor": "정부정책",
+        "detail": "지능형 로봇 기본계획과 규제혁신 흐름은 국내 웨어러블 로봇 시장의 성장과 보급 확대에 우호적으로 작용합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 2017년 설립된 대한민국의 대표 웨어러블 로봇 기업입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "제품매출: 1,686,806 (71.2%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "용역매출: 757,594 (28.8%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "병원뿐 아니라, 요양기관 등 전문센터, 가정을 포함한"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5866,
+    "completion_tokens": 836,
+    "reasoning_tokens": 0,
+    "output_tokens": 836
+  },
+  "warnings": []
+}

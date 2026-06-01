@@ -1,0 +1,69 @@
+{
+  "stock_code": "475230",
+  "corp_name": "엔알비",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 20:40",
+  "meta": {
+    "wics": "건설",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "엔알비는 모듈러 건축물의 제품 개발·기획·설계에서 공장 제작, 현장 조립·설치 및 유지관리까지 전 과정을 자체 수행하는 모듈러 전문기업입니다. 철골(Steel)과 프리캐스트 콘크리트(PC) 소재 기반 제품을 바탕으로 주거, 교육, 군시설, 업무·상업 등 다양한 적용처를 보유하고 있습니다.",
+    "business_model": "사업 전 과정을 자체 수행하는 수직통합형(설계→공장제작→현장조립·유지관리) 모듈러 공급이 핵심이며, 소재별로는 PC(콘크리트)·철골 모듈러 제품을 제공합니다. 매출은 판매·임대·용역 및 공사 등으로 구성되며 교육용 이동형 모듈러 임대·판매 등 공공·민간 발주처를 대상으로 다양한 매출원을 확보하고 있습니다.",
+    "main_customers": "공동주택(아파트) — 발주처(주택사업자·공공발주자) / 교육시설 — 교육청·학교 / 군시설 — 군 관련 발주처 / 업무·상업시설 — 사업장 발주처",
+    "price_factors": [
+      {
+        "factor": "OSC(제조화)",
+        "detail": "건설업의 OSC(Off‑Site Construction) 전환 속도는 모듈러 제품 수요와 실적에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "정책·특별법",
+        "detail": "모듈러 특별법안 등 제도화는 공공 발주 확대·인센티브 부여로 수주 환경과 매출에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "생산인증",
+        "detail": "생산인증(공장 인증) 도입은 공공 입찰에서의 활용 가능성으로 수주 경쟁력에 영향을 미칩니다."
+      },
+      {
+        "factor": "기술·인증",
+        "detail": "내진성능·접합기술 등 인증 확보는 고층 공동주택 등 고난도 사업 수주에 중요한 변수입니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 개요",
+        "evidence_text": "전 과정을 자체 수행하는 모듈러 전문기업입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. 개요",
+        "evidence_text": "매출 유형은 판매, 임대, 용역 및 공사 등으로 구성됩니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "나. 기술 기반 사업 영역의 확장",
+        "evidence_text": "이동형 학교 모듈러 제품은 교육청 및 학교 등에 임대ㆍ판매되고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성 > 6) 모듈러 특별법",
+        "evidence_text": "생산인증(공장 인증) 및 건축인증(프로젝트 인증) 도입"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 5252,
+    "completion_tokens": 4589,
+    "reasoning_tokens": 3840,
+    "output_tokens": 749
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

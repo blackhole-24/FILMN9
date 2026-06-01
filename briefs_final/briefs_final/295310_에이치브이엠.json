@@ -1,0 +1,72 @@
+{
+  "stock_code": "295310",
+  "corp_name": "에이치브이엠",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 15:26",
+  "meta": {
+    "wics": "비철금속",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "에이치브이엠은 2003년 창업 이후 슈퍼알로이(초내열합금)와 Ni계/Ti계 등 첨단금속 및 스퍼터링타겟을 제조하는 전문업체입니다. 자체 제작한 진공용해 설비를 바탕으로 국내 첨단금속 시장에서 선도적 역할을 담당하고 있습니다.",
+    "business_model": "주요 사업은 Fe·Ni·Cu 계열 특수금속 및 스퍼터링타겟 제조로, 진공 유도 용해(VIM), 진공 아크 재용해(VAR), ESR 등 첨단 용해·제조공정을 운영합니다. 사업부문별 FY2025 영업수익 구성은 Fe계 금속 44.8%, Ni계 금속 35.8%, Cu계 금속 13.9%, 스퍼터링타겟 4.9%, 기타 금속 0.6%로 구성되어 있습니다.",
+    "main_customers": "Fe계 금속 — 우주·항공·자동차 등 산업용 제조사 / Ni계 금속 — 우주·항공·방위·반도체 관련 기업 / Cu계 금속 — 전자기기·반도체·석유·화학·에너지 업계 / 스퍼터링타겟 — 반도체·디스플레이용 소재 제조사",
+    "price_factors": [
+      {
+        "factor": "진입장벽",
+        "detail": "해외 선진사의 독보적 기술 우위로 시장 진입장벽이 높아 기술경쟁력이 실적과 밸류에이션에 직접 영향."
+      },
+      {
+        "factor": "우주수요",
+        "detail": "우주·항공 등 고부가가치 수요 급증은 고마진 제품 판매 확대와 수익성 개선으로 연결될 가능성."
+      },
+      {
+        "factor": "환율",
+        "detail": "USD 등 외화 변동은 해외 매출의 원화 환산 및 실적에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "설비능력",
+        "detail": "제2공장 등 설비 증설로 공급능력이 확대되면 매출 성장과 고객 대응력이 개선될 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "당사는 슈퍼알로이(초내열합금) 전문 제조 기업으로서"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "Fe계 금속: 29,776 (44.8%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "우주·항공 산업, 자동차 산업, 의료 기기 산업, 전자기기 산업 등"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "(5) 경쟁상황",
+        "evidence_text": "시장 진입장벽이 높습니다."
+      },
+      {
+        "field": "financials",
+        "source_section": "II. 사업의 내용 > 영업의 개황",
+        "evidence_text": "665.3억원을 달성하였습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5387,
+    "completion_tokens": 4328,
+    "reasoning_tokens": 3520,
+    "output_tokens": 808
+  },
+  "warnings": []
+}

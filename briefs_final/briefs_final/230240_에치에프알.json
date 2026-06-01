@@ -1,0 +1,72 @@
+{
+  "stock_code": "230240",
+  "corp_name": "에치에프알",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 13:05",
+  "meta": {
+    "wics": "통신장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "에치에프알은 통신장비(전기·전자) 기업으로 Mobile Access와 Broadband Access 기술을 바탕으로 Private 5G(이음5G) 솔루션을 강화·확장하고 있습니다. 한국을 중심으로 미국, 일본, 말레이시아 등 해외 통신사업자와 법인 고객을 대상으로 제품과 솔루션을 공급하고 있습니다.",
+    "business_model": "주요 수익원은 세 가지 사업부문으로 구성되며, 2025년 영업수익 기준으로 광전송 및 인빌딩 솔루션이 19.0%, 가입자망 광회선 장비·무선데이터 전송장비 및 기타가 78.8%, 기업투자 및 경영자문 외가 2.2%를 차지합니다. Mobile Access에서는 Fronthaul·인빌딩 중계장비 등의 네트워크 장비를, Broadband Access에서는 OLT·ONU·ONT 및 Wi-Fi AP 등 가입자망 장비를 공급하며 Private 5G용 5G CPE·vRAN·vCore 등 통합 솔루션도 제공하고 있습니다.",
+    "main_customers": "Mobile Access — 이동통신사업자(한국·미국·일본 등) / Broadband Access — 기간통신사업자(가입자망 장비 구매처) / Private 5G(이음5G) — 기업·기관 및 법인 고객(한국·미국·일본·말레이시아·유럽 등)",
+    "price_factors": [
+      {
+        "factor": "이음5G 수요",
+        "detail": "국가 정책과 기업의 특화망 도입 확대 시 Private 5G 솔루션 매출이 직접 증가합니다."
+      },
+      {
+        "factor": "Open RAN",
+        "detail": "Open RAN 확산은 멀티벤더 연동성을 요구해 당사의 관련 제품 포트폴리오 경쟁력에 영향을 줍니다."
+      },
+      {
+        "factor": "10G 인프라",
+        "detail": "국내 기간통신사업자의 10기가 브로드밴드 투자 확대는 ONU·OLT 등 광회선 장비 매출을 견인합니다."
+      },
+      {
+        "factor": "진입장벽",
+        "detail": "제품 규격과 상호운용성의 국제표준화로 인해 진입장벽이 높은 편이어서 기술력 보유 업체의 수혜가 발생할 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 영업 현황",
+        "evidence_text": "당사는 Mobile Access부문과 Broadband Access부문의 기존 사업역량을 기반으로 Private 5G Networking Solution부문 대한 사업을 강화/확장해 가고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "광전송 및 인빌딩 솔루션: 26,972 (19.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "가입자망 광회선 장비, 무선데이터 전송장비 및 기타: 111,930 (78.8%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "기업투자 및 경영자문 외: 3,081 (2.2%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 주요제품 [Mobile Access부문]",
+        "evidence_text": "주요 고객사는 한국, 미국, 일본의 이동통신사업자입니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5640,
+    "completion_tokens": 4675,
+    "reasoning_tokens": 3776,
+    "output_tokens": 899
+  },
+  "warnings": []
+}

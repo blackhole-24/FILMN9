@@ -1,0 +1,78 @@
+{
+  "stock_code": "306040",
+  "corp_name": "에스제이그룹",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 15:46",
+  "meta": {
+    "wics": "섬유,의류,신발,호화품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "에스제이그룹은 패션사업과 기타사업을 영위하는 기업으로, 캉골(KANGOL)·캉골키즈·헬렌카민스키 등 여러 브랜드와 라이선스·수입 브랜드를 보유하고 있습니다. 백화점·복합쇼핑몰·면세점 등 프리미엄 유통채널을 중심으로 판매하고, 문화 복합공간 운영과 신기술사업금융회사 운영 등으로 사업을 다각화하고 있습니다.",
+    "business_model": "사업은 패션부문과 기타부문으로 구분되며, 패션부문은 자체 브랜드 운영과 글로벌·라이선스(사용권 계약) 상품의 도·소매 및 유통을 통해 수익을 창출합니다. 기타부문은 LCDC 등 복합 콘텐츠 공간 운영과 자회사를 통한 신기술사업금융회사(여신전문금융업 관련) 운영으로 수익원을 다변화하고 있습니다.",
+    "main_customers": "패션부문 — 백화점·복합쇼핑몰·면세점 등 프리미엄 유통 채널 및 최종 소비자 / 기타부문 — 복합 콘텐츠 공간 방문 고객·신기술사업금융회사 관련 고객",
+    "price_factors": [
+      {
+        "factor": "소비심리",
+        "detail": "소비 침체 시 전체 매출 하락과 손실 확대에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "경쟁심화",
+        "detail": "경쟁사 증가로 판매량·시장점유율 하락이 실적에 부정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "유통채널",
+        "detail": "백화점·면세점 등 프리미엄 유통 채널 수요 변동에 따라 매출 변동성이 커집니다."
+      },
+      {
+        "factor": "브랜드성공",
+        "detail": "신규 브랜드·라이선스(사용권 계약)의 성패가 중장기 성장에 직결됩니다."
+      },
+      {
+        "factor": "환율",
+        "detail": "환율변동 등 금융위험이 손익 및 자산평가에 영향을 미칠 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 가. 사업의 내용",
+        "evidence_text": "패션사업 부문은 스트리트 캐주얼 브랜드 '캉골(KANGOL)'"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 가. 사업의 내용",
+        "evidence_text": "SHOP LCDC, DOORS, CAFE EPHEMERA를 운영하고있으며"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 가. 사업의 내용",
+        "evidence_text": "백화점, 복합쇼핑몰, 면세점 등 프리미엄 유통채널 중심"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A) > 가. 업무현황 및 실적",
+        "evidence_text": "소비 침체와 경쟁사 증가로  인하여 전체 매출 하락"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A) > 가. 업무현황 및 실적",
+        "evidence_text": "자체 디자인 개발한 LCDC TM 의 매출 신장"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 3439,
+    "completion_tokens": 6096,
+    "reasoning_tokens": 5248,
+    "output_tokens": 848
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

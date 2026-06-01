@@ -1,0 +1,67 @@
+{
+  "stock_code": "010240",
+  "corp_name": "흥국",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 20:35",
+  "meta": {
+    "wics": "기계",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "흥국은 1974년 설립되어 단조품 생산을 시작한 국내 건설기계부품 제조업체로, 트랙롤러 등 크롤러형 건설기계 하부주행체 부품을 주력으로 생산합니다. 국내 공장 통합과 설비 증설을 통해 단조·가공·조립의 일관생산체계를 갖추었고, 중국·일본·인도·미국에 현지법인을 설립하며 글로벌 공급망을 확장해 왔습니다.",
+    "business_model": "주요 사업은 자체 제조한 제품(제품: 86.2%)과 상품(상품: 13.8%)의 판매로 구성되며, 제품 비중이 높은 것이 수익의 핵심입니다. 단조(금속을 성형하는 공정), 가공, 조립의 일관 생산라인을 통해 크롤러형 건설기계용 하부주행부품(Undercarriage Parts)을 주로 공급합니다.",
+    "main_customers": "제품 — 크롤러형 건설기계 제조사·자동차부품 제조사(예: 볼보그룹, HD건설기계) / 상품 — 볼보그룹·HD건설기계 등 주요 매출처",
+    "price_factors": [
+      {
+        "factor": "설비투자비",
+        "detail": "대규모 설비투자가 필요해 투자 부담과 감가상각이 실적에 영향을 줍니다."
+      },
+      {
+        "factor": "진입장벽",
+        "detail": "신규납품 시 최소 2년의 시험·평가 기간이 요구되어 수주 회복에 시간이 소요됩니다."
+      },
+      {
+        "factor": "기술·품질",
+        "detail": "고품질의 정밀기술이 핵심 경쟁요소로, 품질 확보에 실패하면 수주에 불리합니다."
+      },
+      {
+        "factor": "주요고객 현지화",
+        "detail": "고객사의 해외 현지 생산 확대는 공급처 재배치와 매출구성에 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "연결기업은 1974년에 설립하여 단조품을 생산하기 시작하였으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "제품: 118,045 (86.2%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "주요 매출처인 볼보그룹과 HD건설기계"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "건설기계부품 산업은 대규모의 시설투자비가 소요되며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3320,
+    "completion_tokens": 4494,
+    "reasoning_tokens": 3776,
+    "output_tokens": 718
+  },
+  "warnings": []
+}

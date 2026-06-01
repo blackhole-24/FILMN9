@@ -1,0 +1,71 @@
+{
+  "stock_code": "021040",
+  "corp_name": "대호특수강",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 09:51",
+  "meta": {
+    "wics": "철강",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "대호특수강은 1988년 9월 설립되어 1996년 8월 코스닥시장에 상장한 철강 기업입니다. 자동차부품, 일반산업기계부품, 전자부품에 쓰이는 냉간압조용선(CHQ Wire)을 주력으로 하며, 2012년 11월 동방금속공업과 2023년 7월 (주)한영특수강을 흡수합병해 생산기반과 제품 경쟁력을 강화해 왔습니다.",
+    "business_model": "주력 사업은 냉간선재 부문으로, 당기 사업부문별 매출에서 99.74%를 차지합니다. AI서비스 부문은 0.26% 수준으로 보조적 비중이며, AI 포토(3D 피규어 포함) 기반 체험형 콘텐츠 사업을 운영합니다. 즉, 회사의 수익 구조는 냉간압조용선(CHQ Wire) 제조·판매에 크게 의존하고 있습니다.",
+    "main_customers": "냉간선재 — 자동차부품·일반산업기계·전자부품 관련 철강부품 제조사 / AI서비스 — 이벤트·리테일 현장 중심 고객, 브랜드마케팅 수요처",
+    "price_factors": [
+      {
+        "factor": "원재료가",
+        "detail": "철강 원재료 가격 변동에 따라 Wire Rod 제품의 매출가격과 수익성이 함께 영향을 받습니다."
+      },
+      {
+        "factor": "전방수요",
+        "detail": "자동차·기계·건설 등 전방산업의 설비 투자와 생산 활동이 늘면 CHQ Wire 수요가 증가할 수 있습니다."
+      },
+      {
+        "factor": "경쟁환경",
+        "detail": "다수의 경쟁사와 시장에서 경쟁하며, 수급 상황과 시장 경쟁 환경에 따라 판매가격이 결정됩니다."
+      },
+      {
+        "factor": "납기품질",
+        "detail": "제품 품질 개선과 신속한 납기가 중요해 불량률 감소와 공급 대응력이 실적에 영향을 줍니다."
+      },
+      {
+        "factor": "AI수요",
+        "detail": "AI서비스는 프로젝트 성격과 서비스 내용에 따라 거래 조건이 달라져 수주 형태에 따라 변동성이 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "MD&A",
+        "evidence_text": "1988년 9월 설립 이후 1996년 8월 코스닥시장에 상장하였으며"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "MD&A",
+        "evidence_text": "2012년 11월 동방금속공업 및 2023년 7월 (주)한영특수강을 흡수합병"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "냉간선재 | 276,819,952"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "AI서비스 | 709,997"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5117,
+    "completion_tokens": 762,
+    "reasoning_tokens": 0,
+    "output_tokens": 762
+  },
+  "warnings": []
+}

@@ -1,0 +1,77 @@
+{
+  "stock_code": "003030",
+  "corp_name": "세아제강지주",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 18:20",
+  "meta": {
+    "wics": "철강",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "세아제강지주는 2018년 인적분할을 통해 지주회사로 전환한 기업으로, 자회사 및 피투자회사의 지분 관리·투자를 주된 목적으로 합니다. 그룹의 사업은 강관(파이프류)·판재(컬러강판·아연도금강판 등) 제조와 투자 부문으로 구성되어 있습니다.",
+    "business_model": "FY2025 영업수익 구성은 강관 89.7%, 판재 9.3%, 투자 1.0%로 강관 중심의 매출 구조를 보입니다. 강관부문은 배관용·유정용·구조용 등 산업 전반에 사용되는 강관을 제조·판매하며, 판재부문은 컬러강판·아연도금강판 등을 생산해 건설업과 가전업체에 공급합니다.",
+    "main_customers": "강관 — 건설사·철강 유통사·EPC업체·해외판매법인 / 판재 — 건설업·가전제조업 / 투자 — 자회사·피투자회사 (지분 관리·투자 대상)",
+    "price_factors": [
+      {
+        "factor": "원재료 가격",
+        "detail": "주요 원재료인 HR Coil 등 가격 변동이 매출과 이익에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "통상·관세 압력",
+        "detail": "북미 등 주요 수출지역의 통상압력(고관세 등)은 수출 시황과 수익성에 영향을 미칩니다."
+      },
+      {
+        "factor": "환경규제",
+        "detail": "환경 관련 법규와 탄소배출 규제 강화는 생산활동 제약 및 비용 증가 요인이 됩니다."
+      },
+      {
+        "factor": "수요 지역편중",
+        "detail": "북미의 유정용·송유관 수요와 해외 프로젝트(예: 해상풍력) 변동이 실적에 큰 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "투자부문",
+        "evidence_text": "존속회사는 (주)세아제강지주로 상호를 변경"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "강관: 4,598,120 (89.7%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "판재: 478,310 (9.3%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "투자: 53,345 (1.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "강관부문",
+        "evidence_text": "주요 매출처로는 건설사, 철강 유통사, EPC업체"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "판재부문",
+        "evidence_text": "주요 수요산업으로는 건설업과 가전제조업"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4666,
+    "completion_tokens": 3859,
+    "reasoning_tokens": 3072,
+    "output_tokens": 787
+  },
+  "warnings": []
+}

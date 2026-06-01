@@ -1,0 +1,66 @@
+{
+  "stock_code": "125210",
+  "corp_name": "아모그린텍",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 09:28",
+  "meta": {
+    "wics": "화학",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "아모그린텍은 2004년 1월 설립된 첨단소재·기능성 부품 및 환경·에너지 시스템 기업으로, 고효율 자성소재·나노 멤브레인 기반 벤트(Vent), 유연 이차전지(Flexible Battery) 등 전기차·신재생에너지·스마트그리드·웨어러블 분야 핵심 부품을 생산합니다. 2025년 12월 31일 기준 지적재산권 1,508건을 보유하고 있어 기술 경쟁력을 확보하고 있습니다.",
+    "business_model": "현재 매출이 발생하는 주요 사업은 고효율 자성소재, 방열 및 Nano Membrane 소재(Vent), Flexible Battery, ESS(에너지저장장치), SiC 파워반도체용 AMB 모듈 등으로 제품 공급을 통한 B2B(기업간 거래) 중심의 매출 구조를 가지고 있습니다. 보고서의 [사업부문별 매출 구성]에는 기타 매출이 2.5%(기타 매출: 5,115)로 기재되어 있습니다.",
+    "main_customers": "고효율 자성소재 — 전기자동차용 파워모듈 제조사 및 신재생에너지(태양광·풍력) 인버터·컨버터 제조사 / CMC·CT 등 전력센서류 — 글로벌 전기차 및 ESS 업체 / Flexible Battery — 웨어러블 디바이스·의료기기·메타버스 관련 기기 제조사 / 수처리 필터·환기시스템 등 환경부문 — 수처리·공기질 개선 설비 공급사 및 관련 프로젝트 업체",
+    "price_factors": [
+      {
+        "factor": "EV수요",
+        "detail": "전기자동차 보급 확대는 고효율 자성소재와 파워모듈 부품 수요를 직접적으로 증가시켜 실적에 긍정적 영향을 줍니다."
+      },
+      {
+        "factor": "재생에너지",
+        "detail": "태양광·풍력 발전 확대는 인버터·컨버터용 핵심소재 수요를 늘려 매출에 기여할 수 있습니다."
+      },
+      {
+        "factor": "환경규제",
+        "detail": "수질·대기 관련 규제 강화는 수처리 필터·환기시스템 등 환경제품 수요를 촉진합니다."
+      },
+      {
+        "factor": "원재료비",
+        "detail": "원재료 가격과 제조원가 변화는 제품 가격경쟁력 및 마진에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "기술경쟁력",
+        "detail": "특허·공정·설계 기술 우위는 고객 확보와 제품 차별화에 중요한 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 첨단소재와 기능성 부품 및 환경/에너지 시스템 등의 사업영역을 가진 소재부품 기업으로 2004년 1월에 설립되었습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "아래의 사업영역 중 매출이 있는 현재 사업은 고효율 자성소재, 방열 및 Nano Membrane 소재(Vent), Flexible Battery, ESS, SiC파워반도체용 AMB 모듈 이고,"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "기타 매출: 5,115 (2.5%)"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4728,
+    "completion_tokens": 3002,
+    "reasoning_tokens": 2112,
+    "output_tokens": 890
+  },
+  "warnings": []
+}

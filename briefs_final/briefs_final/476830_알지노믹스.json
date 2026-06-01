@@ -1,0 +1,64 @@
+{
+  "stock_code": "476830",
+  "corp_name": "알지노믹스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 20:47",
+  "meta": {
+    "wics": "생물공학",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "알지노믹스는 RNA 편집·교정 분야의 플랫폼 기술을 보유한 바이오기업으로, RNA 치환효소(trans-splicing ribozyme) 기반 유전자치료제와 원형 RNA(circular RNA) 플랫폼을 중심으로 신약 파이프라인과 기술이전 사업을 전개하고 있습니다. 2025년 코스닥 상장을 통해 공모자금을 조달하며 재무적 기반을 확충했습니다.",
+    "business_model": "핵심은 자체 개발한 RNA 플랫폼을 통해 신약 후보물질을 발굴·최적화하고, 이를 임상개발 또는 기술이전(라이선스)으로 사업화하는 것입니다. 주요 수익원은 기술이전과 연구용역 수익이며, RZ-004·RZ-005·유전성 난청 치료제 등 파이프라인을 보유해 임상·기술이전 기반의 매출 창출을 목표로 하고 있습니다.",
+    "main_customers": "기술이전 — 글로벌 제약사·파트너사 / 연구용역 등 — 글로벌 제약사·라이선스 파트너 / RZ-004·RZ-005·유전성 난청 치료제 — 임상·기술이전 파트너",
+    "price_factors": [
+      {
+        "factor": "규제 인센티브",
+        "detail": "유전자치료제는 희귀질환 대상 개발 시 다양한 규제 인센티브를 활용할 수 있어 연구개발 및 상용화 기회에 영향합니다."
+      },
+      {
+        "factor": "바이오벤처 상업화",
+        "detail": "바이오벤처의 직접 허가·상업화 사례 비중(2024년 기준 약 40%)은 초기 기술 보유 기업의 상업화 기회를 확대합니다."
+      },
+      {
+        "factor": "글로벌 제휴",
+        "detail": "글로벌 제약사와의 연구협력·라이선스 계약은 기술료·연구용역 수익으로 실적에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "치료 패러다임",
+        "detail": "세포·유전자치료제가 새로운 치료 패러다임으로 주목받으면서 플랫폼 기술의 시장 수요가 증가할 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 영업 현황",
+        "evidence_text": "당사는 RNA 편집·교정 분야의 글로벌 선도기업으로서"
+      },
+      {
+        "field": "business_model",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "당사는 자체적으로 개발한 후보물질 혹은 플랫폼에 대한 기술이전 추진을 통한 사업화를 추구합니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "글로벌 제약사와 체결한 연구협력 및 라이선스 계약"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4962,
+    "completion_tokens": 4375,
+    "reasoning_tokens": 3648,
+    "output_tokens": 727
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

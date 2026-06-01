@@ -1,0 +1,62 @@
+{
+  "stock_code": "263720",
+  "corp_name": "디앤씨미디어",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 14:16",
+  "meta": {
+    "wics": "출판",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "디앤씨미디어는 웹소설·웹툰 전문 콘텐츠 공급업체로, 작가 수급 경쟁력과 편집부 기반으로 콘텐츠를 제작·출판·유통합니다. 제작한 콘텐츠는 전자책(e-Book)으로 다수 플랫폼에 제공하고, 도서로 출판해 온·오프라인 서점을 통해 판매합니다. IP(지식재산권) 확보와 OSMU(원소스 멀티유즈)를 통한 확장을 중점으로 사업을 운영하고 있습니다.",
+    "business_model": "사업부문은 웹소설(27.0%)과 웹툰(73.0%)으로 구성되며, 웹툰이 매출의 대부분을 차지합니다. 전자책 매출은 플랫폼에 콘텐츠를 등록하고 소비자의 유료결제 금액을 월별 정산하는 방식이고, 종이책 매출은 예스24·교보문고·알라딘 등 온·오프라인 서점 및 총판을 통한 유통으로 발생합니다.",
+    "main_customers": "전자책 — 플랫폼(카카오엔터테인먼트, 네이버시리즈, 리디북스 등) / 종이책 — 온·오프라인 서점(예스24, 교보문고, 알라딘) 및 총판",
+    "price_factors": [
+      {
+        "factor": "IP확장성",
+        "detail": "OSMU에 적합한 IP의 확보와 확장은 매출 다변화와 실적에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "해외시장",
+        "detail": "국내 시장은 성숙기인 반면 해외시장은 성장기여서 해외 진출 확대가 실적에 긍정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "플랫폼거래",
+        "detail": "국내 웹소설·웹툰 플랫폼의 거래액 정체는 연재 기반 매출 성장의 제약 요인이 될 수 있습니다."
+      },
+      {
+        "factor": "스낵컬쳐",
+        "detail": "스낵컬쳐(짧은 시간 소비형 콘텐츠) 트렌드는 이용자 기반 확대로 매출을 지지하지만 트렌드 변화 시 수요에 영향이 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사와 당사의 종속회사는 웹소설 및 웹툰 전문 콘텐츠 공급업체로서"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "웹소설: 19,318 (27.0%)"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "OSMU에 적합하기 때문에 IP 확장 가능성이 높으며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5276,
+    "completion_tokens": 3898,
+    "reasoning_tokens": 3200,
+    "output_tokens": 698
+  },
+  "warnings": []
+}

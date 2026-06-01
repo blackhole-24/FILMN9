@@ -1,0 +1,76 @@
+{
+  "stock_code": "005300",
+  "corp_name": "롯데칠성",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 19:10",
+  "meta": {
+    "wics": "음료",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "롯데칠성은 음료와 주류를 아우르는 종합 음료회사로, 탄산음료(칠성사이다·펩시콜라)와 밀키스·레쓰비 등 히트 브랜드를 보유하고 있습니다. 국내 다수의 음료·주류 제조공장을 운영하며, 2025년 연결 기준 매출액 39,711억원, 영업이익 1,672억원을 기록했습니다.",
+    "business_model": "주요 사업부문은 음료제조판매제/상품(매출의 34.3%)과 주류제조판매제/상품(매출의 16.4%)으로 구성되며, 음료 부문은 탄산음료 중심의 판매가 핵심 수익원이고 주류 부문은 소주·맥주·청주 등으로 매출을 창출합니다. 국내 생산 기반과 함께 '밀키스' 등 수출 품목을 통한 해외 매출도 병행하고 있습니다.",
+    "main_customers": "음료 — 국내 일반 소비자 및 해외 바이어(러시아·중국 등) / 주류 — 국내 일반 소비자 및 해외 바이어(미국·일본 등)",
+    "price_factors": [
+      {
+        "factor": "헬시 트렌드",
+        "detail": "제로 칼로리·건강기능성 음료 수요 확대는 탄산 및 기능성 제품의 매출에 직접적 영향을 미칩니다."
+      },
+      {
+        "factor": "원자재비",
+        "detail": "원당·오렌지 농축액·알루미늄 등 원자재 가격 변동은 제품 원가와 수익성에 영향을 줍니다."
+      },
+      {
+        "factor": "수출환경",
+        "detail": "글로벌 통상 여건 불확실성은 수출 시장(러시아·중국·미국·일본 등)의 매출 변동성을 키울 수 있습니다."
+      },
+      {
+        "factor": "수입경쟁",
+        "detail": "수입맥주 등 외부 경쟁 심화는 주류 부문 시장점유율과 판매 전략에 영향을 미칩니다."
+      },
+      {
+        "factor": "환경규제",
+        "detail": "저탄소 정책과 배출량 신고 등 환경 규제 대응은 생산비용과 브랜드 이미지에 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "이를 통해,당사는 2025년 연결 기준 매출액 39,711억원, 영업이익 1,672억원을 달성하였습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "음료제조판매제/상품: 880,023 (34.3%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "주류제조판매제/상품: 420,362 (16.4%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "음료 수출의주력 제품은 '밀키스'와 '레쓰비'이며, 주요 수출 국가는 러시아와 중국입니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "현재 음료 시장의 주요 트렌드는 '헬시플레저'이며, 이에 따라 제로 칼로리 음료, 건강기능성 음료 등의 제품군이 꾸준한 성장세를 보이고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4505,
+    "completion_tokens": 4358,
+    "reasoning_tokens": 3456,
+    "output_tokens": 902
+  },
+  "warnings": []
+}

@@ -1,0 +1,69 @@
+{
+  "stock_code": "418420",
+  "corp_name": "라온텍",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 19:16",
+  "meta": {
+    "wics": "반도체와반도체장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "라온텍은 2009년 10월 설립된 마이크로디스플레이 및 SoC(시스템반도체) 설계·제조 전문 기업으로, XR(AR/VR/MR) 스마트안경, 차량용 HUD(헤드업디스플레이), 광통신 장비 등에 들어가는 초소형 디스플레이와 관련 반도체·소프트웨어를 솔루션 형태로 제공합니다. 국내에서 마이크로디스플레이 솔루션(패널·구동칩·광학모듈·소프트웨어)을 제공하는 드문 기업으로 자리잡고 있습니다.",
+    "business_model": "핵심 사업은 마이크로디스플레이 및 관련 시스템반도체 SoC 사업과 모바일TV SoC 사업으로 구분됩니다. 제품군은 마이크로디스플레이 패널, 컨트롤러칩, 모바일TV(DAB) SoC 등으로 구성되며, 마이크로디스플레이는 패널·구동칩·광학모듈·소프트웨어를 통합한 솔루션으로 고객사에 공급하고 있습니다. 또한 LCoS 기반 양산 체계를 보유하면서 Micro-OLED·Micro-LED용 실리콘 백플레인 등 차세대 제품도 개발·협업 중입니다.",
+    "main_customers": "마이크로디스플레이·컨트롤러 SoC — XR(AR/VR/MR) 스마트안경 제조사, 자동차용 HUD 제조사, 광통신 장비·빔프로젝터 제조사 / 모바일TV SoC — 차량용 DAB 기능을 필요로 하는 자동차 제조사 및 소비가전업체",
+    "price_factors": [
+      {
+        "factor": "기술채택",
+        "detail": "시장에서 LCoS 채택 여부와 차세대 Micro-OLED·Micro-LED 상용화 속도가 실적과 수요에 직접적 영향을 줍니다."
+      },
+      {
+        "factor": "대량양산",
+        "detail": "LCoS의 대량 양산 능력은 공급 확대와 원가경쟁력에 유리하지만, 다른 기술의 양산전환 실패 시 수혜·부담이 달라집니다."
+      },
+      {
+        "factor": "공정공급",
+        "detail": "OLEDoS·LEDoS용 프론트 플레인 제조처(Foundry) 확보 여부는 신제품 상용화와 매출 확대에 중요한 변수입니다."
+      },
+      {
+        "factor": "광원성능",
+        "detail": "웨이브가이드의 낮은 광효율로 인해 고휘도 광원(레이저·고효율 LED) 채택이 제품 성능 및 설계 제약에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "마이크로디스플레이 및 SoC 반도체 설계/제조 전문 기업입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 마이크로디스플레이 및 관련 시스템 반도체 SoC 사업과 모바일TV SoC 사업을 영위하고 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "현재는 유럽의 차량에 필수 장착 기능인 DAB SoC로 사용되어 세계 유수 차량에 장착되고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "LCoS는 기술적으로 상용화 단계로 대량 양산이 가능한 기술입니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 5761,
+    "completion_tokens": 4096,
+    "reasoning_tokens": 3200,
+    "output_tokens": 896
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

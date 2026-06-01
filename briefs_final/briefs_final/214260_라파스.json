@@ -1,0 +1,87 @@
+{
+  "stock_code": "214260",
+  "corp_name": "라파스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 12:09",
+  "meta": {
+    "wics": "화장품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "라파스는 경피약물전달(TDDS)용 용해성 마이크로니들 패치의 연구개발·제조·판매를 영위하는 기업으로, 독자적 DEN(Droplet extension) 기술을 기반으로 패치 제품을 상용화해 매출을 창출하고 있습니다. 현재는 미용패치 등 화장품 분야에서 주로 매출이 발생하고 있으며, 향후 의약품·백신 패치·의료기기 등으로 사업 영역을 확장할 계획입니다.",
+    "business_model": "주력 사업은 용해성 마이크로니들 기반의 코스메슈티컬(화장품) 패치 개발·제조·판매이며, FY2025 사업부문별 영업수익은 전사 89.4%, 기타 10.6%, 식품 0.1%로 구성되어 있습니다. 핵심 경쟁력은 DEN 기술을 통한 빠른 제조 공정과 고수율 생산 역량으로, 이를 바탕으로 미용패치에서 의약품·백신 패치로 파이프라인을 확장하고 있습니다.",
+    "main_customers": "전사 — 화장품(미용패치) 구매 소비자 및 유통채널 / 기타 — 기타 사업 부문 대상 고객 / 식품 — 식품 관련 소비자",
+    "price_factors": [
+      {
+        "factor": "국내 소비",
+        "detail": "화장품 산업은 민간 소비에 민감하여 국내 소비 둔화 시 매출에 직접적인 영향을 받을 수 있습니다."
+      },
+      {
+        "factor": "계절성",
+        "detail": "일반 화장품은 계절적 변동이 크지만 당사 미용패치는 계절 영향이 크지 않아 상대적 안정성이 존재합니다."
+      },
+      {
+        "factor": "원료 수급",
+        "detail": "백신 등 바이오 의약품 탑재 개발은 국내 백신 원료 수급 난항이 실적·개발 일정에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "R&D·임상",
+        "detail": "임상 성과와 파이프라인 진전 여부가 중장기적 성장성 및 시장 주목도에 큰 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가.  회사의 현황",
+        "evidence_text": "경피약물전달(TDDS) 기술인 용해성 마이크로니들"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "가.  회사의 현황",
+        "evidence_text": "미용패치 등 화장품 분야에서 주로 매출이 발생"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "전사: 9,350 (89.4%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "기타: 2,061 (10.6%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "식품: 12 (0.1%)"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "나. 라파스만의 독창적 Droplet extension(DEN) 기술",
+        "evidence_text": "공정이 매우 간단하여 제조에 걸리는 시간이 약 5분 내외"
+      },
+      {
+        "field": "business_model",
+        "source_section": "나. 라파스만의 독창적 Droplet extension(DEN) 기술",
+        "evidence_text": "90% 이상의 높은 수율로 한 달에 수백만 개의 패치를 생산"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "다. 회사의 성장성",
+        "evidence_text": "임상 1상을 성공적으로 완료"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4331,
+    "completion_tokens": 3313,
+    "reasoning_tokens": 2368,
+    "output_tokens": 945
+  },
+  "warnings": []
+}

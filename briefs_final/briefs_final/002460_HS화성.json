@@ -1,0 +1,72 @@
+{
+  "stock_code": "002460",
+  "corp_name": "HS화성",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 18:05",
+  "meta": {
+    "wics": "건설",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "HS화성은 건설업을 주력으로 하는 기업으로, 건축·토목·분양 및 PC사업을 운영하며 '화성파크드림' 브랜드로 주택 분양을 전개하고 있습니다. ISO 9001·14001·45001 등 시스템 인증을 바탕으로 품질·환경·안전보건 경영을 유지하고 있으며, 창사 이래 최대 수주 실적인 1조5천억원을 달성했습니다.",
+    "business_model": "FY2025 기준 사업부문별 영업수익은 국내도급공사 33.9%, 토목공사 8.1%, 해외도급공사 58.0%로 해외도급 비중이 큽니다. 분양부문은 종속회사인 평택석정파크드림의 준공에 따른 분양수익이 반영되며, PC사업부의 기술력과 브랜드 마케팅을 통해 수주 및 품질 관리를 병행하고 있습니다.",
+    "main_customers": "국내도급공사 — 민간 건축주 및 국내 도급 발주처 / 토목공사 — 관급(정부·지방자치단체) 및 대형 인프라 발주처 / 해외도급공사 — 해외 발주처 및 해외 프로젝트 발주자 / 분양부문 — 주택 구매자(개별 소비자)",
+    "price_factors": [
+      {
+        "factor": "수주경쟁",
+        "detail": "신규 중소업체의 시장 참여로 출혈 경쟁이 발생하면 수주단가와 마진이 하락할 수 있습니다."
+      },
+      {
+        "factor": "정책·규제",
+        "detail": "정부의 부동산 규제 완화나 관급공사 확대 여부가 수주 물량과 매출에 직접 영향을 줍니다."
+      },
+      {
+        "factor": "자재비(원가)",
+        "detail": "시멘트·철근 등 자재비 및 외주비 변동은 공사원가율과 이익률에 즉각적인 영향을 미칩니다."
+      },
+      {
+        "factor": "환경규제",
+        "detail": "물환경·대기·건설폐기물 등 환경규제 준수 비용이 증가하면 프로젝트 비용과 일정에 부담이 될 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "나. 사 업 현 황",
+        "evidence_text": "연결실체는 건설사업 전부문 ISO 9001과 14001,45001 시스템 인증을 바탕으로"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "창사 이래 최대 수주 실적인 1조5천억원을 달성하는 쾌거를 이루어 냈습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "국내도급공사: 63,425 (33.9%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "토목공사: 46,833 (8.1%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "해외도급공사: 322,357 (58.0%)"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4202,
+    "completion_tokens": 4224,
+    "reasoning_tokens": 3392,
+    "output_tokens": 832
+  },
+  "warnings": []
+}

@@ -1,0 +1,67 @@
+{
+  "stock_code": "338220",
+  "corp_name": "뷰노",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 16:51",
+  "meta": {
+    "wics": "건강관리기술",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "뷰노는 2014년 설립된 의료 인공지능(AI) 전문기업으로, 딥러닝 기반 의료 솔루션의 상용화를 선도한 시장 개척자입니다. 자체 AI 엔진 개발과 VUNO Med-BoneAge 등 초기 상용화 성과를 바탕으로 의료 영상과 생체신호 전반을 대상으로 제품을 개발·공급하고 있습니다.",
+    "business_model": "핵심 사업은 생체 신호(예: VUNO Med-DeepCARS, HATIV P30) 제품군, 영상 의학(예: VUNO Med-Fundus AI, VUNO Med-Chest X-Ray) 제품군, 그리고 연구개발 성과를 바탕으로 한 기술이전 계약으로 구분됩니다. 당사는 구독형 서비스(SaaS)를 지향하며, FY2025 기준 예후·예측 솔루션 제품 매출이 257.0억원(73.8%)을 차지했고 내수 비중은 3.0%입니다.",
+    "main_customers": "생체 신호 제품군 — 병원(입원환자 대상) / 영상 의학 제품군 — 의료기관·의료장비 제조사 / 기술이전 — 제3자(기술 수요 기업)",
+    "price_factors": [
+      {
+        "factor": "규제 승인",
+        "detail": "의료기기 허가·임상시험 진행 여부가 제품 출시 시점과 매출 발생에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "보험·급여 등재",
+        "detail": "비급여·선별급여·급여 인정 여부가 병원 수요와 제품 채택률에 큰 차이를 만듭니다."
+      },
+      {
+        "factor": "해외 인증·진출",
+        "detail": "FDA 지정·상표권 등 해외 성과는 미국 등 큰 시장에서의 확장과 매출 성장에 영향합니다."
+      },
+      {
+        "factor": "마케팅·수요 창출",
+        "detail": "산업이 도입기인 만큼 홍보·마케팅 활동이 수요 형성과 고객 확보 비용을 결정합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "라. 회사의 개황 (1) 기반 기술",
+        "evidence_text": "국내에서 유일하게 자체 인공지능 엔진인 VUNO NET을 개발함으로써"
+      },
+      {
+        "field": "business_model",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "전체 영업수익 중 예후ㆍ예측 솔루션 제품 매출은 257.0억원(73.8%)을 차지합니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "당사는 제품을 의료기관 또는 일반 소비자에게 직접 공급하거나,"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "본 산업에 속해 있는 기업들은 수요를 창출하기 위하여 다양한 홍보 마케팅 활동을 진행하고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5366,
+    "completion_tokens": 5491,
+    "reasoning_tokens": 4736,
+    "output_tokens": 755
+  },
+  "warnings": []
+}

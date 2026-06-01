@@ -1,0 +1,69 @@
+{
+  "stock_code": "081580",
+  "corp_name": "성우전자",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 06:11",
+  "meta": {
+    "wics": "핸드셋",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "성우전자는 전기·전자(핸드셋) 분야에서 스마트폰용 내외장재 및 광학부품 등을 생산하는 기업입니다. 사업은 이동통신단말기, 광학기기, 사출품, 기타 4개 부문으로 구성되어 있으며, 본사 및 베트남 공장 등으로 글로벌 생산망을 운용하고 있습니다.",
+    "business_model": "핵심 사업은 스마트폰용 Shield Can, Bracket, Deco(외장소물류), Metal Case 등 금속 프레스 부품과 스마트폰 카메라용 OIS(광학식손떨림보정) 부품, 배터리 케이스 등 사출품 제조입니다. 기타 부문에서는 시스템 소프트웨어 개발, 필러·미용기기·화장품 제조 및 부동산 임대수익도 병행하고 있으며, 판매단가는 주요 고객인 삼성전자와의 협의로 결정되고 수출은 삼성전자를 통한 L/C수출 형태로 이루어집니다.",
+    "main_customers": "이동통신단말기 부문 — 세트 제조사(주로 삼성전자 등) / 광학기기 부문 — 스마트폰 카메라 모듈 제조사 / 사출품 부문 — 배터리·가전 등 부품 수요처 / 기타 부문 — 소프트웨어·미용기기·화장품 관련 고객 및 임차인",
+    "price_factors": [
+      {
+        "factor": "교체수요",
+        "detail": "스마트폰 시장의 교체수요 둔화(저성장)가 지속되면 출하 감소로 부품 수요와 실적에 부담이 될 수 있습니다."
+      },
+      {
+        "factor": "발열(방열)",
+        "detail": "온디바이스AI로 연산 부하와 발열이 증가하면 방열·열관리 부품 수요가 늘어나 해당 부품 실적에 직접적 영향이 가능합니다."
+      },
+      {
+        "factor": "폴더블",
+        "detail": "폴더블 스마트폰 시장의 고성장이 이어지면 초박형·고집적 부품 등 고부가 라인업의 수요 확대가 예상됩니다."
+      },
+      {
+        "factor": "고객집중",
+        "detail": "수출 및 판매관행이 삼성전자 중심으로 형성되어 있어, 주요 고객의 수요 변동이나 협상력 변화가 실적에 큰 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "사업부문별 현황",
+        "evidence_text": "본사 및 베트남에 공장 시설을 보유하여 글로벌 생산망을 구축하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "주요 제품 등의 가격변동추이",
+        "evidence_text": "판매단가는 삼성전자와의 협의에 따라 이루어집니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "주요 제품 등의 가격변동추이",
+        "evidence_text": "당사의 수출은 삼성전자를 통한 L/C수출이기 때문에"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "이동통신단말기 부문 [산업의 특성]",
+        "evidence_text": "스마트폰 시장은 ‘17년 처음으로 역성장을 기록한 후 ‘21년을 제외하면 지속적으로 역성장 중에 있습니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4143,
+    "completion_tokens": 4210,
+    "reasoning_tokens": 3392,
+    "output_tokens": 818
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

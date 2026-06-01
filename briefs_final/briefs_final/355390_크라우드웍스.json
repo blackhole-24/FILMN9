@@ -1,0 +1,66 @@
+{
+  "stock_code": "355390",
+  "corp_name": "크라우드웍스",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:38",
+  "meta": {
+    "wics": "IT서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "크라우드웍스는 IT서비스 업종에서 AI 데이터와 AI 솔루션, 교육 서비스를 함께 제공하는 기업입니다. 사업보고서에서는 AI 산업의 발전 단계에 맞춰 데이터 파운드리(Data Foundry)로서의 역할을 수행하고 있다고 설명합니다. 2025년 연결기준 매출은 105억원, 영업손실은 134억원이었습니다.",
+    "business_model": "사업부문별 영업수익은 Data 사업 69.5%, AI사업 14.7%, Academy 사업 10.2%, Industrial AI Solution 5.6%로 구성되어 있습니다. Generative AI(생성형 AI)용 데이터 구축부터 Agentic AI(업무 수행형 AI) 솔루션, 피지컬 AI(물리 환경에서 행동하는 AI) 데이터까지 전주기 데이터 처리 역량을 제공하는 구조입니다. 2025년 2월에는 Agentic AI 종합 솔루션 'Alpy'를 출시했습니다.",
+    "main_customers": "Data 사업 — AI 학습데이터가 필요한 기업 및 공공부문 / AI사업 — 기업 맞춤형 AI 도입 수요가 있는 고객사 / Industrial AI Solution — 제조업 고객사 / Academy 사업 — AI 교육 수요가 있는 기업 및 개인",
+    "price_factors": [
+      {
+        "factor": "AI수요",
+        "detail": "AI 에이전트와 피지컬 AI 도입이 늘수록 데이터 구축과 구조화 수요가 확대되어 실적에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "공공예산",
+        "detail": "정부와 지방자치단체의 AI 예산 확대는 B2G(정부·공공 대상 사업) 매출 기회를 늘릴 수 있습니다."
+      },
+      {
+        "factor": "제조확산",
+        "detail": "제조업의 AI 전환이 빨라질수록 비전 센서 기반 솔루션과 스마트팩토리 관련 수요가 커질 수 있습니다."
+      },
+      {
+        "factor": "업무자동화",
+        "detail": "반복 업무 자동화 수요가 커지면 Agentic AI 솔루션 도입이 늘어 사업 확장에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "경쟁심화",
+        "detail": "AI 데이터와 솔루션 시장 경쟁이 심해질수록 고객 확보와 수익성에 부담이 될 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 업계의 현황",
+        "evidence_text": "당사는 이러한 산업 변화 속에서 각 AI 발전 단계별로 요구되는 고품질 데이터를 공급하는 역할을 수행하고 있으며, AI 산업 전반의 기반을 지원하는 ‘데이터 파운드리(Data Foundry)’로서의 입지를 확보하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "■ 사업부문별 영업수익 구성 (FY2025)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "라. 시장여건 및 영업의 개황",
+        "evidence_text": "금융, 제조, 유통 등 다양한 산업에서 AI 도입이 가속화되면서, 각 기업의 특정 요구에 맞춘 맞춤형 AI 솔루션의 수요가 증가할 것으로 전망"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5318,
+    "completion_tokens": 789,
+    "reasoning_tokens": 0,
+    "output_tokens": 789
+  },
+  "warnings": []
+}

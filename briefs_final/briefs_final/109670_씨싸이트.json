@@ -1,0 +1,67 @@
+{
+  "stock_code": "109670",
+  "corp_name": "씨싸이트",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 08:38",
+  "meta": {
+    "wics": "섬유,의류,신발,호화품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "씨싸이트는 1999년 설립된 니트(Knit) 의류 전문 제조업체로, OEM(주문자상표부착방식)과 일부 ODM(제조자 설계 생산)을 통해 글로벌 바이어에 제품을 공급합니다. 과테말라·인도네시아 등 해외 생산거점을 활용해 주로 수출 중심의 영업을 해왔습니다.",
+    "business_model": "당사의 핵심 사업은 KNIT 의류 생산·수출로, 2025 회계연도 기준 KNIT 의류가 영업수익의 100.0%를 차지합니다. 대부분 OEM 방식으로 글로벌 브랜드의 주문을 받아 종속법인 생산지(과테말라, 인도네시아)에서 제조·수출하는 구조입니다.",
+    "main_customers": "KNIT 의류 — GAP(OLD NAVY) (미국 대형 소매업체), Hybrid Apparel (의류 제조·유통 기업), Mad Engine (글로벌 의류 벤더사)",
+    "price_factors": [
+      {
+        "factor": "미국 관세",
+        "detail": "미국 관세 이슈가 오더 수주 축소 및 생산비 증가로 이어져 실적에 직접적 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "경기민감성",
+        "detail": "의류산업은 GDP 및 소비성향에 따라 수요가 변동하므로 경기 후퇴 시 수요 감소에 민감합니다."
+      },
+      {
+        "factor": "생산기지",
+        "detail": "저임금·근접성 등을 고려한 생산기지 선택이 경쟁력에 직결되며 글로벌 OEM 경쟁 심화가 가격·수주에 영향합니다."
+      },
+      {
+        "factor": "계절성",
+        "detail": "시즌별로 판매 특성이 달라 제품 유형에 따라 수요 변동(예: S/S, F/W)이 발생합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "연결회사는 1999년 3월 설립되었으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "KNIT 의류: 185,576 (100.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 나. 주요제품",
+        "evidence_text": "주요 고객사로는 GAP(OLD NAVY), Hybrid Apparel, Mad Engine이 있으며,"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "당사는 미국 시장의 의존도가 높은 의류 제조업을 영위하고 있으며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4911,
+    "completion_tokens": 2866,
+    "reasoning_tokens": 2176,
+    "output_tokens": 690
+  },
+  "warnings": []
+}

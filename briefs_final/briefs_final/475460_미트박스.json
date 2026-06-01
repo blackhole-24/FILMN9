@@ -1,0 +1,67 @@
+{
+  "stock_code": "475460",
+  "corp_name": "미트박스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 20:42",
+  "meta": {
+    "wics": "인터넷과카탈로그소매",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "미트박스글로벌은 축산물 직거래 플랫폼인 '미트박스'를 운영하는 기업으로, 미트박스 서비스는 2014년에 출시되어 축산물 유통의 복잡성·정보 비대칭 문제를 해소하는 데 주력하고 있습니다. IT 기반의 직거래 플랫폼을 통해 유통 단계를 단순화하고 가격 정보의 투명성을 제고하는 것을 핵심 가치로 삼고 있습니다.",
+    "business_model": "FY2025 기준 사업부문별 영업수익은 중개매출 25.3%, PB 외 50.1%, PB 21.1%, 기타매출 3.5%로 구성되어 있습니다. 플랫폼은 중개수수료 및 상품 판매를 통해 수익을 창출하며, PB(자체브랜드) 상품을 통해 품질 관리와 공급 안정성을 확보함으로써 고객 락인(고정화)을 도모합니다.",
+    "main_customers": "중개매출 — 식당·정육점 등 자영업자 / PB 외 — 식당·정육점 등 자영업자 / PB — 식당·정육점 등 자영업자 / 기타매출 — 식당·정육점 등 자영업자",
+    "price_factors": [
+      {
+        "factor": "공급 비탄력성",
+        "detail": "축산물은 생산 조정이 즉시 어렵기 때문에 수급 변동이 가격과 마진에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "사회적·계절적 수요",
+        "detail": "명절·연말·가족 행사 등 사회적 요인에 따른 외식 수요 변화가 거래액 변동으로 연결됩니다."
+      },
+      {
+        "factor": "온라인 전환 및 경쟁",
+        "detail": "온라인 식품 시장의 확대와 대형 유통·플랫폼과의 경쟁 상황이 매출 성장과 고객 확보에 영향을 줍니다."
+      },
+      {
+        "factor": "환율 변동",
+        "detail": "연결회사 활동에서 환율 노출이 있으며 환율 변동이 손익에 영향을 미칠 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "미트박스글로벌은 축산물 직거래 플랫폼인 미트박스를 운영하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "유통 단계를 단순화하고 가격 정보의 투명성을 제고하였습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성 (FY2025)",
+        "evidence_text": "PB 외: 67,934 (50.1%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "현재 식당, 정육점과 같은 자영업자분들이 주 구매자입니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5099,
+    "completion_tokens": 3171,
+    "reasoning_tokens": 2432,
+    "output_tokens": 739
+  },
+  "warnings": []
+}

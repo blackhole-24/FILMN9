@@ -1,0 +1,71 @@
+{
+  "stock_code": "248070",
+  "corp_name": "솔루엠",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:31",
+  "meta": {
+    "wics": "전자장비와기기",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "솔루엠은 경기도 용인시에 본사를 둔 전자기기 부품 연구개발·제조 기업으로, 해외 종속회사를 통해 전자부품의 생산과 판매를 하고 있습니다. 전자부품과 ICT(정보통신기술) 사업을 함께 운영하며, 파워모듈과 ESL(전자식 가격표시기), IoT(사물인터넷) 제품을 중심으로 사업을 전개하고 있습니다.",
+    "business_model": "사업부문별 매출은 전자부품이 66.2%, ICT가 33.8%를 차지합니다. 전자부품 사업은 TV용 파워(SMPS), 아답터, 서버·조명·EV 충전기용 파워모듈과 3IN1보드 같은 제품을 만들고, ICT 사업은 ESL과 IoT 제품을 생산·판매하는 구조입니다. 파워모듈은 저와트부터 고와트까지 풀 라인업을 갖추고 있으며, 3IN1보드는 영상보드 기술을 활용해 Digital Signage(디지털 사이니지) 등으로 확장하고 있습니다.",
+    "main_customers": "전자부품 — TV 제조업체, 휴대전화·노트북·서버·조명·EV 충전기 관련 고객 / ICT — ESL 및 IoT 제품을 사용하는 고객사",
+    "price_factors": [
+      {
+        "factor": "수요변동",
+        "detail": "고객 요구에 따라 사양과 규격이 달라지고 제품별 가격 편차가 커서, 수요와 제품 믹스 변화가 실적에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "기술변화",
+        "detail": "기술 발전에 따라 제품 사양이 급격히 바뀌는 산업 특성상, 신제품 대응 속도가 경쟁력과 수익성에 중요합니다."
+      },
+      {
+        "factor": "글로벌경기",
+        "detail": "전쟁, 관세, 미·중 갈등 같은 외부 변수로 글로벌 경기 위축이 심해지면 전자부품 수요와 실적에 부담이 될 수 있습니다."
+      },
+      {
+        "factor": "보호주의",
+        "detail": "자국 우선주의와 보호무역 강화는 해외 생산·판매 구조를 가진 기업의 경영 환경 불확실성을 키울 수 있습니다."
+      },
+      {
+        "factor": "환율변동",
+        "detail": "원화 변동성이 커지면 해외 법인을 둔 생산·판매 구조와 원가 및 수익성에 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 사업의 내용 요약",
+        "evidence_text": "본사에서 보유하고 있는 개발기술 및 지적재산권을 기반으로 하여 중국, 베트남, 멕시코, 인도 등 해외에 종속회사를 두고"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "전자부품: 1,125,152 (66.2%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "ICT: 575,094 (33.8%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "다. 각 사업부문의 시장여건 및 영업의 개황 [ 전자부품사업부문 ] (1) 산업의 특성",
+        "evidence_text": "주요거래처에 국내 최초 개발에 성공한 3IN1보드의 채택을 제안"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4109,
+    "completion_tokens": 865,
+    "reasoning_tokens": 0,
+    "output_tokens": 865
+  },
+  "warnings": []
+}

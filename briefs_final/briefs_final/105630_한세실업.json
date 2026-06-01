@@ -1,0 +1,67 @@
+{
+  "stock_code": "105630",
+  "corp_name": "한세실업",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 08:26",
+  "meta": {
+    "wics": "섬유,의류,신발,호화품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "한세실업은 2009년 1월 1일 한세예스24홀딩스와 인적분할을 통해 설립된 글로벌 의류 제조기업으로, 중미와 동남아에 걸친 생산거점에서 원단 생산과 완제품 의류 생산을 수행하고 있습니다. 니카라과·과테말라 등 중미와 베트남·인도네시아 등 동남아에 현지법인을 운영하는 대형 생산네트워크를 핵심 경쟁력으로 보유하고 있습니다.",
+    "business_model": "핵심 수익원은 OEM/ODM(주문자상표부착생산·제조자개발생산)으로 FY2025 기준 OEM/ODM부문이 매출의 87.7%를 차지합니다. 원단사업부문은 염색·임가공 등을 포함하며 제품 구성(단가), 원자재 비용 및 바이어와의 단가협의 구조가 수익성에 영향을 미칩니다.",
+    "main_customers": "OEM/ODM — TARGET, OLD NAVY, GAP, KOHL'S, WAL-MART, CARHARTT, AERO POSTALE, CARTERS (미국 대형 바이어) / 원단사업부문 — 염색·임가공을 필요로 하는 의류 제조 수요자",
+    "price_factors": [
+      {
+        "factor": "제품믹스",
+        "detail": "단가가 높은 제품군 비중이 늘면 평균 공급단가와 매출단가가 상승하여 실적에 직접 영향."
+      },
+      {
+        "factor": "환율변동",
+        "detail": "주요 매출처가 미국인 만큼 환율 변동이 매출원가 및 환산이익에 영향을 미칩니다."
+      },
+      {
+        "factor": "원자재비",
+        "detail": "원사·원단 가격 변동은 원단사업부 및 OEM/ODM 원가율에 즉시 반영됩니다."
+      },
+      {
+        "factor": "노동비용",
+        "detail": "중미·동남아 생산기지의 인건비·지역별 경쟁력 변화가 비용구조와 납품단가에 영향."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "글로벌 생산네트워크를 구축하고 있는 전문 의류 제조 기업으로"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "OEM/ODM부문: 1,843,526 (87.7%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "TARGET, OLD NAVY, GAP, KOHL'S, WAL-MART"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "OEM/ODM부문 > 가격변동의 원인",
+        "evidence_text": "단가가 높은 제품군의 비중이 늘어날 때 평균적인 가격이 상승됩니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5258,
+    "completion_tokens": 3742,
+    "reasoning_tokens": 3008,
+    "output_tokens": 734
+  },
+  "warnings": []
+}

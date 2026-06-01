@@ -1,0 +1,76 @@
+{
+  "stock_code": "011200",
+  "corp_name": "HMM",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 20:44",
+  "meta": {
+    "wics": "해운사",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "HMM은 컨테이너와 벌크 등 해상운송 전반을 아우르는 종합해운물류기업으로, 소형선부터 초대형 컨테이너선 및 VLCC(초대형유조선)를 포함한 선대를 보유하고 전세계를 연결하는 항로망을 운영합니다. 2026년 누적 기준 컨테이너 585만 TEU, 벌크 4,569만 MT 등의 생산능력을 보유하고 있어 대형 선사로서의 규모를 갖추고 있습니다.",
+    "business_model": "핵심 사업부문은 컨테이너(컨테이너운송), 벌크(유조선·건화물선) 및 기타(터미널 등)로 구성되며, 2025회계연도 연결매출 기준 컨테이너 84.9%, 벌크 13.3%, 기타 1.8%의 매출 비중을 차지합니다. 선대 기반의 운송서비스 제공과 항로망·터미널 연계를 통해 화물 운송 및 물류 솔루션(door-to-door 서비스)을 주수익원으로 삼고 있습니다.",
+    "main_customers": "컨테이너 — 얼라이언스 소속선사 / 벌크 — GS 칼텍스, 현대글로비스 등 / 기타 — 터미널 관련 사업자",
+    "price_factors": [
+      {
+        "factor": "글로벌 수요",
+        "detail": "세계 경기·교역량 변동에 따라 화물 수요가 민감하게 변동하여 운임 및 실적에 직접 영향을 미칩니다."
+      },
+      {
+        "factor": "선복(공급)상태",
+        "detail": "선박 건조에 장기간이 소요되고 공급이 비탄력적이어서 선복 과잉 또는 부족이 운임 변동성을 키웁니다."
+      },
+      {
+        "factor": "유가",
+        "detail": "주요 원재료인 유가 변동은 운항비용과 보험·운임 수준에 영향을 줍니다."
+      },
+      {
+        "factor": "환경규제",
+        "detail": "IMO(국제해사기구) 등 환경규제 강화로 친환경 연료·신조선 투자 비용이 늘어날 수 있습니다."
+      },
+      {
+        "factor": "기술도입",
+        "detail": "사물인터넷·빅데이터·인공지능 도입은 운영비용 효율화로 운임·수익구조에 영향을 미칠 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "당사는 종합해운물류기업으로서 일반화물과 냉동화물, 특수화물 등 컨테이너로 운반 가능한 모든 화물은 물론, 원자재와 원유, 플랜트 등 벌크화물에 이르기까지 상품 특성에 맞는 물류서비스를 제공합니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "※ 2025사업연도 연결매출 비중 : 컨테이너선 부문 84.9%, 벌크선 부문 13.3%, 기타 1.8%※"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "주요 매출처는 얼라이언스 소속선사, GS 칼텍스, 현대글로비스 등 입니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "영업 현황",
+        "evidence_text": "해운 경기는 세계 경제 및 정치 상황, 계절적 요인 및 주요 원재료인 유가 등에 상당한 영향을 받으며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "영업 현황",
+        "evidence_text": "국제해사기구(IMO)는 선박에서 배출되는 다양한 오염물질(온실가스, 질소산화물, 황산화물 등) 감축을 위해 환경규제를 강화하고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5566,
+    "completion_tokens": 3615,
+    "reasoning_tokens": 2624,
+    "output_tokens": 991
+  },
+  "warnings": []
+}

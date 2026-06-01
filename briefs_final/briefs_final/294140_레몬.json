@@ -1,0 +1,71 @@
+{
+  "stock_code": "294140",
+  "corp_name": "레몬",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 15:24",
+  "meta": {
+    "wics": "화학",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "레몬은 화학 업종에서 나노섬유 기반 제품과 전자부품을 주력으로 하는 기업으로, 나노관련사업이 매출의 대부분을 차지합니다. 나노섬유는 필터·멤브레인 등 고성능 여과소재와 기능성 복합소재로 적용 범위를 넓히고 있습니다.",
+    "business_model": "사업부문별 영업수익은 나노관련사업이 95.5%로 압도적 비중을 차지하고, 전자부품사업이 0.4%, 기타가 4.1%를 기록합니다; 따라서 핵심 수익원은 나노섬유 기반의 필터·멤브레인 등 나노관련제품(나노관련사업)이며, 전자부품사업은 소규모로 영위됩니다.",
+    "main_customers": "나노관련사업 — 필터·공조·의류·위생용품 및 방산·자동차 관련 제조사 / 전자부품사업 — 스마트기기·전기차·의료기기 등 전자장비 제조사",
+    "price_factors": [
+      {
+        "factor": "규제(대체)",
+        "detail": "PFAS(과불화화합물) 규제 강화로 비불소(PFAS-Free) 대체소재 수요가 증가하며 제품 수요·구성에 영향."
+      },
+      {
+        "factor": "환경정책",
+        "detail": "글로벌 환경 규제 및 공기질 개선 정책으로 고효율 여과소재 수요가 확대되어 실적에 긍정적 영향."
+      },
+      {
+        "factor": "팬데믹·수요",
+        "detail": "초미세먼지·바이러스 이슈로 마스크·여과소재에 대한 관심과 수요가 지속되어 매출에 직접 영향."
+      },
+      {
+        "factor": "전기차 확산",
+        "detail": "전기차 보급 확대에 따른 차량용·공조용 필터 수요 증가가 관련 제품 수요를 견인."
+      },
+      {
+        "factor": "공급력",
+        "detail": "나노멤브레인 등 기술주도형 시장 특성상 공급자의 협상력이 강해 가격·공급 조건이 실적에 영향."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 업계 현황  [나노관련사업]",
+        "evidence_text": "나노섬유는 조직이 치밀하고 다공성 구조로 초미세먼지와 바이러스 등의 물리적 차단에도 큰 효과를 가집니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "나노관련사업: 7,119 (95.5%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 업계 현황  [나노관련사업]",
+        "evidence_text": "마스크에 대한 관심과 수요가 증가하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나. 주요 제품 등의 가격 변동 추이 [나노관련사업]",
+        "evidence_text": "공급자의 협상력은 비교적 강한 편이며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3947,
+    "completion_tokens": 3096,
+    "reasoning_tokens": 2304,
+    "output_tokens": 792
+  },
+  "warnings": []
+}

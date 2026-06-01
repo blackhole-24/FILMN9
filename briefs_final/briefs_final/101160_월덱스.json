@@ -1,0 +1,76 @@
+{
+  "stock_code": "101160",
+  "corp_name": "월덱스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 07:59",
+  "meta": {
+    "wics": "반도체와반도체장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "월덱스는 2000년 설립된 반도체 식각(Etching) 공정용 실리콘 부품 전문회사로 출발해 쿼츠, 알루미나 등 파인세라믹 소재로 사업영역을 확대한 기업입니다. 반도체 공정에서 수율에 직접 영향을 미치는 핵심 부품을 공급하며 국내외 반도체사와의 협업을 통해 기술적 입지를 다져왔습니다.",
+    "business_model": "핵심 사업은 반도체 공정에 투입되는 실리콘 부품, 쿼츠 부품 및 파인세라믹 제품으로 구성되며, 주로 에칭 공정의 소모성 부품을 제조·공급합니다. 사업부문별 매출은 실리콘 72.0%, 쿼츠 17.9%, 알루미나 등 10.1%로 실리콘 제품이 매출의 대부분을 차지해 안정적인 수익 기반을 형성하고 있습니다.",
+    "main_customers": "반도체용장비재료(실리콘) — 국내외 반도체 소자업체(예: 삼성전자·SK하이닉스) / 쿼츠 — 국내외 반도체 소자업체 / 알루미나 외 파인세라믹 — 국내외 반도체 소자업체",
+    "price_factors": [
+      {
+        "factor": "전방 설비투자",
+        "detail": "반도체 제조장비 및 소자업체의 설비투자가 늘어나면 에칭용 소모성 부품 수요가 직접 증가합니다."
+      },
+      {
+        "factor": "AI·데이터센터 수요",
+        "detail": "AI·데이터센터 확대로 반도체 시장이 성장하면 메모리·로직 등 수요 증가로 부품 수요도 동반 확대됩니다."
+      },
+      {
+        "factor": "제품 상용화 지연",
+        "detail": "에칭 부품은 연구개발과 상업화에 시간이 걸리며, 상용화 확정 시 매출 성장 폭이 커집니다."
+      },
+      {
+        "factor": "고객 가동률",
+        "detail": "주요 고객사의 가동률 변동(예: 해외 고객 가동률 하락)은 매출 변동으로 이어집니다."
+      },
+      {
+        "factor": "환율·해외 매출 비중",
+        "detail": "영업의 상당 부분이 해외에서 발생해(65% 이상) 환율변동이 실적에 영향을 미칠 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "주식회사 월덱스는 2000년 반도체용 실리콘 부품 전문회사로 설립되어"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[표] 가. 주요 제품 등의 현황",
+        "evidence_text": "실리콘 | ... | 210,061(72.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사의 제품 수요자는 전세계 모든 소자업체라고 할 수 있으며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황 (참고1)",
+        "evidence_text": "AI와 데이터 센터 인프라 수요 폭발로"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "영업부분의 65% 이상이 해외에서 발생하고 있는 바"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4742,
+    "completion_tokens": 3398,
+    "reasoning_tokens": 2496,
+    "output_tokens": 902
+  },
+  "warnings": []
+}

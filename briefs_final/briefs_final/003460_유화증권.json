@@ -1,0 +1,77 @@
+{
+  "stock_code": "003460",
+  "corp_name": "유화증권",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 09:42",
+  "meta": {
+    "wics": "증권",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "유화증권은 금융투자업을 영위하는 증권사로, 투자매매업·투자중개업·투자일임업을 수행하고 있습니다. 회사는 리테일부문, 상품운용부문, 자산운용부문 및 기타로 구성되어 있으며, 2025년 회계연도 기준 자산총계는 8,105억원입니다.",
+    "business_model": "FY2025 사업부문별 영업수익은 이자수익 56.6%, 기타영업수익 19.5%, 당기손익-공정가치측정 금융자산 평가이익 11.7%, 당기손익-공정가치측정 금융자산 처분이익 6.5%, 수수료수익 5.7%로 구성되어 있습니다. 위탁영업부문은 고객 주문을 받아 거래를 체결하고 수수료를 수취하는 구조이며, 자기매매부문은 채권 매매를 중심으로 운용하고 일부 자금으로 주식 매매를 병행합니다. 부수업무로는 여의도 본사 건물의 임대 및 관리 업무를 수행해 안정적인 수익 기반을 확보하고 있습니다.",
+    "main_customers": "위탁영업부문 — 한국거래소 장내 유가증권 거래를 이용하는 고객 / 자기매매부문 — 회사 고유자금 운용 대상 금융시장 / 부수업무부문 — 여의도 본사 건물 임차인",
+    "price_factors": [
+      {
+        "factor": "증시흐름",
+        "detail": "주식시장 호황 시 위탁매매와 자산운용 관련 수익이 늘 수 있고, 시장 침체 시에는 수익이 감소할 가능성이 있습니다."
+      },
+      {
+        "factor": "금리변동",
+        "detail": "채권 중심의 자기매매와 이자수익 비중이 높아 금리 환경 변화가 실적에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "거래활동",
+        "detail": "고객의 거래가 늘면 수수료수익이 증가할 수 있어 증시 거래대금 흐름이 중요합니다."
+      },
+      {
+        "factor": "리스크관리",
+        "detail": "시장 변동성이 커질수록 철저한 리스크 관리 여부가 수익성과 안정성에 더 큰 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 산업의 현황 > (1) 당사의 금융투자업 영위 범위",
+        "evidence_text": "① 투자매매업 증권 (1-1-1)"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "가. 산업의 현황 > (1) 당사의 금융투자업 영위 범위",
+        "evidence_text": "② 투자중개업 증권 (2-1-1)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "이자수익: 20,382 (56.6%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "다. 사업부문별 영업실적 > (1) 위탁영업부문",
+        "evidence_text": "고객의 주문을 받아 한국거래소 장내 유가증권 거래를 체결"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "다. 사업부문별 영업실적 > (1) 위탁영업부문",
+        "evidence_text": "고객의 주문을 받아 한국거래소 장내 유가증권 거래를 체결"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "다. 사업부문별 영업실적 > (3) 부수업무부문",
+        "evidence_text": "여의도 본사 건물의 부동산 임대 및 관리 업무"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3675,
+    "completion_tokens": 943,
+    "reasoning_tokens": 0,
+    "output_tokens": 943
+  },
+  "warnings": []
+}

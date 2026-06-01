@@ -1,0 +1,64 @@
+{
+  "stock_code": "100790",
+  "corp_name": "미래에셋벤처투자",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 07:56",
+  "meta": {
+    "wics": "창업투자",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "미래에셋벤처투자는 벤처투자회사로 중소·벤처기업의 창업 투자 지원과 초기 우수기업에 대한 컨설팅을 주요 활동으로 하는 금융업체입니다. 연결기준 자산총계는 1조 1,001억원이며, 2005년 이후 2025년까지 21년 연속 흑자경영을 유지하고 있습니다.",
+    "business_model": "핵심 사업은 창업투자(VC)를 통한 벤처펀드 결성·운용 및 벤처기업 투자와, 자본시장법에 근거한 PEF(사모투자전문회사)를 통한 스몰캡 강소기업에 대한 경영권 인수 및 Growth‑Capital 투자입니다. 또한 M&A·SPAC 설립 및 운용, 투자기업에 대한 경영·마케팅·자금 지원(밸류업)과 조합 운용을 통해 수수료·성과보수·평가손익 등으로 수익을 창출하며, 스몰펀드의 GP(운용사) 출자비중 확대와 고유계정투자 활용으로 리스크를 분산하고 수익을 확보합니다.",
+    "main_customers": "창업투자(VC) — 중소·벤처기업 / PEF(사모투자) — 스몰캡 강소기업(경영권 인수 대상) / 투자조합·조합원 — 기관투자자·조합원",
+    "price_factors": [
+      {
+        "factor": "포트폴리오성과",
+        "detail": "벤처·중소기업에 대한 투자자산의 공정가치 변동이 실적(당기손익)에 직접 영향을 미칩니다."
+      },
+      {
+        "factor": "투자회수속도",
+        "detail": "투자 회수와 재투자의 선순환이 원활할수록 지속적 재원 확보와 수익 안정성에 긍정적 영향을 줍니다."
+      },
+      {
+        "factor": "산업분산",
+        "detail": "ICT·바이오·소비재 등 산업 포트폴리오의 분산은 개별 산업 위험을 완화하지만 업계 전반의 높은 변동성은 실적에 리스크로 작용합니다."
+      },
+      {
+        "factor": "조합평가",
+        "detail": "운용중인 조합의 평가익 변동은 비지배지분(부채)과 연결재무제표상 부채 수준에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "당사는 2005년 이후 지난 2025년 까지 21년 연속 흑자경영을 유지하고 있으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황",
+        "evidence_text": "자본시장법에 근거한 PEF(사모투자전문회사)를 통해 스몰캡 강소기업에 대한 경영권 인수, Growth-Capital 투자를 주로 수행하고 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "나. 취급 업무 및 상품·서비스의 개요",
+        "evidence_text": "중소, 벤처기업에게는 신기술과 아이디어의 상품화"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4893,
+    "completion_tokens": 5474,
+    "reasoning_tokens": 4672,
+    "output_tokens": 802
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

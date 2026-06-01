@@ -1,0 +1,69 @@
+{
+  "stock_code": "318010",
+  "corp_name": "팜스빌",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 16:23",
+  "meta": {
+    "wics": "건강관리업체및서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "팜스빌은 2000년 창사 이래 '인간의 건강 수명을 연장하는 기업'이라는 미션을 가진 바이오헬스케어 기업으로, 건강기능식품과 건강지향식품의 개발·제조 및 자체 브랜드 유통을 영위하고 있습니다. 연구개발(R&D)과 산학협력, 기술이전 등을 통해 마이크로바이옴 등 기술 기반 제품을 확장하고 있으며, 총 13개 자사 브랜드와 150여 종의 상품 라인업을 보유하고 있습니다.",
+    "business_model": "핵심은 B2C 전자상거래 플랫폼(자사몰 '애플트리 김약사네')을 통한 직접 판매와 다수의 유통 채널(홈쇼핑, 대형 온라인 제휴, 오프라인·약국 유통)을 통한 브랜드 유통입니다. 제품 포트폴리오는 다이어트/이너뷰티, 관절/뼈건강, 소화기관/눈건강, 영양보조, 면역/항산화 등 카테고리로 구성되며, R&D 기반의 소재 개발과 마이크로바이옴 기술 도입을 통해 차별화된 제품을 기획·제조하고 있습니다.",
+    "main_customers": "온라인전자상거래플랫폼사업 — 일반 소비자(자사몰 이용자, 1:1 상담 수요) / 제휴 온라인 플랫폼 사업 — 대형 온라인 유통사·텔레마케팅 채널 / 홈쇼핑 유통 — TV 홈쇼핑 시청자 및 구매자 / 오프라인유통 부문 — 편의점·드럭스토어·대형 오프라인 바이어 / 약국 전용 유통 부문 — 약국 및 약사 상담 기반 고객",
+    "price_factors": [
+      {
+        "factor": "온라인유통",
+        "detail": "온라인·모바일 쇼핑 증가와 자사몰·라이브 방송 강화는 매출 성장과 채널별 매출 비중에 직접 영향."
+      },
+      {
+        "factor": "브랜드신뢰",
+        "detail": "약사 상담 기반 브랜드 신뢰와 소비자 후기·재구매가 매출 안정성에 기여."
+      },
+      {
+        "factor": "마이크로바이옴",
+        "detail": "마이크로바이옴 기술 개발과 관련 시장 성장 전망은 신제품 파이프라인과 중장기 매출에 영향."
+      },
+      {
+        "factor": "유통채널",
+        "detail": "홈쇼핑·오프라인·해외 온라인 제휴 등 유통망 확보 정도가 판매량과 시장확대에 직결."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "'인간의 건강 수명을 연장하는 기업' 의 미션"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "자체 브랜드를 통한 유통 사업을 영위하고 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "사업분야 구     분",
+        "evidence_text": "7대 메이저 TV 홈쇼핑사와 직접 유통 거래망 확보"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "마이크로바이옴 기술개발의 도입을 통해"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 5545,
+    "completion_tokens": 3847,
+    "reasoning_tokens": 3008,
+    "output_tokens": 839
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

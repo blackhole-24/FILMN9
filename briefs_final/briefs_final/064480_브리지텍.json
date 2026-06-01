@@ -1,0 +1,71 @@
+{
+  "stock_code": "064480",
+  "corp_name": "브리지텍",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 04:19",
+  "meta": {
+    "wics": "IT서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "브리지텍은 콜센터(컨택센터) 솔루션과 음성·AI 기반 소프트웨어를 개발·공급하는 소프트웨어 전문업체로, 금융권·통신사·공공기관 등을 대상으로 자체개발 콜센터 솔루션을 제공합니다.",
+    "business_model": "제31기(2025년) 기준 매출은 콜센터 솔루션 및 통신망 솔루션이 약 70.7%, 유지보수가 약 23.7%, 클라우드 콜센터 서비스가 약 4.1%, IP기반 유·무선 멀티미디어 서비스가 약 1.7%를 차지하며, AICC(인공지능컨택센터), 음성봇, 화자인식 등 AI 언어처리 기술과 IPCC·클라우드콜센터 제품을 통해 제품판매(라이선스)와 클라우드 임대(구독형)·유지보수 수익을 혼합해 창출합니다.",
+    "main_customers": "콜센터 솔루션 — 금융권·통신사·공공기관·기업체 / IP기반 유무선 서비스 — 기간통신사업자 / 클라우드콜센터 — 중소규모 콜센터 및 공공기관(인증 필요시)",
+    "price_factors": [
+      {
+        "factor": "AI 수요",
+        "detail": "AICC(인공지능컨택센터) 도입 확산은 콜센터 소프트웨어 수요를 늘려 실적 개선에 유리합니다."
+      },
+      {
+        "factor": "통신사 계약",
+        "detail": "IP기반 유무선 멀티미디어 서비스는 기간통신사업자 수주에 따라 매출 변동성이 발생합니다."
+      },
+      {
+        "factor": "클라우드 보안인증",
+        "detail": "CSAP 등 클라우드 보안 인증 보유 여부는 공공기관 수주(납품 가능성)에 직접 영향을 줍니다."
+      },
+      {
+        "factor": "유지보수 비중",
+        "detail": "유지보수 매출 비중이 상당해(약 23.7%) 기존 고객 기반의 유지·갱신이 실적 안정성에 중요합니다."
+      },
+      {
+        "factor": "기술 경쟁력",
+        "detail": "음성인식·NLU 등 AI 성능과 다른 솔루션과의 통합성은 수주 경쟁력에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "자체개발한 콜센터 솔루션을 공급하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사의 사업영역은 콜센터, 음성인식, 통신사업, 서비스사업으로 구분합니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "콜센터 솔루션 35,067,101"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "금융권, 통신사, 공공기관, 지방자치단체, 기업체 등을 대상으로"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5394,
+    "completion_tokens": 4903,
+    "reasoning_tokens": 4096,
+    "output_tokens": 807
+  },
+  "warnings": []
+}

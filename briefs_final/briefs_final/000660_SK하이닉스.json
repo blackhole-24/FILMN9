@@ -1,0 +1,86 @@
+{
+  "stock_code": "000660",
+  "corp_name": "SK하이닉스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 16:57",
+  "meta": {
+    "wics": "반도체와반도체장비",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "SK하이닉스는 경기도 이천에 본사를 둔 글로벌 반도체 기업으로, 4개의 생산기지와 3개의 연구개발법인 및 다수의 해외 판매법인과 사무소를 운영하고 있습니다. 주력 제품은 DRAM과 NAND 등 메모리 반도체이며, 2025년 연결 기준 매출은 97조 1,468억원을 기록했습니다.",
+    "business_model": "핵심 수익원은 메모리 반도체로, 반도체 부문이 매출의 100%를 차지하며 제품군별로는 DRAM(휘발성 메모리) 77%, NAND(비휘발성 메모리) 21%, 기타 2%의 구성입니다. 또한 DRAM 및 NAND 중심의 제품 판매와 함께 Foundry(파운드리: 위탁생산) 사업도 병행하면서 기술과 생산능력(대규모 투자)을 통한 원가 경쟁력 확보에 집중하고 있습니다.",
+    "main_customers": "DRAM — 컴퓨터의 메인 메모리, 서버·그래픽·가전 등 IT·데이터센터 장비 사용자 / NAND — 기업용 SSD 등 데이터 저장장치 및 모바일·임베디드 저장장치",
+    "price_factors": [
+      {
+        "factor": "AI수요",
+        "detail": "AI 기술 전방위 확산에 따른 고성능·고용량 메모리 수요 증가는 제품 판매량과 판가에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "메모리 시황",
+        "detail": "메모리 제품의 판가(가격) 변동은 매출과 영업이익에 큰 영향을 주며, 시황 개선 시 실적이 빠르게 개선됩니다."
+      },
+      {
+        "factor": "기술·원가",
+        "detail": "공정 미세화와 원가 경쟁력 확보는 소수 IDM(종합반도체제조) 업체 중심의 과점화 환경에서 수익성에 직결됩니다."
+      },
+      {
+        "factor": "대규모투자",
+        "detail": "메모리 제조는 양산 능력 확충을 위한 대규모 투자가 필수여서 투자 규모와 시점이 실적과 재무에 영향을 줍니다."
+      },
+      {
+        "factor": "보호무역·리스크",
+        "detail": "미국의 보호무역, 상호관세 및 지정학적 리스크 심화는 시장 불확실성을 높여 수요·공급에 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "운영하고 있는 글로벌 반도체 기업입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "주력 제품은 DRAM 및 NAND를 중심으로 하는 메모리 반도체"
+      },
+      {
+        "field": "business_model",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "DRAM과 NAND가 각각 77%와 21% 비중"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경쟁 환경 및 시장 특성 — price_factors 참고용",
+        "evidence_text": "컴퓨터의 메인 메모리(Main Memory)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "기업용 SSD가 수요 증가를 주도하였습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "AI 기술의 전방위적 확산이 AI 메모리 수요 증가를 촉진"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "미국의 보호무역, 상호관세와 중동 지정학적 리스크"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4179,
+    "completion_tokens": 4576,
+    "reasoning_tokens": 3584,
+    "output_tokens": 992
+  },
+  "warnings": []
+}

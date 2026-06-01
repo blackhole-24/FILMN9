@@ -1,0 +1,67 @@
+{
+  "stock_code": "339950",
+  "corp_name": "아이비김영",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 16:53",
+  "meta": {
+    "wics": "교육서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "당사는 일반 성인을 대상으로 교육 콘텐츠를 제공하는 종합 교육기업으로 대학편입 교육을 핵심 사업으로 운영하고 있습니다. '김영편입'을 비롯해 김영평생교육원, 아이비원격평생교육원, 엔지니어랩 등 브랜드를 통해 온·오프라인 교육서비스를 제공하고 있습니다.",
+    "business_model": "FY2025 기준 사업부문별 영업수익에서 용역매출(오프라인·강사 제공 등)이 46.2%로 가장 큰 비중을 차지하며, 온라인강의가 16.4%를 차지합니다. 그 외 상품매출(4.0%)과 기타매출(1.3%)이 있으며, 용역·온라인 강의 중심의 교육 콘텐츠 판매가 핵심 수익원입니다.",
+    "main_customers": "대학편입 — 편입 수험생 / 취업교육(뷰티) — 미용자격증 취득 및 미용입시 준비생 / 취업교육(기타) — 학점은행제 원격교육 수강생·국가기술자격증 취득 희망자",
+    "price_factors": [
+      {
+        "factor": "편입수요",
+        "detail": "인서울 대학 편입 모집인원 증가와 중도탈락률 상승은 용역매출 등 핵심 매출 확대에 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "대입제도",
+        "detail": "2028학년도 대입 제도 개편 등 제도 변화는 편입 수요 구조에 변화를 주어 실적에 영향을 줄 가능성이 있습니다."
+      },
+      {
+        "factor": "계절성",
+        "detail": "편입 준비의 계절적 특성(신규생 유입 시기와 매출 정점)이 매출 및 현금흐름의 분포에 영향을 미칩니다."
+      },
+      {
+        "factor": "브랜드",
+        "detail": "오랜 운영으로 쌓인 브랜드파워와 강의 콘텐츠 품질은 수요 유지와 경쟁력 확보에 직접적인 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "당사는 일반 성인을 대상으로 교육 콘텐츠를 제공하는"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "용역매출: 55,165,076 (46.2%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "대학편입교육과 미용자격증 취득 및 미용입시교육을 제공하는 취업교육(뷰티)사업"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "인서울 대학 신입생 중도탈락 인원은 11,351명(중도탈락률 10.6%)"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4195,
+    "completion_tokens": 3883,
+    "reasoning_tokens": 3136,
+    "output_tokens": 747
+  },
+  "warnings": []
+}

@@ -1,0 +1,71 @@
+{
+  "stock_code": "019010",
+  "corp_name": "베뉴지",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 22:24",
+  "meta": {
+    "wics": "호텔,레스토랑,레저",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "베뉴지(019010)는 1979년 설립된 예식장업을 중심으로 호텔·골프장 사업을 영위하는 기업으로, 2025년 기말 현재 (주)호텔그랜드유통과 베뉴지씨씨(주) 등 2개의 종속회사를 보유하고 있습니다. 연결실체는 예식장 사업부문, 호텔 사업부문, 골프장 사업부문으로 세분되어 운영되고 있습니다.",
+    "business_model": "사업부문은 예식장, 호텔, 골프장으로 나뉘며, FY2025 연결 기준 영업수익은 '주요사업의 내용'으로 28,611,695(100.0%)로 보고되었습니다. 예식장 부문은 단순 공간 대여를 넘어 식음료(F&B), 연출 디렉팅, 의전, 미디어 연출 등 종합 서비스가 결합된 토털 웨딩 솔루션 형태로 수익을 창출합니다.",
+    "main_customers": "예식장업 — 결혼을 준비하는 예비부부 / 호텔 사업부문 — 국내 내수 숙박·여가 이용 고객 / 골프장 사업부문 — 골프장 이용 고객",
+    "price_factors": [
+      {
+        "factor": "성수기 편중",
+        "detail": "매출이 봄·가을 성수기에 집중되어 계절적 수요 편중이 실적 변동성 확대 요인입니다."
+      },
+      {
+        "factor": "경기·소비심리",
+        "detail": "경기 회복 시 하이엔드 옵션 수요가 늘고, 침체 시에는 실속형 선택 증가로 객단가와 매출구조가 변동합니다."
+      },
+      {
+        "factor": "원가 상승",
+        "detail": "에너지·식자재 등 원가 상승은 운영비 부담을 늘려 영업이익률에 부정적 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "입지 경쟁",
+        "detail": "역세권·주차 등 입지적 우위와 F&B 품질이 고객 선택의 핵심 요소로 경쟁력에 직접 영향합니다."
+      },
+      {
+        "factor": "자연재해",
+        "detail": "골프장 등 시설은 수해 등 자연재해로 영업일수 제한 및 복구비용이 발생하면 실적에 즉시 타격을 받을 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "1979년 4월 27일에 설립되어 예식장업 등을 영위하고 있으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "주요사업의 내용: 28,611,695 (100.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황 (1). 산업의 특성",
+        "evidence_text": "고객의 라이프스타일과 가치관이 투영된 맞춤형 예식으로 진화하고 있습니다"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황 (3). 경기변동의 특성",
+        "evidence_text": "봄과 가을 성수기에 매출이 집중되고"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4652,
+    "completion_tokens": 5108,
+    "reasoning_tokens": 4288,
+    "output_tokens": 820
+  },
+  "warnings": []
+}

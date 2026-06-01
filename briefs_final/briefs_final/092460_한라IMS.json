@@ -1,0 +1,71 @@
+{
+  "stock_code": "092460",
+  "corp_name": "한라IMS",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 07:19",
+  "meta": {
+    "wics": "조선",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "한라IMS는 계측기 전문 제조 기업으로 원스톱 제어 및 모니터링 솔루션을 제공하는 데 특화되어 있습니다. HX 브랜드군(정밀계측·가스안전·통합제어·친환경·기계·수리사업)을 통해 선박용 계측·안전·친환경 솔루션을 공급하며, 2025년 연결기준 매출액은 1,334억 원으로 역대 최대 실적을 기록했습니다.",
+    "business_model": "제품매출(정밀계측·가스감지·통합제어·친환경·고성능기계)이 전체 매출의 100%를 차지하며, 'ONE STOP CONTROL & MONITORING SOLUTION'을 중심으로 선박용 계측기기와 통합 제어·모니터링 시스템을 공급합니다. 핵심은 GAUGING(정밀계측), GAS&SAFETY(가스감지·안전), CONTROL(통합제어), ECO(친환경), MACHINERY(기계시스템) 등 브랜드별 기술 융합을 통한 HX SOLUTION 제공입니다.",
+    "main_customers": "정밀계측(GAUGING) — 조선소(선박 건조사)·선박 운항사 / GAS&SAFETY·CONTROL — 선박 운항사·조선소 / HX-REPAIR YARD(수리사업) — 조선소·선박 수리업체",
+    "price_factors": [
+      {
+        "factor": "글로벌 수요",
+        "detail": "조선업의 수주 환경(슈퍼 사이클 등)에 따라 계측기 및 기자재 수요가 직접 변동합니다."
+      },
+      {
+        "factor": "환경규제",
+        "detail": "IMO 규제 강화에 따른 친환경 선박 전환 및 개조 수요가 친환경(ECO) 제품군의 실적에 영향합니다."
+      },
+      {
+        "factor": "원자재·경기",
+        "detail": "글로벌 경기 변동과 원자재 가격 변화가 조선·기자재 산업의 수익성과 마진에 직간접적 영향을 줍니다."
+      },
+      {
+        "factor": "기술도입",
+        "detail": "ICT·AI·빅데이터 등 스마트 선박 기술 확산은 통합제어·모니터링 시스템 수요를 촉진합니다."
+      },
+      {
+        "factor": "수리·서비스",
+        "detail": "선박 수리·애프터서비스(Repair Yard) 사업의 확대는 안정적 수익원으로 작용합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "연결 회사는 계측기 전문 제조 기업으로, 원스톱 제어 및 모니터링 솔루션을 제공하는 데에 특화되어 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 “ONE STOP CONTROL & MONITORING SOLUTION”을 고객에게 제공하는 것을 목표로"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "IMO(국제해사기구) 규제 대응을 위한 CO₂, NOx, SOx, PM 등 오염물질 저감 기술,"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "전년 대비 28% 증가한 매출액 1,334억 원"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5340,
+    "completion_tokens": 3888,
+    "reasoning_tokens": 3008,
+    "output_tokens": 880
+  },
+  "warnings": []
+}

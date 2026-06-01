@@ -1,0 +1,67 @@
+{
+  "stock_code": "464280",
+  "corp_name": "티디에스팜",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 20:27",
+  "meta": {
+    "wics": "제약",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "티디에스팜은 경피 약물전달시스템(TDDS) 기반의 개발·제조를 주요 사업으로 하는 제약업체입니다. 설립 이후 카타플라스마(습포제) 개발·생산에 집중해 국내에서 독보적인 위치를 확보했고, 플라스타·핫멜트 등 다양한 패치형 제품을 개발·판매하며 시장 점유율을 확대해 왔습니다.",
+    "business_model": "주요 수익원은 패치·플라스타 계열의 제품군으로, 사업부문별 영업수익은 제품 19.0%, 일체형 52.2%, 플라스타 6.5%, 핫멜트 7.2%, 패취 6.9%, 내용고형제외 8.2%로 구성됩니다. 자체 개발한 TDDS 제형을 바탕으로 ODM(제조업자 자체개발생산) 및 OEM(주문자 상표 부착생산) 방식으로 다수의 제약회사에 위탁생산을 제공하는 것이 핵심 비즈니스 모델입니다.",
+    "main_customers": "제품 — 제약회사(주로 OEM·ODM 위탁생산) / 일체형 — 제약회사(주로 OEM·ODM 위탁생산) / 플라스타 — 제약회사(주로 OEM·ODM 위탁생산) / 핫멜트 — 제약회사(주로 OEM·ODM 위탁생산) / 패취 — 제약회사(주로 OEM·ODM 위탁생산) / 내용고형제외 — 제약회사(주로 OEM·ODM 위탁생산)",
+    "price_factors": [
+      {
+        "factor": "경쟁강도",
+        "detail": "국내 제약시장의 과당경쟁은 수탁 수수료율 하락과 수익성 압박으로 실적에 부정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "수탁의존",
+        "detail": "OEM·ODM 위탁생산 중심의 매출 구조는 고객사의 수주 변동에 따라 매출과 이익 변동성이 커질 수 있습니다."
+      },
+      {
+        "factor": "기술효율",
+        "detail": "TDDS(개량신약)는 신물질신약보다 개발비용과 기간이 적어 투자 효율성이 높아 실적 안정에 기여할 수 있습니다."
+      },
+      {
+        "factor": "시장성장",
+        "detail": "바이오 기술 발전·신약 개발 증가·인구 고령화 등은 TDDS 수요 증가로 이어져 중장기적 매출 성장 요인이 될 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "TDDS)의 개발 및 제조를 주요 사업으로 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "일체형: 14,421 (52.2%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "당사의 1차 고객이 되는 대부분의 제약회사는"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "2. 시장 현황",
+        "evidence_text": "수탁 영업 중심 전략은 과당 경쟁으로 인한 수수료율 저하"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4725,
+    "completion_tokens": 4926,
+    "reasoning_tokens": 4096,
+    "output_tokens": 830
+  },
+  "warnings": []
+}

@@ -1,0 +1,72 @@
+{
+  "stock_code": "475150",
+  "corp_name": "SK이터닉스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 20:40",
+  "meta": {
+    "wics": "에너지장비및서비스",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "SK이터닉스는 2024년 3월 1일 인적분할로 신설된 신재생에너지 전문기업으로, 태양광·풍력·연료전지·ESS를 아우르는 다각화된 포트폴리오를 보유하고 있습니다. 태양광 발전 자산의 금융구조화·매입과 대규모 해상풍력 파이프라인(총 1.3GW) 등 개발·보유·운영을 통해 종합 그린 에너지 솔루션 기업으로의 도약을 목표로 하고 있습니다.",
+    "business_model": "FY2025 기준 신재생에너지사업이 매출의 90.4%를 차지하고, ESS사업이 9.6%를 차지합니다. 신재생에너지사업은 태양광·풍력·연료전지 중심의 발전자원 보유·운영, EPC(설계·조달·시공)와 전력·REC(신재생에너지공급인증서) 판매로 수익을 창출하며, ESS사업은 설비 O&M(운영·정비), REC 및 전기요금 절감 서비스 등으로 매출을 발생시킵니다.",
+    "main_customers": "태양광 — RE100 이행 기업·직접PPA 수요 기업 / 풍력 — 전력구매자 및 REC 구매처·EPC 투자자 / 연료전지 — 분산전원 시장 참여자(발전·공급처) / ESS — 기업 고객사(전력요금 절감 서비스 수요처)",
+    "price_factors": [
+      {
+        "factor": "기업 PPA 수요",
+        "detail": "RE100 이행 기업 증가에 따라 직접PPA·VPPA 수요 확대는 안정적 매출 기반으로 연결됩니다."
+      },
+      {
+        "factor": "전력·REC 가격",
+        "detail": "SMP(전력시장)·REC 가격 변동은 발전 및 REC 매출에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "금리·PF 유동성",
+        "detail": "고금리·PF(프로젝트파이낸싱) 시장의 유동성 위축은 개발·투자 확대의 자금조달 비용을 높일 수 있습니다."
+      },
+      {
+        "factor": "프로젝트 파이프라인",
+        "detail": "대규모 해상풍력·태양광 개발 파이프라인의 실현 여부가 중장기 보유·운영 수익성에 결정적 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황 (SK이터닉스㈜)",
+        "evidence_text": "SK이터닉스는 2024년 3월 1일 인적분할 설립 이후, 국내 신재생에너지 시장을 선도하는 에너지 전문 기업으로서 입지를 공고히 하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "신재생에너지사업: 13,600 (90.4%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "ESS사업: 1,748 (9.6%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "사업의 현황 (1) 태양광 사업부문",
+        "evidence_text": "재생에너지를 필요로 하는 각 기업과 직접PPA, VPPA(Virtual PPA) 등을 통해 장기간 안정적으로 재생에너지를 공급"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "사업의 현황 (1) 태양광 사업부문",
+        "evidence_text": "RE100 이행 캠페인 참여 기업들이 증가하면서 재생에너지발전원에 대한 수요가 큰 폭으로 확대되고 있어"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5491,
+    "completion_tokens": 4405,
+    "reasoning_tokens": 3456,
+    "output_tokens": 949
+  },
+  "warnings": []
+}

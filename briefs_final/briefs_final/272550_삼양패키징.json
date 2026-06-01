@@ -1,0 +1,66 @@
+{
+  "stock_code": "272550",
+  "corp_name": "삼양패키징",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 14:39",
+  "meta": {
+    "wics": "포장재",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "삼양패키징은 아셉틱(무균) 음료 OEM, PET 용기(플라스틱 병) 제조 및 Recycling(재활용) 사업을 영위하는 포장재 전문 기업입니다. PET용기와 재활용 페트칩 등을 통해 식음료·주류·식품 분야의 포장용기를 공급합니다.",
+    "business_model": "FY2025 기준 매출은 제품이 99.8%, 상품이 0.2%로 제품 판매에 거의 전량이 집중되어 있습니다. 핵심 사업은 Aseptic(무균) 방식 음료 OEM(주입·충전 설비 기반), PET 용기 제조(다품종 주문생산), Recycling(폐페트병 가공 후 R-Chip·Flake 생산)으로 구성되어 있습니다.",
+    "main_customers": "아셉틱 — 음료 제조사(혼합차·밀크커피 등 RTD 제조사) / 용기 — 음료·주류·식품 제조사(포장용기 수요처) / Recycling — 페트병 제병업체·섬유 제조업체 및 화학적 재활용 업체",
+    "price_factors": [
+      {
+        "factor": "계절성",
+        "detail": "음료 판매의 성수기(3~9월)로 인해 PET용기 수요가 계절적 변동을 보여 실적에 영향이 발생합니다."
+      },
+      {
+        "factor": "전방산업 경기",
+        "detail": "전방인 음료 산업의 경기·소비 심리 변동이 PET 용기 및 OEM 수요에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "초과공급",
+        "detail": "용기 시장의 구조적 초과공급은 가격·마진 압박으로 연결되어 실적에 부정적 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "재활용 규제",
+        "detail": "정부의 재생원료 사용 의무화(’30년 목표 등)는 Recycling 부문의 수요 확대와 사업환경 개선에 영향을 줍니다."
+      },
+      {
+        "factor": "원가·환율",
+        "detail": "원자재·원가와 환율 변동성 확대는 제조원가와 수익성에 직결됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 산업의 개요",
+        "evidence_text": "Recycling사업은 현재 전세계적으로 관심이 대두되고 있으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "제품: 418,187 (99.8%)"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "7-1 사업부문별 시장여건 및 영업의 개황 > 가. 산업의 특성 2) PET 용기 산업",
+        "evidence_text": "3~9월이 성수기입니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4604,
+    "completion_tokens": 4555,
+    "reasoning_tokens": 3840,
+    "output_tokens": 715
+  },
+  "warnings": []
+}

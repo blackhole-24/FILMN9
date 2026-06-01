@@ -1,0 +1,72 @@
+{
+  "stock_code": "007160",
+  "corp_name": "사조산업",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 19:43",
+  "meta": {
+    "wics": "식품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "사조산업은 원양어업, 식품, 축산, 레저 등을 영위하는 종합 식품기업으로, 참치·대구 등 수산물 어획과 수산물가공·캔류 생산을 주요 사업으로 하고 있습니다. 원양어업을 통해 일본 등 해외시장에 수출하며 식품·축산·레저 사업을 병행하는 다각화된 사업구조를 갖추고 있습니다.",
+    "business_model": "FY2025 기준 사업부문별 영업수익은 식품 54.7%, 원양어업 33.1%, 축산 6.7%, 레저 2.8%, 기타 2.7%로 구성되어 있으며(사업부문별 매출 구성), 식품부문은 사조대림과의 판매위탁을 통한 캔류·가공식품 중심의 매출이 핵심이고 원양어업은 참치연승·참치선망·대구저연승을 통한 어획 및 수출(횟감용·통조림 원료)이 주요 수익원입니다.",
+    "main_customers": "원양어업 — 일본 및 국내 바이어 (횟감용·원료 수출) / 참치선망 — 통조림 원료 공급처 및 EU·아시아 수입처 / 식품 — 사조대림(판매위탁) 및 국내 유통업체·소비자 / 축산 — 국내 육가공 유통 및 거래처 / 레저 — 골프장 이용 고객(개인 골퍼)",
+    "price_factors": [
+      {
+        "factor": "어장 접근성",
+        "detail": "어족자원의 자국화 및 연근해 어장 축소는 어획량과 원양어업의 실적에 직접적 영향을 미칩니다."
+      },
+      {
+        "factor": "주요 수출시장(일본)",
+        "detail": "일본 경기 및 엔화 흐름이 횟감용 참치 수요와 수출실적에 영향을 줍니다."
+      },
+      {
+        "factor": "원자재·유가",
+        "detail": "유가 상승 및 원자재 가격 상승은 원양조업의 운항비와 원가 부담을 증가시킵니다."
+      },
+      {
+        "factor": "질병·사육환경",
+        "detail": "아프리카돼지열병 등 축산 분야의 변수는 돼지 사육두수와 육가공 부문의 공급·비용에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "주요 제품으로 참치, 대구 등이 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "식      품: 464,799 (54.7%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "원양어업: 280,988 (33.1%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "대부분을 일본으로 수출하여 외화획득에 공헌하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "2. 시장여건 및 영업의 개황 등",
+        "evidence_text": "어족자원의 자국화 강화 및 경쟁선박의 증가"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5591,
+    "completion_tokens": 3733,
+    "reasoning_tokens": 2880,
+    "output_tokens": 853
+  },
+  "warnings": []
+}

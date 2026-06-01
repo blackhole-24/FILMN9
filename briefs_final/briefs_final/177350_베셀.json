@@ -1,0 +1,88 @@
+{
+  "stock_code": "177350",
+  "corp_name": "베셀",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:23",
+  "meta": {
+    "wics": "디스플레이장비및부품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "베셀은 디스플레이장비및부품과 소재 사업을 함께 하는 기업으로, 사업보고서상 소재사업(필름소재 개발·생산)과 시스템사업(디스플레이 생산설비)을 영위하고 있습니다. 소재 분야에서는 기능성 필름과 잉크젯 미디어 관련 제품을 다루고, 시스템 분야에서는 LCD·OLED In-Line 장비와 고온 Oven 등을 설계·제작·공급합니다.",
+    "business_model": "2025년 주요 제품 매출 기준으로 소재사업(필름소재)이 15,990,008로 가장 큰 비중을 차지하고, 시스템사업(디스플레이)이 415,000으로 뒤를 잇습니다. 기타 매출로는 상품 35,376, 용역 등 725, 부품 및 개조등 36,300, 임대 74,533이 포함되어 있습니다. 소재사업은 PVC, PET 기반 기능성필름과 잉크젯 미디어 등 필름소재 개발·생산이 중심이고, 시스템사업은 LCD, OLED In-Line 장비 같은 디스플레이 생산설비 공급이 핵심입니다.",
+    "main_customers": "소재사업(필름소재) — 광고용 잉크젯 미디어 수요처, 디지털 인쇄 관련 수요처 / 시스템사업(디스플레이) — LCD·OLED 패널 최종생산업체 / 기타 — 부품 및 개조, 임대 관련 수요처",
+    "price_factors": [
+      {
+        "factor": "친환경수요",
+        "detail": "환경 규제 강화로 Eco-Solvent 등 친환경 소재 수요가 늘면 잉크젯 미디어 관련 매출에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "중국공세",
+        "detail": "저가 중국 제품의 공세가 커지면 저부가가치 필름 시장의 경쟁이 심해져 소재사업 수익성에 부담이 될 수 있습니다."
+      },
+      {
+        "factor": "기술장벽",
+        "detail": "균일한 품질과 물성을 위한 숙련 기술이 중요해 고기능 필름 분야에서는 기술력 차이가 실적과 경쟁력에 영향을 줍니다."
+      },
+      {
+        "factor": "디스플레이",
+        "detail": "LCD·OLED 산업은 전후방효과가 큰 산업이어서 디스플레이 생산설비 수요 변화가 시스템사업 실적에 직접 연결됩니다."
+      },
+      {
+        "factor": "환율변동",
+        "detail": "달러화와 일본엔화 관련 환율변동위험에 노출되어 있어 환율 변화가 손익 변동에 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 이러한 디스플레이 판넬의 최종생산업체들이 보다 효율적이며 높은 생산성을 담보할 수 있는 In-Line 시스템 설계제작 및 판넬생산장비 중 하나인 고온 Oven 등을 설계 제작공급하고 있는 바"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "소재사업(필름소재) | 제품 | PVC, PET 기반 기능성필름 등 | - | 15,990,008"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "시스템사업(디스플레이) | 제품 | LCD, OLED In-Line 장비 등 | - | 415,000"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "실사출력 광고물은 옥외광고나 간판 또는 실내광고로 활용되고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "환경 규제 강화로 인하여 강솔벤트 보다는 Eco-Solvent 등의 증가가 두드러 지고 있으며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "저가의 중국제품보다 높은 가격을 유지하며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "고도의 집적기술과 투자가 소요되는 관계로"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4142,
+    "completion_tokens": 1081,
+    "reasoning_tokens": 0,
+    "output_tokens": 1081
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

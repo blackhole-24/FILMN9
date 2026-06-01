@@ -1,0 +1,76 @@
+{
+  "stock_code": "340930",
+  "corp_name": "유일에너테크",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:37",
+  "meta": {
+    "wics": "전자장비와기기",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "유일에너테크는 전기자동차와 ESS(에너지 저장 시스템)용 2차전지 제조에 필요한 조립공정 장비를 만드는 회사입니다. Notching기, Stacking기, Tab welding기와 배터리 모듈·팩 조립 장비를 주력으로 하며, 최근에는 수소연료전지 소재 제조 장비와 같은 신규 사업도 넓혀가고 있습니다.",
+    "business_model": "회사의 핵심 매출은 이차전지 자동화 조립장비에서 발생하며, FY2025 기준 사업부문별 매출 구성은 이차전지 자동화 조립장비 93.3%, 기타 6.7%입니다. 주력 장비인 Notching기, Stacking기, Tab welding기와 Module & Packline은 고객사 주문에 맞춰 제작되는 방식이며, 수소연료전지 소재 촉매코팅 양산장비 공급을 통해 사업 영역을 확장하고 있습니다.",
+    "main_customers": "이차전지 자동화 조립장비 — 전기차 및 ESS 배터리 제조 기업 / 기타 — 수소연료전지 생산 업체, 장비 모델 교체 및 스페어 파츠 수요 고객",
+    "price_factors": [
+      {
+        "factor": "전기차 투자",
+        "detail": "전기차 시장과 2차전지 설비 투자가 늘수록 조립장비 수요가 확대되어 실적에 직접 영향을 줍니다."
+      },
+      {
+        "factor": "ESS 수요",
+        "detail": "ESS(에너지 저장 시스템) 시장이 커지면 관련 2차전지 제조 장비 수주 기회가 늘어날 수 있습니다."
+      },
+      {
+        "factor": "수주경쟁",
+        "detail": "장비가 주문제작 방식이라 경쟁사와의 수주 경쟁이 심해지면 매출과 수익성에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "원가절감",
+        "detail": "고객사가 설비 원가절감을 요구할수록 가격 경쟁 압력이 커져 수익 구조에 영향을 줍니다."
+      },
+      {
+        "factor": "해외증설",
+        "detail": "해외 공장 신축과 증설이 늘어나면 고객 수요가 증가해 장비 공급 기회가 확대될 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "나. 회사의 현황 > (1) 사업 개황 (가) 사업의 내용",
+        "evidence_text": "전기자동차에 장착되는 2차전지를 생산하는데 필요한 공정 중 조립공정에관련된 설비를 전문으로 생산하는 기업입니다."
+      },
+      {
+        "field": "company_overview",
+        "source_section": "나. 회사의 현황 > (1) 사업 개황 (가) 사업의 내용",
+        "evidence_text": "수소연료전지 소재 제조 설비 및 플렉서블 디스플레이, 태양광 모듈 설비"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "이차전지 자동화 조립장비: 55,985,066 (93.3%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "기타: 4,029,887 (6.7%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "마. 주요 제품 등 관련 소비자 불만사항 등",
+        "evidence_text": "고객사로부터 기납품한 설비의 운용상 이슈 발생"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4777,
+    "completion_tokens": 879,
+    "reasoning_tokens": 0,
+    "output_tokens": 879
+  },
+  "warnings": []
+}

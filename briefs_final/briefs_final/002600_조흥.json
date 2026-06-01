@@ -1,0 +1,71 @@
+{
+  "stock_code": "002600",
+  "corp_name": "조흥",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 18:05",
+  "meta": {
+    "wics": "식품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "조흥은 치즈·제빵 원료와 냉동피자·간편식 등을 제조하는 식품업체로, 2025년 연결 기준 매출이 488,246백만원(별도 기준 481,716백만원)을 기록했습니다. 품목 다양화와 기존 치즈류 영업 강화로 매출이 전년 대비 성장했으며 제빵·치즈·냉동피자 중심의 사업 포트폴리오를 보유하고 있습니다.",
+    "business_model": "사업부문별 영업수익 구성은 80.9%, 19.0%, 0.1%로 보고되어 있으며(사업부문별 매출 구성), 주로 제빵 원료 및 치즈류 생산과 냉동피자·간편식 등의 제조·판매가 핵심 수익원입니다. 프리미엄 치즈·건강지향(유기농·무첨가) 원료 수요와 신사업(간편식) 확대를 통해 매출 성장을 추구하고 있습니다.",
+    "main_customers": "제빵 원료·치즈류 — 베이커리·제빵업체 및 커피전문점 / 냉동피자 — 일반 소비자(가정용) 및 외식·간편식 수요처 / 간편식(신사업) — 일반 소비자 및 식품 유통·판매 채널",
+    "price_factors": [
+      {
+        "factor": "원재료가격",
+        "detail": "원재료 구입 가격 상승은 매출원가율을 높여 영업이익에 직접적인 하방 압력이 됩니다."
+      },
+      {
+        "factor": "환율변동",
+        "detail": "환율의 높은 변동성은 안정적인 원자재 수급에 어려움을 주어 비용과 실적 변동성을 증가시킵니다."
+      },
+      {
+        "factor": "환경규제",
+        "detail": "제품 전과정의 환경규제 준수와 친환경 포장 도입 요구는 생산·포장 비용과 운영체계에 영향을 미칩니다."
+      },
+      {
+        "factor": "가격경쟁",
+        "detail": "냉동피자 등에서 브랜드 다변화로 가격경쟁이 심화되어 마진 방어 및 차별화가 중요한 변수입니다."
+      },
+      {
+        "factor": "프리미엄수요",
+        "detail": "유기농·무첨가 등 건강 지향 프리미엄 제품 수요 확대는 고마진 제품 비중 확대 기회로 작용합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "나. 회사의 현황(1) 조흥",
+        "evidence_text": "최종 481,716백만원을 기록하였습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "80.9% (80.9%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "나. 회사의 현황(1) 조흥",
+        "evidence_text": "베이커리 및 치즈 시장 규모가 확대되고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나. 회사의 현황(1) 조흥",
+        "evidence_text": "원재료 구입 가격 상승에 따라"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3549,
+    "completion_tokens": 3683,
+    "reasoning_tokens": 2880,
+    "output_tokens": 803
+  },
+  "warnings": []
+}

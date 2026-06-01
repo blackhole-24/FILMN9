@@ -1,0 +1,62 @@
+{
+  "stock_code": "072470",
+  "corp_name": "우리산업홀딩스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 05:27",
+  "meta": {
+    "wics": "자동차부품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "우리산업홀딩스는 2015년 인적분할을 통해 지주회사 체제로 전환한 기업으로, 투자·브랜드수수료·경영자문수수료·임대수익 등을 수익원으로 하는 지주회사 사업을 영위하고 있습니다. 연결 기준으로는 자회사들이 자동차용 공조(HVAC) 및 전장 부품을 설계·제조·판매하여 그룹 매출을 창출합니다.",
+    "business_model": "지주회사로서 투자·브랜드수수료·경영자문수수료·임대수익을 주요 수익원으로 하는 한편, 연결대상 자회사들은 자동차부품 제조·판매를 통해 매출을 발생시킵니다. FY2025 사업부문별 영업수익 구성은 HEATER CONTROL ASSEMBLY 47.2%, 상품 20.3%, 자동차부품외 9.4%, PTC/COD HEATER 9.6%, CLUTCH COIL ASSEMBLY 5.9%, 기 타 5.4%, 기타 2.1%입니다.",
+    "main_customers": "자동차부품 제조 및 판매 — 완성차 업체 및 1차 공급업체",
+    "price_factors": [
+      {
+        "factor": "완성차 연동",
+        "detail": "부품은 완성차 개발단계에서 공동개발·수주되므로 완성차업체의 수요 변화가 실적에 직접적 영향을 미칩니다."
+      },
+      {
+        "factor": "글로벌 소싱",
+        "detail": "완성차업체의 Global Sourcing 확대 시 해외 경쟁사와의 경쟁이 심화되어 수주 및 매출에 영향이 있을 수 있습니다."
+      },
+      {
+        "factor": "해외생산",
+        "detail": "북미·중국·유럽 등 현지법인과 공장 가동은 수급 및 원가구조에 영향을 주어 실적 변동요인이 됩니다."
+      },
+      {
+        "factor": "품질·가격경쟁",
+        "detail": "완성차사의 경쟁입찰 구조상 품질·가격 경쟁력을 확보하지 못하면 수주 감소로 이어질 위험이 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "지주회사 사업을 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "HEATER CONTROL ASSEMBLY: 332,792 (47.2%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "나. 영업개황 및 사업부문의 구분",
+        "evidence_text": "대부분 완성차 업체의 1차 공급업체"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4576,
+    "completion_tokens": 4007,
+    "reasoning_tokens": 3328,
+    "output_tokens": 679
+  },
+  "warnings": []
+}

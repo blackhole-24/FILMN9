@@ -1,0 +1,69 @@
+{
+  "stock_code": "041020",
+  "corp_name": "폴라리스오피스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 01:25",
+  "meta": {
+    "wics": "자동차부품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "폴라리스오피스는 클라우드 기반 오피스 소프트웨어 '폴라리스 오피스'를 중심으로 소프트웨어 플랫폼 사업을 영위하는 기업으로, 계열사를 통해 자동차 공조부품·합성사·화학·F&C·CDMO 등 다각화된 사업을 함께 운영하고 있습니다. 폴라리스 오피스는 243개국에 걸쳐 약 1.37억명의 가입자를 보유하고 있으며, 연결기준 매출이 성장세를 보였습니다.",
+    "business_model": "핵심 수익원은 소프트웨어 플랫폼 사업으로, 구독형 서비스와 광고, SDK(소프트웨어 개발 도구) 제공 및 기업용 라이선스 계약을 통해 매출을 창출합니다; 2025년 소프트웨어 플랫폼 사업의 영업실적은 매출 363억원, 영업이익 32억원입니다. 그 외에 계열회를 통한 자동차 공조부품, 합성사·화학, F&C 및 AI융합, 원료의약품·CDMO 등 사업부문이 포트폴리오를 구성합니다.",
+    "main_customers": "폴라리스 오피스(소비자용) — 전 세계 개인 사용자 / 기업용 폴라리스 오피스 — 국내 및 글로벌 기업(100여개) / 기업용 협업 플랫폼(아틀라시안 솔루션) — 스타트업부터 엔터프라이즈 및 국내 IT·서비스 기업 / AI융합·공공사업 — 주로 공공기관",
+    "price_factors": [
+      {
+        "factor": "생성형 AI 도입",
+        "detail": "생성형 AI 기능을 플랫폼에 적용하면 서비스 차별화와 가입자당 수익(ARPPU) 개선에 긍정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "문서 호환성",
+        "detail": "클라우드 기반 문서 호환성 기술 보유 여부가 경쟁력과 채택률에 직접적인 영향을 미쳐 실적에 영향을 줍니다."
+      },
+      {
+        "factor": "협업시장 성장",
+        "detail": "협업 솔루션 시장의 빠른 성장세는 기업용 솔루션 수요 확대를 통해 매출 확대 요인이 됩니다."
+      },
+      {
+        "factor": "모바일 보안 수요",
+        "detail": "BYOD·스마트워크 확산으로 모바일 보안 솔루션 수요가 늘면 관련 사업부 실적에 긍정적 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 소프트웨어 플랫폼 사업",
+        "evidence_text": "폴라리스 오피스 서비스는 현재 243개국 1.37억명의 가입자를 확보한 상태로"
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. 소프트웨어 플랫폼 사업",
+        "evidence_text": "소프트웨어 플랫폼 사업의 영업실적은 매출 363억원, 영업이익 32억원입니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 소프트웨어 플랫폼 사업",
+        "evidence_text": "기업용 폴라리스 오피스는 100여개 국내 및 글로벌 기업들과 계약을 맺고"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "마. 사업부분별 산업현황 및 영업의 개황",
+        "evidence_text": "협업 솔루션 시장은 최근 높은 성장세를 보이고 있습니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 5337,
+    "completion_tokens": 4479,
+    "reasoning_tokens": 3648,
+    "output_tokens": 831
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

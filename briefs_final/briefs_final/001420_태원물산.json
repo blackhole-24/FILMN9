@@ -1,0 +1,72 @@
+{
+  "stock_code": "001420",
+  "corp_name": "태원물산",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 17:26",
+  "meta": {
+    "wics": "자동차부품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "태원물산은 자동차부품과 식품사업을 함께 영위하는 기업으로, 워터펌프·오토미션 부품 등 자동차부품을 국내 완성차와 북미로 공급하고 있습니다. 식품부문에서는 이탈리아 젤라또 브랜드 사몬타나 독점수입 및 냉동간편식 OEM 생산을 통해 온·오프라인 유통망에 제품을 공급하고 있습니다.",
+    "business_model": "사업부문은 자동차부품사업(23.5%)과 식품사업(18.6%)으로 구성되어 있습니다. 자동차부품사업은 워터펌프·오토미션 부품(Piston) 등 핵심 품목을 한국GM·HD건설기계 등 완성차·건설기계 업체와 해외수출(북미) 대상으로 공급하고, 식품사업은 사몬타나 독점수입과 냉동간편식 OEM, 유제품 수입·공급을 통해 대형마트·온라인·외식업장 등으로 판매합니다.",
+    "main_customers": "자동차부품 — 한국GM·북미 수출처·HD건설기계 / 식품사업 — 대형마트·온라인유통사·뷔페·F&B 업장·국내 대기업·제조사",
+    "price_factors": [
+      {
+        "factor": "완성차 수요",
+        "detail": "완성차 판매가 줄면 부품 수요가 감소해 실적에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "거래처의존",
+        "detail": "주요 매출처(예: 한국GM) 의존도가 높아 해당 고객의 차종 채택 여부가 매출 변동성을 키웁니다."
+      },
+      {
+        "factor": "수출환경",
+        "detail": "GM 북미·대남미 수출 부진은 수출물량 감소로 연결돼 관련 매출에 부정적 영향을 줍니다."
+      },
+      {
+        "factor": "판매처다변화",
+        "detail": "식품사업은 판매처 확대(대형마트·온라인·외식 입점 등)에 따라 매출 증대 효과를 볼 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "나.사업부문별 개요",
+        "evidence_text": "당사는 자동차부품 및 식품사업을 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "자동차부품사업: 3,498 (23.5%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "식품사업: 2,761 (18.6%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 개요",
+        "evidence_text": "한국GM에 워터펌프, 오토미션 부품인 Piston"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "워터펌프의 미채택에 따라 매출이 감소되고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4857,
+    "completion_tokens": 5003,
+    "reasoning_tokens": 4224,
+    "output_tokens": 779
+  },
+  "warnings": []
+}

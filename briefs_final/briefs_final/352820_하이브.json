@@ -1,0 +1,69 @@
+{
+  "stock_code": "352820",
+  "corp_name": "하이브",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 17:23",
+  "meta": {
+    "wics": "방송과엔터테인먼트",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "하이브는 2005년 설립된 엔터테인먼트 기업으로, 'We believe in music'을 미션으로 음악 기반의 글로벌 엔터테인먼트 라이프스타일 플랫폼을 지향합니다. 2020년 코스피 상장 이후 멀티레이블 체제를 구축하며 IP(지적재산권)와 플랫폼을 중심으로 사업 확장을 추진하고 있습니다.",
+    "business_model": "핵심 사업은 음악(Music), 플랫폼(Platform), 테크기반 미래성장(Tech-driven Future Growth) 세 영역으로 구성되며, 매출은 음반·음원, 공연, 광고·출연료, MD 및 라이선스, 콘텐츠, 팬클럽 등으로 발생합니다. 멀티레이블·IP 기반의 MD(머천다이즈)·라이선싱과 위버스 기반 플랫폼 고도화가 수익과 성장의 주요 축입니다.",
+    "main_customers": "음반·음원 — 국내외 음악 소비자 및 팬 / 공연 — 콘서트 관객 및 글로벌 팬층 / MD·라이선싱 — 제품 구매자·라이선시(저작권 사용처) / 플랫폼·콘텐츠 — 플랫폼 이용자·콘텐츠 시청자",
+    "price_factors": [
+      {
+        "factor": "앨범·공연 주기",
+        "detail": "앨범 발매 시기와 공연 개최 여부에 따라 매출 변동이 크므로 실적 시계열이 불규칙하게 나타납니다."
+      },
+      {
+        "factor": "팬덤·글로벌 확산",
+        "detail": "K-POP 팬덤의 해외 확산은 해외 공연·MD·스트리밍 수입에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "스트리밍 전환",
+        "detail": "디지털 음원 스트리밍 중심의 소비 전환은 음원 수익 구조와 경기 민감도를 변화시킵니다."
+      },
+      {
+        "factor": "환경규제(EPR)",
+        "detail": "앨범·공식상품 포장재에 대한 생산자책임재활용제도 부담금 등은 상품비용과 마진에 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "당사는 2005년 2월 4일 \"주식회사 더빅히트엔터테인먼트\"로 설립되었으며, 2020년 10월 15일자로 유가증권시장(KOSPI)에 주식을 상장하였습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황",
+        "evidence_text": "당사는 매출을 음반ㆍ음원, 공연, 광고ㆍ출연료, MD 및 라이선스, 콘텐츠, 팬클럽 등으로 구분하여 관리하고 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "콘텐츠'와 당사의 주 고객인 '팬'을 최우선 가치로 두고"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "영업 현황 > 환경 관련 규제사항",
+        "evidence_text": "플라스틱 CD 케이스, 수축비닐 등의 앨범 포장재와 공식상품 포장재의 경우 생산자책임재활용제도(EPR, Extended Producer Responsibility)에 대응할 의무가 있습니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 5859,
+    "completion_tokens": 4675,
+    "reasoning_tokens": 3840,
+    "output_tokens": 835
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

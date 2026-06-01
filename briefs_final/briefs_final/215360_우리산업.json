@@ -1,0 +1,72 @@
+{
+  "stock_code": "215360",
+  "corp_name": "우리산업",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 12:22",
+  "meta": {
+    "wics": "자동차부품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "우리산업은 2015년 우리산업홀딩스에서 인적분할해 설립된 자동차부품 제조업체로, 자동차용 공조(HVAC) 시스템 부품 및 전장 부품을 설계·제조·판매합니다. 2025년 연결기준 매출액은 5,320억원이며 국내 1차 납품업체와 글로벌 완성차사에 제품을 공급하고 있습니다.",
+    "business_model": "주요 제품은 HEATER CONTROL, PTC Heater(PTC 히터), ACTUATOR, CLUTCH COILASSEMBLY 등 HVAC(공조) 관련 부품과 상품 판매로 구성되며, FY2025 기준 사업부문별 비중은 HEATER CONTROLASSEMBLY 49.1%, 상품 24.2%, PTC Heater 8.7%, 자동차부품 5.0%, CLUTCH COILASSEMBLY 2.4%, 기타 7.6%, 기타매출 2.9%입니다. 품질·원가 경쟁력을 통해 완성차사의 개발단계 입찰에 참여해 매출을 확보하는 구조입니다.",
+    "main_customers": "자동차부품 — 한온시스템·현대모비스·두원공조(국내 1차 납품업체) / 자동차부품(수출) — DENSO·MAHLE·YINLUN·MARELLI(해외 수출거래처)",
+    "price_factors": [
+      {
+        "factor": "완성차 수요",
+        "detail": "완성차 생산·판매량 변동이 직접적으로 매출과 실적에 영향을 미칩니다."
+      },
+      {
+        "factor": "품질·가격 경쟁",
+        "detail": "신규 개발품 선정은 경쟁입찰 방식이므로 품질·가격 경쟁력이 확보되지 않으면 매출에 부정적 영향을 받습니다."
+      },
+      {
+        "factor": "글로벌 소싱",
+        "detail": "완성차사의 글로벌 소싱 확대 시 해외경쟁사와 경쟁이 격화되어 실적 변동성이 커질 수 있습니다."
+      },
+      {
+        "factor": "인증·수출경로",
+        "detail": "ISO 인증 및 Ecovadis 인증 보유로 북미·유럽 직수출이 가능해져 해외 매출 확장에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "자동차부품 제조 및 판매사업 부분을 인적분할하여 설립하였습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "CONTROL 261,458백만원(49.14%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "국내 주요거래처로는 한온시스템, 현대모비스, 두원공조 등이 있으며,"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "자동차부품 시장의 특성은 완성차 시장과 긴밀하고 직접적인 관계에 있으며,"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "ISO14001,2015과 ISO/TS 16949:2016 인정 획득"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4186,
+    "completion_tokens": 4566,
+    "reasoning_tokens": 3712,
+    "output_tokens": 854
+  },
+  "warnings": []
+}

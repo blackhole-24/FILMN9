@@ -1,0 +1,61 @@
+{
+  "stock_code": "263800",
+  "corp_name": "데이타솔루션",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 14:19",
+  "meta": {
+    "wics": "IT서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "데이타솔루션은 통계분석 소프트웨어(S/W), 스토리지 장비 공급 및 시스템통합(SI) 서비스를 제공하는 IT서비스 업체입니다. AI·클라우드·빅데이터 등 IBCM(모바일·IoT 등) 시장 변화와 함께 데이터 플랫폼·AI 인프라 부문에서 수주를 확대하며 매출 1,000억원 이상을 연속 달성하는 성과를 이루어 냈습니다.",
+    "business_model": "주요 수익원은 상품(하드웨어)과 소프트웨어·서비스(용역·유지보수)로 구성되며, FY2025 기준 사업부문별 영업수익은 상품 53.3%, S/W 6.6%, 용역 20.5%, 유지보수 19.3%, 기타 용역 0.3%를 차지합니다. 통계분석 S/W(예: SPSS) 공급과 스토리지 장비 유통, SI(시스템통합) 및 유지보수(시스템 운영 지원)가 핵심 수익 구조입니다.",
+    "main_customers": "상품 — 엔터프라이즈·인프라 고객(스토리지 구매 기업) / S/W — 통계분석 소프트웨어를 사용하는 기업·연구기관 / 용역 — 대형 금융기관 등 SI 프로젝트 발주 기업 / 유지보수 — 기존 시스템 운영 고객 / 기타 용역 매출 — 기타 서비스 수요처",
+    "price_factors": [
+      {
+        "factor": "스토리지 가격",
+        "detail": "DellEMC 등 스토리지 장비의 모델·시기별 가격 변동은 매출 규모와 마진에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "SW 라이선스",
+        "detail": "SPSS 등 상용 소프트웨어의 라이선스 방식(패키지·클라우드 전환 등) 변화는 매출 구조와 수익성에 영향을 줍니다."
+      },
+      {
+        "factor": "AI·디지털수요",
+        "detail": "AI·빅데이터·클라우드 도입 확산은 데이터 플랫폼·AI 인프라 부문의 수주 확대와 실적에 영향을 미칩니다."
+      },
+      {
+        "factor": "대형 수주 편중",
+        "detail": "대형 금융기관 중심의 프로젝트 수주는 수주·매출 변동성에 큰 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "인건비 부담",
+        "detail": "판매비·관리비 중 인건비 증가 등 비용 상승은 영업이익에 부담으로 작용할 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 시장의 현황 > (2) 시장의 특성",
+        "evidence_text": "당사는 통계분석 S/W 사업, 스토리지 사업, SI 사업을 영위하고 있으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "상품: 55,351 (53.3%)"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4201,
+    "completion_tokens": 4122,
+    "reasoning_tokens": 3392,
+    "output_tokens": 730
+  },
+  "warnings": []
+}

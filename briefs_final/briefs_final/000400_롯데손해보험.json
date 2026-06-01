@@ -1,0 +1,68 @@
+{
+  "stock_code": "000400",
+  "corp_name": "롯데손해보험",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 13:39",
+  "meta": {
+    "wics": "손해보험",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "insurance"
+  },
+  "brief": {
+    "company_overview": "롯데손해보험은 1946년 설립된 손해보험사로, 손해보험업을 주력으로 영위하는 금융전문기업입니다. 총자산 약 14조원대와 원수보험료(프리미엄) 28,561억원(전기대비 4.1% 성장)을 기록하는 중견 보험사입니다.",
+    "business_model": "핵심 사업은 화재·해상·자동차·보증·재보험 등 전형적인 손해보험(보험료 수입 및 보험금 지급, 투자수익 병행)으로 구성되어 있습니다. 사업부문 데이터에서는 '일반계정'이 주요 사업부문으로 표기되어 있으며, 원수보험료와 투자손익(투자수익 377억원)이 주요 수익원입니다. 또한 자산을 안전자산 중심으로 운용하고 언더라이팅(보험심사) 고도화 및 디지털 플랫폼(ALICE, wonder)을 통한 영업·운영 효율화로 질적 성장을 도모하고 있습니다.",
+    "main_customers": "장기보험 — 보험계약자 / 일반보험 — 보험계약자 / 자동차보험 — 보험계약자",
+    "price_factors": [
+      {
+        "factor": "원수보험료",
+        "detail": "원수보험료(프리미엄) 성장 여부가 보험영업수익과 실적에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "운용자산",
+        "detail": "운용자산 규모 및 자산배분(안전자산 비중)은 투자손익에 영향을 주어 당기순이익 변동 요인이 됩니다."
+      },
+      {
+        "factor": "언더라이팅",
+        "detail": "언더라이팅 고도화와 보험매출 포트폴리오 개선은 손해율 및 손익 안정성에 직결됩니다."
+      },
+      {
+        "factor": "디지털전환",
+        "detail": "디지털 플랫폼(ALICE, wonder) 도입은 영업·운영 효율성과 성장 잠재력에 영향을 미칩니다."
+      },
+      {
+        "factor": "채널관리",
+        "detail": "GA채널 관리 및 영업리스크관리 강화는 판매 건전성과 영업 효율성에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "롯데손해보험은 1946년 설립 이후 손해보험의 성장을 이끌고 있는 금융전문기업입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "원수보험료는 전년 동기 대비 4.1% 성장한 28,561억원을 거수하였으며,"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "운용자산은 13조 3,270억원으로 92.5%의 자산운용률을 기록하였습니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 3226,
+    "completion_tokens": 4407,
+    "reasoning_tokens": 3648,
+    "output_tokens": 759
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

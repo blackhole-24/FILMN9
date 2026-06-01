@@ -1,0 +1,62 @@
+{
+  "stock_code": "012700",
+  "corp_name": "리드코프",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 21:06",
+  "meta": {
+    "wics": "석유와가스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "리드코프는 2003년 대부업 등록 이후 석유도소매업, 고속도로 휴게소 운영 및 소비자여신금융업을 주요 사업으로 영위하는 기업입니다. 2025년도 연결기준 매출액은 387,710백만원으로 전년대비 감소한 실적을 보고하였습니다.",
+    "business_model": "FY2025 기준 사업부문별 영업수익 구성은 상품이 99.0%, 대행이 1.0%로 대부분 매출이 상품(주로 석유제품) 판매에 집중되어 있습니다. 이와 별도로 고속도로 휴게소 운영과 소비자여신금융업을 영위하며 다각화된 영업활동을 병행하고 있습니다.",
+    "main_customers": "석유사업부문 — 정유사·석유수입사(공급원) / 석유사업부문 — 일반대리점·주유소·일반판매소(판매처) / 휴게소사업부문 — 고속도로 이용 고객 / 소비자여신금융업 — 금융서비스 이용자",
+    "price_factors": [
+      {
+        "factor": "석유가격변동",
+        "detail": "국제 수급·OPEC+ 결정 및 대외 경기 영향으로 석유제품 가격 변동성이 커지면 상품 매출과 이익에 직접 영향이 생깁니다."
+      },
+      {
+        "factor": "친환경전환",
+        "detail": "전기·수소차 등 대체연료 확산과 연비 향상은 장기적으로 석유제품 판매 감소 압력으로 작용할 수 있습니다."
+      },
+      {
+        "factor": "고속도로교통량",
+        "detail": "휴게소의 고객 유입은 고속도로 이용 차량수에 좌우되므로 교통량 변화가 휴게소 매출 변동에 직결됩니다."
+      },
+      {
+        "factor": "휴게소경쟁",
+        "detail": "휴게소 간 경쟁 심화는 매장 구성·편의시설·주차 확보 등 운영비용과 투자 우선순위에 영향을 미쳐 수익성에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "석유도소매업,고속도로 휴게소 운영 및 소비자여신금융업을 주된 사업으로 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "상품: 250,999 (99.0%), 대행: 3,256 (1.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 업계의 현황 (1) 산업의 특성① 석유사업부문",
+        "evidence_text": "일반대리점, 주유소, 일반판매소 등에 판매하고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3334,
+    "completion_tokens": 3731,
+    "reasoning_tokens": 3008,
+    "output_tokens": 723
+  },
+  "warnings": []
+}

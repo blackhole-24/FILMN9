@@ -1,0 +1,91 @@
+{
+  "stock_code": "039490",
+  "corp_name": "키움증권",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 09:59",
+  "meta": {
+    "wics": "증권",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "키움증권은 국내 최초의 온라인 종합증권사로, 투자매매업·투자중개업·투자일임업·투자자문업을 영위하고 있습니다. 저비용 사업구조와 국내 최대의 온라인 고객 기반을 바탕으로 2005년 이후 주식 위탁매매 시장점유율 1위를 유지해 왔습니다. 2025년에는 연결기준 영업이익 1조 4,882억 원, 당기순이익 1조 1,150억 원을 기록했습니다.",
+    "business_model": "사업부문별 영업수익 구성(FY2025)은 예수부채 27.0%, 차입부채 43.0%, 기타부채 14.0%, 자본 8.0%로 제시되어 있습니다. 리테일(위탁매매) 부문은 국내 주식 약정과 해외주식 거래를 바탕으로 수수료와 이자수익을 창출하며, S&T(세일즈앤트레이딩)는 ETF LP(유동성 공급)와 FX(외환) 트레이딩으로 수익을 냅니다. IB(기업금융) 부문은 DCM(채권발행시장), M&A(인수합병), 구조화/PF(프로젝트파이낸싱) 딜 수행을 통해 실적을 확대하고 있습니다.",
+    "main_customers": "리테일/위탁매매 — 국내 개인투자자 / 해외주식 거래 — 해외주식에 투자하는 개인 고객 / S&T — ETF LP 참여자, FX 트레이딩 수요처 / IB — 자금조달 기업, M&A 및 구조화/PF 수요 기업 / 자산관리 — 자산관리를 원하는 개인 고객",
+    "price_factors": [
+      {
+        "factor": "거래대금",
+        "detail": "국내 주식 거래대금이 늘수록 위탁매매 약정과 수수료 수익이 함께 확대되는 구조입니다."
+      },
+      {
+        "factor": "증시흐름",
+        "detail": "국내 증시가 강세일수록 고객 거래가 활발해져 리테일과 투자운용 실적에 유리하게 작용합니다."
+      },
+      {
+        "factor": "해외변동성",
+        "detail": "미국주식시장 변동성이 커지면 해외주식 거래가 늘 수 있어 해외주식 약정에 영향을 줍니다."
+      },
+      {
+        "factor": "예수금",
+        "detail": "원화예수금과 외화예수금이 늘면 이자수익 개선에 도움이 되어 수익 구조에 영향을 줍니다."
+      },
+      {
+        "factor": "IB수주",
+        "detail": "DCM, M&A, 구조화/PF 딜 수행이 늘수록 IB 부문의 실적과 시장 내 지위가 강화됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 국내 최초의 온라인 종합증권사로서"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "2005년 이후 주식 위탁매매 시장점유율 1위를"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "예수부채: 20,273,557 (27.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "차입부채: 750,000 (43.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "S&T 부문은 ETF LP, FX 트레이딩 등을 중심으로"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "국내 최초의 온라인 종합증권사"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "국내 주식 일평균 시장 거래대금은 32.0조 원"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "미국주식시장의 변동성 확대로 누적 해외주식 거래"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4428,
+    "completion_tokens": 1100,
+    "reasoning_tokens": 0,
+    "output_tokens": 1100
+  },
+  "warnings": []
+}

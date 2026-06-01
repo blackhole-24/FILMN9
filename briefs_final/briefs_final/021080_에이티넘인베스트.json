@@ -1,0 +1,64 @@
+{
+  "stock_code": "021080",
+  "corp_name": "에이티넘인베스트",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 22:35",
+  "meta": {
+    "wics": "창업투자",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "에이티넘인베스트는 국내외 유망 중소·벤처기업에 투자하는 벤처투자회사(VC)로, 투자와 경영·기술지원을 통해 자본이득을 추구합니다. 당기말 누적기준 영업수익 706억원, 영업이익 320억원, 당기순이익 251억원 등으로 안정적 흑자 기조를 유지하고 있습니다.",
+    "business_model": "주요 수익원은 운용하는 투자조합을 통한 관리보수(Management fee)와 성과보수(Carried interest)이며, 유망 벤처기업을 발굴해 자금·경영관리·기술지도를 제공하고 투자회수 시 자본이득(capital gain)을 실현하는 구조입니다. 당사는 운용조합을 통해 다양한 섹터에 투자 집행 및 회수를 수행하며 운용성과에 따라 수익 변동성이 발생합니다.",
+    "main_customers": "투자(자본) — 유망 중소·벤처기업 / 창업지원 — 예비창업자·창업자 / 운용조합의 출자자(펀드 출자자)",
+    "price_factors": [
+      {
+        "factor": "운용성과",
+        "detail": "운용조합의 투자회수 실적이 높을수록 성과보수와 실현이익이 증가하여 실적에 긍정적 영향을 미칩니다."
+      },
+      {
+        "factor": "투자분야",
+        "detail": "서비스·플랫폼, 딥테크, 바이오·헬스 등 특정 분야 비중에 따라 회수 시점과 밸류에이션(기업가치) 변동성이 달라집니다."
+      },
+      {
+        "factor": "회수규모",
+        "detail": "대규모 회수(예: 보고서상의 연도별 회수실적)는 실현이익 확대와 자금유동성 개선으로 이어질 수 있습니다."
+      },
+      {
+        "factor": "재무안정성",
+        "detail": "낮은 부채비율·높은 자기자본비율은 손실 흡수 여력을 높여 투자손실 발생 시 실적 변동성을 완화합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "벤처투자회사(Venture Capital, VC)로"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "당기말 누적기준 영업수익은 706억원이며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "2025년 1,745억원을 33개의 기업에 투자 완료"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 3807,
+    "completion_tokens": 4288,
+    "reasoning_tokens": 3584,
+    "output_tokens": 704
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

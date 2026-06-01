@@ -1,0 +1,72 @@
+{
+  "stock_code": "024070",
+  "corp_name": "WISCOM",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 22:50",
+  "meta": {
+    "wics": "화학",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "WISCOM은 합성수지(Compound) 제조·가공을 주력으로 하는 화학업체로, 전선용·자동차용·건축자재용 등 다양한 플라스틱 중간재를 생산·판매합니다. 또한 (주)LG화학 및 LXMMA 등의 제품을 위탁받아 임가공(위탁 제조)을 수행하며 중국에 종속회사를 두고 현지 생산·판매를 병행하고 있습니다.",
+    "business_model": "핵심은 수요처의 물성 요구에 맞춰 PVC, PE 및 고기능성 수지를 배합한 컴파운드(수지 중간제품)를 생산·판매하는 제품부문이며, 임가공(위탁 제조)을 통해 LG화학 등 대형 고객의 수주를 수행하는 모델이 병행됩니다. 사업부문별 영업수익 구성은 제품 66.9%, 임가공 26.9%, 중국(현지법인) 12.3%로 보고되었습니다.",
+    "main_customers": "제품부문 — 전력·통신·자동차·건설 등 플라스틱 가공업체 / 임가공부문 — (주)LG화학·LXMMA 등 대형 화학사 / 중국부문 — 현지 바이어 및 LG화학 관련 가공 수요처",
+    "price_factors": [
+      {
+        "factor": "원자재가격",
+        "detail": "PVC·PE 등 기초원료 가격 변동은 매출원가에 직접 영향을 미쳐 실적 변동성을 키웁니다."
+      },
+      {
+        "factor": "주요고객의존",
+        "detail": "LG화학 등 대형 고객의 발주량 변화는 임가공 수익에 즉각적인 영향을 줍니다."
+      },
+      {
+        "factor": "경쟁심화",
+        "detail": "국내 PVC 원료 시장의 과점 구조와 대기업의 진입 가능성은 가격·판매환경 악화 리스크로 작용합니다."
+      },
+      {
+        "factor": "수요산업변동",
+        "detail": "전력·통신·자동차·건설 등 전방 산업의 계절적·경기적 변동은 제품 수요와 실적에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "당사 및 종속회사는 화학합성수지 물질제조 및 가공판매업, 플라스틱 제품제조ㆍ가공판매업, 도ㆍ소매 및 부대사업을 목적사업으로 영위하고 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "생산된 제품은 수요처에 판매되어 전력용, 통신용 케이블, 자동차 케이블, 내장재, 건축용자재, 호스, 생활용품 등 다양한 플라스틱 제품제조에 사용되고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "제     품: 69,080 (66.9%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "임 가 공: 27,753 (26.9%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "중     국: 12,730 (12.3%)"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4680,
+    "completion_tokens": 3310,
+    "reasoning_tokens": 2432,
+    "output_tokens": 878
+  },
+  "warnings": []
+}

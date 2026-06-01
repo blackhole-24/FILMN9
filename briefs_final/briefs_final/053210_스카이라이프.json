@@ -1,0 +1,72 @@
+{
+  "stock_code": "053210",
+  "corp_name": "스카이라이프",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 03:07",
+  "meta": {
+    "wics": "방송과엔터테인먼트",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "스카이라이프는 국내 유일의 위성방송사업자를 핵심으로 하는 종합 유료방송 사업자입니다. 위성방송을 중심으로 케이블·채널사업·인터넷·알뜰폰 결합상품까지 운영하며 가입자 기반의 플랫폼 비즈니스를 영위하고 있습니다.",
+    "business_model": "주요 수익은 방송 플랫폼 기반의 서비스수익(65.4%), 플랫폼수익(27.8%), 기타수익(6.8%)으로 구성되어 있습니다. 위성방송(채널 송출 및 수신료)과 케이블·IPTV(유선방송), 자체 채널의 콘텐츠 제작·판매가 핵심이며, 인터넷·알뜰폰 결합상품과 2025년 출시한 ipit TV(IPTV) 등으로 수익원 다각화를 추진하고 있습니다.",
+    "main_customers": "위성방송서비스 — 전국 가입자·시청자 / 유선방송서비스 — 지역 가입자·지역시청자 / 방송사업(채널) — 20~49세 남녀 시청자",
+    "price_factors": [
+      {
+        "factor": "유료방송경쟁",
+        "detail": "유료방송 플랫폼 간 경쟁 심화 시 가입자 확보와 수신료 기반 수익성에 부담을 줄 수 있습니다."
+      },
+      {
+        "factor": "콘텐츠·OTT",
+        "detail": "OTT 및 독점 콘텐츠 경쟁 확대는 자체 채널의 시청률과 광고·콘텐츠 매출에 영향을 미칩니다."
+      },
+      {
+        "factor": "광고시장",
+        "detail": "방송광고 시장 침체는 채널사업의 광고매출과 전체 실적에 부정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "가입자유지",
+        "detail": "결합상품(인터넷·모바일) 경쟁력과 가입자 이탈률은 플랫폼 수익과 장기 현금창출력에 직접 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "[1] 위성방송서비스사업: (주)케이티스카이라이프",
+        "evidence_text": "케이티스카이라이프는 국내 유일의 위성방송사업자로서"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[1] 위성방송서비스사업: (주)케이티스카이라이프",
+        "evidence_text": "그 중 서비스수익은 4,468억원으로 65.4%"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[1] 위성방송서비스사업: (주)케이티스카이라이프",
+        "evidence_text": "플랫폼수익은 1,900억원으로 27.8%"
+      },
+      {
+        "field": "business_model",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "2025년 7월부터는 신규 IPTV 서비스인 ipit TV를 출시"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "[3] 방송사업: (주)케이티이엔에이",
+        "evidence_text": "메인타깃인 20~49세 남녀시청자를 겨냥하여"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5758,
+    "completion_tokens": 3613,
+    "reasoning_tokens": 2816,
+    "output_tokens": 797
+  },
+  "warnings": []
+}

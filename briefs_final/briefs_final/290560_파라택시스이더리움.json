@@ -1,0 +1,86 @@
+{
+  "stock_code": "290560",
+  "corp_name": "파라택시스이더리움",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:34",
+  "meta": {
+    "wics": "소프트웨어",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "파라택시스이더리움(구 신시웨이)은 2005년 설립된 데이터베이스 보안 전문 기업으로, 개인정보와 민감정보를 보호하기 위한 보안 제품을 개발·공급하고 있습니다. 공공기관, 금융회사, 일반 기업을 대상으로 데이터 보안 소프트웨어와 기술지원 서비스를 제공하며, 클라우드 환경에 맞춘 제품 확장도 진행하고 있습니다.",
+    "business_model": "핵심 사업은 DB접근제어(데이터베이스 접근 권한 통제), DB암호화(데이터를 읽기 어렵게 만드는 기술), 비정형 파일 암호화, DB 권한 결재 솔루션입니다. FY2025 사업부문별 영업수익은 페트라(Petra) 22.6%, 페트라 사이퍼(Petra Cipher) 31.2%, 페트라 클라우드서비스 19.2%, 용역/서비스 25.8%, 상품/기타 1.2%로 구성되어 있으며, 클라우드 마켓플레이스 출시를 통해 데이터 보안 포트폴리오를 넓히고 있습니다.",
+    "main_customers": "페트라(Petra) — 공공기관, 기업 / 페트라 사이퍼(Petra Cipher) — 데이터베이스 저장 데이터를 보호하려는 공공기관, 기업 / 페트라 클라우드서비스 — 클라우드 환경을 사용하는 고객 / 용역·서비스 — 제품 구축 및 기술지원이 필요한 공공기관, 금융회사, 일반 기업",
+    "price_factors": [
+      {
+        "factor": "보안수요",
+        "detail": "사이버 범죄와 개인정보 유출 위험이 커질수록 데이터 보안 솔루션 수요가 늘어 실적에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "클라우드전환",
+        "detail": "기업들의 온프레미스에서 클라우드, 하이브리드, 멀티 클라우드로의 전환이 확대되면 관련 보안 제품 수요가 증가할 수 있습니다."
+      },
+      {
+        "factor": "규제강화",
+        "detail": "데이터 3법, 마이데이터, 개인정보보호법 같은 규제와 컴플라이언스 요구가 강화될수록 보안 솔루션 채택 필요성이 커집니다."
+      },
+      {
+        "factor": "제로트러스트",
+        "detail": "제로트러스트(무조건 신뢰하지 않고 계속 검증하는 보안 방식) 확산은 접근제어 솔루션 수요를 키우는 요인으로 언급됩니다."
+      },
+      {
+        "factor": "클라우드마켓",
+        "detail": "비정형 파일 암호화와 DB 권한 결재 솔루션을 클라우드 마켓플레이스에 출시한 만큼, 클라우드 시장 확장이 사업 기회와 연결됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 보안 솔루션 사업",
+        "evidence_text": "2005년 설립된 데이터베이스 보안 제품을 주력으로 개발, 공급하는 데이터 보안 전문 기업"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "페트라(Petra): 3,158,268 (22.6%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "페트라 사이퍼(Petra Cipher): 4,372,099 (31.2%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "페트라 클라우드서비스: 2,691,099 (19.2%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "용역 / 서비스: 3,613,741 (25.8%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "공공기관, 금융회사 및 일반 기업 등 다양한 사업 분야"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "마. 각 사업부문의 시장여건 및 영업의 개황 등",
+        "evidence_text": "국내 사이버 침해사고 신고 건수는 2024년 1,887건에서 2025년 2,383건으로 26% 이상 급증"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5757,
+    "completion_tokens": 1074,
+    "reasoning_tokens": 0,
+    "output_tokens": 1074
+  },
+  "warnings": []
+}

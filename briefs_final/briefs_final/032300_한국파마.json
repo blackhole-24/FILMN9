@@ -1,0 +1,74 @@
+{
+  "stock_code": "032300",
+  "corp_name": "한국파마",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 12:55",
+  "meta": {
+    "wics": "제약",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "한국파마는 자체 R&D를 바탕으로 다양한 처방 의약품을 제조·판매하는 제약사입니다. 정신신경계, 순환기계, 소화기계, 항생항균 등에서 제조 역량을 보유하고 있으며, 대구·의왕의 연구센터를 통해 신약 및 개량신약 개발을 진행하고 있습니다.",
+    "business_model": "주요 사업부문은 자사제품, 위수탁(CMO: 위탁생산), 상품·수출, 국내외 라이센싱 아웃 및 임대수익 등으로 구성됩니다. CMO 부문은 고형제·내용액제·외용액제·연고제 생산 시스템을 보유하고 EU GMP(우수 의약품 제조관리 기준) 인증 이력 등 품질 경쟁력이 핵심이며, 연구센터를 통해 DDS(Drug Delivery System) 기반 개량신약과 신약후보물질 개발을 병행하고 있습니다.",
+    "main_customers": "자사제품 — 처방 의약품을 이용하는 환자 및 의료기관 / 위수탁(CMO) — 타 제약사 및 의뢰업체 / 수출 — 해외 바이어·현지 유통업체(예: 예멘·미얀마 등 진출국) / 라이센싱 아웃 — 국내외 제약사 및 파트너사",
+    "price_factors": [
+      {
+        "factor": "약가관리제도",
+        "detail": "정부의 약가관리(보험약가·실거래가 조사 등)는 제품 약가와 매출에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "임상·허가 규정",
+        "detail": "임상시험·허가 제도 변화는 신약·개량신약 개발 일정과 비용에 영향을 줍니다."
+      },
+      {
+        "factor": "품질·GMP 심사",
+        "detail": "GMP 및 국제 심사기준(MDSAP 등) 반영은 생산시설 인증과 수출경쟁력에 영향을 줍니다."
+      },
+      {
+        "factor": "수요 구조(고령화)",
+        "detail": "고령화·만성질환 증가로 의약품 수요가 안정적으로 유지되어 장기적 수요 기반에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "의약품을 제조 및 판매하고 있습니다"
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황",
+        "evidence_text": "고형제(정제, 캡슐제), 내용액제, 외용액제, 연고제에 대한 생산 시스템을 구축하여,"
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황",
+        "evidence_text": "특히, 외용액제/로션제의 경우 EU GMP 인증을 획득한 이력으로"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나. 주요 제품 등의 가격변동 추이",
+        "evidence_text": "정부는 보험재정 절감을 위해 약가관리제도를 운영하고 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "약 17개 국가에 의약품 등록 및 수출을 하고 있으나"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4776,
+    "completion_tokens": 5289,
+    "reasoning_tokens": 4480,
+    "output_tokens": 809
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

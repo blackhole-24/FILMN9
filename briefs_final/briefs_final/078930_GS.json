@@ -1,0 +1,81 @@
+{
+  "stock_code": "078930",
+  "corp_name": "GS",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:11",
+  "meta": {
+    "wics": "석유와가스",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "GS는 2004년 7월 1일 설립된 지주회사로, 다른 회사의 주식을 보유해 그룹 전체를 지배하는 구조를 갖고 있습니다. 2025년 12월말 현재 GS에너지, GS리테일, GS피앤엘, GS이앤알, GS이피에스, GS글로벌 등 여러 자회사를 두고 있습니다. 연결 기준으로는 자회사 실적과 지분법수익(관계기업 이익 반영)이 회사 실적에 큰 영향을 주는 구조입니다.",
+    "business_model": "GS의 연결기준 매출은 자회사 매출, 지분법수익(보유 지분에 따른 이익 반영), 임대수익, 상표권 사용수익으로 구성됩니다. FY2025 사업부문별 영업수익은 정유사업 78.2%, 윤활유사업 4.2%, 석유화학사업 17.6%로, GS칼텍스 중심의 에너지·정유 사업 비중이 매우 큽니다. 또한 GS는 지주회사 특성상 직접 사업보다 자회사 실적이 연결 실적에 큰 영향을 미칩니다.",
+    "main_customers": "정유사업 — 수송용 연료 및 산업용 석유제품을 사용하는 기업·유통시장 / 윤활유사업 — 자동차·산업 설비용 윤활유 수요처 / 석유화학사업 — 화학제품 및 소재를 사용하는 제조업 수요처",
+    "price_factors": [
+      {
+        "factor": "유가",
+        "detail": "국제 원유가격 변동은 정유사업의 원가와 제품가격에 함께 영향을 줘 실적 변동성을 키웁니다."
+      },
+      {
+        "factor": "정제마진",
+        "detail": "정제마진(원유를 정제해 남는 이익)이 개선되면 정유사업 수익성이 좋아지고, 악화되면 실적이 둔화됩니다."
+      },
+      {
+        "factor": "수요회복",
+        "detail": "내수 활동과 교역 활동 회복으로 이동량이 늘면 수송용 석유 수요가 증가해 매출에 긍정적일 수 있습니다."
+      },
+      {
+        "factor": "지정학리스크",
+        "detail": "중동·러시아 관련 지정학적 불확실성은 공급망과 정제설비 운영에 영향을 줘 제품가격과 마진 변동성을 높입니다."
+      },
+      {
+        "factor": "석화수요",
+        "detail": "나프타·LPG·에탄 등 석유화학 원료 수요가 늘면 석유화학사업의 물량과 수익성에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "당사는 다른 회사의 주식을 소유함으로써 그 회사를 지배하는 것을 목적으로 하는 지주회사입니다."
+      },
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "2004년 7월 1일 설립되었으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "정유사업: 34,919,284 (78.2%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "윤활유사업: 1,875,784 (4.2%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "석유화학사업: 7,835,129 (17.6%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "[GS리테일]",
+        "evidence_text": "소비자가 필요로 하는 각종 상품을 판매하고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 6165,
+    "completion_tokens": 965,
+    "reasoning_tokens": 0,
+    "output_tokens": 965
+  },
+  "warnings": []
+}

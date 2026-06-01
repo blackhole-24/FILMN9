@@ -1,0 +1,62 @@
+{
+  "stock_code": "224110",
+  "corp_name": "에이텍모빌리티",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 12:46",
+  "meta": {
+    "wics": "컴퓨터와주변기기",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "에이텍모빌리티는 교통카드·교통단말기 등 모빌리티 관련 단말기 제조와 유지보수를 주력으로 하는 기업입니다. 당사 사업은 모빌리티 사업 단일 부문으로 구성되어 있으며, 서울시 시내버스 및 서울교통공사 단말기 교체사업 등이 실적 증가에 기여했습니다. 상반기에는 보유 중인 에이텍에이피 주식 전량을 처분하여 신사업 추진 및 유동성 확보를 진행하였고, 물류자동화사업은 중단하였습니다.",
+    "business_model": "주요 수익은 모빌리티 단일 사업부에서 발생하며, 제품(하드웨어)이 51.4%, 상품이 7.5%, 용역(유지보수·소프트웨어 서비스)이 41.1%로 구성됩니다. 하드웨어 제조와 소프트웨어(지능형 교통체계(ITS)) 개발, 유지보수 서비스를 통합 제공하는 비즈니스가 핵심이며, 제품 교체주기와 정부·지자체 프로젝트에 따른 수요 변동성이 존재합니다. 또한 차량충돌방지시스템, DTG 솔루션, 키오스크 등으로 사업영역을 확대하고 있습니다.",
+    "main_customers": "제품·상품 — 지자체·공공기관(예: 서울시, 서울교통공사) / 용역 — 공공 인프라 발주처(유지보수·시스템 운영 수요)",
+    "price_factors": [
+      {
+        "factor": "교체주기",
+        "detail": "제품의 교체주기에 따라 매출이 직접 변동하여 실적에 즉각적 영향을 미칩니다."
+      },
+      {
+        "factor": "공공발주",
+        "detail": "공공기관·지자체 중심의 발주 및 입찰 구조에 따라 수주 실적이 좌우됩니다."
+      },
+      {
+        "factor": "기술신뢰성",
+        "detail": "기술 신뢰성과 구축 레퍼런스 보유 여부가 수주 경쟁력과 장기 유지보수 수익에 영향합니다."
+      },
+      {
+        "factor": "디지털화",
+        "detail": "AI·IoT·ITS 등 교통 인프라의 디지털화 확대는 소프트웨어·서비스 매출 확대에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "당사 사업은 모빌리티 사업 단일 부문으로 구성되어 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "제품: 33,043 (51.4%)"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "모빌리티 관련 국내 특허 110건을 보유 중입니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3514,
+    "completion_tokens": 4879,
+    "reasoning_tokens": 4160,
+    "output_tokens": 719
+  },
+  "warnings": []
+}

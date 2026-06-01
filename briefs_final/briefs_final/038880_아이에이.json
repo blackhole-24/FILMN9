@@ -1,0 +1,62 @@
+{
+  "stock_code": "038880",
+  "corp_name": "아이에이",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 00:59",
+  "meta": {
+    "wics": "자동차부품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "아이에이는 1993년 설립된 비메모리 반도체 및 모듈 전문기업으로, 지배회사 ㈜아이에이를 중심으로 자동차 전장 분야의 반도체·모듈 사업을 영위하고 있습니다. 주요 종속회사인 ㈜트리노테크놀로지를 통해 전력반도체(IGBT, MOSFET) 개발·제조를 하고, ㈜아이에이클라우드를 통해 클라우드·IT 인프라 솔루션으로 사업 영역을 확장하고 있습니다.",
+    "business_model": "FY2025 기준 사업부문별 영업수익은 반도체가 57.0%로 핵심 수익원이며, 기타가 2.3%를 차지합니다. 주력 제품은 자동차 시트 열선·통풍 제어용 반도체, IBS(배터리관리 모듈), HPM(고전력 모듈) 등 전력반도체와 전력모듈·전력제어기이며, 전동화(전기차) 확산에 따른 적용 차종 확대가 매출 성장의 주요 동력입니다.",
+    "main_customers": "자동차 전장 반도체·모듈 — 완성차 업체 및 전장 부품업체(Tier 1) / 전력반도체(트리노테크놀로지) — 전기차 제조사, 태양광 인버터·가전·서버 전원부 관련 기업 / 클라우드·IT 인프라(아이에이클라우드) — 클라우드·IT 인프라 수요 기업",
+    "price_factors": [
+      {
+        "factor": "전동화 수요",
+        "detail": "전기차(EV) 도입 확대 시 차량당 전력반도체 탑재량 증가로 매출·수익에 긍정적 영향을 미칩니다."
+      },
+      {
+        "factor": "품질 신뢰성",
+        "detail": "'Zero Defect' 수준의 품질 확보와 완성차사와의 장기 레퍼런스가 수주와 공급지위에 직접적 영향을 줍니다."
+      },
+      {
+        "factor": "글로벌 경쟁",
+        "detail": "NXP, 인피니언 등 글로벌 메이저와의 경쟁 상황에서 틈새 기술(고전압·고전류 제어) 확보 여부가 수익성에 영향을 줍니다."
+      },
+      {
+        "factor": "수요·공급 변동",
+        "detail": "글로벌 완성차 수요 및 거시경제(금리·소비심리) 변동은 매출채권 및 실적에 영향을 미칠 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "비메모리 반도체 및 모듈 전문기업"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "- 반도체: 23,500,198,385 (57.0%)"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "사업부문별 현황 및 산업의 특성",
+        "evidence_text": "품질 신뢰성(Zero Defect) 확보"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5032,
+    "completion_tokens": 4056,
+    "reasoning_tokens": 3264,
+    "output_tokens": 792
+  },
+  "warnings": []
+}

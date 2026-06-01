@@ -1,0 +1,66 @@
+{
+  "stock_code": "079940",
+  "corp_name": "가비아",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 06:00",
+  "meta": {
+    "wics": "IT서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "가비아는 기업용 클라우드와 IT 인프라를 통합 제공하는 클라우드 및 IT 인프라 전문 기업으로, 인프라 구축부터 운영·보안 관제까지 '올인원(All-in-One) IT 플랫폼'을 제공합니다. 2025년 연결기준 매출액은 전년대비 19% 증가한 3,357억원, 영업이익은 405억원으로 집계되며, 안정적 핵심 사업과 클라우드·AI 인프라 등 신성장 분야를 병행하고 있습니다.",
+    "business_model": "핵심 사업은 클라우드(IaaS, SaaS, DaaS), 보안, 도메인, 데이터센터(IDC)로 구성되며, CSP(클라우드 서비스 제공사), MSP(클라우드 관리 서비스 제공사), 보안관제 역량을 통합 보유하여 인프라 구축·운영·보안을 단일 창구에서 제공합니다. FY2025 연결기준 영업수익 구성은 ㈜가비아 16.0%, ㈜케이아이엔엑스 12.0%, ㈜에스피소프트 57.0%, ㈜엑스게이트 11.0%이며, CSAP(클라우드 보안인증) 보유 서비스와 AI·GPU 대응 인프라 투자를 통해 고성능 컴퓨팅 수요에도 대응하고 있습니다.",
+    "main_customers": "클라우드(IaaS/SaaS/DaaS) — 공공기관 및 기업 고객 / 보안 — 자체 보안역량이 부족한 기업군 및 공공기관 / 도메인 — 온라인 사업자 및 기업 고객 / 데이터센터(IDC) — 클라우드·서비스 운영을 필요로 하는 기업",
+    "price_factors": [
+      {
+        "factor": "사이버 위협",
+        "detail": "고도화된 사이버 공격 증가 시 보안·관제 서비스 수요가 늘어나 실적에 긍정적 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "인터넷 수요",
+        "detail": "전자상거래 등 인터넷 산업 성장에 따라 인프라·도메인·클라우드 수요가 장기적으로 확대됩니다."
+      },
+      {
+        "factor": "구독형 매출",
+        "detail": "서비스 연장(구독) 기반의 반복 매출 특성으로 고객 유지에 따라 실적 변동성이 완화됩니다."
+      },
+      {
+        "factor": "브랜드 지배력",
+        "detail": "IT 인프라는 안정성·브랜드 신뢰도가 중요해 시장 지배력과 고객 신뢰도가 실적에 큰 영향을 줍니다."
+      },
+      {
+        "factor": "AI 인프라 수요",
+        "detail": "GPU·고전력 서버 수요 증가로 AI·HPC 인프라 관련 투자·수익 변동이 실적에 직접 작용합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "연결재무제표 기준 매출액은 전년대비 19% 증가한 3,357억원"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "당사의 사업 부문은 ▲클라우드(IaaS, DaaS, SaaS) ▲보안 ▲도메인 ▲데이터센터(IDC) 등으로 구성됩니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "검증된 보안성을 바탕으로 공공기관 및 기업 고객에게 신뢰할 수 있는 클라우드 환경을 지원합니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5842,
+    "completion_tokens": 4478,
+    "reasoning_tokens": 3584,
+    "output_tokens": 894
+  },
+  "warnings": []
+}

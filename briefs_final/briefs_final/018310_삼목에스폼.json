@@ -1,0 +1,71 @@
+{
+  "stock_code": "018310",
+  "corp_name": "삼목에스폼",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 22:18",
+  "meta": {
+    "wics": "건축제품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "삼목에스폼은 거푸집류(알루미늄폼·판넬폼)를 제조·판매·임대하는 건설기자재 업체로, 제41기 연결 매출액은 3,169억원을 기록했습니다. 알루미늄폼을 중심으로 건축 골조 및 토목 현장에 자재를 공급하는 사업 구조를 가지고 있습니다.",
+    "business_model": "핵심 사업은 알루미늄폼과 판넬폼의 제조·판매·임대로, 사업부문별 영업수익은 구조용금속제품外제조(알루미늄폼)가 80.4%, 판넬폼이 19.6%를 차지합니다. 알루미늄폼은 한국·인도·말레이시아 공장에서 생산되며, 판넬폼은 국내 공장에서 생산되어 건설사에 공급 및 임대됩니다.",
+    "main_customers": "구조용금속제품外제조(알루미늄폼) — 건설사(골조공사·내벽·슬라브 시공 업체) / 판넬폼 — 건설사(외벽·항만·교량 등 건축·토목 공사 시공 업체)",
+    "price_factors": [
+      {
+        "factor": "건설경기",
+        "detail": "건설경기 호·불황에 따라 주문과 기성(실행 물량)이 크게 변동되어 실적에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "원자재가격",
+        "detail": "인고트·스크랩·철판 등 원재료 가격 변동은 제품 원가와 수익성에 즉각적인 영향을 미칩니다."
+      },
+      {
+        "factor": "정부정책",
+        "detail": "부동산·건설 관련 정책 기조(주택정책 등)에 따라 수주 및 현장 가동이 달라져 매출 변동을 초래합니다."
+      },
+      {
+        "factor": "경쟁요소",
+        "detail": "생산성·가격·납기 준수 등이 경쟁의 핵심이어서 경쟁 심화 시 마진 압박 또는 수주 경쟁이 심화될 수 있습니다."
+      },
+      {
+        "factor": "계절성",
+        "detail": "동절기(12월~2월) 전통적 비수기 영향이 있으나 보양공법 개선으로 영향이 완화되기도 합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "알루미늄폼의 제조, 판매 및 임대 이며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "구조용금속제품外제조 (80.4%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 업계의 현황 2. 경기변동의 특성",
+        "evidence_text": "주요 납품처인 건설사들의 재정안정성에 따라"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 업계의 현황 2. 경기변동의 특성",
+        "evidence_text": "당해 산업은 건설경기와 직결되는 관계로"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4131,
+    "completion_tokens": 2977,
+    "reasoning_tokens": 2176,
+    "output_tokens": 801
+  },
+  "warnings": []
+}

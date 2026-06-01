@@ -1,0 +1,83 @@
+{
+  "stock_code": "186230",
+  "corp_name": "그린플러스",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:24",
+  "meta": {
+    "wics": "건축자재",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "그린플러스는 1997년 10월 설립된 기업으로, 알루미늄 제품의 생산·가공과 국내외 스마트팜 시공 및 자재 판매를 주력으로 하고 있습니다. 본사는 충남 예산군 응봉면에 있으며, 알루미늄 압출 생산라인과 첨단온실 관련 역량을 바탕으로 알루미늄사업과 스마트팜사업을 함께 운영하고 있습니다.",
+    "business_model": "회사의 사업은 알루미늄사업부문과 스마트팜사업부문으로 구분되며, 알루미늄 압출제품의 생산·판매와 스마트팜 보급 확대가 핵심입니다. 알루미늄사업은 압출 3라인과 가공설비를 기반으로 건축용·산업용 자재를 만들고, 스마트팜사업은 첨단온실의 기획부터 설계, 자재 제작, 시공까지 전 영역을 대응하는 구조입니다. [사업부문별 매출 구성]의 수치만으로 보면 주요 사업부문 매출은 34,501과 2,855로 제시되어 있으며, 합계는 37,356입니다.",
+    "main_customers": "알루미늄사업 — 건설, 방산, 일반산업용 수요처 / 스마트팜사업 — 첨단온실·식물공장 관련 고객, 국내 스마트팜 수요처",
+    "price_factors": [
+      {
+        "factor": "건설경기",
+        "detail": "알루미늄 압출제품 수요가 산업용 빌딩 건설 활성화에 영향을 받아, 건설경기 변화가 실적에 직접적인 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "원자재단가",
+        "detail": "알루미늄 압출사업은 원재료비 비중이 높아, 알루미늄 매입단가 변동이 수익성에 큰 영향을 미칩니다."
+      },
+      {
+        "factor": "전력비",
+        "detail": "알루미늄 압출 과정에서 전력요금 비중이 높아 전기요금 변화가 원가와 실적에 영향을 미칩니다."
+      },
+      {
+        "factor": "스마트팜수요",
+        "detail": "이상기후와 식량 공급 불안이 커질수록 스마트팜과 첨단온실에 대한 수요가 확대될 수 있습니다."
+      },
+      {
+        "factor": "전기차공급",
+        "detail": "2024년부터 북미 글로벌 브랜드 전기자동차 4개 차종에 알루미늄 자재 공급이 기대된다고 제시되어 관련 수요가 변수로 작용할 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "MD&A > 1) 업황",
+        "evidence_text": "주식회사 그린플러스(이하 '당사')는 1997년 10월 설립"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "MD&A > 2) 회사 현황",
+        "evidence_text": "충남 예산군 응봉면에 본사 및 공장을 두고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. 시장 현황 (가) 시장의 특성",
+        "evidence_text": "당사의 주요 사업은 알루미늄사업과 스마트팜사업부문으로 구분"
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. 시장 현황 (가) 시장의 특성",
+        "evidence_text": "첨단온실사업의 전 영역을 대응할 수 있는 역량을 보유"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 시장 현황 (나) 알루미늄사업부문",
+        "evidence_text": "알루미늄 압출업은 건설, 방산, 일반산업용으로 대부분 소비"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "MD&A > 1) 업황",
+        "evidence_text": "채소, 화훼, 과수 등을 연중 고품질로 집약 생산"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4095,
+    "completion_tokens": 1003,
+    "reasoning_tokens": 0,
+    "output_tokens": 1003
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

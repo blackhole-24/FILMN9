@@ -1,0 +1,76 @@
+{
+  "stock_code": "357120",
+  "corp_name": "코람코라이프인프라리츠",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 17:35",
+  "meta": {
+    "wics": "부동산",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "reit"
+  },
+  "brief": {
+    "company_overview": "코람코라이프인프라리츠는 2020년 6월 투자부동산(주유소 187개)을 취득하고 2020년 8월 유가증권시장에 상장된 부동산투자회사(리츠)입니다. 주요임차인으로부터 발생하는 임대수익을 바탕으로 주주에게 배당을 지급하며, QSR(음식서비스) 등 기타수익 확대와 용도 전환을 통해 수익다각화 및 배당상승 여력을 모색하고 있습니다.",
+    "business_model": "핵심 수익원은 현대오일뱅크·에스케이네트웍스·쿠팡 등 주요임차인으로부터 발생하는 임대수익이며, 이 임대수익을 재원으로 배당을 지급합니다. 재무상(사업부문 관련 표)에 따르면 당기말 기준 현금및현금성자산 95.3%, 매출채권및기타채권 4.7%, 단기금융상품 0.0%로 현금성 자산 비중이 높습니다.",
+    "main_customers": "임대(리츠) — 대형 기업 임차인(현대오일뱅크·에스케이네트웍스·쿠팡 등)",
+    "price_factors": [
+      {
+        "factor": "금리(이자율)",
+        "detail": "이자율 변동은 차입금 이자비용과 이자수익을 바꿔 실적과 배당여력에 영향을 미칩니다."
+      },
+      {
+        "factor": "임차인집중",
+        "detail": "몇몇 대형 임차인에 의존하는 구조라 임차인 실적 변화가 임대수익·배당에 직결됩니다."
+      },
+      {
+        "factor": "신규자산편입",
+        "detail": "신규자산 편입·복합개발·전환개발의 성과에 따라 기업가치와 배당여력이 변동될 수 있습니다."
+      },
+      {
+        "factor": "유동성(현금)",
+        "detail": "당기말 기준 현금성자산 비중이 높아 단기 유동성 확보에는 유리한 구조입니다."
+      },
+      {
+        "factor": "자본구조",
+        "detail": "부채비율 관리 및 배당·자본정책 조정이 재무안정성과 배당정책에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "다. 신규사업 등의 내용 및 전망",
+        "evidence_text": "2020년 06월 투자부동산(주유소 187개 주유소)을 취득"
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 매출 (원문 테이블)",
+        "evidence_text": "현금및현금성자산 | 35,090,937"
+      },
+      {
+        "field": "business_model",
+        "source_section": "다. 신규사업 등의 내용 및 전망",
+        "evidence_text": "임대수익을 재원으로 당사 주주들에게 안정적인 배당금을 지급하고"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "다. 신규사업 등의 내용 및 전망",
+        "evidence_text": "주요임차인(현대오일뱅크 및 에스케이네트웍스, 쿠팡 등)"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "라. 조직도 > (1) 금융위험관리",
+        "evidence_text": "이자율위험은 미래의 시장 이자율 변동에 따라"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3287,
+    "completion_tokens": 5883,
+    "reasoning_tokens": 4992,
+    "output_tokens": 891
+  },
+  "warnings": []
+}

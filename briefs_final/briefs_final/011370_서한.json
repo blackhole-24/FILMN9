@@ -1,0 +1,76 @@
+{
+  "stock_code": "011370",
+  "corp_name": "서한",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 20:47",
+  "meta": {
+    "wics": "건설",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "서한은 건축·토목·기타(부동산임대업 외)를 주요사업으로 영위하는 종합 건설업체입니다. 당기 약 6,451억원의 매출을 기록하였고, 이 중 분양공사가 약 3,613억원(전체의 50.01%)으로 가장 큰 비중을 차지했습니다.",
+    "business_model": "매출은 국내 도급공사(42.6%)와 토목(57.4%)으로 구성되어 있어 도급·토목 공사가 수익의 대부분을 차지합니다. 회사는 수주에 의존하는 사업구조(수주산업) 특성상 건실한 재무구조와 기술력 확보, 브랜드 이미지를 통한 수주경쟁력 강화를 전략적 과제로 삼고 있습니다.",
+    "main_customers": "국내 도급공사 — 정부·공공 발주처 / 토목 — SOC(사회간접자본) 관련 발주처 / 분양공사 — 분양(주택) 수요자",
+    "price_factors": [
+      {
+        "factor": "경기민감성",
+        "detail": "건설산업은 수주산업이어서 경기 변동에 따라 수주량과 실적이 직접 영향을 받습니다."
+      },
+      {
+        "factor": "정부정책",
+        "detail": "정부의 부동산 규제나 SOC 예산 집행 방향이 공사 수주 가능성에 큰 영향을 미칩니다."
+      },
+      {
+        "factor": "원자재수급",
+        "detail": "주요 건설자재는 국내 조달이 대부분이며 계절·지역별 수요 편차로 원가와 공기(공사기간)에 영향이 발생합니다."
+      },
+      {
+        "factor": "인력공급",
+        "detail": "건설은 인력 비중이 큰 산업으로 인력 수급 상황이 시공능력과 비용에 영향을 미칩니다."
+      },
+      {
+        "factor": "기술·원가경쟁력",
+        "detail": "기술 능력·원가 경쟁력이 차별화 요소로 작용해 수주 확보와 수익성에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 건축, 토목, 기타(부동산임대업 외)를 주요사업으로 영위하고 있는 종합 건설업체입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "국내 도급공사: 199,039 (42.6%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "토 목: 361,324 (57.4%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "정부 및 정부 투자기관이 발주하는 사회간접자본 시설공사(SOC)"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "건설산업은 수주산업이기 때문에"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4089,
+    "completion_tokens": 4257,
+    "reasoning_tokens": 3456,
+    "output_tokens": 801
+  },
+  "warnings": []
+}

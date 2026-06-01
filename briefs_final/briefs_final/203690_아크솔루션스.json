@@ -1,0 +1,61 @@
+{
+  "stock_code": "203690",
+  "corp_name": "아크솔루션스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 11:43",
+  "meta": {
+    "wics": "가정용품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "아크솔루션스는 물티슈 OEM(주문자상표부착생산) 제조를 중심으로 하는 생활건강 중심 기업으로, 주력 생산품은 유아용·일반·클렌징·의약외품·생활화학용 물티슈 등입니다. 스마트팩토리 기반의 자동화 생산과 정제수 11단계 시스템 등 품질관리 역량을 갖추고 있습니다.",
+    "business_model": "핵심은 생활건강사업부(물티슈·위생용품) 중심의 OEM 제조이며, 당사 매출의 대다수(회사 자료상 95% 이상)가 이 부문에서 발생합니다. 그 외 엑소좀(줄기세포 유래 단백질 추출물) 기반 화장품 제조·판매 및 연구개발을 병행하나 매출 비중은 생활건강이 압도적입니다.",
+    "main_customers": "생활건강(물티슈 OEM) — 국내 물티슈 브랜드사",
+    "price_factors": [
+      {
+        "factor": "개인위생수요",
+        "detail": "개인 위생 인식 확대는 물티슈 시장의 구조적 성장으로 연결되어 실적에 긍정적 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "제품기능화",
+        "detail": "기능성(손소독·구강용 등) 제품 확대 추세는 고부가가치 제품 비중 확대와 마진 개선에 영향을 줍니다."
+      },
+      {
+        "factor": "친환경전환",
+        "detail": "친환경 원단·재활용 포장 도입은 시장 수요 대응과 함께 원가 구조 및 공급망 변화 요인이 될 수 있습니다."
+      },
+      {
+        "factor": "거래처구성",
+        "detail": "거래처 재편이나 주요 고객 집중은 단기 매출 변동성(예: 매출 감소)에 직접적인 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "품질·생산설비",
+        "detail": "스마트팩토리와 정제수 시스템 등 품질관리 역량은 제품 안정성·원가 효율성에 영향을 주어 실적과 연동됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황 > 가. 생활건강 사업",
+        "evidence_text": "당사는 물티슈 OEM 제조를 중심으로 사업을 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황 > 나. 조직도",
+        "evidence_text": "당사 매출의 95%이상은 생활건강사업부(물티슈, 위생용품 등)에서 발생하고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 2974,
+    "completion_tokens": 4308,
+    "reasoning_tokens": 3648,
+    "output_tokens": 660
+  },
+  "warnings": []
+}

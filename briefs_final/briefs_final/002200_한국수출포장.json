@@ -1,0 +1,67 @@
+{
+  "stock_code": "002200",
+  "corp_name": "한국수출포장",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 17:50",
+  "meta": {
+    "wics": "포장재",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "한국수출포장은 1957년 설립된 골판지 생산 전문기업으로, 안성·양산·대전(상자)·오산(원지) 공장을 통해 원지부터 골판지상자까지 일괄 생산체제를 갖추고 있습니다. 원지 재고관리와 빠른 원지 공급을 통해 원가절감과 안정적 생산에 주력하고 있습니다.",
+    "business_model": "핵심 사업은 골판지(골판지원지 및 골판지상자) 생산으로, FY2025 사업부문별 영업수익 구성은 76.64%와 23.36%입니다. 원지에서 상자에 이르기까지 일괄 생산체제를 바탕으로 원가 절감과 생산 안정성을 확보하는 것이 수익구조의 핵심입니다.",
+    "main_customers": "골판지상자 — 식품·음료·전자·섬유 제조업체, 농수산물 포장업체, 전자상거래업체",
+    "price_factors": [
+      {
+        "factor": "원자재(펄프)",
+        "detail": "펄프 등 원자재 비중이 높아 가격 상승 시 제조원가가 크게 증가하여 실적에 부정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "에너지비용",
+        "detail": "건조공정 등 에너지 의존도가 높아 전력·연료비 상승 시 제조원가와 영업이익률에 부담을 줍니다."
+      },
+      {
+        "factor": "경기민감",
+        "detail": "골판지 수요는 산업생산 및 소비 경기와 연동되어 경기 둔화 시 매출 감소 압력이 커집니다."
+      },
+      {
+        "factor": "전자상거래수요",
+        "detail": "인터넷 전자상거래 활성화는 골판지 상자 수요를 장기적으로 견인하는 요인입니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "원지에서부터 골판지원단, 상자에 이르기 까지 일괄 생산체제의 기업으로"
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황",
+        "evidence_text": "사업부문 골판지 상자 매출액비율 100%의 매출구조를 갖춘"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "식품, 음료, 전자, 섬유등 소비경기에 민감한 산업입니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "영업 현황",
+        "evidence_text": "원자재(펄프 및 고지) 점유비율이 매우 높습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3975,
+    "completion_tokens": 4921,
+    "reasoning_tokens": 4224,
+    "output_tokens": 697
+  },
+  "warnings": []
+}

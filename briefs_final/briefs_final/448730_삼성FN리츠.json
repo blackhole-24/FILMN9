@@ -1,0 +1,88 @@
+{
+  "stock_code": "448730",
+  "corp_name": "삼성FN리츠",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:44",
+  "meta": {
+    "wics": "부동산",
+    "market": "KOSPI",
+    "has_revenue_data": false,
+    "tier": 4,
+    "tier_mode": "best_effort_summary",
+    "corp_type": "reit"
+  },
+  "brief": {
+    "company_overview": "삼성FN리츠는 2022년 7월 26일 설립된 부동산투자회사(리츠)로, 2023년 4월 10일 한국거래소 유가증권시장에 상장했습니다. 삼성그룹이 보유한 우량 부동산과 그 외 투자매력도가 높은 부동산을 편입해 운용하는 것을 목표로 하며, 자산관리회사는 삼성에스알에이자산운용(주)입니다.",
+    "business_model": "삼성FN리츠는 부동산업을 단일사업으로 영위하며, 투자부동산을 임대해 받는 임대료 수익이 주된 수익원입니다. 현재 보유 자산은 에프엔타워 대치, 에프엔타워 순화, 에프엔타워 판교이며, 우량 임차인과의 장기 임대차를 통해 안정적인 배당수익을 추구하는 구조입니다. 사업부문별 매출 구성은 사업보고서상 별도 제시되지 않습니다.",
+    "main_customers": "임대사업 — 삼성생명보험㈜, ㈜신세계까사, ㈜에스원, 한화시스템㈜ 등 임차인 / 자산관리 — 삼성에스알에이자산운용(주)",
+    "price_factors": [
+      {
+        "factor": "금리",
+        "detail": "리츠는 임대수익과 자금조달 비용의 영향을 함께 받기 때문에 금리 변동이 배당여력과 수익성에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "공실률",
+        "detail": "보유 오피스의 공실률이 낮을수록 임대수익이 안정적으로 유지되어 실적에 유리하게 작용합니다."
+      },
+      {
+        "factor": "임차인",
+        "detail": "우량 임차인과의 장기 계약이 유지되면 안정적인 임대수익 창출에 도움이 됩니다."
+      },
+      {
+        "factor": "부동산",
+        "detail": "보유 부동산의 취득 및 운용 상황이 리츠의 자산가치와 수익 구조에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "정책규제",
+        "detail": "리츠 관련 법령, 퇴직연금 투자 허용 범위, 상장 규정 변화는 상장리츠 수요와 시장 확대에 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "나. 회사의 현황 1) 영업개황 및 사업부문의 구분 (가) 영업개황",
+        "evidence_text": "당사는 2022년 7월 26일 설립된 부동산투자회사"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "나. 회사의 현황 1) 영업개황 및 사업부문의 구분 (가) 영업개황",
+        "evidence_text": "2023년 4월 10일자로 한국거래소 유가증권시장에 상장"
+      },
+      {
+        "field": "business_model",
+        "source_section": "나. 회사의 현황 1) 영업개황 및 사업부문의 구분 (나) 공시대상 사업부문의 구분",
+        "evidence_text": "당사는 부동산업을 단일사업으로 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. 투자부동산 내역",
+        "evidence_text": "당사의 매출은 주로 투자부동산을 임대하여 수취하는 임대료 수익입니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 투자부동산 내역 1) 에프엔타워 대치",
+        "evidence_text": "주요 임차인은 삼성생명보험㈜, ㈜신세계까사 등"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 투자부동산 내역 2) 에프엔타워 순화",
+        "evidence_text": "㈜에스원 본사 사옥으로 100% 사용되고 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 투자부동산 내역 3) 에프엔타워 판교",
+        "evidence_text": "한화시스템㈜ 본사 사옥으로 100% 사용되고"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 6703,
+    "completion_tokens": 1064,
+    "reasoning_tokens": 0,
+    "output_tokens": 1064
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

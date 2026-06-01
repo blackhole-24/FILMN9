@@ -1,0 +1,67 @@
+{
+  "stock_code": "238490",
+  "corp_name": "힘스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 13:27",
+  "meta": {
+    "wics": "디스플레이장비및부품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "힘스는 OLED 핵심공정 장비와 검사장비를 개발·공급하는 디스플레이 장비 제조사로, 모바일용 분할 메탈 Mask 관련 장비와 Glass 검사장비를 중심으로 제품을 판매하고 있습니다. 매출의 상당 부분이 OLED장비에서 발생하며 인천 남동공단에 두 개의 크린룸 공장을 보유하고 있습니다.",
+    "business_model": "주요 수익원은 OLED장비(특히 Mask 공정 장비와 Glass 공정 검사장비)이며, 그 외에 스마트폰 카메라용 블루필터 검사기, 반도체 펠리클 검사기, 혈당측정시트 검사기 등 Non-OLED 장비와 비전 모듈(타사 장비에 탑재되는 광학 검사 모듈)을 제조·판매합니다. 당사 매출비중은 80% 이상이 OLED장비가 차지하고 있으며(설계->발주->입고 및 조립->출고)의 생산 프로세스를 통해 주문생산 방식으로 공급합니다.",
+    "main_customers": "OLED장비 — 국내 OLED 패널 제조사(예: 삼성디스플레이) 및 중국 OLED 패널 제조사 / Non-OLED 장비·비전모듈 — 스마트폰·반도체·헬스케어 관련 장비 제조업체 및 협력사",
+    "price_factors": [
+      {
+        "factor": "수주 변동성",
+        "detail": "고객사의 설비투자 여부에 따라 매출이 크게 변동하는 특성이 있어 분기·연간 실적 변동성이 큽니다."
+      },
+      {
+        "factor": "주요고객 집중",
+        "detail": "국내 대형 OLED 고객(예: 삼성디스플레이)에 대한 의존도가 높아 해당 고객의 투자 정책이 실적에 직접 영향합니다."
+      },
+      {
+        "factor": "중국 경쟁",
+        "detail": "중국 OLED 업체들의 투자 확대와 국내외 장비업체와의 경쟁 심화가 향후 시장 점유율과 가격에 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "원부자재 의존",
+        "detail": "스테이지 등 핵심 원재료를 외부 공급업체(중국 등)에서 조달하므로 부품 수급과 품질이 생산·납품에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "당사 매출비중을 보면 80% 이상이 OLED장비가 차지하고 있으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. 제품구성",
+        "evidence_text": "OLED장비 이외에도 스마트폰 카메라용 블루필터 검사기"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "당사의 매출처는 국내 OLED 패널제조사와 그 협력업체, 그리고 중국의 OLED패널 제조사 입니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "영업 현황",
+        "evidence_text": "당사 매출은 고객사의 설비투자 여부에 따라 변동이 심한 특성을 가지고 있어"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 6129,
+    "completion_tokens": 3736,
+    "reasoning_tokens": 2944,
+    "output_tokens": 792
+  },
+  "warnings": []
+}

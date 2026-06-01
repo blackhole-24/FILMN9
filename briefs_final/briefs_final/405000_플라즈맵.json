@@ -1,0 +1,67 @@
+{
+  "stock_code": "405000",
+  "corp_name": "플라즈맵",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 18:57",
+  "meta": {
+    "wics": "건강관리장비와용품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "플라즈맵은 2015년 KAIST 물리학과 실험실 창업으로 설립된 플라즈마 기술 기반의 의료기기 회사로, 바이오 플라즈마 기술을 중심으로 수술기기·의료용 임플란트·생체조직 등으로 사업을 확장하며 글로벌 의료기기 시장에서 사업화를 추진하고 있습니다.",
+    "business_model": "주력 제품군은 플라즈마 멸균기(STERLINK), 플라즈마 표면활성기(ACTILINK) 및 소모품(STERMATE)으로 구성되며, FY2025 기준 ACTILINK 및 STERLINK가 매출의 38.0%, 소모품이 33.5%, 기타가 28.6%를 차지하여 제품 판매(하드웨어)와 소모품·耗材(소모품) 판매가 결합된 수익 구조를 가집니다(소비처별 맞춤형 장비 라인업과 인증 기반 해외 진출 병행).",
+    "main_customers": "ACTILINK 및 STERLINK — 글로벌 임플란트 제조사·유통사 / STERLINK (멸균기) — 중소 병원·소형 클리닉·동물병원 / 소모품 — 치과·클리닉·동물병원 등 기존 장비 사용자",
+    "price_factors": [
+      {
+        "factor": "규제허가",
+        "detail": "의료기기 인허가(식약처·FDA·MDR 등) 지연 시 제품 출시와 매출이 연기되어 실적에 직접 영향"
+      },
+      {
+        "factor": "시장수요",
+        "detail": "중소형 클리닉·수술 확대시 중소형 저온멸균기 수요가 증가하여 매출에 긍정적 영향을 미침"
+      },
+      {
+        "factor": "경쟁기술",
+        "detail": "과산화수소 등 대체 멸균기술 부상 시 제품 경쟁력·가격구조에 따른 시장점유율 변동 가능성"
+      },
+      {
+        "factor": "환율",
+        "detail": "해외 판매·자산·부채의 외화표시로 환율 변동이 실적과 현금흐름에 영향을 줄 수 있음"
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 당사 개요",
+        "evidence_text": "당사는 플라즈마 기술회사로 2015년 KAIST 물리학과 실험실 창업으로 설립되었고, 혁신적인 바이오 플라즈마 (Bio Plasma) 기술을 중심으로 글로벌 의료기기 시장에서 사업화를 추진하며, 헬스케어 시장으로 사업을 확장하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "ACTILINK 및 STERLINK: 3,224 (38.0%)  - 소모품: 2,838 (33.5%)  - 기타: 2,422 (28.6%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "MD&A(경영진 실적·전략 요약)",
+        "evidence_text": "당사는 플라즈마 기술을 기반으로 글로벌 의료기기 회사(임플란트 제조사 및 유통사), 중소형 클리닉 및 동물병원을 중심으로 영업활동을 전개하고 있으며, 주요 제품으로는 멸균기 제품(STERLINK 제품군), 표면활성기 제품(ACTILINK 제품군), 기타 소모품(STERMATE 제품군)을 제조 및 판매하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 나. 규제 현황",
+        "evidence_text": "당사가 영위하고 있는 의료기기 제조 산업은 국민의 건강과 생명에 직결되는 제품으로, 각국 정부의 인증 허가 규제에 영향을 받습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5576,
+    "completion_tokens": 3264,
+    "reasoning_tokens": 2304,
+    "output_tokens": 960
+  },
+  "warnings": []
+}

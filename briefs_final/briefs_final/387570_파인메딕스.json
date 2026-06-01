@@ -1,0 +1,67 @@
+{
+  "stock_code": "387570",
+  "corp_name": "파인메딕스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 18:36",
+  "meta": {
+    "wics": "건강관리장비와용품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "파인메딕스는 2009년 설립된 소화기 내시경 시술기구 개발·제조 기업으로, ESD(내시경점막하박리술)·EMR(내시경점막절제술)용 나이프·인젝터·스네어 등 시술 기구를 자체 개발·생산하여 국내외 시장에서 판매하고 있습니다. ClearCut Knife 등 제품군이 국내에서 인정받으며 국산 의료기기 전문 제조업체로 자리매김하고 있습니다.",
+    "business_model": "핵심 사업은 내시경시술기구와 진단내시경으로 구성되며, FY2025 기준 매출은 내시경시술기구가 69.9%, 진단내시경이 30.1%를 차지합니다. 자체 R&D와 임상·인허가·제조·품질관리를 일원화해 ESD·EMR용 나이프·인젝터·스네어 등 치료·시술용 소모성 기구를 중심으로 매출을 창출합니다.",
+    "main_customers": "내시경시술기구 — 국내 주요 병원 및 시술을 수행하는 의료진 / 진단내시경 — 병원 및 해외 바이어(ODM 파트너 포함)",
+    "price_factors": [
+      {
+        "factor": "인허가 규제",
+        "detail": "각국의 의료기기 인허가(식약처·FDA·CE 등) 취득 지연이나 절차 변화는 제품의 시장 진입 시기와 매출에 직접적 영향을 줍니다."
+      },
+      {
+        "factor": "해외인증 전환",
+        "detail": "유럽 MDR 전환 등 해외 인증 변경에 따른 보완·심사 지연은 유럽 등 해외 판매 일정과 비용에 영향을 미칩니다."
+      },
+      {
+        "factor": "해외시장 리스크",
+        "detail": "러시아·우크라이나 전쟁 등 지정학적 사건과 주요 국가 인허가 지연은 해외 매출의 이연 또는 감소 요인입니다."
+      },
+      {
+        "factor": "보험·평가",
+        "detail": "건강보험심사평가원의 치료재료 평가 결과는 병원 채택과 가격경쟁력(수익성)에 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 첨단 소화기 내시경 시술 기구의 개발과 상용화를 선도하는 혁신적인 의료기기 제조기업으로, 2009년 설립 이후 꾸준히 성장해왔습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "내시경시술기구: 1,722 (69.9%) / 진단내시경: 959 (30.1%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "일본 가델리우스와의 ODM 계약을 통해 일본 시장에 제품을 공급하고 있으며, 이를 기반으로 다른 글로벌 기업들과의 협력을 확대해 나가고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 현재 식약처로부터 39개 제품에 대해 품목 허가를 획득하였으며, 해외 인증으로는 14개 품목에 대해 유럽 MDD CE 인증과 12개 품목에 대해 미국 FDA 허가를 취득하였습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5024,
+    "completion_tokens": 5179,
+    "reasoning_tokens": 4288,
+    "output_tokens": 891
+  },
+  "warnings": []
+}

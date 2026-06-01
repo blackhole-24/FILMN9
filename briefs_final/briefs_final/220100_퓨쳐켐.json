@@ -1,0 +1,62 @@
+{
+  "stock_code": "220100",
+  "corp_name": "퓨쳐켐",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 12:35",
+  "meta": {
+    "wics": "제약",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "퓨쳐켐은 펩타이드 기반 방사성동위원소 표지 기술을 바탕으로 방사성의약품(진단·치료) 신약을 개발하는 제약사입니다. sCUBE® 자동합성장치와 일회용 카세트 등 생산 설비를 보유하고, 피디뷰®·알자뷰® 등 진단제와 FC705 등 치료 파이프라인을 보유하고 있습니다.",
+    "business_model": "핵심 사업은 방사성의약품 개발·생산(진단용·치료용)과 전구체·시약, 상품(유통) 및 sCUBE 자동합성장치 및 일회용 소모품 판매로 구성되며, FY2025 기준 방사성의약품(30.2%), 전구체·시약 및 기타(21.3%), 상품(42.5%), sCUBE(1.5%), 기타매출(4.5%)의 매출 구성이 있습니다. PET(양전자방출단층촬영)용 진단제 중심의 사업구조와 GMP(의약품 제조·품질관리 기준) 수준의 생산설비 보유가 특징입니다.",
+    "main_customers": "방사성의약품 — 병원·임상연구기관·제약·바이오 기업 / 전구체,시약 및 기타 — 제약·연구기관·산업용 고객 / 상품 — 유통업체·의료기관 / sCUBE — 제약사·병원 연구센터·설비 도입 기업 / 기타매출 — 기술이전 및 CMO 계약 상대기업",
+    "price_factors": [
+      {
+        "factor": "동위원소 공급",
+        "detail": "F-18 등 진단용 동위원소의 생산·유통(반감기 제약)이 원활하지 않으면 생산량과 매출에 직접 영향이 있습니다."
+      },
+      {
+        "factor": "PET 보급",
+        "detail": "PET(진단) 수요가 늘면 진단용 방사성의약품 수요가 증가해 매출에 긍정적 영향을 줍니다."
+      },
+      {
+        "factor": "GMP 규제",
+        "detail": "방사선 차폐시설·GMP 수준의 생산설비 요구로 설비 투자·인허가 부담이 실적에 영향을 미칩니다."
+      },
+      {
+        "factor": "임상·기술이전",
+        "detail": "임상 진행 성과와 기술이전(라이선스) 계약은 파이프라인 가치를 높여 매출 기반 확대에 기여합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "사업의 개요 요약",
+        "evidence_text": "당사는 특정 질병에 특이하게 발현되는 단백질과 유사한 펩타이드 화합물을 연구 개발하여 방사성동위원소를 표지시켜 특정 질병을 진단하고 치료하는 방사성의약품 (radiopharmaceuticals) 신약 개발 사업을 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "방사성의약품: 2,587,568 (30.2%)"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "방사성의약품은 현재 치료용 보다 주로 진단용으로 많이 사용되며 전체 시장의 약88%를 차지하고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 6143,
+    "completion_tokens": 4109,
+    "reasoning_tokens": 3264,
+    "output_tokens": 845
+  },
+  "warnings": []
+}

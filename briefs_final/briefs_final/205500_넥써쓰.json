@@ -1,0 +1,72 @@
+{
+  "stock_code": "205500",
+  "corp_name": "넥써쓰",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 11:48",
+  "meta": {
+    "wics": "게임엔터테인먼트",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "넥써쓰(구 액션스퀘어)는 게임 개발 및 서비스 사업을 기반으로 성장해 온 기업으로, 2025년 사명을 넥써쓰(NEXUS)로 변경하며 블록체인 기술을 접목한 플랫폼 사업으로 사업 영역을 확대하고 있습니다. 게임 서비스와 온체인 플랫폼을 결합해 새로운 디지털 생태계 구축을 목표로 하고 있습니다.",
+    "business_model": "FY2025 기준 게임 매출이 17.4%이고 용역 매출 등(블록체인 플랫폼 관련)이 82.6%를 차지합니다. 핵심 수익원은 모바일·온라인 게임 서비스(예: 로한2 글로벌, 삼국블레이드 등)와 블록체인 플랫폼 구축·용역(온체인 게임 플랫폼 CROSS 운영 및 관련 R&D)이며, 블록체인(분산원장기술)과 NFT(대체불가능토큰), P2E(플레이투언: 게임으로 수익 창출) 관련 서비스가 사업 확장의 축입니다.",
+    "main_customers": "게임 매출 — 게임 이용자(모바일·PC 게이머) 및 퍼블리싱 파트너 / 용역 매출 등 — 해외 블록체인 재단 및 게임 개발사",
+    "price_factors": [
+      {
+        "factor": "IP 경쟁",
+        "detail": "인기 IP(지적재산) 확보 경쟁과 콘텐츠 품질 경쟁이 심화되면 개발·마케팅 부담이 커져 실적에 영향을 미칩니다."
+      },
+      {
+        "factor": "블록체인 수요",
+        "detail": "블록체인·NFT·P2E에 대한 시장 수요가 높아지면 플랫폼·용역 매출 성장에 유리합니다."
+      },
+      {
+        "factor": "개발·마케팅비",
+        "detail": "개발비와 마케팅 비용 증가 시 수익성(이익률)에 직접적인 압박을 줄 수 있습니다."
+      },
+      {
+        "factor": "환율",
+        "detail": "해외 영업활동으로 인한 환위험(USD 등)은 매출 및 비용의 원화 환산에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 게임 개발 및 서비스 사업을 기반으로 성장해 온 기업으로, 최근에는 블록체인 기술을 접목한 플랫폼 사업으로 사업 영역을 확대하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "게임 매출: 6,390,639 (17.4%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "용역 매출 등: 30,331,766 (82.6%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "해외 블록체인 재단을 대상으로 블록체인 생태계 구축을 위한 기술 연구 및 개발 용역을 제공하고 있으며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황 > 산업의 특성",
+        "evidence_text": "이와 함께 게임 개발 비용과 마케팅 비용이 증가하고 인기 IP 확보 경쟁이 심화되면서 자본력과 개발 역량을 기반으로 한 기업 간 경쟁이 더욱 치열해지고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4948,
+    "completion_tokens": 5075,
+    "reasoning_tokens": 4224,
+    "output_tokens": 851
+  },
+  "warnings": []
+}

@@ -1,0 +1,76 @@
+{
+  "stock_code": "005860",
+  "corp_name": "한일사료",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 09:44",
+  "meta": {
+    "wics": "식품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "한일사료는 1963년 업계에 진출해 지금까지 사료사업에 전념해온 중견 사료회사입니다. 1990년대 초부터 \"FROM FEED TO FOOD\" 전략을 내세우며 사료를 넘어 축산 전문회사로의 확장을 지향해 왔습니다. 종속회사 케이미트를 통해서는 수입육 수입과 국내 유통도 함께 영위하고 있습니다.",
+    "business_model": "사업부문별 영업수익 구성은 정육유통 66.3%, 사료 7.8%, 기타 0.2%로, 정육유통이 가장 큰 비중을 차지합니다. 사료사업은 양계사료와 낙농사료를 중심으로 운영되며, 낙농사료는 서울우유협동조합과의 장기 주문생산 거래를 기반으로 하고 있습니다. 종속회사 케이미트는 수입육 수입 및 국내 유통에 매진하며 전국 유통망 확보를 추진하고 있습니다.",
+    "main_customers": "사료 — 양축가, 축산 농가, 서울우유협동조합 / 정육유통 — 수입육을 찾는 국내 소비자, 유통거래처 / 기타 — 상표권 및 관련 사업 대상",
+    "price_factors": [
+      {
+        "factor": "곡물가격",
+        "detail": "배합사료의 원재료를 대부분 수입에 의존해 국제 곡물가격 상승 시 원가 부담이 커지고 판매가격에도 영향을 줍니다."
+      },
+      {
+        "factor": "환율변동",
+        "detail": "원·달러 환율이 오르면 수입 원재료와 수입육의 조달비용이 늘어나 실적과 가격에 부담이 생깁니다."
+      },
+      {
+        "factor": "축산경기",
+        "detail": "사료는 내수산업이라 축산업 경기와 사육마리수 변화에 따라 수요가 달라집니다."
+      },
+      {
+        "factor": "가축질병",
+        "detail": "구제역, 조류독감(AI) 같은 가축질병은 축산 농가의 경영 환경을 악화시켜 사료 수요와 시장 여건에 영향을 줍니다."
+      },
+      {
+        "factor": "수입축산물",
+        "detail": "FTA(자유무역협정)로 수입축산물이 늘면 국내 축산업과 사료산업의 성장 여건이 약해질 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "1963년 업계에 진출하여 지금까지 동업종에만 전념해온"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업분야 데이터 등급(tier) > 사업부문별 매출 구성",
+        "evidence_text": "사료: 35,430 (7.8%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업분야 데이터 등급(tier) > 사업부문별 매출 구성",
+        "evidence_text": "정육유통: 301,648 (66.3%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "수입육 수입 및 국내 유통에 매진하고 있으며"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "월 3,700톤 주문생산계약"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5459,
+    "completion_tokens": 876,
+    "reasoning_tokens": 0,
+    "output_tokens": 876
+  },
+  "warnings": []
+}

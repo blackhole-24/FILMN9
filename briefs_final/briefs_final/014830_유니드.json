@@ -1,0 +1,77 @@
+{
+  "stock_code": "014830",
+  "corp_name": "유니드",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 21:35",
+  "meta": {
+    "wics": "화학",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "유니드는 칼륨계·염소계 기초 무기화학 제품을 제조·판매하는 국내 화학회사입니다. 칼륨계 제품은 국내에서 유일하게 생산하는 설비를 보유하고 있으며, 중국의 UJC·OJC 등 현지법인과 USH를 통해 해외 사업을 전개하고 있습니다.",
+    "business_model": "FY2025 기준 매출에서 화학사업부가 44.4%, 해외사업부가 55.6%를 차지합니다. 주력은 탄산칼륨·가성칼륨 등 칼륨계와 염소계 기초무기화학 제품으로, 국내 생산 및 중국 등 해외법인을 통한 판매와 무역(USH의 국내외 상품 무역 업무)을 통해 수익을 창출합니다.",
+    "main_customers": "화학사업부 — 합성수지·세라믹·식품첨가물·세제·합성고무·알카라인 건전지·태양광·제약·비료·농약 등 산업용 원료 수요처 / 해외사업부 — 중국 등 현지 제조업체 및 국내외 상품 무역 고객",
+    "price_factors": [
+      {
+        "factor": "원자재·공급",
+        "detail": "원재료 가격 상승 및 공급 불안정은 제품 가격과 이익률에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "관세·교역",
+        "detail": "미국발 관세 정책 변화로 글로벌 교역량이 감소하면 수요와 수익성에 부담을 줄 수 있습니다."
+      },
+      {
+        "factor": "중국 수요",
+        "detail": "중국의 내수촉진 정책에 따른 현지 수요 증가는 해외 매출에 영향을 미칩니다."
+      },
+      {
+        "factor": "수입 경쟁",
+        "detail": "가성칼륨 등은 중국 수입품 증가로 경쟁이 심화되어 가격·마진 압박 요인이 될 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "2). 업계의 현황 (1). 화학사업부 - ③ 경쟁 요소",
+        "evidence_text": "칼륨계 제품은 당사가 국내 유일의 제조사이며"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "2). 업계의 현황 (1). 화학사업부",
+        "evidence_text": "USH는 현재 UJC/OJC에서 생산된 제품을 판매하고 있고"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "화학사업부: 601,750,378 (44.4%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "해외사업부: 755,132,467 (55.6%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "2). 업계의 현황 (1). 화학사업부 ② 산업의 성장성",
+        "evidence_text": "탄산칼륨은 합성수지, 세라믹 및 식품첨가물 시장 등에서 지속적인 수요를 창출하고있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "2). 사업부문별 요약재무현황",
+        "evidence_text": "원재료 가격 상승 및 국내외 공급 불안정"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4216,
+    "completion_tokens": 6092,
+    "reasoning_tokens": 5248,
+    "output_tokens": 844
+  },
+  "warnings": []
+}

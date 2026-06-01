@@ -1,0 +1,67 @@
+{
+  "stock_code": "168360",
+  "corp_name": "펨트론",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 10:41",
+  "meta": {
+    "wics": "전자장비와기기",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "펨트론은 2002년 설립된 3D 비전 검사장비 전문기업으로, 머신비전과 영상처리 소프트웨어를 기반으로 SMT(표면실장), 반도체, 2차전지용 정밀 검사장비를 제조·판매하고 있습니다. 고속 카메라와 정밀 광학·스테이지 등 부품을 조달해 국내외(중국, 동남아, 미국, 멕시코, 유럽 등)에 수출하는 검사장비 전문 회사입니다.",
+    "business_model": "주요 수익은 제품(검사장비) 판매에서 발생하며, FY2025 기준 사업부문 영업수익은 '제품: 46,607,563 (100.0%)'로 제품 매출 비중이 전체를 차지합니다. 핵심 제품은 3D SPI·3D AOI 등 SMT 검사장비, 반도체 검사장비(패키지·Wire Bonding 등), 2차전지 검사장비이며 머신비전·광학·메카트로닉스·소프트웨어 융합 기술로 제조라인의 불량검출 솔루션을 제공합니다.",
+    "main_customers": "SMT 검사장비 — SMT 공정 제조업체 (국내·해외) / 반도체 검사장비 — 반도체 패키지·후공정 제조사 / 2차전지 검사장비 — 2차전지 제조업체",
+    "price_factors": [
+      {
+        "factor": "반도체수요",
+        "detail": "생성형 AI·빅데이터 등으로 고성능 칩 수요가 늘어나면 반도체 검사장비 수요가 증가할 수 있습니다."
+      },
+      {
+        "factor": "공급망리스크",
+        "detail": "COVID-19 관련 생산·공급망 불안정성과 인력 부족은 장비 조달과 납기, 실적에 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "지정학·경기",
+        "detail": "전세계 경기 둔화와 미·중 무역전쟁 등의 요인은 반도체 업황에 부정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "패키지투자",
+        "detail": "반도체 패키지공정에 대한 투자 확대는 후공정(패키지) 검사장비의 수요 증가로 연결될 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "주요 품목으로는 SMT 검사장비, 반도체 검사장비, 2차전지 검사장비가 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "제품: 46,607,563 (100.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "국내 및 중국, 동남아, 미국, 멕시코, 유럽 등 다양한 국가에 수출 판매하는 검사장비 전문기업입니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 마. 시장여건 및 영업의 개황",
+        "evidence_text": "반도체 수요가 늘어나고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5221,
+    "completion_tokens": 3831,
+    "reasoning_tokens": 3008,
+    "output_tokens": 823
+  },
+  "warnings": []
+}

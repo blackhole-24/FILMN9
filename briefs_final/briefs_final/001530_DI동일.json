@@ -1,0 +1,67 @@
+{
+  "stock_code": "001530",
+  "corp_name": "DI동일",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 17:32",
+  "meta": {
+    "wics": "섬유,의류,신발,호화품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "DI동일은 섬유소재 사업을 기반으로 다양한 제조·유통 계열을 보유한 기업으로, 2025년 8월 6일 동일알루미늄(주)와의 합병을 완료하여 섬유소재와 알루미늄부문을 중심으로 사업구조를 확장하였습니다. 합병 이후 섬유, 알루미늄, 플랜트·환경, 가구도소매, 화장품 등 다각적인 포트폴리오를 운영하고 있습니다.",
+    "business_model": "사업부문별로 2025년 매출은 섬유소재가 약 53.4%, 알루미늄이 약 37.2%, 플랜트·환경이 약 4.0%, 가구도소매가 약 4.1%, 화장품이 약 1.3%를 차지합니다. 섬유소재부문은 제직·편직·원단업체에 원사·원단을 공급하는 제조·유통 역할을 하고, 알루미늄부문은 알루미늄박·연포장재·2차전지용 알루미늄 등 중간재 생산과 고부가가치 제품 개발(R&D)을 통해 수익을 창출하고 있습니다.",
+    "main_customers": "섬유소재 — 제직·편직·원단업체 / 알루미늄 — 식품·제과·제약 포장재 업체, 냉동공조 및 전기·전자·자동차 업계, 2차전지 고객사 / 플랜트·환경 — 반도체·디스플레이 등 산업 공정 투자 기업 / 가구도소매·화장품 — 소비자 대상 유통 채널 및 도·소매 업체",
+    "price_factors": [
+      {
+        "factor": "원면가격",
+        "detail": "원면 등 원재료 가격 변동성은 섬유부문 원가와 이익률에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "저가수입 경쟁",
+        "detail": "저가 수입제품 증가와 후발국과의 경쟁 심화는 섬유부문의 매출·마진 압박 요인입니다."
+      },
+      {
+        "factor": "2차전지 수요",
+        "detail": "국내외 2차전지 생산 증가와 수주 확대는 알루미늄부문(2차전지용 알루미늄)의 실적에 중요한 변수입니다."
+      },
+      {
+        "factor": "환율변동",
+        "detail": "USD·EUR·JPY 등 주요 통화 환율 변동은 수출입 거래와 연결실체의 실적에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "당사는 2025년 8월 6일 동일알루미늄(주)와 합병을 완료하였습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 매출 (원문 테이블)",
+        "evidence_text": "섬유소재 325,283, 알루미늄 226,184"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황 [섬유소재부문]",
+        "evidence_text": "제직·편직·원단업체에 공급하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황 [섬유소재부문]",
+        "evidence_text": "저가 수입제품 증가 및 경쟁 심화"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5297,
+    "completion_tokens": 4038,
+    "reasoning_tokens": 3136,
+    "output_tokens": 902
+  },
+  "warnings": []
+}

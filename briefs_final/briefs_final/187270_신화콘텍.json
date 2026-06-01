@@ -1,0 +1,69 @@
+{
+  "stock_code": "187270",
+  "corp_name": "신화콘텍",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 11:05",
+  "meta": {
+    "wics": "전기제품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "신화콘텍은 커넥터(전자부품 연결부품) 제조를 주력으로 하는 전기·전자 기업으로, 휴대폰·TV·가전·자동차용 커넥터를 공급합니다. 국내외(베트남·중국·경기도) 생산기지를 보유하며 주요 완성품 업체 대상 공급을 통해 안정적 거래 기반을 유지하고 있습니다.",
+    "business_model": "핵심 사업은 모바일, 디스플레이·가전, 자동차용 커넥터 제조·공급으로 구성되며, 제품 포트폴리오를 통해 완성품 제조사의 부품 수요를 충족시킵니다. 전 부품을 베트남 생산 체제로 운영해 원가 경쟁력을 확보하고 있으며, 신규사업으로 디지털 마이크 양산을 통해 2026년 하반기부터 연간 약 300억 원 수준의 추가 매출이 기대됩니다.",
+    "main_customers": "모바일 — 삼성전자(스마트폰 제조사) / 디스플레이·가전 — 삼성전자 VD 및 가전부문 / 자동차부품 — 현대기아자동차 및 주요 완성차 고객사",
+    "price_factors": [
+      {
+        "factor": "스마트폰수요",
+        "detail": "글로벌 스마트폰 시장의 성장 둔화는 모바일 부문 물량 확대를 제한해 실적에 하방 압력을 줄 수 있습니다."
+      },
+      {
+        "factor": "원자재·환율",
+        "detail": "원자재 가격 상승 및 환율 변동은 원가와 영업이익률에 직접적인 부담을 주어 실적에 영향을 미칩니다."
+      },
+      {
+        "factor": "중국경쟁",
+        "detail": "단가 중심으로 점유율을 확대하려는 중국업체들과의 경쟁 심화는 가격·수익성 압박 요인입니다."
+      },
+      {
+        "factor": "디스플레이수요",
+        "detail": "디스플레이 및 가전의 수요 둔화는 관련 부문 매출 감소로 연결될 수 있으나, 당사는 높은 공급점유율을 통해 영향 완화를 도모하고 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "당사의 업종은 전자부품 제조 및 판매업을 주 사업목적으로 하고 있으며, 주요 제품은 전자제품, 휴대폰, TV, 자동차에 적용되는 커넥터입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "라. 신규사업 등의 내용 및 전망",
+        "evidence_text": "당사는 전 부품을 베트남 생산 체제로 운영함으로써 원가 경쟁력을 확보하였으며"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 주요 제품의 부문현황 및 전망",
+        "evidence_text": "이에 따라 주요 고객사인 삼성전자의 스마트폰 생산 및 판매량 또한 전년 대비 소폭 감소하였으며,"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "연결영업이익 감소의 주요 원인으로는 신규사업 진행에 따른 초기비용 증가, 원재료가격 상승 및 환율의 영향"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 5170,
+    "completion_tokens": 3938,
+    "reasoning_tokens": 3136,
+    "output_tokens": 802
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

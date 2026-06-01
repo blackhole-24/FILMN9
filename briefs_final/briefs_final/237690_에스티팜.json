@@ -1,0 +1,67 @@
+{
+  "stock_code": "237690",
+  "corp_name": "에스티팜",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 13:22",
+  "meta": {
+    "wics": "제약",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "에스티팜은 1983년 설립되어 저분자 신약 CDMO(위탁개발·생산) 경험을 쌓아온 기업으로, 올리고핵산치료제(oligonucleotide) CDMO로 사업 영역을 확장하며 아시아·글로벌 수준의 생산능력을 확보했습니다. mRNA·sgRNA 등 RNA 치료제 분야로도 사업을 다각화하며 글로벌 제휴와 프로젝트를 통해 트랙레코드를 쌓고 있습니다.",
+    "business_model": "주요 수익원은 신약API(원료의약품)와 용역(CDMO 서비스)으로 구성되며, FY2025 기준 신약API가 66.2%, 제네릭API가 14.6%, 용역이 18.7% 등을 차지합니다(기타·상품·임대료 소수). 핵심은 올리고뉴클레오타이드 API의 합성·정제에서 최종 API까지 원스탑 GMP(우수의약품 제조·관리기준) 생산을 제공하는 올리고 API CDMO 사업이며, mRNA·sgRNA 등 신사업 라인도 병행하고 있습니다.",
+    "main_customers": "신약API/CDMO — 글로벌 제약사 및 바이오텍 / 제네릭API — 완제의약품 제조사 / 용역(CDMO) — 신약개발을 추진하는 제약사·바이오 기업",
+    "price_factors": [
+      {
+        "factor": "원료 수요",
+        "detail": "올리고·RNA 치료제의 수요 증가 시 CDMO 매출과 수익성이 직접 개선됩니다."
+      },
+      {
+        "factor": "품질·GMP",
+        "detail": "선진국 수준의 GMP·QA/QC 요건 충족 여부가 수주 경쟁력과 거래 지속성에 영향을 줍니다."
+      },
+      {
+        "factor": "생산능력",
+        "detail": "증설(제2올리고동 가동 등)에 따라 상업화 프로젝트 수주와 매출 기여 시점이 달라집니다."
+      },
+      {
+        "factor": "글로벌 파트너십",
+        "detail": "글로벌 제약사·장비사·국제기구와의 계약·제휴 실적이 기술 신뢰도 및 수주확대에 영향합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 가. 주요사업의 내용(요약)",
+        "evidence_text": "에스티팜은 1983년 설립된 삼천리제약으로 출발해"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "신약API: 219,743 (66.2%)"
+      },
+      {
+        "field": "production_capacity",
+        "source_section": "II. 사업의 내용 > 가. 주요사업의 내용(요약)",
+        "evidence_text": "글로벌 3위 수준의 올리고 생산능력을 갖추었습니다."
+      },
+      {
+        "field": "financials",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "2025년 연결 매출액은 3,317억원으로"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5757,
+    "completion_tokens": 3406,
+    "reasoning_tokens": 2624,
+    "output_tokens": 782
+  },
+  "warnings": []
+}

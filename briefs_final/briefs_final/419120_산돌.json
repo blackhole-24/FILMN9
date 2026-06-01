@@ -1,0 +1,97 @@
+{
+  "stock_code": "419120",
+  "corp_name": "산돌",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 19:21",
+  "meta": {
+    "wics": "소프트웨어",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "산돌은 클라우드형 폰트 플랫폼과 폰트 제작 사업을 영위하는 국내 서체(폰트) 전문기업으로, 자체 플랫폼 '산돌구름'을 중심으로 폰트 라이선스 유통과 기업 맞춤형 폰트 제작을 진행하고 있습니다. 윤디자인·비비트리 인수 등을 통해 디지털 콘텐츠 생태계 확장과 폰트 IP(지식재산권) 강화에 나서고 있습니다.",
+    "business_model": "사업부문별 영업수익 구성은 통신판매 75.0%, 용역매출 22.0%, 제품 2.0%, 기타 1.0%로 이루어져 있으며, 핵심 수익원은 구독형(SaaS: 서비스형 소프트웨어) 플랫폼 '산돌구름'을 통한 반복매출과 기업용 커스텀 폰트(용역매출)입니다. 플랫폼에서는 월간·연간 정액제 구독과 낱개·묶음형 유료 폰트 판매를 병행합니다.",
+    "main_customers": "통신판매 — 개인 창작자·중소 사업자·기업 고객 / 용역매출 — 기업(기업전용 폰트 발주처, 예: '삼성전자', '조선일보', '삼양홀딩스') / 제품 — 유료 폰트 구매자(개인·기업) / 기타 — 교육기관·학생(무상 보급 캠페인 대상)",
+    "price_factors": [
+      {
+        "factor": "구독 전환",
+        "detail": "구독형 모델 확산 시 반복매출(Recurring Revenue) 비중이 늘어나 실적의 안정성과 예측 가능성이 강화됩니다."
+      },
+      {
+        "factor": "생성형 AI",
+        "detail": "생성형 AI 기술 확산은 폰트 제작 효율화 및 AI 기반 신규 서비스 출시에 따른 사업 확장 기회를 제공합니다."
+      },
+      {
+        "factor": "콘텐츠 수요",
+        "detail": "영상·게임·웹툰·SNS 등 디지털콘텐츠 제작 증가로 고품질 서체 수요가 꾸준히 늘어나 매출 성장에 우호적입니다."
+      },
+      {
+        "factor": "해외경쟁",
+        "detail": "글로벌 시장 경쟁 심화 및 해외 진출 필요성은 해외 매출 확대 기회이자 경쟁·현지화 비용 리스크로 작용할 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 사업 수행 내용",
+        "evidence_text": "당사는 클라우드형 폰트 플랫폼 사업과 폰트 제작 사업을 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. 사업 수행 내용",
+        "evidence_text": "구독형 서비스 형태로 고객에게 제공하는 사업입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "통신판매: 10,681 (75.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "용역매출: 3,112 (22.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "제품: 351 (2.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "기타: 100 (1.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "[경영진 실적·전략 요약 (MD&A)]",
+        "evidence_text": "개인 창작자, 중소 사업자 및 기업 고객에게 다양한 서체 솔루션을 제공하고"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "나. 영업실적",
+        "evidence_text": "'삼성전자', '조선일보'. '삼양홀딩스' 등의 기업전용 폰트 개발"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "[경영진 실적·전략 요약 (MD&A)]",
+        "evidence_text": "구독형(SaaS) 모델로의 전환이 업계 전반에서 가속화되고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "다. 시장현황 (1) 시장의 특성(가) 디지털 콘텐츠 시장",
+        "evidence_text": "이러한 흐름에따라 콘텐츠의 유통 환경도 새롭게 변화하고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5759,
+    "completion_tokens": 5242,
+    "reasoning_tokens": 4096,
+    "output_tokens": 1146
+  },
+  "warnings": []
+}

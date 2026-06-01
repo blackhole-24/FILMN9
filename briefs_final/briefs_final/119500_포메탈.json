@@ -1,0 +1,81 @@
+{
+  "stock_code": "119500",
+  "corp_name": "포메탈",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 09:03",
+  "meta": {
+    "wics": "기계",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "포메탈은 1969년 설립된 단조정밀기계부품 생산 회사로, 자유단조, 형단조, 복합단조, 중공단조, 링기어 등 다양한 단조품을 제조합니다. 국내외 주요 대기업·중견기업에 공급하며 고난도·고품질 부품을 다수 취급하는 제조업체입니다.",
+    "business_model": "주요 수익원은 제품매출과 상품·기타매출로 구성되며, FY2025 기준 제품매출이 96.8%, 상품 및 기타매출이 3.2%를 차지합니다. 주문생산 방식으로 산업기계·자동차·로봇/풍력·방위산업·농기계 등 전방산업에 필요한 고강도 단조정밀부품을 공급하는 것이 핵심 사업입니다.",
+    "main_customers": "제품매출 — 국내외 대기업·중견기업 (산업기계, 자동차, 로봇/풍력, 방위산업, 농기계) / 상품 및 기타매출 — 기타 매출처",
+    "price_factors": [
+      {
+        "factor": "전방산업 경기",
+        "detail": "산업기계·자동차 등 전방산업 경기 변동에 민감해 수요 감소 시 실적에 직접적인 영향이 발생합니다."
+      },
+      {
+        "factor": "원자재·환율",
+        "detail": "원재료 가격과 환율 변동을 판매가에 탄력적으로 적용하고 있어 원가 상승이나 환율 변동이 수익성에 영향을 미칩니다."
+      },
+      {
+        "factor": "기술·품질",
+        "detail": "복잡한 형상의 부품 개발과 소량 주문 생산 능력(기술력·품질)이 경쟁우위 특징으로, 기술력 약화 시 경쟁력 저하로 이어질 수 있습니다."
+      },
+      {
+        "factor": "수출 수요",
+        "detail": "로봇·풍력 등 글로벌 수요 증가가 수출 확대에 기여하므로 해외 수요 변동이 실적에 영향을 줍니다."
+      },
+      {
+        "factor": "국방정책",
+        "detail": "방위산업 부문 매출은 정부의 국방정책과 투자에 민감하게 반응합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "우리 회사는 1969년에 설립한 단조정밀기계부품 생산 회사입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "제품매출: 63,921 (96.8%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "상품 및 기타매출: 2,114 (3.2%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "150여개 매출처에 공급하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 업계현황 (1) 산업의 특성",
+        "evidence_text": "단조산업은 각 전방산업의 경기변화에 민감한"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "영업 현황 (2) 가격변동원인",
+        "evidence_text": "제품의 유형과 공정 난이도 등에 따른 판매가 결정체계를 채택하고 있습니다"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4130,
+    "completion_tokens": 4405,
+    "reasoning_tokens": 3520,
+    "output_tokens": 885
+  },
+  "warnings": []
+}

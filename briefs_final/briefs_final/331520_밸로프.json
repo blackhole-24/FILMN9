@@ -1,0 +1,72 @@
+{
+  "stock_code": "331520",
+  "corp_name": "밸로프",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 16:40",
+  "meta": {
+    "wics": "게임엔터테인먼트",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "밸로프는 2007년 5월 설립된 온라인·모바일 게임의 퍼블리싱·리퍼블리싱 전문기업입니다. 한국, 중국(상해, 북경), 일본, 홍콩, 필리핀, 대만에 법인 및 게임 스튜디오를 운영하며 글로벌 서비스를 전개하고 있습니다.",
+    "business_model": "FY2025 기준 사업부문별 영업수익은 온라인게임매출 83.9%, 모바일게임매출 6.5%, 사용료수익 2.8%, 대행수수료수익 6.9%로 온라인게임 비중이 큽니다. 당사는 원저작권자(IP HOLDER)로부터 국내외 서비스 판권과 개발권을 확보해 퍼블리싱·리퍼블리싱을 통해 타이틀을 직접 개발·서비스하고, 로열티(약정된 Running Royalty) 기반의 수익배분 계약으로 매출을 인식합니다.",
+    "main_customers": "온라인게임 — IP 홀더(게임보유회사) 및 게임 이용자(플레이어) / 모바일게임 — 모바일 게이머 / 사용료·대행수수료 — 제휴사·파트너",
+    "price_factors": [
+      {
+        "factor": "수출 감소",
+        "detail": "PC·모바일 플랫폼의 수출 규모 감소는 해외 매출 압력으로 작용할 수 있습니다."
+      },
+      {
+        "factor": "글로벌 플랫폼 경쟁",
+        "detail": "스팀 등 글로벌 플랫폼 부상은 유통 채널 확대와 경쟁 심화를 동시에 가져와 실적에 영향합니다."
+      },
+      {
+        "factor": "IP 수명·리퍼블리싱",
+        "detail": "리퍼블리싱을 통한 게임 수명 연장은 안정적 매출원 확보에 긍정적입니다."
+      },
+      {
+        "factor": "사용자 이탈성",
+        "detail": "이용자 진입·이탈이 쉬운 산업 특성상 지속적 업데이트와 로열티 수익 구조가 실적에 중요합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "PC온라인 게임과 모바일 게임의 퍼블리싱 및 리퍼블리싱을 주력 사업으로 진행하고 있으며"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "한국, 중국(상해, 북경), 일본, 홍콩, 필리핀, 대만에 법인 및 게임 스튜디오를 운영하며."
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "로열티 (Running Royalty)를 지급하는 계약을 체결하여 운영하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "- 온라인게임매출 (아틀란티카, 알투비트, 클럽엠스타 등): 31,725,634 (83.9%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "IP 홀더와 상생할 수 있는 구조입니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5079,
+    "completion_tokens": 5617,
+    "reasoning_tokens": 4800,
+    "output_tokens": 817
+  },
+  "warnings": []
+}

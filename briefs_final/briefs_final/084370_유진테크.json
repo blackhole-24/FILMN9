@@ -1,0 +1,77 @@
+{
+  "stock_code": "084370",
+  "corp_name": "유진테크",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 06:26",
+  "meta": {
+    "wics": "반도체와반도체장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "유진테크는 2000년에 설립된 반도체 장비 제조회사로, 전공정 웨이퍼의 박막 형성(화학기상증착 등)을 위한 증착 장비를 주력으로 제공합니다. 2025년 연결기준 매출액은 350,324백만 원이며, 수출액은 전체 매출의 37.11%를 차지하는 등 반도체 소자업체를 주요 고객으로 기술경쟁력을 확보하고 있습니다.",
+    "business_model": "핵심은 반도체장비(증착장비)와 반도체용 소재(전구체) 사업으로 구성되며, 2025년 기준 반도체장비 매출이 283,728(81.0%)로 가장 큰 비중을 차지합니다. 반도체용 산업가스·소재는 14,853(4.2%), 기타(원부자재 등)는 51,743(14.8%)로 보고되었고, 제품군으로는 Single Thermal LPCVD(BlueJay™), Plasma Treatment(Albatross™), Batch type ALD(Harrier™)와 전구체의 합성·정제·유통을 일괄 수행하는 공급체인이 핵심 수익원입니다.",
+    "main_customers": "반도체장비 — 반도체 소자업체(국내 및 세계 굴지의 소자업체) / 반도체용 산업가스·반도체소재 — 반도체 소자업체(박막 증착용 전구체 수요처) / 기타 — 원부자재 관련 고객",
+    "price_factors": [
+      {
+        "factor": "반도체 수요",
+        "detail": "메모리와 시스템 반도체 수요 회복 시 장비 및 소재 수요가 증가하여 실적에 직접 영향."
+      },
+      {
+        "factor": "설비투자 사이클",
+        "detail": "장비의 교체주기(약 3~4년)와 프로젝트별 수주 변동이 매출 변동성으로 이어짐."
+      },
+      {
+        "factor": "기술·R&D 경쟁력",
+        "detail": "고도화된 공정 대응을 위한 연구개발 투자와 품질 개선이 제품 경쟁력과 가격에 직결됨."
+      },
+      {
+        "factor": "수출·환율·국제정세",
+        "detail": "수출 비중이 높은 구조(2025년 수출액 비중 37.11%)로 환율 변동·무역정책이 실적에 영향."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 2000년에 설립된 반도체 장비 제조회사로"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "283,728(81.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "14,853(4.2%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "51,743(14.8%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "국내 소자업체에 공급하였으며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "반도체 장비산업은 교체주기가 빠른 지식집약적 산업"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5026,
+    "completion_tokens": 3786,
+    "reasoning_tokens": 2880,
+    "output_tokens": 906
+  },
+  "warnings": []
+}

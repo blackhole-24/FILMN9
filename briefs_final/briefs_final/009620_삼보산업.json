@@ -1,0 +1,83 @@
+{
+  "stock_code": "009620",
+  "corp_name": "삼보산업",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 09:47",
+  "meta": {
+    "wics": "비철금속",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "삼보산업은 알루미늄 합금과 자동차부품을 중심으로 사업을 영위하는 비철금속 기업입니다. 알루미늄 합금 산업이 자동차 산업과 함께 성장해 온 만큼, 완성차 시장과 국제 알루미늄 시세, 환율의 영향을 함께 받는 구조입니다.",
+    "business_model": "주요 사업부문은 알루미늄합금, 자동차부품, 내부매출액, 방송프로그램으로 제시되어 있으나, 제공된 자료에는 각 부문별 매출 비율이 없어 비중을 수치로 특정할 수 없습니다. 회사는 알루미늄 스크랩을 기반으로 합금 제품을 생산하고, 자동차 경량화에 쓰이는 소재 수요와 완성차 업계의 신차 개발·판매 흐름에 영향을 받는 수익 구조입니다. 2025년에는 외형확장보다 서산공장 매각을 통한 수익구조 개선에 중점을 두었다고 설명합니다.",
+    "main_customers": "알루미늄합금 — 완성차 업계, 알루미늄 부품업계 / 자동차부품 — 완성차 업계 / 방송프로그램 — 제공된 자료에 고객 유형 미기재",
+    "price_factors": [
+      {
+        "factor": "환율변동",
+        "detail": "원재료인 알루미늄 스크랩을 수입하는 비중이 높아 환율 변화가 원가와 수익성에 직접 영향을 줍니다."
+      },
+      {
+        "factor": "알루미늄시세",
+        "detail": "국제 알루미늄 시세가 판매단가와 원재료 조달 부담에 영향을 주어 실적 변동 요인이 됩니다."
+      },
+      {
+        "factor": "완성차수요",
+        "detail": "완성차 산업의 시장 변화와 신차 판매 흐름이 알루미늄 합금 및 자동차부품 수요를 좌우합니다."
+      },
+      {
+        "factor": "원가경쟁력",
+        "detail": "알루미늄 합금 업종은 원가절감을 통한 가격 경쟁력이 중요해 수익성 개선의 핵심 요소가 됩니다."
+      },
+      {
+        "factor": "유가변동",
+        "detail": "생산의 주요 원가로 유가 변동도 영향을 미친다고 설명되어 있어 수익성에 부담이 될 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "[지배회사의 내용](1) 산업의 특성",
+        "evidence_text": "알루미늄 합금 산업은 대표적인 재활용 산업"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "[지배회사의 내용](3) 경기변동의 특성",
+        "evidence_text": "완성차산업의 시장변화에 따라 크게 영향을 받으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "■ 주요 사업부문 (비율 불명확)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[지배회사의 내용](6) 회사의 현황 가. 영업개황",
+        "evidence_text": "서산공장 매각을 통한 수익구조 개선"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "[지배회사의 내용](2) 산업의 성장성",
+        "evidence_text": "자동차 산업과 동반 성장을 해 왔으며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "[지배회사의 내용](1) 산업의 특성",
+        "evidence_text": "환율과 국제 알루미늄 시세에 많은 영향을 받는 산업입니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 3786,
+    "completion_tokens": 901,
+    "reasoning_tokens": 0,
+    "output_tokens": 901
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

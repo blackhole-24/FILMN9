@@ -1,0 +1,71 @@
+{
+  "stock_code": "381620",
+  "corp_name": "제닉스로보틱스",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:40",
+  "meta": {
+    "wics": "기계",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "제닉스로보틱스는 2010년 설립된 자동화 물류 시스템(AMHS, 공장 내 자재를 옮기고 보관하는 자동화 설비) 전문 기업입니다. 반도체, 디스플레이, 2차전지, 자동차 등 다양한 제조업 현장에 Stocker와 AGV/AMR(물류이송 로봇)을 공급하며 공장 자동화 분야에 집중하고 있습니다.",
+    "business_model": "주력 매출은 Stocker(반도체 공정 내 웨이퍼 보관·반입·반출 설비) 69.4%, AGV/AMR(자재를 자동으로 이송하는 물류로봇) 12.1%, 기타장비 6.6%로 구성되어 있습니다. 제조공장용 자동화 물류장비를 개발·제작해 반도체, 디스플레이, 2차전지, 자동차 등 제조업 고객사에 납품하는 구조이며, 고객 요구 사양과 현장 환경에 따라 제품 단가가 달라집니다. 회사는 제품 협상 견적을 기반으로 가격이 정해지는 방식이라고 설명하고 있습니다.",
+    "main_customers": "Stocker — 반도체·디스플레이 제조기업 / AGV·AMR — 반도체, 디스플레이, 2차전지, 자동차 등 제조업 고객사 / 기타장비 — 제조공정 자동화가 필요한 산업 고객사",
+    "price_factors": [
+      {
+        "factor": "설비투자",
+        "detail": "고객사의 설비투자가 늘면 수주 물량이 확대되고, 줄어들면 Stocker와 AGV/AMR 매출이 함께 감소할 수 있습니다."
+      },
+      {
+        "factor": "반도체수요",
+        "detail": "반도체 공정용 Stocker는 주요 제품이어서 반도체 제조설비 투자 흐름이 실적에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "고객사양",
+        "detail": "AGV/AMR은 고객이 요구하는 사양, 반송물 종류, 사용환경에 따라 단가가 달라져 매출 변동성이 생깁니다."
+      },
+      {
+        "factor": "해외환율",
+        "detail": "해외 Local 법인과의 공급계약이 있어 미국 달러화와 위안화 환율 변동이 외환위험과 실적에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "스마트팩토리",
+        "detail": "스마트 팩토리와 물류 자동화 수요가 커질수록 AMHS, Stocker, AGV/AMR 같은 제품의 시장 기회가 확대됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황 > 가. 회사의 현황",
+        "evidence_text": "2010년 Laser 가이드 방식의 AGV를 국내 최초로 국산화에 성공"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "Stocker: 15,735 (69.4%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황 > 가. 회사의 현황",
+        "evidence_text": "반도체, 디스플레이, 2차전지, 자동차 등 다양한 산업"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황 > 가. 회사의 현황",
+        "evidence_text": "고객사와의 협상에 의해 결정되는 구조입니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5512,
+    "completion_tokens": 876,
+    "reasoning_tokens": 0,
+    "output_tokens": 876
+  },
+  "warnings": []
+}

@@ -1,0 +1,71 @@
+{
+  "stock_code": "376270",
+  "corp_name": "HEM파마",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:40",
+  "meta": {
+    "wics": "건강관리업체및서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "HEM파마는 2016년 12월 설립된 마이크로바이옴(장내 미생물) 전문 헬스케어 기업입니다. PMAS(Personalized Pharmaceutical Metal-Analytical Screening) 기술을 바탕으로 맞춤형 헬스케어와 LBP(Live Biotherapeutic Products) 디스커버리 플랫폼 사업을 영위하고 있으며, 2022년 8월 개인 맞춤형 유산균 서비스 my LAB을 본출시하며 본격적인 사업화 단계에 들어갔습니다.",
+    "business_model": "FY2025 사업부문별 영업수익은 코스메틱 사업 1.2%, 맞춤형 헬스케어 서비스 1.2%, LBP 디스커버리 플랫폼 서비스 1.3%, AI 맞춤형 라이프코칭 서비스 1.9%, 기타 1.2%로 구성됩니다. 회사의 핵심은 PMAS 기술로 개인의 마이크로바이옴을 분석해 최적의 솔루션과 후보물질을 찾고, 이를 맞춤형 헬스케어 서비스와 제품 사업으로 연결하는 구조입니다. 마이크로바이옴, LBP(생체치료 후보), GMP(우수건강기능식품제조기준) 기반 제조 역량을 함께 활용하고 있습니다.",
+    "main_customers": "맞춤형 헬스케어 서비스 — 개인 고객 / LBP 디스커버리 플랫폼 서비스 — 연구개발 수요 기업 및 기관 / 코스메틱 사업 — 화장품 소비자 / AI 맞춤형 라이프코칭 서비스 — 개인 건강관리 이용자 / 기타 — 기타 서비스 이용자",
+    "price_factors": [
+      {
+        "factor": "규제환경",
+        "detail": "건강기능식품, 의료, 개인정보 관련 규제 변화가 맞춤형 헬스케어와 서비스 확장 속도에 직접 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "맞춤수요",
+        "detail": "개인 건강 특성에 맞는 맞춤형 서비스 수요가 늘수록 마이랩 같은 개인별 분석·추천 서비스의 사업 기회가 커집니다."
+      },
+      {
+        "factor": "해외확장",
+        "detail": "일본, 미국, 말레이시아, 싱가폴 등 해외 파일럿과 출시 계획이 진행될수록 매출 다변화 기대가 높아질 수 있습니다."
+      },
+      {
+        "factor": "경쟁차별",
+        "detail": "과학 기반 신뢰도와 합리적 가격을 내세운 차별화가 유지될수록 코스메틱 사업의 시장 포지셔닝에 영향을 줍니다."
+      },
+      {
+        "factor": "데이터축적",
+        "detail": "마이랩 분석 데이터가 더 쌓일수록 AI 알고리즘과 분석 효율화에 도움이 되어 서비스 경쟁력에 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 장내미생물 시뮬레이션 기술인 PMAS(Personalized Pharmaceutical Metal-Analytical Screening)를 활용하여"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "코스메틱 사업: 1,201,048 (9.2%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "맞춤형 헬스케어 서비스: 156,811 (1.2%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "LBP 디스커버리 플랫폼 서비스: 164,616 (1.3%)"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5015,
+    "completion_tokens": 910,
+    "reasoning_tokens": 0,
+    "output_tokens": 910
+  },
+  "warnings": []
+}

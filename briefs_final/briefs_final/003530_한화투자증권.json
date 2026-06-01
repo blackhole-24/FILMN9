@@ -1,0 +1,67 @@
+{
+  "stock_code": "003530",
+  "corp_name": "한화투자증권",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 18:32",
+  "meta": {
+    "wics": "증권",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "한화투자증권은 투자매매·중개·자문·일임·신탁 등 종합 금융투자업을 영위하는 증권사로, 자산관리(WM)와 트레이딩, IB 등 다양한 영업부문을 운영하고 있습니다. 2025년 말 연결기준 총자산은 17조 3,579억원, 자기자본은 2조 682억원이며 총 임직원 수는 1,075명, 37개 지점과 4개의 해외 현지법인을 보유하고 있습니다.",
+    "business_model": "별도기준으로 사업부문별 수익비중은 WM 42%, Trading 17%, Wholesale 10%, IB 18%, 기타 13%로 자산관리(펀드·신탁·랩 등)와 자기자본 투자·트레이딩, 기관대상 유가증권 인수·자문(IB)이 핵심 수익원입니다. 또한 베트남·싱가포르·인도네시아 등 해외 현지법인을 통한 온라인 브로커리지와 자회사 대상 투자활동도 병행하고 있습니다.",
+    "main_customers": "WM — 펀드·신탁·랩 등 금융상품을 매수하는 투자자 / Trading — 회사의 자기자본 및 고객 자산 운용 대상 투자자 / Wholesale — 기관투자가 및 증권 인수·유통 수요자 / IB — 유가증권 인수주선·M&A·PF가 필요한 기업",
+    "price_factors": [
+      {
+        "factor": "시장 변동성",
+        "detail": "증권시장 주가 변동에 따라 거래수수료와 운용이익이 크게 변동해 실적에 직접 영향이 있습니다."
+      },
+      {
+        "factor": "개인 투자자 활동",
+        "detail": "개인투자자의 활동계좌 및 거래대금 증가 시 위탁매매 수익이 늘어나 실적 개선으로 이어집니다."
+      },
+      {
+        "factor": "금리 불확실성",
+        "detail": "국내 금리 불확실성은 채권 평가손익과 자기매매 수익성을 흔들어 실적 변동성을 키울 수 있습니다."
+      },
+      {
+        "factor": "고난도상품 규제",
+        "detail": "ELS·DLS 등 고난도 금융상품에 대한 규제 강화는 관련 발행·판매 수요와 수익성에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 - 2. 영업의 현황",
+        "evidence_text": "총 임직원 수는 1,075명이며, 37개 지점 , 4개의 해외 현지법인을 운영하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 - 2. 영업의 현황",
+        "evidence_text": "WM42%, Trading 17% , Wholesale 10%, IB 18%, 기타 13%"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 - 2. 영업의 현황",
+        "evidence_text": "각종 금융상품의 개발 및 판매, 고객 포트폴리오 설계 등의 자산관리업무"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "증권업은 하반기 주가 상승과 투자심리 개선에 힘입어 수익성이 개선되었습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4355,
+    "completion_tokens": 4365,
+    "reasoning_tokens": 3520,
+    "output_tokens": 845
+  },
+  "warnings": []
+}

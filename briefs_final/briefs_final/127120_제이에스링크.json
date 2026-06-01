@@ -1,0 +1,62 @@
+{
+  "stock_code": "127120",
+  "corp_name": "제이에스링크",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 09:33",
+  "meta": {
+    "wics": "생명과학도구및서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "제이에스링크는 유전체 분석과 관련 서비스(개인 유전체 분석, 바이오뱅크, 법의학 식별 서비스 AccuID)를 제공하는 기업입니다. 바이오인포매틱스(생명정보학) 역량과 유전체 분석 장비를 바탕으로 병원·검진센터 및 연구기관과 협력해 서비스를 운영하고 있습니다.",
+    "business_model": "주요 수익원은 유전체분석(EGIS) 서비스로 2025년 매출의 약 99.3%를 차지하며, DNAGPS는 약 0.1%, 임대매출이 약 0.5%를 차지합니다. 유전체분석은 대량·고속의 실험능력과 바이오인포매틱스(데이터 분석) 능력이 핵심이며, 개인 유전체 분석과 바이오뱅크 보관 서비스 등이 수익을 구성합니다.",
+    "main_customers": "유전체분석(EGIS) — 의료기관·연구자 / DNAGPS — 연구기관·내수시장 고객 / 임대매출 — 시설 임차인(내수)",
+    "price_factors": [
+      {
+        "factor": "DTC 규제",
+        "detail": "개인 대상 직접 유전체(Direct-to-consumer) 서비스 허용 범위 변화는 개인 유전체 사업의 매출 가변성에 직접적 영향을 줍니다."
+      },
+      {
+        "factor": "시퀀싱 비용",
+        "detail": "유전체 분석 기술 발전에 따른 비용 하락은 서비스 가격 경쟁력 및 마진 구조에 영향을 미칩니다."
+      },
+      {
+        "factor": "바이오 수요",
+        "detail": "의료기관·검진센터 및 연구 수요 증가 시 유전체 분석 및 바이오뱅크 서비스 매출이 확대될 수 있습니다."
+      },
+      {
+        "factor": "투자 부담",
+        "detail": "영구자석 등 신규사업 초기 투자비용 증가는 단기적인 손익(당기순손실)을 악화시킬 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > (3) 진단사업 부분 > 1) 유전체 분석 서비스",
+        "evidence_text": "본 사업 영위를 위해 당사에서는 최신 유전체 분석장비 및 전문 인력을 보유하고 있음."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[표] 1. 매출실적",
+        "evidence_text": "합 계 | 19,312 | 13,164 | 17,137"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > (3) 진단사업 부분 > 3) 바이오뱅크",
+        "evidence_text": "협력기관으로는 4개의 종합병원 건강검진센터를 두고 있음."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4057,
+    "completion_tokens": 4085,
+    "reasoning_tokens": 3392,
+    "output_tokens": 693
+  },
+  "warnings": []
+}

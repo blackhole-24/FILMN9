@@ -1,0 +1,67 @@
+{
+  "stock_code": "208140",
+  "corp_name": "정다운",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 11:54",
+  "meta": {
+    "wics": "식품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "정다운은 육용오리를 도축해 신선육·육가공품·HMR·우모 등을 판매하는 수직계열화(부화에서 제품공급까지)된 식품회사입니다. 2025년 연결기준 총매출은 160,876백만원이며, 주요 원재료인 육용오리는 종속회사 제이디팜을 통해 95% 이상 공급받고 있습니다.",
+    "business_model": "사업부문별로 FY2025 기준 신선(23.9%), 완포(4.5%), 슬라이스(9.6%), 양념육(4.4%), 훈제(6.8%), 오메가3(9.7%), 마늘(7.7%), 돈육(1.7%), 기타(14.6%), HMR(7.8%)로 구성됩니다. 핵심 수익원은 신선육 및 육가공품(슬라이스·훈제 등)이며, 우모는 1차 가공 후 전량 수출되는 제품군으로 별도 매출비중을 가집니다.",
+    "main_customers": "신선/완포/슬라이스/양념육/훈제/HMR 등 — 대리점(도매상), 급식업체, 대형유통업체, 온라인몰 / 우모 — 수출 중개상 → 해외 2차 가공업체",
+    "price_factors": [
+      {
+        "factor": "공급증감",
+        "detail": "공급 과잉(또는 축소)은 판가와 재고 수준에 직접 영향을 미쳐 매출과 이익 변동성을 키웁니다."
+      },
+      {
+        "factor": "판매가격",
+        "detail": "판가 하락은 매출 규모와 이익률 축소로 연결되며, 특히 신선육·가공육 비중이 큰 실적에 민감합니다."
+      },
+      {
+        "factor": "조류인플루엔자",
+        "detail": "AI(조류인플루엔자) 발생 시 공급 차질과 가격 급등·급락이 발생해 실적 변동성이 커집니다."
+      },
+      {
+        "factor": "계열화(원재료)",
+        "detail": "종속회사 통한 원료(육용오리) 공급 비중이 높아 사육·공급 안정성은 원가와 생산성에 직접 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "육용오리를 도축하여 신선육, 육가공품, HMR 및 우모 등의 판매"
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "신선: 38,394 (23.9%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "대리점(도매상),급식업체,대형유통업체,온라인몰 등"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "판가 하락과 경기 불황에 따른 소비 침체"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5206,
+    "completion_tokens": 4581,
+    "reasoning_tokens": 3776,
+    "output_tokens": 805
+  },
+  "warnings": []
+}

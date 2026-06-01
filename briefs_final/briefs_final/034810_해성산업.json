@@ -1,0 +1,62 @@
+{
+  "stock_code": "034810",
+  "corp_name": "해성산업",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 00:09",
+  "meta": {
+    "wics": "종이와목재",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "해성산업은 부동산 임대·관리사업을 핵심으로 하는 지주회사로, 오피스빌딩 등 자산을 보유·관리하며 종속회사를 통해 배당·로열티 수익을 인식하고 있습니다. 1962년 해남빌딩 준공을 기점으로 오피스빌딩 임대관리사업을 수행해왔고, 2020년 제지사업부문 물적분할 및 지주회사 전환과 2021년 계양전기·해성디에스의 편입 등으로 사업구조가 확장되었습니다.",
+    "business_model": "주요 수익원은 임대관리(임대수익·관리수익)와 지주사업(종속회사 배당·상표권 사용료)이며, 사업구성에서는 임대관리 매출 비중이 49.4%로 가장 큽니다. FY2025 기준 임대관리 49.4%(15,477), 지주사업 12.5%(3,916)를 차지하며(사업부문별 매출 구성), 임대수익과 관리수익은 별도재무제표 기준 218억원을 기록했습니다.",
+    "main_customers": "임대관리 — 오피스·상가 임차기업 및 입주 고객 / 지주사업 — 종속회사(배당·로열티 지급 주체)",
+    "price_factors": [
+      {
+        "factor": "입지",
+        "detail": "사업장의 입지가 매출 및 마진률에 큰 영향을 미쳐 우수한 입지 확보 여부가 실적에 직접적으로 작용합니다."
+      },
+      {
+        "factor": "금리",
+        "detail": "금리와 자금시장 변동은 부동산 임대수요 및 임대료 산정에 영향을 주어 실적 변동성을 키울 수 있습니다."
+      },
+      {
+        "factor": "공실률",
+        "detail": "오피스 공실률 변화는 임대수익에 직접 연동되며, 공실률 상승 시 임대료·수익 압박이 발생합니다."
+      },
+      {
+        "factor": "환율·원재료",
+        "detail": "제지·포장자재 관련 사업은 환율 및 원재료 가격 변동에 따라 제품 가격과 수익성이 변화합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "오피스빌딩 임대관리사업을 수행해오고 있으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "임대관리: 15,477 (49.4%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "지주사업: 3,916 (12.5%)"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5360,
+    "completion_tokens": 3841,
+    "reasoning_tokens": 3136,
+    "output_tokens": 705
+  },
+  "warnings": []
+}

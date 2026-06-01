@@ -1,0 +1,67 @@
+{
+  "stock_code": "033170",
+  "corp_name": "시그네틱스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 23:52",
+  "meta": {
+    "wics": "반도체와반도체장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "시그네틱스는 반도체 후공정(패키징 및 테스트)을 주력으로 하는 기업입니다. Advanced SiP(System-In-Package) 및 Flip Chip 등 프리미엄 패키징 기술 개발과 생산 인프라 확보에 집중하고 있으며, 2025년 연결기준 매출액은 1,030억원으로 전년대비 12.8% 감소했습니다.",
+    "business_model": "핵심 사업은 반도체 PKG(패키징) 및 테스트 서비스로 단일 사업 구조를 유지하고 있으며, 시장 요구에 대응하기 위해 LAB(Laser Assisted bond system), Flip Chip, SiP 등 고부가가치 패키징 기술에 투자하고 있습니다. 사업부문별 영업수익 구성(FY2025)은 46.78%와 53.22%로 기재되어 있습니다.",
+    "main_customers": "반도체 후공정(패키징) — 반도체 제조업체(IDM·Fabless·Foundry 등)",
+    "price_factors": [
+      {
+        "factor": "수요구조",
+        "detail": "범용 반도체 수요 위축은 매출에 직접적 영향을 주며, AI·데이터센터·차량용 반도체 등 고성능 수요 증가는 고부가가치 패키징 수주에 영향을 미칩니다."
+      },
+      {
+        "factor": "원부자재가",
+        "detail": "원부자재 가격 상승은 원가 부담을 높여 영업실적에 부정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "환율변동",
+        "detail": "USD·JPY 등 주요 통화의 환율 변동은 수익성 및 매출 환산에 영향을 미칩니다."
+      },
+      {
+        "factor": "기술경쟁",
+        "detail": "고밀도 SiP, Flip Chip 등 첨단 패키징 기술 확보 여부가 수주경쟁력과 수익성에 직결됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용",
+        "evidence_text": "당사는 후공정에 속하는 반도체패키징업(테스트포함)을 주목적 사업으로 하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "■ 사업부문별 영업수익 구성 (FY2025)  - 46.78% (46.8%)  - 53.22% (53.2%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용",
+        "evidence_text": "일관공정 업체(IDM : Integrated Device Manufacturer), 설계전문업체(Fabless), 웨이퍼 전문제조업체(Foundry)"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "2025년 매출액은 전년대비 151억원(-12.8%) 감소한 1,030억원으로 범용 반도체 수요 위축, 원부자재 상승, 환율 변동성 등 복합적인 경제위기가 지속적으로 이어져 매출이 감소하였습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4644,
+    "completion_tokens": 3860,
+    "reasoning_tokens": 3072,
+    "output_tokens": 788
+  },
+  "warnings": []
+}

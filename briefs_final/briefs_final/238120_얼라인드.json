@@ -1,0 +1,74 @@
+{
+  "stock_code": "238120",
+  "corp_name": "얼라인드",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 13:25",
+  "meta": {
+    "wics": "생명과학도구및서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "얼라인드는 생명과학 연구 및 진단 분야의 첨단 장비와 시약을 개발·생산하여 전 세계에 판매하는 기술벤처기업으로, 자동 세포카운터·생체조직 투명화·디지털 세포 이미징 등 융·복합 기술 기반 제품을 주력으로 합니다. 제품은 연구기관·산업체 등을 대상으로 글로벌 시장에 공급되고 있습니다.",
+    "business_model": "주요 사업부문은 자동 세포 카운팅 시스템, 생체조직 투명화 및 이미징 시스템, 디지털 세포 이미징 시스템 등 장비와 이에 수반되는 시약·액세서리·소프트웨어·서비스로 구성됩니다. 또한 장비 판매뿐 아니라 유지보수·소프트웨어 업데이트·부품 공급 등의 애프터서비스가 중요한 수익요소입니다. (주요 사업부문 표시는 사업보고서상의 '생명공학 제품', '상품', '기타'로 구성됩니다.)",
+    "main_customers": "자동 세포 카운팅 시스템 — 바이오 연구기관, 세포치료·면역세포 관련 기업, 진단·식품·환경 분야 기업 / 생체조직 투명화 및 이미징 시스템 — 뇌과학·조직병리·진단 분야 연구자, 정부출연연구소·학계·산업계 / 디지털 세포 이미징 시스템 — 생명과학 및 의과학 연구실",
+    "price_factors": [
+      {
+        "factor": "글로벌경쟁",
+        "detail": "글로벌 선도기업 및 해외업체와의 경쟁이 심화되면 시장점유율과 가격경쟁력에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "기술속도",
+        "detail": "관련 기술 발전 속도가 빠를수록 제품 갱신과 신제품 개발 부담이 커져 연구개발비와 경쟁우위 지속성이 중요해집니다."
+      },
+      {
+        "factor": "서비스수익",
+        "detail": "장비 특성상 유지보수·소프트웨어 업데이트·부품교체 등의 서비스 수요가 실적 안정성에 기여합니다."
+      },
+      {
+        "factor": "R&D·경기",
+        "detail": "연구개발 투자 및 공공·민간 R&D 예산 변동은 장비·시약 수요에 영향을 주어 실적 변동을 초래할 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 - 2. 영업의 현황",
+        "evidence_text": "전 세계에 판매하는 기술벤처기업입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 - 2. 영업의 현황",
+        "evidence_text": "주요제품은 크게 세 가지로 1) 자동 세포 카운팅 시스템"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 - 2. 영업의 현황",
+        "evidence_text": "전세계 주요 정부출연연구소, 학계, 산업계에 판매되어"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나. 시장여건 및 영업의 개황[생명과학장비 사업부문]",
+        "evidence_text": "생명과학장비(LST)는 연구개발 과정이 길고 개발 비용이 높아"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 - 2. 영업의 현황",
+        "evidence_text": "당사와 경쟁하고 있는 회사는 Thermo Fisher Scientific"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 6049,
+    "completion_tokens": 3820,
+    "reasoning_tokens": 2944,
+    "output_tokens": 876
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

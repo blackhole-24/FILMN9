@@ -1,0 +1,72 @@
+{
+  "stock_code": "065530",
+  "corp_name": "와이어블",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 11:44",
+  "meta": {
+    "wics": "무선통신서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "와이어블은 공용무선기지국(중계망) 구축·운영을 전문으로 하는 업체로, 이동통신사업자의 중복투자와 자연환경 훼손 문제를 해결하기 위해 설립되었습니다. 국립공원·터널·지하상가 등 특수지역에서 확고한 시장지위를 확보하고 있으며, 안정적인 기지국 사용료 수입을 기반으로 사업을 운영하고 있습니다.",
+    "business_model": "주요 사업부문은 공용무선기지국(중계망)으로 매출의 48.0%를 차지하며, 국방부 체계지원 및 신재생에너지(태양광) 부문이 34.5%를 차지합니다. 수익원은 기지국사용료(지상·지하 구간의 유지보수·관리), 통신시설 구축 매출 및 방위사업청·태양광발전 관련 기타매출로 구성되어 있습니다.",
+    "main_customers": "공용무선기지국(중계망) — 이동통신사업자 / 국방부체계지원 및신재생에너지 — 방위사업청 · 한국전력/전력시장",
+    "price_factors": [
+      {
+        "factor": "정부정책",
+        "detail": "공용화 정책과 정부의 적극적 지원은 사업수요를 늘려 실적에 우호적 영향을 줍니다."
+      },
+      {
+        "factor": "통신투자",
+        "detail": "지하철·도로·터널 등 음영지역 해소를 위한 통신사업자 투자 확대는 기지국 구축·유지보수 매출 증가로 연결됩니다."
+      },
+      {
+        "factor": "5G전환",
+        "detail": "5G 품질평가·국가망 구축 등 기술 전환 과정에서 수요 구조가 변동할 수 있어 실적 변동성에 영향을 미칩니다."
+      },
+      {
+        "factor": "국방수요",
+        "detail": "국방혁신 4.0 등에 따른 방위사업청 관련 체계지원 수요 증가는 방위사업 부문 매출 확대 요인입니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 영업 현황",
+        "evidence_text": "연결실체는 공용무선기지국(중계망) 전문업체로"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "공용무선기지국(중계망): 36,259,320,924 (48.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "국방부체계지원 및신재생에너지: 26,074,533,034 (34.5%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 영업 현황",
+        "evidence_text": "이를 한국전력 또는 전력시장에 판매하는 방식으로 수익을 확보해 나가고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 산업의 특성",
+        "evidence_text": "정부의 적극적인 정책지원이 있는 산업입니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5198,
+    "completion_tokens": 3880,
+    "reasoning_tokens": 3072,
+    "output_tokens": 808
+  },
+  "warnings": []
+}

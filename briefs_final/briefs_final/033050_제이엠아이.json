@@ -1,0 +1,67 @@
+{
+  "stock_code": "033050",
+  "corp_name": "제이엠아이",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 11:55",
+  "meta": {
+    "wics": "상업서비스와공급품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "제이엠아이는 OEM(주문자생산방식) 납품을 주로 하는 제조기업으로 기록매체복제업(CD·인쇄물·KIT 등)에서 출발했으며, 2020년 이후 국내 본사에서 세제·섬유유연제 등 생활용품의 개발·제조(OEM·ODM)와 유통사업을 주력으로 전개하고 있습니다. 또한 미국·멕시코·베트남 현지법인을 통해 인쇄·라벨, 전자부품(TRAY) 제작 및 자동차 내장부품 공급 등 글로벌 생산망을 운영하고 있습니다.",
+    "business_model": "사업부문별 영업수익 구성은 기록매체가 28.0%, TRAY가 8.0%, 미디어/기록매체가 3.2%, 기타가 0.6%로 나타나며([사업부문별 매출 구성] 기준), 이들 부문이 회사 매출의 주요 축을 이룹니다. 국내 본사는 생활용품(OEM·ODM)의 상품기획·개발부터 생산·품질·출하까지 통합 서비스를 제공하고, 미국·베트남 법인은 각각 자동차 내장부품·미디어 제품 공급 및 전자부품 TRAY 제작·임가공을 수행합니다.",
+    "main_customers": "미디어/기록매체 — 전자제품·교육교재·미디어 콘텐츠 기업 / 기록매체 — 기록매체 관련 유통·제작업체 / TRAY(전자부품) — 전자부품 제조사 및 임가공 의뢰기업 / 자동차 내장부품 — 북미에 진출한 국내 완성차 기업의 현지 법인",
+    "price_factors": [
+      {
+        "factor": "OEM 수요",
+        "detail": "생활용품 중심의 OEM 수요는 기초 소비재 특성상 수요의 지속성과 안정성이 높아 매출 변동성을 낮추는 요인입니다."
+      },
+      {
+        "factor": "현지화(북미)",
+        "detail": "북미 현지 생산 확대(전기차 생산라인 등)와 부품 현지화 정책은 미국 법인의 자동차 내장부품 매출 확대와 공급 기회에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "설비투자",
+        "detail": "설비투자와 가동률 변화는 초기에는 비용(감익)을 유발하나 투자 효과가 본격화되면 매출·수익성 개선으로 연결될 가능성이 있습니다."
+      },
+      {
+        "factor": "다품종 소량",
+        "detail": "미디어·패키지(KIT) 사업의 다품종 소량생산 특성은 고정비 분산과 품질관리 역량에 따라 수익성 변동을 초래할 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 영업 현황",
+        "evidence_text": "OEM(주문자생산방식) 납품을 주로 하는 제조회사"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "기록매체: 25,173 (28.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 영업 현황",
+        "evidence_text": "전자제품, 교육 교재, 미디어 콘텐츠 제품 등 다양한 고객사에 Total Packaging 솔루션을 제공"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가-1. 산업의 성장성",
+        "evidence_text": "북미 주요 완성차 업체들이 조지아주 사바나 지역을 중심으로 전기차 생산라인을 구축하고 있어"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4664,
+    "completion_tokens": 4677,
+    "reasoning_tokens": 3776,
+    "output_tokens": 901
+  },
+  "warnings": []
+}

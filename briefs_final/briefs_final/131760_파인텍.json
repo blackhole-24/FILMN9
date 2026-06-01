@@ -1,0 +1,76 @@
+{
+  "stock_code": "131760",
+  "corp_name": "파인텍",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 09:44",
+  "meta": {
+    "wics": "디스플레이장비및부품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "파인텍은 디스플레이 부품·장비와 2차전지 제조장비를 주력으로 생산하는 기업으로, 제품·시장 변화에 맞춰 푸드테크 로봇 등으로 사업을 확장하고 있습니다. 주요 제품 생산은 부품사업부는 베트남, 장비사업부는 국내에서 영위하고 있습니다.",
+    "business_model": "핵심 사업은 부품사업부와 장비사업부로 구성되며, FY2025 기준 부품사업부는 매출의 32.7%, 장비사업부는 매출의 67.3%를 차지합니다. 장비사업부는 디스플레이용 본딩 등 제조장비와 2차전지 제조장비를 중심으로 수주·납품을 진행하고, 부품사업부는 베트남 생산을 통한 양산 체계를 갖추고 있습니다.",
+    "main_customers": "부품사업부 — 디스플레이 패널업체 / 장비사업부 — 디스플레이 패널업체 및 2차전지 제조사(전방업체)",
+    "price_factors": [
+      {
+        "factor": "패널 투자 사이클",
+        "detail": "신규 디스플레이 패널 생산 계획에 따라 장비 수요가 선행 발생하므로 패널 투자 사이클 변화가 실적에 직접 영향합니다."
+      },
+      {
+        "factor": "기술·검증 요구",
+        "detail": "검증된 장비와 초기 연구개발 협력이 필수여서 기술력 확보 여부가 수주와 시장진입을 좌우합니다."
+      },
+      {
+        "factor": "전기차(배터리) 수요",
+        "detail": "이차전지 제조장비는 전기차 등 배터리 수요 변화에 민감해 전기차 수요 둔화 시 수주·수익성에 부정적 영향을 받을 수 있습니다."
+      },
+      {
+        "factor": "환율(USD)",
+        "detail": "주요 통화가 USD인 외화거래 노출로 환율 변동이 수출 및 원재료 비용에 영향을 미칩니다."
+      },
+      {
+        "factor": "무역·관세 리스크",
+        "detail": "글로벌 공급망 불안과 관세 등 무역환경 변화가 제조·수출환경과 수주에 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "제품 및 시장 변화에 맞춰 푸드테크 로봇 등으로 사업 부분을 확장하고 있습니다."
+      },
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "주요 제품 생산은 부품사업부-베트남, 장비사업부-국내 에서 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "부품사업부: 12,386 (32.7%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "장비사업부: 27,626 (67.3%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 개요",
+        "evidence_text": "2차전지 제조장비는 2차전지를 생산하는 전방업체에 납품되므로"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4673,
+    "completion_tokens": 4680,
+    "reasoning_tokens": 3840,
+    "output_tokens": 840
+  },
+  "warnings": []
+}

@@ -1,0 +1,72 @@
+{
+  "stock_code": "012800",
+  "corp_name": "대창",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 21:09",
+  "meta": {
+    "wics": "비철금속",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "대창은 1974년 설립된 동합금계열 비철금속 전문제조업체로, 주력 제품인 황동봉을 생산합니다. 국내에서 확고한 기반을 쌓았고 아시아 최대 황동봉 수출업체로서 약 20여 개국에 제품을 공급하고 있습니다.",
+    "business_model": "핵심 사업은 비철금속 제조로, 특히 황동봉 판매가 매출의 대부분을 차지합니다(황동봉 94.2%, 상품 및 기타 5.2%, 분양 0.6%). 주요 수익원은 황동봉 제품으로, 내수와 수출을 통해 매출을 확보하며(내수 48.7%, 수출 51.3%) 원재료(황동스크랩·아연괴) 가격 변동에 민감합니다.",
+    "main_customers": "비철금속제조(황동봉) — 반도체·전기·전자부품·자동차·선박·산업용 기계류 / 상품 및 기타 — 건설부품 등 소재 관련 기업 / 분양사업 — 지식산업센터 분양 수요자",
+    "price_factors": [
+      {
+        "factor": "원자재 가격",
+        "detail": "황동스크랩·아연괴 등 원재료 가격이 LME·COMEX 선물 시세와 연동되어 있어 원재료 상승 시 제품 원가가 올라 실적에 직접적 악영향을 미칩니다."
+      },
+      {
+        "factor": "환율",
+        "detail": "수출입을 함께 하는 구조로 환율 변동은 매출원화환산 및 수입 원가에 영향을 주어 실적 변동성을 키울 수 있습니다."
+      },
+      {
+        "factor": "친환경 규제",
+        "detail": "무연·저연 황동 수요 확대는 제품 포트폴리오 전환과 고부가 신제품(무연내식·무연쾌삭황동) 성과에 따라 수익성에 긍정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "국내 경쟁구도",
+        "detail": "황동봉 시장이 일부 주요업체(대창·풍산) 중심으로 형성되어 있어 가격·물량 경쟁과 생산능력 변화가 실적에 영향을 미칠 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "당사는 1974년에 설립된 동합금계열 비철금속 전문제조업체로서"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출",
+        "evidence_text": "황동봉 524,874(94.2%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 주요 제품 등의 현황",
+        "evidence_text": "반도체, 전기, 전자부품, 자동차, 선박, 산업용 기계류"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "영업 현황",
+        "evidence_text": "주요 원재료는 황동스크랩(Brass Scrap)과 아연괴(Zinc)으로"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "아시아 최대 황동봉 수출업체로서"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5619,
+    "completion_tokens": 3831,
+    "reasoning_tokens": 3008,
+    "output_tokens": 823
+  },
+  "warnings": []
+}

@@ -1,0 +1,76 @@
+{
+  "stock_code": "195870",
+  "corp_name": "해성디에스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 11:45",
+  "meta": {
+    "wics": "반도체와반도체장비",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "해성디에스는 반도체 패키징용 구조재료인 반도체 Substrate를 생산하는 반도체 후공정 전문기업으로, 리드프레임과 Package Substrate를 주력으로 합니다. 높은 품질 신뢰성과 독자적 PPF 도금 기술을 바탕으로 세계 리드프레임 시장을 선도하고 있으며, 2025년 연결기준 매출은 약 6,534억원을 기록했습니다.",
+    "business_model": "단일 사업부문인 반도체 Substrate(반도체 구조재료) 중심으로 수익을 창출하며, 제품별 매출비중은 리드프레임 약 76%, Package Substrate 약 24%를 차지합니다. 매출의 대부분이 수출(글로벌 IDM 및 OSAT 대상)로 발생하며 고품질·고부가 제품 위주로 영업이익을 확보하는 구조입니다.",
+    "main_customers": "리드프레임 — 종합반도체업체(IDM) 및 조립외주업체(OSAT) / Package Substrate — PC·Server·모바일용 메모리 패키징을 사용하는 반도체 제조사(IDM 및 OSAT)",
+    "price_factors": [
+      {
+        "factor": "차량용 수요",
+        "detail": "전기차·자율주행 확대에 따른 차량용 반도체 수요 증가는 리드프레임 수요 증가로 연결되어 실적에 긍정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "경기 민감",
+        "detail": "최종 전자제품 시장의 경기 흐름에 따라 반도체 재료 수요가 변동하므로 경기 둔화 시 실적 변동성이 커질 수 있습니다."
+      },
+      {
+        "factor": "환율 노출",
+        "detail": "매출의 대부분이 수출인 만큼 달러·엔 등 환율 변동은 매출 및 원가에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "원자재비",
+        "detail": "LME(원자재 시세) 상승 등 원재료 비용 증가 시 원가 부담이 커져 영업이익에 부정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "기술장벽",
+        "detail": "높은 품질 신뢰성과 특허·도금 기술 보유로 신규 경쟁자 진입장벽이 높아 경쟁 압력은 상대적으로 완화됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "반도체 Substrate를 생산하는 반도체 후공정업체입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "제품별 매출비중은 리드프레임이 약 76%, Package Substrate가 약 24% 수준입니다."
+      },
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "2025년 연결재무제표 기준 매출 6,534억원, 영업이익 465억원의 경영실적을 창출하였습니다."
+      },
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "세계 리드프레임 시장을 선도하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "매출액 중 수출 비중이 97% 이상을 차지하"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 6274,
+    "completion_tokens": 2942,
+    "reasoning_tokens": 2048,
+    "output_tokens": 894
+  },
+  "warnings": []
+}

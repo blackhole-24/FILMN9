@@ -1,0 +1,67 @@
+{
+  "stock_code": "225590",
+  "corp_name": "패션플랫폼",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 12:50",
+  "meta": {
+    "wics": "섬유,의류,신발,호화품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "패션플랫폼은 2009년 6월 29일 여성의류 제조·판매를 목적으로 설립되었으며, 2018년 합병을 통해 사업확장과 경영효율성 제고를 꾀했습니다. 2025년 연결 기준 매출액은 1,063억원, 영업이익은 84억원, 총자산은 1,039억원 수준으로 중저가 여성복 중심의 패션기업입니다.",
+    "business_model": "주요 수익원은 패션부문으로 FY2025 기준 영업수익의 99.1%를 차지하며(패션부문: 105,353 / 99.1%), 임대부문이 0.9%(임대부문: 888 / 0.9%)를 담당합니다. 패션부문은 더레노마, 보니스팍스, 데코, 르샵, 리에떼 등 5개 브랜드를 기반으로 기획·생산·유통을 통해 제품을 공급하며, 연결 종속기업(주)데코앤에프도 동일한 패션의류 사업을 영위하고 있습니다.",
+    "main_customers": "패션부문 — 20대~40대 여성(브랜드별 연령대별 타겟: 더레노마·보니스팍스·데코·르샵·리에떼) / 임대부문 — 임차인(임대 서비스 이용자)",
+    "price_factors": [
+      {
+        "factor": "내수의존",
+        "detail": "국내 시장 중심 구조로 국내 소비 둔화 시 매출·실적에 직접적인 영향을 받습니다."
+      },
+      {
+        "factor": "경기민감성",
+        "detail": "패션 수요가 경기변동에 민감해 경기하강 시 매출 감소 폭이 클 수 있습니다."
+      },
+      {
+        "factor": "유통망장벽",
+        "detail": "해외 진출에 유통망·브랜드 인지도가 필요해 글로벌 확장 시 추가 투자·시간이 요구됩니다."
+      },
+      {
+        "factor": "가격경쟁",
+        "detail": "진입장벽이 낮아 저가 브랜드와의 경쟁이 심화되면 마진 압박이 발생할 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "당사는 2009년 6월 29일에 여성의류 제조 및 판매 등을 목적으로 설립되었으며,"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "패션부문: 105,353 (99.1%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "패션부문은 30대~40대 후반의 여성을 주요 타겟으로 한 더레노마,"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "패션산업은 전통적인 내수 중심의 산업"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4455,
+    "completion_tokens": 3259,
+    "reasoning_tokens": 2496,
+    "output_tokens": 763
+  },
+  "warnings": []
+}

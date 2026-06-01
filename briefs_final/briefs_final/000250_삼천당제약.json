@@ -1,0 +1,62 @@
+{
+  "stock_code": "000250",
+  "corp_name": "삼천당제약",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 16:44",
+  "meta": {
+    "wics": "제약",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "삼천당제약은 1943년 설립된 제약기업으로, 처방위주의 전문의약품을 제조·판매해 왔습니다. 경기도 화성의 KGMP 공장에서 항생제, 순환기·소화기 치료제 및 안약류 등을 생산하며, 최근 연결기준 매출액은 2,318억원(전년비 9.9% 증가)을 기록했습니다.",
+    "business_model": "회사는 단일 영업부문(의약용 약제품 제조·판매)을 주력으로 하며, 제품 포트폴리오에서 안과용제가 핵심입니다; 건성질환·각막염 치료제 등 안과용제 매출 비중이 61.1%이며 순환기 및 호흡기 질환 치료제 11.6%, 소화기계용제 4.4%, 항생제 3.9%를 차지합니다. 자회사(옵투스제약 등)를 통한 일회용 점안제 생산과 해외 수출·제휴를 병행하여 매출을 확보하고 있습니다.",
+    "main_customers": "안과용제 — 병·의원 및 국내외 제약사·도매업체 / 순환기·호흡기·소화기 계열 치료제 — 의료기관(처방 기반) / 수출용 완제의약품 — 해외 제약사·유통업체",
+    "price_factors": [
+      {
+        "factor": "약가제도",
+        "detail": "보험약가(약가제도) 개편이나 약가 변동은 제품 판매가격과 수익성에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "환율",
+        "detail": "원재료 수입에 적용되는 환율 변동은 원가에 영향을 주고 수출 수익의 원화 환산에도 영향을 미칩니다."
+      },
+      {
+        "factor": "시장 경쟁력",
+        "detail": "제네릭 확대와 가격경쟁 심화는 제품 가격과 마진을 압박할 수 있습니다."
+      },
+      {
+        "factor": "생산원가",
+        "detail": "생산량 변화에 따른 생산원가 변동은 제품 원가와 수익성에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "(1) 사업부문 정보[지배회사의 개요]",
+        "evidence_text": "당사는 1943년 의약품 제조업 및 판매업을 사업목적으로 하여 설립되었으며,"
+      },
+      {
+        "field": "business_model",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "건성질환, 각막염 치료제 등 안과용제의 매출 비중이 61.1% 이며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "순환기 및 호흡기 질환 치료제 11.6%, 소화기계용제 4.4%, 항생제 3.9% 입니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5057,
+    "completion_tokens": 5359,
+    "reasoning_tokens": 4608,
+    "output_tokens": 751
+  },
+  "warnings": []
+}

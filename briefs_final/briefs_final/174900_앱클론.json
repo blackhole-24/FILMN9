@@ -1,0 +1,62 @@
+{
+  "stock_code": "174900",
+  "corp_name": "앱클론",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 10:47",
+  "meta": {
+    "wics": "생물공학",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "앱클론은 2010년에 설립된 항체 기반 바이오벤처로, 한국·스웨덴 과학자 그룹이 공동 참여해 항체신약 개발을 목표로 출발했습니다. 혁신 항체 디스커버리 플랫폼과 글로벌 협력을 바탕으로 항암 및 면역질환용 항체치료제와 CAR‑T 등 차세대 치료제를 개발하고 있습니다.",
+    "business_model": "FY2025 기준 사업부문별 영업수익 구성은 기술이전 15.3%, 용역 0.3%, 상품 0.1%로 보고되었습니다(기술이전 비중 확인 가능). 당사는 NEST(새로운 에피토프 발굴 플랫폼), AffiMab(이중특이성 항체 기술), CAR‑T 플랫폼 등 자체 플랫폼을 통해 후보물질을 발굴·개발하고, 기술이전(라이선스)과 연구용역·상품화로 수익을 창출합니다. 대표 파이프라인 AC101은 글로벌 기술이전과 임상 진행(임상2상·3상, 2024년 FDA IND 제출 승인) 상황을 보유하고 있습니다.",
+    "main_customers": "기술이전 — 제약사·바이오기업 / 용역 — 제약사·연구기관(연구개발 협력) / 상품 — 제품 구매자(비중 작음, FY2025 0.1%)",
+    "price_factors": [
+      {
+        "factor": "임상결과",
+        "detail": "임상 중간·최종결과는 파이프라인 가치와 기술이전 가능성에 직접적 영향을 미칩니다."
+      },
+      {
+        "factor": "기술이전",
+        "detail": "기술이전 계약 체결 여부와 규모가 매출과 현금흐름에 즉각적 영향을 줍니다."
+      },
+      {
+        "factor": "규제승인",
+        "detail": "FDA 등 규제기관의 IND·임상승인 여부가 개발 스케줄과 사업화 가능성을 좌우합니다."
+      },
+      {
+        "factor": "시장성장",
+        "detail": "글로벌 바이오의약품 시장 성장성은 장기적 수요와 파트너십 기회에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 사업의 내용 요약",
+        "evidence_text": "2010년에 설립한 바이오벤처기업입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "기술이전: 719,650 (15.3%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 사업의 내용 요약",
+        "evidence_text": "NEST (Novel Epitope Screening Technology)가 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5351,
+    "completion_tokens": 4793,
+    "reasoning_tokens": 4096,
+    "output_tokens": 697
+  },
+  "warnings": []
+}

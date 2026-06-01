@@ -1,0 +1,92 @@
+{
+  "stock_code": "472850",
+  "corp_name": "폰드그룹",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 20:36",
+  "meta": {
+    "wics": "섬유,의류,신발,호화품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "폰드그룹은 2023년 12월 28일 코웰패션의 패션사업부문을 인적분할하여 설립된 의류·유통 전문 기업입니다. 언더웨어·레포츠/패션 의류·잡화 등 해외 브랜드 라이선스(사용권) 기반의 기획·디자인·제조·유통을 주력으로 하며, 2025년 연결 기준 매출액 4,856억 원을 기록했습니다.",
+    "business_model": "핵심 수익은 패션사업(매출의 86.0%)이며, 화장품사업(13.4%), 플랫폼사업(0.5%)이 보조적 역할을 합니다. 자체 생산시설 없이 전량 외주 생산(임가공)으로 제조하고 홈쇼핑·E-커머스·백화점 등 온·오프라인 유통채널을 통해 판매하는 것이 비즈니스의 기본 구조입니다.",
+    "main_customers": "패션사업 — 홈쇼핑·E-커머스(온라인)·백화점·아울렛·면세점·단독매장(유통채널) / 화장품사업 — 화장품 유통채널(온라인·면세 등) / 플랫폼사업 — 라이브 커머스 등 온라인 판매 플랫폼 채널",
+    "price_factors": [
+      {
+        "factor": "온라인 성장",
+        "detail": "온라인 시장 확대는 홈쇼핑·E-커머스 채널 매출 비중에 직접적인 영향을 미쳐 실적 변동성을 키울 수 있습니다."
+      },
+      {
+        "factor": "원자재·환율",
+        "detail": "주요 원재료 가격과 환율 변동은 제품 원가와 마진에 즉각적인 영향을 미칩니다."
+      },
+      {
+        "factor": "계절성·경기",
+        "detail": "의류 수요는 계절성과 경기 변동에 민감해 특정 시즌에 매출이 집중되거나 경기 침체 시 매출이 감소할 수 있습니다."
+      },
+      {
+        "factor": "브랜드 확보",
+        "detail": "글로벌 브랜드 IP 확보 및 인수는 국내외 매출 성장과 브랜드 인지도에 중요한 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 의류 제조 및 도소매업을 주력 사업으로 하며,"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "패션사업: 417,808 (86.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "화장품사업: 65,183 (13.4%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "플랫폼사업: 2,578 (0.5%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "다양한 유통채널을 통해 판매하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "온라인 시장이 급속도로 확대되고 있으며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "원재료 가격은 환율과 원자재 시세에 따라 변동될 수 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "의류 패션 산업은 경기 변동과 계절적 요인에 영향을 받습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "수퍼드라이는 전 세계적으로 높은 인지도를 가진 브랜드로,"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5225,
+    "completion_tokens": 5041,
+    "reasoning_tokens": 4032,
+    "output_tokens": 1009
+  },
+  "warnings": []
+}

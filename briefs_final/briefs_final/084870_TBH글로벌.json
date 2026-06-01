@@ -1,0 +1,82 @@
+{
+  "stock_code": "084870",
+  "corp_name": "TBH글로벌",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 06:29",
+  "meta": {
+    "wics": "섬유,의류,신발,호화품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "TBH글로벌은 한국에서 패션사업을 영위하는 기업으로, 마인드브릿지·쥬시쥬디 등 브랜드 제품을 외주(아웃소싱)로 생산해 직접 판매합니다. 연결 대상 종속회사 청산 등으로 현재 모회사의 영업 비중이 높은 상태에서 백화점·가두점·쇼핑몰·상설할인점·온라인·홈쇼핑 등 다양한 유통채널을 통해 유통됩니다.",
+    "business_model": "사업부문별로 2025회계연도 영업수익은 온라인이 28.1%로 가장 큰 비중을 차지하고, 홈쇼핑 12.6%, 직거래 7.7%, 수출 0.1%로 구성되어 있습니다. 생산은 전량 아웃소싱으로 이루어지며 자체 브랜드·직수입·라이선스 브랜드를 직영 또는 위탁 방식으로 판매하는 유통 중심의 수익 구조입니다.",
+    "main_customers": "홈쇼핑 — 홈쇼핑 이용 일반 소비자 / 온라인 — 온라인 쇼핑 이용 소비자 / 수출 — 해외 바이어 및 유통업체 / 직거래 — 백화점·가두점 등 유통업체",
+    "price_factors": [
+      {
+        "factor": "소비심리",
+        "detail": "국내 소비심리 위축 시 매출과 영업이익이 직접적으로 위축될 수 있습니다."
+      },
+      {
+        "factor": "환율",
+        "detail": "환율 상승은 매출원가율을 높여 수익성에 부담을 줄 수 있습니다."
+      },
+      {
+        "factor": "온라인비중",
+        "detail": "온라인 채널 매출 증가는 전반적 시장 둔화 속에서 실적 차별화 요인이 됩니다."
+      },
+      {
+        "factor": "제품수명",
+        "detail": "패션제품의 수명이 짧아 기획·디자인·신제품 출시 속도가 실적에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "MD&A",
+        "evidence_text": "당사는 한국에서 패션사업을 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "온라인: 47,955,215 (28.1%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "MD&A",
+        "evidence_text": "모든 생산은 아웃소싱을 통하여 이루어지고 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "MD&A",
+        "evidence_text": "백화점, 가두점, 쇼핑몰, 상설 할인점 및 온라인, 홈쇼핑"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "MD&A",
+        "evidence_text": "소비심리 위축, 구매력 둔화"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "영업 현황",
+        "evidence_text": "환율 상승 및 재고평가충당금 증가"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 1) 패션산업의 특성",
+        "evidence_text": "제품의 수명이 매우 짧습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4058,
+    "completion_tokens": 4850,
+    "reasoning_tokens": 4032,
+    "output_tokens": 818
+  },
+  "warnings": []
+}

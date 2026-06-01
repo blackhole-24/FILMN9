@@ -1,0 +1,81 @@
+{
+  "stock_code": "217590",
+  "corp_name": "티엠씨",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 12:28",
+  "meta": {
+    "wics": "조선",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "티엠씨는 선박·해양 산업용 고신뢰 케이블을 중심으로 다양한 산업용 케이블을 생산·공급하는 기업으로, 조선·해양 분야에서 축적된 기술력을 바탕으로 전력 및 통신 인프라 분야로 사업 영역을 확대하고 있습니다. 원전, 데이터센터, 전력 인프라 등으로 사업 포트폴리오를 넓히며 특수환경용 케이블 기술을 기반으로 성장하려는 전략을 갖고 있습니다.",
+    "business_model": "사업부문별 FY2025 기준 제품 매출이 232,353(89.0%), 상품 매출이 21,890(11.0%)로 구성되어 있어 제품(제조) 중심의 매출 구조가 핵심입니다. 선박·해양 케이블을 주력으로 하되 KEPIC 등 인증 확보와 특허 기반 기술로 원전·전력·데이터센터용 케이블과 광케이블 등으로 적용 분야를 확대하고 있습니다.",
+    "main_customers": "선박·해양 케이블 — 국내외 조선소 및 해양 관련 산업 / 전력·통신 인프라 케이블 — 발전소·산업 설비·데이터센터",
+    "price_factors": [
+      {
+        "factor": "인증 규격",
+        "detail": "국제·국내 선급·인증 요건 충족 여부가 납품 가능성과 수주에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "원자재 가격",
+        "detail": "구리·알루미늄·절연재 등 주요 원자재 가격 변동이 제품 단가와 마진에 직접 영향을 줍니다."
+      },
+      {
+        "factor": "조선업 수주",
+        "detail": "조선·해양 프로젝트 발주량 변화는 선박·해양 케이블 수요에 직결되어 실적 변동 요인이 됩니다."
+      },
+      {
+        "factor": "데이터센터 수요",
+        "detail": "AI·클라우드 등 데이터센터 확대로 광케이블·전력 인프라 수요가 증가하면 관련 제품 수요가 확대됩니다."
+      },
+      {
+        "factor": "진입장벽",
+        "detail": "고신뢰성·특수환경 대응 기술과 납품 실적, 인증 확보가 중요해 신규 경쟁 진입이 제한적입니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "고신뢰 케이블을 중심으로 다양한 산업용 케이블을 생산·공급"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "제품: 232,353 (89.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "상품: 21,890 (11.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "국내외 조선소 및 해양 관련 산업에 공급"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "원전 산업 진출을 위해 KEPIC 인증을 취득"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "국제 선급 인증을 필수적으로 요구"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4645,
+    "completion_tokens": 3497,
+    "reasoning_tokens": 2624,
+    "output_tokens": 873
+  },
+  "warnings": []
+}

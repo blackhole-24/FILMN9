@@ -1,0 +1,62 @@
+{
+  "stock_code": "086670",
+  "corp_name": "비엠티",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 06:37",
+  "meta": {
+    "wics": "기계",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "비엠티는 산업용 정밀 피팅·밸브와 전기·통신 자재를 제조·생산하는 기계·장비 기업입니다. 피팅/밸브사업부는 배관자재를, 전기사업부는 분전반·배전반 및 지능형전력감시·통제시스템 등 전기자재를 주로 생산하여 반도체·IT·조선·발전 등 산업설비에 공급하고 있습니다.",
+    "business_model": "사업은 제품(FITTING, VALVE 등)과 상품(전기통신자재) 판매가 중심이며, 매출 구성은 FITTING 43.36%, VALVE 26.58%, 상품 21.32%, 기타 8.11%·0.63%로 구성되어 있습니다. 고기술·고품질의 정밀 피팅·밸브 공급과 전기·통신 자재 생산이 핵심 수익원입니다.",
+    "main_customers": "피팅/밸브 — 반도체·IT·조선/해양플랜트·발전(원자력)·석유가스 플랜트 등 산업설비 업체 / 전기사업부 — 공장·건물(분전반·배전반·전력감시·통제시스템 수요처)",
+    "price_factors": [
+      {
+        "factor": "진입장벽",
+        "detail": "높은 진입장벽으로 신규 경쟁이 제한되어 기술 우위 유지 여부가 실적 안정성에 영향합니다."
+      },
+      {
+        "factor": "기술력",
+        "detail": "고도의 기술력과 경험이 요구되므로 기술경쟁력 저하는 시장점유율과 수익성에 부정적 영향을 줍니다."
+      },
+      {
+        "factor": "납기관리",
+        "detail": "납기관리 능력이 주요 경쟁요소로, 납기 지연 시 수주 감소 및 평판 악화로 이어질 수 있습니다."
+      },
+      {
+        "factor": "전방산업",
+        "detail": "반도체·조선·발전 등 다양한 전방산업 수요에 따라 매출 변동성이 발생할 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 산업의 특성 등",
+        "evidence_text": "전기 및 통신 자재의 생산을 주된 사업으로 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 매출 (원문 테이블)",
+        "evidence_text": "63,335,145(43.36%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 산업의 특성 등",
+        "evidence_text": "국내 외 반도체, IT, 조선/해양플랜트,"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3213,
+    "completion_tokens": 4077,
+    "reasoning_tokens": 3392,
+    "output_tokens": 685
+  },
+  "warnings": []
+}

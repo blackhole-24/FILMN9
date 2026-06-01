@@ -1,0 +1,86 @@
+{
+  "stock_code": "314930",
+  "corp_name": "바이오다인",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 16:11",
+  "meta": {
+    "wics": "건강관리장비와용품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "바이오다인은 액상세포검사(LBC) 장비와 암진단용 시약 키트의 개발·제조·판매를 주력으로 하는 국내 의료기기 기업입니다. 블로윙(Blowing) 기술 기반의 제품화를 통해 글로벌 특허를 확보했고 일본·러시아·포르투갈·태국 등 전 세계 13개국에 수출하고 있습니다.",
+    "business_model": "주요 수익은 시약 키트(소모품) 중심으로 발생하며, FY2025 기준 LBC진단시약 키트가 89.5%, LBC 장비가 5.3%, 기타가 5.2%를 차지합니다 (사업부문별 영업수익 구성). 장비 판매로 설치된 고객 기반에서 시약 키트의 반복구매로 지속적인 매출이 발생하고, 로슈(Roche)와의 라이선스·공급 계약을 통해 로열티 및 글로벌 판매 확대가 예정되어 있습니다.",
+    "main_customers": "LBC진단시약 키트 — 병원 및 검진센터 / LBC 장비 — 검진센터·병원(대형 검사처 중심) / 기타 — 기존 거래처·파트너사",
+    "price_factors": [
+      {
+        "factor": "시즌성",
+        "detail": "연말 건강검진 수요 증가 시 시약 키트 주문이 4분기에 다소 상승하는 경향이 있어 분기별 실적 변동성에 영향합니다."
+      },
+      {
+        "factor": "소모품 반복매출",
+        "detail": "장비를 보유한 거래처에서 시약 키트가 지속적으로 발생해 안정적인 매출 기반(잦은 재구매)이 됩니다."
+      },
+      {
+        "factor": "규제·인허가 기간",
+        "detail": "체외진단 의료기기는 인허가에 오랜 시간이 소요되므로 신제품 도입 시기와 매출 인식 시점에 영향을 줍니다."
+      },
+      {
+        "factor": "특허 경쟁구도",
+        "detail": "기존 침전식·필터식 방식이 강력한 특허로 보호되는 시장구조에서 독자적 특허 보유는 기술적 우위와 진입장벽을 좌우합니다."
+      },
+      {
+        "factor": "글로벌 파트너십",
+        "detail": "로슈와의 라이선스·판매 계약 및 VENTANA SP400 공개·출시로 글로벌 판매 및 로열티가 실적에 직접적인 영향요인이 됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 영업 현황",
+        "evidence_text": "당사의 핵심 사업 분야는 액상세포검사(LBC - Liquid Based Cytology) 장비 및 암진단을 목적으로 하는 시약 키트의 개발, 제조, 판매입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "LBC진단시약 키트: 6,257 (89.5%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "LBC 장비: 291 (5.3%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 가. 제품 라인업 및 주요 특징",
+        "evidence_text": "이러한 블로윙 전용 시약 키트는 당사의 LBC 장비를 구매하여 사용하고 있는 병원 및 검진센터로 지속적으로 추가 매출을 발생시킴으로써,"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "국내의 경우에는 연말에 건강검진 수요가 집중되면서 병원 및 검진센터 암진단을 목적으로 하는 시약 키트 주문이 4분기에 다소 증가하는 경향을 보이기도 합니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁력 : 블로윙 기술(Blowing Technology)",
+        "evidence_text": "당사는 블로윙 기술(Blowing Technology)이라는 독자적인 기술을 바탕으로 글로벌 특허를 획득하였으며,"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "로슈(ROCHE)는 당사와 체결한 판매 및 라이선스 본 계약을 통해 당사의 핵심 특허인 '블로윙 테크놀로지(Blowing Technology)' 기술을 바탕으로 개발된 ‘VENTANA SP400'이 최초로 공개 및 출시되어 시장의 큰 주목을 받았습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5270,
+    "completion_tokens": 4086,
+    "reasoning_tokens": 2944,
+    "output_tokens": 1142
+  },
+  "warnings": []
+}

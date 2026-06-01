@@ -1,0 +1,78 @@
+{
+  "stock_code": "091340",
+  "corp_name": "S&K폴리텍",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 07:08",
+  "meta": {
+    "wics": "전자장비와기기",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "S&K폴리텍은 폴리우레탄 폼시트, SMT를 통한 FPCA 생산, 자동차용 와이퍼 블레이드 생산·판매 등 3개 사업부문을 가진 전기·전자 계열의 부품소재 기업입니다. 폼시트(NANOCELL 브랜드)는 IT기기 충격흡수 소재로, SMT부문은 스마트폰용 FPCA를 생산해 디스플레이 및 스마트폰 제조사에 납품하는 공급망에 참여하고 있습니다.",
+    "business_model": "핵심 사업부문은 폴리우레탄 폼시트(충격흡수용 IT소재), SMT부문(FPCA 생산)과 자동차용 와이퍼 블레이드이며, 각 부문별로 제품을 생산·판매하면서 매출을 창출합니다. 폼시트는 NANOCELL 브랜드로 전자업체에 납품되고, SMT부문 제품은 삼성디스플레이에 납품되어 OLED패널과 결합된 후 최종 스마트폰 제조사에 전달되는 공급 구조입니다.",
+    "main_customers": "폴리우레탄폼시트 — 삼성, LG 등 전자제품 업체 및 중화권 전자업체 / SMT부문 — 삼성디스플레이 및 최종 스마트폰 제조사(삼성전자 및 중화권 업체) / 와이퍼부문 — 애프터마켓(일반 소비자 및 유통 채널)",
+    "price_factors": [
+      {
+        "factor": "IT수요",
+        "detail": "휴대폰·디스플레이 등 전방 산업 수요 변동이 폼시트와 FPCA 수요에 직접적으로 영향을 미칩니다."
+      },
+      {
+        "factor": "디스플레이수요",
+        "detail": "OLED·TSP 등 디스플레이 기술·판매가 줄면 SMT(FPCA) 매출에 영향을 줍니다."
+      },
+      {
+        "factor": "고객집중",
+        "detail": "삼성디스플레이·대형 전자업체 등 주요 거래처 의존도가 높아 해당 고객의 수요 변화가 실적에 민감하게 작용합니다."
+      },
+      {
+        "factor": "환경규제",
+        "detail": "유해화학물질관리법 등 환경 관련 법규 준수 비용 및 관리가 사업 운영에 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "환율·유가",
+        "detail": "전방 산업인 휴대폰 산업은 국제유가, 환율 등 세계 경기변동에 의해 수요가 영향을 받아 간접적 실적 요인이 됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사와 연결종속회사(이하 연결회사)는 충격흡수용 부품소재로 IT부품 산업에 속해 있는 폴리우레탄 폼시트 사업부문과  표면실장기술을 활용하여 스마트폰에 사용되는 FPCA를 생산 및 판매하는 SMT사업부문과 자동차용 와이퍼 블레이드의 생산 및  판매 사업을 영위하는 와이퍼 사업부문으로 구성되어 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "폴리우레탄 폼시트 사업부문 (지배회사: 에스엔케이폴리텍(주))",
+        "evidence_text": "당사는 폴리올과 기타 화학원료를 혼합하여 고밀도 폴리우레탄 폼시트를 생산하고 있으며,"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "폴리우레탄 폼시트 사업부문 (지배회사: 에스엔케이폴리텍(주))",
+        "evidence_text": "당사의 제품은 휴대폰, OLED(LCD)등 IT제품의 충격흡수용 부품소재로 적용되어,국내에는 삼성, LG 등 전자제품 업체와 중화권 업체 등에 납품 되고 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "SMT 사업부문 : 주식회사 캐프(구 주식회사 엔피디)",
+        "evidence_text": "종속회사의 제품은 스마트폰 디스플레이 패널 구동을 위한 필수적인 부품으로 삼성디스플레이에 납품되어 OLED패널과 결합(압착)된 후, 최종 스마트폰 제조사인 삼성전자 및 중화권 업체(화웨이, Oppo, Vivo, Xiaomi 등)에 납품됩니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "다. 환경관련 규제사항",
+        "evidence_text": "보고서 제출일 현재 환경문제와 관련하여 사업상 특이한 사항은 없습니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4367,
+    "completion_tokens": 5487,
+    "reasoning_tokens": 4352,
+    "output_tokens": 1135
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

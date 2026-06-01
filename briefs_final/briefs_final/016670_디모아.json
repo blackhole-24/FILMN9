@@ -1,0 +1,66 @@
+{
+  "stock_code": "016670",
+  "corp_name": "디모아",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 21:52",
+  "meta": {
+    "wics": "소프트웨어",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "디모아는 Microsoft, Adobe, Ahnlab, PTC, Unity, Zoom 등 글로벌 소프트웨어 제품과 서비스를 파트너를 통해 국내 기업·공공·교육기관에 공급하는 소프트웨어 유통 회사입니다. 2022년 3월에 종속회사 디모아를 흡수합병하는 등 파트너 기반의 국내 유통망을 중심으로 영업을 전개하고 있습니다.",
+    "business_model": "핵심 사업은 소프트웨어 유통으로, 사업부문별 매출에서 '소프트웨어사업부문'이 100%를 차지합니다(소프트웨어 유통을 주선하는 대리인으로서 매출은 순액으로 인식됨). 전국 약 2,000여 파트너(Reseller)를 통해 최종고객에게 라이선스(소프트웨어 사용권)와 관련 서비스·기술지원을 제공하는 방식이 수익 창출의 핵심입니다.",
+    "main_customers": "소프트웨어사업부문 — 전국의 중소기업·대학교·초·중·고등학교·사교육기관 및 공공·교육기관",
+    "price_factors": [
+      {
+        "factor": "파트너 의존도",
+        "detail": "전국 약 2,000여 파트너를 통한 유통 구조상 파트너사 모집·이탈이 실적에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "교육·공공 수요",
+        "detail": "대학·초중고·사교육기관 등 교육기관과 공공 부문에 대한 수요 변동이 매출에 민감하게 작용합니다."
+      },
+      {
+        "factor": "클라우드·SW 트렌드",
+        "detail": "클라우드·AI·빅데이터 등 소프트웨어 수요 확대는 제품 판매와 서비스 수익에 긍정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "환율 변동",
+        "detail": "외환 변동은 금융상품과 손익에 영향을 미칠 수 있어 환위험 관리 상태가 실적 변동성에 영향을 줍니다."
+      },
+      {
+        "factor": "정품 사용 확산",
+        "detail": "정품 사용 권장 및 고객 교육 활동은 라이선스 판매의 안정성과 채권 회수에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 영업 현황",
+        "evidence_text": "회사는 MicroSoft, Adobe, Ahnlab,  PTC, Unity, Zoom 등이 제공하는 제품과 서비스 및 용역을 파트너를 통하여 국내 기업, 공공기관, 교육기관에 공급 하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "소프트웨어사업부문 | 23,062,358,194 | 100"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 영업 현황",
+        "evidence_text": "회사는 전국 25만여 중소기업과 400여 개의 대학교"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4859,
+    "completion_tokens": 2865,
+    "reasoning_tokens": 2112,
+    "output_tokens": 753
+  },
+  "warnings": []
+}

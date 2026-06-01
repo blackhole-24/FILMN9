@@ -1,0 +1,64 @@
+{
+  "stock_code": "219130",
+  "corp_name": "타이거일렉",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 12:32",
+  "meta": {
+    "wics": "반도체와반도체장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "타이거일렉은 1991년 신화산업(개인사업자)으로 설립된 인쇄회로기판(PCB) 전문업체로, 반도체 검사공정에서 사용하는 Rigid PCB를 주로 생산하는 기업입니다. 고다층(High-Multilayer)·고밀도(Fine Pitch) 기술을 중심으로 반도체 검사용 PCB 분야에 집중하고 있습니다.",
+    "business_model": "주요 제품은 Probe Card PCB, Load Board PCB, Socket Board PCB 및 Burn in Board PCB 등 반도체 검사용 PCB로, 검사장비(ATE)와 반도체 제품 간 신호전달용 인터페이스를 제조·판매하는 사업이 핵심입니다. 고다층·고밀도 설계 및 가공 역량을 바탕으로 반도체 후공정(검사공정)용 고성능 PCB를 공급합니다.",
+    "main_customers": "PROBE CARD — Wafer 검사장비(Probe Card) 관련 업체 / LOAD BOARD — 패키지 검사 및 Tester 관련 업체 / SOCKET BOARD — 패키지 테스트 관련 업체 / 일반 BOARD — 전자기기·검사장비 부품 수요처",
+    "price_factors": [
+      {
+        "factor": "전방 수요",
+        "detail": "반도체·IT 등 전방산업의 고속화·대용량화는 고성능·고밀도 PCB 수요에 직접 영향을 미칩니다."
+      },
+      {
+        "factor": "기술경쟁력",
+        "detail": "초고다층·고밀도 설계 기술 보유 여부가 고부가가치 제품 수주와 실적에 직결됩니다."
+      },
+      {
+        "factor": "생산능력(설비)",
+        "detail": "PCB 제조능력은 설비에 의해 좌우되므로 설비투자 및 가동률이 실적에 영향합니다."
+      },
+      {
+        "factor": "품질·인증",
+        "detail": "품질 신뢰성(예: ISO 인증) 확보 여부가 고객 수주와 거래 지속성에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 인쇄회로기판 전문업체로서"
+      },
+      {
+        "field": "business_model",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "검사공정에서 사용되는 PCB를 주로 생산하고 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 제품 설명 (가) Probe Card",
+        "evidence_text": "Probe Card는 Wafer 검사장비에 장착되어"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4010,
+    "completion_tokens": 3796,
+    "reasoning_tokens": 3136,
+    "output_tokens": 660
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

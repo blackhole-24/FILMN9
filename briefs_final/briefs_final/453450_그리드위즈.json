@@ -1,0 +1,88 @@
+{
+  "stock_code": "453450",
+  "corp_name": "그리드위즈",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 12:28",
+  "meta": {
+    "wics": "전기유틸리티",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "그리드위즈는 분산에너지 자원을 통합·운영하는 에너지 플랫폼 기업으로, 수요관리(DR), 전기차 충전(EM), ESS, 태양광(PV) 사업을 영위합니다. 당기말 연결기준 자산총계는 1,886억원이며, 데이터 기반 에너지 관리와 플랫폼 연계를 통해 전력계통의 유연성 확보를 목표로 하고 있습니다.",
+    "business_model": "핵심은 분산자원을 통합해 전력수급을 최적화하는 플랫폼 기반 에너지 관리 사업으로, 주요 사업은 수요관리(DR), 전기차 충전 인프라(EM), 에너지저장장치(ESS), 태양광(PV)입니다. 자체 개발한 수요관리시스템(PINE)과 모뎀·충전기 판매, 태양광 공사·운영관리 등 하드웨어 판매와 플랫폼·운영수수료가 결합된 수익구조를 가집니다. 최근 연결기준 매출은 1,256억원으로 DR 매출은 정산단가 하락 영향으로 감소했으나, E‑Mobility 완속충전기 판매와 태양광 공사 매출이 확대되었습니다.",
+    "main_customers": "DR — 산업용·상업용 등 전력 소비자 / EM — 충전사업자 및 전기차 이용자 / ESS — 전력시장 참여자·운영사업자 / PV — 태양광 발전소 건설·운영을 맡기는 발주처",
+    "price_factors": [
+      {
+        "factor": "정산단가 하락",
+        "detail": "수요자원거래(DR) 정산단가가 하락하면 DR 관련 매출이 줄어들어 실적에 부정적 영향을 줍니다."
+      },
+      {
+        "factor": "전력시장 규칙",
+        "detail": "전력거래소 규칙 및 제도 변경은 수요관리 참여 방식과 수익성에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "재생에너지 변동성",
+        "detail": "태양광·풍력 등 재생에너지 확대에 따른 계통 변동성 증가는 VPP(가상발전소)·DR 수요를 증가시킵니다."
+      },
+      {
+        "factor": "전기차 보급",
+        "detail": "전기차 보급과 V2G(양방향 충방전) 확산은 EM(전기차 충전) 사업의 확장 기회와 추가 서비스 수요를 촉진합니다."
+      },
+      {
+        "factor": "정부 정책",
+        "detail": "전력수급기본계획 등 정부의 에너지 전환 정책은 DR·ESS 보급 및 제도화 속도에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "분산에너지 자원을 통합적으로 관리·운영하는 에너지 플랫폼 사업을 중심으로"
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황",
+        "evidence_text": "① 수요관리(DR) 서비스 사업"
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황",
+        "evidence_text": "② 전기차 충전 인프라 사업(이모빌리티, EM)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "산업용 및 일반용(상업용) 전기소비자들입니다."
+      },
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "당기말 연결기준 자산총계는 1,886억원으로 전기말 대비 198억원 증가하였습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "당기 연결기준 매출액은 1,256억원으로 전기 대비 9억원 증가하였습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "수요자원거래(DR) 매출이 연간 정산단가 하락의 영향으로 감소하였으나"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 5884,
+    "completion_tokens": 4970,
+    "reasoning_tokens": 3904,
+    "output_tokens": 1066
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "stock_code": "0015G0",
+  "corp_name": "그린광학",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 17:35",
+  "meta": {
+    "wics": "우주항공과국방",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "그린광학은 초정밀 광학 시스템 개발·제조를 영위하는 광학 전문 기업으로, 정밀 광학 기술을 바탕으로 방산·디스플레이·반도체·우주항공 등 첨단 산업에 부품을 공급하고 있습니다. 또한 ZnS(황화아연) 국산화에 성공해 국내에서 유일하게 ZnS를 양산·수출하고 있습니다.",
+    "business_model": "주요 제품은 초정밀 광학 시스템과 광학 소재(ZnS)를 중심으로 구성되며, FY2025 사업부문별 영업수익은 초정밀 광학 시스템 52.0%, 디스플레이 20.4%, 반도체 5.5%, 우주항공 6.5%, 기타 4.0%, 광학 소재(ZnS) 11.6%, 기타매출 0.1%로 분포되어 있습니다. 핵심 수익원은 정밀 가공·연마·코팅 기술을 적용한 광학계(Seeker Dome 등)와 ZnS 등 광학 소재 제품입니다.",
+    "main_customers": "초정밀 광학 시스템 — 방산, 디스플레이, 반도체, 우주항공 등 첨단 산업 / 광학 소재(ZnS) — 방산(유도무기 Seeker Dome) 및 해외 수입업체(수출처 표기: 이스라엘·미국·일본)",
+    "price_factors": [
+      {
+        "factor": "전략물자 규제",
+        "detail": "수출허가·전략물자 규제가 강화되면 해외 수출과 매출에 제약이 생겨 실적 변동성이 커질 수 있습니다."
+      },
+      {
+        "factor": "디스플레이 수요",
+        "detail": "글로벌 OLED 시장 성장에 따라 디스플레이용 광학 부품 수요가 늘어나 매출에 긍정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "방산 수출 의존",
+        "detail": "ZnS 등 방산용 소재의 수출이 매출에 기여하므로 방산 수주·수출 상황이 실적에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "환율 변동",
+        "detail": "달러·유로·엔화 등 외화 노출이 있어 환율 변동 시 손익과 기업가치 변동성이 커질 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "초정밀 광학 시스템 개발 및 제조 사업을 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "당사의 주요 제품은 크게 ① 초정밀 광학 시스템, ② 광학 소재(ZnS)로 구분될 수 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "나. 주요 제품 등의 내용",
+        "evidence_text": "당사가 제작하는 다양한 형상의 광학 부품은 방산, 디스플레이, 반도체, 우주항공 등 첨단 산업분야에서 사용되고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "법률/규정 등의 규제사항",
+        "evidence_text": "초정밀 광학 산업은 기술 집약도와 전략적 중요성이 높은 산업인 만큼"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5418,
+    "completion_tokens": 3843,
+    "reasoning_tokens": 3008,
+    "output_tokens": 835
+  },
+  "warnings": []
+}

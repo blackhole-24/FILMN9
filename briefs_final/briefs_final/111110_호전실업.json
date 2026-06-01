@@ -1,0 +1,62 @@
+{
+  "stock_code": "111110",
+  "corp_name": "호전실업",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 08:42",
+  "meta": {
+    "wics": "섬유,의류,신발,호화품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "호전실업은 1985년 3월 설립된 섬유제품 제조·판매 기업으로, 스포츠웨어 및 특수기능성 아웃웨어 분야의 글로벌 브랜드를 대상으로 OEM(주문자상표부착생산) 방식으로 의류를 공급합니다. 본사는 서울 마포구에 위치하며 인도네시아에 3개의 생산공장과 1개의 현지영업법인을 운영하고 있습니다.",
+    "business_model": "주요 사업은 제품(의류) 제조·수출로 구성되며, 사업부문별 영업수익에서 '제품'이 100.0%를 차지합니다. (OEM: 주문자상표부착생산 — 브랜드로 판매될 제품을 수주 받아 해외·국내에서 원부자재를 조달하고 해외생산법인에서 완제품을 생산·수출하는 구조)",
+    "main_customers": "제품 — 글로벌 스포츠웨어·기능성 아웃웨어 브랜드(예: The North Face, Under Armour, VF, Athleta, Lululemon, Arcteryx)",
+    "price_factors": [
+      {
+        "factor": "관세·환율",
+        "detail": "관세와 환율 변동은 수익성(매출총이익·당기순이익)에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "바이어의존",
+        "detail": "20여개 글로벌 Top 브랜드로부터의 오더에 따라 실적이 좌우됩니다."
+      },
+      {
+        "factor": "경기변동",
+        "detail": "의류 소비는 GDP와 소비성향에 민감해 경기 둔화 시 실적 악화가 발생할 수 있습니다."
+      },
+      {
+        "factor": "해외규제",
+        "detail": "인도네시아 현지법과 외국환·관세 관련 규제는 생산·수출 활동에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "당사는 1985년 3월에 설립되어 섬유제품의 제조 및 판매를 주요 사업으로 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "제품: 520,736 (100.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "당사가 거래하고 있는 고객사는 스포츠웨어와 특수기능성 아웃웨어 분야의 유명 글로벌 브랜드입니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4244,
+    "completion_tokens": 3530,
+    "reasoning_tokens": 2880,
+    "output_tokens": 650
+  },
+  "warnings": []
+}

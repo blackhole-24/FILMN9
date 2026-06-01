@@ -1,0 +1,81 @@
+{
+  "stock_code": "015590",
+  "corp_name": "DKME",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 21:41",
+  "meta": {
+    "wics": "기계",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "DKME는 열교환기·압력용기·TOWER 등 화공기기를 주력으로 제작하는 기업으로, 사업보고서상 화공기기 단일 부문으로 구성되어 있습니다. 사업부문별 원문 표에 따르면 화공기기 매출액은 133,412이며 비중은 100.00%입니다.",
+    "business_model": "주문방식에 의한 100% 수주제품(프로젝트별 맞춤 설계)이 핵심 사업모델이며, 주요 제품은 열교환기 등 화공기기입니다. 화공사업부문 매출은 수주 시점으로부터 통상 1년 후 매출로 인식되며(프로젝트 기반 수익 인식), 단일 부문(화공기기)이 매출의 100%를 차지합니다.",
+    "main_customers": "화공기기 부문 — 대형 EPC(Engineering Procurement Construction)사·국내외 엔지니어링 업체 / 발주처(정유·화학 플랜트 운영사 및 석유화학사)",
+    "price_factors": [
+      {
+        "factor": "국제유가",
+        "detail": "국제유가 변동은 석유화학·정유 플랜트 투자와 수요에 직접 연동되어 실적 변동을 초래할 수 있습니다."
+      },
+      {
+        "factor": "수주사이클",
+        "detail": "플랜트 프로젝트 중심의 수주(대형 EPC 주도) 특성상 발주량의 순환에 따라 매출·이익이 크게 달라집니다."
+      },
+      {
+        "factor": "원가상승",
+        "detail": "원자재 가격과 인건비 상승은 제품 가격 변동성을 증가시켜 마진에 부정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "저가경쟁",
+        "detail": "중국·인도 등 저비용국가의 경쟁력 강화는 가격 경쟁 압력을 높여 수주환경에 영향합니다."
+      },
+      {
+        "factor": "환율",
+        "detail": "국제 거래 비중으로 인해 환율 변동(달러·유로 등)이 매출 및 원가에 영향을 미칠 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "다. 사업부문별 현황",
+        "evidence_text": "당사는 열교환기를 주력으로 생산하는 화공기기 부문으로 구성되어 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "나. 주요 제품 등의 가격변동추이 > (1) 산출기준",
+        "evidence_text": "당사는 주문방식에 의한 100% 수주제품을 생산하며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 매출 (원문 테이블)",
+        "evidence_text": "비율 100.00"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "다. 사업부문별 현황 > (1) 산업의 특성",
+        "evidence_text": "국내외 유수의 엔지니어링 업체를 통해 수주가 이루어지고"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "다. 사업부문별 현황 > (3) 경기변동의 특성",
+        "evidence_text": "석유화학산업은 국제유가와 석유 소비량/생산량과 밀접한 관련이 있으며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "라. 환율변동 영향",
+        "evidence_text": "외환위험에 노출되어 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4836,
+    "completion_tokens": 4150,
+    "reasoning_tokens": 3264,
+    "output_tokens": 886
+  },
+  "warnings": []
+}

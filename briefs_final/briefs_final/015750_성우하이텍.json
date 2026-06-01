@@ -1,0 +1,67 @@
+{
+  "stock_code": "015750",
+  "corp_name": "성우하이텍",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 21:42",
+  "meta": {
+    "wics": "자동차부품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "성우하이텍은 1977년 설립된 자동차 차체부품 전문 제조업체로, 현대자동차·기아·한국GM 등 국내 완성차업체를 주요 고객으로 두고 해외법인을 통해 VW·BMW·GM 등에도 부품을 공급하고 있습니다. 연구개발에 집중하여 약 1,900여건의 특허를 출원했고, 2021년 '소재 부품 장비 으뜸기업'으로 선정되는 등 기술력 기반의 글로벌 부품사로 자리매김하고 있습니다.",
+    "business_model": "핵심 사업은 자동차 차체 관련 부품의 설계·제조이며, FY2025 기준 제품매출이 41.6%를 차지합니다. 지역별 매출은 중국 6.3%, 유럽 26.2%, 인도 9.0%, 북미 15.4%로 구성되며(상품매출 0.4%, 기타매출 1.6%), 기술집약적 제조(경량화용 알루미늄·CFRP 등 신소재 적용)와 완성차사 납품을 통한 B2B 수익구조가 핵심입니다.",
+    "main_customers": "차체부품 — 현대자동차·기아자동차·한국GM (국내 완성차업체) / 해외공급 — VW·BMW·GM 등 (해외 완성차업체)",
+    "price_factors": [
+      {
+        "factor": "완성차 생산량",
+        "detail": "완성차 업계의 생산량 변동은 납품 물량과 매출에 직접 영향을 줍니다."
+      },
+      {
+        "factor": "원자재비",
+        "detail": "철강·비철금속 등 원자재 가격 상승은 제조원가를 높여 실적에 부담을 줄 수 있습니다."
+      },
+      {
+        "factor": "기술경쟁력",
+        "detail": "경량화 신소재·신공법 보유 여부가 수주 경쟁력과 시장점유율에 영향을 미칩니다."
+      },
+      {
+        "factor": "해외현지화",
+        "detail": "해외 생산·현지법인 가동 시 수출환경·환율·현지수요 변화에 따른 매출 변동성이 나타납니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "(가) 영업개황",
+        "evidence_text": "1977년 설립된 주식회사 성우하이텍"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "(가) 영업개황",
+        "evidence_text": "주요 매출처로는 현대자동차, 기아자동차, 한국GM 등이며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "제품매출: 2,478,096,888 (41.6%)"
+      },
+      {
+        "field": "market_share",
+        "source_section": "(2) 시장점유율",
+        "evidence_text": "Bumper rail은 경쟁사가 없으며 거의 독점적인 위치"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 6025,
+    "completion_tokens": 2682,
+    "reasoning_tokens": 1920,
+    "output_tokens": 762
+  },
+  "warnings": []
+}

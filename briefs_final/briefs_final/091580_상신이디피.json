@@ -1,0 +1,71 @@
+{
+  "stock_code": "091580",
+  "corp_name": "상신이디피",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 07:10",
+  "meta": {
+    "wics": "전기제품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "상신이디피는 전기·전자 분야의 CAN(원형·중대형) 및 2차전지 관련 부품을 주력으로 하는 기업으로, 2025년 연결 기준 누적 매출액은 2,500억원을 기록했고 영업이익은 적자에서 흑자 전환하여 86억원을 기록했습니다. 상신하이텍의 2차전지 생산·판매 중단은 별도로 중단영업으로 처리하고 있습니다.",
+    "business_model": "사업부문별로 매출은 CAN(중대형)이 56.4%로 가장 큰 비중을 차지하며, ENERGY(2차전지류)가 32.1%, 기타 7.3%, 상품 4.2%로 구성되어 있습니다(영업수익 구성 기준). 주력 제품인 원형·중대형 CAN은 전기차(EV), ESS(에너지저장장치), 가전 등 다양한 최종 수요처에 납품되며, 매출은 제품 믹스와 환율에 민감하게 반응합니다.",
+    "main_customers": "원형(CAN) — 전기차(EV), 가전제품, 태블릿PC, 노트북, 전동공구, BBU / 중대형(CAN) — 전기차(EV), ESS(에너지저장장치) / 기타·상품 — 별도 명시된 최종 사용처 없음",
+    "price_factors": [
+      {
+        "factor": "제품믹스",
+        "detail": "고단가·저단가 제품 비중 변화에 따라 평균단가와 매출이 변동하여 실적에 직접 영향."
+      },
+      {
+        "factor": "환율",
+        "detail": "CAN 단가는 환율에 연동되어 환율 변동 시 매출원가와 매출액에 영향을 미칩니다."
+      },
+      {
+        "factor": "전기차수요",
+        "detail": "전기차 수요는 보조금 및 경기 사이클 변화에 민감하여 매출 변동성을 높입니다."
+      },
+      {
+        "factor": "ESS 성장",
+        "detail": "신재생 확대와 데이터센터 전력수요 증가로 ESS 시장은 구조적 수요를 제공하여 중장기 실적을 뒷받침합니다."
+      },
+      {
+        "factor": "북미정책",
+        "detail": "미국의 중국산 배제·고관세 조치 등 정책은 북미 생산거점의 점유율 확대 기회이자 경쟁 환경 변화를 초래합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사의 2025년 누적 매출액은 2,500억원"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "원형(CAN)의 경우 매출액의 32%를 차지"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "중대형(CAN)의 경우 56%를 차지하고 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "전기차(EV), 가전제품, 태블릿PC, 노트북, 전동공구, BBU(Battery Backup Unit)"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3714,
+    "completion_tokens": 4807,
+    "reasoning_tokens": 3968,
+    "output_tokens": 839
+  },
+  "warnings": []
+}

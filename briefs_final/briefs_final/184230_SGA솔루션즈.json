@@ -1,0 +1,71 @@
+{
+  "stock_code": "184230",
+  "corp_name": "SGA솔루션즈",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 11:02",
+  "meta": {
+    "wics": "소프트웨어",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "SGA솔루션즈는 통합보안 솔루션 전문 기업으로, 보안 운영체제(Secure OS)를 기반으로 서버·클라우드·제로트러스트 등 IT 시스템 전반을 보호하는 솔루션을 제공합니다. 디지털 전환과 클라우드 중심의 IT환경 변화 속에서 차세대 보안 시장 대응과 글로벌 진출 기반 마련을 추진하고 있습니다.",
+    "business_model": "FY2025 기준 사업부문별 매출 구성은 솔루션 28.0%, 용역 19.2%, 유통 23.1%, 투자 34.6%입니다. 핵심 비즈니스는 Secure OS 기반의 서버보안과 Cloud Workload Protection Platform(CWPP, 클라우드 워크로드 보호 플랫폼) 기반 클라우드보안, 엔드포인트·제로트러스트(Zero Trust) 등 통합 보안 솔루션 제공이며, 종속회사를 통한 IT 인프라 유통 및 운영·유지보수로 매출 다변화를 추구하고 있습니다.",
+    "main_customers": "솔루션 — 금융·공공기관 및 기업 고객 / 용역 — IT 인프라 운영·유지보수 수요처 / 유통 — IT 인프라 도입 기업·기관 / 투자 — 투자 파트너 및 연계사업 대상",
+    "price_factors": [
+      {
+        "factor": "AI공격",
+        "detail": "생성형 AI 등을 악용한 자동화된 사이버 공격 확산 시 보안 솔루션 수요와 관련 투자 확대가 실적에 긍정적 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "클라우드전환",
+        "detail": "기업·공공기관의 클라우드 전환 가속화는 CWPP·컨테이너 보안 등 클라우드보안 제품 수요 증가로 연결됩니다."
+      },
+      {
+        "factor": "제로트러스트",
+        "detail": "제로 트러스트(Zero Trust) 기반 통합보안 수요 확대는 당사의 통합 보안 아키텍처 경쟁력과 수주에 직접적 영향을 줍니다."
+      },
+      {
+        "factor": "규제·표준",
+        "detail": "글로벌 보안 규제·인증 강화는 국제규격 준수 능력이 있는 기업에 수출·공공 수주 기회를 제공할 수 있습니다."
+      },
+      {
+        "factor": "경쟁심화",
+        "detail": "국내 정보보호 기업 간 기술 경쟁 및 시장 경쟁 심화는 가격·영업조건 압박으로 수익성에 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "보안 운영체제(Secure OS)를 기반으로 한 서버보안, 클라우드보안"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "당사는 Cloud Workload Protection Platform(CWPP) 기반 보안 솔루션을 통해"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "솔루션: 17,230,285 (28.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "금융·공공기관을 중심으로 보안 수요 확대에 대응하여 주요 고객 기반을 지속적으로 확보하였으며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5569,
+    "completion_tokens": 3734,
+    "reasoning_tokens": 2880,
+    "output_tokens": 854
+  },
+  "warnings": []
+}

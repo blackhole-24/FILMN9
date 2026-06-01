@@ -1,0 +1,62 @@
+{
+  "stock_code": "446840",
+  "corp_name": "지슨",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 19:45",
+  "meta": {
+    "wics": "소프트웨어",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "지슨은 전파(RF) 분석 및 열원 분석 기술을 기반으로 무선 기반 보안 위협을 탐지·분석하는 무선보안 솔루션을 개발·공급하는 보안 기술 기업입니다. 소프트웨어·하드웨어·네트워크·관제 시스템을 자체 개발하여 연구개발부터 제조·공급까지 직접 수행합니다.",
+    "business_model": "단일 사업부문인 무선보안솔루션을 중심으로 제품 판매와 유지보수를 통해 수익을 창출하며, 제품은 상시형·이동형·관제형 등 다양한 형태로 공급됩니다. FY2025 사업부문별 영업수익 구성은 Alpha-S·Alpha-I 등 44.4%, Alpha-H 7.3%, Alpha-C 16.4%, 유지보수 등 31.8%입니다.",
+    "main_customers": "무선도청 보안 — 공공기관·금융기관·주요 기업 / 무선백도어 해킹 보안 — 금융기관·군·반도체·발전사 통합관제센터 / 불법촬영 보안 — 공중화장실·학교·공공시설 및 민간기업",
+    "price_factors": [
+      {
+        "factor": "공공 수요",
+        "detail": "공공기관과 주요 산업 인프라 중심의 안정적 수요로 인해 경기 변동과 무관하게 실적의 기초적 안정성이 영향을 받습니다."
+      },
+      {
+        "factor": "융합보안",
+        "detail": "물리보안과 정보보안이 결합되는 융합보안 수요 확대로 무선 기반 탐지 솔루션의 시장 기회가 확대됩니다."
+      },
+      {
+        "factor": "AI 확산",
+        "detail": "AI 기술 적용에 따른 자동화·정밀화로 제품 경쟁력이 강화되면 영업 효율성과 수익성에 긍정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "보안사고 인식",
+        "detail": "대규모 사이버 침해·유출 사례로 보안 투자가 증가하면 단기적 수요 확대 및 장기적 수주 기회가 늘어날 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "무선보안 솔루션을 개발·공급하는 보안 기술 기업입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "Alpha-S, Alpha-I 등: 5,015 (44.4%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "공공기관, 금융기관 및 주요 기업의 보안시설"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 6196,
+    "completion_tokens": 3249,
+    "reasoning_tokens": 2560,
+    "output_tokens": 689
+  },
+  "warnings": []
+}

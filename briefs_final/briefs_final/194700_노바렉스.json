@@ -1,0 +1,72 @@
+{
+  "stock_code": "194700",
+  "corp_name": "노바렉스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 11:25",
+  "meta": {
+    "wics": "건강관리업체및서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "노바렉스는 2008년 설립된 건강기능식품 전문 제조업체로, 기능성 원료 연구·개발부터 생산·수출입까지 영위합니다. 자회사 포함 총 47건의 개별인정 원료를 보유한 점을 강점으로 2025년 연간 매출 4,000억 원을 돌파하며 역대 최대 실적을 기록했습니다.",
+    "business_model": "매출 대부분은 건강기능식품 완제품 판매에서 발생하며, 2025년 기준 제품 매출이 전체의 99.29%를 차지합니다(상품 0.62%, 기타 0.09%). 핵심 수익원은 자사 보유의 개별인정 원료를 활용한 제품 생산과 ODM/OEM(제조자개발생산·주문자생산) 중심의 B2B 제조 서비스입니다.",
+    "main_customers": "제품 — 완제품을 공급받아 판매하는 유통·브랜드사 및 최종 소비자 / ODM·OEM — 제품 생산을 의뢰하는 브랜드·제조회사",
+    "price_factors": [
+      {
+        "factor": "R&D역량",
+        "detail": "개별인정 원료 등록을 위한 연구개발 능력이 경쟁력으로, 신원료 확보 여부가 실적과 제품 차별화에 직접적 영향을 줍니다."
+      },
+      {
+        "factor": "원재료가격",
+        "detail": "주요 원재료는 시장 변화에 따라 변동하므로 원재료 비용 상승은 제조원가와 수익성에 즉시 영향을 미칩니다."
+      },
+      {
+        "factor": "생산시설",
+        "detail": "오송 제2공장 증설·오창 리모델링 등 생산능력 증강 계획이 수요 대응력과 매출 성장성에 중요합니다."
+      },
+      {
+        "factor": "해외수요",
+        "detail": "글로벌 매출이 확대되고 있어 해외 수요 변동은 실적에 중요한 변수로 작용합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용",
+        "evidence_text": "자회사 포함 총 47건의 국내 최대 개별인정 원료를 보유하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "건강기능식품 제품 401,407,844 99.29"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용",
+        "evidence_text": "당사는 개별인정 원료를 바탕으로 ODM/OEM 사업에 앞장서고 있으며,"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "당사는 업계 내 가장 많은 개별인정원료를 확보하고 있으며,"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "해외 매출이 처음으로 매출 1억달러 달성을 기록하였습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3818,
+    "completion_tokens": 5182,
+    "reasoning_tokens": 4416,
+    "output_tokens": 766
+  },
+  "warnings": []
+}

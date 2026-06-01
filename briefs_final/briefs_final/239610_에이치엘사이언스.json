@@ -1,0 +1,72 @@
+{
+  "stock_code": "239610",
+  "corp_name": "에이치엘사이언스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 13:28",
+  "meta": {
+    "wics": "건강관리업체및서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "에이치엘사이언스는 바이오 헬스케어 신소재·신기술 연구 중심의 기술플랫폼 기업으로, 식약처 개별인정원료 CDMO(원료 위탁개발·생산) 사업과 건강기능식품·건강지향식품 개발·제조·유통을 주력으로 영위하고 있습니다. 자사 CMO 스마트팩토리(HL INNOVATION PARK)를 기반으로 원천기술 확보와 DTC(개인 직접판매) 유전자검사 기반 맞춤형 헬스케어 사업까지 연결하는 통합적인 밸류체인을 구축하고 있습니다.",
+    "business_model": "제26기 기준 매출은 건강기능식품이 약 55.5%, 건강지향식품이 약 39.6%, 기타가 약 4.9%를 차지하며(합계 100%), 건강기능식품 판매가 주된 수익원입니다. 핵심은 식약처 개별인정원료 CDMO·CMO 생산(스마트팩토리)을 통한 제조수익과 B2B ODM(기업 대상 원료·완제품 제공), 자사 브랜드의 B2C 판매 및 DTC 유전자검사 기반 맞춤형 헬스케어 서비스의 결합입니다.",
+    "main_customers": "건강기능식품 — 일반 소비자(홈쇼핑·디지털 채널 포함) / 건강지향식품 — 일반 소비자(온라인·오프라인) / OEM·ODM(원료·완제품) — 기업 고객(B2B) / DTC 유전자검사·맞춤형 헬스케어 — 개인 소비자",
+    "price_factors": [
+      {
+        "factor": "경쟁 심화",
+        "detail": "건강기능식품 제조사가 500여개 이상 존재하는 산업 특성상 가격·마진 경쟁 심화가 실적에 부담을 줄 수 있습니다."
+      },
+      {
+        "factor": "생산 인프라",
+        "detail": "HL INNOVATION PARK 등 스마트팩토리의 가동률과 CDMO 수주 성과가 매출과 이익률에 직접 영향을 미칩니다."
+      },
+      {
+        "factor": "특허·기술력",
+        "detail": "국내외 다수 특허(48건 등록)는 제품 차별화와 원료 독점성 확보로 수익성에 긍정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "자산손상",
+        "detail": "유형자산 손상차손 인식으로 2025년 영업·순손실이 발생했듯이 자산평가 관련 이슈가 실적 변동성을 확대합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 바이오 헬스케어 신소재·신기술 연구 중심의 기술플랫폼 기업으로,"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 국내 최초 식약처 개별인정원료 CDMO 사업에 진출하여"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "건강기능식품 9,273,707"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "B2C 유통채널을 확대하고 있으며,"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "2025년말 연결기준 매출은 167억원으로 전년대비 5.4% 감소하였습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4349,
+    "completion_tokens": 4892,
+    "reasoning_tokens": 3968,
+    "output_tokens": 924
+  },
+  "warnings": []
+}

@@ -1,0 +1,72 @@
+{
+  "stock_code": "199480",
+  "corp_name": "뱅크웨어글로벌",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 11:35",
+  "meta": {
+    "wics": "IT서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "뱅크웨어글로벌은 은행 및 금융회사를 대상으로 코어시스템 소프트웨어를 공급하는 금융 소프트웨어 전문기업으로, 국내외 100여 금융기관에 소프트웨어와 토탈 솔루션을 제공해 온 기술 기반의 IT 서비스 회사입니다. 설립 이후 연평균 30.66%의 높은 매출성장을 기록하며 글로벌 금융 소프트웨어 시장에서 성장 중입니다.",
+    "business_model": "FY2025 기준 사업부문별 영업수익 구성은 SW MA 9.7%, SaaS 10.7%, SWSI 49.1%, AMS 25.8%입니다. 기본적으로 소프트웨어 라이선스 판매와 대형 시스템 구축(SWSI)을 통해 초기 일회성 매출을 확보하고, SW MA(소프트웨어 유지보수), SaaS(구독형 서비스), AMS(Application Management Service, 애플리케이션 운영관리)를 통해 다년간 반복되는 ARR(반복매출)을 창출하는 구조입니다.",
+    "main_customers": "SW MA — 기존 라이선스 보유 금융기관(은행·카드 등) / SaaS — 해외 금융사(중국 자동차금융, 일본 신용카드·지방은행, 동남아 중소형 은행) / SWSI — 제1금융권 및 공공기관 등 대형 시스템 구축 수주처 / AMS — 기존 고객의 애플리케이션 운영·관리(금융기관·기업·공공기관)",
+    "price_factors": [
+      {
+        "factor": "디지털전환",
+        "detail": "금융기관의 디지털 전환 수요 증가에 따라 코어뱅킹 솔루션 도입 및 고도화 수주에 영향 — 수요 확대 시 실적 호조 가능"
+      },
+      {
+        "factor": "클라우드·SaaS",
+        "detail": "클라우드·SaaS 전환 확대는 구독형 매출(SaaS)과 AMS 비중 확대에 긍정적이나 마이그레이션 비용·경쟁 압력도 동반"
+      },
+      {
+        "factor": "수주계절성",
+        "detail": "고객사의 투자계획이 하반기에 집중되는 경향으로 매출·수주가 분기별로 편중될 수 있음"
+      },
+      {
+        "factor": "정책·지정학",
+        "detail": "글로벌 지정학 이슈·환율·정책 불확실성은 금융산업 투자 결정과 수주 환경에 변동성을 야기할 수 있음"
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "금융 소프트웨어 전문 기업입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "SWSI: 31,148 (49.1%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황",
+        "evidence_text": "다년간의 반복적인 매출(ARR)이 발생하는 경향이 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "은행, 증권, 카드, 캐피탈 등 금융 산업 전반을 커버하는"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나. 사업부문의 시장 여건 및 영업의 개황 (1) 산업의 특성",
+        "evidence_text": "클라우드, 빅테이터, 인공지능(AI)과 같은 기술 채택이 증가하고 있으며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5206,
+    "completion_tokens": 4002,
+    "reasoning_tokens": 3136,
+    "output_tokens": 866
+  },
+  "warnings": []
+}

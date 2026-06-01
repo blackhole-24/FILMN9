@@ -1,0 +1,86 @@
+{
+  "stock_code": "129260",
+  "corp_name": "인터지스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 13:38",
+  "meta": {
+    "wics": "해운사",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "인터지스는 지난 70년간 항만운영 노하우를 바탕으로 항만하역, 육상운송, 해상운송 및 포워딩 사업을 영위하는 종합 물류회사입니다. 2025년 연결기준 매출액은 7,090억원으로 주요 항만과 국내외 물류 네트워크를 기반으로 사업을 운영하고 있습니다.",
+    "business_model": "주요 사업부문은 하역(19.8%), 운송(30.6%), 해운(27.8%), 포워딩(13.9%), 기타(7.9%)로 구성되어 있으며, 각 부문이 결합된 포트폴리오로 매출을 창출합니다. 하역은 항만 터미널 운영과 야적·후가공 서비스를, 운송은 컨테이너·벌크 육상운송을, 해운은 정기·부정기선 운항을 통해 수익을 확보하며 포워딩은 국내외 3PL(제3자 물류) 고객 대상의 운송·통관 서비스를 제공합니다.",
+    "main_customers": "하역 — 철강재·일반 잡화·특수화물을 취급하는 화주 / 운송 — 전 산업군의 화물 보유 기업(제조·수출입 기업 등) / 해운 — 철강 화물 및 곡물·철광석·석탄 등 원자재를 운송하는 선사·화주 / 포워딩 — 국내외 3PL(제3자 물류) 고객 및 수출입 기업",
+    "price_factors": [
+      {
+        "factor": "물동량",
+        "detail": "국제 교역량(물동량) 변동은 하역·운송·해운 전 부문 실적에 직결되어 매출 변동성을 키울 수 있습니다."
+      },
+      {
+        "factor": "유가",
+        "detail": "유가(연료비) 상승은 운송·해운 원가를 높여 영업이익에 부정적 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "환율",
+        "detail": "해외 영업 비중으로 환율 변동은 수익성(원화 환산 실적)에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "환경규제",
+        "detail": "친환경 규제(ESG) 강화는 친환경 선박·장비 투자 수요를 높여 비용구조와 자본지출에 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "디지털화",
+        "detail": "스마트 물류·디지털 전환 투자 수준은 운영효율과 경쟁력에 영향을 미쳐 장기 실적에 기여할 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "당사의 2025년 연결기준 매출액은 7,090억원입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "하역: 140,843 (19.8%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "운송: 208,761 (30.6%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "해운: 211,386 (27.8%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "포워딩: 74,945 (13.9%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "기타: 73,044 (7.9%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 주요 제품 및 서비스의 내용 (1) 하역사업",
+        "evidence_text": "철강재, 일반 잡화, 특수화물 등 다양한 화물의 특성에 맞춘"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5675,
+    "completion_tokens": 4579,
+    "reasoning_tokens": 3584,
+    "output_tokens": 995
+  },
+  "warnings": []
+}

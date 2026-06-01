@@ -1,0 +1,72 @@
+{
+  "stock_code": "039340",
+  "corp_name": "한국경제TV",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 01:07",
+  "meta": {
+    "wics": "방송과엔터테인먼트",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "한국경제TV는 국내 경제 전문 채널 '한국경제TV'를 기반으로 방송사업과 투자정보 플랫폼을 주력으로 운영하는 미디어·정보기업입니다. 방송·투자정보·기타 부대사업 등 3개 부문으로 구성되어 있으며, 지분 기준으로 총 800억원 규모의 자산을 보유하고 있습니다.",
+    "business_model": "사업부문별 매출비중은 방송사업 48.8%, 투자정보사업 47.1%, 기타부문 4.1%로 구성되어 있습니다. 방송사업은 광고수익과 시청료(방송채널 사용)를 중심으로 수익을 창출하고, 투자정보사업은 와우넷·주식창 등 증권정보 플랫폼을 통해 플랫폼·콘텐츠 기반 수익을 냅니다(기타부문은 교육·의결권 대행·콘텐츠 유통 등).",
+    "main_customers": "방송사업 — 광고주 및 유료시청 가입자(케이블·IPTV 등) / 투자정보사업 — 국내 증시 참여자(와우넷·주식창 이용자) / 기타부문 — 교육 참가자, 주주총회 의결권 대행 수요자 및 공연·전시 관람객",
+    "price_factors": [
+      {
+        "factor": "광고경기 민감",
+        "detail": "국내외 경기 둔화 시 방송광고 수익이 줄어들어 방송부문 실적에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "유료가입자 변동",
+        "detail": "유료시청 가입자 수의 증감이 방송부문 매출 변동으로 연결되며 IPTV 등 플랫폼 성장 추이가 중요합니다."
+      },
+      {
+        "factor": "뉴미디어 경쟁",
+        "detail": "뉴미디어 광고시장의 확대는 전통적 방송광고의 매출 하방 압력으로 작용할 수 있습니다."
+      },
+      {
+        "factor": "광고 계절성",
+        "detail": "광고시장에 계절적 요인이 있으나 방송과 인터넷(정보서비스) 두 축으로 실적 변동성은 상대적으로 완화됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "방송사업과 투자정보사업을 주력사업으로 하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "방송사업부문 48.8%, 투자정보사업부문 47.1%, 기타부문 4.1%"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "와우넷과 주식창(모바일 어플리케이션)으로 대표되고 있으며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "2024년말 기준 방송광고는 전년대비 7.4% 감소하였습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "1. 방송사업 : 방송채널사용사업(케이블TV)",
+        "evidence_text": "유료시청 가입자수는 최근 완만하게 성장을 이어가고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5125,
+    "completion_tokens": 4074,
+    "reasoning_tokens": 3264,
+    "output_tokens": 810
+  },
+  "warnings": []
+}

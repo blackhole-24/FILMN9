@@ -1,0 +1,67 @@
+{
+  "stock_code": "025550",
+  "corp_name": "한국선재",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 23:04",
+  "meta": {
+    "wics": "철강",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "한국선재는 아연도금철·강선 및 스테인리스강선의 생산·판매와 철강재 유통을 주력으로 하는 지배회사입니다. 당사는 고품질 제품을 중심으로 일본을 포함한 수출시장(유럽·미주·중국 등) 확대에 주력하고 있으며, 종속회사로 한선엔지니어링·기성금속·한국선재재팬 등을 보유하고 있습니다.",
+    "business_model": "핵심 사업은 아연도금철·강선과 스테인리스강선의 제조·판매 및 유통이며, 고부가가치 제품(내열강·니켈얼로이강 등) 개발과 종속회사를 통한 밸브류 등 플랜트용 자재 생산·판매가 수익을 뒷받침합니다. 제공된 매출 구성 중 기타 항목은 0.8%(기타: 157,775,200 (0.8%))로 기재되어 있습니다.",
+    "main_customers": "아연도금철·강선 — 산업용 제조업체·관급 조달 / 스테인리스강선 — 항공기·자동차·전기·전자·기계·반도체 등 제조업체 / 자회사(밸브·배관자재) — 조선·해양플랜트·정유·발전설비 관련 기업",
+    "price_factors": [
+      {
+        "factor": "저가수입",
+        "detail": "중국·베트남산 저가제품의 수입은 국내 내수시장 경쟁을 심화시켜 판매가격과 마진에 압력을 가합니다."
+      },
+      {
+        "factor": "원자재가격",
+        "detail": "스테인리스 원자재(니켈·크롬 등) 가격 변동은 제품 원가와 마진에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "환경규제",
+        "detail": "미국 IRA·EU CBAM 등 환경·무역 규제는 무역비용 및 생산비 상승 요인으로 작용할 수 있습니다."
+      },
+      {
+        "factor": "해외수요",
+        "detail": "신재생(풍력)·해저케이블 등 해외 인프라 수요 증가는 수출 확대와 매출에 긍정적 영향을 미칠 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "나. 사업부문별 현황 및 영업개황",
+        "evidence_text": "수출부문은 높은 품질수준을 요구하는 일본 시장의 판매신장에 힘입어 유럽 , 미주 , 중국 등에 수출을 확대하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "기타: 157,775,200 (0.8%)"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나. 사업부문별 현황 및 영업개황",
+        "evidence_text": "철강업계는 현재 복합적이고 전례 없는 위기에 직면해 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 업계의 현황",
+        "evidence_text": "스테인리스 와이어는 항공기 , 자동차 , 전기 , 전자 , 기계 , 반도체등 다양한 산업 분야에 적용 되므로"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4654,
+    "completion_tokens": 5242,
+    "reasoning_tokens": 4416,
+    "output_tokens": 826
+  },
+  "warnings": []
+}

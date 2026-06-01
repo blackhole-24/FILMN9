@@ -1,0 +1,72 @@
+{
+  "stock_code": "451220",
+  "corp_name": "아이엠티",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 19:49",
+  "meta": {
+    "wics": "반도체와반도체장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "아이엠티는 건식세정 장비, 레이저 열처리 응용 장비, 반도체 화학 분석 장비 및 첨단 산업용 소재·부품을 제조·판매하는 기업으로, 반도체·디스플레이·모바일 등 첨단산업에 적용되는 장비와 부품을 주로 공급하고 있습니다. 2025년 연결기준 매출액은 329억원으로 전년 대비 큰 폭으로 성장했으며(연결매출 32,944백만원), 글로벌 제조사 대상 기술협력과 납품 실적을 보유하고 있습니다.",
+    "business_model": "당사는 장비 부문(건식세정·레이저 열처리·분석장비)이 매출의 약 24.9%를 차지하고, 소재·부품(MLC(Multi Layer Ceramic), Coil 등)이 매출의 약 75.1%를 차지하여 두 축으로 수익을 창출하고 있습니다. 건식 세정(화학약품을 사용하지 않는 세정방법)과 레이저 기반 공정 기술을 중심으로 반도체의 고난도 공정 수요에 대응하는 장비와 부품을 공급하는 구조입니다.",
+    "main_customers": "장비 — 글로벌 반도체·디스플레이·이차전지·PCB·전자부품 제조사 / 소재·부품 — 반도체 검사장비용 부품(프로브카드용 MLC) 및 스마트폰 카메라용 Coil을 사용하는 모바일 부품 제조사",
+    "price_factors": [
+      {
+        "factor": "기술력",
+        "detail": "반도체 장비 산업은 가격보다 장비 성능과 기술력이 경쟁력을 좌우하므로 기술력 확보가 수주와 실적에 직접적 영향을 미칩니다."
+      },
+      {
+        "factor": "업황(수요)",
+        "detail": "반도체 업황(메모리·패키징 등)의 경기 변동에 따라 장비와 부품의 수요가 크게 변동합니다."
+      },
+      {
+        "factor": "HBM·패키징",
+        "detail": "HBM(High Bandwidth Memory) 등 적층·첨단 패키징 기술의 확대는 건식 세정 등 고정밀 장비 수요를 증가시킵니다."
+      },
+      {
+        "factor": "공급망·지정학",
+        "detail": "글로벌 공급망 변화 및 지정학적 리스크는 납기·원가 및 해외 양산(예: 베트남) 운영에 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 - 2. 영업의 현황",
+        "evidence_text": "당사는 건식세정 장비 사업, 레이저 열처리 응용 장비 사업"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 - 2. 영업의 현황",
+        "evidence_text": "장비 부문 매출은 약 82억원으로 전체 매출의 약 24.9%를 차지하고"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 - 2. 영업의 현황",
+        "evidence_text": "소재ㆍ부품 부문 매출은 약 247억원으로 전체 매출의 약 75.1%를 차지합니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 - 2. 영업의 현황",
+        "evidence_text": "주요 글로벌 반도체, 디스플레이, 이차 전지 및 PCB, 전자부품 제조사"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "장비 성능과 기술력이 경쟁력을 좌우하는 특징"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4791,
+    "completion_tokens": 5219,
+    "reasoning_tokens": 4288,
+    "output_tokens": 931
+  },
+  "warnings": []
+}

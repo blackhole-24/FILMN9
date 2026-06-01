@@ -1,0 +1,64 @@
+{
+  "stock_code": "009160",
+  "corp_name": "SIMPAC",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 20:16",
+  "meta": {
+    "wics": "비철금속",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "SIMPAC은 프레스와 합금철(페로알로이) 등을 주력으로 하는 비철금속 계열 기업으로, 대형·정밀 프레스 제작과 합금철 생산을 기반으로 한 제조업체입니다. 회사는 오랜 기술 축적을 바탕으로 해외시장 진출과 글로벌 완성차·부품사 대상 영업을 전개해 왔습니다.",
+    "business_model": "주요 사업부문은 프레스, 합금철/Roll, 트레이딩, 자동차 부품 및 산업기계, 임대 및 기타로 구성됩니다. 프레스 부문은 제품 설계에서 고객 공정까지 참여하는 엔지니어링·설비 공급형 사업 특성을 가지며, 합금철 부문은 철강 제련·전기강판 생산에 필요한 원료 공급을 통해 수익을 창출합니다. 임대 및 환경서비스 부문은 매출 비중이 미미하다고 보고되어 있습니다.",
+    "main_customers": "프레스 — 완성차 업체 및 자동차 부품사, 전자·가전 설비 투자처 / 합금철/Roll — 제철소·철강 제조업체(전기강판 생산업체) / 트레이딩 — 세부 고객 미기재 / 자동차 부품 및 산업기계 — 완성차 업체 및 산업용 설비업체 / 임대 및 기타 — 세부 고객 미기재",
+    "price_factors": [
+      {
+        "factor": "전방산업 투자",
+        "detail": "자동차·가전 업종의 설비투자 사이클 변동에 따라 수주와 실적이 직접 영향을 받습니다."
+      },
+      {
+        "factor": "전기차 수요",
+        "detail": "전기차 보디·배터리 케이스용 대형·고속 프레스 수요 증가가 프레스 매출에 긍정적 영향을 미칩니다."
+      },
+      {
+        "factor": "인증·규격",
+        "detail": "유럽·미국 시장 진출을 위해 CE-MARK·OSHA-MARK 등 인증 확보 여부가 수출 기회에 영향을 줍니다."
+      },
+      {
+        "factor": "경쟁·품질",
+        "detail": "프레스 시장은 완전경쟁 상태로 품질·납기·서비스 경쟁력이 실적에 중요한 변수입니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "프레스 부문 (5) 경쟁력",
+        "evidence_text": "당사는 1973년부터 프레스를 전문적으로 생산하고 있으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "합금철 부문 (1) 산업의 특성",
+        "evidence_text": "합금철은 철강산업에서 양질의 철강을 생산하기위해 필수적인 원료입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "합금철 부문",
+        "evidence_text": "임대 및 환경서비스 사업부문은 당사 매출액에서 차지하는 비중이 미미하여 기재하지 않습니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4272,
+    "completion_tokens": 4958,
+    "reasoning_tokens": 4224,
+    "output_tokens": 734
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

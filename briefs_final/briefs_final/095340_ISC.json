@@ -1,0 +1,81 @@
+{
+  "stock_code": "095340",
+  "corp_name": "ISC",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 07:33",
+  "meta": {
+    "wics": "반도체와반도체장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "ISC는 본사인 ISC를 중심으로 4개의 생산 및 판매법인으로 구성된 글로벌 반도체 테스트 부품 기업으로, 주력 제품은 반도체 칩 테스트에 사용되는 테스트 소켓입니다. 실리콘 소켓에서 높은 점유율을 보유하며 국내외 팹리스·빅테크 등을 고객으로 공급하고 있습니다.",
+    "business_model": "핵심은 테스트 소켓(실리콘 소켓·포고핀 소켓·번인 소켓) 생산으로, 실리콘 소켓이 매출의 큰 축을 담당합니다(실리콘 소켓은 ISC 매출의 80%를 차지). 2025년 인수한 장비·소재 사업을 통해 테스트 장비·케미컬 등을 포함한 통합(Test Solution) 포트폴리오를 완성하여 장비·소켓·소재 일체화 매출을 확대하고 있습니다.",
+    "main_customers": "실리콘 소켓 — 글로벌 빅테크·팹리스·OSAT·ASIC 등 / 포고핀 소켓 — 글로벌 스마트폰 고객사(AP·SoC 제조사) / 번인 테스트 소켓 — 메모리 및 비메모리 반도체 제조사 / 장비·소재(테스트솔루션) — 반도체 장비·부품·제조사 및 캡티브 고객사",
+    "price_factors": [
+      {
+        "factor": "AI 수요",
+        "detail": "AI 반도체 수요 증가는 고부가 하이엔드 테스트 소켓 수요를 늘려 실적에 긍정적 영향을 미칩니다."
+      },
+      {
+        "factor": "생산량 연동",
+        "detail": "테스트 소켓 시장 규모는 반도체 생산량과 연계되어 생산 증가 시 시장과 실적이 동반 성장합니다."
+      },
+      {
+        "factor": "제품 구색(고부가)",
+        "detail": "대부분 주문제작 제품으로 초기 높은 부가가치가 형성되어 일반적 가격 하락 리스크가 상대적으로 작습니다."
+      },
+      {
+        "factor": "수요 사이클",
+        "detail": "스마트폰·PC·차량용 반도체 등 전방 산업의 제품 출시·수요 사이클이 특정 제품군 매출에 직접 영향합니다."
+      },
+      {
+        "factor": "환율 리스크",
+        "detail": "판매·구매에 따른 환위험 노출로 환율 변동은 실적에 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "당사는 본사인 ISC를 거점으로 총 4개의 생산 및 판매법인으로 구성된 글로벌 반도체 테스트 부품 기업입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "(1) 테스트 소켓",
+        "evidence_text": "당사의 주력사업은 반도체 칩을 테스트하는 반도체테스트 소켓입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "(1) 테스트 소켓",
+        "evidence_text": "실리콘 소켓은 ISC 매출의 80%를 차지하며 글로벌 실리콘 소켓 시장에서 ISC의 점유율은 90% 수준으로 평가받고 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "현재 글로벌 빅테크, 팹리스, OSAT, ASIC 기업들에 다양한 어플리케이션에 적용가능한 AI반도체 테스트 소켓을 공급하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "MD&A / 환위험",
+        "evidence_text": "연결실체는 판매 및 구매 등에 따른 환위험에 노출되어 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "(2) 장비소재 사업",
+        "evidence_text": "당사는 25년 2분기 ... 아이세미, Tech Dream을 인수하였습니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4866,
+    "completion_tokens": 3653,
+    "reasoning_tokens": 2688,
+    "output_tokens": 965
+  },
+  "warnings": []
+}

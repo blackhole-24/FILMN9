@@ -1,0 +1,77 @@
+{
+  "stock_code": "333620",
+  "corp_name": "엔시스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 16:45",
+  "meta": {
+    "wics": "전자장비와기기",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "엔시스는 2006년 ㈜엔시스 법인을 설립한 전기·전자 분야 제조업체로, 창업자는 2002년 개인기업 '나이스 텍비전'을 기반으로 사업을 시작했습니다. 주력은 2차전지(리튬 이차전지) 생산 공정 전반에 적용되는 머신비전 검사장비(자동화된 시각 검사 장비)와 셀·모듈 제조 설비의 주문제작·납품입니다.",
+    "business_model": "사업부문별 영업수익은 제품이 56.2%, 용역(서비스 제공)이 43.8%를 차지하며, 설비검사장비는 0.7%, 기타 0.2%로 구성됩니다. 핵심 수익원은 2차전지 생산 공정별 '머신 비전 검사 장비'의 주문제작 및 Set up·양산대응(납품과 서비스)입니다.",
+    "main_customers": "제품 — 국내·해외 2차전지 제조업체(국내: LG에너지솔루션, 삼성SDI, SK온 등) / 설비검사장비 — 2차전지 제조업체 / 용역 — 2차전지 제조업체 및 관련 기업",
+    "price_factors": [
+      {
+        "factor": "설비투자 사이클",
+        "detail": "주요 고객사의 생산설비 투자 축소나 지연 시(예: LGES·삼성SDI 투자 지연) 매출 감소로 연결됩니다."
+      },
+      {
+        "factor": "고객집중도",
+        "detail": "대형 배터리 제조사에 대한 매출 의존도가 높아 특정 고객의 발주중단·자금문제(예: 금양 사태) 발생 시 실적과 채권회수에 직접적 영향을 줍니다."
+      },
+      {
+        "factor": "기술집약성",
+        "detail": "전해질·분리막·셀설계 등 복합적 기술이 필요한 산업 특성상 기술력 확보 여부가 수주 경쟁력에 결정적입니다."
+      },
+      {
+        "factor": "시장변동성",
+        "detail": "글로벌 소수 승자 중심의 경쟁구도와 수요 변동성으로 인해 수익성과 투자 리스크가 크게 변동할 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "2006년 ㈜엔시스 법인을 설립하였습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "머신 비전 검사 장비"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "제품: 27,465 (56.2%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "국내 업체로는 LG에너지솔루션, 삼성SDI, SK온 등이 있으며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "변동성이 매우 크며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "기술 집약적 산업입니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5070,
+    "completion_tokens": 4117,
+    "reasoning_tokens": 3264,
+    "output_tokens": 853
+  },
+  "warnings": []
+}

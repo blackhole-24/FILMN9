@@ -1,0 +1,72 @@
+{
+  "stock_code": "078070",
+  "corp_name": "유비쿼스홀딩스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 05:44",
+  "meta": {
+    "wics": "통신장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "유비쿼스홀딩스는 2017년 인적·물적분할을 통해 지주회사(holding company) 체제로 전환한 회사로, 자회사 지분 보유를 통해 그룹을 관리하는 순수지주회사로 운영되고 있습니다. 2025년 연결기준 매출액은 1,556억원이며, 공정거래법상 기업집단으로 총 8개 계열사(상장사 2개사)를 보유하고 있습니다.",
+    "business_model": "주요 수익은 자회사로부터의 배당수익, 브랜드로열티(상표권 사용수익), 경영자문수수료 및 임대수익 등 지주사업(1.8%)에서 발생하며, 연결 매출의 대부분은 네트워크사업(74.8%)과 산업용보드제조업(22.0%)에서 창출됩니다. 이 외에 신기술금융사업(2.6%), 기술지원 및 제품판매(0.7%), 의료기기사업(0.1%)이 있어 다각적인 수익구조를 형성하고 있습니다.",
+    "main_customers": "지주사업 — 자회사·계열사 (배당·상표권수수료·경영자문·임대수익의 상대) / 네트워크사업 — 통신사업자 (KT, LGU+ 등) / 산업용보드제조업 — 고객유형 미기재 / 신기술금융사업 — 고객유형 미기재 / 의료기기사업 — 고객유형 미기재",
+    "price_factors": [
+      {
+        "factor": "자회사 실적",
+        "detail": "지주사업의 영업수익이 자회사 배당·수수료 등에 의존하므로 자회사 실적 변동은 지주사 실적에 직접적 영향을 미칩니다."
+      },
+      {
+        "factor": "통신사 수요",
+        "detail": "네트워크사업이 통신사업자(KT, LGU+ 등)의 가입자 망 구축 수요에 연결되어 있어 통신사 설비투자 변동이 실적에 민감하게 작용합니다."
+      },
+      {
+        "factor": "제품 가격",
+        "detail": "네트워크 제품의 판매단가는 모델별 사양에 따라 다양하므로 제품 믹스와 가격 변동이 매출·이익에 영향을 줍니다."
+      },
+      {
+        "factor": "지주 규제",
+        "detail": "공정거래법상의 지주회사 요건·적용 변경(예: 2021년 적용제외 통지)은 지배구조·활동 범위 및 보고·관리 측면에 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "MD&A (경영진 실적·전략 요약)",
+        "evidence_text": "매출액 1,556억원"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "공정거래법상 지주회사로 전환되었습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "네트워크사업: 116,437 (74.8%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "영업수익은 자회사 등으로부터의 배당수익"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "[네트워크사업부문 - ㈜유비쿼스]",
+        "evidence_text": "주요 제품은 KT, LGU+ 등 통신사업자들이"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5675,
+    "completion_tokens": 5444,
+    "reasoning_tokens": 4544,
+    "output_tokens": 900
+  },
+  "warnings": []
+}

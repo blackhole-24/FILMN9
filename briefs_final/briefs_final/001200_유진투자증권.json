@@ -1,0 +1,64 @@
+{
+  "stock_code": "001200",
+  "corp_name": "유진투자증권",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 17:19",
+  "meta": {
+    "wics": "증권",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "유진투자증권은 금융투자업자로서 디지털 기반 플랫폼 구축과 Digital Transformation을 추진하는 증권사입니다. 연결기준으로 2025회계연도 자산총계는 11조 490억원으로 전년 대비 증가하였습니다.",
+    "business_model": "주요 사업은 위탁매매업, 자기매매업, 장내외파생상품업, 선물중개업, 자산운용업 및 기타(유가증권 인수·주선, M&A 중개 등)로 구성되어 있습니다. 2025회계연도에는 지수 상승과 주식 매매 거래량 증가로 수수료 수익 확대 및 영업이익 개선이 있었습니다.",
+    "main_customers": "위탁매매업 — 개인·기관투자자 / 자기매매업 — 자기자본 기반 운용 관련 거래상대방(시장) / 장내외파생상품업 — 파생상품 거래 참여자 / 선물중개업 — 파생상품 거래 수탁·중개 대상자 / 자산운용업 — 간접투자기구 및 투자자문 의뢰자 / 기타 — 기업(유가증권 인수·주선, M&A 등)",
+    "price_factors": [
+      {
+        "factor": "거래량(수수료)",
+        "detail": "주식 매매 거래량 증가 시 위탁매매 수수료 수익이 직접적으로 증가합니다."
+      },
+      {
+        "factor": "경제상황",
+        "detail": "증권업은 국가 경제상황과 정치·사회 변수에 민감하게 반응하여 실적 변동성이 클 수 있습니다."
+      },
+      {
+        "factor": "파생상품 변동성",
+        "detail": "시장 불안정성(변동성) 확대 시 파생상품 거래량이 증가해 관련 수익이 늘어나는 경향이 있습니다."
+      },
+      {
+        "factor": "산업 테마(실적)",
+        "detail": "특정 산업(예: 반도체) 실적 개선 및 정책적 증시 부양은 지수 상승과 거래 활성화를 통해 실적에 긍정적 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "나. 사업의 세부 내용",
+        "evidence_text": "유진투자증권은 금융투자업자로서 디지털 기반 플랫폼 구축 및 Digital Transformation 혁신 등을 통해 고객의 니즈에 맞는 금융서비스를 제공하여 고객에게 최대의 이익을 드리는 금융회사가 되는 것을 목표로 합니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "나. 사업의 세부 내용",
+        "evidence_text": "주요비즈니스는 위탁매매업, 자기매매업, 장내외파생상품업, 선물중개업, 자산운용업, 기타의 6개 부문으로 운영되고 있으며, 각 부문별 내역은 다음과 같습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "나. 사업의 세부 내용 > 1. 위탁매매업",
+        "evidence_text": "개인, 기관투자자 등을 대상으로 제공하는 유가증권, 파생상품 등의 위탁매매"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 3268,
+    "completion_tokens": 4995,
+    "reasoning_tokens": 4224,
+    "output_tokens": 771
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

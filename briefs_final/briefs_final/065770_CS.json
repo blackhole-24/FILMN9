@@ -1,0 +1,77 @@
+{
+  "stock_code": "065770",
+  "corp_name": "CS",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 04:37",
+  "meta": {
+    "wics": "통신장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "씨에스는 이동통신중계기(전파를 증폭해 재방사하는 장치)를 단일 사업부문으로 운영하는 통신장비 전문기업입니다. 국내에서는 SK텔레콤 등 이동통신사업자를 주요 고객으로, 일본과 미국 등 해외 시장에서도 거래 및 진입을 추진하고 있습니다.",
+    "business_model": "매출은 통신장비(무선통신용 중계기) 판매와 개발·설치·유지보수 용역, 기타(상품 외 중계기관련 외)로 구성되며, 사업부문별 매출 비중은 통신장비 42.7%, 용역 6.7%, 기타 50.6%입니다. 핵심 수익원은 이동통신중계기 제품판매로, 고신뢰성·품질·A/S 능력이 공급선 선정에 중요한 차별요인입니다.",
+    "main_customers": "통신장비 — 이동통신사업자(SK텔레콤, NTT DoCoMo, Toshiba 등) / 용역 — 통신사업자(개발·설치·유지보수) / 기타 — 명시된 개별 고객은 없음",
+    "price_factors": [
+      {
+        "factor": "통신사업자 투자규모",
+        "detail": "통신사업자의 설비투자 확대·축소에 따라 매출 변동이 크며, 투자 축소 시 실적에 부정적 영향을 미칩니다."
+      },
+      {
+        "factor": "5G 전환·확산",
+        "detail": "5G 관련 장비 도입이 늘면 중계기 수요 증가로 직간접적 수혜가 발생합니다."
+      },
+      {
+        "factor": "해외시장 확장성",
+        "detail": "일본 등 기존 거래선과 미국 진입 노력의 성과에 따라 수출·매출 확대 가능성이 달라집니다."
+      },
+      {
+        "factor": "제품 신뢰성·A/S",
+        "detail": "중계기는 고신뢰성 요구 품목이라 품질과 A/S 역량이 수주 경쟁력에 직접 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 사업의 내용(요약)",
+        "evidence_text": "이동통신중계기를 단일사업부문으로 하고 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 사업의 내용(요약)",
+        "evidence_text": "SK텔레콤(SKT)과 일본시장에서는 NTT DoCoMo와 Toshiba"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[표] 가. 주요 제품 등의 내용",
+        "evidence_text": "15,134 | 42.7"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[표] 가. 주요 제품 등의 내용",
+        "evidence_text": "2,370 | 6.7"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[표] 가. 주요 제품 등의 내용",
+        "evidence_text": "17,903 | 50.6"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "국내외 통신사업자의 투자 축소로 인해 매출액이 감소하였으며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4679,
+    "completion_tokens": 4394,
+    "reasoning_tokens": 3584,
+    "output_tokens": 810
+  },
+  "warnings": []
+}

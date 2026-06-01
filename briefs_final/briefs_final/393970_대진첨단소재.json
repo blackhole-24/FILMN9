@@ -1,0 +1,67 @@
+{
+  "stock_code": "393970",
+  "corp_name": "대진첨단소재",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 18:45",
+  "meta": {
+    "wics": "전기제품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "대진첨단소재는 2019년 1월 설립된 화학계 기업으로, 이차전지(배터리) 제조공정용 대전방지 트레이·PET 이형필름·대전방지 코팅액 등 배터리 공정용 소재를 주력으로 생산합니다. 또한 자동차 내장재용 플라스틱 부품과 일반 가전용 플라스틱 부품을 국내외 고객에 납품하며 CNT(탄소나노튜브) 사업을 신성장동력으로 추진하고 있습니다.",
+    "business_model": "매출의 대부분은 제품 판매에 기반하며, FY2025 기준 제품 매출이 98.3%로 높은 비중을 차지하고(제품: 24,516, 98.3%), 기타 매출이 1.6%를 차지합니다. 핵심 제품은 배터리 공정용 대전방지 트레이·PET 이형필름·대전방지 코팅액 및 자동차용 플라스틱 부품이며, CNT 관련 기술(표면개질·습식분산)을 통해 고부가가치 신소재 시장 진입을 도모하고 있습니다.",
+    "main_customers": "배터리 소재 — 이차전지 제조사 및 주요 고객사 A사 / 자동차 부품용 소재 — 글로벌 자동차 부품 업체(오크우드 그룹) 및 유럽 자동차 OEM사 / 기타 산업용 소재 — 전자·가전 완제품 제조사(예: 삼성 전자 부품 납품 사례), 완제품 세트메이커",
+    "price_factors": [
+      {
+        "factor": "전기차 수요",
+        "detail": "전기차·ESS 수요 증가 시 이차전지용 소재와 CNT 도전재 수요가 늘어나 실적에 영향을 미칩니다."
+      },
+      {
+        "factor": "공급망(납기)",
+        "detail": "장기공급·품질 일관성·납기준수성 여부가 거래관계와 수주 지속성에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "안전성",
+        "detail": "배터리 사업에서 안전성(Safety)은 최우선 항목으로, 제품의 안전성 관련 요구가 실적과 거래에 영향을 미칩니다."
+      },
+      {
+        "factor": "기술경쟁력",
+        "detail": "CNT 표면개질·습식분산 등 기술 우위가 고부가가치 제품 공급과 차별화에 기여합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 영업 현황",
+        "evidence_text": "당사는 친환경 에너지 분야의 핵심인 배터리 산업내에서 활동중인 기업으로,"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "제품: 24,516 (98.3%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > (2) 자동차 부품용 소재",
+        "evidence_text": "글로벌 자동차 부품 업체 오크우드 그룹과 차량용 플라스틱 공급계약을 체결했습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나. 시장여건 및 영업의 개황",
+        "evidence_text": "또한 안정성(Safety)은 배터리 사업 특성상 최우선시되는 중요한 항목입니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4898,
+    "completion_tokens": 4035,
+    "reasoning_tokens": 3200,
+    "output_tokens": 835
+  },
+  "warnings": []
+}

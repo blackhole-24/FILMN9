@@ -1,0 +1,62 @@
+{
+  "stock_code": "290670",
+  "corp_name": "대보마그네틱",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 15:18",
+  "meta": {
+    "wics": "전자장비와기기",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "대보마그네틱은 자석 및 자석응용기기의 제작·판매를 주사업으로 하는 전기·전자업체로, 주력 제품은 전자석탈철기(EMF) 및 자력선별기(MS)입니다. 제31기 연결기준 총매출 26,147백만원 중 장비사업부문이 압도적 비중을 차지하고 있습니다.",
+    "business_model": "핵심 사업은 장비사업부문(전자석탈철기 등)과 소재사업부문(2차전지소재 임가공)으로 구성되며, 제31기 기준 장비사업부문 매출 비중은 99.8%, 소재사업부문은 0.2%입니다. 주요 수익원은 EMF(전자석탈철기) 판매로, EMF는 리튬 2차전지 양극 소재에서 미량의 철(Fe)을 제거하는 장비입니다.",
+    "main_customers": "장비사업부문 — 리튬 2차전지 소재업체 및 셀 제조업체 / 소재사업부문 — 2차전지 소재업체(임가공 고객)",
+    "price_factors": [
+      {
+        "factor": "2차전지 수요",
+        "detail": "전방산업인 2차전지 수요·생산 변동이 장비수요에 직접 연동되어 실적에 영향합니다."
+      },
+      {
+        "factor": "전기차·ESS 정책",
+        "detail": "전기차·ESS 보조금 등 정책 불확실성은 관련 2차전지 투자와 장비 발주에 영향을 줍니다."
+      },
+      {
+        "factor": "납기·품질 요구",
+        "detail": "발주사의 품질·납기·A/S 요구가厳해 초기 공급자 우위가 유지되며 수주에 결정적 영향을 미칩니다."
+      },
+      {
+        "factor": "기술·진입장벽",
+        "detail": "자력선별기 분야의 기술 우위와 높은 진입장벽은 경쟁구도 및 가격 결정에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 사업의 개황",
+        "evidence_text": "당사는 자석(磁石) 및 자석응용기기의 제작 및 판매를 주된 사업으로 영위하고 있으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "장비사업부문 99.8% 소재사업부문 0.2%입니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 사업의 개황",
+        "evidence_text": "리튬 2차전지 소재업체 및 셀 제조업체 등에 납품하고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4859,
+    "completion_tokens": 3315,
+    "reasoning_tokens": 2624,
+    "output_tokens": 691
+  },
+  "warnings": []
+}

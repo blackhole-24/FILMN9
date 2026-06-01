@@ -1,0 +1,67 @@
+{
+  "stock_code": "368770",
+  "corp_name": "파이버프로",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 17:58",
+  "meta": {
+    "wics": "전자장비와기기",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "파이버프로는 1995년 KAIST 광섬유 실험실에서 시작한 광섬유 센서 및 정밀 광학 기술 전문기업으로, 'Sensor Everywhere' 모토 아래 광섬유 자이로스코프(FOG) 등 원천 기술을 바탕으로 항법·방산·에너지·인프라 모니터링 등 다양한 응용 분야에서 솔루션을 제공합니다.",
+    "business_model": "사업부문별로 2025년 매출 구성은 통합항법시스템 66.05%, 광 계측기기 11.44%, 포토닉 집적소자 11.53%, 광섬유 센싱 시스템 1.43%, 기타 9.54%로 통합항법시스템(PNT Solutions)이 핵심 수익원이며, 관성센서(FOG), IMU/INS와 Anti-Jamming GNSS 융합형 PNT 솔루션을 통해 방산·항공우주·자율주행 등 고신뢰 응용에 공급합니다.",
+    "main_customers": "통합항법시스템 — 국방·항공·자율주행·무인체계 / 광 계측기기 — 통신·연구기관 및 계측장비 수요처 / 광섬유 센싱 시스템 — 전력망·터널·철도·해저케이블·산업설비 / 포토닉 집적소자 — 데이터센터·통신·자율주행 LiDAR·양자·바이오센서 관련 장비업체 / 기타 — 주문품 및 용역 제공처",
+    "price_factors": [
+      {
+        "factor": "우주·LEO 확산",
+        "detail": "저궤도(LEO) 위성 기반 상업 서비스 확산은 고성능 자이로센서의 우주·위성 응용 수요를 증가시킵니다."
+      },
+      {
+        "factor": "무인플랫폼 확대",
+        "detail": "UAV·UGV 등 무인 플랫폼의 보급은 소형·고정밀 관성센서 수요를 꾸준히 견인합니다."
+      },
+      {
+        "factor": "EO/IR 시장 성장",
+        "detail": "군용 EO/IR 시스템의 확대는 짐벌·영상 안정화용 고정밀 자이로센서 수요를 높입니다."
+      },
+      {
+        "factor": "소형화·경량화 요구",
+        "detail": "소형·경량·고신뢰도 센서 요구 증가는 제품 설계·집적화(포토닉 집적소자) 경쟁력에 직결됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "파이버프로(FIBERPRO)는 세계적으로 인정받는 광섬유 센서 및 정밀 광학 기술 전문기업으로, 'Sensor Everywhere' 라는 모토 아래 다양한 응용 시장에 고성능 광센서 솔루션을 제공하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. 매출실적",
+        "evidence_text": "통합항법시스템 28,715 66.05% 13,242 40.20% 12,419 64.06%"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "나. 시장여건 및 영업의 개황",
+        "evidence_text": "이러한 센서 융합 기반 통합항법 기술은 최근 국방, 항공, 자율주행, 우주, 산업 자동화 등에서 핵심 기술로 부상하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "[경쟁 환경 및 시장 특성 — price_factors 참고용]",
+        "evidence_text": "민간기업 주도의 재사용 발사체 기술이 활성화되면서 발사 빈도와 접근성이 향상되고 있고, 이에 따라 저궤도 위성(LEO)을 기반으로 하는 통신, 내비게이션, 지구 관측 등 상업 서비스가 급속히 확산되고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 6285,
+    "completion_tokens": 5523,
+    "reasoning_tokens": 4544,
+    "output_tokens": 979
+  },
+  "warnings": []
+}

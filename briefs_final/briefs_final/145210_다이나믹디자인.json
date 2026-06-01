@@ -1,0 +1,72 @@
+{
+  "stock_code": "145210",
+  "corp_name": "다이나믹디자인",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 10:19",
+  "meta": {
+    "wics": "자동차부품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "다이나믹디자인은 타이어 금형과 관련 부자재를 주력으로 생산·공급하는 기업으로, 글로벌 타이어 제조사에 제품과 기술 서비스를 제공하고 있습니다. 인도네시아 치르본 지역에 생산공장을 구축하는 등 글로벌 공급 기반을 확보하고 있습니다.",
+    "business_model": "사업은 주로 타이어 금형(제품/상품)과 일부 타이어 제조설비 매출로 구성되며, 2025년(제27기) 매출에서 타이어 금형이 100.00%를 차지합니다. 또한 3D 신터링 사이프 등 타이어 금형 관련 부자재와 금속 파우더 전용 3D 프린터 운용을 통한 부가가치 확대를 추진하고 있습니다.",
+    "main_customers": "타이어 금형 — 글로벌 타이어 제조사 / 타이어 금형 관련 자재 — 타이어 제조사",
+    "price_factors": [
+      {
+        "factor": "자동차 생산량",
+        "detail": "자동차 생산 증가 시 타이어 생산량이 늘어나며 금형 수요가 동반 증가하여 실적에 영향합니다."
+      },
+      {
+        "factor": "교체수요",
+        "detail": "소비자 교체주기 변화 및 타이어 소비량 증감은 금형 수요와 매출에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "전기차 수요",
+        "detail": "전기차·친환경 타이어 확대는 고정밀 금형 수요를 높여 고부가가치 제품 공급 비중에 영향합니다."
+      },
+      {
+        "factor": "기술경쟁",
+        "detail": "3D 신터링 등 신기술 및 정밀 패턴 구현 기술 경쟁력은 수주 확보와 이익률에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "타이어 금형(Tire Mold)을 전문적으로 생산·공급하는 기업으로"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[표] 가. 주요 제품들의 현황",
+        "evidence_text": "타이어 금형 80,190(100.00%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. 사업부문 개요",
+        "evidence_text": "3D 신터링 사이프"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "글로벌 타이어 제조사에 고품질 금형 제품"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "인도네시아 치르본(Cirebon) 지역에 타이어 금형 생산 공장을 구축"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3929,
+    "completion_tokens": 3846,
+    "reasoning_tokens": 3136,
+    "output_tokens": 710
+  },
+  "warnings": []
+}

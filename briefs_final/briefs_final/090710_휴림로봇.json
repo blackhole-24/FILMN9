@@ -1,0 +1,73 @@
+{
+  "stock_code": "090710",
+  "corp_name": "휴림로봇",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:14",
+  "meta": {
+    "wics": "기계",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "휴림로봇은 1999년 11월 29일 법인전환 형태로 설립된 로봇 기업으로, 2006년 12월 5일 로봇업체로는 최초로 코스닥시장에 상장했습니다. 제조업용(산업용)로봇과 지능형(서비스)로봇을 기반으로 사업을 영위하며, 사업다각화를 통해 사업 분야를 넓히고 있습니다.",
+    "business_model": "주력 사업은 제조업용로봇과 로봇응용시스템, 그리고 사업다각화로 분류되는 기타 사업입니다. 2025년 기준 사업부문별 매출은 제조업용로봇 5,718, 로봇응용시스템 외 4,437, 기타 1,829로 구성되며, 서비스용로봇 매출은 기재되지 않았습니다. 제조업용(산업용)로봇은 반도체·액정·자동차·2차전지 등 전방산업의 설비 투자와 경기 흐름에 영향을 받는 구조입니다.",
+    "main_customers": "제조업용로봇 — 반도체 및 액정 제조업, 자동차·2차전지 관련 산업 / 로봇응용시스템 외 — 자동화설비업체 / 서비스용로봇 — 정부시책 및 계절적 요인의 영향을 받는 수요처",
+    "price_factors": [
+      {
+        "factor": "수주 흐름",
+        "detail": "자동화설비업체의 수주가 줄면 당사 제품 판가에 영향을 주어 실적에도 부담이 될 수 있습니다."
+      },
+      {
+        "factor": "국산화 경쟁",
+        "detail": "국내업체의 국산화 제품 출시가 늘면 경쟁 수입 제품의 국내 판가가 하락할 수 있습니다."
+      },
+      {
+        "factor": "전방산업",
+        "detail": "제조업용로봇은 반도체·액정·자동차·2차전지 업황과 연동되어 수요 변화가 나타납니다."
+      },
+      {
+        "factor": "정부정책",
+        "detail": "지능형 로봇은 정부시책의 영향을 많이 받아 정책 변화에 따라 수요 흐름이 달라질 수 있습니다."
+      },
+      {
+        "factor": "계절요인",
+        "detail": "서비스용 로봇은 계절적인 요인의 영향을 많이 받는다고 설명되어 있어 시기별 실적 변동 가능성이 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "2006년 12월 5일 로봇업체로는 최초로 코스닥시장에 상장되었습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 산업용로봇(제조업용로봇) 뿐만아니라 지능형로봇(서비스로봇)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "자동화설비업체의 수주가 하락입니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "국산화 제품출시에 따른 경쟁수입 제품의 국내판가 하락"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4349,
+    "completion_tokens": 844,
+    "reasoning_tokens": 0,
+    "output_tokens": 844
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

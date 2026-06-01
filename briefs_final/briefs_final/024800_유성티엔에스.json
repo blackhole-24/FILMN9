@@ -1,0 +1,67 @@
+{
+  "stock_code": "024800",
+  "corp_name": "유성티엔에스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 22:54",
+  "meta": {
+    "wics": "도로와철도운송",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "유성티엔에스는 1977년 설립 이후 1983년부터 운송사업을 영위해 온 종합 물류기업으로, 육상운송·철도운송·항만하역·보관 등 다양한 물류 서비스를 제공합니다. 특히 포스코, 현대제철 등 국내 주요 철강업체와의 다년 계약을 통해 철강 전문 물류 역량을 구축해왔습니다.",
+    "business_model": "사업부문별 영업수익은 운송이 80.4%, 유통이 12.4%, 기타가 0.5%로 구성되어 운송부문이 핵심 수익원입니다. 운송부문에서는 철강 등 중량물 운송과 철도운송 노하우를 기반으로 3PL(제3자 물류)과 자체 IT 솔루션을 접목한 통합 물류서비스를 제공하며, 유통부문은 한국도로공사 임대 휴게시설(주유소·휴게소) 운영을 통해 보완적인 수익을 창출합니다.",
+    "main_customers": "운송 — 포스코·현대제철 등 국내 주요 철강업체 / 유통 — 한국도로공사(임대 휴게시설) 및 주유소·휴게소 이용 고객",
+    "price_factors": [
+      {
+        "factor": "철강업황",
+        "detail": "철강산업 업황 변화 시 핵심 고객사의 물동량 변동으로 실적에 직접적 영향을 미칩니다."
+      },
+      {
+        "factor": "경기·무역",
+        "detail": "경제성장률 및 수출입 물동량 감소·증가에 따라 물류 수요가 민감하게 반응합니다."
+      },
+      {
+        "factor": "경쟁구조",
+        "detail": "자체 물동량을 처리하는 2자물류 기업들과의 경쟁 심화는 수익성 압박 요인이 됩니다."
+      },
+      {
+        "factor": "지정학 리스크",
+        "detail": "글로벌 교역 분절화·정치적 리스크는 공급망 재편과 운송 경로 변화로 이어져 실적 불확실성을 높입니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 운송부문",
+        "evidence_text": "당사는 1977년 8월 설립하여 1983년 운송사업을 시작"
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "운 송: 53,909,802 (80.4%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 운송부문",
+        "evidence_text": "포스코, 현대제철 등 국내 주요 철강업체와 다년간 물류계약을 체결하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 업계의 현황",
+        "evidence_text": "물류산업은 경제성장률, 수출입물동량, 내수시장 등에 영향을 받으며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4883,
+    "completion_tokens": 3255,
+    "reasoning_tokens": 2496,
+    "output_tokens": 759
+  },
+  "warnings": []
+}

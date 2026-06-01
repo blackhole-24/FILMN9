@@ -1,0 +1,69 @@
+{
+  "stock_code": "314130",
+  "corp_name": "지놈앤컴퍼니",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 16:09",
+  "meta": {
+    "wics": "제약",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "지놈앤컴퍼니는 지노클(GNOCLE™) 플랫폼을 바탕으로 ADC(항체-약물 접합체)와 면역항암제 등 신규 타깃 기반 신약 후보물질을 발굴하고 기술이전을 통해 사업화하는 신약개발 전문기업입니다. 또한 마이크로바이옴 기반 화장품·건강기능식품 등 컨슈머 사업과 CDMO(위탁생산) 사업을 병행하고 있습니다.",
+    "business_model": "핵심은 플랫폼 기반의 신약 발굴 및 기술이전(라이선스아웃)으로 수익을 창출하는 신약 개발 사업이며, CDMO(위탁개발생산) 사업과 마이크로바이옴 기반 컨슈머 사업이 보완적 수익원으로 존재합니다. 회사는 지노클 플랫폼을 통해 후보물질을 발굴하고 기술이전 계약과 임상 성과를 통해 가치 실현을 추구하며, CDMO는 리스트랩 인수를 통해 cGMP 수준의 생산 역량을 확보하고 컨슈머 부문은 자체 브랜드 '유이크(UIQ)' 등으로 제품을 판매합니다.",
+    "main_customers": "신약개발 — 기술이전 및 공동개발 파트너(제약사·글로벌 제휴사) / CDMO — 바이오 의약품 개발회사(위탁고객) / 컨슈머 — 병·의원 및 전문 유통망을 통한 암 환자 및 리테일을 통한 일반 소비자",
+    "price_factors": [
+      {
+        "factor": "임상·규제 리스크",
+        "detail": "신약개발은 임상·허가 과정의 규제와 성공 여부가 실적과 기술이전 타이밍에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "기술이전·파트너십 수요",
+        "detail": "ADC·면역항암제 관련 글로벌 제약사의 기술이전·공동개발 수요가 증가하면 마일스톤·로열티 수입 증가로 연결됩니다."
+      },
+      {
+        "factor": "CDMO 품질 요구",
+        "detail": "cGMP 수준의 생산역량은 위탁 수주와 계약 유지에 중요해 수익성 변동에 영향을 줍니다."
+      },
+      {
+        "factor": "컨슈머 유통·해외시장",
+        "detail": "해외 유통채널 확보와 현지화 성과는 컨슈머 매출 성장률에 직접적인 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "당사는 신약개발플랫폼 지노클(GNOCLE™)을 기반으로 ADC(항체-약물 중합체), Immuno-oncology(면역항암제)를 포함한 신규 약물표적('타깃') 파이프라인을 연구개발하고, 기술이전 등을 통해 사업화하는 신약개발 전문기업입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 가. 주요 제품 등의 현황 (2) CDMO 사업",
+        "evidence_text": "CDMO 사업은 바이오 의약품 개발 회사의 위탁을 받아 원료의약품, 임상시험용 시료, 상업용 의약품을 생산하는 사업입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 가. 주요 제품 등의 현황 (3) 컨슈머 사업 (가) 마이크로바이옴 화장품",
+        "evidence_text": "현재 총 4개 라인, 61개 품목을 판매하고 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 가. 주요 제품 등의 현황 (3) 컨슈머 사업 (나) 마이크로바이옴 건강기능식품",
+        "evidence_text": "병·의원 및 전문 유통망을 통해 암 환자를 주요 소비자군으로 공급됩니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 6281,
+    "completion_tokens": 4300,
+    "reasoning_tokens": 3328,
+    "output_tokens": 972
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

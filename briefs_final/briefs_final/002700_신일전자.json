@@ -1,0 +1,67 @@
+{
+  "stock_code": "002700",
+  "corp_name": "신일전자",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 18:08",
+  "meta": {
+    "wics": "가정용기기와용품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "신일전자는 가전제품 도·소매업을 주력으로 하는 기업으로, 선풍기 등 하절기 소형가전과 난방기 등 동절기 가전제품을 중심으로 판매합니다. 2025년 기준 매출의 대부분이 국내에서 발생하며 계절상품 비중이 높아 시즌 수요에 크게 의존합니다.",
+    "business_model": "주요 수익원은 전국 대리점을 통한 도매 및 대형 유통할인점과 홈쇼핑을 통한 소매 채널로 구성되며, 2025년 기준 대리점이 78.0%, 할인양판점이 15.0%, 홈쇼핑이 7.0%의 매출 비중을 차지합니다. OEM 도입제품 판매 후 일정 규모 이상이면 자체 제조 전환 검토로 수익성 개선을 모색하고 있습니다.",
+    "main_customers": "대리점 — 지역 대리점 및 도매상 / 할인양판점 — 하이마트·이마트·홈플러스·농협하나로마트 / 홈쇼핑 — 각 홈쇼핑 채널을 통한 소비자 대상 판매",
+    "price_factors": [
+      {
+        "factor": "계절성",
+        "detail": "계절상품 비중이 높아(연간 매출의 78% 이상) 폭염·혹한 등 기후에 따라 매출과 실적 변동성이 커집니다."
+      },
+      {
+        "factor": "환율·원자재",
+        "detail": "원자재 수급과 환율·유가 변동에 민감해 원가와 이익률에 직접적인 영향이 발생할 수 있습니다."
+      },
+      {
+        "factor": "저가경쟁",
+        "detail": "중국산 중저가 제품의 유입으로 가격경쟁이 심화되면 판매량 대비 마진 압박이 커질 수 있습니다."
+      },
+      {
+        "factor": "유통채널의존",
+        "detail": "대리점과 대형유통에 매출이 집중되어(대리점 78%, 할인양판점 15%) 채널별 수요 변동이 실적에 큰 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "회사는 가전제품 도,소매업을 주력 사업으로 영위하고 있으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "대리점 (78.0%), 할인양판점 (15.0%), 홈쇼핑 (7.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 시장의 특성",
+        "evidence_text": "하이마트, 이마트, 홈플러스, 농협하나로 마트 등"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 업계의 현황",
+        "evidence_text": "원자재의 수급 상 환율과 유가변동에 민감하여"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3429,
+    "completion_tokens": 3629,
+    "reasoning_tokens": 2880,
+    "output_tokens": 749
+  },
+  "warnings": []
+}

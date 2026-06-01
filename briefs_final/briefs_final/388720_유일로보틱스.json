@@ -1,0 +1,82 @@
+{
+  "stock_code": "388720",
+  "corp_name": "유일로보틱스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 18:38",
+  "meta": {
+    "wics": "기계",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "유일로보틱스는 산업용 로봇과 플라스틱 사출 자동화 장비(오토피딩, 냉각시스템 등)를 제조·판매하는 기계·장비업체로, 스마트 팩토리 솔루션을 포함한 자동화 시스템을 핵심 사업으로 영위하고 있습니다. 2025년 매출은 36,918백만원이며 로보틱스 전문기업 전환 및 R&D 강화, 청라 신본사·생산시설 완공 등을 통해 시장점유율 확대를 추진하고 있습니다.",
+    "business_model": "핵심 사업은 산업용 로봇(직교로봇, 다관절로봇, 협동로봇)과 자동화시스템(오토피딩·냉각시스템·Link-Factory 4.0)으로 구성되며, 2025년 매출 구성은 자동화시스템 69.7%, 산업용로봇 19.2%, 기타 10.7%, 상품(컨베어) 0.4%로 자동화시스템 비중이 높아 주문형 제조 솔루션 공급이 주된 수익원입니다.",
+    "main_customers": "자동화시스템 — 자동차·의료기기·2차전지·가전제품·일반 소비재·포장재 등 다양한 제조업 / 산업용로봇 — 자동차·전기·전자·화학·금형·용접 등 전통 제조업",
+    "price_factors": [
+      {
+        "factor": "제조업 수요",
+        "detail": "제조업의 인력 부족과 원가상승은 공장자동화 수요를 견인해 매출에 우호적 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "거시환경",
+        "detail": "고금리·고환율·고물가 등 거시 불확실성은 원가·수출 환경과 영업실적에 직접 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "투자·CAPEX",
+        "detail": "신공장 이전과 생산능력(CAPA) 확대, R&D·인력 투자는 단기적으로 판관비·일회성 비용을 증가시켜 실적에 부담을 줄 수 있습니다."
+      },
+      {
+        "factor": "수출 의존",
+        "detail": "해외 수출 증가 추세는 매출 확대 요인이지만 글로벌 교역 불확실성에 따른 변동성도 수반합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "다. 사업의 현황 및 전망",
+        "evidence_text": "자동화 시스템을 주요사업으로 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "다. 주요 제품 및 서비스",
+        "evidence_text": "당사의 주요 제품군은 크게 산업용 로봇과 자동화 시스템 2가지로 나누어집니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "라. 매출에 관한 사항",
+        "evidence_text": "자동화시스템은 25,728백만원"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "나. 사업의 현황 및 전망",
+        "evidence_text": "플라스틱 사출 자동화 시스템은 자동차, 의료기기, 2차전지"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 산업의 특성",
+        "evidence_text": "제조업의 인력 부족과 원가상승"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "고금리, 고환율, 고물가"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "청라 신공장 이전 관련 일회성 비용"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5256,
+    "completion_tokens": 4918,
+    "reasoning_tokens": 3968,
+    "output_tokens": 950
+  },
+  "warnings": []
+}

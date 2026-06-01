@@ -1,0 +1,73 @@
+{
+  "stock_code": "049800",
+  "corp_name": "우진플라임",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 02:43",
+  "meta": {
+    "wics": "기계",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "우진플라임은 1985년 창업한 플라스틱 사출성형기 전문 제조업체로, 2012년 사명을 ㈜우진플라임으로 변경했습니다. 중국 절강성 영파(닝보)를 시작으로 중국 주요 거점과 미국·멕시코에 판매법인·사무소를 구축하여 국내외 제조업체에 사출성형기와 솔루션을 공급하고 있습니다.",
+    "business_model": "핵심 사업은 절전형 유압식 및 전동식 사출성형기의 개발·생산·판매이며, 주문생산 중심의 사출성형기 제조가 주된 수익원입니다. 부가적으로 취출로봇 등 상품 판매, 스크류 등 부품(A/S용) 판매 및 사출성형교육·연구개발 등으로 매출을 보완하며, 특수기종·옵션 수주와 원재료 가격 변동에 따라 제품 단가 변동폭이 큽니다.",
+    "main_customers": "한국부문 — 자동차·이동통신·IT·가전·생활용품·의료기구·문구완구·건축자재 제조업체 / 중국부문 — 중국 내 제조업체 / 미국부문 — 미국 내 제조업체 / 기타부문 — 연구개발 및 교육 수요처",
+    "price_factors": [
+      {
+        "factor": "수주 경기민감",
+        "detail": "일반기계 산업은 수주중심 산업으로 산업경기 변동이 실적에 직접 영향합니다."
+      },
+      {
+        "factor": "원재료 비용",
+        "detail": "원재료 가격 인상은 제품 단가와 수익성에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "기술경쟁력",
+        "detail": "초정밀·다기능화 추세에서 기술력 확보 여부가 수출 및 경쟁력에 결정적입니다."
+      },
+      {
+        "factor": "전방산업 수요",
+        "detail": "자동차·IT·의료 등 전방산업 수요 변화가 장비 수요를 좌우합니다."
+      },
+      {
+        "factor": "제품별 단가 변동",
+        "detail": "특수기종·옵션 비중에 따라 대당 단가 변동폭이 커 실적 변동성을 높입니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "2. 회사의 현황 > 1) 영업개황",
+        "evidence_text": "1985년 창업하여 41년간 플라스틱 사출성형기만 전문적으로 제조하였고,"
+      },
+      {
+        "field": "business_model",
+        "source_section": "2. 회사의 현황 > 1) 영업개황",
+        "evidence_text": "당사는 모든 플라스틱 재질의 제품을 성형할 수 있는 사출성형기 제조업체로서,"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "2. 회사의 현황 > 1) 영업개황",
+        "evidence_text": "당사는 전방산업인 자동차산업, 이동통신, IT산업을 비롯하여"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "한국부문 | 제품 | 사출성형기 | 플라스틱 성형"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 3760,
+    "completion_tokens": 3768,
+    "reasoning_tokens": 2944,
+    "output_tokens": 824
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

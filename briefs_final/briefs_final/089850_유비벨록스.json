@@ -1,0 +1,76 @@
+{
+  "stock_code": "089850",
+  "corp_name": "유비벨록스",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:14",
+  "meta": {
+    "wics": "전자제품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "유비벨록스는 Secure Element(보안 칩) 기반의 스마트카드와 모바일 사업을 중심으로, 블랙박스·지도·환경생활가전까지 함께 영위하는 IT 서비스 기업입니다. 최근에는 K컬쳐 액세서리 사업에도 진출하며, 여러 사업의 시너지를 바탕으로 IT Convergence(정보기술 융합) 영역으로 확장하고 있습니다.",
+    "business_model": "주요 매출은 블랙박스 25.51%, 스마트카드 15.23%, 서비스(스마트카드 시스템구축·OS S/W 등) 1.95%, 플랫폼 2.43%, 지도 0.38%, 모바일 제품 0.21%, 모바일 서비스 0.03%로 구성되어 있습니다. 여기에 환경생활가전 사업이 더해져 매출 기반을 이루며, 스마트카드와 블랙박스, 생활가전 관련 제품·서비스를 함께 운영하는 구조입니다. 마이데이터(본인신용정보관리) 서비스와 IoT(사물인터넷) 관련 H/W(하드웨어)처럼 보안·연결 기능이 필요한 분야로도 사업을 넓히고 있습니다.",
+    "main_customers": "스마트카드 — 금융카드·통신카드(USIM)·교통카드 이용처, 보안/인증이 필요한 산업 / 모바일 — 마이데이터 이용자, IoT 관련 H/W 수요처 / 블랙박스 — 차량용 블랙박스 구매 고객, 완성차 및 해외 유통처 / 지도·플랫폼 — 내비게이션 이용자, 모빌리티 서비스 이용처 / 환경생활가전 — 로봇청소기 등 생활가전 구매 고객",
+    "price_factors": [
+      {
+        "factor": "스마트카드수요",
+        "detail": "금융·통신·교통과 보안/인증 분야의 수요가 늘수록 스마트카드와 관련 칩 사업의 매출 확대에 영향을 줍니다."
+      },
+      {
+        "factor": "블랙박스성장",
+        "detail": "해외 블랙박스 시장이 성장하면 차량용 블랙박스 판매 증가로 실적에 긍정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "원자재가격",
+        "detail": "메모리 등 주요 원부자재 가격이 오르면 비용 부담이 커져 수익성에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "가전수요",
+        "detail": "로봇청소기와 같은 환경생활가전의 판매가 늘면 해당 사업부 매출 증가로 이어질 수 있습니다."
+      },
+      {
+        "factor": "환율변동",
+        "detail": "수익이나 비용이 다른 통화로 발생하는 구조라 환율 변동이 실적 변동 요인으로 작용합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 Secure Element 기반의 Smart Card와 Mobile 사업"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성] / [표] 가. 주요제품 현황",
+        "evidence_text": "블랙박스 | ... | 170,388(25.51)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성] / [표] 가. 주요제품 현황",
+        "evidence_text": "스마트카드 | ... | 101,701(15.23)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "보안성 때문에 인증이 필요한 다양한 분야에서 활용"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "해외 블랙박스 시장의 성장이 실적으로 이어지고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4566,
+    "completion_tokens": 945,
+    "reasoning_tokens": 0,
+    "output_tokens": 945
+  },
+  "warnings": []
+}

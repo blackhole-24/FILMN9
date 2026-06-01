@@ -1,0 +1,87 @@
+{
+  "stock_code": "048870",
+  "corp_name": "시너지이노베이션",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 02:34",
+  "meta": {
+    "wics": "건강관리장비와용품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "시너지이노베이션은 미생물 배양배지의 제조 및 판매를 주력으로 하는 바이오·의료 전문기업으로, 체외진단용 및 환경모니터링용 배지를 전국의 병원·검사기관·제약회사 등에 공급하고 있습니다. 연결대상 회사는 총 7개사로 구성되어 있으며, 2025년 연결 매출액은 1,131억 원을 기록했습니다.",
+    "business_model": "핵심 사업은 바이오기술, 의료, 건강기능식품, 기타로 구분되며 제품은 ISO13485 및 의료기기 KGMP 인증을 받은 청정 제조환경에서 생산됩니다. 사업부문별 매출 비중은 바이오기술 18.8%, 의료 48.5%, 건강기능식품 12.4%, 기타 2.1%로 의료 부문이 가장 큰 비중을 차지합니다.",
+    "main_customers": "바이오기술 — 병원·검사센터·제약회사 / 의료 — 병원·검사센터·제약회사 / 건강기능식품 — 건강기능식품·화장품·식음료 제조업체",
+    "price_factors": [
+      {
+        "factor": "원료수급",
+        "detail": "원료 대부분을 수입에 의존해 수급 차질 발생 시 생산 제약으로 실적에 부정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "전염병",
+        "detail": "식중독·메르스·팬데믹 등 전염병 발생 시 진단·검사용 배지 수요가 급증하여 실적 변동성이 커질 수 있습니다."
+      },
+      {
+        "factor": "경쟁구도",
+        "detail": "국내 5~6개사, 해외업체 4~5개사가 경쟁하는 구조로 가격·품질 경쟁과 수입품 대체가 실적에 영향합니다."
+      },
+      {
+        "factor": "환율",
+        "detail": "외화 표시 거래에 따른 환율 변동 노출로 수익성 및 매출액 원화 환산액에 영향을 미칠 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "당사는 미생물 배양배지 제조 및 판매를 주된 사업으로 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "바이오기술: 21,276,162 (18.8%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "의료: 54,783,488 (48.5%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "건강기능식품: 14,069,160 (12.4%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "기타: 2,400,000 (2.1%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "전국 대부분의 병원, 검사센터 및 제약회사 등에 공급하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "원료 대부분을 수입에 의존하고 있어 원료 수급에 문제가 발생할 경우 생산에 제약이 따를 수 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "미생물 배양배지 시장은 국내 5~6개사, 해외업체 4~5개사가 경쟁하고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5043,
+    "completion_tokens": 6452,
+    "reasoning_tokens": 5504,
+    "output_tokens": 948
+  },
+  "warnings": []
+}

@@ -1,0 +1,73 @@
+{
+  "stock_code": "044180",
+  "corp_name": "KD",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:00",
+  "meta": {
+    "wics": "건설",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "KD는 건설업을 주력으로 하는 코스닥 상장사입니다. 사업보고서상 주택 및 건설사업부문을 중심으로 상가, 오피스텔, 집합건물(APT) 등의 자체 개발·분양과 수주형 건축사업을 함께 영위하고 있습니다. 회사는 '아람채', 'KDU프라자', '펜트빌' 같은 고유 브랜드를 보유하고 있습니다.",
+    "business_model": "건설사업부문 매출이 26,357,356천원으로 전체 사업부문 매출의 대부분을 차지하며, 전자부품사업부문 매출은 1,429,741천원입니다. 내부거래 등은 -로 표시되어 있으며, 회사는 자체사업과 수주사업을 병행하는 구조입니다. 주택·상가·오피스텔·집합건물(APT)을 직접 건축해 분양하거나 수주를 받아 시공하는 방식으로 매출을 창출하고 있습니다.",
+    "main_customers": "건설사업부문 — 아파트·오피스텔·상가 분양 수요자, 발주처 / 전자부품사업부문 — 전자부품 관련 거래처 / 내부거래 등 — 계열 및 내부거래 대상",
+    "price_factors": [
+      {
+        "factor": "분양실적",
+        "detail": "자체사업의 분양 성과와 매출 인식 시점에 따라 건설부문 매출과 이익 변동이 크게 나타납니다."
+      },
+      {
+        "factor": "건설경기",
+        "detail": "건설경기는 경기변동, 부동산 경기, 정부의 금융·주택 정책에 영향을 받아 수주와 분양 환경을 좌우합니다."
+      },
+      {
+        "factor": "원가경쟁",
+        "detail": "건설업 경쟁이 치열해 원가 절감과 가격 경쟁력 확보 여부가 수익성에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "브랜드력",
+        "detail": "브랜드 경쟁력과 아파트 품질 향상은 성공적인 분양과 고객 신뢰 확보에 중요한 요소로 제시됩니다."
+      },
+      {
+        "factor": "재무부담",
+        "detail": "부채비율이 높고 손상차손·순손실이 확대되면 재무 안정성과 실적 변동성에 부담이 커질 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 1. 사업의 개요",
+        "evidence_text": "당사의 건설부문은 당사가 직접 상가, 오피스텔, 집합건물(APT)등을 건축하여 분양하거나"
+      },
+      {
+        "field": "business_model",
+        "source_section": "3. 사업부문별 요약 재무현황",
+        "evidence_text": "건설사업부문 | 총매출액 | 26,357,356"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 1. 사업의 개요",
+        "evidence_text": "주택 및 건설사업부문"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 1. 사업의 개요",
+        "evidence_text": "상가, 오피스텔, 집합건물(APT)등을 건축하여 분양"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4196,
+    "completion_tokens": 819,
+    "reasoning_tokens": 0,
+    "output_tokens": 819
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "stock_code": "094360",
+  "corp_name": "칩스앤미디어",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 07:28",
+  "meta": {
+    "wics": "반도체와반도체장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "칩스앤미디어는 시스템 반도체 설계 자산(IP(반도체 설계자산))의 개발 및 판매를 주력으로 하는 반도체 설계자산 전문업체입니다. 주력 분야는 비디오 코덱 등 영상 처리용 IP로, 스마트폰·디지털TV·자동차 등 다양한 기기용 칩 설계를 지원합니다.",
+    "business_model": "매출은 IP를 고객사에 제공하는 라이선스, 고객사가 만든 칩 판매에 따라 발생하는 로열티, 유지보수·용역으로 구성되며, 2025년 기말 기준 라이선스 59.9%, 로열티 35.3%, 용역 4.7%로 이루어져 있습니다. 주력 제품인 비디오 코덱 IP와 함께 NPU(신경망처리장치) IP 및 알고리즘을 묶은 솔루션형 라이선스 모델을 구축하고 있습니다.",
+    "main_customers": "라이선스·로열티 — 반도체 칩 제조사(팹리스·칩 회사) / 솔루션·용역 — 플랫폼 기업·ASIC 업체·데이터센터 및 AI·자동차·영상기기 개발사",
+    "price_factors": [
+      {
+        "factor": "고객레퍼런스",
+        "detail": "시장에서는 검증된 IP를 선호하므로 고객 레퍼런스 확보 여부가 신규 수주와 시장지배력에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "로열티시차",
+        "detail": "로열티는 IP 라이선스 시점으로부터 2~3년 뒤에 발생하는 특성이 있어 매출 실현 시점이 지연될 수 있습니다."
+      },
+      {
+        "factor": "UHD수요",
+        "detail": "UHD·고효율 코덱(예: AV1) 채택 확산은 비디오 IP 수요를 증가시켜 실적에 긍정적 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "AI칩수요",
+        "detail": "데이터센터용 GPU/NPU 등 AI 칩 설계 수요 확대는 비디오코덱과 NPU IP의 신규 적용 기회를 늘립니다."
+      },
+      {
+        "factor": "시장성장",
+        "detail": "전 세계 IP 산업의 성장(추정치 기반)은 반도체 IP 활용 확대를 통해 회사의 중장기 수혜 요소가 될 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "[DART 사업보고서 — 영업 현황]",
+        "evidence_text": "당사는 시스템 반도체 설계 자산(IP) 개발 및 판매를 사업 목적으로 하는 반도체 설계자산(Silicon Intellectual Property) 전문업체입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[DART 사업보고서 — 영업 현황]",
+        "evidence_text": "2025년 기말 기준 당사의 매출은 라이선스 59.9%(17,065백만원), 로열티 35.3%(10,052백만원), 용역 4.7%(1,350백만원)으로 이루어져 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "[DART 사업보고서 — 영업 현황]",
+        "evidence_text": "플랫폼 기업과 ASIC 업체가 모두 당사의 잠재 고객군으로 확보되었습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 산업의 특성",
+        "evidence_text": "반도체 IP 업계는 고객 Reference가 상당히 중요합니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 산업의 특성",
+        "evidence_text": "로열티 매출은 IP를 라이선스(제공)하는 시점으로부터 2~3년 뒤에 고객사의 칩 개발 및 판매에 따라 로열티(칩 생산 및 판매)가 발생하기 때문에,"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4876,
+    "completion_tokens": 3698,
+    "reasoning_tokens": 2752,
+    "output_tokens": 946
+  },
+  "warnings": []
+}

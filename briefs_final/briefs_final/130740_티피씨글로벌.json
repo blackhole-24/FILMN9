@@ -1,0 +1,81 @@
+{
+  "stock_code": "130740",
+  "corp_name": "티피씨글로벌",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 09:39",
+  "meta": {
+    "wics": "자동차부품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "티피씨글로벌은 자동차부품, 엘리베이터용 감속기, 합성수지배관 사업을 영위하는 기업으로, 파이프·방진튜브·필라넥 등 자동차용 부품과 권상기·로봇용감속기, PVC 배관 등을 제조·판매합니다. 연결기준으로 자동차부품·감속기·합성수지배관을 핵심 사업으로 운영하고 있습니다.",
+    "business_model": "제27기 기준 매출은 자동차부품이 약 60.6%, 감속기(해성에어로보틱스)가 약 19.0%, 합성수지배관(고리)이 약 20.4%로 구성되어 있습니다. 자동차부품부문은 스틸코일을 가공해 정밀강관과 파이프소재를 내부공급하고 파이프·필라넥·방진튜브 등을 완성차 및 1·2차 부품사에 판매하는 일관생산(원재료에서 부품제작까지) 구조가 특징입니다.",
+    "main_customers": "자동차부품 — 1·2차 자동차부품사 및 최종 완성차 메이커(현대·기아·GM·르노삼성·포드·도요타·닛산·ANGSTORM) / 감속기부문 — 엘리베이터·에스컬레이터 제조사 및 산업·로봇용 감속기 수요처 / 합성수지배관 — 상수도·하수도·소방배관용 수요처",
+    "price_factors": [
+      {
+        "factor": "완성차 수요",
+        "detail": "완성차 판매가 줄면 하위 부품 수요가 감소하여 매출과 실적에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "철강 조달",
+        "detail": "스틸코일 등 원재료 조달과 가격 변동은 정밀강관 생산원가와 수익성에 영향을 줍니다."
+      },
+      {
+        "factor": "제품 품질·원가",
+        "detail": "품질과 원가경쟁력이 약화되면 완성차업체와의 장기협력 관계 및 수주에 불리해질 수 있습니다."
+      },
+      {
+        "factor": "전동화·자율주행",
+        "detail": "중장기적으로 전동차·자율주행 기술 전환은 기존 부품 수요 구조에 변화를 초래할 가능성이 있습니다."
+      },
+      {
+        "factor": "글로벌 소싱",
+        "detail": "완성차의 글로벌 현지화 및 부품 글로벌 소싱 추세에 대응하는 공급망 역량이 실적 변동 요인이 됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "당사는 자동차부품, 엘리베이터감속기(로봇용감속기), 합성수지배관사업을 영위하는 기업으로서"
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. 자동차부품부문",
+        "evidence_text": "파이프소재생산에서 부품제작까지 일관생산체계를 구축하여 품질 및 원가우위 전략을 달성하였습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 자동차부품부문",
+        "evidence_text": "최종메이커사인 현대, 기아, GM 등에 공급됩니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[표] 가. 주요 제품별 매출현황",
+        "evidence_text": "자동차부품 (주)티피씨 48,109"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[표] 가. 주요 제품별 매출현황",
+        "evidence_text": "감속기해성에어로보틱스(주) 15,078"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[표] 가. 주요 제품별 매출현황",
+        "evidence_text": "합성수지배관(주)고리 16,217"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5181,
+    "completion_tokens": 4480,
+    "reasoning_tokens": 3456,
+    "output_tokens": 1024
+  },
+  "warnings": []
+}

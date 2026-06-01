@@ -1,0 +1,67 @@
+{
+  "stock_code": "357250",
+  "corp_name": "미래에셋맵스리츠",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 17:37",
+  "meta": {
+    "wics": "부동산",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "reit"
+  },
+  "brief": {
+    "company_overview": "미래에셋맵스리츠는 부동산투자회사(리츠) 형태로 자산을 운용하는 회사입니다. 보고서에는 특정 지분증권(예: 코크렙제47호 위탁관리리츠 지분)을 보유하여 투자수익을 추구한다는 내용이 포함되어 있습니다.",
+    "business_model": "주된 운용 방식은 부동산 관련 지분증권에 대한 투자·보유를 통해 수익을 창출하는 것입니다(보고서: 지분증권(지분율 1.82%)에 투자). 발생한 수익은 리츠의 구조에 따라 투자자에게 배분되는 구조입니다(리츠는 투자자에게 수익을 돌려줌).",
+    "main_customers": "리츠 투자 — 다수의 투자자(기관투자자 중심)",
+    "price_factors": [
+      {
+        "factor": "퇴직연금",
+        "detail": "DC·IRP 등 퇴직연금의 상장리츠 투자 허용은 공모상장리츠로의 자금유입 확대와 실적에 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "상장시장 확대",
+        "detail": "공모상장 리츠의 출시 확대는 일반 투자자 참여 기회를 늘려 시장 전체 성장에 영향을 줍니다."
+      },
+      {
+        "factor": "규제개정",
+        "detail": "기관투자자 비중 상향 등 법령 개정은 리츠의 자금조달 및 상장 요건에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "임대주택 수요",
+        "detail": "과거 임대주택에 투자하는 리츠가 성장세를 이끌어 온 점은 특정 자산군의 수요 변화가 실적에 영향을 줄 수 있음을 시사합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 업계의 현황 (1) 부동산투자회사(리츠) 산업의 특성",
+        "evidence_text": "부동산 간접투자기구인 주식회사입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "지분증권(지분율 1.82%)에 투자하고 있습니다"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 업계의 현황 (1) 부동산투자회사(리츠) 산업의 특성",
+        "evidence_text": "기관투자자 중심의 투자를 벗어나지 못하여"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 업계의 현황 (3) 관련 법령 또는 정부의 규제 현황",
+        "evidence_text": "공모상장리츠에 투자가 가능하게 되었습니다"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 3145,
+    "completion_tokens": 4666,
+    "reasoning_tokens": 3968,
+    "output_tokens": 698
+  },
+  "warnings": []
+}

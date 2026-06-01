@@ -1,0 +1,67 @@
+{
+  "stock_code": "038530",
+  "corp_name": "케이바이오랩스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 00:55",
+  "meta": {
+    "wics": "IT서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "케이바이오랩스는 생명과학 기자재·시약 유통과 ICT(하드웨어·소프트웨어·IT서비스) 분야를 영위하는 기업입니다. 2021년 11월 (주)큐어바이오 유통사업부문을 양수하여 바이오유통 사업을 확대했으며, 서울·경기권을 중심으로 국내 영업을 전개하고 있습니다.",
+    "business_model": "매출은 바이오유통(연구용 시약·기기·기자재)에서 발생하며, 사업부문별 매출 구성은 바이오유통 100.0%입니다. ICT 부문은 영상보안 기반의 IoT 솔루션(대규모 통합관제, GIS MAP 등) 개발·공급을 통해 사업영역을 확장하고 있습니다.",
+    "main_customers": "바이오유통 — 대학·병원·연구실·기타 거래처 / ICT(영상보안·솔루션) — 영상보안 솔루션을 필요로 하는 기관·사업장",
+    "price_factors": [
+      {
+        "factor": "정부 R&D 예산",
+        "detail": "정부의 연구개발(R&D) 투자 증가 시 대학·연구소의 기자재·시약 수요가 늘어나 매출에 긍정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "대리점·브랜드 계약",
+        "detail": "Thermo Fisher, MERCK 등 글로벌 브랜드와의 대리점 계약 유지·확대는 제품 공급과 매출 안정성에 직접 영향합니다."
+      },
+      {
+        "factor": "해외수입·브랜드 확보",
+        "detail": "해외 브랜드 직수입과 신규 브랜드 확보를 통한 제품 다양화는 전국 확장과 매출 성장의 주요 변수입니다."
+      },
+      {
+        "factor": "ICT 기술경쟁",
+        "detail": "영상보안·IoT 솔루션 분야에서의 기술개발과 제품 경쟁력은 ICT 부문의 수익성 및 성장에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "연결실체는 공시기준일 현재 생명과학관련 기자재, 시약등을 유통하는 바이오유통사업과 ICT 산업 중 Hardware, Software, IT서비스 부문에서 사업을 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "- 바이오유통: 27,325 (100.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "대학, 병원, 연구실, 기타 거래처 등에 납품하는 사업"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "대규모 통합관제솔루션, GIS MAP 시스템, 스마트폴리스, 안심귀가서비스 등 다양한 제품군을 개발 및 출시하고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4055,
+    "completion_tokens": 2168,
+    "reasoning_tokens": 1408,
+    "output_tokens": 760
+  },
+  "warnings": []
+}

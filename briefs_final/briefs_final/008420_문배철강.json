@@ -1,0 +1,72 @@
+{
+  "stock_code": "008420",
+  "corp_name": "문배철강",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 20:06",
+  "meta": {
+    "wics": "철강",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "문배철강은 공정상 기준으로 제2차 가공업체로 분류되는 철강 관련 기업입니다. 2025년 12월말 자산총계는 전기대비 6.3% 증가한 2,383억으로 재고자산과 관계기업투자 증가가 주요 요인으로 기재되어 있습니다.",
+    "business_model": "주요 수익원은 제품 매출로, 2025 회계연도 기준 제품 매출이 전체의 70.1%를 차지합니다. 그 외에 상품매출 26.4%, 임가공매출(외주 가공) 1.5%, 임대매출(시설 임대) 1.9%로 구성되어 있어 제품 판매 중심의 수익구조를 갖추고 있습니다.",
+    "main_customers": "제품 매출 — 자동차·조선·가전 등 전방산업 / 상품 매출 — 중소형 수요자 / 임가공매출 — 가공을 의뢰하는 제조업체 / 임대매출 — 임대 서비스 수요자",
+    "price_factors": [
+      {
+        "factor": "원자재 수급",
+        "detail": "주요 구매처인 포스코의 원재료 수급정책 변화가 원가와 실적에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "중국산 경쟁",
+        "detail": "중국 등 후발국의 저가 철강재 유입과 공급과잉은 가격경쟁을 심화시켜 마진 압박 요인이 됩니다."
+      },
+      {
+        "factor": "수요 연동성",
+        "detail": "자동차·조선·건설 등 전방산업 경기 변동에 따라 제품 수요가 크게 좌우됩니다."
+      },
+      {
+        "factor": "환경규제",
+        "detail": "강화되는 환경규제는 생산비용 및 설비투자 부담으로 이어질 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "자산총계는 전기대비  6.3% 증가한 2,383억"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "제 품 매 출: 96,707 (70.1%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "상 품 매 출: 36,414 (26.4%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 업계의 현황 (1) 산업의 특성",
+        "evidence_text": "자동차, 조선, 가전 등 전 산업에 필수적인 기초소재"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 업계의 현황 (2) 산업의 성장성",
+        "evidence_text": "중국산 철강재 대량유입과 업체들의 대규모 투자로 공급과잉"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3177,
+    "completion_tokens": 3962,
+    "reasoning_tokens": 3200,
+    "output_tokens": 762
+  },
+  "warnings": []
+}

@@ -1,0 +1,62 @@
+{
+  "stock_code": "102710",
+  "corp_name": "이엔에프테크놀로지",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 08:13",
+  "meta": {
+    "wics": "반도체와반도체장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "이엔에프테크놀로지는 반도체·디스플레이 제조공정에 쓰이는 특수 화학제품을 연구·개발하고 제조·판매하는 전자재료 전문기업입니다. 전자재료 사업부문의 품목은 프로세스케미칼, 화인케미칼(포토레지스트용 원료), 칼라페이스트, 반도체 CMP용 Slurry 등으로 구성되며, 2025년 전자재료 부문 매출은 전년 대비 15.2% 증가한 6,709억원을 기록했습니다.",
+    "business_model": "2025년 기준 제품매출/상품매출/용역매출이 전체의 100.0%를 차지하는 제조·판매 중심의 수익구조이며(제품·용역 매출 비중 100.0%), 핵심 제품군은 프로세스케미칼, 화인케미칼(포토레지스트용 원료), 컬러페이스트, CMP용 Slurry입니다. 대량 공급을 위한 Tank Lorry 체계와 울산·아산·천안 생산기지, 중국·미국 현지법인(ENF GUANGZHOU, ENF KYLE)을 통한 해외시장 대응이 영업·물류 경쟁력의 기반입니다.",
+    "main_customers": "프로세스케미칼 — 반도체 및 디스플레이 제조업체 / 화인케미칼(포토레지스트 원료) — 삼성전자·SK Hynix 등 주요 반도체 제조사 / 컬러페이스트 — 디스플레이업체 및 대기업 협력사",
+    "price_factors": [
+      {
+        "factor": "전방수요",
+        "detail": "AI·고성능 컴퓨팅 확산에 따른 반도체 수요 변화가 실적(매출)에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "원재료가격",
+        "detail": "원료인 석유화학제품 가격 변동이 원가에 큰 영향을 주어 수익성에 영향을 미칩니다."
+      },
+      {
+        "factor": "기술경쟁",
+        "detail": "공정 미세화와 품질 요구 고도화로 고부가 소재에 대한 기술력 우위가 실적 차별화 요소가 됩니다."
+      },
+      {
+        "factor": "국산화·경쟁",
+        "detail": "국산화 확대와 국내업체 증가로 품목별 경쟁이 심화되어 가격·품질 경쟁이 중요합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사와 연결대상법인은 반도체 및 디스플레이 제조공정용 특수 화학제품을 연구개발 및 제조, 판매하는 전자재료 사업부문으로 이루어져 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "제품매출/상품매출/용역매출: 670,896,290 (100.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "삼성전자, SK Hynix 반도체 등 주요 반도체 제조사의 포토레지스트의 사용량 증가에 따라"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4311,
+    "completion_tokens": 3629,
+    "reasoning_tokens": 2816,
+    "output_tokens": 813
+  },
+  "warnings": []
+}

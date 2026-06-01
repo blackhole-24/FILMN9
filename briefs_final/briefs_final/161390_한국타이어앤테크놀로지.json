@@ -1,0 +1,67 @@
+{
+  "stock_code": "161390",
+  "corp_name": "한국타이어앤테크놀로지",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 10:36",
+  "meta": {
+    "wics": "자동차부품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "한국타이어앤테크놀로지는 타이어 제조를 주력으로 하는 글로벌 자동차부품 기업으로, 2025년 연결 매출액 21조 2,023억 원을 기록하는 등 대형 완성차용·교체용 타이어 시장에서 높은 존재감을 보이고 있습니다. 글로벌 톱티어 완성차에 신차용 타이어를 공급하는 한편 한온시스템을 편입하며 자동차 열관리시스템 등으로 사업 포트폴리오를 확장하고 있습니다.",
+    "business_model": "핵심 수익원은 타이어 부문으로 FY2025 기준 타이어 등 매출이 96.9%를 차지하며, 상품 0.1%, 기타 0.1%, 공임 0.3%, 기타 2.6%로 구성되어 있습니다. 신차용(OE) 공급과 교체용(Aftermarket) 판매가 주된 매출원이며, 최근 한온시스템 편입으로 열관리시스템 분야까지 사업 영역을 넓혀 성장 동력을 다지고 있습니다.",
+    "main_customers": "타이어 등 — 완성차 제조사(포르쉐·메르세데스-벤츠·BMW·아우디·폭스바겐·현대차·BYD 등) 및 교체용 시장(딜러·소비자) / 자동차 열관리시스템 — 완성차업체(OE)",
+    "price_factors": [
+      {
+        "factor": "원재료가격",
+        "detail": "천연고무·합성고무 등 원재료의 해외 의존도가 높아 국제 원자재 가격 변동이 실적에 직접적 영향을 미칩니다."
+      },
+      {
+        "factor": "수요연동",
+        "detail": "신차용 수요는 자동차 생산대수, 교체용 수요는 차량 등록대수에 연동되어 경기·산업 순환에 따라 매출 변동성이 발생합니다."
+      },
+      {
+        "factor": "설비투자",
+        "detail": "타이어 산업은 막대한 설비투자가 소요되는 자본집약적 산업으로 설비투자·감가상각 비용이 실적에 부담으로 작용할 수 있습니다."
+      },
+      {
+        "factor": "규제리스크",
+        "detail": "공정거래·제품 책임(PL)·지적재산권 등 법률 리스크와 시장지배적지위 관련 규제가 영업·가격 정책에 제약을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "연결 매출액 21조 2,023억 원, 연결 영업이익 1조 8,411억 원"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "타이어 등: 10,001,420 (96.9%)"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "타이어 부문 > 산업의 특성",
+        "evidence_text": "타이어산업은 막대한 설비 투자가 소요되는 자본집약적 장치산업입니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "타이어 부문 > 자원조달의 특성",
+        "evidence_text": "당사는 장기 구매계약 등을 통하여 안정적인 조달을 하고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5218,
+    "completion_tokens": 4935,
+    "reasoning_tokens": 4096,
+    "output_tokens": 839
+  },
+  "warnings": []
+}

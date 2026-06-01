@@ -1,0 +1,72 @@
+{
+  "stock_code": "365590",
+  "corp_name": "하이딥",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 17:54",
+  "meta": {
+    "wics": "반도체와반도체장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "하이딥은 모바일·디스플레이용 터치 및 스타일러스 통합 IC(집적회로)를 개발하는 전기·전자(반도체) 기업입니다. 엔에이치기업인수목적18호와의 합병을 통해 2022-05-12 코스닥에 상장하였고, 2025년 연간 매출은 17.7억원, 당기손실은 148억원을 기록했습니다.",
+    "business_model": "사업부문별로 Mobile 기기용 Touch&Stylus IC가 매출의 3.1%, Mobile 기기용 Touch IC가 8.0%, Casino display용 Touch IC가 38.8%를 차지하며, 용역매출(개발비 수익)이 50.1%로 큰 비중을 차지합니다. 제품 판매(터치·스타일러스 IC)와 차세대 기술 개발 협력으로 발생하는 용역매출(개발비)이 주요 수익원입니다.",
+    "main_customers": "Mobile 기기용 Touch&Stylus IC — 글로벌 스마트폰·태블릿 제조사(메이저 글로벌 고객사) / Mobile 기기용 Touch IC — 스마트폰·스마트워치 제조사 / Casino display용 Touch IC — 국내 제1의 카지노 게임용 디스플레이 공급사(기업 고객) / 용역매출 — 차세대 기술 개발 협력을 하는 파트너사·고객",
+    "price_factors": [
+      {
+        "factor": "OLED 채택",
+        "detail": "OLED 패널 채택 비중이 커질수록 OLED 최적화 터치·스타일러스 솔루션에 대한 수요가 증가합니다."
+      },
+      {
+        "factor": "스타일러스 수요",
+        "detail": "폴더블·대형 제품군에서 스타일러스(펜) 지원 확대는 통합 스타일러스 IC 수요를 높입니다."
+      },
+      {
+        "factor": "고객집중",
+        "detail": "상위 제조사(메이저) 중심의 출하 구조는 주요 고객사와의 계약 성사 여부에 따라 실적 변동성이 커집니다."
+      },
+      {
+        "factor": "환율변동",
+        "detail": "USD·CNY 등 외화 노출이 있어 환율 변동은 매출·손익에 직접적인 영향을 미칠 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "2025년 연간 매출은 17.7억원, 당기손실은 148억원입니다."
+      },
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 엔에이치기업인수목적18호 주식회사와의 합병을 통해 2022년 5월 12일 코스닥 시장에 상장하였습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "용역매출 50.1%"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "Casino display용 Touch IC 38.8%"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "메이저 글로벌 고객사의 핵심 성능 평가와 검증을 통과하였습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4576,
+    "completion_tokens": 3661,
+    "reasoning_tokens": 2816,
+    "output_tokens": 845
+  },
+  "warnings": []
+}

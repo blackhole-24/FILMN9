@@ -1,0 +1,69 @@
+{
+  "stock_code": "222800",
+  "corp_name": "심텍",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 12:42",
+  "meta": {
+    "wics": "전자장비와기기",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "심텍은 1987년 설립된 PCB(인쇄회로기판) 제조기업으로, 2015년 인적분할을 통해 지주사(심텍홀딩스)와 제조법인(㈜심텍)으로 분리되어 현재 PCB 제조·판매를 전담하고 있습니다. 국내에 6개의 공장 및 R&D 센터를 운영하고 중국·일본 등 해외 생산법인을 보유하며 반도체용 PCB 분야에서 글로벌 고객을 확보하고 있습니다.",
+    "business_model": "핵심 사업은 반도체용 모듈 PCB(Module PCB)와 패키지 서브스트레이트(Package Substrate) 기판 제조·판매로 구성되어 있으며, 제품 포트폴리오는 메모리 모듈용 PCB에서 고부가가치 System IC(시스템 집적회로)용 서브스트레이트로 다변화하고 있습니다. [사업부문별 매출 구성]에는 '내수'와 'Package Substrate'가 주요 부문으로 기재되어 있습니다.",
+    "main_customers": "내수 — 국내 전자·반도체 관련 기업 / Package Substrate — 글로벌 메모리칩 제조사(삼성전자, SK하이닉스 등) 및 패키징 전문기업(ASE, Amkor, JCET, PTI 등)",
+    "price_factors": [
+      {
+        "factor": "전방수요",
+        "detail": "메모리·컴퓨팅·통신기기 등 전방제품의 생산량 변화에 따라 매출과 제품 가격이 직접 변동됩니다."
+      },
+      {
+        "factor": "원자재·환율",
+        "detail": "원부자재 가격과 환율 변동성이 제품 가격 수준과 수익성에 영향을 미칩니다."
+      },
+      {
+        "factor": "제품수명주기",
+        "detail": "개별 제품의 Life Cycle(수명주기)에 따라 가격과 수요가 달라져 실적에 영향을 줍니다."
+      },
+      {
+        "factor": "기술장벽",
+        "detail": "반도체용 PCB는 진입장벽이 높아 신규 경쟁사 진입 가능성이 낮아 경쟁구도가 비교적 안정적입니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 가. 회사의 개요",
+        "evidence_text": "심텍은 1987년 8월 24일 설립되어 PCB(인쇄회로기판)제조 및 판매사업을 영위해 오다가 지주회사 체재로 전환 하기 위해 사명을 심텍홀딩스로 변경하고, 2015년 7월 1일 인적분할을 하였습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 나. 주요 제품 및 매출현황",
+        "evidence_text": "당사의 주요 제품군으로는 DRAM등의 메모리칩을 확장 시켜주는 Module PCB와 각종 반도체칩을 조립할때 사용되는 Package Substrate 기판 등이 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 가. 회사의 개요",
+        "evidence_text": "글로벌 Big5 메모리칩메이커(삼성전자, SK하이닉스,USA chipmaker 등) 및 Big5 패키징전문 기업(ASE, Amkor, JCET, PTI 등)을 고객사로 확보하여 안정적인 성장을 지속하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 2. 주요 제품 및 서비스",
+        "evidence_text": "당사에서 생산하고 있는 반도체 및 통신기기용 인쇄회로기판의 가격은 제품별 구성비, 개별 제품의 Life Cycle 및 전방제품의 생산량 변화에 따라 영향을 받으며, 환율의 영향에 의해서도 가격 수준이 변동될 수 있습니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4827,
+    "completion_tokens": 4843,
+    "reasoning_tokens": 3904,
+    "output_tokens": 939
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

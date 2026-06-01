@@ -1,0 +1,67 @@
+{
+  "stock_code": "187790",
+  "corp_name": "나노",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 11:08",
+  "meta": {
+    "wics": "화학",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "나노는 1999년 나노입자 촉매용 이산화티타늄 원료 제조 기술을 바탕으로 설립된 대기오염방지 분야 기업으로, SCR(선택적촉매환원법) 탈질촉매 관련 제품과 기술을 주된 사업으로 영위하고 있습니다. 회사는 SCR 촉매의 원료·촉매·평가·재생 기술을 확보한 세계적으로 유일한 SCR촉매 전문 회사로서 대기환경 분야에서 사업영역을 확장하고 있습니다.",
+    "business_model": "주요 수익원은 SCR탈질촉매(80.1%)로, 이 부문이 전체 매출의 대부분을 차지합니다. 이 외에 TiO2(이산화티타늄) 원료 판매(17.7%), SCR탈질설비(0.7%), 기타(1.5%)가 매출을 구성하며, 회사는 하니컴·플레이트·레イヤ드 등 상용 3종의 탈질촉매 생산기술을 보유하고 양산화한 점을 강점으로 내세우고 있습니다.",
+    "main_customers": "SCR탈질촉매 — 화력발전소·산업플랜트(철강·석유화학·시멘트)·소각장·대형 선박·자동차·중장비 / SCR탈질설비 — 발전소·산업플랜트 등 설비 도입 기업 / TiO2 — 촉매 생산을 위한 원료(자사 촉매 생산용)",
+    "price_factors": [
+      {
+        "factor": "규제 강화",
+        "detail": "질소산화물 배출 규제 강화 시 SCR 촉매 수요가 증가해 매출 확대에 긍정적 영향을 미칩니다."
+      },
+      {
+        "factor": "공급 경쟁",
+        "detail": "국내외 제조사의 신규 설비 증설과 시장 진입 증가로 공급이 늘어나 프로젝트별 가격 변동성과 마진 압박이 발생할 수 있습니다."
+      },
+      {
+        "factor": "원자재 가격",
+        "detail": "TiO2·활성물질·철자재 등 국제 원자재 가격 변동은 원가와 제품 가격에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "고사양 제품 수요",
+        "detail": "고사양(고밀도셀 등) 촉매 수요 증가는 설비 투자 및 고부가가치 제품 비중 확대에 따라 실적 구성 변화로 연결될 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "세계적으로 유일한 SCR촉매 전문 회사"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "SCR탈질촉매 (80.1%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황 > 가. 업계의 현황",
+        "evidence_text": "화력발전소, 철강/석유화학/시멘트 등의 산업플랜트"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "TiO2, 활성물질, 철자재 등은 국제 원자재 시세의 영향을 직접적으로 받으며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4781,
+    "completion_tokens": 4549,
+    "reasoning_tokens": 3712,
+    "output_tokens": 837
+  },
+  "warnings": []
+}

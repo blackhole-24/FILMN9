@@ -1,0 +1,82 @@
+{
+  "stock_code": "271940",
+  "corp_name": "일진하이솔루스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 14:35",
+  "meta": {
+    "wics": "자동차부품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "일진하이솔루스는 2012년 설립된 자동차부품 업체로, Type 4 수소 저장용기(고압 수소탱크)와 매연저감장치 제조·판매를 주력으로 영위하고 있습니다. 전세계적으로 Type 4 수소탱크 양산업체는 소수에 불과한 가운데, 당사는 현대자동차 넥쏘에 수소탱크를 독점 공급하는 등 수소용기 분야에서 핵심 공급자 위치를 확보하고 있습니다. 2025년 연결 매출은 816억원을 기록했습니다.",
+    "business_model": "수익 구조는 수소용기(승용·상용)가 주를 이루며, 2025년 기준 승용수소용기 매출이 37.48%, 용기 기타(상용 수소용기 등)가 59.81%로 수소부문 합계는 97.29%를 차지합니다. 환경(매연저감장치 등) 사업은 2.71%의 매출 비중을 차지하며, 핵심 제품인 Type 4 수소용기 제조·양산 노하우와 특허(연구개발)를 바탕으로 해외 OEM·상용차·수소충전소용 튜브트레일러 등으로 사업 기반을 확대하고 있습니다.",
+    "main_customers": "수소(승용수소용기) — 자동차 OEM(현대자동차 넥쏘) / 용기 기타(상용수소용기 등) — 해외 OEM·상용차 제조사·수소충전소 운영자 / 환경(매연저감장치) — 정부 연계 프로젝트·건설기계 및 관련 A/S 업체",
+    "price_factors": [
+      {
+        "factor": "OEM 의존도",
+        "detail": "현대차 넥쏘 등 특정 모델에 대한 공급 집중은 차량 모델 교체 시 매출 변동성으로 직결됩니다."
+      },
+      {
+        "factor": "정부 보조금",
+        "detail": "환경사업 매출은 보조금 수준에 민감하며, 보조금 감소 시 매출이 감소합니다."
+      },
+      {
+        "factor": "수소 인프라 확충",
+        "detail": "충전소·수소버스·상용차용 수요 확대는 수소용기 및 튜브트레일러 수요를 증가시킵니다."
+      },
+      {
+        "factor": "기술·특허 경쟁력",
+        "detail": "Type 4 용기 등 기술 장벽과 특허 보유는 해외 진출 및 시장지배력 확보에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "당사는 2012년 11월 2일에 설립되어"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[표] 가. 주요 제품 등의 현황",
+        "evidence_text": "승용수소용기 30,582 (37.48%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[표] 가. 주요 제품 등의 현황",
+        "evidence_text": "용기 기타 48,797 (59.81%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "당사는 현대자동차 넥쏘의 수소탱크를 독점적으로 공급하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "환경사업 매출은 보조금 감소로 인하여 22억원을 시현하였습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나. 업계의 현황 (산업의 성장성)",
+        "evidence_text": "2040년까지 1,200개의 수소 충전소가 건설될 계획입니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나. 업계의 현황 (특허, 실용신안 및 상표 등 지적재산권 현황)",
+        "evidence_text": "특허를 출원하며 글로벌 기술경쟁력을 확대할 계획입니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4063,
+    "completion_tokens": 5015,
+    "reasoning_tokens": 3968,
+    "output_tokens": 1047
+  },
+  "warnings": []
+}

@@ -1,0 +1,91 @@
+{
+  "stock_code": "250060",
+  "corp_name": "모비스",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:31",
+  "meta": {
+    "wics": "소프트웨어",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "모비스는 2000년 4월 11일 삼성전자 네트워크사업부와 멀티미디어연구소 연구원들을 중심으로 설립된 IT 서비스 기업입니다. 초기에는 삼성전자 등 대기업에 멀티미디어 통신단말기 등을 공급했고, 이후 빅사이언스(대형 과학시설) 분야의 초정밀 제어시스템으로 사업 영역을 넓혀 왔습니다.",
+    "business_model": "2025년 기준 사업부문별 영업수익은 핵융합 등 29.0%, 용역 71.0%로 구성됩니다. 회사는 EPICS(초정밀 제어 시스템 개발 기반) 기반 제어기술을 활용해 가속기·핵융합 제어시스템과 관련 장비를 공급하고, 동시에 스마트팩토리 솔루션인 QRP와 AI/ML 기반 분석시스템 MOI를 통해 제조현장 데이터 관리·분석 사업도 전개하고 있습니다. 소프트웨어 개발 솔루션은 프로젝트별로 주문 제작 방식으로 계약이 이뤄지며, 라이선스비와 용역개발비를 받는 구조입니다.",
+    "main_customers": "핵융합 등 — 기초과학 연구기관, 대형 과학시설 구축 프로젝트 발주처 / 용역 — 고객사 맞춤형 소프트웨어·솔루션 도입 기업 / 스마트팩토리 솔루션 — 제조업체",
+    "price_factors": [
+      {
+        "factor": "수주실적",
+        "detail": "대형 프로젝트의 수주 여부가 매출 인식과 실적 변동에 직접 영향을 줍니다."
+      },
+      {
+        "factor": "프로젝트난이도",
+        "detail": "개발·구축 난이도와 요구 품질 수준에 따라 계약 금액이 달라져 수익성에 영향을 줍니다."
+      },
+      {
+        "factor": "인력투자",
+        "detail": "고급 개발인력 충원과 솔루션 고도화에 따른 비용 증가가 영업손실 확대 요인이 될 수 있습니다."
+      },
+      {
+        "factor": "산업전환",
+        "detail": "제조업의 디지털 전환 수요 확대는 스마트팩토리 솔루션 사업 확대에 우호적으로 작용할 수 있습니다."
+      },
+      {
+        "factor": "입찰경쟁",
+        "detail": "국내외 입찰 경쟁력과 컨소시엄 구성 여부가 기초과학 부문 수주 성과에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 사업개황 > (1) 설립배경",
+        "evidence_text": "2000년 4월 11일 삼성전자 네트워크사업부와 멀티미디어연구소 연구원들을 중심으로 설립"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "가. 사업개황 > (2) 성장과정",
+        "evidence_text": "2010년에 성장 전략 다변화의 일환으로 기존의 IT 사업에서 기초과학 기반 빅사이언스 분야의 특수 정밀제어 분야로 주력 업종을 확장"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "핵융합 등: 1,480,355 (29.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "용역: 3,617,349 (71.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "나. 제품설명 > (1) 주요 제품라인업",
+        "evidence_text": "주문 제작 소프트웨어의 구축 및 사용에 대한 라이선스비와 용역개발비를 지급받기 때문에"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 사업개황 > (1) 설립배경",
+        "evidence_text": "삼성전자 등 대기업 IT 솔루션 제공업체로서 멀티미디어 통신단말기 등을 공급"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 사업개황 > (2) 성장과정",
+        "evidence_text": "ITER 프로젝트의 재개와 수주에 대응"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "MD&A",
+        "evidence_text": "스마트팩토리부문의 주력 솔루션인 QRP와 AI 기반 솔루션 MOI"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4565,
+    "completion_tokens": 1093,
+    "reasoning_tokens": 0,
+    "output_tokens": 1093
+  },
+  "warnings": []
+}

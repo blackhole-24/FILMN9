@@ -1,0 +1,66 @@
+{
+  "stock_code": "353200",
+  "corp_name": "대덕전자",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 17:27",
+  "meta": {
+    "wics": "전자장비와기기",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "대덕전자는 PCB(Printed Circuit Board, 인쇄회로기판) 전문업체로 반도체 Package용 substrate 기판과 MLB 기판을 주력으로 생산·판매하고 있습니다. 제6기 연결기준 매출액은 1,065,295백만원을 기록했습니다.",
+    "business_model": "사업은 단일한 PCB사업부문 중심으로 구성되어 있으며, 원문 표에 따르면 PCB사업부문 매출은 1,110,129백만원으로 합계(1,065,295백만원) 대비 약 104.2%를 차지합니다(내부거래 제거 반영). 주요 수익원은 반도체 패키지용 고부가가치 기판과 MLB 기판의 주문생산(고객 맞춤형 제조)입니다.",
+    "main_customers": "PCB사업부문 — 반도체 제조업체·전자기기 제조업체·정보통신 제조업체",
+    "price_factors": [
+      {
+        "factor": "설비투자",
+        "detail": "장치산업 특성상 제조 설비 수준과 생산 규모 변화가 실적에 직접 영향을 미칩니다."
+      },
+      {
+        "factor": "주문생산",
+        "detail": "고객 주문생산 방식으로 고객사 개발·사양 변화에 따라 매출과 생산구조가 달라집니다."
+      },
+      {
+        "factor": "AI수요",
+        "detail": "AI 서버·데이터센터 등 고부가가치 수요 확대는 첨단 PCB 제품 수요 증가로 이어집니다."
+      },
+      {
+        "factor": "경쟁심화",
+        "detail": "중국 등 저비용 경쟁국의 기술 향상은 품질·기술 경쟁력 요구를 높여 실적에 영향합니다."
+      },
+      {
+        "factor": "원자재의존",
+        "detail": "CCL·PREPREG 등 원재료의 해외 의존도와 공급 변동성은 원가와 조달 리스크에 영향합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 영업 현황",
+        "evidence_text": "당사는 PCB(Printed Circuit Board) 전문업체로 우리말로는 인쇄회로기판을 생산 및 판매하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 영업 현황",
+        "evidence_text": "구체적으로는 반도체 Package용 substrate 기판과 MLB 기판을 주력사업으로 영위하고 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 업계의 현황",
+        "evidence_text": "전자기기의 초기 개발단계부터 대량생산에 이르기까지 반도체, 전자기기 및 정보통신 제조업체의 주문에 따라 생산이 이루어지는 구조입니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4904,
+    "completion_tokens": 3708,
+    "reasoning_tokens": 3008,
+    "output_tokens": 700
+  },
+  "warnings": []
+}

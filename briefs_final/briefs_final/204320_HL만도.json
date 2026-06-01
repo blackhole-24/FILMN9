@@ -1,0 +1,83 @@
+{
+  "stock_code": "204320",
+  "corp_name": "HL만도",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 11:45",
+  "meta": {
+    "wics": "자동차부품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "HL만도(에이치엘만도)는 차량의 제동·조향·현가 장치 등 안전·편의 관련 부품을 개발·생산하는 자동차 부품 기업으로, 평택·원주·익산에 생산 시설과 판교 R&D 센터를 보유하고 있습니다. 2025년 국내 매출은 30,296억원, 글로벌 매출은 94,548억원을 기록했습니다.",
+    "business_model": "핵심 제품군은 Brake(제동), Steering(조향), Suspension(현가) 및 ADAS/자율주행 관련 솔루션으로 구성되며, 자회사(에이치엘클레무브)를 통해 인지·판단·제어를 아우르는 자율주행 하드웨어·소프트웨어를 공급합니다. 사업부문은 지역 중심으로 구분되어 '자동차부품및 기타', '중국', '미국', '인도' 등으로 운영되며, 글로벌 OEM 대상 부품 공급과 해외 생산·R&D 거점(생산 사이트 19개, 연구소 18개)을 통해 수주·양산을 수행합니다.",
+    "main_customers": "자동차부품및 기타 — 글로벌 완성차 업체(현대차·기아 등) / 중국 — 중국 로컬 OEM / 미국 — 북미 완성차 및 EV 업체 / 인도 — 인도 완성차 업체(현지 생산 대응)",
+    "price_factors": [
+      {
+        "factor": "완성차 수요",
+        "detail": "글로벌·지역별 완성차 판매 변동은 부품 수요와 실적에 직접적 영향을 미칩니다."
+      },
+      {
+        "factor": "전동화 전환",
+        "detail": "EV·전동화 보급 확대 시 전자식 제동·AVAS 등 전동화 부품 수요가 증가합니다."
+      },
+      {
+        "factor": "자율주행 기술",
+        "detail": "ADAS·자율주행 시스템 수주 확대는 고부가가치 제품 비중과 실적에 긍정적 영향을 줍니다."
+      },
+      {
+        "factor": "지역 다변화",
+        "detail": "미국·중국·인도 등 해외 생산·연구 거점의 현지 수주 대응 능력이 실적 안정성에 기여합니다."
+      },
+      {
+        "factor": "규제·환경",
+        "detail": "안전 규제(NCAP)·환경법 등 규제 변화는 제품 개발·생산비용과 인증 리스크에 영향합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "<지배회사 - 에이치엘만도 주식회사>",
+        "evidence_text": "평택, 원주, 익산에 생산 시설, 판교에 R&D 센터를 두고 있습니다."
+      },
+      {
+        "field": "company_overview",
+        "source_section": "<지배회사 - 에이치엘만도 주식회사>",
+        "evidence_text": "국내 매출은 '23년 27,581억원, '24년 27,715억원, '25년 30,296억원"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "<지배회사 - 에이치엘만도 주식회사>",
+        "evidence_text": "글로벌 매출은 '23년 83,931억원, '24년 88,482억원, '25년 94,548억원을기록했습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "<지배회사 - 에이치엘만도 주식회사>",
+        "evidence_text": "섀시 제어기(ECU), 가상 엔진 사운드(AVAS) 등 전동화 필수 부품을 공급하고 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "<지배회사 - 에이치엘만도 주식회사>",
+        "evidence_text": "당사는 사업구조 안정화를 위하여 현대차/기아 뿐 아니라 GM, Ford, 중국 로컬 OEM"
+      },
+      {
+        "field": "business_model",
+        "source_section": "<주요종속회사 - 주식회사 에이치엘클레무브>",
+        "evidence_text": "출범 이후 5년간 연평균 매출 성장률(CAGR) 25.6%를 달성하여 2025년 매출 1조 8,250억 원을 기록했습니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 6394,
+    "completion_tokens": 4692,
+    "reasoning_tokens": 3648,
+    "output_tokens": 1044
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

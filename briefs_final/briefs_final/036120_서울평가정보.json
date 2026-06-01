@@ -1,0 +1,67 @@
+{
+  "stock_code": "036120",
+  "corp_name": "서울평가정보",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 00:31",
+  "meta": {
+    "wics": "상업서비스와공급품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "서울평가정보는 1992년 4월 23일 신용조사업을 목적으로 설립되어 1999년 12월 4일 코스닥에 상장된 종합 신용정보회사입니다. 신용조회·신용조사·채권추심 등 신용정보 관련 허가 사업을 통합 제공하며, 각 사업부문별로 다양한 서비스를 영위하는 회사입니다.",
+    "business_model": "FY2025 기준 신용조회가 전체 영업수익의 86.4%로 압도적 비중을 차지하고(신용조회: 35,631 (86.4%)), 나머지 매출은 서울평가정보(주) 5.9%, 신용조사 3.9%, 서울신용평가(주) 3.8%로 구성됩니다. 주요 수익원은 신용조회(개인·기업 신용정보 제공), 채권추심(채권 회수 대행), 신용조사(거래·재산 조사) 및 자산관리위탁(유동화자산 관리) 등입니다.",
+    "main_customers": "신용조회 — 개인·개인사업자·기업 / 채권추심 — 채권자(채권 보유자) / 신용조사 — 의뢰인(기업·채권자 등) / 서울신용평가(신용평가) — 공공기관·민간기업",
+    "price_factors": [
+      {
+        "factor": "NPL확대",
+        "detail": "연체대출(부실채권) 증가 시 NPL시장 규모 확대와 함께 Non-captive AMC 수임 물량이 늘어 관련 수익 증가 압력이 발생할 수 있습니다."
+      },
+      {
+        "factor": "경기변동",
+        "detail": "경기침체 시 채권추심 수임 건수는 증가하지만 회수율은 낮아져 실적이 방향별로 상반된 영향을 받을 수 있습니다."
+      },
+      {
+        "factor": "데이터융합",
+        "detail": "신용정보법 등 개정으로 빅데이터 활용·데이터 융합이 활성화되면 신용조회업 등 핵심 서비스 수요가 확대될 가능성이 있습니다."
+      },
+      {
+        "factor": "신용평가성숙",
+        "detail": "신용평가업은 이미 시장성숙기에 진입해 전반적 성장성은 낮아 추가 성장 동력이 제한될 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "당사는 1992년 4월 23일 신용조사업을 목적으로 설립"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "신용조회: 35,631 (86.4%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "개인·개인사업자 및 기업 CB 전반에 대한 각각의 서비스를 제공하며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "NPL시장 규모가 확대될 것으로 예상되고"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4988,
+    "completion_tokens": 4624,
+    "reasoning_tokens": 3840,
+    "output_tokens": 784
+  },
+  "warnings": []
+}

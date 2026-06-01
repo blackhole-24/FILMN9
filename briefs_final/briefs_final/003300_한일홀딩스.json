@@ -1,0 +1,76 @@
+{
+  "stock_code": "003300",
+  "corp_name": "한일홀딩스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 13:12",
+  "meta": {
+    "wics": "건축자재",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "한일홀딩스는 시멘트·레미탈(드라이 몰탈)·레미콘 등 건축자재와 기타 사업을 영위하는 기업집단으로, 계열사의 사업은 시멘트, 레미탈, 레미콘, 기타 부문으로 구성됩니다. 2025년 연결 매출액은 1조 9,305억원, 총자산은 3조 7,365억원 수준입니다.",
+    "business_model": "핵심 사업은 시멘트(35.7%), 레미콘(19.1%), 레미탈(15.3%), 기타(29.9%)로 구성되며, 시멘트 생산에서 레미탈·레미콘의 후공정까지 연계된 밸류체인을 통해 원재료 수요의 안정성을 확보하고 있습니다. 레미탈은 건축 현장용 드라이 몰탈의 고유 브랜드로서 전국 공급망을 통해 판매되고 있으며, 테마파크·트레이딩 사업 등으로 사업 포트폴리오를 다각화하고 있습니다.",
+    "main_customers": "시멘트 — 정부 및 민간의 토목·건축·SOC 프로젝트 / 레미탈 — 건축 현장 및 건축자재 공급망 / 레미콘 — 국내 레미콘사·건설사(공사 현장) / 기타(테마파크·트레이딩) — 일반 방문객·무역 상거래 상대방",
+    "price_factors": [
+      {
+        "factor": "건설경기",
+        "detail": "시멘트·레미콘·레미탈 수요는 국내 건설경기와 직결되어 건설투자 감소 시 매출과 실적에 직접적인 하방 압력이 발생합니다."
+      },
+      {
+        "factor": "원가상승",
+        "detail": "전력단가 및 운반비 상승 등 주요 원가 요인이 실적에 부담으로 작용할 수 있습니다."
+      },
+      {
+        "factor": "계절성",
+        "detail": "시멘트 산업은 계절별 출하 편차가 커 성수기·비수기 변동이 실적에 영향을 미칩니다."
+      },
+      {
+        "factor": "대체재 확산",
+        "detail": "슬래그 등 시멘트 대체재 사용량 증가로 장기적 출하 성장에 제약이 될 수 있습니다."
+      },
+      {
+        "factor": "국제변수",
+        "detail": "트레이딩·무역 부문은 국제정세·원자재 가격·환율 변화에 따라 매출과 이익 변동성이 커집니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "사업은 시멘트, 레미탈, 레미콘, 기타 부문으로 구성됩니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "시멘트 약 36%, 레미탈 약 15%, 레미콘 약 19%, 기타 30%"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "국내 레미콘사 및 건설사 등을 주요 거래처로 하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "MD&A(경영진 실적·전략 요약)",
+        "evidence_text": "시멘트 전체 수요량은 ... 12%가량 감소한 2025년 3,809만톤"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "MD&A(경영진 실적·전략 요약)",
+        "evidence_text": "전력단가 및 운반비 상승"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4795,
+    "completion_tokens": 3219,
+    "reasoning_tokens": 2304,
+    "output_tokens": 915
+  },
+  "warnings": []
+}

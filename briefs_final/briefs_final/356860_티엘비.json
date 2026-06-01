@@ -1,0 +1,67 @@
+{
+  "stock_code": "356860",
+  "corp_name": "티엘비",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 17:33",
+  "meta": {
+    "wics": "반도체와반도체장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "티엘비는 메모리 반도체용 인쇄회로기판(PCB)을 제조하는 기업으로 SSD와 Memory Module용 PCB가 핵심 제품입니다. 2011년 국내 최초로 SSD PCB 양산체계를 구축했으며 제15기 연결기준 매출액은 2,585억원, 전체 매출에서 수출비중은 79.2%입니다.",
+    "business_model": "사업부문은 인쇄회로기판(PCB)으로, 제품 매출의 100%가 인쇄회로기판에서 발생합니다. 주요 제품은 서버·데스크탑·태블릿용 R-DIMM·U-DIMM·So-DIMM용 PCB와 SSD용 PCB이며 고다층(High-Multilayer), 고밀도(Fine Pitch), Build-up 기술을 바탕으로 고부가가치 제품 비중을 확대하고 있습니다.",
+    "main_customers": "인쇄회로기판 — 메모리 반도체 제조업체(서버·데스크탑·태블릿용 모듈 및 SSD 제조사, 글로벌 대기업)",
+    "price_factors": [
+      {
+        "factor": "메모리 수요",
+        "detail": "메모리 반도체 시장 성장에 따라 PCB 수요가 직접적으로 증가하거나 감소하여 실적에 영향을 줍니다."
+      },
+      {
+        "factor": "수출 비중",
+        "detail": "전체 매출에서 수출비중이 높아(79.2%) 글로벌 수요·무역환경 변화에 민감합니다."
+      },
+      {
+        "factor": "환경 규제",
+        "detail": "환경 관련 법·제도의 강화 시 설비투자 및 규제 준수 비용 증가로 수익성에 부담이 될 수 있습니다."
+      },
+      {
+        "factor": "제품 기술력",
+        "detail": "고다층·고밀도·BVH 등 고부가 제품 비중 확대는 고객 승인과 생산능력에 따라 실적에 직결됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "2011 년 국내 최초로 SSD PCB 의 양산체계를 구축하였습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "인쇄회로기판 100%"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "3. 산업의 특성 (1) 주요 목표시장",
+        "evidence_text": "주요 매출처는 메모리 반도체 제조업체로서"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "환경관련 규제사항",
+        "evidence_text": "당사는 환경 관련 다양한 법적 규제 하에 있으며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5037,
+    "completion_tokens": 4191,
+    "reasoning_tokens": 3520,
+    "output_tokens": 671
+  },
+  "warnings": []
+}

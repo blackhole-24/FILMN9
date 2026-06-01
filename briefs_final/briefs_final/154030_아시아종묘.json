@@ -1,0 +1,69 @@
+{
+  "stock_code": "154030",
+  "corp_name": "아시아종묘",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 10:28",
+  "meta": {
+    "wics": "생물공학",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "아시아종묘는 종자산업 분야에 속한 기업으로 종자 연구개발부터 생산·가공·유통·판매까지 사업 전반을 영위하며 농식품 가치사슬과 연관된 역할을 담당하고 있습니다. 종자 육종과 신품종 개발을 통해 농가의 생산성 향상과 고부가가치 창출을 목표로 운영되고 있습니다.",
+    "business_model": "핵심은 종자(육종) 연구개발에서 시작해 종자 생산, 가공, 유통·판매로 이어지는 밸류체인이며, 주요 품목으로는 고추, 단호박, 무, 양파, 배추, 청경채, 수박, 옥수수 등 다양한 작물의 품종 개발·공급을 포함합니다. 국내는 8개 지점과 도시농업본부를 통해 거래처 발굴·관리와 소비자 대상 내방·전화·온라인 판매(도시농업백화점 '채가원' 포함)를 병행하며, 생명공학육종연구소 등으로 신품종 개발에 집중하고 있습니다.",
+    "main_customers": "종자(농업용) — 재배농가 / 도시농업·가정원예 상품 — 내방 고객·온라인 소비자 / 도·소매 유통 — 거래처(상인·지역 단지권)",
+    "price_factors": [
+      {
+        "factor": "기후변화",
+        "detail": "가뭄·고온 등 환경에 강한 품종 개발 실적이 판매와 고부가가치 창출에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "정책·법률",
+        "detail": "종자산업법·식물신품종보호법 등 관련 제도 변화는 민간 종자기업의 권리보호와 산업 육성에 영향을 미칩니다."
+      },
+      {
+        "factor": "수요안정성",
+        "detail": "종자는 식량공급과 직결되어 수요가 비교적 안정적이므로 실적의 기초 안정성에 기여합니다."
+      },
+      {
+        "factor": "기능성확대",
+        "detail": "기능성식품·식물유래치료제 등 종자 응용 범위 확대는 고부가가치 제품 전개 가능성을 높입니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 종자산업 분야에 속하는 기업으로"
+      },
+      {
+        "field": "business_model",
+        "source_section": "7-1. 업계현황 및 전망 7-1-1. 산업 개황(a) 종자산업",
+        "evidence_text": "구체적으로 종자산업이란 네 개의 주요한 단계로 구성되어 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "7-1. 업계현황 및 전망 7-1-1. 산업 개황(a) 종자산업",
+        "evidence_text": "재배농가에 파는 형태의 업을 의미하지만"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "7-1. 업계현황 및 전망 7-1-1. 산업 개황(a) 종자산업",
+        "evidence_text": "종자를 활용한 제품의 응용범위가 확대되면서"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 5091,
+    "completion_tokens": 3512,
+    "reasoning_tokens": 2688,
+    "output_tokens": 824
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

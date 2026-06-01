@@ -1,0 +1,67 @@
+{
+  "stock_code": "005680",
+  "corp_name": "삼영전자",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 19:17",
+  "meta": {
+    "wics": "전기제품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "삼영전자는 본사인 삼영전자공업주식회사와 종속기업으로 구성된 글로벌 전자기업으로, 콘덴서(알루미늄 전해·고체·하이브리드)와 콘덴서 자재를 생산·판매합니다. 국내 성남·평택 사업장과 중국 청도에 생산법인을 보유하고 있으며, 2025년 연결기준 누적 매출은 149,729백만원입니다.",
+    "business_model": "핵심 사업은 콘덴서 제품사업(알루미늄 전해콘덴서, 고체콘덴서, 하이브리드콘덴서)과 콘덴서 자재사업으로 구성되며, FY2025 기준 콘덴서 부문이 영업수익의 약 87.0%를 차지합니다. 생산은 본사(성남·평택)와 중국 청도법인을 통해 이루어지며, 제품 판매는 국내외 SET(완제품) 업체 및 관련 산업을 대상으로 합니다.",
+    "main_customers": "콘덴서 — SET업체(가전·정보통신·자동차업체, 휴대폰·TV·PC 등) / 콘덴서 자재 — 콘덴서 제조업체 및 당사 국내·해외 생산·판매조직",
+    "price_factors": [
+      {
+        "factor": "수요구조",
+        "detail": "전자부품 수요가 SET업체(가전·정보통신·자동차) 경기변동에 민감해 수요 감소 시 매출과 실적에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "가격경쟁",
+        "detail": "대만·동남아·중국의 저가제품 유입으로 가격경쟁이 심화되면 제품 마진이 압박받아 실적이 악화될 수 있습니다."
+      },
+      {
+        "factor": "원자재",
+        "detail": "주원료인 알루미늄의 해외 의존도가 높아 원자재 가격 변동이 제조원가와 수익성에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "전장·그린",
+        "detail": "자동차전장 및 태양광·인버터·전기차 등 그린에너지 분야의 콘덴서 수요 증가는 고부가가치 제품 비중 확대에 긍정적 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 가. 사업의 내용",
+        "evidence_text": "글로벌 전자기업입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "콘덴서: 192,031 (87.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 가. 업계의 현황",
+        "evidence_text": "전자부품산업은 SET업계의 경기변동에 큰 영향을 받기 때문에"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "주재료인 알루미늄 원자재의 해외의존도가 높아 환율의 영향력이 크고"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3993,
+    "completion_tokens": 5218,
+    "reasoning_tokens": 4416,
+    "output_tokens": 802
+  },
+  "warnings": []
+}

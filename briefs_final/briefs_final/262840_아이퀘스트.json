@@ -1,0 +1,66 @@
+{
+  "stock_code": "262840",
+  "corp_name": "아이퀘스트",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 14:11",
+  "meta": {
+    "wics": "소프트웨어",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "아이퀘스트는 ASP 기반의 SaaS(구독형) ERP와 SI(시스템 통합) 방식의 구축형 ERP를 개발·판매하는 B2B 소프트웨어 기업입니다. 클라우드, 빅데이터 기반 AI, 블록체인 보안 기술과 모바일 소상공인 경영플랫폼을 보유하며 자회사 디포커스와 협업해 HR 솔루션·AI 챗봇 등으로 사업 영역을 확장하고 있습니다.",
+    "business_model": "FY2025 기준 사업부문별 영업수익 구성은 아이퀘스트(제품군) 42.0%, 디포커스(IT 컨설팅) 58.0%로 구성되어 있습니다. 핵심 수익원은 구독형 SaaS인 '얼마에요'와 구축형 ERP '아이퀘스트B1', 여기에 전자계약·회계·HR365·AI 챗봇 등 부가서비스 및 디포커스의 컨설팅·SI 수주가 결합된 구조입니다.",
+    "main_customers": "아이퀘스트 — 소상공인·중소기업·중견기업 / 디포커스 — ERP 도입을 원하는 중소·중견기업 및 기업 고객(시스템 구축·컨설팅 대상)",
+    "price_factors": [
+      {
+        "factor": "구독 수요",
+        "detail": "SaaS 방식의 구독 수요가 늘면 '얼마에요' 매출 증가로 이어져 실적에 긍정적 영향을 줍니다."
+      },
+      {
+        "factor": "가격 경쟁",
+        "detail": "중소기업 시장은 비용 민감도가 높아 초기비용·사용료 조정이 매출과 고객유입에 직접 영향합니다."
+      },
+      {
+        "factor": "기술통합",
+        "detail": "AI·빅데이터·블록체인 등 기술 결합으로 제품 경쟁력이 좌우되어 수요와 가격 책정에 영향을 미칩니다."
+      },
+      {
+        "factor": "SAP 비용",
+        "detail": "구축형 ERP는 SAP 라이선스 등 외부 소프트웨어·하드웨어 비용 변동이 프로젝트 가격과 수익성에 영향을 줍니다."
+      },
+      {
+        "factor": "수주 의존",
+        "detail": "디포커스의 프로젝트형 매출 비중이 높아 수주 변동이 매출·이익 변동성으로 연결됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 아이퀘스트(B2B 소프트웨어 부문)",
+        "evidence_text": "개발 및 판매하는 B2B SW기업입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "아이퀘스트: 15,659 (42.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 회사 및 시장의 현황[아이퀘스트] (1) 회사의 현황 (가) 사업 개요",
+        "evidence_text": "중소기업용 통합경영관리 솔루션으로 성장하였습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5049,
+    "completion_tokens": 2940,
+    "reasoning_tokens": 2176,
+    "output_tokens": 764
+  },
+  "warnings": []
+}

@@ -1,0 +1,62 @@
+{
+  "stock_code": "234080",
+  "corp_name": "JW생명과학",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 13:13",
+  "meta": {
+    "wics": "제약",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "JW생명과학은 수액(정맥주입제) 중심의 제약회사로, 제32기 별도 기준 매출 약 2,340억을 기록하였으며 계열사 매출 비중이 큰 편입니다. 아시아 최초로 TPN(종합영양수액) 생산시설에 대한 EU-GMP 인증을 획득하는 등 생산 인프라와 수액 기술을 강점으로 내세우고 있습니다.",
+    "business_model": "주요 매출은 의약품 제조·판매(수액류)에서 발생하며 제품군별 매출 비중은 TPN 36.2%, 기초수액 28.6%, 특수수액 18.1%, 영양수액 8.1%, HEMO 7.2%, 기타 1.8%입니다. 계열사(예: JW중외제약·JW바이오사이언스)로의 판매 비중이 높고, 미국 박스터사 등과의 독점 라이선스아웃 및 수출계약을 통해 B2B·수출 채널을 확대하고 있습니다.",
+    "main_customers": "의약품(수액류) — 계열사(주요 판매처: JW중외제약·JW바이오사이언스) / TPN·수출 제품 — 해외 제약사 및 수출 파트너(라이선스·B2B 거래)",
+    "price_factors": [
+      {
+        "factor": "수출·환율",
+        "detail": "수출 비중 확대로 환율 변동이 매출 원화 환산과 손익에 직접적인 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "원재료 가격",
+        "detail": "주원료 가격 인상 시 제품 판매가와 원가 구조에 영향을 주어 실적 변동 요인이 됩니다."
+      },
+      {
+        "factor": "인증·생산시설",
+        "detail": "EU-GMP 등 인증 보유는 신규 수출시장 진입과 거래 가능성에 긍정적 영향을 줍니다."
+      },
+      {
+        "factor": "경쟁 심화",
+        "detail": "완제의약품 업체 수 증가로 제품 경쟁이 치열해지며 가격·마진에 부담을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "EU-GMP 인증을 획득하였으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황",
+        "evidence_text": "당사는 글로벌 수액제조사인 미국 박스터사와 독점 라이선스아웃 및 수출계약을 체결하였으며"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "계열회사인 JW중외제약이 75.9%이상을 차지하고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5152,
+    "completion_tokens": 4162,
+    "reasoning_tokens": 3456,
+    "output_tokens": 706
+  },
+  "warnings": []
+}

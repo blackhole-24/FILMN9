@@ -1,0 +1,68 @@
+{
+  "stock_code": "000370",
+  "corp_name": "한화손해보험",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 16:47",
+  "meta": {
+    "wics": "손해보험",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "insurance"
+  },
+  "brief": {
+    "company_overview": "한화손해보험은 대한민국 최초 민족자본으로 설립된 손해보험사로, 장기·자동차·일반보험 분야에서 다양한 상품과 서비스를 제공하고 있습니다. 2025년 별도기준 총자산은 20조 2,791억원이며, 같은 기간 영업이익은 4,884억원, 당기순이익은 3,621억원을 시현했습니다.",
+    "business_model": "핵심 사업은 장기보험·자동차보험·일반보험을 통한 보험영업(언더라이팅)이며, 보험영업수익과 보험서비스비용의 차이가 본업 수익성에 직접 영향을 줍니다. 보고서에는 보험영업수익 5조 4,960억원, 보험서비스비용 5조 2,101억원, 투자영업손익 2,274억원 등 보험영업과 투자영업(자산운용)이 주요 수익원으로 기재되어 있습니다.",
+    "main_customers": "장기보험 — 개인(보험 가입자) / 자동차보험 — 자동차 보유자(개인·법인) / 일반보험 — 개인 및 기업 고객",
+    "price_factors": [
+      {
+        "factor": "손해율",
+        "detail": "손해율(발생손해액 비중) 상승은 보험영업수익 대비 비용을 늘려 실적과 주가에 부정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "금리",
+        "detail": "저금리 환경은 투자영업(자산운용) 수익을 압박하여 전반적 이익 개선에 제약이 될 수 있습니다."
+      },
+      {
+        "factor": "경쟁심화",
+        "detail": "보험업 내 경쟁 심화는 상품 마진 축소 및 시장 점유율 확보 비용 증가로 이어질 수 있습니다."
+      },
+      {
+        "factor": "자산운용수익",
+        "detail": "운용자산 이익률과 투자영업손익 수준은 당사의 세전이익 및 당기순이익에 직접적 영향을 미칩니다."
+      },
+      {
+        "factor": "ESG/공시요구",
+        "detail": "ESG 공시 의무화와 거버넌스 개선 요구는 운영비용과 공시·관리체계 투자를 촉진할 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "한화손해보험은 대한민국 최초 민족자본 설립 손해보험사로"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "보험영업수익 5조 4,960억원"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "손해율 부담 상승, 금리 하락, 경쟁 심화"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4521,
+    "completion_tokens": 3615,
+    "reasoning_tokens": 2880,
+    "output_tokens": 735
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

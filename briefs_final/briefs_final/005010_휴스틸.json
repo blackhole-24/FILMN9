@@ -1,0 +1,66 @@
+{
+  "stock_code": "005010",
+  "corp_name": "휴스틸",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 19:04",
+  "meta": {
+    "wics": "철강",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "휴스틸은 단일 사업부문인 강관(파이프) 제조·판매를 영위하는 회사로, 탄소강관과 스테인리스 강관을 생산하는 복수의 공장을 보유하고 있습니다. 2025년 연결기준 매출액은 612,490백만원으로 집계되었습니다.",
+    "business_model": "핵심 사업은 강관 제조·판매로, 사업부문별 영업수익 구성상 '강관'이 존재하며(강관: 3,407 (0.6%)), 제품군으로는 배관용 강관, OCTG(Oil Country Tubular Goods, 유정용 강관), 구조용 강관, 전선관 등을 생산합니다. 주요 원재료는 HRC(Hot Rolled Coil, 열연코일) 및 STS(Stainless Steel, 스테인리스)이며, 포스코 등 국내외 공급처로부터 조달하고 MOU·Spot성 구매로 가격경쟁력을 확보하고 있습니다.",
+    "main_customers": "강관(내수) — 건설업체·조선업체·자동차·기계업체 / 강관(수출) — 에너지 관련 사업체(송유관·유정 프로젝트 발주처)",
+    "price_factors": [
+      {
+        "factor": "원재료 조달",
+        "detail": "열연코일(HRC)·STS 가격과 조달능력이 원가 구조에 직접적 영향을 주어 실적 변동성이 큽니다."
+      },
+      {
+        "factor": "수요 산업",
+        "detail": "내수는 건설·조선, 수출은 에너지 프로젝트 수요에 크게 의존하여 해당 산업의 경기 변동이 실적에 직결됩니다."
+      },
+      {
+        "factor": "공급 과잉",
+        "detail": "업계의 설비 증설로 인한 공급 과잉과 경쟁 심화는 판매단가 하락 및 수익성 악화로 연결될 가능성이 있습니다."
+      },
+      {
+        "factor": "무역·관세",
+        "detail": "미주 지역의 관세·쿼터 등 통상 압박은 수출 실적과 유통 재고에 영향을 주어 매출 감소 요인이 됩니다."
+      },
+      {
+        "factor": "환율변동",
+        "detail": "외화표시 자산·부채 보유로 환율 변동 시 거래손익 및 평가손익이 발생하여 재무구조에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 단일 사업부문(강관 제조 및 판매)으로 구성되어 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "강관: 3,407 (0.6%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "강관의 최대 수요산업은 내수는 건설과 조선산업"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4843,
+    "completion_tokens": 3503,
+    "reasoning_tokens": 2752,
+    "output_tokens": 751
+  },
+  "warnings": []
+}

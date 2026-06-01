@@ -1,0 +1,73 @@
+{
+  "stock_code": "417970",
+  "corp_name": "모델솔루션",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 19:15",
+  "meta": {
+    "wics": "기계",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "모델솔루션은 고품질 신속금형 제작 기술을 바탕으로 프로토타입 제작과 소량생산 서비스를 제공하는 제조 솔루션 기업입니다. 1993년 제일엔지니어링으로 창업하여 2005년 법인전환 후 Design·Functional·IMB(QDM)·TSB 등으로 사업을 확장하며 One-Stop Manufacturing Solution을 지향하고 있습니다.",
+    "business_model": "핵심 사업은 CNC 정밀가공 기반의 Design 프로토타입, Functional 프로토타입, 고품질 QDM(신속금형) 기반의 IMB(舊 QDM) 사업부와 제조 외주화 단계의 TSB(구 CM) 사업부로 구성되어 있습니다. 프로토타입(Design·Functional)과 IMB를 통한 다품종 소량생산, 그리고 TSB를 통한 개발·제조·공급망 관리의 통합 서비스가 수익 축을 이룹니다.",
+    "main_customers": "Design 프로토타입 — 전자·전기·컴퓨터·중소형 CE 제조업체 / Functional 프로토타입 — 연구개발 투자 기업·스타트업·혁신기업 / IMB(QDM) — 의료기기(수술로봇·진단기기 부품) 및 소량사출 수요 기업 / TSB — 제품 개발부터 제조·공급망 관리를 원하는 제조기업",
+    "price_factors": [
+      {
+        "factor": "전방산업 수요",
+        "detail": "전자·모빌리티·헬스케어 등 전방산업의 연구개발 투자 확대 또는 축소가 수주·매출에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "글로벌 경기",
+        "detail": "중소형 CE 등 일부 수요는 글로벌 소비·경기에 민감해 경기 둔화 시 실적에 부정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "다품종 소량",
+        "detail": "다품종 소량생산 트렌드 강화는 QDM·IMB 및 TSB 관련 수주 증가로 연결될 수 있습니다."
+      },
+      {
+        "factor": "3D프린팅",
+        "detail": "3D 프린팅 시장 확대는 프로토타이핑 서비스 수요를 넓혀 회사의 서비스 포트폴리오 성장 요인이 됩니다."
+      },
+      {
+        "factor": "환율",
+        "detail": "미달러·엔화 등 거래통화의 환율 변동은 수출·해외 매출에 따른 외환 위험으로 실적에 영향을 미칠 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "One-Stop Manufacturing Solution 기업입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황",
+        "evidence_text": "CNC 정밀가공기술 기반의 Design 프로토타입 사업부"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "라. 시장여건 및 영업의 개황",
+        "evidence_text": "전자ㆍ전기, 자동차, 컴퓨터, 항공ㆍ우주, 메디컬 산업 등"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "라. 시장여건 및 영업의 개황",
+        "evidence_text": "2031년까지 향후 10년 간 연평균 11%의 성장이 예상되는 시장입니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 5600,
+    "completion_tokens": 3460,
+    "reasoning_tokens": 2624,
+    "output_tokens": 836
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

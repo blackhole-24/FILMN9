@@ -1,0 +1,72 @@
+{
+  "stock_code": "262260",
+  "corp_name": "에이프로",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 14:10",
+  "meta": {
+    "wics": "전자장비와기기",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "에이프로는 2000년 6월 27일 설립되어 전력변환장치(SMPS) 및 인버터 기술을 바탕으로 리튬이온 2차전지의 활성화 공정에 해당하는 장비를 개발·생산·공급하는 기업입니다. 주로 충방전기(Formation)와 고온가압충방전기(Jig Formation) 등 활성화 공정용 장비를 주요 제품으로 제공합니다.",
+    "business_model": "사업부문별로 2차전지 장비가 매출의 93.0%를 차지하고 기타가 7.0%를 차지합니다. 핵심 수익원은 2차전지 활성화 공정용 장비(충방전기, 고온가압충방전기 등)로, 활성화 공정에 필요한 제품 전체를 개발·생산하여 리튬이온 2차전지 제조업체에 공급합니다.",
+    "main_customers": "2차전지 장비 — 리튬이온 2차전지 제조업체 / 기타 — (구체적 고객 미기재)",
+    "price_factors": [
+      {
+        "factor": "전방산업 수요",
+        "detail": "전기차·ESS 등 전방 수요의 증감에 따라 장비 수요가 뒤따라 변동합니다."
+      },
+      {
+        "factor": "경기 지연 효과",
+        "detail": "장비 산업은 전방산업의 호황·불황이 표면화된 이후에 실적에 영향을 미치는 경향이 있습니다."
+      },
+      {
+        "factor": "중국 가격경쟁",
+        "detail": "중국 기업과의 가격 경쟁력은 경쟁 압력으로 작용할 수 있습니다."
+      },
+      {
+        "factor": "기술·자동화 역량",
+        "detail": "전력변환·공장 자동화·통신 프로그래밍 등 기술적 차별화 수준이 경쟁력에 직접 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "활성화공정에 해당하는 장비를 생산 및 공급합니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "2차전지 장비: 136,841,994 (93.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "충방전기(Formation)와 고온가압충방전기(Jig Formation)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "당사의 주요 고객은 리튬이온 2차전지 제조업체들이며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "중국 기업과의 가격 경쟁력을 극복"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4260,
+    "completion_tokens": 4404,
+    "reasoning_tokens": 3648,
+    "output_tokens": 756
+  },
+  "warnings": []
+}

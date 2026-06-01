@@ -1,0 +1,86 @@
+{
+  "stock_code": "037440",
+  "corp_name": "희림",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 11:25",
+  "meta": {
+    "wics": "건설",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "희림은 1970년 희림건축설계사무소로 출발해 1989년 법인 전환 이후 꾸준히 성장해 온 건축설계·CM(건설사업관리) 전문회사입니다. 국내 다수 건축물 설계 실적과 CM능력평가 1위(2019, 2020, 2022) 등으로 업계에서 기술력과 경쟁력을 인정받고 있으며, 해외에서도 다수 용역을 수주하고 있습니다.",
+    "business_model": "주요 수익은 국내도급공사(86.0%)와 해외도급공사(14.0%)에서 발생하며, 건축물 설계와 CM(건설사업관리)·감리(현장 감독) 등 종합관리 역량이 핵심입니다. 국내 공공·민간 발주처의 설계·허가·준공 대행과 건설사업관리 전반을 수행하며, 해외 프로젝트 수주를 통해 사업 영역을 확장하고 있습니다.",
+    "main_customers": "국내도급공사 — 공공 또는 민간 발주처 / 해외도급공사 — 해외 발주처(공공·민간)",
+    "price_factors": [
+      {
+        "factor": "건설경기",
+        "detail": "건설업은 수주 산업으로 경제 상황에 민감하게 연동되어 경기 변동 시 수주·실적이 직결적으로 영향을 받습니다."
+      },
+      {
+        "factor": "정부정책",
+        "detail": "정부의 부동산 정책과 건설관련 규제는 건설경기에 영향을 미치는 주요 요인으로 실적 변동 요인이 됩니다."
+      },
+      {
+        "factor": "발주방식",
+        "detail": "공공기관의 Turn Key·CM형태·종합평가 방식 확대로 복합적 종합관리능력이 경쟁력의 핵심이 됩니다."
+      },
+      {
+        "factor": "기술경쟁력",
+        "detail": "수행 실적과 기술력이 우수한 업체 중심으로 재편되는 구조에서 실적·기술력은 수주 경쟁력에 직접적 영향을 줍니다."
+      },
+      {
+        "factor": "해외수주",
+        "detail": "해외시장 진출과 해외 용역 수주는 수익 다변화 및 성장 기회로 작용하나 해외사업 성과에 따라 실적 변동성이 존재합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "나. 회사의 현황 (1) 영업개황 (가) 영업개황",
+        "evidence_text": "'70년 희림건축설계사무소로 설립되어"
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. 산업의 특성",
+        "evidence_text": "당사는 건설 관련 서비스업인 건축물의 설계와 CM/감리를 수행하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "국내도급공사: 119,123 (86.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "해외도급공사: 16,135 (14.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 산업의 특성",
+        "evidence_text": "공공 또는 민간 발주처"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 산업의 특성",
+        "evidence_text": "건설업은 수주 산업이며 경제 상황에 민감하게 연동하는 성격을 가지기 때문에"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 산업의 특성",
+        "evidence_text": "정부의 부동산 정책과 건설관련 규제"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 2942,
+    "completion_tokens": 4587,
+    "reasoning_tokens": 3648,
+    "output_tokens": 939
+  },
+  "warnings": []
+}

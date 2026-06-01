@@ -1,0 +1,67 @@
+{
+  "stock_code": "330860",
+  "corp_name": "네패스아크",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 16:39",
+  "meta": {
+    "wics": "반도체와반도체장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "네패스아크는 시스템반도체 후공정(Test) 솔루션을 주력으로 제공하는 기업으로, 전력반도체(PMIC), 디스플레이 구동칩(DDI), SoC, RF 등 다양한 시스템반도체 제품군의 테스트를 수행합니다. 2025년 매출은 1,141억원이며, 같은 해 영업이익은 47억원으로 흑자 전환하였습니다.",
+    "business_model": "주력 사업은 시스템반도체 웨이퍼 테스트(전기적 기능 검사)이며, FY2025 기준 사업부문별 영업수익은 용역매출 90.2%, 내수 18.0%, PKG Test 0.4%, 임대매출 0.3%, 기타매출 0.5%로 구성되어 있습니다. 테스트 단가는 '장비별 시간당 단가 × Wafer 장당 또는 PKG 당 Test Time'으로 산정되며 장비 성능과 Test Time에 따라 수익성이 좌우됩니다.",
+    "main_customers": "용역매출 — 팹리스·파운드리 등 시스템반도체 제조업체 / 내수 — 국내 반도체 고객(내수 매출) / PKG Test — 패키지 테스트를 필요로 하는 반도체 제조업체 / 임대매출 — 임차인(부동산 임대 수익)",
+    "price_factors": [
+      {
+        "factor": "장비투자비",
+        "detail": "고가의 테스트 장비(평균 20~30억원) 투자 여부가 양산 능력과 단가(시간당 단가)에 직접적 영향을 미칩니다."
+      },
+      {
+        "factor": "핵심인력",
+        "detail": "테스트 프로그램 개발·운용 능력은 엔지니어 역량에 좌우되므로 핵심 인력 확보가 품질과 수주에 중요합니다."
+      },
+      {
+        "factor": "테스트단가",
+        "detail": "장비 가격(감가상각)과 제품별 Test Time 변화는 단가와 수익성에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "전방수요",
+        "detail": "팹리스·파운드리 등 시스템반도체 전방시장의 수요 변동은 외주 테스트 수요와 매출에 직결됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "네패스아크 테스트 사업영역",
+        "evidence_text": "당사는 시스템반도체 후공정 테스트 솔루션을 제공합니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "용역매출: 102,868 (90.2%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 웨이퍼 테스트를 주력으로 영위하고 있으며"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "2025년 매출은 2024년 대비 4% 감소한 1,141억원을 달성하였지만"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4254,
+    "completion_tokens": 2965,
+    "reasoning_tokens": 2176,
+    "output_tokens": 789
+  },
+  "warnings": []
+}

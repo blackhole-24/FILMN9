@@ -1,0 +1,64 @@
+{
+  "stock_code": "141080",
+  "corp_name": "리가켐바이오",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 10:09",
+  "meta": {
+    "wics": "제약",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "리가켐바이오는 의약화학(Medicinal Chemistry)을 기반으로 ADC(항체-약물 결합체), 면역항암제, 항생제 등 미충족 수요가 큰 분야에 연구개발 역량을 집중하는 바이오기업입니다. 자체 ADC 플랫폼 'ConjuALL'을 보유하고 이를 통한 기술이전 및 사업화를 통해 기업가치 성장을 도모하고 있습니다.",
+    "business_model": "핵심 사업은 ADC 플랫폼 기술과 합성신약 연구개발, 그리고 의료기기·의료용 소모품 판매로 구성되어 있으며, 보유한 원천기술을 바탕으로 기술이전(라이선스)과 공동연구, 기술용역·원료공급 계약 및 상품매출을 통해 수익을 창출합니다. ConjuALL 기반의 페이로드·링커·결합기술을 적용한 후보물질과 임상개발물질을 통해 다양한 상업화 경로를 염두에 두고 있습니다.",
+    "main_customers": "ADC·기술이전 — 글로벌 제약사(기술이전·공동연구 상대) / 합성신약 연구협력 — 제약사 및 연구기관(공동연구·기술용역 대상) / 의료기기·소모품 — 수도권 소재 병원(납품처)",
+    "price_factors": [
+      {
+        "factor": "신약개발 리스크",
+        "detail": "임상 실패 가능성과 긴 개발기간(수년~십수년)은 실적과 기업가치 변동성을 크게 높입니다."
+      },
+      {
+        "factor": "지적재산권",
+        "detail": "물질특허 확보 여부가 기술이전과 장기적 매출 창출에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "정부 규제",
+        "detail": "허가 승인 절차와 규제 강화는 임상 진행 속도와 상업화 시점에 영향을 줍니다."
+      },
+      {
+        "factor": "기술이전 의존도",
+        "detail": "기술이전·라이선스 계약 실적은 매출 규모와 시기에 큰 영향을 주는 주요 수익원입니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "주요 사업영역은 신약연구개발 분야에서 ADC(Antibody-Drug Conjugates: 항체-약물-결합체)와 합성신약분야 그리고 의료기기, 의료용 소모품 판매사업입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "MD&A",
+        "evidence_text": "당사의 원천기술 (Platform) 및 이 기술을 적용한 후보물질과 임상개발 약물(Product)을 통해 다양한 수익 모델을 창출하고 있으며, 기술이전을 비롯한 사업화를 통하여 기업가치 성장을 기대하고 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "의약사업의 경우, 사업연도말 현재 수도권 소재 2개 병원의 치료재료 등 의료소모품과 의료기기를 납품하고 있습니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 5599,
+    "completion_tokens": 3666,
+    "reasoning_tokens": 2880,
+    "output_tokens": 786
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "stock_code": "439260",
+  "corp_name": "대한조선",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 12:35",
+  "meta": {
+    "wics": "조선",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "대한조선은 중형(Aframax) 및 준대형(Suezmax) 선박의 설계·건조에 특화된 조선사로, 원유운반선·석유제품운반선·컨테이너선 등을 건조하며 글로벌 선주를 대상으로 사업을 영위하고 있습니다.",
+    "business_model": "주요 수익은 상선(선박 건조)에서 발생하며, 제39기 사업부문별 매출 기준으로 원유운반선이 약 87.7%, 정유운반선이 약 11.6%, 기타(블록·철스크랩)가 약 0.7%를 차지합니다. 주력 선종은 Aframax·Suezmax급 탱커와 중형 컨테이너선(8,000TEU급)이며, LNG DF system, Scrubber 등 친환경 사양 적용과 설계·건조 역량이 핵심 경쟁력입니다.",
+    "main_customers": "상선(원유운반선·정유운반선·컨테이너선) — 선주(해운사, 에너지 관련 선사 등) / 기타(블록·철스크랩) — 국내 수요처",
+    "price_factors": [
+      {
+        "factor": "친환경 규제",
+        "detail": "IMO 등 환경규제 강화 시 친환경 사양 요구가 늘어나 설계·기술 경쟁력에 따라 수주 경쟁력이 달라집니다."
+      },
+      {
+        "factor": "지정학 리스크",
+        "detail": "중동 등 지정학적 불안은 우회운항·톤마일 증가 등으로 선복량 실효치 변화와 운임 변동성을 확대해 실적에 영향합니다."
+      },
+      {
+        "factor": "발주량·신조선가",
+        "detail": "신조 발주량과 신조선가 변동은 매출 기회와 수익성에 직접적 영향을 미치며, 2025년 탱커선 발주가 큰 폭으로 변동했습니다."
+      },
+      {
+        "factor": "운임 변동",
+        "detail": "유조선 운임 급등은 단기적으로 선사 수익성 개선으로 발주 여력 확대로 이어질 수 있지만, 운임 변동성은 시장 불확실성을 높입니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "당사는 중형(Aframax) 및 준대형(Suezmax) 선박의 설계 및 건조에 특화된 기업으로"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출]",
+        "evidence_text": "원유운반선(*1) | 1,076,901"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "세계 각국의 선주들이 발주한 입찰에 참여하는 구조"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "지정학 리스크는 예측의 범위를 벗어나 언제,어디서든 발생할 수 있는 이슈로"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5545,
+    "completion_tokens": 4698,
+    "reasoning_tokens": 3904,
+    "output_tokens": 794
+  },
+  "warnings": []
+}

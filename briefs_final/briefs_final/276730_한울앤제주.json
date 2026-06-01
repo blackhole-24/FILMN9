@@ -1,0 +1,67 @@
+{
+  "stock_code": "276730",
+  "corp_name": "한울앤제주",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 14:43",
+  "meta": {
+    "wics": "음료",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "한울앤제주는 '크래프트 맥주의 대중화'를 비전으로 2015년 2월 설립된 크래프트 맥주 제조사입니다. 브루클린 브루어리와의 파트너십을 통해 양조기술을 도입하고 2017년 6월 양조장을 완공하여 일반맥주제조면허를 취득했으며, 2018년 브랜드 인지도 및 매출 1위를 달성했습니다.",
+    "business_model": "핵심은 제주를 콘셉트로 한 메인 브랜드(제주위트에일, 제주펠롱에일, 제주거멍에일)와 배럴시리즈 등 프리미엄 제품, 논알콜·탄산수 등으로 구성된 제품 판매를 통한 수익 창출이며 자동화 설비를 통한 대량생산 모델을 추구합니다. 수출 비중은 FY2025 기준 1.6%로 명시되어 있으며(수 출: 107 (1.6%)), 국내 유통사 및 프랜차이즈와의 콜라보레이션 제품도 수익원으로 활용하고 있습니다.",
+    "main_customers": "메인 브랜드 — 일반 소비자(크래프트 맥주 입문자 포함) / 콜라보레이션 제품 — 유통사·프랜차이즈 파트너(예: 지에스리테일, 데일리비어) / 수출 — 해외 바이어",
+    "price_factors": [
+      {
+        "factor": "조세정책",
+        "detail": "주세 과세체계 변화(종량세 등)는 제품 가격 구조와 고가 수제맥주 부담에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "규제완화",
+        "detail": "종합주류도매업 면허 요건 완화 등은 영세 제조자의 유통 접근성을 높여 경쟁 환경에 변화를 초래할 수 있습니다."
+      },
+      {
+        "factor": "설비투자비",
+        "detail": "주류업은 장치산업으로 초기 설비투자비가 크므로 설비 운용과 감가가 실적에 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "소비자 트렌드",
+        "detail": "수입맥주 다양화 및 크래프트 수요 증가, 프리미엄 수요 확산은 매출과 브랜드 포지셔닝에 직접적 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 회사의 영업현황",
+        "evidence_text": "2015년 2월 회사를 설립하였습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. 주요 제품 등의 현황",
+        "evidence_text": "2017년 8월 제주위트에일을 출시하였습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "수 출: 107 (1.6%)"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나. 시장현황",
+        "evidence_text": "2020년부터는 맥주와 탁주에 종량세(용량 기준 과세)가 도입되어"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5036,
+    "completion_tokens": 3488,
+    "reasoning_tokens": 2688,
+    "output_tokens": 800
+  },
+  "warnings": []
+}

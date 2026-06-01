@@ -1,0 +1,72 @@
+{
+  "stock_code": "035510",
+  "corp_name": "신세계 I&C",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 00:19",
+  "meta": {
+    "wics": "IT서비스",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "신세계 I&C는 IT서비스 및 IT유통을 영위하는 기업으로, 유통 분야에 특화된 IT시스템의 운영·구축 역량을 보유하고 있습니다. 시스템 운영(SM)과 시스템개발/통합(SI), 클라우드, 디지털 공간 서비스, AI(인공지능) 등을 주요 사업영역으로 제공합니다.",
+    "business_model": "FY2025 기준 사업부문별 영업수익 구성은 IT 서비스 5.7%, IT 유통 27.9%, 용역 8.2%, IT정보서비스 0.0%, 플그림 3.1%입니다. 핵심 수익원은 IT유통(장비·솔루션 총판)과 IT서비스(SM(시스템운영)·SI(시스템개발/통합)·클라우드·디지털 공간·AI)이며, 전기차충전 사업은 매각하여 AI·보안·클라우드 등 본원적 경쟁력에 역량을 집중하고 있습니다.",
+    "main_customers": "IT 서비스 — 유통회사 / IT 유통 — IT 장비·솔루션을 구매하는 기업 고객 / IT정보서비스 — 유통회사 및 협력회사 / 용역 — 용역을 필요로 하는 기업 고객 / 플그림 — 종속회사 관련 매출원",
+    "price_factors": [
+      {
+        "factor": "고객사 IT투자",
+        "detail": "고객사의 IT 투자 축소·지연 시 수주와 매출이 줄어 실적에 직접적인 악영향을 미칩니다."
+      },
+      {
+        "factor": "AI 투자수요",
+        "detail": "글로벌·국내에서 AI 인프라와 AI 내재화 수요가 확대되면 클라우드·AI 관련 서비스 수요가 증가합니다."
+      },
+      {
+        "factor": "장기 파트너십",
+        "detail": "시스템 구축 후 장기 운영 계약 비중이 높아 고객과의 장기적 파트너십 유지 여부가 실적 안정성에 영향합니다."
+      },
+      {
+        "factor": "데이터센터 수요",
+        "detail": "데이터센터 및 클라우드 인프라 수요 증가는 클라우드·MSP·프라이빗클라우드 등 관련 사업에 긍정적입니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "지배회사 : 신세계아이앤씨"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "IT 유통: 191,783 (27.9%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "업계의 현황",
+        "evidence_text": "고객의 주문에 의해 생산되는 수발주형 산업입니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "업계의 현황",
+        "evidence_text": "'26년 글로벌 IT서비스 시장 지출 규모는 전년대비 9.8% 증가가 예상됩니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "전기차 충전 사업은 매각하였으며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4340,
+    "completion_tokens": 4903,
+    "reasoning_tokens": 4096,
+    "output_tokens": 807
+  },
+  "warnings": []
+}

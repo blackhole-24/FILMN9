@@ -1,0 +1,91 @@
+{
+  "stock_code": "002450",
+  "corp_name": "삼익악기",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 18:04",
+  "meta": {
+    "wics": "레저용장비와제품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "삼익악기는 악기 사업과 집단 에너지 사업의 2개 사업부문으로 구성된 기업입니다. 악기사업은 피아노·기타·전자악기·관현악기 등을 다루며 인도네시아 현지 생산법인과 미국·중국·독일 판매법인을 통해 해외 판로를 확보하고 있고, 집단에너지 사업은 광주 지역을 중심으로 전기와 열을 공급합니다.",
+    "business_model": "FY2025 기준 사업부문별 영업수익은 악기사업 48.3%, 집단에너지 38.7%, 기타매출 13.0%로 구성되어 있습니다. 악기사업은 인도네시아 생산제품을 본사가 매입해 제3국으로 수출하는 중계무역 비중이 높고, 집단에너지는 광주 일대 약 4만 가구에 냉·난방 수요에 대응해 전기·열을 생산·공급하는 구조입니다.",
+    "main_customers": "악기사업 — 가정용·교육용·전문 연주자 및 해외 유통망(미국·중국·유럽) / 집단에너지 — 광주광역시 일대 약 4만 가구 / 기타매출 — 별도 구체적 고객 기재 없음",
+    "price_factors": [
+      {
+        "factor": "경기민감도",
+        "detail": "악기 수요는 국민경제 성장 및 산업경기 상황에 따라 변동성이 커 실적에 직결됩니다."
+      },
+      {
+        "factor": "피아노시장 포화",
+        "detail": "성숙한 국가에서는 피아노 수요가 정체·감소 추세여서 피아노 매출에 하방압력이 될 수 있습니다."
+      },
+      {
+        "factor": "전자악기 성장",
+        "detail": "디지털·전자악기 수요는 증가 추세여서 관련 제품 비중 확대는 회사 실적에 긍정적입니다."
+      },
+      {
+        "factor": "생산비·숙련도",
+        "detail": "악기 산업은 인건비 비중과 숙련 기술이 높아 인건비 상승이나 기술인력 확보가 원가와 공급능력에 영향합니다."
+      },
+      {
+        "factor": "해외판로 의존도",
+        "detail": "인도네시아 생산 및 해외 판매법인 중심의 수출·중계무역 구조는 글로벌 수요 변동과 환율·물류 리스크에 민감합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "당사는 악기 사업, 집단 에너지 사업 2개 사업부문으로 구성되어 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "악기사업: 108,392 (48.3%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "집단에너지: 86,909 (38.7%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "기타매출: 29,138 (13.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "광주광역시 일대 약 4만 가구를 대상으로"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "미국, 중국, 유럽 등에 대하여 안정적인 판로를 확보하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "□ 시장여건 및 영업의 개황[악기/사업 부문]",
+        "evidence_text": "악기는 국민경제 성장 및 산업경기 상황에 따라 수요가 변동하는 수요탄력성이 매우 큰 업종이며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "□ 시장여건 및 영업의 개황[악기/사업 부문]",
+        "evidence_text": "인건비 비중이 높고 숙련된 기술을 필요로하는 노동집약적 산업으로"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3884,
+    "completion_tokens": 4449,
+    "reasoning_tokens": 3392,
+    "output_tokens": 1057
+  },
+  "warnings": []
+}

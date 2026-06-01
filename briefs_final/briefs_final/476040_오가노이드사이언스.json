@@ -1,0 +1,74 @@
+{
+  "stock_code": "476040",
+  "corp_name": "오가노이드사이언스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 20:45",
+  "meta": {
+    "wics": "생물공학",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "오가노이드사이언스는 오가노이드(3차원 세포 구조체) 기반 기술을 바탕으로 재생치료제 개발과 신소재 평가솔루션을 제공하는 바이오 회사입니다. 오가노이드 기반 재생치료제(ATORM)와 신소재평가 플랫폼(ODISEI)을 중심으로 정밀의료, 연구용 시약(organoEZ), CDMO(위탁생산) 등으로 사업을 확장하고 있습니다. 2023~2024년 국가 차원의 첨단전략기술 선정과 인정 등을 통해 기술적 위상을 확보했습니다.",
+    "business_model": "핵심 사업은 오가노이드 기반 재생치료제 개발(ATORM)과 오가노이드 기반 신소재평가솔루션(ODISEI)이며, 여기에 연구용 시약(RUO)인 organoEZ 판매, 면역항암제 정밀의료, 세포·조직공학제재 CDMO, 반려동물 독성평가 등 파생 사업이 결합되어 있습니다. 공식적으로 보고된 주요 사업부문은 신소재 평가솔루션, 수출, RUO 제품 판매, 기타로 구성되어 있습니다.",
+    "main_customers": "신소재 평가솔루션 — 신약개발사·식품·화장품업체 / RUO 제품 판매 — 연구자·연구기관 / CDMO — 세포·조직공학제제 위탁생산 수요 기업 / 정밀의료(면역항암제) — 병원·의료진",
+    "price_factors": [
+      {
+        "factor": "규제·정책",
+        "detail": "FDA의 동물실험 단계적 폐지 로드맵 등 규제·정책 변화는 오가노이드 기반 평가·치료 수요를 촉진할 수 있습니다."
+      },
+      {
+        "factor": "시장 성장",
+        "detail": "글로벌·국내 오가노이드 시장의 고성장 전망은 신소재평가 및 제품 판매 확대에 긍정적 영향을 줍니다."
+      },
+      {
+        "factor": "경쟁 심화",
+        "detail": "오가노이드 상업화 기업 증가와 기존 연구용 시약사의 진입은 경쟁을 심화시켜 가격·점유율에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "R&D 비용 부담",
+        "detail": "공격적 연구개발 투자는 기술 경쟁력 확보에 기여하지만 단기적으로 영업손실 및 자금조달 필요로 실적 변동성을 키울 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "오가노이드 핵심기술을 바탕으로 '오가노이드 기반 재생치료제'를 개발하고 있으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. 주요 제품 등의 현황",
+        "evidence_text": "ODISEI-ONC를 2020년에 상용화하였고"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 주요 제품 등의 현황",
+        "evidence_text": "신약, 식품, 화장품"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "영업 현황 > 산업의 개황, 특성 및 성장성",
+        "evidence_text": "동물실험 단계적 폐지를 공식화하는 FDA 로드맵"
+      },
+      {
+        "field": "financials",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "영업수익은 전년 대비 약 23.2% 증가한 24.1억원을 기록"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 5537,
+    "completion_tokens": 5187,
+    "reasoning_tokens": 4288,
+    "output_tokens": 899
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

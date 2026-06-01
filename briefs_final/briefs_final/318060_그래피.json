@@ -1,0 +1,76 @@
+{
+  "stock_code": "318060",
+  "corp_name": "그래피",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:36",
+  "meta": {
+    "wics": "건강관리장비와용품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "그래피는 치과용 3D프린팅 소재와 관련 의료기기를 개발·공급하는 화학 업종 기업입니다. 자체 올리고머 개발 및 합성 역량을 바탕으로 맞춤 소재를 개발해 왔고, 세계 최초의 형상기억 투명교정장치(SMA)를 개발·상용화한 점이 특징입니다. 또한 미국, EU, 일본 등 주요 해외 인허가를 확보하며 글로벌 시장 확대를 추진하고 있습니다.",
+    "business_model": "사업부문별 영업수익은 제품매출 41.4%, 상품매출 20.4%, 질소경화기 13.5%, 기타소재 10.2%, 기타매출 5.1%, 스캐너 2.4%, 잔여레진제거장치 등 2.3%, 기타 상품 2.2%, 형상기억투명교정장치 1.4%, 로봇시스템 1.1%로 구성됩니다. 회사는 3D프린팅 소재와 의료기기, 그리고 관련 장비·소프트웨어·생산 프로토콜을 하나의 통합솔루션으로 제공하는 구조를 갖추고 있습니다. 형상기억 투명교정장치는 3D프린터로 직접 출력해 생산하는 방식으로 차별화를 강조하고 있습니다.",
+    "main_customers": "제품매출 — 치과용 3D프린팅 소재 수요처 / 상품매출 — 치과·의료기기 관련 제품 구매처 / 형상기억투명교정장치 — 치과교정 산업 고객 / 질소경화기·스캐너·로봇시스템 — 생산 장비 및 솔루션 도입 고객",
+    "price_factors": [
+      {
+        "factor": "해외인허가",
+        "detail": "FDA, CE, PMDA 등 주요 해외 인허가 확보 여부가 글로벌 진출 가능성과 매출 확대에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "시장수요",
+        "detail": "치과용 3D프린팅 소재와 형상기억 투명교정장치에 대한 수요가 늘면 관련 제품 매출이 확대될 수 있습니다."
+      },
+      {
+        "factor": "원재료",
+        "detail": "원재료 가격 변동은 제조원가에 영향을 주어 수익성에 직접적인 부담 또는 완화 요인으로 작용할 수 있습니다."
+      },
+      {
+        "factor": "환율",
+        "detail": "해외 매출과 해외 인허가 기반 사업이 있어 환율 변동이 실적과 외화 환산에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "경쟁력",
+        "detail": "세계 최초 형상기억 투명교정장치와 통합솔루션 같은 차별화 요소는 시장 경쟁력과 수주 확대에 중요합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "세계 최초의 형상기억 투명교정장치를 개발 및 상용화"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "제품매출: 8,280,499,199 (41.4%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "상품매출: 4,082,755,103 (20.4%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "생산 장비, 소프트웨어, 소재 등을 하나의 통합솔루션"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "글로벌 시장을 중심으로 사업을 빠르게 확대"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3627,
+    "completion_tokens": 941,
+    "reasoning_tokens": 0,
+    "output_tokens": 941
+  },
+  "warnings": []
+}

@@ -1,0 +1,72 @@
+{
+  "stock_code": "053580",
+  "corp_name": "웹케시",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 03:14",
+  "meta": {
+    "wics": "소프트웨어",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "웹케시는 B2B 금융 서비스 제공 기업으로, 핀테크 기반의 기업용 디지털 서비스 및 솔루션을 제공해 온 회사입니다. 인터넷뱅킹과 기업자금관리솔루션(CMS)을 바탕으로 국내 금융기관 연결 네트워크를 핵심 자산으로 보유하고 있습니다.",
+    "business_model": "핵심 사업은 기업자금관리솔루션(CMS)과 기타 기업용 솔루션으로 구성되며, 2025년 제27기 기준 매출 구성은 공공기관/초대기업 35.7%, 중견/대기업 29.5%, 중소기업 34.8%입니다. 당사는 국내 모든 금융기관 및 해외 네트워크(44개국 482개 은행)를 통한 실시간 연동과 B2B 핀테크 지식재산권, 금융보안 클라우드를 바탕으로 CMS 중심의 구독형·SI(시스템통합)형 매출을 창출합니다.",
+    "main_customers": "공공기관/초대기업 — 지방자치단체·교육청·국영기관 / 중견/대기업 — 상장사·대기업(은행 제휴 제공) / 중소기업 — 중소기업 및 세무사무소 인프라",
+    "price_factors": [
+      {
+        "factor": "은행 연계 마케팅",
+        "detail": "제품 판매가 은행과의 연계 마케팅에 의존해 하반기 실적이 상대적으로 강해질 수 있습니다."
+      },
+      {
+        "factor": "중소기업 경기민감",
+        "detail": "중소기업 부문은 경기 침체 시 휴·폐업 증가로 고객 해지율이 높아져 실적에 부정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "공공부문 안정성",
+        "detail": "공공정보화 사업은 정책·규정에 의해 형성되어 경기변동에 덜 민감해 매출의 안정성에 기여합니다."
+      },
+      {
+        "factor": "네트워크 진입장벽",
+        "detail": "국내·해외 금융기관 연동 네트워크와 보안 인프라로 신규 경쟁자의 단기간 진입이 어렵습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "B2B 금융 서비스 제공 기업"
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황",
+        "evidence_text": "기업자금관리솔루션(CMS) 제품들과 기타 기업용 솔루션 영역"
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황",
+        "evidence_text": "국내 모든 금융기관 및 44개국 482개 은행 실시간 연결 네트워크"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "대한민국 상장사의 30% 이상이 당사의 제품을 사용하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "자사 CMS 전 라인에 생성형 AI를 단계적으로 적용"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5587,
+    "completion_tokens": 3854,
+    "reasoning_tokens": 3072,
+    "output_tokens": 782
+  },
+  "warnings": []
+}

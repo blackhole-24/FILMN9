@@ -1,0 +1,71 @@
+{
+  "stock_code": "064240",
+  "corp_name": "홈캐스트",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 04:16",
+  "meta": {
+    "wics": "전문소매",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "홈캐스트는 유통(전문소매) 섹터에 속한 기업으로, 2025년 연결기준 매출은 약 980억원 수준이며 전자부품 유통을 핵심사업으로 영위하고 있습니다. 사업 포트폴리오 다각화의 일환으로 메디컬 에스테틱과 셋톱박스(STB) 사업도 함께 운영하고 있습니다.",
+    "business_model": "핵심 수익원은 전자부품 유통으로 매출의 96.9%를 차지하며, 이 외에 메디컬 에스테틱이 1.9%, D-STB가 0.2%, 기타가 0.7%를 구성합니다(2025 연결기준). 전자부품 유통은 제조업체에 부품을 안정적으로 공급하는 유통·기술지원·물류 서비스를 제공하고, 메디컬 에스테틱과 STB는 주로 해외 수출 중심으로 추가 매출원을 마련하고 있습니다.",
+    "main_customers": "전자부품 유통 — 스마트폰·컴퓨터·자동차·가전 제조업체 / 메디컬 에스테틱 — 주로 해외 수출 바이어 / D-STB(셋톱박스) — 주로 해외 수출 고객 / 기타 — 기타 사업 관련 고객",
+    "price_factors": [
+      {
+        "factor": "전방수요",
+        "detail": "정보통신·자동차·가전 등 전방산업의 경기 변동에 따라 전자부품 수요가 크게 변동하여 매출과 실적에 직접 영향이 발생합니다."
+      },
+      {
+        "factor": "원자재가격",
+        "detail": "주요 원재료 및 반도체 가격 상승 시 제품 단가와 외주 임가공비에 영향을 주어 수익성에 부정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "환율",
+        "detail": "메디컬 에스테틱·STB 등 수출 비중 제품의 경우 환율 변동이 수출단가 및 매출에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "공급망",
+        "detail": "물류비·공급망 불안정 등은 재고·납기·원가에 영향을 주어 영업실적 변동성을 확대할 수 있습니다."
+      },
+      {
+        "factor": "기술·안정성",
+        "detail": "셋톱박스 등 제품은 기술력과 안정성이 경쟁요소로, 품질·기술 경쟁력 약화 시 수주 및 매출에 부정적 영향을 받을 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "2025년 연결기준 매출은 약 980억원을 기록하였습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "전자부품 유통: 94,975 (96.9%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "전자부품 유통",
+        "evidence_text": "전자부품은 스마트폰, 컴퓨터, 자동차, 가전제품 등 다양한 분야에서 필수적으로 사용되며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "재무상태 및 영업실적에 중요한 영향을 미치는 요인",
+        "evidence_text": "전반적인 경기 변동에 민감하게 영향을 받는 특성이 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5578,
+    "completion_tokens": 3291,
+    "reasoning_tokens": 2432,
+    "output_tokens": 859
+  },
+  "warnings": []
+}

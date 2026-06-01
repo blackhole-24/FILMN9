@@ -1,0 +1,82 @@
+{
+  "stock_code": "154040",
+  "corp_name": "다산솔루에타",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 10:29",
+  "meta": {
+    "wics": "전자제품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "다산솔루에타는 EMC(Electromagnetic Compatibility, 전자기적 적합성) 분야에서 출발한 전자파 차단 소재 전문 기업으로, 2001년 전신 설립 이후 2003년 법인 전환을 통해 사업을 확장해 왔습니다. 전도성테이프·전도성쿠션·전파흡수체 등 전자기기 노이즈 차폐용 부품을 주력으로 하며, 2025년 매출과 자산 등 재무구조를 기반으로 사업을 영위하고 있습니다.",
+    "business_model": "주요 사업은 전자파차단소재 부문이며, FY2025 기준 전도성테이프가 37.7%, 전도성쿠션이 52.0%, 기타가 10.4%의 영업수익 구성을 차지합니다. 원재료부터 완제품까지 생산하는 수직제조체계(원재료 → 도금 → 점착 공정)를 바탕으로 스마트기기 및 무선전송 관련 시장에 제품을 공급하는 것이 핵심 수익원입니다.",
+    "main_customers": "전도성테이프 — 휴대폰·LCD TV·노트북 등 전자기기 제조사 / 전도성쿠션 — 스마트기기 제조사(충격완화·차폐 필요) / 기타 — 무선충전·NFC 등 무선통신 기기 제조사",
+    "price_factors": [
+      {
+        "factor": "무선충전 수요",
+        "detail": "무선충전기기 출하량 증가(시장 성장)는 전파흡수체 등 관련 제품 수요 확대에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "경쟁 심화",
+        "detail": "중국 등 경쟁업체의 추격과 업계 경쟁 심화는 가격경쟁과 수익성 악화로 이어질 수 있습니다."
+      },
+      {
+        "factor": "환율·원자재",
+        "detail": "USD 기반 수입 원자재와 수출 수익 구조로 환율 변동과 고유가로 인한 원자재 가격 상승이 실적에 영향을 줍니다."
+      },
+      {
+        "factor": "기기 고사양화",
+        "detail": "스마트기기의 고사양화와 전자파 규제 논의는 전자파 차폐 솔루션의 지속적 수요로 연결됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "(2) 영업의 개황",
+        "evidence_text": "2003년 6월 법인으로 전환하였습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "전도성테이프: 11,823,657 (37.7%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "전도성쿠션: 16,314,515 (52.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "기타: 3,261,232 (10.4%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "(2) 영업의 개황",
+        "evidence_text": "휴대폰, LCD TV, 노트북 등 가전기기 시장"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "(1) 업계의 현황",
+        "evidence_text": "무선충전기기의 출하량이 2024년 20억개"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "업계 경쟁 심화로 경영 여건이 악화된 한 해였으나"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4479,
+    "completion_tokens": 4163,
+    "reasoning_tokens": 3200,
+    "output_tokens": 963
+  },
+  "warnings": []
+}

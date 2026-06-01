@@ -1,0 +1,67 @@
+{
+  "stock_code": "089150",
+  "corp_name": "케이씨티",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 06:50",
+  "meta": {
+    "wics": "컴퓨터와주변기기",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "케이씨티는 1974년 창립한 단말시스템 및 자동화기기 공급업체로, 국내 금융 및 공공 단말부문 IT 솔루션의 대표주자 역할을 하고 있습니다. 금융기관과 한국마사회·국민체육진흥공단 등 공공기관을 주요 고객으로 제품 공급과 유지보수 서비스를 제공합니다.",
+    "business_model": "사업부문별 매출은 자동화기기 63.9%, 유지보수(용역) 24.0%, 임대 7.7%, 단말시스템(상제품) 4.4%로 구성됩니다. 자동화기기(순번발행기 등) 매출 비중이 가장 크고, 유지보수는 운영·서비스 측면에서 반복적인 수익을 제공하는 역할을 합니다.",
+    "main_customers": "단말시스템·자동화기기 — 국내 금융기관·한국마사회·국민체육진흥공단·동행복권·인천국제공항공사 / 유지보수 — 기존 금융 및 공공기관 고객 / 임대 — 금융·공공 영업점 및 관련 기관",
+    "price_factors": [
+      {
+        "factor": "기술역량",
+        "detail": "단말기 개발에 필요한 기술력과 구축·운영 노하우가 경쟁우위로 작용해 수주와 유지보수 수익에 직접 영향합니다."
+      },
+      {
+        "factor": "금융업 변화",
+        "detail": "금융산업의 구조개편 및 경쟁 심화는 업무자동화 시스템 수요와 발주 시점에 영향을 미칩니다."
+      },
+      {
+        "factor": "공공·레저 수요",
+        "detail": "경마·복권·공항 등 공공·레저 이용 증가가 특수단말기 수요 확대에 연결됩니다."
+      },
+      {
+        "factor": "국산화·공급",
+        "detail": "과거 외산 의존에서의 국산화 사례처럼 공급 적시성·현지화 대응력이 수주 경쟁력에 중요합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > (3) 시장의 특성",
+        "evidence_text": "1974년 창립 이래"
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. 주요 제품 등의 현황",
+        "evidence_text": "자동화기기 14,745 (63.9%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > (3) 시장의 특성",
+        "evidence_text": "금융기관 및 한국마사회와 국민체육진흥공단, 인천공항공사"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 산업의 현황 1) 산업의 특성",
+        "evidence_text": "기술력 확보와 단말시스템 구축 및 운영 노하우에 달려 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4546,
+    "completion_tokens": 3923,
+    "reasoning_tokens": 3200,
+    "output_tokens": 723
+  },
+  "warnings": []
+}

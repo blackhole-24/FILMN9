@@ -1,0 +1,86 @@
+{
+  "stock_code": "071670",
+  "corp_name": "에이테크솔루션",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 05:24",
+  "meta": {
+    "wics": "기계",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "에이테크솔루션은 초정밀·대형 사출금형과 프레스금형 등을 제작하는 금형(Die & Mold) 전문업체로, 가전(대형 TV, 에어컨, 세탁기 등)과 자동차 부품용 금형을 주로 공급합니다. 당기말 연결매출액은 3,055억원이며 주요설비가동률은 81% 수준입니다.",
+    "business_model": "사업은 금형 제조, PRESS용 금형, 정밀부품 등 세 부문으로 구성되며 매출 구성은 금형 40.8%, PRESS 12.2%, 정밀부품 47.0%로 이루어져 있습니다. 금형은 주문생산방식(고객별 맞춤 제작) 특성상 제품 크기와 주요 매출처(해외용/국내용, 일회성 여부)에 따라 제품단가가 크게 달라지는 구조이며, 정밀부품은 금형 제작 과정에서 발생하는 소모성 부품과 자동차·LED·복합기용 부품을 포함합니다.",
+    "main_customers": "금형 — 가전 제조업체(대형TV, 에어컨, 세탁기 등) / PRESS — 가전용 모터코아·FIN 등 제조업체 / 정밀부품 — 자동차 부품·복합기 부품·LED 부품 제조사",
+    "price_factors": [
+      {
+        "factor": "전방수요",
+        "detail": "가전·자동차 등 전방산업 수요 변동이 매출에 직접 연결되어 수요 둔화 시 실적에 영향이 큽니다."
+      },
+      {
+        "factor": "기술수준",
+        "detail": "고정밀·고내구성 금형 기술 경쟁력이 약화되면 저가 경쟁국의 추격에 취약해져 실적과 이익률에 부담이 됩니다."
+      },
+      {
+        "factor": "제품단가",
+        "detail": "제품 크기·구성에 따른 단가 차이가 커서 대형 품목 비중 변화로 매출액·이익률이 크게 달라질 수 있습니다."
+      },
+      {
+        "factor": "규모의 경제",
+        "detail": "금형산업의 중소기업형 구조와 높은 인건비는 대량 수주 확보에 따른 수익성 변동성을 키웁니다."
+      },
+      {
+        "factor": "해외경쟁",
+        "detail": "중국·동남아 등 역외 경쟁의 추격이 심화되면 범용 금형 중심의 사업부는 가격·수주 면에서 압박을 받을 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "금형전문업체입니다."
+      },
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "연결매출액은 3,055억원 이며, 주요설비가동률은 81% 입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[표] 가. 주요 제품 등의 현황",
+        "evidence_text": "124,713(40.8%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[표] 가. 주요 제품 등의 현황",
+        "evidence_text": "37,258(12.2%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[표] 가. 주요 제품 등의 현황",
+        "evidence_text": "143,519(47.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "1. 업계의 현황",
+        "evidence_text": "자동차, 가전, IT산업의 대량생산을 가능하게 하는 모체라고 할 수 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "금형은 특정한 제품을 생산할 수 있도록 설계, 제작된 전용장치로 다른 제품 생산에 사용할 수 없어 주문생산방식으로 생산"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3810,
+    "completion_tokens": 4584,
+    "reasoning_tokens": 3584,
+    "output_tokens": 1000
+  },
+  "warnings": []
+}

@@ -1,0 +1,71 @@
+{
+  "stock_code": "458870",
+  "corp_name": "씨어스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 20:11",
+  "meta": {
+    "wics": "건강관리기술",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "씨어스는 생체신호 분석 인공지능(AI) 알고리즘과 웨어러블 의료기기를 기반으로 한 IoMT(Internet of Medical Things) 플랫폼을 통해 국내외 의료기관에 심전도 분석 서비스와 입원환자 모니터링 서비스를 제공하는 헬스케어 기술기업입니다. mobiCARE™와 thynC™를 중심으로 의료기관 대상 진단지원 및 실시간 모니터링 솔루션을 공급하고 있습니다.",
+    "business_model": "사업은 자체 개발한 제품·서비스를 통해 수익을 창출하는 구조로, FY2025 영업수익의 100.0%가 '자사제품'에서 발생합니다. 주요 제품으로는 심전도 기반의 구독형 심전도 분석 서비스 mobiCARE™와 병동용 실시간 환자모니터링 플랫폼 thynC™ 및 연동되는 웨어러블 의료기기·점착제품 등이 있으며, 병원 납품과 서비스 구독을 통해 매출을 확보합니다.",
+    "main_customers": "mobiCARE™ — 대학병원 부속검진센터·전문 건강검진센터·일반 의료기관 / thynC™ — 병원 병동(입원환자 모니터링을 필요로 하는 의료기관) / 자사제품(의료기기) — 국내외 의료기관",
+    "price_factors": [
+      {
+        "factor": "시장성장",
+        "detail": "글로벌 웨어러블 의료기기 시장의 고성장은 잠재적 수요 확대를 통해 장기적인 매출 성장에 기여할 수 있습니다."
+      },
+      {
+        "factor": "심전도수요",
+        "detail": "ECG 패치·홀터 시장의 견고한 성장과 장시간 검사 선호는 mobiCARE™ 같은 장비·서비스 수요를 높일 수 있습니다."
+      },
+      {
+        "factor": "보험수가",
+        "detail": "의료보험 수가 체계(진단·모니터링 수가) 변화는 병원 측의 도입 결정과 서비스 매출에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "규제여건",
+        "detail": "신의료기술 허가·원격진료 허용 범위 등 규제 변화는 제품 상용화와 해외진출 시점 및 범위에 영향을 줍니다."
+      },
+      {
+        "factor": "인구구조",
+        "detail": "고령화와 만성질환 증가로 심혈관 질환 관련 스크리닝 수요가 늘어나면 장기적 수요 기반이 강화됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 > 영업 현황",
+        "evidence_text": "당사는 생체신호 분석 인공지능 알고리즘과 웨어러블 의료기기를 활용한 IoMT(Internet of Medical Things) 플랫폼 기술을 기반으로 국내외 의료기관을 대상으로 심전도분석 서비스 mobiCARE™와 입원환자모니터링 서비스 thynC™를 제공하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "자사제품: 4,992,593 (100.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 > 영업 현황 (mobiCARE™)",
+        "evidence_text": "2025년 12월 기준, 전국 1천여개의 의료기관이 mobiCARE™를 도입하여 활용하고 있으며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 > 마. 시장여건 및 영업의 개황",
+        "evidence_text": "글로벌 웨어러블 의료기기 시장은 2024년 약 430억 달러 규모를 기록했으며, 향후 연평균 20.1%의 가파른 성장세"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5783,
+    "completion_tokens": 3365,
+    "reasoning_tokens": 2432,
+    "output_tokens": 933
+  },
+  "warnings": []
+}

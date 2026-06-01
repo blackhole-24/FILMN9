@@ -1,0 +1,67 @@
+{
+  "stock_code": "066970",
+  "corp_name": "엘앤에프",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 04:47",
+  "meta": {
+    "wics": "전기제품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "엘앤에프는 2차전지용 양극활물질을 주력으로 제조·공급하는 전기·전자(전기제품) 업종 기업입니다. 양극활물질은 EV(전기차)·ESS(에너지저장장치)·IT·전자기기 등 전방 산업에 쓰이는 중간재로서 기술력과 품질 신뢰성이 중요한 산업에 속해 있습니다.",
+    "business_model": "FY2025 기준 사업부문별 영업수익은 외부고객1이 88.0%, 외부고객2가 12.0%를 차지합니다. 핵심 제품은 2차전지용 양극활물질(배터리의 에너지 밀도·출력 특성·수명 및 안전성에 직접적인 영향을 미치는 핵심 소재)이며, 하이니켈 제품 판매 확대와 ㈜엘앤에프플러스를 통한 LFP(리튬인산철) 사업 진출 등으로 제품 포트폴리오 다변화를 추진하고 있습니다.",
+    "main_customers": "외부고객1 — 전지 제조사(중대형 전지, EV·ESS용 전지 제조사) / 외부고객2 — 전방 산업(완성차·ESS·IT·전자기기·로봇 업체 등)",
+    "price_factors": [
+      {
+        "factor": "원자재 수급",
+        "detail": "원자재의 상당 부분이 광물자원에서 추출되므로 국제 광물자원 수급 변동은 제품 가격과 원가에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "전방수요 변동",
+        "detail": "완성차 판매량 및 ESS·IT 등 전방 산업의 생산·투자 변화에 따라 양극활물질 수요가 시차를 두고 변동합니다."
+      },
+      {
+        "factor": "글로벌 경쟁",
+        "detail": "중국·일본 등 해외 경쟁사와의 기술·원가 경쟁 심화는 시장 점유율 및 가격 경쟁력에 영향을 줍니다."
+      },
+      {
+        "factor": "품질·승인",
+        "detail": "글로벌 배터리 제조사의 엄격한 품질 기준과 장기간 승인 절차는 양산 전 실적과 공급 확대 시점에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "2. 주요 제품 가격변동추이",
+        "evidence_text": "당사의 주요 제품은 2차전지 양극활물질입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "외부고객1 (88.0%) - 외부고객2 (12.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "1) 산업의 특성 및 성장성",
+        "evidence_text": "전지 제조사를 통해 EV, ESS, IT·전자기기, 로봇 등 다양한 산업에 공급되는 중간재"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "2. 주요 제품 가격변동추이",
+        "evidence_text": "원자재의 대부분을 광물자원에서 추출함에 따라 국제 광물자원 수급에 따라 가격변동 요인이 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3597,
+    "completion_tokens": 5675,
+    "reasoning_tokens": 4864,
+    "output_tokens": 811
+  },
+  "warnings": []
+}

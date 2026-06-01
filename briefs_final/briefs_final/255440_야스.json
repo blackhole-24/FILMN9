@@ -1,0 +1,67 @@
+{
+  "stock_code": "255440",
+  "corp_name": "야스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 13:55",
+  "meta": {
+    "wics": "디스플레이장비및부품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "야스는 OLED 디스플레이 패널용 증착 장비의 제조·판매 및 연구개발을 주력으로 하는 기계·장비 기업입니다. 전세계에서 유일하게 8세대 이상 증착기와 증착원 모두 양산 성공경험을 보유하며, 2025년 연결기준 매출 348억원, 영업손실 65억원을 기록했습니다.",
+    "business_model": "핵심 제품은 TV용 대면적 8세대 증착기(증착기: 유기물질을 기판에 증착하는 장비), 중소형용 증발원(증착원) 및 장비 개조·유지보수용 부품 등입니다. 제품별로는 증착원 14%, 장비 개조 및 부품판매 86%의 매출 비중을 보였고, 매출은 내수 65%, 수출 35%(주요 수출국: 중국)로 구성되어 있습니다.",
+    "main_customers": "증착기·증착원·제품매출 — OLED 패널 제조업체(LG디스플레이, BOE 등) / 장비 개조 용역 및 부품판매 — OLED 패널 제조업체",
+    "price_factors": [
+      {
+        "factor": "중국 경쟁",
+        "detail": "중국업체의 대규모 설비투자 및 가격공세로 패널업체 수익성이 악화되면 장비 발주 축소로 실적에 부정적 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "OLED 투자",
+        "detail": "대면적·중소형 OLED 투자 확대는 증착 장비 수요 증가로 이어져 회사의 주문 증가 가능성을 높입니다."
+      },
+      {
+        "factor": "경기 민감도",
+        "detail": "디스플레이 최종제품이 내구재인 만큼 경기변동에 따라 패널업체의 설비투자(장비발주)가 민감하게 변동합니다."
+      },
+      {
+        "factor": "환율",
+        "detail": "수출 비중이 있어 원/달러 환율 변동은 매출 및 현금흐름에 직접적인 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "증착 장비의 제조 및 판매와 연구개발을 주요사업으로 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "증착원 47억원(14%), 기타 장비개조 및 유지보수 부품 301억원(86%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "주요 매출 거래처는 LG디스플레이,BOE 등"
+      },
+      {
+        "field": "sales",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "매출 348억원으로 전년 286억 대비 21.42%증가하였습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5261,
+    "completion_tokens": 5453,
+    "reasoning_tokens": 4672,
+    "output_tokens": 781
+  },
+  "warnings": []
+}

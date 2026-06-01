@@ -1,0 +1,76 @@
+{
+  "stock_code": "028050",
+  "corp_name": "삼성E&A",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 09:54",
+  "meta": {
+    "wics": "건설",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "삼성E&A는 전 세계 플랜트 시장에서 사업을 전개하는 기업으로, 화공·첨단산업·New Energy 부문으로 사업을 나누고 있습니다. 화공플랜트부터 산업설비, 바이오플랜트, LNG(천연가스 액화·저장·운송), 청정에너지, ECO(Water)까지 다루며, 다양한 산업 설비와 에너지 전환 관련 프로젝트를 수행하고 있습니다.",
+    "business_model": "사업부문별 영업수익 구성은 화공 57.0%, 첨단산업 28.0%, New Energy 14.9%입니다. 화공 부문은 오일&가스 프로세싱, 정유, 석유화학 플랜트를 중심으로 하며, 첨단산업은 반도체·디스플레이·배터리·바이오 플랜트 등 산업설비를 수행합니다. New Energy는 LNG(천연가스 액화·재기화), 청정에너지, ECO(Water) 사업을 통해 탈탄소 및 친환경 인프라 수요에 대응하고 있습니다.",
+    "main_customers": "화공 — 정유·석유화학·오일&가스 관련 발주처 / 첨단산업 — 반도체·디스플레이·배터리·바이오 기업 및 관계사·기존 고객 / New Energy — LNG·수소·CCUS·수처리 등 에너지·환경 인프라 발주처",
+    "price_factors": [
+      {
+        "factor": "국제유가",
+        "detail": "화공플랜트는 국제유가와 석유 소비·생산량, 산유국 투자 계획에 밀접해 관련 시장 변화가 수주와 실적에 영향을 줍니다."
+      },
+      {
+        "factor": "에너지전환",
+        "detail": "LNG, 청정에너지, ECO(Water) 수요가 확대되면 New Energy 부문의 사업 기회가 커질 수 있습니다."
+      },
+      {
+        "factor": "산업투자",
+        "detail": "반도체·배터리·바이오 등 첨단산업 설비 투자 확대는 첨단산업 부문 수주에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "법규준수",
+        "detail": "건설·하도급·공정거래·환경 관련 법규의 영향을 받아, 규제 준수 수준이 사업 수행과 비용에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "수주변동",
+        "detail": "수주 산업 특성상 신규 수주 규모의 변동이 매출과 이익 흐름에 크게 반영됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 가. 부문별",
+        "evidence_text": "당사는 전 세계 플랜트 시장에서 플랜트 사업을 전개하고 있으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 나. 사업부문별 매출 구성",
+        "evidence_text": "■ 사업부문별 영업수익 구성 (FY2025)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 나. 사업부문별 매출 구성",
+        "evidence_text": "화  공 (57.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 나. 사업부문별 매출 구성",
+        "evidence_text": "첨단산업 (28.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 나. 사업부문별 매출 구성",
+        "evidence_text": "New Energy (14.9%)"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5494,
+    "completion_tokens": 906,
+    "reasoning_tokens": 0,
+    "output_tokens": 906
+  },
+  "warnings": []
+}

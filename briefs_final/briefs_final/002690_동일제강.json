@@ -1,0 +1,67 @@
+{
+  "stock_code": "002690",
+  "corp_name": "동일제강",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 18:08",
+  "meta": {
+    "wics": "철강",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "동일제강은 선재(강선류), 마봉(봉강류), 세경봉(알루미늄 세경봉) 등 금속 제품을 제조하는 철강업체로, 품질 중심의 제품 차별화와 수도권 인근의 신속 납기 경쟁력을 강조하고 있습니다. 마봉·선재·세경봉 전(全) 부문을 운영하며 설비 증설을 통해 생산능력 확대를 추진해왔습니다.",
+    "business_model": "사업부문별로 FY2025 기준 마봉이 매출의 51.9%로 가장 큰 비중을 차지하고, 세경봉이 32.2%, 선재가 15.9%를 차지합니다(선재·마봉·세경봉의 제조 및 가공이 핵심 수익원). 제품별로는 선재·마봉은 철강(WIRE ROD 등)을 원료로 한 2차 가공 비즈니스이며, 세경봉은 알루미늄 연속주조 설비를 통한 세경봉 생산이 주력입니다.",
+    "main_customers": "선재 — 자동차·건설·조선·가전 등 산업용 중간재 / 마봉 — 자동차, 기계류, 전자, 사무용기기 등 부품업체 / 세경봉 — 자동차부품 업체",
+    "price_factors": [
+      {
+        "factor": "철광석(원재료)",
+        "detail": "WIRE ROD(원재료) 가격이 철광석 변동에 직접 연동되어 원가와 실적에 영향합니다."
+      },
+      {
+        "factor": "알루미늄 시세",
+        "detail": "세경봉의 주원료인 알루미늄 ingot은 국제시세(LME)에 따라 납품가가 변동됩니다."
+      },
+      {
+        "factor": "수입산 경쟁",
+        "detail": "수입산 품질 향상으로 경쟁이 심화되면 저가 경쟁 압력이 높아질 수 있습니다."
+      },
+      {
+        "factor": "공급과잉(설비증설)",
+        "detail": "업계의 설비중복 투자로 인한 공급 과잉은 단가 하락 압력 및 경쟁 심화로 연결됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황 > 1. 업계의 현황 (1) 산업의 특성",
+        "evidence_text": "신규 업체의진입이 쉽지 않은 산업입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "마봉: 76,458 (51.9%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황 > 경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "도금선 표면품질향상으로 전선회사 납품량 증대로 매출증대를 기대하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "영업 현황 > (2) 가격변동원인",
+        "evidence_text": "WIRE ROD 가격은 철광석의 변동요인에 직접적 영향을 받고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3744,
+    "completion_tokens": 3601,
+    "reasoning_tokens": 2816,
+    "output_tokens": 785
+  },
+  "warnings": []
+}

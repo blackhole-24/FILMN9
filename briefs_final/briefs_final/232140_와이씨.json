@@ -1,0 +1,67 @@
+{
+  "stock_code": "232140",
+  "corp_name": "와이씨",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 13:08",
+  "meta": {
+    "wics": "반도체와반도체장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "와이씨는 반도체 검사장비와 프로브카드용 다층 세라믹 기판의 제조·판매를 주력으로 하는 기업입니다. EDS 테스트 공정용 검사장비와 프로브카드용 세라믹기판을 중심으로 영업하며, FY2025 기준 매출의 98.1%가 반도체 및 전자 부문에서 발생합니다.",
+    "business_model": "주요 수익원은 반도체 및 전자 부문으로 FY2025에 해당 부문 매출이 98.1%를 차지하고, 기타가 1.9%를 차지합니다. 핵심 제품은 EDS 테스트 공정용 반도체 검사장비와 프로브카드에 사용되는 다층 세라믹 기판이며, 삼성전자와의 JDA(공동개발계약)를 통해 개발한 MT6122 모델의 납품이 이루어지고 있습니다.",
+    "main_customers": "반도체 및 전자 — 반도체 제조기업(삼성전자 등), 프로브카드 제조사 / 기타 — 기타 고객",
+    "price_factors": [
+      {
+        "factor": "3D NAND",
+        "detail": "3D NAND 수요 증가 시 검사장비 및 기판 판매 확대가 기대됩니다."
+      },
+      {
+        "factor": "주요고객투자",
+        "detail": "삼성전자 등 주요 반도체업체의 설비투자 증감에 따라 실적 변동성이 발생합니다."
+      },
+      {
+        "factor": "납품계약",
+        "detail": "JDA·제품 납품 실적에 따라 매출 인식과 성장성이 직접 좌우됩니다."
+      },
+      {
+        "factor": "국산화수요",
+        "detail": "프로브카드 국산화 요구는 세라믹 기판의 수요와 매출에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "반도체 검사 장비를 제작 및 판매하는 사업과"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "반도체 및 전자: 267,477 (98.1%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "현재는 국내 프로브카드사를 통해 국내 반도체 제조회사에 제품을 공급하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "본격적 판매가 시작되어 현재 납품 중에 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3592,
+    "completion_tokens": 4583,
+    "reasoning_tokens": 3904,
+    "output_tokens": 679
+  },
+  "warnings": []
+}

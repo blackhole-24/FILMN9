@@ -1,0 +1,77 @@
+{
+  "stock_code": "222980",
+  "corp_name": "한국맥널티",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:28",
+  "meta": {
+    "wics": "식품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "한국맥널티는 1997년 12월 설립된 커피·제약 복합 사업 기업으로, 본점은 충청남도 천안시에 있습니다. 2015년 12월 코스닥시장에 상장했으며, 커피사업과 제약사업을 함께 영위하는 벤처기업으로 소개되어 있습니다.",
+    "business_model": "한국맥널티는 커피 생두 수입부터 원두커피, 인스턴트 커피, 커피음료까지 커피 산업 전반을 아우르는 구조를 갖고 있으며, 제약사업과 건강기능식품 사업도 함께 운영합니다. FY2025 사업부문별 매출은 커피 35,277백만원(36.6%), 상품 등 31,464백만원(34.0%), 제약 21,954백만원(22.8%), 건강기능식품 6,367백만원(6.6%)으로 구성됩니다. 인스턴트 커피는 동결건조(FD, 향미 보존력이 좋은 건조 방식) 공법을 활용한다고 설명합니다.",
+    "main_customers": "커피 — 커피 생두·원두·인스턴트·커피음료 유통 및 소비 고객 / 상품 등 — 상세 고객 데이터 없음 / 제약 — 일반 및 전문 의약품 수요처, 다수의 제약사 / 건강기능식품 — 거래처별 다양한 형태의 제품 수요처",
+    "price_factors": [
+      {
+        "factor": "생두가격",
+        "detail": "생두 가격이 오르면 커피사업 원가 부담이 커져 수익성에 직접적인 압박이 생깁니다."
+      },
+      {
+        "factor": "환율",
+        "detail": "고환율은 수입 원가를 높여 실적에 부담을 줄 수 있어, 회사의 원가 구조에 중요한 변수입니다."
+      },
+      {
+        "factor": "마케팅",
+        "detail": "시장 선점을 위한 마케팅 비용이 늘면 매출 확대에는 도움이 될 수 있지만 단기 영업이익에는 부담이 됩니다."
+      },
+      {
+        "factor": "커피수요",
+        "detail": "원두커피와 RTD(Ready to Drink, 바로 마실 수 있는 음료) 시장의 소비 흐름이 커피사업 매출에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "MD&A",
+        "evidence_text": "당사는 1997년 12월 설립되어"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "MD&A",
+        "evidence_text": "2015년 12월 23일 코스닥시장에 상장하였습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "커피: 35,277 (36.6%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "상품 등: 31,464 (34.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "제약: 21,954 (22.8%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "건강기능식품: 6,367 (6.6%)"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4129,
+    "completion_tokens": 831,
+    "reasoning_tokens": 0,
+    "output_tokens": 831
+  },
+  "warnings": []
+}

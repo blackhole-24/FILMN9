@@ -1,0 +1,82 @@
+{
+  "stock_code": "294870",
+  "corp_name": "IPARK현대산업개발",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 11:24",
+  "meta": {
+    "wics": "건설",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "에이치디씨현대산업개발(브랜드 IPARK)은 건설 및 부동산 개발·운영을 주력으로 하는 기업으로, 창사 이래 약 50만 세대의 아파트를 건설한 기록을 보유하고 있습니다. 주택(특히 IPARK 브랜드)과 도시개발·리테일·호텔 등 라이프스타일 연계 영역을 포함한 종합 개발사업을 수행합니다.",
+    "business_model": "회사는 건설부문과 기타부문으로 구분되며 건설부문은 외주주택, 토목, 일반건축, 자체공사로 세분화됩니다. FY2025 사업부문별 영업수익 구성은 자체공사 23.1%, 토목 0.5%, 기타 5.3%로 표기되어 있으며(기타부문에는 PC구조물 생산, 호텔서비스, 주거용건물 개발·공급 등이 포함됩니다).",
+    "main_customers": "외주주택 — 발주처(민간) 및 도시정비사업 발주처 / 토목 — 정부·지방자치단체 등 공공기관 (및 민간 참여 SOC 발주처) / 일반건축 — 공공기관 또는 민간기업 / 자체공사 — 당사가 직접 토지를 매입하여 시행·시공하는 방식(자체 프로젝트 중심)",
+    "price_factors": [
+      {
+        "factor": "부동산정책",
+        "detail": "정부의 부동산·분양 정책 변화는 주택 수요와 분양환경에 직접적인 영향을 주어 매출 및 수주에 변동을 초래합니다."
+      },
+      {
+        "factor": "원자재비",
+        "detail": "철근·레미콘 등 주요 원재료 가격 변동은 원가와 이익률에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "자체사업비중",
+        "detail": "자체공사(자체사업) 비중 확대는 고마진 효과로 영업이익률에 긍정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "환율",
+        "detail": "일부 외화 자산·부채 노출로 환율 변동이 손익 변동 요인으로 작용할 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "에이치디씨현대산업개발㈜는 건설 및 부동산 개발운영 등을 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "당사가 수행중인 사업부문은 크게 건설부문과 기타부문으로 구분합니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "자체공사: 956,610 (23.1%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "토목: 20,245 (0.5%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "기타: 221,548 (5.3%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "주요 발주처는 정부나 지방자치단체 등과 같은 공공기관이 대부분이며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "정부는 국내 경기 변동 및 대외 환경 변화에 따라 국내 부동산 및 건설업 관련 정책 방향을 결정해 왔습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5483,
+    "completion_tokens": 4665,
+    "reasoning_tokens": 3712,
+    "output_tokens": 953
+  },
+  "warnings": []
+}

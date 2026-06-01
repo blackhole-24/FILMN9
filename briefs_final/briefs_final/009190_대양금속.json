@@ -1,0 +1,67 @@
+{
+  "stock_code": "009190",
+  "corp_name": "대양금속",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 20:17",
+  "meta": {
+    "wics": "철강",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "대양금속은 1973년 설립되어 스테인리스 일품목(스테인리스 냉연강판)만을 50년 넘게 제조해온 전통적인 스테인리스 제조회사로, 1994년 유가증권시장에 상장되었습니다. 주력 제품을 냉간압연(상온에서 금속을 압연하는 공정)해 판매하며 매출의 50% 이상을 EU, 동남아, 북미 등으로 수출하는 수출지향형 기업입니다.",
+    "business_model": "핵심 사업은 스테인리스 냉간 압연 제품의 제조·판매로, 주제품인 스테인리스 냉연강판은 스테인리스 Hot Coil을 외부에서 조달해 자체 냉간압연 및 연마·절단 공정 등을 거쳐 공급하며 COIL CENTER(코일 가공·절단 서비스) 역할도 수행합니다. 사업부문별 FY2025 영업수익 구성은 상품매출액 0.1% (119), 부산물매출액 2.1% (4,597), 태양광매출액 0.1% (285), 기타매출액 0.0% (55)를 포함합니다.",
+    "main_customers": "스테인리스 냉간압연 제품 — 가전업체·씽크·자동차부품·보일러·건설·산업부품 등 실수요 고객사 / 상품·부산물·태양광 등 기타 매출 — 별도 개별 고객유형 미기재",
+    "price_factors": [
+      {
+        "factor": "원자재(니켈) 가격",
+        "detail": "니켈 등 주원료 가격 변동은 제품단가와 마진에 직접 영향을 미치며, 니켈 사용량 감소에 따른 가격 하락이 제품가격 인하로 이어질 수 있습니다."
+      },
+      {
+        "factor": "수요업종 경기",
+        "detail": "전자·자동차·건설 등 주요 수요산업의 경기변동은 스테인리스 강판 수요에 직결되어 실적 변동성을 키웁니다."
+      },
+      {
+        "factor": "글로벌 공급·무역 환경",
+        "detail": "중국의 대규모 생산 및 보호무역 확산 등 국제적 시장여건 변화는 수출가격과 수출물량에 영향을 줍니다."
+      },
+      {
+        "factor": "생산체제·납기",
+        "detail": "다품종 소량생산 체제 특성상 품질·납기·생산성 등 제조 경쟁력이 주문 확보와 매출 안정성에 중요한 요인입니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "1973년 설립되어 53년간 스테인리스 하나만을 제조해온"
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황",
+        "evidence_text": "주 제품인 스테인리스 냉연강판은 스테인리스 Hot Coil을 외부 조달하여"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "주요 고객사들은 가전업체부터 씽크, 자동차부품, 보일러, 건설, 산업부품 등"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "상품매출액: 119 (0.1%), 부산물매출액: 4,597 (2.1%)"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4024,
+    "completion_tokens": 4138,
+    "reasoning_tokens": 3264,
+    "output_tokens": 874
+  },
+  "warnings": []
+}

@@ -1,0 +1,72 @@
+{
+  "stock_code": "448710",
+  "corp_name": "코츠테크놀로지",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 19:46",
+  "meta": {
+    "wics": "우주항공과국방",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "코츠테크놀로지는 1999년 설립된 전자·방산 전문기업으로, 무기체계에 장착되는 싱글보드컴퓨터(SBC), 군용 전시기, 무기체계 탑재용 컴퓨터장치 등 방위산업 핵심 모듈의 설계·제조를 주력으로 하고 있습니다. 축적된 연구·개발(R&D) 역량을 바탕으로 철도 전자연동장치(CBI) 및 초고압 직류 송전(HVDC) 제어기 등 민수 분야 제품도 공급하고 있습니다.",
+    "business_model": "주요 수익원은 방산용 임베디드 장비 설계·제조로, FY2025 기준 사업부문별로 싱글보드컴퓨터(29.9%), 군용 전시기(21.7%), 무기체계탑재용 컴퓨터장치(25.9%), 무기체계 시스템(0.4%), 민수(3.8%), 기타(9.2%), 용역매출(9.2%)의 구성을 보이고 있습니다. 특히 상용 기성품(COTS, 상용 기성품)을 활용한 개방형 아키텍처 및 견고화(Rugged) 설계로 고신뢰성 제품을 공급하는 것이 핵심 역량입니다.",
+    "main_customers": "싱글보드컴퓨터 — 군·방산업체 / 군용 전시기 — 군·방산업체 / 무기체계탑재용 컴퓨터장치 — 군·무기체계 사업자 / 무기체계 시스템 — 무기체계 사업자 / 민수 — 철도·전력 인프라 사업자 / 용역매출·기타 — 정부·기업 고객",
+    "price_factors": [
+      {
+        "factor": "국방비 증감",
+        "detail": "국가별 국방비 및 군비 증강 기조가 강해지면 무기체계 수요 증가로 회사 실적에 긍정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "지정학 리스크",
+        "detail": "글로벌 안보 긴장과 지정학적 리스크 증가는 방산 수요 변동성과 수주 기회를 동시에 확대시킬 수 있습니다."
+      },
+      {
+        "factor": "수출규제",
+        "detail": "방산제품은 정부 승인 없이 수출이 제한되므로 수출규제 강화 시 매출과 영업 흐름에 제약이 발생할 수 있습니다."
+      },
+      {
+        "factor": "COTS 공급망",
+        "detail": "COTS(상용 기성품) 의존도와 글로벌 공급업체의 기술 이전 제한은 부품 조달과 제품 경쟁력에 직접적인 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 회사의 현황",
+        "evidence_text": "당사는 1999년 설립 이후 27년간"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "싱글보드컴퓨터: 20,334 (29.9%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "군용 전시기: 14,804 (21.7%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 회사의 현황",
+        "evidence_text": "철도 분야 전자연동장치(CBI: Computer Based Interlocking)"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "다. 사업영위에 중요한 영향을 미치는 법규 및 규제사항",
+        "evidence_text": "방산제품은 정부 수출규제 품목"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4704,
+    "completion_tokens": 5263,
+    "reasoning_tokens": 4352,
+    "output_tokens": 911
+  },
+  "warnings": []
+}

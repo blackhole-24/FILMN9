@@ -1,0 +1,91 @@
+{
+  "stock_code": "198440",
+  "corp_name": "강동씨앤엘",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:25",
+  "meta": {
+    "wics": "건축자재",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "강동씨앤엘은 시멘트와 레저를 사업부문으로 두고 있는 비금속·건축자재 기업입니다. 1973년 생산개시 이후 반백년 가까이 '고려시멘트' 상표로 영업을 이어왔으며, 호남지역 유일의 포틀랜드시멘트 생산회사라고 설명하고 있습니다. 또한 지역기업이자 향토기업으로서, 기술력과 고객신뢰를 강조하고 있습니다.",
+    "business_model": "사업부문별 영업수익은 시멘트 48.1%, 레저 51.9%로 구성되어 있습니다. 시멘트 부문은 포틀랜드시멘트 생산과 판매를 중심으로 하고, 레저 부문은 별도 영업수익 부문으로 운영됩니다. 회사는 호남권을 주영업권역으로 한 근거리 판매정책과 계열회사 투자 등을 통해 수익성을 높이려는 전략을 밝히고 있습니다.",
+    "main_customers": "시멘트 — 건설 관련 수요처, 지역 고객 / 레저 — 레저 이용 고객",
+    "price_factors": [
+      {
+        "factor": "건설경기",
+        "detail": "시멘트는 국내 건설 산업이 전방 산업이어서 건설투자 흐름이 실적에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "계절성",
+        "detail": "시멘트는 여름·겨울철 기후 영향으로 소비가 제한되는 계절성이 있어 판매 흐름이 달라질 수 있습니다."
+      },
+      {
+        "factor": "유가·물류",
+        "detail": "호남권 근거리 판매정책은 물류비 최소화와 연결되어, 운송비 부담 변화가 수익성에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "환경규제",
+        "detail": "환경 관련 규제가 강화되는 추세여서 설비투자와 대응 비용이 실적에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "공급여건",
+        "detail": "건설자재 수급여건과 정부의 주택공급 확대 대책은 시멘트 수요와 매출 흐름에 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황 > 1. 회사의 상표, 고객관리 정책",
+        "evidence_text": "당사는 호남지역 유일한 포틀랜드시멘트 생산회사로서 지역기업이며 향토기업입니다."
+      },
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황 > 1. 회사의 상표, 고객관리 정책",
+        "evidence_text": "1973년 생산개시 이후 반백년 가까이 고려시멘트라는 상표를 가지고 영업을 계속하여 왔으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "시멘트: 34,338 (48.1%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "레저: 37,021 (51.9%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황 > 3. 시장여건 및 영업의 개황 등",
+        "evidence_text": "국내 건설 산업이 시멘트 산업의 전방 산업이라고 볼 수 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황 > 3. 시장여건 및 영업의 개황 등",
+        "evidence_text": "소비는 여름, 겨울철에는 기후의 영향으로 제한되기 때문에 계절성이 있는 제품입니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "호남권(광주, 전남, 전북)을 주영업권역으로 형성한 근거리 판매정책 실행으로 물류비 최소화"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황 > 2. 법률/규정 등에 의한 규제사항",
+        "evidence_text": "최근 환경관련 규제가 강화되는 추세에 발맞춰 환경개선을 위한 설비투자를 확대"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4442,
+    "completion_tokens": 1074,
+    "reasoning_tokens": 0,
+    "output_tokens": 1074
+  },
+  "warnings": []
+}

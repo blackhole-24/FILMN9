@@ -1,0 +1,66 @@
+{
+  "stock_code": "010170",
+  "corp_name": "대한광통신",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 09:47",
+  "meta": {
+    "wics": "통신장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "대한광통신은 1974년 설립된 통신 및 전력 케이블 제조업체로, 국내 유일의 광섬유-광케이블 일관생산체제를 갖춘 회사입니다. 광통신 산업에서 광섬유를 코어 모재 단계부터 완제품인 광케이블까지 자체 생산할 수 있다는 점이 특징이며, 최근에는 특수광섬유와 소재부품장비 사업으로 영역을 넓히고 있습니다.",
+    "business_model": "FY2025 기준 사업부문별 영업수익은 광케이블 외가 58.4%, OPGW 외가 41.6%를 차지합니다. 회사는 광섬유를 기반으로 광케이블과 OPGW(가공지선, 전력선 상부에 설치하는 접지선)를 생산·공급하는 구조이며, 특수광섬유와 광모듈 등 신사업도 확대하고 있습니다.",
+    "main_customers": "광케이블 외 — SKT, KT, LG유플러스, 한국전력 등 기간통신 및 전력 관련 고객 / OPGW 외 — 전력 인프라 및 통신 인프라 관련 수요처 / 특수광섬유·부품 — 레이저, 의료, 국방, 반도체·광학 관련 수요처",
+    "price_factors": [
+      {
+        "factor": "5G수요",
+        "detail": "5G 상용화와 디지털 인프라 유지·업그레이드가 이어질수록 광케이블 수요가 늘어 실적에 영향을 줍니다."
+      },
+      {
+        "factor": "건설투자",
+        "detail": "광케이블 산업은 건설사업과 기간통신 사업자의 투자 정책에 따라 수요가 달라집니다."
+      },
+      {
+        "factor": "노후교체",
+        "detail": "미국·유럽 등 해외 선진국의 노후 인프라 교체 수요가 확대되면 수출 기회가 커질 수 있습니다."
+      },
+      {
+        "factor": "원자재가",
+        "detail": "원자재 가격 상승은 제조 원가 부담을 높여 수익성에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "신사업",
+        "detail": "레이저용 광섬유와 특수광섬유, 방산 분야 진출 성과가 향후 성장성에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "국내유일 광섬유-광케이블 일관생산체제를 갖춘 업체"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "광케이블 외: 81,415 (58.4%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "OPGW 외: 58,032 (41.6%)"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3961,
+    "completion_tokens": 732,
+    "reasoning_tokens": 0,
+    "output_tokens": 732
+  },
+  "warnings": []
+}

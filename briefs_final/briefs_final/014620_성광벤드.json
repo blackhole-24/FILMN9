@@ -1,0 +1,67 @@
+{
+  "stock_code": "014620",
+  "corp_name": "성광벤드",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 21:31",
+  "meta": {
+    "wics": "기계",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "성광벤드는 1963년 설립된 관이음쇠(파이프 피팅) 전문 제조업체로, 발전·석유화학·조선·해양 플랜트용 대형 설비 부품에 특화된 기술력을 보유하고 있습니다. 2001년 코스닥에 상장되어 있으며, 연결 기준 매출의 약 66%가 수출로 집계되는 수출 중심 기업입니다.",
+    "business_model": "핵심 사업은 관이음쇠 제조업으로 FY2025 기준 관이음쇠 제조업이 매출의 90.2%를 차지하며, 기타 제품이 11.7%를 차지합니다. 주문생산(입찰) 방식으로 수주를 받아 생산·납품하는 구조이며, 원재료인 철강가격 변동과 입찰 경쟁에 의해 판매가격과 수익성이 좌우됩니다.",
+    "main_customers": "관이음쇠 제조업 — 국내 대형 건설·조선·플랜트사(현대건설, HD현대중공업, 한화오션, 두산에너빌리티 등) / 수출(해외 플랜트) — 북미·일본·중동 등 해외 플랜트·조선사(예: Sunbelt Supply Co., ALLIED FITTING L.P., MITSUBISHI HEAVY INDUSTRIES ENGINEERING, LTD., 중동 카타르 가스사)",
+    "price_factors": [
+      {
+        "factor": "원재료(철강) 가격",
+        "detail": "철강가격 변동이 제품 가격의 주요 원인이며, 철강가 상승 시 원가 부담이 커져 실적에 부정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "프로젝트 발주 사이클",
+        "detail": "석유·화학·조선·발전 플랜트의 발주 증가 또는 감소가 매출 규모에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "무역·관세 환경",
+        "detail": "해외 수출 비중이 높아 미국 등 주요 시장의 관세·무역정책 변화는 수주와 수익성에 영향을 줍니다."
+      },
+      {
+        "factor": "입찰형 경쟁구조",
+        "detail": "주문생산·입찰 방식으로 가격경쟁이 발생하기 쉬워 매출 단가와 마진이 변동할 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 가. 사업의 현황(2) 공시대상 사업부문의 구분",
+        "evidence_text": "관이음쇠 제조업을 주 업종으로 동일한 사업을 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "매출 비중은 연결 기준으로 수출 66%, 내수 34%로 수출 비중이 높은 편입니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 가. 회사의 현황(1) 영업개황",
+        "evidence_text": "그 기술력과 생산능력을 인정받아 계속적으로 제품 공급을 하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 나. 주요 제품 등의 가격 변동 현황",
+        "evidence_text": "제품은 주문에 의한 생산과 판매가 이루어지고 있기 때문에"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5777,
+    "completion_tokens": 4239,
+    "reasoning_tokens": 3392,
+    "output_tokens": 847
+  },
+  "warnings": []
+}

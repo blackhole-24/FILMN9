@@ -1,0 +1,72 @@
+{
+  "stock_code": "114090",
+  "corp_name": "GKL",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 08:45",
+  "meta": {
+    "wics": "호텔,레스토랑,레저",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "GKL은 2005년 설립된 외국인전용 카지노 운영사로, 서울강남코엑스점·서울드래곤시티점·부산롯데점 등 3개의 카지노를 연중무휴 24시간 운영하고 있습니다. 관광진흥법에 기반해 외래관광객 유치와 외화획득을 목적으로 설립된 공기업 성격의 사업자입니다.",
+    "business_model": "핵심 사업은 외국인전용 카지노 운영으로, 고객이 칩을 구매해 게임 후 잔여 칩을 현금으로 교환하는 과정에서 매출이 발생합니다. [사업부문별 매출 구성]에 따르면 환전수입이 100.0%를 차지하고 있습니다.",
+    "main_customers": "카지노 — 한국을 방문하는 외국인 관광객·비즈니스 방문객·컨벤션 관련 외국인 임직원 / 고액 고객 — 기업체 임원·사업가·자영업자 등 경제적으로 여유 있는 고객층",
+    "price_factors": [
+      {
+        "factor": "정부정책",
+        "detail": "관광진흥법 등 정부 규제·허가에 따라 영업환경과 사업 확장 가능성이 직접 영향을 받습니다."
+      },
+      {
+        "factor": "해외방문자수",
+        "detail": "주력시장이 일본·중화권 등인 만큼 해당 국가들의 방문객 회복세가 실적과 방문자수에 직결됩니다."
+      },
+      {
+        "factor": "산업규제",
+        "detail": "카지노는 사행산업 성격으로 규제·관리 대상이기 때문에 규제 강화 시 영업·비용에 부담이 될 수 있습니다."
+      },
+      {
+        "factor": "경쟁구조",
+        "detail": "공급은 정부정책에 좌우되는 독점·과점적 성격을 띠어 정책 변화나 신규 공급에 따라 시장지위가 달라질 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "2005년 9월 그랜드코리아레저(주)(GKL)를 설립하여"
+      },
+      {
+        "field": "business_model",
+        "source_section": "나. 사업부문별 재무현황",
+        "evidence_text": "당사는 외국인카지노 단일 사업을 영위중이며,"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "환전수입: 396,390 (100.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "주요고객으로 한국을 방문하는 외국 관광객"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 영업활동에 영향을 미치는 중요한 법규 등",
+        "evidence_text": "당사의 영업환경은 정부 정책에 따라 크게 영향을 받을 수 있으며,"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4262,
+    "completion_tokens": 4524,
+    "reasoning_tokens": 3776,
+    "output_tokens": 748
+  },
+  "warnings": []
+}

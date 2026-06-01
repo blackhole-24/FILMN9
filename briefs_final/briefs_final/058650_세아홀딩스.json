@@ -1,0 +1,72 @@
+{
+  "stock_code": "058650",
+  "corp_name": "세아홀딩스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 03:46",
+  "meta": {
+    "wics": "철강",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "세아홀딩스는 지배목적의 주식소유를 주된 사업으로 하는 순수지주회사로, 자회사 및 손자회사를 통해 철강·특수강 계열의 사업을 지배하고 있습니다. 2025년 12월 31일 현재 당사를 포함하여 총 24개의 국내계열회사를 보유하고 있으며, 지주회사의 형태로 배당·상표사용료·임대수익 등을 주요 수입원으로 삼고 있습니다.",
+    "business_model": "핵심 수익원은 자회사로부터의 배당금수익과 계열사 대상의 용역(경영자문·서비스) 및 임대수익이며, 2025년 기말 별도 기준 영업수익 구성은 배당금수익 61.9%, 용역수익 27.2%, 임대수익 5.1%로 나타났습니다. 또한 '세아' 상표권을 계열사와의 상표사용계약을 통해 관리·수익화하고 있습니다.",
+    "main_customers": "지주회사업 — 자회사·기타 투자회사 / 용역 — 자회사·계열사(경영자문·용역 수혜자) / 임대사업 — 비거주용 건물 임차인(법인 고객) / 기타매출(상표권) — 상표사용계약을 체결한 계열회사",
+    "price_factors": [
+      {
+        "factor": "자회사 실적",
+        "detail": "주요 수입원이 자회사 배당이므로 자회사(특수강·스테인리스 등) 실적 변동이 연결 실적과 주가에 직접 영향"
+      },
+      {
+        "factor": "원자재·수입재 경쟁",
+        "detail": "원부재료 가격 약세 및 저가 수입재 유입은 자회사 이익성에 부정적 영향을 미쳐 지주 수익성에도 악영향"
+      },
+      {
+        "factor": "산업 수요(경기)",
+        "detail": "특수강 수요가 자동차·건설중장비 등 전방산업과 밀접하여 경기 둔화 시 자회사 가동률·수익성 하락으로 이어짐"
+      },
+      {
+        "factor": "지주회사 규제·지배구조",
+        "detail": "지주회사 관련 법규(공정거래법)와 계열사 지배관계 변화는 지주회사로서의 지배력·수익구조에 영향을 줄 수 있음"
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "당사는 지배목적의 주식소유를 주된 사업내용으로 하는 순수지주회사로"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "2025년 12월 31일 현재 당사를 포함하여 총 24개의 국내계열회사를 가지고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "배당금수익 비중이 61.9%, 용역수익 27.2%, 임대수익은 5.1%."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "영업수익은 자회사 및 기타 투자회사로부터의 배당수익"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용의 7. 기타 참고사항",
+        "evidence_text": "국내 특수강 수요는 자동차 및 건설중장비 생산량과 밀접한 연관성이 있으며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5069,
+    "completion_tokens": 4396,
+    "reasoning_tokens": 3456,
+    "output_tokens": 940
+  },
+  "warnings": []
+}

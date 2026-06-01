@@ -1,0 +1,74 @@
+{
+  "stock_code": "043360",
+  "corp_name": "디지아이",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 01:48",
+  "meta": {
+    "wics": "컴퓨터와주변기기",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "디지아이는 잉크젯 기반의 디지털 프린팅 기술을 바탕으로 산업용·텍스타일 프린터를 개발·공급하는 전기·전자업체입니다. 최근 보고서상 제35기 매출은 전년대비 4.4% 증가한 213억 원을 기록했으며, R&D(연구개발)를 통한 지적재산권 확보에 집중하고 있습니다.",
+    "business_model": "주요 수익원은 프린터 제품 판매(중국 OEM 장비 포함)와 장비 임대사업이며, 텍스타일 프린터 등 디지털 프린팅 솔루션을 통해 섬유·패션 분야의 자동화 수요를 공략하고 있습니다. 또한 연구개발로 확보한 특허·상표 등 지적재산권을 제품과 기술 보호에 활용합니다.",
+    "main_customers": "프린터 제품(판매) — OEM·제조사(중국 OEM 포함) / 임대사업 — 장비 임차 고객 / 텍스타일 프린터 솔루션 — 섬유·의류업체",
+    "price_factors": [
+      {
+        "factor": "중국 수요",
+        "detail": "중국 OEM 장비 판매 증감이 매출에 직접적인 영향을 미치며 실적 변동 요인이 됩니다."
+      },
+      {
+        "factor": "가격경쟁",
+        "detail": "보고서상 가격경쟁 심화로 판매단가가 하락하면 영업손익 악화로 이어질 수 있습니다."
+      },
+      {
+        "factor": "공급망·원자재",
+        "detail": "글로벌 무역·공급망 재편 및 원자재 가격 변동성은 비용과 수익성에 영향을 줍니다."
+      },
+      {
+        "factor": "지적재산권",
+        "detail": "특허·디자인·상표 등 보유권리는 기술 보호와 경쟁사 견제에 유리하게 작용합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "매출의 경우 전년대비 9억 원 증가(4.4%)한 213억 원을 달성하였으며,"
+      },
+      {
+        "field": "business_model",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "제품에서의 중국 OEM 장비 매출과 임대사업에서의 증가"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "이는 중국 OEM 장비 판매가 전년대비 증가(116대 → 141대)한 영향입니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "특허권 39건, 디자인권 3건, 상표권 24건, 실용실안권 8건"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "영업적자를 해소하지 못하고 3년 연속 적자를 기록하였으며,"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4411,
+    "completion_tokens": 4258,
+    "reasoning_tokens": 3456,
+    "output_tokens": 802
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

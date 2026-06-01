@@ -1,0 +1,73 @@
+{
+  "stock_code": "065370",
+  "corp_name": "위세아이텍",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:06",
+  "meta": {
+    "wics": "소프트웨어",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "위세아이텍은 1990년 설립된 AI와 빅데이터 전문 기업으로, 2018년 코넥스 시장을 거쳐 2020년 코스닥시장에 상장한 주권 상장 법인입니다. 금융·공공·제조·유통·교육 등 다양한 산업에서 490여 개 고객사와 1,700여 건 이상의 프로젝트를 수행하며 기술력과 노하우를 쌓아왔습니다.",
+    "business_model": "회사는 Tailored AX와 Digital Asset Management를 중심으로 사업을 전개하며, 사업부문별 매출은 AI 6,051,464, 빅데이터(분석과 품질) 29,805,957, 기타 645,832입니다. Tailored AX는 AI 운영·자동화·의사결정까지 아우르는 AI Analytics Platform 기반 솔루션이고, Digital Asset Management는 데이터·애플리케이션·소스코드까지 포함한 디지털 자산의 품질과 신뢰성을 관리하는 Digital Quality Governance Platform 기반 사업입니다. 솔루션은 단독 도입과 통합 프로젝트 형태로 제공되며, 직접 영업과 조달청 디지털서비스몰, SaaS(서비스형 소프트웨어) 채널을 통해 판매합니다.",
+    "main_customers": "Tailored AX — 금융·공공·제조·유통·교육 등 산업 전반의 기업 및 기관 / Digital Asset Management — 데이터·애플리케이션·소스코드 품질 관리가 필요한 기업, 금융권 등 / SaaS 채널 — 개인, 소규모 프로젝트, 스타트업",
+    "price_factors": [
+      {
+        "factor": "AI투자확대",
+        "detail": "정부의 AI 투자 확대와 민간의 AI 내재화 수요가 커질수록 AI 분석·운영 솔루션에 대한 수요가 늘어날 수 있습니다."
+      },
+      {
+        "factor": "데이터품질",
+        "detail": "AI 성능과 신뢰성을 높이기 위한 데이터 품질관리·표준화 수요가 커질수록 빅데이터 분석과 품질 관리 사업에 유리하게 작용할 수 있습니다."
+      },
+      {
+        "factor": "공공조달",
+        "detail": "조달청 디지털서비스몰 같은 공공 판매 채널의 활용도가 높아질수록 공공 부문 매출 확대에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "SaaS확산",
+        "detail": "WiseAIOps와 WiseProphet의 SaaS 제공이 확대될수록 개인·소규모 고객까지 판매 범위가 넓어질 수 있습니다."
+      },
+      {
+        "factor": "시장성장",
+        "detail": "글로벌 AI 시장이 빠르게 성장할수록 AI와 데이터 솔루션을 제공하는 기업의 사업 기회가 함께 커질 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "MD&A",
+        "evidence_text": "1990년 09월에 설립되었으며, 2018년 04월 코넥스 시장을 거쳐 2020년 02월 코스닥시장에 상장한 주권 상장 법인입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. 주요사업",
+        "evidence_text": "당사는 Tailored AX와 Digital Asset Management를 중심으로 사업을 전개하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "| AI | 6,051,464 | 6,245,809 | 3,850,608 |"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 주요사업",
+        "evidence_text": "금융·공공·제조·유통·교육 등 산업 전반에 490여 개 고객사를 보유"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4994,
+    "completion_tokens": 917,
+    "reasoning_tokens": 0,
+    "output_tokens": 917
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

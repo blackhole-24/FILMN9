@@ -1,0 +1,71 @@
+{
+  "stock_code": "246710",
+  "corp_name": "티앤알바이오팹",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 13:40",
+  "meta": {
+    "wics": "생물공학",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "티앤알바이오팹은 3D 바이오프린팅(세포 프린팅 포함) 시스템과 바이오잉크, 생분해성 인공지지체 등을 자체 개발·상용화한 재생의학 기반 기업입니다. 재생의학 기술을 바탕으로 3D 오가노이드(장기유사체), 3D 세포치료제 및 생체재료를 활용한 의료기기 개발을 병행하며 바이오써지컬솔루션과 화장품 사업으로 사업영역을 확장하고 있습니다.",
+    "business_model": "사업부문은 재생의학, 바이오써지컬솔루션, 화장품으로 구성되며 FY2025 기준 매출 구성은 화장품 63.0%, ECM(기초의료소재) 13.0%, 3D프린터·상품·기타 15.0%, 생분해성 인공지지체 5.0%, 반제품 5.0%, 용역매출 1.0%입니다. 회사는 자체 보유한 3D 바이오프린팅 시스템과 바이오잉크, 생분해성 인공지지체 등을 핵심 제품군으로 연구개발(R&D)과 상용화를 통해 수익원을 다변화하고 있습니다.",
+    "main_customers": "3D프린터·상품·기타 — 대학, 기업연구소 / 생분해성 인공지지체·ECM·반제품·화장품·용역 — 고객 유형 별도 명시 없음",
+    "price_factors": [
+      {
+        "factor": "시장성장",
+        "detail": "3D 바이오프린팅 시장은 향후 큰 폭 성장(연평균 16.7% 전망)이 예상되어 관련 제품 수요 증가가 실적에 긍정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "제품믹스",
+        "detail": "FY2025에 화장품 매출 비중이 63.0%로 높아 화장품 사업 실적 변동이 전체 매출에 큰 영향을 미칩니다."
+      },
+      {
+        "factor": "R&D기간",
+        "detail": "3D 오가노이드·3D 세포치료제 등은 장기적 투자와 연구개발이 필요해 상용화 시점이 실적에 지연 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "재무유동성",
+        "detail": "현금성자산 감소(전기 대비 53.4% 감소) 및 당기순손실(34,944백만원)은 단기적 재무유동성 리스크로 작용할 수 있습니다."
+      },
+      {
+        "factor": "환율",
+        "detail": "국제영업을 수행하는 관계로 원·달러 환율 변동이 손익에 영향을 미칠 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "3D 바이오프린팅(세포 프린팅 포함) 시스템"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "화장품: 100,000 (63.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "대학, 기업연구소"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "65억달러 규모로 성장할 것으로 예상됩니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4194,
+    "completion_tokens": 4857,
+    "reasoning_tokens": 3968,
+    "output_tokens": 889
+  },
+  "warnings": []
+}

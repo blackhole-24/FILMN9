@@ -1,0 +1,76 @@
+{
+  "stock_code": "352910",
+  "corp_name": "오비고",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:38",
+  "meta": {
+    "wics": "소프트웨어",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "오비고는 2003년 휴대폰 브라우저 개발 회사로 출발해, 현재는 스마트카 소프트웨어를 개발·판매하는 IT 서비스 기업입니다. 커넥티드카 소프트웨어 플랫폼 기술을 바탕으로 국내 완성차뿐 아니라 글로벌 완성차에도 소프트웨어를 공급하고 있으며, 자회사 카랑을 통해 차량 정비와 부품 유통까지 사업을 넓히고 있습니다.",
+    "business_model": "오비고의 2025년 사업부문별 영업수익은 토탈 차량관리 플랫폼 부문 58.2%, 스마트카 소프트웨어 플랫폼 부문 39.3%, 스마트카 콘텐츠 서비스 플랫폼 부문 2.5%, 기타 0.1%로 구성됩니다. 핵심은 OEM(완성차 제조사)·Tier1(1차 부품사) 대상 IVI(차량용 인포테인먼트) 솔루션과 SDV(소프트웨어 중심 차량) 서비스 플랫폼 공급이며, 여기에 AI 기반 콘텐츠와 차량관리 서비스를 더해 수익 구조를 확장하고 있습니다. 자회사 카랑을 통한 B2C(개인 고객)·B2B(기업 고객) 정비와 부품 유통도 중요한 매출 축입니다.",
+    "main_customers": "스마트카 소프트웨어 플랫폼 — 자동차 제조사(OEM), 차량 부품 공급사(Tier1) / 스마트카 콘텐츠 서비스 플랫폼 — 차량 소유주, 운전자 / 토탈 차량관리 플랫폼 — B2C 개인차주, B2B 법인·렌터카·플릿 운영자, 보험사, 정비소",
+    "price_factors": [
+      {
+        "factor": "SDV 전환",
+        "detail": "자동차 산업이 SDV(소프트웨어 중심 차량)로 바뀔수록 차량용 소프트웨어와 서비스 플랫폼 수요가 늘어 실적 기대에 영향을 줍니다."
+      },
+      {
+        "factor": "AI 확산",
+        "detail": "AI 기반 예측 정비, 맞춤형 콘텐츠 같은 서비스 수요가 확대되면 회사의 데이터·AI 연계 사업 확장에 우호적으로 작용합니다."
+      },
+      {
+        "factor": "완성차 수요",
+        "detail": "OEM과 Tier1을 통한 공급 사업 특성상 완성차 업황과 신차 개발 일정이 매출 흐름에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "커넥티드카",
+        "detail": "커넥티드카와 OTA(무선 업데이트) 확산이 빠를수록 IVI 솔루션과 클라우드 연동 서비스의 활용 범위가 넓어질 수 있습니다."
+      },
+      {
+        "factor": "정비시장",
+        "detail": "자회사 카랑의 B2C·B2B 차량 정비와 부품 유통은 차량 관리 수요와 정비 네트워크 확대 여부에 따라 영향받습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "MD&A",
+        "evidence_text": "당사는 2003년 휴대폰에 들어가는 브라우저를 개발하는 회사로 설립되었으며"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "자회사 카랑을 통해 B2C·B2B 차량 정비 등 모빌리티 케어 플랫폼 사업을 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "스마트카 소프트웨어 플랫폼 부문: 13,170 (39.3%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "토탈 차량관리 플랫폼 부문: 19,511 (58.2%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "자동차 제조사(OEM), 차량 부품 공급사(Tier1)에 제공하는 사업을 영위하고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5589,
+    "completion_tokens": 970,
+    "reasoning_tokens": 0,
+    "output_tokens": 970
+  },
+  "warnings": []
+}

@@ -1,0 +1,72 @@
+{
+  "stock_code": "014990",
+  "corp_name": "인디에프",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 21:38",
+  "meta": {
+    "wics": "섬유,의류,신발,호화품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "인디에프는 의류 제조 및 판매를 주력으로 하는 패션기업으로, 연결기준 2025년 매출액은 104,591백만원을 기록했습니다. 종속회사인 나산실업(주)는 시설관리 부문을 영위하나 자산 비중이 약 0.3%로 주요 종속회사에는 해당하지 않습니다.",
+    "business_model": "주요 사업은 의류 제조 및 판매이며, FY2025 사업부문별 영업수익 구성은 제품및상품 30.4%, 꼼빠니아 23.0%, 트루젠 7.4%, 바인드 28.1%, 모스바니 6.3%, 아위 1.0%, 기타 3.7%로 구성됩니다. 생산은 국내외 외주임가공업체에 외주하청방식으로 운영되며 브랜드·유통·마케팅을 통한 판매가 핵심 수익원입니다.",
+    "main_customers": "패션부문 — 의류 소비자(리테일)·유통망 / 시설관리(나산실업) — 시설 운영 수요처(기업·기관)",
+    "price_factors": [
+      {
+        "factor": "경기 민감성",
+        "detail": "소비심리 위축 시 매출과 이익이 빠르게 둔화될 수 있습니다."
+      },
+      {
+        "factor": "패션 유행",
+        "detail": "트렌드 변화에 민감하여 상품기획·디자인 경쟁력에 따라 실적 변동성이 큽니다."
+      },
+      {
+        "factor": "원부재료 조달",
+        "detail": "원단·부재료의 해외조달 확대는 원가와 공급 리스크에 영향을 미칩니다."
+      },
+      {
+        "factor": "경쟁 심화",
+        "detail": "진입장벽이 낮고 대형·글로벌 브랜드의 경쟁 심화는 판가·마케팅 비용에 부담을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "지배회사인 당사는 패션부문으로 의류 제조 및 판매를 주요사업으로 하고 있으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "제품및상품: 31,834 (30.4%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "나. 국내외 시장여건 (1) 시장의 안정성",
+        "evidence_text": "생산은 국내외 외주임가공업체에 외주하청방식으로 생산하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나. 국내외 시장여건 (1) 시장의 안정성",
+        "evidence_text": "최근에는 Cost절감을 위해 중국등 해외조달을 확대하고 있으며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나. 국내외 시장여건 (2) 경쟁상황",
+        "evidence_text": "진입장벽이 낮아 경쟁이 치열합니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4343,
+    "completion_tokens": 5372,
+    "reasoning_tokens": 4608,
+    "output_tokens": 764
+  },
+  "warnings": []
+}

@@ -1,0 +1,72 @@
+{
+  "stock_code": "187420",
+  "corp_name": "HLB제넥스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 11:06",
+  "meta": {
+    "wics": "생물공학",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "HLB제넥스는 2000년 한국생명공학연구원의 스핀오프로 설립된 효소·바이오헬스케어 소재 개발 기업으로, 미생물 디스플레이 및 재조합 단백질 분비 발현 등 효소 개량·대량생산 플랫폼 기술을 보유하고 있습니다. 해당 플랫폼을 바탕으로 산업용 특수 효소, 바이오 헬스케어 소재, 마이크로바이옴-효소 제품 개발을 주요 사업으로 영위하고 있습니다.",
+    "business_model": "FY2025 기준 사업부문 매출은 '제품 및 상품'이 21,880(100.0%)로 전 매출을 차지하며(제품 판매 중심), 주요 품목은 산업용 특수 효소(예: 카탈라제, 락타아제), 바이오 헬스케어 소재(파이토스핑고신, 비타민K2, 나토키나제) 및 마이크로바이옴 연계 제품 개발입니다.",
+    "main_customers": "산업용 특수 효소 — 반도체·섬유 등의 수처리 공정 업체 / 식품용 효소 — 유제품 제조사(우유·요거트·유청)·프로바이오틱스 소재 생산업체 / 바이오 헬스케어 소재 — 화장품·건강기능식품·의약품 원료 제조사 / 마이크로바이옴-효소 제품 — 헬스케어·스킨케어·영양관리 관련 기업",
+    "price_factors": [
+      {
+        "factor": "마이크로바이옴 성장",
+        "detail": "전 세계 마이크로바이옴 시장의 폭발적 성장(보고서상 높은 연평균 성장률)은 마이크로바이옴-효소 제품의 수요 확대와 실적에 긍정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "수요 변동성",
+        "detail": "연결실체의 영업실적은 시장의 수요·공급과 계절적 변동에 영향을 받는다고 명시되어 있어 수요 둔화 시 매출·이익이 하방압력을 받을 수 있습니다."
+      },
+      {
+        "factor": "인증·안전성",
+        "detail": "제품별 FDA GRAS, EFSA 등록 등 인증 보유 여부가 해외 거래선 확보와 매출에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "환율 변동",
+        "detail": "USD·EUR·CNH 등 거래통화 노출로 환율 변동 시 수익성과 당기손익에 영향을 받을 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 핵심 기술을 바탕으로 환경, 식품, 화장품 등 다양한 분야에 걸쳐 사업을 진행하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "제품 및 상품: 21,880 (100.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "반도체/섬유 등의 수처리 공정에 사용되는 카탈라제"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "GOS(프로바이오틱스 원료 효소) 제조에 쓰이는 락타아제"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "[경쟁 환경 및 시장 특성 — price_factors 참고용]",
+        "evidence_text": "전 세계 마이크로바이옴 시장 규모는 폭발적인 성장세를 보이고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4878,
+    "completion_tokens": 4843,
+    "reasoning_tokens": 3904,
+    "output_tokens": 939
+  },
+  "warnings": []
+}

@@ -1,0 +1,66 @@
+{
+  "stock_code": "023960",
+  "corp_name": "에쓰씨엔지니어링",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 09:52",
+  "meta": {
+    "wics": "건설",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "에쓰씨엔지니어링은 산업설비 활동을 주된 사업으로 하는 건설 회사로, 정밀화학·바이오케미컬·제약·식품 등 다양한 산업 플랜트의 건설 용역을 수행하고 있습니다. 산업설비공사와 함께 전기공사, 그리고 건강기능식품·헬스케어·유통 등 신사업도 추진하며 사업 영역을 넓히고 있습니다.",
+    "business_model": "주요 수익원은 산업설비공사로, FY2025 사업부문별 영업수익에서 산업설비공사가 82.4%를 차지합니다. 의료기기는 11.7%, 건강식품사업은 5.7%, 기타는 0.2%로 구성되어 있으며, 건설 중심의 EPC(설계·조달·시공 일괄수행) 사업에 바이오·헬스케어 사업을 더한 구조입니다. 셀론텍은 바이오콜라겐(RMS BioCollagen) 기반 재생의료 제품을 제조·판매하고 있습니다.",
+    "main_customers": "산업설비공사 — 정밀화학·바이오케미컬·제약·식품 등 산업 플랜트 발주처 / 의료기기 — 관절·연골 재생의료 제품을 찾는 의료기관 및 관련 공급처 / 건강식품사업 — 건강기능식품 구매 고객 및 유통 채널",
+    "price_factors": [
+      {
+        "factor": "수주변동",
+        "detail": "산업설비공사는 신규 수주 흐름에 따라 매출과 수익성이 크게 달라질 수 있습니다."
+      },
+      {
+        "factor": "건설경기",
+        "detail": "국내외 건설 시장의 침체나 변동성은 산업설비공사 실적에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "원가상승",
+        "detail": "원자재 가격 상승과 원가 압박이 커지면 건설 부문의 이익률이 낮아질 수 있습니다."
+      },
+      {
+        "factor": "고령화수요",
+        "detail": "고령화와 관절염 환자 증가는 의료기기 사업의 수요 확대 기대와 연결됩니다."
+      },
+      {
+        "factor": "생산확대",
+        "detail": "셀론텍의 신공장 가동과 생산능력 확대는 의료기기 사업 공급 역량에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "산업설비 활동 주체사로서 정밀화학 플랜트, Bio Chemical 플랜트"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "산업설비공사: 141,952 (82.4%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "정밀화학 플랜트, Bio Chemical 플랜트, 제약 플랜트"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5228,
+    "completion_tokens": 760,
+    "reasoning_tokens": 0,
+    "output_tokens": 760
+  },
+  "warnings": []
+}

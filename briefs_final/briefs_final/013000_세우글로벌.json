@@ -1,0 +1,67 @@
+{
+  "stock_code": "013000",
+  "corp_name": "세우글로벌",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 09:48",
+  "meta": {
+    "wics": "화학",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "세우글로벌은 플라스틱 원료의 도·소매사업을 영위하는 기업으로, SABIC INNOVATIVE PLASTICS 국내대리점과 함께 INEOS STYROLUTION, BASF, POLYPLASTICS, DSM, TRINSEO, SIBUR 등과 관련된 거래를 하고 있습니다. 또한 ABS 컴파운딩(원료를 섞어 성질을 조정하는 가공)에 참여하며, ABS 수지를 중심으로 한 플라스틱 소재 사업을 이어가고 있습니다.",
+    "business_model": "회사는 플라스틱 원료의 도·소매사업을 중심으로 하고 있으며, ABS 컴파운딩을 통해 고객 요구에 맞는 원자재 생산에도 참여하고 있습니다. 사업부문별 영업수익은 제품 2.7%, 임대 0.1%로 구성되어 있으며, 나머지 수익은 다른 항목에 포함되어 있습니다. 주력 제품인 ABS 수지(아크릴로니트릴·부타디엔·스티렌 수지)는 가전, 전자, 자동차 부품 등에 쓰입니다.",
+    "main_customers": "제품 — 전기·전자제품 및 자동차 부품 관련 수요처 / 임대 — 임차인",
+    "price_factors": [
+      {
+        "factor": "ABS수요",
+        "detail": "전기·전자제품과 자동차 부품 생산량이 늘면 ABS 수요가 증가해 관련 사업 실적에 영향을 줍니다."
+      },
+      {
+        "factor": "원가상승",
+        "detail": "고유가와 벤젠, SM 가격 상승은 국내 및 국제시장 가격 상승 압력으로 이어질 수 있습니다."
+      },
+      {
+        "factor": "경쟁구조",
+        "detail": "국내 ABS 시장이 대기업 과점체제여서 경쟁 강도와 거래 조건 변화가 실적에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "중국수출",
+        "detail": "중국과 동남아시아 수출이 증가세라고 언급돼 있어, 해당 지역 수요 변화가 매출에 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가) 주요 제품 등의 현황",
+        "evidence_text": "당사는 SABIC INNOVATIVE PLASTICS 국내대리점"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "제품: 891,873 (2.7%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "임대: 24,000 (0.1%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가) 주요 제품 등의 현황",
+        "evidence_text": "각종 가전전기부품"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4731,
+    "completion_tokens": 685,
+    "reasoning_tokens": 0,
+    "output_tokens": 685
+  },
+  "warnings": []
+}

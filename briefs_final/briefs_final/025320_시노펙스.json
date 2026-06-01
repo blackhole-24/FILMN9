@@ -1,0 +1,71 @@
+{
+  "stock_code": "025320",
+  "corp_name": "시노펙스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 13:07",
+  "meta": {
+    "wics": "핸드셋",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "시노펙스는 전자기기·멤브레인·의료기기를 융합한 기술 기반의 Total Solution 기업으로, SE(SmartLife Electronics)와 AMFS(Advanced Membrane & Filtration Systems) 등 사업부문을 통해 반도체용 필터, FPCB(연성인쇄회로기판) 및 의료기기 분야를 영위하고 있습니다. 반도체용 케미컬 필터의 국산화 등 기술력을 바탕으로 공급망 안정화에 기여하는 점이 특징입니다.",
+    "business_model": "사업부문별로 SE 부문이 매출의 89.5%를 차지하고, AMFS 부문이 10.6%를 차지합니다(2025년 기준). 주요 수익원은 반도체 공정용 초정밀 여과(필터) 제품과 FPCB 및 반도체 실장·패키지 융합 부품 솔루션이며, 미래 신성장으로 혈액투석 관련 의료기기 사업을 추진하고 있습니다.",
+    "main_customers": "SE 부문 — 스마트폰·가전(냉장고·TV·에어컨) 등 전자제품 제조사 및 자동차·항공·군수·의료기기·로봇 산업 고객 / AMFS 부문 — 국내 주요 반도체 기업 및 슬러리 소재 기업",
+    "price_factors": [
+      {
+        "factor": "고객맞춤·납기",
+        "detail": "고객이 요구하는 사양에 맞춘 주문생산과 납기 준수가 중요해 품질·납기 이슈가 실적에 직접 영향."
+      },
+      {
+        "factor": "기술·설비의존",
+        "detail": "복잡한 생산공정과 고도화된 설비 의존도가 높아 설비 가동률과 기술 확보가 수익성에 직결."
+      },
+      {
+        "factor": "공급망 안정성",
+        "detail": "케미컬 필터 국산화 등 공급망이 안정적일수록 매출 연속성 및 고객사 신뢰에 긍정적 영향을 미침."
+      },
+      {
+        "factor": "경기변동성",
+        "detail": "주 수요처가 스마트폰 등 전기전자 완제품이어서 최종 수요 둔화 시 실적 변동성이 커짐."
+      },
+      {
+        "factor": "진입장벽",
+        "detail": "생산공정의 복잡성·대규모 설비·노하우로 신규 진입장벽이 높아 경쟁완화가 실적 안정에 기여."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "당사는 전자기기, 멤브레인, 의료기기를 융합한 기술 기반 Total Solution 기업으로"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "SE 부문: 233,948 (89.5%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "AMFS 부문: 27,590 (10.6%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황 > 반도체 핵심 공정용 필터",
+        "evidence_text": "CMP 필터를 국내 주요 반도체 기업과 슬러리 소재 기업에 공급하고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5315,
+    "completion_tokens": 4103,
+    "reasoning_tokens": 3264,
+    "output_tokens": 839
+  },
+  "warnings": []
+}

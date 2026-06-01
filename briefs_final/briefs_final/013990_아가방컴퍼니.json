@@ -1,0 +1,76 @@
+{
+  "stock_code": "013990",
+  "corp_name": "아가방컴퍼니",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 21:23",
+  "meta": {
+    "wics": "섬유,의류,신발,호화품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "아가방컴퍼니는 1979년에 유아의류·용품 전문업체로 출범했으며 ONE-STOP SHOPPING을 유아시장에 최초로 도입했습니다. 뛰어난 브랜드 인지도와 국내 최대 수준의 유통망을 기반으로 동종 업계에서 꾸준히 수위의 시장지위를 유지하고 있습니다.",
+    "business_model": "사업부문은 국내부문(주요 계열사: (주)아가방앤컴퍼니 내수부문, (주)아펙스, (주)디자인스킨, (주)에이앤씨아시아 등)과 해외부문(AGABANG U.S.A., 연태아가방복식유한공사, 북경아가방무역유한공사 등)으로 구분되며, FY2025 기준 국내가 95.5%·해외가 2.6%의 영업수익 비중을 차지합니다.",
+    "main_customers": "국내부문 — 국내 유아동 소비자 및 온라인·오프라인 유통채널 / 해외부문 — 중국 등 현지 소비자(대도시 중심)",
+    "price_factors": [
+      {
+        "factor": "출산율",
+        "detail": "출생아수·합계출산율 변화는 내수 수요에 직접적 영향을 줘 실적 변동성이 커질 수 있습니다."
+      },
+      {
+        "factor": "프리미엄수요",
+        "detail": "고령 산모 비중 확대에 따른 프리미엄·기능성 제품 수요 증가는 제품 믹스와 마진에 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "유통전환",
+        "detail": "온라인몰·직구 확대 및 유통채널 다각화는 매출 채널 구조와 마케팅 비용에 변화를 초래할 수 있습니다."
+      },
+      {
+        "factor": "원가·물류",
+        "detail": "원자재·물류비 변동성 확대는 원가 구조와 판관비에 부담으로 작용할 수 있습니다."
+      },
+      {
+        "factor": "해외경비",
+        "detail": "해외 현지 인건비·인프라 부족은 해외사업의 원가 상승 및 수익성 저하 요인이 될 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "나. 회사의 현황 (1) 영업개황",
+        "evidence_text": "1979년에 국내 최초로 유아의류 및 용품 전문업체로 출범"
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "국내: 180,529 (95.5%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "해외: 4,989 (2.6%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "국내사업부문 <산업의 특성>",
+        "evidence_text": "유아동 패션 및 용품 산업은 전형적인 내수 기반 산업"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "국내사업부문 <산업의 특성>",
+        "evidence_text": "원자재 가격 및 물류비 변동성을 높여 원가 구조에 영향을 미치고 있으며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3793,
+    "completion_tokens": 4168,
+    "reasoning_tokens": 3328,
+    "output_tokens": 840
+  },
+  "warnings": []
+}

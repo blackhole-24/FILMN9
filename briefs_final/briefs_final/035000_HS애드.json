@@ -1,0 +1,62 @@
+{
+  "stock_code": "035000",
+  "corp_name": "HS애드",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 00:13",
+  "meta": {
+    "wics": "광고",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "HS애드는 당사와 종속회사가 광고업을 영위하는 기업으로, 광고물 제작과 매체 집행(대행)을 주요 사업으로 하고 있습니다. 2025년 연결기준 매출액은 4,839억원이며, 글로벌 사업을 위해 10개 해외법인 및 27개 지점·지사를 운영하고 있습니다. Digitalization을 핵심과제로 삼아 디지털 사업비중을 확대하는 전략을 추진하고 있습니다.",
+    "business_model": "주요 수익원은 광고물제작(제작매출액)과 매체집행 관련 수입광고대행료(대행수수료)로 구성되며, 2025년 기준 제작매출액이 전체 매출의 83.6%, 대행수수료가 16.4%를 차지합니다. 제작매출액은 총액으로 인식하고, 매체집행은 커미션 부문만 순액으로 수입광고대행료에 반영하는 회계처리를 사용하며, 미디어 서비스는 TV/라디오·인쇄·디지털 등으로 구분됩니다. 또한 'DASH' 브랜드와 'DASH.AI' 등 디지털·AI 기반 솔루션을 통해 마케팅 크리에이티브와 디지털 역량을 강화하고 있습니다.",
+    "main_customers": "제작매출액 — 광고를 의뢰하는 기업·브랜드 / 수입광고대행료 — 매체 집행을 의뢰하는 광고주·기업",
+    "price_factors": [
+      {
+        "factor": "매출구성",
+        "detail": "제작매출액 비중(83.6%)이 높아 제작 수요 변동이 실적에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "수수료구조",
+        "detail": "매체집행은 커미션만 순액으로 인식되므로 대행수수료 비중 변화가 수익성에 영향을 줍니다."
+      },
+      {
+        "factor": "디지털화",
+        "detail": "Digitalization 추진으로 디지털 사업비중이 성장하면 매출 믹스와 경쟁 우위가 변화할 수 있습니다."
+      },
+      {
+        "factor": "해외전개",
+        "detail": "10개 해외법인·27개 지점의 글로벌 네트워크 확대로 해외사업 성과가 실적에 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사와 당사의 종속회사는 광고업을 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사의 2025년 연결매출액은 4,839억원이며, 이 중 제작매출액 비중은 83.6%인 4,047억원, 대행수수료 매출액 비중은 16.4%인 791억원 입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "광고물제작의 경우 총액을 제작매출액으로 인식(총액기재) 하고, 매체집행의 경우 커미션 부문만을 수입광고대행료 매출로 인식(순액기재)하고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3891,
+    "completion_tokens": 3828,
+    "reasoning_tokens": 3008,
+    "output_tokens": 820
+  },
+  "warnings": []
+}

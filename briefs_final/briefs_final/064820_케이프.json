@@ -1,0 +1,67 @@
+{
+  "stock_code": "064820",
+  "corp_name": "케이프",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 13:22",
+  "meta": {
+    "wics": "증권",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "케이프는 조선기자재 가운데 실린더라이너의 제조·가공을 핵심 사업으로 영위하는 기업입니다. 연결기준으로 최근 매출·이익을 기록하는 중이며, 실린더라이너 중심의 수주·A/S(사후관리) 시장에서 활동하고 있습니다.",
+    "business_model": "주력은 실린더라이너 제조(제품 판매)로 전체 매출의 약 96.7%를 차지하며, 그 외 임가공(약 0.1%), 상품판매(약 0.2%), 부동산임대(약 1.0%), 기타 부산물 판매(약 1.9%)가 부수적 수익원입니다. 실린더라이너 사업은 주물부문과 가공부문 등으로 구성되어 있고, 주물에서 가공소재를 조달하는 수직적 구조가 특징입니다.",
+    "main_customers": "실린더라이너 제조업 — 조선소 및 선주 / 임가공 판매 — 조선소·부품업체 / 부동산 임대 — 창고·부지 임차인(사업자) / 기타 부산물 판매 — 산업용 구매자",
+    "price_factors": [
+      {
+        "factor": "IMO 규제",
+        "detail": "연료·배출 규제 강화로 친환경 엔진 및 A/S 수요가 늘어 실린더라이너 수요에 직접 영향"
+      },
+      {
+        "factor": "수주량 변동",
+        "detail": "글로벌 신조선 발주 변동성(연간 수주량 감소 등)은 신규 수요와 실적에 직결"
+      },
+      {
+        "factor": "선주의 선호도",
+        "detail": "기자재 지명도 및 선주의 선호가 강해 거래관계 유지·확보가 실적에 중요"
+      },
+      {
+        "factor": "내외부 환경",
+        "detail": "내수 부진·정치적 불안정성 등 대내외 여건이 영업실적 변동성으로 연결될 수 있음"
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "매출액은 5,165억원, 영업이익 389억원, 당기순이익 183억원의 실적을 거두었습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "합계 | 67,433"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "특히 기자재의 지명도에 따라 선주의 선호도가 강하며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "5,000GT 이상 선박의 온실가스 배출량을 규제하는 탄소집약도지수(CII) 제도가 시행되면서"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4605,
+    "completion_tokens": 4970,
+    "reasoning_tokens": 4224,
+    "output_tokens": 746
+  },
+  "warnings": []
+}

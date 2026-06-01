@@ -1,0 +1,82 @@
+{
+  "stock_code": "020120",
+  "corp_name": "키다리스튜디오",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 12:14",
+  "meta": {
+    "wics": "양방향미디어와서비스",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "키다리스튜디오는 웹툰·웹소설·영상·MD 사업을 운영하는 글로벌 종합 콘텐츠 기업으로, IP(Intellectual Property) 기반의 다각화된 콘텐츠 사업을 전개하고 있습니다. 연결기준 매출액은 217,475,160천원으로, 플랫폼 운영과 IP확장을 중심으로 사업을 영위하고 있습니다.",
+    "business_model": "핵심 사업은 웹툰(플랫폼 운영), 웹소설, MD(굿즈) 및 영상 제작·판권유통으로 구성되며, 각 부문별 매출 비중은 웹툰 81.86%, 웹소설 2.45%, MD 12.21%, 영상 3.47%입니다. 자체 플랫폼(봄툰·레진코믹스)과 온라인 굿즈 플랫폼(재이미샵)을 통해 직접 유통하고, 타사 플랫폼에 대한 CP(Content Provider) 유통도 병행하여 IP(원천저작물) 기반의 미디어믹스와 커머스(Commerce) 선순환을 추구합니다.",
+    "main_customers": "웹툰 — 플랫폼 이용자(독자) / 웹소설 — 플랫폼 이용자(독자) / MD(굿즈) — 온라인 굿즈 구매 소비자(재이미샵 이용자) / 영상 — 판권·유통을 활용하는 콘텐츠 유통처 및 제작·투자 파트너",
+    "price_factors": [
+      {
+        "factor": "국내성숙",
+        "detail": "국내 시장이 성숙해 성장 정체가 나타나면 플랫폼 이용자 증가와 매출 확대에 제약이 될 수 있습니다."
+      },
+      {
+        "factor": "IP확장",
+        "detail": "웹툰·웹소설의 드라마·영화·게임 등 2차 창작(미디어믹스) 확장은 원천 IP 가치와 추가 수익을 높이는 요인입니다."
+      },
+      {
+        "factor": "글로벌수요",
+        "detail": "해외 진출 성과에 따라 해외 매출과 판권수익이 실적에 긍정적 또는 부정적 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "소비환경",
+        "detail": "고금리·고물가 등으로 소비가 위축되면 유료 플랫폼 이용과 굿즈(상품) 판매에 부담이 될 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "웹툰, 웹소설, 영상, MD 사업을 운영하는"
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황",
+        "evidence_text": "연결기준 매출액은 217,475,160천원"
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황",
+        "evidence_text": "각 사업부문의 비중은 웹툰 사업부문 81.86%"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "'봄툰', '레진코믹스'를 통해 웹툰과 웹소설을 제공"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "'재이미샵'을 통해 다양한 콘텐츠 기반 상품을 유통"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "업계의 현황",
+        "evidence_text": "국내 시장은 성숙기에 접어들며 성장이 정체되는 양상"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "고금리·고물가 기조"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4561,
+    "completion_tokens": 4757,
+    "reasoning_tokens": 3840,
+    "output_tokens": 917
+  },
+  "warnings": []
+}

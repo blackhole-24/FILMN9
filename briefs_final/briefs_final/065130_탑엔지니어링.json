@@ -1,0 +1,86 @@
+{
+  "stock_code": "065130",
+  "corp_name": "탑엔지니어링",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:06",
+  "meta": {
+    "wics": "핸드셋",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "탑엔지니어링은 디스플레이 장비와 카메라 모듈 검사장비, 2차전지 장비를 함께 영위하는 기계·장비 기업입니다. LCD 공정 장비에서 쌓은 기술을 바탕으로 OLED와 2차전지 영역으로 사업을 넓혀 왔고, 연결 기준 매출의 상당 부분을 카메라 모듈 부문이 차지하고 있습니다.",
+    "business_model": "사업부문별 영업수익은 CM(카메라 모듈) 59.9%, ES(Energy Solution) 23.3%, 2차전지 5.0%, 제품제조및판매 2.9%, 기타 9.0%로 구성됩니다. LCD 장비인 디스펜서, GCS, Array Tester와 OLED 공정 장비를 공급하고, 스마트폰용 카메라모듈 검사장비와 2차전지 관련 장비·부품 사업까지 함께 전개하는 구조입니다.",
+    "main_customers": "디스플레이 장비 — 국내외 디스플레이 패널 제조사 / 카메라 모듈 — 자회사인 (주)파워로직스 / 2차전지 장비 — 국내 Major 고객사",
+    "price_factors": [
+      {
+        "factor": "설비투자",
+        "detail": "고객사인 패널 제조업체의 설비투자 계획에 따라 수주와 매출이 크게 변동합니다."
+      },
+      {
+        "factor": "OLED 전환",
+        "detail": "중화권 스마트폰 제조업체의 OLED 패널 채용이 늘면 OLED 장비 수요 확대에 영향을 줍니다."
+      },
+      {
+        "factor": "2차전지",
+        "detail": "2차전지 산업의 성장 속도와 경쟁 강도에 따라 관련 장비·부품 사업 실적이 달라집니다."
+      },
+      {
+        "factor": "수출비중",
+        "detail": "수출 비중이 74.5%로 높아 해외 고객 수요와 지역별 투자 흐름이 실적에 직접 영향을 줍니다."
+      },
+      {
+        "factor": "기술신뢰",
+        "detail": "디스플레이 장비는 기술력과 신뢰성이 중요해 기존 고객과의 거래 유지 여부가 경쟁력에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "[DART 사업보고서 — 영업 현황]",
+        "evidence_text": "당사의 LCD 관련 주요 제품은 디스펜서, GCS, Array Tester 및 세정기 등이 있으며"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "[DART 사업보고서 — 영업 현황]",
+        "evidence_text": "당기 누적 매출액은 연결기준 7,985억원"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "CM: 478,572 (59.9%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "2차전지: 39,621 (5.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "[DART 사업보고서 — 영업 현황]",
+        "evidence_text": "국내외 디스플레이 패널 제조사에 공급하고 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "[DART 사업보고서 — 영업 현황]",
+        "evidence_text": "자회사인 (주)파워로직스에 공급하고 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "[DART 사업보고서 — 영업 현황]",
+        "evidence_text": "국내 Major 고객사에 공급하였고"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4800,
+    "completion_tokens": 928,
+    "reasoning_tokens": 0,
+    "output_tokens": 928
+  },
+  "warnings": []
+}

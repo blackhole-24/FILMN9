@@ -1,0 +1,69 @@
+{
+  "stock_code": "077360",
+  "corp_name": "덕산하이메탈",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 05:41",
+  "meta": {
+    "wics": "반도체와반도체장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "덕산하이메탈은 반도체 패키징용 접합 소재인 솔더볼(Solder Ball)과 솔더 페이스트(Solder Paste)의 연구개발(R&D)·제조·판매를 주력으로 하는 전기·전자 소재 기업입니다. 특히 130마이크론 미만의 초정밀 Micro Solder Ball을 통해 경쟁력을 확보하고 있으며, 방위·우주항공(덕산넵코어스 지분 보유) 및 고압가스·수소용기(덕산에테르씨티 편입) 등으로 사업 포트폴리오를 다각화하고 있습니다.",
+    "business_model": "핵심은 반도체 후공정(패키징)용 접합 소재의 제조·판매로, 주력 제품은 솔더볼과 솔더 페이스트입니다. 솔더볼은 BGA·CSP 등 패키지 수요에 대응하며, 솔더 페이스트는 솔더볼의 파우더 형태를 혼합해 접합·프리소더(pre-solder) 용도로 사용되어 유사한 시장 환경에서 매출을 창출합니다.",
+    "main_customers": "금속소재(솔더볼·솔더페이스트) — 반도체 후공정(패키징) 업체·반도체 제조사 / 덕산넵코어스(방위·항공 관련 지분 보유) — 방위·우주항공·5G·자율주행 관련 분야 / 덕산에테르씨티(고압가스용기) — 반도체·디스플레이용 특수가스, 항공·우주·수소 저장·운송 관련 산업",
+    "price_factors": [
+      {
+        "factor": "원자재 수급",
+        "detail": "주요 원재료인 주석 등의 수급 불안은 원가와 수익성에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "반도체 업황",
+        "detail": "BGA·CSP 등 후공정 패키징 수요 변동에 따라 제품 판매량과 매출이 변동합니다."
+      },
+      {
+        "factor": "환율",
+        "detail": "국제 영업과 해외법인 운용으로 USD 등 환율 변동이 손익에 영향을 미칩니다."
+      },
+      {
+        "factor": "고객 단가 요구",
+        "detail": "고객사의 단가 인하 요구와 제품 믹스 변화는 매출총이익률에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "반도체 패키징용 접합 소재인 Solder Ball과 Paste 중심의 R&D 및 제조, 판매"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "솔더볼 외 신규 아이템으로 Solder Paste가 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "BGA(Ball Grid Array), CSP(Chip Scale Package) 등의 수요가 지속적으로 증가하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 경쟁 환경 및 시장 특성",
+        "evidence_text": "주요 원재료인 주석 등의 안정적인 수급을 통하여"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 5612,
+    "completion_tokens": 4805,
+    "reasoning_tokens": 3968,
+    "output_tokens": 837
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

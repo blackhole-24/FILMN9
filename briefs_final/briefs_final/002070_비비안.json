@@ -1,0 +1,67 @@
+{
+  "stock_code": "002070",
+  "corp_name": "비비안",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 17:45",
+  "meta": {
+    "wics": "섬유,의류,신발,호화품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "비비안은 1957년 설립된 여성용 내의류(언더웨어·이너웨어) 전문기업으로, 비비안·바바라·BBM 등 여러 브랜드를 보유하고 있습니다. 주요 제품은 여성용 파운데이션·란제리·스타킹 등이며, 주로 내수 시장에 공급합니다.",
+    "business_model": "핵심 사업은 여성용 파운데이션·란제리·스타킹 등 의류의 제조·판매로, FY2025에 해당 부문 매출 비중은 90.5%입니다. 임대업 매출 비중은 1.7%이며, 브랜드 중심 제품을 온·오프라인 유통채널을 통해 판매합니다.",
+    "main_customers": "여성용 파운데이션·란제리·스타킹 등 — 국내 여성 소비자 (백화점·직영점·전문점·온라인 유통채널) / 임대업 — 임차인",
+    "price_factors": [
+      {
+        "factor": "원부자재·환율",
+        "detail": "원부자재 가격과 환율 변동은 제품 원가와 매출 환산에 직접적 영향을 줍니다."
+      },
+      {
+        "factor": "내수 경기",
+        "detail": "내수 위주 사업구조로 내수 경기 둔화 시 수요가 줄어 실적에 영향을 받을 수 있습니다."
+      },
+      {
+        "factor": "생산비(노동비)",
+        "detail": "노동집약적 봉제 산업 특성상 인건비 상승 등 생산비 증가가 수익성에 부담이 됩니다."
+      },
+      {
+        "factor": "경쟁 심화",
+        "detail": "시장 포화와 소규모·수입 브랜드의 진입 가속화로 가격·디자인 경쟁이 심화됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 > 영업 현황",
+        "evidence_text": "당사는 1957년 남영염직(주)로 설립되어,"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 > 영업 현황",
+        "evidence_text": "주요 매출 품목으로는 여성용 파운데이션, 란제리, 스타킹 및 마스크 등을 생산하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 가. 주요 제품 등의 현황",
+        "evidence_text": "여성용파운데이션,란제리,스타킹,카바링사: 201,375 (90.5%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 > 영업 현황",
+        "evidence_text": "온라인, 오프라인을 아우르는 다양한 유통채널"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5244,
+    "completion_tokens": 4848,
+    "reasoning_tokens": 4160,
+    "output_tokens": 688
+  },
+  "warnings": []
+}

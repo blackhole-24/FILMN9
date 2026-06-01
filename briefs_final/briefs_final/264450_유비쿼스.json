@@ -1,0 +1,72 @@
+{
+  "stock_code": "264450",
+  "corp_name": "유비쿼스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 14:22",
+  "meta": {
+    "wics": "통신장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "유비쿼스는 2017년 유비쿼스홀딩스에서 네트워크사업부문을 인적분할하여 설립된 인터넷 통신 네트워크 장비 전문기업입니다. FTTH(광가입자망), 스위치(Switch), xDSL 관련 장비 등을 제조·판매하며 국내 통신사업자와의 협력을 바탕으로 안정적 매출처를 확보하고 있습니다.",
+    "business_model": "사업부문별로 스위치 등 매출이 53.4%를 차지하고(스위치 등: 62,141 (53.4%)), FTTH가 40.4%(FTTH: 47,059 (40.4%)), 기타가 6.2%(기타: 7,237 (6.2%))를 차지합니다. 제품은 샤시(chassis), 옵션모듈(option module), 단말기 등으로 구성되며 모델 및 옵션에 따라 판매단가가 달라집니다.",
+    "main_customers": "스위치 등 — 통신사업자 (KT, LGU+ 등) / FTTH — 통신사업자 (가입자 망 구축용) / 기타 — 기업·공공시장",
+    "price_factors": [
+      {
+        "factor": "가입자 수",
+        "detail": "초고속 인터넷 가입자 수 변화가 장비 수요에 직접적인 영향을 미쳐 실적 변동으로 연결될 수 있습니다."
+      },
+      {
+        "factor": "기술진보",
+        "detail": "초고속 인터넷 장비 분야의 빠른 기술진보로 적극적인 R&D 투자 여부가 제품 경쟁력과 수주에 영향을 줍니다."
+      },
+      {
+        "factor": "통신투자",
+        "detail": "통신사업자의 설비투자 주기(네트워크 대개체·고도화)에 따라 수요가 증감하여 실적 변동성이 발생할 수 있습니다."
+      },
+      {
+        "factor": "정책(네트워크)",
+        "detail": "정부의 K-Network 2030 등 유선 네트워크 고도화 정책 추진은 FTTH 전환·10기가 인터넷 활성화 등으로 수요 확대 요인이 됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "인터넷 통신 네트워크 장비 전문기업입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "스위치 등: 62,141 (53.4%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "FTTH: 47,059 (40.4%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "KT, LGU+ 등 통신사업자들이"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "업계의 현황",
+        "evidence_text": "적극적인 R&D 활동이 필수적인 분야입니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3699,
+    "completion_tokens": 2609,
+    "reasoning_tokens": 1856,
+    "output_tokens": 753
+  },
+  "warnings": []
+}

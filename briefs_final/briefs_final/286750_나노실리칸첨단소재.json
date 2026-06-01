@@ -1,0 +1,74 @@
+{
+  "stock_code": "286750",
+  "corp_name": "나노실리칸첨단소재",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 12:54",
+  "meta": {
+    "wics": "화학",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "나노실리칸첨단소재는 액티브 나노플랫폼(Active Nano-Platform)을 기반으로 기능성 나노신소재와 이를 적용한 응용제품을 개발·생산·판매하는 기업입니다. 위조방지 보안소재, 핵산추출용 자성입자(M-Bead) 기반 바이오 시약, 기능성 디스플레이 소재, 리튬이차전지용 실리콘 음극재 등으로 사업 영역을 확장하고 있습니다.",
+    "business_model": "회사는 자체 구축한 액티브 나노플랫폼을 통해 광결정 기반 색가변 보안소재(M-SecuPrint 등), 나노 자성입자 기반 핵산추출 시약(M-Bead), 전기 색가변·투과도가변 디스플레이 소재(ET-Ink, E-Tint 계열) 및 실리콘/카본 복합체 기반 이차전지 음극재 개발을 핵심 사업으로 추진하고 있습니다. 상품판매(화장품)와 Sticker Technology 관련 제품 매출도 존재하며, 실리콘 음극재는 국내 배터리 제조사 대상 샘플 테스트 후 2026년 중 수주·양산 전개를 목표로 하고 있습니다.",
+    "main_customers": "위조방지 보안사업 — 브랜드보호를 원하는 기업(B2B) 및 정부기관(보안인쇄·B2G) / 핵산추출 바이오사업 — 진단키트 선도기업 및 진단키트 고객 / 기능성 디스플레이 — 생활가전·인테리어·모바일·전기차 등 응용산업군 업체 / 리튬이차전지 음극재 — 국내 배터리 제조사",
+    "price_factors": [
+      {
+        "factor": "진입장벽",
+        "detail": "보안소재 시장은 진입장벽이 높아 한번 채택되면 지속적 적용으로 안정적 매출로 이어질 수 있습니다."
+      },
+      {
+        "factor": "바이오 신뢰성",
+        "detail": "바이오 시약 시장은 보수적이어서 품질과 안정성이 인정될 경우 장기 공급으로 연결될 가능성이 큽니다."
+      },
+      {
+        "factor": "원가경쟁력",
+        "detail": "실리콘/카본 복합체에서 당사의 폐기물 활용 방식은 가격경쟁력 확보 시 배터리 고객 확보와 매출 확대에 영향이 있습니다."
+      },
+      {
+        "factor": "디스플레이 수요",
+        "detail": "생활가전·모바일·전기차 등에서 감성·친환경 디스플레이 수요가 증가할 경우 상용화 제품의 매출 확대로 이어질 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "액티브 나노플랫폼을 토대로 다양한 '기능성 신소재' 및 이를 적용한 '응용제품' 을 개발ㆍ생산ㆍ판매하고 있으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "핵산추출 바이오 사업은 나노 자성입자를 기반으로 핵산 추출시약 소재 및 응용키트를 제조ㆍ판매하고 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "본 보고서 작성 기준일 현재 국내 배터리 제조사에 대한 샘플을 제공하여 테스트 중에 있으며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "진입장벽이 높아 한번 채택된 기술은 지속적으로 적용될 수 있는 속성을 가지고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "바이오 시약 시장은 일반적으로 매우 보수적이지만"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4950,
+    "completion_tokens": 4682,
+    "reasoning_tokens": 3712,
+    "output_tokens": 970
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "stock_code": "010640",
+  "corp_name": "진양폴리",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 20:37",
+  "meta": {
+    "wics": "화학",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "진양폴리는 폴리우레탄폼 제조를 주력으로 하는 화학업체로, 폴리우레탄폼(스폰지)을 단일사업으로 영위하고 있습니다. 제품은 쿠션재·흡음·단열 등 다양한 중간소재로 사용되며, 전형적인 제조업 수준의 규제환경에서 운영되고 있습니다.",
+    "business_model": "매출의 대부분을 폴리우레탄폼 제조·가공(99.7%)이 차지하며, 기타매출은 0.3%에 불과합니다(폴리우레탄폼이 핵심 수익원). 제품은 자동차·가구·침대·전자·의류 등 다양한 산업의 중간소재로 공급되어 B2B(기업간 거래) 중심의 매출 구조를 가집니다.",
+    "main_customers": "폴리우레탄폼 제조·가공 — 자동차·가구·침대·전자·의류 등 제조업체 / 기타매출 — 기타 거래처",
+    "price_factors": [
+      {
+        "factor": "내수 수요",
+        "detail": "국내 시장의 소비·투자 심리 위축 시 폴리우레탄폼 수요 감소로 실적에 부정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "저가수입",
+        "detail": "중국 등 설비확대로 인한 저가제품 유입 확대는 가격경쟁 심화와 마진 압박으로 이어질 수 있습니다."
+      },
+      {
+        "factor": "환경·안전 규제",
+        "detail": "위험물질 취급 사업 특성상 환경·안전 규제 강화는 운용·관리 비용 증가 요인이 될 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "당사는 폴리우레탄폼 사업을 영위하고 있으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "폴리우레탄폼 제조, 가공: 46,503,982,500 (99.7%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "주요 용도는 자동차,가구, 침대, 전자, 의류"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "중국산 등 저가제품의 국내 유입이 증가하는 추세입니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 2970,
+    "completion_tokens": 3152,
+    "reasoning_tokens": 2496,
+    "output_tokens": 656
+  },
+  "warnings": []
+}

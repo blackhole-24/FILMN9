@@ -1,0 +1,67 @@
+{
+  "stock_code": "001560",
+  "corp_name": "제일연마",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 17:34",
+  "meta": {
+    "wics": "비철금속",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "제일연마는 연마지석(금속·비금속 표면을 갈거나 다듬는 공구)의 제조·판매를 주업으로 하는 기업으로, 철강·조선·자동차 등 산업용 소모재를 주로 공급합니다. 기술연구소를 운영하며 신제품 개발과 품질 향상에 주력하고 있습니다.",
+    "business_model": "핵심 수익원은 연마지석이며, 사업부문별로 연마지석이 매출의 92.2%를 차지하고 기타 부문이 0.9%를 차지합니다; 주로 내수 중심의 거래 구조와 대기업 거래처 중심의 공급망을 기반으로 연구개발과 납기·A/S 역량으로 경쟁력을 유지합니다.",
+    "main_customers": "연마지석 — 포스코·현대자동차·세아베스틸·현대중공업·삼성중공업·한화오션 등 대기업 및 철강·자동차·조선·기계업체 / 기타 — 연마지석 외 기타 소규모 매출처",
+    "price_factors": [
+      {
+        "factor": "전방산업",
+        "detail": "철강·조선·자동차·기계 등 전방산업 생산량 변화가 연마지석 수요와 실적에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "제품대체성",
+        "detail": "특정 신제품 출현으로 기존 제품이 대량 대체되기 어려운 시장 특성은 수요의 안정성으로 작용합니다."
+      },
+      {
+        "factor": "납기·품질",
+        "detail": "납기 준수와 품질·A/S 역량은 주요 대기업 고객과의 장기계약 유지에 영향을 미칩니다."
+      },
+      {
+        "factor": "시장지배력",
+        "detail": "국내 최대 점유율과 브랜드 인지도는 가격·수주 경쟁력에 긍정적으로 작용할 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 사업의 현황",
+        "evidence_text": "연마지석의 제조 및 판매 등을 주요사업으로 영위하고 있으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "연마지석: 72,787,227,159 (92.2%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 2. 사업의 현황",
+        "evidence_text": "포스코, 현대자동차, 세아베스틸, 현대중공업, 삼성중공업, 한화오션"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 2. 사업의 현황",
+        "evidence_text": "특정 신제품의 출현으로 기존 제품이 대량으로 대체되기 어려운 시장입니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3551,
+    "completion_tokens": 4323,
+    "reasoning_tokens": 3584,
+    "output_tokens": 739
+  },
+  "warnings": []
+}

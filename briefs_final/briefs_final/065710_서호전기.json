@@ -1,0 +1,72 @@
+{
+  "stock_code": "065710",
+  "corp_name": "서호전기",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 04:36",
+  "meta": {
+    "wics": "운송인프라",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "서호전기는 항만크레인 구동제어시스템과 인버터·컨버터 등 구동제어기기의 제조·판매를 주력으로 하는 전기·전자 기업으로 본사가 안양시에 있습니다. 국내 본사 외에 국내·해외 연결대상회사를 운영하며, 싱가포르 현지법인을 설립해 PSA 등 대형 항만 자동화 프로젝트의 현지 엔지니어링과 A/S에 역점을 두고 있습니다.",
+    "business_model": "주요 사업은 항만크레인구동제어시스템과 인버터·컨버터의 설계·제작·납품(턴키, 패널조립 및 시운전 포함)으로 구성되며, 제품 부문 매출 비중은 45.4%입니다. 하드웨어(인버터·PLC는 Siemens 사용)와 소프트웨어(서호전기 개발)를 결합한 통합 자동화 시스템 공급이 핵심 수익원이며, 자사 개발 VD 인버터 등 단품 판매와 시스템 구성 판매를 병행합니다.",
+    "main_customers": "항만크레인제어시스템 — 항만·터미널 운영사(예: PSA 싱가포르, 동원부산터미널 등) / 제품(인버터 등) — 중공업 및 국내외 대기업(도급계약 상대)",
+    "price_factors": [
+      {
+        "factor": "항만자동화수요",
+        "detail": "컨테이너화 확대로 항만 크레인 수요와 자동화 시스템 도입이 늘어나면 수주·실적에 긍정적 영향을 줍니다."
+      },
+      {
+        "factor": "경쟁제한",
+        "detail": "항만크레인에 적용 가능한 인버터 공급업체가 제한적이어서 가격경쟁이 상대적으로 크지 않습니다."
+      },
+      {
+        "factor": "제품별 경쟁력",
+        "detail": "범용 인버터는 소용량(22kW 이하)에서 가격경쟁력이 약하지만, 대용량에서는 경쟁력이 있어 제품군별 이익성이 달라집니다."
+      },
+      {
+        "factor": "환율(외화)",
+        "detail": "수출 채권의 대부분이 USD·SGD로 회수되므로 환율 변동은 영업이익에 직접적 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "크레인구동제어시스템과 인버터, 컨버터의 제조판매 사업을 영위"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "제품: 52,926,608,354 (45.4%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "당사의 도급계약은 대부분 국내외 대기업과 이루어지므로"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 주요 제품 등의 현황",
+        "evidence_text": "인버터를 항만크레인에 적용할 수 있는 업체가 극히 제한되어 있기 때문에 경쟁이 심하지 않음"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "다. 환율변동이 미치는 영향",
+        "evidence_text": "당기 전체수출액의 대부분은 채권회수가 외화(USD,SGD)로 이루어 지고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5073,
+    "completion_tokens": 4009,
+    "reasoning_tokens": 3136,
+    "output_tokens": 873
+  },
+  "warnings": []
+}

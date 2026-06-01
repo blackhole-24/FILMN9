@@ -1,0 +1,77 @@
+{
+  "stock_code": "272110",
+  "corp_name": "케이엔제이",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 14:37",
+  "meta": {
+    "wics": "반도체와반도체장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "케이에난제이(케이엔제이)는 반도체 웨이퍼 에칭공정용 소모성 부품을 주로 생산하는 기업으로, CVD(화학기상증착) 방식의 SiC Focus Ring 및 LED 제조용 SiC 코팅제품 등을 공급하고 있습니다. 최종 수요자는 반도체 제조업체이며, 특히 메모리 반도체가 중요한 시장입니다.",
+    "business_model": "핵심 수익원은 반도체 에칭공정용 부품(소모성)이며, CVD(화학기상증착) 방식의 SiC 제품을 주문형 설계·제작 방식으로 공급합니다. FY2025 기준 사업부문별 영업수익 구성은 부품 58.0%, 수출 41.9%, 상품 9.0%, 기타 0.2%로 보고되어 있습니다.",
+    "main_customers": "부품 — 반도체 제조업체(메모리반도체 중심) / 수출 — 해외 반도체 제조업체 / 상품 — 반도체 제조업체 / 기타 — LED 제조업체",
+    "price_factors": [
+      {
+        "factor": "메모리 업황",
+        "detail": "메모리반도체 업황 변동은 당사 매출에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "공정환경 변화",
+        "detail": "고출력 플라즈마 등 제조 공정 변화는 SiC 기반 제품 수요를 좌우합니다."
+      },
+      {
+        "factor": "제품 대체",
+        "detail": "CVD-SiC가 단결정 Si를 대체하는 정도에 따라 수요가 증가하거나 제한됩니다."
+      },
+      {
+        "factor": "주문형 단가",
+        "detail": "고객 주문사양별로 단가를 협의해 결정하므로 매출·마진 변동성이 존재합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "SiC Focus Ring 및 LED제조용 SiC 코팅제품"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "당사 제품의 최종 수요자는 전방산업인 반도체 제조업체입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "부품: 48,956 (58.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "수출: 34,005 (41.9%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "상품 (9.0%)"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "2023년에는 전방산업인 메모리반도체의 업황이 좋지 않았고"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3483,
+    "completion_tokens": 5262,
+    "reasoning_tokens": 4480,
+    "output_tokens": 782
+  },
+  "warnings": []
+}

@@ -1,0 +1,66 @@
+{
+  "stock_code": "065510",
+  "corp_name": "휴비츠",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:06",
+  "meta": {
+    "wics": "건강관리장비와용품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "휴비츠는 의료·정밀기기 업종의 안과 의료기기 기업으로, 안경원용 검안기기와 안과용 진단기기 등을 다루고 있습니다. 눈이라는 민감한 신체 부위를 검사·진단하는 장비를 만드는 회사로, 기술적으로 광학·전자공학·기계공학·컴퓨터공학이 복합된 산업에 속합니다.",
+    "business_model": "휴비츠의 FY2025 사업부문별 영업수익은 안과용진단기 38.0%, 렌즈가공기 24.0%, 자동검안기 17.0%, 리플렉터 9.0%, 기타 9.0%, 자동렌즈미터 3.0%로 구성됩니다. 안경원용 검안기기와 안과병원용 진단기기를 중심으로 매출을 내며, 렌즈 가공 관련 장비와 보조 제품까지 함께 공급하는 구조입니다.",
+    "main_customers": "자동검안기 — 안경원 / 자동렌즈미터 — 안경원 / 렌즈가공기 — 안경원 / 리플렉터 — 안경원 및 관련 판매처 / 안과용진단기 — 안과병원 / 기타 — 관련 유통·사용처",
+    "price_factors": [
+      {
+        "factor": "판가구조",
+        "detail": "제품 가격이 시장 판가와 Distributor(판매선,대리점) 마진으로 정해져 가격 경쟁력과 판매력에 따라 실적이 영향을 받습니다."
+      },
+      {
+        "factor": "지역여건",
+        "detail": "현지 관세·물류비·광고비·A/S비가 마진에 포함돼 지역별 유통 환경이 수익성에 영향을 줍니다."
+      },
+      {
+        "factor": "경제상황",
+        "detail": "타 제품처럼 경기를 민감하게 반영하지는 않지만 전체적인 경제 상황에는 약간의 영향을 받습니다."
+      },
+      {
+        "factor": "기술수요",
+        "detail": "안과 의료기기 시장은 기술 난이도가 높지만 꾸준히 성장하는 분야여서 신제품과 기술 경쟁력이 수요에 중요합니다."
+      },
+      {
+        "factor": "공급망",
+        "detail": "글로벌 공급망 이슈와 지정학적 리스크가 커지면 경영 환경이 불확실해져 실적 변동 요인이 될 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 업계의 현황",
+        "evidence_text": "안과 의료기기는 제품 및 사용처별로 크게 안경원용 검안기기, 안과용 진단기기, 안과용수술기기로 구분됩니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "안과용진단기: 40,791 (38.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 업계의 현황",
+        "evidence_text": "안경원에서 사용되는 검안기기"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3422,
+    "completion_tokens": 755,
+    "reasoning_tokens": 0,
+    "output_tokens": 755
+  },
+  "warnings": []
+}

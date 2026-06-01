@@ -1,0 +1,71 @@
+{
+  "stock_code": "039570",
+  "corp_name": "HDC랩스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 01:12",
+  "meta": {
+    "wics": "건설",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "HDC랩스는 라이프솔루션(홈서비스), 건설솔루션, 리얼티(부동산 종합관리)를 주력으로 하는 건설 관련 솔루션·관리 기업입니다. 2025년 연결기준 매출액은 약 6,457억원으로 보고되었습니다.",
+    "business_model": "사업부문별 매출은 라이프솔루션(홈서비스) 22.6%, 건설솔루션 21.9%, 조경인테리어 8.7%, 리얼티(부동산종합관리) 46.8%로 구성됩니다. 라이프솔루션은 홈네트워크·시설물 유지관리, 건설솔루션은 스마트빌딩·기계설비·인테리어 등 공정 중심 사업, 리얼티는 FM(시설관리)·PM(자산관리) 중심의 부동산 종합관리 서비스를 통해 수익을 창출합니다.",
+    "main_customers": "라이프솔루션(홈서비스) — 대형 건설사 및 그룹사 준공단지·건물 소유자 / 건설솔루션 — 건설사 및 공공사업 발주처(도로·철도 등) / 리얼티(부동산종합관리) — 건물 소유주·자산 운영 주체(임대·운영 관리 대상)",
+    "price_factors": [
+      {
+        "factor": "원자재 비용",
+        "detail": "공사별로 투입되는 자재비·노무비 변동이 수주 원가에 직접 반영되어 실적 변동성을 키웁니다."
+      },
+      {
+        "factor": "B2B 구조",
+        "detail": "사업 특성상 대형 건설사 중심의 B2B 거래가 형성되어 발주처와의 장기 협력관계가 실적에 영향입니다."
+      },
+      {
+        "factor": "기술 고도화",
+        "detail": "AI·클라우드·데이터 기반 스마트홈·시설관리 도입 수준이 경쟁력과 수주 확보에 영향을 미칩니다."
+      },
+      {
+        "factor": "안전·규제",
+        "detail": "정부의 안전 점검 및 유지보수 규제 강화는 시설관리 수요를 늘리지만 준수 비용도 동반합니다."
+      },
+      {
+        "factor": "금융비용",
+        "detail": "금리·금융비용 상승은 건설업 전반의 프로젝트 추진 의사와 비용 구조에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "당사의 중점사업은 라이프솔루션(홈서비스)사업, 건설솔루션사업, 리얼티(부동산 종합관리)사업으로 구성되어 있으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "라이프솔루션(홈서비스): 146,168 (22.6%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "리얼티(부동산종합관리): 302,471 (46.8%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "나. 각 사업부문의 시장여건 및 영업의 개황",
+        "evidence_text": "사업 특성상 건설사 중심의 B2B 구조가 형성되어 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5278,
+    "completion_tokens": 5524,
+    "reasoning_tokens": 4672,
+    "output_tokens": 852
+  },
+  "warnings": []
+}

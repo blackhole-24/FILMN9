@@ -1,0 +1,72 @@
+{
+  "stock_code": "128940",
+  "corp_name": "한미약품",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 09:35",
+  "meta": {
+    "wics": "제약",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "한미약품은 의약품 제조 및 판매를 영위하는 제약회사로, 연결종속회를 통해 의약품·원료의약품·해외의약품을 사업부문으로 운영하고 있습니다. 아모잘탄·로수젯 등 복합신약과 R&D(연구개발) 중심의 혁신 신약 개발에 주력하고 있습니다.",
+    "business_model": "FY2025 기준 영업수익 구성에서 제품이 91.9%, 상품이 2.0%를 차지하며 이러한 매출 구조는 주로 의약품 판매와 원료의약품(수출) 및 중국 등 해외 의약품 판매에 기반합니다. 또한 자체 개발한 개량·복합신약과 임상시료 공급·기술료 수익이 수익원으로 작용하고 있습니다.",
+    "main_customers": "의약품 — 국내 원외처방(병원 밖에서 처방되는 약, 의료기관·환자) / 원료의약품 — 다수의 다국적 제약회사 및 해외 바이어(수출시장) / 해외의약품 — 중국 현지 소비자(북경한미약품의 제품 구매층)",
+    "price_factors": [
+      {
+        "factor": "규제·윤리",
+        "detail": "정부의 리베이트 규제 강화 및 윤리경영(ISO 37001) 도입 추세는 유통관행과 영업행태에 직접적 영향을 미칩니다."
+      },
+      {
+        "factor": "주요 품목 처방",
+        "detail": "로수젯·아모잘탄 등 주요 복합신약의 처방 성장세는 매출과 영업이익률에 중요한 영향을 줍니다."
+      },
+      {
+        "factor": "중국 수요(계절성)",
+        "detail": "중국 내 호흡기 질환 유행에 따른 수요 증가는 해외 의약품 부문 매출에 직결됩니다."
+      },
+      {
+        "factor": "원료 부문 실적",
+        "detail": "원료의약품 부문 매출 변동은 연결 매출 및 수익성에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "당사는 의약품 제조 및 판매 사업을 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "제 품 (91.9%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "상 품 (2.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "8년 연속 국내 원외처방 1위 매출을 달성하고 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "전세계 40여개 국가에 제품을 수출하고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3561,
+    "completion_tokens": 4298,
+    "reasoning_tokens": 3520,
+    "output_tokens": 778
+  },
+  "warnings": []
+}

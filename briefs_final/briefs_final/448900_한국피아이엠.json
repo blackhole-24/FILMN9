@@ -1,0 +1,67 @@
+{
+  "stock_code": "448900",
+  "corp_name": "한국피아이엠",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 19:47",
+  "meta": {
+    "wics": "자동차부품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "한국피아이엠은 MIM(Metal Injection Molding, 금속분말사출성형) 기술을 기반으로 소형·정밀·복잡한 형상의 금속 부품을 제조하는 기업입니다. 2021년 금형전문기업 ㈜대명정밀을 인수해 금형기술과 제작설비를 확보했으며, 미국·일본·중국·유럽 등으로 시장을 확대하고 있습니다.",
+    "business_model": "주요 사업은 자동차 부품(터보차저·변속기 등), 전기·전자 부품(웨어러블 스마트기기용), 의료부품(치아 임플란트)으로 구성되며, MIM 공법을 통해 정밀 복잡 형상의 대량생산과 원가절감이 가능한 것이 핵심 경쟁력입니다. 2025년 사업부문 매출 비중은 터보차저용부품 43%, 변속기용부품 26%, 전기/전자 부품 8%, 기타 23%로 구성되어 있습니다.",
+    "main_customers": "자동차 부품 — 완성차·부품사(A사 등) / 전기·전자 부품 — 웨어러블 스마트기기 제조업체 / 의료부품 — 치아 임플란트·의료기기 관련 업체",
+    "price_factors": [
+      {
+        "factor": "터보 수요",
+        "detail": "디젤용 터보차저 수요 감소와 가솔린용 수요 증가는 당사 터보차저 부품 매출에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "변속기 수요",
+        "detail": "완성차의 연비·배출규제 강화로 변속기 성능 향상 수요가 커지면 DCT(듀얼클러치) 관련 부품 수요가 증가할 수 있습니다."
+      },
+      {
+        "factor": "금형기술",
+        "detail": "금형 개발·제작 능력은 정밀 부품 품질과 원가 경쟁력에 직결되어 실적과 마진에 영향을 줍니다."
+      },
+      {
+        "factor": "해외확장",
+        "detail": "미국·일본·중국·유럽 등으로의 시장 확대는 매출 성장 기회이자 해외 수주 변동성 노출로 이어집니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 영업 현황",
+        "evidence_text": "2021년 인수해 금형기술 및 제작설비를 확보하였습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "점유율(%) | 43% | 26% | 8% | 23% | 100%"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 자동차 부품",
+        "evidence_text": "제조하여 A사 등에 납품 중에 있으며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "디젤엔진용 터보차저의 수요는 감소하고 있으나"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4997,
+    "completion_tokens": 5202,
+    "reasoning_tokens": 4416,
+    "output_tokens": 786
+  },
+  "warnings": []
+}

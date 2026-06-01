@@ -1,0 +1,71 @@
+{
+  "stock_code": "366030",
+  "corp_name": "공구우먼",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 17:55",
+  "meta": {
+    "wics": "섬유,의류,신발,호화품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "공구우먼은 2003년 1세대 온라인 패션 쇼핑몰로 시작해 플러스 사이즈 여성 의류를 전문으로 하는 D2C(소비자 직접판매) 온라인 패션 기업입니다. 자체 디자인 연구소와 자체 제작을 바탕으로 플러스 사이즈 드레스·이너웨어·피트니스웨어·잡화 등 제품군을 확장하며 브랜드 포지셔닝을 확고히 했습니다.",
+    "business_model": "주요 수익은 자체 기획·제조한 브랜드 제품을 자사 온라인몰 중심으로 직접 판매(D2C)하는 방식에서 발생하며, SPA(자체기획·제조·소매) 유사 모델의 특징을 갖추되 다품종 소량 생산과 전자상거래 중심 판매로 차별화합니다. FY2025 사업부문별 영업수익 구성은 주식회사 공구우먼 34.4%, 상품: 119 2.3%로 보고되어 있습니다.",
+    "main_customers": "일반의류 — 플러스사이즈 여성(자사몰 D2C 중심) / 이너웨어 — 플러스사이즈 여성 / 피트니스웨어 — 플러스사이즈 여성 / 잡화 — 플러스사이즈 여성",
+    "price_factors": [
+      {
+        "factor": "소비자트렌드",
+        "detail": "패션 소비가 유행에 민감해 트렌드 변동이 빠를수록 실적 변동성이 커집니다."
+      },
+      {
+        "factor": "재고회전",
+        "detail": "실시간 판매데이터를 활용한 빠른 상품회전은 원가·재고부담 완화에 긍정적 영향을 줍니다."
+      },
+      {
+        "factor": "해외진출",
+        "detail": "현지 재고배치·해외법인 설립·전용 앱 등은 현지 수요 확보와 배송시간 단축으로 실적에 영향을 미칩니다."
+      },
+      {
+        "factor": "물류배송",
+        "detail": "현지 전진배치로 배송시간을 줄이면 고객유입과 재구매에 유리하게 작용합니다."
+      },
+      {
+        "factor": "규제준수",
+        "detail": "의류 직접 규제는 크지 않으나 제품환경·사업장 관리 규제 준수 여부가 영업리스크에 영향합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "2003년 1세대 온라인 패션 쇼핑몰로 시작한 주식회사 공구우먼"
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황",
+        "evidence_text": "유통 단계를 최소화하여 합리적 가격의 제품을 소비자에게 공급"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "자사 몰 중심으로 고객에게 직접 판매(D2C) 한다는 점에서"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "영업 현황",
+        "evidence_text": "FMCG(Fast Moving Customer Goods) 산업으로 여겨지며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4888,
+    "completion_tokens": 3399,
+    "reasoning_tokens": 2624,
+    "output_tokens": 775
+  },
+  "warnings": []
+}

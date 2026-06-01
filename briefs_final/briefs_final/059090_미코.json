@@ -1,0 +1,72 @@
+{
+  "stock_code": "059090",
+  "corp_name": "미코",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 03:49",
+  "meta": {
+    "wics": "반도체와반도체장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "미코(059090)는 반도체·디스플레이 장비를 구성하는 부품 제작과 세정·코팅을 주력으로 하는 기업으로, 다수의 국내외 종속법인을 통한 연결체제로 운영됩니다. 또한 고체산화물연료전지(SOFC), 산업용 보일러·선박부품 등 에너지·환경 분야 사업도 영위하고 있습니다.",
+    "business_model": "미코의 FY2025 연결 영업수익은 반도체 부문이 65.0%로 주된 수익원이며, 에너지&환경 부문이 35.0%를 차지합니다. 고객사 발주에 따라 생산하는 수주산업 형태(수주산업)로서 반도체·디스플레이 장비용 부품 제작과 세정·코팅, 에너지 설비 및 산업용 부품 공급이 핵심 비즈니스입니다.",
+    "main_customers": "반도체 — 반도체·LCD 장비 제조업체 / 에너지&환경 — SOFC·산업용 보일러·선박부품·철강·공항 물류설비 관련 기업",
+    "price_factors": [
+      {
+        "factor": "AI 수요",
+        "detail": "AI·데이터센터·고성능컴퓨팅 수요 확대는 반도체 장비 및 부품 수요 증가로 실적에 긍정적 영향을 미칩니다."
+      },
+      {
+        "factor": "설비투자",
+        "detail": "글로벌 반도체 업체들의 설비투자 재개와 첨단 공정 전환은 장비·부품 주문 증가로 연결될 수 있습니다."
+      },
+      {
+        "factor": "수주 변동",
+        "detail": "고객사 발주 시점과 수량에 따라 매출·단가 변동이 발생하는 수주산업 특성은 실적 변동성을 높입니다."
+      },
+      {
+        "factor": "환율",
+        "detail": "연결회사는 달러화 중심의 외환위험에 노출되어 있어 환율 변동은 손익에 직접적인 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "반도체 및 엘씨디 장비를 구성하는 부품제작"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "반도체: 632,753 (65.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "에너지&환경: 344,284 (35.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "반도체 및 엘씨디 장비를 구성하는 부품의 세정, 코팅"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "라. 환율변동 영향",
+        "evidence_text": "연결회사는 영업활동에 따른 외환위험, 특히 주로 달러화와 관련된 환율변동위험에 노출되어 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4240,
+    "completion_tokens": 4069,
+    "reasoning_tokens": 3264,
+    "output_tokens": 805
+  },
+  "warnings": []
+}

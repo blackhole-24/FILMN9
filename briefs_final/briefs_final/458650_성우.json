@@ -1,0 +1,77 @@
+{
+  "stock_code": "458650",
+  "corp_name": "성우",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 20:11",
+  "meta": {
+    "wics": "전기제품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "성우는 1992년 9월 설립되어 초기에는 브라운관 TV용 전자총부품을 생산했으나, 제품 다각화를 통해 현재는 이차전지 부품 제조·판매를 주요 사업으로 영위하고 있습니다. Deep Drawing 프레스 공정 및 초정밀 금형 설계기술을 바탕으로 원통형 이차전지용 부품을 글로벌 이차전지 제조업체에 공급하고 있습니다.",
+    "business_model": "사업부문별로 이차전지가 매출의 74.4%, 자동차전장부품이 20.2%, 기타매출이 5.5%를 차지하고 있어 이차전지 부품이 핵심 수익원입니다. 주요 제품은 원통형 이차전지용 Topcap Ass'y(탑캡 어셈블리·가스 배출 및 과전류 차단 기능의 안전부품)와 Can 등으로, 원통형 이차전지 Topcap Ass'y의 생산 및 판매를 메인으로 사업을 영위하고 있으며 차세대 46파이(원통형 규격) 부품 양산 준비도 진행 중입니다.",
+    "main_customers": "이차전지 — 글로벌 이차전지 제조업체 / 자동차전장부품 — 자동차 제조사 및 전장부품 고객사 / 기타 — 금형·스크랩 관련 거래처",
+    "price_factors": [
+      {
+        "factor": "전기차 수요",
+        "detail": "전기차 시장 확대 시 원통형 이차전지 수요 증가로 이차전지 매출에 직접적인 영향이 예상됩니다."
+      },
+      {
+        "factor": "제품 안전성",
+        "detail": "Topcap Ass'y는 배터리 안전과 직결되는 부품이므로 안전 규격 및 성능 요구가 강화되면 품질 확보가 실적 변동성에 중요한 요인이 됩니다."
+      },
+      {
+        "factor": "진입장벽(검증)",
+        "detail": "배터리 제조사는 검증된 공급업체와 협업하는 특성이 있어 고객사 확보 및 양산 전 검증 일정이 매출 시점에 영향을 미칩니다."
+      },
+      {
+        "factor": "규격 전환",
+        "detail": "46파이 등 차세대 원통형 규격으로의 전환 시점과 양산 적중 여부가 관련 부품 매출 확대에 중요한 변수입니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "현재는 이차전지 부품 제조 및 판매사업을 주요 사업으로 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황",
+        "evidence_text": "현재 원통형 이차전지 Topcap ass'y 의 생산 및 판매를 메인으로 사업을 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "나. 주요 제품에 대한 내용",
+        "evidence_text": "당사의 Topcap Ass'y 는 원통형 이차전지의 부품으로 ... 역할을 수행하는 안전부품입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "이차전지: 57,513 (74.4%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "자동차전장부품: 5,901 (20.2%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "기타매출: 4,672 (5.5%)"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4897,
+    "completion_tokens": 4113,
+    "reasoning_tokens": 3200,
+    "output_tokens": 913
+  },
+  "warnings": []
+}

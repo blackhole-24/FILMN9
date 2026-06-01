@@ -1,0 +1,62 @@
+{
+  "stock_code": "089030",
+  "corp_name": "테크윙",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 06:48",
+  "meta": {
+    "wics": "반도체와반도체장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "테크윙은 2002년 설립된 반도체·디스플레이 검사장비 전문업체로, 코스닥에 상장(2011년)되어 글로벌 반도체 고객에게 검사장비를 공급하고 있습니다. 반도체 후공정용 테스트 핸들러 등 검사 솔루션과 디스플레이 광학검사 장비를 주력으로 합니다.",
+    "business_model": "핵심 사업은 반도체 검사장비(테스트 핸들러, 프로버 등)와 디스플레이 검사장비(광학평가시스템, 모듈·패널 검사기)이며, 관련 소모품 및 주변장치 매출도 안정적 수익원입니다. 보고서상의 주요 사업부문별 매출 구성은 36.01%, 36.80%, 20.30%, 93.10%, 6.90%, 100.00%로 표시되어 있습니다.",
+    "main_customers": "반도체 검사장비 — SK하이닉스, 삼성전자, Micron, Intel, Infineon 등 글로벌 반도체 기업 / 디스플레이 검사장비 — 전세계 각국 수요처(디스플레이 제조사 등)",
+    "price_factors": [
+      {
+        "factor": "기술개발",
+        "detail": "반도체 장비는 기술집약형으로 적기 개발 여부가 실적에 직접 영향(신속한 R&D가 경쟁력)."
+      },
+      {
+        "factor": "수요변동",
+        "detail": "메모리·AI·CPU 등 반도체 수요 변동에 따라 검사장비 수요가 크게 달라집니다."
+      },
+      {
+        "factor": "고객집중",
+        "detail": "주문자생산 방식과 주요 고객사와의 긴밀한 협력관계가 매출·수익에 직접적 영향을 미칩니다."
+      },
+      {
+        "factor": "공정고도화",
+        "detail": "칩 미세화·적층 증가 등 제조공정 고도화로 검사 난이도가 올라가면 고부가 장비 수요가 증가합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "당사는 2002년 설립되었으며, 반도체 전 분야의 검사장비를 개발 및 제조하여 유수의 글로벌 반도체 고객사들에게 제품을 공급하고 있는 반도체 검사장비 전문업체입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황",
+        "evidence_text": "주력 제품으로는 Cube Prober, Probe Station, Memory 및 SOC Test Handler 등이 있으며"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "당사의 제품은 SK하이닉스, 삼성전자, Micron, Intel, Infineon 등 유수의 글로벌 반도체 기업에공급되고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4176,
+    "completion_tokens": 4432,
+    "reasoning_tokens": 3712,
+    "output_tokens": 720
+  },
+  "warnings": []
+}

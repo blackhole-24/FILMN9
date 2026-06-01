@@ -1,0 +1,73 @@
+{
+  "stock_code": "002420",
+  "corp_name": "세기상사",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 18:03",
+  "meta": {
+    "wics": "전문소매",
+    "market": "KOSPI",
+    "has_revenue_data": false,
+    "tier": 4,
+    "tier_mode": "best_effort_summary",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "세기상사는 영화상영업 중심에서 사업을 다각화한 유통·전문소매 기업으로, 석유판매(주유소 운영), 문화레저(카페·베이커리·브랜드IP 기반 매장) 및 임대사업을 영위하고 있습니다. 최근 영화상영업을 중단하고 임대사업으로 전환하는 등 수익구조 변화를 진행하고 있습니다.",
+    "business_model": "회사는 석유판매사업부, 문화레저사업부, 임대사업부를 운영하며 주유소 운영과 스누피 브랜드를 활용한 카페·베이커리(매장 판매), 그리고 대한극장 등 부동산 임대를 주요 수익원으로 삼고 있습니다. 사업부문별 매출 구성은 사업보고서상 별도 제시되지 않습니다.",
+    "main_customers": "석유판매사업부 — 개인 고객(주유소 방문 고객) / 문화레저사업부 — 매장 방문 일반 소비자(카페·베이커리 이용자) / 임대사업부 — 임차인(극장·공연 임대 수요자)",
+    "price_factors": [
+      {
+        "factor": "유가(원가)",
+        "detail": "정유사로부터 공급받는 석유제품의 매입가격 변동은 주유소 마진과 실적에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "점포수",
+        "detail": "운영 중인 주유소·카페 개소 수 변동은 매출 총액에 즉각적인 영향을 미칩니다(보고서에 주유소 7개, 카페 2개 표기)."
+      },
+      {
+        "factor": "브랜드IP(스누피)",
+        "detail": "스누피 IP 계약·운영은 문화레저사업의 매출·수익성에 영향 — 원천 라이선스 계약 체결로 사업 안정성 변화가 발생합니다."
+      },
+      {
+        "factor": "임대개시 시점",
+        "detail": "대한극장의 임대 전환 및 임대차 개시는 임대수익 발생 시점과 규모에 따라 실적에 영향을 줍니다(임대차 개시: 2025-03-15)."
+      },
+      {
+        "factor": "환율(USD)",
+        "detail": "스누피 IP 사용료를 USD로 지급함에 따라 환율 변동은 원화 기준 비용에 영향(보고서상 환위험 노출 언급)."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "당사는 보고서 작성일 현재 석유판매사업부, 문화레저사업부, 임대사업부를 운영하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황",
+        "evidence_text": "2024년 9월 30일자로 영위중이던 영화상영업을 중단하고 임대사업으로 전환하였습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "당사의 석유판매사업부는 소매업으로 주유소에서 고객과 직접 거래가 되고 있으며, 문화레저사업부는 휴게음식점업으로 매장에서 고객과 직접 거래가 되고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황",
+        "evidence_text": "현재 총 7개소의 주유소를 운영 중입니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 5236,
+    "completion_tokens": 4048,
+    "reasoning_tokens": 3200,
+    "output_tokens": 848
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "stock_code": "297570",
+  "corp_name": "알로이스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 15:28",
+  "meta": {
+    "wics": "전자제품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "알로이스는 안드로이드 기반의 OTT(Over-The-Top, 인터넷 기반 영상서비스) 셋톱박스 개발·공급과 건설 기초자재인 PHC파일 제조사업을 병행하는 기업입니다. 멀티미디어 디바이스는 전량 해외 시장에 FORMULER 브랜드로 공급하며, 디지털 미디어와 건설 시장을 양축으로 포트폴리오를 다각화하고 있습니다.",
+    "business_model": "주요 사업은 OTT 셋톱박스(멀티미디어 디바이스)와 PHC파일 제조로 구성되며, FY2025 기준 멀티미디어 디바이스가 영업수익의 70.4%를 차지합니다. 셋톱박스는 자체 미들웨어와 설계 역량에 집중하고 생산은 외주 임가공으로 고정비를 최소화하는 구조이며, PHC파일은 자체 공장을 통해 국내외 건설사에 제품을 공급합니다.",
+    "main_customers": "멀티미디어 디바이스 — 해외 일반 소비자(Open Market) / PHC파일 — 국내외 주요 건설사",
+    "price_factors": [
+      {
+        "factor": "수출 의존도",
+        "detail": "셋톱박스 사업이 전량 해외 공급 구조이므로 글로벌 수요 변동과 환율에 실적 영향이 큽니다."
+      },
+      {
+        "factor": "환율 변동",
+        "detail": "MD&A에서 USD, EUR 환율변동 위험을 언급하고 있어 환율 변동이 매출 원화 환산 및 원재료 비용에 영향을 줍니다."
+      },
+      {
+        "factor": "고화질 수요",
+        "detail": "전세계적인 UHD·고화질 전환과 OTT 이용률 증가는 셋톱박스 수요 확대에 긍정적 영향을 줍니다."
+      },
+      {
+        "factor": "기술진입장벽",
+        "detail": "고사양 CI·CAS 등 고기능 제품은 진입장벽이 높아 기술 우위를 가진 제품은 가격·수익성 방어에 유리합니다."
+      },
+      {
+        "factor": "외주 생산구조",
+        "detail": "셋톱박스의 외주 임가공 채택은 고정비 부담을 낮춰 수익성 변동성을 줄이는 효과가 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "안드로이드 기반의 OTT 셋톱박스 사업과"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "멀티미디어 디바이스: 30,204,166 (70.4%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "OTT 셋톱박스 사업부문",
+        "evidence_text": "일반 소비자(Open Market)를 주요 고객층으로"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "국내외 주요 건설사에 제품을 공급하고 있으며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5100,
+    "completion_tokens": 3005,
+    "reasoning_tokens": 2240,
+    "output_tokens": 765
+  },
+  "warnings": []
+}

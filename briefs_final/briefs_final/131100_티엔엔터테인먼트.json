@@ -1,0 +1,81 @@
+{
+  "stock_code": "131100",
+  "corp_name": "티엔엔터테인먼트",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:20",
+  "meta": {
+    "wics": "방송과엔터테인먼트",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "티엔엔터테인먼트는 2007년 법인 설립 후 2011년 코스닥에 상장한 오락·문화 업종 기업입니다. 제20기말 기준 상시종업원 수는 107명이며, 연예인 매니지먼트, 유튜브 콘텐츠 제작, 치킨 프랜차이즈 가맹사업과 음식점사업을 함께 영위하고 있습니다.",
+    "business_model": "사업부문별 영업수익은 엔터(제작사, 방송국, 광고주 등) 42.7%, 후라이드참잘하는집(가맹점 약 263개) 41.2%, 기타(엔터, 음식점, 화학, 임대수입 매출 포함) 8.6%, 제작(컨텐츠 등) 7.5%, 솔브레인 0.3%로 구성되어 있습니다. 회사는 아티스트 매니지먼트와 디지털 콘텐츠 사업, 그리고 치킨 브랜드 가맹·음식점 사업을 함께 운영하며 수익을 내는 구조입니다.",
+    "main_customers": "엔터 — 제작사, 방송국, 광고주 / 제작 — 콘텐츠 관련 수요처 / 후라이드참잘하는집 — 가맹점 운영 및 외식 이용 고객 / 음식점사업 — 일반 외식 고객 / 솔브레인 — 해당 사업 관련 거래처",
+    "price_factors": [
+      {
+        "factor": "방송활동",
+        "detail": "아티스트의 드라마·예능·광고 출연이 늘수록 인지도와 부가활동이 확대되어 엔터 사업 수익에 영향을 줍니다."
+      },
+      {
+        "factor": "콘텐츠성장",
+        "detail": "국내 콘텐츠산업과 디지털미디어가 성장할수록 유튜브 콘텐츠 제작과 매니지먼트 사업의 활동 기회가 넓어질 수 있습니다."
+      },
+      {
+        "factor": "가맹사업",
+        "detail": "가맹점 수와 운영 안정성이 높아질수록 치킨 프랜차이즈 사업의 매출 기반이 강화됩니다."
+      },
+      {
+        "factor": "경기둔화",
+        "detail": "경기 둔화로 영업활동이 위축되면 매출과 영업이익에 직접적인 부담이 커질 수 있습니다."
+      },
+      {
+        "factor": "고정비부담",
+        "detail": "인건비와 고정비 부담이 지속되면 매출이 줄어들 때 수익성이 더 빠르게 악화될 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "당사는 1999년 4월에 시작하여 2007년 3월 법인을 설립하였습니다."
+      },
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "2011년에는 코스닥에 상장하였고"
+      },
+      {
+        "field": "business_model",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "주요 사업으로 연예인 매니지먼트, 유튜브 콘텐츠 제작"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "후라이드참잘하는집(가맹점 약 263개): 48,693,448 (41.2%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "엔터(제작사, 방송국, 광고주 등): 50,553,388 (42.7%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "엔터(제작사, 방송국, 광고주 등)"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3688,
+    "completion_tokens": 955,
+    "reasoning_tokens": 0,
+    "output_tokens": 955
+  },
+  "warnings": []
+}

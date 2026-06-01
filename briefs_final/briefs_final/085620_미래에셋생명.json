@@ -1,0 +1,72 @@
+{
+  "stock_code": "085620",
+  "corp_name": "미래에셋생명",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 06:31",
+  "meta": {
+    "wics": "생명보험",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "insurance"
+  },
+  "brief": {
+    "company_overview": "미래에셋생명은 1988년 대전생명보험사로 설립되어 2005년 사명을 미래에셋생명보험주식회사로 변경하여 '생명보험업'을 영위하고 있습니다. 2025년 누적으로 수입보험료 4조 9,716억 원, 계약 296만 건을 보유하고 있으며 운용자산은 18조 5,410억 원 규모로 유가증권 비중이 높습니다.",
+    "business_model": "생존보험·사망보험·생사혼합보험 등 다양한 상품을 대리점(GA, General Agency), 온라인, 방카슈랑스(은행 판매) 채널을 통해 공급하며, 보장성 보험과 변액보험으로 대표되는 투트랙(Two-Track) 전략을 운영하고 있습니다. FY2025 기준 영업수익 구성은 현·예금 3.9%, 유가증권 89.5%, 대출 14.5%, 부동산 1.0%, 운용수익 3.3%로 유가증권·투자 관련 수익 비중이 큰 편이며, 보험서비스수익 1조 1,041억원과 투자서비스수익 4조 843억원을 인식하였습니다.",
+    "main_customers": "보장성 보험 — 개인 소비자(사망·건강 보장 수요) / 변액보험·저축성 상품 — 자산관리 수요가 있는 개인 / 채널별 판매 — 대리점(GA, General Agency)·온라인·방카슈랑스(은행)를 통한 소비자",
+    "price_factors": [
+      {
+        "factor": "금리·환율",
+        "detail": "환율·금리 변동 시 운용자산 가치와 투자수익성이 변해 실적에 직접 영향이 발생합니다."
+      },
+      {
+        "factor": "인구구조",
+        "detail": "고령화·출산율 저하로 보험 수요 구조가 사망 보장에서 건강·헬스케어형 상품으로 재편되는 점이 실적에 영향을 미칩니다."
+      },
+      {
+        "factor": "유통채널",
+        "detail": "전속설계사 중심에서 보험대리점(GA) 중심으로 유통이 재편되면 상품 판매 구조와 비용구조 변화가 예상됩니다."
+      },
+      {
+        "factor": "운용성과",
+        "detail": "운용자산 중 유가증권 비중이 높아(유가증권 89.5%) 투자성과가 회사의 투자서비스수익과 전반적 실적에 큰 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "당사는 1988년 3월 대전생명보험사로 설립된 이후"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "보장성 보험과 변액보험으로 대표되는 투트랙(Two-Track) 전략을 지속하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "유가증권: 15,976,540 (89.5%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "대리점(GA, General Agency), 온라인, 방카슈랑스(은행)"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "환율 및 금리 변동의 폭이 확대될 수 있어"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4255,
+    "completion_tokens": 4761,
+    "reasoning_tokens": 3840,
+    "output_tokens": 921
+  },
+  "warnings": []
+}

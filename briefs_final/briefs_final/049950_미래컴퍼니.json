@@ -1,0 +1,71 @@
+{
+  "stock_code": "049950",
+  "corp_name": "미래컴퍼니",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:01",
+  "meta": {
+    "wics": "디스플레이장비및부품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "미래컴퍼니는 디스플레이 장비를 주력으로 해 온 기계·장비 기업으로, 국내 최초 자체 개발한 Edge Grinder 장비를 기반으로 디스플레이 장비 분야에서 기술적 해자를 구축해 왔습니다. 최근에는 반도체, 이차전지, 수술로봇, 3D 카메라 모듈 등으로 사업 영역을 넓히며 장비 포트폴리오를 다각화하고 있습니다.",
+    "business_model": "주요 매출은 제품매출이 94.7%를 차지하며, 디스플레이 제조장비를 중심으로 발생합니다. 디스플레이에서는 Edge Grinder, Profiler(이형 Edge Grinder), 레이저 장비, 검사장비 등을 공급하고, 반도체 장비와 전고체전지 관련 장비, 수술로봇 사업도 병행하고 있습니다. 디스플레이 산업은 패널 제조업체의 투자 스케줄에 연동되는 후방 산업이며, 장비의 성능과 공정 적합성이 수익 구조에 직접 영향을 줍니다.",
+    "main_customers": "디스플레이 장비 — 패널 제조업체 / 반도체 장비 — 글로벌 메모리 반도체 제조사, 국내 최대 실리콘 웨이퍼 제조사 / 수술로봇 — 상급종합병원, 상급병원, 전문병원",
+    "price_factors": [
+      {
+        "factor": "패널투자",
+        "detail": "디스플레이 장비는 패널 제조업체의 투자 스케줄에 따라 매출이 좌우되어, 고객사의 신규 투자 확대나 지연이 실적에 직접 영향을 줍니다."
+      },
+      {
+        "factor": "OLED전환",
+        "detail": "LCD에서 OLED로의 전환과 8.6세대 설비 투자 확대가 이어질수록 관련 장비 수요가 늘어날 수 있습니다."
+      },
+      {
+        "factor": "제품사양",
+        "detail": "패널 기판 크기와 세부 사양 차이가 제품 단가를 바꾸기 때문에, 고사양 장비 비중이 실적 변동에 영향을 줍니다."
+      },
+      {
+        "factor": "원가변동",
+        "detail": "원재료 및 원가 변동은 장비 단가와 수익성에 영향을 주어 실적의 변동성을 키울 수 있습니다."
+      },
+      {
+        "factor": "기술협력",
+        "detail": "패널 제조업체와의 긴밀한 기술 협력이 중요한 산업이라, 고객사와의 협력 수준이 장비 채택과 사업 확장에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "국내 최초 자체 개발한 Edge Grinder 장비를 기반으로"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "제품매출: 29,334 (94.7%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "반도체, 이차전지 등 이종산업으로의 확장을 통해"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "패널 제조업체를 고객으로 하여"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4739,
+    "completion_tokens": 836,
+    "reasoning_tokens": 0,
+    "output_tokens": 836
+  },
+  "warnings": []
+}

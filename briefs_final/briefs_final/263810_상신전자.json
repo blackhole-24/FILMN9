@@ -1,0 +1,67 @@
+{
+  "stock_code": "263810",
+  "corp_name": "상신전자",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 14:20",
+  "meta": {
+    "wics": "전자장비와기기",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "상신전자는 EMI(전자파 장해) 필터 개발을 위해 1988년 설립된 전자부품 기업으로, 세탁기·냉장고·에어컨 등 생활가전에 적용되는 노이즈필터와 코일을 주력으로 생산합니다. 연결기준으로 2025년 매출은 1,291억원을 기록했습니다.",
+    "business_model": "사업부문별로 노이즈필터가 55.8%, 코일이 24.3%, 리액터가 12.9%, 기타가 6.9%를 차지하며(FY2025), 노이즈필터(EMI 필터)가 핵심 수익원입니다. 연구개발 계획은 생활가전 안정화를 시작으로 신재생에너지·전장부품으로 제품·시장 다변화를 추진하고 최종적으로 EMC(전자파 적합성) 인증센터 설립을 통해 토탈 솔루션을 제공하는 것을 목표로 하고 있습니다.",
+    "main_customers": "노이즈필터 — 생활가전 제조사(세탁기·냉장고·에어컨 등) / 코일 — 생활가전 및 전자기기 제조사 / 리액터 — 신재생에너지·전력장치(태양광, ESS, UPS 등) 관련 제조사",
+    "price_factors": [
+      {
+        "factor": "가전수요",
+        "detail": "생활가전 수요 변동은 노이즈필터 매출에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "원자재",
+        "detail": "원자재 가격 상승 시 원가율이 높아져 영업이익에 부담을 줄 수 있습니다."
+      },
+      {
+        "factor": "제품다변화",
+        "detail": "신재생에너지·전장 등으로의 사업 확장 성과에 따라 향후 매출 구조와 성장성에 변화가 생깁니다."
+      },
+      {
+        "factor": "인증·기술",
+        "detail": "EMC 인증센터 설립 등 기술·인증 역량 확보는 수주 경쟁력과 마진에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "(2) 설립배경",
+        "evidence_text": "1988년 법인을 설립하였습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "노이즈필터: 72,081,930 (55.8%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "(1) 사업현황",
+        "evidence_text": "당사는 세탁기, 냉장고, 에어컨 등 주로 가전제품에 적용되는 EMI"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "주요 원자재 가격 상승으로 인해 원가율이 전년比 3.29%증가"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3828,
+    "completion_tokens": 3873,
+    "reasoning_tokens": 3136,
+    "output_tokens": 737
+  },
+  "warnings": []
+}

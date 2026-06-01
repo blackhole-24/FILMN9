@@ -1,0 +1,67 @@
+{
+  "stock_code": "058630",
+  "corp_name": "엠게임",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 03:46",
+  "meta": {
+    "wics": "게임엔터테인먼트",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "엠게임은 1999년부터 게임 제작·배급을 시작한 1세대 게임 개발사로, PC·모바일 게임 개발과 퍼블리싱을 주력으로 합니다. 자체 포털 '엠게임'을 통해 약 2,100만 명의 회원을 보유하고 50여 종의 게임을 서비스하며, 2025년 기준 해외 매출 비중이 약 68%에 달합니다.",
+    "business_model": "주요 수익원은 PC·모바일 게임 서비스와 온라인 광고·커머스이며, 사업부문별로는 PC방 판매(92.0%), 온라인 광고 및 커머스(4.2%), 요양서비스(1.6%)로 구성됩니다. 국내에서는 주로 아이템 판매(유료 상품)가 매출을 이끌고, 해외에서는 로열티 및 수익배분 형태의 매출이 주를 이룹니다.",
+    "main_customers": "게임서비스(국내) — 국내 이용자(아이템 구매) / 게임서비스(해외) — 해외 파트너·라이선스(로열티·수익배분) / 온라인 광고·커머스 — 광고주·플랫폼 관련 고객",
+    "price_factors": [
+      {
+        "factor": "해외 매출 비중",
+        "detail": "해외 매출 비중(2025년 약 68%) 변동은 실적에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "콘텐츠 완성도",
+        "detail": "게임의 완성도와 차별성은 이용자 만족도를 좌우해 출시 성과 및 매출에 큰 영향을 줍니다."
+      },
+      {
+        "factor": "모바일 수요",
+        "detail": "모바일 게임 수요의 견조함은 신작 및 모바일화(IP 활용) 성공 시 실적 개선으로 연결됩니다."
+      },
+      {
+        "factor": "산업 성장성",
+        "detail": "글로벌 게임시장 성장 흐름(연평균 약 3% 내외)은 장기적 수요 기반으로 작용합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 PC, 모바일 게임 개발 및 퍼블리싱 사업을 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "PC방 판매 (92.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "국내의 경우 아이템 판매가 대부분을 차지하며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 업계의 현황",
+        "evidence_text": "게임 산업은 빠르게 성장하고 변화하는 산업으로"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4731,
+    "completion_tokens": 4405,
+    "reasoning_tokens": 3712,
+    "output_tokens": 693
+  },
+  "warnings": []
+}

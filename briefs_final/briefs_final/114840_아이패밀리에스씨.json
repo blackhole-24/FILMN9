@@ -1,0 +1,81 @@
+{
+  "stock_code": "114840",
+  "corp_name": "아이패밀리에스씨",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 08:49",
+  "meta": {
+    "wics": "화장품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "아이패밀리에스씨는 2000년대 IT 기반 웨딩서비스 브랜드 '아이웨딩'에서 출발한 브랜딩 기업으로, 색조 화장품 브랜드 롬앤(Rom&nd)을 중심으로 국내외 유통망을 확장해 왔습니다. 2025년 연결 기준 총매출은 2,241억 원이며, 당기말 수출액 약 1,462억 원과 국내 매출액 약 779억 원을 기록했습니다.",
+    "business_model": "화장품사업부가 핵심 수익원으로 전체 영업수익의 52.0%를 차지하며, 세부 품목별로는 아이섀도 16.0%, 립밤 7.0%, 치크+섀딩 6.0%, 에디션+기타 11.0%, 립스틱 3.0%, 베이스 2.0%를 구성합니다. 화장품 외에 웨딩·리빙·App 등 기타부문이 3.0%를 차지하며, 브랜드 론칭·카테고리 확장과 해외채널 확대가 매출 다변화 전략의 중심입니다.",
+    "main_customers": "화장품사업부 — 18~24세 고관여 소비자(코덕) 및 국내·해외 일반 소비자 / 웨딩·리빙·App — 결혼 준비 고객·일반 소비자 및 B2B(키오스크 임대·서비스 제공 기업)",
+    "price_factors": [
+      {
+        "factor": "SNS·미디어 영향",
+        "detail": "SNS와 미디어 마케팅 역량이 강한 브랜드가 빠르게 시장 점유율을 확보해 매출과 브랜드 인지도에 직접적 영향을 미칩니다."
+      },
+      {
+        "factor": "유통채널 구조",
+        "detail": "H&B, 드럭스토어, 온라인 등 유통 채널별 채택 여부가 판매량과 판매 채널별 실적 변동성에 영향을 줍니다."
+      },
+      {
+        "factor": "제품주기·트렌드",
+        "detail": "제품 출시 주기와 유행 지속 기간이 짧아지면 신제품·에디션 의존도가 높은 실적 변동성이 커집니다."
+      },
+      {
+        "factor": "수출 확대",
+        "detail": "글로벌 K-뷰티 수요 확대에 따른 수출 증가(수출액 약 1,462억 원)는 매출 성장에 중요한 요인입니다."
+      },
+      {
+        "factor": "원·부자재·제품 구성",
+        "detail": "신규 브랜드·카테고리 도입 및 친환경 소재·용기 개발 등으로 상품 가격과 원가 구조가 변동될 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "당사는 2000년대에 IT를 기반으로 한 웨딩서비스 사업모델인 '아이웨딩'을 서비스 브랜드로 하는 기업에서 시작하였습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "화장품사업부 (52.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "아이섀도 (16.0%)"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "새로운 국가 진출로 소비자를 늘리고, 신제품 풀시 및 SKU 증가, 채널 확장 등으로 매출 다변화를 지속하며, 당기말 수출액 약 1,462억 원, 국내 매출액 약 779억 원을 달성하여 성장에 가속을 더하고 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "롬앤(Rom&nd)'을 론칭하였습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "App 사업은 퍼스털컬러 진단 서비스를 키오스크에 적용하여... B2B 임대 및 하드웨어/소프트웨어 개발 및 유지에 대한 임대 사업을 구축하고있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5056,
+    "completion_tokens": 4526,
+    "reasoning_tokens": 3456,
+    "output_tokens": 1070
+  },
+  "warnings": []
+}

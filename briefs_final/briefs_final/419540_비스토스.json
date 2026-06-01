@@ -1,0 +1,67 @@
+{
+  "stock_code": "419540",
+  "corp_name": "비스토스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 19:22",
+  "meta": {
+    "wics": "건강관리장비와용품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "비스토스는 2001년 설립된 생체신호 진단·치료용 의료기기 제조기업으로, 태아 및 신생아 관련 의료기기를 중심으로 사업을 전개해 왔습니다. 설립 이후 꾸준한 연구개발과 제품 출시로 전세계 약 120여개국에 수출하고 있으며 수출 비중이 매우 높은 점이 특징입니다.",
+    "business_model": "핵심 사업은 태아관련·신생아관련 의료기기와 환자감시장치, 가정용 의료기기(유축기·체온계) 등 제품 판매이며, 제품군별로 병원용(의료기관)과 가정용(소비자) 채널을 병행합니다. 특히 매출의 90% 이상을 수출로 달성하고 있고, 미국 유력 판매사인 모티프사와의 독점계약 등 해외 유통을 통해 수익을 창출합니다.",
+    "main_customers": "태아·신생아 제품 — 산부인과·산모(직판 포함) / 신생아용기기 — 병원·보건기관 / 환자감시장치 — 의료기관(병원·클리닉) / 가정용 의료기기 — 일반 소비자·해외 판매업체",
+    "price_factors": [
+      {
+        "factor": "수출 의존도",
+        "detail": "매출의 90% 이상이 수출인 만큼 해외 수요 변동과 국제 조달 환경이 실적에 직접적 영향을 미칩니다."
+      },
+      {
+        "factor": "국내 출산율",
+        "detail": "국내 출산율 저하로 국내 산과시장이 축소되어 내수 성장에는 제약이 발생합니다."
+      },
+      {
+        "factor": "국제 입찰·공공사업",
+        "detail": "아프리카 등 개발도상국의 모자보건 프로젝트 등 국제입찰이 매출 증가 요인으로 작용합니다."
+      },
+      {
+        "factor": "해외 유통 파트너",
+        "detail": "미국 모티프사 등 해외 독점 유통 파트너와의 계약이 해외 매출 실적에 영향합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 사업개요",
+        "evidence_text": "120여개국 이상의 전세계에 수출"
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. 사업개요",
+        "evidence_text": "매출의 90% 이상을 수출로 달성하고 있고"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "나. 설립배경 및 성장과정",
+        "evidence_text": "산모에게 직접 판매하는 사업을 영위하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "다. 사업방향 및 전략",
+        "evidence_text": "국내 출산율 저하로 산과시장이축소"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3967,
+    "completion_tokens": 3600,
+    "reasoning_tokens": 2880,
+    "output_tokens": 720
+  },
+  "warnings": []
+}

@@ -1,0 +1,71 @@
+{
+  "stock_code": "011320",
+  "corp_name": "유니크",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 20:46",
+  "meta": {
+    "wics": "자동차부품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "유니크는 자동차부품 전문기업으로 국내외 완성차 OEM에 차량용 전장, 구동, 제어, 전동화 부품을 납품하고 있습니다. 김해와 판교에 자체 연구소를 두고 내연기관 및 친환경·자율주행 관련 연구개발을 진행하며, 국내와 중국에 사업장을 운영해 해외 판로 개척과 공급망 다변화를 추진하고 있습니다.",
+    "business_model": "매출은 제품군별로 전장(차량용 USB충전기 등) 25.7%, 구동(유압·연료전지용 솔레노이드밸브 등) 44.8%, 제어(DCT 솔레노이드밸브 등) 19.8%, 전동화(SBW, 냉매·냉각수밸브 등) 9.6%로 구성되어 있으며, 주로 국내외 완성차 OEM에 납품하는 B2B(기업대기업) 공급을 통해 수익을 창출합니다. R&D를 통해 수소제어밸브·전기차 냉각제어밸브 등 신제품 개발과 양산 공급을 확대하고 있습니다.",
+    "main_customers": "전장 — 국내외 완성차 OEM / 구동 — 국내외 완성차 OEM / 제어 — 국내외 완성차 OEM / 전동화 — 국내외 완성차 OEM 및 자동차 부품업체",
+    "price_factors": [
+      {
+        "factor": "원가경쟁력",
+        "detail": "자동차부품사의 원가경쟁력이 완성차의 가격경쟁력으로 연결되어 원가절감 실패 시 실적 압박이 발생합니다."
+      },
+      {
+        "factor": "OEM 유대관계",
+        "detail": "완성차 OEM과의 긴밀한 관계 유지 여부가 수주 지속성과 매출 안정성에 직접적 영향을 줍니다."
+      },
+      {
+        "factor": "친환경차 전환",
+        "detail": "HEV·전기차·수소차 수요 흐름과 보조금·제도 변화가 전동화 및 수소제어 제품 매출에 영향을 미칩니다."
+      },
+      {
+        "factor": "환율·수출환경",
+        "detail": "USD/EUR/CNY/YEN 등 외화 거래 비중으로 환율 변동이 매출 실적과 원가에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "자본집약성",
+        "detail": "대규모 설비투자와 높은 고정비 특성으로 수주 변동 시 이익률 변동성이 커질 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "당사와 종속회사는 자동차부품 전문기업으로 국내외 완성차 OEM에 차량용 전장, 구동, 제어, 전동화부품을 납품하고 있으며,"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "합  계 | - | 430,183"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "국내외 완성차 및 자동차 부품업체의 주요 공급업체로서 지위를 공고하게 유지하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "단위당 원가절감과 수익성 확보가 필요하며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4199,
+    "completion_tokens": 3877,
+    "reasoning_tokens": 3008,
+    "output_tokens": 869
+  },
+  "warnings": []
+}

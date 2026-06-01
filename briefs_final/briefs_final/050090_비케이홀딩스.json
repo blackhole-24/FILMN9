@@ -1,0 +1,77 @@
+{
+  "stock_code": "050090",
+  "corp_name": "비케이홀딩스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 02:45",
+  "meta": {
+    "wics": "광고",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "비케이홀딩스는 구미본사와 서울지점을 중심으로 광고사업을 주요사업으로 영위하는 기업으로, 광고제작 및 매체대행 서비스를 핵심으로 제공합니다.",
+    "business_model": "주요 매출은 종합광고대행(광고제작 및 매체대행)에서 발생하며, 2025년 기준 종합광고대행이 매출의 약 100%를 차지합니다. 광고제작은 광고물 제작 원가에 수수료를 더한 금액을 (제작)매출로 인식하고, 매체대행은 광고대행 금액의 일정비율을 수수료로 받아 (대행)매출로 인식합니다.",
+    "main_customers": "광고제작 — 광고주(기업·브랜드) / 매체대행 — 광고주 및 광고매체사(방송국, 신문 등)",
+    "price_factors": [
+      {
+        "factor": "경기변동",
+        "detail": "경기 호황 시 광고비가 늘고 불황 시 광고비가 선제적으로 축소되어 실적 변동성이 커집니다."
+      },
+      {
+        "factor": "디지털전환",
+        "detail": "온라인동영상 및 플랫폼을 활용한 광고 증가 추세는 디지털 매체 활용 역량에 따라 실적 영향을 줍니다."
+      },
+      {
+        "factor": "전파매체 구매구조",
+        "detail": "전파광고(TV·라디오)는 한국방송광고진흥공사 등을 통해 매체를 구매하는 구조로 매체 확보 방식이 실적에 영향합니다."
+      },
+      {
+        "factor": "매체계약조건",
+        "detail": "인쇄광고 등은 매체사와 직접 계약을 맺어 매체를 구매하므로 매체사와의 계약 조건이 수익성에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 가. 사업부문",
+        "evidence_text": "광고사업 부문을 주요사업으로 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 가. 사업부문",
+        "evidence_text": "광고사업은 주로 광고제작 및 매체대행서비스를 제공하고 있으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 나. 주요매출 현황",
+        "evidence_text": "종합광고대행 | 용역매출 | 광고제작, 매체대행 등"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 가. 사업부문",
+        "evidence_text": "매체대행은 광고매체사(방송국, 신문 등)와 광고주를 연결해서"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 나. 산업의 성장성",
+        "evidence_text": "온라인동영상 및 플랫폼을 활용한 광고는 증가하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 다. 경기변동의 특성 / 시장여건",
+        "evidence_text": "광고시장은 경기변동에 강한 탄력성을 보입니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3344,
+    "completion_tokens": 4586,
+    "reasoning_tokens": 3776,
+    "output_tokens": 810
+  },
+  "warnings": []
+}

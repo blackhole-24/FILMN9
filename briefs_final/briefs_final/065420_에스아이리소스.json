@@ -1,0 +1,62 @@
+{
+  "stock_code": "065420",
+  "corp_name": "에스아이리소스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 04:28",
+  "meta": {
+    "wics": "석유와가스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "에스아이리소스는 자원판매사업과 기타사업을 영위하는 화학(석유·가스) 계열 기업으로, 당기 매출액은 20,852백만원 규모입니다. 주력은 바이오연료 제조판매로 매출 대부분을 차지하며 이탄 채굴판매와 일부 건축자재 유통을 병행하고 있습니다.",
+    "business_model": "주요 수익원은 바이오연료 제조판매(제품매출)에 집중되어 있으며, 사업부문별 영업수익 구성상 제품매출이 20,337백만원으로 전체의 98.0%를 차지합니다. 상품매출(이탄 관련 등)은 515백만원으로 2.0%에 불과하며, 유연탄 채굴판매는 장기적으로 축소(지양) 전략을 취하고 있습니다.",
+    "main_customers": "바이오연료 제조판매 — 국내 발전사업자(발전용 연료 수요처, 한국전력 발전자회사 포함) / 이탄 채굴판매 — 농업·축산업자 및 관련 판매법인 / 건축자재 유통 — 러시아 사할린 현지 구매자",
+    "price_factors": [
+      {
+        "factor": "RPS 규제",
+        "detail": "신재생에너지 의무공급비율(RPS) 상향 시 바이오중유 수요가 증가해 실적에 긍정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "원료 수급",
+        "detail": "팜유 등 동식물성 유지계열 원료의 국내외 공급 변화는 바이오연료 원가와 생산 안정성에 직접적 영향을 미칩니다."
+      },
+      {
+        "factor": "제품가격 변동",
+        "detail": "주요 상품은 품질 수준에 따라 가격 변동 폭이 커 매출총이익과 실적 변동성이 높습니다."
+      },
+      {
+        "factor": "규제·농축산법",
+        "detail": "가축분뇨법 등 관련 규정으로 인해 이탄(피트모스) 수요가 증대될 경우 이 부문 매출에 긍정적 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "당사의 사업은 자원판매사업 부문과 기타사업 부문으로 구성되어 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "- 제품매출: 20,337 (98.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경영진 실적·전략 요약 (MD&A) > 2. 영업실적분석",
+        "evidence_text": "한국전력 발전자회사를 대상으로 한 매출이 전체 매출액의 73.6%를 차지"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4488,
+    "completion_tokens": 2826,
+    "reasoning_tokens": 2112,
+    "output_tokens": 714
+  },
+  "warnings": []
+}

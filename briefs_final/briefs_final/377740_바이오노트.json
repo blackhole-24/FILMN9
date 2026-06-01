@@ -1,0 +1,67 @@
+{
+  "stock_code": "377740",
+  "corp_name": "바이오노트",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 18:25",
+  "meta": {
+    "wics": "건강관리장비와용품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "바이오노트는 2003년 설립된 동물용 진단 검사 제품 및 바이오 컨텐츠 회사로, 유전자 재조합 항원·항체 제조기술을 기반으로 신속진단키트(Rapid), ELISA, 형광면역검사(FIA) 등 체외진단 제품을 연구·개발·제조·유통하고 있습니다. 최근 연결 기준 매출액 1,183억원을 기록하며 동물용 진단과 라이프사이언스(원료·반제품) 사업을 병행하고 있습니다.",
+    "business_model": "사업부문은 동물용 진단과 라이프사이언스(원료·반제품)로 구성되며, FY2025 기준 동물 매출이 63.1%, 라이프 사이언스 매출이 31.0%를 차지하고 연결조정이 6.0%를 차지합니다. 동물용 진단에서는 BIONOTE Rapid, Vcheck F, BIONOTE ELISA 등 완제품 중심의 매출이, 라이프사이언스는 항원·항체·효소 등 원료와 반제품을 진단기업·관계사에 공급하는 구조가 핵심 수익원입니다.",
+    "main_customers": "동물 — 각국의 총판·대리점 및 관계사 / 라이프 사이언스 — 진단기업, 검역원 및 각종 실험실·글로벌 수요기업",
+    "price_factors": [
+      {
+        "factor": "체외진단 수요",
+        "detail": "고령화·예방 중심 의료 패러다임 확대는 체외진단 전체 수요를 키워 동사의 제품과 원료 공급 매출에 긍정적 영향을 미칩니다."
+      },
+      {
+        "factor": "원료 아웃소싱",
+        "detail": "완제 제조사들의 원료 아웃소싱 확대는 항원·항체 등 원료 공급 사업(라이프 사이언스)의 수요 증가로 연결될 수 있습니다."
+      },
+      {
+        "factor": "제품 대체성",
+        "detail": "경쟁사의 인체용 제품이 동물용으로 쓰이는 사례는 가격·규격 경쟁을 유발할 수 있으나, 동물 전용 제품 개발은 차별화 요소가 됩니다."
+      },
+      {
+        "factor": "기술·플랫폼 경쟁력",
+        "detail": "바이오리액터 기반 대량배양, 항체 엔지니어링, Vcheck 등 플랫폼 확장은 제품 성능·확장성에 따른 시장 경쟁력에 직접적 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "당사는 2003년 설립된 동물용 진단 검사 제품 및 바이오 컨텐츠 회사로"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "주요 거래처는 각국의 총판 대리점 및 관계사 입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 영업수익 구성 (FY2025)]",
+        "evidence_text": "동물: 73,198 (63.1%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 영업수익 구성 (FY2025)]",
+        "evidence_text": "라이프 사이언스: 35,345 (31.0%)"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4909,
+    "completion_tokens": 3669,
+    "reasoning_tokens": 2816,
+    "output_tokens": 853
+  },
+  "warnings": []
+}

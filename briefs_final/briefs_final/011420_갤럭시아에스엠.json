@@ -1,0 +1,77 @@
+{
+  "stock_code": "011420",
+  "corp_name": "갤럭시아에스엠",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 11:41",
+  "meta": {
+    "wics": "레저용장비와제품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "갤럭시아에스엠은 아파트 분양시장 특화 마케팅 서비스와 이탈리아 명품 헬스기구 '테크노짐'의 국내 유통을 주력으로 하는 기업입니다. 2025년 매출액은 전년 대비 24% 증가한 403억원을 기록하며 프리미엄 피트니스 장비 유통을 중심으로 사업 기반을 확장하고 있습니다.",
+    "business_model": "사업은 프리미엄 피트니스(유통 및 판매)와 마케팅 서비스로 구성되며, 사업부문별 매출 비중은 프리미엄 피트니스 65%, 마케팅 서비스 35%입니다. 프리미엄 피트니스는 Technogym의 대한민국 독점 총판으로 설계·시공·콘텐츠·유지관리까지 제공하며(통합 피트니스 인프라), 2024년부터 오프라인 쇼룸·온라인·텔레세일즈 직판을 통해 B2C(기업→소비자) 시장도 확대하고 있습니다.",
+    "main_customers": "프리미엄 피트니스 — 호텔·고급 아파트 커뮤니티·기업체·병원·공공기관·프리미엄 개인 소비자 / 마케팅 서비스 — 아파트 분양 관련 사업자(건설사·시행사 등)",
+    "price_factors": [
+      {
+        "factor": "홈트수요",
+        "detail": "홈트레이닝·디지털 웰니스 수요 급증은 프리미엄 기구와 플랫폼 연동 매출 확대에 긍정적 영향을 줍니다."
+      },
+      {
+        "factor": "B2B고급화",
+        "detail": "B2B 시장에서 고급화된 장비·설계·디지털 콘텐츠를 보유한 브랜드가 우위를 차지하면 수주 경쟁과 수익성에 직결됩니다."
+      },
+      {
+        "factor": "분양시장",
+        "detail": "아파트 분양 경기 변동은 마케팅 서비스 수주와 매출에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "총판의존",
+        "detail": "Technogym 단독 총판 구조는 제품 공급과 브랜드 접점 확대에 유리하지만, 공급·브랜드 리스크가 실적에 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "이탈리아 테크노짐(Technogym)의 대한민국 독점 총판"
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. 주요 제품 등의 현황",
+        "evidence_text": "프리미엄 피트니스 65%"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 프리미엄 헬스케어 기구 유통사업",
+        "evidence_text": "당사의 주요 고객은 호텔, 고급 아파트 커뮤니티"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "시장 현황",
+        "evidence_text": "홈트레이닝·디지털 웰니스 솔루션 수요의 급증"
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. 프리미엄 헬스케어 기구 유통사업",
+        "evidence_text": "오프라인 쇼룸, 온라인 플랫폼, 텔레세일즈를 연계한 직판 전략"
+      },
+      {
+        "field": "business_model",
+        "source_section": "나. 마케팅 사업",
+        "evidence_text": "아파트 분양시장에 특화된 광고대행 서비스를 수행하고 있으며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4236,
+    "completion_tokens": 4129,
+    "reasoning_tokens": 3264,
+    "output_tokens": 865
+  },
+  "warnings": []
+}

@@ -1,0 +1,72 @@
+{
+  "stock_code": "064400",
+  "corp_name": "LG씨엔에스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 04:18",
+  "meta": {
+    "wics": "IT서비스",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "LG씨엔에스는 IT서비스를 주력으로 하는 기업으로, 클라우드&AI, 스마트엔지니어링, Digital Business Service(SI/SM) 등으로 사업을 운영합니다. 2025년 연결기준 매출은 6조 1,295억원으로 디지털 전환(DX)·AI 전환(AX) 수요를 바탕으로 성장하고 있습니다.",
+    "business_model": "핵심 사업부문은 클라우드&AI(59.0%), 스마트엔지니어링(19.0%), Digital Business Service(SI/SM)(22.0%)으로 구성되어 매출을 창출합니다. 클라우드&AI는 클라우드 전환·MSP(Managed Service Provider)·AI 적용 서비스 중심으로, 스마트엔지니어링은 스마트팩토리·스마트물류·스마트시티 관련 로봇·자동화 솔루션 중심으로, Digital Business Service는 SI(System Integration, 시스템 통합)와 SM(System Management, 시스템 운영·유지보수) 기반의 시스템 구축·운영 서비스를 제공합니다.",
+    "main_customers": "클라우드&AI — 클라우드 전환·AI 도입을 추진하는 기업 / 스마트엔지니어링 — 제조기업, 물류기업 및 도시(시티) 관련 서비스 수요자 / Digital Business Service (SI/SM) — 금융·공공·통신 등 산업의 기업 및 기관",
+    "price_factors": [
+      {
+        "factor": "AI 전환 수요",
+        "detail": "기업들의 AX( AI 전환) 도입 확대는 클라우드·AI 서비스 수요를 늘려 실적에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "경기 민감도",
+        "detail": "전통적 IT투자 성격상 경기둔화 시 신규 구축 프로젝트 축소로 매출이 하방압력을 받을 수 있습니다."
+      },
+      {
+        "factor": "인력 의존도",
+        "detail": "IT서비스는 인력자산 의존도가 높아 인력 확보·유지 비용 변화가 수익성에 영향을 줍니다."
+      },
+      {
+        "factor": "보안·인프라",
+        "detail": "정보보안·인프라 강화 수요 증가는 관련 서비스 매출 확대 요인이지만 투자비 부담도 커질 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 IT서비스 단일 사업부문으로"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "클라우드&AI: 3,587,301 (59.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "스마트엔지니어링: 1,193,534 (19.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "Digital BusinessService (SI/SM): 1,348,708 (22.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "Digital Business Service (SI/SM)",
+        "evidence_text": "당사는 금융, 공공, 통신 등의 산업에서"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5846,
+    "completion_tokens": 3070,
+    "reasoning_tokens": 2240,
+    "output_tokens": 830
+  },
+  "warnings": []
+}

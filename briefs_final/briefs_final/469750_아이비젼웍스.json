@@ -1,0 +1,66 @@
+{
+  "stock_code": "469750",
+  "corp_name": "아이비젼웍스",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:46",
+  "meta": {
+    "wics": "전기제품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "아이비젼웍스는 2015년 설립된 기업으로, 이차전지 제조공정 검사장비와 소프트웨어를 개발·제조하는 회사입니다. 설립 초기에는 원통형 외관 검사시스템으로 시장에 들어갔고, 이후 전극공정과 조립공정, 팩공정 검사시스템으로 사업 범위를 넓혀 왔습니다. 현재는 LG에너지솔루션과 SK온을 주요 고객사로 확보하고 있으며, 이차전지 검사 분야를 기반으로 스마트팩토리 솔루션 전문기업을 지향하고 있습니다.",
+    "business_model": "주력 사업은 이차전지 제조공정 검사시스템으로, 전극공정(코터·프레스·슬리터·노칭), 조립공정(라미네이션·스태킹), 팩 공정(셀연결·모듈·팩조립) 전반에 검사장비와 소프트웨어를 공급합니다. FY2025 사업부문별 영업수익은 제품 61.4%, 용역 37.9%, 기타 0.8%로 구성되어 있으며, 제품 판매와 함께 설치·운영 등 용역 매출도 중요한 비중을 차지합니다. 회사는 외관검사만으로는 해결하기 어려운 내부영역 검사를 위한 산업용 비파괴 검사시스템(Digital Ray, CT, OCT 등) 개발도 진행하고 있습니다.",
+    "main_customers": "제품 — 이차전지 제조사 / 용역 — 이차전지 제조사 및 관련 설비 수요처 / 해외 납품 — 해외 이차전지 제조사 Pilot Line",
+    "price_factors": [
+      {
+        "factor": "배터리투자",
+        "detail": "국내외 이차전지 제조사의 설비투자 확대 여부가 검사장비 수요에 직접 영향을 줍니다."
+      },
+      {
+        "factor": "캐즘",
+        "detail": "이차전지 업황의 캐즘(일시적 수요 둔화)이 길어질수록 실적 성장세와 해외 진출 속도에 부담이 됩니다."
+      },
+      {
+        "factor": "고객집중",
+        "detail": "LG에너지솔루션과 SK온 등 주요 고객사의 투자 계획과 발주 흐름이 실적 변동에 큰 영향을 줍니다."
+      },
+      {
+        "factor": "환율",
+        "detail": "해외 고객사 납품과 해외시장 진출이 있는 만큼 환율 변화가 매출과 원가 부담에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "규제변화",
+        "detail": "각국의 환경 규제, 전기차 보조금 정책, 인증기준(UL·TUV 등) 변화가 해외 사업활동에 간접적인 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 2015년 04월 20일 설립되어"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "제품: 14,120 (61.4%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "LG에너지솔루션 및 SK온을 주요 고객사로 확보"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4999,
+    "completion_tokens": 817,
+    "reasoning_tokens": 0,
+    "output_tokens": 817
+  },
+  "warnings": []
+}

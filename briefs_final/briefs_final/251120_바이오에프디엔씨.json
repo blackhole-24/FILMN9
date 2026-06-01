@@ -1,0 +1,76 @@
+{
+  "stock_code": "251120",
+  "corp_name": "바이오에프디엔씨",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:31",
+  "meta": {
+    "wics": "생물공학",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "바이오에프디엔씨는 식물세포 플랫폼 기술(식물세포 설계기술 및 배양기술)을 기반으로 코스메슈티컬, 건강기능식품, 의약품 소재를 연구개발·제조하는 기업입니다. 창사 이래 18년간 기술을 축적해 250여종의 세계 최대 식물세포를 보유하고 있으며, 2022년 2월 21일 코스닥시장에 상장했습니다.",
+    "business_model": "매출은 주로 식물세포 유래 유효물질과 성장인자 관련 제품에서 발생하며, FY2025 기준 GFX(성장인자 완제품)가 52.7%로 가장 큰 비중을 차지합니다. 그 밖에 Extract 17.8%, PCX 7.2%, 제품매출 6.6%, 성장인자 6.5%, Peptide 6.3%, Complex 0.4%, 연구용역매출 1.3%로 구성되어 있습니다. 회사는 SMART-RC² 대량배양기술을 활용해 식물유래 재조합 성장인자, 피토펩타이드, 형질전환 식물세포주 등을 생산하고 있습니다.",
+    "main_customers": "GFX(성장인자 완제품) — 화장품 등 원료를 필요로 하는 국내외 매출처 / PCX(Plant Cell Complex) — 식물세포 원료 기반 완제품 수요처 / 연구용역매출 — 외부 기관 및 기업(예: Givaudan社, 대상홀딩스㈜, 서울대학교, 광주과학기술원, 중앙백신연구소)",
+    "price_factors": [
+      {
+        "factor": "수요계약",
+        "detail": "고도의 식물세포 기술 제품은 고객사와의 공급계약에 따라 가격을 조정하며, 최근 수년간 변동폭이 미미해 실적이 계약 유지 여부에 영향을 받습니다."
+      },
+      {
+        "factor": "규제변화",
+        "detail": "나고야의정서, CBD(생물다양성협약), ABS(유전자원 접근 및 이익공유) 같은 제도 변화가 식물 원료 수급 방식에 영향을 주며, 회사의 식물세포 배양기술 경쟁력이 부각될 수 있습니다."
+      },
+      {
+        "factor": "생산특성",
+        "detail": "다품종 소량생산 구조라 품목이 다양하고 단위도 달라 판가 변동을 세부적으로 구분하기 어려워, 제품 믹스 변화가 실적에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "고객다변화",
+        "detail": "Givaudan社, GINZATOMATO社, SIYANLI社, BENEV社 등 국내외 다양한 매출처에 공급하고 있어 특정 고객의 수요 변화가 매출에 직접 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "R&D협력",
+        "detail": "식물세포주 개발용역, 백신 개발, 진단연구 등 기술이전·연구협력 진행 상황이 연구용역 및 사업화 매출 흐름에 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "2022년 2월 21일에 코스닥시장에 상장하는 성과를 달성하였습니다."
+      },
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "식물세포 플랫폼 기술(식물세포 설계기술 및 배양기술)을 기반으로"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "GFX: 10,086,544,957 (52.7%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "Extract: 3,406,930,043 (17.8%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "Givaudan社, 일본 GINZATOMATO社, 중국 SIYANLI社, 미국 BENEV社 등"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5514,
+    "completion_tokens": 1042,
+    "reasoning_tokens": 0,
+    "output_tokens": 1042
+  },
+  "warnings": []
+}

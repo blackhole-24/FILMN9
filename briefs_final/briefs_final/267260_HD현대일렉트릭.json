@@ -1,0 +1,67 @@
+{
+  "stock_code": "267260",
+  "corp_name": "HD현대일렉트릭",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 12:28",
+  "meta": {
+    "wics": "전기장비",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "HD현대일렉트릭은 발전→송전→배전→소비에 이르는 전력공급 전 단계에 필요한 전기전자기기와 에너지솔루션을 제작·공급하는 기업으로, 전력기기·회전기기·배전기기 중심의 사업 포트폴리오를 보유하고 있습니다. 토털 에너지솔루션 기업으로 성장을 추구하면서 신·재생에너지 및 ESS(에너지저장장치) 등 신사업으로 사업영역을 확대하고 있습니다.",
+    "business_model": "제품 품목별로는 전력기기(변압기·고압차단기) 70%, 회전기기(전동기 등) 14%, 배전기기 등 16%의 매출구성이 주요 수익원이며, 수주형(주문생산) 전력기기가 핵심 제품군입니다. 또한 수출 비중이 높아(수출비중 77%) 해외 수주와 ESS·전력변환기기 등 신재생 연관 장비·솔루션 공급을 통해 매출을 다각화하고 있습니다.",
+    "main_customers": "전력기기 — 발전·송전 사업자(전력회사·발주처) / 배전기기 — 배전 운영사·산업·건물 설비 / 회전기기 — 산업용 전동기 수요처(제조업 등) / 대형 해외 고객 — 사우디전력청·Xcel Energy·NextEra Energy",
+    "price_factors": [
+      {
+        "factor": "신재생 확대",
+        "detail": "신재생 발전 보급 확대와 전력수요 증가로 전력변환기기·ESS 수요가 실적에 긍정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "현지화 압력",
+        "detail": "발주국의 현지 생산 우대 경향은 해외 수주 경쟁에서 현지 생산기지나 기술이전 필요성을 높여 수주 전략에 영향을 미칩니다."
+      },
+      {
+        "factor": "수출 의존도",
+        "detail": "수출 비중이 높아(77%) 글로벌 발주 변동 및 지정학적 리스크가 실적 변동성을 키울 수 있습니다."
+      },
+      {
+        "factor": "ESS·데이터 수요",
+        "detail": "데이터센터·AI·반도체 등 전력수요가 큰 산업과 계통안정화 수요 증가로 ESS 관련 매출 기회가 확대됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 사업의 내용(요약)",
+        "evidence_text": "토털 에너지솔루션 기업으로 성장을 추구하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. 사업의 내용(요약)",
+        "evidence_text": "전력기기 70%, 회전기기 14%, 배전기기 16%입니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 사업의 내용(요약)",
+        "evidence_text": "사우디전력청, Xcel Energy, NextEra Energy"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 사업의 내용(요약)",
+        "evidence_text": "수출 비중은 77%입니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4846,
+    "completion_tokens": 4521,
+    "reasoning_tokens": 3712,
+    "output_tokens": 809
+  },
+  "warnings": []
+}

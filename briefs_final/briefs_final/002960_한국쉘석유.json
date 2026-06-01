@@ -1,0 +1,76 @@
+{
+  "stock_code": "002960",
+  "corp_name": "한국쉘석유",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 18:18",
+  "meta": {
+    "wics": "화학",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "한국쉘석유는 1968년 쉘 그룹과의 합작법인으로 출발해 1988년 상장된 윤활유 전문 제조·판매회사로, 쉘 그룹(Shell Petroleum B.V.)이 53.85%의 지분을 보유하고 있습니다. 윤활유와 그리스 제품을 중심으로 국내 시장에서 프리미엄 제품을 공급하며 무차입 경영을 유지하고 있습니다.",
+    "business_model": "사업은 상품(유통 매매)과 제품(자체 제조 윤활유 및 그리스), 기타로 구성되며 FY2025 기준 상품 15.0%, 제품 84.7%, 기타 0.3%의 매출 비중을 보입니다. 주요 제품군은 자동차용 엔진오일, 터빈유, 기어유, 유압유, 절삭유, 그리스 등이며, 전기차 확산 및 고부하·고온 조건에 따른 고성능·프리미엄 합성유 수요 확대에 대응하고 있습니다.",
+    "main_customers": "제품 — 산업용(제조업·발전 설비)·자동차용(자동차 관련 수요처)·선박용(해운·선박 관련 수요처)·특수용(특수산업) / 상품 — 유통 채널 및 거래처 / 기타 — 기타 부문",
+    "price_factors": [
+      {
+        "factor": "국제유가",
+        "detail": "국제유가 변동은 원가와 판매가격 정책 전반에 영향을 미쳐 실적 변동성으로 연결됩니다."
+      },
+      {
+        "factor": "산업경기",
+        "detail": "제조업 중심의 설비 가동률 변화는 윤활유 수요에 직접적 영향을 줍니다."
+      },
+      {
+        "factor": "전기차 확산",
+        "detail": "전기차 보급 확대는 석유 수요 증가율을 둔화시키며 저점도·고성능 윤활유 수요 구조를 변화시킵니다."
+      },
+      {
+        "factor": "공급과잉",
+        "detail": "국내 다수 공급업체로 인한 경쟁 심화는 가격·마진 압박으로 이어질 수 있습니다."
+      },
+      {
+        "factor": "환경규제",
+        "detail": "강화되는 환경규제는 친환경 제품 개발 및 폐유 회수 등의 비용·투자 이슈를 야기합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "1968년도에 합작법인으로 출발하여 1988년 상장되었으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 윤활유, 그리스의 제조 및 판매사업을 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "제품: 275,816 (84.7%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황 > 가. 업계의 현황 (1) 산업의 특성",
+        "evidence_text": "윤활유의 용도는 크게 산업용, 자동차용, 선박용 및 특수용으로 구분됩니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황 > (2) 국내외 시장여건",
+        "evidence_text": "국제 유가는 연간 기준으로 박스권 내 변동을 보이며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5285,
+    "completion_tokens": 3962,
+    "reasoning_tokens": 3072,
+    "output_tokens": 890
+  },
+  "warnings": []
+}

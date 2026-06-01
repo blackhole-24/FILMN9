@@ -1,0 +1,71 @@
+{
+  "stock_code": "389650",
+  "corp_name": "넥스트바이오메디컬",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 18:42",
+  "meta": {
+    "wics": "건강관리장비와용품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "넥스트바이오메디컬은 2014년 설립된 고분자 및 약물전달시스템 기반의 치료재 개발 기업으로, 내시경용 지혈재와 혈관 색전 미립구 등을 개발해 국내 허가와 미국 FDA·유럽 CE 인증을 확보했습니다. Medtronic 등 글로벌 의료기기 기업과의 판권·품질협력 계약을 통해 해외 판매망을 확보하고 있습니다.",
+    "business_model": "주요 수익은 의료기기 제품 판매에서 발생하며, 2025년 기준 사업부문별로 내시경용지혈재(83.2%), 혈관색전미립구(8.1%), 혈관색전미립구-F(7.6%), 기타(1.1%)로 구성되어 있습니다. 제품별 임상·인허가 확보와 글로벌 판권(라이선스) 계약을 통한 해외 유통이 매출 확대의 핵심 경로입니다.",
+    "main_customers": "내시경용지혈재 — 국내 종합병원·내시경 시술 의료진 / 혈관색전미립구·Nexsphere-F — 색전술을 시행하는 병원·해외 대리점 및 유통 파트너 / 기타 — 의료기기 유통 채널 및 대리점",
+    "price_factors": [
+      {
+        "factor": "인허가 규제",
+        "detail": "인허가 기준이나 소요 시간·비용이 강화되면 제품 출시와 매출에 직접적 영향을 줍니다."
+      },
+      {
+        "factor": "임상 근거",
+        "detail": "국내외 학술지 게재와 시판후임상 등 임상 근거 확보가 제품 신뢰도와 보험·수출에 영향을 미칩니다."
+      },
+      {
+        "factor": "글로벌 파트너십",
+        "detail": "Medtronic·CMI 등과의 판권 계약 및 대리점 계약이 해외 판매 확대의 핵심 변수입니다."
+      },
+      {
+        "factor": "생산·공급",
+        "detail": "해외 수요 증가에 대응한 생산 설비 구축과 생산 안정화가 매출 성장 지속성에 중요합니다."
+      },
+      {
+        "factor": "지적재산권",
+        "detail": "보유 특허 포트폴리오(출원·등록 현황)는 경쟁우위 및 기술이전 가능성에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "2014년 설립 이후 의료현장의 요구사항을 반영한 제품을 개발하여 왔으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "Nexpowder가 137.1억원(83.2%)으로 매출의 대부분을 차지하였으며"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황 (마. 시장여건 및 영업의 개황)",
+        "evidence_text": "의료기기는 의료진단과 치료에 전문성을 가진 병원이 주요 수요처이며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황 (다. 사업영위에 중요한 영향을 미치는 법규 및 규제사항)",
+        "evidence_text": "제품을 생산하는 산업으로 국민의 건강증진 등에 직간접적 영향을 받기 때문에 정부의 인허가 등 규제가 필요합니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5806,
+    "completion_tokens": 3485,
+    "reasoning_tokens": 2624,
+    "output_tokens": 861
+  },
+  "warnings": []
+}

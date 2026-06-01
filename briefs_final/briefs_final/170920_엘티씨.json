@@ -1,0 +1,93 @@
+{
+  "stock_code": "170920",
+  "corp_name": "엘티씨",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:22",
+  "meta": {
+    "wics": "반도체와반도체장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "엘티씨는 디스플레이와 반도체 제조 공정에 쓰이는 공정용 전자재료와 장비를 다루는 화학 업종 기업입니다. 주력은 PR 박리액(Stripper)과 세정액, 그리고 반도체 습식 화학재료(Wet Chemical)이며, 종속회사를 통해 반도체 장비와 화학물질 공급 시스템까지 사업을 넓히고 있습니다. 또한 OLED용 PR(Photo Resist)과 세라믹 기반 연료전지 재료도 신규 사업으로 추진하고 있습니다.",
+    "business_model": "주력 사업은 반도체&FPD소재/장비 부문으로, 2025년 매출 310,384,726 중 제품 259,710,935, 제품 외 50,673,791을 기록했습니다. 제품 부문 안에서는 수출 69,811,558, 내수 240,573,168로 구성되어 있으며, 디스플레이용 PR 박리액과 반도체용 습식 화학재료, C.C.S.S(화학물질 공급 장치), 웨이퍼 세정장비 등이 함께 묶여 있습니다. 회사는 고객사의 공정 변화에 맞춘 제품 개발과 최적화를 통해 매출을 확대하는 구조입니다.",
+    "main_customers": "반도체&FPD소재/장비 — 국내 유수의 디스플레이 제조업체, 국내 다수의 중소형 반도체 관련업체 / 엘티씨에이엠 — 국내유수의 FPD 제조업체, 국내대형 반도체 생산업체 / 엘에스이 — 국내 유수의 반도체 제조업체",
+    "price_factors": [
+      {
+        "factor": "공정전환",
+        "detail": "국내 주요 고객사의 LCD 공정이 QD-OLED 공정으로 전환되면서, 이에 맞는 박리액과 관련 소재의 수요가 실적에 영향을 줍니다."
+      },
+      {
+        "factor": "설비투자",
+        "detail": "반도체 생산 업체들의 대규모 투자와 신규 라인 증설은 C.C.S.S와 웨이퍼 세정장비 수요 확대와 연결됩니다."
+      },
+      {
+        "factor": "미세화",
+        "detail": "반도체 회로공정이 미세화될수록 습식 세정과 건식 세정 등 더 정교한 제품 개발 필요성이 커집니다."
+      },
+      {
+        "factor": "진입장벽",
+        "detail": "디스플레이와 반도체 장비·소재는 높은 기술력과 고객사 검증이 필요해 공급사 경쟁 구도가 실적에 영향을 줍니다."
+      },
+      {
+        "factor": "해외투자",
+        "detail": "중국의 LCD 부문 투자와 같은 전방산업 변화는 FPD용 박리액 시장의 수요 구조에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "디스플레이 및 반도체 제조 공정에 사용되는 공정용 전자재료"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "반도체&FPD소재/장비"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "총 합 계 | 수출 | 69,811,558"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "내수 | 240,573,168"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "국내 유수의 디스플레이 제조업체에 다년간 안정적으로 공급"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "국내 다수의 중소형 반도체 관련업체에게"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "국내 주요 고객사의 기존 LCD 공정라인에서 신규 QD-OLED 공정라인으로 전환"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "반도체 생산 업체들의 대규모 투자와 신제품 개발"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4650,
+    "completion_tokens": 1103,
+    "reasoning_tokens": 0,
+    "output_tokens": 1103
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

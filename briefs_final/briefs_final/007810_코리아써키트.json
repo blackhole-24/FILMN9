@@ -1,0 +1,66 @@
+{
+  "stock_code": "007810",
+  "corp_name": "코리아써키트",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 09:46",
+  "meta": {
+    "wics": "전자장비와기기",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "코리아써키트는 PCB(인쇄회로기판)를 제조·판매하는 기업으로, 국내 종속기업으로 특수 PCB, FPCB(연성회로기판), 반도체 패키징 사업까지 함께 영위하고 있습니다. 전자·정보통신산업의 성장 흐름 속에서 반도체, 이동통신, 가전산업 분야의 국내외 주요 고객사에 첨단 PCB를 공급하는 구조입니다.",
+    "business_model": "사업부문별 매출 구성은 전자부품 부문 92.9%, 반도체 부문 6.8%, 기타(임대) 부문 0.3%입니다. 핵심은 통신기기 중심의 HDI(고밀도회로기판)와 반도체 중심의 Package Substrate(반도체 패키지 기판)이며, 스마트폰용 HDI와 메모리 모듈 제품을 세계적인 Top 생산기업에 공급하고 있습니다. Package Substrate 부문은 FC-CSP(칩크기패키지), PoP(패키지적층), BGA SSD(고밀도 반도체 기판) 등 고부가가치 제품군으로 다변화하며 차세대 성장 동력으로 키우고 있습니다.",
+    "main_customers": "전자부품 부문 — 반도체·이동통신·가전산업의 국내외 주요 고객사 / 반도체 부문 — 세계적인 Top 생산기업, 고객사 개발 및 글로벌 시장 고객 / PCB·FPCB·패키징 — 국내외 전자 및 정보통신산업 관련 고객사",
+    "price_factors": [
+      {
+        "factor": "전방산업",
+        "detail": "전자·정보통신·반도체 등 전방산업 수요가 늘면 PCB와 패키지 제품 주문이 함께 늘어 실적에 영향을 줍니다."
+      },
+      {
+        "factor": "환율변동",
+        "detail": "내수 및 수출제품 가격 변동에 환율 영향이 반영되어, 환율 변화가 매출과 수익성에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "제품구성",
+        "detail": "주력 생산품의 구성 변경이 가격 변동의 주요 원인으로 언급돼 있어, 고부가가치 제품 비중이 실적에 중요합니다."
+      },
+      {
+        "factor": "고객수주",
+        "detail": "수주산업 특성상 고객사 주문과 납기, 품질 요구에 따라 매출 흐름이 달라질 수 있습니다."
+      },
+      {
+        "factor": "원가변동",
+        "detail": "동박판, 약품, BGAPCB, Mold Compound 등 원재료 가격과 수급이 원가와 수익성에 직접 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "지배회사인 당사는 PCB를 제조, 판매하는 사업을 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "전자부품 부문: 1,402,400 (92.9%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "사업부문은 통신기기 중심의 HDI 부문과 반도체 중심의 Package Substrate 부문으로 구분"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4953,
+    "completion_tokens": 831,
+    "reasoning_tokens": 0,
+    "output_tokens": 831
+  },
+  "warnings": []
+}

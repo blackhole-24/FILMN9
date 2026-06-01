@@ -1,0 +1,67 @@
+{
+  "stock_code": "040160",
+  "corp_name": "누리플렉스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 01:19",
+  "meta": {
+    "wics": "소프트웨어",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "누리플렉스는 스마트미터링을 기반으로 한 에너지 관련 제품·솔루션 공급을 주요사업으로 하는 스마트 그린에너지 솔루션 기업입니다. 2021년 사명을 변경하며 에너지 플랫폼 전문기업으로 사업 영역을 확장하고 있습니다.",
+    "business_model": "주요 사업부문은 전력IoT(45.0%), 스마트에너지(39.0%), 산업IoT(12.0%), 기타(4.0%)로 구성되어 있습니다. IoT 기반 스마트미터링과 ICBMA(ICBMA: IoT, Cloud, Big Data, Mobile, AI)를 접목한 에너지 효율 솔루션을 개발·구축·공급하며, 솔루션 판매에서 플랫폼 비즈니스(에너지 데이터 기반 플랫폼 및 서비스)로 전환을 추진하고 있습니다.",
+    "main_customers": "전력IoT — 전력회사·공공기관 / 스마트에너지 — 산업체(탄소중립·RE100 이행 대상)·공동주택 / 산업IoT — 산업단지·기업(산업용 고객) / 기타 — 지자체·일반 소비자",
+    "price_factors": [
+      {
+        "factor": "정부정책",
+        "detail": "탄소중립·제로에너지 의무화 확대는 태양광·ESS 등 그린에너지 수요를 늘려 실적에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "스마트미터 보급",
+        "detail": "스마트미터링 시장의 꾸준한 성장(국내·글로벌 보급 확대)은 전력IoT 매출 기반을 확대시키는 요인입니다."
+      },
+      {
+        "factor": "공공조달 의존",
+        "detail": "공공기관·전력사 대상 프로젝트 비중이 높아 대금 회수 지연이나 공공사업 수주 변동이 실적에 민감하게 작용합니다."
+      },
+      {
+        "factor": "플랫폼 전환",
+        "detail": "솔루션 판매에서 플랫폼(데이터·서비스) 중심으로 전환될 경우 매출의 반복성·마진 구조가 장기적으로 변동될 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "스마트 그린에너지 에너지솔루션 기업입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "전력IoT: 20,422 (45.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "플랫폼 비즈니스로의 사업전환을 통해"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "공공기관, 지자체, 공동주택, 산업단지, 일반 소비자"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4222,
+    "completion_tokens": 4241,
+    "reasoning_tokens": 3520,
+    "output_tokens": 721
+  },
+  "warnings": []
+}

@@ -1,0 +1,66 @@
+{
+  "stock_code": "257370",
+  "corp_name": "피엔티엠에스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 13:59",
+  "meta": {
+    "wics": "전기제품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "피엔티엠에스는 2차전지 분리막 생산설비의 설계·제작·설치·시운전까지 전체 풀라인(Full-line)을 제작·핸들링하는 장비 제작업체입니다. PE 습식 분리막용 압출기, 연신기, 추출기, 건조기, 코팅기 등 분리막 생산의 핵심 설비를 제조하며 침지형 분리막 코팅기에 대한 국내 특허를 보유하고 있습니다.",
+    "business_model": "핵심은 2차전지 분리막(PE 습식) 생산설비의 설계·제작·설치·시운전 등 풀라인(Full-line) 공급이며, 분리막 코팅기 등 보완 설비도 포함됩니다. 사업부문별 매출 구성은 31.7%, 0.0%, 1.2%, 8.2%, 58.9%로 표기되어 있습니다.",
+    "main_customers": "분리막 생산설비 — 분리막 제조업체 및 2차전지 제조업체 / 코팅기·후공정 장비 — 설비를 도입하는 배터리·분리막 제조사",
+    "price_factors": [
+      {
+        "factor": "공급과잉",
+        "detail": "분리막 시장의 생산능력 급증으로 단가 하락이 지속되면 설비 수요와 회사 실적에 부정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "전기차수요",
+        "detail": "글로벌 전기차 수요 둔화 우려가 커지면 2차전지 설비 투자 수요가 위축될 가능성이 있습니다."
+      },
+      {
+        "factor": "프로젝트 지연",
+        "detail": "계약 프로젝트의 기간 연장으로 매출 인식 시점이 지연되면 단기 실적 변동성이 커집니다."
+      },
+      {
+        "factor": "우발부채",
+        "detail": "진행 중인 소송 관련 우발부채 증가 시 영업외 비용 및 손실 확대 요인이 됩니다."
+      },
+      {
+        "factor": "환율·에너지",
+        "detail": "에너지 가격 불안정성과 환율 상승은 제조원가와 프로젝트 비용에 영향을 미칠 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "2차 전지 분리막 생산설비는 라인성으로 구성되며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "31.7% / 0.0% / 1.2% / 8.2% / 58.9%"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "분리막 시장의 생산능력 급증으로 단가하락이 이어지며 성장 또한 둔화 되었습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3443,
+    "completion_tokens": 4779,
+    "reasoning_tokens": 4032,
+    "output_tokens": 747
+  },
+  "warnings": []
+}

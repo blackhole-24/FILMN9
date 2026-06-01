@@ -1,0 +1,76 @@
+{
+  "stock_code": "002820",
+  "corp_name": "SUN&L",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 09:41",
+  "meta": {
+    "wics": "종이와목재",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "SUN&L은 1959년 설립된 기업으로, 목재·인테리어·생활용품을 중심으로 사업을 운영하고 있습니다. 현재는 목재 2차 가공과 종합목재 유통, 도어·가구·내장 시공, 플라스틱 포장용기 생산·유통까지 포트폴리오를 넓혀가고 있습니다.",
+    "business_model": "사업부문별 매출 구성은 인테리어 60.4%, 생활용품 30.6%, 목재 20.3%, 기타 1.0%입니다. 목재부문은 합판 등 목재 2차 가공과 종합목재 유통을 담당하고, 인테리어부문은 도어·가구·내장 생산과 시공을 맡고 있으며, 생활용품부문은 플라스틱 포장용기와 화장품 용기 등을 생산·유통·판매합니다. 최근에는 합판 국내 생산과 MDF·제재 생산을 중단하고 상품 유통 및 일부 반제품 재단 중심으로 전환했습니다.",
+    "main_customers": "목재 — 직판 및 대리점 거래처 / 인테리어 — 도어·가구·내장 수요처 / 생활용품 — 직판 거래 고객 및 중국자회사",
+    "price_factors": [
+      {
+        "factor": "건설경기",
+        "detail": "목재와 인테리어 부문은 주택·토목 등 건설경기와 밀접해, 건설 수요 변화가 실적에 직접 영향을 줍니다."
+      },
+      {
+        "factor": "수입합판",
+        "detail": "저가 수입 합판의 지속적 유입은 국내 목재 제품의 판매와 생산 전략에 압박을 줄 수 있습니다."
+      },
+      {
+        "factor": "공급과잉",
+        "detail": "MDF 시장의 공급 물량 증가와 가격 경쟁 심화는 목재부문의 수익성에 부담으로 작용합니다."
+      },
+      {
+        "factor": "계절요인",
+        "detail": "목재업계는 장마철과 동절기 등 계절적인 요인에 영향을 받아 영업 흐름이 달라질 수 있습니다."
+      },
+      {
+        "factor": "생활용품전환",
+        "detail": "생활용품 부문이 흑자 기조를 유지하고 있어, 사업구조 변화가 전체 실적 방향에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 1959년 설립되었으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "인테리어: 585 (60.4%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "생활용품: 834 (30.6%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "목재: 205 (20.3%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "목재 부문의 경우 직판 및 대리점을 통해 판매"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4527,
+    "completion_tokens": 822,
+    "reasoning_tokens": 0,
+    "output_tokens": 822
+  },
+  "warnings": []
+}

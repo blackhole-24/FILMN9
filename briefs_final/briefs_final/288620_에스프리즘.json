@@ -1,0 +1,62 @@
+{
+  "stock_code": "288620",
+  "corp_name": "에스프리즘",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 15:06",
+  "meta": {
+    "wics": "전기제품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "에스프리즘(연결대상 에스퓨얼셀)은 수소연료전지 전문회사로, 건물용 연료전지의 제조·판매를 주력사업으로 영위하고 있으며 연료전지 파워팩을 신규사업으로 추진하고 있습니다. 연결종속회사를 포함한 수익구조를 바탕으로 건물용·발전용·수송용 연료전지 등 여러 용도에 대응하는 제품을 제공합니다.",
+    "business_model": "사업부문별로 건물용 연료전지가 60.7%로 가장 큰 비중을 차지하고, 발전용 연료전지 21.9%, 연료전지 발전소 12.7%, 기타용역 4.6%의 매출 구성을 보입니다. 제품군은 건물용에서 PEMFC(고분자 전해질막 연료전지, 1~50kW의 모델), 발전용에서는 PAFC(인산형 연료전지, 고효율 48% 전기효율 언급) 등으로 구분되며, 수송용 파워팩(지게차용, 2.5~15kW급) 등으로 수요처를 확장하고 있습니다.",
+    "main_customers": "건물용 — 상업용 건물·아파트·병원·데이터센터 / 발전용 — 전력망·발전사업자 / 수송용 — 지게차 제조사 및 지게차 운영자(지게차용 파워팩) / 연료전지 발전소 — 발전사업자·유틸리티",
+    "price_factors": [
+      {
+        "factor": "입찰가격",
+        "detail": "한정된 경쟁입찰 시장에서 낮은 입찰가로 수주를 확대하지만 매출단가가 소폭 하락해 실적에 영향이 있을 수 있습니다."
+      },
+      {
+        "factor": "정부정책",
+        "detail": "수소경제 로드맵·수소법 등 정부의 지원 확대는 연료전지 보급 확대와 시장 성장으로 연결될 가능성이 있습니다."
+      },
+      {
+        "factor": "연료공급",
+        "detail": "NG·HG·PG(도시가스·순수수소·LPG) 및 바이오가스 사용 가능성은 연료 가격과 공급 변화에 따른 운영비 및 시장 적용성에 영향을 줍니다."
+      },
+      {
+        "factor": "기술효율",
+        "detail": "발전용 PAFC의 높은 전기효율(예: 48%)과 All-in-one 저소음 설계는 도심·주거단지 설치 가능성으로 수요 확대에 유리합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "에스퓨얼셀 주식회사와 연결종속회사는 수소연료전지 전문회사 입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "건물용 연료전지: 9,585 (60.7%)"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "영업 현황 > 시장현황",
+        "evidence_text": "한정된 경쟁입찰 시장으로 통상적인 제품단가가 형성되어있지 않습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4828,
+    "completion_tokens": 3742,
+    "reasoning_tokens": 2944,
+    "output_tokens": 798
+  },
+  "warnings": []
+}

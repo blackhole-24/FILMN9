@@ -1,0 +1,72 @@
+{
+  "stock_code": "317120",
+  "corp_name": "라닉스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 16:13",
+  "meta": {
+    "wics": "통신장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "라닉스는 V2X 통신(차량 간 통신) 관련 시스템 반도체와 소프트웨어·하드웨어 통합 솔루션을 보유한 통신장비 기업입니다. V2X Modem(주요 제품명 T-WAVE), RVP 소프트웨어 플랫폼과 Automotive MCU 등 자율주행·C-ITS(지능형교통체계) 관련 제품을 중심으로 사업화하고 있습니다.",
+    "business_model": "주요 수익원은 Automotive MCU, V2X 모뎀 및 통신단말(RSU/OBU), DSRC 칩·RF칩, V2X 소프트웨어(RVP)와 관련 용역으로 구성됩니다. 특히 Automotive MCU 사업군의 당기 매출액은 5,547,799천원(74.29%)으로 회사 매출의 큰 비중을 차지하며, 나머지는 V2X 제품군과 반도체·용역 매출이 차지합니다.",
+    "main_customers": "Automotive MCU — E사, H사, I사 / DSRC 칩·RF칩 — DSRC 모듈 제작업체 / 용역 — 정부기관·연구소·업체",
+    "price_factors": [
+      {
+        "factor": "정책 채택",
+        "detail": "국토교통부의 LTE 기반 C-V2X 채택은 국내 RSU·OBU 수요에 직접적인 영향(국내 도입 확대 시 수혜 가능)."
+      },
+      {
+        "factor": "미국 규제",
+        "detail": "미국의 ANPRM(규칙 제정 절차)로 외산 LTE C‑V2X 모뎀 사용에 제한 가능성이 생기며 제품 재설계·공급망 영향이 발생할 수 있습니다."
+      },
+      {
+        "factor": "글로벌 경쟁",
+        "detail": "퀄컴·오토톡스 등 외산 칩의 로드맵과 상용화 속도는 라닉스의 경쟁력과 시장진입 전략에 직접적 영향을 미칩니다."
+      },
+      {
+        "factor": "표준·기술 전환",
+        "detail": "WAVE→LTE-V2X→5G‑NR‑V2X로의 표준 전환은 제품 개발 로드맵(예: 2026년 토털 솔루션 출시 계획)에 따른 기술 적응 필요성을 높입니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "V2X Modem의 경우, 당사는 자율주행자동차의 핵심기술인 WAVE-V2X 통신 통합 솔루션을 개발하여 사업화를 진행하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "특히 당사는 전 세계에서 유일하게 시스템 반도체(통신 모뎀, 보안 칩, RF 칩)와 S/W, H/W 솔루션을 모두 보유한 기업입니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "Automotive MCU 사업군의 주요 매출처는 E사, H사, I사 등이며, 당기 매출액은 5,547,799천원(74.29%)입니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "2023년 12월, 국토교통부가 C-ITS 통신 방식으로 LTE 기반의 C-V2X를 채택함에 따라, 라닉스는 국내 After Market 및 Before Market에 모두 활용 가능한 LTE 기반 C-V2X RSU 시제품 개발을 완료하였습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "그러나 2024년 3월, 미국 정부가 커넥티드 차량의 국가안보 위험 관련 규칙 제정 절차(ANPRM)를 발표함에 따라, 기존 외산 LTE C-V2X 모뎀 모듈의 사용에 제한이 생길 가능성을 고려하여, 라닉스는 국내 모뎀 모듈 기반으로 제품을 재설계 및 개발 중에 있습니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4918,
+    "completion_tokens": 5400,
+    "reasoning_tokens": 4352,
+    "output_tokens": 1048
+  },
+  "warnings": []
+}

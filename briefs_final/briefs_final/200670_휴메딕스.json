@@ -1,0 +1,73 @@
+{
+  "stock_code": "200670",
+  "corp_name": "휴메딕스",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:25",
+  "meta": {
+    "wics": "제약",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "휴메딕스는 인체에 높은 안전성을 가진 생체 적합성 히알루론산(HA) 응용 원천기술을 바탕으로 필러와 관절염치료제를 국내 및 글로벌 헬스케어 시장에 공급하는 제약회사입니다. 에스테틱(미용·피부 관련) 사업을 중심으로 의약품, 의료기기, 원료생산, 기능성 화장품까지 사업영역을 넓혀가고 있습니다.",
+    "business_model": "사업은 에스테틱 사업부문과 CMO(위탁생산) 사업부문으로 구분됩니다. 2025년 매출 구성은 제품 134,365, 상품 35,017, 기타 671이며, 합계 170,053입니다. 주요 에스테틱 제품은 필러, 보툴리눔 톡신(보툴리눔균 독소를 활용한 주사제), 화장품, 의료기기이고, CMO는 전문의약품, 관절염치료제, 점안제, 원료의약품 생산으로 이뤄집니다.",
+    "main_customers": "에스테틱 — 성형외과, 피부과, 미용 시술 병의원 / CMO — 전문의약품·관절염치료제·점안제 수요처 / 원료 — 의약품·의료기기·화장품 제조 관련 수요처",
+    "price_factors": [
+      {
+        "factor": "중국필러",
+        "detail": "중국 필러 시장이 2025년까지 성장할 전망이라 수출 확대 기대와 연결됩니다."
+      },
+      {
+        "factor": "미용수요",
+        "detail": "젊고 아름다운 외모를 중시하는 트렌드와 웰빙·고령화가 시술 수요를 키우는 요인입니다."
+      },
+      {
+        "factor": "방학성수기",
+        "detail": "방학과 휴가 기간에 미용성형 시술이 늘어 매출이 계절적으로 집중되는 경향이 있습니다."
+      },
+      {
+        "factor": "재구매성",
+        "detail": "보툴리눔 톡신과 필러는 지속기간이 제한적이라 재구매율이 높은 편으로 설명됩니다."
+      },
+      {
+        "factor": "인증승인",
+        "detail": "유럽 CE 인증과 중국 NMPA(중국 국가약품감독관리국) 승인 여부가 해외 판매 확대에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 기업개요",
+        "evidence_text": "생체 적합성 히알루론산 응용핵심 원천기술을 활용한 필러와 관절염치료제"
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. 기업개요",
+        "evidence_text": "당사의 사업은 에스테틱 사업부문과 CMO 사업부분으로 구분 할 수 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "2. 사업의 개요",
+        "evidence_text": "당사의 사업은 에스테틱 사업부문과 CMO 사업부분으로 구분 할 수 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "(2) 에스테틱 사업부분 - 보툴리눔 톡신",
+        "evidence_text": "국내 성형외과, 피부과 등에 영업을 하고 있습니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 5047,
+    "completion_tokens": 839,
+    "reasoning_tokens": 0,
+    "output_tokens": 839
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

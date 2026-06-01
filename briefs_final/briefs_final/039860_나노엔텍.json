@@ -1,0 +1,82 @@
+{
+  "stock_code": "039860",
+  "corp_name": "나노엔텍",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 01:17",
+  "meta": {
+    "wics": "생명과학도구및서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "나노엔텍은 랩온어칩(Lab-On-a-Chip) 플랫폼을 기반으로 체외진단(혈액검사 등) 의료기기와 생명과학 실험기기 솔루션 및 소모품을 개발·제조·판매하는 기업입니다. 미국 판매법인(NanoEntek America Inc.)을 통한 해외 판매와 AAI헬스케어(국내 B2B 헬스케어 자회사) 등 종속회사들을 통해 국내외 시장을 공략하고 있습니다.",
+    "business_model": "회사는 랩온어칩 기술을 핵심 플랫폼으로 하여 체외진단(POCT: 현장진단) 기기 및 생명과학용 장비를 주력으로 판매하고 있으며, 제품별 매출 구성은 FY2025 기준 EVE, ADAM-MC, Juli Stage 등 품목이 8.0%를 차지하고 ADAM-rWBC, FREND System 등 품목이 3.3%를 차지합니다. 기술개발(바이오-MEMS)·지적재산권 확보와 해외판매법인을 통한 수출이 주요 수익원과 경쟁력의 기반입니다.",
+    "main_customers": "EVE·ADAM-MC·Juli Stage 등 — 생명과학 연구기관 및 세포치료제 관련 기업 / ADAM-rWBC·FREND System 등 — 1차 의료기관, 군(ARMY), 의료 인프라가 부족한 지역(저개발국가) 및 현장진단(POCT) 사용자 / 해외판매법인(미국) 및 유통채널 — 해외 바이어·유통사",
+    "price_factors": [
+      {
+        "factor": "지적재산권",
+        "detail": "보유한 특허·지식재산권이 기술 보호 및 경쟁사 견제에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "규제·인허가",
+        "detail": "유럽 CE 등 체외진단 의료기기 관련 규제 충족 여부가 해외판매 가능성과 비용에 영향합니다."
+      },
+      {
+        "factor": "해외비용",
+        "detail": "미국·독일 등 해외법인 운영과 수출 관세·물류비 증가는 단기적으로 비용·이익에 영향을 줍니다."
+      },
+      {
+        "factor": "환율·외환",
+        "detail": "해외 매출·비용 비중이 증가함에 따라 환율 변동이 실적과 외환이익에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 지배회사의 개요 [ (주)나노엔텍 ]",
+        "evidence_text": "랩온어칩(Lab-On-a-Chip) 플랫폼을 기반으로 한 체외진단 의료기기"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "EVE, ADAM-MC,Juli Stage 등: 3,039,535 (8.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "ADAM-rWBC,FREND System 등: 1,268,383 (3.3%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 지배회사의 주요 제품 및 서비스 (FREND System 설명)",
+        "evidence_text": "FREND System은 의료 인프라가 부족한 저개발국가, 1차 의료기관, 군(ARMY)"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "1. 기술의 개요",
+        "evidence_text": "국내외 총 170건(국내 38건, 해외 132건)의 지식재산권"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "미국 관세 영향과 해외법인(미국/독일)의 마케팅비 증가"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "관련 법령 또는 정부의 규제 등",
+        "evidence_text": "대다수 완제품은 유럽의료기기지침(98/79/EC)에 따라 체외진단의료기기에 해당"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5750,
+    "completion_tokens": 5083,
+    "reasoning_tokens": 4032,
+    "output_tokens": 1051
+  },
+  "warnings": []
+}

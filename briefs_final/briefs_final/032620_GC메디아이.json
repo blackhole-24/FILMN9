@@ -1,0 +1,96 @@
+{
+  "stock_code": "032620",
+  "corp_name": "GC메디아이",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 23:43",
+  "meta": {
+    "wics": "건강관리기술",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "GC메디아이는 국내 최초로 전자의무기록(EMR) 시스템을 개발한 기업으로 요양기관 EMR 시장에서 가장 높은 점유율을 보유하고 있습니다. 전국 약 26,000여 개 병·의원 및 약국으로 구성된 국내 최대 규모의 의료기관 네트워크와 37개 대리점 인프라를 기반으로 디지털 헬스케어 플랫폼 생태계를 구축하고 있습니다.",
+    "business_model": "핵심 수익원은 EMR 기반 솔루션과 유통·장비 사업으로 구성되며, 사업부문별 매출 구성은 병·의원/약국 보험청구·업무관리 솔루션 등 38.3%, 의료기기·자동조제기·소모품 등 유통·제품 사업 44.3%, 헬스케어 빅데이터 분석 솔루션 8.7%, 제조(조제기·포장필름) 8.3%, 기타 0.4%로 나타납니다. EMR 플랫폼(의사랑·유팜 등), 환자 플랫폼(똑닥), 데이터 분석·마케팅 플랫폼(팀유비스트·닥터인포), 유통·제조(미소몰·유팜몰·오토팩 등)을 통합해 병·의원과 약국을 대상으로 솔루션과 제품을 공급합니다.",
+    "main_customers": "EMR 사업 — 병·의원·약국·한방병원·요양병원 / 유통·제조 사업 — 병·의원·약국·의료 수급자 / 데이터 분석·마케팅 — 제약사·투자사·병·의원·약국 / 플랫폼 사업 — 환자(똑닥 1,200만 실명 회원)·병·의원·요양시설",
+    "price_factors": [
+      {
+        "factor": "브랜드 지배력",
+        "detail": "의사랑 브랜드의 높은 인지도·시장점유율은 신규 고객 확보와 업계 우위에 직접 영향합니다."
+      },
+      {
+        "factor": "네트워크 의존성",
+        "detail": "전국 26,000여 의료기관 네트워크 보유로 커버리지 확대가 매출과 연계되는 핵심 변수입니다."
+      },
+      {
+        "factor": "데이터 신뢰도",
+        "detail": "데이터 정확도(99%)와 제약·투자사 고객 기반은 데이터 플랫폼 매출과 고객 확보에 중요한 경쟁력입니다."
+      },
+      {
+        "factor": "플랫폼 연계성",
+        "detail": "EMR과 쇼핑몰·장비 연계를 통한 자동주문·유지보수 등 연계 서비스가 교차판매(크로스셀)와 수익성에 영향합니다."
+      },
+      {
+        "factor": "정책·제도",
+        "detail": "정부의 의료 디지털화 정책은 EMR·디지털 헬스케어 솔루션 수요에 우호적 영향을 미칠 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "요양기관 EMR 시장에서 가장 높은 점유율을 보유하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "75,655,127 (38.3%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "87,558,893 (44.3%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "17,222,767 (8.7%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "16,371,797 (8.3%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "887,487 (0.4%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "전국 약 26,000여 개의 병ㆍ의원 및 약국"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성 > 가. 회사의 상표, 고객관리 정책",
+        "evidence_text": "의원 EMR시장에서 시장점유율 1위로 거듭나며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "데이터 정확도 99%(심평원 데이터 기준)"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5298,
+    "completion_tokens": 6185,
+    "reasoning_tokens": 4992,
+    "output_tokens": 1193
+  },
+  "warnings": []
+}

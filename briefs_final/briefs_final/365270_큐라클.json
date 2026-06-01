@@ -1,0 +1,72 @@
+{
+  "stock_code": "365270",
+  "corp_name": "큐라클",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 17:50",
+  "meta": {
+    "wics": "제약",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "큐라클은 혈관내피기능장애(Endothelial Dysfunction)를 표적으로 하는 First-in-Class 신약을 개발하는 바이오 벤처로, 솔바디스(SOLVADYS®)와 이글스(EAGLES®) 플랫폼을 기반으로 화학합성 신약 및 바이오 의약품 파이프라인을 연구·개발하고 있습니다.",
+    "business_model": "제품 판매 매출이 거의 없고(제10기 기준 용역매출(Rivasterat) 0%, 상품매출(원료의약품) 100%), 핵심 수익원은 기술이전·라이선스(초기 기술료, 마일스톤), 로열티 및 임상연구비 수익입니다. 또한 원료의약품 판매와 API(원료의약품) 내재화를 통한 사업 다변화를 병행하고 있습니다.",
+    "main_customers": "라이선스·기술이전 — 제약사·오픈이노베이션 파트너 / 원료의약품(상품매출) — 원료구매처(제약사 등)",
+    "price_factors": [
+      {
+        "factor": "규제·임상",
+        "detail": "임상시험 결과와 각국 규제기관(FDA 등)의 허가 판단이 실적 및 가치 평가에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "경쟁제품",
+        "detail": "망막질환 시장에서 anti-VEGF 주사제(Eylea·Lucentis 등)의 높은 시장점유율과 존재는 신약의 채택 및 시장확대 속도에 영향을 미칩니다."
+      },
+      {
+        "factor": "기술이전 수익",
+        "detail": "라이선스 계약의 초기 기술료·마일스톤 수령 시점과 규모가 매출·현금흐름 변동에 큰 영향을 줍니다."
+      },
+      {
+        "factor": "특허·제네릭",
+        "detail": "특허 존속기간 이후 복제약(제네릭/바이오시밀러) 출현은 장기 수익성에 부담을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "혈관내피기능장애(Endothelial Dysfunction)를 정상화"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 1. 주요 제품 등의 현황",
+        "evidence_text": "제품 판매에 대한 매출은 존재하지 않습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 1. 주요 제품 등의 현황",
+        "evidence_text": "라이선스 계약에 따른 초기 기술료(Upfront), 개별 단계별마일스톤(Milestone)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 (원문 테이블)",
+        "evidence_text": "합      계 | 7 | 1,633 | 10,294"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 1. 주요 제품 등의 현황",
+        "evidence_text": "파트너사와의 공동연구 또는 기술이전을 사업화 모델로 하고 있어"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5685,
+    "completion_tokens": 4581,
+    "reasoning_tokens": 3776,
+    "output_tokens": 805
+  },
+  "warnings": []
+}

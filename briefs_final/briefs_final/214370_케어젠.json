@@ -1,0 +1,71 @@
+{
+  "stock_code": "214370",
+  "corp_name": "케어젠",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:27",
+  "meta": {
+    "wics": "건강관리업체및서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "케어젠은 펩타이드(Biomimetic Peptide)와 성장인자 단백질(Growth Factor) 연구개발을 바탕으로 의약품, 건강기능식품, 의료기기, 화장품을 개발·판매하는 기업입니다. 전 세계 130개국에 제품을 판매하고 있으며, 국내외 특허 등록이 완료된 860여건을 포함한 대규모 펩타이드 라이브러리를 구축하고 있습니다.",
+    "business_model": "회사의 핵심은 펩타이드와 성장인자 원료를 바탕으로 전문테라피(필러, 메조)와 기능성화장품, 건강기능식품을 개발·판매하는 구조입니다. 특히 혈당 조절 기능성 원료와 근육 건강 관련 제품을 포함한 건강기능식품, 그리고 코스메슈티컬(Cosmeceutical, 기능성 화장품)과 원료물질 공급까지 함께 전개하고 있습니다. 다만 제공된 데이터에는 사업부문별 매출 비율(%)이 없어 수치화할 수는 없습니다.",
+    "main_customers": "전문테라피 — 해외 수출 고객, 시술 관련 제품을 찾는 소비자 / 코스메슈티컬 — 기능성 화장품 수요 소비자 / 건강기능식품 — 혈당 관리·근육 건강·체중 관리 수요자 / 원료물질 — 성장인자·펩타이드 원료를 필요로 하는 기업",
+    "price_factors": [
+      {
+        "factor": "해외수출",
+        "detail": "전 세계 130개국 판매와 글로벌 독점공급계약 확대가 매출에 직접 영향을 줍니다."
+      },
+      {
+        "factor": "전시회확대",
+        "detail": "해외 전시회를 통한 제품 노출이 신규 계약과 판매 확대에 연결될 수 있습니다."
+      },
+      {
+        "factor": "임상결과",
+        "detail": "인체적용시험과 FDA(미국 식품의약국) 승인 같은 검증 결과가 제품 신뢰도와 판매에 중요합니다."
+      },
+      {
+        "factor": "원가경쟁력",
+        "detail": "펩타이드 대량 생산체제와 공정개선은 원가 경쟁력에 영향을 줍니다."
+      },
+      {
+        "factor": "규제인허가",
+        "detail": "건강기능식품과 의료기기, 신약 파이프라인은 각국 인허가 진행에 따라 사업 확장 속도가 달라집니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "펩타이드(Biomimetic Peptide)와 성장인자 단백질(Growth Factor)에 대한 연구 개발을 기반으로"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "전 세계 130개국에 판매하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "의약품, 건강기능식품, 의료기기, 화장품 제품을 개발하여 판매하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "■ 주요 사업부문 (비율 불명확)"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4949,
+    "completion_tokens": 822,
+    "reasoning_tokens": 0,
+    "output_tokens": 822
+  },
+  "warnings": []
+}

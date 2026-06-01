@@ -1,0 +1,62 @@
+{
+  "stock_code": "047050",
+  "corp_name": "포스코인터내셔널",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 02:19",
+  "meta": {
+    "wics": "무역회사와판매업체",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "포스코인터내셔널은 트레이딩과 에너지 사업을 중심으로 다양한 글로벌 네트워크를 운영하는 종합무역·에너지회사입니다. 국내 4개사, 해외 40개사 등 총 44개사의 종속회사를 보유하고 해외 주요 지역에 법인·지사 등 130여 개 네트워크를 유지하고 있습니다.",
+    "business_model": "핵심 사업은 트레이딩사업과 에너지사업으로 구성되며, FY2025 기준 트레이딩사업이 90.6%, 에너지사업이 9.4%의 영업수익 비중을 차지합니다. 트레이딩사업은 철강·철강원료, 전기/하이브리드차 부품, 이차전지 소재, 구동모터코아, 팜오일·식량 등 다양한 품목의 글로벌 거래 및 생산·판매를 포함하고, 에너지사업은 E&P(탐사·개발), LNG(액화천연가스) 조달·트레이딩·발전 등 밸류체인 전반을 운영합니다.",
+    "main_customers": "트레이딩 — 전 세계 네트워크를 통한 삼국간·수출·내수 거래 상대 / 에너지 — E&P·LNG·발전 관련 프로젝트 및 그룹 수요처",
+    "price_factors": [
+      {
+        "factor": "공급망·보호무역",
+        "detail": "주요국의 보호무역주의 심화와 공급망 재편은 무역 흐름과 거래비용에 직접적인 영향을 미쳐 트레이딩 실적 변동성을 키울 수 있습니다."
+      },
+      {
+        "factor": "원자재·에너지",
+        "detail": "에너지·원자재 시장의 변동성은 원가와 판매가격에 영향을 주어 마진과 현금흐름에 직결됩니다."
+      },
+      {
+        "factor": "지정학 리스크",
+        "detail": "국제 분쟁 및 지정학적 불확실성 확대는 수출·트레이딩 경로와 에너지 사업의 운영 리스크를 증가시킬 수 있습니다."
+      },
+      {
+        "factor": "LNG 밸류체인",
+        "detail": "LNG의 탐사·조달·발전 등 밸류체인 보유는 가격·조달 경쟁력 변화에 따른 시너지와 리스크를 동시에 반영합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "국내 4개사, 해외 40개사 총 44개사의 종속회사"
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "트레이딩사업 (90.6%) - 에너지사업 (9.4%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "매출형태별 비중은 삼국간 57.7%, 수출 25.5%, 내수 16.8%"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4413,
+    "completion_tokens": 4666,
+    "reasoning_tokens": 3904,
+    "output_tokens": 762
+  },
+  "warnings": []
+}

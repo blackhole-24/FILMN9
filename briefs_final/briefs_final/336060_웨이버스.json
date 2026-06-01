@@ -1,0 +1,67 @@
+{
+  "stock_code": "336060",
+  "corp_name": "웨이버스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 16:47",
+  "meta": {
+    "wics": "IT서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "웨이버스는 2004년 설립된 공간정보 통합 솔루션 기업으로, 공간정보 플랫폼·SI·SM·GIS·인프라 구축 사업을 영위합니다. 한국토지정보시스템(KLIS) 구축 이후 공공부문에 집중해 왔고, 2023년 네이버시스템즈 GIS사업부문을 양수하여 공간정보 원천데이터 생산 역량을 확대했습니다. 2025년 연결기준 매출은 702억원, 영업이익은 20억원으로 비교적 안정적인 재무구조를 유지하고 있습니다.",
+    "business_model": "주요 사업은 공간정보 SM(서비스관리), 공간정보 플랫폼, GIS(지리정보시스템) 등으로 구성되며, FY2025 기준 공간정보 SM 25.0%, 공간정보 플랫폼 21.0%, GIS 16.2%, 기타 0.6%의 매출 비중을 보입니다. 클라우드 네이티브 기반 플랫폼 GeOnPaaS와 3D 디지털트윈 엔진 GeOnDT, AI 분석 솔루션 GeOnAI 등을 통해 공공기관 및 민간의 행정·도시관리·디지털트윈 수요를 공략하고 있습니다.",
+    "main_customers": "공간정보 SM/공간정보 플랫폼/GIS — 중앙정부·지방자치단체·공공기관 / 기타 — 민간부문",
+    "price_factors": [
+      {
+        "factor": "공공 수요 의존도",
+        "detail": "중앙부처·지자체 발주 비중이 높아 정부 예산과 대형 공공사업 일정에 실적이 민감하게 반응합니다."
+      },
+      {
+        "factor": "법률 규제",
+        "detail": "소프트웨어 진흥법상의 대기업 참여 제한은 공공사업 경쟁에서 중소기업인 웨이버스에 유리하게 작용할 수 있습니다."
+      },
+      {
+        "factor": "중소기업 우대정책",
+        "detail": "중소기업 제품 구매 촉진 규정은 측량 등 일부 사업에서 경쟁구도를 중소기업 중심으로 바꿔 수주에 영향을 미칩니다."
+      },
+      {
+        "factor": "AI 의무화 추세",
+        "detail": "국가정책상 AI 적용이 필수 요건으로 확대되면서 AI 기반 솔루션(GeOnAI) 도입이 실적 성장의 중요한 변수로 작용합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 2004년 설립된 이후 공간정보 통합 솔루션 기업으로"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "공간정보 SM: 15,509,497 (25.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "중앙정부, 지방자치단체, 공공기관으로부터"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "다. 규제 및 환경",
+        "evidence_text": "AI 기술의 적용은 단순 권장을 넘어 필수적인 사업 요건"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5039,
+    "completion_tokens": 3803,
+    "reasoning_tokens": 3008,
+    "output_tokens": 795
+  },
+  "warnings": []
+}

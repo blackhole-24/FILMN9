@@ -1,0 +1,74 @@
+{
+  "stock_code": "036580",
+  "corp_name": "팜스코",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 00:39",
+  "meta": {
+    "wics": "식품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "팜스코는 사료와 식품을 주력으로 하는 기업으로, 국내와 인도네시아에 사료공장과 옥수수 건조장 등을 운영하고 있습니다. 사료 제조부터 축산 계열화(사육·방역·사양관리), 신선식품(하이포크) 및 육가공까지 연결된 사업구조를 갖추고 있습니다.",
+    "business_model": "핵심 사업부문은 사료부문(일반사료·특수사료 제조), 계열화부문(축산 농가 대상 사양관리 및 지원), 식품부문(선발 규격돈의 '하이포크' 생산·육가공) 및 기타(태양광발전, 가축분뇨처리 등)로 구성되어 있습니다. 사료부문은 국내 다수 공장과 인도네시아 법인을 통해 양계·양돈·낙농 등 분야에 사료를 공급하고, 계열화와 식품 부문은 사료에서 생산·판매로 이어지는 수직적 연계를 기반으로 운영됩니다.",
+    "main_customers": "사료부문 — 양돈·양계·낙농·비육용 축산 농가 / 계열화부문 — 축산 농가(사육두수 증대·질병예방·사양관리 대상) / 식품부문 — 일반 소비자(하이포크 등 신선식품) 및 식품 수요처",
+    "price_factors": [
+      {
+        "factor": "곡물 시세",
+        "detail": "옥수수·대두 등 곡물 가격 변동은 사료 원가에 직접 영향을 주어 실적에 민감하게 작용합니다."
+      },
+      {
+        "factor": "위생·질병",
+        "detail": "축산·신선식품 사업은 위생관리와 질병 발생 여부에 따라 생산 차질과 공급 감소가 발생할 수 있습니다."
+      },
+      {
+        "factor": "사료 품질",
+        "detail": "배합사료의 품질이 낮게 인식되면 고객(농가)이 업체를 교체할 유인이 커져 매출에 부정적 영향을 미칩니다."
+      },
+      {
+        "factor": "수직계열화",
+        "detail": "사료 공급부터 사육·가공까지의 연계성은 원가·품질 관리에 도움되지만, 전반적 축산업 환경에 따른 리스크도 공유합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황 > 사료사업부문",
+        "evidence_text": "국내 4개(안성, 정읍, 칠곡, 제주)의 사료공장과 인도네시아 1개 사료공장"
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황 > 사료사업부문",
+        "evidence_text": "애완견용 등 특수사료까지 제조 및 판매하고 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황 > 계열화사업부문",
+        "evidence_text": "축산 농가들로부터 안정적인 수요를 창출하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "업계의 현황",
+        "evidence_text": "사료는 옥수수, 대두 등 곡물로 제조되기 때문에 곡물의 시세가 중요합니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "업계의 현황",
+        "evidence_text": "배합사료는 축산물의 건강 상태에 직접적인 영향을 주기 때문에"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4054,
+    "completion_tokens": 3191,
+    "reasoning_tokens": 2304,
+    "output_tokens": 887
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

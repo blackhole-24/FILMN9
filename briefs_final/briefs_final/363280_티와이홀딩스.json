@@ -1,0 +1,77 @@
+{
+  "stock_code": "363280",
+  "corp_name": "티와이홀딩스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 17:48",
+  "meta": {
+    "wics": "호텔,레스토랑,레저",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "티와이홀딩스는 2020년 9월 분할신설되어 한국거래소 유가증권시장에 상장된 순수지주회사로, 별도로 사업활동을 하지 않고 자회사 주식을 소유하는 것을 주목적으로 합니다. 자회사는 방송, 레저, 물류 및 기타 사업을 영위하며 지주회사는 자회사 지분을 통해 전체 실적에 영향을 미칩니다.",
+    "business_model": "순수지주회사로서 자회사 주식 보유를 통해 수익을 얻으며, FY2025 기준 사업부문별 영업수익 구성은 방송사업 33.0%, 레저 49.0%, 물류 13.0%, 기타 6.0%입니다. 다만 일부 주요 계열사(예: (주)SBS, (주)태영건설 등)는 회계처리기준상 연결에서 제외되어 연결매출에 반영되지 않습니다.",
+    "main_customers": "방송 — 광고주 / 레저 — 레저 서비스 이용 고객 / 물류 — 물류 서비스 이용 고객 / 기타 — 기타 사업 관련 고객",
+    "price_factors": [
+      {
+        "factor": "방송 규제",
+        "detail": "방송법상의 편성·광고·소유 규제는 방송부문 실적(광고수입)에 직접적인 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "광고시장",
+        "detail": "지상파 방송의 주수입원인 광고수입 변동은 방송부문 실적에 민감하게 반영됩니다."
+      },
+      {
+        "factor": "레저 의존도",
+        "detail": "레저 부문 매출 비중이 49.0%로 높아 레저 수요 변동이 전체 실적에 중요한 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "연결 범위",
+        "detail": "일부 주요 회사가 연결재무제표에서 제외되면 보고된 연결매출과 실제 영업 영향 간 차이가 발생할 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "티와이홀딩스는 순수지주회사로서 별도로 사업활동은 하지않고"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "방송사업: 4,469,973 (33.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "레저: 8,839,216 (49.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "물류: 2,874,749 (13.0%)"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "(1) 방송사업부문 1) 관련법령 또는 정부 규제사항",
+        "evidence_text": "방송사업부문은 방송법에 근거하여 설립되었으며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "(1) 방송사업부문 2) 사업 세부 내역",
+        "evidence_text": "광고수입이 주수입원입니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4436,
+    "completion_tokens": 5106,
+    "reasoning_tokens": 4288,
+    "output_tokens": 818
+  },
+  "warnings": []
+}

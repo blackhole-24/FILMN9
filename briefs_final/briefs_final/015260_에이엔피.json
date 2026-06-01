@@ -1,0 +1,62 @@
+{
+  "stock_code": "015260",
+  "corp_name": "에이엔피",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 21:39",
+  "meta": {
+    "wics": "전자장비와기기",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "에이엔피는 전기·전자 분야에서 인쇄회로기판(PCB)과 자동차 구성품을 주로 생산하는 기업입니다. 전장용 PCB 수주 증가로 매출은 1,175억원을 기록했으며, 연결대상 종속기업 2개사를 보유하고 자산은 992억원 수준입니다.",
+    "business_model": "사업부문별로 인쇄회로기판(PCB)이 매출의 78.9%로 핵심 수익원이며, 자동차 구성품(시트 커버) 15.2%, EMS(전자부품조립) 3.7%, 기타 2.2%로 구성됩니다. PCB는 통신장비·자동차전장·컴퓨터용으로 100% 주문생산 방식이며, 고밀도 다층 PCB 등 기술개발과 대형 고객사 대응이 수익성과 직결됩니다.",
+    "main_customers": "인쇄회로기판(PCB) — 현대모비스·현대케피코 등 대형 자동차부품사 / 자동차 구성품 — 완성차·부품사(시트 관련) / EMS — 자동차전장 등 전자부품 조립을 의뢰하는 기업",
+    "price_factors": [
+      {
+        "factor": "고객집중도",
+        "detail": "주요판매처(현대모비스·현대케피코 등)에 매출이 집중되어 있어 해당 고객사의 수주 변동이 실적에 큰 영향을 미칩니다."
+      },
+      {
+        "factor": "자동차 수요",
+        "detail": "전장용 PCB·시트 등 자동차 관련 제품 비중이 높아 완성차 생산 및 수요 변화가 실적에 직접 연동됩니다."
+      },
+      {
+        "factor": "기술·자본집약성",
+        "detail": "고밀도 초박판 PCB 등 기술 개발과 설비투자가 실적 성장의 핵심요인으로 작용합니다."
+      },
+      {
+        "factor": "환경규제",
+        "detail": "대기·물·폐기물 관련 환경규제 준수를 위한 설비·관리비 발생이 비용 구조에 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "작성기준일 현재 연결대상 종속기업은 2개사 입니다.",
+        "evidence_text": "연결대상 종속기업은 2개사 입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. 주요 제품의 현황",
+        "evidence_text": "인쇄회로기판(PCB) 92,751(78.9%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "나. 국내외 시장여건 1) 인쇄회로기판",
+        "evidence_text": "주요판매처로는 현대모비스(주), (주)현대케피코 등"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4726,
+    "completion_tokens": 3255,
+    "reasoning_tokens": 2560,
+    "output_tokens": 695
+  },
+  "warnings": []
+}

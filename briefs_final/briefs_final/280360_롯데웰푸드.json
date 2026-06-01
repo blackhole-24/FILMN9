@@ -1,0 +1,71 @@
+{
+  "stock_code": "280360",
+  "corp_name": "롯데웰푸드",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 14:53",
+  "meta": {
+    "wics": "식품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "롯데웰푸드는 건과(과자)와 빙과를 중심으로 제품을 생산·판매하는 식품회사로, 자일리톨·빼빼로·가나·몽쉘·꼬깔콘·월드콘 등 메가 브랜드를 보유하고 있습니다. 2025년 매출액은 3,282,857(백만원)이며, 내수 중심(내수 3,043,216 / 수출 239,641)으로 사업을 영위하고 있습니다.",
+    "business_model": "매출의 85.6%는 제품 매출로 구성되었고(제품 2,809,514(백만원), 85.6%), 품목별 비중은 껌·캔디 5.2%, 비스킷·초콜릿 20.2%, 빙과 23.9%, 유지식품 21.9%, 육가공 14.4%입니다. 나머지 14.4%는 상품·기타 매출로 구성되며(473,343(백만원), 14.4%), 주요 판매 채널은 할인점·SSM·CVS 등 오프라인 유통을 기반으로 합니다.",
+    "main_customers": "건과·비스킷·초콜릿 — 할인점·SSM·CVS 등 최종 소비자 / 빙과 — 할인점·CVS 등 최종 소비자(계절 수요 영향) / 유지식품·육가공 — 주요 대형 거래처 중심",
+    "price_factors": [
+      {
+        "factor": "원재료비",
+        "detail": "코코아 등 원재료 가격 상승 시 비용 부담이 커져 영업이익을 압박합니다."
+      },
+      {
+        "factor": "환율",
+        "detail": "원화 약세(달러 강세) 및 국제 원자재 수급 변동은 수입 원가를 높여 실적에 부정적 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "내수소비",
+        "detail": "국내 소비심리 위축과 인구 감소는 내수 매출 둔화로 이어질 가능성이 있습니다."
+      },
+      {
+        "factor": "유통구조",
+        "detail": "대형 유통업체의 구매자 교섭력 확대와 PB(자체브랜드) 확대로 가격·마진 경쟁이 심화될 수 있습니다."
+      },
+      {
+        "factor": "빙과계절성",
+        "detail": "빙과 수요는 하절기 기온·강우 등 기후 요인에 따라 실적 변동성이 커집니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황 > 지배회사 (매출 실적)",
+        "evidence_text": "2025년 1~12월 당사의 매출액은 3,282,857(백만원)입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "제품이 2,809,514(백만원)으로 85.6%"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황 > 지배회사 (대표제품)",
+        "evidence_text": "할인점, SSM, CVS 등의 채널을 통해 제공하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "원재료 가격 상승으로 인해 비용 부담이 커지는 상황"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5299,
+    "completion_tokens": 4368,
+    "reasoning_tokens": 3520,
+    "output_tokens": 848
+  },
+  "warnings": []
+}

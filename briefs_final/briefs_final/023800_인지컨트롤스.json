@@ -1,0 +1,67 @@
+{
+  "stock_code": "023800",
+  "corp_name": "인지컨트롤스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 22:46",
+  "meta": {
+    "wics": "자동차부품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "인지컨트롤스는 자동차 부품 제조 전문 업체로, TMS(엔진 온도관리 시스템), EMS(센서·스위치), EP(엔지니어링 플라스틱) 등 다양한 제품군을 보유하고 있습니다. 최근 전기차용 배터리 모듈 및 통합 열관리모듈 등 친환경차 부품 판매를 확대하고 있으며, 헝가리 법인과 인도 푸네 신공장 등 글로벌 생산거점을 통해 해외 시장 공략을 추진하고 있습니다.",
+    "business_model": "주요 수익원은 자동차용 센서·스위치, 밸브류, 플라스틱 경량화 부품 등 제조·판매이며, 완성차 공급(OEM)과 운행 중 A/S(정비)용 부품 공급을 중심으로 매출을 창출합니다. FY2025 기준 제품/상품 13.1%, SENSOR류 9.7%, SWITCH류 1.7%, VALVE류 32.0%, SOLENOID류 3.0%, PLASTIC류 24.3%, 기타 16.1%로 구성되어 있습니다.",
+    "main_customers": "TMS(열관리부품) — 완성차 제조사(OEM) 및 정비·A/S 업체 / EMS(센서·스위치) — 완성차 제조사(OEM) 및 정비·A/S 업체 / EP(플라스틱 경량화) — 완성차 제조사(OEM) 및 부품조달처 / 친환경부품(배터리 모듈·열관리) — 완성차 제조사(OEM) 및 전기차 관련 제조사",
+    "price_factors": [
+      {
+        "factor": "전동화전환",
+        "detail": "전기차 전환으로 적용 부품 수가 내연기관 대비 약 40% 이상 감소해 일부 품목 수요 축소 가능성이 있습니다."
+      },
+      {
+        "factor": "원자재·환율",
+        "detail": "환율·원자재 변동성은 원가와 수익성에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "글로벌수요",
+        "detail": "신흥국(중국·인도 등) 수요 확대가 전반적 매출 성장 동력으로 작용합니다."
+      },
+      {
+        "factor": "무역정책",
+        "detail": "미국의 관세 정책·보호무역 기조 등은 수출과 공급망 운영에 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 가. 사업부문",
+        "evidence_text": "당사는 자동차 부품 제조 전문 업체로서 사업부문을 구분하여 운영하고 있지 않습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "VALVE류: 143,355 (32.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "PLASTIC류: 108,878 (24.3%)"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "2025년 당사의 매출도 10.6%대의 성장세(7,179억원)로 마감하였으며,"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4590,
+    "completion_tokens": 3641,
+    "reasoning_tokens": 2816,
+    "output_tokens": 825
+  },
+  "warnings": []
+}

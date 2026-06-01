@@ -1,0 +1,71 @@
+{
+  "stock_code": "323410",
+  "corp_name": "카카오뱅크",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:36",
+  "meta": {
+    "wics": "은행",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "카카오뱅크는 2017년 4월 은행업 본인가를 취득하고 같은 해 7월부터 모바일 앱 기반으로 영업을 시작한 인터넷전문은행입니다. 오프라인 점포 없이 비대면 채널만으로 운영되는 디지털 은행으로, 사용자경험(UX)과 고객 효용 중심의 서비스를 앞세워 성장해왔습니다.",
+    "business_model": "카카오뱅크의 영업은 뱅킹 비즈니스 부문과 플랫폼 비즈니스 부문으로 구분됩니다. 뱅킹 비즈니스는 기본적인 여수신 상품을 포함한 은행업 서비스이고, 플랫폼 비즈니스는 모바일 앱 기반으로 금융과 비금융 제휴 서비스를 함께 제공하는 구조입니다. 제공된 사업부문별 영업수익 구성에서는 특별자금대출이 93.5%, 금액이 13.0%로 제시되어 있습니다.",
+    "main_customers": "뱅킹 비즈니스 — 모바일 기반 예금·대출을 이용하는 일반 고객 / 플랫폼 비즈니스 — 금융 및 생활 제휴 서비스를 이용하는 앱 사용자 / 특별자금대출 — 정책성 자금이 필요한 대출 이용 고객",
+    "price_factors": [
+      {
+        "factor": "금리",
+        "detail": "미연준 기준금리와 국내 금리 수준 변화는 조달·대출 수익 구조에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "경기",
+        "detail": "경기침체 우려와 가계소비 위축은 대출 수요와 자산 건전성에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "비대면",
+        "detail": "비대면 트렌드가 일상화될수록 모바일 중심 고객 유입과 외형 성장에 유리하게 작용할 수 있습니다."
+      },
+      {
+        "factor": "조달",
+        "detail": "차별적인 수신상품 기반의 조달 경쟁력은 안정적인 성장과 수익원 다각화에 중요한 요소입니다."
+      },
+      {
+        "factor": "건전성",
+        "detail": "여신 모니터링과 건전성 관리 수준에 따라 대손 부담과 실적 변동성이 달라질 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "2017년 4월 「은행법」에 근거하여 은행업 본인가를 취득"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당해 7월부터 모바일 앱 기반의 사업을 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사의 영업은 크게 뱅킹 비즈니스 부문과 플랫폼 비즈니스 부문으로 구분"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "특별자금대출: 438,524 (93.5%)"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3572,
+    "completion_tokens": 763,
+    "reasoning_tokens": 0,
+    "output_tokens": 763
+  },
+  "warnings": []
+}

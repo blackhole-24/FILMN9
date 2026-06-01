@@ -1,0 +1,71 @@
+{
+  "stock_code": "347890",
+  "corp_name": "엠엑스온",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:37",
+  "meta": {
+    "wics": "전자장비와기기",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "엠엑스온은 AI 자율제조 시대를 겨냥해 디지털 전환(DX, 디지털 전환) 전문 역량을 내세우는 기업입니다. 스마트 제조 환경 구축에 필요한 HMI(인간-기계 인터페이스), SCADA(감시·제어 시스템), 산업용 DEVICE, 스마트팩토리 솔루션을 중심으로 사업을 전개하고 있습니다. 최근에는 글로벌 로봇 전문기업과의 파트너십과 물류 무인화·로봇 기반 자동화 분야의 M&A(인수합병)를 통해 사업 영역을 넓히고 있습니다.",
+    "business_model": "사업부문별 영업수익 구성은 제품 96.7%, 용역 3.3%로, 제품 판매가 사실상 핵심 수익원입니다. 회사는 SCADA와 HMI 솔루션을 중심으로 제조 현장의 설비(OT, 운영기술)와 상위 시스템(IT, 정보기술)을 연결하는 통합 제어를 제공하며, AI·데이터 기반 스마트팩토리 솔루션도 함께 공급합니다. 또한 고객 맞춤형 설계 역량을 바탕으로 다양한 산업군에 적용되는 자동화·지능화 솔루션을 제공하고 있습니다.",
+    "main_customers": "제품 — 제조 현장의 설비 운영과 공정 자동화를 필요로 하는 산업 고객 / 용역 — 스마트팩토리 솔루션 구축 및 통합 제어를 원하는 고객사",
+    "price_factors": [
+      {
+        "factor": "스마트공장",
+        "detail": "국내외 스마트팩토리 도입이 늘수록 HMI·SCADA·솔루션 수요가 확대되어 실적에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "제조투자",
+        "detail": "제조업체의 설비 투자와 공정 자동화 수요가 커질수록 주요 제품과 솔루션 판매 기회가 늘어날 수 있습니다."
+      },
+      {
+        "factor": "정부지원",
+        "detail": "제조업 경쟁력 확보를 위한 정부 차원의 지원 정책 확대는 스마트팩토리 도입 속도에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "경기흐름",
+        "detail": "주력 제품이 다양한 산업에 쓰이므로 전방산업 경기 흐름이 둔화되면 수요에도 일부 영향을 받을 수 있습니다."
+      },
+      {
+        "factor": "로봇확장",
+        "detail": "협동로봇·이송로봇 및 물류 무인화 사업 확장은 향후 사업 포트폴리오와 시장 기대에 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 회사의 현황",
+        "evidence_text": "엠투아이는 AI 자율제조 시대를 선도하는 디지털 전환(Digital Transformation, DX) 전문 기업"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "제품: 28,027,301 (96.7%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "용역: 1,197,660 (3.3%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 사업부문별 시장여건 및 영업의 개황 (2) 경기변동의 특성 및 계절적 요인",
+        "evidence_text": "단독 장비부터 대규모 생산 라인에 이르기까지 매우 다양한 산업 분야에 사용"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4181,
+    "completion_tokens": 859,
+    "reasoning_tokens": 0,
+    "output_tokens": 859
+  },
+  "warnings": []
+}

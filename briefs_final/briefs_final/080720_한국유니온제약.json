@@ -1,0 +1,81 @@
+{
+  "stock_code": "080720",
+  "corp_name": "한국유니온제약",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:12",
+  "meta": {
+    "wics": "제약",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "한국유니온제약은 전문의약품을 제조·판매하는 제약회사로, 개량신약과 신규 제형, 복합제 개발을 추진하며 완제의약품 국내 판매와 해외 수출, CMO(수탁생산) 사업을 함께 영위하고 있습니다. 주요 제품은 항생제, 순환기계, 근골격계, 소화기계류이며, 세분화된 GMP(의약품 제조·품질관리 기준) 시설을 기반으로 사업을 운영하고 있습니다.",
+    "business_model": "사업부문별 매출 구성은 제품 50.1%, 상품 35.0%, CMO 13.8%, 기타 1.1%입니다. 제품 부문은 항생제류·순환기계류·근골격계류·소화기계류 중심의 전문의약품 제조 및 판매가 핵심이고, 상품 부문은 타사 제품 유통 성격의 매출로 보입니다. CMO는 타 제약회사의 의약품을 대신 생산하는 수탁생산(Contract Manufacturing Operation) 사업으로, 자체 보유 제제기술과 생산설비를 활용하는 구조입니다.",
+    "main_customers": "제품 — 전문의약품 처방 환자 대상 시장 / 상품 — 유통·판매용 의약품 수요처 / CMO — 타 제약회사 / 해외 수출 — 중동·동남아시아·중남미 등 해외 시장 / 기타 — 품목허가양도 관련 거래 상대",
+    "price_factors": [
+      {
+        "factor": "수요변동",
+        "detail": "의약품은 경기변동에 덜 민감하지만, 질환 유행이나 계절적 영향으로 특정 품목 매출은 흔들릴 수 있습니다."
+      },
+      {
+        "factor": "약가규제",
+        "detail": "정부의 약가 규제가 강화되면 건강보험 재정 안정화 과정에서 매출과 수익성에 부담이 될 수 있습니다."
+      },
+      {
+        "factor": "CMO확대",
+        "detail": "CMO는 초기 설비투자 부담이 상대적으로 낮고 수요 변동에 유연해, 수탁 물량 확대가 실적에 영향을 줍니다."
+      },
+      {
+        "factor": "고령화",
+        "detail": "고령인구 증가로 만성질환 및 퇴행성 질환 치료제 수요가 늘어날 수 있어 관련 제품군의 판매에 영향을 줍니다."
+      },
+      {
+        "factor": "수출시장",
+        "detail": "중동·동남아시아·중남미 등 해외 수출 확대 여부가 전체 매출 증대에 직접적으로 연결됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 1. 회사의 개요",
+        "evidence_text": "당사는 전문의약품을 제조 및 판매하는 전문의약품 업체로서"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "완제의약품의 국내 판매 및 해외 수출, 타 제약회사에 대한 수탁생산(CMO)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "제품 소계 18,229,828"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "상품 소계 12,710,339"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "CMO 2013년03월 5,028,106"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "타 제약회사들에게 다양한 약품을 수탁 생산"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5979,
+    "completion_tokens": 944,
+    "reasoning_tokens": 0,
+    "output_tokens": 944
+  },
+  "warnings": []
+}

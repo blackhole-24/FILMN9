@@ -1,0 +1,71 @@
+{
+  "stock_code": "019180",
+  "corp_name": "티에이치엔",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 12:25",
+  "meta": {
+    "wics": "자동차부품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "티에이치엔은 1986년 7월 23일 대구 노원공단에 동해전장(주)로 설립되어 WIRE HARNESS(배선다발)를 주제품으로 하는 자동차부품 전문업체입니다. 주요 고객은 현대기아자동차그룹의 자동차 관련 계열사로 단일 사업부문을 중심으로 영업을 하고 있습니다.",
+    "business_model": "사업부문별 매출은 자동차부품(제품: WIRE HARNESS)이 99.3%, 용역이 0.7%로 대부분의 수익이 WIRE HARNESS 판매에서 발생합니다. 주요 수익은 완성차업체(현대·기아 계열)로의 부품 납품이며, 생산 효율 확보를 위해 중국·동남아 현지법인을 운영하는 등 노동집약적 생산구조를 병행하고 있습니다.",
+    "main_customers": "자동차부품 — 현대기아자동차그룹의 자동차 관련 계열사(주요 고객: 현대자동차) / 용역 — 보고서에 별도 기재 없음",
+    "price_factors": [
+      {
+        "factor": "완성차 수요",
+        "detail": "자동차에 대한 수요가 경기변동에 매우 탄력적이어서 완성차 판매 감소 시 실적이 빠르게 연동됩니다."
+      },
+      {
+        "factor": "고객 집중",
+        "detail": "매출 대부분이 현대기아계열에 편중되어 있어 해당 고객사의 생산계획 변화에 실적 영향이 큽니다."
+      },
+      {
+        "factor": "원자재 비용",
+        "detail": "주요 원자재(WIRE, HOUSING, TERMINAL, GROMMET) 가격과 조달 불안정이 원가에 직접 영향을 미칩니다."
+      },
+      {
+        "factor": "경쟁요소",
+        "detail": "원가경쟁력·품질신뢰도·마케팅력이 경쟁우위 요인으로, 경쟁 심화 시 수익성에 부담이 될 수 있습니다."
+      },
+      {
+        "factor": "해외생산",
+        "detail": "저렴한 노동력을 활용한 중국·동남아 현지법인 운영은 원가 개선에 도움이 되지만 글로벌 공급망 리스크에 노출됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "2. 회사의 현황",
+        "evidence_text": "동해전장(주)를 설립하여 WIRE HARNESS를 주제품으로"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "982,582(99.3%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "현대기아자동차그룹의 자동차 관련 계열사를 주요 고객으로"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "1. 업계의 현황",
+        "evidence_text": "자동차에 대한 수요는 한 나라의 경기변동에 매우 탄력적으로 반응합니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4319,
+    "completion_tokens": 4596,
+    "reasoning_tokens": 3840,
+    "output_tokens": 756
+  },
+  "warnings": []
+}

@@ -1,0 +1,69 @@
+{
+  "stock_code": "146060",
+  "corp_name": "율촌",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 10:21",
+  "meta": {
+    "wics": "자동차부품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "율촌은 ERW강관의 조관(파이프 제조) 및 정밀 인발가공(냉간 인발) 사업을 영위하는 철강 기반의 자동차부품 소재 업체로, 완충용장치·현가장치·조향장치 등 자동차용 인발강관을 주력으로 생산합니다. 수출 주도형 기업으로 미국·멕시코 등 전 세계 다수 국가에 제품을 납품하며 멕시코·폴란드 현지법인을 보유하고 있습니다.",
+    "business_model": "핵심 사업은 조관(Pipe Making)과 인발(Cold Drawing)을 통한 인발강관 제조로, 주로 자동차 부품(부싱류, 실린더류, 조향장치) 소재를 공급하고 광산채굴용·중장비·산업기계·가구·보일러·오토바이용 파이프류도 생산합니다. 수출 중심의 생산·공급 구조(북미·유럽 현지공장 운영)를 바탕으로 완성차업체의 1·2차 벤더를 통해 최종 OEM(완성차) 고객에 납품하는 것이 사업 모델의 핵심입니다.",
+    "main_customers": "자동차 부품 — 완성차 업체 및 1·2차 벤더(토요타·혼다·닛산·GM·포드·테슬라·현대차 등) / 광산·중장비 등 산업용 부문 — 광산채굴업체·중장비 제조사 / 기타 소비재 부문 — 가구·보일러·오토바이 제조사",
+    "price_factors": [
+      {
+        "factor": "환경규제",
+        "detail": "환경규제 강화는 폐기물 처리·환경관리비용 증가로 원가에 직접적 영향을 미칩니다."
+      },
+      {
+        "factor": "완성차 수요",
+        "detail": "완성차 생산·판매 변동은 1·2차 벤더를 통한 수요로 연결되어 실적에 직접적 영향을 줍니다."
+      },
+      {
+        "factor": "해외현지화",
+        "detail": "멕시코·폴란드 등 현지 생산기지 운영은 수출입 규제 리스크를 낮추지만 현지 규제·운영비용 영향을 받습니다."
+      },
+      {
+        "factor": "환경기술 경쟁",
+        "detail": "환경기술 확보 여부는 폐기물·환경비용과 직결되어 향후 원가 경쟁력에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 철강 제품 중 ERW강관의 조관 및 정밀 인발가공 사업을 영위하고 있으며,"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 해외 기업에 대한 매출이 전체에서 차지하는 비중이 높은 수출 주도형 기업으로,"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "토요타, 혼다, 닛산, GM, 포드, 테슬라, 현대차 등 여러 완성차 업체에 납품하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황 > 법률/규정 등에 의한 규제사항",
+        "evidence_text": "환경규제가 점점 더 강화되는 추세에 따라"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 5465,
+    "completion_tokens": 4205,
+    "reasoning_tokens": 3328,
+    "output_tokens": 877
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

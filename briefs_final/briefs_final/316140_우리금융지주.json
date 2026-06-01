@@ -1,0 +1,67 @@
+{
+  "stock_code": "316140",
+  "corp_name": "우리금융지주",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 13:37",
+  "meta": {
+    "wics": "은행",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "우리금융지주는 2019년 1월 11일 설립된 후 은행을 중심으로 증권·보험·카드 등 비은행 계열사를 편입하며 종합금융그룹을 완성한 대형 금융지주회사입니다. 2025년 동양생명보험·ABL생명보험 편입으로 은행·증권·보험을 아우르는 그룹 구조를 갖추었습니다.",
+    "business_model": "FY2025 기준 영업수익은 대출(대출이자 수익)이 91.1%로 대부분을 차지하고, 지분(주식·지분 관련 손익)이 6.6%, 현금성자산 및 미수이자가 2.3%를 차지하여 대출 중심의 이자수익 구조가 핵심 수익원입니다. 은행·증권·보험 등 계열사를 통한 수수료 및 비이자이익도 보완적인 수익원으로 작용합니다.",
+    "main_customers": "대출 — 개인·기업 대출 고객 / 지분 — 투자대상 기업 및 금융투자 거래상대 / 현금성자산 및 미수이자 — 단기 자금 운용처(금융시장 참가자)",
+    "price_factors": [
+      {
+        "factor": "건전성 리스크",
+        "detail": "NPL(부실채권) 비율과 대손비용 증가 여부는 대출 중심 수익성 및 손익에 직접적 영향을 미칩니다."
+      },
+      {
+        "factor": "금리·NIM",
+        "detail": "순이자마진(NIM, 순이자마진)은 대출 수익성의 핵심 지표로 금리 변동에 따라 실적이 좌우될 수 있습니다."
+      },
+      {
+        "factor": "비은행 포트폴리오",
+        "detail": "보험·증권 등 비은행 자회사 편입은 수익구조 다변화로 연결되나 인수 관련 손익과 통합비용이 단기적 변동요인이 됩니다."
+      },
+      {
+        "factor": "자본력·배당정책",
+        "detail": "보통주자본비율과 총주주환원(배당·자사주 소각)은 재무안정성과 투자자 기대에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "은행·증권·보험 등을 모두 포괄하는 종합금융그룹을 완성했습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "대 출 (91.1%)"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "NPL 비율은 그룹 0.63%, 은행 0.31%"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "보통주자본비율은 12.89%(잠정)"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4302,
+    "completion_tokens": 4800,
+    "reasoning_tokens": 4032,
+    "output_tokens": 768
+  },
+  "warnings": []
+}

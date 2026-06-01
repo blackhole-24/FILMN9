@@ -1,0 +1,71 @@
+{
+  "stock_code": "446070",
+  "corp_name": "유니드비티플러스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 19:44",
+  "meta": {
+    "wics": "건축자재",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "유니드비티플러스는 MDF(중밀도 섬유판)와 이를 소재로 한 마루·LPM 등 2차 가공제품을 생산·판매하는 목질판상재 업체입니다. 국내산 목재를 주원료로 사용하며 인테리어 내장재·가구용 소재를 주요 목표시장으로 삼고 있습니다. 2021년 자체 브랜드 '올고다'를 론칭해 목질 마루를 시작으로 건장재 분야로 사업을 확대하고 있습니다.",
+    "business_model": "FY2025 기준 매출은 '제품'이 88.9%, '기타'가 11.1%로 구성되어 있으며(제품: MDF·마루·LPM 등), 핵심 수익원은 MDF 계열 제품입니다. MDF는 가공성이 우수하고 가격 경쟁력이 있어 가구·인테리어용 내장재와 합판 대체 수요를 통해 매출을 창출합니다.",
+    "main_customers": "제품(주로 MDF·마루) — 인테리어 내장재·가구 제조업체·포장재 수요처 / 기타 — 기타 매출처",
+    "price_factors": [
+      {
+        "factor": "원가(원자재)",
+        "detail": "원/부재료와 전기 등 유틸리티 비용 상승은 MDF 생산원가와 마진에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "전방수요",
+        "detail": "가구·인테리어·건설 경기 변동은 판매가격과 판매량에 민감하게 작용하여 실적 변동성을 높입니다."
+      },
+      {
+        "factor": "수입품 경쟁",
+        "detail": "수입 MDF 및 유사 제품의 공급량·가격 변화는 국내 가격 경쟁력과 수익성에 영향을 줍니다."
+      },
+      {
+        "factor": "친환경 수요",
+        "detail": "친환경 제품 수요 확대는 국내산 MDF의 경쟁력과 제품 선택에 영향을 미쳐 매출 구성에 변화를 줄 수 있습니다."
+      },
+      {
+        "factor": "원목 조달",
+        "detail": "국내 벌목량 감소 및 조달 경쟁 심화는 원재료 수급을 압박하여 생산비용과 공급안정성에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "가구, 인테리어 등에 주로 사용되는 목질판상재인 MDF"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "제품: 140,015,468 (88.9%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "당사의 목표시장은 인테리어 내장재, 각종 가구, 포장재 등"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "영업 현황",
+        "evidence_text": "MDF 가격은 원/부재료 가격, 전기 등 유틸리티 비용과 같은 원가 요인과"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3799,
+    "completion_tokens": 5761,
+    "reasoning_tokens": 4992,
+    "output_tokens": 769
+  },
+  "warnings": []
+}

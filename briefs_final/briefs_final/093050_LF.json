@@ -1,0 +1,96 @@
+{
+  "stock_code": "093050",
+  "corp_name": "LF",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 07:24",
+  "meta": {
+    "wics": "섬유,의류,신발,호화품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "LF는 2006년 LG상사로부터 분할되어 패션부문을 승계한 기업으로, 닥스·마에스트로·헤지스·질스튜어트 등 다수의 브랜드를 보유한 패션 그룹입니다. 국내 본사를 중심으로 중국·유럽 등 해외에 47개의 종속회사를 두고 의류 제조·판매를 영위하고 있습니다. 2025년 연결 매출액은 1조 8,824억 원, 영업이익은 1,681억 원을 기록했습니다.",
+    "business_model": "핵심 사업은 패션사업으로 매출의 72.4%를 차지하며, 금융사업 10.3%, 식품사업 16.7%, 기타사업 0.6%로 구성되어 있습니다. 패션 브랜드 포트폴리오(프리미엄~가성비)를 통한 제품 기획·유통이 주수익원이며, 금융·식품 등 다각화된 사업에서 보완적인 수익을 창출합니다.",
+    "main_customers": "패션사업 — 다양한 연령층의 소비자 및 브랜드별 고객층 / 금융사업 — 부동산금융·자산운용 관련 고객(기업·투자자) / 식품사업 — 식품 소비자 및 유통채널 / 기타사업 — 기타 업종 관련 고객",
+    "price_factors": [
+      {
+        "factor": "소비 양극화",
+        "detail": "프리미엄과 가성비로 수요가 분화되며 중간 가격대 수요 약화 시 패션 매출 구조에 영향이 발생합니다."
+      },
+      {
+        "factor": "트렌드 속도",
+        "detail": "트렌드 주기가 짧아 상품 기획·출시 속도가 늦으면 재고 부담과 판매 부진으로 실적에 압박이 됩니다."
+      },
+      {
+        "factor": "디지털·SNS",
+        "detail": "소셜 미디어와 온라인 채널 영향력 확대는 디지털 마케팅·온라인 유통 강화 여부에 따라 매출 변동성을 키웁니다."
+      },
+      {
+        "factor": "거시환경",
+        "detail": "고금리·고환율·원가 상승은 소비심리와 비용구조에 부정적 영향을 주어 영업실적에 부담을 줄 수 있습니다."
+      },
+      {
+        "factor": "친환경·ESG",
+        "detail": "친환경 제품 및 지속 가능한 패션 수요 확대는 제품 차별화와 브랜드 신뢰도에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "[지배회사]가. 영업개황 및 사업부문의 구분",
+        "evidence_text": "당사는 지난 2006년 11월 1일 LG상사로부터 분할 후 신설된 법인으로서"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "가. 사업의 개요",
+        "evidence_text": "국내 본사를 비롯하여 중국과 유럽 등 해외에 47개의 종속회사로 구성된 글로벌 의류제조 및 판매를 하는 회사입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "패션사업 (72.4%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "금융사업 (10.3%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "식품사업 (16.7%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "기타사업 (0.6%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[경영진 실적·전략 요약 (MD&A)]",
+        "evidence_text": "매출액 1조 8,824억 원, 영업이익 1,681 억원을 달성하였습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "[지배회사]가. 영업개황 및 사업부문의 구분",
+        "evidence_text": "MZ세대 소비층을 타겟으로 한 디지털 마케팅"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "[지배회사]가. 영업개황 및 사업부문의 구분",
+        "evidence_text": "소비 양극화와 고급화 경향이 지속되면서"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5173,
+    "completion_tokens": 5265,
+    "reasoning_tokens": 4160,
+    "output_tokens": 1105
+  },
+  "warnings": []
+}

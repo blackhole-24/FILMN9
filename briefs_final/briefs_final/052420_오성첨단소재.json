@@ -1,0 +1,66 @@
+{
+  "stock_code": "052420",
+  "corp_name": "오성첨단소재",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 02:59",
+  "meta": {
+    "wics": "디스플레이장비및부품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "오성첨단소재는 1991년 설립되어 디스플레이용 광학용 보호·기능성 필름을 중심으로 하는 화학·디스플레이장비 부품 기업입니다. 연간 생산 CAPA는 123,581,700㎡/year 수준이며, 디스플레이용 보호필름을 주력으로 생산하고 5개의 종속회사를 보유하고 있습니다.",
+    "business_model": "주력은 DISPLAY소재(편광판용 보호필름 등)로, 사업부문별 매출에서 편광판용 보호필름이 약 98.05%를 차지하고 나머지는 복합소재(0.56%), 임가공(0.93%), 기타(임대, 0.46%)로 구성됩니다(별도기준). 제품은 Mobil/Note-pc/Monitor/TV용 편광판 보호필름 및 비산방지·공정용 기능성 필름 등으로 국내외 디스플레이 관련 업체에 판매됩니다.",
+    "main_customers": "DISPLAY소재 — 국내외 디스플레이 패널 및 TV·모바일·노트북·모니터용 완제품 제조업체 / 복합소재·임가공 — 전자기기 제조 공정·편광판 임가공 수요처",
+    "price_factors": [
+      {
+        "factor": "중국 경쟁",
+        "detail": "중국의 대규모 투자로 생산능력이 확대되면 가격 경쟁 심화 및 수주 압박이 발생할 수 있습니다."
+      },
+      {
+        "factor": "공급과잉",
+        "detail": "디스플레이 업계의 공격적 투자가 공급과잉과 단가 하락으로 이어지면 실적에 부정적 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "수요 사이클",
+        "detail": "TV 등 주요 수요처의 경기 변동(크리스탈 사이클)에 따라 매출이 주기적으로 변동할 수 있습니다."
+      },
+      {
+        "factor": "기술경쟁력",
+        "detail": "차세대 제품에 대한 R&D 투자와 양산 기술 적용 속도가 경쟁력 및 수주에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "거시환경",
+        "detail": "글로벌 경기 둔화·환율변동 등은 수출 및 원가 구조에 영향을 미쳐 실적 변동성을 키울 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "(1) 오성첨단소재 주식회사",
+        "evidence_text": "당사의 주요사업은 디스플레이 필름 사업으로 광학용 보호/기능성 필름을 생산하고있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[표] 3. 주요 제품 등의 현황",
+        "evidence_text": "147,051,332 | 98.05"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "2025년 연결재무제표 기준 매출 1,657억원, 영업이익 301억원을 달성하였습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5750,
+    "completion_tokens": 3521,
+    "reasoning_tokens": 2752,
+    "output_tokens": 769
+  },
+  "warnings": []
+}

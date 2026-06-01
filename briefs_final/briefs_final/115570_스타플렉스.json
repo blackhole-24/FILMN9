@@ -1,0 +1,66 @@
+{
+  "stock_code": "115570",
+  "corp_name": "스타플렉스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 08:57",
+  "meta": {
+    "wics": "화학",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "스타플렉스는 1995년부터 FLEX 제품을 생산해 온 광고용 유연성 원단(Sign FLEX) 전문 수출기업으로, 전 세계 100여 개국에 고객을 확보하고 있습니다. 연결기준 매출액은 98,655백만원이며 옥외광고용 소재를 주력으로 생산합니다.",
+    "business_model": "핵심 사업은 FLEX 원단의 생산·판매이며, FY2025 기준 매출의 97.9%가 광고용 FLEX 원단에서 발생하고 기타가 2.1%를 차지합니다. 제품은 고객 요구에 맞춰 제작되는 주문형 생산 구조이며, 기술개발과 대량생산 설비를 통해 수출 비중을 확대해 왔습니다.",
+    "main_customers": "FLEX 원단 — 옥외광고업체 및 광고주(백화점·대기업·지자체 등)",
+    "price_factors": [
+      {
+        "factor": "경기 민감성",
+        "detail": "옥외광고 수요가 경기변동에 민감해 경기 후퇴 시 광고 발주 감소로 매출에 직접적 영향을 받을 수 있습니다."
+      },
+      {
+        "factor": "기술경쟁",
+        "detail": "지속적인 기술개발이 경쟁력의 핵심이어서 기술 격차에 따라 시장점유율과 수익성이 변동될 수 있습니다."
+      },
+      {
+        "factor": "환경규제",
+        "detail": "Sign 산업의 친환경 요구가 강화되면 친환경 제품 전환이 지연되는 기업은 비용 증가와 수요 축소 위험이 있습니다."
+      },
+      {
+        "factor": "대체기술",
+        "detail": "LED·디지털프린팅 등 대체광고 기술 확산은 플렉스 소재 수요 구조를 장기적으로 변화시킬 수 있습니다."
+      },
+      {
+        "factor": "환율변동",
+        "detail": "글로벌 영업 비중이 높아 달러·유로화 등 환율 변동이 매출과 이익에 실질적 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "전 세계 100여 개국에 고객을 확보하고 있는 수출기업이며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "매출 비중은 광고용 제품 97.9%, 기타 2.1% 구성되어 있으며,"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "경기변동에 민감하게 반응하는 특징이 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5407,
+    "completion_tokens": 4883,
+    "reasoning_tokens": 4224,
+    "output_tokens": 659
+  },
+  "warnings": []
+}

@@ -1,0 +1,66 @@
+{
+  "stock_code": "084850",
+  "corp_name": "아이티엠반도체",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 06:29",
+  "meta": {
+    "wics": "전자장비와기기",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "아이티엠반도체는 2차전지 기술과 반도체 기술을 바탕으로 IT 관련 기능 융·복합형 제품을 개발·생산·판매하는 기업입니다. 주요 사업으로 2차전지 보호회로와 전자담배, 배터리 Pack·센서 사업을 영위하고 있으며 국내·베트남·인도네시아에 생산공장을 두고 중국 영업사무소와 미국 법인을 운영하고 있습니다.",
+    "business_model": "핵심 수익원은 2차전지 보호회로 사업으로, 당사 매출의 60% 이상을 차지하는 POC(Protection One Chip)와 PMP(Protection Module Package)를 기반으로 소형 IT 기기 시장에 공급하고 있습니다. 전자담배 사업은 KT&G에 디바이스와 카트리지를 공급하고 해외 수출을 개시했으며, 배터리 Pack·센서와 자동차 전장·방산·로봇 시장으로의 확장을 추진하고 있습니다.",
+    "main_customers": "2차전지 보호회로 — 스마트폰·웨어러블 등 소형 IT 기기 제조사 / 배터리팩 제조사 및 글로벌 휴대폰 제조사, 전자담배 — KT&G / 해외 바이어(수출 개시), 배터리 Pack·센서 — 배터리팩 관련 기업 및 전장·방산 분야 고객(확장 대상)",
+    "price_factors": [
+      {
+        "factor": "배터리 수요",
+        "detail": "전기차·ESS·웨어러블 등 2차전지 수요 증가 시 보호회로·PMP 제품의 시장 수혜로 실적에 긍정적 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "환율변동",
+        "detail": "영업거래에 외화 비중이 높아 환율 변동은 외화 관련 이익의 손익 전환으로 실적 변동성을 확대시킵니다."
+      },
+      {
+        "factor": "해외수주",
+        "detail": "해외 고객사 PMP 수주 변동은 총매출에 직접적인 영향을 미치며 수주 감소 시 매출 하방 압력이 발생합니다."
+      },
+      {
+        "factor": "제품경쟁력",
+        "detail": "POC·PMP 등의 기술적 우수성은 경쟁우위 요소이나 글로벌 경쟁사 및 저가 제조업체의 생산 확대는 경쟁 압력으로 작용할 수 있습니다."
+      },
+      {
+        "factor": "자산손상",
+        "detail": "설비 손상차손 등 자산손상 발생 시 일회성 비용으로 순이익에 큰 하방 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "현재 생산 공장은 국내와 베트남, 인도네시아에 위치하고 있으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "그 중 당사 매출의 60% 이상을 차지하는 2차전지 보호회로 사업은"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "KT&G에 궐련형 전자담배 디바이스와 액상 카트리지를 공급하고 있으며"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 5817,
+    "completion_tokens": 5172,
+    "reasoning_tokens": 4352,
+    "output_tokens": 820
+  },
+  "warnings": []
+}

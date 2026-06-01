@@ -1,0 +1,62 @@
+{
+  "stock_code": "128540",
+  "corp_name": "에코캡",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 09:34",
+  "meta": {
+    "wics": "자동차부품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "에코캡은 자동차용 전기·전자장치 부품(자동차용 전선, 와이어링하네스, 벌브 소켓, LED Module)을 주력으로 생산하는 기업입니다. 중국 현지법인(생산·판매·물류)과 미국 판매법인·창고를 보유하고 있으며, 2019년부터 멕시코 현지 제조공장을 가동해 북미 시장으로 제품을 공급하고 있습니다.",
+    "business_model": "주요 제품은 자동차용 전선(Wire&Cable), 와이어링하네스(Wiring Harness), 벌브 소켓(Bulb Socket), LED Module 등이며 OEM(신차용) 및 애프터마켓(After market) 납품을 통해 매출이 발생합니다. 2023년 기준 차량용 전선은 전체 매출의 39%를 차지하고 있으며(FY2025 매출액 13,634, 100.0%), 멕시코 공장에서 와이어링하네스와 LED Module을 생산해 북미로 수출하는 구조가 수익원 중 하나입니다.",
+    "main_customers": "Wire&Cable — 국내외 완성차업체 및 1차 협력업체 / Wiring Harness — 국내외 완성차업체 및 1차 협력업체 / Bulb Socket — 완성차용 램프 모듈 제조업체(완성차·협력사) / LED Module — 완성차 OEM 및 애프터마켓 램프 수요처",
+    "price_factors": [
+      {
+        "factor": "완성차 수요",
+        "detail": "완성차 생산·판매 변동에 따라 OEM 공급 물량이 크게 변동되어 실적에 직결됩니다."
+      },
+      {
+        "factor": "규모의 경제",
+        "detail": "대규모 생산능력 확보 여부가 단가 경쟁력과 수익성에 큰 영향을 미칩니다."
+      },
+      {
+        "factor": "글로벌 경쟁",
+        "detail": "초대형 외국 부품사들의 국내 진출 및 글로벌 조달 확대가 경쟁압력을 높입니다."
+      },
+      {
+        "factor": "규제·안전",
+        "detail": "환경·안전 관련 법규 강화는 제품개발·인증 비용과 납품 조건에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "멕시코 공장의 경우 2019년부터 양산을 시작하였으며,"
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황 > 가. 주요 제품 개요 및 당사의 핵심 경쟁력",
+        "evidence_text": "2023년 기준 당사의 차량용 전선은 전체 매출 비중의 39%를 차지하고 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황 > (2) 경기변동의 특성 및 계절성",
+        "evidence_text": "국내외 완성차업체 및 각각의 1차 협력업체에 신차용(OEM용) 및 After market용 납품에서 발생하며"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 5321,
+    "completion_tokens": 5117,
+    "reasoning_tokens": 4352,
+    "output_tokens": 765
+  },
+  "warnings": []
+}

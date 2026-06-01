@@ -1,0 +1,73 @@
+{
+  "stock_code": "067900",
+  "corp_name": "와이엔텍",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 05:00",
+  "meta": {
+    "wics": "해운사",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "와이엔텍은 환경서비스, 해상운송, 골프장 운영, 레미콘 등 다각화된 사업을 영위하는 기업입니다. WICS 섹터상 해운사로 분류되며, 폐기물 수집·처리와 탱커선 기반의 해상운송을 핵심 사업으로 하고 있습니다.",
+    "business_model": "주요 사업은 환경서비스(사업장폐기물의 수집·운반·중간처리(소각) 및 최종처리(매립)와 스팀 판매), 해상운송(자사 탱커선으로 케미컬 제품을 아시아 지역에 운송), 골프장(18홀 대중제 운영), 레미콘(지역 건설현장 대상 즉시 공급)으로 구성됩니다. 회사는 소각로 신규투자와 신조선박 도입 등을 통해 환경 소각부문과 해운부문의 성장을 도모하고 있습니다.",
+    "main_customers": "환경 — 사업장(사업장폐기물 배출 기업) / 해운 — 케미컬 제품 화주(아시아 지역 수·배송 기업) / 골프장 — 국내 골프 이용자(대중제 골프장 고객) / 레미콘 — 지역 건설업체·아파트 공사 현장",
+    "price_factors": [
+      {
+        "factor": "경기(건설)",
+        "detail": "건설경기 둔화 시 레미콘 수요가 줄어 매출에 직접적 영향을 미칩니다."
+      },
+      {
+        "factor": "국제시황·유가",
+        "detail": "해운업은 세계 경기·국제정세·유가 변동에 민감해 운임·수익성 변동성이 큽니다."
+      },
+      {
+        "factor": "환경규제",
+        "detail": "폐기물 처리 관련 법규·정책 강화 시 시장 확대 또는 처리 비용 변화가 발생할 수 있습니다."
+      },
+      {
+        "factor": "계절성",
+        "detail": "골프장·레미콘은 계절적 수요 변동이 뚜렷해 분기별 실적 변동성이 존재합니다."
+      },
+      {
+        "factor": "지역 경쟁",
+        "detail": "폐기물 처리 업종은 지역적 경쟁이 심해 운영 중인 매립장·중간처리 역량이 중요합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "당사는 환경서비스, 해상운송, 골프장, 레미콘등의 사업을 영위하고 있습니다"
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황",
+        "evidence_text": "해상운송은 당사의 탱커선을 이용하여 다양한 케미컬 제품들을 아시아지역으로 운송서비스하고 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "골프장업은  보성컨트리클럽으로 2008년에 당사가 건설후 운영하고 있으며, 18홀 대중제 골프장입니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "(3) 경기변동의 특성",
+        "evidence_text": "레미콘부문은 계절형 산업으로, 레미콘은 수요처인 건설산업의 동향에 밀접한 영향을 받습니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4838,
+    "completion_tokens": 5182,
+    "reasoning_tokens": 4352,
+    "output_tokens": 830
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "stock_code": "462350",
+  "corp_name": "이노스페이스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 20:21",
+  "meta": {
+    "wics": "우주항공과국방",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "이노스페이스는 2017년 설립된 발사체 제작 및 발사서비스 제공업체로, 우주산업의 Upstream 분야에서 소형위성 발사체(한빛 시리즈) 개발을 주력으로 하고 있습니다. 2023년 시험발사 성공과 2025년 브라질 상업발사(SPACEWARD)를 통해 발사운용 역량을 검증·확보해왔습니다.",
+    "business_model": "주요 수익은 발사서비스, 제품(관측로켓·엔진부품 등), 설비구축·시험평가·기술연구 용역으로 구성되며, FY2025 기준 발사서비스 9.1%, 제품 81.3%, 설비구축·시험평가 및 기술연구 용역 9.6%의 매출 비중을 보였습니다. 한빛 시리즈 발사체와 발사서비스가 핵심 상품이며, 발사서비스는 2026년부터 본격적인 매출 발생을 목표로 하고 있습니다.",
+    "main_customers": "발사서비스 — 위성 제작/운용사(위성 사업자) / 제품(관측로켓, 엔진부품 등) — 방산 관련 수요처 / 설비구축·시험평가·기술연구 용역 — (고객 유형 명시되지 않음)",
+    "price_factors": [
+      {
+        "factor": "지적재산권",
+        "detail": "하이브리드 로켓 관련 특허·기술임치로 기술 보호가 경쟁우위와 수익성에 영향을 미칩니다."
+      },
+      {
+        "factor": "전략물자 규제",
+        "detail": "발사체가 전략물자로 분류되어 수출입 및 거래 규제 가능성이 사업운영에 제약을 줄 수 있습니다."
+      },
+      {
+        "factor": "시장수요·스케줄",
+        "detail": "대형 발사체의 합승(rideshare) 방식 한계로 소형발사체의 일정 확보 경쟁과 수요 변동성이 실적에 영향을 줍니다."
+      },
+      {
+        "factor": "환율",
+        "detail": "USD·EUR·AUD 등 외화 노출로 인해 환율 변동이 매출·비용에 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "발사 리스크",
+        "detail": "상업발사 중 비정상 이벤트 발생 시 조사·신뢰성 문제로 영업 재개 및 수주에 영향이 있을 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "당사는 2017년 9월 19일 설립한 법인으로"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "우주산업에서 Upstream에 속하는 발사체 제작 및 발사서비스 제공을 수행"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "발사서비스: 248,963 (9.1%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "제품(관측로켓, 엔진부품 등): 2,233,249 (81.3%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "설비구축,시험평가 및 기술연구 용역: 264,277 (9.6%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "나. 주요 제품 등의 설명 (1) 소형위성 발사체 및 발사서비스",
+        "evidence_text": "위성 제작/운용사로부터 의뢰받은 위성을"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "하이브리드 로켓 개발, 제작 관련 세계 최고 수준의 핵심기술을 보유하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나. 주요 제품 등의 설명 (1) 소형위성 발사체 및 발사서비스",
+        "evidence_text": "위성 발사체는 전략물자이며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나. 주요 제품 등의 설명 (1) 소형위성 발사체 및 발사서비스",
+        "evidence_text": "소형위성은 대형 발사체에 의해 합승(rideshare) 방식이 대부분"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "영업 현황",
+        "evidence_text": "환율변동위험에 노출되어 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "영업 현황",
+        "evidence_text": "비행 중 비정상 상황이 감지되어"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5165,
+    "completion_tokens": 4854,
+    "reasoning_tokens": 3648,
+    "output_tokens": 1206
+  },
+  "warnings": []
+}

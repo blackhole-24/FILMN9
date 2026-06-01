@@ -1,0 +1,86 @@
+{
+  "stock_code": "069620",
+  "corp_name": "대웅제약",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 05:14",
+  "meta": {
+    "wics": "제약",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "대웅제약은 2002년 인적분할로 설립된 제약사로 의약품의 연구·제조·판매를 주요 사업으로 영위하고 있습니다. 화성 향남공단과 청주 오송생명과학단지에 KGMP 기준의 제조시설을 보유하고 있으며, 2025년 별도기준 연 매출 1조 3,910억 원, 영업이익 2,036억 원을 기록했습니다.",
+    "business_model": "FY2025 기준 사업부문별 영업수익 구성은 제품 16.5%, 상품 7.8%로 보고되어 있습니다. 전문의약품 라인업(펙수클루, 엔블로, 우루사 등)과 보툴리눔 톡신 나보타(2025년 매출 2,289억 원, 전체 매출의 약 16.5%)가 핵심 수익원으로 외형 성장을 견인합니다.",
+    "main_customers": "전문의약품 — 의료인(의사·병원) 및 환자 / 상품 — 유통업체·약국(유통 채널)",
+    "price_factors": [
+      {
+        "factor": "지적재산권",
+        "detail": "보유 특허(국내 130건, 해외 889건)가 신약 상용화와 기술수출, 경쟁우위에 영향합니다."
+      },
+      {
+        "factor": "수출의존도",
+        "detail": "나보타 등 주요 품목의 높은 수출 비중(약 84%)은 해외 수요와 파트너 실적에 실적 민감도를 높입니다."
+      },
+      {
+        "factor": "보험약가",
+        "detail": "보험약가(약가) 변동 및 특허만료에 따른 약가인하는 매출과 마진에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "글로벌경쟁",
+        "detail": "미국 등 주요 시장에서의 경쟁 심화는 톡신 등 주요 품목의 시장점유율과 가격 전략에 영향을 줍니다."
+      },
+      {
+        "factor": "산업트렌드",
+        "detail": "디지털 헬스케어·AI 기반 기술 발전은 신약 개발 및 진단·치료 부문 경쟁력과 중장기 성장성에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "의약품 생산 및 판매를 주요 사업으로 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "제품: 228,860 (16.5%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "상품: 108,452 (7.8%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "나보타는 2025년 연간 매출 2,289억 원을 기록"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 지적재산권 보유 현황",
+        "evidence_text": "특허권은 국내 130건, 해외 889건으로 총 1,019건"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "수출 비중이 약 84%에 이르는"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "(1) 산업의 특성",
+        "evidence_text": "의료인과 환자 모두에게 가치를 제공"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5168,
+    "completion_tokens": 4897,
+    "reasoning_tokens": 3968,
+    "output_tokens": 929
+  },
+  "warnings": []
+}

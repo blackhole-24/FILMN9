@@ -1,0 +1,77 @@
+{
+  "stock_code": "026890",
+  "corp_name": "스틱인베스트먼트",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 09:53",
+  "meta": {
+    "wics": "창업투자",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "스틱인베스트먼트는 사모투자(Private Equity, PE)와 벤처투자를 중심으로 운용하는 금융회사입니다. 1999년 벤처캐피탈로 출발했으며, 2006년 역외 PEF(사모투자펀드) 설립을 계기로 사모펀드와 벤처투자 사업을 함께 키워 왔습니다. 자회사인 스틱벤처스와 스틱얼터너티브자산운용도 함께 연결 대상 주요 종속회사로 포함됩니다.",
+    "business_model": "회사의 주된 수입원은 관리보수, 성과보수, 그리고 자기자본 투자수익입니다. FY2025 사업부문별 영업수익 구성은 관계기업투자 58.3%, 기타 22.3%, 현금및현금성자산 12.3%, 단기금융상품 5.6%, 당기손익공정가치금융자산 1.6%로 나타났습니다. PEF(사모투자펀드)와 VC(벤처캐피탈) 운용을 통해 투자금을 모집하고, 기업가치 제고 후 회수하는 구조이며 자산운용 부문도 대체투자 상품을 확대하고 있습니다.",
+    "main_customers": "PEF/VC — 연기금, 기관투자자, 금융기관, 일반기업 / 자산운용 — 기관투자자, 일반기업, 개인투자자",
+    "price_factors": [
+      {
+        "factor": "펀드결성",
+        "detail": "신규 펀드 결성과 추가 투자자 유치가 늘수록 운용자산이 확대되어 관리보수와 성과보수 기반이 강화됩니다."
+      },
+      {
+        "factor": "회수환경",
+        "detail": "투자 회수 환경이 좋아질수록 포트폴리오 성과가 실현되기 쉬워져 실적에 긍정적으로 작용합니다."
+      },
+      {
+        "factor": "시장변동",
+        "detail": "글로벌 금융시장 변동성이 커지면 사모펀드와 벤처투자 시장의 자금 조달과 투자 회수가 위축될 수 있습니다."
+      },
+      {
+        "factor": "대체투자",
+        "detail": "대체투자(부동산·인프라·기업 등) 상품에 대한 수요가 늘면 자산운용 부문의 고객 기반 확대에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 개황",
+        "evidence_text": "당사는 사모투자(Private Equity, PE) 사업을 영위하는 회사로서"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "가. 개황",
+        "evidence_text": "1999년 벤처캐피탈로 출발한 당사의 벤처조합/펀드 누적약정액이"
+      },
+      {
+        "field": "business_model",
+        "source_section": "나. 사업의 구조 (1) 수익 구조",
+        "evidence_text": "주된 수입원은 관리보수와 성과보수, 그리고 자기자본 투자수익"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "관계기업투자: 178,150 (58.3%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 개황 (1) PEF와 VC",
+        "evidence_text": "연기금 등 기관투자자와 금융기관 및 일반기업 등"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 개황 (2) 자산운용",
+        "evidence_text": "주로 기관투자자 자금을 운용하고 있으나"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3802,
+    "completion_tokens": 919,
+    "reasoning_tokens": 0,
+    "output_tokens": 919
+  },
+  "warnings": []
+}

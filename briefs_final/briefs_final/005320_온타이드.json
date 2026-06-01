@@ -1,0 +1,69 @@
+{
+  "stock_code": "005320",
+  "corp_name": "온타이드",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 19:11",
+  "meta": {
+    "wics": "섬유,의류,신발,호화품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "온타이드는 1967년 설립되어 니트 의류의 수출을 주된 사업으로 영위하는 기업으로, 주문자상표부착방식(OEM)으로 글로벌 브랜드에 제품을 공급하며 해외 생산법인을 통해 제조·판매를 하고 있습니다. 본사는 서울 강남구에 위치하며 북미·멕시코·인도네시아 등 해외 생산 및 판매 네트워크를 보유하고 있습니다.",
+    "business_model": "핵심은 글로벌 브랜드를 대상으로 한 OEM/ODM(주문자상표부착·제조자개발생산) 의류 제조·공급으로, 인도네시아·멕시코 등 현지 생산법인을 통한 해외 생산기지 운영이 주요한 수익 기반입니다. 제품 기획·개발과 품질 경쟁력, 생산 효율성 제고를 통해 고객의 다양한 니즈에 대응하는 것이 수익 구조의 핵심입니다.",
+    "main_customers": "OEM/ODM 의류제조 — 글로벌 스포츠웨어·라이프스타일 브랜드 (FANATICS, CARHARTT, H&M 등)",
+    "price_factors": [
+      {
+        "factor": "고객집중",
+        "detail": "매출이 소수의 글로벌 바이어에 크게 의존해 있어 주요 바이어의 주문 변동이 실적에 직접적 영향을 미칩니다."
+      },
+      {
+        "factor": "가격경쟁",
+        "detail": "중국·아세안 등 후발국과의 가격경쟁력 변화는 마진 압박으로 연결될 수 있습니다."
+      },
+      {
+        "factor": "수입규제",
+        "detail": "한국산 섬유류에 대한 각국의 수입규제 강화는 수출 환경과 매출에 부정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "계절성",
+        "detail": "계절 및 기후 변화가 판매에 큰 영향을 미치는 산업 특성상 생산·재고 관리가 실적 변동성에 중요합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황 (1) 일반적 사항",
+        "evidence_text": "1967년 12월 8일 설립되어 니트의류의 수출을 주된 사업으로 하고 있는 바"
+      },
+      {
+        "field": "business_model",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "ODM/OEM 사업을 확대하고 있으며"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업개황 및 사업부문의 구분",
+        "evidence_text": "이들 회사에 대한 매출이 총 매출의 약 89% 이상을 차지하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "가격경쟁력 약화와 한국산 섬유류에 대한 각국의 수입규제 강화"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4339,
+    "completion_tokens": 4300,
+    "reasoning_tokens": 3584,
+    "output_tokens": 716
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

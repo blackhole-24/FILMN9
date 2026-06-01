@@ -1,0 +1,66 @@
+{
+  "stock_code": "402340",
+  "corp_name": "SK스퀘어",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:41",
+  "meta": {
+    "wics": "복합기업",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "SK스퀘어는 2021년 11월 2일 SK텔레콤으로부터 인적분할(회사를 나눠 새 회사를 만드는 방식)을 통해 설립된 투자전문 지주회사입니다. 반도체와 ICT(정보통신기술) 관련 포트폴리오를 중심으로 SK하이닉스, 11번가, 티맵모빌리티, 원스토어 등 주요 자회사를 보유하고 있습니다.",
+    "business_model": "FY2025 사업부문별 영업수익 구성은 모빌리티 사업 39.2%, 커머스사업 31.0%, 플랫폼사업 25.5%, 기타사업 4.3%, 지주사업 0.1%입니다. 회사는 최적의 Capital Allocation(자본 배분)을 바탕으로 AI/반도체 영역 중심 신규 투자, 포트폴리오 가치 제고(Value-up), 재편(Rebalancing)을 수행하는 투자전문 지주회사로 설명됩니다. 주요 종속회사와 자회사를 중심으로 사업별 전문성을 강화하고, 각 포트폴리오의 수익성 개선과 기업가치 상승을 추구하고 있습니다.",
+    "main_customers": "커머스사업 — 판매자와 구매자 / 플랫폼사업 — 모바일 콘텐츠 이용자, 앱 개발사, 광고주 / 모빌리티 사업 — 내비게이션·데이터·보험·광고·자동차 탑재형 서비스 이용자와 B2B 고객 / 기타사업 — 물류 서비스 관련 고객 / 지주사업 — 직접 고객보다 투자 포트폴리오 관리 중심",
+    "price_factors": [
+      {
+        "factor": "모바일쇼핑",
+        "detail": "온라인쇼핑과 모바일쇼핑 거래액이 증가할수록 11번가 같은 커머스 사업의 거래 활성화와 수수료 수익 확대에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "경쟁심화",
+        "detail": "네이버, 신세계, 중국계 이커머스 등과의 경쟁이 심해질수록 커머스 플랫폼의 고객 유입과 수익성에 부담이 될 수 있습니다."
+      },
+      {
+        "factor": "AI전환",
+        "detail": "티맵모빌리티의 AI 기반 서비스 고도화와 데이터 수익화가 진행될수록 플랫폼형 사업의 확장성과 수익 구조에 영향을 줍니다."
+      },
+      {
+        "factor": "반도체수요",
+        "detail": "SK하이닉스를 중심으로 AI 인프라 투자와 메모리 수요가 확대되면 그룹 포트폴리오 가치에 큰 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "규제환경",
+        "detail": "지주회사로서 공정거래법상 행위제한과 공시의무를 받기 때문에 계열사 관리와 사업 재편 속도에 영향을 받을 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "2021년 11월 2일 SK텔레콤으로부터 인적분할을 통해 설립되었으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "모빌리티 사업: 553,351 (39.2%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "판매자와 구매자 간 전자상거래를 중개하면서"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 6224,
+    "completion_tokens": 847,
+    "reasoning_tokens": 0,
+    "output_tokens": 847
+  },
+  "warnings": []
+}

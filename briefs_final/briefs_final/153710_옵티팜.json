@@ -1,0 +1,67 @@
+{
+  "stock_code": "153710",
+  "corp_name": "옵티팜",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 10:28",
+  "meta": {
+    "wics": "제약",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "옵티팜은 가축병성감정기관 지정 이후 동물 질병 진단과 관련된 연구·검사·제품 개발을 수행해 온 제약계열 기업입니다. 자체 진단시스템과 진단·백신 등 다각적 사업 포트폴리오를 보유하고 있으며 동물용 의약품 및 진단 분야에서 기술기반 서비스를 제공하고 있습니다.",
+    "business_model": "주요 사업부문은 제품, 미니피그, 기타, 상품, 수수료수입, 용역 등으로 구성되며 FY2025 기준 제품 11.1%, 미니피그 3.8%, 기타 10.8%, 상품 46.8%, 수수료수입 5.3%, 용역 22.2%의 매출구조를 보입니다. 동물질병진단(분자진단·혈청학 등)과 동물약품(효능검정·동물실험 기반 공급), 박테리오파지 연구·제품화, 메디피그(미니피그) 생산 및 VLP백신 개발 등이 수익원입니다.",
+    "main_customers": "동물질병진단 — 농림축산검역본부·지방 가축방역기관·양계농장·양돈농장·대학기관·연구기관·동물병원 / 동물약품 — 목적 동물에 대한 약품 수요자(사육농가 등)·연구기관 / 박테리오파지 — 축산현장·연구기관 / 메디피그(미니피그) — 연구기관·실험동물 관련 회사 / VLP백신 — 축산·수의학 관련 연구기관",
+    "price_factors": [
+      {
+        "factor": "전염병 발생",
+        "detail": "아프리카돼지열병 등 악성 전염병의 발생은 검사 수요를 늘려 실적에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "방역사업 이양",
+        "detail": "국가 방역사업을 공신력 있는 민간기관에 이양하는 흐름은 시스템을 갖춘 기업의 수주 기회를 확대합니다."
+      },
+      {
+        "factor": "시장진입장벽",
+        "detail": "검사 시스템 구축을 위한 큰 인적·물적 투자가 필요해 신규 진입이 어렵고 기존 기업의 경쟁우위에 영향을 줍니다."
+      },
+      {
+        "factor": "진단장비 보유",
+        "detail": "real-time PCR 등 최첨단 기자재 보유는 정확·신속 진단으로 고객 확보와 실적에 긍정적 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 2006년 11월 가축병성감정기관으로 지정된 이후"
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "제품: 2,479 (11.1%)"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "7-1. 진행중인 사업과 관련한 참고사항",
+        "evidence_text": "가축의 질병진단 시장은 지속적으로 성장하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. 회사의 현황 (1) 동물질병진단 부문",
+        "evidence_text": "동물진단사업팀은 real-time PCR을 운영하고 있어"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5892,
+    "completion_tokens": 4829,
+    "reasoning_tokens": 3968,
+    "output_tokens": 861
+  },
+  "warnings": []
+}

@@ -1,0 +1,69 @@
+{
+  "stock_code": "002620",
+  "corp_name": "제일파마홀딩스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 18:06",
+  "meta": {
+    "wics": "제약",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "제일파마홀딩스는 2017년 6월 1일 제일약품에서 인적분할되어 존속법인으로 설립된 지주회사입니다. 자회사 및 관계회사 지분을 보유하며 지분법이익, 종속회사 관리, 투자자산 임대 등을 주요 영업으로 하고 있으며, 연결기준 매출액은 657,614 백만원 수준입니다.",
+    "business_model": "사업은 크게 지주회사(경영컨설팅, 임대, 투자)와 제약(완제의약품 제조·판매)으로 구분됩니다. 지주회사로서 투자수익, 경영자문수수료, 임대수익 등을 통해 수익을 창출하고, 종속회사인 제일약품·제일헬스사이언스는 완제의약품 제조·판매 및 판매대행수수료를 수익원으로 합니다.",
+    "main_customers": "지주회사 — 자회사 및 관계회사 / 제약(종속회사 제일약품·제일헬스사이언스) — 완제 의약품 구매자(보고서에 구체적 고객 유형 미기재) / 판매대행(제일앤파트너스) — 제일약품의 완제의약품 판매대행처(구체 미기재)",
+    "price_factors": [
+      {
+        "factor": "규제강도",
+        "detail": "의약품은 허가·생산·유통 전 과정에서 정부의 엄격한 통제를 받아 규제 변화가 실적에 직·간접 영향을 줍니다."
+      },
+      {
+        "factor": "R&D비용",
+        "detail": "신약개발이 어려워 연구개발비 비중이 높아 연구 투자 부담이 실적변동 요인이 됩니다."
+      },
+      {
+        "factor": "경기민감도",
+        "detail": "전문의약품은 경기변동에 비교적 비탄력적이나 일반의약품은 계절·경기 요인의 영향을 받을 수 있습니다."
+      },
+      {
+        "factor": "경쟁심화",
+        "detail": "다국적사 직접진출·국내 대기업의 제약업 진출·제네릭 출시 등으로 경쟁강도가 높아져 수익성에 압박을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 자회사 및 관계회사들이 속한 산업환경 및 영업실적에 직간접적으로 영향을 받습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "투자수익, 경영자문수수료, 임대수익 등 지주회사 사업을 영위하고 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "지배회사인 당사는 전략적인 영업단위인 2개의 보고부문을 가지고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "제약산업은 타산업에 비해 경기변동에 비교적 비탄력적인 성향을 보여왔습니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 3611,
+    "completion_tokens": 5804,
+    "reasoning_tokens": 4992,
+    "output_tokens": 812
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

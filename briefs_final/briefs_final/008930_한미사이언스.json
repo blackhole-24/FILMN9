@@ -1,0 +1,67 @@
+{
+  "stock_code": "008930",
+  "corp_name": "한미사이언스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 20:13",
+  "meta": {
+    "wics": "제약",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "한미사이언스는 사업형 지주회사로서 자회사의 지분이익, 특허권·상표권 사용료 수입, 헬스케어 사업 및 계열사 관리를 통해 자체 수익을 창출하는 기업입니다. 2022년 11월 한미헬스케어(주)를 합병하면서 헬스케어 영역을 확대했고, 연결회사는 지주·헬스케어·의약품도매 등으로 구성되어 있습니다.",
+    "business_model": "핵심 수익원은 상품매출(판매 수익)과 수수료매출(플랫폼·유통 수수료)이며, FY2025 기준 상품매출이 95.3%, 수수료매출이 4.7%를 차지합니다. 지주부문은 자회사 지분이익 및 특허·상표권 사용료로, 헬스케어·의약품도매부문은 의료기기·식품·뷰티케어 제품 및 B2B 유통(플랫폼)을 통한 매출을 창출합니다.",
+    "main_customers": "지주부문 — 자회사 및 계열사 / 헬스케어사업부문 — 의료기기본부·컨슈머헬스본부·IT솔루션사업본부 관련 거래처 / 의약품도매부문 — 약국과 병원 중심의 B2B전자상거래 플랫폼(HMP몰) 회원",
+    "price_factors": [
+      {
+        "factor": "관계회사 실적",
+        "detail": "지분법투자이익이 실적에 큰 비중을 차지하므로 관계회사(예: 한미약품) 실적 변동이 회사 영업이익에 직접 영향을 미칩니다."
+      },
+      {
+        "factor": "상품매출 비중",
+        "detail": "총매출에서 상품매출 비중이 95.3%로 높아 도매·유통 채널 매출 변동이 회사 실적에 곧바로 반영됩니다."
+      },
+      {
+        "factor": "헬스케어 확장",
+        "detail": "한미헬스케어 합병 등 헬스케어 부문 확대는 자체 매출원 확보에 기여하나, 신사업 통합 과정의 성과가 실적 변동 요인이 됩니다."
+      },
+      {
+        "factor": "자산매각·현금흐름",
+        "detail": "종속회사 지분 일부 매도 등으로 유동자산이 증가했으므로 자산매각·현금흐름 변화가 재무지표와 투자지표에 영향 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 > 영업 현황",
+        "evidence_text": "연결회사의 영업부문은 지주부문, 헬스케어사업부문, 의약품도매부문, 기타부문으로 구성됩니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "상품매출: 1,083,320 (95.3%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "수수료매출: 53,363 (4.7%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 > 영업 현황",
+        "evidence_text": "약국과 병원 중심의 B2B전자상거래 플랫폼(HMP몰)"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4000,
+    "completion_tokens": 3887,
+    "reasoning_tokens": 3008,
+    "output_tokens": 879
+  },
+  "warnings": []
+}

@@ -1,0 +1,72 @@
+{
+  "stock_code": "159910",
+  "corp_name": "에코글로우",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 10:33",
+  "meta": {
+    "wics": "화장품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "에코글로우는 2006년 설립된 기업으로, 2016년 화장품 제조·판매 중심으로 사업구조를 변경하였으며 현재 뷰티사업부(화장품제조)와 상품유통사업부를 영위하고 있습니다. FY2025 기준 총 영업수익은 9,498,601천원(100.0%)입니다.",
+    "business_model": "핵심 사업은 뷰티사업부(화장품 제조)와 상품유통사업부로 구성되며, 매출은 화장품 및 상품으로 이루어져 있습니다(총영업수익 9,498,601천원, 100.0% 기준). 과거 화장품 OEM·ODM 전문 자회사와의 합병을 통해 제조·판매 역량을 확보했고, 상품유통(커머스) 부문은 과거 영업을 중단한 이력도 있습니다.",
+    "main_customers": "뷰티사업부 — 화장품 브랜드사(ODM/OEM 의뢰처) / 상품유통사업부 — 온라인 플랫폼·파트너사 및 최종 소비자(과거 중국 파트너사를 통한 온라인 판매 활동 존재)",
+    "price_factors": [
+      {
+        "factor": "소비트렌드",
+        "detail": "클린·더마·기능성 등 소비자 트렌드 변화에 따라 제품 수요와 판매 채널 선호가 실적에 영향합니다."
+      },
+      {
+        "factor": "기술·R&D",
+        "detail": "화장품이 기술집약적 산업이라는 특성상 R&D 수준과 신제품 개발 역량이 경쟁력과 수익성에 직접 연동됩니다."
+      },
+      {
+        "factor": "다품종소량",
+        "detail": "다품종소량생산 특성으로 생산 유연성은 장점이나, 고객 맞춤 요구 증가 시 설비·운영 조정이 필요합니다."
+      },
+      {
+        "factor": "해외수요",
+        "detail": "해외 수요(특히 중국 등)의 변동은 매출에 영향을 미치며, 과거 해외 온라인 판매 활동 관련 리스크가 존재합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 사업의 내용 요약",
+        "evidence_text": "당기말 현재 당사가 영위중인 사업은 뷰티사업부(화장품제조)와 상품유통사업부 입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. 주요 제품 또는 서비스에 관한 내용",
+        "evidence_text": "당사는  화장품 및 상품 등으로 매출이 구성 되어 있으며,"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "구 분: 9,498,601 (100.0%)"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "가. 사업의 내용 요약",
+        "evidence_text": "2016년 12월 화장품 OEM,ODM을 전문으로 하는 당시 자회사 스킨앤스킨과 합병을 추진하여 화장품 제조 및 판매를 주요 사업으로 변경하였습니다."
+      },
+      {
+        "field": "company_overview",
+        "source_section": "가. 사업의 내용 요약",
+        "evidence_text": "제조부분은 2021년 12월 22일에 영업중단 하였습니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4115,
+    "completion_tokens": 4159,
+    "reasoning_tokens": 3328,
+    "output_tokens": 831
+  },
+  "warnings": []
+}

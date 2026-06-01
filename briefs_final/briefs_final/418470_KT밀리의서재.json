@@ -1,0 +1,62 @@
+{
+  "stock_code": "418470",
+  "corp_name": "KT밀리의서재",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 19:17",
+  "meta": {
+    "wics": "출판",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "KT밀리의서재는 2017년 설립된 국내 최초 전자책 구독 플랫폼 운영사로, 전자책 구독 서비스 '밀리의서재'를 중심으로 사업을 영위합니다. 전자책·오디오북 등 디지털 독서 콘텐츠를 확대하며 가입자 수와 보유 콘텐츠 측면에서 시장 내 선도적 위치를 유지하고 있습니다.",
+    "business_model": "주요 수익은 정기구독형 플랫폼 서비스에서 발생하며, FY2025 기준 플랫폼 매출이 98.6%를 차지하고 출간/기타가 1.4%를 차지합니다. 개인(B2C), 기업·공공기관(B2B), 통신사 제휴(B2B2C) 등 다채널로 구독 서비스를 제공하며 오디오북·챗북 등 확장형 콘텐츠와 AI 기반 추천·음성변환 기능으로 이용 경험을 강화하고 있습니다.",
+    "main_customers": "플랫폼 — 개인 고객(B2C) / 플랫폼 — 기업·공공기관(B2B) / 플랫폼 — 통신사 제휴(B2B2C)",
+    "price_factors": [
+      {
+        "factor": "콘텐츠 확보",
+        "detail": "출판사와의 협력·장기계약이 미흡하면 보유 콘텐츠 경쟁력이 약화되어 가입자 유입과 유지에 부정적 영향을 미칩니다."
+      },
+      {
+        "factor": "플랫폼 완성도",
+        "detail": "보유 콘텐츠 규모·이용 편의성·개인화 수준이 떨어지면 체류시간과 구독전환이 감소하여 실적에 직접적 영향을 줍니다."
+      },
+      {
+        "factor": "AI 고도화",
+        "detail": "추천·생성형 요약·TTS(음성 변환) 등 AI 기능 고도화가 미흡하면 사용자 만족도와 재이용률 제고에 제약이 생깁니다."
+      },
+      {
+        "factor": "제휴·브랜딩",
+        "detail": "통신사·기업 제휴와 오프라인 제휴 확장이 제한되면 신규 유입 채널이 축소되어 성장 속도가 둔화될 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "전자책 구독 플랫폼 '밀리의서재'를 운영하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "플랫폼: 86,989 (98.6%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "개인 고객을 대상으로 한 B2C 채널, 기업 및 공공기관 대상의 B2B 채널"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4725,
+    "completion_tokens": 3899,
+    "reasoning_tokens": 3200,
+    "output_tokens": 699
+  },
+  "warnings": []
+}

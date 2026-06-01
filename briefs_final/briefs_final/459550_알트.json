@@ -1,0 +1,71 @@
+{
+  "stock_code": "459550",
+  "corp_name": "알트",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:46",
+  "meta": {
+    "wics": "핸드셋",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "알트는 2025년 11월 17일 코스닥시장에 상장한 전기·전자 업종의 핸드셋 기업입니다. 모바일, 미디어, AI&SVC 사업을 함께 운영하고 있으며, 특히 키즈폰·시니어폰 같은 틈새 스마트폰 시장과 셋톱박스 사업을 기반으로 성장해 왔습니다.",
+    "business_model": "사업부문별 영업수익은 모바일 76.9%, 미디어 22.8%, AI&SVC 0.3%로 구성됩니다. 모바일 사업은 키즈폰·시니어폰 중심의 스마트폰 판매가 핵심이고, 미디어 사업은 IPTV(인터넷TV)·유료방송용 셋톱박스 개발 및 공급이 중심입니다. AI&SVC는 AI(인공지능)와 로봇 등 신규 산업 진출을 위한 연구개발과 사업화 준비 성격의 부문입니다.",
+    "main_customers": "모바일 — 국내 주요 통신 3사(SKT, KT, LGU+) 및 이를 통한 단말 수요층 / 미디어 — 국내 주요 방송사업자(SK브로드밴드 등) / AI&SVC — NAVER, 정부 연구과제, 향후 시니어 케어·로봇 서비스 수요처",
+    "price_factors": [
+      {
+        "factor": "통신사협력",
+        "detail": "국내 주요 통신 3사와의 협력 여부가 모바일 단말 출시와 판매 확대에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "틈새수요",
+        "detail": "키즈폰과 시니어폰처럼 특화 수요가 유지되면 플래그십 경쟁을 피하면서도 안정적인 매출 기반을 만들 수 있습니다."
+      },
+      {
+        "factor": "OTT확대",
+        "detail": "OTT(온라인 동영상 서비스)와 IPTV 확산은 고성능 셋톱박스 수요를 늘려 미디어 사업에 긍정적으로 작용할 수 있습니다."
+      },
+      {
+        "factor": "AI기능",
+        "detail": "AI 음성 인식과 추천 기능이 강화될수록 셋톱박스와 미디어 플랫폼 디바이스의 제품 경쟁력이 중요해집니다."
+      },
+      {
+        "factor": "환율원가",
+        "detail": "원/달러 환율 상승과 주요 부품 가격 인상은 해외 외주사 재고 매입비용과 제조원가 부담을 키울 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "2025년 11월 17일 코스닥시장 상장에 성공하였으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "모바일: 86,854 (76.9%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "국내 주요 통신 3사(SKT, KT, LGU+)와의 긴밀한 협력"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "원/달러 환율 변동에 따른 전반적인 제조원가 상승"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5530,
+    "completion_tokens": 817,
+    "reasoning_tokens": 0,
+    "output_tokens": 817
+  },
+  "warnings": []
+}

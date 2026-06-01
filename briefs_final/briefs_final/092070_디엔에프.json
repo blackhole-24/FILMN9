@@ -1,0 +1,67 @@
+{
+  "stock_code": "092070",
+  "corp_name": "디엔에프",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 07:15",
+  "meta": {
+    "wics": "반도체와반도체장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "디엔에프는 반도체 소자 형성용 박막 재료를 전문으로 하는 기업입니다. 2025년 매출액은 79,133백만원(약 791억원)으로, 반도체용 정밀화학 소재를 중심으로 사업을 전개하고 있습니다.",
+    "business_model": "매출의 대부분은 반도체 소재 부문에 집중되어 있으며, 사업부문별로는 반도체 소재가 전체의 약 93.72%, 기타화학재료가 약 6.28%를 차지합니다. 주요 제품군은 DPT(Double Patterning Technology, 이중패터닝)·QPT 재료, High-k(고유전율 물질) 유전막 전구체, 저온 공정용 SiO/SiN 전구체, ACL(Amorphous Carbon Layer, 무정형탄소층) 등 반도체 증착 및 패터닝용 박막 재료를 중심으로 구성되어 있습니다.",
+    "main_customers": "반도체 소재 — 글로벌 칩메이커 및 장비 기업, 주요 메모리 제조사 / 기타화학재료 — 디스플레이 패널 제조기업 및 장비 기업",
+    "price_factors": [
+      {
+        "factor": "AI·HPC 수요",
+        "detail": "AI·고성능컴퓨팅 수요 확대는 메모리·고집적 반도체 투자로 이어져 반도체 소재 수요와 실적에 긍정적 영향을 미칩니다."
+      },
+      {
+        "factor": "메모리 업황",
+        "detail": "주요 고객사(메모리 제조사)의 생산 가동률 변화가 매출에 직접적으로 영향을 줍니다."
+      },
+      {
+        "factor": "공정 미세화",
+        "detail": "미세화·3차원 구조 전환으로 고순도·정밀화학 소재에 대한 기술 요구가 높아져 기술력 보유 기업의 경쟁력이 강화됩니다."
+      },
+      {
+        "factor": "공급망·지정학",
+        "detail": "글로벌 공급망 재편과 지정학적 리스크는 원자재·조달 비용 및 안정성에 영향을 주어 실적 변동 요인이 됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 반도체 소자 형성용 박막 재료 전문기업입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "반도체: 74,167,523 (93.7%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "글로벌 칩메이커 및 장비 기업들과 공동개발 프로젝트를 진행 중 입니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 산업의 특성 등",
+        "evidence_text": "반도체용 정밀화학 소재 산업은 ... 진입장벽이 높은 산업입니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5234,
+    "completion_tokens": 4212,
+    "reasoning_tokens": 3456,
+    "output_tokens": 756
+  },
+  "warnings": []
+}

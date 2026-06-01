@@ -1,0 +1,71 @@
+{
+  "stock_code": "082740",
+  "corp_name": "한화엔진",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 06:15",
+  "meta": {
+    "wics": "조선",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "한화엔진은 대형 선박용 엔진 제작을 중심으로 엔진 부품 판매와 서비스를 제공하며, 디젤엔진 기반 발전시설도 공급하는 종합 엔진메이커입니다. 단기간 누계 저속엔진 생산 1억마력을 달성했고, 2014년 세계 최초 이중연료(DF) 엔진 상용화 및 친환경 탈질시스템(DelNOx) 개발 등 기술개발을 선도하고 있습니다.",
+    "business_model": "매출의 주력은 선박엔진 및 SCR(탈질장치)으로서 해당 부문이 88.4%를 차지하고, AM(After Market)사업·디젤발전·임대 등 기타 부문이 11.6%를 차지합니다. 엔진 설계·생산·판매부터 AM 서비스 제공과 친환경 DF엔진 및 SCR 패키지 공급을 통한 일관된 서비스 체제가 핵심 수익구조입니다.",
+    "main_customers": "선박엔진 및 SCR사업 — 전 세계 조선소 및 선주(대형 상선) / AM사업 — 선박 운영사(부품·정비 수요자) / 디젤발전사업 — 신흥국 전력사업자·도서지역 수요처 및 원자력발전소 비상발전기 수요처",
+    "price_factors": [
+      {
+        "factor": "세계경기",
+        "detail": "선박발주와 조선업황에 직결되기 때문에 세계 경기 둔화 시 수주·실적이 악화될 수 있습니다."
+      },
+      {
+        "factor": "원자재값",
+        "detail": "철광석·후판 등 원자재 가격 변동은 제조원가에 직접 영향을 미쳐 영업이익 변동성을 키울 수 있습니다."
+      },
+      {
+        "factor": "환율",
+        "detail": "해외 수주와 수출 중심 사업구조상 환율 변동이 매출 환산 및 수익성에 영향을 미칩니다."
+      },
+      {
+        "factor": "환경규제",
+        "detail": "IMO 규제 등 친환경 규제 강화로 DF엔진·SCR 수요가 확대되어 제품믹스와 단가에 영향을 줍니다."
+      },
+      {
+        "factor": "경쟁구조",
+        "detail": "원천 기술 보유 Licensor와 글로벌 엔진 메이커들의 경쟁, 중국 등 생산능력 확대는 가격·수주 조건에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 사업의 개요",
+        "evidence_text": "당사는 조선 산업의 핵심 기자재인 대형 선박용 엔진 제작을 중심으로 엔진 부품의 판매와 서비스를 제공하고 있으며, 디젤엔진을 이용한 발전시설을 공급하는 종합 엔진메이커입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "나. 사업의 주요 제품별 매출",
+        "evidence_text": "당기에 선박엔진 및 SCR 사업은 12,126억원으로 88.4%를 차지하며, AM사업, 디젤발전사업 및 임대 등은 1,585억원, 11.6%로 전체 13,711억원의 매출 실적을 기록하였습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 사업의 개요",
+        "evidence_text": "엔진 설계, 생산, 판매부터 AM(After Market) 서비스로 이어지는 일관된 서비스 체제로 운영되고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "라. 사업부문의 시장 여건 및 영업 개황 (1) 산업의 특성",
+        "evidence_text": "선박엔진사업은 조선산업의 시장환경과 밀접한 관계를 가지며 세계 경기변동, 원자재 가격, 환율 변동 및 국제적인 환경 등 거시경제적 변수에 따라 시황이 변동되는 특성을 지니고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4952,
+    "completion_tokens": 3137,
+    "reasoning_tokens": 2176,
+    "output_tokens": 961
+  },
+  "warnings": []
+}

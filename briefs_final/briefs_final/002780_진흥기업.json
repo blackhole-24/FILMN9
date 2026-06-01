@@ -1,0 +1,72 @@
+{
+  "stock_code": "002780",
+  "corp_name": "진흥기업",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 18:12",
+  "meta": {
+    "wics": "건설",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "진흥기업은 1959년 설립된 종합건설업체로 토목, 건축/주택, 플랜트 등 다양한 건설사업을 영위합니다. 오랜 경험과 기술력을 바탕으로 주택사업과 SOC(사회간접자본) 등 국내외 건설시장에 참여해 왔습니다.",
+    "business_model": "FY2025 기준 사업부문별 영업수익에서 국내도급공사가 355,136 (61.6%), 토목공사가 110,362 (19.2%)를 차지합니다. 주된 수익원은 수주를 통한 공사 수행에 따른 영업수익이며, 공공·민간 발주처에 따른 토목 및 건축/주택 프로젝트 참여가 핵심입니다.",
+    "main_customers": "국내도급공사 — 발주처(공공·민간) / 토목공사 — 정부·지자체(공공발주 중심) / 건축/주택 — 민간 수요 및 주택사업 발주처 / 플랜트 — 발주처(공공·민간)",
+    "price_factors": [
+      {
+        "factor": "부동산경기",
+        "detail": "건축·주택 부문은 민간 수요에 민감해 부동산 경기 침체 시 실적에 부정적 영향을 받을 수 있습니다."
+      },
+      {
+        "factor": "공공발주",
+        "detail": "토목사업은 정부·지자체 예산·정책에 따라 발주량이 변동하여 실적에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "규제정책",
+        "detail": "분양가상한제·DTI·LTV 등 주택 관련 규제는 주택사업의 수요와 수익성에 영향을 미칩니다."
+      },
+      {
+        "factor": "경쟁심화",
+        "detail": "건설업 내 경쟁이 치열하고 수익성이 저하되는 가운데 단순도급사업의 경쟁과 수익성 악화가 업체 실적에 부담으로 작용합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "종합건설업체로서 크게 토목, 건축/주택, 플랜트의 3개 분야에 진출하고 있으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "국내도급공사: 355,136 (61.6%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "토목공사: 110,362 (19.2%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "발주자 또한 정부, 지방자치단체등 공공부문인 경우가 대부분입니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "민간 부문은 주택법, 건축법 등 주택건축 관련 법제에 영향을 받습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4508,
+    "completion_tokens": 4513,
+    "reasoning_tokens": 3712,
+    "output_tokens": 801
+  },
+  "warnings": []
+}

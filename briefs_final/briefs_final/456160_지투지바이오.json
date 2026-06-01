@@ -1,0 +1,69 @@
+{
+  "stock_code": "456160",
+  "corp_name": "지투지바이오",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 20:06",
+  "meta": {
+    "wics": "제약",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "지투지바이오는 2017년 3월 설립된 약효지속성(오랫동안 약효가 지속되는) 의약품의 미립구 기술 분야 선도 기업으로, InnoLAMP(미립구 기반 장기지속 플랫폼)를 보유하고 있습니다. 총자산은 677억원으로 코스닥 상장에 따른 공모자금 유입 등으로 자산규모가 확대되었습니다.",
+    "business_model": "핵심은 InnoLAMP 기반의 플랫폼 기술을 활용한 기술이전(라이센싱) 및 임상용역 서비스와 CDO/CDMO(의약품 개발·위탁생산) 사업입니다. 기술이전은 마일스톤과 상업화 시 제품공급을 통한 수익을, CDO/CDMO는 개발수수료 및 상업공급을 통한 안정적 매출을 창출하는 구조입니다.",
+    "main_customers": "기술이전 및임상용역서비스 — 국내·외 제약사(라이센싱·공동개발 파트너) / CDO/CDMO — 국내·외 제약사(개발·제조 의뢰 파트너)",
+    "price_factors": [
+      {
+        "factor": "고령화",
+        "detail": "고령층과 만성질환자 증가로 약효지속성 의약품 수요가 지속적으로 늘어나 실적에 우호적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "기술경쟁",
+        "detail": "화학적 변형(페길화 등) 대비 비화학적 미립구 플랫폼의 기술 우위 여부가 시장 경쟁력을 좌우합니다."
+      },
+      {
+        "factor": "고함량한계",
+        "detail": "미립구 내 탑재 가능한 약물 함량 한계는 제품 효능·상용화에 제약이 될 수 있어 개발성과에 영향합니다."
+      },
+      {
+        "factor": "임상리스크",
+        "detail": "제형 개선·임상 결과에 따라 기술이전 계약 조건과 마일스톤 수익이 변동될 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 약효지속성 의약품 미립구 기술 분야의 선도 기업으로서"
+      },
+      {
+        "field": "business_model",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "당사의 기술은 CDO / CDMO 사업 또한 본격화하고 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "다수의 국내외 제약사로부터 여러 유형의 사업 협력을 수행하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "만성질환 유병률이 지속적으로 증가하고 있습니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 5347,
+    "completion_tokens": 3103,
+    "reasoning_tokens": 2368,
+    "output_tokens": 735
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

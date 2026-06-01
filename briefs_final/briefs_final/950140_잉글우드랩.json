@@ -1,0 +1,66 @@
+{
+  "stock_code": "950140",
+  "corp_name": "잉글우드랩",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 21:16",
+  "meta": {
+    "wics": "화장품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "잉글우드랩은 화장품 ODM(Original Development/Design Manufacturing) 중심의 기업으로, 연구개발 역량과 미국 현지 생산 인프라를 바탕으로 글로벌 고객사에 제품 개발·생산 서비스를 제공합니다. 2025년 연결 기준 매출은 USD 152,431,009, 영업이익은 USD 26,274,563을 기록하는 등 규모 있는 글로벌 활동을 보이고 있습니다.",
+    "business_model": "핵심은 ODM(화장품의 개발·설계·생산을 일괄 제공하는 Turn-Key 서비스)으로, 연구개발과 미국 현지 생산기반을 활용해 브랜드사의 제품 개발 수요에 대응합니다. 사업부문별 FY2025 영업수익 구성은 반제품 2.3%, 기타 61.5%로 보고되었습니다.",
+    "main_customers": "ODM — 글로벌 화장품 브랜드 및 인디 브랜드(미국 인디 브랜드 포함) / 반제품 — 화장품 회사 및 브랜드",
+    "price_factors": [
+      {
+        "factor": "규제 준수",
+        "detail": "국가별 원료·제품 규제가 엄격하고 지속 변동하므로 규제 대응 역량이 실적과 거래관계에 직접 영향"
+      },
+      {
+        "factor": "ODM 수요",
+        "detail": "인디 브랜드 및 디지털 유통 확대에 따라 ODM 기업에 대한 아웃소싱 수요가 실적에 중요한 변수"
+      },
+      {
+        "factor": "환율·관세",
+        "detail": "보고서에서 환율 리스크와 관세 중심의 보호무역 확대가 예고되어 수출입 기반 매출에 영향"
+      },
+      {
+        "factor": "품질·검사",
+        "detail": "FDA 등 감독기관의 정기 검사와 품질관리 수준이 거래유지와 수주 확보에 중요한 요소"
+      },
+      {
+        "factor": "납기 준수",
+        "detail": "낙제된 납기 준수는 고객사의 신제품 출시와 브랜드 평판에 직결되어 수주 지속성에 영향"
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "2025년(제11기) 연결 기준 매출은 전기 대비 14.1% 증가한 USD 152,431,009, 영업이익은 전기 대비 90.7% 증가한 USD 26,274,563을 기록하였습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "다. 시장여건 및 영업의 개황 등 > (2) 화장품 산업의 개요",
+        "evidence_text": "당사는 주요 사업으로 ODM 산업을 영위하고 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "당사는 연구개발 역량과 미국 현지 생산 기반을 바탕으로 글로벌 고객사의 다양한 제품 개발요구에 대응하고 있으며, 미국 인디 브랜드 고객사의 성장과 OTC 제품군 확대가 주요 요인으로 작용하였습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4577,
+    "completion_tokens": 3379,
+    "reasoning_tokens": 2624,
+    "output_tokens": 755
+  },
+  "warnings": []
+}

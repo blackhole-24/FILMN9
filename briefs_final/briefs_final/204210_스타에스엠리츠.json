@@ -1,0 +1,76 @@
+{
+  "stock_code": "204210",
+  "corp_name": "스타에스엠리츠",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 11:51",
+  "meta": {
+    "wics": "부동산",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "reit"
+  },
+  "brief": {
+    "company_overview": "스타에스엠리츠는 부동산투자회사법에 따라 설립된 자기관리부동산투자회사로, 다수의 투자자로부터 자금을 모아 총 자산의 70% 이상을 부동산에 투자·운용하는 부동산 간접투자기구입니다. 2025년말 연결총자산은 630억원이며, 100% 지분을 보유한 종속기업 ㈜엠디호텔을 통해 호텔운영 사업을 병행하고 있습니다.",
+    "business_model": "핵심 수익원은 투자부동산의 임대수익(임대료)이며, 일정기간 운용 후 처분을 통해 자본이득도 추구합니다. 사업부문별 영업수익 구성은 토지 및 그 정착물 등 95.1%, 현금 0.2%, 기타 자산 4.7%로 부동산(토지·정착물) 비중이 매우 높습니다.",
+    "main_customers": "토지·정착물 임대 — 임차인(호텔운영사 등) / 호텔운영(엠디호텔) — B2B·B2C 및 내외국인 고객 / 배당수익 수취 — 주주(투자자)",
+    "price_factors": [
+      {
+        "factor": "관광수요",
+        "detail": "여행·관광업 회복 시 호텔 가동률과 임대수익이 증가하여 실적과 배당여력에 긍정적 영향을 줍니다."
+      },
+      {
+        "factor": "운영사 리스크",
+        "detail": "호텔 운영사 파산 등으로 임대차계약이 해지되면 공실과 임대료 손실이 발생하여 실적에 직접 타격을 줄 수 있습니다."
+      },
+      {
+        "factor": "자산매각",
+        "detail": "Staz Hotel 명동 I·II 호점 매각 등 포트폴리오 재편은 현금흐름과 일시적 자본이득(또는 손실)에 영향을 미칩니다."
+      },
+      {
+        "factor": "법제도 변경",
+        "detail": "자기관리리츠 관련 법 개정(사모조달 허용·업역확대) 시 자금조달 방식과 개발투자 기회가 확대되어 사업전략에 영향이 있습니다."
+      },
+      {
+        "factor": "공정가치 변동",
+        "detail": "당기손익-공정가치측정금융자산의 평가손실·손상차손 발생은 자산가치와 자본에 부정적 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "1-1) 지배기업의 개요",
+        "evidence_text": "총 자산의 70% 이상을 부동산에 투자, 운용"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "(1) 자산",
+        "evidence_text": "2025년말 연결총자산은 전년 대비 105억원 감소한 630억원으로"
+      },
+      {
+        "field": "business_model",
+        "source_section": "1-1) 지배기업의 개요",
+        "evidence_text": "투자부동산의 운용에 따른 안정적인 수익(임대료)을 배당"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "토지 및 그 정착물 등: 67,880 (95.1%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "1-2) 종속기업의 개요",
+        "evidence_text": "B2B, B2C 등 다양한 채널을 통해 내외국인 고객에게"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3893,
+    "completion_tokens": 4238,
+    "reasoning_tokens": 3328,
+    "output_tokens": 910
+  },
+  "warnings": []
+}

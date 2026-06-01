@@ -1,0 +1,69 @@
+{
+  "stock_code": "039010",
+  "corp_name": "현대에이치티",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 01:01",
+  "meta": {
+    "wics": "통신장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "현대에이치티는 1988년 현대전자 시절부터 축적해 온 홈오토메이션 기술을 바탕으로 AI 기반 스마트홈 솔루션을 제공하는 전기·전자(통신장비) 기업입니다. 국내 신축·기축 아파트의 스마트홈 인프라와 B2B 채널에서 강한 입지를 가지며, 민간 분양 기준 약 35% 수준의 시장점유율로 업계 내 우위를 유지하고 있습니다.",
+    "business_model": "핵심은 AIoT(인공지능+사물인터넷) 기반의 지능형 홈 솔루션으로, 세대 내 디바이스와 공용부를 통합해 맞춤형 서비스와 보안 기능을 제공하는 것이 주된 수익원입니다. 여기에 스마트 보안 솔루션(감시·침입탐지·사이버 보안)과 기축 리노베이션·유지보수 서비스, 플랫폼(예: HT Home Life, HT PLUS 구독) 기반의 서비스 매출이 결합되어 사업구조를 구성하고 있습니다.",
+    "main_customers": "B2B — 건설사(분양 단지, 1군 건설사 전용 제품 공급) / B2C — 일반 소비자(온·오프라인 유통 채널) / 해외 — 동남아(베트남 판매·제조 법인 기반)",
+    "price_factors": [
+      {
+        "factor": "분양물량",
+        "detail": "국내 신축 아파트 분양 물량이 줄면 신규 솔루션 공급(수주)에 직접적인 하방 압력이 발생합니다."
+      },
+      {
+        "factor": "원자재비",
+        "detail": "원자재·인건비 상승은 제조원가를 끌어올려 마진과 수익성에 부정적 영향을 미칩니다."
+      },
+      {
+        "factor": "서비스 전환",
+        "detail": "하드웨어 중심에서 AI·플랫폼 기반 서비스로 전환이 가속되면 고정적·반복적 매출 비중이 늘어 안정성에 기여합니다."
+      },
+      {
+        "factor": "글로벌 공급망",
+        "detail": "베트남 법인 등 해외 생산기지 활용은 원가경쟁력과 수출 확대에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "AI 기반 스마트홈 전문 기업으로 도약하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황 (1) 지능형 홈 솔루션",
+        "evidence_text": "세대 내 각종 통화·시큐리티·정보 기기를 네트워크로 연결하고"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "MD&A",
+        "evidence_text": "국내 B2B시장에서는 시장 우위 전략과 1군 건설사 전용 제품 공급을 통해"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 업계의 현황",
+        "evidence_text": "AI 알고리즘과 빅데이터 분석 기술은 스마트홈의 핵심 혁신 동력으로 부상하였습니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 5646,
+    "completion_tokens": 4954,
+    "reasoning_tokens": 4160,
+    "output_tokens": 794
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

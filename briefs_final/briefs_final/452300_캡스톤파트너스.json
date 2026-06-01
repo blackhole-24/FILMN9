@@ -1,0 +1,67 @@
+{
+  "stock_code": "452300",
+  "corp_name": "캡스톤파트너스",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:45",
+  "meta": {
+    "wics": "창업투자",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "캡스톤파트너스는 중소벤처기업에 대한 투자금융을 제공하는 벤처캐피탈(VC, 벤처투자회사)로, 벤처투자촉진에 관한 법률에 따라 중소벤처기업부에 등록된 회사입니다. 창업초기 기업에 대한 투자와 운용을 주력으로 하며, 투자자금을 회수할 때는 인수합병(M&A)이나 상장(IPO, 기업공개)을 활용하는 구조입니다.",
+    "business_model": "캡스톤파트너스의 사업구조는 펀드조성(자금모집) → 투자 및 관리 → 투자회수 순으로 이어지며, 벤처투자조합 결성을 통해 창업초기 기업에 투자합니다. FY2025 사업부문별 영업수익 구성은 자본 2,824(84.0%), 부채 5,000(15.0%)로 제시되어 있습니다. 벤처캐피탈 특성상 정책기관, 연기금, 금융기관, 개인·기관투자자 등이 조합 출자자로 참여합니다.",
+    "main_customers": "펀드조성 — 정책기관, 연기금, 금융기관, 개인 및 기관투자자 / 투자 및 관리 — 중소벤처기업, 창업초기 기업 / 투자회수 — 인수합병(M&A) 또는 상장(IPO) 대상 기업",
+    "price_factors": [
+      {
+        "factor": "정책출자",
+        "detail": "한국모태펀드, 성장사다리펀드 등 정책기관의 출자 규모와 일정이 조합 결성과 자금 모집에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "회수시장",
+        "detail": "M&A(인수합병)나 IPO(기업공개) 환경이 좋아질수록 투자금 회수 가능성이 높아져 실적에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "딥테크투자",
+        "detail": "기술력이 높지만 초기 자본이 부족한 벤처기업에 대한 투자가 핵심이라, 딥테크(첨단기술) 분야 투자 기회가 중요합니다."
+      },
+      {
+        "factor": "AUM확대",
+        "detail": "AUM(운용자산)이 늘어날수록 운용 규모가 커져 사업 기반이 넓어지지만, 신규 조합 결성 성과에 따라 변동성이 생길 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "1. 사업 개황",
+        "evidence_text": "당사는 중소벤처기업에 대한 투자금융을 제공하는 벤처캐피탈(Venture Capital, VC)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "2. 사업의 구조",
+        "evidence_text": "사업구조는 크게 펀드조성(자금모집), 투자 및 관리, 투자회수"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "자본: 2,824 (84.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "2. 사업의 구조 > (1) 펀드조성(자금모집) 방식",
+        "evidence_text": "주요 출자자는 한국모태펀드, 성장사다리펀드, 산업은행 등"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3209,
+    "completion_tokens": 824,
+    "reasoning_tokens": 0,
+    "output_tokens": 824
+  },
+  "warnings": []
+}

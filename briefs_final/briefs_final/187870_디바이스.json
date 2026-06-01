@@ -1,0 +1,66 @@
+{
+  "stock_code": "187870",
+  "corp_name": "디바이스",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:24",
+  "meta": {
+    "wics": "디스플레이장비및부품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "디바이스는 세정 공정의 핵심기술인 오염제어기술을 기반으로 반도체와 OLED 디스플레이 제조공정용 오염제거장비를 공급하는 기업입니다. 특히 OLED 디스플레이용 FM MASK 오염제거장비와 광학검사장비, 반도체용 FOUP 오염제거장비에서 수익을 내고 있습니다. 사업 다각화의 일환으로 반도체·디스플레이 제조공정용 소재와 부품 판매도 추진하고 있습니다.",
+    "business_model": "주력 수익원은 오염제어장비 부문이며, FY2025 기준 매출의 99.7%를 차지합니다. 나머지는 소재부품외 부문이 0.3%를 차지하며, 전체 매출 84,082백만원 중 오염제어장비가 83,817백만원, 소재부품외가 265백만원입니다. 오염제거장비는 표준품이 없어 고객사 공정에 맞춰 주문자 개발 방식으로 제작되는 것이 특징입니다.",
+    "main_customers": "오염제어장비 — 메모리·비메모리 반도체 제조사, Rigid·Flexible OLED 디스플레이 제조사 / 소재부품외 — 반도체·디스플레이 제조공정 관련 수요처",
+    "price_factors": [
+      {
+        "factor": "설비투자",
+        "detail": "디스플레이와 반도체 고객사의 설비투자 확대는 장비 수요 증가로 이어져 회사 매출에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "공정맞춤",
+        "detail": "오염제거장비는 고객사 공정에 맞춘 주문자 개발 방식이어서, 고객사 개발 로드맵과의 적합성이 수주에 중요합니다."
+      },
+      {
+        "factor": "진입장벽",
+        "detail": "주요 장비군이 소수 기업 중심의 경쟁구조라 신규 진입이 어렵고, 기존 공급사의 기술력과 신뢰성이 시장 점유에 영향을 줍니다."
+      },
+      {
+        "factor": "기술개발",
+        "detail": "고객 요구에 맞는 핵심 요소기술 연구개발이 지속되어야 품질 향상과 사업 유지가 가능해 실적에 중요한 변수입니다."
+      },
+      {
+        "factor": "반도체경기",
+        "detail": "반도체 산업은 경기와 정책 영향을 크게 받는 장치산업이어서 업황 변화가 장비 수요와 실적 변동성에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "세정 공정의 핵심기술인 오염제어기술을 기반으로"
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. 주요 제품 등의 현황",
+        "evidence_text": "오염제어장비 부문이 83,817백만원으로 전체매출의 99.68%"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "메모리와 비메모리 반도체제조공정과 Rigid 와 Flexible OLED"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4110,
+    "completion_tokens": 800,
+    "reasoning_tokens": 0,
+    "output_tokens": 800
+  },
+  "warnings": []
+}

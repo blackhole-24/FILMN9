@@ -1,0 +1,78 @@
+{
+  "stock_code": "010400",
+  "corp_name": "우진아이엔에스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 20:36",
+  "meta": {
+    "wics": "건설",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "우진아이엔에스는 하이테크 장비용 코팅덕트·라이닝 배관과 아파트·상업시설용 일반설비를 제조·설치하는 건설업 기반의 설비 전문기업입니다. 천안에 제조공장을 보유하고 있으며, 2020년 4월 27일 기업부설연구소를 설립해 신소재·신제품 연구를 진행하고 있습니다.",
+    "business_model": "핵심 사업은 하이테크 사업부문(불소수지 코팅 덕트·후막 라이닝 배관 등 반도체·화학 공정용 설비 제조·설치)과 일반설비 사업부문(아파트·오피스·호텔·백화점 등 건물용 일반설비 제조·설치)으로 구성됩니다. 제조는 천안 공장에서 이루어지며, 연구소를 통한 신소재·신제품 개발과 로토프론 대형 구조물 사업화, 2차전지 믹싱탱크 코팅 진출 등으로 사업 다각화를 추진하고 있습니다.",
+    "main_customers": "하이테크 — 반도체·디스플레이 공장 및 화학·제약·2차전지 제조업체 / 일반설비 — 아파트·오피스·호텔·백화점·병원·쇼핑몰·IDC센터·반도체 공장",
+    "price_factors": [
+      {
+        "factor": "공정가스 증가",
+        "detail": "CVD 등 박막 공정 강화로 혼합배기량과 부식성 가스 농도가 증가하면 불소 코팅 덕트 수요가 늘어 실적에 긍정적 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "내부식성 전환",
+        "detail": "과거 PVC·FRP에서 내화학성·난연성이 강화된 코팅 덕트 및 후막 라이닝 배관으로 전환되는 추세는 해당 제품의 수요 확대와 경쟁우위에 영향을 줍니다."
+      },
+      {
+        "factor": "시장다변화",
+        "detail": "로토프론 대형 라이닝 탱크 사업화 등 제품 포트폴리오 다변화는 화학·제약 등 추가 시장 진입으로 중장기 매출 구조에 영향을 미칩니다."
+      },
+      {
+        "factor": "2차전지 수요",
+        "detail": "2차전지 믹싱탱크 코팅 분야 진출은 전기차·ESS 등 관련 산업의 성장에 따라 신규 수요 창출로 연결될 수 있습니다."
+      },
+      {
+        "factor": "환율노출",
+        "detail": "외화표시 거래가 있어 환율 변동은 매출과 비용에 영향을 미칠 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "천안에 소재한 제조공장에서는 Coated Duct, Hook up 및 그 악세사리를 생산하고 있으며,"
+      },
+      {
+        "field": "business_model",
+        "source_section": "2. 사업의 상세",
+        "evidence_text": "하이테크 사업 부문은 화학 및 반도체 공장에 사용되는 코팅 덕트 및 Hook Up(후막 라이닝 배관) 등을 제조 및 설치하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "최근에는 불(난)연성이며, 보다 내부식성이 강화된 코팅 덕트, 나아가서는 후막 라이닝 배관으로 전환하는 추세 입니다."
+      },
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "2020년 4월 27일 기업부설연구소를 설립하여 신소재 및 신제품을 연구하고 있으며,"
+      },
+      {
+        "field": "business_model",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "부채비율은 31.59%로 전년말 대비 5.75%p 증가하였습니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 3694,
+    "completion_tokens": 3757,
+    "reasoning_tokens": 2752,
+    "output_tokens": 1005
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

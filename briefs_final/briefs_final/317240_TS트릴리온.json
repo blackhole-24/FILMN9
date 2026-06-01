@@ -1,0 +1,81 @@
+{
+  "stock_code": "317240",
+  "corp_name": "TS트릴리온",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 16:14",
+  "meta": {
+    "wics": "가정용품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "TS트릴리온은 탈모증상완화샴푸 및 헤어케어 제품을 제조·판매하는 화장품(헤어케어) 기업입니다. 연결종속회사는 광고대행과 휴게음식점(커피판매)을 영위하며, 제7기말 연결기준 전체 매출액은 260억을 기록하였습니다. 생산은 외주가공(외주 생산)을 통해 원가 효율성과 탄력적 시장대응을 추구하고 있습니다.",
+    "business_model": "사업부문별 매출은 제품 24,528백만원(약 94.2%), 상품 1,335백만원(약 5.1%), 기타 170백만원(약 0.7%)으로 구성되며, 핵심 수익원은 탈모증상완화샴푸 등 제품 판매입니다. 생산은 외주가공을 통해 진행되며 주요 판매채널은 홈쇼핑, 군마트(PX), 온라인마켓 등입니다.",
+    "main_customers": "제품 — 홈쇼핑업체(GS홈쇼핑, CJ홈쇼핑), 군마트(PX), 온라인마켓 이용 고객 / 상품 — 보고서상 세부 고객 미기재 / 기타 — 기타 매출(세부 경로 미기재)",
+    "price_factors": [
+      {
+        "factor": "수요 변동",
+        "detail": "경기·계절 변화에 따라 판매량과 실적이 민감하게 변동할 수 있습니다."
+      },
+      {
+        "factor": "규제 허가",
+        "detail": "탈모 관련 기능성 제품은 비고시 기능성으로 허가 절차가 까다로워 허가 지연 시 신제품 출시와 매출에 영향이 있을 수 있습니다."
+      },
+      {
+        "factor": "유통 채널",
+        "detail": "홈쇼핑·군마트·온라인 등 주요 채널의 실적 변화가 매출에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "경쟁강도",
+        "detail": "진입장벽이 낮아 경쟁이 심화되면 가격·마진 압박으로 실적에 부정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "원가·공급",
+        "detail": "외주가공 중심의 생산구조로 원가·공급망 변동이 수익성에 영향을 미칠 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 주요 제품 및 서비스",
+        "evidence_text": "탈모증상완화샴푸 및 헤어케어 제품 등을 제조 판매"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "합계 | 24,528 | 1,335 | 170 | 26,034"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 2. 주요 제품 및 서비스",
+        "evidence_text": "GS홈쇼핑, CJ홈쇼핑 등의 홈쇼핑업체"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "(마) 수요 변동요인",
+        "evidence_text": "경기 침체기에는 소비자들의 하향구매 경향이 나타나"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "(사) 규제환경",
+        "evidence_text": "탈모관련 기능성 화장품은 모두 비고시 기능성화장품으로"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "(마) 수요 변동요인",
+        "evidence_text": "유통채널의 다변화가 이루어지고 있으며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4533,
+    "completion_tokens": 4798,
+    "reasoning_tokens": 3904,
+    "output_tokens": 894
+  },
+  "warnings": []
+}

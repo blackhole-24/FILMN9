@@ -1,0 +1,76 @@
+{
+  "stock_code": "019540",
+  "corp_name": "일지테크",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 09:51",
+  "meta": {
+    "wics": "자동차부품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "일지테크는 자동차부품 생산을 중점사업으로 하는 코스닥 상장기업입니다. 주요 매출처로 현대자동차 등이 언급되며, 특허 출원과 품질관리, 공정개선을 통해 생산성 향상에 힘쓰고 있습니다. 2023년 1억불 수출의 탑을 달성했고, 글로벌 부품사로 인정받고 있다고 설명합니다.",
+    "business_model": "연결실체는 자동차부품 생산을 중심으로 매출을 올리며, 사업부문별 매출 구성은 제품매출, 중국, 미국, 기타매출로 제시되어 있습니다. 다만 제공된 자료에는 각 부문의 비율(%)이 명확히 나와 있지 않아, 비율을 특정해 적을 수는 없습니다. 수출과 해외법인 매출 확대가 실적에 영향을 주는 구조로 보입니다.",
+    "main_customers": "제품매출 — 현대자동차 등 완성차 고객사 / 중국 — 해외법인 및 현지 매출처 / 미국 — 해외법인 및 현지 매출처 / 기타매출 — 기타 거래처",
+    "price_factors": [
+      {
+        "factor": "완성차수요",
+        "detail": "자동차 부품 수요는 완성차 업계 경기와 생산량에 직접 연동되어, 완성차 수요가 늘면 실적도 함께 개선될 수 있습니다."
+      },
+      {
+        "factor": "경기민감",
+        "detail": "자동차 수요는 경기 변동에 민감해 경기 침체 시 부품 주문도 줄어들 가능성이 큽니다."
+      },
+      {
+        "factor": "환율효과",
+        "detail": "해외법인 매출이 있는 만큼 환율 변화는 매출과 이익에 영향을 줄 수 있으며, 자료에서도 환율효과가 이익 증가 요인으로 언급됩니다."
+      },
+      {
+        "factor": "해외매출",
+        "detail": "국내외 자동차 수요 회복과 해외법인 매출 증대는 매출 증가의 핵심 요인으로 제시되어 있습니다."
+      },
+      {
+        "factor": "품질경쟁",
+        "detail": "제품력, 품질, 공정개선과 같은 경쟁 요소가 중요해 연구개발과 품질관리 수준이 실적에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황 > 가. 영업 개황",
+        "evidence_text": "자동차부품 생산을 중점사업으로 하고 있으며"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황 > 가. 영업 개황",
+        "evidence_text": "2023년 1억불 수출의 탑을 달성하였으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황 > 가. 영업 개황",
+        "evidence_text": "주요 매출처로는 현대자동차 등이 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "주요 사업부문 (비율 불명확)"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황 > 가. 경기변동의 특성",
+        "evidence_text": "자동차 수요는 경기 변동과 밀접한 관계를 맺고 있습니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4558,
+    "completion_tokens": 842,
+    "reasoning_tokens": 0,
+    "output_tokens": 842
+  },
+  "warnings": []
+}

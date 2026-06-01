@@ -1,0 +1,67 @@
+{
+  "stock_code": "052770",
+  "corp_name": "아이톡시",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 03:02",
+  "meta": {
+    "wics": "게임엔터테인먼트",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "아이톡시는 게임 퍼블리싱 및 리퍼블리싱을 주력으로 하는 IT 서비스 기업으로, 마케팅 플랫폼·해외 유통·국내 유통 등 다양한 사업을 전개합니다. 주요 타이틀로는 웹툰 IP 기반 RPG '갓오브하이스쿨'과 '천상비K' 등이 있습니다.",
+    "business_model": "핵심 수익은 게임사업(매출의 약 99.7%)으로, 부분유료화(Freemium) 구조를 통해 유저 과금, 이벤트, IAA(인앱 광고) 수익 등을 창출하며 주요 플랫폼은 구글·애플·원스토어입니다. 기타사업(약 0.3%)은 B2B 중심의 커머스 플랫폼과 뷰티·헬스케어 제품 유통(LED 마스크, 진단키트 등)을 포함합니다.",
+    "main_customers": "게임사업 — 모바일 플랫폼을 이용하는 플레이어(구글·애플·원스토어) / 해외 유통 — 우크라이나 현지 공공기관 및 민간기업(현지 납품처) / 기타사업 — B2B 거래처(알리바바 계열 연동·SK 복지몰 등) 및 유통 채널",
+    "price_factors": [
+      {
+        "factor": "마케팅비용",
+        "detail": "신작 초기 대규모 마케팅이 필수인 산업 특성상 마케팅비 증가 시 단기 실적에 부담을 줄 수 있습니다."
+      },
+      {
+        "factor": "플랫폼수수료",
+        "detail": "구글·애플 등 앱마켓 수수료 구조 변화는 게임사업의 매출 및 수익성에 직접적인 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "환율·정세",
+        "detail": "해외 유통과 글로벌 플랫폼 수익은 환율 및 현지 정세 변화에 따라 계약단가와 매출에 변동을 초래할 수 있습니다."
+      },
+      {
+        "factor": "시즌성",
+        "detail": "콘텐츠 소비가 명절·방학·연휴 등 시즌에 따라 변동되므로 사용자 과금과 매출 변동성이 존재합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 게임 퍼블리싱 및 리퍼블리싱 사업을 주력으로"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "게임사업부문이 약 99.7%, 기타사업부문이 약 0.3%를 차지하고 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "주요 서비스 플랫폼은 구글, 애플 그리고 원스토어 등입니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "콘텐츠 소비량이 변동되는 특성을 보이기도 합니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4165,
+    "completion_tokens": 3832,
+    "reasoning_tokens": 3072,
+    "output_tokens": 760
+  },
+  "warnings": []
+}

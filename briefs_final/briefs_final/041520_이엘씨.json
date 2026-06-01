@@ -1,0 +1,64 @@
+{
+  "stock_code": "041520",
+  "corp_name": "이엘씨",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 01:31",
+  "meta": {
+    "wics": "반도체와반도체장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "이엘씨는 제어계측기기와 반도체 장비를 설계·제조하는 기업으로, 반도체 세정용 유량계와 LFC(유량제어기) 등 핵심 부품과 패키지용 정밀 연삭(Grinder) 장비를 공급하고 있습니다. 2024년 3월 BLU 사업부문 영업정지 관련 이사회 결의를 공시하는 등 사업 구조 조정 이력이 있습니다.",
+    "business_model": "주요 사업은 제어계측기기 부문과 반도체장비 부문으로 구성되며, 제어계측기기는 반도체 세정공정에 들어가는 유량계와 LFC의 판매가 핵심 수익원이고, 반도체장비는 고객 주문에 맞춰 설계·제작하는 Strip Grinder 등 맞춤형 장비 중심의 매출 구조입니다. [사업부문별 매출 구성]에는 제어계측기기 부문, 내수, 기타, 반도체장비 부문, 소모품 등이 표기되어 있습니다.",
+    "main_customers": "제어계측기기 부문 — 반도체 제조사(세정공정 운용 고객) / 반도체장비 부문 — 반도체 패키징·모듈 제조사(정밀 Grinding 수요 고객)",
+    "price_factors": [
+      {
+        "factor": "CAPEX 사이클",
+        "detail": "반도체 장비와 계측기 수요는 반도체 업계의 설비투자(CAPEX) 사이클에 민감해 경기 변동 시 실적에 직접적인 영향을 받습니다."
+      },
+      {
+        "factor": "AI 수요",
+        "detail": "AI·고성능 컴퓨팅 수요 확대에 따른 고성능 반도체 수요 증가는 정밀 Grinding 등 장비 수요를 확대시킬 수 있습니다."
+      },
+      {
+        "factor": "패키징 기술",
+        "detail": "2.5D 패키지 대형화와 복합 소재 연삭 확대(EMC+DIE+Solder Ball 등)는 당사의 정밀 연삭 기술 수요에 영향을 줍니다."
+      },
+      {
+        "factor": "중국 정책",
+        "detail": "중국의 반도체 산업 육성 정책은 직·간접적으로 제어계측기기와 장비 수요에 기회 또는 경쟁 변수가 될 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "주식회사 이엘씨와 종속기업(이하 \"연결실체\")은 제어계측기기를 제조 및 판매하는 사업과 반도체 장비 사업을 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황",
+        "evidence_text": "제어계측기기 부문의 유량계와 LFC는 반도체 세정설비에 적용되는 핵심 부품입니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나. 업계의 현황",
+        "evidence_text": "향후 반도체 미세공정 및 2.5D Packaging의 발전과 비례하여 수요가 증가할 것으로 기대됩니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4684,
+    "completion_tokens": 3596,
+    "reasoning_tokens": 2816,
+    "output_tokens": 780
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

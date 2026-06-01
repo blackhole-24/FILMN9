@@ -1,0 +1,76 @@
+{
+  "stock_code": "032560",
+  "corp_name": "황금에스티",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 09:55",
+  "meta": {
+    "wics": "비철금속",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "황금에스티는 스테인레스와 철강, 건설 관련 사업을 영위하는 기업입니다. 사업보고서상 스테인레스는 식품, 화학, 반도체, 자동차, 기계, 플랜트, 건설 등 다양한 산업에 쓰이는 기초소재로 설명되며, 건설 부문은 수주산업의 성격을 가진다고 제시되어 있습니다.",
+    "business_model": "FY2025 사업부문별 영업수익은 스테인레스 외 170,379백만원(53.8%), 공사수익 94,727백만원(29.9%), 기타수익 5,702백만원(1.8%)으로 구성됩니다. 수입의존도가 높은 원자재 조달 구조를 가진 가운데, 환위험 관리와 비용 구조 최적화, 제품 다변화를 통해 수익성을 높이려는 방향을 제시하고 있습니다.",
+    "main_customers": "스테인레스 외 — 식품·화학·반도체·자동차·기계·플랜트·건설 등 다양한 산업 / 공사수익 — 발주자(수주 기반 고객) / 기타수익 — 데이터에 구체적 고객 유형 미제시",
+    "price_factors": [
+      {
+        "factor": "환율변동",
+        "detail": "해외에서 원자재를 수입하는 구조라 환율이 급변하면 조달 비용과 수익성에 즉각적인 영향을 줍니다."
+      },
+      {
+        "factor": "원자재가",
+        "detail": "원자재 가격이 변하면 스테인레스 및 철강 제품의 원가 구조가 달라져 실적 변동 요인이 됩니다."
+      },
+      {
+        "factor": "공급망",
+        "detail": "글로벌 공급망 불안정이 생산 일정과 납기 관리에 어려움을 주어 실적과 운영 효율에 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "건설경기",
+        "detail": "공사수익 비중이 있어 건설산업의 수주와 경기 흐름이 매출 변동에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "수요산업",
+        "detail": "스테인레스는 여러 산업의 기초소재이므로 자동차·건설·플랜트 등 전방 산업 수요 변화가 실적에 연결됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 산업의 특성[철강부문]",
+        "evidence_text": "스테인레스는... 다양한 분야에 사용되고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "스테인레스 외: 170,379 (53.8%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "공사수익: 94,727 (29.9%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 산업의 특성[철강부문]",
+        "evidence_text": "식품, 화학, 반도체, 자동차, 기계, 플랜트, 건설"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "MD&A",
+        "evidence_text": "해외에서 원자재를 수입해야 하는 당사의 사업 특성상"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4080,
+    "completion_tokens": 822,
+    "reasoning_tokens": 0,
+    "output_tokens": 822
+  },
+  "warnings": []
+}

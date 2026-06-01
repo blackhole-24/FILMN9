@@ -1,0 +1,67 @@
+{
+  "stock_code": "001470",
+  "corp_name": "삼부토건",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 17:29",
+  "meta": {
+    "wics": "건설",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "삼부토건은 1948년 설립된 국내 건설회사로, 항만·댐·도로·지하철·발전소 등 토목·건축 시공 실적을 보유하고 있습니다. 2025년 도급순위 기준 78위로 오랜 시공 경험을 바탕으로 국내 공사에 주력하고 있습니다.",
+    "business_model": "주요 수익원은 국내건설사업으로 도로·지하철·발전소·댐·항만·아파트 등 대형 토목·건축 공사에 집중하며, 사업부문별 매출 비중은 국내사업부문 97.76%, 해외사업부문 0.00%, 스틸사업부문 0.00%, 기타사업부문 2.24%로 구성되어 있습니다. 스틸사업부문은 양수도 계약 체결과 최종 정산으로 매각되어 중단영업으로 처리되었습니다.",
+    "main_customers": "국내사업부문 — 공공(관급) 발주처 및 민간 건설사업자 / 해외사업부문 — 현재 진행 사업 없음(현지법인 휴업·청산 예정) / 스틸사업부문 — 매각으로 중단 / 기타사업부문 — 용지매각·임대·용역 수입 관련 거래처",
+    "price_factors": [
+      {
+        "factor": "수주경쟁",
+        "detail": "입찰 중심의 산업구조상 수주 확보 여부가 매출과 실적에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "원가·물가",
+        "detail": "급격한 물가 상승은 공사원가를 높여 수익성 악화로 이어질 수 있습니다."
+      },
+      {
+        "factor": "유동성",
+        "detail": "공사 대금의 선투자·후회수 구조로 자금조달 어려움이 발생하면 공정지연 및 비용 증가로 연결됩니다."
+      },
+      {
+        "factor": "신용등급·회생절차",
+        "detail": "신용등급 하락 및 회생절차는 보증·금융 조달과 수주 경쟁력에 부정적 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황 (1)국내사업부문",
+        "evidence_text": "1948년 설립, 1955년 5월 14일자로 설립 등기"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "국내사업부문 ... 97.76%"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "과거 관급공사인 토목공사 매출비중이 높았으나"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "공사기간이 길고 자금이 선투자 후회수 형태로"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4676,
+    "completion_tokens": 3325,
+    "reasoning_tokens": 2560,
+    "output_tokens": 765
+  },
+  "warnings": []
+}

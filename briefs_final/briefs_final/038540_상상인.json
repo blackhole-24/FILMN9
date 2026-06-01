@@ -1,0 +1,91 @@
+{
+  "stock_code": "038540",
+  "corp_name": "상상인",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 09:58",
+  "meta": {
+    "wics": "기타금융",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "상상인은 정보통신, 금융, 조선, 전산프로그램 개발 및 운영 사업을 함께 영위하는 상장기업입니다. 사업보고서 기준으로 2025년 연결 매출액은 4,186억원이며, 연결 기준 자산과 부채 규모가 모두 큰 편인 종합 사업 구조를 갖고 있습니다. 또한 상상인그룹의 모회사로서 '상상인' 브랜드 전반의 상표권을 보유하고 있습니다.",
+    "business_model": "FY2025 사업부문별 영업수익 구성은 금융 31.2%, 정보통신 10.1%, 조선 8.0%, 전산프로그램 운용 0.7%입니다. 정보통신 부문은 SI(System Integration, 시스템 통합), ITO(IT Outsourcing, 정보기술 위탁운영), BPO(Business Process Outsourcing, 업무 위탁) 성격의 IT시스템 구축·운영 사업을 중심으로 하며, 금융 부문은 종속회사인 상상인저축은행 관련 사업이 포함되어 있습니다. 조선과 전산프로그램 운용도 함께 두고 있어, 금융과 IT서비스를 축으로 한 복합 사업 구조로 볼 수 있습니다.",
+    "main_customers": "정보통신 — 금융기관, 공공기관, 일반기업, 통신사업자 / 금융 — 저축은행 이용 고객 / 조선 — 제공된 데이터 없음 / 전산프로그램 운용 — 제공된 데이터 없음",
+    "price_factors": [
+      {
+        "factor": "정부수요",
+        "detail": "정부와 지방자치단체의 정보시스템 구축 수요가 늘면 정보통신 부문 실적에 긍정적으로 작용할 수 있습니다."
+      },
+      {
+        "factor": "민간교체",
+        "detail": "민간부문의 전산시스템 업그레이드 수요가 커질수록 네트워크 통합 및 구축 사업 수주 여지가 확대됩니다."
+      },
+      {
+        "factor": "기술경쟁",
+        "detail": "정보통신산업은 신기술 개발 속도가 빠르고 제품 수명주기가 짧아, 기술 대응력에 따라 실적 변동이 커질 수 있습니다."
+      },
+      {
+        "factor": "장비수급",
+        "detail": "주요 장비가 수입품 비중이 높고 일부 부품은 조달이 어려워, 공급 차질이 생기면 사업 진행에 부담이 될 수 있습니다."
+      },
+      {
+        "factor": "브랜드관리",
+        "detail": "상상인 브랜드의 가치 제고와 보호 활동이 지속되면 회사의 대외 인지도와 영업 활동에 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "MD&A",
+        "evidence_text": "본 사업보고서 작성 기준일 현재 당사의 연결대상 종속회사는 총 21개사"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "(주)상상인은 상상인그룹의 모회사로서 '상상인' 브랜드 전반의 상표권을 보유"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "정보통신: 42,168 (10.1%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "금융: 130,617 (31.2%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "조선: 33,500 (8.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "전산프로그램 운용: 2,761 (0.7%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "금융기관, 공공기관, 일반기업 및 통신사업자들의"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "시장여건 및 영업의 개황[정보통신 사업부문]",
+        "evidence_text": "정부 및 지방자치단체에서의 수요가 꾸준히 늘어날 것으로 보이며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4976,
+    "completion_tokens": 1046,
+    "reasoning_tokens": 0,
+    "output_tokens": 1046
+  },
+  "warnings": []
+}

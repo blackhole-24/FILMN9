@@ -1,0 +1,92 @@
+{
+  "stock_code": "016710",
+  "corp_name": "대성홀딩스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 21:53",
+  "meta": {
+    "wics": "가스유틸리티",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "대성홀딩스는 1983년 1월 31일 설립된 지주회사로, 1999년 12월 22일 유가증권시장에 상장되었습니다. 연결 기준 국내 6개 종속회사를 보유하고 계열사의 경영지원과 지분투자를 통해 지주회사 역할을 수행하고 있습니다.",
+    "business_model": "주요 수익은 계열사 지분투자에서 발생하는 배당금과 자체사업 매출이며, FY2025 연결 영업수익 구성에서는 도시가스부문이 94.2%로 압도적 비중을 차지합니다. 나머지 부문은 경영관리부문 0.8%, 건물관리부문 0.1%, 대성에너지제6서비스(주) 0.1%, 대성에너지제7서비스(주) 0.1%, 대성에너지서비스1센터(주) 0.2%, 대성에너지서비스2센터(주) 0.1%, 대성에너지서비스3센터(주) 0.2%로 구성되어 있습니다.",
+    "main_customers": "도시가스부문 — 가정용(취사용·난방용·냉난방공조용)·상업·산업·운송용(시내버스 충전) / 경영관리·IT사업부 — 계열회사(종속회사 대상 업무지원·전산서비스) / 콜센터·CRM — 기업(통신업무대행·텔레마케팅·인재파견 수요) / 벤처캐피탈 — 중소기업 창업자 및 벤처기업",
+    "price_factors": [
+      {
+        "factor": "도매요금",
+        "detail": "도매요금(원료비 연동제)이 변동하면 도시가스요금과 실적에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "소매비용",
+        "detail": "소매공급비용은 지방자치단체에서 연 1회 결정되어 최종 소비자요금과 수익성에 영향을 줍니다."
+      },
+      {
+        "factor": "수요구성",
+        "detail": "주택용 비중이 높아 경기 변동에 따른 수요 충격이 상대적으로 작게 작용합니다."
+      },
+      {
+        "factor": "규제환경",
+        "detail": "도시가스사업은 관련 법령과 규정에 따라 요금·설비·안전 등이 엄격히 규제됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "1983년 1월 31일 법인을 설립하였으며"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "계열회사의 실질적인 지주회사로서의 역할을 수행하고 있습니다"
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황",
+        "evidence_text": "도시가스사업부문의 매출액이 약 94%를 차지하고 있습니다"
+      },
+      {
+        "field": "business_model",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "자회사로부터의 배당금 수익 및 자체사업 매출이 주요 영업 수익원이며"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "취사용, 난방용, 냉난방공조용"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "텔레마케팅, 인재파견 서비스업을 영위"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "영업 현황",
+        "evidence_text": "도매요금은 원료비 연동제에 따라"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "영업 현황",
+        "evidence_text": "소매공급비용은 지방자치단체에서 결정하며 1년에 1회"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "주택용 비중이 높아 경기 변동으로 인한 영향이 적으며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 6151,
+    "completion_tokens": 5615,
+    "reasoning_tokens": 4544,
+    "output_tokens": 1071
+  },
+  "warnings": []
+}

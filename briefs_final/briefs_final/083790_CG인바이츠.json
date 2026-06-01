@@ -1,0 +1,81 @@
+{
+  "stock_code": "083790",
+  "corp_name": "CG인바이츠",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:12",
+  "meta": {
+    "wics": "생명과학도구및서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "CG인바이츠는 2000년 7월 설립돼 2006년 1월 코스닥시장에 상장한 바이오 기업입니다. 2023년 6월 사명을 크리스탈지노믹스에서 씨지인바이츠로 변경했으며, 생명공학을 이용한 의약품 연구개발과 신기술 연구를 주된 사업으로 하고 있습니다.",
+    "business_model": "회사의 핵심은 구조 기반 신약 연구개발과 유전체 기반 사업입니다. FY2025 사업부문별 영업수익은 온열패치(핫팩) 등 45.1%, AI헬스케어솔루션 30.6%, 연구개발(기술료) 6.8%로 구성되어 있으며, 신약 후보물질을 만든 뒤 기술이전(개발 권리를 넘기는 계약)으로 수익을 실현하는 방식이 주요한 사업모델입니다. 유전체 분야에서는 정밀의학과 개인맞춤형 헬스케어 관련 사업을 추진하고 있습니다.",
+    "main_customers": "연구개발(기술료) — 다국적 제약회사, 선진 바이오 회사 / AI헬스케어솔루션 — 별도 고객 유형 정보 없음 / 온열패치(핫팩) 등 — 별도 고객 유형 정보 없음",
+    "price_factors": [
+      {
+        "factor": "기술이전",
+        "detail": "신약 후보물질의 기술이전 성과가 나올수록 조기 수익 실현 기대가 커져 실적에 직접 영향을 줍니다."
+      },
+      {
+        "factor": "임상진행",
+        "detail": "임상 2상, 3상 등 개발 단계가 진전되면 파이프라인 가치가 달라져 기업가치와 실적 전망에 영향을 줍니다."
+      },
+      {
+        "factor": "규제환경",
+        "detail": "제약산업은 정부 규제가 강하고 개발 절차가 길어 인허가 일정과 결과가 실적 변동의 핵심 변수입니다."
+      },
+      {
+        "factor": "유전체수요",
+        "detail": "유전체 분석과 정밀의학 사업 수요가 늘면 국가 사업 수주와 관련 서비스 매출 확대에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "산업경쟁",
+        "detail": "바이오 기업들이 신약 연구개발에 집중하는 경쟁 환경에서 차별화된 기술 확보가 사업 경쟁력에 중요합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "MD&A",
+        "evidence_text": "2000년 7월 7일에 대한민국에서 설립되어 2006년 1월 6일에 주식을 코스닥시장에 상장한 회사"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "MD&A",
+        "evidence_text": "2023년 6월 29일 주주총회 결의에 따라 상호를 크리스탈지노믹스 주식회사에서 씨지인바이츠 주식회사로 변경"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "연구개발(기술료): 1,673 (6.8%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "AI헬스케어솔루션: 8,167 (30.6%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "온열패치(핫팩) 등: 7,224 (45.1%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "다국적 제약회사나 선진 바이오 회사에 기술을 이전"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5014,
+    "completion_tokens": 950,
+    "reasoning_tokens": 0,
+    "output_tokens": 950
+  },
+  "warnings": []
+}

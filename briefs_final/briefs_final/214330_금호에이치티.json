@@ -1,0 +1,67 @@
+{
+  "stock_code": "214330",
+  "corp_name": "금호에이치티",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 12:12",
+  "meta": {
+    "wics": "자동차부품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "금호에이치티는 LED모듈, 백열전구, BMA 등 자동차용 조명 및 부품을 생산하는 기업으로, FY2025 연결 매출액 3,854억원을 기록했습니다. 제품은 글로벌 완성차 기업에 공급되며 자동차 부품이 매출의 대부분을 차지합니다.",
+    "business_model": "주력 사업은 자동차 부품이며 FY2025 기준 자동차 부품이 매출의 94.3%를 차지하고, 대전방지(0.8%)와 바이오 의약(4.9%)이 소수 부문을 구성합니다. LED모듈·백열전구는 차량의 전·후면 조명, 계기판, 실내등 등에 적용되고 BMA는 배터리 모듈의 부품으로 활용되며(BMA: 배터리 모듈 부품), LED 채택 확대는 백열전구 수요에 하방 압력을 줄 수 있습니다.",
+    "main_customers": "자동차 부품 — 글로벌 완성차 기업 / 대전방지 — 전자제품 포장용 수요처 / 바이오 의약 — 신약 연구개발·의약품 도소매 관련 수요처",
+    "price_factors": [
+      {
+        "factor": "완성차 수요",
+        "detail": "완성차 판매량 변동이 매출과 실적에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "경기민감",
+        "detail": "경기 침체 시 자동차 수요가 민감하게 감소하여 실적 악화로 이어질 수 있습니다."
+      },
+      {
+        "factor": "기술·협력",
+        "detail": "완성차와의 공동 개발·품질검증 및 기술력이 납품 지속성과 마진에 영향을 줍니다."
+      },
+      {
+        "factor": "LED전환",
+        "detail": "자동차 조명에서 LED 채택이 증가하면 백열전구 수요 감소로 실적에 부정적 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 가. 주요 제품에 관한 사항",
+        "evidence_text": "연결회사는 LED모듈, 백열전구, BMA 등 자동차 부품을 생산하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "자동차 부품: 363,342 (94.3%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "바이오 의약: 18,925 (4.9%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "연결회사의 영업 현황(경영진 요약)",
+        "evidence_text": "당사의 제품은 글로벌 완성차 기업에 최종공급 되고있으며,"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3987,
+    "completion_tokens": 4040,
+    "reasoning_tokens": 3328,
+    "output_tokens": 712
+  },
+  "warnings": []
+}

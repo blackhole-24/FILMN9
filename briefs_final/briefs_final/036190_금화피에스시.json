@@ -1,0 +1,92 @@
+{
+  "stock_code": "036190",
+  "corp_name": "금화피에스시",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 00:33",
+  "meta": {
+    "wics": "건설",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "금화피에스시는 1981년 5월 설립된 플랜트 전문건설회사로 출발하여 발전소 건설과 정비를 아우르는 플랜트 전문기업입니다. 1995년 민간기업 최초로 발전정비사업에 진출한 이후 플랜트 건설부터 발전소 경상정비까지 경험과 기술을 축적해왔습니다.",
+    "business_model": "주요 사업은 플랜트건설사업부문과 발전소경상정비사업부문이며, FY2025 기준 사업부문별 영업수익 구성은 국내도급공사 75.3%, 에너지설비 11.5%, 해외도급공사 12.3%, 자체공사 0.9%로 구성되어 있습니다. 플랜트 건설(화력·원자력·복합화력 등)과 발전설비의 상주 정비·예방정비·긴급복구 서비스가 핵심 수익원입니다.",
+    "main_customers": "플랜트건설 — 국가전력사업 및 석유화학·LNG·제철·환경설비 운영사 / 발전소경상정비 — 가동 중인 발전소 운영사 및 발전소 유지관리 부서 / 수처리·폐수 — 발전·석유화학·반도체 등 산업 플랜트 운영사",
+    "price_factors": [
+      {
+        "factor": "에너지전환",
+        "detail": "신재생에너지 비중 확대는 향후 발전소 발주 구조와 공종(공사 유형)에 영향을 주어 수주 기회와 사업 포트폴리오에 변화를 초래할 수 있습니다."
+      },
+      {
+        "factor": "정비고도화 수요",
+        "detail": "탈석탄 정책과 종합심사낙찰제 도입 등으로 고품질 서비스와 기술력 차별화 요구가 증가하여 정비업체의 경쟁력(기술·품질)이 실적에 직접적 영향을 미칩니다."
+      },
+      {
+        "factor": "해외수주",
+        "detail": "해외도급공사(12.3%) 비중이 있어 글로벌 발주환경과 신흥국 수요 변동이 매출에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "환율(달러)",
+        "detail": "국제영업에서 달러 등 외화 노출이 있어 환율 변동은 연결실적의 손익 변동 요인이 됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 회사의 현황 1) 회사의 개요(요약)",
+        "evidence_text": "당사는 1981년 5월에 설립하였으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "- 국내도급공사: 249,108 (75.3%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "- 에너지설비: 510 (11.5%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "- 해외도급공사: 4,202 (12.3%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "- 자체공사: 2,912 (0.9%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 주요 사업부문",
+        "evidence_text": "당사는 1981년 5월에 설립된 이후 국가전력사업의 시공을 주로하여 왔습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 사업의 특성 및 성장성 [플랜트설비 및 발전정비 부문]",
+        "evidence_text": "신재생에너지 비중은 47%(2030년 대비 7.8%증가)"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 사업의 특성 및 성장성 [플랜트설비 및 발전정비 부문]",
+        "evidence_text": "탈석탄 정책변화와 신재생에너지 확대"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 주요 사업부문 및 환율영향 설명",
+        "evidence_text": "주요 통화는 미국 달러화입니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5978,
+    "completion_tokens": 5470,
+    "reasoning_tokens": 4352,
+    "output_tokens": 1118
+  },
+  "warnings": []
+}

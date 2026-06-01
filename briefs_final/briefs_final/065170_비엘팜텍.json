@@ -1,0 +1,67 @@
+{
+  "stock_code": "065170",
+  "corp_name": "비엘팜텍",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 04:26",
+  "meta": {
+    "wics": "건강관리업체및서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "비엘팜텍은 위탁생산(OEM)된 건강기능식품을 홈쇼핑과 온라인쇼핑몰을 통해 직접 유통하는 생활건강 중심 기업입니다. 체외진단의료기기 제조·판매와 관계회사(비엘멜라니스)를 통한 항암치료제 개발 등 헬스케어 전반으로 사업 영역을 확장하고 있습니다.",
+    "business_model": "핵심은 생활건강사업으로, FY2025 기준 생활건강사업이 영업수익의 65.7%를 차지하고 있으며(생활건강사업: 4,312,239 (65.7%)), 제조는 외주(위탁생산)를 통해 제품을 조달하고 홈쇼핑·디지털 채널을 중심으로 직접 판매하는 구조입니다. 또한 체외진단기기 판매와 관계회사를 통한 신약(항암제) 개발을 병행하며 채널·제품 다각화를 추진하고 있습니다.",
+    "main_customers": "생활건강사업 — 홈쇼핑·온라인 구매자 (MZ세대·Young 실버 등 핵심 고객층) / 체외진단의료기기 — 자가검체 채취를 이용하는 여성 소비자 / 항암치료제 개발 — 관계회사(비엘멜라니스) 관련 연구개발·임상 이해관계자",
+    "price_factors": [
+      {
+        "factor": "온라인전환",
+        "detail": "온라인(오픈마켓·소셜커머스) 비중 확대는 디지털 채널에 집중하는 비엘팜텍의 매출·마케팅 실적에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "고령화",
+        "detail": "고령화 진전은 건강기능식품 수요의 하방을 지지해 장기적 수요 기반에 긍정적 영향을 줍니다."
+      },
+      {
+        "factor": "원료다변화",
+        "detail": "홍삼 중심에서 기능성 원료가 다양화되는 추세는 신원료 기반 제품 경쟁력으로 연결될 수 있습니다."
+      },
+      {
+        "factor": "시장축소",
+        "detail": "건강기능식품 시장 규모의 점진적 축소 전망은 경쟁 심화와 수익성 압박으로 이어질 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 생활건강 사업",
+        "evidence_text": "홈쇼핑, 온라인쇼핑몰 등에 직접 유통하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "생활건강사업: 4,312,239 (65.7%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 생활건강 사업",
+        "evidence_text": "MZ세대의 경우 이들의 구미에 맞는 트랜디한 상품"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "나. 체외진단의료기기 제조 및 판매",
+        "evidence_text": "본인 스스로 검체 채취를 할 수 있는 혁신 제품입니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4449,
+    "completion_tokens": 4283,
+    "reasoning_tokens": 3520,
+    "output_tokens": 763
+  },
+  "warnings": []
+}

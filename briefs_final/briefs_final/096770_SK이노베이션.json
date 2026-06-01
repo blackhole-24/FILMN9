@@ -1,0 +1,76 @@
+{
+  "stock_code": "096770",
+  "corp_name": "SK이노베이션",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 07:41",
+  "meta": {
+    "wics": "석유와가스",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "SK이노베이션은 2024년 11월 1일 SK E&S와의 합병을 통해 아시아·태평양 지역 민간 최대 종합 에너지 회사로 자리매김했으며, 석유·화학, LNG, 전력, 배터리 등 현재와 미래 에너지를 아우르는 균형 잡힌 Energy Portfolio를 보유하고 있습니다. 합병 이후 통합 시너지와 비용절감 등을 통해 매출과 영업이익을 회복했습니다.",
+    "business_model": "당사의 매출은 석유사업(59%), E&S CIC(15%), 화학사업(11%), 배터리사업(9%), 윤활유사업(5%), 소재·석유개발·기타(1%)로 구성되며(2025년 4분기 누적 기준), 정유공정 기반의 석유사업이 매출 비중의 중심입니다. 배터리사업은 전기차 및 ESS용 배터리 공급과 BaaS(서비스형 배터리) 등을 병행하며 2026년 말까지 연간 179GWh 이상의 생산능력 확보를 계획하고 있습니다.",
+    "main_customers": "석유사업 — SK온 트레이딩인터내셔널·SK지오센트릭·대리점·주유소/화학사업 — 산업용·소재 기업, 글로벌 바이어/배터리사업 — 자동차 제조사 및 ESS 고객(국내외), 배터리 이용 고객사/도시가스·전력(E&S CIC) — 한국가스공사(도매) 및 발전자회사·일반 소비자",
+    "price_factors": [
+      {
+        "factor": "원유공급",
+        "detail": "원유 수입 의존도가 높아 중동 등 산유국의 수출정책·지정학적 리스크가 원가와 마진에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "환율",
+        "detail": "원유 및 수입 원자재를 달러로 조달하는 구조상 환율 변동이 비용과 손익에 민감한 영향을 줍니다."
+      },
+      {
+        "factor": "수요경기",
+        "detail": "석유제품 수요는 국내외 경기 변동에 크게 좌우되므로 경기 둔화 시 판매량과 실적에 부담이 될 수 있습니다."
+      },
+      {
+        "factor": "전기차수요",
+        "detail": "배터리사업은 전기차 시장 수요에 연동되므로 전기차 성장세 변화가 판매량과 가동률에 영향을 줍니다."
+      },
+      {
+        "factor": "계약가격",
+        "detail": "배터리·기유·윤활유 등 주요 제품의 가격이 고객사와의 개별계약에 따라 결정되어 실적 변동성이 계약 조건에 좌우됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "아시아·태평양 지역 민간 최대 종합 에너지 회사"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "당사의 매출액은 석유사업 59%, E&S CIC 사업부문 15%, 화학사업 11%"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 석유사업",
+        "evidence_text": "주요 거래처 및 대리점, 직매, 수출 경로"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 석유 사업",
+        "evidence_text": "원유 수입에 의존하고 있는 특성상"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 배터리 사업",
+        "evidence_text": "179GWh 이상의 연간 생산 능력을 확보해"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5771,
+    "completion_tokens": 4219,
+    "reasoning_tokens": 3264,
+    "output_tokens": 955
+  },
+  "warnings": []
+}

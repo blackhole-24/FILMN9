@@ -1,0 +1,76 @@
+{
+  "stock_code": "234920",
+  "corp_name": "자이글",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 13:19",
+  "meta": {
+    "wics": "건강관리장비와용품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "자이글은 웰빙 주방·헬스케어·의료기기 분야의 제품을 개발, 제조, 판매, 수출하는 기업으로 자체 브랜드 '자이글(ZAIGLE)'을 중심으로 제품을 공급하고 있습니다. 한국 홈쇼핑을 통해 성장했으며 온라인·오프라인·렌탈 등 유통 채널을 확대해 왔습니다.",
+    "business_model": "사업부문은 단일부문으로서 '제품'이 FY2025 기준 매출의 100.0%를 차지합니다. 주로 적외선 가열 조리기 등 주방생활가전과 의료가전·헬스케어 제품 및 캠핑용품을 자체 연구개발과 자체 영업망·물류로 원스탑(일괄) 제공하여 판매합니다.",
+    "main_customers": "주방생활가전 — 홈쇼핑·온라인·오프라인을 이용하는 일반 소비자 / 의료가전·헬스케어 — 일반 소비자(의료기 판매 포함) / 아웃도어 캠핑용품 — 캠핑·레저 소비자",
+    "price_factors": [
+      {
+        "factor": "원재료·환율",
+        "detail": "중국 외주공장 의존으로 원재료 수급과 환율 변동이 제조원가에 직접적 영향을 미칩니다."
+      },
+      {
+        "factor": "판매채널",
+        "detail": "홈쇼핑·대형양판점·온라인·렌탈 등 채널별 비중 변화가 매출과 제품가격에 영향을 줍니다."
+      },
+      {
+        "factor": "의료기 규제",
+        "detail": "식약처 승인 여부와 규제 변화가 의료기기 판매 시점과 매출에 영향을 미칩니다."
+      },
+      {
+        "factor": "생산규모",
+        "detail": "지속적 생산물량 확대를 통한 규모의 경제 실현 여부가 원가 경쟁력에 영향을 줍니다."
+      },
+      {
+        "factor": "물류입지",
+        "detail": "대형 물류센터의 입지적 이점이 물류비용 및 배송 경쟁력에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "웰빙 헬스케어 제품을 개발, 제조, 판매, 수출을 주요사업으로 하여 왔습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "제      품: 8,230 (100.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "2. 주요 제품등의 가격변동 추이",
+        "evidence_text": "온라인채널과 자체렌탈(콜센터 운영)판매 등입니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "2. 주요 제품등의 가격변동 추이",
+        "evidence_text": "현지의 원재료 수급상황과 환변동에 따라 제조원가 변동요인이 존재하나"
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황",
+        "evidence_text": "당사는 세계 최초로 적외선 가열조리기 시장을 개척하였고"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3961,
+    "completion_tokens": 4326,
+    "reasoning_tokens": 3520,
+    "output_tokens": 806
+  },
+  "warnings": []
+}

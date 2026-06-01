@@ -1,0 +1,67 @@
+{
+  "stock_code": "025900",
+  "corp_name": "동화기업",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 23:13",
+  "meta": {
+    "wics": "건축자재",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "동화기업은 소재사업, 화학사업, 하우징사업을 영위하는 종이·목재·건축자재업체로, 연결기준 매출액은 8,296억 원(2025년) 수준입니다. 보드(MDF 등)와 전자재료(TEGO, 전해액), 바닥재(마루) 등 제조 중심의 장치산업에 속해 있습니다.",
+    "business_model": "회사 핵심은 소재사업및 화학사업과 하우징사업을 통한 제품 판매로, 제품군으로는 보드(PB·MDF 등), TEGO·전해액 등 전자재료, 건장재(마루) 등이 있습니다. FY2025 사업부문별 영업수익 구성은 소재사업및 화학사업 13.2%, 임대 등 1.4%, 하우징사업 1.0%, 상품 1.2%로 보고되어 있습니다.",
+    "main_customers": "소재사업및 화학사업 — 대리점·건설사·가구업체 / 하우징사업 — 대리점·건설사·가구업체 / 임대 등·상품 — 대리점·가구업체",
+    "price_factors": [
+      {
+        "factor": "원자재",
+        "detail": "원자재 가격 변동성은 원가와 이익률에 직접 영향을 주어 실적 변동성을 키웁니다."
+      },
+      {
+        "factor": "건설경기",
+        "detail": "주택건설 및 인테리어 수요 감소 시 바닥재·보드 수요가 줄어 매출에 부정적 영향이 발생합니다."
+      },
+      {
+        "factor": "환율",
+        "detail": "환율 상승은 해외종속회사의 외화차입금 평가손 등으로 당기손익을 악화시킬 수 있습니다."
+      },
+      {
+        "factor": "친환경",
+        "detail": "친환경 제품 선호와 규제 강화에 대응하지 못하면 제품 경쟁력 저하로 이어질 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 소재사업 부문과  화학사업 부문, 하우징사업 부문으로 구성되어 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "소재사업및 화학사업 (13.2%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "제품의 주된 판매경로는 대리점, 건설사, 가구업체등으로 구성되어 있으며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "1. 사업의 개요 (연결대상 종속회사 포함)",
+        "evidence_text": "당사가 속한 산업은 진입장벽이 높은 장치산업으로"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4947,
+    "completion_tokens": 4508,
+    "reasoning_tokens": 3776,
+    "output_tokens": 732
+  },
+  "warnings": []
+}

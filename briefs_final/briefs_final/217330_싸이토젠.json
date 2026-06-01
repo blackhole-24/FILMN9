@@ -1,0 +1,66 @@
+{
+  "stock_code": "217330",
+  "corp_name": "싸이토젠",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 13:19",
+  "meta": {
+    "wics": "건강관리업체및서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "싸이토젠은 2010년에 설립된 액체생검 기반 정밀의료·바이오서비스 기업으로, CTC(순환종양세포) 분리·분석·배양 기술을 중심으로 글로벌 토탈 헬스케어를 지향하고 있습니다. '인류의 더 나은 미래를 위한 최적의 솔루션을 추구'라는 미션과 CTC 기반 Smart Biopsy™ 플랫폼을 바탕으로 제약사 및 의료기관 대상 서비스와 진단제품 개발을 병행하고 있습니다.",
+    "business_model": "주력 사업은 CTC 기반 Liquid Biopsy 응용사업(50.7%), 게놈기술개발 및 분석서비스(42.1%), 독성 및 분자진단(7.2%)으로 구성되어 있으며, Smart Biopsy™ 플랫폼을 통해 제약사의 항암 신약 개발 과정에서 바이오마커 발굴·검증, 동반진단(IVD(In-Vitro Diagnostics)) 개발 및 검증 서비스를 제공합니다. 또한 분석 키트·자동화 시스템과 정밀의료용 진단 서비스(약물선정·예후모니터링 등)를 개발·공급하여 플랫폼 기반의 수익을 확대하고 있습니다.",
+    "main_customers": "Liquid Biopsy 응용사업 — 제약사(항암 신약 개발 기업) / 게놈기술개발 및 분석서비스 — 연구기관·대형병원 / 독성 및 분자진단 — 연구기관 및 제약사",
+    "price_factors": [
+      {
+        "factor": "기술경쟁력",
+        "detail": "CTC 기반 분석의 임상적 유효성 여부가 기술 채택과 매출에 직접적 영향을 미칩니다."
+      },
+      {
+        "factor": "제약임상수요",
+        "detail": "제약사의 항암 신약 개발·임상 진행 규모에 따라 바이오마커 발굴·검증 수요가 변동합니다."
+      },
+      {
+        "factor": "고령화수요",
+        "detail": "고령인구 증가로 암 치료·진단 시장의 장기적 수요가 지속될 가능성이 높습니다."
+      },
+      {
+        "factor": "규제인허가",
+        "detail": "GMP·인허가 취득 및 IVD(체외진단) 검증 여부가 제품 상용화와 매출 실현에 영향을 줍니다."
+      },
+      {
+        "factor": "글로벌레퍼런스",
+        "detail": "미국·일본 등 해외 병원·연구기관 레퍼런스 확보가 해외 시장 진출과 수주 확대에 기여합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "인류의 더 나은 미래를 위한 최적의 솔루션을 추구"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "당사는 CTC 기반 Liquid Biopsy Smart Biopsy™플랫폼을 기반으로 하여"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "Liquid Biopsy 응용사업: 13,211,523 (50.7%)"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4969,
+    "completion_tokens": 3678,
+    "reasoning_tokens": 2880,
+    "output_tokens": 798
+  },
+  "warnings": []
+}

@@ -1,0 +1,67 @@
+{
+  "stock_code": "083420",
+  "corp_name": "그린케미칼",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 06:18",
+  "meta": {
+    "wics": "화학",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "그린케미칼은 EO(Ethylene Oxide, 산화에틸렌)를 주원료로 하는 기능성 정밀화학제품의 제조·판매를 주력으로 하는 기업으로, 1992년 대산 공장에서 시작하여 2003년 물적분할로 설립된 이후 DMC·AM 공장 등 설비를 확장해 왔습니다. 주로 EOA, ETA, DMC, AM 등 여러 화학품을 생산하여 산업 전반의 다양한 수요처에 공급하고 있습니다.",
+    "business_model": "핵심 사업은 EO 기반의 부가물 제조로, 주요 제품군은 EOA(계면활성제류), ETA(에탄올아민류), DMC(디메틸카보네이트) 및 AM(아크릴레이트계 모노머)입니다. 2025년 연결 매출은 3,041억원으로 이 중 내수 1,162억원(약 38.2%), 수출 1,879억원(약 61.8%)의 비중을 차지하여 수출 중심의 매출구조를 보이고 있습니다.",
+    "main_customers": "EOA — 세제·제지·섬유·고무·페인트·합성수지·금속·식품·시멘트 등 산업재 제조업체 / ETA — 세제·섬유처리제·윤활유·가스정제·화장품·반도체세정제 등 다양한 산업의 원료·첨가제 제조업체 / DMC — 폴리카보네이트(PC) 등 플라스틱 중간체 및 2차전지 전해액·용매 수요업체 / AM — UV경화 코팅제·광학필름·잉크·접착제 등 코팅·필름·접착 산업의 소재업체",
+    "price_factors": [
+      {
+        "factor": "원자재 가격",
+        "detail": "주원료인 EO·PO·ARA 가격 변동이 제품가격과 수익성에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "공급 과잉",
+        "detail": "중국·중동의 대규모 증설로 석유화학 공급 과잉이 심화되면 판매가격과 이익률이 압박받습니다."
+      },
+      {
+        "factor": "환경규제",
+        "detail": "화평법(화학물질 등록)과 온실가스 배출권 등 규제 준수 비용이 추가 지출로 실적에 영향줄 수 있습니다."
+      },
+      {
+        "factor": "환율변동",
+        "detail": "제품 수출과 원재료 수입 거래에서 환율 변동 위험이 발생하며 환헷지 비용 등이 실적에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 석유화학계통도의 마지막 단계인 EO(Ethylene Oxide, 산화에틸렌)를 주원료로 사용하여 산업 전반에 걸쳐 다양하게 사용되는 기능성 화학제품의 제조 및 판매 사업을 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사에서 제조하는 DMC는 주로 기능성 플라스틱의 일종인 PC(Polycarbonate) 제조의 중간원료로서 사용되고 있으며, 향후 연료첨가제, 용매제, 2차전지의 전해액 등으로 수요처가 확장될 것으로 기대하고 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "EOA(...)는 세제, 제지, 섬유, 고무, 페인트, 합성수지, 금속, 식품, 시멘트 등의 산업분야에 계면활성제, 세정제, 침투제, 습윤제, 유화분산제, 소포제 등 다양한 목적으로 사용되고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "MD&A",
+        "evidence_text": "석유화학 산업은 중국과 중동의 대규모 증설로 인한 공급 과잉이 심화되었으며, 원유 및 나프타 가격 변동과 글로벌 경기 둔화가 주요 리스크로 작용하였습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4483,
+    "completion_tokens": 5102,
+    "reasoning_tokens": 4032,
+    "output_tokens": 1070
+  },
+  "warnings": []
+}

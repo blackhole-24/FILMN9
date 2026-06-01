@@ -1,0 +1,71 @@
+{
+  "stock_code": "412540",
+  "corp_name": "제일엠앤에스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 19:05",
+  "meta": {
+    "wics": "전기제품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "제일엠앤에스는 1986년 설립된 이차전지(2차전지) 제조용 믹싱장비 및 관련 설비의 제작·설치·판매를 주력으로 하는 기업입니다. 이차전지 전극 공정용 믹싱 시스템을 중심으로 국내외 배터리 제조사에 장비를 공급하며, 식품·제약·방산 등 일부 비중(10% 미만)의 다른 제조장비 사업도 영위하고 있습니다.",
+    "business_model": "주요 수익원은 제품 판매 및 제작품, 유지보수로 구성되며, 2025년 사업부문별 영업수익 구성은 '제품 93.8%, 제작품 5.2%, 유지보수 1.0%, 기타 11.0%'로 보고되었습니다. 핵심 제품은 믹서·분체이송설비·저장탱크 등 믹싱시스템이며, 주문자생산(고객 맞춤형 수주) 방식으로 Turn‑Key(설비 일괄 공급)를 제공하는 점이 특징입니다.",
+    "main_customers": "이차전지 믹싱장비 — 삼성SDI·LG에너지솔루션·노스볼트 / 기타 장비 — 식품·제약·방산·우주항공 제조사",
+    "price_factors": [
+      {
+        "factor": "전지수요",
+        "detail": "전기차·ESS 등 전방 산업의 성장에 따라 장비 수요가 직접 확대되어 실적에 영향."
+      },
+      {
+        "factor": "수주구조",
+        "detail": "주문자생산(수주산업) 특성상 고객 설비투자 사이클에 따라 매출 변동성이 발생."
+      },
+      {
+        "factor": "기술경쟁력",
+        "detail": "초고점도(12백만 cPs) 믹싱 등 기술 우위는 수주 확보와 진입장벽 형성에 유리하게 작용."
+      },
+      {
+        "factor": "주요고객리스크",
+        "detail": "주요 고객사(예: 노스볼트)의 경영상 악화는 매출·손익에 즉각적인 영향을 미칠 수 있음."
+      },
+      {
+        "factor": "대용량화 요구",
+        "detail": "대용량·자동화 믹싱 수요 확대는 대형 시스템 수주 및 설비 고도화에 따른 사업 기회와 비용 구조 변화를 초래."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "당사는 1986년 2월 25일에 설립되었으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "제품: 137,253 (93.8%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "주요 고객사는 삼성SDI, LG에너지솔루션, 노스볼트입니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "당사는 국내에서 유일하게 12 백만 cPs 초고점도 믹싱이 가능한 기술력"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5448,
+    "completion_tokens": 3449,
+    "reasoning_tokens": 2624,
+    "output_tokens": 825
+  },
+  "warnings": []
+}

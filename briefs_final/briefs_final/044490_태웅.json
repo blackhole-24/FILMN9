@@ -1,0 +1,72 @@
+{
+  "stock_code": "044490",
+  "corp_name": "태웅",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 01:57",
+  "meta": {
+    "wics": "에너지장비및서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "태웅은 금속(에너지장비및서비스) 분야에서 제강과 단조 관련 제품을 생산·공급하는 기업입니다. 제강사업부에서 잉곳(INGOT) 및 라운드블룸(ROUND BLOOM)을 제조해 단조사업부와 외부 단조업체에 공급하고 있습니다.",
+    "business_model": "주요 사업은 풍력 설비, 산업기계, 산업플랜트, 조선&선박엔진, 발전(원자력 등) 등으로 구성되며, FY2025 기준 풍력 설비(49.1%), 산업기계(11.0%), 산업플랜트(15.0%), 조선&선박엔진(18.0%), 발전(3.4%), 기타(3.4%)의 매출 비중을 가지고 있습니다. 제강사업부에서 생산한 잉곳·라운드블룸은 단조부문(자유형단조)에 투입되며, 주문생산 방식의 외부판매도 병행합니다.",
+    "main_customers": "풍력 설비 — 풍력 관련 발주처/제조업체 / 산업기계 — 산업기계 제조업체 / 산업플랜트 — 플랜트 사업자(시멘트·화공·해양 등) / 조선&선박엔진 — 조선사 및 선박엔진 제조업체 / 발전(원자력 등) — 발전소·원전 관련 사업자 / 제강(잉곳·라운드블룸) — 단조사업부 및 국내외 자유형단조업체, 소형 단조업체, Seamless Pipe 생산업체, Ring Rolling Mill 사용업체",
+    "price_factors": [
+      {
+        "factor": "수요산업 경기",
+        "detail": "풍력·조선·발전·플랜트·산업기계 등 전방산업의 경기변동이 실적(주문·매출)에 직접 영향을 미칩니다."
+      },
+      {
+        "factor": "경쟁요소",
+        "detail": "자유형단조업의 주요 경쟁요소인 품질·납기·가격 경쟁이 수익성(마진)에 영향을 줍니다."
+      },
+      {
+        "factor": "원자재 가격",
+        "detail": "원자재 가격 상승 압박은 원가를 올려 수익성에 부정적 영향을 미치며, 자체 제강으로 일부 분산효과가 발생합니다."
+      },
+      {
+        "factor": "생산투자",
+        "detail": "일시적 설비투자에 따른 생산량 변동은 매출·영업이익 변동성으로 연결될 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "잉곳(INGOT) 및 라운드블룸(ROUND BLOOM)을 생산/공급 하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "풍력 설비: 171,820 (49.1%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "조선&선박엔진: 62,938 (18.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "잉곳 및 라운드블룸은 단조사업부로 주로 공급 될 예정이며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "영업이익은 50억 원으로 전년 대비 -78% 감소하였습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4452,
+    "completion_tokens": 4933,
+    "reasoning_tokens": 4032,
+    "output_tokens": 901
+  },
+  "warnings": []
+}

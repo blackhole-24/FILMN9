@@ -1,0 +1,71 @@
+{
+  "stock_code": "136540",
+  "corp_name": "윈스테크넷",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 09:52",
+  "meta": {
+    "wics": "소프트웨어",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "윈스테크넷은 네트워크 보안과 정보보안솔루션 개발·공급을 주력으로 하는 보안 전문 기업으로, 2011년 나우콤으로부터 네트워크 보안사업부문을 인적분할해 재상장한 이력이 있습니다. 침입방지(IPS), 차세대방화벽(NGFW) 등 네트워크보안 분야에서 오랜 기간 시장 지위를 확보해 온 점이 특징입니다.",
+    "business_model": "핵심 수익원은 네트워크보안 제품 판매와 보안서비스(보안관제·유지관리·컨설팅)이며, 클라우드 보안관제 및 MSP(관리형 서비스 제공) 사업도 확대하고 있습니다. FY2025 기준 제품매출 3.9%, 서비스매출 2.2%로 보고서의 사업부문별 수치가 제시되어 있으며, 연결 실체를 포함할 경우 정보보안부문이 전체 매출의 90% 이상을 차지합니다.",
+    "main_customers": "네트워크보안제품 — 공공기관·통신사 / 보안관제·유지관리·MSP — 공공기관 및 민간기업 / 교육서비스 — 정보보안 전문인력 대상",
+    "price_factors": [
+      {
+        "factor": "클라우드 도입",
+        "detail": "클라우드 도입 가속화 시 MSP·클라우드 보안 서비스 수요가 늘어나 서비스 매출 성장에 직접적 영향을 미칩니다."
+      },
+      {
+        "factor": "공공 수요",
+        "detail": "공공기관의 클라우드 전환 및 보안 수요 확대는 회사의 주요 매출처인 공공 부문 실적에 중요한 변수가 됩니다."
+      },
+      {
+        "factor": "보안위협 진화",
+        "detail": "지속적 R&D 투자가 필요해 기술 우위를 유지하지 못하면 제품 경쟁력 약화 및 비용 부담으로 실적에 부정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "클라우드 성숙",
+        "detail": "국내 클라우드 사용율이 낮아 당장의 민간 부문 수요 확대는 제한적일 수 있어 성장 속도에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "제품 차별화",
+        "detail": "제품 차별화와 기술노하우 유지 여부가 시장 점유율과 수익성에 직접적인 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "정보보안솔루션 개발, 공급 및 네트워크 보안"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "정보보안부문이 전체 매출의 90% 이상 차지"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "제품매출: 3,843 (3.9%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "서비스의 주요 매출처는 공공기관, 통신사"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5188,
+    "completion_tokens": 3295,
+    "reasoning_tokens": 2496,
+    "output_tokens": 799
+  },
+  "warnings": []
+}

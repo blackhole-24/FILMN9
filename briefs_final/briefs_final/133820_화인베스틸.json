@@ -1,0 +1,72 @@
+{
+  "stock_code": "133820",
+  "corp_name": "화인베스틸",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 09:45",
+  "meta": {
+    "wics": "철강",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "화인베스틸은 형강 제조 및 판매를 단일 사업으로 영위하는 철강업체로, 조선용 인버티드앵글 등 형강을 주요 제품으로 생산합니다. 주요 고객은 HD현대그룹 조선3사와 한화오션 등 대형조선사 및 중소형조선사입니다.",
+    "business_model": "핵심 수익은 제품(형강)에서 발생하며 FY2025 기준 제품 매출이 97.7%를 차지하고, 상품 0.0%, 기타 2.3%로 구성됩니다. 원재료인 SLAB를 절단·가열해 열간압연(열을 가해 금속을 압연하는 공정) 및 압출 방식으로 조선용 형강을 생산하며, 자회사 인포인의 디지털트윈·로봇 기술을 결합한 스마트팩토리와 넥서스가스를 통한 에너지 IT 분야 진출로 사업 확장을 도모하고 있습니다.",
+    "main_customers": "제품(형강) — HD현대그룹 조선3사, 한화오션 등 대형조선사 및 중소형조선사 / 스마트팩토리·에너지IT — 구체적 거래처 미기재",
+    "price_factors": [
+      {
+        "factor": "조선 수주",
+        "detail": "조선경기(수주)가 좋아지면 형강 수요와 판매단가가 상승하고, 부진하면 실적에 직접적인 하방압력을 줍니다."
+      },
+      {
+        "factor": "원재료 가격",
+        "detail": "SLAB·철광석 등 원재료 가격 변동은 매출단가와 원가에 직접 영향을 미쳐 이익률을 좌우합니다."
+      },
+      {
+        "factor": "중국산 저가",
+        "detail": "중국산 저가 철강재의 국내 유입은 판매단가 하락 압력으로 이어져 실적에 부정적입니다."
+      },
+      {
+        "factor": "지정학 리스크",
+        "detail": "러·우 전쟁, 중동 긴장 등 지정학적 불안은 글로벌 수요와 원자재 가격 변동성을 확대합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용",
+        "evidence_text": "당사는 단일 사업부문(형강 제조 및 판매)으로 구성되어 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 2. 주요 제품 및 서비스",
+        "evidence_text": "주요 생산제품은 조선용 형강인 인버티드 형강"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "제품: 176,310 (97.7%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용",
+        "evidence_text": "주요 판매처는 주로 HD현대그룹 조선3사"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용",
+        "evidence_text": "디지털트윈 소프트웨어와 로봇 시스템 엔지니어링 기술을 결합하여"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4815,
+    "completion_tokens": 5151,
+    "reasoning_tokens": 4352,
+    "output_tokens": 799
+  },
+  "warnings": []
+}

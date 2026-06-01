@@ -1,0 +1,77 @@
+{
+  "stock_code": "023910",
+  "corp_name": "대한약품",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 22:48",
+  "meta": {
+    "wics": "제약",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "대한약품은 수액제·앰플·영양수액제 등 기초의약품을 주로 생산·판매하는 수액제 전문 제약회사입니다. OTC(일반의약품)용 렌즈세척액 등으로 약국 유통도 확대하고 있으며, 2025년 매출은 2,086억원을 기록했습니다.",
+    "business_model": "주요 수익원은 제조·의약품 제품매출이며, 사업부문별 매출은 기초수액 56.21%, 영양수액 12.22%, 앰플·바이알 5.67%, 기타제품 25.57%로 구성되어 있습니다. 병·의원 및 약국에 공급하는 기초·영양수액 중심의 제품 포트폴리오와 위탁시험 등 기타매출(0.33%)로 수익을 창출합니다.",
+    "main_customers": "기초수액 — 종합병원·일반병의원·약국 / 영양수액 — 병원·의료기관 / 앰플·바이알·기타제품 — 병·의원 및 약국",
+    "price_factors": [
+      {
+        "factor": "약가정책",
+        "detail": "정부의 약가재평가·약가 사후관리 강화는 제품 가격과 수익성에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "의료수요변동",
+        "detail": "병상 가동률 변동(예: 의료계 집단행동)은 병원향 수액제 수요에 즉각적 영향을 미칩니다."
+      },
+      {
+        "factor": "원가상승",
+        "detail": "통상임금 및 원부재료 비용 상승은 제조원가를 올려 영업이익을 압박합니다."
+      },
+      {
+        "factor": "고객집중도",
+        "detail": "매출의 상당 부분이 병·의원 중심으로 공급되는 구조는 수요 안정성은 주지만 특정 채널 리스크에 민감합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업개황 (가) 영업개황",
+        "evidence_text": "당사는 병,의원에서 필요로 하는 기초의약품인 수액제와 앰플제, 환자들의 비경구 영양보충을 위한 영양수액제 등을 주로 생산 판매하고 있으며"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "영업개황 (가) 영업개황",
+        "evidence_text": "2025년도 당기 매출액은 2,086억원이며 영업이익 및 순이익은 311억원과 276억원을 기록하였습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "①주요제품현황",
+        "evidence_text": "117,257(56.21%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "①주요제품현황",
+        "evidence_text": "25,491(12.22%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업개황 (가) 영업개황",
+        "evidence_text": "당사는 수액제 전문의약품 메이커로써 국내 대부분의 종합병원 및 일반병의원,약국 등을 주요 목표시장으로 하여 영업활동을 전개하고 있으며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 업계의 현황 (1) 산업의 특성",
+        "evidence_text": "정부의 보험 재정 건실화를 위한 약가재평가 제도 및 지속적인 약가 사후관리"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5846,
+    "completion_tokens": 3583,
+    "reasoning_tokens": 2688,
+    "output_tokens": 895
+  },
+  "warnings": []
+}

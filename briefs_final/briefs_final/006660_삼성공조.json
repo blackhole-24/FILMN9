@@ -1,0 +1,78 @@
+{
+  "stock_code": "006660",
+  "corp_name": "삼성공조",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 19:38",
+  "meta": {
+    "wics": "자동차부품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "삼성공조는 자동차용 라디에터, 오일쿨러, HVAC 등 자동차부품의 제조·판매를 주력으로 하는 지역대표 기업으로 56년 업력을 갖고 있습니다. 연결기준으로 국내 3개사·해외 4개사 등 총 7개의 종속회사를 보유하며 자동차부품사업이 매출과 자산의 대부분을 차지합니다.",
+    "business_model": "핵심은 자동차부품 OEM(주문자상표부착생산) 제조로, 라디에터·오일쿨러·HVAC 등 주요제품을 내수와 수출로 공급합니다. 주원자재는 알루미늄이며 매입처를 내수와 해외로 이원화해 조달하고, 다품종 소량생산 체제로 특정 매출처 의존도는 비교적 낮습니다.",
+    "main_customers": "자동차부품 — 자동차 제조회사 / 자동차부품 — 중장비 제조회사·농기계 제조회사 / 자동차부품 — 보수용 시장(부속품 직접 공급)",
+    "price_factors": [
+      {
+        "factor": "원자재가격",
+        "detail": "알루미늄 등 주원자재 가격 상승은 원가 부담을 높여 영업이익에 부정적 영향을 미칩니다."
+      },
+      {
+        "factor": "수출환경",
+        "detail": "총매출의 일부가 수출에 의존하므로 환율·유가 등 글로벌 리스크와 지역별 수요변동이 실적에 직접 영향을 줍니다."
+      },
+      {
+        "factor": "완성차관계",
+        "detail": "부품업체는 완성차 업체와의 수직적 관계가 강해 완성차 수요 둔화나 납품조건 변화가 매출에 민감하게 작용합니다."
+      },
+      {
+        "factor": "물류·노무비",
+        "detail": "물류비·인건비 상승은 제조원가를 확대해 수익성 악화 요인이 됩니다."
+      },
+      {
+        "factor": "무역장벽",
+        "detail": "국가 간 관세장벽·공급망 불확실성 증가는 수출 및 해외사업 운영에 부담을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "2. 사업의 내용(요약)",
+        "evidence_text": "연결회사는 자동차부품의 제조 및 판매를 주사업목적으로 56년의 업력을 이어온 지역대표 기업입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "1. 주요제품 등의 현황",
+        "evidence_text": "총매출액의 30%를 수출하고 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "2. 사업의 내용(요약)",
+        "evidence_text": "주요 납품처로는 자동차 제조회사와 중장비 제조회사, 농기계 제조회사"
+      },
+      {
+        "field": "business_model",
+        "source_section": "2. 사업의 내용(요약)",
+        "evidence_text": "다품종 소량 생산체제로 인해 특정 매출처에 대한 의존도가 비교적 낮은 특징"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "연결 기준으로 매출액 1,177억원, 영업이익 32억원, 당기순이익 72억원"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 5315,
+    "completion_tokens": 3285,
+    "reasoning_tokens": 2432,
+    "output_tokens": 853
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

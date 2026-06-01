@@ -1,0 +1,67 @@
+{
+  "stock_code": "040420",
+  "corp_name": "정상제이엘에스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 13:24",
+  "meta": {
+    "wics": "교육서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "정상제이엘에스는 어학원 중심의 교육서비스를 제공하는 기업으로, 주로 학원 강의 수수료를 기반으로 매출을 창출합니다. 당사는 전 세계 어린이들의 꿈이 실현될 수 있도록 최상의 교육서비스와 솔루션을 제공한다는 미션을 갖고 글로벌 강소기업을 목표로 하고 있습니다.",
+    "business_model": "FY2025 기준 사업부문별 매출 구성은 학원사업 62.5%, 프랜차이즈 3.8%, 교육 유관사업 18.2%로, 학원사업이 핵심 수익원입니다. 주수입원은 재원생(학원 수강생)의 강의 수수료이며, 회사는 부문별 순손익·자산 등의 세부 분류는 제공하지 않고 있습니다.",
+    "main_customers": "학원사업 — 유아·초중고 학생 및 학부모 / 프랜차이즈 — 가맹점주(프랜차이즈 운영자) / 교육 유관사업 — 교육서비스 이용자(학생·학부모)",
+    "price_factors": [
+      {
+        "factor": "학령인구 감소",
+        "detail": "학령인구 감소는 장기적으로 학원 수요 축소로 실적에 부정적 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "사교육비 증가",
+        "detail": "1인당 사교육비가 증가하고 있어 보유 학생당 수익은 유지되거나 개선될 가능성이 있습니다."
+      },
+      {
+        "factor": "이러닝 성장",
+        "detail": "이러닝·에듀테크 시장 확대로 비대면(온라인) 수업 확대는 새로운 성장 기회가 될 수 있습니다."
+      },
+      {
+        "factor": "정책 민감도",
+        "detail": "사교육 억제 정책 등은 업계 리스크이나 회사는 비교적 덜 민감한 비즈니스 구조라고 언급하고 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "최상의 교육서비스와 솔루션을 제공한다는 미션"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "학원사업: 64,080 (62.5%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "(1) 영업개황 및 사업부문의 구분",
+        "evidence_text": "하나의 재원생을 기반으로 발생하는 매출"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 업계의 현황",
+        "evidence_text": "학령인구는 감소구간에 진입하고 있으나"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4217,
+    "completion_tokens": 4909,
+    "reasoning_tokens": 4224,
+    "output_tokens": 685
+  },
+  "warnings": []
+}

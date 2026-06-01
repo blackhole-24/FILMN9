@@ -1,0 +1,81 @@
+{
+  "stock_code": "005030",
+  "corp_name": "부산주공",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 19:04",
+  "meta": {
+    "wics": "자동차부품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "부산주공(005030)은 자동차부품용 주물(주조) 제품을 생산하는 기업으로, 울산 공장의 주조 라인과 부산 기장군 신소재일반산업단지의 가공공장을 통해 내수와 수출 물량을 대응하고 있습니다. 2025년 제품생산은 61,833톤, 매출외형은 1,954억원으로 전기 대비 생산량·매출이 감소했습니다.",
+    "business_model": "핵심 사업은 자동차부품용 주물과 가공 판매이며, FY2025 기준 사업부문별 영업수익은 자동차부품(88.6%), 상품(11.2%), 기타(0.2%)로 구성됩니다. 가공설비 투자를 확대해 고부가가치 완성품 비중을 높이는 방향과 ISO 및 TS16949(자동차 품질경영 기준) 취득을 통한 품질경영체제 확립이 수익성 개선의 핵심 전략입니다.",
+    "main_customers": "자동차부품 — 완성차업계 및 부품업체 / 상품 — 내수 유통처 및 수출 바이어",
+    "price_factors": [
+      {
+        "factor": "원재료 가격",
+        "detail": "선철·고철 등 원재료 가격 상승은 제품원가를 높여 실적에 부정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "완성차 수요",
+        "detail": "완성차업계의 영업상황 변화에 따라 수주량과 매출이 직접적으로 영향을 받습니다."
+      },
+      {
+        "factor": "환율",
+        "detail": "수출 비중을 고려할 때 유로·달러 환율 변동은 수출수익성과 가격 경쟁력에 영향을 미칩니다."
+      },
+      {
+        "factor": "수출거래선",
+        "detail": "내수 부진 시 수출거래선 확보 정도가 생산물량 소진과 매출 안정성에 중요한 변수입니다."
+      },
+      {
+        "factor": "환경규제",
+        "detail": "국제적 환경보존 협약 가속화 등 규제 변화는 생산비용 및 운영방식에 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "나. 회사의 현황 1) 영업개황 및 사업부문의 구분",
+        "evidence_text": "울산 공장의 주조 1,2,3라인으로 수출 및 내수물량을 충분히 대처 할 수 있는 능력 을 갖추었으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "자동차부품 (88.6%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "상품 (11.2%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 업계의 현황 1) 산업의 특성",
+        "evidence_text": "자동차부품공업은 완성차업계의 영업상황에 직접적인 영향을 받는 업종으로"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 업계의 현황 5) 자원조달상의 특성",
+        "evidence_text": "주물제품의 주성분인 선철 및 고철을 원재료로 하며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나) 공시대상 사업부문의 구분 (2) 주요 가격변동원인",
+        "evidence_text": "수출 : 환율(EURO, USD)의 변화에 따라 유동적임."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3971,
+    "completion_tokens": 3656,
+    "reasoning_tokens": 2752,
+    "output_tokens": 904
+  },
+  "warnings": []
+}

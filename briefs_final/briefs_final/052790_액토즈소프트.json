@@ -1,0 +1,62 @@
+{
+  "stock_code": "052790",
+  "corp_name": "액토즈소프트",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 03:03",
+  "meta": {
+    "wics": "게임엔터테인먼트",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "액토즈소프트는 1996년 설립된 게임 개발·퍼블리싱 및 IP(지적재산권) 라이선스 기업으로, <미르의 전설>, <라테일>, <천년> 등 다수의 대표작을 보유하고 있습니다. 온라인·모바일 게임 개발과 IP사업을 연결축으로 국내외에서 게임 서비스를 전개하고 있습니다.",
+    "business_model": "핵심 수익원은 게임운영(게임 서비스 수익)과 로열티(라이선스 수익)이며, 사업부문별 영업수익 구성은 게임운영이 27.2%, 로열티가 7.5%를 차지합니다. 또한 보유 IP를 기반으로 다양한 장르·플랫폼으로 확장해 수익을 창출하는 구조입니다.",
+    "main_customers": "게임운영 — 국내·해외 게임 이용자 및 플랫폼 사업자 / 로열티 — IP를 활용하는 게임 개발사·퍼블리셔",
+    "price_factors": [
+      {
+        "factor": "플랫폼 변화",
+        "detail": "플랫폼·디바이스 변화에 따른 콘텐츠 적응력 부족 시 서비스 전환비용과 이용자 이탈로 실적에 영향."
+      },
+      {
+        "factor": "IP 가치",
+        "detail": "보유 IP의 인기와 확장성에 따라 로열티 및 2차 창작(다양한 장르·형식) 수익이 달라짐."
+      },
+      {
+        "factor": "글로벌 경쟁",
+        "detail": "글로벌 게임사와의 경쟁 심화는 서비스 경쟁력(완성도·차별성)과 마케팅 비용에 영향을 미침."
+      },
+      {
+        "factor": "모바일 점유율",
+        "detail": "모바일 게임 시장의 성장 추세에 따라 모바일 기반 매출 비중과 수익성이 변동될 가능성."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "게임 개발 및 퍼블리싱 사업, 지적재산권의 라이선스 사업을 주요 사업으로 영위하고 있으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "게임운영: 19,046 (27.2%)  - 로열티: 5,235 (7.5%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "1) 주요 제품 등의 현황",
+        "evidence_text": "온라인게임과 모바일게임을 개발하여 국내와 해외에 서비스하고,"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4417,
+    "completion_tokens": 3453,
+    "reasoning_tokens": 2816,
+    "output_tokens": 637
+  },
+  "warnings": []
+}

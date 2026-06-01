@@ -1,0 +1,83 @@
+{
+  "stock_code": "060900",
+  "corp_name": "에이전트AI",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:05",
+  "meta": {
+    "wics": "에너지장비및서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "에이전트AI는 신재생에너지, 인공지능(AI) 페이먼트, 로보택시, 모바일·온라인게임 등 여러 사업을 함께 언급하고 있는 기업입니다. 사업보고서상으로는 태양광 PV(Photovoltaic System), 에너지저장장치(ESS, 에너지 저장 장치), 풍력 발전을 기반으로 한 발전 자회사를 두고 있으며, 해외시장 개척과 신사업 확장을 추진하고 있습니다. 다만 최근 실적은 매출 증가에도 불구하고 손실이 확대된 모습입니다.",
+    "business_model": "주요 사업부문은 상품과 발전으로 제시되어 있으나, 사업부문별 매출 비율은 제공되지 않았습니다. 신재생에너지 사업에서는 태양광 PV, ESS, 풍력 발전을 통해 전기를 생산·판매하고, AI 사업에서는 AI 에이전트 기반 무지연(Zero-Latency) 결제와 스테이블코인 기반 자동 결제·정산 구조를 개발 중입니다. 로보택시(Robotaxi) 사업은 테슬라의 FSD(Full Self-Driving, 완전자율주행) 기술이 탑재된 차량을 운영하는 플릿 오퍼레이터(Fleet Operator) 역할을 목표로 하고 있습니다.",
+    "main_customers": "발전 — 전력 구매처 및 발전사업 관련 시장 / AI 페이먼트 — AI 에이전트 기반 결제 서비스 이용자 및 디지털 자산 연동 대상 / 로보택시 — 테슬라 로보택시 앱 이용 승객",
+    "price_factors": [
+      {
+        "factor": "태양광수요",
+        "detail": "국내외 태양광 PV 프로젝트가 확대될수록 발전사업과 관련된 매출 기회가 늘어날 수 있습니다."
+      },
+      {
+        "factor": "풍력환경",
+        "detail": "바람 조건과 재생에너지 유휴전력 활용 여부가 풍력·그린수소 관련 사업의 가동성과 확장성에 영향을 줍니다."
+      },
+      {
+        "factor": "그린수소",
+        "detail": "그린수소 시장과 정책이 확대되면 회사가 언급한 신사업 추진 방향과 맞물려 기대가 커질 수 있습니다."
+      },
+      {
+        "factor": "AI결제",
+        "detail": "AI 에이전트 간 거래가 늘어날수록 스테이블코인 기반 자동 결제·정산 모델의 필요성이 커질 수 있습니다."
+      },
+      {
+        "factor": "로보택시",
+        "detail": "테슬라 FSD 기술과 오스틴 등 운영 거점 확대 여부가 로보택시 사업의 실행 속도에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 ... 발전 자회사를 두고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "■ 주요 사업부문 (비율 불명확)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "태양광 PV 및 에너지저장치(Energy Storage System), 풍력을 이용하여 전기를 생산, 판매"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "AI 에이전트 기반 차세대 페이먼트 시스템"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "테슬라 자율주행 로보택시(Robotaxi) 플랫폼을 활용한 무인택시 운영 사업"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성 — price_factors 참고용",
+        "evidence_text": "재생에너지 유휴전력을 활용하여 수전해 기술기반으로 그린수소"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 5078,
+    "completion_tokens": 966,
+    "reasoning_tokens": 0,
+    "output_tokens": 966
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

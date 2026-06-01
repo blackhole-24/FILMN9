@@ -1,0 +1,66 @@
+{
+  "stock_code": "006400",
+  "corp_name": "삼성SDI",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 19:36",
+  "meta": {
+    "wics": "전기제품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "삼성SDI는 리튬이온 2차전지(중·대형전지·소형전지)와 반도체·디스플레이용 전자재료를 주력으로 생산·판매하는 전기·전자 기업입니다. 2025년 연결 기준 매출은 13조 2,667억원으로, 에너지솔루션 부문이 회사 실적의 중심입니다.",
+    "business_model": "주요 사업부문은 에너지솔루션(리튬이온 2차전지)과 전자재료로 구성되며, 사업부문별 매출은 에너지솔루션이 93%, 전자재료가 7%를 차지합니다. 에너지솔루션은 전기차용 중형전지, ESS(전력저장장치), 스마트폰·노트PC용 소형전지 등 제품군을 통해 매출을 창출하고, 전자재료는 반도체·OLED 소재 중심의 공급으로 수익을 확보합니다.",
+    "main_customers": "에너지솔루션 — 완성차 업체(전기차 제조사) / 에너지솔루션(ESS) — ESS 프로젝트 발주처(국내외 프로젝트) / 소형전지 — 스마트폰·노트PC 제조사 및 전동공구·마이크로모빌리티 장비 제조사 / 전자재료 — 반도체 제조업체 및 디스플레이(OLED) 패널 제조사",
+    "price_factors": [
+      {
+        "factor": "전기차 수요",
+        "detail": "친환경 정책과 완성차 업체의 전기차 모델 확대가 전기차 배터리 수요에 직접적 영향을 미쳐 실적 변동 요인이 됩니다."
+      },
+      {
+        "factor": "ESS 성장",
+        "detail": "신재생 발전 확대와 AI 산업 성장에 따른 전력 수요 증가는 ESS용 대형전지 수요를 증가시켜 매출에 긍정적 영향을 줍니다."
+      },
+      {
+        "factor": "주요 고객 수요 변동",
+        "detail": "미국 등 주요 지역의 전략 고객 전기차 판매 변동은 단기간 실적에 큰 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "소형전지 수요 회복",
+        "detail": "스마트기기·전동제품 등 소형전지의 수요 회복 지연은 소형전지 부문 실적 개선 시점을 늦출 수 있습니다."
+      },
+      {
+        "factor": "반도체·OLED 투자",
+        "detail": "AI용 반도체 및 OLED 채용 확대는 전자재료(반도체·OLED 소재) 수요에 긍정적 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "다. 사업부문별 현황",
+        "evidence_text": "당사는 중ㆍ대형전지, 소형전지 등의 리튬이온 2차전지를 생산/판매하는"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "에너지솔루션 부문 매출액은 전체 매출액의 93%를 차지하며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "전자재료 부문의 매출액은 전체 매출액의 7%를 차지하며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4992,
+    "completion_tokens": 5117,
+    "reasoning_tokens": 4288,
+    "output_tokens": 829
+  },
+  "warnings": []
+}

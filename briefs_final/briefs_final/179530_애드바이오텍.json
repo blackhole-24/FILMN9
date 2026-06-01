@@ -1,0 +1,81 @@
+{
+  "stock_code": "179530",
+  "corp_name": "애드바이오텍",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 10:54",
+  "meta": {
+    "wics": "제약",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "애드바이오텍은 면역항체(IgY, VHH 등)와 미생물제 기술을 바탕으로 축산·수산·인체용 제품을 개발하는 친환경 바이오기업입니다. 2022년 코넥스에서 코스닥으로 이전 상장한 기술성장기업이며, 동물용의약품과 보조사료 등을 중심으로 제품을 공급하고 있습니다.",
+    "business_model": "주요 수익원은 동물용 의약품(65.1%)과 보조사료(26.6%)이며, 그 외 미생물제(0.2%), 기타제품(4.2%), 상품(3.3%), 수수료 외(0.6%)로 구성되어 있습니다. 핵심 경쟁력은 계란 유래 난황항체(IgY) 플랫폼과 VHH(나노바디) 항체 플랫폼을 활용한 다품종 소량생산 및 항생제 대체제 개발입니다.",
+    "main_customers": "동물용 의약품 — 축우·양돈·양식업체 및 동물용의약품 대리점 / 보조사료 — 사료공장·축산업체 / 미생물제 — 음식물처리기 완성업체(환경가전 제조사) / 기타제품·상품 — 가전제품 제조사·조달청(나라장터)",
+    "price_factors": [
+      {
+        "factor": "가격경쟁",
+        "detail": "국내에 제조사·수입사가 다수 존재해 치열한 가격 및 품질 경쟁은 실적과 마진에 직접적 영향을 미칩니다."
+      },
+      {
+        "factor": "원재료비",
+        "detail": "다품종 소량생산 특성상 주요 원재료 함유량에 따른 가격 변동이 매출총이익에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "반려동물시장",
+        "detail": "반려동물 시장 확대는 반려동물용 제품 수요 증가로 매출 다각화에 기회가 됩니다."
+      },
+      {
+        "factor": "해외시장",
+        "detail": "해외시장이 국내보다 훨씬 큰 구조(국내보다 100배 이상)로, 수출망 확대 여부가 성장성에 영향합니다."
+      },
+      {
+        "factor": "정책환경",
+        "detail": "정부의 동물용의약품 산업 육성 정책은 제품 개발 및 사업 확장에 우호적 요인으로 작용할 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 사업개요",
+        "evidence_text": "친환경 바이오기업입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "동물용 의약품: 7,441,468 (65.1%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "가전제품 제조사, 동물용의약품 대리점, 사료공장 및 조달청(나라장터)에 공급"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "다. 시장여건 및 영업의 개황 (1) 국내 영업",
+        "evidence_text": "국내 동물용의약품 시장은 약 1.4조 원 규모로 추산되며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "다. 시장여건 및 영업의 개황 (1) 국내 영업",
+        "evidence_text": "치열한 가격 및 품질 경쟁을 펼치고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "다. 시장여건 및 영업의 개황 (2) 해외 영업",
+        "evidence_text": "동물약품시장은 국내시장보다 해외시장이 100배 이상 큽니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5804,
+    "completion_tokens": 3395,
+    "reasoning_tokens": 2432,
+    "output_tokens": 963
+  },
+  "warnings": []
+}

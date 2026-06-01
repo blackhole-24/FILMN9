@@ -1,0 +1,81 @@
+{
+  "stock_code": "030720",
+  "corp_name": "동원수산",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 09:55",
+  "meta": {
+    "wics": "식품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "동원수산은 1970년 설립되어 1996년 한국거래소 유가증권시장에 상장한 수산업 기업입니다. 현재 총 17척의 원양어선을 보유하고 있으며, 뉴질랜드와 중국에 해외 현지법인을 두고 글로벌 시장을 대상으로 영업하고 있습니다.",
+    "business_model": "회사는 원양어업을 기반으로 수산물의 어획·가공·유통을 함께 운영하는 구조입니다. 사업부문별 영업수익 구성(FY2025)을 보면 수산물유통부문이 37.0%, 곡물제조업외가 8.6%를 차지하며, 나머지는 수산사업부문에서 발생합니다. 수산사업부문은 참치연승선과 트롤선을 활용해 어획한 수산물을 해외에 판매하거나 가공 원료로 공급하고, 수산물유통부문은 2차 가공을 통해 부가가치를 높인 뒤 일본 등 해외시장으로 수출합니다.",
+    "main_customers": "수산사업 — 일본 등 해외 수산물 소비시장, 국내 시장 / 수산물유통 — 일본 등 해외시장, 수산물 수입·유통 수요처 / 곡물제조업외 — 국내 고객사",
+    "price_factors": [
+      {
+        "factor": "환율",
+        "detail": "수출 비중이 높아 엔화 등 환율 변동이 수익성에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "유가",
+        "detail": "원양어업은 국제 유가 변동에 따라 조업 비용이 달라져 실적에 영향을 받습니다."
+      },
+      {
+        "factor": "어획량",
+        "detail": "어획량이 줄면 판매 물량과 원료 확보가 동시에 흔들려 매출과 이익이 변동합니다."
+      },
+      {
+        "factor": "일본경기",
+        "detail": "횟감용 참치는 일본 경기변동에 따라 가격이 직접 영향을 받아 실적 변동성이 큽니다."
+      },
+      {
+        "factor": "규제강화",
+        "detail": "국제수산기구와 연안국의 자원보호 규제가 강화되면 조업 여건이 어려워집니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "1970년 5월 5일 설립되었으며, 1996년 11월 22일 한국거래소 유가증권시장에 주식을 상장하였습니다."
+      },
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "총 17척의 원양어선을 보유하고 있으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "수산물유통부문: 63,940,734 (37.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "곡물제조업외: 14,830,182 (8.6%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "일본 등 해외시장에 직접 판매"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "일본 등 해외시장으로 수출하고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4929,
+    "completion_tokens": 880,
+    "reasoning_tokens": 0,
+    "output_tokens": 880
+  },
+  "warnings": []
+}

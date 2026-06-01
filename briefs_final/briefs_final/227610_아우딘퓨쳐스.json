@@ -1,0 +1,72 @@
+{
+  "stock_code": "227610",
+  "corp_name": "아우딘퓨쳐스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 12:57",
+  "meta": {
+    "wics": "화장품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "아우딘퓨쳐스는 2000년 설립된 화장품 제조기업으로, ODM(제조자개발생산) 사업과 자사 브랜드(NEOGEN DERMALOGY 등)를 보유하며 국내외 화장품 시장을 주요 목표로 사업을 영위하고 있습니다. 제품 기획·처방개발·용기·디자인·생산까지 제공하는 'TOTAL ONE-STOP Solution Provider'로서 디자인 경쟁력을 바탕으로 차별화된 제품을 개발해 왔습니다.",
+    "business_model": "주요 사업은 자체 브랜드 제품 판매와 ODM 제조(타 브랜드 대상 위탁개발·생산)를 축으로 하고 있으며, 사업부문표에는 제품매출, 마스크, ODM, 수수료수입, 상품매출, 기타로 구분되어 있습니다. 2025년에는 화장품 사업부문 매출 증가로 매출액이 전년대비 약 22% 성장했고, K-뷰티 확산에 따른 ODM 수요와 글로벌 유통 채널 다변화가 매출 확대의 주요 요인으로 언급되어 있습니다.",
+    "main_customers": "제품매출 — 일반 소비자 / 마스크 — 일반 소비자(스킨케어 사용자) / ODM — 국내외 파트너사(브랜드사) / 수수료수입 — 협력사·유통사 / 상품매출 — 유통사·소비자 / 기타 — 협력기업·거래처",
+    "price_factors": [
+      {
+        "factor": "중국 규제",
+        "detail": "중국 수입허가(CFDA) 절차(표본검사·심사)에 6개월~1년 소요될 수 있어 수출 시 지연·비용 발생 가능성이 있습니다."
+      },
+      {
+        "factor": "K-뷰티 수요",
+        "detail": "K-뷰티 시장 확대는 ODM 주문과 네오젠 브랜드 인지도 강화로 매출 성장에 긍정적 영향을 미칩니다."
+      },
+      {
+        "factor": "품질·안전 규제",
+        "detail": "화장품법·제조물책임법 등 규제 강화는 품질관리와 회수·보상 비용 발생 위험을 높여 실적에 영향줄 수 있습니다."
+      },
+      {
+        "factor": "디자인 경쟁력",
+        "detail": "국제 디자인 어워드 수상 경력은 제품 차별화와 브랜드 가치 제고에 기여해 수요에 긍정적 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 회사의 현황",
+        "evidence_text": "당사는 화장품 ODM 및 자사 브랜드(NEOGEN DERMALOGY, NEOGEN Code9, NEOGEN Agecure, Sur.Medic+, re:p, 라르(RAAR) 등)를 보유하고 있는 화장품 제조업체로서 국내외 화장품 시장을 주요 목표시장으로 두고 사업을 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. 회사의 현황",
+        "evidence_text": "당사는 2000년 설립되어 화장품 분야의 제품 기획, 처방개발, 용기 개발, 디자인 개발, 심지어 화장품 개발을 위한 생산까지 제공하는 “TOTAL ONE-STOP Solution Provider” 입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "화장품 사업부문 매출 증가로 2025년 매출액은 전년대비 약 22% 성장하였고, 판매관리비 절감효과에 따라 손실폭이 크게 감소하였습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 회사의 현황",
+        "evidence_text": "60여개 이상의 국내/외 파트너사의 제품 개발을 성공적으로 진행한 바 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나. 영업에 영향을 미치는 법률 또는 제규정",
+        "evidence_text": "중국으로 화장품을 직접 수출하기 위해서는 중국 국가식품의약품감독관리총국(CFDA) 으로부터 '수입화장품 위생행정허가증'을 획득해야 합니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4846,
+    "completion_tokens": 4936,
+    "reasoning_tokens": 3904,
+    "output_tokens": 1032
+  },
+  "warnings": []
+}

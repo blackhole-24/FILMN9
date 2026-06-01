@@ -1,0 +1,71 @@
+{
+  "stock_code": "006920",
+  "corp_name": "모헨즈",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 11:27",
+  "meta": {
+    "wics": "건축자재",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "모헨즈는 레미콘(혼합 콘크리트) 제조와 용접 관련 제품을 제공하는 건설자재 기업입니다. 2025년 연결기준 매출은 약 812억원이며 레미콘 사업이 매출의 대부분을 차지합니다.",
+    "business_model": "사업부문별 매출은 레미콘이 99.52%, 기타(용접 등)이 0.48%를 차지하며 레미콘 판매가 핵심 수익원입니다. 레미콘은 제조와 믹서트럭 운송을 병행하는 특성(양면성)과 계절적 수요변동이 수익 구조에 직접적인 영향을 미칩니다.",
+    "main_customers": "레미콘 — 건설현장·건설업체 / 용접 — 제철소·시멘트업체·광산업체·발전소 등",
+    "price_factors": [
+      {
+        "factor": "계절성",
+        "detail": "봄·가을 성수기와 겨울·장마 비수기의 수요 변동이 실적에 직접 영향"
+      },
+      {
+        "factor": "건설경기",
+        "detail": "건설수주 및 착공 흐름이 회복 또는 둔화되면 레미콘 수요와 매출이 민감하게 변동"
+      },
+      {
+        "factor": "원자재수급",
+        "detail": "시멘트·골재 등 원재료 조달 여건 악화 시 제조원가 상승과 공급 차질로 실적 악화 가능"
+      },
+      {
+        "factor": "지역성",
+        "detail": "레미콘은 거리·시간 제한이 큰 지역적 제품 특성으로 운송비용과 공급 범위가 실적에 영향"
+      },
+      {
+        "factor": "공공발주",
+        "detail": "공공부문 발주 확대는 수요를 견인하는 반면 민간수주 부진은 수요 회복을 제약"
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "1. 사업의 개요 (1) 산업의 특성",
+        "evidence_text": "레미콘은 수요처인 건설산업의 동향에 지대한 영향을 받는다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 (원문 테이블)",
+        "evidence_text": "37,522,345(99.52%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "1. 사업의 개요 (1) 산업의 특성",
+        "evidence_text": "건설현장에 운송하므로 제조업과 운송업의 양면성을 지닌다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "1. 사업의 개요 (1) 산업의 특성",
+        "evidence_text": "성수기와 비수기가 확연히 구분되는 계절적 특성을 지닌다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5143,
+    "completion_tokens": 3091,
+    "reasoning_tokens": 2368,
+    "output_tokens": 723
+  },
+  "warnings": []
+}

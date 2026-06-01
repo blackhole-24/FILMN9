@@ -1,0 +1,76 @@
+{
+  "stock_code": "007330",
+  "corp_name": "푸른저축은행",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 19:45",
+  "meta": {
+    "wics": "기타금융",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "푸른저축은행은 상호저축은행법에 따른 저축은행업무를 영위하는 지역 소매금융기관으로, 중소기업과 영세상공인 및 일반 개인을 대상으로 지역밀착형 금융서비스를 제공합니다. 주요 자금조달은 고객 예수금(예금상품)이며, 운용은 대출과 금융기관 예치금 및 유가증권 중심으로 이루어집니다.",
+    "business_model": "핵심 사업은 예금(고객 예수금)으로 수신을 확보한 뒤 이를 대출·금융기관 예치금·유가증권에 운용하는 전형적인 저축은행 모델입니다. 대출 포트폴리오에서 담보대출 비중이 높아 담보대출이 90.56%, 이 중 부동산 담보대출이 72.87%를 차지하며, PF대출은 7.53%, 신용대출(기업신용대출 및 중도금대출 포함)은 9.44%입니다.",
+    "main_customers": "지역소매금융 — 중소기업·영세상공인·일반 개인 / 담보대출 대상 — 부동산 담보 대출자",
+    "price_factors": [
+      {
+        "factor": "대출건전성",
+        "detail": "대손충당금 및 고정이하여신비율 변화가 이익과 자본적정성에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "금리환경",
+        "detail": "금리 변동은 순이자마진과 유가증권 평가손익을 통해 실적에 영향을 줍니다."
+      },
+      {
+        "factor": "수신기반(예금)",
+        "detail": "안정적 예수금 확보 정도가 자금조달 비용과 대출 확장 여력을 결정합니다."
+      },
+      {
+        "factor": "부동산담보 집중",
+        "detail": "부동산 담보대출 비중이 높아 부동산 시장 변화에 따른 신용 리스크 노출이 큽니다."
+      },
+      {
+        "factor": "유가증권 평가",
+        "detail": "유가증권 평가·처분손익 변동이 당기순이익에 즉각적인 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업의 개황",
+        "evidence_text": "당 저축은행은 상호저축은행법에 따른 저축은행업무 및 그에 따른 부수업무와 겸영업무를 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "나. 영업부문별 자금조달 및 운용",
+        "evidence_text": "당 저축은행의 주요 자금조달 수단은 예금상품을 통한 고객 예수금이며, 자금운용은 대출 및 금융기관 예치금이나 유가증권 운용입니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "당사는 저축은행으로 지역밀착주의, 신용확충주의, 신속주의를 영업전략으로 중소기업과 영세상공인 및 일반개인들을 대상으로 사업을 영위하는 지역소매금융기관입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "② 담보별 대출금",
+        "evidence_text": "담보대출이 90.56%이며, 이 중 부동산 담보대출이 72.87%입니다."
+      },
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "전기대비 대손충당금 감소 및 유가증권 평가/처분손익 증가에 따라 당기순이익이 증가하였습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 2801,
+    "completion_tokens": 5294,
+    "reasoning_tokens": 4352,
+    "output_tokens": 942
+  },
+  "warnings": []
+}

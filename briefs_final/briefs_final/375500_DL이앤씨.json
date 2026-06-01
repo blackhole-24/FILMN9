@@ -1,0 +1,81 @@
+{
+  "stock_code": "375500",
+  "corp_name": "DL이앤씨",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 18:14",
+  "meta": {
+    "wics": "건설",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "DL이앤씨는 토목·주택·플랜트 등 건설 전반을 영위하는 기업으로, 연결 기준 FY2025 매출 7조 4,024억원을 기록했습니다. 국내 주택·토목 사업을 수행하는 DL건설 등 여러 종속회사와 해외 현지법인 및 친환경 탈탄소 관련 자회사를 보유하고 있습니다.",
+    "business_model": "핵심 사업부문은 토목, 주택, 플랜트이며 FY2025 기준 토목 매출은 1조 282억 원(약 13.9%), 주택은 3조 9,045억 원(약 40.6%), 플랜트는 2조 4,663억 원(약 33.3%)으로 구성되어 있습니다. 지리적 구성에서는 해외 매출이 18.6%를 차지하고 공통(미배분)은 0.1%로 보고되어 있으며, 디벨로퍼(부동산 개발) 역할을 수행하는 PFV와 해외 법인을 통해 사업을 확장하고 있습니다.",
+    "main_customers": "토목 — 정부·공공기관(도로·교량 등 인프라 발주처) / 주택 — 공공 또는 민간 발주처(건설 발주자) / 플랜트 — 석유화학·발전 등 산업체 및 대형 발주처",
+    "price_factors": [
+      {
+        "factor": "정부 SOC 예산",
+        "detail": "토목사업의 수주 기회와 프로젝트 규모가 정부 예산 편성에 따라 직접 영향을 받습니다."
+      },
+      {
+        "factor": "주택 수요",
+        "detail": "주택사업은 입지·브랜드·가격경쟁력에 따른 수요 변동이 매출에 직결됩니다."
+      },
+      {
+        "factor": "원가(자재)",
+        "detail": "원자재·시공 원가 변동은 플랜트·주택 모두의 수익성에 즉각적인 영향을 미칩니다."
+      },
+      {
+        "factor": "글로벌 유동성",
+        "detail": "해외 프로젝트의 수주 및 자금 조달은 글로벌 경기와 유동성 환경에 민감합니다."
+      },
+      {
+        "factor": "친환경 전환",
+        "detail": "친환경·신재생 포트폴리오 확장 여부가 중장기 성장성과 사업구조에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "사업을 토목, 주택, 플랜트, 발전/환경사업 등으로 구분"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "연결 총 매출은 7조 4,024억 원입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "해외: 69,974 (18.6%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "주택사업 부문의 당기 매출은 3조 9,045억 원입니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "주택사업은 공공 또는 민간 발주처의 요구에 따라"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "시장의 규모는 주로 정부 SOC 예산 편성에 의해 결정"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4164,
+    "completion_tokens": 5442,
+    "reasoning_tokens": 4544,
+    "output_tokens": 898
+  },
+  "warnings": []
+}

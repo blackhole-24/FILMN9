@@ -1,0 +1,67 @@
+{
+  "stock_code": "0120G0",
+  "corp_name": "삼양바이오팜",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 20:55",
+  "meta": {
+    "wics": "건강관리장비와용품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "삼양바이오팜은 2025년 11월 1일 삼양홀딩스로부터 단순인적분할하여 설립된 제약·의료기기 회사로, 생분해성 수술용 봉합사 등 의료기기와 항암제 등 의약품을 주력으로 합니다. 자체 유전자치료제 약물전달체 플랫폼(SENS)을 바탕으로 신약개발을 병행하고 있습니다.",
+    "business_model": "매출은 의료기기와 의약품 중심으로 구성되며, FY2025 기준 의료기기가 62.5%, 의약품이 37.5%를 차지합니다. 의료기기부문은 봉합사·지혈제 등 제품 공급을 통해 안정적 매출을 확보하고, 의약품부문은 고형암 및 혈액암 항암제 포트폴리오를 통해 내수와 해외 매출을 확대하고 있습니다. 신약개발부문은 SENS 플랫폼을 고도화하며 미래 파이프라인 확장을 추진하고 있습니다.",
+    "main_customers": "의료기기 — 병원·의료기기 유통사 및 해외 고객사(약 50개국, 200여 개 고객사) / 의약품 — 내수 병원·의료기관 및 해외 바이어 / 신약개발 — 연구개발 지원기관 및 협력 파트너",
+    "price_factors": [
+      {
+        "factor": "인허가",
+        "detail": "의료기기·의약품은 인허가 요건과 안전성·유효성 검증이 중요해 승인 지연 시 실적과 가치평가에 직접 영향이 있습니다."
+      },
+      {
+        "factor": "약가·보험",
+        "detail": "급여품목의 고시가격·보험 등재 여부가 의약품의 판매단가와 수익성에 큰 영향을 미칩니다."
+      },
+      {
+        "factor": "환율",
+        "detail": "해외 매출·수입 거래가 USD·EUR·JPY 등 통화로 노출되어 환율 변동이 실적과 당기손익에 영향을 줍니다."
+      },
+      {
+        "factor": "제품신뢰도",
+        "detail": "인체삽입형 제품 특성상 임상 신뢰도와 공급 안정성이 경쟁력으로 작용하며, 품질 이슈 시 시장 지위에 타격이 발생할 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "당사는 2025년 11월 1일을 분할기일로 하여 분할회사인 (주)삼양홀딩스로부터단순인적분할하여 설립되었으며,"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "의료기기: 17,868 (62.5%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "의약품: 10,626 (37.5%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "생분해성 수술용 봉합사를 중심으로 약 50개국, 200여 개 고객사에 제품을 공급하며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4706,
+    "completion_tokens": 3776,
+    "reasoning_tokens": 2944,
+    "output_tokens": 832
+  },
+  "warnings": []
+}

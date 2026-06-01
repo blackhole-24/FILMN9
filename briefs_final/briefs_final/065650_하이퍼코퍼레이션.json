@@ -1,0 +1,69 @@
+{
+  "stock_code": "065650",
+  "corp_name": "하이퍼코퍼레이션",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 04:33",
+  "meta": {
+    "wics": "컴퓨터와주변기기",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "하이퍼코퍼레이션은 PC 주변기기 유통을 핵심으로 하는 커머스 기업으로, 글로벌 브랜드 로지텍의 국내 공식 채널파트너사로서 온라인·오프라인 유통을 운영하고 있습니다. 동시에 NLRP3 저해제, 치매 치료제, 치매 조기 진단키트(QPLEX Alz Plus), 비마약성 진통제(MDR-652) 등 신약·진단 파이프라인을 보유한 바이오 사업도 병행하고 있습니다. 과거 취득·운영했던 HMR 사업부(에스제이코레)는 2024년 영업양도 결정을 통해 매각하였습니다.",
+    "business_model": "커머스 부문은 로지텍 등 글로벌 PC 주변기기 중심의 유통(온라인 마케팅 및 플랫폼 판매·오프라인 입점)을 통해 매출을 창출하며, 최근에는 에코백스·키친에이드 등 생활·가전 브랜드로 제품군을 확장하고 있습니다. 신약부문은 QPLEX 등 체외진단과 약물 파이프라인의 연구개발(임상) 및 기술이전(사업화 검토)을 통해 가치화하는 구조입니다.",
+    "main_customers": "커머스 — 온라인 플랫폼(쿠팡·네이버) 및 오프라인 유통채널(하이마트 등) / 신약 — 공동개발사·임상 수행 의료기관·기술이전 잠재 파트너",
+    "price_factors": [
+      {
+        "factor": "유통채널",
+        "detail": "쿠팡·네이버 등 온라인 채널과 오프라인 입점 확대 여부가 매출 성장과 노출에 직접 영향."
+      },
+      {
+        "factor": "공급가격",
+        "detail": "판매상품 종류가 다양하고 거래조건·환율 등에 따라 공급가격이 결정되어 마진 변동성이 존재."
+      },
+      {
+        "factor": "제품다각화",
+        "detail": "에코백스·키친에이드 등 신규 브랜드 도입과 제품군 확대가 매출 구조 및 성장성에 영향을 미침."
+      },
+      {
+        "factor": "임상·기술이전",
+        "detail": "MDR-652 임상 결과 및 기술이전 진행, QPLEX의 허가·급여 등재 진전에 따라 신약부문 가치화 속도가 달라짐."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "나. 영업개황 및 사업부문 1) 커머스 사업부문",
+        "evidence_text": "당사의 핵심 사업군으로 로지텍 제품을 취급하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. 업계의 현황 1) 커머스사업부문",
+        "evidence_text": "로지텍 사업은 15여년 간 꾸준한 매출 성장을 이어가고 있는 주요매출 사업으로서,"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 업계의 현황 1) 커머스사업부문",
+        "evidence_text": "쿠팡 채널 내 판매하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. 업계의 현황 2) 신약사업부문 A- 1) 치매조기진단키트",
+        "evidence_text": "2020년 7월 식약처로부터 품목 허가를 획득했습니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4697,
+    "completion_tokens": 3907,
+    "reasoning_tokens": 3072,
+    "output_tokens": 835
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

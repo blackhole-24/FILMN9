@@ -1,0 +1,62 @@
+{
+  "stock_code": "011090",
+  "corp_name": "에넥스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 20:42",
+  "meta": {
+    "wics": "가구",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "에넥스는 주방가구, 붙박이장, 인테리어가구 등의 제조·판매를 주력으로 하는 가구업체로, 베트남 생산법인(ENEX VINA)과 부품 유통법인((주)헤텍스)을 둔 연결 기반의 제조·유통 기업입니다. 충북 영동과 경기도 안성의 제조시설과 물류센터를 보유하고 전국 약 90여개 대리점과 공식 온라인몰(에넥스몰) 등 온·오프라인 유통망을 운영하고 있습니다.",
+    "business_model": "핵심은 주방가구 등 가구의 제조·판매이며 사업은 B2B(대형건설사 대상)와 B2C(일반 소비자 대상)로 구분됩니다. 2025년 연결 기준 매출 비중은 지배회사기준 B2B 87.1%, B2C 10.0%, 기타 2.9%로 B2B 중심의 대규모 공급이 수익의 대부분을 차지합니다. (사업부문별 영업수익 구성에 따르면 가구제조판매는 5.6%로 기재되어 있습니다.)",
+    "main_customers": "B2B — 대형건설사(신규아파트 분양 시 주방·수납가구 대규모 공급) / B2C — 일반 소비자(대리점·온라인·홈쇼핑 등 온·오프라인 채널)",
+    "price_factors": [
+      {
+        "factor": "건설경기",
+        "detail": "주택건설·분양 경기가 악화되면 대형건설사 대상 B2B 공급이 줄어 매출과 실적에 직접 영향"
+      },
+      {
+        "factor": "계절성",
+        "detail": "가구 수요는 이사·결혼 등 계절적 요인과 봄·가을 성수기에 따라 매출 변동성이 나타남"
+      },
+      {
+        "factor": "브랜드·서비스",
+        "detail": "품질·디자인·A/S 등 브랜드 경쟁력이 구매 결정에 중요해 경쟁사 대비 입지와 수익성에 영향"
+      },
+      {
+        "factor": "유통채널전환",
+        "detail": "자사몰·외부몰·홈쇼핑·라이브커머스 등 온라인 채널 확장은 B2C 판매구조와 마케팅 비용에 영향을 미침"
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 회사의 현황 및 사업내용",
+        "evidence_text": "당사는 주방가구, 붙박이장, 인테리어가구 등의 제조 및 판매를 주된 사업으로 영위하고 있으며, 종속기업은 ENEX VINA Co., LTD. 와 (주)헤텍스가 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. 회사의 현황 및 사업내용",
+        "evidence_text": "매출 비중은 지배회사기준 B2B 87.1%, B2C 10.0%, 기타 2.9% 입니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 회사의 현황 및 사업내용",
+        "evidence_text": "B2B 사업은 대형건설사를 대상으로 신규아파트 분양 시 공급되는 주방가구와 수납가구를 대규모로 공급합니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5116,
+    "completion_tokens": 3953,
+    "reasoning_tokens": 3136,
+    "output_tokens": 817
+  },
+  "warnings": []
+}

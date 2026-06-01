@@ -1,0 +1,66 @@
+{
+  "stock_code": "138360",
+  "corp_name": "앤로보틱스",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:21",
+  "meta": {
+    "wics": "기계",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "앤로보틱스는 기계·장비 업종에서 식품가공기계와 관련 설비를 설계·제작·공급하는 기업입니다. 육가공식품, HMR(가정간편식) 등 식품 생산 공정 전반에 필요한 장비를 다루며, 프로젝트 단위의 수주 중심 사업을 전개하고 있습니다. 또한 식품가공설비 관련 특허와 R&D(연구개발) 역량을 바탕으로 자동화·스마트팩토리 수요에 대응하고 있습니다.",
+    "business_model": "사업부문별 영업수익은 스파이럴 쿡 앤 오븐 18.6%, 스파이럴 2차살균기 13.0%, 레토르트 8.5%, 후라이어 5.8%, 기타 25.8%로 구성됩니다. 식품가공장치, 레토르트 멸균장치, 훈연장치, 스파이럴 오븐, 해동장치 등 식품 생산 공정별 설비를 공급하며, 고객 요구에 맞춘 레이아웃(Lay-out) 컨설팅과 맞춤형 설비 제작이 수익 구조의 핵심입니다. 일부 기술은 실제 제품 설계, 제작, 납품 과정에 활용되고 있습니다.",
+    "main_customers": "식품가공기계 — 식품 제조업체 / 수주형 프로젝트 — 육가공식품·HMR·즉석조리식품 관련 제조사 / 설비 구축 — 생산라인 자동화·스마트팩토리 도입 기업",
+    "price_factors": [
+      {
+        "factor": "설비투자",
+        "detail": "식품 제조업체의 설비 투자 확대 여부가 매출 발생과 직결되는 수주 중심 산업입니다."
+      },
+      {
+        "factor": "HMR수요",
+        "detail": "가정간편식(HMR) 시장이 커질수록 관련 생산설비 수요가 늘어날 수 있습니다."
+      },
+      {
+        "factor": "자동화",
+        "detail": "인력 부족 대응과 생산 효율 제고를 위한 자동화 설비 투자가 늘면 수요가 확대됩니다."
+      },
+      {
+        "factor": "위생기준",
+        "detail": "식품 안전·위생 기준이 강화될수록 고도화된 생산설비와 공정 기술의 필요성이 커집니다."
+      },
+      {
+        "factor": "수주변동",
+        "detail": "프로젝트 단위 수주 방식이라 신규 공장 증설과 투자 시점에 따라 실적 변동이 생길 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황 > 1. 식품가공기계 산업의 특성",
+        "evidence_text": "식품 제조업체를 주요 수요처로 하여"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "스파이럴 쿡 앤 오븐: 4,347,200 (18.6%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황 > 1. 식품가공기계 산업의 특성",
+        "evidence_text": "식품 제조업체가 주요 고객"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5329,
+    "completion_tokens": 809,
+    "reasoning_tokens": 0,
+    "output_tokens": 809
+  },
+  "warnings": []
+}

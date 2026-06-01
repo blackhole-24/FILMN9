@@ -1,0 +1,82 @@
+{
+  "stock_code": "228850",
+  "corp_name": "레이언스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 13:02",
+  "meta": {
+    "wics": "건강관리장비와용품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "레이언스는 디지털 엑스레이 디텍터를 주력으로 하는 의료용 영상장치 부품 제조사로, 의료용·치과용·동물용·산업용용 디텍터의 Full-Line up을 구축하여 제조·판매하고 있습니다. TFT 및 CMOS 기반 센서 기술과 동영상 센서(CMOS) 역량을 바탕으로 X-ray Imaging Solution을 제공하는 전문 기업입니다.",
+    "business_model": "주요 매출은 제품별로 TFT Detector(30.3%), CMOS Detector(38.5%), I/O Sensor(26.2%), 기타(4.9%)로 구성됩니다. 회사는 TFT Panel 및 CMOS Wafer의 자체 설계 능력과 CsI(Cesium Iodide) 섬광체(Scintillator) 직접 증착 설비를 보유하여 핵심부품 기술을 내재화(내부 보유)한 점이 경쟁력입니다.",
+    "main_customers": "의료용 — 병원(대형병원 포함) / 치과용 — 치과 의료기관 / 동물용 — 동물용 의료기관(수의진료) / 산업용 — 산업용 엑스레이 수요처",
+    "price_factors": [
+      {
+        "factor": "수요증가",
+        "detail": "전 세계적 고령화와 의료수요 확대가 의료용 X-ray 시장의 안정적 성장세를 견인해 중장기 매출에 우호적입니다."
+      },
+      {
+        "factor": "제품가격",
+        "detail": "제품별 평균판매가격 변동(TFT -8.7%, CMOS +17.3%, I/O -14.5%)이 매출과 수익성에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "기술장벽",
+        "detail": "진단 가능한 성능과 임상자료 확보가 중요하여 진입장벽이 높고, 기술우위가 실적 방어에 유리합니다."
+      },
+      {
+        "factor": "대형병원수요",
+        "detail": "의료용 X-ray가 대형병원에서 선호되는 품목이라 수요는 비교적 안정적인 편입니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "디지털 엑스레이 디텍터를 주력으로 하여"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "의료용, 치과용, 동물용, 산업용 엑스레이 디텍터"
+      },
+      {
+        "field": "business_model",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "TFT Detector와 CMOS Detector, I/O Sensor 제품을 모두 보유"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "23,847,213 (30.3%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "30,362,715 (38.5%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "20,675,717 (26.2%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "3,899,207 (4.9%)"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5347,
+    "completion_tokens": 5215,
+    "reasoning_tokens": 4352,
+    "output_tokens": 863
+  },
+  "warnings": []
+}

@@ -1,0 +1,91 @@
+{
+  "stock_code": "079950",
+  "corp_name": "인베니아",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:11",
+  "meta": {
+    "wics": "디스플레이장비및부품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "인베니아는 2001년 설립된 평판 Display 제조공정용 장비 개발·생산 기업입니다. TFT-LCD, OLED 등 디스플레이 패널을 만드는 장비를 중심으로 사업을 해왔고, 현재는 Display 단일 사업부문으로 운영되고 있습니다.",
+    "business_model": "인베니아는 디스플레이 패널 제조장비를 개발·생산·판매하는 회사로, 핵심 장비인 Dry Etcher(식각장비)를 중심에 두고 합착기, 진공물류시스템, Plasma Treatment, AOI(자동광학검사) 등으로 사업영역을 넓혀왔습니다. FY2025 사업부문별 영업수익은 디스플레이제조장비 0.5%, 수출 72.6%, 기타매출 23.7%, 소화기구 3.3%로 구성되어 있습니다. 또한 종속회사인 인베니아(심천)과무유한공사는 평판 디스플레이 제조공정용 부품 제조·판매와 용역서비스를 영위합니다.",
+    "main_customers": "디스플레이제조장비 — TFT-LCD·OLED 패널 제조사 / 수출 — 해외 디스플레이 관련 고객 / 기타매출 — 부품 및 관련 수요처 / 소화기구 — IOT 기반 소방기구 관련 수요처",
+    "price_factors": [
+      {
+        "factor": "설비투자",
+        "detail": "고객사의 설비투자 계획에 따라 수주가 움직이는 구조라, 전방업체의 투자 확대 여부가 실적에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "OLED수요",
+        "detail": "디스플레이 시장이 OLED 중심으로 성장할수록 관련 장비 수요가 늘어날 가능성이 있습니다."
+      },
+      {
+        "factor": "경기변동",
+        "detail": "거시경제 변화에 따라 디스플레이 수요와 가격이 흔들려 장비 수요예측이 어려운 편입니다."
+      },
+      {
+        "factor": "기술진입",
+        "detail": "기술집약적 산업이라 진입장벽이 높고, 품질·가격·납기 대응력이 경쟁력에 큰 영향을 줍니다."
+      },
+      {
+        "factor": "폴더블투자",
+        "detail": "폴더블 시장수요가 형성되면 향후 수년간 설비투자가 이어질 수 있어 장비 수요에 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 2001년 설립되어"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "Display 단일 사업부문으로 구성되어 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "수출: 10,326 (72.6%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "기타매출: 4,362 (23.7%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "소화기구: 604 (3.3%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "TFT-LCD, OLED 등의 디스플레이 패널"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나. 업계의 현황 (경기변동의 특성)",
+        "evidence_text": "고객의 설비투자 계획에 따라 연동되는 수주산업"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "MD&A",
+        "evidence_text": "디스플레이 시장이 OLED를 중심으로 지속적으로 성장"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3676,
+    "completion_tokens": 994,
+    "reasoning_tokens": 0,
+    "output_tokens": 994
+  },
+  "warnings": []
+}

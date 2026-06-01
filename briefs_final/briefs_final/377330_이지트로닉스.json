@@ -1,0 +1,67 @@
+{
+  "stock_code": "377330",
+  "corp_name": "이지트로닉스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 18:22",
+  "meta": {
+    "wics": "전기제품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "이지트로닉스는 2008년 설립된 전력변환장치 전문 기업으로, 전기·수소자동차용 전력변환장치와 통신·방산용 전력변환제품을 개발·양산하여 국내외 완성차업체, 통신사·방산업체에 납품해 왔습니다. 전기차충전기 제조·신재생에너지용 DC배전 등으로 사업 영역을 확장하며 친환경 에너지시스템 분야에서 입지를 넓히고 있습니다.",
+    "business_model": "FY2025 기준으로 제품매출 29.5%, 통신 30.4%, 방산 1.3%, 기타 1.8%, 상품매출 0.4%, 기타매출 36.6%로 매출이 구성되어 있습니다. 핵심은 OBC(온보드차저), 인버터, 컨버터, 정류기 등 전력변환장치의 개발·양산으로, 친환경모빌리티(전기·수소차), 통신인프라(4G/5G 정류기), 방산용 전력변환장치 및 전기차충전기·신재생에너지용 DC배전 공급으로 수익을 창출하고 있습니다.",
+    "main_customers": "제품/친환경모빌리티 — 국내외 완성차업체 / 통신 — 통신업체(국내 통신사 포함) / 방산 — 방산업체 / 기타(신재생·선박·의료) — 관련 산업 고객",
+    "price_factors": [
+      {
+        "factor": "원자재가격",
+        "detail": "원자재 가격 상승과 공급망 불안정성은 제조원가와 마진에 부정적 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "기술경쟁",
+        "detail": "고효율·소형화·방열·제어 등 기술 경쟁 심화는 제품경쟁력과 연구개발 투자 부담에 직접 연결됩니다."
+      },
+      {
+        "factor": "규제·인증",
+        "detail": "글로벌 환경규제 강화 및 지역별 인증 요구 확대는 해외 진출 시 추가 비용과 대응 리스크를 유발합니다."
+      },
+      {
+        "factor": "전기차수요",
+        "detail": "전기차 및 EV 부품시장 성장률은 전력변환장치 수요와 실적에 직접적인 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 회사의 현황",
+        "evidence_text": "친환경 에너지시스템 대표 기업으로 성장하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "제품매출: 3,905 (29.5%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 회사의 현황",
+        "evidence_text": "국내외 완성차업체, 통신업체와 방산업체에 납품하여"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나. 시장여건 및 영업의 개황 > (1) 산업의 특성",
+        "evidence_text": "고효율·소형화 기술 경쟁이 심화되고 있다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5755,
+    "completion_tokens": 5290,
+    "reasoning_tokens": 4480,
+    "output_tokens": 810
+  },
+  "warnings": []
+}

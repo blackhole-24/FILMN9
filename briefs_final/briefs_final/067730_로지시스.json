@@ -1,0 +1,64 @@
+{
+  "stock_code": "067730",
+  "corp_name": "로지시스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 04:58",
+  "meta": {
+    "wics": "IT서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "로지시스는 1996년 한국지주(주)(구 한국컴퓨터지주㈜) 기술부에서 분사해 설립된 기업으로, 금융권 전산장비 유지보수를 중심으로 성장해 왔습니다. 통합유지보수서비스(다양한 장비를 묶어 한 번에 관리하는 서비스)를 바탕으로 금융 및 공공 부문을 주요 대상 시장으로 삼고 있습니다.",
+    "business_model": "주요 사업부문은 용역(유지보수·대행관리)과 상품(업무용·특수 목적 장비)으로 구성되며, 통합유지보수와 VAN 대행관리(ATM·현금물류 대행 포함)를 통해 수익을 창출합니다. 유지보수는 고객 맞춤형 서비스 형태로 제공되며 매출 단가에는 일정한 패턴이 없어 입찰·계약별로 변동성이 있습니다.",
+    "main_customers": "용역 — 금융기관·공공기관 / 상품 — 금융기관·공공기관 / VAN 대행관리 — 금융기관·은행",
+    "price_factors": [
+      {
+        "factor": "서비스 통합화",
+        "detail": "시장 전반의 '통합유지보수' 전환이 가속화되면 통합 서비스 수주가 늘어나 실적에 긍정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "입찰·예산",
+        "detail": "주요 고객이 금융·공공기관인 만큼 고객사 예산 및 입찰 조건 변화는 수주와 매출에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "단가 변동성",
+        "detail": "유지보수는 맞춤형 제공 방식이므로 매출단가가 일정하지 않아 실적 변동성이 발생할 수 있습니다."
+      },
+      {
+        "factor": "VAN 시장 확장",
+        "detail": "ATM·현금물류 대행관리 등 VAN 관련 서비스 수요 확대는 해당 부문 매출 성장으로 연결될 가능성이 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "나. 회사 성장 과정",
+        "evidence_text": "1996년 분사하여 설립한 회사입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "다. 회사의 영업 및 생산",
+        "evidence_text": "당사의 용역, 상품매출은 주로 금융 및 공공기관의 업무용 및 특수 목적용 장비에 대한 매출로서"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "다. 회사의 영업 및 생산",
+        "evidence_text": "전국적인 조직망과 20여년의 사업노하우를 바탕으로 영업을 확대하고 있습니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 3023,
+    "completion_tokens": 6108,
+    "reasoning_tokens": 5440,
+    "output_tokens": 668
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

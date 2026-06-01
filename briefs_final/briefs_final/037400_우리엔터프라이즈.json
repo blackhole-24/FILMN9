@@ -1,0 +1,72 @@
+{
+  "stock_code": "037400",
+  "corp_name": "우리엔터프라이즈",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 00:49",
+  "meta": {
+    "wics": "디스플레이장비및부품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "우리엔터프라이즈는 LED 조명과 건강기능식품 등으로 사업을 영위하는 기업으로, 조명 분야에서 오랜 기간 활동해온 광원전문기업입니다. 연결기준 최근 실적에서 매출과 이익이 감소하는 등 실적 변동성이 관찰됩니다.",
+    "business_model": "주요 수익원은 조명사업(산업·홈·스포츠·상업용 LED 등)과 건강기능식품으로, FY2025 사업부문별 영업수익 구성은 '제품,상품등' 8.8%, '제품' 6.0%로 보고되었습니다. 조명제품의 설계·생산·판매와 건강기능식품 원료 기반 제품 공급을 통해 B2B(기업 대상) 및 B2C(소비자 대상) 채널에서 매출을 확보합니다.",
+    "main_customers": "조명사업부 — 산업·상업·스포츠용 설비를 도입하는 기업(B2B) 및 일반 소비자(B2C) / 건강기능식품 — 일반 소비자 및 고령층",
+    "price_factors": [
+      {
+        "factor": "가격경쟁",
+        "detail": "중소업체의 가격경쟁 심화는 조명부문 매출·이익에 부정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "수입 의존",
+        "detail": "중국·베트남 등에서 상품·반제품을 수입해 조립하는 업체의 난립은 국내 시장의 가격하락 압력으로 작용합니다."
+      },
+      {
+        "factor": "환경규제",
+        "detail": "국제사회의 환경규제 강화 및 재활용분담금 인상 등은 일반조명 부문 원가와 판매환경에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "환율 변동",
+        "detail": "글로벌 경기 침체에 따른 환율 변동은 당기순이익 변동성으로 이어질 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "조명사업부문(우리엔터프라이즈)",
+        "evidence_text": "국내외 조명시장에서 50여년동안 지켜온 광원전문기업으로서"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "제품,상품등: 21,267 (8.8%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "제품: 63,451 (6.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "조명사업부문(우리엔터프라이즈)",
+        "evidence_text": "LED 스포츠 조명, B2B, B2C 시장으로의 확대를 진행하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "조명사업부문(우리엔터프라이즈)",
+        "evidence_text": "중소 업체의 가격경쟁이 심화"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3532,
+    "completion_tokens": 4287,
+    "reasoning_tokens": 3520,
+    "output_tokens": 767
+  },
+  "warnings": []
+}

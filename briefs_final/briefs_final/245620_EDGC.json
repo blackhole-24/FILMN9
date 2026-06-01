@@ -1,0 +1,69 @@
+{
+  "stock_code": "245620",
+  "corp_name": "EDGC",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 13:39",
+  "meta": {
+    "wics": "생명과학도구및서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "EDGC는 2013년 5월 이원의료재단과 미국 Diagnomics의 한미합작법인으로 설립된 글로벌 바이오 유전체 빅데이터 기업입니다. NGS(차세대 염기서열분석) 기반 유전체 분석과 생명정보학(바이오인포매틱스)을 바탕으로 유후, 나이스, 온코캐치 등 맞춤형 진단·검사 서비스를 제공합니다. 2021년 캐나다의 건강기능식품 제조·판매사인 내츄럴 라이프 뉴트리션을 인수하여 헬스케어 관련 사업영역을 확장했습니다.",
+    "business_model": "주요 사업부문은 유전체진단서비스매출, GSA, 기타 유전체 서비스매출, 상품매출, 제품매출 및 기타매출로 구성되어 있습니다. 핵심 수익원은 NGS 기반 유전체 분석 서비스(유후·나이스)와 액체생검(OncoCatch) 등 병원의뢰 유전자 검사이며, 일루미나의 GSA 기반 MGA chip을 활용한 개인별 유전체 정보 서비스도 제공하고 있습니다.",
+    "main_customers": "유전체진단서비스매출 — 병원(병원의뢰 검사)·개인(맞춤 검사) / GSA — 유전체 서비스 제공 기업·연구기관 / 기타유전체 서비스매출 — 국내외 기업·의료기관 / 상품매출·제품매출 — 소비자·유통채널",
+    "price_factors": [
+      {
+        "factor": "기술경쟁",
+        "detail": "핵심 원천 기술개발 경쟁이 치열해 R&D 투자와 기술 확보 여부가 실적에 영향"
+      },
+      {
+        "factor": "인증·규제",
+        "detail": "CAP 등 국제적 검사 인증과 규제 준수 여부가 해외 서비스 확장과 신뢰도에 영향"
+      },
+      {
+        "factor": "장비의존",
+        "detail": "일루미나 GSA 기반 칩 등 장비·칩 공급 의존도가 높아 공급망 이슈가 서비스 제공에 제약을 줄 수 있음"
+      },
+      {
+        "factor": "시장수요",
+        "detail": "임상·희귀질환 진단과 NIPT 등 의료 분야 활용 증가가 유전체 검사 수요 및 매출에 직결"
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 글로벌 바이오 유전체 빅데이터 기업으로"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "비침습 산전 진단검사(NIPT) 서비스상품인 '나이스(NICE)'"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "일루미나(Illumina)로부터 전략적으로 공급받고 있는 GSA 기반의 MGA chip"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "내츄럴 라이프 뉴트리션(Natural Life Nutrition)을 2021년 7월 중에 인수하였습니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4929,
+    "completion_tokens": 4320,
+    "reasoning_tokens": 3520,
+    "output_tokens": 800
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

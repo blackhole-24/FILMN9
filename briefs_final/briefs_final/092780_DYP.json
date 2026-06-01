@@ -1,0 +1,77 @@
+{
+  "stock_code": "092780",
+  "corp_name": "DYP",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 07:22",
+  "meta": {
+    "wics": "자동차부품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "디와이피(DYP, 구 동양피스톤)는 1967년 개인사업으로 시작해 1977년 법인전환한 엔진용 피스톤 전문 기업으로, 국내 본사와 다수의 해외 계열사를 통해 피스톤을 생산·납품하는 글로벌 공급자입니다. 회사는 자체 집계 기준으로 세계 완성차(OEM: 완성차 제조업체) 매출액 기준 약 9%의 시장점유율을 보유하고 있습니다.",
+    "business_model": "핵심 사업은 엔진용 피스톤 및 파워셀 모듈(피스톤, 피스톤핀, 피스톤링 등 파워트레인 핵심부품) 생산·판매이며, 연결 기준으로 자동차부품(제품피스톤·친환경제품)이 매출의 75.92%, 상품(피스톤 및 기타)이 21.54%, 기타가 2.54%를 차지합니다. 대부분 제품은 고객사로부터 직접 수주 받아 제작·직납하는 주문생산(수주생산) 방식으로 공급합니다.",
+    "main_customers": "자동차부품 — 국내외 완성차업체 (현대자동차·기아자동차·BMW·AUDI·Stellantis·GM·FORD 등)",
+    "price_factors": [
+      {
+        "factor": "완성차 수요",
+        "detail": "완성차 판매가 경기 민감하게 변동하므로 글로벌 완성차 수요 둔화 시 피스톤 수요와 매출에 직접 영향이 있습니다."
+      },
+      {
+        "factor": "원자재·물류비",
+        "detail": "원자재 비용 및 물류비 상승은 제조원가를 높여 영업이익에 부정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "친환경 전환",
+        "detail": "친환경 전기차 및 자율주행 가속화는 파워트레인 구조 변화를 유발해 제품 포트폴리오 전환(신사업·R&D)의 필요성을 높입니다."
+      },
+      {
+        "factor": "기술 진입장벽",
+        "detail": "피스톤 등 파워트레인 핵심부품은 높은 기술력과 자본이 요구되어 경쟁자의 진입을 억제하는 한편, 기존 업체의 협상력 확보에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "1967년 동양정공사라는 개인사업으로 설립"
+      },
+      {
+        "field": "business_model",
+        "source_section": "주요제품 등의 현황",
+        "evidence_text": "연결실체 기준으로 엔진용 피스톤 파워셀 모듈을 생산 및 판매하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "자동차부품 제품 75.92, 상품 21.54, 기타 2.54"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "현대기아자동차 이외에 BMW, AUDI, Stellantis, FORD 등의 다수의 해외업체로부터"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "원자재 비용 및 물류비 상승"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "약 9%정도로 추산하고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5241,
+    "completion_tokens": 5241,
+    "reasoning_tokens": 4352,
+    "output_tokens": 889
+  },
+  "warnings": []
+}

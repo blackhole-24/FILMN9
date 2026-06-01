@@ -1,0 +1,62 @@
+{
+  "stock_code": "014530",
+  "corp_name": "극동유화",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 21:29",
+  "meta": {
+    "wics": "석유와가스",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "극동유화는 윤활유, LPG, 석유유통, 아스팔트 등 여러 사업부를 보유한 화학·석유류 유통 기업입니다. 2025년 연결 기준 매출액은 10,217억원으로 보고되었으며, 윤활유와 석유유통을 중심으로 사업을 영위하고 있습니다.",
+    "business_model": "사업부문별로 석유 유통이 매출의 68%로 가장 큰 비중을 차지하고, 윤활유 등(양산 등)이 20%, ASP(아스팔트) 4%, 유동파라핀 4%, LPG 2%, 세종AMC 관련 매출 1%, 기타 1%로 구성되어 있습니다. 주요 수익원은 정유사에서 조달한 원재료를 바탕으로 한 석유류 도·소매(자동차용 연료) 및 산업·기계용 윤활유 판매입니다.",
+    "main_customers": "윤활유 등 — 산업·기계용(기계유 등) / 유동파라핀 — 의약·화장품·식품용 및 PS 가소제 사용처 / 석유 유통 — 자동차용(휘발유·경유) / LPG 등 — 난방용·산업용·차량용 / ASP(아스팔트) — 건설·차도용 / 세종AMC 관련 — 정압기·계량기 공급처",
+    "price_factors": [
+      {
+        "factor": "원유가",
+        "detail": "국제 원유가 변동은 원재료 비용과 마진에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "경기",
+        "detail": "윤활유·LPG 수요는 전반적인 경기변동과 밀접하게 연동되어 실적 변동성이 발생합니다."
+      },
+      {
+        "factor": "경쟁심화",
+        "detail": "윤활유 다수 업체간 경쟁과 LPG의 자율가격 전환은 수익성 압박 요인입니다."
+      },
+      {
+        "factor": "기유조달",
+        "detail": "윤활유 원료 기유의 상당 부분을 국내 정유사에 의존해 가격·공급 리스크에 취약합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "아스팔트 사업부를 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "690,652(68%)"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 업계의 현황(1) 산업의 특성",
+        "evidence_text": "그 수요는 전반적인 경기의 변동과 밀접한 상관관계가 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5568,
+    "completion_tokens": 5183,
+    "reasoning_tokens": 4480,
+    "output_tokens": 703
+  },
+  "warnings": []
+}

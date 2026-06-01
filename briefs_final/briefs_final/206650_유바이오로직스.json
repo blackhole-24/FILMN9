@@ -1,0 +1,76 @@
+{
+  "stock_code": "206650",
+  "corp_name": "유바이오로직스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 11:51",
+  "meta": {
+    "wics": "생물공학",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "유바이오로직스는 2010년 3월 설립된 백신·바이오기업으로, 서울 강남구에 본점을 두고 춘천 제1·2공장 및 기업부설연구소를 보유하고 있습니다. 안전하고 효과적인 백신 개발·공급과 바이오의약품 수탁연구·제조(CRMO) 서비스를 병행하는 기업입니다.",
+    "business_model": "핵심 사업은 백신 연구개발·공급과 바이오 의약품의 수탁연구·제조(CRMO)로 구성되며, 회사가 제시한 사업부문명은 제품매출, Filler, 서비스입니다. 매출의 대부분은 콜레라 백신에 집중되어 있으며(당사 보고서상 매출의 90% 이상), CRMO는 연간 30~60억원 수준의 안정적 매출을 유지하고 있습니다. 2025년에는 콜레라 백신 매출이 1,452억원으로 기재되어 있습니다.",
+    "main_customers": "백신 — WHO·UNICEF 등 국제기구 및 공공조달 / 서비스(CRMO) — 국내·해외 제약사 및 의약품 위탁수요처",
+    "price_factors": [
+      {
+        "factor": "국제수요",
+        "detail": "WHO·UNICEF·Gavi 등 국제기구의 수요 변동이 콜레라 백신 수요와 매출에 직접 영향"
+      },
+      {
+        "factor": "원가상승",
+        "detail": "원재료비·인건비 상승 시 유니세프 공급 단가 및 마진에 영향(보고서에 단가 인상 기록)"
+      },
+      {
+        "factor": "환율(USD)",
+        "detail": "콜레라 백신의 대부분이 해외(USD) 매출로 환율 변동이 실적에 직결"
+      },
+      {
+        "factor": "규제·인증",
+        "detail": "KGMP·WHO GMP·EU GMP 등 인증 유지 및 신제품 품목허가가 공급과 매출에 영향"
+      },
+      {
+        "factor": "CMO 수요",
+        "detail": "글로벌 제약사의 아웃소싱 확대 추세가 CRMO 매출 성장에 영향"
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 2010년 3월에 설립되었으며, 서울시 강남구에 본점을 두고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "CRMO사업은 매년 30~60억 원 정도의 매출을 유지하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "2025년 콜레라 백신 매출은 1,452억원에 이릅니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "백신 시장에서는 WHO, UNICEF, Gavi, PAHO 등 국제기구가 주요 수요처로서 중요한 역할을 수행하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "라. 환율변동 영향",
+        "evidence_text": "당사의 매출이 90% 이상이 콜레라 백신이며, 콜레라 백신은 99% 이상이 유니세프등 해외 매출로"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 5405,
+    "completion_tokens": 4774,
+    "reasoning_tokens": 3904,
+    "output_tokens": 870
+  },
+  "warnings": []
+}

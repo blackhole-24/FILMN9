@@ -1,0 +1,64 @@
+{
+  "stock_code": "000640",
+  "corp_name": "동아쏘시오홀딩스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 16:56",
+  "meta": {
+    "wics": "제약",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "동아쏘시오홀딩스는 지주회사로서 자회사 관리와 경영관리서비스를 주된 사업으로 영위하는 기업입니다. 연결 기준 2025년 매출은 1조 4,298억원, 영업이익은 978억원으로 종속회사의 외형 성장에 힘입어 실적이 확대되었습니다.",
+    "business_model": "지주사부문에서는 경영관리서비스 수익, 배당금 수익, 브랜드 사용료 등이 주요 수입원이며, 제약(일반의약품·의약외품), 포장용기·생수 등 다수의 사업부문을 통해 수익을 창출합니다. [사업부문별 매출 구성]에는 포장용기/생수, CAP·PET, CASE, 브랜드별 제품명 등이 기재되어 있으나 비율은 불명확합니다.",
+    "main_customers": "지주사부문 — 자회사 및 관계회사 / 생수부문 — 거래처(제품공급계약 기준) / 포장용기·CAP·PET 등 — 고객 유형 별도 명시 없음",
+    "price_factors": [
+      {
+        "factor": "규제",
+        "detail": "제약산업은 정부의 엄격한 통제 대상이므로 규제 변화가 의약품 영업환경과 실적에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "원재료비",
+        "detail": "일반의약품의 원재료·인건비 및 포장용기 원재료 가격 변동이 제품 원가와 마진에 영향을 줍니다."
+      },
+      {
+        "factor": "자회사성장",
+        "detail": "보유 자회사의 실적 개선은 배당수익과 용역수익 증가로 이어져 지주사 실적에 기여합니다."
+      },
+      {
+        "factor": "국내수요",
+        "detail": "국내 제약시장 성장(고령화·식습관 변화 등)은 일반의약품 부문 수요에 영향을 미칠 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "사업부문별 현황■ 지주사부문",
+        "evidence_text": "당사는 자회사 관리 및 경영관리 서비스업을 주된 사업으로 영위하고 있으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 현황■ 지주사부문 영업의 개황",
+        "evidence_text": "2025년 영업수익은 전년 대비 28.7% 증가한 886억원을 기록하였습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "일반의약품 및 의약외품 부문(1) 산업의 특성 등",
+        "evidence_text": "정부에서 엄격히 통제, 관리하고 있습니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4747,
+    "completion_tokens": 4527,
+    "reasoning_tokens": 3840,
+    "output_tokens": 687
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

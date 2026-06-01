@@ -1,0 +1,67 @@
+{
+  "stock_code": "006340",
+  "corp_name": "대원전선",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 19:34",
+  "meta": {
+    "wics": "전기장비",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "대원전선은 전력·통신용 전선류를 제조·판매하는 전선 전문기업으로, 전력 및 절연케이블을 주력으로 합니다. 2025년 연결 기준 매출은 6,245억원을 기록하는 등 제조·유통·산업영업을 통해 국내외에 제품을 공급하고 있습니다.",
+    "business_model": "핵심은 전선 사업으로, 전선 매출은 제품·상품·가공 매출로 구성됩니다(제품 87.5%, 상품 12.1%, 가공 0.4%). 별도 사업으로 자동차 알루미늄휠을 완성차 1차 협력업체에 OEM(주문자생산방식) 납품하여 추가 매출을 확보하고 있습니다.",
+    "main_customers": "전선 — 전국 도소매 업체 및 국내외 건설사·산업전력업체 / 알루미늄휠 — 국내 주요 자동차 제조업체(완성차 1차 협력업체)",
+    "price_factors": [
+      {
+        "factor": "원자재가격",
+        "detail": "전기동(Cu)·알루미늄(Al) 비중이 높아 원자재 가격 변동이 제품 단가와 원가율에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "공공발주비중",
+        "detail": "한국전력·KT 등 관납 수요가 약 30%를 차지하여 공공 발주 규모 변화가 매출 안정성에 영향합니다."
+      },
+      {
+        "factor": "건설경기",
+        "detail": "민수(건설) 부문 수요 비중이 커서 국내 건설 경기 둔화 시 매출에 연동되는 영향이 큽니다."
+      },
+      {
+        "factor": "경쟁강도",
+        "detail": "LS전선·대한전선 등 대형사 중심의 경쟁 구도에서 가격·품질 경쟁 심화가 수익성에 압박을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 전선 사업부분",
+        "evidence_text": "당사는 전력 및 절연케이블을 주력으로 각종 전선류를 제조 및 판매하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[표] <매출 실적 비교표>",
+        "evidence_text": "제57기 기말 전선 사업부문 연결기준 527,117백만원의 매출을 기록하였으며,"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 전선 사업부분",
+        "evidence_text": "전국 도소매 업체를통한 유통영업"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 전선 사업부분",
+        "evidence_text": "전기동(Cu)과 알루미늄(Al)이 원재료의 대부분을 차지하며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5719,
+    "completion_tokens": 4832,
+    "reasoning_tokens": 4096,
+    "output_tokens": 736
+  },
+  "warnings": []
+}

@@ -1,0 +1,62 @@
+{
+  "stock_code": "012620",
+  "corp_name": "원일특강",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 21:05",
+  "meta": {
+    "wics": "철강",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "원일특강은 고강도·고내구성이 요구되는 특수강을 주력으로 생산·공급하는 특수강 전문 그룹으로, ㈜원일특강·비엠스틸㈜·해외 법인 WONILSTEEL VINA(베트남)·해원단조㈜ 등으로 구성되어 있습니다. 특수강과 단조(자유단조(주문 제작 방식) 포함) 기술을 바탕으로 다양한 산업에 부품 소재를 공급하고 있습니다.",
+    "business_model": "FY2025 기준 사업부문별 영업수익은 특수강 71.1%, 임가공 0.8%, 단조 5.7%로 특수강이 핵심 수익원입니다. 주로 국내외 제조업체로부터 특수강 원자재를 매입해 절단·가공 및 상품형태로 관련 부품 제조업체와 다양한 산업에 공급하는 구조입니다.",
+    "main_customers": "특수강 — 자동차·기계·조선·건설·가전·발전·플랜트 산업의 부품 제조업체 / 임가공 — 관련 부품 제조업체 / 단조 — 조선·산업기계·건설 기자재 제조업체",
+    "price_factors": [
+      {
+        "factor": "원자재가격",
+        "detail": "철광석·스크랩·텅스텐 등 주요 원자재 가격 상승은 제조원가를 끌어올려 실적에 부정적 영향을 미칩니다."
+      },
+      {
+        "factor": "수요연계",
+        "detail": "자동차·조선·건설 등 전방산업의 경기 변동은 특수강 수요와 가동률 변화로 이어져 실적에 직접 영향을 줍니다."
+      },
+      {
+        "factor": "수입재격차",
+        "detail": "국산제품과 수입재 간 가격 격차 확대 및 AD(반덤핑) 제소 등 무역 이슈는 국내 가격 형성과 수급에 영향을 미칩니다."
+      },
+      {
+        "factor": "가동률",
+        "detail": "고정비 비중이 높은 장치산업 특성상 가동률이 낮아지면 수익성 하락으로 이어질 가능성이 큽니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "특수강 전문 그룹입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "특수강: 282,899 (71.1%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 사업부문별 현황 (1) 특수강사업부문",
+        "evidence_text": "자동차, 기계, 조선, 건설, 가전, 발전, 플랜트 산업 등"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4371,
+    "completion_tokens": 3853,
+    "reasoning_tokens": 3136,
+    "output_tokens": 717
+  },
+  "warnings": []
+}

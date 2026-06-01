@@ -1,0 +1,77 @@
+{
+  "stock_code": "361570",
+  "corp_name": "알비더블유",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 17:43",
+  "meta": {
+    "wics": "방송과엔터테인먼트",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "알비더블유는 K-POP 한류 콘텐츠 제작 전문회사로, 아티스트 발굴·육성용 ‘K-POP 아티스트 인큐베이팅 시스템’을 기반으로 음악 콘텐츠 기획·제작 역량을 내재화한 기업입니다. 소속 아티스트(마마무플러스, 원위, 오마이걸, 카드, 영파씨 등)의 국내외 활동이 매출에 기여하고 있습니다.",
+    "business_model": "주요 수익원은 음원·음반·영상 저작권리 매출(40.3%), 매니지먼트 매출(23.4%), 기타매출(16.8%), 공연매출(11.9%), 제작대행매출(7.6%) 등으로 구성되어 있으며(각 수치는 FY2025 기준), 저작권(음원 스트리밍·방송·공연), 아티스트 매니지먼트, 제작대행(영상·광고·행사)과 굿즈 판매 등이 핵심 사업입니다.",
+    "main_customers": "음원음반영상저작권리매출 — 방송사·온라인 음악서비스(멜론 등)·공연주최자·해외 시장 / 제작대행매출 — 광고주·방송사·행사·기업 고객 / 매니지먼트매출 — 방송·광고·공연 기획사 및 팬(아티스트 활동 수요) / 공연매출 — 공연 관객·공연 기획사 / 기타매출 — 굿즈 구매자·라이선스 수요자",
+    "price_factors": [
+      {
+        "factor": "스트리밍 소비",
+        "detail": "음원 스트리밍·온라인 서비스 이용 변화가 저작권료 수익에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "한류 수요",
+        "detail": "해외 한류(콘텐츠) 수요 변화는 해외 매출과 공연·라이선스 수익에 영향을 줍니다."
+      },
+      {
+        "factor": "아티스트 활동",
+        "detail": "소속 아티스트의 국내외 활동 성과가 매니지먼트·공연·저작권 수익에 결정적 영향을 미칩니다."
+      },
+      {
+        "factor": "지적재산권",
+        "detail": "지적재산권(상표·저작권) 보호 및 보유량은 장기적 저작권 수익과 라이선스 사업에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "당사는 K-POP 한류 콘텐츠 제작 전문회사로서"
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황",
+        "evidence_text": "음원/음반 및 저작권 사업, 매니지먼트 사업"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "저작권료는 주로 방송(TV/라디오 등), 온라인 음악서비스(멜론 등)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "음원음반영상저작권리매출: 18,739 (40.3%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "매니지먼트매출: 10,896 (23.4%)"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "소속 아티스트 마마무플러스, 원위, 오마이걸, 카드, 영파씨 등이 활발히 활동"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4883,
+    "completion_tokens": 4837,
+    "reasoning_tokens": 3904,
+    "output_tokens": 933
+  },
+  "warnings": []
+}

@@ -1,0 +1,71 @@
+{
+  "stock_code": "214150",
+  "corp_name": "클래시스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 12:08",
+  "meta": {
+    "wics": "건강관리장비와용품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "클래시스는 2007년 설립된 피부미용(에스테틱) 의료기기 제조기업으로, 집속초음파(HIFU)·RF·마이크로니들 RF·레이저 등 에너지 기반 미용 기기 중심의 제품 포트폴리오를 보유하고 있습니다. 매출처는 전세계 80여 개국 대리점과 국내외 병·의원 및 일반 소비자를 포함하는 글로벌 유통망을 기반으로 하고 있습니다.",
+    "business_model": "주요 수익은 장비(제품) 판매와 소모품·부속품 판매로 구성되며, FY2025 기준 제품매출이 전체의 97.5%를 차지합니다(상품매출 2.1%, 기타매출 0.4%). 핵심 제품군은 HIFU(집속초음파), MRF(모노폴라 RF), MNRF(마이크로니들 RF) 및 레이저 장비로, 장비 판매를 통한 병·의원 대상 B2B 영업과 소모품 반복판매가 수익 축을 이룹니다.",
+    "main_customers": "제품매출 — 전세계 대리점 및 국내외 병·의원 / 상품매출 — 대리점 및 병·의원 / 기타매출 — 일반 소비자",
+    "price_factors": [
+      {
+        "factor": "제품트렌드",
+        "detail": "신기술·신제품 출시 주기에 따라 수요가 빠르게 변하므로 신제품 성공 여부가 실적에 직접 영향을 미칩니다."
+      },
+      {
+        "factor": "인허가·규제",
+        "detail": "의료기기는 각국의 엄격한 인·허가 기준을 충족해야 하므로 인허가 지연이나 규제 변화가 판매·출시에 영향을 줍니다."
+      },
+      {
+        "factor": "해외채널",
+        "detail": "전세계 대리점 및 현지 영업력에 따라 해외 매출 실적 변동성이 발생할 수 있습니다."
+      },
+      {
+        "factor": "브랜드선호",
+        "detail": "의료진·환자 사이에서 장비 브랜드 인지도가 높아지면 병·의원의 장비 도입 및 복합 시술 수요가 증가합니다."
+      },
+      {
+        "factor": "수요견고성",
+        "detail": "미용·웰빙 수요 확산과 비침습 시술 선호로 중장기 수요는 안정적이지만 단기 트렌드 변화는 실적에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "당사는 미용목적을 위한 의료기기 사업을 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "제품매출: 328,538,191 (97.5%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "당사는 집속초음파(HIFU), 모노폴라 RF(MRF) 외에, 마이크로니들 RF(MNRF) 및 레이저(Laser) 분야의 기술경쟁력을 보유하고 있어 EBD 주요 전 영역을 커버할 수 있는 역량을 구축하고 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "매출처는 전세계 80여 개국 대리점 및 국내외 병의원, 일반 소비자 등으로 이루어져 있으며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4288,
+    "completion_tokens": 2948,
+    "reasoning_tokens": 2048,
+    "output_tokens": 900
+  },
+  "warnings": []
+}

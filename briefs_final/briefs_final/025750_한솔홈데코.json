@@ -1,0 +1,76 @@
+{
+  "stock_code": "025750",
+  "corp_name": "한솔홈데코",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 09:53",
+  "meta": {
+    "wics": "건축자재",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "한솔홈데코는 종이·목재 업종에 속한 건축자재 기업으로, 연결실체는 목재 사업부문과 열병합발전 사업부문, 조림 사업부문으로 구성되어 있습니다. 이 중 목재사업부문이 전체 매출의 대부분을 차지하며, MDF(중밀도 섬유판), 마루, 시트 등을 중심으로 사업을 운영하고 있습니다.",
+    "business_model": "사업부문별 영업수익 구성(FY2025)을 보면 목재가 48.3%, 열병합발전이 1.8%입니다. 목재사업부문은 MDF, 마루, 시트 같은 제품과 상품 판매가 중심이며, MDF 생산 과정에서 발생하는 폐목재 등을 활용해 스팀에너지도 생산합니다. 회사는 조림 사업부문도 함께 운영하고 있지만, 전체 매출에서는 목재사업부문이 핵심 수익원입니다.",
+    "main_customers": "목재 — 대리점·건설사·가구사 / 열병합발전 — 전력·스팀 관련 수요처 / 조림 — 건설자재·펄프원료 관련 수요처",
+    "price_factors": [
+      {
+        "factor": "MDF수급",
+        "detail": "주요 제품 가격이 시장 수급에 따라 변동되므로 수요와 공급 상황이 실적에 직접 영향을 줍니다."
+      },
+      {
+        "factor": "주택경기",
+        "detail": "MDF 수요가 신축 주택과 리모델링 시장에 연동되어 있어 주택건설경기 변동이 매출에 영향을 줍니다."
+      },
+      {
+        "factor": "원재료",
+        "detail": "목질판상재는 원가에서 원재료 비중이 커서 안정적인 공급과 저가 원재료 확보가 경쟁력에 중요합니다."
+      },
+      {
+        "factor": "내수비중",
+        "detail": "매출의 99.85%가 내수로 발생해 국내 건설·인테리어 경기 흐름이 실적에 큰 영향을 줍니다."
+      },
+      {
+        "factor": "조림손익",
+        "detail": "조림사업 부문의 원목 수요 감소와 판매가 하락, 인건비 상승이 자산평가손실로 이어질 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "연결실체는 목재 사업부문과 열병합발전 사업부문, 조림 사업부문으로 구성되어 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "목재: 135,115 (48.3%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "열병합발전: 4,957 (1.8%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "대리점 및 건설사, 가구사 등에 판매되고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "주요 제품 등의 가격은 시장의 수급에 의해 가격 변동되며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5412,
+    "completion_tokens": 833,
+    "reasoning_tokens": 0,
+    "output_tokens": 833
+  },
+  "warnings": []
+}

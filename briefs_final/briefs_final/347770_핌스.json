@@ -1,0 +1,72 @@
+{
+  "stock_code": "347770",
+  "corp_name": "핌스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 17:05",
+  "meta": {
+    "wics": "디스플레이장비및부품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "핌스는 2016년 설립되어 OLED 디스플레이용 메탈마스크 제작을 주력으로 하는 기업으로, PIMS HK·PIMS CHENGDU·주식회사 쎄미런 등 3개 종속회사를 두고 있습니다. 기술 노하우와 특허 확보를 바탕으로 마스크 제조업계에서 시장점유율 1위로 자리매김했습니다.",
+    "business_model": "핌스의 핵심 제품은 OLED디스플레이메탈 마스크로, 해당 품목이 매출의 100.00%를 차지합니다. 메탈마스크는 증착 공정(공통층 및 RGB)과 봉지 공정에 사용되며, CVD(화학기상증착)용 마스크와 Frame·Coating까지 원스탑(통합) 제공으로 수익구조를 구성합니다.",
+    "main_customers": "OLED디스플레이 메탈마스크 — 국내외 디스플레이 업체",
+    "price_factors": [
+      {
+        "factor": "패널 생산량",
+        "detail": "매출은 전방산업인 OLED 디스플레이 패널의 생산량과 모델 수에 의해 결정되므로 패널 생산 축소 시 실적에 직접 영향이 발생합니다."
+      },
+      {
+        "factor": "신규 패널 투자",
+        "detail": "WOLED·QD-OLED 등 전(全)증착 단계 활용 확대 여부는 메탈마스크 수요 증가에 영향을 미칩니다."
+      },
+      {
+        "factor": "기술·검증 장벽",
+        "detail": "디스플레이 업체의 까다로운 품질검증 및 양산 평가가 길어질수록 신규 고객 확보 시점이 지연되어 실적 변동성이 커집니다."
+      },
+      {
+        "factor": "환율",
+        "detail": "외화 표시 매출·비용 노출로 환율 변동이 연결 법인 손익에 영향을 미칠 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "2016년에 OLED 디스플레이 메탈마스크 제작을"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "마스크 제조업계 시장점유율 1위"
+      },
+      {
+        "field": "business_model",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "OLED 디스플레이 메탈 마스크의 설계 및 제조, 판매를"
+      },
+      {
+        "field": "business_model",
+        "source_section": "나. 제품 매출실적",
+        "evidence_text": "OLED디스플레이메탈 마스크 100.00%"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "국내외 디스플레이 업체를 주요 매출처로 확보하게 되었으며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4578,
+    "completion_tokens": 5402,
+    "reasoning_tokens": 4672,
+    "output_tokens": 730
+  },
+  "warnings": []
+}

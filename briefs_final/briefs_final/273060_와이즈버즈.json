@@ -1,0 +1,72 @@
+{
+  "stock_code": "273060",
+  "corp_name": "와이즈버즈",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 14:40",
+  "meta": {
+    "wics": "광고",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "와이즈버즈는 RTB(실시간 경매 방식의 광고매체) 매체인 페이스북·구글 등을 기반으로 온라인 및 모바일 광고 대행과 관련 소프트웨어 개발, 부동산 임대수익을 주요사업으로 영위하는 디지털 광고 회사입니다. 자체 페이스북 광고 최적화 플랫폼 'Adwitt'를 보유하고 있으며 2025년에는 약 455억원의 매출을 기록했습니다.",
+    "business_model": "핵심 수익원은 광고대행(수수료 기반)으로, FY2025 기준 광고대행이 영업수익의 91.1%를 차지하며 기타 8.8%, 임대수익 0.0%를 차지합니다. 플랫폼(Adwitt)을 통한 페이스북 API(응용프로그램 인터페이스) 직접 연동으로 광고 집행·관리·분석·리포팅 등 디지털 광고 전 과정을 서비스하여 매체대행 수수료를 수취합니다.",
+    "main_customers": "광고대행 — 광고대행사(미디어렙) 및 직접 광고를 의뢰하는 광고주(퍼포먼스 사업, 예: 이노션·현대기아자동차 관련 사례) / 임대수익 — 임차인",
+    "price_factors": [
+      {
+        "factor": "플랫폼 의존",
+        "detail": "페이스북·구글 등 주요 RTB 매체 정책·기술 변동 시 광고 집행 효율과 수익성에 직접 영향이 발생할 수 있습니다."
+      },
+      {
+        "factor": "광고주 예산",
+        "detail": "광고주는 기업의 마케팅 예산에 따라 집행 규모가 변해 광고대행사의 매출 변동성이 커집니다."
+      },
+      {
+        "factor": "수수료 구조",
+        "detail": "매체대행 수수료 비중이 높은 구조(통상 매체비의 10~15% 수준)로 수수료율과 매체비 규모가 실적에 직접적 영향을 미칩니다."
+      },
+      {
+        "factor": "경쟁 환경",
+        "detail": "광고주·광고회사·매체사 간 경쟁과 대행사 유치 경쟁 심화가 고객 확보와 단가에 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "RTB 매체 (페이스북, 구글 등)를 기반으로 온라인 광고 대행"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "광고대행: 15,808,301 (91.1%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "기     타: 1,533,899 (8.8%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "주식회사 와이즈버즈",
+        "evidence_text": "광고대행사'(미디어렙)와 '광고주'(퍼포먼스 사업)입니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나. 산업의 특성",
+        "evidence_text": "통상 매체비의 10~15% 정도를 대행 수수료로 받고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4145,
+    "completion_tokens": 5623,
+    "reasoning_tokens": 4800,
+    "output_tokens": 823
+  },
+  "warnings": []
+}

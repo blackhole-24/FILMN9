@@ -1,0 +1,81 @@
+{
+  "stock_code": "393890",
+  "corp_name": "더블유씨피",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 18:45",
+  "meta": {
+    "wics": "전기제품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "더블유씨피는 이차전지용 분리막(리튬이온배터리 분리막) 제조를 주력으로 하는 전기·전자 소재 기업입니다. 주로 EV용 습식 분리막과 세라믹코팅분리막(CCS)을 생산하며, 5.5m 광폭 생산 기술 등 생산 역량을 강조하고 있습니다.",
+    "business_model": "핵심 사업은 습식 분리막과 코팅 분리막의 제조·공급이며, 배터리 제조 공정의 품질과 안전성을 좌우하는 소재를 주로 납품합니다. 분리막은 전지 제조원가 중 약 20%를 차지하는 핵심 소재로, 고강도·고안전성 제품과 광폭·고효율 생산능력을 통해 수요처(전방 기업)와 장기공급관계를 확보하는 구조입니다.",
+    "main_customers": "습식 분리막·코팅 분리막 — 배터리 제조사(휴대전화·노트북·e-bike·전기스쿠터·전기차·ESS용 배터리 제조사) / 전방 기업 — 분리막 제조업체와 장기공급협약을 맺는 전지·완성차·에너지 저장 시스템 관련 기업",
+    "price_factors": [
+      {
+        "factor": "전방수요",
+        "detail": "전기차·ESS 등 최종 수요의 회복·확대가 가동률과 매출에 직결되어 실적 변동성이 큽니다."
+      },
+      {
+        "factor": "공급부족",
+        "detail": "분리막은 장기적으로 공급 부족이 예상되는 소재여서 공급자 우위가 형성되면 가격·계약 조건에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "원가비중",
+        "detail": "분리막은 전지 제조원가 약 20%를 차지해 원재료·공정비용 변동이 마진에 직접 영향을 미칩니다."
+      },
+      {
+        "factor": "기술경쟁력",
+        "detail": "습식·코팅 기술 등 품질·내열성 차별화가 고객 확보와 제품 스펙 충족에 중요한 요인입니다."
+      },
+      {
+        "factor": "생산능력",
+        "detail": "광폭(5.5m) 생산기술과 단위시간당 생산능력 수준이 가동률 및 수주 대응력에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 제품 설명",
+        "evidence_text": "당사는 EV용 이차전지 습식 분리막 및 세라믹코팅분리막(Ceramic Coated Separator, 이하 \"CCS\") 생산을 주력으로 하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. 제품 설명",
+        "evidence_text": "당사의 주요 제품은 습식 분리막과 코팅 분리막으로, 경쟁사 대비 분리막 강도가 높고 분리막 파손의 위험성이 낮은 것이 특징입니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 제품 설명",
+        "evidence_text": "전방 기업들은 분리막 제조업체와 장기공급협약을 통해 안정적인 매출처를 확보하는 추세를 보이고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 제품 설명",
+        "evidence_text": "이차전지 분리막은 수요가 폭발적으로 증가함에 따라 장기적으로는 공급 부족이 예상되는 소재입니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 제품 설명",
+        "evidence_text": "분리막은 전지 제조원가 중에서 약 20% 정도를 차지하고 있어"
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. 제품 설명",
+        "evidence_text": "현재 당사는 세계 최대 수준인 5.5m 광폭 생산기술을 보유하고 있으며"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 5653,
+    "completion_tokens": 5082,
+    "reasoning_tokens": 4096,
+    "output_tokens": 986
+  },
+  "warnings": []
+}

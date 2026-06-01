@@ -1,0 +1,62 @@
+{
+  "stock_code": "030190",
+  "corp_name": "NICE평가정보",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 23:30",
+  "meta": {
+    "wics": "상업서비스와공급품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "NICE평가정보는 개인신용정보사업(CB사업)과 기업정보사업을 영위하는 신용정보 전문기업입니다. 국내 최대규모의 신용정보 DB를 보유하고 있으며, 2021년 7월 21일 마이데이터(본인신용정보관리업) 허가를 취득해 자산관리·빅데이터 서비스까지 제공하고 있습니다.",
+    "business_model": "사업부문별 영업수익은 개인신용정보 사업 61.5%, 기업정보사업 16.3%, 자산관리사업 12.3%, 기타 9.9%로 구성되어 있습니다. 개인신용정보사업(CB사업)은 금융·비금융 기관의 거래내역을 수집·평가해 신용평점과 관련 솔루션을 제공하고, 마이데이터(본인신용정보관리업) 허가를 통해 개인 대상 맞춤형 금융정보 서비스까지 확장하고 있습니다.",
+    "main_customers": "개인신용정보사업 — 은행·카드·캐피탈·보험·저축은행 등 금융기관 / 유통·통신·대부업 등 비금융기관 / 국세·관세·지방세 등 공공기관 / 기업정보사업 — (보고서에 구체적 고객 분류 미기재) / 자산관리사업 — (보고서에 구체적 고객 분류 미기재)",
+    "price_factors": [
+      {
+        "factor": "법·규제",
+        "detail": "신용정보법·개인정보보호법 등 규제 변경은 영업허가와 서비스 범위에 직접적 영향을 미칩니다."
+      },
+      {
+        "factor": "금융 경기",
+        "detail": "가계대출·신용카드 발급 등 금융권 신용거래가 증가하면 CB서비스 수요가 늘어 실적에 영향이 있습니다."
+      },
+      {
+        "factor": "데이터 경쟁력",
+        "detail": "신용정보 보유량과 정보가공 역량, 안정적 IT인프라가 경쟁우위를 좌우합니다."
+      },
+      {
+        "factor": "마이데이터 성장",
+        "detail": "개인신용정보 전송요구권 등 제도 확대는 마이데이터 플랫폼 기반의 신규 서비스 기회를 제공합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "개인신용정보사업(CB사업)과 기업정보사업을 영위하고 있으며,"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "은행, 카드, 캐피탈, 보험, 저축은행 등 금융기관"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "개인신용정보  사업: 375,913 (61.5%)"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4507,
+    "completion_tokens": 4498,
+    "reasoning_tokens": 3776,
+    "output_tokens": 722
+  },
+  "warnings": []
+}

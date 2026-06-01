@@ -1,0 +1,72 @@
+{
+  "stock_code": "008470",
+  "corp_name": "부스타",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 20:07",
+  "meta": {
+    "wics": "기계",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "부스타는 5 ton/h 이하의 소용량 난방용 및 산업용 보일러를 주로 개발·생산하는 기업으로, 소형·주문형 보일러 시장에서 계획생산 방식을 적용해 공장 가동률과 생산성을 높이는 전략을 취하고 있습니다. 산업용 보일러 시장은 중소기업 중심의 주문생산형 구조로, 부스타는 소형·고효율 제품에 특화되어 있습니다.",
+    "business_model": "주요 수익원은 제품 판매와 관련 용역으로 구성되며, 매출은 제품매출이 50.6%(46,499), 용역매출이 49.4%(45,370)를 차지하여 균형된 구조입니다. 핵심 사업은 소용량 산업용·난방용 보일러의 개발·제조(제품)와 이를 보완하는 서비스성 용역(용역매출)입니다.",
+    "main_customers": "제품매출 — 빌딩·사우나·석유화학·섬유·의약·병원·공공기관·서비스 산업 / 용역매출 — 상기 산업체 및 공공기관(제품 사용처 대상)",
+    "price_factors": [
+      {
+        "factor": "환경규제",
+        "detail": "NOx(질소산화물) 등 환경규제 강화 시 저NOx·고효율 보일러 수요가 증가하여 실적에 영향"
+      },
+      {
+        "factor": "유가(연료비)",
+        "detail": "유가 상승 시 보일러 교체 수요가 수직 상승할 수 있어 매출에 직접 영향"
+      },
+      {
+        "factor": "안전규정",
+        "detail": "가스안전 관련 검사·규제 강화는 제품 설계·검사 비용과 납기·수요에 영향"
+      },
+      {
+        "factor": "기술경쟁력",
+        "detail": "초저NOx·고효율 연소기술 보유 여부가 경쟁력과 수주에 직결"
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 산업의 특성",
+        "evidence_text": "5 ton/h 이하의 소용량 난방용 및 산업용보일러"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "제품매출: 46,499 (50.6%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "용역매출: 45,370 (49.4%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 산업의 특성",
+        "evidence_text": "주 사용처는 기존의 노통보일러와 수관식보일러를 사용하는 빌딩, 사우나, 석유화학, 섬유"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나. 회사에 영향을 미치는 주요 법률 및 제규정",
+        "evidence_text": "국내 최초의 저 NOx(질소산화물) 보일러를 상용화시키기도 하였습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4760,
+    "completion_tokens": 4558,
+    "reasoning_tokens": 3776,
+    "output_tokens": 782
+  },
+  "warnings": []
+}

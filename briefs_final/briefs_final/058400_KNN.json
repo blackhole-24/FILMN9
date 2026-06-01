@@ -1,0 +1,67 @@
+{
+  "stock_code": "058400",
+  "corp_name": "KNN",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 03:42",
+  "meta": {
+    "wics": "방송과엔터테인먼트",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "KNN은 1994년 설립되어 1995년부터 TV와 라디오 방송업을 영위하는 지역 민영방송사입니다. 부산·경남지역 단일방송권에서 645만 시청자를 보유한 유일한 지역 민영방송사로, SBS와의 네트워크를 통해 프로그램을 공급받아 운영하고 있습니다.",
+    "business_model": "수익은 방송 관련 광고·협찬·용역·임대 등에서 발생하며, 2025년 사업부문별 영업수익은 TV방송광고 30.6%, Radio방송광고 2.0%, 협찬사업 50.9%, 임대 4.3%, 용역 12.1%로 나타났습니다. 프로그램 공급은 SBS와의 협약을 통해 이루어지며(편성비율 SBS 66.5% : 자체프로그램 33.5%), 방송광고와 협찬 중심의 매출 구조가 핵심입니다.",
+    "main_customers": "TV방송광고 — 광고주(기업·브랜드) / Radio방송광고 — 광고주(기업·지역) / 협찬사업 — 협찬사 및 이벤트·콘텐츠 파트너 / 임대 — 임차인(부동산 임대 고객) / 용역 — 방송·콘텐츠 관련 용역 수요처",
+    "price_factors": [
+      {
+        "factor": "광고단가",
+        "detail": "(주)에스비에스엠앤씨의 광고단가 결정(제작비 등 고려)은 광고수익과 실적에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "규제",
+        "detail": "지상파 방송의 지분·소유 규제(외국인 지분 금지 등)는 자본구조 및 지분변동에 제약을 줍니다."
+      },
+      {
+        "factor": "뉴미디어",
+        "detail": "케이블·위성·IPTV 등 뉴미디어의 등장으로 시청 선택지가 분산되면 시청률과 광고시장에 영향이 발생할 수 있습니다."
+      },
+      {
+        "factor": "콘텐츠력",
+        "detail": "콘텐츠 제작 역량은 지상파 경쟁력의 핵심으로, 양질의 프로그램 확보가 광고·협찬 수익에 중요한 역할을 합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "TV와 라디오 방송업을 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "협찬사업: 34,891 (50.9%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "방송광고수입이 매출액의 주된 부분을 차지하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "(1) 그 밖에 투자의사결정에 필요한 사항",
+        "evidence_text": "-  외국인의 지상파방송사 지분소유 금지"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5448,
+    "completion_tokens": 4163,
+    "reasoning_tokens": 3392,
+    "output_tokens": 771
+  },
+  "warnings": []
+}

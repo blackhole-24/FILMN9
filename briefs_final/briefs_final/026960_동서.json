@@ -1,0 +1,77 @@
+{
+  "stock_code": "026960",
+  "corp_name": "동서",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 23:18",
+  "meta": {
+    "wics": "식품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "동서는 유통·식품 분야의 기업으로 식품사업, 제조부문, 구매수출부문 및 기타부문을 운영하고 있습니다. 2025년 연결기준 매출은 5,329억원, 영업이익은 453억원이며 자기자본비율 96.6%, 부채비율 3.5%로 견실한 재무구조를 유지하고 있습니다.",
+    "business_model": "핵심 사업은 식품사업(식자재·수입음료 판매)과 제조부문(포장재·다류·커피제품 포장·판매), 구매수출(구매·수출입 대행) 및 물류·임대 등 기타부문으로 구성되어 있습니다; 제51기 식품사업부문 매출은 2,996억원이며 사업부문별 FY2025 구성은 제조부문 22.6%, 구매수출부문 19.6%, 기타부문 1.6%입니다.",
+    "main_customers": "식품사업부문 — 국내 식자재 시장의 구매자 / 제조부문 — 포장재 및 다류 제품의 구매자 / 구매수출부문 — 수출입 대행을 의뢰하는 법인고객 / 기타부문 — 물류 보관 및 임대 서비스 이용자",
+    "price_factors": [
+      {
+        "factor": "환율·원자재",
+        "detail": "원재료 수입 의존도가 높아 고환율 및 국제 원자재가 상승 시 원가 부담이 커져 실적에 부정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "공급망 리스크",
+        "detail": "국제 분쟁으로 인한 공급망 혼란은 수입 원재료 조달에 차질을 빚어 매출과 원가 구조에 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "소비 양극화",
+        "detail": "장기 경기 침체·고물가로 저렴한 양질의 제품 선호가 강화되면 프리미엄 제품 전략의 수익성에 영향이 생길 수 있습니다."
+      },
+      {
+        "factor": "유통구조 변화",
+        "detail": "온라인 커머스 등 유통 채널의 다변화 및 경쟁 심화는 판매경로와 마진 구조에 영향을 주어 실적 변동 요인이 됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "2025년 연결기준 매출 5,329억원, 영업이익 453억원"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 영업수익 구성 (FY2025)]",
+        "evidence_text": "제조부문: 120,333,733 (22.6%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 영업수익 구성 (FY2025)]",
+        "evidence_text": "구매수출부문: 104,402,677 (19.6%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 영업수익 구성 (FY2025)]",
+        "evidence_text": "기타부문: 8,500,964 (1.6%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "(1) 식품사업부문",
+        "evidence_text": "다양한 식자재를 바탕으로 고객의 기호에 맞는 품목을 판매하고 있으며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "(2) 사업부문별 현황가. 식품사업부문",
+        "evidence_text": "원재료의 수입의존도가 높기 때문에 환율, 국제 원자재 가격의 변화에 민감하게 반응"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4678,
+    "completion_tokens": 5540,
+    "reasoning_tokens": 4608,
+    "output_tokens": 932
+  },
+  "warnings": []
+}

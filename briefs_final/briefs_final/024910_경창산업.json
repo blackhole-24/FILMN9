@@ -1,0 +1,83 @@
+{
+  "stock_code": "024910",
+  "corp_name": "경창산업",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 23:00",
+  "meta": {
+    "wics": "자동차부품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "경창산업은 1961년 설립된 자동차부품 제조업체로 대구에 본사를 두고 있으며, 국내외 완성차에 부품을 공급하는 OEM(주문자상표부착생산) 방식의 기업입니다. 본사 외에 총 10개의 생산공장이 가동되고 있으며 코스닥에 상장되어 있습니다.",
+    "business_model": "핵심 사업은 Auto T/M, Actuator, Pedal, Lever, Cable, Wiper, Reservoir Tank 등 자동차부품의 제조·납품이며, 종속회사를 통해 리저브탱크·레버·페달 등 부품을 일괄 생산·판매합니다. 제품은 현대차·기아차 등 완성차 업체에 OEM(주문자상표부착생산) 방식으로 납품되어 매출이 발생합니다.",
+    "main_customers": "자동차부품 — 현대차·기아차·현대트랜시스·현대모비스·폭스바겐·크라이슬러·푸조 등 완성차 제조사",
+    "price_factors": [
+      {
+        "factor": "경기 민감성",
+        "detail": "자동차 수요는 경기 변동에 민감해 경기 침체 시 실적과 주가에 직접적인 하방 압력을 줄 수 있습니다."
+      },
+      {
+        "factor": "친환경 전환",
+        "detail": "국제적 배출가스 규제·연비 규제 강화와 전기차 확대는 제품 기술·수요 구조에 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "환율 위험",
+        "detail": "수출·원재료 수입 및 외화 차입금 노출로 인해 달러 등 환율 변동이 실적에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "원가·금리 상승",
+        "detail": "물가 상승 및 고금리 환경은 원가 부담과 금융비용 증가로 영업이익률에 부정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "고객 집중",
+        "detail": "주요 완성차업체에 대한 납품 의존도가 높아 특정 고객의 수주 변동이 실적에 큰 영향을 미칠 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "당사는 1961년 10월 자동차 부품 등의 제조 판매업을 주사업목적으로 설립"
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황",
+        "evidence_text": "OEM방식으로 제품을 납품하고 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "현대차, 기아차, 현대트랜시스, 현대모비스, 폭스바겐, 크라이슬러, 푸조"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "다. 시장여건 및 영업의 개황",
+        "evidence_text": "자동차 수요는 경기 변동과 밀접한 관계를 맺고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "다. 환율변동위험",
+        "evidence_text": "USD등의 환율변동위험에 노출되어 있으며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "물가 상승, 고금리 시대에도 불구하고"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4698,
+    "completion_tokens": 4578,
+    "reasoning_tokens": 3712,
+    "output_tokens": 866
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

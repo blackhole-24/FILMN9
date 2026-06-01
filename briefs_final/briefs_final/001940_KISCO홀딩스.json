@@ -1,0 +1,67 @@
+{
+  "stock_code": "001940",
+  "corp_name": "KISCO홀딩스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 17:43",
+  "meta": {
+    "wics": "철강",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "KISCO홀딩스는 지주회사로서 한국철강, 환영철강공업, 대흥산업, (주)서륭 등 주요 계열사를 보유하고 있는 철강업 관련 지주회사입니다. 지주회사는 자회사에 대한 지배를 통해 배당금 및 경영관리용역 수익을 주요 수입원으로 하고 있으며, 2025년 연결 기준 매출액은 825,261백만원입니다.",
+    "business_model": "주요 수익은 지주부문(배당금수익·용역수익)과 철강제조부문(철근·압연제품 판매)에서 발생하며, [사업부문별 영업수익 구성 (FY2025)]에 따르면 상 품이 4.5%(21,735), 기 타가 1.6%(7,640)를 차지합니다. 지주회사는 자회사 주식 보유를 통해 경영지도를 수행하고 배당 및 용역 수익을 확보합니다.",
+    "main_customers": "지주부문 — 자회사(배당·경영관리용역 제공) / 철강제조부문 — 철근·압연제품 구매처(건축용 자재 수요처) / 임대부문 — 임차인 / 섬유판매부문 — 섬유제품 구매자 / 금융투자부문 — 투자자(사모투자신탁 관련)",
+    "price_factors": [
+      {
+        "factor": "중국산 덤핑",
+        "detail": "중국산 저가 철강재 덤핑이 지속될 경우 철강제조부문의 판매가격 및 마진에 부정적 영향이 발생할 수 있습니다."
+      },
+      {
+        "factor": "건설경기",
+        "detail": "국내 건설경기 침체와 중소 건설사 경영난은 철근 수요 감소로 제조부문 매출에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "공급망 충격",
+        "detail": "원자재 수급 및 공급망의 혼란은 생산비와 제품공급에 영향을 주어 실적 변동성을 키울 수 있습니다."
+      },
+      {
+        "factor": "배당 의존도",
+        "detail": "지주부문은 자회사 배당 및 용역수익에 의존하므로 자회사 실적 변동이 지주 실적에 직결됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "KISCO홀딩스는 다른 회사의 주식을 소유한 회사이며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "지주회사의 영업수익은 배당금수익과 용역수익(경영관리용역 및 기타용역) 등으로 구성되어 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 영업수익 구성 (FY2025)]",
+        "evidence_text": "상    품: 21,735 (4.5%)"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "중국산 저가 철강재 덤핑 등"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5433,
+    "completion_tokens": 5035,
+    "reasoning_tokens": 4224,
+    "output_tokens": 811
+  },
+  "warnings": []
+}

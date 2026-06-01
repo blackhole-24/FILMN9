@@ -1,0 +1,76 @@
+{
+  "stock_code": "123840",
+  "corp_name": "뉴온",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 09:25",
+  "meta": {
+    "wics": "건강관리업체및서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "뉴온은 건강기능식품과 생활용품을 주력으로 하는 기업으로, 개별인정형 원료 연구개발을 통해 건강기능식품 전문기업으로 성장해왔습니다. 생활용품 브랜드 '살림백서'를 통해 온라인 채널에서 탄탄한 팬층을 확보하고 있으며, 최근 합병과 채널 다변화를 통해 매출 성장을 이루고 있습니다.",
+    "business_model": "주요 수익원은 상품 판매(상품매출)와 특정 제품군 매출로 구성되며, FY2025 기준으로 사업부문별 영업수익 구성은 상품매출 13.6%, 프렌치 이뮨 에키네시아 4.9%, 용역매출 4.0%, 기타 1.0%, 다이글로메라 0.1%로 보고되고 있습니다. 건강기능식품은 개별인정형 원료 기반 제품 개발·제조·판매(유통채널: B2B·홈쇼핑·이커머스 등)가 중심이고, 생활용품은 온라인 마켓 중심의 제품 판매가 핵심입니다.",
+    "main_customers": "건강기능식품 — B2B(원료·제조업체), 홈쇼핑·이커머스 채널을 이용하는 소비자 / 생활용품 — 네이버·쿠팡 등 온라인마켓을 이용하는 일반 가정용 소비자",
+    "price_factors": [
+      {
+        "factor": "규제 승인",
+        "detail": "식약처의 승인·개별인정 요건에 따라 제품 출시 가능 여부가 실적에 직접 영향을 미칩니다."
+      },
+      {
+        "factor": "소비자 수요(고령화)",
+        "detail": "고령화 및 웰빙 관심 증가로 건강기능식품 수요가 확대되어 매출에 긍정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "유통채널 변화",
+        "detail": "온라인(네이버·쿠팡)·홈쇼핑 위주의 판매 구조는 채널 트래픽과 마케팅 비용에 민감하게 반응합니다."
+      },
+      {
+        "factor": "프리미엄·친환경 트렌드",
+        "detail": "생활용품의 고급화·친환경 수요 증가는 제품 포트폴리오와 가격대에 영향을 미칩니다."
+      },
+      {
+        "factor": "글로벌 불확실성",
+        "detail": "세계 경제 불확실성(무역·공급망 이슈)은 원가·수출 여건에 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "<건강기능식품 사업>",
+        "evidence_text": "2018년 12월부터 '시서스추출물' 개별인정형 소재 허가를 받으며"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "[경영진 실적·전략 요약 (MD&A)]",
+        "evidence_text": "매출액은 전기대비 359.8% 증가한 482억원"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "상품매출: 6,525,872 (13.6%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "<생활용품 사업>",
+        "evidence_text": "네이버 쇼핑과 쿠팡 등 온라인 마켓을 중심으로 성장해왔으며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나. 업계 현황 및 전망 > 1) 업계현황가) 건강기능식품 사업부문",
+        "evidence_text": "건강기능식품은 식약처의 승인에 의해"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5119,
+    "completion_tokens": 3404,
+    "reasoning_tokens": 2496,
+    "output_tokens": 908
+  },
+  "warnings": []
+}

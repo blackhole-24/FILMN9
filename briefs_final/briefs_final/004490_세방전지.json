@@ -1,0 +1,62 @@
+{
+  "stock_code": "004490",
+  "corp_name": "세방전지",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 18:49",
+  "meta": {
+    "wics": "자동차부품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "세방전지는 1952년 창립 이후 축전지 개발에 집중해 온 기업으로, 73년의 역사를 가진 국내 대표 축전지 전문 메이커입니다. 2025년 기준 세계 130여개국으로 수출을 하고 있으며, 납축전지와 리튬전지 관련 부품을 주요 사업으로 영위하고 있습니다.",
+    "business_model": "핵심 사업은 납축전지부문과 EV전지부문으로 구성되며, 부문별 매출은 납축전지부문이 85%, EV전지부문이 15%를 차지합니다. 납축전지(차량용·산업용 등) 판매가 매출의 대부분을 차지하고, 리튬전지 관련 배터리 모듈·팩 등 EV전지부문은 신성장 동력으로 육성 중입니다.",
+    "main_customers": "차량용 — 완성차 OEM / A/S(보수용) — A/S시장 / 산업용 — 산업용 용도 / 이륜용 — 이륜용 용도 / 특수용 — 특수용 용도",
+    "price_factors": [
+      {
+        "factor": "수출관세·보호무역",
+        "detail": "보호무역주의와 수출 관세는 수출비중이 큰 기업의 영업이익에 직접적인 부담을 줄 수 있습니다."
+      },
+      {
+        "factor": "환율",
+        "detail": "환율 변동은 수출대금 원화 환산 및 원가에 영향을 주어 실적 변동성을 높일 수 있습니다."
+      },
+      {
+        "factor": "원가율·설비투자",
+        "detail": "원가율 상승과 설비투자 확대는 단기적으로 영업이익 감소 요인으로 작용할 수 있습니다."
+      },
+      {
+        "factor": "시장 과점 구조",
+        "detail": "국내 연축전지 시장에서 상위 업체들이 높은 점유율을 차지하는 과점 구조는 경쟁 및 가격 결정 요인에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 회사의 현황",
+        "evidence_text": "당사는 1952년 창립이래 73년 동안 축전지 개발에 전력 질주하여"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "부문별 매출구성을 보면 납축전지부문이 85%, EV전지부문이 15%를 차지하고 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "나. 업계의 현황",
+        "evidence_text": "부문별로는 완성차에 납품하는 OEM시장과 보수용인 A/S시장으로 이루어져"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4156,
+    "completion_tokens": 4091,
+    "reasoning_tokens": 3392,
+    "output_tokens": 699
+  },
+  "warnings": []
+}

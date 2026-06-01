@@ -1,0 +1,74 @@
+{
+  "stock_code": "400760",
+  "corp_name": "NH올원리츠",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 18:52",
+  "meta": {
+    "wics": "부동산",
+    "market": "KOSPI",
+    "has_revenue_data": false,
+    "tier": 4,
+    "tier_mode": "best_effort_summary",
+    "corp_type": "reit"
+  },
+  "brief": {
+    "company_overview": "NH올원리츠는 2019년 설립된 위탁관리형 부동산투자회사(리츠)로, 부동산을 취득·운용하여 그 수익을 주주에게 배당하는 것을 목적으로 합니다. 본점은 서울 영등포구에 위치하며, 2021년 11월 18일 한국거래소 유가증권시장에 상장되었습니다.",
+    "business_model": "당사는 부동산의 취득·관리·개량·처분 및 임대차 등 부동산 관련 활동을 통해 자산을 운용하는 단일(주력) 사업을 영위합니다. 주요 수익원은 보유자산에서 발생하는 임대료 및 관련 자산 운용수익이며, 이러한 수익을 배당재원으로 삼아 주주에게 배당하는 구조입니다.",
+    "main_customers": "부동산 투자·운용 — 주주(투자자) / 부동산 임대 — 임차인(세입자)",
+    "price_factors": [
+      {
+        "factor": "경기민감성",
+        "detail": "리츠 대부분이 임대료를 수입 기반으로 하기 때문에 경기 상승 시 수익이 확대되고, 경기 하락 시 수익이 감소하는 경향이 있습니다."
+      },
+      {
+        "factor": "임대수입",
+        "detail": "보유 자산의 임대료 수준과 안정성이 배당여력 및 실적에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "투자자층 변화",
+        "detail": "공모상장리츠의 출시로 투자자 범위가 기관에서 개인으로 확대되는 점이 시장 수요와 유동성에 영향을 줍니다."
+      },
+      {
+        "factor": "상장리츠 규모",
+        "detail": "상장리츠 수와 총자산 규모는 시장의 경쟁구도 및 투자자 선택 폭에 영향을 미칠 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "라. 영업의 개요",
+        "evidence_text": "당사는 2019년 11월 20일 설립된 회사로"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "라. 영업의 개요",
+        "evidence_text": "2021년 11월 18일 한국거래소 유가증권 시장에 상장 되었습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "라. 영업의 개요",
+        "evidence_text": "당사는 현재 부동산업의 단일사업을 영위하고 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "다. 리츠 산업의 특성",
+        "evidence_text": "그 수익을 투자자에게 돌려주는 부동산 간접투자기구인 주식회사입니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "다. 리츠 산업의 특성",
+        "evidence_text": "투자자 범위가 기관 투자자에서 개인 투자자로 확대되며 성장하고 있습니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4857,
+    "completion_tokens": 4524,
+    "reasoning_tokens": 3776,
+    "output_tokens": 748
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

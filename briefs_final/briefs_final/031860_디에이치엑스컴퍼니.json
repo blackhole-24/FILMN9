@@ -1,0 +1,87 @@
+{
+  "stock_code": "031860",
+  "corp_name": "디에이치엑스컴퍼니",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 12:43",
+  "meta": {
+    "wics": "컴퓨터와주변기기",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "디에이치엑스컴퍼니는 유통업(컴퓨터와주변기기 섹터) 관련 사업을 영위하는 기업으로, ICT 유통과 바이오 관련 사업을 병행하고 있습니다. 경영진은 사업구조 재편 및 신규사업 확대를 통해 매출 기반을 강화했고, 연결기준 매출액은 14,511,575,130원으로 전기 대비 증가했습니다.",
+    "business_model": "주요 수익원은 ICT사업부로, 사업부문별 영업수익 구성에서 ICT사업부가 95.4%를 차지하고 기타가 4.6%를 차지합니다(기타에는 보고서상 바이오 등 기타 사업부문이 포함되어 있음). ICT 유통부문은 F&B, 화장품·전자담배, 지역 특산물 유통·수출 등 다양항 제품군과 온·오프라인 채널을 통해 매출을 창출합니다.",
+    "main_customers": "F&B 유통 — 국내·해외 시장 / 화장품 및 전자담배 유통 — 온라인·오프라인 판매 채널을 통해 유통되는 소비자층 / 지역 특산물 유통·수출 — 전국 단위의 농·축·수협 연계 및 홈쇼핑·SNS 채널",
+    "price_factors": [
+      {
+        "factor": "구조전환",
+        "detail": "사업구조 재편 과정에서 발생한 비용은 단기 수익성에 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "임상·규제",
+        "detail": "의약품 '아피톡신'의 임상·허가 진행 상황(예: 미국 FDA IND 신청)은 성과에 중요한 변수입니다."
+      },
+      {
+        "factor": "해외수출",
+        "detail": "F&B 및 지역 특산물의 국내외 유통·수출 확대는 매출 변동성에 직접적인 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "판매채널",
+        "detail": "인플루언서 콜라보와 온·오프라인 통합 마케팅 등 판매 채널의 효율성에 따라 매출 성장성이 좌우됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황 > 가. ICT 유통 사업부문",
+        "evidence_text": "당사는 다양한 분야에서 국내외 유통사업을 진행하고 있으며,"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "ICT사업부: 13,844,953 (95.4%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "기타: 666,623 (4.6%)"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "연결기준 매출액은 14,511,575,130원으로 전기 대비 증가하며 성장세를 시현하였습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황 > 가. ICT 유통 사업부문",
+        "evidence_text": "전국 단위의 농,축,수협과 연계하여"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "사업구조 재편 및 신규사업 확대를 통해 매출 기반을 강화하는 성과를 거두었습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "영업 현황 > 나. 바이오 사업부문",
+        "evidence_text": "미국 FDA의 신약 임상3상 시험계획(IND)을 신청하였습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황 > 가. ICT 유통 사업부문",
+        "evidence_text": "유명 인플루언서와의 콜라보를 통한 상품 개발"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3346,
+    "completion_tokens": 4892,
+    "reasoning_tokens": 3904,
+    "output_tokens": 988
+  },
+  "warnings": []
+}

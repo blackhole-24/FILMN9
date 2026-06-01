@@ -1,0 +1,67 @@
+{
+  "stock_code": "065570",
+  "corp_name": "삼영이엔씨",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 04:32",
+  "meta": {
+    "wics": "조선",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "삼영이엔씨는 1978년 설립(1995년 법인전환)된 선박전자장비 개발·제조 기업으로, 부산 영도에 본사와 생산시설을 두고 있습니다. 자체 기술로 국산화한 제품들을 국내 약 130개, 해외 60여개국 140여개 대리점을 통해 판매·A/S하고 있습니다.",
+    "business_model": "주력 사업은 선박통신장비·항해장비·방산장비 등 선박전자장비의 개발·제조·판매이며 다품종 소량생산 방식으로 운영합니다. FY2025 기준 사업부문별 영업수익은 제품 23.8%, 내수 35.7%, 방산장비(단파통신체계) 등 34.8%, 상품 5.0%, 공사 0.7%입니다.",
+    "main_customers": "선박통신·항해장비 — 어선 등 중소형선박 / 방산장비 — 해군 함정 등 특수선박 / 레저 제품 — 레저보트 시장 / 유통채널 — 국내외 대리점(판매의 약 70% 이상)",
+    "price_factors": [
+      {
+        "factor": "규제·국제기준",
+        "detail": "IMO·SOLAS 등 국제 규제의 변화와 GMDSS 의무화 범위 확대는 장비 수요와 인증 기준에 직결됩니다."
+      },
+      {
+        "factor": "선박경기",
+        "detail": "어선·상선·레저보트 산업의 경기 및 계절적 비수기(동절기) 변동은 매출 변동성으로 이어집니다."
+      },
+      {
+        "factor": "기술경쟁",
+        "detail": "유럽·일본 등 기술선도국과의 차별화된 기술 확보 여부가 제품 경쟁력과 시장점유율에 영향합니다."
+      },
+      {
+        "factor": "부품조달",
+        "detail": "IC·LCD 등 다수 부품의 국내·해외 조달(국내 65%, 해외 35%)과 환율·원가 변동이 원가구조에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "당사는 1978년 설립(1995년 법인전환)이래"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "제품 (23.8%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업의 현황",
+        "evidence_text": "당사의 주요 시장은 어선 등 중소형선박과 해군 함정"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "영업의 현황",
+        "evidence_text": "부품의 65%는 국내에서, 35%는 해외에서 조달하고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5678,
+    "completion_tokens": 4191,
+    "reasoning_tokens": 3456,
+    "output_tokens": 735
+  },
+  "warnings": []
+}

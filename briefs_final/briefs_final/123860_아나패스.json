@@ -1,0 +1,67 @@
+{
+  "stock_code": "123860",
+  "corp_name": "아나패스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 09:25",
+  "meta": {
+    "wics": "디스플레이장비및부품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "아나패스는 디스플레이 패널용 시스템 반도체인 T-Con(Timing Controller) 및 TED(TCON Embedded Driver) IC를 주력으로 개발·공급하는 팹리스(외주생산 위탁) 기업입니다. 디스플레이 패널 제조사인 고객사의 사양에 맞춘 주문형 반도체(ASIC)를 중심으로 사업을 운영하고 있습니다.",
+    "business_model": "주요 수익원은 T-Con 및 TED 등 디스플레이용 시스템 반도체(주문형 반도체·ASIC) 제품 공급이며, 제품 생산은 외주위탁 형태의 팹리스 모델로 이루어집니다. 2025년 연간 기준 품목별 매출 비중은 OLED향 T-Con/TED 91.15%, 기타 8.85%로 구성되어 있습니다.",
+    "main_customers": "제품 — 패널업체(디스플레이 패널 제조사) / 기타 — 기타",
+    "price_factors": [
+      {
+        "factor": "제품집중도",
+        "detail": "OLED향 T-Con/TED 매출 비중이 높아 OLED 수요 변동이 실적에 큰 영향을 미칩니다."
+      },
+      {
+        "factor": "패널수요",
+        "detail": "스마트폰용 OLED 패널 수요 감소는 TED 판매량과 매출에 직접적인 하방 압력으로 작용합니다."
+      },
+      {
+        "factor": "설계경쟁력",
+        "detail": "설계 복잡화와 개발비 상승으로 설계 능력이 우수한 기업에 유리해, 경쟁력 확보 여부가 수익성에 영향합니다."
+      },
+      {
+        "factor": "품질·환경",
+        "detail": "ISO 품질·환경경영 체계 보유로 고객 신뢰와 규제 대응력은 거래 지속성에 긍정적 요소입니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 제품 생산을 외주위탁하는 팹리스 업체(Fabless Company)로서,"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "OLED향 T-Con/TED 91.15%, 기타 8.85%"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "고객사인 패널업체가 요구하는 사양에 따라"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "마. 시장여건 및 영업의 개황 (1) 산업의 특성",
+        "evidence_text": "시장 진입장벽이 점차 높아지고 있어"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3926,
+    "completion_tokens": 4581,
+    "reasoning_tokens": 3904,
+    "output_tokens": 677
+  },
+  "warnings": []
+}

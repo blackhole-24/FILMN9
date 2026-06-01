@@ -1,0 +1,71 @@
+{
+  "stock_code": "027410",
+  "corp_name": "BGF",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 09:54",
+  "meta": {
+    "wics": "화학",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "BGF는 2017년 편의점 연쇄화사업부문을 인적분할한 뒤 지주회사로 전환한 기업입니다. 2018년 3월 지주회사 요건을 충족했고, 현재는 BGF리테일과 BGF에코머티리얼즈 등을 자회사로 두고 지배와 투자 기능을 수행하고 있습니다.",
+    "business_model": "BGF는 다른 회사의 주식을 소유해 자회사를 지배하는 지주회사(holding company)이며, 연결기준 매출은 주로 자회사 실적과 별도기준 지주회사 수익으로 구성됩니다. 지주회사 본업에서는 BGF 브랜드 사용수익, 경영지원용역수익, 배당금 수익, 임대수익을 인식하고 있습니다. 참고로 FY2025 사업부문별 영업수익 구성은 PA66 32.4%, PA6 22.5%, PP 28.2%, 기타 16.9%입니다.",
+    "main_customers": "지주회사(투자사업) — 자회사, 브랜드 사용 기업, 계열사 / 물류 사업 — BGF리테일 및 외부 고객사 / 식품제조·유통 사업 — 편의점에 상품을 공급받는 유통 채널",
+    "price_factors": [
+      {
+        "factor": "자회사실적",
+        "detail": "지주회사는 주요 자회사와 종속회사의 실적이 연결 실적에 크게 반영되어 자회사 실적 변화가 전체 성과에 직접 영향을 줍니다."
+      },
+      {
+        "factor": "연결편입",
+        "detail": "종속회사의 인수·편입 또는 합병이 발생하면 매출과 이익이 바뀔 수 있어 연결 범위 변화가 실적에 영향을 줍니다."
+      },
+      {
+        "factor": "편의점수요",
+        "detail": "물류와 식품제조·유통 사업은 편의점 영업과 상품 공급에 연동되어 편의점 채널의 수요 변화가 중요합니다."
+      },
+      {
+        "factor": "매입가변동",
+        "detail": "편의점 사업의 담배, 가공식품, 주류, Fresh Food는 주요 매입처의 가격정책과 관련 세금 변동에 따라 가격이 달라집니다."
+      },
+      {
+        "factor": "규제환경",
+        "detail": "지주회사는 공정거래법상 행위 제한을 받기 때문에 규제 환경이 계열사 보유와 사업 운영에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "2018년 3월 9일 기준으로 ... 지주회사 요건을 충족"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 BGF 브랜드의 사용자로부터 브랜드 사용수익"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "PA66: 102,770 (32.4%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "(주)비지에프리테일 상품의 위탁관리"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5402,
+    "completion_tokens": 817,
+    "reasoning_tokens": 0,
+    "output_tokens": 817
+  },
+  "warnings": []
+}

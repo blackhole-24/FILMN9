@@ -1,0 +1,67 @@
+{
+  "stock_code": "322310",
+  "corp_name": "오로스테크놀로지",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 16:31",
+  "meta": {
+    "wics": "반도체와반도체장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "오로스테크놀로지는 반도체 전공정 노광공정용 Wafer의 MI(Metrology, Inspection) 계측·검사 장비를 주력으로 제조하는 업체로, 관련 원천기술을 다수 보유하며 반도체 장비의 국산화를 이룬 기업입니다. 2025년 매출은 약 521억원이며 기술력과 가격 경쟁력을 바탕으로 국내외 반도체 고객사에 납품하고 있습니다.",
+    "business_model": "주요 제품은 Overlay(층간 정렬 계측) 계측장비로, 2025년 매출에서 OL-12inch 제품이 70.37%를 차지하며 기타 16.24%, 용역 12.13%, 상품 1.26%로 구성됩니다. 회사는 Overlay 장비의 고도화와 더불어 박막(ThinFilm) 두께를 Angstrom 단위로 측정하는 초정밀 계측장비 개발을 진행하며 제품 판매와 용역(설치·서비스)이 수익을 창출합니다.",
+    "main_customers": "OL-12inch(Overlay 장비) — 국내·세계적 반도체 소자업체 / 기타·용역 — 국내 반도체 고객사",
+    "price_factors": [
+      {
+        "factor": "미세공정 고도화",
+        "detail": "미세화·다적층화로 Overlay 정밀도 요구가 커지며 고성능 장비 수요가 늘어 실적에 직접적 영향을 줍니다."
+      },
+      {
+        "factor": "시장구조",
+        "detail": "현재 당사와 미국 K사 등 소수 기업만 시장에 참여하고 있어 경쟁 구도와 수주 확보가 실적 변동성을 좌우합니다."
+      },
+      {
+        "factor": "기술경쟁력",
+        "detail": "정확성과 반복재현성 등 성능 우위 및 가격 경쟁력이 고객 납품과 점유율에 영향을 미칩니다."
+      },
+      {
+        "factor": "수요확대",
+        "detail": "반도체 공정 수 증가로 계측장비 수요가 장기적으로 늘어나는 점이 매출 성장의 주요 변수입니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 회사의 현황 (1) 회사의 개황",
+        "evidence_text": "MI(Metrology, Inspection) 장비 제조를 주력 사업으로 영위"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "36,683(70.37%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. 회사의 현황 (1) 회사의 개황",
+        "evidence_text": "OVERLAY 계측장비 국산화의 선두주자 입니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 회사의 현황 (1) 회사의 개황",
+        "evidence_text": "세계적인 반도체 소자업체에 납품되어"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4843,
+    "completion_tokens": 4326,
+    "reasoning_tokens": 3584,
+    "output_tokens": 742
+  },
+  "warnings": []
+}

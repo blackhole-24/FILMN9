@@ -1,0 +1,73 @@
+{
+  "stock_code": "042940",
+  "corp_name": "상지건설",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:00",
+  "meta": {
+    "wics": "건설",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "상지건설은 건설업을 영위하는 코스닥 상장사로, 분양공사와 도급공사, 전기·통신·소방 공사 등을 함께 수행하고 있습니다. 2017년 12월 27일 상지건설(주)를 흡수합병하며 통합 운영 체계를 갖췄고, 사업 포트폴리오를 안정적으로 재편해 국내 경쟁력을 재구축하려는 방향을 제시하고 있습니다.",
+    "business_model": "상지건설의 핵심 사업은 분양공사업(부동산개발업), 건설업, 전기·소방공사업, 정보통신공사업이며, 사업부문별 매출 비율은 제공되지 않아 수치로 나눠 설명할 수는 없습니다. 분양공사와 건설공사는 경기동향, 시중 유동성, 정부의 부동산 정책에 민감하고, 전기·통신·소방 공사는 건축물에 필요한 설비·인프라 공사를 수행하는 구조입니다.",
+    "main_customers": "분양공사 — 주거시설 수요자 및 분양시장 참여자 / 도급공사(건설업) — 공공기관, 민간기업 / 전기·통신·소방 공사 — 건축물 발주처 및 설비공사 수요처 / 기타 — 원문에 고객 유형이 구체적으로 제시되지 않음",
+    "price_factors": [
+      {
+        "factor": "부동산정책",
+        "detail": "분양공사업과 주택사업은 정부의 부동산 정책에 상당한 영향을 받아 정책 변화가 수요와 실적에 직접 영향을 줍니다."
+      },
+      {
+        "factor": "경기변동",
+        "detail": "건설업은 대표적인 경기의존 산업으로, 경제순환주기에 따라 호황과 불황이 반복되며 실적 변동 폭이 커질 수 있습니다."
+      },
+      {
+        "factor": "유동성",
+        "detail": "분양공사업은 시중 유동성에 민감하게 반응해 자금 흐름이 좋아질수록 분양·사업 추진 환경이 나아질 수 있습니다."
+      },
+      {
+        "factor": "수주환경",
+        "detail": "건설업은 수주산업이라 민간의 설비투자와 주택구매, 공공 발주 상황에 따라 매출 인식과 실적이 달라집니다."
+      },
+      {
+        "factor": "판관비",
+        "detail": "판관비(판매비와 관리비) 절감 여부가 영업이익에 직접 영향을 주는 구조로, 비용 관리가 수익성에 중요합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "MD&A",
+        "evidence_text": "2017년 12월 27일자로 상지건설(주)를 흡수합병하였습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "분양공사업, 건설업, 전기·소방공사업, 정보통신공사업 등의 사업을 영위"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "분양공사업은 경기동향, 시중 유동성 및 고객의 니즈에 민감"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "정부의 부동산 정책에 상당한 영향을 받습니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4003,
+    "completion_tokens": 865,
+    "reasoning_tokens": 0,
+    "output_tokens": 865
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

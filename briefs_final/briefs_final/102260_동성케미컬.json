@@ -1,0 +1,87 @@
+{
+  "stock_code": "102260",
+  "corp_name": "동성케미컬",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 08:11",
+  "meta": {
+    "wics": "화학",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "동성케미컬은 2008년 (주)동성화학으로부터 분할 설립된 회사로, 2015년과 2021년의 합병을 통해 현재는 제조업을 함께 영위하고 있는 화학업체입니다. 2025년 연결 기준 매출액 1조 2,116억 원 및 영업이익 1,120억 원을 기록했습니다.",
+    "business_model": "주요 사업은 폴리우레탄(PU) 사업과 정밀화학·석유화학 사업이며, FY2025 기준 화학 부문 매출 비중은 31.9%, 바이오 부문은 3.7%입니다. PU 사업에서는 신발창용(FOAM Solution), 합성피혁용(COATING Solution), Elastomer 및 수성 PU 등을 제조·판매하고, 정밀화학에서는 Butyl·Amyl계 유기과산화물과 기능성 용제를 생산합니다; 지주부문은 자회사로부터의 배당금 및 경영자문·컨설팅 수수료가 주요 수입원입니다.",
+    "main_customers": "PU(신발용·코팅 등) — 신발 제조사(예: NIKE 등 세계적 스포츠화 회사) 및 자동차·가구·잡화 제조업체 / 정밀화학·석유화학 — 유기과산화물·기능성용제를 사용하는 산업용 제조업체 / 지주부문 — 자회사(배당·자문·수수료 제공)",
+    "price_factors": [
+      {
+        "factor": "글로벌경기",
+        "detail": "글로벌 경기 둔화 시 주요 산업 수요 감소로 매출과 실적에 부정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "친환경수요",
+        "detail": "풋웨어 등에서 친환경 소재 수요 증가가 지속되면 친환경 PU 제품의 판매 확대로 실적에 긍정적 영향을 미칩니다."
+      },
+      {
+        "factor": "대체소재경쟁",
+        "detail": "Coating 분야에서 PVC 등 경쟁소재와의 성능·가격 경쟁이 심화되면 판매와 마진에 영향이 있을 수 있습니다."
+      },
+      {
+        "factor": "주요고객의존",
+        "detail": "글로벌 브랜드(대형 신발업체) 공급 관계는 안정적 수익원이지만 수요 변동이나 거래조건 변화에 민감합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 > 영업 현황",
+        "evidence_text": "당사는 2008년 5월 (주)동성화학으로부터 분할 설립된 비금융 지주회사"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "- 화학: 387,065 (31.9%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "- 바이오: 44,440 (3.7%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 폴리우레탄(Polyurethane, PU) 사업부문 > 제품군별 현황",
+        "evidence_text": "NIKE 등 세계적인 스포츠화 회사에 공급하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 폴리우레탄(Polyurethane, PU) 사업부문 > 제품군별 현황",
+        "evidence_text": "풋웨어 시장에서 친환경 소재 수요가 지속 증가하고 있으며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "글로벌 경기 둔화와 산업 환경의 급격한 변화"
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. 폴리우레탄(Polyurethane, PU) 사업부문 > 제품군별 현황",
+        "evidence_text": "경쟁소재인 PVC(Polyvinyl Chloride)에 비해"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 > 영업 현황",
+        "evidence_text": "주 수입원은 자회사 등으로부터 받는 배당금"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4040,
+    "completion_tokens": 5144,
+    "reasoning_tokens": 4096,
+    "output_tokens": 1048
+  },
+  "warnings": []
+}

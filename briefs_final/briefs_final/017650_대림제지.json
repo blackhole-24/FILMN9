@@ -1,0 +1,87 @@
+{
+  "stock_code": "017650",
+  "corp_name": "대림제지",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 22:06",
+  "meta": {
+    "wics": "포장재",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "대림제지는 골판지 및 골판지상자와 골판지원지(골심지)를 제조하는 제지·포장재 전문 기업으로, 주문생산(주문형 맞춤 생산)을 중심으로 영업합니다. 2025년 기준 국내 총생산량 중 약 5.1%의 생산능력을 보유하고 있는 업체입니다.",
+    "business_model": "매출은 골판지·골판지상자 및 골판지원지 제조가 대부분으로, 사업부문별 매출은 골판지·골판지원지 99.1%, 기타 0.9%로 구성되어 있습니다; 주요 수익원은 100% 주문생산(주문에 맞춘 맞춤형 생산) 기반의 제품판매입니다.",
+    "main_customers": "골판지·골판지상자 — 섬유·전자·식품·의약품·농·수산물 등 각종 제조업체 및 유통업체 / 골판지원지 — 포장용 원지 수요 기업(기업체 주문 생산)",
+    "price_factors": [
+      {
+        "factor": "원료수급",
+        "detail": "원료(국내 고지, 재활용 폐지) 조달 상황에 따라 원가가 변동되어 실적에 영향이 있습니다."
+      },
+      {
+        "factor": "경기민감",
+        "detail": "국내 경기 호황 시 골판지 수요가 증가하고, 불황 때는 수요 증가세가 둔화되어 실적에 직접 영향을 미칩니다."
+      },
+      {
+        "factor": "공급과잉",
+        "detail": "업계 전반의 공급과잉은 과잉재고 및 가격인하 경쟁을 유발해 매출단가와 이익률을 압박할 수 있습니다."
+      },
+      {
+        "factor": "환경규제",
+        "detail": "대기·수질·폐기물 등 환경규제 준수 및 오염방지시설 운영 비용이 영업비용에 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 업계의 현황 > 1. 산업의 특성",
+        "evidence_text": "당사는 289,634톤을 생산하여 생산점유율5.1% 해당하는 업체입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "나. 회사의 현황 > 1. 영업의 개황",
+        "evidence_text": "골판지 및 골판지상자를 100% 주문생산, 판매하고 있고"
+      },
+      {
+        "field": "business_model",
+        "source_section": "1. 주요 제품등의 현황",
+        "evidence_text": "167,388(99.1%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 업계의 현황 > 1. 산업의 특성",
+        "evidence_text": "각종제품의 외부포장에 사용되는 골판지 및 골판지상자"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 업계의 현황 > 3. 경기변동의 특성",
+        "evidence_text": "국내 경기가 호황일 때 골판지 수요도 증가하며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 업계의 현황 > 1. 산업의 특성",
+        "evidence_text": "원료는 국내에서 폐기되는 폐지를 분리수거하여 사용하고 있으며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "과잉재고와 가격인하 경쟁에 시달리기도 하였습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 업계의 현황 > 6. 관련법령 또는 정부의 규제 환경",
+        "evidence_text": "환경관계법(대기, 수질, 폐기물, 소음, 진동 등)이 적용되고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5316,
+    "completion_tokens": 3475,
+    "reasoning_tokens": 2496,
+    "output_tokens": 979
+  },
+  "warnings": []
+}

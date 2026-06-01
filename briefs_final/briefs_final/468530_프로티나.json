@@ -1,0 +1,64 @@
+{
+  "stock_code": "468530",
+  "corp_name": "프로티나",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 20:33",
+  "meta": {
+    "wics": "생물공학",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "프로티나는 단백질-단백질 상호작용(PPI)을 정제 없이 단일분자 수준에서 고속·대량 분석하는 PPI 빅데이터 기반의 바이오테크 기업입니다. 독자 개발한 SPID(Single-molecule Protein Interaction Detection, 단일분자 단백질 상호작용) 플랫폼을 통해 신약 개발 전주기에서 활용 가능한 정밀한 PPI 데이터를 확보·제공하고 있습니다.",
+    "business_model": "핵심 사업은 SPID 플랫폼 기반의 솔루션 및 시스템 공급으로, 주요 제품군은 PPI PathFinder®(PPI 바이오마커 개발 솔루션), PPI Landscape®(항체 신약 개발 솔루션), 그리고 SPID Platform Systems(칩·이미징 장비·분석 소프트웨어)으로 구성됩니다. 플랫폼에서 생성된 대규모 PPI 빅데이터를 바탕으로 제약사 대상 분석서비스와 연구용 장비·소프트웨어 판매를 통해 사업을 영위하고 있습니다.",
+    "main_customers": "PPI PathFinder® — 다국적 제약사(임상 효율화 지원) / PPI Landscape® — 신약 개발 기업(항체 신약 개발 지원) / SPID Platform Systems — 연구기관·제약사(연구용 특화 장비 및 분석 솔루션)",
+    "price_factors": [
+      {
+        "factor": "연구개발 비용",
+        "detail": "장기간·대규모 R&D 투자 필요성으로 자금 조달과 현금흐름이 실적에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "기술 경쟁력",
+        "detail": "플랫폼·특허·데이터 보유 여부가 고객 유치와 계약 지속성에 영향을 주어 수익성 변동 요인이 됩니다."
+      },
+      {
+        "factor": "규제·임상",
+        "detail": "임상·허가와 규제 당국의 요구 수준이 높아지면 솔루션 채택 시점과 상용화 가능성에 영향을 줍니다."
+      },
+      {
+        "factor": "데이터·AI 전환",
+        "detail": "AI·빅데이터 기반 신약 개발 트렌드 확산은 PPI 빅데이터 수요를 늘려 중장기 성장에 기여합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "PPI 빅데이터 기업입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "2.1. 주요 제품 등의 현황",
+        "evidence_text": "총 3개의 제품군을 상용화하였습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "2.1.1. PPI PathFinder® - 차세대 PPI 바이오마커 개발 솔루션",
+        "evidence_text": "다국적 제약사들의 임상 효율화를 지원하고 있습니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 6469,
+    "completion_tokens": 5006,
+    "reasoning_tokens": 4288,
+    "output_tokens": 718
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

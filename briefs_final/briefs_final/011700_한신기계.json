@@ -1,0 +1,67 @@
+{
+  "stock_code": "011700",
+  "corp_name": "한신기계",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 20:50",
+  "meta": {
+    "wics": "기계",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "한신기계는 1969년 창업한 공기압축기(Air Compressor) 전문 제조업체로, Piston Type·Screw Type 전 기종을 생산하는 국내 유일의 업체로 소개됩니다. 1987년 주식 공개(상장) 이후 중국 청도에 현지법인을 운영하는 등 국내 분야에서 선도적 위치를 유지하고 있으며, 2025년 연결기준 매출은 527억원입니다.",
+    "business_model": "매출은 제조 부문에 집중되어 있으며, 2025년 사업부문별 매출 기준 제조가 전체의 100%를 차지합니다. 주력 제품은 Piston Type·Screw Type 공기압축기와 Air Dryer(압축공기 내 수분 제거 장치), 기계공구 및 관련부품이며, Oil-free(Oilless) 기술 등 품질 기반 차별화를 추구합니다.",
+    "main_customers": "제조 — 산업자동화업체, 정유업체, 제철업체 등 산업현장 전반",
+    "price_factors": [
+      {
+        "factor": "산업경기",
+        "detail": "공기압축기는 설비투자에 민감하여 국내 제조업 설비투자 축소 시 매출과 실적에 직접적인 하방 압력을 받습니다."
+      },
+      {
+        "factor": "원재료수급",
+        "detail": "핵심부품인 Air-End를 대부분 수입하고 있어 수입 지연이나 비용 상승이 생산 대응과 원가에 즉각적인 영향을 미칩니다."
+      },
+      {
+        "factor": "가격경쟁",
+        "detail": "소형 기종 시장은 가격 경쟁이 심해 가격 변동이 수익성에 큰 영향을 미치며, 경쟁 심화 시 마진 압박이 발생합니다."
+      },
+      {
+        "factor": "제품전환",
+        "detail": "Screw Type 등 고효율·저소음 기종과 Oilless(무오일) 수요 확대는 품질·기술 경쟁력을 갖춘 제품에 유리하게 작용합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 1969년 창업이후 공기압축기 전문 제조업체로서"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "Piston Type, Screw Type의 전 기종에 걸쳐 생산 공급하는"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "(4) 시장의 특성",
+        "evidence_text": "영업지역은 전국 소재 기업들중에 산업자동화업체, 정유업체, 제철업체 등이 주요 고객"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "(5) 자원 조달상의 특성",
+        "evidence_text": "중요한 원재료중의 하나인 Air-End를 수입하는 경우가 대부분"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5121,
+    "completion_tokens": 3741,
+    "reasoning_tokens": 3008,
+    "output_tokens": 733
+  },
+  "warnings": []
+}

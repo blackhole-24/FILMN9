@@ -1,0 +1,67 @@
+{
+  "stock_code": "013030",
+  "corp_name": "하이록코리아",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 21:11",
+  "meta": {
+    "wics": "기계",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "하이록코리아는 관이음쇠(Fitting)와 밸브(Valve)의 제조·판매를 주력으로 하는 금속·기계업체로, 과거 수입에 의존하던 제품을 국산화하고 기술개발을 통해 해외 수준의 품질에 도달하였습니다. 국내외 대기업과 프로젝트에 공급자 승인을 획득하며 플랜트·조선·반도체 등 산업용 핵심 부품 공급자로 자리매김하고 있습니다.",
+    "business_model": "주력 제품인 초정밀 관이음쇠(Fitting) 및 밸브(Valve)를 제조·공급하는 B2B(기업간거래) 기업으로, FY2025 기준 사업부문별 영업수익 구성은 본사 35.0%, 지역사무소 17.0%, 해외 영업 48.0%입니다. 제품은 Fluid & Control System 산업의 필수부품으로 석유화학·조선·해양·발전·반도체 등 다양한 전방산업에 납품되며 공급자 승인 기반의 제한경쟁 입찰에서 기술력과 품질로 경쟁합니다.",
+    "main_customers": "본사 — 국내 대기업 및 산업플랜트(석유화학, 조선, 발전 등) / 지역사무소 — 국내 프로젝트 발주처 및 유지보수 수요처 / 해외 영업 — 해외법인·대리점 및 현지 플랜트·조선사(중동, 미주, 유럽 등)",
+    "price_factors": [
+      {
+        "factor": "전방투자",
+        "detail": "석유화학·조선·플랜트 등의 설비투자 확대·축소가 매출 규모에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "품질·승인",
+        "detail": "공급자 승인(거래 승인)과 높은 품질 요구가 수주 확보와 진입장벽을 결정하여 실적에 영향을 줍니다."
+      },
+      {
+        "factor": "원자재가격",
+        "detail": "원자재 가격 급등 시 제조원가 상승으로 이익률에 압박을 줄 수 있습니다."
+      },
+      {
+        "factor": "글로벌수요",
+        "detail": "중동·미주·유럽 등 지역 프로젝트 수요 변동과 무역환경 변화가 해외 매출에 직결됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "관이음쇠와 밸브의 제조 및 판매업을 주 업종"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "본 사 (35.0%) 지역사무소 (17.0%) 해외 영업 (48.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "석유화학, Onshore & Offshore 플랜트, 조선, 반도체, 발전"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "품질에 대한 신뢰도가 무엇보다 중요하여"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4773,
+    "completion_tokens": 3614,
+    "reasoning_tokens": 2816,
+    "output_tokens": 798
+  },
+  "warnings": []
+}

@@ -1,0 +1,67 @@
+{
+  "stock_code": "030520",
+  "corp_name": "한글과컴퓨터",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 23:32",
+  "meta": {
+    "wics": "소프트웨어",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "한글과컴퓨터는 문서 편집·오피스 소프트웨어를 중심으로 제품과 서비스를 제공해온 기업으로, 한컴오피스 시리즈를 지속적으로 출시하며 국내외 시장에 공급하고 있습니다. 연결회사들을 통해 제조(개인안전장비)와 여신전문금융 등으로 사업 포트폴리오를 확장해왔습니다.",
+    "business_model": "제36기 연결기준으로 사업부문별 매출은 SW 59.1%, 제조 31.7%, 기타 7.4%, 금융 1.9%로 구성됩니다. SW 부문은 설치형·클라우드 SaaS·SDK·서비스 형태의 문서기반 소프트웨어와 구독형 서비스(한컴독스), AI 솔루션이 핵심 수익원이며, 제조는 소방용 호흡기 등 개인안전장비, 기타는 마케팅 대행·브랜드·건강관리 서비스, 금융은 자금대출·벤처투자 등으로 수익을 창출합니다.",
+    "main_customers": "SW — 공공 및 기업 고객 / 제조 — 군 및 공공 수요처 / 기타 — 기업·브랜드 고객 / 금융 — 신기술사업자 및 대출 수요 기업",
+    "price_factors": [
+      {
+        "factor": "AI 수요",
+        "detail": "AI 도입 확대로 AI 통합 오피스·AI솔루션 수요가 증가하면 SW·서비스 매출에 긍정적 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "클라우드 전환",
+        "detail": "구독형 SaaS 전환이 가속화되면 한컴독스 등 클라우드 매출 성장률과 반복매출 비중이 확대될 가능성이 있습니다."
+      },
+      {
+        "factor": "보안·데이터 주권",
+        "detail": "공공·기업 고객의 보안·소버린AI(데이터 주권) 요구가 강할수록 구축형·온프레미스형 솔루션 수요가 유지됩니다."
+      },
+      {
+        "factor": "PPE(제조) 수요",
+        "detail": "개인안전장비 시장의 정부 규제 강화 및 군 수요 확대는 제조부문 매출에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "1) 오피스SW/서비스 부문 (한글과컴퓨터)",
+        "evidence_text": "한글과컴퓨터는 MS오피스와의 높은 호환성"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "SW | 제품/상품/기타 | 문서기반 서비스 및 SW"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "공공 및 기업 고객의 맞춤형 디지털전환(DX)을 지원"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "산업분석 가. 오피스SW/서비스 부문 (한글과컴퓨터)",
+        "evidence_text": "2024년 국내 소프트웨어 시장은 전년대비 7% 성장"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5929,
+    "completion_tokens": 4111,
+    "reasoning_tokens": 3328,
+    "output_tokens": 783
+  },
+  "warnings": []
+}

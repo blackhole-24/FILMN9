@@ -1,0 +1,62 @@
+{
+  "stock_code": "199730",
+  "corp_name": "바이오인프라",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:25",
+  "meta": {
+    "wics": "생명과학도구및서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "바이오인프라는 2007년 설립된 위탁연구기관(CRO; Contract Research Organization)으로, 제네릭 의약품과 신약 개발 과정에서 필요한 임상·시험 서비스를 제공하는 회사입니다. 생물학적동등성시험, 개량신약의 1상 임상시험, 허가용 임상시험, 면역분석, 의약품 품질검사 등을 수행하고 있습니다.",
+    "business_model": "회사의 핵심 수익원은 사업부문별 영업수익에서 개량신약임상시험이 53.8%로 가장 크고, 생물학적동등성시험이 36.8%를 차지합니다. 그 밖에 임상/비임상 검체분석 4.9%, 허가 목적이 아닌 검체분석 1.6%, 임상시험 1.6%, 의약품 시험검사 1.3%, 기타 0.1%로 구성되어 있습니다. CRO(위탁연구기관)로서 임상시험계획, 모니터링, 자료관리, 통계분석, 품질검사 같은 연구·시험 서비스를 제공하는 구조입니다.",
+    "main_customers": "생물학적동등성시험 — 제네릭 의약품 개발사 / 개량신약임상시험 — 개량신약 개발사 / 임상시험 — 신약개발 기업 / 면역분석사업부 — 고분자 바이오의약품 개발사 / 시험검사사업부 — 의약품 제조사",
+    "price_factors": [
+      {
+        "factor": "임상수요",
+        "detail": "제네릭·개량신약·신약 개발이 활발할수록 생동성시험과 임상시험 수요가 늘어 실적에 영향을 줍니다."
+      },
+      {
+        "factor": "규제환경",
+        "detail": "식품의약품안전처 허가 기준과 임상 규정 변화는 시험·검사 서비스 수요와 진행 방식에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "신약개발",
+        "detail": "제약사의 허가용 임상시험(Phase I~III)과 후기 임상시험 수요가 늘면 임상사업부 매출 확대에 연결될 수 있습니다."
+      },
+      {
+        "factor": "바이오의약품",
+        "detail": "고분자 바이오의약품 개발이 확대되면 면역분석과 약물동태·독성동태 시험 수요가 늘어납니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 2007년 설립된 위탁연구기관(CRO; Contract Research Organization)으로서"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "개량신약임상시험: 12,452,924 (53.8%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "제네릭 의약품의 생물학적동등성시험"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3097,
+    "completion_tokens": 770,
+    "reasoning_tokens": 0,
+    "output_tokens": 770
+  },
+  "warnings": []
+}

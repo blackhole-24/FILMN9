@@ -1,0 +1,71 @@
+{
+  "stock_code": "294570",
+  "corp_name": "쿠콘",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 15:25",
+  "meta": {
+    "wics": "IT서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "쿠콘은 외부 기관의 데이터를 수집·정제·표준화해 API(응용프로그램인터페이스) 형태로 제공하는 데이터 중개 플랫폼 기업입니다. 국내 약 500개, 해외 40여 개국 2,000여 기관과 연계해 약 5만 종의 데이터를 확보하고, 300여 종의 API 상품을 통해 금융기관·빅테크·핀테크·공공기관 등 기업 고객에게 서비스를 제공합니다.",
+    "business_model": "핵심 사업은 데이터 서비스(개인정보·기업정보·글로벌 정보 등 API 제공)와 페이먼트 서비스(간편결제·전자금융 API)로 구성되며, 2025년 기준 데이터 서비스 매출 341억원(약 49.1%), 페이먼트 매출 354억원(약 50.9%)으로 이루어져 있습니다. 수익모델은 초기 도입비(라이선스·기술지원)와 월 수수료(정액제·종량제) 기반의 반복적 수수료(구독형 수익) 구조로 안정성이 높습니다.",
+    "main_customers": "데이터 서비스 — 금융기관·빅테크·핀테크 기업·공공기관·일반 기업 / 페이먼트 서비스 — 간편결제 플랫폼 기업·유통물류 기업·교통카드사·선불결제 사업자·대기업·공공기관",
+    "price_factors": [
+      {
+        "factor": "마이데이터 2.0",
+        "detail": "옵트아웃 방식 도입과 연령 확대에 따른 중계 트래픽 증가로 API 호출량·매출 확대에 긍정적 영향이 예상됩니다."
+      },
+      {
+        "factor": "생성형 AI 수요",
+        "detail": "LLM(대규모언어모델) 및 RAG(검색증강생성) 수요 증대로 고품질 실시간 데이터 필요성이 늘어나 API 매출 확대를 견인할 수 있습니다."
+      },
+      {
+        "factor": "스크래핑 규제·표준화",
+        "detail": "스크래핑 규제 강화와 표준 API 전환 의무화는 후발 경쟁자의 진입장벽을 높여 시장 점유율 유지에 유리하게 작용합니다."
+      },
+      {
+        "factor": "구독형 수익 구조",
+        "detail": "매출의 대부분이 반복 수수료 기반이라 경기 변동에 대한 저항력이 높고 안정적 매출원이 됩니다."
+      },
+      {
+        "factor": "글로벌 결제 연동",
+        "detail": "알리페이+ 등 다수 글로벌 결제 수단 연동으로 인바운드 결제 수요 확대 시 페이먼트 매출 성장에 기여할 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "데이터 중개 플랫폼 기업입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황",
+        "evidence_text": "당사의 API 상품은 데이터 서비스와 페이먼트 서비스로 구성됩니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "2025년 데이터 부문의 연간 매출액은 전년대비 약 11.6% 감소한 341억원 입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "2025년 페이먼트 연간 매출액은 2.6% 증가한 354억원 입니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5349,
+    "completion_tokens": 4527,
+    "reasoning_tokens": 3648,
+    "output_tokens": 879
+  },
+  "warnings": []
+}

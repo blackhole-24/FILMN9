@@ -1,0 +1,71 @@
+{
+  "stock_code": "183190",
+  "corp_name": "아세아시멘트",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 10:59",
+  "meta": {
+    "wics": "건축자재",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "아세아시멘트는 2013년 인적분할을 통해 신설된 시멘트·레미콘 제조업체로, 제천 본공장 등 생산기지를 보유하고 있습니다. 시멘트 생산능력은 450만톤/년 규모로 기술연구소 중심의 제품개발과 차별화된 기술영업을 통해 경쟁력을 유지하고 있습니다.",
+    "business_model": "사업부문별로 시멘트부문이 전체 영업수익의 80.6%를 차지하고, 기타부문이 0.7%를 차지합니다(시멘트부문: 824,308 (80.6%), 기타부문: 7,243 (0.7%)). 주력은 포틀랜드시멘트·슬래그시멘트 등 시멘트 제조이며, 레미콘·드라이몰탈 등 건설자재와 특수제품(GPC, 특수몰탈) 개발을 통한 고부가가치 제품 판매가 추가 수익원입니다.",
+    "main_customers": "시멘트부문 — 건설사·레미콘업체·건설 현장 / 기타부문 — 투자·농업법인·부동산·레저 관련 거래처",
+    "price_factors": [
+      {
+        "factor": "건설경기",
+        "detail": "건설경기 침체 시 시멘트 내수 출하량이 감소하여 매출과 영업이익에 직접적인 하방 압력으로 작용합니다."
+      },
+      {
+        "factor": "규모경쟁",
+        "detail": "생산능력(450만톤/년) 등 상대적 규모가 경쟁력에 영향을 미쳐 가격경쟁 및 시장점유율에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "환율·금융비용",
+        "detail": "환율 변동에 따른 외환환산비용 및 파생상품 관련 비용이 금융비용으로 실적에 영향을 줍니다."
+      },
+      {
+        "factor": "제품차별화",
+        "detail": "기술연구소의 특수제품·기술영업은 고부가가치 제품 매출 확대를 통해 수익성 방어에 기여합니다."
+      },
+      {
+        "factor": "유통망·항만",
+        "detail": "옥계항 등 항만과 화차·선박 기반 유통망은 공급 안정성 및 해외수출 가능성으로 생산설비 가동률에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "시멘트, 레미콘 등의 제조 및 판매를 주 영업 목적으로 하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "시멘트부문: 824,308 (80.6%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "영업부문에서는 기술영업을 기반으로 건설 현장에 보탬이 되고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "영업 현황 / 경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "시멘트 내수 출하량의 소폭 감소가 예상됩니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5247,
+    "completion_tokens": 3830,
+    "reasoning_tokens": 3008,
+    "output_tokens": 822
+  },
+  "warnings": []
+}

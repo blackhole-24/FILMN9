@@ -1,0 +1,67 @@
+{
+  "stock_code": "130500",
+  "corp_name": "GH신소재",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 09:37",
+  "meta": {
+    "wics": "자동차부품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "GH신소재는 2001년 12월 설립된 자동차 내장용 휄트 및 부직포 제조·판매 전문 기업입니다. 부직포 부문과 원사 부문 등 2개 사업부문을 중심으로 자동차용 내장재용 소재를 생산하고 있습니다.",
+    "business_model": "사업부문별로 FY2025 영업수익 구성은 ISO Dash 19.0%, Seat Back 10.2%, 기타 28.5%, 인도 14.2%, 파렛트 7.8%, PET S/F 7.1%, PP S/F 3.5%, Trunk Mat 3.4%, 부직포 부문 3.3%, 원사 부문 2.1%, Pakage Tray 0.8%, Engine Block 0.1%로 구성되어 있습니다. 핵심 수익원은 자동차 내장재용 부직포 및 관련 부품(Seat Back, ISO Dash 등)이며, 2021년 신설된 파렛트(해외법인) 부문은 향후 설비 설치 및 시제품 생산 시점에 반영될 예정입니다.",
+    "main_customers": "부직포 부문 — 국내 자동차 제조사·부품업체 / 원사 부문 — 부직포 및 자동차 내장재 제조업체",
+    "price_factors": [
+      {
+        "factor": "자동차수요",
+        "detail": "자동차 산업의 생산량 변동에 따라 수요가 크게 흔들려 회사 매출과 영업이익에 직간접 영향을 미칩니다."
+      },
+      {
+        "factor": "원재료가격",
+        "detail": "부직포 원재료(폴리에스터 단섬유 등)는 국제유가 변동에 민감해 원가와 수익성에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "중국경쟁",
+        "detail": "저가 중국산 제품과의 경쟁 심화는 가격경쟁력 확보 여부에 따라 실적에 부담을 줄 수 있습니다."
+      },
+      {
+        "factor": "비자동차확대",
+        "detail": "비(非)자동차 시장 매출 확대는 자동차 부문 생산 감소 시 실적 완충 요인이 될 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "자동차 내장용 휄트 및 부직포 제조와 판매업"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "부직포 부문, 원사 부문의 총 2개 사업부문"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "부직포 부문: 2,876,289 (3.3%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "원사 부문: 1,811,888 (2.1%)"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3811,
+    "completion_tokens": 3383,
+    "reasoning_tokens": 2624,
+    "output_tokens": 759
+  },
+  "warnings": []
+}

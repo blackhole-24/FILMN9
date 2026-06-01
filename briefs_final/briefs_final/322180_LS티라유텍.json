@@ -1,0 +1,79 @@
+{
+  "stock_code": "322180",
+  "corp_name": "LS티라유텍",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 16:30",
+  "meta": {
+    "wics": "IT서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "LS티라유텍은 사업을 IT서비스부문과 ESD부문으로 나누어 운영하는 기업으로, 스마트팩토리 솔루션 공급과 CAD/PLM 소프트웨어 유통을 주요 사업으로 합니다. 연결기준(2025년) 매출액은 58,941백만원으로 보고되었습니다.",
+    "business_model": "핵심은 스마트팩토리 전반을 지원하는 IT서비스부문으로, Total Smart Factory 솔루션(MES(생산관리), SCM(재고관리), 물류/설비 자동화, AI·빅데이터·클라우드 등)을 기반으로 소프트웨어(SW) 라이선스 및 구축·운영·유지보수 형태의 용역매출을 올립니다. ESD부문은 CAD(Computer Aided Design)/PLM(Product Lifecycle Management) 소프트웨어를 유통하고 기술지원 및 연간 갱신(유지보수) 서비스를 제공합니다. 프로젝트 단위의 주문제작(Customizing)과 용역비(인건비·제경비 등)가 가격과 수익성에 영향을 미칩니다.",
+    "main_customers": "IT서비스부문 — 제조공장·물류창고 등 제조업체 및 산업단지 / ESD부문 — 제조·건축·설계 등 특화된 산업 고객 / 기타 — 국가산업단지 및 이차전지 관련 고객",
+    "price_factors": [
+      {
+        "factor": "스마트팩토리 수요",
+        "detail": "전 세계적·국내 정책적 지원과 제조업의 지능화 수요 확대가 솔루션 수주와 매출에 직접적 영향을 줍니다."
+      },
+      {
+        "factor": "용역비(인건비)",
+        "detail": "프로젝트 기반의 용역비 비중이 높아 인건비 상승 시 제품·서비스 가격과 수익성에 부담을 줍니다."
+      },
+      {
+        "factor": "원재료비(하드웨어)",
+        "detail": "AMR(자율이동로봇) 등 하드웨어 제품은 원재료 단가 변동이 제품가격에 큰 영향을 미칩니다."
+      },
+      {
+        "factor": "프로젝트 커스터마이징",
+        "detail": "주문제작 비중이 높아 단가·수익성이 수주별 사양에 따라 변동됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 지배회사 : 엘에스티라유텍 주식회사",
+        "evidence_text": "당사의 사업을 크게  IT서비스부문과 ESD부문으로 분류하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. 지배회사 : 엘에스티라유텍 주식회사",
+        "evidence_text": "IT서비스부문은 다양한 산업의 고객사 비즈니스 프로세스를 최적으로 지원하는 Solution 등을 납품, 구축하는 서비스로,"
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. 지배회사 : 엘에스티라유텍 주식회사",
+        "evidence_text": "ESD부문은 Smart Factory 산업의 기반이 되는 CAD/PLM S/W를 유통하는 사업"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "연결재무제표 기준 매출액은 58,941백만원"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나. 주요 제품 등의 가격변동 추이",
+        "evidence_text": "용역비의 변동이 주요제품의 가격변동에 큰 영향을 미친다는 것을 알 수 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나. 주요 제품 등의 가격변동 추이",
+        "evidence_text": "AMR(Autonomous Mobile Robot) 시장은 아직 초기 단계"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 5647,
+    "completion_tokens": 5551,
+    "reasoning_tokens": 4608,
+    "output_tokens": 943
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

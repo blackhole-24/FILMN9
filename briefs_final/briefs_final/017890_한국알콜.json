@@ -1,0 +1,68 @@
+{
+  "stock_code": "017890",
+  "corp_name": "한국알콜",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 22:11",
+  "meta": {
+    "wics": "화학",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "한국알콜은 1984년 설립되어 합성에탄올을 시작으로 정제주정, 무수주정 등 공업용 주정(酒精)과 초산에틸·초산부틸 등 유기용제를 생산하는 화학 제조업체입니다. 국내 최대 공업용 에탄올 생산역량과 전자급 고순도 제품 생산으로 제조업 중심의 사업기반을 갖추고 있으며, 계열사와 미국 법인을 통해 임대업 등 다각화된 수익원을 보유하고 있습니다.",
+    "business_model": "핵심은 제조부문으로 정제주정, 무수주정, 함수에탄올과 초산에틸·초산부틸 등 용제(원료) 제조가 주된 수익원이며, 최근에는 전자급(고순도) 제품으로 영역을 확장하고 컬러페이스트 등 계열사 협업 제품도 생산합니다. 별도로 미국 현지의 상가·토지 보유를 통한 임대부문이 연결 손익에 기여하는 구조입니다.",
+    "main_customers": "제조부문 — 도료·페인트·잉크·점착제 제조사, 제약 및 전자·반도체·디스플레이 관련 제조사 / 임대부문 — 미국 현지 상가의 임차인 및 부동산 투자자",
+    "price_factors": [
+      {
+        "factor": "수입 저가공세",
+        "detail": "중국산 저가 제품의 대량 유입으로 국내 가격 경쟁이 심해지며 마진 압박 요인으로 작용합니다."
+      },
+      {
+        "factor": "전방 수요",
+        "detail": "도료·자동차·건설·전자 등 전방산업의 경기 변동에 따라 제품 수요와 매출이 민감하게 변화합니다."
+      },
+      {
+        "factor": "원재료·환율",
+        "detail": "제품가격은 원재료 가격과 환율 영향으로 변동 가능성이 있어 실적에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "면허·진입장벽",
+        "detail": "주정 산업의 면허제와 높은 초기투자비로 신규 진입이 제한되어 있어 안정적인 시장점유율 유지에 도움이 됩니다."
+      },
+      {
+        "factor": "고순도 수요",
+        "detail": "반도체·디스플레이 분야의 고순도 유기용제 수요 확대는 고부가 제품 실적에 긍정적 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "제조부문",
+        "evidence_text": "당사는 1984년 설립되어 합성에탄올 생산을 시작"
+      },
+      {
+        "field": "business_model",
+        "source_section": "제조부문",
+        "evidence_text": "초산에틸과 초산부틸을 생산하고 있으며"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "제조부문",
+        "evidence_text": "도료, 인쇄잉크, 점착제, 제약 등의 용제 및 원료로 사용되며"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 5537,
+    "completion_tokens": 3839,
+    "reasoning_tokens": 3072,
+    "output_tokens": 767
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

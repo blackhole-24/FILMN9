@@ -1,0 +1,67 @@
+{
+  "stock_code": "009520",
+  "corp_name": "포스코엠텍",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 20:25",
+  "meta": {
+    "wics": "철강",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "포스코엠텍은 1973년 설립되어 포스코 계열의 철강제품 포장과 제강용 부원료(알루미늄 탈산제) 공급을 주력으로 해온 기업입니다. 포스코의 Coil 포장 업무를 위임받아 수행해왔고, 페로망간공장 위탁운영 등으로 사업 역량을 확대해왔습니다.",
+    "business_model": "주요 사업은 철강제품포장(50.0%), 위탁운영(9.5%), 엔지니어링(1.6%), 철강부원료(0.1%), 상품(0.1%), 기타(0.2%) 순으로 구성되어 있으며, 철강제품 포장과 부원료 공급이 핵심 수익원입니다. 철강부원료 내에서는 펠레트(70.0%)와 미니펠레트(29.6%) 비중이 높고, 코일포장 관련 기술개발·알루미늄 주조성 개선 등 연구개발에도 일부 투자(매출의 약 0.48%)하고 있습니다.",
+    "main_customers": "철강제품포장 — 포스코(열연·냉연·STS 공장) / 철강부원료 — 제강 및 스테인리스강 생산업체 / 위탁운영 — 포스코 페로망간공장 등",
+    "price_factors": [
+      {
+        "factor": "알루미늄가격",
+        "detail": "알루미늄 국제가격 변동은 탈산제 제품가격과 원가에 직접 영향을 주어 실적 변동성을 키웁니다."
+      },
+      {
+        "factor": "코일생산량",
+        "detail": "포스코의 Coil 생산량 변동은 포장사업 수요에 직결되어 매출 변동으로 이어집니다."
+      },
+      {
+        "factor": "건설경기",
+        "detail": "건설경기 둔화는 철강 수요 축소로 이어져 포장 및 부원료 수요 감소를 초래할 수 있습니다."
+      },
+      {
+        "factor": "무역장벽",
+        "detail": "미국 등의 고율 관세 등 무역장벽 확대는 전방 철강업계의 수출환경 불확실성을 높여 간접적 실적 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "(주)포스코엠텍은 철강제품포장 및 철강부원료 사업을 영위하고 있는 회사입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "철강제품포장: 178,812,927,465 (50.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "회사의 철강포장은 포스코의 열연 및 냉연, STS강판 공장에서"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황 > 가. 시장의 특성",
+        "evidence_text": "알루미늄의 국제가격 등락폭이 큼에 주목하여"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4773,
+    "completion_tokens": 4266,
+    "reasoning_tokens": 3456,
+    "output_tokens": 810
+  },
+  "warnings": []
+}

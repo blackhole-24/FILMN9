@@ -1,0 +1,81 @@
+{
+  "stock_code": "023150",
+  "corp_name": "MH에탄올",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 09:52",
+  "meta": {
+    "wics": "음료",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "MH에탄올은 주정 제조와 판매를 주력으로 하는 음식료·담배 업종의 기업입니다. 연결기준으로는 골프장 사업부와 기계설비·제작 관련 종속회사를 함께 두고 있으며, 비상장 5개 계열회사를 보유하고 있습니다.",
+    "business_model": "회사의 핵심 매출은 주정 사업부와 골프장 사업부에서 발생하며, 제48기 기준 주정 사업부가 52,128백만원으로 전체 매출의 약 55.0%, 골프장 사업부가 42,591백만원으로 약 45.0%를 차지합니다. 주정은 주류 제조의 주원료로 사용되며, 골프장 사업은 퍼블릭 골프장(회원 모집 없이 예약제로 운영) 중심으로 전개됩니다. 기계설비·제작 사업부는 현재 영업을 하고 있지 않습니다.",
+    "main_customers": "주정 사업부 — 주류 제조 회사, 식품제조 회사, 제약회사 / 골프장 사업부 — 예약 이용 고객, 일반 골프 이용객 / 기계설비·제작 사업부 — 현재 영업 없음",
+    "price_factors": [
+      {
+        "factor": "주류경기",
+        "detail": "주정은 주류제조의 주원료라서 주류 판매가 줄면 주정 판매량과 실적에도 직접적인 영향을 받습니다."
+      },
+      {
+        "factor": "규제변화",
+        "detail": "주정산업은 정부의 엄격한 통제와 관련 제도 변화에 민감해, 규제나 배정 방식의 변화가 사업 환경에 영향을 줍니다."
+      },
+      {
+        "factor": "레저수요",
+        "detail": "골프장 사업은 가처분소득과 여가시간에 영향을 받아, 경기침체 시 이용 수요와 매출이 둔화될 수 있습니다."
+      },
+      {
+        "factor": "경기침체",
+        "detail": "보고서에 따르면 경기침체와 음주문화 변화로 주정 판매와 골프장 매출이 함께 감소하는 흐름이 나타났습니다."
+      },
+      {
+        "factor": "원가절감",
+        "detail": "주정 사업은 제조수율 향상, 부산물 판매 증대, 생산비용 및 폐수처리비용 절감이 수익성 개선의 핵심 요소입니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "회사는 주정 제조, 판매 등을 주로 영위하고 있습니다."
+      },
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "당사는 비상장 5개사 ... 의 계열회사가 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "주정 사업부 | 내수 | 주정외 | 52,128"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "골프장 사업부 | 내수 | 골프장외 | 42,591"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "주류 제조 회사와 식품제조 회사 및 제약회사 등에 판매"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "회원을 모집하지 않고 예약에 의해 누구나 이용할 수 있으며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4792,
+    "completion_tokens": 883,
+    "reasoning_tokens": 0,
+    "output_tokens": 883
+  },
+  "warnings": []
+}

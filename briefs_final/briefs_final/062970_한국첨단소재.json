@@ -1,0 +1,77 @@
+{
+  "stock_code": "062970",
+  "corp_name": "한국첨단소재",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 04:10",
+  "meta": {
+    "wics": "통신장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "한국첨단소재는 독자 개발한 평판형광회로(PLC) 원천기술을 기반으로 광통신용 핵심 부품을 생산·공급하는 전기·전자업체입니다. PLC 기반의 광 파워 분배기(스플리터)와 AWG(광 파장 분할기) 등을 국내 통신3사와 미국·유럽·일본·중국·인도 등 해외시장에 공급하고 있으며, 2025년 매출은 3,580,740천원입니다.",
+    "business_model": "주요 수익원은 광통신용 제품(제품, 상품)이며, 사업부문별 영업수익에서 제품은 29.9%(1,071,424천원), 상품은 14.6%(524,268천원)를 차지합니다. 핵심 제품은 PLC 광 파워 분배기(스플리터), PLC 광 파장 분할기(AWG) 등 광통신 부품과 데이터센터용 광수신모듈·5G MUX·휴대용 광 계측기 등으로 구성됩니다.",
+    "main_customers": "광 가입자망용 광분배기 — 국내 통신 3사 및 유수의 통신시스템 공급업체 / 장거리 통신망용 AWG — 미국·유럽·일본·중국 등 해외 통신사업자 및 시스템 공급업체 / 데이터센터용 광수신모듈 — 데이터센터·트랜시버 관련 공급업체",
+    "price_factors": [
+      {
+        "factor": "통신투자",
+        "detail": "통신사업자의 투자 여하에 따라 수요 발생이 좌우되어 실적에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "중국경쟁",
+        "detail": "중국·대만의 저가 공세는 가격경쟁 압력을 높여 수익성에 부담을 줄 수 있습니다."
+      },
+      {
+        "factor": "데이터수요",
+        "detail": "데이터센터·데이터콤 수요 확대(데이터콤 비중 증가)는 관련 제품 수요를 확대합니다."
+      },
+      {
+        "factor": "기술격차",
+        "detail": "고부가가치 제품 위주인 지역과 저가 제품 위주의 지역 간 기술·제작단가 격차가 경쟁력 차이를 만듭니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 사업의 개요",
+        "evidence_text": "평판형광회로(PLC, Planer Lightwave Circuit)의 원천기술을 바탕으로"
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 영업수익 구성 (FY2025, 천원)",
+        "evidence_text": "제품: 1,071,424 (29.9%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 영업수익 구성 (FY2025, 천원)",
+        "evidence_text": "상품: 524,268 (14.6%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. 사업의 개요",
+        "evidence_text": "PLC 광 파워 분배기(스플리터)와 PLC 광 파장 분할기(AWG)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 사업의 개요",
+        "evidence_text": "국내 통신 3사 및 유수의 통신시스템 공급업체에 공급하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나. 사업부문별 현황 1. 산업의 특성 [광통신 산업]",
+        "evidence_text": "미국, 일본, 유럽연합 등은 고부가가치 제품 위주로"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4247,
+    "completion_tokens": 3737,
+    "reasoning_tokens": 2816,
+    "output_tokens": 921
+  },
+  "warnings": []
+}

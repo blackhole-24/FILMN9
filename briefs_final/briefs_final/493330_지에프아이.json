@@ -1,0 +1,72 @@
+{
+  "stock_code": "493330",
+  "corp_name": "지에프아이",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 21:04",
+  "meta": {
+    "wics": "전자장비와기기",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "지에프아이는 2014년 11월 설립된 소화안전 기술 회사로, 소화약제의 마이크로캡슐화(Microencapsulation)에 성공해 '이지스(AEGIS)'라는 초경량 소화캡슐을 개발했습니다. 마이크로캡슐 기반의 DI-KIT·2차전지용 소화Sheet 등을 중심으로 ESS·UPS 등 전기저장장치에 소화안전시스템을 공급하고 있습니다.",
+    "business_model": "주요 매출은 DI-KIT(41.6%), 2차전지소화Sheet(20.0%)와 공사매출(27.8%)이 주축이며, 멀티탭(4.8%), 신소화소재개발(2.1%), 소화패치(0.9%), 기타(0.7%), 상품 및 기타매출(2.1%)이 보조합니다. 마이크로캡슐을 패드·와이어·시트·필름형 등으로 변화시켜 ESS·산업설비 환경에 맞춘 초소형·무전원 자동 소화솔루션을 제공하는 것이 핵심입니다.",
+    "main_customers": "DI-KIT — 2차전지 제조사(ESS·UPS 탑재) / 2차전지용소화Sheet — 2차전지 제조사(ESS·UPS 탑재) / 패드·와이어·필름형 제품 — 산업설비 운영자",
+    "price_factors": [
+      {
+        "factor": "인증·규제",
+        "detail": "NFPC 607 등 2차전지용 규격 시행 여부가 제품 도입과 수출에 직접 영향."
+      },
+      {
+        "factor": "KFI 승인",
+        "detail": "국내 일반소방설비는 KFI 승인 대상으로 인증 필요성·비용이 실적에 영향."
+      },
+      {
+        "factor": "2차전지 수요",
+        "detail": "ESS 관련 수요 확대 시 DI-KIT·소화Sheet 매출 증가로 실적에 직결."
+      },
+      {
+        "factor": "제품 차별화",
+        "detail": "무전원 자동감지·설치 간편성은 기존 소화제품 대비 채택 확률에 영향."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "당사는 2014년 11월에 설립된 회사로서"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "DI-KIT: 18,726 (41.6%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "나. 주요 제품 등의 현황",
+        "evidence_text": "당사의 주요 제품은 DI-KIT 및 2차전지용소화Sheet 등으로 구성되어 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "해당 제품은 국내 2차전지제조사의 ESS와 UPS 등에 탑재하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나. 규제환경",
+        "evidence_text": "2024년 5월부터 전기저장시설의 화재안전성능기준(NFPC 607)을 시행하고 있으며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4848,
+    "completion_tokens": 4939,
+    "reasoning_tokens": 4096,
+    "output_tokens": 843
+  },
+  "warnings": []
+}

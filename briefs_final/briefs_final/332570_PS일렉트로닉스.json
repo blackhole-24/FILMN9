@@ -1,0 +1,67 @@
+{
+  "stock_code": "332570",
+  "corp_name": "PS일렉트로닉스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 16:43",
+  "meta": {
+    "wics": "핸드셋",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "PS일렉트로닉스는 이동통신용 전력증폭기 모듈(PAM)과 RF 프론트엔드 모듈(RF FEM) 개발·제조를 중심으로 성장해온 무선통신 부품 전문기업입니다. 2025년 연결기준 매출 1,254억원, 영업이익 39억원을 기록했으며 RF FEM 분야에서 원천기술을 보유한 점이 특징입니다.",
+    "business_model": "핵심은 PAM을 포함한 RF FEM(송신부 전력증폭 및 스위치·필터) 제품을 통한 모바일용 전자 사업이며, 사업부문별 매출은 모바일용 전자 45.7%, 차량용 전자 10.9%, 시스템 및 장비 41.4%, 신기술투자 1.9%, 기타 0.2%로 구성됩니다. 최근 영진하이텍 인수로 시스템·장비(공장 자동화·진동모터) 영역을 확장하여 사업 포트폴리오 다변화를 추진하고 있습니다.",
+    "main_customers": "모바일용 전자 — 스마트폰 제조사(중저가 및 Flagship 공급 대상) / 차량용 전자 — 차량용 통신모듈의 글로벌 자동차·통신기기 고객 / 시스템 및 장비 — 반도체·휴대폰·카메라 모듈 제조사 및 자동화 설비 고객(예: S사, L사 등) / 신기술투자 — 투자대상 기업 및 투자조합",
+    "price_factors": [
+      {
+        "factor": "시장성숙",
+        "detail": "글로벌 스마트폰 시장의 성숙(교체 수요 중심)은 RF FEM 수요를 제한적으로 만드는 요인입니다."
+      },
+      {
+        "factor": "고객집중",
+        "detail": "삼성·애플 등 소수 메이저 제조사 중심의 시장구조는 부품업체의 가격교섭력 약화를 초래합니다."
+      },
+      {
+        "factor": "프리미엄화",
+        "detail": "프리미엄 제품 비중 확대와 평균판매가격(ASP) 상승은 고사양 RF 모듈 수요에 긍정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "사업다각화",
+        "detail": "자동화 장비·차량용 통신 등 비(非)모바일 사업 확장은 실적 변동성을 완화할 수 있는 요인입니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "전력증폭기 모듈(Power Amplifier Module, 약칭 PAM) 개발"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "모바일용 전자: 57,372,800 (45.7%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "S사, L사 등 국내외 다수 기업을 고객사로 확보하고 있으며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 산업의 특성",
+        "evidence_text": "전반적으로 성숙 단계에 진입한 시장으로 평가되고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5379,
+    "completion_tokens": 4011,
+    "reasoning_tokens": 3200,
+    "output_tokens": 811
+  },
+  "warnings": []
+}

@@ -1,0 +1,78 @@
+{
+  "stock_code": "065060",
+  "corp_name": "지엔코",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:06",
+  "meta": {
+    "wics": "섬유,의류,신발,호화품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "지엔코는 1997년 5월 31일 의류 및 잡화의 제조·판매를 목적으로 설립되었고, 2002년 5월 28일 코스닥시장에 상장한 섬유·의류 기업입니다. 현재는 캐주얼 의류 전문 업체로서 써스데이아일랜드, 논타입, PLADS7, 에타페, TOINQ 등의 브랜드를 판매·운영하고 있으며, 주요 종속회사로 큐캐피탈파트너스(주)를 두고 있습니다.",
+    "business_model": "지엔코의 핵심 사업은 캐주얼 의류와 라이프스타일 뷰티 아이템의 판매·운영입니다. 써스데이아일랜드, 논타입, PLADS7, 에타페, TOINQ 등 자체 브랜드를 중심으로 제품을 판매하며, 사업부문별 매출 비율은 제공되지 않아 수치 없이 설명합니다. 또한 주요 종속회사인 큐캐피탈파트너스(주)를 통해 신기술금융, 투자, 융자, 리스, 팩토링, 지급보증 등 다양한 업무를 취급할 수 있습니다.",
+    "main_customers": "캐주얼 의류·브랜드 제품 — 일반 소비자 / 프리미엄 니치향수 및 라이프스타일 뷰티 아이템 — 일반 소비자 / 큐캐피탈파트너스(주) 관련 금융업무 — 기업 및 투자 대상",
+    "price_factors": [
+      {
+        "factor": "소비심리",
+        "detail": "내수 소비심리가 회복되면 의류 구매가 늘 수 있지만, 침체가 길어지면 패션 제품 수요가 둔화될 수 있습니다."
+      },
+      {
+        "factor": "유통변화",
+        "detail": "오프라인에서 온라인·모바일·라이브방송으로 유통채널이 이동하면서 판매 전략과 실적에 직접적인 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "경쟁심화",
+        "detail": "낮은 진입장벽과 온라인 브랜드 확대로 경쟁이 심해지면 가격 경쟁과 판관비 부담이 커질 수 있습니다."
+      },
+      {
+        "factor": "경기변동",
+        "detail": "패션산업은 경기변동에 매우 민감해 고금리·인플레이션 환경이 이어질수록 실적 부담이 커질 수 있습니다."
+      },
+      {
+        "factor": "쇼루밍",
+        "detail": "소비자가 오프라인에서 보고 온라인에서 구매하는 쇼루밍(Showrooming)이 늘면 오프라인 매장 매출에 불리할 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "주식회사 지엔코는 1997년 5월 31일 의류 및 잡화의 제조ㆍ판매를 사업목적으로 설립되어"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "2002년 5월 28일 코스닥시장에 주식을 등록 하였고"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 캐주얼 의류 전문 업체로서"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "써스데이아일랜드, 논타입, PLADS7, 에타페, TOINQ를 판매운영하고 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 캐주얼 의류 전문 업체로서"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4498,
+    "completion_tokens": 934,
+    "reasoning_tokens": 0,
+    "output_tokens": 934
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

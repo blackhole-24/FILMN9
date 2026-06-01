@@ -1,0 +1,92 @@
+{
+  "stock_code": "030000",
+  "corp_name": "제일기획",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 11:30",
+  "meta": {
+    "wics": "광고",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "제일기획은 광고업을 주력으로 하는 국내 선도 광고회사로, 전 세계 46개국 55개 거점을 통한 글로벌 네트워크를 운영하며 대형 광고주를 대상으로 통합 마케팅 솔루션을 제공합니다. 2025년 총연결영업수익은 4조5,469억원으로 해외 비중이 큽니다.",
+    "business_model": "핵심 수익원은 미디어 집행(매체 계획·구매 대행)과 광고물 제작이며, 디지털 및 데이터 기반의 AdTech(광고기술) 솔루션과 Experiential(체험형) 마케팅도 제공하고 있습니다. 2025년 연결영업수익 구성은 본사 31.1% 및 종속회사(해외) 68.9%입니다.",
+    "main_customers": "미디어 — 전자·금융·식품·화장품·건설·통신·건강기능 등 기업 광고주 / 광고물 제작 — 신제품 출시에 나서는 기업 및 기존 광고주 / 디지털·Experiential — 온라인·모바일 채널을 활용한 성과형 마케팅을 원하는 광고주",
+    "price_factors": [
+      {
+        "factor": "디지털 성장",
+        "detail": "온라인 동영상·플랫폼 광고 증가로 디지털 수요 확대 시 실적 개선 영향이 큽니다."
+      },
+      {
+        "factor": "경기민감도",
+        "detail": "광고비는 경기 흐름에 민감하여 경기침체 시 광고 집행 축소로 실적이 하방 압력을 받을 수 있습니다."
+      },
+      {
+        "factor": "전통매체 감소",
+        "detail": "TV·라디오·신문 등 4매체 광고비 감소는 전통 매체 기반 수익 구조에 부담을 줄 수 있습니다."
+      },
+      {
+        "factor": "계절성",
+        "detail": "2분기(여름)와 4분기(연말) 집중적 마케팅 수요 변화가 분기별 실적 변동성을 키울 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "전 세계 46개국 55개의 글로벌 네트워크"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "국내 1위 광고회사"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "당사의 서비스는 크게 미디어와 광고물 제작으로 구분됩니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "본  사: 14,156 (31.1%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "종속회사: 31,313 (68.9%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "전자, 금융, 식품, 화장품, 건설, 통신, 건강기능"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "온라인 동영상 및 플랫폼을 활용한 광고는 증가하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "광고업은 탄력도가 높다고 할 수 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "2025년 국내 4매체 광고비는 전년 대비 6.3% 감소"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4648,
+    "completion_tokens": 5464,
+    "reasoning_tokens": 4480,
+    "output_tokens": 984
+  },
+  "warnings": []
+}

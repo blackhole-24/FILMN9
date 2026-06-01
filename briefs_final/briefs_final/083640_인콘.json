@@ -1,0 +1,67 @@
+{
+  "stock_code": "083640",
+  "corp_name": "인콘",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 06:22",
+  "meta": {
+    "wics": "전자장비와기기",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "인콘은 영상보안 사업을 토대로 제조 중심에서 IoT(사물인터넷) 기반의 ICT(정보통신기술) 전문 기업으로 사업영역을 확대한 기업입니다. 2025년 기준 매출액은 50,821백만원으로 전년 대비 소폭 증가하여 중견 규모의 영상보안·솔루션 사업을 영위하고 있습니다.",
+    "business_model": "주요 사업은 영상보안장비(하드웨어)와 영상솔루션(소프트웨어·서비스)으로 구분되며, 영상보안장비 중심의 매출 구성이 핵심 수익원입니다. 사업부문별로 영상보안장비가 총매출의 87.6%를 차지하고 영상솔루션이 약 12.4%를 차지합니다.",
+    "main_customers": "영상보안장비 — 건물·시설 소유자 및 신규건물 관련 수요(설치 의무 또는 자발적 수요) / 영상솔루션 — 시스템 운영자 및 End-User(관제 운영·업그레이드 수요)",
+    "price_factors": [
+      {
+        "factor": "법적·사회 수요",
+        "detail": "법적 설치 의무나 사회적 불안(범죄·테러 등)에 따른 수요 급증이 실적에 직접적 영향을 미칩니다."
+      },
+      {
+        "factor": "건설경기",
+        "detail": "신규건물 증가 시 설치 수요가 늘어나 매출에 우호적 영향을 줍니다."
+      },
+      {
+        "factor": "제품 신뢰성",
+        "detail": "24시간 안정적 운영과 필드테스트·기술지원이 확보되어야 거래가 유지되므로 품질 문제가 실적에 민감하게 작용합니다."
+      },
+      {
+        "factor": "교체·업그레이드 주기",
+        "detail": "소모성 특성과 기능 요구 증가로 인한 업그레이드·교체 수요가 주기적으로 발생하여 수익에 기여합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "IoT기반의 ICT 전문 기업으로 사업영역을 넓혀가고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "영상보안장비 부문 매출액은 44,511백만원"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "법적인 의무사항으로 설치해야 하는 경우도 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "경기에 민감하지 않으므로 상대적으로 안정적인 성장을 할 수 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4671,
+    "completion_tokens": 4440,
+    "reasoning_tokens": 3712,
+    "output_tokens": 728
+  },
+  "warnings": []
+}

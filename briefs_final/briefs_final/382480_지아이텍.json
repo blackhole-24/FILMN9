@@ -1,0 +1,78 @@
+{
+  "stock_code": "382480",
+  "corp_name": "지아이텍",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 18:31",
+  "meta": {
+    "wics": "전기제품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "지아이텍은 2차전지와 디스플레이 제조공정에 사용되는 핵심 부품인 SLOT DIE와 SLIT NOZZLE을 제조하고, 이들 제품에 대한 REPAIR(수리·재생) 서비스를 주력으로 하는 기계·전기제품 전문 기업입니다. 2025년 7월 (주)엠브이텍과의 흡수합병을 통해 초정밀 부품 제조와 머신비전 검사장비 솔루션을 통합하여 사업 영역을 확장하였습니다.",
+    "business_model": "핵심 사업은 2차전지 전극 코팅용 SLOT DIE, 디스플레이용 SLIT NOZZLE의 제조와 이들 제품의 REPAIR 서비스이며, 관련 장비 및 부품 제조도 영위합니다. 2025년 합병으로 머신비전 기반의 검사·자동측정 솔루션(비전 솔루션)이 추가되어 초정밀 부품 공급부터 검사·제어까지 수직 통합된 가치사슬을 구성하고 있습니다.",
+    "main_customers": "SLOT DIE — 국내·해외 배터리 제조사(예: LG에너지솔루션, SKON, 삼성SDI, GM 등) / SLIT NOZZLE — 디스플레이 장비업체(예: 세메스) / REPAIR — 2차전지·디스플레이 장비 운영사 및 제조사 / 비전(머신비전) — 2차전지·반도체·디스플레이 제조 공정 고객",
+    "price_factors": [
+      {
+        "factor": "설비투자 사이클",
+        "detail": "전기차·ESS 등 수요 회복에 따른 설비투자 확대 시 SLOT DIE와 장비 수요가 증가하여 실적에 영향."
+      },
+      {
+        "factor": "정책 지원",
+        "detail": "미국 IRA 등 글로벌 정책과 각국 전기차 육성정책은 배터리 설비 투자에 우호적으로 작용합니다."
+      },
+      {
+        "factor": "제품 내마모성",
+        "detail": "생산라인 속도 증가와 하이니켈 등 소재 변화로 REPAIR 주기가 단축되면 수리 매출이 증가합니다."
+      },
+      {
+        "factor": "기술장벽",
+        "detail": "고도의 정밀설계·유동해석·제조 노하우가 필수인 산업 특성상 기술력 보유 여부가 경쟁력에 직접 영향."
+      },
+      {
+        "factor": "머신비전 통합",
+        "detail": "머신비전 솔루션 도입으로 검사·제어 부가가치가 높아지면 장비·서비스 평균판매단가에 긍정적 영향."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "해당 제품에 대한 REPAIR 서비스를 주 영업으로 하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "통합한 'Total Solution Provider'로 사업 영역을 확장하였습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사의 주요 매출처로는 LG에너지솔루션, SKON, 삼성SDI"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "REPAIR주기는 기존 1~2년에서 약 6개월 단위로 단축되고 있는 상황입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "자체 개발한 머신비전 소프트웨어 RAVID AI를 통해"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 5518,
+    "completion_tokens": 4326,
+    "reasoning_tokens": 3392,
+    "output_tokens": 934
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

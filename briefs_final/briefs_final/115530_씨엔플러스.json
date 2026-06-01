@@ -1,0 +1,106 @@
+{
+  "stock_code": "115530",
+  "corp_name": "씨엔플러스",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:18",
+  "meta": {
+    "wics": "디스플레이장비및부품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "씨엔플러스는 전기·전자 업종에서 커넥터를 생산·판매하는 회사로, 정보통신기기용·디스플레이용·가전제품용 커넥터를 주요 사업으로 하고 있습니다. 2021년 (주)피케이풍력을 인수·합병한 이후 재생에너지(풍력·태양광) 발전소 관련 운송 및 설치업도 함께 진행하고 있으며, 신기술융합사업부문에서는 스마트 교육 관련 기기와 소프트웨어(S/W)를 제조·공급하고 있습니다.",
+    "business_model": "핵심 매출은 제품매출 16,638,205천원(약 31.0%), 공사수익 29,865,240천원(약 55.7%), 상품매출 3,346,281천원(약 6.2%), 발전매출 1,293,051천원(약 2.4%), 기타매출 2,474,538천원(약 4.6%)로 구성됩니다. 커넥터 제조·판매와 재생에너지 프로젝트의 운송·설치, 발전매출이 함께 있는 구조이며, 커넥터는 Board to Board, Wire to Board, FPC/FFC, I/O 커넥터 등으로 구분됩니다. 회사는 AI·데이터센터용 고사양 커넥터와 전기차 전장(전기장치) 부품 시장 진입을 위한 제품 개발도 진행하고 있습니다.",
+    "main_customers": "커넥터 사업 — 정보통신기기·디스플레이·가전 및 전기차 관련 제조업체 / 재생에너지 사업 — 풍력·태양광 발전소 관련 사업자 및 협력사 / 신기술융합사업부문 — 스마트 교육 기기 및 S/W 수요처",
+    "price_factors": [
+      {
+        "factor": "전방산업",
+        "detail": "AI·데이터센터와 같은 전방산업이 성장하면 고사양·초소형 커넥터 수요가 늘어 실적에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "전기차전장",
+        "detail": "전기차 확산으로 전기·전장 부품 시장의 커넥터 수요가 커지면 관련 제품 개발과 영업에 영향을 미칩니다."
+      },
+      {
+        "factor": "해상풍력",
+        "detail": "해상풍력 중심의 시장 확대와 대규모 입찰 확대는 운송·설치 사업 기회에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "정책변화",
+        "detail": "재생에너지 정책과 특별법 시행 여부에 따라 풍력·태양광 사업의 추진 속도와 수주 환경이 달라질 수 있습니다."
+      },
+      {
+        "factor": "고집적수요",
+        "detail": "전자제품의 고사양화·초슬림화·초소형화가 진행될수록 고집적 커넥터 수요가 늘어날 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 정보통신기기용, 디스플레이용, 가전제품용으로 사용되는 커넥터의 생산, 판매를 하고 있습니다."
+      },
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "2021년 (주)피케이풍력을 인수/합병을 시작으로, 재생에너지"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "제품매출 16,638,205"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "공사수익 29,865,240"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "상품매출 3,346,281"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "발전매출 1,293,051"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "정보통신기기용, 디스플레이용, 가전제품용으로 사용되는 커넥터"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "재생에너지(풍력 및 태양광) 발전소 관련 사업(운송 및 설치업)"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "AI 및 데이타센터 등, 전방산업의 발전에 따라"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "전기자동차의 활성화에 따른 전기·전장 부품시장의 커넥터 비율이 높아짐"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "해상풍력보급 촉진 및 산업육성에 관한 특별법"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3931,
+    "completion_tokens": 1315,
+    "reasoning_tokens": 0,
+    "output_tokens": 1315
+  },
+  "warnings": []
+}

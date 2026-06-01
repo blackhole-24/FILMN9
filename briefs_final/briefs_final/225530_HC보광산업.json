@@ -1,0 +1,68 @@
+{
+  "stock_code": "225530",
+  "corp_name": "HC보광산업",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 12:49",
+  "meta": {
+    "wics": "건축자재",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "HC보광산업은 콘크리트용 골재와 아스콘(재활용 아스콘 포함), 레미콘을 생산·판매하는 건축자재 업체로, 경상북도 군위군에 면적 430,854㎥의 석산(채석장)을 보유해 반경 30km 내 대구광역시를 포함한 지역에 공급하고 있습니다. KS인증(국가표준) 받은 골재 등 품질을 강조하며 지역 기반의 공급망을 핵심 경쟁력으로 삼고 있습니다.",
+    "business_model": "주요 사업은 골재(콘크리트용 부순골재·혼합골재), 아스콘(재활용 아스콘·일반 아스콘), 레미콘 등 원재료·건설자재의 생산·판매입니다. 자사 석산에서 골재를 채취해 KS인증(국가표준) 골재를 레미콘에 직접 투입하는 수직적 공급체인을 통해 품질·수급 우위를 확보하고 있습니다.",
+    "main_customers": "골재 — 건설업체(콘크리트·토목공사) / 아스콘 — 도로포장공사·지자체·건설사 / 레미콘 — 건설현장·시공업체",
+    "price_factors": [
+      {
+        "factor": "운송비",
+        "detail": "골재는 운반비 비중이 커서 공급거리 증가 시 수익성에 직접적인 부담이 됩니다."
+      },
+      {
+        "factor": "환경규제",
+        "detail": "대기·폐수·소음 등 환경 규제 강화는 운영비 증가와 허가·관리 부담으로 이어집니다."
+      },
+      {
+        "factor": "건설경기",
+        "detail": "최종 수요처가 건설업인 만큼 건설투자 변동에 따라 매출 변동성이 큽니다."
+      },
+      {
+        "factor": "진입장벽",
+        "detail": "채석장·환경허가·민원 등으로 신규 진입이 어려워 지역 내 경쟁 구도가 안정적일 수 있습니다."
+      },
+      {
+        "factor": "재활용 의무화",
+        "detail": "재활용 아스콘 의무사용 확대는 재활용 제품을 보유한 업체에 수요 기회가 됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "당사는 대한민국 최고의 골재 생산 전문업체를 모토로,"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "레미콘 을 생산 판매 중에 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 나. 사업 개황 > 1) 산업의 특성",
+        "evidence_text": "최종 수요처는 건설업 시장입니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4288,
+    "completion_tokens": 3870,
+    "reasoning_tokens": 3136,
+    "output_tokens": 734
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "stock_code": "036690",
+  "corp_name": "코맥스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 00:42",
+  "meta": {
+    "wics": "통신장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "코맥스는 주거용 인터폰·비디오폰·CCTV 등 정보통신 기반 보안·통신기기를 개발·생산하는 기업으로, 일상생활과 밀접한 제품을 통해 스마트홈(홈네트워크) 시장에서 활동하고 있습니다. 보고서에서는 사물인터넷(IoT) 접목 등 스마트홈 서비스화 추세 속에서 산업의 발전이 계속되고 있음을 설명하고 있습니다.",
+    "business_model": "매출의 핵심은 제조 부문으로, 스마트 홈 솔루션이 전체 매출의 81.7%를 차지하며(제품 브랜드: COMMAX), 나머지 ACC·기타가 18.3%를 구성합니다. 주력 제품군은 주거용 인터폰·비디오폰 및 관련 보안장비로, 제품 판매를 통해 주로 수익을 창출합니다.",
+    "main_customers": "제조 — 아파트 입주자·주거용 홈네트워크 시장 / ACC·기타 — 국내 및 해외 시장",
+    "price_factors": [
+      {
+        "factor": "가격경쟁",
+        "detail": "제품별로 '가격경쟁치열함'이 반복적으로 언급되어 수익성(마진)에 직접적인 하방 압력이 될 수 있습니다."
+      },
+      {
+        "factor": "건설경기",
+        "detail": "보고서에서 '국내외 건설경기 침체'를 실적 감소의 원인으로 제시하고 있어 건설경기 악화는 매출에 즉각적 영향을 미칩니다."
+      },
+      {
+        "factor": "IoT 확산",
+        "detail": "IoT(사물인터넷) 접목으로 스마트홈 서비스가 확산되면 관련 장비 수요 증가로 실적에 긍정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "해외시장",
+        "detail": "유무선 통신 분야의 해외 진출(저개발국·개발도상국 대상)이 강조되어 해외 수요 변동이 실적에 영향을 미칠 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 업계의 현황(1) 산업의 특성",
+        "evidence_text": "21세기 정보통신분야의 기본이 되는 제품을 개발 생산하는 업체로서"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "스마트 홈 솔루션 66,889 81.7"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 업계의 현황(3) 경기변동의 특성",
+        "evidence_text": "아파트 입주자들을 도어폰, 비디오폰으로 묶는"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "(2) 제품별 설명",
+        "evidence_text": "가격경쟁치열함"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "국내외 건설경기 침체로 인하여 당기 매출액은 전기대비 27.34% 감소한 851억원을 실현하였으며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5088,
+    "completion_tokens": 4114,
+    "reasoning_tokens": 3328,
+    "output_tokens": 786
+  },
+  "warnings": []
+}

@@ -1,0 +1,73 @@
+{
+  "stock_code": "171090",
+  "corp_name": "선익시스템",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:22",
+  "meta": {
+    "wics": "디스플레이장비및부품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "선익시스템은 OLED(유기발광다이오드) 디스플레이 장비를 만드는 기계·장비 기업입니다. 전방산업인 OLED 디스플레이 시장과 함께 움직이는 구조이며, 특히 증착장비 분야에서 사업을 영위하고 있습니다. 회사는 2025년 전방 산업 투자수요 회복에 힘입어 수주가 늘었다고 설명했습니다.",
+    "business_model": "주요 사업부문은 증착장비와 Part 및 서비스로 구성되어 있으며, 제공된 자료에는 각 부문의 매출 비율이 명시되어 있지 않습니다. 회사는 OLED 증착장비 매출 증가가 실적 개선의 주요 요인이라고 설명했고, 대형 양산용 OLED 증착장비와 마이크로 OLED 증착장비 연구개발에도 집중하고 있습니다. 또한 정부지원을 통한 차세대 증착장비 개발과 해외 수주 확대를 추진하고 있습니다.",
+    "main_customers": "증착장비 — OLED 패널업체 / Part 및 서비스 — 기존 장비 고객사",
+    "price_factors": [
+      {
+        "factor": "OLED투자",
+        "detail": "전방 OLED 패널업체의 투자와 설비 증설이 늘수록 증착장비 수주가 증가해 실적에 직접 영향을 줍니다."
+      },
+      {
+        "factor": "기술변화",
+        "detail": "OLED 공정과 제품 변화 속도가 빨라 새로운 공정에 맞는 장비 대응력이 실적과 수주 경쟁력에 중요합니다."
+      },
+      {
+        "factor": "차세대수요",
+        "detail": "마이크로 OLED와 OLEDoS 같은 차세대 디스플레이 수요가 커지면 관련 장비 수요도 함께 확대될 수 있습니다."
+      },
+      {
+        "factor": "해외수주",
+        "detail": "중국 등 해외 디스플레이 업체의 OLED 투자가 이어질수록 해외 장비 수주 확대 가능성이 커집니다."
+      },
+      {
+        "factor": "산업사이클",
+        "detail": "디스플레이 산업은 투자와 수요가 주기적으로 변동해 장비 발주 규모도 경기와 업황 흐름에 민감합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "기업 기본 정보",
+        "evidence_text": "업종 / WICS 섹터: 기계·장비 / 디스플레이장비및부품"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "■ 주요 사업부문 (비율 불명확)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "MD&A",
+        "evidence_text": "OLED 증착장비의 매출 증가가 주요 요인으로 작용"
+      },
+      {
+        "field": "business_model",
+        "source_section": "MD&A",
+        "evidence_text": "대형 양산용 OLED 증착장비와 마이크로 OLED 증착장비"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4726,
+    "completion_tokens": 726,
+    "reasoning_tokens": 0,
+    "output_tokens": 726
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

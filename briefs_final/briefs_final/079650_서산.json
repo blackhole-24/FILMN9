@@ -1,0 +1,83 @@
+{
+  "stock_code": "079650",
+  "corp_name": "서산",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 05:57",
+  "meta": {
+    "wics": "건축자재",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "서산은 비금속·건축자재 업종에서 콘크리트제품 제조를 주요 사업으로 하는 기업입니다. 콘크리트(레미콘 등) 제품을 중심으로 건설 현장에 공급하는 내수형 사업구조를 가지고 있으며, 에너지솔루션(전기차 충전기)은 현재 뚜렷한 매출 실적이 없습니다.",
+    "business_model": "핵심 사업은 콘크리트제품 제조로 레미콘, 흄관, 파일, 전주 등 건설기초자재를 생산·공급하는 것이 주된 수익원입니다. 레미콘은 운송시간 제약에 따른 주문생산방식(주문형 산업) 특성이 있어 지역 단위 수요에 맞춘 공급이 중요하며, 에너지솔루션 사업부문은 제출일 현재 매출이 없어 수익 기여가 없는 상태입니다.",
+    "main_customers": "콘크리트 제품 제조 — 관공서·대형 건설사·개인고객 / 에너지솔루션 — 명시된 주요 매출처 없음",
+    "price_factors": [
+      {
+        "factor": "과다경쟁",
+        "detail": "다수의 공급자가 진입장벽 없이 지역별로 치열한 경쟁을 벌이고 있어 가격·수익성에 하방 압력이 발생할 수 있습니다."
+      },
+      {
+        "factor": "운송비",
+        "detail": "원가 내 운송비 비중이 높아(통상 15-20%) 운송비 상승 시 마진이 축소될 수 있습니다."
+      },
+      {
+        "factor": "계절성",
+        "detail": "건설수요의 계절적 편차로 성수기(봄·가을)와 비수기(겨울·장마철)가 뚜렷해 실적 변동성이 큽니다."
+      },
+      {
+        "factor": "주문생산",
+        "detail": "레미콘은 운송시간 제약으로 주문에 따라 생산·공급하는 구조여서 가동률이 낮고 수요 변동에 취약합니다."
+      },
+      {
+        "factor": "기술변화",
+        "detail": "전기자동차 충전기 기술이 빠르게 변화하고 있어 에너지솔루션 부문은 기술 경쟁력 확보 여부가 향후 실적에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "콘크리트제품 제조"
+      },
+      {
+        "field": "business_model",
+        "source_section": "콘크리트 제품 제조 사업부문",
+        "evidence_text": "레미콘은 운송시간의 제약을 받는 산업의 특성상 주문에 의하여 생산 공급하는  주문형 산업의 성격을 지닌다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "관공서 및 대형 건설사를 비롯하여 개인고객까지 고객층이 다양하며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "콘크리트 제품 제조 사업부문",
+        "evidence_text": "다수의 공급자가 별다른 진입장벽 없이 지역별로 치열한 경쟁을 벌이고 있는 상황이다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "콘크리트 제품 제조 사업부문",
+        "evidence_text": "성수기와 비수기가 확연히 구분되는 계절적 특성을 지닌다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "현재까지 뚜렷한 성과를 보이고 있지 않습니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 3779,
+    "completion_tokens": 4822,
+    "reasoning_tokens": 3904,
+    "output_tokens": 918
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

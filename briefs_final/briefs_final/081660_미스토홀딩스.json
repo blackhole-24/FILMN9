@@ -1,0 +1,68 @@
+{
+  "stock_code": "081660",
+  "corp_name": "미스토홀딩스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 06:12",
+  "meta": {
+    "wics": "섬유,의류,신발,호화품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "미스토홀딩스는 2020년 신발·의류 판매 부문을 물적분할해 자회사 미스토코리아를 설립하면서 지주회사로 전환한 기업으로, 2025년 사명을 (주)미스토홀딩스로 변경하여 글로벌 브랜드 포트폴리오 정체성을 강화하였습니다. 지주회사로서 자회사로부터의 배당수익과 경영자문을 통한 자문료 등이 주요 수입원입니다.",
+    "business_model": "지주회사인 당사는 연결실체의 영업부문을 Misto 부문과 Acushnet 부문으로 구분하여 운영하며, 지배 및 전략적 자원배분을 통해 그룹 가치를 관리합니다. Misto 부문은 FILA, Alife, Pairs 등 자체 브랜드 및 K-패션 브랜드의 라이선스·유통을 포함한 멀티 브랜드 포트폴리오를 운영하고, Acushnet 부문은 Titleist 등 다양한 골프 브랜드 사업을 영위합니다.",
+    "main_customers": "Misto 부문 — 해외 파트너사(상표권·유통 계약 상대) 및 현지 온·오프라인 유통 채널 / Acushnet 부문 — 글로벌 골프 관련 수요층 및 유통 채널",
+    "price_factors": [
+      {
+        "factor": "소비심리",
+        "detail": "글로벌 소비 심리 위축은 의류·신발 등 Misto 부문 제품 수요를 감소시켜 매출과 로열티 수익에 부정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "관세·무역",
+        "detail": "관세 및 무역 불확실성은 수출입 비용과 유통구조에 영향을 미쳐 수익성 변동을 유발할 수 있습니다."
+      },
+      {
+        "factor": "파트너 리스크",
+        "detail": "현지 파트너사와의 라이선스·유통 계약 성과에 따라 로열티 및 유통 매출이 직접 변동될 수 있습니다."
+      },
+      {
+        "factor": "골프수요",
+        "detail": "골프 참여자 수와 장비 수요 회복은 Acushnet 부문의 매출과 실적에 영향을 미칩니다."
+      },
+      {
+        "factor": "공급망",
+        "detail": "Misto 부문의 OEM 생산 의존도는 공급망 유연성·원가 변동에 따른 이익률 변동 요인이 됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 영업의 개황",
+        "evidence_text": "지주회사로 전환되었습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. 영업의 개황",
+        "evidence_text": "주요 수입원은 자회사 등으로부터 받는 배당수익"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 상표권 계약 (License-in)",
+        "evidence_text": "현지의 주요 온·오프라인 유통 채널을 직접 운영하며"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4612,
+    "completion_tokens": 3236,
+    "reasoning_tokens": 2496,
+    "output_tokens": 740
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "stock_code": "045520",
+  "corp_name": "크린앤사이언스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 02:05",
+  "meta": {
+    "wics": "전자장비와기기",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "크린앤사이언스는 1979년 설립된 친환경 필트레이션 전문기업으로, 자동차용 및 산업용 Filter 소재와 이를 응용한 Filter 완제품을 생산·공급하고 있습니다. 국내 가전용 HEPA(고효율 미세먼지 필터)와 자동차용 여과소재에서 주요 공급자로 자리잡고 있습니다.",
+    "business_model": "주요 사업은 필터 미디어(원재료)와 이를 적용한 필터 완제품의 제조·판매이며, 사업부문별 매출 구성은 Filter/미디어(HPFT) 46.4%, M/B(QA) 17.9%, 자동차용 27.6%, 산업용 1.8%, 상품 6.3%입니다. 가전용 공기청정기용 HEPA 등 고효율 여과소재를 중심으로 고객 요구 사양에 대응해 납품하는 것이 핵심 수익원입니다.",
+    "main_customers": "가전용 필터 — LG전자·삼성전자·위닉스·교원·SK매직 등 공기청정기 제조업체 / 자동차용 필터 — 국내 자동차 제조사의 OE업체 및 대형 수출업체 / 산업용 필터 — 화력발전소 등 공조·산업설비 운영사 및 동남아시아 대형업체",
+    "price_factors": [
+      {
+        "factor": "공기청정기 수요",
+        "detail": "공기청정기 판매량 증가 시 핵심소재인 공기청정기용 필터 수요가 동반 확대되어 실적에 긍정적 영향을 줍니다."
+      },
+      {
+        "factor": "환경규제",
+        "detail": "환경정책과 대기질 변화에 따라 공조용·산업용 필터 수요가 변동되어 매출에 직접적 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "경쟁 심화",
+        "detail": "국내외 가전·공기청정기 제조사 및 외국 브랜드의 경쟁 심화는 가격·납기·품질 경쟁을 통해 수익성에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "생산 리스크",
+        "detail": "여과지 관련 사고에 따른 생산 중단은 매출·생산성 감소와 비용 증가로 실적에 부정적 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "(1) 영업개황",
+        "evidence_text": "친환경 Filtration전문기업입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. 업계의 현황 (1) 산업의 특성 및 성장성",
+        "evidence_text": "당사는 필터 미디어와 이를 적용한 필터 완제품을 자체 생산하여 공급하고 있으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[표] 가. 주요 제품 등의 현황",
+        "evidence_text": "39,458 (46.4%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 업계의 현황 (1) 산업의 특성 및 성장성",
+        "evidence_text": "LG전자, 삼성전자, 위닉스, 교원, SK매직"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5512,
+    "completion_tokens": 4302,
+    "reasoning_tokens": 3520,
+    "output_tokens": 782
+  },
+  "warnings": []
+}

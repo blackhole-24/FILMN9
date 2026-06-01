@@ -1,0 +1,67 @@
+{
+  "stock_code": "016600",
+  "corp_name": "큐캐피탈",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 21:50",
+  "meta": {
+    "wics": "창업투자",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "finance"
+  },
+  "brief": {
+    "company_overview": "큐캐피탈은 기관전용 PEF(사모투자펀드)와 신기술투자조합(벤처투자조합)을 중심으로 펀드 운용을 하는 창업투자사로, 2025년 4분기 말 기준 약정총액 약 1조 4,135억원의 운용규모를 보유하고 있습니다. 8개 PEF와 2개 신기술투자조합을 통해 투자·운용 활동을 전개하고 있습니다.",
+    "business_model": "주요 수익은 투자관리보수(48.4%), 이자수익(24.4%), 지분법이익(11.6%), 투자성과보수(9.0%) 등으로 구성되며, 유가증권평가및처분이익(2.3%), 투자부동산임대수익(4.2%), 배당금수익(0.2%)이 일부를 차지합니다. 핵심은 PEF·신기술투자조합 운용을 통한 관리보수 및 성과보수 수입이며, 대출채권·신기술금융자산·투자운용자산 등에서 수익이 발생합니다.",
+    "main_customers": "PEF — 기관(기관전용 PEF) / 신기술투자조합 — 신기술·벤처기업 / 여신금융 등 — 여신(대출) 관련 고객",
+    "price_factors": [
+      {
+        "factor": "운용규모",
+        "detail": "운용규모 변동이 관리보수·성과보수 규모에 직접 영향을 주어 실적 변동성이 발생합니다."
+      },
+      {
+        "factor": "관리·성과수수료",
+        "detail": "관리보수와 투자성과보수의 증감이 영업수익 및 당기순이익에 큰 영향을 미칩니다."
+      },
+      {
+        "factor": "자산건전성",
+        "detail": "대출채권·신기술금융자산·투자운용자산의 손상 여부가 손익에 직결됩니다."
+      },
+      {
+        "factor": "시장가시성",
+        "detail": "시장점유율 통계의 부재로 경쟁력 평가와 비교지표 확보가 제한됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "(1) 영업개황",
+        "evidence_text": "운용규모는 약정총액을 기준으로 약 1조 4,135억원에 이르고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "투자관리보수: 9,721 (48.4%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "(1) 영업개황",
+        "evidence_text": "기관전용 사모투자합자회사(PEF), 신기술투자조합(벤처투자조합)"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "(2) 시장점유율",
+        "evidence_text": "시장점유율을 표시하는데 많은 어려움이 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4696,
+    "completion_tokens": 6530,
+    "reasoning_tokens": 5760,
+    "output_tokens": 770
+  },
+  "warnings": []
+}

@@ -1,0 +1,67 @@
+{
+  "stock_code": "019660",
+  "corp_name": "글로본",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 22:28",
+  "meta": {
+    "wics": "판매업체",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "글로본은 화장품사업과 비료 산업 파생 원료 사업을 영위하는 유통·판매업체로, 화장품 브랜드 'RUE KWAVE'를 런칭해 아시아·중동 지역의 한류(한국문화) 수요를 겨냥하고 있습니다. 전체 매출에서는 비료산업파생원료사업이 큰 비중을 차지합니다.",
+    "business_model": "주요 사업부문은 비료산업파생원료사업(매출 비중 84.13%), 화장품 관련 상품(기초화장품·마스크팩 등, 3.32%), 화장품 관련 제품(화장품 용기 등, 10.91%), 기타(임대 등, 1.64%)으로 구성되며, 비료 파생 원료 트레이딩이 매출의 핵심입니다. 화장품 부문은 K-뷰티 콘셉트의 브랜드 런칭과 수출(중국·동남아·중동) 중심으로 운영됩니다.",
+    "main_customers": "화장품사업 — 한류를 선호하는 중국·동남아시아·중동지역의 여성고객 / 비료산업파생원료사업 — 트레이딩을 통한 판매 영업 대상",
+    "price_factors": [
+      {
+        "factor": "트렌드 민감성",
+        "detail": "화장품은 기호와 유행에 민감하여 소비자 선호 변화가 빠르면 매출 변동성이 커집니다."
+      },
+      {
+        "factor": "유통 채널 다변화",
+        "detail": "오프라인·온라인·편집숍 등 채널 경쟁이 심화되면 마케팅·유통비용에 따른 실적 영향이 발생합니다."
+      },
+      {
+        "factor": "진입장벽",
+        "detail": "OEM·ODM을 통한 진입이 상대적으로 용이해 경쟁 심화 시 화장품 부문의 가격·수익성 압박이 커질 수 있습니다."
+      },
+      {
+        "factor": "원자재·글로벌 경기",
+        "detail": "비료 파생 원료 트레이딩은 글로벌 경기와 원자재 시황 영향을 받아 매출·이익에 직접적 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 화장품사업 등을 영위하고 있으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "비료산업파생원료사업 | 상품 | 비료 외 | 비료 산업 파생 원료 등 | 10,892,488 | 84.13"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "한류를 선호하는 중국, 동남아시아, 중동지역의 여성고객을 겨냥하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "기호· 유행에 대해 시장반응이 민감하여"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4012,
+    "completion_tokens": 3525,
+    "reasoning_tokens": 2752,
+    "output_tokens": 773
+  },
+  "warnings": []
+}

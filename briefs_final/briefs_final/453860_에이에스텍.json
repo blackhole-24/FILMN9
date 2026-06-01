@@ -1,0 +1,77 @@
+{
+  "stock_code": "453860",
+  "corp_name": "에이에스텍",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 20:00",
+  "meta": {
+    "wics": "화장품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "에이에스텍은 2005년 3월 설립된 자외선 차단 원료 생산 전문기업으로, 자외선 차단제 및 화학물질 원료 생산을 주요 사업으로 영위하고 있습니다. 2019년부터 DHHB 양산을 시작하며 UviMax® DHHB 등 유기자외선 차단 소재를 국내외 화장품 OEM사와 글로벌 화학회사에 공급하고 있습니다.",
+    "business_model": "주요 수익원은 제품매출과 상품매출로 구성되어 있으며, 2025회계연도 기준 제품매출이 34.9%, 상품매출이 24.4%를 차지합니다. 제품 측면에서는 UviMax® DHHB, BEMT, TDSA 등 유기 UV 필터 원료를 개발·생산하여 화장품 제조사 및 글로벌 화학사에 공급하는 것이 핵심입니다.",
+    "main_customers": "제품매출 — 글로벌 화학회사·국내외 다수 화장품 OEM사 / 상품매출 — 국내 화장품업체·해외 고객",
+    "price_factors": [
+      {
+        "factor": "규제(미국FDA)",
+        "detail": "미국 FDA가 자외선 차단제를 OTC(일반의약품)으로 규정하여 FDA 승인 여부가 생산·유통과 수출에 직접적 제약으로 작용합니다."
+      },
+      {
+        "factor": "원료조달 의존",
+        "detail": "주요 원료를 전량 해외에서 조달하므로 환율 변동과 글로벌 수요·공급 차질에 따른 원가 및 납기 영향이 큽니다."
+      },
+      {
+        "factor": "공급 집중",
+        "detail": "과거 원료 시장이 해외 공급사 중심의 구조여서 공급 부족 시 원료 확보와 가격에 민감하게 노출됩니다."
+      },
+      {
+        "factor": "수요 계절성",
+        "detail": "자외선 차단제 수요는 계절적 요인이 있으나, 메이크업 등 적용처 확대는 계절성 완화로 실적 변동성을 일부 축소시킬 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "당사는 자외선 차단 원료를 생산하는 전문기업"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "제품매출: 8,564,102 (34.9%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "상품매출: 6,000,000 (24.4%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "글로벌 화학회사 및 국내외 다수화장품OEM사에 공급하고 있으며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나. 규제환경",
+        "evidence_text": "반드시 FDA의 승인을 얻어 생산 및 유통해야 합니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "아. 자원조달상의 특성",
+        "evidence_text": "주요 원료들은 전량 해외 조달에 의존하고 있는데"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4373,
+    "completion_tokens": 3635,
+    "reasoning_tokens": 2816,
+    "output_tokens": 819
+  },
+  "warnings": []
+}

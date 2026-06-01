@@ -1,0 +1,72 @@
+{
+  "stock_code": "043200",
+  "corp_name": "파루",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 01:45",
+  "meta": {
+    "wics": "에너지장비및서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "파루는 태양광 발전용 구조물과 추적식(태양 추적) 시스템을 중심으로 국내외 태양광 발전 프로젝트에 설비를 공급하는 기업이며, 위생·환경 장비 사업도 병행하고 있습니다. 사업보고서상 사업부문별 매출의 대부분이 태양광 관련 제품에서 발생합니다.",
+    "business_model": "사업부문별 매출 구성에서는 태양광발전(태양광추적장치 등)이 전체의 98.0%를 차지하고, 위생·환경 관련 제품(소독기·방제기 등)이 2.0%를 차지합니다. 핵심 제품은 추적식 시스템과 태양광 구조물로, 견고한 프레임과 웜기어 방식 구동부·2중축 엑츄레이터 등 내구성을 강조한 설계가 특징입니다.",
+    "main_customers": "태양광발전 — 국내외 태양광 발전 프로젝트(발전사업자·프로젝트 개발사) / 위생환경제품 — 산업현장·농업 분야·저장고·식품 관련 업체 및 방역·공공 설비 설치처",
+    "price_factors": [
+      {
+        "factor": "정책(탄소중립)",
+        "detail": "국가들의 탄소중립 및 재생에너지 확대 정책 강화는 태양광 수요 증가로 실적에 긍정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "설비 단가(모듈 등)",
+        "detail": "태양광 모듈 및 관련 설비 가격 장기 하락은 태양광 발전의 경제성을 개선해 수요 확대에 기여할 수 있습니다."
+      },
+      {
+        "factor": "전력망 한계",
+        "detail": "전력망 수용 한계 및 계통 연계 지연은 프로젝트 착수나 설치 시점에 영향을 주어 실적 변동 요인이 될 수 있습니다."
+      },
+      {
+        "factor": "국내 수요 변동",
+        "detail": "국내 설치 규모가 둔화될 경우 단기적으로 매출에 부담이 될 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "국내외 태양광 발전 프로젝트를 대상으로 설비 공급"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "태양광 에너지 사업 외에도 위생·환경 관련 장비 및 제품을 공급"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "27,831 (98.0)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "561(2.0)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 1) 시장 현황",
+        "evidence_text": "태양광 발전 산업은 전 세계적인 탄소중립 정책과 에너지 안보 강화 기조"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3936,
+    "completion_tokens": 3909,
+    "reasoning_tokens": 3136,
+    "output_tokens": 773
+  },
+  "warnings": []
+}

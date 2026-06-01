@@ -1,0 +1,64 @@
+{
+  "stock_code": "031330",
+  "corp_name": "에스에이엠티",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 23:36",
+  "meta": {
+    "wics": "전자장비와기기",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "에스에이엠티는 1990년 6월 설립된 IT 마케팅 전문 기업으로, 삼성전자·삼성전기·삼성SDI·삼성디스플레이 등과 안정적인 공급계약을 맺고 전자부품을 유통하고 있습니다. 스마트폰·스마트TV·Tablet PC 등 IT 완제품에 필요한 Memory, 유기발광다이오드(OLED) 패널, 시스템반도체, Digital Module 등을 주로 취급합니다.",
+    "business_model": "단일 영업부문(전자부품 유통)을 기반으로 반도체(메모리·시스템반도체), OLED 패널, Digital Module 등 제품을 기업 고객에게 판매하는 유통·마케팅 서비스가 핵심 수익원입니다. 임대수익 등 기타수익도 발생하며, 회사는 적절한 재고관리 및 채권관리를 통한 리스크 축소와 신규 아이템·해외시장 개척으로 성장을 모색하고 있습니다.",
+    "main_customers": "상품 — 삼성전자·삼성전기·삼성SDI·삼성디스플레이 등 세계 일류 IT기업 / 상품 — 국내 대기업군 및 벤처 기업",
+    "price_factors": [
+      {
+        "factor": "글로벌 통상",
+        "detail": "미국의 관세 정책 등 통상 불확실성은 공급망과 수출환경에 영향을 미쳐 실적 변동성을 높일 수 있습니다."
+      },
+      {
+        "factor": "AI 수요",
+        "detail": "AI 인프라 확장에 따른 반도체 투자 증가는 시스템반도체 등 비메모리 제품 수요를 늘려 유통업체의 매출 확대 요인이 됩니다."
+      },
+      {
+        "factor": "메모리 공급",
+        "detail": "메모리 반도체의 공급 부족 전망은 메모리 제품류의 판매 확대와 가격 변동성을 동시에 초래할 수 있습니다."
+      },
+      {
+        "factor": "재고·채권",
+        "detail": "재고와 매출채권 증가로 인한 운전자금 부담 및 채권·재고 리스크는 영업실적과 재무상태에 직접적인 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 회사의 현황 (1) 영업개황",
+        "evidence_text": "1990년 6월에 설립된 IT 마케팅 전문 기업으로서"
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. 회사의 현황 (2) 공시대상 사업부문의 구분",
+        "evidence_text": "단일 영업부문으로 구성되어 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 회사의 현황 (1) 영업개황",
+        "evidence_text": "삼성전자, 삼성전기, 삼성SDI, 삼성디스플레이"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4309,
+    "completion_tokens": 3585,
+    "reasoning_tokens": 2880,
+    "output_tokens": 705
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

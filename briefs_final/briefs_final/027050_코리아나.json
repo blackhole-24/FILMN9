@@ -1,0 +1,62 @@
+{
+  "stock_code": "027050",
+  "corp_name": "코리아나",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 23:20",
+  "meta": {
+    "wics": "화장품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "코리아나는 화장품 제조 및 판매를 주력으로 하는 기업으로, 송파기술연구소에서 개발한 성과를 바탕으로 라비다·자인 등 다수의 브랜드를 보유하고 있습니다. 설립 후 10여년 만에 국내 화장품업계 3위를 차지할 정도로 성장했으며, 충남 천안의 생산공장과 2016년 준공한 중국 천진 공장 등 생산·연구 인프라를 운영하고 있습니다.",
+    "business_model": "사업부문은 화장품사업(99.0%)과 기타(1.0%)로 구성되어 화장품사업이 수익의 대부분을 차지합니다. 유통은 직판·방판, 리테일, 온라인, 브랜드제조총판 및 해외사업을 통해 이원화되어 있으며, 세레니끄(피부관리샵) 가맹 운영 등 서비스형 채널도 보유하고 있습니다.",
+    "main_customers": "화장품사업 — 직·방판 판매원 및 일반 소비자(온라인·리테일·브랜드제조총판) / 해외사업 — 해외 바이어 및 현지 유통업체 / 기타 — 세레니끄 가맹점 및 임차인",
+    "price_factors": [
+      {
+        "factor": "트렌드 민감성",
+        "detail": "제품 수명주기가 짧고 소비자 기호 변화에 민감해 신제품 적시 출시 실패 시 실적 변동폭이 커질 수 있습니다."
+      },
+      {
+        "factor": "브랜드 충성도",
+        "detail": "브랜드 충성도가 높은 상위 기업 중심의 과점 구조로 인해 브랜드 경쟁력이 약화되면 점유율 하락 영향이 큽니다."
+      },
+      {
+        "factor": "디지털 채널",
+        "detail": "온라인·SNS 기반 마케팅과 자사몰 확대로 판매채널 변화가 실적에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "환율·해외매출",
+        "detail": "해외사업 비중과 중국 생산시설 보유로 USD·CNY 환율 변동 및 해외 매출 조정은 수익성에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "1. 사업의 개요",
+        "evidence_text": "당사는 화장품 제조 및 판매를 주 사업으로 영위하고 있으며,"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "화장품사업 (99.0%)"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "2. 업계의 현황 > 1) 산업의 특성",
+        "evidence_text": "화장품 산업은 정밀화학 기반의 고부가가치 산업으로,"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4979,
+    "completion_tokens": 3502,
+    "reasoning_tokens": 2816,
+    "output_tokens": 686
+  },
+  "warnings": []
+}

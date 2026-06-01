@@ -1,0 +1,67 @@
+{
+  "stock_code": "327260",
+  "corp_name": "RF머트리얼즈",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 16:35",
+  "meta": {
+    "wics": "우주항공과국방",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "알에프머트리얼즈는 화합물 반도체 패키지 전문기업으로, RF 및 광 통신용 통신용 패키지, 레이저용 패키지, 적외선 센서용 군수용 패키지 등을 개발·생산하고 있습니다. 적층 세라믹 제조 설비와 자체 조립·표면처리·검사 공정을 보유하며, 고열전도 소재 적용 등 소재·패키지 통합 역량을 갖추고 있습니다.",
+    "business_model": "주력은 화합물 반도체 패키지(반도체 소자 보호·방열 등 기능)이며, 2025년 기준 사업부문별 매출 비중은 통신용 패키지 약 33.9%, 레이저용 패키지 약 0.7%, 군수용 패키지 약 3.5%, 군수용 장비부품 약 51.0%, 제품기타 약 7.9%, 상품 기타 약 0.6%, 기타 약 2.3%로 구성됩니다. 당사는 적층 세라믹 기반 설계 기술과 Heat Sink(방열판) 등 신소재 적용, 조립·검사 공정을 통해 패키지 완제품을 생산하는 제조 중심 수익 구조를 가지고 있습니다.",
+    "main_customers": "통신용 패키지 — 알에프에이치아이씨㈜(한국), MACOM(미국), LUMENTUM(미국) / 레이저용 패키지 — DILAS(독일), IPG(독일), TRUMPF(독일), 이오테크닉스(한국) / 군수용 패키지 — I3SYSTEM(한국), SCD(이스라엘)",
+    "price_factors": [
+      {
+        "factor": "5G·데이터센터 수요",
+        "detail": "5G 확산 및 AI 데이터센터용 펌프레이저 수요 증가는 통신용·레이저용 패키지 매출에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "제품 기술성",
+        "detail": "밀폐성·방열성·내열성 등 기술 요건 충족 여부가 고객 채택과 납품 확대에 결정적 영향을 미칩니다."
+      },
+      {
+        "factor": "국제 경쟁",
+        "detail": "Kyocera·NGK·Egide 등 글로벌 경쟁업체 존재로 가격·품질 경쟁과 고객 다변화 압력이 발생합니다."
+      },
+      {
+        "factor": "군수·민수 전환",
+        "detail": "군수용 적외선 센서의 민수 적용 확대와 군수 레이저 모듈 수요는 군수용 관련 매출 변동요인이 됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "화합물 반도체 패키지 전문기업 알에프머트리얼즈는"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 (원문 테이블)",
+        "evidence_text": "통신용 패키지 | 21,753"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황 (통신용 패키지 설명)",
+        "evidence_text": "알에프에이치아이씨㈜(한국), MACOM(미국), LUMENTUM(미국)"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "라. 사업부문별 시장여건 및 영업의 개황 > (1) 산업의 특성 > 1) 통신용 패키지 사업부문",
+        "evidence_text": "5세대 이동통신(5G) 기술이 상용화 됨에 따라 데이터의 사용량은 비약적으로 증가하고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5462,
+    "completion_tokens": 4444,
+    "reasoning_tokens": 3520,
+    "output_tokens": 924
+  },
+  "warnings": []
+}

@@ -1,0 +1,82 @@
+{
+  "stock_code": "151860",
+  "corp_name": "KG에코솔루션",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 12:25",
+  "meta": {
+    "wics": "자동차",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "KG에코솔루션은 환경·에너지 및 신소재 부문 일부를 분할·매각하고 바이오에너지 중심으로 사업구조를 재편한 기업입니다. 2022년 이후 쌍용자동차(현 KG모빌리티) 계열 편입과 KG모빌리티홀딩스·KG스틸홀딩스 합병 등으로 연결범위가 확대되었으며, 별도기준으로는 지주회사 역할과 배당수익을 반영하고 있습니다.",
+    "business_model": "사업부문별 영업수익 구성(FY2025)은 89.3%와 10.7%로 표기되어 있으며, 당사는 바이오에너지 사업을 핵심으로 연간 21만kl 생산능력을 보유한 제조·공급 구조를 가지고 있습니다(바이오중유: 발전용 대체연료). 특허화된 이중순환형 제조기술을 통해 제조원가 절감과 공정효율화를 추구하고 있습니다.",
+    "main_customers": "바이오에너지 — 발전사(발전용 연료 수요처) / 철강 및 항만 — 자동차·가전·건설업체(강판·도장강판 수요처) / 자동차 제조 — 완성차 생산 및 관련 거래처",
+    "price_factors": [
+      {
+        "factor": "원재료가격",
+        "detail": "팜계 등 동·식물성 원료가격 변동은 제조원가와 마진에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "계절성",
+        "detail": "겨울철 원료의 고체화(융해비 발생)로 원료 비용이 상승하고 공급 차질이 생길 수 있습니다."
+      },
+      {
+        "factor": "정책(RPS)",
+        "detail": "RPS(신재생의무공급) 등 제도적 보급 추진은 발전사 수요에 영향을 미쳐 실적 변동요인이 됩니다."
+      },
+      {
+        "factor": "기술경쟁력",
+        "detail": "탈검·탈수 등 특허화된 제조기술은 공정비용 절감으로 경쟁력에 기여합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 영업 현황",
+        "evidence_text": "환경에너지사업 부문 및 신소재 사업부문은 2022년 5월 02일 물적분할하여 100%자회사인 분할신설회사인 코어엔텍㈜로 사업이 승계되었으며, 2022년 6월 21일 매각하여 해당 사업부문은 영업이 중단되었습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "89.27 (89.3%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. 산업의 특성",
+        "evidence_text": "연간 21만kl의 바이오중유 생산능력을 갖추고 있으며"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "[철강 및 항만 사업부문]",
+        "evidence_text": "자동차 차체, TV브라운관 및 컴퓨터 모니터용 부품, 냉장고 및 에어컨 부품"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "나. 산업의 성장성",
+        "evidence_text": "공급의무자인 발전사의 거시적인 도입을 추진하기 위하여"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "라. 계절성",
+        "evidence_text": "겨울철 원료의 특성상 저온에서 고체화로 변형되는 상황이 발생하여"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "마. 국내외 시장여건",
+        "evidence_text": "바이오중유는 약 10개 업체가 산업통상자원부에 제조업으로 등록되어"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5892,
+    "completion_tokens": 4754,
+    "reasoning_tokens": 3776,
+    "output_tokens": 978
+  },
+  "warnings": []
+}

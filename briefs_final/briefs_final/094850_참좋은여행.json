@@ -1,0 +1,62 @@
+{
+  "stock_code": "094850",
+  "corp_name": "참좋은여행",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 07:30",
+  "meta": {
+    "wics": "호텔,레스토랑,레저",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "참좋은여행은 패키지여행과 항공권 등 여행서비스와 해외특산품을 제공하는 여행사입니다. 고객 니즈에 맞춘 합리적 가격의 상품 공급과 고객만족 관리에 주력하는 기업입니다.",
+    "business_model": "매출 구조는 서비스(패키지여행·항공권 등)가 전체의 99.8%를 차지하고, 상품(해외특산품)은 0.2%를 차지합니다. 당사는 직접판매방식으로 유통비용을 절감해 가격경쟁력을 확보하고, 여행 전·중·후의 모니터링을 통한 고객만족 시스템을 운영하고 있습니다.",
+    "main_customers": "서비스 — 개인·단체 여행객(패키지여행·항공권) / 상품 — 여행이 어려운 소비자(해외특산품 구매자)",
+    "price_factors": [
+      {
+        "factor": "여행수요",
+        "detail": "출입국자 수 및 여가수요 증가·감소가 실적에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "환율·정세",
+        "detail": "국제정세 및 환율 변동은 여행수요와 비용 구조에 단기적 영향을 줍니다."
+      },
+      {
+        "factor": "가격경쟁력",
+        "detail": "직접판매를 통한 낮은 가격은 수요 확보에 유리하지만 마진 압박이 발생할 수 있습니다."
+      },
+      {
+        "factor": "경쟁심화",
+        "detail": "진입장벽이 낮아 유사 상품 제공업체가 많아지면 경쟁이 심화됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 이러한 변화에 부합하기 위하여 고객의 니즈를 반영한 패키지여행상품, 항공권 등의 여행서비스와 여행이 어려운 경우 간접적으로 여행의 기분을 느낄 수 있는 해외특산품을 보다 합리적인 가격으로 제공하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "서비스: 80,639 (99.8%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "상품: 174 (0.2%)"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3589,
+    "completion_tokens": 3358,
+    "reasoning_tokens": 2752,
+    "output_tokens": 606
+  },
+  "warnings": []
+}

@@ -1,0 +1,64 @@
+{
+  "stock_code": "475830",
+  "corp_name": "오름테라퓨틱",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 20:44",
+  "meta": {
+    "wics": "제약",
+    "market": "KOSDAQ",
+    "has_revenue_data": false,
+    "tier": 4,
+    "tier_mode": "best_effort_summary",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "오름테라퓨틱은 ADC(항체약물접합체)와 TPD(표적단백질분해)를 융합한 DAC(항체-분해약물접합체) 기반의 TPD² 플랫폼을 개발하는 신약개발 바이오텍입니다. GSPT1 표적의 TPD²-GSPT1 플랫폼을 중심으로 항암 신약 후보물질을 연구·개발하고 있으며, 기술이전 실적(ORM-6151 매각 등)과 기술이전 계약을 통해 사업을 확장하고 있습니다.",
+    "business_model": "단일(주력) 사업으로는 TPD²(이중 정밀 표적단백질 분해) 기반의 신약 후보물질 연구개발 및 이를 통한 기술이전(라이선스)·자문용역 수익 창출을 영위합니다. 자체 개발한 페이로드(저분자 단백질 분해제), 항체, 링커 기술을 결합해 파이프라인을 확보하고, 기술이전 및 파트너십을 통해 상업화 전 수익을 확보하는 구조입니다.",
+    "main_customers": "신약개발(기술이전·라이선스) — 글로벌 제약사·기술이전 파트너 / 연구개발·임상·생산 위탁 — CRO(임상시험수탁기관)·CDMO(위탁생산기관)",
+    "price_factors": [
+      {
+        "factor": "기술이전 리스크",
+        "detail": "기술이전 금액(마일스톤·로열티) 반환 가능성 또는 미수령 시 실적과 현금흐름에 부정적 영향을 미칩니다."
+      },
+      {
+        "factor": "임상·규제 리스크",
+        "detail": "비임상·임상시험과 규제 승인 과정의 지연 또는 실패는 개발 기간 연장과 비용 증가로 실적에 영향을 줍니다."
+      },
+      {
+        "factor": "위탁기관 의존",
+        "detail": "CRO·CDMO 등의 수행능력 문제나 생산 지연은 임상 일정과 기술이전 시점에 부정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "암시장 수요",
+        "detail": "AML·SCLC 등 고부가가치 암 적응증의 시장 확대는 기술이전 가치와 장기 성장성에 긍정적 요인이 됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "당사는 ADC(항체약물접합체)와 TPD(표적단백질 분해) 기술을 융합한 차세대 DAC 플랫폼(이중 정밀 표적단백질 분해 접근법, TPD²)을 기반으로 신약 개발에 주력하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 ADC(항체약물접합체, Antibody-Drug Conjugate)의 높은 표적 특이성과 효율적인 약물 전달 능력, 그리고 TPD(표적단백질분해, Targeted Protein Degradation)기술의 표적 단백질 분해 기능을 결합한 TPD²...기술을 개발했습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "당사는 별도의 임상수행시설 및 GMP 제조시설 등을 보유하고 있지 않은 연구개발 중심의 신약개발업을 영위하고 있습니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 8180,
+    "completion_tokens": 4968,
+    "reasoning_tokens": 4096,
+    "output_tokens": 872
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "stock_code": "394280",
+  "corp_name": "오픈엣지테크놀로지",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 18:46",
+  "meta": {
+    "wics": "반도체와반도체장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "오픈엣지테크놀로지는 2017년 설립된 시스템반도체 설계 IP(지적재산) 개발 기업으로, 엣지(저전력·소형) 환경에서 동작하는 AI 구현을 목표로 합니다. NPU(신경망처리장치)와 고성능 메모리 시스템을 통합한 AI 플랫폼 IP를 주력으로 제공합니다.",
+    "business_model": "사업부문별로 라이선스(67.6%), 유지/보수(26.1%), 로열티(0.6%), 기타(5.6%)로 매출이 구성되며, 핵심 수익원은 라이선스 및 유지/보수입니다. 당사는 NPU, On-chip Interconnect, Memory Interface 등 통합된 'AI Platform IP Solution'과 'OPENEDGES MEMORY SUBSYSTEM' 등 메모리 관련 IP로 라이선스와 유지보수 수익을 창출합니다.",
+    "main_customers": "라이선스 — 시스템반도체 칩 개발사(글로벌 Tier-1 포함) / 유지/보수 — 라이선스 보유 고객(칩 개발사) / 로열티 — IP를 도입한 반도체 개발사 / 기타 — 당사와 거래하는 기업·기관",
+    "price_factors": [
+      {
+        "factor": "AI수요",
+        "detail": "생성형 AI·온디바이스 AI 확산으로 엣지용 지능형 반도체 수요가 증가하면 당사의 IP 수요 증대로 연결될 수 있습니다."
+      },
+      {
+        "factor": "개발비",
+        "detail": "칩 개발 비용의 급증은 Ready‑Made·Turn‑key IP 솔루션 수요를 높여 당사에 기회로 작용할 수 있습니다."
+      },
+      {
+        "factor": "메모리수요",
+        "detail": "고대역폭 메모리(HBM) 등 메모리 기술 수요 확대는 메모리 인터페이스·컨트롤러 IP 수요에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "신뢰도",
+        "detail": "Tier‑1 고객사와의 트랙레코드가 신규 수주와 계약 체결에서 중요한 판단 요소로 작용합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "AI Platform IP Solution for Edge Computing"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "- 라이선스: 10,858 (67.6%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "글로벌 Tier-1 기업을 고객사로 확보하였으며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "마. 시장여건 및 영업의 개황 > (1) 시장의 특성",
+        "evidence_text": "인공지능 컴퓨팅을 위한 차세대 지능형 반도체로의 패러다임 전환"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5996,
+    "completion_tokens": 3774,
+    "reasoning_tokens": 3008,
+    "output_tokens": 766
+  },
+  "warnings": []
+}

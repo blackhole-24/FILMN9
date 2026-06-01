@@ -1,0 +1,97 @@
+{
+  "stock_code": "080580",
+  "corp_name": "오킨스전자",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 06:07",
+  "meta": {
+    "wics": "반도체와반도체장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "오킨스전자는 1998년 설립되어 반도체 검사용 소켓 제조(BiTS 사업부)와 반도체 테스트 용역(반도체 사업부)을 주력으로 영위하는 기업입니다. 국내 최초로 번인 소켓(Burn-In Socket)을 개발해 국산화했으며, 국내 주요 반도체 기업에 소켓을 공급하며 사업 기반을 확대해 왔습니다.",
+    "business_model": "매출의 약 88.8%는 반도체검사용 소켓 제조(제품매출: Burn-in Socket, Test Socket 등)가 차지하고, 약 7.5%는 반도체 테스트(패키지·웨이퍼 테스트) 용역, 나머지 3.7%는 수리·임대 등 기타 매출로 구성됩니다. Spring Pin·MEMS Probe Pin 등 접촉부품을 직접 개발·양산하여 제품군을 보완하고 있습니다.",
+    "main_customers": "반도체검사용 소켓 제조 — 국내 주요 반도체 기업 및 국내외 반도체 관련업체 / 반도체 테스트 — 비메모리 반도체를 설계하는 팹리스(Fabless) 업체",
+    "price_factors": [
+      {
+        "factor": "기술고도화",
+        "detail": "고속 신호 무결성·열 안정성·미세 Pitch 대응 능력 등 기술요구 증가는 소켓의 경쟁력과 실적에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "수요사이클",
+        "detail": "거시경제 및 IT 투자 사이클 변동이 반도체 투자를 통해 소켓 및 테스트 수요에 영향을 줍니다."
+      },
+      {
+        "factor": "고성능메모리",
+        "detail": "고대역폭 메모리(HBM) 등 고성능 메모리 수요 증가는 서버·AI 관련 소켓 수요를 확대할 수 있습니다."
+      },
+      {
+        "factor": "가격구조",
+        "detail": "신규 개발품은 초기 개발비 반영으로 단가가 높다가 개발비 회수 후 가격이 하락하는 구조가 수익성에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "반도체 검사용 소켓 제조 사업 (BiTS 사업부) 과 반도체 테스트 용역 사업 (반도체 사업부)"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "당사는 1998년 설립 이래 국내 최초로 번인 소켓 (Burn-In Socket) 을 개발"
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. 주요제품등의 현황",
+        "evidence_text": "83,798(88.8%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. 주요제품등의 현황",
+        "evidence_text": "7,060(7.5%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. 주요제품등의 현황",
+        "evidence_text": "3,516(3.7%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "영업의 범위는 비메모리 반도체를 설계하는 팹리스(Fabless) 업체를 대상으로 하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "업계의 현황 1) 반도체 검사용 소켓",
+        "evidence_text": "고속 신호 무결성(Signal Integrity)"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "업계의 현황 1) 반도체 검사용 소켓",
+        "evidence_text": "고대역폭 메모리(HBM, High Bandwidth Memory)"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "업계의 현황 1) 반도체 검사용 소켓",
+        "evidence_text": "거시경제 및 IT 투자 사이클에 따라 변동될 수 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나. 주요 제품 등의 가격변동추이",
+        "evidence_text": "신규 개발품의 수량에 따라 일반적으로 부가가치가 상승하락을 반복하는 구조를 가지고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4686,
+    "completion_tokens": 5095,
+    "reasoning_tokens": 4032,
+    "output_tokens": 1063
+  },
+  "warnings": []
+}

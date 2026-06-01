@@ -1,0 +1,77 @@
+{
+  "stock_code": "003720",
+  "corp_name": "삼영",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 18:38",
+  "meta": {
+    "wics": "화학",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "삼영은 필름형 커패시터(콘덴서의 핵심소재)를 제조·판매하는 화학기업으로, 커패시터 필름 분야에서 국내 유일이자 세계 3위 생산업체로 자리하고 있습니다. AI 데이터센터·전기차·신재생에너지 등 전력 안정화가 중요한 성장산업을 주요 시장으로 삼아 기술집약적 제품을 공급하고 있습니다.",
+    "business_model": "핵심은 커패시터 필름 제조(전력전자용 고내열·고신뢰성 필름)이며, AI 데이터센터용 PSU·UPS, 전기차 인버터 등 전력변환 장치에 납품하는 것이 주된 수익원입니다. 사업부문별 매출 구성에서 BOPP(포장용 필름)는 19.7%(- BOPP: 30,220 (19.7%)), 선박엔진프레임은 13.8%(- 선박엔진프레임: 21,084 (13.8%))를 차지하며, 회사는 초박막·고내열 하이엔드 제품 비중을 확대해 수익성을 제고하려 하고 있습니다.",
+    "main_customers": "커패시터 사업부 — AI 데이터센터·친환경자동차(BEV·HEV·PHEV)·UAM·드론·로봇·철도·선박 등 전력을 사용하는 장치 제조업체 / BOPP 사업부 — 포장재 수요처(동남아 등) / 선박엔진프레임(조선기자재) — 조선사·선박 엔진 부품 수요처",
+    "price_factors": [
+      {
+        "factor": "AI 데이터센터 수요",
+        "detail": "AI 데이터센터의 연평균 높은 성장률로 커패시터 필름 수요가 급증하면 실적(매출) 증가에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "전동화(친환경차)",
+        "detail": "전기차·UAM 등 고전압 전력변환 장치 수요 확대는 초박막 커패시터 필름 수요를 늘려 영업실적에 긍정적으로 작용합니다."
+      },
+      {
+        "factor": "제품 포트폴리오(고부가)",
+        "detail": "초박막·고내열 등 하이엔드 제품 비중 확대는 원가 경쟁 속에서 이익률(마진) 방어에 기여합니다."
+      },
+      {
+        "factor": "조선기자재 경기",
+        "detail": "조선업 슈퍼사이클 및 조선기자재 수주 확대는 선박엔진프레임 등 관련 부문의 실적에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "1) 커패시터 사업부문",
+        "evidence_text": "커패시터 필름은 국내 유일, 세계3위 생산업체로서"
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 영업수익 구성 (FY2025, 백만원,%)",
+        "evidence_text": "- BOPP: 30,220 (19.7%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 영업수익 구성 (FY2025, 백만원,%)",
+        "evidence_text": "- 선박엔진프레임: 21,084 (13.8%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "1) 커패시터 사업부문",
+        "evidence_text": "AI 데이터센타 산업"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성 — price_factors 참고용",
+        "evidence_text": "AI 데이터센터 시장은 연평균 25%~35% 수준"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "초박막·고내열 하이엔드 제품 비중을 극대화하겠습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5032,
+    "completion_tokens": 5096,
+    "reasoning_tokens": 4096,
+    "output_tokens": 1000
+  },
+  "warnings": []
+}

@@ -1,0 +1,81 @@
+{
+  "stock_code": "228670",
+  "corp_name": "레이",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:29",
+  "meta": {
+    "wics": "건강관리장비와용품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "레이는 2004년 설립된 치과용 디지털 X-ray 영상진단 장비 기업으로, 디지털 진단시스템과 디지털 치료솔루션을 함께 개발·판매하고 있습니다. 매출의 대부분이 해외에서 발생하며, 13개국에 판매거점을 운영하면서 글로벌 치과 장비·솔루션 기업으로 자리잡고 있습니다.",
+    "business_model": "레이의 핵심 사업은 디지털 진단시스템과 디지털 치료솔루션입니다. 사업부문별 영업수익 기준으로 디지털 진단시스템 & 디지털 치료솔루션이 57.0%, 직접판매가 40.0%, 내수가 2.0%를 차지합니다. 디지털 치료솔루션에는 3차원 스캔 솔루션, 치과용 CAD(컴퓨터 기반 설계) 솔루션, 치과용 CAM(컴퓨터 기반 제조) 솔루션이 포함되며, 치과 진단부터 치료·제작까지의 과정을 디지털화하는 구조입니다.",
+    "main_customers": "디지털 진단시스템 — 치과 / 디지털 치료솔루션 — 병원·치과·치기공소 / 직접판매 — 해외 및 국내 고객 / 내수 — 국내 치과·의료기관",
+    "price_factors": [
+      {
+        "factor": "해외수요",
+        "detail": "매출의 대부분이 해외에서 발생해 미주·유럽·아태 지역의 치과 장비 수요가 실적에 큰 영향을 줍니다."
+      },
+      {
+        "factor": "금리환경",
+        "detail": "금리인하가 더딜수록 치과 병의원의 CBCT(콘빔 CT) 같은 자본장비 구매가 위축될 수 있습니다."
+      },
+      {
+        "factor": "보호무역",
+        "detail": "관세와 각국의 보호무역 기조가 강화되면 해외 판매와 유통에 부담이 커질 수 있습니다."
+      },
+      {
+        "factor": "중국경쟁",
+        "detail": "중국 내 내수부진과 민영치과 위축이 이어질 경우 CBCT 가격경쟁이 심해져 실적에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "신제품효과",
+        "detail": "5D와 같은 신제품이 선진 시장에서 호응을 얻으면 매출 확대에 직접적으로 기여할 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "나. 회사의 현황 1) 영위 사업 개요",
+        "evidence_text": "주식회사 레이는 2004년 설립 후 치과용 디지털 X-ray 영상진단 장비를 개발하여 생산 및 판매를 시작하였습니다."
+      },
+      {
+        "field": "company_overview",
+        "source_section": "나. 회사의 현황 1) 영위 사업 개요",
+        "evidence_text": "총 13개국에 판매거점을 운영하고 있으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "디지털 진단시스템 & 디지털 치료솔루션: 63,901 (57.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "직접판매: 40,264 (40.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "내 수: 2,763 (2.0%)"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나. 회사의 현황 1) 영위 사업 개요",
+        "evidence_text": "매출의 대부분이 해외에서 발생하고 있으며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4899,
+    "completion_tokens": 907,
+    "reasoning_tokens": 0,
+    "output_tokens": 907
+  },
+  "warnings": []
+}

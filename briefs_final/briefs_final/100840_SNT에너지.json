@@ -1,0 +1,87 @@
+{
+  "stock_code": "100840",
+  "corp_name": "SNT에너지",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 07:56",
+  "meta": {
+    "wics": "에너지장비및서비스",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "SNT에너지는 공랭식 열교환기(AIR COOLER), 배열회수보일러(HRSG), 복수기 및 SCR(SELECTIVE CATALYST REDUCTION) 등 플랜트용 열교환·환경설비를 설계·생산하는 기업입니다. 석유화학·정유·가스 플랜트와 복합화력·열병합·원자력 발전소 등 에너지·화공 플랜트를 주요 적용처로 두고 있습니다.",
+    "business_model": "매출은 수주 기반의 플랜트 장비 생산에서 발생하며, FY2025 기준 AIR COOLER(공랭식 열교환기)가 매출의 88.9%, HRSG(배열회수보일러)가 9.1%, SCR 설비(질소산화물 저감설비)가 2.0%를 차지합니다. 수주산업의 특성상 풍부한 수주잔고 확보와 견실한 재무구조, 고도의 설계·제작 기술이 핵심 경쟁요소입니다.",
+    "main_customers": "AIR COOLER — 석유화학·OIL 및 GAS 플랜트 / HRSG — 복합화력발전소·집단에너지시설·발전사업자 / SCR 설비 — 화력발전소·열병합발전소·제철소",
+    "price_factors": [
+      {
+        "factor": "원자재비",
+        "detail": "원자재 및 운송 비용 상승은 제조원가를 높여 실적과 이익률에 직접적인 압박을 줍니다."
+      },
+      {
+        "factor": "유가·환율",
+        "detail": "유가 및 환율 변동은 수주 진행과 프로젝트 비용 구조에 영향을 미쳐 매출 변동성으로 이어질 수 있습니다."
+      },
+      {
+        "factor": "수주지연",
+        "detail": "중동 등 주요 시장의 프로젝트 지연은 수주·납기 일정에 영향을 주어 단기 실적에 부정적입니다."
+      },
+      {
+        "factor": "환경규제",
+        "detail": "전세계적 환경규제 강화는 SCR 등 환경설비 수요를 견인하되, 설계 수준과 인증이 중요한 경쟁요소가 됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "공랭식 열교환기와 배열회수보일러, 복수기 및 SCR설비 등을 설계 및 생산하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "AIR COOLER: 539,017 (88.9%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "HRSG: 54,919 (9.1%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "SCR 설비: 12,184 (2.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "공랭식열교환기는 석유화학, OIL 및 GAS플랜트 등에서"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "배열회수보일러는 복합화력발전소 및 집단 에너지시설에서"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "SCR설비는 화력발전소와 열병합발전소 및 제철소"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "원자재 및 운송 비용이 높은 수준으로 유지되고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4385,
+    "completion_tokens": 4211,
+    "reasoning_tokens": 3200,
+    "output_tokens": 1011
+  },
+  "warnings": []
+}

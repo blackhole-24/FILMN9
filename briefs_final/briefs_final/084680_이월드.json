@@ -1,0 +1,101 @@
+{
+  "stock_code": "084680",
+  "corp_name": "이월드",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 06:27",
+  "meta": {
+    "wics": "섬유,의류,신발,호화품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "이월드는 테마파크 '이월드'를 운영하는 테마파크 사업과 'LLOYD' 등 쥬얼리(골드·실버), 시계·패션 잡화를 제조·판매하는 쥬얼리 사업을 영위하는 기업입니다. 2025년 기준 쥬얼리와 테마파크를 양축으로 매출을 창출하는 중견 사업구조를 가지고 있습니다.",
+    "business_model": "주요 사업부문은 테마파크사업부와 쥬얼리사업부로 구성되며, FY2025 기준 테마파크사업부가 24.6%, 식음료수입 5.6%, 상품수입 2.3%, 기타수입 3.1%, 쥬얼리사업부가 63.3%, 기타매출 1.1%의 영업수익 비중을 보였습니다(괄호 안은 비중). 테마파크는 토지·건물 등 장치산업 성격의 자산 기반이 크고, 쥬얼리사업은 대리점·온라인 등 유통 채널을 통해 제품 판매가 이루어집니다.",
+    "main_customers": "테마파크사업부 — 중/고등학생 이하 자녀를 보유한 25~54세의 가족성 고객 / 쥬얼리사업부 — 대리점·온라인을 통한 일반 소비자(리테일 고객)",
+    "price_factors": [
+      {
+        "factor": "초기투자비",
+        "detail": "테마파크의 막대한 초기 투자비용으로 자본 회수기간이 길어지면 실적·현금흐름에 부담을 줄 수 있습니다."
+      },
+      {
+        "factor": "어트랙션 수명",
+        "detail": "소프트웨어(콘텐츠) 이용주기가 짧아 지속적 시설·콘텐츠 투자가 없으면 방문객 흥미 유지에 어려움이 생깁니다."
+      },
+      {
+        "factor": "입지(지역성)",
+        "detail": "테마파크는 입지와 배후시장 규모에 민감해 지역 특성에 따라 방문객 수·매출에 차별적 영향을 받습니다."
+      },
+      {
+        "factor": "인건비",
+        "detail": "노동집약적 운영 특성상 인건비 비중 증가는 영업비용 상승으로 이어져 수익성에 직접적 영향을 미칩니다."
+      },
+      {
+        "factor": "소비심리/날씨",
+        "detail": "쥬얼리 소비심리 약화나 우천·기상 영향 등으로 방문객·구매율이 감소하면 매출에 즉각적 하방 압력이 발생합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "테마파크 이월드를 운영하는 테마파크 사업부문"
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "쥬얼리사업부: 56,154,440 (63.3%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "테마파크사업부: 21,834,388 (24.6%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "중/고등학생 이하 자녀를 보유한 주요 고객군(25~54세의 가장)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "대리점 및 온라인 집중을 통한"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "테마파크사업부 — 산업의 특성",
+        "evidence_text": "테마파크의 건설에는 막대한 초기 투자비용이 소요됩니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "테마파크사업부 — 산업의 특성",
+        "evidence_text": "소프트웨어 부문의 이용주기가 상대적으로 짧은 편입니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "테마파크사업부 — 산업의 특성",
+        "evidence_text": "테마파크는 노동집약형 산업으로 인건비 비중이 매우 높습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "잦은 우천과 주말 날씨의 영향으로 매출이 감소함"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "쥬얼리 부문에서 코로나 이후 소비심리 둔화"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4952,
+    "completion_tokens": 4228,
+    "reasoning_tokens": 3008,
+    "output_tokens": 1220
+  },
+  "warnings": []
+}

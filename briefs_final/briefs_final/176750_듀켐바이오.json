@@ -1,0 +1,72 @@
+{
+  "stock_code": "176750",
+  "corp_name": "듀켐바이오",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 10:49",
+  "meta": {
+    "wics": "제약",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "듀켐바이오는 암과 뇌질환을 표적으로 진단·치료용 방사성의약품을 개발·제조·판매하는 전문 제약기업입니다. 국내에서 PET-CT용 방사성의약품을 가장 많은 품목으로 보유하고 있으며, 2025년 연결기준 매출 386억원, 영업이익 74억원을 기록하는 등 사업 규모를 키워왔습니다.",
+    "business_model": "핵심 사업은 진단용 및 치료용 방사성의약품의 연구개발과 제조·공급으로, 주요 제품으로는 FDG(암 진단용), FP-CIT(파킨슨 진단용), 뉴라체크·비자밀(베타아밀로이드 치매 진단용) 등이 있습니다. GMP 인증 제조소 6곳을 포함한 총 12곳의 제조소 기반으로 제품을 생산·공급하며, 2024년 라디오디앤에스랩스 지분 100% 인수로 R&D 역량을 별도 법인으로 이관해 연구개발을 강화하고 있습니다.",
+    "main_customers": "FDG — 병원·의료기관(암 진단용 PET-CT) / FP-CIT — 신경과·영상의학과 중심의 병원·의료기관(파킨슨 진단용) / 뉴라체크·비자밀 — 병원·임상시험 수행기관 및 제약사(알츠하이머 베타아밀로이드 진단 및 임상용)",
+    "price_factors": [
+      {
+        "factor": "규제·GMP",
+        "detail": "방사성의약품 제조는 원자력안전법과 KGMP 기준을 만족해야 해 시설·허가 요건과 점검이 실적·공급에 직접 영향."
+      },
+      {
+        "factor": "치매치료제",
+        "detail": "레캄비·도나네맙 등 치매 치료제의 허가·임상 확대로 베타아밀로이드 진단제 수요가 확대되어 매출에 긍정적 영향."
+      },
+      {
+        "factor": "생산인프라",
+        "detail": "GMP 인증 제조소와 다수 품목 보유는 안정적 공급과 시장 점유에 유리하나 설비·운영비가 실적에 영향."
+      },
+      {
+        "factor": "무역·환율",
+        "detail": "국가 간 무역장벽과 환율·금리 변동성은 수출·원가에 영향을 미쳐 실적 변동성을 키울 수 있음."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "현재 국내에서 PET-CT용 방사성의약품 최다 품목을 보유하고 있으며,"
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황",
+        "evidence_text": "GMP(의약품 제조 및 품질관리 기준) 인증을 획득한 제조소 6곳을 포함하여 총 12곳의 제조소를 갖추고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황",
+        "evidence_text": "㈜라디오디앤에스랩스의 100% 지분 인수를 완료하였습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "나. 주요 제품의 내용",
+        "evidence_text": "용도 포도당 대사를 하는 모든 종양의 진단"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "나. 주요 제품의 내용",
+        "evidence_text": "용도 뇌의 선조체에 존재하는 도파민운반체의 밀도를 측정하여 파킨슨병및 파킨슨 증후군을 진단"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 6118,
+    "completion_tokens": 4759,
+    "reasoning_tokens": 3840,
+    "output_tokens": 919
+  },
+  "warnings": []
+}

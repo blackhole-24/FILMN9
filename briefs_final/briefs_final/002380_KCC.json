@@ -1,0 +1,62 @@
+{
+  "stock_code": "002380",
+  "corp_name": "KCC",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 18:00",
+  "meta": {
+    "wics": "건축자재",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "KCC는 1958년 창사 이래 건축 자재, 도료, 실리콘 및 첨단소재를 생산하는 종합정밀화학 기업입니다. 2025년 연결기준 매출은 6조 4,838억원으로 건자재·도료 등 중후장대(자본집약적) 산업에서 안정적인 사업기반을 갖추고 있습니다.",
+    "business_model": "주요 영업부문은 건자재, 도료, 실리콘 및 기타로 구분되며, 2025년 연결기준으로 도료 부문은 매출의 29.46%를 차지하고 건자재 부문은 14.91%의 매출비중을 차지합니다. 건자재는 석고보드·단열재·PVC 창호 등 건축 내외장재 중심, 도료는 건축·자동차·선박·공업용 등 다품종 고부가 제품 위주, 실리콘은 자동차·전기전자 등 응용처 확대를 통해 수익을 창출합니다.",
+    "main_customers": "건자재 — 건축·산업·선박·패널용 수요자 / 도료 — 건설업체, 자동차·조선·전자업체 및 가정용 일반 소비자 / 실리콘 — 생활용품 소비자 및 자동차·전기전자·의료용 산업",
+    "price_factors": [
+      {
+        "factor": "경기민감성",
+        "detail": "건자재·도료·실리콘 모두 글로벌·국내 경제성장률과 환율 등 거시지표 변화에 민감해 수요 변동이 실적에 직접적 영향을 미칩니다."
+      },
+      {
+        "factor": "원자재·환율",
+        "detail": "도료 등은 원재료의 수입 비중이 높아 원자재 가격, 환율 및 유가 변동이 원가와 수익성에 큰 영향을 줍니다."
+      },
+      {
+        "factor": "주택·정책",
+        "detail": "국내 주택경기 둔화, 가계대출·금리 변화 및 정부의 부동산 정책 등은 건자재 수요와 실적에 하방압력으로 작용할 수 있습니다."
+      },
+      {
+        "factor": "환경규제",
+        "detail": "VOC 규제, EU REACH 등 강화되는 화학물질·환경 규제는 친환경(저VOC·High Solid) 제품 개발 필요성과 비용·시장구조 변화로 연결됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "[DART 사업보고서 — 영업 현황]",
+        "evidence_text": "주요 영업부문을 건자재, 도료, 실리콘, 기타 부문으로 구분하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[DART 사업보고서 — 영업 현황]",
+        "evidence_text": "전체 매출액 중 14.91%의 매출비중"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[DART 사업보고서 — 영업 현황]",
+        "evidence_text": "전체 매출액 중 29.46%의 매출비중"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5273,
+    "completion_tokens": 3852,
+    "reasoning_tokens": 3072,
+    "output_tokens": 780
+  },
+  "warnings": []
+}

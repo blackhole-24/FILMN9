@@ -1,0 +1,73 @@
+{
+  "stock_code": "003680",
+  "corp_name": "한성기업",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 18:36",
+  "meta": {
+    "wics": "식품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "한성기업은 해외부문(수산사업)과 식품부문(식품사업)을 주사업으로 하는 종합식품 기업입니다. 최근에는 해외부문 매출이 수출 감소로 전년 동기 대비 6,928백만원(약 6.9%) 감소하였고, 식품부문 매출도 전년 동기 대비 7,038백만원(약 3.1%) 감소했습니다.",
+    "business_model": "주요 사업부문은 해외부문(선박에서 어획한 수산물의 매출·수입판매·현지 법인과의 중계무역·수출), 식품부문(당사 공장 및 관계기업에서 생산한 수산가공식품의 생산·판매), 기타부문(임대업)으로 구성되어 있습니다. 수산사업은 원양어업과 수산물 유통을 중심으로 운영되며, 식품사업은 수산 및 육가공 식품의 생산·판매가 핵심 수익원입니다.",
+    "main_customers": "해외부문 — 현지 법인 및 수출시장 / 식품부문 — 핵심 유통경로와 거래처(유통업체 등) / 기타부문 — 임대업의 임차인",
+    "price_factors": [
+      {
+        "factor": "어획환경",
+        "detail": "자연환경 변화에 따른 어획량 증감은 매출에 막대한 영향을 줍니다."
+      },
+      {
+        "factor": "환율·유가",
+        "detail": "환율 및 유가 변동은 조업비용과 수익성에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "어획쿼터",
+        "detail": "쿼터축소·금어기·입어료 등 규제는 조업환경과 실적에 제약을 줄 수 있습니다."
+      },
+      {
+        "factor": "선박노후",
+        "detail": "원양어선의 노후화는 조업 효율과 비용구조에 부담을 줄 수 있습니다."
+      },
+      {
+        "factor": "소비·유통트렌드",
+        "detail": "온라인·모바일 유통 확대와 소비 패턴 변화는 식품부문 판매 채널과 제품 기획에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "당사는 해외부문인 수산사업과 식품부문인 식품사업을 주사업으로 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "수산사업은 원양어업과 수산물의 유통사업을 중심으로 운영되며, 식품사업은 수산 및 육가공 식품의 생산, 판매가 주를 이루고 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "사업부문별 매출",
+        "evidence_text": "선박에서 어획한 수산물의 매출 및 수산물의 수입판매, 현지 법인과의 중계무역"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 사업부문별 현황 <해외부문> (3) 경기변동의 특성",
+        "evidence_text": "원양산업의 경기는 자연환경 변화에 의한 어획량 증감, 환율 및 유가 변동"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4691,
+    "completion_tokens": 4562,
+    "reasoning_tokens": 3712,
+    "output_tokens": 850
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

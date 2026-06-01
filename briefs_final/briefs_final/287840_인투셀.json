@@ -1,0 +1,69 @@
+{
+  "stock_code": "287840",
+  "corp_name": "인투셀",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 15:04",
+  "meta": {
+    "wics": "제약",
+    "market": "KOSDAQ",
+    "has_revenue_data": false,
+    "tier": 4,
+    "tier_mode": "best_effort_summary",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "인투셀은 항체-약물접합체(ADC) 분야의 링커와 약물을 연구하는 ADC 플랫폼기술 기업으로, OHPAS 링커와 PMT 등 링커·약물 중심의 원천기술을 보유하고 있습니다. 자체 파이프라인(ITC-6146RO)을 포함한 플랫폼 기반 연구개발을 주력으로 하고 있습니다.",
+    "business_model": "인투셀은 ADC 플랫폼 기술을 단일 주력사업으로 영위하며, 사업부문별 매출 구성은 사업보고서상 별도 제시되지 않습니다. 수익모델은 보유한 원천기술의 기술이전(라이선스아웃) 또는 플랫폼을 적용한 후보물질의 비임상·초기임상 단계에서의 기술이전을 통해 창출하는 구조입니다.",
+    "main_customers": "플랫폼 기술 라이선스 — 글로벌 제약사·항체 개발사 / 기술검증·공동연구 파트너 — 항체를 연구개발하는 기업 및 제약·바이오 회사",
+    "price_factors": [
+      {
+        "factor": "시장성장",
+        "detail": "글로벌 ADC 시장의 고성장(예상 CAGR 약 11%)은 기술가치와 기술이전 규모 확대에 긍정적으로 작용할 수 있습니다."
+      },
+      {
+        "factor": "임상진행",
+        "detail": "자체 및 고객사 파이프라인의 임상 진척(IND 승인·임상데이터 확보)은 기술사업화 기회와 계약 규모에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "대형사 투자",
+        "detail": "대형 제약사의 인수·제휴(예: Seagen 인수 등)와 적극적 투자 증가는 플랫폼 기술의 수요와 L/O(기술이전) 가격에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "원재료비·환율",
+        "detail": "연구용 시약 및 실험소모품 대부분이 수입 품목이라 원재료 가격 상승 및 환율 변동은 연구개발비용에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 항체-약물접합체(Antibody-Drug Conjugate) 분야의 링커와 약물을 연구하는 ADC 플랫폼기술 기업입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "당사는 ADC 플랫폼 기술을 연구개발하는 기업으로, 플랫폼기술의 기술이전 혹은 플랫폼기술을 적용한 후보물질의 비임상 및 초기임상 단계 기술이전을 통해 수익을 창출하는 사업모델을 갖고 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "판매경로 및 판매전략",
+        "evidence_text": "파트너사 후보들과 비밀준수계약(Confidential Disclosure Agreement, CDA)를 맺고 당사의 핵심 원천기술과 파이프라인에 대한 심도깊은 미팅을 진행합니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "ADC 시장 규모는 2024년 약 111억 달러에서 2033년 약 285억 달러로 성장할 것으로 전망되며, 연평균 성장률(CAGR) 약 11%에 해당하는 높은 성장세입니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 8061,
+    "completion_tokens": 3735,
+    "reasoning_tokens": 2880,
+    "output_tokens": 855
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "stock_code": "042000",
+  "corp_name": "카페24",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 01:37",
+  "meta": {
+    "wics": "IT서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "카페24는 1999년 설립되어 온라인 쇼핑몰 구축부터 결제·물류·마케팅 연계까지 원스톱 이커머스 솔루션과 서비스를 제공하는 IT 플랫폼 기업입니다. 1인 창업자부터 인플루언서, 중대형 기업까지 약 200만 곳의 판매자가 플랫폼을 이용하고 있으며, B2B형 수익모델을 통해 제휴사와의 선순환 생태계를 운영하고 있습니다.",
+    "business_model": "핵심은 EC플랫폼과 인프라(호스팅)로, 2025 회계연도 사업부문별 영업수익은 인터넷비즈니스솔루션 77.6%, 의류 10.4%, 운송 12.0%로 구성되어 있습니다. EC플랫폼은 결제솔루션, EC솔루션, 공급망서비스, 마케팅솔루션 등으로 세분화되어 판매자(셀러)에게 플랫폼·부가서비스를 연결하는 방식으로 수익을 창출합니다.",
+    "main_customers": "인터넷비즈니스솔루션 — 온라인 판매자(1인 창업자·인플루언서·중대형 기업) / 인프라(웹·서버호스팅) — 웹/서버호스팅 서비스를 이용하는 온라인 비즈니스 운영자",
+    "price_factors": [
+      {
+        "factor": "네트워크효과",
+        "detail": "사용자(판매자)가 많아질수록 플랫폼의 경쟁력이 강화되어 서비스 확장과 수익성에 긍정적 영향을 미칩니다."
+      },
+      {
+        "factor": "온라인소비",
+        "detail": "온라인 쇼핑 거래 비중 확대는 GMV(총거래액) 및 플랫폼 사용 증가로 연결되어 영업수익 성장에 기여합니다."
+      },
+      {
+        "factor": "파트너십",
+        "detail": "Google·틱톡 등 글로벌 플랫폼과의 제휴 확대는 신규 판매채널(숏폼, 유튜브 쇼핑 등) 확대로 서비스 활용도를 높입니다."
+      },
+      {
+        "factor": "AI확산",
+        "detail": "AI 보편화에 따른 플랫폼 고도화 및 BPaaS(성과 중심 서비스) 전환은 운영 자동화·고부가가치 서비스 경쟁력에 영향을 줍니다."
+      },
+      {
+        "factor": "규제·보안",
+        "detail": "전기통신·전자상거래·전자금융 관련 법규와 정보보호(ISMS) 인증 요구는 운영·신규서비스 도입 시 준수 비용과 리스크로 작용할 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "원스톱 이커머스 솔루션과 서비스를 제공하는 IT 플랫폼 기업입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "인터넷비즈니스솔루션: 244,208 (77.6%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "1인 창업자부터 인플루언서, 중대형 기업"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "다. 주요사업별 시장여건 및 영업의 개황",
+        "evidence_text": "사용자 참여가 많아질수록 네트워크 효과가 극대화됩니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5103,
+    "completion_tokens": 3601,
+    "reasoning_tokens": 2752,
+    "output_tokens": 849
+  },
+  "warnings": []
+}

@@ -1,0 +1,66 @@
+{
+  "stock_code": "092190",
+  "corp_name": "서울바이오시스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 07:16",
+  "meta": {
+    "wics": "디스플레이장비및부품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "서울바이오시스는 UV부터 Red·Green·Blue·IR·레이저 다이오드·VCSEL까지 포함한 광범위한 광 반도체(LED) 포트폴리오를 보유하고 칩부터 모듈에 이르는 토탈솔루션을 전세계 고객에게 제공하는 전기·전자 기업입니다. 글로벌 6개의 R&D센터와 미국·베트남·중국에 위치한 3개의 연결자회사를 통해 생산 인프라를 운영하며, 약 7,000여 개의 특허로 핵심 기술을 보호하고 있습니다.",
+    "business_model": "FY2025 기준 사업부문별 영업수익은 LED가 30.5%, 기타가 69.5%로 구성되어 있습니다. LED 부문은 자동차용 광소자, IT back light display, 조명 적용을 중심으로 수익을 창출하며, 기타에는 UV LED·VCSEL·마이크로LED 등 고부가가치 제품과 모듈·시스템 솔루션이 포함됩니다.",
+    "main_customers": "LED — 자동차 제조사·디스플레이 패널업체·조명기기 제조사 / 기타 — 가전업체(살균가전 등)·의료·바이오 관련 기업·인쇄·코팅업체·반도체 장비업체·3D센싱·데이터센터·AR/VR·자율주행 관련 기업",
+    "price_factors": [
+      {
+        "factor": "기술경쟁력",
+        "detail": "마이크로LED·VCSEL 등 고난도 기술 확보 여부가 제품 채택과 시장지위를 좌우하여 실적에 직접 영향합니다."
+      },
+      {
+        "factor": "제조경쟁력",
+        "detail": "대량생산 기술 확보와 수율(공정 효율) 개선이 원가·품질에 영향을 주어 수익성에 중요합니다."
+      },
+      {
+        "factor": "원가경쟁력",
+        "detail": "원가 구조와 생산 효율성에 따라 가격경쟁력 및 마진이 달라집니다."
+      },
+      {
+        "factor": "지적재산권",
+        "detail": "약 7,000여 개 특허와 R&D 투자(매출의 약 10% 수준)는 시장 진입장벽과 라이선스 기회를 좌우합니다."
+      },
+      {
+        "factor": "환율",
+        "detail": "수출·해외법인 비중이 높아 원·달러 환율 변동이 연결 실적에 중요한 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 글로벌 6개의 R&D센터, 3개의 연결자회사로 구성되어 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "LED: 233,267 (30.5%)"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 나. 회사의 현황 (3) 시장점유율",
+        "evidence_text": "세계 최초로 당사가 개발한 UV LED는 현재까지 시장점유율 1위를 기록하고 있으며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4997,
+    "completion_tokens": 4691,
+    "reasoning_tokens": 3904,
+    "output_tokens": 787
+  },
+  "warnings": []
+}

@@ -1,0 +1,69 @@
+{
+  "stock_code": "330730",
+  "corp_name": "스톤브릿지벤처스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 16:38",
+  "meta": {
+    "wics": "창업투자",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "스톤브릿지벤처스는 중소기업창업투자회사로 등록된 벤처캐피탈(VC)로, 벤처투자조합과 PEF 결성을 통해 중소벤처기업에 대한 투자를 주력으로 하는 기업입니다. 현재 18개 펀드를 운용하며 총 출자약정액 1조 3,947억원 규모의 펀드 AUM(운용자산총액)을 보유하고 있으며, AI 관련 밸류체인에 선제적으로 투자해온 점이 특징입니다.",
+    "business_model": "주요 수익원은 조합 운영에 따른 관리보수, 출자비율에 따른 투자수익 배분, 기준수익률 초과분에 대한 성과보수 및 회사 자체 자본투자를 통한 투자수익 등으로 구성됩니다. 펀드 조성과 운용을 통해 관리보수와 성과보수가 발생하며, 현재 18개 펀드(벤처조합 14개, PEF 4개)의 운용을 바탕으로 AUM을 확대해 나가고 있습니다.",
+    "main_customers": "자본(투자) — 중소벤처기업(피투자회사) / 펀드 운영 — 조합 출자자(출자약정자)",
+    "price_factors": [
+      {
+        "factor": "회수 실적",
+        "detail": "IPO·세컨더리·M&A 등 회수(엑시트)가 늘면 펀드 성과보수 및 지분법이익 증가로 실적 개선에 직접 연결됩니다."
+      },
+      {
+        "factor": "신규 펀드 조성",
+        "detail": "신규 펀드 조성 규모와 시점은 향후 투자재원과 관리보수 기반에 영향을 미칩니다."
+      },
+      {
+        "factor": "AI 투자 회수",
+        "detail": "AI 관련 투자잔액(약 3천억원)의 회수 진행은 펀드 청산과 회사 영업실적에 탄력을 줄 수 있습니다."
+      },
+      {
+        "factor": "관리·성과보수",
+        "detail": "관리보수 감소 또는 성과보수 수령 증가는 회사의 영업수익과 영업이익에 즉각적 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "벤처캐피탈(Venture Capital, VC)입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황",
+        "evidence_text": "당사의 수익구조는 1) 조합을 결성하고 운영하는 대가로 수취하는 관리보수"
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업실적(1) 펀드운영 현황",
+        "evidence_text": "18개 펀드의 총 출자약정액은 1조 3,947억원 입니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "중소벤처기업 투자를 주력 사업으로 영위하고 있는"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 2992,
+    "completion_tokens": 5687,
+    "reasoning_tokens": 4928,
+    "output_tokens": 759
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

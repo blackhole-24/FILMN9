@@ -1,0 +1,86 @@
+{
+  "stock_code": "101730",
+  "corp_name": "위메이드맥스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 08:08",
+  "meta": {
+    "wics": "게임엔터테인먼트",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "위메이드맥스는 모바일·PC 온라인 게임의 개발과 공급을 주력으로 하는 게임사로, 자체 개발 콘텐츠를 국내외에 서비스하며 여러 게임 개발 자회사를 보유하고 있습니다. 블록체인 게임과 IP(지식재산권) 사업 확장에 주력하며 신작 출시와 전략적 투자를 통해 성장 기반을 마련하고 있습니다.",
+    "business_model": "핵심 수익은 게임 서비스(부분유료화)와 IP 라이선스에서 발생하며, FY2025 기준 사업부문별 매출 비중은 모바일게임 35.4%, PC온라인게임 15.1%, 기타 1.7%로 구성되어 있습니다. 자체 개발·퍼블리싱 역량과 자회사 투자를 통한 신작 공급, 블록체인 게임 서비스 및 IP 사업화가 주요 수익 활동입니다.",
+    "main_customers": "모바일게임 — 국내 및 해외 게임 이용자 / PC온라인게임 — 국내 및 해외의 충성도 높은 이용자층 / 기타 — 라이선스(제3자 라이선시) 및 기타 수익처",
+    "price_factors": [
+      {
+        "factor": "흥행변동성",
+        "detail": "게임 흥행 성과에 따라 수익 변동성이 커져 실적에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "플랫폼정책",
+        "detail": "플랫폼 사업자의 수수료 정책 및 관련 법령 변화가 수익 구조와 운영비용에 영향을 줍니다."
+      },
+      {
+        "factor": "해외시장",
+        "detail": "해외 서비스 성과와 지역별 수요 변동에 따라 매출 규모와 성장 기회가 달라집니다."
+      },
+      {
+        "factor": "IP라이선스",
+        "detail": "라이선스 계약 조건·갱신 여부에 따라 로열티 수익이 변동될 수 있습니다."
+      },
+      {
+        "factor": "환율리스크",
+        "detail": "외화표시 자산·부채의 환율 변동이 재무구조와 실적에 영향을 미칠 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 > 영업 현황",
+        "evidence_text": "모바일 및 PC온라인게임의 개발과 공급을 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "모바일게임: 52,621 (35.4%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "PC온라인게임: 22,434 (15.1%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "기타: 2,554 (1.7%)"
+      },
+      {
+        "field": "MD&A",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "전년 대비 98.5% 성장하였습니다."
+      },
+      {
+        "field": "MD&A",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "전년 대비 502.2% 감소하였습니다."
+      },
+      {
+        "field": "MD&A",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "매드엔진 주식교환에 따른 PPA 상각비는 매 분기 약 63억원"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5606,
+    "completion_tokens": 5730,
+    "reasoning_tokens": 4864,
+    "output_tokens": 866
+  },
+  "warnings": []
+}

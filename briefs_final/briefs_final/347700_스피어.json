@@ -1,0 +1,77 @@
+{
+  "stock_code": "347700",
+  "corp_name": "스피어",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 17:03",
+  "meta": {
+    "wics": "우주항공과국방",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "스피어는 원래 2012년 9월 설립된 의료정보기술과 인공지능(AI) 기반의 디지털 헬스케어 플랫폼 전문기업이며, 2025년 비상장 우주항공 사업체와의 합병을 통해 우주항공 특수합금 공급 사업을 본격화한 기업입니다. 2025년 연결기준으로 우주항공 특수합금 중심의 매출이 크게 확대되며 영업이익이 흑자 전환되었습니다.",
+    "business_model": "사업부문별 FY2025 매출 구성은 우주항공사업 특수합금 등 공급이 99.0%, 디지털헬스케어 기술플랫폼이 0.6%, 건강기능식품·메디컬 디바이스 등이 0.1%로 구성되어 있으며(사업부문별 매출 구성), 핵심 수익원은 고내열·내식성 등 고사양 특수합금을 글로벌 외주 네트워크를 통해 OEM(주문자상표부착생산) 방식으로 제조·공급하는 우주항공사업입니다. 디지털 헬스케어 플랫폼은 AI 기반의 진단·예측 등 서비스 라인업을 유지하고 있습니다.",
+    "main_customers": "우주항공사업 — 글로벌 민간 우주항공기업(로켓·발사체 제조사) / 디지털헬스케어 기술플랫폼 — 의료정보·AI 기반 서비스 수요처(의료·헬스케어 관련 기관·사업자) / 건강기능식품·메디컬디바이스 — 국내외 유통 채널을 통한 소비자·유통업체",
+    "price_factors": [
+      {
+        "factor": "우주산업 성장",
+        "detail": "발사 서비스 확대·위성 배치 증가로 특수합금 수요가 확대되어 실적에 긍정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "상업화 전환",
+        "detail": "민간 주도의 상업 부문(발사·데이터·통신) 성장이 우주 관련 부품·소재 수요를 견인합니다."
+      },
+      {
+        "factor": "공급망·품질 역량",
+        "detail": "고사양 소재의 공급망 통합·품질·추적성 확보 역량이 경쟁력으로 작용하며 수주·가격에 영향합니다."
+      },
+      {
+        "factor": "발사사업자 영향",
+        "detail": "대형 발사사업자의 재사용·저비용 전략은 발사 빈도 증가를 유도하나 공급 조건·경쟁구조 변화를 초래할 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "디지털 헬스케어 플랫폼전문기업"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "합병을 통해 우주항공 특수합금 사업을 영위하고 있으며, 2025년 영업이익이 흑자 전환되었습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "우주항공사업 특수합금 등 공급: 79,209,963 (99.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "디지털헬스케어 기술플랫폼: 446,551 (0.6%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "[우주항공사업]",
+        "evidence_text": "글로벌 외주 생산 네트워크를 활용하여 OEM 방식으로 제조, 고객사에게 공급하고 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "[건강기능식품 사업]",
+        "evidence_text": "국내외 유통 채널 확보를 통해 글로벌 시장에 대비하고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5839,
+    "completion_tokens": 5145,
+    "reasoning_tokens": 4160,
+    "output_tokens": 985
+  },
+  "warnings": []
+}

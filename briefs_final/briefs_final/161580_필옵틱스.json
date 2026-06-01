@@ -1,0 +1,91 @@
+{
+  "stock_code": "161580",
+  "corp_name": "필옵틱스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 10:36",
+  "meta": {
+    "wics": "전자장비와기기",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "필옵틱스는 OLED 디스플레이용 레이저 가공 장비를 양산하는 디스플레이·장비 전문 기업으로, Laser Cutting, Laser Lift Off, UTG 가공 장비 등 레이저 기반 장비를 주요 제품으로 합니다. 반도체 글라스 패키징 장비, 태양광 및 이차전지 공정장비로 제품군을 확장하며 다각화된 장비 포트폴리오를 보유하고 있습니다.",
+    "business_model": "사업부문별 FY2025 기준 매출 구성은 OLED 디스플레이 52.6%, 반도체 공정장비 11.7%, 이차전지 공정장비 32.1%, 기타 3.6%로 구성되며(각 비중은 [사업부문별 매출 구성] 기반), 핵심 수익원은 OLED 디스플레이용 레이저 가공 장비와 이차전지·반도체용 레이저 기반 공정장비입니다. 레이저 응용 기술을 바탕으로 디스플레이에서 반도체·배터리·태양광 장비까지 공급처를 확대하고 있습니다.",
+    "main_customers": "OLED 디스플레이 — 디스플레이 패널 제조사 / 반도체 공정장비 — 반도체 패키징·제조업체 / 이차전지 공정장비 — 배터리(이차전지) 제조업체 / 태양광 장비 — 태양광 셀·모듈 제조사",
+    "price_factors": [
+      {
+        "factor": "전방투자",
+        "detail": "전방 산업의 투자 위축이나 고객사의 설비 도입 지연은 수주와 매출에 직결되어 실적에 상당한 영향을 미칩니다."
+      },
+      {
+        "factor": "반도체수요",
+        "detail": "AI 등 고성능 컴퓨팅 수요에 따른 반도체 패키징 수요 확대는 유리기판 패키징 장비 수요 증대로 이어질 수 있습니다."
+      },
+      {
+        "factor": "이차전지경쟁",
+        "detail": "글로벌 배터리 산업의 경쟁과 투자 기조 변화는 이차전지 장비 수요 변동성으로 연결됩니다."
+      },
+      {
+        "factor": "태양광기술",
+        "detail": "차세대 태양전지(Perovskite·Tandem) 기술 상용화는 관련 장비 수요와 매출 구조에 영향을 줍니다."
+      },
+      {
+        "factor": "환율",
+        "detail": "외화표시 자산·부채로 인한 환율변동은 실적의 변동성을 확대할 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "세계 최초 OLED 디스플레이 Laser 가공 표준 설비를 양산"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "OLED 디스플레이: 54,426 (52.6%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "반도체 공정장비: 12,151 (11.7%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "이차전지 공정장비: 33,194 (32.1%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "기타: 3,670 (3.6%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "국내외 주요 고객사에 공급 중에 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "전방 산업의 투자 위축과 고객사의 차세대 반도체 공정 도입 지연"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "마. 환율변동의 영향",
+        "evidence_text": "외화표시 자산 및 부채의 환율변동에 의한 리스크"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4668,
+    "completion_tokens": 4857,
+    "reasoning_tokens": 3776,
+    "output_tokens": 1081
+  },
+  "warnings": []
+}

@@ -1,0 +1,62 @@
+{
+  "stock_code": "124500",
+  "corp_name": "아이티센글로벌",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:19",
+  "meta": {
+    "wics": "IT서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "아이티센글로벌은 아이티센 그룹의 지속가능경영과 미래사업 개발을 총괄하는 지배회사입니다. 경영·투자, 웹3, IT서비스의 3개 축으로 그룹을 운영하며, 2025년 FY2025 기준 매출 구성에서 웹3 부문 비중이 가장 큽니다.",
+    "business_model": "사업부문별 영업수익은 웹3 부문 8,153,035(87.2%), IT서비스부문 1,191,564(12.8%), 경영·투자 부문 1,928(0.0%)으로 구성됩니다. 경영·투자 부문은 계열사 경영관리와 전략적 투자를 담당하고, 웹3 부문은 금·은 등 실물 귀금속 제조·유통을 디지털 전환해 블록체인 기술과 결합한 서비스를 제공합니다. IT서비스 부문은 시스템 통합·운영 노하우에 클라우드, 인공지능(AI), 보안 기술을 더한 토털 IT 서비스를 제공합니다.",
+    "main_customers": "경영·투자 — 계열사 및 투자 대상 기업 / 웹3 — 디지털자산·STO(토큰증권)·스테이블코인 관련 시장 / IT서비스 — 고객의 비즈니스 혁신을 원하는 기업 고객",
+    "price_factors": [
+      {
+        "factor": "규제정비",
+        "detail": "가상자산·STO(토큰증권) 관련 제도 정비 속도에 따라 웹3 사업의 유통 환경과 성장 여건이 달라집니다."
+      },
+      {
+        "factor": "보안이슈",
+        "detail": "웹3는 보안 이슈에 민감한 산업이라 사고 발생 시 사업 신뢰도와 확장성에 부담이 될 수 있습니다."
+      },
+      {
+        "factor": "제도편입",
+        "detail": "스테이블코인과 디지털자산의 제도권 편입이 확대되면 웹3 관련 사업 기회가 커질 수 있습니다."
+      },
+      {
+        "factor": "기술속도",
+        "detail": "기술 변화 속도가 빠른 산업 특성상 클라우드, AI, 블록체인 역량을 얼마나 빠르게 적용하느냐가 중요합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 아이티센 그룹의 지속가능경영과 미래사업 개발을 총괄하는 지배회사입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "웹3 부문: 8,153,035 (87.2%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "IT서비스부문: 1,191,564 (12.8%)"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5222,
+    "completion_tokens": 708,
+    "reasoning_tokens": 0,
+    "output_tokens": 708
+  },
+  "warnings": []
+}

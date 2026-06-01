@@ -1,0 +1,76 @@
+{
+  "stock_code": "004590",
+  "corp_name": "한국가구",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 18:51",
+  "meta": {
+    "wics": "식품과기본식료품소매",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "한국가구는 1966년 클래식 명품가구 제조로 출발하여 현재는 유럽·일본의 고급 가구 브랜드와 독점 제휴를 통해 Roche Bobois, Kartell, MDF, Flou, Time & Style 등 해외 최고급 브랜드를 수입·판매하는 회사입니다. 계열사 제원인터내쇼날을 통해 베이커리 원료 등 식품 관련 도매사업도 병행하고 있습니다.",
+    "business_model": "핵심은 수입·유통 중심의 가구 판매로, FY2025 사업부문별 영업수익 구성은 소파류 39.4%, 식당류 24.1%, 거실류 13.0%, 소품류 9.8%, 침실류 2.2%, 서재류 1.0%, 기타 10.5%입니다. 추가로 제원인터내쇼날을 통해 초콜릿·과실류·유제품 등 베이커리 원료를 수입하여 도매·공급하는 사업을 운영합니다.",
+    "main_customers": "소파류·거실류·침실류 — 신혼부부·신규 주택·개인 소비자(고소득층 및 젊은 세대) / 식당류·소품류 — 백화점·전문 수입가구 매장 및 온라인 플랫폼을 이용하는 일반 소비자 / 제원인터내쇼날(원료) — 국내 도매상, 제과점, 호텔·레스토랑·카페",
+    "price_factors": [
+      {
+        "factor": "환율·물류",
+        "detail": "수입 비중이 높아 환율 상승과 국제 해상·항공 운임 상승이 원가와 실적에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "브랜드 가치",
+        "detail": "브랜드·디자이너 제품은 브랜드 가치에 따라 가격 변동 폭이 커 실적 변동성에 영향을 줍니다."
+      },
+      {
+        "factor": "원자재 가격",
+        "detail": "제원인터내쇼날의 경우 코코아·버터·곡물 등 국제 원자재가 변동 시 판매가격과 원가에 영향을 줍니다."
+      },
+      {
+        "factor": "경기 민감성",
+        "detail": "가구는 내구소비재로 경기 호황 시 수요 증가, 불황 시 구매 연기 등으로 실적이 변동합니다."
+      },
+      {
+        "factor": "유통 채널 경쟁",
+        "detail": "온라인 채널·직구·병행수입 확대와 대형 유통 채널의 경쟁 심화가 판매·가격 경쟁력에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "1966년부터 우리나라를 대표하는 클래식 명품가구 제조로 시작하여"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "소파류: 6,963 (39.4%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "특히 신혼부부와 신규 주택 시장이 주요 소비층"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사의 상품은 프랑스, 이태리등 대부분 해외에서 직수입하고 있으며"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "국내 도매상과 제과점을 비롯한, 호텔, 레스토랑, 카페등에 공급"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5045,
+    "completion_tokens": 3801,
+    "reasoning_tokens": 2880,
+    "output_tokens": 921
+  },
+  "warnings": []
+}

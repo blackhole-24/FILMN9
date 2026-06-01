@@ -1,0 +1,62 @@
+{
+  "stock_code": "143540",
+  "corp_name": "영우디에스피",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 10:16",
+  "meta": {
+    "wics": "디스플레이장비및부품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "영우디에스피는 디스플레이 및 반도체 장비(검사장비 포함)를 개발·제조하는 기업으로, 단일 연구개발 조직 아래 장비 제조·판매를 주력 사업으로 운영하고 있습니다. 2025년 연결기준 매출액은 805억 원, 영업이익은 59억 원을 기록하는 등 최근 매출 확대와 수익성 개선을 보였습니다. 또한 ISO 14001 환경경영시스템 인증을 취득하여 환경관리 체제도 운영하고 있습니다.",
+    "business_model": "당사는 반도체·LCD·OLED 장비의 제조·판매를 단일 사업부문으로 운영하며(FY2025 영우디에스피 영업수익 100.0%), 검사장비 중심의 기술개발과 납품(주문형 제작)에 따른 수주 기반 매출이 핵심 수익원입니다. 제품은 고객 요구 사양에 따라 주문 제작되는 경우가 많아 모델·가격이 획일화되어 있지 않습니다.",
+    "main_customers": "장비(반도체·LCD·OLED) — 디스플레이 패널 제조업체, 반도체 제조업체",
+    "price_factors": [
+      {
+        "factor": "산업 사이클",
+        "detail": "디스플레이 제품 수요의 경기민감성으로 장비 수주와 매출이 투자 시기별로 크게 변동될 수 있습니다."
+      },
+      {
+        "factor": "기술 전환",
+        "detail": "OLED 등 차세대 디스플레이로의 전환 확대는 검사·제조장비 수요 구조를 재편할 가능성이 있습니다."
+      },
+      {
+        "factor": "투자발주 타이밍",
+        "detail": "패널 제조사의 투자계획에 따른 발주 타이밍(수주 시기)에 의해 실적 변동성이 발생합니다."
+      },
+      {
+        "factor": "원재료비 영향",
+        "detail": "유가·금리·환율 변동이 원재료비에 영향을 미쳐 수익성에 직간접적 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A) > 가. 영업의 개황",
+        "evidence_text": "결과 2025년 연결기준 매출액은 805억 원, 영업이익은 59억 원을 기록하였습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황 > (4) 장비산업",
+        "evidence_text": "OLED 및 반도체 장비 제조 및 판매 단일 부문으로 운영하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황 > (3) 장비산업 국내외 시장 여건",
+        "evidence_text": "디스플레이제품은 경기변동에 민감한 내구성 소비재"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4641,
+    "completion_tokens": 3862,
+    "reasoning_tokens": 3136,
+    "output_tokens": 726
+  },
+  "warnings": []
+}

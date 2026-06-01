@@ -1,0 +1,67 @@
+{
+  "stock_code": "162300",
+  "corp_name": "신스틸",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 10:38",
+  "meta": {
+    "wics": "철강",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "신스틸은 2008년 9월 설립된 철강코일센터(Steel Service Center, SSC) 기업으로, 칼라강판 등 강판류를 고객 요구에 맞게 절단(Slitting)·전단(Shearing)하여 판매하는 것을 주요 사업으로 영위하고 있습니다. 국내에 다수의 계열회사와 함께 태국·멕시코 법인을 보유하여 해외 시장 개척과 글로벌 고객기반 확대를 추진하고 있습니다.",
+    "business_model": "주력 사업은 철강코일센터(SSC)로서 강판류의 절단·전단 가공과 유통·보관 서비스를 제공하여 부가가치를 창출하는 구조입니다. 또한 철강재 상품 유통을 통해 확보한 고객에게 가공서비스까지 제공하는 것을 목표로 하고 있으며, 사업부문 구성 중 기타는 0.0%로 보고되어 있습니다.",
+    "main_customers": "칼라강판(가공·유통) — 국내 및 글로벌 가전제품 제조업체(LG전자, 삼성전자 등) / 철강유통·보관서비스 — 수요업체(건설·조선·기계 등 전방 산업의 제조업체)",
+    "price_factors": [
+      {
+        "factor": "가전업황",
+        "detail": "칼라강판 수요는 가전제품(에어컨·냉장고 등) 시장에 민감해 가전 업황 변동이 실적에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "통상·환율",
+        "detail": "수출·원재료 수입 관련 환율 변동 및 보호무역(관세) 기조가 매출과 원가에 영향을 주어 실적 변동성을 높입니다."
+      },
+      {
+        "factor": "계절성",
+        "detail": "에어컨용 칼라강판은 지역별 성수기가 달라 전반적 계절성은 완화되나 특정 지역 수요 변동은 실적에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "경쟁심화",
+        "detail": "철강코일센터 내 대형 제조업체 대리점과 독립센터 간 경쟁이 치열해 가격·영업 조건 변화가 수익성에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 2008년 09월 설립 이후 현재까지 칼라 강판을 비롯한 강판류 및 기타 철강재를 ... 철강코일센터(Steel Service Center, SSC)비지니스를 주요 사업으로 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "이외에 해외 신시장 진출 및 해외 고객 기반을 넓히기 위해 철강재의 상품유통 및 보관서비스를 함께 제공하고 있으며, ... 궁극적으로 철강재의 가공서비스까지 제공하는 것을 목표로 하고 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "당사의 주요 제품은 에어컨, 냉장고 등 일반생활가전제품의 외장재로 쓰이는 칼라도장강판으로 실제 수요자는 LG전자, 삼성전자 등의 국내 메이커 가전제품 제조업체 및 글로벌 로컬 가전제품 제조업체 입니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "당사는 상품, 제품 수출 및 원재료 수입거래와 관련하여 환율변동위험에 노출되어 있으며, ... 통화선도 등의 파생상품을 거래하고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4669,
+    "completion_tokens": 3547,
+    "reasoning_tokens": 2624,
+    "output_tokens": 923
+  },
+  "warnings": []
+}

@@ -1,0 +1,77 @@
+{
+  "stock_code": "054920",
+  "corp_name": "한컴위드",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 03:31",
+  "meta": {
+    "wics": "비철금속",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "한컴위드는 PKI(공개키기반구조), 간편인증, 생체인증 등 암호기술 기반의 보안 솔루션과 서비스를 제공하는 보안 전문 기업이며, 보안과 블록체인 기반 플랫폼 사업으로 영역을 확장해 왔습니다. 연결 종속회사인 한컴금거래소를 통해 실물 금 유통과 디지털 금 거래 플랫폼 사업도 병행하고 있습니다. 2019년 사명을 한컴시큐어에서 한컴위드로 변경하며 그룹 내 기술 연계와 사업 다각화를 추진하고 있습니다.",
+    "business_model": "FY2025 기준 사업부문별 영업수익은 SW 0.3%, 기타 97.7%, 임대 0.7%로 기타가 대부분을 차지합니다. 보안 부문은 라이선스·용역 형태의 보안 소프트웨어(통합 간편인증, PKI, AI·PQC 탑재 제품 등)를 제공하고, 한컴금거래소를 통한 실물 금 유통 및 디지털 플랫폼이 연결 수익을 창출합니다.",
+    "main_customers": "보안사업부문 — 정부 기관·기업·공공 및 금융 시장 / 귀금속사업부문 — 실물 금 도매업체 및 P2P·디지털 플랫폼 이용자",
+    "price_factors": [
+      {
+        "factor": "양자내성암호",
+        "detail": "PQC(양자내성암호) 등 차세대 암호 기술 채택 여부가 보안 제품의 경쟁력과 고부가가치 전환에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "금시세·환율",
+        "detail": "금 관련 유통은 국제 금 시세 및 환율에 실시간 연동되어 매출·이익 변동성이 커집니다."
+      },
+      {
+        "factor": "인증·규제",
+        "detail": "GS인증 등 인증 획득과 공공·금융 시장 규제 충족 여부가 공공·금융시장 진출과 수주에 영향을 줍니다."
+      },
+      {
+        "factor": "계약구조",
+        "detail": "보안 소프트웨어는 고객별 개별 계약·파트너사 경로로 수익이 발생하므로 계약형태에 따른 수익성 차이가 발생합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "보안사업부문_한컴위드",
+        "evidence_text": "당사는 PKI, 간편인증, 생체인증 및 암호기술 기반의 보안 솔루션과 서비스를 제공하는"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "SW: 2,501 (0.3%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "기타: 753,125 (97.7%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "임대: 5,627 (0.7%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "보안사업부문_한컴위드",
+        "evidence_text": "AI 기반 안면인식 솔루션인 ‘한컴오스(Hancom Auth)’가 2025년 7월 GS인증 1등급을 획득하며 공공 및 금융 시장 진출의 발판을 마련하였고"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "귀금속사업부문_한컴금거래소",
+        "evidence_text": "당사의 종속회사인 한컴금거래소는 금 유통 노하우를 바탕으로"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4296,
+    "completion_tokens": 4704,
+    "reasoning_tokens": 3776,
+    "output_tokens": 928
+  },
+  "warnings": []
+}

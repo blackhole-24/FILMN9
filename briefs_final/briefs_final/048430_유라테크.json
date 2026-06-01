@@ -1,0 +1,72 @@
+{
+  "stock_code": "048430",
+  "corp_name": "유라테크",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 02:28",
+  "meta": {
+    "wics": "자동차부품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "유라테크는 자동차용 점화코일·점화플러그를 제조·판매하는 자동차부품 전문업체입니다. 주요 고객으로 현대·기아자동차와 현대모비스 등을 두어 안정적인 매출 기반을 확보하고 있습니다. 중국 현지에서 원자재 소싱을 담당하는 무역법인과 베트남 임가공법인을 통해 공급망과 생산능력을 운영하고 있습니다.",
+    "business_model": "주요 수익은 점화부품(총매출의 75.6%), 와이어링하네스(9.1%), 기타(15.3%)로 구성되어 점화부품이 핵심 사업부문입니다. 제품의 판매가격은 완성차 제조사(MAKER)의 신차종 양산 이전에 결정되며, 완성차의 구매단가 인하·설계변경·당사 생산성 향상 등에 따라 가격이 변동됩니다. 또한 중국 현지 원자재 확보와 베트남 임가공(부품 가공)을 통해 원가 경쟁력 및 공급망을 관리하고 있습니다.",
+    "main_customers": "점화부품 — 현대·기아자동차·현대모비스 등 / 와이어링하네스 — 현대·기아자동차·현대모비스 등 / 기타 — 현대·기아자동차·현대모비스 등",
+    "price_factors": [
+      {
+        "factor": "OEM 단가",
+        "detail": "완성차 제조사의 구매단가 인하나 설계변경이 발생하면 제품 판매가격과 이익에 직접적인 하방 압력을 줍니다."
+      },
+      {
+        "factor": "환율",
+        "detail": "환율 변동은 원자재 수입원가를 높여 원가상승으로 이어지고, 보고서상 매출감소와 원가상승으로 수익이 악화된 사례가 있습니다."
+      },
+      {
+        "factor": "생산물량",
+        "detail": "글로벌 자동차 생산·판매량 변동은 부품 수요에 직결되므로 생산물량 감소 시 매출에 부정적 영향을 미칩니다."
+      },
+      {
+        "factor": "무역규제",
+        "detail": "국제 관세·무역환경(예: 미국 고관세 등) 악화는 수출 여건을 어렵게 만들어 수출 비중에 따른 실적 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "당사는 자동차용 점화코일, 점화 플러그를 제조 판매하는 자동차부품전문업체 입니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "주요 고객으로 현대/기아자동차, 현대모비스 등으로 안정적인 매출이 이루어 지고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "총 매출액의 75.6%를 차지하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "와이어링하네스: 18,003 (9.1%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "기타: 30,118 (15.3%)"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5529,
+    "completion_tokens": 4057,
+    "reasoning_tokens": 3200,
+    "output_tokens": 857
+  },
+  "warnings": []
+}

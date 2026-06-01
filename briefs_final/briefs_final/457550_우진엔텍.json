@@ -1,0 +1,67 @@
+{
+  "stock_code": "457550",
+  "corp_name": "우진엔텍",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 20:08",
+  "meta": {
+    "wics": "에너지장비및서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "우진엔텍은 2013년 설립된 원자력·화력발전소 계측제어설비 정비 전문기업으로, 발전소 설비의 진단·성능개선 등 정비 서비스와 국산 시스템 제작·공급에 주력하고 있습니다. 발전소 경상정비·계획예방정비·시운전공사 등 정비 전반을 수행하는 전문업체입니다.",
+    "business_model": "주요 매출은 용역 중심으로 구성되며, 2025년 기준 용역 매출 중 원자력 비중은 56.33%, 화력 비중은 42.72%이며 제품 매출 비중은 0.95%입니다. 핵심은 계측제어설비(계측기기 및 제어시스템) 정비용역(경상정비·계획예방정비·시운전공사)과 발전소에 필요한 국산 부품·시스템의 제작·공급입니다.",
+    "main_customers": "용역(원자력) — 원자력 발전사업자(발전사) / 용역(화력) — 화력 발전사업자(발전사) / 제품 — 발전소 운영자(발전사·발전소 현장)",
+    "price_factors": [
+      {
+        "factor": "정부정책",
+        "detail": "정부의 신규원전 건설·원전 계속운전 추진 시 발전정비 수요가 증가하여 실적에 영향을 미칩니다."
+      },
+      {
+        "factor": "부품국산화",
+        "detail": "해외 공급 중단에 따른 국산 부품 수요 확대는 제품·공급 매출 증가로 연결될 수 있습니다."
+      },
+      {
+        "factor": "전력수요",
+        "detail": "발전설비 용량 및 전력수요 증가 시 발전정비시장 규모가 확대되어 수혜가 예상됩니다."
+      },
+      {
+        "factor": "진입장벽",
+        "detail": "높은 기술·자격 요건으로 신규 경쟁 진입이 제한되어 안정적인 수주 기반 형성에 유리합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "원자력 및 화력발전소 계측제어설비 정비전문기업"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "원자력 25,238(56.33%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "나. 주요 서비스 등의 가격변동추이 및 가격변동원인",
+        "evidence_text": "원자력 및 화력발전소를 대상으로 정비 서비스를 제공하는 것입니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "국산화 부품 및 시스템 개발 성공 시"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5217,
+    "completion_tokens": 4624,
+    "reasoning_tokens": 3904,
+    "output_tokens": 720
+  },
+  "warnings": []
+}

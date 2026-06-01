@@ -1,0 +1,77 @@
+{
+  "stock_code": "019170",
+  "corp_name": "신풍제약",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 22:25",
+  "meta": {
+    "wics": "제약",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "신풍제약은 의약품의 연구·개발과 제조·판매를 영위하는 제약회사로, 제네릭(복제약) 비중이 높은 국내 환경에서 글로벌 신약개발 및 개량신약·퍼스트제네릭 출시를 병행하고 있습니다. 당기 매출은 234,681백만원, 당기 영업이익은 14,255백만원을 기록하며 실적이 개선되었습니다.",
+    "business_model": "단일 사업부문인 의약품제조·판매가 핵심이며, FY2025 기준 사업부문별 영업수익은 기타 74.3%, 제조 5.1%, 말라리아 치료제 5.4%, 관절기능개선제 3.9%, 호르몬성항암제 3.7%, 고지혈증복합제 3.2%, 고혈압복합제 2.4%, 비스테로이드성소염진통제 1.9%로 구성되어 있습니다.",
+    "main_customers": "의약품제조 — 국내 시장(제네릭 중심) 및 해외 병원·유통망",
+    "price_factors": [
+      {
+        "factor": "규제 민감성",
+        "detail": "정부의 제품 개발·유통 규제와 정책 변화에 따라 허가·유통 조건이 달라져 실적에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "제네릭 경쟁",
+        "detail": "제네릭 제품이 매출의 대부분을 차지하는 구조에서 경쟁 심화는 가격과 마진 압박으로 이어질 수 있습니다."
+      },
+      {
+        "factor": "신약 개발 성과",
+        "detail": "글로벌 신약개발과 개량신약 출시 성과가 가시화되면 매출 다변화와 수익성 개선에 기여할 수 있습니다."
+      },
+      {
+        "factor": "해외시장 환경",
+        "detail": "해외(예: 베트남)에서의 규제 강화 및 병원 입찰 경쟁 심화는 현지 매출과 마진에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "(1) 회사의 현황1) 시장여건 및 영업의 개황 (연결기준)",
+        "evidence_text": "당기 매출은 234,681백만원"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "(1) 회사의 현황1) 시장여건 및 영업의 개황 (연결기준)",
+        "evidence_text": "당기 영업이익은 14,255백만원을 기록하였습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "기    타: 121,463 (74.3%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "제조: 12,034 (5.1%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "(2) 해외 종속기업의 현지 업계의 현황1) 신풍대우파마(유)",
+        "evidence_text": "병원 입찰 규모는 확대되었지만"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "1. 산업의 특성 (1) 국내 업계의 현황",
+        "evidence_text": "따라서 정부의 정책에 민감하게 반응하는 산업이기도 합니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5096,
+    "completion_tokens": 4903,
+    "reasoning_tokens": 4032,
+    "output_tokens": 871
+  },
+  "warnings": []
+}

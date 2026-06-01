@@ -1,0 +1,66 @@
+{
+  "stock_code": "232830",
+  "corp_name": "아이티센피엔에스",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:29",
+  "meta": {
+    "wics": "IT서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "아이티센피엔에스는 2011년 설립된 보안 플랫폼 전문 기업으로, IT보안·핀테크 보안·생체인증 솔루션을 공급해 왔습니다. AI 및 양자내성 암호기술 기반의 신기술을 적용한 보안 솔루션을 개발·공급하며, 연결종속회사로 비상장사 2개사(씨플랫폼, 투케이엠시스템즈)를 두고 있습니다.",
+    "business_model": "사업부문별 영업수익은 서비스 51.7%, 상품 35.6%, 용역 7.0%, 제품 4.8%, 임대 0.8%로 구성됩니다. 핵심은 생체인증·전자서명 솔루션과 보안솔루션·보안컨설팅 서비스이며, AI·클라우드(Cloud)·제로트러스트(Zero Trust) 환경에 맞춘 보안 플랫폼과 서비스를 함께 전개하고 있습니다. 또한 디지털 금융 서비스 구축과 AI보안 및 Cyber보안 솔루션 총판 사업도 병행하고 있습니다.",
+    "main_customers": "생체인증·전자서명 솔루션 — 보험사, 정부기관, 은행 / 보안솔루션 및 보안컨설팅 — 모바일 앱 서비스 제공 기업, 보안 컴플라이언스 대응이 필요한 기업 / 디지털 금융 서비스 구축 — 금융권 및 공공분야 고객 / AI보안 및 Cyber보안 솔루션 총판 — 보안 솔루션을 도입하려는 기업 고객",
+    "price_factors": [
+      {
+        "factor": "보안수요",
+        "detail": "디지털 전환이 빠를수록 보안 사고 대응 수요가 늘어 관련 솔루션과 컨설팅 매출 확대에 영향을 줍니다."
+      },
+      {
+        "factor": "클라우드",
+        "detail": "멀티 클라우드와 하이브리드 IT 환경이 확산될수록 클라우드 보안과 통합 보안 관리 수요가 커집니다."
+      },
+      {
+        "factor": "AI보안",
+        "detail": "AI 기반 공격이 늘수록 AI 보안 솔루션과 생체 인증 플랫폼의 필요성이 높아질 수 있습니다."
+      },
+      {
+        "factor": "제도변화",
+        "detail": "전자서명법과 상법 등 관련 제도 변화는 생체인증·전자서명 솔루션의 도입 범위에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "공공도입",
+        "detail": "정부기관·공공분야와 금융권 레퍼런스가 늘수록 신규 공급 확대와 사업 신뢰도에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "2011년 설립되어 IT보안 ·핀테크 보안 ·생체인증 솔루션을 공급하며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "서비스: 10,353 (51.7%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "2018년부터 보험사를 시작으로 정부기관과 은행에"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5516,
+    "completion_tokens": 803,
+    "reasoning_tokens": 0,
+    "output_tokens": 803
+  },
+  "warnings": []
+}

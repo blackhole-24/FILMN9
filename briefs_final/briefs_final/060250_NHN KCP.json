@@ -1,0 +1,81 @@
+{
+  "stock_code": "060250",
+  "corp_name": "NHN KCP",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:04",
+  "meta": {
+    "wics": "IT서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "NHN KCP는 종합결제기업으로, 온라인결제·오프라인결제·프로젝트사업을 통해 결제 인프라를 제공하는 회사입니다. 국내 대형 커머스 플랫폼사, 글로벌 앱마켓 운영사, 오프라인 가맹점 등 다양한 고객 기반을 확보하고 있으며, 모든 결제서비스 영역에서 경쟁사들 대비 선두 지위를 차지하고 있다고 설명합니다.",
+    "business_model": "사업부문별 매출 구성은 온라인결제 89.9%, 오프라인결제 10.1%입니다. 온라인결제는 전자지불결제대행(PG, 결제대행)과 신용카드 부가통신(VAN, 거래정보 중계) 서비스가 주력이며, 오프라인결제는 오프라인 상점 대상 VAN과 단말기상품 공급업으로 구성됩니다. 프로젝트사업은 식권·복지포인트 같은 기업 복지솔루션, 비대면 키오스크 솔루션, 클라우드 기반 POS(판매시점관리) 사업 등 온라인과 오프라인을 결합한 신사업을 추진합니다.",
+    "main_customers": "온라인결제 — 국내외 전자상거래업자, 대형 커머스 플랫폼사, 글로벌 앱마켓 운영사 / 오프라인결제 — 국내 오프라인 상점, 약 32만개 가맹점 / 프로젝트사업 — 기업, 임직원, 실내외 스포츠연습장, 오프라인 상점 창업자",
+    "price_factors": [
+      {
+        "factor": "온라인결제",
+        "detail": "온라인·모바일 결제가 늘수록 PG(전자지불결제대행)와 온라인 VAN(부가통신) 수요가 함께 확대될 수 있습니다."
+      },
+      {
+        "factor": "신용카드",
+        "detail": "신용카드 사용금액에 직접 영향을 받아, 카드 결제가 늘면 관련 수수료 수익에도 영향을 줍니다."
+      },
+      {
+        "factor": "소비심리",
+        "detail": "경기변동에 따른 소비심리와 물가변동이 결제 사용금액에 연결되어 실적 변동 요인이 됩니다."
+      },
+      {
+        "factor": "가맹점",
+        "detail": "오프라인 가맹점 수와 전자상거래업체 확보가 사업 성과를 높이는 핵심 요인입니다."
+      },
+      {
+        "factor": "규모효과",
+        "detail": "전자금융거래법 준수의무와 결제인프라 구축 비용 때문에 규모의 경제가 경쟁력에 중요한 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "연결실체는 종합결제기업으로 온라인결제, 오프라인결제, 프로젝트 사업부문의 총 3개 사업부 체제로 운영"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "모든 결제서비스 영역에서 경쟁사들 대비 선두 지위를 차지하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "온라인결제: 1,110,059,491 (89.9%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "오프라인결제: 109,712,192 (10.1%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "국내 대형 커머스 플랫폼사, 글로벌 앱마켓 운영사 등을 비롯"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "국내 약 32만개의 가맹점을 보유하고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4144,
+    "completion_tokens": 963,
+    "reasoning_tokens": 0,
+    "output_tokens": 963
+  },
+  "warnings": []
+}

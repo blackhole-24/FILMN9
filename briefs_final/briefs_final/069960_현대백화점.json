@@ -1,0 +1,64 @@
+{
+  "stock_code": "069960",
+  "corp_name": "현대백화점",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 05:18",
+  "meta": {
+    "wics": "백화점과일반상점",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "현대백화점은 백화점·아울렛·면세점·가구 제조 등 다각적인 유통 사업을 운영하는 국내 유통기업입니다. 연결 기준 '25년 4분기 누계 매출액은 4조 2,303억원, 총자산은 11조 2,498억원 수준입니다.",
+    "business_model": "주요 사업부문은 백화점, 면세점, 가구 제조로 구분되며, 백화점 부문은 2조 4,377억원의 매출과 영업이익 3,934억원을 기록하는 핵심 수익원입니다. 면세점 부문(매출 1조 140억원, 영업이익 2억원)과 가구 제조 부문(매출 9,132억원, 영업이익 255억원)도 연결 실적에 기여하며 온·오프라인 채널 운영과 국내 신규 점포(더현대부산 등) 출점을 통해 성장 기반을 확충하고 있습니다.",
+    "main_customers": "백화점 부문 — 최종 소비자(패션·뷰티·식음·생활) / 면세점 부문 — 오프라인·인터넷 면세점 이용 고객 / 가구 제조 부문 — 유통업체(도매) 및 최종 소비자(소매)",
+    "price_factors": [
+      {
+        "factor": "소비심리",
+        "detail": "경기 변동 시 최종 소비자 지출이 줄면 백화점·면세점 매출에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "입지경쟁",
+        "detail": "백화점은 내점고객 비중이 높아 상권·접근성·주차 등 입지 여건이 실적 변동성에 큰 영향을 줍니다."
+      },
+      {
+        "factor": "온라인 전환",
+        "detail": "온라인 쇼핑 비중 확대는 오프라인 매출 성장 둔화 요인이 될 수 있으나 온·오프라인 연계 전략은 경쟁력 요소입니다."
+      },
+      {
+        "factor": "출점비용",
+        "detail": "신규 복합몰·아울렛 출점은 장기 성장 기반을 마련하지만 초기 건축·인테리어·판촉비 부담이 발생합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "당기말 기준 백화점 부문에서 13개의 백화점과 10개의 아울렛을 운영하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황",
+        "evidence_text": "백화점 부문은 2조 4,377억원입니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "백화점은 내점고객에 의한 소비가 매출의 큰 부분을 차지하고 있기 때문에 입지여건이 상당히 중요합니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4850,
+    "completion_tokens": 4381,
+    "reasoning_tokens": 3648,
+    "output_tokens": 733
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

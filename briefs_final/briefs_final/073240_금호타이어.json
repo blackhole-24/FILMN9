@@ -1,0 +1,91 @@
+{
+  "stock_code": "073240",
+  "corp_name": "금호타이어",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 05:32",
+  "meta": {
+    "wics": "자동차부품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "금호타이어는 한국·중국·미국·베트남에 걸친 8개 생산공장을 기반으로 글로벌 생산체계를 갖춘 타이어 제조·판매 기업입니다. R&D센터를 한국·중국·미국·독일에 운영하고 다수의 지적재산권(특허·실용신안·디자인)을 보유하고 있습니다.",
+    "business_model": "핵심 사업은 타이어 제조·판매로, 2025년 기준 매출에서 타이어 부문이 99.9%를 차지하고 비타이어 부문이 0.1%를 차지합니다(브랜드: Kumho, Marshal). 주력은 신차용(Original Equipment)과 교체용(Replacement Equipment) 타이어 생산·공급을 통한 매출 창출이며, 글로벌 생산거점과 해외 판매 네트워크를 통해 수출 및 지역별 판매를 전개합니다.",
+    "main_customers": "타이어 — 신차용(Original Equipment, 완성차업체) 및 교체용(Replacement Equipment, 교체시장) / 비타이어 — 기타 산업용 수요처",
+    "price_factors": [
+      {
+        "factor": "원자재가격",
+        "detail": "생산원가에서 원재료 비중이 높아 천연고무·합성고무 등 원자재 가격 상승은 이익률 악화로 연결됩니다."
+      },
+      {
+        "factor": "환율·유가",
+        "detail": "환율과 유가 변동은 수입 원재료 비용 및 해외매출 환산에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "무역정책",
+        "detail": "보호무역주의·무역갈등 확산 시 수출·현지판매 환경이 악화되어 실적에 부담이 됩니다."
+      },
+      {
+        "factor": "자동차수요",
+        "detail": "타이어 수요는 자동차 판매와 연동되며 OE·RE 수요 변화에 따라 매출 변동성이 발생합니다."
+      },
+      {
+        "factor": "국내경쟁",
+        "detail": "국내 시장은 상위 3사가 약 90%를 차지하는 경쟁구도로 가격·점유율 변동이 실적에 영향합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 영업 현황",
+        "evidence_text": "전세계 판매 네트워크를 갖춘 타이어 제조, 판매 기업입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "4,694,461(99.9%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "6,821(0.1%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "나. 업계의 현황 1) 산업의 특성",
+        "evidence_text": "타이어 시장은 신차용 타이어(Original Equipment)와 교체용 타이어(Replacement Equipment)로 구분됩니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나) 자원조달의 특성",
+        "evidence_text": "제품 매출원가의 약 50% 이상을 차지하는 원재료의 가격변동은"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "불안한 지정학적리스크, 보호무역주의의 강화, EV 지원정책 축소 등"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나) 판매현황",
+        "evidence_text": "글로벌 무역갈등 심화에 따른 경기 및 환율 변동성 확대"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나) 시장점유율(국내)",
+        "evidence_text": "최근 3개년 시장점유율은 ... 전체 타이어 시장의 약 90% 수준"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4063,
+    "completion_tokens": 4253,
+    "reasoning_tokens": 3264,
+    "output_tokens": 989
+  },
+  "warnings": []
+}

@@ -1,0 +1,67 @@
+{
+  "stock_code": "036480",
+  "corp_name": "대성미생물",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 00:37",
+  "meta": {
+    "wics": "제약",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "대성미생물은 1966년 창립된 동물용의약품 전문 기업으로, 지난 60여년간 축산업 발전에 기여해왔습니다. 예방백신, 항생제, 구충제 등 약 150여종의 동물용의약품을 제조·판매하며 제품 포트폴리오가 고르게 분포되어 있는 것이 특징입니다.",
+    "business_model": "주요 수익원은 국내 대리점·도매망을 통한 내수판매와 해외 수출이며, FY2025 기준 국내 매출 비중은 64.0%, 수출 비중은 28.1%입니다. 국내에서는 200여개 대리점과 조달청을 통한 관공서 공급을 통해 판매하며, 수출은 파키스탄·베트남·러시아 등을 중심으로 이루어지고 있습니다.",
+    "main_customers": "내수 — 200여개 대리점·도매상 및 조달청을 통한 관공서 납품 / 수출 — 파키스탄·베트남·러시아 등 해외 바이어·도매상",
+    "price_factors": [
+      {
+        "factor": "내수경쟁심화",
+        "detail": "내수시장이 성숙해 경쟁이 심화되면 가격·마진 압박으로 실적 민감도가 커질 수 있습니다."
+      },
+      {
+        "factor": "다국적진출",
+        "detail": "다국적 기업의 시장 진출과 FTA에 따른 개방 확대는 국내 점유율과 가격 경쟁력에 영향을 미칩니다."
+      },
+      {
+        "factor": "정부규제",
+        "detail": "항생제 사용 규제 및 수의사 처방제 시행 등 정책 변화는 제품 수요 구조와 경쟁 구도를 바꿀 수 있습니다."
+      },
+      {
+        "factor": "수출확대",
+        "detail": "해외시장 공략 강화는 매출 다변화와 성장 기회로 작용하나, 수출 비중 변화에 따른 외형 의존도가 높아질 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "동물용의약품 전문 기업입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "국내 200여개 대리점 및 도매상: 13,164 (64.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "200여개 대리점을 통한 직접판매 경로"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "항생제 사용 규제, 수의사 처방제 시행"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3922,
+    "completion_tokens": 3525,
+    "reasoning_tokens": 2816,
+    "output_tokens": 709
+  },
+  "warnings": []
+}

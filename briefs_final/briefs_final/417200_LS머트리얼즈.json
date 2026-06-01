@@ -1,0 +1,91 @@
+{
+  "stock_code": "417200",
+  "corp_name": "LS머트리얼즈",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:42",
+  "meta": {
+    "wics": "전기제품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "LS머트리얼즈는 2021년 1월 1일 LS엠트론의 울트라캐패시터(초고속 충·방전이 가능한 에너지 저장장치) 사업부문이 물적분할(회사 분리)되어 설립된 회사입니다. 중·대형 울트라캐패시터를 중심으로 신재생에너지, 스마트팩토리, 전기차 분야에 쓰이는 제품을 생산·판매하며, 종속회사 엘에스알스코를 통해 알루미늄과 경관재 사업도 함께 영위하고 있습니다.",
+    "business_model": "주력 사업은 UC사업부문으로, 중·대형 울트라캐패시터 셀과 모듈을 생산해 풍력발전, 산업용 AGV(무인운반차), 트램, 스마트그리드, 전기차 보조전원 등에 공급합니다. FY2025 사업부문별 영업수익 구성은 LS머트리얼즈 29,148(19.0%), LS알스코 104,153(68.0%)로 제시되어 있으며, 알루미늄사업부문은 LME(런던금속거래소) 시세와 연동된 단가체계를 기반으로 자동차·산업용 소재와 전기전자부품소재를 공급합니다. 경관재사업부문은 교량외장재, 캐노피, 조형물 등 시설물·구조물 제품을 수주와 협의를 통해 공급하는 구조입니다.",
+    "main_customers": "UC사업부문 — 풍력발전, AGV, 트램, 스마트그리드, 전기차 관련 산업 고객 / 알루미늄사업부문 — 자동차부품 고객, 산업용소재 고객, 전기전자부품소재 고객 / 경관재사업부문 — 공공시설 발주처, 계약부서·기관, 프로젝트 수주 고객",
+    "price_factors": [
+      {
+        "factor": "UC믹스",
+        "detail": "UC사업부문은 제품 용량·전압·지역별 SPEC 차이와 제품 Mix에 따라 판매단가가 달라져 수익성에 영향을 줍니다."
+      },
+      {
+        "factor": "LME시세",
+        "detail": "알루미늄사업부문 가격은 LME 알루미늄 시세 변동에 연동되어, 원재료 가격 흐름이 실적과 직결됩니다."
+      },
+      {
+        "factor": "수주방식",
+        "detail": "경관재사업부문은 프로젝트 반영과 협상을 통해 가격이 결정되므로 수주 조건에 따라 매출과 수익성이 달라질 수 있습니다."
+      },
+      {
+        "factor": "풍력성장",
+        "detail": "풍력발전 산업이 성장할수록 피치컨트롤(블레이드 각도 제어)용 UC 수요 확대 가능성이 커집니다."
+      },
+      {
+        "factor": "전기차확대",
+        "detail": "전기차와 트램, AGV 적용이 늘면 울트라캐패시터의 산업·운송 분야 수요가 함께 증가할 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 회사의 현황[UC사업부문]",
+        "evidence_text": "2021년 1월 1일 LS엠트론㈜의 울트라캐패시터 사업부문이 물적분할 후 설립"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "가. 회사의 현황[알루미늄사업부문]",
+        "evidence_text": "종속회사인 엘에스알스코㈜는 2018년 9월 11일에 신설된 법인"
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. 회사의 현황[UC사업부문]",
+        "evidence_text": "중,대형 울트라캐패시터(UltraCapacitor) 생산 및 판매"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "LS머트리얼즈: 29,148 (19.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "LS알스코: 104,153 (68.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 회사의 현황[UC사업부문]",
+        "evidence_text": "풍력발전기 내 피치컨트롤 전원, 산업용 AGV전원"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 회사의 현황[알루미늄사업부문]",
+        "evidence_text": "자동차부품 관련 소재, 산업용소재, 전기전자부품소재"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 회사의 현황[경관재사업부문]",
+        "evidence_text": "공공시설 분야의 설계단계에서 준공까지 모든 과정"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5482,
+    "completion_tokens": 1228,
+    "reasoning_tokens": 0,
+    "output_tokens": 1228
+  },
+  "warnings": []
+}

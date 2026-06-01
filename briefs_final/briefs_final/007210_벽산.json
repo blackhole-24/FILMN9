@@ -1,0 +1,67 @@
+{
+  "stock_code": "007210",
+  "corp_name": "벽산",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 19:44",
+  "meta": {
+    "wics": "건축자재",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "벽산은 건재, 주방기기·환기, 화스너·공구 등 건축자재와 관련 제품을 생산·판매하는 기업으로 주로 내수 중심의 건축자재 사업을 영위하고 있습니다. 고단열·불연 제품 공급과 친환경·저탄소 자재 확대를 통해 안전·환경 기준 강화에 대응하고자 합니다.",
+    "business_model": "사업부문별로 건재가 매출의 38.0%를 차지하며(건재: 단열재·외장재 등), 주방기기 및 환기부문이 14.2%(주방 렌지후드·쿡탑·주택환기시스템 시공), 화스너 및 공구가 0.6%(결합용 화스너·공구), 기타가 0.5%(특수수지 유통·폐자재 재활용·가설자재 임대 등)를 차지하여 건재 중심의 수익 구조를 보입니다.",
+    "main_customers": "건재 — 건설사·건자재 유통업체 / 주방기기 및 환기 — 주택 시공사·주택 수요자(주택환기시스템 시공 대상) / 화스너 및 공구 — 건설 및 제조업체 / 기타 — 유통업체·재활용 관련 사업자",
+    "price_factors": [
+      {
+        "factor": "건설경기",
+        "detail": "전방 수요인 건설경기 변동에 따라 매출이 민감하게 변동하므로 건설투자 축소 시 실적에 직접적인 영향이 있습니다."
+      },
+      {
+        "factor": "원자재·환율",
+        "detail": "원자재 가격 상승 및 환율 변동은 비용 부담을 키워 수익성에 부정적 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "정부 규제",
+        "detail": "건축법·화재예방 규제 강화는 불연·고품질 단열 제품 수요를 촉진하는 한편 규제 준수를 위한 제품 개발 부담을 야기합니다."
+      },
+      {
+        "factor": "운반비(물류)",
+        "detail": "제품 특성상 운반비용이 매우 높아 물류비 변동이나 지역적 수요 차이가 매출과 마진에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "건재부문은 단열재, 외장재 등 건축자재를 생산, 판매하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "건재: 231,881 (38.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "주택환기시스템을 시공하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 시장의 현황 (1) 건재부문",
+        "evidence_text": "건축자재 산업은 전방 수요산업인 건설경기에 민감하게 반응하는 산업으로"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4216,
+    "completion_tokens": 4059,
+    "reasoning_tokens": 3264,
+    "output_tokens": 795
+  },
+  "warnings": []
+}

@@ -1,0 +1,72 @@
+{
+  "stock_code": "109820",
+  "corp_name": "진매트릭스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 08:39",
+  "meta": {
+    "wics": "생물공학",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "진매트릭스는 2000년 12월 설립된 바이오기업으로, 생명공학 기술을 바탕으로 항암·항바이러스·항생물질 등 의약품 개발과 유전자 변이 기반 진단제 개발을 목적으로 하고 있습니다. C-Tag, Encleap, TriO, RFMP 등 자체 원천기술을 바탕으로 분자진단 제품과 진단시약을 개발·판매하며 국내외 시장에서 매출을 확대하고 있습니다.",
+    "business_model": "주력은 분자진단(진단키트·진단시약) 개발·판매이며, 네오플렉스(NeoPlex) 등 다중 분자진단 제품군(RI, STI, HPV, TB/NTM, GI 등)을 통해 국내외 의료기관 및 검사시장을 공략합니다. 매출 구성은 제품매출이 88%, 상품매출이 10.1%로 제품 기반 매출이 대부분을 차지하고 있습니다.",
+    "main_customers": "분자진단 제품 — 국내외 의료기관 및 임상검사기관 / 진단시약·시스템 — 병원·검사실 및 의료기기 유통 채널",
+    "price_factors": [
+      {
+        "factor": "인구 고령화",
+        "detail": "고령화로 만성질환과 진단 수요가 증가하면 분자진단 제품의 중장기 수요 확대가 예상되어 실적에 긍정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "규제 강화",
+        "detail": "IVDR(유럽 의료기기 규정) 등 인증 기준 강화로 제품 허가·인증 절차가 까다로워져 개발비용과 시장 진입 시점에 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "보험수가‧보상",
+        "detail": "유럽 등에서 다중 검사에 대한 보험수가 신설·확대 추세는 해외 매출 및 수익성 개선에 직접적으로 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "대기업·다국적 경쟁",
+        "detail": "삼성·LG 등 대기업 및 다국적 헬스케어 업체의 진단시장 진입 확대는 경쟁 심화로 가격 및 시장점유율에 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 주요 사업 분야",
+        "evidence_text": "2000년 12월에 설립되었습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 주요 사업 분야",
+        "evidence_text": "C-Tag, Encleap, TriO, RFMP 등이 대표적인 기술들이며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "3) 매출별 비중 분석",
+        "evidence_text": "제품매출 88%, 상품매출 10.1% 를 차지하고 있으며"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "이를 통해 국내외에서 매출확대가 이루어 지고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "산업분석 및 기타 참고사항",
+        "evidence_text": "시장 수요가 견고히 증가할 것으로 예측되고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5112,
+    "completion_tokens": 5107,
+    "reasoning_tokens": 4288,
+    "output_tokens": 819
+  },
+  "warnings": []
+}

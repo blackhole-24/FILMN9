@@ -1,0 +1,71 @@
+{
+  "stock_code": "009140",
+  "corp_name": "경인전자",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 09:46",
+  "meta": {
+    "wics": "전자제품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "경인전자는 전자제품 업종에서 리모컨, 스위치, 온도조절기(THERMOSTAT) 등 각종 전자기기에 쓰이는 전자부품을 생산·판매하는 회사입니다. 사업보고서에서는 주력사업인 REMOCON을 중심으로 제조사업을 영위하고 있으며, 미국 TV회사에 리모컨을 공급하는 벤더로서 고객사 요청에 맞춘 신기술 개발을 강조하고 있습니다.",
+    "business_model": "핵심 사업은 리모컨 사업이며, 2025년 기준 사업부문별 매출에서 리모컨 사업이 약 54.0%, 스위치 사업이 약 1.1%, TMS 사업이 약 9.1%, 기타가 약 3.6%를 차지합니다. 회사는 각종 전자기기용 전자부품을 제조·판매하고, 리모컨은 자동화설비 투자, R&D(연구개발) 인력 확대, IP(지식재산권) 등록 등을 통해 원가·품질·기술 경쟁력을 높이려는 구조입니다. 영업실적은 각 사업부별 수요·공급과 계절적 변동의 영향을 받습니다.",
+    "main_customers": "리모컨 사업 — 미국 TV회사 등 B2B(기업 간 거래) 고객 / 스위치 사업 — 전자기기 관련 수요처 / TMS 사업 — 전자기기 관련 수요처 / 기타 — 기타 전자부품 수요처",
+    "price_factors": [
+      {
+        "factor": "리모컨수요",
+        "detail": "B2B 리모컨 발주량이 늘면 매출과 영업이익이 개선되고, 발주가 줄면 실적이 약해질 수 있습니다."
+      },
+      {
+        "factor": "원가변동",
+        "detail": "원재료 단가 상승에 민감하다고 밝히고 있어 원가 부담이 커지면 수익성에 직접 영향을 줍니다."
+      },
+      {
+        "factor": "환율변동",
+        "detail": "제품별 평균단가가 외화환율 변동에 영향을 받는다고 제시되어 있어 환율 변화가 실적에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "기술투자",
+        "detail": "신규 자동화설비, R&D 인력, 특허 등록 같은 투자 수준이 원가·품질·기술 경쟁력에 영향을 줍니다."
+      },
+      {
+        "factor": "시장경쟁",
+        "detail": "리모컨 산업이 성숙기에 접어든 것으로 설명돼 있어 가격과 품질 경쟁이 심할수록 사업 환경이 달라질 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 1. 주요제품등",
+        "evidence_text": "당사는 각종 전자기기에 사용되는 전자부품을 생산, 판매하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. 사업부문별 요약 재무 현황",
+        "evidence_text": "리모컨 사업 | 43,137,435"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "당기의 영업이익은 B2B사업의 리모컨 발주량 증가로 인해 10억2천만원으로 흑자전환하였습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "당사는 미국 TV회사의 주요 리모컨 벤더로써"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4353,
+    "completion_tokens": 879,
+    "reasoning_tokens": 0,
+    "output_tokens": 879
+  },
+  "warnings": []
+}

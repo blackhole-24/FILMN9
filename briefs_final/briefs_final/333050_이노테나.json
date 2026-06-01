@@ -1,0 +1,91 @@
+{
+  "stock_code": "333050",
+  "corp_name": "이노테나",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:37",
+  "meta": {
+    "wics": "IT서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "이노테나는 클라우드, AI, 빅데이터, Open API를 연결하는 솔루션과 보안·클라우드 모니터링 솔루션을 개발·판매하는 IT서비스 기업입니다. 사업보고서 기준으로 문서중앙화 솔루션인 '엠파워 클라우드'와 클라우드 관측(Observability) 기반 모니터링, AI 플랫폼 '모아이(MOAI)' 등을 중심으로 사업을 전개하고 있습니다. 한국평가데이터로부터 기술 평가를 통해 기술역량 우수기업으로 인증받았습니다.",
+    "business_model": "회사는 솔루션사업부문과 전략사업부문으로 나뉘어 있으며, 솔루션사업부문은 클라우드·AI·빅데이터·Open API 간 연계솔루션을 담당하고, 전략사업부문은 문서중앙화·보안·AI 및 클라우드솔루션을 수행합니다. 사업부문별 매출 구성에서는 FY2025 매출액이 22,952,427로 100.0%만 제시되어 있어, 개별 부문 비율은 확인되지 않습니다. 수익 구조는 솔루션 개발·판매와 시스템 구축·유지보수, 그리고 클라우드 모니터링 서비스 제공을 중심으로 설명됩니다.",
+    "main_customers": "연계솔루션사업 — 기업 내외부 애플리케이션 연계가 필요한 기업, 마이데이터·핀테크·정부 주도 디지털 사업 참여기관 / 보안솔루션사업 — 문서중앙화와 보안이 필요한 공공기관 및 기업 / 클라우드솔루션사업 — IDC, Public, Private, Hybrid Cloud 환경을 운영하는 기업 / AI사업 — Chatbot 등 앱·서비스에 AI 적용이 필요한 고객사",
+    "price_factors": [
+      {
+        "factor": "클라우드수요",
+        "detail": "클라우드 환경이 늘어날수록 연계솔루션과 클라우드 모니터링 수요가 함께 커질 수 있습니다."
+      },
+      {
+        "factor": "보안수요",
+        "detail": "램섬웨어 등 외부 공격 위협이 커질수록 문서중앙화와 보안솔루션 수요 증가에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "AI확산",
+        "detail": "ChatGPT 이후 AI 플랫폼과 문서 기반 AI 서비스 수요가 확대되면서 관련 솔루션 매출 기회가 넓어질 수 있습니다."
+      },
+      {
+        "factor": "공공납품",
+        "detail": "정부기관·공공기관 납품에는 KCMVP(암호모듈 검증)와 GS인증이 필요해, 인증 보유 여부가 사업 추진에 중요한 요소입니다."
+      },
+      {
+        "factor": "시장성장",
+        "detail": "국내 퍼블릭 클라우드와 AI 시장의 성장 전망은 회사의 클라우드·AI 솔루션 수요 확대와 연결될 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 클라우드, AI, 빅데이터, Open API간의 연계솔루션사업"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "한국평가데이터로부터 기술 평가를 통해 기술역량 우수기업"
+      },
+      {
+        "field": "business_model",
+        "source_section": "마. 조직개편",
+        "evidence_text": "사업 영역은 크게 솔루션사업부문과 전략사업부문"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "매출액: 22,952,427 (100.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "행정안전부 소속 공무원 10만 명을 대상으로 공급"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "라. 산업의 특성",
+        "evidence_text": "클라우드 환경 증가로 인한 필연적인 연계솔루션 수요 증가"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나. 사업의 환경변화에 대한 전략",
+        "evidence_text": "램섬웨어 등 외부 공격자로 인한 위협 증가"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "ChatGPT의 등장으로 인공지능 모델의 개발"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4866,
+    "completion_tokens": 1123,
+    "reasoning_tokens": 0,
+    "output_tokens": 1123
+  },
+  "warnings": []
+}

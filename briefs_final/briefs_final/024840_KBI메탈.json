@@ -1,0 +1,72 @@
+{
+  "stock_code": "024840",
+  "corp_name": "KBI메탈",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 22:56",
+  "meta": {
+    "wics": "전기장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "KBI메탈은 금속·전기장비 업종에 속한 기업으로 전장사업부, 메탈사업부, 전선사업부, 물류사업부 등 4개 사업부를 운영하고 있습니다. 2025년 연결 기준 매출 7,586억, 영업이익 243억을 기록했습니다.",
+    "business_model": "사업구조상 전장품(자성철심 CORE, 자동차용 ALTERNATOR·STARTER·BLDC 모터 등) 분야가 핵심으로, 전장품 매출이 전체의 69.8%를 차지합니다. 메탈사업부는 전선제조용 동롯드(ROD)를 중심으로 중소전선업체에 공급하는 구조이며, 전선·물류사업부는 사업다각화 및 연계영업을 수행하고 있습니다.",
+    "main_customers": "전장사업부 — 가전·자동차 제조사(가전제품·중대형 상용차·장비 등) / 메탈사업부 — 중소전선업체",
+    "price_factors": [
+      {
+        "factor": "원자재가격",
+        "detail": "구리·알루미늄 등 원자재(LME 시세) 변동이 제품 단가와 이익률에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "환율",
+        "detail": "환율 변동이 제품 가격 및 원가에 영향을 미쳐 실적 변동요인이 됩니다."
+      },
+      {
+        "factor": "공급제약",
+        "detail": "주요 원재료인 규소강판의 조달 상황(포항제철·해외수입)은 생산과 가격에 제약을 줄 수 있습니다."
+      },
+      {
+        "factor": "수요구조",
+        "detail": "대기업의 부품 자가생산 비중과 중소업체 중심의 시장구조로 수주·가격경쟁이 실적에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "전장사업부, 메탈사업부, 전선사업부, 물류사업부로사업을 구분하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "전장품: 27,310 (69.8%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "메탈사업부 > 영업개황",
+        "evidence_text": "중소전선업체에 ROD를 공급해오고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "메탈사업부 > 주요 가격변동원인",
+        "evidence_text": "LME(런던금속거래소) 가격의 영향 받고 있으며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "산업분석 > 자원조달의 특성",
+        "evidence_text": "주요 원재료인 규소강판은 국내의 포항제철과 해외수입으로 조달되며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5613,
+    "completion_tokens": 4803,
+    "reasoning_tokens": 4032,
+    "output_tokens": 771
+  },
+  "warnings": []
+}

@@ -1,0 +1,67 @@
+{
+  "stock_code": "382150",
+  "corp_name": "온코크로스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 18:30",
+  "meta": {
+    "wics": "생명과학도구및서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "온코크로스는 신약 개발의 장기간·고비용 문제를 해결하기 위해 AI 플랫폼 개발에 집중해 온 생명과학 도구·서비스 기업입니다. RAPTOR AI 등 전사체 기반의 AI 플랫폼을 중심으로 제약사들의 적응증 선정 및 병용약물 발굴을 지원하는 플랫폼 사업을 영위하고 있습니다.",
+    "business_model": "주요 수익은 분석서비스(분석서비스: 100.0%)에서 발생하며, AI 플랫폼(RAPTOR AI™, ONCO-RAPTOR AI™, ONCOfind AI™)을 통해 적응증 선정·확장, 병용약물 발굴 및 멀티오믹스(전사체·단백체) 분석 서비스를 제공합니다. 또한 단백체 기반 역량은 Neo Omics™라는 B2B 브랜드로 제약사 R&D와 연계된 분석서비스 형태로 제공되고 있습니다.",
+    "main_customers": "분석서비스 — 파트너 제약회사·신약개발업체 / Neo Omics — 제약사 R&D 부서 및 국내 주요 병원",
+    "price_factors": [
+      {
+        "factor": "신약개발 비용",
+        "detail": "신약개발에 투입되는 비용 증가 시 제약사의 연구 의사결정과 플랫폼 수요에 영향을 미쳐 실적 변동성이 커질 수 있습니다."
+      },
+      {
+        "factor": "임상 성공률",
+        "detail": "임상 통과 확률이 낮을수록 제약사의 후보물질 검증 수요가 증가하거나 감소할 수 있어 플랫폼 활용과 매출에 직접 영향합니다."
+      },
+      {
+        "factor": "데이터·코호트 확보",
+        "detail": "국내 주요 병원과의 MOU 등 임상정보·데이터 확보 수준은 분석 품질과 서비스 경쟁력에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "기술 고도화",
+        "detail": "단백체(Proteomics) 레이어 등 플랫폼 고도화는 ADC·TPD 등 새로운 모달리티 분석 대응을 가능하게 해 수익원 다변화에 기여합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "신약개발의 효율성을 높이기 위해 AI 플랫폼 개발에 집중해 왔습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "분석서비스: 370,461 (100.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "다수의 국내외 제약회사들과 신약을 공동 연구하거나"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "신약개발에 투입되는 비용은 계속적으로 증가하는 반면"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5705,
+    "completion_tokens": 3158,
+    "reasoning_tokens": 2432,
+    "output_tokens": 726
+  },
+  "warnings": []
+}

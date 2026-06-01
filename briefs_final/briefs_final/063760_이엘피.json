@@ -1,0 +1,67 @@
+{
+  "stock_code": "063760",
+  "corp_name": "이엘피",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 04:15",
+  "meta": {
+    "wics": "디스플레이장비및부품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "이엘피는 1999년 10월 16일 설립되어 OLED·마이크로디스플레이(MicroOLED·MicroLED 등) 관련 검사장비와 반도체 패키징 검사장비의 제조·판매를 주력으로 하는 기업입니다. 2025년 연결 기준 매출은 273억원이며, 차세대 디스플레이용 검사장비 개발과 양산 준비를 진행하고 있습니다.",
+    "business_model": "주요 수익원은 디스플레이 검사장비 판매로, 2025년 사업부문별 영업수익에서 디스플레이검사장비 등이 98.8%를 차지(기타매출 1.2%)합니다. 고수익 프로젝트 비중 확대와 비용 효율화로 수익성이 개선되었고, Micro LED·반도체 패키징용 검사장비 등으로 제품 포트폴리오를 확장 중입니다.",
+    "main_customers": "디스플레이검사장비 — 국내외 메이저 OLED 제조사(패널사) / 기타매출 — 기타 거래처",
+    "price_factors": [
+      {
+        "factor": "투자일정",
+        "detail": "주요 패널업체의 설비 투자 일정 조정은 장비 수주와 매출 발생 시점에 직접적인 변동성을 줍니다."
+      },
+      {
+        "factor": "수요사이클",
+        "detail": "디스플레이는 수요·공급에 따라 경기 변동을 크게 타므로 전방 수요 약화 시 실적 변동성이 커질 수 있습니다."
+      },
+      {
+        "factor": "원가구조",
+        "detail": "원가율이 낮은 고수익 프로젝트 비중 확대 여부가 영업이익률에 큰 영향을 미칩니다."
+      },
+      {
+        "factor": "대기업의존",
+        "detail": "대형 패널사 중심의 산업 구조상 주요 패널 제조사와의 협력 관계 확보 여부가 수익성에 중요합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "1999년 10월 16일 설립되었습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "디스플레이검사장비 등: 26,987 (98.8%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "당사는 국내외 메이저 OLED 제조사의 협력사로서"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 강한 경기 사이클 및 수직적 수급구조",
+        "evidence_text": "디스플레이는 수요와 공급에 따라 경기를 타는 산업"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4146,
+    "completion_tokens": 3590,
+    "reasoning_tokens": 2880,
+    "output_tokens": 710
+  },
+  "warnings": []
+}

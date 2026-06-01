@@ -1,0 +1,72 @@
+{
+  "stock_code": "103590",
+  "corp_name": "일진전기",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 08:16",
+  "meta": {
+    "wics": "전기장비",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "일진전기는 저압부터 초고압까지 전력용 전선과 변압기·차단기 등 중전기기를 제조하는 종합 중전기 기업입니다. 발전·송·변전 등 전력시스템을 Turnkey(일괄도급) 방식으로 공급하며 전세계 약 80여 개국에 진출해 있습니다.",
+    "business_model": "사업부문은 전선과 중전기로 구분되며 전선사업부의 매출액은 1조 5,419억, 중전기사업부의 매출액은 4,990억입니다. FY2025 기준 매출은 국내 61.5%, 해외 38.5%로 해외 수주(특히 Turnkey형 전력시스템 공급)를 통해 해외 비중 확대에 주력하고 있습니다.",
+    "main_customers": "전선 — 한국전력(송·배전망 구축) 및 신도시·플랜트 건설업체 / 중전기 — 발전소 및 변전소·전력시스템 사업자",
+    "price_factors": [
+      {
+        "factor": "구리가격",
+        "detail": "구리 가격 변동이 전선 원가와 전반적 수익성에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "설비규모",
+        "detail": "전선산업은 대규모 설비투자가 경쟁력 요인으로, 설비 규모가 큰 기업에 유리합니다."
+      },
+      {
+        "factor": "수요민감도",
+        "detail": "국내는 공공 인프라 투자 및 민간 건설수요, 해외는 각국의 전력투자 정책에 따라 실적이 좌우됩니다."
+      },
+      {
+        "factor": "통상·정치리스크",
+        "detail": "보호무역 강화·지정학적 리스크·공급망 불안이 수주와 공급 대응에 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "전세계 80여 개국에 진출하는 성과를 얻었습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "전선사업부의 매출액은 1조 5,419억이고, 중전기사업부의 매출액은 4,990억입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "국내 (61.5%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "발전, 송·변전 및 전력시스템을 Total로 제공"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "다. 사업부문별 시장여건 및 영업개황 (1) 전선 부문",
+        "evidence_text": "원재료로 쓰이는 구리 가격의 변동이 전선가격의 변동과 회사의 수익성에 직결됩니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4398,
+    "completion_tokens": 3670,
+    "reasoning_tokens": 2880,
+    "output_tokens": 790
+  },
+  "warnings": []
+}

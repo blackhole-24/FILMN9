@@ -1,0 +1,66 @@
+{
+  "stock_code": "289010",
+  "corp_name": "아이스크림에듀",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 15:09",
+  "meta": {
+    "wics": "교육서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "아이스크림에듀는 초등학생을 중심으로 유아 및 중등학생을 대상으로 멀티미디어 콘텐츠와 전용 디지털북 기반의 가정용 자기주도학습 프로그램 '아이스크림홈런'을 제공하는 에듀테크 기업입니다. 홈런 브랜드를 중심으로 공부방용 학습센터 등으로 서비스 영역을 확장하며 스마트러닝 시장을 개척한 선도적 위치를 유지하고 있습니다.",
+    "business_model": "사업부문별 영업수익은 '제품'이 100.0%를 차지합니다 (제품: 90,470, 100.0%). 수익원은 전용 학습기(Home-Learn AI Flex), 방대한 디지털 멀티미디어 콘텐츠와 AI 기반 개인맞춤학습(예: AI생활기록부, 아이뚜루) 등 플랫폼·구독형 서비스 중심입니다.",
+    "main_customers": "아이스크림 홈런 계열 제품 — 초등·중등·유아 학생 / 홈런 스마트 학습센터 — 공부방 운영자",
+    "price_factors": [
+      {
+        "factor": "기술고도화",
+        "detail": "AI·빅데이터 고도화는 초개인화 서비스 경쟁력과 실적에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "콘텐츠투자",
+        "detail": "방대한 멀티미디어 콘텐츠 및 IT·학습기 개발을 위한 투자는 비용 구조와 수익성에 영향을 줍니다."
+      },
+      {
+        "factor": "경쟁심화",
+        "detail": "주요 경쟁사들의 공격적 시장 확대는 고객 확보 비용을 높이고 매출 성장에 압력을 가할 수 있습니다."
+      },
+      {
+        "factor": "소비심리",
+        "detail": "소비 심리 위축 시 교육 서비스 수요 감소로 매출과 실적에 부정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "진입장벽",
+        "detail": "스마트러닝의 기술집약성과 초기자본 요구는 진입장벽을 높여 당사의 경쟁우위를 지지합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "'아이스크림홈런'을 제공하는 에듀테크 기업입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "제품: 90,470 (100.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "주요제품 - 초등대상 '아이스크림 홈런'"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4665,
+    "completion_tokens": 3553,
+    "reasoning_tokens": 2880,
+    "output_tokens": 673
+  },
+  "warnings": []
+}

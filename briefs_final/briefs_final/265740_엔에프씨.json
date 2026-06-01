@@ -1,0 +1,62 @@
+{
+  "stock_code": "265740",
+  "corp_name": "엔에프씨",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 14:26",
+  "meta": {
+    "wics": "화장품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "엔에프씨는 2007년 현 회장이 개발한 MLV(Multi-Lamellar Vesicle) 안정화 기술을 바탕으로 화장품 베이스 소재 개발을 시작한 기업으로, 고기능성 화장품 소재 생산과 화장품 ODM/OEM(위탁생산·제조) 사업을 영위하고 있습니다. 2025년 매출액은 716억원으로 전년 대비 실적이 크게 개선되었습니다.",
+    "business_model": "사업부문별로 완제품 매출 비중이 가장 크며(완제품 68.8%, 소재 20.1%, 상품 10.1%, 벌크 0.8%, 기타 0.2%), 핵심은 고기능성 베이스 소재 공급과 완제품 ODM/OEM 수주입니다. 당사는 MLV 안정화 기술, 고함량 세라마이드 등 독자 기술과 국내 특허 14건을 바탕으로 소재 제공과 원스톱 완제품 제조(자동화 충진 특허 보유)를 결합해 수익을 창출하고 있습니다.",
+    "main_customers": "소재 — 국내 주요 화장품 제조사 / 완제품 — 인디 화장품 브랜드 및 브랜드사(ODM 고객) / 벌크 — 명시된 주요 고객 없음 / 상품 — 명시된 주요 고객 없음",
+    "price_factors": [
+      {
+        "factor": "기술 채택",
+        "detail": "한 번 처방에 채택되면 장기간 변경되지 않아 고기능성 소재 채택 여부가 매출 안정성에 직접 영향."
+      },
+      {
+        "factor": "완제품 의존도",
+        "detail": "완제품 매출 비중(68.8%)이 높아 ODM/OEM 수주 증감이 실적에 큰 영향을 미침."
+      },
+      {
+        "factor": "ODM 경쟁",
+        "detail": "ODM 산업의 경쟁구도와 브랜드사의 기획·마케팅 전략 변화가 수주와 마진 구조에 영향을 줌."
+      },
+      {
+        "factor": "글로벌 수출",
+        "detail": "수출 시장의 다변화 추세(중국 비중 축소·선진시장 확장)는 해외수요 변동에 따른 실적 변동성 요인임."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 화장품 소재 사업",
+        "evidence_text": "당사는 화장품 베이스 소재를 만드는 원천기술을 바탕으로"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "완제품: 49,251,159 (68.8%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 화장품 소재 사업",
+        "evidence_text": "출시 이후 국내 주요 화장품 제조사를 중심으로 적용 범위를 확대해 나가고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4752,
+    "completion_tokens": 3570,
+    "reasoning_tokens": 2880,
+    "output_tokens": 690
+  },
+  "warnings": []
+}

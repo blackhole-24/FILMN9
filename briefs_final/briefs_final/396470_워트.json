@@ -1,0 +1,72 @@
+{
+  "stock_code": "396470",
+  "corp_name": "워트",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 18:49",
+  "meta": {
+    "wics": "반도체와반도체장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "워트는 반도체·디스플레이 공정에 필요한 환경제어 시스템을 개발·제작하여 납품하는 B2B 장비업체로, THC(초정밀 온습도 제어장비), FFU(팬 필터 유닛), TCU(초정밀 항온기) 등을 주요 제품으로 삼고 있습니다. 주요 고객으로 삼성전자·SK하이닉스·세메스 등 반도체 장비 제조업체를 두고 있으며, 해외 에이전트와 자회사를 통해 국내외 사이트에 납품·유지관리 활동을 전개하고 있습니다.",
+    "business_model": "주문 사양에 맞춘 설계·부품수급·제작·평가·설치의 일괄 납품 구조의 B2B 모델로 수주 기반으로 매출을 창출합니다. 사업부문별 FY2025 매출 구성은 제품 73.0%, 상품 3.7%, 기타 2.6%이며, 특히 THC(초정밀 온습도 제어장비)가 최대 매출원으로 코팅·노광·현상 공정에 초정밀 온습도(온도 ±0.05℃, 습도 ± 0.5%) 및 미량가스 제어 공기를 공급합니다.",
+    "main_customers": "제품 — 반도체·디스플레이 장비 제조업체(삼성전자, SK하이닉스, 세메스) / 상품 — 국내외 반도체 장비 업체(해외는 Agent 통해 영업) / 기타 — 현지 유지관리 및 부대 서비스 관련 고객(종속회사 활동 기반)",
+    "price_factors": [
+      {
+        "factor": "고객 설비투자",
+        "detail": "삼성전자·SK하이닉스 등 주요 고객의 Fab(설비) 투자 확대 시 THC 등 제품 수주가 늘어나 실적에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "해외 지정학",
+        "detail": "미·중간 이슈로 인해 중국 시장의 매출 기여도가 제한적일 경우 해외 매출 확대에 제약이 될 수 있습니다."
+      },
+      {
+        "factor": "제품 신뢰성",
+        "detail": "장비의 높은 안정성과 낮은 고장률은 고객사 등록 및 납품 확대와 연결되어 수주·매출에 긍정적 영향을 미칩니다."
+      },
+      {
+        "factor": "제품별 가격변동",
+        "detail": "고객사별·사양별 가격 편차가 커서 단가 변동은 수익성에 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "초정밀 온습도 제어장비(THC), 팬 필터 유닛(FFU)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "제품: 11,114 (73.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "주요 고객사로는 삼성전자, SK하이닉스, 세메스 등"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "미중간 이슈로 인해 매출 기여도에 있어서는 미진한 상태"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "장비의 높은 안정성과 낮은 고장률"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3572,
+    "completion_tokens": 4989,
+    "reasoning_tokens": 4096,
+    "output_tokens": 893
+  },
+  "warnings": []
+}

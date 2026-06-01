@@ -1,0 +1,71 @@
+{
+  "stock_code": "302430",
+  "corp_name": "이노메트리",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 15:40",
+  "meta": {
+    "wics": "전기제품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "이노메트리는 2008년 6월 설립된 X-ray 기반 2차전지 검사장비 전문기업으로, 국내외 배터리 제조사에 검사솔루션을 공급하며 글로벌 경쟁력을 갖추고 있습니다. 비파괴검사(제품을 파괴하지 않고 내부 결함을 검사하는 방식) 기술을 바탕으로 전기차용 및 모바일용 배터리 내부 결함 검사를 주력으로 합니다.",
+    "business_model": "주요 매출은 2차전지 검사장비(매출의 70.76%)와 MRO(유지보수·SW업그레이드, 매출의 29.24%)로 구성되어 있으며, 하드웨어(투과형 X-ray 장비)와 이미지 분석 소프트웨어(SW)를 결합한 검사솔루션을 통해 장비 판매와 연계된 유지보수 수익(MRO)을 확보합니다. 또한 AI 머신러닝 기반 소프트웨어로 실시간 라인검사 및 다양한 배터리 폼팩터에 대한 적응력을 강화하고 있습니다.",
+    "main_customers": "2차전지 검사장비 — 국내외 배터리 제조사(전기차·ESS·모바일 등) / MRO — 검사장비 보유 고객사(필수부품 교체·SW업그레이드 대상)",
+    "price_factors": [
+      {
+        "factor": "전방수요",
+        "detail": "전기차·모바일 등 전방산업 수요가 줄면 검사장비 수주가 감소해 실적에 직접적 영향을 줍니다."
+      },
+      {
+        "factor": "제품다양성",
+        "detail": "LFP·46파이·전고체·ESS 등 다양한 배터리 폼팩터에 대한 장비 최적화 여부가 수주 확대에 영향을 미칩니다."
+      },
+      {
+        "factor": "머신비전",
+        "detail": "고속 영상처리·AI 도입 등 머신비전 기술 발전이 검사정밀도와 생산라인 적용 속도를 결정합니다."
+      },
+      {
+        "factor": "규제허가",
+        "detail": "원자력법상 설계승인 등 관련 승인 절차가 장비 공급과 운용에 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "애프터서비스",
+        "detail": "MRO(유지보수·SW업그레이드) 매출은 장비 설치 이후의 안정적 수익원으로 실적 변동성을 완화합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "당사는 X-ray를 이용한 글로벌 2차전지 검사장비 전문 업체입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출",
+        "evidence_text": "27,290 (70.76%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "당사는 국내 배터리 3사를 포함하여 다수의 글로벌 배터리 제조사에"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "2025년 연결기준 매출은 386억원으로 전년 대비 27% 감소하였으며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5367,
+    "completion_tokens": 4201,
+    "reasoning_tokens": 3392,
+    "output_tokens": 809
+  },
+  "warnings": []
+}

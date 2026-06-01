@@ -1,0 +1,82 @@
+{
+  "stock_code": "032540",
+  "corp_name": "TJ미디어",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 23:41",
+  "meta": {
+    "wics": "전자제품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "TJ미디어는 1981년 태진음향으로 출발하여 1997년 코스닥에 상장한 이후 2005년 사명을 변경한 기업으로, 노래반주기(카라오케 기기) 중심의 전자제품 및 콘텐츠 사업을 영위하고 있습니다. 국내 1위 노래반주기 사업을 기반으로 안정적인 사업영역을 구축하고 있습니다.",
+    "business_model": "주요 수익원은 하드웨어(노래반주기) 판매와 반주 콘텐츠 업데이트(유료 신곡 서비스)이며, 기기 판매 이후에도 정기적(또는 비정기적) 콘텐츠 업데이트로 지속 매출이 발생하는 구조입니다. 당기 기준 노래반주기 부문은 매출의 약 28%를 차지하고, 반주기 음악콘텐츠 부문은 약 23%, 온라인 플랫폼 음악콘텐츠 부문은 약 3%를 차지하고 있습니다.",
+    "main_customers": "노래반주기 — 가정용 소비자 및 영업용(노래연습장, 코인노래방, 유흥주점) / 반주기 음악콘텐츠 — 반주기 구매 고객(가정용·업소용) / 온라인 플랫폼 음악콘텐츠 — 노래방 업소, 이동통신사 제휴 채널, 플랫폼 이용자",
+    "price_factors": [
+      {
+        "factor": "콘텐츠 경쟁력",
+        "detail": "차별화된 반주 음원 및 영상 제작 역량은 진입장벽이자 실적의 핵심요인으로 작용합니다."
+      },
+      {
+        "factor": "경기민감성",
+        "detail": "영업용 반주기는 노래연습장·유흥업소 등 전방 산업 경기와 연동되어 실적 변동성이 있습니다."
+      },
+      {
+        "factor": "코인시장 성장",
+        "detail": "코인노래방 시장 확대로 설치 대수와 고성능 음향기기 수요가 증가하면 실적에 긍정적 영향을 줍니다."
+      },
+      {
+        "factor": "해외진출",
+        "detail": "일본 등 품질기준이 까다로운 시장 진출 경험은 글로벌 매출 확대 가능성과 연동됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "1981년 태진음향으로 출발하였으며"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "국내 1위 노래반주기 사업을 기반으로 안정적인 사업영역을 구축하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "노래반주기 부문 당기 매출액은 261억원"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "반주기 음악콘텐츠 부문 당기 매출액은 214억원"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "온라인 플랫폼 음악콘텐츠 부문 당기 매출액은 25억원"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "가정용과 영업용(노래연습장, 유흥주점 등)으로 구분됩니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "국내 이동통신사(SKT, KT, LGT)와의 제휴"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5058,
+    "completion_tokens": 4963,
+    "reasoning_tokens": 4032,
+    "output_tokens": 931
+  },
+  "warnings": []
+}

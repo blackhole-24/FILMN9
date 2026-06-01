@@ -1,0 +1,67 @@
+{
+  "stock_code": "049630",
+  "corp_name": "재영솔루텍",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 02:41",
+  "meta": {
+    "wics": "핸드셋",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "재영솔루텍은 1984년 12월 20일 설립되어 스마트폰 카메라에 탑재되는 AF 액츄에이터(자동 초점 구동부)를 생산·판매하는 기업입니다. 주요 종속회사 재영VINA를 생산기지로 운영하며 나노광학 분야를 중심으로 사업을 영위하고 있습니다.",
+    "business_model": "단일 사업부문인 나노광학 부문에서 AF모듈 등 핸드폰 카메라용 액츄에이터 제품을 생산·판매하며 매출의 100.0%가 해당 부문에서 발생합니다. 생산은 주요 종속회사인 재영VINA를 통해 수행되며, 고사양 OIS(광학식 손떨림 보정) 제품 판매 확대와 원가·수율 개선이 수익성 개선의 핵심입니다.",
+    "main_customers": "나노광학 — 삼성전자㈜ 등 스마트폰 제조사",
+    "price_factors": [
+      {
+        "factor": "단가 압력",
+        "detail": "카메라 모듈 시장의 경쟁 심화로 매 분기 단가 인하가 진행되어 매출과 수익성에 압박을 줄 수 있습니다."
+      },
+      {
+        "factor": "스마트폰 수요",
+        "detail": "스마트폰 출하량 및 주요 고객사의 신제품 출시 일정에 따라 액츄에이터 수요가 집중되거나 감소하는 계절적 변동이 발생합니다."
+      },
+      {
+        "factor": "제품 고사양화",
+        "detail": "OIS·AF 동시 탑재 등 고사양화 추세로 스마트폰 당 액츄에이터 탑재수가 증가하면 매출 성장에 우호적입니다."
+      },
+      {
+        "factor": "수율·원가",
+        "detail": "양산 초기 수율 부진은 원가율을 상승시켜 이익률을 낮출 수 있으므로 생산성 개선이 실적에 중요합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "당기말 현재 당사는 사업의 성격에 따라 나노광학 부문을 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. 주요 제품 등의 현황",
+        "evidence_text": "100.0%"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 주요 제품 등의 현황",
+        "evidence_text": "삼성전자㈜ 등"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나. 주요 제품 등의 가격변동추이",
+        "evidence_text": "매 분기 일정 수준의 단가인하가 진행됩니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4620,
+    "completion_tokens": 3555,
+    "reasoning_tokens": 2880,
+    "output_tokens": 675
+  },
+  "warnings": []
+}

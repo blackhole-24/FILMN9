@@ -1,0 +1,71 @@
+{
+  "stock_code": "290690",
+  "corp_name": "소룩스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 11:40",
+  "meta": {
+    "wics": "디스플레이장비및부품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "소룩스는 1996년 7월 2일 설립된 전기조명장치 제조 및 전기·통신공사업체로, 조명사업부문과 시공사업부문으로 사업을 구분해 영업을 하고 있습니다. LED 실내등·형광등·실외등 등을 주력으로 하며 2009년 주거용 LED 제품 출시, 2018년 실외등 개발 및 제2공장 신축 등 LED 생산에 집중해왔습니다.",
+    "business_model": "수익은 사업부문별로 구분되며 FY2025 기준 상품 매출이 34.6%(상품: 13,239,128 (34.6%))로 가장 큰 비중을 차지하고, 실외조명은 11.1%(실외조명: 5,619,216 (11.1%)), 공사(시공)는 8.5%(공사: 3,248,904 (8.5%)), 기타 8.1%(기타: 2,765,009 (8.1%)), 매입개방 외 1.5%(매입개방 외: 874,394 (1.5%))로 구성되어 있습니다. 조명사업은 LED 실내등·형광등·가로등·터널등 등 제품 판매 중심이고, 시공사업부문은 전기·통신 공사 매출을 통해 수익을 창출합니다.",
+    "main_customers": "조명사업부문 — 한국도로공사·지자체·관공서·골프장 운영사 / 시공(공사) — 국내의 민간 건설기업",
+    "price_factors": [
+      {
+        "factor": "건설경기",
+        "detail": "국내 건설경기 변동이 B2B 중심의 수주와 매출에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "정부정책",
+        "detail": "에너지 정책과 공공 조달(관공서·조달시장) 지원 변화가 LED 수요와 수주에 영향을 줍니다."
+      },
+      {
+        "factor": "기술력",
+        "detail": "LED는 기술집약형 산업이라 기술 경쟁력 확보 여부가 장기적 경쟁력 차이를 만듭니다."
+      },
+      {
+        "factor": "가동률",
+        "detail": "제품 매출 감소 시 설비 가동률 하락으로 고정비 부담이 커져 수익성이 악화될 수 있습니다."
+      },
+      {
+        "factor": "공공발주",
+        "detail": "한국도로공사·ESCO 등 공공 교체 사업 참여 여부가 실외조명 매출에 큰 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "당사는 1996년 7월 2일 설립되어"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "상품: 13,239,128 (34.6%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "나. 회사의 현황[조명사업부문]",
+        "evidence_text": "가로등은 한국 도로공사 및 지자체의 실외등 품목으로서"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나. 회사의 현황[조명사업부문](1) 시장의 특성",
+        "evidence_text": "정부차원에서의 지원이 확대되며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5411,
+    "completion_tokens": 5216,
+    "reasoning_tokens": 4352,
+    "output_tokens": 864
+  },
+  "warnings": []
+}

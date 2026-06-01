@@ -1,0 +1,71 @@
+{
+  "stock_code": "054780",
+  "corp_name": "키이스트",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:03",
+  "meta": {
+    "wics": "방송과엔터테인먼트",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "키이스트는 드라마 등 영상콘텐츠 제작과 아티스트 매니지먼트를 함께 하는 종합엔터테인먼트 기업입니다. 방송사, OTT(온라인 동영상 서비스) 등 다양한 플랫폼에 콘텐츠를 공급하며, 현재 소속 아티스트는 총 22명입니다. 국내 주요 드라마 제작사 중 하나로 소개되고 있습니다.",
+    "business_model": "핵심 사업은 드라마 등 영상콘텐츠 제작 사업과 아티스트 매니지먼트 사업입니다. 사업부문별 매출 구성은 콘텐츠제작이 약 56.7%, 매니지먼트가 약 43.3%로 확인되며, 콘텐츠 IP(지식재산권)를 기반으로 제작과 매니지먼트의 시너지를 키우는 구조입니다. 드라마 제작은 방송사·OTT 등에 기획·제작한 콘텐츠를 공급하고, 매니지먼트는 배우를 발굴·육성하며 전속계약을 통해 수익을 창출합니다.",
+    "main_customers": "콘텐츠제작 — 방송사, OTT 플랫폼 / 매니지먼트 — 아티스트와 협업하는 대중문화·엔터테인먼트 관련 수요처 / IP 사업 — 예능 제작 및 IP 활용 관련 수요처",
+    "price_factors": [
+      {
+        "factor": "OTT 투자",
+        "detail": "글로벌 OTT 플랫폼의 투자 전략 변화가 콘텐츠 제작 수익과 편성 물량에 직접적인 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "제작비",
+        "detail": "드라마 제작비 상승은 수익구조 관리 부담을 키워 실적 변동성을 높일 수 있습니다."
+      },
+      {
+        "factor": "콘텐츠경쟁",
+        "detail": "콘텐츠 경쟁 심화는 제작사 간 제작 확보와 IP 확보 경쟁을 더 치열하게 만듭니다."
+      },
+      {
+        "factor": "인력확보",
+        "detail": "연출자·작가 등 주 인력 섭외 경쟁이 심해질수록 제작 일정과 작품 경쟁력에 영향이 갈 수 있습니다."
+      },
+      {
+        "factor": "K-콘텐츠",
+        "detail": "K-콘텐츠 수요가 늘어나면 국내외 플랫폼에서 드라마와 아티스트 관련 사업 기회가 확대될 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 드라마 등 영상콘텐츠 제작 사업"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "콘텐츠제작 | ... | 소계 | 15,701,782"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "매니지먼트 | ... | 소계 | 25,283"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "방송사, OTT등 플랫폼에 공급 및 유통"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4930,
+    "completion_tokens": 744,
+    "reasoning_tokens": 0,
+    "output_tokens": 744
+  },
+  "warnings": []
+}

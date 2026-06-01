@@ -1,0 +1,62 @@
+{
+  "stock_code": "003570",
+  "corp_name": "SNT다이내믹스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 18:34",
+  "meta": {
+    "wics": "자동차부품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "SNT다이내믹스는 운수장비사업과 기계사업을 영위하는 제조업체로, 방산용 변속기 등 방위산업 제품과 차량용 변속기·차축 등 차량부품을 주력으로 생산합니다. 다년간 축적된 기술과 경험을 바탕으로 공작기계 등 기계사업도 병행하고 있으나 FY2025 기준 매출의 대부분이 운수장비 부문에서 발생합니다.",
+    "business_model": "사업부문은 운수장비(방산·차량부품)와 기계(공작기계)로 구성되며, FY2025 기준 운수장비가 매출의 99.6%, 기계가 0.4%를 차지해 운수장비 중심의 수익 구조를 보입니다. 운수장비 부문은 방산용 변속기 및 차량용 변속기·차축 등 고기술·정밀가공 제품을 완성차업체 및 방위사업 관련 고객에게 공급하는 것이 핵심입니다.",
+    "main_customers": "운수장비 — 방위사업청·방산업체·완성차업체 / 기계 — 자동차·항공기·선박·전자제품 제조업체",
+    "price_factors": [
+      {
+        "factor": "완성차 수요",
+        "detail": "완성차 업체의 생산량 변동에 따라 차량부품 수요와 수출이 직접 변동하여 실적에 영향합니다."
+      },
+      {
+        "factor": "방산 계약·지정학",
+        "detail": "방위사업 수주가 매출에 직접 연결되며 지정학적 리스크와 방산 수요 변동이 실적에 영향을 미칩니다."
+      },
+      {
+        "factor": "원자재·환율",
+        "detail": "환율 및 원자재 가격 변동이 부품업체의 경쟁력과 원가구조에 영향을 줍니다."
+      },
+      {
+        "factor": "설비투자 경기",
+        "detail": "공작기계 수요는 제조업 설비투자와 정부의 사회간접자본 투자정책 등에 민감하게 반응합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "지배회사인 당사는 운수장비사업과 기계사업으로 구분됩니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "운수장비: 708,889 (99.6%)"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "사업의 특성",
+        "evidence_text": "환율, 원자재가격 등이 부품업체들의 경쟁력에 영향을 미치는 가운데"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4509,
+    "completion_tokens": 3499,
+    "reasoning_tokens": 2816,
+    "output_tokens": 683
+  },
+  "warnings": []
+}

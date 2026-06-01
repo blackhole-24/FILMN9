@@ -1,0 +1,66 @@
+{
+  "stock_code": "084690",
+  "corp_name": "대상홀딩스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 06:28",
+  "meta": {
+    "wics": "식품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "대상홀딩스는 대상그룹의 순수지주회사(자회사의 지분을 보유해 지배하는 회사)로, 2005년 대상㈜로부터 인적 분할되어 설립되었습니다. 현재 연결 관점에서 여러 식품·소재 계열사를 편입한 그룹의 지배·관리와 배당수익·상표권 수입 등을 주요 수익원으로 하고 있습니다.",
+    "business_model": "순수지주회사로서 자회사들의 배당금, 상표권사용료 및 투자수익이 주요 수익원이며(지주회사: 다른 회사의 주식을 소유하여 지배하는 회사), 연결 기준으로 2025년 말 연결매출은 4조 4,013억이며 식품부문 매출액이 3조 8,172억(86.7%), 소재부문 매출액이 1조 4,605억(33.2%)으로 구성되어 있습니다. 지주회사는 자회사 경영지원·전략 수립과 그룹 차원의 신사업 발굴을 통해 시너지를 창출하는 역할을 수행합니다.",
+    "main_customers": "식품사업 — 일반 소비자(브랜드 제품) / B2B 식자재 유통 — 일반식당·프랜차이즈 / 소재사업 — 식품·제조업체 등 산업 고객",
+    "price_factors": [
+      {
+        "factor": "원재료가격",
+        "detail": "원재료 가격과 기후 영향으로 원가가 변동하면 연결 자회사의 수익성에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "환율변동",
+        "detail": "원재료 수입과 해외매출 환산에 따라 매출·이익 변동성이 커질 수 있습니다."
+      },
+      {
+        "factor": "소비트렌드",
+        "detail": "브랜드 인지도와 HMR(가정간편식)·프리미엄 수요 변화가 식품부문 실적에 영향합니다."
+      },
+      {
+        "factor": "외식업경기",
+        "detail": "외식 수요 감소 시 B2B 식자재 유통 수요가 줄어 연결 실적에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "해외사업환경",
+        "detail": "해외 공장·현지법인 확대가 매출 성장에 기여하나 글로벌 지정학·물류 리스크가 실적 불확실성을 높입니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "당사는 대상그룹의 지주회사입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "식품부문 매출액이  3조 8,172억(86.7%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "B2B 식자재 유통사업은 일반식당 및 프랜차이즈 등에"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 6031,
+    "completion_tokens": 4460,
+    "reasoning_tokens": 3712,
+    "output_tokens": 748
+  },
+  "warnings": []
+}

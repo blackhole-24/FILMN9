@@ -1,0 +1,66 @@
+{
+  "stock_code": "064960",
+  "corp_name": "SNT모티브",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 04:23",
+  "meta": {
+    "wics": "자동차부품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "SNT모티브는 차량부품사업과 기타사업을 영위하는 자동차 부품 전문기업입니다. 차량부품사업에서는 전기차·수소연료전지차용 구동모터와 하이브리드용 HSG(시동발전모터), 전기차용 드라이브 유닛 등 친환경 부품을 중심으로 경쟁력을 확보하고 있으며, 방산 및 반도체 장비부품 등 기타사업도 함께 영위하고 있습니다.",
+    "business_model": "FY2025 기준 사업부문별 영업수익에서 차량부품이 44.6%, 기타가 7.4%를 차지합니다. 차량부품사업은 전기차·하이브리드용 모터와 드라이브 유닛 등 고부가가치 친환경 부품을 주력으로 하고, 기타부문은 방산(총기류 등)과 반도체 장비부품 공급을 포함합니다.",
+    "main_customers": "차량부품 — 완성차 제조업체 / 기타(방산) — 아시아 지역의 여러 국가들(완성품 및 부품 공급) / 기타(반도체 장비부품) — 반도체 제조사",
+    "price_factors": [
+      {
+        "factor": "친환경 전환",
+        "detail": "친환경차 보급 확대 시 모터·HSG 등 차량부품 수요 증가로 매출에 직접적인 영향이 있을 수 있습니다."
+      },
+      {
+        "factor": "공급망 불안",
+        "detail": "차량용 반도체·원자재 등 공급망 불안은 생산물량과 제조원가에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "보호무역",
+        "detail": "보호무역주의 및 자국중심주의 확산 시 수출과 글로벌 공급망 운영에 제약이 발생할 수 있습니다."
+      },
+      {
+        "factor": "내재화 강화",
+        "detail": "완성차기업의 공급망 내재화 및 기술 이동은 부품 공급 기회 구조를 재편할 가능성이 있습니다."
+      },
+      {
+        "factor": "환율 변동",
+        "detail": "수출 단가와 원가에 미치는 환율 변동은 매출과 마진 변동으로 이어질 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "당사의 사업부문은 차량부품사업과 기타사업으로 구분됩니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025, 백만원)",
+        "evidence_text": "차량부품: 461,837 (44.6%)\n기타: 76,072 (7.4%)"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "공급망 불안이 일상화되고 있고,"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4692,
+    "completion_tokens": 5139,
+    "reasoning_tokens": 4416,
+    "output_tokens": 723
+  },
+  "warnings": []
+}

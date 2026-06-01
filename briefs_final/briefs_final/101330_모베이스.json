@@ -1,0 +1,96 @@
+{
+  "stock_code": "101330",
+  "corp_name": "모베이스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 08:01",
+  "meta": {
+    "wics": "자동차부품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "모베이스는 휴대폰 부품과 자동차 전장부품, 산업용 재봉기·자수기 등 3개 사업부문을 영위하는 연결 기반의 제조기업입니다. 연결종속회사를 통해 휴대폰용 케이스 부품을 삼성전자에 공급하고, 자동차용 전자부품을 현대·기아차 등에 납품합니다.",
+    "business_model": "사업부문별 매출 비중은 휴대폰부품 17.0%, 자동차부품 81.0%, 산업용 재봉기 및 자수기 2.0%로 자동차부품(전장부품)이 핵심 수익원입니다. 주요 자동차 부품으로는 Smart Key System, BCM(차체 제어 모듈), 무선충전기 등 전장 품목을 생산하며, 다수의 특허·실용신안을 보유해 제품·공정에 적용하고 있습니다.",
+    "main_customers": "휴대폰부품 — 삼성전자 / 자동차부품 — 현대·기아차 / 산업용 재봉기·자수기 — 섬유·의류·가죽 등 제조업체",
+    "price_factors": [
+      {
+        "factor": "폰 폼팩터",
+        "detail": "폴더블·웨어러블 등 신규 폼팩터 확대로 고정밀 기구 부품 수요가 증가하면 수혜가 기대됩니다."
+      },
+      {
+        "factor": "전동화·지능화",
+        "detail": "차량 전동화·지능화로 고부가 전장부품 비중이 확대되면 자동차부문 실적에 긍정적 영향을 미칩니다."
+      },
+      {
+        "factor": "완성차 생산량",
+        "detail": "자동차 전장부품 수요는 완성차 생산량과 연동되어 경기 변동의 영향을 직접적으로 받습니다."
+      },
+      {
+        "factor": "원재료비",
+        "detail": "원재료비 상승 시 매출원가율이 올라 영업이익률에 부정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "기술·특허",
+        "detail": "다수의 특허·실용신안 보유는 납품 경쟁력과 품목 적용에 기여할 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "연결실체는 휴대폰부품, 자동차부품, 재봉기/자수기의 3개 사업부문을 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "휴대폰부품: 229,433 (17.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "자동차부품: 1,116,292 (81.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "산업용 재봉기 및 자수기: 25,602 (2.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "삼성전자에 공급하고 있으며"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "현대/기아차 등에 공급하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > (2) 산업의 특성",
+        "evidence_text": "고정밀·고품질 기구 부품 공급 능력이 요구됩니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > (2) 산업의 특성",
+        "evidence_text": "고부가가치 전장부품의 비중이 확대되고 있으며,"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > (2) 산업의 특성",
+        "evidence_text": "완성차 생산량과 밀접하게 연동되어 경기 변동의 영향을 직접적으로 받습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4250,
+    "completion_tokens": 5418,
+    "reasoning_tokens": 4352,
+    "output_tokens": 1066
+  },
+  "warnings": []
+}

@@ -1,0 +1,67 @@
+{
+  "stock_code": "033160",
+  "corp_name": "엠케이전자",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 23:51",
+  "meta": {
+    "wics": "반도체와반도체장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "엠케이전자는 용인본사와 중국 쿤산을 거점으로 반도체 패키징용 소재(본딩와이어, 솔더볼, 솔더페이스트 등)를 생산·공급하는 글로벌 소재 기업입니다. 친환경 소재(리사이클링)와 이차전지 소재 등 신규사업도 영위하고 있습니다.",
+    "business_model": "FY2025 기준 사업부문별 영업수익은 반도체용 세금선및증착재료 91.8%, 골드 증착재 0.6%, 스퍼터링 타겟 2.6%, 솔더볼 3.4%, 기타 1.6%로 구성되어 있습니다. 주력은 본딩와이어·솔더볼 등 반도체 패키징 핵심 소재이며 솔더페이스트, 테스트용 팔라듐 합금, 실리콘계 이차전지 소재 등으로 사업을 확장하고 있습니다.",
+    "main_customers": "본딩와이어·솔더볼 등 — 반도체 IDM 및 후공정(패키징) 업체 / 솔더페이스트 — 전자제품·스마트기기 및 자동차 전장 제조업체 / 친환경 재활용 사업 — 휴대전화·컴퓨터·전자제품·차량·공업용 제조업체",
+    "price_factors": [
+      {
+        "factor": "패키징 수요",
+        "detail": "HBM·전장용 반도체 등 고부가 패키지 수요 확대는 본딩와이어·솔더볼 수요를 직접적으로 증가시킵니다."
+      },
+      {
+        "factor": "귀금속 가격",
+        "detail": "금·은·구리 등 원재료 가격 변동은 제품 원가에 영향 미치며, 회사는 귀금속 가격 변동 연동제를 운영하고 있습니다."
+      },
+      {
+        "factor": "신뢰성 요구",
+        "detail": "반도체의 미세화·고집적화로 고신뢰성 소재(예: CCSB, 고신뢰성 솔더볼) 수요와 기술 수준이 실적에 영향을 줍니다."
+      },
+      {
+        "factor": "리사이클링 수요",
+        "detail": "ESG·탄소 저감 추세로 친환경 리사이클링 소재 수요가 증가하면 관련 사업 매출에 긍정적 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 사업의 개요",
+        "evidence_text": "반도체 IDM 업체와 후공정 업체들을 대상으로"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "반도체용 세금선및증착재료: 1,002,095 (91.8%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 주력사업(본딩와이어 등)",
+        "evidence_text": "140여 개 글로벌 고객사와 안정적인 파트너십을 유지하고"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "3) 반도체 패키징 소재 시장 및 당사의 경쟁력",
+        "evidence_text": "고도화된 첨단 패키징 기술이 시장의 핵심 경쟁력"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5155,
+    "completion_tokens": 4188,
+    "reasoning_tokens": 3392,
+    "output_tokens": 796
+  },
+  "warnings": []
+}

@@ -1,0 +1,67 @@
+{
+  "stock_code": "001070",
+  "corp_name": "대한방직",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 17:16",
+  "meta": {
+    "wics": "섬유,의류,신발,호화품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "대한방직은 섬유·의류를 중심으로 면사·혼방사 등 사류영업과 직물의 염색·가공 및 가먼트(의류 완제품) 영업을 영위하는 기업입니다. 2025년 연결기준 매출은 약 1,583억원이며, 매출 구성비는 내수 35.87%, 수출 64.13%로 수출 중심의 매출 구조를 보입니다.",
+    "business_model": "핵심 사업은 방직부문(염색·가공 원단 및 가먼트 영업)과 임대부문으로 구성되며, FY2025 기준 방직부문이 25.4%, 임대부문이 0.2%의 매출 비중을 차지합니다. 사류영업에서는 면사·혼방사 및 친환경 원사를 수입·판매하고, 직물영업에서는 대구공장에서 염색·가공한 원단을 2차 섬유업체와 온라인 채널에 공급합니다.",
+    "main_customers": "사류영업 — COSTCO·SPYDER 등 브랜드 의류 및 의류유통업체 / 직물영업 — 2차 섬유제조업체 및 온라인 채널을 통한 최종 고객 / 임대부문 — 상가 임차인 및 분양 고객",
+    "price_factors": [
+      {
+        "factor": "글로벌수요",
+        "detail": "글로벌 경기 둔화와 소비 패턴 재편으로 섬유·의류 수요 회복이 더딘 점이 실적에 부정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "원부자재",
+        "detail": "원부자재 및 물류비의 변동성 확대는 원가와 마진 변동으로 이어질 수 있습니다."
+      },
+      {
+        "factor": "환율변동",
+        "detail": "수출 비중이 높아 환율 변동은 매출 원화 환산 및 수익성에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "미국관세",
+        "detail": "미국 관세 영향으로 판관비 및 영업외비용이 증가하여 수익성에 부정적 영향을 미쳤습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "매출은 전년 동기 대비 18.20% 증가한 약 1,583억원, 영업이익은 약 7억원입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "방직부문: 33,506 (25.4%), 임대부문: 256 (0.2%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "COSTCO, SPYDER 등 브랜드 의류"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 영업개황",
+        "evidence_text": "미국 관세영향에 따른 판관비 증가"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3884,
+    "completion_tokens": 5389,
+    "reasoning_tokens": 4608,
+    "output_tokens": 781
+  },
+  "warnings": []
+}

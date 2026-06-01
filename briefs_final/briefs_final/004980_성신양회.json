@@ -1,0 +1,73 @@
+{
+  "stock_code": "004980",
+  "corp_name": "성신양회",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 19:02",
+  "meta": {
+    "wics": "건축자재",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "성신양회는 1967년 3월 16일 설립된 시멘트·레미콘 제조·판매 기업으로, 연결대상 종속회사를 포함한 그룹 형태로 사업을 영위하고 있습니다. 비금속(건축자재) 섹터에 속하며 시멘트와 레미콘을 핵심 사업으로 하고 있습니다.",
+    "business_model": "사업부문은 시멘트, 레미콘, 무역, 기타로 구분되며(제품 제조·판매 중심), 시멘트와 레미콘 제조·판매가 핵심 수익원입니다. 최근에는 순환자원 재활용 확대와 생산 설비 효율화, 고부가가치 제품 비중 확대 등으로 원가경쟁력 및 수익성 개선을 추진하고 있습니다.",
+    "main_customers": "시멘트 — 토목·건축업체 / 레미콘 — 건설사·건설현장 / 무역 — 국내외 자재 거래처 / 기타 — 기타 사업부문 고객",
+    "price_factors": [
+      {
+        "factor": "건설경기",
+        "detail": "건설투자와 착공 물량 감소 시 시멘트 수요가 위축되어 판매량과 영업이익이 하락합니다."
+      },
+      {
+        "factor": "연료비",
+        "detail": "에너지 다소비 산업 특성상 수입 연료 가격 상승은 제조원가를 높여 수익성에 부정적 영향을 줍니다."
+      },
+      {
+        "factor": "물류비",
+        "detail": "석회석 산지와 소비지의 공간적 편중으로 물류비 부담이 커지면 제품 단가 경쟁력과 수익성에 영향이 있습니다."
+      },
+      {
+        "factor": "환경비용",
+        "detail": "환경 규제 준수 비용 증가는 제조원가 부담으로 이어져 수익성을 악화시킬 수 있습니다."
+      },
+      {
+        "factor": "환율",
+        "detail": "연결회사들의 외화포지션으로 인한 환율 변동은 당기순손익에 직접적인 영향을 미칠 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "성신양회(주)는 1967년 3월 16일 설립하였으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "사업부문을 시멘트, 레미콘, 무역, 기타로 구분하고 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황 (산업분석)",
+        "evidence_text": "시멘트산업은 토목 및 건축의 기초재료를 공급하는 국가 기간산업입니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황 (산업분석)",
+        "evidence_text": "수입 연료의 수급과 가격동향에 영향을 크게 받습니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 3807,
+    "completion_tokens": 4412,
+    "reasoning_tokens": 3648,
+    "output_tokens": 764
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

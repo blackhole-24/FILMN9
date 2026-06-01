@@ -1,0 +1,72 @@
+{
+  "stock_code": "148930",
+  "corp_name": "에이치와이티씨",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 10:24",
+  "meta": {
+    "wics": "전기제품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "에이치와이티씨는 2000년 한영정공으로 시작해 2차전지(리튬이온 배터리) 제조 장비용 초정밀 부품을 전문으로 생산하는 기업입니다. 극판공정과 조립공정에 들어가는 PX-SHAFT, KNIFE UNIT, 권심 등 다양한 제품군을 보유하고 MES(생산관리시스템) 도입으로 품질과 납기 대응력을 확보하고 있습니다.",
+    "business_model": "주요 수익원은 2차전지 제조 장비용 초정밀 부품 제조로, FY2025 사업부문별 영업수익 구성은 CUTTER 21.8%, 노칭 금형 9.5%, ANVIL 8.6%, PX-SHAFT 7.2%, 초음파혼 6.6%, 권심 3.0%, KNIFE SPACER 2.2%, KNIFE UNIT 1.9%, 절연판 금형 1.5%입니다. 대부분 제품이 소모품 형태로 신규 도입 및 교체 수요가 발생해 지속적인 매출 기반이 기대됩니다.",
+    "main_customers": "극판 공정 부품 — 배터리 제조사·장비사 / 조립 공정 부품 — 배터리 제조사·장비사",
+    "price_factors": [
+      {
+        "factor": "전기차 수요",
+        "detail": "전기차 시장 성장 둔화 시 2차전지 수요가 위축되어 매출에 부정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "대형 고객 의존",
+        "detail": "배터리 3사의 생산량 변화(ESS 라인 교체 등)는 회사 매출에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "배터리 기술전환",
+        "detail": "LFP 등 배터리 기술 채택 변화는 고객의 설비·부품 수요 구조를 바꿀 수 있습니다."
+      },
+      {
+        "factor": "원자재·에너지",
+        "detail": "원자재 가격 상승 및 에너지 공급 불안정은 제조원가를 높여 수익성에 부담을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "[DART 사업보고서 — 영업 현황]",
+        "evidence_text": "2000년 한영정공으로 시작하여"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "CUTTER: 6,565 (21.8%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "라. 시장여건 및 영업의 개황 (1) 산업의 특성, 성장성, 경기변동의 특성, 계절성",
+        "evidence_text": "당사는 배터리 제조사 및 장비사에 제품을 직접적 공급하고 있으며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "LFP 배터리 채택 증가로 인해"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "원자재 가격 상승과 에너지 공급 불안정 등으로 인한 원가 부담"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5536,
+    "completion_tokens": 4212,
+    "reasoning_tokens": 3392,
+    "output_tokens": 820
+  },
+  "warnings": []
+}

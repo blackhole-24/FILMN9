@@ -1,0 +1,78 @@
+{
+  "stock_code": "139480",
+  "corp_name": "이마트",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:21",
+  "meta": {
+    "wics": "백화점과일반상점",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "이마트는 1993년 11월 이마트 창동점 개점을 시작으로 등장한 대형마트를 중심으로 성장한 유통기업입니다. 현재 전국에 대형마트, 슈퍼마켓, 편의점, 복합쇼핑몰과 온라인 쇼핑채널을 운영하고 있으며, 연결 기준 종속회사는 총 63개사입니다.",
+    "business_model": "회사는 대형마트·슈퍼마켓·편의점·온라인 채널을 통해 제조업체, 유통업체, 직수입 상품을 소비자에게 직접 판매하고, 복합쇼핑몰과 대형마트 내 테넌트 유치로 임대수익도 얻고 있습니다. 사업부문은 유통업, 부동산업, 호텔레저업, IT서비스업, 식음료업, 건설업, 해외사업으로 세분화되어 있으며, 제공된 자료에는 각 부문 매출 비율이 명시되어 있지 않습니다. 2025년 기준으로는 유통업 부문이 21조 1,589억원, 부동산업 부문이 731억원의 매출을 기록했습니다.",
+    "main_customers": "유통업 — 대형마트·슈퍼마켓·편의점·온라인 쇼핑 이용 일반 소비자 / 부동산업 — 개발사업 관련 투자·임대 수요처 / 호텔레저업 — 호텔 숙박객, 레저·골프 이용객 / 식음료업 — 외식 및 상품 공급 관련 구매 고객 / 건설업 — 건설·서비스 수요처 / IT서비스업 — IT서비스 및 IT유통 이용 기업·수요처",
+    "price_factors": [
+      {
+        "factor": "소비경기",
+        "detail": "인플레이션 장기화와 실질 소비지출 감소가 이어지면 대형마트와 유통 채널 전반의 매출 회복이 제한될 수 있습니다."
+      },
+      {
+        "factor": "업계규제",
+        "detail": "대형마트는 영업 규제와 시장 성숙화 영향으로 성장 폭이 제한되어 실적 변동에 영향을 받습니다."
+      },
+      {
+        "factor": "온라인경쟁",
+        "detail": "온라인 소비 확대와 식품 온라인 침투가 강해질수록 오프라인 유통 채널의 고객 접점 확대가 중요해집니다."
+      },
+      {
+        "factor": "PL확대",
+        "detail": "자체개발상품(PL, 유통업체가 자체 기획한 상품)과 해외 소싱 상품 확대는 가격 경쟁력과 상품 차별화에 영향을 줍니다."
+      },
+      {
+        "factor": "개발사업",
+        "detail": "부동산업은 입지조건, 규모, 임대가격이 중요한 요소이므로 개발사업 진행과 시장 환경에 따라 수익성이 달라질 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "1993년 11월 이마트 창동점 개점을 시작으로 등장한 대형마트는"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "보고서 작성 기준일 현재 당사의 연결대상 종속회사는 총 63개사"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "대형마트, 슈퍼마켓, 편의점 등을 통해 소비자를 직접 대면"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "복합쇼핑몰 및 대형마트 매장 내 테넌트 유치를 통해"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업분야 데이터 등급(tier)]",
+        "evidence_text": "사업부문은 유통업 부문, 부동산업 부문, 호텔레저업 부문"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 5301,
+    "completion_tokens": 955,
+    "reasoning_tokens": 0,
+    "output_tokens": 955
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

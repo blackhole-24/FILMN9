@@ -1,0 +1,67 @@
+{
+  "stock_code": "002410",
+  "corp_name": "범양건영",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 18:02",
+  "meta": {
+    "wics": "건설",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "범양건영은 토목·건축을 주력으로 하는 건설회사로, 종속회사를 통해 물류창고 임대와 모듈러주택 제조 등도 영위하고 있습니다. 2025년 연결기준 매출액은 71,843백만원이며 영업손실과 당기순손실이 확대되는 등 재무상황이 악화되어 회생절차를 개시하였습니다.",
+    "business_model": "주요 수익원은 건축공사·토목공사 중심의 건설사업이며, FY2025 기준 건축공사 83.5%, 토목공사 10.4%, 물류부문 5.9%, 모듈러부문 0.2%, 기타 0.1%로 매출이 구성됩니다. 종속회사를 통해 물류창고 임대업과 모듈러주택 제조업, 부동산 시행·개발·임대업 등으로 일부 사업다각화를 하고 있습니다.",
+    "main_customers": "토목 — 정부·지자체·공사(공공발주) 및 민간 발주자 / 건축 — 민간 발주자 및 공공 발주자 / 물류부문 — 물류창고 임대의 임차인 / 모듈러부문 — 모듈러주택의 구매자·수요처",
+    "price_factors": [
+      {
+        "factor": "공공발주 의존도",
+        "detail": "공공 발주 규모 변화(정부·지자체 정책)에 따라 토목 사업 실적이 크게 영향받습니다."
+      },
+      {
+        "factor": "원가(자재) 상승",
+        "detail": "공사 원가 및 외주비 상승 시 매출원가 증가로 이익률이 급락할 수 있습니다."
+      },
+      {
+        "factor": "분양시장 침체",
+        "detail": "시행사 분양실적 저조 시 매출채권 회수지연과 대손 인식으로 실적이 악화됩니다."
+      },
+      {
+        "factor": "계약 리스크",
+        "detail": "준공지체·도급계약 중도해지·지체상금 발생 시 매출 및 현금흐름에 부정적 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "1. 지배회사의 사업의 개요",
+        "evidence_text": "당사는 토목, 건축 사업부문으로 구성되어 있으며,"
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "건축공사: 59,969 (83.5%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "1) 토목사업(1) 산업의 특성",
+        "evidence_text": "토목사업분야는 정부, 지자체, 공사 등 공공부문이 주요 발주처이며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "1) 토목사업(3) 경기변동의 특성",
+        "evidence_text": "토목분야는 정부의 사회간접시설 투자규모에 큰 영향을 받으며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4155,
+    "completion_tokens": 3535,
+    "reasoning_tokens": 2752,
+    "output_tokens": 783
+  },
+  "warnings": []
+}

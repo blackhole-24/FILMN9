@@ -1,0 +1,71 @@
+{
+  "stock_code": "335870",
+  "corp_name": "윙스풋",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 16:46",
+  "meta": {
+    "wics": "섬유,의류,신발,호화품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "윙스풋은 2007년 03월 설립된 국내 신발 유통기업으로, 백화점·프리미엄 아울렛을 포함한 오프라인과 온라인·홈쇼핑·수출 등 다양한 채널을 통해 사업을 영위하고 있습니다. 당사는 국내 독점 라이선스 브랜드와 자사 PB(상표권) 브랜드를 함께 전개하며 신발 기획·생산·물류·유통 전반을 담당합니다.",
+    "business_model": "주요 수익원은 제품 판매(상품매출)로 FY2025 기준 상품매출이 57.6%를 차지하고, 글로벌브랜드가 32.5%를 차지합니다. 그 외 WINGS' FOOT 3.7%, FESSURA 2.4%, ADNO 1.7% 등 브랜드별 매출 및 수출(4.0%)을 통해 매출이 구성되며, 오프라인 소매, D2C(자사몰) 및 온라인 플랫폼, 홈쇼핑, 홀세일 채널을 통해 판매합니다.",
+    "main_customers": "상품매출 — 백화점·프리미엄 아울렛을 이용하는 소매 고객 및 온라인 소비자 / 글로벌브랜드 — 자사 유통망을 통한 소매·도매 고객 / WINGS' FOOT·ADNO·FESSURA 등 브랜드 — 온라인 플랫폼(무신사 등) 및 D2C 소비자 / 수출 — 해외 바이어",
+    "price_factors": [
+      {
+        "factor": "트레일 러닝",
+        "detail": "2025년 러닝 붐에 이어 2026년 트레일 러닝 수요가 확대되면 기능성·러닝화 라인업 강화가 실적에 긍정적 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "친환경 트렌드",
+        "detail": "지속 가능성(리사이클·비건 소재) 확산은 제품 기획·소재 대응 여부에 따라 브랜드 경쟁력과 비용 구조에 영향을 줍니다."
+      },
+      {
+        "factor": "온라인 D2C",
+        "detail": "AI 추천·라이브 커머스 등 온라인 채널 강화는 D2C 및 플랫폼 매출 비중 확대와 직결되어 실적 변동성을 키울 수 있습니다."
+      },
+      {
+        "factor": "글로벌 경쟁",
+        "detail": "나이키·아디다스 등 글로벌 브랜드의 강세 속에서 당사의 라이선스·PB 경쟁력이 실적에 중요한 변수로 작용합니다."
+      },
+      {
+        "factor": "계절성(기후)",
+        "detail": "이상기온·짧은 겨울 등 기후 변화는 시즌성 제품(겨울 부츠 등)의 수요에 직접적인 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "[경영진 실적·전략 요약 (MD&A)]",
+        "evidence_text": "당사는 2007년 03월 설립 이후 국내 신발 유통사업을 지속적으로 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "상품매출: 24,171 (57.6%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "[경영진 실적·전략 요약 (MD&A)]",
+        "evidence_text": "오프라인매장 뿐만 아니라 온라인(자사몰 포함), 홈쇼핑, 홀세일, 수출 등 다양한 유통채널을 통해 매출이 이루어지고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "(나) 신발 산업 특성",
+        "evidence_text": "2025년 러닝 붐 및 2026년 트레일 러닝 시장의 폭발적 확대"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5207,
+    "completion_tokens": 3738,
+    "reasoning_tokens": 2816,
+    "output_tokens": 922
+  },
+  "warnings": []
+}

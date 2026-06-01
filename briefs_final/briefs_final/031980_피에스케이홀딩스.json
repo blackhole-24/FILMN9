@@ -1,0 +1,69 @@
+{
+  "stock_code": "031980",
+  "corp_name": "피에스케이홀딩스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 23:39",
+  "meta": {
+    "wics": "반도체와반도체장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "피에스케이홀딩스는 반도체 패키징 공정 장비의 제조·판매를 주된 사업으로 하는 기업입니다. 국내 본사에서 장비 제조·판매와 부품 공급 및 기술서비스를 총괄하며, 미국의 SEMIgear Inc.를 종속회사로 보유하고 있습니다.",
+    "business_model": "핵심 사업은 반도체 패키징 장비의 개발·제조·판매이며, 장비 납품과 부품판매 및 기술서비스가 주요 수익원입니다. 주요 제품군은 Descum 장비, Fluxless Reflow 장비, Hot DI Water 가열장비 등으로 구성되어 있습니다.",
+    "main_customers": "반도체 — 국내외 반도체 패키징 업체 (장비 납품 대상)",
+    "price_factors": [
+      {
+        "factor": "설비투자",
+        "detail": "반도체 패키징 업체들의 설비투자 계획 변화에 민감해 실적 변동성이 큽니다."
+      },
+      {
+        "factor": "기술력",
+        "detail": "설계·초정밀가공·청정기술 등 복합적 핵심기술 확보 여부가 경쟁력에 직접 영향합니다."
+      },
+      {
+        "factor": "제품주기",
+        "detail": "장비의 Life-Cycle이 짧아 적기 신제품 출시 여부가 시장 점유율에 영향을 줍니다."
+      },
+      {
+        "factor": "해외수요",
+        "detail": "중국·대만·미국 등 해외 반도체 제조사의 수요 변동이 매출에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "반도체 장비(패키징 장비)의 제조와 판매"
+      },
+      {
+        "field": "business_model",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "당사는 반도체 패키지장비 중 Descum 장비를 주력으로 하고 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 업계의 현황(1) 산업의 특성",
+        "evidence_text": "당사는 국내 및 해외 다수의 반도체 패키징 기업들에게 장비를 납품하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 업계의 현황(1) 산업의 특성",
+        "evidence_text": "반도체 패키징 공정 장비는 Life-Cycle이 빠르기 때문에 시장수요에 대응하기 위한 적기 출시가 중요합니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 3758,
+    "completion_tokens": 3859,
+    "reasoning_tokens": 3200,
+    "output_tokens": 659
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

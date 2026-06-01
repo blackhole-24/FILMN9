@@ -1,0 +1,86 @@
+{
+  "stock_code": "060590",
+  "corp_name": "씨티씨바이오",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 04:02",
+  "meta": {
+    "wics": "제약",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "씨티씨바이오는 동물약품과 인체약품을 주력으로 하는 제약회사로, 미생물발효기술과 약물전달기술(DDS) 등 핵심기술을 보유하고 있습니다. 자체 개발 제품(예: CTCZYME)을 통해 기술적 인정을 받았으며, 수백 종의 제품을 내수와 해외시장에서 고르게 판매하고 있습니다.",
+    "business_model": "사업부문별 영업수익(FY2025)은 동물약품군 11.4%, 인체약품군 21.6%로 보고되어 있으며, 제품 라인업이 수백 종에 달해 특정 제품에 매출이 집중되지 않는 구조입니다. 미생물발효기술과 DDS(약물전달기술), 필름형제제(ODF), 복합제 등을 접목한 개량신약 및 제형 개선 제품 개발을 통해 편의성과 효율성 증대를 추구하고 있습니다.",
+    "main_customers": "동물약품 — 사료공장 매출·현장(필드)·수출 및 원료동물약품 판매 / 인체약품 — OTC(일반의약품) 대상 일반소비자·ETC(전문의약품) 대상 의료기관",
+    "price_factors": [
+      {
+        "factor": "경쟁심화",
+        "detail": "국내 제약업계에 500여개 이상의 업체가 난립해 경쟁이 치열해질수록 시장 선점과 가격 경쟁이 실적에 영향합니다."
+      },
+      {
+        "factor": "특허·선점",
+        "detail": "물질특허 만료 품목의 개량신약 개발은 시장 선점 여부에 따라 매출화 속도와 규모에 직접적 영향을 미칩니다."
+      },
+      {
+        "factor": "허가·임상지연",
+        "detail": "의약품은 임상·허가에 상당한 시간이 필요하므로 허가 지연 시 신제품 매출 발생 시점이 늦춰집니다."
+      },
+      {
+        "factor": "환율변동",
+        "detail": "원재료 수입과 해외판매를 병행하므로 환율 변동은 원가와 수출 수익성에 영향을 줍니다."
+      },
+      {
+        "factor": "동물약품 규제",
+        "detail": "전세계적 항생제 사용 규제와 생균·효소제 수요 변화는 동물약품 포트폴리오의 수익성에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "동물약품, 인체약품의 사업영역으로 구성되어 있으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "동물약품군: 14,100 (11.4%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "인체약품군: 26,686 (21.6%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황",
+        "evidence_text": "약물전달기술(DDS, Drug Delivery System)등 다양한 핵심기술을 보유하고 있으며"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "CTCZYME 은 세계일류상품 선정 및 장영실상을 수상하였고"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "3. 시장여건 및 영업의 개황가.업계의 현황 (2)동물약품",
+        "evidence_text": "사료공장매출, 필드매출, 기타매출(수출, 원료동물약품판매)"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "특정제품에 매출 비중이 집중되지 않고 고르게 판매되고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4146,
+    "completion_tokens": 5534,
+    "reasoning_tokens": 4544,
+    "output_tokens": 990
+  },
+  "warnings": []
+}

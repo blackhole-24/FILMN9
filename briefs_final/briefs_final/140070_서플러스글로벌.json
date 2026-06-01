@@ -1,0 +1,62 @@
+{
+  "stock_code": "140070",
+  "corp_name": "서플러스글로벌",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 10:04",
+  "meta": {
+    "wics": "반도체와반도체장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "서플러스글로벌은 반도체 전공정·후공정 중고장비의 매입·매각을 전문으로 하는 유통 플랫폼 기업으로, 전 세계 네트워크를 통해 연간 수천대의 중고 장비를 거래합니다. 2025년 연결기준 매출액은 2,084억원이며, 매입액은 1,410억원입니다.",
+    "business_model": "핵심 사업은 중고 반도체 장비의 매입·매각을 통한 유통 플랫폼(중고장비 매입·매각 중개)이며, FY2025 사업부문별 영업수익 구성은 전공정 74.1%, 후공정 13.7%, 제품 0.6%, 기타 11.6%로 전공정 장비 비중이 큽니다.",
+    "main_customers": "전공정 — TSMC·UMC·SMIC·동부하이텍 등 반도체 Fab / 후공정 — Fab 간 거래·유통업체·Refurbisher(리퍼비셔, 장비정비업체) / 제품·기타 — 반도체 장비회사 및 유통업체",
+    "price_factors": [
+      {
+        "factor": "글로벌 수급 변동",
+        "detail": "중고장비는 글로벌 공급·수요에 따라 가격 변동이 크므로 수급 변화가 매입·매각 마진과 실적에 직접 영향합니다."
+      },
+      {
+        "factor": "주요 Fab 수요",
+        "detail": "TSMC·UMC·SMIC 등 주요 파운드리(Fab)의 장비 매입 수요 증감이 매출 규모와 재고처분 시점에 영향을 미칩니다."
+      },
+      {
+        "factor": "경매·입찰 경쟁",
+        "detail": "연간 다수의 중고장비가 입찰로 거래되는 시장 특성상 경쟁 압력이 가격 및 이익률 변동성을 확대합니다."
+      },
+      {
+        "factor": "재고·현금흐름",
+        "detail": "선제적 재고 확보 전략은 일시적 현금 유출과 재고자산회전율 변화로 실적 및 재무지표에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용",
+        "evidence_text": "당사는 반도체 전공정, 후공정 중고장비의 매입매각 전문업체로서"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "전공정: 154,405 (74.1%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 업계의 현황",
+        "evidence_text": "주로 TSMC, UMC, SMIC, 동부하이텍 등에 매각을 하고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3980,
+    "completion_tokens": 3910,
+    "reasoning_tokens": 3200,
+    "output_tokens": 710
+  },
+  "warnings": []
+}

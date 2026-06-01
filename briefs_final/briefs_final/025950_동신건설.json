@@ -1,0 +1,71 @@
+{
+  "stock_code": "025950",
+  "corp_name": "동신건설",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 09:53",
+  "meta": {
+    "wics": "건설",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "동신건설은 1958년 10월 8일 설립된 종합건설업체로, 토목·건축·주택건설·문화재공사를 주력으로 하고 있습니다. 경북지역을 기반으로 오랜 업력과 풍부한 시공경험을 바탕으로 양호한 영업지위를 구축해 온 회사입니다.",
+    "business_model": "FY2025 사업부문별 영업수익은 국내 도급공사가 90.4%, 자체공사가 9.6%로 구성되어 있습니다. 국내 도급공사는 외부 발주 공사를 맡아 수행하는 형태이고, 자체공사는 회사가 직접 사업을 추진하는 방식으로 볼 수 있습니다. 회사는 종합건설업체로서 공사 수주와 시공을 통해 매출을 창출하는 구조입니다.",
+    "main_customers": "국내 도급공사 — 공공 및 민간 발주처 / 자체공사 — 자체 사업 추진 대상",
+    "price_factors": [
+      {
+        "factor": "수주환경",
+        "detail": "정부 발주공사 예산과 공공 공사 수주 여건이 개선되면 수주 물량이 늘 수 있지만, 경쟁심화와 수주환경 변화는 실적에 부담으로 작용합니다."
+      },
+      {
+        "factor": "원가부담",
+        "detail": "철근·시멘트·목재 등 원자재 가격이 오르면 공사 원가가 높아져 수익성에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "환율변동",
+        "detail": "자재 수급이 국제 원자재 가격과 환율변동의 영향을 받기 때문에 원가와 공사 진행 여건이 흔들릴 수 있습니다."
+      },
+      {
+        "factor": "노임상승",
+        "detail": "건설업은 인건비 비중이 높아 노임상승이 이어지면 우수 시공인력 확보와 원가 관리에 제약이 생길 수 있습니다."
+      },
+      {
+        "factor": "경기침체",
+        "detail": "건설경기 침체가 길어지면 재무구조와 수주 환경이 악화될 수 있어 업황 흐름이 실적에 직접적인 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "1958년 10월 8일 설립된 건설회사로"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "경북지역의 종합건설사입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "국내 도급공사: 7,033,799 (90.4%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "자체공사: 3,203,858 (9.6%)"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3671,
+    "completion_tokens": 748,
+    "reasoning_tokens": 0,
+    "output_tokens": 748
+  },
+  "warnings": []
+}

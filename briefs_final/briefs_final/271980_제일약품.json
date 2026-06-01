@@ -1,0 +1,67 @@
+{
+  "stock_code": "271980",
+  "corp_name": "제일약품",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 14:36",
+  "meta": {
+    "wics": "제약",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "제일약품은 2017년 6월 1일 제일파마홀딩스의 전문의약품 사업부문이 인적분할되어 신설된 완제 의약품 제조·판매 회사입니다. 연결 기준으로 2025년 당기 매출액은 5,672억원, 영업이익은 207억원을 기록하며 완제의약품 중심의 사업을 영위하고 있습니다.",
+    "business_model": "주요 매출은 의약품(11.8%), 상품(26.7%), 기타(30.3%) 등으로 구성되며, 제품별로는 리피토플러스(4.4%), 로제듀오(4.0%), 리리카 캡슐(2.1%), 카듀엣 정(2.5%) 등 다수 품목이 매출을 분산하고 있습니다. 또한 신약개발을 전담하는 종속회사 온코닉테라퓨틱스(주)를 통해 내부 R&D 역량 고도화와 외부 기술 연계를 통한 개방형 혁신을 추진하고 있습니다.",
+    "main_customers": "의약품 — 보고서상 별도 고객군 구분 없음(의약품 제조·판매가 지배적 단일 사업부문으로 기재됨)",
+    "price_factors": [
+      {
+        "factor": "제품 포트폴리오",
+        "detail": "상품·기타 비중과 다수 품목에 따른 매출 분산이 실적 변동성과 신제품 의존도를 함께 좌우합니다."
+      },
+      {
+        "factor": "규제 환경",
+        "detail": "규제 및 글로벌 시장 트렌드 변화는 의약품 허가·판매와 사업 전략에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "신약개발 성과",
+        "detail": "온코닉테라퓨틱스의 신약개발 진전 여부는 중장기 성장 동력 및 투자심리에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "재무 구조",
+        "detail": "매출채권 감소 등으로 자산총계 변동이 있었던 점은 단기 실적·재무안정성에 영향을 미칠 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 회사의 현황 (1) 영업개황",
+        "evidence_text": "완제 의약품 제조 및 판매업을 주된 영업으로하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "의약품: 67,128,170 (11.8%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "(나) 공시대상 사업부문의 구분",
+        "evidence_text": "당사는 의약품 제조 및 판매업이 지배적 단일 사업부문으로"
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황(도입부)",
+        "evidence_text": "온코닉테라퓨틱스(주)는 신약개발연구를 주된 영업으로 하고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3242,
+    "completion_tokens": 3381,
+    "reasoning_tokens": 2624,
+    "output_tokens": 757
+  },
+  "warnings": []
+}

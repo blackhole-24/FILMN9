@@ -1,0 +1,67 @@
+{
+  "stock_code": "438700",
+  "corp_name": "버넥트",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 19:36",
+  "meta": {
+    "wics": "소프트웨어",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "버넥트는 자체 개발한 컴퓨터 비전 기반의 XR(확장현실) 기술로 산업 현장용 XR 솔루션을 전문 개발하는 테크 기업입니다. 산업용 원천기술(VIRNECT Track)을 바탕으로 원격지원·저작·뷰어·디지털트윈 등 솔루션을 상용화하고 있습니다.",
+    "business_model": "주요 수익원은 '제품(라이선스, 솔루션, 기타)'과 '상품'으로 구성되며, FY2025 기준 제품이 79.8%, 상품이 20.2%를 차지합니다(제품: 라이선스·솔루션 중심). 제품은 VIRNECT Remote/Make/View/Twin과 같은 산업용 XR 솔루션의 라이선스·프로젝트 매출이 주를 이루고, 상품은 별도 물품 매출로 구성됩니다.",
+    "main_customers": "VIRNECT Remote — 제조 및 플랜트 분야 / VIRNECT Make/View — 제조·문화·교육 등 다양한 분야 / VIRNECT Twin — 플랜트·공장 등 대규모 산업현장 / 제품(라이선스·솔루션) — 주로 대기업·계열사·공공기관",
+    "price_factors": [
+      {
+        "factor": "정책·지원",
+        "detail": "정부의 기술 지원 및 산업 안전 정책(재해 방지 등)이 XR 도입 수요에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "대기업 플랫폼",
+        "detail": "글로벌 빅테크의 XR·인프라 투자가 확대되면 범용 플랫폼 활용을 통해 당사의 솔루션 확대에 유리할 수 있습니다."
+      },
+      {
+        "factor": "프로젝트 계절성",
+        "detail": "대기업·공공기관의 예산·입찰·검수 프로세스 특성상 하반기에 매출이 집중되는 계절적 구조를 보입니다."
+      },
+      {
+        "factor": "HW·통신 발전",
+        "detail": "하드웨어와 통신망(네트워크) 발전이 가속되면 XR 사용성 개선으로 수요 확대로 연결됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 주요서비스",
+        "evidence_text": "XR 솔루션을 전문적으로 개발하는 테크 기업입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "제품: 675,314 (79.8%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "상품: 624,568 (20.2%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "나. 시장 현황 및 영업의 개황",
+        "evidence_text": "현재 당사 솔루션 수요처는 주로 대기업 및 계열사, 공공기관이라는 점"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5247,
+    "completion_tokens": 3212,
+    "reasoning_tokens": 2496,
+    "output_tokens": 716
+  },
+  "warnings": []
+}

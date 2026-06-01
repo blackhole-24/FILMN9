@@ -1,0 +1,62 @@
+{
+  "stock_code": "101490",
+  "corp_name": "에스앤에스텍",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 08:05",
+  "meta": {
+    "wics": "반도체와반도체장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "에스앤에스텍은 대구와 용인에 생산시설을 둔 반도체·디스플레이 소재 전문기업으로, 반도체 및 디스플레이용 블랭크마스크(Blank Mask)를 제조·판매합니다. 종속회사들을 통해 신기술사업금융업과 바이오·과학기술 서비스업 등도 영위하고 있으며, 2025년 연결기준 매출액은 2,437억 원입니다.",
+    "business_model": "사업부문별 매출 구성은 문서상 96.3%, 2.9%, 0.8%로 표기되어 있으며(합계 100%), 주력은 블랭크마스크(Blank Mask) 생산·판매로 대부분의 매출이 발생합니다. 자회사(에스앤에스인베스트먼트, 에스앤에스랩 등)를 통한 신기술금융·바이오·과학기술 서비스가 소규모로 수익에 기여합니다.",
+    "main_customers": "블랭크마스크 — 반도체·디스플레이 제조업체 및 포토마스크 관련 전방 산업 / 자회사 사업 — 신기술금융·바이오·과학기술 서비스 수요처",
+    "price_factors": [
+      {
+        "factor": "전방수요",
+        "detail": "반도체·디스플레이 수요 변화에 따라 블랭크마스크의 수요와 매출이 직접적으로 변동합니다."
+      },
+      {
+        "factor": "환율·원자재",
+        "detail": "수출품과 원재료 매입이 환율 변동에 민감해 환율 변동 시 매출 및 비용에 영향이 발생합니다."
+      },
+      {
+        "factor": "기술·원가",
+        "detail": "메모리 등 반도체 산업은 기술력과 원가 경쟁력이 기업 생존의 핵심으로, 원가·기술 경쟁이 실적에 영향을 줍니다."
+      },
+      {
+        "factor": "AI 수요",
+        "detail": "AI·HBM 등 AI 관련 반도체 수요 증가는 반도체 시장 확대를 통해 블랭크마스크 수요를 늘릴 가능성이 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "블랭크마스크(Blank Mask)를 생산ㆍ판매하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "■ 주요 사업부문 (비율 불명확)   - 96.3%   - 2.9%   - 0.8%   - 100%"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "다만, 수출품의 경우 환율 변동에 따라 영향을 받을 수 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4360,
+    "completion_tokens": 4885,
+    "reasoning_tokens": 4160,
+    "output_tokens": 725
+  },
+  "warnings": []
+}

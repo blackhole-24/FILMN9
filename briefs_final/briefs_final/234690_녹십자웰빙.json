@@ -1,0 +1,81 @@
+{
+  "stock_code": "234690",
+  "corp_name": "녹십자웰빙",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 13:18",
+  "meta": {
+    "wics": "제약",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "녹십자웰빙은 전문의약품(영양주사 등)과 병의원용 건강기능식품, 의료기기·에스테틱 제품의 제조·판매와 의약품·천연물소재 연구개발을 영위하는 제약기업입니다. 라이넥(국내 유일 인태반가수분해물)을 중심으로 Medical Nutrition(영양주사) 분야에서 경쟁력을 보유하고 있으며 병의원 채널을 주요 거래처로 두고 있습니다.",
+    "business_model": "사업부문별 FY2025 기준 매출 구성은 제품(의약품 등) 53.0%, 상품 34.0%, 건강기능식품 9.0%, 수출 4.0%, 기타 4.0%로 이루어져 있습니다. 핵심 수익원은 비급여 기반의 전문의약품(영양수액제·Pain·Gut 등)과 병의원 전용 건강기능식품 브랜드 Dr.PNT(검사 기반 맞춤형 제품), 그리고 병·의원용 에스테틱(필러·스킨부스터 등) 상품 판매입니다.",
+    "main_customers": "전문의약품 — 병의원, 의약품 도매처 / 건강기능식품(Dr.PNT) — 병의원 및 병원 방문 소비자 / 의료기기·에스테틱 — 피부과·성형외과·병의원 / 수출 — 중국 등 해외 시장",
+    "price_factors": [
+      {
+        "factor": "규제리스크",
+        "detail": "임상재평가 결과나 허가 취소 사례가 발생하면 특정 품목의 판매 중단으로 실적에 큰 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "병의원채널",
+        "detail": "제품과 Dr.PNT가 병의원 처방·추천을 통해 판매되기 때문에 병의원 영업력과 처방 관행 변화에 민감합니다."
+      },
+      {
+        "factor": "제품대체성",
+        "detail": "건강기능식품과 영양주사제가 상호 보완·대체 역할을 하므로 수요가 한쪽으로 이동하면 매출 구성 변화가 발생할 수 있습니다."
+      },
+      {
+        "factor": "해외진출",
+        "detail": "중국 등 해외 인증·수출 성과는 수출 비중(4%) 확대와 성장성에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "거시환경",
+        "detail": "저성장·물가·환율 변동 등 거시 불확실성은 병·의원 소매 수요와 수출 환경에 부담을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "제품: 81,848 (53.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "상품: 52,050 (34.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "건강기능식품: 14,165 (9.0%)"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "가. 사업 개황",
+        "evidence_text": "주요 거래처는 병의원 및 의약품 도매처 등으로 구성되어 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "바. 경쟁현황 1) 경쟁 상황가) 주요 경쟁현황",
+        "evidence_text": "자하거가수분해물은 재평가 대상 9개 품목 중 당사의 ‘라이넥’1개 품목만 판매가 허용됐습니다."
+      },
+      {
+        "field": "company_overview",
+        "source_section": "MD&A",
+        "evidence_text": "2025년 연결 매출액과 영업이익은 각각 1,647억과 173억원으로 전년 대비 매출액은 23%, 영업이익은 33% 증가했습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5704,
+    "completion_tokens": 5214,
+    "reasoning_tokens": 4224,
+    "output_tokens": 990
+  },
+  "warnings": []
+}

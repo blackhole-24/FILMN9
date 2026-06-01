@@ -1,0 +1,58 @@
+{
+  "stock_code": "317850",
+  "corp_name": "대모",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 16:21",
+  "meta": {
+    "wics": "기계",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "대모는 1987년 설립(1989년 법인전환) 이후 굴삭기용 어태치먼트(부착물)인 유압브레이커·퀵커플러 등을 제조해 온 건설기계 종합 전문 제조·판매사로, 2030년 특수목적 건설기계 종합 Maker를 목표로 하고 있습니다. 국내 굴삭기 어태치먼트 시장에서 수산세보틱스·에버다임과 함께 주요 플레이어로 인식되며 글로벌 판매망을 통해 해외 다수 거래처에 제품을 공급하고 있습니다.",
+    "business_model": "주요 사업은 굴삭기용 어태치먼트(유압브레이커, 퀵커플러 등) 제조·판매이며, FY2025 기준 사업부문별 영업수익에서 '주요상표' 매출이 100.0%를 차지합니다. 제품은 자사 브랜드(Alicon 등)와 글로벌 굴삭기 제조사 대상 ODM(제조업자개발생산) 방식으로 판매되며, 다양한 톤급 라인업과 기술(공타방지·2단 스피드 등)을 바탕으로 수출 중심의 영업구조를 유지합니다.",
+    "main_customers": "브레이커·어태치먼트 — 도로공사·토목공사·건축물 파쇄현장·광산·석산 작업장 / ODM 공급 — 글로벌 굴삭기 제조사",
+    "price_factors": [
+      {
+        "factor": "건설경기",
+        "detail": "어태치먼트 제품 수요는 건설경기에 민감하여 경기 침체 시 매출이 크게 감소할 수 있습니다."
+      },
+      {
+        "factor": "수출·환율",
+        "detail": "높은 수출 비중과 환율 변동은 원화 환산 매출과 손익에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "제품차별화",
+        "detail": "Alicon 등 핵심 기술(공타방지, 2단 스피드 등)은 가격·수주 경쟁력에 긍정적 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 회사의 현황 (1) 사업 개황(가) 사업 개요",
+        "evidence_text": "굴삭기 어태치먼트(부착물)인 유압브레이커, 퀵커플러 등을 제조"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "주요상표: 25,099,285 (100.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 회사의 현황 (1) 사업 개황(가) 사업 개요",
+        "evidence_text": "주로 도로공사, 토목공사, 건축물 파쇄현장, 광산, 석산 작업장에서 사용됩니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4426,
+    "completion_tokens": 3033,
+    "reasoning_tokens": 2304,
+    "output_tokens": 729
+  },
+  "warnings": []
+}

@@ -1,0 +1,72 @@
+{
+  "stock_code": "153490",
+  "corp_name": "우리이앤엘하루틴",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 10:27",
+  "meta": {
+    "wics": "디스플레이장비및부품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "우리이앤엘하루틴은 2008년 설립되어 LED 패키지(PKG)를 주력으로 하는 전기·전자 기업입니다. TV·모니터·노트북용 백라이트(BLU)부터 일반조명·자동차용 모듈까지 다양한 LED 제품을 개발·공급하며, 건강기능식품 브랜드 '하루틴'도 운영하고 있습니다.",
+    "business_model": "주요 수익원은 LED Light Bar(LED 부품)로 매출의 78.62%를 차지하며, 건강기능식품 부문이 21.38%를 차지합니다(판매·유통 중심). 당사는 중국·베트남 등 해외 생산거점을 통한 글로벌 공급체계를 구축하고 고효율·고신뢰성 LED 제품 및 차량용 응용 확대 등 기술 고도화로 부가가치 창출을 추구합니다.",
+    "main_customers": "LED Light Bar — TV·모니터·노트북 등 디스플레이 제조사 및 일반조명·자동차 부품 제조사 / 건강기능식품 — 일반 소비자(브랜드 '하루틴' 대상)",
+    "price_factors": [
+      {
+        "factor": "차세대기술",
+        "detail": "Mini LED·Micro LED 등 차세대 디스플레이 기술 확대는 LED 매출 구조와 고부가가치 제품 수요에 직접 영향합니다."
+      },
+      {
+        "factor": "원가경쟁",
+        "detail": "중국·한국·대만 중심의 생산경쟁 심화는 원가·마진 압박으로 실적에 부담을 줄 수 있습니다."
+      },
+      {
+        "factor": "공급망",
+        "detail": "중국·베트남 등 해외 생산거점 의존은 공급망 안정성(생산 차질·운송비)에 따라 실적 변동성을 유발할 수 있습니다."
+      },
+      {
+        "factor": "건기수요",
+        "detail": "고령화 및 건강 관심 증가는 건강기능식품 수요 확대 요인으로 매출에 긍정적 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "(1) LED PKG MODULE / SMT",
+        "evidence_text": "LED 패키지(PKG) 사업을 주력으로 영위해 왔습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[표] 2-1. 주요 제품 등의 현황",
+        "evidence_text": "95,299,019(78.62%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[표] 2-1. 주요 제품 등의 현황",
+        "evidence_text": "25,911,817(21.38%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "(1) LED PKG MODULE / SMT",
+        "evidence_text": "TV, 모니터, 노트북 PC 등 디스플레이용 백라이트유닛(BLU)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "(2) 건강기능식품",
+        "evidence_text": "하루틴은 2021년 8월 시장에 출시되었습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4675,
+    "completion_tokens": 3525,
+    "reasoning_tokens": 2752,
+    "output_tokens": 773
+  },
+  "warnings": []
+}

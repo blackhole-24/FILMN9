@@ -1,0 +1,62 @@
+{
+  "stock_code": "298050",
+  "corp_name": "HS효성첨단소재",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 15:31",
+  "meta": {
+    "wics": "화학",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "HS효성첨단소재는 산업용 섬유·고기능 소재를 주력으로 하는 화학(소재) 기업으로, 타이어보강재·시트벨트용 원사·아라미드·탄소섬유·스판덱스 등 산업자재와 섬유 제품을 생산합니다. 연결기준 2025년 매출액은 3,283,045백만원으로 대규모 생산기반과 글로벌 공급망을 보유하고 있습니다.",
+    "business_model": "2025년 사업부문별 매출 구성은 산업자재 98.9%, 섬유 10.4%, 기타 2.6%로 산업자재 중심의 매출 구조를 보입니다. 산업자재 부문에서는 폴리에스터 타이어코드, 스틸코드, 산업용 원사, 카페트, 아라미드, 탄소섬유 등이 핵심 제품이고, 섬유 부문은 스판덱스·폴리에스터 원사 등 의류용 고기능성 섬유, 기타 부문은 나일론필름·임대사업 등으로 수익이 구성됩니다.",
+    "main_customers": "산업자재 — Global 타이어 제조업체·Global tier 1 부품업체·Global 자동차 제조업체 / 섬유 — 의류업체 및 섬유업체 / 기타 — 식품·의약품 포장업체(나일론필름) 및 임대수요",
+    "price_factors": [
+      {
+        "factor": "자동차 수요",
+        "detail": "자동차 수요 변동은 타이어코드·시트벨트·카페트 등 주요 제품 수요에 직접적인 영향을 주어 실적 변동성이 커질 수 있습니다."
+      },
+      {
+        "factor": "원재료·환율",
+        "detail": "PET Chip·Wire rod·PTMG·MDI·Nylon Chip 등 원재료 가격과 환율 변동은 제품 원가와 판가에 즉각적인 영향을 미칩니다."
+      },
+      {
+        "factor": "대형 고객 의존",
+        "detail": "주요 고객이 글로벌 타이어사·Tier1 부품업체인 만큼 장기공급계약이나 수요 변동이 실적과 계약조건에 영향을 줍니다."
+      },
+      {
+        "factor": "생산능력·원가경쟁력",
+        "detail": "글로벌 생산기지 증설 및 자동화 도입 수준은 원가 경쟁력과 납품 안정성에 영향을 미쳐 수익성에 직결됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "산업자재, 섬유 및 기타 부문으로 구분할 수 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "산업자재: 3,166,450 (98.9%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황 [시장여건]",
+        "evidence_text": "타이어보강재의 경우 Global 타이어 제조업체가"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5897,
+    "completion_tokens": 3673,
+    "reasoning_tokens": 2880,
+    "output_tokens": 793
+  },
+  "warnings": []
+}

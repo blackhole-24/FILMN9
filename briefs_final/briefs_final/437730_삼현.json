@@ -1,0 +1,62 @@
+{
+  "stock_code": "437730",
+  "corp_name": "삼현",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 19:35",
+  "meta": {
+    "wics": "자동차부품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "삼현은 1988년 창업 이래 모터·제어기·감속기 및 이를 통합한 3-in-1 제품인 스마트 액추에이터와 스마트 파워유닛을 전문 제조하는 기업입니다. 주요 적용처는 자동차 전장(모빌리티), 무인화 방산, 지능형 로봇 등으로, 현대자동차 그룹 등 완성차 계열사와 협력 관계를 유지하고 있습니다.",
+    "business_model": "핵심은 모터·제어기·감속기를 통합한 3-in-1 전장 솔루션(스마트 액추에이터·스마트 파워유닛) 설계·생산이며, FY2025 기준 사업부문별 영업수익 비중은 CVVD 43.0%, DCT 22.0%, SBW 14.0%, Disconnect Motor 3.0%, 2속 ATC 1.0%, 방산 7.0%, 로봇/항공 2.0%, 연구소 7.0%, 기타매출 1.0%로 구성됩니다. 모빌리티 부문에서의 차량용 전장품 공급과 방산·로봇 분야의 모듈화 제품 수주가 수익을 형성합니다.",
+    "main_customers": "모빌리티 — 완성차 제조사(현대자동차 그룹 및 관련 협력사) / 방산 — 방위산업체(한화그룹 등 협력사) / 로봇/항공 — 산업용 및 서비스 로봇 개발·제작사",
+    "price_factors": [
+      {
+        "factor": "전동화 확산",
+        "detail": "전기차 및 전동화 부품 수요 증가 시 CVVD·DCT 등 전장 부품 매출에 긍정적 영향을 줍니다."
+      },
+      {
+        "factor": "무역장벽",
+        "detail": "관세·보호무역 강화는 수출 물량과 원가에 직접적 영향을 미쳐 실적 변동성을 높일 수 있습니다."
+      },
+      {
+        "factor": "방산 수요",
+        "detail": "국가 안보·방위예산 변화는 방산 부문 프로젝트 수주와 매출에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "로봇시장",
+        "detail": "제조업 자동화·물류 확대는 로봇용 모터·구동모듈 수요를 증가시켜 관련 매출에 기여합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 영업 현황",
+        "evidence_text": "당사는 1988년 9월 창업 이래 모터, 제어기, 감속기 제품과 이를 모듈화, 통합화한 3-in-1 제품인 스마트 액추에이터 및 스마트 파워유닛 전문 제조업을 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "CVVD: 41,104 (43.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 영업 현황",
+        "evidence_text": "현대자동차 그룹 및 관련 협력사를 주요 고객사로 확보하고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4663,
+    "completion_tokens": 3366,
+    "reasoning_tokens": 2560,
+    "output_tokens": 806
+  },
+  "warnings": []
+}

@@ -1,0 +1,62 @@
+{
+  "stock_code": "348080",
+  "corp_name": "큐라티스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 17:09",
+  "meta": {
+    "wics": "생물공학",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "큐라티스는 백신 개발 플랫폼 기술을 바탕으로 결핵 예방 백신(QTP101), 주혈흡충증 예방 백신(QTP105), 차세대 mRNA 코로나19 백신(QTP104) 등을 개발하는 생물공학 분야 기업입니다. 단백질(재조합 단백질) 및 차세대 mRNA(repRNA) 기반 항원 생산과 면역증강제(GLA-SE)를 활용한 백신 개발을 핵심 역량으로 삼고 있습니다.",
+    "business_model": "주요 사업은 백신 연구개발과 CDMO(위탁개발·위탁생산) 성격의 용역 제공으로 구성되며, 매출의 주요 원천은 용역매출과 기타매출입니다. 매출 구성(최신): 용역매출 770,329 (382.2%), 기타매출 234,388 (116.3%); CDMO 매출과 제품·용역 매출 확대가 매출 증가의 주요 요인으로 기재되어 있습니다.",
+    "main_customers": "용역매출 — CDMO·CMO 위탁 고객(국내외 제약사·바이오기업) / 기타매출 — 제품·용역 구매 고객(기업·연구기관 등)",
+    "price_factors": [
+      {
+        "factor": "시장성장",
+        "detail": "글로벌 백신 시장의 연평균 성장(보고서 기준 7.8%)이 확대될수록 장기적 수요 증가로 실적에 긍정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "글로벌 빅파마 점유",
+        "detail": "GSK·머크·화이자·사노피 등 상위 기업들이 시장 약 70%를 차지하는 구조는 국내 업체의 경쟁과 판로 확보에 부담으로 작용할 수 있습니다."
+      },
+      {
+        "factor": "규제·승인 동향",
+        "detail": "백신의 안전성·효능 중심 규제 강화와 승인 절차 변화는 임상·허가 일정과 비용에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "임상·개발 비용",
+        "detail": "백신 임상시험과 상업화에는 높은 비용과 진입장벽이 수반되어 개발 일정 지연이나 재무압박 요인이 될 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "당사는 「백신 개발 플랫폼 기술」을 바탕으로 성인 및 청소년용 결핵 예방 백신 QTP101, 주혈흡충증 예방 백신 QTP105, 차세대 mRNA 코로나 19 예방 백신인 QTP104 등을 개발하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "용역매출: 770,329 (382.2%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "당사는 국내외 제약사들과 신규 CMO, CDMO 위탁계약체결을 위해 협의를 진행하였으며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 6271,
+    "completion_tokens": 3460,
+    "reasoning_tokens": 2688,
+    "output_tokens": 772
+  },
+  "warnings": []
+}

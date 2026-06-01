@@ -1,0 +1,66 @@
+{
+  "stock_code": "240600",
+  "corp_name": "유진테크놀로지",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:30",
+  "meta": {
+    "wics": "전기제품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "유진테크놀로지는 2010년 설립된 정밀 금형 전문 기업으로, 이차전지 노칭금형 제조에서 선도적 위치를 확보해 온 회사입니다. 전기차배터리 제조 과정에 쓰이는 노칭금형의 설계와 제작에 강점이 있으며, 이차전지 자동화 장비까지 함께 다루고 있습니다.",
+    "business_model": "회사는 정밀금형 설계·제조를 중심으로, 이차전지 노칭금형과 슬리터 머신 핵심 부품인 나이프 유닛, 전극탭 관련 부품 등을 공급합니다. 또한 화성 테크캠퍼스를 통해 이차전지 자동화 장비의 설계 및 제작도 수행하며, DEGAS M/C, FORMING M/C, SLITTER M/C, NOTCHING M/C 등의 전공정 장비를 제공하고 있습니다. 다만 제공된 사업부문별 매출 구성은 국내, 해외로만 구분되어 있어 비율(%)은 확인되지 않습니다.",
+    "main_customers": "노칭금형 — 이차전지 제조사 / 나이프 유닛 — 슬리터 머신 관련 고객 / 자동화장비 — 이차전지 전공정 장비 수요처 / 해외사업 — 폴란드·헝가리·중국·미국·인도네시아 관련 고객",
+    "price_factors": [
+      {
+        "factor": "전기차수요",
+        "detail": "전기차와 ESS(에너지저장장치) 수요가 늘면 이차전지 생산 확대가 이어져 노칭금형과 자동화장비 수요에 영향을 줍니다."
+      },
+      {
+        "factor": "배터리투자",
+        "detail": "LG에너지솔루션과 삼성SDI의 생산능력 확대 투자는 관련 장비·부품 수요 증가로 이어질 수 있습니다."
+      },
+      {
+        "factor": "기술정밀도",
+        "detail": "±0.001mm 수준의 초정밀 가공 역량은 제품 경쟁력의 핵심이라, 정밀도와 품질이 수주와 실적에 중요한 영향을 줍니다."
+      },
+      {
+        "factor": "해외확대",
+        "detail": "폴란드, 헝가리, 중국, 미국, 인도네시아 등 해외 시장 확장이 수출 성과와 실적 변동에 영향을 줍니다."
+      },
+      {
+        "factor": "캐즘영향",
+        "detail": "이차전지 시장의 캐즘(일시적 성장 둔화)은 전방산업 투자 속도를 늦춰 장비 수요에도 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "당사는 2010년 설립 이래 축적된 기술력과 노하우를 바탕으로, 이차전지 노칭금형 제조의 선도적 위치를 확보해 온 기업입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "화성 테크캠퍼스는 이차전지 자동화 장비의 설계 및 제작을 담당하며"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "당사의 제품은 국내 뿐 아니라 폴란드, 헝가리, 중국, 미국 등 주요 글로벌 시장에서 인정받고 있으며"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 5298,
+    "completion_tokens": 847,
+    "reasoning_tokens": 0,
+    "output_tokens": 847
+  },
+  "warnings": []
+}

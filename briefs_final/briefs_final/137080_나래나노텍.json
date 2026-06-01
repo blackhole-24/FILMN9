@@ -1,0 +1,69 @@
+{
+  "stock_code": "137080",
+  "corp_name": "나래나노텍",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 13:04",
+  "meta": {
+    "wics": "디스플레이장비및부품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "나래나노텍은 OLED용 평판디스플레이(FPD) 공정 장비를 비롯해 이차전지 전극 장비, 물류 자동화 장비, PLP(Panel Level Package) 공정 장비, OCR/OCA 모듈 장비, Roll-to-Roll 공정 장비 및 Perovskite 태양전지 공정 장비 등을 개발·제조하는 장비 전문 기업입니다. 기존 디스플레이 장비를 기반으로 배터리·반도체·태양전지 등 첨단 산업으로 사업 영역을 다각화하고 있습니다.",
+    "business_model": "핵심 사업은 디스플레이용 공정 장비 제조이며, 여기에 배터리 전극 공정, 반도체 PLP(Panel Level Package) 공정, 태양전지 공정 등으로 장비 포트폴리오를 확대하는 방식으로 수익원을 다변화하고 있습니다. 이를 위해 지속적인 연구개발(기술개발)을 수행하면서 고객 맞춤형 장비 개발과 공급을 통해 매출을 확보하고 있습니다.",
+    "main_customers": "디스플레이 장비 — 디스플레이 패널 제조업체 / 배터리 장비 — 배터리 제조업체(전기차·ESS용) / 반도체 장비 — 반도체 패키지·플랫폼 제조업체 / 태양전지 장비 — 태양전지 제조업체 / 물류 자동화 — 제조·물류 운영업체",
+    "price_factors": [
+      {
+        "factor": "기술혁신",
+        "detail": "장비 수요는 첨단 공정(예: OLED, PLP, Perovskite) 기술 수준에 좌우되어 R&D 성과가 실적에 직결됩니다."
+      },
+      {
+        "factor": "글로벌경쟁",
+        "detail": "글로벌 경쟁 심화는 가격·납기 압박으로 이어져 수익성에 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "정책수요",
+        "detail": "각국의 친환경 정책 및 공급망 재편으로 인한 설비 투자 확대는 배터리·태양전지 장비 수요를 견인할 수 있습니다."
+      },
+      {
+        "factor": "디스플레이전환",
+        "detail": "LCD에서 OLED·차세대 디스플레이로의 기술 전환은 패널 업체의 설비투자(수주)에 직접적인 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "장비 전문 기업입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "지속적인 연구개발을 수행하고 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "다양한 첨단 산업 분야에서 사업을 전개하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황 (마. 시장여건 및 영업의 개황)",
+        "evidence_text": "각 산업은 기술 혁신과 글로벌 경쟁이라는 공통된 특징이 있습니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 3904,
+    "completion_tokens": 3185,
+    "reasoning_tokens": 2368,
+    "output_tokens": 817
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

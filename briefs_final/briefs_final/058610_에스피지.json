@@ -1,0 +1,71 @@
+{
+  "stock_code": "058610",
+  "corp_name": "에스피지",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 03:45",
+  "meta": {
+    "wics": "전기제품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "에스피지는 1991년 창업한 소형 기어드 모터 전문 제조업체로, 2002년 7월 코스닥에 상장되었습니다. 2016년 11월 ㈜성신을 흡수합병하여 가전용 FAN 모터 등 제품군을 확대한 점이 특징입니다.",
+    "business_model": "주력은 기어드 모터 단일사업부문으로, 연결 기준 사업부문 매출이 341,670백만원으로 100.0%를 차지합니다. 제품은 Standard AC/DC geared motor, Shaded pole geared motor, Fan BLDC motor, 유성감속기 등 소형 모터 계열과 ㈜성신을 통한 가전용 소형모터(AC Motor, BLDC Motor 등)를 포함합니다.",
+    "main_customers": "FA(공장자동화) — 포장용기기·반도체·PDP·LCD 생산라인 컨베이어 / OA(사무자동화) — 복사기·문서세단기·자동문·동전·지폐계수기 / HA(Home Automation) — 냉장고 얼음분쇄기·의료용 침대·정수기·비데·제습기 / 기타 산업용장비 — 자동판매기·음식물분쇄기·전철 개찰기 등",
+    "price_factors": [
+      {
+        "factor": "국제경쟁",
+        "detail": "일본업체 중심의 공급 구조로 가격·기술 경쟁 압력이 지속되어 수익성에 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "중국공세",
+        "detail": "중국 등 해외업체의 약진 확대는 가격 경쟁과 시장점유율 변동 리스크로 작용합니다."
+      },
+      {
+        "factor": "생산기지",
+        "detail": "대형업체들의 생산기지 해외 이전 추세는 원가 경쟁력을 좌우해 실적에 영향 줍니다."
+      },
+      {
+        "factor": "정밀기술",
+        "detail": "기어 정밀가공 기술이 제품 내구성·소음·진동에 직결되어 품질 경쟁력이 실적에 중요합니다."
+      },
+      {
+        "factor": "환율",
+        "detail": "수출 비중이 높아 달러 등 환율 변동은 매출·수익성에 직접적인 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "사업의 개요(1)",
+        "evidence_text": "소형 기어드 모터(Precision control geared motor)전문 제조업체로서"
+      },
+      {
+        "field": "business_model",
+        "source_section": "(4) 각 사업부문의 개요설명",
+        "evidence_text": "당사는 (기어드)모터 단일사업부문만을 영위하고 있으며"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "사업의 개요(1)",
+        "evidence_text": "OA(사무자동화)용도로 복사기, 문서세단기, 자동문"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "일본업체들이 전세계 생산량의 80% 정도를 차지하고"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5017,
+    "completion_tokens": 3871,
+    "reasoning_tokens": 3072,
+    "output_tokens": 799
+  },
+  "warnings": []
+}

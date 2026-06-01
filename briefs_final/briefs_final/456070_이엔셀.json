@@ -1,0 +1,72 @@
+{
+  "stock_code": "456070",
+  "corp_name": "이엔셀",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 20:05",
+  "meta": {
+    "wics": "제약",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "이엔셀은 2018년 삼성서울병원 교원 창업기업으로 설립된 첨단바이오의약품(CDMO·신약개발) 전문 기업입니다. 2025년 말 기준 약 112명 규모로 운영되며, 2024년 8월 23일 코스닥시장에 상장했습니다.",
+    "business_model": "핵심 사업은 첨단바이오의약품 위탁개발생산(CDMO, 위탁개발생산)과 차세대 세포·유전자치료제 신약개발로 구성됩니다. FY2025 기준 CDMO서비스가 매출의 93.8%를 차지하고, 수출이 6.2%를 차지하며(수치 원문 인용), 자체 다수의 GMP(제조 및 품질관리) 시설을 바탕으로 세포와 바이러스를 동시에 생산하는 One-stop 서비스 제공이 특징입니다.",
+    "main_customers": "CDMO — 고객사(첨단바이오의약품 원천기술(IP) 보유 기업) / 신약개발 — 국내: 시판허가 후 직접 생산·판매; 해외: 기술이전·파트너링",
+    "price_factors": [
+      {
+        "factor": "CDMO 수요",
+        "detail": "세포·유전자치료제의 높은 생산 아웃소싱 비율(자료상 89%)으로 CDMO 수요 증가가 실적에 직접 연결됩니다."
+      },
+      {
+        "factor": "규제·인허가",
+        "detail": "국내 첨단재생바이오법 등 규제와 GMP 허가 취득 여부가 CDMO 영업과 신약 상용화 시점에 중요한 영향을 미칩니다."
+      },
+      {
+        "factor": "고객 R&D 일정",
+        "detail": "주요 고객사의 임상 일정 조정·지연이나 프로젝트 발주 축소는 수주와 매출 흐름에 즉각적인 악영향을 줍니다."
+      },
+      {
+        "factor": "자금조달(금리)",
+        "detail": "글로벌 금리 상승 등 자금조달 환경 악화는 고객의 연구개발 투자 축소로 이어져 매출 감소 요인이 됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "2018년 3월 21일 설립되었습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. 주요 제품 및 서비스",
+        "evidence_text": "두 가지 사업모델을 가지고 있습니다"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성 (FY2025)",
+        "evidence_text": "CDMO서비스: 4,931,355 (93.8%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 주요 제품 및 서비스",
+        "evidence_text": "CDMO 산업은 고객사의 다양한 첨단바이오의약품원천기술(IP)을"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "생산 아웃소싱 비율이 89%로 나타나고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5279,
+    "completion_tokens": 4190,
+    "reasoning_tokens": 3392,
+    "output_tokens": 798
+  },
+  "warnings": []
+}

@@ -1,0 +1,71 @@
+{
+  "stock_code": "004650",
+  "corp_name": "창해에탄올",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 12:22",
+  "meta": {
+    "wics": "음료",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "회사는 발효주정 및 정제주정을 제조·판매하는 주력 업체로, 주정사업을 중심으로 에너지·엔지니어링·무역 등 다각화된 사업을 영위하고 있습니다. 당기 연결기준 매출액은 1,223억원, 영업이익 158억원, 당기순이익 130억원입니다.",
+    "business_model": "사업부문별로 주정사업부가 매출의 41.2%로 가장 큰 비중을 차지하고, 엔지니어링사업부 18.9%, 무역사업부 12.0%, 에너지사업부 4.8% 순으로 수익을 창출합니다(주정은 희석식 소주 원료 및 비주류용 원료로 사용).",
+    "main_customers": "주정사업부 — 희석식 소주 제조사 및 방부제·소독제·화장품 원료 등 비주류 수요처 / 에너지사업부 — 스팀·에너지 수요 기업 / 엔지니어링사업부 — 에탄올 플랜트 관련 발주·운영 주체 / 무역사업부 — 국내외 거래처",
+    "price_factors": [
+      {
+        "factor": "주세·규제",
+        "detail": "주세율 및 정부 규제 변화는 주류 소비와 기업 영업안정성에 직접적인 변동성을 유발합니다."
+      },
+      {
+        "factor": "소주수요",
+        "detail": "주정 수요는 소주시장과 밀접히 연동되어 소주 소비 증감이 실적에 직접적 영향을 미칩니다."
+      },
+      {
+        "factor": "계절성",
+        "detail": "송년·신년 등 12월~3월 출고량이 상승하는 계절적 패턴이 실적에 반영됩니다."
+      },
+      {
+        "factor": "원가·생산성",
+        "detail": "원가절감과 생산성 향상이 업체 간 경쟁요소로, 원가 구조 변화가 수익성에 영향을 줍니다."
+      },
+      {
+        "factor": "시장구조",
+        "detail": "국내 소수의 주정업체에 의해 생산이 이루어지는 과점적 구조와 진입장벽이 경쟁 환경을 규정합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "회사는 발효주정 및 정제주정을 제조, 판매 등을 주로 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 영업수익 구성 (FY2025)]",
+        "evidence_text": "주정사업부: 50,444 (41.2%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "사업부문별 기타 참고사항 [주정사업부]",
+        "evidence_text": "국내에서 생산되는 주정은 90%정도가 소주의 주원료로 사용되고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "사업부문별 기타 참고사항 [주정사업부]",
+        "evidence_text": "주정산업의 성장은 소주시장과 밀접한 관계가 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4053,
+    "completion_tokens": 4057,
+    "reasoning_tokens": 3264,
+    "output_tokens": 793
+  },
+  "warnings": []
+}

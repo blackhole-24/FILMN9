@@ -1,0 +1,81 @@
+{
+  "stock_code": "279570",
+  "corp_name": "케이뱅크",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 14:51",
+  "meta": {
+    "wics": "은행",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "케이뱅크는 2017년 4월 국내 1호 인터넷전문은행으로 출범한 디지털 기반 은행으로, 비대면을 중심으로 예·적금과 대출, 플랫폼형 제휴 서비스를 제공하고 있습니다. 2025년 말 기준 고객 수 1,553만명, 수신 28.4조원, 여신 18.4조원을 기록하며 디지털 금융 플랫폼으로 성장해왔습니다.",
+    "business_model": "FY2025 기준 사업부문별 영업수익은 원화콜머니 0.1%, 원가성자금계 91.1%, 기타 7.5%로 구성되어 있으며, 주된 수익원은 예·적금 등의 수신·여신(대출) 및 플랫폼·제휴를 통한 수수료와 기타영업수익입니다. 당행은 100% 비대면 신용대출과 주택담보대출, 개인사업자대출 등 다양한 대출상품과 생활통장·플러스박스 등 차별화된 예·적금 상품으로 고객 편의성을 강화하고 있습니다.",
+    "main_customers": "예금(수신) — 개인(일반·미성년 포함) / 대출(여신) — 개인, 개인사업자, 기업·정책대출 수혜자 / 플랫폼·제휴 서비스 — 통신·증권·가상자산 등 제휴 서비스를 이용하는 고객",
+    "price_factors": [
+      {
+        "factor": "금리환경",
+        "detail": "보고서에서 언급한 기준금리 인하 등 금리 변동은 이자이익과 순이자마진에 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "수신규모",
+        "detail": "수신 잔액(보고서상 28.4조원) 변동은 자금운용 및 이자수익에 직결될 수 있습니다."
+      },
+      {
+        "factor": "여신성장",
+        "detail": "여신 잔액(보고서상 18.4조원) 확대는 이자이익 증가 요인으로 작용할 수 있습니다."
+      },
+      {
+        "factor": "여신건전성",
+        "detail": "연체율·고정이하여신 등 건전성 지표 변동은 대손비용과 손실흡수능력에 영향을 줍니다."
+      },
+      {
+        "factor": "운영비용",
+        "detail": "인력 증가 및 전산투자 확대에 따른 판매관리비 증가는 순이익에 부담 요소가 될 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업의 개황",
+        "evidence_text": "당행은 2017년 4월 국내 1호 인터넷전문은행으로 영업을 시작하여"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "원가성자금계: 270,863 (91.1%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "2025년 12월말 기준 고객 수 1,553만명"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업의 개황",
+        "evidence_text": "100% 비대면 신용대출과 주택담보대출"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "기준금리 인하와 글로벌 경기 둔화"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "인력 증가, 전산투자 확대에 따라 판매관리비는"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3710,
+    "completion_tokens": 5423,
+    "reasoning_tokens": 4480,
+    "output_tokens": 943
+  },
+  "warnings": []
+}

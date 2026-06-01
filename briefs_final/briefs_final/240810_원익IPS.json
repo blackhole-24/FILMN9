@@ -1,0 +1,77 @@
+{
+  "stock_code": "240810",
+  "corp_name": "원익IPS",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 13:31",
+  "meta": {
+    "wics": "반도체와반도체장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "원익IPS는 반도체·디스플레이·Solar Cell(태양광) 제조용 핵심 장비를 주문생산 방식으로 제작·공급하는 기업입니다. 2025년 연결기준 매출은 9,098억원이며, 제품 매출과 부품·용역 매출을 중심으로 국내(내수)와 해외(수출) 시장에 판매하고 있습니다.",
+    "business_model": "제10기 연결기준 매출에서 제품 매출이 86.5%(7,866억원), 상품 및 용역 매출이 13.5%(1,232억원)를 차지하며, 동일 설비와 인력을 활용하는 단일 사업부문 구조에서 반도체·Display·Solar Cell용 3개 장비군이 주된 수익원입니다. 당사 제품은 전량 주문생산(맞춤형)으로 판매되어 고객 요구에 따른 사양·옵션에 따라 가격과 수익성이 달라집니다.",
+    "main_customers": "반도체 제조 장비 — 반도체 제조업체 / Display 제조 장비 — 디스플레이(패널) 제조업체 / Solar Cell 제조 장비 — 태양광(셀) 제조업체",
+    "price_factors": [
+      {
+        "factor": "글로벌 설비투자",
+        "detail": "미국·중국 중심의 반도체 설비투자 확대 여부가 장비 수주·매출에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "산업 사이클",
+        "detail": "반도체·디스플레이 업황 사이클에 따라 장비 수요가 크게 등락하며 실적 변동성이 커집니다."
+      },
+      {
+        "factor": "수주·가동률",
+        "detail": "수주산업 특성상 프로젝트 수주 상황에 따라 가동률과 매출이 크게 변동합니다."
+      },
+      {
+        "factor": "환경규제",
+        "detail": "강화되는 환경 규제 준수와 관련 설비·관리 비용이 영업비용에 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 영업 현황",
+        "evidence_text": "당사는 반도체, Display 및 Solar Cell 제조용 핵심 장비를 생산ㆍ판매하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 영업 현황",
+        "evidence_text": "제품 매출은 7,866억원으로 전체 매출의 86.5%"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 (원문 테이블)",
+        "evidence_text": "123,247(13.5%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 2. 주요 제품 및 서비스",
+        "evidence_text": "총 3개의장비군으로 나누어 현황을 기재하였습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "다. 각 사업부문의 시장여건 및 영업의 개황 > 산업의 성장성",
+        "evidence_text": "미국과 중국 중심으로 투자가 확대되고 있으며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "다. 각 사업부문의 시장여건 및 영업의 개황 > 경기변동의 특성",
+        "evidence_text": "장비사업은 수주산업으로 주문자 생산방식의 특성을 지니고"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5308,
+    "completion_tokens": 5656,
+    "reasoning_tokens": 4800,
+    "output_tokens": 856
+  },
+  "warnings": []
+}

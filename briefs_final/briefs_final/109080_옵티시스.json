@@ -1,0 +1,69 @@
+{
+  "stock_code": "109080",
+  "corp_name": "옵티시스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 08:37",
+  "meta": {
+    "wics": "통신장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "옵티시스는 디지털 광링크(광전송 기술)를 설계·개발·제조해 고해상도 디지털 영상신호 전송용 인터페이스 제품을 공급하는 기업입니다. 의료진단장비, 방송·디지털 사이니지, 통합관제 등 장거리 고해상도 전송이 필요한 응용시장을 주요 대상으로 하며, 매출의 상당 부분이 수출에서 발생합니다.",
+    "business_model": "주요 사업부문은 제품매출, 상품매출, 기타로 구분되며, 핵심은 광링크용 광학 소재와 부품을 자체 설계·개발·제조하여 제품으로 판매하는 것입니다. 또한 협력사 대상 OEM/disty(유통) 판매와 응용시장 대상 솔루션 제공을 통해 매출을 확보합니다.",
+    "main_customers": "제품매출 — 의료장비·수술장비·방송·디지털 사이니지·통합관제 등 고해상도 전송이 필요한 장비 제조업체 및 시스템 통합사 / 상품매출 — 협력사 및 Distributor(유통사, OEM 거래처) / 기타 — 공장·철도·관제센터 등 시스템 최종 사용자 및 특수 응용시장",
+    "price_factors": [
+      {
+        "factor": "환율",
+        "detail": "매출의 상당 비중이 수출에서 발생하므로 환율 변동이 실적(원화 환산)에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "산업표준",
+        "detail": "지속적으로 발표되는 신규 인터페이스 규격(HDMI, DP, SDI 등)에 맞춘 신제품 개발 필요성이 실적과 경쟁력에 영향을 줍니다."
+      },
+      {
+        "factor": "대체기술",
+        "detail": "구리선 전송·무선 영상전송 등 대체 기술과의 경쟁이 있으나 고해상도·장거리 전송 특성상 기술 우위 유지 여부가 중요합니다."
+      },
+      {
+        "factor": "고신뢰성",
+        "detail": "의료·방송 등 고가 산업장비에 사용되므로 제품 신뢰성(수명·품질)이 가격·수주에 직접 연결됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "수출은 204.2억원으로 총매출의 약 79.4% 를 차지하고 있으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황",
+        "evidence_text": "광 링크 제품의 핵심 광학 소재와 부품을 자체 설계 개발 제조하며"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "(가) 의료 진단장비(X-ray, CT, MRI 등)내의 진단 영상 전송"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "환율 변동은 회사의 사업에 중요한 영향을 미칩니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 5266,
+    "completion_tokens": 4673,
+    "reasoning_tokens": 3904,
+    "output_tokens": 769
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

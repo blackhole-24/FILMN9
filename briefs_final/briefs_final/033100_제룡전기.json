@@ -1,0 +1,62 @@
+{
+  "stock_code": "033100",
+  "corp_name": "제룡전기",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 23:49",
+  "meta": {
+    "wics": "전기장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "제룡전기는 전기·전자(전기장비) 섹터에서 변압기 제조를 주력으로 하는 기업입니다. 2025년 기준 변압기 매출이 전사 영업수익의 100.0%를 차지하며, 최근 글로벌 경쟁 심화와 관세 영향 등으로 매출·이익이 감소했습니다.",
+    "business_model": "사업모델은 변압기(변압기: 100.0%) 단일 품목 중심의 제조·판매이며, 고마진 중심의 선별수주(수주 선택을 통한 수익성 관리)와 설비투자·생산효율화로 납기 안정성 및 생산능력 확대를 추구합니다. 해외(미국 등) 기존거래처와의 관계 유지 및 차별화된 제품 개발로 수주 확대를 목표로 하고 있습니다.",
+    "main_customers": "변압기 — 공공·정책성 발주처 및 기존 거래처(국내외)",
+    "price_factors": [
+      {
+        "factor": "정책성 수요",
+        "detail": "공공·정책성 수요 유지 여부가 매출 안정성에 직접적 영향을 미칩니다."
+      },
+      {
+        "factor": "글로벌 경쟁",
+        "detail": "미국 등 해외시장에서의 경쟁 심화와 관세 조치 등 정책 변수는 수주와 이익률에 부담을 줄 수 있습니다."
+      },
+      {
+        "factor": "원자재 가격",
+        "detail": "철강·비철금속 등 원자재 가격 변동은 제품 원가와 마진에 직접 영향을 미칩니다."
+      },
+      {
+        "factor": "수요 변동성",
+        "detail": "건설·투자 사이클과의 시차(3~6개월)로 인해 실적 변동성이 확대될 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "(1) 산업의 특성",
+        "evidence_text": "전력기기 산업은 국가의 기간산업으로서"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "변 압 기: 224,017 (100.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "나. 시장여건 및 영업의 개황",
+        "evidence_text": "공공ㆍ정책성 수요는 유지되었습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4480,
+    "completion_tokens": 2900,
+    "reasoning_tokens": 2304,
+    "output_tokens": 596
+  },
+  "warnings": []
+}

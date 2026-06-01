@@ -1,0 +1,71 @@
+{
+  "stock_code": "003000",
+  "corp_name": "부광약품",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 18:19",
+  "meta": {
+    "wics": "제약",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "부광약품은 의약품·의약외품·건강기능식품을 제조·판매하는 제약회사로, 오리지널 전문의약품 중심의 판매를 하고 있습니다. 제66기 연결기준 매출액은 2,007억원으로 전기 대비 약 25% 성장했으며, 자기자본비율 72%, 부채비율 40%로 견실한 재무구조를 유지하고 있습니다.",
+    "business_model": "주요 수익은 의약품·의약외품(제품)에서 발생하며, 사업부문별 매출에서 해당 부문은 전체의 약 77%를 차지합니다. 대표 제품별 비중은 덱시드정 10%, 훼로바 8%, 레가론 6%, 치옥타시드 6%, 라투다 5% 등이며, 나머지 매출은 기타 제품 및 상품이 구성합니다.",
+    "main_customers": "의약품·의약외품 — 전국 종합병원·전문병원·의원 등(처방처) / 기타 제품·상품 — 유통·판매 채널",
+    "price_factors": [
+      {
+        "factor": "규제·허가",
+        "detail": "임상시험·품목허가 등 규제 지연 또는 강화는 신약 상업화 시점과 실적에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "약가정책",
+        "detail": "정부의 약가 및 급여정책 변화는 전문의약품 매출과 수익성에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "파이프라인",
+        "detail": "파킨슨·조현병 등 신약개발 성과는 중장기 매출 성장동력과 기업 가치에 중요한 변수입니다."
+      },
+      {
+        "factor": "품질관리",
+        "detail": "GMP 등 품질·컴플라이언스 역량은 공급안정성과 시장 신뢰도에 영향을 미쳐 실적 변동성을 좌우합니다."
+      },
+      {
+        "factor": "수요(고령화)",
+        "detail": "고령화·만성질환 증가는 전문의약품 수요의 안정적 확대라는 긍정적 요인으로 작용합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "제66기 매출액은 연결기준 2,007억원을 달성하였으며,"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성] / 가. 주요 제품 등의 현황",
+        "evidence_text": "| 소계 | - | - | 155,325 | 77 |"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "라투다는 2025년 말 기준 전국 종합병원 및 전문병원, 의원 등으로 처방처가 확대되며"
+      },
+      {
+        "field": "R&D",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "파킨슨 운동장애, 조현병 치료제 등의 분야에서 신약개발에 매진하고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4201,
+    "completion_tokens": 5416,
+    "reasoning_tokens": 4608,
+    "output_tokens": 808
+  },
+  "warnings": []
+}

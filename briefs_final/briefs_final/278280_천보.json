@@ -1,0 +1,62 @@
+{
+  "stock_code": "278280",
+  "corp_name": "천보",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 14:47",
+  "meta": {
+    "wics": "전기제품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "천보는 전자소재, 2차전지 소재, 의약품 소재, 정밀화학 소재를 영위하는 화학소재 전문 기업으로, 2025년 연결 매출은 1,338억원, 영업이익은 37억원으로 흑자전환했습니다. 전자·배터리용 핵심 소재(예: ATZ, LiFSI 등)를 생산하며 국내외 제조업체를 고객으로 하는 소재 공급자 역할을 합니다.",
+    "business_model": "사업부문별로 이차전지소재가 매출의 50.7%, 전자소재가 38.4%로 핵심 수익원이며, 의약품소재 1.8%, 정밀화학소재 5.0%, 기타 4.1%로 구성됩니다. 전자소재에서는 LCD 식각액 첨가제(ATZ)와 OLED·반도체 공정 소재를, 2차전지소재에서는 전해질 및 전해액 첨가제(예: LiFSI)를 중심으로 제품을 공급하고 공장 증설을 통해 생산능력을 확보해 왔습니다.",
+    "main_customers": "전자소재 — 디스플레이·반도체 제조업체 / 이차전지소재 — 2차전지 제조사(전지·모듈 업체) / 의약품소재 — 제약사(의약품원제 생산사) / 정밀화학소재 — 산업용 화학제품 수요처",
+    "price_factors": [
+      {
+        "factor": "수요 집중도",
+        "detail": "이차전지(50.7%)와 전자소재(38.4%) 비중이 커 이들 산업의 수요 변동이 실적에 직접적 영향을 미칩니다."
+      },
+      {
+        "factor": "원자재 비용",
+        "detail": "핵심 화학원료 가격 변동은 제조원가와 마진에 즉시 반영될 수 있습니다."
+      },
+      {
+        "factor": "생산설비 가동",
+        "detail": "LiFSI 등 주요 제품의 공장 증설·가동 상태가 공급능력과 비용구조에 영향을 줍니다."
+      },
+      {
+        "factor": "제품 포트폴리오",
+        "detail": "특정 제품(예: ATZ) 비중이 높아 해당 제품 수급·경쟁 상황이 실적 변동성을 키울 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "(1) 사업 개황 (가) 사업 개요",
+        "evidence_text": "당사의 사업분야는 크게 전자소재(LCD식각액첨가제, OLED소재, 반도체공정 소재 등), 2차전지 소재(전해질, 전해액첨가제), 의약품 소재(의약품중간체), 정밀화학 소재 입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "전자소재: 51,410 (38.4%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "1) 전자 소재 > 가) LCD식각액첨가제",
+        "evidence_text": "아미노테트라졸(ATZ)은 국내시장점유율 1위, 세계시장점유율 1위(95%)를 기록하고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3111,
+    "completion_tokens": 3319,
+    "reasoning_tokens": 2496,
+    "output_tokens": 823
+  },
+  "warnings": []
+}

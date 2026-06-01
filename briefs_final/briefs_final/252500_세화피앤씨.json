@@ -1,0 +1,67 @@
+{
+  "stock_code": "252500",
+  "corp_name": "세화피앤씨",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 13:49",
+  "meta": {
+    "wics": "화장품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "세화피앤씨는 헤어·바디케어와 염모제 분야의 연구·제조·유통 역량을 바탕으로 모레모, 리체나 등 브랜드를 운영하는 화장품 전문 기업입니다. 염모제 중심에서 헤어코스메틱·헤어바디코스메틱으로 사업 영역을 확대하며 화장품 중심으로 성장하고 있습니다.",
+    "business_model": "주력 사업은 화장품(헤어케어·스킨케어·바디케어)과 염모제이며, 2024년 기준 화장품 매출 비중이 69.5%로 화장품 매출이 회사 수익의 핵심을 차지합니다. 브랜드별로는 모레모를 올리브영·온라인·해외 채널 중심으로, 리체나는 홈쇼핑 유통 중심으로 운영하며 R&D와 마케팅을 통해 신제품·신브랜드 육성에 집중하고 있습니다.",
+    "main_customers": "모레모 — 올리브영·온라인·해외 채널을 이용하는 소비자 / 리체나 — 홈쇼핑을 이용하는 소비자 / 염모제·기타 제품 — 다양한 연령대의 소비자",
+    "price_factors": [
+      {
+        "factor": "성분정보중시",
+        "detail": "성분·효능 정보에 대한 소비자 관심 증가는 제품 개발 방향과 마케팅 효과에 직접적 영향"
+      },
+      {
+        "factor": "진입장벽완화",
+        "detail": "OEM 접근성 개선으로 신규 브랜드·업체 진출이 활발해지며 경쟁이 심화될 수 있음"
+      },
+      {
+        "factor": "브랜드·마케팅",
+        "detail": "신규 브랜드 육성 및 마케팅 투자 중요성이 커져 비용 구조와 성장성에 영향"
+      },
+      {
+        "factor": "경쟁심화",
+        "detail": "화장품 판매업체 수의 증가로 제품·유통 경쟁이 치열해지며 시장점유에 영향을 미침"
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "[DART 사업보고서 — 영업 현황]",
+        "evidence_text": "헤어*바디케어 및 염모제 전문 연구*제조*유통 노하우"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[DART 사업보고서 — 영업 현황]",
+        "evidence_text": "매출점유비는 69.5%를 달성하며"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "[DART 사업보고서 — 영업 현황]",
+        "evidence_text": "모레모는 올리브영, 온라인 채널, 해외 채널에서 주력으로 운영"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가.산업의 특성",
+        "evidence_text": "OEM 접근성 개선으로 장업계 진입장벽이 낮아져"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3000,
+    "completion_tokens": 3855,
+    "reasoning_tokens": 3136,
+    "output_tokens": 719
+  },
+  "warnings": []
+}

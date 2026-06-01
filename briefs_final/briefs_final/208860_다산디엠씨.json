@@ -1,0 +1,66 @@
+{
+  "stock_code": "208860",
+  "corp_name": "다산디엠씨",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:26",
+  "meta": {
+    "wics": "자동차부품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "다산디엠씨는 자동차부품과 전장 솔루션을 함께 운영하는 기업으로, 커넥티드카 솔루션, 택시 모빌리티 솔루션, 전자제어장치 부품, 자동차부품 제조·판매 사업으로 구성되어 있습니다. 2025년 기준 매출은 자동차부품 부문이 대부분을 차지하고 있으며, 최근에는 HIM 사업과 IOT 사업, Automotive Solution 사업을 함께 확대하고 있습니다.",
+    "business_model": "FY2025 사업부문별 영업수익은 자동차부품 부문 89.0%, HIM 사업부 5.6%, Automotive Solution 사업부 3.9%, IOT 사업부 1.5%로 구성됩니다. 자동차부품 부문은 방진고무부품, Air Hose, Weather Strip, Damping Bush 등을 제조·판매하고, Automotive Solution 사업부는 커넥티드카 기반 텔레매틱스(차량 통신 서비스) 솔루션을 공급합니다. IOT 사업부는 택시 미터기 정보를 기사·승객 핸드폰으로 실시간 전송하는 모빌리티 솔루션을 제공하며, HIM 사업부는 건설용 중장비 및 산업용 차량용 전자제어장치 부품을 제조·판매합니다.",
+    "main_customers": "Automotive Solution 사업부 — 글로벌 전장업체 및 완성차업체 / IOT 사업부 — 택시 모빌리티 플랫폼, 카카오모빌리티, 법인택시조합, 개인택시조합 / HIM 사업부 — 밥캣, 인프라코아, HD산업 등 / 자동차부품 부문 — 자동차 부품 수요처(세부 고객 미공시)",
+    "price_factors": [
+      {
+        "factor": "전장 확산",
+        "detail": "자동차의 IT·전기전자 기능이 늘수록 커넥티드카와 텔레매틱스 솔루션 수요가 확대될 수 있습니다."
+      },
+      {
+        "factor": "택시시장",
+        "detail": "택시 모빌리티 시장의 서비스 품질과 규모가 커질수록 IOT 사업부의 공급 기회가 늘어날 수 있습니다."
+      },
+      {
+        "factor": "건설경기",
+        "detail": "HIM 사업부는 건설기계·엔진 산업의 수요 변동과 SOC 투자, 해외 경기 흐름에 영향을 받습니다."
+      },
+      {
+        "factor": "경쟁심화",
+        "detail": "건설기계 시장의 완전 경쟁과 글로벌 업체 경쟁은 HIM 사업부의 사업 환경에 부담 요인이 될 수 있습니다."
+      },
+      {
+        "factor": "완성차수요",
+        "detail": "자동차 경기와 전방 산업 수요 변화는 자동차부품 부문의 실적에 직접적인 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "커넥티드카 솔루션 (Automotive Solution 사업부) 과 택시 모빌리티 솔루션 (IOT 사업부)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "자동차부품 부문: 101,168,911 (89.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "카카오모빌리티를 중심으로 법인택시조합, 개인택시조합 등을 대상으로"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4522,
+    "completion_tokens": 854,
+    "reasoning_tokens": 0,
+    "output_tokens": 854
+  },
+  "warnings": []
+}

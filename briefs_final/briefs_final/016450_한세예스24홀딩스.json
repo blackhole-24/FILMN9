@@ -1,0 +1,72 @@
+{
+  "stock_code": "016450",
+  "corp_name": "한세예스24홀딩스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 21:48",
+  "meta": {
+    "wics": "섬유,의류,신발,호화품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "한세예스24홀딩스는 1982년 11월 설립된 회사로, 2009년 1월 1일 인적분할을 통해 지주회사 체제로 전환하였습니다. 현재 한세실업·예스이십사·동아출판·한세엠케이·한세모빌리티 등 주요 자회사를 보유한 투자지주회사입니다.",
+    "business_model": "지주회사로서 수익원은 자회사 지분에 대한 배당수익, 브랜드수수료 및 경영자문수수료, 사업수익 등으로 구성되어 있으며, 사업부문별로는 OEM/ODM부문이 FY2025 기준 영업수익의 87.7%를 차지합니다 (OEM/ODM 부문 중심의 매출 구조).",
+    "main_customers": "OEM/ODM부문 — 미국 대형 리테일 바이어(TARGET, OLD NAVY, GAP 등) / 예스이십사(유통) — 온라인 이용 일반 소비자 및 문화상품 구매자 / 동아출판 — 유아·초중고 학습 수요(교육시장) / 한세모빌리티 — 국내외 완성차업체",
+    "price_factors": [
+      {
+        "factor": "환율",
+        "detail": "주요 매출처가 미국 등 해외여서 환율 변동이 매출 단가와 수익성에 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "원자재가격",
+        "detail": "원사 및 원단 가격 변동이 지속적으로 발생하여 원가와 평균 판매가격에 영향을 줍니다."
+      },
+      {
+        "factor": "대형바이어의존",
+        "detail": "미국 대형 바이어 중심의 수주 구조로 바이어 수요 변동이나 협상력 변화가 실적에 직결됩니다."
+      },
+      {
+        "factor": "패션트렌드",
+        "detail": "섬유·의류 산업은 제품 수명주기가 짧고 트렌드 민감도가 높아 디자인·제품 믹스 변화가 실적에 영향합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "지주회사(持株會社, Holding Company)로서"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "당사는 1982년 11월에 설립된 회사로서"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "수익원은 자회사 지분에 대한 배당수익"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "OEM/ODM부문: 1,843,526 (87.7%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 한세실업(주)",
+        "evidence_text": "주요 고객으로는 TARGET, OLD NAVY, GAP"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5334,
+    "completion_tokens": 3795,
+    "reasoning_tokens": 3008,
+    "output_tokens": 787
+  },
+  "warnings": []
+}

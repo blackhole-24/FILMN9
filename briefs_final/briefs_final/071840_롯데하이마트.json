@@ -1,0 +1,62 @@
+{
+  "stock_code": "071840",
+  "corp_name": "롯데하이마트",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 12:31",
+  "meta": {
+    "wics": "전문소매",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "롯데하이마트는 1987년 설립된 대한민국 대표 전자제품 전문 유통업체로, 오프라인 점포와 온라인몰을 결합한 전국적 판매망을 보유하고 있습니다. 본 보고서 기준 296개 점포와 11개의 물류센터, 온라인쇼핑몰을 운영하며 '가전 라이프 평생 케어' 비전 아래 생활밀착형 가전 전문점으로 자리잡고 있습니다.",
+    "business_model": "매출의 대부분(전자제품전문점 99.2%)이 오프라인 점포 및 온라인쇼핑몰을 통한 가전제품 판매에서 발생하며, 기타매출은 0.8%를 차지합니다. 2016년부터 자체 브랜드(PB)를 운영해왔고 2025년 4월 'PLUX'로 PB를 개편했으며, 구매 후 수리·클리닝·이전설치·연장보증 등의 '하이마트 안심 Care'와 구독 서비스 등 고객 생애주기(애프터서비스) 관련 서비스를 강화해 수익구조를 다각화하고 있습니다.",
+    "main_customers": "전자제품전문점 — 가전 구매를 원하는 일반 가정 소비자(1~2인 가구 포함) / 모바일 전문관 — 모바일·IT 제품을 체험하려는 젊은 고객층 / 온라인쇼핑몰 — 온라인 구매를 선호하는 소비자",
+    "price_factors": [
+      {
+        "factor": "내수 소비심리",
+        "detail": "가전 소비심리 위축 시 매출에 직접적인 감소 압력 — 보고서에 매출 감소 언급 존재"
+      },
+      {
+        "factor": "규제·법적 리스크",
+        "detail": "개인정보보호법·공정거래법 등 위반 시 비용·평판 리스크 및 영업 영향 가능"
+      },
+      {
+        "factor": "가구 구조 변화",
+        "detail": "1~2인 가구 및 고령화 트렌드에 따라 중소형·구독형 가전 수요 변화가 실적에 영향"
+      },
+      {
+        "factor": "상품·브랜드 구성",
+        "detail": "글로벌 브랜드 라인업과 PB 경쟁력이 매장 경쟁력과 마진에 영향"
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "296개 점포와 11개의 물류센터, 온라인쇼핑몰을 운영하며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "전자제품전문점: 2,589,445 (99.2%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "2016년부터 자체 브랜드(PB)를 운영하며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5502,
+    "completion_tokens": 4348,
+    "reasoning_tokens": 3648,
+    "output_tokens": 700
+  },
+  "warnings": []
+}

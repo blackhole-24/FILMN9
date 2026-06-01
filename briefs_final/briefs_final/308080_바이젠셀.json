@@ -1,0 +1,69 @@
+{
+  "stock_code": "308080",
+  "corp_name": "바이젠셀",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 15:53",
+  "meta": {
+    "wics": "제약",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "바이젠셀은 2013년 2월 1일 설립된 바이오 벤처로, 면역세포치료제의 연구개발 및 제조를 주요 사업으로 하는 세포치료제 전문기업입니다. ViTier(항원 특이 살해 T세포)와 ViMedier(골수유래억제세포) 등 플랫폼을 바탕으로 파이프라인을 개발하며, VT-EBV-N의 임상2상 완료 및 조건부 품목허가를 통해 조기 상업화를 준비하고 있습니다.",
+    "business_model": "핵심 사업은 1) 글로벌 신약 개발과 2) 첨단재생 의료 등 세포치료제 개발(플랫폼 기반)이며, 현재 매출원은 위탁생산(CMO, 위탁생산) 및 위탁개발생산(CDMO, 위탁개발생산)과 기타 상품매출입니다. 단기적으로는 CMO/CDMO·상품매출로 수익을 확보하고, 중장기적으로는 플랫폼 기술이전(라이선스) 및 파이프라인 품목허가를 통한 제품화로 사업화하는 구조입니다.",
+    "main_customers": "위탁생산(CMO) 및 위탁개발생산(CDMO) — 국내외 파트너사(위탁의뢰자) / 기타 — 상품매출 관련 거래처",
+    "price_factors": [
+      {
+        "factor": "면역항암제 시장",
+        "detail": "면역항암제 시장의 고성장(예: 연평균 16.4% 전망)은 VT-EBV-N의 상업화 시 실적 개선에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "면역억제제 수요",
+        "detail": "면역억제제 시장의 빠른 성장(예: 연평균 16.9% 전망)은 ViMedier 등 면역억제 치료제의 수요 확대에 긍정적일 수 있습니다."
+      },
+      {
+        "factor": "임상·허가 성과",
+        "detail": "임상시험 완료 및 조건부 품목허가 등 허가·임상 성과는 매출 발생 시점과 기업 가치에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "CDMO 수요",
+        "detail": "제약·바이오의 신약개발 확대는 위탁생산·개발 수요를 높여 단기 실적(위탁매출)에 기여할 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "바이젠셀 주식회사(이하 \"당사\")는 2013년 2월 1일자로 설립되어 신규 의약품 등의 연구개발, 면역세포치료제 의약품 등의 개발과 제조 등을 주요사업으로 하고 있는 바이오 벤처회사입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. 주요 제품, 서비스 등의 관한 사항",
+        "evidence_text": "현재 기준 제품판매에 대한 매출은 존재하지 아니합니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. 주요 제품, 서비스 등의 관한 사항",
+        "evidence_text": "다만, 위탁생산 및 위탁개발생산과 상품매출이 발생하고 있습니다."
+      },
+      {
+        "field": "company_overview",
+        "source_section": "나. 당사 보유 플랫폼 및 파이프라인",
+        "evidence_text": "VT-EBV-N는 NK/T 세포림프종에 대한 허가용 임상시험(2상)을 완료하였으며 조건부 품목허가를 획득하여 조기 상업화를 할 예정에 있습니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 5237,
+    "completion_tokens": 4996,
+    "reasoning_tokens": 4096,
+    "output_tokens": 900
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

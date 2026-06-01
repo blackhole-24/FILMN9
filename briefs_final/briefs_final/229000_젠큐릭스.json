@@ -1,0 +1,66 @@
+{
+  "stock_code": "229000",
+  "corp_name": "젠큐릭스",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:29",
+  "meta": {
+    "wics": "건강관리장비와용품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "젠큐릭스는 액체생검(혈액 등에서 암 관련 신호를 찾는 검사) 기술을 기반으로 암 분자진단 검사제품과 서비스를 개발하는 기업입니다. 유방암 예후진단, 폐암·대장암 동반진단, 조기진단용 액체생검 제품까지 포트폴리오를 넓혀가고 있습니다.",
+    "business_model": "사업부문별 영업수익은 암진단 매출 97.2%, 기타 2.8%로 구성되어 있습니다. 핵심은 암 환자를 대상으로 최적의 치료방법을 돕는 동반진단(환자별 약물 선택 보조)과 예후진단(재발·전이 가능성 예측) 검사이며, 디지털 피씨알(dPCR, 정밀한 유전자 검출 기술) 기반 제품과 검사서비스를 함께 제공합니다. 최근에는 조기진단과 모니터링 검사로 사업 영역을 단계적으로 확대하고 있습니다.",
+    "main_customers": "암진단 — 암 확진 환자, 종합병원, 의료기관 / 기타 — 관계사 및 관련 협력 대상",
+    "price_factors": [
+      {
+        "factor": "보험적용",
+        "detail": "건강보험 급여 적용 여부가 검사 사용 확대에 영향을 주어 매출 인식 속도와 시장 확산에 직접 연결됩니다."
+      },
+      {
+        "factor": "식약허가",
+        "detail": "식약처 제조허가 취득 제품이 늘어날수록 판매 가능한 검사 항목이 확대되어 사업 기반이 강화됩니다."
+      },
+      {
+        "factor": "병원도입",
+        "detail": "종합병원 내 코딩 작업과 의료기관 도입이 진행될수록 실제 진료 현장에서 검사 사용 가능성이 높아집니다."
+      },
+      {
+        "factor": "임상연구",
+        "detail": "임상 유효성 입증과 시판후조사(PMS, 시판 후 안전성·유효성 조사)가 축적될수록 제품 신뢰도와 시장 채택 가능성이 커집니다."
+      },
+      {
+        "factor": "액체생검",
+        "detail": "혈액만으로 검사하는 액체생검 수요가 늘면 조기진단과 모니터링 제품의 성장 기회가 확대됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 액체생검 기술을 기반으로 다양한 질병, 특히 암에 대한 분자진단 검사제품 및 서비스를 개발하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "암진단 매출: 7,333,768 (97.2%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "현재 국내 의료기관에서 진료목적으로 진스웰 비씨티를 사용할 수 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5126,
+    "completion_tokens": 729,
+    "reasoning_tokens": 0,
+    "output_tokens": 729
+  },
+  "warnings": []
+}

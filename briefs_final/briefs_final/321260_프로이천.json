@@ -1,0 +1,79 @@
+{
+  "stock_code": "321260",
+  "corp_name": "프로이천",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 16:28",
+  "meta": {
+    "wics": "디스플레이장비및부품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "프로이천은 2006년 설립된 디스플레이 및 반도체 검사장치 전문기업으로, OLED·LCD 검사장치와 반도체용 프로브카드 등을 자체 설계해 제조·판매하고 있습니다. 세계 최초의 필름형 프로브 블록 특허를 바탕으로 글로벌 패널업체 대상 공급망에 진입하여 국내외 검사 장치 시장에서 중요한 위치를 확보하고 있습니다.",
+    "business_model": "주요 제품은 디스플레이 패널 검사용 프로브유닛(Probe Unit)과 반도체 검사용 프로브카드(Probe Card)로, 주문제작 방식으로 고객 요구 사양에 맞춰 납품하는 수주형(BTO, 주문생산) 사업구조입니다. 중국 현지 법인 및 합자회사를 통한 BOE·CSOT 등 대상 매출 확대와 고사양 DDI 칩용 프로브카드 공급을 통해 국내외 메이저 고객군에 제품을 공급하고 있습니다.",
+    "main_customers": "디스플레이 검사장치 — 삼성디스플레이·LG디스플레이 등 글로벌 패널 제조사 및 BOE·CSOT 대상 / 반도체 검사장치 — DDI 칩 및 반도체 검사 수요가 있는 국내외 반도체 제조업체",
+    "price_factors": [
+      {
+        "factor": "전방수요",
+        "detail": "디스플레이 패널과 DDI칩의 생산량 변동에 따라 검사장치 및 소모성 부품 수요가 직접 증감하여 실적에 영향을 줍니다."
+      },
+      {
+        "factor": "맞춤생산",
+        "detail": "주문제작 방식으로 규격별 단가 변동 폭이 커서 개별 수주에 따른 매출·이익률 변동성이 발생합니다."
+      },
+      {
+        "factor": "기술장벽",
+        "detail": "필름형 프로브 블록 특허 등 독자 기술은 주요 패널사 1차 협력사 지위를 부여해 경쟁우위를 제공할 수 있습니다."
+      },
+      {
+        "factor": "환율변동",
+        "detail": "연결실체의 외화표시 자산·부채로 인한 환율 변동은 영업외손익을 통해 당기순이익 변동성을 야기할 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "당사는 디스플레이 및 반도체 검사장치 제조와 판매를 목적으로 2006년 1월에 설립되었으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 나. 주요 제품 등의 가격변동 추이",
+        "evidence_text": "당사는 주문제작방식으로 제품을 생산하고 있어, 공정 및 규격의 표준화가 되어 있지않습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "삼성디스플레이(SDC)와 LG디스플레이(LGD) 등 국내외 글로벌 패널 제조사의 1차 협력사"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 가. 산업의 특성 (2) 디스플레이 검사장치",
+        "evidence_text": "OLED의 채택 범위가 스마트폰에서 자동차, 태블릿 등 IT 전반으로 확산됨에 따라 지속적인 시장 성장이 예상됩니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "매출액 315억원으로 전년대비 12.5% 감소하였습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "마. 환율변동의 영향",
+        "evidence_text": "연결실체는 외화표시 자산 및 부채의 환율변동에 의한 리스크를 최소화하여"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 5064,
+    "completion_tokens": 4312,
+    "reasoning_tokens": 3328,
+    "output_tokens": 984
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

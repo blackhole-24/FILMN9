@@ -1,0 +1,62 @@
+{
+  "stock_code": "271830",
+  "corp_name": "팸텍",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 14:34",
+  "meta": {
+    "wics": "핸드셋",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "팸텍은 카메라모듈, 반도체, 스마트팩토리, 모빌리티 등 다양한 산업에 적용 가능한 자동화장비의 연구개발 및 제조를 주요 사업으로 영위하는 자동화장비 전문기업입니다. 베트남과 중국의 현지 법인을 중심으로 글로벌 네트워크를 강화하며 사업 영역 확장을 추진하고 있습니다.",
+    "business_model": "매출은 제품 매출(자동화장비 관련 완제품 등)이 전체의 86.4%를 차지하고, 상품 매출(부품·상품 유통)이 13.6%를 차지합니다. 핵심 제품은 카메라모듈 핸들링 장비, 반도체 공정·검사 장비, 스마트팩토리용 모듈형 플랫폼 장비 및 모빌리티용 자동화 장비 등으로, 연구개발(R&D)과 주문형(주문 생산 기반) 장비 공급이 수익의 중심입니다.",
+    "main_customers": "카메라모듈 장비 — 모바일 및 전장(자동차 전장) 제조사 / 반도체 장비 — 반도체 제조업체 및 패키징 업체 / 스마트팩토리 장비 — 제조업 전반의 공정 운영자(공장) / 모빌리티 장비 — 자동차 부품 제조업체",
+    "price_factors": [
+      {
+        "factor": "기술변화 민감",
+        "detail": "첨단 기술 패러다임 변화와 고객 요구에 민감한 산업 특성상 기술 경쟁력과 신제품 개발 속도가 실적에 직접 영향합니다."
+      },
+      {
+        "factor": "카메라 수요 확장",
+        "detail": "스마트폰·자율주행·AI 센싱 등 카메라 모듈 적용처 확대로 고사양 장비 수요가 증가하면 장비 매출에 긍정적 영향을 줍니다."
+      },
+      {
+        "factor": "반도체 로드맵",
+        "detail": "반도체 소자 업체의 차세대 공정 로드맵과 검사·정밀제어 수요에 따라 주문형 장비 수요와 매출이 변동합니다."
+      },
+      {
+        "factor": "환율 변동",
+        "detail": "보고서상 환율 변동이 손익에 영향을 준다고 밝힌 만큼 원·달러 환율 변동은 수익성에 직접 영향을 미칠 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "자동화장비 전문 기업으로"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "제품: 21,974 (86.4%)"
+      },
+      {
+        "field": "market_characteristics",
+        "source_section": "다. 시장의 현황",
+        "evidence_text": "고도의 기술 집약적·고부가가치 산업으로서"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4802,
+    "completion_tokens": 2573,
+    "reasoning_tokens": 1856,
+    "output_tokens": 717
+  },
+  "warnings": []
+}

@@ -1,0 +1,72 @@
+{
+  "stock_code": "052690",
+  "corp_name": "한전기술",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 03:01",
+  "meta": {
+    "wics": "전기유틸리티",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "한전기술은 1975년 설립된 발전소·플랜트 엔지니어링 전문기업으로, 원자력·화력 발전소 설계와 발전설비 O&M(운영·정비), 플랜트 건설 및 신재생에너지 사업을 수행합니다. 국내 원전 설계를 전담 수행하는 등 발전소 전 생애주기에 걸친 종합 기술서비스를 제공하는 점이 특징입니다.",
+    "business_model": "사업부문은 원자력, 원자로, 에너지신사업으로 구분되며, 설계(Architect Engineering), 원자로계통설계(Nuclear Steam Supply System), 화력·신재생 설계 및 EPC(설계·조달·시공)·O&M 서비스를 핵심으로 합니다. 사업부문별 FY2025 영업수익 구성은 원자력 66.9%, 원자로 18.1%, 에너지신사업 15.0%로 원자력 비중이 높습니다.",
+    "main_customers": "원자력 — 국내 원전 발주·운영 기관(한국전력공사 계열 포함) / 원자로 — 원전 건설사 및 운영사 / 에너지신사업 — 발전사 및 플랜트 발주처",
+    "price_factors": [
+      {
+        "factor": "원전 수주환경",
+        "detail": "글로벌 친원전 기조와 해외 수주 실적(예: UAE·체코)이 신규 수주·매출에 직접적인 영향"
+      },
+      {
+        "factor": "탄소중립 정책",
+        "detail": "국내외 탄소중립 이행으로 석탄화력 축소·신재생 확대가 사업 포트폴리오 전환의 속도와 실적에 영향"
+      },
+      {
+        "factor": "기술·인력 의존도",
+        "detail": "엔지니어링은 기술집약 산업으로 핵심 인력과 축적된 경험이 수주경쟁력 및 이윤구조에 큰 영향을 줌"
+      },
+      {
+        "factor": "국제인증·안전성",
+        "detail": "APR1400 등 노형의 국제 인증 보유 여부와 안전성 입증이 해외사업 수주 경쟁력에 영향을 미침"
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "회사는 발전소 및 플랜트 관련 엔지니어링 업체로서 1975년 설립된 이래"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "원자력: 248,784 (66.9%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "원자로: 80,893 (18.1%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "에너지신사업: 40,289 (15.0%)"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "1982년 7월 한국전력공사 계열로 편입되며 한국전력기술(주)로 개편하였습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4254,
+    "completion_tokens": 3139,
+    "reasoning_tokens": 2304,
+    "output_tokens": 835
+  },
+  "warnings": []
+}

@@ -1,0 +1,76 @@
+{
+  "stock_code": "012170",
+  "corp_name": "아센디오",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 09:48",
+  "meta": {
+    "wics": "방송과엔터테인먼트",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "아센디오는 1977년에 설립되어 1989년 한국거래소 유가증권시장에 상장한 오락·문화 업종의 기업입니다. 현재 영화의 투자·제작·배급, 드라마 기획개발·제작, 공연 및 전시 등을 하는 종합 엔터테인먼트 회사이며, 2019년 기업회생 신청 이후 2020년 회생종결과 구조조정을 거치며 사업 재편을 이어왔습니다.",
+    "business_model": "주력 사업은 엔터테인먼트 사업으로, 드라마·영화·콘텐츠 제작/전시 매출이 4,807로 전체 매출 5,922의 약 81.2%를 차지합니다. 섬유 사업은 아바야(Abaya) 유통을 중심으로 1,115, 약 18.8%를 차지하며, 2025년 4분기에는 안정적인 수익구조 확보를 위해 섬유/원단사업도 추진하고 있습니다. 회사는 콘텐츠 투자·제작·유통을 중심으로 하면서 신사업을 더해 수익원을 다각화하는 구조입니다.",
+    "main_customers": "엔터테인먼트 사업 — 콘텐츠 수요처, 플랫폼, 제작·유통 관련 거래처 / 섬유 사업 — 아바야 의류 관련 원단·유통 수요처, 해외 유통 거래처",
+    "price_factors": [
+      {
+        "factor": "흥행변동",
+        "detail": "엔터테인먼트 사업은 콘텐츠의 흥행 여부에 따라 수요와 매출이 크게 달라집니다."
+      },
+      {
+        "factor": "트렌드",
+        "detail": "소비자 취향과 시장 트렌드 변화가 빠르면 콘텐츠 편성과 제작 성과에도 직접 영향을 줍니다."
+      },
+      {
+        "factor": "제작편수",
+        "detail": "콘텐츠 제작편수가 줄면 매출이 감소하고 영업손실이 확대될 수 있습니다."
+      },
+      {
+        "factor": "신사업",
+        "detail": "섬유/원단사업의 추진 성과에 따라 안정적인 수익구조 확보 여부가 달라질 수 있습니다."
+      },
+      {
+        "factor": "인적네트워크",
+        "detail": "인적네트워크를 활용한 콘텐츠 수주 능력이 위축된 시장환경에서도 실적에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "1977년에 설립되어, 1989년에 한국거래소 유가증권시장에 상장되었으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "엔터테인먼트 사업 4,807"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "섬유 사업 1,115"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "콘텐츠의 흥행 여부와 시장의 트렌드에 따라"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "MD&A",
+        "evidence_text": "콘텐츠 제작편수가 줄어 매출이 감소하고 영업손실이 증가"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3466,
+    "completion_tokens": 829,
+    "reasoning_tokens": 0,
+    "output_tokens": 829
+  },
+  "warnings": []
+}

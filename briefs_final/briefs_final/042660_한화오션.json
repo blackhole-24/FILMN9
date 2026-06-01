@@ -1,0 +1,78 @@
+{
+  "stock_code": "042660",
+  "corp_name": "한화오션",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 01:42",
+  "meta": {
+    "wics": "조선",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "한화오션은 각종 상선과 해양플랜트, 특수선을 건조하는 종합 조선·해양 전문회사로서, 플랜트·풍력 등 관련 사업을 그룹 내에서 확장하며 사업 포트폴리오를 확대하고 있습니다. 국내외 자회사와 생산·영업 거점을 통해 선별적 고가 수주와 해외시장 진출을 추진하고 있습니다.",
+    "business_model": "주요 사업은 LNG·원유·컨테이너·LPG 운반선과 FPSO·플랫폼·시추설비 등 해양제품의 설계·건조, 그리고 잠수함·구축함 등 특수선(방산) 건조입니다. 2024년 한화로부터 플랜트 사업과 풍력사업을 양수하고 IT(한화오션디지털) 합병을 통해 플랜트 설계·시공과 해상·육상 풍력의 개발·시공까지 종합건설(엔지니어링·조달·시공) 역량을 확장하고 있습니다.",
+    "main_customers": "상선·해양플랜트 — 주문주(선주·플랜트 발주 기업) / 특수선(방산) — 국가·해군 등 방위 관련 기관",
+    "price_factors": [
+      {
+        "factor": "환율",
+        "detail": "거의 대부분의 계약이 외화로 체결되어 환율 변동이 매출 환산과 수익성에 직접 영향합니다."
+      },
+      {
+        "factor": "제작자금(금융)",
+        "detail": "선박·플랜트는 인도 시점 수취 구조가 일반적이라 제작금융 및 운전자금 조달 여건이 실적에 영향합니다."
+      },
+      {
+        "factor": "선가·수요",
+        "detail": "선종별·프로젝트별 계약가격 수준과 신조 수요 변동이 매출 규모와 마진에 직결됩니다."
+      },
+      {
+        "factor": "국가 방위예산",
+        "detail": "특수선(방산)은 국가의 방위예산과 직결되어 방산 수주환경 변화가 실적에 영향합니다."
+      },
+      {
+        "factor": "플랜트 기술장벽",
+        "detail": "플랜트는 고도의 기술과 경험이 필요해 수주경쟁과 수행능력이 수익성에 중요한 변수입니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "[DART 사업보고서 — 영업 현황]",
+        "evidence_text": "종합 조선ㆍ해양 전문회사입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[DART 사업보고서 — 영업 현황]",
+        "evidence_text": "플랜트 사업을 양수하여"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "[경쟁 환경 및 시장 특성]",
+        "evidence_text": "주문주의 선호도와 요구에 따라"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "[경쟁 환경 및 시장 특성]",
+        "evidence_text": "국가의 국방예산과 업계의 실적이 직결되는"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[경영진 실적·전략 요약 (MD&A)]",
+        "evidence_text": "2025년 연결기준 매출액 12조 7,835억원을 기록"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 5327,
+    "completion_tokens": 3008,
+    "reasoning_tokens": 2176,
+    "output_tokens": 832
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "stock_code": "099520",
+  "corp_name": "DGI",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 07:50",
+  "meta": {
+    "wics": "통신장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "DGI(099520)는 영상감시시스템을 주력으로 하는 통신장비(전기·전자) 기업으로, NVR, DVR, IP카메라 등 영상감시 및 저장장치를 생산하고 있습니다. 최근에는 신재생에너지(태양광·해상풍력) 사업에도 진출하여 관련 인력 및 투자를 구축하였습니다.",
+    "business_model": "사업은 크게 'CCTV 영상보안장비' 제품 판매와 '신재생에너지(풍력·태양광)' 용역·공사로 구분됩니다. 보안부문에서는 DVR, NVR, Smart IP 카메라, VMS, 서버·스토리지 등 하드웨어와 소프트웨어(클라우드·AI·엣지·IoT 기능)를 개발·생산·판매하고, 신재생에너지 부문은 인·허가 용역 및 공사 수행을 주요 수익원으로 삼고 있습니다.",
+    "main_customers": "CCTV 영상보안장비 등 — 디스트리뷰터(Distributor) 및 최종 사용자(제품을 설치·사용하는 고객) / 신재생에너지(풍력,태양광 등) — 인·허가 용역 및 공사 수요처",
+    "price_factors": [
+      {
+        "factor": "환율",
+        "detail": "원화 기준 판가는 환율 변동에 가장 많은 영향을 받아 수출단가 및 매출원가에 직접 영향."
+      },
+      {
+        "factor": "원가(원재료)",
+        "detail": "원재료비·제조원가 변동은 판매가격 산정과 수익성에 직결됩니다."
+      },
+      {
+        "factor": "경쟁사 가격추이",
+        "detail": "시장상황과 경쟁사 가격추이에 따라 판매가격을 조정해야 하므로 실적 변동성이 발생할 수 있습니다."
+      },
+      {
+        "factor": "기술전환",
+        "detail": "IP카메라 중심의 네트워크·디지털화 추세는 제품 수요와 제품구성(저장·전송기술)에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 가. 업계의 현황 (1) 산업의 특성",
+        "evidence_text": "그 중 당사는 영상감시시스템 분야를 주력사업으로 영위하고 있으며, 현재 NVR(Network Video Recorder), DVR(Digital Video Recorder), IP카메라를 생산하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "III. 경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "현재 DVR(Digital Video Recorder), NVR(Network Video Recorder), Smart IP 카메라, VMS, 서버, 스토리지 등의 보안제품을 개발, 생산 및 판매하고 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 라. 주요 제품 등 관련 소비자 불만사항 등",
+        "evidence_text": "당사는 제품 개발단계에서부터 디스트리뷰터(Distributor)와 밀접한 관계를 통해 제품출시 단계에서부터 고객의 요구를 반영한 제품을 판매하고,"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 가. 업계의 현황 (2) 산업의 성장성",
+        "evidence_text": "※ 최근 보고서일 현재로 주력 판매되고 있는 제품을 기준으로 작성하였습니다.(1) 산출기준시장상황(경쟁사 가격추이 등)과 원재료비등 제조원가, 연구개발비를 감안하여 판매가격을 산출합니다.(2) 주요 가격변동원인수출의 경우 업체별로 매년 연간 구매 예상 물량에 따라 판가를 조정하고 있으나 원가절감을 통해 대응하고 있으며, 원화기준 판가는 환율변동에 따라 가장 많은 영향을 받습니다"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 3667,
+    "completion_tokens": 4523,
+    "reasoning_tokens": 3584,
+    "output_tokens": 939
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

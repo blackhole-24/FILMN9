@@ -1,0 +1,71 @@
+{
+  "stock_code": "267320",
+  "corp_name": "나인테크",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 14:29",
+  "meta": {
+    "wics": "전기제품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "나인테크는 리튬이온 2차전지와 디스플레이용 제조장비를 개발·생산하여 국내외에 공급하는 장비 전문 기업입니다. 이차전지 조립공정(라미네이션, 스태킹) 특화 장비와 디스플레이 전·후공정용 Wet Station 및 물류 이송장비를 주요 제품으로 보유하고 있습니다.",
+    "business_model": "사업부문별 FY2025 매출 구성은 이차전지 제조용 장비 72.4%, 디스플레이 제조용 장비 5.5%, 반도체 장비 1.4%, 리튬이온 이차전지 17.7%, 기타 3.1%로, 이차전지 제조용 장비가 핵심 수익원입니다. 종속회사를 통한 리튬이온 전지(폴리머) 및 ESS·충전기 생산도 별도 매출원을 형성하고 있습니다.",
+    "main_customers": "이차전지 제조용 장비 — 2차전지 제조업체 (국내·해외 공장 포함) / 디스플레이 제조용 장비 — 디스플레이 패널 제조업체 / 반도체 장비 — 반도체 제조업체 / 리튬이온 이차전지 — 군수용 및 ESS·충전기 수요처",
+    "price_factors": [
+      {
+        "factor": "전기차 수요",
+        "detail": "전기차(EV) 시장 확대는 리튬이온 이차전지 수요를 늘려 이차전지 제조장비 수주에 긍정적 영향을 줍니다."
+      },
+      {
+        "factor": "ESS·소형수요",
+        "detail": "에너지저장장치(ESS) 및 소형 전지의 수요증가도 장비와 배터리 제품의 수요를 견인합니다."
+      },
+      {
+        "factor": "디스플레이 수요",
+        "detail": "OLED 등 디스플레이 기술·투자 방향은 디스플레이 장비 수주에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "글로벌 경기",
+        "detail": "글로벌 경기 둔화 시 설비투자 축소로 장비 수주와 매출이 감소할 수 있습니다."
+      },
+      {
+        "factor": "국가정책",
+        "detail": "각국의 전기차 육성 및 친환경 정책은 장기적 장비 수요를 지지하는 요인입니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 주요 제품등의 현황",
+        "evidence_text": "당사는 이차전지 산업의 핵심 제조장비인 라미, 스테킹 장비 및 디스플레이 패널 제조장비인 Wet Station장비 및 디스플레이 물류 이송장비를 제작하여 공급하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "이차전지 제조용 장비: 56,631 (72.4%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 주요 제품등의 현황",
+        "evidence_text": "Lamination 및 Stacking 장비의 경우 “LG화학”의 국내(오창) 공장을 비롯하여, 미국, 캐나다, 폴란드, 중국의 공장에 납품하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "MD&A (경영진 실적·전략 요약)",
+        "evidence_text": "2025년 경영 실적은 글로벌 경기 둔화에 따른 이차전지 장비 수주 감소의 영향으로 매출액 824억 원을 기록하며 전년 대비 58.2% 감소하였습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5510,
+    "completion_tokens": 4827,
+    "reasoning_tokens": 3904,
+    "output_tokens": 923
+  },
+  "warnings": []
+}

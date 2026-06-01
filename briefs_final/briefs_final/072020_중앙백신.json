@@ -1,0 +1,69 @@
+{
+  "stock_code": "072020",
+  "corp_name": "중앙백신",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 05:26",
+  "meta": {
+    "wics": "제약",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "중앙백신은 동물용 의약품(주로 백신) 분야에서 영업하는 기업으로, 축산업과 반려동물 관련 질병의 진단·예방·치료를 목적으로 하는 제품을 취급합니다. 국내 시장의 계절적·전염병 리스크에 민감한 구조를 인식하고 해외 시장 진출 및 생산시설(GMP) 확충을 통해 성장 기반을 다지고 있습니다.",
+    "business_model": "주요 사업부문은 '제품'으로 동물용 백신 등 의약품의 개발·제조·판매가 핵심 수익원이며, 내수와 수출을 병행하는 구조입니다. 해외 수출 다변화와 대량생산을 위한 GMP(우수 의약품 제조관리기준) 시설 투자를 통해 생산규모 확대와 안정적 공급체계 구축을 추구하고 있습니다.",
+    "main_customers": "제품 — 축산업의 사육농가 및 반려동물 관련 수요(반려동물 소유자·관련 산업)",
+    "price_factors": [
+      {
+        "factor": "사육두수 변동",
+        "detail": "가축 사육두수의 증감이 매출에 직접적으로 영향을 미쳐 실적 변동성이 커질 수 있습니다."
+      },
+      {
+        "factor": "전염병 발생",
+        "detail": "구제역·ASF·조류인플루엔자 등 전염병은 백신 수요와 방역 여건을 급격히 변화시켜 실적에 영향을 줍니다."
+      },
+      {
+        "factor": "원가 상승",
+        "detail": "국제정세·환율·물류비·인플레이션 등으로 원가상승이 지속되면 수익성에 부담이 될 수 있습니다."
+      },
+      {
+        "factor": "규제·품질기준",
+        "detail": "제조·품질관리 기준 강화는 설비투자 및 품질관리 비용 증가로 이어질 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "[시장 대응 및 투자 현황]",
+        "evidence_text": "당사는 선제적으로 해외 시장 진출을 통한 수출 다변화 전략을 추진하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "■ 주요 사업부문 (비율 불명확)\n  - 제품"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > (산업의 특성)",
+        "evidence_text": "동물약품산업은 산업동물 또는 반려(애완)동물과 그 질병을 대상으로 진단, 예방, 치료, 방역 등"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나. 주요 제품 등의 가격변동추이",
+        "evidence_text": "국제정세, 환율, 물류비 인상, 인플레이션 등의 이유로 원가상승의 요인이 계속 발생하고 있습니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 3860,
+    "completion_tokens": 5216,
+    "reasoning_tokens": 4480,
+    "output_tokens": 736
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

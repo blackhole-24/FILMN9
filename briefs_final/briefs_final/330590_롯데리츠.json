@@ -1,0 +1,73 @@
+{
+  "stock_code": "330590",
+  "corp_name": "롯데리츠",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 16:38",
+  "meta": {
+    "wics": "부동산",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "reit"
+  },
+  "brief": {
+    "company_overview": "롯데리츠는 부동산투자회사(리츠)로서 다수의 투자자로부터 자금을 모아 부동산에 투자·운용하는 공모상장 리츠에 포함된 회사입니다. 주로 롯데 계열사를 책임임차인으로 하는 자산을 통해 안정적 임대수익을 확보하는 구조를 가지고 있습니다.",
+    "business_model": "주요 수익원은 보유 부동산에서 발생하는 임대수익이며, 투자자에게 지속적이고 안정적인 배당수익(배당금)을 제공하는 것을 목적으로 합니다. 대부분의 자산은 롯데쇼핑㈜과 롯데글로벌로지스㈜를 책임임차인으로 하는 장기임대차계약 및 Triple-net(수선·보험·제세 부담을 임차인이 지는 구조) 계약을 통해 운영비용과 공실 리스크를 낮추고 있으며, 일부 자산(L7 HOTELS 강남타워)은 호텔롯데 및 기타 임차인과의 일반 임대차계약 형태로 운용됩니다.",
+    "main_customers": "임대사업 — 롯데쇼핑㈜·롯데글로벌로지스㈜ 등 롯데 계열 책임임차인 / 임대사업 — 호텔롯데(주) 및 기타 임차인",
+    "price_factors": [
+      {
+        "factor": "금리",
+        "detail": "금리 상승 시 조달비용 증가 및 자산평가 손실 가능성으로 실적과 배당에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "임차인 신용",
+        "detail": "주요 임차인(롯데 계열)의 신용도 변화가 임대수익 안정성에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "정부정책",
+        "detail": "공모리츠에 대한 세제·투자 허용 등 정책 변화가 리츠 수요와 시장 성장에 영향을 줍니다."
+      },
+      {
+        "factor": "공실 리스크",
+        "detail": "자산의 임대차조건과 시장수요 변화에 따라 공실 및 임대수익 변동성이 발생할 수 있습니다."
+      },
+      {
+        "factor": "유동성",
+        "detail": "부채비율·유동성 관리 상태가 자금조달 비용과 재무안정성에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 1) 업계의 현황",
+        "evidence_text": "2018년을 기점으로 당사를 포함한 공모상장 리츠가 출시되었고"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 2) 위험관리",
+        "evidence_text": "장기임대차계약을 통하여 공실 리스크 및 임대수익 변동 리스크를 최소화"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 2) 위험관리",
+        "evidence_text": "신용도가 우량한 롯데쇼핑㈜와 롯데글로벌로지스㈜를 책임임차인으로 하는"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 1) 관련 법령 또는 정부의 규제 현황",
+        "evidence_text": "공모리츠(펀드)에 대한 토지분 재산세 분리과세 유지방침"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 3626,
+    "completion_tokens": 4363,
+    "reasoning_tokens": 3520,
+    "output_tokens": 843
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

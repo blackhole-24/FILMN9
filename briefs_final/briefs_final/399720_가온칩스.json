@@ -1,0 +1,69 @@
+{
+  "stock_code": "399720",
+  "corp_name": "가온칩스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 18:51",
+  "meta": {
+    "wics": "반도체와반도체장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "가온칩스는 2012년 설립된 시스템 반도체 설계 전문 기업으로, 삼성 파운드리의 공식 디자인 솔루션 파트너(DSP) 및 Arm Approved Design Partner(AADP)로서 설계 서비스를 제공합니다. 반도체 설계부터 양산·패키징까지 원스톱(One-Stop) 디자인 솔루션을 제공하는 점이 특징입니다.",
+    "business_model": "당사는 SoC 스펙 협의·설계에서부터 Physical Design, 웨이퍼 생산 관리, QA, 패키징·테스트 설계까지 반도체 개발 전 과정을 지원하는 Full Turnkey(원스톱) 디자인 솔루션을 핵심 사업모델로 운영합니다. 주요 사업영역은 Automotive, 인공지능(AI), IP개발, 보안(Security), 디스플레이(Display), 사물인터넷(IoT) 및 용역매출 등으로 구성되어 있으며, 보고서상 각 부문별 구체적 매출비율은 제시되어 있지 않습니다.",
+    "main_customers": "Automotive — 세트(Set)·OEM 기업 / 인공지능(AI) — CSP(Cloud Service Provider)·빅테크·팹리스 고객 / IP개발 — 팹리스 및 자체 반도체 개발 기업 / 보안(Security) — 산업용 장비·보안 솔루션 개발 기업 / 디스플레이(Display) — 디스플레이·가전 세트 업체 / 사물인터넷(IoT) — IoT 디바이스 제조사 및 팹리스 / 용역매출 — 반도체 설계 서비스 의뢰 기업(팹리스·세트·OEM 등)",
+    "price_factors": [
+      {
+        "factor": "수요 확장",
+        "detail": "AI·데이터센터·자율주행·IoT 등 시스템반도체 수요 확대는 설계 서비스 수요 증가로 실적에 영향을 미칩니다."
+      },
+      {
+        "factor": "공정·설계 난도",
+        "detail": "공정 미세화와 설계 복잡도 증가로 디자인 솔루션의 기술 경쟁력이 실적 및 수주에 직결됩니다."
+      },
+      {
+        "factor": "파운드리 의존성",
+        "detail": "삼성 파운드리 DSP로서 파운드리 공정 접근성과 지원 역량 변화는 양산 지원과 수주에 영향합니다."
+      },
+      {
+        "factor": "고객군 다변화",
+        "detail": "팹리스 외에 글로벌 IT·세트·OEM 등 고객 범위 확대는 수주 기회를 늘리지만 프로젝트 특성에 따라 매출 변동성이 커질 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "2012년 설립된 시스템 반도체 설계 전문 기업"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "원스톱(One-Stop) 디자인 솔루션을 제공합니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "나. 시장현황 및 영업의 개황",
+        "evidence_text": "전통적인 팹리스 기업뿐만 아니라 자체 반도체 개발을 추진하는 글로벌 IT 기업"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "공정 미세화와 설계 복잡도 증가"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4252,
+    "completion_tokens": 4127,
+    "reasoning_tokens": 3264,
+    "output_tokens": 863
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

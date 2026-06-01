@@ -1,0 +1,67 @@
+{
+  "stock_code": "206400",
+  "corp_name": "베노티앤알",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 11:49",
+  "meta": {
+    "wics": "건축제품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "베노티앤알은 건설(건축제품) 업종에 속한 기업으로 실내건축사업을 중심으로 차양시스템, 천장 복사패널, 친환경 이중바닥재 등을 보유하고 있으며, 2023년에는 웨어러블 로봇사업에 새로 진출했습니다. 실내건축과 로봇(웨어러블) 두 축을 바탕으로 제품 개발과 신사업 확장을 병행하고 있습니다.",
+    "business_model": "FY2025 기준 사업부문별 영업수익은 건설매출이 80.7%, 기타매출이 19.3%를 차지하며(건설매출: 1,116 / 기타매출: 921), 핵심 수익원은 실내건축(차양시스템·천장 복사패널·친환경 이중바닥재)입니다. 한편 웨어러블 로봇사업은 2023년 새로 진출한 신사업으로 향후 성장 동력으로 육성 중입니다.",
+    "main_customers": "실내건축사업 — 실내공간의 사용목적에 따른 설계·시공 수요자 / 웨어러블 로봇 — 재활치료·헬스케어 수요(환자·치료사)",
+    "price_factors": [
+      {
+        "factor": "건축수요",
+        "detail": "소득 증가와 노후 건축물 증가로 실내건축 수요가 지속 증가하면 건설매출에 우호적 영향을 줍니다."
+      },
+      {
+        "factor": "에너지정책",
+        "detail": "녹색건축 관련 제도 및 에너지 절감 수요 확대는 차양시스템 등 에너지절감 제품의 수요를 높일 수 있습니다."
+      },
+      {
+        "factor": "디자인수요",
+        "detail": "공간의 미적·기능적 요구 증가는 루버 등 차양제품과 복사패널의 고부가가치 제품 수요에 영향합니다."
+      },
+      {
+        "factor": "고령화",
+        "detail": "고령인구 증가와 재활 수요 확대는 웨어러블 로봇 분야의 시장 확대와 실적에 긍정적 요인이 될 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 업계현황 (1) 실내건축사업",
+        "evidence_text": "실내건축업 시장은 지속적인 성장하고 있는 상황입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "건설매출: 1,116 (80.7%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "기타매출: 921 (19.3%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "나. 제품의 라인업 및 특징 (2) 로봇사업 주요 제품 설명",
+        "evidence_text": "재활치료 및 헬스케어용 웨어러블 로봇으로 개발되었습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4021,
+    "completion_tokens": 5378,
+    "reasoning_tokens": 4608,
+    "output_tokens": 770
+  },
+  "warnings": []
+}

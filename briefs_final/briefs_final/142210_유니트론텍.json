@@ -1,0 +1,64 @@
+{
+  "stock_code": "142210",
+  "corp_name": "유니트론텍",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 10:10",
+  "meta": {
+    "wics": "반도체와반도체장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "유니트론텍은 1996년 설립되어 해외 Vendor사의 반도체·디스플레이 제품을 국내외로 유통하는 사업을 영위하는 기업입니다. 연결 기준으로 수천억원대 매출을 기록하는 중견 유통업체로, 반도체와 디스플레이가 핵심 품목입니다.",
+    "business_model": "주요 수익원은 반도체 유통과 디스플레이 유통입니다. 벤더로부터 제품을 매입해 안전재고를 유지한 뒤 수요처의 발주에 따라 납품하는 방식으로 운영되며, 일부는 에이전트(대리인) 역할로 기술지원과 발주 현황 관리를 수행합니다.",
+    "main_customers": "반도체 — 완성차 업체 및 부품사, 전자제품 제조사 / 디스플레이 — 인포테인먼트·DID·의료기·산업용기기 등 최종 장비 제조사",
+    "price_factors": [
+      {
+        "factor": "반도체 사이클",
+        "detail": "글로벌 실리콘 사이클(경기순환)에 따라 반도체 수요와 가격 변동이 실적에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "전방수요(산업별)",
+        "detail": "5G·AI·데이터센터·자동차 등 전방 산업의 수요 변화가 반도체 주문량과 매출 규모에 영향을 줍니다."
+      },
+      {
+        "factor": "디스플레이 기술전환",
+        "detail": "LCD에서 OLED·Micro LED 등 고부가 제품으로의 전환은 거래 품목 구성과 마진 구조에 변화를 초래합니다."
+      },
+      {
+        "factor": "통상·공급망",
+        "detail": "글로벌 통상정책(관세·무역장벽)과 공급망 재편은 수입 공급처 및 물류비용, 납기 등에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 영업 현황",
+        "evidence_text": "당사는 1996년 설립되어 Micron, Microchip, AUO 등 해외 Vendor社의 반도체 및 디스플레이 상품을 국내외로 유통하는 사업을 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 나. 주요 제품 및 생산, 판매방식",
+        "evidence_text": "당사는 IT부품 기술영업 및 마케팅 사업을 영위하고 있으며, 주요 매출상품은 반도체와 디스플레이입니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 나. 시장여건 및 영업의 개황",
+        "evidence_text": "당사는 In-Vehicle Infotainment, DID, 의료기, 산업용 기기 등에 적용되는 디스플레이를 전문으로 거래하고 있습니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4458,
+    "completion_tokens": 4753,
+    "reasoning_tokens": 4032,
+    "output_tokens": 721
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

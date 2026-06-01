@@ -1,0 +1,62 @@
+{
+  "stock_code": "052330",
+  "corp_name": "코텍",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 11:41",
+  "meta": {
+    "wics": "디스플레이패널",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "코텍은 산업용 모니터를 전문으로 하는 기업으로, 게이밍 디스플레이(게이밍 모니터)와 PID(의료·특수목적 모니터)를 주력으로 합니다. 특히 게이밍 모니터는 슬롯머신용 핵심 부품으로 2002년 세계일류상품 선정 이후 지속적으로 세계 1위 시장 점유율을 유지하고 있습니다.",
+    "business_model": "주요 매출은 산업용 모니터의 개발·제조·판매에서 발생하며, FY2025 기준 산업용모니터제조 및 판매 비중이 96.7%로 압도적입니다(상품/서비스매출 3.3%). 제품은 주문생산 방식으로 생산되며 인천 송도와 베트남의 생산라인을 통해 게이밍 모니터(슬롯머신용)와 PID(의료용·항공·방위용)를 공급합니다.",
+    "main_customers": "게이밍 디스플레이 — 슬롯머신·게이밍기기 제조사 / PID — 글로벌 의료기기 업체(병의원 공급) 및 글로벌 항공·방위산업 업체(공공기관 공급)",
+    "price_factors": [
+      {
+        "factor": "규제 승인",
+        "detail": "주 정부 등 게이밍 규제기관의 승인 지연은 주요 부품 교체 시 납기와 수주에 직접적 영향을 미칩니다."
+      },
+      {
+        "factor": "품질·내구성",
+        "detail": "슬롯머신은 24시간 가동되므로 높은 내구성과 안정성이 실적(수주 지속성)에 핵심 변수로 작용합니다."
+      },
+      {
+        "factor": "카지노 수요",
+        "detail": "글로벌 복합리조트 및 신흥국의 카지노 투자 확대는 게이밍 모니터 수요 증가로 이어질 가능성이 있습니다."
+      },
+      {
+        "factor": "진입장벽",
+        "detail": "엄격한 품질 인증과 다품종 소량생산 구조는 신규 경쟁자 진입을 제한해 기존 공급사의 매출 안정성에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "당사는 산업용 모니터 전문기업으로서"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "- 산업용모니터제조 및 판매: 383,573 (96.7%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "의료용 모니터는 글로벌 의료기기 업체를 통해 병의원에 공급되고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3939,
+    "completion_tokens": 3485,
+    "reasoning_tokens": 2816,
+    "output_tokens": 669
+  },
+  "warnings": []
+}

@@ -1,0 +1,67 @@
+{
+  "stock_code": "104200",
+  "corp_name": "NHN벅스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 08:19",
+  "meta": {
+    "wics": "방송과엔터테인먼트",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "NHN벅스는 2002년 설립된 디지털 음원서비스와 음원 유통을 주업으로 하는 기업으로, 코스닥에 상장된 음원 플랫폼 사업자입니다. 벅스(Bugs!), 에센셜(essential;), 세이캐스트(SayCast) 등을 통해 B2C 음원 서비스와 B2B 음원 유통을 병행하고 있습니다.",
+    "business_model": "2025년 기준 매출은 B2C 약 44%, B2B 약 56%로 B2B(음원유통)가 매출 비중에서 다소 높은 구조입니다. B2C에서는 벅스의 스트리밍·다운로드 서비스와 '에센셜'·'세이캐스트' 브랜드를 운영하고, B2B는 음원 제작에 투자해 유통권을 확보한 뒤 서비스업체에 판매하는 모델로 수익을 창출합니다.",
+    "main_customers": "B2C — 개인 이용자(스트리밍·다운로드 이용자) / B2B — 음원서비스업체(음원 유통권을 구매하여 서비스하는 기업)",
+    "price_factors": [
+      {
+        "factor": "경쟁 심화",
+        "detail": "대형 플랫폼과의 제휴·기술 경쟁이 심화되면 이용자 확보와 유지비용이 늘어나 실적 변동성이 커질 수 있습니다."
+      },
+      {
+        "factor": "저작권료",
+        "detail": "저작권 관련 징수규정(수익배분율) 변경은 사업자 몫의 수익성에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "디바이스 제휴",
+        "detail": "디바이스 기업과의 제휴(앱 탑재 등)는 글로벌 유통과 이용자 유입에 영향을 주어 매출 확대에 기여할 수 있습니다."
+      },
+      {
+        "factor": "시장 성장",
+        "detail": "디지털 디바이스 확대로 시장 자체는 성장하고 있어 서비스 채널 확장 여부가 실적에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "당사는 2002년 설립된 법인으로서"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "B2C 약 44%. B2B 약 56%."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "B2C 서비스업체에게 판매하여 서비스할 수 있도록 하는 사업입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "'벅스(Bugs!)'는 디지털 음원서비스 사업"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4989,
+    "completion_tokens": 4180,
+    "reasoning_tokens": 3456,
+    "output_tokens": 724
+  },
+  "warnings": []
+}

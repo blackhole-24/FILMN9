@@ -1,0 +1,81 @@
+{
+  "stock_code": "141000",
+  "corp_name": "비아트론",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:21",
+  "meta": {
+    "wics": "디스플레이장비및부품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "비아트론은 2001년 설립된 디스플레이 장비 기업으로, TFT Backplane 공정에 쓰이는 열처리 장비의 개발·제조·판매를 주력으로 하고 있습니다. 글로벌 시장에서 선도적 지위를 확보하고 있으며, 최근에는 디스플레이 장비 기술을 바탕으로 반도체 장비와 어드밴스드 패키징(고집적 반도체 조립) 장비로 사업을 넓히고 있습니다.",
+    "business_model": "주력 매출은 디스플레이 TFT Backplane 공정에 적용되는 열처리 장비에서 나오며, 2025년 사업부문별 영업수익 기준으로 디스플레이 및 반도체 제조장비가 87.8%를 차지합니다. 나머지는 기타 제품(Parts 등) 6.1%, 기타(관리보수 및 임대료 등) 6.1%로 구성되어 있어, 장비 판매 중심의 구조에 부품·유지보수성 수익이 더해진 형태입니다. 회사는 여기에 더해 Epitaxial-CVD 장비와 하이브리드 본더, LAB(레이저 보조 본더), 다이본더(칩 접합 장비) 같은 차세대 장비 사업화를 추진하고 있습니다.",
+    "main_customers": "디스플레이 및 반도체 제조장비 — 해외 디스플레이업체, 패널 제조사 / 기타 제품(Parts등) — 기존 장비 고객사 / 기타(관리보수 및 임대료등) — 장비 사용 고객사",
+    "price_factors": [
+      {
+        "factor": "투자활성화",
+        "detail": "해외 디스플레이업체들의 설비 투자 확대가 신규 수주 증가로 이어져 실적에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "OLED전환",
+        "detail": "차량용 디스플레이, 태블릿 PC, 노트북의 OLED 전환이 늘면 관련 장비 수요가 확대될 수 있습니다."
+      },
+      {
+        "factor": "경기변동",
+        "detail": "디스플레이 장비 산업은 전방 패널 업체의 설비 투자와 출하 일정에 따라 실적 변동폭이 크게 나타납니다."
+      },
+      {
+        "factor": "기술주기",
+        "detail": "반도체 장비는 기술 발전 주기가 짧아 선제적인 R&D(연구개발) 성과와 신제품 타이밍이 중요합니다."
+      },
+      {
+        "factor": "중국경쟁",
+        "detail": "중국 패널 제조사의 추격과 국산화 확대는 디스플레이 장비 시장에서 경쟁 부담을 키울 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 2001년 설립 이래"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "글로벌 시장에서 선도적 지위를 확보하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "디스플레이 및 반도체 제조장비: 57,177,001 (87.8%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "기타 제품  (Parts등): 3,964,562 (6.1%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "기타 (관리보수  및 임대료등): 3,977,004 (6.1%)"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "전방 패널 업체의 설비 투자 및 출하 일정에 밀접하게 연동"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4492,
+    "completion_tokens": 972,
+    "reasoning_tokens": 0,
+    "output_tokens": 972
+  },
+  "warnings": []
+}

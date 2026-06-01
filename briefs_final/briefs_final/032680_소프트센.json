@@ -1,0 +1,67 @@
+{
+  "stock_code": "032680",
+  "corp_name": "소프트센",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 23:44",
+  "meta": {
+    "wics": "IT서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "소프트센은 1988년 설립된 IT서비스 기업으로, IT 인프라와 IT 솔루션을 중심으로 사업을 전개하고 있습니다. 서버·스토리지 기반의 인프라 구축과 플렉서블 OLED용 신소재, 산업용 X-Ray 검사장비 등 하드웨어 기반 사업과 중국 통신사 제휴를 통한 부가서비스 공급을 병행합니다.",
+    "business_model": "사업부문별 영업수익은 IT 인프라 사업부가 20.5%, IT 솔루션 사업부가 79.5%를 차지합니다. IT 인프라 사업부는 서버/스토리지 등 ICT(정보통신기술) 구축·컨설팅·유지보수와 플렉서블 OLED용 신소재, 2차전지·식료품용 X-Ray 검사장비 등 장비·프로젝트 중심의 수익구조이고, IT 솔루션 사업부는 중국 3대 이동통신사와의 업무제휴를 통해 문자·음성·인증 등 부가서비스를 B2B(기업간 거래)·B2C(기업과 소비자간 거래) 형태로 제공합니다.",
+    "main_customers": "IT 인프라 사업부 — 대형 SI·그룹 관계사 및 정부·공공기관 / 플렉서블 OLED 신소재 — OLED 제조업체 / 검사장비 — 2차전지 제조사·식료품 제조공장 / IT 솔루션 사업부 — 중국 3대 이동통신사와 제휴한 통신사·기업·소비자(B2B·B2C)",
+    "price_factors": [
+      {
+        "factor": "수주 변동성",
+        "detail": "프로젝트 단위 매출 구조로 신규 수주 여부에 따라 실적 변동성이 큽니다."
+      },
+      {
+        "factor": "대형 SI 경쟁",
+        "detail": "국내 시장에서 대형 SI업체의 시장독점이 심화되면 소규모 수주 확보가 어려워질 수 있습니다."
+      },
+      {
+        "factor": "클라우드·AI 투자",
+        "detail": "클라우드와 AI에 대한 투자 확대는 IT 인프라·솔루션 수요를 증가시키는 성장 요인입니다."
+      },
+      {
+        "factor": "지정학 리스크",
+        "detail": "해외 프로젝트·수출은 지정학적 상황(예: 러시아-우크라이나) 변화로 계약 취소·매출 미실현 리스크가 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "당사의 사업부문은 크게 IT 인프라 사업부와 IT 솔루션 사업부로 나뉩니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "IT 인프라 사업부: 11,255 (20.5%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "IT 솔루션 사업부: 43,559 (79.5%)"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "2. 주요 제품 등의 가격 변동 추이",
+        "evidence_text": "당사의 업종 특성상 대부분의 매출이 프로젝트 단위별로 발생합니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4192,
+    "completion_tokens": 4409,
+    "reasoning_tokens": 3584,
+    "output_tokens": 825
+  },
+  "warnings": []
+}

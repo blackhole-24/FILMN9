@@ -1,0 +1,68 @@
+{
+  "stock_code": "389470",
+  "corp_name": "인벤티지랩",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:41",
+  "meta": {
+    "wics": "제약",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "인벤티지랩은 유체역학과 마이크로플루이딕 기술(Microfluidics)을 의약품 연구·개발과 제조 공정에 적용하는 DDS(Drug Delivery System, 약물전달시스템) 플랫폼 기업입니다. IVL-DrugFluidic®, IVL-GeneFluidic®, BioFluidic™ 플랫폼을 기반으로 장기지속형 주사제, 유전자 기반 의약품, 단백질 바이오의약품 전달 기술을 개발하고 있습니다.",
+    "business_model": "주요 매출은 기술이전, 제품매출, 용역매출, 기타매출로 구성되며, 2025년 매출 기준 기술이전 1,407/2,939, 제품매출 234/2,939, 용역매출 2,491/2,939, 기타매출 -1,193/2,939입니다. 장기지속형 주사제(Long Acting Injectable, LAI) 개발과 공동개발(Joint Development), 기술이전(License Out), CDMO(위탁개발생산) 사업을 함께 운영하며, 제약사·바이오텍과의 협업을 통해 수익을 만드는 구조입니다. IVL-GeneFluidic® 기반 CDMO와 큐라티스의 제조시설을 활용한 생산 기반도 확장하고 있습니다.",
+    "main_customers": "기술이전 — 국내외 제약사 및 바이오텍 / 공동개발 — 국내 대형 제약사, 글로벌 제약사, 신약개발 바이오텍 / CDMO — 국내외 세포·유전자치료제 회사 및 CDMO / 제품매출 — 동물의약품 수요처",
+    "price_factors": [
+      {
+        "factor": "기술이전",
+        "detail": "기술이전 계약이 체결되면 매출과 사업 신뢰도가 함께 반영될 수 있어 실적 변동의 핵심 요인이 됩니다."
+      },
+      {
+        "factor": "개발단계",
+        "detail": "파이프라인이 임상 1/2상 전후 단계에 있어 개발 진척과 결과에 따라 사업 가치 기대가 크게 달라질 수 있습니다."
+      },
+      {
+        "factor": "제조확장",
+        "detail": "LNP CDMO와 GMP 제조시설 확대는 시료 생산과 상업 생산 역량에 직접 연결되어 실적에 영향을 줍니다."
+      },
+      {
+        "factor": "경쟁진입",
+        "detail": "장기지속형 주사제는 기술 난이도와 진입장벽이 높아 경쟁사 진입 속도와 대형 계약 흐름이 업황에 중요합니다."
+      },
+      {
+        "factor": "특허보호",
+        "detail": "플랫폼 특허와 개별 파이프라인 특허의 보유·관리 수준은 기술이전과 사업 확장 가능성에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 1. 회사의 개요",
+        "evidence_text": "당사는 유체역학을 의약품 연구·개발에 융합한 원천 플랫폼인 Laminar-FLUIDigm™을 기반으로..."
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황 > [표] 가. 매출실적",
+        "evidence_text": "합 계 | 658 | 1,783 | 2,939"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "기술이전(License Out)을 통한 사업화를 추진"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5727,
+    "completion_tokens": 871,
+    "reasoning_tokens": 0,
+    "output_tokens": 871
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

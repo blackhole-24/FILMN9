@@ -1,0 +1,62 @@
+{
+  "stock_code": "187220",
+  "corp_name": "디티앤씨",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 11:04",
+  "meta": {
+    "wics": "전자장비와기기",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "디티앤씨는 시험(Testing), 검증(Inspection), 인증(Certification) 서비스를 제공하는 시험인증 전문 기업으로, 전자기기·자동차전장·기간산업·바이오 등 전방 산업에 대한 기술서비스를 제공하고 있습니다. 시험인증은 각국 규제와 표준을 충족함을 입증하는 필수 산업으로, 규제 강화에 따라 시장 수요가 확대될 것으로 보고 있습니다.",
+    "business_model": "사업부문별 매출은 바이오 39.7%, 전자기기 27.6%, 자동차전장 15.0%, 기간산업 12.1%, 기타 5.7%로 구성되어 있습니다. 핵심 수익원은 전자기기 및 바이오 기술서비스이며, 전자파(EMC), 전기안전(Safety), SAR(전자파인체흡수율), 통신(RF), 에너지효율 등 시험·검증·인증(Testing/Inspection/Certification) 서비스를 제공합니다.",
+    "main_customers": "전자기기 — 국내 및 글로벌 전자기기 제조업체 / 바이오 — 제약사 / 자동차전장 — (원문에 명시된 특정 고객군 없음) / 기간산업 — (원문에 명시된 특정 고객군 없음)",
+    "price_factors": [
+      {
+        "factor": "규제강화",
+        "detail": "환경·안전 규제가 강화되면 시험·인증 수요가 늘어나 매출에 긍정적 영향을 미칩니다."
+      },
+      {
+        "factor": "제품기능 다변화",
+        "detail": "인터넷·무선 기능 등 기능 추가로 시험항목이 늘어나 시험비용 및 수요가 증가합니다."
+      },
+      {
+        "factor": "수출지역 다변화",
+        "detail": "수출 대상 국가가 늘어나면 각국 인증 요구에 따른 시험·인증 항목 증가로 비용과 매출 변동이 발생합니다."
+      },
+      {
+        "factor": "바이오 경기민감성",
+        "detail": "바이오(임상·비임상) 부문은 전방 바이오산업의 침체에 따라 실적에 부정적 영향을 받을 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "검증은 제품을 생산하는 공정의 적절성 여부를 확인하는 절차입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "전자기기 34,695백만원(27.6%), 바이오 49,936백만원(39.7%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "주요 고객사는 국내 및 글로벌 전자기기 제조업체 및 제약사입니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5246,
+    "completion_tokens": 3974,
+    "reasoning_tokens": 3264,
+    "output_tokens": 710
+  },
+  "warnings": []
+}

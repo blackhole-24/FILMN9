@@ -1,0 +1,77 @@
+{
+  "stock_code": "086040",
+  "corp_name": "바이오톡스텍",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 06:33",
+  "meta": {
+    "wics": "생명과학도구및서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "바이오톡스텍은 비임상(Non-Clinical) CRO(계약연구기관) 사업을 주력으로 하는 기업으로, 지배회사와 종속회사를 통해 비임상시험과 신물질 개발 참여를 병행하고 있습니다. 연결실체는 2025년에 매출액 470억원을 기록하였습니다.",
+    "business_model": "핵심 사업은 비임상 CRO(계약연구기관)로, FY2025 기준 비임상 CRO가 매출의 70.0%, 영장류 비임상CRO가 매출의 30.0%를 차지합니다. CRO 사업은 GLP(우수실험실관리기준) 인증 등 규제 요건을 충족하는 연구인프라와 전문인력이 핵심 경쟁력입니다.",
+    "main_customers": "비임상 CRO — 제약·바이오 기업 및 연구기관 / 영장류 비임상CRO — 제약·바이오 기업 및 연구기관",
+    "price_factors": [
+      {
+        "factor": "GLP 인증",
+        "detail": "GLP 인증 여부가 수주 수락과 제출 자료의 인정 여부에 직접 영향을 미칩니다."
+      },
+      {
+        "factor": "진입장벽",
+        "detail": "초기 투자비용과 연구 인프라 구축 시간이 길어 경쟁자가 쉽게 늘지 않아 시장 점유율에 영향이 큽니다."
+      },
+      {
+        "factor": "수주 단가",
+        "detail": "수주별 시험 디자인에 따른 단가 변동과 경쟁사와의 가격 경쟁이 실적에 직접 반영됩니다."
+      },
+      {
+        "factor": "고객 수요",
+        "detail": "제약·바이오 기업의 연구개발(R&D) 예산 변동에 따라 수주와 매출이 주기적으로 영향을 받습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "당사는 주력사업인 비임상 CRO사업을 주요사업으로 영위하고 있습니다."
+      },
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "2025년 매출액 470억원"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "비임상 CRO: 33,020 (70.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "영장류 비임상CRO: 13,997 (30.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "부문별 사업현황 [사업의 개요]",
+        "evidence_text": "주요 고객인 제약/바이오 기업 및 연구기관들은"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "부문별 사업현황 [사업의 개요]",
+        "evidence_text": "초기 투자비용이 높고, 고정비 비중이 높으며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4562,
+    "completion_tokens": 3652,
+    "reasoning_tokens": 2880,
+    "output_tokens": 772
+  },
+  "warnings": []
+}

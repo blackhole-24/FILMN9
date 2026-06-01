@@ -1,0 +1,76 @@
+{
+  "stock_code": "160550",
+  "corp_name": "NEW",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 10:34",
+  "meta": {
+    "wics": "방송과엔터테인먼트",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "NEW는 2008년 영화 투자·배급을 주사업으로 설립된 콘텐츠 미디어 그룹으로, 드라마·음악 등 총 7개 사업부문으로 영역을 확대해 왔습니다. 2025년 별도 기준 매출은 68,150백만원으로 영화 매출이 대부분을 차지하며 투자·제작·유통 전반을 영위하고 있습니다.",
+    "business_model": "핵심 사업은 영화 투자·제작·배급이며 2025년 별도 매출 중 영화 매출이 96.88%를 차지합니다. 판매 경로별로는 영화관 상영배급 매출이 78.67%, 해외 판권 계약 매출이 10.79%로 구성되며, 투자·제작 단계에 자원을 집중해 작품별 수익성에 주력하는 점이 특징입니다.",
+    "main_customers": "영화 — 극장(영화관) 및 해외 판권 계약자 / 드라마 — 공중파·케이블·IPTV·인터넷 VOD 등 플랫폼 / 음악 — 플랫폼 및 콘텐츠 파트너",
+    "price_factors": [
+      {
+        "factor": "흥행 의존도",
+        "detail": "초기 흥행 여부가 이후 유통수익을 좌우해 개별 작품 흥행에 실적이 크게 의존합니다."
+      },
+      {
+        "factor": "극장 관객수",
+        "detail": "극장 관객수 변동이 직간접적으로 상영배급 매출에 큰 영향을 미칩니다."
+      },
+      {
+        "factor": "OTT 경쟁",
+        "detail": "OTT와 디지털 플랫폼의 성장으로 전통적 유통구조와 수익 배분에 변화가 발생합니다."
+      },
+      {
+        "factor": "계절성",
+        "detail": "방학·휴가 등 성수기와 비성수기 차이가 관객수 및 매출에 계절적 영향을 줍니다."
+      },
+      {
+        "factor": "제작비 구조",
+        "detail": "초기 제작·투자비 비중이 크므로 제작비 관리가 수익성에 직접적인 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "당사는 2008년 영화 투자ㆍ배급을 주 사업으로 영위하는 투자배급사로 설립되어"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "영화 매출이 66,027백만원을 기록하며 96.88%를 차지하였습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "영화관 상영배급 매출액이 53,615백만원으로 78.67%를 차지하였고"
+      },
+      {
+        "field": "business_model",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "투자 영화 편 수를 증가시켜 라인업을 구축하기보다는 각 작품의 수익성에 집중"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 가. 업계의 현황",
+        "evidence_text": "최초 상영에서의 흥행 여부가 후속 유통단계에 실질적인 영향을 미치는"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4403,
+    "completion_tokens": 4566,
+    "reasoning_tokens": 3712,
+    "output_tokens": 854
+  },
+  "warnings": []
+}

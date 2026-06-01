@@ -1,0 +1,67 @@
+{
+  "stock_code": "352700",
+  "corp_name": "씨앤투스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 17:21",
+  "meta": {
+    "wics": "섬유,의류,신발,호화품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "씨앤투스는 MB(Melt Blown) 기반 고성능·고효율 집진 필터 원단 기술을 바탕으로 소재에서 완제품까지 자체 생산·판매하는 전문 필터소재 제조기업입니다. 에어솔루션·워터솔루션·라이프케어 등 필터 및 생활 케어 제품군을 중심으로 글로벌 생산 거점을 통해 해외 시장을 확대하고 있으며, 친환경·고기능성 신소재 개발을 지속하고 있습니다.",
+    "business_model": "핵심은 MB 기반 필터 원단의 자체 생산과 이를 적용한 완제품 판매로, 제품군별 매출 비중(제23기 합계 67,177,457천원 기준)은 공기청정기용 필터 약 46.0%, 정수기 필터 약 13.1%, 보건용 마스크 약 11.2%, 진공청소기 필터 약 10.1%, 산업용 마스크 약 7.6%, 차량용 필터 약 5.3%이며 나머지 및 기타 상품이 소액을 차지합니다. R&D(초임계 플래시 방사 부직포, 양전하 정수필터 등)와 베트남 등 해외 생산거점을 통한 제품 다각화·글로벌 공급이 수익 구조의 핵심입니다.",
+    "main_customers": "Air Solution — 공기청정기·진공청소기·차량용 에어컨 제조사 및 관련 유통 채널 / Water Solution — B2C 소비자(아에르 브랜드) 및 정수기·수처리 관련 시장 / Life Care — 아에르 브랜드 소비자 및 바이러스 케어·라이프케어 가전 수요층",
+    "price_factors": [
+      {
+        "factor": "글로벌수요",
+        "detail": "글로벌 에어필터 시장 성장률이 높아지면 공기필터 제품 판매 확대와 실적 개선에 긍정적 영향을 줍니다."
+      },
+      {
+        "factor": "실내공기관심",
+        "detail": "실내 공기질 관리 수요 증가 시 공기청정기용·진공청소기용 필터 수요가 동반 확대됩니다."
+      },
+      {
+        "factor": "수돗물위생",
+        "detail": "수돗물 위생 이슈가 지속되면 워터솔루션(샤워기·정수기 필터) 제품 판매에 우호적입니다."
+      },
+      {
+        "factor": "글로벌생산",
+        "detail": "해외 생산거점(예: 베트남) 가동으로 글로벌 공급 안정성·원가 경쟁력에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 영업 현황",
+        "evidence_text": "소재에서 완제품까지 자체 생산 판매하고 있으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[표] 가. 매출유형별 매출 실적",
+        "evidence_text": "공기청정기용 필터 30,933,847"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 워터솔루션 사업 부문",
+        "evidence_text": "B2C 시장에서 확보한 라이프 케어 솔루션 브랜드 아에르(Aer)의 소비자 인지도"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 가. 시장의 특성과 사업현황",
+        "evidence_text": "글로벌 에어필터 시장규모는 2023년부터 2032년까지 CAGR 6.23% 성장"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4978,
+    "completion_tokens": 5551,
+    "reasoning_tokens": 4672,
+    "output_tokens": 879
+  },
+  "warnings": []
+}

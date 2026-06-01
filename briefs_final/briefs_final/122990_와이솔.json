@@ -1,0 +1,71 @@
+{
+  "stock_code": "122990",
+  "corp_name": "와이솔",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 09:19",
+  "meta": {
+    "wics": "핸드셋",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "와이솔은 휴대폰용 SAW(표면탄성파) Filter와 Duplexer, 그리고 이들을 집적한 RF Module을 생산하는 전자부품 제조기업입니다. 주력으로 RF Front End(무선주파수 전단)용 부품을 공급하며 모바일 통신(특히 5G)과 전장·NB-IoT 분야로 사업 영역을 확장하고 있습니다.",
+    "business_model": "사업부문별 영업수익은 전자부품제조가 100.0%를 차지하며, 핵심 제품은 SAW Filter·SAW Duplexer 및 RF Module입니다. 메이저 휴대폰 제조업체에는 개발단계부터 기술영업을 통한 직거래를, 중소형 제조업체에는 대리점을 통한 간접 거래를 수행하며 RF 모듈 업체와의 협업으로 필터 채용율을 확대하고 있습니다.",
+    "main_customers": "RF Front End(전자부품제조) — 메이저 휴대폰 제조업체(직거래) / RF Front End(전자부품제조) — 중소형 휴대폰 제조업체(대리점 통한 간접 거래) / RF 모듈 협업 — RF 모듈 제조업체 및 스마트폰 AP 업체(MTK/S.LSI 등)",
+    "price_factors": [
+      {
+        "factor": "5G 수요",
+        "detail": "5G 스마트폰 보급 확대로 고성능 RF 필터 수요가 증가하여 실적에 긍정적 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "거래구조",
+        "detail": "메이저 고객과의 직거래 비중과 개발단계 참여가 매출 안정성 및 수주확보에 직접 영향합니다."
+      },
+      {
+        "factor": "가격경쟁",
+        "detail": "중국 등 가격 민감 시장에서는 원가절감형 제품 출시로 마진이 압박받을 수 있습니다."
+      },
+      {
+        "factor": "원가·환율",
+        "detail": "수출·수입 거래가 있어 환율 변동은 원가와 이익구조에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "제품다각화",
+        "detail": "전장·NB-IoT 등 신규 시장 진입은 기존 모바일 의존도를 낮추는 요인이 됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사의 주력사업은 휴대폰에 채용되는 SAW Filter, Duplexer"
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. 사업현황",
+        "evidence_text": "RF Front End 사업을 주력사업으로 하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "전자부품제조: 3,196 (100.0%)"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "연결기준 매출 3,212억/영업손실 363억"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4143,
+    "completion_tokens": 3144,
+    "reasoning_tokens": 2368,
+    "output_tokens": 776
+  },
+  "warnings": []
+}

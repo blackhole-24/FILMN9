@@ -1,0 +1,76 @@
+{
+  "stock_code": "288330",
+  "corp_name": "파라택시스코리아",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 15:06",
+  "meta": {
+    "wics": "제약",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "파라택시스코리아는 디지털자산사업과 바이오사업을 주요 사업으로 영위하는 기업입니다. 디지털자산 부문은 비트코인 보유(트레저리) 및 채굴을 통해 자산을 확보·운용하고, 바이오 부문은 특발성 폐섬유증·암 등 영역에서 혁신 신약 연구개발과 기술이전을 핵심으로 합니다.",
+    "business_model": "사업부문별 매출 구성은 기타매출이 100.0%를 차지합니다. 핵심 사업은 디지털자산(비트코인 전략적 보유·채굴을 통한 자산확보 및 BTC 운용)과 바이오(신약 후보물질의 연구개발·기술이전(라이선스) 및 장기적 상업화)로 구성되며, 디지털자산 사업부는 아직 상용제품·서비스 매출을 발생시키고 있지 않습니다.",
+    "main_customers": "디지털자산 — 자사 보유·운용(재무전략적 자산 확보 및 주주가치 제고) / 바이오 — 국내외 제약사·바이오기업(기술이전·공동개발 파트너)",
+    "price_factors": [
+      {
+        "factor": "비트코인 시세",
+        "detail": "비트코인 현물 가격 변동이 보유자산 평가 및 채굴 수익(채굴보상 가치)에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "네트워크 난이도",
+        "detail": "채굴 경쟁강도(네트워크 난이도)가 상승하면 동일한 해시파워로 얻는 보상이 감소해 채굴 수익성에 악영향을 줍니다."
+      },
+      {
+        "factor": "전력비용",
+        "detail": "채굴운영비 중 전력비 비중이 크므로 지역별 전력단가 변동은 채굴사업의 영업흐름에 직접적 영향을 미칩니다."
+      },
+      {
+        "factor": "규제·수탁체계",
+        "detail": "기관형 커스터디·내부통제·규제준수 역량이 약화되면 자산 보관 신뢰도와 사업모델의 지속가능성에 부정적 영향을 줍니다."
+      },
+      {
+        "factor": "임상·기술이전",
+        "detail": "바이오 파이프라인의 임상 성과 및 기술이전(라이선스) 계약 체결 여부가 중장기 매출과 현금흐름을 좌우합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 디지털자산사업과 바이오사업을 주요 사업으로 영위하고 있으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "기타매출: 100,000 (100.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[디지털자산 사업부] 가. 주요 제품 등의 매출 현황",
+        "evidence_text": "디지털자산 사업부는 상용제품 또는 서비스 매출을 발생시키고 있지 않습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[디지털자산 사업부]",
+        "evidence_text": "비트코인을 전략적 재무자산으로 채택하였습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[바이오사업부] 나. 주요 제품의 설명",
+        "evidence_text": "BBT-877은 오토택신 저해제로, 특발성 폐섬유증(IPF) 치료제 후보물질입니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5893,
+    "completion_tokens": 4755,
+    "reasoning_tokens": 3840,
+    "output_tokens": 915
+  },
+  "warnings": []
+}

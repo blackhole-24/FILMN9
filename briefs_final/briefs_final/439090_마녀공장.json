@@ -1,0 +1,87 @@
+{
+  "stock_code": "439090",
+  "corp_name": "마녀공장",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 19:36",
+  "meta": {
+    "wics": "화장품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "마녀공장은 자연주의 기반의 클린뷰티·비건 화장품을 중심으로 성장한 브랜드 포트폴리오 기업으로, 대표 브랜드로는 '마녀공장'을 중심으로 '아워비건', '바닐라부티크', '노머시' 등을 보유하고 있습니다. 2012년 자연 유래 발효 추출물 기반 미백 케어 제품 출시에 이어 좋은 성분과 효능을 기반으로 고객 신뢰를 쌓아 온 점이 특징입니다.",
+    "business_model": "핵심 제품군은 앰플&세럼(20.2%), 클렌징(58.3%), 스킨케어(14.2%), 기타(3.2%), 상품(4.1%), 기타(0.0%) 등으로 구성되어 있으며, 클렌징 제품 비중이 가장 큽니다. 또한 설립 초기부터 OEM/ODM사와의 파트너십을 통해 제품을 생산·출시하는 방식으로 신속하고 유연한 상품 기획·출시가 가능한 점을 사업 운영 상의 강점으로 내세우고 있습니다.",
+    "main_customers": "앰플&세럼 — 올리브영·온라인 등 유통 채널을 통한 일반 소비자 / 클렌징 — 올리브영·리테일 채널을 통한 일반 소비자 / 스킨케어 — 리테일·해외 바이어를 통한 소비자 / 기타·상품 — 프로모션·기획세트 채널을 통한 소비자",
+    "price_factors": [
+      {
+        "factor": "클린뷰티 트렌드",
+        "detail": "전세계 클린뷰티 시장 확대는 제품 수요와 브랜드 성장에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "지역별 수요 편차",
+        "detail": "중국 등 아시아 매출 변동이나 북미·유럽의 증가 등 지역별 매출 변화가 실적에 영향합니다."
+      },
+      {
+        "factor": "유통·프로모션",
+        "detail": "올리브영·큐텐·라쿠텐 등 주요 판매채널의 프로모션과 기획세트 운영이 실판매가격과 매출에 영향을 줍니다."
+      },
+      {
+        "factor": "환율 변동",
+        "detail": "해외 매출 및 결제 통화(USD, JPY 등) 변동은 환율 노출로 손익에 영향을 미칠 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "대표 브랜드인'마녀공장'을 중심으로"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "2012년 자연 유래 발효 추출물에서 찾은 미백 케어 기능성 제품을 시작으로"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "클렌징: 65,907 (58.3%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "앰플&세럼: 22,820 (20.2%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "전세계 65개 이상 국가에 수출하고 있으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "OEM/ODM사와 설립 초기부터 파트너십을 가지고"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "환율변동 영향",
+        "evidence_text": "주요 통화로는 USD, JPY  등이 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "아시아의 매출은 전년도 대비 21% 감소하였지만 북미지역의 매출은 전년대비 39.7% 증가하였으며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4797,
+    "completion_tokens": 4028,
+    "reasoning_tokens": 3008,
+    "output_tokens": 1020
+  },
+  "warnings": []
+}

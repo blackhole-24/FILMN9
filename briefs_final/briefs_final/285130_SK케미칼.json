@@ -1,0 +1,72 @@
+{
+  "stock_code": "285130",
+  "corp_name": "SK케미칼",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 15:00",
+  "meta": {
+    "wics": "화학",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "SK케미칼은 2017년 12월 분할설립된 이후 Green Chemicals Biz.와 Life Science Biz.를 중심으로 사업을 영위하는 화학·헬스케어 기업입니다. 판교에 본사와 국내외 생산기지(국내 3개, 중국 2개)를 보유하고 2025년 연결기준 매출은 2조 3,652억원을 기록했습니다.",
+    "business_model": "핵심 사업은 친환경 소재를 담당하는 Green Chemicals Biz.(Copolyester, Recycle 등)와 제약·백신을 담당하는 Life Science Biz.(Pharma 및 SK바이오사이언스), 그리고 집단에너지 사업을 하는 기타사업(SK멀티유틸리티)으로 구성됩니다. 사업부문별 영업수익 구성(FY2025)은 백신 개발 및상업화 15.8%, 상품 9.1%, 기타 3.6%, CDMO 71.5%로 CDMO(위탁개발·위탁생산)가 큰 비중을 차지하고 있습니다.",
+    "main_customers": "Green Chemicals Biz. — 화장품·식품·전자·건축 등 제조업체 / Life Science Biz.(Pharma) — 의료기관·제약유통업체 및 환자/처방시장 / SK바이오사이언스(CDMO·백신) — 제약사·보건기관·의료기관",
+    "price_factors": [
+      {
+        "factor": "환경규제",
+        "detail": "유해물질 규제(예: BPA·프탈레이트 금지) 강화는 친환경 Copolyester 제품 수요와 규격 준수 비용에 동시에 영향합니다."
+      },
+      {
+        "factor": "탄소·에너지 규제",
+        "detail": "온실가스 배출·에너지 사용 규제 및 감축 의무는 생산비용과 설비투자에 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "정부 정책(제약)",
+        "detail": "제약·바이오 산업에 대한 정부의 R&D·지원 확대는 백신·제약 분야의 수요와 연구개발 환경에 우호적 영향을 줍니다."
+      },
+      {
+        "factor": "글로벌 리스크",
+        "detail": "무역 갈등·지정학적 불확실성은 수출 비중이 높은 사업의 매출·공급망에 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "당사는 2017년 12월 01일을 분할기일로 설립된 이후"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 1. 사업의 개요",
+        "evidence_text": "사업별로는 환경 친화적 소재 사업을 관장하는 Green Chemicals Biz."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "CDMO: 465,633 (71.5%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "나. 주요 제품 1) Green Chemicals Biz.",
+        "evidence_text": "SKYGREEN은 화장품 용기, 전자부품, 건축자재 등"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 관련 법령 또는 정부의 규제",
+        "evidence_text": "한국, 미국, 유럽, 중국, 일본의 식품접촉물질의 요구사항을 충족합니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 6128,
+    "completion_tokens": 4532,
+    "reasoning_tokens": 3648,
+    "output_tokens": 884
+  },
+  "warnings": []
+}

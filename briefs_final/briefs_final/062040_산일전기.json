@@ -1,0 +1,78 @@
+{
+  "stock_code": "062040",
+  "corp_name": "산일전기",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 04:10",
+  "meta": {
+    "wics": "전기장비",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "산일전기는 산업용 변압기 제조 업체로, 전력용 변압기와 배전용 변압기를 주로 생산하며 특히 72kV까지의 배전 변압기 시장을 주요 목표로 하고 있습니다. 매출의 대부분은 해외에서 발생하며(2025년 기준 수출 비중 약 97%), 미국 지역 비중이 높아(2025년 기준 75% 이상) 북미 시장 의존도가 큰 편입니다.",
+    "business_model": "핵심 사업은 전기사업을 중심으로 변압기 제조·판매이며, 소프트스타터 등 전력기기 관련 제품과 기타매출이 보조 부문으로 존재합니다. 제품군은 유입변압기(오일), 몰드(수지)변압기, 건식변압기 등으로 구성되며, 단상·삼상 70MVA, 72.5kV급까지 주문 제작이 가능하고 인버터·신재생·ESS 등 특수용도 요구에 맞춘 제품 공급이 수익의 근간입니다.",
+    "main_customers": "전기사업 — 전력 유틸리티(전력망)·송변전·산업플랜트·철도 / 소프트스타터 등 — 인버터·ESS·신재생에너지 설비 제조사 / 기타매출 — 학교·병원·상업시설·선박 등 다양한 산업·상업 고객",
+    "price_factors": [
+      {
+        "factor": "미국의존도",
+        "detail": "미국 매출 비중이 높아(2025년 기준 75% 이상) 북미 수요 변동이나 무역정책 변화가 실적에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "환율",
+        "detail": "수출 비중이 매우 높아(2025년 기준 수출 약 97%) 원/달러 환율 변동이 매출 및 이익에 상당한 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "원자재비",
+        "detail": "철강·알루미늄 등 핵심 원자재 및 관세 변화는 원가 상승으로 이어져 수익성에 부담을 줄 수 있습니다."
+      },
+      {
+        "factor": "전력투자",
+        "detail": "북미 중심의 전력망 교체·신규 투자 및 신재생·데이터센터 전력 수요 증가는 장기적 수요를 견인합니다."
+      },
+      {
+        "factor": "안전·신뢰",
+        "detail": "전력기기 시장은 높은 안전성과 신뢰도를 요구해 신규 진입이 어렵고, 기존 거래 지속 여부가 실적에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 산업용 변압기 제조 업체로서, 전력용 변압기와 배전용 변압기를 주로 제조하고 있으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "나. 제품 설명",
+        "evidence_text": "당사의 변압기는 단상 혹은 삼상의 용량 70MVA와 72.5kV급 전압까지 생산이 가능하며"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "마. 시장여건 및 영업의 개황",
+        "evidence_text": "글로벌 배전 변압기 시장 중에서도 신재생 에너지 시장"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 2025년 기준 전체 매출에서 수출이 차지하는 비중이 약 97% 이며"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "특히 미국지역에 대한 매출 비중은 2025년 기준 75% 이상 수준으로"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 5154,
+    "completion_tokens": 5048,
+    "reasoning_tokens": 4096,
+    "output_tokens": 952
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

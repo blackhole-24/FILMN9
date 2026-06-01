@@ -1,0 +1,69 @@
+{
+  "stock_code": "011080",
+  "corp_name": "형지I&C",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 20:42",
+  "meta": {
+    "wics": "섬유,의류,신발,호화품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "형지I&C는 의류의 제조(외주가공) 및 도·소매를 영위하는 국내 의류업체로, 셔츠 브랜드 YEZAC과 남성복 BON, 여성복 Carries Note 및 BON:E 등을 보유하고 있습니다. 오프라인(백화점·아울렛·가두점)과 온라인을 영업 기반으로 운영하며 브랜드 포트폴리오를 통해 균형 있는 성장을 추구하고 있습니다.",
+    "business_model": "주요 수익원은 자사 브랜드를 중심으로 한 도·소매 영업과 외주 가공(제조)이며, 오프라인 유통(백화점·아울렛·가두점)과 온라인 채널을 병행하는 유통 구조에서 매출을 창출합니다. 또한 온라인 역량 강화를 핵심 전략으로 자체 콘텐츠·제휴 마케팅을 확대하고, 옴니채널(Omni-Channel) 전환 및 2026년 온라인 전용 신규 브랜드 런칭 등을 통해 포트폴리오와 매출 기반을 강화할 계획입니다.",
+    "main_customers": "오프라인(백화점·아울렛·가두점) — 백화점의 고정 고객층 및 지역 소비자 / 온라인 — 온라인 쇼핑 이용 신규 고객층 및 일반 소비자",
+    "price_factors": [
+      {
+        "factor": "경기 민감도",
+        "detail": "의류산업은 경기 변동에 민감하여 경기 침체 시 수요와 실적에 부정적 영향을 받을 수 있습니다."
+      },
+      {
+        "factor": "경쟁 심화",
+        "detail": "진입장벽이 낮아 경쟁이 매우 치열하므로 가격 경쟁 및 마케팅 비용 부담이 실적에 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "계절성",
+        "detail": "계절적 요인과 밀접하여 시즌별 상품 기획과 재고 운용에 따라 매출 변동성이 커집니다."
+      },
+      {
+        "factor": "유통 채널 구조",
+        "detail": "백화점은 상대적으로 안정된 매출원을 제공하는 반면 가두점은 변동성이 커 채널별 실적 차이가 발생할 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "당사는 의류의 제조(외주가공) 및 도.소매 등 의류사업을 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황",
+        "evidence_text": "자사 브랜드로 국내 대표 셔츠 브랜드 'YEZAC'과 기성 남성복 최초의 컬렉션 브랜드 'BON',"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "오프라인(국내 백화점, 아울렛, 가두점(대리점))과 온라인에 영업기반을 두고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "영업 현황 > 업계의 현황",
+        "evidence_text": "의류산업은 경기 변동에 민감하며"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 3630,
+    "completion_tokens": 5187,
+    "reasoning_tokens": 4416,
+    "output_tokens": 771
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

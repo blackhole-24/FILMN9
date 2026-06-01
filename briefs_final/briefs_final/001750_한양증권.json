@@ -1,0 +1,73 @@
+{
+  "stock_code": "001750",
+  "corp_name": "한양증권",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 17:38",
+  "meta": {
+    "wics": "증권",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "한양증권은 국내 증권업을 영위하는 증권사로, 위탁영업·자기매매·기업금융·기타 부문을 통해 수익을 창출합니다. FY2025에 영업이익 753억, 당기순이익 566억을 기록했고, 총자산은 1조8,337억원 수준입니다.",
+    "business_model": "핵심 사업부문은 위탁영업(브로커리지), 자기매매(자체 트레이딩), 기업금융(증권인수·주선·자문) 및 집합투자증권 판매 등 기타부문으로 구성되며, 수익원으로는 수탁수수료, 유가증권(주식·파생상품) 운용 수익, 기업금융과 부동산PF 관련 수익이 주요합니다.",
+    "main_customers": "위탁영업 — 유가증권 매매를 이용하는 투자자(증권거래 고객) / 자기매매 — 시장(당사 자체 운용을 통한 거래 상대 및 시장수익) / 기업금융 — 자금조달·주관·M&A를 필요로 하는 기업(발행사) / 기타 — 집합투자증권 구매자 및 투자상품 수요자",
+    "price_factors": [
+      {
+        "factor": "수탁수수료",
+        "detail": "국내 주식시장 거래대금과 투자심리 개선 시 수탁수수료 수입이 증가하여 영업수익에 긍정적 영향을 줍니다."
+      },
+      {
+        "factor": "금리(채권)",
+        "detail": "금리 변동은 채권 평가손익과 채권 운용성과에 영향을 미쳐 자기매매 및 운용부문 실적 변동성을 키웁니다."
+      },
+      {
+        "factor": "자기매매실적",
+        "detail": "주식·파생상품 운용 성과에 따라 자기매매 부문의 영업이익이 크게 달라집니다."
+      },
+      {
+        "factor": "기업금융실적",
+        "detail": "ECM(주식발행주관) 및 채권 인수·주관 실적이 기업금융 부문의 이익 수준을 결정합니다."
+      },
+      {
+        "factor": "부동산PF",
+        "detail": "부동산 PF 시장의 지역·사업장별 차별화와 불확실성 변동이 관련 부문의 수익성에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "FY2025 영업이익은 전년 대비 38.3% 증가한 753억"
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황",
+        "evidence_text": "당사의 영업부문은 위탁영업 부문, 자기매매 부문, 기업금융 부문 및 기타 부문으로 구성되어 있으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "영업수익은 수탁수수료 증가, 파생상품을 포함한 유가증권 운용부문의 수익 증가"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "당사의 순자본  비율은 712.9%를 유지하고 있습니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 3821,
+    "completion_tokens": 3971,
+    "reasoning_tokens": 3136,
+    "output_tokens": 835
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

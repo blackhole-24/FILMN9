@@ -1,0 +1,67 @@
+{
+  "stock_code": "052400",
+  "corp_name": "코나아이",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 02:58",
+  "meta": {
+    "wics": "IT서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "코나아이는 스마트카드(DID) 사업과 플랫폼 사업을 주력으로 하는 IT서비스 기업으로, 칩 운영체제(COS) 기반의 수직계열화(개발·제조·발급)를 통해 제품을 공급해 온 글로벌 기업입니다. 당사는 20여년간 전 세계 90여 개 국가에 제품을 공급하고 있습니다.",
+    "business_model": "핵심 수익원은 스마트카드 제품군과 결제 플랫폼으로 구성되며 사업부문별 매출은 KONA(스마트카드) 61.3%, COB 외 8.6%, 플랫폼(수수료 등) 21.5%, S/W 개발 등 8.6%로 집계되어 있습니다. 특히 자체 개발한 COS(칩 운영체제)를 탑재한 스마트카드와 EMV 표준 준수 결제 플랫폼을 바탕으로 카드 제조·발급부터 플랫폼 수수료까지 수직적 밸류체인을 운영합니다.",
+    "main_customers": "스마트카드(실물) — 금융기관 및 공공기관 / COB(칩 공급) — 전 세계 카드 제작사 / 플랫폼(지역화폐·결제) — 지방자치단체(지자체)",
+    "price_factors": [
+      {
+        "factor": "EMV 인증",
+        "detail": "EMV(국제 보안 규격) 인증 획득 기간과 진입장벽이 높아 신규 경쟁 진입을 어렵게 만들어 실적 안정성에 영향합니다."
+      },
+      {
+        "factor": "환율변동",
+        "detail": "고가 수출 제품의 단가 변화와 환율 변동이 제품 가격과 수익성에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "제품 재질",
+        "detail": "옵션·버전·재질(플라스틱·메탈 등)에 따라 스마트카드 판매단가가 달라져 매출·이익 변동성이 발생할 수 있습니다."
+      },
+      {
+        "factor": "재발급 주기",
+        "detail": "카드의 재발급 주기에 따른 반복적 수요가 존재하여 안정적인 현금흐름 창출에 기여합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "스마트카드(DID) 사업과 플랫폼 사업을 중심"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "Kona 189,477 (61.3%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "금융기관 및 공공기관에 납품하며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "플랫폼 사업",
+        "evidence_text": "고가 수출 제품의 단가 변화와 환율 변동이"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5216,
+    "completion_tokens": 3601,
+    "reasoning_tokens": 2880,
+    "output_tokens": 721
+  },
+  "warnings": []
+}

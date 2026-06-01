@@ -1,0 +1,66 @@
+{
+  "stock_code": "094280",
+  "corp_name": "효성ITX",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 07:28",
+  "meta": {
+    "wics": "상업서비스와공급품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "효성ITX는 컨택센터, IT 솔루션·인프라, 디스플레이 등 기업 대상 서비스를 제공하는 일반서비스업체입니다. 연결기준 매출은 2025년 기준 5,190억원이며, 당기순이익은 155억원으로 역대 최대 실적을 기록했습니다.",
+    "business_model": "사업부문별로 2025회계연도 영업수익 구성은 컨택센터 서비스 75.2%, IT 솔루션및서비스 7.9%, Display Solution 6.2%, ITO 5.0%, IDC 3.3%, AI 2.2%, 기타 서비스 0.2%로 구성됩니다. 주력은 컨택센터(콜 상담·BPO)이며, 서버·스토리지 및 네트워크 장비 공급과 유지보수, 디스플레이 총판, ITO(IT 아웃소싱), IDC(인프라 운영), AI 기반 솔루션 등으로 수익원을 다각화하고 있습니다.",
+    "main_customers": "컨택센터 서비스 — 금융·공공·유통·제조 기업 / IT 솔루션및서비스 — 기업·공공기관 / Display Solution — 일반 기업·전시장·상업공간·교육기관·공공기관 / ITO — 그룹 계열회사 및 제조·유통 부문 기업 / IDC — IT 인프라가 필요한 기업·기관 / AI — 제조기업(스마트팩토리) 및 컨택센터 솔루션 도입 고객",
+    "price_factors": [
+      {
+        "factor": "디지털전환",
+        "detail": "기업의 디지털 전환 수요 확대는 컨택센터의 BPO 전환 및 IT 솔루션 수주에 긍정적 영향을 줍니다."
+      },
+      {
+        "factor": "인건비·콜량",
+        "detail": "컨택센터는 콜량과 인건비 구조 변동에 민감해 비용 상승 시 실적에 부정적 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "클라우드 전환",
+        "detail": "SaaS·클라우드 도입 확대는 서버·스토리지 등의 상품군 구성과 유지보수 사업 모델 변화에 영향을 줍니다."
+      },
+      {
+        "factor": "AI 도입",
+        "detail": "생성형 AI·콜봇 도입은 운영 효율성과 서비스 품질을 개선해 컨택센터·솔루션 매출에 영향을 미칩니다."
+      },
+      {
+        "factor": "장비공급계약",
+        "detail": "서버·네트워크·디스플레이 총판 및 공급 계약의 확보 여부가 관련 매출 변동성에 직접적인 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "연결기준 매출은 5,190억원으로 전년 대비 127억원 증가"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "컨택센터 서비스: 390,073 (75.2%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 가. 컨택센터 서비스",
+        "evidence_text": "당사는 금융, 공공, 유통, 제조 등 산업 전반에 걸쳐 맞춤형 컨택센터 서비스를 제공하고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4198,
+    "completion_tokens": 3315,
+    "reasoning_tokens": 2496,
+    "output_tokens": 819
+  },
+  "warnings": []
+}

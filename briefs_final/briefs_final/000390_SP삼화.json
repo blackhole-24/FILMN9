@@ -1,0 +1,71 @@
+{
+  "stock_code": "000390",
+  "corp_name": "SP삼화",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 16:47",
+  "meta": {
+    "wics": "건축자재",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "SP삼화는 도료 및 화학제품을 주력으로 제조하는 기업으로, 도료 제품을 국내 약 800여개 대리점 유통망과 기업영업을 통해 공급합니다. 연결기준으로 도료 및 화학제품 제조 부문이 매출에서 큰 비중을 차지하는 중견 화학·건축자재 기업입니다.",
+    "business_model": "주요 수익원은 도료 및 화학제품 제조 부문으로, 해당 부문이 전체 매출의 98%를 차지합니다(603,806백만원). FY2025 사업부문별 구성으로는 포스코스틸리온(주) 4.2%, 대흥도료(주) 1.4%가 기재되어 있으며, 이외에 IT(정보시스템 구축·관리) 및 물류·금융 등 기타 부문이 존재합니다.",
+    "main_customers": "도료 및 화학제품 제조 — 건설업·철강업·금속업·자동차업·조선업 등 전방산업 / IT 부문 — 정보시스템 구축·관리·컨설팅이 필요한 기업 고객 / 물류·금융(기타) — 운송주선업·금융서비스 관련 고객",
+    "price_factors": [
+      {
+        "factor": "원재료가격",
+        "detail": "원재료 가격 변동(수지, 에폭시, 이산화티타늄 등)은 원가에 직결되어 실적 변동성을 유발합니다."
+      },
+      {
+        "factor": "건설수요",
+        "detail": "건설경기 약화 시 건축용 도료 수요가 감소하여 매출에 부정적 영향을 미칩니다."
+      },
+      {
+        "factor": "환율",
+        "detail": "고환율은 수입 원재료 비용을 상승시켜 수익성 악화 요인으로 작용합니다."
+      },
+      {
+        "factor": "국제유가",
+        "detail": "유가 급등(지정학적 리스크 등)은 용제 등 원재료비 상승으로 이어질 수 있습니다."
+      },
+      {
+        "factor": "환경규제(제품수요)",
+        "detail": "친환경·고부가가치 도료 수요 증가는 제품 포트폴리오와 수익성에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "당사와 종속회사는 도료 및 화학제품 제조 부문"
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황",
+        "evidence_text": "도료 및 화학제품 제조가 전체매출액의 98%(603,806백만원)를 차지하고 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "도료는 건설업, 철강산업, 금속업, 자동차산업, 조선업"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "영업 현황",
+        "evidence_text": "원재료의 가격 변동은 환율, 유가 및 수급과 밀접한 관련이 있으며,"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3962,
+    "completion_tokens": 3659,
+    "reasoning_tokens": 2880,
+    "output_tokens": 779
+  },
+  "warnings": []
+}

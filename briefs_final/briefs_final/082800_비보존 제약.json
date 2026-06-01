@@ -1,0 +1,66 @@
+{
+  "stock_code": "082800",
+  "corp_name": "비보존 제약",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 06:15",
+  "meta": {
+    "wics": "제약",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "비보존 제약은 완제의약품 제조·판매를 주력으로 하는 의약전문기업으로, 혁신신약 연구개발에 주력하고 있습니다. 소화기·순환기·중추신경 등 약 190여개 품목을 취급하는 중견 제약사입니다.",
+    "business_model": "주요 사업은 전문의약품(ETC), 일반의약품(OTC), CMO(의약품위탁생산), OEM(주문자상표부착방식)과 해외수출 등으로 구성되어 있으며, 최근 3개월 평균 기준 전문의약품(ETC) 사업부가 전체 매출의 약 60% 이상을 차지하고 있습니다. 연구소 중심의 R&D(신약개발·개량신약·제형기술) 활동으로 제품 경쟁력 확보를 추구합니다.",
+    "main_customers": "ETC — 의료기관·처방 의사 / OTC — 일반 소비자(일반의약품 구매자) / CMO·OEM — 제약사 및 유통업체 / 해외수출 — 해외 바이어·수입업체",
+    "price_factors": [
+      {
+        "factor": "제품구성 집중",
+        "detail": "전문의약품(ETC) 매출 비중이 높아(최근 3개월 약 60% 이상) 특정 부문 실적 변동이 전체 실적에 큰 영향을 미칩니다."
+      },
+      {
+        "factor": "임상·규제 이슈",
+        "detail": "임상 재평가 및 환수 이슈는 해당 품목의 매출에 직접적인 감소를 초래할 수 있습니다."
+      },
+      {
+        "factor": "시장수요 변동",
+        "detail": "경기 침체와 시장환경 악화는 OTC와 CMO 사업부의 수요 둔화로 이어져 매출에 부정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "규제·품질관리",
+        "detail": "약사법·식약처 기준 및 ICH 가이드라인 준수가 제품 개발·허가·수출에 중요한 제약요인으로 작용합니다."
+      },
+      {
+        "factor": "거래선 계약",
+        "detail": "대형 제약사와의 독점 판매 계약 추진 등 주요 거래선 확보 여부가 매출 회복·확대에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 영업 현황",
+        "evidence_text": "당사는 완제의약품제조및판매하는 의약전문기업으로"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 영업 현황",
+        "evidence_text": "190여개품목을 취급하는 제약사로"
+      },
+      {
+        "field": "business_model",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "전문의약품(ETC) 사업부가 최근 3개월 평균 기준 전체 매출의 약60% 이상을 차지"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4056,
+    "completion_tokens": 3500,
+    "reasoning_tokens": 2752,
+    "output_tokens": 748
+  },
+  "warnings": []
+}

@@ -1,0 +1,72 @@
+{
+  "stock_code": "277410",
+  "corp_name": "인산가",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 14:45",
+  "meta": {
+    "wics": "식품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "인산가는 39년 역사의 죽염 및 죽염응용식품 전문 제조·유통 업체로, 최초로 죽염을 산업화한 기업입니다. 전통 제조방식을 기반으로 한 인산죽염을 주력으로 하며 죽염시장 내에서 부동의 매출 1위를 유지하고 있습니다.",
+    "business_model": "주요 수익은 죽염과 죽염응용식품을 중심으로 형성되어 있으며, 매출의 국내 99.0%, 해외 1.0%로 국내 매출 비중이 매우 높습니다; 제품별 매출비중은 죽염 및 죽염응용류 60%, 진액류 9%, 환 및 분말류 6%, 기타 25%로 구성되어 있습니다. 생산은 HACCP(식품안전관리인증기준) 인증 시설에서 이루어지며, 종속회사(인산농장)를 통해 장류·엑기스류·전통주 제품도 공급하고 있습니다.",
+    "main_customers": "죽염 및 죽염응용식품 — 회원제판매(B2C) 중심, B2B 및 홈쇼핑·대형마트·편의점·온라인 채널 / 진액류·환 및 분말류·기타 — 충성도 높은 기존 고객층(B2C) 및 종속회사 공급을 통한 제품라인",
+    "price_factors": [
+      {
+        "factor": "경쟁강도",
+        "detail": "가공식품 산업은 진입장벽이 상대적으로 낮아 경쟁이 치열하여 마진과 시장점유율에 부담을 줄 수 있습니다."
+      },
+      {
+        "factor": "건강수요",
+        "detail": "죽염의 항산화·미네랄 등 기능성 특성을 찾는 소비자 수요가 실적에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "유통채널",
+        "detail": "회원제판매 중심에서 홈쇼핑·대형마트·편의점·온라인 등 유통 다변화는 매출 확대와 채널별 수익성 변동에 영향을 줍니다."
+      },
+      {
+        "factor": "인증·품질",
+        "detail": "HACCP 등 품질·안전 인증(식품안전관리인증기준)과 관련 규격 충족 여부가 제품 판매와 신뢰도에 중요한 변수입니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "1-1)사업의 개요 (주식회사 인산가)",
+        "evidence_text": "당사는 39년 역사의 죽염 및 죽염응용식품 전문 제조·유통 업체입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "1-1)사업의 개요 (주식회사 인산가)",
+        "evidence_text": "제품별 매출비중은 죽염 및 죽염응용류 60%, 진액류 9%"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "국내: 10,854 (99.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "1-1)사업의 개요 (주식회사 인산가)",
+        "evidence_text": "오랜기간 누적된 로열티 높은 회원제판매(B2C)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "1-1)사업의 개요 (주식회사 인산가)",
+        "evidence_text": "당사의 죽염제조 공정은 HACCP 인증시설에서"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 6980,
+    "completion_tokens": 4635,
+    "reasoning_tokens": 3776,
+    "output_tokens": 859
+  },
+  "warnings": []
+}

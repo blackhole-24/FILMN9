@@ -1,0 +1,76 @@
+{
+  "stock_code": "004890",
+  "corp_name": "동일산업",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 18:57",
+  "meta": {
+    "wics": "철강",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "동일산업은 봉강, 합금철, 주조 및 자동차 부품제조를 영위하는 철강업체입니다. FY2025 기준 매출은 봉강(51.3%), 합금철(21.8%), 주조(10.7%), 자동차 부품제조(15.0%)로 구성되어 사업 포트폴리오가 다각화되어 있습니다.",
+    "business_model": "FY2025 기준 매출 구성은 봉강 51.3%, 합금철 21.8%, 주조 10.7%, 자동차 부품제조 15.0%입니다. 봉강사업부는 Billet·Wire Rod를 원료로 자동차부품·단조용·베어링용·산업기계용 봉강류를 생산하고, 합금철사업부는 제강 공정용 합금철을 생산합니다. 주조사업부는 건설기계 부품을, 자동차 부품제조(종속회사 디오토모티브)는 등속조인트 구성품을 제조합니다.",
+    "main_customers": "봉강 — 자동차업체·단조업체·베어링 제조사·산업기계 제조사 / 합금철 — 제강사(철강업체) / 주조 — 건설중장비·산업기계·철도·선박·항공 부품 제조사 / 자동차 부품제조 — 완성차업체 및 자동차부품 조립업체",
+    "price_factors": [
+      {
+        "factor": "원재료비",
+        "detail": "원자재비가 제품원가의 큰 비중을 차지해 원자재 가격 변동이 수익성에 직접적 영향을 줍니다."
+      },
+      {
+        "factor": "수요경기",
+        "detail": "봉강·합금철 등은 자동차·건설·조선 등 수요산업 경기 변동에 따라 실적이 달라집니다."
+      },
+      {
+        "factor": "무역리스크",
+        "detail": "중국산 저가 공세와 미·EU 관세 등 보호무역 조치는 가격경쟁력과 매출에 영향이 있습니다."
+      },
+      {
+        "factor": "에너지비용",
+        "detail": "합금철 등 에너지다소비 업종은 전력요금 상승 시 제조원가가 증가하여 수익성을 악화시킬 수 있습니다."
+      },
+      {
+        "factor": "환경규제",
+        "detail": "환경규제 강화는 생산비용과 규제준수 부담을 증가시켜 업황에 제약요인이 됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "- 봉강: 178,462 (51.3%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "- 합금철: 75,765 (21.8%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > A. 봉강 (1) 산업의 특성 및 성장성",
+        "evidence_text": "특수강봉강 및 선재는 자동차, 조선, 기계, 건설 등 전 산업에 걸쳐 산업 기초 소재로 쓰이며"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 주조사업부",
+        "evidence_text": "주조사업부는 BEARING, SPROCKET, IDLER, CROSSTUBE 등 건설기계 부품을 생산하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > A. 봉강 (4) 기타",
+        "evidence_text": "환경규제 강화 추세가 철강산업에 주요 제약요인으로 작용하고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4924,
+    "completion_tokens": 5275,
+    "reasoning_tokens": 4352,
+    "output_tokens": 923
+  },
+  "warnings": []
+}

@@ -1,0 +1,72 @@
+{
+  "stock_code": "321550",
+  "corp_name": "티움바이오",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 16:28",
+  "meta": {
+    "wics": "제약",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "티움바이오는 김훈택 대표이사와 핵심 연구진들이 설립한 신약 연구개발 기업으로, 희귀·난치성 질환 치료제의 저분자 합성의약품 및 바이오의약품을 연구·개발합니다. 자체 신약 창출 시스템을 기반으로 NCE401, NCE403, NBP604 등 다수의 파이프라인을 보유하고 있습니다.",
+    "business_model": "주요 수익원은 공정개발 및 단백질 분석 등 용역매출(60%)과 천연화장품 제품매출(40%)으로 구성되어 있으며, 용역 부문은 CDAO(Contract Development Analytical Organization, 분석·공정개발 위탁) 서비스 제공을 통해 연구개발 단계별 공정개발·분석 서비스를 제공합니다. 한편 제품 매출은 2024년 흡수합병한 페트라온 케어랩을 통해 천연화장품 판매로 발생합니다.",
+    "main_customers": "용역매출(공정개발·단백질분석) — 초기 바이오 스타트업 및 우량 바이오기업 / 제품매출(천연화장품 판매) — 호텔·리조트(아난티), 친환경 뷰티 브랜드(톤28) 등 / CDAO 서비스 — 임상 단계별 공정개발·분석을 필요로 하는 제약·바이오 고객사",
+    "price_factors": [
+      {
+        "factor": "규제 의존성",
+        "detail": "미국·유럽 등 규제당국의 승인 기준과 절차 변화가 신약의 허가 시기와 시장 진입에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "개발기간·비용",
+        "detail": "신약 개발에는 통상 수년에서 십수년이 소요되고 비용이 크므로 파이프라인의 개발 진척도가 실적·가치에 큰 영향을 미칩니다."
+      },
+      {
+        "factor": "특허·독점성",
+        "detail": "신약의 특허 및 독점적 지위는 성공 시 높은 부가가치와 수익성을 확보할 기회를 제공합니다."
+      },
+      {
+        "factor": "CDAO 수요",
+        "detail": "공정개발·분석 서비스 수요 증감은 용역매출(사업의 주요 축, 60%)에 직접적인 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > (1) 사업 개황",
+        "evidence_text": "김훈택 대표이사 및 핵심 연구진들이 설립한 회사입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "공정개발 및 단백질 분석서비스(주1) | 7,380(60%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "천연화장품 판매(주2) | 4,909(40%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > (1) 사업 개황",
+        "evidence_text": "페트라온 케어랩은 호텔 및 리조트를 운영하는 아난티, 친환경 뷰티 브랜드 톤28 등을 주요 고객사로 두고 있으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > (1) 사업 개황",
+        "evidence_text": "프로티움사이언스를 신규 설립하였습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 6448,
+    "completion_tokens": 3437,
+    "reasoning_tokens": 2560,
+    "output_tokens": 877
+  },
+  "warnings": []
+}

@@ -1,0 +1,67 @@
+{
+  "stock_code": "203400",
+  "corp_name": "에이비온",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 11:41",
+  "meta": {
+    "wics": "제약",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "에이비온은 코스닥에 상장된 바이오테크 기업으로, 동반진단(환자 맞춤형 진단) 기반의 항암치료 신약 및 후보물질을 개발하고 있습니다. 비소세포폐암 치료제 바바메킵(ABN401) 등 다수의 파이프라인을 보유한 연구개발 중심의 기업입니다.",
+    "business_model": "매출의 대부분이 연구용역(정부 연구 용역 수주)에 의존하며, 연구용역이 전체 매출의 95.9%를 차지하고 기타(임대수익)가 4.1%를 차지합니다; 핵심 수익은 연구용역(임상·비임상 연구 수행)에 기반하고, 파이프라인 개발을 통한 기술가치 극대화에 주력합니다.",
+    "main_customers": "연구용역 — 정부(연구 용역 발주처) / 기타 — 임차인(임대수익)",
+    "price_factors": [
+      {
+        "factor": "임상·규제 리스크",
+        "detail": "임상시험 승인·성과와 규제기관 판단에 따라 실적 변동성이 크며 신약 개발 성공 여부가 재무에 직접적 영향이 있습니다."
+      },
+      {
+        "factor": "자금조달",
+        "detail": "임상 진행과 파이프라인 운영을 위한 자금 조달(예: 유상증자 등)이 빈번할 수 있어 자금조달 조건이 실적·재무구조에 영향합니다."
+      },
+      {
+        "factor": "정밀의료 수요",
+        "detail": "바이오마커 기반 동반진단 수요 증가 시 파이프라인의 상업적 가치와 임상 성공 가능성에 긍정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "지식재산권(특허)",
+        "detail": "특허 확보 및 수명(IP-LCM)에 따라 상업화 기간과 경쟁력, 장기 매출 창출 능력이 달라집니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "동반진단 기반의 항암치료 신약 및 신약 후보물질을 개발하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "연구용역 844,136(95.9)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황",
+        "evidence_text": "바이오마커 기반의 연구를 중심으로 하고 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "정부 연구 용역 사업 수주"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4793,
+    "completion_tokens": 3054,
+    "reasoning_tokens": 2368,
+    "output_tokens": 686
+  },
+  "warnings": []
+}

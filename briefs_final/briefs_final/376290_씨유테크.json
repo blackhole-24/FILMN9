@@ -1,0 +1,68 @@
+{
+  "stock_code": "376290",
+  "corp_name": "씨유테크",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 18:17",
+  "meta": {
+    "wics": "핸드셋",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "씨유테크는 한국 본사를 중심으로 중국·베트남 생산법인을 통해 스마트폰용 디스플레이·터치스크린·카메라모듈 구동보드(FPCA, 구동PCA 포함)를 제조하는 전기·전자 기업입니다. 연결기준 매출은 2,165억원으로 전년 대비 약 24% 감소하였고, 스마트폰 시장 수요 변동의 영향을 크게 받고 있습니다.",
+    "business_model": "주요 사업은 FPCB 기판 위에 MLCC·IC 등 부품을 실장하는 SMT(표면실장기술)를 통해 FPCA(구동보드)를 생산하는 제조형 사업입니다. 제품군은 스마트폰 디스플레이·카메라모듈 보드뿐 아니라 IT용 디스플레이 구동보드, 자동차용 카메라모듈 보드, 전기차 충전기용 FPCA 및 렌탈 가전용 구동PCA 등으로 구성되며, 연구개발은 한국 본사, 대량 생산은 해외 생산법인에서 수행합니다.",
+    "main_customers": "스마트폰용 디스플레이 구동보드 — 삼성디스플레이 / 스마트폰용 카메라모듈 보드 — 스마트폰 제조사(삼성전자, 샤오미, 오포) / 기타(IT·자동차·렌탈가전용 보드) — IT·자동차·렌탈가전 관련 기업",
+    "price_factors": [
+      {
+        "factor": "스마트폰수요",
+        "detail": "글로벌 스마트폰 출하가 정체되면 주력 제품 수요가 줄어 매출·이익에 직접적인 영향이 생깁니다."
+      },
+      {
+        "factor": "중국경쟁",
+        "detail": "리지드 OLED 부품 등에서 중국 디스플레이 업체들과의 경쟁 심화는 가격·마진 압박을 초래할 수 있습니다."
+      },
+      {
+        "factor": "설비투자",
+        "detail": "고가의 SPI·마운터·AOI·X-ray 검사장비 등 선행 설비투자가 필요해 투자비용 부담이 실적에 영향을 줍니다."
+      },
+      {
+        "factor": "고객집중",
+        "detail": "매출 주요 고객이 삼성그룹 계열사에 집중되어 고객 수요 변동에 따른 실적 변동성이 큽니다."
+      },
+      {
+        "factor": "부문전환지연",
+        "detail": "자동차용·기타 IT 분야 매출 비중 확장은 시간이 필요한 만큼 단기적으로 스마트폰 의존도가 지속됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "당사와 당사의 연결 자회사인 중국동관법인(DCU), 베트남법인(VCU)은 스마트폰에 사용되는 디스플레이, 터치스크린, 카메라모듈 등의 구동보드 FPCA(PCA, RFPCA포함)를 제조하는 주된 사업을 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. 주요 제품 등의 개요",
+        "evidence_text": "당사 및 연결회사는 FPCB(PCB,RFPCB 포함)에 MLCC, IC 등 각종 부품을 실장(SMT)하여 FPCA(PCA,RFPCA)를 생산하고 있으며, 주요 제품은 크게 스마트폰 디스플레이 구동보드, 스마트폰 카메라모듈 보드, IT용 디스플레이 구동보드, 자동차용 카메라모듈 보드, 전기차 충전기 등의 FPCA(PCA,RFPCA)와 렌탈 생활가전 제품인 정수기,공기청정기,비데 등의 구동PCA 사업을 하고 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "당사 및 자회사 매출의 주요고객은 삼성그룹으로 삼성디스플레이, 삼성전기 등이 있습니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 3960,
+    "completion_tokens": 5697,
+    "reasoning_tokens": 4736,
+    "output_tokens": 961
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

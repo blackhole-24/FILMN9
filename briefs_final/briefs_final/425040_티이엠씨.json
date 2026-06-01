@@ -1,0 +1,67 @@
+{
+  "stock_code": "425040",
+  "corp_name": "티이엠씨",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 19:27",
+  "meta": {
+    "wics": "반도체와반도체장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "티이엠씨는 2015년 설립되어 충북 보은군에 본사를 둔 반도체 공정용 특수가스 전문 제조기업입니다. 가스 합성·수전해·희귀가스 추출·정제·혼합·충전 등 특수가스 제조의 전 공정을 내재화한 기술을 보유하고 있으며, 다수의 국내 자회사들을 통해 사업을 확장하고 있습니다.",
+    "business_model": "FY2025 기준 매출은 반도체용 특수가스 부문 57.0%, 반도체 장비 부문 41.5%, 2차전지 장비 부문 1.5%로 구성되어 있으며, 주 수익원은 반도체용 특수가스 제조 및 반도체 장비 판매입니다. 핵심 경쟁력은 특수가스의 국산화(현지화) 기술과 생산 전 공정의 내재화에 있습니다.",
+    "main_customers": "반도체용 특수가스 — 반도체 제조사(전방 주요 고객사, 예: SK하이닉스) / 반도체 장비 — 반도체 제조업체 및 장비 도입사 / 2차전지 장비 — 국내 배터리업체 및 해외 메이커의 합자법인",
+    "price_factors": [
+      {
+        "factor": "설비투자",
+        "detail": "세계 및 국내 반도체·디스플레이의 설비투자 확대가 특수가스 수요와 실적에 직접 연결됩니다."
+      },
+      {
+        "factor": "공급망·국산화",
+        "detail": "대외 공급망 불안정 시 소재 국산화 수요가 증가하여 매출에 긍정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "희귀가스 시세",
+        "detail": "희귀가스는 외부 요인으로 시세변동이 커 제품별 가격 변동이 실적에 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "환경규제",
+        "detail": "환경 규제 준수 및 설비투자가 비용요인으로 작용할 수 있으며, 인증 보유는 영업 신뢰성에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "당사는 2015년 1월 26일 설립되어 충북 보은군에 본사를 두고, 반도체 공정용 특수가스를 전문적으로 제조하는 기업입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "MD&A > 나. 2025년 재무실적",
+        "evidence_text": "당기 매출 부문은 반도체용 특수가수 부문 57.0% , 반도체 장비 부문 41.5% , 2차전지 장비부문 1.5%으로 구성되었습니다."
+      },
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "당사는 설립 1년 만인 2016년 2월 SK하이닉스(주)의 정식 협력사로 등록하였으며,"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "영업 현황 > 라. 환경물질의 배출 또는 환경보호",
+        "evidence_text": "국제환경경영체제 인증( ISO14001)을 취득하여 법규준수 및 자율관리 체제를 강화하고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4369,
+    "completion_tokens": 3594,
+    "reasoning_tokens": 2752,
+    "output_tokens": 842
+  },
+  "warnings": []
+}

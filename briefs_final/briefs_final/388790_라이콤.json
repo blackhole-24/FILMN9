@@ -1,0 +1,69 @@
+{
+  "stock_code": "388790",
+  "corp_name": "라이콤",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 18:38",
+  "meta": {
+    "wics": "통신장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "라이콤은 광(光) 관련 연구진을 주축으로 1999년에 설립된 통신장비(전기·전자)업체로, 광모듈과 광증폭기 등 광통신용 핵심 제품을 중심으로 사업을 전개하고 있습니다. 기업부설연구소와 다년간의 연구개발 역량을 바탕으로 국내 최초 광증폭기 국산화에 성공했고, 해외(일본·유럽) 시장으로도 제품을 공급하고 있습니다.",
+    "business_model": "제품은 광증폭기, 광송수신기, 광중계기, 신규응용사업(광섬유레이저·센서 등)으로 구분되며, 광증폭기와 광송수신기가 핵심 수익원 역할을 합니다. DWDM(다중파장 전송)용 고출력 광증폭기와 플러거블형 소형 광증폭기(SFP+EDFA 등)를 통해 데이터센터, 전송시스템 제조사 및 CATV 사업자 대상으로 제품을 공급하고 있습니다.",
+    "main_customers": "광증폭기 — 데이터센터 서비스 제공자 및 통신사업자(백본·메트로) / 광증폭기 — 일본 등 Tier 1급 전송시스템 제조사 / 광송수신기 — 케이블 종합사업자(CATV MSO) / 신규응용사업(광섬유레이저·거리측정기) — 산업용 자동화·드론·민간 보안·감시 시장",
+    "price_factors": [
+      {
+        "factor": "데이터수요",
+        "detail": "FTTH(가정용 광가입자망) 확대와 데이터센터 증설로 광증폭기·송수신기 수요가 증가하면 실적 개선에 긍정적 영향을 미칩니다."
+      },
+      {
+        "factor": "환율",
+        "detail": "미·일화 등 외화 변동성이 클 경우 수출 매출의 원화 환산 실적 및 손익에 직접적인 영향이 발생합니다."
+      },
+      {
+        "factor": "원가구조",
+        "detail": "원재료 및 반제품 비용 변화와 제조원가 절감 노력은 영업이익률에 상당한 영향을 줍니다."
+      },
+      {
+        "factor": "해외인증·수출",
+        "detail": "일본·유럽 등 해외 시장과 Tier 1 고객 확보 여부는 수출 규모와 매출 안정성에 중요한 변수입니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "1999년 11월에 설립 후 2000년 3월에 법인으로 전환되었습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황",
+        "evidence_text": "당사의 제품은 제품군에 따라 광증폭기 사업부분과"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "Data Center 서비스 provider와 Tier 1급 전송 시스템 제조회사"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "환율변동위험에 노출되어 있습니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 5531,
+    "completion_tokens": 5274,
+    "reasoning_tokens": 4480,
+    "output_tokens": 794
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

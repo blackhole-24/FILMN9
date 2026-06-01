@@ -1,0 +1,71 @@
+{
+  "stock_code": "052020",
+  "corp_name": "에스티큐브",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 02:56",
+  "meta": {
+    "wics": "판매업체",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "에스티큐브는 바이오 신약개발과 화장품 제조·유통, 산업용 IT 부품 유통을 영위하는 기업으로, 자회사 STCube Pharmaceuticals(미국) 연구진과 함께 항암면역치료제 연구개발을 진행하고 있습니다. 화장품 브랜드 '씨널스'를 런칭해 국내 온라인·오프라인 유통과 해외 수출을 병행하고 있습니다.",
+    "business_model": "FY2025 기준 사업부문별 매출 구성은 상품(화장품)이 55.2%로 최대 비중을 차지하고, 유통사업부가 36.5%, 상품(IT)이 8.3%를 차지합니다. 핵심 수익원은 자사 화장품 브랜드(씨널스) 중심의 판매·유통이며, 산업용 Lens Module 등 IT 부품 유통과 장기적으로는 항암면역제 개발 성과가 기업가치에 영향을 미칠 수 있습니다.",
+    "main_customers": "상품(화장품) — 국내 온라인 소비자·올리브영·롯데면세점 등 유통채널 / 상품(화장품, 해외수출) — 일본·대만 등 해외 면세점 및 유통 벤더 / 상품(IT) — 국내 제조업체 및 산업용 부품 수요처 / 바이오 — 임상시험 대상 환자·연구자임상 주관 기관 및 기술이전(파트너) 협의 중인 제약사",
+    "price_factors": [
+      {
+        "factor": "트렌드 민감도",
+        "detail": "화장품 산업은 소비자 트렌드와 소셜미디어·인플루언서 영향에 민감해 제품 수요와 매출 변동이 크다."
+      },
+      {
+        "factor": "브랜드 경쟁력",
+        "detail": "소비자 선호와 브랜드 이미지가 구매 결정에 영향을 미쳐 신제품·브랜드 신뢰도가 실적에 직결된다."
+      },
+      {
+        "factor": "해외 마케팅",
+        "detail": "인플루언서 기반 해외 마케팅 성과에 따라 수출 확장성이 달라져 매출 성장에 영향을 준다."
+      },
+      {
+        "factor": "매입단가 변동",
+        "detail": "산업용 Lens Module은 수입·매입단가 협의(1개월~1년 단위)에 따라 원가와 마진 변동성이 발생한다."
+      },
+      {
+        "factor": "임상 성과",
+        "detail": "넬마스토바트의 임상 결과와 임상단계 진입은 바이오 부문의 사업적 가치와 전략적 파트너십 논의에 직접적 영향을 미친다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "당사는 ... 화장품 사업/산업용 Lens Module를 판매 하는 유통사업부문을 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "상품(화장품): 3,857 (55.2%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "유통사업부: 2,546 (36.5%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "씨널스는 국내 온라인 판매를 시작으로 올리브영, 롯데면세점등에 입점 하였으며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5299,
+    "completion_tokens": 4638,
+    "reasoning_tokens": 3776,
+    "output_tokens": 862
+  },
+  "warnings": []
+}

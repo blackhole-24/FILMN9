@@ -1,0 +1,67 @@
+{
+  "stock_code": "008700",
+  "corp_name": "아남전자",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 12:33",
+  "meta": {
+    "wics": "전자제품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "아남전자는 약 53년간 AV(오디오·비주얼) 분야에서 쌓아온 개발·설계 및 제조 노하우를 바탕으로 디지털 영상기기 연계 고부가가치 컨버전스 오디오 제품을 생산하는 오디오 전문기업입니다. 전통적 홈오디오부터 스마트 스피커·사운드바 등 신제품을 개발·공급하며 글로벌 AV 기업들과 거래합니다.",
+    "business_model": "사업은 Audio제품(91.8%), 내수(7.2%), Audio부품(0.1%), 기타(0.9%)로 구성되며, Audio제품이 핵심 수익원입니다. 회사는 ODM(Original Development Manufacturing: 제조업자 개발생산 방식) 영업방식으로 해외 바이어의 주문을 받아 설계·개발하고 해외 종속법인에서 생산한 제품을 위탁가공무역 방식으로 수출입하는 구조입니다.",
+    "main_customers": "Audio제품 — 해외 브랜드 바이어(D&M, Harman Kardon, Yamaha) / 내수 — 국내 소비시장 및 유통채널 / Audio부품 — 전자기기 제조업체 / 기타 — 부동산 임대·브랜드 라이센싱 수익처",
+    "price_factors": [
+      {
+        "factor": "가격경쟁",
+        "detail": "오디오 제품은 성숙 산업으로 가격경쟁이 매우 치열해 마진 압박이 실적에 직접 영향을 미칩니다."
+      },
+      {
+        "factor": "수출의존",
+        "detail": "홈오디오 산업은 수출의존도가 높아 해외 수요 둔화 시 매출과 실적에 민감하게 반응합니다."
+      },
+      {
+        "factor": "제품수명",
+        "detail": "제품의 라이프사이클이 짧아 신제품 개발 주기가 길어지면 판매 저하 및 재고 리스크가 발생할 수 있습니다."
+      },
+      {
+        "factor": "기술·디자인",
+        "detail": "첨단기술 및 디자인 차별화가 경쟁력의 핵심이어서 기술 대응력과 신기술 확보 여부가 실적에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "세계적인 Audio 전문기업으로서 약 53년간"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "Audio제품: 138,954 (91.8%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "회사는 ODM(Original Development Manufacturing: 제조업자 개발생산 방식) 영업방식으로"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "주요 해외바이어로는 D&M, Harman Kardon, Yamaha 등이 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4452,
+    "completion_tokens": 2984,
+    "reasoning_tokens": 2240,
+    "output_tokens": 744
+  },
+  "warnings": []
+}

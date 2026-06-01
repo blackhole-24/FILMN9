@@ -1,0 +1,67 @@
+{
+  "stock_code": "464080",
+  "corp_name": "에스오에스랩",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 20:27",
+  "meta": {
+    "wics": "전자장비와기기",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "에스오에스랩은 라이다(LiDAR) 기술을 기반으로 자율주행, 스마트 인프라, 산업 자동화 분야에 라이다 센서 및 솔루션을 공급하는 전문 기업입니다. 3D 고정형(ML)과 2D(GL) 라이다 및 라이다 데이터 분석 기반의 솔루션을 결합해 다양한 산업에 적용되는 기술집약적 제품을 개발·공급하고 있습니다.",
+    "business_model": "FY2025 기준 사업부문별로 모빌리티가 9.1%, 로보틱스가 1.5%, 인프라가 15.5%, 스마트시티가 2.8%를 차지합니다. 핵심 수익원은 ML(3D 고정형)·GL(2D) 라이다 하드웨어 판매와 라이다 데이터를 가공·제공하는 Data Solution(데이터 분석·맞춤형 제공) 서비스입니다.",
+    "main_customers": "모빌리티 — 자동차 OEM·글로벌 Tier-1 협력사·자율주행 차량·드론 / 로보틱스 — 물류·제조업의 AGV·OHT 운영자 및 공장 자동화 사업자 / 인프라 — 공항·항만·제철소·공장·C-ITS(지능형 교통시스템) 운영 기관 / 스마트시티 — 공공 안전·교통 인프라 담당 기관",
+    "price_factors": [
+      {
+        "factor": "규제·실증",
+        "detail": "UAM법 제정과 2024년 실증사업 등 규제 완화·실증 진전은 라이다 적용 사례와 수요를 확대할 수 있습니다."
+      },
+      {
+        "factor": "공공 인프라 투자",
+        "detail": "공항·항만·스마트시티 등 인프라 투자 확대는 인프라용 라이다 수요에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "산업 안전 수요",
+        "detail": "중대재해 예방을 위한 안전감지 솔루션 도입 증가는 산업용 라이다 솔루션 수요를 견인합니다."
+      },
+      {
+        "factor": "물류 자동화",
+        "detail": "AGV·OHT·AMR 등 물류·로보틱스 자동화 확산은 로보틱스용 라이다 수요를 촉진합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 기술 개요",
+        "evidence_text": "당사는 라이다(LiDAR, Light Detection and Ranging) 기술을 기반으로"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "모빌 리티: 372,438 (9.1%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "인프라: 637,347 (15.5%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "(1) 모빌리티 (가) 자율주행(오토모티브)",
+        "evidence_text": "현재 글로벌 Tier-1기업과 자율주행용 라이다의 핵심 모듈을 공동개발하고 있으며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5263,
+    "completion_tokens": 3480,
+    "reasoning_tokens": 2688,
+    "output_tokens": 792
+  },
+  "warnings": []
+}

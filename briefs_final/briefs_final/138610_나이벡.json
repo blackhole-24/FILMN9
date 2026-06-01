@@ -1,0 +1,76 @@
+{
+  "stock_code": "138610",
+  "corp_name": "나이벡",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 10:00",
+  "meta": {
+    "wics": "건강관리장비와용품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "나이벡은 조직재생용 바이오소재, 펩타이드 의약품 및 구강보건 제품을 주요 사업으로 하는 제약·바이오 기업입니다. 치과용 조직재생소재를 중심으로 FDA·CE 등 해외 인증과 중국 NMPA 허가를 확보하고 스트라우만, 노벨바이오케어 등 글로벌 임플란트 채널을 통해 전세계로 제품을 판매하고 있습니다.",
+    "business_model": "매출은 조직재생용 바이오소재(치과용 골이식재·콜라겐 제품 등)가 핵심으로 전체 매출의 약 60% 이상(사업부문별 매출 60.7%)을 차지하고, 나머지 약 40%는 펩타이드 의약품의 기술이전 수익 및 임상시험용 의약품 공급과 펩타이드 CDMO(위탁개발생산) 매출로 구성되어 수익이 다각화되어 있습니다. 구강보건제품(치주·치아치료제, 미백제 등)은 매출 비중이 작습니다(1.19%).",
+    "main_customers": "조직재생용 바이오소재 — 임플란트 전문기업 및 해외 유통망 / 펩타이드 의약품·CDMO — 글로벌 제약사 및 국내외 바이오텍·제약사(기술이전·임상물질 수요처) / 구강보건제품 — 치과 전문 채널 및 일반 소비자 대상 제품",
+    "price_factors": [
+      {
+        "factor": "규제·인허가",
+        "detail": "FDA·CE·NMPA·MDR 등 해외 인증 획득 여부가 수출과 시장 진입을 좌우해 실적에 직접 영향"
+      },
+      {
+        "factor": "글로벌 경쟁",
+        "detail": "미국 등 선진국 시장에 이미 다수 제품이 존재해 경쟁 심화 시 조직재생소재 판매 성장률에 하방 압력 가능"
+      },
+      {
+        "factor": "기술이전 성과",
+        "detail": "펩타이드 기술이전과 임상물질 공급 계약이 매출과 수익성 개선으로 연결되므로 기술이전 진행 여부가 실적 변수"
+      },
+      {
+        "factor": "생산능력·품질인증",
+        "detail": "GMP 기반의 펩타이드 대량생산 능력은 CDMO 수주 확대와 매출 안정성에 핵심적 영향을 미침"
+      },
+      {
+        "factor": "시장 성장률",
+        "detail": "국내 치주조직재생용 시장의 연평균 성장성(자료상 고성장 예상)은 장기적 매출 성장의 우호적 요인"
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "1. 회사의 현황(1) 사업 현황 및 사업 구분",
+        "evidence_text": "전세계를 대상으로 판매가 이뤄지고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "조직재생용바이오소재 19,861(60.7%), 구강보건제품 389(1.19%)"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "1. 회사의 현황(1) 사업 현황 및 사업 구분",
+        "evidence_text": "특히 2020년 11월에는 중국 NMPA의 판매 품목 허가를 획득하여 제품 판매 중입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "조직재생용 바이오소재 제품이 전체 매출의 60% 이상을 차지하고 있으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "1. 회사의 현황(1) 사업 현황 및 사업 구분",
+        "evidence_text": "펩타이드 원료의약품을 대량 생산할 수 있는 생산시설을 확보하고 이에 대한 GMP 인증을 획득함에 따라"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5834,
+    "completion_tokens": 5662,
+    "reasoning_tokens": 4672,
+    "output_tokens": 990
+  },
+  "warnings": []
+}

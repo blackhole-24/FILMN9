@@ -1,0 +1,81 @@
+{
+  "stock_code": "036810",
+  "corp_name": "에프에스티",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 00:43",
+  "meta": {
+    "wics": "반도체와반도체장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "에프에스티는 반도체·디스플레이 공정에 들어가는 펠리클(포토마스크 보호용 보호막)과 칠러(온도조절장비)를 개발·제조·판매하는 기업입니다. 펠리클·프레임 등 재료사업과 칠러를 포함한 장비사업을 중심으로 글로벌 반도체·디스플레이 수요에 대응하고 있습니다.",
+    "business_model": "사업은 재료(펠리클·프레임 등)와 장비(칠러·반도체 공정장비) 중심으로 구성되며, 2025년 연결기준 매출 구성은 재료 계 59.34%, 장비 계 39.75%, 기타·임대 0.91%로 나타납니다. 펠리클은 포토마스크 보호용 핵심 소재(펠리클), 칠러/TCU(온도조절장비)는 공정 효율과 품질 유지를 위한 장비로 각각 매출을 창출합니다.",
+    "main_customers": "재료(펠리클) — 반도체 및 TFT-LCD·OLED·Color Filter 기판 제조업체 / 프레임·부품 — 반도체·FPD 펠리클 제조업체 / 장비(칠러·TCU) — 반도체·디스플레이 공정 운영업체(글로벌 주요 고객사 포함)",
+    "price_factors": [
+      {
+        "factor": "반도체 수요",
+        "detail": "AI 데이터센터·고성능컴퓨팅 등 반도체 산업 성장에 따른 수요 확대가 매출 증감에 직접 영향합니다."
+      },
+      {
+        "factor": "공급 제약",
+        "detail": "업계의 보수적 투자 기조로 생산능력 확대가 제한되면 수요·공급 변동에 따른 실적 변동성이 커집니다."
+      },
+      {
+        "factor": "환율·원자재",
+        "detail": "펠리클 판매가격은 환율과 원재료가격 영향을 받아 고객과의 단가계약으로 연단위 변동됩니다."
+      },
+      {
+        "factor": "품질·사양",
+        "detail": "칠러 및 펠리클은 고객 요구사양과 품질이 가격 결정의 주요 요인으로 프로젝트별 협의로 가격이 정해집니다."
+      },
+      {
+        "factor": "R&D·투자",
+        "detail": "연구개발·시설투자 확대에 따른 비용과 부채비율 변화가 중장기 재무·영업실적에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "공시대상 사업부문의 구분",
+        "evidence_text": "반도체 펠리클 - 반도체 제조시 노광(Photolithography) 공정에서 포토마스크 (Photomask)를 이물질로부터 보호하기 위해 사용되는 부품의 제조 및 판매를 주요 사업으로 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[표] 가. 주요 제품 등의 현황",
+        "evidence_text": "재료 계 - 166,294(59.34%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[표] 가. 주요 제품 등의 현황",
+        "evidence_text": "장비 계 - 111,418(39.75%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "공시대상 사업부문의 구분",
+        "evidence_text": "FPD 펠리클 - TFT-LCD, OLED 나 Color Filter기판의 제조시 포토마스크 위에 그려 져 있는 패턴을 외부의 이물질로 부터 보호하기 위해 사용되는 부품의 제조 및 판매를 주요 사업으로 영위하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "공시대상 사업부문의 구분",
+        "evidence_text": "펠리클의 판매가격은 환율, 원재료가격, 품질 등을 고려하여 고객과의 단가계약에 의해 1년 단위로 변동하며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "Chiller 분야에서는 초미세공정 확대에 따라 수요가 증가하고 있는 극저온 칠러 기술을 기반으로 글로벌 주요 고객사 대응을 강화하고 있으며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5604,
+    "completion_tokens": 3827,
+    "reasoning_tokens": 2752,
+    "output_tokens": 1075
+  },
+  "warnings": []
+}

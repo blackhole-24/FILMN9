@@ -1,0 +1,71 @@
+{
+  "stock_code": "007980",
+  "corp_name": "TP",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 19:58",
+  "meta": {
+    "wics": "섬유,의류,신발,호화품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "TP는 의류 제조·판매를 핵심으로 하는 기업으로, 우모 가공·식품(쌀가루) 가공·침구 제조·부동산 임대 등 총 5개 사업부문을 운영하고 있습니다. 2025년 연결누적매출액은 10,290억원이며, 내수 1,938억원(18.84%), 수출 8,352억원(81.16%)으로 수출 비중이 높습니다.",
+    "business_model": "사업부문별 매출 비중은 의류 90.27%, 우모 4.57%, 임대 1.14%, 기타 4.02%로 구성되어 있으며, 의류사업이 매출의 대부분을 차지합니다. 의류사업은 TARGET, COLUMBIA, CARHARTT 등 글로벌 바이어로부터 수주를 받아 베트남·인도네시아·미얀마 등 해외 현지법인에서 제품을 생산해 수출하는 수주생산(오더기반) 구조이며, 디자인&기술 연구소를 통해 신소재·디자인 개발을 추진하고 있습니다.",
+    "main_customers": "의류 — 해외 대형 바이어(TARGET, COLUMBIA, CARHARTT 등) / 우모 — 특정 고객 미기재(자료상 명시 없음) / 식품(쌀가루) — 특정 고객 미기재(자료상 명시 없음) / 침구류 — 특정 고객 미기재(자료상 명시 없음) / 임대 — 임차인(부동산 임대)",
+    "price_factors": [
+      {
+        "factor": "해외생산기지 안정성",
+        "detail": "저렴한 인건비를 확보한 해외 생산거점의 가동 여부가 원가경쟁력과 실적에 직접적 영향을 미칩니다."
+      },
+      {
+        "factor": "수출시장 경기",
+        "detail": "주요 수출국(미국·유럽)의 경기 둔화는 의류 수주와 매출에 부정적 영향을 줍니다."
+      },
+      {
+        "factor": "임금·원자재 상승",
+        "detail": "동남아 등 제조국의 임금 상승 및 원부자재 비용 증가 시 제품 원가가 상승해 이익률이 낮아집니다."
+      },
+      {
+        "factor": "바이어 집중도",
+        "detail": "대형 글로벌 바이어들의 재고 증가·가격 압박은 수익성에 직접적인 부담 요인이 됩니다."
+      },
+      {
+        "factor": "무역·관세 리스크",
+        "detail": "보호무역주의·관세정책 변화는 수출 가격 경쟁력과 매출에 영향을 미칠 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "연결누적매출액은 10,290억원"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "의류 9,289억원(90.27%) 우모 471억원(4.57%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "TARGET, COLUMBIA, CARHARTT 등 세계 유명 바이어들"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 사업부문별 현황",
+        "evidence_text": "저렴한 인건비는 가격 경쟁력의 필수불가결한 요소"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4452,
+    "completion_tokens": 4194,
+    "reasoning_tokens": 3328,
+    "output_tokens": 866
+  },
+  "warnings": []
+}

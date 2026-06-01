@@ -1,0 +1,71 @@
+{
+  "stock_code": "478560",
+  "corp_name": "블랙야크아이앤씨",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 20:48",
+  "meta": {
+    "wics": "섬유,의류,신발,호화품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "블랙야크아이앤씨는 산업안전용품과 가스계 소방설비를 제공하는 기업으로, 1988년 설립 이래 축적된 기술력을 바탕으로 가스소화설비 설계와 안전장비를 공급해 왔습니다. 최근에는 친환경 제품(리사이클 자재 기반 ECO 안전화)과 ICT·AI를 접목한 스마트 안전관리 시스템 등으로 사업 영역을 확장하고 있습니다.",
+    "business_model": "주요 사업은 안전화와 안전복·안전용품(개인보호구, PPE) 및 가스계 소방설비로 구성되며, [사업부문별 매출 구성]에 따르면 안전화의 점유율은 6.4%, 안전복 및 안전용품의 점유율은 3.2%입니다. 제품 공급 외에 친환경 소화약제 전환과 스마트 PPE(위치추적·인체 반응 센서) 등 서비스형 안전관리 솔루션도 확장 중입니다.",
+    "main_customers": "산업안전부문 — 건설·제조·물류·소방 등 다양한 산업현장 / 소방사업부문 — 전산실·통신실·발전설비·데이터센터·연구소 등 민감 장비 보유 시설",
+    "price_factors": [
+      {
+        "factor": "규제",
+        "detail": "산업안전용품은 KC 인증(안전인증) 대상이어서 인증 관련 규제가 강화되면 인증 비용과 제품 적합성 이슈가 실적에 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "글로벌경쟁",
+        "detail": "PPE 세계시장은 상위 글로벌 기업의 점유율이 높아 가격·기술 경쟁이 심화되면 수출·구매 단가에 영향이 있을 수 있습니다."
+      },
+      {
+        "factor": "데이터센터수요",
+        "detail": "데이터센터·발전설비 등 민감 시설의 확대로 가스계 소방시스템 수요가 늘면 소방부문 매출에 긍정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "친환경전환",
+        "detail": "지구온난화지수가 낮은 친환경 소화약제 수요 증가로 관련 제품가격과 판가에 영향을 미칠 가능성이 있습니다."
+      },
+      {
+        "factor": "기술도입",
+        "detail": "IoT·AI 기반 스마트 안전관리 도입이 확대되면 스마트 PPE·서비스 수요가 늘어나며 제품 포트폴리오 전환의 성패가 실적에 직결됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "[경영진 실적·전략 요약 (MD&A)]",
+        "evidence_text": "1988년 설립 이래 축적된 기술력을 바탕으로"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "점유율 | 6.4% | 3.2% | 4.2%"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황 > 가. 업계의 현황",
+        "evidence_text": "건설/제조/물류/소방 등 다양한 산업현장에서"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "[경쟁 환경 및 시장 특성 — price_factors 참고용]",
+        "evidence_text": "3M, Honeywell, Dupont 등 상위 10개 기업의 시장점유율이 높습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4825,
+    "completion_tokens": 5030,
+    "reasoning_tokens": 4160,
+    "output_tokens": 870
+  },
+  "warnings": []
+}

@@ -1,0 +1,67 @@
+{
+  "stock_code": "131290",
+  "corp_name": "티에스이",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 09:42",
+  "meta": {
+    "wics": "반도체와반도체장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "티에스이는 반도체와 디스플레이 관련 테스트 및 검사 장비를 전문적으로 공급하는 기업으로, 제품 특성에 따라 반도체 검사장비·전자제품 검사장치·반도체 검사용역·반도체 외 생산설비의 4개 부문으로 운영하고 있습니다. 반도체·디스플레이 장비 산업의 주문자생산 방식(order-made)에 맞춰 제조·판매하는 것이 특징입니다.",
+    "business_model": "주요 사업부문별 FY2025 매출 구성은 반도체 검사장비 70.5%, 전자제품 검사장치 22.2%, 반도체 검사용역(테스트 서비스) 3.9%, 반도체 외 생산설비 3.4%로 집계되어, 검사장비(inspection equipment)가 핵심 수익원입니다. 제품은 고객 요구사양에 맞춘 주문자 생산 방식으로 공급되며(주문자생산), 단가 압박에 대응해 생산성 향상과 원가절감 활동을 병행하고 있습니다.",
+    "main_customers": "반도체 검사장비 — 반도체 제조업체 / 전자제품 검사장치 — 디스플레이·전자제품 제조사 / 반도체 검사용역 — 반도체 제조업체 / 반도체 외 생산설비 — 디스플레이 제조사 및 부품·소재 공급업체",
+    "price_factors": [
+      {
+        "factor": "주문량",
+        "detail": "반도체 장비 수요는 제조업체의 주문량에 따라 결정되어 주문량 변화가 실적에 직접 영향을 미칩니다."
+      },
+      {
+        "factor": "기술진보",
+        "detail": "반도체의 고집적화·소형화 등 기술 발전에 따라 장비의 기술수준 요구가 높아져 장비업체의 경쟁력과 수익성에 영향이 있습니다."
+      },
+      {
+        "factor": "설비투자",
+        "detail": "디스플레이 산업은 대규모 설비투자가 필요해 투자 사이클에 따라 장비 수요가 변동합니다."
+      },
+      {
+        "factor": "단가압박",
+        "detail": "고객의 단가 인하 요구가 진행되고 있어 단가 압박은 매출 및 마진에 부정적 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "반도체와 디스플레이의 테스트 외 관련 제품을 공급하는 전문기업"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "반도체 검사장비: 302,356,801 (70.5%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "나. 산업의 특성 및 성장성 1. (주)티에스이 (지배회사)",
+        "evidence_text": "반도체 장비 산업은 제조업체의 요구사양에 맞게 생산되는 주문자 생산 방식으로 생산되며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "연결실체의 제품은 고객의 단가 인하 요구에 따라 일부 단가 인하가 진행되고 있으며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3749,
+    "completion_tokens": 3180,
+    "reasoning_tokens": 2368,
+    "output_tokens": 812
+  },
+  "warnings": []
+}

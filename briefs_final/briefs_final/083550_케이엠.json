@@ -1,0 +1,72 @@
+{
+  "stock_code": "083550",
+  "corp_name": "케이엠",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 06:21",
+  "meta": {
+    "wics": "섬유,의류,신발,호화품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "케이엠은 클린룸(청정실)용 소모품을 중심으로 제조·판매하는 섬유·의류 기업으로, 방진복·글러브·와이퍼 등 청정용품과 생활용품(Dr.Puri 브랜드), BLU(광학필름 가공) 사업을 운영하고 있습니다. 연결 매출액은 1,354억 원(2025년 기준)을 기록하였습니다.",
+    "business_model": "사업부문별 영업수익 구성은 제품 25.2%, 상품 22.6%, 용역 15.3%, 임대 0.1%로 나타나며, 핵심 수익원은 클린룸 소모품의 자체 제조·세탁·멸균 서비스와 BLU(광학필름 임가공)용역, 생활용품(마스크·Dr.Puri) 판매입니다. BLU 부문은 디스플레이용 광학필름을 고객 규격에 맞춰 임가공하거나 판매하는 구조입니다.",
+    "main_customers": "클린룸 소모품 — 국내 주요 반도체·디스플레이 업체, 제약회사 및 생명공학 업체 / BLU — 디스플레이 조립사 및 광학필름 제조사 / 생활용품 — 자사 브랜드(Dr.Puri) 관련 국내 시장 및 유통 고객",
+    "price_factors": [
+      {
+        "factor": "가격경쟁",
+        "detail": "저가 공세(수입·국내 보건용 마스크 제조업체 등) 확대 시 생활용품 마진 압박과 매출에 부정적 영향."
+      },
+      {
+        "factor": "환율",
+        "detail": "고환율은 수입 원자재 가격을 끌어올려 원가 상승 및 수익성 저하로 이어질 수 있습니다."
+      },
+      {
+        "factor": "디스플레이 수요",
+        "detail": "LCD·OLED·차량용·미니LED 등 디스플레이 시장 구조 변화는 BLU(광학필름) 수요와 실적에 직접 영향."
+      },
+      {
+        "factor": "보호무역",
+        "detail": "보호무역 기조 확대 시 수출·공급망 여건 악화로 해외 영업과 원가에 부담을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 클린룸 소모품 부문",
+        "evidence_text": "거의 모든 청정용품을 제조 및 판매 하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "- 제품: 34,137 (25.2%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > BLU 사업 부문",
+        "evidence_text": "광학필름을 디스플레이 조립사나 광학필름 제조사와 협업하여"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 생활용품사업 부문",
+        "evidence_text": "수입 및 국내 보건용 마스크 제조 업체들의 저가 공세가 예상되며"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "연결 매출액은 1,354억 원을 기록하여 전기 대비 약 43억 원 증가하였습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4110,
+    "completion_tokens": 4812,
+    "reasoning_tokens": 3968,
+    "output_tokens": 844
+  },
+  "warnings": []
+}

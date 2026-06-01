@@ -1,0 +1,81 @@
+{
+  "stock_code": "237880",
+  "corp_name": "클리오",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 12:53",
+  "meta": {
+    "wics": "화장품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "클리오는 1993년 설립된 색조 중심의 국내 화장품 전문기업으로, 국내 최초 색조 브랜드인 클리오 상사를 전신으로 다양한 브랜드를 운영하며 10대~30대 여성층을 중심으로 시장을 선도하고 있습니다. 포인트 메이크업을 핵심으로 여러 기초·헤어·바디 케어 브랜드를 보유한 중견 화장품사입니다.",
+    "business_model": "주요 수익원은 포인트 메이크업과 기타 상품 판매로, FY2025 기준 포인트 메이크업이 73.0%이고 상품 등은 27.0%를 차지합니다. 제품군별로는 2025년 스킨케어 25%, 립 18%, 아이 29%, 베이스 25% 등으로 구성되며 생산은 코스맥스 등 외주(OEM/ODM)를 활용해 진행합니다.",
+    "main_customers": "포인트 메이크업 — 10대~30대 여성 소비자 / 스킨케어·베이스 — 일반 소비자(온라인·H&B 채널) / 유통채널 — H&B 스토어·온라인·면세점·홈쇼핑 이용 고객",
+    "price_factors": [
+      {
+        "factor": "원재료 단가",
+        "detail": "원재료 단가 상승 시 완제품 매입원가가 올라 수익성(영업이익)에 직접적인 부담으로 작용합니다."
+      },
+      {
+        "factor": "유통채널 구조",
+        "detail": "홈쇼핑·다이소 등 저효율 채널 축소는 매출 감소와 동시에 판매비용 절감으로 영업이익률에 큰 영향을 미칩니다."
+      },
+      {
+        "factor": "외주 생산 의존",
+        "detail": "자체 생산설비 없이 OEM/ODM에 의존하는 구조는 공급업체 단가·공급 안정성 변화가 실적 변동성으로 이어질 수 있습니다."
+      },
+      {
+        "factor": "환율 변동",
+        "detail": "내수·수출 비중(내수 59%·수출 41%)을 고려할 때 환율 변동은 수출 매출의 원화 환산과 이익률에 영향을 줍니다."
+      },
+      {
+        "factor": "제품 포지셔닝",
+        "detail": "제품의 시장 포지셔닝과 경쟁사 소비자가(판매가)에 따라 가격경쟁력 및 마진(이익률)에 차이를 초래합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "1993년 설립된 국내 최초 색조 브랜드인 클리오 상사"
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "포인트 메이크업: 63,684 (73.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "상품 등: 89,113 (27.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "제품 생산의 경우 코스맥스㈜, ㈜씨앤씨인터내셔널, ㈜인터코스코리아"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "10대~30대 여성 고객을 타깃으로"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "판매 경로는 H&B 스토어, 온라인 채널, 면세점, 홈쇼핑"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3538,
+    "completion_tokens": 4794,
+    "reasoning_tokens": 3840,
+    "output_tokens": 954
+  },
+  "warnings": []
+}

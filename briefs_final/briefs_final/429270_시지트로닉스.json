@@ -1,0 +1,72 @@
+{
+  "stock_code": "429270",
+  "corp_name": "시지트로닉스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 19:28",
+  "meta": {
+    "wics": "반도체와반도체장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "시지트로닉스는 실리콘(Si) 기반의 광·개별소자(ESD, Power, Sensor 등)를 개발에서 생산 및 판매까지 수행하는 반도체 소자 기업입니다. 2017년부터 GaN 전력소자, 2020년부터 RF 소자 연구개발을 진행하며, Epi 공정 기반의 자체 파운드리 'M-FAB'을 통해 종합반도체(IDM)로의 성장을 목표로 하고 있습니다.",
+    "business_model": "FY2025 기준으로 제품 매출이 100.0%를 차지(제품: 11,055 (100.0%))하며, 핵심 사업은 ESD(정전기 방호)·Sensor(광센서)·Power(전력) 소자와 이를 지원하는 Foundry(파운드리) 서비스입니다. ESD는 TVS·Zener 계열, Sensor는 P-TR·BB-PD·APD 등, Power는 현재 Si 기반 제품 판매 중이며 GaN 기반 전력소자 상용화를 추진하고 있습니다.",
+    "main_customers": "ESD — 모든 전자제품 제조사(정전기 보호용) / Sensor — 미래형 자동차·의료기기·로봇·웨어러블 헬스케어 디바이스 / Power — 전력장치·모터제어 업체, 전기자동차·데이터 통신 서버·군수용 장비",
+    "price_factors": [
+      {
+        "factor": "원재료 가격",
+        "detail": "원소재 가격 급등 시 재료비 비중이 커져 영업손실 확대 등 실적에 부정적 영향을 미침."
+      },
+      {
+        "factor": "생산가동률",
+        "detail": "생산가동률이 낮을수록 고정비 부담이 커져 손익 개선이 어려워짐."
+      },
+      {
+        "factor": "소재 전환(GaN)",
+        "detail": "전력반도체 시장의 Si→GaN 전환 가속화는 연구·투자 부담과 함께 신제품 상용화 시 성장 기회를 동시에 제공함."
+      },
+      {
+        "factor": "파운드리 수요",
+        "detail": "M-FAB 플랫폼을 통한 외주생산 수요 증가 여부가 설비 활용도와 매출에 직접적인 영향을 줌."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "당사는 실리콘(Si) 소재를 이용한 광·개별소자"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "제품: 11,055 (100.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 주요 제품 현황",
+        "evidence_text": "LED, 웨어러블 헬스케어 디바이스, 군수물품"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "당기 원소재 가격 급등에 따른 재료비율 증가"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "생산 가동율이 33.0%수준으로 낮은 상태"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4060,
+    "completion_tokens": 4475,
+    "reasoning_tokens": 3648,
+    "output_tokens": 827
+  },
+  "warnings": []
+}

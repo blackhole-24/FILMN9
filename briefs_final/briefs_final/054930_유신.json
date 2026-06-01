@@ -1,0 +1,67 @@
+{
+  "stock_code": "054930",
+  "corp_name": "유신",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 03:31",
+  "meta": {
+    "wics": "건설",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "유신은 1966년 설립된 토목·엔지니어링 중심의 대형 엔지니어링 컨설팅업체로, 도로·철도·공항·교량·항만 등 사회기반시설의 설계·감리와 수자원, 도시계획, 환경 분야를 오랜 기간 수행해 왔습니다. 보고서 기준 임직원 약 1,988명, 최근 사업년도 매출 약 3,855억 원 규모이며 각 분야별 기술사 511명을 보유하고 있습니다.",
+    "business_model": "사업은 FY2025 기준 도로/공항(8.0%), 철도/구조(10.7%), 도시계획(7.9%), 수자원(11.4%), EPC(10.7%), 기타설계(15.3%), 건설사업관리(21.1%), 해외도급용역(12.6%), 기타(2.3%)로 구성되어 있으며, 건설사업관리와 기타설계가 핵심 매출원입니다. 또한 소규모 합병을 통해 EPC(설계·조달·시공) 및 친환경 플랜트·소각시설 등 건설부문과 해외도급용역 비중을 확대하는 전략을 병행하고 있습니다.",
+    "main_customers": "용역·설계(도로/공항·철도·도시계획 등) — 국가기관·공공기관(관급 발주) / 건설사업관리·EPC — 정부·지자체·공기업 중심의 발주처 / 해외도급용역 — 해외 발주처(각국 정부·공공기관 등)",
+    "price_factors": [
+      {
+        "factor": "SOC예산",
+        "detail": "국내 주요 수요가 관급(정부 예산)에 의존하므로 SOC 예산 변동은 실적에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "수행실적",
+        "detail": "입찰 시 수행 실적과 전문 인력 보유 여부가 수주 경쟁력을 좌우해 상위 업체에 유리합니다."
+      },
+      {
+        "factor": "인건비",
+        "detail": "사업 특성상 인적자원이 핵심 비용이므로 인건비 변동은 수익성에 큰 영향을 줍니다."
+      },
+      {
+        "factor": "해외수주",
+        "detail": "국내 발주 감소에 대응해 해외사업 비중을 확대하고 있어 해외 수주 상황이 실적에 중요한 변수입니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "임직원 1,988여명에 달하며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "건설사업관리: 81,333 (21.1%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황",
+        "evidence_text": "EPC부문으로의 확대를 도모하고 있으며"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "산업의 특성",
+        "evidence_text": "발주처의 대부분이 관급이므로"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5723,
+    "completion_tokens": 4425,
+    "reasoning_tokens": 3648,
+    "output_tokens": 777
+  },
+  "warnings": []
+}

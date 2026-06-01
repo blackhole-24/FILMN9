@@ -1,0 +1,74 @@
+{
+  "stock_code": "319400",
+  "corp_name": "현대무벡스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 16:26",
+  "meta": {
+    "wics": "기계",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "현대무벡스는 물류자동화, 승강장안전문(PSD), IT서비스를 영위하는 기업으로, 물류프로세스 자동화와 플랫폼 스크린도어 등 교통·물류 분야의 솔루션을 제공하고 있습니다. 물류자동화 부문에서는 AGV(무인이송로봇) 등 로봇과 AI 기술을 고도화해 고객 솔루션의 첨단화를 추진하고 있습니다.",
+    "business_model": "핵심 사업은 물류자동화(스토리지·이송장비 등 장비 공급 및 시스템 구축·시공·유지보수 형태의 토탈솔루션), 승강장안전문(플랫폼 스크린도어의 설계·제작·시공), IT서비스(정보시스템 기획부터 구축·운영·유지보수)로 구성되어 있습니다. 각 부문은 장비 공급과 시스템 통합(시공·컨설팅·유지보수)을 결합한 프로젝트형 매출이 주요 수익 구조입니다.",
+    "main_customers": "물류자동화 — 유통/택배, 대형 CDC, 자동차·타이어, 2차전지 및 ESS, 식/음료, 석유화학, 공항터미널 / 승강장안전문(PSD) — 지하철 및 경전철 역사 / IT서비스 — 정보시스템 관련 고객",
+    "price_factors": [
+      {
+        "factor": "전자상거래",
+        "detail": "전자상거래 확대는 물류센터 자동화 수요를 늘려 장비·시스템 수주 확대에 직접 영향을 줍니다."
+      },
+      {
+        "factor": "기술고도화",
+        "detail": "AI·로봇·IoT 등 첨단기술 채택 확대는 고도화된 솔루션 공급자에게 유리하게 작용합니다."
+      },
+      {
+        "factor": "인건비상승",
+        "detail": "물류 인건비 상승과 빠른 배송 경쟁은 자동화 투자 속도를 높여 실적에 영향을 미칩니다."
+      },
+      {
+        "factor": "노선수요",
+        "detail": "신규 철도노선 및 노후 역사 리모델링 수요는 승강장안전문(PSD) 관련 수주에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 사업의 내용 > 물류자동화",
+        "evidence_text": "물류자동화 토탈솔루션 서비스를 제공하며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. 사업의 내용 > IT서비스",
+        "evidence_text": "정보 기술과 관련된 종합서비스를 제공하고 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 사업의 내용 > 물류자동화",
+        "evidence_text": "유통/택배, 대형 CDC, 자동차/타이어 등"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나. 산업의 특성 및 성장성 > 물류자동화",
+        "evidence_text": "글로벌 시장에서도 물류 자동화 산업은 높은 성장세를 보이고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. 사업의 내용 > 승강장안전문(PSD)",
+        "evidence_text": "선로 추락에 따른 승객의 안전을 보장합니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4139,
+    "completion_tokens": 5307,
+    "reasoning_tokens": 4480,
+    "output_tokens": 827
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

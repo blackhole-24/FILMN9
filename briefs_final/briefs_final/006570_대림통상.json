@@ -1,0 +1,81 @@
+{
+  "stock_code": "006570",
+  "corp_name": "대림통상",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 13:33",
+  "meta": {
+    "wics": "건축제품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "대림통상은 금속 기반의 건축·생활용품을 제조하는 기업으로, 수전금구(욕실·주방용)와 비데(욕실가전), 스테인리스 양식기 및 주방용품 등을 생산합니다. 품질·디자인 경쟁력과 친환경 제품 개발에 주력하며 인도네시아에서 양식기 생산 역량을 보유하고 있습니다.",
+    "business_model": "FY2025 기준 사업부문별 영업수익 구성은 양식기부문(PT.DLI) 14.9%, 수전금구부문(D.B.M) 0.6%, 주방용품외(리빙스타) 3.2%로 보고되었습니다. 핵심 제품군은 수전금구(욕실·주방용), 비데(욕실가전), 양식기(스테인리스 식기)이며 품질·디자인·친환경 기능을 강조한 제품 개발이 수익 기반입니다.",
+    "main_customers": "수전금구부문 — 욕실·주방에서 제품을 사용하는 소비자 / 비데부문 — 욕실용 가전 수요자(일반 소비자) / 양식기부문 — 인도네시아 중심의 고급 양식기 수요층",
+    "price_factors": [
+      {
+        "factor": "환경규제",
+        "detail": "수질·대기·폐기물 관련 법률에 따른 배출시설·허가·검사 의무로 생산비용·운영 리스크가 실적에 영향합니다."
+      },
+      {
+        "factor": "환율·외화거래",
+        "detail": "외화거래와 환산 관련 손익 반영 방식(외환차이의 당기손익 인식 등)이 수출·해외사업의 실적 변동성을 키울 수 있습니다."
+      },
+      {
+        "factor": "제품 평균단가",
+        "detail": "수전금구·비데는 평균단가 하락, 양식기는 평균단가 상승 등 단가 변동이 매출과 마진에 직접적 영향을 미칩니다."
+      },
+      {
+        "factor": "내수·수출 수요",
+        "detail": "연도별로 수출·내수 실적 변동(예: 별도기준 수출·내수 감소)이 전체 매출에 바로 반영됩니다."
+      },
+      {
+        "factor": "디자인·품질 경쟁력",
+        "detail": "Red dot 등 디자인 어워드 수상 및 품질경쟁력 인정은 브랜드·가격 경쟁력에 도움이 됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 1) 수전금구",
+        "evidence_text": "수전금구 동을 주재료로 하는 조립금속 위생기기류로서"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "양식기부문(PT.DLI): 18,802 (14.9%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "수전금구부문(D.B.M): 711 (0.6%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "주방용품외(리빙스타): 4,084 (3.2%)"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 법률, 규정 및 환경 관련 규제사항",
+        "evidence_text": "수질과 대기환경에 관한 법률의 규제를 받고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "별도기준 수출은 전기 대비 3.8% 감소한 250억원"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3903,
+    "completion_tokens": 4798,
+    "reasoning_tokens": 3840,
+    "output_tokens": 958
+  },
+  "warnings": []
+}

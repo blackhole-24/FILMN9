@@ -1,0 +1,76 @@
+{
+  "stock_code": "010950",
+  "corp_name": "S-Oil",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 13:31",
+  "meta": {
+    "wics": "석유와가스",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "S-Oil은 1976년 1월 설립된 정유사로, 하루 66만 9천배럴의 원유정제능력을 보유하고 윤활기유와 석유화학까지 다각화된 포트폴리오를 운영하고 있습니다. 수직 계열화된 생산 체계와 내수 유통망을 바탕으로 견고한 사업기반을 갖추고 있으며, 최대주주 Aramco Overseas Company B.V.(지분 63.4%)와의 연계를 통해 안정적인 원유 공급(장기원유공급계약)을 확보하고 있습니다.",
+    "business_model": "사업부문별로 FY2025 기준 정유(1.5%), 윤활(8.3%), 석유화학(12.4%)의 매출 구성비를 보이며, 정유 부문이 전체 매출에서 높은 비중을 차지하는 핵심 수익원입니다. 아울러 고도화설비와 대규모 공정 능력을 바탕으로 윤활(하루 4만 4천배럴 생산능력)과 석유화학(연간 약 330만톤 방향족·약 77만톤 올레핀계 제품 생산능력) 부문의 경쟁력도 확보하여 비정유부문 기반을 강화하고 있습니다.",
+    "main_customers": "정유 — 수송용·산업용·석유화학원료 수요처 및 국내 주유소 네트워크 / 윤활 — 고급 윤활기유 구매업체(윤활유 제조사·산업 고객) / 석유화학 — 방향족·올레핀 제품 구매기업(화학·소재업체) / 주요 매출처 — Aramco Trading Singapore Pte. Ltd.",
+    "price_factors": [
+      {
+        "factor": "경기민감도",
+        "detail": "정유 제품 수요와 가격은 국내외 경기상황 및 민간 소비심리에 민감하여 경기 침체 시 실적이 하방 압력을 받을 수 있습니다."
+      },
+      {
+        "factor": "내연기관 축소",
+        "detail": "비내연기관(전기차 등) 보급 확대는 장기적으로 수송용 연료 수요를 줄여 정유 부문 실적에 부정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "계절수요",
+        "detail": "난방유 등 계절적 수요 변동이 커서 동절기 등 특정 시기에 실적 변동성이 확대될 수 있습니다."
+      },
+      {
+        "factor": "유가·지정학",
+        "detail": "국제 유가의 급변(예: 지정학 리스크)은 원가·제품가격·수요 변동을 통해 회사 실적과 주가에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "내수경쟁",
+        "detail": "국내 주유소 수 감소와 경쟁 심화 환경에서 네트워크 점유율 변동은 정유 부문 마진과 판매량에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "당사는 1976년 1월에 설립되고 하루 66만 9천배럴의 원유정제능력을 보유한 정유사로"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "정유: 500,499 (1.5%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "윤활: 2,828,020 (8.3%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "석유화학: 4,234,211 (12.4%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "매출액 10% 이상을 차지하는 주요 매출처는 Aramco Trading Singapore Pte. Ltd.입니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3809,
+    "completion_tokens": 4851,
+    "reasoning_tokens": 3840,
+    "output_tokens": 1011
+  },
+  "warnings": []
+}

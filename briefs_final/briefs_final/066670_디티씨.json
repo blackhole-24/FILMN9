@@ -1,0 +1,67 @@
+{
+  "stock_code": "066670",
+  "corp_name": "디티씨",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 04:44",
+  "meta": {
+    "wics": "핸드셋",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "디티씨는 1998년 설립된 LCD모듈 전문 기업으로, 2002년 코스닥에 상장되었습니다. 본사는 충청남도 천안에 위치하며 주로 중소형 모바일용 LCD모듈의 개발·제조·판매를 영위하고 있습니다.",
+    "business_model": "FY2025 기준 매출은 LCD 부문이 100.0%를 차지하며(즉, LCD모듈 사업이 핵심 수익원), 모바일기기용 LCM(모듈) 개발과 ODM(제조자설계생산) 사업을 통해 셋트업체 요구에 맞는 제품을 공급합니다. 원가경쟁력 확보를 위해 해외현지법인 생산이 아닌 해외외주생산 방식을 채택하고 있습니다.",
+    "main_customers": "LCD — 모바일기기 셋트업체(휴대폰 등) / 임대 — 테크노벨리·산업단지 등 기업(오피스·공장·주거용 임대 수요)",
+    "price_factors": [
+      {
+        "factor": "단말기 수요",
+        "detail": "모바일 단말기 수요가 변동하면 LCD모듈 매출에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "원부자재 수급",
+        "detail": "LCD 패널 및 IC(드라이버칩) 가격·수급 불안정이 생산원가와 공급에 민감하게 작용합니다."
+      },
+      {
+        "factor": "AMOLED 전환",
+        "detail": "중소형 디스플레이의 AMOLED 전환은 LCD 시장의 수요 감소 요인으로 작용합니다."
+      },
+      {
+        "factor": "신흥국 수요",
+        "detail": "중국·인도·동남아 등 신흥국의 중저가 휴대폰 시장은 LCD모듈의 안정적 수요처로 남아 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "LCD 사업부문",
+        "evidence_text": "당사는 1998년 8월 4일에 LCD모듈 등의 기술개발, 제조 및 판매를 목적으로 설립되었으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "- LCD: 4,342 (100.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 업계의 현황",
+        "evidence_text": "LCD Module업체는 모바일기기 셋트업체로부터 개발을 의뢰받은 후"
+      },
+      {
+        "field": "business_model",
+        "source_section": "LCD 사업부문",
+        "evidence_text": "당사는 ODM사업의 원가경쟁력을 높이기 위해서 해외현지법인 생산이 아닌 해외외주생산 방법으로 제조를 진행하고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5297,
+    "completion_tokens": 2627,
+    "reasoning_tokens": 1920,
+    "output_tokens": 707
+  },
+  "warnings": []
+}

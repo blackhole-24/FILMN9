@@ -1,0 +1,81 @@
+{
+  "stock_code": "222420",
+  "corp_name": "쎄노텍",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 12:41",
+  "meta": {
+    "wics": "화학",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "쎄노텍은 1999년 ㈜세라믹연구개발로 설립되어 국내 최초로 세라믹 비드 양산화에 성공한 이후 약 20년 이상 세라믹 소재의 가공·제조 역량을 축적해온 고부가가치 복합 소재 전문기업입니다. 세라믹 비드 중심의 전통 사업을 바탕으로 이차전지 첨가제 등 신규 사업을 확대하며 종합 세라믹 소재 공급업체로서 입지를 넓혀가고 있습니다.",
+    "business_model": "FY2025 기준 사업부문별 영업수익 구성은 이차전지 첨가제 22.0%, 세라믹 비드 21.0%, 광산용 및 제지/잉크 등 38.0%, 플럭스 7.0%, 세라믹 분체 10.0%, 촉매용 담체 등 기타 2.0%로 구성되어 있습니다. 핵심은 세라믹 입자 크기 제어와 습식·건식 분쇄 기술(분쇄·분산 기술)이며, 신설된 이차전지 첨가제 사업부는 글로벌 이차전지 소재 업체에 납품을 개시하며 성장 동력으로 작용하고 있습니다.",
+    "main_customers": "이차전지 첨가제 — 글로벌 이차전지 소재 업체 / 세라믹 비드 — 전기전자용 전자재료·페인트·잉크·제지·광물 생산업체 / 광산용 및 제지/잉크 등 — 광물 생산업체·제지·잉크업체 / 플럭스 — 전기전자·산업용 고객 / 세라믹 분체 — 건설·용접·조선 관련 산업 고객 / 촉매용 담체 등 기타 — 산업용 소재 수요처",
+    "price_factors": [
+      {
+        "factor": "이차전지수요",
+        "detail": "전기차·데이터센터·ESS 등 이차전지 수요 확대가 첨가제 매출 성장과 실적에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "공급망(중국)",
+        "detail": "원재료의 중국 의존도 변화 및 국산화(공급원 다변화)는 원가와 안정적 조달에 영향을 줍니다."
+      },
+      {
+        "factor": "전방산업",
+        "detail": "호주 광산 생산량, 제지·잉크·건설·조선 업황 등 전방산업의 수요 변동이 매출 변동성에 연결됩니다."
+      },
+      {
+        "factor": "기술경쟁력",
+        "detail": "입자 크기 제어·습식·건식 분쇄 등의 기술 우위는 제품 차별화와 시장 진입에 유리하게 작용합니다."
+      },
+      {
+        "factor": "수요다변화",
+        "detail": "광범위한 적용처(전기전자·식품·제약 등)와 고객 다변화는 특정 산업 경기 변동에 대한 리스크 완화 요인입니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 국내 최초로 세라믹 비드 양산화에 성공"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "이차전지 첨가제 (22.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "세라믹 비드 (21.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "광산용 및 제지/잉크 등 (38.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "MD&A",
+        "evidence_text": "전기전자용 전자재료를 비롯하여 페인트·잉크, 제지, 광물 생산업체 등"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "비중국산 원료를 이용하여 국산화에 성공하였습니다"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5247,
+    "completion_tokens": 5604,
+    "reasoning_tokens": 4544,
+    "output_tokens": 1060
+  },
+  "warnings": []
+}

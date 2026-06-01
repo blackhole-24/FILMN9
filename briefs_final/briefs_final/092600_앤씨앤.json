@@ -1,0 +1,71 @@
+{
+  "stock_code": "092600",
+  "corp_name": "앤씨앤",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 07:20",
+  "meta": {
+    "wics": "전자제품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "앤씨앤은 블랙박스 및 차량용 안전 전자제품을 중심으로 사업을 전개하는 기업으로, 2019년 차량용 반도체 사업부가 넥스트칩으로 분할되며 블랙박스·안전솔루션 중심 구조로 재편되었습니다. 자체 브랜드 'VUEROID'를 중심으로 호주·동남아 등 해외 시장에 진출하고 있으며, 지배회사는 2025년에 매출 1,025.6억원을 기록하였습니다.",
+    "business_model": "주력 사업은 차량용 블랙박스 판매로, 2025년 사업부문별 매출에서 차량용블랙박스부문이 59,777(94.9%)으로 압도적 비중을 차지하며, 상품(SD카드·후방카메라 등) 494(0.8%), 용역(개발용역 등) 723(1.2%), 영상처리칩부문(영상보안향 영상처리칩)이 2,019(3.2%)으로 구성됩니다. 제품은 자체 영상처리(ISP)·영상전송(AHD) 기술을 기반으로 LTE·WiFi 통신형 제품과 ADAS(첨단운전자지원시스템) 연계 솔루션 등을 포함합니다.",
+    "main_customers": "차량용블랙박스부문 — 메이커 제조업체(브랜드사) 및 해외 바이어 / 영상처리칩부문 — 영상보안 기기 제조업체(CCTV·IP 카메라·DVR 등) / 상품·용역 부문 — 구체적 주요 고객은 공시문에 미기재",
+    "price_factors": [
+      {
+        "factor": "제품수명",
+        "detail": "블랙박스 부문 제품은 약 2년의 수명주기를 가져 단가(가격)가 비교적 고정되어 실적 변동에 영향."
+      },
+      {
+        "factor": "ODM사양",
+        "detail": "ODM(제조자설계생산) 형태로 납품되므로 고객사 요구 사양에 따른 가격·수익성 변동 가능."
+      },
+      {
+        "factor": "원자재비",
+        "detail": "원자재 및 외부 임가공 비용 변동이 제품 원가와 공급가에 직접 영향을 미침."
+      },
+      {
+        "factor": "환율",
+        "detail": "해외 시장 비중 확대에 따라 환율 변동이 매출 원화 환산 및 수익성에 영향."
+      },
+      {
+        "factor": "반도체수급",
+        "detail": "영상처리칩 부문은 수요·공급 경쟁과 외주공정 등으로 판매가격 변동성이 존재."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 가. 사업개요 - 앤씨앤",
+        "evidence_text": "당사는 전후방 FHD 블랙박스를 최초로 출시한 이후"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 (표)",
+        "evidence_text": "59,777(94.9%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 나. 주요 제품 등의 가격변동추이 > (2) 주요 가격변동원인",
+        "evidence_text": "당사의 제품은 메이커 제조업체를 주요 고객사로 확보하고 있으며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 나. 주요 제품 등의 가격변동추이",
+        "evidence_text": "블랙박스 부문 제품은 2년 정도의 제품수명주기를 가지는데"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4914,
+    "completion_tokens": 4155,
+    "reasoning_tokens": 3264,
+    "output_tokens": 891
+  },
+  "warnings": []
+}

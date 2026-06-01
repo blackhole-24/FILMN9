@@ -1,0 +1,67 @@
+{
+  "stock_code": "242040",
+  "corp_name": "나무기술",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:30",
+  "meta": {
+    "wics": "IT서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "나무기술은 2001년 설립되어 2018년 코스닥 시장에 상장한 가상화·클라우드 전문 기업입니다. 초기에는 유닉스 서버 기반 인프라 구축 사업을 했지만, 이후 가상화와 클라우드 솔루션 중심으로 사업 방향을 바꾸며 대기업, 금융기관, 공공기관을 대상으로 사업을 이어가고 있습니다.",
+    "business_model": "사업부문별 영업수익은 용역 60.9%, 상품 37.4%, 제품 1.7%로 구성됩니다. 회사는 VDI(데스크톱 가상화) 기반 망분리·스마트워크 구축, 클라우드 네이티브 PaaS(서비스형 플랫폼)인 Cocktail Cloud, 멀티·하이브리드 클라우드 관리 플랫폼인 SPERO, 그리고 AI 기반 업무 자동화 및 AI 플랫폼을 구축·공급하며 수익을 냅니다. 구축형 프로젝트를 중심으로 라이선스 공급, 유지관리, 운영지원 서비스까지 함께 제공하는 구조입니다.",
+    "main_customers": "가상화 — 대기업, 공공기관, 금융·제조 산업 / 클라우드 네이티브 — 공공·금융·제조·서비스 산업 / AI — 공공·금융 등 보안 요구 수준이 높은 산업",
+    "price_factors": [
+      {
+        "factor": "디지털전환",
+        "detail": "기업과 공공기관의 디지털 전환 수요가 늘수록 가상화·클라우드·AI 구축 수요가 함께 확대될 수 있습니다."
+      },
+      {
+        "factor": "보안수요",
+        "detail": "보안 요구 수준이 높은 고객이 많을수록 VDI(데스크톱 가상화)와 내부 구축형 AI·클라우드 사업의 수요에 영향을 줍니다."
+      },
+      {
+        "factor": "클라우드확대",
+        "detail": "클라우드 컴퓨팅과 클라우드 네이티브 도입이 늘어날수록 Cocktail Cloud와 SPERO 같은 플랫폼 사업이 주목받을 수 있습니다."
+      },
+      {
+        "factor": "프로젝트수주",
+        "detail": "매출이 구축형 프로젝트에 기반하므로 수주 규모와 시기에 따라 실적 변동이 커질 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 2001년 설립되어 2018년 코스닥 시장에 상장한 가상화 및 클라우드 전문 기업입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "상품: 14,202,783 (37.4%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "용역: 12,827,853 (60.9%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "주요 고객은 보안 요구 수준이 높은 대기업이나 공공·금융·제조 산업 등이며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4017,
+    "completion_tokens": 774,
+    "reasoning_tokens": 0,
+    "output_tokens": 774
+  },
+  "warnings": []
+}

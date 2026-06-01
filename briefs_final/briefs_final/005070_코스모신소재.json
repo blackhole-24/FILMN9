@@ -1,0 +1,62 @@
+{
+  "stock_code": "005070",
+  "corp_name": "코스모신소재",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 19:05",
+  "meta": {
+    "wics": "화학",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "코스모신소재는 이차전지 양극활물질, MLCC용 이형필름, 토너 등을 생산하는 화학 기업으로, 주력 제품은 이차전지 양극활물질입니다. 전체 매출의 상당 부분을 수출(매출의 41.7%)로 인식하고 있으며, 이차전지용 양극활물질 중심의 포트폴리오를 갖추고 있습니다.",
+    "business_model": "사업부문별 매출 구성은 이차전지 양극활물질 71.8%, 이형필름 25.3%, 토너 2.9%로, 이차전지 양극활물질(배터리 주요 소재)이 핵심 수익원입니다. 양극활물질은 이차전지의 출력·에너지 밀도·수명·안정성 등에 영향을 주는 핵심 소재로, EV(전기차)·ESS(에너지저장장치) 등 전방산업 수요에 크게 의존합니다.",
+    "main_customers": "이차전지 양극활물질 — 소형 IT기기·전기차·에너지 저장 시스템(ESS)·전동 공구·휴머노이드 로봇 / 이형필름(MLCC용) — 스마트폰·노트북·PC 등 IT용 MLCC 및 자동차 전장·인포테인먼트·디스플레이·반도체 공정 / 토너 — 복사기·프린터기",
+    "price_factors": [
+      {
+        "factor": "메탈 시세",
+        "detail": "리튬·니켈 등 후방 광물(메탈) 가격 변동이 양극활물질 판매가격과 수익성에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "전방 수요(전기차)",
+        "detail": "전기차 및 ESS 등 전방산업의 수요 변동이 양극활물질 수요를 좌우하여 실적 변동성이 큽니다."
+      },
+      {
+        "factor": "AI·데이터센터",
+        "detail": "AI 서버 확대로 인한 대용량 ESS·MLCC 수요 확대는 양극활물질과 MLCC 이형필름 수요 회복에 영향을 미칩니다."
+      },
+      {
+        "factor": "디지털화(토너)",
+        "detail": "디지털 기기 활성화로 종이 사용이 줄어들며 토너 수요는 연간 약 1% 수준으로 감소하는 구조적 압력을 받습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "이차전지 양극활물질 71.8%, 이형필름 25.3%, 토너 2.9%."
+      },
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "회사는 매출의 41.7%를 수출로 인식하고 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "소형 IT기기, 전기차, 에너지 저장 시스템(ESS), 전동 공구"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5624,
+    "completion_tokens": 3993,
+    "reasoning_tokens": 3200,
+    "output_tokens": 793
+  },
+  "warnings": []
+}

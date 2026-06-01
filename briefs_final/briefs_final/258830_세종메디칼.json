@@ -1,0 +1,82 @@
+{
+  "stock_code": "258830",
+  "corp_name": "세종메디칼",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 14:03",
+  "meta": {
+    "wics": "건강관리장비와용품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "세종메디칼은 1996년 세종기업으로 출발하여 복강경 수술용 기구를 중심으로 의료기기를 생산·판매해온 전문기업입니다. 수입 제품이 주도하던 국내 복강경 시장을 국산화로 대체하며 기술력과 수출 기반을 확립해왔습니다.",
+    "business_model": "핵심 제품은 Trocar(일회용 투관침), LabBag(일회용 장기적출주머니), LapSingle(일회용 단일공 개창기구)로 구성되며, FY2025 기준 매출 비중은 Trocar 38.4%, LabBag 23.2%, LapSingle 38.4%입니다. 제품 대부분이 일회용 의료기기여서 복강경 수술 건수에 비례한 반복적 수요가 주요 수익원이 됩니다.",
+    "main_customers": "Trocar — 대학병원·종합병원 및 복강경 집도 의료진 / LabBag — 대학병원·종합병원(복강경 시 종양·용종 적출 시 사용) / LapSingle — 복강경 및 로봇 수술을 시행하는 병원·의료진",
+    "price_factors": [
+      {
+        "factor": "로봇수술 보급",
+        "detail": "로봇 수술 확대로 싱글포트(LapSingle) 수요가 증가하면 해당 제품 매출에 긍정적 영향을 미칩니다."
+      },
+      {
+        "factor": "경쟁 심화",
+        "detail": "J&J, Medtronic 등 대형업체와 국내 다수 업체와의 경쟁이 심화될 경우 가격·시장점유율에 부담이 될 수 있습니다."
+      },
+      {
+        "factor": "규제·허가",
+        "detail": "의료기기는 엄격한 허가·임상 절차를 거치므로 규제 변화나 인증 이슈가 판매 시점과 비용에 직접 영향을 줍니다."
+      },
+      {
+        "factor": "복강경 보편화",
+        "detail": "복강경 수술 적용 범위 확대는 일회용 제품 수요 증가로 이어져 매출에 지속적 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "당사는 복강경 수술용 기구를 포함한 의료기기를 생산·판매하는 전문업체"
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "Trocar: 7,118,467 (38.4%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "LabBag: 4,299,468 (23.2%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "LapSingle: 2,729,762 (38.4%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "국내복강경 수술이 집중되어 있는 대학병원 및 종합병원"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "전세계 36여개 국가에 제품을 수출하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 주요제품 라인업",
+        "evidence_text": "LapSingle Vision™은 최근 Robot 수술의 발전과 더불어"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5383,
+    "completion_tokens": 3290,
+    "reasoning_tokens": 2368,
+    "output_tokens": 922
+  },
+  "warnings": []
+}

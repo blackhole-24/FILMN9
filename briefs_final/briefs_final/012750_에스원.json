@@ -1,0 +1,73 @@
+{
+  "stock_code": "012750",
+  "corp_name": "에스원",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 21:07",
+  "meta": {
+    "wics": "상업서비스와공급품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "에스원은 '종합 안심솔루션 기업'으로 시큐리티(Security)와 인프라 사업에 주력하는 국내 주요 보안·시설관리 기업입니다. 첨단 보안 시스템과 부동산 종합 관리 역량을 기반으로 보안 및 부동산·보안SI(System Integration) 시장을 선도하고 있으며, 2025년 연결기준 매출 2조 8,894억원을 기록했습니다.",
+    "business_model": "핵심 사업은 시큐리티 사업과 인프라 사업으로 구분되며, 시큐리티는 물리보안(출동·관제·보안기기)과 디지털보안(네트워크·보안관제 등)으로 구성됩니다. 인프라 사업은 부동산 서비스(FM: 시설관리, PM: 자산관리)와 보안SI(보안 컨설팅·시스템 설계·구축·유지보수)를 중심으로 고객 맞춤형 통합 서비스를 제공하여 유지보수와 수주·계약 기반의 안정적 매출을 창출합니다.",
+    "main_customers": "시큐리티 — 주거·상업시설 및 대형 법인(대학교·기업) / 인프라(부동산 서비스) — 건물 소유자·자산관리자 / 보안SI — 대형 산업체·국방·관계사 생산시설",
+    "price_factors": [
+      {
+        "factor": "안전수요",
+        "detail": "안전 관련 서비스는 필수 수요에 가까워 경기 변동의 영향이 비교적 적어 실적 안정성에 기여합니다."
+      },
+      {
+        "factor": "기술융합",
+        "detail": "AI·클라우드·IoT 등 첨단기술 융합으로 고부가가치 보안 솔루션 수요가 늘어나며 제품·서비스 전환이 실적에 영향합니다."
+      },
+      {
+        "factor": "가정용 성장",
+        "detail": "1·2인 가구 증가와 홈 IoT 보급 확대로 가정용 영상보안 등 소매 수요가 확대되어 매출 성장 요인이 됩니다."
+      },
+      {
+        "factor": "규제(경비법)",
+        "detail": "경비업법 등 관련 법규의 변화는 영업 관행과 비용 구조에 영향을 미쳐 실적에 직결될 수 있습니다."
+      },
+      {
+        "factor": "시장경쟁",
+        "detail": "내수 경기 둔화 및 가격 경쟁 심화는 수주와 수익성에 부담을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "당사는 '종합 안심솔루션 기업'으로 시큐리티와 인프라 사업에 주력하고 있으며,"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > (1) 시큐리티 사업",
+        "evidence_text": "시큐리티 사업은 크게 물리보안과 디지털보안 분야로 구분됩니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "시큐리티 사업은 대학교, 법인 등 대형고객 발굴 및 적극적인 수주활동전개"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > (1) 산업의 특성 및 개요",
+        "evidence_text": "시큐리티 산업은 인간의 필수적 욕구인 안전에 기반하고 있어, 경기 변동에 따른 영향이 적은 안정적인 수요 구조를 형성하고 있습니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 5055,
+    "completion_tokens": 4027,
+    "reasoning_tokens": 3136,
+    "output_tokens": 891
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

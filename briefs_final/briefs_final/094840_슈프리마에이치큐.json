@@ -1,0 +1,62 @@
+{
+  "stock_code": "094840",
+  "corp_name": "슈프리마에이치큐",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 12:33",
+  "meta": {
+    "wics": "전자장비와기기",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "슈프리마에이치큐는 바이오인식기술을 기반으로 한 보안시스템 ODM(설계·위탁생산) 사업을 영위하는 기업으로, 당사와 종속회사가 출입보안·근태관리 관련 시스템 및 제품을 공급하고 있습니다. 2025년 연결 매출은 212억원, 영업이익은 39억원을 기록했으며 자기자본비율 96.6% 등 건실한 재무구조를 유지하고 있습니다.",
+    "business_model": "핵심 사업은 바이오인식 기반 출입보안·근태관리 시스템의 ODM(설계·위탁생산) 공급이며, FY2025 사업부문별 영업수익 구성은 임대매출이 100.0%로 기재되어 있습니다. 무인경비 수요 증가에 대응해 지속적인 연구개발과 신제품 출시로 매출 증대를 추구하고 있습니다.",
+    "main_customers": "출입보안·근태관리 — 중소형 사무실·회사·공장·아파트 / 인사관리 연계 근태시스템 — 기업의 인사·노무·급여 담당자",
+    "price_factors": [
+      {
+        "factor": "ICT융합",
+        "detail": "ICT기술과 바이오인식의 융합이 가속화되면 관련 제품 수요가 늘어나 영업실적에 긍정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "수요확대",
+        "detail": "무인경비 및 소형 사무실 출입통제 수요 증가 시 매출 확대에 직접 연결됩니다."
+      },
+      {
+        "factor": "진입장벽",
+        "detail": "후발주자 진입이 어려운 산업 특성으로 기술력과 신뢰성 보유 기업은 경쟁우위를 유지할 가능성이 큽니다."
+      },
+      {
+        "factor": "지문확산",
+        "detail": "지문 등 간편 인증 기술의 보편화는 바이오인식 제품 채택을 촉진해 수익에 기여할 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "바이오인식기술을 기반으로 한 보안시스템 ODM 사업입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "임대매출: 101 (100.0%)"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "ICT기술과 바이오인식기술의 융합으로 시장확대 가속화"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4058,
+    "completion_tokens": 3872,
+    "reasoning_tokens": 3200,
+    "output_tokens": 672
+  },
+  "warnings": []
+}

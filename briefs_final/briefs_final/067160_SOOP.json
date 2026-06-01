@@ -1,0 +1,66 @@
+{
+  "stock_code": "067160",
+  "corp_name": "SOOP",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 04:50",
+  "meta": {
+    "wics": "양방향미디어와서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "당사는 대표 서비스 'SOOP'을 운영하는 1인 멀티미디어 플랫폼 기업으로, 이용자 간 자유로운 소통과 기부경제 선물 문화를 핵심으로 한 커뮤니티 기반 서비스를 제공합니다. 보고서에 따르면 SOOP는 숏폼·스트리밍·스포츠 채널 등으로 서비스 영역을 확장하며 플랫폼 경쟁력 강화를 추진하고 있습니다.",
+    "business_model": "매출은 플랫폼 매출(전체 매출의 약 70.9%), 광고 및 콘텐츠 제작 매출(전체 매출의 약 27.6%), 기타매출(전체 매출의 약 1.5%)으로 구성되어 있습니다. 플랫폼 매출은 별풍선·구독 등 기부경제선물(스트리머 후원형 결제)과 퀵뷰 등 기능성 유료아이템이 주를 이루고, 광고 매출은 플랫폼 광고·콘텐츠형 광고 및 광고대행 등을 통해 발생합니다.",
+    "main_customers": "플랫폼 매출 — 스트리머(콘텐츠 제작자) 및 플랫폼 이용자(시청자) / 광고 및 콘텐츠 제작 — 광고주·브랜드 / 기타 — 연결종속법인 관련 거래처 및 임차인·소비자",
+    "price_factors": [
+      {
+        "factor": "플랫폼생태계",
+        "detail": "강력한 커뮤니티와 기부경제 문화가 유지되면 별풍선·구독 등 플랫폼 매출에 직접적 영향을 미칩니다."
+      },
+      {
+        "factor": "기술·인프라",
+        "detail": "네트워크 기술 개발과 서버 투자 필요성이 서비스 안정성과 확장성에 영향을 주어 비용 및 성장성에 직결됩니다."
+      },
+      {
+        "factor": "광고수요",
+        "detail": "디지털 광고 수요 변화와 광고주의 캠페인 예산 변동이 광고·콘텐츠 제작 매출에 영향을 미칩니다."
+      },
+      {
+        "factor": "규제준수",
+        "detail": "개인정보보호법 등 관련 규제와 업종별 광고 가이드라인 준수가 서비스 운영 및 광고 집행 방식에 영향을 줍니다."
+      },
+      {
+        "factor": "모바일사용",
+        "detail": "모바일 중심의 콘텐츠 소비 증가는 이용자 참여도와 스트리머 활동을 늘려 플랫폼 수익성에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "당사의 대표 서비스인 'SOOP'은 1인 멀티미디어 플랫폼"
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황",
+        "evidence_text": "플랫폼 매출 (전체 매출의 약 70.9%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "별풍선은 스트리머에게 후원하는 서비스로"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4901,
+    "completion_tokens": 2306,
+    "reasoning_tokens": 1600,
+    "output_tokens": 706
+  },
+  "warnings": []
+}

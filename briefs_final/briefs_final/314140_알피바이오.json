@@ -1,0 +1,89 @@
+{
+  "stock_code": "314140",
+  "corp_name": "알피바이오",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 16:10",
+  "meta": {
+    "wics": "제약",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "알피바이오는 1983년 연질캡슐 원천 기술을 보유한 RP Scherer사와의 합작으로 시작해 약 40년간 연질캡슐(softgel) 제형 기술을 기반으로 사업을 영위해 온 제약·건강기능식품 제조업체입니다. 2019년 마도 공장 가동으로 건강기능식품 분야로 사업을 확대했고, 2022년 코스닥에 상장하여 생산 설비와 연구개발 역량을 강화하고 있습니다. 연질캡슐 중심의 기술력으로 국내 연질캡슐 시장에서 높은 생산 점유율을 확보하고 있습니다.",
+    "business_model": "핵심 사업은 일반의약품(OTC)과 건강기능식품의 OEM(주문자상표부착생산)·ODM(제조자개발생산) 위탁개발·생산으로 구성됩니다. 의약품 부문은 연질캡슐 제형을 중심으로 감기약·진통제·비타민 등 다양한 품목을 위탁생산하고, 건강기능식품 부문은 연질캡슐 외 정제·젤리스틱·블리스터 젤리 등 여러 제형을 생산합니다. 또한 난용성 약물 흡수 개선 기술인 뉴네오솔(New Neosol)과 캡슐 누액 방지·장기 보관이 가능한 뉴네오젤(New Neogel) 등 제형 특화 기술이 수익 기반입니다.",
+    "main_customers": "일반의약품(OTC) — 국내 주요 제약사(유한양행·종근당 등) / 건강기능식품 — 건강기능식품 브랜드 및 제조업체",
+    "price_factors": [
+      {
+        "factor": "제조 난이도",
+        "detail": "연질캡슐은 공정 난이도와 설비 투자가 커 생산 안정성 및 설비稼働 수준이 실적에 직접 영향."
+      },
+      {
+        "factor": "제형 기술력",
+        "detail": "뉴네오솔·뉴네오젤 같은 제형 차별화 기술 보유 여부가 경쟁우위와 수탁 확보에 영향을 줍니다."
+      },
+      {
+        "factor": "건강기능식품 수요",
+        "detail": "고령화와 예방 중심 수요 확대 추세가 건강기능식품 부문 생산 규모에 영향을 미칩니다."
+      },
+      {
+        "factor": "시장 경쟁강도",
+        "detail": "제조업체 수 증가와 경쟁 심화는 수익성·수주 가격에 하방 압력을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "연질캡슐 제형 기술을 기반으로 사업을 영위해 왔습니다."
+      },
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "2019년 건강기능식품 생산을 위한 마도 공장을 가동"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "국내 일반의약품 연질캡슐 시장에서 약 60% 이상의 생산 점유율을 기록하며 시장을 선도하고"
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황",
+        "evidence_text": "OEM 및 ODM 방식의 제품 개발과 생산을 수행하고 있으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황",
+        "evidence_text": "뉴네오솔(New Neosol)을 보유하고 있으며"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "유한양행, 종근당 등 국내 주요 제약사를 포함한 약 200여 개 고객사와 파트너십을 구축하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "마. 사업부문의 시장여건 및 영업의 개황",
+        "evidence_text": "제조 공정 난이도가 높고 대규모 설비 투자 및 정밀한 공정 관리가 요구되는 제형입니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "마. 사업부문의 시장여건 및 영업의 개황",
+        "evidence_text": "건강기능식품 시장은 고령화, 예방 중심 건강관리 인식 확산, 개인 건강 관심 증가를 기반으로 성장세를 유지하고 있습니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4801,
+    "completion_tokens": 5202,
+    "reasoning_tokens": 4096,
+    "output_tokens": 1106
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

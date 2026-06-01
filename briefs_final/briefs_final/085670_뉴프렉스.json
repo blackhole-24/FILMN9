@@ -1,0 +1,67 @@
+{
+  "stock_code": "085670",
+  "corp_name": "뉴프렉스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 06:32",
+  "meta": {
+    "wics": "전자장비와기기",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "뉴프렉스는 연성인쇄회로기판(FPCB)을 주력으로 제조·판매하는 전자장비 부문의 전문기업입니다. 스마트폰·태블릿 등 IT기기와 자동차 전장용 FPCB 수요에 대응하기 위해 베트남에 2015년·2018년 현지법인을 설립해 해외 생산기지를 운영하고 있습니다.",
+    "business_model": "매출 대부분이 FPCB(연성인쇄회로기판) 제조에서 발생하며, 사업부문별 매출 구성은 FPCB 98.4%, 상품 0.5%, 기타(임대 등) 1.1%로 구성되어 있습니다(주문형 전자부품 제조 중심). FPCB 제조는 자본집약적(설비 투자·업그레이드 필요)이고 다품종 소량 주문생산 특성이 있어 품질과 납기 준수가 수익성에 중요합니다.",
+    "main_customers": "FPCB — 스마트폰·태블릿·통신기기 및 전자제품 세트업체(SET MAKER) / 기타(임대) — 임차인",
+    "price_factors": [
+      {
+        "factor": "경쟁심화",
+        "detail": "중국·동남아의 저가 제품 진출과 일본·미국의 선진기술 경쟁으로 시장 경쟁이 가속화되어 수익성에 압박을 줄 수 있습니다."
+      },
+      {
+        "factor": "수요연동",
+        "detail": "주 수요처인 스마트폰 등 세트업체의 출하량 변동에 따라 매출과 실적이 민감하게 변동합니다."
+      },
+      {
+        "factor": "설비투자",
+        "detail": "FPCB는 자본집약적 장치산업으로 지속적인 설비 업그레이드가 필요해 투자 비용(자본지출)이 실적에 영향을 줍니다."
+      },
+      {
+        "factor": "환율노출",
+        "detail": "글로벌 영업활동으로 USD·JPY·CNY 등에 노출되어 환율 변동이 매출 및 수익성에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 가. 사업의 내용",
+        "evidence_text": "당사가 제조,판매하고 있는 연성인쇄회로기판 (FPCB : Flexible Printed Circuit Board)은 굴곡성을 가진 필름 형태의 3차원 회로기판입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "연성인쇄회로기판(FPCB) 제조 | 매출액(비율) 151,694( 98.4%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 산업의 특성",
+        "evidence_text": "주 수요처가 스마트폰, VR/AR, OLED ,자동차부품 등 전자, 전기제품의 세트업체로서"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 나. 회사의 현황",
+        "evidence_text": "중국 및 동남아 국가들이 저가 제품을 무기로 새롭게 시장에 진출하고 있고"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5113,
+    "completion_tokens": 3606,
+    "reasoning_tokens": 2816,
+    "output_tokens": 790
+  },
+  "warnings": []
+}

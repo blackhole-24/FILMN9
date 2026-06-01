@@ -1,0 +1,67 @@
+{
+  "stock_code": "009730",
+  "corp_name": "이렘",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 20:27",
+  "meta": {
+    "wics": "비철금속",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "이렘은 1974년 동신금속주식회사로 출발하여 1990년 코스닥에 상장된 강관·데크 제조업체로, 50여년간 스테인리스 강관 제조·판매 경험을 바탕으로 국내 시장점유율 상위권을 유지하고 있습니다. 주력 제품은 스테인리스 강관과 건설용 일체형 데크플레이트(슈퍼데크)입니다.",
+    "business_model": "주요 매출은 강관사업(스테인리스 강관)과 슈퍼데크사업(데크플레이트)으로 나뉘며, FY2025 기준 강관사업 81.1%, 슈퍼데크사업 16.5%, 기타 2.4%로 구성되어 있습니다. 품질인증과 자동조관기·열처리기 등 설비투자를 통해 고품질 제품 공급과 실수요업체·유통망 영업을 통해 수익성을 확보하고 있습니다.",
+    "main_customers": "강관사업 — 건설·조선·자동차·기계·에너지 등 산업의 실수요업체 / 슈퍼데크사업 — 건설현장 및 건설사(설계사무소·유통사 포함)",
+    "price_factors": [
+      {
+        "factor": "건설경기",
+        "detail": "건설경기 둔화 시 데크사업 매출이 위축되어 전체 실적에 직접적인 하방 압력을 가합니다."
+      },
+      {
+        "factor": "원자재가격",
+        "detail": "원재료 가격 변동에 따라 제품가격과 수익성이 크게 변동합니다."
+      },
+      {
+        "factor": "전방산업수요",
+        "detail": "반도체·디스플레이·정유 등 전방 산업의 투자 증가·감소가 강관 수요에 영향을 줍니다."
+      },
+      {
+        "factor": "경쟁·무역환경",
+        "detail": "국내 업계 간 가격경쟁 심화와 글로벌 보호무역주의 강화는 수익성에 부정적 영향을 미칠 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 영업개황",
+        "evidence_text": "당사는 1974년 3월 동신금속주식회사로 출발"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "강관사업: 74,633,892 (81.1%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 강관 사업",
+        "evidence_text": "건설, 조선, 자동차, 기계, 에너지 등 산업 전반에 걸쳐 사용되고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "라. 국내외 시장상황",
+        "evidence_text": "국내 동종업계 간 가격경쟁이 심화되는 가운데"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5503,
+    "completion_tokens": 4889,
+    "reasoning_tokens": 4160,
+    "output_tokens": 729
+  },
+  "warnings": []
+}

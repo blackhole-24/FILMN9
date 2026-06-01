@@ -1,0 +1,69 @@
+{
+  "stock_code": "156100",
+  "corp_name": "엘앤케이바이오",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 10:30",
+  "meta": {
+    "wics": "건강관리장비와용품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "엘앤케이바이오는 2008년에 설립된 척추 임플란트 전문 의료기기 회사로, 정형외과와 신경외과에서 사용하는 척추고정장치 및 수술용 제품의 설계·개발·제조·판매를 주력으로 합니다. 의료기기 중 고위험군인 3등급 제품을 주로 취급하며, 미국 FDA 인증을 바탕으로 미국 등 해외 시장으로 판매망을 확대하고 있습니다.",
+    "business_model": "핵심 사업은 Cervical(경추) 및 Thoraco Lumbar(흉요추)용 척추임플란트(케이지, 스크류, 플레이트 등)의 연구개발·제조·판매입니다. 연구개발부터 원재료 구매·제조·검사·납품에 이르는 전 과정을 운영하며, FDA 인증 제품을 기반으로 미국·아시아·유럽 등 해외 거래처에 제품을 공급하고 있습니다.",
+    "main_customers": "제품 — 정형외과·신경외과(병원 및 의료진) / 상품 — 수술에서 추가로 사용되는 제품을 사용하는 병원 및 의료진 / 기타 — 국내외 유통업체 및 해외 거래처(미국·태국·베트남·유럽)",
+    "price_factors": [
+      {
+        "factor": "인허가 규제",
+        "detail": "FDA 등 주요국 인증 지연이나 기준 강화 시 신제품의 시장 진입이 늦어져 매출에 부정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "고령화 수요",
+        "detail": "고령화에 따른 척추질환 치료 수요 증가는 장기적으로 제품 수요 및 실적에 긍정적 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "해외진출 장벽",
+        "detail": "국가별 인증·허가 제도의 차이로 해외 시장 확장에 시간과 비용이 소요되어 실적 변동성이 발생할 수 있습니다."
+      },
+      {
+        "factor": "R&D·인력비용",
+        "detail": "해외 수요 대응을 위한 인력확충 및 연구개발 비용 증가가 영업이익률에 부담으로 작용할 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "척추 임플란트 전문 의료기기회사입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "연구개발 단계에서부터 원재료 구매, 제품 제조 및 검사,"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "흉요추용인 Thoraco Lumbar 제품은 정형외과에서 많이 시행되는"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "미국 식품의약국(FDA) 인증 제품을 다수 보유하고"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4361,
+    "completion_tokens": 4609,
+    "reasoning_tokens": 3840,
+    "output_tokens": 769
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

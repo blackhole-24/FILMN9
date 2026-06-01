@@ -1,0 +1,69 @@
+{
+  "stock_code": "096870",
+  "corp_name": "엘디티",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 07:42",
+  "meta": {
+    "wics": "디스플레이장비및부품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "엘디티는 반도체사업과 SSN사업 2개의 사업부로 구성된 전기·전자 분야의 기업으로, OLED·LED 디스플레이 구동용 IC(집적회로)를 개발·생산·판매하는 팹리스(Fabless) 반도체 역량과 저전력 장거리 무선 기반의 사물인터넷(IoT) 솔루션을 보유하고 있습니다. SSN사업을 통해 스마트 화재 예방 시스템 등 IoT 응용 솔루션도 제공하고 있습니다.",
+    "business_model": "핵심은 디스플레이 구동 IC 개발·판매와 SSN(사물인터넷) 솔루션 제공으로, 제품 판매(구동 IC)와 시스템/서비스(SSN)가 주요 수익원입니다. 공시된 주요 사업부문은 '디스플레이 구동 IC, SSN, 기타, 건물임대'로 구분되며, IC 판매는 OLED·LED 디스플레이 구동용 SoC(시스템온칩) 개발 역량에 기반합니다.",
+    "main_customers": "디스플레이 구동 IC — OLED·LED 디스플레이 관련 제조업체 / SSN — 생활환경·산업환경에서 상황인식 정보가 필요한 시스템·서비스 제공자 / 건물임대 — 임차인(임대 수요자)",
+    "price_factors": [
+      {
+        "factor": "중국 경쟁",
+        "detail": "저가형 중국 AMOLED의 시장 진입으로 PMOLED 관련 수요와 가격 경쟁이 심화되어 실적에 부담을 줄 수 있습니다."
+      },
+      {
+        "factor": "패널 기술 전환",
+        "detail": "AMOLED·TFT‑LCD 등 패널 기술의 확산은 기존 PMOLED 수요 구조를 변화시켜 구동 IC 수요에 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "수요 변동",
+        "detail": "글로벌 완성품 제조업체의 재고 조정과 경기 변동은 단기적으로 매출의 등락을 유발할 수 있습니다."
+      },
+      {
+        "factor": "IoT 적용 확대",
+        "detail": "SSN 부문의 IoT 솔루션(예: 스마트 화재 예방)의 도입 확대는 제품 외 서비스형 수익 확대로 연결될 가능성이 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 반도체사업과 SSN사업 2개의 사업부로 구성되어 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "OLED 및 LED 디스플레이를 구동시키는 IC를 개발, 생산, 판매하고 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "스마트 화재 예방 시스템을 제공하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 사업부문별 현황 1) OLED (산업의 특성)",
+        "evidence_text": "저가형 AMOLED가 시장에 공급되기 시작하였고"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 3627,
+    "completion_tokens": 4167,
+    "reasoning_tokens": 3392,
+    "output_tokens": 775
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

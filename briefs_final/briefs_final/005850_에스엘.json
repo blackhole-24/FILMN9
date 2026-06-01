@@ -1,0 +1,66 @@
+{
+  "stock_code": "005850",
+  "corp_name": "에스엘",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 19:23",
+  "meta": {
+    "wics": "자동차부품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "에스엘은 자동차 램프, 전동화 부품, 미러, 전자 등 자동차 부품을 제조·공급하는 국내외 OEM(주문자상표부착생산) 대상의 부품기업으로, 현대기아차 등 주요 완성차업체에 납품하고 있습니다. 연결기준 매출액은 5조 2,399억원, 영업이익은 4,071억원으로 매출과 수익성 측면에서 의미 있는 규모를 보유하고 있습니다.",
+    "business_model": "주요 사업부문은 램프부문(Head Lamp 등), 전동화부문(E-Shift, BMS 등), 기타부문(미러·금형·전자)으로 구성되며, 사업부문별 매출 비중은 램프부문 78.2%, 전동화부문 12.2%, 기타부문 9.6%입니다. 램프 중심의 수익구조를 바탕으로 전동화·전장(電裝) 부품의 비중 확대를 통해 고부가가치 제품 포트폴리오 전환을 추진하고 있습니다.",
+    "main_customers": "램프부문 — 현대차/기아차, GM, Stellantis, Geely, 동풍자동차 등 완성차업체 / 전동화부문 — 현대차/기아차, GM, FORD 등 완성차업체 / 기타부문 — 현대차/기아차 등 완성차업체",
+    "price_factors": [
+      {
+        "factor": "OEM 의존도",
+        "detail": "완성차 업체와의 수주 관계 변동이 매출과 수익에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "전동화 수요",
+        "detail": "LED Head Lamp와 E‑Shifter 등 전동화 부품 채택 확대는 전동화부문 매출 비중 변화로 실적에 영향합니다."
+      },
+      {
+        "factor": "무역·공급망",
+        "detail": "보호무역·공급망 재편 등 대외 불확실성은 해외 생산·수주와 수출에 리스크로 작용합니다."
+      },
+      {
+        "factor": "원가·금리",
+        "detail": "원자재비 상승과 고금리 기조는 마진 압박으로 이어질 가능성이 있습니다."
+      },
+      {
+        "factor": "중국 경쟁",
+        "detail": "가격경쟁력과 전용 플랫폼을 앞세운 중국 완성차·부품업체의 확대로 글로벌 수주경쟁이 심화됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "연결재무제표기준으로 매출액은 5조 2,399억원"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "4,100,285,790(78.2%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "현대차, 기아차, GM, Ford, Stellantis, Geely 등의 OEM에 납품하고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4628,
+    "completion_tokens": 4444,
+    "reasoning_tokens": 3648,
+    "output_tokens": 796
+  },
+  "warnings": []
+}

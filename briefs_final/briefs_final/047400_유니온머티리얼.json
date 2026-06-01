@@ -1,0 +1,76 @@
+{
+  "stock_code": "047400",
+  "corp_name": "유니온머티리얼",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 02:22",
+  "meta": {
+    "wics": "자동차부품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "유니온머티리얼은 페라이트(자성 소재)와 세라믹 분야를 주력으로 하는 비금속 소재 기업으로, 자동차 전장용 및 가전용 모터용 핵심 소재를 공급하는 B2B(기업간 거래) 회사입니다. 사업장이 한국·중국·베트남에 있으며, 수출 비중이 커서 해외 시장 의존도가 높습니다.",
+    "business_model": "주요 사업은 페라이트와 세라믹으로 구성되며, FY2025 기준 페라이트 매출이 63.3%, 세라믹이 36.7%를 차지합니다. 페라이트는 자동차 및 가전용 모터에 들어가는 핵심 소재로서 완성차·부품업체 대상 공급이 중심이고, 세라믹은 정밀 가공·메탈라이징 등 신규 응용 분야로 확장을 추진하고 있습니다.",
+    "main_customers": "페라이트 — 완성차 및 자동차 부품업체, 가전 제조사 / 세라믹 — 산업용 부품·공구 제조사 및 의료·산업용 부품 수요처 / 절삭공구 — 글로벌 제조사(예: Bosch 등) 및 산업용 장비업체",
+    "price_factors": [
+      {
+        "factor": "완제품 경기",
+        "detail": "완성차·가전 생산량 변동에 민감해 경기 침체 시 부품 수요가 급감하여 실적에 직접 영향."
+      },
+      {
+        "factor": "중국 경쟁",
+        "detail": "중국 경쟁사들의 공격적 판매정책과 고객사의 단가 인하 요구로 매출과 이익률이 압박받음."
+      },
+      {
+        "factor": "환율 변동",
+        "detail": "수출 비중이 높아(연결기준 72.2%) 원·달러 환율 변동은 매출과 손익에 큰 영향을 미침."
+      },
+      {
+        "factor": "원자재·유가",
+        "detail": "원부재료 가격 상승 및 국제유가 상승으로 생산비·운송비가 증가하여 수익성에 부담."
+      },
+      {
+        "factor": "규제·환경비용",
+        "detail": "산업안전·폐기물·대기환경 등 규제 준수와 환경부담금 등으로 비용 부담이 발생할 수 있음."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "라. 환율변동 영향",
+        "evidence_text": "연결기업은 전체 매출액의 72.2%를 해외 각국에 수출하고 있으며,"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "페라이트: 64,545 (63.3%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "세라믹: 37,392 (36.7%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "나. 사업부문별 현황 > 1) 페라이트 사업",
+        "evidence_text": "자동차 1대당 약 50개 이상의 전기모터가 적용되고 있으며,"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "다) 경기변동의 특성",
+        "evidence_text": "부품 소재 산업은 완제품 산업 경기 변동에 민감하게 반응하는 특성을 보입니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4140,
+    "completion_tokens": 4113,
+    "reasoning_tokens": 3264,
+    "output_tokens": 849
+  },
+  "warnings": []
+}

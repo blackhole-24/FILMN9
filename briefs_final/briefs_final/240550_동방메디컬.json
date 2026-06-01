@@ -1,0 +1,64 @@
+{
+  "stock_code": "240550",
+  "corp_name": "동방메디컬",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 13:29",
+  "meta": {
+    "wics": "건강관리장비와용품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "동방메디컬은 1985년 설립된 의료기기 제조·판매 기업으로, 한방의료기기와 미용의료기기를 주력으로 국내 판매와 해외 수출을 병행하고 있습니다. 자사 브랜드(동방침, 동방 부항컵, 엘라스티 등)를 통해 아시아·북미·유럽 등 세계 50여 개국에 제품을 공급하고 있습니다.",
+    "business_model": "핵심 사업부문은 한방의료기기와 미용성형의료기기로 나뉘며, 일회용 한방침·부항컵 등 한방용 소모품과 히알루론산 필러, 캐뉼러, 흡수성 봉합사 등 미용의료기기 제조·판매가 주된 수익원입니다. 첨단 자동화 설비와 자체 기술로 제품을 생산해 국내 시장에서의 리더십과 해외 수출을 통해 매출을 창출하고 있습니다.",
+    "main_customers": "한방의료기기 — 국내 및 해외 병원·제약사·유통사 / 미용성형의료기기 — 국내 및 해외 병원·제약사·유통사",
+    "price_factors": [
+      {
+        "factor": "생산능력",
+        "detail": "자동화 설비 가동 여부는 생산량과 원가에 직접 영향을 주어 실적 변동 요인이 됩니다."
+      },
+      {
+        "factor": "제품품질",
+        "detail": "일관된 고품질 제품 유지(국내 시장점유율 1위)는 수요 유지와 브랜드 경쟁력에 영향을 줍니다."
+      },
+      {
+        "factor": "해외수출",
+        "detail": "세계 50여개국 수출 비중은 해외 수요 변동과 환율·무역환경 변화에 민감하게 반응합니다."
+      },
+      {
+        "factor": "규제·허가",
+        "detail": "신제품의 연구개발 및 허가 절차 진행 상황은 출시 시점과 매출 발생에 직접적인 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "세계 50여 개국에 수출해오고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "일회용 한방침과 일회용 부항컵 품목에서 국내 시장점유율 1위를 달성하고 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "신제품 연구개발 및 허가 절차를 진행하여 국내 및 해외 병원, 제약사, 유통사 등에 직·간접적으로 판매하고 있습니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4380,
+    "completion_tokens": 3591,
+    "reasoning_tokens": 2880,
+    "output_tokens": 711
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

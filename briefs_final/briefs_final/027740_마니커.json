@@ -1,0 +1,73 @@
+{
+  "stock_code": "027740",
+  "corp_name": "마니커",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 23:24",
+  "meta": {
+    "wics": "식품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "마니커는 육계(닭고기) 생산·유통을 영위하는 식품기업으로, 위탁사육농가와 관계회사를 통해 종란·사료 등 원재료를 안정적으로 확보하고 있으며 수도권 대량소비처에 대한 접근성에서 경쟁 우위를 갖추고 있습니다.",
+    "business_model": "주요 제품은 생계(닭고기)와 부분육, 염장육, 육가공품(반조리 등) 등으로 구성되며, 초생추·종란 등 원재료를 관계회사와의 계열적 공급망으로 확보해 생산(사육→도계)과 유통을 연결하는 계열화(공급망 통합)가 핵심 수익 기반입니다.",
+    "main_customers": "생계(신선육) — 프랜차이즈·외식업·수도권 대량소비처 / 염장육·부분육 — 외식·가공용 수요처 / 육가공품(반조리) — 가정용 소비자(간편식 수요)",
+    "price_factors": [
+      {
+        "factor": "공급망 안정성",
+        "detail": "관계회사와 위탁농가를 통한 종란·사료 확보가 원가·생산 안정성에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "수도권 접근",
+        "detail": "동두천·천안 등 도계장 위치에 따른 수도권 접근성은 유통비·판매확대 측면에서 상대적 우위로 작용합니다."
+      },
+      {
+        "factor": "계절성",
+        "detail": "삼복(7~8월) 등 성수기 수요가 실적 변동에 영향(연중 최대 매출 발생)으로 작용합니다."
+      },
+      {
+        "factor": "규제·포장",
+        "detail": "포장유통·원산지 표시 규제는 영세업체의 생산단가를 상승시켜 시장 재편 시 대형업체에 유리하게 작용할 수 있습니다."
+      },
+      {
+        "factor": "경쟁강도",
+        "detail": "약 40여개 업체의 경쟁구도는 가격·유통 경쟁에 대한 영향을 통해 실적에 압박을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "위탁사육농가와 계약을 통하여 생계를 공급 받고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "관계회사인 농업회사법인(주)안성으로부터 종란을 공급받아 당사에서 자체생산하고 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "대량소비처에 대한 접근성에서 상대적으로 우위를 점하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "현재 육계산업은 총 40여개 업체가 경쟁하고 있는 상태로"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4175,
+    "completion_tokens": 4884,
+    "reasoning_tokens": 4096,
+    "output_tokens": 788
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

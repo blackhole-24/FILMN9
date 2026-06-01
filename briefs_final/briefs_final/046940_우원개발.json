@@ -1,0 +1,64 @@
+{
+  "stock_code": "046940",
+  "corp_name": "우원개발",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 02:15",
+  "meta": {
+    "wics": "건설",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "우원개발은 토공사업(도로·교량·항만 등)과 도시개발사업 및 부동산임대 등 건설·개발 관련 사업을 영위하는 기업입니다. 연결실체 기준으로 토공사업 매출이 주를 이루며, 수주형 토목·도시개발 사업을 중심으로 영업하고 있습니다.",
+    "business_model": "핵심 사업부문은 토공사업, 도시개발사업 및 기타(부동산임대)로 구성되며 매출은 공사수입과 기타매출로 구분됩니다(토공사업이 매출의 상당 부분 차지). 수익은 주로 수주한 공사의 공사수입과 도시개발·임대에서 발생하는 기타매출에 의해 형성됩니다.",
+    "main_customers": "토공사업 — 공공(정부·지자체 등 발주처) 및 각종 인프라 발주자 / 도시개발사업 — 주거단지 수요자(주택 분양·구매자) / 기타 — 부동산임대 수익자(임대차 수요처)",
+    "price_factors": [
+      {
+        "factor": "정부정책",
+        "detail": "정부의 SOC(사회간접자본) 투자 및 발주 기조 변화는 수주 규모와 실적에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "원자재비",
+        "detail": "원재료 가격과 노무비 변동은 공사원가에 영향을 주어 수익성 변동을 초래합니다."
+      },
+      {
+        "factor": "경기변동",
+        "detail": "토목공사는 수주산업 특성상 거시 경제지표와 경기 사이클에 민감하여 실적 변동성이 큽니다."
+      },
+      {
+        "factor": "경쟁요소",
+        "detail": "수주 수익성은 영업·마케팅 능력, 공사수행능력, 자금조달 및 리스크 관리 등 경쟁력 요소에 의해 좌우됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "연결실체는 토공사 및 부동산개발, 매매 등의 사업을 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사의 매출은 공사수입과 기타매출로 구분할 수 있고"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "토목공사는 기본적으로 수주산업이기 때문에"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4723,
+    "completion_tokens": 3360,
+    "reasoning_tokens": 2688,
+    "output_tokens": 672
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

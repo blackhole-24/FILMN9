@@ -1,0 +1,69 @@
+{
+  "stock_code": "047770",
+  "corp_name": "코데즈컴바인",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 02:23",
+  "meta": {
+    "wics": "섬유,의류,신발,호화품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "코데즈컴바인은 국내 시장을 기반으로 여성 캐주얼 의류의 제조·유통을 중심으로 영업하는 패션업체입니다. 2002년 자체 브랜드 'codes-combine'을 출시하여 브랜드 인지도를 쌓았고, 주요 상권에 매장을 운영하며 안정적인 입지를 유지하고 있습니다.",
+    "business_model": "핵심 사업은 여성 캐주얼 중심의 패션사업으로, 자체 브랜드와 주요 상권의 오프라인 매장을 통한 소매 판매가 주된 수익원입니다. 여기에 2016년 JOCKEY(미국 이너웨어) 국내 라이선스에 따른 이너웨어 제조·공급, 2022년 이후 판매한 KF-94 마스크 사업, 그리고 기업 대상 워크웨어(작업복) 공급을 통해 사업 영역을 다각화하고 있습니다.",
+    "main_customers": "패션사업 — 10대~30대 젊은 소비층(일반 소비자) / 마스크사업 — 위생·보건용품을 구매하는 일반 소비자(주요 유통채널을 통한 판매) / 워크웨어사업 — 산업 현장 등 기업 고객",
+    "price_factors": [
+      {
+        "factor": "소비심리",
+        "detail": "경기 민감 산업으로 경기 둔화 시 소비심리 위축으로 의류 수요가 감소해 매출·실적에 직접 영향이 발생합니다."
+      },
+      {
+        "factor": "트렌드 변화",
+        "detail": "패션은 유행 변화 속도가 빠르므로 신제품 기획·출시와 재고관리의 성공 여부가 실적 변동에 큰 영향을 미칩니다."
+      },
+      {
+        "factor": "생산비",
+        "detail": "인건비·외주가공비 등 생산 관련 비용 상승 시 매출원가 비중이 늘어나 영업이익이 압박받을 수 있습니다."
+      },
+      {
+        "factor": "유통구조",
+        "detail": "온라인 중심 유통의 강화와 오프라인 주요 상권의 실적 변화가 판매채널별 실적에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 영업 현황",
+        "evidence_text": "여성 캐주얼 의류의 제조 및 유통을 중심으로"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 영업 현황",
+        "evidence_text": "자체 브랜드인 'codes-combine'을 출시하였으며"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 영업 현황",
+        "evidence_text": "젊은 소비층의 트렌디한 스타일링 수요에 대응하여"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 산업의 특성",
+        "evidence_text": "패션산업은 경기변동에 따라 소비심리의 영향을 크게 받는"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4757,
+    "completion_tokens": 3416,
+    "reasoning_tokens": 2688,
+    "output_tokens": 728
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

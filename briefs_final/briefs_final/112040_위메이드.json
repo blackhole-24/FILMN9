@@ -1,0 +1,67 @@
+{
+  "stock_code": "112040",
+  "corp_name": "위메이드",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 08:43",
+  "meta": {
+    "wics": "게임엔터테인먼트",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "위메이드는 '미르' IP를 중심으로 게임 개발·라이선스 및 블록체인 플랫폼을 운영하는 게임사입니다. 주요 타이틀로는 '미르4', '나이트크로우', '레전드 오브 이미르'가 있고 PC·모바일에서 크로스플레이 서비스를 제공합니다. 2025년 연결기준 매출은 6,140억원입니다.",
+    "business_model": "사업부문별로 모바일(50.1%), 라이선스(17.4%), PC 온라인(6.7%), 블록체인(1.4%), 기타(0.5%) 순으로 영업수익이 구성되어 있으며, 모바일 게임이 전체 매출의 핵심 축을 담당합니다. 라이선스 사업은 IP 사용 권한을 기간별로 부여하고 로열티를 수취하는 구조이고, 블록체인 사업은 위믹스 기반의 플랫폼(위믹스플레이, 위퍼블릭 등)을 통해 수익을 확장하고 있습니다.",
+    "main_customers": "라이선스 — 파트너사(당사 IP를 활용하는 기업) / 모바일 — 국내·글로벌 유저(모바일 게임 이용자) / PC 온라인 — 국내·글로벌 유저(PC 게임 이용자) / 블록체인 — 플랫폼 이용자(위믹스·위퍼블릭 등 이용자)",
+    "price_factors": [
+      {
+        "factor": "모바일 시장 구조",
+        "detail": "모바일 게임 시장의 성숙화 및 양극화는 신작 경쟁을 심화시켜 매출 변동성을 높일 수 있습니다."
+      },
+      {
+        "factor": "IP 수요",
+        "detail": "핵심 IP('미르')에 대한 수요 수준은 라이선스 매출과 장기적 수익성에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "기술 트렌드",
+        "detail": "AI·딥러닝·블록체인 등 신기술 도입은 신작의 경쟁력과 플랫폼 사업 성장에 영향을 줍니다."
+      },
+      {
+        "factor": "글로벌 진출",
+        "detail": "해외 시장(북미·일본·동남아 등) 성과는 PC·모바일 양쪽의 매출 규모와 성장성에 중요한 변수입니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "2025년 연결기준 당사 전체 매출은 6,140억원."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "모바일: 307,470,574 (50.1%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용-2. 영업의 현황",
+        "evidence_text": "당사는 핵심 IP인 '미르'IP를 통해 라이선스 사업 및 게임 사업을 지속 전개할 계획입니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "국내 모바일 게임 시장은 성장기를 지나 성숙기에 접어들면서 양극화 현상이 심화되고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4840,
+    "completion_tokens": 4310,
+    "reasoning_tokens": 3520,
+    "output_tokens": 790
+  },
+  "warnings": []
+}

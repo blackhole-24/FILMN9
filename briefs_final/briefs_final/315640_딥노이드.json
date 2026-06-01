@@ -1,0 +1,76 @@
+{
+  "stock_code": "315640",
+  "corp_name": "딥노이드",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 16:12",
+  "meta": {
+    "wics": "IT서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "딥노이드는 의료 영상 기반의 인공지능(AI) 솔루션을 개발하는 국내 인공지능 전문 기업으로, 의료 AI와 산업 AI를 주요 사업으로 영위하고 있습니다. DEEP:NEURO, DEEP:CHEST, DEEP:LUNG 등 의료용 영상판독 보조 제품과 DEEP:SECURITY, DEEP:FACTORY 등 산업용 AI 솔루션을 보유하고 있습니다.",
+    "business_model": "주요 사업부문은 의료AI와 산업AI로, FY2025 기준 의료AI가 9.9%, 산업AI가 90.1%의 영업수익 비중을 차지합니다. 의료AI는 솔루션 판매·연 단위 사용료·사용량 기반 과금 형태로 수익을 창출하고, 산업AI는 일시 납품·용역 제공 및 고객 맞춤형 커스터마이징을 통해 매출을 발생시킵니다.",
+    "main_customers": "의료 AI — 의료기관·검진센터 등 / 산업 AI — 공항·데이터센터·제조업체·정부기관·기업 등",
+    "price_factors": [
+      {
+        "factor": "의료 인허가",
+        "detail": "의료기기 인허가 일정 지연 시 의료 AI 제품의 상용화 및 매출 반영 시점이 늦춰질 수 있습니다."
+      },
+      {
+        "factor": "전방산업 경기",
+        "detail": "머신비전·보안 AI는 전방산업 투자 위축과 수주 환경에 민감해 매출 변동성이 커질 수 있습니다."
+      },
+      {
+        "factor": "연구개발비",
+        "detail": "생성형 AI 고도화 등 R&D·인건비 증가로 단기적으로 영업손실이 확대될 가능성이 있습니다."
+      },
+      {
+        "factor": "협력·유통망",
+        "detail": "코그넥스 MOU 및 한국공항공사 협력 등으로 유통망 확장이 실적에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "시장 초기성",
+        "detail": "의료·보안 AI 시장이 도입기 단계여서 시장 구조 변화나 경쟁 심화가 실적에 영향을 미칠 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "인공지능 전문 기업입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "의료AI: 737,564 (9.9%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "산업AI: 6,734,427 (90.1%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "의료기관 및 검진센터 등을 주 고객으로 하여"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "나. 각 사업부문의 시장 여건 및 영업의 개황",
+        "evidence_text": "공항, 정부기관, 기업 등에 공급하는"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5576,
+    "completion_tokens": 4780,
+    "reasoning_tokens": 3968,
+    "output_tokens": 812
+  },
+  "warnings": []
+}

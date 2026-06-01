@@ -1,0 +1,81 @@
+{
+  "stock_code": "456010",
+  "corp_name": "아이씨티케이",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 20:03",
+  "meta": {
+    "wics": "통신장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "아이씨티케이(주)는 하드웨어 기반 보안 반도체 설계 전문기업으로, 독자적 VIA PUF™ 보안 IP와 양자내성암호(PQC)를 결합한 Security SoC를 개발·공급합니다. 보안칩을 중심으로 보안 모듈·디바이스·보안 플랫폼에 이르는 End-to-End 수직화(Vertical) 기술체계를 구축해 IoT 시대의 신뢰점(Root of Trust)을 제공하고자 합니다.",
+    "business_model": "FY2025 기준 제품매출이 32.4%, 용역매출이 67.6%로 구성되어 있으며(제품매출: 보안칩·보안모듈·디바이스 등, 용역매출: 프로젝트·IP·서비스 기반 매출), PUF 기반 하드웨어 보안 기술과 PQC를 결합한 보안솔루션 공급 및 프로젝트·라이선스형 수익이 주요 수익원입니다.",
+    "main_customers": "제품매출 — 이동통신사·글로벌 빅테크 / 용역매출 — 기업 고객(프로젝트·IP 발주처, 통신사 등)",
+    "price_factors": [
+      {
+        "factor": "IoT 보안 수요",
+        "detail": "IoT 기기 확산에 따라 하드웨어 기반 Root of Trust 수요가 증가하면 제품·서비스 수혜로 연결될 수 있습니다."
+      },
+      {
+        "factor": "양자전환(PQC)",
+        "detail": "NIST 등 표준화·양자위협 인식이 확대되면 PQC 결합 제품에 대한 수요가 늘어날 수 있습니다."
+      },
+      {
+        "factor": "고객 도입 일정",
+        "detail": "고객사의 신규 보안칩 도입 지연은 매출 감소로 직결되는 특징이 있습니다."
+      },
+      {
+        "factor": "프로젝트 마일스톤",
+        "detail": "프로젝트 수주 및 마일스톤에 따른 매출 인식 시기가 실적 변동을 유발합니다."
+      },
+      {
+        "factor": "PUF 기술경쟁력",
+        "detail": "VIA PUF의 키 안정성 등 기술 비교우위는 제품 채택과 계약 성사에 영향력을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "아이씨티케이㈜(이하, 당사 또는 ICTK)는 글로벌 보안 트렌드에 부합하는 하드웨어 기반 보안 반도체 설계 전문기업으로, 독자적인 VIA PUF™ 보안 IP와 양자내성암호(Post-Quantum Cryptography, PQC)를 결합한 Security System-on-Chip(SoC)를 개발·공급하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "제품매출: 1,071 (32.4%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "용역매출: 2,718 (67.6%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "ICTK는 PUF 기반 보안칩으로 세계 최초로 양산에 성공하여 이동통신사 및 글로벌 빅테크에 공급 또는 공급을 준비하고 있습니다."
+      },
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "PUF는 흔히 '반도체 지문' 또는 '반도체 DNA' 로도 불리며,"
+      },
+      {
+        "field": "business_model",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "2025년 매출액은 전년 대비 약 40% 정도 감소하였습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5378,
+    "completion_tokens": 5059,
+    "reasoning_tokens": 4096,
+    "output_tokens": 963
+  },
+  "warnings": []
+}

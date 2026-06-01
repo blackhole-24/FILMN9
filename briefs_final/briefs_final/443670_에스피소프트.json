@@ -1,0 +1,67 @@
+{
+  "stock_code": "443670",
+  "corp_name": "에스피소프트",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 19:41",
+  "meta": {
+    "wics": "IT서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "에스피소프트는 클라우드 인프라를 기반으로 MS 소프트웨어, DaaS(데스크톱 가상화 서비스), 솔루션 비즈니스를 주력으로 하는 IT서비스 기업입니다. 주요 종속회사인 (주)유호스트를 통해 클라우드 MSP와 스마트 팩토리 솔루션으로 고객의 디지털 전환을 지원합니다.",
+    "business_model": "사업부문별로 MS 소프트웨어가 64.7%, DaaS가 3.4%, 솔루션이 31.9%의 매출 비중을 차지합니다. MS 소프트웨어 부문에서는 SPLA(서비스 공급자용 라이선스) 라이선스 판매·관리와 Microsoft 365 Copilot(생성형 AI) 관련 서비스를, DaaS 부문에서는 데스크톱 가상화(VDI) 서비스를, 솔루션 부문에서는 클라우드 스토리지·IDC, 스트리밍·인코딩·동영상 압축, 그리드 CDN 및 저작권보호 솔루션을 제공하여 수익을 창출합니다.",
+    "main_customers": "MS 소프트웨어 — IT서비스를 제공하는 기업(법인) / DaaS — 데스크톱 가상화 서비스를 이용하는 기업 고객 / 솔루션 — 콘텐츠 제공사 및 기업 고객(저작권 보호·스트리밍 수요)",
+    "price_factors": [
+      {
+        "factor": "Microsoft 의존",
+        "detail": "SPLA 사업은 Microsoft 제품 수요에 크게 의존하므로 Microsoft 정책 변화가 실적과 영업환경에 직접적 영향을 미칩니다."
+      },
+      {
+        "factor": "고객유지성",
+        "detail": "SPLA는 고객 사용량 기반 매출 구조로 고객사 이해와 관계 유지가 매출의 지속성에 결정적 영향을 줍니다."
+      },
+      {
+        "factor": "클라우드 경쟁",
+        "detail": "대형 하이퍼스케일 사업자와의 경쟁 및 대체 클라우드 영역에서의 포지셔닝이 시장 점유와 마진에 영향을 줍니다."
+      },
+      {
+        "factor": "법·규제",
+        "detail": "정보보호·데이터 관련 법령과 저작권 규제는 사업 운영의 준수 비용과 동시에 저작권보호 솔루션 수요에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "당사의 사업 영역은 클라우드 인프라 기반으로 하는"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "MS 소프트웨어: 22,798,357 (64.7%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "SPLA 시장",
+        "evidence_text": "SPLA 사업의 공급자는 Microsoft로서"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 사업에 중요한 영향을 미치는 법률/규정 등에 의한 규제사항",
+        "evidence_text": "당사 영위 사업은 소프트웨어 사업에 포함됩니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5004,
+    "completion_tokens": 4027,
+    "reasoning_tokens": 3264,
+    "output_tokens": 763
+  },
+  "warnings": []
+}

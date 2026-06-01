@@ -1,0 +1,76 @@
+{
+  "stock_code": "001770",
+  "corp_name": "SHD",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 17:39",
+  "meta": {
+    "wics": "철강",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "SHD는 주석도금강판을 제조하는 국내 철강업체로, CAN(캔)용 원자재인 주석도금강판을 주력으로 생산합니다. 국내 주석도금강판 시장은 소수의 사업자가 공급을 담당하고 있으며, 총 판매의 약 80%가 내수용으로 안정적인 수요 기반을 보유하고 있습니다.",
+    "business_model": "핵심 사업은 석도강판의제조(제품: 주석도금강판)로, 사업부문별 매출에서 해당 부문이 약 99.15%를 차지하며 주수입원입니다. 기타(임가공 등)는 매출의 약 0.85%를 차지해 보조적 역할을 합니다.",
+    "main_customers": "석도강판의제조 — CAN(캔) 제조사·제관사 / 석도강판의제조 — 부탄가스 제조사(승일그룹 등) / 각종철판의 판매업 — 주석도금강판 원재료 구매자(철판 수요자) / 기타 — 임가공 수요 기업(기타 제조업체)",
+    "price_factors": [
+      {
+        "factor": "진입장벽",
+        "detail": "초기 막대한 설비투자와 전문 공정으로 신규업체 진입이 어려워 국내 공급구조(소수업체)에 영향력을 미칩니다."
+      },
+      {
+        "factor": "수요구조",
+        "detail": "1인 가구 증가로 캔 수요는 감소 추세이나 레저 확대로 부탄가스용 수요는 증가해 제품별 수요 차이가 실적에 영향합니다."
+      },
+      {
+        "factor": "내수비중",
+        "detail": "총 판매의 약 80%가 내수용이므로 무역장벽 등 대외여건 악화 시에도 내수 의존도가 실적 안정성에 영향을 미칩니다."
+      },
+      {
+        "factor": "설비투자",
+        "detail": "철강 산업의 자본집약적 특성상 설비투자 규모와 유지비용이 수익성에 직결됩니다."
+      },
+      {
+        "factor": "계절성",
+        "detail": "경기변동에는 크게 민감하지 않지만 계절에 따른 수요 변화가 일부 실적 변동을 유발합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 산업의 특성",
+        "evidence_text": "현재는 3개 회사가 국내의 공급을 담당하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "99,540(99.15)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "나. 산업의 성장성",
+        "evidence_text": "총 판매 중 약 80%가 내수용으로"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "나. 산업의 성장성",
+        "evidence_text": "부탄가스용 소재를 ㈜포스코와 공동 개발하여"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 산업의 특성",
+        "evidence_text": "초기에 막대한 설비투자가 요구됩니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 2828,
+    "completion_tokens": 3622,
+    "reasoning_tokens": 2816,
+    "output_tokens": 806
+  },
+  "warnings": []
+}

@@ -1,0 +1,66 @@
+{
+  "stock_code": "096690",
+  "corp_name": "에이루트",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:15",
+  "meta": {
+    "wics": "컴퓨터와주변기기",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "에이루트는 전기·전자 업종의 컴퓨터와주변기기 기업으로, 미니프린터를 전문적으로 개발·제조·판매하는 사업을 중심으로 하고 있습니다. 사업보고서에는 프린터 사업부문 외에도 유통사업부문, 중전기기사업부문, 반도체사업부문을 함께 운영하는 지배기업으로 설명되어 있습니다.",
+    "business_model": "주요 수익은 미니프린터 17,040(33.7%), 중전기기사업 6,202(12.3%), 반도체 3,481(6.9%), 기타 691(1.4%)에서 발생합니다. 프린터 사업은 POS(판매시점관리)용 프린터, Label 프린터, Mobile 프린터, 프린터 Mechanism 등을 개발·제조·판매하는 구조이며, 주문생산과 OEM(주문자상표부착생산)·ODM(제조자개발생산) 성격이 강합니다. ",
+    "main_customers": "프린터 사업부문 — POS 시스템·RFID 시스템 공급업체, 전문 딜러가 추천하는 수출국가 현지 우량 전문거래선과 SI(시스템통합) 업체 / 중전기기사업부문 — 고객사 정보 없음 / 반도체사업부문 — 고객사 정보 없음 / 기타 — 고객사 정보 없음",
+    "price_factors": [
+      {
+        "factor": "수요확대",
+        "detail": "복권 발매기, 의료기기, 티켓 발매기 등으로 프린터 수요가 늘어날수록 미니프린터 사업의 매출 확대 기대가 커집니다."
+      },
+      {
+        "factor": "물류성장",
+        "detail": "택배·배달 서비스와 공장 자동화가 확대되면 라벨프린팅과 모바일 프린팅 수요가 함께 증가할 수 있습니다."
+      },
+      {
+        "factor": "가격경쟁",
+        "detail": "POS 프린터 시장에서 가격인하 경쟁이 심해지면 수익성이 압박받을 수 있습니다."
+      },
+      {
+        "factor": "서비스경쟁",
+        "detail": "POS 프린터 경쟁이 서비스 중심으로 이동하고 있어, 사후지원과 거래선 관리 역량이 중요해집니다."
+      },
+      {
+        "factor": "휴대성중요",
+        "detail": "Mobile 프린터는 무게, 무게중심, 배터리 수명, 인쇄속도 같은 요소가 경쟁력에 직접 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "Ⅱ. 사업의 내용 > 2. 영업의 개황",
+        "evidence_text": "당사는 특수프린터라 할 수 있는 P.O.S.(Point of Sales)용 프린터, Label 프린터와 Mobile 프린터, 프린터 Mechanism 등 미니 프린터를 전문적으로 개발, 제조, 판매하는 회사입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "미니프린터: 17,040 (33.7%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "Ⅱ. 사업의 내용 > 2. 영업의 개황",
+        "evidence_text": "POS 시스템 혹은 RFID 시스템의 주변기기로서 각 시스템과 결합되어야만"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3415,
+    "completion_tokens": 818,
+    "reasoning_tokens": 0,
+    "output_tokens": 818
+  },
+  "warnings": []
+}

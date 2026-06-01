@@ -1,0 +1,77 @@
+{
+  "stock_code": "417180",
+  "corp_name": "핑거스토리",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 12:15",
+  "meta": {
+    "wics": "양방향미디어와서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "핑거스토리는 웹툰·웹소설·디지털만화 등 온라인 콘텐츠를 제공하는 종합스토리 비즈니스 기업으로, 남성향 플랫폼 '무툰'과 여성향 플랫폼 '큐툰'을 운영합니다. 2025년에는 화장품 제조·판매 업체 스와니코코를 종속회사로 편입하여 사업 포트폴리오를 다각화했습니다.",
+    "business_model": "핵심 수익은 플랫폼을 통한 온라인 콘텐츠 판매(코인결제 등)이며, FY2025 기준 온라인 콘텐츠매출이 전체의 99.5%를 차지합니다. 광고대행을 통한 기타매출(0.5%)도 있으나 비중은 매우 작으며, 자체 IP(지적재산권)를 확보해 2차 수익과 부가수익 창출을 모색하고 있습니다.",
+    "main_customers": "온라인콘텐츠 — 개인 소비자(플랫폼 이용자) / 기타매출 — 광고주(광고 대행)",
+    "price_factors": [
+      {
+        "factor": "규제 준수",
+        "detail": "정보통신망법·저작권법 등 관련 법령 준수가 서비스 운영과 이용자 보호에 직결되어 규제 리스크가 실적과 신뢰에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "경쟁강도",
+        "detail": "현재 30개 이상의 웹툰 플랫폼이 경쟁하고 있어 이용자 확보와 콘텐츠 차별화 여부가 실적 변동 요인이 됩니다."
+      },
+      {
+        "factor": "공급과잉",
+        "detail": "공급과잉으로 성장률이 다소 둔화되는 추세여서 플랫폼의 콘텐츠 소비 감소가 매출에 직접적 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "콘텐츠 업데이트",
+        "detail": "지속적 작품 업데이트 및 자체 IP 확보가 이용자 만족과 2차수익 창출에 중요해 콘텐츠 발굴·관리 능력이 실적에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "핑거스토리",
+        "evidence_text": "당사는 종합스토리 비즈니스 기업으로서"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "온라인 콘텐츠매출: 16,947,503 (99.5%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "핑거스토리",
+        "evidence_text": "광고를 대행하여 발생하는 기타 매출"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "다. 법률/규정 등에 의한 규제사항",
+        "evidence_text": "[정보통신망 이용촉진 및 정보보호 등에 관한 법률]"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "마. 시장여건 및 영업의 개황",
+        "evidence_text": "현재 30개 이상의 웹툰 플랫폼이 시장에서 경쟁하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "마. 시장여건 및 영업의 개황",
+        "evidence_text": "공급과잉에 따라 성장률이 다소 둔화되고 있는 추세"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4986,
+    "completion_tokens": 5020,
+    "reasoning_tokens": 4224,
+    "output_tokens": 796
+  },
+  "warnings": []
+}

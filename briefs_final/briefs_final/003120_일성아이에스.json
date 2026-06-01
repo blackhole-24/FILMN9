@@ -1,0 +1,73 @@
+{
+  "stock_code": "003120",
+  "corp_name": "일성아이에스",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 09:42",
+  "meta": {
+    "wics": "제약",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "일성아이에스(구 일성신약)는 제약업을 영위하는 회사로, 전국에 공장을 포함한 4개의 출장소를 두고 있습니다. 의료분야의 연구개발, 제조, 판매를 모두 수행하며, 세계 유수의 제약회사와 기술협력을 통해 전문 치료용 의약품을 생산·판매하고 있습니다.",
+    "business_model": "주요 사업은 제품매출 57,972백만원, 상품매출 3,522백만원, 기타매출 2,798백만원으로 구성되며, 합계 매출 64,292백만원을 기록했습니다. GSK(글락소스미스클라인)와의 협력을 바탕으로 항생제 분야를 특화해 페니실린 항생제를 생산하고, 일본 등 해외 각국에 항생제 수출도 진행하고 있습니다. 또한 마취제, 조영제 등으로 신제품 영역을 넓히고 있습니다.",
+    "main_customers": "제품매출 — 국내외 직납 및 도매상 / 상품매출 — 국내외 직납 및 도매상 / 기타매출 — 국내외 직납 및 도매상",
+    "price_factors": [
+      {
+        "factor": "항생제수출",
+        "detail": "일본 등 해외 각국으로 항생제 수출을 진행하고 있어 수출 확대 여부가 매출에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "GSK협력",
+        "detail": "글락소스미스클라인(GSK)과의 기술협력은 항생제 경쟁력과 제품 신뢰도에 중요한 요소입니다."
+      },
+      {
+        "factor": "신제품출시",
+        "detail": "마취제, 조영제 등 신제품 출시가 이어지면 전문 영역이 넓어져 매출 구조 변화에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "비용절감",
+        "detail": "판관비(판매관리비) 등 비용을 줄이면 영업이익 개선에 직접적으로 영향을 줍니다."
+      },
+      {
+        "factor": "의약품규제",
+        "detail": "의약품은 개발·생산·유통과 사후 품질관리까지 규제가 엄격해 관리 역량이 실적에 중요합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 1. 사업의 개요",
+        "evidence_text": "전국에 공장을 포함한 4개의 출장소를 두고 있으며"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 1. 사업의 개요",
+        "evidence_text": "세계 유수의 제약회사와의 기술협력을 통해"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 2. 주요 제품 및 서비스 / 매출실적 요약표",
+        "evidence_text": "제품매출 57,972, 상품매출 3,522, 기타매출 2,798"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 1. 사업의 개요",
+        "evidence_text": "항생제 분야를 특화하여 세계적인 수준의 페니실린 항생제를 생산"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4875,
+    "completion_tokens": 784,
+    "reasoning_tokens": 0,
+    "output_tokens": 784
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

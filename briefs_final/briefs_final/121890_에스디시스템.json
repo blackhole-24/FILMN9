@@ -1,0 +1,62 @@
+{
+  "stock_code": "121890",
+  "corp_name": "에스디시스템",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 09:14",
+  "meta": {
+    "wics": "운송인프라",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "에스디시스템은 2001년 설립된 지능형교통시스템(ITS) 및 고속도로 요금징수시스템 전문 중소기업으로, 시스템 통합(SI)과 소프트웨어·하드웨어 개발부터 설치·유지보수까지 전 과정을 수행합니다. 소방정보시스템과 하이패스 단말기 등 교통·안전 인프라 분야로 사업 영역을 확장하며 주로 B2B·B2G(기업·정부·지자체) 고객을 대상으로 사업을 전개하고 있습니다.",
+    "business_model": "사업부문별로 지능형교통관리시스템이 52.1%로 가장 큰 매출 비중을 차지하고, 소방정보시스템 30.9%, 요금징수시스템 14.5%, 하이패스단말기 2.4%, 스마트파킹시스템 0.0%로 구성됩니다. 핵심 수익원은 시스템 통합(SI), 소프트웨어·하드웨어 개발 및 설치·유지보수와 하이패스 단말기(OBU) 제조·판매입니다.",
+    "main_customers": "요금징수시스템 — B2B·B2G / 하이패스단말기 — B2B·B2G / 지능형교통관리시스템 — 정부·지자체(B2G) / 스마트파킹시스템 — B2B·B2G / 소방정보시스템 — 소방청·지자체(B2G)",
+    "price_factors": [
+      {
+        "factor": "정부 투자",
+        "detail": "정부·지방자치단체의 ITS 투자 확대 시 수주 기회가 늘어나 매출에 우호적으로 작용합니다."
+      },
+      {
+        "factor": "수주 흐름",
+        "detail": "프로젝트 단위 수주에 따른 실적 변동성이 커서 수주 잔고와 신규 수주가 실적에 직접적 영향을 줍니다."
+      },
+      {
+        "factor": "유지보수 계약",
+        "detail": "통합유지관리·설치·유지보수 수주의 확대는 안정적인 반복매출 확보에 기여합니다."
+      },
+      {
+        "factor": "전기차 보급",
+        "detail": "전기차 충전시스템 사업 확대는 사업 포트폴리오 다각화와 신규 매출원 확보에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "시스템 통합 (SI), 소프트웨어 및 하드웨어 개발"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "지능형교통관리시스템: 15,012,264 (52.1%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "주로 B2B, B2G를 위주로"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3682,
+    "completion_tokens": 5092,
+    "reasoning_tokens": 4352,
+    "output_tokens": 740
+  },
+  "warnings": []
+}

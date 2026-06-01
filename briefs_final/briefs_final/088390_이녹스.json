@@ -1,0 +1,68 @@
+{
+  "stock_code": "088390",
+  "corp_name": "이녹스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 06:45",
+  "meta": {
+    "wics": "레저용장비와제품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "이녹스는 (주)이녹스 그룹의 지주회사로 그룹사 지배와 포트폴리오 개발을 주된 사업으로 영위합니다. 계열사의 자금조달 지원과 M&A 등 신규 사업 발굴을 통해 그룹 전반의 성장전략을 수립하는 역할을 합니다.",
+    "business_model": "핵심 사업부문은 지주부문과 종속회사의 레저부문·투자부문·소재부문으로 구성되며, 지주부문은 배당금·경영자문수수료·상표권 수익·임대수익 등을 주요 수입원으로 합니다. 레저부문은 자전거 제조·판매(알톤), 투자부문은 벤처·투자조합 운용(아이베스트 등), 소재부문은 이차전지 음극재용 원소재·Si 등 첨단소재 생산을 통해 수익을 창출합니다.",
+    "main_customers": "지주부문 — 계열회사(재무·전략·자금지원) / 레저부문 — 일반 소비자 및 B2B·B2G(자전거 수요처) / 투자부문 — 스타트업·벤처투자 대상 / 소재부문 — 이차전지·배터리 관련 소재 수요 기업",
+    "price_factors": [
+      {
+        "factor": "계열사 실적",
+        "detail": "종속회사들의 손익구조 변화가 연결실적에 직접 반영되어 실적·주가에 영향."
+      },
+      {
+        "factor": "전기자전거 수요",
+        "detail": "알톤의 전기자전거 매출 비중 확대는 레저부문 실적에 즉각적인 영향을 줌."
+      },
+      {
+        "factor": "이차전지 시황",
+        "detail": "이녹스에코엠 및 소재부문의 수익성은 이차전지 시장 수요와 가격 변동에 민감함."
+      },
+      {
+        "factor": "글로벌 리스크",
+        "detail": "통상 마찰·지정학적 리스크 등 대외 불확실성은 계열사 수출·공급망에 영향을 미침."
+      },
+      {
+        "factor": "지주규제",
+        "detail": "공정거래법상 지주회사 규제는 지배구조 및 자산운용 제한으로 연결정책에 영향을 줄 수 있음."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "당사는 (주)이녹스 그룹의 지주회사로"
+      },
+      {
+        "field": "business_model",
+        "source_section": "나. 사업부문별 현황",
+        "evidence_text": "경영자문수수료 수익, 상표권 수익, 지분법 이익"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "그 결과 2025년 매출의 50%가 전기자전거 매출이었으며"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 5638,
+    "completion_tokens": 3703,
+    "reasoning_tokens": 2944,
+    "output_tokens": 759
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

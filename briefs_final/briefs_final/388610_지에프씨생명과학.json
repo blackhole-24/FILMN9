@@ -1,0 +1,87 @@
+{
+  "stock_code": "388610",
+  "corp_name": "지에프씨생명과학",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 13:09",
+  "meta": {
+    "wics": "생물공학",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "지에프씨생명과학은 2002년에 설립된 바이오 소재 전문기업으로, 스킨마이크로바이옴과 엑소좀 기술을 중심으로 화장품용 고기능성 원료를 개발·공급합니다. 소재사업과 기능성화장품의 인체적용시험(효력시험·표시광고 실증) 서비스를 주요 사업으로 운영하고 있습니다.",
+    "business_model": "사업부문별로 소재사업부가 매출의 77.1%를 차지하고, 임상사업부가 22.9%를 차지합니다. 소재사업부는 스킨마이크로바이옴·엑소좀 등 바이오 소재를 개발·생산·공급하는 것이 핵심 수익원이며, 임상사업부는 기능성화장품의 효력시험 및 표시광고 근거자료 제공을 통해 수익을 창출합니다.",
+    "main_customers": "소재사업부 — 국내외 거래선(유명 브랜드 등) / 임상사업부 — 기능성화장품 제조사 및 브랜드(효력시험 의뢰처)",
+    "price_factors": [
+      {
+        "factor": "해외시장 의존",
+        "detail": "한국 화장품 산업의 해외 수요 변화(특히 중국·동남아 등)가 매출 변동으로 직결될 수 있습니다."
+      },
+      {
+        "factor": "규제 변화",
+        "detail": "화장품 및 원료 관련 규제·등록 제도 변경 시 원료 개발·수출과 임상시험 업무에 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "계절성",
+        "detail": "화장품 산업 특유의 계절성(여름·겨울 수요 변동)이 제품 수요와 매출에 주기적 영향을 줍니다."
+      },
+      {
+        "factor": "연구개발비 부담",
+        "detail": "R&D 투자 증가 등으로 영업이익이 압박받을 수 있으며 비용 증가가 실적에 반영됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "당사는 2002년 06월 18일 설립되었으며"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "가. 소재사업부",
+        "evidence_text": "당사는 스킨마이크로바이옴 분야에서 독보적인 위치를 차지하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "소재사업부: 2,021 (77.1%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "임상사업부: 4,055 (22.9%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 소재사업부",
+        "evidence_text": "국내외 거래선에 공급하고 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "나. 임상사업부",
+        "evidence_text": "임상사업부의 사업은 기능성화장품의 효력시험 근거자료 제공 서비스와 표시광고 실증 근거 자료 제공 서비스입니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "한국 화장품 산업은 국내 시장뿐만 아니라 해외 시장에도 큰 영향을 받습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "화장품 산업은 계절성이 뚜렷하게 나타나는 특성이 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5791,
+    "completion_tokens": 4890,
+    "reasoning_tokens": 3968,
+    "output_tokens": 922
+  },
+  "warnings": []
+}

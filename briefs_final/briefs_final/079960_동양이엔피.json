@@ -1,0 +1,67 @@
+{
+  "stock_code": "079960",
+  "corp_name": "동양이엔피",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 06:01",
+  "meta": {
+    "wics": "전기제품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "동양이엔피는 1987년 창업 이래 SMPS(전력변환 전원공급장치, Switching-Mode Power Supply)를 중심으로 제조·판매하는 글로벌 기업으로, 한국을 비롯해 중국·베트남 등 종속회사를 통해 해외 생산·판매 네트워크를 보유하고 있습니다. 휴대폰 충전기와 디지털 가전용 전원공급장치를 주력으로 하며, 주문형(특정 모델 전용) 전원솔루션을 제공하는 점이 특징입니다.",
+    "business_model": "주요 매출은 SMPS 등(전원공급장치) 제품군에서 발생하며, 2025회계연도 기준 사업부문별 영업수익은 'SMPS 등'이 전체의 100.0%를 차지합니다. 제품군은 휴대폰용 충전기, 디지털 가전용 SMPS, 기타 SMPS로 구성되며, ESS(에너지저장장치)용 전력변환장치, 태양광인버터(PCS, 태양광인버터) 및 전기차 충전기 등 친환경 제품군 연구개발도 진행 중입니다.",
+    "main_customers": "휴대폰용 충전기 — 대형 휴대폰 제조사(대형 전자제조업체) / 디지털 가전용 SMPS — TV·영상·가전 제조사(삼성전자·LG전자 등 대형 전자제조업체) / 기타 SMPS(태양광인버터·전기차충전기 등) — 의료기기·자동차·통신·신재생에너지 관련 제조사",
+    "price_factors": [
+      {
+        "factor": "대형 OEM 의존",
+        "detail": "대형 전자제조업체와의 수주·계약 체결 여부가 매출 변동에 직접적 영향을 미칩니다."
+      },
+      {
+        "factor": "제품 맞춤형 수요",
+        "detail": "주문형(특정 모델용) 개발 중심으로 신제품 출시 일정에 따라 실적이 변동될 수 있습니다."
+      },
+      {
+        "factor": "인증·품질 요구",
+        "detail": "UL·CE·CCC 등 각국 안전규격 확보 여부가 수출 공급과 실적에 영향을 줍니다."
+      },
+      {
+        "factor": "친환경 제품 전환",
+        "detail": "태양광인버터·전기차충전기 등 친환경 제품군 개발 진전이 중장기 매출 구조에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 가. 회사의 현황",
+        "evidence_text": "당사는 한국을 비롯하여 중국과 베트남 등 9개의 동종업종을 영위하는 종속회사로 구성된 글로벌 SMPS제조 및 판매업체입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "SMPS 등: 596,475 (100.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 가. 회사의 현황 > (3) 시장의 특성 및 회사의 경쟁 우위 요소",
+        "evidence_text": "당사 고객의 대부분이 대형 전자제조업체이며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 가. 회사의 현황 > (1) 영업개황",
+        "evidence_text": "최근 태양광인버터(PCS), 전기차 충전기 등 친환경제품의 개발에도 주력을 다하며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3729,
+    "completion_tokens": 2801,
+    "reasoning_tokens": 1920,
+    "output_tokens": 881
+  },
+  "warnings": []
+}

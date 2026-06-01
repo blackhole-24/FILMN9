@@ -1,0 +1,71 @@
+{
+  "stock_code": "053610",
+  "corp_name": "프로텍",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 03:15",
+  "meta": {
+    "wics": "반도체와반도체장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "프로텍은 1997년 설립된 반도체 후공정(패키징) 생산용 장비 제조 전문기업으로, 디스펜서 장비 등 핵심 장비를 중심으로 국내 주요 반도체·전자업체에 공급하고 일부 아시아 지역에 수출해왔습니다. 2001년 부설연구소를 설립해 신기술 개발에 투자하고 있으며, 투자부문을 운영하는 자회사를 보유하고 있습니다.",
+    "business_model": "매출은 시스템부문외(주력 제품군)가 약 99.93%, 투자부문이 약 0.07%로 구성되어 있어 시스템(장비) 사업이 사실상 대부분의 수익원을 차지합니다. 주력 제품은 Dispenser M/C(디스펜서 장비)와 SMT 관련 장비, 공압실린더이며, 종속회사를 통해 스크린프린터·PROBE CARD 등 부품과 투자사업을 병행하고 있습니다.",
+    "main_customers": "시스템부문외 — 삼성전자·LG전자·하이닉스반도체 등 대형 반도체·전자 제조업체 / 투자부문 — 자회사·종속회사를 통한 투자 관련 활동",
+    "price_factors": [
+      {
+        "factor": "반도체 설비투자",
+        "detail": "반도체 후공정 장비 수요는 반도체 소자업체의 설비투자 계획에 직접 연동되어 실적에 큰 영향을 미칩니다."
+      },
+      {
+        "factor": "기술개발 속도",
+        "detail": "장비 성능 향상과 신제품의 적기 출시를 위한 R&D 중요도가 높아 기술 경쟁에서 뒤처지면 수주에 불리합니다."
+      },
+      {
+        "factor": "어드밴스드 패키지 수요",
+        "detail": "HBM·2.5D·3D 등 어드밴스드 패키지 수요 확대는 관련 장비의 수요 증가로 연결됩니다."
+      },
+      {
+        "factor": "주문형 장비 특성",
+        "detail": "맞춤형 주문제작 장비 산업 특성상 개별 고객의 설비투자 일정에 따라 매출 변동성이 발생합니다."
+      },
+      {
+        "factor": "환율(외화위험)",
+        "detail": "외화표시 자산·부채 노출로 환율 변동이 손익에 영향을 미칠 수 있으며 환리스크 관리가 중요합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가) 사업요약",
+        "evidence_text": "당사는 1997년 설립이후 반도체(후공정) 생산용장비 제조전문업체로서의 기술적인 기반을 다져왔고"
+      },
+      {
+        "field": "business_model",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "당사는 반도체 및 SMT, LED 제조에 쓰이는 디스펜서 장비(지배회사) 및  스크린프린터 장비(종속회사)를 개발 및 제조판매하고,"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "나) 시스템사업(지배회사)",
+        "evidence_text": "기술력을 인정받아 국내의 삼성전자, LG전자, 하이닉스반도체, ASE코리아, 스태츠칩팩코리아, 암코테크놀러지코리아 등에 제품을 공급하고 있으며,"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나. 시장여건 및 특성 [시스템부문]",
+        "evidence_text": "그 중 회사의 주력 산업은 반도체 장비 산업 분야 중 후공정 패키징 장비 부문입니다"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5309,
+    "completion_tokens": 5582,
+    "reasoning_tokens": 4672,
+    "output_tokens": 910
+  },
+  "warnings": []
+}

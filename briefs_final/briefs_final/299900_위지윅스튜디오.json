@@ -1,0 +1,71 @@
+{
+  "stock_code": "299900",
+  "corp_name": "위지윅스튜디오",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 15:37",
+  "meta": {
+    "wics": "방송과엔터테인먼트",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "위지윅스튜디오는 CG/VFX 기술을 바탕으로 영화·드라마·뉴미디어·공연·전시 등 온·오프라인 콘텐츠의 기획·제작 서비스를 종합적으로 제공하는 종합 콘텐츠 제작사입니다. 모태인 영상기술 기반에서 M&A와 파트너십을 통해 'IP 기획/개발-투자·제작-배급/유통'에 이르는 밸류체인을 내재화하고 있습니다.",
+    "business_model": "주력 사업은 콘텐츠 사업과 VFX·뉴미디어사업으로, FY2025 기준 콘텐츠 사업이 매출의 93.1%를 차지하고 VFX 및 뉴미디어사업이 6.9%를 차지하며 중단영업 비중은 6.3%입니다. 핵심 수익원은 자체 IP 기획·제작과 배급·유통을 포함한 콘텐츠 사업이며, CG/VFX·VR·AR 등 기술 서비스는 보조적 수익원 역할을 합니다.",
+    "main_customers": "콘텐츠 사업 — OTT 플랫폼·배급사·콘텐츠 제작사 및 IP 홀더 / VFX 및 뉴미디어사업 — 영화·드라마 제작사, 전시·행사·광고 주최자",
+    "price_factors": [
+      {
+        "factor": "OTT 확장",
+        "detail": "국내·해외 OTT 플랫폼의 확장(플랫폼 다양화)은 콘텐츠 수요와 제작 투자 확대를 통해 실적에 긍정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "실감기술 수요",
+        "detail": "5G 및 AR·VR 발전으로 실감형 콘텐츠 수요가 늘어나면 VFX·뉴미디어 부문의 매출 확대에 기여합니다."
+      },
+      {
+        "factor": "작품 흥행성",
+        "detail": "콘텐츠의 흥행 여부와 배급 시기(계절성)는 콘텐츠 사업 매출 변동성에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "환율변동",
+        "detail": "USD·CNY 등 환율 변동은 해외거래와 수익 환산에 영향을 미쳐 실적 변동 요인이 됩니다."
+      },
+      {
+        "factor": "글로벌 경쟁",
+        "detail": "글로벌 CG/VFX 경쟁 심화와 기술 혁신 속도는 수주 확보와 가격 경쟁력에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "종합적으로 제공하는 회사입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "콘텐츠 사업(93.1%), VFX 및 뉴미디어사업(6.9%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "콘텐츠 제작사 및 IP 홀더사를 중심으로"
+      },
+      {
+        "field": "sales_region",
+        "source_section": "영업 현황",
+        "evidence_text": "내수가 차지하는 비중은 93.8%이며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4660,
+    "completion_tokens": 3770,
+    "reasoning_tokens": 3008,
+    "output_tokens": 762
+  },
+  "warnings": []
+}

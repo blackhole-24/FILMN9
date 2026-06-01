@@ -1,0 +1,62 @@
+{
+  "stock_code": "053620",
+  "corp_name": "태양",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 11:17",
+  "meta": {
+    "wics": "가정용품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "태양은 연료관(휴대용 부탄가스)과 에어졸을 주력으로 생산하는 금속 계열 기업으로, 2025년 총매출은 1,398.80억 원(139,880백만원)을 기록했습니다. 회사는 생산능력과 기술력에서 우위를 바탕으로 국내 시장 점유율 약 70%, 세계 시장 점유율 약 60%를 차지하고 있습니다.",
+    "business_model": "사업부문별로 연료관(부탄가스 관련 제품)이 매출의 약 84.4%, 에어졸(살충제 등 포함)이 약 15.6%를 차지하며(사업부문별 영업수익 구성), 대량생산을 통한 가격경쟁력 확보가 핵심 수익구조입니다. 원재료 매입 비중이 전체 매입액의 약 71%를 차지하고 있어 원가(가스·캔·석판 등) 변동이 실적에 직접적인 영향을 미칩니다.",
+    "main_customers": "연료관 — 내수: 대리점·대형매장·유통회사 / 연료관 — 수출: 직수출·로컬수출 / 에어졸 — 주요 대기업 대상 OEM(주문자상표부착생산)",
+    "price_factors": [
+      {
+        "factor": "원재료 가격",
+        "detail": "가스·캔·석판 등 원재료 가격 상승 시 원가 부담이 커져 마진 압박으로 이어질 수 있습니다."
+      },
+      {
+        "factor": "해외수요 확대",
+        "detail": "중국 등 신흥국 중심의 수요 확대는 수출 매출 증가로 연결될 수 있습니다."
+      },
+      {
+        "factor": "저가 경쟁",
+        "detail": "과거의 중국 저가 공세와 같은 가격경쟁이 지속되면 판매가격과 이익률에 부정적 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "생산가동률",
+        "detail": "연료관은 높은 가동률을 보이나 에어졸은 가동률이 낮아(에어졸 27.96%) 제품별 실적 변동성이 존재합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "국내 시장 70%, 세계 시장 60%를 점하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "부탄가스외: 118,050 (84.4%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "에어졸은 주요 대기업 등에 OEM방식으로 납품"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4538,
+    "completion_tokens": 3449,
+    "reasoning_tokens": 2752,
+    "output_tokens": 697
+  },
+  "warnings": []
+}

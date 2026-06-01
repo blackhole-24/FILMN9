@@ -1,0 +1,81 @@
+{
+  "stock_code": "013360",
+  "corp_name": "일성건설",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 09:48",
+  "meta": {
+    "wics": "건설",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "일성건설은 1976년 설립된 종합건설업체로, 기업 업무시설공사와 토목·건축·조경공사를 함께 영위하고 있습니다. 토목건축공사업, 산업/환경설비공사업, 조경공사업 면허를 보유하고 있으며, 2025년 시공능력평가액 기준으로 각 공종에서 전국 순위 50~72위권의 수행 역량을 보여줍니다.",
+    "business_model": "2025년 사업부문별 영업수익 구성은 국내 67.0%, 토목공사 19.7%, 해외 12.8%, 기타 0.6%입니다. 국내에서는 관공서 중심의 도급공사와 기업업무시설(B2B, 기업 간 거래) 공사가 핵심이고, 해외에서는 몽골·파라과이·라오스·캄보디아 등에서 도로와 공공사업, ODA(공적개발원조) 사업을 수행하고 있습니다. 건설업 특성상 발주처 수요와 정부의 금융정책, 건설 규제 영향을 크게 받는 수주산업입니다.",
+    "main_customers": "국내 도급공사 — 한국토지주택공사, 국군재정관리단 등 관공서 / B2B 공사 — 삼성디스플레이, 삼성바이오로직스 등 기업 발주처 / 해외 도급공사 — MUB(몽골 울란바토르시청), MOPC(파라과이 건설교통부), MAF(라오스 농림부), MPWT(캄보디아 공공사업교통부)",
+    "price_factors": [
+      {
+        "factor": "공공수주",
+        "detail": "국내 관급공사 비중이 높아 정부·공공기관 발주 물량과 입찰 경쟁 결과가 실적에 직접 영향을 줍니다."
+      },
+      {
+        "factor": "해외확대",
+        "detail": "해외 도로·농촌개발 등 공공 ODA 사업 확대 여부가 해외 매출과 성장 속도를 좌우할 수 있습니다."
+      },
+      {
+        "factor": "건설경기",
+        "detail": "건설산업은 수주산업이라 경기변동, 발주처 투자수요, 금융정책 변화에 따라 실적 변동성이 커질 수 있습니다."
+      },
+      {
+        "factor": "국책사업",
+        "detail": "GTX(광역급행철도) 등 대형 국책 SOC(사회간접자본) 발주는 토목부문의 안정적인 수요 기반이 될 수 있습니다."
+      },
+      {
+        "factor": "규제환경",
+        "detail": "건설 관련 규제와 정부 정책 변화는 공공·민간 발주 규모에 영향을 주어 수주 환경을 바꿀 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "회사는 기업 업무시설공사 등 B2B사업 및 고속도로"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "토목건축공사업, 산업/환경설비공사업, 조경공사업 면허를 보유"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "국내: 303,208 (67.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "토목공사: 46,870 (19.7%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "해외: 58,059 (12.8%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "한국토지주택공사, 국군재정관리단등 관공서를 주요 매출처로"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4084,
+    "completion_tokens": 998,
+    "reasoning_tokens": 0,
+    "output_tokens": 998
+  },
+  "warnings": []
+}

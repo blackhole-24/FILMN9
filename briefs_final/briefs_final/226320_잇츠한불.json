@@ -1,0 +1,83 @@
+{
+  "stock_code": "226320",
+  "corp_name": "잇츠한불",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 12:51",
+  "meta": {
+    "wics": "화장품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "잇츠한불은 모회사 한불화장품과의 합병으로 생산·R&D·마케팅·유통을 아우르는 종합 화장품 기업으로 출범하였으며, 연결대상 종속회사는 총 4개사로 주요 종속회사로 네오팜을 보유하고 있습니다. 주력 브랜드로는 잇츠스킨, 프레스티지, 파워10, 체이싱래빗 등이 있습니다.",
+    "business_model": "주요 사업은 화장품의 제조 및 판매로, 제품 포트폴리오는 핵심 브랜드 라인 중심의 B2C(소비자 대상) 판매에 집중되어 있습니다. 판매 채널은 국내·글로벌·신채널로 구분되며 H&B, 홈쇼핑, 온라인몰, 해외 수출·수출대행 등을 통해 국내외로 유통되는 구조입니다.",
+    "main_customers": "국내 — H&B·홈쇼핑·온라인몰을 이용하는 일반 소비자 / 글로벌 및 해외법인 — 해외 유통 채널을 통한 해외 소비자 및 바이어 / 신채널 — 이커머스 플랫폼을 이용하는 소비자",
+    "price_factors": [
+      {
+        "factor": "경쟁 심화",
+        "detail": "신규 진입이 용이한 산업 특성상 브랜드·마케팅 투자 확대가 필요해지면 영업비용 부담이 늘어날 수 있습니다."
+      },
+      {
+        "factor": "유통 채널 변화",
+        "detail": "H&B·온라인·홈쇼핑 등 신채널 비중 확대는 매출 확대 기회이나 채널별 비용·채널전략 따라 실적 변동성이 발생할 수 있습니다."
+      },
+      {
+        "factor": "글로벌 수출",
+        "detail": "미국·유럽 등 수출 다변화가 매출 성장에 기여하나 환율 및 현지 유통 입점 성과에 따라 실적 민감도가 달라집니다."
+      },
+      {
+        "factor": "소비 트렌드",
+        "detail": "더마·비건·클린뷰티 등 트렌드에 부합하는 제품의 시장 반응이 브랜드 경쟁력 및 매출에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "지적재산권",
+        "detail": "상표·특허 보유는 브랜드 보호와 제품 차별화에 기여하나 관련 분쟁·관리 비용은 리스크 요인이 됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 화장품 제조 및 판매업을 영위하고 있으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "주요 유통 채널은 국내, 글로벌, 신채널로 구분되며"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "H&B, 홈쇼핑, 온라인몰, 해외 수출 및 수출 대행"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "화장품 시장은 기술적 진입장벽이 낮으며, 신규 업체와 후발 업체의 시장진입이 용이하여 경쟁이 치열해지고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "매출은 7.7%상승한 1,534억을"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사가 보유하고 있는 지적재산권은 공시기준일 현재 상표권 1,112건"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4711,
+    "completion_tokens": 4339,
+    "reasoning_tokens": 3392,
+    "output_tokens": 947
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

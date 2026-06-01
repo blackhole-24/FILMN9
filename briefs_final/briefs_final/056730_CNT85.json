@@ -1,0 +1,81 @@
+{
+  "stock_code": "056730",
+  "corp_name": "CNT85",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 03:39",
+  "meta": {
+    "wics": "건설",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "CNT85는 플랜트·필터프레스·건축(브랜드 '인스빌')을 영위하는 건설업체로, EPC(설계·구매·시공·시운전)를 포함한 프로젝트 수행 능력을 바탕으로 사업을 전개하고 있습니다. 플랜트 부문에서 해외(우즈베키스탄·몰디브·필리핀 등) 프로젝트 수행 실적을 보유하고 있습니다.",
+    "business_model": "주요 수익원은 플랜트 부문으로 매출의 87.1%를 차지하며, 필터프레스 부문이 12.5%, 기타가 0.4%를 구성합니다. 플랜트는 소각·발전·폐수처리 등 EPC(설계·구매·시공·시운전) 프로젝트를 수행하고, 필터프레스는 고품질 탈수기·여과기를 공공·민간에 제조·공급하는 구조입니다.",
+    "main_customers": "플랜트 — 국내 민간 발주처 및 해외 발주처(우즈베키스탄·몰디브·필리핀 등) / 필터프레스 — 지자체(하수처리장·정수장) 및 폐수 발생 제조업체 / 건축(인스빌) — 주택 개발 수요자 및 부동산 서비스·관리·컨설팅 이용 고객",
+    "price_factors": [
+      {
+        "factor": "민간투자 변동",
+        "detail": "플랜트는 수주산업으로 국내 민간부문 투자 위축 시 발주량 감소로 실적에 부정적 영향을 받을 수 있습니다."
+      },
+      {
+        "factor": "관급 예산",
+        "detail": "필터프레스 수요는 정부의 SOC(사회간접자본) 예산에 민감해 관급 투자 축소 시 매출이 줄어들 가능성이 있습니다."
+      },
+      {
+        "factor": "제조업 경기",
+        "detail": "민간 제조업의 설비투자 위축은 필터프레스의 민간 수요 감소로 이어져 실적에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "해외수주",
+        "detail": "해외 프로젝트 수주는 국내 민간 발주 둔화를 일부 상쇄할 수 있으나 해외시장 개척 성과에 따라 실적 변동성이 존재합니다."
+      },
+      {
+        "factor": "경쟁·기술력",
+        "detail": "플랜트·필터프레스는 기술집약적 산업으로 기술력 및 입찰 경쟁 상황이 수주 확보와 수익성에 직접 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 건축부문",
+        "evidence_text": "당사는 '인스빌'이라는 브랜드를 통해 사업을 영위하고 있습니다."
+      },
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 플랜트부문",
+        "evidence_text": "우즈베키스탄, 몰디브 프로젝트를 성공적으로 수행하였고"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "- 플랜트: 41,375,239 (87.1%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "- 필터프레스: 5,939,719 (12.5%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "- 기타: 185,918 (0.4%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 필터프레스부문",
+        "evidence_text": "공공 및 민간영역에 공급하고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3729,
+    "completion_tokens": 4842,
+    "reasoning_tokens": 3904,
+    "output_tokens": 938
+  },
+  "warnings": []
+}

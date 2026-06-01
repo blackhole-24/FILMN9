@@ -1,0 +1,72 @@
+{
+  "stock_code": "360070",
+  "corp_name": "탑머티리얼",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 17:42",
+  "meta": {
+    "wics": "전자장비와기기",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "탑머티리얼은 이차전지(2차전지) 소부장(소재·부품·장비) 분야에서 시스템 엔지니어링과 전극소재 제조를 주된 사업으로 영위하는 기업입니다. 2025년 전체 매출이 231억원으로 전년 대비 감소했으며, 수출 비중이 높은 수출지향형(수출 비중 82.97%) 사업구조를 가지고 있습니다.",
+    "business_model": "핵심 사업은 시스템 엔지니어링(턴키 설비 공급·설치·시운전)과 전극소재 제조로, FY2025 매출 구성은 시스템 엔지니어링 82.0%, 전극 13.4%, 상품 0.6%, 기타 4.0%입니다. 전극사업은 현재 상용화된 양극재·음극재 등 원재료를 구매해 배합·가공해 판매하고 있으며, 향후 차세대 양극재 개발 및 자체 생산을 통해 부가가치 확대를 계획하고 있습니다.",
+    "main_customers": "시스템 엔지니어링 — 이차전지 개발·제조 기업(파일럿·생산라인 수주 대상) / 전극 — 유럽·미국 등 해외 이차전지 제조업체 / 상품·기타 — 보고서에 구체적 고객 미기재",
+    "price_factors": [
+      {
+        "factor": "기술수준",
+        "detail": "고품질 전극과 맞춤형 장비 설계 능력이 실적과 수주 경쟁력에 직접 영향을 미칩니다."
+      },
+      {
+        "factor": "원자재가격",
+        "detail": "원자재 가격 변동성 확대 시 전극 원가와 마진에 직접적인 영향이 발생합니다."
+      },
+      {
+        "factor": "수요(전기차·ESS)",
+        "detail": "전기차·ESS 수요 회복 또는 둔화는 설비투자 및 장비 수주에 따른 매출에 큰 영향을 줍니다."
+      },
+      {
+        "factor": "수출·수주 의존성",
+        "detail": "해외 고객·수주에 의존도가 높아 글로벌 규제·무역환경 변화가 실적 변동성을 키울 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "시스템 엔지니어링 사업과 전극소재 제조를 주된 사업으로"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "시스템 엔지니어링: 18,956,585 (82.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "수출 비중은 82.97% 입니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 시스템 엔지니어링 사업",
+        "evidence_text": "이차전지 개발 및 제조 기업을 고객으로 하여"
+      },
+      {
+        "field": "business_model",
+        "source_section": "나. 전극소재 사업",
+        "evidence_text": "신규사업으로 차세대 양극재 개발을 진행하고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5506,
+    "completion_tokens": 4458,
+    "reasoning_tokens": 3648,
+    "output_tokens": 810
+  },
+  "warnings": []
+}

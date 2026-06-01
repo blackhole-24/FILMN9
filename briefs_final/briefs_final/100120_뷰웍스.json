@@ -1,0 +1,72 @@
+{
+  "stock_code": "100120",
+  "corp_name": "뷰웍스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 07:51",
+  "meta": {
+    "wics": "건강관리장비와용품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "뷰웍스는 엑스레이 디텍터와 산업용 카메라 등 이미징 솔루션을 개발·제조·판매하는 기업으로, 의료용 및 산업용 이미징 제품을 양대 축으로 영업을 전개하고 있습니다. 2025년 연결기준 매출은 2,393억원, 영업이익은 214억원으로 견실한 매출규모를 보였습니다.",
+    "business_model": "핵심 사업은 의료용이미징솔루션과 산업용이미징솔루션으로 구성되며, 2025년 기준 의료용이미징솔루션이 전체 매출의 약 80.3%를 차지하고 산업용이미징솔루션이 약 19.7%를 차지합니다(엑스레이 디텍터·산업용 카메라 중심, ODM(제조자개발생산) 및 대리점 유통 병행). 연구개발(R&D) 중심으로 기술 내재화에 투자하여 제품 경쟁력을 확보하고 있습니다.",
+    "main_customers": "의료용이미징솔루션 — 고객사(엑스레이 디텍터는 일부를 제외하고 직접 판매) / 산업용이미징솔루션 — 산업용 검사장비 업체 및 대리점·ODM 경로를 통한 유통",
+    "price_factors": [
+      {
+        "factor": "설비투자",
+        "detail": "디스플레이·반도체 등 산업 설비투자 사이클에 따라 산업용 디텍터 수요와 실적 변동이 발생합니다."
+      },
+      {
+        "factor": "경쟁심화",
+        "detail": "의료 영상 시장의 경쟁 심화는 가격·기능 경쟁을 촉발해 수익성에 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "환율변동",
+        "detail": "주요 거래 통화 환율 변동은 외환차익·손실과 보유 외화자산 평가에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "제품가격",
+        "detail": "옵션·사양에 따른 거래처별 가격 차이로 평균판매단가와 매출 변동성이 발생합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "엑스레이 디텍터(detector)와 산업용 카메라 등 이미징 솔루션을 개발, 제조, 판매합니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[매출실적 요약]",
+        "evidence_text": "합계 | 239,334,580 | 222,898,069 | 220,250,539"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "엑스레이 디텍터는 일부 경우를 제외하고는 직접 고객사에게 판매하고 있으며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "MD&A(경영진 실적·전략 요약)",
+        "evidence_text": "의료 영상 시장은 경쟁이 한층 치열해지며 시장 환경이 녹록지 않았습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "동일한 제품에 대하여도 거래처마다 판매 가격이 다릅니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5095,
+    "completion_tokens": 3593,
+    "reasoning_tokens": 2752,
+    "output_tokens": 841
+  },
+  "warnings": []
+}

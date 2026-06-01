@@ -1,0 +1,86 @@
+{
+  "stock_code": "246960",
+  "corp_name": "SCL사이언스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 13:42",
+  "meta": {
+    "wics": "건강관리업체및서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "SCL사이언스는 홍합에서 영감을 받은 생체모방(바이오인스파이어드) 기반의 고분자 표면개질 기술을 바탕으로 지혈제(hemostatic) 등 의료기기와 바이오 물류·데이터 플랫폼을 운영하는 바이오 벤처기업입니다. 최근 인수·합병과 영업양수를 통해 사업영역을 확장하며 2025년 연결기준 매출이 큰 폭으로 증가했습니다.",
+    "business_model": "사업부문별로 매출은 제품 3.6%, 용역 95.4%, 기타 1.0%로 구성되어 있으며(사업부문별 매출 구성), 핵심 제품군은 지혈 플랫폼인 이노씰(InnoSEAL) 및 혈관중재용 제품군 등 의료기기입니다. 용역 중심의 매출은 주로 바이오물류(콜드체인·IoT(사물인터넷) 기반 운송)와 의료진단·데이터플랫폼(의료영상 AI(인공지능) 솔루션 하이이미지·건강검진 통합관리 마이원케어 등)에서 발생합니다.",
+    "main_customers": "제품 — 병원·의료진(수술·혈관중재시술) / 용역(바이오물류) — 임상시험기관·제약사·의약품·의료기기·진단시약 제조사 / 데이터플랫폼 — 의료기관·건강검진센터 및 연구기관",
+    "price_factors": [
+      {
+        "factor": "지적재산권",
+        "detail": "특허·상표 등 기술적 진입장벽은 경쟁 우위로 작용하나, 기술 경쟁의 귀결에 따라 실적에 영향이 큽니다."
+      },
+      {
+        "factor": "바이오수요",
+        "detail": "COVID-19 이후 바이오물류(저온유통) 수요 확대는 용역 매출에 직접적인 플러스 요인입니다."
+      },
+      {
+        "factor": "규제·인증",
+        "detail": "WHO·IATA·식약처 등 규정 준수 여부가 바이오물류 및 의료기기 영업의 사업 지속성과 비용에 영향합니다."
+      },
+      {
+        "factor": "재무레버리지",
+        "detail": "2025년 대규모 인수합병 및 전환사채 등으로 부채가 증가해 자금조달 비용·재무부담이 실적 변동성에 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "환율",
+        "detail": "수출·원재료 수입 거래로 인한 환율 변동 노출이 수익성에 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "당사는 단백질과 관련된 플랫폼기술을 지속적으로 확장, 발굴합니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "제품: 264,599 (3.6%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "용역: 4,714,520 (95.4%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "임상 물류, 의약품, 의료기기, 바이오 제품, 진단시약"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "나. 영업실적",
+        "evidence_text": "제16기 매출액은 22,011백만원으로, 전기 대비 365% 증가하였습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. 지적재산권 보유현황",
+        "evidence_text": "등록된 특허는 34건"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "당사는 2025년 중 적극적인 영업양수 및 사업 확장을 통해 기업 규모를 대폭 성장시켰습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5771,
+    "completion_tokens": 5891,
+    "reasoning_tokens": 4864,
+    "output_tokens": 1027
+  },
+  "warnings": []
+}

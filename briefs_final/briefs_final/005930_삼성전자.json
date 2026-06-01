@@ -1,0 +1,67 @@
+{
+  "stock_code": "005930",
+  "corp_name": "삼성전자",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 19:24",
+  "meta": {
+    "wics": "반도체와반도체장비",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "삼성전자는 본사를 거점으로 전 세계에 생산·판매 법인과 종속기업을 둔 글로벌 전자 기업입니다. 가전·모바일 등 완제품과 DRAM·NAND 등 반도체 부품, OLED 패널 및 전장·오디오 제품까지 광범위한 제품군을 보유하고 있습니다.",
+    "business_model": "핵심 사업부문은 DX(완제품), DS(부품), SDC(디스플레이), Harman(전장·오디오)이며, 2025년 매출 구성은 DX 부문 56.3%, DS 부문 39.0%, SDC 8.9%, Harman 4.7%로 보고되었습니다. DX는 TV·냉장고·세탁기·스마트폰 등의 완제품 판매가, DS는 DRAM·NAND·모바일AP 등 반도체 부품 판매가 주요 수익원입니다.",
+    "main_customers": "DX 부문 — TV·가전·스마트폰 완제품 구매처(주요 매출처: Alphabet, Apple, Deutsche Telekom 등) / DS 부문 — 메모리·모바일AP 등 반도체 솔루션 구매처(주요 매출처 포함) / SDC — 스마트폰용 OLED 패널 구매사 / Harman — 디지털 콕핏·오디오 솔루션 구매처",
+    "price_factors": [
+      {
+        "factor": "제품가격",
+        "detail": "TV·스마트폰·패널 등 평균판매가격(ASP) 변동이 매출과 이익률에 직접적인 영향을 미칩니다(예: TV 약 5% 하락, 스마트폰 약 3% 하락)."
+      },
+      {
+        "factor": "반도체 수요",
+        "detail": "고부가가치 메모리(HBM4, DDR5 등) 수요 변동은 DS 부문 실적에 큰 영향을 줍니다."
+      },
+      {
+        "factor": "지적재산권",
+        "detail": "광범위한 특허·디자인 권리 확보는 기술경쟁에서의 보호 및 경쟁사 견제 수단으로 작용합니다."
+      },
+      {
+        "factor": "환경규제",
+        "detail": "제품 환경규제와 사업장 관련 규제 준수 여부는 비용·공급망 관리 및 제품 차별화 요소에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "308개의 종속기업으로 구성된 글로벌 전자 기업입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "DX 부문이 187조 9,673억원(56.3%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "DS 부문: 1,301,282 (39.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 주요 제품 매출",
+        "evidence_text": "주요 매출처는 Alphabet, Apple, Deutsche Telekom 등"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5592,
+    "completion_tokens": 4344,
+    "reasoning_tokens": 3584,
+    "output_tokens": 760
+  },
+  "warnings": []
+}

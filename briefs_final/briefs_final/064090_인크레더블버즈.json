@@ -1,0 +1,67 @@
+{
+  "stock_code": "064090",
+  "corp_name": "인크레더블버즈",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 12:45",
+  "meta": {
+    "wics": "판매업체",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "1991년 선광전자㈜로 설립되어 이후 사업구조를 전환한 기업으로, 현재 상품종합 유통 도소매업을 영위하는 패션·뷰티 브랜드 유통·마케팅 플랫폼입니다. 주요 매출은 국내 내수 시장을 중심으로 형성되어 있으며, 유통망을 활용해 국내외 유통망 확장을 추진하고 있습니다.",
+    "business_model": "사업부문별 매출 구성은 누트라코스외가 86.73%로 핵심 수익원이며, 유통사업부문(4.53%), 전자제품/리퍼비시/기타(4.32%), 대부업(4.42%)이 나머지를 구성합니다. 핵심 활동은 패션의류·잡화 유통 및 뷰티·헬스케어(아미노산 기반 제품 등) 판매와 연결종속회사를 통한 미용·성형 구독형 금융 서비스 입니다.",
+    "main_customers": "누트라코스외 — 일반 소비자(뷰티·헬스케어) / 유통사업부문 — 국내 내수 소비자(패션·잡화) / 대부업(구독형 금융) — 미용·성형을 희망하는 고객, 특히 MZ세대",
+    "price_factors": [
+      {
+        "factor": "경기 민감도",
+        "detail": "패션 산업은 복종별로 경기 민감도가 달라 국내 경기변동에 따라 매출 변동성이 커질 수 있습니다."
+      },
+      {
+        "factor": "계절성",
+        "detail": "계절성(예: S/S vs F/W)에 따라 판매 시점별 실적 편차가 발생할 수 있습니다."
+      },
+      {
+        "factor": "디지털 채널",
+        "detail": "명품시장 및 패션 유통의 온라인·소셜미디어 채널 확대로 디지털 마케팅과 온라인 채널 대응이 실적에 영향 줍니다."
+      },
+      {
+        "factor": "고령화 수요",
+        "detail": "헬스케어 산업의 고령화 관련 수요 증가는 회사의 헬스케어·뷰티 제품군에 수요적 기회를 제공할 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "MD&A",
+        "evidence_text": "당사는 1991년 선광전자㈜로 설립되어"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "누트라코스외 6,255,026(86.73)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업의 개황",
+        "evidence_text": "현재 당사의 주요 매출은 국내 내수 시장을 중심으로"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "패션 산업은 각 복종 별로 경기에 대한 민감도 차이가 있을 수 있으며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5148,
+    "completion_tokens": 4127,
+    "reasoning_tokens": 3392,
+    "output_tokens": 735
+  },
+  "warnings": []
+}

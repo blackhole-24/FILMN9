@@ -1,0 +1,67 @@
+{
+  "stock_code": "004710",
+  "corp_name": "한솔테크닉스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 18:53",
+  "meta": {
+    "wics": "전자장비와기기",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "한솔테크닉스는 1966년 설립된 전기·전자 부품 및 전장부품, EMS(전자기기 위탁생산), 태양광, 반도체 장비 등을 영위하는 기업으로 1988년 유가증권시장에 상장되어 있습니다. 2025년 연결매출은 1조 2,524억원을 기록하는 등 다각적인 사업 포트폴리오와 국내외 생산·공급망을 갖추고 있습니다.",
+    "business_model": "핵심 사업은 전자부품(파워보드·무선충전 모듈)과 EMS(스마트폰 위탁생산), 반도체 장비, 전장부품, 태양광 모듈로 구성되며, 2025년 기준 전자부품 41.5%, EMS 28.5%, 반도체 15.9%, 전장부품 9.6%, 태양광 4.5%의 매출 비중을 보입니다. 각 부문은 TV·생활가전, 스마트폰, 자동차·선박·로봇, 반도체 장비 시장에 납품하는 B2B(기업간 거래) 중심의 수익구조입니다.",
+    "main_customers": "전자부품 — 전자제품 완성품 제조업체(TV·가전 제조사) / EMS — 스마트폰 제조사 / 반도체 — 반도체 장비 및 제조업체 / 전장부품 — 자동차·선박·로봇 제조사 / 태양광 — 태양광 발전 사업자",
+    "price_factors": [
+      {
+        "factor": "제품가격",
+        "detail": "파워보드·태양광 모듈·스마트폰 등 주요 제품의 평균 판매가격 변동이 실적에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "글로벌수요",
+        "detail": "글로벌 경기 침체와 통화긴축, 에너지·원자재 공급 불안 등으로 수요 불확실성이 확대되면 매출에 부정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "전장전환",
+        "detail": "자동차 전장화·전동화와 로봇·선박 전장 수요 확대는 전장부품 매출 성장에 긍정적 영향을 줍니다."
+      },
+      {
+        "factor": "공급망",
+        "detail": "해외 생산거점 및 종속회사 편입 효과 등 글로벌 공급망 변화가 원가와 매출에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "지배기업은 한솔테크닉스 주식회사로써 1966년 8월 20일에 설립되었으며,"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "전자부품 | ... | 519,741 | 41.5"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "EMS(스마트폰 등) | 스마트폰 등 | 356,583 | 28.5"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "2025년 연간 파워보드 등의 평균 판매가격은 전년도 연평균 대비 약 12% 하락하였으며,"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4981,
+    "completion_tokens": 3096,
+    "reasoning_tokens": 2240,
+    "output_tokens": 856
+  },
+  "warnings": []
+}

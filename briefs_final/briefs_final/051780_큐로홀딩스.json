@@ -1,0 +1,91 @@
+{
+  "stock_code": "051780",
+  "corp_name": "큐로홀딩스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 02:53",
+  "meta": {
+    "wics": "식품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "큐로홀딩스는 커피 유통과 엔터테인먼트, 해외 자원개발을 영위하는 기업으로, 연결대상 종속회사에 (주)큐로트레이더스, (주)에이트웍스, 미국 Curocom Energy, LLC 등이 포함되어 있습니다. 2025년 매출액은 56,651백만원으로 전년 대비 감소했습니다.",
+    "business_model": "주요 수익원은 커피 및 커피머신 유통으로 FY2025 기준 매출의 92.0%를 차지하며, 엔터테인먼트(드라마 제작·출연료 등)가 2.5%, Oil and Gas(자원개발)가 5.5%를 차지합니다. 커피부문은 원두 및 가공커피(로스팅·인스턴트·액상 등)와 커피머신 판매를 중심으로 영업합니다.",
+    "main_customers": "커피 사업부문 — (구체적 고객층 자료에 미기재) / 엔터테인먼트 사업부문 — (구체적 고객층 자료에 미기재) / 자원개발 사업부문 — (구체적 고객층 자료에 미기재)",
+    "price_factors": [
+      {
+        "factor": "수요 확대",
+        "detail": "국내 커피 소비 증가와 홈카페 트렌드가 지속되면 커피 유통 매출에 긍정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "프리미엄 경쟁",
+        "detail": "프리미엄 브랜드 중심의 마케팅·판촉 경쟁 심화는 제품 포지셔닝과 마진에 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "원두 공급구조",
+        "detail": "베트남·인도네시아 등 아시아 생산량 증가 등 원두 공급 변화는 조달 비용 및 안정성에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "유통 혼탁",
+        "detail": "병행수입 등으로 혼탁해진 유통시장은 유통마진과 브랜드 인지도 관리에 영향을 주어 실적에 변동을 초래할 수 있습니다"
+      },
+      {
+        "factor": "콘텐츠 변동성",
+        "detail": "드라마 등 엔터매출의 변동(예: 2025년 드라마 매출 부재)은 엔터부문 실적에 즉각적 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "회사의 사업부문은 커피 사업부문, 엔터테인먼트 사업부문, 자원개발 사업부문으로 분류되어 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "- 커피 및 커피머신(*1): 52,131 (92.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "- 드라마, 출연료 외: 1,434 (2.5%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "- Oil and Gas (*2): 3,086 (5.5%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "커피 사업부문은 커피 및 커피머신 등의 판매를 주요사업으로 영위하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "특히 홈카페 트렌드로 커피 및 커피 농축물의 수입이 증가하는 추세입니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "당사는 2025년에 이어 2026년에도 병행수입 등으로 혼탁해진 일리커피유통시장을 정리해 나가겠습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "2025년에는 전년대비 드라마 매출이 없는 결과 입니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4623,
+    "completion_tokens": 4657,
+    "reasoning_tokens": 3584,
+    "output_tokens": 1073
+  },
+  "warnings": []
+}

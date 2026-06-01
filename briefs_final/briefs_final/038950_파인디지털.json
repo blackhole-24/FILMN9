@@ -1,0 +1,62 @@
+{
+  "stock_code": "038950",
+  "corp_name": "파인디지털",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 01:00",
+  "meta": {
+    "wics": "전자제품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "파인디지털은 차량용 블랙박스(파인뷰 브랜드)를 중심으로 내비게이션 및 골프거리측정기 등을 영위하는 전자제품 기업입니다. 2025년 연결기준 매출은 629억원이며, 고부가가치 제품 라인업 재편과 고객 중심 서비스 강화에 주력하고 있습니다.",
+    "business_model": "주요 사업은 차량용 블랙박스, 내비게이션 및 지도관련, 골프거리측정기, 기타로 구성되며 블랙박스가 핵심 수익원입니다. 제품·상품·임대 구성을 보면 제품 20.8%, 상품서비스 76.6%, 임대 2.6%로 수익구조가 형성되어 있습니다.",
+    "main_customers": "차량용 블랙박스 — 개인 및 상용차 운전자 / 내비게이션 및 지도관련 — 내비게이션 사용자 및 지도 서비스 수요처 / 골프거리측정기 — 골프 이용자 / 기타 — 기타 제품·서비스 이용 고객",
+    "price_factors": [
+      {
+        "factor": "보급률",
+        "detail": "블랙박스 보급률 상승으로 시장 성숙화가 진행되면 매출 성장 둔화 가능성이 있음."
+      },
+      {
+        "factor": "원가(공급망)",
+        "detail": "공급망 불안정에 따른 원가 부담은 영업이익률 하방 압력으로 작용할 수 있음."
+      },
+      {
+        "factor": "완성차(순정화)",
+        "detail": "완성차 업체의 순정형 블랙박스 채택 확대는 애프터마켓 판매에 제약요인으로 작용함."
+      },
+      {
+        "factor": "기술경쟁",
+        "detail": "영상처리·저장기술 및 ADAS(첨단운전자보조시스템) 연계 기능 경쟁이 제품 차별화와 가격경쟁에 영향."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "당사는 연결재무제표 기준으로 2025년 매출 629억원, 영업손실 46억 원, 당기순손실 12억원을 기록하였습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "제품: 13,082 (20.8%)"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 사업부문별 현황 (1) 차량용 블랙박스 > 산업의 성장성",
+        "evidence_text": "상용차뿐만 아니라 개인용 차량에서도 차량용 블랙박스는 점차 선택이 아닌 필수품으로 자리를 잡았습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4606,
+    "completion_tokens": 5155,
+    "reasoning_tokens": 4480,
+    "output_tokens": 675
+  },
+  "warnings": []
+}

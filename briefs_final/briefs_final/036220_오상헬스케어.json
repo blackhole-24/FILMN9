@@ -1,0 +1,66 @@
+{
+  "stock_code": "036220",
+  "corp_name": "오상헬스케어",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 09:57",
+  "meta": {
+    "wics": "생명과학도구및서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "오상헬스케어는 1996년 4월 설립된 체외진단(IVD, 몸 밖에서 질병을 진단하는 기술) 기업으로, 생화학진단·면역진단·분자진단 제품을 개발, 생산, 판매하고 있습니다. 회사는 \"Technology for Everyone\"을 목표로 내세우고 있으며, 미국 유통은 OSANG LLC, 브라질 유통은 OSANG DO BRASIL LIMITADA가 담당하고 있습니다.",
+    "business_model": "핵심 사업은 생화학진단, 면역진단, 분자진단 제품의 개발·생산·판매입니다. 생화학진단에는 자가혈당측정기, POCT HbA1c(현장진단용 당화혈색소) 측정기, POCT 콜레스테롤 측정기가 포함되고, 면역진단에는 SelexOn과 코로나19 자가진단키트, 분자진단에는 PCR(중합효소연쇄반응) 기반의 Genefinder 제품이 포함됩니다. 사업부문별 매출 구성은 제품매출, 면역진단, 분자진단, 기타, 제품 계, 상품 매출, 기타 매출로 제시되어 있으나, 제공된 자료에는 각 부문 비율(%)이 명확히 나와 있지 않습니다.",
+    "main_customers": "생화학진단 — 의료기기상, 약국, 온라인 병원, 당뇨 전문 내과 및 일반 병의원 / 면역진단 — 국내외 병원 및 진단 수요처 / 분자진단 — 감염질환 진단 수요처 및 관련 의료기관 / 미국·브라질 유통 — 현지 시장",
+    "price_factors": [
+      {
+        "factor": "고령화",
+        "detail": "고령화와 만성질환 증가로 체외진단 수요가 늘어날 수 있어 회사 실적에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "감염유행",
+        "detail": "인플루엔자나 신종 감염병이 유행하면 진단키트 수요가 급증할 수 있습니다."
+      },
+      {
+        "factor": "의료패러다임",
+        "detail": "치료 중심에서 진단·예방 중심으로 의료 흐름이 바뀌면서 체외진단 제품의 중요성이 커지고 있습니다."
+      },
+      {
+        "factor": "팬데믹환경",
+        "detail": "코로나19처럼 외래 진료 방문이 줄어드는 상황에서는 병원용 검사기기 판매가 일시적으로 감소할 수 있습니다."
+      },
+      {
+        "factor": "기술발전",
+        "detail": "진단 분석 기술과 디지털 헬스케어가 발전할수록 정밀진단 제품의 시장성이 높아질 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 영업 현황",
+        "evidence_text": "당사는 1996년 4월 설립 이후 체외진단 분야에서"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 영업 현황",
+        "evidence_text": "생화학 진단, 면역 진단, 분자 진단 제품을 개발/생산/판매"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 생화학진단 혈당측정기",
+        "evidence_text": "주로 의료기상이나 약국, 온라인 병원 등에서 판매"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 5774,
+    "completion_tokens": 844,
+    "reasoning_tokens": 0,
+    "output_tokens": 844
+  },
+  "warnings": []
+}

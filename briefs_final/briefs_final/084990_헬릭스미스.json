@@ -1,0 +1,76 @@
+{
+  "stock_code": "084990",
+  "corp_name": "헬릭스미스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 06:30",
+  "meta": {
+    "wics": "생물공학",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "헬릭스미스는 1996년 설립된 R&D 중심의 바이오기업으로, 후보물질 발굴부터 전임상·임상·공정·생산·품질관리·규제까지 전주기 개발 역량을 보유하고 있습니다. Plasmid DNA·Retrovirus·AAV 등 다양한 의약품 개발 플랫폼 기반의 서비스와 천연물 기반 신소재를 활용한 H&B(Health & Beauty) B2B 사업을 병행하고 있습니다.",
+    "business_model": "주요 수익원은 제상품 판매와 기술이전 관련 수익으로 구성되어 있으며, 사업부문별 영업수익은 제상품이 37.7%, 기술이전 외가 5.3%를 차지합니다. 제상품 매출은 원료판매 및 건강기능식품의 직·간접판매(약국·자사 온라인몰·제휴쇼핑몰·홈쇼핑)를 통해 발생하고, 기술이전 수익은 임상 개발 단계에서 발생하는 마일스톤성 기술료(비고정적 수익) 형태입니다.",
+    "main_customers": "제상품 — 약국·온라인몰·제휴쇼핑몰·홈쇼핑을 통한 최종 소비자 / 기술이전 — 국내외 기술이전 계약 상대(제약·바이오 기업) / H&B·ODM — 기업(ODM 고객사, B2B 거래처)",
+    "price_factors": [
+      {
+        "factor": "R&D 비용 부담",
+        "detail": "바이오의약품은 장기간·고비용 개발 구조로 대규모 자금투입이 필요해 자금 조달 및 비용 통제가 실적에 직접 영향합니다."
+      },
+      {
+        "factor": "임상 성공 리스크",
+        "detail": "개별 신약의 임상 성공확률이 낮아 파이프라인별 성패가 실적 변동성을 크게 좌우합니다."
+      },
+      {
+        "factor": "기술이전 수익 변동성",
+        "detail": "기술이전 수익은 마일스톤 기반의 비정기적 수입으로 발생 시점과 규모가 실적에 큰 영향을 미칩니다."
+      },
+      {
+        "factor": "유전자치료 시장 동향",
+        "detail": "유전자치료 등 바이오의약품 분야의 성장성은 장기적 기회이나 경쟁과 규제 변화에 민감합니다."
+      },
+      {
+        "factor": "H&B(ODM) 매출 민감도",
+        "detail": "H&B 제품매출은 판매채널과 수요에 따라 변동성이 있으며, 매출 감소 시 전사 실적에 즉각적 영향이 발생합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 사업의 내용",
+        "evidence_text": "헬릭스미스는 1996년 설립된 R&D 기업으로서"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "제상품: 978,870 (37.7%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "기술이전 외: 137,480 (5.3%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 주요 제품 등의 현황",
+        "evidence_text": "직/간접판매(약국, 자사 온라인몰 및 제휴쇼핑몰, 홈쇼핑 등)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "라. 영업실적 관련진단(별도 기준)-H&B 사업부 영업 방향",
+        "evidence_text": "ODM 사업을 핵심적으로 전개하고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5000,
+    "completion_tokens": 4104,
+    "reasoning_tokens": 3200,
+    "output_tokens": 904
+  },
+  "warnings": []
+}

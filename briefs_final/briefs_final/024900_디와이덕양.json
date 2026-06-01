@@ -1,0 +1,67 @@
+{
+  "stock_code": "024900",
+  "corp_name": "디와이덕양",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 22:59",
+  "meta": {
+    "wics": "자동차부품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "디와이덕양은 1977년 7월 11일 설립된 자동차용 내장재 전문 제조업체로, Cockpit Module(대시보드), Door Trim, Anti-Vibration Pad 등을 생산합니다. 생산품의 대부분을 현대자동차에 납품하며 1997년 6월 증권시장에 상장되었습니다.",
+    "business_model": "FY2025 기준 사업부문별 매출은 제조가 81.1%, Door Trim이 13.3%, MEB 외가 1.8%, 기타가 3.7%를 차지합니다. 주력은 내장재(제조·Door Trim)이며, 2021년부터는 신사업인 BMA부품을 유럽과 미국에 공급하고 있습니다.",
+    "main_customers": "제조 — 현대자동차(완성차 업체) / Door Trim — 현대자동차(완성차 업체) / MEB 외 — 자료에 특정 고객 미기재 / 기타 — 자료에 특정 고객 미기재",
+    "price_factors": [
+      {
+        "factor": "경기변동",
+        "detail": "자동차 수요는 경기변동에 민감하여 경기 하강 시 실적에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "완성차 의존",
+        "detail": "생산품의 대부분을 현대자동차에 납품하고 있어 완성차 판매량 변동이 실적에 직접 영향합니다."
+      },
+      {
+        "factor": "진입장벽",
+        "detail": "규모의 경제 효과로 신규업체 진입장벽이 높아 경쟁구도가 장기적으로 안정될 수 있습니다."
+      },
+      {
+        "factor": "관세비용",
+        "detail": "관세비용 증가는 이미 수익성 저하 요인으로 작용한 바 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "나. 회사의 현황 (1) 영업개황",
+        "evidence_text": "1977년 7월 11일 설립된 당사는"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "제조: 1,410,213 (81.1%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "나. 회사의 현황 (1) 영업개황",
+        "evidence_text": "생산품의 대부분을 현대자동차에 납품하고 있으며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 업계의 현황 (3) 경기변동의 특성",
+        "evidence_text": "자동차는 대표적인 내구재 상품으로 경기변동과 밀접한 연관을 맺고 있으며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3531,
+    "completion_tokens": 4643,
+    "reasoning_tokens": 3968,
+    "output_tokens": 675
+  },
+  "warnings": []
+}

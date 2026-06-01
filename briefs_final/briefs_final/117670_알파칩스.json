@@ -1,0 +1,76 @@
+{
+  "stock_code": "117670",
+  "corp_name": "알파칩스",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:18",
+  "meta": {
+    "wics": "반도체와반도체장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "알파칩스는 2002년 11월 설립된 시스템 반도체 설계 및 디자인 서비스 전문기업입니다. 2003년 삼성전자 반도체 파운드리의 최초 디자인 하우스로 지정됐고, 2010년 9월 코스닥에 상장했으며, 2019년에는 삼성전자 반도체 파운드리의 공식 디자인 솔루션 파트너(SAFE-DSP)로 승격됐습니다.",
+    "business_model": "알파칩스는 시스템반도체의 제품(아키텍처) 기획부터 RTL·DFT·피지컬 디자인(레이아웃), 양산·테스트 지원까지 제공하는 확장형 디자인하우스입니다. FY2025 사업부문별 영업수익은 제품 55.4%, 용역 4.0%로 구성되어 있으며, 제품 내에서는 Security IC 10.7%, Mixed Signal IC 16.1%, Others 13.8%가 포함됩니다. 또한 ASIC(Application Specific Integrated Circuit)·SoC(System on Chip) 설계, IP(Intellectual Property) 개발, AI SoC 및 전장 반도체 설계 역량을 바탕으로 고객 맞춤형 설계 서비스를 제공합니다.",
+    "main_customers": "제품 — 팹리스(설계전문업체) 고객사 및 삼성전자(주)와 연계된 시스템반도체 수요처 / 용역 — 시스템반도체 설계 및 디자인 서비스가 필요한 팹리스 회사 / Mixed Signal IC — 글로벌 고객 / Security IC — 고객사로부터 개발 의뢰를 받은 시스템반도체 수요처",
+    "price_factors": [
+      {
+        "factor": "AI수요",
+        "detail": "AI(인공지능)와 HPC(고성능컴퓨터) 수요가 늘면 시스템반도체 설계·검증 수요도 함께 확대될 수 있습니다."
+      },
+      {
+        "factor": "미세공정",
+        "detail": "반도체 미세화 공정기술이 빠르게 발전할수록 고난도 설계·검증 역량의 중요성이 커집니다."
+      },
+      {
+        "factor": "분업구조",
+        "detail": "시스템반도체는 설계, 제조, 후공정이 분업화되어 있어 디자인하우스와 파운드리 협력 관계가 실적에 영향을 줍니다."
+      },
+      {
+        "factor": "맞춤칩",
+        "detail": "수요처별 최적화된 맞춤형·저전력 칩 선호가 커질수록 설계 서비스와 IP 확보의 의미가 커집니다."
+      },
+      {
+        "factor": "환율변동",
+        "detail": "USD 환율 변동이 세후손익에 영향을 미친다고 공시되어 있어, 환율 변화가 실적 변동 요인이 될 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 2002년 11월 설립된 시스템 반도체 설계 및 디자인 서비스 전문기업"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "2010년 9월 코스닥 시장에 상장"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "제품 (*1): 45,555 (55.4%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "용역(*2): 3,309 (4.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "팹리스 회사들에게 완성된 시스템반도체 제품을 공급"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4816,
+    "completion_tokens": 930,
+    "reasoning_tokens": 0,
+    "output_tokens": 930
+  },
+  "warnings": []
+}

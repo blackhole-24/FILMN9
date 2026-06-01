@@ -1,0 +1,69 @@
+{
+  "stock_code": "299660",
+  "corp_name": "셀리드",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 15:36",
+  "meta": {
+    "wics": "생물공학",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "셀리드는 항암면역치료백신(CeliVax)과 아데노바이러스 벡터 기반 예방백신(Ad5/35)을 보유한 바이오제약기업입니다. CeliVax 기반의 다수 항암파이프라인(6종)과 COVID-19 예방백신을 비임상·임상 단계에서 개발 중이며, 아직 시판 중인 제품은 없습니다.",
+    "business_model": "핵심은 CeliVax 능동형 항암면역치료백신과 Ad5/35 기반 감염병 예방백신에 대한 연구개발(R&D)이며, 기술이전(라이선스)과 독자적 상업화를 통한 매출창출을 추구합니다. 보고서에는 위탁생산(CMO) 및 위탁개발생산(CDMO)과 이커머스사업부가 주요 사업부문으로 기재되어 있습니다.",
+    "main_customers": "위탁생산(CMO) 및 위탁개발생산(CDMO) — 사업보고서에 고객 유형 미기재 / 이커머스사업부 — 사업보고서에 고객 유형 미기재",
+    "price_factors": [
+      {
+        "factor": "임상결과",
+        "detail": "임상 안전성·면역원성 데이터는 신약 상용화 가능성과 기술이전·라이선스 가치에 직접적 영향을 미칩니다."
+      },
+      {
+        "factor": "규제심사",
+        "detail": "식약처 등 규제당국의 임상·허가 승인 진행 여부가 상업화 시점과 매출 발생 시점을 좌우합니다."
+      },
+      {
+        "factor": "변이대응",
+        "detail": "코로나19 변이 발생 시 변이 대응 백신 개발 필요성이 실적과 연구개발 우선순위에 영향을 줍니다."
+      },
+      {
+        "factor": "CMO 가동률",
+        "detail": "GMP 시설을 활용한 CMO/CDMO 사업의 수요·가동률이 회사의 제조수익성에 직접적인 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "시판 중인 제품은 없습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "위탁생산(CMO) 및 위탁개발생산(CDMO)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "따라서, 판매조직은 구성되어 있지 않습니다."
+      },
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "임상 3상 시험을 진행하였고"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 5384,
+    "completion_tokens": 4684,
+    "reasoning_tokens": 3968,
+    "output_tokens": 716
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "stock_code": "121850",
+  "corp_name": "코이즈",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 09:13",
+  "meta": {
+    "wics": "디스플레이장비및부품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "코이즈는 광학필름(프리즘시트·확산시트)과 도광판을 주로 생산하는 디스플레이용 부품 제조기업으로, 국내에서 광학필름 생산·판매를 담당하며 중국 법인을 통해 현지 판매를 병행하고 있습니다. 광학 코팅·저온경화 등 자체 공정기술을 통해 생산원가와 품질에서 경쟁우위를 확보하고 있습니다.",
+    "business_model": "사업부문별(2025 회계연도)로는 조명 5.0%, 상품 매출 10.0%, 기타 매출 2.1%, 남경고일지광전유한공사 2.1%, (주)코이즈에이씨티 2.3%, (주)코이즈첨단소재 13.9% 등이 주요 수익원이며, 내부매출 제거 항목은 17.5%입니다. 핵심은 LCD BLU(백라이트 유니트)에 쓰이는 광학필름·도광판의 코팅·가공 사업이며, 코이즈첨단소재 등 계열사를 통한 2차전지 양극재 및 반도체·디스플레이용 전자재료 개발도 병행합니다.",
+    "main_customers": "광학필름·도광판 — 대형 LCD 패널 제조사 및 TV·모니터·노트북·휴대폰·자동차 내비게이션 등 완제품 제조사 / (주)코이즈에이씨티 — 자동차 부품 제조업체 / (주)코이즈첨단소재 — 2차전지·반도체·디스플레이용 소재 수요기업 / 남경고일지광전유한공사 — 중국 현지 고객(현지 판매 대상)",
+    "price_factors": [
+      {
+        "factor": "수요변동",
+        "detail": "디스플레이 수요가 줄면 패널·원부자재 가격 하락과 출하 감소로 영업실적에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "OLED전환",
+        "detail": "중·소형 OLED 확대는 LCD 수요 구조를 바꿔 기존 LCD용 광학필름 수요에 하방압력을 줄 수 있습니다."
+      },
+      {
+        "factor": "기술경쟁",
+        "detail": "신제품·프리미엄 제품 개발 능력과 지식재산권 보유 여부가 수익성 및 시장지위에 큰 영향을 미칩니다."
+      },
+      {
+        "factor": "고객집중",
+        "detail": "대형 LCD 및 대기업 계열사 중심의 납품 구조로 특정 고객사의 수요 변동에 실적이 민감하게 반응합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 국내에서 광학필름 생산 및 판매를 주로 담당하고 있으며, 중국에 위치한 남경고일지광전유한공사는 현지 판매를 주요 사업으로 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "- (주)코이즈첨단소재: 1,768 (13.9%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "- 조명: 629 (5.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사가 생산하고 있는 광학필름 제품은...65인치 이상의 대형 LCD 제조에 주로 사용됩니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "시장에선 디스플레이 업계의 핵심 경쟁력으로 기술 선도력을 통한 신제품 및 프리미엄제품 개발을 꼽습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5119,
+    "completion_tokens": 3659,
+    "reasoning_tokens": 2688,
+    "output_tokens": 971
+  },
+  "warnings": []
+}

@@ -1,0 +1,76 @@
+{
+  "stock_code": "317690",
+  "corp_name": "퀀타매트릭스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 16:19",
+  "meta": {
+    "wics": "생명과학도구및서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "퀀타매트릭스는 체외진단(IVD) 의료기기를 개발·생산·판매하는 기업으로, 주로 미생물 진단과 분자면역진단 기술을 바탕으로 상급종합병원 및 검사수탁기관을 대상으로 사업을 영위하고 있습니다. 신속 항균제 감수성 검사(dRAST)와 알츠플러스 등 진단 플랫폼 파이프라인을 보유하고 있습니다.",
+    "business_model": "당사는 미생물진단(신속 항균제 감수성 검사)과 분자면역진단(다중 진단 플랫폼 기반 키트) 중심의 제품을 개발하여 장비와 키트를 병원·검사기관에 공급하는 구조입니다. 사업부문별 영업수익 구성은 대리점 매출이 100.0%로 집계되어 있으며(유통은 대리점 채널을 통해 이루어집니다).",
+    "main_customers": "미생물진단 — 국내외 상급종합병원·검사수탁기관 / 분자면역진단 — 국내외 상급종합병원·검사수탁기관 / 대리점(유통채널) — 대리점",
+    "price_factors": [
+      {
+        "factor": "패혈증 수요",
+        "detail": "전세계 패혈증 발생 증가로 신속 패혈증·항균제 감수성 검사 수요가 확대되어 실적에 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "항균제 내성",
+        "detail": "항균제 내성 문제와 빠른 진단 필요성 증가는 dRAST와 같은 신속 검사 제품의 수요에 긍정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "경쟁 구도",
+        "detail": "신속 항균제 감수성 검사 분야에서 미국 Accelerate Diagnostics사(Pheno) 등과의 경쟁이 실적과 기술 우위에 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "인허가 규제",
+        "detail": "체외진단 의료기기는 식약처 등 인허가 및 건강보험·신의료기술평가 절차를 거쳐야 해 규제 진행 상황이 사업화 속도에 영향을 줍니다."
+      },
+      {
+        "factor": "환율 리스크",
+        "detail": "유로화 등 외화 수익 비중 확대 시 환율 변동이 매출·이익에 직접적인 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "체외진단(In Vitro Diagnostics, IVD) 의료기기를"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "국내외 상급종합병원 및 검사수탁기관을 대상으로"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "신속 항균제 감수성 검사 시스템을 제공하며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "대리점 (100.0%)"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "미국의 Accelerate Diagnostics사의 Pheno 제품이 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4644,
+    "completion_tokens": 4057,
+    "reasoning_tokens": 3200,
+    "output_tokens": 857
+  },
+  "warnings": []
+}

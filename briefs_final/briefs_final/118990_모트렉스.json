@@ -1,0 +1,68 @@
+{
+  "stock_code": "118990",
+  "corp_name": "모트렉스",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:18",
+  "meta": {
+    "wics": "자동차부품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "모트렉스는 자동차 전장(차량용 전자장치) 분야에서 IVI(차량 인포테인먼트 시스템)와 각종 전장용품을 개발·생산하는 기업입니다. 디스플레이 기술을 바탕으로 차량용 편의장치, 카메라 시스템, 전기차(EV) 및 목적기반 모빌리티(PBV) 솔루션으로 사업 영역을 넓혀 왔습니다.",
+    "business_model": "연결기준 매출에서 제품이 543,682백만원으로 가장 큰 비중을 차지하고, 상품 132,872백만원, 부품및정비 14,509백만원, 기타 11,210백만원으로 구성됩니다. 회사는 Automotive HMI(인간-기계 인터페이스)와 IVI 개발 역량을 바탕으로 차량 내 멀티미디어, 디지털 클러스터, HMI 디스플레이를 공급하고 있으며, PIO(출고 전 장착) 또는 DIO(출고 후 장착) 방식으로 글로벌 완성차 시장에 대응합니다. 또한 전기차(EV)와 PBV(목적기반 모빌리티) 솔루션, 카메라 시스템, 공기청정기·무선충전·EV 충전기 같은 편의/EV 제품으로 포트폴리오를 확장하고 있습니다.",
+    "main_customers": "전장사업부 — 완성차 업체, 글로벌 고객 / Display Solution — 글로벌 완성차 업체 및 차량 이용자 / Vision Solution — 완성차 업체 / Convenience/EV Solution — 완성차 업체, 차량 탑승자",
+    "price_factors": [
+      {
+        "factor": "완성차 수요",
+        "detail": "주력 제품이 완성차 업체에 공급되는 구조라 자동차 판매와 생산 흐름이 실적에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "환율변동",
+        "detail": "해외 법인과 글로벌 공급 비중이 있어 급격한 환율 변동은 수익성과 원가 부담에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "기술경쟁",
+        "detail": "IVI, OTA(무선 업데이트), 사이버 보안 등 전장 기술 경쟁이 심해질수록 제품 경쟁력과 수주 환경이 중요해집니다."
+      },
+      {
+        "factor": "전장확대",
+        "detail": "디스플레이를 넘어 카메라, EV, PBV로 사업 영역이 넓어질수록 성장 기회와 제품군 다변화가 실적에 영향을 줍니다."
+      },
+      {
+        "factor": "품질인증",
+        "detail": "ISO, IATF, A-SPICE 같은 품질·개발 표준 대응 역량이 고객 선정과 양산 안정성에 중요한 변수로 작용합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 전장사업부 1. 사업의 특성",
+        "evidence_text": "당사는 Automotive HMI (Human-Machine Interface) 개발 능력을 기반으로 최첨단 In Vehicle Infotainment(이하 \"IVI\") 제품 및 각종 전장용품을 개발하여 생산하고 있으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "표 가. 연결기준 매출1) 매출실적",
+        "evidence_text": "제품 | 543,682"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 전장사업부 1. 사업의 특성",
+        "evidence_text": "제품은 완성차 업체로부터 업체 선정된 후"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4160,
+    "completion_tokens": 862,
+    "reasoning_tokens": 0,
+    "output_tokens": 862
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

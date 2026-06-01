@@ -1,0 +1,74 @@
+{
+  "stock_code": "079980",
+  "corp_name": "휴비스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 06:02",
+  "meta": {
+    "wics": "섬유,의류,신발,호화품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "휴비스는 폴리에스터 섬유제조와 서비스(경영컨설팅 등)를 영위하는 화학·섬유 기업입니다. 폴리에스터 단섬유(SF) 분야에서 국내 시장지배력이 강하여 산업 내 주요 플레이어로 자리잡고 있습니다.",
+    "business_model": "핵심 사업은 폴리에스터 섬유제조로, 폴리에스터 단섬유(SF)와 장섬유(FY), PET용 칩(CHIP) 등 원재료와 완제품을 생산·공급하는 제조 중심 구조입니다. 서비스부문에서는 경영컨설팅·유틸리티·임대 등 부가적 서비스를 제공하며, 회사는 고부가·친환경 스페셜티(냉감소재, 화학적 재활용 CR-PET, 바이오 기반 폴리에스터 등) 중심으로 제품 포트폴리오 전환을 추진하고 있습니다.",
+    "main_customers": "폴리에스터 — 자동차용 내장재 제조사 / 폴리에스터 — 가구·침구(매트리스·침장) 제조사 / 폴리에스터 — 위생재(기저귀·생리대)·필터·완충재 제조사 / PET CHIP — 병(유통용) 및 필름 제조사 / 서비스 — 기업·법인 대상 경영컨설팅 및 설비·임대 이용 고객",
+    "price_factors": [
+      {
+        "factor": "중국 경쟁",
+        "detail": "중국 업체의 대규모 진입으로 범용 제품 수요가 정체되면 범용 제품의 수익성과 가격에 하방 압력이 발생할 수 있습니다."
+      },
+      {
+        "factor": "제품 차별화",
+        "detail": "LM, Conjugate, Hygiene bico 등 차별화·고부가 제품 비중 확대는 경쟁력과 마진 개선에 직접적 영향을 줍니다."
+      },
+      {
+        "factor": "원재료(석유화학)",
+        "detail": "폴리에스터의 주요 원료인 TPA·EG가 석유화학 제품인 만큼 원가(원자재) 변동이 실적에 영향을 미칩니다."
+      },
+      {
+        "factor": "환경규제·재활용",
+        "detail": "화학적 재활용·바이오 기반 소재 등 친환경 기술 보유는 규제 강화 시 수요 확대와 기업 입지 강화로 연결될 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 회사의 현황 (1). 영업개황 및 사업부문의 구분",
+        "evidence_text": "당사가 영위하는 사업의 영업부문은 폴리에스터 섬유제조, 서비스 부문으로 구성됩니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. 회사의 현황 (1). 영업개황 및 사업부문의 구분",
+        "evidence_text": "폴리에스터 섬유제조 부문은 폴리에스터 단섬유, 장섬유를 생산하여 공급하고 있으며 서비스부문은 서비스를 제공하거나 경영컨설팅 용역을 제공하고 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "다. 업계의 현황 및 전망(1). 산업의 개요 및 분류",
+        "evidence_text": "용도적인 측면에서 보면 장섬유와 달리 의류용보다는 비의류용 (자동차, 가구 침장용 등) 비중이 높습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 회사의 현황 (2) 시장점유율",
+        "evidence_text": "당사 시장점유율은 약 66%를 차지하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 회사의 현황 (3). 신규사업 등의 내용 및 전망",
+        "evidence_text": "당사는 폐폴리에스터 제품에서 확보한 원료를 해중합하여 재사용이 가능한 원료로 변환하는 화학적 재활용 기술을 확보하였습니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 5568,
+    "completion_tokens": 3989,
+    "reasoning_tokens": 3008,
+    "output_tokens": 981
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

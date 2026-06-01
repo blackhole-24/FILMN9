@@ -1,0 +1,76 @@
+{
+  "stock_code": "281740",
+  "corp_name": "레이크머티리얼즈",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 14:54",
+  "meta": {
+    "wics": "화학",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "레이크머티리얼즈는 2010년 LED용 전구체 국산화를 목표로 설립된 유기금속화합물 전문 기업으로, 반도체·Solar·LED·디스플레이·메탈로센촉매 등 초고순도 유기금속 화합물을 설계·개발·공급합니다. 국내 최초로 TMA를 개발하여 국산화한 기술력을 보유하고 있습니다.",
+    "business_model": "주요 수익원은 반도체·Solar·LED·촉매용 전구체(Precursor) 공급으로, FY2025 기준 반도체 소재 55.0%, Solar 소재 31.1%, LED 소재 5.4%, 석유화학촉매 8.0%, 기타 0.6%의 매출 비중을 보입니다. 설계·합성·정제의 일괄 생산 공정을 기반으로 초고순도 제품을 글로벌 고객과 공동개발하여 공급하는 것이 핵심 역량입니다.",
+    "main_customers": "반도체 소재 — 국내외 반도체 소자업체 (국내 주요 반도체사 및 대만·중국 등) / Solar 소재 — 국내 태양광 업체 / LED 소재 — LED 제조업체 / 석유화학촉매 — 석유화학 업체",
+    "price_factors": [
+      {
+        "factor": "진입장벽",
+        "detail": "전구체 시장은 기술·정제 난이도가 높아 신규 진입이 어려워, 기존 공급사 지위가 실적의 안정성에 영향을 줍니다."
+      },
+      {
+        "factor": "전방수요",
+        "detail": "반도체·디스플레이·LED·태양광 등 전방 산업 수요 변동이 매출·가동률에 직접적 영향을 미칩니다."
+      },
+      {
+        "factor": "고객관계",
+        "detail": "반도체 소자업체와의 긴밀한 협력이 필요해 고객사 공정 변화나 거래 조건이 실적에 민감하게 작용합니다."
+      },
+      {
+        "factor": "환율",
+        "detail": "글로벌 영업으로 USD·TWD·CNY 등 환율 변동에 노출되어 있어 환율 변동이 실적에 영향합니다."
+      },
+      {
+        "factor": "공급과잉",
+        "detail": "Solar 시장의 글로벌 공급과잉 및 성장 둔화는 Solar 부문 매출·가동률에 하방 압력을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "초고순도 유기금속 화합물을 개발 및 공급하는 유기금속 화합물 전문 회사 입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "반도체 소재: 64,737 (55.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "반도체 소재 부분의 첫 시작은 당사의 TMA를 국내 반도체업체에 공급하면서 시작되었습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "전구체(Precursor) 시장은 진입장벽이 높으며, 진입 성공 시 안정적 매출 발생"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "환율변동 위험에 노출되어 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5401,
+    "completion_tokens": 4289,
+    "reasoning_tokens": 3392,
+    "output_tokens": 897
+  },
+  "warnings": []
+}

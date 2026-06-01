@@ -1,0 +1,67 @@
+{
+  "stock_code": "225570",
+  "corp_name": "넥슨게임즈",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 12:49",
+  "meta": {
+    "wics": "게임엔터테인먼트",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "넥슨게임즈는 2013년 5월 6일 설립된 게임 개발사로, 온라인 및 모바일 게임 소프트웨어 개발을 주요 사업으로 영위합니다. 주요 타이틀로는 모바일 V4, Blue Archive, HIT2와 온라인·콘솔 게임 서든어택, 퍼스트 디센던트 등이 있으며, 2022년 넥슨지티(주)와 합병했습니다.",
+    "business_model": "연결기준으로 대부분의 수익은 게임사업에서 발생하며 FY2025 사업부문별 영업수익 구성은 게임부문 46.7%, 게임매출 51.6%, 기타매출 1.7%입니다. 비게임(임대) 매출은 약 50억원으로 총매출의 약 2.8% 수준으로 미미한 편이며, 개발한 게임을 퍼블리셔(유통사)를 통해 국내·해외에 서비스하는 퍼블리싱 구조가 핵심 수익 모델입니다.",
+    "main_customers": "게임부문 — 퍼블리셔(유통사) 및 국내·해외 이용자 / 임대사업부문 — 관계회사(임대수입)",
+    "price_factors": [
+      {
+        "factor": "IP 경쟁력",
+        "detail": "강한 IP(지적재산권)는 캐릭터·스토리 기반의 부가수익(굿즈·2차저작 등) 및 해외 수출 확대로 실적에 긍정적 영향을 줍니다."
+      },
+      {
+        "factor": "멀티플랫폼",
+        "detail": "모바일·PC·콘솔 등 플랫폼 확장은 이용자 풀과 매출 채널을 넓혀 실적 변동성에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "퍼블리셔",
+        "detail": "지역별 퍼블리셔와의 협력(예: 넥슨코리아, Yostar 등)이 서비스 지역 확장과 매출 실현에 영향을 줍니다."
+      },
+      {
+        "factor": "운영역량",
+        "detail": "장수 온라인게임(예: 서든어택)처럼 안정적 운영과 콘텐츠 유지 능력은 매출 지속성에 중요한 요인입니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 > 게임사업부문",
+        "evidence_text": "당사는 2013년 5월 6일에 설립되었으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "게임부문: 81,378,279 (46.7%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 > 게임사업부문",
+        "evidence_text": "퍼블리셔를 통해 당사의 게임을 국내 및 해외에 서비스하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "비게임사업부문(임대사업)의 매출액은 약 50억원"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5461,
+    "completion_tokens": 4977,
+    "reasoning_tokens": 4224,
+    "output_tokens": 753
+  },
+  "warnings": []
+}

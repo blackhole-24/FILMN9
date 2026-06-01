@@ -1,0 +1,62 @@
+{
+  "stock_code": "018120",
+  "corp_name": "진로발효",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 22:14",
+  "meta": {
+    "wics": "음료",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "진로발효는 주정(주류 원료)의 생산·판매를 주력으로 하는 기업으로, 크린콜 제조 및 바이오가스발전 판매도 병행하고 있습니다. 2025년 매출에서 주정이 86.0%를 차지하며, 주 생산품인 주정은 전년과 유사한 16.5%의 국내 시장점유율을 유지했습니다.",
+    "business_model": "핵심 수익원은 주정사업(85,654 / 86.0%)이며 기타(크린콜·바이오가스발전 등)가 14.0%를 차지합니다. 매출채권은 60일 어음으로 운영되며 판매처 안정화로 부실채권이 없다고 보고하고 있습니다.",
+    "main_customers": "주정사업 — 소주 제조업체(원료 구매) / 기타 — 크린콜·바이오가스발전 관련 수요처",
+    "price_factors": [
+      {
+        "factor": "소주수요",
+        "detail": "소주 신제품 출시, 계절적 수요 및 주류문화 변화에 따라 주정 판매량이 크게 변동해 실적에 직접적 영향이 발생합니다."
+      },
+      {
+        "factor": "규제·면허",
+        "detail": "주정제조는 국세청 면허제에 의해 운영되어 제조면허·주세 규제와 배정량이 생산량과 공급에 영향을 미칩니다."
+      },
+      {
+        "factor": "원료수급",
+        "detail": "보리·고구마 등 국내 원료의 계약재배와 수입 원료 조달 여건 변화가 원가와 생산에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "산업경쟁",
+        "detail": "초기 설비 투자비가 높아 신규진입은 제한적이나 품질·생산성·원가 경쟁에 따른 시장점유율 변동 위험이 존재합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "2. 회사의 현황 > 1) 영업개황 > 가) 영업개황",
+        "evidence_text": "당사는 주정의 생산 및 판매를 주로 영위하고 있으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "주정사업: 85,654 (86.0%) / 기타: 14,129 (14.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "1. 업계의 현황 > 2) 산업의 성장성",
+        "evidence_text": "주정제품의 주용도는 80 ~ 90% 정도가 소주의 원료로 이용되고"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3142,
+    "completion_tokens": 3808,
+    "reasoning_tokens": 3136,
+    "output_tokens": 672
+  },
+  "warnings": []
+}

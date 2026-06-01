@@ -1,0 +1,67 @@
+{
+  "stock_code": "462520",
+  "corp_name": "조선내화",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 20:23",
+  "meta": {
+    "wics": "비철금속",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "조선내화는 내화물 생산과 기술개발을 기반으로 성장한 국내 종합 내화물 제조업체로, 중화학공업의 발전과 함께 성장해 왔습니다. 내화물은 제철·제강 등 고온 공정에 필수적인 기간자재입니다.",
+    "business_model": "주요 수익원은 내화물제조업으로, 제품군별로 정형(31.4%), 부정형(49.2%), 기타(3.2%)가 있어 내화물제조업 합계가 83.7%를 차지하며, 상품 매출이 17.1%를 차지합니다(사업부문별 매출 구성표 기준).",
+    "main_customers": "내화물제조업 — 제철·제강 등 중화학공업 / 상품 — 구동장치 등 기계·장치 관련 고객",
+    "price_factors": [
+      {
+        "factor": "철강경기",
+        "detail": "제철·제강 수요 의존도가 높아 국내외 철강경기 변동이 실적에 직접적 영향을 미칩니다."
+      },
+      {
+        "factor": "중국 경쟁",
+        "detail": "중국의 저가 제품 확대와 현지공장 가동으로 가격경쟁이 심화되어 수익성에 압박을 줄 수 있습니다."
+      },
+      {
+        "factor": "원료수급",
+        "detail": "각종 원료를 중국에서 대부분 수입하므로 중국 측 공급 불안이나 가격상승이 원가에 영향을 줍니다."
+      },
+      {
+        "factor": "환경규제",
+        "detail": "저탄소·재활용 요구와 환경규제 강화로 친환경 제품 개발 및 재활용 기술이 실적에 영향을 미칠 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "국내 제일의 종합내화물 제조 업체입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "166,806(31.4%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "나. 사업부문별 현황",
+        "evidence_text": "특히 제철, 제강에 대한 비중이 70%이상"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "각종 내화물 원료는 중국에서 대부분을 수입하여 사용하고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4679,
+    "completion_tokens": 4604,
+    "reasoning_tokens": 3968,
+    "output_tokens": 636
+  },
+  "warnings": []
+}

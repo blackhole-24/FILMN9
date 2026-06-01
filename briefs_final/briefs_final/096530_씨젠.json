@@ -1,0 +1,72 @@
+{
+  "stock_code": "096530",
+  "corp_name": "씨젠",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 07:38",
+  "meta": {
+    "wics": "생명과학도구및서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "씨젠은 2000년 9월 설립되어 DNA·RNA 분석을 통해 질환 원인을 검출하는 분자진단(Molecular Diagnostics) 사업을 주력으로 하는 기업입니다. 전 세계 100여 개 국가에 대리점을 운영하고 현지 법인과 지점을 보유하는 등 글로벌 판매망을 확대한 기업으로, 2025년 기준 매출의 93%가 수출입니다.",
+    "business_model": "매출은 제품매출(진단 시약)과 기타매출(상품·용역)으로 구성되며, FY2025 기준 제품매출이 95.0%, 기타매출이 5.0%를 차지합니다. 제품은 병원·검사기관에 판매되며, 진단장비를 재가공해 판매하는 상품매출과 기술공유 및 자동화 시스템(SG OneSystem™) 구축 등으로 수익을 창출합니다.",
+    "main_customers": "제품매출 — 병원·검사기관 / 상품매출·기타매출 — 국내외 협력 대리점 및 해외 법인",
+    "price_factors": [
+      {
+        "factor": "인허가 규제",
+        "detail": "유럽 CE‑IVDR 등 각국의 강화되는 인허가 기준이 제품의 시장 진입 시점과 매출에 직접적인 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "수출 의존도",
+        "detail": "2025년 기준 수출 비중이 93%로 높은 만큼 글로벌 수요 변동이나 해외 규제·무역환경 변화에 실적이 민감합니다."
+      },
+      {
+        "factor": "계절성",
+        "detail": "일부 호흡기·인플루엔자 검사 제품은 계절적 수요 증가가 있으나 전반적으로는 비교적 균등한 수요 구조입니다."
+      },
+      {
+        "factor": "기술 경쟁력",
+        "detail": "하이 멀티플렉스 PCR과 다수의 특허 등 기술 우위는 진입장벽으로 작용해 경쟁 및 가격 압력에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "분자진단(Molecular Diagnostics)을 핵심 사업으로 하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "제품매출: 374,185,940 (95.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "진단 시약을 병원과 검사기관에 판매하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사 매출은 진단 시약을 제조/판매하는 제품 매출"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "2025년 기준 총 매출액 중 수출 비중은 93%를 차지하고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4563,
+    "completion_tokens": 3216,
+    "reasoning_tokens": 2432,
+    "output_tokens": 784
+  },
+  "warnings": []
+}

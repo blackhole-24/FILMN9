@@ -1,0 +1,66 @@
+{
+  "stock_code": "298040",
+  "corp_name": "효성중공업",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 15:31",
+  "meta": {
+    "wics": "전기장비",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "효성중공업은 중공업(전력기기·회전기기 등)과 건설(주택·일반건축·토목)을 중심으로 사업을 영위하는 전기장비 및 건설업체입니다. 전력기기 분야에서 초고압 변압기·차단기 등 핵심 설비를 생산·공급하며 국내 경험을 바탕으로 글로벌 시장에도 진출해 있습니다.",
+    "business_model": "주요 수익원은 중공업 부문(전력PU·기전PU 등 전력기자재 및 산업설비)과 건설 부문(자체주택·도급공사 등)으로 구성되며, FY2025 기준 산업용(중공업) 매출 비중은 69.5%(매출 4조1,493억원)로 높은 비중을 차지합니다. 건설 부문은 주택사업과 도급공사를 통해 안정적 현장 수주 및 개발수익을 창출합니다.",
+    "main_customers": "중공업 — 국가 전력계통·공공시설 및 산업시설 / 건설 — 자체주택의 주택 수요자(자체공사)·발주처(도급공사: 정부·기업)",
+    "price_factors": [
+      {
+        "factor": "정책 의존성",
+        "detail": "전력 인프라는 정부 정책·전력수급 계획에 따라 투자가 결정되어 정책 변화가 실적에 직접적 영향을 미칩니다."
+      },
+      {
+        "factor": "노후 교체 수요",
+        "detail": "노후 설비 교체 및 유지보수 위주의 수요 구조는 안정적 매출 기반이지만 교체 시기 지연 시 실적 변동을 초래할 수 있습니다."
+      },
+      {
+        "factor": "원자재·공급망",
+        "detail": "원자재 가격 상승과 글로벌 공급망 재편, 보호무역주의 심화는 수출·원가에 부정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "신규시장 수요",
+        "detail": "데이터센터·풍력·수소·ESS 등 친환경·전기화 관련 신규 수요 증가는 중공업부문 매출 확대에 우호적입니다."
+      },
+      {
+        "factor": "건설 경기·금융",
+        "detail": "건설 부문은 원가 상승·금융 여건·국내 건설 경기 둔화에 민감하여 수주와 수익성에 영향을 받습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "2개의 사업부문(중공업, 건설)을 중심"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "산업용: 4,149,258 (69.5%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "산업의 특성",
+        "evidence_text": "국가의 전력계통망 구축 및 SOC 사업에 공급되는 제품"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5439,
+    "completion_tokens": 4462,
+    "reasoning_tokens": 3712,
+    "output_tokens": 750
+  },
+  "warnings": []
+}

@@ -1,0 +1,67 @@
+{
+  "stock_code": "089470",
+  "corp_name": "HDC현대EP",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 06:51",
+  "meta": {
+    "wics": "자동차부품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "HDC현대EP는 자동차·전기·전자·건설자재 및 소비재용 플라스틱 소재를 생산·공급하는 화학업체로, PO·PS·건자재 3개 부문으로 사업을 운영합니다. 제26기 연결기준 매출액은 992,662백만원으로 국내외 고객에 제품을 공급하고 있습니다.",
+    "business_model": "주요 사업은 PO부문(복합PP/PE 컴파운드), PS부문(PS·GPPS·EPS 등 범용플라스틱) 및 건자재부문(배관 등)으로 구성되며, 제26기 매출 구성은 PO부문 66%, PS부문 31%, 건자재부문 3%입니다. 제품은 자동차·전기·전자 산업 및 건설 분야의 B to B(기업 간 거래) 수요에 공급되며, 원료(석유화학 제품) 가격과 전방 산업 경기 변화가 수익성에 직접 영향을 줍니다.",
+    "main_customers": "PO부문 — 자동차·전기·전자 부품 제조사 / PS부문 — 전기·전자·가전 제조사 및 건설 관련 업체 / 건자재부문 — 건설업체·배관·난방 설비 관련 업체",
+    "price_factors": [
+      {
+        "factor": "원재료 가격",
+        "detail": "석유화학 원료(SM·PP·PE 등) 가격 변동이 제품 단가와 이익률에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "전방 산업 경기",
+        "detail": "자동차·전기·전자 산업의 수요 변동은 PO·PS 제품 출하와 매출에 직결됩니다."
+      },
+      {
+        "factor": "친환경 규제",
+        "detail": "탄소중립 및 일회용 플라스틱 규제 강화는 친환경·재활용 소재 수요를 변화시켜 사업 기회 및 비용 구조에 영향 줍니다."
+      },
+      {
+        "factor": "글로벌 교역 환경",
+        "detail": "수출 비중(제26기 수출 44%)이 높아 관세·무역정책과 지정학 리스크가 매출·이익에 영향을 미칠 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "3개 부문으로 나누어 사업을 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "PO부문 66%, PS부문 31%, 건자재부문 3%"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 사업부문별 현황 (1) PO부문",
+        "evidence_text": "자동차, 전기ㆍ전자를 중심으로"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "당사 제품 가격은 석유화학원료 시장 및 전방산업인 자동차, 전기/전자 산업 경기에 직접적인 영향을 받고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5202,
+    "completion_tokens": 3866,
+    "reasoning_tokens": 3072,
+    "output_tokens": 794
+  },
+  "warnings": []
+}

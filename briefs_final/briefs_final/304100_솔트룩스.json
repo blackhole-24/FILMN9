@@ -1,0 +1,67 @@
+{
+  "stock_code": "304100",
+  "corp_name": "솔트룩스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 15:44",
+  "meta": {
+    "wics": "IT서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "솔트룩스는 2000년 시스메타에서 출발해 기계학습과 자연어처리 기반의 AI·빅데이터 기술을 축적해 온 국내 대표 인공지능 전문기업입니다. '루시아(LUXIA)' 등 자체 AI 플랫폼을 중심으로 공공·제조·금융·국방 등 산업 전반의 AI 전환을 지원하고 있습니다.",
+    "business_model": "주요 수익원은 용역·서비스(시스템 통합·프로젝트형 서비스 등)와 소프트웨어 라이선스(루시아 기반 AI Suite, Big Data Suite), 그리고 상품매출로 구성되며, 2025년 기준 매출 비중은 용역 및 서비스 약 90.1%, 라이선스 약 8.0%, 상품매출 약 1.9%입니다. 라이선스는 AI·빅데이터 솔루션 판매, 용역·서비스는 고객 맞춤형 구축·운영 서비스가 핵심 수익원입니다.",
+    "main_customers": "라이선스 — 국내 기업·기관 / 용역 및 서비스 — 공공기관, 제조업·금융사·국방 등 기업 및 기관 / 상품매출 — 소프트웨어 관련 제품 구매 고객",
+    "price_factors": [
+      {
+        "factor": "인프라비용",
+        "detail": "GPU·클라우드 비용 증가 시 고객의 AI 예산 집행이 보수화되어 용역·서비스 수요와 마진에 압박을 줄 수 있습니다."
+      },
+      {
+        "factor": "빅테크 경쟁",
+        "detail": "OpenAI·구글 등 파운데이션 모델 주도 기업들과의 경쟁 심화는 기술 우위 확보와 가격 경쟁에 영향을 미칩니다."
+      },
+      {
+        "factor": "데이터 품질",
+        "detail": "학습 데이터의 품질·편향 문제가 제품 신뢰도에 직결되어 도입 확산과 고객 신뢰에 영향을 줍니다."
+      },
+      {
+        "factor": "규제·윤리",
+        "detail": "생성형 AI 관련 윤리·법적 이슈 발생 시 서비스 제공 방식과 비용 구조에 변화가 생길 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "2000년에 창업된 ㈜시스메타에 그 뿌리를 두고 있으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[표] 가. 매출실적",
+        "evidence_text": "라이선스 매출 국내 3,217,428"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[표] 가. 매출실적",
+        "evidence_text": "용역 및 서비스 매출 소계 36,469,275"
+      },
+      {
+        "field": "business_model",
+        "source_section": "거대언어모델 (LUXIA, 루시아)",
+        "evidence_text": "루시아 3.0 LLM (32B): 2025년 5월 29일 출시"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 6292,
+    "completion_tokens": 3807,
+    "reasoning_tokens": 3072,
+    "output_tokens": 735
+  },
+  "warnings": []
+}

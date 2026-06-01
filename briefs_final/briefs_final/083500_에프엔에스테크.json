@@ -1,0 +1,72 @@
+{
+  "stock_code": "083500",
+  "corp_name": "에프엔에스테크",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 06:20",
+  "meta": {
+    "wics": "디스플레이장비및부품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "에프엔에스테크는 디스플레이용 장비 및 부품·소재를 제작·공급하는 기업으로, 디스플레이 장비 제조와 부품소재 공급을 핵심 사업으로 합니다. 당사는 장비제조와 부품소재의 2개 영업단위를 운영하며, 2025년 연결기준 매출은 734억원을 기록했습니다.",
+    "business_model": "사업부문별로 장비제조가 매출의 52.7%, 부품소재가 47.3%를 차지하며(주문자생산방식으로 고객 맞춤형 장비·부품을 공급), 디스플레이 패널 투자와 자동화(스마트팩토리) 수요가 주요 수익 요인입니다.",
+    "main_customers": "장비제조 — 패널 제조기업(국내 Major 및 중국 Local 패널 업체) / 부품소재 — 전방 디스플레이·전자기기 제조업체(PC·스마트폰·TV 등)",
+    "price_factors": [
+      {
+        "factor": "전방투자",
+        "detail": "전방 디스플레이산업의 설비 투자 지연은 매출 감소로 이어져 실적에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "OLED수요",
+        "detail": "OLED 패널 수요 확대는 장비·부품에 대한 주문 증가로 연결되며 수혜 요인이 될 수 있습니다."
+      },
+      {
+        "factor": "기술경쟁력",
+        "detail": "증착·봉지 등 핵심 공정 기술과 지적재산권 확보 여부가 시장진입과 경쟁력에 큰 영향을 미칩니다."
+      },
+      {
+        "factor": "스마트화수요",
+        "detail": "스마트팩토리(디지털화·자동화) 확산은 자동화 장비 수요를 증가시켜 매출 구조에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 사업의 내용[장비제조]",
+        "evidence_text": "당사는 장치 및 부품ㆍ소재를 공급하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "장비제조: 38,839,268 (52.7%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "나. 산업분석",
+        "evidence_text": "패널 업체에서 생산된 OLED 모듈은 PC, 스마트폰, TV 등의 전방산업 업체에 공급되며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "전방 디스플레이산업 투자 지연으로 매출 감소하였으나,"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나. 산업분석 > 1. 산업의 특성",
+        "evidence_text": "기술개발과 지적재산권을 통한 보호가 필수적인"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4949,
+    "completion_tokens": 4726,
+    "reasoning_tokens": 3968,
+    "output_tokens": 758
+  },
+  "warnings": []
+}

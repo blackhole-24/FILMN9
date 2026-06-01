@@ -1,0 +1,66 @@
+{
+  "stock_code": "018680",
+  "corp_name": "서울제약",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 09:51",
+  "meta": {
+    "wics": "제약",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "서울제약은 제약업을 영위하는 코스닥 상장사로, 2025년 매출액은 52,149백만원입니다. 주요 품목으로는 알티민정, 팬스타정, 서울파모티딘정 등이 있으며, 오송에 cGMP(우수의약품제조및품질관리기준) 수준의 공장을 준공해 선진시장 진출을 준비하고 있습니다.",
+    "business_model": "사업부문별 영업수익 구성에서 기 타가 81.0%로 가장 큰 비중을 차지하고, 아토르정 5.8%, 펜디진정 2.9%, 크레스틴정 2.9%, 액사티드캡슐 2.7%, 웰트민정 1.6%가 나머지를 이룹니다. 회사는 특수 제형과 약물 전달기술 개발에 주력하고 있으며, ODF(구강 붕해 필름) 생산을 위한 SmartFilm® Technology를 확보해 연구개발중심기업 및 기술수출 회사로 성장하겠다는 방향을 제시하고 있습니다.",
+    "main_customers": "완제의약품 — 국내 의약품 수요처 및 유통시장 / ODF 및 특수제형 — 선진시장 진출을 목표로 한 해외 시장 / 수탁·내수·수출 매출 — 국내외 거래처 및 판매대금 회수 대상",
+    "price_factors": [
+      {
+        "factor": "고령화",
+        "detail": "고령화로 만성질환 치료제 수요가 늘어날수록 국내 의약품 시장 확대가 이어져 제약업 실적에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "수출증가",
+        "detail": "의약품 수출실적이 크게 늘면 산업 전반의 생산과 무역수지 개선 기대가 커져 업황에 긍정적으로 작용합니다."
+      },
+      {
+        "factor": "규제환경",
+        "detail": "약사법과 식약처 규제가 생산·유통 전반에 적용되어, 제약사의 영업과 설비 투자 부담에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "R&D투자",
+        "detail": "제약산업은 R&D(연구개발) 비중이 높은 기술집약적 산업이라 신약·개량신약 개발 성과가 경쟁력에 중요합니다."
+      },
+      {
+        "factor": "제형기술",
+        "detail": "ODF와 같은 특수 제형 기술 확보 여부가 제품 차별화와 기술수출 가능성에 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "당사의 2025년 매출액은 52,149백만원이며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "기 타: 42,218 (81.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "구강 붕해 필름(Orally Disintegrating Film: ODF)"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4936,
+    "completion_tokens": 792,
+    "reasoning_tokens": 0,
+    "output_tokens": 792
+  },
+  "warnings": []
+}

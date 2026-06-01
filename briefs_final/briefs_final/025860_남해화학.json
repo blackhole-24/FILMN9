@@ -1,0 +1,67 @@
+{
+  "stock_code": "025860",
+  "corp_name": "남해화학",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 23:09",
+  "meta": {
+    "wics": "화학",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "남해화학은 비료·화학제품·유류 유통을 주요 사업으로 하는 기업으로, 내수 비료 시장에서 높은 점유율을 확보하고 있습니다. 2025년 기준 내수비료 시장 점유율은 42.5%로 보고되었습니다.",
+    "business_model": "사업부문별로 복합비료 38.4%, 제품 18.8%, 비료화학사업 3.9%, 황산 0.8%, 기타 2.8%, 유류사업 35.3%의 매출 비중을 보이고 있습니다. 내수는 농협경제지주와의 연간 입찰계약(가격 결정 방식)을 통한 판매가 주요 루트이며, 수출은 종합상사를 통해 현지 수입업체에 판매하는 구조입니다.",
+    "main_customers": "비료(내수) — 농협경제지주(연간 입찰 계약) / 비료(수출) — 태국·베트남·필리핀 등 현지 수입업체(종합상사 경유) / 화학제품 — 국내외 화학회사(중간원료 구매) / 유류사업 — 농협주유소·일반주유소",
+    "price_factors": [
+      {
+        "factor": "원재료 의존도",
+        "detail": "원재료를 해외에서 전량 수입하기 때문에 원가 변동(수익성)에 직접적인 영향이 큽니다."
+      },
+      {
+        "factor": "환율(USD)",
+        "detail": "원·달러 환율 변동은 원재료 수입과 수출 매출의 환산에 영향을 주어 실적 변동성을 키웁니다."
+      },
+      {
+        "factor": "농지 감소",
+        "detail": "국내 농지면적 감소로 내수 시장 성장 한계가 있어 비종(기능성 비료)·수출 비중 확대가 실적 변수입니다."
+      },
+      {
+        "factor": "유류 마진 경쟁",
+        "detail": "유류사업은 판매량이 늘어도 시장경쟁 심화로 판매 마진이 감소하면 영업이익이 악화될 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "2025년은 전년 대비 매출액과 영업이익이 증가하였습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "복합비료: 615,267 (38.4%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "1-1 비료 화학 사업",
+        "evidence_text": "해외에는 주로 복합비료를 판매하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "3-3. 환율변동 현황",
+        "evidence_text": "원재료 수입, 제품 수출로 환위험에 노출되어있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4662,
+    "completion_tokens": 4069,
+    "reasoning_tokens": 3328,
+    "output_tokens": 741
+  },
+  "warnings": []
+}

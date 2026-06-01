@@ -1,0 +1,81 @@
+{
+  "stock_code": "060370",
+  "corp_name": "LS마린솔루션",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 03:58",
+  "meta": {
+    "wics": "건설",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "LS마린솔루션은 해저케이블과 지중케이블의 시공 및 유지보수 사업을 영위하는 연결실체입니다. 2025년 연결기준 매출은 2,442억원이며, 2025년 말 수주잔고는 8,256억원입니다.",
+    "business_model": "핵심 사업은 해저시공부문과 지중시공부문으로 구성되며, 2025년 매출은 해저시공 723억원(약 29.6%), 지중시공 1,719억원(약 70.4%)으로 집계되었습니다. FY최신 매출 구성에서 해외 매출 비중은 100.0%이며, 2024년 10월 LS빌드윈 수직계열화를 통해 해저시공과 지중시공이 결합된 턴키(일괄 입찰) 솔루션을 확보했습니다.",
+    "main_customers": "해저시공부문 — 기간통신사업자·OTT사업자·해저케이블 시스템 공급업자 / 지중시공부문 — 한국전력공사(KEPCO)·신재생에너지 개발사·대형 건설사(EPC 사업자)",
+    "price_factors": [
+      {
+        "factor": "정부정책",
+        "detail": "송배전망 구축 및 장기송변전설비 계획 등 정부 투자계획이 전력케이블 수요와 실적에 직결됩니다."
+      },
+      {
+        "factor": "해상풍력수요",
+        "detail": "해상풍력·해상그리드 확대로 해저·지중 케이블 수요가 증가해 해외·신규 프로젝트 수주에 영향합니다."
+      },
+      {
+        "factor": "턴키입찰경쟁",
+        "detail": "대형 프로젝트의 턴키(일괄 입찰) 방식 확산은 시공 역량과 원스톱 솔루션 보유 여부에 따라 수주 경쟁력을 좌우합니다."
+      },
+      {
+        "factor": "통신트래픽증가",
+        "detail": "OTT와 기간통신사업자의 해저케이블 투자 확대는 통신케이블 시공 수요 증가로 연결됩니다."
+      },
+      {
+        "factor": "환율변동",
+        "detail": "해외 매출 비중이 높아 환율 변동은 매출 원화 환산 및 현금흐름에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "연결실체의 2025년 말 수주잔고는 8,256억원입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "연결실체는 2025년에 2024년 대비 87% 증가한 2,442억원의 매출을 달성하였습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "■ 매출 구성 (FY최신)  - 해 외: 141,558 (100.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "나. 시장여건 및 영업의 개황 (1) 산업의 특성- 전력케이블",
+        "evidence_text": "전력케이블 시공 사업은 한국전력공사(KEPCO), 국내외 신재생에너지 개발사 또는 대형 건설사(EPC 사업자)가 주로 발주하고 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "나. 시장여건 및 영업의 개황 (1) 산업의 특성- 통신케이블",
+        "evidence_text": "통신케이블 시공 사업은 기본적으로 기간통신사업자(Telecommunication Carrier) 및 OTT사업자, 해저케이블시스템 공급업자(Supplier) 및 해저통신케이블 건설회사(Cable Ship Operator) 등의 세 축으로 형성됩니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나. 시장여건 및 영업의 개황 (2) 산업의 성장성- 전력케이블",
+        "evidence_text": "해저전력케이블 사업은 ... 최근에는 해상풍력 및 해상그리드 사업을 위한 해저케이블 건설사업으로 사업의 형태가 변화하고 있어 동남아는 물론 북미, 유럽 등 선진 시장으로의 진출이 가속화되고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4609,
+    "completion_tokens": 6342,
+    "reasoning_tokens": 5248,
+    "output_tokens": 1094
+  },
+  "warnings": []
+}

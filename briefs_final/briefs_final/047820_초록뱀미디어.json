@@ -1,0 +1,66 @@
+{
+  "stock_code": "047820",
+  "corp_name": "초록뱀미디어",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:01",
+  "meta": {
+    "wics": "방송과엔터테인먼트",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "초록뱀미디어는 방송프로그램 제작, 방송채널 운영, 매니지먼트, 부동산, 미디어커머스, 외식사업까지 여러 사업을 함께 운영하는 오락·문화 업종 기업입니다. 사업보고서상 드라마 제작과 채널 사업을 중심으로 하며, 2024년에는 WeLike 채널 인수를 통해 채널사업 경쟁력을 강화했다고 설명합니다.",
+    "business_model": "핵심은 방송프로그램사업과 매니지먼트사업입니다. FY2025 사업부문별 영업수익 기준으로 매니지먼트 32.4%, 방송프로그램 18.9%, 제품매출 24.3%, 외식 9.1%, 부동산 2.8%, 방송채널 0.9%, 미디어커머스 0.0%, 기타매출 0.1%로 구성되어 있습니다. 방송프로그램은 드라마를 기획·제작해 OTT(온라인 동영상 서비스), 지상파, 종편, CATV(케이블방송), 캡티브채널에 유통하고, 매니지먼트는 연결종속회사를 통해 엔터와 관련 사업을 전개하는 구조입니다.",
+    "main_customers": "방송프로그램사업부문 — 국내외 OTT, 지상파 3사, 종편, CATV, 캡티브채널 / 방송채널사업부문 — IPTV, 위성방송, 케이블방송 및 OTT 등 유료방송 사업자 / 매니지먼트사업부문 — 엔터테인먼트 관련 수요처 / 부동산사업부문 — 임대사업 이용자 / 외식사업부문 — 외식 서비스 이용 고객",
+    "price_factors": [
+      {
+        "factor": "콘텐츠 수요",
+        "detail": "드라마·예능 등 방송영상 콘텐츠 수요가 늘면 제작 및 유통 물량이 확대되어 실적에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "플랫폼 확대",
+        "detail": "OTT와 뉴미디어 플랫폼이 늘어날수록 콘텐츠 유통 경로가 넓어져 사업 기회가 커질 수 있습니다."
+      },
+      {
+        "factor": "리쿱율",
+        "detail": "제작비 회수율(리쿱율)이 높아지면 방송프로그램사업부문의 수익성이 개선될 수 있습니다."
+      },
+      {
+        "factor": "채널커버리지",
+        "detail": "유료방송 가입자 중 95% 이상이 시청 가능한 넓은 커버리지는 채널사업의 도달 범위에 영향을 줍니다."
+      },
+      {
+        "factor": "오리지널IP",
+        "detail": "자체 오리지널 콘텐츠와 IP(지식재산권) 보유는 팬덤과 재유통 가능성을 높여 사업 경쟁력에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "사업을 구분하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "■ 사업부문별 영업수익 구성 (FY2025)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "IPTV, 위성방송, 케이블방송 및 OTT(Over The Top) 등 유료방송 사업자에게 방송 프로그램을 공급하고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5472,
+    "completion_tokens": 844,
+    "reasoning_tokens": 0,
+    "output_tokens": 844
+  },
+  "warnings": []
+}

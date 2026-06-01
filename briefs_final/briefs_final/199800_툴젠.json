@@ -1,0 +1,62 @@
+{
+  "stock_code": "199800",
+  "corp_name": "툴젠",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 11:36",
+  "meta": {
+    "wics": "생물공학",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "툴젠은 유전자 교정(유전자가위) 기술을 기반으로 특허수익화와 치료제·종자 개발을 병행하는 생물공학 기업입니다. 자체적으로 ZFN, TALEN, CRISPR/Cas9 등 주요 유전자가위를 독자 개발하고 이를 사업화하는 세계적 선도기업을 목표로 하고 있습니다.",
+    "business_model": "주요 수익원은 특허수익화(License)로 FY2025 기준 매출의 80.5%를 차지하며, 기타 종자 사업이 19.5%를 차지합니다. 핵심 경쟁력은 유전자가위(유전자교정 플랫폼) 원천특허와 이를 바탕으로 한 라이선스 수익화 및 종자(육종) 관련 제품·서비스입니다.",
+    "main_customers": "특허수익화(License) — 제약사·바이오텍·연구기관 / 기타 종자 — 종자 관련 기업 및 육종 연구기관",
+    "price_factors": [
+      {
+        "factor": "시장성장",
+        "detail": "유전자 및 세포 치료제 시장의 빠른 성장에 따라 특허수익화 수요가 늘어날 수 있습니다."
+      },
+      {
+        "factor": "희귀질환",
+        "detail": "희귀유전질병 시장 확대는 유전자교정 기반 치료제 수요를 견인할 가능성이 있습니다."
+      },
+      {
+        "factor": "경쟁심화",
+        "detail": "Casgevy 등 상업화 사례로 유전자가위 기반 치료제 경쟁이 심화될 수 있습니다."
+      },
+      {
+        "factor": "파트너십",
+        "detail": "글로벌 제약사·바이오텍의 관심 확대는 라이선스 및 협력 기회를 증가시킬 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 사업의 개요",
+        "evidence_text": "“Innovate Genome! Edit your life!”"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "특허수익화 사업(License) 수입: 1,052,318 (80.5%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "나. 영업개황",
+        "evidence_text": "당사는 유전자교정 기술 개발에 있어 세계적 선도기업이며,"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4700,
+    "completion_tokens": 3858,
+    "reasoning_tokens": 3264,
+    "output_tokens": 594
+  },
+  "warnings": []
+}

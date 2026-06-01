@@ -1,0 +1,66 @@
+{
+  "stock_code": "241590",
+  "corp_name": "화승엔터프라이즈",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 13:33",
+  "meta": {
+    "wics": "섬유,의류,신발,호화품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "화승엔터프라이즈는 섬유·의류 업종에서 신발 ODM(제조자 설계·생산) 중심의 사업을 영위하는 기업으로, 매출의 대부분이 ODM부문에 집중되어 있습니다. 특히 아디다스 그룹과의 ODM 계약을 기반으로 신발 생산·공급을 하고 있습니다.",
+    "business_model": "핵심 사업은 ODM부문(신발 및 모자의류 제품)으로서 FY2025 기준 매출의 99.6%를 차지하며, 유통및기타부문이 0.4%를 차지합니다. ODM 사업은 아디다스와 상호 협의된 납품단가(원가에 일정 Profit 포함)로 공급되며, 원재료는 아디다스 그룹이 지정한 공급처에서 구매되어 수급과 품질이 관리됩니다.",
+    "main_customers": "ODM부문 — 아디다스 그룹(글로벌 스포츠 브랜드) / 유통및기타부문 — 개별 매출처(중계무역·유통 고객)",
+    "price_factors": [
+      {
+        "factor": "노동비용",
+        "detail": "노동집약적 생산구조 특성상 인건비 상승은 제품 원가·수익성에 직접적인 압박을 가합니다."
+      },
+      {
+        "factor": "글로벌집중",
+        "detail": "아디다스 등 소수 글로벌 브랜드에 대한 의존도는 협상력과 주문 규모 변화에 따라 실적 변동성을 키울 수 있습니다."
+      },
+      {
+        "factor": "원재료가",
+        "detail": "원재료 가격 상승 시 매년 아디다스와 가격 재협의가 발생하여 매출단가와 마진에 영향을 미칩니다."
+      },
+      {
+        "factor": "생산효율",
+        "detail": "자동화·생산성 향상을 통한 로스율 감소는 아디다스와 협의된 Profit 이상의 이익 창출에 기여합니다."
+      },
+      {
+        "factor": "환경규제",
+        "detail": "아디다스의 SEA 등 환경·근무환경 기준 준수는 설비·공정 개선 비용 및 운영조건에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "ODM부문: 1,558,537 (99.6%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "나. 주요제품 및 서비스",
+        "evidence_text": "ODM부문의 ODM신발 가격은 아디다스와의 ODM 계약에 따라 상호간 협의된 가격으로 판매하고 있습니다."
+      },
+      {
+        "field": "company_overview",
+        "source_section": "나. 주요제품 및 서비스",
+        "evidence_text": "현재 당사는 HS Creation Center를 운영하고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4927,
+    "completion_tokens": 3390,
+    "reasoning_tokens": 2688,
+    "output_tokens": 702
+  },
+  "warnings": []
+}

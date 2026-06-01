@@ -1,0 +1,72 @@
+{
+  "stock_code": "094170",
+  "corp_name": "동운아나텍",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 07:28",
+  "meta": {
+    "wics": "반도체와반도체장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "동운아나텍은 스마트폰 카메라용 OIS IC, 자동차 전장용 HAPTIC IC, BLDC, LIDAR용 VCSEL IC 등을 주요 사업으로 하는 시스템 반도체(아날로그 계열) 전문 개발 기업입니다. 팹리스(Fabless, 설계전문 제조위탁) 모델로 칩을 설계한 뒤 외주 생산을 통해 완제품을 고객사에 공급하고 있습니다.",
+    "business_model": "주요 사업은 AF/OIS 등 카메라 드라이버 IC와 차량용 Haptic·BDC 등 차량용 드라이버 IC, 그리고 VCSEL 드라이버 등으로 구성되며, 2025년 사업부문별 매출 비중은 OIS Driver IC 약 61.5%, AF Driver IC 약 30.2%, Display Driver IC 약 0.1%, LED 조명 Driver IC 약 1.0%, Haptic Driver IC 약 1.5%, 기타 약 5.8%입니다. 당사는 반도체 칩을 자체 설계한 뒤 파운드리(Foundry)에 위탁 생산하고, 국내외 패키징·테스트 업체를 외주로 활용해 원가 및 공급 안정성을 관리합니다.",
+    "main_customers": "AF/OIS/Display 계열 — 국내 스마트폰 Set 제조사·국내 및 중국 스마트폰 모듈업체 / Haptic·BDC 등 차량용 IC — 국내 전장업체(이를 통해 자동차 완성업체에 공급) / VCSEL 등 기타 — 국내외 전자부품업체 및 글로벌 고객사",
+    "price_factors": [
+      {
+        "factor": "카메라 고사양화",
+        "detail": "스마트폰 카메라의 광학줌·초광각 등 고사양화는 OIS·AF Driver IC 수요를 직접적으로 증가시킵니다."
+      },
+      {
+        "factor": "자동차 전장 전환",
+        "detail": "버튼에서 터치 방식으로의 전환과 전기차 확대는 Haptic·BDC 등 차량용 IC 채택 확대에 영향을 줍니다."
+      },
+      {
+        "factor": "외주 조달 리스크",
+        "detail": "파운드리·패키징·테스트 업체의 문제는 생산·공급에 차질을 빚을 수 있어 실적 변동 요인이 됩니다."
+      },
+      {
+        "factor": "비용 구조",
+        "detail": "인건비·R&D 비용 증가는 영업이익률에 부담을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 회사 현황 (가) 사업 요약",
+        "evidence_text": "시스템 반도체 전문 개발 기업으로"
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. 회사 현황 (가) 사업 요약",
+        "evidence_text": "당사는 시스템 반도체 IC의 설계와 완성된 제품의 판매만을 전문으로 하는 팹리스(Fabless) 업체로"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 회사 현황 (나) 판매 방식",
+        "evidence_text": "현재 당사 제품의 판매 방식은 국내 스마트폰 Set 제조사로의 판매와 국내 및 중국 스마트폰 모듈업체로의 판매"
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. 주요 제품 등의 매출현황",
+        "evidence_text": "OIS Driver IC | 78,508,348"
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. 주요 제품 등의 매출현황",
+        "evidence_text": "합     계 | 127,630,547"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3424,
+    "completion_tokens": 4266,
+    "reasoning_tokens": 3392,
+    "output_tokens": 874
+  },
+  "warnings": []
+}

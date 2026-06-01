@@ -1,0 +1,71 @@
+{
+  "stock_code": "025880",
+  "corp_name": "케이씨피드",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 23:11",
+  "meta": {
+    "wics": "식품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "케이씨피드는 1970년 설립 이후 축산 관련 사업에 집중해온 배합사료 업체입니다. 영남권을 주 판매지역으로 두고 있으며, 전국 생산량 대비 시장점유율은 약 0.8% 내외입니다.",
+    "business_model": "핵심 사업은 배합사료의 제조·판매로, 산란계 사료 등 축산물 생산을 위한 사료제품을 주력으로 제공합니다. [사업부문별 매출 구성]에는 \"비료사업부: 46 (0.0%)\"로 표기되어 있으며, 브랜드(상표) 관리·CRM(고객관계관리)·계열화(계란 생산·유통 연계)를 통해 판로 안정화와 고객 관리에 주력하고 있습니다.",
+    "main_customers": "사료사업부 — 축산농가(산란계 농가 포함)",
+    "price_factors": [
+      {
+        "factor": "원자재가격",
+        "detail": "해외 곡물가격 변동은 사료 원가에 직접 영향을 주어 실적 변동성으로 연결됩니다."
+      },
+      {
+        "factor": "환율·유가",
+        "detail": "환율 및 국제유가 변동은 수입 원재료 비용과 운송비에 영향을 미쳐 원가 구조에 영향을 줍니다."
+      },
+      {
+        "factor": "경쟁 심화",
+        "detail": "배합사료 업계의 포화와 업체 간 경쟁 심화는 판매가격과 마진에 부정적 압력을 줄 수 있습니다."
+      },
+      {
+        "factor": "법규 시행",
+        "detail": "산란계 사육면적 감소 등 관련 법령 시행은 사육 구조와 수요에 영향을 미쳐 영업환경 변화를 초래할 수 있습니다."
+      },
+      {
+        "factor": "질병·방역",
+        "detail": "구제역·조류인플루엔자 등 가축 질병 발생 시 방역 강화와 운송 제한 등으로 판매·운영에 제약이 발생할 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "사료사업부 > 나. 영업개황",
+        "evidence_text": "오직 축산관련 외길만을 걸어온"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "비료사업부: 46 (0.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "사료사업부 > 가. 사료사업부 (1) 상표 또는 고객관리에 관한 중요한 정책",
+        "evidence_text": "고객관계관리(CRM) 시스템을 도입하여"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "사료사업부 > 가. 산업의 특성",
+        "evidence_text": "국내 축산업 경기와 해외 곡물가격, 환율, 국제유가 등의 영향을 받습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4199,
+    "completion_tokens": 4308,
+    "reasoning_tokens": 3584,
+    "output_tokens": 724
+  },
+  "warnings": []
+}

@@ -1,0 +1,72 @@
+{
+  "stock_code": "198940",
+  "corp_name": "한주라이트메탈",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 11:33",
+  "meta": {
+    "wics": "자동차부품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "한주라이트메탈은 울산에 본사와 국내 공장 2곳, 슬로바키아 종속법인을 둔 알루미늄 부품 전문 제조기업으로, EV 부품·초경량화 부품·엔진 부품·선박 부품 등 알루미늄 소재 기반 부품을 생산하는 글로벌 공급자입니다. 2025년 연결 매출은 2,594억원을 기록했습니다.",
+    "business_model": "주요 수익원은 초경량화 부품, 엔진 부품, EV부품, 선박부품 등 알루미늄 자동차·선박 부품 제조·판매이며, 사업부문별로 초경량화 부품 47.9%, 엔진 부품 35.0%, EV부품 4.2%, 선박 부품 4.9%, 기타 7.9%의 매출 비중을 보입니다(매출 연동형 판매단가 체계로 원재료 가격 변동이 즉시 반영됨).",
+    "main_customers": "EV부품 — 완성차 제조사 및 전기차 관련 부품업체 (예: GM, NISSAN) / 초경량화 부품 — 완성차 및 1차 부품업체 (예: 서한이노빌리티, ILJIN SLOVAKIA) / 엔진 부품 — 변속기·엔진 부품 수요처 및 부품사 (예: 보그워너모빌리티코리아, HANON SYSTEMS) / 선박 부품 — 해양·선박 엔진사 (예: MERCURY MARINE)",
+    "price_factors": [
+      {
+        "factor": "원재료 가격",
+        "detail": "알루미늄 잉곳 가격 변동이 판매단가에 분기·월 단위로 연동되어 수익성에 직접적 영향을 줍니다."
+      },
+      {
+        "factor": "전기차 수요 변동",
+        "detail": "글로벌 전기차 시장의 성장세·캐즘(일시적 수요 정체), 보조금·관세 정책 변화가 EV 관련 부품 수요에 영향을 미칩니다."
+      },
+      {
+        "factor": "지정학적 리스크",
+        "detail": "중동·국제 분쟁 등으로 알루미늄 수입 경로·물류비가 변동하면 원가와 공급에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "무역·정책 리스크",
+        "detail": "자국이익 우선주의·무역·관세·기술보호주의 등은 수출입 환경과 해외사업 확장성에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "알루미늄 토탈 솔루션 프로바이더로서의 역할을 하는 글로벌기업으로"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "초경량화 부품군이 1242억원(47.9%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "주요 매출처로는 서한이노빌리티, 한국무브넥스,"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "판매가격은 주요 원재료인 알루미늄 잉곳의 가격 변동에 따라"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "알루미늄 잉곳의 수입(UAE에서 수입)에 영향을 미치며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5365,
+    "completion_tokens": 4332,
+    "reasoning_tokens": 3392,
+    "output_tokens": 940
+  },
+  "warnings": []
+}

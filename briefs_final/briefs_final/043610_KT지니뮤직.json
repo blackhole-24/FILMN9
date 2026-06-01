@@ -1,0 +1,68 @@
+{
+  "stock_code": "043610",
+  "corp_name": "KT지니뮤직",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 01:49",
+  "meta": {
+    "wics": "방송과엔터테인먼트",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "KT지니뮤직은 디지털 음악서비스를 중심으로 대한민국 대표 음악 플랫폼 'genie(지니)'를 운영하는 엔터테인먼트·플랫폼 기업입니다. 자회사 KT밀리의서재를 통해 전자책 구독 플랫폼 '밀리의서재'도 운영하며 음악과 도서 구독 서비스를 병행하고 있습니다.",
+    "business_model": "핵심은 스트리밍 기반의 음악 플랫폼인 genie 운영으로, 웹·모바일·커넥티드카(Connected-Car) 등 다양한 환경에서 고음질 음악 서비스를 제공합니다. 또한 AI 기반 개인화 추천, 플랫폼 내 오리지널 Audio 콘텐츠·공연사업 등으로 수익원을 다각화하고, 자회사인 KT밀리의서재의 전자책 구독 서비스로 구독형 콘텐츠 매출을 확보하고 있습니다.",
+    "main_customers": "음악사업부문 — 개인 사용자(스트리밍 이용자) / 통신사·차량 제조사 등 제휴기업(B2B) / KT밀리의서재 — 개인고객(B2C) / 기업고객・제휴고객(B2B, B2B2C)",
+    "price_factors": [
+      {
+        "factor": "경쟁강도",
+        "detail": "국내 플랫폼(genie, Melon, FLO)과 글로벌 사업자(YouTube Music, Spotify) 간 경쟁 심화는 이용자 확보와 요금정책에 실적 영향을 미칩니다."
+      },
+      {
+        "factor": "저작권 규제",
+        "detail": "지식재산권 등 관련 법규 준수 의무는 콘텐츠 확보·유통에 직결되어 비용과 영업활동에 영향을 줍니다."
+      },
+      {
+        "factor": "디바이스확산",
+        "detail": "커넥티드카·AI스피커 등 멀티 디바이스 확산은 스트리밍 이용 증가로 매출 성장에 긍정적 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "제휴채널",
+        "detail": "통신사 결합상품 및 차량 OEM 등 제휴 확장은 이용자 기반과 음악매출 다변화에 직접적으로 기여합니다."
+      },
+      {
+        "factor": "콘텐츠유통",
+        "detail": "소셜미디어·숏폼 중심의 유통 변화는 플랫폼 내 콘텐츠 소비 패턴과 트래픽 분배에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "대한민국 대표 음악 플랫폼 'genie(지니)'를 운영"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "14년 이상 축적해온 고객 음악 이용 데이터와 자체 플랫폼 기술력"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "KT밀리의서재는 전자책 구독 서비스 사업을 영위하고 있으며"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4589,
+    "completion_tokens": 2722,
+    "reasoning_tokens": 1984,
+    "output_tokens": 738
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

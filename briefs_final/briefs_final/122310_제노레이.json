@@ -1,0 +1,92 @@
+{
+  "stock_code": "122310",
+  "corp_name": "제노레이",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 09:15",
+  "meta": {
+    "wics": "건강관리장비와용품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "제노레이는 병원·치과용 X-ray 영상 진단 장비를 연구·개발·제조·판매하는 기업으로, 국내에서 유일하게 메디칼과 덴탈 부문을 동시에 영위하고 있습니다. 2025년 기준 매출은 1,080.4억원이며 수출 비중이 74%로 글로벌 영업을 전개하고 있습니다.",
+    "business_model": "사업부문은 메디칼과 덴탈로 나뉘며, 메디칼은 C-ARM(46.84%)과 Mammography(10.34%)로 구성되고, 덴탈은 CT(24.37%)와 PAN 및 기타 품목으로 구성됩니다. 병원용 수술·진단 장비와 치과용 CBCT·Panorama 등 제품군을 자체 연구개발·제조·판매 네트워크로 공급하고 있습니다.",
+    "main_customers": "메디칼 — 병원(정형외과·신경외과·영상의학과·외과·내과·산부인과) / 덴탈 — 치과(치과의사·임플란트 수술 목적 등)",
+    "price_factors": [
+      {
+        "factor": "인증·허가",
+        "detail": "식약처 및 국가별 인증 지연이나 비용 증가는 해외판매와 신제품 출시 시점에 직접 영향."
+      },
+      {
+        "factor": "수출 의존도",
+        "detail": "수출 매출 비중이 74%로 해외 수요·무역정책·환율 변동에 실적이 민감하게 반응."
+      },
+      {
+        "factor": "대체불가성",
+        "detail": "제품군별 대체제가 사실상 없어 특정 진료과 수요 변화가 실적에 직접 연결됨."
+      },
+      {
+        "factor": "글로벌 수요",
+        "detail": "글로벌 딜러·현지법인과의 협력 성과에 따라 지역별 매출 성장률이 달라질 수 있음."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "국내에서 유일하게 메디칼과 덴탈 부문 사업을 동시에 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "C-ARM 50,607,351(46.84%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "Mammography 11,174,258(10.34%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "CT 26,334,976(24.37%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 주요 제품등의 현황",
+        "evidence_text": "주로 영상의학과, 외과, 산부인과에서 사용하고"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 주요 제품등의 현황",
+        "evidence_text": "치과에서 임플란트 수술 등을 위해 사용되고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "당사의 수출 매출 비중은 74%이며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 관련 법령 또는 정부의 규제",
+        "evidence_text": "자체 인증전담부서를 통해 인증 업무를 직접 수행하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "대체 가능 제품은 없습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4706,
+    "completion_tokens": 4977,
+    "reasoning_tokens": 4032,
+    "output_tokens": 945
+  },
+  "warnings": []
+}

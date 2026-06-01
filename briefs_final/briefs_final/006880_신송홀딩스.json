@@ -1,0 +1,91 @@
+{
+  "stock_code": "006880",
+  "corp_name": "신송홀딩스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 19:40",
+  "meta": {
+    "wics": "식품과기본식료품소매",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "신송홀딩스는 2009년 물적분할 이후 순수지주회사 체제로 전환한 기업으로, 지주회사로서 자회사 관리와 투자에 주력하고 있습니다. 보고서 기준 해외법인을 포함한 5개의 자회사를 보유한 중견 지주회사 구조를 갖추고 있습니다.",
+    "business_model": "주요 수익은 연결기준에서 트레이딩사업(무역·유통)이 가장 큰 비중을 차지하고, 식품사업(장류·가공식품)과 투자부동산이 뒤를 잇는 구조입니다. FY2025 기준 사업부문별 영업수익 구성은 트레이딩사업 60.4%, 식품사업 26.1%, 투자부동산 11.9% 등으로 매출의 상당 부분이 트레이딩 부문에 집중되어 있습니다.",
+    "main_customers": "투자사업 — 자회사 및 관계회사(배당·경영자문) / 식품사업 — 가공식품 제조업체 및 가정간편식(HMR) 관련 수요자·최종 소비자 / 트레이딩사업 — 국내외 거래처(무역·유통처) / 투자부동산 — 임차인·부동산 수요자 / 소재사업 — 전분 등 원재료 구매업체",
+    "price_factors": [
+      {
+        "factor": "원재료비",
+        "detail": "글로벌 인플레이션과 원재료 단가 상승은 식품사업의 원가 부담을 키워 영업이익에 부정적 영향을 미칩니다."
+      },
+      {
+        "factor": "환율변동",
+        "detail": "해외 거래 비중이 큰 트레이딩사업과 연결재무제표에 환율 변동이 실적 변동성으로 이어질 수 있습니다."
+      },
+      {
+        "factor": "자회사실적",
+        "detail": "순수지주회사 특성상 자회사 및 관계회사 실적 악화 시 지주사 실적에도 직접적인 영향이 발생합니다."
+      },
+      {
+        "factor": "해외거래처",
+        "detail": "해외 거래처 확대 또는 축소는 트레이딩사업 매출 변동에 직결되며 실적 변동성을 키울 수 있습니다."
+      },
+      {
+        "factor": "투자부동산",
+        "detail": "수익형 부동산의 매입·처분 및 임대수익 변동은 영업손익에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "해외법인을 포함하여 5개의 자회사를 보유하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "트레이딩사업: 113,359 (60.4%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 사업부문별 현황 [투자사업부문]",
+        "evidence_text": "경영자문수수료, 자회사 등으로부터 수취하는 배당수익입니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "[식품사업 부문] : 신송식품㈜ 가) 업계의 현황",
+        "evidence_text": "가정간편식(HMR) 및 다양한 가공식품 원재료로 활용 범위가 확대되고"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "(3) 부문별 영업실적 분석",
+        "evidence_text": "이는 해외 거래처 확대에 따른 매출 증가와"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "(4) 환율변동 영향",
+        "evidence_text": "통화선물거래 등을 통해 외환위험을 관리하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "(3) 부문별 영업실적 분석",
+        "evidence_text": "원재료 단가가 상승함에 따라"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "자회사 및관계회사의 실적이 악화될 경우 당사의 실적 또한 악화될 수 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5342,
+    "completion_tokens": 6813,
+    "reasoning_tokens": 5760,
+    "output_tokens": 1053
+  },
+  "warnings": []
+}

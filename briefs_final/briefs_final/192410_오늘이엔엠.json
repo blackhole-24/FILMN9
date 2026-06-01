@@ -1,0 +1,72 @@
+{
+  "stock_code": "192410",
+  "corp_name": "오늘이엔엠",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 11:19",
+  "meta": {
+    "wics": "통신장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "오늘이엔엠은 전기·전자(통신장비) 업종에서 안테나와 로봇을 중심으로 사업을 영위하는 기업입니다. 주요 매출은 기지국 안테나의 제조·판매에 집중되어 있으며, 로봇 및 여행 부문도 영위하고 있습니다. 당기 말 기준 전환사채의 잠재적 의결권으로 종속기업이 재분류되었습니다.",
+    "business_model": "매출 구성(제29기)은 안테나 사업부문 98.64%, 로봇 사업부문 1.12%, 여행 사업부문 0.24%로 안테나 사업이 압도적입니다. 안테나 사업부문은 기지국 안테나의 연구개발·제조·판매를, 로봇 사업부문은 실내자율주행로봇(AMR)과 스마트엑츄에이터의 연구개발·제조·판매를 핵심 수익원으로 삼고 있습니다.",
+    "main_customers": "안테나 사업부문 — 통신서비스 사업자 / 로봇 사업부문 — 재난·헬스케어·의료·실버·교육·국방·건설·해양·농업 등 다양한 분야의 산업 / 여행 사업부문 — 사업보고서에 고객 유형 미기재",
+    "price_factors": [
+      {
+        "factor": "통신사 인증",
+        "detail": "통신사업자의 제품 규격·인증 요구를 충족해야 시장 출시가 가능해 인증 절차 지연 시 수주와 실적에 영향."
+      },
+      {
+        "factor": "기술 발전",
+        "detail": "MIMO·Massive MIMO·Small Cell 등 안테나 기술 진화 속도에 따라 제품 개발·경쟁력이 좌우됩니다."
+      },
+      {
+        "factor": "통신사 CAPEX",
+        "detail": "통신사업자의 설비투자(CAPEX) 계획 변동에 따라 안테나 수요와 매출 변동성이 발생합니다."
+      },
+      {
+        "factor": "해외시장",
+        "detail": "국내 경쟁 심화로 미국·일본·유럽 등 해외 매출 확대 계획의 성과 여부가 성장에 직접적 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "안테나 사업부문, 로봇 사업부문으로 사업을 구분하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "안테나 사업부문 98.64%"
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황",
+        "evidence_text": "주요매출은 안테나 사업부문의 '기지국 안테나' 제조ㆍ판매"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "안테나 사업부문 > 업계 현황",
+        "evidence_text": "이동통신 안테나 제조업체들은 통신서비스 사업자와 긴밀한 협력관계를 유지하여"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "통신사업자의 CAPEX 투자계획에 따라 공급 변동이 발생하게 됩니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4419,
+    "completion_tokens": 4461,
+    "reasoning_tokens": 3648,
+    "output_tokens": 813
+  },
+  "warnings": []
+}

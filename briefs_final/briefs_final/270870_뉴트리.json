@@ -1,0 +1,67 @@
+{
+  "stock_code": "270870",
+  "corp_name": "뉴트리",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 14:33",
+  "meta": {
+    "wics": "건강관리업체및서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "뉴트리는 2001년 창사 이래 천연물 유래 이너뷰티(내적·외적 건강·미용) 소재와 완제품을 개발·유통하는 이너뷰티 전문기업입니다. 자체 생명공학 연구를 바탕으로 피부·체지방 등 4대 핵심 효능을 중심으로 제품을 개발해왔습니다.",
+    "business_model": "주요 수익은 제품및상품판매(제25기 매출 94,484백만원)가 대부분을 차지하며, 제25기 기준 제품및상품판매 약 93.5%, 금융관리수익 약 4.2%, 광고업 약 2.4%의 매출 구성이 확인됩니다. 핵심은 저분자콜라겐(에버콜라겐), 핑거루트(판도라) 등 자체 개발 소재를 적용한 피부건강·다이어트·슈퍼푸드·기능성 식품의 판매(홈쇼핑·온라인·오프라인 채널)가 중심입니다.",
+    "main_customers": "제품및상품판매 — 일반 소비자(B2C): 홈쇼핑·온라인·오프라인 / 금융관리수익 — 투자·자산운용 관련(자회사 투자주식 등) / 광고업 — 광고주·제휴사",
+    "price_factors": [
+      {
+        "factor": "채널의존도",
+        "detail": "홈쇼핑·온라인·오프라인 채널 실적 변동이 매출에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "브랜드경쟁력",
+        "detail": "에버콜라겐 등 메가브랜드의 시장점유율 변화가 매출과 성장성에 큰 영향을 줍니다."
+      },
+      {
+        "factor": "규제인허가",
+        "detail": "식약처의 기능성 인정(개별인정) 취득 여부는 제품 경쟁력과 출시 범위에 영향을 미칩니다."
+      },
+      {
+        "factor": "신소재성과",
+        "detail": "핑거루트·저분자콜라겐 등 자체 소재의 효능 입증 및 특허 확보가 차별화와 수익성에 기여합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "이너뷰티 전문기업입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황",
+        "evidence_text": "홈쇼핑, 온라인, 오프라인 등의 경로를 통해 판매되고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출",
+        "evidence_text": "제품및상품판매(주1) | 94,484 | 107,618 | 136,310"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "개발된 소재를 기반으로 B2C와 B2B 사업을 전개하고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4305,
+    "completion_tokens": 3607,
+    "reasoning_tokens": 2880,
+    "output_tokens": 727
+  },
+  "warnings": []
+}

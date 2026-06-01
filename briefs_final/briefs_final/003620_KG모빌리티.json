@@ -1,0 +1,67 @@
+{
+  "stock_code": "003620",
+  "corp_name": "KG모빌리티",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 18:35",
+  "meta": {
+    "wics": "자동차",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "KG모빌리티는 완성차 및 부품의 제조·판매와 정비용역을 영위하는 자동차업체로, 완성차 중심의 사업구조를 가지고 있습니다. 2025년 연결기준 완성차 매출이 전체의 큰 비중을 차지하며(아래 사업구성 참조), 국내 판매와 수출을 병행하는 제조·판매 체계를 운영하고 있습니다.",
+    "business_model": "사업부문별 영업수익은 완성차 82.3%, 기타 부품 등 17.7%로 구성되어 있으며(사업부문별 매출 구성), 핵심 수익원은 완성차 판매입니다. 제품은 회사 직판 및 대리점 등을 통해 국내외로 판매되며, 수출 물량 증가와 제품믹스 개선이 매출과 수익성에 영향을 미칩니다.",
+    "main_customers": "완성차 — 국내외 소비자(회사 직판·대리점) / 기타 부품 등 — 국내외 판매처(대리점·유통 경로)",
+    "price_factors": [
+      {
+        "factor": "경기 민감성",
+        "detail": "자동차는 경기변동에 민감하여 경기 침체 시 내수 판매가 크게 줄어 실적에 부정적 영향을 미칩니다."
+      },
+      {
+        "factor": "친환경 전환",
+        "detail": "전기차·하이브리드 수요 확대(내수 +20.8%)는 친환경차 비중과 제품 믹스에 따라 실적에 큰 영향을 줍니다."
+      },
+      {
+        "factor": "수출 의존도",
+        "detail": "수출 물량 증대는 매출 확대에 기여하나, 지역별 수요 변동과 경쟁 심화(유럽 등)에는 노출됩니다."
+      },
+      {
+        "factor": "원재료 가격",
+        "detail": "철판 등 주요 원재료 가격 변동은 제품 평균단가 및 원가에 직접적인 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 영업 현황",
+        "evidence_text": "완성차 및 부분품의 제조ㆍ판매, 정비용역을 사업으로 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성] (FY2025)",
+        "evidence_text": "완성차: 3,543,633 (82.3%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "생산된 주요 제품 등은 회사 직판 및 대리점 등의 판매 경로를 통하여 국내외로 판매되고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "7-1. 사업의 개요 > 4) 국내외 시장 여건 및 영업의 개황 > 가. 내수 시장",
+        "evidence_text": "전기차와 하이브리드차의 시장이 +20.8% 증가"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4344,
+    "completion_tokens": 4580,
+    "reasoning_tokens": 3840,
+    "output_tokens": 740
+  },
+  "warnings": []
+}

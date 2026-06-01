@@ -1,0 +1,67 @@
+{
+  "stock_code": "075130",
+  "corp_name": "플랜티넷",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 05:37",
+  "meta": {
+    "wics": "소프트웨어",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "플랜티넷은 국내 최초로 인터넷 망을 통한 유해 사이트 필터링 서비스를 상용화한 IT 서비스기업입니다. 국내 3대 ISP 및 MSO·케이블인터넷 사업자와 협력해 유해 콘텐츠 차단 서비스를 제공하며, 대만 중화전신·베트남 VNPT 등 통신사를 해외 고객으로 보유하고 있습니다.",
+    "business_model": "사업부문별로 유해 콘텐츠 차단이 매출의 핵심으로, 2025회계연도 기준 유해 콘텐츠 차단이 62.2%를 차지하며(유해 콘텐츠 차단: 28,366 (62.2%)), 미디어 콘텐츠 제공 및 유통이 23.5%, 중소기업창업투자가 14.3%의 비중을 차지합니다. 주력 솔루션 'nBlock' 등 네트워크 기반의 차단서비스와 AI 기반 유해영상·링크 판별 기술을 통해 교육·통신사업자를 대상으로 수익을 창출하고 있습니다.",
+    "main_customers": "유해 콘텐츠 차단 — 국내 3대 ISP·MSO·케이블인터넷 사업자·해외 통신사(예: 대만 중화전신, 베트남 VNPT) / 미디어 콘텐츠 제공 및 유통 — 자회사(플랜티엠)가 제공하는 매장음악·영상·디지털사이니지 서비스의 이용처 및 유통 채널 / 중소기업창업투자 — 벤처투자 대상 스타트업·중소기업",
+    "price_factors": [
+      {
+        "factor": "규제(의무화)",
+        "detail": "정부의 청소년 유해물 차단 의무화로 모바일 유해차단 서비스 수요가 확대되어 실적에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "디지털교과서",
+        "detail": "디지털교과서의 단계적 도입(2025~2028년 예정)은 교실용 수업관리·차단 솔루션(nBlock) 수요 확대와 연계됩니다."
+      },
+      {
+        "factor": "사이버위협",
+        "detail": "서버해킹·악성코드 등 사이버 위협 증가로 네트워크 보안 및 유해차단 솔루션 수요가 지속적으로 늘어날 수 있습니다."
+      },
+      {
+        "factor": "통신사정책",
+        "detail": "통신사업자의 영업정책 변화는 단기적으로 매출에 영향(부가서비스 채택 여부 등)을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "국내 최초 인터넷 망을 통한 유해 사이트 필터링 서비스를 상용화한 기업입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "유해 콘텐츠 차단: 28,366 (62.2%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "국내 3대 ISP사업자"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "[경쟁 환경 및 시장 특성]",
+        "evidence_text": "서버해킹이 56%로 가장 높았고"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4677,
+    "completion_tokens": 3945,
+    "reasoning_tokens": 3136,
+    "output_tokens": 809
+  },
+  "warnings": []
+}

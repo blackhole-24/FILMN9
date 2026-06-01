@@ -1,0 +1,77 @@
+{
+  "stock_code": "064350",
+  "corp_name": "현대로템",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 04:18",
+  "meta": {
+    "wics": "우주항공과국방",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "현대로템은 1977년 창립된 글로벌 종합기계 기업으로, 방산(디펜스솔루션), 철도(레일솔루션), 에코플랜트 등 3개 사업부문을 기반으로 제조·서비스를 제공하고 있습니다. 축적된 레퍼런스를 바탕으로 국내외 정부·공기업·글로벌 제조기업을 주요 고객으로 두고 있습니다.",
+    "business_model": "주요 수익은 디펜스솔루션(55.0%), 레일솔루션(36.0%), 에코플랜트(9.0%)로 구성되어 있으며, 디펜스는 K2전차·장갑차 등 무기체계 개발·양산 및 수출과 유지보수(MRO), 레일은 고속전철·전동차·신호 등 차량·시스템과 차량 운영·유지보수, 에코플랜트는 자동차·제철 인프라와 스마트물류·무인로봇·수소인프라 공급이 핵심 사업입니다.",
+    "main_customers": "디펜스솔루션 — 국내외 군·정부기관 / 레일솔루션 — 국내외 정부·공기업 및 철도 운영·유지보수 기관 / 에코플랜트 — 국내외 자동차·제철 등 제조기업",
+    "price_factors": [
+      {
+        "factor": "정부 규제",
+        "detail": "철도안전법에 따른 강화된 품질검증으로 품질관리 비용이 상승하면 수주 가격 및 수익성에 영향."
+      },
+      {
+        "factor": "방산 수요",
+        "detail": "국내 방위력 증강과 해외 수출 추진은 디펜스솔루션의 매출 및 후속지원 수요에 직접적인 영향을 줌."
+      },
+      {
+        "factor": "수소 전환",
+        "detail": "수소 인프라·수소 모빌리티 수요 확대는 에코플랜트의 수주와 제품 다각화에 영향을 미침."
+      },
+      {
+        "factor": "기술·특허",
+        "detail": "수소·방산 분야 선행특허 확보는 경쟁사 사용 견제 및 미래기술 선점으로 중장기 경쟁력에 영향."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "현대로템은 글로벌 종합기계 기업으로 1977년 창립되어"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 영업수익 구성 (FY2025)]",
+        "evidence_text": "디펜스솔루션 부문: 32,153 (55.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 영업수익 구성 (FY2025)]",
+        "evidence_text": "레일솔루션 부문: 20,896 (36.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 영업수익 구성 (FY2025)]",
+        "evidence_text": "에코플랜트 부문: 5,341 (9.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "국내외 정부, 공기업, 그리고 글로벌 제조기업 등을 대상으로"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "영업 현황",
+        "evidence_text": "2013년 3월 개정된 철도안전법에 따라"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5043,
+    "completion_tokens": 4397,
+    "reasoning_tokens": 3520,
+    "output_tokens": 877
+  },
+  "warnings": []
+}

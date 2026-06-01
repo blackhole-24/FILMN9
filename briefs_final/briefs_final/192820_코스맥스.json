@@ -1,0 +1,82 @@
+{
+  "stock_code": "192820",
+  "corp_name": "코스맥스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 11:22",
+  "meta": {
+    "wics": "화장품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "코스맥스는 화장품을 연구개발하고 생산하여 고객에게 공급하는 화장품 ODM(제품기획·설계·제조) 전문 기업입니다. 1992년 설립 이후 화장품 ODM에 집중하며 글로벌 브랜드에 제품을 공급하는 대형 OEM/ODM 사업자로 자리매김하고 있습니다.",
+    "business_model": "매출의 핵심은 화장품부문으로, 2025년 기준 화장품부문이 약 99.98%, 기타부문이 약 0.02%를 차지합니다(사업부문별 매출 기준). 당사는 자체 개발한 제품을 고객사에 제안해 수주·생산하는 ODM(Original Development & Design Manufacturing) 형태로 전체 매출의 90% 이상을 공급하는 점이 핵심 수익 구조입니다.",
+    "main_customers": "화장품부문 — 글로벌 및 국내 브랜드사(예: L 그룹, E 그룹, S 그룹 등) / 기타부문 — (자료에서 구체적 고객 미기재)",
+    "price_factors": [
+      {
+        "factor": "기술·특허",
+        "detail": "보유한 기능성 승인·특허 수가 많아(다수의 신제품 개발 가능) 제품 경쟁력과 수주에 영향합니다."
+      },
+      {
+        "factor": "ODM집중",
+        "detail": "전체 매출의 대부분이 ODM 형태이므로 주요 고객사의 수주 변동이 실적에 직접적으로 반영됩니다."
+      },
+      {
+        "factor": "환경규제",
+        "detail": "대기·수질·화학물질 규제 준수를 위한 설비투자 및 관리비가 지속적으로 발생할 수 있습니다."
+      },
+      {
+        "factor": "기후대응",
+        "detail": "온실가스 인벤토리 구축 및 감축 활동은 비용과 공시 리스크(규제 대응) 측면에서 실적에 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 회사의 현황",
+        "evidence_text": "코스맥스는 화장품을 연구개발하고 생산하여 고객에게 공급하는 화장품 ODM 전문 기업입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. 회사의 현황",
+        "evidence_text": "당사는 전체 매출의 90% 이상을 ODM 형태로 공급하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "다. 사업부문별 요약 재무현황",
+        "evidence_text": "매출액 | 화장품부문 2,398,283,806 | 기타부문 474,167 | 합계 2,398,757,973"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 회사의 현황",
+        "evidence_text": "주요 해외 고객으로는 세계 최대의 화장품 그룹인 L 그룹을 비롯하여 글로벌 E 그룹, S 그룹 등에 제품을 공급하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "기능성승인건수 총 1,790건, 특허 등록건수 828건, 특허 출원건수 1,908건 등을 보유하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "당사는 정부 규제와 법률을 준수하기 위하여 법적 허용기준보다 엄격한 자체 기준을 수립하여 환경오염물질을 철저하게 관리하고 있으며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "코스맥스는 온실가스·에너지 목표관리 대상기업은 아니지만, 국내외 기후변화 위기대응에 동참하고자 자발적으로 온실가스 인벤토리를 구축하였습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4580,
+    "completion_tokens": 3899,
+    "reasoning_tokens": 2944,
+    "output_tokens": 955
+  },
+  "warnings": []
+}

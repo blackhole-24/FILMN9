@@ -1,0 +1,103 @@
+{
+  "stock_code": "389140",
+  "corp_name": "포바이포",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:41",
+  "meta": {
+    "wics": "방송과엔터테인먼트",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "포바이포는 자체 개발한 화질 고도화 AI 솔루션 '픽셀(PIXELL)'을 기반으로 초고실감 비주얼 콘텐츠를 제작하는 콘텐츠 AI 솔루션 기업입니다. 초고화질 영상·이미지 유통 플랫폼 '키컷스톡(KEYCUT STOCK)'도 운영하며, 2023년 3월에는 e스포츠 콘텐츠 기업 SBXG를 자회사로 편입해 게임문화 콘텐츠 영역으로 사업을 넓혔습니다.",
+    "business_model": "핵심 사업은 콘텐츠 제작, 콘텐츠 유통, e스포츠 IP운영, e스포츠 문화콘텐츠 제작 및 유통, AI 솔루션 개발 및 유통으로 나뉩니다. 사업부문별 매출은 콘텐츠 제작 19,194, 콘텐츠 유통 295, e스포츠 IP운영 6,545, e스포츠 문화콘텐츠 제작및 유통 6,847로 구성되며, AI 솔루션 개발및 유통은 원문 표가 일부만 제공되어 비율을 특정하기 어렵지만 PIXELL을 SaaS(클라우드 서비스), API(연동 방식), On-Premise(자체 설치형) 형태로 상품화해 판매·서비스하고 있습니다. 고화질 콘텐츠 제작 역량과 스톡 플랫폼, e스포츠 IP, AI 솔루션을 함께 활용하는 구조입니다.",
+    "main_customers": "콘텐츠 제작 — 고객사, 정부 및 지자체, 글로벌 디스플레이 기업 / 콘텐츠 유통 — B2B 및 B2C 이용자, 크리에이터 / e스포츠 IP운영 — e스포츠 팬, 스폰서, 대회 관련 고객 / e스포츠 문화콘텐츠 제작및 유통 — PC시설 이용자, F&B 및 공간대여 이용 고객 / AI 솔루션 개발및 유통 — OTT 업체, 교육·VR·XR 콘텐츠 제작 기업, 스포츠 콘텐츠 관련 기업",
+    "price_factors": [
+      {
+        "factor": "실감수요",
+        "detail": "실감형 콘텐츠 시장이 커질수록 초고화질 제작과 관련 솔루션 수요가 늘어 실적에 영향을 줍니다."
+      },
+      {
+        "factor": "디스플레이",
+        "detail": "대형·고화질 디스플레이 확산은 고화질 영상 콘텐츠 필요성을 키워 콘텐츠 제작 및 유통 사업에 유리하게 작용합니다."
+      },
+      {
+        "factor": "비대면",
+        "detail": "코로나19 이후 이어진 비대면 전환은 교육, 콘서트, 게임 등에서 실감형 콘텐츠 활용을 넓히는 요인입니다."
+      },
+      {
+        "factor": "기술경쟁",
+        "detail": "콘텐츠 제작은 창의성과 기술력이 핵심이라 기술적 진입장벽이 높고, 차별화된 AI·후반제작 역량이 경쟁력에 직접 연결됩니다."
+      },
+      {
+        "factor": "광고정책",
+        "detail": "옥외광고물 자유표시구역 확대처럼 디지털 사이니지(디지털 광고판) 관련 정책 변화는 초고화질 콘텐츠 수요에 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "자체 개발한 화질 고도화 AI 솔루션 '픽셀(PIXELL)'을 기반으로"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "2023년 3월, e스포츠 콘텐츠 기업 SBXG를 자회사로 편입"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "콘텐츠 제작 | 서비스 매출"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "e스포츠 IP운영 | IP 운영 매출"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "B2B 및 B2C 시장을 대상으로 직접 판매, 서비스하는"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "구작 콘텐츠를 보유한 다수의 OTT 업체"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성 — price_factors 참고용",
+        "evidence_text": "당사가 제작하는 콘텐츠의 수요는 상기와 같이 글로벌 VFX 시장"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성 — price_factors 참고용",
+        "evidence_text": "디스플레이의 대형화, 고도화로 고화질 영상의 필요성이 대두"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성 — price_factors 참고용",
+        "evidence_text": "코로나19 이후 비대면 콘텐츠 수요는 빠르게 증가했습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성 — price_factors 참고용",
+        "evidence_text": "기술적 진입장벽으로 작용할 가능성이 높습니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 5242,
+    "completion_tokens": 1273,
+    "reasoning_tokens": 0,
+    "output_tokens": 1273
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

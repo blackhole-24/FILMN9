@@ -1,0 +1,77 @@
+{
+  "stock_code": "340360",
+  "corp_name": "다보링크",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 16:53",
+  "meta": {
+    "wics": "통신장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "다보링크는 정보통신장비(AP, APC 및 Gateway 등)를 개발·생산·판매하는 전기·전자(통신장비) 업종의 기업으로, 국내 기간통신사업자 및 별정통신사업자를 대상으로 가정용 및 기업·공공용 단말장비를 제조·공급하는 것을 주요 사업으로 하고 있습니다. 당사는 통신사업자 시장과 기업/공공 시장에 모두 Wi-Fi 제품과 솔루션을 공급하는 기업으로, 5G와 Wi‑Fi 6/6E/7, 클라우드·인공지능·IoT 융합 기반 차세대 지능형 서비스 솔루션을 지향합니다.",
+    "business_model": "핵심 사업은 정보통신(무선랜) 장비의 개발·제조·판매로, 제품군(제품)이 전체 매출의 90.5%를 차지하며 Gateway가 7.7%를 차지합니다(제품: 70,205 (90.5%) / Gateway: 5,951 (7.7%)). 주력 제품은 AP(무선접속장비, Access Point) 및 Home Gateway 등 단말장비이며, 통신사업자·기업·공공 고객에 납품하는 하드웨어와 이를 기반으로 한 Wi‑Fi 솔루션이 수익의 중심입니다.",
+    "main_customers": "정보통신 사업부 — 국내 기간통신사업자 및 별정통신사업자 / 친환경 생분해 사업부 — 글로벌 B2B(포장재·식품용기 등 응용 분야 기업)",
+    "price_factors": [
+      {
+        "factor": "통신투자 스케줄",
+        "detail": "국내 통신사업자들의 투자 일정에 따라 장비 수요가 좌우되어 실적에 직접적 영향을 미칩니다."
+      },
+      {
+        "factor": "인증·상호운용성",
+        "detail": "Wi‑Fi Certified 등 인증 보유 여부가 통신사업자 및 기업 고객 납품과 시장 접근성에 영향을 줍니다."
+      },
+      {
+        "factor": "공급사 과점 구조",
+        "detail": "가정용 AP 시장은 통신사업자별로 2~3개사가 물량을 공급하는 과점 구조여서 납품선 확보가 중요합니다"
+      },
+      {
+        "factor": "납품단가·입찰",
+        "detail": "제품 가격은 납품단가 계약과 입찰 경쟁 결과에 따라 변동되어 매출단가와 수익성에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황 > 1) 정보통신 사업부문",
+        "evidence_text": "단말장비(AP 및 Home Gateway 등)를 제조 및 공급을 주요 사업으로 하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "제품: 70,205 (90.5%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "Gateway: 5,951 (7.7%)"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "영업 현황 > 주) 가격변동 산출기준 및 가격변동원인",
+        "evidence_text": "제품매출액 ÷ 판매수량으로 단순 평균한 금액입니다."
+      },
+      {
+        "field": "company_overview",
+        "source_section": "주요 제품 등 관련 각종 산업표준",
+        "evidence_text": "당사의 Wi-Fi 제품들은 이러한 Wi-Fi Certified 상표를 획득하였으며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "산업현황 > 2-1. 산업의 특성",
+        "evidence_text": "ICT 인프라 구축 및 서비스는 주로 통신사업자가 제공하고 있으며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4733,
+    "completion_tokens": 3568,
+    "reasoning_tokens": 2624,
+    "output_tokens": 944
+  },
+  "warnings": []
+}

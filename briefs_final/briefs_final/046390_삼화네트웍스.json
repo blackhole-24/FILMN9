@@ -1,0 +1,66 @@
+{
+  "stock_code": "046390",
+  "corp_name": "삼화네트웍스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 02:12",
+  "meta": {
+    "wics": "방송과엔터테인먼트",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "삼화네트웍스는 드라마 중심의 영상콘텐츠를 기획·제작하고 유통하는 제작사로, 지배회사와 종속회사(스튜디오아이콘)를 중심으로 사업을 수행하고 있습니다. 약 30년 이상의 업력과 130편 이상의 드라마 제작 실적을 보유하고 있습니다.",
+    "business_model": "FY2025 기준 사업부문별 영업수익은 드라마제작 매출이 99.4%로 압도적 비중을 차지하고, 연기자 매출 0.0%, 음반 매출 0.2%, 기타 매출 0.4%로 구성되어 있습니다. 주된 수익원은 방송사·플랫폼에 대한 방영권 판매 및 판권·협찬광고 수익과 보유 부동산 임대수익이며, 종속회사를 통한 연기자 매니지먼트도 일부 수익을 창출하고 있습니다.",
+    "main_customers": "드라마제작 — 지상파 방송사·종합편성채널·방송채널사업자(PP)·국내외 OTT 플랫폼 / 연기자 매출 — 방송사 및 공연·광고주(연예인 매니지먼트 관련) / 음반 매출 — 일반 소비자(음원·음반 구매자) / 기타 매출 — 보유 부동산 임차인",
+    "price_factors": [
+      {
+        "factor": "제작비 상승",
+        "detail": "제작비가 오르면 원가 부담이 커져 수익성 악화로 이어질 수 있습니다."
+      },
+      {
+        "factor": "투자 축소",
+        "detail": "방송사·플랫폼의 콘텐츠 투자 위축이나 편성 감소는 수주와 매출에 직접적 악영향을 줍니다."
+      },
+      {
+        "factor": "플랫폼 경쟁",
+        "detail": "OTT·플랫폼 다변화와 글로벌 경쟁 심화는 유통 채널 확보와 수익 모델 다변화의 중요성을 높입니다."
+      },
+      {
+        "factor": "IP 활용도",
+        "detail": "드라마 IP(지식재산권) 확보·활용 확대는 라이선싱·굿즈 등 부가수익 창출에 긍정적 영향을 미칩니다."
+      },
+      {
+        "factor": "인적자원 경쟁",
+        "detail": "우수 작가·PD·연기자 확보 경쟁이 제작 성패와 편성 확보에 중요한 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "드라마 중심의 방송콘텐츠의 기획, 제작 및 유통을 주요 사업영역으로 하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "드라마제작 매출: 37,046,595,552 (99.4%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "매출액은 전기 대비 20.2% 감소한 37,266백만원이고"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5363,
+    "completion_tokens": 3782,
+    "reasoning_tokens": 3008,
+    "output_tokens": 774
+  },
+  "warnings": []
+}

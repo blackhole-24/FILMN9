@@ -1,0 +1,81 @@
+{
+  "stock_code": "015710",
+  "corp_name": "코콤",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 21:41",
+  "meta": {
+    "wics": "통신장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "코콤은 1980년 창업 이후 약 45년간 스마트홈 IoT(사물인터넷)와 보안 시스템 중심의 전자통신기기 전문기업으로 성장해 왔습니다. 국내 공동주택 홈네트워크 시장에서 30~35%의 점유율을 유지하며 자체 브랜드 'KOCOM'으로 전 세계 100여 개국에 수출하는 글로벌 플레이어입니다.",
+    "business_model": "핵심 사업은 스마트홈 IoT(월패드·비디오 도어폰 등), CCTV 보안시스템, SI(시스템통합) 솔루션으로 구성되며 제품과 플랫폼(코콤 홈매니저 앱) 연동을 통한 B2B(건설사·단지)·입주민 대상 통합 솔루션을 제공하고 있습니다. FY2025 기준 '씨큐리티' 사업부가 영업수익의 71.8%를 차지하는 등 보안(씨큐리티) 관련 제품군이 매출의 상당 부분을 담당하고 있습니다.",
+    "main_customers": "주택설비(스마트홈 IoT) — 공동주택 건설사·전기·통신 설치 공사업체·민간 건설사·한국토지주택공사(LH) / CCTV — 공동주택 단지(지하주차장·단지 출입구·세대 현관) 및 단지 관리주체·입주민 / SI — 공공기관·대학(학내망)·지방자치단체·은행·호텔·빌딩 등 기업 고객",
+    "price_factors": [
+      {
+        "factor": "건설경기",
+        "detail": "주요 수요처가 공동주택 건설사이므로 건축 경기 침체 시 매출이 민감하게 감소합니다."
+      },
+      {
+        "factor": "장기거래선",
+        "detail": "전기·통신 설치업체·건설사·LH 등과의 장기 고정거래선 유지 여부가 사업 안정성에 직결됩니다."
+      },
+      {
+        "factor": "기술고도화",
+        "detail": "AI·5G·클라우드 융합으로 고기능 스마트홈·지능형 CCTV 수요가 확대되며 기술 경쟁력이 실적에 영향을 줍니다."
+      },
+      {
+        "factor": "계절성",
+        "detail": "건설 분양·입주 일정에 연동되어 하반기에 매출이 집중되는 경향이 있어 분기별 실적 변동성이 큽니다."
+      },
+      {
+        "factor": "환율",
+        "detail": "무역 관련 영업활동으로 환율 변동은 원가와 수출입 매출에 영향을 미칠 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 사업의 구성 및 세부 내용",
+        "evidence_text": "1980년 창업 이래 약 45년간 축적된 기술력"
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. 사업의 구성 및 세부 내용",
+        "evidence_text": "현재 국내 공동주택 홈네트워크 시장에서 30~35%의 점유율을 유지하고 있으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "씨큐리티: 68,779 (71.8%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "나. 산업의 특성, 성장성, 경기변동의 특성",
+        "evidence_text": "민간 건설사, 한국토지주택공사(LH) 등"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나. 산업의 특성, 성장성, 경기변동의 특성",
+        "evidence_text": "하반기에 매출이 집중되는 경향이 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "다. 환율변동 영향",
+        "evidence_text": "당사는 무역과 관련한 영업활동으로 인하여 환율 위험에 노출되어 있으며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5444,
+    "completion_tokens": 4200,
+    "reasoning_tokens": 3200,
+    "output_tokens": 1000
+  },
+  "warnings": []
+}

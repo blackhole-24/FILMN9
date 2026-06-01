@@ -1,0 +1,71 @@
+{
+  "stock_code": "195500",
+  "corp_name": "마니커에프앤지",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 11:26",
+  "meta": {
+    "wics": "식품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "마니커에프앤지는 육류를 가공해 다양한 육가공 제품을 만드는 식품 제조기업으로, 2004년 주식회사 새물내로 설립된 이후 마니커의 경산사업장 인수 등을 통해 사업을 확장했습니다. 매출 대부분은 국내에서 발생하며 삼계탕 등 일부 제품을 미국·일본·홍콩 등으로 수출하고 있습니다.",
+    "business_model": "주요 사업은 계육·돈육·우육 등 원육을 가공해 튀김류, 패티류, 구이류, 육가공류, 훈제류, HMR(간편식) 등 제품군을 생산·판매하는 제조업입니다. [사업부문별 매출 구성]에 따르면 상품(1.0%), 훈제류(0.2%), 기타류(2.0%), 계(3.2%), 합 계(93.6%) 등으로 구성되어 있으며, 전통적으로 B2B(프랜차이즈·급식) 중심이었으나 대형마트·편의점·온라인 등 B2C 유통을 확대하고 있습니다.",
+    "main_customers": "프랜차이즈(롯데리아·버거킹·BBQ) — 외식 프랜차이즈 / 급식업체 — 단체급식·외식 고객사 / 대형마트·편의점·백화점·온라인몰 — 일반 소비자(B2C)",
+    "price_factors": [
+      {
+        "factor": "B2B수요",
+        "detail": "프랜차이즈·급식업체 주문량 변동이 매출에 직접 영향 — B2B 비중이 높은 구조입니다."
+      },
+      {
+        "factor": "판매비용",
+        "detail": "판매비와관리비 증가(보고서상 전기 대비 8.64% 증가)는 영업이익에 하방압력으로 작용합니다."
+      },
+      {
+        "factor": "보관비용",
+        "detail": "제품 재고 증가에 따른 보관·임차료 단가 인상은 원가와 판관비 부담을 높입니다."
+      },
+      {
+        "factor": "환율",
+        "detail": "수출 규모는 제한적이나 환율변동은 외환손익과 일부 이자수익에 영향을 미칩니다."
+      },
+      {
+        "factor": "HMR수요",
+        "detail": "HMR(간편식) 시장 확대 추진은 신제품 매출 성장의 주요 변수입니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 회사의 현황 (1) 사업 개황(가) 사업의 개요",
+        "evidence_text": "당사는 계육, 돈육, 우육 등 육류를 가공하여"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "상품: 1,125 (1.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 회사의 현황 (1) 사업 개황(가) 사업의 개요",
+        "evidence_text": "주요 판매처는 프랜차이즈(외식업체), 급식업체 등 B2B 시장 위주였으나"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나. 영업실적",
+        "evidence_text": "판매비와관리비가 전기 대비 8.64% 증가함에 따라"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4036,
+    "completion_tokens": 4738,
+    "reasoning_tokens": 3904,
+    "output_tokens": 834
+  },
+  "warnings": []
+}

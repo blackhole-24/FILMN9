@@ -1,0 +1,81 @@
+{
+  "stock_code": "067000",
+  "corp_name": "조이시티",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 04:48",
+  "meta": {
+    "wics": "게임엔터테인먼트",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "조이시티는 PC 온라인 게임과 모바일 게임의 개발 및 퍼블리싱을 주력으로 하는 게임업체로, 설립 이후 역량 있는 모바일 개발사를 발굴·인수하며 성장해 왔습니다. 2004년 시작한 '프리스타일' 시리즈 등 장기 흥행 IP를 보유하고 있으며, 직접서비스·퍼블리싱을 통한 해외매출 비중이 높은 편입니다.",
+    "business_model": "주요 수익원은 게임 서비스(온라인·모바일)이며, FY2025 기준 온라인게임 28.0%, 모바일게임 62.6%, 기타 9.4%로 모바일에 의존하는 구조입니다. 과금은 부분유료화(수익원: In App Purchase)가 중심이며, 기타는 UA(사용자 획득) 광고대행 용역과 임대수익으로 구성됩니다.",
+    "main_customers": "온라인게임 — '프리스타일' 시리즈 이용자 / 모바일게임 — 직접서비스·퍼블리싱 대상의 해외 유저 / 기타 — UA마케팅 의뢰 기업·임차인(임대 수입 발생)",
+    "price_factors": [
+      {
+        "factor": "해외매출 의존",
+        "detail": "직접서비스·퍼블리싱을 통한 해외매출 비중이 높아(자료상 77%) 해외시장의 변화가 실적에 직접 영향을 미칩니다."
+      },
+      {
+        "factor": "신작 일정",
+        "detail": "신작 출시 지연 사례가(예: 프리스타일 풋볼2 지연) 기존 캐시카우의 수익 감소로 이어질 수 있습니다."
+      },
+      {
+        "factor": "과금모델",
+        "detail": "부분유료화(In App Purchase) 중심의 과금 구조상 이용자 결제 패턴 변동이 매출 변동성으로 연결됩니다."
+      },
+      {
+        "factor": "IP 리스크",
+        "detail": "외부 IP(예: 디즈니) 프로젝트의 실패나 종료 시 관련 자산 손상으로 영업외 손실이 발생할 수 있습니다."
+      },
+      {
+        "factor": "퍼블리싱 경쟁",
+        "detail": "글로벌 모바일 게임 경쟁 심화로 인해 퍼블리싱 성과와 신작의 흥행 여부가 실적을 좌우합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사의 주요 사업은 PC 온라인 게임과 모바일 게임의 개발 및 퍼블리싱 사업입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "온라인게임: 39,301,103,795 (28.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "모바일게임: 87,878,227,264 (62.6%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "기타: 13,180,510,156 (9.4%)"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "부분유료화(In App Purchase) 정책을 채택하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "해외매출이 77%를 차지하고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4874,
+    "completion_tokens": 5037,
+    "reasoning_tokens": 4160,
+    "output_tokens": 877
+  },
+  "warnings": []
+}

@@ -1,0 +1,67 @@
+{
+  "stock_code": "005870",
+  "corp_name": "휴니드",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 19:24",
+  "meta": {
+    "wics": "우주항공과국방",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "휴니드는 전술통신장비와 전술시스템을 중심으로 방산사업과 해외사업을 영위하는 전기·전자 분야 기업입니다. 전술통신용 무전기·특수장비 등 군(國軍) 대상 제품과 항공 전기·전자장비·와이어하네스 등의 해외사업을 주요 생산품으로 삼고 있습니다.",
+    "business_model": "핵심 사업부문은 방산사업(전술통신용 무전기·전술시스템)과 해외사업(항공 전기/전자장비, 와이어하네스)이며, 제품은 주로 수주(공급계약) 형태로 제공됩니다. FY2025 기준 사업부문별 영업수익 구성에서는 '직판'이 100.0%를 차지하고 있습니다 (직판: 93,508, 100.0%).",
+    "main_customers": "방산사업 — 군(국내 군 및 방위사업청) / 해외사업 — 글로벌 항공 OEM 및 해외 파트너사(예: 보잉, 제너럴아토믹스)",
+    "price_factors": [
+      {
+        "factor": "국방예산",
+        "detail": "국가의 국방정책·국방예산 증감은 수주와 매출 타이밍에 직접적 영향을 미칩니다."
+      },
+      {
+        "factor": "수주구조",
+        "detail": "주로 수주(공급계약) 방식으로 매출이 발생해 장기 계약 체결 여부와 납기 등이 실적 변동성 요인이 됩니다."
+      },
+      {
+        "factor": "글로벌수요",
+        "detail": "우크라이나 전쟁·중동 긴장 등으로 글로벌 방산 수요가 확대되면 해외 수출 기회와 매출 확대 가능성이 커집니다."
+      },
+      {
+        "factor": "공급망·파트너",
+        "detail": "글로벌 OEM들의 공급망 재편은 기술력을 보유한 파트너사에 대한 의존도를 높여 수주 경쟁력에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "◎ 해외사업 : 항공 전기/전자장비, 와이어하네스 등"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "직판: 93,508 (100.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "군이라는 안정적인 고객이 존재하고"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "MD&A(경영진 실적·전략 요약)",
+        "evidence_text": "군용 항공기 시장 또한 노후 항공기의 현대화 수요"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4617,
+    "completion_tokens": 4307,
+    "reasoning_tokens": 3584,
+    "output_tokens": 723
+  },
+  "warnings": []
+}

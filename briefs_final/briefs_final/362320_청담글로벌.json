@@ -1,0 +1,83 @@
+{
+  "stock_code": "362320",
+  "corp_name": "청담글로벌",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 17:45",
+  "meta": {
+    "wics": "인터넷과카탈로그소매",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "청담글로벌은 2017년 12월 설립되어 글로벌 네트워크를 바탕으로 Beauty&Life 제품의 유통·마케팅·브랜딩을 수행하는 E-Commerce 기업입니다. 2022년에 코스닥에 상장하였으며, 라이브커머스 중심의 S2C(판매자→소비자) 사업을 핵심으로 글로벌 시장에 진출하고 있습니다.",
+    "business_model": "핵심은 라이브커머스 채널을 활용한 S2C사업(브랜드 소싱→라이브 판매)이며, TDMS(Trade Distribution Management System) 플랫폼을 통해 브랜드·인플루언서를 연결하고 매출·물류·재고 데이터를 제공합니다. 동시에 글로벌·국내 브랜드를 ON/OFF라인으로 유통하는 B2B 사업과 자회사(바이오비쥬, 바이슈코, 아이돌스토어 등)를 통한 제품 제조·유통을 병행합니다.",
+    "main_customers": "S2C(라이브커머스) — 글로벌 소비자(라이브 시청자) / B2B 유통 — 국내·글로벌 브랜드사 및 온·오프라인 유통채널 / 인허가 용역 — 국내 브랜드사(중화권 등 진출 지원)",
+    "price_factors": [
+      {
+        "factor": "라이브성장",
+        "detail": "국내 라이브커머스 시장(23년 약 3조원) 성장에 따라 플랫폼 의존 매출이 증가하거나 감소할 수 있습니다."
+      },
+      {
+        "factor": "중국시장",
+        "detail": "중국은 이커머스 비중과 라이브커머스 침투율이 높아(이커머스 40% 이상, 라이브 침투 32%) 중국 채널 성과에 회사 실적이 민감합니다."
+      },
+      {
+        "factor": "인플루언서",
+        "detail": "중국 등 시장에서 인플루언서 영향력이 크므로 인플루언서 네트워크(3,000명 이상) 성과에 따라 판매가 크게 좌우됩니다."
+      },
+      {
+        "factor": "소비심리",
+        "detail": "글로벌 소비 둔화 시 라이브커머스 기반 소비가 위축되며 전사 매출에 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "재고리스크",
+        "detail": "재고 관리와 배송 경쟁력이 수익성에 직결되므로 AI 기반 재고·물류 체계의 효율성이 중요합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "One-Stop Total Solution을 제공하는 E-Commerce 기업입니다."
+      },
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "2017년 12월 법인 설립 후"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "이후 2022년에 코스닥시장에 상장하였습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황",
+        "evidence_text": "S2C사업을 주요사업으로 하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황",
+        "evidence_text": "TDMS(Trade Distribution Management System)플랫폼을 보유하고 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "나. 주요 사업영역(1) Beauty&Life 유통",
+        "evidence_text": "도우인(틱톡), 콰이쇼우, 샤오홍수 등의 채널을 통해 50개 이상의 국내 브랜드를 유통하고있습니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 5645,
+    "completion_tokens": 3653,
+    "reasoning_tokens": 2752,
+    "output_tokens": 901
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

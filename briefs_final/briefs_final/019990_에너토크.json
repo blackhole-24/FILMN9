@@ -1,0 +1,71 @@
+{
+  "stock_code": "019990",
+  "corp_name": "에너토크",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 22:30",
+  "meta": {
+    "wics": "기계",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "에너토크는 밸브를 구동하는 엑츄에이터(구동장치)와 감속기(기어감속기)를 제조·판매하는 기업으로, 발전플랜트·상하수도·정유·조선·제철 등 국가 기간산업을 주요 수요처로 삼고 있습니다. 국내 16개 대리점과 미국·인도네시아·중동 등 해외 대리점을 통해 국내외 시장에 제품을 공급하고 있습니다.",
+    "business_model": "주요 제품은 액츄에이터 및 관련장비로, [사업부문별 매출 구성]에 따르면 제품 매출이 100%를 차지합니다(23,521,550(100)). 당사는 밸브업체를 통한 부착 납품 또는 수요처 직접 납품을 통해 매출을 발생시키며, 고도의 정밀도와 신뢰성, 사후 A/S(서비스)가 핵심 경쟁요소입니다.",
+    "main_customers": "제품(액츄에이터) — 발전플랜트(수력·화력·가스·복합·원자력), 상하수도 시설·정수장, 가스회사(정유사), 조선소·제철소",
+    "price_factors": [
+      {
+        "factor": "제품신뢰도",
+        "detail": "수요자가 지명도와 신뢰성을 우선해 저가보다 품질을 중시하므로 제품 신뢰도는 매출 지속성과 가격결정력에 직접 영향합니다."
+      },
+      {
+        "factor": "인프라수요",
+        "detail": "국가 기간산업과 해외 플랜트(주요 목표시장 80% 이상)를 중심으로 수요가 형성되어 경기 변동과 무관한 안정적 수요 요인이 됩니다."
+      },
+      {
+        "factor": "가격경쟁",
+        "detail": "국내외 경쟁사 간 무분별한 가격경쟁은 판매가격 하락으로 이어져 매출 및 이익률에 부정적 영향을 미칩니다."
+      },
+      {
+        "factor": "원가상승",
+        "detail": "국제적 분쟁·관세·원자재 가격 상승 시 원가가 증가하여 수익성 압박 요인이 됩니다."
+      },
+      {
+        "factor": "인증·벤더등록",
+        "detail": "해외시장 진출을 위한 제품 인증과 벤더등록 비용 증가는 초기 비용과 투자부담으로 실적에 단기적 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "감속기의 제조 및 판매사업을 영위하고 있으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "23,521,550(100)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "주요 목표시장(80% 이상)"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "국내외 경쟁사 간의 무분별한 가격경쟁으로 인한 판매가격 하락"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3698,
+    "completion_tokens": 3797,
+    "reasoning_tokens": 3008,
+    "output_tokens": 789
+  },
+  "warnings": []
+}

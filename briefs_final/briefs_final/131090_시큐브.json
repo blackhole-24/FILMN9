@@ -1,0 +1,66 @@
+{
+  "stock_code": "131090",
+  "corp_name": "시큐브",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 09:39",
+  "meta": {
+    "wics": "소프트웨어",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "시큐브는 2000년 설립된 정보보안 전문기업으로, 국내 최초 보안운영체제(Secure OS)를 상용화한 기술 리더입니다. 서버보안·통합계정권한관리·로그분석을 아우르는 '시스템보안 토탈 솔루션'을 기반으로 국내 보안시장에서 선도적 지위를 확보하고 있습니다.",
+    "business_model": "수익은 솔루션(제품)과 유지보수 중심의 서비스(용역)로 구성되며, 사업부문별 매출은 솔루션이 60.2%, 서비스가 39.8%를 차지합니다. 주요 제품으로는 보안운영체제 Secuve TOS(Secure OS: 보안운영체제), 통합계정권한관리 iGRIFFIN(계정·권한 관리), 로그분석 LogGRIFFIN 및 모바일인증·생체인증 관련 솔루션을 제공하며, 제품 판매 후 유지보수 서비스로 반복적 수익을 창출합니다.",
+    "main_customers": "솔루션 — 금융권·대기업·공공·국방 분야 / 서비스(유지보수) — 솔루션 도입 기업의 정기점검·기술지원 대상",
+    "price_factors": [
+      {
+        "factor": "보안투자 확대",
+        "detail": "공공·금융기관의 보안 예산 확대는 솔루션 수주와 유지보수 매출 증가로 실적에 긍정적 영향을 줍니다."
+      },
+      {
+        "factor": "법규·규제",
+        "detail": "개인정보보호법 등 규제 강화 시 기업의 보안 솔루션 도입 수요가 증가하여 매출에 우호적입니다."
+      },
+      {
+        "factor": "기술경쟁",
+        "detail": "국내외 보안업체와의 경쟁 심화는 가격·기능 측면에서 시장점유율과 마진에 압력을 가할 수 있습니다."
+      },
+      {
+        "factor": "인증기술수요",
+        "detail": "모바일인증·생체인증 수요 확대는 회사의 R&D(모바일인증, Multi-modal 생체인증) 투자 성과로 서비스 확장 기회를 제공합니다."
+      },
+      {
+        "factor": "경기민감성",
+        "detail": "경기 침체 시 공공·기업의 예산 축소로 보안 프로젝트 지연이나 성장률 저하가 발생할 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 영업개황",
+        "evidence_text": "국내 최초 보안운영체제(Secure OS) 솔루션 'Secuve TOS'를 개발해"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 (원문 테이블)",
+        "evidence_text": "8,086(60.2)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 영업개황",
+        "evidence_text": "금융권을 비롯하여 대기업, 금융기관, 공공 및 국방 분야"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4383,
+    "completion_tokens": 3572,
+    "reasoning_tokens": 2816,
+    "output_tokens": 756
+  },
+  "warnings": []
+}

@@ -1,0 +1,97 @@
+{
+  "stock_code": "230360",
+  "corp_name": "에코마케팅",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 13:06",
+  "meta": {
+    "wics": "섬유,의류,신발,호화품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "에코마케팅은 2003년 3월 설립된 디지털 마케팅 기업으로, 국내 No.1 온라인 광고대행사이자 D2C(Direct To Consumer) 커머스 전문 역량을 보유하고 있습니다. 광고대행 역량과 자사 브랜드(데일리앤코 등) 성공 경험을 결합해 '비즈니스 부스팅' 모델을 확장하고 있습니다.",
+    "business_model": "핵심 사업은 광고대행서비스, 의류제조·판매(자사 브랜드 중심, D2C) 및 기타부문으로 구성되며, FY2025 기준 광고대행서비스 14.9%, 의류제조 및 판매 72.7%, 기타 0.0%의 매출 비중을 보였습니다. 수익원은 광고대행수수료와 마케팅 CPS(성과 기반 수수료), 투자지분 매각차익, 연결기업의 이익 및 지분법 이익 등으로 다각화되어 있습니다.",
+    "main_customers": "광고대행서비스부문 — 광고주(기업) / 의류제조 및 판매부문 — D2C 소비자(자사몰·해외시장, 예: MZ세대·직장인) / 뷰티제품 비디오커머스 — 일반 소비자(D2C 채널)",
+    "price_factors": [
+      {
+        "factor": "소비심리",
+        "detail": "소비 심리 위축 시 비디오커머스 등 소비재 부문 매출이 빠르게 줄어 전반 실적에 부정적 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "광고 플랫폼",
+        "detail": "구글·페이스북·네이버 등 광고 플랫폼과의 직거래 구조·비용 영향이 광고대행 수익성과 집행비 구조에 직접 영향을 줍니다."
+      },
+      {
+        "factor": "글로벌 진출",
+        "detail": "의류부문 등에서의 해외 시장 확대는 매출 성장의 핵심 변수로, 진출 성공 여부가 실적 변동성을 좌우합니다."
+      },
+      {
+        "factor": "제품·원단 R&D",
+        "detail": "원단·제품 혁신(예: 라이크라 기반 에어데님 등)은 경쟁력과 재구매율을 높여 의류부문 수익성에 긍정적 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "당사는 2003년 3월 설립되었으며"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "국내 No.1 온라인 광고대행사이며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "광고대행서비스부문: 66,761,773 (14.9%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "의류제조 및 판매부문: 326,416,296 (72.7%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "당사의 수익모델 또한 ①광고대행수수료, ②마케팅 CPS 수수료"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "광고주의 매출 극대화를 목표로"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "데일리앤코는 D2C(Direct To Consumer)를 주력으로 하는"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "소비 심리 위축으로 역성장을 기록했으나"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "구글, 페이스북, 네이버, 카카오 등 전 미디어 직거래로 집행"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "MZ세대와 직장인들에게 특히 높은 만족도를 제공하며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5371,
+    "completion_tokens": 5473,
+    "reasoning_tokens": 4352,
+    "output_tokens": 1121
+  },
+  "warnings": []
+}

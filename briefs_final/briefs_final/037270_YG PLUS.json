@@ -1,0 +1,67 @@
+{
+  "stock_code": "037270",
+  "corp_name": "YG PLUS",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 00:47",
+  "meta": {
+    "wics": "방송과엔터테인먼트",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "YG PLUS는 음반·음원 투자 유통과 음악 플랫폼 운영 대행, MD 제조 및 IP 라이선싱(지적재산권 사용허가)을 주요 사업으로 하는 엔터테인먼트 계열사입니다. 2025년 기준 국내 음반 유통 시장 점유율 1위, 음원 유통 시장 점유율 2위를 기록하며 국내 대표 엔터사로 자리매김하고 있습니다.",
+    "business_model": "FY2025 기준 사업부문별 영업수익은 음악서비스매출 45.2%, 상·제품매출 43.4%, 용역매출 11.4%, 기타매출 0.1%로 구성됩니다. 음악서비스는 음원 유통과 플랫폼 운영 대행 수익, 상·제품은 아티스트·캐릭터 IP 관련 MD와 음반 인쇄 제작 매출, 용역매출은 음반 유통 수수료와 IP 라이선싱(로열티)으로 수익을 창출합니다.",
+    "main_customers": "음악서비스매출 — 플랫폼 사업자(예: 음악플랫폼 운영사) / 음악서비스(음원 유통) — 아티스트 / 상·제품매출 — 팬·소비자 및 음반 도소매상 / 용역매출(IP 라이선싱) — 라이선시(사용권 계약자)",
+    "price_factors": [
+      {
+        "factor": "스트리밍 비중",
+        "detail": "스트리밍 매출 비중이 높아지면 디지털 중심의 수익 구조 강화로 실적 안정성에 영향을 줍니다."
+      },
+      {
+        "factor": "MD 매출",
+        "detail": "투어·아티스트 관련 MD(상품) 매출 확대는 분기별·행사 중심의 매출 변동성을 키우거나 개선 요인이 될 수 있습니다."
+      },
+      {
+        "factor": "환율",
+        "detail": "해외 영업과 외화 수익 노출로 환율 변동은 연결 현금흐름과 실적에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "K-POP 영향",
+        "detail": "K-POP의 글로벌 인기 확대는 해외 수요 증가로 매출 성장에 긍정적 영향을 미칠 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "당사의 주요 사업은 음반ㆍ음원 투자 유통 및 음악 플랫폼 운영 대행"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "음악서비스매출: 106,597,765,363 (45.2%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "음원 유통 매출은 아티스트의 음원 유통에 따른 수수료 수익입니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나. 각 사업부문의 시장여건 및 영업의 개황[와이지플러스][음악사업]",
+        "evidence_text": "이 중 스트리밍이 전체 매출액 중 약 69%를 차지했습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4734,
+    "completion_tokens": 3855,
+    "reasoning_tokens": 3072,
+    "output_tokens": 783
+  },
+  "warnings": []
+}

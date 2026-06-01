@@ -1,0 +1,67 @@
+{
+  "stock_code": "373200",
+  "corp_name": "엑스플러스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 18:12",
+  "meta": {
+    "wics": "핸드셋",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "엑스플러스는 2005년 설립된 모바일·IT 디바이스 액세서리 전문 기업으로, UX/UI 중심의 디자인 개발 역량을 바탕으로 커버, 무선충전기, 이어폰·버즈 케이스 등을 제조·판매하고 있습니다. 자체 IP(지적재산권) 기반 제품과 NFC·QR 등 IT 기술을 접목한 스마트 액세서리를 중심으로 사업을 전개하고 있습니다.",
+    "business_model": "FY2025 기준 악세사리부문이 영업수익의 100.0%를 차지하는 단일 사업 구조로, 커버·이어폰/버즈 케이스 등 액세서리 제품의 설계·제조·판매가 핵심 수익원입니다. 제품 차별화를 위해 디즈니·카카오프렌즈 등 글로벌·국내 IP 라이선스를 활용하고, NFC/BLE·QR/클라우드 연동 등 IT 융합 기능을 제품에 탑재하는 전략을 병행하고 있습니다.",
+    "main_customers": "악세사리부문 — IT기기 제조사(삼성전자 등) 및 최종 소비자",
+    "price_factors": [
+      {
+        "factor": "스마트폰 수요구조",
+        "detail": "스마트폰 시장의 포화와 사용자인식 전환(사용자 중심·맞춤형 수요)은 액세서리의 기능·콘텐츠 경쟁력에 따라 실적 변동을 유발합니다."
+      },
+      {
+        "factor": "IP·콘텐츠 계약",
+        "detail": "디즈니·카카오프렌즈 등 라이선스 계약 확대는 제품의 부가가치와 판매경쟁력에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "환율 변동",
+        "detail": "공시된 바와 같이 환율 변동은 매출 및 원가에 영향을 주어 실적 변동성 요인이 됩니다."
+      },
+      {
+        "factor": "공급(외주) 구조",
+        "detail": "주요 제품을 외부 업체(엑스페릭스)에서 공급받는 구조는 원가·공급 안정성 측면에서 실적에 영향할 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 회사 개요 및 주요 사업",
+        "evidence_text": "당사는 2005년 설립 이후, 혁신적인 디자인 개발 프로세스(UX/UI) 역량을 기반으로 모바일 IT 디바이스 액세서리(커버, 무선충전기, 이어폰 케이스 등)를 제조 및 판매하는 사업을영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "■ 사업부문별 영업수익 구성 (FY2025)\n  - 악세사리부문: 4,332 (100.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "라. IT 기술 융합 및 사업 확장",
+        "evidence_text": "해당 기술은 모바일 라이프 IT 응용제품에 적용되어 삼성전자 및 최종 소비자에게 제공되고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "주1) 상기 기재된 내용",
+        "evidence_text": "상기 기재된 내용은 환율 변동 적용에 따른 영향을 받고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4019,
+    "completion_tokens": 3313,
+    "reasoning_tokens": 2496,
+    "output_tokens": 817
+  },
+  "warnings": []
+}

@@ -1,0 +1,76 @@
+{
+  "stock_code": "225430",
+  "corp_name": "케이엠제약",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 12:48",
+  "meta": {
+    "wics": "가정용품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "케이엠제약은 오랄케어(치약·칫솔 등), 뷰티케어(샴푸·바디워시·스킨케어) 및 기타 생활용품을 제조·판매하는 벤처중소기업입니다. 유아·성인용 구강용품과 목욕·스킨케어 제품을 주력으로 하며 캐릭터 라이선스와 OEM/ODM을 통한 유통망(대형할인점·드럭스토어·온라인·수출)을 활용해 종합 생활용품 회사로 성장하고자 합니다.",
+    "business_model": "FY2025 기준 사업부문별 매출 구성은 Oral Care(유아용) 26.8%, Oral Care(성인용) 39.7%, Skin Care(유아용) 11.6%, Skin Care(성인용) 18.8%, 기타 3.0%로 구성되어 있으며, 주로 유아·성인용 치약·칫솔과 샴푸·바디워시·스킨케어 제품이 핵심 수익원입니다. 추가로 캐릭터 라이선스 매출(예: 뽀로로·타요)과 유통업체 대상 OEM/ODM 공급을 통해 매출을 확보하고 있습니다.",
+    "main_customers": "Oral Care(유아용) — 대형할인점·수퍼마켓·드럭스토어 등 유통채널을 통한 일반 소비자 / Oral Care(성인용) — 대형 유통 및 드럭스토어·온라인을 통한 일반 소비자 / Skin Care(유아용) — 온라인·유통업체를 통한 소비자 및 수출 채널 / Skin Care(성인용) — 드럭스토어·온라인을 이용하는 일반 소비자 / 기타 — 유통업체 및 국내외 기업 대상 OEM/ODM, 온라인 수출처(아마존·쇼피 등)",
+    "price_factors": [
+      {
+        "factor": "경쟁강도",
+        "detail": "시장 성숙·대기업 과점 구조로 가격 및 판촉 경쟁이 심해지면 매출과 마진에 직접적 압박이 발생합니다."
+      },
+      {
+        "factor": "브랜드의존",
+        "detail": "캐릭터 라이선스 의존도가 높아 특정 라이선스 매출 변동이 전체 실적에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "유통확보",
+        "detail": "전국적 유통망(대형할인점·드럭스토어·온라인) 확보 여부가 판매량과 판로 확대에 중요한 변수입니다."
+      },
+      {
+        "factor": "원자재비",
+        "detail": "원부자재비 상승은 영업비용을 증가시켜 영업손익에 부정적 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "환율",
+        "detail": "직접수출과 해외 조달 노출로 달러 등 환율 변동이 매출 및 원가에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "당사의 주요 사업은 오랄케어 제품군, 뷰티케어 제품군, 기타 생활용품으로 구성되어 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "Oral Care(유아용): 2,846 (26.8%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "전체 매출액의 약 33.4%를 차지하고 있으며"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "국내 대형할인점, 수퍼마켓, 드럭스토어 등"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "가격과 판촉에 따른 매출영향을 받는 특징이 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5745,
+    "completion_tokens": 5176,
+    "reasoning_tokens": 4160,
+    "output_tokens": 1016
+  },
+  "warnings": []
+}

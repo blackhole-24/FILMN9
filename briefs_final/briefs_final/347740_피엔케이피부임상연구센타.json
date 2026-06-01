@@ -1,0 +1,62 @@
+{
+  "stock_code": "347740",
+  "corp_name": "피엔케이피부임상연구센타",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 17:04",
+  "meta": {
+    "wics": "생명과학도구및서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "피엔케이피부임상연구센타는 화장품·건강기능식품·미용기기 등 피부에 적용되는 제품의 안전성과 효능을 검증하기 위한 인체적용시험 및 in-vitro 시험을 수행하는 연구센터입니다. 제16기 매출은 228억원(전년 대비 27.7% 증가)으로, 인체적용시험 단일사업을 중심으로 수주와 연구를 직접 수행하고 있습니다.",
+    "business_model": "핵심 사업은 인체적용시험 단일사업(임상 인체적용시험·in-vitro 등)이며, 사업부문별 매출 구성은 화장품 인체적용시험 82.2%, 기타 인체적용시험 11.1%, 기타(인-vitro 등) 6.6%입니다. 화장품 인체적용시험을 중심으로 미용기기·건강기능식품 관련 시험과 빅데이터 컨설팅 서비스를 제공하여 매출을 창출합니다.",
+    "main_customers": "화장품 인체적용시험 — 국내외 화장품 제조·판매회사 / 기타 인체적용시험 — 건강기능식품·미용기기·기타 공산품 제조·판매회사 / 기타 — in-vitro 등 시험을 의뢰하는 기업",
+    "price_factors": [
+      {
+        "factor": "K-뷰티 수요",
+        "detail": "K-뷰티·전방 산업의 성장으로 화장품·건기식·디바이스 분야의 인체적용시험 수요가 증가하여 실적에 영향을 미칩니다."
+      },
+      {
+        "factor": "프로토콜 역량",
+        "detail": "신규 시험법(프로토콜) 개발 역량을 보유한 상위 기관에 의뢰가 집중되는 경향이 있어 수주 확보에 유리합니다."
+      },
+      {
+        "factor": "소비자 눈높이",
+        "detail": "SNS 확산과 소비자 기대 상승으로 제품 효능의 과학적 입증 수요가 늘어나 임상 수요가 증가합니다."
+      },
+      {
+        "factor": "뷰티디바이스",
+        "detail": "홈 뷰티디바이스와 전문 미용기기 확산으로 미용기기 관련 인체적용시험 수요가 확대됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "인체적용시험 및 in-vitro 시험을 수행하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "MD&A(경영진 실적·전략 요약)",
+        "evidence_text": "인체적용시험 서비스 매출액이 당사 매출액의 100%를 구성하는 단일사업이며"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "주요 매출처는 국내외 화장품, 미용기기, 건강기능식품 제조 및 판매회사 등 입니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5523,
+    "completion_tokens": 4266,
+    "reasoning_tokens": 3520,
+    "output_tokens": 746
+  },
+  "warnings": []
+}

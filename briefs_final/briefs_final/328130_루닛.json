@@ -1,0 +1,63 @@
+{
+  "stock_code": "328130",
+  "corp_name": "루닛",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 11:19",
+  "meta": {
+    "wics": "건강관리기술",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "루닛은 2013년 설립된 딥러닝 기반 의료 인공지능 기업으로, 의료영상 분야에 집중하며 글로벌 1세대 의료 인공지능 기업으로 자리잡았습니다. 2024년 Lunit International, Ltd.(구 Volpara)를 인수하며 유방암 검진 전주기를 아우르는 통합 플랫폼 기반을 마련했습니다.",
+    "business_model": "주요 사업은 Cancer Screening(암 진단)과 Oncology(암 치료)으로 구분되며, FY2025 기준 Cancer Screening이 87.5%, Oncology가 12.5%의 영업수익 비중을 차지합니다. Cancer Screening에서는 Lunit INSIGHT(의료영상 판독 보조) 제품군으로 의료기관과 글로벌 의료기기업체 파트너를 통해 판매하고, Oncology에서는 Lunit SCOPE(이미징 바이오마커) 제품을 연구용(RUO)으로 제약사·CRO 등 파트너와 공동연구를 통해 확대하고 있습니다.",
+    "main_customers": "Cancer Screening — 의료기관(유방암 검진센터 등)·글로벌 의료기기 제조사·유통사 / Oncology — 글로벌 제약사·임상시험수탁기관(CRO)·진단검사 수탁기관",
+    "price_factors": [
+      {
+        "factor": "규제(허가)",
+        "detail": "의료기기 허가가 국가별로 상이하고 소요기간이 길어 제품의 해외시장 확대와 실적에 직접적 영향을 미칩니다."
+      },
+      {
+        "factor": "이해관계자",
+        "detail": "환자·의료진·의료기관·보험사 등 다양한 이해관계자에 따른 도입 결정 구조가 제품 채택 속도와 매출 발생에 영향을 줍니다."
+      },
+      {
+        "factor": "규모의 경제",
+        "detail": "시장 확대를 위해서는 글로벌 판매망과 사용기관 수가 중요하며, 설치 기반 확대로 수익성이 개선될 가능성이 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "[DART 사업보고서 — 영업 현황]",
+        "evidence_text": "당사는 2013년에 설립된 딥러닝 기반의 의료 인공지능 기업으로"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "CancerScreening: 67,465 (87.5%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "[DART 사업보고서 — 영업 현황]",
+        "evidence_text": "글로벌 의료기기 제조사 및 유통사와 파트너십을 체결하여"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "[경쟁 환경 및 시장 특성 — price_factors 참고용]",
+        "evidence_text": "의료기기 허가는 글로벌 시장에서 비관세 장벽으로 작용합니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5416,
+    "completion_tokens": 3395,
+    "reasoning_tokens": 2688,
+    "output_tokens": 707
+  },
+  "warnings": []
+}

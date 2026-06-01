@@ -1,0 +1,77 @@
+{
+  "stock_code": "003160",
+  "corp_name": "디아이",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 18:25",
+  "meta": {
+    "wics": "반도체와반도체장비",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "디아이는 1961년 설립되어 1996년 유가증권시장에 상장된 반도체 검사장비 제조업체로 출발했습니다. 주력은 반도체 검사장비(패키지·웨이퍼 테스트 등)이며 Burn-In Board 국내 시장점유율 1위를 보유하는 등 검사장비 분야에서 경쟁우위를 유지하고 있습니다.",
+    "business_model": "주요 사업부문은 반도체 장비, 전자부품, 음향·영상기기, 2차전지 장비 등으로 구성되어 있으며, 사업부문별로는 반도체 장비가 매출의 78.7%를 차지하고 전자부품이 1.0%를 차지합니다. 핵심 제품으로는 Package Burn-In Tester, Burn-In Board(소모성 부품), Wafer Tester(DRAM·DDR5·HBM 등)가 있으며, 최근 HBM Wafer Tester의 대규모 공급과 DDR5 Pkg Tester 판매 증가가 실적을 견인했습니다.",
+    "main_customers": "반도체 장비 — 반도체 제조업체(메모리 업체: DRAM·HBM·NAND 중심) / 전자부품 — 전자기기 제조업체 및 장비 공급사 / 음향·영상기기 — 음향·영상 관련 제조업체 / 2차전지 장비 — 2차전지 제조업체",
+    "price_factors": [
+      {
+        "factor": "메모리 업황",
+        "detail": "메모리 수요 회복과 AI 관련 서버 수요 확대는 DDR5·HBM 검사장비 출하와 실적에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "기술 고도화",
+        "detail": "첨단 검사장비 개발을 위한 지속적 R&D와 제품 신뢰성 확보가 경쟁우위 및 수주 확보에 중요합니다."
+      },
+      {
+        "factor": "구성품 공급망",
+        "detail": "System Integration형 생산 특성상 주요 구성품 공급 안정성이 확보되어야 생산·납품 차질이 줄어듭니다."
+      },
+      {
+        "factor": "주기적 장비 교체",
+        "detail": "장비의 평균 기술수명(약 3~5년)과 세대교체 주기가 투자 수요의 등락을 결정합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 사업의 내용(요약)",
+        "evidence_text": "1961년 3월 16일에 설립되었으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. 사업의 내용(요약)",
+        "evidence_text": "주요 사업은 반도체 검사장비 제조 및 판매"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "반도체 장비: 340,095 (78.7%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "전자부품: 4,474 (1.0%)"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나. 주요 사업부문의 시장여건 및 영업의 개황【 반도체 장비 사업부문 】 (1) 산업의 특성",
+        "evidence_text": "첨단기술 집약적 산업입니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "DRAM, HBM, NAND까지도 검사장비의 수요가 크게 증가"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4685,
+    "completion_tokens": 4551,
+    "reasoning_tokens": 3648,
+    "output_tokens": 903
+  },
+  "warnings": []
+}

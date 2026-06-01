@@ -1,0 +1,67 @@
+{
+  "stock_code": "101680",
+  "corp_name": "한국정밀기계",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 08:07",
+  "meta": {
+    "wics": "기계",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "한국정밀기계는 공작기계(기계를 만드는 기계) 제조업을 영위하는 기업으로, 금속절삭기계 중심의 제품판매와 A/S(정비)를 주요 비즈니스로 하고 있습니다. 제28기(2025년) 매출액은 306억 원으로 전년 대비 52% 감소하며 적자전환하였습니다.",
+    "business_model": "매출은 제품판매(공작기계)이 76.2%를 차지하고, A/S 등 기타가 23.8%를 차지하는 구조로(공작기계 23,616(76.2) / a/s 등 7,356(23.8)), 주문 제작 방식의 공작기계 판매(고객 사양 반영)가 핵심 수익원입니다.",
+    "main_customers": "제품판매(공작기계) — 자동차·항공기·선박 등 기계류의 부품제작을 하는 제조업체 / 기타(a/s) — 공작기계를 보유한 생산공장·제조업체",
+    "price_factors": [
+      {
+        "factor": "설비투자",
+        "detail": "제조업의 설비투자 동향에 민감하여 설비투자가 줄면 수요 감소로 매출에 직접적인 영향을 받을 수 있습니다."
+      },
+      {
+        "factor": "자동차 수요",
+        "detail": "공작기계 수요가 특히 자동차 관련 산업에 큰 영향을 받아 자동차업종의 설비투자 변동이 실적에 민감하게 작용합니다."
+      },
+      {
+        "factor": "기술변화",
+        "detail": "마이크로머신·신소재·레이저 등 기술혁신이 빠르고 제품의 라이프사이클이 짧아져 신기술 적응 여부가 경쟁력에 영향합니다."
+      },
+      {
+        "factor": "주문제작 단가",
+        "detail": "주문 제작 중심 구조로 고객 사양에 따라 제품별 단가가 달라 매출단가 변동성이 큽니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "제28기 2025년 당사 매출액은 306억 원으로 전년에 비에 52% 감소하였습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "23,616(76.2)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "(다) 공작기계산업의 발전과 특성",
+        "evidence_text": "그 활용분야는 주로 자동차, 항공기, 선박을 포함한 기계류의 부품제작에 활용되며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황 (주2) 주요가격 변동 요인",
+        "evidence_text": "주2) 주요가격 변동 요인 : 주문 제작에 의한 생산인 이유로"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4221,
+    "completion_tokens": 4141,
+    "reasoning_tokens": 3392,
+    "output_tokens": 749
+  },
+  "warnings": []
+}

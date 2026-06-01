@@ -1,0 +1,77 @@
+{
+  "stock_code": "082210",
+  "corp_name": "옵트론텍",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 06:13",
+  "meta": {
+    "wics": "전자장비와기기",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "옵트론텍은 1989년 광학부품 국산화를 모토로 설립된 광학·정밀기기 기업으로, 이미지센서용 필터·광학렌즈·광학 액츄에이터 등 광학부품을 제조·판매합니다. 2025년 연결기준 매출액은 약 1,957억원으로, 광학 핵심부품을 중심으로 다년간 기술경쟁력을 유지해 왔습니다.",
+    "business_model": "주요 사업은 이미지센서용 필터, 광학렌즈 및 모듈, 광학 액츄에이터 및 기타 제품으로 구성되며, 2025년 사업부문별 매출 비중은 이미지센서용 필터 30.0%, 광학렌즈 및 모듈 18.2%, 광학 액츄에이터 48.4%, 기타 3.3%입니다. 제품은 주로 모바일·CCTV·차량용 카메라 용도로 공급되며, 제품 단가는 고객사와 반기 또는 분기 단위로 협상되어 결정됩니다(단가 인하 주기적 발생).",
+    "main_customers": "이미지센서용 필터 — 휴대폰·태블릿 등 모바일 기기 카메라 / 광학렌즈 및 모듈 — CCTV·차량용 카메라 / 광학 액츄에이터 — 스마트폰용 카메라의 광학 줌 장치 / 기타 — 명시적 고객군 미기재",
+    "price_factors": [
+      {
+        "factor": "제품단가 하락",
+        "detail": "IT 제품 특성상 제품 수명주기가 짧아 정기적 단가 인하가 실적과 수익성에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "기술융합",
+        "detail": "광전자 융합·정밀센싱·AI 기반 영상처리 등 기술 확산은 제품 경쟁력 및 고부가가치 전개에 영향을 줍니다."
+      },
+      {
+        "factor": "고화소·기능고도",
+        "detail": "이미지센서의 고화소·자동초점·광학줌 등 기능 고도화는 고성능 필터·렌즈 수요를 자극합니다."
+      },
+      {
+        "factor": "신규시장 수요",
+        "detail": "스마트 팩토리·로봇 등 신규시장 확대는 산업용 렌즈 수요 증가로 이어져 사업 포트폴리오에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "1989년 광학부품 국산화를 모토로 설립한 당사는"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "이미지센서용 필터: 58,818 (30.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 주요 제품의 내용",
+        "evidence_text": "휴대폰, 태블릿 등 모바일 기기의 카메라에 적용되는 1)광학필터"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나. 주요 제품의 가격변동 추이",
+        "evidence_text": "당사가 제조 및 판매하는 제품의 단가 인하도 주기적으로 진행되고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 업계의 현황",
+        "evidence_text": "광전자 융합, 정밀센싱, AI 기반 영상처리 기술로 확대되는 추세입니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "스마트 팩토리 및 로봇 산업 등 신규시장 확대로 인한 산업용 렌즈 수요 증가"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3696,
+    "completion_tokens": 5565,
+    "reasoning_tokens": 4608,
+    "output_tokens": 957
+  },
+  "warnings": []
+}

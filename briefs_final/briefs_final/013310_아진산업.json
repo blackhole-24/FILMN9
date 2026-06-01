@@ -1,0 +1,76 @@
+{
+  "stock_code": "013310",
+  "corp_name": "아진산업",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 09:48",
+  "meta": {
+    "wics": "자동차부품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "아진산업은 1978년 5월 31일 설립된 자동차 부품 기업으로, 경상북도 경산시에 본사와 1공장, 경주시에 입실공장과 구어공장을 두고 있습니다. 주로 현대자동차에 차체부품을 공급해 왔고, 관계회사들 역시 현대·기아자동차를 주요 고객으로 두고 있습니다. 미국과 중국 법인에도 진출해 해외 생산·공급 기반을 넓혀 온 점이 특징입니다.",
+    "business_model": "매출의 88.0%가 자동차차체부품에서 발생하고, 기타매출이 12.0%를 차지합니다. 자동차차체부품은 현대자동차 등 완성차 업체에 공급하는 OEM(주문자상표부착생산) 부품이 중심이며, 차체부품뿐 아니라 차량용 블랙박스, 어라운드 뷰(AVM, 주변을 보여주는 영상 시스템) 같은 자동차 IT 부품 기술도 보유하고 있습니다. 최근에는 해외 현지법인 확대와 CAPA(생산능력) 증설, 원가절감, 품질향상을 통해 수익구조 개선을 추진하고 있습니다.",
+    "main_customers": "자동차차체부품 — 현대자동차, 기아자동차 등 완성차 업체 / 기타매출 — 제공된 데이터에서 세부 고객 유형 미기재",
+    "price_factors": [
+      {
+        "factor": "완성차 수요",
+        "detail": "국내외 자동차 수요 회복과 생산물량 증가는 부품 납품량 확대를 통해 실적에 직접 영향을 줍니다."
+      },
+      {
+        "factor": "차종변화",
+        "detail": "양산차종의 모델 연수와 모델 변화(ECO)가 판매 가격에 영향을 주며, 단가 변동 폭은 크지 않더라도 실적에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "원재료가",
+        "detail": "원재료(COIL) 가격 변동은 제품 판매가격과 원가에 영향을 줘 수익성에 변수가 됩니다."
+      },
+      {
+        "factor": "경쟁입찰",
+        "detail": "부품 개발에 경쟁 입찰제가 확대되면 업체 간 경쟁이 심해져 제품 단가 하락 압력이 커질 수 있습니다."
+      },
+      {
+        "factor": "글로벌화",
+        "detail": "완성차 업체의 해외 현지 생산 확대에 맞춰 현지법인과 글로벌 공급망 대응 능력이 중요해집니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "MD&A > 경영진 실적·전략 요약",
+        "evidence_text": "당사는 1978년5월31일에 설립되어"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "MD&A > 경영진 실적·전략 요약",
+        "evidence_text": "현대자동차에 주로 차체부품을 판매하고"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "자동차차체부품: 891,080 (88.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "기타매출: 117,788 (12.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "MD&A > 경영진 실적·전략 요약",
+        "evidence_text": "당사 뿐만 아니라 관계회사 대부분도 현대.기아자동차가 주요 고객입니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5700,
+    "completion_tokens": 875,
+    "reasoning_tokens": 0,
+    "output_tokens": 875
+  },
+  "warnings": []
+}

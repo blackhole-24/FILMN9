@@ -1,0 +1,67 @@
+{
+  "stock_code": "234030",
+  "corp_name": "싸이닉솔루션",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 13:12",
+  "meta": {
+    "wics": "반도체와반도체장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "싸이닉솔루션은 디자인하우스(파운드리용 설계 대행) 기업으로, 레거시 공정(45nm 이상, 8인치 웨이퍼 중심)을 기반으로 가전·모바일·자동차 등 다양한 산업 분야에 반도체 칩을 공급합니다. 특히 중국 시장에서의 공략을 통해 2018년 이후 연평균 20% 이상의 매출 성장을 이어왔습니다.",
+    "business_model": "사업부문별로 FY2025 기준 ASIC이 53.6%로 가장 큰 비중을 차지하며, CIS 22.7%, DDI(HV) 9.9%, 기타 13.3%, ASSP 0.5%의 매출 구성을 보입니다. 매출은 개발(디자인서비스) 단계의 개발매출과 양산 단계의 ASIC/ASSP 등 제품매출로 발생하며, IP·웨이퍼 관련 수수료 및 국내 팹리스 제품의 해외 판매(상품매출)도 일부를 차지합니다.",
+    "main_customers": "ASIC — 팹리스 고객사 / CIS — 팹리스 고객사 / DDI (HV) — 팹리스 고객사 / ASSP — 다수의 세트 제조사 / 기타 — IP회사·Raw 웨이퍼 제조사·국내 팹리스",
+    "price_factors": [
+      {
+        "factor": "공정 전환",
+        "detail": "초미세 파운드리 공정 전환이 가속화되면 레거시 공정(45nm 중심)에 의존하는 구조는 수주 및 경쟁구도에 영향을 받을 수 있습니다."
+      },
+      {
+        "factor": "국제통상",
+        "detail": "미중 무역갈등 및 관세 등 글로벌 통상이슈는 수요 정체와 매출 변동성으로 연결될 수 있습니다."
+      },
+      {
+        "factor": "고객 인식",
+        "detail": "일부 고객의 매출 인식 방법 변경은 당사의 매출·이익 실적에 직접적인 변동을 초래할 수 있습니다."
+      },
+      {
+        "factor": "중국 시장",
+        "detail": "중국 관련 판매 비중과 현지 수요 변화는 매출 성장률에 직접적인 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "나. 시장현황 및 영업의 개황 (1) 산업의 구조",
+        "evidence_text": "당사도 디자인하우스 기업에 속합니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. 주요제품 설명 (1) ASIC 매출",
+        "evidence_text": "당사는 팹리스 고객에게 맞춤형 파운드리 서비스를 제공하며,"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 주요제품 설명",
+        "evidence_text": "IR receiver IC와 Payment IC는 다수의 세트 제조사에게 판매를 할 수 있어 ASSP 매출로 분류를 하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "미중간의 무역 갈등과 미국의 상호관세 부과에 따른 글로벌 통상이슈와 복잡한 국제 정세로 인하여 성장이 정체된 한해 였습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5887,
+    "completion_tokens": 4897,
+    "reasoning_tokens": 4096,
+    "output_tokens": 801
+  },
+  "warnings": []
+}

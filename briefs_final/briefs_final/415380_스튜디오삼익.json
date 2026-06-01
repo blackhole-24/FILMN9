@@ -1,0 +1,69 @@
+{
+  "stock_code": "415380",
+  "corp_name": "스튜디오삼익",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 19:08",
+  "meta": {
+    "wics": "가구",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "스튜디오삼익은 온라인 채널 중심의 홈퍼니싱(가정용 가구) 유통사업을 영위하는 기업으로, 자체 제조시설 없이 제조 협력업체를 통해 제품을 생산·공급합니다. 주요 브랜드로는 삼익가구, 스칸디아, 스튜디오슬립, 죽산목공소가 있으며, 매출 대부분이 30여 곳의 온라인 플랫폼을 통해 발생합니다. 최근 연간 매출은 95,931백만원으로 전년 대비 감소했습니다.",
+    "business_model": "핵심은 온라인 플랫폼을 통한 상품매출로, 제품 기획·디자인·마케팅·C/S 등은 자체 수행하되 제조는 협력업체(OEM/ODM)를 통해 진행합니다. 적시생산·적시배송 체계(풀필먼트)를 구축하여 제조 협력사 및 물류 위탁업체 간 배송 프로세스를 관리·감독하는 유통 중심 모델입니다.",
+    "main_customers": "상품매출 — 온라인 플랫폼을 이용하는 최종 소비자(플랫폼: 네이버 스마트스토어, 쿠팡, 오늘의집 등 / 브랜드별 타깃: 삼익가구는 2030세대·1인 가구, 스칸디아는 2040세대, 스튜디오슬립은 구매력이 높은 다세대 가구) / 기타매출 — 보고서에 구체적 고객군 미기재",
+    "price_factors": [
+      {
+        "factor": "채널적응력",
+        "detail": "온라인 채널 트렌드 변화에 대한 대응력이 부족하면 플랫폼 판매 비중이 큰 만큼 매출·실적이 하락할 수 있습니다."
+      },
+      {
+        "factor": "브랜드가치",
+        "detail": "진입장벽이 낮고 제품 유사성이 높아 브랜드 차별화 실패 시 경쟁 심화로 마진 압박을 받을 수 있습니다."
+      },
+      {
+        "factor": "소득·인구",
+        "detail": "홈퍼니싱은 소비자 소득수준 및 인구구조 변화에 민감하여 수요 변동이 실적에 직접 영향합니다."
+      },
+      {
+        "factor": "물류경쟁",
+        "detail": "풀필먼트(적시생산·적시배송) 역량이 약화되면 배송지연·비용 증가로 판매경쟁력에 부정적 영향을 받을 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "온라인 홈퍼니싱 유통사업을 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "별도의 제조시설을 보유하지 아니하고"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "매출의 대부분은 30여 곳의 온라인 플랫폼"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "라. 시장의 현황 및 전망(1) 시장의 특성",
+        "evidence_text": "온라인 채널 트랜드 변화에 대한 대응력이 중시되며"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 5873,
+    "completion_tokens": 4494,
+    "reasoning_tokens": 3712,
+    "output_tokens": 782
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

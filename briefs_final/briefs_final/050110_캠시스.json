@@ -1,0 +1,66 @@
+{
+  "stock_code": "050110",
+  "corp_name": "캠시스",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:02",
+  "meta": {
+    "wics": "핸드셋",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "캠시스는 스마트폰, 태블릿 등 모바일 IT기기에 들어가는 소형 카메라모듈을 생산·공급하는 기업입니다. 본사는 인천에 있고, 베트남·중국·인도네시아에 해외생산법인을 두고 있으며, 카메라모듈 중심의 CM사업과 생체·바이오 센서모듈 신규사업을 함께 영위하고 있습니다.",
+    "business_model": "사업부문별 매출 구성은 모바일/IT부품 부문이 100%로, 현재 매출은 모두 이 부문에서 발생하고 있습니다. CM사업(카메라모듈 사업)은 본사가 마케팅·원자재 조달·R&D를 맡고, 베트남 생산법인에서 양산해 고객사에 공급하는 구조이며, 신규사업은 본사 R&D를 기반으로 향후 양산 체계를 준비하고 있습니다. 카메라모듈은 스마트폰 등 모바일 기기의 핵심 부품으로, 수주 경쟁과 분기별 단가 인하, 환율 변동의 영향을 받는 사업입니다.",
+    "main_customers": "모바일/IT부품 부문 — 삼성전자 / CM사업 — 모바일 IT기기 제조 고객사 / 신규사업 — IoT기기·웨어러블 제품 관련 고객사",
+    "price_factors": [
+      {
+        "factor": "수주경쟁",
+        "detail": "카메라 모듈은 수주 경쟁이 치열해 단가가 낮아지기 쉬우며, 이는 매출과 수익성에 직접적인 압박으로 이어질 수 있습니다."
+      },
+      {
+        "factor": "환율",
+        "detail": "거래 통화가 달러화라서 환율 변화에 따라 판매 가격이 달라지고, 실적 변동성도 커질 수 있습니다."
+      },
+      {
+        "factor": "스마트폰경기",
+        "detail": "주요 수요처가 스마트폰 시장이어서 전방 산업이 좋을 때 주문이 늘고, 경기 둔화 시에는 수요가 줄 수 있습니다."
+      },
+      {
+        "factor": "프리미엄수요",
+        "detail": "온디바이스 AI(기기 내 인공지능)와 프리미엄 제품 수요가 늘면 고사양 카메라모듈 수요 확대에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "신규응용처",
+        "detail": "IoT, 로봇, 드론, 생활가전 등으로 적용 분야가 넓어지면 카메라모듈 수요 기반이 확장될 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 스마트폰, 태블릿 등 모바일 IT기기에 탑재되는 소형 카메라모듈을 생산/공급하는 CM사업"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "모바일/IT부품 부문 | 제품 및 상품 | ... | 489,937 (100%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "2025년 누적 매출액은 4,899억원으로 ... 주요 매출처는 삼성전자입니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5492,
+    "completion_tokens": 804,
+    "reasoning_tokens": 0,
+    "output_tokens": 804
+  },
+  "warnings": []
+}

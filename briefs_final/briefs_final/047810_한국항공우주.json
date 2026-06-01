@@ -1,0 +1,72 @@
+{
+  "stock_code": "047810",
+  "corp_name": "한국항공우주",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 02:24",
+  "meta": {
+    "wics": "우주항공과국방",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "한국항공우주는 항공기·우주선·위성체·발사체 및 관련 부품의 설계·제조·판매·정비를 영위하는 기업으로, 군용기 개발·생산과 우주사업으로 사업 영역을 확장하고 있습니다. 제27기 연결기준 매출은 3조 6,964억원이며, 별도기준 수주 잔고는 27조 3,437억원에 달합니다.",
+    "business_model": "주요 수익원은 고정익·회전익·기체 등 완제기와 부품의 개발·양산 및 군수 후속지원(성능개량·정비)이며, 우주(위성·발사체)와 민수 기체 부문도 확대 중입니다. 사업부문별 영업수익 구성은 고정익부문 38.3%, 정부방산 기타 등 7.3%, 회전익부문 17.6%, 기체부문 27.3%, 기타 9.6%로 구성되어 있습니다(전사적 R&D 비율: 매출 대비 4.52%).",
+    "main_customers": "고정익부문 — 한국정부(방위사업청) 및 해외 수출국(폴란드 등) / 회전익부문 — 국내 정부·공공기관(예: 산림청) 및 해외 고객 / 기체부문 — Boeing·Airbus·IAI 등 항공기 제작업체 및 민항사",
+    "price_factors": [
+      {
+        "factor": "공급망 상황",
+        "detail": "부품·생산 공급망 병목이 완화되면 민수 기체 부문 납품 회복과 증산으로 실적 개선에 기여합니다."
+      },
+      {
+        "factor": "국제 무역정책",
+        "detail": "미국 등 주요국의 관세·무역정책 변화는 항공화물·민항기 수요 흐름을 통해 기체 및 부품 매출에 영향줄 수 있습니다."
+      },
+      {
+        "factor": "국방 예산",
+        "detail": "글로벌·국내 국방예산 확대와 군비경쟁 심화는 군용기 수요와 방산 수주에 우호적으로 작용합니다."
+      },
+      {
+        "factor": "환율(원화)",
+        "detail": "환율 상승 시 수출 부문 매출의 원화 환산 이익이 개선되어 수익성에 긍정적 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 영업 현황",
+        "evidence_text": "당사와 종속회사는 항공기, 우주선, 위성체, 발사체 및 동 부품에 대한 설계, 제조, 판매, 정비 등의 사업을 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "고정익부문: 1,387,902 (38.3%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 영업 현황",
+        "evidence_text": "당사의 방위사업청 등을 대상으로 한 내수 비율은 48.42%이며, 이 외에 Boeing, Airbus, IAI 등 26.05%, 폴란드 등 완제기 수출국이 25.53%로 매출처가 구성되어 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 영업 현황",
+        "evidence_text": "당기말 별도재무제표 기준으로 당사의 매출액 대비 연구 및 개발비 비율은 4.52%입니다."
+      },
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 영업 현황",
+        "evidence_text": "보고서 작성일 기준 당사의 별도재무제표 기준 수주 잔고는 27조 3,437억원입니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5321,
+    "completion_tokens": 3913,
+    "reasoning_tokens": 2944,
+    "output_tokens": 969
+  },
+  "warnings": []
+}

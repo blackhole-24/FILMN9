@@ -1,0 +1,67 @@
+{
+  "stock_code": "100220",
+  "corp_name": "비상교육",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 07:52",
+  "meta": {
+    "wics": "교육서비스",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "비상교육은 1997년 '비유와상징'이라는 교육출판 전문회사로 출발했으며, 지배회사와 계열사를 통해 유·초·중·고(K-12) 대상 교육 콘텐츠를 개발·제공하는 교육 전문기업입니다. 출판 중심의 전통적 사업을 바탕으로 온라인·에듀테크(교육기술) 등으로 영역을 확장하며 컨텐츠 기반의 종합교육회사로 자리잡고 있습니다.",
+    "business_model": "사업은 출판사업, T-러닝사업, 기타사업으로 구분되며 2025년 연결기준 매출에서 출판사업이 66.9%, T-러닝사업이 30.4%, 기타가 2.7%를 차지합니다. 출판사업은 교과서·AI 디지털교과서·부교재(완자·오투·한끝 등)를, T-러닝은 스마트학습지 '온리원'·학원 프랜차이즈·영어·수학 콘텐츠 및 SW를 핵심 수익원으로 둡니다.",
+    "main_customers": "출판사업 — 학교·학원·초·중·고 학생 / T-러닝사업 — 유아·초·중학생·학원·유아교육기관 / 기타사업 — 교육기관(공교육·사교육) 및 글로벌·시설 고객",
+    "price_factors": [
+      {
+        "factor": "에듀테크 보급",
+        "detail": "에듀테크 도입 확대로 디지털 교과서·플랫폼 수요가 증가해 출판과 플랫폼 제품의 매출 구성에 영향."
+      },
+      {
+        "factor": "교육정책 변동",
+        "detail": "입시제도 및 교육과정(개정 교육과정) 변화는 교과서·부교재 채택과 수요에 직접적 영향을 미칩니다."
+      },
+      {
+        "factor": "학령인구 감소",
+        "detail": "학령인구 감소는 시장 전체 규모 축소 요인이나 공교육 고도화·사교육 프리미엄화로 사업별 수요 차별화가 발생합니다."
+      },
+      {
+        "factor": "AI·정책 리스크",
+        "detail": "AI디지털교과서 사업 축소 및 관련 분쟁 등 정책·사업 리스크가 참여기업의 실적·현금흐름에 영향을 미칠 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "유ㆍ초ㆍ중ㆍ고교생을 대상으로 교육 콘텐츠를 개발하고 제공하는 교육 전문 기업입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "K-IFRS 기준에 따라 지배회사 및 연결대상종속회사들이 영위하는 사업은 크게출판사업부문, T-러닝사업부문, 기타사업부문으로 구분됩니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "학교,학원 강의 및 자율학습用"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "교육 산업에는 2010년대 이후 빠른 속도로 에듀테크(EdTech)가 도입되고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5730,
+    "completion_tokens": 4294,
+    "reasoning_tokens": 3456,
+    "output_tokens": 838
+  },
+  "warnings": []
+}

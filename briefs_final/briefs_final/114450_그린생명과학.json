@@ -1,0 +1,67 @@
+{
+  "stock_code": "114450",
+  "corp_name": "그린생명과학",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 08:47",
+  "meta": {
+    "wics": "제약",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "그린생명과학은 정밀화학 기반 소재의 개발·생산·판매를 주력으로 하는 기업으로, 의약품 원료·중간체와 전자재료, 작물보호제 등을 공급합니다. 대용량 반응기와 공정개발 역량을 바탕으로 다국적 제약사 대상의 CMO(위탁생산)를 핵심 전략으로 삼고 있습니다.",
+    "business_model": "주요 사업은 '의약품, 농예약품, 전자재료 등 제조 및 판매'로 전체 매출의 97.2%를 차지하며, 기타가 2.8%를 차지합니다. 핵심 수익원은 포스겐(화학반응)·수소화 반응 등 기술을 활용한 원료의약품·중간체의 대량생산 및 다국적 제약사 대상 CMO(위탁생산) 서비스입니다.",
+    "main_customers": "의약품·중간체 공급 — 글로벌 제약회사 및 소재 기업 / 전자재료 공급 — 반도체·디스플레이 업체 / CMO(위탁생산) — 다국적 제약사",
+    "price_factors": [
+      {
+        "factor": "포스겐 기술",
+        "detail": "포스겐 반응 기술의 보유 여부가 고부가가치 중간체 수주와 생산 단가 우위를 결정할 수 있습니다."
+      },
+      {
+        "factor": "수소화 능력",
+        "detail": "대용량 수소화 반응 설비는 생산 스케일 확보로 수주 대응력과 매출 안정성에 영향을 미칩니다."
+      },
+      {
+        "factor": "원재료 비용",
+        "detail": "원재료·인건비·운송비·유틸리티 등 비용 변동은 판매가격 협상과 수익성에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "전자재료 수요",
+        "detail": "반도체·디스플레이 산업의 성장세가 전자기판·QLED 소재 수요 확대를 통한 실적에 연동될 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "의약품 원료 및 중간체, 전자재료 및 작물보호제"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "의약품, 농예약품,전자재료 등 제조 및 판매: 24,578 (97.2%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "글로벌 제약회사 및 소재 기업에 원료 및 중간체를 안정적으로 공급"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 핵심 보유기술",
+        "evidence_text": "대용량 수소화 반응 기술은 국내에서는 독보적인 존재"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4307,
+    "completion_tokens": 3106,
+    "reasoning_tokens": 2368,
+    "output_tokens": 738
+  },
+  "warnings": []
+}

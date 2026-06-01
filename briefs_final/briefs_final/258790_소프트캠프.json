@@ -1,0 +1,69 @@
+{
+  "stock_code": "258790",
+  "corp_name": "소프트캠프",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 14:02",
+  "meta": {
+    "wics": "소프트웨어",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "소프트캠프는 1999년에 설립된 문서보안에 특화된 정보보안솔루션 전문기업으로, 기업 내부정보 보호와 외부 위협 차단을 위한 솔루션을 개발·공급합니다. 하이브리드 워크 확산과 전자문서 증가에 따라 문서 중심 보안(Document-centric security) 분야를 핵심으로 사업을 전개하고 있습니다.",
+    "business_model": "주력 사업은 문서보안 DRM(문서 권한 관리) 계열 제품과 영역DRM, 클라우드 보안 서비스, 제로 트러스트(Zero Trust: 신뢰하지 않는 접속 차단) 기반 솔루션으로 구성되어 있습니다. 주요 제품군은 Document Security(로컬 문서 암호화), SHIELD DRM(클라우드 네이티브 DRM), SHIELD Drive(클라우드 스토리지 보안 브로커), SHIELDEX Remote Browser(원격 브라우저 격리) 등으로, 소프트웨어 라이선스·제품 매출과 유지보수·서비스로 수익을 창출합니다.",
+    "main_customers": "문서DRM — 대기업·그룹사 및 금융권 / 영역DRM — 기업 및 금융권 / 클라우드서비스 — 기업·중소기업(개인정보 취급 사업자) / 국방 등 — 정부기관 및 공공부문 / 유지보수매출 — 기존 도입 고객(대기업·금융권 등)",
+    "price_factors": [
+      {
+        "factor": "전자문서 증가",
+        "detail": "업무문서의 전자화 확대는 문서보안 수요를 늘려 제품 도입과 유지보수 매출에 긍정적 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "하이브리드 근무",
+        "detail": "사무 공간 경계 소멸로 보안 요구가 다양화되면서 원격·협업 환경에 맞춘 보안 서비스 수요가 확대됩니다."
+      },
+      {
+        "factor": "시장경쟁",
+        "detail": "DRM 솔루션을 표방하는 사업자가 늘어나면서 제품 차별화와 품질이 실적에 더 큰 영향을 미칩니다."
+      },
+      {
+        "factor": "진입장벽",
+        "detail": "시스템 성격의 보안솔루션 특성상 초기 도입 후 교체가 어렵기 때문에 기존 고객 충성도가 장기 실적 안정성에 유리하게 작용할 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "당사는 1999년에 설립된 문서보안에 특화된 정보보안솔루션 전문기업으로"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 주요 제품 및 서비스",
+        "evidence_text": "로컬 문서 암호화 - Document Security(도큐먼트 시큐리티)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 국내외 시장 여건",
+        "evidence_text": "국내 주요 대기업인 현대자동차 그룹, SK, HKMC, 한화, 신세계그룹 등"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 국내외 시장 여건",
+        "evidence_text": "업무문서 70% 이상이 전자문서로 유통되는"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 5486,
+    "completion_tokens": 4099,
+    "reasoning_tokens": 3264,
+    "output_tokens": 835
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

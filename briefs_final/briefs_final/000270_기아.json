@@ -1,0 +1,98 @@
+{
+  "stock_code": "000270",
+  "corp_name": "기아",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 09:38",
+  "meta": {
+    "wics": "자동차",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "기아는 완성차와 부분품의 제조·판매를 주력으로 하는 자동차 회사로, 렌트 및 정비용역도 함께 영위하고 있습니다. 국내 생산공장은 광명, 화성, 광주, 서산(위탁생산)에 있고, 해외 생산공장은 미국, 슬로바키아, 멕시코, 인도에 있습니다. 2025년 기준 생산능력은 311만 4천대, 생산실적은 285만 1,092대로 가동률은 91.6%였습니다.",
+    "business_model": "기아는 연결실체 기준으로 하나의 사업부문으로 운영되며, 완성차와 부분품의 제조·판매가 핵심입니다. 주요 제품은 승용, RV(레저용 차량), 상용으로 나뉘며, 승용은 모닝·레이·K5·K8·K9·EV4, RV는 니로·셀토스·스포티지·쏘렌토·카니발·타스만·EV3·EV5·EV6·EV9·PV5 패신저, 상용은 봉고 트럭·대형 버스·PV5 카고 등입니다. 렌트 및 정비부문은 연결실체 전체 매출에서 차지하는 비중이 중요하지 않아 단일 사업부문으로 공시되었습니다.",
+    "main_customers": "완성차 — 국내외 개인 소비자, 법인 고객, 렌트·운행 관련 수요처 / 부분품 — 협력회사 및 계열회사 / 렌트 및 정비 — 차량 이용 고객 및 정비 수요 고객",
+    "price_factors": [
+      {
+        "factor": "수요변동",
+        "detail": "자동차 수요는 경기 변동과 밀접해 경기 침체기에는 소비가 둔화되며 판매 실적에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "관세환경",
+        "detail": "미국 관세가 커지면 매출원가가 상승해 영업이익에 부담이 될 수 있고, 실제로 2025년 영업이익 감소 요인으로 언급되었습니다."
+      },
+      {
+        "factor": "환율효과",
+        "detail": "우호적인 환율은 ASP(평균판매단가) 상승세에 도움이 되어 매출 증가에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "신차효과",
+        "detail": "타스만, PV5, EV4, EV5 같은 신차 출시는 신규 세그먼트와 친환경차 수요를 넓혀 판매 확대에 영향을 줍니다."
+      },
+      {
+        "factor": "과점구조",
+        "detail": "자동차 산업은 대규모 장치 산업이라 진입 장벽이 높고 소수 업체 중심의 과점 체제가 형성되어 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "보고서 작성 기준일 현재 완성차 및 부분품의 제조ㆍ판매, 렌트 및 정비용역을 사업으로 영위하고 있습니다."
+      },
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "2025년 기준 생산능력은 3,114,000대이고, 생산실적은 2,851,092대로 가동률은 91.6%였습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "연결실체는 하 나의 사업부문으로 구성됨."
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "주요 제품은 완성차로 승용, RV, 상용 등으로 구분하고 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "주요 원재료는 엔진, 미션, 모듈 등의 부품과 철판, 페인트 등의 원자재 및 기타로 구성"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "자동차 수요는 경기 변동과 밀접한 관계를 맺고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "2분기부터 본격화된 미국 관세 영향으로 매출원가가 크게 상승"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "우호적인 환율효과로 ASP 상승세를 지속"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "타스만, PV5 신차 출시를 통해 신규 세그먼트 수요를 확대"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4970,
+    "completion_tokens": 1225,
+    "reasoning_tokens": 0,
+    "output_tokens": 1225
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

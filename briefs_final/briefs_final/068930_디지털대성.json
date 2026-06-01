@@ -1,0 +1,76 @@
+{
+  "stock_code": "068930",
+  "corp_name": "디지털대성",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 05:07",
+  "meta": {
+    "wics": "교육서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "디지털대성은 당사와 3개의 종속회사를 통해 초·중·고교생 및 N수생을 대상으로 교육 콘텐츠를 제공하는 교육 기업입니다. 온라인 이러닝과 오프라인 학원(프랜차이즈 포함) 운영을 병행하며, 2025년 연결 기준 매출액은 2,538억원, 영업이익은 316억원을 기록했습니다.",
+    "business_model": "사업부문별로 고등 부문(이러닝 중심)이 전체 매출의 84.0%를 차지해 주요 수익원이 되며, 초·중등 부문(독서논술 및 프랜차이즈)이 15.5%, 기타 부문이 0.5%로 구성됩니다. 핵심 서비스는 독서논술 교육, 재학생전문 학원(프랜차이즈), 고등 대상 온라인 강의(수능·내신·대학별고사), 국어콘텐츠 및 오프라인 학원 운영 등입니다.",
+    "main_customers": "초ㆍ중등 부문 — 초·중학생 / 고등 부문 — 고등학생 및 N수생 / 기타 부문 — 기타 교육용역 수요자",
+    "price_factors": [
+      {
+        "factor": "교육정책",
+        "detail": "정부의 교육정책·입시제도 변화는 콘텐츠 수요 구조와 학원 운영 규제에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "학령인구",
+        "detail": "출산율 저하로 학령인구가 감소하면 장기적으로 신규 수요가 축소될 수 있으나 단기적 사교육비 증가로 매출에 영향이 발생합니다."
+      },
+      {
+        "factor": "온라인전환",
+        "detail": "고등 이러닝 비중이 크므로 온라인 교육 수요 확대나 축소가 실적에 직접 연결됩니다."
+      },
+      {
+        "factor": "법규·규제",
+        "detail": "학원 설립·운영 관련 법률 및 개인정보·저작권 규제 준수 여부가 운영비용과 서비스 제공에 영향을 줍니다."
+      },
+      {
+        "factor": "시장진입",
+        "detail": "독서논술 등 일부 서비스는 진입장벽이 낮아 경쟁 심화 시 브랜드·콘텐츠 차별화가 중요합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "[DART 사업보고서 — 영업 현황]",
+        "evidence_text": "초ㆍ중ㆍ고교생 및 N수생을 대상으로 교육 콘텐츠를 제공"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "1. 초ㆍ중등 부문: 39,366,349 (15.5%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "2. 고등 부문: 213,225,242 (84.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "[DART 사업보고서 — 영업 현황]",
+        "evidence_text": "초ㆍ중학교생을 대상으로 사업을 영위하는 독서논술교육 영역"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "[DART 사업보고서 — 영업 현황]",
+        "evidence_text": "당사는 ... 정부의 교육정책과 입시제도의 변화 ...에 영향을 받습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4759,
+    "completion_tokens": 3207,
+    "reasoning_tokens": 2368,
+    "output_tokens": 839
+  },
+  "warnings": []
+}

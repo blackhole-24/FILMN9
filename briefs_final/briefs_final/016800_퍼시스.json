@@ -1,0 +1,76 @@
+{
+  "stock_code": "016800",
+  "corp_name": "퍼시스",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 09:50",
+  "meta": {
+    "wics": "가구",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "퍼시스는 1983년 창업한 사무용 가구 전문기업으로, 품질과 디자인, 생산 자동화와 직접 물류를 바탕으로 국내 시장에서 알려진 가구 회사입니다. 전국 250여 개 전문 유통 대리점을 통해 국내 영업을 전개하고, 해외에서는 1986년부터 시작한 사무용 가구 사업을 기반으로 38개국에 FURSYS 단일 브랜드로 수출하고 있습니다.",
+    "business_model": "회사는 가구업을 주력으로 하며 사업부문을 따로 구분하지 않고 있습니다. 매출은 상제품매출이 343,563,666,565원으로 약 95.9%, 인테리어공사매출이 13,159,552,196원으로 약 3.7%, 기타매출이 1,476,326,431원으로 약 0.4%를 차지합니다. 사무가구 중심의 제품 판매와 함께 인테리어공사, 기타 매출이 보조적으로 더해지는 구조입니다.",
+    "main_customers": "상제품매출 — 사무용 가구를 직접 사용하는 기업체 등 법인(구매담당자) / 인테리어공사매출 — 사무공간 조성·개편이 필요한 고객 / 기타매출 — 세부 고객 정보 미제공",
+    "price_factors": [
+      {
+        "factor": "경기변동",
+        "detail": "사무가구 업계는 경기 사이클에 따라 시장 규모가 결정되어, 경기 둔화 시 수요와 실적이 함께 약해질 수 있습니다."
+      },
+      {
+        "factor": "성수기",
+        "detail": "사무가구는 봄과 겨울이 성수기라서 해당 시기에 발주와 판매가 늘어날 가능성이 있습니다."
+      },
+      {
+        "factor": "시장규모",
+        "detail": "사무가구 업계 시장 규모가 약 1조 3천억원 수준으로 추정되어, 시장의 성장 여력과 경쟁 강도가 실적에 영향을 줍니다."
+      },
+      {
+        "factor": "대리점망",
+        "detail": "전국 250여 개 전문 유통 대리점을 통한 판매 구조는 영업력과 고객 접근성에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "해외수출",
+        "detail": "38개국 수출과 해외 활로 개척 여부는 내수 부진을 보완하는 성장 요인이 될 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 가. 사업의 내용",
+        "evidence_text": "당사는 1983년 창업 이후 사무용 가구에만 주력하며"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 가. 사업의 내용",
+        "evidence_text": "전국적으로 250여개에 달하는 전문 유통 대리점을 통해"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "상제품매출 | 343,563,666,565"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "인테리어공사매출 | 13,159,552,196"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 가. 업계 현황 > (4) 경쟁요소",
+        "evidence_text": "주요 고객층은 사무용 가구를 직접적으로 사용하는 기업체 등의 법인"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4336,
+    "completion_tokens": 882,
+    "reasoning_tokens": 0,
+    "output_tokens": 882
+  },
+  "warnings": []
+}

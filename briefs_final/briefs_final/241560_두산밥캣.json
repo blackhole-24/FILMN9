@@ -1,0 +1,96 @@
+{
+  "stock_code": "241560",
+  "corp_name": "두산밥캣",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 13:32",
+  "meta": {
+    "wics": "기계",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "두산밥캣은 연결기준으로 Construction Equipment(건설·농업용 소형장비) 및 유압기기의 생산·판매를 영위하는 외국기업지배지주회사로, 북미·유럽·중동·아프리카·아시아·라틴아메리카·오세아니아 등 광범위한 글로벌 네트워크를 보유하고 있습니다. 2025년 연결기준 매출액은 약 61.8억 달러, 영업이익은 4.82억 달러를 기록했습니다.",
+    "business_model": "핵심 사업은 Compact Equipment(소형 건설·농업 장비), Portable Power(이동식 전원·공압 장비), Material Handling(지게차 등 운반장비), 유압기기(건설·산업기계용 유압부품)로 구성되며, FY2025 기준 매출 비중은 Compact Equipment 77.2%, Portable Power 5.4%, Material Handling 15.0%, 유압기기 2.4%입니다. Compact Equipment는 Skid‑Steer Loader, Mini Excavator, Compact Tractor 등 소형·범용 장비가 주력입니다.",
+    "main_customers": "Compact Equipment — 주택 건설·농업·조경 시장 / Portable Power — 이동식 공압·전원 장비 수요처 / Material Handling — 팔레트·중량물 운반이 필요한 물류·산업 현장 / 유압기기 — 건설 및 산업기계 (주행모터·선회모터·메인펌프 등) 사용처",
+    "price_factors": [
+      {
+        "factor": "원재료비",
+        "detail": "원자재 가격·인건비·임대료 변동은 제품 가격과 마진에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "건설경기",
+        "detail": "건설업과 연동되는 산업 특성상 건설경기 둔화 시 수요 감소로 실적에 부정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "브랜드·딜러",
+        "detail": "견고한 브랜드 인지도와 폭넓은 딜러 네트워크를 가진 경쟁사의 점유율 변화가 시장 점유율과 가격경쟁에 영향을 미칩니다."
+      },
+      {
+        "factor": "관세·통상",
+        "detail": "관세 영향 및 통상환경 변화는 비용과 판매에 직·간접적 압박 요인이 됩니다."
+      },
+      {
+        "factor": "생산기술",
+        "detail": "제품주기가 길고 생산기술력이 경쟁력 요인이라 장기적 기술투자 여부가 경쟁력 유지에 중요합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용",
+        "evidence_text": "광범위한 글로벌 네트워크를 보유하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "Compact Equipment: 4,771,049 (77.2%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "Portable Power: 334,489 (5.4%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "Material Handling: 929,074 (15.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "유압기기*: 147,194 (2.4%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 시장 여건",
+        "evidence_text": "주택 건설, 농업, 조경 시장을 주요 매출 타겟"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 3. 원재료 및 생산설비",
+        "evidence_text": "원자재 가격, 인건비, 임대료 등에 따라 변동되며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 시장 여건 (3) 경기변동의 특성",
+        "evidence_text": "건설기계 산업은 전방산업인 건설업에 민감한 반응을 보이는 산업"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 시장 여건 (4) 경쟁요소",
+        "evidence_text": "견고한 브랜드 인지도와 폭넓은 딜러 네트워크"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4955,
+    "completion_tokens": 6375,
+    "reasoning_tokens": 5248,
+    "output_tokens": 1127
+  },
+  "warnings": []
+}

@@ -1,0 +1,76 @@
+{
+  "stock_code": "306620",
+  "corp_name": "지아이에스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 15:47",
+  "meta": {
+    "wics": "반도체와반도체장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "지아이에스는 2000년 설립된 장비 제조업체로, 반도체·디스플레이·MLCC용 절단 장비의 개발·제조·판매를 주 영업목적으로 합니다. 장비사업 외에 자동화(FA) 설비와 드론 사업을 운영하며, 푸드테크용 전자동 튀김기 '보글봇' 등으로 사업 포트폴리오를 확장하고 있습니다.",
+    "business_model": "FY2025 기준 사업부문별 영업수익 구성은 내수 40.5%, 기타 24.1%, 조립Line 10.7%, 검사기및보상기 6.0%, AgingChamber 5.3%, Saw & Sorter 4.5%, MLCC Cutter 0.3%, 제품 1.1%로 나타납니다. 핵심 수익원은 반도체·디스플레이·전자부품용 절단·분류 장비 판매와 자동화(FA) 설비 및 드론 시스템 개발·공급입니다.",
+    "main_customers": "장비사업본부 — 반도체·디스플레이·MLCC 제조업체 / FA사업본부 — 플랜트·조선·자동차·무선 중계국 등 대형 산업 현장 및 공장·빌딩·가전제품 제어 분야 / 드론사업본부 — 군·산업·상업용 드론 활용 분야",
+    "price_factors": [
+      {
+        "factor": "반도체업황",
+        "detail": "반도체·디스플레이 업황이 둔화되면 절단·분류 장비 수요가 줄어 실적에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "MLCC수요",
+        "detail": "MLCC(적층세라믹콘덴서) 생산 장비 수요 변화는 관련 Cutter 매출 변동으로 연결됩니다."
+      },
+      {
+        "factor": "자동화수요",
+        "detail": "산업 전반의 자동화(FA) 도입 확대 여부가 FA사업본부의 매출 성장에 영향을 줍니다."
+      },
+      {
+        "factor": "드론상용화",
+        "detail": "군·산업·상업용 드론 활용 확대와 기술경쟁력 확보는 드론사업부 매출 및 기술적 차별성에 영향을 미칩니다."
+      },
+      {
+        "factor": "매출구성",
+        "detail": "기타 항목 비중(24.1%)이 높아 특정 품목·거래처 의존도에 따른 실적 변동성이 존재할 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "2000년 10월 20일 설립되었으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "내수: 6,543,269 (40.5%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "FA사업본부",
+        "evidence_text": "플랜트, 조선, 자동차, 무선 중계국 등 대형 산업 현장"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "기타: 18,309,408 (24.1%)"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "드론사업본부",
+        "evidence_text": "국내 유일 기업입니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3268,
+    "completion_tokens": 4270,
+    "reasoning_tokens": 3392,
+    "output_tokens": 878
+  },
+  "warnings": []
+}

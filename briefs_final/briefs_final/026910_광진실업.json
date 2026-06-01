@@ -1,0 +1,77 @@
+{
+  "stock_code": "026910",
+  "corp_name": "광진실업",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 23:17",
+  "meta": {
+    "wics": "철강",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "광진실업은 금속·철강 업종을 영위하는 회사로, 봉강부문과 모터스부문을 주력으로 운영하고 있습니다. 당기 매출액은 약 569억원(56,888백만원) 규모로 집계되었습니다.",
+    "business_model": "주요 사업부문은 봉강(매출의 74.9%)과 모터스(매출의 16.7%)로 구성되어 있습니다. 봉강부문은 슬라브·빌렛 등 중간재를 열간압연·인발 가공해 흑환봉·마환봉 형태의 봉강 제품을 생산하여 자동차·건설 등 산업용 기초소재로 공급하고, 모터스부문은 할리데이비슨·트라이엄프 등 대형 이륜차의 공식 대리점 운영을 통해 매출을 창출합니다.",
+    "main_customers": "봉강 — 자동차·조선·건설·가전·기계 산업 / 모터스 — 대형 이륜차 구매 고객(할리데이비슨·트라이엄프, 부울경 지역)",
+    "price_factors": [
+      {
+        "factor": "원재료가격",
+        "detail": "철광석·석탄·철스크랩 가격 변동이 생산원가에 직접 영향을 미쳐 실적과 주가에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "경기민감도",
+        "detail": "자동차·조선·건설 등 주요 수요산업의 경기 변동에 따라 봉강 부문 수요가 크게 변동합니다."
+      },
+      {
+        "factor": "제품고급화",
+        "detail": "수요산업의 고급화 추세로 고부가가치·고기능성 제품 공급능력이 경쟁요소로 작용합니다."
+      },
+      {
+        "factor": "환경규제",
+        "detail": "바젤협약·UN기후협약·탄소세 등 환경 관련 규제 강화는 생산비용과 설비투자에 영향을 미칠 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "당사의 사업부문은 봉강부문, 모터스 부문"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "봉강: 42,581,835 (74.9%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "모터스: 9,509,543 (16.7%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황 > 가. 업계의 현황",
+        "evidence_text": "특히 자동차, 조선, 건설, 가전, 기계 산업 등에 기초소재를 공급하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황 > 가. 업계의 현황 (4) 경쟁요소",
+        "evidence_text": "철광석, 석탄 및 철스크랩의 가격과 시장 수급상황에 의해 결정됩니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황 > 가. 업계의 현황 (5) 관련법령 또는 정부의 규제",
+        "evidence_text": "환경 관련 규제가 강화되고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4115,
+    "completion_tokens": 4645,
+    "reasoning_tokens": 3776,
+    "output_tokens": 869
+  },
+  "warnings": []
+}

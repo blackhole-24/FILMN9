@@ -1,0 +1,67 @@
+{
+  "stock_code": "123010",
+  "corp_name": "알엔티엑스",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:19",
+  "meta": {
+    "wics": "핸드셋",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "알엔티엑스는 전기·전자 업종의 핸드셋 관련 기업으로, 이미지센서 패키징과 자동차용 공조부품 임가공, 모바일 카메라모듈용 부품 도장, IT·로봇자동화시스템 사업을 함께 영위하고 있습니다. 사업보고서에서는 이미지센서 CSP(Chip Scale Package) 패키징 기술인 NeoPAC®을 중심으로 기술 경쟁력을 설명하고 있습니다.",
+    "business_model": "회사의 매출은 모바일 카메라모듈용 정밀부품 도장 79.0%가 가장 큰 비중을 차지하고, 제품매출 10.4%, 자동차부품 8.5%, 기타매출 1.3%, 수출 1.0%, 임대료수입 0.2%, ITㆍ로봇자동화시스템 0.1%로 구성되어 있습니다. 이미지센서 패키징은 포토센서 반도체 소자에 자체 CSP 패키지 기술인 NeoPAC®을 적용해 패키징과 테스트 서비스를 제공하는 사업이며, 자동차 공조부품 임가공과 로봇자동화시스템 사업도 병행하고 있습니다. 모바일 카메라모듈용 부품 도장은 휴대폰 전후면 카메라모듈용 스티프너(Stiffener) 도장 공정이 핵심입니다.",
+    "main_customers": "이미지센서 패키징 — 포토센서 반도체 관련 고객 / 자동차용 공조부품 임가공 — 자동차 부품 수요처 / 모바일 카메라모듈용 부품 도장 — 휴대폰 카메라모듈 관련 고객 / ITㆍ로봇자동화시스템 — 자동차·디스플레이·공작기계 산업 제조현장",
+    "price_factors": [
+      {
+        "factor": "카메라수요",
+        "detail": "휴대폰과 노트북용 카메라모듈 수요가 늘면 이미지센서 패키징과 부품 도장 사업의 가동률과 매출에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "CSP전환",
+        "detail": "전통적인 CLCC·PLCC 패키지가 CSP 패키지로 전환되는 시장 추세는 이미지센서 패키징 수요에 영향을 미칩니다."
+      },
+      {
+        "factor": "신뢰성규격",
+        "detail": "AEC-Q100 같은 고신뢰성 자동차 규격 요구가 높아질수록 자동차용 제품 대응 능력이 중요해집니다."
+      },
+      {
+        "factor": "자동화수요",
+        "detail": "제조현장의 자동 이송과 산업용 로봇 솔루션 수요가 늘면 ITㆍ로봇자동화시스템 사업의 기회가 확대될 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "기업 기본 정보 / DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사의 보고서 작성기준일 현재 연결실체에 포함된 주요사업 부문별 개요는 다음과 같습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "모바일 카메라모듈용 정밀부품 도장: 30,332,383 (79.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "자동차부품: 3,260,570 (8.5%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "자동차, 디스플레이, 공작기계 산업 분야 등 다양한 산업"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4243,
+    "completion_tokens": 899,
+    "reasoning_tokens": 0,
+    "output_tokens": 899
+  },
+  "warnings": []
+}

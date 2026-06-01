@@ -1,0 +1,91 @@
+{
+  "stock_code": "208370",
+  "corp_name": "셀바스헬스케어",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:26",
+  "meta": {
+    "wics": "건강관리장비와용품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "셀바스헬스케어는 30년간 축적해 온 의료기기 및 시각보조공학 기술력을 기반으로 한 디지털 헬스케어 전문기업입니다. 사업은 체성분분석기와 전자동혈압계를 중심으로 한 의료진단기기 사업과, 점자정보단말기와 독서확대기 등을 다루는 보조공학기기 사업으로 나뉘며, 해외시장 확대를 위해 미국과 중국 법인도 운영하고 있습니다. 체성분분석기와 시각장애인 보조공학기기 분야에서 각각 아큐닉(ACCUNIQ)과 힘스(HIMS) 브랜드를 기반으로 사업을 전개하고 있습니다.",
+    "business_model": "회사의 수익은 의료진단기기(ACCUNIQ) 55.4%, 보조공학기기(HIMS) 44.6%로 구성됩니다. ACCUNIQ은 체성분분석기와 전자동혈압계 같은 의료진단기기를 개발·생산하고, HIMS는 시각장애인을 위한 점자정보단말기와 독서확대기 같은 정보통신보조공학 기기를 개발·생산합니다. 국내 직판과 대리점망을 바탕으로 판매하며, 미국·중국 법인을 통해 해외시장도 함께 공략하고 있습니다.",
+    "main_customers": "의료진단기기(ACCUNIQ) — 병원, 헬스케어 전문기업, 글로벌 피트니스 체인 / 보조공학기기(HIMS) — 시각장애인, 시각장애인 학교, 교육·사무 환경 이용자",
+    "price_factors": [
+      {
+        "factor": "고령화수요",
+        "detail": "장애인 및 고령자 수 증가와 고령화가 진행될수록 보조공학기기 수요가 늘어 실적에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "피트니스",
+        "detail": "글로벌 피트니스 체인과의 협업 및 공급계약 확대가 체성분분석기 판매 증가로 이어질 수 있습니다."
+      },
+      {
+        "factor": "경쟁강도",
+        "detail": "체성분분석기 시장은 인바디, Tanita 등과 경쟁하고 있어 시장 점유율 변화가 실적에 중요합니다."
+      },
+      {
+        "factor": "해외확장",
+        "detail": "미국, 중국, 유럽, 중동 등 해외 유통망과 법인 운영이 확대될수록 매출 기반이 넓어질 수 있습니다."
+      },
+      {
+        "factor": "정부지원",
+        "detail": "보조기기 지원 관련 법령과 지원사업이 확대되면 힘스 제품의 시장 접근성과 수요에 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 30년간 축적해 온 의료기기 및 시각보조공학 기술력을 기반으로 한 디지털 헬스케어 전문기업입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "의료진단기기(ACCUNIQ): 9,591,529 (55.4%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "보조공학기기(HIMS): 9,551,554 (44.6%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "국내 및 글로벌 유통망 확보를 위해 직판 및 국내 외 대리점망을 구축하고"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "세계 최대 시장인 미국 시각장애인 학교에 진입"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "다. 시장 내 경쟁에 관한 사항",
+        "evidence_text": "국내 장애인 및 고령자용 보조장치 시장 또한 지속적인 장애인 수의 증가와 급속한 고령화에 따른 수요 증가"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "다. 시장 내 경쟁에 관한 사항",
+        "evidence_text": "체성분분석기 시장은 인바디, Tanita 등의 업체가 시장을 주도"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "라. 신규 사업 등의 내용 및 전망",
+        "evidence_text": "글로벌 피트니스 체인과의 공급계약을 통해 해외 시장 확대"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5129,
+    "completion_tokens": 1136,
+    "reasoning_tokens": 0,
+    "output_tokens": 1136
+  },
+  "warnings": []
+}

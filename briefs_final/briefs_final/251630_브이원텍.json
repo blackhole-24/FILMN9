@@ -1,0 +1,67 @@
+{
+  "stock_code": "251630",
+  "corp_name": "브이원텍",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 13:48",
+  "meta": {
+    "wics": "기계",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "브이원텍은 머신비전(Machine Vision)과 화상처리 기반의 검사 소프트웨어(S/W)와 장비, 스마트팩토리 솔루션 및 모바일로봇(AMR, AGV)을 개발·제작하는 기업으로, 디스플레이 검사장비와 2차전지 검사시스템, 자율주행 로봇 등 제조 자동화 분야에 집중하고 있습니다. 주요 제품군은 검사장비(디스플레이·배터리)와 로보틱스 계열로 구성되어 있습니다.",
+    "business_model": "사업은 디스플레이 검사장비(예: LCD/OLED 압흔검사기) 13.6%, 2차전지 검사시스템 23.0%, 로보틱스·운반기계 53.4% 등으로 매출이 구성되어 있으며(%) 검사 소프트웨어와 하드웨어를 결합한 턴키(일괄납품) 방식과 로봇 솔루션 공급이 핵심 수익원입니다. 또한 AI 비전 기술('With AI')과 3D 카메라 등 자체 핵심 기술을 바탕으로 의료·물류 등으로 적용 분야를 확대하려는 전략을 병행하고 있습니다.",
+    "main_customers": "디스플레이 장비 — LGD(국내), Tianma·Visionox·CSOT·EDO·Semipeak(해외) / 2차전지 검사시스템 — LG전자 / 로보틱스·운반기계 — 현대위아·현대자동차",
+    "price_factors": [
+      {
+        "factor": "설비투자(Capex)",
+        "detail": "디스플레이·2차전지 업계의 설비투자 지연·확대에 따라 장비 수요와 매출 변동이 직접 발생합니다."
+      },
+      {
+        "factor": "배터리 품질",
+        "detail": "배터리 안전성·품질 강화 요구(발화사건 등)는 검사장비에 대한 추가 수요로 연결됩니다."
+      },
+      {
+        "factor": "물류자동화 수요",
+        "detail": "노동인구 감소와 인건비 상승 등으로 물류·제조현장의 AMR·MPR 수요가 꾸준히 증가합니다."
+      },
+      {
+        "factor": "디스플레이 고도화",
+        "detail": "고화질·차별화 공정 도입에 따라 정밀 검사장비에 대한 기술수요가 높아집니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "당사는 머신비전(Machine Vision) 및 화상처리를 통한 검사 S/W 및 장비, 스마트팩토리 솔루션 및 모바일로봇(AMR, AGV) 등을 개발 및 제작하는 기업으로, 디스플레이 제작공정 중 패널에 부착되는 IC, FPC의 부착 상태를 검사하는 압흔검사기를 비롯하여 평판 디스플레이 및 2차전지 배터리 장비에 사용되는 검사시스템, 제조라인과 라인사이, 자재 및 제품/상품의 물류 이동 등 자동화 공정에서 사람의 개입 없이 스스로 판단하고 운행하는 자율주행 로봇 등의 사업을 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황",
+        "evidence_text": "당사가 생산하는 주요 제품 중 매출액 10% 이상을 차지하는 제품은 LCD/OLED 압흔검사기 등의 디스플레이 장비 약66.7억원(13.6%), 2차전지 검사시스템 112.7억원(23.0%), 로보틱스/운반기계 약 261.5억원(53.4%)이 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "LCD/OLED 압흔검사기의 국내 주요 고객사는 LGD이며, 해외 주요 고객사는 Tianma, Visionox, CSOT, EDO, Semipeak 등이 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 시장여건 및 영업의 개황 등",
+        "evidence_text": "2025년은 전방위 산업의 침체로 인하여 디스플레이 , 2차전지 설비투자가 지연되었습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5810,
+    "completion_tokens": 3926,
+    "reasoning_tokens": 2880,
+    "output_tokens": 1046
+  },
+  "warnings": []
+}

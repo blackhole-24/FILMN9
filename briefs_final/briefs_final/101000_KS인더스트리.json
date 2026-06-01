@@ -1,0 +1,77 @@
+{
+  "stock_code": "101000",
+  "corp_name": "KS인더스트리",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 07:57",
+  "meta": {
+    "wics": "조선",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "KS인더스트리는 선박용 크레인(Marine Crane)과 해양플랜트용 크레인(Offshore Crane) 등 선박·해양플랜트 기자재를 제조·공급하는 기업입니다. 또한 선박 기자재의 판매 및 유지보수(수리) 사업을 병행하며 모터·감속기·와이어로프 등 주요 부품도 공급하고 있습니다.",
+    "business_model": "매출 구성을 보면 선박구성부분품 제조(크레인 등)가 64.4%로 가장 큰 비중을 차지하고, 기자재 판매 및 수리 비중은 13.9%, 화장품 제조 및 판매 등 기타가 21.7%를 차지합니다. 핵심 수익원은 선박용·해양플랜트용 크레인, 데크머시너리, 머테리얼 핸들링 장비 및 LPG·LNG 탱크 등 제조 판매와 부품 공급 및 유지보수 서비스입니다.",
+    "main_customers": "선박구성부분품 제조 — 조선소(현대중공업그룹·삼성중공업·한화오션 등) / 기자재 판매 및 수리 — 선주사·해운사 / 화장품 제조 및 판매 — 자료상 고객 유형 미기재",
+    "price_factors": [
+      {
+        "factor": "조선업 경기",
+        "detail": "전방산업인 조선업 발주가 줄면 크레인·기자재 수요 감소로 실적에 직접적인 영향이 발생합니다."
+      },
+      {
+        "factor": "선급·규제",
+        "detail": "국제협약과 각국 선급(Class) 인증 기준 강화 시 제품 인증·개발 비용과 공급 적시성에 영향이 있을 수 있습니다."
+      },
+      {
+        "factor": "제품 신뢰성",
+        "detail": "해상 환경의 극한 조건(염수·진동 등)에서의 내구성·내식성 요구가 높아 품질 경쟁력이 실적에 직결됩니다."
+      },
+      {
+        "factor": "고부가 선종 수주",
+        "detail": "LNG·LPG 운반선 등 고부가가치 선종 및 해양플랜트 발주 확대는 고부가 기자재 수요 증가로 연결됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황 > 가. 주요 제품 등의 현황",
+        "evidence_text": "다양한 종류의 크레인입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황 > 가. 주요 제품 등의 현황",
+        "evidence_text": "선박구성부분품 제조 25,420 64.4"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황 > 가. 주요 제품 등의 현황",
+        "evidence_text": "기자재 판매 및 수리 5,474 13.9"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황 > 가. 주요 제품 등의 현황",
+        "evidence_text": "화장품 제조 및 판매 외 8,553 21.7"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황 > 가. 주요 제품 등의 현황",
+        "evidence_text": "선주사 및 해운사는 운항 안전성과 효율성을 유지하기 위해"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "사업분야 데이터 등급(tier) > ■ 주요 사업부문 (비율 불명확)",
+        "evidence_text": "- 현대중공업 그룹"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4442,
+    "completion_tokens": 5070,
+    "reasoning_tokens": 4160,
+    "output_tokens": 910
+  },
+  "warnings": []
+}

@@ -1,0 +1,72 @@
+{
+  "stock_code": "036930",
+  "corp_name": "주성엔지니어링",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 00:45",
+  "meta": {
+    "wics": "반도체와반도체장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "주성엔지니어링은 반도체·태양전지·디스플레이 제조장비를 주력으로 하는 장비 제조 기업입니다. 종속회사를 통해 해외 판매 및 서비스도 수행하며, 증착공정용 장비와 ALD(원자층증착) 기술을 핵심 역량으로 보유하고 있습니다.",
+    "business_model": "핵심 사업은 반도체 장비, 태양전지 장비, 디스플레이 장비 등 제조 장비 판매이며 제품 매출 비중이 높습니다; [사업부문별 매출 구성]상 제품(반도체·태양전지·디스플레이 장비)이 매출의 85.8%를 차지하고, 상품(원부자재)이 14.2%를 구성합니다. R&D(연구개발) 투자와 ALD 기술이 향후 양산 장비 경쟁력과 수익성에 영향을 미칩니다.",
+    "main_customers": "반도체 장비 — 반도체 제조업체(메모리·비메모리) / 태양전지 장비 — 태양전지 제조업체 / 디스플레이 장비 — 디스플레이 패널 제조업체",
+    "price_factors": [
+      {
+        "factor": "기술진화",
+        "detail": "초미세공정화와 패턴 고도화로 ALD(원자층증착) 등 고기술 장비 수요가 실적에 직접 영향을 미칩니다."
+      },
+      {
+        "factor": "R&D 투자",
+        "detail": "미래성장동력 확보를 위한 R&D 확대는 단기적 이익률을 낮출 수 있으나 장기적 기술경쟁력에 기여합니다."
+      },
+      {
+        "factor": "환율",
+        "detail": "해외 매출 및 해외 조달 구조로 환율 변동이 매출과 원가에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "환경·규제",
+        "detail": "폐기물·대기·화학물질 등 규제 준수가 생산시설 운영비용 및 공정에 영향줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "당사는 현재 반도체 및 태양전지 제조장비, 디스플레이 제조장비 사업을 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "266,451(85.8%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "44,242(14.2%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "증착공정에 필요한 장비를 제조하여 고객사에 주 납품하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "MD&A > 마. 환율변동",
+        "evidence_text": "환율위험에 노출되어 있으며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5372,
+    "completion_tokens": 3346,
+    "reasoning_tokens": 2560,
+    "output_tokens": 786
+  },
+  "warnings": []
+}

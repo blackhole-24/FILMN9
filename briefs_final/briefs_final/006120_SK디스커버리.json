@@ -1,0 +1,69 @@
+{
+  "stock_code": "006120",
+  "corp_name": "SK디스커버리",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 12:00",
+  "meta": {
+    "wics": "석유와가스",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "SK디스커버리는 2017년 인적분할을 통해 순수지주회사로 전환한 기업으로, 별도의 사업을 영위하지 않는 지주회사입니다. 주요 자회사로는 환경 친화적 소재·제약(SK케미칼), 가스판매(SK가스), 백신·바이오(SK바이오사이언스), 부동산 개발(SK디앤디) 등 다양한 사업회사를 보유하고 있습니다.",
+    "business_model": "당사는 순수지주회사로서 자회사 및 투자회사로부터 받는 배당수익이 주요 수익원이며, 자회사들의 영업실적과 현금창출력이 지주사의 재무성과에 직접 연결됩니다. 핵심 사업부문은 Green Chemicals(환경친화적 소재), Life Science(백신·제약, CDMO(위탁개발·생산) 포함), 가스사업(LPG 판매·Trading), 혈장분획제제사업 및 투자부문 등입니다.",
+    "main_customers": "Green Chemicals Biz. — 미국·유럽 등 식품접촉물질 요구사항을 필요로 하는 수요처 / Life Science Biz. — 독감·대상포진·수두·COVID-19 백신 수요처 / 가스사업 — 택시 등 수송용 사용자 · 석유화학제품 생산기업 · 난방·취사용 가정/상업용 고객 / 혈장분획제제사업 — 치료용 의약품 수요",
+    "price_factors": [
+      {
+        "factor": "자회사 배당",
+        "detail": "지주사인 만큼 계열사들의 배당정책 및 실적이 SK디스커버리의 수익·주가 변동에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "글로벌 경기",
+        "detail": "보고서는 무역 갈등 및 지정학적 리스크로 인한 글로벌 수요 둔화를 지적하며, 이는 자회사 매출과 실적에 영향을 줍니다."
+      },
+      {
+        "factor": "LPG 가격",
+        "detail": "가스사업은 국내외 구매·판매(Trading)를 수행하므로 LPG 국제가격 및 공급상황이 수익성에 영향합니다."
+      },
+      {
+        "factor": "규제·수요",
+        "detail": "Copolyester 등 친환경 소재는 미국·유럽의 식품접촉물질 요구사항 충족 여부가 제품 수요와 경쟁력에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "(2) 회사의 현황",
+        "evidence_text": "당사는 별도의 사업을 영위하지 않는 순수지주회사로서 주요수익은 자회사 및 투자회사 등으로부터 수취하는 배당수익입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 별도의 사업을 영위하지 않는 순수지주회사로, 주요 자회사가 영위하는 사업으로는 Copolyester 수지 및 기넥신에프 등을 생산하는 환경 친화적 소재 및 제약사업(SK케미칼㈜), LPG 등을 판매하는 가스사업(SK가스㈜), 혈장분획제제의 제조 및 판매사업(SK플라즈마㈜)이 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "가스사업은 택시 등에 사용되는 수송용 LPG부터, 석유화학제품 생산용 LPG, 난방, 취사 시 사용되는 가정/상업용 LPG에 이르기까지 다양한 용도의 LPG를 판매하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "2025년 글로벌 경제는 무역 갈등 심화와 지정학적 리스크 등으로 인해 기업 경영 환경의 불확실성이 한층 높아졌으며, 글로벌 수요 둔화의 영향 또한 가중되며 많은 국내외 기업들이 부정적인 업황을 경험하였습니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4888,
+    "completion_tokens": 4828,
+    "reasoning_tokens": 3840,
+    "output_tokens": 988
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

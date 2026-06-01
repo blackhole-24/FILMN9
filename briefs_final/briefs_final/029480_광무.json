@@ -1,0 +1,86 @@
+{
+  "stock_code": "029480",
+  "corp_name": "광무",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 23:29",
+  "meta": {
+    "wics": "IT서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "광무는 유ㆍ무선 네트워크 장비 임대와 SI/NI(시스템 통합) 서비스, 반도체 유통, 이차전지 소재·화학제품의 유통·제조·판매 등을 영위하는 IT서비스 계열 기업입니다. ITO(장비임대)와 NI/SI(네트워크 구축·제품 매출), 유지보수 등을 중심으로 복수의 사업부문을 운영하고 있습니다.",
+    "business_model": "2025년 기준 매출 구성은 네트워크 제품(네트워크사업부문)이 약 55.4%로 가장 큰 비중을 차지하고, 유지보수사업부문이 약 21.2%, ITO(장비임대)사업부문이 약 16.0%, 기타(부동산 임대)가 약 7.5%이며, 이차전지 소재사업부문은 2025년 매출 발생이 없습니다. 핵심 수익원은 네트워크 제품 판매 및 유지보수·임대 수입이며, 이차전지 소재는 과거(2023년) 유의미한 매출이 있었으나 이후 수주·가격 변화로 2025년에는 매출이 발생하지 않았습니다.",
+    "main_customers": "ITO사업부문 — 기간통신사업자(KT) 및 기업 고객 / 네트워크사업부문 — 최종 고객 및 중간 공급자 / 유지보수사업부문 — 기존 고객(유지보수 재계약 대상) / 이차전지 소재사업부문 — 이차전지 관련 제조사·유통 고객 / 기타사업부문 — 부동산 임차인",
+    "price_factors": [
+      {
+        "factor": "경기민감성",
+        "detail": "국내외 경기 침체 시 기업의 IT투자 축소로 네트워크 장비 및 SI 매출이 줄어들 수 있습니다."
+      },
+      {
+        "factor": "경쟁심화",
+        "detail": "NI/SI 시장의 과열된 경쟁은 가격 인하와 수익성 악화로 연결될 가능성이 있습니다."
+      },
+      {
+        "factor": "매니지드서비스",
+        "detail": "기간통신사 중심의 매니지드서비스 확대는 임대형 장비 수요와 유지보수 매출에 영향을 줍니다."
+      },
+      {
+        "factor": "원자재가격",
+        "detail": "리튬염 등 원자재 수급·가격 변동은 이차전지 소재 사업의 매출 발생 여부와 수익성에 직접 영향을 미칩니다."
+      },
+      {
+        "factor": "환율",
+        "detail": "USD 환율 변동은 해외 영업·투자 노출로 매출 및 원가에 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "유ㆍ무선 네트워크와 시스템 통합, 장비임대, 전산망 관리 솔루션"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "네트워크사업부문 | ... | 4,193 |"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "ITO사업부문 | ... | 1,210 |"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "ITO사업부문은 1999년부터 KT와 함께"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나. 업계의 현황",
+        "evidence_text": "기업들이 IT투자를 축소하면서"
+      },
+      {
+        "field": "business_model",
+        "source_section": "라. 이차전지 소재 사업 부문",
+        "evidence_text": "매출이 발생하지 않았습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "라. 이차전지 소재 사업 부문",
+        "evidence_text": "USD의 환위험에 노출되어 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5887,
+    "completion_tokens": 5671,
+    "reasoning_tokens": 4672,
+    "output_tokens": 999
+  },
+  "warnings": []
+}

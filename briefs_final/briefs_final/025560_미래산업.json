@@ -1,0 +1,74 @@
+{
+  "stock_code": "025560",
+  "corp_name": "미래산업",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 23:05",
+  "meta": {
+    "wics": "반도체와반도체장비",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "미래산업은 반도체 검사장비(ATE)와 이형부품삽입기(MAI)를 주력으로 하는 장비 제조기업입니다. 반도체 Test Handler 등 자동화·정밀제어 기술을 바탕으로 시스템 통합형 장비를 공급하며 다수의 지식재산권을 보유하고 있습니다.",
+    "business_model": "핵심 사업은 ATE(Automated Test Equipment, 반도체 검사장비)와 MAI(MIRAE Auto Insertion system, 이형 부품삽입기) 두 사업부로 구성되며, 주문사양에 맞춘 장비 설계·제조 및 공급이 수익의 중심입니다. 기술집약적·시스템 통합형 장비를 통한 납품과 보수·서비스가 주요 수익원이며, 특허 등 지식재산권 보유로 기술 경쟁력을 보완하고 있습니다.",
+    "main_customers": "ATE — 반도체 제조업체(테스트·패키징 수요업체) / MAI — 공장 자동화를 도입하는 제조업체(일반 공장 자동화 수요처)",
+    "price_factors": [
+      {
+        "factor": "경기사이클",
+        "detail": "반도체 시장의 주기적 경기변동에 따라 장비 수요와 실적이 직접적으로 변동합니다."
+      },
+      {
+        "factor": "기술난이도",
+        "detail": "생산성·신뢰성 등 고도의 정밀성이 핵심 경쟁요소로, 기술력 차이가 실적에 영향을 줍니다."
+      },
+      {
+        "factor": "글로벌 투자환경",
+        "detail": "중국의 반도체 육성 정책 등 반도체 장비에 대한 국가별 투자 확대는 수주환경에 영향을 미칩니다."
+      },
+      {
+        "factor": "수요구조",
+        "detail": "메모리 시장 구조 변화(업체 재편 등)가 잠재 고객 수와 장비 구매 결정에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 사업부문별 현황",
+        "evidence_text": "ATE(Automated Test Equipment)사업부와 MAI(MIRAE Auto Insertion system)이형부품삽입기 사업부로 구분하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "나. 업계의 현황 (1) ATE제품",
+        "evidence_text": "반도체 장비는 반도체 소자 제조의 단위공정에 맞는 설비를 운영하기 위해서 다양한 첨단 구성품을 조합하여 통합(system integration)한 자동식, 전자식 제조장비로써 종합기술의 집합체입니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "나. 업계의 현황 (1) ATE제품",
+        "evidence_text": "비록 설비의 기본적 동작원리와 성능은 같아도 수요업체의 요구사양에 따라 개별설비의 세부기능은 달라질 수 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나. 업계의 현황 (1) ATE제품",
+        "evidence_text": "반도체 검사장비(Test Handler)는 반도체 시장의 주기적인 경기순환 및 정보기술(IT)산업의 경기 변동 상황에 밀접하게 연관되어 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나. 업계의 현황 (1) ATE제품",
+        "evidence_text": "생산성을 좌우하는 고도의 정밀성과 신뢰성이 매우 중요한 요소입니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 3141,
+    "completion_tokens": 4474,
+    "reasoning_tokens": 3584,
+    "output_tokens": 890
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

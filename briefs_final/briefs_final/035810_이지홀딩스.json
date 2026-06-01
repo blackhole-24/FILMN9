@@ -1,0 +1,62 @@
+{
+  "stock_code": "035810",
+  "corp_name": "이지홀딩스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 00:26",
+  "meta": {
+    "wics": "식품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "이지홀딩스는 1988년 설립된 종합 농축산 기업으로, 곡물 경작부터 사료·사료첨가제·가축·가금·진단·백신까지 농축산업 밸류체인을 수직계열화한 회사입니다. 1999년 코스닥 상장 이후 인수·합병을 통해 2025년말 기준 연매출 약 3조 4천억원 규모로 성장했습니다.",
+    "business_model": "주요 사업부문은 사료사업부(FB), 육가공사업부(LB), 가금사업부(PB) 및 기타사업부로 구성되며, 사업부문별 매출 비중은 각각 약 52%, 23%, 17% 및 8%입니다. 사료(사료 및 사료첨가제) 판매가 핵심 수익원이며, 육가공(통닭 프랜차이즈 등)과 가금(오리 등) 사업, 자회사관리·투자(지주) 부문이 이어집니다.",
+    "main_customers": "사료사업부(FB) — 양돈·산란·육계·오리·축우 산업 / 육가공사업부(LB) — 프랜차이즈(통닭) 관련 고객 / 가금사업부(PB) — 오리 등 가금류 판매 시장 / 기타사업부 — 자회사 및 투자대상",
+    "price_factors": [
+      {
+        "factor": "곡물가격",
+        "detail": "국제곡물가격 변동은 사료 원가와 실적에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "환율",
+        "detail": "환율 변동은 해외 수익과 원가에 영향을 미쳐 실적 변동 요인이 됩니다."
+      },
+      {
+        "factor": "가축질병",
+        "detail": "아프리카돼지열병 등 질병 발생은 공급·시세 변동을 초래해 실적에 영향을 줍니다."
+      },
+      {
+        "factor": "가축시세",
+        "detail": "가축 시세 상승은 생물자산평가이익 등으로 영업이익에 영향을 미칠 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 영업개황",
+        "evidence_text": "연결실체는 1988년 설립되었으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. 영업개황",
+        "evidence_text": "사업부문별 매출액 비중은 각각 약 52%, 23%, 17% 및 8%입니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 사업부문별 영업개황",
+        "evidence_text": "양돈, 산란, 육계, 오리, 축우산업에 지대한 공헌"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3853,
+    "completion_tokens": 5182,
+    "reasoning_tokens": 4480,
+    "output_tokens": 702
+  },
+  "warnings": []
+}

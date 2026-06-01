@@ -1,0 +1,67 @@
+{
+  "stock_code": "060480",
+  "corp_name": "국일신동",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 03:59",
+  "meta": {
+    "wics": "비철금속",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "국일신동은 비철금속(철 제외 비철금속) 분야의 신동(동합금) 관련 제품을 주로 생산하는 기업으로, 황동·동 계열 제품을 중심으로 내수 시장에 판매하고 있습니다. 제품구성상 전기·전자 및 산업용 부품 소재를 공급하는 역할을 하고 있습니다.",
+    "business_model": "주요 매출은 제품매출(황동/동)과 임가공(황동/동괴/압연 등)으로 구성되며, 2025년 기준 제품매출이 82.0%, 임가공이 18.0%를 차지합니다. 제품은 자동차용 부품, 밸브·수전금구류, 통신부품, 반도체 관련 커넥터 등 산업용 소재로 공급되며, 임가공(압연·주조·압출 등)을 통한 가공수익도 함께 발생합니다.",
+    "main_customers": "제품매출(황동/동) — 자동차·밸브·수전금구류·통신부품·반도체 관련 부품 제조업체 / 임가공(황동/동괴/압연 외) — 압연·주조·압출 등 가공업체(임가공 의뢰처)",
+    "price_factors": [
+      {
+        "factor": "국제시세",
+        "detail": "동 등 비철금속 가격이 국제시세(LME) 변동에 따라 실적(제품가격·마진)에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "원료수급",
+        "detail": "정광(원재료) 대부분을 수입에 의존하는 구조로 수입물량·공급차질이 원가와 생산에 영향을 줍니다."
+      },
+      {
+        "factor": "전방산업수요",
+        "detail": "건설·전기·전자·자동차 등 전방산업 경기 변동이 수요와 생산량에 즉각적으로 연결됩니다."
+      },
+      {
+        "factor": "계절성",
+        "detail": "제품별로 일부 계절적 수요 변동이 있어 특정시즌(겨울·우기 등)에 실적 차이가 발생할 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 업계의 현황 > 1. 산업의 특성",
+        "evidence_text": "비철금속은 철을 제외한 금속을 총칭하며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[표] 가. 주요 제품 등의 현황",
+        "evidence_text": "제품매출(황동/동) 내수 29,768(82.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[표] 가. 주요 제품 등의 현황",
+        "evidence_text": "임가공(황동/동괴/압연 외) 내수 6,518(18.0%)"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 업계의 현황 > 3. 경기변동의 특성",
+        "evidence_text": "동 가격을 비롯한 비철가격은 국제시세(LME시장)에 따라 매일 고시하고 있으며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3869,
+    "completion_tokens": 3409,
+    "reasoning_tokens": 2624,
+    "output_tokens": 785
+  },
+  "warnings": []
+}

@@ -1,0 +1,62 @@
+{
+  "stock_code": "066900",
+  "corp_name": "디에이피",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 04:45",
+  "meta": {
+    "wics": "전자장비와기기",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "디에이피는 인쇄회로기판(PCB: Printed Circuit Board) 제조를 주력으로 하는 전기·전자 기업으로, 이동통신단말기·자동차 전장품용 PCB뿐 아니라 웨어러블 장치 및 PC용 PCB를 생산하고 있습니다. 종속회사 에어로케이홀딩스(항공운송)를 연결회사로 보유하여 PCB 제조와 항공운송이 함께 매출을 구성합니다.",
+    "business_model": "핵심 사업은 인쇄회로기판(PCB) 제조로, FY2025 사업부문별 영업수익 구성은 제품 172,408백만원(52.3%), 부산물 외 15,798백만원(4.8%)입니다. 연결기준으로는 인쇄회로기판 제조사업부 329,543백만원(60.6%)과 항공운송사업부 213,653백만원(39.4%)이 매출을 차지하고 있어 PCB 제조가 주수익원이고 항공운송은 종속회사를 통한 별도 사업부로 구성됩니다.",
+    "main_customers": "PCB 제조 — 이동통신단말기 제조업체·웨어러블·PC 제조업체·자동차 전장품 제조업체 / 항공운송 — 유상승객(항공권 구매 고객)",
+    "price_factors": [
+      {
+        "factor": "기술 고도화",
+        "detail": "PCB의 소형화·고밀도화·고성능화 요구가 커질수록 고사양 PCB 기술력을 보유한 기업의 실적에 유리하게 작용합니다."
+      },
+      {
+        "factor": "자동차 전장 수요",
+        "detail": "자동차 전장품 시장의 성장(고성능화)은 PCB 고성능 제품 수요를 늘려 실적에 긍정적 영향을 줍니다."
+      },
+      {
+        "factor": "판매단가·환율",
+        "detail": "특정 제품군의 매출 증감·단가 인하·환율 변동 등이 평균단가에 영향을 미쳐 매출과 이익 변동성을 높일 수 있습니다."
+      },
+      {
+        "factor": "항공업 리스크",
+        "detail": "항공운송부문은 초기 대규모 자본·고정비 및 질병·정치적 이벤트 등 외부충격에 취약해 연결실적 변동성을 키울 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 - 영업 현황",
+        "evidence_text": "주요 사업분야는 이동통신단말기 및 자동차 전장품 인쇄회로기판(PCB) 생산"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 - 영업 현황",
+        "evidence_text": "연결회사는 2025년 매출액은 543,196백만원이며, 인쇄회로기판 제조사업부 329,543백만원(60.6%), 항공운송사업부 213,653백만원(39.4%)을 차지하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "제품: 172,408 (52.3%)"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4893,
+    "completion_tokens": 3736,
+    "reasoning_tokens": 2944,
+    "output_tokens": 792
+  },
+  "warnings": []
+}

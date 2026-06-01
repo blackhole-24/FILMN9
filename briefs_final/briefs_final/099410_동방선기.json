@@ -1,0 +1,67 @@
+{
+  "stock_code": "099410",
+  "corp_name": "동방선기",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 13:18",
+  "meta": {
+    "wics": "조선",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "동방선기는 조선기자재 산업에서 배관 및 환경장비 제조를 주력으로 하는 기업입니다. 장기간 축적한 생산기술력과 고객 신뢰를 바탕으로 조선소 중심의 공급망에서 경쟁우위를 유지하고 있습니다.",
+    "business_model": "주요 수익원은 조선기자재(배관·환경장비)로, 주문생산(고객 요구에 따른 맞춤 생산) 구조를 띠며 FY2025 기준 조선기자재 매출이 전체의 99.9%(- 매출액: 31,213 (99.9%))를 차지합니다. 제품 단가는 신조 선가·설계사양 등 전방산업의 조건과 프로젝트별 제원에 따라 달라지는 특징이 있습니다.",
+    "main_customers": "조선기자재(배관·환경장비) — 조선소·선박 건조업체 / 전방 발주자(선주·해운업체) — 신조 발주 및 설계 의사결정자",
+    "price_factors": [
+      {
+        "factor": "조선업 경기",
+        "detail": "전방산업인 조선산업의 경기 변동에 민감하여 조선업 호황·부진이 실적에 직접 영향을 줍니다."
+      },
+      {
+        "factor": "신조발주량",
+        "detail": "글로벌 신조 발주량 회복 시 배관 발주가 늘어나 매출 확대에 기여합니다."
+      },
+      {
+        "factor": "원자재비",
+        "detail": "원자재 가격 상승은 영업환경을 악화시켜 원가 부담과 수익성에 부정적 영향을 미칩니다."
+      },
+      {
+        "factor": "생산능력",
+        "detail": "배관 품귀 현상과 같은 수요 급증 시 생산능력·공장 증설 수준이 실적 변동성을 결정합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "당사는 조선기자재산업으로 선박 구성부분품중 배관 및 환경장비 제조를 주 사업으로 하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "- 매출액: 31,213 (99.9%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 사업부문별 현황 (1) 조선기자재 산업의 특성",
+        "evidence_text": "조선소는 선박 건조에 필요한 강재, 주요 기자재, 단품 기자재 등의 조선기자재 업체들과 후방 공급사슬을 형성하여 긴밀한 산업관계를 형성하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나. 주요 제품 등의 가격변동 추이",
+        "evidence_text": "가격변동 추이를 파악하는데 어려움이 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3752,
+    "completion_tokens": 4580,
+    "reasoning_tokens": 3840,
+    "output_tokens": 740
+  },
+  "warnings": []
+}

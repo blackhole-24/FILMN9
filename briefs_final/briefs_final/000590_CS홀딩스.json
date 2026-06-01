@@ -1,0 +1,68 @@
+{
+  "stock_code": "000590",
+  "corp_name": "CS홀딩스",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 09:38",
+  "meta": {
+    "wics": "철강",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "CS홀딩스는 2010년 1월 1일 투자 부문을 담당하는 지주회사로 분할된 회사입니다. 연결 기준으로는 용접재료 제조·판매를 중심으로 한 사업 구조를 갖고 있으며, 자회사로 피복용접재료·플럭스코어드와이어·부동산임대·해외 용접재료 판매 법인 등을 두고 있습니다.",
+    "business_model": "별도재무제표 기준으로 지주부문 매출은 브랜드 로열티 1,270, 관계사배당금 285, 기타 1,108로 구성되어 있으며, 지주회사로서 투자 부문을 담당합니다. 연결 기준으로는 조선선재(주), 조선선재온산(주), 씨에스로직스(주), CHOSUN VINA CO.,LTD, CHOSUN WELDING JAPAN CO.,LTD, CHOSUN WELDING THAILAND CO.,LTD 등을 통해 용접재료 생산·판매와 임대수익을 함께 영위합니다. 용접재료는 주로 자동차, 조선, 건설 같은 산업재 수요에 연동되는 구조입니다.",
+    "main_customers": "용접재료 — 자동차·조선·건설·기계·화공플랜트·강관 등 산업체 / 지주부문 — 관계사 / 부동산임대 — 임차인",
+    "price_factors": [
+      {
+        "factor": "전방산업",
+        "detail": "자동차·조선·건설 등 전방 산업의 경기와 투자 흐름이 용접재료 수요에 직접 영향을 줍니다."
+      },
+      {
+        "factor": "글로벌경기",
+        "detail": "글로벌 경기 둔화가 이어지면 실물경기 회복이 지연돼 전방 수요가 위축될 수 있습니다."
+      },
+      {
+        "factor": "환율변동",
+        "detail": "환율 변동성은 해외 종속회사의 실적과 원가 구조에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "원자재가",
+        "detail": "원자재 가격 변동은 용접재료 생산원가와 수익성에 부담이 될 수 있습니다."
+      },
+      {
+        "factor": "기술경쟁",
+        "detail": "중국 등 신흥국의 가격 경쟁과 기술 추격은 국내 용접재료 사업의 경쟁 환경을 바꿀 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "2010년 1월 1일 투자 부분을 담당하는 CS홀딩스(주)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "나. 매출실적(별도재무제표기준)",
+        "evidence_text": "지주부문 | 브랜드 로열티 | 1,270"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "자동차,조선,기타 건설부분 등에 용접재료를 판매"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4547,
+    "completion_tokens": 768,
+    "reasoning_tokens": 0,
+    "output_tokens": 768
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

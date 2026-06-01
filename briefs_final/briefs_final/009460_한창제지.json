@@ -1,0 +1,76 @@
+{
+  "stock_code": "009460",
+  "corp_name": "한창제지",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 20:24",
+  "meta": {
+    "wics": "포장재",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "한창제지는 마닐라 판지 및 백판지의 제조·도매를 주력으로 하는 제지업체로, 백판지 중심의 포장재를 생산합니다. 국내 최초로 ALL-pulp Board 전용 제조 설비를 도입하는 등 기술도입을 통해 백판지 산업 발전을 선도하고 있으며, 2025년 매출은 약 2,670억원, 판매실적은 내수 147,773톤·수출 79,281톤을 기록했습니다.",
+    "business_model": "매출의 대부분을 판지 제조업에서 창출하는 단일 영업부문 구조로, 사업부문별 매출은 백판지 99.7%·지류 0.3%로 사실상 백판지(포장용 판지)가 핵심 수익원입니다. 원재료(주로 펄프·폐지) 조달과 설비투자가 수익성에 중요한 영향을 미치며, 회사는 원가절감·신기술 개발을 통한 고수익 품목 확대에 주력하고 있습니다.",
+    "main_customers": "백판지 — 제과·식품 제조업체, 인쇄소, 출판사 / 지류 — 인쇄·포장 관련 업체",
+    "price_factors": [
+      {
+        "factor": "펄프 수입 의존",
+        "detail": "펄프를 대부분 수입에 의존하므로 국제 원자재 가격 변동과 수급이 실적에 직접적 영향을 줍니다."
+      },
+      {
+        "factor": "에너지 비용",
+        "detail": "제지산업은 에너지 다소비 업종이어서 전력·연료비 상승 시 원가율이 올라 영업이익에 부담을 줍니다."
+      },
+      {
+        "factor": "경기(포장수요)",
+        "detail": "백판지 수요는 제과·식품 등 경공업 경기 및 택배·포장 수요와 밀접해 경기 변동에 따라 수요가 흔들립니다."
+      },
+      {
+        "factor": "무역·관세 리스크",
+        "detail": "수출 비중이 있어 수출국의 관세·무역장벽 확대 시 수출물량 및 매출에 부정적 영향이 발생할 수 있습니다."
+      },
+      {
+        "factor": "설비투자·경쟁",
+        "detail": "장치산업 특성상 설비투자가 크고 경쟁심화 시 설비 효율과 원가 경쟁력이 실적에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "국내 최초로 ALL-pulp Board 전용 제조 설비를 도입하였습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "백판지 266,138,700    (99.7%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 업계의 현황 > 4) 경쟁요소",
+        "evidence_text": "수요처가 제과업체, 인쇄소, 출판사 등으로"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 업계의 현황 > 5) 자원조달상의 특성",
+        "evidence_text": "펄프는 국내 자원의 공급기반이 취약해 대부분 수입에 의존하고"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 업계의 현황 > 1) 산업의 특성",
+        "evidence_text": "에너지 다소비 업종이며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4887,
+    "completion_tokens": 4796,
+    "reasoning_tokens": 3904,
+    "output_tokens": 892
+  },
+  "warnings": []
+}

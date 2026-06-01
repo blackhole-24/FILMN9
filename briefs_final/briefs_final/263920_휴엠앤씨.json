@@ -1,0 +1,76 @@
+{
+  "stock_code": "263920",
+  "corp_name": "휴엠앤씨",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 14:21",
+  "meta": {
+    "wics": "포장재",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "휴엠앤씨는 의료용 유리용기(앰플·바이알·카트리지)와 메이크업 소품(스펀지·퍼프·용기)을 생산하는 헬스케어·화장품 부자재 제조기업입니다. 글라스 부문에서 국내 시장의 30% 이상을 점유하는 등 전문성 있는 생산기술을 바탕으로 제약·화장품용 용기 시장을 공략하고 있습니다.",
+    "business_model": "FY2025 기준 사업부문별 매출 구성은 바이알 28.0%, 앰플 22.0%, 카트리지 23.0%, 과학기자재 외 27.0%로 구성되어 있습니다. 글라스 부문은 특수유리(붕규산관유리)를 사용한 일회용 주사제용기 대량생산 체계, 코스메틱 부문은 NBR 라텍스를 활용한 스펀지·퍼프 등 B2B 공급을 핵심으로 수익을 창출합니다.",
+    "main_customers": "글라스 부문 — 제약회사(주사제용기), 식품·화장품 제조업체 / 코스메틱 부문 — 국내외 화장품 제조업체, 제조판매업체, 부자재업체, 유통업체",
+    "price_factors": [
+      {
+        "factor": "시장점유율",
+        "detail": "글라스 부문에서 국내시장 30% 이상 점유는 실적 안정성에 직결될 수 있습니다."
+      },
+      {
+        "factor": "진입장벽",
+        "detail": "초기투자비용이 많아 생산설비가 소수 업체에 집중되어 공급 변동에 민감할 수 있습니다."
+      },
+      {
+        "factor": "수요(고령화)",
+        "detail": "인구 고령화에 따른 제약산업 성장 시 주사제용기 매출 확대가 기대됩니다."
+      },
+      {
+        "factor": "고객다변화",
+        "detail": "코스메틱 부문에서 특정 대형거래처에 편중되지 않은 점은 매출 안정성에 긍정적입니다."
+      },
+      {
+        "factor": "해외생산",
+        "detail": "베트남 법인 가동(2025년 예정)으로 생산능력·원가구조에 변화가 생길 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "글라스 부문",
+        "evidence_text": "당사는 의료용 유리용기인 앰플 및 바이알, 카트리지 생산 업체로서"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "바이알: 10,627 (28.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "글라스 부문",
+        "evidence_text": "특수유리(붕규산관유리)를 사용하여"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "코스메틱 부문",
+        "evidence_text": "국내외 화장품 제조업체, 제조판매업체, 부자재업체, 유통업체"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "2023년 11월 베트남 법인 HuM&C Vina를 설립"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 2989,
+    "completion_tokens": 4819,
+    "reasoning_tokens": 3968,
+    "output_tokens": 851
+  },
+  "warnings": []
+}

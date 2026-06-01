@@ -1,0 +1,72 @@
+{
+  "stock_code": "353810",
+  "corp_name": "이지바이오",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 17:28",
+  "meta": {
+    "wics": "식품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "이지바이오는 2020년 5월 1일 분할로 신설된 회사로, 자돈(어린 가축)용 배합사료와 사료첨가제를 주력으로 하는 식품(사료) 기업입니다. 2024년 미국 Devenish Nutrition LLC 인수로 해외사업을 확대하였고, 2025년 연결기준 매출은 4,769억원을 기록했습니다.",
+    "business_model": "주요 사업은 배합사료(자돈사료)와 사료첨가제(동물영양 및 기능성 물질)로 구성되며, FY2025 기준 매출 비중은 배합사료 21.6%, 사료첨가제 78.4%로 사료첨가제가 핵심 수익원입니다. 사료첨가제는 발효·효소·생명공학 기반의 고부가가치 제품으로 장 건강 개선 등을 통해 축산물 품질 향상에 기여합니다.",
+    "main_customers": "배합사료 — 양돈장·축산 농가 / 사료첨가제 — 축산업체·사료 공급망",
+    "price_factors": [
+      {
+        "factor": "곡물가격",
+        "detail": "국제 곡물가격 변동은 원가율에 직접 영향을 주며, 2025년에는 곡물가격 안정으로 원가율이 개선되었습니다."
+      },
+      {
+        "factor": "제품품질",
+        "detail": "자돈사료의 품질에 대한 신뢰도가 낮아지면 고객이 사료업체를 변경할 수 있어 매출과 브랜드에 민감한 영향을 줍니다."
+      },
+      {
+        "factor": "가축질병",
+        "detail": "구제역·AI 등 가축질병 발생 시 전방산업 수요 위축이나 방역비용 증가로 실적에 부정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "해외사업·환율",
+        "detail": "해외 자회사·수출 확대는 매출 성장 동력이지만 환율 변동이 수익성에 영향을 미칠 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "III. 경영진 실적·전략 요약 > 가. 영업개황",
+        "evidence_text": "2024년 3월 미국에 있는 Devenish Nutrition LLC를 인수하여 해외자회사로 편입하였습니다."
+      },
+      {
+        "field": "company_overview",
+        "source_section": "III. 경영진 실적·전략 요약 > 나. 주요경영지표",
+        "evidence_text": "2025년 연결기준 매출은 4,769억원이며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "배합사료: 109,157 (21.6%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "사료첨가제: 395,643 (78.4%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 나. 산업의 특성",
+        "evidence_text": "자돈사료는 가축의 건강 상태에 직접적인 영향을 주기 때문에"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4010,
+    "completion_tokens": 3960,
+    "reasoning_tokens": 3136,
+    "output_tokens": 824
+  },
+  "warnings": []
+}

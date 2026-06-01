@@ -1,0 +1,71 @@
+{
+  "stock_code": "370090",
+  "corp_name": "퓨런티어",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:39",
+  "meta": {
+    "wics": "전자장비와기기",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "퓨런티어는 2009년 설립된 카메라 모듈 관련 자동화장비 전문 기업으로, 모바일폰용 CCM(초소형 카메라 모듈)과 자동차 전장용 카메라의 검사·조립 장비를 개발해 온 회사입니다. 카메라 모듈 자동화 분야에서 15년 업력을 쌓았고, 전장용 카메라 장비와 자동화 장비용 핵심 부품을 함께 다루는 구조가 특징입니다.",
+    "business_model": "사업은 장비사업부와 부품사업부로 나뉘며, FY2025 기준 장비사업부가 58.6%, 부품사업부가 41.4%를 차지합니다. 장비사업부는 자동차 전장용 카메라의 조립·검사 장비(검사와 조립 공정을 수행하는 장비)를, 부품사업부는 산업용 PC(산업용 제어 컴퓨터), 검사용 LED 광원(화상 검사용 조명), 모션 제어 부품을 개발·판매합니다. 부품사업부는 2018년 합병한 ㈜아이알브이테크를 기반으로 신설된 사업부입니다.",
+    "main_customers": "장비사업부 — 삼성전기, LG이노텍, Aptiv 등 전장부품업체 / 부품사업부 — 카메라·디스플레이·반도체 등 자동화 장비 관련 고객사",
+    "price_factors": [
+      {
+        "factor": "전장수요",
+        "detail": "완성차 판매와 전방산업 투자 심리가 약해지면 전장용 카메라 장비 수요가 줄어 실적에 직접 영향을 줍니다."
+      },
+      {
+        "factor": "자율주행",
+        "detail": "ADAS(첨단 운전자 보조 시스템)와 자율주행 확산은 카메라 조립·검사장비 수요를 늘리는 방향으로 작용합니다."
+      },
+      {
+        "factor": "산업용PC",
+        "detail": "산업용 PC 시장이 연평균 5%대 성장세를 이어가면 부품사업부의 판매 확대 기대에 영향을 줍니다."
+      },
+      {
+        "factor": "LED광원",
+        "detail": "카메라 화상 검사용 LED 광원은 고성능 카메라 모듈 검사 수요와 맞물려 주문형 제품 확대 여부가 중요합니다."
+      },
+      {
+        "factor": "국산화",
+        "detail": "제조공정장비의 국산화 개발 이력과 기술 신뢰성은 해외 장비 중심 시장과의 경쟁에서 중요한 요소로 작용합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "카메라 모듈 관련 자동화장비 전문 기업"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "장비사업부: 6,755 (58.6%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "부품사업부: 5,026 (41.4%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "삼성전기와 LG이노텍, Aptiv 등의 9개 전장부품업체"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5432,
+    "completion_tokens": 847,
+    "reasoning_tokens": 0,
+    "output_tokens": 847
+  },
+  "warnings": []
+}

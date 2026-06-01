@@ -1,0 +1,67 @@
+{
+  "stock_code": "000860",
+  "corp_name": "강남제비스코",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 17:06",
+  "meta": {
+    "wics": "건축자재",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "강남제비스코는 도료(페인트)와 접착제·합성수지·복합성형재료 및 사무용품을 생산·공급하는 화학(건축자재) 기업입니다. 2025년 별도 매출은 전년 대비 12.8% 감소한 2,729억원, 연결 매출은 6.9% 감소한 5,986억원을 기록하면서 수익성 관리에 주력하고 있습니다.",
+    "business_model": "주요 사업은 도료(건축·공업·자동차·선박 등), 합성수지, 복합성형재료 및 자회사 매출로 구성되며, FY2025 기준 도료 34.2%, 합성수지 39.0%, 복합성형재료 등 8.9% 등으로 수익이 분포되어 있습니다(종속회사별 매출도 일부 포함됨: 2.6%, 6.0%, 1.0%). 도료 부문은 기능성·친환경 제품 개발에 집중하고 있으며, 합성수지는 전자재료·조선·자동차용 중간재 공급에서 기술우위를 보유하고 있습니다.",
+    "main_customers": "도료 — 건설사·조선·자동차업체·식음료 용기 제조사 / 합성수지 — 전자재료·조선·자동차·식품포장업체 / 복합성형재료 등 — 자동차·건축·전기전자 업계 / 사무용품 — 유통망을 통한 일반 소비자 및 소매업체",
+    "price_factors": [
+      {
+        "factor": "원자재·환율",
+        "detail": "원재료 가격이 국제유가 및 환율 변동에 민감해 제조원가와 수익성에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "건설수요",
+        "detail": "국내 건설 경기 회복 지연과 내수 부진은 건축용 도료 수요에 하방 압력을 가합니다."
+      },
+      {
+        "factor": "환경규제",
+        "detail": "실내공기질·대기환경·화학물질 규제 강화는 제품 규격·생산공정 변경과 비용 부담을 초래할 수 있습니다."
+      },
+      {
+        "factor": "공급망·통상",
+        "detail": "글로벌 보호무역·통상갈등 및 공급망 재편은 원재료 조달과 수출입 비용에 불확실성을 높입니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "연결회사는 주요사업으로 도료 및 관련제품을 생산ㆍ판매하고 있으며,"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "도료: 204,587 (34.2%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "합성 수지: 233,509 (39.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "건축용, 공업용, 자동차용, 선박용"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5151,
+    "completion_tokens": 4783,
+    "reasoning_tokens": 3968,
+    "output_tokens": 815
+  },
+  "warnings": []
+}

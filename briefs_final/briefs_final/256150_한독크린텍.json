@@ -1,0 +1,76 @@
+{
+  "stock_code": "256150",
+  "corp_name": "한독크린텍",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 13:56",
+  "meta": {
+    "wics": "가정용기기와용품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "한독크린텍은 2003년 설립된 정수기 필터 전문 제조업체로, 카본블록필터(활성탄 기반)를 중심으로 제품을 생산합니다. 국내 주요 정수기 제조사에 직납하는 납품체계를 바탕으로 정수기 필터 시장에서 제조 역량을 쌓아왔습니다.",
+    "business_model": "매출의 대부분(제품 99.8%)이 정수기 필터(카본블록 등) 제조·판매에서 발생하며, 에어 필터 사업은 매출의 0.1%를 차지합니다. 카본블록 압축 제조기술(여과·정수 성능 강점)과 자동화 생산라인을 통해 원스톱 필터 소재·완제품 공급을 추구합니다.",
+    "main_customers": "정수기 필터 — 코웨이·LG전자·SK매직·교원·쿠쿠홈시스·삼성전자 / 에어 필터 — 온라인 판매 채널 및 해외 자동차업체(해외 협력업체를 통한 소개)",
+    "price_factors": [
+      {
+        "factor": "수요증가",
+        "detail": "환경오염과 건강 관심 증가, 렌탈 마케팅 확대로 정수기 산업 규모가 커지면 정수기 필터 수요 증가로 실적에 긍정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "기술경쟁력",
+        "detail": "압축 카본블록 필터의 통수량·정수성능 우수성은 제품 차별화 요소로, 기술 우위 유지가 실적·가격 경쟁력에 영향합니다."
+      },
+      {
+        "factor": "고객집중",
+        "detail": "주요 매출처가 대형 정수기 제조사에 집중되어 있어 납품처 변동이나 수요 축소가 실적에 직접적 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "생산자동화",
+        "detail": "자동 생산라인 확대는 단위당 생산시간 감소·인건비 절감으로 수익성 개선에 기여할 수 있습니다."
+      },
+      {
+        "factor": "해외개척",
+        "detail": "중국·미국 등 글로벌 진출과 해외 자동차업체 소개가 확대되면 매출 다변화에 영향을 미칠 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "2003년 11월 26일에 설립되었으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "제품: 59,740,371 (99.8%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "에어 필터: 104,515 (0.1%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "코웨이, LG전자, SK매직, 교원, 쿠쿠홈시스, 삼성전자"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "최근 극심한 환경오염, 건강에 대한 관심 증가, 렌탈 마케팅의 확대로"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4864,
+    "completion_tokens": 4596,
+    "reasoning_tokens": 3776,
+    "output_tokens": 820
+  },
+  "warnings": []
+}

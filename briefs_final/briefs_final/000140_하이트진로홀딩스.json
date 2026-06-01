@@ -1,0 +1,74 @@
+{
+  "stock_code": "000140",
+  "corp_name": "하이트진로홀딩스",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 09:38",
+  "meta": {
+    "wics": "음료",
+    "market": "KOSPI",
+    "has_revenue_data": false,
+    "tier": 3,
+    "tier_mode": "narrative_segments",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "하이트진로홀딩스는 다른 회사의 주식을 보유해 자회사를 지배하는 지주회사입니다. 제공된 자료상 주요 연결 종속회사는 하이트진로(주)이며, 맥주와 소주를 중심으로 국내 주류 사업을 전개하고 있습니다. 2025년 기준 연결 매출은 2조4,845억원으로 제시되었습니다.",
+    "business_model": "하이트진로홀딩스는 지주회사로서 자회사를 통해 사업을 운영하며, 연결대상 주요 종속회사인 하이트진로(주)가 맥주와 소주 사업을 맡고 있습니다. 맥주부문은 테라, 테라 라이트, 켈리, 필라이트 등 브랜드를 중심으로 라거·라이트 맥주·발포주까지 제품군을 넓혀가고 있으며, 소주부문도 함께 영위하고 있습니다. 다만 제공된 자료에는 사업부문별 매출 비율이 없어 정성적으로만 설명할 수 있습니다.",
+    "main_customers": "맥주부문 — 국내 일반 소비자, 젊은 층, 건강한 라이프스타일 소비자 / 소주부문 — 국내 주류 소비자 / 지주회사 — 자회사",
+    "price_factors": [
+      {
+        "factor": "소비위축",
+        "detail": "고물가와 경기침체가 이어지면 주류 소비가 줄어 맥주·소주 판매에 부담이 될 수 있습니다."
+      },
+      {
+        "factor": "취향세분",
+        "detail": "소비자 취향이 세분화될수록 라거, 라이트 맥주, 발포주 등 다양한 제품 포트폴리오의 중요성이 커집니다."
+      },
+      {
+        "factor": "신제품경쟁",
+        "detail": "경쟁사의 지속적인 신제품 출시는 국내 주류시장 경쟁을 더 치열하게 만들어 실적 변동 요인이 됩니다."
+      },
+      {
+        "factor": "마케팅효과",
+        "detail": "온·오프라인 통합 마케팅, 협업 제품, 스포츠 마케팅은 브랜드 인지도와 소비자 접점을 넓히는 데 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "지주회사(持株會社, Holding Company)란 다른 회사의 주식을 소유한 회사"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "나. 연결대상 주요 종속회사의 사업의 내용 등 ◈ 하이트진로(주)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "1. 사업의 개요 > 가. 맥주부문",
+        "evidence_text": "당사는 브랜드별 차별화된 경쟁력 강화와 제품 다양화를 통해"
+      },
+      {
+        "field": "business_model",
+        "source_section": "1. 사업의 개요 > 나. 소주부문",
+        "evidence_text": "소주부문"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "1. 사업의 개요 > 가. 맥주부문",
+        "evidence_text": "고물가와 경기침체의 영향으로 전반적인 소비가 위축된 가운데"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 6138,
+    "completion_tokens": 805,
+    "reasoning_tokens": 0,
+    "output_tokens": 805
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

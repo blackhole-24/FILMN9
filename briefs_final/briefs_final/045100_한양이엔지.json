@@ -1,0 +1,72 @@
+{
+  "stock_code": "045100",
+  "corp_name": "한양이엔지",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 02:01",
+  "meta": {
+    "wics": "반도체와반도체장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "한양이엔지는 반도체·디스플레이 등 첨단 제조공정에 필요한 특수설비와 엔지니어링 서비스를 주로 제공하는 기업입니다. 산업플랜트, 환경·그린에너지, 우주항공 등 다양한 분야로 사업 범위를 확장하며 4개 사업부 체제로 운영되고 있습니다.",
+    "business_model": "주요 수익원은 엔지니어링사업부(하이테크, EPC, 우주항공)로 FY2025 기준 매출의 85.3%를 차지하며, 시스템사업부가 14.7%를 차지합니다. 설계에서 조달·시공·시운전 및 유지보수까지 제공하는 EPC(설계·조달·시공)·Turn-Key(일괄수주) 형태의 엔지니어링과 화학물질중앙공급장치 제조·설치가 핵심 사업입니다.",
+    "main_customers": "엔지니어링사업부 — 반도체·디스플레이 제조사 및 산업플랜트 운영사 / 시스템사업부 — 가스·정밀화학·전자재료·바이오·우주항공 관련 기업",
+    "price_factors": [
+      {
+        "factor": "투자주기",
+        "detail": "반도체·디스플레이 산업의 투자 사이클(호황·불황)에 따라 설비투자와 유지보수 수요가 변동하여 실적에 영향이 큽니다."
+      },
+      {
+        "factor": "OLED전환",
+        "detail": "디스플레이 산업의 TFT-LCD에서 Micro OLED 전환이 진행되면 관련 설비 수요 구조가 변화하여 수주에 영향을 줍니다."
+      },
+      {
+        "factor": "UHP수요",
+        "detail": "초고순도(UHP) 가스·화학물질을 공급하는 특수설비 수요는 고난이도 기술력이 필요한 만큼 기술 경쟁력에 따라 수주가 좌우됩니다."
+      },
+      {
+        "factor": "EPC수주",
+        "detail": "EPC·Turn-Key 방식의 수주 비중 증감은 설계·조달·시공 전 단계의 매출 규모와 수익성에 직접 연결됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "한양이엔지(주)는 품질경영을 통하여 최고의 품질 및 서비스를 구현하고 고객가치 창출에 앞장서고 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "반도체 및 디스플레이 분야와 산업플랜트(일반산업, 가스산업), 환경 및 그린에너지, 우주항공 분야에서 최고의 기술력을 갖추고 고객에게 최상의 종합 서비스를 제공하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "당사는 반도체/디스플레이 산업에 필요한 특수설비와 엔지니어링 서비스를 제공하는 엔지니어링 사업과 동 산업에 필요한 화학물질중앙공급장치를 제조 설치하는 업을 주된 사업으로 영위하고 있으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "엔지니어링사업부(하이테크,EPC,우주항공): 954,126,368 (85.3%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "시스템사업부: 164,054,426 (14.7%)"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4103,
+    "completion_tokens": 3933,
+    "reasoning_tokens": 3008,
+    "output_tokens": 925
+  },
+  "warnings": []
+}

@@ -1,0 +1,67 @@
+{
+  "stock_code": "432470",
+  "corp_name": "케이엔에스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 19:32",
+  "meta": {
+    "wics": "전기제품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "케이엔에스는 원통형 배터리 조립 장비와 BMA 자동화 설비를 전문으로 제조하는 기업으로, 배터리용 CID(전류차단장치) 등 원통형 배터리 관련 조립·검사 장비를 공급합니다. 당사 설비는 LGES와 SK온의 1차 벤더사에 납품되는 등 2차전지 제조업체를 주요 고객으로 하고 있습니다.",
+    "business_model": "사업부문별로 2차전지 자동화 설비 34.3%, 자동차 부품 자동화 설비 33.7%, 기타장비 29.7%, 용역매출 2.1%, 상품매출 0.1%로 구성되어 있으며, 원통형 배터리 장비(2170 CID, Ø46 계열)와 리벳·조립·검사장비를 핵심 제품으로 생산합니다. 또한 AI(인공지능) 기반 공정 최적화·딥러닝 비전 검사·로봇·AMR(자율이동로봇)을 결합한 스마트팩토리·무인화 솔루션으로 사업 영역을 확장하고 있습니다.",
+    "main_customers": "2차전지 자동화 설비 — 배터리 제조사(예: LGES·SK온의 1차 벤더사) / 자동차 부품 자동화 설비 — 완성차 및 부품업체 / 기타장비 — 자동차 전장·반도체·AI 데이터센터 등 산업용 설비 고객 / 용역매출 — 기업 대상 서비스 제공 / 상품매출 — 부품·장비 유통 고객",
+    "price_factors": [
+      {
+        "factor": "전기차 수요",
+        "detail": "글로벌 전기차 시장이 단기적 성장 둔화(캐즘)에 진입하면 이차전지 수요 감소로 수주·매출이 줄고 재고평가손실이 발생할 수 있습니다."
+      },
+      {
+        "factor": "환경규제",
+        "detail": "유럽의 CBAM 등 환경규제 강화는 배터리 전(全) 생애주기 규제를 심화시켜 제조공정의 에너지효율·재활용 기술 확보를 기업 경쟁력 요소로 부각시킵니다."
+      },
+      {
+        "factor": "프로젝트 리스크",
+        "detail": "전방 고객의 프로젝트 취소·지연 시 선제 제작 설비의 재고평가손실과 영업손실 확대 가능성이 있습니다."
+      },
+      {
+        "factor": "기술경쟁",
+        "detail": "AI 기반 공정 최적화와 무인화·로봇 기술 도입이 실적·수주 경쟁력에 직결되므로 기술 투자와 상용화 성과가 중요합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "원통형 배터리 조립 장비 및 BMA 자동화 설비를 전문으로 제조하는 기업입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "2차전지 자동화 설비: 14,148 (34.3%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "LGES와 SK온의 1차 벤더사에게 납품하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "단기적인 성장 둔화(캐즘) 국면에 진입했습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5671,
+    "completion_tokens": 4526,
+    "reasoning_tokens": 3648,
+    "output_tokens": 878
+  },
+  "warnings": []
+}

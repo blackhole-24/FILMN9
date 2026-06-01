@@ -1,0 +1,62 @@
+{
+  "stock_code": "005740",
+  "corp_name": "크라운해태홀딩스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 19:20",
+  "meta": {
+    "wics": "식품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "크라운해태홀딩스는 1968년 설립된 과자류 제조·판매 기업에서 출발해 2017년 식품사업부문을 분할하고 지주회사(다른 회사의 지분을 보유해 지배하는 회사)로 전환한 기업입니다. 현재는 순수지주회사로서 브랜드 사용수익, 업무위탁 용역수익, 종속회사로부터의 배당금 등을 주요 수익원으로 삼고 있습니다.",
+    "business_model": "사업부문별 매출 구성을 보면 지주부문은 브랜드사용료·업무위탁용역·배당금 중심의 수익구조이고, 식품사업은 제과제품 판매가 핵심입니다; 원문 표 기준 매출 비중은 지주부문 1.90%, 크라운제과 소계 38.74%, 해태제과식품 제품매출 39.72%, 해태 상품매출 18.54%로 표기되어 있습니다.",
+    "main_customers": "지주부문 — CROWN 브랜드 사용자(브랜드 사용수익)·업무위탁 용역 제공처·종속회사(배당금 수익) / 제과 부문 — 제품매출(과자류) 관련 구매자·위탁판매처(용역매출)",
+    "price_factors": [
+      {
+        "factor": "소비심리",
+        "detail": "국내외 성장 둔화·시장 불확실성에 따른 소비심리 위축은 과자류 수요에 직접적인 하방 압력으로 작용할 수 있습니다."
+      },
+      {
+        "factor": "경쟁 심화",
+        "detail": "국내외 식품업체 간 경쟁 심화는 가격·마케팅 비용 상승 및 시장점유율 압박으로 실적에 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "규제 강화",
+        "detail": "강화되는 식품안전 관련 규제는 품질관리 비용과 신제품 개발 부담을 높여 수익성에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "내수·수출 불확실성",
+        "detail": "내수 회복 지연과 수출 불확실성은 전반적 매출 성장 둔화로 이어질 가능성이 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 사업부문별 현황",
+        "evidence_text": "당사(존속회사)는 보고서 작성일 현재 지주회사 사업을 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[표] 가. 주요 제품 등의 현황",
+        "evidence_text": "소     계 | 21,855,993 | 1.90"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[표] 가. 주요 제품 등의 현황",
+        "evidence_text": "소     계 | 444,838,420 | 38.74"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5349,
+    "completion_tokens": 5000,
+    "reasoning_tokens": 4288,
+    "output_tokens": 712
+  },
+  "warnings": []
+}

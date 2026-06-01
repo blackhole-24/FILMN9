@@ -1,0 +1,62 @@
+{
+  "stock_code": "041920",
+  "corp_name": "메디아나",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 01:35",
+  "meta": {
+    "wics": "건강관리장비와용품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "메디아나는 환자감시장치와 심장충격기를 주력으로 생산하는 의료기기 전문기업으로, 주력 제품을 ODM(제조자개발생산) 및 자사 브랜드로 판매하고 있습니다. 모든 제품을 자사 공장에서 전량 생산하고 있으며, 세계적 기업들과의 수출계약·해외대리점 계약 등을 통해 수출을 확대하고 있습니다.",
+    "business_model": "FY2025 기준 사업부문별로 환자감시장치 14.9%, 심장충격기 22.2%, 기타제품 9.9%, 상품 및 기타 24.0%의 매출 비중을 보입니다. 핵심 수익원은 환자감시장치와 심장충격기이며, ODM 공급과 자사 브랜드 판매, 국내 공장 생산을 통한 품질 통제와 해외 대리점·수출 채널 확대로 매출을 확보하고 있습니다.",
+    "main_customers": "환자감시장치 — 병원·의료기관 / 심장충격기 — 병원·119 구급 현장 / 기타제품 — 병원·의료기관 / 상품 및 기타 — 국내외 대리점·유통업체",
+    "price_factors": [
+      {
+        "factor": "인허가",
+        "detail": "국가별로 다른 엄격한 인증(예: FDA, CE, MDR) 획득에 시간과 비용이 소요되어 신제품 출시와 해외진출에 영향을 줍니다."
+      },
+      {
+        "factor": "환율",
+        "detail": "매출의 상당 부분이 수출에 의존하므로 환율 변동은 외화자산 평가손익 및 원화 환산 매출에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "수요집중",
+        "detail": "의료기기 수요가 병원 등 제한된 수요처에 집중되어 있어 수요 변동이나 구매 결정의 보수성이 실적에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "R&D·기술",
+        "detail": "의료기기는 기술집약적이고 연구개발 투자가 필요하여 신기술 확보 여부가 제품 경쟁력과 장기 실적을 좌우합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "당사는 환자감시장치, 심장충격기를 주요제품으로 생산하고 있으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "환자감시장치: 9,686,712 (14.9%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 업계의 현황1. 산업의 특성",
+        "evidence_text": "의료기기는 의료진단과 치료에 전문성을 가진 병원이 주요 수요처입니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4844,
+    "completion_tokens": 3523,
+    "reasoning_tokens": 2816,
+    "output_tokens": 707
+  },
+  "warnings": []
+}

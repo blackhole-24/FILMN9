@@ -1,0 +1,67 @@
+{
+  "stock_code": "354320",
+  "corp_name": "알멕",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 17:29",
+  "meta": {
+    "wics": "자동차부품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "알멕은 1973년 창업한 알루미늄 압출 전문업체로, 전기차용 알루미늄 압출 부품에서 두각을 나타내며 주로 해외 전기차 시장을 대상으로 하는 글로벌 기업입니다. 알루미늄 주조·압출·가공·조립·표면처리까지 일관생산체계를 보유해 자동차 부품 분야로 사업을 확장해 왔습니다.",
+    "business_model": "주요 수익원은 압출제품(114,063, 60.7%)과 주조제품(45,683, 24.3%)이며, 이외에 자동차 일반 부품(7.6%), 산업재(0.5%), 기타(0.9%)로 구성되어 있습니다. 핵심 제품은 전기차 배터리 모듈케이스 등 EV(전기차) 관련 알루미늄 부품으로, 알루미늄을 원재료로 하는 제조 전 공정에서 부가가치를 창출합니다.",
+    "main_customers": "압출제품 — 글로벌 완성차 OEM(폭스바겐·아우디·포르쉐·GMNA·JLR·Rivian·Lucid·Stellantis 등) / 주조제품 — 국내 완성차 1차 협력사(GM Korea, KGM모빌리티(구,쌍용)) / 기타 — 2차전지 제조사 및 부품업체(LG에너지솔루션을 통한 공급 사례)",
+    "price_factors": [
+      {
+        "factor": "원재료가격",
+        "detail": "제품 대부분이 알루미늄을 원재료로 하므로 알루미늄 가격 변동은 매출단가와 마진에 직접 영향을 미칩니다."
+      },
+      {
+        "factor": "전기차수요",
+        "detail": "전기차 시장 성장에 따라 배터리 모듈·팩 수요가 확대되면 관련 부품 수주 및 매출 증가로 연결됩니다."
+      },
+      {
+        "factor": "고객다변화",
+        "detail": "북미 등 해외 시장과 대형 글로벌 OEM과의 거래 비중이 높아지면 지역별 수요·계약 조건 변화가 실적 변동성으로 이어질 수 있습니다."
+      },
+      {
+        "factor": "배터리업체연계",
+        "detail": "LG에너지솔루션 등 2차전지 업체를 통한 공급 구조와 배터리업체들의 생산전략 변화가 수주 흐름에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "주로 해외의 전기차 시장을 대상으로 하는 글로벌 기업입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "압출제품: 114,063 (60.7%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "폭스바겐(Volkswagen), 아우디(Audi), 포르쉐(Porsche)"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "제품의 가격이 알루미늄 원재료 가격의 변동에 연동되어 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4617,
+    "completion_tokens": 3776,
+    "reasoning_tokens": 2944,
+    "output_tokens": 832
+  },
+  "warnings": []
+}

@@ -1,0 +1,67 @@
+{
+  "stock_code": "003200",
+  "corp_name": "일신방직",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 18:26",
+  "meta": {
+    "wics": "섬유,의류,신발,호화품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "일신방직은 섬유제품 제조·매매를 주력으로 하며 부동산 임대와 물류창고업을 병행하는 기업입니다. 연결기준 매출은 5,172억원, 연결 영업이익은 124억원으로 섬유사업을 중심으로 사업을 운영하고 있습니다.",
+    "business_model": "사업부문별 매출 비중은 섬유제품제조 약 70.6%, 화장품판매 등 약 13.9%, 주류 수입 및 판매 약 6.3%, 부동산임대 및 관리 약 7.4%, 투자조합운영 약 1.4%, 창고물류 약 0.3%를 차지합니다. 핵심은 면사·혼방사 등 섬유소재 제조로, MVS 혼방사·멜란지사 등 고수익 제품 판매에 집중하고 부동산 임대와 투자조합 운영이 안정적 이익을 보완합니다.",
+    "main_customers": "섬유제품제조 — 의류·원단 제조업체 및 글로벌 브랜드(원자재 공급 대상) / 화장품판매 등 — 백화점·몰·온라인을 이용하는 일반 소비자 / 주류 수입 및 판매 — 유통채널 및 일반 소비자 / 부동산임대 및 관리 — 임차기업(물류·기업 고객) / 투자조합운영 — 창업·스타트업(투자 대상)",
+    "price_factors": [
+      {
+        "factor": "공급망·관세",
+        "detail": "미국의 상호관세 발표 등으로 글로벌 공급망이 흔들리면 수출·교역 축소로 섬유부문 실적에 부정적 영향을 미칩니다."
+      },
+      {
+        "factor": "원재료 가격",
+        "detail": "원면 등 원료 공급 및 가격 변동이 섬유제품의 판매가격과 마진에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "비용 상승",
+        "detail": "인건비·에너지·물류비 상승은 제조원가를 높여 수익성 압박 요인이 됩니다."
+      },
+      {
+        "factor": "유통·소비심리",
+        "detail": "화장품 등 소비재 부문에서 소비심리 약화 및 오프라인 매장 구조조정은 매출과 채널별 실적에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "지배회사의 현황",
+        "evidence_text": "우리회사는 섬유제품제조 및 매매를 주 사업목적으로 하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "면사, 혼방사, 화섬사 등 제조"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "종속회사의 화장품판매부문의 영업개황",
+        "evidence_text": "백화점이나 몰 중심으로 운영하며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "지배회사의 현황",
+        "evidence_text": "미국의 상호관세 발표로 글로벌 공급망이 흔들리면서"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4857,
+    "completion_tokens": 4881,
+    "reasoning_tokens": 4096,
+    "output_tokens": 785
+  },
+  "warnings": []
+}

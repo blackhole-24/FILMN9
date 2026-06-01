@@ -1,0 +1,73 @@
+{
+  "stock_code": "139130",
+  "corp_name": "iM금융지주",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 10:01",
+  "meta": {
+    "wics": "은행",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "iM금융지주는 2011년 설립된 금융지주회사로, 국내외에 은행·증권·생명보험·캐피탈·자산운용·결제·데이터·신용정보 등 11개 주요 자회사를 보유한 금융그룹입니다. 2025년말 기준 연결기준 총자산은 98조 8,607억원, 지배주주지분 기준 당기순이익은 4,439억원이며 ROA 0.45%, ROE 7.29%를 기록했습니다.",
+    "business_model": "지주회사로서 그룹의 경영전략 수립과 종속기업에 대한 경영관리 및 자금지원 등을 주력으로 영위하며, 자회사들의 은행·증권·보험·자산운용·결제 등 다각적 금융영업을 통해 연결 실적을 창출합니다. 핵심 자회사인 iM뱅크는 이자부문, 수수료부문, 신탁부문, 기타영업부문 등으로 수익구조가 구성되어 있습니다.",
+    "main_customers": "그룹(지주) — 종속회사 및 자본시장 참여자 / iM뱅크(은행) — 예금자·대출 수요자(민간 및 공공부문) / 증권·자산운용·생명보험 등 자회사 — 투자자·보험가입자 및 금융서비스 수요자",
+    "price_factors": [
+      {
+        "factor": "순이자마진",
+        "detail": "그룹 NIM이 실적의 핵심 관리지표로, NIM 하락은 이자이익 감소로 연결되어 수익성에 직접 영향을 미칩니다."
+      },
+      {
+        "factor": "건전성(고정이하여신)",
+        "detail": "고정이하여신비율 변화(부동산 PF 등 취약 익스포져 영향)는 충당금 부담과 순이익 변동으로 이어질 수 있습니다."
+      },
+      {
+        "factor": "자본적정성",
+        "detail": "BIS총자본비율 등 자본기준은 영업 확장·배당·자금조달 여력을 결정하며 규제준수 여부가 실적 안정성에 영향합니다."
+      },
+      {
+        "factor": "금융권 경쟁",
+        "detail": "다수의 시중·지방·인터넷은행 존재로 예대마진(스프레드) 및 수수료 경쟁 압력이 발생할 수 있습니다."
+      },
+      {
+        "factor": "해외 자회사 노출",
+        "detail": "캄보디아·라오스·미얀마 등 해외 자회사 운영은 지역별 영업성과 및 환황(현지 리스크)에 따라 연결실적에 영향할 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. iM금융지주 사업의 개요",
+        "evidence_text": "iM금융그룹은 11개 자회사(iM뱅크, iM증권, iM라이프생명보험, iM캐피탈, iM에셋자산운용,  iM유페이, iM데이터시스템, iM신용정보, iM투자파트너스, 뉴지스탁, iM INVESTMENT ASIA PTE. LTD.)와 캄보디아, 라오스, 미얀마 등에 손자회사 등을 보유한 글로벌 금융그룹입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. iM금융지주 사업의 개요",
+        "evidence_text": "iM금융지주는 그룹의 경영전략 수립과 종속기업에 대한 경영관리 및 자금지원 등을 주력으로 영위하는 지주회사입니다."
+      },
+      {
+        "field": "company_overview",
+        "source_section": "가. 개요",
+        "evidence_text": "2025년말 현재 연결기준 지배주주지분 순이익은 4,439억원 입니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 개요",
+        "evidence_text": "그룹 NIM은 전년대비 0.10%p 감소한 1.92%를 기록하였습니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4296,
+    "completion_tokens": 6527,
+    "reasoning_tokens": 5504,
+    "output_tokens": 1023
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

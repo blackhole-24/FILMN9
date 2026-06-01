@@ -1,0 +1,82 @@
+{
+  "stock_code": "180400",
+  "corp_name": "DXVX",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 10:55",
+  "meta": {
+    "wics": "건강관리업체및서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "DXVX는 의료진단, 헬스케어, 신약개발을 영위하는 바이오 헬스케어 전문기업입니다. 2022년 건강기능식품 제조업체 한국바이오팜을 인수하고, 2023년 중국 현지 자회사 북경디아이웨이스생물과기유한공사를 설립하며 사업을 확장했습니다.",
+    "business_model": "FY2025 기준 매출 구성은 내수 90.1%, 헬스케어 9.7%, 의료진단 0.2%입니다. 의료진단 부문에서는 유전체 진단(차세대 염기서열 분석(NGS), 마이크로어레이)과 체외진단(PCR 분자진단, 면역신속진단, 진단키트 CDMO(위탁생산))을, 헬스케어 부문에서는 마이크로바이옴 기반 건강기능식품(오브맘)과 치료보조제(덱스벡스) 등 '연구개발-생산-유통' 일체형 밸류체인을 통해 수익을 창출하고 있습니다.",
+    "main_customers": "의료진단 — 국내외 제약사·대학·연구기관(지노믹스 CRO 대상) / 헬스케어 — 국내외 소비자 및 유통업체(건강기능식품·치료보조제 판매 대상) / 신약개발 — 제약사 및 연구 협력 파트너",
+    "price_factors": [
+      {
+        "factor": "감염병",
+        "detail": "감염병 발생 시 체외진단 키트 수요가 급증하여 단기 실적에 큰 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "기술·DB",
+        "detail": "유전체 빅데이터와 분석 플랫폼의 우수성은 경쟁우위로 이어져 실적과 가치 평가에 중요한 요인입니다."
+      },
+      {
+        "factor": "규제",
+        "detail": "국내 유전체 관련 법령상의 제약은 사업 확장과 시장 접근성에 제한을 줄 수 있습니다."
+      },
+      {
+        "factor": "해외진출",
+        "detail": "중국 자회사 설립 등 해외진출은 내수 의존도를 낮추고 수익 기반을 다변화하는 요인이 될 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "의료진단, 헬스케어, 신약개발등의 사업을 영위하는"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 나. 주요 제품 및 서비스의 설명",
+        "evidence_text": "의료진단 부문은 유전체 진단과 체외진단사업으로 구성되어있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "의료진단: 47,010 (0.2%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "내수: 2,961,568 (90.1%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "헬스케어: 2,859,935 (9.7%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "나. 주요 제품 및 서비스의 설명 (1) 의료진단",
+        "evidence_text": "지노믹스 CRO 사업을 통해 국내외 제약사 및 연구기관과 협력하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "감염병의 발생이나 공중보건 위기는 진단 산업의 수요를 급증시킬 수 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5900,
+    "completion_tokens": 5470,
+    "reasoning_tokens": 4480,
+    "output_tokens": 990
+  },
+  "warnings": []
+}

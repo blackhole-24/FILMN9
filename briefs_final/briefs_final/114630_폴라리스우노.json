@@ -1,0 +1,71 @@
+{
+  "stock_code": "114630",
+  "corp_name": "폴라리스우노",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:17",
+  "meta": {
+    "wics": "섬유,의류,신발,호화품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "폴라리스우노는 가발용 원사를 만드는 합성사 사업과 안경렌즈용 광변색염료, 가발사용 접착제 등을 만드는 화학 사업을 함께 영위하는 기업입니다. 생산 거점은 전북 완주군과 익산시에 있고, 남아프리카공화국·튀르키예·인도네시아 등 해외 거점도 보유하고 있어 수출 중심 구조를 갖고 있습니다.",
+    "business_model": "주력 사업은 합성사 사업으로, FY2025 기준 매출의 96.2%를 차지하며 가발용 원사를 생산해 중국, 아프리카, 동남아 등 가발 봉제 업체에 공급합니다. 화학 사업은 매출의 3.8%를 차지하며 안경렌즈용 광변색염료와 가발용 접착제 등을 생산합니다. 매출은 2025년 기준 수출 96.43%, 내수 3.57%로 구성돼 있어, 해외 판매 비중이 매우 높은 구조입니다.",
+    "main_customers": "합성사 사업 — 중국·아프리카·동남아 등의 가발 봉제 업체 / 화학 사업 — 시력보정용 플라스틱 안경렌즈 제조 관련 업체, 가발용 접착제 수요처 / 최종수요처 — 미국·아프리카의 흑인 여성 소비자",
+    "price_factors": [
+      {
+        "factor": "수출비중",
+        "detail": "매출의 대부분이 수출로 구성돼 있어 해외 수요와 달러 결제 환경이 실적에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "환율변동",
+        "detail": "달러 가치 변동성이 크면 외화자산과 수출 매출의 원화 환산 가치가 흔들릴 수 있습니다."
+      },
+      {
+        "factor": "신흥시장",
+        "detail": "인도네시아와 아프리카처럼 가발 산업이 커지는 지역의 수요 확대가 성장에 영향을 줍니다."
+      },
+      {
+        "factor": "진입장벽",
+        "detail": "난연성 가발사는 고도의 기술이 필요한 분야라 경쟁 강도가 달라질 수 있습니다."
+      },
+      {
+        "factor": "인건비",
+        "detail": "가발 봉제 산업이 저임금 지역으로 이동하는 흐름은 가발용 원사 수요 구조에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "합성사 사업은 가발용 원사 생산을 주요 사업으로 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "합성사 사업: 28,922,998 (96.2%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "화학 사업: 3,838,068 (3.8%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "중국, 아프리카, 동남아 등지의 가발봉제 업체에 판매"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4753,
+    "completion_tokens": 801,
+    "reasoning_tokens": 0,
+    "output_tokens": 801
+  },
+  "warnings": []
+}

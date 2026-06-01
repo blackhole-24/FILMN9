@@ -1,0 +1,62 @@
+{
+  "stock_code": "030200",
+  "corp_name": "KT",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 11:35",
+  "meta": {
+    "wics": "다각화된통신서비스",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "KT는 유무선 통신과 미디어·IT를 포함한 종합 ICT(정보통신기술) 기업으로, AI와 ICT 역량을 결합한 'AICT' 전환을 추진하고 있습니다. 2025년 연결 기준 영업수익은 28조 2,442억원으로 상장 이후 역대 최대 실적을 기록했습니다.",
+    "business_model": "KT의 핵심 사업은 ICT(무선·유선·기업 솔루션 등)와 금융(신용카드), 위성방송, 부동산, 기타(콘텐츠·광고·커머스 등)로 구성되며, FY2025 영업수익 기준으로 ICT 56.0%, 금융 9.7%, 위성방송 2.0%, 부동산 2.0%, 기타 30.3%의 비중을 차지합니다. 네트워크 인프라 기반의 B2C(개인·가구) 통신과 B2B(기업용 IDC·Cloud·솔루션) 사업, 미디어·콘텐츠와 그룹 자산을 활용한 부동산·광고·커머스가 수익을 분담합니다.",
+    "main_customers": "ICT — 개인과 기업고객 / 금융 — 신용카드 이용자 / 위성방송 — 전국 시청자 / 부동산 — 보유자산 관련 수요자 / 기타 — 음원 이용자·광고주·커머스 소비자",
+    "price_factors": [
+      {
+        "factor": "가입자 성장 둔화",
+        "detail": "초고속인터넷·IPTV·이동통신 등 주요 서비스가 성숙기에 진입해 가입자 증가폭 감소는 매출 성장 둔화로 연결됩니다."
+      },
+      {
+        "factor": "경쟁 심화",
+        "detail": "서비스 품질·요금·유통 경쟁이 심화되면 가입자 확보 비용 상승 및 마케팅 부담으로 실적에 압박을 줄 수 있습니다."
+      },
+      {
+        "factor": "경기 영향",
+        "detail": "통신은 필수재지만 국내 경기 침체에 따른 가처분소득 감소는 B2C·기업의 ICT 수요 약화로 실적에 부정적 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "서비스 고도화",
+        "detail": "프리미엄 서비스·AI·Cloud 등 고부가가치 상품 확장은 ARPU(가입자당매출) 개선에 긍정적 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "MD&A (경영진 실적·전략 요약)",
+        "evidence_text": "KT는 AI와 ICT 역량을 결합한 AICT Company로의 도약을 추진하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "ICT: 19,324,024 (56.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 1. ICT",
+        "evidence_text": "개인과 기업고객 대상 유무선 통신서비스"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5409,
+    "completion_tokens": 3129,
+    "reasoning_tokens": 2368,
+    "output_tokens": 761
+  },
+  "warnings": []
+}

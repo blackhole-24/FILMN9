@@ -1,0 +1,67 @@
+{
+  "stock_code": "094940",
+  "corp_name": "푸른기술",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 07:31",
+  "meta": {
+    "wics": "컴퓨터와주변기기",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "푸른기술은 정밀 메카트로닉스와 인식 기술을 바탕으로 금융자동화, 역무자동화, 특수단말시스템을 중심으로 사업을 전개하는 기업입니다. 1997년 창업 이래 제어·인식 기술과 생산 노하우를 축적하며 협동로봇·무인주차시스템 등으로 사업 영역을 확대하고 있습니다.",
+    "business_model": "주요 매출원은 금융자동화(55.35%), 역무자동화(35.94%), 로봇/특수단말(8.71%)으로 구성되어 있습니다. 핵심은 메카트로닉스·AI 인식 모듈을 바탕으로 단품(모듈)에서 시스템 사업으로 수직 계열화하여 공급하는 점이며, 협동로봇 등 신사업으로 제품 라인업을 확대하고 있습니다.",
+    "main_customers": "금융자동화 — 금융기관·VAN 사업자 / 역무자동화 — 철도·지하철 등 대중교통 운영기관 / 로봇/특수단말 — 제조업(자동차·전기전자·금속기계) 및 물류·식음료·의료 분야 기업",
+    "price_factors": [
+      {
+        "factor": "설비투자",
+        "detail": "프로젝트성 수주 비중이 커서 제조·물류 업종의 설비투자 사이클에 따라 매출 변동성이 발생할 수 있습니다."
+      },
+      {
+        "factor": "안전·인증",
+        "detail": "국제표준 및 안전인증 요구가 강화되면 시스템 설계·패키지 역량이 성패를 좌우하여 비용과 수주 경쟁력에 영향이 있습니다."
+      },
+      {
+        "factor": "공공예산",
+        "detail": "국가 정책·예산 집행 시기에 따라 역무자동화·공공 수주가 크게 변동할 수 있습니다."
+      },
+      {
+        "factor": "구조적수요",
+        "detail": "고령화·전자상거래·인건비 상승 등 구조적 요인은 로봇·자동화 수요를 지속 창출하여 실적에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "당사의 사업은 정밀 메카트로닉스 기술과 인식 기술을 바탕으로"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "금융자동화 12,993,220 (55.35%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "역무자동화 8,438,233 (35.94%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "로봇/특수단말 2,044,161 (8.71%)"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5557,
+    "completion_tokens": 5605,
+    "reasoning_tokens": 4864,
+    "output_tokens": 741
+  },
+  "warnings": []
+}

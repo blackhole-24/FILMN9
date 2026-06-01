@@ -1,0 +1,62 @@
+{
+  "stock_code": "008290",
+  "corp_name": "원풍물산",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 20:02",
+  "meta": {
+    "wics": "섬유,의류,신발,호화품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "원풍물산은 남성복 중심의 의류 제조·유통업을 영위하는 기업으로, 신사복을 비롯해 캐주얼·셔츠·바지 등 남성복을 중심으로 사업을 전개하고 있습니다. 대표 브랜드로는 Kinloch Anderson 계열(킨록앤더슨, Kinloch by Kinloch Anderson, Connect Kinloch)과 2022년부터 판매 중인 이탈리아 직수입 브랜드 Gimo's가 있습니다.",
+    "business_model": "주요 수익원은 자사 브랜드 제품의 제조(외주가공) 및 도·소매 판매이며, 백화점·프리미엄 백화점과 무신사·29CM·쿠팡 등 온·오프라인 유통을 병행하여 판매합니다. 사업부문별 영업수익 구성(FY2025)은 KINLOCH ANDERSON외 99.8%, 배송수입외 1.0%로 보고되어 있습니다.",
+    "main_customers": "브랜드(킨록앤더슨 계열) — 백화점·프리미엄 백화점 및 온라인 플랫폼을 이용하는 일반 소비자 / 온라인 유통(무신사·29CM·쿠팡 등) — 온라인 쇼핑 이용 소비자 / 수입브랜드(Gimo's) — 온·오프라인 유통을 통한 소비자",
+    "price_factors": [
+      {
+        "factor": "경기민감",
+        "detail": "남성복 시장은 경기 변동에 매우 민감하여 소비심리 위축 시 매출과 실적에 직접적인 악영향을 받을 수 있습니다."
+      },
+      {
+        "factor": "유통전환",
+        "detail": "오프라인에서 온라인으로의 유통 전환과 온·오프라인 병행 구조는 플랫폼별 판매 성과에 따라 실적 변동성을 키울 수 있습니다."
+      },
+      {
+        "factor": "외주의존",
+        "detail": "생산·임가공을 외주에 의존하는 구조는 협력업체 관계·공급망 문제 발생 시 원가 및 공급 차질로 실적에 부정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "진입장벽",
+        "detail": "남성복 시장은 매장 운영 자금력과 소싱처 확보가 중요해 경쟁구도와 브랜드 경쟁력이 실적에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 영업 현황",
+        "evidence_text": "당사는 이러한 특성을 가지는 의류 중에서도 남성복 시장을 겨냥하고 있으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 나. 회사의 현황 (1) 영업개황",
+        "evidence_text": "당사는 남성복 중 신사복의 제조 및 판매를 주된 사업으로 영위하고 있는 업체였지만"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "KINLOCH ANDERSON외: 10,614,817 (99.8%)"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4203,
+    "completion_tokens": 2863,
+    "reasoning_tokens": 2112,
+    "output_tokens": 751
+  },
+  "warnings": []
+}

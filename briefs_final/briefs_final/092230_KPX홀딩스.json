@@ -1,0 +1,68 @@
+{
+  "stock_code": "092230",
+  "corp_name": "KPX홀딩스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 07:18",
+  "meta": {
+    "wics": "화학",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "KPX홀딩스는 KPX케미칼과 KPX화인케미칼의 투자사업부문을 분할·합병해 설립된 지주회사로, 주식 소유를 통해 자회사의 사업을 지배하는 것을 주된 사업으로 합니다. 자회사 관리와 지배구조 개선, 전문 경영을 통한 효율성 제고를 목표로 하고 있으며, 보고서 기준 자산총액은 2조 1,768억원 수준입니다.",
+    "business_model": "회사는 지주회사로서 자회사 지분 보유를 통해 수익을 창출하며, 주요 종속회사를 통해 화학(PPG 등), 자동차부품(시트 등), 부동산임대 등의 사업이 영위됩니다. PPG부문 연결 조정 전 당기 매출은 1조 725억 원, 자동차부품부문은 1,647억 원, 부동산임대부문은 114억 원, 지주부문 및 기타부문은 532억 원을 기록하였습니다. 또한 자회사들의 연구개발 성과를 바탕으로 특허 보유(총 38건)를 통해 사업 보호와 경쟁사 견제 역할을 하고 있습니다.",
+    "main_customers": "PPG부문 — 명시적 기재 없음 / 자동차부품부문 — 명시적 기재 없음 / 부동산임대부문 — 명시적 기재 없음 / 지주부문 및 기타 — 명시적 기재 없음",
+    "price_factors": [
+      {
+        "factor": "공급과잉",
+        "detail": "중국을 중심으로 한 공급과잉은 판매가격 하락과 수량 감소로 실적 압박을 줄 수 있습니다."
+      },
+      {
+        "factor": "수요둔화",
+        "detail": "글로벌 수요 둔화는 제품 판매량 감소로 매출과 이익에 부정적 영향을 미칩니다."
+      },
+      {
+        "factor": "환율",
+        "detail": "미 달러·일본 엔 등 환율 변동은 수출입 거래에서 손익 변동을 초래할 수 있습니다."
+      },
+      {
+        "factor": "환경규제",
+        "detail": "온실가스 배출·환경규제 준수 의무화는 설비·운영 측면의 비용 및 관리 부담과 직결됩니다."
+      },
+      {
+        "factor": "지적재산",
+        "detail": "보유 특허는 제품 보호 및 경쟁사 견제 수단으로서 사업 안정성에 기여합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 지주회사의 개요",
+        "evidence_text": "지주회사는 주식 소유를 통해 국내회사의 사업을 지배하는 것을 주된 사업으로 합니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "나. 주요종속회사의 개요",
+        "evidence_text": "연결 조정 전 당기 매출은 1조 725억 원을 기록하였습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. 지적재산권 보유현황",
+        "evidence_text": "당기말 현재 총 38건의 특허권을 보유하고 있습니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 6443,
+    "completion_tokens": 4043,
+    "reasoning_tokens": 3264,
+    "output_tokens": 779
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

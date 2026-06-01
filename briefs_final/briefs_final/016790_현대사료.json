@@ -1,0 +1,67 @@
+{
+  "stock_code": "016790",
+  "corp_name": "현대사료",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 21:54",
+  "meta": {
+    "wics": "식품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "현대사료는 배합사료의 제조·판매를 주업으로 하는 국내 사료업체로, 주요 제품은 양계사료입니다. 특히 산란계(알을 낳는 닭) 사료에 특화되어 성장 단계별 영양설계와 소화율을 고려한 제품을 개발하고 있습니다.",
+    "business_model": "주요 매출은 사료 사업에서 발생하며, 사업부문별 영업수익 구성에서 사료는 26.2%를 차지합니다(사료: 16,689 (26.2%)). 원료(옥수수·대두박) 대부분을 수입에 의존하여 국제곡물가격 및 환율 변동이 원가와 수익성에 직접적인 영향을 미칩니다.",
+    "main_customers": "사료 — 대형 거래선(80%) / 사료 — 전업 양축 농가(20%)",
+    "price_factors": [
+      {
+        "factor": "곡물가격",
+        "detail": "옥수수·대두박 등 국제곡물가격 상승 시 원재료비가 증가해 마진(이익률)에 압박을 줍니다."
+      },
+      {
+        "factor": "환율",
+        "detail": "원재료를 수입에 의존하므로 환율 변동 시 매입단가 변동으로 실적에 직접적인 영향을 받습니다."
+      },
+      {
+        "factor": "축산경기",
+        "detail": "전방산업인 축산업의 경기 및 사육마리수 변동은 사료 수요와 매출에 민감하게 작용합니다."
+      },
+      {
+        "factor": "가축질병",
+        "detail": "구제역·조류인플루엔자(AI) 등 가축질병 발생 시 축산업 전반의 수요와 매출에 부정적 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 배합사료 제조 판매업을 주업으로 수행하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "사료: 16,689 (26.2%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "판매 방식으로는 직거래 100%로 대형 거래선 80% 전업 양축 농가 20%를 거래하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "배합사료 제조를 위해서 주요 원재료인 옥수수, 대두박 등 대부분의 물량을 수입에 의존하고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5048,
+    "completion_tokens": 3004,
+    "reasoning_tokens": 2304,
+    "output_tokens": 700
+  },
+  "warnings": []
+}

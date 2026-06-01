@@ -1,0 +1,91 @@
+{
+  "stock_code": "049470",
+  "corp_name": "비트플래닛",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:01",
+  "meta": {
+    "wics": "소프트웨어",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "비트플래닛은 2025년 9월 10일 제3자 유상증자를 통해 최대주주가 변경되며 기존 계열사에서 독립했고, 사명도 비트플래닛으로 변경되었습니다. 회사는 전통 금융 시스템에 대한 문제의식 아래 '에너지 플랫폼'을 표방하며 디지털(가상)자산 사업과 IT 서비스 사업을 함께 영위하고 있습니다.",
+    "business_model": "사업 구조는 용역 60.6%, 서비스 37.9%, 상품 0.8%, 기타 0.7%로 구성됩니다. IT 서비스 부문에서는 공공부문 중심의 SI(시스템 통합)·SM(시스템 관리), IT 인프라 구축, RFID 프린터·그래픽카드 같은 상품 공급을 담당하고, 디지털(가상)자산 사업에서는 블록체인 기반 디지털 자산의 매입·관리·운용을 통해 비트코인 중심 재무전략을 추진하고 있습니다. 향후에는 채굴, AI 데이터센터, GPU 유통 등 AI 인프라 사업으로 확장할 계획입니다.",
+    "main_customers": "IT 서비스(SI/SM) — 교육부, 전국 시도교육청, 학교, 산하기관, 공공기관 / 상품 공급 — RFID 프린터·그래픽카드 등 IT 장비 수요처 / 디지털(가상)자산 사업 — 비트코인 중심 자산 운용을 둘러싼 회사 내부 재무전략",
+    "price_factors": [
+      {
+        "factor": "BTC 변동",
+        "detail": "비트코인 가격 변동성이 크기 때문에 보유 자산 가치와 재무 안정성에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "규제 환경",
+        "detail": "가상자산은 AML(자금세탁방지) 강화와 국내 규제 방향에 따라 사업 확장 속도와 운용 방식이 달라질 수 있습니다."
+      },
+      {
+        "factor": "보유 규모",
+        "detail": "보유 BTC 규모와 투자 속도는 비트코인 트레저리(재무자산 보유) 시장에서 경쟁력과 신뢰성 판단의 핵심 요소입니다."
+      },
+      {
+        "factor": "재무 안정",
+        "detail": "안정적인 재무 구조와 공정가치 회계 도입 여부가 상장사로서 시장 신뢰와 실적 변동성에 영향을 줍니다."
+      },
+      {
+        "factor": "SI 매출",
+        "detail": "기존 SI/SM 사업의 꾸준한 매출은 디지털 자산 중심 사업의 변동성을 일부 완충하는 역할을 합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "MD&A",
+        "evidence_text": "2025년 9월 10일 제3자 유상증자를 통하여 최대주주가 변경"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "MD&A",
+        "evidence_text": "사명을 비트플래닛으로 변경하였습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "상품: 338 (0.8%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "용역: 26,301 (60.6%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "서비스: 16,441 (37.9%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "주로 공공부문의 SI(시스템 통합_System Integration)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "교육부, 전국의 시도 교육청. 학교, 및 산하기관"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "영업 현황",
+        "evidence_text": "가상자산은 ... 가격 변동성이 심한 투자자산"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4606,
+    "completion_tokens": 1006,
+    "reasoning_tokens": 0,
+    "output_tokens": 1006
+  },
+  "warnings": []
+}

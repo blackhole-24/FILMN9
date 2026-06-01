@@ -1,0 +1,67 @@
+{
+  "stock_code": "012280",
+  "corp_name": "영화금속",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 20:59",
+  "meta": {
+    "wics": "자동차부품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "영화금속은 자동차부품용 주물(주조) 제품을 주력으로 하는 제조업체로, 자동차 안전과 직결되는 고정밀·고강도 부품을 생산합니다. 2025년 판매는 3,514억 원으로 전년대비 증가하였고, 제조생산은 86,879톤을 기록하는 등 규모 있는 영업실적을 보였습니다.",
+    "business_model": "핵심 사업은 자동차부품용 주물 제조로, FY2025 기준 영업수익은 단일 사업에서 발생하여 전체의 100.0%를 차지합니다. 주조(주물) 기술력과 품질 관리를 바탕으로 완성차업체에 주문생산 형태로 공급하며 매출은 완성차 생산량에 직접 연동됩니다.",
+    "main_customers": "자동차부품용 주물 — 완성차업체 및 해외 수출 거래선",
+    "price_factors": [
+      {
+        "factor": "기술력·품질",
+        "detail": "주물 제품은 인장강도·정밀도 등 고도의 기술을 요구하므로 품질 이슈가 발생하면 납품·평판에 직접적 악영향을 미칩니다."
+      },
+      {
+        "factor": "완성차 실적",
+        "detail": "완성차업체의 생산량 변화에 따라 수주와 매출이 직접적으로 변동되므로 완성차 실적에 민감합니다."
+      },
+      {
+        "factor": "경기변동",
+        "detail": "경기 변동에 따라 A/S용 부품 및 신차 수요가 변하므로 경기 침체 시 실적이 하방 압력을 받을 수 있습니다."
+      },
+      {
+        "factor": "가격경쟁",
+        "detail": "자동차 시장의 글로벌화로 수출거래선 확보 및 가격경쟁이 심화되어 마진압박 요인으로 작용할 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "MD&A",
+        "evidence_text": "판매는 3,514 억 원으로 전년대비 16.5 % 증가 하였고"
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 영업수익 구성 (FY2025, 천원)",
+        "evidence_text": "2025년: 81,181,760 (100.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "2.회사의 현황",
+        "evidence_text": "매출에 영향을 직접적으로 받고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "1.업계의현황  1) 산업의 특성",
+        "evidence_text": "인장강도, 정밀도 등에 있어서 고도의 기술을 요구하고 있음."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3394,
+    "completion_tokens": 3696,
+    "reasoning_tokens": 3008,
+    "output_tokens": 688
+  },
+  "warnings": []
+}

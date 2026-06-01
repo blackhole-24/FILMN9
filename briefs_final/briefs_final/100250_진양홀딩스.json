@@ -1,0 +1,84 @@
+{
+  "stock_code": "100250",
+  "corp_name": "진양홀딩스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 07:53",
+  "meta": {
+    "wics": "자동차부품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "진양홀딩스는 2008년 주요 투자사업부문 분할·합병을 통해 설립된 지주회사로, 주식 소유를 통해 자회사의 사업을 지배하는 것을 주된 사업으로 하고 있습니다. 2025년 12월 31일 기준 7개의 자회사와 5개의 손자회사를 보유하고 있으며, 화학(합성수지·인조피혁), 폴리우레탄·자동차부품 등을 자회사 중심으로 영위합니다.",
+    "business_model": "핵심은 지주사업(holding company)으로 브랜드 수익, 경영자문 수익, 배당 수익, 임대 수익 등을 주요 영업활동으로 하며, 자회사를 통한 제조(합성수지·폴리우레탄폼·자동차부품)와 일부 상품수출(손자회사 VINAFOAM으로의 수출)이 결합된 구조입니다. 지주회사는 자회사 지분 보유를 통해 경영관리와 투자·지원 기능을 수행합니다.",
+    "main_customers": "지주사업 — 자회사 및 그룹사(배당·임대·경영자문 수익원) / 자동차부품 제조 — 국내 자동차 메이커 및 기타 자동차 메이커(밴더업체를 통한 공급) / 상품수출 — 손자회사 VINAFOAM CO.,LTD",
+    "price_factors": [
+      {
+        "factor": "원자재 가격",
+        "detail": "원자재 가격이 국제 시세에 연동되어 상승하면 제조원가 증가로 실적에 부정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "자동차 수요 변동",
+        "detail": "자동차용 인조피혁·부품은 자동차시장 변동에 민감해 완성차 생산·판매 변화가 매출에 직결됩니다."
+      },
+      {
+        "factor": "환율 변동",
+        "detail": "원/달러 등 환율 변동은 수출입 거래와 자산·부채 평가에 영향을 미치며, USD·JPY 노출이 존재합니다."
+      },
+      {
+        "factor": "글로벌 저가 경쟁",
+        "detail": "중국·베트남 등 저가제품 경쟁으로 일부 전통 시장(쇼파·오피스용)이 축소되어 가격경쟁 압력이 존재합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 지주회사의 개요",
+        "evidence_text": "당사는 주식의 소유를 통하여 국내회사의 사업내용을 지배하는 것을 주된 사업으로하는 지주회사로서"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "가. 지주회사의 개요",
+        "evidence_text": "2025년 12월 31일 현재 7개의 자회사 및 5개의 손자회사를 두고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "ㄱ) 지주사업",
+        "evidence_text": "브랜드 수익, 경영자문 수익, 배당 수익, 임대 수익등을 주된 영업활동으로 영위하고 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "진양화학(주) (4) 국내외 시장여건",
+        "evidence_text": "제품은 자동차 밴더업체를 통하여 고객에게 공급하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "진양화학(주) (6) 자원조달상의 특성",
+        "evidence_text": "제품의 주요 원재료는 레진 및 가소제로 대체로 국내업체로 부터 조달하고 있으며, 원자재의 가격은 국제가 가격에 영향을 받습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "(4) 환율변동 영향 등 금융위험",
+        "evidence_text": "당사는 환율변동에 대하여 USD, JPY에 위험이 노출되어 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "진양화학(주) (2) 산업의 성장성",
+        "evidence_text": "기존의 쇼파용 및 오피스용 PVC 인조피혁은 중국 및 베트남의 저가제품으로 시장이 많이 축소되었으며"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 5580,
+    "completion_tokens": 3409,
+    "reasoning_tokens": 2368,
+    "output_tokens": 1041
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "stock_code": "368970",
+  "corp_name": "오에스피",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 17:59",
+  "meta": {
+    "wics": "식품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "오에스피는 프리미엄 유기농 기반의 펫푸드(반려동물용 식품)를 생산하는 기업으로, 유기농 70% 및 95% 인증 제품과 유기농 기반의 프리미엄 펫푸드를 주요 제품군으로 보유하고 있습니다. 2020년 자사 브랜드 '네츄럴 시그니처'를 출시해 베트남·홍콩 등으로 첫 수출을 시작했으며, 자체 브랜드(PB) 중심의 사업 확대와 해외 시장 진출을 추진하고 있습니다.",
+    "business_model": "FY2025 기준 사업부문별 영업수익 구성은 제품매출이 63.2%(6,710)이며 PB제품이 34.3%(3,644)를 차지합니다; 제품매출은 주력 제조·판매 매출이고 PB제품은 자사 브랜드(Private Brand) 중심의 수익원입니다. 2024년 종료된 주요 OEM 거래 중단 이후 OEM 의존도를 줄이고 PB 확대와 해외 진출을 통해 매출 구조 다변화를 추진하고 있습니다.",
+    "main_customers": "제품매출 — 반려동물을 기르는 가구(반려견·반려묘) 및 온라인·오프라인 유통 채널 / PB제품 — 유통업체·해외 바이어 및 자사 브랜드 유통 파트너",
+    "price_factors": [
+      {
+        "factor": "가구 증가",
+        "detail": "반려동물 보유 가구와 개체 수 증가에 따라 장기적 수요 기반이 확대되어 실적에 긍정적 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "프리미엄화",
+        "detail": "펫 휴머니제이션(반려동물의 인간화)에 따른 유기농·기능성 제품 수요 확대가 고마진 제품 매출 증가로 연결됩니다."
+      },
+      {
+        "factor": "온라인화",
+        "detail": "유통 채널의 온라인 전환(온라인 판매 비중 약 69%)이 강해 온라인 판매력과 이커머스 채널 확보 여부가 실적에 영향을 줍니다."
+      },
+      {
+        "factor": "거래처 구조",
+        "detail": "과거 주요 OEM 파트너와의 거래 중단은 매출 변동성을 키우므로 OEM 비중 축소 및 PB·해외 다변화가 실적 안정성에 중요합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "제품매출: 6,710 (63.2%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "PB제품: 3,644 (34.3%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "(다) 반려동물 용품 유통채널의 온라인화",
+        "evidence_text": "온라인 판매 비중은 약 69%로 추정됩니다."
+      },
+      {
+        "field": "company_overview",
+        "source_section": "(3) 제품의 기능 ·용도 및 특징",
+        "evidence_text": "당사에서 생산하고 있는 제품은 유기농 70% 및 95% 인증 제품"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5731,
+    "completion_tokens": 4624,
+    "reasoning_tokens": 3840,
+    "output_tokens": 784
+  },
+  "warnings": []
+}

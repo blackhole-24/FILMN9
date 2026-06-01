@@ -1,0 +1,67 @@
+{
+  "stock_code": "405920",
+  "corp_name": "나라셀라",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 18:59",
+  "meta": {
+    "wics": "음료",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "나라셀라는 주류도매업에 속하며 와인 수입과 국내 유통을 전문으로 하는 기업입니다. 미국, 프랑스, 칠레, 이탈리아 등 주요 산지로부터 와인을 직수입해 약 30년의 업력을 바탕으로 프리미엄 와인 포트폴리오를 구축해왔습니다.",
+    "business_model": "당사는 전세계 유명 와이너리로부터 와인을 직접 발굴·수입해 국내 유통망을 통해 판매하는 유통 전문 사업을 핵심으로 합니다. 사업부문별 영업수익 구성(FY2025)은 미국 34.0%, 프랑스 19.0%, 칠레 23.0%, 이탈리아 9.0%, 기타 16.0%로 지역별 수입·판매 비중이 수익 구조를 결정하며, 161개 브랜드·약 1,955 SKU(제품 단위)를 통해 포트폴리오를 운영하고 있습니다.",
+    "main_customers": "On 채널 — 도매·소매·호텔 및 지역 바이어 / Off 채널 — 백화점 내 와인샵·대형 할인점·편의점·자체 로드샵·법인 고객(특판)",
+    "price_factors": [
+      {
+        "factor": "포트폴리오",
+        "detail": "브랜드·포트폴리오 경쟁력이 강할수록 시장 점유율과 매출 안정성에 유리합니다."
+      },
+      {
+        "factor": "환율",
+        "detail": "변동성 높은 환율은 수입 원가와 판매가격에 직접적인 영향을 미쳐 실적 변동성을 키울 수 있습니다."
+      },
+      {
+        "factor": "공급국 특성",
+        "detail": "신대륙(칠레·미국)은 대량공급이 용이한 반면 프랑스는 소량생산으로 단독 공급 확보가 어려워 공급 안정성이 지역별로 상이합니다."
+      },
+      {
+        "factor": "내수수요",
+        "detail": "내수 경기 둔화와 소비자 선호 변화(중저가군 수요 감소 등)는 판매량과 채널별 매출에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "와인 수입 및 국내 유통을 전문으로 하는 기업입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "미국: 33,661 (34.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "다. 판매 채널",
+        "evidence_text": "당사의 판매채널은 크게 On 채널과 Off 채널로 구분되며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나. 시장현황 및 영업개황 (1) 시장의 특성",
+        "evidence_text": "브랜드 및 포트폴리오 경쟁력이 중요한 시장"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4821,
+    "completion_tokens": 2974,
+    "reasoning_tokens": 2240,
+    "output_tokens": 734
+  },
+  "warnings": []
+}

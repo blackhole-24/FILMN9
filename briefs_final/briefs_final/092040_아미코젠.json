@@ -1,0 +1,62 @@
+{
+  "stock_code": "092040",
+  "corp_name": "아미코젠",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 07:14",
+  "meta": {
+    "wics": "생물공학",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "아미코젠은 2000년 5월 29일 설립된 산업바이오 전문회사로, 자체 개발한 유전자진화기술(Molecular gene evolution)을 바탕으로 제약용 특수효소와 헬스케어·바이오의약 소재의 개발 및 사업화에 주력하고 있습니다. CX 효소 등 항생제 원료용 효소 사업의 성공을 기반으로 사업 영역을 확장해 왔습니다.",
+    "business_model": "핵심 사업은 유전자진화기술 기반의 특수효소(제약용)와 헬스케어 소재(N-아세틸글루코사민, PI/DCI, 콜라겐 펩타이드 등), 바이오의약 소재(Protein A 레진·배지), 브랜드(K-NUTRA) 및 ODM 사업으로 구성됩니다. FY2025 기준 사업부문별 영업수익 구성은 당사제품매출 15.1%, NAG 8.6%, PI/DCI 19.2%, CP/CTP 18.6%, K뉴트라 2.5%, ODM 8.8%, 기타 15.6%, 종속회사제품매출 11.7%입니다.",
+    "main_customers": "특수효소(항생제용) — 제약업체 / 헬스케어 소재(NAG·PI/DCI·CP/CTP) — 건강기능성 원료·브랜드 유통사 / 바이오의약 소재(Protein A·배지) — 바이오의약품 제조업체 / ODM·K-NUTRA — 브랜드·유통사",
+    "price_factors": [
+      {
+        "factor": "기술경쟁력",
+        "detail": "유전자진화기술(효소 개량) 경쟁력에 따라 제품 차별화와 수익성에 직접 영향이 있습니다."
+      },
+      {
+        "factor": "바이오 수요",
+        "detail": "항체 생산용 레진·배지 등 바이오의약품 제조 수요 증감이 해당 부문 실적에 직결됩니다."
+      },
+      {
+        "factor": "헬스케어 트렌드",
+        "detail": "NAG·피니톨·콜라겐 등 헬스케어 소재 수요 변화가 관련 매출에 영향을 미칩니다."
+      },
+      {
+        "factor": "해외시장",
+        "detail": "기존 중국 중심에서 인도 시장 등 해외 다변화 계획은 매출 구조와 성장성에 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "산업바이오 전문회사입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "PI/DCI (피니톨/D-카이노이노시톨): 8,819,718 (19.2%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "CX 효소의 사업화 성공을 기반으로"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4286,
+    "completion_tokens": 4348,
+    "reasoning_tokens": 3584,
+    "output_tokens": 764
+  },
+  "warnings": []
+}

@@ -1,0 +1,76 @@
+{
+  "stock_code": "323280",
+  "corp_name": "태성",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 16:32",
+  "meta": {
+    "wics": "전자장비와기기",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "태성은 전자소재·전자부품 제조 공정에 쓰이는 장비를 생산·공급하는 기계장비 업체로, 기존 PCB(인쇄회로기판) 제조 공정 장비를 주력으로 글래스 기판·2차전지 소재 공정 장비로 사업을 확장하고 있습니다. 반도체 글래스 기판 분야에 전담 TFT를 구성해 기술개발을 진행했으며, 2025년에는 TGV(Through Glass Via, 유리관통전극) 알카리 에칭 장비 등 주요 장비의 납품 실적을 달성했습니다.",
+    "business_model": "사업부문별로 FY2025 기준 설비가 매출의 58.1%를 차지하고 자동화장비가 41.8%를 차지합니다. 주요 제품은 PCB 제조용 습식(Wet) 공정 장비와 자동화장비이며, 장비 제작 외에 PCB 외주 생산 및 공정 소모품(예: 세라믹 브러시) 판매도 수익원으로 존재합니다.",
+    "main_customers": "설비 — 국내외 PCB 제조업체 / 자동화장비 — PCB 및 전자소재 제조업체 / 글래스 기판 장비 — 반도체 패키징 관련 제조업체 / 2차전지 장비 — 동박(배터리 소재) 제조업체",
+    "price_factors": [
+      {
+        "factor": "정밀·자동화",
+        "detail": "장비의 정밀도와 자동화 수준이 제조사 경쟁력과 직결되어 고사양 장비 수요가 실적에 영향"
+      },
+      {
+        "factor": "제품군 특화",
+        "detail": "PCB 제품군별로 다른 장비가 필요해 특정 제품군 투자에 따라 수요가 달라짐"
+      },
+      {
+        "factor": "전방수요",
+        "detail": "스마트폰·반도체 등 전방산업 수요 변동이 PCB 투자로 이어져 실적에 영향"
+      },
+      {
+        "factor": "중국 투자주기",
+        "detail": "한국 내 투자 후 1~2년 뒤 중국에서 유사 투자가 발생하는 경향이 있어 해외 수주에 영향"
+      },
+      {
+        "factor": "환율 변동",
+        "detail": "외화 표시 거래로 환율 변동 노출이 있어 환율 변화가 실적에 영향을 미침"
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "당사는 한국표준산업분류상 그 외 기타 특수 목적용 기계 제조업(C29299)에 속하는 회사로, 전자소재 및 전자부품 제조 공정에 사용되는 장비를 생산 및 공급하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "설비: 994 (58.1%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "자동화장비: 1,181 (41.8%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "PCB 제조 공정에 필요한 습식 장비를 국내외 PCB 제조업체에 공급하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A) > 라. 환율 변동 영향",
+        "evidence_text": "연결실체는 외화로 표시된 거래를 하고 있기 때문에 환율변동위험에 노출되어 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4623,
+    "completion_tokens": 5459,
+    "reasoning_tokens": 4544,
+    "output_tokens": 915
+  },
+  "warnings": []
+}

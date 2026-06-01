@@ -1,0 +1,69 @@
+{
+  "stock_code": "001430",
+  "corp_name": "세아베스틸지주",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 17:27",
+  "meta": {
+    "wics": "철강",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "세아베스틸지주는 2022년 4월 1일 물적분할을 통해 지주회사로 전환한 순수지주회사로, 자회사 및 손자회사를 지배·관리하는 역할을 수행합니다. 2025년 연결기준으로 국내 5개사 및 해외 10개사 등 총 15개사에 대한 지배권을 행사하고 있습니다.",
+    "business_model": "주된 사업은 지배목적의 주식소유(순수지주회사)로 자회사로부터 받는 배당이 주된 수입원이며, 부동산임대업 비중은 미미합니다. 그룹 차원에서는 자회사들의 탄소합금강, 스테인리스강, 고강도 알루미늄 합금, 특수합금 등 소재 분야와 해외 판매거점·가공사업으로의 확장이 가능한 포트폴리오 관리를 수행합니다.",
+    "main_customers": "지주회사 — 자회사 및 손자회사 (지배·관리 대상) / 임대 — 부동산임대업 관련 임차인 / 용역 — 자회사 대상 전략·IT·인재육성 등 지원서비스",
+    "price_factors": [
+      {
+        "factor": "글로벌 공급과잉",
+        "detail": "중국 내수 부진과 저가 물량 유입으로 공급 과잉이 지속되면 판매가격과 수익성에 부담이 됩니다."
+      },
+      {
+        "factor": "보호무역",
+        "detail": "관세 부과 및 반덤핑 규제 강화는 수출여건을 위축시켜 실적에 영향을 줍니다."
+      },
+      {
+        "factor": "전방산업 수요",
+        "detail": "자동차·기계·조선·건설 등 전방산업 수요 변동에 따라 특수강 수요와 가동률, 수익성이 민감하게 변동합니다."
+      },
+      {
+        "factor": "저가 수입재 경쟁",
+        "detail": "저가 수입재 공세 및 원부재료 가격 변동은 매출과 마진에 직접적인 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "당사는 지배목적의 주식소유를 주된 사업내용으로 하는 순수지주회사로"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "자회사로부터 받는 배당을 주된 수입원으로 하는 회사입니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "당사는 자회사 및 손자회사들의 전문적 경영전략 ... 역할을 수행하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "7. 기타 참고사항 > 가. 업계의 현황",
+        "evidence_text": "국내 특수강 수요는 자동차 및 건설중장비 생산량과 밀접한 연관성이 있으며"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4806,
+    "completion_tokens": 4543,
+    "reasoning_tokens": 3776,
+    "output_tokens": 767
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

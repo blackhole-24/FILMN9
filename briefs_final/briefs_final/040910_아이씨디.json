@@ -1,0 +1,67 @@
+{
+  "stock_code": "040910",
+  "corp_name": "아이씨디",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 01:24",
+  "meta": {
+    "wics": "디스플레이장비및부품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "아이씨디는 2000년 설립된 디스플레이 패널 제조용 장비 전문 기업으로, HDP Dry Etcher(박막식각 장비)와 OLED 증착 공정용 진공물류장비(증착기)를 개발·생산·판매하고 있습니다. 2025년 연결기준 총매출은 1,970억원으로 국내매출 640억원, 수출 1,330억원을 기록했습니다.",
+    "business_model": "사업부문별로 제품 매출이 79.2%를 차지하며([사업부문별 매출 구성] 기준), 핵심 품목별로는 HDP Etcher가 1,276억원(64.8%), 증착기(진공물류장비)가 346억원(17.6%), Parts 및 용역매출가 348억원(17.6%)을 기록했습니다. 주력 제품인 HDP Etcher는 Plasma 기반 건식 식각 공정용 장비로 OLED·LCD 패널 제조사에 주문 제작 방식으로 공급되며, 증착기 등 진공물류장비도 주요 수익원입니다.",
+    "main_customers": "장비(Etcher·증착기) — 패널 제조사(삼성디스플레이·LG디스플레이·BOE·CSOT·TIANMA·AUO·HANNSTAR·CMI)",
+    "price_factors": [
+      {
+        "factor": "설비투자 변동성",
+        "detail": "패널 제조사의 설비투자 규모에 따라 대규모 수주로 실적이 크게 좌우될 수 있습니다."
+      },
+      {
+        "factor": "중국 경쟁",
+        "detail": "중국의 공격적 투자와 LCD 공급과잉은 시장 구조와 수요에 영향을 미쳐 매출에 부담을 줄 수 있습니다."
+      },
+      {
+        "factor": "OLED 전환 속도",
+        "detail": "LCD에서 OLED로의 전환 속도는 HDP Etcher 등 주력 장비 수요에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "고가·긴 제작기간",
+        "detail": "장비가 고가(수십억~100억)이고 주문제작·납기(6~12개월)가 길어 수주 변동이 실적 변동성으로 연결됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "디스플레이 패널 제조 장비를 개발, 생산 및 판매하는 사업"
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황",
+        "evidence_text": "HDP Etcher 1,276억원(64.8%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "제품: 93,900 (79.2%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "당사의 고객사로는 국내의 경우 삼성디스플레이, LG디스플레이"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4439,
+    "completion_tokens": 3574,
+    "reasoning_tokens": 2816,
+    "output_tokens": 758
+  },
+  "warnings": []
+}

@@ -1,0 +1,81 @@
+{
+  "stock_code": "475560",
+  "corp_name": "더본코리아",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:47",
+  "meta": {
+    "wics": "호텔,레스토랑,레저",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "더본코리아는 외식 프랜차이즈(가맹사업)를 중심으로 유통사업, 호텔사업, 지역개발사업을 함께 영위하는 기업입니다. 사업보고서상 당사의 사업영역은 크게 네 가지로 구분되며, 전국 가맹점의 점포 운영과 관리를 직접 진행하고 있습니다.",
+    "business_model": "더본코리아의 영업수익은 상품이 81.2%, 제품이 18.2%, 기타매출이 9.8%로 구성되어 있습니다. 핵심 수익 구조는 가맹본부가 브랜드, 상호/상표, 레시피, 운영매뉴얼, 공급품 등을 제공하고 가맹점이 로열티나 가맹금을 지불하는 프랜차이즈(가맹) 방식이며, 외주가공(OEM, 주문자상표부착생산) 제품과 간편식 유통도 함께 운영합니다. 2025년에는 TBK글로벌 B2B 소스 런칭 등으로 유통사업의 글로벌 진출도 본격화하고 있습니다.",
+    "main_customers": "외식 프랜차이즈 — 가맹점사업자와 최종 소비자 / 유통사업 — 국내외 유통채널과 거래처 / 호텔사업 — 관광객 및 숙박 이용객 / 지역개발사업 — 군·도 단위 지역과 요식업 관련 수요처",
+    "price_factors": [
+      {
+        "factor": "가맹지원",
+        "detail": "대규모 상생지원 정책이나 로열티 인하가 늘면 매출과 원가 구조에 직접 영향을 줍니다."
+      },
+      {
+        "factor": "소비둔화",
+        "detail": "외식·유통 수요가 줄어들면 가맹점 매출과 본사 수익에도 부담이 커질 수 있습니다."
+      },
+      {
+        "factor": "원가변동",
+        "detail": "외주가공 제품과 공급품 비중이 있어 매입단가 변화가 실적에 영향을 줍니다."
+      },
+      {
+        "factor": "규제환경",
+        "detail": "가맹사업법, 공정거래법, 식품위생법 등 규제가 사업 운영 방식과 비용에 영향을 줍니다."
+      },
+      {
+        "factor": "글로벌진출",
+        "detail": "TBK글로벌 B2B 소스 같은 해외 확장 성과가 유통사업 성장 방향에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 가. 외식 프랜차이즈(가맹) 사업",
+        "evidence_text": "당사의 사업영역은 크게 외식 프랜차이즈 사업(가맹사업), 유통사업, 호텔사업, 지역개발사업으로 구분되어 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "제품(주1): 21,787 (18.2%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "상품: 176,411 (81.2%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "기타매출: 35,403 (9.8%)"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "MD&A",
+        "evidence_text": "'당사 가맹사업의 핵심역량을 유지하기 위한 대규모 상생지원 정책 시행'"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "MD&A",
+        "evidence_text": "'TBK글로벌 B2B 소스 런칭 등 유통사업의 글로벌 진출 본격화'"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 6365,
+    "completion_tokens": 925,
+    "reasoning_tokens": 0,
+    "output_tokens": 925
+  },
+  "warnings": []
+}

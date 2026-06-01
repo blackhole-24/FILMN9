@@ -1,0 +1,77 @@
+{
+  "stock_code": "054180",
+  "corp_name": "메디콕스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 03:23",
+  "meta": {
+    "wics": "조선",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "메디콕스는 연결실체 기준으로 조선기자재와 전동기·발전기 사업을 영위하는 제조업체입니다. 초대형 선박의 선수·선미·프로펠라 보스 등 특수 제작 블록(Block)을 생산하며, 국내 대형 조선사와의 장기 거래를 기반으로 사업을 운영하고 있습니다.",
+    "business_model": "주요 수익원은 조선기자재(매출의 84.0%)와 전동기및발전기등(매출의 16.0%)으로 구성되어 있으며, 조선사 요구 사양에 따른 주문생산(주문생산체제)이 핵심 사업 방식입니다. 조선기자재는 선급(선박 검사기관) 인증과 고신뢰성 기술이 중요한 진입장벽 역할을 하며, 전동기·발전기 부문은 자체 설계·진단·수리까지 가능한 토탈 솔루션 제공이 특징입니다.",
+    "main_customers": "조선기자재 — 현대중공업·현대미포조선 등 대형 조선사(1차 협력업체) / 전동기및발전기등 — 선박용 발전기·전동기 수요처(선주·조선소) 및 철도 관련 공공 발주(정부·지방자치단체)",
+    "price_factors": [
+      {
+        "factor": "선박발주량",
+        "detail": "글로벌 신조 발주량 변동에 따라 조선기자재 수요가 직접 증감되어 실적에 큰 영향을 줍니다."
+      },
+      {
+        "factor": "환경규제",
+        "detail": "IMO·EEXI 등 환경규제 강화로 LNG선 등 고부가가치선 발주가 늘면 고기술 기자재 수요가 증가합니다."
+      },
+      {
+        "factor": "환율·원자재",
+        "detail": "환율·유가·철강 등 후방 산업 변수는 원가와 발주 환경에 영향을 미쳐 수익성에 작용합니다."
+      },
+      {
+        "factor": "품질·인증",
+        "detail": "선급인증(WPS 등)과 기술력 보유 여부가 수주 경쟁력과 거래선 유지에 중요한 요소입니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A) > 1) 사업의개요",
+        "evidence_text": "연결실체는 조선기자재부문, 전동기 및 발전기부문으로 구성되어있으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성] (FY2025)",
+        "evidence_text": "조선기자재(*1): 23,665,193 (84.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성] (FY2025)",
+        "evidence_text": "전동기및발전기등(*2): 4,495,769 (16.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "나. 업계의 현황[전동기 및 발전기 부문]",
+        "evidence_text": "당사는 세계 최고의 조선회사인 현대중공업 및 현대미포조선등의 1차 협력업체이며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나. 업계의 현황[조선기자재 산업(조선 블록 건조)] > 2) 산업의 성장성",
+        "evidence_text": "선박 수주량은 증가할 것으로 예측됩니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나. 업계의 현황[전동기 및 발전기 부문] (산업의 특성)",
+        "evidence_text": "당사는 일본 선급 협회 뿐만아니라 ... WPS인증을 취득하여"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5988,
+    "completion_tokens": 3845,
+    "reasoning_tokens": 2880,
+    "output_tokens": 965
+  },
+  "warnings": []
+}

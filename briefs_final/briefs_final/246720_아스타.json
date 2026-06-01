@@ -1,0 +1,67 @@
+{
+  "stock_code": "246720",
+  "corp_name": "아스타",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 13:41",
+  "meta": {
+    "wics": "건강관리장비와용품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "아스타는 2006년 창사 이래 MALDI-TOF(질량분석기기) 기반 장비와 소모품을 개발·생산·판매하는 기술기반 상장기업입니다. 연구용에서 의료용·산업용으로 제품 적용 범위를 확장하며 의료용 미생물 데이터베이스 등 독자적 자산을 구축해왔습니다.",
+    "business_model": "주요 수익원은 진단시스템 및 장비 판매·리스와 소모품·서비스로 구성되며, 2025회계연도 기준 사업부문별 매출은 제품및상품 13.6%, Data Generation Unit 및 진단시스템 83.7%, 기타매출 2.7%로 진단시스템(장비·DB·소모품)이 핵심입니다.",
+    "main_customers": "미생물동정시스템 — 대형·중소·소형 병원 및 검사센터 / 암진단 시스템 — 암 진단을 준비하는 의료기관 / 산업용 시스템 — 디스플레이(OLED), 2차전지, 반도체 제조업체 및 소재·소자 기업 / 소모품·서비스 — 의료기관 및 연구기관",
+    "price_factors": [
+      {
+        "factor": "경쟁강도",
+        "detail": "글로벌 상위업체 4개사가 시장을 크게 점유하고 있어(시장 점유율 86.5%) 경쟁압력이 실적과 밸류에이션에 영향을 미칩니다."
+      },
+      {
+        "factor": "시장성장",
+        "detail": "임상 미생물 진단시장은 연 6.5% 성장 전망으로 장기적 수요 확대가 실적에 긍정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "DB·SW수익",
+        "detail": "데이터베이스와 진단소프트웨어의 업그레이드·사용료 시장 확대로 반복수익(구독형·사용료형)이 실적 변동성에 영향을 미칩니다."
+      },
+      {
+        "factor": "해외전략",
+        "detail": "현지 파트너·JV를 통한 해외 생산·판매 전략은 현지화 이점과 동시에 파트너 선정·정책 리스크에 따른 실적 변동 요인입니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "2006년 창사이래 MALDI-TOF 기반 질량분석기기"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "Data Generation Unit 및 진단시스템: 2,540 (83.7%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "3-2. 요약 손익계산서",
+        "evidence_text": "의료기관 및 연구기관을 대상으로 장비 판매"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "4개의 회사가 전체 시장의 86.5%를 차지하고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5801,
+    "completion_tokens": 3443,
+    "reasoning_tokens": 2688,
+    "output_tokens": 755
+  },
+  "warnings": []
+}

@@ -1,0 +1,71 @@
+{
+  "stock_code": "480370",
+  "corp_name": "씨케이솔루션",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:47",
+  "meta": {
+    "wics": "기계",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "씨케이솔루션은 기계·장비 업종에서 클린룸과 드라이룸 시스템을 중심으로 사업을 하는 기업입니다. 반도체, 2차전지, 바이오 등 제조시설에 필요한 공조 인프라를 공급하며, 특히 2차전지 분야 매출 비중이 가장 높은 것으로 제시되어 있습니다.",
+    "business_model": "사업부문별 영업수익은 드라이룸 77.5%, 클린룸 2.7%, 기타 19.7%로 구성되어 있습니다. 드라이룸(저습도 청정공간)과 클린룸(미세먼지·청정도 관리 공간) 시스템이 핵심 사업이며, 2차전지 제조공정과 같은 고도의 공정 환경에서 필요한 설비를 공급하는 구조입니다. 최근에는 전기차 배터리 시장과 ESS(에너지저장장치) 확대로 관련 프로젝트 수주를 넓히려는 방향이 함께 언급됩니다.",
+    "main_customers": "드라이룸 — 국내 배터리 제조사 및 전고체 배터리 관련 소재 개발 고객 / 클린룸 — 반도체·바이오 제조시설 고객 / 기타 — 공조·산업설비 관련 고객",
+    "price_factors": [
+      {
+        "factor": "배터리투자",
+        "detail": "2차전지 생산설비 투자가 늘수록 드라이룸 수요가 커져 실적에 직접적인 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "전기차수요",
+        "detail": "전기차 판매가 늘면 배터리 생산라인 확대가 이어져 드라이룸과 클린룸 수요가 함께 증가할 수 있습니다."
+      },
+      {
+        "factor": "ESS확대",
+        "detail": "ESS(에너지저장장치) 시장이 성장하면 관련 설비 수주가 늘어 수익 구조 다변화에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "반도체수요",
+        "detail": "AI, IoT 확산으로 반도체 수요가 늘면 클린룸과 드라이룸의 적용 범위가 넓어질 수 있습니다."
+      },
+      {
+        "factor": "기술장벽",
+        "detail": "저습도·청정도 제어 기술이 중요한 산업 특성상, 기술력과 고객사 대응 역량이 수주 경쟁에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사의 드라이룸 시스템과 클린룸 시스템은 반도체, 2차전지, 바이오 등 다양한 분야"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "드라이룸: 225,613 (77.5%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "주요 고객사로는 LG에너지솔루션, 삼성SDI 등이 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성 — price_factors 참고용",
+        "evidence_text": "전기차용 배터리 시장은 시장에서 가장 각광받는 분야"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4545,
+    "completion_tokens": 798,
+    "reasoning_tokens": 0,
+    "output_tokens": 798
+  },
+  "warnings": []
+}

@@ -1,0 +1,76 @@
+{
+  "stock_code": "454910",
+  "corp_name": "두산로보틱스",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:45",
+  "meta": {
+    "wics": "기계",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "두산로보틱스는 산업용 로봇, 그중에서도 협동로봇(Cobot, 사람과 함께 작업하는 로봇)의 제조와 솔루션 제공 사업을 영위하는 기업입니다. 2015년 첫 협동로봇 모델 개발 이후 해외 시장에 진출했고, 2021년에는 판매량 기준 글로벌 Top 4에 진입했습니다. 최근에는 미국 ONExia 인수와 북미법인 합병을 통해 자동화 최대 시장인 북미 공략을 강화하고 있습니다.",
+    "business_model": "2025년 사업부문별 영업수익은 협동로봇 19,891(60.3%), 부품 등기타 7,941(17.0%), 자동화 솔루션 6,006(18.2%)으로 구성됩니다. 기존에는 로봇 Arm(로봇 팔)을 공급하고 외부 SI(시스템통합) 업체가 설치·구축하는 구조였지만, 최근에는 ONExia 인수를 통해 기획·설치·운영까지 포함한 턴키(Turn-Key, 일괄 제공) 솔루션 체계를 내재화하고 있습니다. 또한 AI와 소프트웨어를 결합한 지능형 로봇 솔루션과 Plug & Play(설치 후 바로 쓰는 방식) 모델로의 전환을 추진하고 있습니다.",
+    "main_customers": "협동로봇 — 미국·유럽 등 글로벌 Machining solution 업체, 로봇 솔루션 업체 / 자동화 솔루션 — EOL 솔루션 및 맞춤형 자동화 시스템을 필요로 하는 고객 / 부품 등기타 — 협동로봇 관련 부품 수요처",
+    "price_factors": [
+      {
+        "factor": "관세정책",
+        "detail": "미국의 관세·무역정책 불확실성은 북미 투자 심리를 위축시켜 협동로봇 수요와 매출에 직접 영향을 줍니다."
+      },
+      {
+        "factor": "경기회복",
+        "detail": "글로벌 경기 회복이 지연되면 제조업 투자와 자동화 설비 도입이 늦어져 실적 개선이 둔화될 수 있습니다."
+      },
+      {
+        "factor": "북미수요",
+        "detail": "북미는 높은 인건비와 자동화 확대 흐름으로 수요 기반이 형성돼 있어, 지역 수요 변화가 실적에 중요합니다."
+      },
+      {
+        "factor": "유럽경기",
+        "detail": "유럽 제조업 부진이 이어지면 해당 지역 협동로봇 수요가 약해져 해외 매출 성장에 부담이 됩니다."
+      },
+      {
+        "factor": "솔루션전환",
+        "detail": "하드웨어 중심에서 지능형 로봇 솔루션으로 전환이 진행되면 제품·서비스 믹스가 바뀌어 수익 구조에 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 산업용 로봇, 그 중에서도 협동로봇(Cobot, Collaborative Robot)에 대한 제조 및 솔루션 제공 사업을 영위하고 있습니다."
+      },
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "2021년에는 판매량 기준 글로벌 Top 4 진입에 성공하였으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "협동로봇: 19,891 (60.3%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "부품 등기타: 7,941 (17.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "자동화 솔루션: 6,006 (18.2%)"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5517,
+    "completion_tokens": 964,
+    "reasoning_tokens": 0,
+    "output_tokens": 964
+  },
+  "warnings": []
+}

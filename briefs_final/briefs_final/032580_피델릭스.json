@@ -1,0 +1,76 @@
+{
+  "stock_code": "032580",
+  "corp_name": "피델릭스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 23:42",
+  "meta": {
+    "wics": "반도체와반도체장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "피델릭스는 메모리 반도체를 개발·판매하는 Fabless(반도체 설계전문) 기업으로, DRAM·Flash Memory·MCP를 주력 제품으로 취급합니다. 모바일 중심이던 공급처를 Consumer Electronics, M2M/IoT로 확장하고 Automotive 시장까지 진출하며 제품 포트폴리오를 넓히고 있습니다.",
+    "business_model": "주요 수익은 제품매출(반도체)로 전체 매출의 97.4%(52,229백만원)를 차지하고, 기타매출(메모리 설계용역 등)이 2.6%(1,386백만원)를 구성합니다. 제품 측면에서는 LPDDR 계열(예: LPDDR, LPDDR2, LPDDR4x), NAND/NOR Flash 및 NAND+DRAM MCP(다중칩패키지) 등을 모바일·임베디드·자동차용으로 공급하며 KGD(결함이 없는 낱칩) 및 완제품 패키지 형태로 판매합니다.",
+    "main_customers": "제조(제품매출) — Mobile Application용 Memory를 필요로 하는 모바일·가전·통신기기 제조사 및 모듈업체 / 기타매출 — Memory 설계용역을 의뢰하는 기업",
+    "price_factors": [
+      {
+        "factor": "시장수요",
+        "detail": "5G·M2M/IoT·자동차용 메모리 수요 확대가 실적과 매출 성장에 직접적 영향을 미칩니다."
+      },
+      {
+        "factor": "AI수요",
+        "detail": "AI 관련 HBM·eSSD·맞춤형 메모리 수요 증가가 중장기 성장 요인으로 작용합니다."
+      },
+      {
+        "factor": "경쟁구도",
+        "detail": "파운드리 보유 대형업체와의 경쟁 속에서 Fabless로서의 기술력과 제품 차별화가 수익성에 영향합니다."
+      },
+      {
+        "factor": "자동차인증",
+        "detail": "자동차 시장 특성상 칩셋 인증·안정적 공급이 요구되어 매출 안정성과 진입 시점에 영향을 줍니다."
+      },
+      {
+        "factor": "가격변동성",
+        "detail": "글로벌 메모리 수급 변화로 인한 가격 급등락이 분기별 실적 변동성으로 이어집니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사의 주요사업은 메모리 반도체 분야로서 DRAM, Flash Memory, MCP 등의 제품을 개발 및 판매하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "52,229(97.4%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "1,386(2.6%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "Consumer Electronics, M2M/IoT 시장에 참여하고 있으며 본격적으로 Automotive 시장까지 진출"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나. 산업분석 1) 시장여건 및 업계의 현황",
+        "evidence_text": "최근 AI boom에 따른 HBM, eSSD가 높은 성장세를 보여주고 있으며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5102,
+    "completion_tokens": 3802,
+    "reasoning_tokens": 2944,
+    "output_tokens": 858
+  },
+  "warnings": []
+}

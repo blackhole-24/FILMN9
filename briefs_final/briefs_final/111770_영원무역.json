@@ -1,0 +1,67 @@
+{
+  "stock_code": "111770",
+  "corp_name": "영원무역",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 08:42",
+  "meta": {
+    "wics": "섬유,의류,신발,호화품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "영원무역은 2009년 인적분할로 설립된 글로벌 아웃도어·스포츠 기업으로, 국내 본사와 해외 현지법인·생산공장 등을 포함한 다수의 종속회사로 구성되어 있습니다. 제조OEM(주문자상표부착생산)을 중심으로 브랜드 인수·유통을 병행하는 사업 포트폴리오를 운영합니다.",
+    "business_model": "주요 수익원은 제조OEM 사업부문(68%)으로, 아웃도어·스포츠 의류, 신발, Backpack 및 특수기능 원단을 해외 바이어에 생산·수출하는 구조입니다. 그 외에 프리미엄 자전거 및 스포츠용품 유통을 담당하는 SCOTT 사업부문(28%)과 아웃도어 브랜드 제품 유통 등 기타 사업부문(4%)이 있습니다. 수직계열화(원단에서 완제품까지 통합 생산)와 해외 생산기지 다변화로 생산리드타임 단축과 경쟁력 강화를 도모하고 있습니다.",
+    "main_customers": "제조OEM 사업부문 — 약 40여개의 해외 유명 바이어 / SCOTT 사업부문 — 프리미엄 자전거·스포츠용품 유통 채널 및 글로벌 소비자 / 기타 사업부문 — 아웃도어 브랜드 유통 채널",
+    "price_factors": [
+      {
+        "factor": "글로벌 수요",
+        "detail": "서구·글로벌 소비 둔화 시 OEM 오더(수주)가 줄어 실적에 직접 영향"
+      },
+      {
+        "factor": "원가(임금·인프라)",
+        "detail": "방글라데시 등 생산기지의 최저임금 인상·전기·가스 인프라 문제는 원가 상승 요인으로 작용"
+      },
+      {
+        "factor": "공급망·무역환경",
+        "detail": "환율·관세 및 지정학적 리스크 확대 시 수출 경쟁력과 마진에 부정적 영향"
+      },
+      {
+        "factor": "원단·기술경쟁",
+        "detail": "고기능성 원단 개발 능력과 납기 준수가 경쟁력으로, 원단 공급처 변화는 실적 변동 요인"
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "총 67개의 동종 및 유사 업종을 영위하는 종속회사"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "아웃도어 및 스포츠 의류, 신발, Backpack 제품과 특수기능 원단"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 (원문 테이블)",
+        "evidence_text": "제조OEM 사업부문 | ... | 68%"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 약 40 여개의 해외 유명 바이어들로부터"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5496,
+    "completion_tokens": 3710,
+    "reasoning_tokens": 2944,
+    "output_tokens": 766
+  },
+  "warnings": []
+}

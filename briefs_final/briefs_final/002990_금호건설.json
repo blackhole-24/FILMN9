@@ -1,0 +1,72 @@
+{
+  "stock_code": "002990",
+  "corp_name": "금호건설",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 18:18",
+  "meta": {
+    "wics": "건설",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "금호건설은 건설업을 영위하는 기업으로, 제54기 매출액이 2,018,488백만원으로 전기 대비 약 5% 증가하는 등 규모 있는 매출을 기록했습니다. 불확실한 건설시장 환경 속에서 리스크 관리와 수익성 중심의 경영을 강조하고 있습니다.",
+    "business_model": "주요 사업부문은 국내도급공사(57.0%)와 토목공사(43.0%)로 FY2025 기준 매출이 구성되어 있습니다. 수주(발주자 주문)에 따라 프로젝트 단위로 수행하는 수주 산업(주문형 건설) 특성을 가지며, 수익성 중심의 선별적 수주 전략을 운영하고 있습니다.",
+    "main_customers": "국내도급공사 — 발주자(민간·공공 건설주체) / 토목공사 — 공공기관 및 민간 발주처",
+    "price_factors": [
+      {
+        "factor": "건설투자 회복 지연",
+        "detail": "선행지표 회복 지연으로 민간 건설 수요 약화 시 매출·수주에 부정적 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "금융·거시 리스크",
+        "detail": "기준금리·가계부채·환율 변동성 등 금융안정 리스크는 자금조달 비용과 사업 리스크에 영향을 줍니다."
+      },
+      {
+        "factor": "공공 발주 비중",
+        "detail": "공공부문 중심의 발주가 시장을 지지하는 만큼 공공사업 비중 변화가 수주 실적에 영향을 미칩니다."
+      },
+      {
+        "factor": "규제·공사비 부담",
+        "detail": "안전·품질·노동 규제 강화와 인건비·공사비 상승은 수익성 관리 부담으로 연결됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "당사의 제54기 매출액은 2,018,488백만원으로 전기 대비 약 5% 증가하였습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "국내도급공사: 104,843 (57.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "토목공사: 766,347 (43.0%)"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "4) 국내외 시장여건",
+        "evidence_text": "2025년 건설시장은 선행지표(수주·허가·착공)의 회복이 지연되면서 전반적인 부진이 이어졌습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "1) 산업의특성",
+        "evidence_text": "발주자 주문을 시작으로 건설회사는 생산활동에 착수하며, 구조물 및 건축물이 완성되면 발주자에게 완성물을 인도하게 됩니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4553,
+    "completion_tokens": 4049,
+    "reasoning_tokens": 3264,
+    "output_tokens": 785
+  },
+  "warnings": []
+}

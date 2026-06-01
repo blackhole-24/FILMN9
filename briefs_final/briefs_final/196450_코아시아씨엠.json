@@ -1,0 +1,86 @@
+{
+  "stock_code": "196450",
+  "corp_name": "코아시아씨엠",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 11:29",
+  "meta": {
+    "wics": "핸드셋",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "코아시아씨엠은 스마트폰용 카메라모듈 및 광학렌즈를 개발·생산·판매하는 기업입니다. 카메라모듈과 광학렌즈를 동시에 제조·판매하는 국내 유일의 카메라모듈 전문업체로, 비구면 광학렌즈 양산기술과 베트남 생산공장 등을 통해 원가경쟁력과 생산능력을 확보하고 있습니다.",
+    "business_model": "2025년 사업부문별 영업수익은 CCM(카메라모듈)·광학렌즈가 100.0%, 기타가 0.0%로 구성되어 있으며(연결기준), 핵심 수익원은 스마트폰용 카메라모듈과 광학렌즈입니다. 또한 카메라모듈, 광학렌즈, IT부품유통을 통합한 '원포트폴리오'로 시너지와 경영효율을 추구하고 있습니다.",
+    "main_customers": "CCM·광학렌즈 — (주)삼성전자, (주)파워로직스 등 / 기타 — 별도 주요 거래처 기재 없음",
+    "price_factors": [
+      {
+        "factor": "전방수요",
+        "detail": "스마트폰 교체 수요 회복과 AI 기능 고도화가 카메라 모듈·렌즈 수요에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "원가·품질",
+        "detail": "원가경쟁력 확보와 균일한 품질 수준 유지는 수익성 및 거래선 유지에 필수적입니다."
+      },
+      {
+        "factor": "기술진입",
+        "detail": "렌즈·카메라모듈은 높은 기술적 진입장벽과 초기 설비투자비로 신규업체 진입이 제한적입니다."
+      },
+      {
+        "factor": "환율",
+        "detail": "연결실체가 외화(USD) 노출을 보유해 환율 변동이 실적에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "메모리·리스크",
+        "detail": "메모리 가격 상승 및 지정학적 리스크는 스마트폰 산업 성장 속도를 제한하는 변수로 작용합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "나. 사업의 개요",
+        "evidence_text": "카메라모듈과 광학렌즈를 동시에 제조 판매하는 국내 유일의 카메라모듈 전문업체로"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "CCM, 광학렌즈: 258,118 (100.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "나. 카메라 모듈 사업부문",
+        "evidence_text": "주요 매출처로는 (주)삼성전자, (주)파워로직스 등이 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "1) 산업 특성",
+        "evidence_text": "원가경쟁력 확보 및 균일한 품질수준 유지가 경쟁의 필수 요소이며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "MD&A",
+        "evidence_text": "다만 메모리 가격의 상승, 지정학적 리스크는 성장 속도를 제한할 변수로 남아 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 광학 렌즈 사업 부문",
+        "evidence_text": "전방산업인 스마트폰 산업은 ...국내외 경기의 직접적인 영향을 받고 있으며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "라. 환율변동 영향",
+        "evidence_text": "주요 외화로는 USD가 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5043,
+    "completion_tokens": 5297,
+    "reasoning_tokens": 4352,
+    "output_tokens": 945
+  },
+  "warnings": []
+}

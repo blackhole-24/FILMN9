@@ -1,0 +1,91 @@
+{
+  "stock_code": "223250",
+  "corp_name": "드림씨아이에스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 12:44",
+  "meta": {
+    "wics": "제약",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "드림씨아이에스는 2000년대 초 국내 CRO(임상시험수탁기관) 업계 태동기부터 운영되어 온 기업으로, 임상시험·시판후조사·인허가 컨설팅 등 임상개발 전반 서비스를 제공하는 선도적 국내 CRO입니다. 지난 25여년간 축적한 수행 경험과 전문인력을 바탕으로 의료기기 임상, 글로벌 임상 등으로 사업영역을 확장하고 있습니다.",
+    "business_model": "주요 수익원은 연구대행용역(임상시험 대행)과 의료컨설팅, 임상시험지원(SMO) 등 임상개발 관련 서비스이며, FY2025 기준 사업부문별 영업수익 구성은 연구대행용역 65.3%, 의료컨설팅 19.7%, 임상시험지원 용역 7.5%, 기타 7.5%로 구성되어 있습니다. 또한 데이터관리·통계분석, 시판후조사(rPMS) 등 규제 대응과 기술(EDC 플랫폼) 도입을 통해 전주기 통합 서비스 체계를 강화하고 있습니다.",
+    "main_customers": "연구대행용역 — 제약사·바이오벤처·의료기기 개발사 / 의료컨설팅 — 국내 및 글로벌 바이오기업·제약사 / 임상시험지원 용역 — 임상시험 수행 기관(병원·연구소 등) / 기타 — 시판후조사 고객사(제약사 등)",
+    "price_factors": [
+      {
+        "factor": "규제준수",
+        "detail": "KGCP(임상시험관리기준) 준수 요구가 강화되면 계약 수주 및 수행 능력에 직접적 영향을 미칩니다."
+      },
+      {
+        "factor": "전문인력",
+        "detail": "CRO는 지식기반·인력중심 산업으로 전문인력 확보와 경험이 경쟁력의 핵심입니다."
+      },
+      {
+        "factor": "아웃소싱 수요",
+        "detail": "제약·바이오기업의 비용·시간 절감 필요로 임상 아웃소싱 수요 증가가 매출에 긍정적 영향을 줍니다."
+      },
+      {
+        "factor": "글로벌 진출",
+        "detail": "중국 등 해외 프로젝트 수주 확대(타이거메드 그룹과의 연계 등)는 다국적 임상 수주 능력에 영향합니다."
+      },
+      {
+        "factor": "플랫폼·기술",
+        "detail": "EDC(전자자료수집) 등 데이터관리 플랫폼 보유는 서비스 차별화 및 운영효율에 기여합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 회사의 개황",
+        "evidence_text": "연결실체는 제약회사, 바이오벤처 등에 임상개발과 관련한 전 영역에 걸친 서비스를 제공하는 임상시험수탁기관(CRO: Contract Research Organization)입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "■ 사업부문별 영업수익 구성 (FY2025) - 연구대행용역: 18,818,242 (65.3%) - 의료컨설팅: 13,122,975 (19.7%) - 임상시험지원 용역: 5,019,147 (7.5%) - 기타: 4,114,385 (7.5%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 회사의 개황",
+        "evidence_text": "제약사, 의료기기 개발사, 연구기관으로부터 임상시험을 받아 연구를 수행하고, 객관적 시험 결과를 전달하는 역할을 수행합니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나. 산업의 특성",
+        "evidence_text": "CRO 산업은 지식기반의 인력 중심 산업으로 분류됩니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나. 산업의 특성",
+        "evidence_text": "제약회사와 바이오 기업들의 비용과 시간의 절감에 대한 필요성은 우리나라뿐 아니라 세계의CRO 시장성장을 견인할 것으로 예상됩니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가.  규제환경",
+        "evidence_text": "결국, 직접적으로는 KGCP를 준수하여야 하고, 이에 대한 준수를 식약처 등의 국가기관 또는 위수탁계약의 상대방으로부터요구 받게 됩니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "당사는 자체 개발 중인 임상시험 데이터 수집·관리 플랫폼인 'DIVE Clinical Dream Intellectual Verified EDC'에 대해, 2025년 2월 5일자로 상표권을 등록하였습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "다. 시장에서 경쟁력을 좌우하는 요인 및 회사의 경쟁상의 강점과 단점",
+        "evidence_text": "당사는 2015년 하반기타이거메드 그룹에 인수된 이후, 타이거메드를 통해서 2017년 처음으로 당사가 중국제약사 과제를 시작하게 되었습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5553,
+    "completion_tokens": 4537,
+    "reasoning_tokens": 3264,
+    "output_tokens": 1273
+  },
+  "warnings": []
+}

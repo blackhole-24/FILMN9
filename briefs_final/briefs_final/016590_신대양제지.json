@@ -1,0 +1,73 @@
+{
+  "stock_code": "016590",
+  "corp_name": "신대양제지",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 12:46",
+  "meta": {
+    "wics": "포장재",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "신대양제지는 골판지용 원지(골심지·표면지·이면지)를 전문 생산하는 제지업체로, 공시상 당사 제품은 골판지용원지 100%입니다. 일산 기준 생산능력은 지속적으로 확장되어 왔고, 2025년 업계에서 약 7.28%의 시장점유율을 차지하는 주요 업체입니다.",
+    "business_model": "사업의 핵심은 골판지용 원지의 생산·판매로, 골심지·이면지·표면지 등 전지종을 제조하여 판지업체 및 포장재 수요처에 공급합니다. 연결회사의 골판지상자 제조 계열과의 수직적 연계로 원지 공급을 통한 사업 시너지가 존재합니다.",
+    "main_customers": "골판지원지 — 골판지상자 제조업체 및 포장재를 필요로 하는 섬유·전자·식품·의약품·농수산물 등 제조업체 / 골판지상자 — 다양한 제조업체의 주문생산(수주처)",
+    "price_factors": [
+      {
+        "factor": "에너지비용",
+        "detail": "전력비·연료비 등 에너지 비용이 총원가 비중이 높아 에너지 가격 변동이 실적에 직접 영향합니다."
+      },
+      {
+        "factor": "설비투자 부담",
+        "detail": "제지산업의 자본집약성으로 설비투자와 고정비 부담이 실적 변동성을 키울 수 있습니다."
+      },
+      {
+        "factor": "환경규제",
+        "detail": "환경법규 및 현장조사·규제가 강화되면 조업 중단이나 비용 증가로 연결될 수 있습니다."
+      },
+      {
+        "factor": "생산중단 리스크",
+        "detail": "공장 화재·재해 등으로 인한 생산중단은 공급 차질과 손실로 이어질 수 있습니다."
+      },
+      {
+        "factor": "업계 경쟁구도",
+        "detail": "소수 대형사 중심의 설비 보유 상황이 가격 및 수주 경쟁에 영향을 미칠 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "[골판지 원지 부문] (나) 공시대상 사업부문의 구분",
+        "evidence_text": "당사 제품은 골판지용원지가 100%이므로 구분하지 않음"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[골판지 원지 부문] - 가. 업계의 현황",
+        "evidence_text": "당사는 골심지, 이면지, 표면지의 전지종을 생산하는 업체입니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "[경영진 실적·전략 요약 (MD&A)]",
+        "evidence_text": "전형적인 수주산업입니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "[골판지 원지 부문] - 가. 업계의 현황",
+        "evidence_text": "제지산업은 설비투자에 대규모 자금이 소요되는 자본집약적 장치산업으로"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4561,
+    "completion_tokens": 4883,
+    "reasoning_tokens": 4096,
+    "output_tokens": 787
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

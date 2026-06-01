@@ -1,0 +1,64 @@
+{
+  "stock_code": "432320",
+  "corp_name": "KB스타리츠",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 19:30",
+  "meta": {
+    "wics": "부동산",
+    "market": "KOSPI",
+    "has_revenue_data": false,
+    "tier": 4,
+    "tier_mode": "best_effort_summary",
+    "corp_type": "reit"
+  },
+  "brief": {
+    "company_overview": "KB스타리츠는 2022년 설립된 부동산투자회사(리츠)로, 2022년 10월 한국거래소 유가증권시장에 상장되었습니다. 벨기에·영국·서울 소재 오피스 등 총 5개 투자부동산의 임대수익을 통해 주주에게 배당을 지급하며, 매 6개월 단위로 연간 2회 배당을 실시하고 있습니다.",
+    "business_model": "KB스타리츠는 부동산투자회사(리츠)를 단일 주력 사업으로 영위하며, 오피스 등 투자부동산의 임대수익이 핵심 수익원입니다. 사업보고서상 사업부문별 매출 구성은 별도로 제시되어 있지 않습니다.",
+    "main_customers": "임대사업 — 오피스 임차기업(국내·해외) / 투자자 배당 — 주주(배당 수익 수취자)",
+    "price_factors": [
+      {
+        "factor": "환율(외환위험)",
+        "detail": "유로화·영국 파운드화 환율 변동은 해외 투자자산의 가액·현금흐름에 직접 영향 — 환손실을 통제하기 위해 파생상품을 활용하고 있습니다."
+      },
+      {
+        "factor": "금리(이자율)",
+        "detail": "이자율 변동은 부채 이자비용과 투자부동산의 공정가치(평가손익)에 영향을 미쳐 실적과 배당 여력에 영향."
+      },
+      {
+        "factor": "임대수익 흐름",
+        "detail": "총 5개 자산의 임대료 수준과 공실률 변화가 매출과 배당원천에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "유동성·자본조달",
+        "detail": "유동성 확보 및 자본조달비율 변화는 배당정책과 자산 매입·매각 전략에 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "다. 회사의 현황",
+        "evidence_text": "따라서, 매 6개월 단위로 연간 2회 배당을 실시하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "다. 회사의 현황",
+        "evidence_text": "당사의 매출은 당사가 투자한 총 5개의 부동산에서 발생하고 있는 임대수익을 재원으로 하며,"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "1) 시장위험 ① 외환위험",
+        "evidence_text": "연결회사는 국제적으로 영업활동을 영위하고 있어 외환위험, 특히 유로화 및 영국 파운드화 관련 환율변동위험에 노출되어 있습니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 5480,
+    "completion_tokens": 4731,
+    "reasoning_tokens": 4032,
+    "output_tokens": 699
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

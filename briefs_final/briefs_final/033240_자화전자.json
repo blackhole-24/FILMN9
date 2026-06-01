@@ -1,0 +1,62 @@
+{
+  "stock_code": "033240",
+  "corp_name": "자화전자",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 23:53",
+  "meta": {
+    "wics": "통신장비",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "자화전자는 1981년 자기엔지니어링 기반의 전자부품 생산업체로 출발한 기술집약형 중견기업입니다. 스마트폰·카메라폰용 고사양 카메라 모듈 핵심부품(Folded Zoom, OIS, AF Actuator 등)을 주력으로 하며, 매출의 상당 부분을 수출(매출액의 80% 이상)하고 있습니다.",
+    "business_model": "주력은 통신기기용 부품으로 고사양 카메라 모듈용 핵심부품과 자동초점장치(AFA)·진동모터 등을 전략거래선의 1차 Vendor로 공급하는 제조업이며, 사업부문별 매출은 통신기기용부품 약 91.0%·기타부품 약 9.0%를 차지합니다. 기술개발(R&D) 투자로 초고사양 Folded Zoom 공정자동화를 완성하는 등 신제품·공정 중심의 공급 구조가 특징입니다.",
+    "main_customers": "통신기기용부품 — 스마트폰·카메라폰 등 이동통신기기 완성업체 / 기타부품 — 자동차·가전 완성업체(자동차히터·회로보호 등)",
+    "price_factors": [
+      {
+        "factor": "전방수요",
+        "detail": "이동통신기기·디스플레이·가전 등 전방산업의 생산·신제품 출시 동향이 매출에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "기술력",
+        "detail": "완성업체의 신규사양에 신속히 대응하는 기술개발 능력이 수주와 수익성에 중요한 차별화 요소입니다."
+      },
+      {
+        "factor": "환율",
+        "detail": "매출액 중 90% 이상이 외화 결제이므로 환율 변동은 매출 및 이익에 즉각적으로 영향을 줍니다."
+      },
+      {
+        "factor": "제품집중",
+        "detail": "통신기기용 부품에 매출이 집중(약 91.0%)되어 해당 시장의 수요 변동에 민감합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "매출액의 80%이상을 수출하는 기술집약형 중견기업입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. 개요",
+        "evidence_text": "2020년이후 부터는 초고사양인 Folded Zoom 공정자동화를 완성함"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나. 주요 제품 등의 가격변동추이",
+        "evidence_text": "매출액중 90% 이상 외화로 결제하기 때문에 환율변동에 따라 영향을 받고 있음."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5624,
+    "completion_tokens": 4813,
+    "reasoning_tokens": 4096,
+    "output_tokens": 717
+  },
+  "warnings": []
+}

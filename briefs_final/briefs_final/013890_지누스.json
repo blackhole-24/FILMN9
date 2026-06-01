@@ -1,0 +1,81 @@
+{
+  "stock_code": "013890",
+  "corp_name": "지누스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 21:22",
+  "meta": {
+    "wics": "가구",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "지누스는 1979년 설립된 온라인 중심의 가구 제조기업으로, 캠핑용품에서 출발해 매트리스·베개·가구로 주력사업을 전환하여 성장해왔습니다. 2005년 박스 포장 매트리스(Mattress-In-A-Box)를 상업화하며 온라인 판매 채널을 개척했고, 2025년 연결기준 누계 매출은 9,132억원을 기록했습니다.",
+    "business_model": "핵심 사업은 매트리스 및 비(非)매트리스를 포함한 가구 제품 판매로, 제품 매출이 전체의 99.2%를 차지하고 상품 및 기타매출이 0.8%를 차지합니다. 온라인 유통(자체 플랫폼 및 아마존·월마트 등 대형 온라인 리테일)을 통한 박스 포장 기반의 매트리스·가구 판매가 수익의 주된 축입니다.",
+    "main_customers": "제품 — Amazon·Walmart·Samsclub·Wayfair·Costco 등 주요 온라인 리테일 및 자체 온라인 플랫폼(Zinus.com) / 상품 및 기타매출 — 기타 상품 유통 채널",
+    "price_factors": [
+      {
+        "factor": "유통채널 의존",
+        "detail": "온라인 플랫폼(아마존·월마트·자체몰) 매출 변동성은 직접적으로 실적에 영향을 미칩니다."
+      },
+      {
+        "factor": "미국시장 집중",
+        "detail": "주력시장인 북미 수요 변동은 매출과 실적에 큰 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "가격 경직성",
+        "detail": "제품의 가격은 원가 변동이 즉시 반영되지 않는 경향이 있어 원가·물가 변동 시 수익성에 영향이 발생합니다."
+      },
+      {
+        "factor": "포장·원자재비",
+        "detail": "배송·포장 원자재와 친환경 포장 전환 관련 비용 변화는 원가 구조에 영향을 미칩니다."
+      },
+      {
+        "factor": "환율·인플레이션",
+        "detail": "환율 및 인플레이션은 수출·수입과 원가에 영향을 미쳐 실적 변동 요인이 됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "당사는 1979년 설립되어 2022년 7월 현대백화점 그룹에 편입"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사의 2025년 4분기말 누계 매출액은 연결 기준 9,132억원이며,"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "제품 (주1): 689,225 (99.2%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "상품 및 기타매출: 6,852 (0.8%)"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "2005년 세계 최초로 매트리스 소형 박스 포장의 상업화에 성공하였으며,"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "자체 온라인 플랫폼인 Zinus.com을 통해서도"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4622,
+    "completion_tokens": 4916,
+    "reasoning_tokens": 4032,
+    "output_tokens": 884
+  },
+  "warnings": []
+}

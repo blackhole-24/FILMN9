@@ -1,0 +1,67 @@
+{
+  "stock_code": "299030",
+  "corp_name": "하나기술",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 15:35",
+  "meta": {
+    "wics": "전자장비와기기",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "하나기술은 이차전지 장비 사업을 중심으로 운영되는 기업으로, 조립공정·화성공정·팩공정까지 전 공정을 아우르는 Full-Line 턴키 솔루션(일괄 공급) 기술을 보유하고 있습니다. 파우치형·원통형·각형 등 다양한 형태의 이차전지 장비 제작 역량을 보유하며 전고체 배터리용 장비 개발과 소재 사업도 추진하고 있습니다.",
+    "business_model": "핵심 사업은 이차전지 양산용 자동화 설비 제공으로, 고객 주문에 따라 맞춤 제작·설치·시운전까지 일괄 공급하는 턴키(완전설비인도) 방식이 수익의 근간입니다. FY2025 사업부문별 영업수익 구성에서 '기 타' 항목은 0.0%로 표기되어 있습니다.",
+    "main_customers": "이차전지 장비 — 배터리 제조업체(셀 제조 고객사) / 전고체·소재 사업 — 전고체 배터리 관련 고객사 / 신규 장비(디스플레이·재활용) — 디스플레이 업체 및 폐배터리 재활용 관련 사업자",
+    "price_factors": [
+      {
+        "factor": "전기차 수요",
+        "detail": "전기자동차(EV) 시장 성장에 따른 이차전지 수요 확대는 장비 수주와 실적에 직결됩니다."
+      },
+      {
+        "factor": "전고체 전환",
+        "detail": "전고체 배터리로의 기술 전환은 전고체용 프레스·스택 장비 개발 성과에 따라 실적 변동성을 야기합니다."
+      },
+      {
+        "factor": "환경·규제",
+        "detail": "탄소중립 정책과 CBAM 등 규제는 친환경 생산·재활용 장비 수요를 증가시켜 사업 기회와 비용구조에 영향을 줍니다."
+      },
+      {
+        "factor": "글로벌 경쟁",
+        "detail": "이차전지 산업의 글로벌 경쟁 심화는 수주 가격과 영업조건에 압박을 가해 실적에 영향을 미칠 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "당사는 이차전지 장비 사업을 중심으로 운영하며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "파우치형, 원통형, 각형 등 모든 형태의 이차전지 장비 제작 기술을 갖추고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "- 기 타: 9 (0.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "당사는 이차전지 자동화 조립설비를 직접 제조 및 생산한 후"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3893,
+    "completion_tokens": 4025,
+    "reasoning_tokens": 3264,
+    "output_tokens": 761
+  },
+  "warnings": []
+}

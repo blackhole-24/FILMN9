@@ -1,0 +1,87 @@
+{
+  "stock_code": "069730",
+  "corp_name": "DSR제강",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 05:16",
+  "meta": {
+    "wics": "철강",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "DSR제강은 와이어 로프와 경강선(강선류)을 제조하는 철강업체로, FY2025 기준 매출 대부분을 국내에서 발생시키는 제조업 기반 기업입니다. 2025년 베트남 공장 인수 완료와 자동차용 이너케이블 시장 진출로 생산·판매 기반을 확장했으며, 같은 해 매출 2,266억원·영업이익 280억원을 기록했습니다.",
+    "business_model": "핵심 사업은 와이어 로프 및 경강선 제조로, FY2025 매출은 한국내 사업이 98.7%를 차지하고 베트남내 사업이 3.8%를 차지합니다; 주로 산업용(중간재) 제품을 생산해 국내외 제조업체에 공급하는 구조입니다.",
+    "main_customers": "한국내 사업 — 자동차산업·광산·선박어업·기계 등 산업용 기업 / 베트남내 사업 — 현지 생산기반을 통한 제조·수출 연계 수요",
+    "price_factors": [
+      {
+        "factor": "경기변동",
+        "detail": "산업 전반의 경기 변동에 따라 자동차·조선·건설 등 주요 수요 산업의 실적 변동이 곧바로 매출에 영향을 줍니다."
+      },
+      {
+        "factor": "수출경쟁",
+        "detail": "후발국의 저가 공세로 수출수요가 정체될 경우 수출 지향 제품의 판매와 수익성이 저하될 수 있습니다."
+      },
+      {
+        "factor": "원자재조달",
+        "detail": "원재료를 포스코 및 수입으로 조달하기 때문에 원자재 가격·공급 변화가 원가와 수익성에 영향을 미칩니다."
+      },
+      {
+        "factor": "환경규제",
+        "detail": "폐수·대기오염물질 등 배출 관리를 위한 규제·처리 비용이 생산공정의 운용비용에 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "라. 환경 관련 사항",
+        "evidence_text": "당사는 와이어 로프 및 경강선을 제조하는 업체로서"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "매출 2,266억원, 영업이익 280억원을 기록하며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "한국내 사업: 223,570 (98.7%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "베트남내 사업: 8,531 (3.8%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "마. 업계의 현황 (2) 산업의 성장성",
+        "evidence_text": "선재의 용도는 자동차산업, 광산, 선박어업, 기계 등"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "마. 업계의 현황 (3) 경기변동의 특성",
+        "evidence_text": "산업전반의 경기변동으로부터 영향을 받음."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "마. 업계의 현황 (4) 경쟁요소",
+        "evidence_text": "후발국의 저가공세로 수출수요가 정체"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "마. 업계의 현황 (5) 자원조달상의 특성",
+        "evidence_text": "원재료 조달상황은 포스코 및 수입으로 충당함."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3998,
+    "completion_tokens": 4793,
+    "reasoning_tokens": 3840,
+    "output_tokens": 953
+  },
+  "warnings": []
+}

@@ -1,0 +1,81 @@
+{
+  "stock_code": "129920",
+  "corp_name": "대성하이텍",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 09:36",
+  "meta": {
+    "wics": "기계",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "대성하이텍은 정밀부품 가공과 공작기계(머신툴) 분야를 주력으로 하는 기계업체로, 창업 초기부터 일본 산업기계·공작기계 메이커에 부품을 납품하며 축적한 정밀가공 역량을 바탕으로 방산, 로봇, AI 데이터센터 냉각, 의료기기 등으로 전방산업을 확대한 기업입니다. 약 8,000여종의 고난도 정밀부품을 제작하는 것이 특징입니다.",
+    "business_model": "FY2025 기준 사업부문별 영업수익 구성은 정밀부품 38.6%, 스위스턴자동선반 38.4%, 컴팩트머시닝 센터 18.9%, 기타 4.1%로 구성되어 있으며, 정밀부품과 스위스턴 자동선반(무인 자동화 가능한 CNC 공작기계)이 핵심 매출원입니다. 스위스턴 자동선반은 복합가공과 무인 연속운전이 가능한 장비로 대량생산·자동화 수요에 대응합니다.",
+    "main_customers": "정밀부품 — 공작기계·산업기계 제조사 및 전기전자·자동차·우주항공·의료 등 전방산업 / 스위스턴자동선반 — 자동차 부품·의료부품·항공기 부품 등 대량생산 가공 업체 / 컴팩트머시닝 센터 — 경량화·다품종 가공을 필요로 하는 전기차 부품·정밀부품 제조사",
+    "price_factors": [
+      {
+        "factor": "초정밀 기술력",
+        "detail": "초정밀 가공 기술 보유 여부가 고부가가치 방산·반도체·의료 부문 수주와 실적에 직결됩니다."
+      },
+      {
+        "factor": "양산 대응력",
+        "detail": "양산 안정성과 전용 설비 보유 여부가 로봇·자동차 부품 등 대량 수요에 대한 수주 경쟁력을 좌우합니다."
+      },
+      {
+        "factor": "전방산업 수요",
+        "detail": "반도체·2차전지·AI 데이터센터 등 최종 수요 산업의 성장에 따라 정밀부품 수요가 확대되거나 축소됩니다."
+      },
+      {
+        "factor": "공급망 리스크",
+        "detail": "공급망 문제 발생 시 정밀부품 가공 특성상 제조업 전반에 영향이 확산될 수 있어 실적 변동 요인이 됩니다."
+      },
+      {
+        "factor": "원자재·물가",
+        "detail": "원자재 가격 상승과 물가 변동은 제조원가와 이익률에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 정밀부품 사업",
+        "evidence_text": "당사가 진행하고 있는 정밀 부품 사업의 전방사업은 매우 다양합니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "정밀부품: 36,751 (38.6%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "나. 주요 제품 설명 (2) 스위스턴 자동선반",
+        "evidence_text": "스위스턴 자동선반은 CNC 자동선반과 거의 유사한 장비를 지칭"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 정밀부품 사업 (1) 정밀기계부품 사업",
+        "evidence_text": "당사의 제품은 과거 공작기계, 산업기계 제작을 위한 핵심 부품으로 사용되었으나,"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 정밀부품 사업",
+        "evidence_text": "공급망의 문제 발생 시에 제조업 전반으로 영향이 확산되고"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "원자재 가격인상, 물가 상승 등이 계속되고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 6029,
+    "completion_tokens": 3844,
+    "reasoning_tokens": 2816,
+    "output_tokens": 1028
+  },
+  "warnings": []
+}

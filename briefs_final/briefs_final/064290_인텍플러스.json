@@ -1,0 +1,67 @@
+{
+  "stock_code": "064290",
+  "corp_name": "인텍플러스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 04:17",
+  "meta": {
+    "wics": "반도체와반도체장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "인텍플러스는 머신비전 기반의 2D/3D 자동외관검사장비 및 모듈을 개발·판매하는 장비업체로, 반도체·디스플레이·2차전지 외관검사 분야를 주요 사업으로 하고 있습니다. 고도의 3차원 측정 기술을 바탕으로 검사솔루션을 제공하며 글로벌 고객을 대상으로 사업을 전개하고 있습니다.",
+    "business_model": "매출은 반도체외관검사(53.4%)와 디스플레이·2차전지 외관검사(46.6%)로 구성되어 있으며, 검사장비 및 비전 모듈의 개발·판매가 핵심 수익원입니다. 머신비전(영상획득·분석)과 2D/3D 측정기술, 장비 설계·시스템 통합 능력이 수익성의 핵심 역량입니다.",
+    "main_customers": "반도체 외관검사 — 국내 대형 IDM 업체 및 대형 OSAT, 미국·대만·중국 등의 글로벌 IDM/OSAT / 디스플레이 및 2차전지 외관검사 — 디스플레이·2차전지 제조업체",
+    "price_factors": [
+      {
+        "factor": "주문 변동성",
+        "detail": "반도체업체의 주문량 변화에 따라 장비 수요가 크게 변동하여 실적에 직접 영향."
+      },
+      {
+        "factor": "첨단 패키징 수요",
+        "detail": "Advanced 패키징 증가로 IR검사·6면검사 등 고난도 검사 수요가 늘어나 장비 수익성에 영향."
+      },
+      {
+        "factor": "기술 경쟁력",
+        "detail": "정밀도와 시스템 통합 능력이 경쟁력 차별화 요소로, 기술 우위 유지가 실적에 중요."
+      },
+      {
+        "factor": "해외 수요 비중",
+        "detail": "해외 매출 비중(당기 42.7%)으로 인해 글로벌 수요 변동이 매출에 영향을 미침."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "당사는 반도체 및 디스플레이, 2차전지의 외관검사 분야로 구성되어 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 4. 매출 및 수주상황",
+        "evidence_text": "반도체외관검사 분야 53.4%, 디스플레이 및 2차전지 외관검사 분야 46.6%의 비율입니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 반도체 외관검사 분야",
+        "evidence_text": "국내에는 대형 IDM 업체 및 대형 OSAT 업체, 해외에는 미국의 글로벌 IDM 업체 및 대만, 중국 등의 OSAT 업체들이 주요 고객사 입니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 반도체 외관검사 분야-산업의 특성",
+        "evidence_text": "반도체 외관검사장비는 ... 정밀도가 높아 시스템 통합에 고도의 기술이 요구되는 기술집약적 산업입니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4783,
+    "completion_tokens": 3632,
+    "reasoning_tokens": 2816,
+    "output_tokens": 816
+  },
+  "warnings": []
+}

@@ -1,0 +1,67 @@
+{
+  "stock_code": "312610",
+  "corp_name": "에이에프더블류",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 16:07",
+  "meta": {
+    "wics": "자동차부품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "에이에프더블류는 마찰용접 기술을 기반으로 음극마찰용접단자(리튬이온 2차전지 부품)와 금속가공품을 생산·판매하는 전문 제조업체입니다. 뿌리산업(기초 공정 산업) 성격의 용접기술을 핵심 경쟁력으로 보유하고 있으며, 전기차 및 2차전지 부품으로 적용되는 제품 포트폴리오를 보유하고 있습니다.",
+    "business_model": "주요 수익원은 리튬이온 2차전지용 음극마찰용접단자와 다양한 금속가공품 생산이며, FY2025 매출총액은 745,603(100.0%)입니다. 최근에는 전기차·2차전지용 부스바(Busbar)와 마찰교반용접(FSW) 기반의 전장품 등 신규 사업을 추진하며 사업 다각화를 시도하고 있습니다.",
+    "main_customers": "음극마찰용접단자 — 배터리 제조사(셀 제조사 및 1차 벤더) / 금속가공품 — 자동차 및 기계장비·중장비·건설업체",
+    "price_factors": [
+      {
+        "factor": "배터리 수요",
+        "detail": "리튬이온 2차전지(xEV·ESS 등) 수요 변동이 음극마찰용접단자 수요에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "전기차 보급",
+        "detail": "전기차 보급 확대와 차량 경량화는 알루미늄 다이캐스팅 부품 수요를 증가시켜 실적에 영향을 줍니다."
+      },
+      {
+        "factor": "신규사업 투자",
+        "detail": "부스바·FSW 등 신규 설비투자와 R&D 확대는 단기적으로 고정비·부채비 증가로 실적에 부담을 줄 수 있습니다."
+      },
+      {
+        "factor": "환율 변동",
+        "detail": "USD·CNY·EUR 노출로 환율 변동이 영업거래 및 자산·부채에 영향을 미치며, 회사는 환위험을 사전 관리하고 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "특히 용접은 겉으로 드러나지는 않으나 최종 제품에 내재되어 제조업 경쟁력의 근간을 형성합니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "2022년까지 회사 매출의 대부분은 음극마찰용접단자에서 발생되고 있어 매출의존도가 높은 상태입니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "최종적으로 전기차인VW e-Golf, BMW i3와i8 등에 사용되고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "라. 환율변동 영향",
+        "evidence_text": "당사는 환위험이 최소화 되도록 사전적으로 관리하고 있습니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 5087,
+    "completion_tokens": 6105,
+    "reasoning_tokens": 5312,
+    "output_tokens": 793
+  },
+  "warnings": []
+}

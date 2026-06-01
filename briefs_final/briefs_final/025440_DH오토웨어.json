@@ -1,0 +1,73 @@
+{
+  "stock_code": "025440",
+  "corp_name": "DH오토웨어",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 23:02",
+  "meta": {
+    "wics": "자동차부품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "디에이치오토웨어는 1979년 설립된 차량용 전장(전기·전자) 기기 전문 제조기업으로, 광주 본사·공장과 경기도 동탄 연구소를 보유하고 멕시코에 생산법인을 운영하고 있습니다. 1995년 코스닥에 상장했으며, 전장용 인포테인먼트(차량용 음향·영상) 제품을 중심으로 국내외 완성차사에 공급하는 OEM(주문자상표부착생산) 중심 회사입니다.",
+    "business_model": "핵심 사업부문은 전장사업부(차량용 인포테인먼트, Car-IVI 관련 디스플레이·오디오·AVNC 등)와 자동화사업부(차체 자동화설비·조립용 지그)로 구성되어 있습니다. 제품 대부분을 OEM으로 공급하며, 일부 자체 개발 모델도 판매하고 있습니다.",
+    "main_customers": "전장사업부 — 현대모비스(매출의 약 80% 이상) 및 Renault·ALPINE 등 국내외 완성차업체 / 자동화사업부 — 자동차 제조사(차체 자동화설비 수요처)",
+    "price_factors": [
+      {
+        "factor": "SDV 전환",
+        "detail": "소프트웨어 중심 차량(Software-Defined Vehicle)로의 전환은 IVI 수요와 제품 고도화 요구를 높여 매출과 기술투자에 영향."
+      },
+      {
+        "factor": "시장성장(IVI)",
+        "detail": "글로벌 IVI 시장 성장률 전망은 제품 수요 확대를 시사하나 지역별 경쟁과 기술 표준화가 성과에 영향."
+      },
+      {
+        "factor": "고객 의존도",
+        "detail": "매출의 상당 부분이 특정 고객(현대모비스)에 집중되어 있어 수주 변동 시 실적 영향이 큼."
+      },
+      {
+        "factor": "제조비용·공장전환",
+        "detail": "멕시코 공장 초기 가동비용 및 국내 공장 이전에 따른 고정비 증가는 단기 수익성에 부담."
+      },
+      {
+        "factor": "환경·규제 요구",
+        "detail": "ELV·RoHS 등 고객 요구와 인증(ISO 14001) 준수 여부가 납품 및 계약 조건에 영향을 미침."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "주식회사 디에이치오토웨어(이하 \"지배기업\")는 1979년 6월에 설립되어 전자 및 전기제품 제조·판매업을 주된 영업으로 하고 있으며, 광주광역시 광산구에 본사 및 공장을, 경기도 동탄에 연구소를 두고 있으며, 멕시코에 해외 생산법인을 운영하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "나. 산업의 성장성 / II. 사업의 내용",
+        "evidence_text": "당사의 제품은 자동차에 적용하는 영상, 음향기기, Navigation 등 Car-IVI 제품군과 자동차 차체 자동화설비 및 조립용 지그로, 주요 제품으로는 디스플레이, D-Audio, AMP, AVNC와 Audio Front Panel, 자동화설비 및 조립용 지그 등을 제조하고 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "2025년 기준 매출액의 약 80% 이상을 현대모비스에 납품하고 있으며, Renault, ALPINE 등 국내외 주요 고객사에도 제품을 공급하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 전장사업부 1. 업계의 현황 / 나. 환경관련 규제사항",
+        "evidence_text": "직접적인 환경 규제는 없으나 고객이  요구하는 환경 관련 사항으로 ELV(End of Life Vehicle, 폐차차량에 대한 환경지침)와 RoHS(Restriction of Hazardous Substances Directive, 유해물질제한지침)이 있습니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4208,
+    "completion_tokens": 5039,
+    "reasoning_tokens": 4032,
+    "output_tokens": 1007
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

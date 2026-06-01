@@ -1,0 +1,69 @@
+{
+  "stock_code": "026040",
+  "corp_name": "제이에스티나",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 23:15",
+  "meta": {
+    "wics": "섬유,의류,신발,호화품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "제이에스티나는 J.ESTINA 브랜드로 주얼리와 핸드백, ROMANSON 브랜드로 손목시계 사업을 전개하는 패션 액세서리 기업입니다. 디자인·R&D와 마케팅에 역량을 집중하며 생산은 외주생산 시스템으로 운영하고 있습니다. 2025년 매출액은 전년 대비 2.9% 감소한 722억원을 기록했습니다.",
+    "business_model": "핵심 사업은 주얼리 중심의 패션 사업으로, 핸드백과 손목시계 사업을 병행하고 있습니다. 핸드백은 온라인 중심 유통으로 재편하여 효율성 위주의 사업을 전개하고 있으며, 디자인과 마케팅을 통한 브랜드 가치 제고가 수익 창출의 핵심입니다. 생산은 외주생산 시스템을 유지하여 디자인·마케팅에 집중하는 구조입니다.",
+    "main_customers": "주얼리 — 여성 일반 소비자 및 선물 수요자 / 핸드백 — 온라인 채널 이용 소비자 및 백화점·아울렛 방문 고객 / 손목시계 — ROMANSON 브랜드를 선호하는 소비자",
+    "price_factors": [
+      {
+        "factor": "원자재(금)가격",
+        "detail": "금 등 주요 원재료 가격 상승은 매출원가를 끌어올려 실적에 부정적 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "내수·소비심리",
+        "detail": "세계적 고물가·금리불안 등으로 인한 내수부진은 패션 부문 소비를 위축시켜 매출에 부담을 줄 수 있습니다."
+      },
+      {
+        "factor": "유통구조(온라인)",
+        "detail": "면세점 둔화 이후 온라인 채널 비중 확대는 유통비용과 마케팅 채널 구조에 따라 실적에 영향을 줍니다."
+      },
+      {
+        "factor": "브랜드경쟁",
+        "detail": "명품과 다양한 국내외 브랜드의 경쟁 심화는 디자인·브랜딩 투자 규모와 판매 성과에 직결됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 J.ESTINA 브랜드로 주얼리와 핸드백, ROMANSON 브랜드로 손목시계 사업을 진행하고 있으며, 글로벌 패션 브랜드 사업을 목표로 하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "생산은 외주생산 시스템을 유지하고 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "여성들이 각자의 개성에 대한 표현과 아름다움을 추구하는 욕구가 늘어나고 있으며, 그 표현의 일환으로 주얼리 사용이 늘어나고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "MD&A (경영진 실적·전략 요약)",
+        "evidence_text": "다만 원자재 가격 변동성과 환율 상승 등 외부 환경 요인으로 전반적인 비용 부담은 지속되고 있습니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4171,
+    "completion_tokens": 3477,
+    "reasoning_tokens": 2688,
+    "output_tokens": 789
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

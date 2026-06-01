@@ -1,0 +1,67 @@
+{
+  "stock_code": "241840",
+  "corp_name": "에이스토리",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 13:35",
+  "meta": {
+    "wics": "방송과엔터테인먼트",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "에이스토리는 2004년 설립된 콘텐츠 제작 전문기업으로, 드라마 등 영상콘텐츠를 기획·제작하여 방송국·OTT·해외시장 등에 공급하는 것을 주사업으로 하고 있습니다. 종속회사를 통해 IP(지적재산권)를 활용한 웹툰·OST·게임 등의 부가사업 및 배우 매니지먼트(연예기획)를 병행하고 있습니다.",
+    "business_model": "주요 수익은 '콘텐츠 제작및 유통'과 '매니지먼트및 IP부가사업'으로 구성되며, FY2025 기준 콘텐츠 제작및 유통이 81.6%, 매니지먼트및 IP부가사업이 18.4%를 차지합니다. 핵심은 방송국·OTT(온라인동영상서비스)·해외 플랫폼에 드라마를 공급하는 제작수익과 보유 IP를 통한 2차 저작물(웹툰·굿즈·게임 등) 및 배우 매니지먼트에서의 부가수익입니다.",
+    "main_customers": "콘텐츠 제작및 유통 — 방송국·OTT(온라인동영상서비스)·해외 플랫폼 / 매니지먼트및 IP부가사업 — 웹툰·OST·게임 등 부가사업 파트너 및 배우 매니지먼트 관련 고객",
+    "price_factors": [
+      {
+        "factor": "글로벌 OTT",
+        "detail": "글로벌 OTT의 투자 및 수요 확대는 해외 판매·라이선스 수익 증가로 실적에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "원천 IP",
+        "detail": "원천 IP(지적재산권) 보유 여부에 따라 리메이크·포맷 수출 등 고부가가치 부가사업 수익이 좌우됩니다."
+      },
+      {
+        "factor": "산업융복합",
+        "detail": "웹툰·게임·메타버스 등 타산업과의 융복합이 활발해지면 추가 수익원 창출 및 경쟁력 차별화에 유리합니다."
+      },
+      {
+        "factor": "제작자금 리스크",
+        "detail": "제작비 규모와 자금조달 방식 다양성으로 성공 가능성 예측이 어려워 실적 변동성이 커질 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "당사는 2004년 1월 설립한 콘텐츠 제작 전문기업입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황",
+        "evidence_text": "콘텐츠 제작 및 유통을 주사업으로 하고 있으며"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "방송국, OTT, 해외시장 등에 공급"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 산업의 현황",
+        "evidence_text": "OTT와 같은 뉴 미디어의 등장으로 신규 드라마 소비 시장이 확대되고 있으며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4229,
+    "completion_tokens": 3048,
+    "reasoning_tokens": 2304,
+    "output_tokens": 744
+  },
+  "warnings": []
+}

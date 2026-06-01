@@ -1,0 +1,86 @@
+{
+  "stock_code": "001680",
+  "corp_name": "대상",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 17:37",
+  "meta": {
+    "wics": "식품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "대상㈜은 식품 및 소재 사업을 영위하는 기업으로, '청정원'·'종가' 등 대표 식품 브랜드를 중심으로 가공식품과 바이오 소재를 생산·판매합니다. 2025년 연결 기준 매출액은 4조 4,013억 원으로 국내외 생산 거점을 보유한 글로벌 사업 기반을 갖추고 있습니다.",
+    "business_model": "사업부문은 식품사업과 소재사업으로 구성되며, 주요 수익은 브랜드 기반의 가공식품(유통·이커머스·B2B)과 전분·전분당·아미노산 등 소재제품에서 발생합니다; 2025년 연결 기준으로 식품부문 매출액이 3조 8,172억(86.7%), 소재부문 매출액이 1조 4,605억(33.2%), 연결조정이 -8,764억(-19.9%)으로 표기되어 있습니다.",
+    "main_customers": "식품사업 — 이마트·농협하나로마트 등 대형할인점, B2B(식자재 유통)·이커머스(쿠팡) / 소재사업 — 국내외 음료·제과업체, 제약·사료·화장품 등 산업체",
+    "price_factors": [
+      {
+        "factor": "원재료·환율",
+        "detail": "원재료를 상당 부분 수입하기 때문에 국제 곡물가격·환율 변동이 수익성에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "브랜드·상품력",
+        "detail": "브랜드 인지도와 제품 개발·마케팅 역량이 가공식품 매출에 중대한 영향을 미칩니다."
+      },
+      {
+        "factor": "해외현지화",
+        "detail": "해외 제조 거점(인도네시아·베트남·중국 등) 확장에 따라 현지 수요 및 수출 실적이 실적 변동 요인이 됩니다."
+      },
+      {
+        "factor": "B2B채널구조",
+        "detail": "B2B 식자재 유통시장의 재편이 진행되며 전문 유통업체 중심의 구조 변화가 매출처 다변화에 영향을 줍니다."
+      },
+      {
+        "factor": "규제리스크",
+        "detail": "공정거래 관련 과징금 등 규제 이슈는 충당부채 인식과 당기순이익 변동으로 이어질 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사의 사업부문은 식품 및 소재 사업 부문으로 구성되어 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "식품부문 매출액이  3조 8,172억(86.7%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "소재부문 매출액이 1조 4,605억(33.2%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "식품사업부문의 주요 매출처로는 이마트, 농협하나로마트"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "국제 곡물 가격 변동 및 환율이 수익성에 영향을 미칩니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "공정거래위원회로부터 과징금 부과가 언급된 만큼"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "해외 제조 기반이 있는 인도네시아, 베트남, 중국 등은"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 6403,
+    "completion_tokens": 3956,
+    "reasoning_tokens": 2944,
+    "output_tokens": 1012
+  },
+  "warnings": []
+}

@@ -1,0 +1,67 @@
+{
+  "stock_code": "028300",
+  "corp_name": "HLB",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 23:27",
+  "meta": {
+    "wics": "건강관리장비와용품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "HLB는 항암제·면역치료제 등의 신약 개발과 임상시험을 수행해온 글로벌 바이오 의약품 전문기업이며, 헬스케어, 바이오, 선박 및 미디어커머스 등으로 사업 포트폴리오를 다각화하고 있습니다. 연구개발과 글로벌 네트워크를 바탕으로 신약 후보물질의 임상과 상업화를 추진하고 있습니다.",
+    "business_model": "주요 수익은 FY2025 기준 제품매출(19.8%), 상품매출(0.4%), 용역매출(2.0%), 기타매출(6.2%)으로 구성되어 있습니다. 헬스케어사업에서는 체외진단 의료기기·의약외품·화장품 등 제품을 제조·판매하고, 바이오사업에서는 신약 후보물질의 임상·라이선스 활동을 통해 가치를 창출하며, 선박 및 미디어커머스 사업을 통한 매출 다각화도 이루어지고 있습니다.",
+    "main_customers": "헬스케어 — 국내외 주요 제약사와 진단기기업체 / 바이오 — 임상·라이선스 파트너(글로벌 제약사 등) / 선박 — 관공서·해경·해군 및 국내외 조선소 / 미디어커머스 — 일반 소비자(퍼포먼스 마케팅 채널을 통한 직접 판매)",
+    "price_factors": [
+      {
+        "factor": "임상 리스크",
+        "detail": "임상 성공확률이 낮아(시판 확률 저조) 임상 결과에 따라 실적 변동성이 큽니다."
+      },
+      {
+        "factor": "규제·인증",
+        "detail": "체외진단 의료기기 및 구명정·DAVIT 등은 엄격한 규제·인증을 충족해야 해 승인 지연 시 출시와 매출에 영향을 줍니다."
+      },
+      {
+        "factor": "공공조달 경쟁",
+        "detail": "특수선박의 관공선 수주는 입찰경쟁에 따라 수주 가변성이 커 실적에 영향을 미칩니다."
+      },
+      {
+        "factor": "재무·자금조달",
+        "detail": "신주인수권부사채 발행 및 높은 연구개발비 투입으로 단기 유동성 및 비용 부담이 실적에 영향합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "당사는 해외 종속회사 Elevar Therapeutics 및 Immunomic Therapeutics와 함께 항암제 및 면역치료제 등의 신약 개발과 임상시험을 수행해온 글로벌 바이오 의약품 전문기업입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "제품매출: 16,700,380 (19.8%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > (1) 헬스케어 사업",
+        "evidence_text": "국내외 주요 제약사와 진단기기업체를 고객으로 사업을 진행하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "시판으로 이어질 확률은 10,000분의 1 정도로 낮은 편입니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4837,
+    "completion_tokens": 3713,
+    "reasoning_tokens": 2880,
+    "output_tokens": 833
+  },
+  "warnings": []
+}

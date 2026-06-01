@@ -1,0 +1,76 @@
+{
+  "stock_code": "181710",
+  "corp_name": "NHN",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:23",
+  "meta": {
+    "wics": "IT서비스",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "NHN은 온라인·모바일 게임과 결제, 클라우드 기술을 함께 운영하는 IT서비스 기업입니다. 연결실체 기준으로 게임, 결제 및 광고, 기타 사업을 영위하며, 2025년 연결 영업수익은 2조 5,162억 원, 영업이익은 1,324억 원을 기록했습니다.",
+    "business_model": "NHN의 연결 매출은 게임 19.25%, 결제 및 광고 51.89%, 기타 28.86%로 구성되어 있습니다. 핵심 수익원은 PAYCO 간편결제와 PG·VAN 서비스, 게임 서비스, 그리고 CSP/MSP(클라우드 서비스 제공/관리) 같은 기술사업이며, 티켓판매·커머스·웹툰도 기타 사업으로 포함됩니다. 국내에서는 온라인 및 모바일 게임, 간편결제, 클라우드 CSP 사업이 매출로 잡히고, 일본 NHN PlayArt Corp.의 모바일 게임과 NHN Techorus Corp.의 클라우드 MSP 사업은 해외 실적으로 반영됩니다.",
+    "main_customers": "게임 — 다수의 인터넷 및 스마트기기 사용자, 온라인·모바일 게임 이용자 / 결제 및 광고 — 온라인 송금·전자결제·간편결제 서비스를 이용하는 고객과 해외 가맹점 / 기타 — 클라우드·커머스·티켓판매·웹툰 등 서비스를 이용하는 사용자",
+    "price_factors": [
+      {
+        "factor": "게임이용",
+        "detail": "게임은 경기불황 때 저렴한 여가 대체재로 주목받아 이용자 유입이 늘 수 있고, 경기와 무관하게 모바일게임 중심으로 수요가 이어질 수 있습니다."
+      },
+      {
+        "factor": "계절성",
+        "detail": "온라인 게임은 수험기간·방학·연말 이벤트 시기에 이용과 출시 경쟁이 커져 매출 흐름에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "경쟁심화",
+        "detail": "모바일 게임 시장의 경쟁이 심화되어 우수한 게임 IP(지식재산)를 확보하지 못하면 사업 성장에 부담이 될 수 있습니다."
+      },
+      {
+        "factor": "규제변화",
+        "detail": "게임법과 웹보드규제, 전자금융거래법 같은 규제 변화는 게임과 결제 사업 운영 방식에 직접적인 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "정부사업",
+        "detail": "AI컴퓨팅 자원 활용 기반 강화 사업이나 공공 클라우드 전환 사업 참여는 기술사업 실적에 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "주요 사업으로는 온라인/모바일 게임 사업, PG 및 VAN 서비스와 PAYCO 간편결제사업, CSP/MSP 등의 클라우드 기술사업이 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "게 임: 484,467,656 (19.2%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "결제및광고: 1,305,779,582 (51.9%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "기 타: 725,986,587 (28.9%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "연결실체의 주요 고객은 업종 특성상 다수의 인터넷 및 스마트 기기 사용자로 구성되어 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5747,
+    "completion_tokens": 904,
+    "reasoning_tokens": 0,
+    "output_tokens": 904
+  },
+  "warnings": []
+}

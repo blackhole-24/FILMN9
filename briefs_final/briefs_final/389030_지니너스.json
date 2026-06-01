@@ -1,0 +1,67 @@
+{
+  "stock_code": "389030",
+  "corp_name": "지니너스",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:41",
+  "meta": {
+    "wics": "생물공학",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "지니너스는 2018년 4월 20일 삼성서울병원 삼성유전체연구소에서 스핀오프된 바이오 벤처 회사로, 유전체 분석 기술의 연구개발과 유전체 분석 솔루션의 개발·제조를 주요사업으로 하고 있습니다. 자체 축적한 생물정보 데이터베이스와 분석 역량을 바탕으로 제약사 대상 플랫폼, 연구자 대상 분석 솔루션, 검사 및 진단 제품을 함께 전개하고 있습니다.",
+    "business_model": "FY2025 사업부문별 영업수익은 용역매출 94.0%, 제품매출 6.0%로 구성됩니다. 제약사 대상 플랫폼은 IntelliMed, MEDINSIGHT, SPACEINSIGHT를 통해 신약 타겟 발굴부터 임상 전략 수립까지 지원하고, 연구자 대상 분석 솔루션은 공간오믹스(조직 내 위치 정보를 반영한 오믹스 분석)와 단일세포 분석을 제공합니다. 검사 및 진단 제품으로는 NGS(차세대염기서열분석) 암 진단 서비스 CancerSCAN, 액체생검(혈액으로 검사하는 방식) NGS 서비스 LiquidSCAN, PCR(유전자 증폭 검사) 기반 제품군 OncoLapse·Mutec를 운영하고 있습니다.",
+    "main_customers": "제약사 대상 플랫폼 — 국내외 제약사 / 연구자 대상 분석 솔루션 — 연구자, 연구기관 / 검사 및 진단 제품 — 의료기관, 검사 이용 대상 고객",
+    "price_factors": [
+      {
+        "factor": "제약 협업",
+        "detail": "국내외 제약사와의 전략적 협력이 늘수록 플랫폼 활용과 기술이전 기회가 확대되어 실적에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "임상수요",
+        "detail": "임상시험기관과 의료기관의 분석 수요가 커질수록 싱글셀·공간오믹스 기반 서비스 매출이 증가할 수 있습니다."
+      },
+      {
+        "factor": "인증신뢰",
+        "detail": "GCLP와 CAP 인증은 품질과 신뢰성의 기준이 되어, 규제 대응이 중요한 분석·진단 서비스 수주에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "정밀의료",
+        "detail": "정밀의료와 동반진단(CDx) 개발 수요가 확대될수록 바이오마커 발굴과 환자 샘플 분석 사업의 성장 여지가 커집니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "2018년 4월 20일 삼성서울병원 삼성유전체연구소에서 스핀오프된"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "용역매출: 6,328 (94.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "제품매출: 487 (6.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "제약사 대상 플랫폼, 연구자 대상 분석 솔루션"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4243,
+    "completion_tokens": 805,
+    "reasoning_tokens": 0,
+    "output_tokens": 805
+  },
+  "warnings": []
+}

@@ -1,0 +1,82 @@
+{
+  "stock_code": "033500",
+  "corp_name": "동성화인텍",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 23:58",
+  "meta": {
+    "wics": "화학",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "동성화인텍은 부산 사하구에 본사를 둔 초저온 보냉재 전문 기업으로, PU단열재 부문과 가스 부문을 운영하고 있습니다. 경기도 안성·경남 통영의 PU 생산공장과 울산 영남공장의 가스 공장을 보유하며 B2B(기업 간 거래) 중심으로 조선·건자재·가전 등 산업용 중간재를 공급합니다.",
+    "business_model": "사업부문별로 PU 단열재가 매출의 96.2%로 주력 수익원이며(714,021, 96.2%), 가스 사업부가 3.8%(28,165, 3.8%)를 차지합니다. PU 단열재는 초저온 보냉재(조선용 LNG탱크·파이프 등)와 PU System(건축·가전·산업용 단열재 및 산업소재)을 포함하고, 가스 사업부는 불소계 냉매의 수입·소분·판매 및 리사이클을 통해 전자·자동차 등 대기업에 공급합니다.",
+    "main_customers": "PU 단열재 — 국내외 조선사(국내 조선3사 포함) / PU System — 건축·가전·자동차 등 산업용 제조사 / 가스 — 삼성전자·LG전자·현대자동차·기아자동차·HD현대인프라코어·SK하이닉스 등 국내 대기업",
+    "price_factors": [
+      {
+        "factor": "LNG수요",
+        "detail": "친환경 에너지로서 LNG 수요가 급증하면 초저온 보냉재 수요가 늘어나 실적에 긍정적 영향을 미칩니다."
+      },
+      {
+        "factor": "조선발주",
+        "detail": "해운시장 수요의 주기적 변동에 따라 조선업 발주가 변동하므로 초저온보냉재 수주·매출이 주기적으로 흔들릴 수 있습니다."
+      },
+      {
+        "factor": "환율·원자재",
+        "detail": "환율과 국제 원자재 가격 변동은 원가와 수출경쟁력에 직접 영향을 주어 실적 변동 요인이 됩니다."
+      },
+      {
+        "factor": "수요산업",
+        "detail": "건축·가전·자동차 등 전방 산업 생산 활동이 활발할수록 PU System 수요가 증가하여 매출에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "초저온 보냉재 전문 업체입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "714,021 (96.2%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "28,165 (3.8%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "3) 사업부문별 현황 > 가) PU단열재 사업부문",
+        "evidence_text": "초저온보냉재 부문은 국내 조선3사를 비롯한 국내외 조선사가 주요 매출처이며"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "나) 가스 사업부문",
+        "evidence_text": "삼성전자, LG전자, 현대자동차, 기아자동차, HD현대인프라코어, SK하이닉스 등"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "3) 사업부문별 현황 > 가) 초저온보냉재",
+        "evidence_text": "그 수요가 급속히 증가하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "3) 사업부문별 현황",
+        "evidence_text": "주기적인 해운시장의 수요 변동으로 조선산업의 발주 역시 주기적으로 변동하는 특성이 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5209,
+    "completion_tokens": 4900,
+    "reasoning_tokens": 3904,
+    "output_tokens": 996
+  },
+  "warnings": []
+}

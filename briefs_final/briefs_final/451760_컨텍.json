@@ -1,0 +1,72 @@
+{
+  "stock_code": "451760",
+  "corp_name": "컨텍",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 19:50",
+  "meta": {
+    "wics": "우주항공과국방",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "컨텍은 우주산업의 Upstream(위성단말기 등)과 Downstream(지상국·데이터 서비스 등) 전 영역에서 설계·구축·운용·데이터처리까지 가능한 토탈 솔루션을 제공하는 회사입니다. 2020년 제주 지상국을 시작으로 상업용 지상국 서비스를 전개하며 글로벌 지상국 네트워크를 구축해 왔습니다.",
+    "business_model": "기업의 FY2025 영업수익은 Upstream이 55.0%, Downstream이 44.7%, 기타 0.3%로 구성되어 있습니다. 핵심 사업은 지상국 시스템 엔지니어링(안테나·RF 설계·시스템 통합), GSaaS(Ground Station as a Service, 지상국 서비스) 네트워크, 위성영상 데이터 처리 솔루션, 그리고 위성통신 단말기 개발·판매로 이뤄져 있으며, 안테나 등 주요 부품의 자체 생산과 Turn Key(일괄납품) 방식이 원가 절감에 기여할 것으로 기대됩니다.",
+    "main_customers": "Downstream — 산업 고객(국방, 금융, 에너지, 국가인프라, 해양) / Upstream — 글로벌 위성사업자 및 이동위성통신 사업자(예: THURAYA, Inmarsat)",
+    "price_factors": [
+      {
+        "factor": "뉴스페이스 성장",
+        "detail": "민간 주도(New Space) 확대로 소형위성·지상국 수요가 늘어나 실적 확장에 긍정적 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "데이터 활용 수요",
+        "detail": "위성영상과 데이터 활용 서비스 시장의 성장(금융·에너지·인프라 등)은 Downstream 매출 확대에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "지상국 접근성",
+        "detail": "웹 기반 사용자 인터페이스와 글로벌 지상국 네트워크 접근성은 고객 확보와 사용량 증가로 실적에 유리하게 작용할 수 있습니다."
+      },
+      {
+        "factor": "인하우스 생산",
+        "detail": "안테나·RF 등 핵심 부품의 자체 생산 및 Turn Key 납품은 원가 절감과 마진 개선에 기여할 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "나. 시장여건 및 영업의 개황",
+        "evidence_text": "토탈 솔루션을 제공하는 유일의 회사입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "Downstream: 27,258 (44.7%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "Upstream: 27,888 (55.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "2) Upstream 주요 사업 가) 위성통신 단말기",
+        "evidence_text": "THURAYA 및 Inmarsat을 핵심 고객으로 확보하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "나) GSaaS 네트워크 솔루션",
+        "evidence_text": "웹 기반의 사용자 중심 인터페이스를 통해"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4208,
+    "completion_tokens": 4607,
+    "reasoning_tokens": 3776,
+    "output_tokens": 831
+  },
+  "warnings": []
+}

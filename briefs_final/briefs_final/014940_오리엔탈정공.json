@@ -1,0 +1,81 @@
+{
+  "stock_code": "014940",
+  "corp_name": "오리엔탈정공",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 12:36",
+  "meta": {
+    "wics": "조선",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "오리엔탈정공은 선박용 기계제품과 선박용 상부구조물을 주력으로 생산하는 기업으로, 주문생산 방식의 수주산업을 영위합니다. 2025년 연결기준 매출은 2,073억원이며 매출의 대부분은 국내(97.2%)에서 발생합니다.",
+    "business_model": "주요 사업부문은 기계품(선박용 크레인·갑판기계 등)과 구조물(Deck House·엔진룸케이싱 등)이며, FY2025 매출 구성은 기계품 44.7%, 구조물 65.3%로 표기되어 있습니다. 주문에 따라 설계·제작하는 방식(주문생산)과 제관·용접·유압·전기 설계 등 대규모 설비·기술 역량이 핵심 수익구조이며, 친환경 크레인·해상풍력 기자재 등 신규제품 개발을 통한 사업다각화를 추진하고 있습니다.",
+    "main_customers": "기계품 — 국내 Big 3 조선소 및 대형 선주사 / 구조물 — 국내 Big 3 조선소",
+    "price_factors": [
+      {
+        "factor": "발주량",
+        "detail": "조선소의 신조선 수주량 및 건조량 변동에 따라 수주·매출이 직접 영향을 받습니다."
+      },
+      {
+        "factor": "환경규제",
+        "detail": "글로벌 환경규제에 대응한 친환경 선박·기자재 수요가 제품 라인업과 매출구조에 영향을 미칩니다."
+      },
+      {
+        "factor": "품질·인증",
+        "detail": "해상 환경에서의 내구성·안전성을 입증하는 각종 시험·인증 획득 여부가 채택과 경쟁력에 영향을 줍니다."
+      },
+      {
+        "factor": "원자재(철강)",
+        "detail": "주요 원재료인 STEEL PLATE 조달처 및 가격 변동이 비용과 마진에 영향을 줍니다."
+      },
+      {
+        "factor": "환율",
+        "detail": "미달러·엔화 등 통화 변동에 따라 기계품 일부 매출 및 손익이 영향을 받을 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "라. 사업부문별 시장여건 및 영업개황",
+        "evidence_text": "지배회사는 주문생산방식의 수주산업을 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "기계품: 92,472 (44.7%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "구조물: 114,535 (65.3%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "다. 판매전략, 주요 거래처, 수주상황",
+        "evidence_text": "주요 거래처는 국내 Big 3 조선소로"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "조선기자재 산업은 조선소의 신조선 수주량 및 건조량의 변동에 의하여 직접적인 영향을 받습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나. 원재료",
+        "evidence_text": "지배회사 제품의 주요 원재료는 STEEL PLATE이며 (주)포스코와의 직거래를 통해 조달하고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5078,
+    "completion_tokens": 4492,
+    "reasoning_tokens": 3584,
+    "output_tokens": 908
+  },
+  "warnings": []
+}

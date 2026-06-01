@@ -1,0 +1,67 @@
+{
+  "stock_code": "225190",
+  "corp_name": "LK삼양",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 12:47",
+  "meta": {
+    "wics": "전자장비와기기",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "LK삼양은 카메라 교환렌즈를 설계·가공·조립·판매하는 국내 유일의 글로벌 광학 전문기업으로, 설립 이후 50여 년의 기술력을 바탕으로 제품을 전 세계에 공급하고 있습니다. 영화용·동영상용 렌즈와 자동초점(AF) 렌즈 등 전문 광학 제품군을 중심으로 사업을 전개하고 있습니다.",
+    "business_model": "사업부문별로 FY2025 기준 매출 구성은 MF 13.6%, AF 72.0%, XEEN 2.0%, 기타 1.1%, 신사업(열화상 및 B2B 등) 11.2%로, AF(자동 초점) 렌즈가 매출의 큰 비중을 차지합니다. 회사는 수요가 높은 AF 줌 렌즈 중심으로 '소품종 대량생산' 체제 전환을 통해 생산 효율성과 수익성 제고를 추진하고 있습니다.",
+    "main_customers": "MF — DSLR·미러리스 사용자 및 전통적 렌즈 수요층 / AF — 미러리스·동영상 촬영자 및 일반 사진가 / XEEN — 영화·시네마 촬영 전문가 및 스튜디오 / 신사업(열화상·머신비전) — 산업용 B2B 고객(열화상·머신비전 장비 제조사 등)",
+    "price_factors": [
+      {
+        "factor": "해외 경쟁",
+        "detail": "독일·일본 업체의 높은 시장점유율로 제품 경쟁력(기술·브랜드)이 실적과 밸류에이션에 영향."
+      },
+      {
+        "factor": "동영상·고화질 수요",
+        "detail": "4K 이상·동영상 콘텐츠 확대는 AF·시네 렌즈 수요 증가로 매출에 우호적 영향을 미칠 수 있음."
+      },
+      {
+        "factor": "대외 환경",
+        "detail": "유럽 거래처의 재고조정 및 미국 관세 등 외부 변수는 수요 회복 시점과 매출에 직접 영향."
+      },
+      {
+        "factor": "생산전략 전환",
+        "detail": "AF 줌 렌즈 중심의 소품종 대량생산 전환은 생산효율성과 수익성 개선에 중요한 변수."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "제품을 전 세계 70여 개국에 판매하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "AF: 15,423 (72.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "3. 주요 제품의 기능 및 특징 등",
+        "evidence_text": "DSLR과 미러리스 및 기타 전문 동영상 시네 카메라"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "2. 산업의 특성",
+        "evidence_text": "독일과 일본 업체들이 높은 시장 점유율을 보이고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5740,
+    "completion_tokens": 4352,
+    "reasoning_tokens": 3584,
+    "output_tokens": 768
+  },
+  "warnings": []
+}

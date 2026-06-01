@@ -1,0 +1,76 @@
+{
+  "stock_code": "043650",
+  "corp_name": "국순당",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 01:50",
+  "meta": {
+    "wics": "음료",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "국순당은 6개의 주요 종속회사를 보유한 전통주 제조·판매 회사로, 약주와 탁주 등 전통 발효주를 주력으로 생산합니다. 백세주, 국순당생막걸리 등 전통주 브랜드를 중심으로 제품을 판매하고 있습니다.",
+    "business_model": "핵심 사업은 약주(백세주 등)와 탁주(막걸리)의 제조·판매이며, FY2025 기준 사업부문별 영업수익은 음용이 81.7%, 음용 및 기타가 18.3%를 차지합니다. 전통 누룩 기반 양조 기술과 제품 다양화, 유통 채널 확대를 통해 매출을 창출합니다.",
+    "main_customers": "약주 — 전통주에 관심 있는 소비자(프리미엄 수요 포함) / 탁주 — 대중 소비층(막걸리 소비자)",
+    "price_factors": [
+      {
+        "factor": "규제·인허가",
+        "detail": "주류는 생산·유통·소비 전 단계에서 정부의 관리와 규제가 강하게 적용되어 규제 변화가 비용·유통에 영향을 미칩니다."
+      },
+      {
+        "factor": "원가(원료)",
+        "detail": "원가 상승 시 판매단가 인상으로 연결되며(보고서: 원가상승에 따른 판매단가 인상), 마진에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "주세체계",
+        "detail": "주종별로 상이한 과세 체계(종가세·종량세 등)가 제품별 가격 형성과 수익성에 영향을 미칩니다."
+      },
+      {
+        "factor": "환율",
+        "detail": "영업활동상 미화(USD) 등 환율 위험에 노출되어 있어 환율 변동이 손익에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "소비트렌드",
+        "detail": "전통 식문화 관심 및 프리미엄 전통주에 대한 인식 변화가 수요 구조와 제품별 매출에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "약주, 탁주 등 전통주를 제조 판매하는 주류회사 입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "음용: 12,194 (81.7%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "음용 및 기타: 12,344 (18.3%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "사업부문 현황 > (가) 약주사업 부문",
+        "evidence_text": "프리미엄 전통주에 대한 소비자 인식 변화"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나. 주요 제품 등의 가격변동추이",
+        "evidence_text": "주요 가격변동요인은 원가상승에 따른 판매단가 인상에 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4679,
+    "completion_tokens": 5914,
+    "reasoning_tokens": 5120,
+    "output_tokens": 794
+  },
+  "warnings": []
+}

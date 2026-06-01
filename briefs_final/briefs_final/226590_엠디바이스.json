@@ -1,0 +1,72 @@
+{
+  "stock_code": "226590",
+  "corp_name": "엠디바이스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 12:55",
+  "meta": {
+    "wics": "반도체와반도체장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "엠디바이스는 메모리 반도체(DRAM, NAND)와 시스템 반도체(SSD Controller)가 결합된 SSD(솔리드 스테이트 드라이브)를 설계·제조·조립·검사·판매·유통의 전 과정을 직접 수행하는 SSD 전문기업입니다. 기업용, 소비자용, BGA(Ball Grid Array) SSD 등 다양한 제품군을 보유하고 있으며 데이터센터(클라우드·AI 등) 영역에 집중하고 있습니다.",
+    "business_model": "핵심 사업은 데이터센터용 기업용 SSD와 개인용 소비자용 SSD, 초소형 패키지인 BGA SSD 등으로 구성되어 있으며 설계에서 양산·유통까지 E2E(End-to-End) 공정을 직접 수행하는 점이 특징입니다. 보고서에 따르면 전체 SSD 시장에서 소비자용 시장의 비중은 약 15%로 크지 않으나(시장측), 기업용 SSD 중심의 데이터센터 수요와 BGA 기술 경쟁력이 수익 구조의 핵심 요소입니다.",
+    "main_customers": "기업용 — 클라우드·데이터센터 운영사 및 기업 서버 운영사 / 소비자용 — 일반 소비자(데스크톱·노트북) 및 전문 크리에이터 / BGA SSD — 자동차(Automotive), 첨단 의료장비, 다양한 임베디드 산업",
+    "price_factors": [
+      {
+        "factor": "데이터수요",
+        "detail": "클라우드·AI·빅데이터 등 데이터센터 수요 증가 시 기업용 SSD 판매가 직접적으로 확대될 가능성이 큽니다."
+      },
+      {
+        "factor": "기술장벽",
+        "detail": "기업용 SSD는 높은 성능·신뢰성 요구로 기술 진입장벽이 높아 기술 우위 확보 시 경쟁사 대비 유리하게 작용합니다."
+      },
+      {
+        "factor": "고객집중",
+        "detail": "기존 고객사(H社) 매출 증가가 실적에 영향을 준 만큼 특정 고객에 대한 의존도 변화가 실적 변동으로 연결될 수 있습니다."
+      },
+      {
+        "factor": "환율",
+        "detail": "연결회사 수출 증가에 따른 외환손익(주요 노출 통화: 미국 달러화)이 실적에 영향을 미칠 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사의 핵심 제품인 기업용 SSD는 데이터센터에서 사용되는 SSD입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 전체 SSD 시장에서 소비자용 시장의 비중은 약 15%로 크지 않으나"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "소비자용 SSD는 일반 소비자들이 사용하는 데스크톱, 노트북에서 사용되는 SSD입니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "연결회사가 노출되어 있는 주요 통화는 미국 달러화입니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "데이터 수요의 폭발적인 증가에 따라 빠르게 성장하는 데이터센터 영역에 집중하고 있습니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4778,
+    "completion_tokens": 4436,
+    "reasoning_tokens": 3584,
+    "output_tokens": 852
+  },
+  "warnings": []
+}

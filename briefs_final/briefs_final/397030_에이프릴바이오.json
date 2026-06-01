@@ -1,0 +1,74 @@
+{
+  "stock_code": "397030",
+  "corp_name": "에이프릴바이오",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 18:50",
+  "meta": {
+    "wics": "제약",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "에이프릴바이오는 2013년 교원창업으로 설립된 연구개발 중심의 바이오기업으로, 인간항체 제작 기술과 단백질 의약품의 반감기 증대 기술을 바탕으로 항체치료제 및 지속형 재조합 단백질 의약품을 개발합니다. SAFA(항혈청알부민 결합 Fab) 플랫폼과 항체라이브러리(HuDVFab)를 핵심 기술로 파이프라인 대부분을 개발하고 있습니다.",
+    "business_model": "주요 사업부문은 기술이전, 수출, 내수로 구분되며, 핵심 수익원은 신약 후보물질의 기술이전(License-out)입니다. 당사는 계약금·마일스톤·경상기술료 등 기술료 수입을 통해 R&D에 재투자하는 RIPCO(연구집중형 로열티 기반) 모델을 채택하고 있으며, 완제품(시판 신약)을 직접 생산하지 않습니다.",
+    "main_customers": "기술이전 — 글로벌 제약사·신약개발기업(라이선시) / 수출 — 해외 라이선시(해외 제약사·바이오기업) / 내수 — 국내 대학병원·제약사(공동연구 파트너)",
+    "price_factors": [
+      {
+        "factor": "기술이전 의존도",
+        "detail": "매출이 기술이전 계약에 집중되어 있어 계약 체결 시점과 규모가 실적에 직접적 영향을 미칩니다."
+      },
+      {
+        "factor": "임상·규제 리스크",
+        "detail": "임상시험 및 인허가 과정의 지연·보완 요구 등은 기술이전 시점과 수익 인식에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "치료분야 수요",
+        "detail": "종양학 등 특정 치료분야의 시장 성장 추세는 관련 파이프라인의 사업성 및 기술이전 가치에 영향을 미칩니다."
+      },
+      {
+        "factor": "동종 경쟁",
+        "detail": "동일 타깃을 겨냥한 경쟁물질 개발 상황은 임상 우위 확보와 기술이전 협상력에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 - 영업 현황",
+        "evidence_text": "당사는 2013년 교원창업 형태로 설립된 연구개발 중심기업으로"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 - 4. 매출 및 수주현황",
+        "evidence_text": "설립 이후 보고서 작성기준일 현재 당사의 매출은 100% 신약 후보물질 기술이전에서 발생하였습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 - 6. 주요계약 및 연구개발활동",
+        "evidence_text": "룬드벡(H. Lundbeck A/S)에 4억 4천 8백만 달러 규모의 기술이전 계약을"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 - 가. 주요 제품(파이프라인) 요약",
+        "evidence_text": "연세대학교 세브란스병원, ㈜유한양행 등과 공동연구 네트워크를 구축하여"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "2024년 기준 바이오의약품의 치료 분야별 시장 규모는 종양학 (23.9%)"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 5357,
+    "completion_tokens": 6263,
+    "reasoning_tokens": 5376,
+    "output_tokens": 887
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

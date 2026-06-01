@@ -1,0 +1,62 @@
+{
+  "stock_code": "175140",
+  "corp_name": "휴먼테크놀로지",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 12:34",
+  "meta": {
+    "wics": "전자제품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "휴먼테크놀로지는 2002년 설립된 전자제품(무선 통신) 기업으로, WiMAX 모바일 라우터와 웨어러블 키즈폰, AI 스피커 등 혁신 제품을 통해 무선 통신 기기 시장을 개척해왔습니다. 2022~2023년 오로라미디어 인수·합병과 2025년 휴먼아고스 인수로 영상콘텐츠·유통·방위사업 영역으로 사업을 확장하고 있습니다.",
+    "business_model": "주요 수익원은 무선디바이스(AI스피커·웨어러블·라우터)와 유통, 방위사업, 영상콘텐츠 등으로 구성되며 FY2025 기준 무선디바이스 29.0%, 방위사업 11.0%, 영상컨텐츠 1.0%, 유통 39.0%의 매출 비중을 보입니다. 무선디바이스 부문은 통신기술 및 AI 접목을 통한 제품 개발이 핵심이며, 인수합병을 통해 유통·콘텐츠·방위 부문으로 포트폴리오를 다각화하고 있습니다.",
+    "main_customers": "무선디바이스 — 국내 최대 포털사·통신사·교육회사 / 방위사업 — 고객 언급 없음 / 영상컨텐츠 — 고객 언급 없음 / 유통 — 고객 언급 없음",
+    "price_factors": [
+      {
+        "factor": "통신전환",
+        "detail": "LTE에서 5G 등 통신기술 전환 속도에 따라 무선디바이스 수요와 기술투자 필요성이 실적에 영향합니다."
+      },
+      {
+        "factor": "스마트홈",
+        "detail": "AI 스피커의 스마트홈 연동 확대는 관련 수요 증가로 이어져 AI·스피커 매출에 직접적 영향을 줍니다."
+      },
+      {
+        "factor": "웨어러블",
+        "detail": "글로벌 웨어러블 시장 성장률이 높아지면 웨어러블 관련 제품 수요와 매출 확대에 기여합니다."
+      },
+      {
+        "factor": "매출구성",
+        "detail": "FY2025 기준 유통 비중이 큰 편(39.0%)이라 유통 채널 변동이 전체 실적 변동성으로 이어질 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "2002년 설립 이래"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "무선디바이스: 16,241 (29.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "통신사, 교육회사 등으로 공급처 다변화에 성공하였으며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3619,
+    "completion_tokens": 3972,
+    "reasoning_tokens": 3264,
+    "output_tokens": 708
+  },
+  "warnings": []
+}

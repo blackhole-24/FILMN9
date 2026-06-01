@@ -1,0 +1,77 @@
+{
+  "stock_code": "013720",
+  "corp_name": "THE CUBE&",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 09:48",
+  "meta": {
+    "wics": "자동차부품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "THE CUBE&는 자동차부품 업종에 속한 코스피 상장사로, 사업보고서상 보그워너그룹과 에이치디현대인프라코어 등 주요 완성차·부품 관련 고객사와 거래하고 있습니다. 2025년말 기준 자산과 부채, 자본의 변화가 함께 나타났지만, 유동비율 155.3%와 부채비율 40.2%를 기록해 재무 유동성과 건전성이 유지되고 있습니다.",
+    "business_model": "FY2025 사업부문별 영업수익은 보그워너그룹 40.0%, 에이치디현대인프라코어 36.6%, GM 그룹 11.1%, 현대위아 6.4%, (주)대동 2.2%, 기타 3.6%로 구성되어 있습니다. 특정부품의 가격은 신규개발 완료 시점에 모기업과 원가실사를 통해 개별 원가를 상호 협의해 정하며, 품목별로 총매출액을 매출수량으로 나누는 방식으로 단가를 산정합니다.",
+    "main_customers": "보그워너그룹 — 완성차 관련 그룹 / 에이치디현대인프라코어 — 건설기계·산업차량 관련 고객 / GM 그룹 — 글로벌 완성차 그룹 / 현대위아 — 자동차부품 관련 고객 / (주)대동 — 농기계 관련 고객",
+    "price_factors": [
+      {
+        "factor": "수요변동",
+        "detail": "글로벌 자동차 판매와 국내 생산·수출 흐름이 바뀌면 주요 고객사의 부품 발주량도 함께 변해 실적에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "보호무역",
+        "detail": "관세 장벽 강화와 무역 질서 재편은 완성차 생산 및 물류 구조를 흔들 수 있어 부품 수요와 거래 환경에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "원가조정",
+        "detail": "특별한 원가변동요인이 생기면 모기업 요청에 따라 단가가 조정될 수 있어 수익성 변동 요인이 됩니다."
+      },
+      {
+        "factor": "환율효과",
+        "detail": "국내 자동차 산업의 수출 확대와 환율 효과는 완성차 업황을 통해 간접적으로 부품업체의 매출 환경에 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "기업 기본 정보",
+        "evidence_text": "기업명: THE CUBE& / 종목코드: 013720"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "MD&A",
+        "evidence_text": "유동비율은 155.3%로 재무유동성이 확보"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "보그워너그룹 (40.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "에이치디현대인프라코어 (36.6%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "GM 그룹 (11.1%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "현대위아 (6.4%)"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3175,
+    "completion_tokens": 865,
+    "reasoning_tokens": 0,
+    "output_tokens": 865
+  },
+  "warnings": []
+}

@@ -1,0 +1,81 @@
+{
+  "stock_code": "225220",
+  "corp_name": "제놀루션",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 12:47",
+  "meta": {
+    "wics": "건강관리장비와용품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "제놀루션은 유전자를 기반으로 하는 분자진단기기 사업과 RNAi(유전자 발현 억제 기술) 관련 제품·서비스를 영위하는 기업입니다. 핵산추출용 장비·시약과 대량 RNA 합성 역량을 바탕으로 연구기관 및 기업에 제품을 공급하고 있습니다.",
+    "business_model": "사업부문별로 체외진단 의료기기 사업이 43.1%, RNAi사업이 10.0%, 상품 매출이 37.8%, 기타 매출이 2.8%를 차지합니다. 주요 수익원은 핵산추출시약과 자동화핵산추출기기(분자진단 장비) 및 shRNA·siRNA 등 RNAi 합성서비스이며, dsRNA 대량 생산 플랫폼(kg 단위)을 통해 대규모 공급이 가능합니다.",
+    "main_customers": "체외진단 의료기기 사업 — 고객 명시 없음 / RNAi사업 — 10개국 이상의 대학·국가연구소·기업 / 상품 매출 — 고객 명시 없음 / 기타 매출 — 고객 명시 없음",
+    "price_factors": [
+      {
+        "factor": "감염성 계절성",
+        "detail": "감염성 질환 진단 수요는 계절·대유행에 따라 변동해 감염성 검사 관련 매출에 직접 영향이 있습니다."
+      },
+      {
+        "factor": "시장성장",
+        "detail": "글로벌 핵산추출 시장의 성장률 변화는 장비·시약 수요 확대 여부에 따라 실적에 영향을 미칩니다."
+      },
+      {
+        "factor": "경쟁심화",
+        "detail": "엔데믹 이후 시장 성장 둔화와 경쟁 심화는 가격·수주 경쟁을 통해 마진에 부담을 줄 수 있습니다."
+      },
+      {
+        "factor": "원가구조",
+        "detail": "마그네틱 비드 관련 특허·원가절감 노력은 제품 원가와 수익성에 직결됩니다."
+      },
+      {
+        "factor": "대량생산능력",
+        "detail": "kg 단위의 dsRNA 생산 능력은 대규모 수주와 매출 안정성에 영향을 미칠 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > (마) 회사의 현황 (1) 사업영역",
+        "evidence_text": "당사는 유전자 기반으로 하는 분자진단기기 사업과 RNAi(Ribonucleic Acid Interference) 연구관련 제품생산 및 서비스 사업을 진행하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > (마) 회사의 현황 (2) 회사의 영업 및 생산",
+        "evidence_text": "핵산추출 장비와 시약을 개발, 생산하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "체외진단 의료기기 사업: 3,345 (43.1%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "RNAi사업: 780 (10.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > (마) 회사의 현황 (2) 회사의 영업 및 생산",
+        "evidence_text": "dsRNA 대량 생산 플랫폼을 구축하여 kg 단위의 생산 능력을 갖추었습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > (마) 회사의 현황 (2) 회사의 영업 및 생산",
+        "evidence_text": "10개국 이상의 대학과 국가연구소 및 기업에 판매하고 있으며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4207,
+    "completion_tokens": 4380,
+    "reasoning_tokens": 3456,
+    "output_tokens": 924
+  },
+  "warnings": []
+}

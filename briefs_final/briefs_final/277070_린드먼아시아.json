@@ -1,0 +1,73 @@
+{
+  "stock_code": "277070",
+  "corp_name": "린드먼아시아",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 14:44",
+  "meta": {
+    "wics": "창업투자",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "린드먼아시아는 금융업의 창업투자(벤처캐피탈·PEF) 운용사로, 2025년 말 기준 투자조합 및 경영참여형 사모집합투자기구(PEF) 총 10개, 운영자산(AUM) 9,578억원 규모를 기록하고 있습니다. 주로 확장 단계의 기업에 투자해 해외진출 및 사업확장을 지원하는 전략을 통해 안정적 수익을 추구하며, 2025년 연결기준 영업수익 74억·영업이익 36억·당기순이익 30억원을 기록했습니다.",
+    "business_model": "핵심 사업은 벤처투자조합과 사모펀드(PEF) 등 투자조합의 조성·운용(조달)으로, 운용 펀드에서 발생하는 관리보수와 지분법 이익 등이 주요 수익원입니다. 회사는 창업초기보다 확장단계 기업에 투자해 안정적이고 지속적인 수익을 내는 포트폴리오 운용을 지향하며, 본계정의 조합 출자 확대를 통해 자본 수익 증대에 집중하고 있습니다.",
+    "main_customers": "조달 — 소재·부품·장비·소프트웨어·의료기기 등 제조기반의 중소·벤처기업",
+    "price_factors": [
+      {
+        "factor": "시장규모",
+        "detail": "국내 벤처투자 규모 변화는 신규투자 기회와 관리보수·성과수익에 직접 영향합니다."
+      },
+      {
+        "factor": "M&A 침체",
+        "detail": "글로벌 경기 둔화와 M&A 시장 침체는 투자집행 축소로 관리보수·회수환경 악화로 이어집니다."
+      },
+      {
+        "factor": "펀드 회수",
+        "detail": "펀드 투자금 회수 시 관리보수가 감소하고 지분법 이익이 축소될 수 있습니다."
+      },
+      {
+        "factor": "GP 경쟁",
+        "detail": "기관투자자의 대형 GP 선호와 GP 업계 진입 증가로 운용 경쟁이 심화될 수 있습니다."
+      },
+      {
+        "factor": "감독 강화",
+        "detail": "금융당국의 관리·감독 강화는 운용 절차와 비용에 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업의 현황 > 가. 영업개황",
+        "evidence_text": "운영자산 (AUM)기준 9,578억원을 기록하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업의 현황 > 가. 영업개황",
+        "evidence_text": "안정적이고 지속적인 수익을 창출할 수 있는 포트폴리오를 운영하고 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업의 현황 > (1) 업무현황 및 향후 환경 전망",
+        "evidence_text": "중소ㆍ벤처기업에 집중 투자하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "영업의 현황 > (1) 업무현황 및 향후 환경 전망",
+        "evidence_text": "글로벌 경기 둔화 및 M&A 시장 침체"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 3520,
+    "completion_tokens": 4013,
+    "reasoning_tokens": 3200,
+    "output_tokens": 813
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

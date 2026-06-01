@@ -1,0 +1,64 @@
+{
+  "stock_code": "016740",
+  "corp_name": "두올",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 21:54",
+  "meta": {
+    "wics": "자동차부품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "두올은 자동차용 내장재(원단, 시트커버링, 에어백쿠션) 제조를 주력으로 하는 기업으로, 중국·유럽·아메리카 등지를 포함한 총 23개의 종속법인을 통해 해외 생산·영업을 전개하고 있습니다. 최근 연결기준 매출은 796,139백만원으로 전년 대비 3% 증가했으나, 별도 매출은 293,221백만원으로 전년 대비 7% 감소했습니다.",
+    "business_model": "핵심 사업은 원단, 시트커버링, 에어백쿠션 제조로 구성되며, 고객 맞춤형 개발·생산을 통해 완성차 및 시트 어셈블리(Seat Assembly)에 공급하는 방식이 주된 수익원입니다. 사업부문은 지역별로 국내·아시아·유럽·아메리카로 구분되어 판매 및 생산 활동을 하고 있으며, 제품 가격은 설계 변경, 원재료 가격, 생산성 등에 따라 변동합니다.",
+    "main_customers": "원단·시트커버링 — Seat Assembly 회사 또는 자동차사 / 에어백쿠션 — 현대모비스·조이슨세이프티시스템 등 부품사",
+    "price_factors": [
+      {
+        "factor": "원재료가격",
+        "detail": "천연가죽·CLOTH 등 원재료 단가 변동은 제품 단가와 마진에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "환율",
+        "detail": "다수의 해외법인과 수입 원재료 노출로 환율 변동은 원가와 외화표시 자산·부채 평가에 영향을 줍니다."
+      },
+      {
+        "factor": "수주구조",
+        "detail": "현대기아 등 주요 고객의 심의입찰(수주) 구조로 인해 수주·가격 결정이 고객사 입찰 결과에 좌우됩니다."
+      },
+      {
+        "factor": "전동화전환",
+        "detail": "전기차·친환경차 비중 확대는 차종 구조와 부품 수요 변화를 초래해 중장기 실적에 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "자동차용 내장재(원단, 시트커버링, 에어백쿠션) 제조"
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황",
+        "evidence_text": "총 23개의 종속법인이 생산 및 영업 활동을 하고 있으며"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "Seat Assembly 회사 또는 자동차사에 직접 판매합니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4202,
+    "completion_tokens": 3431,
+    "reasoning_tokens": 2752,
+    "output_tokens": 679
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

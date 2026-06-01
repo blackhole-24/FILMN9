@@ -1,0 +1,67 @@
+{
+  "stock_code": "071970",
+  "corp_name": "HD현대마린엔진",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 05:25",
+  "meta": {
+    "wics": "조선",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "HD현대마린엔진은 선박용 주기엔진(Main Engine)과 엔진부품을 생산하는 기업으로, 디젤엔진과 이중연료 엔진을 중심으로 글로벌 선박용 저속엔진(2ST) 시장에서 주요 메이커로 자리하고 있습니다. 터보차저와 2행정 크랭크샤프트 등 핵심 부품을 자체 제작하고 전세계 메이저 조선소에 공급하는 점이 특징입니다.",
+    "business_model": "사업부문별 영업수익 구성은 선박엔진 78.9%, 엔진부품 20.8%, 기타사업 0.2%로 선박엔진이 핵심 수익원이며, 엔진부품과 터보차저·크랭크샤프트 등 부품 판매 및 A/S(애프터서비스)가 보완적인 수익원을 구성합니다.",
+    "main_customers": "선박엔진 — 전세계 메이저 조선소 / 엔진부품 — 다양한 고객(부품 및 서비스(A/S) 수요) / 기타사업 — 기타 고객",
+    "price_factors": [
+      {
+        "factor": "환경규제",
+        "detail": "IMO 등 국제 환경규제 강화는 친환경 연료 엔진 수요를 늘려 제품 수요와 실적에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "조선업 경기",
+        "detail": "글로벌 조선업 호황·불황에 따라 선박 발주가 변동하여 수주와 매출에 큰 영향을 미칩니다."
+      },
+      {
+        "factor": "환율·원자재",
+        "detail": "환율과 유가·원자재 가격 변동은 수익성(원가·수출입 환산액)에 영향을 미칩니다."
+      },
+      {
+        "factor": "친환경 연료전환",
+        "detail": "LNG·LPG 등 이중연료 선박 발주 증가 시 관련 엔진 비중 확대가 실적에 긍정적 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황 (나. 주요 사업 내용)",
+        "evidence_text": "당사는 디젤엔진, LNG가스엔진(이중연료), LPG가스엔진(이중연료)을 생산하고 있으며, 글로벌 시장에서 선박용 저속엔진의 주요 메이커로서 자리하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "■ 사업부문별 영업수익 구성 (FY2025)  - 선박엔진: 317,670 (78.9%)  - 엔진부품: 83,775 (20.8%)  - 기타사업: 951 (0.2%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "(1) 선박용 주기엔진(Main Engine)",
+        "evidence_text": "전세계 메이저 조선소에 공급하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "다. 시장여건 및 영업개황 (3) 경기변동의 특성",
+        "evidence_text": "선박용 엔진 및 기자재 산업은 세계 조선경기, 환율, 금리, 유가 등 외부 요인에 따라 수주 및 매출 변동폭이 큰 경기민감형 산업입니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4710,
+    "completion_tokens": 3721,
+    "reasoning_tokens": 2880,
+    "output_tokens": 841
+  },
+  "warnings": []
+}

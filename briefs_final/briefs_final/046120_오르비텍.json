@@ -1,0 +1,72 @@
+{
+  "stock_code": "046120",
+  "corp_name": "오르비텍",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 02:09",
+  "meta": {
+    "wics": "에너지장비및서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "오르비텍은 원자력·방사선 관리 용역과 항공기 정밀부품 제조를 주력으로 하는 에너지장비·서비스 기업입니다. 원자력발전소의 방사선관리, 비파괴검사(검사방법) 등 기술서비스를 중심으로 특허·분석센터 등을 통해 원전해체 등 신규시장 대비를 병행하고 있습니다.",
+    "business_model": "주요 수익원은 원자력 관련 용역과 항공 부품 제조로 구성되며, 사업부문별 매출 비중은 방사선관리용역 및 규제해제가 46.3%, 원자력발전소 가동전·중검사(비파괴검사) 15.3%, 항공기 부품 생산 및 판매 38.4%를 차지합니다. 또한 지적재산권과 분석센터 기반의 기술서비스를 바탕으로 원전해체·방폐물관리 등 관련 시장 진출을 준비하고 있으며, 일부는 관계기업 지분 보유를 통한 사업다각화도 병행하고 있습니다.",
+    "main_customers": "원자력·방사선 서비스 — 원자력발전소 운영기관·원자력 관련 공공기관(한국수력원자력, 한국원자력환경공단 등) / ISI(비파괴검사) — 원자력발전소의 정비·검사 발주처 / 항공사업 — 항공기 제조사(보잉, Spirit Aerosystems) 및 방산업체(KAI)",
+    "price_factors": [
+      {
+        "factor": "원전 수요",
+        "detail": "원자로 신설·해체 수요 증가 시 방사선관리·해체용역 매출 확대 가능성이 커집니다."
+      },
+      {
+        "factor": "진입장벽",
+        "detail": "엄격한 기술·자격요건(예: 한수원 Q등급)으로 경쟁 진입이 제한되어 안정적 수익에 기여합니다."
+      },
+      {
+        "factor": "지적재산권",
+        "detail": "특허·저작권 보유는 기술 보호 및 경쟁사 견제에 도움되어 장기적 기술우위를 지원합니다."
+      },
+      {
+        "factor": "수주 변동성",
+        "detail": "프로젝트 종료·수주 감소는 ISI 등 부문 실적에 단기적 변동을 유발할 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황 > [사업부문별 매출 구성]",
+        "evidence_text": "방사선관리용역 및 규제해제 2007.03.01 26,788(46.3%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황 > [사업부문별 매출 구성]",
+        "evidence_text": "원자력발전소 가동전,중검사용역/비파괴 검사 기술용역 2009.07.15 8,865(15.3%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황 > [사업부문별 매출 구성]",
+        "evidence_text": "항공기 부품 생산 및 판매 2013.04.01 22,256(38.4%)"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황 > 가. 지적재산권 등",
+        "evidence_text": "지적재산권 등 대부분 방사선관리/원전해체/방폐물관리/규제해제 등에 관한 특허"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황 > 다. 회사의 영업에 대한 구체적인 사항",
+        "evidence_text": "2021년 12월 한국원자력환경공단에서 발주한 RI폐기물 관리시설 해체용역을 수주"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5487,
+    "completion_tokens": 5065,
+    "reasoning_tokens": 4096,
+    "output_tokens": 969
+  },
+  "warnings": []
+}

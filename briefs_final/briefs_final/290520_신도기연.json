@@ -1,0 +1,71 @@
+{
+  "stock_code": "290520",
+  "corp_name": "신도기연",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 15:14",
+  "meta": {
+    "wics": "디스플레이장비및부품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "신도기연은 디스플레이 제조용 합착기·탈포기 등 장비를 개발·제작하여 국내외 디스플레이 패널 업체에 판매하는 기계장비 기업입니다. 2025년 연결기준 매출액은 31,923백만원이며, 수출 비중이 높아(수출 80.9%) 해외 고객 비중이 큽니다.",
+    "business_model": "핵심 제품은 합착기(Laminator), 탈포기(Autoclave/STA), 본더 및 UV몰딩 등 디스플레이 후공정 장비이며, 제품·서비스별 매출 비중은 합착기 13.46%, 기타제품 81.70%, 장비개조·용역 및 부품판매 4.84%로 구성됩니다. 보유한 합착용 열진공 기술을 바탕으로 수소연료전지 제조장비·스마트윈도 등으로 제품군을 다각화하고 있습니다.",
+    "main_customers": "합착기·탈포기 — 국내외 디스플레이패널 제조회사(국내 S사, L사 / 해외 CSOT) / 기타제품·부품 — 디스플레이 모듈·후공정 관련 제조기업",
+    "price_factors": [
+      {
+        "factor": "중국 경쟁력",
+        "detail": "중국 패널업체의 점유율 확대와 국산화 정책으로 국내 대상 수주가 축소되면 매출·수주에 직접적 영향을 줍니다."
+      },
+      {
+        "factor": "OLED 전환",
+        "detail": "Rigid→Flexible OLED 전환으로 합착·탈포 공정의 기술요구가 달라져 장비 수요와 판가에 영향을 미칩니다."
+      },
+      {
+        "factor": "수출 의존도",
+        "detail": "수출 비중이 약 80.9%로 높아 환율·무역정책 변화에 실적 변동성이 큽니다."
+      },
+      {
+        "factor": "주문생산 구조",
+        "detail": "주문생산 방식으로 제품 사양별로 가격이 달라져 계약조건·거래처별 수주 변동이 수익성에 직결됩니다."
+      },
+      {
+        "factor": "제품다변화",
+        "detail": "수소연료전지·스마트윈도 등 신사업 성공 여부가 중장기 성장 동력을 좌우합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "당사는 디스플레이제조장비 등을 개발하여 국내외 기업에 제작 판매하는 사업을 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황",
+        "evidence_text": "제26기(2025년말) 연결재무제표 기준 매출액은 31,923백만원이며 제품구분별로 매출액은 합착기(Laminator) 4,299백만원(매출비율 13.46%), 기타제품 26,080백만원(매출비율 81.70%), 장비개조 용역 및 유지보수 부품 1,544백만원(매출비율 4.84%)입니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 2. 주요 제품 및 서비스",
+        "evidence_text": "주요 고객사는 국내 S사, L사, 해외 CSOT 등 국내외 디스플레이패널 제조회사입니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "다. 시장여건 및 영업의 개황 등[업계의 현황]",
+        "evidence_text": "2020년 국내 디스플레이 패널 업체 점유율은 87.3%였으나 2025년 3분기에는 점유율이 67.5%로 하락하였습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4836,
+    "completion_tokens": 3821,
+    "reasoning_tokens": 2880,
+    "output_tokens": 941
+  },
+  "warnings": []
+}

@@ -1,0 +1,81 @@
+{
+  "stock_code": "033290",
+  "corp_name": "로젠",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 12:48",
+  "meta": {
+    "wics": "항공화물운송과물류",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "로젠은 지배회사인 로젠 주식회사와 그 종속회사가 전자사업, 패션사업, 운송사업을 영위하는 복합기업으로, 연결 기준 FY2025 매출액은 7,932억원입니다. 세 사업 중 운송사업의 비중이 크며(매출 비중 90.2%), 전자부품(콘덴서) 제조와 패션잡화 유통을 함께 운영하고 있습니다.",
+    "business_model": "핵심 사업은 전자사업(콘덴서 제조), 패션사업(가방·잡화 판매), 운송사업(소형화물 택배 집하·배송)으로 구성되며, 사업부문별 영업수익 구성은 전자사업 6.6%, 패션사업 3.3%, 운송사업 90.2%입니다. 전자사업은 자체 제조공장(국내·중국)을 통해 콘덴서를 생산(연간 6~7억개 수준)하여 가전·자동차 부품사에 공급하고, 운송사업은 택배 운임에 따른 수수료가 주요 수익원입니다.",
+    "main_customers": "전자사업 — 글로벌 가전·부품사(예: 삼성전자, LG전자, 현대모비스 등) / 패션사업 — 가방·잡화 소비자(일반 소비자) / 운송사업 — 온라인쇼핑몰·화주사 및 일반 소비자",
+    "price_factors": [
+      {
+        "factor": "온라인 쇼핑",
+        "detail": "온라인 쇼핑 시장의 성장에 따른 택배 물동량 증가는 운송사업 매출에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "원자재·환율",
+        "detail": "전자사업의 주요 원재료(Film·Wire) 가격과 환율 변동은 원가에 영향을 주어 전자부문 실적 변동성을 키웁니다."
+      },
+      {
+        "factor": "운임구조",
+        "detail": "운송사업은 택배 운임에 대한 수수료 구조와 고객과의 계약 형태에 따라 수익성이 달라집니다."
+      },
+      {
+        "factor": "비용 상승",
+        "detail": "인건비 상승 및 유가 변동 등 운송 부문의 비용 증가가 영업이익률에 부담을 줄 수 있습니다."
+      },
+      {
+        "factor": "전자부품 수요",
+        "detail": "친환경 모빌리티(EV 등)와 신재생에너지 확대로 필름 콘덴서 수요가 증가하면 전자사업 실적에 긍정적 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "지배회사인 로젠 주식회사와 그 종속회사가 영위하는 사업은 크게 전자사업, 패션사업, 운송사업으로 구분할 수 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "전자사업: 52,048 (6.6%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "패션사업: 25,990 (3.3%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "운송사업: 715,130 (90.2%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황 - 전자사업 부문",
+        "evidence_text": "삼성전자, LG전자 등 Global 가전 리더"
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황",
+        "evidence_text": "두 공장의 생산능력 합계는 콘덴서 제품의 경우 연간 6~7억 개 수준입니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4153,
+    "completion_tokens": 4488,
+    "reasoning_tokens": 3520,
+    "output_tokens": 968
+  },
+  "warnings": []
+}

@@ -1,0 +1,76 @@
+{
+  "stock_code": "044340",
+  "corp_name": "위닉스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 01:54",
+  "meta": {
+    "wics": "가정용기기와용품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "위닉스는 공기청정기·제습기·의류건조기 등 친환경 생활가전 완제품과 냉장고용 열교환기를 제조·판매하는 가전 제조기업입니다. 2025년 연결기준 매출은 3,695억원이며, 내수와 수출이 병행되는 구조로 수출 비중이 큰 편입니다.",
+    "business_model": "핵심 사업은 생활가전 완제품(공기청정기, 제습기, 의류건조기 등)과 냉장고·에어컨용 열교환기(부품) 제조·판매이며, 제품 판매와 부품 공급을 통해 수익을 창출합니다. 사업부문별 영업수익 구성은 국내선 26.5%, 국제선 62.8%, 기타 6.2%, 화물 4.5%로 표기되어 있습니다.",
+    "main_customers": "생활가전 완제품 — 일반 소비자 및 해외 대형 유통업체·온라인 채널 / 열교환기 부품 — 국내외 종합 가전 제조사",
+    "price_factors": [
+      {
+        "factor": "환경·미세먼지",
+        "detail": "미세먼지·환경 이슈 지속은 공기청정기 수요를 지지해 매출에 긍정적 영향을 줍니다."
+      },
+      {
+        "factor": "경기둔화",
+        "detail": "국내 소비심리 약화와 내구재 수요 둔화는 생활가전 판매 성장에 제약을 줄 수 있습니다."
+      },
+      {
+        "factor": "수출의존",
+        "detail": "미국 등 해외 유통채널 확대는 수출 비중 확대와 실적에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "생산효율",
+        "detail": "태국 현지 공장 등 해외 생산으로 생산효율·가격경쟁력이 개선되면 원가구조에 유리합니다."
+      },
+      {
+        "factor": "계절성",
+        "detail": "제습기·난방기·건조기 등 계절성 제품이 많아 계절별 매출 변동성이 존재합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "냉장고용 열교환기를 제조, 판매하고 있습니다."
+      },
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "2025년 연결기준 매출 3,695억원"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "- 국내선: 4,035 (26.5%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "2018년부터 미국 대형 유통업체에 공기청정기를 공급하고 있으며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "영업 현황",
+        "evidence_text": "공기청정기 제품군은 생활 필수 가전으로 자리잡고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4763,
+    "completion_tokens": 5325,
+    "reasoning_tokens": 4544,
+    "output_tokens": 781
+  },
+  "warnings": []
+}

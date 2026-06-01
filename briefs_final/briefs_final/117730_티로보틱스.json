@@ -1,0 +1,91 @@
+{
+  "stock_code": "117730",
+  "corp_name": "티로보틱스",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:18",
+  "meta": {
+    "wics": "기계",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "티로보틱스는 자율주행 물류로봇과 반도체·디스플레이용 진공로봇, 진공이송모듈을 개발·제조하는 기계·장비 기업입니다. 2004년 300mm 웨이퍼 이송용 진공로봇 개발·공급을 시작했고, 2023년부터는 자율주행 물류로봇을 양산하고 있습니다.",
+    "business_model": "FY2025 사업부문별 영업수익은 진공로봇 86.2%, 자율주행 물류로봇 13.8%로 구성됩니다. 진공로봇은 반도체·디스플레이 생산라인의 고정밀 이송 장비이고, 자율주행 물류로봇은 AGV(무인운송차량)보다 자율성이 높은 AMR(자율이동로봇) 기반 물류 자동화 장비로 수익을 만듭니다. 고객 주문에 따라 규격과 사양이 달라지고, 그에 맞춰 원재료도 발주되는 프로젝트형 수주·납품 구조입니다.",
+    "main_customers": "진공로봇 — 국내외 반도체·디스플레이 장비사 및 생산업체 / 자율주행 물류로봇 — 물류 자동화 수요 기업, 스마트팩토리 도입 기업",
+    "price_factors": [
+      {
+        "factor": "설비투자",
+        "detail": "디스플레이·반도체 업황에 따른 설비투자 증감이 진공로봇 수요와 매출 변동에 직접 영향을 줍니다."
+      },
+      {
+        "factor": "업황사이클",
+        "detail": "글로벌 경기 둔화나 업황 사이클 하락으로 투자축소가 발생하면 관련 장비 매출이 줄어들 수 있습니다."
+      },
+      {
+        "factor": "미세공정",
+        "detail": "반도체 미세공정 전환과 첨단 패키징 확대는 고정밀 이송 장비 수요를 지지하는 요인입니다."
+      },
+      {
+        "factor": "물류자동화",
+        "detail": "이커머스 성장과 인건비 상승으로 물류 자동화 수요가 늘면 자율주행 물류로봇 사업에 유리하게 작용합니다."
+      },
+      {
+        "factor": "환율변동",
+        "detail": "해외 매출과 해외 조달 원재료가 있어 환율 변동이 영업손익과 평가손익에 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 자율주행 물류로봇과 반도체, 디스플레이용 진공로봇 및 진공이송모듈을 개발, 제조하는 기업입니다."
+      },
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "주요 생산 품목인 자율주행 물류로봇은 2023년부터 양산하고 있으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "진공로봇: 33,664 (86.2%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "자율주행 물류로봇: 4,244 (13.8%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "국내 및 해외 디스플레이 생산 업체에 공급하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "디스플레이 산업의 설비투자에 직접적인 영향을 받는 특성을"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "반도체 미세공정 전환, 첨단 패키징 확대 및 디스플레이 기술 고도화"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "해외 매출 및 해외 조달 원재료 및 부품이 있어 환율위험에 노출"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4906,
+    "completion_tokens": 1095,
+    "reasoning_tokens": 0,
+    "output_tokens": 1095
+  },
+  "warnings": []
+}

@@ -1,0 +1,71 @@
+{
+  "stock_code": "047310",
+  "corp_name": "파워로직스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 02:21",
+  "meta": {
+    "wics": "핸드셋",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "파워로직스는 2차전지 보호회로(PCM) 및 중대형 배터리팩을 포함한 ES(Energy Solution) 사업과 스마트폰·전장용 카메라모듈(CM)을 주력으로 하는 전기·전자 기업입니다. 연결기준 누적 매출액은 6,865억원이며, 수출 비중이 전체 매출액의 78%에 달합니다.",
+    "business_model": "사업부문별 매출은 카메라모듈(CM)이 71.3%로 가장 큰 비중을 차지하고, PACK(배터리팩)은 17.6%, SM(스마트모듈)은 6.5%, PCM(보호회로)은 2.3%입니다. 카메라모듈은 스마트폰용 보급형부터 프리미엄 고화소 제품까지 포트폴리오를 보유하며, ES 부문은 2차전지 보호회로 기술 기반으로 중대형 배터리팩(x-EV·ESS) 사업을 확대하고 있습니다.",
+    "main_customers": "CM — 글로벌 스마트폰 제조사(세계 최고수준 스마트폰 업체의 1차 협력사), 전장업체 / ES(PACK·PCM·SM) — 국내 주요 Cell업체 및 x-EV·ESS 관련 고객(S사·L사 등 Major 고객사)",
+    "price_factors": [
+      {
+        "factor": "스마트폰 수요",
+        "detail": "스마트폰 시장의 성장 둔화(성숙기 진입, 수요 정체)는 카메라모듈 수요·실적에 직접적 영향을 미칩니다."
+      },
+      {
+        "factor": "2차전지 과잉공급",
+        "detail": "2차전지 산업의 과잉공급과 주요 Cell업체의 실적 악화는 배터리 관련 매출과 수익성에 부정적 영향을 줍니다."
+      },
+      {
+        "factor": "글로벌 경쟁",
+        "detail": "저렴한 인건비·정부 지원을 등에 업은 중국기업의 공세와 보호무역 확산은 가격경쟁과 수주 환경을 악화시킵니다."
+      },
+      {
+        "factor": "기술·제품 고도화",
+        "detail": "카메라의 고화소·멀티카메라·자동차용 수요 확대는 고부가가치 제품 비중과 이익률에 긍정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "공정·생산 효율",
+        "detail": "생산 거점 통합(베트남) 및 자동화는 원가구조 개선과 마진 회복에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 영업 현황",
+        "evidence_text": "수출 비중은 전체 매출액의 78%에 달합니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "카메라모듈 부문이 71%, 이차전지 보호회로 및 배터리팩 부문이 26%를 차지하며"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 영업 현황",
+        "evidence_text": "현재는 세계 최고수준 스마트폰 업체의 1차 협력사로서"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "중국기업의 공세와 함께 해외시장의 보호무역 추세"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5536,
+    "completion_tokens": 4846,
+    "reasoning_tokens": 3968,
+    "output_tokens": 878
+  },
+  "warnings": []
+}

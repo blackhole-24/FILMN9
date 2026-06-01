@@ -1,0 +1,72 @@
+{
+  "stock_code": "070300",
+  "corp_name": "엑스큐어",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 05:18",
+  "meta": {
+    "wics": "핸드셋",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "엑스큐어는 주력으로 스마트카드 사업을 영위하는 IT 서비스 기업으로, 카드운영체제(COS) 등 임베디드 보안 소프트웨어 기술을 보유하고 있습니다. 스마트카드와 관련 솔루션을 바탕으로 국내 및 해외 시장에 진입하여 성장 중입니다.",
+    "business_model": "핵심 사업은 DX 사업으로 스마트카드(USIM, 금융카드 등) 관련 제품과 보안 솔루션을 공급하며, 2025 회계연도 기준 DX 사업이 영업수익의 84.6%를 차지합니다; 자산운용 부문은 0.2%입니다. 카드운영체제(COS: Chip Operating System) 등 원천기술 보유와 특허 관리를 통해 보안 플랫폼 중심의 매출을 창출합니다.",
+    "main_customers": "DX 사업 — 통신사·금융기관·전자상거래·교통·의료보건·유통·공공민원 분야 기업 / 자산운용 — 자료에 고객 유형 명시 없음",
+    "price_factors": [
+      {
+        "factor": "지적재산",
+        "detail": "특허 보유와 분쟁 가능성은 기술 경쟁력과 비용(분쟁·대응비용)에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "보안수요",
+        "detail": "IoT·5G·eSIM 등 보안 강화 수요 증가는 보안 플랫폼 및 솔루션 수요 확대를 통해 실적에 긍정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "제품믹스",
+        "detail": "USIM·금융카드 등 제품별 판매수량과 단가 차이로 인해 매출 단가와 수익성이 변동합니다."
+      },
+      {
+        "factor": "해외진출",
+        "detail": "국내외 시장 진입 성과와 경쟁 환경에 따라 매출 성장 폭과 수익성에 차이가 발생할 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 사업의 개요",
+        "evidence_text": "당사는 주 사업으로 스마트카드 사업을 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "DX 사업: 15,687 (84.6%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "자산운용: 40 (0.2%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "나. 산업분석",
+        "evidence_text": "당사의 사업분야는 통신, 금융, 전자상거래, 교통 등을 포함하는 스마트카드 업계에 속합니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "(3) 지적 자산 포트폴리오와 특허 전략",
+        "evidence_text": "현재 국내 24건의 특허를 보유하고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3633,
+    "completion_tokens": 3580,
+    "reasoning_tokens": 2816,
+    "output_tokens": 764
+  },
+  "warnings": []
+}

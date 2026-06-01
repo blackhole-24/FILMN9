@@ -1,0 +1,86 @@
+{
+  "stock_code": "290740",
+  "corp_name": "액트로",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 15:20",
+  "meta": {
+    "wics": "핸드셋",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "액트로는 스마트폰 카메라 모듈용 핵심 액추에이터(오토포커스(AF), OIS(광학식 손떨림 보정), Folded Zoom)를 전략거래선의 1차 Vendor로 공급하는 전기·전자(핸드셋) 기업입니다. 2019년 이후 Folded Zoom Actuator 공정자동화를 완성하고 생산·공급을 확대하며 관련 시장에서 선도적 위치를 확보하고 있습니다.",
+    "business_model": "사업부문별 영업수익은 제품(카메라 모듈 부품)이 91.9%, 자동화설비가 6.6%, 성능검사기가 1.5%를 차지합니다. 제품부문은 AF·OIS·Folded Zoom Actuator 중심의 B2B(기업간거래) 매출이 주력이며, 자동화설비는 전공정 자동화 설비의 내재화를 기반으로 외판을 확대하고 있습니다. 또한 2차전지 관련 설비·테라헤르츠파 검사기 등 신규사업을 추진하고 있습니다(테라헤르츠파 검사기: 시료 두께·물성 정밀측정 목적).",
+    "main_customers": "제품 — 스마트폰 제조사(전략거래선의 1차 Vendor) / 자동화설비 — 카메라 모듈 제조업체·생산현장 사용자 / 성능검사기 — 반도체 후공정·2차전지 관련 제조업체(진입 대상)",
+    "price_factors": [
+      {
+        "factor": "부품 단가경쟁",
+        "detail": "대형 단말기 업체의 가격인하 정책과 비딩(bidding)으로 모듈 단가가 지속 하락하면 제품 매출액과 마진에 하방 압력으로 작용합니다."
+      },
+      {
+        "factor": "스마트폰 수요",
+        "detail": "글로벌 스마트폰 판매량 변동은 카메라 모듈용 부품의 생산량과 직접 연결되어 실적 변동성에 영향을 미칩니다."
+      },
+      {
+        "factor": "기술확산",
+        "detail": "OIS·Folded Zoom 등 고사양 기능이 중저가 모델로 확산되면 관련 부품의 수요가 확대되어 실적에 긍정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "제품수명주기",
+        "detail": "스마트폰 교체주기가 연장되면 단기 수요 둔화 요인이 될 수 있으나, 기능 차별화 제품의 출시는 수요 회복으로 이어질 수 있습니다."
+      },
+      {
+        "factor": "생산자동화",
+        "detail": "공정 자동화로 생산성이 향상되면 원가 개선과 공급 능력 확대를 기대할 수 있으나, 동시기에 가격경쟁 압력이 강화될 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "당사는 전략거래선의 1차 Vendor로서"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "제품: 225,074 (91.9%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "자동화설비: 16,125 (6.6%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "성능검사기: 3,740 (1.5%)"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나. 주요 제품 등의 가격변동추이",
+        "evidence_text": "이는 모듈 단가의 지속적인 하락 원인으로 작용합니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "당사는 업계에서 유일하게 전공정의 자동화 설비 내재화 시스템을 구축하였으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황",
+        "evidence_text": "2차전지 관련 사업 및 반도체 패키징 검사기 관련 신규사업을 추진 중에 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5361,
+    "completion_tokens": 5201,
+    "reasoning_tokens": 4160,
+    "output_tokens": 1041
+  },
+  "warnings": []
+}

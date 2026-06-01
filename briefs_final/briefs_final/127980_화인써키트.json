@@ -1,0 +1,76 @@
+{
+  "stock_code": "127980",
+  "corp_name": "화인써키트",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:19",
+  "meta": {
+    "wics": "전자장비와기기",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "화인써키트는 전기·전자 업종의 전자장비와기기 기업으로, PCB(인쇄회로기판) 산업에서 Rigid PCB를 주력으로 생산하고 있습니다. 회사는 냉장고, 세탁기, 에어컨 등 일반 가전용 PCB를 중심으로 사업을 이어가고 있으며, 지속적인 기술개발과 생산 공정 개선을 강조하고 있습니다.",
+    "business_model": "화인써키트의 주요 사업은 가전제품에 들어가는 Rigid PCB(경성 인쇄회로기판) 생산입니다. 사업부문별 영업수익 구성에서는 기타가 100%를 차지하며, FY2025 기준 기타 매출은 1,282백만원(2.0%)으로 공시되어 있습니다. PCB 산업은 고객 주문에 따라 제품 개발, 회로설계, 사양이 정해지는 주문생산 방식의 장치산업(설비와 규모가 경쟁력에 중요한 산업)입니다.",
+    "main_customers": "Rigid PCB — 냉장고·세탁기·에어컨 등 일반 가전 관련 고객사 / 기타 — 유앤씨인터내셔널의 덴탈 지르코니아 블록 제작 및 판매 관련 고객",
+    "price_factors": [
+      {
+        "factor": "가전수요",
+        "detail": "냉장고, 세탁기, 에어컨 등 전방 가전산업의 수요가 늘면 주력 PCB 수요도 함께 늘어납니다."
+      },
+      {
+        "factor": "구리가격",
+        "detail": "원재료인 동판이 중국 등 해외에서 공급되고 CU(동) 가격 변동에 민감해 원가에 영향을 줍니다."
+      },
+      {
+        "factor": "기술경쟁",
+        "detail": "글로벌 PCB 시장의 가격 경쟁이 심화되면 생산성 향상과 기술개발 여부가 실적에 중요하게 작용합니다."
+      },
+      {
+        "factor": "규제환경",
+        "detail": "환경 규제 강화와 고객사의 품질·납기 요구 수준 상승은 제조 원가와 운영 부담에 영향을 줍니다."
+      },
+      {
+        "factor": "첨단산업",
+        "detail": "AI(인공지능), IoT(사물인터넷), 데이터센터, 자동차 전장 등 첨단 산업 성장도 PCB 수요 확대 요인입니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 업계의 현황",
+        "evidence_text": "당사는 Rigid PCB를 주력으로 냉장고, 세탁기, 에어컨 등 일반 가전용 PCB를 생산하고 있으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "■ 사업부문별 영업수익 구성 (FY2025)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "기타: 1,282 (2.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 업계의 현황",
+        "evidence_text": "냉장고, 세탁기, 에어컨 등 일반 가전용 PCB를 생산"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 업계의 현황",
+        "evidence_text": "자재의 특성 상 CU(동)의 가격 변동에 민감한 구조입니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4540,
+    "completion_tokens": 834,
+    "reasoning_tokens": 0,
+    "output_tokens": 834
+  },
+  "warnings": []
+}

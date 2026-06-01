@@ -1,0 +1,73 @@
+{
+  "stock_code": "124560",
+  "corp_name": "태웅로직스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 09:27",
+  "meta": {
+    "wics": "해운사",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "태웅로직스는 종합 물류 서비스를 제공하는 해운·물류 회사로, 해상운송에 경쟁력을 갖추고 국내외 거래처를 대상으로 운송 서비스를 제공합니다. 오랜 기간 대기업 고객사와의 거래를 바탕으로 해외 및 국내 물류 네트워크를 운영하고 있습니다.",
+    "business_model": "단일 사업인 종합물류서비스(해상운송 중심)를 제공하며, 매출은 해외 거래처와 국내 거래처로 구분됩니다. 종속회사 매출을 제외하면 대부분이 직매출(직접 판매) 형태이고, 화주와는 3~6개월 단위로 운임계약을 체결하며 선사 네트워크를 통해 운임 및 선복을 확보합니다.",
+    "main_customers": "종합물류서비스(해상운송) — 대기업 고객사(제조·유통업 등, 직매출 중심)",
+    "price_factors": [
+      {
+        "factor": "국제운임지수",
+        "detail": "국제운임지수 변동은 계약가격 추세에 직접 영향을 주어 매출 및 원가에 영향을 미칩니다."
+      },
+      {
+        "factor": "화주 확보",
+        "detail": "고정 거래처 보유 여부가 물동량 안정성과 수익성에 중요한 영향을 줍니다."
+      },
+      {
+        "factor": "세계경기",
+        "detail": "글로벌 경기·교역량 변화에 따라 컨테이너 등 해상물동량이 변동되어 매출에 영향이 발생합니다."
+      },
+      {
+        "factor": "경쟁 심화",
+        "detail": "물류업 내 경쟁 심화 시 서비스 수수료 하락 등으로 개별사의 수익성이 악화될 수 있습니다."
+      },
+      {
+        "factor": "정책·지정학",
+        "detail": "관세·무역정책 변화 및 지정학적 분쟁 확대는 물류시장 변동성을 키워 실적에 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "나. 주요 서비스 및 실적",
+        "evidence_text": "당사는 종합 물류 서비스를 제공하며,"
+      },
+      {
+        "field": "business_model",
+        "source_section": "나. 연결 영업실적 (1) 사업부문별 매출",
+        "evidence_text": "당사는 종합물류서비스를 제공는 단일 사업으로,"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "다. 판매경로 등",
+        "evidence_text": "당사는 20여 년간 대기업 고객사들을 주요 매출처로 확보하였습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나. 주요 제품(서비스) 등의 가격변동추이",
+        "evidence_text": "국제운임지수의 변동에 따라 운송건에 대한 계약가격이 추세적으로 변동하므로"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 5067,
+    "completion_tokens": 4230,
+    "reasoning_tokens": 3520,
+    "output_tokens": 710
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "stock_code": "213420",
+  "corp_name": "덕산네오룩스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 12:06",
+  "meta": {
+    "wics": "디스플레이장비및부품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "덕산네오룩스는 OLED 발광 소재를 주력으로 양산·납품하는 전기·전자업체입니다. HTL(정공수송층), Red Host(발광소재), Red Prime·Green Prime(발광보조층) 등 발광층 관련 소재와 비발광 소재인 Black PDL(Pixel Define Layer)을 개발·양산하고 있으며, 2023년 CP사업부를 편입하여 비발광 전자부품 소재 사업도 확대했습니다.",
+    "business_model": "주요 수익원은 OLED 발광층 및 보조층 소재의 공급과 CP(Conductive Particle Ball) 등 비발광·연관 소재 판매이며, FY2025 기준 사업부문별 영업수익 구성은 덕산네오룩스(주) 58.8%, 현대중공업터보기계 41.2%로 구성되어 있습니다. 주요 제품군은 HTL(Hole Transport Layer), Red Host, Red Prime·Green Prime, Black PDL 등이며, ACF 관련 CP 제품도 양산 공급합니다.",
+    "main_customers": "OLED 소재 — 디스플레이 패널 제조사·디바이스(스마트폰·태블릿 등) 제조사 / CP(비발광·연결소재) — ACF를 활용하는 디스플레이 모듈·연결 부품 공급사",
+    "price_factors": [
+      {
+        "factor": "OLED 적용 확대",
+        "detail": "태블릿·노트북·TV 등으로 OLED 전환이 확대되면 발광·보조 소재 수요가 증가하여 실적에 긍정적 영향을 미칩니다."
+      },
+      {
+        "factor": "스마트폰 수요",
+        "detail": "스마트폰 판매 침체 시 OLED 패널 수요 정체로 회사 실적이 영향을 받을 수 있습니다."
+      },
+      {
+        "factor": "ACF 시장 동향",
+        "detail": "CP는 ACF의 소재로 ACF 시장 상황 변화가 CP사업부 실적에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "글로벌 패널 투자",
+        "detail": "국내외 디스플레이 패널 업체의 OLED 양산 설비 확대는 유기재료 수요 증가로 연결되어 매출 기회로 작용합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "당사의 주력사업부분은 OLED 소재입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "덕산네오룩스(주): 202,284 (58.8%)"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4630,
+    "completion_tokens": 5840,
+    "reasoning_tokens": 5184,
+    "output_tokens": 656
+  },
+  "warnings": []
+}

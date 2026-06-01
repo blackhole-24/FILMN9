@@ -1,0 +1,66 @@
+{
+  "stock_code": "357880",
+  "corp_name": "SKAI",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 17:39",
+  "meta": {
+    "wics": "IT서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "스카이월드와이드는 데이터베이스 기술과 온톨로지 기술을 기반으로 조직의 AX(AI전환) 솔루션을 공급하는 기업으로, AI 솔루션·DB(그래프/관계형) 솔루션·HW 인프라의 3개 영역에서 사업을 영위하고 있습니다. 온톨로지 기반 지식 그래프와 자체 AI 에이전트 '온토비아(ONTOVIA)'를 통해 조직 내부 데이터를 구조화하고 AI를 업무에 결합하는 것을 핵심 역량으로 삼고 있습니다.",
+    "business_model": "주요 수익원은 솔루션 부문(소프트웨어 라이선스·구축·유지보수)과 인프라 부문(장비 공급·설치·유지보수)으로 구성되며, FY2025 기준 솔루션 부문이 49.0%, 인프라 부문이 51.0%의 매출 비중을 차지합니다. 솔루션 부문은 온토비아 기반의 AI 업무지원 및 그래프 DB(데이터베이스) 기술을, 인프라 부문은 파트너사(LENOVO)와의 협력을 통한 고사양 장비 공급을 결합해 통합 SW/HW 제공을 목표로 합니다.",
+    "main_customers": "AI 솔루션 — 민간/공공기관 / DB 솔루션 — 금융·공공·제조·IT·엔터테인먼트 등 각 산업의 기관·기업 / HW 인프라 — 국방·조선·전자 등 국내 주요 민간·공기업",
+    "price_factors": [
+      {
+        "factor": "데이터규제",
+        "detail": "개인정보보호법 등 데이터 관련 법률(데이터 3법) 변화는 솔루션 제공 범위와 도입 속도에 직접적 영향을 미칩니다."
+      },
+      {
+        "factor": "공공수요",
+        "detail": "공공기관 도입 비중이 높아 공공 예산·사업 일정 변화가 매출 변동성으로 이어질 수 있습니다."
+      },
+      {
+        "factor": "HW 계약",
+        "detail": "인프라 부문 매출 비중이 커서 LENOVO 등 장비 공급 파트너십과 대형 납품 계약의 확보·유지 여부가 실적에 영향합니다."
+      },
+      {
+        "factor": "기술경쟁력",
+        "detail": "국내 유일의 그래프 DB 전문 기술과 지식그래프 기반 GraphRAG 적용 등 기술 우위는 수주 경쟁력과 마진에 영향을 줍니다."
+      },
+      {
+        "factor": "AI 신뢰성",
+        "detail": "LLM(대형언어모델) 연동 시 GraphRAG·온톨로지로 환각(허위응답) 감소 성과는 기업 솔루션의 채택 확대에 긍정적 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "1. 사업의 개요",
+        "evidence_text": "스카이월드와이드는 데이터베이스 기술과 온톨로지 기술을 기반으로 조직의 AX(AI전환) 솔루션을 공급하는 기업입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "2. 회사의 현황 > 가. 영업 개황",
+        "evidence_text": "당기 말 매출은 솔루션 부문이 77 억원( 49%), 인프라 부문이 79억원( 51%) 입니다 ."
+      },
+      {
+        "field": "business_model",
+        "source_section": "1. 사업의 개요 > 나. DB 솔루션 사업",
+        "evidence_text": "당사는 국내 유일의 그래프 데이터베이스 전문 기술을 보유"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3299,
+    "completion_tokens": 3910,
+    "reasoning_tokens": 3008,
+    "output_tokens": 902
+  },
+  "warnings": []
+}

@@ -1,0 +1,87 @@
+{
+  "stock_code": "145020",
+  "corp_name": "휴젤",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 10:18",
+  "meta": {
+    "wics": "생물공학",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "휴젤은 A형 보툴리눔 톡신 기반의 바이오의약품을 연구개발·제조하고, 보툴렉스(보툴리눔 톡신)와 더채움(HA필러) 등의 제품을 판매하는 국내 제약·바이오 기업입니다. 국내뿐 아니라 미국·유럽·중국 등 다수 국가에서 품목 허가를 받아 글로벌 매출을 확대하고 있으며 생산 CAPA(생산능력) 확장을 위해 공장 증설을 완료했습니다.",
+    "business_model": "주력 제품군별로 FY2025 영업수익 구성은 Toxin이 54.2%로 가장 큰 비중을 차지하고, Filler 30.6%, Cosmetics 13.2%, Medical Device 1.3%, 기타 0.6%로 구성되어 있습니다 (Toxin·Filler 중심의 제품 판매와 아크로스 통한 필러 제조가 핵심 수익원입니다).",
+    "main_customers": "Toxin/Filler/Cosmetics — 내부 영업마케팅본부 및 자회사·종속회사를 통한 의료·미용 관련 판매 / 해외판매 — 수출국 내 법인 및 현지 제약회사와의 협력",
+    "price_factors": [
+      {
+        "factor": "허가(규제)",
+        "detail": "FDA·국가별 품목허가 확대는 해외 출하와 매출에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "비수술 수요",
+        "detail": "보툴리눔 톡신·HA필러가 비수술적 시술의 핵심 영역인 만큼 해당 시장 수요 변화가 실적에 영향합니다."
+      },
+      {
+        "factor": "생산능력",
+        "detail": "생산 CAPA(공장 증설) 확장은 공급과 출하 확대에 중요한 변수입니다."
+      },
+      {
+        "factor": "해외거래선",
+        "detail": "해외 현지 법인 및 유수 제약사와의 협력 관계가 수출 실적에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황 가. 업계의 현황 1) 산업의 특성 가) 사업의 개요",
+        "evidence_text": "A형 보툴리눔 톡신을 활용한 바이오의약품을 연구개발 및 제조하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "Toxin: 230,499 (54.2%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "Filler: 130,232 (30.6%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황 가. 업계의 현황 1) 산업의 특성 가) 사업의 개요",
+        "evidence_text": "㈜아크로스는 HA필러를 연구개발, 제조를 중심 사업으로 영위하는 기업입니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "2024년 2월 미국 식품의약국(FDA)의 허가를 획득하며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "영업 현황 가. 업계의 현황 1) 산업의 특성 나) 산업의 특성 A. 전 세계 미용ㆍ성형 시장",
+        "evidence_text": "보툴리눔 톡신(38.4%), HA 필러(30.9%)"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "거두 B공장 준공이 2022년 7월 말 완료되었습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "수출 국가에 상주하는 법인 또는 현지 유수 전문 제약 회사들과의 협력을 기반으로"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4573,
+    "completion_tokens": 5572,
+    "reasoning_tokens": 4544,
+    "output_tokens": 1028
+  },
+  "warnings": []
+}

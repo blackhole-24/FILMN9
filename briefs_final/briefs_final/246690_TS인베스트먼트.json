@@ -1,0 +1,67 @@
+{
+  "stock_code": "246690",
+  "corp_name": "TS인베스트먼트",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 13:40",
+  "meta": {
+    "wics": "창업투자",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "TS인베스트먼트는 벤처캐피탈(VC)과 사모투자(PE)를 주된 사업으로 영위하는 창업투자회사로, 관련 법령에 따른 등록을 통해 벤처투자조합과 사모펀드(PEF)를 운용합니다. 벤처·중소기업에 대한 지분투자와 PEF 운용을 결합한 투자운용 전문회사입니다.",
+    "business_model": "핵심 사업은 벤처투자조합과 사모펀드(PEF) 운용을 통한 자본투자 및 운용수익 창출이며, FY2025 사업부문별 영업수익에서 '운용'이 56,294(100.0%)으로 집계되어 운용수익이 전부를 차지합니다. 수익원은 관리보수 및 성과보수, 공정가치 평가이익 및 지분법이익 등이 혼재합니다(관리보수·성과보수 약 109억원, 평가이익·처분이익 등 포함).",
+    "main_customers": "벤처투자 — 기술경쟁력은 있으나 자본과 경영능력이 부족한 설립초기 기업 및 중소·벤처기업 / PE(사모펀드) — 특정 소수의 투자자로부터 자금을 모집하는 투자자(출자자) 및 지분 투자 대상 기업",
+    "price_factors": [
+      {
+        "factor": "투자실패 리스크",
+        "detail": "사업실패로 인한 투자금 손실 위험성과 환금성 제약이 실적 및 가치변동성에 직접적 영향을 미칩니다."
+      },
+      {
+        "factor": "운용보수 의존",
+        "detail": "관리보수 및 성과보수(약 109억원 수준)가 수익구조에 큰 비중을 차지해 수수료 수입 변동이 실적에 영향합니다."
+      },
+      {
+        "factor": "공정가치 변동",
+        "detail": "투자조합 내 보유자산의 공정가치 증감이 지분법이익 및 평가이익으로 실적에 즉시 반영됩니다."
+      },
+      {
+        "factor": "법적등록",
+        "detail": "벤처투자회사 및 PEF 운용사로서의 법령·등록 요건 준수 여부가 영업활동과 신인도에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 벤처캐피탈(VC, Venture Capital) 사업과 사모투자(PE, Private Equity) 사업을 영위하는 회사로서, 법령상 설립근거는 (i) 벤처투자 촉진에 관한 법률에 의거 중소벤처기업부에 등록된 벤처투자회사이자 (ii) 자본시장과 금융투자업에 관한 법률(이하 자본시장법)에 의거 금융감독원에 등록된 사모집합투자기구(이하 사모펀드 또는 PEF(Private Equity Fund)) 운용회사입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 (i) 벤처투자조합, (ii) 사모펀드(PEF)를 모두 운용함으로써 벤처캐피탈 사업과 PE 사업을 동시에 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "운용: 56,294 (100.0%)"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "영업수익은 약 196억원이며  당기순이익은 약 70억원을 기록하며 흑자 전환 하였습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 2973,
+    "completion_tokens": 4163,
+    "reasoning_tokens": 3200,
+    "output_tokens": 963
+  },
+  "warnings": []
+}

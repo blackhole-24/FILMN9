@@ -1,0 +1,62 @@
+{
+  "stock_code": "051360",
+  "corp_name": "토비스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 02:50",
+  "meta": {
+    "wics": "디스플레이장비및부품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "토비스는 카지노 Gaming용 및 공공정보디스플레이 등에 사용되는 산업용 모니터와 자동차용 전장 디스플레이 모듈을 주요사업으로 하는 디스플레이 전문기업입니다. 산업용·전장용 디스플레이를 중심으로 B2B(기업간 거래) 고객군을 갖추고 있으며, 최근 전장용 디스플레이를 새로운 성장축으로 확대하고 있습니다.",
+    "business_model": "사업부문별로 전장용 디스플레이가 영업수익의 54.7%로 가장 큰 비중을 차지하고, 토비스(산업용 모니터) 부문이 40.2%, 기타가 5.0%를 차지합니다. 핵심 수익원은 카지노 게임기용 산업용 모니터 및 완성차·전장업체 대상 디스플레이 모듈 공급이며, LED 사이니지 등 신규 제품을 통한 포트폴리오 다변화도 추진하고 있습니다.",
+    "main_customers": "산업용 모니터 — 글로벌 카지노 게임기 업체(ARISTOCRAT, LIGHT & WONDER, IGT, KONAMI) / 전장용 디스플레이 — 글로벌 전장·완성차 관련업체(LG디스플레이, Denso, 현대모비스, 아우모비오)",
+    "price_factors": [
+      {
+        "factor": "카지노 수요",
+        "detail": "글로벌 카지노 개발·확장에 따라 슬롯머신 수요가 변화하면 산업용 모니터 매출에 직접적인 영향이 발생합니다."
+      },
+      {
+        "factor": "전장 신뢰성",
+        "detail": "전장용 디스플레이는 극한환경에서의 신뢰성이 중요해 품질·신기술 확보 여부가 수주와 실적에 영향을 미칩니다."
+      },
+      {
+        "factor": "소량다품종",
+        "detail": "산업용 모니터는 소량 다품종·고객맞춤형 생산 특성으로 개발·납기 대응력이 실적 변동성에 영향을 줍니다."
+      },
+      {
+        "factor": "부품조달",
+        "detail": "TFT-LCD 패널·Drive IC 등 핵심 부품의 조달 환경 변화는 제조원가와 생산능력에 영향을 미칠 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 회사의 현황",
+        "evidence_text": "산업용 모니터와 전장용 Display 모듈 제조"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "전장용 디스플레이: 3,506 (54.7%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "나. 사업별 현황 (1) 산업용 모니터",
+        "evidence_text": "ARISTOCRAT, LIGHT & WONDER, IGT, KONAMI"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4191,
+    "completion_tokens": 3018,
+    "reasoning_tokens": 2304,
+    "output_tokens": 714
+  },
+  "warnings": []
+}

@@ -1,0 +1,68 @@
+{
+  "stock_code": "950130",
+  "corp_name": "엑세스바이오",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 21:15",
+  "meta": {
+    "wics": "생명과학도구및서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "엑세스바이오는 체외진단(IVD) 기술을 바탕으로 진단제품의 개발·제조·판매를 영위하는 기업으로, 감염성 질환 중심의 신속진단시약을 주요 제품군으로 보유하고 있습니다. 경영진 설명에 따르면 미국 뉴저지주에 본사를 둔 체외진단 전문기업으로 다양한 사용 환경에 최적화된 제품 포트폴리오를 확대하고 있습니다.",
+    "business_model": "핵심 사업은 면역화학진단·바이오센서·분자진단 기반의 신속진단시약 개발·제조·판매이며, 주요 제품으로 말라리아 RDT와 코비드-19 RDT 등을 포함한 감염성 질환 진단제품을 제공하고 있습니다. 매출은 공공부문과 민간부문으로 구성되며, 사업부문은 말라리아RDT, 코비드-19 RDT, 본국내, 기타로 구분되어 있습니다.",
+    "main_customers": "말라리아RDT — 국제기구·각국 보건복지부(병원·보건소) / 코비드-19 RDT — 미국 내 의료기기 전문 유통사·리테일 및 POC 채널(의료기관·약국·긴급진료)",
+    "price_factors": [
+      {
+        "factor": "시장성장",
+        "detail": "글로벌 체외진단·현장진단 시장의 지속적 성장(연평균 7.6%·8.5%)은 장기적 수요 기반이 됩니다."
+      },
+      {
+        "factor": "경쟁심화",
+        "detail": "Roche, Abbott 등 대형 글로벌 업체의 존재로 경쟁이 심화되어 사업환경이 압박을 받을 수 있습니다."
+      },
+      {
+        "factor": "수요변동",
+        "detail": "호흡기 감염병 수요의 변동성 확대는 매출 변동성을 증대시켜 실적에 직접적 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "입찰의존",
+        "detail": "말라리아 제품은 국제기구·정부 입찰을 통해 공급되므로 입찰 일정 지연이나 재개 지연이 매출에 영향을 줍니다."
+      },
+      {
+        "factor": "제품인허가",
+        "detail": "미 FDA 긴급사용승인 등 인허가 확보 여부가 제품의 상업화와 매출에 직접적인 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "당사는 면역화학진단, 바이오센서, 분자진단 기술을 기반으로 진단 제품을 개발, 제조, 판매하는 사업을 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "당사의 주요 제품은 말라리아, 독감, 코로나 같은 감염성 질병을 진단하는 신속진단시약입니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "당사의 매출은 기본적으로 공공부문과 민간부분으로 이루어지고 있습니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 5377,
+    "completion_tokens": 4653,
+    "reasoning_tokens": 3840,
+    "output_tokens": 813
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

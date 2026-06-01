@@ -1,0 +1,62 @@
+{
+  "stock_code": "378800",
+  "corp_name": "샤페론",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 18:27",
+  "meta": {
+    "wics": "제약",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "샤페론은 GPCR19 표적 기반의 염증복합체 억제제 플랫폼과 나노맙 항체 개발 플랫폼을 보유한 신약 연구개발 전문 바이오 벤처기업입니다. COVID-19 폐렴 등 염증성 질환을 겨냥한 파이프라인을 보유하고 다국적 임상 경험과 기술이전 실적을 통해 상업화 역량을 검증했습니다.",
+    "business_model": "핵심은 신약 후보 발굴에서 전임상·초기 임상까지 연구개발을 수행한 뒤 다국적 제약사로 기술이전(라이선스)을 통해 추가 자본을 확보하는 모델입니다. 사업부문별 매출은 NuPulin(특발성 폐섬유증 치료제)이 FY 최신 기준으로 100.0%를 차지합니다.",
+    "main_customers": "신약개발(임상·기술이전) — 다국적 제약사 (기술이전·라이선스 대상) / 임상연구 — 병원·임상센터(임상 수행 기관)",
+    "price_factors": [
+      {
+        "factor": "염증질환 수요",
+        "detail": "항염증 치료의 미충족 수요(안전성·접근성 등)가 클수록 파이프라인의 상업적 가치가 부각되어 실적·밸류에 긍정적 영향을 미칩니다."
+      },
+      {
+        "factor": "임상·규제 성과",
+        "detail": "임상 2b·3상 진전 또는 규제기관 승인 관련 소식은 기술이전 가능성 및 가치평가에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "기술이전 성과",
+        "detail": "기술이전(라이선스) 성사 시 추가 연구자금 유입과 매출 전환이 가능해 실적에 큰 영향을 미칩니다."
+      },
+      {
+        "factor": "현금성자산",
+        "detail": "보유 현금성자산은 연구개발 지속성과 임상 수행 능력에 직결되어 단기 재무지표와 개발 일정에 영향합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "신약 연구개발 전문 바이오 벤처기업입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "경영진 실적·전략 요약 (MD&A) > 가. 영업의 개황",
+        "evidence_text": "다국적 제약사로의 기술이전을 통해 추가적인 연구를 위한 자본을 확보하는 것을 기본적인 비즈니스 모델로 지향하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "NuPulin(특발성 폐섬유증 치료제): 2,000 (100.0%)"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5437,
+    "completion_tokens": 4184,
+    "reasoning_tokens": 3456,
+    "output_tokens": 728
+  },
+  "warnings": []
+}

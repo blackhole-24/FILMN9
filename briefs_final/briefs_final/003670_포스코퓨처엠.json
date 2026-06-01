@@ -1,0 +1,67 @@
+{
+  "stock_code": "003670",
+  "corp_name": "포스코퓨처엠",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 18:35",
+  "meta": {
+    "wics": "화학",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "포스코퓨처엠은 국내 유일하게 음극재(배터리 음극 소재)와 양극재(배터리 양극 소재)를 동시에 생산·납품하는 이차전지 소재사입니다. 1963·1971년 설립된 계열사들이 합병·확장되며 내화물 제조에서 에너지소재(음·양극재)까지 사업 영역을 넓혀 왔습니다.",
+    "business_model": "사업부문별로 에너지소재사업이 매출의 53.6%로 가장 큰 비중을 차지하고, 라임화성사업 29.2%, 기초소재사업 17.2%로 구성되어 있습니다. 에너지소재 부문에서는 음극재(천연흑연·인조흑연·실리콘 등)와 양극재(NCMA·NCA·LFP 등) 생산을 통해 배터리 제조사에 소재를 공급하는 것이 핵심 수익원입니다.",
+    "main_customers": "기초소재사업 — ㈜포스코 등 / 라임화성사업 — ㈜포스코, (주)OCI 등 / 에너지소재사업 — Ultium Cells, LG에너지솔루션, 삼성SDI, SK온 등",
+    "price_factors": [
+      {
+        "factor": "원자재가격",
+        "detail": "에너지소재는 국제 광물자원 수급에 따른 가격 변동이 매출·이익 변동으로 이어질 수 있습니다."
+      },
+      {
+        "factor": "전기차수요",
+        "detail": "전기차 시장 성장세 둔화는 배터리 소재 수요에 직접적인 영향을 미쳐 실적 변동성을 키울 수 있습니다."
+      },
+      {
+        "factor": "고객집중",
+        "detail": "에너지소재 매출의 주요 고객(Ultium Cells, LG에너지솔루션 등) 집중은 특정 고객사 수요 변화 시 매출 변동성이 커집니다."
+      },
+      {
+        "factor": "규제리스크",
+        "detail": "포스코그룹의 상호출자제한 등 규제는 계열회사간 재무·출자 활동에 제약으로 작용할 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "포스코퓨처엠은 국내 유일 음/양극재 소재를 동시 생산 및 납품하는 이차전지 소재사입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "에너지소재사업: 1,574,083 (53.6%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "내화물사업부문은 ㈜포스코 등 17.2%"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "에너지소재사업부문은 Ultium Cells, LG에너지솔루션, 삼성SDI, SK온 등 53.6%"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4526,
+    "completion_tokens": 4067,
+    "reasoning_tokens": 3264,
+    "output_tokens": 803
+  },
+  "warnings": []
+}

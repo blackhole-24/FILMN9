@@ -1,0 +1,89 @@
+{
+  "stock_code": "388870",
+  "corp_name": "파로스아이바이오",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 18:39",
+  "meta": {
+    "wics": "생물공학",
+    "market": "KOSDAQ",
+    "has_revenue_data": false,
+    "tier": 4,
+    "tier_mode": "best_effort_summary",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "파로스아이바이오는 AI(인공지능) 기반 신약개발에 특화된 연구개발 전문 바이오기업으로, 케미버스(Chemiverse) 플랫폼을 핵심 기술로 보유하고 있습니다. 희귀·난치성 질환(특히 항암)을 중심으로 약 8개의 파이프라인을 구축하였으며, 2025년 기준 설립 10년차입니다.",
+    "business_model": "케미버스 기반의 AI 신약개발을 단일 주력 사업으로 영위하며, 사업보고서상 사업부문별 매출 구성은 별도 제시되지 않습니다. 주요 수익모델은 임상 2상 후 조건부 품목 허가를 통한 조기 상용화와 신약 후보물질의 기술이전(라이선스 아웃)이며, 회사는 완제품(시판 신약)을 생산하고 있지 않습니다.",
+    "main_customers": "AI 신약개발(기술이전) — 제약사·바이오기업(라이선스·기술도입 상대) / 임상·연구 협력 — 병원·연구자(연구자주도임상 등)",
+    "price_factors": [
+      {
+        "factor": "희귀약 지정",
+        "detail": "희귀의약품 지정은 우선심사·허가 후 시장 독점권 등 혜택으로 개발기간 단축 및 경쟁력 강화에 영향을 줍니다."
+      },
+      {
+        "factor": "임상결과",
+        "detail": "임상시험결과보고서(CSR) 수령 등 긍정적 임상 성과는 개발 진전과 기업가치에 직결됩니다."
+      },
+      {
+        "factor": "경쟁약물",
+        "detail": "기존 승인된 FLT3 표적약(예: 길테리티닙) 존재는 시장 경쟁과 차별화 필요성으로 실적·평가에 영향합니다."
+      },
+      {
+        "factor": "재무·조달",
+        "detail": "영업손실 및 190억원 규모 전환사채 발행에 따른 부채비율 변동 등 재무지표가 실적과 투자심리에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "AI (인공지능) 기반 신약 개발 플랫폼인 케미버스"
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. 주요 제품(파이프라인) 요약",
+        "evidence_text": "신약 후보물질의 기술이전을 통한 수익 창출"
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. 주요 제품(파이프라인) 요약",
+        "evidence_text": "당사는 완제품(시판 신약)을 생산하고 있지 않습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "나. 주요 제품 등의 현황",
+        "evidence_text": "연구자 주도 임상(IIT)이 진행되고 있어"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나. 주요 제품 등의 현황",
+        "evidence_text": "2019년 미국 FDA로부터 희귀의약품 지정 승인"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "영업손실 11,507백만원을 기록하였으나"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "190억원 규모의 제1회 사모 전환사채 발행"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나. 주요 제품 등의 현황",
+        "evidence_text": "임상시험결과보고서(CSR)를 수령하였습니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 8072,
+    "completion_tokens": 6209,
+    "reasoning_tokens": 5248,
+    "output_tokens": 961
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

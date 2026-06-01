@@ -1,0 +1,62 @@
+{
+  "stock_code": "389500",
+  "corp_name": "에스비비테크",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 18:42",
+  "meta": {
+    "wics": "기계",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "에스비비테크는 1993년 설립 이후 초경볼·세라믹 볼 베어링 국산화를 시작하며 정밀 기계요소 분야에서 기술력을 축적한 기업입니다. 로보드라이브(RoboDrive) 등 정밀 감속기와 특수 베어링을 기반으로 로봇 구동계 핵심 기업으로 도약하고 있습니다.",
+    "business_model": "FY2025 기준 사업부문별 영업수익은 감속기 20.4%, ROBO BEARING 28.3%, WRIST 22.1%, HYBRID BEARING 13.1%로 구성됩니다. 정밀 베어링 기술을 기반으로 감속기 설계·제조 역량을 결합한 감속기(로보드라이브)와 특수 환경용 베어링을 주요 제품으로 하며, 감속기 모듈화 및 액추에이터(구동부) 중심의 초정밀 구동 모듈 플랫폼으로 사업구조를 고도화하고 있습니다.",
+    "main_customers": "감속기 — 산업용·협동로봇 제조사 / ROBO BEARING — 반도체·디스플레이 장비업체(진공 공정용 로봇 적용) / WRIST — 웨이퍼 이송 로봇·반도체 장비 제조사 / HYBRID BEARING — 반도체·디스플레이 및 정밀 기계 장비업체",
+    "price_factors": [
+      {
+        "factor": "로봇시장 성장",
+        "detail": "글로벌 로봇 시장의 구조적 고성장에 따라 수요가 확대되면 감속기·베어링 수요 증가로 실적에 우호적 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "공급망 리스크",
+        "detail": "감속기·특수 베어링 시장에서 일본 등 일부 기업의 높은 점유율로 공급망 리스크가 존재하면 부품 조달과 원가에 부정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "협동로봇 전환",
+        "detail": "시장 성장 축이 협동로봇으로 이동하면 소형·경량·고정밀 감속기 수요가 증가하나 가격 경쟁과 기술 요구 수준 변화가 실적에 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "첨단산업 수요",
+        "detail": "반도체·디스플레이 등 극한 환경용 특수 베어링 수요 확대는 고부가가치 제품 매출에 직접적인 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "나. 회사의 현황",
+        "evidence_text": "로봇 구동계 핵심 기업으로 도약하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "감속기: 1,467,149 (20.4%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "(2) 목표시장",
+        "evidence_text": "당사는 이러한 흐름 속에서 국내 주요 로봇 기업들과 협력을 확대하며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5657,
+    "completion_tokens": 3780,
+    "reasoning_tokens": 3008,
+    "output_tokens": 772
+  },
+  "warnings": []
+}

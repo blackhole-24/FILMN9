@@ -1,0 +1,67 @@
+{
+  "stock_code": "298380",
+  "corp_name": "에이비엘바이오",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 15:32",
+  "meta": {
+    "wics": "생물공학",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "에이비엘바이오는 이중항체 플랫폼 Grabody™를 기반으로 다양한 파이프라인을 연구·개발하는 바이오 기업으로, 기술이전(License-out)을 통한 사업모델을 추구합니다. ADC 임상개발 등 일부 프로그램은 미국 현지 법인(NEOK Bio)을 통해 미국에서 진행하고 있습니다.",
+    "business_model": "2025년 사업부문별 매출은 기술이전수익이 100.0%로 대부분을 차지하고 임대수익은 0.0%입니다(사업부문별 매출 구성 기준). 영업수익은 기술이전 계약에 따른 선수수수료·단계별 마일스톤 및 출시 후 로열티 등으로 구성되며, 기술이전 중심의 파이프라인 상업화가 핵심 수익원입니다.",
+    "main_customers": "기술이전수익 — 국내외 제약사 및 공동개발 파트너 / 임대수익 — 부동산 투자 관련(2025년에는 실적 발생 없음)",
+    "price_factors": [
+      {
+        "factor": "기술이전 수요",
+        "detail": "글로벌 제약사들의 기술이전 및 공동개발 수요가 높을수록 라이선스·마일스톤 수입이 증가하여 실적에 직접적 영향을 미칩니다."
+      },
+      {
+        "factor": "임상/데이터",
+        "detail": "주요 임상 결과(예: ABL001의 탑라인 데이터)는 단계별 마일스톤 수취 가능성과 기업 가치 평가에 큰 영향을 줍니다."
+      },
+      {
+        "factor": "BBB 경쟁",
+        "detail": "BBB 셔틀 분야에서 Roche·Denali 등 경쟁사 연구성과가 주목받는 만큼 기술적 우위 확보 여부가 파이프라인 가치를 좌우합니다."
+      },
+      {
+        "factor": "규제·허가",
+        "detail": "FDA 등 규제당국의 승인 절차·요구사항은 임상 진행속도와 상용화 시점에 영향을 주어 현금유입 타이밍에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 가. 회사 사업 개요",
+        "evidence_text": "기반 기술인 이중항체 플랫폼 'Grabody™'를 바탕으로"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 가. 주요 제품 등의 현황",
+        "evidence_text": "당사의 영업수익은 기술이전 계약에 따라 발생한 금액으로 구성되어 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "기술이전수익 79,349,848(100.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 가. 주요 제품 등의 현황",
+        "evidence_text": "국내외 제약사와의 기술이전(License-out) 또는 공동개발에 대한 계약을 체결한 뒤"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4811,
+    "completion_tokens": 3312,
+    "reasoning_tokens": 2560,
+    "output_tokens": 752
+  },
+  "warnings": []
+}

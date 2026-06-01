@@ -1,0 +1,76 @@
+{
+  "stock_code": "491000",
+  "corp_name": "리브스메드",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 21:02",
+  "meta": {
+    "wics": "건강관리장비와용품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "리브스메드는 최소침습수술에 쓰이는 복강경 수술기구의 개발·제조·판매를 주력으로 하는 의료기기 기업입니다. 다관절(여러 관절로 자유로운 움직임을 구현) 수술기구 개발을 통해 복강경 수술의 정밀성과 사용 편의성을 높이는 기술적 강점을 보유하고 있으며, 주요 제품은 국내외 인허가를 통해 상용화되었습니다.",
+    "business_model": "2025회계연도 기준 제품 매출이 전체의 100.0%를 차지하는 단일 제품(제품) 중심의 매출 구조이며(제품: 49,599,102 (100.0%)), 핵심 수익원은 다관절 복강경 수술기구(ArtiSential 등)와 혈관봉합기·스테이플러 등 수술용 기구의 판매입니다. 회사는 90° 가동 범위의 다관절 기술을 바탕으로 제품 포트폴리오를 확대하며 해외 인허가 기반으로 시장 확대를 추진하고 있습니다.",
+    "main_customers": "제품 — 임상 현장의 의료기관 및 수술 집도 의료진",
+    "price_factors": [
+      {
+        "factor": "인허가 획득",
+        "detail": "미국·유럽·일본 등 주요국 인허가 여부가 해외 시장 진출과 매출 확대에 직접적인 영향"
+      },
+      {
+        "factor": "기술적 차별성",
+        "detail": "90° 다관절 및 5mm 소형화 기술의 우위가 시장 경쟁력과 제품 채택률에 영향을 미침"
+      },
+      {
+        "factor": "신제품 상용화",
+        "detail": "ArtiSeal·ArtiStapler 등 신규 제품의 허가·상용화 시 매출 성장의 주요 변수"
+      },
+      {
+        "factor": "R&D·판관비",
+        "detail": "적극적 연구개발 및 인력 확충으로 판관비가 증가하면 단기 수익성에 부담이 될 수 있음"
+      },
+      {
+        "factor": "재무·유동성",
+        "detail": "대규모 자본 확충으로 확보된 유동성은 해외 공략과 신제품 투자 여력에 영향"
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "최소침습수술에 사용되는 복강경 수술기구의 개발, 제조 및 판매"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "제품: 49,599,102 (100.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "나. 주요 제품 등의 설명 (1) ArtiSential",
+        "evidence_text": "조종부의 상하좌우(최대 90°) 움직임"
+      },
+      {
+        "field": "business_model",
+        "source_section": "나. 주요 제품 등의 설명 (1) ArtiSential",
+        "evidence_text": "미국 FDA(510k)와 유럽 CE MDR 등 주요 해외 시장의 인허가를 획득"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "당기 매출액은 51,192백만원으로"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4982,
+    "completion_tokens": 3717,
+    "reasoning_tokens": 2880,
+    "output_tokens": 837
+  },
+  "warnings": []
+}

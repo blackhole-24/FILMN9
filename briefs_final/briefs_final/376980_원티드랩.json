@@ -1,0 +1,66 @@
+{
+  "stock_code": "376980",
+  "corp_name": "원티드랩",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:40",
+  "meta": {
+    "wics": "상업서비스와공급품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "원티드랩은 AI 기술을 바탕으로 채용과 인적자원 관리, 그리고 기업의 AI 전환(AX, AI Transformation)을 지원하는 HR 플랫폼 기업입니다. 핵심 사업은 채용 AI와 AX 사업이며, 일본 등 글로벌 시장으로의 확장도 추진하고 있습니다.",
+    "business_model": "FY2025 사업부문별 영업수익은 채용 AI 73.1%, AX 사업 20.7%, 기타 6.2%로 구성됩니다. 채용 AI는 AI 매칭 엔진(지원자와 직무를 연결하는 인공지능)을 활용한 채용 플랫폼이 중심이고, AX 사업은 엔노이아(기업용 AI 에이전트 플랫폼)와 커리어 교육, 프리랜서 매칭, HR 솔루션을 묶어 기업의 AI 도입과 업무 혁신을 돕는 구조입니다.",
+    "main_customers": "채용 AI — 구직자, 채용 기업 / AX 사업 — 기업 고객, 교육 기관, 공공기관, 대학, 프리랜서, 외주가 필요한 기업 / 기타 — 원문상 구체 고객군 확인 불가",
+    "price_factors": [
+      {
+        "factor": "채용수수료",
+        "detail": "합격자 연봉의 7%를 수취하는 구조라서 임금 수준과 채용 성과가 높을수록 매출 확대에 영향을 줍니다."
+      },
+      {
+        "factor": "채용활동",
+        "detail": "월평균 수십만 명에서 최대 약 100만 명 수준의 입·이직이 활발할수록 AI 매칭 서비스 활용도가 높아질 수 있습니다."
+      },
+      {
+        "factor": "AX수요",
+        "detail": "기업용 AI 에이전트 도입과 AX 전환이 늘어날수록 엔노이아 같은 AX 플랫폼 수요가 확대될 수 있습니다."
+      },
+      {
+        "factor": "정부예산",
+        "detail": "연간 약 1,300억 원의 정부 예산이 투입되는 디지털 인재 양성 정책은 커리어 교육 사업과의 연계에 영향을 줍니다."
+      },
+      {
+        "factor": "글로벌확장",
+        "detail": "일본 등 해외 HR 테크 시장 진출이 가속화되면 해외 매출 기회가 넓어질 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 인공지능(AI) 기술력을 바탕으로 일과 사람의 미래를 혁신하는 HR 기반 AX(AI Transformation) 기업"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "채용 AI: 27,908 (73.1%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "구직자에게는 개인화된 커리어 기회를, 기업에게는 직무 적합도가 높은 인재를 적기에 추천"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5352,
+    "completion_tokens": 742,
+    "reasoning_tokens": 0,
+    "output_tokens": 742
+  },
+  "warnings": []
+}

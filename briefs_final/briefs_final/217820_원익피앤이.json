@@ -1,0 +1,77 @@
+{
+  "stock_code": "217820",
+  "corp_name": "원익피앤이",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 12:30",
+  "meta": {
+    "wics": "전기제품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "원익피앤이는 2차전지 생산설비(조립공정·화성공정·R&D장비), 전원공급장치 및 충전인프라를 주요 사업으로 하는 기계·장비 기업입니다. 자회사인 피앤이시스템즈를 통해 충전인프라 사업도 운영하며 아시아를 넘어 유럽·미주 등 글로벌 시장으로 사업영역을 확대한 점이 특징입니다. 2025사업연도 연결기준 매출액은 3,907억원으로 전년 대비 증가했고 영업·순이익이 흑자전환했습니다.",
+    "business_model": "주요 수익은 제품매출이 대부분을 차지하며(제품매출 88.3%), 전원공급장치(2.8%)·충전인프라(4.1%)·상품매출(1.0%)·기타매출(3.8%) 순으로 구성됩니다. 핵심 제품군은 2차전지 제조 공정용 조립·화성 장비와 싸이클러 등 R&D장비(제품매출), 발전소·산업용 전원공급장치, 그리고 완속·급속 충전기를 포함한 충전인프라입니다.",
+    "main_customers": "2차전지 생산설비 — 셀 제조업체 / R&D장비 — 기업 연구소·정부출연 연구소·대학 연구소 / 전원공급장치 — 발전소 및 산업용 사용자 / 충전인프라 — 국내 공공기관·민수시장",
+    "price_factors": [
+      {
+        "factor": "수주환경",
+        "detail": "글로벌 셀 제조사 투자 연기·축소로 전방 수요(수주)가 불확실해지면 매출과 주문집행에 직접적 영향을 줍니다."
+      },
+      {
+        "factor": "중국 저가공세",
+        "detail": "중국 기업의 저가 경쟁이 심화되면 원익피앤이의 수주 경쟁 및 마진에 압박을 줄 수 있습니다."
+      },
+      {
+        "factor": "원가·가격 경쟁",
+        "detail": "원가 절감과 제조원가 혁신이 미흡하면 가격 경쟁에서 불리해져 영업이익률에 부정적입니다."
+      },
+      {
+        "factor": "충전인프라 보급",
+        "detail": "국내외 충전인프라 보급 확대는 충전기 매출 확대와 수출 기회를 늘리는 요인이 됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "자회사(피앤이시스템즈)를 통해 충전인프라 사업도 함께 하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "- 제품매출 (88.3%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "- 전원공급장치 (2.8%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "- 충전인프라 (4.1%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "나. 업계의 현황 > R&D 장비",
+        "evidence_text": "기업 연구소, 정부출연 연구소, 대학 연구소"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "3) 전기자동차 충전인프라",
+        "evidence_text": "국내 공공기관 및 민수시장에 납품하고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4790,
+    "completion_tokens": 4871,
+    "reasoning_tokens": 3968,
+    "output_tokens": 903
+  },
+  "warnings": []
+}

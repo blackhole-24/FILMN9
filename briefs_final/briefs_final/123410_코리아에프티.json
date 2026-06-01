@@ -1,0 +1,71 @@
+{
+  "stock_code": "123410",
+  "corp_name": "코리아에프티",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:19",
+  "meta": {
+    "wics": "자동차부품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "코리아에프티는 자동차 연료계통 부품과 실내외 의장 부품을 생산하는 자동차부품 회사입니다. 카본 캐니스터, 플라스틱 필러넥, 선쉐이드 등을 중심으로 사업을 운영하며, 현대·기아차를 포함한 국내 5개 완성차 업체와 GM, 르노, 폭스바겐 등으로 고객 다변화를 확대하고 있습니다.",
+    "business_model": "사업부문별 영업수익 구성(FY2025)을 보면 지배회사 32.0%, KFTP(폴란드) 30.0%, FILLER NECK 15.0%, 의장부품 9.0%, KFTA(미국) 5.0%, 종속회사 4.0%, CANISTER 3.0%, KFTI(인도) 2.0%, 기타 1.0%로 구성됩니다. 핵심 제품은 카본 캐니스터(증발가스 흡착 부품), 플라스틱 필러넥(연료 이송 유로관), 의장부품(차량 실내외 인테리어 고급화 부품)이며, 국내외 법인과 완성차 고객을 함께 확보하는 구조입니다.",
+    "main_customers": "지배회사 — 현대·기아차 포함 국내 5개 완성차 업체, GM, RENAULT, VOLKSWAGEN, SKODA, VOLVO, NISSAN, PORSCHE / KFTP(폴란드) — 해외 완성차 및 관련 고객 / KFTA(미국)·KFTI(인도) — 해외 완성차 고객 / CANISTER·FILLER NECK·의장부품 — 완성차 업체",
+    "price_factors": [
+      {
+        "factor": "완성차 수요",
+        "detail": "완성차 업체의 생산량과 판매가 늘면 부품 주문이 함께 증가해 매출과 실적에 직접 영향을 줍니다."
+      },
+      {
+        "factor": "관세정책",
+        "detail": "미국 중심의 보호무역과 대미 관세 정책은 수출과 공급망 운영에 부담이 될 수 있어 실적 변동 요인이 됩니다."
+      },
+      {
+        "factor": "공급망",
+        "detail": "글로벌 공급망 재편이 진행되면 생산과 납품 구조가 바뀔 수 있어 해외 법인과 고객 대응이 중요해집니다."
+      },
+      {
+        "factor": "친환경차",
+        "detail": "친환경 자동차 부품 수요가 확대되면 카본 캐니스터 같은 관련 제품의 성장 여지가 커질 수 있습니다."
+      },
+      {
+        "factor": "기술경쟁",
+        "detail": "부품의 단가 인하와 품질 향상 요구가 강해질수록 연구개발(기술 개발)과 가격경쟁력이 중요해집니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 카본 캐니스터, 플라스틱 필러넥 등 자동차 연료계통 부품과 실내외 의장 부품 등 친환경 자동차 부품을 생산하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "지배회사: 257,211 (32.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "현대,기아차를 포함한 국내 5개 완성차 업체 뿐만 아니라 GM, RENAULT, VOLKSWAGEN"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "[경쟁 환경 및 시장 특성 — price_factors 참고용]",
+        "evidence_text": "완성차업체들은 세계적 시장경쟁에서 생존하기 위해 부품의 지속적인 단가인하와 품질향상을 요구하고 있고"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4454,
+    "completion_tokens": 949,
+    "reasoning_tokens": 0,
+    "output_tokens": 949
+  },
+  "warnings": []
+}

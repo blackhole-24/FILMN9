@@ -1,0 +1,77 @@
+{
+  "stock_code": "078150",
+  "corp_name": "HB테크놀러지",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 05:46",
+  "meta": {
+    "wics": "디스플레이장비및부품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "HB테크놀러지는 OLED 전공정 AOI(Automatic Optical Inspection, 자동광학 측정검사) 검사장비, 리페어 장비, 2차전지 외관검사장비 등을 생산·판매하는 장비사업과 도광판·확산판 등 디스플레이 백라이트 유닛 부품소재를 제조·판매하는 기업입니다. 1997년 설립 이후 검사장비 개발로 외산 장비를 대체해온 점이 특징이며, 국내외 패널업체를 주요 고객으로 두고 있습니다.",
+    "business_model": "회사 매출은 제품/상품(22.7%), 국내 매출(36.4%), LCD 부품소재 제조·가공(40.9%)으로 구성되어 있습니다. 핵심은 디스플레이·배터리 검사장비를 통한 장비사업과 도광판·확산판 등 백라이트용 부품소재 사업이며, AOI(자동광학검사) 등 고기술 장비 개발과 대량생산 체계(레이저 가공·롤스탬핑)를 통한 원가경쟁력 확보가 수익구조의 핵심입니다.",
+    "main_customers": "장비사업부 — 삼성디스플레이, BOE, CSOT 등 패널업체 / 부품소재사업부 — LCD 패널·TV용 부품 수요처",
+    "price_factors": [
+      {
+        "factor": "패널투자 사이클",
+        "detail": "패널업체의 설비투자에 따라 장비 수요가 크게 변동하여 실적에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "기술전환",
+        "detail": "LCD에서 OLED로의 전환 가속화는 OLED 전공정 AOI 등 고기능 장비 수요 증가로 연결될 수 있습니다."
+      },
+      {
+        "factor": "가격경쟁",
+        "detail": "중국 업체 진입으로 부품소재 분야의 가격 경쟁이 심화되어 마진 및 수익성에 부담을 줄 수 있습니다."
+      },
+      {
+        "factor": "규모의 경제",
+        "detail": "생산량 확대 시 평균생산비용이 감소하므로 대량생산 능력과 공정 자동화가 수익성 개선에 중요합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 영업 현황",
+        "evidence_text": "회사는 OLED 전공정 AOI(Automatic Optical Inspection, 자동광학 측정검사) 검사 장비, 리페어 장비, 2차전지 외관검사장비 등의 제품을 생산ㆍ판매하는 장비사업과 Display 백라이트유닛인 도광판, 확산판 제조 및 도광판 Pattern을 가공ㆍ판매하는 부품소재사업을 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "제품/상품: 36,417 (22.7%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "국  내: 48,584 (36.4%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "LCD 부품소재 제조,가공: 65,588 (40.9%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "(1) 장비사업부",
+        "evidence_text": "주요 거래처로는 삼성디스플레이, BOE, CSOT 등이 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 영업 현황 (부품소재사업부)",
+        "evidence_text": "최근에는 중국 업체의 진입으로 가격 경쟁이 심화되고 있어, 프리미엄 제품 개발과 기술 혁신이 더욱 중요해지고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4343,
+    "completion_tokens": 3585,
+    "reasoning_tokens": 2624,
+    "output_tokens": 961
+  },
+  "warnings": []
+}

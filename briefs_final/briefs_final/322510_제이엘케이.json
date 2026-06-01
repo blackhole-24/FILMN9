@@ -1,0 +1,91 @@
+{
+  "stock_code": "322510",
+  "corp_name": "제이엘케이",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:36",
+  "meta": {
+    "wics": "건강관리기술",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "제이엘케이는 2014년 2월 설립된 의료 인공지능 전문기업으로, AI 의료영상 진단 플랫폼과 원격 헬스케어 플랫폼, 토털 데이터 매니지먼트 플랫폼 사업을 영위하고 있습니다. 2019년 12월 AI 의료분야 최초 코스닥 상장을 했으며, 뇌졸중 특화 의료 AI 솔루션을 중심으로 글로벌 사업화를 추진하고 있습니다.",
+    "business_model": "사업부문별 영업수익 구성은 제품 84.2%, 기타 15.8%입니다. 회사는 AI를 활용한 의료 영상 및 임상 데이터 분석을 통해 질병의 조기 진단, 판독 지원, 병변 검출, 예후 예측 서비스를 제공하며, 뇌졸중 솔루션과 암 분석 솔루션을 핵심 제품으로 사업화하고 있습니다. 뇌졸중 분야에서는 CT, CTP, CTA, MRI 등 다양한 영상 기반의 12종 솔루션을 묶은 MEDIHUB STROKE가 중심이며, 인허가와 보험수가 적용을 통해 수익화를 확대해 가고 있습니다.",
+    "main_customers": "제품 — 국내외 대학병원, 2차·1차 의료기관 / 기타 — 해외 유관 기업 및 제휴 협력기관",
+    "price_factors": [
+      {
+        "factor": "규제허가",
+        "detail": "의료기기 허가, 임상시험, 기술문서 심사, GMP(우수제조관리기준) 등 복수 절차를 통과해야 해 승인 속도와 비용이 실적에 영향을 줍니다."
+      },
+      {
+        "factor": "보험수가",
+        "detail": "혁신의료기술의 보험수가(건강보험 적용 가격) 여부가 매출화 속도에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "데이터제약",
+        "detail": "의료정보는 개인정보보호와 IRB(기관윤리심의위원회) 심의가 필요해 데이터 확보 속도가 사업 확대의 변수가 됩니다."
+      },
+      {
+        "factor": "글로벌확장",
+        "detail": "미국 FDA 510(k), 일본 PMDA, 유럽 CE 등 해외 인허가 보유 여부가 글로벌 매출 확대 가능성과 연결됩니다."
+      },
+      {
+        "factor": "시장성장",
+        "detail": "글로벌 의료 인공지능 시장과 뇌졸중 진단·치료 시장이 빠르게 성장하고 있어 수요 확대 기대가 실적에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 2014년 2월 설립된 의료 인공지능 전문 기업입니다."
+      },
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "2019년 12월 AI 의료분야 최초 코스닥 상장을 하였고"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "제품: 2,813 (84.2%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "기타: 526 (15.8%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "국내 대형 병원 뿐만 아니라 2차, 1차 의료기관까지 도입"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "의료기기 허가, 임상시험, 기술문서 심사, GMP(우수제조관리기준) 준수"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "각 기관에 설치된 기관윤리심의위원회(IRB)의 심의를 통과"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "국내 식약처 3등급 허가를 획득하였으며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4921,
+    "completion_tokens": 1038,
+    "reasoning_tokens": 0,
+    "output_tokens": 1038
+  },
+  "warnings": []
+}

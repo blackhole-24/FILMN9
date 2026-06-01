@@ -1,0 +1,82 @@
+{
+  "stock_code": "227840",
+  "corp_name": "현대코퍼레이션홀딩스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 12:12",
+  "meta": {
+    "wics": "식품과기본식료품소매",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "현대코퍼레이션홀딩스는 브랜드 라이선스와 축산물 유통, 포장재 및 버섯 생산·판매 등을 영위하는 유통업체로, 브랜드 부문과 신사업을 병행하는 구조입니다. 2025년 연결기준 매출에서 브랜드와 신사업이 주요 수익원이었습니다.",
+    "business_model": "사업부문별로 브랜드 사업(브랜드 사용료·OEM(주문자상표부착생산) 생산·판매 등)이 전체의 28.8%를 차지하고, 신사업(우육·돈육·계육 수입유통, 골판지·폴리백 등 포장재 생산·판매, 망고·비료 등 해외유통 및 버섯 생산·판매)이 71.2%를 차지합니다. 브랜드는 로열티 수입과 OEM을 통한 매출을, 신사업은 축산물 유통과 포장재·농산물·버섯의 생산·판매가 핵심 수익원입니다.",
+    "main_customers": "브랜드 부문 — 브랜드 사용권을 취득하는 제3자(라이선시) 및 OEM 수요처 / 신사업 — 육류 수요처(대형거래선) / 신사업(포장재·해외유통) — 해외 딜러·메이커 및 현지 바이어 / 신사업(버섯) — 버섯 원재료 및 생산물 구매처",
+    "price_factors": [
+      {
+        "factor": "경기변동",
+        "detail": "브랜드 사용료는 제품 판매량에 연동되므로 경기 하강 시 로열티 수익 감소로 실적에 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "환율",
+        "detail": "환율 변동성 확대는 수입축산물 원가와 해외 매출 환산에 영향을 주어 실적 변동성을 키울 수 있습니다."
+      },
+      {
+        "factor": "통상정책",
+        "detail": "통상정책 급변(관세·무역규제 등)은 수입유통 및 해외사업의 원가와 물류에 직접적인 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "거래선 의존",
+        "detail": "대형거래선 확보와 재고회전은 육류사업의 안정적 매출 확보와 수익성에 중요한 변수입니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 브랜드 라이선스, 축산물도매업, 포장재 생산 및 판매, 버섯 생산 및 판매 등의 사업을 하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "브랜드 사업: 71,905,797 (28.8%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "신사업: 129,047,281 (71.2%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "MD&A(경영진 실적·전략 요약)",
+        "evidence_text": "대형거래선을 중심으로 물량을 안정적으로 확보하며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 브랜드 부문(다) 경기변동의 특성",
+        "evidence_text": "상표권 사용의 대가는 통상 제품의 생산량 또는 판매량을 기준으로 산정"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "MD&A(경영진 실적·전략 요약)",
+        "evidence_text": "환율 변동성 확대"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "MD&A(경영진 실적·전략 요약)",
+        "evidence_text": "통상정책 급변"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4661,
+    "completion_tokens": 5760,
+    "reasoning_tokens": 4800,
+    "output_tokens": 960
+  },
+  "warnings": []
+}

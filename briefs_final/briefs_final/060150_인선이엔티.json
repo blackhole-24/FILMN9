@@ -1,0 +1,72 @@
+{
+  "stock_code": "060150",
+  "corp_name": "인선이엔티",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 03:54",
+  "meta": {
+    "wics": "상업서비스와공급품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "인선이엔티는 건설폐기물 수집·운반·중간처리부터 매립·순환골재 생산, 자동차재활용까지 수행하는 환경친화적(Recycling) 기업입니다. 건설폐기물 분야에서 비계구조물 해체부터 최종처분까지 일괄처리 기술과 특허를 보유하고 있으며, 자동차재활용 사업 진출로 사업 포트폴리오를 확장했습니다.",
+    "business_model": "FY2025 기준 매출은 건설폐기물중간처리(84.7%), 매립폐기물최종처분(11.5%), 순환골재판매 외(1.8%), 임대수익(2.0%)으로 구성되어 건설폐기물 처리 부문이 핵심 수익원입니다. 주요 제품 가격은 반입폐기물의 성상 및 처리량, 시장 상황에 연동되어 변동하며, 2025년 기준 건설폐기물 중간처리 평균단가는 39,728원/톤, 매립폐기물 최종처리 단가는 70,524원/톤입니다.",
+    "main_customers": "건설폐기물중간처리 — 지방자치단체·관공서·민간 건설사 / 매립폐기물최종처분 — 건설현장 발주처(지자체·건설사) / 순환골재판매 외 — 도로공사·건설공사(골재 수요처) / 임대수익 — 사업보고서에 세부 고객 미기재",
+    "price_factors": [
+      {
+        "factor": "건설경기",
+        "detail": "국내 건설경기 침체 시 폐기물 발생량이 줄어들어 매출·가동률 감소로 실적에 부정적 영향을 미칩니다."
+      },
+      {
+        "factor": "단가변동성",
+        "detail": "주요 제품 가격이 반입폐기물 성상·처리량·시장 상황에 연동되어 변동되어 수익성 변동성이 큽니다."
+      },
+      {
+        "factor": "경쟁강도",
+        "detail": "매립사업 등에서 신규 진입과 경쟁이 지속될 경우 수주 단가 하락 및 마진 압박으로 실적에 영향이 있습니다."
+      },
+      {
+        "factor": "운반거리",
+        "detail": "원거리 현장 증가 시 운반비·운영비가 상승하여 수익성 악화 요인으로 작용할 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "친환경 자원 재활용(Recycling) 및 처리사업을 영위하는 환경친화적 기업입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "건설폐기물중간처리: 75,330,657 (84.7%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 건설폐기물 중간처리사업구조",
+        "evidence_text": "건설공사의 발주처는 지방자치단체 등 관공서와 민간 건설회사이며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > ① 경쟁요소 및 당사 경쟁력",
+        "evidence_text": "폐기물 처리업체의 경쟁력은 처리능력에 대한 신뢰도와 시설 규모 등에서 좌우되며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "영업 현황",
+        "evidence_text": "주요 제품 등의 가격은 반입폐기물의 성상 및 처리량, 시장 상황 등에 연동되어 변동됩니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4514,
+    "completion_tokens": 5271,
+    "reasoning_tokens": 4352,
+    "output_tokens": 919
+  },
+  "warnings": []
+}

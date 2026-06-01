@@ -1,0 +1,67 @@
+{
+  "stock_code": "003580",
+  "corp_name": "HLB글로벌",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 18:34",
+  "meta": {
+    "wics": "판매업체",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "HLB글로벌은 지배회사와 9개의 종속회사를 포함한 연결기업으로 미디어커머스, 식품·음료, 화장품, 바이오, 패션잡화 등 다수의 사업부문을 운영하고 있습니다. 2025년 연결기준 자산총계는 1,174억원, 자본총계 755억원, 부채 416억원이며, 연결기준 매출은 1,003억원, 영업손실 99억원, 당기순손실 89억원을 기록하였습니다.",
+    "business_model": "핵심은 미디어콘텐츠로 소비자 인지도를 높여 직판하는 미디어커머스(D2C)를 기반으로 한 전자상거래이며, 사업부문별 매출 비중은 미디어커머스 15.4%, 화장품 4.3%, 식품·음료 23.1%, 패션잡화(기타) 0.2%로 구성됩니다. 식품(잼·시럽)은 주로 B2B(식음료 원료 공급) 중심으로, 음료는 콤부차 제조(ODM 포함) 및 자사 브랜드 유통을 통해 수익을 창출하고 화장품은 해외 수출과 온라인 채널을 확대하며 성장하고 있습니다.",
+    "main_customers": "미디어커머스 — 자사몰·온라인 소비자(MZ세대 포함) / 식품·음료 — B2B(유제품·제과·베이커리 등 제조업체, Food Service) / 화장품 — 해외 바이어(동유럽·중국·중동) 및 국내 온라인 소비자 / 패션잡화 — 미디어커머스 채널을 통한 일반 소비자",
+    "price_factors": [
+      {
+        "factor": "트렌드 민감도",
+        "detail": "미디어커머스 수요는 MZ세대 중심의 트렌드 변화에 민감해 소비자 기호 변동이 실적에 빠르게 반영됩니다."
+      },
+      {
+        "factor": "원재료 가격",
+        "detail": "잼·시럽 등 식품 원재료 가격 변동은 제품 원가와 판매가격에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "기술 고도화",
+        "detail": "AR·VR, 빅데이터·AI 기반 개인화가 미디어커머스의 콘텐츠 효과를 높여 매출에 기여할 수 있습니다."
+      },
+      {
+        "factor": "제품 차별화",
+        "detail": "유사제품 다수로 브랜딩과 차별화 전략이 미미할 경우 수익성·판매속도에 부정적 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "본 의견서 작성기준일 현재 9개의 종속회사를 포함한 연결기업"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "미디어커머스: 15,460 (15.4%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "나. 주요제품 등의 가격변동추이 및 가격변동원인",
+        "evidence_text": "자사몰로 고객을 유입시켜 매출을 발생시키는 D2C 판매방식으로"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "미디어커머스는 MZ세대에게 특히 큰 인기와 구매를 이끌어내며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5162,
+    "completion_tokens": 4532,
+    "reasoning_tokens": 3648,
+    "output_tokens": 884
+  },
+  "warnings": []
+}

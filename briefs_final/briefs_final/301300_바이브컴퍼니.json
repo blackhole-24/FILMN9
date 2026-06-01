@@ -1,0 +1,87 @@
+{
+  "stock_code": "301300",
+  "corp_name": "바이브컴퍼니",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 15:39",
+  "meta": {
+    "wics": "소프트웨어",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "바이브컴퍼니는 2000년 설립된 AI(인공지능)·빅데이터 기업으로, 한국어 특화 초거대 언어모델(LLM)과 고신뢰 데이터 자산을 결합해 기업·공공의 의사결정을 지원하는 AX(인공지능 전환) 파트너로 자리잡았습니다. VAIV GeM 등 자체 모델과 소셜 데이터 분석 서비스 기반으로 AI 에이전트 시대 전환을 선도하고 있습니다.",
+    "business_model": "사업은 AI솔루션(32.3%), AI서비스(30.8%), SI/SM(36.9%)의 세 축으로 운영되며, AI솔루션은 VAIV Agent·VAIV Search·VAIV KMS 등을 기업(B2B)과 공공(B2G)에 구축·공급하는 프로젝트·라이선스형 매출을, AI서비스는 썸트렌드·WHOTAG 등 구독형(SaaS) 서비스로 반복 수익을 창출합니다. 솔루션 제공 방식은 온프레미스, 월정액 구독, API 연동 및 구축 포함 모델 등 고객 환경에 따라 다양하게 운용됩니다.",
+    "main_customers": "AI솔루션 — B2B 및 B2G(기업·공공기관) / AI서비스 — 마케팅·분석 수요가 있는 기업, 광고대행사·뷰티·패션·화장품 제조사 / SI/SM — 시스템 구축·운영을 필요로 하는 기업 및 기관",
+    "price_factors": [
+      {
+        "factor": "모델 신뢰성",
+        "detail": "환각(허구 정보) 제거 등 고신뢰성 모델 보유 여부가 솔루션 수주와 고객 확장에 직접적 영향(수주 경쟁력 결정)."
+      },
+      {
+        "factor": "구독 전환율",
+        "detail": "썸트렌드·WHOTAG의 구독형(SaaS) 매출 확대가 반복적 수익 기반과 실적 안정성에 영향을 미칩니다."
+      },
+      {
+        "factor": "공공·민간 수요",
+        "detail": "공공(B2G) 검증 실적과 민간(제조·금융·법무 등) 확장 성과가 프로젝트 수주와 매출 성장에 직결됩니다."
+      },
+      {
+        "factor": "재무건전성",
+        "detail": "관계기업 손상차손·유동자산 변동 등 재무 항목은 운영여건과 투자·사업확장 여력에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 회사의 현황",
+        "evidence_text": "당사는 2000년 설립 이래 대한민국 인공지능 및 빅데이터 산업의 개척자로서 입지를 공고히 해왔습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. 회사의 현황",
+        "evidence_text": "당사는 크게 AI 솔루션과 AI 서비스 양대 축을 중심으로 사업을 전개하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "나. 주요 제품 매출 구분",
+        "evidence_text": "AI솔루션 ... 4,754(32.3%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "나. 주요 제품 매출 구분",
+        "evidence_text": "AI서비스 ... 4,535(30.8%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "나. 주요 제품 매출 구분",
+        "evidence_text": "SI/SM ... 5,435(36.9%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 회사의 현황",
+        "evidence_text": "AI 솔루션 : B2B 및 B2G 고객을 대상으로 VAIV Agent, VAIV Search, VAIV KMS 등을 구축 및 공급합니다."
+      },
+      {
+        "field": "company_overview",
+        "source_section": "가. 회사의 현황",
+        "evidence_text": "자체 개발한 한국어 특화 초거대 언어모델(LLM)인 ‘VAIV GeM'과 독보적인 고신뢰 데이터 자산을 결합하여..."
+      },
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "연결기준 2025년 매출액은 190.1억 원, 영업손실은 37.6억 원, 당기순손실 184.3억 원을 기록하였습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 6010,
+    "completion_tokens": 3476,
+    "reasoning_tokens": 2368,
+    "output_tokens": 1108
+  },
+  "warnings": []
+}

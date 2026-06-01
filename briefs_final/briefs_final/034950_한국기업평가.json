@@ -1,0 +1,67 @@
+{
+  "stock_code": "034950",
+  "corp_name": "한국기업평가",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 00:12",
+  "meta": {
+    "wics": "상업서비스와공급품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "한국기업평가는 1983년 설립된 신용평가회사로, 법규에 따른 사업가치평가업(투자평가)도 함께 영위하고 있습니다. 국내 신용평가 시장은 과점 구조로 당사를 포함한 3개사가 국내시장의 99% 이상을 차지하고 있습니다.",
+    "business_model": "주요 수익은 용역제공(수수료) 기반의 신용평가·투자평가·정보사업에서 발생하며, FY2025 기준 사업부문별 영업수익 구성은 신용평가 75.6%, 투자평가 22.6%, 정보사업 외 1.8%입니다. 신용평가(등급발표)와 투자평가(사업가치평가)는 각각 안정적 수수료 기반의 핵심 수익원입니다.",
+    "main_customers": "신용평가 — 채권 발행사·투자자 등 이해관계자 / 투자평가 — 인프라·부동산 PF 관련 발행사 및 투자자 / 정보사업 외 — 신용정보를 조회하는 의뢰인(기업체 등)",
+    "price_factors": [
+      {
+        "factor": "평판자산",
+        "detail": "금융시장에서의 신용등급 신뢰도가 높을수록 수요와 계약확보에 유리해 실적에 긍정적 영향을 미칩니다."
+      },
+      {
+        "factor": "평가역량",
+        "detail": "분석인력·방법론·시스템의 수준이 경쟁력으로 직결되어 시장 점유율과 수익성에 영향을 줍니다."
+      },
+      {
+        "factor": "채권시장규모",
+        "detail": "직접금융(채권) 발행규모 및 기업의 자금조달 수요가 축소되면 신용평가 수수료가 감소할 수 있습니다."
+      },
+      {
+        "factor": "정책·규제",
+        "detail": "정부의 채권발행 규제나 제도 변화는 신용평가 대상 및 시장환경을 바꿔 실적 변동성을 유발할 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "더불어 법규에 따른 사업가치평가업도 겸영하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "■ 사업부문별 영업수익 구성 (FY2025)  - 신용평가 (75.6%)  - 투자평가 (22.6%)  - 정보사업 외 (1.8%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "투자자 등 이해관계자에게 공시하는 제도입니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "신용평가업의 경쟁력은 아래와 같은 요인에 따라 좌우됩니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4778,
+    "completion_tokens": 4861,
+    "reasoning_tokens": 4096,
+    "output_tokens": 765
+  },
+  "warnings": []
+}

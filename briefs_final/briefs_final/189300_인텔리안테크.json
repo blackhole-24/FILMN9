@@ -1,0 +1,64 @@
+{
+  "stock_code": "189300",
+  "corp_name": "인텔리안테크",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 11:11",
+  "meta": {
+    "wics": "통신장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "인텔리안테크는 해상용 위성 통신 안테나 분야에서 글로벌 경쟁력을 확보한 위성 지상장비(안테나) 전문기업입니다. 과거 GEO(정지궤도) VSAT 시장에서의 성과를 바탕으로 저궤도(LEO)·중궤도(MEO) 시장까지 제품 포트폴리오를 확장하며 글로벌 위성사업자 대상 솔루션 공급을 확대하고 있습니다.",
+    "business_model": "주요 사업은 해상용 파라볼릭·전자식 평판 안테나(해상), 지상용 파라볼릭·게이트웨이 안테나(지상), 그리고 기타 통신공사 매출로 구성됩니다. 최근 실적에서 해상용 매출과 지상용(게이트웨이 포함) 매출이 각각 확대되었고, 특히 게이트웨이 안테나 공급 확대가 지상용 부문의 성장 동력으로 작용하고 있습니다.",
+    "main_customers": "해상용 — 선박·선사 및 글로벌 위성통신 사업자(예: Inmarsat, Iridium, Marlink 등) / 지상용 — 글로벌 위성통신 사업자(게이트웨이 설치 수요자) / 기타 — 통신공사 관련 고객",
+    "price_factors": [
+      {
+        "factor": "LEO 전환",
+        "detail": "저궤도(LEO)/중궤도(MEO) 위성망 확산은 고정밀·다중궤도 안테나 수요를 증대시켜 실적에 직접 영향."
+      },
+      {
+        "factor": "인증 규제",
+        "detail": "국가별 RF 패턴·EIRP 등 인증 소요 기간이 길면 제품 판매 및 시장진입이 지연될 수 있음."
+      },
+      {
+        "factor": "환경규제",
+        "detail": "RoHS 등 유해물질 규제 위반 시 수출 제한·패널티로 제조사 책임 및 비용 부담 발생 가능."
+      },
+      {
+        "factor": "사업자 론칭",
+        "detail": "위성통신 사업자들의 서비스 론칭·게이트웨이 설치 일정이 매출 발생 시점에 큰 영향을 미침."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "나. 회사의 현황 > 1) 목표시장 및 비즈니스 포트폴리오 > 가) 해상용 위성 안테나 시장",
+        "evidence_text": "당사는 이미 GEO VSAT 제품 시장에서 세계 1위의 위상을 확보하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "경영진 실적·전략 요약(MD&A) > 1) 해상용 위성통신 안테나",
+        "evidence_text": "2025년 해상용 위성통신 안테나 매출은 1,802억 원을 기록하며"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "나. 회사의 현황 > 1) 목표시장 및 비즈니스 포트폴리오 > 가) 해상용 위성 안테나 시장",
+        "evidence_text": "인마셋(Inmarsat) 및 이리듐(Iridium)의 개발사로 선정되었으며"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 5614,
+    "completion_tokens": 3609,
+    "reasoning_tokens": 2816,
+    "output_tokens": 793
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

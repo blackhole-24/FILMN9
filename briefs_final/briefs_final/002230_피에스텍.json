@@ -1,0 +1,62 @@
+{
+  "stock_code": "002230",
+  "corp_name": "피에스텍",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 17:53",
+  "meta": {
+    "wics": "전기제품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "피에스텍은 2000년 풍성전기의 계량 사업부가 분할되어 피에스텍으로 변경 등록된 이후 전력 계량·계측(전력량계) 분야를 주력으로 하는 코스닥 상장 기업입니다. 김포와 나주에 생산기지를 보유하며 전력량계(EM) 중심의 제품 개발과 공급을 통해 성장해 왔습니다.",
+    "business_model": "제69기 매출은 전력기기(EM 등) 64.6%, 신재생 24.1%, 상품 기타 11.3%로 구성되어 있습니다. 주력은 전력량계(EM) 및 Digital EM, 중앙검침시스템(AMR, 원격검침) 등 계측·계량 제품이며, ZEMS(제로에너지관리시스템) 개발·공급을 통한 신재생 분야 확장도 수행하고 있습니다.",
+    "main_customers": "전력기기 — 한국전력공사·건설사 / 신재생 — LH 및 공공·민간 건설부문 / 상품 기타 — 내수 시장",
+    "price_factors": [
+      {
+        "factor": "입찰구조",
+        "detail": "한국전력의 제한적 경쟁입찰 및 최저가 입찰 방식은 수주가격과 마진에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "건설경기",
+        "detail": "계량·계측 수요는 주택건설 경기 변동에 민감하여 건설투자 둔화 시 실적에 부정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "스마트미터 보급",
+        "detail": "AMI(원격검침)·스마트미터 보급 확대는 Digital EM·중앙검침시스템의 수요 증가로 실적에 긍정적 영향을 줍니다."
+      },
+      {
+        "factor": "원가경쟁",
+        "detail": "저비용 고품질 제품 개발 경쟁이 심화되면 가격 경쟁 압력이 커져 수익성에 영향이 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 개요",
+        "evidence_text": "2000년 8월 풍성전기(주)의 기업분할로 자동차부품 사업을 별도 법인으로 분리시키고 기존의 Electricity Meter 사업을 피에스텍 주식회사로 상호 변경하여 코스닥시장에 변경등록 하였으며,"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > (나). 산업의 성장성",
+        "evidence_text": "당사는 ZEMS 시스템을 개발·공급하며 해당 시장 확대를 선도하고 있으며,"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "주요 거래처는 한국전력공사 및 건설사 입니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4815,
+    "completion_tokens": 4743,
+    "reasoning_tokens": 4032,
+    "output_tokens": 711
+  },
+  "warnings": []
+}

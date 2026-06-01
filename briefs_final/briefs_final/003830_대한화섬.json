@@ -1,0 +1,91 @@
+{
+  "stock_code": "003830",
+  "corp_name": "대한화섬",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 09:42",
+  "meta": {
+    "wics": "화학",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "대한화섬은 섬유산업 중에서도 폴리에스터를 포함한 화학섬유 분야에 속한 기업입니다. 사업보고서에서는 화학섬유 산업이 석유화학과 밀접하게 연계된 자본집약적·기술집약적 산업이라고 설명하고 있으며, 회사는 폴리에스터 부문의 손상검사까지 진행한 것으로 나타납니다.",
+    "business_model": "대한화섬의 사업은 폴리에스터 등 화학섬유를 기반으로 하며, 사업부문별 영업수익 구성은 FY2025 기준 1부문 7.4%, 2부문 5.0%, 3부문 4.3%, 4부문 3.4%, 5부문 3.3%로 제시되어 있습니다. 회사는 원가 절감을 위한 생산 공정 에너지 효율 최적화와, 리사이클 원사 및 향균·기능성 소재 같은 고부가가치 제품의 연구개발과 마케팅을 함께 추진하고 있습니다. 또한 수출 노선 다변화와 전략적 파트너십 확대를 통해 변화하는 글로벌 시장에 대응하려는 방향을 밝히고 있습니다.",
+    "main_customers": "폴리에스터 및 화학섬유 — 산업자재용 수요처, 의료용 수요처, 혼방 소재 수요처 / 수출 — 해외 거래처 / 고부가가치 소재 — 리사이클 원사 및 기능성 소재를 찾는 수요처",
+    "price_factors": [
+      {
+        "factor": "원료변동",
+        "detail": "석유화학 제품 가격 변동이 화학섬유 산업에 바로 영향을 주어 원가와 수익성에 직접적인 변수가 됩니다."
+      },
+      {
+        "factor": "중국수요",
+        "detail": "중국의 내수 소비와 수급 변화가 수출·수입 흐름에 영향을 주면서 국내 화학섬유 산업의 실적에도 영향을 미칩니다."
+      },
+      {
+        "factor": "가격경쟁",
+        "detail": "범용 폴리에스터는 완전경쟁시장 구조라 가격경쟁력이 약해지면 실적 압박이 커질 수 있습니다."
+      },
+      {
+        "factor": "기술진입",
+        "detail": "차별화 제품은 복합 방사 등 기술장벽이 있어 기술 경쟁력 확보 여부가 수익성 차이를 만들 수 있습니다."
+      },
+      {
+        "factor": "환율변동",
+        "detail": "수출과 원재료 수입에 USD, EUR, JPY, CHF 환율이 영향을 주어 환율 변동이 실적에 변수가 됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 사업의 개요",
+        "evidence_text": "폴리에스터를 포함하는 합성섬유 산업은 석유화학과 밀접하게 연계되는 산업"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "1 (7.4%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "2 (5.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "3 (4.3%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "4 (3.4%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "5 (3.3%)"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 사업의 개요",
+        "evidence_text": "원료인 석유화학 제품의 변동이 화학섬유 산업에 바로 영향을"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 사업의 개요",
+        "evidence_text": "중국의 내수 소비 변화에 따라 중국 화학섬유산업의 수급"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4664,
+    "completion_tokens": 1009,
+    "reasoning_tokens": 0,
+    "output_tokens": 1009
+  },
+  "warnings": []
+}

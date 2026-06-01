@@ -1,0 +1,62 @@
+{
+  "stock_code": "131220",
+  "corp_name": "대한과학",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 09:41",
+  "meta": {
+    "wics": "생명과학도구및서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "대한과학은 1980년 설립된 연구용 실험기기의 국내 최대 종합유통·제조·토탈서비스 기업으로, 프리미엄 장비를 생산·수출하며 국내외 대리점 네트워크를 통해 제품과 서비스를 제공하는 기업입니다.",
+    "business_model": "핵심 비즈니스는 국내·외 제조사 제품의 글로벌 소싱(sourcing)으로 확보한 다양한 실험기기를 국내외 대리점과 자체 제조를 통해 유통·판매하고, 렌탈·중고몰·교정(교정서비스)·랩컨설팅·바이오뱅킹 등 기술영업서비스를 병행하여 수익을 창출합니다. 회사가 제시한 [사업부문별 매출 구성]에는 73.53%, 6.72%, 4.32%, 15.42%, 100%, 41.07% 등의 비율이 표기되어 있습니다.",
+    "main_customers": "종합유통·서비스 — 대학·국책연구소·기업부설연구소·제약사·식품·화학·재료·전기전자 분야 연구기관 / 제조·수출 — 국내외 대리점 네트워크를 통한 전 세계 약 70개국 수출처",
+    "price_factors": [
+      {
+        "factor": "연구예산",
+        "detail": "과학기술예산 감소 시 연구장비 수요가 줄어들어 매출에 직접적인 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "글로벌경쟁",
+        "detail": "거대 다국적기업의 인수·합병 및 규모화로 가격·유통 경쟁이 심화되어 수익성에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "기술고도화",
+        "detail": "실험기기의 자동화·융합화 추세로 고성능 장비에 대한 수요는 늘어나지만, 기술·자본 보유 여부에 따른 차별화가 심화됩니다."
+      },
+      {
+        "factor": "수출의존",
+        "detail": "해외 법인 및 해외 생산을 통한 가격경쟁력 확보가 실적과 매출비중에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "연구용 실험기기의 국내 최대 종합유통, 제조, 토탈서비스 기업입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황",
+        "evidence_text": "국내외 270여 개 제조사의 제품을 글로벌 소싱(sourcing)"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "과학기술예산 감소와 시장 환경 변화"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4784,
+    "completion_tokens": 4659,
+    "reasoning_tokens": 3968,
+    "output_tokens": 691
+  },
+  "warnings": []
+}

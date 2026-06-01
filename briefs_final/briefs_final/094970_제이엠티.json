@@ -1,0 +1,77 @@
+{
+  "stock_code": "094970",
+  "corp_name": "제이엠티",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 07:31",
+  "meta": {
+    "wics": "디스플레이장비및부품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "제이엠티는 FPBA(패널 구동 회로)와 SMT(표면실장) 기반의 전자부품 제조를 핵심으로 하는 제조서비스(EMS: Electronic Manufacturing Services) 기업이며, 생활용품 OEM·미디어·자동차내장부품 등으로 사업 포트폴리오를 확장한 연결형 종합 제조기업입니다. 베트남 등 해외 생산기지를 운영하며 글로벌 수요에 대응하고 있습니다.",
+    "business_model": "주요 수익원은 전자부품(주로 FPBA)과 SMT 기반 생산으로, FY2025 기준 사업부문별 영업수익 구성은 전자부품 32.3%, 기록매체복제/미디어 14.0%, 생활건강사업 17.1%, 자동차내장부품 9.9%, 기타 0.9%입니다. 종속회사 제이엠아이를 통해 생활용품 OEM·ODM과 해외(미국·멕시코·베트남) 생산·공급망을 보유해 다각적 매출구조를 형성하고 있습니다.",
+    "main_customers": "전자부품 — 모바일·태블릿·TV 등 스마트디바이스 제조사 / 기록매체복제/미디어 — 라벨·인쇄물 수요기업 및 미디어 유통처 / 생활건강사업 — OEM 거래처(기존 거래처: 애경산업, 신규 OEM: 헨켈 등) / 자동차내장부품 — 자동차 제조업체(전기자동차 생산라인 관련)",
+    "price_factors": [
+      {
+        "factor": "제품수명주기",
+        "detail": "제품 수명주기 단축으로 제조사의 아웃소싱 수요가 확대되어 FPBA 등 전자부품 수요에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "해외생산전개",
+        "detail": "생산비 절감을 위한 해외진출 가속화(베트남 생산기지 운영)는 원가 경쟁력과 매출 대응력에 영향을 줍니다."
+      },
+      {
+        "factor": "설비투자부담",
+        "detail": "신기술 대응과 품질·수율 확보를 위한 설비투자가 지속되면 단기적으로 비용 부담으로 실적에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "OLED·신제품수요",
+        "detail": "OLED 탑재 모바일 기기 및 QD·태블릿 등 새로운 PBA 적용 제품군 공급 확대는 전자부품 매출 성장과 직결됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 초기에는 TFT-LCD Panel의 주요 부품 중 하나인 Note Monitor, PC Monitor 및 LCD TV용 패널 구동 PBA 생산을 중심으로 사업을 영위해 왔습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "전자부품: 64,622 (32.3%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "생활건강사업: 34,190 (17.1%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "MD&A / 연결대상 종속법인",
+        "evidence_text": "특히 기존 주요 OEM 거래처인 애경산업 외에 신규 OEM 업체인 헨켈과의 거래가 확정되었고,"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 산업의 특성",
+        "evidence_text": "기업들은 생산 효율성 제고와 비용 절감을 목적으로 제조 분야의 아웃소싱을 확대하는 추세에 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 산업의 특성",
+        "evidence_text": "최근 전 세계 전자산업은 제품의 라이프사이클 단축과 신기술 개발에 따른 지속적인 설비투자 부담 증가로 인해 제조기업의 수익성 확보에 일정한 한계가 나타나고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4570,
+    "completion_tokens": 3826,
+    "reasoning_tokens": 2816,
+    "output_tokens": 1010
+  },
+  "warnings": []
+}

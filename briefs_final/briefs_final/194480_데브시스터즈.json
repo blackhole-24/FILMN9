@@ -1,0 +1,67 @@
+{
+  "stock_code": "194480",
+  "corp_name": "데브시스터즈",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 11:25",
+  "meta": {
+    "wics": "게임엔터테인먼트",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "데브시스터즈는 자체 IP인 '쿠키런'을 중심으로 모바일게임을 개발·서비스하는 게임사입니다. '쿠키런' 시리즈와 신규 IP를 활용해 글로벌 시장에서 매출을 창출하고, 종속회사를 통한 벤처캐피탈(스타트업 투자) 활동도 병행하고 있습니다.",
+    "business_model": "핵심 수익원은 모바일게임(자체 개발·퍼블리싱)으로, 앱스토어(Google Play·App Store)를 통해 국내외 이용자에게 서비스를 제공합니다. 사업부문별로 게임이 94.2%, IP가 4.7%, 기타가 1.0%를 차지하며(사업부문별 영업수익 구성), 게임 매출 의존도가 매우 높은 구조입니다.",
+    "main_customers": "게임 — 국내외 소비자(앱스토어 이용자) / IP — 제휴사·파트너(캐릭터·브랜드 활용 수요) / 기타 — 투자대상 및 기타 파트너",
+    "price_factors": [
+      {
+        "factor": "IP 확보",
+        "detail": "유명 IP 보유 여부가 이용자 유입과 마케팅 효율에 직접적 영향을 주어 실적 변동성을 좌우합니다."
+      },
+      {
+        "factor": "인적자원",
+        "detail": "우수 개발·운영 인력 확보가 게임 흥행과 장기 서비스 유지에 핵심적이어서 인건비·채용경쟁이 수익성에 영향을 줍니다."
+      },
+      {
+        "factor": "마케팅비",
+        "detail": "신작 경쟁이 심한 가운데 사용자 확보비용이 상승하면 출시 초기 비용 부담이 커져 단기 영업이익에 부정적 영향을 미칩니다."
+      },
+      {
+        "factor": "환율",
+        "detail": "해외 매출 비중이 높아 환율 변동이 원화 기준 수익성(세전이익)에 직접적인 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 - 영업 현황",
+        "evidence_text": "독자적인 IP인 '쿠키런'을 탄생시킨 이래로"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "게임: 278,585 (94.2%), IP: 13,933 (4.7%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 - 2. 주요 제품 및 서비스",
+        "evidence_text": "국내외 소비자가 당사의 서비스를 이용하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "갈수록 경쟁이 심화되고 있으며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4658,
+    "completion_tokens": 4729,
+    "reasoning_tokens": 4032,
+    "output_tokens": 697
+  },
+  "warnings": []
+}

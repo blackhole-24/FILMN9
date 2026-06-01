@@ -1,0 +1,67 @@
+{
+  "stock_code": "195990",
+  "corp_name": "에이비프로바이오",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 11:28",
+  "meta": {
+    "wics": "기계",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "에이비프로바이오는 소형 머시닝센터(공작기계의 소형 머시닝센터)를 개발·생산·판매하는 제조업체입니다. 2019년에는 일부 바이오 이중항체(ABP-100·ABP-201)의 지적소유권 및 신약개발·사업화 권리를 인수했으며, 2023년에는 자회사 편입을 통해 반도체·이차전지 장비 사업에도 진출했습니다.",
+    "business_model": "주력은 소형 머시닝센터 제품(자가브랜드 및 OEM)으로, 2024년(제21기) 제품별 매출 비중은 UT Series 60.02%, UM Series 7.09%, PT Series 4.26%, XT Series 1.31%, 기타 4.76%, MAX Series 0.00%로 구성됩니다. 추가로 2019년 확보한 이중항체 신약 판권을 통한 바이오 신약개발 권리와, 2023년 자회사 편입을 통한 반도체·이차전지(배터리) 장비 사업이 신사업 포트폴리오로 병행되고 있습니다.",
+    "main_customers": "머시닝센터 — IT부품·스마트폰·태블릿·노트북·자동차 부품 제조업체 / 바이오 신약개발 — 신약개발·사업화 파트너(아시아·CIS·중동 지역권리 보유) / 반도체·이차전지장비 — 디스플레이·반도체·이차전지(배터리) 제조공정 업체",
+    "price_factors": [
+      {
+        "factor": "제조업 수요",
+        "detail": "IT·자동차 등 주요 제조업의 설비투자 감소 시 머시닝센터 수요가 줄어 실적에 직접 영향."
+      },
+      {
+        "factor": "기술경쟁력",
+        "detail": "공작기계는 기술집약적 산업으로 성능·정밀도 경쟁에서 뒤처지면 시장 점유율 하락 가능성이 큼."
+      },
+      {
+        "factor": "자본재 투자 사이클",
+        "detail": "공작기계는 자본재 성격이 강해 경기 변동에 따른 투자 사이클(설비투자 축소·확대)에 민감함."
+      },
+      {
+        "factor": "국가·산업정책",
+        "detail": "공작기계는 국가 기간산업 연관성이 높아 수입규제·자급도 정책이나 국책 지원 여부에 따라 수주환경이 달라질 수 있음."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 > 영업 현황",
+        "evidence_text": "머시닝센터 중에서도 소형급인 소형머시닝센터를 개발, 생산, 판매하는 회사입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "표: (1) 주요제품 등의 현황(사업부문별 매출 구성)",
+        "evidence_text": "UT Series 11,048 | 60.02"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 > 영업 현황",
+        "evidence_text": "지적소유권 및 이를 이용한 신약개발 및 사업화 권리를 인수하는 계약을 체결하였습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 > 영업 현황",
+        "evidence_text": "이차 전지 장비 사업 및 반도체 장비 사업에 진출하였습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5275,
+    "completion_tokens": 4070,
+    "reasoning_tokens": 3200,
+    "output_tokens": 870
+  },
+  "warnings": []
+}

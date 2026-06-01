@@ -1,0 +1,71 @@
+{
+  "stock_code": "006200",
+  "corp_name": "한국전자홀딩스",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 09:45",
+  "meta": {
+    "wics": "반도체와반도체장비",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "한국전자홀딩스는 1969년 설립된 기업으로, 2006년 지주회사 체제로 전환한 이후 그룹의 구조 개선과 투자 자산 효율화에 힘써 왔습니다. 현재는 순수지주회사로서 자회사 지배를 통해 전산수수료와 배당금을 주된 수입원으로 삼고 있으며, 연결 기준으로는 반도체 사업부문이 매출의 대부분을 차지합니다.",
+    "business_model": "별도 기준으로는 순수지주회사로서 자회사의 경영자문 및 전산용역수수료, 배당금이 주요 수익원입니다. 연결 기준 사업부문은 반도체 사업 98.8%, 서비스 사업 3.5%로 구성되어 있으며, 반도체 사업부문이 연결 매출액의 대부분을 차지합니다. 반도체 사업은 비메모리 반도체 부품 생산에 특화돼 있고, 서비스 사업은 자회사 지원 성격의 수익 구조로 보입니다.",
+    "main_customers": "반도체 사업부문 — 한국계 및 일본계 주요 전자제품업체, 완성차 및 부품업체 / 서비스 사업부문 — 자회사(경영자문·전산용역수수료 대상)",
+    "price_factors": [
+      {
+        "factor": "반도체 수요",
+        "detail": "세계 반도체 시장과 주력 시장(SSTR)의 성장 여부가 반도체 사업부문의 매출과 실적에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "경기변동",
+        "detail": "반도체 시장은 경기순환에 따라 호황과 불황을 반복해 실적 변동성이 커질 수 있습니다."
+      },
+      {
+        "factor": "제품수명",
+        "detail": "반도체는 제품수명주기가 짧아 기술 변화와 교체 속도에 따라 경쟁력과 수익성이 달라집니다."
+      },
+      {
+        "factor": "설비투자",
+        "detail": "제조설비 개선과 신규설비 투자, 개발인력 충원은 향후 영업실적 개선 기대에 영향을 줍니다."
+      },
+      {
+        "factor": "글로벌공략",
+        "detail": "전력반도체 핵심설비와 기술인력 투자가 글로벌 시장 공략 성과로 이어질 경우 성장 동력이 강화될 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 가. 업계의 현황",
+        "evidence_text": "한국전자홀딩스는 1969년 설립되어 반세기가 넘는 시간 동안"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 다. 모회사의 사업현황",
+        "evidence_text": "당사는 순수지주회사로 다른 회사의 주식을 소유함으로써"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 마. 사업부문의 영업실적",
+        "evidence_text": "반도체 사업 | 442,374,496"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 라. 자회사의 사업현황",
+        "evidence_text": "한국계 및 일본계 주요 전자제품업체, 완성차 및 부품업체들과"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4280,
+    "completion_tokens": 810,
+    "reasoning_tokens": 0,
+    "output_tokens": 810
+  },
+  "warnings": []
+}

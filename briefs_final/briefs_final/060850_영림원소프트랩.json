@@ -1,0 +1,69 @@
+{
+  "stock_code": "060850",
+  "corp_name": "영림원소프트랩",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 04:04",
+  "meta": {
+    "wics": "소프트웨어",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "영림원소프트랩은 국내 중소·중견기업을 대상으로 ERP(전사적자원관리) 솔루션을 개발·공급하는 소프트웨어 기업입니다. 1997년 한국형 ERP 패키지 'K-System'을 개발한 이후 다양한 업종에 최적화된 ERP와 관련 서비스를 제공하며 시장에서의 입지를 다져왔습니다.",
+    "business_model": "핵심 제품은 구축형 ERP인 K-System으로, 업종별 모듈과 표준화된 프로세스를 통해 라이선스·구축 수익을 창출합니다. 유지관리·컨설팅·클라우드형 SystemEver(표준 프로세스 기반 SaaS) 등 서비스와 개발 플랫폼·BI(경영정보)·모바일·로우코드 플랫폼·AI 융합 제품이 반복적 매출과 확장성 있는 수익원 역할을 합니다.",
+    "main_customers": "구축형 ERP — 중소·중견기업 / 클라우드형(SaaS) 솔루션 — 표준화된 프로세스를 필요로 하는 기업 고객",
+    "price_factors": [
+      {
+        "factor": "디지털전환 수요",
+        "detail": "디지털 전환이 활발해지면 ERP 도입 수요가 늘어나 실적에 긍정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "클라우드·SaaS 전환",
+        "detail": "웹 기반 및 클라우드/SaaS 전환 추세는 SystemEver 등 클라우드 사업 확대와 매출 안정성에 직접적 영향을 미칩니다."
+      },
+      {
+        "factor": "AI·빅데이터 융합",
+        "detail": "AI·빅데이터 연계 요구가 커지면 고도화된 경영분석·AI융합 제품의 수요 증가로 이어질 수 있습니다."
+      },
+      {
+        "factor": "산업별 표준화",
+        "detail": "산업별 표준 프로세스 수요 증가는 업종 특화 모듈의 경쟁력을 좌우합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 사업 개황",
+        "evidence_text": "국내의 대표적 ERP 개발 및 판매 기업입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "나. 주요 제품의 기능, 용도 특징",
+        "evidence_text": "K-System ERP는 기업 활동 전체에 최적화된 통합시스템 입니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "중소,중견기업을 대상으로"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "클라우드/SaaS로 서비스 제공하고 있고"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4529,
+    "completion_tokens": 3573,
+    "reasoning_tokens": 2880,
+    "output_tokens": 693
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

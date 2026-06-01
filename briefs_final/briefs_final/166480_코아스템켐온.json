@@ -1,0 +1,87 @@
+{
+  "stock_code": "166480",
+  "corp_name": "코아스템켐온",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 10:40",
+  "meta": {
+    "wics": "생물공학",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "코아스템켐온은 줄기세포기술을 바탕으로 희귀·난치성 질환 대상 세포치료제의 개발·생산·판매를 영위하는 바이오기업입니다. 2015년 2월부터 줄기세포치료제의 상용화로 환자에게 투약을 개시했으며, 2022년 12월 (주)켐온을 흡수합병하여 비임상CRO 역량을 보강한 사업구조를 갖추고 있습니다.",
+    "business_model": "사업은 제품(치료제) 판매와 용역(비임상 CRO 실험 대행)으로 구분되며, FY2025 기준 영업수익은 제품 0.9%, 용역 98.3%로 용역(비임상 서비스)이 주요 수익원입니다. 동시에 차세대(2세대) 줄기세포치료제 기초연구와 공정자동화기술 연구를 통해 제품 상용화 및 파이프라인 확대를 추진하고 있습니다.",
+    "main_customers": "제품 — 환자(치료제 투약 대상) / 용역 — 비임상(전임상) 시험을 의뢰하는 제약·바이오 개발 주체",
+    "price_factors": [
+      {
+        "factor": "임상·허가",
+        "detail": "식약처 등 규제기관의 품목허가(또는 변경허가) 결과에 따라 제품의 시장 진입 시기와 매출 실현 가능성이 직접적으로 영향을 받습니다."
+      },
+      {
+        "factor": "CRO 수요",
+        "detail": "비임상CRO 사업부의 수주 감소·회복 여부가 매출 변동의 주요 요인으로 작용합니다."
+      },
+      {
+        "factor": "글로벌 경기",
+        "detail": "글로벌 경기 침체는 비임상 수주 감소로 이어져 단기 실적에 부정적 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "정부자금",
+        "detail": "정부 정책자금 축소는 비임상CRO 산업 전반의 침체를 심화시켜 수주와 이익에 부담을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "줄기세포치료제의 상용화에 성공하여 2015년 2월 부터 환자에게 투약을 개시하였습니다."
+      },
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 2022년 12월 2일에 ... (주)켐온을 흡수합병하여 성장성과 안정성을 겸비한 사업구조를 보유하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "제품: 188 (0.9%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "용역: 19,816 (98.3%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "2015년 2월 부터 환자에게 투약을 개시하였습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "비임상 CRO는 신약개발의 경우 ... 전임상(비임상) 단계에서 독성(안전성)과 약효(유효성)를 동물실험을 통하여 사전 검증하는 시험을 담당하는 기관"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "루게릭병 치료제인 뉴로나타-알주는 ... 식약처에 품목변경허가를 신청하였으며 결과를 기다리고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "코비드19 펜데믹 종료 및 정부의 정책자금 감소 등으로 인해 비임상CRO산업은 침체를 겪고 있으며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3588,
+    "completion_tokens": 4785,
+    "reasoning_tokens": 3712,
+    "output_tokens": 1073
+  },
+  "warnings": []
+}

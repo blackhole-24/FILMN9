@@ -1,0 +1,76 @@
+{
+  "stock_code": "002290",
+  "corp_name": "삼일기업공사",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 09:41",
+  "meta": {
+    "wics": "건설",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "삼일기업공사는 1958년에 설립된 종합건설회사로, 건축·토목공사를 중심으로 사업을 영위하고 있습니다. 미국 육군 극동공병단(F.E.D) 발주 공사와 울산공단·여천공단의 초정밀 PLANT 공사 수행 경험을 바탕으로 시공 기술을 축적해 왔습니다. 2025년에는 건설 경기 부진 속에서도 매출 851억 원과 당기순이익 68억 원을 기록했습니다.",
+    "business_model": "회사의 매출은 사실상 수주를 통해 발생하는 건설업 구조이며, FY2025 기준 사업부문별 영업수익은 국내도급공사 99.5%, 토목 0.5%입니다. 전체 매출 구조로 보면 공사 매출이 99.6%, 임대 매출이 0.4%를 차지해 공사 중심의 사업모델이 매우 뚜렷합니다. 회사는 양질의 수주 물량 확보를 위해 건실한 재무구조와 고도의 기술력을 중요 경쟁 요소로 삼고 있습니다.",
+    "main_customers": "국내도급공사 — 발주처가 있는 국내 공사 수요처 / 토목 — 토목공사 발주처 / 임대 — 임대 이용처",
+    "price_factors": [
+      {
+        "factor": "경기변동",
+        "detail": "건설업은 수주 산업이라 국내 경기와 부동산 경기 흐름에 따라 공사 물량과 실적 변동이 크게 나타납니다."
+      },
+      {
+        "factor": "수주경쟁",
+        "detail": "업계의 수주 경쟁이 치열해질수록 양질의 공사 확보가 어려워져 매출 성장에 부담이 될 수 있습니다."
+      },
+      {
+        "factor": "원가상승",
+        "detail": "원자재 가격 상승으로 공사 원가가 늘어나면 수익성에 직접적인 압박이 생길 수 있습니다."
+      },
+      {
+        "factor": "기술력",
+        "detail": "건설업에서는 시공 기술력과 과거 시공경험이 경쟁 요소라서, 기술 역량이 수주 가능성에 영향을 줍니다."
+      },
+      {
+        "factor": "재무안정",
+        "detail": "재무 구조가 안정적일수록 발주처 신뢰가 높아져 수주 경쟁에서 유리하게 작용할 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "1958년에 설립되어"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "울산공단 및 여천공단에서 완벽하게 시공"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "국내도급공사: 76,652 (99.5%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "토 목: 411 (0.5%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "MD&A",
+        "evidence_text": "공사 매출이 99.6%, 임대 매출이 0.4%"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4158,
+    "completion_tokens": 829,
+    "reasoning_tokens": 0,
+    "output_tokens": 829
+  },
+  "warnings": []
+}

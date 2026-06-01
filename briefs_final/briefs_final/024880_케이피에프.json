@@ -1,0 +1,72 @@
+{
+  "stock_code": "024880",
+  "corp_name": "케이피에프",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 22:58",
+  "meta": {
+    "wics": "기계",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "케이피에프는 화스너(볼트·너트 등), 자동차용 단조부품(베어링 부품 등) 및 선박용 케이블·조명장치 등을 생산하는 기업으로, 구축물·자동차·선박 등 기간산업의 필수 부품을 공급하고 있습니다. 당사는 베트남·중국 법인 및 2025년 설립된 미국 현지법인 등 글로벌 생산기지를 통해 시장 다각화와 현지화를 추진하고 있습니다.",
+    "business_model": "매출은 제품 판매가 주된 수익원이며, 제62기(2025년) 기준 사업부문별 매출은 화스너·자동차용 부품이 52.4%, 선박용 케이블 외가 41.0%, 기타(부산물·임대 등)가 1.5%로 구성되어 있습니다. 화스너는 표준품과 고부가가치 제품을 병행 생산하며, 자동차용 부품과 선박용 케이블은 각각 완성차 업체와 조선소·해양플랜트를 주요 납품처로 공급됩니다.",
+    "main_customers": "화스너 — 건설·장비·플랜트 등 기간산업 업체 / 자동차용 부품 — 자동차용 부품 조립·가공 업체 및 완성차 업체 / 선박용 케이블 외 — 조선소 및 해양플랜트(선주·선급기관 요구가 있는 고객)",
+    "price_factors": [
+      {
+        "factor": "전방산업 수요",
+        "detail": "건설·자동차·조선 등 전방산업의 경기 변동에 따라 주문량과 실적이 직결됩니다."
+      },
+      {
+        "factor": "국제 원가경쟁",
+        "detail": "저가 표준 화스너 시장에서 중국·인도 경쟁이 강해 원가 경쟁력이 실적에 영향을 줍니다."
+      },
+      {
+        "factor": "품질·인증 요구",
+        "detail": "완성차와 조선소의 품질·선급 인증 요구가 강화되면 인증 보유업체에 유리하고 신규진입은 어려워집니다."
+      },
+      {
+        "factor": "기술·고부가 제품화",
+        "detail": "열처리·가공 등 기술력으로 맞춤형·고부가가치 제품을 확보하면 수익성 개선에 도움이 됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "당사가 생산하는 제품은 구축물과 자동차의 안전에 큰 영향을 미치는 가장 필수적인 요소부품입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "389,673(52.4%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "305,178(41.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "건설, 장비, 플랜트 산업 등"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나. 회사의 현황 (1) 화스너 부문",
+        "evidence_text": "저가 표준 화스너 제품은 중국, 인도 등이 강세를 보이고"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5086,
+    "completion_tokens": 3707,
+    "reasoning_tokens": 2880,
+    "output_tokens": 827
+  },
+  "warnings": []
+}

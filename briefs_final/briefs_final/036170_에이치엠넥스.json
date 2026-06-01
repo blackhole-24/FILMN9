@@ -1,0 +1,67 @@
+{
+  "stock_code": "036170",
+  "corp_name": "에이치엠넥스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 00:32",
+  "meta": {
+    "wics": "디스플레이장비및부품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "에이치엠넥스는 자동차 및 조명용 LED를 생산하는 전문기업입니다. 주력 제품인 자동차용 LED는 현대·기아자동차에 납품되는 부품으로 사용되며, SQ 및 ISO 품질인증을 보유해 자동차용 공급기준을 갖추고 있습니다.",
+    "business_model": "사업부문별로 LED 사업부가 매출의 55.5%를 차지하고, 반도체장비 사업부가 매출의 20.8%를 차지합니다. LED 사업부는 자동차용 LED 모듈을 1·2차 부품업체에 납품하여 최종적으로 현대·기아자동차 완성차에 사용되며, 반도체장비 사업부는 종속회사(에스엠아이)를 통해 LDS(Liquid Delivery System) 등 장비를 반도체 제조업체에 공급합니다.",
+    "main_customers": "LED 사업부 — 자동차부품 1차·2차 공급업체(예: 현대모비스, 한국알프스, 아이넥, 모베이스전자, 윤진전자, 서브원) / 반도체장비 사업부 — 반도체 제조사·장비업체(예: SK하이닉스, SK키파운드리, 세메스, 율촌화학, 테스)",
+    "price_factors": [
+      {
+        "factor": "완성차 생산량",
+        "detail": "현대·기아자동차의 차량 생산량 변동이 LED 사업 매출에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "가격경쟁",
+        "detail": "LED 광원의 고효율화 및 저가격화 추세로 인해 제품 단가·수익성에 압박이 발생할 수 있습니다."
+      },
+      {
+        "factor": "표준화 경쟁",
+        "detail": "대형업체의 LED 엔진 표준화 추진으로 기술·규격 경쟁이 심화될 경우 시장 지위에 영향이 있을 수 있습니다."
+      },
+      {
+        "factor": "반도체 수요",
+        "detail": "종속회사의 SK하이닉스 신규 FAB 납품 등 반도체 장비 수요 확대는 반도체장비 사업 실적에 중요한 변수입니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 사업 개요 [LED 사업부]",
+        "evidence_text": "당사는 자동차 및 조명용 LED를 생산하는 전문기업입니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 사업 개요 [LED 사업부]",
+        "evidence_text": "주요 고객은 현대모비스, 한국알프스, 아이넥, 모베이스전자, 윤진전자, 서브원 등"
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "LED 사업부: 17,611 (55.5%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "반도체장비 사업부: 6,586 (20.8%)"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5507,
+    "completion_tokens": 3657,
+    "reasoning_tokens": 2880,
+    "output_tokens": 777
+  },
+  "warnings": []
+}

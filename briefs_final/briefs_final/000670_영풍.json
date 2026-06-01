@@ -1,0 +1,66 @@
+{
+  "stock_code": "000670",
+  "corp_name": "영풍",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 09:38",
+  "meta": {
+    "wics": "핸드셋",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "영풍은 아연괴와 기타 유가금속을 제조·판매하는 종합비철금속제련회사로, 비철금속 제련을 중심 사업으로 영위하고 있습니다. 연결 범위로는 전자부품, 반도체 패키지, 상품중개, 농업, 건물 및 설비관리 등 여러 종속회사를 함께 보유하고 있습니다.",
+    "business_model": "영풍의 핵심 수익은 제련 부문과 전자부품 부문에서 나오며, FY2025 사업부문별 영업수익은 전자부품 부문 64.9%, 제련 부문 41.0%, 상품중개 부문 4.2%, 반도체 부문 3.5%, 기타(임대관리) 부문 0.1%로 제시되어 있습니다. 제련 부문은 아연과 황산을 생산·판매하고, 전자부품 부문은 HDI(고밀도회로기판)와 Package Substrate(반도체용 기판)를 중심으로 PCB(인쇄회로기판)를 공급하는 구조입니다. 반도체 부문은 반도체 패키징(칩을 보호·연결하는 공정)과 관련된 사업을 담당합니다.",
+    "main_customers": "제련 부문 — 철강, 자동차, 가전, 전기, 건설산업 / 전자부품 부문 — 반도체·이동통신·가전산업의 국내외 주요 고객사 / 반도체 부문 — 국내외 반도체 관련 고객사 / 상품중개 부문 — 구체적 고객 유형 미제시",
+    "price_factors": [
+      {
+        "factor": "LME가격",
+        "detail": "아연제품 가격이 국제시장(LME) 가격과 연동되어, 아연 시세 변동이 제련 부문 실적에 직접 영향을 줍니다."
+      },
+      {
+        "factor": "환율변동",
+        "detail": "아연제품 가격이 환율과 함께 산정되고 원자재 가격에도 영향을 받아, 원/달러 환율 변화가 수익성에 영향을 줍니다."
+      },
+      {
+        "factor": "원자재",
+        "detail": "전자부품 부문은 Cu 국제시세와 거래업체 단가협상, 원재료 Grade 변화에 따라 원가가 달라집니다."
+      },
+      {
+        "factor": "PCB수요",
+        "detail": "전방산업의 성장과 PCB 수요 확대가 이어질수록 전자부품 부문의 매출 확대에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "반도체",
+        "detail": "반도체 업황과 AI 관련 패키지 기판 수요가 변동하면 반도체·전자부품 관련 실적에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 아연괴 및 기타 유가금속등을 제조, 판매하는 종합비철금속제련회사로 비철금속을 제련하는 사업을 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "제련 부문: 1,192,666 (41.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "아연은 자동차 및 가전제품의 외장재와 건설용 철판재에 쓰이는 철강재의 부식 방지용 도금원료"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5236,
+    "completion_tokens": 867,
+    "reasoning_tokens": 0,
+    "output_tokens": 867
+  },
+  "warnings": []
+}

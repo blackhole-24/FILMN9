@@ -1,0 +1,72 @@
+{
+  "stock_code": "199550",
+  "corp_name": "레이저옵텍",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 11:23",
+  "meta": {
+    "wics": "건강관리장비와용품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "레이저옵텍은 2000년에 설립되어 초기에는 반도체·자동차 제조공정용 레이저를 개발·제조하다가 이후 레이저 기반 미용기기와 질환치료 의료기기로 사업을 전환했습니다. 2005년 LOTUS·HELIOS 출시로 미용기기 시장에 진입했고, 2016년에는 티타늄 사파이어 기반 PALLAS 장비를 개발하는 등 레이저 원천기술을 바탕으로 제품 포트폴리오를 확장해왔습니다. 해외 FDA(미국 식품의약국), CE(유럽 인증) 등 인증을 통해 국제시장에도 진출하고 있습니다.",
+    "business_model": "FY2025 기준 영업수익은 제품 92.8%, 상품 0.2%, 기타 7.2%로 구성되어 제품 판매가 핵심 수익원입니다(제품: 20,344 / 상품: 54 / 기타: 1,829). 주력은 레이저 미용기기와 백반증 등 질환 치료용 의료기기의 연구·개발(원천기술) 및 판매이며, 장기적으로는 초음파 등 다양한 에너지원으로 제품군을 확장하려는 R&D 중심의 사업모델을 추구합니다.",
+    "main_customers": "제품 — 종합병원·개인병원(피부미용 및 질환치료 목적의 의료기관) / 상품 — 유통업체·해외 바이어 / 기타 — 서비스·기타 영업수익 관련 거래처",
+    "price_factors": [
+      {
+        "factor": "해외수출 리스크",
+        "detail": "미국 소송 이슈로 미국 시장 주력 제품 매출이 감소한 것처럼 소송·분쟁이 해외 실적과 영업이익에 직접적 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "글로벌 수요",
+        "detail": "에너지 기반 미용기기 시장이 연평균 13.8% 성장하는 등 수요 확대는 매출 성장에 우호적으로 작용합니다."
+      },
+      {
+        "factor": "기술·제품 경쟁",
+        "detail": "HIFU·RF 등 다양한 에너지원 기반 기기가 보급되면서 제품 간 보완·경쟁으로 시장 상황과 제품 믹스가 실적에 영향을 줍니다."
+      },
+      {
+        "factor": "인증·규제",
+        "detail": "FDA·CE 등 해외 인증 취득 여부가 해외시장 진출과 매출 발생에 중요한 변수로 작용합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 → 1. 사업의 개요",
+        "evidence_text": "(주)레이저옵텍은 2000년에 설립되었고"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "제품: 20,344 (92.8%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 나. 산업 및 시장 개요",
+        "evidence_text": "종합병원에서 개인병원으로 확대"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 다. 시장 규모 및 현황",
+        "evidence_text": "연간 평균 13.8%의 성장률을 보이면서"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A) > 나. 영업실적",
+        "evidence_text": "미국 소송 이슈로 인한 미국 시장의 주력 제품 매출 감소"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3493,
+    "completion_tokens": 4410,
+    "reasoning_tokens": 3520,
+    "output_tokens": 890
+  },
+  "warnings": []
+}

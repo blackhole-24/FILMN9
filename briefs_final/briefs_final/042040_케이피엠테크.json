@@ -1,0 +1,67 @@
+{
+  "stock_code": "042040",
+  "corp_name": "케이피엠테크",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 01:38",
+  "meta": {
+    "wics": "화학",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "케이피엠테크는 1971년 한국도금재료공사로 창립된 이후 표면처리 약품과 기계(전자동 도금설비) 사업을 주력으로 하는 기업입니다. 2003년 코스닥에 등록되었고, 관계회사 및 종속회를 통해 건강기능식품·생활용품 사업과 제약·바이오 분야에 대한 투자도 병행하고 있습니다.",
+    "business_model": "핵심 사업은 표면처리약품(주문생산 기반)과 전자동도금설비(주문제작)의 두 축이며, 기타 종속회사를 통한 건강기능식품 및 생활용품 사업을 영위합니다. 사업부문별 매출은 제품 11.3%, 전자동도금설비 5.4%, 상품 18.7%, 기타 2.0%, 건강기능식품외 62.6%로 구성되어 있으며(사업부문별 매출 구성), 표면처리약품은 고도의 기술력과 현장경험이 요구되는 주문생산 구조입니다.",
+    "main_customers": "표면처리약품 — PCB(인쇄회로기판)·반도체·자동차 부품 등 전방산업 제조업체 / 전자동도금설비 — PCB 및 전자부품 제조업체 / 건강기능식품외 — 최종 소비자(건강기능식품·생활용품 구매층)",
+    "price_factors": [
+      {
+        "factor": "전방수요",
+        "detail": "PCB·반도체·전자산업의 투자 축소·확대가 매출에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "기술경쟁",
+        "detail": "표면처리약품은 기술·노하우가 중요하여 소수 기술우위 업체에 수요가 편중되는 구조입니다."
+      },
+      {
+        "factor": "신제품개발",
+        "detail": "전방산업의 첨단화에 맞춘 혁신 제품 개발 실패 시 고객 니즈 충족에 어려움이 발생합니다."
+      },
+      {
+        "factor": "국제변동성",
+        "detail": "외국 기술 의존 완화를 위한 국산화 노력에도 국제시장 변동은 원가·수급에 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 사업의 내용",
+        "evidence_text": "1971년 한국도금재료공사로 설립되어"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "건강기능식품외: 48,163,918 (62.6%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 사업의 내용",
+        "evidence_text": "주 수요층은 PCB 및 전자부품 제조업체입니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "케이피엠테크는 국내 표면처리업계 최고의 위치를 유지하고 있으며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4697,
+    "completion_tokens": 3648,
+    "reasoning_tokens": 2880,
+    "output_tokens": 768
+  },
+  "warnings": []
+}

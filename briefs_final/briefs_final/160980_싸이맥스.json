@@ -1,0 +1,69 @@
+{
+  "stock_code": "160980",
+  "corp_name": "싸이맥스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 10:34",
+  "meta": {
+    "wics": "반도체와반도체장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "싸이맥스는 반도체 웨이퍼 이송 및 장비용 모듈을 주로 제작하는 기업으로, CTS(Cluster Tool System)와 EFEM(Equipment Front End Module) 등 맞춤형 반도체 장비를 공급합니다. 제품은 대부분 고객 요구에 따라 주문 제작되는 특징이 있으며, 연구개발을 통해 차세대 장비 개발과 품질 개선을 지속하고 있습니다.",
+    "business_model": "핵심 사업은 반도체장비 생산으로, 주요 제품으로 CTS와 EFEM 등 공정 장비용 이송·인터페이스 모듈을 제공합니다. [사업부문별 매출 구성]에는 '반도체장비', '기타 매출', '환경설비'로 구분되어 있으며, 주문 제작 기반의 맞춤형 설계와 연구개발(매출의 일부를 R&D에 투입)로 제품 사양과 가격이 결정됩니다.",
+    "main_customers": "반도체장비 — 반도체 소자 업체(Chip Maker) / 기타 매출 — 명시되지 않음 / 환경설비 — 명시되지 않음",
+    "price_factors": [
+      {
+        "factor": "HBM수요",
+        "detail": "HBM(고대역폭 메모리)과 GPU 수요에 따른 반도체 장비 투자 확대가 실적에 영향."
+      },
+      {
+        "factor": "공정고도화",
+        "detail": "미세공정·고효율 장비 요구가 늘어 장비 사양·가격 상승 및 기술 경쟁 중요성을 높임."
+      },
+      {
+        "factor": "경기민감도",
+        "detail": "반도체 전체 수요와 장비 투자 주기에 따라 실적 변동 폭이 커지는 특성이 있음."
+      },
+      {
+        "factor": "맞춤화",
+        "detail": "주문 제작형 제품 특성상 고객 요구·사양에 따른 가격 변동성과 고객사와의 협력관계가 실적에 영향."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 3-1. CTS(Cluster Tool System)",
+        "evidence_text": "CTS(Cluster Tool System)는 반도체 공정 장비(Process Module)와 연결되는 웨이퍼(Wafer) 이송 장비이며,"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 영업 현황",
+        "evidence_text": "제품의 선행개발, 제조공정 개선 및 품질 개선을 위해 노력하고 있으며,"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 1. 산업의 특성",
+        "evidence_text": "수요업체인 반도체 소자 업체마다"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 산업의 성장성",
+        "evidence_text": "차세대 반도체인 HBM은 GPU를 구성하는 핵심 반도체 메모리 소자"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4690,
+    "completion_tokens": 3613,
+    "reasoning_tokens": 2880,
+    "output_tokens": 733
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

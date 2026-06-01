@@ -1,0 +1,69 @@
+{
+  "stock_code": "005810",
+  "corp_name": "풍산홀딩스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 13:13",
+  "meta": {
+    "wics": "비철금속",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "풍산홀딩스는 1968년 설립된 사업지주회사로, 1988년 유가증권시장에 상장되었고 2008년 지주회사로 전환하였습니다. 지배회사 역할과 함께 비철금속·특수강 등 제조사업을 보유한 그룹의 지주(holding) 기능을 수행합니다.",
+    "business_model": "사업은 지주부문과 제조부문으로 나뉘며, 지주부문은 자회사 지분 보유를 통한 지배와 배당·투자수익이 주요 수익원입니다. 제조부문은 비철금속소재, 특수강, 포장재, 기계장비 등 제조·판매 및 임가공(용역) 계약을 통한 제품매출과 용역매출을 통해 수익을 창출합니다.",
+    "main_customers": "지주부문 — 자회사 및 관계회사(배당금·투자수익) / 제조부문 — 공구·기계부품·장비 및 포장재를 구매하는 기업 및 무역·해외 바이어 / 방산·신동 부문 — 자회사 ㈜풍산을 통한 탄약류·신동제품 관련 거래 및 무역중개 고객",
+    "price_factors": [
+      {
+        "factor": "원자재가격",
+        "detail": "동 및 동합금 제품은 원재료 비중이 높아 원자재 가격 변동이 매출과 판매량에 직접 영향을 미칩니다."
+      },
+      {
+        "factor": "글로벌경기",
+        "detail": "해외 생산·판매 라인과 수출 비중을 고려할 때 글로벌 경기 회복·둔화가 수요와 실적에 영향을 줍니다."
+      },
+      {
+        "factor": "지정학리스크",
+        "detail": "지정학적 불확실성은 공급망과 무역여건에 영향을 주어 제조부문 실적 변동성을 키울 수 있습니다."
+      },
+      {
+        "factor": "환율",
+        "detail": "해외 매출 및 수입 원가에 노출된 구조로 환율 변동이 실적 변동 요인이 될 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "나. 사업부문별 현황 (1) 지주부문",
+        "evidence_text": "당사는 지주사업과 제조사업을 모두 영위하는 사업지주회사에 속합니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "공구, 기계부품, 장비 및 포장재를 제조 및 판매하고 있으며"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "나. 사업부문별 현황 (1) 지주부문",
+        "evidence_text": "배당금을 주된 수입원으로 하는 회사이며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "MD&A",
+        "evidence_text": "원자재 가격변동에 따른 판매량이 직접적인 영향을 받고 있습니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 5192,
+    "completion_tokens": 4272,
+    "reasoning_tokens": 3520,
+    "output_tokens": 752
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

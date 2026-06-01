@@ -1,0 +1,74 @@
+{
+  "stock_code": "217730",
+  "corp_name": "강스템바이오텍",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 12:29",
+  "meta": {
+    "wics": "생물공학",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "강스템바이오텍은 2010년 설립된 줄기세포 치료제 개발·제조회사로, 줄기세포 사업과 화장품 사업을 주요 사업으로 영위합니다. 주요 파이프라인으로는 퓨어스템-에이디(아토피피부염), 퓨어스템-알에이(류마티스관절염), OSCA(골관절염) 등이 있습니다.",
+    "business_model": "핵심 사업부문은 줄기세포 사업과 화장품 사업이며, 주 매출원은 CDMO(위탁개발생산) 사업 및 줄기세포 배양액·줄기세포 기반 화장품 제품 매출입니다. 또한 엑소좀 기반 신약 연구개발(창상·폐렴·탈모 등 파이프라인)을 병행하며 임상 진행 상황이 향후 수익구조에 영향을 미칩니다.",
+    "main_customers": "줄기세포 사업 — CDMO(위탁개발생산) 고객 / 화장품 사업 — 일반 소비자(온라인 유통 중심)",
+    "price_factors": [
+      {
+        "factor": "임상·허가",
+        "detail": "임상시험 결과와 규제(허가) 여부가 파이프라인 가치와 실적에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "정부지원",
+        "detail": "국가의 바이오헬스 정책과 R&D 지원 확대는 신약 개발·제조 인프라 강화로 중장기적 성장에 영향을 줍니다."
+      },
+      {
+        "factor": "CDMO 수요",
+        "detail": "CDMO 사업 매출 비중으로 인해 외부 위탁수요 및 제조역량 활용도가 실적 변동요인이 됩니다."
+      },
+      {
+        "factor": "온라인 유통",
+        "detail": "화장품 매출은 온라인 유통 강화에 의존하므로 온라인 채널의 경쟁력·수요 변화가 매출에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 2010년에 설립된 줄기세포 치료제 개발 및 제조회사로"
+      },
+      {
+        "field": "business_model",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "당사의 주 매출원은 CDMO사업 및 줄기세포배양액, 줄기세포 화장품 등 제품 매출 입니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "온라인 유통망을 강화하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "공공성·제도적 규제가 강한 특성을 지니고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "다) 강력한 정부지원",
+        "evidence_text": "신약 창출을 위한 R&D 투자 확대"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4516,
+    "completion_tokens": 4798,
+    "reasoning_tokens": 4032,
+    "output_tokens": 766
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

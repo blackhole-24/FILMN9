@@ -1,0 +1,68 @@
+{
+  "stock_code": "078020",
+  "corp_name": "LS증권",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 05:43",
+  "meta": {
+    "wics": "증권",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "LS증권은 1999년 국내 최초의 온라인 증권사로 출범했으며, 온라인을 기반으로 하는 종합증권사로 성장했습니다. 리테일(온라인 브로커리지)을 중심으로 홀세일, IB(인수·주선) 및 Trading(자기매매) 부문이 함께 시너지를 내며 사업 규모를 확대하고 있습니다.",
+    "business_model": "핵심 사업은 온라인 기반의 리테일 위탁매매(주식·선물/옵션·펀드 주문·시세 제공)와 기업의 유가증권 발행을 지원하는 인수·주선(IB), 자체 수익을 추구하는 Trading(트레이딩)으로 구성됩니다. 또한 수익증권, CMA, 환매조건부채권(RP), CD·CP 등 금융상품 유통을 통해 수수료·상품마진을 확보하고 있으며, 리테일 조직 확대(영업부·테헤란금융센터 오픈) 및 2008년 트레이딩 사업부 신설로 사업 다각화를 추진하고 있습니다.",
+    "main_customers": "리테일 위탁매매 — 개인 투자자 / 인수·주선(IB) — 자금조달을 원하는 기업 / CD·CP 판매 — 기관투자가·일반기업",
+    "price_factors": [
+      {
+        "factor": "거래량",
+        "detail": "개인 투자자의 주식·파생상품 거래량 변화는 리테일 위탁매매 수수료와 실적에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "금리환경",
+        "detail": "RP·CMA 등 단기금융상품의 수요와 수익률이 금리 변동에 따라 민감하게 변동합니다."
+      },
+      {
+        "factor": "기관수요",
+        "detail": "CD·CP 등 기관 대상 단기금융상품의 수요 변동은 해당 상품 판매 실적에 영향을 줍니다."
+      },
+      {
+        "factor": "IB시장상황",
+        "detail": "유가증권 발행·자금조달 시장의 호황·부진은 인수·주선(IB) 업무 실적에 직결됩니다."
+      },
+      {
+        "factor": "시장변동성",
+        "detail": "시장 변동성은 트레이딩(자기매매) 부문의 매매차익 기회와 손익에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 주요사업의 개요",
+        "evidence_text": "당사 LS증권은 1999년에 국내 최초의 온라인 증권사로 출범하였으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. 주요사업의 개요",
+        "evidence_text": "리테일 위탁매매 조직을 확대 개편하였습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "나. 취급상품 등",
+        "evidence_text": "기관투자가나 일반기업을 대상으로 판매하고 있습니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4108,
+    "completion_tokens": 2847,
+    "reasoning_tokens": 2112,
+    "output_tokens": 735
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "stock_code": "200230",
+  "corp_name": "텔콘RF제약",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 11:37",
+  "meta": {
+    "wics": "제약",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "텔콘RF제약은 RF(무선주파수) 커넥터·케이블 어셈블리 제조와 제약·바이오 액상 등 의약품 생산을 병행하는 기업입니다. 2025년 연결기준 매출액은 432억원이며, 거래처 수주 증가로 영업이익이 7억원으로 흑자 전환하였습니다.",
+    "business_model": "핵심 사업은 RF 부문으로, RF 커넥터와 광전복합 커넥터 및 케이블 어셈블리 제조와 FTTA(Fiber-To-The Antenna) 솔루션 등 통신 인프라 부품 공급을 중심으로 합니다. 제약·바이오 부문은 액제 KGMP(우수의약품 제조 및 품질관리 기준) 생산시설을 보유해 타정·환제·캡슐 등 다양한 제형의 위탁생산(외주생산)을 통해 매출을 발생시키며 신약개발 투자도 병행하고 있습니다.",
+    "main_customers": "RF 부문 — 이동통신 사업자 및 기지국·통신장비·네트워크 인프라 장비업체 / 제약·바이오 부문 — 제약사·바이오기업(외주생산 의뢰처)",
+    "price_factors": [
+      {
+        "factor": "수요 사이클",
+        "detail": "이동통신 인프라 구축 시기(예: 5G 투자)에 따라 RF 부품 수요가 크게 변동합니다."
+      },
+      {
+        "factor": "가격경쟁",
+        "detail": "글로벌 통신장비 시장에서 기술력과 함께 가격 경쟁력도 중요한 만큼 중국 업체 확대로 가격 압박이 발생할 수 있습니다."
+      },
+      {
+        "factor": "제품 스펙",
+        "detail": "제품 버전과 스펙 차이에 따라 개별 단가가 달라져 실적에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "환율",
+        "detail": "판매단가 산정에 환율 변동이 반영되어 수익성에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "품질·규제",
+        "detail": "제약부문은 KGMP 기준 생산능력과 품질 관리가 외주수주와 매출에 직결됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "2025년 매출액은 연결재무제표 기준 432억원"
+      },
+      {
+        "field": "business_model",
+        "source_section": "나. 제약ㆍ바이오사업 부문",
+        "evidence_text": "액제 KGMP(우수의약품 제조 및 품질관리 기준) 생산시설을 보유하고 있어"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "다. 사업부문의 산업현황 및 시장여건",
+        "evidence_text": "기지국, 통신 장비, 네트워크 인프라 등에 사용되는 핵심 부품으로"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "다. 사업부문의 산업현황 및 시장여건",
+        "evidence_text": "Huawei 및 ZTE 등 중국 업체들의 시장 영향력이 확대되고 있으며"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4464,
+    "completion_tokens": 4836,
+    "reasoning_tokens": 4032,
+    "output_tokens": 804
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

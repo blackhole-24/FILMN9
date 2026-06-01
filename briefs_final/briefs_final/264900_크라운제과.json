@@ -1,0 +1,72 @@
+{
+  "stock_code": "264900",
+  "corp_name": "크라운제과",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 14:24",
+  "meta": {
+    "wics": "식품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "크라운제과는 2017년 3월 1일 주식회사 크라운해태홀딩스에서 인적분할되어 설립된 식품 제조·가공 및 판매 회사로, 제과업을 주력으로 영위하고 있습니다. 2025년 매출은 4,448억원, 영업이익은 153억원을 기록했으며 자산 규모는 3,550억원 수준입니다.",
+    "business_model": "핵심 사업은 제과부문으로, 제공된 부문별 재무정보에 따르면 제과부문 매출이 전체를 차지해 매출 비중은 약 100%입니다. 장수 브랜드 기반의 제품 개발과 생산성 고도화, 영업망 효율화(해태제과와의 영업망 공유 등)를 통해 수익성을 유지·관리하고 있습니다.",
+    "main_customers": "제과부문 — 일반 소비자(소매) / 제과부문 — 유통업체(대형할인점·영업점 등)",
+    "price_factors": [
+      {
+        "factor": "원재료/환율",
+        "detail": "주 원재료를 대부분 수입에 의존하므로 환율 상승이나 국제 원재료 가격 상승 시 원가가 오르며 실적에 부정적 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "소비심리",
+        "detail": "내수 회복 지연과 소비심리 위축이 지속되면 제과 수요 감소로 매출과 실적에 하방 압력이 생길 수 있습니다."
+      },
+      {
+        "factor": "유통경쟁",
+        "detail": "대형 할인점 중심의 유통 구조 및 수입 브랜드·PB 성장으로 가격 경쟁이 심화되면 마진과 시장점유율에 부담이 될 수 있습니다."
+      },
+      {
+        "factor": "규제·안전",
+        "detail": "식품안전에 관한 규제 강화는 생산·품질관리 비용과 준수 부담을 증가시켜 수익성에 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "식품 제조 및 가공, 판매 사업을 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "나. 부문별 주요재무정보",
+        "evidence_text": "제과부문 | 444,838,420 | 15,265,166"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "(1) 업계의 현황",
+        "evidence_text": "대형 할인점 중심의 유통 구조와 수입 브랜드의 증가"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "(1) 업계의 현황",
+        "evidence_text": "주 원재료의 대부분을 수입에 의존하고 있어"
+      },
+      {
+        "field": "business_model",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "다수의 장수브랜드 제품을 보유하고 있으며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4000,
+    "completion_tokens": 5178,
+    "reasoning_tokens": 4416,
+    "output_tokens": 762
+  },
+  "warnings": []
+}

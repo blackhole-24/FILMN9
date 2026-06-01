@@ -1,0 +1,72 @@
+{
+  "stock_code": "205100",
+  "corp_name": "엑셈",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 11:47",
+  "meta": {
+    "wics": "소프트웨어",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "엑셈은 2001년 설립된 패키지 소프트웨어 개발·판매 업체로, IT 시스템 성능 관리 솔루션 개발과 공급을 주력으로 하는 국내 대표적인 IT 시스템 성능 관리 기업입니다. DB 성능관리 솔루션 맥스게이지(MaxGauge)로 국내 시장점유율 1위를 유지하면서 국내외 약 1,100여개 고객사 레퍼런스를 보유하고 있습니다.",
+    "business_model": "핵심 제품은 DB 성능관리 MaxGauge(28.60%), APM 제품 InterMax(9.09%), Full‑stack Observability 플랫폼 exemONE(4.31%)과 AI·빅데이터 용역(15.48%) 등으로 구성되며, 소프트웨어 제품 판매뿐 아니라 컨설팅·유지보수·운영지원 등 시스템 성능 관리 라이프사이클 전반에 걸친 서비스로 수익을 창출합니다. 최근에는 클라우드 관제(CloudMOA)와 AI 기반 IT 운영 지능화(XAIOps)를 통합해 올인원 모니터링과 AIOps 영역으로 사업을 확장하고 있습니다.",
+    "main_customers": "DB 성능관리(MaxGauge) — 대기업(예: 삼성전자·LG전자), 은행·금융사, IT기업, 정부 부처·공공기관 / APM(InterMax) — 웹서비스·N‑Tier 서비스 운영 기업의 정보시스템 운영자 / 클라우드·AIOps(exemONE·CloudMOA·XAIOps) — 핵심 정부기관, 제1금융권 은행(다수), 대형 카드사 등",
+    "price_factors": [
+      {
+        "factor": "클라우드 전환",
+        "detail": "클라우드 도입 확대로 클라우드DB 모니터링 수요가 늘어나며 관련 제품·서비스 매출에 직접적 영향을 미칩니다."
+      },
+      {
+        "factor": "DBMS 다양화",
+        "detail": "오픈소스·NoSQL·관리형 DBMS 채택 증가로 다양한 DBMS 지원 능력이 경쟁력과 수주 실적에 큰 영향을 줍니다."
+      },
+      {
+        "factor": "R&D·신기술 수용",
+        "detail": "신기술(예: AI·풀스택 옵저버빌리티) 수용과 R&D 역량이 시장 진입장벽 확보와 제품 차별화에 결정적입니다."
+      },
+      {
+        "factor": "경기 민감도",
+        "detail": "DB성능관리는 기업 내부 우선투자 대상으로 경기 변동의 영향은 상대적으로 작아 실적의 안정성에 기여합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "당사는 패키지 소프트웨어 개발 및 판매 업체로서"
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. 주요 제품 등의 현황",
+        "evidence_text": "MaxGauge 12,657(28.60%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. 주요 제품 등의 현황",
+        "evidence_text": "AIㆍ빅데이터 용역 6,849(15.48%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "국내외 약 1,100여개 고객사 레퍼런스를 보유하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "총 11종의 DBMS를 지원하는"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5326,
+    "completion_tokens": 4401,
+    "reasoning_tokens": 3520,
+    "output_tokens": 881
+  },
+  "warnings": []
+}

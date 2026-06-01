@@ -1,0 +1,67 @@
+{
+  "stock_code": "351870",
+  "corp_name": "차이커뮤니케이션",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 17:18",
+  "meta": {
+    "wics": "광고",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "차이커뮤니케이션은 디지털에 특화된 독립 광고대행사로, 브랜드 캠페인·퍼포먼스 마케팅·디지털 콘텐츠 제작 등 통합 마케팅 서비스를 제공합니다. 2025년 6월에는 의료 마케팅 및 상품 유통을 영위하는 '주식회사 더에쓰씨'를 종속회사로 취득하여 사업 포트폴리오를 확장했습니다.",
+    "business_model": "주요 매출은 광고물제작등(42.3%), 매체대행(47.3%), 상품매출(7.2%), 임대수익(3.1%), 기타(0.2%)로 구성되어 매체대행과 제작이 매출의 대부분을 차지합니다. 수익은 광고대행수수료(커미션)와 AD Spending(광고비) 일정률 청구 방식으로 창출되며, 국내 미디어는 AD Spending(광고비)의 15%~20% 수준, 해외 미디어는 평균 10%~15% 수준의 수수료 구조를 갖고 있습니다.",
+    "main_customers": "광고물제작등 — 광고주(브랜드·기업) / 매체대행 — 광고주(온라인·오프라인 매체 집행) / 상품매출 — 제품 구매자·유통채널 / 임대수익 — 임차인 / 기타 — 기타 고객",
+    "price_factors": [
+      {
+        "factor": "디지털전환",
+        "detail": "디지털 광고 예산 확대는 매체대행·퍼포먼스 매출 증가로 실적에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "데이터·AI",
+        "detail": "데이터 분석·AI 기술 발전은 퍼포먼스 효율을 높여 수익성 개선에 기여할 수 있습니다."
+      },
+      {
+        "factor": "플랫폼수수료",
+        "detail": "국내외 미디어의 커미션(수수료) 변동은 대행사의 매출 및 마진에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "경기·계절성",
+        "detail": "검색광고 등은 경기 및 계절 요인에 민감해 광고 수요 감소 시 실적에 부정적 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 회사의 현황",
+        "evidence_text": "디지털 종합 광고대행업을 영위하고 있는 독립광고회사로서"
+      },
+      {
+        "field": "business_model",
+        "source_section": "다. 주요 제품 등의 가격 변동 추이",
+        "evidence_text": "애드 스펜딩(AD Spending)의 일정률 (15%~20%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "광고물제작등: 28,127,450 (42.3%)"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "연결기준 매출액 66,475백만원"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4829,
+    "completion_tokens": 3454,
+    "reasoning_tokens": 2688,
+    "output_tokens": 766
+  },
+  "warnings": []
+}

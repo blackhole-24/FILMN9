@@ -1,0 +1,84 @@
+{
+  "stock_code": "300120",
+  "corp_name": "라온피플",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 15:38",
+  "meta": {
+    "wics": "소프트웨어",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "라온피플은 2010년 설립된 인공지능(AI) 기반 비전 솔루션 전문기업으로, 머신비전 카메라·소프트웨어를 바탕으로 제조·교통·의료 등 산업 전반에 적용되는 AI 비전 솔루션을 제공합니다. 생성형 AI와 플랫폼 기술을 결합해 현장 중심의 AI 전환(AX)을 추진하고 있습니다.",
+    "business_model": "핵심은 AI 머신비전(검사) 솔루션과 카메라 모듈 검사 장비, 그리고 이를 확장한 AI 스마트비전(골프센서·AI덴탈·AI교통·AI스마트팜) 사업으로 구성됩니다. 과거의 하드웨어 중심 매출에서 PoC(개념검증)→시스템 구축→유지보수·소프트웨어 업데이트로 이어지는 솔루션·서비스 기반 수익 구조로 전환 중입니다.",
+    "main_customers": "머신비전 검사 솔루션 — 제조업체(생산라인·검사장비 운영자) / 카메라 모듈 검사 솔루션 — 스마트폰·CCTV·자동차용 카메라 모듈 제조업체 / AI 교통솔루션 — 지방자치단체·도로 관련 국가 유관기관 / AI 덴탈·스마트팜 — 구강 스캐너 관련 의료·치과 분야 및 스마트팜 관련 사업자",
+    "price_factors": [
+      {
+        "factor": "기술 고도화",
+        "detail": "카메라 모듈의 고화소·자동초점 등 기능 고도화는 고성능 검사장비 수요를 높여 실적에 영향을 줍니다."
+      },
+      {
+        "factor": "ROI 요구",
+        "detail": "고객이 도입 전 PoC와 정량적 ROI(투자 대비 효과)를 요구함에 따라 영업 사이클은 길어지지만 구축 후 지속 수익으로 연결될 가능성이 있습니다."
+      },
+      {
+        "factor": "검사기 성능",
+        "detail": "이미지 센서 인터페이스·영상 처리 기술 수준이 검사 솔루션 경쟁력을 좌우해 성능 개선이 실적에 직결됩니다."
+      },
+      {
+        "factor": "해외 판로",
+        "detail": "골프센서 등 제품의 해외 판매·수출 확대는 매출과 수익성 개선에 영향을 미칠 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "당사는 2010년 1월 설립 이후"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "AI머신비전 솔루션"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "카메라 모듈 검사 솔루션"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "카메라 모듈을 생산하는 대다수 기업들"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "지방자치단체 및 도로 관련 국가 유관기관과 협력을 넓혀가고 있으며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "정량적인 ROI(투자 대비 효과)를 제시해야 합니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "월평균 100대 이상의 센서를 수출하고 있으며"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4782,
+    "completion_tokens": 4657,
+    "reasoning_tokens": 3712,
+    "output_tokens": 945
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

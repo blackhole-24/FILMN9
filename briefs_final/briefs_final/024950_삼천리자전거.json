@@ -1,0 +1,76 @@
+{
+  "stock_code": "024950",
+  "corp_name": "삼천리자전거",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 09:53",
+  "meta": {
+    "wics": "레저용장비와제품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "삼천리자전거는 자전거사업과 여행사업을 함께 운영하는 기업입니다. 자전거사업에서는 전기자전거와 고급 완성차, 용품 시장을 중심으로 유통채널과 제품 경쟁력을 강화하고 있으며, 여행사업에서는 직접판매를 바탕으로 가격경쟁력을 내세우고 있습니다.",
+    "business_model": "FY2025 사업부문별 영업수익 기준으로 자전거가 47.5%, 여행서비스가 52.5%를 차지합니다. 자전거사업은 전기자전거, 일반 자전거, 자전거용품을 중심으로 판매하며, 여행사업은 직접판매방식으로 여행상품을 제공하는 구조입니다. 전기자전거(배터리와 모터를 활용한 자전거)와 퍼스널모빌리티(개인용 이동수단) 관련 수요 확대에 맞춰 제품믹스를 세분화하고 있습니다.",
+    "main_customers": "자전거 — 대리점, 대형할인점, 도매거래처 / 여행서비스 — 일반 여행객",
+    "price_factors": [
+      {
+        "factor": "성수기",
+        "detail": "자전거는 3월부터 10월까지가 성수기라 이 시기 판매가 늘어날수록 실적 개선에 도움이 됩니다."
+      },
+      {
+        "factor": "계절성",
+        "detail": "11월부터 2월까지는 비수기로 분류되어 야외활동이 줄면 자전거 수요와 매출이 둔화될 수 있습니다."
+      },
+      {
+        "factor": "친환경수요",
+        "detail": "지구온난화와 고유가로 친환경 근거리 이동수단 선호가 커질수록 자전거 및 전기자전거 수요에 유리합니다."
+      },
+      {
+        "factor": "유통망",
+        "detail": "대리점과 대형할인점 유통채널이 넓을수록 판매 접점이 많아져 안정적인 영업환경을 만드는 데 도움이 됩니다."
+      },
+      {
+        "factor": "여행경쟁",
+        "detail": "여행산업은 유사 상품이 많아 가격경쟁이 치열하므로, 직접판매와 상품 구성 능력이 수익성에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 나. 사업부문별 현황 및 영업개황",
+        "evidence_text": "회사의 영업부문은 여행사업부 단일 영업부문으로 구성되어 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "자전거: 83,435 (47.5%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "여행서비스: 92,125 (52.5%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 나. 사업부문별 현황 및 영업개황 > 자전거사업부문",
+        "evidence_text": "1,000여개의 대리점과 이마트, 롯데마트"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 나. 사업부문별 현황 및 영업개황 > 여행사업 부문",
+        "evidence_text": "직접판매방식으로 유통과정에서의 비용절감"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5471,
+    "completion_tokens": 856,
+    "reasoning_tokens": 0,
+    "output_tokens": 856
+  },
+  "warnings": []
+}

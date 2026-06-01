@@ -1,0 +1,82 @@
+{
+  "stock_code": "214390",
+  "corp_name": "경보제약",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 12:14",
+  "meta": {
+    "wics": "제약",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "경보제약은 1987년에 설립된 원료의약품 전문 제약회사로 시작하여 완제의약품, 의료기기, 동물사업으로 사업영역을 확장한 종합 제약회사입니다. 원료의약품(특히 일반 API)이 핵심 역량이며 국내외(약 50개국)로 수출하고 있습니다.",
+    "business_model": "핵심 사업부문은 원료의약품(API, 원료의약품)과 완제의약품이며, 여기에 의료기기와 동물용 제품이 보완적으로 더해집니다. FY2025 영업수익 구성은 (주)종근당천안공장 11.0%, Nippon Bulk Yakuhin Co.,LTD 3.8%, 주식회사 케어플러스원 2.7%, 영진약품공업(주) 2.2%, (주)인천약품 2.1%, 기타 78.2%로 보고되었으며, 이중 일반제 API의 비중이 가장 높습니다.",
+    "main_customers": "원료의약품 — 국내외 제약사(수출 포함, 특히 일본) / 완제의약품 — 의료기관 및 보험 적용 환자(전문의약품 중심) / 의료기기 — 재활·실버 분야 의료기관 / 동물사업 — 반려동물 양육 가구",
+    "price_factors": [
+      {
+        "factor": "약가정책",
+        "detail": "정부의 약가인하·약가연동 등 정책 변화가 제품 가격과 수익성에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "원가경쟁",
+        "detail": "중국·인도 등 저가 공급국의 경쟁 심화는 원가 및 가격 경쟁 압력으로 작용합니다."
+      },
+      {
+        "factor": "수출품질",
+        "detail": "미국·유럽 등 규제기관 심사 통과 등 품질경쟁력이 해외(특히 일본) 매출에 직결됩니다."
+      },
+      {
+        "factor": "ADC투자",
+        "detail": "ADC CDMO 공장 건설(투자비 960억 규모)은 향후 매출 확대 기회지만 투자비·시장경쟁 리스크도 존재합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 1987년에 설립된 원료의약품 전문 제약회사입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사의 사업부문은 크게 원료의약품과 완제의약품으로 나뉩니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "(주)종근당천안공장: 29,753 (11.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "약 50개국으로 수출하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 정부시행규칙(보건복지부)에 따른 약가변동정책을 따르고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "인도, 중국 등 파머징마켓 국가 및 아시아권 원료의약품 업체의 성장세도 두드러졌습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "2024년 8월부터 2026년 12월까지 960억을 투자하기로 계획하였습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 6338,
+    "completion_tokens": 5388,
+    "reasoning_tokens": 4416,
+    "output_tokens": 972
+  },
+  "warnings": []
+}

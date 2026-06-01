@@ -1,0 +1,77 @@
+{
+  "stock_code": "298000",
+  "corp_name": "효성화학",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 15:29",
+  "meta": {
+    "wics": "화학",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "효성화학은 단일의 화학부문을 영위하는 회사로, 주요 제품은 PP, Nylon Film, PET Film, TAC Film 등입니다. 2025년 연결 기준 매출액은 2조 3,407억원이며, 2025년 생산실적은 2조 4,633억원(가동률 75.26%)을 기록했습니다.",
+    "business_model": "사업은 단일 화학부문(화학 97.0%, 중단 영업 3.0%) 중심으로 이루어지며, Local·직수출·내수직판 등의 판매채널을 통해 제품을 판매합니다. 주요 원재료는 프로필렌, PX, Nylon Chip, PET Chip 등이며, 고부가가치 제품 개발과 기술 경쟁력 강화로 포트폴리오 전환을 추진하고 있습니다.",
+    "main_customers": "화학 — 디스플레이·전자소재 및 전자기기 제조사 / 화학 — 식음료·제약업체(포장필름 수요처) / 화학 — 국내외 직수출 고객 및 내수 직판",
+    "price_factors": [
+      {
+        "factor": "원재료가격",
+        "detail": "프로필렌·PX·칩류 등 원재료 가격 변동이 제품마진과 실적에 직접 영향을 미칩니다."
+      },
+      {
+        "factor": "중국 증설",
+        "detail": "중국의 자급률 제고와 대규모 신증설로 공급 증가와 경쟁 심화에 따른 가격 하방 압력이 발생할 수 있습니다."
+      },
+      {
+        "factor": "전방산업",
+        "detail": "디스플레이 등 전방산업의 경기변동이 필름 부문 수요와 가격에 직간접적 영향을 줍니다."
+      },
+      {
+        "factor": "제품차별화",
+        "detail": "고부가 기능성 수지 및 차별화 제품 확대 여부가 장기적 수익성 개선의 핵심 변수입니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "단일의 영업부문인 화학부문으로 이루어져 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "화학: 2,340,718 (97.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "당사의 판매경로는 Local 및 직수출, 내수직판으로 구분되어 있으며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "유가에 민감하게 반응하며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "중국의 범용 석유화학제품 자급률 제고에 따른 수급환경 변화"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "필름 부문은 중간재로 사용되는 제품의 특성상 전방산업의 경기변동에 영향을 받습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5415,
+    "completion_tokens": 4880,
+    "reasoning_tokens": 4032,
+    "output_tokens": 848
+  },
+  "warnings": []
+}

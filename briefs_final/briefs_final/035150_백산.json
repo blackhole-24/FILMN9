@@ -1,0 +1,91 @@
+{
+  "stock_code": "035150",
+  "corp_name": "백산",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 09:56",
+  "meta": {
+    "wics": "섬유,의류,신발,호화품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "백산은 1986년 설립된 합성피혁 전문 기업으로, 지배기업인 (주)백산과 종속기업 15개사를 함께 운영하고 있습니다. 주력 제품은 스포츠용 신발, 전자제품 케이스, 차량 내장재 등에 쓰이는 합성피혁이며, 글로벌 브랜드와의 거래를 기반으로 성장해 왔습니다.",
+    "business_model": "백산의 영업수익은 제품 81.6%, 상품 10.8%, DMF·기타 1.7%로 구성되어 있습니다. 핵심 사업은 합성피혁 제조로, 특히 스포츠 신발용 제품이 총 매출의 80% 이상을 차지합니다. 전자제품 케이스와 차량 내장재용 합성피혁도 함께 확대하고 있으며, 친환경 P.U(폴리우레탄) 인공피혁 개발도 진행해 왔습니다.",
+    "main_customers": "스포츠 신발용 합성피혁 — NIKE, ADIDAS, REEBOK 등 글로벌 브랜드 / 전자제품 케이스용 — 태블릿 PC·스마트폰 등 고가 전자기기 관련 수요처 / 차량 내장재용 — 차량 내장재 적용 부품 관련 수요처",
+    "price_factors": [
+      {
+        "factor": "달러환율",
+        "detail": "수출물량이 달러 기준이어서 환율 변동에 따라 평균단가와 원화 환산 실적이 달라질 수 있습니다."
+      },
+      {
+        "factor": "판매단가",
+        "detail": "제품별 판매단가를 단순평균으로 산정하므로 제품 믹스와 단가 변화가 실적에 직접 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "BIG BUYER",
+        "detail": "NIKE, ADIDAS, REEBOK 같은 대형 고객의 품질 합격 여부와 발주 지속성이 매출 흐름에 큰 영향을 줍니다."
+      },
+      {
+        "factor": "대체수요",
+        "detail": "천연피혁 공급 감소와 합성피혁 대체 확대가 이어질수록 회사 제품 수요가 늘어날 가능성이 있습니다."
+      },
+      {
+        "factor": "친환경전환",
+        "detail": "PVC 대신 폴리우레탄 합성피혁으로의 전환 흐름이 강해질수록 관련 제품 경쟁력이 높아질 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "1986년 회사를 설립한 후 합성피혁 부문에서"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "주요 제품은 합성피혁으로서 대부분 스포츠용 신발"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "제품: 411,861 (81.6%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "DMF, 기타: 8,778 (1.7%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "상품: 54,592 (10.8%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "스포츠 신발용 합성피혁은 총 매출액의 80% 이상"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "ADIDAS와 NIKE에 납품하고 있으며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "수출물량 전부가 달러기준임으로 환율변동"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4196,
+    "completion_tokens": 983,
+    "reasoning_tokens": 0,
+    "output_tokens": 983
+  },
+  "warnings": []
+}

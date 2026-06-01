@@ -1,0 +1,71 @@
+{
+  "stock_code": "007070",
+  "corp_name": "GS리테일",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 19:42",
+  "meta": {
+    "wics": "백화점과일반상점",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "GS리테일은 편의점 GS25, 수퍼마켓 GS THE FRESH, 홈쇼핑 GS SHOP 등을 운영하는 종합 유통기업이며, 부동산 개발 및 상업시설 운영 사업도 함께 영위하고 있습니다. 2025년 연결기준 매출액은 약 11조 9,574억원, 영업이익은 2,921억원을 기록하였습니다.",
+    "business_model": "주요 수익원은 오프라인 소매유통으로, 2025년 기준 사업부문별 영업수익은 편의점 74.8%, 수퍼마켓 14.5%, 홈쇼핑 8.8%, 개발사업 0.3%, 공통 및 기타 7.5%로 편의점 비중이 가장 큽니다. 물류·상품 경쟁력 강화를 위한 전문 자회사(지에스네트웍스 등)와 자회사(후레쉬서브, 쿠캣 등)를 통해 상품공급 및 운영 효율화를 도모하고 있습니다.",
+    "main_customers": "편의점 — 맞벌이 부부·1인 가구 중심의 목적구매 고객 / 수퍼마켓 — 근거리 가정·일반 소비자 / 홈쇼핑 — TV·모바일 등 원격 쇼핑 이용 고객",
+    "price_factors": [
+      {
+        "factor": "출점 둔화",
+        "detail": "출점 속도 둔화는 양적 성장 여력 축소로 기존점 매출·수익성 개선 필요성을 높여 실적 변수로 작용합니다."
+      },
+      {
+        "factor": "운영비 상승",
+        "detail": "인건비·임대료 등 운영비 상승은 점포 수익성 압박으로 영업이익률에 부정적 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "O4O(온오프 통합)",
+        "detail": "배달·픽업 등 O4O 서비스 확대는 근거리 장보기 시장에서의 지배력과 매출 구조 개선에 영향을 줍니다."
+      },
+      {
+        "factor": "1인 가구 트렌드",
+        "detail": "1인 가구 증가에 따른 소량·간편식 수요 증가는 편의점 신선식품 등 품목 비중 확대에 유리하게 작용합니다."
+      },
+      {
+        "factor": "경기민감도",
+        "detail": "유통업은 소비심리에 민감하나 편의점은 소용량·생필품 중심으로 경기 변동에 대한 민감도가 상대적으로 낮습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "2025년 GS리테일은 연결기준 매출액 약 11조 9,574억원, 영업이익 2,921억원을 달성하였습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "편의점: 7,934,489 (74.8%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "(1) 편의점(GS25)",
+        "evidence_text": "맞벌이 부부, 1인가구 등 목적구매의 성향이 두드러진 고객"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "출점 속도 둔화와 운영 비용 상승"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 6239,
+    "completion_tokens": 5008,
+    "reasoning_tokens": 4160,
+    "output_tokens": 848
+  },
+  "warnings": []
+}

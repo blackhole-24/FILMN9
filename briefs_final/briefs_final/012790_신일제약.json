@@ -1,0 +1,71 @@
+{
+  "stock_code": "012790",
+  "corp_name": "신일제약",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 21:08",
+  "meta": {
+    "wics": "제약",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "신일제약은 1971년 설립된 제약회사로, 의약품의 제조 및 판매를 주요 사업으로 영위하고 있습니다. 정제·캡슐·주사제 등 다양한 제형의 제품을 생산하며 CDMO(타 제약사 대상 생산) 사업과 팜트리 브랜드의 화장품 및 건강기능식품 사업도 병행하고 있습니다.",
+    "business_model": "주력은 의약품 제조·판매이며 CDMO(타 제약사 대상) 사업을 병행하고 있습니다. 사업부문별 영업수익 구성은 디펜플라스타 9.2%, 팜트리 화장품 2.8%, 비타민 外 0.3%, 황사마스크 外 0.2%, 임대수입 1.1%로 구성되어 있습니다.",
+    "main_customers": "의약품(정제·주사제 등) — 의료기관 / CDMO(타 제약사 대상) — 타 제약사 / 팜트리(화장품·건강기능식품) — 보고서에 고객 유형 특정되지 않음 / 임대수입 — 임차인",
+    "price_factors": [
+      {
+        "factor": "정부 규제",
+        "detail": "약가인하 등 정부의 제도적 규제가 매출과 수익성에 직접적인 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "환율·원자재",
+        "detail": "수입 원재료의 경우 환율 변동이 원가 부담을 증가시켜 실적에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "국제 경쟁",
+        "detail": "다국적 제약사의 시장점유율 확대가 국내 경쟁 압력으로 작용할 수 있습니다."
+      },
+      {
+        "factor": "수요(고령화)",
+        "detail": "인구고령화와 건강 수요 증가는 제약산업의 장기적 수요 성장 요인입니다."
+      },
+      {
+        "factor": "경기 민감도",
+        "detail": "제약산업은 타 산업보다 경기변동에 비교적 둔감해 실적 안정성에 기여할 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 1971년 설립되었으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "CDMO사업(타 제약사 대상)을 영위하고 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "의약품을 의료기관 등에 공급하고 있으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "디펜플라스타: 7,435 (9.2%)"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3928,
+    "completion_tokens": 4634,
+    "reasoning_tokens": 3904,
+    "output_tokens": 730
+  },
+  "warnings": []
+}

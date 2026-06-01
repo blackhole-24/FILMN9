@@ -1,0 +1,67 @@
+{
+  "stock_code": "123040",
+  "corp_name": "엠에스오토텍",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 09:21",
+  "meta": {
+    "wics": "자동차부품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "엠에스오토텍은 2024년 8월 분할을 계기로 지주회사 체제로 전환을 추진한 기업으로, 지주부문과 종속회사가 연결된 구조입니다. 지주부문은 배당수익·임대수익·경영자문수수료 등을 주요 수입원으로 하며, 종속회사는 자동차부품(차체부품 등) 사업을 영위하고 있습니다.",
+    "business_model": "주요 매출은 자동차차체부품이 전체의 96.0%를 차지하고, 금형 및 설비가 4.0%를 차지합니다(사업부문별 영업수익 구성). 지주회사는 배당·임대·자문료 등으로 수익을 확보하고, 연결회사는 지주부문과 종속회사의 자동차부품 제조·공급 사업을 통해 실적을 창출합니다.",
+    "main_customers": "자동차차체부품 — 완성차 제조업체 / 금형및설비 — 완성차·부품업체",
+    "price_factors": [
+      {
+        "factor": "완성차 생산",
+        "detail": "국내외 완성차의 생산량 변동은 차체부품 수요에 직접적인 영향을 미쳐 매출·실적 변동성을 유발합니다."
+      },
+      {
+        "factor": "수출여건",
+        "detail": "수출국의 관세·현지공장 가동 등 환경 변화는 수출 물량과 매출에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "환율",
+        "detail": "USD·INR·BRL·CNY 등 주요 통화의 환율 변동은 수출입 대금과 환산손익에 영향을 미칩니다."
+      },
+      {
+        "factor": "설비투자",
+        "detail": "국내·미국 등 현지 설비투자 확대는 생산능력과 비용 구조, 재무부담에 영향을 미칠 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용",
+        "evidence_text": "지배회사(엠에스오토텍)는 물적분할 후 지주회사 체제로 전환하고자 하며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "자동차차체부품: 2,160,215,258,595 (96.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 주요제품",
+        "evidence_text": "차체는 안전하고 쾌적한 거주 공간을 제공하는 기능을 합니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "환포지션의 주요 통화로는 USD과 INR, BRL 및 CNY입니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4455,
+    "completion_tokens": 4442,
+    "reasoning_tokens": 3712,
+    "output_tokens": 730
+  },
+  "warnings": []
+}

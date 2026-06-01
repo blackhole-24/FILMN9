@@ -1,0 +1,82 @@
+{
+  "stock_code": "014190",
+  "corp_name": "원익큐브",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 21:27",
+  "meta": {
+    "wics": "화학",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "원익큐브는 케미칼·폴리머·건자재·실리콘 등 다수의 사업부문을 가진 유통·화학 계열 기업으로, 연결기준 매출액 284,761백만원(2025년)을 기록했습니다. 매출의 대부분이 내수(98.51%)에 집중되어 있는 것이 특징입니다.",
+    "business_model": "주요 사업부문은 케미칼(25.89%), 폴리머(40.79%), 건자재(17.20%), 실리콘(7.26%), DS부문(7.05%) 및 전자소재(1.81%) 등으로 구성되며, 신사업부문도 보유하고 있습니다. 케미칼·폴리머 등 기초소재 유통과 자가 생산 실리콘 제품, HP 인디고 등 디지털 인쇄기 유통(DS: Digital Solution), 자회사(나노이닉스)를 통한 전자소재 판매가 수익의 축을 이룹니다.",
+    "main_customers": "케미칼 부문 — 국내 석유화학업체·페인트·잉크·산업용 점·접착제 업체 / 폴리머 부문 — 생활용품·포장재·산업재·가전제품·자동차부품 제조업체 / 건자재 부문 — 국내 목재·건축자재 업체 / 실리콘 부문 — 실리콘 제품·실란트 수요 제조업체·유통업체 / DS 부문 — 인쇄업체 및 인쇄용 소모품 수요처 / 신사업 부문 — 종이상자접이기 장비 수요기업 / 전자소재 부문 — LCD·디스플레이 관련 제조업체",
+    "price_factors": [
+      {
+        "factor": "원재료가격",
+        "detail": "원재료의 수입 비중이 높고 매출의 내수 비중이 커서 유가·환율 및 원자재 가격 변동이 실적에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "전방수요",
+        "detail": "전기·전자·자동차·건설 등 전방 산업의 수요 변동에 따라 기초소재(케미칼·폴리머) 수요가 민감하게 움직입니다."
+      },
+      {
+        "factor": "저가공급",
+        "detail": "저가의 중국·동남아산 화학제품 침투로 인해 국내 시장에서의 가격 경쟁 압력이 커집니다."
+      },
+      {
+        "factor": "규제강화",
+        "detail": "화학물질 관련 법규 강화로 안전·인증 비용과 고부가가치 제품 개발의 필요성이 증가합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "당사의 사업부문은 케미칼 부문, 폴리머 부문"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "폴리머 부문이 116,136백만원으로 40.79%"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "케미칼 부문이 73,731백만원으로 25.89%"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "내수가 98.51%(280,520백만원)를 차지"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "국내 석유화학업체 및 페인트, 잉크"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "저가의 중국, 동남아산 화학제품 침투"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "원재료의 수입 비중이 높고 매출은 내수 비중이 높아"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4722,
+    "completion_tokens": 5610,
+    "reasoning_tokens": 4544,
+    "output_tokens": 1066
+  },
+  "warnings": []
+}

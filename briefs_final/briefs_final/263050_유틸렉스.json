@@ -1,0 +1,76 @@
+{
+  "stock_code": "263050",
+  "corp_name": "유틸렉스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 14:13",
+  "meta": {
+    "wics": "생물공학",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "유틸렉스는 2015년 설립된 바이오기업으로 CAR-T를 포함한 세포유전자치료제(CGT)와 항체치료제 기반의 면역항암제 연구개발을 주력으로 하고 있습니다. 고형암(특히 간암) 대상 차세대 CAR-T 등 파이프라인을 보유하고 있으며 연구개발부터 비임상·임상·제조·검체분석 등 전주기 사업을 영위하고 있습니다.",
+    "business_model": "사업부문별로 IT 서비스(SI·SM·IT 컨설팅)가 매출의 62.5%를 차지하며, 연구시설 이용·연구용역 등 기타가 37.3%, 신약(파이프라인 기반 신약개발)이 0.2%의 비중을 차지합니다. 핵심은 CAR-T·T세포·항체 치료제 개발(파이프라인 연구개발)과 IT 서비스 및 연구용역·검체분석 등으로 수익을 다각화한 구조입니다.",
+    "main_customers": "신약 — 고형암 환자(임상·의료 대상) / IT — SI·SM·IT 서비스 수요 기업·기관 / 기타 — 연구시설 이용자 및 연구 관련 용역 수요자(연구기관·제약사 등)",
+    "price_factors": [
+      {
+        "factor": "임상 진척",
+        "detail": "EU307·EU103 등 임상 1상 진행 상황이 임상성공 기대감과 실적 전개에 직접 영향"
+      },
+      {
+        "factor": "제조역량",
+        "detail": "CAR-T치료제 생산시설 구축 완료는 상용화·공급 능력과 원가에 영향"
+      },
+      {
+        "factor": "지적재산권",
+        "detail": "보유 특허 수와 권리 범위는 기술 가치와 파트너십·라이선스에 영향"
+      },
+      {
+        "factor": "매출구조",
+        "detail": "IT 사업(62.5%) 비중이 높아 IT 사업 변동이 전체 실적에 큰 영향"
+      },
+      {
+        "factor": "환율",
+        "detail": "임상·연구 관련 외화(USD) 거래 노출은 환율 변동에 따른 비용·성과 영향"
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "CAR-T를 포함한 세포유전자치료제(CGT)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "6,433,763(62.5%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "고형암, 특히 간암에서 다량 발현되는 GPC3를 타깃"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "다. 주요 제품의 개요",
+        "evidence_text": "CAR-T치료제 생산시설을 구축완료 하였으며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "사. 지적재산권 및 연구개발활동",
+        "evidence_text": "총 190 건 이상의 특허를 보유하고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4940,
+    "completion_tokens": 4339,
+    "reasoning_tokens": 3520,
+    "output_tokens": 819
+  },
+  "warnings": []
+}

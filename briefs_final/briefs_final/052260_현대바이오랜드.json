@@ -1,0 +1,72 @@
+{
+  "stock_code": "052260",
+  "corp_name": "현대바이오랜드",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 02:57",
+  "meta": {
+    "wics": "화장품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "현대바이오랜드는 1995년 설립된 천연 유래 바이오 소재 기반의 뷰티·헬스케어 전문기업으로, 화장품 원료부터 건강기능식품, 의약품 원료, 의료기기, 브랜드 유통까지 다각화된 사업을 영위하고 있습니다. 끊임없는 R&D를 통해 천연 활성소재 국산화를 추진하며 명실상부 국내 천연물 소재 기업으로 자리매김해 왔습니다.",
+    "business_model": "주요 수익원은 화장품 소재 공급과 브랜드 유통·건강기능식품 OEM/ODM이며, 2025년 기준 사업부문별 매출비중은 화장품 41.2%, 건강기능식품 18.4%, 원료의약품 3.0%, 의료기기 13.5%, 브랜드 유통 24.0% 입니다. 내수 비중이 높아(내수 78.5% / 해외 21.5%) 국내 고객 맞춤형 소재 공급과 글로벌 파트너십을 통한 수출·유통 확대로 수익을 창출하고 있습니다.",
+    "main_customers": "화장품 — 대형 화장품사 및 인디브랜드 / 건강기능식품 — OEM·ODM 고객(제조사) 및 브랜드사 / 의약품원료 — 국내 유수의 제약사 / 의료기기 — 치과·의료기관 및 해외 바이어 / 브랜드 유통 — 유통채널과 최종 소비자(네슬레 헬스사이언스 제품 독점유통 등)",
+    "price_factors": [
+      {
+        "factor": "인증·규제",
+        "detail": "FDA·MDR 등 주요국 인증 취득·유지 비용 및 심사 일정 변화가 제품의 해외 진출과 비용 구조에 직접적 영향을 미칩니다."
+      },
+      {
+        "factor": "중국경기",
+        "detail": "중국 경기회복 둔화나 관세 이슈는 수출 및 해외사업 실적에 부정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "건기식경쟁",
+        "detail": "건강기능식품 시장의 경쟁심화는 브랜드 유통과 소재 공급의 마진 압박으로 연결될 수 있습니다."
+      },
+      {
+        "factor": "원료조달",
+        "detail": "나고야의정서 등 생물자원 관련 규제 강화는 원료 조달 방식과 비용에 영향을 주어 제품 개발·공급에 제약을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "현대바이오랜드는 천연 유래 바이오 소재를 기반으로"
+      },
+      {
+        "field": "business_model",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "사업부문별 매출비중은 화장품 41.2%, 건강기능식품 18.4%"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "나. 주요 제품 등에 대한 설명",
+        "evidence_text": "대형사 뿐 아니라 인디브랜드 수요에도 빠르게 대응하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "FDA 등 주요국 인증을 취득·유지해야 하며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "미국 관세 이슈 및 중국 경기회복 둔화"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 6215,
+    "completion_tokens": 4859,
+    "reasoning_tokens": 3968,
+    "output_tokens": 891
+  },
+  "warnings": []
+}

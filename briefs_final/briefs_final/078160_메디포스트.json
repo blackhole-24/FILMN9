@@ -1,0 +1,82 @@
+{
+  "stock_code": "078160",
+  "corp_name": "메디포스트",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 05:46",
+  "meta": {
+    "wics": "생물공학",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "메디포스트는 제대혈은행, 줄기세포치료제, 건강기능식품을 주력으로 하는 바이오기업으로, 연결기준 사상 최대 실적을 기록하였습니다. 제대혈은행 브랜드 '셀트리'와 무릎 골관절염 치료제 '카티스템'을 주요 사업 축으로 보유하고 있습니다.",
+    "business_model": "사업부문별로 제대혈은행이 56.4%, 줄기세포치료제가 26.4%, 건강기능식품이 14.1%의 매출 비중(FY2025)을 차지하며(기타 3.1%), 제대혈 보관 서비스(셀트리)와 카티스템(무릎 골관절염 치료제)이 핵심 수익원입니다. 건강기능식품은 온라인 채널과 제품 다변화를 통해 판매를 확대하고 있습니다.",
+    "main_customers": "제대혈은행 — 신생아 부모·가족(보관 계약자) / 줄기세포치료제 — 무릎 골관절염 환자 및 이를 처치하는 의료기관·전문의 / 건강기능식품 — 온라인 소비자(여성 전용 제품 수요 포함)",
+    "price_factors": [
+      {
+        "factor": "경기민감성",
+        "detail": "제대혈 보관은 선납 구조로 소비자의 가격부담 인식이 커 경기침체 시 수요가 줄어 실적에 부정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "임상·허가",
+        "detail": "줄기세포치료제는 임상 진행과 허가(국내·미국·일본) 결과가 해외진출과 매출에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "인구구조",
+        "detail": "고령화와 퇴행성 질환 수요 증가는 줄기세포치료제에 대한 장기적 수요 확대 요인이 됩니다."
+      },
+      {
+        "factor": "판매채널",
+        "detail": "건강기능식품은 온라인 채널 강화와 제품 다변화가 매출 성장에 긍정적 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "총 707억원의 사상 최대 매출을 달성했습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "제대혈은행: 41,499 (56.4%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "줄기세포치료제: 19,460 (26.4%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "건강기능식품: 10,417 (14.1%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 - 제대혈은행 산업의 특성",
+        "evidence_text": "당사 제대혈은행 이용자는 계약시점에 비용을 완납해야하기 때문에"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "'카티스템' 투여 환자 수 3만 3천명을 돌파하였으며"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "온라인 판매채널 다변화를 통한 적극적인 마케팅"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4856,
+    "completion_tokens": 3914,
+    "reasoning_tokens": 3008,
+    "output_tokens": 906
+  },
+  "warnings": []
+}

@@ -1,0 +1,77 @@
+{
+  "stock_code": "006910",
+  "corp_name": "보성파워텍",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 12:29",
+  "meta": {
+    "wics": "전기장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "보성파워텍은 전력산업용 전력 기자재의 개발·제작·판매를 주된 사업으로 영업하는 금속·전기장비 기업입니다. 철구조사업부와 중전기사업을 통해 가스개폐기, 주상변압기, 송전철탑 등 전력설비용 제품을 충북 충주공장 및 전남 나주공장에서 직접 생산하고 있습니다.",
+    "business_model": "핵심 사업부문은 구조용 금속 판제품 및 공작물을 제조하는 철구조사업부와 전기회로의 개폐·보호장치를 제조하는 중전기사업이며, FY2025 기준 사업부문별 영업수익 구성은 전력산업 1.1%, 상품 5.3%, 기타 1.4%로 보고되어 있습니다. 제품 특성상 다품종 소량생산 방식과 공공입찰 중심의 수주형 매출 구조가 특징입니다.",
+    "main_customers": "철구조사업부 — 한국전력공사(공공기관) / 중전기사업 — 한국전력공사(공공기관) / 상품 — 보고서에 특정 고객 미기재",
+    "price_factors": [
+      {
+        "factor": "정부정책",
+        "detail": "원전 건설 재개·HVDC 전력망 확충 등 정부 정책이 수주량과 실적에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "한전 의존도",
+        "detail": "제품 매출의 대부분을 한국전력공사에 납품하고 있어 한전의 설비투자·요금 등 정책 변화에 실적이 민감합니다."
+      },
+      {
+        "factor": "건설경기",
+        "detail": "장기적으로 국내외 건설 및 부동산 경기 변동에 따라 수주 및 매출이 변동될 수 있습니다."
+      },
+      {
+        "factor": "제품 안전성",
+        "detail": "전력기자재는 고도의 안전성과 내구성이 요구되어 기술력과 인증 보유 여부가 경쟁력에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "전력 기자재 개발 및 제작, 판매를 주된 사업으로 영업활동을 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "전력산업: 1,595,972 (1.1%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "상      품: 7,894,246 (5.3%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "기      타: 1,987,032 (1.4%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "제품 매출의 대부분을 한국전력공사에 납품하고 있으며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "HVDC(초고압직류송전) 방식을 채택한 대규모 전력망 확충을 추진하고"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4223,
+    "completion_tokens": 4809,
+    "reasoning_tokens": 3968,
+    "output_tokens": 841
+  },
+  "warnings": []
+}

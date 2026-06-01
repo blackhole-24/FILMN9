@@ -1,0 +1,76 @@
+{
+  "stock_code": "059100",
+  "corp_name": "아이컴포넌트",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 03:50",
+  "meta": {
+    "wics": "디스플레이장비및부품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "아이컴포넌트는 평판디스플레이용 플라스틱 기판과 광학필름을 제조하는 전기·전자 부품업체로, 주력 제품은 배리어 코팅필름과 도광판용 압출필름입니다. 당기의 매출액은 약 346억원, 영업이익은 약 60억원으로 보고되었습니다. 'Glastic' 상표를 통해 고객사 대상 기술 신뢰도와 품질 관리를 강조하고 있습니다.",
+    "business_model": "매출의 대부분은 COATED(PET) 배리어 코팅필름이 차지하며(66.6%), PC 계열 필름은 15.6%, PMMA 필름은 11.1%, COATED(PC,PMMA)는 5.6% 등으로 구성되어 있습니다. 배리어 코팅필름은 Encapsulation(봉지·밀봉) 용도로 TV·스마트폰·모니터 등 평판디스플레이와 태양유기전지 등으로 응용되며, 압출 도광판용 필름은 노트북·태블릿 등의 도광판(광확산판)에 적용되어 수요처가 구분됩니다.",
+    "main_customers": "COATED(PET) — TV·스마트폰·모니터 등 전자기기 제조사 / PC·PMMA 계열 — 노트북·태블릿·가전 제조사 및 자동차 계기판·HUD 부품사 / 압출 도광판 필름 — 노트북·태블릿용 디스플레이 모듈 제조사",
+    "price_factors": [
+      {
+        "factor": "전방 수요",
+        "detail": "디스플레이·IT 기기 수요가 줄면 발주 감소로 실적에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "제품 다변화",
+        "detail": "배리어필름의 태양광·e-book·ESL 등 신규 응용처 확대는 성장 기회를 제공합니다."
+      },
+      {
+        "factor": "저가 경쟁",
+        "detail": "중국산 저가 제품과의 경쟁 심화는 가격·마진 압박으로 이어집니다."
+      },
+      {
+        "factor": "기술 경쟁력",
+        "detail": "플렉서블 OLED(유연 유기발광다이오드) 등 차세대 디스플레이 기술 대응 여부가 경쟁력에 영향을 줍니다."
+      },
+      {
+        "factor": "정부 투자",
+        "detail": "플렉서블 디스플레이 등 분야에 대한 정부 투자 확대는 시장 성장에 우호적입니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "주요 제품군은  배리어 코팅필름과 도광판용 압출필름으로 나눌 수 있습니다."
+      },
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사의 당기 매출액은 약 346억원 영업이익은 약 60억원"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "23,081 (66.6%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "배리어 코팅 필름은 Encapsulation용 필름으로 TV, 스마트폰 등에 사용되며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "중국산 저가 제품등의 경쟁이 치열하여 쉽지않은 시장 상황이지만"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3773,
+    "completion_tokens": 4174,
+    "reasoning_tokens": 3264,
+    "output_tokens": 910
+  },
+  "warnings": []
+}

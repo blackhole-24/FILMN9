@@ -1,0 +1,74 @@
+{
+  "stock_code": "212710",
+  "corp_name": "아이에스티이",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 12:05",
+  "meta": {
+    "wics": "반도체와반도체장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "아이에스티이는 2013년 설립 이후 반도체 장비 중심의 기술력을 기반으로 성장한 장비·에너지 기업입니다. 특히 FOUP Cleaner 등 반도체 물류·제조 장비를 주력으로 글로벌 반도체 고객을 확보하며 사업기반을 다져왔습니다.",
+    "business_model": "주요 사업부문은 장비사업과 에너지사업으로 구성되며, 장비사업이 현재의 주력입니다. 장비사업은 FOUP Cleaner를 중심으로 Sorter, EFEM, Shelf 및 반도체부품을 판매하고 반도체 핵심 공정장비인 PECVD(반도체 핵심 공정장비)의 연구개발 및 사업화를 추진하고 있습니다. 에너지사업은 수소에너지 관련 EPC 매출과 연계산업 수주를 확대하고, 추가적으로 AI 데이터센터 서버 유통·시스템통합(SI) 및 액체 냉각(Liquid Cooling) 솔루션 공급 등으로 사업다각화를 시도하고 있습니다.",
+    "main_customers": "장비사업 — SK하이닉스, 삼성전자, SK실트론, Soitec / 에너지사업 — 시멘트 산업 연계 업체 및 수소 관련 EPC 수주처",
+    "price_factors": [
+      {
+        "factor": "업황 의존성",
+        "detail": "반도체 장비 수요는 반도체 업계의 투자 사이클에 직결되어 업황 변동이 실적에 큰 영향을 미칩니다."
+      },
+      {
+        "factor": "기술수명",
+        "detail": "반도체장비는 기술 발전 속도가 빠르고 기술수명이 짧아 지속적 연구개발 투자가 필요합니다."
+      },
+      {
+        "factor": "주문생산",
+        "detail": "고객별 맞춤 설계·주문자 생산 방식으로 가격·납기·수주 확보 경쟁이 실적에 중요한 변수입니다."
+      },
+      {
+        "factor": "고객집중",
+        "detail": "주요 거래처 중심의 매출 구조에서 특정 고객의 공급·납기 지연은 매출에 즉각적 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 영업 현황",
+        "evidence_text": "2013년 08월 설립 이후 독창적이고 차별화된 기술력을 확보"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 영업 현황",
+        "evidence_text": "당사는 현재 크게 장비사업과 에너지사업을 영위하고 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 영업 현황",
+        "evidence_text": "주요 거래처는 SK하이닉스, 삼성전자, SK실트론, Soitec"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 영업 현황",
+        "evidence_text": "반도체 핵심 공정장비인 PECVD 장비를 개발하여 사업화를 추진하고 있습니다."
+      },
+      {
+        "field": "financials",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "2025년도 매출액은 전년대비 감소(-22%)한 322억원이며"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4979,
+    "completion_tokens": 3818,
+    "reasoning_tokens": 3008,
+    "output_tokens": 810
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

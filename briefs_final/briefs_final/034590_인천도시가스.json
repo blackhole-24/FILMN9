@@ -1,0 +1,71 @@
+{
+  "stock_code": "034590",
+  "corp_name": "인천도시가스",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 09:56",
+  "meta": {
+    "wics": "가스유틸리티",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "인천도시가스는 1983년 3월 설립된 도시가스 공급회사로, 1984년 1월 공기혼합방식(LPG/AIR)으로 도시가스를 최초 공급한 뒤 1987년부터는 한국가스공사로부터 천연가스를 공급받아 왔습니다. 공급권역은 인천광역시 일부와 경기도 김포시 일부이며, 작성기준일 현재 수요가수는 84만여개소입니다.",
+    "business_model": "회사의 주력 사업은 도시가스 공급이며, FY2025 사업부문별 영업수익 구성에서 도시가스가 100.0%를 차지합니다. 도시가스는 한국가스공사로부터 도매요금으로 천연가스를 구입한 뒤, 정압기(압력을 낮추는 설비)와 배관망을 통해 수요가에 공급하고, 검침 후 용도별 단가를 적용해 요금을 청구하는 구조입니다. 요금은 공공요금 성격이 강해 도매요금과 소매공급비용, 그리고 원료비 연동제의 영향을 받습니다.",
+    "main_customers": "도시가스 — 인천시 일부·경기도 김포시 일부의 주택, 영업, 업무, 산업, 수송, 연료전지, 열전용설비 수요처",
+    "price_factors": [
+      {
+        "factor": "계절수요",
+        "detail": "동절기 난방수요가 집중돼 계절에 따라 도시가스 사용량과 매출 변동이 크게 나타납니다."
+      },
+      {
+        "factor": "요금승인",
+        "detail": "도시가스 요금은 정부·지자체 승인으로 결정되어 요금 조정 시 실적에 직접 영향을 줍니다."
+      },
+      {
+        "factor": "원료비",
+        "detail": "한국가스공사 도매요금이 원료비 연동제로 조정될 수 있어 매입단가 변동이 수익성에 영향을 줍니다."
+      },
+      {
+        "factor": "지역독점",
+        "detail": "공급권역 내 지역독점성이 있어 동종업계 간 직접 경쟁은 없지만, 공급권역 안 수요 변화가 중요합니다."
+      },
+      {
+        "factor": "에너지경쟁",
+        "detail": "타연료와의 경쟁 확대와 이상고온은 난방수요를 줄여 도시가스 판매량에 부담이 될 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "1983년 3월 설립되어 1984년 1월 공기혼합방식"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사의 공급권역은 인천시 일부와 경기도 김포시 일부"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "도시가스: 962,994 (100.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "한국가스공사로부터 도매요금으로 천연가스를 구입"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4757,
+    "completion_tokens": 820,
+    "reasoning_tokens": 0,
+    "output_tokens": 820
+  },
+  "warnings": []
+}

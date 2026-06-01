@@ -1,0 +1,69 @@
+{
+  "stock_code": "337930",
+  "corp_name": "젝시믹스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 16:50",
+  "meta": {
+    "wics": "섬유,의류,신발,호화품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "젝시믹스는 2015년 런칭된 애슬레저 브랜드(XEXYMIX)를 중심으로 한 패션기업으로, 기능성과 디자인을 결합한 스포츠웨어를 주력으로 판매합니다. D2C(Direct to Consumer) 중심의 판매 전략을 통해 자사몰 및 온·오프라인 채널에서 직접 고객과 소통하며, 2025년 연결 누적 매출액은 2,741억원을 기록하는 등 브랜드 기반의 성장세를 이어가고 있습니다.",
+    "business_model": "핵심 사업은 브랜드 '젝시믹스'를 중심으로 한 애슬레저 의류 및 액세서리 제품 판매이며, 여성·남성용 스포츠웨어와 요가·필라테스·피트니스용 제품을 포함합니다. 판매는 D2C(자사몰 및 주요 온·오프라인 쇼핑몰) 중심으로 이루어지고, 디지털 마케팅 및 자회사(이루다마케팅, 업그레잇)를 통한 브랜드·콘텐츠 역량으로 신제품 기획과 글로벌 시장 확대를 추진합니다.",
+    "main_customers": "젝시믹스(패션부문) — 온라인·오프라인 쇼핑몰을 이용하는 일반 소비자 / 이루다마케팅(광고대행부문) — 광고·마케팅을 의뢰하는 기업(클라이언트) / 업그레잇 등 D2C 브랜드 — 직접 소비자(브랜드 경험을 중시하는 사용자)",
+    "price_factors": [
+      {
+        "factor": "시장성장",
+        "detail": "글로벌·국내 애슬레저 시장의 고성장(보고서상의 높은 CAGR)은 매출 확대 기회이나 경쟁 심화도 동반합니다."
+      },
+      {
+        "factor": "패션 트렌드",
+        "detail": "애슬레저는 트렌드 민감 업종이어서 소비자 선호 변화가 제품 판매와 재고에 즉시 영향합니다."
+      },
+      {
+        "factor": "환율",
+        "detail": "USD·CNY 등 외화 노출이 있어 환율 변동은 수익성 및 해외 매출 원화 환산에 영향을 줍니다."
+      },
+      {
+        "factor": "마케팅비(판관비)",
+        "detail": "공격적 마케팅·해외 확장에 따른 판매관리비 증가는 영업이익에 직접적인 부담 요인이 됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 2015년 브랜드 젝시믹스(XEXYMIX)를 런칭하였고, 기능성과 디자인을 겸비한 애슬레저를 중심으로 지속적인 성장을 이어오고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "D2C(Direct to Consumer) 중심의 판매 전략, 즉 자사몰 및 주요 온/오프라인 쇼핑몰을 통한 직접 판매 비중이 높으며, 이를 통해 브랜드 아이덴티티를 강화하고 고객과의 직접적인 소통을 유지합니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사의 주요 매출원은 애슬레저 브랜드 '젝시믹스'이며, 본 보고서 작성기준일 현재 ...을 연결종속회사로 두고 있습니다."
+      },
+      {
+        "field": "financials",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사의 2025년 누적 연결 매출액은 2,741억원, 영업이익은 173억원을 실현하였습니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 5574,
+    "completion_tokens": 3655,
+    "reasoning_tokens": 2752,
+    "output_tokens": 903
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

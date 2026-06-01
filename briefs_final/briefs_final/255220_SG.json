@@ -1,0 +1,73 @@
+{
+  "stock_code": "255220",
+  "corp_name": "SG",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 13:53",
+  "meta": {
+    "wics": "건축자재",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "SG(255220)는 아스팔트 콘크리트(아스콘) 제조를 주력으로 하는 비금속·건축자재 업체로, 제17기 연결 매출액은 약 1,022.5억원을 기록했습니다. 슬래그 골재를 활용한 에코스틸아스콘 등 기술 기반 제품과 아스콘 플랜트용 환경설비를 보유하고 있습니다.",
+    "business_model": "주요 사업은 아스콘 제품(일반 및 개질아스콘 등) 제조·공급이며, 관급(공공)과 민수(민간건설) 수요를 통해 매출을 창출합니다. 또한 천연골재를 대체한 슬래그 골재 기반의 에코스틸아스콘과 아스콘 생산과정의 대기오염 저감설비(SGR+) 보급을 통해 부가가치를 확대하고 있습니다.",
+    "main_customers": "아스콘 — 도로공사 등 공공기관(관급) 및 민간 건설사 / 환경설비(SI) — 아스콘 사업장 및 타 아스콘사",
+    "price_factors": [
+      {
+        "factor": "국제유가",
+        "detail": "아스팔트 원료인 석유를 전량 수입에 의존하므로 국제 유가 변동은 원가와 수익성에 직접 영향을 줍니다."
+      },
+      {
+        "factor": "관급 비중",
+        "detail": "아스콘 산업은 관급수요 비중이 높아(산업 전반의 관급 의존) 공공투자 변동에 민감합니다."
+      },
+      {
+        "factor": "환경규제",
+        "detail": "대기환경 규제가 강화되면 저감설비 수요가 증가하나, 규제 준수 비용이 실적에 영향 줍니다."
+      },
+      {
+        "factor": "운송거리",
+        "detail": "제품 특성상 배송가능거리가 제한돼(최대 120분 내 영업권) 지역별 수요에 따라 매출이 제약됩니다."
+      },
+      {
+        "factor": "환율(해외사업)",
+        "detail": "현재 매출은 내수 중심이나 해외법인·수출 확대 시 환율변동이 매출·매입에 영향을 미칠 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "당사의 제17기 연결 매출액은 약 1,022.5억원으로"
+      },
+      {
+        "field": "business_model",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "당사는 천연골재를 대체하여 슬래그 골재를 활용한 에코스틸아스콘은"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "아스콘 산업의 특성",
+        "evidence_text": "관급수요가 90%에 달하는 전형적인 관급제품입니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "아스콘 산업의 특성",
+        "evidence_text": "아스팔트의 원료인 석유는 전량 수입에 의존하기 때문에"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4107,
+    "completion_tokens": 4130,
+    "reasoning_tokens": 3328,
+    "output_tokens": 802
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

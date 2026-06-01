@@ -1,0 +1,74 @@
+{
+  "stock_code": "036420",
+  "corp_name": "콘텐트리중앙",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 00:35",
+  "meta": {
+    "wics": "방송과엔터테인먼트",
+    "market": "KOSPI",
+    "has_revenue_data": false,
+    "tier": 3,
+    "tier_mode": "narrative_segments",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "콘텐트리중앙은 중앙그룹의 중간지주회사로, 지주회사 역할과 함께 콘텐트(미디어 콘텐츠 및 영화)와 공간(영화관·키즈 실내놀이터) 중심의 투자·사업개발을 수행합니다. 2025년 연결기준 매출액은 1조 834억원으로 전년 대비 증가했고 영업이익은 흑자전환했습니다. 2025년말 자산총계는 2조 4,909억원, 부채총계는 1조 8,947억원으로 전년 대비 감소했습니다.",
+    "business_model": "콘텐트리중앙은 계열사관리(지주부문), 미디어 콘텐츠 제작·유통 및 영화 제작/투자/배급(콘텐트사업), 영화관·키즈 실내놀이터 운영(공간사업), 디지털 마케팅·커머스 및 스포츠 투자(신사업) 등 4개 부문을 운영하며 그중 콘텐트와 공간 사업이 주력으로 보입니다.",
+    "main_customers": "지주부문 — 계열사(관리 대상) / 콘텐트사업 — 콘텐츠 소비자(시청자·관객) 및 콘텐츠 유통처 / 공간사업 — 영화관 관람객·키즈 실내놀이터 이용 어린이·가족 / 신사업 — 디지털 마케팅·커머스 서비스 이용자 및 스포츠 투자 관련 대상",
+    "price_factors": [
+      {
+        "factor": "박스오피스",
+        "detail": "상업영화 흥행 성과가 관람객 수와 박스오피스 매출에 직결되어 공간부문 실적 변동을 유발합니다."
+      },
+      {
+        "factor": "재무건전성",
+        "detail": "금리상승 등 통화긴축 환경에서의 부채 부담 경감과 재무 건전성 개선 여부가 전반적 재무구조와 투자여력에 영향합니다."
+      },
+      {
+        "factor": "콘텐츠공급",
+        "detail": "작품 공급에 따른 무형자산 변동이 콘텐트 사업의 수익성 및 자산구성에 영향을 미칩니다."
+      },
+      {
+        "factor": "극장지표",
+        "detail": "메가박스의 M/S(시장점유율), ATP(관객당티켓수입), CPP(좌석당수익) 개선은 공간부문의 질적 성장에 연결됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "주식회사 콘텐트리중앙(이하 \"당사\")은 중앙그룹의 중간지주회사로"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "계열사관리 등을 주 사업목적으로 하는 지주부문"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "영화관과 키즈 실내놀이터를 운영하는 공간 사업부문"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "상업영화의 흥행 부진으로 전년 대비 관람객 및 박스오피스 매출 감소"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "부채 부담 경감과 재무 건전성 제고"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 3178,
+    "completion_tokens": 6069,
+    "reasoning_tokens": 5184,
+    "output_tokens": 885
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

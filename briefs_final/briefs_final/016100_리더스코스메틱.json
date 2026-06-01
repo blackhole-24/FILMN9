@@ -1,0 +1,86 @@
+{
+  "stock_code": "016100",
+  "corp_name": "리더스코스메틱",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 09:50",
+  "meta": {
+    "wics": "포장재",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "리더스코스메틱은 1986년 12월 24일 (주)산성으로 설립된 기업으로, 화장품과 골판지 및 골판지 상자의 제조·판매를 주요 사업으로 영위하고 있습니다. 2003년 1월 15일 코스닥시장에 상장했으며, 2016년 골판지사업부문 물적분할과 2022년 산성피앤씨 흡수합병을 거치며 사업 구조를 조정해 왔습니다.",
+    "business_model": "화장품사업부와 골판지사업부가 함께 매출을 만드는 구조이며, 사업부문별 매출 비중은 골판지사업부 79.6%, 화장품사업부 20.4%입니다. 화장품사업부는 마스크팩을 중심으로 기초·색조 화장품을 판매하고, 골판지사업부는 골판지 원단과 골판지 상자를 생산·재가공해 지함소 및 최종수요자에게 공급합니다.",
+    "main_customers": "화장품사업부 — 마스크팩·기초·색조화장품을 찾는 일반 소비자 / 골판지사업부 — 지함소, 골판지상자 최종수요자, 포장재 수요처",
+    "price_factors": [
+      {
+        "factor": "내수경기",
+        "detail": "화장품 산업은 내수 경기에 민감해 경기 둔화 시 화장품 수요와 실적에 영향을 받을 수 있습니다."
+      },
+      {
+        "factor": "채널확대",
+        "detail": "다양한 유통 채널이 확대될수록 화장품 판매 기회가 늘어나 실적에 긍정적으로 작용할 수 있습니다."
+      },
+      {
+        "factor": "경쟁심화",
+        "detail": "신규 업체와 브랜드 진입이 지속돼 경쟁이 치열해질수록 화장품 사업의 수익성에 부담이 될 수 있습니다."
+      },
+      {
+        "factor": "계절변동",
+        "detail": "화장품은 하절기 수요가 감소하는 경향이 있어 계절 요인이 매출 흐름에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "원가상승",
+        "detail": "골판지사업부의 매출원가 상승은 영업이익 감소로 이어질 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "1986년 12월 24일 (주)산성 상호로 설립"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "2003년 1월 15일자로 코스닥시장에 상장"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "골판지사업부 | ... | 50,792(74.4%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "화장품사업부 | ... | 12,869(18.8%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "지함소 및 골판지상자 최종수요자를대상으로 판매"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "화장품사업부 > 산업분석",
+        "evidence_text": "화장품 산업은 내수 경기에 민감한 산업"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "화장품사업부 > 경기변동의 특성 및 계절성",
+        "evidence_text": "하절기에는 전체적인 제품 수요가 감소"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4509,
+    "completion_tokens": 959,
+    "reasoning_tokens": 0,
+    "output_tokens": 959
+  },
+  "warnings": []
+}

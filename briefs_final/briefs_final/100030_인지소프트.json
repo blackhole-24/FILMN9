@@ -1,0 +1,71 @@
+{
+  "stock_code": "100030",
+  "corp_name": "인지소프트",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:15",
+  "meta": {
+    "wics": "소프트웨어",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "인지소프트는 광학 문자 인식(OCR, 글자를 이미지에서 읽어내는 기술)과 전자서식 기술을 바탕으로 금융권 대상 소프트웨어 솔루션을 제공하는 회사입니다. 디지털 창구 시스템, 이미지 시스템, 비대면 본인확인 솔루션, RPA(로보틱 프로세스 자동화) 솔루션을 중심으로 시스템 구축과 유지보수 사업을 함께 영위하고 있습니다.",
+    "business_model": "회사는 금융권을 대상으로 한 솔루션 공급과 시스템 구축, 그리고 구축 후 유지보수에서 수익을 얻습니다. 사업부문별 영업수익 구성에서는 (주)인지소프트(구.모바일리더)가 7,931(42.0%)로 제시되어 있습니다. 클라우드 기반 SaaS(서비스형 소프트웨어)인 Q서비스를 통해 ODS(아웃도어 세일즈) 솔루션과 디지털창구 시스템도 제공하고 있습니다.",
+    "main_customers": "디지털 창구 시스템 — 시중은행 및 금융권 고객사 / 이미지 시스템 — 국내 1금융권·2금융권 / 비대면 본인확인 솔루션 — 금융권 고객사 / RPA솔루션 — 금융권 및 추가 도입 기업",
+    "price_factors": [
+      {
+        "factor": "은행투자",
+        "detail": "시중은행의 디지털 창구 시스템 신규 구축과 전국 영업점 확대가 늘면 관련 솔루션 공급이 활성화될 수 있습니다."
+      },
+      {
+        "factor": "차세대",
+        "detail": "대형 은행의 차세대 시스템 구축 프로젝트가 연간 2~3건 지속되어 금융권 IT 투자 흐름이 실적에 영향을 줍니다."
+      },
+      {
+        "factor": "점유율",
+        "detail": "비대면 본인확인 솔루션과 이미지 시스템의 높은 점유율이 유지되면 금융권 내 수주 경쟁에서 유리할 수 있습니다."
+      },
+      {
+        "factor": "RPA확대",
+        "detail": "RPA솔루션은 아직 성장시장이라 추가계약이 늘수록 매출 확대 기대가 커질 수 있습니다."
+      },
+      {
+        "factor": "기술력",
+        "detail": "금융 솔루션 분야는 기술 장벽이 높아 핵심 모듈 보유와 금융 시스템 노하우가 경쟁력에 직접 연결됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "광학 문자 인식 기술 및 전자서식 기술을 바탕으로 한"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "금융권 대상의 SW 솔루션을 납품하거나"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "(주)인지소프트(구.모바일리더): 7,931 (42.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "시중은행을 중심으로 창구 업무 효율화를 위한"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4400,
+    "completion_tokens": 787,
+    "reasoning_tokens": 0,
+    "output_tokens": 787
+  },
+  "warnings": []
+}

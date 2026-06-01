@@ -1,0 +1,67 @@
+{
+  "stock_code": "263860",
+  "corp_name": "지니언스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 14:20",
+  "meta": {
+    "wics": "소프트웨어",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "지니언스는 2005년 설립된 사이버 보안 소프트웨어 기업으로, NAC(네트워크 접근 제어)·EDR(단말 위협 탐지·대응)·ZTNA(제로 트러스트 네트워크 액세스) 등 통합 단말 및 네트워크 보안 솔루션을 제공합니다. 2005년 설립 이래 21년 연속 흑자를 기록하고 있으며, 미국·중동·인도 등 글로벌 거점을 확대하며 시장 지배력을 강화하고 있습니다.",
+    "business_model": "매출은 제품 판매와 유지관리·기술지원 용역으로 구성되며, 주요 제품은 Genian NAC, Genian Insights E(통합 단말 보안 플랫폼), GPI(PC 보안 진단) 및 ZTNA 솔루션입니다. 사업부문별 매출 구성은 네트워크보안(제품)이 매출의 82.55%로 가장 큰 비중을 차지하고, 유지관리·기술지원 용역이 17.44%, 기타(건물임대)가 0.01%를 차지합니다.",
+    "main_customers": "네트워크보안 — 공공·금융·대기업·중소기업 / 유지관리·기술지원 — 솔루션 도입 고객 / 기타 — 건물임대 관련",
+    "price_factors": [
+      {
+        "factor": "정부정책",
+        "detail": "정부의 정보보호 산업 진흥계획·예산 투입은 관련 프로젝트와 조달 수요를 늘려 실적에 영향을 줍니다."
+      },
+      {
+        "factor": "공시·규제",
+        "detail": "정보보호공시제도·CISO 규정 등 규제 강화는 기업의 보안 투자 확대와 서비스 수요를 촉진합니다."
+      },
+      {
+        "factor": "해킹사고",
+        "detail": "최근 대형 해킹·랜섬웨어 사고는 EDR 등 단말 보안 수요를 높여 매출에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "조달시장",
+        "detail": "NAC는 공공 조달에서 70% 이상 점유율을 유지하고 있어 조달 수주 결과가 실적 변동에 큰 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "2005년 설립 이래 21년 연속 흑자를 기록하고 있으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "39,942(82.55%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업의 개황",
+        "evidence_text": "공공, 금융은 물론 대기업에서 중소기업까지 비즈니스 커버리지를 확대했으며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "영업에 영향을 미치는 법률 또는 제규정",
+        "evidence_text": "정보보호공시제도는 기업의 정보보호 투자/인력 등 현황 정보를 투명하게 공개"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5855,
+    "completion_tokens": 3578,
+    "reasoning_tokens": 2816,
+    "output_tokens": 762
+  },
+  "warnings": []
+}

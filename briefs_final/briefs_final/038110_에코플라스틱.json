@@ -1,0 +1,66 @@
+{
+  "stock_code": "038110",
+  "corp_name": "에코플라스틱",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 09:58",
+  "meta": {
+    "wics": "자동차부품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "에코플라스틱은 자동차 부품을 제조해 완성차 업체에 공급하는 회사로, 종속회사와 함께 동일한 자동차 부품 사업을 영위하고 있습니다. 주요 부품은 범퍼, 콘솔, 트림류이며, 현대자동차와 기아자동차를 비롯한 글로벌 완성차 업체에 납품하고 있습니다. 친환경 소재와 차량 경량화 부품 개발, 북미 전기차 공장 동반 진출 등을 통해 사업 영역을 넓혀가고 있습니다.",
+    "business_model": "에코플라스틱은 사업부문별 영업수익에서 CONSOLE 26.9%, 기타(소물TRIM류) 25.3%, WEATHER STRIP 12.5%, 금 형 3.5%, DAMPER 2.2%, MAIN CORE 0.7%, LOWER ARMS 0.3%, W/COVER 0.2%, SPRING PAD 0.2%를 기록했습니다. 완성차 제조공정에 들어가는 범퍼, 콘솔, 트림류 등 자동차 부품을 OEM(주문자상표부착생산) 방식으로 공급하는 구조이며, 친환경 소재 제품과 초경량 차체 부품 개발도 병행하고 있습니다. 현대자동차 수소차 넥쏘와 북미 전기차 공장 등 전기차·수소차 관련 공급 확대가 함께 언급됩니다.",
+    "main_customers": "자동차 부품 전반 — 현대자동차·기아자동차 등 완성차 업체 / 범퍼·플라스틱 부품 — 현대자동차 수소차 넥쏘, 현대차 북미 전기차 공장 / 신차종 부품 — 르노자동차 등 글로벌 완성차 업체",
+    "price_factors": [
+      {
+        "factor": "완성차 수요",
+        "detail": "자동차 부품은 OEM 공급 비중이 높아 국내외 완성차 생산과 판매가 늘면 실적에 직접 영향을 받습니다."
+      },
+      {
+        "factor": "전기차 확산",
+        "detail": "전기차와 수소차 보급이 확대될수록 친환경 소재·경량화 부품 수요가 늘어 수주 확대 가능성이 커집니다."
+      },
+      {
+        "factor": "북미가동",
+        "detail": "현대차 북미 전기차 공장 가동처럼 해외 생산 거점이 늘면 동반 진출한 부품사의 매출 확대에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "차량고급화",
+        "detail": "콘솔 사양 고급화와 기능 확대로 부품 단가가 높아질 수 있어 제품 믹스에 따라 수익성에 차이가 날 수 있습니다."
+      },
+      {
+        "factor": "경량화수요",
+        "detail": "전기차 시대에는 차량 경량화가 중요해져 초경량 차체 부품과 신소재 개발 성과가 경쟁력에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사와 당사의 종속회사(아이아, 코모스, ECOPLASTIC AMERICA Corp 등)는 완성차의 제조공정에 부품을 공급하는 자동차 부품 사업을 동일하게 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "CONSOLE: 375,511 (26.9%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "현대자동차와 기아자동차를 비롯한 글로벌 완성차 업체에 납품을 하고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4932,
+    "completion_tokens": 897,
+    "reasoning_tokens": 0,
+    "output_tokens": 897
+  },
+  "warnings": []
+}

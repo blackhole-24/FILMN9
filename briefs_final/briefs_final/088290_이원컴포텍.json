@@ -1,0 +1,69 @@
+{
+  "stock_code": "088290",
+  "corp_name": "이원컴포텍",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 06:44",
+  "meta": {
+    "wics": "자동차부품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "이원컴포텍은 상용차(트럭·버스)용 시트(의자) 및 내장제품을 전문적으로 생산하는 자동차부품 제조업체로, 주요 국내 완성차 업체에 납품하며 안정적인 매출을 유지하고 있습니다. 2009년 코스닥시장에 상장되었고, 2025년 연결 기준 매출은 566억원, 영업이익은 16억원이며 당기순손실은 10억원을 기록했습니다.",
+    "business_model": "핵심은 상용차용 시트와 내장제품의 OEM(완성차 주문자 생산) 공급으로, 국내 완성차사에 납품하는 제조·납품이 주요 수익원입니다. 2021년부터 애프터마켓(사후판매)용 독자 개발 시트 판매에 투자해 2022년부터 판매실적이 확대되고 있으며, 2026년 매출 목표(603억원)를 설정하고 애프터마켓·중장비·농기계 시트 등으로 사업다각화를 추진하고 있습니다.",
+    "main_customers": "시트·내장제품 — 현대자동차·기아자동차·현대모비스",
+    "price_factors": [
+      {
+        "factor": "완성차 주문·모델주기",
+        "detail": "제품 판매가격과 물량이 완성차업체의 신제품 양산단계와 모델주기에 따라 결정되어 실적에 직접 영향을 줍니다."
+      },
+      {
+        "factor": "부품 단가 추세",
+        "detail": "동일 부품의 단가는 연간 하락하는 경향이 있어 장기적으로 수익성에 부담을 줄 수 있습니다."
+      },
+      {
+        "factor": "원·부재료 가격",
+        "detail": "원·부재료 가격 변동은 부품의 제조원가와 마진에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "수출·거시환경",
+        "detail": "대외여건(관세·신공장 가동·국제정세 등) 변화는 자동차 산업의 수출과 생산에 영향을 주어 간접적으로 실적에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "2009년 12월 01일자로 상장되어 코스닥시장에서 매매가 개시되었습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "애프터 마켓의 독자개발 시트의 판매 확대"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "현대자동차, 기아자동차, 현대모비스에 제품을 제공하여"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 가. 업계의 현황 > 2) 주요가격 변동요인",
+        "evidence_text": "동일 부품의 단가는 매년 하락하는 것이 일반적이며"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 3600,
+    "completion_tokens": 4106,
+    "reasoning_tokens": 3328,
+    "output_tokens": 778
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

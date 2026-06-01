@@ -1,0 +1,91 @@
+{
+  "stock_code": "465770",
+  "corp_name": "STX그린로지스",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:46",
+  "meta": {
+    "wics": "해운사",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "STX그린로지스는 2023년 9월 1일 STX에서 인적분할되어 설립된 뒤, 같은 해 9월 15일 한국거래소에 재상장한 해운사입니다. 벌크선 해운을 중심으로 해상운송, 대선(선박 임대), 선박관리 사업을 영위하며, 2025년에는 STX에코 인수로 제조업 부문도 추가되었습니다.",
+    "business_model": "사업부문별 영업수익은 해운 61.4%, 선박관리업 35.7%, 기타 2.9%로 구성되어 있습니다. 해운 부문은 정기선·부정기선·대형선 서비스를 통해 해상운송과 대선 사업을 맡고, 선박관리업은 선박 관리·부품 공급·해운 대리업 등 해운 지원 서비스를 제공합니다. 제조업은 재생 알루미늄 등 비철금속 소재를 생산·공급하는 사업으로, 자원 순환과 친환경 기술 기반의 설비 투자와 품질 관리·연구개발을 병행하고 있습니다.",
+    "main_customers": "해운 — 정기선 이용 화주, 부정기선 화주, 해상운송 수요 기업 / 선박관리업 — 선박 운영 기업, 해운 고객사 / 제조업 — 비철금속 소재 수요처",
+    "price_factors": [
+      {
+        "factor": "운임시황",
+        "detail": "해운업은 글로벌 경기와 물동량 변화에 민감해 운임 하락 시 매출과 이익이 동시에 압박받을 수 있습니다."
+      },
+      {
+        "factor": "원자재수요",
+        "detail": "원유·철광석·연료탄 같은 원자재 수요가 늘면 해상 운송 수요가 확대되어 해운 물량에 영향을 줍니다."
+      },
+      {
+        "factor": "지정학리스크",
+        "detail": "홍해·중동 긴장처럼 우회 항로가 늘면 운항 거리와 선복 수요가 변해 시황과 실적에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "환경규제",
+        "detail": "IMO(국제해사기구) 감축 정책과 FuelEU Maritime 같은 규제는 친환경 선박 도입과 운항 원가에 영향을 줍니다."
+      },
+      {
+        "factor": "금융평가손",
+        "detail": "보유 금융자산이나 전환사채의 공정가치 변동이 평가손실로 이어지면 손익 변동성이 커질 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "2023년 9월 1일을 분할기일로 인적분할하여 설립"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "2023년 9월 15일 한국거래소에 재상장되었습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "해운: 127,874,349 (61.4%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "선박관리업: 74,431,450 (35.7%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "기타: 6,020,358 (2.9%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "정기선, 부정기선, 대형선 서비스를 통해"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "선박 관리, 선박 부품 공급 및 해운 대리업"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "재생 알루미늄 등 비철금속 소재를 생산 및 공급"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4832,
+    "completion_tokens": 1065,
+    "reasoning_tokens": 0,
+    "output_tokens": 1065
+  },
+  "warnings": []
+}

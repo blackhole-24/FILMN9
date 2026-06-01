@@ -1,0 +1,72 @@
+{
+  "stock_code": "121800",
+  "corp_name": "비덴트",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 09:12",
+  "meta": {
+    "wics": "디스플레이패널",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "비덴트는 방송용 디스플레이를 주력으로 하는 전기·전자 기업으로, LVM·LUM·F·B·C·R 등 다수의 방송용 모니터 라인업을 보유해 제작·편집·송출 등 방송 제작 전 과정에 사용되는 장비를 공급하고 있습니다. 2025년에는 기존 방송장비 중심의 사업구조를 다변화하기 위해 스마트 댐퍼구동기 시제품을 출시하는 등 신규사업도 추진하고 있습니다.",
+    "business_model": "FY2025 기준 사업부문별 영업수익에서 제품은 11.2%, 임대는 16.6%를 차지합니다. 핵심 수익원은 방송 제작·편집·송출용 고해상도 모니터(방송용 디스플레이) 제품 판매이며, 임대(렌탈) 등 서비스형 수익도 일부를 구성합니다.",
+    "main_customers": "제품 — 지상파(공중파) 방송국, 유선방송사업자(케이블 방송국), 영화제작·편집사 / 임대 — 공공기관·교회·학교·방송국 및 일반 기업체",
+    "price_factors": [
+      {
+        "factor": "품질·안정성",
+        "detail": "지상파 중심의 대규모 투자는 가격보다 품질과 안정성을 중시하므로 품질 경쟁력이 실적에 직결됩니다."
+      },
+      {
+        "factor": "투자사이클",
+        "detail": "지상파·대형 방송국의 대규모 투자 시기마다 수요가 변동해 매출 실적 변동성이 발생할 수 있습니다."
+      },
+      {
+        "factor": "가격민감도",
+        "detail": "케이블 방송국 등 일부 수요처는 가격에 민감해 가격경쟁 심화 시 마진 압박으로 이어질 수 있습니다."
+      },
+      {
+        "factor": "고화질수요",
+        "detail": "영화제작·편집사 등 고품질 수요처는 고사양 제품을 선호해 프리미엄 제품군의 매출과 마진에 우호적입니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황 > 가. 업계의 현황",
+        "evidence_text": "당사의 주요제품인 방송용 디스플레이는 방송장비 중 제작장비에 속해"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "제품: 1,133 (11.2%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "임대: 373 (16.6%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "유선방송사업자또한 방송용 디스플레이의 주요 수요자 중 하나입니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "가격보다는 제품의 품질과 그 안정성을 중시하는 경향이 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4156,
+    "completion_tokens": 5013,
+    "reasoning_tokens": 4224,
+    "output_tokens": 789
+  },
+  "warnings": []
+}

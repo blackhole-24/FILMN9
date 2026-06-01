@@ -1,0 +1,73 @@
+{
+  "stock_code": "071200",
+  "corp_name": "인피니트헬스케어",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:08",
+  "meta": {
+    "wics": "건강관리기술",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "인피니트헬스케어는 의료 IT(정보기술) 분야에서 의료영상 저장·전송·관리 솔루션을 제공하는 기업으로, 국내 최초로 의료 데이터 통합 플랫폼과 빅데이터·인공지능을 결합한 솔루션을 출시했습니다. 현재 국내 본사와 해외 8개 법인을 통해 55개국 6,300여 의료기관에 제품과 서비스를 공급하고 있습니다.",
+    "business_model": "주력 사업은 소프트웨어 판매와 함께 설치, 연동, 유지보수 서비스를 제공하는 구조입니다. 대표 제품인 PACS(Picture Archiving and Communication System, 의료영상 저장·전송 시스템)를 중심으로 Full-PACS, Department PACS, Medical 3D, RIS(영상정보시스템), CIS(임상정보시스템), Teleradiology(원격판독) 등을 국내외 의료기관에 공급합니다. 사업부문별 매출 구성에서는 소프트웨어가 영업수익 118,435백만원, 내부거래 등은 (16,043)백만원으로 집계되었습니다.",
+    "main_customers": "소프트웨어 — 국내외 병원, 의료기관 / 유지보수 서비스 — PACS 및 의료영상 솔루션을 도입한 의료기관 / 해외 판매·서비스 — 55개국 의료기관",
+    "price_factors": [
+      {
+        "factor": "해외도입",
+        "detail": "PACS는 선진국 의료기관 중심으로 도입이 활발해 미국·유럽·일본 등 해외 시장 확대가 실적에 영향을 줍니다."
+      },
+      {
+        "factor": "유지보수",
+        "detail": "24시간 365일 사용하는 시스템 특성상 유지보수 계약과 업그레이드 수요가 꾸준한 수익 기반이 됩니다."
+      },
+      {
+        "factor": "기술경쟁",
+        "detail": "의료와 IT가 결합된 고난도 산업이라 영상 연동, 3차원 가시화, AI 기능 등 기술 경쟁력이 중요합니다."
+      },
+      {
+        "factor": "의료투자",
+        "detail": "의료기관의 정보시스템과 디지털 장비 투자 확대가 PACS 도입과 추가 솔루션 채택으로 이어질 수 있습니다."
+      },
+      {
+        "factor": "환율변동",
+        "detail": "해외 55개국에 공급하는 구조라 해외 매출의 원화 환산과 수출 경쟁력이 환율에 따라 달라질 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "나. 산업의 개요 (1) 산업의 개요",
+        "evidence_text": "국내 최초로 의료 데이터 통합 플랫폼(Vendor Neutral Archive)과 빅데이터 분석, 인공지능 기술을 융합한 솔루션을 출시"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "나. 산업의 개요 (1) 산업의 개요",
+        "evidence_text": "55개국 6,300여 의료기관에 공급되고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. 지배회사의 내용",
+        "evidence_text": "국내·외 시장에 Full-PACS, Department PACS, Medical 3D, RIS, CIS, BSP, Teleradiology"
+      },
+      {
+        "field": "business_model",
+        "source_section": "나. 주요 종속회사의 내용",
+        "evidence_text": "PACS & RIS, Cardiology PACS 등 미국시장에서의 의료용 소프트웨어 판매 및 서비스"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 5136,
+    "completion_tokens": 836,
+    "reasoning_tokens": 0,
+    "output_tokens": 836
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

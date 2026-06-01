@@ -1,0 +1,71 @@
+{
+  "stock_code": "008600",
+  "corp_name": "윌비스",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 09:46",
+  "meta": {
+    "wics": "섬유,의류,신발,호화품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "윌비스는 1973년 설립되어 1989년 한국거래소 유가증권시장본부에 상장한 기업입니다. 현재 섬유사업과 교육사업을 함께 운영하고 있으며, 2025년 기준 매출 구성은 섬유가 중심입니다. 섬유 분야에서는 해외 생산기지를 활용한 수출형 사업을, 교육 분야에서는 성인 대상 자격·고시 교육 서비스를 이어가고 있습니다.",
+    "business_model": "사업부문별 영업수익 구성은 섬유 67.6%, 교육 32.3%, 소프트웨어 0.1%입니다. 섬유사업은 인도네시아·캄보디아·도미니카공화국·아이티 등 해외법인에서 생산한 KNIT, 수영복 등을 OEM(주문자상표부착방식)으로 수출하는 구조이며, 교육사업은 고등고시와 성인자격증 교육 서비스를 내수로 제공합니다. 소프트웨어 부문은 매출 비중이 매우 작아 전체 구조에서는 보조적인 수준입니다.",
+    "main_customers": "섬유사업 — GAP, OLD NAVY, HANESBRANDS, THE CHILDREN'S PLACE, KOHL'S 등 바이어 / 교육사업 — 사법시험, 행정고시, 외무고시, 공무원시험, 공인중개사, 변리사, 공인회계사, 세무사 수험생 / 소프트웨어 — 고객 정보 미제공",
+    "price_factors": [
+      {
+        "factor": "미국·유럽",
+        "detail": "OEM 의류수출은 바이어와 판매시장이 주로 미국·유럽에 기반해 있어 해당 지역 경기변동에 실적이 영향을 받습니다."
+      },
+      {
+        "factor": "계절요인",
+        "detail": "의류수출은 계절적 요인의 영향을 받기 쉬워 수요와 수주 흐름이 시기별로 달라질 수 있습니다."
+      },
+      {
+        "factor": "인건비",
+        "detail": "저임금 국가 생산기지와의 경쟁이 중요해 인건비 구조와 생산거점 경쟁력이 수익성에 영향을 줍니다."
+      },
+      {
+        "factor": "품질·납기",
+        "detail": "OEM 사업은 품질, 신속한 상품 제공, 주문자 요구 대응력이 바이어 수주와 매출 유지에 직접 연결됩니다."
+      },
+      {
+        "factor": "교육경기",
+        "detail": "교육사업은 경기둔화, 공무원 선호도 변화, 공무원 인원 감축 기조에 따라 수요와 경쟁 강도가 달라집니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 1973년 3월 9일에 설립되어 1989년 7월에 한국거래소 유가증권시장본부에 주식을 상장하였고"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "섬유: 127,350,516,255 (67.6%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "GAP, OLD NAVY, HANESBRANDS, THE CHILDREN'S PLACE, KOHL'S 등의 바이어에 수출하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성 — price_factors 참고용",
+        "evidence_text": "OEM방식의 의류수출산업은 대부분의 바이어 및 판매시장이 주로 미국, 유럽에 기반"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4766,
+    "completion_tokens": 898,
+    "reasoning_tokens": 0,
+    "output_tokens": 898
+  },
+  "warnings": []
+}

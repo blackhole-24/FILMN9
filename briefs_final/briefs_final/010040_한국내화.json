@@ -1,0 +1,76 @@
+{
+  "stock_code": "010040",
+  "corp_name": "한국내화",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 09:47",
+  "meta": {
+    "wics": "비철금속",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "한국내화는 1973년 부산 동래에서 '한국특수내화공업사'로 시작해, 1976년 경남 김해로 이전하며 주식회사로 전환한 뒤 1995년 현재의 사명으로 변경한 내화물 업체입니다. 자체 기술 개발과 선진 기술 도입을 바탕으로 국내 중화학공업에 내화물 제품을 공급해 온 종합 내화물 생산 기업입니다. 2025년 연결기준 매출 4,063억원, 영업이익 28억원을 기록했습니다.",
+    "business_model": "사업부문별 영업수익은 내화물 52.0%, 건설 48.0%로 구성됩니다. 내화물 부문은 1,300℃ 이상의 고열 환경에 쓰이는 내화물을 생산·공급하는 사업이고, 건설 부문은 주거 시설, 토목, 건축, 플랜트, 환경 사업 및 미군 시설물 등 다양한 공사를 수행합니다. 회사는 내화물 사업 확대를 위해 CCN 내화물 제조용 공장 및 설비 투자를 진행해 왔습니다.",
+    "main_customers": "내화물 — 제철 및 제강업 등 고온 공정 수요처 / 건설 — 주거·토목·건축·플랜트·환경·미군시설 관련 발주처",
+    "price_factors": [
+      {
+        "factor": "제철경기",
+        "detail": "내화물의 주 수요처가 제철 및 제강업이어서 해당 업황이 나빠지면 내화물 수요와 실적에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "경쟁심화",
+        "detail": "내화물 업체 간 경쟁 심화와 제품 품질 평준화로 기존 공급 관행이 약화되면 수주 환경이 더 어려워질 수 있습니다."
+      },
+      {
+        "factor": "중국경쟁",
+        "detail": "중국 제품의 기술력 향상으로 국내 생산품과의 가격 및 품질 경쟁이 심화되고 있습니다."
+      },
+      {
+        "factor": "원자재변동",
+        "detail": "2025년처럼 외환 및 원자재 시장 변동성이 커지면 제조 원가와 수익성에 부담이 될 수 있습니다."
+      },
+      {
+        "factor": "건설수주",
+        "detail": "건설 부문은 다양한 공종의 수주와 실행 상황에 따라 매출과 이익이 달라질 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황 > 가. 내화물 부문",
+        "evidence_text": "1973년 부산 동래에서 '한국특수내화공업사'로 창설"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성] / FY2025",
+        "evidence_text": "내화물: 211,130 (52.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성] / FY2025",
+        "evidence_text": "건 설: 195,211 (48.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황 > 가. 내화물 부문",
+        "evidence_text": "주 수요처인 제철 및 제강업"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황 > 나. 건설 부문",
+        "evidence_text": "주거 시설, 토목, 건축, 플랜트, 환경 사업"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4475,
+    "completion_tokens": 881,
+    "reasoning_tokens": 0,
+    "output_tokens": 881
+  },
+  "warnings": []
+}

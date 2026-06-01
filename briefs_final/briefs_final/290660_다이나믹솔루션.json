@@ -1,0 +1,76 @@
+{
+  "stock_code": "290660",
+  "corp_name": "다이나믹솔루션",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 15:17",
+  "meta": {
+    "wics": "건강관리장비와용품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "다이나믹솔루션은 뇌졸중 등 신경계·근골격계 질환 환자를 위한 재활의료기기 및 재활콘텐츠를 제조·판매하고 장기요양서비스를 운영하는 기업입니다. 종속회사(웨버인스트루먼트·휴웰케어 등)를 통해 병원용 물리치료기기 제조와 노인복지센터 운영을 병행하며, 자산총계는 약 778억원입니다.",
+    "business_model": "FY2025 기준 재활의료기기판매 등이 매출의 65.8%를 차지하고, 장기요양서비스업이 34.2%를 차지합니다. 하드웨어(스마트글러브·스마트보드·스마트 페그보드)와 소프트웨어·재활콘텐츠를 결합한 토탈 패키지(홈재활 플랫폼 포함)와 종속회사의 물리치료기기·요양센터 운영이 핵심 수익원이며, AI(인공지능)·IoT(사물인터넷) 기반 기술을 활용합니다.",
+    "main_customers": "재활의료기기판매 등 — 병원·의원 / 장기요양서비스업 — 노인(주야간보호·방문요양센터 이용자)",
+    "price_factors": [
+      {
+        "factor": "규제·지원",
+        "detail": "의료기기 인증·규제와 정부 지원 수준이 보급 속도에 직접적 영향을 미쳐 매출 성장에 변수로 작용합니다."
+      },
+      {
+        "factor": "인구고령화",
+        "detail": "고령인구 증가로 재활·요양 수요가 장기적으로 늘어나 실적 성장의 구조적 요인이 됩니다."
+      },
+      {
+        "factor": "인증·임상·보험",
+        "detail": "의료기기 인증·임상 근거 및 건강보험 적용 여부가 시장 진입 속도와 매출화에 결정적 영향을 줍니다."
+      },
+      {
+        "factor": "병원 보급률",
+        "detail": "대형병원 중심의 보급 경향과 소형 병·의원 보급률이 낮은 점이 장비 판매 확산에 제약으로 작용합니다."
+      },
+      {
+        "factor": "경쟁 심화",
+        "detail": "국내외 다수 신규 진입자 및 선진업체와의 경쟁이 가격·기술 경쟁력을 통한 실적 변동성을 높입니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "(1) 주요제품 및 서비스",
+        "evidence_text": "제조하여 국내 및 해외로 판매하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "재활의료기기판매 등: 10,563,259 (65.8%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "장기요양서비스업: 5,489,220 (34.2%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "나. 주요 사업부문의 시장여건 및 영업의 개황[재활의료기기 부문]",
+        "evidence_text": "주요 구매처인 병, 의원"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나. 주요 사업부문의 시장여건 및 영업의 개황[재활의료기기 부문]",
+        "evidence_text": "각종 규제 및 지원의 한계"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4871,
+    "completion_tokens": 3753,
+    "reasoning_tokens": 2880,
+    "output_tokens": 873
+  },
+  "warnings": []
+}

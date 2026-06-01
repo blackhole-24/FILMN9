@@ -1,0 +1,77 @@
+{
+  "stock_code": "139670",
+  "corp_name": "키네마스터",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 10:03",
+  "meta": {
+    "wics": "소프트웨어",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "키네마스터는 소프트웨어 전문 기업으로 글로벌 동영상 편집 앱 키네마스터(KineMaster)와 숏폼 편집 앱 스프링(Spring)을 주력으로 제공합니다. 두 앱은 약 155개 국가에 18개 언어로 서비스되며, 2025년 12월 말 기준 누적 7억 5천만 이상의 다운로드를 기록했습니다.",
+    "business_model": "사업은 동영상 편집앱 단일 사업부로 구성되어 있으며, 제24기 누적 매출은 12,259백만원으로 동영상 편집앱 사업부가 매출의 100.00%를 차지합니다. 수익원은 모바일 앱 기반으로, 보고서에서는 구독 매출 등 앱내 유료 기능을 통한 매출이 존재함을 언급하고 있습니다(구독 매출은 경기 영향에 민감할 수 있음).",
+    "main_customers": "동영상 편집앱 사업부 — 동영상 편집을 원하는 전세계 모든 유저들",
+    "price_factors": [
+      {
+        "factor": "시장성장",
+        "detail": "모바일 관련 산업의 지속적 성장으로 앱 다운로드와 이용 시간이 증가하면 실적 개선에 긍정적 영향을 미칩니다."
+      },
+      {
+        "factor": "플랫폼의존",
+        "detail": "유튜브·인스타그램·틱톡 등 미디어 플랫폼 성장에 따라 동영상 제작 수요가 늘어나면 제품 가치가 상승할 수 있습니다."
+      },
+      {
+        "factor": "구독민감성",
+        "detail": "보고서는 구독 매출이 경제 동향의 영향을 받을 수 있음을 언급하며, 경기 둔화 시 구독 기반 매출이 압박을 받을 수 있습니다."
+      },
+      {
+        "factor": "경쟁심화",
+        "detail": "전세계 영상 편집 툴 시장에서의 점유율과 경쟁 상황이 실적과 시장가치에 직접적인 영향을 미칠 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "1-1. 사업의 내용 요약",
+        "evidence_text": "당사는 소프트웨어 전문 기업으로"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "1-1. 사업의 내용 요약",
+        "evidence_text": "누적 7억 5천만 이상의 다운로드를 기록하였으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "4-1. 주요 제품 매출 등의 현황",
+        "evidence_text": "12,259(100.00%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "2-2. 공시대상 사업부문의 구분",
+        "evidence_text": "동영상 편집을 원하는 전세계 모든 유저들이 사용할 수 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "7-1. 업계의 현황",
+        "evidence_text": "모바일 관련 산업의 지속적인 성장"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "7-1. 업계의 현황",
+        "evidence_text": "약 5%정도의 점유율을 차지하고 있는 것으로 추정됩니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4404,
+    "completion_tokens": 3913,
+    "reasoning_tokens": 3136,
+    "output_tokens": 777
+  },
+  "warnings": []
+}

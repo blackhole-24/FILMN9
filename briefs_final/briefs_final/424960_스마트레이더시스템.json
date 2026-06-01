@@ -1,0 +1,76 @@
+{
+  "stock_code": "424960",
+  "corp_name": "스마트레이더시스템",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:43",
+  "meta": {
+    "wics": "자동차부품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "스마트레이더시스템은 4D 이미징 레이다(공간과 거리 정보를 함께 인식하는 레이다) 원천기술을 보유한 개발·제조 회사입니다. 자율주행차를 시작으로 특수차량, 드론, 헬스케어, 시큐리티, 건설중장비, 가전 등으로 적용 분야를 넓히고 있습니다.",
+    "business_model": "사업부문별 영업수익은 모빌리티가 61.0%, 비모빌리티가 39.0%를 차지합니다. 모빌리티 부문에는 자율주행차량 및 ADAS(첨단 운전자 보조 시스템)용 레이다, 특수차량용 레이다, 드론용 레이다가 포함되며, 비모빌리티 부문은 헬스케어와 시큐리티, 건설용 중장비, 가전 등으로의 레이다 적용이 중심입니다. 회사는 비균일 배열 안테나 설계, 실시간 레이다 신호처리, 인공지능 기반 사물인식 알고리즘을 바탕으로 다양한 산업에 레이다 솔루션을 공급하는 구조입니다.",
+    "main_customers": "모빌리티 — 글로벌 완성차 OEM, Tier 1 파트너사, 국내 건설중장비 회사 / 특수차량 — 북미 쓰레기수거차 시장 파트너, 해외 특수차량 업체 / 비모빌리티 — 국내 및 일본 헬스케어 관련 기관, 시큐리티·건설·가전 관련 협업처",
+    "price_factors": [
+      {
+        "factor": "규제의무",
+        "detail": "유럽·일본·미국 등에서 ADAS와 자율주행 안전 규제가 강화될수록 레이다 장착 수요가 늘어 실적과 직접 연결됩니다."
+      },
+      {
+        "factor": "차량수요",
+        "detail": "자율주행차와 ADAS용 레이다 채택이 확대되면 모빌리티 부문의 매출 성장에 영향을 줍니다."
+      },
+      {
+        "factor": "특수차확대",
+        "detail": "쓰레기수거차, 트럭, 포크레인 등 특수차량 시장이 넓어질수록 레이다 공급 기회가 커집니다."
+      },
+      {
+        "factor": "환율변동",
+        "detail": "주된 거래통화가 USD이므로 원/달러 환율 변동이 세전이익에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "수출지역",
+        "detail": "한국, 미국, 유럽, 일본 등 글로벌 시장 협력과 수출이 있어 지역별 수요와 규제 변화가 실적에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "4D 이미징 레이다의 원천기술과 혁신사업 역량을 갖춘"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "모빌리티: 878,949 (61.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "비모빌리티: 466,419 (39.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "한국, 미국, 유럽 및 일본의 글로벌 업체들과 협력 중"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "국내 및 일본 헬스케어 관련 기관과의 협업"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4678,
+    "completion_tokens": 920,
+    "reasoning_tokens": 0,
+    "output_tokens": 920
+  },
+  "warnings": []
+}

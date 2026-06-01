@@ -1,0 +1,71 @@
+{
+  "stock_code": "115480",
+  "corp_name": "씨유메디칼",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 08:54",
+  "meta": {
+    "wics": "건강관리장비와용품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "씨유메디칼은 자동심장충격기(AED) 등 응급의료기기를 주력으로 하는 기업입니다. 독일·일본 등지에 현지법인을 설립해 해외 영업망을 구축하고 유럽·일본 시장을 중심으로 공공기관 및 민간 설치 수요를 공략하고 있습니다.",
+    "business_model": "사업부문별 영업수익은 심장충격기 81.9%, 기타제품 10.2%, 상품 및 기타 4.3%로 심장충격기(AED) 중심의 매출 구조를 보입니다. 또한 IoT 기반 Telemetry System 등 제품 포트폴리오 확대와 사후관리(AS) 강화로 매출 다각화와 유지보수 기반 수익을 추구하고 있습니다.",
+    "main_customers": "심장충격기 — 보건소·119 구급차·공항·철도시설·체육시설·관공서·대형 유통망·공공기관·기업·공동주택·민간시설 / 기타제품 — 명시된 주요 고객 없음 / 상품 및 기타 — 명시된 주요 고객 없음",
+    "price_factors": [
+      {
+        "factor": "인허가·품질규제",
+        "detail": "의료기기 전주기 규제 적용으로 인허가·품질관리 부담이 비용과 출시 시점에 직접 영향"
+      },
+      {
+        "factor": "공공정책·설치의무",
+        "detail": "응급의료법 등으로 다중이용시설 AED 설치 의무가 확대되면 수요 증가로 실적에 긍정적 영향을 미침"
+      },
+      {
+        "factor": "해외수요 비중",
+        "detail": "유럽·일본 등 해외 매출 확대가 실적 변동성에 영향을 주며 현지 영업망 중요성이 커짐"
+      },
+      {
+        "factor": "공급망·원가",
+        "detail": "글로벌 공급망 혼란·원가 변동은 매출원가와 수익성에 직간접적으로 영향"
+      },
+      {
+        "factor": "유지보수·AS",
+        "detail": "응급기기 특성상 판매 후 유지관리 서비스의 품질이 수주 및 브랜드 신뢰도에 영향"
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "심장충격기: 39,476 (81.9%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "기타제품: 4,902 (10.2%)"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "당사는 글로벌 AED 시장 확대에 대응하기 위해 주요 시장을 중심으로 해외 영업망을 구축하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "다. 법률/규정 등에 의한 규제사항",
+        "evidence_text": "특히 자동제세동기(AED)는 응급상황에서 직접 사용되는 고위험 의료기기이므로, 설계 단계부터 시판 후 관리까지 전주기 규제체계의 적용을 받는다는 점이 핵심입니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4423,
+    "completion_tokens": 3638,
+    "reasoning_tokens": 2816,
+    "output_tokens": 822
+  },
+  "warnings": []
+}

@@ -1,0 +1,82 @@
+{
+  "stock_code": "196700",
+  "corp_name": "웹스",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:24",
+  "meta": {
+    "wics": "화학",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "웹스는 부산광역시 해운대구 센텀에 본사와 연구센터를 두고, 청주와 양산에 생산공장을 운영하며 베트남에 해외생산법인을 둔 글로벌 첨단소재 기업입니다. 기능성 소재, 자동차내장 소재, 건축 외장재를 중심으로 사업을 전개하고 있으며, 지속적인 연구개발을 통해 다양한 기능성 제품을 시장에 내놓고 있습니다.",
+    "business_model": "사업부문별 영업수익은 국내 90.0%, 자동차내장 소재 4.0%, 임대수입 외 6.0%로 구성되어 있습니다. 핵심 사업은 기능성 소재와 자동차내장 소재, 건축 외장재 등 첨단소재 분야이며, 골프공 소재와 리튬이온분리막 소재, 인조가죽 제품과 인테리어소재, 합성목재와 알루미늄 복합체 소재를 생산·공급하는 구조입니다.",
+    "main_customers": "국내 — 일반 수요처 / 자동차내장 소재 — 자동차 관련 수요처 / 임대수입 외 — 해당 수익 발생 대상",
+    "price_factors": [
+      {
+        "factor": "골프시장",
+        "detail": "골프 대중화와 글로벌 골프시장 성장 여부가 골프공 소재 수요에 직접 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "고객집중",
+        "detail": "Titleist, Callaway, Taylormade 등 주요 고객사의 발주 규모 변화가 실적에 큰 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "공급희소",
+        "detail": "골프공 소재는 전세계 생산 업체가 3곳 수준으로 제한되어 있어 공급 환경 변화가 사업 성과에 민감할 수 있습니다."
+      },
+      {
+        "factor": "연구개발",
+        "detail": "다양한 기능성 제품을 지속적으로 연구개발하고 있어 신제품 출시 속도가 사업 확장에 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 가. 회사의 현황",
+        "evidence_text": "부산광역시 해운대구 센텀에 본사와 연구센터를 두고"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 가. 회사의 현황",
+        "evidence_text": "베트남에 해외생산법인을 설립 운영하고 있는 글로벌 첨단소재 기업"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성] / 사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "국 내: 1,691 (90.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성] / 사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "자동차내장 소재: 1,232 (4.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성] / 사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "임대수입 외: 1,866 (6.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 기능성 소재 > (1) 골프공 소재 > 다) 고객현황",
+        "evidence_text": "주요 거래처는 골프 산업의 Major 업체들로 Titleist, Callaway, Taylormade 등"
+      },
+      {
+        "field": "key_evidence",
+        "source_section": "III. 경영진단 및 분석 > 다. 연결포괄손익계산서 - 요약",
+        "evidence_text": "매출액이 43,175백만원으로 전년대비 26.71% 증가"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3610,
+    "completion_tokens": 943,
+    "reasoning_tokens": 0,
+    "output_tokens": 943
+  },
+  "warnings": []
+}

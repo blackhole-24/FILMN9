@@ -1,0 +1,76 @@
+{
+  "stock_code": "003240",
+  "corp_name": "태광산업",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 09:42",
+  "meta": {
+    "wics": "화학",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "태광산업은 1950년 창업한 화학 기업으로, PTA, 프로필렌, AN(아크릴로니트릴) 등 석유화학 공장 가동을 통해 수직계열화를 구축해 왔습니다. 사업보고서에서는 제조 및 임대 부문과 방송통신 부문으로 나뉘어 운영되며, 2025년 계속영업 매출은 1조 8,274억원입니다.",
+    "business_model": "핵심 사업은 '제조 및 임대'와 '방송통신' 두 부문으로 구성되어 있습니다. 제조 및 임대 부문은 PTA(폴리에스터 섬유·PET 원료), AN(아크릴섬유·ABS 원료), NaCN(금 선광·도금·의약품 제조 사용) 등 석유화학 제품을 중심으로 하고, 방송통신 부문은 방송프로그램 제작·공급과 인터넷전화 서비스를 영위합니다. 다만 제공된 자료에는 사업부문별 매출 비율(%)이 제시되지 않아 비중 수치는 포함하지 않았습니다.",
+    "main_customers": "제조 및 임대 — SOHO COMMODITIED UK LTD, 효성티앤씨, 도레이첨단소재 주식회사 / 방송통신 — 방송프로그램 이용자 및 인터넷전화 서비스 이용자",
+    "price_factors": [
+      {
+        "factor": "PTA수급",
+        "detail": "PTA는 세계 경기와 수급에 따라 호황·불황이 반복되는 경기순환형 산업이라 수요와 공급 변화가 실적에 직접 영향을 줍니다."
+      },
+      {
+        "factor": "AN공급",
+        "detail": "AN은 중국 증설로 공급과잉이 이어지고 있어 국제가격과 수익성에 하방 압력이 지속될 수 있습니다."
+      },
+      {
+        "factor": "금리환경",
+        "detail": "점진적 금리 인하가 수요 회복에 도움이 될 수 있지만, 실제 실물경제 반영에는 시간이 걸린다고 설명되어 있습니다."
+      },
+      {
+        "factor": "물동량",
+        "detail": "관세정책과 보호무역정책 변화로 세계 물동량이 격변할 수 있어 원재료와 제품 수급에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "방송안정",
+        "detail": "방송통신 부문은 상대적으로 안정적인 수익 구조를 갖는다고 제시되어 있어 전체 실적 변동 완화 요인으로 볼 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "1950년 창업 이래 내실경영을 바탕으로"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "PTA, 프로필렌, AN 등 석유화학공장 가동을 통해"
+      },
+      {
+        "field": "business_model",
+        "source_section": "MD&A",
+        "evidence_text": "‘제조 및 임대부문’과 ‘방송통신부문’으로 구분"
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. 사업부문별 현황",
+        "evidence_text": "PTA는 폴리에스터 섬유, PET Bottle 및 PET Film의 기초 원료"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "주요 매출처로는 SOHO COMMODITIED UK LTD, 효성티앤씨"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4542,
+    "completion_tokens": 880,
+    "reasoning_tokens": 0,
+    "output_tokens": 880
+  },
+  "warnings": []
+}

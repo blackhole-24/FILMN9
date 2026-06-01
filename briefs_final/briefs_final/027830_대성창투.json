@@ -1,0 +1,91 @@
+{
+  "stock_code": "027830",
+  "corp_name": "대성창투",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 09:54",
+  "meta": {
+    "wics": "창업투자",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "대성창투는 1987년에 설립된 창업투자회사로, 중소기업창업자와 벤처기업에 대한 투자 및 벤처투자조합의 결성과 운용을 주업무로 하고 있습니다. 2010년 사명을 대성창업투자로 바꾸며 대성그룹 계열사로서의 브랜드를 강화했고, 2025년 12월 말 기준 벤처투자조합 및 농림수산식품투자조합 포함 총 3,806억원의 조합을 운용하고 있습니다. 조합재원 기준으로는 전자공시 집계 상 53위에 위치해 있습니다.",
+    "business_model": "FY2025 사업부문별 영업수익은 투자수익 2백만원(0.0%), 투자조합수익 4,632백만원(50.1%), 운용투자수익 1,007백만원(10.9%), 기타의 영업수익 1,952백만원(21.1%)으로 구성되어 있습니다. 이 중 가장 비중이 큰 수익은 투자조합수익으로, 조합관리보수, 조합출자금처분이익, 조합지분법이익으로 나뉩니다. 회사는 벤처투자조합을 만들고 운용하면서 투자수익과 운용수익을 함께 확보하는 구조이며, IPO(기업공개)를 준비하는 기업 지원을 통해 투자회수도 추진하고 있습니다.",
+    "main_customers": "투자조합수익 — 조합 출자자 및 조합 운용 관련 대상 / 투자수익 — 중소기업창업자, 벤처기업 / 운용투자수익 — 투자자산 운용 관련 거래상대방 / 기타의 영업수익 — 기타 영업 관련 수요처",
+    "price_factors": [
+      {
+        "factor": "펀드결성",
+        "detail": "신규 펀드 결성이 늘수록 운용자산이 커질 수 있어 조합관리보수와 투자 여력이 함께 확대될 가능성이 있습니다."
+      },
+      {
+        "factor": "IPO회수",
+        "detail": "IPO(기업공개) 준비 기업의 상장 성과가 좋아지면 투자회수 기회가 늘어 실적에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "정책환경",
+        "detail": "정부의 벤처육성정책과 맞물릴수록 창업투자업계의 투자 기회와 조합 운용 기반이 강화될 수 있습니다."
+      },
+      {
+        "factor": "산업선정",
+        "detail": "문화콘텐츠, 에너지, 바이오, 환경 등 집중 투자 분야의 업황이 좋을수록 투자대상 발굴과 회수 환경에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "조합재원",
+        "detail": "조합재원 규모가 커질수록 운용 가능한 자금이 늘어나지만, 업계 순위가 53위로 제시돼 있어 경쟁 환경도 함께 고려됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "당사는 벤처캐피탈의 도입 초기였던 1987년에 설립되어"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "당사는 2025년 12월 말 기준 벤처투자조합 및 농림수산식품투자조합 포함하여 총 3,806억원의 조합을 운용하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "투자조합수익: 4,632 (50.1%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "운용투자수익: 1,007 (10.9%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "투자수익: 2 (0.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "중소기업창업자 및 벤처기업에 대한 투자"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "(2) 영업계획 및 향후전망",
+        "evidence_text": "적극적으로 신규 펀드결성을 추진"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "(2) 영업계획 및 향후전망",
+        "evidence_text": "기업공개(IPO)를 준비중인 기업들의 경영을 지원"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3984,
+    "completion_tokens": 1175,
+    "reasoning_tokens": 0,
+    "output_tokens": 1175
+  },
+  "warnings": []
+}

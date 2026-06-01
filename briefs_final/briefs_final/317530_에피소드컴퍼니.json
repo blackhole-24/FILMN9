@@ -1,0 +1,82 @@
+{
+  "stock_code": "317530",
+  "corp_name": "에피소드컴퍼니",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 16:18",
+  "meta": {
+    "wics": "양방향미디어와서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "에피소드컴퍼니는 2014년 설립되어 유튜브 중심의 키즈 콘텐츠로 시작해 2019년 코스닥에 상장한 종합 콘텐츠 미디어 기업입니다. 자체 오리지널 IP(지식재산권)와 제작 역량, 글로벌 미디어 네트워크를 기반으로 IP 전 과정(기획·제작·유통·커머스)을 운영합니다.",
+    "business_model": "주요 매출은 '콘텐츠 매출(50.03%)'과 'IP 부가사업 매출(49.97%)'으로 이뤄져 있으며, 오리지널 IP의 기획·제작부터 커머스·라이선싱·공연·키즈카페 등 부가사업까지 수직 계열화(Vertical Integration)를 통해 수익을 창출합니다. 자체 제작 역량과 글로벌 유통 네트워크를 바탕으로 콘텐츠와 IP를 결합한 다각화된 수익 구조가 핵심입니다.",
+    "main_customers": "콘텐츠 매출 — 방송사업자·VOD 플랫폼·광고주 / IP 부가사업 매출 — 일반 소비자(커머스·공연 관객·키즈카페 이용자)·라이선시",
+    "price_factors": [
+      {
+        "factor": "플랫폼 확산",
+        "detail": "글로벌 OTT·디지털 플랫폼 확산은 콘텐츠의 해외 유통과 판가에 영향을 미칩니다."
+      },
+      {
+        "factor": "라이선스시장",
+        "detail": "글로벌 브랜드 라이선스 시장의 성장성은 IP 부가사업 매출에 우호적으로 작용합니다."
+      },
+      {
+        "factor": "소비자 기호",
+        "detail": "콘텐츠 소비 트렌드 변화(포맷·장르 선호)가 제작물 수요와 수익성에 빠르게 반영됩니다."
+      },
+      {
+        "factor": "계절성",
+        "detail": "방학·명절 등 계절적 요인으로 시청·소비가 집중되며 실적 변동을 유발합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "종합 콘텐츠 미디어 기업입니다."
+      },
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "당사는 2014년 10월 설립 이래 유튜브 중심의 키즈 콘텐츠 비즈니스로 시작해"
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황",
+        "evidence_text": "자생적인 수직 계열화(Vertical Integration)를 완성하였으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 매출 (원문 테이블)",
+        "evidence_text": "2,843,606 (50.03%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 매출 (원문 테이블)",
+        "evidence_text": "2,839,892 (49.97%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "■ 사업부문별 매출 (원문 테이블)",
+        "evidence_text": "방송영상프로그램, 애니메이션의 판권판매, VOD판매"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "가장 뚜렷한 계절성은 여름·겨울 방학과 명절 연휴에 나타납니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5020,
+    "completion_tokens": 5355,
+    "reasoning_tokens": 4480,
+    "output_tokens": 875
+  },
+  "warnings": []
+}

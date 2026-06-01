@@ -1,0 +1,77 @@
+{
+  "stock_code": "452260",
+  "corp_name": "한화갤러리아",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 19:55",
+  "meta": {
+    "wics": "백화점과일반상점",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "한화갤러리아는 갤러리아 명품관을 포함한 총 5개 백화점을 운영하는 프리미엄 백화점 사업자이며, 지역 대표 점포를 통해 패션·리빙과 차별화된 식문화 콘텐츠를 제공하고 있습니다. 백화점 중심의 유통사업을 바탕으로 외식(F&B) 브랜드 운영, 음료·아이스크림 제조 등으로 포트폴리오를 다각화하고 있습니다.",
+    "business_model": "사업부문별 영업수익(FY2025)은 백화점이 88.9%를 차지하고, 식음료 부문이 18.2%를 기록하여(제시된 수치 기준) 백화점 매출이 핵심 수익원인 구조입니다. 백화점 부문은 프리미엄·명품·리빙 중심의 상품과 점포별 특화 MD(상품기획)를 통해 수익을 창출하고, 식음료 부문은 브랜드 출점과 자체 제조(음료·아이스크림 등)를 통해 성장 동력을 확보하고 있습니다.",
+    "main_customers": "백화점 — 프리미엄 고객 및 지역 일반 소비자 / VIP·우수고객 — 충성고객층(프리미엄 서비스 대상) / 식음료(외식·제조) — 외식 이용 고객 및 전국 유통 채널(편의점·양판점·대리점), 해외 바이어",
+    "price_factors": [
+      {
+        "factor": "경기·소비심리",
+        "detail": "백화점 수요는 가계소득과 소비심리에 민감해 경기 둔화나 고금리 장기화 시 매출과 실적에 부정적 영향을 받을 수 있습니다."
+      },
+      {
+        "factor": "명품·외국인",
+        "detail": "명품 소비 회복과 외국인 관광객 증가 여부가 프리미엄 백화점 매출 회복에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "온라인 경쟁",
+        "detail": "온라인 쇼핑의 성장으로 온·오프라인 유통업태 간 경쟁이 심화되면 오프라인 매장 매출과 마진에 하방 압력이 될 수 있습니다."
+      },
+      {
+        "factor": "원가·경쟁",
+        "detail": "외식·F&B 부문은 원가 부담과 경쟁 심화에 취약하여 원가 상승 시 수익성에 부담을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "총 5개의 백화점(㈜한화갤러리아타임월드가 운영하는 갤러리아 타임월드점 포함)을 운영하고 있으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "백화점: 511,465,721 (88.9%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "식음료: 104,689,380 (18.2%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "VIP 및 우수고객 중심의 서비스 경쟁력을 강화함으로써"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "온라인 쇼핑의 성장으로 온/오프라인 유통업태간 경쟁관계는 심화되고 있으며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "외식 사업 역시 원가 부담과 경쟁 심화가 이어지는 등"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5220,
+    "completion_tokens": 5416,
+    "reasoning_tokens": 4480,
+    "output_tokens": 936
+  },
+  "warnings": []
+}

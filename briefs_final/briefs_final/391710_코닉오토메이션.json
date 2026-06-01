@@ -1,0 +1,67 @@
+{
+  "stock_code": "391710",
+  "corp_name": "코닉오토메이션",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 18:44",
+  "meta": {
+    "wics": "IT서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "코닉오토메이션은 2003년 10월 23일 설립된 기업으로, 제어SW(소프트웨어), 스마트팩토리, 로봇물류 및 IT인프라 사업을 주력으로 영위하고 있습니다. 2025년 매출은 301억원으로 전방 산업의 투자 변동에 영향을 받았습니다.",
+    "business_model": "주요 수익원은 제어SW, 스마트팩토리, 로봇물류, IT인프라로 구성되며, FY2025 기준 제어SW 23.3%, 스마트팩토리 12.9%, 로봇물류 18.8%, IT인프라 45.0%의 매출 비중을 보입니다. 제어SW는 EasyCluster 플랫폼을 통해 반도체·디스플레이 등 설비 제어 솔루션을 제공하고, 로봇물류는 AGV(무인운반차), AMR(자율이동로봇), 협동로봇을 적용한 자동화 솔루션을 제공합니다.",
+    "main_customers": "제어SW — 반도체·디스플레이·LED 등 설비 운용 업체(설비 제조사·팹 사업자) / 스마트팩토리 — 제조·검사·물류 설비를 도입하는 제조사(예: 2차전지 소재 공정 포함) / 로봇물류 — 제조 및 유통물류 공장 / IT인프라 — 시스템 구축·운용이 필요한 기업 고객",
+    "price_factors": [
+      {
+        "factor": "반도체 투자 사이클",
+        "detail": "전방의 반도체 장비 투자 확대·축소에 따라 제어SW 수요와 실적이 크게 변동합니다."
+      },
+      {
+        "factor": "기술·레퍼런스",
+        "detail": "높은 기술력과 검증된 레퍼런스가 요구되는 산업 특성상 기존 검증 솔루션 선호도가 실적 안정성에 영향을 줍니다."
+      },
+      {
+        "factor": "프로젝트 수익성",
+        "detail": "수주한 프로젝트의 매출 인식 시점 지연이나 원가 상승은 영업손익에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "환율 변동",
+        "detail": "미·유로·엔 등 외화 노출이 있어 환율 변동은 손익에 불확실성을 야기할 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "2003년 10월 23일에 설립되어"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "제어SW: 7,015 (23.3%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 주요 제품 등의 개요",
+        "evidence_text": "반도체/FPD/LED/Solar/MEMS"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나. 시장의 현황 (다) 산업의 특성 및 성장성",
+        "evidence_text": "회사가 영위하는 제어SW 사업은 반도체 장비 산업과 높은 상관관계를 가지고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5117,
+    "completion_tokens": 4583,
+    "reasoning_tokens": 3776,
+    "output_tokens": 807
+  },
+  "warnings": []
+}

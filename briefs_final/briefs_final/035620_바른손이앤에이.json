@@ -1,0 +1,71 @@
+{
+  "stock_code": "035620",
+  "corp_name": "바른손이앤에이",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 00:23",
+  "meta": {
+    "wics": "방송과엔터테인먼트",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "바른손이앤에이는 영화·드라마 등 영상 콘텐츠를 기획·제작하고 영화 투자배급까지 사업영역을 확대한 글로벌 종합 콘텐츠 기업입니다. 2025년 연결기준 매출은 약 116억원으로 전시·임대·투자배급 등으로 매출을 다각화하고 있습니다.",
+    "business_model": "핵심 사업은 투자배급(제작 투자 및 유통), 영화·드라마 등 콘텐츠 제작 및 판권(저작물 유통권) 판매, 사옥 임대와 전시 운영 등으로 수익을 창출합니다. 2025년 매출 구성은 투자배급업 59.13%, 영화·드라마·영상콘텐츠 제작 및 판권 5.58%, 사옥 임대 16.80%, 전시매출 16.91%, 기타매출 1.58%입니다.",
+    "main_customers": "투자배급업 — 극장·방송·OTT 플랫폼 / 콘텐츠사업 — 제작사·수입사·판권사 / 사옥 임대 — 임차인(사옥 임차인) / 전시관련 매출 — 전시 관람객·전시주최처 / 기타매출 — 각종 제휴처",
+    "price_factors": [
+      {
+        "factor": "프로젝트변동성",
+        "detail": "콘텐츠 산업 특성상 프로젝트별 수익 인식 시점의 변동성이 실적 변동으로 직결됩니다."
+      },
+      {
+        "factor": "관객수",
+        "detail": "극장 관객수 및 평균관람요금 변화는 투자배급 매출에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "글로벌수출",
+        "detail": "해외 판권 수출 및 해외 배급 성과가 해외매출 및 전반적인 매출 성장에 큰 영향을 줍니다."
+      },
+      {
+        "factor": "디지털유통",
+        "detail": "OTT·디지털유통 대행 확대는 전통적 극장 매출 구조 변화에 따른 수익구조 영향을 줍니다."
+      },
+      {
+        "factor": "파트너십",
+        "detail": "제작사·수입사·판권사 등과의 전략적 파트너십이 콘텐츠 수급과 배급 성과에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "글로벌 종합 콘텐츠 기업입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황",
+        "evidence_text": "투자배급업 매출이 59.13%(6,861백만원)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "극장, 방송, OTT 등의 플랫폼을 통한 수익창출"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "프로젝트별 수익 인식 시점의 변동성"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4427,
+    "completion_tokens": 4269,
+    "reasoning_tokens": 3520,
+    "output_tokens": 749
+  },
+  "warnings": []
+}

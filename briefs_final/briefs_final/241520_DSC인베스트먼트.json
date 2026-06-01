@@ -1,0 +1,69 @@
+{
+  "stock_code": "241520",
+  "corp_name": "DSC인베스트먼트",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 13:31",
+  "meta": {
+    "wics": "창업투자",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "DSC인베스트먼트는 중소·벤처기업에 대한 지분 투자와 펀드 운용을 주력으로 하는 벤처투자회사입니다. 운용자산(AUM) 1.59조원 규모의 펀드를 관리하며, 2025년 연결기준 영업수익 451.4억원·당기순이익 177.7억원을 기록하는 등 안정적 흑자구조를 유지하고 있습니다.",
+    "business_model": "핵심 사업은 투자조합운용과 자기자본투자활동으로 구분되며, 조합 결성·운영을 통한 조합관리보수 및 조합성과보수(성과에 따른 보수)가 주요 수익원입니다. 또한 조합지분법이익·운용투자주식처분이익 등 자기자본투자에서 발생하는 평가차익과 처분이익이 실적에 큰 비중을 차지하며, 자회사 슈미트와의 협업으로 Seed 단계부터 투자하는 구조를 갖추고 있습니다.",
+    "main_customers": "투자조합운용 — 조합 출자자(정책출자기관·민간투자자) / 자기자본투자활동 — 피투자 벤처·중소기업",
+    "price_factors": [
+      {
+        "factor": "회수·상장",
+        "detail": "조합 피투자기업의 상장·회수 성과가 조합지분법평가이익 및 당기이익에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "AUM·펀드",
+        "detail": "운용자산(AUM) 및 신규 펀드 결성은 관리보수와 성과보수 확대를 통해 영업수익에 영향을 줍니다."
+      },
+      {
+        "factor": "민간출자",
+        "detail": "민간 부문 중심의 출자 확대는 결성금액 증가로 투자기회와 수익원 확대에 기여합니다."
+      },
+      {
+        "factor": "초기투자",
+        "detail": "초기·시드 단계 투자 성과는 포트폴리오 가치 상승과 장기적인 회수 성과에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "벤처투자회사(벤처캐피탈, Venture Capital, VC)입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "1) 조합관리보수 2) 조합성과보수"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "영업수익은 전년 동기 386.3억원 대비 16.9% 증가한 451.4억원"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "VC 운용자산(AUM) 1.59조원을 운영하고 있습니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4520,
+    "completion_tokens": 3658,
+    "reasoning_tokens": 2880,
+    "output_tokens": 778
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

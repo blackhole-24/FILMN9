@@ -1,0 +1,72 @@
+{
+  "stock_code": "464500",
+  "corp_name": "아이언디바이스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 20:29",
+  "meta": {
+    "wics": "반도체와반도체장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "아이언디바이스는 혼성신호(아날로그·디지털·전력 결합) 시스템반도체 SoC를 개발하는 전기·전자 분야 기업으로, 스마트파워앰프·오디오햅틱드라이버·디스플레이사운드앰프 등 고전압·대전력 구동회로 기반의 제품을 보유하고 있습니다. 2025년 연결 기준 매출은 약 101억원을 기록하였고, 연구개발 투자 확대로 영업적자가 지속되었습니다.",
+    "business_model": "당사는 혼성신호 SoC 제품 판매와 서비스로 수익을 창출하며, FY2025 기준 사업부문별 영업수익 구성은 제품 81.0%, 서비스 등 19.0%로 제품 매출 비중이 높은 구조입니다(SoC 설계·IP 통합·검증 중심). 핵심 제품은 스마트파워앰프 SoC와 오디오 기반 햅틱 드라이버 등으로, 글로벌 세트제조업체 대상 공급이 중심입니다.",
+    "main_customers": "제품 — 글로벌 세트제조업(스마트폰·태블릿·AR/VR·노트북·PC 등 디바이스 제조사) / 서비스 등 — 글로벌 세트제조업 대상 설계·품질지원 등",
+    "price_factors": [
+      {
+        "factor": "오디오 수요 확대",
+        "detail": "스마트폰·멀티미디어 사용 증가로 스마트파워앰프 수요가 늘면 매출과 실적에 직접적인 플러스 효과가 발생합니다."
+      },
+      {
+        "factor": "고객 모델 일정",
+        "detail": "주요 고객사의 신규 모델 일정 지연 시 매출 이연 및 실적 변동(예: 상반기 매출 이연) 위험이 존재합니다."
+      },
+      {
+        "factor": "환율(달러)",
+        "detail": "글로벌 영업 노출로 달러 환율 변동은 매출 원화환산 및 비용구조에 영향을 주어 실적 변동성을 키울 수 있습니다."
+      },
+      {
+        "factor": "재고·원재료 부담",
+        "detail": "양산 준비를 위한 안전재고 확보로 원재료 매입이 증가하면 부채비율 및 단기 유동성에 부담을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 주요 제품 설명",
+        "evidence_text": "혼성신호 시스템반도체 SoC 사업을 진행하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "제품: 8,206,527 (81.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "서비스 등: 1,920,753 (19.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 주요 기술의 인증현황",
+        "evidence_text": "당사의 최종 고객은 글로벌 세트제조업을 대상으로 하며,"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "당사는 스마트파워앰프에 대한 수요가 증가하고,"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5614,
+    "completion_tokens": 3687,
+    "reasoning_tokens": 2880,
+    "output_tokens": 807
+  },
+  "warnings": []
+}

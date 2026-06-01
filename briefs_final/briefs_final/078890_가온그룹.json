@@ -1,0 +1,81 @@
+{
+  "stock_code": "078890",
+  "corp_name": "가온그룹",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 05:52",
+  "meta": {
+    "wics": "전자제품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "가온그룹은 AI 토탈 솔루션, OTT(인터넷을 통한 동영상 서비스), 네트워크 디바이스 및 통합 솔루션, 로봇 통합 플랫폼 등을 전 세계에 제조·공급하는 전기·전자 기업으로 주력 고객은 국내외 방송통신 사업자입니다. 2025년 연결기준 매출액은 5,175억원이며, 매출의 약 64%(3,330억원)를 해외 수출로 달성하는 등 글로벌 사업 기반을 갖추고 있습니다.",
+    "business_model": "주요 사업부문은 OTT와 네트워크로 구성되며, 2025년 기준 OTT가 매출의 60.3%를, 네트워크가 39.7%를 차지합니다. 지배회사는 AI 솔루션이 결합된 AI 디바이스를 OTT 부문 중심으로 공급하고, 종속회사 가온브로드밴드는 Broadband CPE(가정·사업장용 네트워크 단말)와 원격네트워크관리 솔루션(KRMS), 오픈플랫폼(QUANTUM) 등을 통해 네트워크 장비·통합솔루션을 제공합니다.",
+    "main_customers": "OTT — 국내외 방송통신 사업자 / 네트워크 — 국내외 방송통신 사업자",
+    "price_factors": [
+      {
+        "factor": "글로벌수요",
+        "detail": "OTT는 생활필수품화 되어 경기 변동에 따른 수요 변동성이 낮아 매출의 안정성에 영향을 줍니다."
+      },
+      {
+        "factor": "기술전환",
+        "detail": "IP 기반, AI·IoT·Wi‑Fi 등 신기술 및 4K UHD 전환에 따라 고부가가치 제품 수요와 제품구성 변화가 실적에 영향을 미칩니다."
+      },
+      {
+        "factor": "환경규제",
+        "detail": "RoHS2·WEEE·REACH 등 환경규제 준수는 제품 설계·공급망 관리에 비용 및 접근성 영향을 줍니다."
+      },
+      {
+        "factor": "지정학리스크",
+        "detail": "우크라이나·러시아 전쟁 등 지정학적 불확실성은 일부 해외 고객사 사업 축소와 수주·공급에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "수출의존",
+        "detail": "매출의 상당 부분(약 64%)이 해외 수출에서 발생하여 해외 수요·환율 변동에 민감합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "주력 시장은 국내외 방송통신 사업자 시장입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "OTT: 312,114 (60.3%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "네트워크: 205,436 (39.7%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "전 세계 90여 개국의 240여 개 방송통신 사업자 네트워크를 확보하고 있는 글로벌 기업"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 환경 관련 규제 준수 사항",
+        "evidence_text": "RoHS2(전기전자 유해물질 사용제한 지침, 2011/65/EU) 인증을 지속해서 획득함"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "우크라이나-러시아 전쟁으로 인한 지정학적 리스크"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4961,
+    "completion_tokens": 4337,
+    "reasoning_tokens": 3392,
+    "output_tokens": 945
+  },
+  "warnings": []
+}

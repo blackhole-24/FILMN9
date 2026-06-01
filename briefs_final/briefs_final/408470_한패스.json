@@ -1,0 +1,67 @@
+{
+  "stock_code": "408470",
+  "corp_name": "한패스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 19:01",
+  "meta": {
+    "wics": "IT서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "한패스는 2017년 2월 설립된 핀테크 기업으로 디지털 송금 솔루션, 모바일월렛, 선불카드 서비스를 주요 사업으로 영위하고 있습니다. 해외 송금 파트너 네트워크를 통해 전 세계 200여 개국으로 서비스를 빠르게 확장하며 거주 외국인 대상 생활금융·편의 서비스를 제공하는 생태계를 구축하고 있습니다.",
+    "business_model": "핵심 수익원은 디지털 송금·모바일월렛·선불카드 등 서비스 제공을 통한 수수료수익이며, FY2025 기준 사업부문별 영업수익에서 '서비스'가 100.0%를 차지합니다. 해외송금은 MTO(해외송금파트너)에 미리 펀딩하는 프리펀딩 방식으로 비용과 시간을 절감하며 송금수수료 및 기타수수료가 주요 수익원으로 보고되었습니다.",
+    "main_customers": "디지털 송금 — 내국인 및 외국인(거주 외국인 포함) / 모바일월렛 — 스마트폰 기반 결제·송금 이용자(충전·이체 이용자) / 선불카드 — 국내 거주 외국인·방한 외국인·교민·유학생 / 생활편의 서비스 — 거주 외국인 대상 교통·통신·구인구직·커머스 이용자",
+    "price_factors": [
+      {
+        "factor": "규제 변화",
+        "detail": "외국환거래법·전자금융거래법 등 감독당국의 규제 강화는 영업 허가·운영 비용·컴플라이언스 부담에 직접적 영향을 미칩니다."
+      },
+      {
+        "factor": "수수료 경쟁",
+        "detail": "핀테크 사업자 증가로 송금 수수료 경쟁이 심화되면 송금수익률 및 단가에 하방 압력이 생깁니다."
+      },
+      {
+        "factor": "환율 변동",
+        "detail": "다수 통화(USD, JPY 등)로 거래가 발생하므로 환율 변동은 매출·비용 및 환산손익에 영향을 줍니다."
+      },
+      {
+        "factor": "AML·보안 규제",
+        "detail": "자금세탁방지(AML)·테러자금조달 방지(CFT) 기준 강화 시 추가 비용 발생 및 서비스 운영 제약이 나타날 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 영업 현황",
+        "evidence_text": "디지털 송금 솔루션, 모바일월렛, 선불카드 서비스"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "서비스: 52,880 (100.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 영업 현황",
+        "evidence_text": "주 고객층인 거주 외국인의 원활한 이용이 가능합니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 사업영위에 중요한 영향을 미치는 법규 및 규제사항",
+        "evidence_text": "정부의 규제 정책, 감독, 법령 개정 방향에 직접적인 영향을 받습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4569,
+    "completion_tokens": 3819,
+    "reasoning_tokens": 3008,
+    "output_tokens": 811
+  },
+  "warnings": []
+}

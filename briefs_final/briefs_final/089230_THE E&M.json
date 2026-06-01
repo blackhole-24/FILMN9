@@ -1,0 +1,67 @@
+{
+  "stock_code": "089230",
+  "corp_name": "THE E&M",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 06:51",
+  "meta": {
+    "wics": "양방향미디어와서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "THE E&M은 인터넷 개인방송 플랫폼을 핵심으로 하는 종합 엔터테인먼트 기업으로, 당사 주요 서비스인 팝콘티비를 통해 양방향 커뮤니케이션 기반의 개인방송 서비스를 운영하고 있습니다. 인터넷 플랫폼을 축으로 MCN(다중채널네트워크)과 연예매니지먼트 등 연계 사업을 통해 플랫폼 경쟁력 및 외형 성장을 도모하고 있습니다.",
+    "business_model": "핵심 수익원은 인터넷 사업부문(개인 인터넷방송 플랫폼)으로 연결재무제표 기준 매출의 약 69%를 차지하며, 방송자는 시청자 후원아이템을 통한 후원수익을 주요 수익 구조로 형성합니다. 엔터테인먼트(MCN·연예매니지먼트) 부문은 연결기준 매출의 약 31%를 차지하며, ㈜씨엘엔컴퍼니는 FY2025에 11.2%의 매출 비중을 기록했습니다.",
+    "main_customers": "인터넷 사업부문 — 개인 방송자(콘텐츠 제작자) 및 시청자(이용자) / 엔터테인먼트 사업부문 — 1인 미디어 방송자 및 연기자(연예 매니지먼트 대상) / 기타 — 컨설팅·제조 관련 기업",
+    "price_factors": [
+      {
+        "factor": "모바일 확산",
+        "detail": "스마트폰 보급 및 모바일 중심 영상 소비 증가가 플랫폼 이용자 및 시청시간을 늘려 매출에 직접적 영향을 미칩니다."
+      },
+      {
+        "factor": "방송자 경쟁",
+        "detail": "미디어 플랫폼 간 경쟁심화로 방송자·이용자 감소 시 후원수익 기반의 매출이 줄어들 수 있습니다."
+      },
+      {
+        "factor": "트래픽 증가",
+        "detail": "무선통신 트래픽 및 동영상 시청시간 증가가 온라인 동영상 수요 확대를 뒷받침해 플랫폼 성장요인이 됩니다."
+      },
+      {
+        "factor": "정책지원",
+        "detail": "콘텐츠 산업에 대한 정부의 R&D·해외진출·AI 지원 확대는 K-콘텐츠 경쟁력 및 사업 확장에 우호적으로 작용할 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "종합 엔터테인먼트 기업으로서 자리매김 중이며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "연결재무제표 기준 매출액이 약 69%로"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "연결재무제표 기준 매출액의 약 31%를 차지하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "㈜씨엘엔컴퍼니: 2,479 (11.2%)"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4039,
+    "completion_tokens": 3730,
+    "reasoning_tokens": 2944,
+    "output_tokens": 786
+  },
+  "warnings": []
+}

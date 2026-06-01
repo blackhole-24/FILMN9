@@ -1,0 +1,72 @@
+{
+  "stock_code": "067170",
+  "corp_name": "오텍",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 04:51",
+  "meta": {
+    "wics": "가정용기기와용품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "오텍은 특수차량 제조 전문기업으로, 음압 앰뷸런스·한국형 앰뷸런스·복지차량·암검진·전문 진료차량·특수 물류차량 등 특장차를 주력으로 생산합니다. 연결 대상 종속회사인 오텍캐리어 등은 가정용·상업용 냉난방기기와 냉동냉장설비를 생산·판매하며 그룹 차원에서 특장차와 냉난방·공조 사업을 함께 운영하고 있습니다.",
+    "business_model": "주요 수익원은 특장차량 사업부문으로, 제품별 매출 비중은 PALLET 외 34.10%, 내장·냉동탑(차) 외 24.09%, 앰뷸런스 외 21.60%, 장애인차 외 19.93%, 기타특장 0.28%를 차지합니다. 종속회사(오텍캐리어 등)는 가정용·상업용 냉난방기기와 냉동냉장설비를 생산·판매하며 제품 믹스와 원자재·환율 변동이 가격에 영향을 미칩니다.",
+    "main_customers": "특장차량 — 완성차 메이커(OEM) 및 해외 정부·기관 고객 / 냉난방·공조 — 국내 소비자 및 캐리어의 해외 네트워크를 통한 해외 시장 / 냉동냉장설비 — 쇼케이스·상업용 냉장냉동 장비를 필요로 하는 상업시설·유통업체",
+    "price_factors": [
+      {
+        "factor": "진입장벽",
+        "detail": "진입장벽이 높아 소규모 제조업체의 퇴출 가능성이 있어 경쟁구조와 가격 안정성에 영향합니다."
+      },
+      {
+        "factor": "소형탑 수요",
+        "detail": "소비자 맞춤형 유통 수요 확대로 소형 내장·냉동탑차 시장의 꾸준한 성장(중장기 수요)에 따라 실적에 영향합니다."
+      },
+      {
+        "factor": "원자재·환율",
+        "detail": "Product Mix 변화와 원자재·환율 변동이 주요제품 가격과 마진에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "OEM 의존",
+        "detail": "생산이 OEM 위탁 형태인 점과 완성차 메이커와의 거래관계가 가격 결정 및 수익성에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "지배회사인 당사는 특수차량 제조 전문기업으로서 최첨단 음압 앰뷸런스를...생산하는 기업입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[표] [지배회사] 특장차량사업부문",
+        "evidence_text": "PALLET 외 | 자동차 수출용부품포장재 외 | (주)오텍 | 35,76934.10%"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[표] [지배회사] 특장차량사업부문",
+        "evidence_text": "내장.냉동탑(차)외 ... 25,26624.09% / 앰뷸런스 외 ... 22,65021.60% / 장애인차 외 ... 20,90119.93%"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "특장차 부문은 해외 정부와 기관 고객을 대상으로 지속적인 영업활동을 펼치고 있으며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "종속회사 냉난방 및 공조기기 부문",
+        "evidence_text": "주요제품 가격변동의 가장 큰 원인은 Product Mix의 변화, 기타 원자재가격 변동 및 환율 변동에 기인합니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 6124,
+    "completion_tokens": 4700,
+    "reasoning_tokens": 3712,
+    "output_tokens": 988
+  },
+  "warnings": []
+}

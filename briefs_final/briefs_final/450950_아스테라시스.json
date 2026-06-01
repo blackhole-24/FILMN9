@@ -1,0 +1,67 @@
+{
+  "stock_code": "450950",
+  "corp_name": "아스테라시스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 19:49",
+  "meta": {
+    "wics": "건강관리장비와용품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "아스테라시스는 안티에이징 관련 미용의료기기(HIFU·RF)를 주력으로 생산·판매하는 기업으로, 국내 뿐 아니라 해외 시장에도 제품을 공급하고 있습니다. Liftera 등 자사 기술 기반의 장비와 소모품(카트리지·팁)을 통해 매출을 창출하며, 인구 고령화와 소비자 수요 확대에 따른 시장 성장의 수혜를 받고 있습니다.",
+    "business_model": "사업은 주로 의료용 미용장비(디바이스)와 그에 연계된 소모품 판매로 구성되며, FY2025 기준 Liftera·Coolfase·Coolsoniq 등 장비가 32.7%, 카트리지·팁 등 소모품이 64.5%, Q-Facial·화장품 등이 2.8%의 영업수익을 차지합니다. 장비 판매로 초기 매출을 확보하고, 소모품(교체용 카트리지·팁)에서 반복 매출을 얻는 구조이며, 신제품의 국내 MFDS 허가 및 향후 미국 FDA 인증을 통한 해외시장 확대를 추진하고 있습니다.",
+    "main_customers": "Liftera·Coolfase 등 장비 — 피부과·성형외과 / 카트리지·팁 등 소모품 — 피부과·성형외과(임상 시술자) / Q-Facial·화장품 — 피부과·성형외과 및 소비자",
+    "price_factors": [
+      {
+        "factor": "인허가",
+        "detail": "의료기기 인허가(국내 MFDS·해외 FDA 등) 일정과 획득 여부가 제품의 시장 진입 시점과 매출 실적에 직접적 영향을 줍니다."
+      },
+      {
+        "factor": "수요구조",
+        "detail": "고령화·중산층 확대 등 안티에이징 수요 증가가 전체 시장 성장으로 이어져 실적에 긍정적 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "소모품비중",
+        "detail": "영업수익의 대부분(64.5%)이 카트리지·팁 등 소모품에서 나오기 때문에 소모품 사용량 변화가 실적 변동성을 좌우합니다."
+      },
+      {
+        "factor": "기술경쟁",
+        "detail": "펜타입 Applicator·TDT 등 기술적 차별성이 제품 경쟁력과 병원 채택률에 영향을 미쳐 매출과 시장지위를 결정할 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "안티에이징 관련 미용의료기기 등을 주요제품으로"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "카트리지, 팁 등: 24,468 (64.5%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "라. 시장여건 및 영업의 개황",
+        "evidence_text": "주로 피부과, 성형외과 분야에서 사용되며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "각국의 정부는 의료기기 생산 및 제조, 임상시험 등 안전규제"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4840,
+    "completion_tokens": 3315,
+    "reasoning_tokens": 2496,
+    "output_tokens": 819
+  },
+  "warnings": []
+}

@@ -1,0 +1,76 @@
+{
+  "stock_code": "067830",
+  "corp_name": "세이브존I&C",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:08",
+  "meta": {
+    "wics": "백화점과일반상점",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "세이브존I&C는 국내 총 6개 점포의 백화점형 할인점을 운영하는 유통기업입니다. 의류 이월상품과 기획상품을 할인 판매하고, 식품·생활용품·문화센터·스포츠센터까지 함께 갖춘 원스톱 쇼핑형 점포를 운영하고 있습니다.",
+    "business_model": "회사는 몰(Mall)형 아울렛(복합형 할인점)을 기반으로 의류뿐 아니라 식품, 생활용품, 문화센터, 스포츠센터를 함께 운영하며 수익을 만듭니다. FY2025 사업부문별 영업수익은 식품 30.8%, 기타 21.0%로 구성되어 있으며, 오프라인 점포에서의 판매와 입점업체 수수료, 부대수익이 핵심 구조입니다. 다만 원문에는 전체 사업부문 합계가 모두 제시되지 않아 나머지 매출 구성이 별도로 확인되지는 않습니다.",
+    "main_customers": "백화점형 할인점 — 중산층 및 서민층 소비자 / 식품 — 지역 내 일반 소비자 / 기타 — 점포 편의시설 및 부대서비스 이용 고객",
+    "price_factors": [
+      {
+        "factor": "온라인전환",
+        "detail": "소비가 오프라인에서 온라인으로 이동할수록 점포 유입이 줄어 매출과 영업이익에 부담이 커집니다."
+      },
+      {
+        "factor": "소비심리",
+        "detail": "물가상승과 경기침체로 소비심리가 위축되면 패션상품과 할인점 매출이 함께 둔화될 수 있습니다."
+      },
+      {
+        "factor": "계절성",
+        "detail": "겨울철 의류 판매 비중이 높은 4분기에 매출이 늘고, 여름철인 3분기에는 매출이 상대적으로 약해집니다."
+      },
+      {
+        "factor": "지역상권",
+        "detail": "지역밀착형 점포와 기존 고객관리 강도가 높을수록 오프라인 유통 위축 속에서도 매출 방어에 도움이 됩니다."
+      },
+      {
+        "factor": "경쟁심화",
+        "detail": "오프라인 유통업계 내 출혈경쟁이 심해지면 광고선전비와 판촉비 부담이 커져 수익성이 약해질 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 국내 총 6개 점포의 백화점형 할인점 등을 운영"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "식품: 19,578 (30.8%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "기타: 13,322 (21.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "[경기변동의 특성 및 계절성]",
+        "evidence_text": "주요 고객층이 중산층 및 서민층으로 구성되어"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "[경영진 실적·전략 요약 (MD&A)]",
+        "evidence_text": "소비패턴이 자연스럽게 온라인 유통업계로 이동"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 5425,
+    "completion_tokens": 826,
+    "reasoning_tokens": 0,
+    "output_tokens": 826
+  },
+  "warnings": []
+}

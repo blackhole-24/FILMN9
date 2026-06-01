@@ -1,0 +1,86 @@
+{
+  "stock_code": "060570",
+  "corp_name": "드림어스컴퍼니",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:05",
+  "meta": {
+    "wics": "방송과엔터테인먼트",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "드림어스컴퍼니는 음악서비스와 MD·공연 사업을 함께 운영하는 오락·문화 업종의 기업입니다. 2025년에는 음악 IP 비즈니스 전 과정을 묶는 '음악 IP 360' 중심으로 사업 구조를 전환했으며, 최대주주가 SK스퀘어에서 비마이프렌즈로 변경되었습니다.",
+    "business_model": "사업부문별 영업수익은 음악서비스 부문 50.2%, MD·공연 부문 49.8%로 구성되어 있습니다. 음악서비스는 음원 및 디지털 콘텐츠 유통을 중심으로 수수료 매출을 내고, MD·공연은 아티스트 IP를 활용한 상품 기획·유통과 공연 기획을 통해 매출을 창출합니다. 회사는 음원 유통, 마케팅, 공연, MD를 연결한 통합 밸류체인으로 수익성을 높이는 구조를 만들고 있습니다.",
+    "main_customers": "음악서비스 — 음악 스트리밍 이용자, 음원 및 디지털 콘텐츠 소비자 / MD·공연 — 아티스트 팬, 공연 관람객, 굿즈 구매자 / 음악 IP 사업 — 아티스트와 IP 보유자",
+    "price_factors": [
+      {
+        "factor": "스트리밍",
+        "detail": "음원 스트리밍 이용이 늘수록 음악서비스 부문 수요가 확대될 수 있습니다."
+      },
+      {
+        "factor": "AI추천",
+        "detail": "AI와 빅데이터 기반 큐레이션 경쟁력이 높을수록 가입자 유치와 이용 편의성에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "구독전환",
+        "detail": "유료 구독 서비스 이용자가 늘면 온라인 음악 서비스의 안정적인 매출 기반이 강화될 수 있습니다."
+      },
+      {
+        "factor": "앱결제",
+        "detail": "앱 마켓 결제 정책 변화와 수수료 구조는 FLO의 가격과 서비스 운영에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "팬덤수요",
+        "detail": "아티스트 IP를 활용한 MD와 공연 수요가 늘면 회사 전체 매출에 직접적인 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약",
+        "evidence_text": "2025년 드림어스컴퍼니는 급변하는 시장 환경에 대응하기 위해 음악 IP 비즈니스 전 과정을 아우르는 '음악 IP 360' 중심의 사업 구조 전환을 완수하였습니다."
+      },
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약",
+        "evidence_text": "최대주주가 SK스퀘어(주)에서 글로벌 팬덤 비즈니스 전문 기업인 주식회사 비마이프렌즈로 변경 완료되었습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "음악서비스 부문: 112,896 (50.2%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "MD, 공연 부문: 112,101 (49.8%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "온라인 음악 서비스 > 산업의 특성",
+        "evidence_text": "소비자들이 스마트폰 등 다양한 기기를 통해 디지털 음원 콘텐츠를 실시간으로 재생할 수 있도록 돕는 중요한 역할"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "국내외 시장여건 > 경쟁상황",
+        "evidence_text": "AI 및 빅데이터를 활용한 음악 큐레이션"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "국내외 시장여건 > 앱 마켓 결제",
+        "evidence_text": "인앱 결제 상품은 결제 수수료율 추가로 인해 기존 대비 약 15% 수준으로 가격을 상향하였습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4615,
+    "completion_tokens": 980,
+    "reasoning_tokens": 0,
+    "output_tokens": 980
+  },
+  "warnings": []
+}

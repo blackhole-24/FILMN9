@@ -1,0 +1,86 @@
+{
+  "stock_code": "009580",
+  "corp_name": "무림P&P",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 09:46",
+  "meta": {
+    "wics": "종이와목재",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "무림P&P는 종이·목재 업종의 기업으로, 펄프와 제지를 함께 하는 종합펄프제지 업체입니다. 2025년 기준 표백화학펄프를 약 42만톤 생산하고 있으며, 국내에서 펄프를 자체 생산하는 점과 펄프-제지 일관화 공장을 보유한 점이 특징입니다.",
+    "business_model": "사업은 펄프부문, 제지부문, 금융부문, 기타부문으로 나뉘며, 2025년 매출 비중은 제지부문 78%, 펄프부문 22%입니다. 제지부문은 아트지와 백상지 등 인쇄용지를 생산하고, 펄프부문은 제지원료이자 친환경 소재로도 활용되는 표백화학펄프를 제조·판매합니다. 금융부문은 여신전문업 운용, 기타부문은 조림사업으로 구성됩니다.",
+    "main_customers": "펄프부문 — 타 제지사, 제지 생산용 내부 사용 / 제지부문 — 노트·다이어리·잡지·캘린더·라벨·쇼핑백 등 인쇄용지 수요처 / 금융부문 — 여신전문업 관련 이용 고객 / 기타부문 — 조림사업 관련 수요처",
+    "price_factors": [
+      {
+        "factor": "펄프가격",
+        "detail": "펄프 판매가격이 수입펄프 가격과 연동되어 세계 펄프·제지 경기와 수급 변화에 따라 실적이 흔들릴 수 있습니다."
+      },
+      {
+        "factor": "환율",
+        "detail": "원화약세는 수출부문 수익성에 도움이 될 수 있지만, 수입 원재료 가격과 함께 변동성을 키울 수 있습니다."
+      },
+      {
+        "factor": "수요둔화",
+        "detail": "국내 경기 둔화로 인쇄용지 수요가 줄면 제지부문 매출과 가동률에 부담이 생길 수 있습니다."
+      },
+      {
+        "factor": "원가상승",
+        "detail": "인건비와 에너지 비용이 오르면 제조원가가 높아져 제지부문 수익성에 직접적인 압박이 생깁니다."
+      },
+      {
+        "factor": "공급변동",
+        "detail": "목재칩과 펄프 수급이 흔들리면 원재료 조달과 가격 안정성이 약해져 실적 변동성이 커질 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 가. 사업부문별 시장여건 및 영업의 개황",
+        "evidence_text": "국내 유일의 종합펄프제지 업체입니다."
+      },
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 가. 사업부문별 시장여건 및 영업의 개황",
+        "evidence_text": "2025년도 기준 약 42만톤의 표백화학펄프를 생산"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "총부문수익 | 154,295,304 | 528,758,991 | 48,565,733"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 가. 사업부문별 시장여건 및 영업의 개황",
+        "evidence_text": "2025년 제지부문의 당사 매출 비중은 78%"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 가. 사업부문별 시장여건 및 영업의 개황",
+        "evidence_text": "2025년 펄프부문의 당사 매출 비중은 22%"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 펄프 및 제지부문_무림P&P(주)",
+        "evidence_text": "당사는 인쇄용지, 산업용지 등 제지원료로 사용되는 표백화학펄프를 생산하여 판매"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 펄프 및 제지부문_무림P&P(주)",
+        "evidence_text": "노트, 다이어리 등에 사용되는 백상지류"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5323,
+    "completion_tokens": 1073,
+    "reasoning_tokens": 0,
+    "output_tokens": 1073
+  },
+  "warnings": []
+}

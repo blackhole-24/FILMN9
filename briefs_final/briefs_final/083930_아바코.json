@@ -1,0 +1,62 @@
+{
+  "stock_code": "083930",
+  "corp_name": "아바코",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 06:24",
+  "meta": {
+    "wics": "전기제품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "아바코는 FPD(Flat Panel Display)용 진공장비와 이차전지(배터리) 제조 장비를 개발·제조·판매하는 장비 전문업체입니다. OLED 패널과 이차전지 장비를 중심으로 사업 포트폴리오를 확장해 왔으며, 최근 중국 디스플레이업체들의 OLED 투자 확대에 따른 장비 납품이 본격화되며 창사 이래 최대 매출을 기록했습니다.",
+    "business_model": "주요 매출은 디스플레이 장비와 이차전지 장비 중심으로 구성되어 있으며, 보고서상 LCD 및 OLED 제조장비 매출 비중이 약 81.3%, 이차전지 제조장비 약 10.5%, 태양전지 제조장비 약 3.0%, 기타 제조장비 약 5.2%입니다. 제품군은 OLED·LCD용 진공·스퍼터(Sputter) 시스템, 이차전지 전극 공정 장비(코터·슬리터 등)와 자동화 시스템, 컨버팅·롤투롤(Roll-to-Roll) 장비 등으로 구성되어 고객 맞춤형 장비 공급과 수주·납품 기반 수익을 창출합니다.",
+    "main_customers": "디스플레이 장비 — OLED/LCD 패널 제조사(중국 포함) / 이차전지 장비 — 배터리 셀 제조사 / 태양전지 장비 — 태양전지 제조사",
+    "price_factors": [
+      {
+        "factor": "패널투자",
+        "detail": "OLED 패널 투자 확대 시 장비 납품이 늘어 매출(실적)에 직접적인 상승 요인이 됩니다."
+      },
+      {
+        "factor": "전기차수요",
+        "detail": "전기차 수요 둔화로 이차전지 업체의 투자 조정이 있을 경우 이차전지 장비 수주에 부정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "기술경쟁력",
+        "detail": "장비 성능과 기술력이 수주 경쟁에서 중요하므로 기술 우위 확보 여부가 실적 변동성에 큰 영향을 미칩니다."
+      },
+      {
+        "factor": "공급망·정책",
+        "detail": "미·중 무역 갈등·보호무역 기조 등 지정학적 리스크로 고객사의 설비 내재화·공급망 재편이 진행되면 수주 환경에 변동이 생길 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 OLED패널 및 이차전지 배터리 제조 관련 장비를 전문적으로 개발 및 생산하는 기업으로"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "LCD 및 OLED 제조장비 약 3,192억원(81.3%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "중국 패널 업체들의 OLED 라인 투자 확대"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5990,
+    "completion_tokens": 4931,
+    "reasoning_tokens": 4160,
+    "output_tokens": 771
+  },
+  "warnings": []
+}

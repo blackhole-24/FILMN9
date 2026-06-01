@@ -1,0 +1,82 @@
+{
+  "stock_code": "011780",
+  "corp_name": "금호석유화학",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 12:57",
+  "meta": {
+    "wics": "화학",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "금호석유화학은 합성고무·합성수지·정밀화학 등 석유화학 계열 제품을 주력으로 생산하는 화학업체로, 합성고무와 합성수지 중심의 제품 포트폴리오를 보유하고 있습니다. 2025년 연결재무제표 기준 매출액은 전년 동기 대비 3.4% 감소한 6조 9,151억 원을 기록하였습니다.",
+    "business_model": "사업부문별 매출 비중은 합성고무가 58.4%, 합성수지가 25.7%, 정밀화학이 4.0%, 기타가 11.9%를 차지하며(표 기준) 합성고무(SBR, BR, NBR, LATEX 등)와 합성수지(PS, ABS 등)를 중심으로 타이어·가전·건자재용 소재를 공급합니다. 주요 종속회사인 금호피앤비화학㈜에서는 Phenol과 BPA 등을 생산하며 원재료(Butadiene, Styrene Monomer 등) 가격과 시장 수급에 따라 제품 가격이 변동됩니다.",
+    "main_customers": "합성고무 — 타이어·신발·장갑 제조사 / 합성수지 — 전기·전자업체·자동차부품업체·건자재업체 / 정밀화학 — 고무제품 제조사 / 기타 — 이차전지 제조사·건자재 및 공장 유틸리티 수요처",
+    "price_factors": [
+      {
+        "factor": "원재료가격",
+        "detail": "Butadiene·Styrene Monomer 등 원재료 가격 변동은 제품 가격과 수익성에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "중국공급",
+        "detail": "중국의 생산 전환으로 인한 공급과잉과 가격 경쟁 심화는 매출단가·수익성 약화로 연결됩니다."
+      },
+      {
+        "factor": "전방수요",
+        "detail": "가전·건설·자동차 등 전방 산업 수요 약화 시 합성수지·합성고무의 판매량과 매출이 감소합니다."
+      },
+      {
+        "factor": "지정학·무역",
+        "detail": "미 관세 불확실성, 중동 긴장, 무역분쟁 등은 교역 감소와 구매심리 위축으로 실적에 부정적 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "매출액은 전년 동기 대비 3.4% 감소한 6조 9,151억 원"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "합성고무 2,671,376 (58.4%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "합성수지 1,173,028 (25.7%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "정밀화학 182,122 (4.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "타이어, 신발, 장갑 등"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "주요 원재료는 Butadiene과 Styrene Monomer 등"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "이차 전지용 CNT 소재 판매가 부진하였습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3908,
+    "completion_tokens": 4797,
+    "reasoning_tokens": 3840,
+    "output_tokens": 957
+  },
+  "warnings": []
+}

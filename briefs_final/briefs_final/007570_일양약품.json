@@ -1,0 +1,72 @@
+{
+  "stock_code": "007570",
+  "corp_name": "일양약품",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 19:49",
+  "meta": {
+    "wics": "제약",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "일양약품은 일양약품(주) 등 계열사를 포함한 연결 재무제표 기준의 제약회사로, 제55기 연결기준 매출액은 2,724억원입니다. 항궤양제 '놀텍', 백혈병 치료제 '슈펙트' 및 계절 독감 백신 등 완제의약품과 개량신약·백신 사업을 주요 포트폴리오로 운영하고 있습니다.",
+    "business_model": "사업부문별 매출 비중은 일양약품(전문의약품 등) 42.60%, 일반의약품 18.87%, 수출 18.21%, 기타(건강보조식품 등) 17.89%, 일양바이오팜 1.02%, 칸테크 1.41%로 구성되어 있습니다. 전문의약품(병원 처방 중심), 일반의약품(소비자용), 수출(원료·제형 포함)과 건강기능식품, 소프트웨어 부문이 수익을 분담하며 신약 허가·개량신약·백신 완제품 생산능력 확보가 중장기 성장 동력입니다.",
+    "main_customers": "일양약품(전문의약품) — 의료기관·병원 / 일반의약품 — 약국·일반소비자 / 수출 — 해외 유통·바이어 / 기타(건강보조식품) — 유통업체·소비자 / 칸테크(소프트웨어) — 기업(ERP 등)",
+    "price_factors": [
+      {
+        "factor": "약가정책",
+        "detail": "정부의 약가 통제 및 약제비 인하 정책은 매출과 수익성에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "신약개발",
+        "detail": "놀텍·슈펙트 등 신약의 적응증 추가와 임상·허가 성과가 중장기 실적에 영향을 줍니다."
+      },
+      {
+        "factor": "품질규제",
+        "detail": "GMP(우수 의약품 제조관리 기준) 관련 벨리데이션·설비투자 의무화는 비용과 투자 부담으로 작용할 수 있습니다."
+      },
+      {
+        "factor": "환율변동",
+        "detail": "수출 비중과 원료 수입 구조상 원·달러 환율 변동은 수익성에 영향을 미칠 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "55기 연결기준 매출액 2,724억원"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "272,422(100%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "전문의약품 및 일반의약품 매출이 안정적으로 유지되었으며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "정부가 직접 약가를 통제하고 있어"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "품목별 사전 GMP 벨리데이션 제도를 도입"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5792,
+    "completion_tokens": 5004,
+    "reasoning_tokens": 4160,
+    "output_tokens": 844
+  },
+  "warnings": []
+}

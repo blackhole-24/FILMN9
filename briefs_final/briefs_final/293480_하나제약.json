@@ -1,0 +1,66 @@
+{
+  "stock_code": "293480",
+  "corp_name": "하나제약",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 15:21",
+  "meta": {
+    "wics": "제약",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "하나제약은 전문의약품 생산·판매를 주력으로 하는 제약회사로, 마약성진통제와 마취제 분야에서 오랜 강점을 바탕으로 선두권 제품을 다수 보유하고 있습니다. 경기도 화성에 3개 제조공장을 두고 판교에 R&D 중심 연구소를 운영하며, 약 380여개의 건강보험 등재 전문의약품을 통해 전방위적인 전문의약품 사업을 영위하고 있습니다.",
+    "business_model": "당사는 전문의약품(의사의 처방이 필요한 의약품)을 주로 제조·판매하며, 사업부문별 영업수익에서 제품이 31.9%를 차지하고 상품은 0.4%로 보고되어 있습니다. 주력은 병원용 주사제와 경구용 정제이며, 특히 마약성진통제와 마취제 품목이 핵심 수익원으로 작용합니다.",
+    "main_customers": "주사제 — 종합병원(마취과 중심) / 정제(경구용) — 병원·의원 / 전문의약품 전체 — 요양기관(종합병원·병원·의원)",
+    "price_factors": [
+      {
+        "factor": "처방 관성",
+        "detail": "종합병원은 의약품 선택이 보수적이고 교체가 적어 한 번 진입하면 안정적인 매출이 유지됩니다."
+      },
+      {
+        "factor": "심의 진입장벽",
+        "detail": "의약품심의위원회(Drug Committee)를 통한 정기적 선정 절차로 제품 진입이 어렵지만 진입 후 이탈이 적어 실적 안정성에 기여합니다."
+      },
+      {
+        "factor": "품질 규제",
+        "detail": "KGMP·cGMP 등 제조품질 규정 준수가 요구되어 생산설비·품질 이슈가 실적에 직접적인 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "R&D·임상",
+        "detail": "신약 개발(R&D)과 임상 진전에 따라 중장기 파이프라인 가치와 향후 매출 구조에 영향을 줍니다."
+      },
+      {
+        "factor": "보험 수요",
+        "detail": "암환자 및 수술·내시경 환자 증가 등 보험급여 대상 확대는 마약성진통제·마취제 수요 증가로 연결됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 > 영업 현황",
+        "evidence_text": "당사는 전문의약품 생산 및 판매를 주요 사업으로 영위하는 회사입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "제품: 76,353 (31.9%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 > 영업 현황",
+        "evidence_text": "전국의 종합병원, 병원, 의원 등 요양기관을 주 거래처"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4589,
+    "completion_tokens": 2602,
+    "reasoning_tokens": 1856,
+    "output_tokens": 746
+  },
+  "warnings": []
+}

@@ -1,0 +1,62 @@
+{
+  "stock_code": "264660",
+  "corp_name": "씨앤지하이테크",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 14:23",
+  "meta": {
+    "wics": "반도체와반도체장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "씨앤지하이테크는 반도체·디스플레이 제조 공정에 사용되는 화학약품을 자동화로 공급하는 장치(CCSS) 제조·판매를 주된 사업으로 하는 기업입니다. 화학약품 혼합장치, 저장·공급 장치 및 화학약품 재생장치 등을 중심으로 장치와 관련 용역을 제공합니다.",
+    "business_model": "사업부문별로 제품이 45.2%(제품: 87,700,609), 용역이 23.6%(용역: 46,192,970)로 주요 수익원이며, 기타(20.2%), 상품(8.1%), 공사(2.8%)가 뒤를 잇습니다; 핵심은 CCSS 장치의 제조·판매와 장치 관련 용역 및 화학약품 재생 사업입니다.",
+    "main_customers": "제품 — 반도체·디스플레이 제조사(칩·패널 제조사) / 용역 — 반도체·디스플레이 제조사 및 장치 관련 고객 / 상품 — 기타 거래처(상품 판매) / 공사 — 장치 관련 공사 수주처 / 기타 — 장치 관련 용역·기타 고객",
+    "price_factors": [
+      {
+        "factor": "주요거래처 투자",
+        "detail": "주요 거래처의 투자계획 실행 여부가 매출 증감에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "반도체 경기순환",
+        "detail": "칩·패널 제조사의 투자 계획에 따른 경기 변동에 민감하게 영향을 받습니다."
+      },
+      {
+        "factor": "화학물질 규제",
+        "detail": "강화된 화학물질 관리법으로 장치의 전자동화 및 보완 투자 수요가 증가할 수 있습니다."
+      },
+      {
+        "factor": "수주·원가 차이",
+        "detail": "수주상황 및 프로젝트별로 제품 구성·원가·이익구조 차이가 실적 변동 요인입니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "CCSS 제조 판매를 주된 사업으로 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "제품: 87,700,609 (45.2%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "다. 성과지표",
+        "evidence_text": "당사의 주요 매출부문은 반도체 및 디스플레이 장치 부문이며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4772,
+    "completion_tokens": 4759,
+    "reasoning_tokens": 4096,
+    "output_tokens": 663
+  },
+  "warnings": []
+}

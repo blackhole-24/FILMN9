@@ -1,0 +1,88 @@
+{
+  "stock_code": "001020",
+  "corp_name": "페이퍼코리아",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 09:39",
+  "meta": {
+    "wics": "종이와목재",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "페이퍼코리아는 산업용지와 신문용지 제조·판매, 그리고 부동산개발을 주요사업으로 영위하는 종이·목재 기업입니다. 본사는 전북특별자치도 군산시에 제조시설을 두고 있으며, 크라프트지 기준 시장점유율 1위를 차지하고 있습니다.",
+    "business_model": "사업부문별 매출은 제지가 348,280,564, 특수용지가 28,893,283, 부동산분양이 1,550,047로 구성되어 있고, 연결제거는 (112,055,365)입니다. 회사는 나투라페이퍼(주)로부터 신문용지를 공급받아 판매하고, 군산 비응도동 제조설비에서 산업용지를 생산·판매합니다. 또한 군산 조촌동 공장부지 개발사업을 1단계와 2단계로 나누어 진행하며, 공동주택사업은 자회사를 통해 추진 중입니다.",
+    "main_customers": "제지 — 주요 신문사 / 특수용지 — 산업용 포장·보관 관련 수요처 / 부동산분양 — 주거용지 및 기타용지 매수자",
+    "price_factors": [
+      {
+        "factor": "원재료",
+        "detail": "종이자원을 주요 원재료로 사용하므로 원재료 가격 변동이 수익성에 직접 영향을 줍니다."
+      },
+      {
+        "factor": "광고경기",
+        "detail": "신문용지는 국내 경기와 광고시장 변동에 민감해 경기 둔화 시 수요와 실적에 영향을 받을 수 있습니다."
+      },
+      {
+        "factor": "GDP",
+        "detail": "산업용지는 공산품·소비재 증가와 GDP 성장률의 영향을 받아 경기 흐름에 따라 수요가 달라질 수 있습니다."
+      },
+      {
+        "factor": "친환경수요",
+        "detail": "친환경 소재 수요가 늘수록 산업용지와 관련 제품의 판가 및 수익성 개선 기대에 영향을 줍니다."
+      },
+      {
+        "factor": "공급여건",
+        "detail": "신문용지 시장은 과점 구조로 공급자 진입이 쉽지 않아 공급 감소 여부가 가격과 수급에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 ... 산업용지, 신문용지 제조 및 판매와 부동산개발을 주요사업으로 영위하고 있습니다."
+      },
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "크라프트지 기준 당사는 시장점유율 1위를 차지하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "제지 | 348,280,564 | 371,235,066"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "특수용지 | 28,893,283 | 31,489,790"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "부동산분양 | 1,550,047 | -"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 계열사인 나투라페이퍼(주)로부터 신문용지 등을 공급받아 판매하고"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사가 진행 중입니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4254,
+    "completion_tokens": 932,
+    "reasoning_tokens": 0,
+    "output_tokens": 932
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

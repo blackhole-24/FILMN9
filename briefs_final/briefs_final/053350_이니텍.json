@@ -1,0 +1,71 @@
+{
+  "stock_code": "053350",
+  "corp_name": "이니텍",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 03:13",
+  "meta": {
+    "wics": "소프트웨어",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "이니텍은 정보보호와 금융IT를 핵심으로 하는 IT 서비스 기업으로, 암호·인증(PKI), DB암호화, 통합접근관리(SSO/EAM) 등 보안 솔루션 공급을 주력 사업으로 영위하고 있습니다. 최근 생성형 AI 보안 서비스 'Secure AI'를 출시하는 등 AI 보안·제로트러스트·양자내성암호 등 융합 보안 서비스 확대로 차세대 보안 리더십을 강화하고 있습니다.",
+    "business_model": "매출은 보안제품과 금융IT용역이 혼합된 구조로, 주요 수익원은 ITO(시스템 운영관리) 44.79%, 인증 및 암호화 제품 18.42%, 솔루션/채널 유지보수 17.63%, 금융ASP 13.10%, SI 3.98% 등으로 구성되어 있습니다. 제품 판매(인증·암호화·보안장비)와 금융IT 용역(ITO·ASP·SI), 유지보수 서비스가 결합된 형태로 고객 맞춤형 통합 보안·운영 서비스를 제공합니다.",
+    "main_customers": "보안사업 — 전자금융 관련 금융회사 / 금융IT — 제1,2금융권, 카드사, 보험사",
+    "price_factors": [
+      {
+        "factor": "사이버위협",
+        "detail": "사이버 위협의 양적 증가로 정보보안 수요가 확대되어 제품·서비스 수요에 직접적인 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "경기변동",
+        "detail": "경기 침체 시 기업의 예산 감축으로 보안·IT 예산 집행이 지연되어 실적에 부정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "기술경쟁",
+        "detail": "암호·인증 분야에서는 핵심 원천기술과 솔루션 안정성이 경쟁우위 요인이므로 기술력과 가격 경쟁이 실적에 영향합니다."
+      },
+      {
+        "factor": "정부정책",
+        "detail": "정부의 정보보호 산업 육성 및 전자금융 감독규정 등 규제·지원 변화는 보안 서비스 수요와 도입 기준에 영향을 미칩니다."
+      },
+      {
+        "factor": "시장선점",
+        "detail": "암호·인증 솔루션은 시스템 호환성 때문에 고객 전환이 적어 시장 선점 여부가 장기 실적에 중요합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 사업의 내용 (1) 보안사업",
+        "evidence_text": "암호ㆍ인증 분야에서 공개키기반구조(PKI)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. 주요 제품등의 현황",
+        "evidence_text": "ITO 시스템 운영관리 - 14,694,121(44.79%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 사업의 내용 (2) 금융IT사업",
+        "evidence_text": "제1, 2금융권, 카드사, 보험사 등의 고객사"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 사업의 내용 (나) 산업의 성장성",
+        "evidence_text": "정보보안 매출액은 전년대비 15.9% 상승"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5546,
+    "completion_tokens": 4014,
+    "reasoning_tokens": 3200,
+    "output_tokens": 814
+  },
+  "warnings": []
+}

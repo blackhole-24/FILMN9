@@ -1,0 +1,67 @@
+{
+  "stock_code": "950160",
+  "corp_name": "코오롱티슈진",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 21:16",
+  "meta": {
+    "wics": "생물공학",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "코오롱티슈진은 세포·유전자 기술인 TG-C Platform을 이용해 신약개발을 진행하는 제약·바이오 기업입니다. 무릎 골관절염(Knee OA)에 대한 FDA 임상 3상을 진행 중이며, 퇴행성 척추 디스크질환(DDD)에 대해 FDA로부터 IND 승인을 받았습니다.",
+    "business_model": "주요 사업은 바이오신약 개발과 복합유통으로 나뉘며, FY2025 기준 복합유통 사업이 영업수익의 100.0%를 차지합니다; 바이오사업(TG-C)은 임상 개발(연구개발) 중심으로 제품화 시점에 수익화가 기대됩니다. 복합유통은 Health & Beauty(W-store)와 Liquor & Beverage(L&B) 판매를 통해 매출을 창출합니다.",
+    "main_customers": "바이오사업부문 — 무릎·고관절 골관절염 및 디스크성 허리통증 환자 / 복합유통 사업 — Health & Beauty 및 L&B 상품을 구매하는 일반 소비자",
+    "price_factors": [
+      {
+        "factor": "임상결과",
+        "detail": "무릎 골관절염 등 TG-C의 임상 3상 결과가 제품의 상업적 가치와 기업 실적에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "규제의존성",
+        "detail": "FDA 등 규제기관의 허가·검토 결정이 임상진행·승인 및 상용화 시점에 큰 영향을 미쳐 실적 변동성을 초래합니다."
+      },
+      {
+        "factor": "시장성장",
+        "detail": "골관절염 시장은 GlobalData 기준 장기적 성장(연평균 약 4.4%)이 예상되어 상용화 시 수요 확대가 실적에 긍정적 요인입니다."
+      },
+      {
+        "factor": "매출구성",
+        "detail": "FY2025 기준 매출이 복합유통 사업에 전적으로 의존하고 있어 바이오 신약 상용화 전까지 실적의 구조적 제약이 존재합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "세포 유전자 기술인 TG-C Platform을 이용하여 신약개발"
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "- 복합유통 사업: 3,627 (100.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "(1) 주요 제품 설명  [바이오사업부문]  (가) TG-C",
+        "evidence_text": "관절강 내 주사를 통해 골관절염 환자에게 주입함으로써"
+      },
+      {
+        "field": "clinical_progress",
+        "source_section": "TG-C 개발 진행 현황",
+        "evidence_text": "무릎골관절염(Knee OA) 임상 3상의 투약을 재개하였습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4597,
+    "completion_tokens": 3573,
+    "reasoning_tokens": 2816,
+    "output_tokens": 757
+  },
+  "warnings": []
+}

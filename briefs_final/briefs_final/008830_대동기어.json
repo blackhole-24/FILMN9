@@ -1,0 +1,69 @@
+{
+  "stock_code": "008830",
+  "corp_name": "대동기어",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 20:12",
+  "meta": {
+    "wics": "기계",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "대동기어는 기계·장비(WICS: 기계) 업종에 속한 기업입니다. 사업보고서의 '영업 현황'에서는 농기계·자동차·산업기계 관련 산업의 특성과 경기변동을 중심으로 기술하고 있으며, 경영진 실적·전략 요약(MD&A)은 별도로 기재되어 있지 않습니다.",
+    "business_model": "보고서에서는 주로 농기계, 자동차, 산업기계와 관련된 산업 특성을 설명하고 있으며, 구체적인 사업부문별 매출 비중은 명시되어 있지 않습니다. 정밀 농업·스마트 농업(첨단기술 활용)과의 결합, 다용도화 추세 등이 제품·서비스 개발의 핵심 방향으로 언급되어 있습니다.",
+    "main_customers": "농기계 — 농업인·농업 관련 기관 / 자동차 관련 부문 — 자동차 제조사·부품업체 / 산업기계 — 제조업체(산업용 설비 수요처)",
+    "price_factors": [
+      {
+        "factor": "정부정책",
+        "detail": "정부의 농업 정책 및 보조금·농촌 지원 정책이 농기계 수요에 직접적인 영향을 미쳐 실적 변동 요인이 됩니다."
+      },
+      {
+        "factor": "계절성",
+        "detail": "농작업 시기에 따른 수요 변동이 크기 때문에 계절적 수요 영향이 실적에 반영될 가능성이 큽니다."
+      },
+      {
+        "factor": "스마트농업",
+        "detail": "정밀 농업·스마트 농업 기술 확산은 고부가가치 제품 수요를 늘려 장기적 성장 동력이 될 수 있습니다."
+      },
+      {
+        "factor": "농촌고령화",
+        "detail": "농촌 인구 감소·고령화로 노동력 절감형 농기계 수요가 증가하며 제품 수요 구조에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "나. 사업의 현황 (1) 산업의 특성 및 경기변동의 특성 (가) 농기계",
+        "evidence_text": "농기계 산업은 전통적인 농업과 첨단 기술이 융합되는 산업"
+      },
+      {
+        "field": "business_model",
+        "source_section": "나. 사업의 현황 (1) 산업의 특성 및 경기변동의 특성 (가) 농기계",
+        "evidence_text": "정밀 농업, 스마트 농업 등 첨단 기술과의 결합이 빠르게 진행되고 있으며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나. 사업의 현황 (1) 산업의 특성 및 경기변동의 특성 (가) 농기계",
+        "evidence_text": "농업 보조금, 농촌 지원 정책 등이 농기계 수요에 직접적인 영향을 미칩니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나. 사업의 현황 (1) 산업의 특성 및 경기변동의 특성 (가) 농기계",
+        "evidence_text": "농작업 시기에 따라 수요 변동이 심하며"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 3389,
+    "completion_tokens": 3333,
+    "reasoning_tokens": 2560,
+    "output_tokens": 773
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

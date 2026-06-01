@@ -1,0 +1,86 @@
+{
+  "stock_code": "058470",
+  "corp_name": "리노공업",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 03:44",
+  "meta": {
+    "wics": "반도체와반도체장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "리노공업은 LEENO PIN(검사용 SPRING CONTACT PROBE)과 IC TEST SOCKET(반도체 테스트용 소켓)을 자체 브랜드로 개발·제조하여 판매하는 반도체 검사 소모품 및 의료기기 부품 전문 기업입니다. 40년 이상의 제조 노하우와 전 공정을 자체 수행하는 생산체계를 바탕으로 수출 중심의 매출 구조를 보유하고 있습니다.",
+    "business_model": "핵심 사업은 반도체 테스트용 소모성 부품(LEENO PIN 및 IC TEST SOCKET)과 초음파 진단기 등 의료기기 부품 공급으로 구성되며, 2025년 기준 IC TEST SOCKET 류 65.48%, LEENO PIN 류 23.38%, 의료기기 부품류 10.24%, 상품 0.86%의 매출 비중을 기록했습니다. 당사는 다품종·단납기 주문제작 중심의 생산과 전 공정 자체 수행을 통해 품질 안정성, 원가 경쟁력 및 짧은 리드타임을 확보하고 있습니다.",
+    "main_customers": "LEENO PIN·IC TEST SOCKET — IDM(종합반도체사), Fabless, Foundry, Packaging & Test, 전기전자업 / 의료기기 부품 — 초음파 장비 제조사(지멘스社 등) / 상품 — 유통 채널 및 기타 거래처",
+    "price_factors": [
+      {
+        "factor": "반도체 수요",
+        "detail": "전방 산업(서버·모바일·자동차 등) 수요가 줄면 테스트 부품 수요가 함께 감소하여 실적에 부정적 영향을 미칩니다."
+      },
+      {
+        "factor": "수출 의존도",
+        "detail": "LEENO PIN·IC TEST SOCKET 매출은 수출 비중이 높아(약 9:1), 글로벌 수요 변동에 민감합니다."
+      },
+      {
+        "factor": "기술 진입장벽",
+        "detail": "제품이 기술집약적이고 신뢰성이 중요해 진입장벽이 높아 비교적 안정적인 가격·수익 구조를 유지할 수 있습니다."
+      },
+      {
+        "factor": "의료정책·규제",
+        "detail": "의료기기 부문은 정부의 의료정책·관리제도 영향을 받아 경기 민감도가 상대적으로 낮고 안정적 수요가 형성됩니다."
+      },
+      {
+        "factor": "주문제작 구조",
+        "detail": "대부분 주문제작 제품으로 거래처·제품 난이도에 따라 가격을 책정해 시간에 따른 가격하락 리스크가 제한적입니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 > 영업 현황",
+        "evidence_text": "초음파 진단기 등에 적용되는 의료기기 부품을 제조 및 판매"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 > 영업 현황 (2025년도 매출기준)",
+        "evidence_text": "IC TEST SOCKET 류는 전체 매출대비 65.48%"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 > 영업 현황 (2025년도 매출기준)",
+        "evidence_text": "LEENO PIN 류는 전체 매출대비 23.38%"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 > 의료기기 부문",
+        "evidence_text": "의료기기 부품류는 전체 매출대비 10.24%"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 > 경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "IDM 종합 반도체업, Fabless, Foundry, Packaging & Test"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 > 시장여건(1)",
+        "evidence_text": "매출은 수출과 내수 비중이 약 9:1 수준"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 > LEENO PIN & IC TEST SOCKET 부문",
+        "evidence_text": "전 공정을 자체적으로 수행할 수 있는 생산 시스템을 구축하여"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5145,
+    "completion_tokens": 5261,
+    "reasoning_tokens": 4224,
+    "output_tokens": 1037
+  },
+  "warnings": []
+}

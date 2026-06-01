@@ -1,0 +1,66 @@
+{
+  "stock_code": "291650",
+  "corp_name": "압타머사이언스",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:34",
+  "meta": {
+    "wics": "생물공학",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "압타머사이언스는 2011년 4월 포스텍으로부터 스핀오프하여 설립된 바이오 기업으로, 압타머 기술 플랫폼을 기반으로 혁신 치료제와 진단 기술을 개발하고 있습니다. 현재는 신약개발과 바이오의약품 분석 CRO(위탁연구개발) 서비스, 그리고 진단·유통 사업까지 사업 영역을 넓히고 있습니다.",
+    "business_model": "주요 매출은 CRO 분석 43.6%, 상품유통 24.0%, 올리고 합성 서비스 20.4%, 압타머 발굴 서비스 11.9%로 구성되어 있습니다. 신약개발 부문은 ApDC®(압타머-약물접합체) 플랫폼을 통해 고형암·혈액암 치료제를 연구개발하고, 임상적 유효성(Proof of Concept)을 확보한 뒤 기술이전(Licensing-out)이나 공동개발로 사업화를 추진하는 구조입니다. CRO 부문은 항체의약품, ADC(항체-약물 접합체), 펩타이드, 올리고핵산 등의 바이오의약품 분석 서비스를 제공하며, 유통 부문은 생활용품과 건강 관련 소비재를 홈쇼핑 등 채널로 공급합니다.",
+    "main_customers": "신약개발 — 글로벌 제약사, 공동개발 파트너 / CRO 분석 — 제약회사, 바이오벤처 / 올리고 합성 서비스 — 압타머 및 올리고핵산 관련 연구 수요처 / 압타머 발굴 서비스 — 바이오 연구·개발 기관 / 상품유통 — 홈쇼핑 등 유통채널을 이용하는 소비자",
+    "price_factors": [
+      {
+        "factor": "임상진행",
+        "detail": "AST-201의 임상 1상 진행과 같은 개발 단계 진전은 신약개발 사업의 기대와 실적 가시성에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "기술이전",
+        "detail": "임상적 유효성 확보 후 기술이전(Licensing-out) 추진 여부가 신약개발 부문의 사업화 성과를 좌우합니다."
+      },
+      {
+        "factor": "CRO수요",
+        "detail": "제약회사와 바이오벤처의 분석 수요가 늘수록 CRO(위탁연구개발) 매출 확대에 도움이 됩니다."
+      },
+      {
+        "factor": "규제요건",
+        "detail": "FDA 제출용 분석 데이터와 규제 대응 수요가 많을수록 분석 CRO의 필요성이 커집니다."
+      },
+      {
+        "factor": "유통매출",
+        "detail": "신규 유통사업의 매출 발생 여부가 전체 매출 증가와 사업 포트폴리오 다각화에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "2011년 4월 포스텍으로부터 스핀오프(spin-off)하여 설립되었습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "CRO 분석 1,528,898(43.6%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "제약회사 및 바이오벤처를 대상으로"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5837,
+    "completion_tokens": 824,
+    "reasoning_tokens": 0,
+    "output_tokens": 824
+  },
+  "warnings": []
+}

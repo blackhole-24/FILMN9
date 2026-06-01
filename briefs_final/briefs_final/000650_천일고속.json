@@ -1,0 +1,67 @@
+{
+  "stock_code": "000650",
+  "corp_name": "천일고속",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 16:56",
+  "meta": {
+    "wics": "도로와철도운송",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "천일고속은 전국을 영업장으로 하는 고속버스 기반 여객운송업체로, 국내 고속버스 업계에서 운영 중인 8개사 중 하나로 노선 운행을 하고 있습니다. 2025년 매출은 455억원으로 전년 대비 소폭 증가했습니다.",
+    "business_model": "주요 수익은 운송사업부에 집중되어 있으며, FY2025 기준 운송사업부가 매출의 96.1%를 차지합니다; 그 외 임대사업(1.5%)과 기타수입(2.4%)이 존재합니다. 최근에는 우등·프리미엄 버스 등 부가가치가 높은 차량을 확대 투입하여 수익성 방어를 시도하고 있습니다.",
+    "main_customers": "운송사업부 — 전국 이용승객 (여객) / 임대사업 — 임차인(임대 이용 고객) / 기타수입 — 기타 서비스·거래처",
+    "price_factors": [
+      {
+        "factor": "철도 경쟁",
+        "detail": "KTX 전용철로 완전개통과 SRT 개통 등 철도 경쟁 심화로 이용승객 이탈이 실적에 부정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "노선 규제",
+        "detail": "고속버스 인가 노선 변경 및 개발은 국토교통부 인허가 대상이라 운행 확대·조정에 제약이 있습니다."
+      },
+      {
+        "factor": "차종 믹스",
+        "detail": "우등·프리미엄 버스 확대 투입은 단가(부가가치) 상승으로 매출 방어에 기여할 가능성이 있습니다."
+      },
+      {
+        "factor": "요금·판촉",
+        "detail": "업계의 할인제도·플랫폼 제휴·프리패스 등의 가격·서비스 경쟁 심화가 수익성에 영향을 미칠 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 업계의 현황(1)",
+        "evidence_text": "전체 고속버스 회사 8개사, 고속버스 노선 116개"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "운송사업부: 43,794,961 (96.1%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 업계의 현황(1)",
+        "evidence_text": "전국을 영업장으로 하는 여객운송업임."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "이용승객은 코로나 이전대비 급감하였습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 2585,
+    "completion_tokens": 3890,
+    "reasoning_tokens": 3200,
+    "output_tokens": 690
+  },
+  "warnings": []
+}

@@ -1,0 +1,67 @@
+{
+  "stock_code": "045390",
+  "corp_name": "대아티아이",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 02:03",
+  "meta": {
+    "wics": "IT서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "대아티아이는 철도신호제어시스템의 개발·공급을 주사업으로 하는 기업입니다. CTC(열차집중제어), ATP(자동열차방호), 전자연동장치(EI) 등 철도신호 전분야 제품과 LTE-R 기반 KTCS 계열 시스템 참여 등을 통해 국내외 철도 프로젝트에 참여해왔습니다.",
+    "business_model": "사업부문별로 철도사업이 매출의 중심을 이루며, 2025 회계연도 기준 철도사업 비중이 85.4%로 압도적이고, FS사업이 0.3%, 기타가 1.4%를 차지합니다. 주된 수익원은 신호제어 시스템의 설계·납품·유지보수 등 Turn-key(일괄공사) 프로젝트 수주와 국내 정부 주도 교체사업·해외 수출입니다.",
+    "main_customers": "철도사업 — 국토교통부 등 정부 주도 사업 및 국내·해외 철도 운영기관 / FS사업 — 상세 고객군 미기재 / 기타 — 계열사·서비스 관련 거래처",
+    "price_factors": [
+      {
+        "factor": "국가사업 의존",
+        "detail": "정부의 한국형 열차제어 시스템 교체(예: KTCS-2·KTCS-M) 발주가 실적에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "글로벌 수요",
+        "detail": "GlobalData가 집계한 대규모 해외 철도 프로젝트(약 6조 달러) 확대로 해외 수주 기회가 확대될 수 있습니다."
+      },
+      {
+        "factor": "기술·국산화",
+        "detail": "국내 기술 국산화와 보유 특허(등록 68건 등)가 경쟁력으로 작용하여 수주 우위에 기여합니다."
+      },
+      {
+        "factor": "표준 전환",
+        "detail": "KTCS-3 등 차세대 무선 제어 표준 도입 시 기술 적응 및 사업 참여 여부가 실적 변수입니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 철도신호제어시스템 개발 및 공급업을 주사업으로 하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "철도사업: 130,865,938,117 (85.4%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "정부주도의 한국형 열차제어 시스템교체 계획에 따라"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "라. 시장여건 및 영업의 개황 [철도사업부문]",
+        "evidence_text": "전 세계 추진중인 철도 건설 프로젝트의 총 가치는 약 6조 달러에 달하며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5319,
+    "completion_tokens": 3367,
+    "reasoning_tokens": 2624,
+    "output_tokens": 743
+  },
+  "warnings": []
+}

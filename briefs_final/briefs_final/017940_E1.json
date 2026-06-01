@@ -1,0 +1,67 @@
+{
+  "stock_code": "017940",
+  "corp_name": "E1",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 11:11",
+  "meta": {
+    "wics": "가스유틸리티",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "E1은 LPG를 주력 상품으로 수입하여 수출·내수로 판매하는 LPG 유통회사입니다. 전국적인 저장·수송 네트워크와 수입기지(여수·인천·대산기지)를 활용해 도입 비용 절감 및 공급 안정화에 주력하고 있습니다.",
+    "business_model": "FY2025 기준 사업부문별 영업수익은 LPG 23.4%, 수소 0.1%, 기타 0.7%로 구성되어 있으며, 주된 수익원은 LPG 유통(수입·수출·내수)입니다. 당사는 Paper Trading(마진 고정화 목적 거래)과 원재료 수급처 다변화 등을 통해 수익성 관리에 노력하고 있습니다.",
+    "main_customers": "LPG — 가정용·산업용·수송용·도시가스용 및 석화업체 / 수출 — 직수출·중계수출 대상 해외 바이어 / 기타 — 임대처 및 선박 관련 거래처",
+    "price_factors": [
+      {
+        "factor": "CP·국제가격",
+        "detail": "LPG 거래의 기준 가격(CP가격 등) 변동은 제품 마진에 직접적인 영향을 미쳐 실적 변동성을 키웁니다."
+      },
+      {
+        "factor": "계절성",
+        "detail": "동절기 난방 수요 등 계절적 수요 변화는 수입가격과 판매량에 영향을 주어 실적에 변동을 초래합니다."
+      },
+      {
+        "factor": "규제·저장",
+        "detail": "정부의 수급 안정 조치(저장 시설 보유·민간 비축 의무 등)는 운영 비용과 설비투자 부담으로 연결될 수 있습니다."
+      },
+      {
+        "factor": "연료 전환",
+        "detail": "전기차 보급 확대와 친환경차로의 수요 전환은 LPG 수송용 수요에 하방 압력을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 LPG 유통회사로서"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "LPG: 1,663,909 (23.4%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "판매는 크게 수출 판매와 내수 판매로 나뉘며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "LPG 거래의 기준이 되는 가격(CP가격 등)의 변동에 따라 수익성에 영향을 받을 수 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4049,
+    "completion_tokens": 3384,
+    "reasoning_tokens": 2688,
+    "output_tokens": 696
+  },
+  "warnings": []
+}

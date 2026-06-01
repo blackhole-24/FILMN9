@@ -1,0 +1,67 @@
+{
+  "stock_code": "403850",
+  "corp_name": "더핑크퐁컴퍼니",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 18:55",
+  "meta": {
+    "wics": "방송과엔터테인먼트",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "더핑퐁컴퍼니는 핑크퐁·아기상어 등 캐릭터 IP(지적재산)를 보유한 미디어 기업으로, 모바일·TV 등 다양한 채널을 통해 글로벌 시장에 콘텐츠를 제공하고 있습니다. 2025년 연결기준 매출은 938.6억원, 영업이익 193.6억원, 당기순이익 181.2억원을 기록했습니다.",
+    "business_model": "핵심은 캐릭터 기반 IP의 제작·배급과 이를 활용한 다각적 상업화입니다. 2025년 기준 사업부문별 영업수익 구성은 콘텐츠 64.7%, 라이선스 11.6%, Merchandise 16.1%, 기타 7.6%로(사업부문별 영업수익 구성) 콘텐츠(영상·음원·앱)로 수익을 창출하고, 인기도 증가 시 라이선싱(권리허가)과 MD(상품화), 공연·게임 등으로 확장합니다.",
+    "main_customers": "콘텐츠 — YouTube·Netflix 등 OTT 및 TV 방송 채널 / 라이선스 — 라이선스 계약 상대(기업) / Merchandise — 일반 소비자(제품·상품 구매층) / 기타 — 모바일 앱 이용자(앱스토어 채널)",
+    "price_factors": [
+      {
+        "factor": "플랫폼 확산",
+        "detail": "YouTube·Netflix 등 글로벌 플랫폼 보급은 콘텐츠 노출과 해외 수익 확대에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "IP 경쟁력",
+        "detail": "키즈 콘텐츠의 락-인(잠금효과)과 IP 수명은 장기적 매출 안정성에 큰 영향을 줍니다."
+      },
+      {
+        "factor": "지식재산권 관리",
+        "detail": "상표·저작권 출원·등록과 침해 대응은 라이선스·상품화 수익 유지에 중요합니다."
+      },
+      {
+        "factor": "글로벌 수요 추세",
+        "detail": "글로벌 콘텐츠 시장 성장(연평균 성장 기대)은 디지털·키즈 콘텐츠 수요와 실적에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "'핑크퐁'과 '아기상어' 등 캐릭터 IP 기반의 콘텐츠를 보유"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "콘텐츠: 60,700,687 (64.7%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "YouTube, Netflix 등 다양한 OTT 플랫폼 및 TV 방송 채널을 통해 당사의 콘텐츠를 공급"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "(2) 산업의 성장성",
+        "evidence_text": "연평균 5.4% 수준의 성장을 유지할 것으로 예상됩니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5521,
+    "completion_tokens": 5038,
+    "reasoning_tokens": 4288,
+    "output_tokens": 750
+  },
+  "warnings": []
+}

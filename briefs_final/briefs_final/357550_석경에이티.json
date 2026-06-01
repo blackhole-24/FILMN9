@@ -1,0 +1,79 @@
+{
+  "stock_code": "357550",
+  "corp_name": "석경에이티",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 17:38",
+  "meta": {
+    "wics": "화학",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "석경에이티는 전신인 석경화학이 1994년 출범한 이후 2000년 12월 법인 전환하여 설립된 기능성 무기(나노)소재 전문기업으로, 바이오헬스케어·전기전자·코팅 등 네 가지 사업부문을 중심으로 제품을 생산합니다. 2025년말 자산은 543억원이며, 치과용·전자용 핵심 소재를 중심으로 국내외 고객에 제품을 공급하고 있습니다.",
+    "business_model": "핵심 사업은 바이오헬스케어 소재와 전기전자 소재로, 바이오헬스케어 부문에서는 치과용 레진 충진재 및 X-ray 불투과성 핵심소재 YbF3(Ytterbium Trifluoride)와 다양한 Glass 계열 제품을 제조·판매하며 3D Dental Printing용 소재 및 Glass Ionomer powder 등으로 제품군을 확장하고 있습니다. 전기전자 부문에서는 토너용 외첨제 등 토너(칼라토너 포함) 관련 소재를 제조·판매하는 사업을 영위합니다. 또한 색조화장품용 피그먼트(Version-Ⅰ, Version-Ⅱ) 제품은 2025년 하반기 초도물량 출하, 2026년부터 본격 도입이 예정되어 있습니다.",
+    "main_customers": "Dental 소재 — 치과재료 제조사·치과 및 기공소 / 화장품 원료 — 색조화장품 제조사 / 전기전자 소재 — 토너 제조업체·복사기·레이저프린터 부품사",
+    "price_factors": [
+      {
+        "factor": "미국 수요",
+        "detail": "미국 시장의 급속 성장에 따라 덴탈용 핵심소재 수요가 늘면 매출 개선으로 이어질 수 있습니다."
+      },
+      {
+        "factor": "글로벌 불확실성",
+        "detail": "글로벌 경기 둔화·환율 변동성 확대 시 수출 의존 제품군의 실적 변동성이 커질 수 있습니다."
+      },
+      {
+        "factor": "생산능력",
+        "detail": "제3공장 신설 등 생산기반 확충은 공급 안정성과 주문 대응력을 높여 매출 성장에 기여할 가능성이 있습니다."
+      },
+      {
+        "factor": "제품다각화",
+        "detail": "화장품 원료와 3D 프린팅용 소재 등 신제품 상용화가 본격화되면 신규 매출원 확보에 긍정적입니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "나. 회사의 현황(1) 사업 개황",
+        "evidence_text": "2000년 12월 석경화학에서 ㈜석경에이ㆍ티로 법인 전환하면서 설립되었고"
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. 바이오헬스케어소재사업",
+        "evidence_text": "핵심소재(Ytterbium Trifluoride, YbF3)를 제조하여 판매하는"
+      },
+      {
+        "field": "business_model",
+        "source_section": "나. 영업 현황 > 전기전자 소재사업",
+        "evidence_text": "토너(칼라토너 포함)에 사용되는 소재를 제조하여 판매하는 사업입니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 바이오헬스케어소재사업",
+        "evidence_text": "대부분을 유럽, 미주, 일본 등으로 수출하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "대외 경제 환경의 불확실성이 지속되었습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "전라북도 김제시에 제3공장을 신설하여 생산 기반을 확대"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 5458,
+    "completion_tokens": 4240,
+    "reasoning_tokens": 3264,
+    "output_tokens": 976
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

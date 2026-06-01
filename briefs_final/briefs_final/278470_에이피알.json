@@ -1,0 +1,67 @@
+{
+  "stock_code": "278470",
+  "corp_name": "에이피알",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 14:48",
+  "meta": {
+    "wics": "화장품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "에이피알은 화장품과 홈 뷰티 디바이스를 주요 사업으로 운영하는 화장품 기업으로, 메디큐브·에이프릴스킨·포맨트 등 브랜드를 보유하고 있습니다. 2025년 연결기준으로 화장품과 디바이스 매출이 주요 수익원이며 해외 비중이 높은 구조입니다.",
+    "business_model": "사업부문은 화장품(브랜드 기반 제품군)과 홈 뷰티 디바이스로 구분되며, 유통 채널은 온라인(66.6%)과 오프라인(33.4%)으로 구성되어 있습니다. 디바이스는 ADC(연구개발)에서 기술을 개발하고 (주)에이피알팩토리에서 기획-생산-사후관리까지 전 과정 밸류체인을 운영합니다.",
+    "main_customers": "화장품 — 온라인·오프라인 채널을 통한 일반 소비자 / 홈 뷰티 디바이스 — 가정용 사용자(온라인 비중 큼)",
+    "price_factors": [
+      {
+        "factor": "계절성",
+        "detail": "동절기 기초화장품 수요 증대·하절기 수요 감소로 매출에 계절적 변동이 발생합니다."
+      },
+      {
+        "factor": "해외수요",
+        "detail": "K-뷰티 인기 확산으로 해외 매출 비중(해외 80%)이 높아지면 글로벌 수요 변동이 실적에 직접 영향합니다."
+      },
+      {
+        "factor": "원가(원재료)",
+        "detail": "원재료·부자재 가격 변동이나 제품 리뉴얼에 따른 단가 변화가 판매가격과 마진에 영향을 미칩니다."
+      },
+      {
+        "factor": "유통구조",
+        "detail": "온라인 채널 비중(66.6%)이 높아 이커머스 환경과 플랫폼 규정 변화가 매출에 민감하게 작용합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "당사는 화장품과 홈 뷰티 디바이스를 주요 사업으로 운영하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "온라인 (66.6%) - 오프라인 (33.4%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "지역별로는 국내가 20%, 해외가 80%를 차지하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "다. 사업부문의 시장여건 및 영업의 개황",
+        "evidence_text": "화장품은 계절성이 다소 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4221,
+    "completion_tokens": 4149,
+    "reasoning_tokens": 3456,
+    "output_tokens": 693
+  },
+  "warnings": []
+}

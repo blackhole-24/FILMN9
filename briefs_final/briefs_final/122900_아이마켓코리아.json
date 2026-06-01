@@ -1,0 +1,81 @@
+{
+  "stock_code": "122900",
+  "corp_name": "아이마켓코리아",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 09:19",
+  "meta": {
+    "wics": "상업서비스와공급품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "아이마켓코리아는 MRO(소모성 자재) 중심의 구매대행을 바탕으로 기업(B2B) 대상 구매서비스를 제공하는 유통업체로, IT·건자재·헬스케어 등으로 사업을 확장하고 있습니다. 2025년 연결기준 매출은 3,054,423백만원을 기록했습니다.",
+    "business_model": "핵심은 MRO 기반의 산업재 B2B 전자상거래(구매대행·구매컨설팅)이며, 2025년 사업부문별 영업수익은 산업재 B2B전자상거래업이 62.9%, 의약품 및 의료용품 도매업이 25.9%를 차지합니다. 이외에 해외·자회사(예: iMarketVietnam 3.5%, ㈜큐브릿지 1.8%, ㈜아이로지스틱스 2.4% 등)가 매출을 보완하며 구매·물류·헬스케어 통합 서비스로 수익을 내고 있습니다.",
+    "main_customers": "산업재 B2B전자상거래업 — 국내외 기업 고객(구매담당자·공급망) / 의약품 및의료용품 도매업 — 병원(연세의료원 산하 병원, 중앙대학교병원, 서울아산병원 등)",
+    "price_factors": [
+      {
+        "factor": "고객업황",
+        "detail": "고객사 업황 악화 시 산업재 부문 물량이 줄어 매출과 이익에 직접적인 하방 압력이 발생합니다."
+      },
+      {
+        "factor": "환율(외환)",
+        "detail": "수출입 거래로 인한 외화수입·지출이 있어 환율 변동은 매출과 비용에 영향을 미치므로 외환관리 중요성이 큽니다."
+      },
+      {
+        "factor": "B2B 수요·기술",
+        "detail": "B2B 전자상거래에 대한 수요와 ICT·AI 등 신기술 도입은 플랫폼 경쟁력과 고객확보에 영향을 줍니다."
+      },
+      {
+        "factor": "해외법인 실적",
+        "detail": "베트남·미주 등 해외법인 매출 변동은 전체 매출에 영향을 주며 지역별 수요 차이가 실적 변동성 요인입니다."
+      },
+      {
+        "factor": "대손·채무구조",
+        "detail": "자회사 대손 인식이나 매입채무 증가 등은 영업이익 및 재무안정성에 부정적 영향을 미칠 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "B2B 구매서비스 기업입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. 사업부문별 주요 제품 및 서비스",
+        "evidence_text": "사업부문은 크게 산업재 B2B 전자상거래업과 의약품 및 의료용품 도매업으로 구성"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "산업재 B2B전자상거래업: 1,905,732 (62.9%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "연세의료원 산하 병원, 중앙대학교병원, 서울아산병원 등에 의약품을 공급"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "고객사 업황 악화에 따른 물량 감소로"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "영업 현황",
+        "evidence_text": "외환관리지침을 제정하고 관리부서를 지정하여 운영"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5153,
+    "completion_tokens": 4044,
+    "reasoning_tokens": 3072,
+    "output_tokens": 972
+  },
+  "warnings": []
+}

@@ -1,0 +1,67 @@
+{
+  "stock_code": "004410",
+  "corp_name": "서울식품",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 18:47",
+  "meta": {
+    "wics": "식품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "서울식품은 제빵사업과 환경사업을 영위하는 기업으로, 냉동생지(급속 동결한 반제품)와 냉동피자 등 제빵제품의 생산·수출을 주요 사업으로 하고 있습니다. 환경부문에서는 음식물 쓰레기 처리시설의 판매·시공 및 위·수탁 계약을 통해 안정적 매출 기반을 확보하고자 하고 있습니다.",
+    "business_model": "사업부문별 매출은 제빵사업이 약 88.4%, 환경사업이 약 11.6%를 차지하며(단위: 백만원, 합계 대비), 제빵사업은 대량생산을 위한 자동화·공조시설 투자로 냉동생지와 냉동피자 중심의 제조·유통(대형마트·베이커리·프랜차이즈·수출)을 통해 수익을 창출합니다. 환경사업은 음식물 쓰레기 처리시설의 시공·판매와 위·수탁 계약을 통한 매출 확보가 핵심입니다.",
+    "main_customers": "제빵사업 — 대형마트·베이커리·패스트푸드 프랜차이즈·호텔·급식업체·해외 대형마트(대만·베트남 등) / 환경사업 — 대·중소기업 및 관공서(음식물 쓰레기 처리 설비 수주·위수탁 대상)",
+    "price_factors": [
+      {
+        "factor": "원자재·유가",
+        "detail": "원자재·유가 상승 시 제조원가와 물류비가 늘어 영업이익에 부정적 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "인건비",
+        "detail": "최저임금 인상 등으로 인건비가 상승하면 제빵업의 비용 구조가 악화되어 수익성에 부담이 됩니다."
+      },
+      {
+        "factor": "내수 소비심리",
+        "detail": "세계 경기 침체로 소비 심리가 위축되면 빵류 등의 내수 수요와 매출에 직접적인 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "간편식 수요",
+        "detail": "1인 가구 증가에 따른 냉동생지·냉동피자 수요 확대는 매출 성장에 긍정적 변수로 작용할 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "당사는 제빵사업과 환경사업부문으로 나누어져있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 (단위: 백만원)",
+        "evidence_text": "제빵사업 | 60,662"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 (단위: 백만원)",
+        "evidence_text": "환경사업 | 7,941"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "또한 점차 1인 가족 등의 증가 추세로 간편식냉장·냉동식품을 찾는 추세가 이어지고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4739,
+    "completion_tokens": 4561,
+    "reasoning_tokens": 3776,
+    "output_tokens": 785
+  },
+  "warnings": []
+}

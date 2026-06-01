@@ -1,0 +1,93 @@
+{
+  "stock_code": "224060",
+  "corp_name": "더코디",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:28",
+  "meta": {
+    "wics": "건축자재",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "더코디는 1999년 7월 27일 설립된 전기·전자 부품 기업으로, 본사는 충청남도 천안시에 있습니다. 2022년 10월 11일 사명을 코디엠에서 더코디로 변경했으며, 현재는 가전제품과 전기차에 들어가는 고주파 코일, 트랜스포머, SMD Inductor 등을 제조·판매하고 있습니다. 다만 과거에 영위하던 반도체 장비, LCD 장비, 유기발광다이오드 장비, 글로브사업, 단열재 관련사업 등은 중단사업으로 남아 있습니다.",
+    "business_model": "현재 주력 사업은 전자부품 부문으로, 2024년 기준 전자부품 17,245백만원과 기타 13,275백만원이 매출을 구성하고 있습니다. 2025년 기준으로는 전자부품 15,176백만원, 기타 10,960백만원, 반도체 장비 등 중단사업 매출 2,557백만원이 확인되며, 코일·트랜스포머·SMD Inductor 같은 부품을 고객사 사양에 맞춰 공급하는 구조입니다. 특히 Coil & Transformer는 전원변환(AC→DC)과 노이즈 필터링(잡음 제거)에 쓰이는 전자부품으로, 가전·전장·태양광·전기차 충전시스템(OBC, 차량 탑재 충전기) 등 다양한 용도에 적용됩니다.",
+    "main_customers": "Coil & Transformer — LG전자, LG Magna, 한화큐셀, LS Electric / 전자부품 — 가전·전장·태양광·전기차 관련 고객사 / 중단사업 — 반도체·디스플레이 장비 관련 고객사",
+    "price_factors": [
+      {
+        "factor": "고객사사양",
+        "detail": "제품 판가가 고객사 요청과 사양 변화에 따라 달라져, 수주 구조와 제품 믹스가 실적에 직접 영향을 줍니다."
+      },
+      {
+        "factor": "전기차수요",
+        "detail": "OBC(차량 탑재 충전기)와 전장용 부품 적용이 있어 전기차 관련 수요 변화가 매출 흐름에 연결됩니다."
+      },
+      {
+        "factor": "태양광시장",
+        "detail": "태양광 인버터와 관련 부품을 공급하므로 태양광 발전설비 투자 확대 여부가 수요에 영향을 줍니다."
+      },
+      {
+        "factor": "가전수요",
+        "detail": "가전기기용 코일·트랜스포머를 공급해 국내외 가전 수요와 고객사 생산 계획이 실적에 영향을 줍니다."
+      },
+      {
+        "factor": "중단사업정리",
+        "detail": "반도체·디스플레이 장비 등 중단사업 매출이 줄어드는 과정은 전체 매출 구성과 사업 구조에 변화를 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사의 주력사업은 가전제품및 전기차에 공급되는 고주파 코일, 트랜스포머, SMD Inductor등을 제조판매하고 있습니다."
+      },
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "2022년 10월 11일자로 사명을 주식회사 코디엠에서 주식회사 더코디로 변경하였습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "전자부품 | SMD Inductor | 11,771 | 13,360"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "합계 | 20,111 | 20,212 | 33,516 | 27,823"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "가전사업으로 LG전자, 전장분야로 LG Magna, 태양광사업은 한화큐셀 및 SMPS는 LS Electric으로 판매하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "고객사의 요청에 의해 구조의 일부가 지속적으로 변동되며 사양에 따라 다양한 판가가 적용"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "전기차 충전시스템인 OBC (On Board Charger)에 적용되고 있으며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "태양광 발전시스템에서 Inverter에 적용되고 있으며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3877,
+    "completion_tokens": 1215,
+    "reasoning_tokens": 0,
+    "output_tokens": 1215
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

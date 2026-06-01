@@ -1,0 +1,71 @@
+{
+  "stock_code": "025870",
+  "corp_name": "신라에스지",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 23:10",
+  "meta": {
+    "wics": "식품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "신라에스지는 어육소시지와 수산물 가공식품 제조, 수산물 유통 및 축육 도매업을 영위하는 식품 유통·제조업체입니다. 주요 OEM(주문자상표부착생산) 거래처 확보와 축육 유통망을 기반으로 영업을 이어가고 있으나, 어육소시지 시장의 성장 둔화와 원가 상승 등의 영향으로 매출과 이익이 감소하는 추세를 보이고 있습니다.",
+    "business_model": "핵심 영업부문은 '수산물 제조'와 '축육 유통'으로 구분되며 제조(어육소시지 등)와 수입축육의 도매·유통을 통해 매출을 올립니다. 사업부문별 매출 구성(원문 표 기준)은 35.30%, 6.35%, 48.16%, 7.29%, 1.19%, 1.71%로 공시되어 있으며, OEM 공급 및 판매채널(온라인·리테일·대형식자재마트) 다변화를 통해 수익구조 개선을 시도하고 있습니다.",
+    "main_customers": "어육소시지 — CJ제일제당(주) 및 SPC GFS, 와이즐리 등 OEM·유통 채널 / 축육 유통 — 카길코리아, SFF, TREX 등 해외 팩커 및 국내 리테일·플랫폼(세이브존, 진로마트, 국민마트, 미트박스 등)",
+    "price_factors": [
+      {
+        "factor": "원가상승",
+        "detail": "지속적인 원자재(원부자재) 가격 상승과 경쟁 과열로 제품의 매출총이익이 하락할 수 있습니다."
+      },
+      {
+        "factor": "환율변동",
+        "detail": "수입 축육 매입비와 외환 관련 손익에 직접 영향 — 환율 상승 시 매입원가 상승 및 외환손익 변동이 발생합니다."
+      },
+      {
+        "factor": "수요침체",
+        "detail": "국내 경기 둔화와 소비 위축으로 주요 판매채널(내수·대형마트 등) 매출이 줄어 실적에 부담을 줍니다."
+      },
+      {
+        "factor": "공급불안",
+        "detail": "가축 전염병 등으로 수입육의 공급 불안정성이 커지면 물동량·가격에 변동이 발생할 수 있습니다."
+      },
+      {
+        "factor": "채널전환",
+        "detail": "온라인·E커머스·플랫폼 확대를 위한 영업비용(인력충원·ERP 등) 증가가 수익성에 영향을 미칠 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "당사는 어육소시지와 수산물 가공식품 제조업, 수산물 유통, 축육 도매업을 영위하는 업체입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황",
+        "evidence_text": "영업부문은 수산물 제조 및 축육 유통으로 구분하고 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "시장 특성(라)·신규사업(마)",
+        "evidence_text": "어육소시지는 CJ제일제당(주)에 OEM으로 공급하고 있으며, SPC GFS와 와이즐리 등 신규 시장으로 확장 중입니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "원재료 가격 변동 및 환율 변동 등 대외 환경의 불확실성이 지속되었습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4800,
+    "completion_tokens": 5585,
+    "reasoning_tokens": 4672,
+    "output_tokens": 913
+  },
+  "warnings": []
+}

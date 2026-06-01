@@ -1,0 +1,81 @@
+{
+  "stock_code": "087600",
+  "corp_name": "픽셀플러스",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:13",
+  "meta": {
+    "wics": "반도체와반도체장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "픽셀플러스는 CMOS Image Sensor(CIS)와 Image Processing IC를 전문으로 연구개발하는 반도체설계 기업이며, 반도체 생산시설이 없는 팹리스(Fabless) 회사입니다. 주요 제품은 자동차 카메라용 CIS, 보안 카메라용 CIS, 특수 목적용 CIS 및 Camera SoC(System On Chip)입니다.",
+    "business_model": "사업부문별 매출은 중국 63.1%, 국내 19.6%, 대만 9.4%, 일본 7.9%, 기타 0.1%로 구성되어 있으며, 지역 매출 비중이 뚜렷한 팹리스 반도체 기업입니다. 자동차용 CIS를 중심으로 매출이 발생하고, In-Cabin(운전자 탑승공간)·SVM(서라운드 뷰 모니터링)·DMS(운전자 모니터링 시스템) 같은 차량 카메라용 제품과 보안·가전·로봇·드론 등으로 적용 영역을 넓히고 있습니다.",
+    "main_customers": "자동차용 CIS — 중국 전기차 업체, 주요 OEM(완성차 업체), 국내 Tier1 업체 / 보안 카메라용 CIS — 보안업체 / 가전·신규 응용 — 국내 가전 업체, 로봇청소기 관련 수요처 / DMS·주변카메라 — 중국 전장업체, 유럽 주요 Tier1 및 주변카메라 제조사",
+    "price_factors": [
+      {
+        "factor": "차량수요",
+        "detail": "자동차용 이미지센서가 매출의 대부분을 차지해 차량 생산과 전장 카메라 채택이 늘수록 실적에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "중국비중",
+        "detail": "중국 매출 비중이 63.1%로 높아 중국 전기차 수요와 현지 반도체 국산화 흐름이 실적 변동의 핵심 요인입니다."
+      },
+      {
+        "factor": "DMS확대",
+        "detail": "유럽의 DMS(운전자 모니터링 시스템) 요구와 In-Cabin 카메라 확대는 관련 센서 수요를 키울 수 있는 요인입니다."
+      },
+      {
+        "factor": "산업용성장",
+        "detail": "산업용 CIS는 자동물류시스템과 스마트 팩토리 확산에 따라 성장세가 예상돼 신규 적용처 확대에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "경쟁구도",
+        "detail": "옴니비젼, 온세미, 소니 등 글로벌 경쟁사들의 점유율 변화가 차량용 CIS 공급 기회와 가격 경쟁에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 가. 산업의 특성",
+        "evidence_text": "당사는 CMOS Image Sensor(이하 'CIS') 및 Image Processing IC를 전문으로 연구개발하는 반도체설계 전문기업이며, 반도체 생산시설을 갖추지 않은 팹리스(Fabless) 회사입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "■ 사업부문별 영업수익 구성 (FY2025)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "중국: 26,962 (63.1%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 나. CIS 시장동향 > (1) 차량용 이미지센서",
+        "evidence_text": "자동차 부분은 자동차 산업이 첨단 ADAS 및 자율주행으로 이동함에 따라"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "라. 회사의 영업개황",
+        "evidence_text": "국내의 경우 차량용 이미지센서의 매출은"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 나. CIS 시장동향 > (1) 차량용 이미지센서",
+        "evidence_text": "차량1대당 장착되는 카메라의 수는"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4435,
+    "completion_tokens": 1023,
+    "reasoning_tokens": 0,
+    "output_tokens": 1023
+  },
+  "warnings": []
+}

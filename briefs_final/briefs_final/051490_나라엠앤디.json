@@ -1,0 +1,64 @@
+{
+  "stock_code": "051490",
+  "corp_name": "나라엠앤디",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 02:52",
+  "meta": {
+    "wics": "기계",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "나라엠앤디는 금형(대량생산용 주형)과 금형기술을 바탕으로 Press기·사출기 등 양산 전용설비를 통해 자동차·디스플레이·가전용 부품 양산과 금형 제작을 하는 기업입니다. 국내외에 자회사(나라엠텍, 나라플라테크 등)와 중국·인도네시아·폴란드 법인 등을 보유하고 있으며 자동차용 금형과 양산부품을 중심으로 사업을 전개하고 있습니다.",
+    "business_model": "핵심 사업은 금형부문(자동차 금형 전문 제작), 전기자동차 Battery Pack/ESS 사출부품 양산, 그리고 자동차·가전 부품 양산으로 구분됩니다. 금형부문은 Transmission·Seat·Bumper·Carrier류 등 자동차용 금형을 중심으로, 부품양산은 Seat Rail·Seat Track Assembly·Core Plate·Bearing Cage·Hub & Shaft 등 조립(Assembly) 및 단품 형태의 양산을 수행합니다.",
+    "main_customers": "금형부문 — 대기업(자동차·가전 제조사) 및 1·2차 벤더 / 전기자동차 Battery Pack·ESS 부품 — LG에너지솔루션, LG전자(계열사 포함) / 부품양산 — 자동차사 및 글로벌 부품사(예: DEC, Ichikoh, Sanko Gosei, Vuteq, PEMSA 등)",
+    "price_factors": [
+      {
+        "factor": "전방수요",
+        "detail": "자동차·전기전자·가전 등 전방산업의 신모델 출시 및 생산 확대가 줄어들면 금형·부품 수요가 감소하여 실적에 부정적 영향을 미칩니다."
+      },
+      {
+        "factor": "전기차 시장",
+        "detail": "전기차(Battery Pack/ESS) 수요 변동은 동사의 사출부품 양산 매출에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "경기변동성",
+        "detail": "경기 하강 시 고객사들이 소량 다품종 생산으로 전환하면 금형 투자 규모가 변화해 매출과 수익성 변동성이 커질 수 있습니다."
+      },
+      {
+        "factor": "경쟁강도",
+        "detail": "금형업은 품질(기술), 가격, 납기 경쟁이 치열하여 기술력 향상과 납기 단축이 수주 확보에 중요합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "1. 회사의 현황①",
+        "evidence_text": "금형사업은 자동차 금형을 전문제작하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "당사는 금형부문과 전기자동차 Battery Pack/ ESS사출부품양산부문 및 자동차/가전 부품양산부문으로 사업을 구분하고 있습니다"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "1.금형부문⑤ 경쟁우위 요소",
+        "evidence_text": "금형의 경쟁수단은 품질(기술수준), 가격, 납기로 볼수 있습니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 5201,
+    "completion_tokens": 4890,
+    "reasoning_tokens": 4096,
+    "output_tokens": 794
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

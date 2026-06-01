@@ -1,0 +1,62 @@
+{
+  "stock_code": "013120",
+  "corp_name": "동원개발",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 21:12",
+  "meta": {
+    "wics": "건설",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "동원개발은 주로 주택·토목·건축 공사를 수행하는 종합건설회사로, 1975년 창업 이후 주택건설 분야에서 누적 공급 실적을 보유하고 있습니다. 보고기간 매출액은 3,873억원이며, 조달청 등급 기준 1등급 종합건설업체로 시공능력평가액 전국 32위 수준입니다.",
+    "business_model": "매출은 공사수익 중심의 수주(시공) 기반 구조로서 FY2025 기준 공사수익이 99.4%를 차지하고, 분양수익이 0.3%, 임대수익이 0.4%로 구성되어 있습니다. 공사수익 내에서는 공공부문(18.09%)과 민간부문(81.91%) 비중으로 사업이 전개됩니다(수주잔액은 2조 821억 원 수준).",
+    "main_customers": "공사수익 — 공공기관(관급 발주) 및 민간 발주처 / 분양수익 — 주택 구매자(개인·지역주택조합 등) / 임대수익 — 임차인(임대주택 관련)",
+    "price_factors": [
+      {
+        "factor": "정부정책",
+        "detail": "정부의 건축허가 및 공공투자(SOC) 조정은 수주 물량과 실적에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "경기민감도",
+        "detail": "건설업은 경기변동과 부동산정책에 민감해 경기 침체·정책 변화 시 수주와 분양 수요가 감소할 수 있습니다."
+      },
+      {
+        "factor": "원재료비",
+        "detail": "레미콘·철근 등 주요 자재 비중이 커서 원자재 가격 상승 시 원가와 마진에 즉각적인 영향이 발생합니다."
+      },
+      {
+        "factor": "수주경쟁",
+        "detail": "시공기술력·재무구조·사후서비스 등이 수주경쟁력에 직결되어 입찰 경쟁 상황이 실적 변수로 작용합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "1. 회사의 현황 (1) 영업개황",
+        "evidence_text": "당사의 보고기간 매출액은 3,873억원, 당기순이익은 274억원을 실현하였습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "공사수익: 384,940,893,483 (99.4%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "공사수익 부문에서는 공공부문이 18.09%, 민간부문이 81.91%로 구성되어 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4777,
+    "completion_tokens": 4001,
+    "reasoning_tokens": 3264,
+    "output_tokens": 737
+  },
+  "warnings": []
+}

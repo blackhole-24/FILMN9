@@ -1,0 +1,86 @@
+{
+  "stock_code": "079430",
+  "corp_name": "현대리바트",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:11",
+  "meta": {
+    "wics": "가구",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "현대리바트는 1999년 설립된 가구 및 목제품 제조·판매 기업으로, 2005년 한국거래소에 상장했습니다. 2012년 현대백화점그룹에 편입됐고, 2017년에는 현대에이치앤에스를 흡수합병하며 사업 기반을 넓혔습니다. 현재는 용인·안성·경주 등에 공장을 두고 B2C와 B2B를 함께 운영하고 있습니다.",
+    "business_model": "FY2025 사업부문별 영업수익은 B2B 부문 38.8%, 빌트인가구 24.2%, B2C 가구 20.4%, 사무용가구 9.3%, 자재유통 7.4%로 구성됩니다. 빌트인 가구는 주문제작(프로젝트별로 맞춤 생산하는 방식) 특성상 프로젝트 사양에 따라 단가가 달라질 수 있고, B2B 인테리어와 자재유통을 통해 기업 간 거래 기반도 함께 갖추고 있습니다. 또한 연결종속회사를 통해 국내 판매 서비스, 베트남 생산, 캐나다 납품, 중국 자재유통 등으로 사업 범위를 운영하고 있습니다.",
+    "main_customers": "B2C 가구 — 일반 소비자 / 사무용가구 — 기업 및 사무공간 수요처 / 빌트인가구 — 건설사, 주택·주거 프로젝트 / 자재유통 — 주중 한국기업 / B2B 부문 — 오피스, 백화점 매장, 복합 상업시설, 호텔·숙박·관광 시설, 패션 및 리테일 브랜드",
+    "price_factors": [
+      {
+        "factor": "부동산경기",
+        "detail": "부동산 경기 침체가 이어지면 빌트인가구와 관련 인테리어 수요가 줄어 실적에 직접적인 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "금리부담",
+        "detail": "금리 수준이 높으면 건설·내수 관련 수요 회복이 더뎌질 수 있어 가구와 인테리어 사업 환경에 부담이 됩니다."
+      },
+      {
+        "factor": "환율변동",
+        "detail": "환율 변동성이 커지면 원자재 수급과 해외사업 운영에 영향을 줄 수 있어 수익성 변동 요인으로 작용할 수 있습니다."
+      },
+      {
+        "factor": "원자재가격",
+        "detail": "원자재 가격이 오르면 제조 원가 부담이 커질 수 있고, 반대로 수급처 다변화가 원가 개선에 도움이 될 수 있습니다."
+      },
+      {
+        "factor": "공간수요",
+        "detail": "호텔·백화점·복합상업시설 등 다양한 공간의 시공 수요가 늘면 B2B 인테리어 사업 확대에 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 1999년 06월 02일 설립되어 가구 및 목제품의 제조 및 판매를 주요 사업으로 영위하고 있으며"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 2005년 11월 22일자로 주식을 한국거래소에 상장하였으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "B2B 부문: 573,358 (38.8%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "빌트인가구: 357,468 (24.2%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "B2C 가구: 300,625 (20.4%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "현대리바트 엠앤에스는 ... 가구, 생활용품의 판매 관련 용역 서비스 제공"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "주중 한국기업의 소모성 자재 유통 사업을 위하여"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4133,
+    "completion_tokens": 1088,
+    "reasoning_tokens": 0,
+    "output_tokens": 1088
+  },
+  "warnings": []
+}

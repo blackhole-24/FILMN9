@@ -1,0 +1,72 @@
+{
+  "stock_code": "104460",
+  "corp_name": "디와이피엔에프",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 08:20",
+  "meta": {
+    "wics": "기계",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "디와이피엔에프는 분체이송시스템의 설계·제작·설치·시운전을 주사업으로 하는 전문 엔지니어링업체로, 분체공학·기계·전기제어·공정기술을 통합한 통합시스템(Integrated System for Solid Handling)을 제공하고 있습니다. 석유화학·발전·정밀화학 등 다양한 전방산업을 대상으로 국내 국산화 성공과 해외 수주로 경쟁력을 확보하고 있습니다.",
+    "business_model": "핵심 사업은 뉴메틱컨베잉시스템(Pneumatic Conveying System), 메카니컬컨베잉시스템(Mechanical Conveying System), E&R(Engineering & Renovation: 개조·리노베이션·교체 등) 플랜트와 환경사업으로 구성되며, 매출구조는 뉴메틱컨베잉시스템 43.6%, 메카니컬컨베잉시스템 0.5%, E&R플랜트 38.5%, 환경사업 15.5%를 차지합니다. 수주는 주문자 요구에 따른 맞춤형 설계(Customized Design) 방식으로 이뤄지며, 초기 단계부터 기술 컨설팅을 제공하는 통합 솔루션 공급이 수익의 핵심입니다.",
+    "main_customers": "뉴메틱컨베잉시스템 — 플라스틱·세라믹·정밀화학 등 분체 취급 제조업체 / 메카니컬컨베잉시스템 — 석탄·광산·곡물 등 원료 이송 관련 산업 및 물류센터 / E&R(Engineering & Renovation) — 국내외 대기업·플랜트 운영사 / 환경사업 — 발전소·환경 플랜트 운영사",
+    "price_factors": [
+      {
+        "factor": "전방산업 투자",
+        "detail": "석유화학·태양광·에너지·환경 분야의 설비투자 확대가 분체이송시스템 수요와 실적에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "기술고도화",
+        "detail": "고도화된 맞춤설계 역량을 보유한 업체가 수주에 유리해, 기술 경쟁력 보강 여부가 실적에 영향을 미칩니다."
+      },
+      {
+        "factor": "대외 리스크",
+        "detail": "COVID-19, 러/우 전쟁 등 글로벌 이슈로 고객사의 발주지연·순연이 발생하면 매출·실적에 부정적 영향을 받을 수 있습니다."
+      },
+      {
+        "factor": "해외 플랜트 수요",
+        "detail": "중동·동남아 등 해외 플랜트 발주 확대 시 수출 및 수주 확대를 통한 실적 개선 가능성이 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "당사는 산업분야 중 분체이송시스템의 설계, 제작, 설치 및 시운전을 주사업으로 하는 전문 엔지니어링업체입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "당사는 산업 설비 분야 중 분체이송시스템(Bulk Handling System)의 설계, 제작, 설치, 시운전을 주 사업으로 영위하고 있으며, 회사의 매출구조는 뉴메틱컨베잉시스템이 전체 매출의 43.6%, 메카니컬컨베잉시스템 0.5%, E&R플랜트 38.5%, 환경사업 15.5%를 차지하고 있습니다.(2025년도 연결재무제표 기준)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "또한, 당사의 고객사는 국내외의 대기업이 주를 이루고 있어 안정적인 사업진행 및 수금이 가능하여 탄탄한 매출구조를 이루고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "COVID-19,러/우 전쟁 등 글로벌 이슈에 따라 고객사의 발주지연 및 순연 등이 일부 발생할 수 있습니다."
+      },
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "당사는 과거 수입에 의존하던 분체이송시스템 분야를 국산화시키는데 성공하였으며, 독일 및 일본 등 세계 유수의 기업들과 비교하여 절대 뒤지지 않는 경쟁력을 보유하고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 6320,
+    "completion_tokens": 4388,
+    "reasoning_tokens": 3264,
+    "output_tokens": 1124
+  },
+  "warnings": []
+}

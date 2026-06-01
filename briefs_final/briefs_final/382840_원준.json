@@ -1,0 +1,77 @@
+{
+  "stock_code": "382840",
+  "corp_name": "원준",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 18:32",
+  "meta": {
+    "wics": "전기제품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "원준은 열처리 소성로 장비 제조와 소재 생산용 EPC(엔지니어링·구매·시공) 턴키(일괄 제공) 공정설비 엔지니어링을 주력으로 하는 기계·장비 기업으로, 특히 2차전지용 양·음극재 등 첨단소재 열처리 장비에 주력하고 있습니다. 2025년 연결 기준 매출은 1,491억원이며, 매출의 대부분(내수 92.8%)이 국내에서 발생합니다.",
+    "business_model": "핵심 수익원은 열처리 장비 제조와 공정설비 EPC(엔지니어링·구매·시공) 턴키 솔루션 제공으로 구성되며, 사업부문별 매출 구성은 열처리 장비 56.4%, 공정설비 32.1%, 기타 11.5%입니다. 장비는 고객 현장 설치·시운전 형태로 납품되며, 수주 상황에 따라 장비 매출과 설계·공사수익 비중이 변동됩니다.",
+    "main_customers": "열처리 장비 — 2차전지용 양·음극재 등 첨단소재 제조사 / 공정설비 — 원료 공급부터 포장까지 전체 생산 공정을 일괄 도입하려는 소재 생산 기업 / 기타 — 상품매출·임대수익 관련 거래처",
+    "price_factors": [
+      {
+        "factor": "수주 변동성",
+        "detail": "장비·설계 매출 비중이 수주 상황에 따라 변동하므로 수주 증감이 실적에 직접적 영향을 미칩니다."
+      },
+      {
+        "factor": "전기차 수요",
+        "detail": "전기차 등 2차전지 수요 확대는 양·음극재 생산 설비 수요 증가로 이어져 장비 수주에 영향을 줍니다."
+      },
+      {
+        "factor": "정책·관세",
+        "detail": "미국의 IRA(인플레이션 감축법) 및 관세 조치 등 정책 변화는 북미 현지 생산 확대와 공급망 재편에 따른 수주 기회 및 리스크를 동반합니다."
+      },
+      {
+        "factor": "부품 조달",
+        "detail": "제작 장비의 비핵심 부품을 외부 협력업체에 의존하고 있어 부품 수급 문제는 납기와 원가에 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "공정설비 엔지니어링 사업을 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "- 열처리 장비: 84,093 (56.4%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "- 공정설비: 47,886 (32.1%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "- 기타: 17,121 (11.5%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "2차전지를 구성하는 양극재와 음극재를 생산하는 소재 생산 주요 고객사"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "미국 정부의 인플레이션 감축법(IRA)"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5164,
+    "completion_tokens": 5675,
+    "reasoning_tokens": 4736,
+    "output_tokens": 939
+  },
+  "warnings": []
+}

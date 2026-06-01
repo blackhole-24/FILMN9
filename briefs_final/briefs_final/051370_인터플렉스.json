@@ -1,0 +1,77 @@
+{
+  "stock_code": "051370",
+  "corp_name": "인터플렉스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 02:50",
+  "meta": {
+    "wics": "전자장비와기기",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "인터플렉스는 연성인쇄회로기판(FPCB: Flexible Printed Circuit Board) 제조를 주력으로 영위하는 전기·전자 업체로, 25년 4분기 말 연결기준 매출액은 467,964백만원입니다. 단일 사업부문(FPCB 제조)을 바탕으로 생산능력과 직수출 등을 통해 매출을 창출하고 있습니다.",
+    "business_model": "핵심 사업은 연성인쇄회로기판(FPCB) 제조로 제품 매출이 전체의 84.0%를 차지하며, 상품매출이 15.4%, 임대매출이 0.7%로 구성되어 있습니다. 생산된 제품은 영업팀을 통해 직수출 및 SET MAKER(완제품 제조사)·2차 VENDOR(부품업체)와 거래되어 판매되며, 기술연구소를 통해 연구개발(매출액의 0.64%인 3,016백만원)도 수행하고 있습니다.",
+    "main_customers": "연성인쇄회로기판(FPCB) 제조 — 직수출 고객, SET MAKER(완제품 제조사), 2차 VENDOR(부품업체) / 상품 — 별도 명시 없음 / 임대 — 별도 명시 없음",
+    "price_factors": [
+      {
+        "factor": "환율",
+        "detail": "외화 거래 비중으로 환율 변동 시 매출 및 현금흐름에 직접적인 영향이 발생합니다."
+      },
+      {
+        "factor": "원자재",
+        "detail": "주요 원재료인 BASE 단가(21천원) 변동은 제품 원가와 수익성에 즉시 반영됩니다."
+      },
+      {
+        "factor": "저가경쟁",
+        "detail": "중국·동남아의 저가 공세로 가격경쟁이 심화되면 수익성 및 시장점유율에 압박이 가해집니다."
+      },
+      {
+        "factor": "수요구조",
+        "detail": "스마트기기·자동차·의료기기 등 적용처 확대는 FPCB 수요 증가로 실적에 긍정적 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 영업 현황",
+        "evidence_text": "당사는 연성인쇄회로기판(FPCB) 제조 사업부문으로 구성되어 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 영업 현황",
+        "evidence_text": "25년 4분기 말 연결기준 매출액은 467,964백만원입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[표] 가. 주요 제품 등의 현황",
+        "evidence_text": "392,920 ( 84.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[표] 가. 주요 제품 등의 현황",
+        "evidence_text": "71,898 ( 15.4%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 영업 현황",
+        "evidence_text": "직수출, SET MAKER 및 2차 VENDOR와의 거래"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "다. 산업의분석 (3) 경기변동의 특성 및 경쟁요소",
+        "evidence_text": "중국 및 동남아 국가들이 저가 제품을 무기로 새롭게 시장에 진출하고 있고"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4698,
+    "completion_tokens": 5279,
+    "reasoning_tokens": 4416,
+    "output_tokens": 863
+  },
+  "warnings": []
+}

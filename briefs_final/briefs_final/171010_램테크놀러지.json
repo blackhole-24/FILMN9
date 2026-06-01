@@ -1,0 +1,71 @@
+{
+  "stock_code": "171010",
+  "corp_name": "램테크놀러지",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:22",
+  "meta": {
+    "wics": "반도체와반도체장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "램테크놀러지는 반도체 공정용 화학소재 제조를 기반으로 성장해 온 기업으로, 식각액·박리액·세정액 같은 핵심 공정 소재를 중심으로 사업을 영위하고 있습니다. 최근에는 반도체를 넘어 디스플레이(OLED 등)와 2차전지로 적용 분야를 넓히며, 고객 맞춤형 소재 개발 역량을 키워가고 있습니다.",
+    "business_model": "FY2025 사업부문별 매출 구성은 식각액 48.6%, HYCL품 18.6%, 불산계 제품 12.2%, 박리액 6.4%, 용해액 3.9%, 세정액 3.6%로 이루어져 있으며, 증착액은 0%로 기재되어 있습니다. 회사는 반도체 공정에 쓰이는 화학소재를 중심으로 매출을 만들고, 이를 디스플레이와 2차전지 등 인접 산업으로 확장하는 구조입니다. 연구개발(제품과 기술을 새로 개발하는 활동)과 고객 맞춤형 공급 체계가 핵심 경쟁력으로 제시됩니다.",
+    "main_customers": "반도체 공정용 화학소재 — 글로벌 반도체 및 전자 산업 고객사 / 디스플레이 소재 — 디스플레이 관련 전자 산업 고객사 / 2차전지 소재 — 전기차 및 배터리 관련 산업 고객사",
+    "price_factors": [
+      {
+        "factor": "반도체수요",
+        "detail": "인공지능(AI), 데이터센터, 고성능 컴퓨팅(HPC) 등 전방 산업이 커질수록 반도체 공정 소재 수요 확대 기대가 커집니다."
+      },
+      {
+        "factor": "기술변화",
+        "detail": "반도체와 IT 산업은 기술 변화가 빨라 고기능성 소재 개발이 중요하며, 대응력이 실적과 경쟁력에 직접 영향을 줍니다."
+      },
+      {
+        "factor": "품질경쟁",
+        "detail": "고도의 품질 안정성이 요구되는 산업 특성상 품질 경쟁력이 낮아지면 장기 공급 관계 유지가 어려워질 수 있습니다."
+      },
+      {
+        "factor": "국산화",
+        "detail": "핵심 소재의 국산화와 기술 독립 수요가 커질수록 국내 소재 기업의 사업 기회가 확대될 수 있습니다."
+      },
+      {
+        "factor": "해외확대",
+        "detail": "해외 시장 진출과 글로벌 고객사와의 협력이 늘수록 매출 확대와 수익성 개선 가능성에 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "반도체 공정용 화학소재 제조를 기반으로 성장해 온 기업"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "식각액: 173 (48.6%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "HYCL품: 66 (18.6%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "주요 글로벌 반도체 및 전자 산업 고객사와의 협력"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3834,
+    "completion_tokens": 831,
+    "reasoning_tokens": 0,
+    "output_tokens": 831
+  },
+  "warnings": []
+}

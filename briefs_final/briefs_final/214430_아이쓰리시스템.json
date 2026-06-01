@@ -1,0 +1,84 @@
+{
+  "stock_code": "214430",
+  "corp_name": "아이쓰리시스템",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 12:16",
+  "meta": {
+    "wics": "우주항공과국방",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "아이쓰리시스템은 엑스레이 대역부터 적외선 대역까지의 전자기파 정보를 가시영상으로 전환하는 영상센서 및 관련 제품을 개발·제조하는 기업입니다. 특히 군수용 적외선 영상센서의 개발·양산 공급이 가능한 국내 업체로서 방산 수요에 대응하고 있습니다.",
+    "business_model": "핵심 제품은 적외선 영상센서(적외선 에너지를 감지해 영상화)와 엑스레이 영상센서이며, 적외선 영상 시뮬레이터와 가시광 영상센서 모듈 등 영상 관련 시스템을 국방용·의료용·우주용·일반 산업용으로 개발·제조·판매합니다. 재무상으로는 제품·용역·상품·S/W·A/S 등으로 매출을 구성하고 있습니다.",
+    "main_customers": "제품 — 군(방산) 및 방산업체 / 제품 — 의료기기 업체(치과용 엑스레이 장비 제조사) / 제품 — 우주(위성 관측 광학카메라) 및 일반 산업체 / 용역·S/W·A/S — 위의 산업군에 대한 개발·시뮬레이션·유지보수 수요",
+    "price_factors": [
+      {
+        "factor": "방위예산",
+        "detail": "주요 적외선 제품의 수요가 정부 예산 및 국방정책에 직접적으로 영향을 받아 실적 변동성이 발생할 수 있습니다."
+      },
+      {
+        "factor": "의료인증",
+        "detail": "엑스레이 센서는 KGMP·CE·FDA 등 의료기기 인증 획득 여부가 판매 가능성과 수출에 직접 영향을 미칩니다."
+      },
+      {
+        "factor": "장기계약 구조",
+        "detail": "방산 물자는 정부 주도의 장기 양산·수의계약 구조로 인해 계약 성사 시 안정적 매출이 나타나는 반면 계약 분할 등으로 안정성이 저하될 수 있습니다."
+      },
+      {
+        "factor": "기술보호",
+        "detail": "관련 기술·노하우가 국가 기밀로 보호되어 정부 허가 없이는 다른 수요처로의 매출 확대에 제약이 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "다양한 전자기파 에너지 정보를 가시영상정보로 전환시켜주는 영상센서 및 관련 제품을 개발 및 제조하는 사업을 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "주력 제품으로는 1) 적외선 영상센서, 2) 엑스레이 영상센서, 3) 적외선 영상 시뮬레이터, 4) 가시광 영상센서 모듈 등으로 다양한 영상센서 제품 및 영상 관련 시스템 등을 국방용, 의료용, 우주용, 일반 산업용 등으로 개발, 제조, 판매하고 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "당사의 사업영역",
+        "evidence_text": "주로 먼저 군사용으로 활용되어 감시장비, 탐색추적장비(유도무기) 등에 적용되어"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "치과용으로 국내 치과장비 업체에 공급하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "방위산업은 정부가 유일한 수요자로"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "다. 주요 제품 등 관련 각종 산업표준",
+        "evidence_text": "KGMP, CE, FDA등 각국에서 요구하는 의료기기 인증을 취득하여야 합니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "관련 기술 및 제품 생산의 노하우는 국가 기밀로 보호하고 유출이 통제되어"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 5641,
+    "completion_tokens": 5892,
+    "reasoning_tokens": 4864,
+    "output_tokens": 1028
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

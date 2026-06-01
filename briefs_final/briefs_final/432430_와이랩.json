@@ -1,0 +1,91 @@
+{
+  "stock_code": "432430",
+  "corp_name": "와이랩",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:43",
+  "meta": {
+    "wics": "출판",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "와이랩은 웹툰과 영상 콘텐츠를 함께 기획·제작하는 콘텐츠 제작사입니다. 스토리를 포함한 웹툰 제작공정을 스튜디오 중심으로 내재화한 점이 특징이며, 일본·베트남 등 해외 거점도 활용해 사업을 넓히고 있습니다. 또한 웹툰 IP(지식재산권)를 바탕으로 드라마, 애니메이션, MD(굿즈) 등으로 확장하는 구조를 갖고 있습니다.",
+    "business_model": "주요 수익은 웹툰 제작 24.3%, 영상 제작 67.6%, 웹툰 현지화 5.3%, IP OSMU(원소스멀티유즈, 하나의 IP를 여러 사업으로 확장) 2.9%로 구성됩니다. 웹툰은 네이버웹툰 등 플랫폼에 작품을 공급해 정산받고, 영상은 웹툰 원작을 바탕으로 드라마·영화 등을 제작해 수익을 냅니다. 현지화는 일본 진출을 위한 번역·로컬라이징(현지화) 서비스, OSMU는 출판·MD·게임·음원·공연·애니메이션 등으로 IP를 사업화하는 방식입니다.",
+    "main_customers": "웹툰 제작 — 네이버웹툰 등 국내외 웹툰 플랫폼 / 영상 제작 — 방송사, OTT(온라인동영상서비스) 플랫폼, 영상 저작물 판매처 / 웹툰 현지화 — 일본 시장 대상 웹툰 이용자 및 고객사 / IP OSMU — 제3자 라이선스 수요처, 출판·MD·게임·음원·공연·애니메이션 관련 사업자",
+    "price_factors": [
+      {
+        "factor": "플랫폼정책",
+        "detail": "웹툰 유료화 방식과 가격이 유통 플랫폼 정책에 따라 달라져, 플랫폼의 조건 변화가 매출 인식에 영향을 줍니다."
+      },
+      {
+        "factor": "IP인기",
+        "detail": "개별 웹툰의 국내외 인기와 2차적저작물 범위에 따라 이용허락 대가가 달라져 OSMU 수익에 직접 영향을 줍니다."
+      },
+      {
+        "factor": "영상수요",
+        "detail": "웹툰 원작 영상화 사례가 늘고 제작·판매가 활발해질수록 영상 제작 부문의 실적 확대 가능성이 커집니다."
+      },
+      {
+        "factor": "글로벌확장",
+        "detail": "일본 등 해외 웹툰 시장과 플랫폼의 확장이 지속되면 현지화와 해외 제작 사업의 기회가 넓어집니다."
+      },
+      {
+        "factor": "제작효율",
+        "detail": "베트남 법인을 통한 아트 제작 효율화와 원가 절감이 진행되면 제작 원가 구조에 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 나. 시장여건 및 영업의 개황",
+        "evidence_text": "당사는 웹툰(만화) 및 영상(드라마 등) 저작물을 기획 및 제작하는 콘텐츠 제작사입니다."
+      },
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 1) 웹툰 제작 부문",
+        "evidence_text": "스토리를 포함한 제작공정 전부문을 내재화 하여 고도화 한 '스튜디오(Studio)' 중심의 선구적 웹툰 제작사입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성] / FY2025",
+        "evidence_text": "웹툰 제작: 8,995 (24.3%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성] / FY2025",
+        "evidence_text": "영상 제작: 25,052 (67.6%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성] / FY2025",
+        "evidence_text": "웹툰 현지화: 1,957 (5.3%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성] / FY2025",
+        "evidence_text": "IP OSMU: 1,065 (2.9%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "네이버웹툰 등 국내외 주요 웹툰 플랫폼에 작품을 공급하고 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 3) 웹툰 현지화 부문",
+        "evidence_text": "웹툰의 해외 진출을 위한 현지화(Localization) 부문을 전문화"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5318,
+    "completion_tokens": 1182,
+    "reasoning_tokens": 0,
+    "output_tokens": 1182
+  },
+  "warnings": []
+}

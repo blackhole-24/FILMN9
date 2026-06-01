@@ -1,0 +1,69 @@
+{
+  "stock_code": "043370",
+  "corp_name": "피에이치에이",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 01:49",
+  "meta": {
+    "wics": "자동차부품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "피에이치에이는 1985년 설립돼 2001년 코스닥에 상장된 자동차 부품 제조업체로, 본사는 대구 달서구에 위치하며 646명의 임직원이 근무하고 있습니다. DOOR MODULE 등 차량용 도어 시스템을 주력으로 국내외 완성차업체에 공급하는 생산 중심의 기업입니다.",
+    "business_model": "핵심 사업은 차량용 Door Moving System의 제조로, DOOR MODULE·LATCH·HINGE·STRIKER 등 도어 관련 부품을 공급합니다. 국내 법인을 중심으로 중국·인도·체코·슬로바키아·미국·베트남 등 해외 법인과 공장을 통해 수출 및 현지 납품을 수행하며 완성차 업체 대상 대량 납품이 주된 수익원입니다.",
+    "main_customers": "자동차부품 — 국내 완성차(현대·기아·KGM(구, 쌍용)·르노코리아) / 수출(해외직거래) — GM·PSA·OPEL·KEIKERT 등 해외 완성차업체",
+    "price_factors": [
+      {
+        "factor": "중국 경쟁",
+        "detail": "중국시장 성장 둔화와 현지 경쟁 심화는 중국 현지법인의 수주와 수익성에 직접적인 부담으로 작용합니다."
+      },
+      {
+        "factor": "전동화 전환",
+        "detail": "전동화·전기/전자 부품 수요 확대는 전통 기계식 도어 부품의 단가·부가가치에 변동을 초래할 수 있습니다."
+      },
+      {
+        "factor": "완성차 수요",
+        "detail": "완성차 생산·판매의 경기 변동성은 부품 수요에 민감하게 반영되어 실적 변동 요인이 됩니다."
+      },
+      {
+        "factor": "환율 변동",
+        "detail": "해외 매출과 북미법인 관련 영향으로 환율 변동은 매출의 원화 환산 및 이익에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 자동차 부품 제조를 목적으로 1985년 설립되어 2001년 코스닥시장에 상장된기업입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "DOOR MODULE, LATCH, HINGE, STRIKER, OTHER 등 5개의 제품군으로 구분됩니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "현대, 기아를 비롯하여 KGM(구, 쌍용), 르노코리아 등에 납품하고 있으며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "중국자동차시장의 성장세가 둔화되고"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 5352,
+    "completion_tokens": 4476,
+    "reasoning_tokens": 3712,
+    "output_tokens": 764
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

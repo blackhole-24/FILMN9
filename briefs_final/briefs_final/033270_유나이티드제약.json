@@ -1,0 +1,67 @@
+{
+  "stock_code": "033270",
+  "corp_name": "유나이티드제약",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 23:55",
+  "meta": {
+    "wics": "제약",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "유나이티드제약은 개량신약을 주로 판매하는 전문의약품 제조업체로, 약 200여 개 제품을 생산하고 있습니다. 2025년 기준 매출은 2,888억원이며 전 세계 40여 개국으로 완제의약품을 수출하는 중견 제약사입니다.",
+    "business_model": "핵심 사업은 개량신약 중심의 완제의약품 생산·판매로, 제품 매출이 영업수익의 40.0%를 차지합니다(제품: 41,810, 40.0%). 또한 매년 매출의 12% 이상을 연구개발(R&D)에 투자해 개량신약과 제형 개선품목을 지속적으로 출시하고 있습니다.",
+    "main_customers": "제품 — 개량신약 구매처(국내 판매 및 수출 대상) / 수출 — 해외 제약사 및 바이어(유럽·중동·아프리카 등)",
+    "price_factors": [
+      {
+        "factor": "약가인하",
+        "detail": "정부의 약가인하 정책은 제품 마진과 실적에 직접적 하방 압력을 가할 수 있습니다."
+      },
+      {
+        "factor": "R&D비중",
+        "detail": "연구개발비 비중(매출 대비 12% 이상)은 신제품 출시로 매출 성장에 기여하지만 단기 비용 부담으로 연결될 수 있습니다."
+      },
+      {
+        "factor": "해외수출",
+        "detail": "수출비중(매출의 10%)과 글로벌 바이어 계약은 해외매출 확대 시 실적 개선에 영향을 줍니다."
+      },
+      {
+        "factor": "생산설비",
+        "detail": "KGMP·cGMP 수준의 생산설비와 스마트공장 투자로 품질·생산성 확보가 수출경쟁력에 도움이 됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "당사는 전문의약품 제조업체로 개량신약을 주로 판매하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "제품: 41,810 (40.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "수출비중은 매출 대비 10%로 전 세계 40여 개국에 완제의약품을 수출하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "영업 현황",
+        "evidence_text": "매년 매출액 대비 12% 이상의 연구개발비를 투자"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3123,
+    "completion_tokens": 3359,
+    "reasoning_tokens": 2688,
+    "output_tokens": 671
+  },
+  "warnings": []
+}

@@ -1,0 +1,71 @@
+{
+  "stock_code": "424870",
+  "corp_name": "이뮨온시아",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 19:25",
+  "meta": {
+    "wics": "제약",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "이뮨온시아는 항체 기반 면역항암제 개발을 전문으로 하는 기업입니다. Anti-PD-L1, Anti-CD47, Anti-LAG-3 단클론항체를 핵심 자산으로 보유하고 있으며, 이러한 항체들을 바탕으로 신약 후보물질을 개발해 초기 임상 단계에서 기술이전을 통한 수익 창출을 목표로 하고 있습니다.",
+    "business_model": "사업부문별 영업수익 구성(FY2025)은 연구용역 등 2.0%, 내수 100.0%로 표기되어 있습니다. 핵심 사업모델은 Anti-PD-L1 등 자산을 기반으로 신약 후보물질을 개발하고, 초기 임상 단계에서 기술이전을 통해 수익을 창출하는 한편 Anti-PD-L1의 국내 상용화를 추진하여 매출 성장을 도모하는 것입니다.",
+    "main_customers": "연구용역 등 — 연구 의뢰기관 및 제약·바이오 파트너 / 내수 — 국내 의료기관 및 환자(국내 시장)",
+    "price_factors": [
+      {
+        "factor": "PD-(L)1 경쟁",
+        "detail": "PD-(L)1 계열 약물이 다수 상용화된 치열한 경쟁 환경으로 임상·상업적 성공이 실적에 직접적 영향을 미칩니다."
+      },
+      {
+        "factor": "희귀암 수요",
+        "detail": "NK/T 세포림프종 등 미충족 의학적 수요가 큰 희귀암 적응증 성공 시 상업적 가치가 상대적으로 큽니다."
+      },
+      {
+        "factor": "바이오마커 전략",
+        "detail": "TMB-High 등 바이오마커 기반 적응증 선별 및 AI 병리 연구 성과가 임상성공 확률과 제품가치에 영향을 줍니다."
+      },
+      {
+        "factor": "CD47 경쟁구도",
+        "detail": "CD47/SIRPα 타겟 분야에서 다수 기업이 개발 중으로, 선도 제품 유무가 기술이전·제휴 기회에 영향을 미칩니다."
+      },
+      {
+        "factor": "글로벌 시장 성장",
+        "detail": "전세계 항암제·면역항암제 시장의 성장(보고서의 시장 전망)은 중장기적 수요 환경을 좌우합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "㈜이뮨온시아는 항체 기반 면역항암제 개발을 전문으로 하는 기업입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "초기 임상 단계에서 기술이전을 통해 수익을 창출하는 것입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "연구용역 등 (2.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "내수: 111 (100.0%)"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4178,
+    "completion_tokens": 3075,
+    "reasoning_tokens": 2304,
+    "output_tokens": 771
+  },
+  "warnings": []
+}

@@ -1,0 +1,68 @@
+{
+  "stock_code": "026150",
+  "corp_name": "특수건설",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 09:53",
+  "meta": {
+    "wics": "건설",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "특수건설은 건설업을 영위하는 코스피·코스닥 상장기업으로, 비개착 지하굴착 시공법과 쉴드공법(터널 굴착 공법) 등을 활용한 특수 토목공사를 수행합니다. 철도·도로 입체화공사, 교량·건물기초, 터널·일반토목, 환경설비, 폐기물재활용업까지 사업 범위가 비교적 넓은 편입니다.",
+    "business_model": "사업부문별 매출은 건설계약매출이 149,021,253,222원, 제품매출이 14,787,524,530원, 임대매출 등이 327,933,198원으로 구성되어 있습니다. 지역별로는 국내 매출이 대부분을 차지하고, 싱가폴 등 해외 매출은 일부에 그칩니다. 건설계약매출은 기간에 걸쳐 이행하는 비중이 크고, 제품매출은 한 시점에 이행되는 매출로 구분됩니다.",
+    "main_customers": "건설계약매출 — 철도·도로·터널·교량 등 사회기반시설 발주처 / 제품매출 — 자동차공장 도장라인·산업플랜트 등 설비 관련 수요처 / 임대매출 등 — 자산 임차 수요처",
+    "price_factors": [
+      {
+        "factor": "SOC 발주",
+        "detail": "도로·철도·터널 같은 사회기반시설 발주가 늘수록 특수건설의 수주와 매출에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "규제환경",
+        "detail": "부동산 규제, 입찰조건, 정부의 건설 관련 정책 변화가 건설 수주 여건에 영향을 줍니다."
+      },
+      {
+        "factor": "원자재비",
+        "detail": "철근·시멘트·강관·H-빔 등 자재 가격과 수급 상황이 공사 원가와 수익성에 영향을 줍니다."
+      },
+      {
+        "factor": "환율변동",
+        "detail": "국제원자재가격과 환율 변동은 자재 수급과 조달 비용에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "노임상승",
+        "detail": "건설업 특성상 인건비 비중이 높아 노임 상승은 우수인력 확보와 원가 부담에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 1. 사업의 개요",
+        "evidence_text": "비개착 지하굴착 시공법을 사용하여 철도 및 도로지하횡단구조물 비개착 시공"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성] > [표] 가. 매출실적",
+        "evidence_text": "건설계약매출 | 제품매출 | 임대매출 등 | 합계"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 1. 사업의 개요",
+        "evidence_text": "현대, 기아, 대우 등 자동차공장의 도장라인"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4335,
+    "completion_tokens": 794,
+    "reasoning_tokens": 0,
+    "output_tokens": 794
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

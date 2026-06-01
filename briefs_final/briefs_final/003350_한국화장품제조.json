@@ -1,0 +1,67 @@
+{
+  "stock_code": "003350",
+  "corp_name": "한국화장품제조",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 18:29",
+  "meta": {
+    "wics": "화장품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "한국화장품제조는 1962년 창사한 OEM·ODM(제조자개발생산·제조자위탁생산) 화장품 전문기업으로, 우수한 품질관리시스템과 생산기술을 바탕으로 국내 제조업체로서의 입지를 확대해 왔습니다. 2025년 매출은 1,846억원으로 집계되었으며, 주력 사업은 화장품 위탁생산입니다.",
+    "business_model": "단일 영업부문인 OEM/ODM 화장품제조가 수익의 핵심으로, 제품 매출 중 화장품이 98.3%를 차지하고 기타 매출이 1.7%를 구성합니다(합계 100%). 내수 중심의 매출 구조(2025년 내수 매출 1,829억원, 수출 비중 1%)와 CGMP·ISO 22716 등 품질인증, 다수의 특허·기능성 인증을 기반으로 주문자(브랜드사) 생산을 수행합니다.",
+    "main_customers": "화장품(제조) — 중소 화장품업체, 브랜드사(선진국 브랜드사 포함), 화장품 유통전문업체 / 기타 — 부재료 구매자",
+    "price_factors": [
+      {
+        "factor": "경쟁강도",
+        "detail": "한국콜마·코스맥스 등 대형 OEM·ODM사와의 경쟁 심화는 수주·가격 협상력에 영향을 미쳐 실적 변동성을 키울 수 있습니다."
+      },
+      {
+        "factor": "내수 소비",
+        "detail": "화장품 산업은 내수경기와 민간소비 지출에 연동하므로 내수 소비 둔화 시 매출에 직접적인 하방 압력이 생깁니다."
+      },
+      {
+        "factor": "환율(USD)",
+        "detail": "수출·외화표시 거래 노출이 있어 원/달러 환율 변동은 환산손익 및 원재료 수입비용에 영향을 줍니다."
+      },
+      {
+        "factor": "공급망·원가",
+        "detail": "공급망 교란이나 원자재 비용 상승은 생산원가와 마진에 직접적인 부담으로 작용할 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용",
+        "evidence_text": "당사는 1962년 창사이래 현재까지 축적된 기술력 및 글로벌기준에 맞는 생산 및 품질관리시스템을 보유하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "당사는 화장품제조 단일 영업부문을 영위하고 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "이러한 채널의 다양화에 따라 중소화장품 업체의 시장진출이 용이해졌으나 대부분은 자체 생산시설을 갖추고 있지 않아 국내 OEM·ODM  업체에 위탁 생산을 하고 있어 화장품산업에서의 유통채널의 변화와 브랜드 다양화로 위탁생산업체의 필요성은 점점 늘어날 전망입니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "바. 경쟁상황",
+        "evidence_text": "화장품제조 산업은 \"한국콜마\"와 \"코스맥스\" 등의 상위사와 \"코스메카코리아\"  등의 몇몇 중위권사들이 경쟁하고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4905,
+    "completion_tokens": 4147,
+    "reasoning_tokens": 3264,
+    "output_tokens": 883
+  },
+  "warnings": []
+}

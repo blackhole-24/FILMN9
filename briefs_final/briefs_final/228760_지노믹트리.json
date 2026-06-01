@@ -1,0 +1,69 @@
+{
+  "stock_code": "228760",
+  "corp_name": "지노믹트리",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 13:01",
+  "meta": {
+    "wics": "건강관리장비와용품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "지노믹트리는 2000년 창립된 국내 암 분자진단 전문기업으로, DNA 메틸화 바이오마커 발굴과 초민감 검출 기술을 기반으로 체외 분자진단 제품을 상용화하고 있습니다. 대표 제품인 '얼리텍-C'는 분변을 이용해 대장암 여부를 판별하는 키트로 2018년 식약처 허가를 받고 2019년 국내에 출시되었습니다.",
+    "business_model": "핵심 사업은 암 분자진단 사업으로, DNA 메틸화 바이오마커를 이용한 보조진단 키트(얼리텍 등)를 판매하는 것이 주수익원이며 부수적으로 유전체 분석 용역 사업을 병행하고 있습니다. 국내에서는 병의원 및 종합검진센터 등 B2B 채널을 중심으로 영업하며, 현재 주요 제품은 비급여로 일부 의료기관과 검진센터에 도입되어 있습니다.",
+    "main_customers": "암 분자진단 — 병의원·건강검진센터 등 B2B / 유전체 분석 용역 — (사업보고서상 구체적 대상 미기재)",
+    "price_factors": [
+      {
+        "factor": "보험등재 여부",
+        "detail": "국민건강보험 급여화(보험등재)가 되면 보편화·매출 확대의 핵심 변수가 됩니다."
+      },
+      {
+        "factor": "인허가·임상증명",
+        "detail": "확증 임상시험과 식약처 제조허가, GMP 적합성 인정 여부가 제품 상용화와 매출에 직접 영향합니다."
+      },
+      {
+        "factor": "해외규제·인증",
+        "detail": "유럽 CE-IVDR·미국 FDA 등 각국 인허가 진입이 해외 매출과 수출 가능성을 좌우합니다."
+      },
+      {
+        "factor": "기술·검사속도",
+        "detail": "자체 SDC2 마커의 민감도와 검사 시간 우위는 경쟁력으로 작용해 시장 수용성에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 2000년 창립된 국내 암 분자진단 전문기업으로"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "현재 당사의 주력 사업부문은 암 분자진단 사업이며, 부수적으로 유전체 분석 용역 사업도 병행하고 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "국내 영업은 주로 병의원, 건강검진센터 등 B2B 채널을 중심으로 이뤄지고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "아직 국민건강보험 급여화가 되지 않아 보편화 단계는 아니지만"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 5011,
+    "completion_tokens": 4343,
+    "reasoning_tokens": 3584,
+    "output_tokens": 759
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

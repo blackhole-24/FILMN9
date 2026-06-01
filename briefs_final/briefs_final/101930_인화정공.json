@@ -1,0 +1,71 @@
+{
+  "stock_code": "101930",
+  "corp_name": "인화정공",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 08:09",
+  "meta": {
+    "wics": "조선",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "인화정공은 운송장비·부품(조선) 분야에서 선박엔진부품, 금속성형기계 및 금속구조재 등을 제조·공급하는 기업입니다. 선박엔진부품 제작에 적합한 용접·제관 및 중대형 금속가공의 일관생산 시스템을 갖추고 주요 엔진 부품을 생산하고 있습니다.",
+    "business_model": "사업부문별로 선박엔진부품 사업이 매출의 85.5%, 금속성형기계 사업이 7.3%, 금속구조재등 사업이 7.1%를 차지합니다. 선박엔진부품은 Cylinder Cover·Cylinder Frame·Bed Plate 등 대형·정밀 부품 생산이 핵심이며, 금속성형기계는 국내 선재회사와 해외 선재회사 대상 제작·수출이 주요 수익원이 되고, 금속구조재는 발전설비 관련 업체에 납품하는 사업입니다.",
+    "main_customers": "선박엔진부품 — 조선업 및 선박엔진 완제품 생산자 / 금속성형기계 — 국내외 선재회사(영흥철강, DSR 등) / 금속구조재등 — 발전설비 제작·설계업체(두산에너빌리티, 현대로템 등)",
+    "price_factors": [
+      {
+        "factor": "조선업 연동",
+        "detail": "선박엔진부품 수요가 조선 산업의 수주·생산과 밀접히 연동되어 조선업 변동이 실적에 직접 영향합니다."
+      },
+      {
+        "factor": "납기·품질",
+        "detail": "선박엔진은 주문생산(Make to Order)·엄격한 품질검사가 요구되어 납기 지연이나 품질 이슈가 실적에 민감하게 작용합니다."
+      },
+      {
+        "factor": "기술집약성",
+        "detail": "고정도·대형화 등 기술 축적이 중요해 기술 경쟁력 확보 여부가 장기적 수익성에 영향을 미칩니다."
+      },
+      {
+        "factor": "주요거래 의존",
+        "detail": "금속성형기계는 주요 선재회사 투자계획과 수주에 따라 실적 변동성이 커서 주요 고객사의 설비투자에 의존합니다."
+      },
+      {
+        "factor": "발전수주 환경",
+        "detail": "금속구조재는 발전설비 프로젝트 수주에 따라 중장기 수익성이 좌우되므로 프로젝트 발주 환경이 중요합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황 > 선박엔진부품 사업부문",
+        "evidence_text": "선박엔진부품 제작에 적합한 용접ㆍ제관, 중대형 금속가공의 일관생산 시스템을 갖추고 저속엔진(대형엔진)의 Cylinder Cover, Cylinder Frame, Bed Plate, Frame Box, 중속엔진(중형엔진)의 Base Frame, Common Bed 등을생산하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "선박엔진부품 사업 (85.5%) / 금속성형기계 사업 (7.3%) / 금속구조재등 사업 (7.1%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황 > 금속성형기계 사업부문",
+        "evidence_text": "2012년 11월말 금속성형기계 제작사업을 인수하여 영흥철강(주), DSR(주), DSR제강(주), (주)피스 등 국내 유명 선재회사와 밀접한 협력관계를 유지하고 있으며, 이러한 국내 거래 실적을 바탕으로 일본을 비롯한 인도, 인도네시아, 중국, 베트남, 러시아, 태국, 멕시코 등 외국의 선재 회사에도 고품질의 선재기계를 제작, 수출하고 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황 > 금속구조재등 사업부문",
+        "evidence_text": "두산에너빌리티(주), 비에이치아이(주), 지이파워시스템즈코리아(주), 현대로템(주) 기타 국내 EPC업체 및 해외업체등 발전설비 제작, 설계 업체와 밀접한 협력관계를 유지하고 있으며,"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4005,
+    "completion_tokens": 5461,
+    "reasoning_tokens": 4352,
+    "output_tokens": 1109
+  },
+  "warnings": []
+}

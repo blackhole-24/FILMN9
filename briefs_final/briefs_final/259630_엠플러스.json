@@ -1,0 +1,76 @@
+{
+  "stock_code": "259630",
+  "corp_name": "엠플러스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 14:03",
+  "meta": {
+    "wics": "전기제품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "엠플러스는 이차전지 조립공정 장비를 전문으로 제조하는 기업으로, 2008년부터 글로벌 파트너와 협력해 개발을 시작해 2010년 등 다수의 양산 레퍼런스를 확보했습니다. 이차전지 조립공정 전체를 Turn-key(일괄설계·제작·설치)로 제공할 수 있는 업체로서 국내·외 배터리 제조사를 대상으로 활발히 영업하고 있습니다.",
+    "business_model": "핵심 수익원은 이차전지조립장비이며 FY2025 기준 이 부문 매출이 78.9%를 차지하고, 기타(제품외) 매출이 21.1%입니다. 매출은 고객사의 생산라인 증설 및 신규 투자에 따른 수주 기반의 프로젝트형(설계→제작→설치→검수) 구조로 인식됩니다.",
+    "main_customers": "이차전지조립장비 — 국내외 배터리 제조사 / 기타 (제품외) — 기존 고객사의 생산설비 스펙변경·유닛교체 관련 고객사",
+    "price_factors": [
+      {
+        "factor": "전기차 수요",
+        "detail": "전기차 보급 확대와 친환경 정책 강화에 따라 배터리 생산투자가 늘면 장비 수요가 증가합니다."
+      },
+      {
+        "factor": "수주 변동성",
+        "detail": "고객사의 투자 일정 조정 및 프로젝트 납기 변경은 수주와 매출 인식 시점에 직접적인 변동성을 유발합니다."
+      },
+      {
+        "factor": "기술경쟁력",
+        "detail": "전고체·리튬메탈 등 차세대 배터리 장비 개발 성과가 경쟁우위와 중장기 매출에 영향을 줍니다."
+      },
+      {
+        "factor": "정부 지원",
+        "detail": "장비기업을 위한 연구개발·육성 지원금 확대는 R&D 투자와 수출경쟁력에 긍정적 영향을 줍니다."
+      },
+      {
+        "factor": "안전·인증",
+        "detail": "고안전성 확보 요구와 인증(UL·CE·CCC·ISO 등) 충족 여부가 수출 및 납품에 영향합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "나. 제품 설명",
+        "evidence_text": "당사는 이차전지 제조공정 중 조립공정 장비를 전문으로 제조하는 기업입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "이차전지조립장비: 145,301 (78.9%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "국내외 배터리 제조사를 주요 고객으로 하고 있으며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "다. 시장여건 및 영업의 개황",
+        "evidence_text": "전기차 시장 확대 및 친환경 정책 강화에 따라 지속적으로 성장하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "다. 시장여건 및 영업의 개황",
+        "evidence_text": "장비기업의 핵심장비 연구개발과 육성을 위한 지원금 등이 확대되고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5580,
+    "completion_tokens": 4043,
+    "reasoning_tokens": 3200,
+    "output_tokens": 843
+  },
+  "warnings": []
+}

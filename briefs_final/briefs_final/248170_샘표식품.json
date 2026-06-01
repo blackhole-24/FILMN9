@@ -1,0 +1,87 @@
+{
+  "stock_code": "248170",
+  "corp_name": "샘표식품",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 12:10",
+  "meta": {
+    "wics": "식품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "샘표식품은 단일 식품제조 사업부문을 영위하며 간장·된장·고추장 등 전통 장류와 연두, 폰타나 등 조미식 브랜드를 제조·판매하는 기업입니다. 매출의 국내:해외 비율은 약 9:1로 국내 시장 중심이며, 간장은 2025년에도 시장점유율 60% 수준(판매액 기준)을 기록했습니다.",
+    "business_model": "핵심 수익은 장류와 장류 외 조미식·간편식 제품 판매에 기반하며, 판매 채널별로는 신유통(29.7%), 대리점(16.8%), 농협(11.5%), 특판/특약(12.2%), 온라인/소재 채널(29.8%)으로 구성되어 있습니다. 제조(경기도 이천·충북 영동·세종 조치원)와 연구(오송·서울) 인프라를 통해 제품 개발과 품질 관리를 수행합니다.",
+    "main_customers": "신유통 — 대형유통점·SSM·편의점·백화점 / 대리점 — 대리점 채널 / 농협 — 농협 채널 / 특판/특약 — 특판·특약 채널 / 온라인/소재 채널 — 온라인 리테일·소재 바이어 / 해외 — Distributor·Retailer·온라인",
+    "price_factors": [
+      {
+        "factor": "원재료",
+        "detail": "대두 등 주요 원재료를 해외에서 사전 확보해 구매하고 있어 수급·가격 변동이 원가와 실적에 직접 영향."
+      },
+      {
+        "factor": "경기흐름",
+        "detail": "계속되는 경기 침체로 매장 내 판촉 경쟁이 심화되면 매출과 마진에 부정적 영향을 줄 수 있음."
+      },
+      {
+        "factor": "소비트렌드",
+        "detail": "건강·웰빙 및 편의성 선호 확대로 원재료 안전성과 용도별·기능별 제품 세분화가 실적에 영향."
+      },
+      {
+        "factor": "해외확장",
+        "detail": "유럽·미국 등 주요 리테일 입점 확대는 해외 매출(약 10% 수준) 성장에 기여할 수 있음."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "우리회사는 단일 식품제조 사업부문을 영위하고 있으며"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "매출의 구성은 국내 : 해외 매출 비율이 약 9 : 1이며"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "간장은 2025년에도 시장점유율 60% 수준(판매액 기준)을 기록하며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "신유통 (29.7%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "대리점 (16.8%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "농협 (11.5%), 특판/특약 (12.2%), 온라인/소재 채널 (29.8%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "신유통 채널(대형유통점, SSM, 편의점, 백화점 등)의 매출 비중이 가장 큽니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "계속되는 경기 침체로 간장시장의 매장 내 판촉 경쟁은 심화되고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5217,
+    "completion_tokens": 5818,
+    "reasoning_tokens": 4800,
+    "output_tokens": 1018
+  },
+  "warnings": []
+}

@@ -1,0 +1,67 @@
+{
+  "stock_code": "025820",
+  "corp_name": "이구산업",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 23:08",
+  "meta": {
+    "wics": "비철금속",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "이구산업은 1971년 설립된 비철금속 전문 제조업체로 연간 60,000톤의 생산능력을 보유하며 국내 수요의 20% 이상을 공급하고 있습니다. 동·황동·인청동을 주력으로 자동차, 전기·전자, 반도체 등 제조업 전반에 쓰이는 기초 소재를 공급하는 대표적 기초소재 업체입니다.",
+    "business_model": "사업부문별로 비철금속(46.7%), 황동(40.9%), 인청동(7.7%), 임가공(1.2%), 기타(3.6%), 전력판매(0.0%)로 매출이 구성되어 있으며, 동(銅) 제품군이 핵심 수익원입니다. 최근 전기차용 배터리 버스바(Busbar, 전기차 소형 배터리인 셀을 연결하는 케이블)와 리드탭(Lead tap, 2차전지 음·양극판을 외부와 전기적으로 연결하는 부품) 등 전기차 부품용 동 제품 수요가 확대되고 있어 관련 제품 비중이 점차 커지고 있습니다.",
+    "main_customers": "비철금속 — 자동차 제조업체·전기전자·반도체·건설 등 제조사 / 황동·인청동 제품 — 자동차 부품사(국내 주요 전기차용 배터리 제조사의 1·2차 벤더 포함) / 기타 — 스마트폰·TV 등 전자제품 제조사 및 건축자재·생활용품 제조사",
+    "price_factors": [
+      {
+        "factor": "LME 가격",
+        "detail": "국제원자재 가격(LME) 변동에 민감해 구리 등 원자재 가격 상승·하락이 재고평가와 원가에 직접적 영향을 줍니다."
+      },
+      {
+        "factor": "전기차 수요",
+        "detail": "전기차 보급 확대는 배터리·전장용 동 제품 수요를 늘려 매출 구조에 직접적 영향을 미칩니다."
+      },
+      {
+        "factor": "국내 경쟁",
+        "detail": "내수 공급과잉 및 중소업체의 시장참여 확대는 가격 경쟁을 심화시켜 수익성에 압력을 줄 수 있습니다."
+      },
+      {
+        "factor": "원달러 환율",
+        "detail": "원달러 상승 등 환율 환경은 수입원가 및 수출경쟁력, 전반적 원가구조에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "당사는 1971년 설립된 비철금속전문 제조업체로"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "비철금속: 236,912 (46.7%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "주요 매출 품목은 커넥터(연결 단자), 터미널, 배터리용 단자"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 업계의 현황 (3) 경기변동의 특성",
+        "evidence_text": "신동산업은 국제원자재 가격(LME)의 변동에 민감하고"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5204,
+    "completion_tokens": 3139,
+    "reasoning_tokens": 2304,
+    "output_tokens": 835
+  },
+  "warnings": []
+}

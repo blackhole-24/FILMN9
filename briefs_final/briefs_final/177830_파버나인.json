@@ -1,0 +1,62 @@
+{
+  "stock_code": "177830",
+  "corp_name": "파버나인",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 10:50",
+  "meta": {
+    "wics": "비철금속",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "파버나인은 알루미늄 합금의 정밀가공 및 표면처리를 기반으로 TV 외관, 디지털샤이니지, 의료기기 및 생활가전 부품을 생산하는 기업으로 1997년 설립되어 코스닥에 상장되어 있습니다. 국내외(베트남·미국·멕시코 등) 생산기지와 본사 연구시설을 통해 프리미엄 외관제품 제조를 주요 목적으로 하고 있습니다.",
+    "business_model": "핵심은 알루미늄 합금의 정밀 소성가공과 아노다이징 표면처리(표면강화·장식성 부여)를 활용한 외관 부품 제조이며, 사업부문별 FY2025 영업수익 구성은 디지털샤이니지 29.8%, TV 관련 16.9%, 의료기기 16.4%, 글로벌사 19.6%, 생활가전외 17.3%로 다각화되어 있습니다. 연구시설 기반의 표면처리·정밀가공 기술이 제품 차별화의 중심입니다.",
+    "main_customers": "디지털샤이니지·TV 관련·생활가전·의료기기 — 삼성전자(삼성메디슨), 글로벌 가전기업 GE",
+    "price_factors": [
+      {
+        "factor": "메탈 채용 트렌드",
+        "detail": "가전 제품에서 메탈(알루미늄) 외관 채용이 늘면 파버나인의 수요가 상대적으로 증가할 수 있습니다."
+      },
+      {
+        "factor": "표면처리 기술력",
+        "detail": "아노다이징 등 고도화된 표면처리(표면강화·장식성)가 경쟁우위이므로 기술 경쟁력 약화 시 실적에 부정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "산업의 과점적 구조",
+        "detail": "TV 등 외관시장에 소수 기업이 과점적 지위를 형성하고 있어 주요 고객사 확보 여부가 실적 변동성에 영향합니다."
+      },
+      {
+        "factor": "해외 생산·판매 확대",
+        "detail": "미국·멕시코·베트남 등 해외법인 생산확대 및 판매법인 설립은 현지 수요 대응력 및 매출성장에 직결됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "주요 목적사업은 프리미엄 TV 외관제품 등의 제조입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "디지털샤이니지: 39,610 (29.8%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "주요 고객은 삼성전자(삼성메디슨) 및 글로벌 가전기업 GE 입니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4136,
+    "completion_tokens": 3107,
+    "reasoning_tokens": 2368,
+    "output_tokens": 739
+  },
+  "warnings": []
+}

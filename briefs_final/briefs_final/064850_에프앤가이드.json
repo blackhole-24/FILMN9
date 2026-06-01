@@ -1,0 +1,65 @@
+{
+  "stock_code": "064850",
+  "corp_name": "에프앤가이드",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 04:22",
+  "meta": {
+    "wics": "IT서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": false,
+    "tier": 4,
+    "tier_mode": "best_effort_summary",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "에프앤가이드는 IT 서비스(WICS: IT서비스) 섹터에 속한 상장기업(종목코드 064850)입니다. 제공된 자료에서는 설립 연혁·규모·영업 현황 등 상세 경영정보가 별도로 공시되어 있지 않습니다.",
+    "business_model": "에프앤가이드는 단일 IT 서비스 사업을 주력으로 영위하며, 사업보고서상 사업부문별 매출 구성은 별도로 제시되어 있지 않습니다. 구체적인 수익원(제품·서비스별 매출 비중 등)은 공시된 자료에서 찾을 수 없습니다.",
+    "main_customers": "단일 IT서비스 — 고객 유형은 사업보고서상 별도 제시되지 않습니다",
+    "price_factors": [
+      {
+        "factor": "공시투명성",
+        "detail": "사업보고서·MD&A 등 핵심 공시의 부재는 투자자 불확실성을 키우고 주가 변동성에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "사업구조",
+        "detail": "사업부문이 명확히 구분되지 않으면 수익구조(핵심 서비스·수익원) 파악이 어려워 실적 전망이 불투명해집니다."
+      },
+      {
+        "factor": "경쟁정보",
+        "detail": "경쟁 환경 관련 데이터가 제공되지 않으면 업황 민감도(수요·가격변동) 평가가 제한되어 실적 예측에 제약이 생깁니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "[기업 기본 정보]",
+        "evidence_text": "기업명: 에프앤가이드 / 종목코드: 064850"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업분야 데이터 등급(tier)]",
+        "evidence_text": "사업부문이 명확히 구분되지 않는 기업입니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "[사업분야 데이터 등급(tier)]",
+        "evidence_text": "사업부문별 매출 구성은 사업보고서상 별도 제시되지 않습니다"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "[경쟁 환경 및 시장 특성 — price_factors 참고용]",
+        "evidence_text": "데이터 없음"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 2153,
+    "completion_tokens": 3584,
+    "reasoning_tokens": 3008,
+    "output_tokens": 576
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

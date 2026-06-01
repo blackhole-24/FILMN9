@@ -1,0 +1,67 @@
+{
+  "stock_code": "000890",
+  "corp_name": "보해양조",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 17:08",
+  "meta": {
+    "wics": "음료",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "보해양조는 주류와 식품의 제조 및 판매를 주된 업으로 하는 단일 사업부 구성의 전통적인 음료·주류 제조기업입니다. 잎새주, 보해소주 등 지역성을 살린 로컬 브랜드와 복분자·매취순 등 과실주 포트폴리오를 보유하고 있으며, 시장 변화에 맞춰 제품 포트폴리오 재정비와 차별화 전략을 추진하고 있습니다.",
+    "business_model": "주요 매출원은 주류 및 식음료 판매이며, 사업부문별로 과실주가 51.6%, 주류가 27.2%, 식품이 17.8%, 기타가 4.6%를 차지하고 있습니다(사업부문별 매출 구성 기준). 식음료 부문에는 OEM·ODM(주문자상표부착생산/제조자개발생산) 판매가 포함되어 있어 B2B(기업간 거래) 성격의 매출도 일부 구성됩니다.",
+    "main_customers": "주류(소주) — 지역 소비자·마니아층 / 과실주 — 복분자·매취순 등 일반 소비자 / 기타 — 제품별 소비층 / 식품(OEM·ODM) — 기업(주문자형 고객)",
+    "price_factors": [
+      {
+        "factor": "주세·규제",
+        "detail": "정부의 주세제도와 규제 변화는 출고가격과 세 부담에 직접 영향하여 수익성 변동 요인이 됩니다."
+      },
+      {
+        "factor": "소비트렌드",
+        "detail": "저도주·논알콜·헬시플레저(건강지향) 트렌드는 제품 믹스(저도·프리미엄·기능성 과실주) 전략에 따라 매출 구성 변화를 초래합니다."
+      },
+      {
+        "factor": "원재료 가격",
+        "detail": "복분자 등 과실류 수매가격 변동은 매출원가와 마진에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "내수경기·수출환경",
+        "detail": "국내 소비 둔화와 수출 정체는 전반적 수요에 영향을 주어 실적 변동성을 증가시킬 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "회사는 주류와 식품의 제조 및 판매를 주 업종으로 하는 단일 사업부로 구성된 회사입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "과실주: 46,334,398,021 (51.6%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "나. 브랜드별 부문 현황",
+        "evidence_text": "지역 소비자와의 정서적 유대를 강화하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 산업의 특성",
+        "evidence_text": "논알콜 및 저도화 제품시장의 지속 성장"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5584,
+    "completion_tokens": 4410,
+    "reasoning_tokens": 3648,
+    "output_tokens": 762
+  },
+  "warnings": []
+}

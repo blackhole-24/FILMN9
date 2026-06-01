@@ -1,0 +1,62 @@
+{
+  "stock_code": "317450",
+  "corp_name": "명인제약",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 16:17",
+  "meta": {
+    "wics": "제약",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "명인제약은 1988년 11월 설립되어 의약품 제조·판매를 주요 사업으로 하는 제약사로, 2025년 10월 1일 유가증권시장(KOSPI)에 상장하였습니다. 중추신경계(CNS) 영역의 정신신경용제에 특화된 기술력을 바탕으로 국내 정신신경용제 시장에서 높은 점유율을 보유하고 있습니다.",
+    "business_model": "사업부문별 FY2025 영업수익 구성은 의약품판매가 99.0%로 압도적 비중을 차지하며, 부동산임대 1.0%, 광고대행 1.0%가 나머지를 구성합니다. 주력은 전문의약품(뇌졸중·파킨슨·조현병·우울증 등)과 인지도가 높은 일반의약품(예: 이가탄F, 메이킨Q) 생산·판매이며, 원료합성부터 완제 의약품 생산까지 전 공정을 수행하는 생산 인프라를 갖추고 있습니다.",
+    "main_customers": "의약품판매 — 전문의약품(의료기관·처방 기반) 및 일반의약품(일반 소비자) / 부동산임대 — 임차인(부동산 임차업체) / 광고대행 — 광고주(광고 의뢰 기업)",
+    "price_factors": [
+      {
+        "factor": "약가정책",
+        "detail": "정부의 약가조정(사용량-연동, 실거래가 조사 등)은 의약품 가격과 매출에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "제네릭경쟁",
+        "detail": "동일 품목에 다수 제약사가 경쟁하는 구조와 약가인하로 마진이 압박될 수 있습니다."
+      },
+      {
+        "factor": "고령화",
+        "detail": "인구 고령화로 전문의약품 수요가 장기적으로 증가하는 구조적 요인이 있습니다."
+      },
+      {
+        "factor": "규제·인프라",
+        "detail": "법령·KGMP 등 규제와 생산 인프라 요건이 개발·생산 및 시장진입 비용에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "정신신경용제(CNS : Central Nervous System)에 특화된 기술력을 바탕으로"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "의약품판매: 284,048 (99.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "잇몸약의 대표 브랜드로 자리매김한 '이가탄F'"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4233,
+    "completion_tokens": 4427,
+    "reasoning_tokens": 3712,
+    "output_tokens": 715
+  },
+  "warnings": []
+}

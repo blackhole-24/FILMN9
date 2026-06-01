@@ -1,0 +1,101 @@
+{
+  "stock_code": "134580",
+  "corp_name": "탑코미디어",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 09:47",
+  "meta": {
+    "wics": "양방향미디어와서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "탑코미디어는 웹툰 플랫폼 운영과 콘텐츠 서비스에 특화된 국내 콘텐츠 기업으로, 2022년 웹툰 유통 사업부문 인수 이후 2023년 STB 사업부 양도 및 2025년 (주)탑툰과의 합병을 통해 기획·제작·플랫폼 운영까지 통합한 종합 콘텐츠 기업으로 전환했습니다. 현재 한국·일본·대만·북미 등에서 플랫폼을 운영하며, 2025년 연결기준 매출액은 약 486억 원입니다.",
+    "business_model": "사업부문별로 플랫폼(69.9%), 유통(26.9%), 기타(3.2%)로 수익이 구성되어 있으며, 플랫폼부문은 자체 플랫폼을 통한 직접 유료서비스 제공이 핵심이고, 유통부문은 일본의 주요 유통사에 작품을 공급하는 구조가 핵심 수익원입니다. 2025년 합병으로 콘텐츠 기획·제작과 플랫폼 운영이 일원화되면서 플랫폼 중심의 수익구조 강화가 기대됩니다.",
+    "main_customers": "플랫폼 — 자체 플랫폼을 이용하는 소비자 / 유통 — 일본의 주요 유통사 및 이들이 계약한 일본 내 플랫폼사 / 기타 — 기타 제휴사 및 서비스 파트너",
+    "price_factors": [
+      {
+        "factor": "일본 전자만화",
+        "detail": "일본 전자만화 시장의 성장(전자만화 비중 확대)은 플랫폼·유통 매출 증가로 직결될 수 있습니다."
+      },
+      {
+        "factor": "모바일 적합성",
+        "detail": "웹툰의 세로 스크롤·모바일 친화성은 젊은 독자층 확대 및 플랫폼 사용시간 증가로 실적에 긍정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "OSMU",
+        "detail": "웹툰의 OSMU(One Source Multi-Use) 용이성은 게임·드라마·영화 등 2차 사업을 통한 추가 수익 기회를 만듭니다."
+      },
+      {
+        "factor": "규제·저작권",
+        "detail": "저작권·개인정보 등 관련 법률 적용으로 법적·운영 리스크 발생 시 비용 및 서비스 제약이 늘어날 수 있습니다."
+      },
+      {
+        "factor": "플랫폼 경쟁",
+        "detail": "글로벌 플랫폼 간 경쟁 심화와 AI 기술 발전은 콘텐츠 기획·제작 비용과 경쟁 강도를 높여 실적에 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "나. 영업의 개황 등 1) 영업의 개황",
+        "evidence_text": "웹툰 플랫폼 운영 및 콘텐츠 서비스에 특화된 기업으로 전환하였습니다."
+      },
+      {
+        "field": "company_overview",
+        "source_section": "나. 영업의 개황 등 1) 영업의 개황",
+        "evidence_text": "현재 당사는 한국, 일본, 대만, 북미 등에 웹툰 플랫폼을 운영하고 있으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "플랫폼: 33,990 (69.9%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "유통: 13,057 (26.9%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "기타: 1,557 (3.2%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "나. 사업부문의 시장여건 및 영업의 개황 등",
+        "evidence_text": "당사의 일본 내 자체플랫폼을 통해 소비자에게 직접 서비스를 제공하는 플랫폼부문으로 나뉩니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "나. 사업부문의 시장여건 및 영업의 개황 등",
+        "evidence_text": "당사는 일본의 주요 유통사에 콘텐츠를 공급하고"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "전자만화가 전체 만화시장에서 차지하는 비중은 72.7%에 달합니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "웹툰 산업의 특성 중 하나는 OSMU(One Source Multi-Use)화가 용이하다는 것으로"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 그 밖에 투자의사결정에 필요한 사항",
+        "evidence_text": "당사는 웹툰, 디지털 만화 등의 온라인 콘텐츠 서비스를 제공하는 사업자"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4693,
+    "completion_tokens": 4952,
+    "reasoning_tokens": 3776,
+    "output_tokens": 1176
+  },
+  "warnings": []
+}

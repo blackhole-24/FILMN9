@@ -1,0 +1,71 @@
+{
+  "stock_code": "376900",
+  "corp_name": "로킷헬스케어",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 18:17",
+  "meta": {
+    "wics": "건강관리장비와용품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "로킷헬스케어는 의료용 3D 바이오프린팅과 재생치료 플랫폼을 개발·상용화한 기업으로, 수술실에서 환자 맞춤형 장기 재생을 목표로 하는 솔루션을 제공합니다. 세계 최초 수준의 의료용 3D 바이오프린터와 AI 기반 환부 모델링 기술을 바탕으로 창상(당뇨발), 연골, 신장 등 재생의학 분야에 적용 가능한 제품군을 보유하고 있습니다.",
+    "business_model": "주요 수익원은 사업부문별로 장기재생플랫폼(5.3%), 재생재료(0.6%), Single cell RNA(2.3%), Reverse-Aging Supplement(7.4%)으로 구성되어 있으며(사업부문별 영업수익 구성, FY2025), 의료용 3D 바이오프린터(Dr. INVIVO)와 Regen KIT·AI 소프트웨어의 판매 및 구성품 공급이 핵심 매출처입니다.",
+    "main_customers": "장기재생플랫폼 — 병원·수술실(의료진) / 재생재료 — 연구기관·의료기관 / Single cell RNA — 학술·연구기관·바이오연구자 / Reverse-Aging Supplement — 건강 보조제 유통 채널 및 소비자",
+    "price_factors": [
+      {
+        "factor": "규제 승인",
+        "detail": "식약처·FDA·CE 등 주요 국가의 허가·등록 여부가 실적과 해외 판매 가능성에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "의료진 수용성",
+        "detail": "수술실 내 Just in Time Surgery 채택 정도(임상 채택 속도)가 제품 도입과 매출 확대에 영향을 줍니다."
+      },
+      {
+        "factor": "시장 성장",
+        "detail": "당뇨발·만성 창상·골관절염 등 관련 환자군의 증가가 장기적으로 수요 확대 요인으로 작용합니다."
+      },
+      {
+        "factor": "기술 경쟁력",
+        "detail": "바이오프린터 성능 및 AI 환부 모델링의 정확도가 제품 차별화와 연구·임상 활용도에 영향을 미칩니다."
+      },
+      {
+        "factor": "해외진출",
+        "detail": "CE·FDA 등록을 기반으로 한 국가별 등록·유통 진행 속도가 해외 매출 확대에 중요한 변수입니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 업계의 현황 > (4) 시장의 특성 및 시사점",
+        "evidence_text": "당사는 세계 최초로 의료용 3D 바이오프린터인 Dr. INVIVO 4D2D를 개발"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "장기재생플랫폼: 1,387 (5.3%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 업계의 현황 > (4) 시장의 특성 및 시사점",
+        "evidence_text": "수술실 내에서 환자 맞춤형 Just in Time Surgery를 실현"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "나. 제품별 인허가",
+        "evidence_text": "Dr. INVIVO AI Regen KIT는 식약처로부터 의료기기 3등급 허가"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5023,
+    "completion_tokens": 3145,
+    "reasoning_tokens": 2304,
+    "output_tokens": 841
+  },
+  "warnings": []
+}

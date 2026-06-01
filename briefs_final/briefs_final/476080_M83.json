@@ -1,0 +1,71 @@
+{
+  "stock_code": "476080",
+  "corp_name": "M83",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 20:46",
+  "meta": {
+    "wics": "방송과엔터테인먼트",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "M83은 2020년 2월 설립되어 영상 콘텐츠의 시각효과(VFX) 제작을 전문으로 하는 기업으로, 2024년 8월 코스닥에 상장하였습니다. 디지털 합성, 3D 애니메이션 등 고도화된 VFX 제작 역량과 종속회사(피앤티링크, 모터헤드)를 통한 IT·후반작업 연계를 통해 사업 기반을 운영하고 있습니다.",
+    "business_model": "당사는 VFX를 단일 사업부문으로 영위하며 해당 부문이 전체 매출의 100.0%를 차지합니다. 수익은 영화·드라마·OTT 등 프로젝트 단위의 개별 계약 형태로 발생하며, 디지털 합성·3D 애니메이션·특수효과 등 시각효과 제작 서비스를 제공하고 계약별 범위·난이도에 따라 대가가 결정됩니다.",
+    "main_customers": "영상 VFX — OTT 플랫폼(넷플릭스·디즈니플러스 등) / 영상 VFX — 영화·드라마 제작사, 주요 스튜디오·프로덕션 하우스, 콘텐츠 제작사 및 디스트리뷰터",
+    "price_factors": [
+      {
+        "factor": "기술고도화",
+        "detail": "GPU 성능 향상과 AI·딥페이크 등 기술 발전은 VFX 수요와 적용범위를 확대하여 실적에 긍정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "콘텐츠투자",
+        "detail": "OTT·스튜디오의 투자 구조 고도화 및 선택과 집중은 작품별 제작비 배분의 변동성을 키워 수주와 매출에 영향을 미칩니다."
+      },
+      {
+        "factor": "계약구조",
+        "detail": "프로젝트 단위·비공개(NDA) 계약과 표준화된 가격 부재로 인해 매출 실적과 수익성의 변동성이 발생합니다."
+      },
+      {
+        "factor": "글로벌수주",
+        "detail": "해외 프로젝트 수행 및 해외법인·인수로 인한 글로벌 수주 확대는 매출 기반 다변화와 함께 해외 의존도 변동 요인이 됩니다."
+      },
+      {
+        "factor": "경기민감성",
+        "detail": "VFX는 전방의 콘텐츠 제작 산업과 일부 연동되나, 작품성 중심의 수요 특성으로 비교적 변동성이 낮은 편입니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 영업 현황",
+        "evidence_text": "당사는 영화, 드라마, OTT 콘텐츠 등 영상 콘텐츠의 VFX(시각효과) 제작을 전문으로 하는 기업으로, 2020년 02월 20일 설립되었으며, 2024년 08월 22일 코스닥 시장에 상장하였습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. 주요 제품 등의 현황",
+        "evidence_text": "당사는 VFX 제품을 단일 사업 부문으로 영위하고 있으며, 해당 부문이 전체 매출의 100%를 차지하고 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 주요 제품 등의 현황",
+        "evidence_text": "VFX는 OTT 및 극장용 영화 콘텐츠를 중심으로 글로벌 미디어ㆍ엔터테인먼트 산업내 주요 스튜디오, 프로덕션 하우스, 콘텐츠 제작사 및 디스트리뷰터를 대상으로 제공되는 핵심 기술입니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "최근 미디어 산업의 변화와 확장, 그리고 GPU 성능 향상과, AI, 딥페이크(Deepfake)등 기술 고도화로 인해 VFX는 ... 응용 범위를 넓히며 새로운 미디어 산업을 창출하는 핵심 분야로 자리매김 하고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4158,
+    "completion_tokens": 3186,
+    "reasoning_tokens": 2240,
+    "output_tokens": 946
+  },
+  "warnings": []
+}

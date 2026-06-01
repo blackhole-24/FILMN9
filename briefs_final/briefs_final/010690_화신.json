@@ -1,0 +1,66 @@
+{
+  "stock_code": "010690",
+  "corp_name": "화신",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 20:38",
+  "meta": {
+    "wics": "자동차부품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "화신은 자동차용 Chassis·Body 부품과 전동화 부품을 모듈품 또는 개별품 형태로 생산·납품하는 자동차부품전문 업체입니다. 주요 고객은 현대기아자동차그룹의 자동차 관련 계열사이며, 미국·인도·중국 등 국내외 생산거점을 운영하고 있습니다.",
+    "business_model": "FY2025 기준 사업부문별 영업수익은 자동차부품 67.3%, Body Parts 12.4%, Electrification Parts 3.0%, 기타제품 14.2%, 상품 3.2%로 구성되어 있습니다. 핵심은 완성차사 요구에 맞춰 조향장치·차체부품·배터리 캐리어 등 부품을 수주(입찰) 기반으로 납품하는 B2B(기업간거래) 수주형 사업입니다.",
+    "main_customers": "자동차부품 — 현대기아자동차그룹의 자동차 관련 계열사 / Body Parts — 현대기아자동차그룹의 자동차 관련 계열사 / Electrification Parts — 현대기아자동차그룹의 자동차 관련 계열사 / 기타제품 — 현대기아자동차그룹의 자동차 관련 계열사 / 상품 — 현대기아자동차그룹의 자동차 관련 계열사",
+    "price_factors": [
+      {
+        "factor": "수주 경쟁력",
+        "detail": "입찰가·품질·기술점수에 따라 수주가 결정되어 경쟁력 저하 시 실적에 직접 악영향을 미칩니다."
+      },
+      {
+        "factor": "진입장벽",
+        "detail": "완성차와의 개발·투자 연계가 필수라 신규 고객 확대에 막대한 투자비가 필요해 성장 속도가 제한될 수 있습니다."
+      },
+      {
+        "factor": "원가·납품능력",
+        "detail": "원가경쟁력과 납품 안정성 부족 시 주문 축소 및 충당금 부담 등으로 수익성이 악화될 수 있습니다."
+      },
+      {
+        "factor": "친환경 전환",
+        "detail": "전동화·경량화 트렌드에 맞는 기술력 확보가 실적 확대의 기회가 되며, 대응 실패 시 성장에서 소외될 수 있습니다."
+      },
+      {
+        "factor": "글로벌 수요",
+        "detail": "북미·인도 등 주요 시장 수요 변동과 현지 생산거점 가동상태가 매출에 즉각적인 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "자동차부품전문 업체입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "자동차부품 (67.3%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "현대기아자동차그룹의 자동차 관련 계열사를 주요 고객으로"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4521,
+    "completion_tokens": 3038,
+    "reasoning_tokens": 2304,
+    "output_tokens": 734
+  },
+  "warnings": []
+}

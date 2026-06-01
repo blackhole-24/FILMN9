@@ -1,0 +1,67 @@
+{
+  "stock_code": "019490",
+  "corp_name": "엑시큐어하이트론",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 12:43",
+  "meta": {
+    "wics": "통신장비",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "엑시큐어하이트론은 전기·전자 통신장비 분야에서 보안 및 정보통신 관련 제품을 제조·공급하는 기업으로, 다품종 소량생산 방식으로 다양한 제품을 생산합니다. 글로벌 보안 산업의 성장과 AI 기반 지능형 영상분석 확산이 사업 환경에 영향을 미치고 있습니다.",
+    "business_model": "사업부문별로 씨큐리티(24.3%), 제품·상품(36.1%), 정보통신(39.6%)의 매출 비중으로 구성되어 있습니다. 다품종 소량생산 구조로 제품믹스에 따라 평균 판매단가가 달라지며, 수출 관련 판매는 환율 변동에 민감합니다.",
+    "main_customers": "씨큐리티 — 개인·기업·공공기관 / 제품, 상품 — 국내외 거래처(수출 포함) / 정보통신 — 스마트시티·스마트팩토리 관련 수요처(공공·기업)",
+    "price_factors": [
+      {
+        "factor": "제품믹스",
+        "detail": "다품종 소량생산 구조로 판매되는 제품 구성에 따라 평균 판매단가와 실적 변동성이 커집니다."
+      },
+      {
+        "factor": "환율",
+        "detail": "수출판매단가는 환율 변동에 따라 원화 기준 단가가 변동되어 매출과 이익에 직접 영향합니다."
+      },
+      {
+        "factor": "시장가격",
+        "detail": "국내외 시장가격 변동 및 신제품 출시 동향이 판매가격과 수익성에 영향을 줍니다."
+      },
+      {
+        "factor": "수요구조",
+        "detail": "스마트시티·스마트팩토리 등 인프라 도입 확대와 AI 기반 보안 수요 증가는 장기적 수요에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "나. 회사의 현황 1) 영업개황",
+        "evidence_text": "당사는 다품종 소량생산으로 다양한 제품을 생산하고 있기에"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "정보통신: 2,099,069 (39.6%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 업계의 현황 1) 산업의 특성",
+        "evidence_text": "개인 및 기업, 공공기관의 보안 수요가 증가하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "수출판매단가는 환율의 변동에 따라 원화기준 단가가 변동됩니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3651,
+    "completion_tokens": 3624,
+    "reasoning_tokens": 2944,
+    "output_tokens": 680
+  },
+  "warnings": []
+}

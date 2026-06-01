@@ -1,0 +1,62 @@
+{
+  "stock_code": "067990",
+  "corp_name": "도이치모터스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 13:40",
+  "meta": {
+    "wics": "자동차",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "도이치모터스는 BMW·MINI 브랜드의 국내 공식 딜러로 신차 판매, AS(정비) 및 인증중고차(BPS) 판매를 주력으로 하는 유통·서비스 기업입니다. 전국에 다수의 전시장과 서비스센터를 운영하며 고급 수입차 시장 내에서 의미 있는 판매량을 확보하고 있습니다.",
+    "business_model": "주요 수익원은 상품매출(신차·인증중고차 판매)과 서비스(정비·기타)로 구성되며, 2025회계연도 기준 상품매출이 86.5%, 서비스 및 기타매출이 13.5%를 차지합니다. 신차 판매 확대와 서비스센터 확충, 중고차 매입을 통한 매출 성장이 핵심 전략입니다.",
+    "main_customers": "상품매출 — BMW·MINI 신차 및 인증중고차 구매자 / 서비스 및 기타매출 — AS(정비) 이용 고객 및 그룹 계열사 연계 수요",
+    "price_factors": [
+      {
+        "factor": "시장 성장성",
+        "detail": "수입차 신규 등록대수 증가(2025년 307,377대)는 신차 판매 및 연관 서비스 매출 확대에 영향을 미칩니다."
+      },
+      {
+        "factor": "브랜드 지배력",
+        "detail": "BMW의 높은 판매비중과 점유율은 도이치모터스의 신차 공급·판매 실적과 직결됩니다."
+      },
+      {
+        "factor": "경쟁 심화",
+        "detail": "약 26개 브랜드, 다수 딜러사의 경쟁 심화는 판매·마진 구조에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "정비 수요",
+        "detail": "판매대수 증가 및 리콜 영향으로 AS 수요가 늘어나면 서비스 매출이 동반 상승할 가능성이 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "<도이치모터스(주)>",
+        "evidence_text": "BMW, MINI 신차판매, AS정비사업"
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "상품매출: 2,205,982 (86.5%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "<도이치모터스(주)>",
+        "evidence_text": "국내 BMW 13개, MINI 6개 , 중고차 3개의 전시장"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4694,
+    "completion_tokens": 3377,
+    "reasoning_tokens": 2752,
+    "output_tokens": 625
+  },
+  "warnings": []
+}

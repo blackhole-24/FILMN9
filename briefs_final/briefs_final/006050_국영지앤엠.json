@@ -1,0 +1,69 @@
+{
+  "stock_code": "006050",
+  "corp_name": "국영지앤엠",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 19:28",
+  "meta": {
+    "wics": "건축제품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "국영지앤엠은 판유리 가공과 창호 시공을 주력으로 하는 비금속(건축제품) 업체입니다. 주문생산 방식과 연구개발을 통해 제품 성능과 기능을 꾸준히 개선하며 기술적 차별화를 추구하고 있고, 시공부문에서는 시공능력평가액 업계 1위를 유지하고 있습니다.",
+    "business_model": "핵심 수익원은 주문생산 방식의 제품매출액과 현장 시공을 통한 공사매출액으로 구성됩니다. 고기능 복층유리·온도변색유리 등 고부가가치 제품과 고속철 창유리, 방탄·방폭창 등 특수시장으로 포트폴리오를 다각화하여 부가가치를 높이는 전략을 추구하고 있습니다.",
+    "main_customers": "제품매출액 — 건축용·철도용·차량용·산업용·가전업체 및 인테리어 수요자 / 공사매출액 — 상업용·주거용 건물주 및 주요 건설사",
+    "price_factors": [
+      {
+        "factor": "건설경기",
+        "detail": "주거용 건축경기 성숙·침체 시 수주 감소로 실적에 부정적 영향을 미칩니다."
+      },
+      {
+        "factor": "원부자재 가격",
+        "detail": "판유리 원판 가격 변동은 원가에 직접 영향을 주며, 하락 시에도 최저가 입찰로 공사비 하락을 초래할 수 있습니다."
+      },
+      {
+        "factor": "가격경쟁",
+        "detail": "중소형 건설사 중심의 저가 공세 지속 시 단기적으로 마진 압박이 심화됩니다."
+      },
+      {
+        "factor": "협력사·수요 안정성",
+        "detail": "취약한 건설사의 부침과 도산 증가 가능성은 수주처 불안·연체 리스크로 연결될 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "나. 영업개황 (1) 최근 수상 경력",
+        "evidence_text": "시공부문에서는 시공능력평가액 업계 1위를 유지하고 있으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. 업계의 현황 (1) 업종의 특성",
+        "evidence_text": "당사는 주문에 의한 단순가공을 넘어서 연구개발을 통하여"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 업계의 현황 (1) 업종의 특성",
+        "evidence_text": "상업용 ·주거용 건물의 창호에 시공 적용합니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "원자재 가격은 변동성이 심한 가운데 안정화되는 추세이나"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 5258,
+    "completion_tokens": 3876,
+    "reasoning_tokens": 3136,
+    "output_tokens": 740
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

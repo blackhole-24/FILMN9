@@ -1,0 +1,79 @@
+{
+  "stock_code": "452200",
+  "corp_name": "민테크",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 19:54",
+  "meta": {
+    "wics": "전기제품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "민테크는 2015년 6월 16일 설립된 이차전지 검사·진단솔루션 개발 전문기업입니다. 전기차와 ESS 등 배터리의 셀 제조에서 사용후까지 배터리 라이프 사이클 전단계에 적용 가능한 진단기술을 상용화하였습니다.",
+    "business_model": "핵심은 전기화학 임피던스 분광법(한글 약어: EIS)을 활용한 배터리 진단시스템 개발·판매와 관련 용역 제공으로, 자체 개발한 3세대 진단기술을 제품화하여 공급합니다. 사업부문은 제품매출, 용역매출, 배터리 시스템, 상품매출, 기타매출 등으로 구성되어 있으며, 다수 제품은 고객사 주문 제작 방식으로 공급됩니다.",
+    "main_customers": "제품매출 — 테크노파크·민간기업 / 배터리 시스템 — 전기차 OEM사·ESS 제작사 / 용역매출 — 셀 제조사·팩 제조사 / 상품매출 — 고객사(주문제작) / 기타매출 — ESS 운영사·전기버스 관련 사업자",
+    "price_factors": [
+      {
+        "factor": "전방산업 수요",
+        "detail": "전기차·ESS 보급 변동이 검사·진단 수요에 직접 연동되어 실적에 영향"
+      },
+      {
+        "factor": "재사용 규제",
+        "detail": "재사용전지 안전성 검사 제도 시행 등 규제가 사용후 배터리 진단 수요를 늘릴 수 있음"
+      },
+      {
+        "factor": "기술경쟁력",
+        "detail": "기존 검사법의 높은 비용·긴 시간 한계를 대체할 수 있는 기술 우위 여부가 수주에 영향"
+      },
+      {
+        "factor": "시장 단기변동",
+        "detail": "고금리·보조금 축소·충전 인프라 제약 등으로 전기차 시장이 일시 둔화되면 수요에 부정적 영향"
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 주요 사업",
+        "evidence_text": "2015년 6월 16일 설립되었습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. 주요 사업",
+        "evidence_text": "3세대 진단기술 및 제품 개발을 완료하여 상용화하였습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "(2) 사용중 배터리 진단시장",
+        "evidence_text": "전기차 OEM사, ESS 제작사"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나. 시장여건 및 영업의 개황 (1) 시장 개요",
+        "evidence_text": "'23년 10월 본격 시행되어"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "고금리, 보조금 감축, 충전 인프라 부족"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "높은 검사비용, 긴 검사시간 및 고가의 충방전기가 필요한 단점"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4578,
+    "completion_tokens": 6123,
+    "reasoning_tokens": 5312,
+    "output_tokens": 811
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

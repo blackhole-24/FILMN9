@@ -1,0 +1,69 @@
+{
+  "stock_code": "053050",
+  "corp_name": "지에스이",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 11:12",
+  "meta": {
+    "wics": "가스유틸리티",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "지에스이는 1989년 설립되어 초기에는 IT사업을 영위했으나 2010년 구(舊)지에스이와의 합병을 통해 도시가스공급사업을 포함하게 되었고, 2011년 이후 도시가스공급을 주요사업으로 전환하여 영위하고 있습니다. 경상남도 진주·사천·함양·거창·하동·산청·합천 등 공급권역을 중심으로 도시가스를 공급하며, 총 공급수요가수는 약 21만4천여 세대입니다.",
+    "business_model": "핵심은 한국가스공사로부터 공급받는 LNG(액화천연가스)를 원료로 지역 내 수요자에게 배관으로 도시가스를 판매하는 소매사업이며, 요금은 도매요금 및 지방자치단체 승인 소매요금에 연동되어 수익이 결정됩니다. 또한 정부의 CNG(압축천연가스)버스 보급사업에 참여해 1곳의 CNG차량충전소를 운영하는 등 수송용 사업도 병행하고 있습니다.",
+    "main_customers": "도시가스 공급 — 가정용(주택)·일반용·업무용·산업용·열병합용·집단에너지용·수송용 수요자 / CNG 충전소 운영 — CNG 차량(수송용)",
+    "price_factors": [
+      {
+        "factor": "원료비 연동",
+        "detail": "한국가스공사 도매요금(원료비) 변화가 소매요금에 곧바로 연동되어 매출과 이익에 직접 영향."
+      },
+      {
+        "factor": "지자체 요금 승인",
+        "detail": "소매요금은 시·도지사가 승인하므로 지방자치단체별 요금 차이가 지역 실적에 영향을 미침."
+      },
+      {
+        "factor": "계절적 수요",
+        "detail": "동절기 난방 수요 집중으로 계절별 수요격차가 실적 변동성으로 이어질 수 있음."
+      },
+      {
+        "factor": "권역 독점 구조",
+        "detail": "공급권역별 독점 허가 구조로 신규 경쟁은 제한되나 정책·규제 변화에 민감함."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "당사는 도시가스공급사업을 주요사업으로 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황",
+        "evidence_text": "회사는 한국가스공사로부터 천연가스를 공급받아"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "도시가스는 배관을 통하여 수요가에게 공급하는 연료용 가스를 말하며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "영업 현황",
+        "evidence_text": "조정된 원료비는 도시가스 도매요금과 소비자요금에 곧바로 연동하여 조정됩니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 5574,
+    "completion_tokens": 5387,
+    "reasoning_tokens": 4608,
+    "output_tokens": 779
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

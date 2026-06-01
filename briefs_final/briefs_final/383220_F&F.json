@@ -1,0 +1,69 @@
+{
+  "stock_code": "383220",
+  "corp_name": "F&F",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 18:34",
+  "meta": {
+    "wics": "섬유,의류,신발,호화품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "F&F는 디자인 기획부터 생산·유통까지 수행하는 패션 전문 회사로, MLB, MLB KIDS, DISCOVERY, DUVETICA, SUPRA, SERGIO TACCHINI 등 라이센스 및 자체 브랜드를 보유하고 있습니다. 중국(에프앤에프 차이나), 홍콩(FNF HONGKONG), 베트남 등 현지 법인을 통해 아시아 시장에서 온·오프라인 유통을 전개하고 있습니다.",
+    "business_model": "주요 수익원은 자체 기획·생산한 패션 제품의 도·소매 판매로, 백화점·면세점·대리점·직영점 및 자사몰·제휴몰 등 오프라인과 온라인 채널을 통해 유통합니다. 판매방식은 위탁판매(유통사에 수수료 지급)와 사입판매(사입가격을 매출로 인식)를 병행하며, 라이센스 브랜드 운영과 해외 자회사를 통한 현지 유통으로 매출을 확장하고 있습니다.",
+    "main_customers": "패션부문 — 백화점·면세점·대리점·직영점·자사몰을 이용하는 일반 소비자 / 해외 패션 — 중국·홍콩·대만 등 현지 소비자 및 중국인 등 해외 관광객 / 브랜드별 타겟 — MLB KIDS: 5~8세 아동, DISCOVERY(아웃도어): 주 타깃 20~40대",
+    "price_factors": [
+      {
+        "factor": "경기 민감성",
+        "detail": "국내 패션시장은 경기변동에 민감해 소비심리 약화 시 매출 감소로 실적에 직접적인 영향을 받습니다."
+      },
+      {
+        "factor": "계절성",
+        "detail": "S/S·F/W 시즌별 판매 차이가 커 상품기획과 재고·판매 타이밍에 따른 실적 변동성이 큽니다."
+      },
+      {
+        "factor": "유통채널 변화",
+        "detail": "인터넷몰 등 온라인 채널 확대는 오프라인 매장 구조 변화와 매출 채널 재편을 촉진합니다."
+      },
+      {
+        "factor": "브랜드·트렌드",
+        "detail": "브랜드 가치와 트렌드 적중 여부가 매출과 마진에 중요한 영향을 미치며 마케팅·R&D 투자가 실적에 직결됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A) > 가. 회사의 사업 및 경영",
+        "evidence_text": "당사는 그 시대와 시장의 트렌드를 분석하여 소비자의 라이프스타일에 맞는 제품을 기획, 디자인, 생산, 유통하는 패션 전문 회사입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "경영진 실적·전략 요약 (MD&A) > 가. 회사의 사업 및 경영",
+        "evidence_text": "판매방식에는 위탁판매 방식 및 사입판매 방식이 있으며,"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황 > 가. 영업개황",
+        "evidence_text": "모험심과 개성이 강한 5~8세의 아동을 주요 타겟으로 하며,"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "영업 현황 > 가. 시장여건 및 영업의 개황 등",
+        "evidence_text": "2024년을 기점으로 본격적인 성장 조정 및 저성장 단계에 진입했습니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 5583,
+    "completion_tokens": 5920,
+    "reasoning_tokens": 5056,
+    "output_tokens": 864
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

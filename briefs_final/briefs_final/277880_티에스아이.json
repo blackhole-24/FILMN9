@@ -1,0 +1,67 @@
+{
+  "stock_code": "277880",
+  "corp_name": "티에스아이",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 14:47",
+  "meta": {
+    "wics": "전자장비와기기",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "티에스아이는 2차 전지 제조에 필요한 믹싱 공정용 장비와 시스템을 제조·판매하는 기업입니다. 연결대상 종속회사들도 모두 2차전지 믹싱 시스템 관련 사업을 영위하여 사업을 통합해 보고하고 있습니다.",
+    "business_model": "주요 매출은 믹싱 시스템(91.5%), 믹싱 제작품(2.0%), 공사(5.6%), 기타(0.9%)으로 구성되며, 믹싱 시스템이 매출의 대부분을 차지합니다. 회사는 믹싱 공정 전반을 엔지니어링, 장비 제작·설치, 고객 MES(생산관리시스템) 연동 등을 포함한 통합 Mixing Solution과 Turn‑Key(일괄공급) 방식으로 제공하고 있습니다.",
+    "main_customers": "믹싱 시스템 — 국내외 2차전지 제조업체 / 믹싱 제작품 — 국내외 2차전지 제조업체 / 공사 — 2차전지 제조업체의 생산설비 구축 고객 / 기타 — 회사의 제품을 구매하는 국내외 2차전지 관련 기업",
+    "price_factors": [
+      {
+        "factor": "수주산업 특성",
+        "detail": "수주·인도 시점에 따라 매출 인식 시기가 변동되어 분기·연간 실적 변동성을 키울 수 있습니다."
+      },
+      {
+        "factor": "원가 구조",
+        "detail": "원재료 매입과 외주비가 총비용의 대부분을 차지하여 원자재 가격 및 외주비 변동이 실적에 직접 영향을 미칩니다."
+      },
+      {
+        "factor": "기술진입 장벽",
+        "detail": "기술적 진입 장벽이 높아 레퍼런스와 기술력 보유 여부가 수주 경쟁력(실적)에 큰 영향을 줍니다."
+      },
+      {
+        "factor": "정부 지원 정책",
+        "detail": "소재·부품·장비 경쟁력 강화 정책에 따른 지원은 산업 전반의 투자와 장비 수요에 긍정적 영향을 줄 가능성이 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용",
+        "evidence_text": "회사는 2차 전지 제조 장비 업체로"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "믹싱 시스템: 242,092,539,472 (91.5%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "생산된 주요 제품 등은 회사가 대부분 직접 국 내외로 판매하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 나) 업계 현황",
+        "evidence_text": "기술적 진입 장벽이 높은 산업"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5415,
+    "completion_tokens": 4827,
+    "reasoning_tokens": 4096,
+    "output_tokens": 731
+  },
+  "warnings": []
+}

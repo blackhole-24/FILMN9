@@ -1,0 +1,67 @@
+{
+  "stock_code": "080470",
+  "corp_name": "성창오토텍",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 06:05",
+  "meta": {
+    "wics": "자동차부품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "성창오토텍은 자동차용 부품을 개발·제조·공급하는 단일 사업부문을 영위하는 기업입니다. 국내 생산은 공조시스템 관련 제품이 중심이고, 해외 생산은 주로 사출제품 중심으로 이루어지며 2025년 연결기준 매출액은 2,435억원을 기록했습니다.",
+    "business_model": "주력 사업은 자동차 공조(HVAC) 관련 부품과 자동차용 사출품이며, OEM(주문자생산방식)으로 납품하는 구조입니다. [사업부문별 매출 구성]에 따르면 에어필터·스폰지 15.5%, 기타매출 0.1%를 차지하며, 제품별로는 Cabin Air Filter 8.5%, 전기전장 16.7%, Inverter 23.3%, 스폰지 7.0%, 사출 44.2%의 비중을 보입니다.",
+    "main_customers": "공조시스템·전기전장·Inverter 등 제품군 — 한온시스템·현대모비스 등 자동차 종합부품업체 / 최종완성차 — 현대차·기아차 등 국내·외 완성차업체",
+    "price_factors": [
+      {
+        "factor": "완성차 수요",
+        "detail": "내수·수출의 증감에 따라 매출이 직접 영향을 받아 실적 변동성이 발생합니다."
+      },
+      {
+        "factor": "전기차 전환",
+        "detail": "Inverter 등 친환경차 부품 비중(23.3%)이 높아 전기차 보급 확대가 수요에 영향을 미칩니다."
+      },
+      {
+        "factor": "환율",
+        "detail": "미·중 등 해외 영업 비중이 높고 주요 통화(USD, CNY)에 노출되어 환율 변동이 원화 실적에 영향합니다."
+      },
+      {
+        "factor": "글로벌 무역환경",
+        "detail": "해외공장 가동 및 관세·무역정책 변화(예: 고관세 등)가 수출과 생산 전략에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "자동차용 부품을 개발하고 제조, 공급하는 단일 사업부문을 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "에어필터, 스폰지: 37,660,779 (15.5%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "한온시스템, 현대모비스 등 자동차 종합부품업체를 통하여"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 가. 업계의 현황",
+        "evidence_text": "환경친화적 미래형 자동차와 지능형 자동차 개발을 위해"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5174,
+    "completion_tokens": 4396,
+    "reasoning_tokens": 3648,
+    "output_tokens": 748
+  },
+  "warnings": []
+}

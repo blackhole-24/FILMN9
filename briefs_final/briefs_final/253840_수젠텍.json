@@ -1,0 +1,83 @@
+{
+  "stock_code": "253840",
+  "corp_name": "수젠텍",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 13:51",
+  "meta": {
+    "wics": "건강관리장비와용품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "수젠텍은 BIO·NANO·IT·A.I 융합기술을 바탕으로 다중면역블롯, 현장진단(POCT), 디지털 헬스케어 분야에서 진단기술과 제품을 개발·제조·사업화하는 체외진단 전문기업입니다. 특히 다중면역블롯의 체외진단시약과 장비를 동시에 개발·제조·사업화하는 점을 특징으로 하고 있습니다.",
+    "business_model": "핵심 사업은 다중면역블롯 기반의 중앙검사실용 진단시약·장비, 중·소형 병·의원용 현장진단(POCT) 키트와 분석장비, 그리고 가정용 홈테스트와 연계된 디지털 헬스케어 플랫폼(앱·AI 알고리즘)으로 구성됩니다. 매출 구분은 제품매출, 수출, 용역매출, 상품매출, 기타매출 등으로 보고되고 있으며(비율 불명확), 진단시약·장비 판매와 플랫폼 연동을 통한 서비스가 주요 수익원입니다.",
+    "main_customers": "다중면역블롯 — 종합병원·검진센터 등 진단검사실 / 현장진단(POCT) — 중·소형 병·의원 / 디지털 헬스케어(홈테스트) — 일반 소비자(가정용) 및 플랫폼 이용자",
+    "price_factors": [
+      {
+        "factor": "디지털화",
+        "detail": "원격의료·앱 연결·AI 분석 확산은 홈테스트와 플랫폼 연동 제품 수요를 확대시켜 실적에 긍정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "팬데믹",
+        "detail": "COVID-19 등 감염병 유행 시 분자·항원 기반 POCT 수요가 급증하며 단기 실적 변동성이 커집니다."
+      },
+      {
+        "factor": "자동화",
+        "detail": "검사 자동화·장비 연결성 강화는 병원·검사실 고객의 대형 장비 도입 수요를 증대시켜 장비 매출에 영향합니다."
+      },
+      {
+        "factor": "글로벌경쟁",
+        "detail": "고가 외국산 제품이 국내 시장을 선점한 상황에서는 수출·ODM·브랜드 경쟁력 확보 여부가 실적에 중요합니다."
+      },
+      {
+        "factor": "고령화",
+        "detail": "고령화로 인한 만성질환·모니터링 수요 증가는 체외진단 제품의 구조적 수요를 뒷받침합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "다중면역블롯(Multiplex ImmunoBlot)"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "현장진단(POCT, Point-of-Care test)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황",
+        "evidence_text": "디지털 헬스케어(Digital healthcare&Home test)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "종합병원이나 검진센터와 같은 진단검사실에서 사용되는"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "일반 소비자가 가정에서 사용할 수 있는 홈테스트 제품"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "산업분석",
+        "evidence_text": "체외진단 산업은 COVID-19 팬데믹을 통해 그 중요성이 크게 부각되었습니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 5353,
+    "completion_tokens": 4637,
+    "reasoning_tokens": 3712,
+    "output_tokens": 925
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

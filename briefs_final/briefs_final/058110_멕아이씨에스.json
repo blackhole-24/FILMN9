@@ -1,0 +1,67 @@
+{
+  "stock_code": "058110",
+  "corp_name": "멕아이씨에스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 03:42",
+  "meta": {
+    "wics": "건강관리장비와용품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "멕아이씨에스는 응급실·중환자실에서 쓰이는 인공호흡기·호흡치료기·환자감시장치를 설계·제조·판매하는 의료기기 전문 업체입니다. 국내 최초로 인공호흡기를 개발·상용화했고 팬데믹 기간 동안 많은 인명 구조에 기여하며 국제적 전문업체로 자리매김했습니다.",
+    "business_model": "주요 수익원은 장비(인공호흡기·환자감시장치), 기타제품, 상품·임대·연결종속회사 매출 등으로 구성되어 있으며, 2025년 기준 인공호흡기 32.1%, 환자감시장치 7.9%, 기타제품 26.2%, 상품 및 기타 11.2%, 임대매출 7.6%, 연결종속회사 매출 15.0%로 매출이 분산되어 있습니다. 2025년부터는 장비 중심에서 장비·소모품·디지털 헬스케어의 세 축으로 사업 재편을 완료했고, 호흡치료기(OmniOx) 등 고수익 제품군 중심의 영업 전략을 강화하고 있습니다.",
+    "main_customers": "인공호흡기 — 병원(응급실·중환자실) / 환자감시장치 — 병원·의료기관 / 기타제품 — 의료기관 및 관련 기관 / 상품 및 기타 — 유통·판매 채널 / 임대매출 — 전문 렌탈업체·민간(가정용) 고객 / 연결종속회사 매출 — 연결종속회사의 고객",
+    "price_factors": [
+      {
+        "factor": "인허가(규제)",
+        "detail": "FDA 등 해외 인증 취득 여부가 북미 등 수출과 매출 발생 시점에 직접적 영향을 미칩니다."
+      },
+      {
+        "factor": "공급 과잉",
+        "detail": "팬데믹 이후 인공호흡기 과잉 공급 해소 여부가 매출 회복 속도에 영향을 줍니다."
+      },
+      {
+        "factor": "글로벌 가격 경쟁",
+        "detail": "글로벌 가격 경쟁 심화는 장비 부문 마진과 손익에 직접적인 하방 압력이 됩니다."
+      },
+      {
+        "factor": "소모품 수익성",
+        "detail": "소모품(Disposable) 매출 비중 확대는 장비 판매에 따른 반복 수익으로 전체 수익성에 기여합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "1. 경영 실적 개요 및 턴어라운드(Turn-around)의 실현",
+        "evidence_text": "의료기기 전문 제조업체입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "인공호흡기: 3,505,974 (32.1%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "2. 제품 라인업의 고도화 및 글로벌 인증 성과",
+        "evidence_text": "전문 렌탈업체를 통해 민간 시장으로 공급"
+      },
+      {
+        "field": "business_model",
+        "source_section": "2. 제품 라인업의 고도화 및 글로벌 인증 성과",
+        "evidence_text": "750U 모델이 2025년 5월 미국 FDA 510(k) 승인을 획득"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3791,
+    "completion_tokens": 5307,
+    "reasoning_tokens": 4480,
+    "output_tokens": 827
+  },
+  "warnings": []
+}

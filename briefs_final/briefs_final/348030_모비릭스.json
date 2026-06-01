@@ -1,0 +1,76 @@
+{
+  "stock_code": "348030",
+  "corp_name": "모비릭스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 17:08",
+  "meta": {
+    "wics": "게임엔터테인먼트",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "모비릭스는 2007년 7월 설립된 모바일 게임 개발·퍼블리싱 회사로, 자체 개발작과 외부 소싱 게임을 전세계에 서비스하고 있습니다. 당기말 기준 약 200여 종의 게임을 전세계 대상으로 서비스하고 있으며, 인앱 결제(게임 내 재화 판매)와 광고 수익화가 주요 수익원입니다.",
+    "business_model": "핵심 사업은 모바일 게임 소프트웨어의 개발 및 퍼블리싱이며, 매출은 인앱 결제(게임 내 재화 판매)와 광고(수익화)를 중심으로 발생합니다. FY2025 사업부문별 영업수익은 광고 매출 39.3%, 라이센스 매출 0.8%, 신기술사업 관련 투자 및 운용 수익 등 5.5%로 보고되었습니다.",
+    "main_customers": "인앱 결제 — 게임 이용자(개인 플레이어) / 광고 매출 — 광고 플랫폼(Google AdMob, Meta) 및 광고주 / 라이센스 매출 — 유통·제휴사 / 신기술사업 관련 투자·운용 수익 — 투자처·운용 대상",
+    "price_factors": [
+      {
+        "factor": "광고가격",
+        "detail": "게임 내 광고 노출 가격이 글로벌 광고주 간 입찰로 실시간 결정되어 광고수익 변동성이 실적에 직접 영향."
+      },
+      {
+        "factor": "플랫폼정책",
+        "detail": "구글·애플 등 오픈마켓의 수수료·정책 변화가 결제 및 수익 배분 구조에 영향을 미침."
+      },
+      {
+        "factor": "장르구조",
+        "detail": "캐주얼은 광고 중심 안정적 수익, 미드코어는 높은 ARPPU(유료 이용자당 평균수익)로 인앱매출 비중에 영향."
+      },
+      {
+        "factor": "경쟁심화",
+        "detail": "글로벌 및 플랫폼 간 경쟁 심화로 신작 성과 불확실성이 커져 매출 변동성이 확대될 수 있음."
+      },
+      {
+        "factor": "플랫폼다변화",
+        "detail": "앱스토어 외 앱인토스·샤오미·블루스택 등 신규 스토어 진출은 이용자층 확대 및 수익 구조 다변화 요인."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 영업현황",
+        "evidence_text": "당사는 2007년 7월 모바일 게임 제작 및 공급을 주 사업 목적으로 설립되어, 국내 이동통신사의 피처폰 대상으로 수십 종의 모바일 게임을 자체 개발 및 서비스 하였습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. 영업현황",
+        "evidence_text": "당사의 주요 매출 구조는 사용자에게 게임 내 재화를 판매하는 ‘인앱 결제 매출’과 광고 플랫폼을 통해 광고를 공급받아 게임 사용자에게 노출시킨 대가로 발생하는 ‘광고 수익화 매출’로 구분할 수 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "광고 매출: 15,614,261 (39.3%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 영업현황",
+        "evidence_text": "당기말 기준 약 200여 종의 게임을 전세계 대상으로 서비스하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "다. 모바일 게임 산업, 게임 산업의 성장성 및 경쟁 요소",
+        "evidence_text": "광고 수익화 방식은 대부분의 비결제 사용자들에게 수익을 발생시킬 수 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5360,
+    "completion_tokens": 3855,
+    "reasoning_tokens": 2944,
+    "output_tokens": 911
+  },
+  "warnings": []
+}

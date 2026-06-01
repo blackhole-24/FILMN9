@@ -1,0 +1,77 @@
+{
+  "stock_code": "388210",
+  "corp_name": "씨엠티엑스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 18:37",
+  "meta": {
+    "wics": "반도체와반도체장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "씨엠티엑스는 2013년 창립 이후 반도체 전공정의 핵심 공정인 식각(Etching)·증착(Deposition) 분야에 들어가는 고기능 정밀 부품을 제조하는 전문 소재·부품 기업입니다. 실리콘(Si), 사파이어(Sapphire), 세라믹(Ceramic) 기반의 소모성 파츠를 중심으로 반도체 제조업체를 주요 고객으로 두고 기술 경쟁력을 쌓아왔습니다.",
+    "business_model": "주요 제품은 실리콘 파츠(식각 챔버용 소모성 부품), 세라믹 파츠, 사파이어 파츠 등이며, 소모성 특성상 반도체 생산량과 연동되는 반복적 수요가 핵심 수익원입니다. FY2025 기준 사업부문별 영업수익은 Ceramic Parts: 477 (0.3%), Sapphire Parts: 212 (0.1%), 기타: 3,068 (1.9%)로 기재되어 있습니다.",
+    "main_customers": "실리콘 파츠 — 메모리·Foundry 등 반도체 제조업체(예: 삼성전자) / Ceramic Parts — 반도체 공정 및 디스플레이·자동차·바이오 산업의 장비 및 공정 / Sapphire Parts — 고온·고화학 환경이 요구되는 반도체 공정의 제조업체",
+    "price_factors": [
+      {
+        "factor": "전방 수요",
+        "detail": "NAND·DRAM·Foundry 등 글로벌 반도체 전방시장(Final Market)의 설비투자 변화에 따라 제품 수요가 직접 변동합니다."
+      },
+      {
+        "factor": "공정 고도화",
+        "detail": "반도체 기술 발전(미세화)으로 플라즈마 강도가 증가하고 부품 마모가 빨라져 교체주기가 짧아지며 이는 실리콘 부품 수요 증가로 이어집니다."
+      },
+      {
+        "factor": "설비투자(Capex)",
+        "detail": "Before Market(신규설비 도입)수요와 After Market(소모품 교체)수요의 차이로 인해 설비투자 사이클이 실적에 영향을 미칩니다."
+      },
+      {
+        "factor": "고객 검증",
+        "detail": "반도체 공정 적용까지 장기간의 검증이 필요해 일단 채택되면 장기간 안정적 공급관계가 유지되는 점이 실적 안정성에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "당사는 반도체 전공정 중에서도 핵심 공정에 해당하는 식각(Etching), 증착(Deposition) 분야에 사용되는 고기능 정밀 부품을 제조하는 전문 소재·부품 기업으로, 2013년 창립 이래 반도체 공정용 부품 산업에서 기술 혁신과 성장을 지속해오고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "Ceramic Parts: 477 (0.3%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "Sapphire Parts: 212 (0.1%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "기타: 3,068 (1.9%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "당사는 삼성전자 등 주요 반도체 제조업체를 고객사로 확보하고 있으며,"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "라. 시장여건 및 영업의 개황 (1) 산업의 특성",
+        "evidence_text": "반도체 기술 발전에 따라 공정 반복횟수 증가와 부품 마모 속도 증가로 실리콘 부품 교체 주기가 감소하기 때문에 실리콘 부품 시장은 지속적으로 성장할 것으로 전망됩니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 6274,
+    "completion_tokens": 5313,
+    "reasoning_tokens": 4288,
+    "output_tokens": 1025
+  },
+  "warnings": []
+}

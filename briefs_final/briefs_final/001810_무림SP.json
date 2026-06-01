@@ -1,0 +1,72 @@
+{
+  "stock_code": "001810",
+  "corp_name": "무림SP",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 12:37",
+  "meta": {
+    "wics": "종이와목재",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "무림SP는 지류(종이) 제조를 주력으로 하는 기업으로, 제조부문과 물류·창고업을 영위하는 연결회사를 보유하고 있습니다. 백상지·아트지·CCP(광택이 뛰어난 고급포장용지) 등 다품종 소량생산을 통해 개별 지종별로 다수의 1위 제품을 보유하고 있으며, 전체 매출의 80% 이상을 내수판매로 올리고 있습니다.",
+    "business_model": "주요 사업부문은 제조부문(지류의 제조·판매)과 기타부문(물류 창고업)으로 구성되며, 제조부문에서 백상지·아트지·CCP·기타지 등을 생산하여 주로 지류 도매상·출판사·인쇄소 등 실수요자에 판매합니다. 특히 CCP 매출은 2025년 전체 매출의 30%를 차지하며(제품별 고부가가치 지종 중심), 전체 매출의 대다수는 내수 판매입니다.",
+    "main_customers": "제조부문 — 지류 도매상 및 대형 출판사·대형인쇄소 등 실수요자(End User) / 기타부문 — 지류·펄프 보관 및 운송 수요 기업",
+    "price_factors": [
+      {
+        "factor": "펄프가격",
+        "detail": "국제 펄프가격 변동은 원재료비에 직접 영향을 미쳐 제조원가와 수익성에 큰 영향을 줍니다."
+      },
+      {
+        "factor": "환율·유가",
+        "detail": "원/달러 환율과 국제 유가는 수입 펄프 비용 및 물류비용을 통해 실적에 영향을 미칩니다."
+      },
+      {
+        "factor": "전방 수요",
+        "detail": "출판·인쇄업황(전방산업) 약화 시 지류 수요 감소로 매출에 부정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "에너지·인건비",
+        "detail": "에너지비용 및 인건비 상승은 제조원가를 높여 수익성 악화 요인이 됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "[DART 사업보고서 — 영업 현황]",
+        "evidence_text": "당사 연결실체는 전략적인 영업단위인 2개의 보고부문을 가지고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "<제조부문 개요>",
+        "evidence_text": "2025년 CCP 매출은 전체 매출의30% 비중에 해당됩니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "<제조부문 개요>",
+        "evidence_text": "주요 매출처로 지류 도매상 및 대형 출판사, 대형인쇄소 등"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "<제조부문 개요>",
+        "evidence_text": "전체 매출액의 80% 이상을 내수판매가 차지하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "<제조부문 개요>",
+        "evidence_text": "주요 원재료는 목재펄프로 계열회사인 무림P&P(주)로부터 일부 조달하고"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4639,
+    "completion_tokens": 4791,
+    "reasoning_tokens": 3968,
+    "output_tokens": 823
+  },
+  "warnings": []
+}

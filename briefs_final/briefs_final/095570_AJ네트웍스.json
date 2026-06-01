@@ -1,0 +1,62 @@
+{
+  "stock_code": "095570",
+  "corp_name": "AJ네트웍스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 07:34",
+  "meta": {
+    "wics": "도로와철도운송",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "AJ네트웍스는 렌탈(파렛트·IT기기·산업장비)과 창고·유통을 주요 사업으로 영위하는 B2B(기업대상) 서비스 기업입니다. 연결종속회사를 통해 베트남 냉장·냉동 창고임대업 등도 운영하고 있으며, 사업을 렌탈부문·창고 및 유통부문·기타부문으로 구분하고 있습니다.",
+    "business_model": "핵심 수익원은 렌탈부문으로, FY2025 기준 렌탈부문이 64.8%를 차지하며 창고 및 유통부문이 35.2%, 기타부문이 3.0%를 차지합니다. 렌탈부문은 파렛트(물류부자재), OA·모바일 등 IT기기, 건설현장용 고소장비·지게차 등 산업장비 렌탈을 중심으로 B2B 고객을 대상으로 장단기 렌탈 및 자산관리(구매·보관·유지보수)를 제공하는 구조입니다.",
+    "main_customers": "렌탈부문 — 대형 제조·유통·물류회사 및 금융회사·공공기관·대기업 / 창고 및 유통부문 — 냉장·냉동 창고 임차 기업 및 유류·HW 유통 관련 거래처 / 기타부문 — 기타 법인 및 계열사 대상 서비스",
+    "price_factors": [
+      {
+        "factor": "수요전환",
+        "detail": "구매에서 렌탈로의 소비·기업 수요 전환이 지속되면 렌탈 매출 성장에 긍정적 영향을 줍니다."
+      },
+      {
+        "factor": "경쟁심화",
+        "detail": "법적 규제가 없는 시장 특성상 대기업 및 소규모 사업자 진입이 쉬워지면 가격·수익성 압박이 발생할 수 있습니다."
+      },
+      {
+        "factor": "자산·자금력",
+        "detail": "렌탈사업은 자산구매·관리·채권회수 능력이 중요해 자본력과 자산관리 노하우가 실적 안정성에 직접적 영향을 미칩니다."
+      },
+      {
+        "factor": "렌탈기간구조",
+        "detail": "단기렌탈과 장기렌탈의 수익구조 차이로 단기렌탈 확대 시 회전율·회수리스크가 커지고, 장기렌탈은 비교적 안정적 수익을 제공합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황(개요)",
+        "evidence_text": "당사와 종속회사의 사업부문별 현황을 요약하면 아래와 같습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "렌탈부문: 693,825 (64.8%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황 > 1) 렌탈 부문",
+        "evidence_text": "국내 유수의 대형 제조/유통/물류회사 등을 주요 거래처로 확보하고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5422,
+    "completion_tokens": 3927,
+    "reasoning_tokens": 3136,
+    "output_tokens": 791
+  },
+  "warnings": []
+}

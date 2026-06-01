@@ -1,0 +1,72 @@
+{
+  "stock_code": "073190",
+  "corp_name": "듀오백",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 11:10",
+  "meta": {
+    "wics": "가구",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "듀오백은 1987년 설립된 의자 전문 제조업체로, 독일 DUOBACK 이론을 도입해 한국인 체형에 맞게 설계·생산해온 기업입니다. 전국 취급점·대형할인점·홈쇼핑·온라인 등 다양한 유통망과 사후서비스망을 기반으로 기능성(인체공학) 의자를 주력으로 판매하고 있습니다.",
+    "business_model": "주요 제품은 듀오백 브랜드의 성인용·여성용·아동용 의자이며, 판매는 내수(온라인·오프라인 유통)와 수출로 나뉩니다; 사업부문별 매출은 내수 90%, 수출 10%로 구성되어 있습니다.",
+    "main_customers": "내수 — 일반가정·기업체·관공서 / 수출 — 수출 시장(해외 수요)",
+    "price_factors": [
+      {
+        "factor": "계절성",
+        "detail": "가정용 시장은 신학기 등 연초에 최대 성수기가 있어 해당 시기에 매출이 집중됩니다."
+      },
+      {
+        "factor": "경기민감",
+        "detail": "의자 수요는 국민소득·경기 변동에 따라 증감하므로 경기 하강 시 실적에 부담이 될 수 있습니다."
+      },
+      {
+        "factor": "원자재비",
+        "detail": "원자재비 상승은 비용 부담으로 연결되어 영업이익에 직접적인 악영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "경쟁력",
+        "detail": "품질·가격·A/S가 경쟁요소로, 차별화된 기능성 제품과 브랜드력으로 시장 점유율 확보가 중요합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "(가) 영업개황",
+        "evidence_text": "1996년부터 본격적인 생산 및 차별화된 영업망을 형성하여 판매를 시작하였습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "내수 ... 17,862(90%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "수출 ... 1,910(10%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "4) 시장의 특성 / 5) 경쟁요소",
+        "evidence_text": "당사는 의자 전문제조업체로서 주요 고객층은 일반가정, 기업체, 관공서 등이며,"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "4) 시장의 특성",
+        "evidence_text": "가정용시장의 경우 신학기 등의 연초에 최대 성수기를 이루고 있으며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4947,
+    "completion_tokens": 2946,
+    "reasoning_tokens": 2240,
+    "output_tokens": 706
+  },
+  "warnings": []
+}

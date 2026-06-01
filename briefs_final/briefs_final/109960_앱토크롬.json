@@ -1,0 +1,82 @@
+{
+  "stock_code": "109960",
+  "corp_name": "앱토크롬",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:17",
+  "meta": {
+    "wics": "제약",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "앱토크롬은 의약품 유통과 부동산·장비 임대사업을 주요 사업으로 하는 회사입니다. 종속회사를 통해 원전특수단열 설계·제작·시공과 소프트웨어 개발도 함께 영위하고 있으며, 2025년 연결 기준 매출액은 98억원, 영업손실은 22억원을 기록했습니다.",
+    "business_model": "주요 수익원은 의약품 사업, 임대 사업, 단열 사업으로 구성되어 있습니다. FY2025 사업부문별 영업수익 구성은 의약품 사업 1,665백만원(17.6%), 임대 사업 518백만원(5.2%), 단열사업 830백만원(14.6%)이며, 의약품 유통은 KGSP(의약품 유통품질관리기준) 허가를 바탕으로 약 100품목 이상의 의약품을 취급합니다. 종속회사는 원전특수단열[Nukon System(N.G.B.T.I)]과 발포유리 단열재(Foamglas) 등 단열 관련 사업을 수행합니다.",
+    "main_customers": "의약품 사업 — 외피용약·소화기관용약·자양강장변질제·항생물질제제 유통 수요처 / 임대 사업 — 보유 부동산 및 장비를 이용하는 임차인 / 단열 사업 — 원전특수단열 및 단열재 설계·시공 수요처",
+    "price_factors": [
+      {
+        "factor": "도매경쟁",
+        "detail": "국내 완제의약품 도매업체 수가 많아 경쟁이 치열해지면 유통 마진과 실적에 부담이 될 수 있습니다."
+      },
+      {
+        "factor": "고령화",
+        "detail": "인구 고령화와 만성질환 증가로 의약품 수요가 늘어나면 유통 사업의 매출 기반이 커질 수 있습니다."
+      },
+      {
+        "factor": "원전수주",
+        "detail": "종속회사의 원전특수단열 사업은 원전 수주와 발주 상황에 따라 매출 변동이 커질 수 있습니다."
+      },
+      {
+        "factor": "부동산임대",
+        "detail": "보유 부동산과 장비의 임대 수요가 유지되면 임대 사업 매출이 안정적으로 이어질 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 외피용약, 소화기관용약, 자양강장변질제, 항생물질제제 등의 의약품을 중심으로 유통, 판매하는 의약품 사업"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사가 보유한 부동산 및 장비(기계, 설비 등)를 대여하는 임대사업"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "의약품 사업: 1,665 (17.6%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "임대 사업: 518 (5.2%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "단열사업: 830 (14.6%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "2017년 05월 01일 의약품유통품질관리기준(KGSP) 허가를 취득"
+      },
+      {
+        "field": "key_financials",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "제28기 연결 기준 실적은 매출액 9,807백만원, 영업손실 2,286백만원"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4285,
+    "completion_tokens": 996,
+    "reasoning_tokens": 0,
+    "output_tokens": 996
+  },
+  "warnings": []
+}

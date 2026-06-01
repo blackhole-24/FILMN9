@@ -1,0 +1,87 @@
+{
+  "stock_code": "006060",
+  "corp_name": "화승인더",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 19:29",
+  "meta": {
+    "wics": "섬유,의류,신발,호화품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "화승인더는 주문자개발생산(ODM) 방식의 신발 제조를 핵심으로 하는 기업으로, 신발 ODM 외에 화학(필름)과 유통·금융 사업을 영위하고 있습니다. 아디다스 그룹과의 인증·계약을 기반으로 생산능력을 운영하며 ODM 중심의 사업구조를 갖추고 있습니다.",
+    "business_model": "FY2025 기준 매출은 ODM부문 87.9%, 화학부문 10.7%, 유통 및 금융부문 1.4%로 구성되어 있으며, 핵심 수익원은 신발 ODM(주문자개발생산)입니다. ODM은 아디다스와 상호 협의된 납품단가로 운용되며, 화학부문은 국제유가·환율 등 매입원가를 반영한 판매단가를 적용하고, 유통부문은 중계무역 형태의 개별 가격협의로 수익을 창출합니다. 회사는 자동화설비 도입 등으로 생산효율을 개선해 수익성 제고 노력을 병행하고 있습니다.",
+    "main_customers": "ODM부문 — 아디다스 그룹 / 화학부문 — 식품·포장재 등 관련 산업 / 유통 및 금융부문 — 중계무역의 개별 매출처",
+    "price_factors": [
+      {
+        "factor": "노동비·임금",
+        "detail": "노동집약적 생산구조 상 인건비 상승은 제조원가와 수익성에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "원자재·유가·환율",
+        "detail": "화학부문과 유통부문은 국제유가 및 환율 변동에 따라 판매단가와 마진이 변화합니다."
+      },
+      {
+        "factor": "글로벌 브랜드 집중",
+        "detail": "아디다스 등 소수 글로벌 브랜드의 협상력은 주문량과 단가에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "친환경 규제·기술",
+        "detail": "친환경 소재·제조공정 도입 요구는 생산공정과 원가구조에 영향을 미칠 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "나. 주요제품 및 서비스",
+        "evidence_text": "ODM부문은 신발관련 제상품과 모자관련 제품으로 매출이 구성되어있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 영업수익 구성 (FY2025)]",
+        "evidence_text": "ODM부문: 1,564,731 (87.9%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 영업수익 구성 (FY2025)]",
+        "evidence_text": "화학부문: 190,872 (10.7%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 영업수익 구성 (FY2025)]",
+        "evidence_text": "유통 및 금융부문: 25,438 (1.4%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "나. 주요제품 및 서비스",
+        "evidence_text": "ODM부문은 아디다스의 인증을 받고,"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나. 주요제품 및 서비스",
+        "evidence_text": "국제유가 및 환율 등 매입원가를 반영하여"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나. 주요제품 및 서비스",
+        "evidence_text": "원재료 가격 인상 및 인건비 상승"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "친환경 개념이 신발산업에도 도입되면서"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5359,
+    "completion_tokens": 5692,
+    "reasoning_tokens": 4736,
+    "output_tokens": 956
+  },
+  "warnings": []
+}

@@ -1,0 +1,67 @@
+{
+  "stock_code": "000490",
+  "corp_name": "대동",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 11:33",
+  "meta": {
+    "wics": "기계",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "대동은 농기계 전문기업으로 한국을 비롯해 미국, 중국, 유럽 등 주요 시장에 농기계를 제조·판매하고 있으며, 본사 포함 13개의 종속회사로 구성된 연결기업입니다. 2025년 연결 누적 매출은 1조 4,847억원으로 수출 비중이 높은 글로벌 사업구조를 갖추고 있습니다.",
+    "business_model": "사업부문별 매출은 농기계부문 85.51%, 주물제품부문 12.98%, 기타부문 1.51%로 구성되어 있어 농기계가 핵심 수익원입니다. 트랙터·콤바인·이앙기 등 전통 농기계 판매가 주력인 한편, 원격관제 서비스·스마트파밍 플랫폼 개발과 모빌리티 제품을 통한 사업 다각화(플랫폼화)도 추진하고 있습니다.",
+    "main_customers": "농기계 — 농업용 기계 수요자(트랙터·콤바인·이앙기 등) / 주물제품 — 실린더헤드 등 주물제품 수요처 / 기타 — 유압기기류 등 농기계 부품·장비 수요처",
+    "price_factors": [
+      {
+        "factor": "글로벌 경기",
+        "detail": "글로벌 경기 변동은 수출 비중이 큰 매출에 직접 영향하여 실적 변동성을 키울 수 있습니다."
+      },
+      {
+        "factor": "수출 의존도",
+        "detail": "해외 판매 비중 확대 전략으로 수출 시장의 수요·무역환경 변화에 실적 민감도가 높아집니다."
+      },
+      {
+        "factor": "브랜드·기술",
+        "detail": "DAEDONG·KIOTI 브랜드와 연구개발 투자 수준은 제품 경쟁력·시장확대에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "스마트전환",
+        "detail": "자율주행·텔레매틱스·플랫폼 도입은 제품 차별화와 서비스 확대로 중장기 수익구조에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 한국, 미국, 중국, 유럽 등에 농기계를 제조 및 판매하는 기업입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "농기계 85.51%"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "농기계부문은 농업용 기계인 트랙터, 콤바인, 이앙기 등을 공급하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "기술개발을 통한 해외판매 매출 비중을 지속적으로 증가시킬 계획중이며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3675,
+    "completion_tokens": 3873,
+    "reasoning_tokens": 3136,
+    "output_tokens": 737
+  },
+  "warnings": []
+}

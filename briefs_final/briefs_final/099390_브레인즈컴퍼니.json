@@ -1,0 +1,62 @@
+{
+  "stock_code": "099390",
+  "corp_name": "브레인즈컴퍼니",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 07:48",
+  "meta": {
+    "wics": "소프트웨어",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "브레인즈컴퍼니는 패키지 소프트웨어 개발·판매를 주된 사업으로 영위하는 IT 서비스 기업으로, IT 인프라 통합관리솔루션을 핵심 제품으로 제공합니다. 자체 개발한 Zenius EMS가 주력 제품이며, 분산된 서버·네트워크·데이터베이스·애플리케이션 등 다양한 IT 인프라를 통합 관리하는 솔루션을 공급합니다.",
+    "business_model": "FY2025 기준 사업부문은 제품 62.3%(13,199), 매출 2위 27.8%(5,886), 상품 9.9%(2,104)으로 구성되어 있습니다. 핵심 수익원은 Zenius EMS(IT 인프라 통합관리솔루션) 판매 및 관련 유지보수·서비스로, Zenius는 다수의 포인트 솔루션을 모듈로 제공하며 빅데이터·인공지능 기술을 접목해 클라우드·IoT 환경에서도 적용 가능한 고도화된 기능(사전 장애 예측 등)을 제공합니다.",
+    "main_customers": "제품 — 기업·공공기관의 IT 운영조직 / 매출 2위 — 클라우드·IT 서비스 운영 주체(기업·공공기관) / 상품 — IT 관련 제품을 도입하는 기업·공공기관",
+    "price_factors": [
+      {
+        "factor": "클라우드 전환",
+        "detail": "클라우드 활용 확대는 Zenius의 클라우드 적용성 및 SaaS(구독형 서비스) 관련 수요를 늘려 실적에 긍정적 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "AI·빅데이터 기술",
+        "detail": "빅데이터·인공지능 기반 기능 고도화는 제품 차별화로 연결되어 매출과 마진 개선에 기여할 가능성이 큽니다."
+      },
+      {
+        "factor": "고객 맞춤화 경쟁",
+        "detail": "국내 고객의 커스터마이징 수요와 공공시장 중심 경쟁은 가격·서비스 대응력이 실적에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "네트워크·가상화 확산",
+        "detail": "네트워크 트래픽 대용량화 및 가상화 확산은 성능관리·트래픽 분석 수요를 증가시켜 솔루션 수요에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 패키지 소프트웨어 개발 및 판매 업체로서"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "Zenius는 IT 인프라 운영에 필요한 20여 종의 포인트 솔루션으로 구성되어 있으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "제품: 13,199 (62.3%)"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5169,
+    "completion_tokens": 3232,
+    "reasoning_tokens": 2496,
+    "output_tokens": 736
+  },
+  "warnings": []
+}

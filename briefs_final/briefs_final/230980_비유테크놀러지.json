@@ -1,0 +1,66 @@
+{
+  "stock_code": "230980",
+  "corp_name": "비유테크놀러지",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 13:07",
+  "meta": {
+    "wics": "우주항공과국방",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "비유테크놀러지(230980)는 XR(확장현실) 콘텐츠·솔루션과 가상 시뮬레이터를 중심으로 하는 IT 서비스 기업으로, 업종 표기는 우주항공과국방(국방 솔루션 포함)입니다. 연결실체는 지배기업인 당사와 종속기업인 (주)한국미디어테크, (주)그리드로 구성되어 있습니다.",
+    "business_model": "사업보고서의 [사업부문별 매출 구성]에 따르면 'XR사업(밀리터리(국방) 솔루션 가상 Simulator)'이 매출의 100.0%를 차지합니다. 해당 사업은 1회성 System 구축형 프로젝트(고객 요구사항에 따라 개발되는 맞춤형 솔루션) 기반으로 수주에 따라 매출이 발생하며, 밀리터리 솔루션은 방위사업청·체계 업체와의 수의/경쟁 입찰로 가격이 결정됩니다.",
+    "main_customers": "XR·가상 시뮬레이터 — 맞춤 개발을 의뢰하는 기관·기업(고객 요구 기반) / 밀리터리(국방) 솔루션 — 방위사업청, 체계 업체",
+    "price_factors": [
+      {
+        "factor": "규제 불확실성",
+        "detail": "VR·AR 관련 법·제도가 과도기적·불명확한 부분이 있어 규제 개선 속도에 따라 사업 확장성과 투자이슈에 영향이 있을 수 있습니다."
+      },
+      {
+        "factor": "하드웨어 보급",
+        "detail": "VR·AR·XR 디바이스 보급 확대(글로벌 하드웨어 출하 증가)는 콘텐츠·시뮬레이터 수요 증가로 실적에 긍정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "정부 지원",
+        "detail": "정부의 선제적 투자 및 인프라 구축 계획은 XR 기술 도입 및 관련 사업 확대에 우호적인 환경을 제공합니다."
+      },
+      {
+        "factor": "기술 장벽",
+        "detail": "XR는 고도화된 R&D와 지속적 서비스 유지가 요구되므로 기술 경쟁력 확보 여부가 실적에 직접적 영향을 미칩니다."
+      },
+      {
+        "factor": "수주·입찰구조",
+        "detail": "밀리터리 솔루션은 방위사업청·체계 업체와의 수의/경쟁 입찰로 가격·수주가 결정되므로 입찰 성과가 실적 변동의 핵심 요인입니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "XR사업밀리터리(국방) 솔루션가상 Simulator: 13,686 (100.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "나. 주요 가격변동추이",
+        "evidence_text": "방위사업청 또는 체계 업체와의 수의/경쟁 입찰에 의하여 가격이 결정되며"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "연결실체는 지배기업인 당사((주)비유테크놀러지)와 종속기업인 (주)한국미디어테크, (주)그리드로 구성되어 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4034,
+    "completion_tokens": 3898,
+    "reasoning_tokens": 3072,
+    "output_tokens": 826
+  },
+  "warnings": []
+}

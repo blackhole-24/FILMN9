@@ -1,0 +1,69 @@
+{
+  "stock_code": "473980",
+  "corp_name": "노머스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 20:37",
+  "meta": {
+    "wics": "방송과엔터테인먼트",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "노머스는 2019년 3월 설립된 엔터테크(Entertainment + technology) 기업으로, 아티스트 IP(지식재산권)를 활용한 종합 솔루션을 제공하고 있습니다. 공연·MD(굿즈)·팬덤 플랫폼·콘텐츠 등으로 아티스트의 직접·간접 활동을 지원하며 성장주기를 함께하는 구조를 지향합니다.",
+    "business_model": "핵심 사업은 공연사업, MD사업, 플랫폼사업(팬덤 플랫폼 fromm) 및 콘텐츠 서비스로 구성되며, 아티스트의 콘텐츠 제작권·MD 제작권·유료 메시지·팬클럽 등 IP 사용권을 계약 형태로 취득해 수익화합니다. 플랫폼 내 스토어와 멤버십, 온라인 클래스(Wonderwall) 등으로 팬덤 기반의 다양한 상품·서비스를 제공하여 매출을 창출합니다.",
+    "main_customers": "공연사업 — 국내·해외 팬덤 / MD사업 — 팬·소비자(앨범·굿즈 구매자) / 플랫폼사업 — 아티스트·팬(팬덤 플랫폼 이용자)",
+    "price_factors": [
+      {
+        "factor": "K-pop 수요",
+        "detail": "K-pop의 글로벌 인기 확산은 해외 공연·팬덤 확장으로 매출과 공연·플랫폼 수요에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "굿즈 성장",
+        "detail": "굿즈(상품) 시장의 성장성은 MD사업 매출 확대와 제품 다변화에 따른 수익성 변화로 연결됩니다."
+      },
+      {
+        "factor": "공연 수요",
+        "detail": "공연 시장의 회복 및 확대는 티켓·VIP 패키지·현장 굿즈 수요를 늘려 공연사업 실적에 영향합니다."
+      },
+      {
+        "factor": "테크 융합",
+        "detail": "엔터와 기술(엔터테크) 융합 수준은 플랫폼 이용자 경험과 운영 효율성에 영향을 주어 플랫폼 사업 성과에 직결됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "당사는 2019년 3월 설립되어 '엔터테크(Entertainment + technology)' 기업으로서"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "매출액 757억원을 시현하였으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "당사가 제공하는 솔루션에는 공연, MD(굿즈), 팬덤 플랫폼, 콘텐츠"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "fromm서비스에서는 K-pop 아이돌 성향의 아티스트들과의 협업을 이루는 서비스로"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 5347,
+    "completion_tokens": 3866,
+    "reasoning_tokens": 3136,
+    "output_tokens": 730
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

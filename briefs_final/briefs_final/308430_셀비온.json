@@ -1,0 +1,87 @@
+{
+  "stock_code": "308430",
+  "corp_name": "셀비온",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 15:56",
+  "meta": {
+    "wics": "제약",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "셀비온은 2010년 설립된 방사성의약품 기반의 제약사로, 정밀의료 및 표적 항암 신약 개발에 주력하고 있습니다. 특히 PSMA 표적 전립선암 Theranostics 파이프라인(Lu-177-Pocuvotide 및 동반진단제 Ga-68-NGUL)을 핵심 사업으로 삼고 있습니다.",
+    "business_model": "FY2025 기준 사업부문별 영업수익에서 주사제 외가 97.0%, 기타가 3.0%를 차지하며(주사제 외: 1,893,188(97.0%), 기타: 51,885(3.0%)), 핵심 수익은 방사성의약품 개발·상업화 및 동반진단(Theranostics)입니다. 당사의 선도물질 Lu-177-Pocuvotide는 전립선암 치료·진단을 목표로 임상 2상 완료 후 허가·상업화 준비를 진행하고 있습니다.",
+    "main_customers": "주사제 외 — 국내 병원·암 환자 / 기타 — 연구기관·산·병·연 협력 조직",
+    "price_factors": [
+      {
+        "factor": "공급 안정성",
+        "detail": "유럽 GMP 공장에서 국내 병원까지 항공 운송 지연 시 공급 차질이 발생할 수 있으며, 국내 생산 체계는 이러한 리스크를 완화합니다."
+      },
+      {
+        "factor": "보험·약가",
+        "detail": "경쟁 약물(플루빅토)의 보험 급여 지연은 시장 확산 속도를 늦출 수 있어 약가 산정 및 시장 진입 시점에 실적 영향을 줍니다."
+      },
+      {
+        "factor": "동위원소 원가",
+        "detail": "Lu-177 생산업체 증가로 공급 확대 및 가격 하락이 예상되어 원가 경쟁력 개선이 실적에 긍정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "규제·임상진척",
+        "detail": "GIFT 지정·KDDF 지원 등 규제·임상 우대는 허가·상업화 속도를 높여 매출 전개 시점을 앞당길 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 - 영업 현황 가",
+        "evidence_text": "당사의 연구 개발 노력의 핵심은 선도 물질인 Lu-177-Pocuvotide에 집중되어 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "주사제 외: 1,893,188 (97.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "기타: 51,885 (3.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 - 영업 현황 가",
+        "evidence_text": "국내 임상 2상을 완료하였습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "국내 병원까지 배송되는 데 약 3~4일이 소요됩니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "플루빅토는 현재 보험 급여가 완료되지 않았고"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "방사성 동위원소 Lu-177의 글로벌 생산업체가 증가함에 따라 공급이 확대되면서 가격이 지속적으로 하락하고"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 - 영업 현황 가",
+        "evidence_text": "개발 단계 희귀의약품 및 글로벌 혁신제품 신속심사 지원(GIFT) 프로그램 제11호 품목으로 지정 받았습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5610,
+    "completion_tokens": 5597,
+    "reasoning_tokens": 4608,
+    "output_tokens": 989
+  },
+  "warnings": []
+}

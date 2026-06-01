@@ -1,0 +1,67 @@
+{
+  "stock_code": "065950",
+  "corp_name": "웰크론",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 04:38",
+  "meta": {
+    "wics": "건설",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "웰크론은 기능성 섬유소재를 바탕으로 클리너, 침구, 방산 등 다각화된 사업을 영위하는 기업입니다. 주력 품목인 고기능성 청소용품을 중심으로 미국·유럽 등 해외 50여개국에 수출하는 수출지향형 구조를 갖추고 있습니다.",
+    "business_model": "연결 기준으로 섬유부문(클리너·침구·방산)이 매출의 37.1%를 차지하며, 플랜트 부문이 25.9%, 건설부문이 22.9%, 신재생에너지 11.2% 등으로 구성됩니다. 섬유부문은 극세사 클리너·기능성 침구·방산 제품을, 플랜트·에너지부문은 식품·제약·환경·에너지 설비를, 건설부문은 일반건축·개발·공공·산업시설의 EPC(설계·조달·시공) 서비스를 통해 수익을 창출합니다.",
+    "main_customers": "클리너·섬유 — 해외 바이어(미국·유럽 등 수출처) / 침구 — 건강·수면을 중시하는 소비자 및 유통채널 / 방산 — 해양경찰청, 경찰청, 방위사업청 등 공공 방호기관 / 플랜트·에너지 — 식품·제약업체 및 환경·에너지 설비 수요처 / 건설 — 관공서·개발사업자·기업(업무·상업·산업시설) / 창고임대업 — 물류창고 임차업체",
+    "price_factors": [
+      {
+        "factor": "원자재 가격",
+        "detail": "유가 및 원사 등 원·부자재 가격 변동이 제조원가에 직접 영향을 미쳐 실적에 민감하게 작용합니다."
+      },
+      {
+        "factor": "수출 의존도",
+        "detail": "주요 클리너 제품이 해외 50여개국 위주로 수출되므로 글로벌 수요 변동에 따른 매출 변동성이 큽니다."
+      },
+      {
+        "factor": "건설경기",
+        "detail": "건설부문은 경기 민감 업종이어서 건설경기 침체 시 수주·매출이 빠르게 감소할 수 있습니다."
+      },
+      {
+        "factor": "고기능 섬유 수요",
+        "detail": "고성능·고기능성 섬유에 대한 수요 확대는 침구·방산 등 고부가 제품의 판매 확대와 연결됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "(클리너 사업)",
+        "evidence_text": "해외 50여개 국가를 대상으로 수출"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "섬유부문 107,261백만원(37.12%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "(방위산업)",
+        "evidence_text": "해양경찰청에 납품"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "(산업의 특성)",
+        "evidence_text": "유가 및 원사 등의 원·부자재 가격"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5868,
+    "completion_tokens": 4465,
+    "reasoning_tokens": 3648,
+    "output_tokens": 817
+  },
+  "warnings": []
+}

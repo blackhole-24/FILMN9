@@ -1,0 +1,83 @@
+{
+  "stock_code": "171120",
+  "corp_name": "라이온켐텍",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 10:45",
+  "meta": {
+    "wics": "건축자재",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "라이온켐텍은 1973년 새한화학공업사로 설립되어 합성왁스(플라스틱용 기능성 첨가제)와 인조대리석(아크릴계 건축자재)을 생산하는 화학업체입니다. 2025년 연결 기준 매출액은 1,303억원, 영업이익은 114억원, 당기순이익은 85억원을 기록했습니다.",
+    "business_model": "주요 사업은 인조대리석(아크릴계, MMA·PMMA 기반)과 합성왁스(폴리에틸렌·폴리프로필렌 유래의 산업용 왁스) 생산으로 구성되며, 이들 제품을 건축 내외장재 및 플라스틱·고무 등의 전방 산업에 공급합니다. 회사는 고부가가치 패턴 인조대리석과 기능성 합성왁스 개발을 통해 제품 차별화로 수익을 창출합니다.",
+    "main_customers": "인조대리석 — 건설사·인테리어업체·주방·가구 제조사 / 합성왁스 — 플라스틱·고무 가공업체 및 잉크·코팅·접착제·개인관리·화장품 관련 제조업체 / 기타 — 관련 제품을 사용하는 산업용 소재 제조업체",
+    "price_factors": [
+      {
+        "factor": "건설경기",
+        "detail": "주택·건설경기의 회복 또는 침체에 따라 인조대리석 수요가 변동하여 실적에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "원자재·물류",
+        "detail": "원자재 가격과 해상운임 변동이 원가와 이익률에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "해외시장 리스크",
+        "detail": "해외 정세(예: 러시아 불안정) 및 관세 정책 변화가 수출과 매출에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "전방산업 수요",
+        "detail": "개인관리·화장품·잉크·코팅·접착제 등 전방산업의 수요 확대가 합성왁스 수요 증가로 이어집니다."
+      },
+      {
+        "factor": "진입장벽",
+        "detail": "높은 초기 투자비용과 기술력으로 진입장벽이 형성되어 있어 기존 업체의 시장 안정성에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "당사는 1973년 새한화학공업사로 설립 이후"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "합성왁스를 생산하고 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "신규사업 등의 내용 및 전망 > (1) 인조대리석",
+        "evidence_text": "당사가 생산하는 광폭제품의 적용분야는 주로 건축 내외벽 및 주방용 가구로"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "원자재 가격과 해상운임이 하락하면서 전년대비 영업이익은 오히려 상승하는 결과를 보였습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "러시아 시장의 불안정성이 확대되고"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성 — 합성왁스 산업",
+        "evidence_text": "개인 관리 및 화장품, 잉크 및 코팅 및 접착제 부분의 급속한 성장은"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4912,
+    "completion_tokens": 6101,
+    "reasoning_tokens": 5120,
+    "output_tokens": 981
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

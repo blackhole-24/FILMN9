@@ -1,0 +1,67 @@
+{
+  "stock_code": "021240",
+  "corp_name": "코웨이",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 22:36",
+  "meta": {
+    "wics": "가정용기기와용품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "코웨이는 1989년 창립 이후 정수기·공기청정기·비데 등 환경가전 제품을 생산·판매해온 환경가전 전문기업으로, 국내외 렌탈 및 멤버십 계정을 다수 보유하고 있습니다.",
+    "business_model": "주요 수익원은 렌탈과 일시불·기타 매출로 구성되며, FY2025 기준 렌탈 매출 56.7%, 일시불 매출 2.3%, 기타 매출 0.6%로 렌탈 매출이 가장 큰 비중을 차지합니다. 렌탈 매출 중심의 수익구조에서 필터 교체 등 유지관리 서비스와 대규모 생산·R&D 역량이 경쟁력으로 작용합니다.",
+    "main_customers": "렌탈 매출 — 가구 단위의 일반 소비자(B2C) / 일시불 매출 — 일시불 구매를 하는 가구 단위 소비자 / 기타 매출 — 화장품·수처리 등 기타 사업의 제품 구매자",
+    "price_factors": [
+      {
+        "factor": "렌탈 성장",
+        "detail": "렌탈시장 규모 확대는 렌탈 매출(전체 수익의 큰 비중)을 늘려 실적에 직접 영향을 미칩니다."
+      },
+      {
+        "factor": "가구수 증가",
+        "detail": "가구수 증가로 환경가전 수요가 확대되면 렌탈·일시불 모두에서 매출 상승 요인이 됩니다."
+      },
+      {
+        "factor": "서비스망",
+        "detail": "유지관리서비스 조직과 전국적 서비스망의 경쟁력은 고객 선호와 시장 점유율에 직결됩니다."
+      },
+      {
+        "factor": "제품 기술",
+        "detail": "정수기 방식(역삼투압·직수형) 등 기술적 차별화는 제품 포지셔닝과 경쟁력에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 1989년 창립 이래 정수기, 공기청정기, 비데 등 환경가전 제품을 생산, 판매"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "렌탈 매출: 2,812,795 (56.7%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "렌탈시장 규모는 B2C 시장을 중심으로 지속 성장할 것으로 전망됩니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "유지관리서비스 조직의 경쟁력이 중요한 경쟁 변수"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5287,
+    "completion_tokens": 3444,
+    "reasoning_tokens": 2752,
+    "output_tokens": 692
+  },
+  "warnings": []
+}

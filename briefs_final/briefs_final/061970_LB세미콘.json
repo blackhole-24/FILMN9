@@ -1,0 +1,72 @@
+{
+  "stock_code": "061970",
+  "corp_name": "LB세미콘",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 04:09",
+  "meta": {
+    "wics": "반도체와반도체장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "LB세미콘은 반도체 후공정(OSAT) 사업을 주력으로 하는 기업으로, 패키징(Assembly)과 테스트(Test) 공정을 중심으로 비메모리 반도체의 후공정 서비스를 제공합니다. 또한 전기차 배터리·ESS 등에 사용되는 코발트, 니켈, 망간, 리튬 등 금속을 추출해 재활용·재생산하는 2차전지 재생 사업도 병행하고 있습니다.",
+    "business_model": "주요 수익원은 반도체 후공정(OSAT: 패키징·테스트)과 2차전지 소재의 재활용·재생산이며, FY2025 사업부문별 영업수익 구성은 A사(38.5%), B사(33.6%)로 보고되었습니다. 반도체 부문에서는 DDI, AP, PMIC, CIS 등 비메모리 반도체의 후공정 수요가 핵심입니다.",
+    "main_customers": "OSAT(반도체 후공정) — DDI·AP·PMIC·CIS 등을 생산하는 반도체 기업 / 2차전지 재생 — 전기차·ESS 등 배터리 원재료 수요처",
+    "price_factors": [
+      {
+        "factor": "첨단패키징 수요",
+        "detail": "2.5D·3D 패키징과 칩렛 등 첨단 패키징 비중 확대 시 고부가가치 매출과 수익성에 민감하게 영향받음."
+      },
+      {
+        "factor": "AI·HBM 수요",
+        "detail": "AI 가속기와 HBM 수요 급증은 후공정 전체 수요를 끌어올려 매출 변동성에 직접적인 영향을 줌."
+      },
+      {
+        "factor": "IT OLED 확산",
+        "detail": "IT용 OLED 라인 확대는 DDI(디스플레이 구동칩) 후공정 수요를 증가시켜 관련 사업 실적에 영향."
+      },
+      {
+        "factor": "지정학·공급망",
+        "detail": "미·중 패권 경쟁과 보호무역 심화는 공급망 재편 및 수주 환경 불확실성을 높여 실적 변동 요인이 됨."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "반도체 부문",
+        "evidence_text": "반도체 후공정(OSAT, Outsourced Semiconductor Assembly and Test) 산업을 영위하고 있으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "A사 (38.5%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "B사 (33.6%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "반도체 부문",
+        "evidence_text": "디스플레이 구동칩(DDI), 스마트폰용 중앙처리장치(AP), 전력관리반도체(PMIC), 이미지센서(CIS)"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 산업의 특성",
+        "evidence_text": "AI 가속기와 HBM 수요 급증"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4717,
+    "completion_tokens": 5618,
+    "reasoning_tokens": 4800,
+    "output_tokens": 818
+  },
+  "warnings": []
+}

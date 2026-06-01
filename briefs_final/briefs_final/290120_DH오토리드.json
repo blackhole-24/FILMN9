@@ -1,0 +1,71 @@
+{
+  "stock_code": "290120",
+  "corp_name": "DH오토리드",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 15:12",
+  "meta": {
+    "wics": "자동차부품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "DH오토리드는 스티어링휠(조향장치) 전문 제조사로, 2016년 대유플러스의 스티어링휠 사업부를 물적분할하여 설립되었습니다. 2001년 이후 축적한 기술을 바탕으로 국내 완성차 1차 협력사로 성장했으며, 2023년 11월 DH그룹에 편입되었습니다.",
+    "business_model": "핵심 사업은 스티어링휠 제조로, FY2025 기준 스티어링휠이 70.0%를 차지하고 PU사양 7.2%, 기타 23.2%로 수익이 구성됩니다. 제품은 PU(폴리우레탄) 사양과 가죽·열선·우드·HAPTIC 모터 등 고사양 옵션으로 구분되며, 가죽사양(8.6만원)과 PU사양(3만원) 간 단가 차이로 제품 믹스가 매출에 영향을 미칩니다.",
+    "main_customers": "스티어링휠 — 현대자동차·기아자동차·한국GM(완성차업체) / PU사양·기타 — 완성차업체",
+    "price_factors": [
+      {
+        "factor": "경기 민감도",
+        "detail": "자동차 수요가 경기 변동과 밀접해 경기 하강 시 완성차 판매 감소가 부품 수요에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "사양 전환",
+        "detail": "가죽 등 고사양 비중 증가로 개당 평균 단가가 상승해 매출 규모와 매출구성에 영향을 줍니다."
+      },
+      {
+        "factor": "진입장벽",
+        "detail": "에어백과 연계되는 안전성 요구로 품질 기준이 엄격해 신규업체 진입이 제한되어 수주 안정성에 유리합니다."
+      },
+      {
+        "factor": "전기차 확산",
+        "detail": "글로벌 전기동력차 시장의 성장(전년 대비 25% 증가)은 완성차 생산 변동과 함께 장기 수요에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "무역·관세",
+        "detail": "해외 수출은 관세 등 무역환경에 민감해 고관세 등 대외요인이 수출과 실적에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "(2) 설립 배경 및 설립 이후 성장과정",
+        "evidence_text": "2016년 9월 대유플러스의 스티어링휠 사업부를 물적분할 하여 설립되었습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "스티어링휠: 222,877 (70.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 회사의 현황 (1) 사업의 현황",
+        "evidence_text": "당사와 거래하고있는 완성차 업체는 현대자동차, 기아자동차, 한국GM입니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 산업의 특성 (1) 자동차 산업의 특성",
+        "evidence_text": "자동차 수요는 경기 변동과 밀접한 관계를 맺고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5966,
+    "completion_tokens": 3654,
+    "reasoning_tokens": 2816,
+    "output_tokens": 838
+  },
+  "warnings": []
+}

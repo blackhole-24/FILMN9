@@ -1,0 +1,81 @@
+{
+  "stock_code": "057680",
+  "corp_name": "티사이언티픽",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:04",
+  "meta": {
+    "wics": "IT서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "티사이언티픽은 모바일쿠폰 사업을 중심으로 정보보호·보안, 시스템 통합(SI), ITO 서비스 사업을 함께 영위하는 IT서비스 기업입니다. 2023년 3월 아이티노매즈 합병으로 보안 사업에 진출했고, 2024년 12월 넷크루즈와 합병하며 보안 및 인프라 관리 역량을 강화했습니다.",
+    "business_model": "FY2025 사업부문별 영업수익은 보안 및 네트워크 86.5%, 모바일커머스 8.7%, 모바일커머스(SI 등) 4.8%로 구성됩니다. 회사는 모바일쿠폰 유통망과 플랫폼을 바탕으로 B2B(기업 간 거래)와 B2C(기업-소비자 거래)를 병행하며, 보안·네트워크 사업을 핵심 축으로 확대하고 있습니다. 모바일쿠폰은 오픈마켓·소셜커머스·SNS 등 다양한 채널을 통해 발행·유통됩니다.",
+    "main_customers": "모바일커머스 — 약 500여 개 기업 고객과 일반 소비자 / 모바일커머스(SI 등) — 기업 고객 및 플랫폼 이용처 / 보안 및 네트워크 — 정보보호·인프라 관리가 필요한 기업 및 조직",
+    "price_factors": [
+      {
+        "factor": "보안수요",
+        "detail": "클라우드 전환과 온라인 업무 확대가 이어질수록 정보보호·보안 솔루션 수요가 늘어 실적에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "법규변화",
+        "detail": "전자금융거래법 등 규제 요건이 강화되면 등록·보안 인프라 대응 역량이 중요해져 사업 운영에 직접 영향을 줍니다."
+      },
+      {
+        "factor": "쿠폰거래",
+        "detail": "모바일쿠폰 거래금액이 늘면 모바일커머스 매출이 확대될 수 있고, 반대로 거래 감소는 매출 축소로 이어질 수 있습니다."
+      },
+      {
+        "factor": "경쟁심화",
+        "detail": "대기업과 다양한 사업자가 모바일쿠폰 시장에 들어오면 경쟁이 심해져 유통·발행 사업의 성장 속도에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "시장성장",
+        "detail": "국내 e쿠폰 모바일 쇼핑 거래액이 성장하는 산업 특성은 회사의 모바일커머스 사업 확대에 우호적으로 작용할 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "모바일쿠폰 사업을 비롯해, 정보보호ㆍ보안, 시스템 통합(SI), ITO 서비스 사업을 영위하고 있습니다."
+      },
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "2023년 3월 정보보호ㆍ보안 분야의 전문기업인 (주)아이티노매즈와의 합병"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "보안 및 네트워크: 31,476,439 (86.5%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "모바일커머스: 3,153,172 (8.7%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "약 500여 개 기업 고객을 대상으로 하는 B2B"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "오픈마켓을 활용한 일반 소비자 대상의 B2C"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4994,
+    "completion_tokens": 948,
+    "reasoning_tokens": 0,
+    "output_tokens": 948
+  },
+  "warnings": []
+}

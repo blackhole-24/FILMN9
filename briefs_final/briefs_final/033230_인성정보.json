@@ -1,0 +1,96 @@
+{
+  "stock_code": "033230",
+  "corp_name": "인성정보",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 09:55",
+  "meta": {
+    "wics": "IT서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "인성정보는 1992년 2월 설립된 IT 서비스 기업으로, 1999년 7월 코스닥시장에 상장했습니다. 네트워크 통합사업을 기반으로 성장해 왔으며, 현재는 IT 인프라 사업과 종합 IT 매니지드 서비스(INSUNG AZit)를 주요 사업으로 영위하고 있습니다.",
+    "business_model": "주요 사업은 IT 인프라 사업부문 38.5%, 소프트웨어 도매사업부문 30.3%, 네트워크장비 도매사업부문 31.8%, 헬스케어 사업부문 0.8%로 구성되어 있습니다. 네트워크, 서버, 스토리지, 클라우드/가상화, 보안, 협업솔루션(Collaboration: 음성·영상 기반 기업 커뮤니케이션) 등을 묶어 기업 고객에게 One-Stop 서비스를 제공하는 구조입니다. 자회사들을 통해 소프트웨어·네트워크장비 도매와 스마트헬스케어 사업도 함께 전개하고 있습니다.",
+    "main_customers": "IT 인프라 사업부문 — 기업 및 공공부문 고객 / 소프트웨어 도매사업부문 — 상용 S/W 및 네트워크 장비를 필요로 하는 거래처 / 네트워크장비 도매사업부문 — 네트워크 장비 및 Auto ID 제품 수요처 / 헬스케어 사업부문 — 의료기기 및 컨텐츠 이용 고객",
+    "price_factors": [
+      {
+        "factor": "가격경쟁",
+        "detail": "IT 인프라 기술의 표준화로 중소업체 간 가격 경쟁이 치열해져 수익성에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "솔루션전환",
+        "detail": "단순 장비 납품보다 서비스와 솔루션 제공 역량이 중요해져 사업 구조 변화 속도가 실적에 영향을 줍니다."
+      },
+      {
+        "factor": "클라우드",
+        "detail": "하이브리드 클라우드와 SDDC(소프트웨어 정의 데이터센터) 수요 확대는 관련 사업 기회로 작용할 수 있습니다."
+      },
+      {
+        "factor": "AI전환",
+        "detail": "AI와 데이터 기반 IT 투자 확산은 인프라 고도화 및 신규 서비스 수요 확대에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "DX수요",
+        "detail": "디지털 전환(DX) 수요가 이어질수록 IT 인프라 운영관리와 고객형 서비스 사업에 우호적입니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 사업부문별 사업의 현황",
+        "evidence_text": "1992년 2월 설립, ... 1999년 7월 코스닥시장에 상장"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[표] 나. 사업부문별 매출현황",
+        "evidence_text": "IT 인프라 사업부문 ... 38.5%"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[표] 나. 사업부문별 매출현황",
+        "evidence_text": "소프트웨어 도매사업부문 ... 30.3%"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[표] 나. 사업부문별 매출현황",
+        "evidence_text": "네트워크장비 도매사업부문 ... 31.8%"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[표] 나. 사업부문별 매출현황",
+        "evidence_text": "헬스케어 사업부문 ... 0.8%"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "[표] 나. 사업부문별 매출현황",
+        "evidence_text": "(주)인성정보외 해외법인"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "[표] 나. 사업부문별 매출현황",
+        "evidence_text": "(주)인성디지탈(주)아이에이치앤"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "[표] 나. 사업부문별 매출현황",
+        "evidence_text": "(주)아이넷뱅크"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "[표] 나. 사업부문별 매출현황",
+        "evidence_text": "하이케어넷(주)"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4207,
+    "completion_tokens": 1082,
+    "reasoning_tokens": 0,
+    "output_tokens": 1082
+  },
+  "warnings": []
+}

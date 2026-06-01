@@ -1,0 +1,76 @@
+{
+  "stock_code": "018290",
+  "corp_name": "브이티",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 22:17",
+  "meta": {
+    "wics": "화장품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "브이티는 화장품을 주력으로 하는 화학·화장품 기업으로, 2025년에는 화장품 부문이 전체 매출의 큰 비중을 차지합니다. 북미·러시아/CIS 등 해외시장 확장을 통해 실적 성장을 추진해 왔으며 라미네이팅 등 비화장품 사업도 영위하고 있습니다.",
+    "business_model": "주요 수익원은 화장품 사업이며, 2025년 화장품 부문 매출비율은 93.59%로 나타났습니다. 라미네이팅 사업은 대형기계 위주의 고부가가치 제품을 중심으로 미국·유럽 디지털 사진 시장 등에 공급하며 2025년 매출비율은 6.27%입니다.",
+    "main_customers": "화장품 — 국내 소비자 및 일본·북미·러시아/CIS 등 해외 시장의 소비자 / 라미네이팅 — 해외 대리점, GMP 고객사 및 미국·유럽 디지털사진 시장 / 엔터테인먼트 — (사업보고서에 상세 고객 미기재) / 기타 — (사업보고서에 상세 고객 미기재)",
+    "price_factors": [
+      {
+        "factor": "글로벌 수요",
+        "detail": "K-뷰티에 대한 해외 수요 확대는 화장품 매출 증가에 직접적 영향을 미칩니다."
+      },
+      {
+        "factor": "한류 효과",
+        "detail": "K-POP·K-콘텐츠 인기로 특정 지역(동남아·일본·미국) 수출이 늘어나면 실적에 우호적입니다."
+      },
+      {
+        "factor": "경쟁 심화",
+        "detail": "OEM·ODM을 통한 신규 진입이 쉬워 경쟁이 심화되면 가격경쟁 및 마케팅 비용 증대가 발생할 수 있습니다."
+      },
+      {
+        "factor": "법적 규제",
+        "detail": "생산·유통·판매·광고 등 관련 법적 제약은 제품 출시·유통에 제약을 주어 비용·리스크로 작용할 수 있습니다."
+      },
+      {
+        "factor": "제품 수명주기",
+        "detail": "다품종 소량 생산 체제(신제품 빈번 출시)는 신제품 개발 및 마케팅 비용을 지속적으로 요구합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "글로벌 확장에 성공했지만"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[화장품 사업]",
+        "evidence_text": "매출비율은   93.59% 입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[라미네이팅 사업]",
+        "evidence_text": "매출비율은      6.27% 입니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "[화장품 사업]",
+        "evidence_text": "북미, 러시아/CIS권역 등 해외시장의 확장"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "7-2. 사업부문별 시장여건 및 영업의 개황",
+        "evidence_text": "셋째, 경쟁적 산업입니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5567,
+    "completion_tokens": 5533,
+    "reasoning_tokens": 4736,
+    "output_tokens": 797
+  },
+  "warnings": []
+}

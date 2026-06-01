@@ -1,0 +1,72 @@
+{
+  "stock_code": "131400",
+  "corp_name": "이브이첨단소재",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 09:43",
+  "meta": {
+    "wics": "전자장비와기기",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "이브이첨단소재는 연성회로기판(FPCB)을 주력으로 생산하는 전자부품 전문기업으로, 국내 및 베트남에 전공정 생산라인을 보유하여 전략적 공급망(SCM)을 구축하고 있습니다. FPCB뿐 아니라 자체 브랜드 'ACTVISION' 기반의 투명 Display 사업으로 사업영역을 확장하여 FPCB 사업부문과 투명 Display 사업부문을 본부제로 운영하고 있습니다.",
+    "business_model": "주력은 FPCB 사업으로 단면(단면), 양면, Multi, RF 등 제품 포트폴리오를 통해 IT·전장용 등 다양한 수요처에 공급하며, 투명 Display는 FPCB 설계·공정기술을 기반으로 한 부가사업입니다. 사업부문별 FY2025 매출 구성은 단면 7.2%, 양면 86.3%, Multi 0.4%, RF 6.1%로, 양면 제품이 매출의 대부분을 차지합니다.",
+    "main_customers": "FPCB — LG계열·삼성계열 등 국내 대형 IT제조업체 및 일본·중국 등 해외 고객 / 투명 Display — 대기업 OEM 및 조달청 우수조달 인증을 통한 공공·사업장 시공처",
+    "price_factors": [
+      {
+        "factor": "원재료(동박)",
+        "detail": "동박 등 주요 원재료의 조달구조가 변화하면서 일부 수입품 단가는 환율에 따라 변동 가능 — 원가와 실적에 영향."
+      },
+      {
+        "factor": "주요고객 의존",
+        "detail": "주요 수요처인 대형 IT 제조사 완제품 출하량 변동이 수요에 직결되어 매출 변동성이 발생할 수 있음."
+      },
+      {
+        "factor": "전기차 수요",
+        "detail": "전기차 배터리용 FPCB의 양산 노하우와 CAPA 보유로 전기차 시장 확대 시 관련 매출 확대 가능성이 존재함."
+      },
+      {
+        "factor": "가격·품질 경쟁",
+        "detail": "유사 생산능력을 가진 경쟁사와의 가격·품질 경쟁이 심해지면 수주·마진에 대한 압박 요인이 될 수 있음."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사의 FPCB는 국내 및 베트남에 전공정 생산라인을 구축하여 전략적 SCM을 구축하였으며,"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "양 면: 50,276 (86.3%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "최종 수요고객의 대부분은 LG계열, 삼성계열 등 국내 대형 IT제조업체들이며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "7-4-1. 영업의 개황 > 5) 자원조달상의 특성",
+        "evidence_text": "FPCB의 주요 원재료인 동박 등은 과거 해외(일본)에서 조달하였으나, 최근 국내의 부품소재개발에 힘입어 국내 조달 비중이 증가하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "7-4-2. 국내외 시장여건",
+        "evidence_text": "FPCB에 대한 수요는 주고객사의 완제품출하량과 밀접한 관계를 보이고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4829,
+    "completion_tokens": 4223,
+    "reasoning_tokens": 3328,
+    "output_tokens": 895
+  },
+  "warnings": []
+}

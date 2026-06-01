@@ -1,0 +1,67 @@
+{
+  "stock_code": "357580",
+  "corp_name": "아모센스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 17:38",
+  "meta": {
+    "wics": "핸드셋",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "아모센스는 전기·전자(핸드셋) 분야에서 소재, 모듈, 디바이스·플랫폼을 사업부문으로 운영하는 기업으로, 차폐시트·세라믹 기판과 무선전력·전장용 모듈 등 핵심부품을 공급합니다. 휴대폰·웨어러블·자동차 전장 등 고집적·고신뢰 응용처를 대상으로 기술·공정·신뢰성 역량을 바탕으로 사업을 전개하고 있습니다.",
+    "business_model": "사업부문별 영업수익은 전 사가 97.7%, 재료·용역·기타가 2.3%로 구성되어 있으며(FY2025), 주요 매출원은 차폐시트·세라믹 기판 등 소재 부문과 무선충전·전장·센서 모듈 등 Module 부문입니다. 소재는 휴대기기 및 전장용 고주파·고온 환경 대응 제품 중심이고, 모듈은 무선전력전송(WPT) 및 전장용 솔루션 개발·공급이 핵심입니다.",
+    "main_customers": "소재(차폐시트·세라믹) — 휴대폰·스마트워치·TWS 등 전자기기 제조사 / 모듈(무선전력·전장) — 스마트 디바이스·웨어러블·가전 및 차량 전장·로봇·전장 시스템 업체 / 센서 모듈 — 자동차·산업·가전 시스템 고객",
+    "price_factors": [
+      {
+        "factor": "전장(전기차) 수요",
+        "detail": "전기차 보급 및 커넥티드/ADAS 고도화는 전장·RF 모듈과 방열용 세라믹 기판 수요를 직접적으로 견인합니다."
+      },
+      {
+        "factor": "무선충전 보급",
+        "detail": "무선전력전송(WPT) 적용 확대는 무선충전 모듈의 수요와 고객 맞춤형 설계 역량의 중요성을 높입니다."
+      },
+      {
+        "factor": "품질·신뢰성",
+        "detail": "SOFC 전해질 등 고온·고신뢰 제품은 치밀도·두께 균일성 등 품질·양산 안정성이 실적에 큰 영향을 미칩니다."
+      },
+      {
+        "factor": "방열·전력변환 수요",
+        "detail": "전력변환 장치 수요 증가에 따라 방열용 세라믹 기판 수요 확대가 실적에 우호적 요인으로 작용할 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "회사는 소재, 모듈, 디바이스 & 플랫폼의 사업부문으로 구성되어 있으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "전 사: 119,318 (97.7%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "1. 소재 부문",
+        "evidence_text": "특히 휴대폰, 스마트워치, TWS(True Wireless Stereo) 등"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "방열용 세라믹 기판 수요가 확대되고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4551,
+    "completion_tokens": 3282,
+    "reasoning_tokens": 2432,
+    "output_tokens": 850
+  },
+  "warnings": []
+}

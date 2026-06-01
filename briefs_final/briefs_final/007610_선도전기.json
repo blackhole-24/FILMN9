@@ -1,0 +1,67 @@
+{
+  "stock_code": "007610",
+  "corp_name": "선도전기",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 19:50",
+  "meta": {
+    "wics": "전기장비",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "선도전기는 중전기기 전문업체로 발전·송변전·배전 설비에 공급되는 전력변환기기류를 주로 생산·판매합니다. 자회사로는 투자·컨설팅을 담당하는 에스디파트너스(주)와 농업회사법인(주)전원이 있어 전력기기 외 농업사업도 영위하고 있습니다. 2025년 개별 기준 매출액은 381억원, 영업이익 12억원으로 영업이익 흑자전환을 기록했습니다.",
+    "business_model": "전기변환 기기류부문이 핵심 수익원으로 FY2025 기준 매출의 55.2%를 차지하며(전기변환 기기류부문: 21,028 (55.2%)), 농업경영부문은 0.2%를 차지합니다(농업경영부문: 94 (0.2%)). 전력설비용 맞춤형 주문생산(주문에 의한 소량다품종 생산)이 주된 제조 방식이며, 안정성·신뢰성이 중요한 제품 특성이 수익 구조에 영향을 미칩니다.",
+    "main_customers": "전기변환 기기류부문 — 발전·송변전·배전 설비 등 제반 산업용 플랜트 / 농업경영부문 — 유통·판매처(블루베리 등 농산물 구매자)",
+    "price_factors": [
+      {
+        "factor": "건설경기",
+        "detail": "정부 SOC 예산 축소나 건설경기 침체 시 발전·송변전 설비 신규 수요 감소로 실적에 부정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "주문수주",
+        "detail": "수요자의 주문에 의한 생산 구조로 수주 변동이 매출과 가동률에 즉시 영향을 미칩니다."
+      },
+      {
+        "factor": "원자재·유가",
+        "detail": "유가 및 주요 원자재 가격 상승은 산업 성장 정체와 제조원가 상승으로 이어질 수 있습니다."
+      },
+      {
+        "factor": "신뢰성·인증",
+        "detail": "중전기기는 장기간의 검증과 인증이 필요해 인증 지연이나 실패 시 수주 불확실성이 커집니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 사업부문별 현황",
+        "evidence_text": "지배회사인 선도전기(주) 는 중전기기 전문업체로"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "전기변환 기기류부문: 21,028 (55.2%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "농업경영부문: 94 (0.2%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 사업부문별 현황",
+        "evidence_text": "발전, 송변전, 배전설비등 제반 산업용 플랜트"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3272,
+    "completion_tokens": 4683,
+    "reasoning_tokens": 3904,
+    "output_tokens": 779
+  },
+  "warnings": []
+}

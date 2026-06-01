@@ -1,0 +1,67 @@
+{
+  "stock_code": "318000",
+  "corp_name": "KBG",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 16:22",
+  "meta": {
+    "wics": "화학",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "KBG는 실리콘(실리콘 소재) 중심의 첨단 소재 기업으로, 연결종속회사를 통해 실리카 에어로젤 단열 소재 사업에도 진출해 있는 기업입니다. 실란 모노머·실리콘 폴리머·실리콘 레진 등 중간소재 중심의 수직 통합 구조를 바탕으로 전자·에너지·건축·모빌리티 등 다양한 산업에 제품을 공급하고 있습니다.",
+    "business_model": "핵심 사업은 실리콘 소재와 실리카 에어로젤 단열 소재로 구성되며, FY2025 기준 사업부문 매출 구성은 Industrial(산업재) 68.0%, Electronics(전기전자) 28.5%, Automotive(자동차) 3.2%, Personal Care(퍼스널케어) 0.2%로 산업재 중심의 수익 구조를 보입니다. 또한 ㈜에어로젤코리아 인수를 통해 에어로젤 제품의 국내 독점 유통 플랫폼을 확보하여 제품 포트폴리오를 다변화하고 있습니다.",
+    "main_customers": "Industrial — 석유화학·LNG·해양플랜트 및 산업용 응용제품 제조사 / Electronics — 전자재료 및 LED·조명 관련 제조사 / Automotive — 자동차용 소재·배터리 관련 소재 개발사 / Personal Care — 화장품 제조사",
+    "price_factors": [
+      {
+        "factor": "원재료·환율",
+        "detail": "주요 제품은 원재료 가격 변동과 환율 영향이 크므로 원자재 비용 상승이나 환율 변동이 실적에 직접적 영향을 줍니다."
+      },
+      {
+        "factor": "규제(화평법·화관법)",
+        "detail": "화평법·화관법 등 화학물질 규제가 강화되면 등록·관리 비용과 진입장벽이 높아져 사업 운영과 신규 진출에 영향을 미칩니다."
+      },
+      {
+        "factor": "수요 사이클",
+        "detail": "글로벌 경기 둔화나 전방 산업 수요 저하는 수출 물량 감소로 이어져 매출에 부정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "제품 채택(에어로젤)",
+        "detail": "에어로젤 단열재의 플랜트·EPC 채택 확대는 매출 다변화 및 고부가 매출 확보에 기여합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황 > 가. 기존 사업",
+        "evidence_text": "당사는 주요사업으로 실리콘 소재 사업을 영위하고 있으며, 연결종속회사는 주요사업으로 실리카 에어로젤 단열 소재 사업을 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "Industrial 산업재: 16,275 (68.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황 > 가. 기존 사업 (1) 실리콘 소재사업 부문",
+        "evidence_text": "이들은 실리콘 응용제품 제조사들에게 공급되어 실란트,점착제, 전자재료, 자동차 소재 등 다양한 최종 제품에 활용되고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황 > 나. 주요 제품 등의 가격변동추이",
+        "evidence_text": "당사의 주요 제품인 실란모노머, 실리콘 레진&폴리머, 융합 소재 등은 원재료의 가격변동 및 환율에 가장 많은 영향을 받고 있어"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5642,
+    "completion_tokens": 4433,
+    "reasoning_tokens": 3520,
+    "output_tokens": 913
+  },
+  "warnings": []
+}

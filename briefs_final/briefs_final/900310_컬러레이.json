@@ -1,0 +1,72 @@
+{
+  "stock_code": "900310",
+  "corp_name": "컬러레이",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 21:13",
+  "meta": {
+    "wics": "화장품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "컬러레이는 화장품용 진주광택안료와 운모파우더의 연구개발·제조·판매를 주된 영업활동으로 하는 기업으로, 중국 저장컬러레이를 실질 영업회사로 두고 글로벌 화장품 기업에 공급하고 있습니다. 공장 증설과 합성운모 신생산기지 가동으로 생산능력을 크게 확대하고 있습니다.",
+    "business_model": "FY2025 기준 제품군별 매출 비중은 실버화이트시리즈 11.2%, 실버화이트시리즈II 8.1%, 간섭효과시리즈 17.7%, 골든시리즈 9.4%, 변색시리즈 16.4%, 기타 진주광택안료 시리즈 36.1%, 운모파우더 1.1%로 구성됩니다. 핵심은 화장품용 진주광택안료(중금속 함유 기준이 엄격한 고부가가치 시장)와 이를 뒷받침하는 운모파우더·합성운모 생산으로, 최근 설비 투자로 생산량 확대(진주광택안료 신공장, 합성운모 신생산기지 가동)를 통해 공급 능력을 강화하고 있습니다.",
+    "main_customers": "화장품용 진주광택안료 — 중국 및 해외 글로벌 화장품업체(예: Intercos, KOBO) / 산업용 진주광택안료 — 벽지·장판·자동차도장·페인트·명함·잉크·플라스틱 관련 제조업체 / 운모파우더 — 진주광택안료·화장품 원료 수요처 및 산업용 소재 수요처 / 반려용품(고양이모래) — 전시회를 통한 국내외 바이어·유통 채널",
+    "price_factors": [
+      {
+        "factor": "안전성(중금속)",
+        "detail": "화장품용은 중금속 함유 기준이 엄격해 기준 충족 여부가 수주와 매출에 직접 영향."
+      },
+      {
+        "factor": "제품 품질(입자·밀도 등)",
+        "detail": "입자 크기·밀도 등 품질 지표가 고객사의 채택과 프리미엄 가격 수준을 결정."
+      },
+      {
+        "factor": "생산능력·설비투자",
+        "detail": "신공장·합성운모 기지 가동 여부가 공급량과 원가 구조에 영향을 미침."
+      },
+      {
+        "factor": "규제·표준",
+        "detail": "화장품용 안전기준과 인증(예: FDA·EO) 충족 여부가 해외 판로 확보에 영향."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "화장품용 진주광택안료의 연구개발, 제조와 판매"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "기타 진주광택안료 시리즈: 77,404,814 (36.1%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "글로벌 기업인 이탈리아의 Intercos, 미국의 KOBO 등에 납품"
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황",
+        "evidence_text": "연간생산량을 6,000톤에서 10,800톤으로"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "품질 결정 요인① 밀도(Density)② 입자 크기(Size)③ 성분(Ingredient)"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4687,
+    "completion_tokens": 4371,
+    "reasoning_tokens": 3456,
+    "output_tokens": 915
+  },
+  "warnings": []
+}

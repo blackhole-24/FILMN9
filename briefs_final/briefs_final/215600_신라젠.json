@@ -1,0 +1,67 @@
+{
+  "stock_code": "215600",
+  "corp_name": "신라젠",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 12:24",
+  "meta": {
+    "wics": "제약",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "신라젠은 항암 신약개발을 목적으로 2006년 3월에 설립된 바이오 벤처기업으로, 항암바이러스(종양 용해 바이러스)와 유사분열 체크포인트 억제제(MCI) 등 신약 파이프라인을 개발하고 있습니다.",
+    "business_model": "사업부문별로 의약품매출이 77.7%로 주요 수익원이며, 상품매출이 22.2%, 기타수익이 0.1%를 차지합니다(의약품매출: 7,167 (77.7%)). 핵심 사업은 펙사벡 등 항암바이러스 면역치료제(Oncolytic Virus) 및 유사분열 체크포인트 억제제(MCI) 개발과 전문 의약품의 연구개발 및 판매(제네릭·개량신약)입니다.",
+    "main_customers": "항암신약개발 — 임상시험 참여 환자 및 공동개발 파트너 / 제약사업부문 — 허가된 의약품의 시장 판매처",
+    "price_factors": [
+      {
+        "factor": "특허권 리스크",
+        "detail": "보유 특허(국내·해외)가 경쟁력의 핵심으로, 특허 분쟁 또는 특허 만료시 영업·재무에 부정적 영향이 발생할 수 있습니다."
+      },
+      {
+        "factor": "임상·허가",
+        "detail": "임상시험 진행 결과 및 규제기관 제출·허가 여부가 실적과 기업 가치에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "협력관계",
+        "detail": "해외 파트너와의 공동개발·라이선스가 연구·상용화 속도와 비용 구조에 영향을 줍니다."
+      },
+      {
+        "factor": "제품 상업화(매출구성)",
+        "detail": "의약품매출 비중(77.7%)이 높아 제품의 시장 판매 동향이 실적 변동성에 큰 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "당사는 항암 신약개발을 목적으로 2006년 3월에 설립된 바이오 벤처기업입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "의약품매출: 7,167 (77.7%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경영진 실적·전략 요약 (MD&A) > 가. 임상시험 진행현황",
+        "evidence_text": "현재 회사는 다양한 암종을 대상으로 신약후보군에 대한 임상시험 및 전임상연구 등을 진행하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "지적재산권 보유현황",
+        "evidence_text": "특허권 국내 12건, 해외 133건을 보유하고 있으며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5418,
+    "completion_tokens": 4659,
+    "reasoning_tokens": 3904,
+    "output_tokens": 755
+  },
+  "warnings": []
+}

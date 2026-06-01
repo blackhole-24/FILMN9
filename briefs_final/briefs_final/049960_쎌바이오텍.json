@@ -1,0 +1,71 @@
+{
+  "stock_code": "049960",
+  "corp_name": "쎌바이오텍",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 02:45",
+  "meta": {
+    "wics": "생물공학",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "쎌바이오텍은 1995년 설립된 국내 바이오벤처 1세대 기업으로, 프로바이오틱스(유산균) 연구개발·배양·발효생산 기술을 기반으로 성장했습니다. 듀얼코팅 기술 등 원천기술을 바탕으로 세계 55개국에 수출하며 유럽(덴마크) 등에서 시장지위를 확보하고 있습니다.",
+    "business_model": "핵심 사업은 프로바이오틱스사업(원말·완제품), 마이크로바이옴사업(건강기능식품·기능성 화장품 개발) 및 항암신약사업(신약 개발·임상)으로 구성됩니다. 사업부문별 영업수익 구성에서 '원말'은 FY2025에 전체의 10.4%를 차지하며(원말: 5,496,662, 10.4%), 제품은 OEM/ODM과 자사 브랜드(DUOLAC·DUOLAB)를 통해 B2B·B2C 국내외로 공급합니다.",
+    "main_customers": "프로바이오틱스사업 — B2B 및 B2C 채널(국내외) / 마이크로바이옴사업 — 건강기능식품·기능성화장품 소비자 및 관련 제조·유통 채널 / 항암신약사업 — 임상시험 수행 의료기관·연구자",
+    "price_factors": [
+      {
+        "factor": "원천기술력",
+        "detail": "듀얼코팅 등 특허기술 보유 여부가 제품 차별화와 수출 경쟁력에 직접 영향을 미칩니다."
+      },
+      {
+        "factor": "수출시장 성과",
+        "detail": "유럽·아시아 등 해외 수출 실적이 매출에 중요한 비중을 차지하므로 해외 수요 변동이 실적에 영향됩니다."
+      },
+      {
+        "factor": "시장 확장성",
+        "detail": "프로바이오틱스의 식품·화장품·제약 등 활용처 확대로 신제품·신사업 개발 성과가 장기 성장에 영향을 줍니다."
+      },
+      {
+        "factor": "규제·인증",
+        "detail": "건강기능식품 개별인정형 인증 등 식약처(허가) 절차의 성패가 제품 상업화 타이밍과 시장진입에 영향을 미칩니다."
+      },
+      {
+        "factor": "경기 민감도",
+        "detail": "기능성 식품의 경우 고가 기호품 성격으로 경기변동 시 소비심리 변화가 매출에 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "세계 55개 국가에 수출하는 세계적인 프로바이오틱스 기업으로 성장하였습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "원   말: 5,496,662 (10.4%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황 > 1)  프로바이오틱스사업",
+        "evidence_text": "원말제품 및 완제품을 B2B 및 B2C채널"
+      },
+      {
+        "field": "business_model",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "2025년 1월 생물학적 대장암치료제( PP-P8)를 서울대병원에서 임상 1상 개시"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5704,
+    "completion_tokens": 4797,
+    "reasoning_tokens": 3904,
+    "output_tokens": 893
+  },
+  "warnings": []
+}

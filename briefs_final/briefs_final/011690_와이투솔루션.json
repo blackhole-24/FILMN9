@@ -1,0 +1,67 @@
+{
+  "stock_code": "011690",
+  "corp_name": "와이투솔루션",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 20:50",
+  "meta": {
+    "wics": "전자장비와기기",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "와이투솔루션은 전원공급장치(PSU), 바이오에너지, 로봇 및 기타 사업을 영위하는 전기·전자 계열 기업입니다. 특히 디스플레이용 PSU를 중심으로 LG전자 디스플레이 제품 전반에 걸쳐 개발·생산하고 있으며, 전기차 충전용 파워모듈·바이오 신약·ESL(전자가격표시기) 등을 신성장 사업으로 육성하고 있습니다.",
+    "business_model": "매출의 핵심은 PSU(Power Supply Unit) 사업으로, 제50기 기준 PSU가 전체 매출의 약 69.4%를 차지하며(PSU 114,508 / 총 165,064), 바이오에너지가 약 28.4%(46,942), 로봇 및 기타가 약 2.2%(3,614)를 구성합니다. PSU에서는 TV·SIGNAGE용 초슬림 PSU 기술을 기반으로 고부가가치 제품(전기차 충전기용 파워모듈 등)으로 포트폴리오를 확대 중이며, ESL 및 바이오 신약·바이오에너지 등 신사업을 통해 중장기 성장 동력을 확보하려 하고 있습니다.",
+    "main_customers": "PSU — 디스플레이 제조사(예: LG전자) / 바이오에너지 — 내수 및 유럽 수출처(바이오디젤 등) / 로봇 및 기타 — 내수 기업(협동로봇·시스템 자동화 도입 기업)",
+    "price_factors": [
+      {
+        "factor": "프리미엄TV수요",
+        "detail": "프리미엄 TV 판매 호조 시 PSU 모듈의 평균판매단가(ASP)와 수요가 상승하여 실적에 긍정적 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "고객사·가격경쟁",
+        "detail": "고객사 실적 부진과 벤더 간 가격 경쟁 심화는 PSU 부문의 수익성 악화로 실적에 직접 영향을 줍니다."
+      },
+      {
+        "factor": "전기차충전시장",
+        "detail": "30kW·50kW급 파워모듈의 양산·사업화 및 인증 성과에 따라 전기차 충전용 제품의 매출 기여도가 달라질 수 있습니다."
+      },
+      {
+        "factor": "원료·수출시장",
+        "detail": "바이오에너지 사업은 Feedstock(원료) 수급 안정성과 유럽 등 수출시장 확대 여부가 매출 변동성에 중요한 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "전원공급장치인 PSU(Power Supply Unit) 사업"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 (원문 테이블)",
+        "evidence_text": "PSU 합 계 114,508"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 (원문 테이블)",
+        "evidence_text": "바이오에너지 합 계 46,942"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "고객사의 실적 부진에 따른 CI 압박과 벤더 간 가격 경쟁 심화"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5205,
+    "completion_tokens": 4998,
+    "reasoning_tokens": 4160,
+    "output_tokens": 838
+  },
+  "warnings": []
+}

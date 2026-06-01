@@ -1,0 +1,76 @@
+{
+  "stock_code": "006040",
+  "corp_name": "동원산업",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 09:44",
+  "meta": {
+    "wics": "식품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "동원산업은 1969년에 원양어업을 주력사업으로 설립된 회사로, 지속적인 신어업 개발과 신어장 개척을 통해 세계 제일의 원양어업회사로 성장했다고 설명합니다. 2022년 동원엔터프라이즈와의 합병을 통해 동원그룹의 지주회사가 되었으며, 지주부문과 수산 관련 사업을 함께 운영하고 있습니다.",
+    "business_model": "지주부문은 계열회사에 대한 용역서비스 매출, 상표권 사용수익, IT부문 매출 등으로 구성되며, 자회사로부터의 배당금수입도 주요 현금창출 수단입니다. 수산 관련 사업은 해양수산, 유통, 물류 부문으로 나뉘어 운영되며, 사업부문별 영업수익 구성에서는 제/상품이 67.7%를 차지합니다. 회사는 브랜드 사용료 수취와 용역서비스 확대를 통해 현금흐름의 안정성을 유지하고 있다고 밝혔습니다.",
+    "main_customers": "지주부문 — 계열회사 / 해양수산 부문 — 국내외 수산물 거래처 및 글로벌 사업 파트너 / 유통·물류 부문 — 관련 상품·물류 서비스 이용처",
+    "price_factors": [
+      {
+        "factor": "어획량",
+        "detail": "원양어업의 조업 성과와 어획량이 개선되면 수산 부문의 매출과 수익성에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "수산가격",
+        "detail": "수산물 가격이 오르면 제품 판매단가에 긍정적으로 작용할 수 있지만, 가격 하락 시 수익성이 약화될 수 있습니다."
+      },
+      {
+        "factor": "경쟁심화",
+        "detail": "시장의 경쟁이 심해질수록 판매가격이 하락하는 요인으로 작용해 실적에 부담이 될 수 있습니다."
+      },
+      {
+        "factor": "원가절감",
+        "detail": "설계변경에 따른 원가절감과 생산성 향상은 가격 하락 요인으로 언급되어, 수익 구조에 영향을 줍니다."
+      },
+      {
+        "factor": "브랜드수익",
+        "detail": "동원 브랜드 사용료와 계열사 용역서비스 확대는 지주부문의 현금흐름 안정성에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "나. 사업부문 > (2) 사업의 현황",
+        "evidence_text": "1969년에 원양어업을 주력사업으로 설립된 회사"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "가. 지주부문 > (2) 회사의 현황",
+        "evidence_text": "2022년 동원엔터프라이즈와의 합병을 통해 동원그룹의 지주회사가 되었습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. 지주부문 > (2) 회사의 현황",
+        "evidence_text": "영업수익은 계열회사에 대한 용역서비스 매출 및 상표권 사용수익"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "제/상품: 6,485,313 (67.7%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 지주부문 > (2) 회사의 현황",
+        "evidence_text": "계열회사에 대한 용역서비스 매출"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 5100,
+    "completion_tokens": 877,
+    "reasoning_tokens": 0,
+    "output_tokens": 877
+  },
+  "warnings": []
+}

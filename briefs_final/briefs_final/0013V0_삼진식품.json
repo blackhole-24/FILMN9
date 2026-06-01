@@ -1,0 +1,67 @@
+{
+  "stock_code": "0013V0",
+  "corp_name": "삼진식품",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 17:25",
+  "meta": {
+    "wics": "식품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "삼진식품은 1953년 개인사업자로 시작한 수산단백질 기반 식품 기업으로, 어묵을 중심으로 전통성과 프리미엄화(어묵베이커리) 전략을 통해 시장에서 차별화된 위치를 구축했습니다. 2025년 연결기준 매출은 1,095억원으로 성장했습니다.",
+    "business_model": "주요 사업은 반찬용·국탕용·포장간식용·즉석간식용·선물세트 등 어묵 관련 제품 판매이며, FY2025 기준 반찬용 21.0%, 국탕용 35.0%, 포장간식용 25.0%, 즉석간식용 7.0%, 선물세트 12.0%의 매출 구성비를 보입니다. 유통은 재래시장·B2B(기업간 거래) 중심에서 직영 베이커리·백화점 팝업·온라인 판매망·해외 수출까지 다각화되어 있습니다.",
+    "main_customers": "반찬용 — 재래시장·유통업체(B2B) / 국탕용 — 식품 유통업체·식당(B2B) / 포장간식용 — 소매 유통(백화점·온라인 등) / 즉석간식용 — 직영 베이커리·외식 채널 / 선물세트 — 백화점·선물 구매 소비자",
+    "price_factors": [
+      {
+        "factor": "원재료(연육)",
+        "detail": "연육 대부분을 수입에 의존하므로 국제 어획량·원자재 가격 변동성이 원가와 이익률에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "계절성",
+        "detail": "동절기(겨울철)에 판매가 집중되는 계절성이 있어 분기별 실적 변동성을 유발할 수 있습니다."
+      },
+      {
+        "factor": "유통경쟁",
+        "detail": "편의점·대형마트·대기업의 OEM·PB 참여 등 유통 채널 확보 경쟁이 매출 확보와 마진에 영향을 줍니다."
+      },
+      {
+        "factor": "프리미엄·HMR",
+        "detail": "프리미엄화·HMR(가정간편식) 트렌드에 따른 제품 다변화는 고부가가치 매출 확대에 긍정적 요인이 됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "당사는 ‘수산단백질 기반의 식문화 창출’의 비전을 가진 식품 기업입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "국탕용: 38,230 (35.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "b2b 거래를 주로 진행하며 매출을 견인했습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "산업의 현황",
+        "evidence_text": "연육 대부분을 수입에 의존하고 있어"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5007,
+    "completion_tokens": 4687,
+    "reasoning_tokens": 3904,
+    "output_tokens": 783
+  },
+  "warnings": []
+}

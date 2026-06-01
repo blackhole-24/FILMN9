@@ -1,0 +1,77 @@
+{
+  "stock_code": "011500",
+  "corp_name": "한농화성",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 20:48",
+  "meta": {
+    "wics": "화학",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "한농화성은 1976년 설립된 정밀화학 전문 제조업체로, 설립 초기 농업용 화학원재료 생산에서 출발하여 글리콜에테르, 계면활성제, 특수산업용 유화제 등 다양한 정밀화학제품을 꾸준히 생산해 왔습니다. 고부가가치 신제품(FM(Functional Monomer), 글라임 등) 비중을 점차 확대하며 첨단 정밀화학 분야로 전환을 추진하고 있습니다.",
+    "business_model": "주요 사업부문은 GE(Glycol Ethers), EOA(Ethylene Oxide Additives, 계면활성제), EM(Emulsifier, 특수산업용유화제)로 구성되며, 2025년 기준 GE가 매출의 45.0%, EOA가 44.6%, EM이 10.4%를 차지합니다. GE는 반도체·LCD 세정제 등 전자산업용 용제, EOA는 전자·퍼스널케어·화장품 등 광범위한 산업용도로 사용되며, EM은 접착제·페인트·에폭시 등 산업용 원료로 공급됩니다.",
+    "main_customers": "GE — 반도체·LCD 제조업 등 전자산업 / EOA — 전자산업·퍼스널케어(손세정제 등)·화장품·금속·자동차 산업 / EM — 접착제·페인트·에폭시 등 정밀화학 소재 산업",
+    "price_factors": [
+      {
+        "factor": "원료가격",
+        "detail": "국제 원유·나프타 등 원재료 가격 변동이 생산원가와 제품가격에 직접 영향을 주어 실적 변동성을 높입니다."
+      },
+      {
+        "factor": "중국공급",
+        "detail": "중국의 석유화학 증설과 공급과잉으로 수출단가 하락 압력이 발생하면 수익성에 부정적 영향을 미칩니다."
+      },
+      {
+        "factor": "전방수요",
+        "detail": "반도체·자동차·도료 등 전방 산업의 경기(특히 IT 성장)는 제품수요와 매출에 직결됩니다."
+      },
+      {
+        "factor": "규제·안전",
+        "detail": "화학물질관리·위험물관리 등 규제 준수 비용과 안전요건 강화는 운영비용 및 영업환경에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "1976년 설립이래 현재까지 고품질의 정밀 화학제품을 꾸준히 생산하여 왔습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "1. 주요 제품의 구분 및 특성",
+        "evidence_text": "글리콜에테르는 2025년 기준 당사 매출의 45.0%을 차지하는 부문으로"
+      },
+      {
+        "field": "business_model",
+        "source_section": "1. 주요 제품의 구분 및 특성",
+        "evidence_text": "계면활성제는 2025년 기준 당사 매출의 44.6%을 차지하는 부문으로"
+      },
+      {
+        "field": "business_model",
+        "source_section": "1. 주요 제품의 구분 및 특성",
+        "evidence_text": "특수산업용유화제는 2025년 기준 당사 매출의 10.4%을 차지하는 부문으로"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "1. 주요 제품의 구분 및 특성",
+        "evidence_text": "주로 반도체 및 LCD 세정제로 쓰이는 제품입니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "국제 원유가격, 나프타 등 원재료 가격"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5315,
+    "completion_tokens": 4166,
+    "reasoning_tokens": 3200,
+    "output_tokens": 966
+  },
+  "warnings": []
+}

@@ -1,0 +1,76 @@
+{
+  "stock_code": "004970",
+  "corp_name": "신라교역",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 09:43",
+  "meta": {
+    "wics": "식품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "신라교역은 원양어업과 수산물 유통을 중심으로, 농산물중개와 외식사업까지 함께 운영하는 기업입니다. 1957년 참치연승 시험조업을 시작으로 원양산업에 뿌리를 두고 있으며, 현재는 참치선망선 6척과 참치연승선 9척을 보유하고 있습니다. 또한 가나·키리바시·나우루 등 해외 합작법인과 연계한 수산물 유통, 가락시장 청과 도매, 파파이스 국내 독점사업권을 활용한 외식사업도 전개하고 있습니다.",
+    "business_model": "FY2025 사업부문별 영업수익 구성은 수산물유통부문 48.8%, 원양어업부문 34.5%, 농산물중개부문 8.9%로 확인됩니다. 핵심은 참치 어획과 유통이며, 중서부태평양에서의 원양어업과 해외 합작법인을 통한 수산물 판매가 매출의 중심을 이룹니다. 외식사업부문은 2022년 12월 강남 1호점 개설 이후 2025년말 기준 24개 직영점을 운영 중이며, QSR(Quick Service Restaurant, 빠르게 제공하는 외식 형태) 사업으로 확장하고 있습니다.",
+    "main_customers": "원양어업부문 — 참치 가공업체 및 수출시장 / 수산물유통부문 — 국내외 유통시장, 유럽시장 / 농산물중개부문 — 대형 수요처, 도매시장 이용자 / 외식사업부문 — 햄버거·샌드위치·치킨을 찾는 일반 소비자 / 기타부문 — 해외합작법인 선박",
+    "price_factors": [
+      {
+        "factor": "참치자원",
+        "detail": "참치는 고가 상업어종이라 국제적 자원 규제와 어획 여건 변화가 실적에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "어장규제",
+        "detail": "WCPFC(중서부태평양수산위원회) 등 국제수산기구의 조치 변화는 조업 가능 기간과 어획량에 영향을 줍니다."
+      },
+      {
+        "factor": "도매시장",
+        "detail": "가락시장처럼 지정도매법인 중심의 구조에서는 거래금액과 유통 물량 변화가 농산물중개부문 실적에 영향을 줍니다."
+      },
+      {
+        "factor": "QSR경쟁",
+        "detail": "QSR(빠르게 제공하는 외식 형태) 시장의 경쟁 심화는 외식사업부문의 점포 확대와 수익성에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "소비심리",
+        "detail": "외식산업은 소비자 심리지수와 식재료 원가지수에 민감해 경기와 비용 환경 변화가 실적에 반영됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "회사는 참치선망선 6척(10,191G/T)과 참치 연승선 9척(3,745G/T)을 보유하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "원양어업부문: 157,212,579 (34.5%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "수산물유통부문: 221,847,358 (48.8%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "농산물중개부문: 40,274,128 (8.9%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "아프리카 가나에서 생산한 참치캔을 유럽시장으로 판매하고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5122,
+    "completion_tokens": 1010,
+    "reasoning_tokens": 0,
+    "output_tokens": 1010
+  },
+  "warnings": []
+}

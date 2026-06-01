@@ -1,0 +1,71 @@
+{
+  "stock_code": "402030",
+  "corp_name": "코난테크놀로지",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:41",
+  "meta": {
+    "wics": "소프트웨어",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "코난테크놀로지는 IT 서비스·소프트웨어 기업으로, AI서비스사업부, 빅데이터컨버전스사업부, 국방AI사업부 등 총 6개 사업부를 운영하고 있습니다. Text AI(텍스트 기반 인공지능)와 Vision AI(영상 인공지능) 핵심 기술을 중심으로 공공, 기업, 국방 시장에 솔루션을 제공하는 것이 특징입니다.",
+    "business_model": "주요 매출은 Text AI와 Vision AI 기반 제품·서비스에서 발생하며, 2025년 매출 기준 KonanAnalytics 30.53%, Konan LLM 25.81%, KonanSearch 21.12%, KonanWatcher 13.98%, pulseK 4.92%, KonanChatbot 3.15%, KonanListener 0.49%로 구성됩니다. 회사는 생성형 AI, 데이터 분석, 검색, 대화형 AI, 객체 인식 기술을 묶어 B2B(기업 간 거래)와 B2G(기업-정부 거래) 시장에 맞춘 솔루션을 제공하고 있습니다. 최근에는 LLM(대규모 언어모델)과 AI Agent(목표 달성형 인공지능) 기반으로 공공행정 자동화와 국방 분야 확장을 추진하고 있습니다.",
+    "main_customers": "Text AI — 공공기관, 기업, 발전 공기업, 의료기관, 지방자치단체 / Vision AI — 공공·기업 현장, 감시·정찰 관련 수요처 / 국방 AI — 국방 분야 기관 및 관련 과제·프로젝트 발주처 / 데이터 분석·서비스 — 기업 및 공공기관",
+    "price_factors": [
+      {
+        "factor": "AI수요",
+        "detail": "공공기관과 민간 부문에서 생성형 AI 도입 수요가 늘수록 회사의 검색·LLM·자동화 솔루션 수요가 확대될 수 있습니다."
+      },
+      {
+        "factor": "공공사업",
+        "detail": "발전 공기업, 대법원, 지자체 등 공공기관 프로젝트 확대 여부가 실적 변동에 직접적인 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "국방확대",
+        "detail": "국방 AI 플랫폼과 지능형 감시·정찰 같은 과제가 늘면 국방AI사업부의 사업 기회가 커질 수 있습니다."
+      },
+      {
+        "factor": "규제준수",
+        "detail": "개인정보보호법과 AI 규제에 맞춘 제품 운영이 필요해, 준수 체계가 약하면 제품 출시와 사업 확장에 부담이 될 수 있습니다."
+      },
+      {
+        "factor": "기술전환",
+        "detail": "생성형 AI에서 AI Agent로 기술 축이 옮겨가면서, 이를 얼마나 빠르게 제품과 사업에 반영하느냐가 경쟁력에 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 1. 사업의 개요",
+        "evidence_text": "당사는 AI서비스사업부, 빅데이터컨버전스사업부, 국방AI사업부..."
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. 주요 제품 등의 현황",
+        "evidence_text": "KonanAnalytics 10,373 30.53% ... Konan LLM 8,771 25.81"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 1. 사업의 개요",
+        "evidence_text": "B2B 및 B2G 중심의 AI, 데이터 구축 분석 및 객체 인식 기술"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 1. 사업의 개요",
+        "evidence_text": "공공 및 국방 시장에서 필요로 하는 솔루션을 제공"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5881,
+    "completion_tokens": 914,
+    "reasoning_tokens": 0,
+    "output_tokens": 914
+  },
+  "warnings": []
+}

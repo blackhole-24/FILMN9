@@ -1,0 +1,86 @@
+{
+  "stock_code": "005610",
+  "corp_name": "삼립",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 19:16",
+  "meta": {
+    "wics": "식품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "삼립은 1945년 상미당 설립을 기원으로 1968년 법인 전환한 종합식품기업으로, 제과·제빵 및 식품 제조·유통 사업을 영위하고 있습니다. 빵·샌드위치·케이크류 등 베이커리 제품과 밀가루·계란·육가공품 등 식품 사업을 중심으로 사업을 운영하고 있습니다.",
+    "business_model": "사업부문은 BAKERY(제빵), FOOD(원재료·가공식품), 유통(식재 유통·단체급식), 기타(물류·수수료)로 구성되며, 매출 비중은 BAKERY 26.2%, FOOD 21.5%, 유통 51.3%, 기타 8.7%로 유통 부문 비중이 가장 큽니다. 유통 부문이 매출의 과반을 차지하는 가운데, 제빵 상품의 계절성(호빵 등)과 원재료·환율 변동이 수익성에 영향을 미칩니다.",
+    "main_customers": "BAKERY — 일반 소비자(빵·샌드위치·케이크 구매자) / FOOD — 직영점·휴게소 이용 고객 및 가공식품 수요처 / 유통 — 식재료 구매처 및 단체급식(외식 프랜차이즈 포함) / 기타 — 물류·수수료 서비스 이용 기업",
+    "price_factors": [
+      {
+        "factor": "계절성",
+        "detail": "대표 제품인 호빵 등 시즌성 제품으로 겨울철에 매출이 집중되어 계절적 실적 변동이 발생합니다."
+      },
+      {
+        "factor": "원가·환율",
+        "detail": "원재료 가격 상승과 고환율은 원가 부담을 키워 영업이익률에 부정적 영향을 미칩니다."
+      },
+      {
+        "factor": "시장경쟁",
+        "detail": "양산빵·베이커리·간편식(RTE) 경쟁 심화는 제품·브랜드 경쟁력과 신제품 출시 속도가 실적에 영향을 줍니다."
+      },
+      {
+        "factor": "생산안전",
+        "detail": "생산 현장의 안전사고로 인한 일시적 생산중단은 매출과 공급에 직접적인 차질을 빚을 수 있습니다."
+      },
+      {
+        "factor": "설비투자",
+        "detail": "제빵 산업의 대규모 설비·유지보수 필요성은 CAPEX(설비투자) 부담으로 작용할 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 1945년 상미당을 설립"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "BAKERY사업부문 ... 26.2%"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "FOOD사업부문 ... 21.5%"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "유통사업부문 ... 51.3%"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사의 대표 Hit 제품인 '삼립호빵'의 계절성"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "지난 5월 발생한 안전사고로 인한 일시적 생산중단"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "원재료 가격 상승과 고환율에 따른 원가 부담"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4372,
+    "completion_tokens": 4508,
+    "reasoning_tokens": 3520,
+    "output_tokens": 988
+  },
+  "warnings": []
+}

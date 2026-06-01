@@ -1,0 +1,69 @@
+{
+  "stock_code": "404990",
+  "corp_name": "신한서부티엔디리츠",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:41",
+  "meta": {
+    "wics": "부동산",
+    "market": "KOSPI",
+    "has_revenue_data": false,
+    "tier": 4,
+    "tier_mode": "best_effort_summary",
+    "corp_type": "reit"
+  },
+  "brief": {
+    "company_overview": "신한서부티엔디리츠는 2020년 1월 2일 설립된 부동산투자회사법(리츠, 부동산 간접투자기구) 기반의 위탁관리 부동산투자회사입니다. 2020년 5월 13일 국토교통부 영업인가를 취득했고, 2021년 12월 유가증권시장에 최초 상장했습니다. 현재는 인천 스퀘어원, 용산 그랜드머큐어 호텔, 나인트리 바이 파르나스 서울 동대문 호텔, 광화문 G타워, 신라스테이 마포 등 투자부동산 5건을 보유하고 있습니다.",
+    "business_model": "당사는 부동산 임대(부동산 취득, 관리, 개량 및 처분)를 단일사업으로 영위하며, 사업부문별 매출 구성은 사업보고서상 별도로 제시되지 않습니다. 투자한 부동산에서 발생하는 임대수익과 배당수익을 재원으로 자산을 운용하고, 그 결과를 주주 배당에 연결하는 구조입니다. 리츠(REITs, 부동산투자회사) 특성상 다수 투자자의 자금을 모아 부동산에 투자·운용하는 간접투자 방식이 핵심입니다.",
+    "main_customers": "부동산 임대 — 임차인 / 자산운용 — 주주(투자자)",
+    "price_factors": [
+      {
+        "factor": "임대수익",
+        "detail": "보유 부동산의 임대가 안정적으로 이어질수록 임대수익과 배당 재원이 확보됩니다."
+      },
+      {
+        "factor": "자산가치",
+        "detail": "투자 부동산의 가치와 운영 효율이 변하면 향후 수익 창출력에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "상장리츠",
+        "detail": "공모상장리츠 투자 허용 확대와 상장리츠 시장 성장 흐름은 리츠 산업 전반의 관심도에 영향을 줍니다."
+      },
+      {
+        "factor": "규제환경",
+        "detail": "부동산투자회사법과 국토교통부 관리감독 등 제도 변화는 리츠의 운용 방식과 투자 여건에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 영업개황 및 사업부문의 구분 (1) 영업개황",
+        "evidence_text": "당사는 부동산투자회사법에 의해 설립된 위탁관리부동산투자회사로서 2020년 1월 2일 설립되었으며"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "가. 영업개황 및 사업부문의 구분 (1) 영업개황",
+        "evidence_text": "2021년 12월 유가증권시장 최초 상장하였으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. 영업개황 및 사업부문의 구분 (2) 공시대상 사업부문의 구분",
+        "evidence_text": "당사는 부동산 임대(부동산 취득, 관리, 개량 및 처분)를 단일사업으로 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. 영업개황 및 사업부문의 구분 (1) 영업개황",
+        "evidence_text": "당사의 투자대상 부동산은 인천 스퀘어원"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4821,
+    "completion_tokens": 858,
+    "reasoning_tokens": 0,
+    "output_tokens": 858
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

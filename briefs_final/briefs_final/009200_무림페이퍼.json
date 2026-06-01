@@ -1,0 +1,76 @@
+{
+  "stock_code": "009200",
+  "corp_name": "무림페이퍼",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 20:17",
+  "meta": {
+    "wics": "종이와목재",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "무림페이퍼는 1974년 설립된 펄프·제지 계열의 제조업체로, 제지와 표백화학펄프를 중심으로 한 사업을 영위합니다. 연결회사인 무림P&P를 통해 펄프 생산과 제지의 일관화(2011년 완공된 펄프-제지 공장)를 이루고 있으며, 표백화학펄프 분야에서는 ‘국내 유일의’ 생산업체로 자리하고 있습니다.",
+    "business_model": "당사는 제지부문(아트지·백상지 등 인쇄용지 제조·판매), 펄프부문(표백화학펄프 제조·판매), 금융부문(시설대여·할부금융·신기술금융), 도매부문(제지·펄프 도매), 기타부문(증기·전기 생산·판매) 등 5개 보고부문으로 수익을 창출합니다. 2025년 펄프부문은 당사 매출의 22%를 차지하며, 제지부문은 수출 비중이 약 52%로 해외 판매 비중이 큽니다.",
+    "main_customers": "제지부문 — 인쇄용지 수요처(도서·잡지·라벨·교과서 등 인쇄물 제작업체) / 펄프부문 — 국내 제지업체 / 금융부문 — 시설대여·할부금융 서비스 이용자(기업·개인) / 도매부문 — 제지·펄프 구매업체 / 기타부문 — 증기·전력 수요처",
+    "price_factors": [
+      {
+        "factor": "펄프가격",
+        "detail": "판매가격이 국내 수입펄프 가격과 연동되어 있어 글로벌 펄프 가격 변동이 실적에 직접 영향합니다."
+      },
+      {
+        "factor": "원재료조달",
+        "detail": "목재칩의 수입 의존도가 높아(연간 조달량 중 약 52% 수입) 공급처 변화나 해상운송비 변동에 민감합니다."
+      },
+      {
+        "factor": "환율",
+        "detail": "수입 원료·수출 거래가 모두 존재하므로 환율 변동이 원가와 매출 환산에 영향을 줍니다."
+      },
+      {
+        "factor": "에너지비용",
+        "detail": "제조업 특성상 인건비·에너지 비용 상승은 제조원가를 높여 수익성에 부정적 영향을 미칩니다."
+      },
+      {
+        "factor": "수출규제",
+        "detail": "미국 관세·유럽 환경규제 등 수출 환경의 불확실성은 수출 수익성 및 영업에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황 > 펄프부문 개요",
+        "evidence_text": "1974년 1월 설립된 인쇄용지 등의 주원료인 표백화학펄프를 생산하는 국내 유일의 업체로서"
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황",
+        "evidence_text": "당사 연결실체는 전략적인 영업단위인 5개의 보고부문을 가지고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "펄프부문 개요",
+        "evidence_text": "2025년 펄프부문의 당사 매출 비중은 22%입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "제지부문 개요",
+        "evidence_text": "2025년 제지 수출 비중은 약 52%로"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "펄프부문 개요",
+        "evidence_text": "판매가격은 국내 수입펄프 가격과 연동되어 있어"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5675,
+    "completion_tokens": 4026,
+    "reasoning_tokens": 3072,
+    "output_tokens": 954
+  },
+  "warnings": []
+}

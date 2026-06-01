@@ -1,0 +1,81 @@
+{
+  "stock_code": "265560",
+  "corp_name": "영화테크",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:32",
+  "meta": {
+    "wics": "자동차부품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "영화테크는 자동차용 정션박스(Junction Box)와 전기차·전력전자 부품/모듈을 자체 개발·제조해 국내외 자동차 OEM사와 글로벌 부품사에 공급하는 회사입니다. 한국 본사와 생산공장, 기술연구소를 기반으로 중국과 멕시코의 현지 생산법인, 미국 현지법인도 운영하고 있습니다. 2025년 연결 매출은 1,086억 원으로, 해외 비중이 높은 사업 구조를 보이고 있습니다.",
+    "business_model": "주요 사업은 전장/전기차/이차전지 부품 및 부품개발과 수출로 나뉘며, FY2025 기준 전장/전기차/이차전지 부품 및 부품개발 등이 20.7%, 수출이 79.3%를 차지합니다. 정션박스는 전원과 신호를 분배하고 회로를 보호하는 필수 안전 부품이며, 자동차 전장화(전기·전자 장치 비중 확대)와 친환경차 확대 흐름에 맞춰 스마트정션박스와 존 제어기(Zone Controller)로 고도화되고 있습니다. 또한 Converter, PDU(Power Distribution Unit), OBC(On Board Charger) 같은 전기차 핵심 전력변환 부품도 함께 공급합니다.",
+    "main_customers": "전장/전기차/이차전지 부품 및 부품개발 — 국내외 자동차 OEM사, 글로벌 부품사 / 수출 — 국내외 자동차 제조사, 해외 고객사",
+    "price_factors": [
+      {
+        "factor": "전동화",
+        "detail": "전기차·수소차 확대와 전장화가 진행될수록 정션박스와 전력전자 부품 수요가 늘어 실적에 영향을 줍니다."
+      },
+      {
+        "factor": "수출",
+        "detail": "수출 비중이 높아 해외 완성차 수요와 지역별 판매 흐름이 매출 변동에 직접 연결됩니다."
+      },
+      {
+        "factor": "환율",
+        "detail": "해외 매출 비중이 높아 원/달러 등 환율 변화가 수출 채산성과 연결됩니다."
+      },
+      {
+        "factor": "글로벌경기",
+        "detail": "자동차산업은 글로벌 공급망 산업이라 북미·유럽·중국 등 주요 시장의 경기 변동이 수요에 영향을 줍니다."
+      },
+      {
+        "factor": "기술전환",
+        "detail": "OTA(무선통신 기반 정보제어)와 자율주행 확산에 따라 존 제어기 같은 차세대 부품으로의 전환 속도가 중요합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "자동차용 정션박스(Junction Box), 전기차, 전력전자부품/모듈 등을 자체 개발/제조"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "멕시코와 중국에 현지 생산법인 및 미국 현지법인을 운영하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "전장/전기차/이차전지 부품 및 부품개발 등: 22,455 (20.7%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "수출: 86,159 (79.3%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "국내외 자동차 OEM사 및 글로벌 부품사에 공급하는 회사"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 시장여건 및 영업의 개황",
+        "evidence_text": "전기차(EV), 수소차(FCEV), 자율주행, 커넥티드카"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5731,
+    "completion_tokens": 1003,
+    "reasoning_tokens": 0,
+    "output_tokens": 1003
+  },
+  "warnings": []
+}

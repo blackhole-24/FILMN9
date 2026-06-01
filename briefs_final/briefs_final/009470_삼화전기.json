@@ -1,0 +1,62 @@
+{
+  "stock_code": "009470",
+  "corp_name": "삼화전기",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 20:25",
+  "meta": {
+    "wics": "전기제품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "삼화전기는 전해콘덴서 등 전기부품을 주력으로 하는 전기·전자 기업으로, 2025년 연결기준 누적 매출은 2,301억원(전년 대비 약 1.31% 감소)을 기록했습니다. 글로벌 저가 제품의 경쟁 속에서 품질·기술 우위로 성장 기반을 마련하려는 점이 특징입니다.",
+    "business_model": "핵심 제품은 전해콘덴서이며, 그 외 제품(콘덴서 외)이 FY2025 영업수익의 51.5%를 차지합니다(사업부문별에는 전해콘덴서, Green-cap, 상품 및 기타로 구성). 품질·기술 경쟁력을 기반으로 5G 통신·자동차용 고특성 제품 중심의 매출 확대를 추진하고 있습니다.",
+    "main_customers": "전해콘덴서 — 5G 통신·자동차 분야 기업 / Green-cap — 고객군 명시 없음 / 상품 및 기타 — 고객군 명시 없음",
+    "price_factors": [
+      {
+        "factor": "저가 수입 압력",
+        "detail": "동남아시아·중국의 저가 제품 수입이 경쟁을 심화시켜 가격 및 마진에 부정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "수요 변동성",
+        "detail": "글로벌 경기 둔화와 산업 수요 조정은 제품 수요(매출)에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "환율 변동",
+        "detail": "영업활동에서 미화(USD) 등 환율 위험에 노출되어 환율 변동성이 실적에 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "기술·품질 경쟁",
+        "detail": "5G 통신·자동차 등 고특성 시장에서는 품질·기술 우위 여부가 수주와 고부가가치 제품 비중에 결정적 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "당기 매출액은 2,301억원으로 전년 대비 약 1.31% 감소하였습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "콘덴서 외: 118,554,931 (51.5%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "5G통신과 자동차 부분은 고품질 및 고특성을 요구하는 시장"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3032,
+    "completion_tokens": 3667,
+    "reasoning_tokens": 3008,
+    "output_tokens": 659
+  },
+  "warnings": []
+}

@@ -1,0 +1,67 @@
+{
+  "stock_code": "023350",
+  "corp_name": "한국종합기술",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 22:40",
+  "meta": {
+    "wics": "건설",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "한국종합기술은 1963년 설립된 종합건설엔지니어링 회사로, 상하수도·수자원개발·도시계획·환경·도로·교량·터널·항만·철도 등 엔지니어링 전 분야에서 기획·설계·감리·운영관리 업무를 수행합니다. 주로 중앙정부 및 지방자치단체 등 공공 발주처를 주요 고객으로 삼아 국내 공공부문에서 안정적 매출을 창출하고 있습니다.",
+    "business_model": "핵심 사업은 설계, 감리, 시공 및 기타 용역으로 구성되며, FY2025 기준 설계부분 45.6%, 감리부분 23.4%, 시공부분 29.0%, 기타부분 2.1%의 매출 비중을 보입니다. 또한 신재생에너지 EPC(설계·조달·시공) 및 O&M(운영·유지보수) 등 신사업으로 포트폴리오 다변화와 개발·제안형 사업 전환을 추진하고 있습니다.",
+    "main_customers": "설계부분 — 중앙정부·지방자치단체 등 공공 발주처 / 감리부분 — 중앙정부·지방자치단체 등 공공 발주처 / 시공부분 — 공공 발주(관급토목공사) 및 일부 해외사업 / 기타부분 — 기타 용역 및 부수적 사업",
+    "price_factors": [
+      {
+        "factor": "SOC예산",
+        "detail": "정부의 사회간접자본(SOC) 예산 증감에 따라 수주·매출 규모가 직접적으로 영향을 받습니다."
+      },
+      {
+        "factor": "전문인력",
+        "detail": "엔지니어링은 고도의 전문인력이 핵심 자원이라 인력 확보·유지 여부가 수주 경쟁력에 직결됩니다."
+      },
+      {
+        "factor": "기술·실적",
+        "detail": "수주 시 평가점수에서 기술력·수행실적이 중요해 실적 축적이 실적과 수주성공률에 큰 영향을 미칩니다."
+      },
+      {
+        "factor": "계절성",
+        "detail": "용역형 수익구조 특성상 계절적 요인의 영향은 제한적이며 매출은 수주 시점 기반으로 인식됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "종합건설엔지니어링 회사입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성] ■ 사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "설계부분: 188,128 (45.6%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "당사는 주로 국가 및 지방자치단체 등에서 발주하는"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "발주처가 정부기관 위주로 형성되어 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5302,
+    "completion_tokens": 4389,
+    "reasoning_tokens": 3584,
+    "output_tokens": 805
+  },
+  "warnings": []
+}

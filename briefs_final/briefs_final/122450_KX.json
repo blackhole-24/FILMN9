@@ -1,0 +1,81 @@
+{
+  "stock_code": "122450",
+  "corp_name": "KX",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 11:50",
+  "meta": {
+    "wics": "복합기업",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "KX는 2000년 PP사업자 등록 후 2002년 제3세계 영화채널 개국으로 PP(채널사업)를 시작했으며, 이후 송출사업을 추가해 성장한 복합 기업입니다. 현재 국내 송출사업자 1위 지위를 유지하고 있으며, 반도체재료 제조, 골프장 운영, 채널운영, 네트워크 보안 등 종속회사를 통해 사업을 다각화하고 있습니다.",
+    "business_model": "공시된 사업부문별 영업수익 구성은 '2003. 7'이 12.0%, '1997. 3'이 83.0%로 기재되어 있습니다. 핵심 수익원은 방송 송출사업(수신료·플랫폼과의 계약 기반)과 채널사업(수신료·광고), 그리고 종속회사들을 통한 반도체재료 제조, 골프장 운영(입장료·F&B·임대) 및 네트워크 보안 솔루션·관제 서비스로 구성된 다각화된 구조입니다.",
+    "main_customers": "송출사업 — 플랫폼 사업자(유료방송 플랫폼) / 채널사업 — 플랫폼 사업자 및 광고주 / 골프장 운영 — 골퍼들 및 시설 이용 고객 / 네트워크 보안·솔루션 — 채널사업자",
+    "price_factors": [
+      {
+        "factor": "송출 화질",
+        "detail": "HD에서 UHD급 이상으로 송출서비스 전환이 보편화되면 송출사업의 부가가치와 수익성이 개선될 수 있습니다."
+      },
+      {
+        "factor": "수신료 평가",
+        "detail": "채널 수신료는 플랫폼이 제시하는 평가 기준(시청률·신규콘텐츠 편성비 등)에 따라 결정되어 실적에 직접 영향을 미칩니다."
+      },
+      {
+        "factor": "광고가격",
+        "detail": "채널 내 광고단가는 유효 가입자·시청률에 따라 달라져 광고매출 변동성이 실적에 반영됩니다."
+      },
+      {
+        "factor": "골프 계절성",
+        "detail": "골프장 매출은 계절성이 뚜렷해 봄·가을 성수기와 겨울·여름 비수기에 따라 실적 변동이 발생합니다."
+      },
+      {
+        "factor": "규제·표준",
+        "detail": "방송영상 표준 및 방송통신위원회 규정 준수 여부가 채널 운영과 송출사업의 계약·운영에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "당사는 2000년 10월 PP사업자 등록을 마치고"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "현재 국내 송출사업자 1위 지위를 유지하고 있으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "2003. 7: 18,016 (12.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "1997. 3: 86,939 (83.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "채널사업자를 고객으로"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "골퍼들에게 골프 플레이가 가능한 장소와"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4277,
+    "completion_tokens": 4410,
+    "reasoning_tokens": 3520,
+    "output_tokens": 890
+  },
+  "warnings": []
+}

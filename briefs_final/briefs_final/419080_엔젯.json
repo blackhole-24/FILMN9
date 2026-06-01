@@ -1,0 +1,86 @@
+{
+  "stock_code": "419080",
+  "corp_name": "엔젯",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:43",
+  "meta": {
+    "wics": "디스플레이장비및부품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "엔젯은 2009년 설립된 인쇄전자 장비 기업으로, 2022년 상장에 성공했습니다. EHD(정전기력을 이용해 액체 토출을 제어하는 기술) 기반의 프린팅·코팅 솔루션을 중심으로 사업을 영위하며, 디스플레이·반도체·PCB 등 첨단 산업에 적용 가능한 기술을 보유하고 있습니다.",
+    "business_model": "회사의 사업은 EHD 프린팅 솔루션과 EHD 코팅 솔루션으로 나뉘며, 핵심 부품인 모듈·노즐·잉크·시스템·소프트웨어를 제조·판매합니다. FY2025 기준 사업부문별 영업수익은 제품 매출 79.2%, 기타매출 20.7%로 구성되어 있으며, 프린팅은 초미세 전극 배선과 기능성 패턴 구현에, 코팅은 나노스케일 초박막 코팅 구현에 활용됩니다. 최근에는 2025년 2월부터 멀티노즐 제품을 순차 출시하며 시장 확대를 추진하고 있습니다.",
+    "main_customers": "EHD 프린팅 솔루션 — 디스플레이, 반도체, PCB 등 첨단 산업 고객 / EHD 코팅 솔루션 — 광학코팅 산업 및 필름 대체·박막 코팅 수요처 / 멀티노즐 — 주요 연구기관 및 일반 기업군",
+    "price_factors": [
+      {
+        "factor": "디스플레",
+        "detail": "주사업인 디스플레이 시장의 업황과 투자 지연이 매출에 직접 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "고정밀수요",
+        "detail": "산업 전반의 고집적·고도화가 진행될수록 고정밀·고점도 인쇄 기술 수요가 늘어날 수 있습니다."
+      },
+      {
+        "factor": "양산전환",
+        "detail": "EHD 기술의 양산 적용이 확대될수록 고객사 R&D 기간 이후 매출 발생 가능성이 커질 수 있습니다."
+      },
+      {
+        "factor": "환율변동",
+        "detail": "해외 수출 매출채권이 있어 환율 변동이 실적과 채권 가치에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "장비투자",
+        "detail": "포토리소그래피 대체 수요와 고객사의 설비 투자 방향이 장비 수요에 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 7. 기타 참고사항 / 경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "당사는 2009년 설립 이후 지속적으로 성장하며 독보적인 EHD 기술력으로 2022년 상장에 성공하였습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 회사의 영위사업 / [사업부문별 매출 구성]",
+        "evidence_text": "당사의 사업부문은 EHD 프린팅 솔루션과 EHD 코팅 솔루션으로 나누어집니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "제품 매출: 3,328,584 (79.2%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 시장여건 및 영업의 개황 / 산업의 성장성",
+        "evidence_text": "삼성전자, 애플, 화웨이, 오포, 비보 등의 Cover glass 제조 업체인 중국의 K사에"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 시장여건 및 영업의 개황",
+        "evidence_text": "당사의 주사업인 디스플레이 시장의 전반적인 침체로 인한 PO 지연이 매출 감소의 원인으로 작용하였습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 시장여건 및 영업의 개황",
+        "evidence_text": "현재 시장은 어떤 분야든 고집적, 고도화 추세에 따라 점차 고정밀, 고점도인쇄에 대한 요구사항이 높아지고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "매출채권중 해외 수출에 대한 환율변동에 영향을 받고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5732,
+    "completion_tokens": 1110,
+    "reasoning_tokens": 0,
+    "output_tokens": 1110
+  },
+  "warnings": []
+}

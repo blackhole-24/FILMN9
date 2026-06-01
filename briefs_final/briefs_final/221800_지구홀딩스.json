@@ -1,0 +1,87 @@
+{
+  "stock_code": "221800",
+  "corp_name": "지구홀딩스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 12:36",
+  "meta": {
+    "wics": "건강관리업체및서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "지구홀딩스는 체외진단검사서비스와 의료IT솔루션서비스를 주력으로 하는 기업입니다. 전국 직영점 1곳과 대리점 19곳을 통해 병의원으로부터 검체를 수거·분석하고, 제약임상 및 마이크로바이옴 기반 개인맞춤형 건강관리 사업을 신성장동력으로 추진하고 있습니다.",
+    "business_model": "주요 수익원은 체외진단검사서비스와 의료IT솔루션서비스이며, 보고서상 사업부문별 영업수익은 A사 85.4%, 기타 14.6%로 구성되어 있습니다. 의료IT솔루션은 건강검진솔루션, 진단검사솔루션, PHR(개인건강기록) 및 클라우드서비스 등을 고객사에 공급하는 형태입니다.",
+    "main_customers": "체외진단검사서비스 — 병의원·협력의료기관 / 의료IT솔루션서비스 — 의료기관 및 SW 공급 고객사",
+    "price_factors": [
+      {
+        "factor": "규제 승인",
+        "detail": "체외진단 의료기기는 식약처 신고·인증·허가가 필요해 신제품 출시 및 매출화에 시간·비용 영향."
+      },
+      {
+        "factor": "개인정보 규제",
+        "detail": "의료정보와 개인정보보호 관련 법적 규제 준수 요구로 IT솔루션 운영·개발 비용과 리스크에 영향."
+      },
+      {
+        "factor": "검체 확보",
+        "detail": "직영점·대리점·협력의료기관을 통한 검체 수급 능력이 검사 서비스 공급량과 매출에 직결."
+      },
+      {
+        "factor": "환율변동",
+        "detail": "보고서상 USD 등 외화 거래 노출로 환율 변동이 재무(수익)변동에 영향을 미칠 수 있음."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "체외진단검사서비스 사업과 의료IT솔루션서비스 사업"
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "A사: 21,856,865,510 (85.4%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "기타: 3,736,256,245 (14.6%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 사업분류별 주요 제품 및 제품설명",
+        "evidence_text": "병의원으로부터 체외진단 검사를 의뢰받아"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나. 산업 법령 및 정부 규제",
+        "evidence_text": "식품의약품안전처의 신고, 인증 혹은 허가를 반드시 획득하여야"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나. 산업 법령 및 정부 규제",
+        "evidence_text": "개인정보보호를 위한 다양한 법적 규제를 받고 있습니다."
+      },
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "전국에 분포한 직영점 1곳, 대리점 19곳을 통해"
+      },
+      {
+        "field": "business_model",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "2025년 매출액은 255.9억으로 전년 대비 2.21% 증가하였습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5685,
+    "completion_tokens": 3804,
+    "reasoning_tokens": 2880,
+    "output_tokens": 924
+  },
+  "warnings": []
+}

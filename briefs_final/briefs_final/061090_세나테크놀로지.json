@@ -1,0 +1,71 @@
+{
+  "stock_code": "061090",
+  "corp_name": "세나테크놀로지",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 04:07",
+  "meta": {
+    "wics": "통신장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "세나테크놀로지는 한국 본사를 R&D(연구개발) 중심으로 운영하고 미국 법인을 글로벌 비즈니스 허브로 이원화한 통신장비 기업으로, 'SENA' 브랜드로 모터사이클 등 레저·산업용 팀 커뮤니케이션 웨어러블을 개발·제조·판매합니다. 전 세계 140여 개국, 약 4천여 개 대리점·판매점을 통해 제품을 공급하며 글로벌 모터사이클 브랜드와의 협업으로 프리미엄 포지셔닝을 확보하고 있습니다.",
+    "business_model": "핵심 사업은 메시 인터콤(Mesh Intercom) 기반의 팀 커뮤니케이션 웨어러블 기기 개발·제조·판매이며, 한국 본사 중심의 기술개발과 미국·유럽·중국 등 현지 법인을 통한 글로벌 유통·판매 체계를 결합한 수출 주도 구조를 갖추고 있습니다. 경영진 보고에 따르면 글로벌 매출 비중은 95% 이상으로 해외시장 중심의 매출 구조입니다.",
+    "main_customers": "모터사이클용 통신기기 — 글로벌 모터사이클 브랜드·OEM (예: Harley-Davidson 등 약 60여개사) / 유통·리테일 — 전 세계 약 4천여개 대리점·판매점 및 Amazon 등 온라인 플랫폼 / 산업용 통신기기 — 물류·건설·제조 등 산업 현장 고객",
+    "price_factors": [
+      {
+        "factor": "브랜드 효과",
+        "detail": "강한 브랜드·네트워크 효과는 충성고객 확보와 프리미엄 수익성 유지에 유리합니다."
+      },
+      {
+        "factor": "수출 의존도",
+        "detail": "글로벌 매출 비중이 95% 이상인 구조로 해외 수요 변동이 실적에 직접적 영향을 미칩니다."
+      },
+      {
+        "factor": "기술 표준",
+        "detail": "오픈아키텍처와 기술 표준으로 전환비용을 높이는 Lock-in 효과가 경쟁우위를 지원합니다."
+      },
+      {
+        "factor": "유통 채널",
+        "detail": "전 세계 대리점·온라인 채널 확보는 판매확대와 고객접점 유지에 중요한 변수입니다."
+      },
+      {
+        "factor": "시장 성숙도",
+        "detail": "모터사이클 팀 커뮤니케이션 시장은 성숙 단계로, 점유율 유지·확대 전략이 실적에 중요합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "당사는 한국 본사를 기술 개발 중심의 제품 두뇌(R&D) 역할로"
+      },
+      {
+        "field": "business_model",
+        "source_section": "지적재산권 현황",
+        "evidence_text": "상기 지적재산권 대부분은 무선 메시 인터콤(Mesh intercom) 등에 관한 것으로서"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "'Harley-Davidson Motor Company' 같은 상징적인 고객사를 유치하고"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "당사는 글로벌 시장에서 95% 이상의 매출을 거두는 수출 주도 기업으로서,"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4857,
+    "completion_tokens": 4988,
+    "reasoning_tokens": 4160,
+    "output_tokens": 828
+  },
+  "warnings": []
+}

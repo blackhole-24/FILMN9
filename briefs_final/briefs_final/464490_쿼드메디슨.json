@@ -1,0 +1,79 @@
+{
+  "stock_code": "464490",
+  "corp_name": "쿼드메디슨",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 20:28",
+  "meta": {
+    "wics": "생물공학",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "쿼드메디슨은 마이크로니들(피부를 통한 약물전달) 플랫폼 기술을 바탕으로 의료용 마이크로니들 제품을 연구·개발하는 제약(생명공학) 기업입니다. 국내외 제약사와의 기술이전·공동연구 중심으로 사업을 전개하고 있으며, 보고서 기준 자산총계는 51,179백만원이고 현금성자산은 26,507백만원입니다.",
+    "business_model": "핵심은 분리형(S-MAP) 및 코팅형(C-MAP) 마이크로니들 플랫폼을 제약사가 보유한 허가 약물에 적용해 제품화하는 것(위수탁개발·생산 모델)이며, 단계별로 선행연구→CDO(위수탁개발)→CMO(대규모 생산)로 이어집니다. 매출은 주로 기술이전·공동연구에 따른 마일스톤 및 계약부채 기간인식 등으로 발생하며, 사업부문은 의약품과 기타로 구분됩니다.",
+    "main_customers": "의약품 — 제약사 등 수요기업 / 기타 — 제약사·수요기업(기술이전·위수탁개발 의뢰자)",
+    "price_factors": [
+      {
+        "factor": "임상진행",
+        "detail": "임상(예: IND 승인·투약 진전) 성과는 마일스톤 인식과 장기 수익 가능성에 직접적 영향을 미칩니다."
+      },
+      {
+        "factor": "기술이전수익",
+        "detail": "기술이전·공동연구 계약의 마일스톤 달성 여부가 단기 매출 규모를 좌우합니다."
+      },
+      {
+        "factor": "파트너사계약",
+        "detail": "글로벌·국내 제약사와의 계약 체결·확대는 개발 파이프라인 가속과 매출확대에 중요합니다."
+      },
+      {
+        "factor": "자금유동성",
+        "detail": "현금성자산과 유상증자 등 자금조달 상태는 연구개발 지속성과 임상 대응 능력에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "의료용 마이크로니들 제품을 연구 개발하고 있으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "마일스톤에 따른 단계별 목표 달성시 기술료를 취득하게 되며"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "제약사 등 수요기업의 의뢰를 받아"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사의 분리형 마이크로니들(Separable Microneedle Array Patch, S-MAP) 기술은"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "당기말 현금 잔액은 26,507백만원 입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "당사의 당기 영업수익은 10,698백만원으로 전기대비 15.0% 증가하였습니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 3701,
+    "completion_tokens": 4345,
+    "reasoning_tokens": 3456,
+    "output_tokens": 889
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

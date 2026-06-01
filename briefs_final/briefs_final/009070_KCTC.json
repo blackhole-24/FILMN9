@@ -1,0 +1,81 @@
+{
+  "stock_code": "009070",
+  "corp_name": "KCTC",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 20:14",
+  "meta": {
+    "wics": "항공화물운송과물류",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "KCTC는 전국 주요 항만과 산업지역에 영업망을 보유한 종합 물류기업으로, 컨테이너·일반화물 운송과 보세장치장(컨테이너 야드) 및 항만하역을 핵심 사업으로 운영하고 있습니다. 300여대의 트랙터와 900여대의 트레일러, 컨테이너 전용 철도 화차 등 자체 운송·하역 인프라를 바탕으로 중량물 운송과 연안해송, 물류센터 운영 등 광범위한 물류서비스를 제공합니다.",
+    "business_model": "주요 수익원은 운송·하역·중량물·소화물 등으로 구분되며, FY2025 기준 운송수입이 31.6%, 하역수입 8.3%, 중량물수입 22.3%, 소화물수입 32.8%, 기타수입 1.2%를 차지합니다. 구체적 서비스로는 화주 공장에서 항만까지의 일괄운송, 보세컨테이너 야드(CY) 운영과 CFS(화물분류·집배송) 서비스, 항만하역 및 특수중량물(모듈트레일러·예/부선·자항선 활용) 운송 등이 핵심입니다.",
+    "main_customers": "운송 — 화주(공장·수출입 기업) / 보세장치장·CFS — 화주 및 선사(컨테이너 보관·조작·수리 대상) / 항만하역 — 선사 및 화주(컨테이너·벌크·중량화물 등)",
+    "price_factors": [
+      {
+        "factor": "물동량",
+        "detail": "국내외 수출입 물동량 변동에 따라 매출과 수익에 직접적인 영향을 받습니다."
+      },
+      {
+        "factor": "유가·요금",
+        "detail": "국제유가 및 철도요금 등 공공요금 인상 시 원가 부담이 커져 수익성이 악화될 수 있습니다."
+      },
+      {
+        "factor": "경쟁심화",
+        "detail": "중소형 업체 및 알선업자 난립으로 경쟁이 심해지면 요율(가격) 경쟁으로 채산성이 저하될 수 있습니다."
+      },
+      {
+        "factor": "항만정책",
+        "detail": "항만 인프라 확충 및 물류허브화 정책은 장기적으로 물동량과 서비스 수요에 영향을 미칩니다."
+      },
+      {
+        "factor": "기술·환경",
+        "detail": "AI·자동화·친환경 규제 대응 수준이 운영효율과 비용구조에 영향을 주어 경쟁력 변동 요인이 됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 운송사업",
+        "evidence_text": "전국 주요 지역에 영업망을 확보하고 있는 당사의 운송사업은"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "운송수입: 239,141,112 (31.6%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 운송사업",
+        "evidence_text": "화주 공장에서 수출입 항만까지"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 사업부문의 시장여건 및 영업의 개황 1) 산업의 특성",
+        "evidence_text": "중소형 업체 및 알선업자 등의 난립"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 사업부문의 시장여건 및 영업의 개황 3) 경기변동의 특성",
+        "evidence_text": "국제유가 및 철도요금 등의 공공요금 인상 시"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "AI와 자동화 기술을 중심으로 패러다임이 급격히 재편되고"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5444,
+    "completion_tokens": 3821,
+    "reasoning_tokens": 2816,
+    "output_tokens": 1005
+  },
+  "warnings": []
+}

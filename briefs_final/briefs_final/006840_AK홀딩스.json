@@ -1,0 +1,62 @@
+{
+  "stock_code": "006840",
+  "corp_name": "AK홀딩스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 19:40",
+  "meta": {
+    "wics": "화학",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "AK홀딩스는 2012년 인적분할을 통해 지주회사 체제로 전환한 순수지주회사로, 애경케미칼·애경산업·제주항공·에이케이플라자 등을 주요 자회사로 두고 있습니다. 지주회사로서 자회사들의 배당·경영관리와 투자·지배구조 개선을 통해 그룹 전체의 가치 극대화를 목표로 하고 있습니다.",
+    "business_model": "당사는 순수지주회사로서 자회사들이 영위하는 화학·생활용품·항공·백화점·부동산 사업을 통해 연결 실적을 확보합니다. FY2025 기준 사업부문별 영업수익은 애경케미칼(애경(영파)화공 등) 43.1%, AK VINA 15.8%, 애경스페셜티 등 26.0%, 애경케미칼(단독) 11.5%, 기타 3.6%로 구성되어 있습니다.",
+    "main_customers": "화학부문 — 세제·섬유·자동차·전기전자·반도체 등 산업용 고객 / 항공운송부문 — 여객(탑승객) 및 화물(수송량) / 백화점부문 — 소매 소비자(백화점 이용 고객) / 부동산부문 — 임차인·투자자",
+    "price_factors": [
+      {
+        "factor": "원재료가격",
+        "detail": "원유·나프타 등 석유화학 원재료 가격 변동은 자회사 제품원가와 마진에 직접 영향을 미칩니다."
+      },
+      {
+        "factor": "환경·안전 규제",
+        "detail": "폐기물·대기·수질·화학물질 관련 법규 준수 비용과 인증 의무 증가는 제조 부문의 비용 부담을 높일 수 있습니다."
+      },
+      {
+        "factor": "설비가동률",
+        "detail": "대규모 설비투자와 가동률(보고서상 평균 가동률 46.1%) 변화는 생산성과 수익성에 중요한 변수입니다."
+      },
+      {
+        "factor": "항공 수요·단가",
+        "detail": "항공운송부문은 계절성·경쟁·외부 충격에 따라 판매단가와 탑승률이 변동하여 실적에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "당사는 순수지주회사로서 회사 내 별도 사업부문의 구분은 없습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "626,209 (43.1%)"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "4. 시장여건 및 영업의 개황 등 > 가. 산업의 특성",
+        "evidence_text": "진입장벽이 높은 것이 특징입니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 6098,
+    "completion_tokens": 4587,
+    "reasoning_tokens": 3840,
+    "output_tokens": 747
+  },
+  "warnings": []
+}

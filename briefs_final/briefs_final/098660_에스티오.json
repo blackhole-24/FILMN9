@@ -1,0 +1,67 @@
+{
+  "stock_code": "098660",
+  "corp_name": "에스티오",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 07:46",
+  "meta": {
+    "wics": "섬유,의류,신발,호화품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "에스티오는 셔츠&타이 전문점으로 출발해 남성 토털 패션을 지향하는 브랜드로 확장해온 패션업체입니다. 2025년 연결 기준 매출액은 약 715억원이고 대표품목 STCO 셔츠 매출액은 약 84억원(매출비중 11.76%)입니다.",
+    "business_model": "주요 브랜드는 STCO, DIEMS(오프라인 통합 유통), 온라인 브랜드 ZERO LOUNGE이며, 최근에는 여성복 브랜드 UMEORA와 패밀리형 편집 매장 콘셉트 URBAN WORKS로 유통과 상품 구성을 확대하고 있습니다. 판매경로별 FY2025 영업수익 구성은 대리점 43.8%, 할인점 13.6%, 직영점 31.6%, 온라인 11.1%로 대리점 및 직영점을 중심으로 수익이 형성됩니다.",
+    "main_customers": "대리점 — 대리점(오프라인 유통 파트너) / 할인점 — 할인점 매장 및 방문 소비자 / 직영점 — 직영 매장 방문 고객 / 온라인 — 온라인 쇼핑몰 이용 소비자",
+    "price_factors": [
+      {
+        "factor": "경기 민감성",
+        "detail": "패션 소비는 국민소득·경기 상황에 민감하여 경기 둔화 시 매출과 실적에 직접적인 영향을 받을 수 있습니다."
+      },
+      {
+        "factor": "소비심리",
+        "detail": "물가 상승·소비심리 위축이 지속되면 가성비 중심의 수요로 이동하여 매출 구성이 변동될 수 있습니다."
+      },
+      {
+        "factor": "유통구조",
+        "detail": "대리점·직영·할인점·온라인 등 채널별 비중 변화는 매출과 비용구조에 영향을 미칩니다."
+      },
+      {
+        "factor": "브랜드확장",
+        "detail": "신규 브랜드 런칭 및 URBAN WORKS 전개는 초기 투자비용을 수반해 단기 수익성에 부담을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "Ⅱ. 사업의 내용 > 영업의 현황",
+        "evidence_text": "\"국내 최초의 셔츠&타이 전문점\""
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "■ 사업부문별 영업수익 구성 (FY2025)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "Ⅱ. 사업의 내용 > 영업의 현황",
+        "evidence_text": "당사의 판매경로는 대리점, 직영점, 할인점, 온라인쇼핑몰이 있으며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "Ⅱ. 사업의 내용 > 라. 산업의 특성 및 국내외 시장여건",
+        "evidence_text": "패션산업은 소비자의 라이프스타일과 트렌드 변화에 민감하게 반응"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4712,
+    "completion_tokens": 3309,
+    "reasoning_tokens": 2560,
+    "output_tokens": 749
+  },
+  "warnings": []
+}

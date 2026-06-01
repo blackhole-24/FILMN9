@@ -1,0 +1,69 @@
+{
+  "stock_code": "294630",
+  "corp_name": "서남",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 15:26",
+  "meta": {
+    "wics": "전기장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "서남은 2세대 고온초전도 선재를 핵심으로 초전도 기술의 전주기(선재·버퍼선재·자석·제조장비)를 제조·판매하는 전기장비 업체입니다. 2025년 총매출은 3,386백만원으로 수출 비중이 큰 구조를 보입니다.",
+    "business_model": "주요 사업은 2세대 고온초전도 선재 생산을 중심으로 초전도 자석, 초전도 케이블 응용제품, 초전도 버퍼선재 및 선재 제조장비 공급으로 구성되어 있습니다. 2025년 기준 제품의 수출 2,736백만원, 내수 313백만원, 상품매출 251백만원, 용역매출 86백만원으로 총매출액 3,386백만원입니다.",
+    "main_customers": "초전도 선재·케이블 — 전력계통 응용 기업 / 초전도 자석 — 핵융합 연구기관·의료·연구용 자석 수요처 / 초전도 버퍼선재·제조장비 — 신규 초전도 선재 제조사 및 연구기관",
+    "price_factors": [
+      {
+        "factor": "수주변동성",
+        "detail": "프로젝트 단위 수주에 따라 매출 인식 시점이 변동되어 연도별·분기별 실적 변동성이 큽니다."
+      },
+      {
+        "factor": "정부예산",
+        "detail": "정부 R&D 예산 증감이 연구기관 발주 시점에 영향을 줘 수주와 매출에 직결됩니다."
+      },
+      {
+        "factor": "AI 수요",
+        "detail": "AI 데이터센터 등 전력 수요 증가로 초전도 전력시스템 도입이 확대되면 실적 개선 요인이 됩니다."
+      },
+      {
+        "factor": "진입장벽",
+        "detail": "나노·박막 공정과 신뢰성 요구로 신규 경쟁자 진입이 어려워 장기적 경쟁우위를 지원합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "당사는 2세대 고온초전도 선재를 핵심 제품으로 하여"
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황",
+        "evidence_text": "총 매출액 3,386백만원 입니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "당사의 주요 매출처는 전력계통 응용 기업, 초전도 자석 및 핵융합 연구기관"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "다. 경기변동의 특성 및 계절성",
+        "evidence_text": "연도별, 분기별 변동성이 큰 특징을 보입니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 6190,
+    "completion_tokens": 6216,
+    "reasoning_tokens": 5504,
+    "output_tokens": 712
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

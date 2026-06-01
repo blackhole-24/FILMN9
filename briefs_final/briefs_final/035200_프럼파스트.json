@@ -1,0 +1,71 @@
+{
+  "stock_code": "035200",
+  "corp_name": "프럼파스트",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 00:15",
+  "meta": {
+    "wics": "건축제품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "프럼파스트는 PB(폴리뷰틸렌) 기반의 배관자재를 생산하는 화학·건축제품 기업으로, 건설현장용 난방·급수용 배관을 주력으로 합니다. ‘동양PB파이프’ 브랜드로 국내 건설사에 지속 납품하고 있으며, 해외 수주 물량에도 같은 브랜드를 사용하고 있습니다.",
+    "business_model": "사업부문별 영업수익은 배관자재(46.0%), PB이음관 등(25.6%), 상품(27.7%), 임가공(0.6%)으로 구성되어 있으며, 배관자재 비중이 가장 큽니다. 핵심 원료인 폴리뷰틸렌(PB)을 주로 해외 공급사(Mitsui Chemical 등)로부터 조달하는 구조여서 원재료 가격 및 공급 이슈가 제조원가와 가격경쟁력에 직접적인 영향을 미칩니다.",
+    "main_customers": "배관자재 — 건설사(주택·건설현장) / PB이음관 등 — 시공업체·건설사 / 상품 — 기존 거래처·바이어 / 임가공 — 타 기업의 위탁가공 의뢰처",
+    "price_factors": [
+      {
+        "factor": "건설경기",
+        "detail": "신규주택 착공·아파트 분양 변동에 따라 매출과 실적이 크게 변동될 수 있습니다."
+      },
+      {
+        "factor": "원재료가격",
+        "detail": "주 원료인 폴리뷰틸렌 가격 상승 시 제조원가가 올라 실적에 부담으로 작용합니다."
+      },
+      {
+        "factor": "공급집중",
+        "detail": "원료 공급업체가 소수(전세계 3개사)에 집중되어 있어 공급 제약 시 생산에 영향이 발생할 수 있습니다."
+      },
+      {
+        "factor": "환율",
+        "detail": "원료를 해외에서 조달하므로 환율 변동이 제조원가와 가격경쟁력에 영향을 미칩니다."
+      },
+      {
+        "factor": "계절성",
+        "detail": "동절기·하절기 건설공사 차질로 계절적 매출 변동이 나타납니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 회사의 상표, 고객관리에 관한 중요한 정책",
+        "evidence_text": "당사는 \"동양PB파이프\" 라는 브랜드를 구축하여 왔습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "배관자재: 11,611 (46.0%)"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "산업의 특성",
+        "evidence_text": "원료공급업체가 전세계적으로 3개 업체에 불과하고"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업의 개황",
+        "evidence_text": "지속적으로 납품을 하고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3428,
+    "completion_tokens": 4535,
+    "reasoning_tokens": 3776,
+    "output_tokens": 759
+  },
+  "warnings": []
+}

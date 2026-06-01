@@ -1,0 +1,69 @@
+{
+  "stock_code": "046070",
+  "corp_name": "코다코",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 02:08",
+  "meta": {
+    "wics": "자동차부품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "코다코는 1997년 설립된 알루미늄 다이캐스팅 공법 기반의 자동차부품 제조업체로, 완성차업계의 2차(2nd-tier) 공급업체로서 출발해 북미 수출 중심에서 현재는 국내외 다수의 고객사에 부품을 공급하고 있습니다. 엔진·변속기·공조장치·조향장치 등 자동차 내부 기계장치용 부품을 주력으로 합니다.",
+    "business_model": "핵심은 알루미늄 다이캐스팅을 통한 자동차부품 제조 및 가공으로, 대부분의 매출이 자동차부품 단일 사업부문에서 발생하는 지배적 단일사업구조입니다(보고서상 부문별 별도 비중 미기재). 주요 수익원은 내수의 1차 협력사 납품과 해외 거래선을 통한 수출입니다.",
+    "main_customers": "자동차부품 — 국내 1차 협력사·완성차(예: 한온시스템, 현대트랜시스, 만도, LG전자, 현대모비스) 및 해외 거래선(Borg-Warner, AAM, SLPT, NSK 등) / 기타 — 보고서상 별도 비중 기재 없음",
+    "price_factors": [
+      {
+        "factor": "완성차 수요",
+        "detail": "완성차 생산량 증감은 부품 수요와 실적(주가)에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "원자재비",
+        "detail": "철강·비철금속 등 원자재 가격 상승은 원가 부담을 높여 수익성(실적)에 부정적입니다."
+      },
+      {
+        "factor": "규모의 경제",
+        "detail": "생산규모 확보 여부는 단가와 원가에 영향을 주어 장기적 수익성에 중요합니다."
+      },
+      {
+        "factor": "거래선 의존",
+        "detail": "주요 고객사·거래선의 매출 비중 변화는 매출과 실적 변동성으로 연결될 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 영업개황",
+        "evidence_text": "알루미늄 다이캐스팅 공법으로 자동차 부품을 제조"
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. 영업개황",
+        "evidence_text": "주요 제품은 대부분 자동차의 내부 기계장치에 대한 부품"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 영업개황",
+        "evidence_text": "내수부분에서는 주요고객사인 한온시스템, 현대트랜시스, 만도, LG전자, 현대모비스"
+      },
+      {
+        "field": "business_model",
+        "source_section": "나. 공시대상 사업부문의 구분",
+        "evidence_text": "지배적 단일사업부문으로 부문별 기재를 생략합니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 3800,
+    "completion_tokens": 4004,
+    "reasoning_tokens": 3264,
+    "output_tokens": 740
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

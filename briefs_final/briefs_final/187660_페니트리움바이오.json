@@ -1,0 +1,77 @@
+{
+  "stock_code": "187660",
+  "corp_name": "페니트리움바이오",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 11:07",
+  "meta": {
+    "wics": "제약",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "페니트리움바이오는 약물전달 기술 기반 개량신약 개발 플랫폼 Penetrium™(페니트리움)을 중심으로 바이오 신약개발을 주요 사업으로 영위하는 기업입니다. 자체 신약 파이프라인의 임상 개발과 상업화를 추진하는 한편, 축적된 임상 수행 역량을 바탕으로 임상시험수탁(CRO) 서비스를 병행 제공하고 있습니다.",
+    "business_model": "핵심 수익원은 용역(임상 CRO)과 임대매출로 구성되며, 사업부문별로 용역이 41.9%, 임대매출이 4.6%를 차지합니다. Penetrium™ 플랫폼을 통한 항암 치료제(고형암 및 P53 타깃 대사항암제 등) 개발과 더불어 제약사·바이오벤처 대상의 임상 설계·운영·데이터 관리 등 CRO(임상시험수탁기관) 서비스를 제공하는 것이 사업의 양 축입니다.",
+    "main_customers": "용역(임상 CRO) — 제약회사·바이오벤처 및 연구기관 / 임대매출 — 구체적 고객은 자료에 명시되지 않음",
+    "price_factors": [
+      {
+        "factor": "개발기간",
+        "detail": "신약 개발의 장기(다년)·고비용 특성으로 개발 지연 시 실적 인식과 현금흐름에 장기적 영향을 미칩니다."
+      },
+      {
+        "factor": "인력비중",
+        "detail": "CRO는 인력집약적 산업으로 인건비 비중이 높아 인건비 변동이 수익성에 직접 영향합니다."
+      },
+      {
+        "factor": "규제환경",
+        "detail": "의약품 관련 규제 변화는 연구개발 일정, 비용 및 사업화 시점에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "시장수요",
+        "detail": "항암 치료제 시장의 성장성(수요 확대)은 Penetrium™ 기반 제품의 상업화 잠재력에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 > 영업 현황",
+        "evidence_text": "바이오 신약개발을 주요 사업으로 영위"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 > 영업 현황",
+        "evidence_text": "임상시험수탁기관(CRO: Contract Research Organization) 서비스를 병행 제공하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "용역: 3,885,371 (41.9%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "임대매출: 426,717 (4.6%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 > 영업 현황",
+        "evidence_text": "제약회사 및 바이오벤처 등으로부터 임상시험 관련 업무를 위탁 받아"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 > 경쟁 환경 및 시장 특성",
+        "evidence_text": "규제 환경 변화는 연구개발 일정, 비용 및 사업화 시점 등에 영향을 미칠 수 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4949,
+    "completion_tokens": 3658,
+    "reasoning_tokens": 2816,
+    "output_tokens": 842
+  },
+  "warnings": []
+}

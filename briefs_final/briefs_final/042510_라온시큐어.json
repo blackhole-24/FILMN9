@@ -1,0 +1,67 @@
+{
+  "stock_code": "042510",
+  "corp_name": "라온시큐어",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 01:41",
+  "meta": {
+    "wics": "소프트웨어",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "라온시큐어는 2012년 설립된 AI 보안·인증 플랫폼 기업으로, 생체인증 기반 다중인증(MFA), 통합 계정·권한 관리(IAM), 블록체인 기반 분산신원인증(DID) 등 보안·인증 기술을 제공합니다. AI 중심 경영체제와 AI사업본부 신설을 통해 AI 기반 보안 자동화 플랫폼과 디지털 신뢰 인프라 구축을 추진하고 있습니다.",
+    "business_model": "주요 수익원은 솔루션·보안 제품과 서비스 부문으로 구성되며, 제공 제품군 가운데 모바일 보안 매출이 26.2%(제28기), 솔루션사업이 10.3%(제28기), PC보안이 7.1%(제28기)를 차지합니다. 이 밖에 보안 컨설팅, 차세대 기술연구 및 자회사 사업을 통해 서비스형 보안과 컨설팅 수익이 보완적으로 발생합니다.",
+    "main_customers": "솔루션 사업 — 금융·공공·기업 환경 / PC보안 — 온라인 서비스 제공 기업 / 모바일 보안 — 모바일 서비스 운영 기업 / 서비스·컨설팅 — 개인·기업·국가",
+    "price_factors": [
+      {
+        "factor": "법규·정책",
+        "detail": "정보보호·개인정보 관련 법령 개정은 준법 부담과 보안 솔루션 수요를 동시에 확대하여 실적에 직접 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "제로트러스트",
+        "detail": "제로 트러스트 가이드라인 강화는 사용자 인증·접근통제 기술 수요를 높여 솔루션 매출에 우호적으로 작용할 수 있습니다."
+      },
+      {
+        "factor": "국가망(N²SF)",
+        "detail": "국가망 보안체계(N²SF) 공개로 공공·금융 분야의 인증·권한관리 강화 수요가 증가하여 해당 사업 부문 실적에 영향이 있을 수 있습니다."
+      },
+      {
+        "factor": "AI확산",
+        "detail": "에이전틱 AI(Agentic AI) 확산은 AI 보안·권한통제 기술의 중요성을 높여 관련 제품·서비스의 수요 확대와 기술 투자 필요성을 동시에 증대시킬 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 회사의 개요 및 시장 환경",
+        "evidence_text": "당사는 2012년 설립된 AI 보안·인증 플랫폼 기업으로,"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[표] 가. 주요 제품 등의 현황",
+        "evidence_text": "16,723(26.2)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "(1) 솔루션 사업부문",
+        "evidence_text": "해당 솔루션은 금융·공공·기업 환경의 보안 인프라 구축에 폭넓게 적용되고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나. 법률/규정 등에 의한 규제 사항",
+        "evidence_text": "과학기술정보통신부는 「제로 트러스트 가이드라인 2.0」을 발표하여"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4540,
+    "completion_tokens": 4437,
+    "reasoning_tokens": 3648,
+    "output_tokens": 789
+  },
+  "warnings": []
+}

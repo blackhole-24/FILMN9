@@ -1,0 +1,76 @@
+{
+  "stock_code": "088790",
+  "corp_name": "진도",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 06:46",
+  "meta": {
+    "wics": "섬유,의류,신발,호화품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "진도는 2006년 3월 인적분할을 통해 설립된 유가증권시장 상장법인으로 모피 제품 제조 및 도·소매업을 영위하고 있습니다. 진도모피·엘페·끌레베·우바·에릭자비츠 등 5개 브랜드를 보유한 전통적 모피 브랜드로, 부동의 1위 모피 브랜드로서 소비자에게 꾸준한 인지도를 유지하고 있습니다.",
+    "business_model": "주력은 모피제품 제조·판매로 매출의 대다수가 의류(특히 모피)에서 발생하며 모피의류가 전체 매출의 89.4%를 차지합니다. 유통망별로는 백화점이 약 60%, 홈쇼핑/온라인이 25%, 직영점 10%, 아울렛 5%의 비중을 차지하며, 매출 유형별로는 상품매출 36.3%, 제품매출 61.3%, 임대수익 2.4%, 원부재료매출 0.01%를 기록하고 있습니다.",
+    "main_customers": "백화점 채널 — 백화점 이용 소비자 / 홈쇼핑·온라인 채널 — TV·온라인 쇼핑 이용자 / 직영점 — 브랜드 직접 구매 소비자 / 아울렛 — 할인 구매층",
+    "price_factors": [
+      {
+        "factor": "백화점경쟁",
+        "detail": "백화점 입점 구조 변화로 입점 업체 간 경쟁이 심화되어 영업일수 및 매출에 영향 가능"
+      },
+      {
+        "factor": "계절성",
+        "detail": "모피 특성상 성수기(10월~翌2월)에 매출이 집중되어 분기별 실적 변동성이 큽니다"
+      },
+      {
+        "factor": "원자재비",
+        "detail": "원자재(mink skin) 공급량 감소와 원가 상승은 제조원가에 직접적 부담을 줄 수 있습니다"
+      },
+      {
+        "factor": "유통구조",
+        "detail": "홈쇼핑/온라인 비중(25%) 변화는 채널별 실적 비중에 즉각적 영향을 미칩니다"
+      },
+      {
+        "factor": "브랜드파워",
+        "detail": "브랜드 인지도가 높을수록 유통 축소 국면에서 상대적 우위를 점할 수 있습니다"
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 사업의 개요",
+        "evidence_text": "부동의1위 모피 브랜드로서 소비자로부터 꾸준한 사랑을 받고 있는 기업입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "나. 회사의 현황(사업의 현황)(1) 영업개황",
+        "evidence_text": "유통망별 매출 비중은 백화점이 약 60%, 홈쇼핑/온라인이 25%"
+      },
+      {
+        "field": "business_model",
+        "source_section": "나. 회사의 현황(사업의 현황)(1) 영업개황",
+        "evidence_text": "상품매출 17,259백만원(36.3%), 제품매출 29,194백만원(61.3%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "나. 회사의 현황(사업의 현황)(1) 영업개황",
+        "evidence_text": "주요 유통망은 백화점,프리미엄아울렛, 대리점, 직영점, 홈쇼핑, 온라인"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "다. 시장의 특성 및 시상점유율",
+        "evidence_text": "4/4분기에 연간 매출의 40%이상을 차지하고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3659,
+    "completion_tokens": 4180,
+    "reasoning_tokens": 3264,
+    "output_tokens": 916
+  },
+  "warnings": []
+}

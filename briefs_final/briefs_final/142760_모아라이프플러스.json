@@ -1,0 +1,72 @@
+{
+  "stock_code": "142760",
+  "corp_name": "모아라이프플러스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 10:13",
+  "meta": {
+    "wics": "제약",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "모아라이프플러스는 2000년 설립 이후 발효식품 유래 미생물을 바탕으로 HumaMAX·MucoMAX 등의 자체 플랫폼 기술을 개발해 신약후보물질 연구를 진행하는 바이오 기업입니다. 동시에 폴리감마글루탐산(γ-PGA)을 활용한 건강기능식품·기능성 화장품 등 컨슈머사업과 전문의약품 및 의료용품 유통사업을 병행하고 있습니다.",
+    "business_model": "핵심은 자체 플랫폼(HumaMAX·MucoMAX)을 통한 신약 개발(연구개발 활동)이며, 제26기(2025년) 매출은 건강기능식품 46.8%, 화장품 26.1%, 폴리감마글루탐산 관련 원료·기타 24.5% 등 소비자용 제품과 원료·수출이 주된 수익원입니다. 의약품 유통사업은 전문유통망을 통해 제품을 공급하는 구조로, 플랫폼 기술은 제품·원료의 차별화와 파이프라인 개발을 동시에 지원합니다.",
+    "main_customers": "건강기능식품 — 국내 소비자(B2C) 및 기업(B2B) / 화장품 — 국내·해외 화장품 기업 및 최종 소비자 / 의약품 유통 — 전문의약품·의료기기 전문유통업체 및 유통업체",
+    "price_factors": [
+      {
+        "factor": "시장규모",
+        "detail": "국내 건강기능식품 수요 확대는 건강기능식품 매출에 직접적인 영향(국내 시장 성장으로 매출 기반 확대 가능)."
+      },
+      {
+        "factor": "온라인유통",
+        "detail": "인터넷몰 등 온라인 유통 비중이 높아(구매 채널 변화) 온라인 판매 전략과 채널 확보가 실적에 중요한 변수입니다."
+      },
+      {
+        "factor": "글로벌수요",
+        "detail": "글로벌 스킨케어 시장 성장(글로벌 수요 확대)은 화장품 수출 및 브랜드 확장에 유리하게 작용합니다."
+      },
+      {
+        "factor": "특허·원료",
+        "detail": "폴리감마글루탐산 기반 원료와 특허 포트폴리오(국내·해외 특허 보유)는 제품 차별화·수출 경쟁력에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "자체 플랫폼 기술을 활용한 바이오 신약개발사업을 중심으로"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "신약후보물질 개발을 위해 자체 플랫폼 기술 (HumaMAX, MucoMAX)을 활용"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "건강기능식품의 B2C 및 B2B 사업을 추진하고 있으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "건강기능식품 합계 1,989,868"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "화장품 합계 1,107,255"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5976,
+    "completion_tokens": 5921,
+    "reasoning_tokens": 5056,
+    "output_tokens": 865
+  },
+  "warnings": []
+}

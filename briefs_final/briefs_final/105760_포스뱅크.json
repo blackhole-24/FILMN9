@@ -1,0 +1,81 @@
+{
+  "stock_code": "105760",
+  "corp_name": "포스뱅크",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 08:28",
+  "meta": {
+    "wics": "상업서비스와공급품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "포스뱅크는 2003년 설립된 POS(판매정보관리)·KIOSK 개발·제조 전문 기업으로, 다양한 OS 기반의 판매 및 결제 시스템을 제공하는 것을 핵심으로 합니다. 2025년 기준 매출 약 914억원 중 77.78%가 해외에서 발생하는 수출 중심 구조를 바탕으로 미국, 유럽 등 글로벌 유통 채널(약 80여 개국)을 통해 제품을 공급하고 있습니다.",
+    "business_model": "핵심 수익원은 하드웨어 중심의 제품매출이 주도하며, 사업부문별로 제품매출이 70.8%, KIOSK가 8.3%, 기타 11.2%, 상품매출 6.2%, 용역매출 0.9%, 임대매출 11.6%를 차지합니다 (FY2025). 자체 개발한 POS·KIOSK·KDS(주방디스플레이)·테이블오더 등 엔드투엔드 하드웨어 생태계를 기반으로 자사 브랜드 판매와 함께 ODM(제조자 개발생산)·OEM(주문자상표부착생산) 방식의 공급을 병행하며, 평택공장의 자동화 라인(연간 최대 283,000대)으로 생산규모를 확보하고 있습니다.",
+    "main_customers": "POS 시스템 — 패스트푸드 프랜차이즈·레스토랑·카페 등 외식업(F&B) / KIOSK·테이블오더·KDS — 편의점·대형 마트 등 소매 유통업(Retail) / ODM·OEM 공급 — 글로벌 패스트푸드 및 편의점 프랜차이즈·결제 솔루션 기업",
+    "price_factors": [
+      {
+        "factor": "해외수요·환율",
+        "detail": "매출의 상당 부분(77.78%)이 해외에서 발생하므로 해외 수요 변동과 환율 변동이 실적에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "원가(원자재)",
+        "detail": "환율 상승과 글로벌 원자재 가격 상승은 원가 상승으로 이어져 영업이익률에 부담을 줄 수 있습니다."
+      },
+      {
+        "factor": "무인화 트렌드",
+        "detail": "무인 주문·셀프서비스 확산은 KIOSK·테이블오더 수요를 늘려 매출에 긍정적 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "ODM 경쟁력",
+        "detail": "ODM 중심의 B2B 구조에서 설계·납기·품질 경쟁력이 수주 확보와 수익성에 중요한 변수로 작용합니다."
+      },
+      {
+        "factor": "생산능력",
+        "detail": "평택공장의 자동화 라인 규모(연간 최대 283,000대)는 원가 경쟁력과 공급 안정성에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 다양한 플랫폼(OS) 기반의 판매 및 결제 시스템(POS System) 분야를 선도하는 개발, 제조 전문 혁신 기업입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "제품매출: 56,151 (70.8%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "KIOSK: 6,623 (8.3%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "패스트푸드 프랜차이즈, 레스토랑, 카페 등 외식업(F&B) 분야는 물론, 신속한 처리가 생명인 편의점과 대형 마트 등 소매 유통업(Retail)에 이르기까지 광범위한 적용 실적을 보유하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "POS 및 KIOSK 산업은 디지털 결제 환경의 고도화, 비대면 소비의 일상화, 매장 운영 효율성에 대한 요구 증대와 같은 흐름 속에서 지속적으로 성장하고 있습니다."
+      },
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "2025년 매출액 약 914억 원 중 77.78%가 해외 시장에서 발생하는 등 당사의 사업 구조는 수출 중심으로 구성되어 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5642,
+    "completion_tokens": 5412,
+    "reasoning_tokens": 4288,
+    "output_tokens": 1124
+  },
+  "warnings": []
+}

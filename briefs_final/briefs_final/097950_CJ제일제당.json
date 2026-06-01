@@ -1,0 +1,71 @@
+{
+  "stock_code": "097950",
+  "corp_name": "CJ제일제당",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:15",
+  "meta": {
+    "wics": "식품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "CJ제일제당은 식품과 BIO 사업을 중심으로 운영하는 CJ그룹 계열 기업입니다. 식품에서는 소재식품과 가공식품을, BIO에서는 발효 및 정제 기술을 기반으로 한 Animal Nutrition과 Taste & Nutrition 사업을 영위하고 있습니다.",
+    "business_model": "사업부문별 매출 구성은 식품 42.0%, BIO 15.0%, 물류 43.0%입니다. 식품 사업은 설탕·밀가루·식용유 같은 소재식품과 햇반·만두·피자·가정 간편식·육가공 제품 등 가공식품으로 구성되며, BIO 사업은 세계 최고 수준의 발효 및 정제 기술을 기반으로 운영됩니다. 또한 2019년 미국 냉동식품 가공업체 Schwan's Company 인수, 비비고 브랜드 육성, 2021년부터 GSP(Global Strategic Product) 품목 확대 등을 통해 글로벌 확장을 추진하고 있습니다.",
+    "main_customers": "식품 — 일반 소비자, 1인 가구, 맞벌이 가구 / BIO — Animal Nutrition 및 Taste & Nutrition 관련 수요처 / 물류 — 제공된 데이터에 고객 유형이 구체적으로 제시되지 않음",
+    "price_factors": [
+      {
+        "factor": "곡물가",
+        "detail": "원당·원맥·대두 같은 국제 곡물가 변동이 소재식품 원가에 영향을 주어 수익성에 직접적인 변수가 됩니다."
+      },
+      {
+        "factor": "환율",
+        "detail": "환율 변동은 원재료 수입 비용과 해외 사업 관련 실적에 영향을 주어 사업 전반의 변동성을 키울 수 있습니다."
+      },
+      {
+        "factor": "소비트렌드",
+        "detail": "1인 가구·맞벌이 증가와 가공식품 수요 확대는 식품 사업 성장에 영향을 주는 핵심 환경입니다."
+      },
+      {
+        "factor": "K-푸드",
+        "detail": "비비고와 K-푸드의 글로벌화가 해외 식품 시장 확대의 동력이 되며, 현지화 성과가 중요합니다."
+      },
+      {
+        "factor": "기술경쟁",
+        "detail": "BIO 사업은 발효·정제 기술과 선행특허 확보가 경쟁력의 핵심이라 기술 역량 변화가 실적에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "식품 사업과 BIO 사업을 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "식품: 11,522,251 (42.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "BIO: 4,123,004 (15.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "물류: 11,697,334 (43.0%)"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4829,
+    "completion_tokens": 765,
+    "reasoning_tokens": 0,
+    "output_tokens": 765
+  },
+  "warnings": []
+}

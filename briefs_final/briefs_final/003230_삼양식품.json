@@ -1,0 +1,67 @@
+{
+  "stock_code": "003230",
+  "corp_name": "삼양식품",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 18:27",
+  "meta": {
+    "wics": "식품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "삼양식품은 본사를 거점으로 국내외에 판매·물류 법인을 둔 글로벌 식품 제조기업으로, 면류를 비롯한 식품의 제조·판매와 물류·용역 서비스를 영위하고 있습니다. 국내에 원주·익산·밀양 등 3개의 생산공장을 보유해 면류 및 관련 제품을 생산하고 있습니다.",
+    "business_model": "주력은 면류 사업이며, 제조·판매와 함께 물류·용역 서비스를 제공하는 복합적 사업구조를 갖고 있습니다. FY2025 기준 사업부문별 영업수익 구성은 뉴트리션 0.1%, 소스조미소재 3.0%, 냉동 2.6%, 기타 0.8%, 용역서비스 4.0%, 축산 및 관광 0.2%입니다.",
+    "main_customers": "면류 — 국내외 일반 소비자 / 용역서비스 — 유통기업 및 당사 계열사업부(물류·선별 용역) / 해외법인 영업 — 각 지역의 수입·유통 채널",
+    "price_factors": [
+      {
+        "factor": "원자재·환율",
+        "detail": "밀가루 등 일부 원재료를 수입에 의존해 환율 변동과 국제 원자재 가격 상승이 원가와 실적에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "소비심리",
+        "detail": "물가 상승과 합리적 소비 성향 확대로 제품 구성 변화와 매출·수익성 변동이 발생할 수 있습니다."
+      },
+      {
+        "factor": "경쟁 심화",
+        "detail": "면류 시장에서 가격·품질·브랜드 경쟁과 PB(자사상표) 제품 확대로 시장 점유율 확보 경쟁이 실적에 영향을 줍니다."
+      },
+      {
+        "factor": "유통구조",
+        "detail": "대형 유통 채널과 수입·유통 구조 변화로 구매자(유통업체)의 교섭력이 커지면 마진 압박이 확대될 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 사업의 현황",
+        "evidence_text": "본사를 거점으로 한국 및 해외에 판매 및 물류 법인을 두고"
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "용역서비스: 94,797 (4.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 사업의 현황",
+        "evidence_text": "각 지역의 법인은 수입ㆍ유통 구조를 통해 시장별 특성에 맞춘 판매 전략을 수행하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "1. 사업분석가. 사업부 부문별현황 (1) 식품부문(삼양식품(주))",
+        "evidence_text": "환율 변동과 국제 원자재 가격 변화에 민감성을 갖고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5198,
+    "completion_tokens": 4144,
+    "reasoning_tokens": 3392,
+    "output_tokens": 752
+  },
+  "warnings": []
+}

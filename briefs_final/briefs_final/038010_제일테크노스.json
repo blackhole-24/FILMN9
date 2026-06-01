@@ -1,0 +1,76 @@
+{
+  "stock_code": "038010",
+  "corp_name": "제일테크노스",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 09:58",
+  "meta": {
+    "wics": "건축제품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "제일테크노스는 조선기자재 가공·조립과 건축자재(Deck Plate) 생산·공급을 함께 하는 기업입니다. 조선 부문에서는 LNG운반선 등 선박과 해양구조물 제작에 필요한 핵심 가공 역량을 갖추고 있고, 건축 부문에서는 건축물 바닥 구조를 형성하는 Deck Plate를 공급하고 있습니다.",
+    "business_model": "사업부문별 영업수익은 조선부문 55.0%, 건축부문 45.0%로 구성되어 있습니다. 조선부문은 9% 니켈강과 고망간강 가공에 특화된 기술을 바탕으로 선박·해양구조물 제작용 기자재를 공급하고, 건축부문은 Deck Plate 등 철강재의 제조·시공을 통해 건축물의 안전성과 시공 효율성을 높이는 구조입니다.",
+    "main_customers": "조선부문 — 국내외 조선사, LNG운반선 및 해양구조물 제작 관련 수요처 / 건축부문 — 국내외 건설 프로젝트 발주처",
+    "price_factors": [
+      {
+        "factor": "원자재",
+        "detail": "주요 원자재 가격이 변동하면 제품 가격도 함께 달라져 실적에 직접적인 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "운송비",
+        "detail": "납품 장소와의 거리가 멀수록 운송비 부담이 커져 제품 가격과 수익성에 영향을 미칩니다."
+      },
+      {
+        "factor": "설계맞춤",
+        "detail": "표준품이 아니라 수요처와 협의해 가격을 정하므로, 프로젝트별 조건 변화가 매출 단가에 영향을 줍니다."
+      },
+      {
+        "factor": "조선경기",
+        "detail": "조선산업은 대형 설비 투자가 필요한 장치산업이라 조선 경기 흐름에 따라 기자재 수요가 달라질 수 있습니다."
+      },
+      {
+        "factor": "건설경기",
+        "detail": "건축부문은 건설 경기 둔화와 경쟁 심화의 영향을 받아 매출 확대에 제약이 생길 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황 > 1) 조선 부문",
+        "evidence_text": "조선기자재 가공 및 조립을 통해 LNG운반선 등 각종 선박과 해양구조물 제작에 필수적인 역할을 하며"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황 > 2) 건축부문",
+        "evidence_text": "건축자재(Deck Plate) 분야에서 다양한 제품을 생산.공급"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성 > 사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "조선부문: 6,317 (55.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성 > 사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "건축부문: 0 (45.0%)"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황 > 가. 사업부문별 현황",
+        "evidence_text": "주요 원자재의 가격변동에 따라 변동함."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3402,
+    "completion_tokens": 868,
+    "reasoning_tokens": 0,
+    "output_tokens": 868
+  },
+  "warnings": []
+}

@@ -1,0 +1,77 @@
+{
+  "stock_code": "290270",
+  "corp_name": "휴네시온",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 15:13",
+  "meta": {
+    "wics": "소프트웨어",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "휴네시온은 2003년 설립된 정보보호(보안) 소프트웨어 개발·공급 회사로, 2018년 코스닥에 상장했습니다. 망연계솔루션 등 정보보호 분야에 집중하며 관련 시장에서 장기간 성과를 유지하고 있습니다.",
+    "business_model": "사업부문별로 제품이 매출의 약 71.75%, 용역(서비스)이 약 27.51%, 상품이 약 0.73%를 차지합니다. 제품은 망연계솔루션 등 정보보호 소프트웨어 판매가 중심이고, 용역은 납품·설치·구축·기술지원 등 서비스를 포함합니다.",
+    "main_customers": "제품 — 조달청 디지털서비스몰을 통한 조달(공공) 고객 / 용역 — 납품·설치·구축·기술지원을 받는 계약처 / 상품 — 조달계약을 통한 구매처",
+    "price_factors": [
+      {
+        "factor": "경쟁심화",
+        "detail": "업체 간 경쟁이 격화되면 수주 단가 및 수익성에 직접적인 압박으로 작용할 수 있습니다."
+      },
+      {
+        "factor": "제도수혜",
+        "detail": "법적·제도적 환경에 따른 수혜가 존재하므로 관련 규제 변화는 수요에 영향을 미칩니다."
+      },
+      {
+        "factor": "경기침체",
+        "detail": "경기 침체 장기화 시 공공·민간의 IT 투자 축소로 매출 성장 둔화 리스크가 있습니다."
+      },
+      {
+        "factor": "조달가격변동",
+        "detail": "조달청 등록 및 고객과의 협상에 따라 판매단가가 상이해 실적 변동성에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "2003년 12월 15일에 설립되었습니다."
+      },
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "2018년 8월 2일 코스닥시장에 주권을 상장하였습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[표] 가. 당사 매출 현황",
+        "evidence_text": "제품 27,073 71.75"
+      },
+      {
+        "field": "business_model",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "주 사업분야는 정보보호 분야로"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "나. 주요 제품 등의 가격변동 추이",
+        "evidence_text": "조달청 디지털서비스몰에 등록되어 있는 가격 정보입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "11년 연속 판매 1위를 기록하고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 2942,
+    "completion_tokens": 3840,
+    "reasoning_tokens": 3072,
+    "output_tokens": 768
+  },
+  "warnings": []
+}

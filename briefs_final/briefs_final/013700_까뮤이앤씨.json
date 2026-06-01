@@ -1,0 +1,67 @@
+{
+  "stock_code": "013700",
+  "corp_name": "까뮤이앤씨",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 13:05",
+  "meta": {
+    "wics": "건설",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "까뮤이앤씨는 1978년 설립되어 P.C(Precast Concrete) 공법을 핵심역량으로 활용하는 종합건설업체입니다. 공동주택·공공건축물·물류센터 등 건축공사뿐 아니라 토목공사 분야로 사업영역을 확장해 왔으며, 자회사 한국알미늄은 알루미늄박 및 식품·의료·산업용 포장재를 생산합니다.",
+    "business_model": "FY2025 기준 영업수익은 건축공사 99.0%, 토목공사 1.0%로 구성되어 있으며(사업부문별 매출 구성), 주요 수익원은 공장에서 제작한 P.C(Precast Concrete, 산업화된 콘크리트 부재)을 현장에서 조립하는 건축공사 중심입니다. 연결 기준으로는 자회사 사업(알루미늄박·포장재)도 그룹 실적에 영향을 미칩니다.",
+    "main_customers": "건축공사 — 공동주택·공공건축물·물류센터 등 건설 발주자 / 토목공사 — 공공·민간 인프라 발주자 / 한국알미늄(자회사) — 식품·의료·산업용 포장재 제조업체",
+    "price_factors": [
+      {
+        "factor": "PC수요",
+        "detail": "건축의 산업화·ESG 강화로 PC(Precast Concrete) 수요가 높아지면 건축공사 매출에 우호적 영향을 줍니다."
+      },
+      {
+        "factor": "원자재가",
+        "detail": "철근·시멘트 등 주요 원자재 가격 상승 시 원가율이 악화되어 실적에 부정적 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "수주환경",
+        "detail": "PF(프로젝트파이낸싱) 시장 경색이나 정부·민간 발주 축소는 수주와 공장가동에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "경쟁심화",
+        "detail": "대형 건설사들의 산업화 건축시장 진입과 기술·품질 경쟁 심화는 수주경쟁력에 부담이 될 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "당사는 1978년 설립 이후 P.C(Precast Concrete) 공법을 활용하여"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "토목공사 (1.0%), 건축공사 (99.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "주거시설, 물류센터, 공공시설"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "PC공법은 공기 단축, 품질 향상, 노동력 절감"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4854,
+    "completion_tokens": 4173,
+    "reasoning_tokens": 3392,
+    "output_tokens": 781
+  },
+  "warnings": []
+}

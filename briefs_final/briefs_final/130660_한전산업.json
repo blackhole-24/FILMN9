@@ -1,0 +1,72 @@
+{
+  "stock_code": "130660",
+  "corp_name": "한전산업",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 09:38",
+  "meta": {
+    "wics": "전기유틸리티",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "한전산업은 1990년 4월 설립되어 화력발전소 연료운전으로 시작해 원자력 등 발전설비 O&M(운전·정비)을 주로 수행하는 전력설비 운전·정비 전문회사입니다. 국내 화력발전소 연료환경설비 운전 분야에서 높은 점유율을 보유하며 발전 운영이 회사 매출의 대부분을 차지하고 있습니다.",
+    "business_model": "주력사업은 발전설비 운전 및 정비(O&M)로, 2025년 기말 기준 발전설비 운전·정비 관련 매출이 회사 전체 매출의 약 96%를 차지하고 신재생에너지 등 기타사업이 약 4%를 차지합니다. 또한 FY2025 영업수익 구성은 주요 고객별로 한국동서발전(22.0%), 한국남동발전(20.0%), 한국중부발전(16.0%), 한국서부발전(15.0%), 한국남부발전(14.0%)으로 형성되어 있습니다.",
+    "main_customers": "발전설비 운전 및 정비 — 발전회사(한국동서발전, 한국남동발전, 한국중부발전, 한국서부발전, 한국남부발전) / 기타(신재생·기타사업) — 태양광·ESS 등 신재생 관련 사업부문",
+    "price_factors": [
+      {
+        "factor": "탄소중립정책",
+        "detail": "정부의 2050 탄소중립 정책은 석탄 중심 구조 축소를 촉진해 석탄화력 관련 운전수요의 장기적 변화에 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "연료외부의존",
+        "detail": "전력산업의 에너지원 대다수가 해외 의존인 만큼 원자재 가격·환율 변동이 간접적으로 실적에 영향을 줍니다."
+      },
+      {
+        "factor": "경쟁입찰",
+        "detail": "발전정비 부문은 경쟁입찰이 확대되는 구조여서 기술력·입찰경쟁력이 수주·실적에 직접적 변동요인이 됩니다."
+      },
+      {
+        "factor": "계절적수주",
+        "detail": "계획예방정비 등 계절적 공사 일정으로 분기별·계절별 수주 및 매출 변동이 발생합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "1990년 4월 설립된 이래 화력발전소 연료운전을 시작"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "회사 전체 매출액의 약 96%를 달성하였습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "한국동서발전: 85,115,664,060 (22.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "국내 화력발전소 연료환경설비 운전분야의 약77%를 담당하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "전력산업은 에너지원의 97%가 해외 의존도를 보이고 있어"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5617,
+    "completion_tokens": 3573,
+    "reasoning_tokens": 2688,
+    "output_tokens": 885
+  },
+  "warnings": []
+}

@@ -1,0 +1,67 @@
+{
+  "stock_code": "100590",
+  "corp_name": "머큐리",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 07:53",
+  "meta": {
+    "wics": "통신장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "머큐리는 정보통신장비(AP, 교환/위성장비 등)를 개발·생산·판매하며, 국내 통신사업자에 가정용 단말장비(유무선공유기, 광모뎀 등)를 공급하는 기업입니다. 종속회사 머큐리광통신은 광케이블을 직접 생산해 주요 통신사업자와 해외시장에 제품을 공급하고 있습니다.",
+    "business_model": "핵심 사업은 가정용 단말장비 제조·공급, 광케이블 생산, 네트워크 장비 및 군 위성통신·소형교환기 등 네트워크 솔루션 제공으로 구성됩니다. 사업부문별로 FY2025 기준 수출은 영업수익의 8.0%를 차지(수출: 1,343, 8.0%)합니다.",
+    "main_customers": "가정용 단말장비 — KT·SKT·LGU+·MSO 등 국내 통신사업자 / 광케이블 — 기간통신사업자 및 해외 수요처 / 네트워크·군 위성통신장비 — 기간통신사업자·군",
+    "price_factors": [
+      {
+        "factor": "정책·투자시기",
+        "detail": "기간통신사업자의 서비스 방향과 투자시기에 따라 수요가 크게 변동하므로 실적과 주가에 영향이 큽니다."
+      },
+      {
+        "factor": "데이터트래픽",
+        "detail": "모바일 트래픽·5G 확산으로 광케이블과 무선랜 장비 수요가 증가하면 실적에 긍정적 영향을 줍니다."
+      },
+      {
+        "factor": "인증·품질",
+        "detail": "통신사업자의 장비 검증과 연동요구로 인증·품질 확보가 못하면 시장진입과 수주에 제약이 생깁니다."
+      },
+      {
+        "factor": "해외수요",
+        "detail": "광케이블 등 제품의 수출 확대는 매출 다변화에 기여하지만 수출환경 변화에 민감합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "당사는 정보통신장비(AP, 교환/위성장비 등)를 개발하여 생산, 판매하는 사업을 영위하고 있는 회사로서,"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "■ 사업부문별 영업수익 구성 (FY2025)  - 수출: 1,343 (8.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 업계의 현황",
+        "evidence_text": "당사는 통신단말장비, 광케이블, 네트워크장비를 직접 개발하거나 아웃소싱하여 기간통신사업자/군 또는 MSO등 통신사업자에게 납품하고 있으며,"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "(3) 경기변동의 특성",
+        "evidence_text": "오히려 기간통신사업자의 서비스 방향과 투자시기등 정책적인 영향을 더 많이 받는 특성을 갖고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4170,
+    "completion_tokens": 4182,
+    "reasoning_tokens": 3392,
+    "output_tokens": 790
+  },
+  "warnings": []
+}

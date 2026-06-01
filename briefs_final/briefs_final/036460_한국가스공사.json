@@ -1,0 +1,67 @@
+{
+  "stock_code": "036460",
+  "corp_name": "한국가스공사",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 00:36",
+  "meta": {
+    "wics": "가스유틸리티",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "한국가스공사는 국내 유일의 천연가스 도매사업자로, 전국 인수기지와 배관망을 통해 도시가스사와 발전사 등에 천연가스를 공급하는 공기업입니다. 매출과 자산 규모에서 가스 도입·판매가 중심을 이루며 에너지 공급의 공익적 역할이 큰 기업입니다.",
+    "business_model": "핵심 수익원은 가스 도입 및 판매사업(91.4%)으로, LNG를 해외에서 수입해 인수기지에서 재기화한 뒤 도시가스사와 발전사에 도매로 공급하는 구조입니다. 기타사업(3.1%)은 해외 자원개발·플랜트 및 유지보수 등이며, 제품 및 상품 매출은 4.9%를 차지합니다. 제품가격은 원료비(LNG 도입대금 등)가 대부분을 차지하여 국제유가 및 환율 영향에 민감합니다.",
+    "main_customers": "가스 도입 및 판매사업 — 지역 도시가스사, 발전사(한국전력공사 발전자회사 및 민자발전사) / 기타사업 — 국내·외 플랜트 발주처 및 자원개발 파트너",
+    "price_factors": [
+      {
+        "factor": "유가·환율",
+        "detail": "국제유가 및 환율 변동은 LNG 도입단가(원료비)에 직접 영향을 미쳐 요금과 실적에 중요한 영향을 줍니다."
+      },
+      {
+        "factor": "원료비연동",
+        "detail": "도시가스 원료비 연동제(조정주기 등)는 가스요금 조정과 미수금·정산에 영향을 주어 실적 변동을 초래합니다."
+      },
+      {
+        "factor": "난방수요",
+        "detail": "주택용 난방 수요의 계절적 변동(동고하저)은 도시가스 판매량과 분기별 실적에 영향을 줍니다."
+      },
+      {
+        "factor": "발전수요",
+        "detail": "발전용 수요는 원자력·석탄의 가동, 신재생 확대 등으로 변동성이 크며 발전용 가스 판매에 직접적인 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 가스 도입 및 판매 사업",
+        "evidence_text": "한국가스공사는 국내유일의 천연가스 도매사업자로서"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "가스 도입 및 판매사업: 34,018,434 (91.4%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 가스 도입 및 판매 사업",
+        "evidence_text": "전국배관망과 탱크로리 등을 통해 도시가스사와 발전사 등에 천연가스를 공급하고"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 가스 도입·판매 사업 부문",
+        "evidence_text": "도입단가가 국제유가와 환율에 영향을 받고 있어"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 6264,
+    "completion_tokens": 3844,
+    "reasoning_tokens": 3072,
+    "output_tokens": 772
+  },
+  "warnings": []
+}

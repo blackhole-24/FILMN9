@@ -1,0 +1,67 @@
+{
+  "stock_code": "039740",
+  "corp_name": "한국정보공학",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 01:14",
+  "meta": {
+    "wics": "판매업체",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "한국정보공학은 1990년 소프트웨어 개발로 출발하여 2005년 국내 총판계약 체결을 계기로 IT하드웨어 유통(총판)으로 전환한 기업입니다. 2025년 별도 기준 매출액은 1,348억원으로, 서버·컴퓨터 주변기기 유통을 중심으로 파트너사(한국HPE, 한국Lenovo 등)와의 총판 네트워크를 기반으로 사업을 영위하고 있습니다.",
+    "business_model": "주요 수익은 상품매출이 차지하며, 2025년 영업수익 구성은 상품매출 91.7%, 교육서비스 4.9%, 이커머스솔루션 및 이커머스 2.7%, 기타 0.8%로 상품 유통(총판)이 핵심입니다. 총판으로서 공급사로부터 제품을 조달해 소매업자에게 분배하고, 교육서비스·이커머스 솔루션 등 부가 서비스로 수익을 보완합니다.",
+    "main_customers": "상품매출 — 소매업자(하위 소매업자 및 유통처) / 교육서비스 — 교육서비스 수요처 / 이커머스솔루션 및 이커머스 — 온라인 유통업체 / 기타 — 기타거래처",
+    "price_factors": [
+      {
+        "factor": "공급자 인지도",
+        "detail": "공급사의 브랜드 영향력이 높을수록 취급품목의 판매·수익이 안정화되어 실적에 우호적입니다."
+      },
+      {
+        "factor": "IT 경기",
+        "detail": "전산인프라 구축·교체 수요에 따라 매출이 변동하므로 IT 투자가 둔화되면 실적에 영향이 발생합니다."
+      },
+      {
+        "factor": "총판계약",
+        "detail": "총판계약의 유지 여부가 제품 공급선과 시장 진입장벽에 직결되어 실적 안정성에 영향을 미칩니다."
+      },
+      {
+        "factor": "대형 납품·현금흐름",
+        "detail": "국가 사업 등 대형 납품은 선수금·재고 및 유동성에 영향을 주어 실적·재무구조 변동 요인이 됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "다. 영업의 개황",
+        "evidence_text": "당사는 1990년 소프트웨어 개발업체로 시작하여"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "상품매출: 134,100 (91.7%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 사업의 현황 (산업의 특성)",
+        "evidence_text": "제조업체로 부터 물품을 공급받아 소매업자에게 분배"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 사업의 현황 (산업의 특성)",
+        "evidence_text": "경기 변동에 영향을 받으나"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3383,
+    "completion_tokens": 3960,
+    "reasoning_tokens": 3200,
+    "output_tokens": 760
+  },
+  "warnings": []
+}

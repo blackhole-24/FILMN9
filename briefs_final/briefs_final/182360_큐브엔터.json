@@ -1,0 +1,71 @@
+{
+  "stock_code": "182360",
+  "corp_name": "큐브엔터",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 10:57",
+  "meta": {
+    "wics": "방송과엔터테인먼트",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "큐브엔터는 신인 아티스트 육성부터 음반 기획·제작·홍보, 공연·매니지먼트, MD 판매 등을 영위하는 종합 엔터테인먼트 기업입니다. 또한 태국 프리미엄 과채 주스 브랜드 팁코(TIPCO)를 독점 수입·국내 유통하는 유통 사업도 함께 운영하고 있습니다.",
+    "business_model": "주요 수익원은 엔터테인먼트(음반·음원 제작, 매니지먼트, 공연, 콘텐츠 및 MD)로 구성되며, FY2025 기준 엔터테인먼트 47.0%, 용역 32.6%, 기타 17.2%, 유통 3.2%의 매출 비중을 보입니다. 유통 부문은 TIPCO 제품을 독점 수입해 국내 유통사에 납품하는 구조로 매출을 창출합니다.",
+    "main_customers": "엔터테인먼트 — 국내외 음원·콘텐츠 소비자 및 공연 관객 / 용역 — 공연기획·콘텐츠 의뢰처(방송사·행사주최자 등) / 기타 — 아티스트 팬덤 대상 MD·부가상품 구매자 / 유통 — 국내 유통사·소매업체",
+    "price_factors": [
+      {
+        "factor": "아티스트성과",
+        "detail": "핵심 아티스트의 활동(앨범·투어 등) 부재나 성과가 약화되면 매출과 수익성에 큰 영향을 미칩니다."
+      },
+      {
+        "factor": "공연리스크",
+        "detail": "정치·보건 이슈(예: 한한령, 팬데믹)로 공연이 제한되면 공연·투어 관련 수익이 급감합니다."
+      },
+      {
+        "factor": "소비심리",
+        "detail": "음반·공연·MD는 비필수 소비재 성격이 강해 경기·소비심리 둔화 시 수요가 감소합니다."
+      },
+      {
+        "factor": "환율·원가",
+        "detail": "환율 상승은 유통 부문 원가 부담을 확대해 수익성에 부정적 영향을 줍니다."
+      },
+      {
+        "factor": "디지털전환",
+        "detail": "스트리밍·디지털 플랫폼 확산은 음원 수익 구조를 변화시켜 실적에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "글로벌 K-Pop 열풍을 선도하는 종합 엔터테인먼트 기업"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "엔터테인먼트: 41,030,524 (47.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "국내 및 일본, 중국 등 다양한 지역에서 매출이 발생"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "환율 상승에 따른 원가 부담이 확대되었습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5103,
+    "completion_tokens": 4120,
+    "reasoning_tokens": 3328,
+    "output_tokens": 792
+  },
+  "warnings": []
+}

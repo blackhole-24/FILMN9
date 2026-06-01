@@ -1,0 +1,83 @@
+{
+  "stock_code": "214680",
+  "corp_name": "디알텍",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:27",
+  "meta": {
+    "wics": "건강관리장비와용품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "디알텍은 20여 년 이상의 영상 진단 기술을 바탕으로 디지털 진단영상 솔루션을 개발하는 의료·정밀기기 기업입니다. 엑스레이 시스템부터 디텍터(영상 검출기)와 부품까지 아우르는 토탈 솔루션을 제공하며, 해외 매출 비중이 약 80%로 글로벌 시장 중심의 사업을 이어가고 있습니다.",
+    "business_model": "사업은 디텍터및시스템, 맘모그래피, 시스템, 기타로 나뉘며, 제11기 매출 기준 디텍터및시스템 640억, 맘모그래피 210억, 시스템 212억, 기타 101억입니다. 해외 매출은 디텍터및시스템 587억, 맘모그래피 162억, 시스템 145억, 기타 60억으로 집계되어, 글로벌 시장에서 디텍터와 시스템을 함께 판매하는 구조가 핵심입니다. 회사는 시스템-소프트웨어-디텍터 및 부품이 하나의 플랫폼으로 연결된 통합 진단영상 솔루션을 강점으로 내세우고 있습니다.",
+    "main_customers": "디텍터및시스템 — 국내외 의료기기 수요처, 동물용 시장 / 맘모그래피 — 국내외 병원 및 의료기관 / 시스템 — 국내외 의료시설 및 병원 / 기타 — 영상 소프트웨어 및 관련 솔루션 수요처",
+    "price_factors": [
+      {
+        "factor": "해외수요",
+        "detail": "해외 매출 비중이 약 80%라서 주요 국가의 의료기기 수요와 수출 환경이 실적에 큰 영향을 줍니다."
+      },
+      {
+        "factor": "시장경쟁",
+        "detail": "X-ray 시장 경쟁이 치열하다고 언급되어 있어, 제품 경쟁력과 판매 확대 속도가 실적 차이를 만들 수 있습니다."
+      },
+      {
+        "factor": "신제품",
+        "detail": "엑시스 덱시, 제로, 디엑스지 같은 신제품 출시가 매출 확대와 사업 포트폴리오 변화에 영향을 줍니다."
+      },
+      {
+        "factor": "인증확보",
+        "detail": "MFDS(식약처), FDA(미국 식품의약국), CE MDR(유럽 의료기기 규정) 인증은 해외 판매 확대와 직결될 수 있습니다."
+      },
+      {
+        "factor": "전문시장",
+        "detail": "미국 동물용 시장점유율 30% 이상, 산업용 벤더블·커브드 디텍터처럼 특정 세그먼트 성과가 실적에 기여합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "전세계 유일하게 모든 어플리케이션에 엑스레이 시스템에서 디텍터 및 부품까지 토탈 솔루션을 제공"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "해외 매출비중이 약 80%로 글로벌 마켓 중심 경영"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "디텍터및시스템 | ... | 계 | 640"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "맘모그래피(AIDIA, RoseM) ... 계 | 210"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "시스템(EXSYS, EXSYS DEXi, EXTRON, EXYMO, MobiRAD, Xero) ... 계 | 212"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "미국 동물용 시장점유율은 30% 이상으로 1위를 유지 중"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5014,
+    "completion_tokens": 979,
+    "reasoning_tokens": 0,
+    "output_tokens": 979
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

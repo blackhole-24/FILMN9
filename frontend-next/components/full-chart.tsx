@@ -208,7 +208,10 @@ export default function FullChart({ data }: Props) {
         leftPriceScale: { visible: false },
         rightPriceScale: { visible: true, borderColor: '#d1d5db' },
         timeScale: _tsOpts,
-        localization: { timeFormatter: dateFmt },
+        localization: {
+          timeFormatter: dateFmt,
+          priceFormatter: (p: number) => Math.round(p).toLocaleString('ko-KR'),
+        },
         handleScroll: { mouseWheel: false, pressedMouseMove: true, horzTouchDrag: true, vertTouchDrag: false },
         handleScale: { mouseWheel: true, pinch: true, axisPressedMouseMove: true, axisDoubleClickReset: true },
       };
@@ -234,6 +237,7 @@ export default function FullChart({ data }: Props) {
         downColor: C_DOWN, wickDownColor: C_DOWN,
         borderVisible: false,
         priceScaleId: 'right',
+        priceFormat: { type: 'price', precision: 0, minMove: 1 },
       });
       const volumeSeries = volumeChart.addSeries(HistogramSeries, {
         priceFormat: { type: 'volume' },

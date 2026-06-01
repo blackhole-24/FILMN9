@@ -1,0 +1,76 @@
+{
+  "stock_code": "457600",
+  "corp_name": "벡트",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:46",
+  "meta": {
+    "wics": "교육서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "벡트는 상업용 및 교육용 디지털 사이니지(Digital Signage) 전문기업으로, 빔프로젝터·평판형 TV·LED전광판·전자칠판·전자교탁 등을 활용한 토탈 비주얼 솔루션을 제공합니다. 2024년 코스닥 상장 이후 디지털 사이니지와 에듀테크 시장 변화에 대응하며 사업 영역을 넓혀가고 있습니다.",
+    "business_model": "벡트의 FY2025 사업부문별 영업수익 구성은 86인치 47.4%, 98인치 6.8%, 75인치 3.5%, 65인치 1.5%, 전자 칠판 1.9%, 전자 교탁 3.3%, UIT-Y Series 1.2%, UIT-S Series 1.9%, PRIMA Series 5.2%, MAVEL Series 0.9%, BARO Series 0.7%, WUD Series 2.2%, 기상 전광판 0.0%입니다. 회사는 하드웨어 판매를 기반으로 콘텐츠·소프트웨어·플랫폼·네트워크 서비스까지 연결하는 원스톱 토탈 비주얼 솔루션을 제공하며, 최근에는 AI 기반 시각적 경험 플랫폼으로의 확장을 추진하고 있습니다. 특히 2025년 기준 매출의 약 67%가 에듀테크(스마트 학습) 분야에서 발생해 교육용 디지털 사이니지가 핵심 수익원으로 보입니다.",
+    "main_customers": "에듀테크 — 학교, 교육기관, 공공기관 / 디지털 사이니지 — 기업, 공기관, 호텔, 전시장, 관광지, 스크린 골프장 / 신규 솔루션 및 신사업 — 자회사 협력 기반의 AI 디스플레이 및 실내 체육활동 기기 활용 고객",
+    "price_factors": [
+      {
+        "factor": "교육예산",
+        "detail": "교육부 정책과 공공기관 예산 집행이 늘면 전자칠판·전자교탁 수요가 확대될 수 있지만, 예산 지연 시 매출이 둔화될 수 있습니다."
+      },
+      {
+        "factor": "경쟁심화",
+        "detail": "시장 내 업체 간 경쟁이 심해질수록 전자칠판과 전자교탁 평균가격이 낮아져 수익성에 부담이 될 수 있습니다."
+      },
+      {
+        "factor": "교체수요",
+        "detail": "민간 부문의 디지털 사이니지 교체 수요가 줄면 하드웨어 판매가 위축되어 실적에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "공공조달",
+        "detail": "조달시장에서 다수공급자 계약(MAS, 여러 공급자와 계약하는 방식) 구조가 중요해 공공기관 판매 성과에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "콘텐츠전환",
+        "detail": "하드웨어 중심에서 CMS(콘텐츠 관리 시스템)와 유지보수로 비중을 옮길수록 수익 구조 다변화에 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 사업 개황",
+        "evidence_text": "상업용 및 교육용 디지털 사이니지(Digital Signage) 전문기업"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "2024년 코스닥 상장 이후"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "86인치: 3,912 (47.4%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "매출의 약 67%가 이 분야에서 발생"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 사업 개황",
+        "evidence_text": "학교 교실, 기업과 각종 공기관의 회의실 및 강당"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5790,
+    "completion_tokens": 987,
+    "reasoning_tokens": 0,
+    "output_tokens": 987
+  },
+  "warnings": []
+}

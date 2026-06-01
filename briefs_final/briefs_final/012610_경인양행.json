@@ -1,0 +1,62 @@
+{
+  "stock_code": "012610",
+  "corp_name": "경인양행",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 21:04",
+  "meta": {
+    "wics": "화학",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "경인양행은 염료 및 화학제품을 주력으로 하는 화학업종 회사로, 염료부문과 화학부문을 중심으로 사업을 영위합니다. 사업보고서에는 염료·화학·상품·기타 등으로 사업구성이 명시되어 있습니다.",
+    "business_model": "사업부문별 FY2025 영업수익 구성은 염료부문 64.7%, 화학부문 24.7%, 상품 9.9%, 기타 0.8%로 염료부문이 핵심 매출원입니다. 염료는 섬유용 염색재를 중심으로 하고, 화학(전자재료)은 디스플레이·반도체 등 전방 산업과 연계된 제품 개발·공급이 수익구조의 일부를 이룹니다.",
+    "main_customers": "염료부문 — 섬유 제조업체·섬유 관련 산업 / 화학부문 — 디스플레이·반도체 등 전방 산업(전자재료 고객) / 상품 — 보고서에 구체적 고객군 미기재",
+    "price_factors": [
+      {
+        "factor": "가격 경쟁",
+        "detail": "유럽 메이저사의 생산지 이전과 저가 염료 수입으로 수익성과 마진에 하방 압력이 발생할 수 있습니다."
+      },
+      {
+        "factor": "환경규제",
+        "detail": "중국 등 주요 생산국의 환경규제 강화는 공급구조와 비용에 영향을 주어 실적 변동 요인이 됩니다."
+      },
+      {
+        "factor": "디지털화(DTP)",
+        "detail": "디지털 섬유 인쇄(DTP) 확산은 잉크·염료의 수요 구조를 변화시켜 제품 포트폴리오와 매출에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "섬유수요",
+        "detail": "세계 섬유시장이 완만한 성장(연평균 2%대)을 보이는 가운데 수요 둔화는 중장기 성장 제한 요인이 됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "염료부문 사업의 개요 - ㈜경인양행, KSC, KLC",
+        "evidence_text": "국내 염료산업은 1960년대부터 수출전략 산업으로 성장해왔습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "염료부문: 245,722 (64.7%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "염료부문 사업의 개요 - ㈜경인양행, KSC, KIPL",
+        "evidence_text": "전자재료 사업은 디스플레이 및 반도체 등 전방 산업과 직접적인 연관성을 갖고 있으며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5093,
+    "completion_tokens": 3975,
+    "reasoning_tokens": 3264,
+    "output_tokens": 711
+  },
+  "warnings": []
+}

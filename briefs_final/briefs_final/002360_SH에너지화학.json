@@ -1,0 +1,71 @@
+{
+  "stock_code": "002360",
+  "corp_name": "SH에너지화학",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 17:59",
+  "meta": {
+    "wics": "화학",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "SH에너지화학은 합성수지(EPS 레진)와 화장품 원료(Nylon-12 Fine Powder)를 제조하는 화학업체로, 합성수지 제조를 주력으로 하고 있습니다. 또한 미국 내 천연가스 개발을 위한 자원개발 사업과 경영컨설팅·자산운용 관련 활동을 병행하고 있습니다.",
+    "business_model": "매출의 대부분은 합성수지등 제조 부문(99.9%)에서 발생하며, 핵심 제품은 EPS레진(스치로폴 원료)과 화장품용 Nylon-12 Fine Powder입니다. 자원개발 및 경영컨설팅은 소액 매출(각 21백만원, 8백만원 수준)로 보조적 역할을 수행합니다.",
+    "main_customers": "합성수지등 제조 — 건물단열재·완충 포장재 등 제조업체 / ANYBES(화장품 원료) — 파우더·파운데이션 등 화장품 제조사 / 자원개발 — 천연가스 개발 관련 사업 파트너·권리 보유자",
+    "price_factors": [
+      {
+        "factor": "건설경기",
+        "detail": "국내 건설경기 둔화 시 단열재 수요 감소로 합성수지 매출에 부정적 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "수입 저가제품",
+        "detail": "저품질·저가 수입제품 확대는 범용 제품 수요 감소와 가격 경쟁 압력으로 이어집니다."
+      },
+      {
+        "factor": "규제·품질인증",
+        "detail": "건축물 에너지·화재 기준 강화 및 품질인증 강화는 고기능 제품(준불연·고단열) 수요를 높여 실적에 긍정적일 수 있습니다."
+      },
+      {
+        "factor": "화장품수요(K-뷰티)",
+        "detail": "K-뷰티 영향으로 화장품 수요가 증가하면 Nylon-12 Fine Powder 등 고부가 제품 판매가 늘어날 가능성이 있습니다."
+      },
+      {
+        "factor": "광권·자원가격",
+        "detail": "광권 리스 갱신 및 에너지(가스) 가격 변동은 자원개발 사업의 수익성·권리 관리에 직접적 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 > 영업 현황",
+        "evidence_text": "EPS 공장의 대표적인 생산품으로는 EPS레진이 있으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "합성수지등제조 사업부문에서 111,119백만원"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 > 가. 사업부문별 사업의 현황",
+        "evidence_text": "이는 스치로폴의 원료로 현재 건물 단열재 및 완충 포장재로 주로 쓰여집니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 > 합성수지등제조 사업부문",
+        "evidence_text": "고기능 단열 및 화재기준에 충족한 제품 수요가 높아지고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5077,
+    "completion_tokens": 4146,
+    "reasoning_tokens": 3328,
+    "output_tokens": 818
+  },
+  "warnings": []
+}

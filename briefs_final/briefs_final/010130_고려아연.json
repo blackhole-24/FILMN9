@@ -1,0 +1,76 @@
+{
+  "stock_code": "010130",
+  "corp_name": "고려아연",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 20:33",
+  "meta": {
+    "wics": "비철금속",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "고려아연은 비철금속 제련을 주업으로 하는 기업으로, 아연과 연(납) 생산·판매를 핵심으로 하고 부산물로 금·은·동·황산 등을 회수하여 생산합니다. 연결 대상 종속회사를 통해 호주 제련소(Sun Metals) 등 해외 생산기지와 무역·자원개발·자원순환·2차전지 소재 등으로 사업 영역을 확장하고 있습니다.",
+    "business_model": "핵심 사업은 아연·연 등 비철금속 제련 및 판매이며, 제품별로 FY2025 기준 연(12.3%), 금(18.5%), 은(33.0%), 동(4.4%), 기타(7.5%)의 영업수익 구성이 보고되어 있습니다. 제련과정에서 회수되는 귀금속 및 희소금속 수익성 개선과 자회사들의 무역·제련·자원개발 활동이 전체 수익 구조에 기여합니다.",
+    "main_customers": "제련부문(아연) — 철강업체(도금용 소재) / 제련부문(연) — 배터리 제조업체 / Sun Metals(호주) — 아시아·북미 수입업체 및 호주 내수시장 / 케이지트레이딩(무역) — 수출입업체 및 산업재 구매자",
+    "price_factors": [
+      {
+        "factor": "제련수수료(TC)",
+        "detail": "아연 아시아 벤치마크 제련수수료(TC) 수준은 톤당 수익성에 직접적 영향을 미칩니다."
+      },
+      {
+        "factor": "금속가격",
+        "detail": "금·은·동 등 귀금속 및 기초금속 가격 변동은 매출 및 영업이익 변동으로 이어집니다."
+      },
+      {
+        "factor": "제품믹스(회수율)",
+        "detail": "귀금속·희소금속의 회수율 및 판매 비중 증가는 전체 수익성 개선에 기여합니다."
+      },
+      {
+        "factor": "경쟁력(기술·품질)",
+        "detail": "최신 제련공법에 따른 기술·품질 우위는 특히 아연 분야에서 시장지배력과 가격 경쟁력에 영향을 줍니다."
+      },
+      {
+        "factor": "환율·국제원자재",
+        "detail": "무역 계열사는 환율 추이와 국제 원자재 가격 동향에 민감하여 수익에 영향을 받습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "[지배 회사] 가. 주요 제품에 관한 내용",
+        "evidence_text": "지배회사인 고려아연㈜는 비철금속제련회사로서 아연과 연의 생산 및 판매를 주업종으로 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성] ■ 사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "은: 3,477,640 (33.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "[지배 회사] 가. 주요 제품에 관한 내용",
+        "evidence_text": "아연은 일반적으로 철강재의 보호피막으로 사용되며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "[경영진 실적·전략 요약 (MD&A)]",
+        "evidence_text": "아연 아시아 벤치마크 제련수수료(TC)가 톤당 80달러로 결정되었으며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "[연결대상 종속회사] □ 비철금속 수출입 부문(대상회사 : 케이지트레이딩㈜) 가. 산업의 특성 및 성장성",
+        "evidence_text": "무역업의 특성상 ... 환율 추이 및 국제 원자재 가격 동향에 많은 영향을 받습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5150,
+    "completion_tokens": 3341,
+    "reasoning_tokens": 2368,
+    "output_tokens": 973
+  },
+  "warnings": []
+}

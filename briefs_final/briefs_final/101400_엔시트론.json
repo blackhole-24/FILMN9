@@ -1,0 +1,77 @@
+{
+  "stock_code": "101400",
+  "corp_name": "엔시트론",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 08:04",
+  "meta": {
+    "wics": "반도체와반도체장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "엔시트론은 반도체칩 설계·오디오 앰프 솔루션과 외식사업을 함께 영위하는 중견 기업으로, 연결기준으로 완전 디지털 오디오 앰프 솔루션 제품 판매와 외식 브랜드 운영·프랜차이즈 사업을 주요 사업으로 하고 있습니다. 2025년 연결기준 매출은 344억원이며 영업손실이 발생했습니다.",
+    "business_model": "주요 사업부문은 반도체칩(오디오 앰프 칩)과 외식사업, 기타(미용기기·의료용 소모품 등)로 구성되며, FY2025 기준 부문별 매출 비중은 반도체칩 46.8%, 외식사업 44.4%, 기타 8.8%입니다. 지배회사는 완전 디지털 오디오 앰프 솔루션 제품의 판매를 총괄하고, 종속회사는 중국 마케팅과 외식 브랜드 운영·가맹사업을 통해 수익원을 다각화하고 있습니다.",
+    "main_customers": "반도체칩 — Hisense, TCL 등 / 외식사업 — 브랜드 이용 소비자 및 가맹점 관련 거래처 / 기타 — 미용기기·의료용 소모품 구매처",
+    "price_factors": [
+      {
+        "factor": "중국 수요",
+        "detail": "중국향 TV용 오디오 앰프 칩 매출 변동이 실적에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "디스플레이 기술",
+        "detail": "TV 패널과 디스플레이 기술(예: UHD·OLED) 변화로 제품 사양 수요가 변동할 수 있습니다."
+      },
+      {
+        "factor": "소비심리",
+        "detail": "외식사업은 경기 및 소비자 트렌드에 민감해 소비 둔화 시 매출에 타격을 받을 수 있습니다."
+      },
+      {
+        "factor": "환율(USD)",
+        "detail": "영업활동상 환율 위험 노출로 USD 변동은 수출 매출과 자산·부채에 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "당사는 반도체 설계 및 음향기기 부품 제조 전문기업으로 오디오 신호처리와 관련한 비메모리 반도체의 제조 및 판매, 외식사업을 주력사업으로 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "반도체칩: 16,070 (46.8%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "외식사업: 15,244 (44.4%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "기타: 3,054 (8.8%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "2025년 기말 연결기준 매출액은 총 344억원으로 전년 동기 대비 약 5.4% 감소하였으며, 주요 매출처로는 Hisense, TCL 등이 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A) — 라. 환율변동 영향",
+        "evidence_text": "당사는 영업활동으로 인하여 환율 위험에 노출되어 있으며 환율의 불확실성은 미래의 영업 거래, 자산과 부채에 영향을 미칠 수 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4908,
+    "completion_tokens": 5543,
+    "reasoning_tokens": 4608,
+    "output_tokens": 935
+  },
+  "warnings": []
+}

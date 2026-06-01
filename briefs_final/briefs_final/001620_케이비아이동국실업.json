@@ -1,0 +1,67 @@
+{
+  "stock_code": "001620",
+  "corp_name": "케이비아이동국실업",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 17:36",
+  "meta": {
+    "wics": "자동차부품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "케이비아이동국실업은 자동차부품 제조를 주력으로 하는 기업으로, 2025년 연결기준 매출 8,080억원을 기록했습니다. 중국·독일·멕시코 등 해외투자를 통해 글로벌 완성차사에 모듈형 부품을 납품하는 공급망을 갖추고 있습니다.",
+    "business_model": "핵심 사업은 제조부문(99.7%)과 건설부문(0.3%)으로 구성되며, 제조부문에서 크래쉬패드·콘솔·글러브박스·러기지보드 등 완성차용 모듈형 부품을 공급하여 매출의 대부분을 차지합니다. 매출은 OEM(주문자상표부착생산) 방식이 주를 이루며 공장 증축을 통한 생산능력(Capacity) 확대와 연구개발 투자가 수익 기반입니다.",
+    "main_customers": "제조부문 — 현대자동차·기아·현대모비스·Volkswagen·BMW·GM 등 완성차 및 모듈 고객 / 건설부문 — 공공부문·개발사업·건축·토목 등 발주자",
+    "price_factors": [
+      {
+        "factor": "OEM 의존도",
+        "detail": "OEM 중심의 매출 구조로 완성차업체 실적 변동이 매출·실적에 직접 반영됩니다."
+      },
+      {
+        "factor": "무역·관세",
+        "detail": "미국 등 주요 시장의 관세 부과 시 수출법인 실적에 부정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "친환경 전환",
+        "detail": "내연차에서 친환경차로의 전환과 탄소규제 강화는 친환경 소재·공법 수요 변동을 야기합니다."
+      },
+      {
+        "factor": "생산능력",
+        "detail": "공장 증축에 따른 생산능력·생산성 변화가 매출 성장과 이익률에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "당사의 2025년 매출은 연결기준으로 8,080억원으로"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "제조부문 (99.7%) - 건설부문 (0.3%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "현대/기아자동차㈜ 외 강소모비스, Volkswagen, BMW, GM 등 각지 고객사"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "영업 현황",
+        "evidence_text": "자동차부품산업의 매출유형은 OEM, A/S, 수출 등 세가지로 구분되며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5228,
+    "completion_tokens": 4506,
+    "reasoning_tokens": 3776,
+    "output_tokens": 730
+  },
+  "warnings": []
+}

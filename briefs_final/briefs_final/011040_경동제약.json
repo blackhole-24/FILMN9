@@ -1,0 +1,67 @@
+{
+  "stock_code": "011040",
+  "corp_name": "경동제약",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 20:40",
+  "meta": {
+    "wics": "제약",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "경동제약은 1976년 2월 12일 설립된 의약품 제조·판매 회사로 전문의약품을 중심으로 사업을 영위하고 있습니다. 내수(병·의원·약국) 중심의 매출 구조를 가지고 있으며, 수출 비중은 약 1% 수준입니다.",
+    "business_model": "사업부문은 제약부문(22.1%), 임대부문(2.1%), 기타부문(1.3%)으로 구성되어 있으며 제약부문이 핵심 수익원입니다. 제약부문은 제품매출(듀오로반정 등)이 큰 비중을 차지하고 상품매출(알포틴연질캡슐 등)도 주요 구성요소로 작용합니다.",
+    "main_customers": "제약부문 — 병·의원·약국·제약회사·의약품 도매상 / 임대부문 — 사옥 임차인 / 기타부문 — 스포츠용품·건강기능식품 관련 판매처",
+    "price_factors": [
+      {
+        "factor": "경쟁심화",
+        "detail": "국내외 다수 제약사 경쟁 심화로 신제품·차별화가 실적에 영향"
+      },
+      {
+        "factor": "약가정책",
+        "detail": "정부의 약가·보험제도 변화는 제품의 매출과 수익성에 직접적 영향"
+      },
+      {
+        "factor": "특허만료",
+        "detail": "오리지널 의약품의 특허만료 이후 제네릭 경쟁이 마진과 매출구조에 영향"
+      },
+      {
+        "factor": "내수 의존",
+        "detail": "수출 비중이 낮아(약 1%) 국내 수요 변동이 실적에 큰 영향을 미침"
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "(가) 사업부문의 구분",
+        "evidence_text": "의약품 제조 및 판매를 지배적 단일사업"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "제약부문: 43,379 (22.1%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 영업 현황",
+        "evidence_text": "국내 매출은 병의원 및 제약회사로의 직접 판매"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성 — (라) 시장의 여건",
+        "evidence_text": "국내시장은 약 270여개의 국내 제약사와 약 40여개의 다국적 제약사"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4322,
+    "completion_tokens": 4254,
+    "reasoning_tokens": 3584,
+    "output_tokens": 670
+  },
+  "warnings": []
+}

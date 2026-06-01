@@ -1,0 +1,62 @@
+{
+  "stock_code": "067290",
+  "corp_name": "JW신약",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 04:52",
+  "meta": {
+    "wics": "제약",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "JW신약은 의약품의 제조·판매를 주된 사업으로 하는 제약회사로, 클리닉 중심의 제품을 기반으로 영업활동을 전개하고 있습니다. JW중외제약의 오리지널 의약품에 대한 공동마케팅을 통해 체계적인 영업네트워크를 구축하고 있습니다.",
+    "business_model": "핵심 수익원은 의약품의 제조·판매이며, CMO(위탁생산) 사업과 제제개선 연구를 통해 제조 경쟁력을 강화하고 있습니다. 사업부문별 영업수익 구성(FY2025)에서 상제품은 3,291으로 전체의 10.9%를 차지합니다.",
+    "main_customers": "제품(클리닉용 의약품) — 피부과·이비인후과·비뇨기과·내과 중심의 클리닉·의사 / CMO(위탁생산) — 제약사(위탁의뢰 기업) / 공동마케팅 — 제약 유통 및 파트너사(JW중외제약)",
+    "price_factors": [
+      {
+        "factor": "규제·특허",
+        "detail": "허가·특허 관련 제도 변화(예: 허가특허연계제도)는 제품의 시장 진입과 수명에 직접적 영향을 줍니다."
+      },
+      {
+        "factor": "원자재·환율",
+        "detail": "원자재 가격 상승과 환율 변동성은 제조원가와 수익성에 부담을 줄 수 있습니다."
+      },
+      {
+        "factor": "신제품 개발",
+        "detail": "AD-303 등 도포형 외용제 개발 성과는 신성장 동력 확보와 장기적 실적에 영향을 미칩니다."
+      },
+      {
+        "factor": "CMO 경쟁력",
+        "detail": "제조 공정 고도화와 제제개선 연구의 성과는 CMO 수주와 수익성에 직결됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 의약품의 제조, 판매를 주요 사업영역으로 하며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "2) 영업의 개황 (1) 영업개황 및 사업부문의 구분",
+        "evidence_text": "JW신약은 피부과, 이비인후과, 비뇨기과 및 내과 등 핵심 클리닉 영역을 중심"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "상제품: 3,291 (10.9%)"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3540,
+    "completion_tokens": 3480,
+    "reasoning_tokens": 2816,
+    "output_tokens": 664
+  },
+  "warnings": []
+}

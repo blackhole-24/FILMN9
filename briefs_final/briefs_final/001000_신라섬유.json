@@ -1,0 +1,57 @@
+{
+  "stock_code": "001000",
+  "corp_name": "신라섬유",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 17:13",
+  "meta": {
+    "wics": "부동산",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "reit"
+  },
+  "brief": {
+    "company_overview": "신라섬유는 부동산 임대업과 휴대폰 판매업을 중심으로 기타 폴리에스터 직물 제조·가공·판매를 영위하는 기업입니다. 당기 매출액은 36억원을 기록했으며, 부동산 임대와 휴대폰 판매가 주요 수익원으로 구성되어 있습니다.",
+    "business_model": "사업부문별로 부동산임대업이 매출의 56.7%, 휴대폰판매업이 43.3%를 차지하며 임대수익과 단말기·부가서비스 판매가 핵심 수익원입니다. 기타로 100% Polyester 직물의 제조·가공 및 판매업을 병행하고 있어 다각적 매출 구조를 보유하고 있습니다.",
+    "main_customers": "부동산임대업 — 임차인(중고차시장 관련 업체 등) / 휴대폰판매업 — 일반 소비자(가입자 및 구독서비스 이용자)",
+    "price_factors": [
+      {
+        "factor": "중고차시장 수요",
+        "detail": "부동산 임대업은 중고차시장 확대에 따른 임차수요 변화에 민감해 임대수익에 영향이 있을 수 있습니다."
+      },
+      {
+        "factor": "경기 변동",
+        "detail": "경기 침체 시 소비자들이 신규 단말기 구매나 고급 서비스 이용을 줄일 수 있어 휴대폰판매 실적에 부정적 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "부가서비스 경쟁",
+        "detail": "휴대폰판매업은 AI·음원·디지털서비스 등 구독형 부가서비스 경쟁에 따라 매출 구조와 단가에 영향을 받습니다."
+      },
+      {
+        "factor": "이자율 변동",
+        "detail": "차입금에 대한 이자율 변동은 금융비용과 순이익에 직접적인 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 부동산 임대업, 휴대폰 판매업"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "부동산임대업 56.7%, 휴대폰판매업 43.3%를 차지하고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3301,
+    "completion_tokens": 3403,
+    "reasoning_tokens": 2816,
+    "output_tokens": 587
+  },
+  "warnings": []
+}

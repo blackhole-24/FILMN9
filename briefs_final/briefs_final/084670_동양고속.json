@@ -1,0 +1,62 @@
+{
+  "stock_code": "084670",
+  "corp_name": "동양고속",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 11:37",
+  "meta": {
+    "wics": "도로와철도운송",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "동양고속은 고속버스를 통해 이동·여행 수요를 운송하는 것을 주력으로 하는 운송업체로, 자체 터미널(마산, 아산, 평택)을 운영하며 터미널 임대·화물 운송 등 부가사업도 영위하고 있습니다. 제21기(2025년도) 매출액은 1,252억 원이며, 고속버스 보유 비율은 약 21.1%로 8개 고속버스 회사 중 2위를 유지하고 있습니다.",
+    "business_model": "주요 수익원은 운송수입으로 전체 영업수익의 96.0%를 차지하고, 나머지 4.0%는 터미널 상가 임대·화물 운송 등 기타수입입니다(운송수입: 120,134 백만원, 기타수입: 5,049 백만원). 핵심 사업은 고속버스 운행이며, 자체 정비공장과 터미널 운영을 통해 운행 유지·부가수익을 확보합니다.",
+    "main_customers": "운송수입 — 여행·이동을 원하는 일반 승객 / 기타수입 — 터미널 상가 임차인·화물 운송 의뢰인",
+    "price_factors": [
+      {
+        "factor": "유류비",
+        "detail": "유류비(연료비) 상승은 원가 부담을 증가시켜 실적에 부정적 영향을 미칩니다."
+      },
+      {
+        "factor": "인건비",
+        "detail": "원가에서 인건비 비중이 높아 인건비 상승 시 수익성 압박이 커집니다."
+      },
+      {
+        "factor": "경쟁심화",
+        "detail": "KTX 전용선로 완전 개통 및 SRT 점유율 확대 등 타 교통수단과의 경쟁 심화는 이용객 수 감소로 연결됩니다."
+      },
+      {
+        "factor": "요금규제",
+        "detail": "고속버스 요금 인상은 관련기관의 인허가 사항으로 비용 상승을 곧바로 요금에 반영하기에 제약이 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "[경영진 실적·전략 요약 (MD&A)]",
+        "evidence_text": "당사의 제21기(2025년도) 매출액은 1,252억 원으로,"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "운송수입: 120,134 (96.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "[여객운송사업 : 지배회사 (주)동양고속]",
+        "evidence_text": "여행하고자 하는 이용객들을 대상으로 고속버스를 이용하여 운송 서비스를 제공하는 것을 주 사업으로 영위하고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5138,
+    "completion_tokens": 4164,
+    "reasoning_tokens": 3456,
+    "output_tokens": 708
+  },
+  "warnings": []
+}

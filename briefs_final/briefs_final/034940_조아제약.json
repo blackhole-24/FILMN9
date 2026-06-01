@@ -1,0 +1,71 @@
+{
+  "stock_code": "034940",
+  "corp_name": "조아제약",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 09:56",
+  "meta": {
+    "wics": "제약",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "조아제약은 1988년 삼강제약사를 인수해 설립된 제약회사로, 의약품 및 의약외품의 제조·판매를 주요 사업으로 하고 있습니다. 회사 설립 초기부터 일반의약품을 중심으로 약국 영업에 주력해 왔으며, 현재는 전국 15개 영업소와 자회사 메디팜의 약국 유통망을 함께 활용하고 있습니다.",
+    "business_model": "조아제약은 의약품과 건강기능식품을 다품종 소량 생산·판매하는 구조이며, FY2025 사업부문별 영업수익은 조아엉겅퀴 57.8%, 상품 9.0%, 원료 44.0%로 구성됩니다. 조아바이톤, 헤파토스, 훼마틴, 잘크톤 등 200여 종의 제품을 생산·공급하고, 해외 23개국에 150여 가지 제품을 수출하고 있습니다. 전문의약품과 일반의약품을 함께 취급하면서 약국 영업과 수출을 병행하는 점이 특징입니다.",
+    "main_customers": "조아엉겅퀴 — 약국, 일반 소비자 / 상품 — 약국 유통망, 거래처 / 원료 — 해외 23개국 수출 대상 거래처",
+    "price_factors": [
+      {
+        "factor": "약가규제",
+        "detail": "정부의 약가규제 정책 변화는 제품 판매가격과 수익성에 직접적인 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "원재료",
+        "detail": "의약품 원료 매입단가가 오르면 제품 원가율이 높아져 실적에 부담이 될 수 있습니다."
+      },
+      {
+        "factor": "환율",
+        "detail": "환율 변동은 수입 의약품 원료 비용과 수출 채산성에 함께 영향을 줍니다."
+      },
+      {
+        "factor": "유통망",
+        "detail": "자회사 메디팜의 전국 1,000여 개 가맹약국 유통망은 내수 판매 확대에 중요한 기반이 됩니다."
+      },
+      {
+        "factor": "경기침체",
+        "detail": "내수 경기 둔화와 물가 상승은 약국 판매와 소비 심리에 부담으로 작용할 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 1988년 삼강제약사를 인수하여 설립되었고,"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "조아엉겅퀴: 33,219 (57.8%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "전국 15개 영업소에서 100여 명에 달하는 영업MR"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "의료보험 수가의 변동 수입자재의 가격변동과 환율변동"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3223,
+    "completion_tokens": 790,
+    "reasoning_tokens": 0,
+    "output_tokens": 790
+  },
+  "warnings": []
+}

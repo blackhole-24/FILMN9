@@ -1,0 +1,71 @@
+{
+  "stock_code": "101530",
+  "corp_name": "해태제과식품",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 08:06",
+  "meta": {
+    "wics": "식품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "해태제과식품은 과자류와 냉동식품을 주력으로 하는 국내 식품기업으로, 홈런볼·오예스 등 장수 브랜드를 보유하고 있습니다. 2025년 매출액은 전년대비 1.9% 증가한 6,414억 원을 기록하였습니다.",
+    "business_model": "주요 수익원은 제품매출(과자류·냉동식품)으로, 사업부문별 매출 비중은 식품제조 85.2%, 상품매출 25.6%, 용역매출 2.0%이며(매출에누리 -12.7%), 핵심 브랜드 중심의 제품 판매와 유통망을 통한 대량 유통이 수익 구조의 중심입니다. (주)크라운제과와의 영업망 공유를 통해 유통 효율화·비용절감 효과를 누리고 있습니다.",
+    "main_customers": "식품제조 — 유통채널 및 최종 소비자 / 상품매출 — 도매·유통업체 및 소매점 / 용역매출 — 위탁판매 의뢰 기업",
+    "price_factors": [
+      {
+        "factor": "원재료비",
+        "detail": "국제곡물가 상승 등 원재료비 상승은 원가 부담을 늘려 수익성을 압박합니다."
+      },
+      {
+        "factor": "환율",
+        "detail": "환율 불안은 원재료 수입비용과 실적 변동성에 영향을 주어 수익성에 부담을 줄 수 있습니다."
+      },
+      {
+        "factor": "내수경기",
+        "detail": "저성장·소비 심리 위축은 제과제품의 수요 둔화로 매출 성장의 제약 요인이 됩니다."
+      },
+      {
+        "factor": "규제·안전",
+        "detail": "HACCP 등 식품안전 규제 강화는 위생 설비 투자 및 제조비용 증가로 연결될 수 있습니다."
+      },
+      {
+        "factor": "브랜드경쟁",
+        "detail": "유사제품의 난립 속에서 브랜드 인지도가 시장지위를 좌우해 가격 경쟁과 마진에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 회사의 현황 (1) 영업개황 및 사업부문의 구분",
+        "evidence_text": "당사는 2025년의 경우 전년대비 1.9% 증가한 6,414억원의 매출액을 달성하였고,"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "홈런볼, 오예스 등 | 546,379(85.2%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. 회사의 현황 (1) 영업개황 및 사업부문의 구분",
+        "evidence_text": "2009년 3월 이후 (주)크라운제과와의 영업망을 공유하면서"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나. 영위하는 사업에 대한 규제사항",
+        "evidence_text": "식품위해요소 중점관리기준(HACCP)의 적용확대"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5186,
+    "completion_tokens": 4382,
+    "reasoning_tokens": 3584,
+    "output_tokens": 798
+  },
+  "warnings": []
+}

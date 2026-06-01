@@ -1,0 +1,67 @@
+{
+  "stock_code": "011150",
+  "corp_name": "CJ씨푸드",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 20:43",
+  "meta": {
+    "wics": "식품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "CJ씨푸드는 1976년 창업한 수산가공식품 회사로, 경기도 성남에 본사를 두고 국내 4개의 생산기지를 운영하고 있습니다. 어묵 브랜드 '삼호어묵'을 시작으로 생선구이·어묵 등 수산 HMR(가정간편식)과 김 제품을 주력으로 제조·판매하며 업계 수위를 유지해 왔습니다.",
+    "business_model": "주요 사업은 수산 부문(어묵, 생선구이, 유부 등)과 김 부문(조미김, 김스낵)이며, HMR 제품 확대와 생산라인 증설을 통해 성장해 왔습니다. FY2025 기준 영업수익 구성은 내수 74.0%, 수출 15.1%로 내수 비중이 높고, 수출(코스트코향 등) 확대를 통한 해외 매출 비중도 존재합니다.",
+    "main_customers": "수산 부문 — 가정간편식(HMR) 소비자 및 외식·B2B 채널 / 김 부문 — 국내 유통업체(대형마트·코스트코향 등) 및 수출처",
+    "price_factors": [
+      {
+        "factor": "원재료·환율",
+        "detail": "노르웨이 고등어 쿼터·환율 상승 시 원가가 오르며 수익성에 압박을 줍니다."
+      },
+      {
+        "factor": "소비 트렌드",
+        "detail": "건강·간편식 선호 확산은 생선구이 HMR 등 제품 수요 확대에 영향을 미칩니다."
+      },
+      {
+        "factor": "규제·안전기준",
+        "detail": "HACCP 등 식품안전 규제 강화는 품질관리 비용과 영업 리스크에 직결됩니다."
+      },
+      {
+        "factor": "유통망 경쟁",
+        "detail": "국내 유통 채널과 수출처(대형유통)의 확보 여부가 판매량과 판가에 영향합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "국내 4개의 생산기지를 운영하고 있는 수산가공식품 회사"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "내수 (74.0%), 수출 (15.1%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "B2B 채널을 적극적으로 공략하여 어묵 판매량을 확대함으로써"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "HACCP(위해요소 중점관리 기준)"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4774,
+    "completion_tokens": 3472,
+    "reasoning_tokens": 2752,
+    "output_tokens": 720
+  },
+  "warnings": []
+}

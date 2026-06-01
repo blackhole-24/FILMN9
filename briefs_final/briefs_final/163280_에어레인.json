@@ -1,0 +1,72 @@
+{
+  "stock_code": "163280",
+  "corp_name": "에어레인",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 10:38",
+  "meta": {
+    "wics": "화학",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "에어레인은 중공사(中空絲, hollow fiber) 기반의 기체분리막을 개발·제조·판매하는 기업으로, 기체분리막을 모듈과 시스템 형태로 제품화하여 공급합니다. 주요 적용 분야는 질소 발생, 바이오가스 고질화, 이산화탄소 포집 등이며 제작수량의 대부분을 해외로 수출하고 있습니다.",
+    "business_model": "핵심 사업은 기체분리막을 장착한 기체분리막 모듈 및 이를 포함한 기체분리막 시스템의 설계·제작·판매이며, 기체분리막 자체는 외부로 판매하지 않습니다. 매출은 '[사업부문별 매출 구성]' 기준으로 기타 시스템이 100.0%를 차지하고, 제품군은 질소발생용(MNH), 바이오가스용(MBG), 이산화탄소 포집용(MCH) 등으로 구분됩니다.",
+    "main_customers": "질소 발생 — 산업용 질소 사용자(화석연료·가스·식품·수소 등) / 바이오가스 고질화 — 지방자치단체 및 건설사(협업 납품) / 이산화탄소 포집 — 발전·철강·수소생산·시멘트 등 탄소배출 기업 (대표 수출처 예: 중국의 M사, UAE의 A사)",
+    "price_factors": [
+      {
+        "factor": "공급제한",
+        "detail": "기체분리막을 직접 제조·판매하는 업체가 소수여서 공급자 우위가 존재하면 가격·마진에 우호적 영향을 미칩니다."
+      },
+      {
+        "factor": "수요증가",
+        "detail": "질소발생·바이오가스·CO2포집 등 활용처 확대는 제품 수요를 늘려 매출 성장과 가격 상승 압력을 유발할 수 있습니다."
+      },
+      {
+        "factor": "경쟁사 증설",
+        "detail": "Air Products·Evonik·UBE 등의 설비증설은 공급능력 확대를 통해 가격과 수익성에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "원재료(폴리이미드)",
+        "detail": "고성능 분야에는 자체 합성 폴리이미드를 사용하는데, 폴리이미드는 가격이 높고 불순물에 민감해 원가·품질에 영향이 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "기체분리막 모듈 및 시스템을 공급하는 단일 사업부문"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "기타 시스템: 14,385 (100.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "제작수량의 대부분은 해외로 수출되고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "시장 현황",
+        "evidence_text": "기체분리막 시장은 공급회사의 수가 한정적인 공급자 우위 시장입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황",
+        "evidence_text": "기체분리막 원료로는 상용소재인 폴리술폰을 사용"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5989,
+    "completion_tokens": 3909,
+    "reasoning_tokens": 3072,
+    "output_tokens": 837
+  },
+  "warnings": []
+}

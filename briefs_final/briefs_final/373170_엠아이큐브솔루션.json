@@ -1,0 +1,62 @@
+{
+  "stock_code": "373170",
+  "corp_name": "엠아이큐브솔루션",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 18:11",
+  "meta": {
+    "wics": "IT서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "엠아이큐브솔루션은 2005년 설립된 스마트팩토리·제조 지능화 솔루션 전문기업으로, 전기·전자·반도체·디스플레이·2차전지·자동차 등 다양한 제조업의 공정을 전산화·자동화해 왔습니다. 자체 개발 소프트웨어와 연구개발을 바탕으로 제조 현장의 데이터 통합·분석을 통해 의사결정 지원과 생산성 향상을 돕는 것을 주된 가치로 삼고 있습니다.",
+    "business_model": "핵심은 제조운영관리(MOM) 기반의 스마트팩토리 솔루션과 관련 용역으로, '솔루션(용역)' 매출이 0.8%, '국 내' 매출이 92.5%, 'EES' 0.1%, 'TC' 2.2%, 'MCS' 6.1%로 구성되어 있습니다. 스마트팩토리 전략 컨설팅부터 구축, 운영 및 유지보수(O&M)까지 전주기 서비스를 제공하며 IIoT, 클라우드, 빅데이터, AI, 디지털 트윈 등 ICT 융합 기술에 지속적으로 투자하고 있습니다.",
+    "main_customers": "솔루션(용역) — 전기·전자·반도체 등 제조업체 / MCS — 제조 현장 운영 기업(공장) / TC — 제조업체의 생산관리 담당부서 / EES — 제조업 설비·에너지 운영 관련 부문",
+    "price_factors": [
+      {
+        "factor": "정부정책",
+        "detail": "정부의 MIDAS 2027 등 디지털 제조혁신 정책은 자율제조·AX(인공지능 전환) 역량 보유 기업에 대한 수요 확대를 통해 실적에 긍정적 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "시장성장",
+        "detail": "국내 스마트팩토리 시장이 2024년 약 18조원에서 2030년 약 35조원으로 성장할 것으로 전망되어 수주와 매출 성장의 주요 배경이 됩니다."
+      },
+      {
+        "factor": "기술수요",
+        "detail": "AI·디지털트윈·IIoT 등 고도화 기술 수요가 확대되면 고부가가치 솔루션 중심의 매출 비중 확대에 유리하게 작용합니다."
+      },
+      {
+        "factor": "제조업 경기",
+        "detail": "국내 제조업 투자 심리와 수주 환경이 위축되면 대형 프로젝트 지연으로 매출 변동성이 커질 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "당사는 2005년 설립"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "솔루션 (용역): 215,050 (0.8%)"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "시장 특성 및 성장성",
+        "evidence_text": "국내 시장 규모는 2024년 약 18조 원 규모에서 2030년 약 35조 원 규모로 연평균 10~11% 이상의 견조한 성장이 전망됩니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4776,
+    "completion_tokens": 3354,
+    "reasoning_tokens": 2560,
+    "output_tokens": 794
+  },
+  "warnings": []
+}

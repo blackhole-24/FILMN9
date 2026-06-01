@@ -1,0 +1,64 @@
+{
+  "stock_code": "007370",
+  "corp_name": "진양제약",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 19:46",
+  "meta": {
+    "wics": "제약",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "진양제약은 의약품의 제조·판매(수출입 포함)를 주된 사업으로 영위하는 제약회사입니다. 제약산업은 연구개발형 고부가가치 산업이라는 특성을 가지며, 고령화와 소득수준 향상에 따라 전문의약품 시장의 지속적 확장이 기대됩니다.",
+    "business_model": "핵심 사업은 의약품 제조판매로, 회사는 아세콜·에스졸정·미아릴정·진프라그정 등 여러 전문의약품을 제품군으로 보유하고 있습니다. 제품 생산부터 판매(국내·수출입 포함)까지를 통해 매출을 창출하는 구조입니다.",
+    "main_customers": "의약품제조판매 — 보고서에 고객 유형 기재 없음 / 아세콜 외 — 보고서에 고객 유형 기재 없음 / 에스졸정 외 — 보고서에 고객 유형 기재 없음 / 미아릴정 외 — 보고서에 고객 유형 기재 없음 / 진프라그정 외 — 보고서에 고객 유형 기재 없음",
+    "price_factors": [
+      {
+        "factor": "정부 규제",
+        "detail": "약사법·보험수가 통제 등 정부 규제가 실적과 가격 결정에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "약가정책",
+        "detail": "약제비 적정화(일괄약가인하 등) 시행 시 제품 마진과 이익에 압박을 줄 수 있습니다."
+      },
+      {
+        "factor": "환율 변동",
+        "detail": "원·외화 환율 변동은 수출입 관련 매출 및 원가에 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "시장경쟁",
+        "detail": "국내 제약시장의 제네릭(복제약) 중심 경쟁과 유통정책 변화가 매출과 마진에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 의약품 제조 및 판매 (수출입 포함)를 지배적 사업부문으로 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "연구개발형 고부가가치 산업이라는 특성"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "의약품제조판매"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 3381,
+    "completion_tokens": 2676,
+    "reasoning_tokens": 2048,
+    "output_tokens": 628
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

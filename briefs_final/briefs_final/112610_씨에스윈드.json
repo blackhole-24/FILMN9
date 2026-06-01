@@ -1,0 +1,67 @@
+{
+  "stock_code": "112610",
+  "corp_name": "씨에스윈드",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 08:44",
+  "meta": {
+    "wics": "에너지장비및서비스",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "씨에스윈드는 풍력타워와 해상풍력 하부구조물을 생산하는 글로벌 제조기업으로, 한국 본사를 기반으로 다수의 해외 생산법인을 운영하며 전세계에 제품을 공급·납품하고 있습니다. 2023년 Bladt Industries 인수를 통해 해상풍력 하부구조물 사업에 진출하여 사업 영역을 확장했습니다.",
+    "business_model": "핵심 사업은 풍력타워 제조(타워 내부 부품·베어링 포함)와 해상풍력 하부구조물 공급(모노파일·트랜지션 피스 등)으로 구성되며, 2025년 영업수익 기준으로 풍력타워 제조가 73.4%, 해상풍력 하부구조물이 26.6%를 차지합니다. 제품은 고객사와 프로젝트에 따라 사양이 달라 다품종 대량생산과 글로벌 생산 네트워크 기반의 공급이 핵심입니다.",
+    "main_customers": "풍력타워 제조 — Vestas, SGRE 등 글로벌 풍력터빈 제조사 / 해상풍력 하부구조물 — Orsted, RWE 등 글로벌 신재생에너지 발전기업",
+    "price_factors": [
+      {
+        "factor": "후판(원재료) 가격",
+        "detail": "후판 가격 변동은 제조원가와 마진에 직접 영향을 미치며, 지역별 가격 차이가 실적 변동성으로 연결될 수 있습니다."
+      },
+      {
+        "factor": "제품 대형화·사양",
+        "detail": "타워·하부구조물의 중량과 규격 확대(대형화)는 평균 판매단가 상승 요인이 되어 실적에 영향을 줍니다."
+      },
+      {
+        "factor": "정책·입찰 환경",
+        "detail": "국가별 재생에너지 정책·보조금·입찰 제도 변화는 프로젝트 수주와 일정에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "프로젝트 지연 리스크",
+        "detail": "해상풍력 프로젝트 지연 등은 단기적 불확실성을 높여 매출 인식 시점과 수주잔고에 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "전세계 시장에 육상 및 해상 풍력타워를 공급, 납품하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "풍력타워 제조: 1,993,539 (73.4%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "Vestas, SGRE 등 글로벌 유수의 풍력터빈 업체가 주요 고객사로"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "미국산 후판 가격은 작년 말에 비해 상승하였습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5112,
+    "completion_tokens": 4224,
+    "reasoning_tokens": 3456,
+    "output_tokens": 768
+  },
+  "warnings": []
+}

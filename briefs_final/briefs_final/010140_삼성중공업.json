@@ -1,0 +1,72 @@
+{
+  "stock_code": "010140",
+  "corp_name": "삼성중공업",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 20:34",
+  "meta": {
+    "wics": "조선",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "삼성중공업은 조선해양과 토건을 주력 사업으로 하는 기업으로, 선박과 해양플랫폼 건조를 주요 사업으로 영위하고 있습니다. 연결대상 종속회사는 총 9개사(국내 1사, 해외 8개사)로 블럭 제작 등 생산 계열을 포함하고 있습니다.",
+    "business_model": "핵심 사업은 조선해양부문(초대형컨테이너선·LNG선·원유운반선 및 LNG-FPSO·FPU 등 해양플랫폼 건조)과 토건부문(건축·토목·하이테크 공사)으로 구성되며, 매출의 약 90.7%가 조선해양부문, 약 9.3%가 토건부문을 차지합니다. 조선해양부문은 주로 해외 선주를 대상으로 제품을 판매하고, 회사는 친환경 선박 기술(폐열회수, CO₂ 포집 등) 연구개발에 역량을 집중하고 있습니다.",
+    "main_customers": "조선해양 — 해외 선주 / 토건 — 국내 건축업주",
+    "price_factors": [
+      {
+        "factor": "해운경기",
+        "detail": "글로벌 무역갈등과 경기 둔화 시 선주들의 신규 발주가 지연되어 실적에 부정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "원자재",
+        "detail": "선박 가격은 물류 이동 및 원자재 수급에 민감해 원자재 비용·공급 차질이 실적에 영향을 미칩니다."
+      },
+      {
+        "factor": "친환경규제",
+        "detail": "IMO 등 탈탄소 규제 전환에 따라 친환경 선박 수요와 관련 기술 투자 여부가 수익성에 영향을 줍니다."
+      },
+      {
+        "factor": "교체발주",
+        "detail": "노후선 교체 수요(교체 발주)는 신조선 발주시장에 긍정적 영향을 주어 수주 기회로 연결됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "조선해양부문, 토건부문으로 사업을 구분하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "조선해양: 74,339 (90.7%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "조선해양부문은 주로 해외 선주를 대상으로"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "토건부문은 국내 건축업주로부터 매출이 발생하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "교체 발주 수요도 신조선 발주시장에 긍정적인 영향을 주고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4491,
+    "completion_tokens": 4669,
+    "reasoning_tokens": 3904,
+    "output_tokens": 765
+  },
+  "warnings": []
+}

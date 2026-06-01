@@ -1,0 +1,86 @@
+{
+  "stock_code": "014950",
+  "corp_name": "삼익제약",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 21:36",
+  "meta": {
+    "wics": "제약",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "삼익제약은 전문의약품을 중심으로 합성의약품을 주력으로 제조·판매하며 CMO(위탁생산) 사업도 병행하는 제약회사입니다. 순환기·당뇨병·고지혈증 등 만성질환 치료제에 집중하면서 일반의약품(OTC)도 일부 생산하고 있습니다.",
+    "business_model": "사업부문별로 순환기용제(46.8%), 당뇨병용제(10.7%), 소화기용제(6.5%), 해열진통소염제(5.8%)가 주된 매출을 구성하며, CMO 매출은 11.4%를 차지합니다. 또한 염산메트포르민 대량생산과 이층정(서로 다른 두 약물 성분을 층으로 나눠 넣는 제형) 기술 등을 통해 CMO 역량을 강화하고 있습니다.",
+    "main_customers": "순환기용제 — 의사의 처방을 통한 환자(전문의약품) / 당뇨병용제 — 의사의 처방을 통한 환자(전문의약품) / 일반의약품 — 일반 소비자(OTC 제품) / CMO — 44개 거래처(위탁생산 거래처)",
+    "price_factors": [
+      {
+        "factor": "약가 제도",
+        "detail": "약가 상한금액 조정·사용량 연동 협상·급여재평가 등이 이루어지면 매출 및 수익성에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "규제 강화",
+        "detail": "GMP 원스트라이크 아웃제 등 규제 강화는 생산·품질 관리 비용과 사업 지속성에 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "제네릭 경쟁",
+        "detail": "글로벌·국내에서 제네릭 비중이 확대되면 가격경쟁이 심화되어 매출구조에 압박을 줄 수 있습니다."
+      },
+      {
+        "factor": "수요 구조",
+        "detail": "인구 고령화와 만성질환 증가에 따른 수요 증가는 전문치료제 매출에 긍정적 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "환율(외환)",
+        "detail": "외화표시 거래가 있어 환율 변동은 손익에 영향을 미칠 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 완제의약품 중 전문의약품을 위주로 사업을 영위하고 있으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "순환기용제에서 매출의 46.8%를 차지"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당뇨병용제에서는 매출의 10.7%를 차지"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "CMO의 경우에는 매출의 11.4%를 차지"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "멀미약, 어린이 허약체질 개선제, 종합감기약 등 일반의약품도 개발하여 생산하고 있으며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "2. 법률/규정 등에 의한 규제사항",
+        "evidence_text": "최근 규제 강화로는 'GMP 원스트라이크 아웃제'와 약가 제도"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "4-2. 제약산업의 성장성",
+        "evidence_text": "국내 의약품시장은 인구 고령화와 만성질환의 증가가 진행"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4929,
+    "completion_tokens": 4137,
+    "reasoning_tokens": 3136,
+    "output_tokens": 1001
+  },
+  "warnings": []
+}

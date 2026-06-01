@@ -1,0 +1,74 @@
+{
+  "stock_code": "260970",
+  "corp_name": "에스앤디",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 12:11",
+  "meta": {
+    "wics": "식품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "에스앤디는 일반기능식품소재와 건강기능식품소재의 연구·생산·판매를 주력으로 하는 식품소재 기업입니다. 생활용품·화장품용 천연물 소재 연구로 사업영역을 다각화하고 있으며, 식품GMP·ISO·HACCP·HALAL 등 위생·품질 인증을 갖춘 설비에서 생산을 하고 있습니다.",
+    "business_model": "핵심 사업은 일반기능식품소재와 건강기능식품소재로 나뉘며, 일반기능식품소재는 라면·제과·스낵 등 완제품 제조용 원료로 공급되는 농축액·분말류(그릴농축액류, 치즈분말류, 매운맛베이스분말류 등)를 제조·판매합니다. 건강기능식품소재는 감태추출물, 미강주정추출물, 감국감태추출복합물 등 천연물에서 기능성 성분을 추출·정제해 건강보조용 소재로 제공하며, 생활용품·화장품용 천연물 소재 연구개발도 병행합니다.",
+    "main_customers": "일반기능식품소재 — 라면·제과·스낵 등 완제품 제조업체 / 건강기능식품소재 — 건강기능식품·건강보조제 제조업체 (수면보조·호흡기 개선 소재 활용) / 천연물소재 — 생활용품 및 화장품 제조업체",
+    "price_factors": [
+      {
+        "factor": "인증·규제",
+        "detail": "식품GMP·HACCP·HALAL 등 인증 보유 여부가 시장 접근성과 신뢰성에 직접 영향 — 인증 유지·관리 비용도 실적에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "환경규제",
+        "detail": "대기·수질·폐기물 관련 규제 준수와 배출저감 시설 운영·개선 투자가 비용으로 작용할 수 있습니다."
+      },
+      {
+        "factor": "제품수요",
+        "detail": "소비자 니즈의 기능성·다양화 추세에 따라 기능성 식품소재 수요가 변동하여 매출에 영향을 미칩니다."
+      },
+      {
+        "factor": "지적재산권",
+        "detail": "보유 특허(총 28건)가 기술경쟁력에 기여하므로 특허 관리·확보가 경쟁력 유지에 중요합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 회사의 현황",
+        "evidence_text": "회사의 주요 사업분야는 일반기능식품소재와 건강기능식품소재입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. 회사의 현황",
+        "evidence_text": "주요 제품으로는 그릴농축액류, 치즈분말류, 매운맛베이스분말류 등을 제조, 판매하고 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 회사의 현황",
+        "evidence_text": "일반기능식품소재는 ... 라면, 제과 및 스낵 등 완제품 제조용 원료에 적용되는 제품을 뜻하며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 특허권 보유현황",
+        "evidence_text": "당사는 총 31건의 특허권 중 존속만료 3건을 제외한 28건을 보유하여 경쟁력을 갖추고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "다. 환경물질의 배출 또는 환경보호와 관련된 정부규제의 준수",
+        "evidence_text": "당사는 대기환경환경보전법 및 물환경보전법의거 배출 및 방지시설을 정상 운영 중이며"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 3201,
+    "completion_tokens": 4343,
+    "reasoning_tokens": 3392,
+    "output_tokens": 951
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "stock_code": "056700",
+  "corp_name": "신화인터텍",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 03:38",
+  "meta": {
+    "wics": "디스플레이장비및부품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "신화인터텍은 TFT-LCD용 광학 Film을 중심으로 제조·판매하는 디스플레이 소재 기업으로, 광학 Film에서 축적한 기술력을 바탕으로 Mobile OLED용 Tape 및 이차전지용 Tape 등으로 사업 영역을 확장하고 있습니다. 광학 Film 매출이 전체의 높은 비중을 차지하며 디스플레이 고기능화 수요에 대응하는 생산·코팅 역량을 보유하고 있습니다.",
+    "business_model": "사업은 광학 Film(확산·반사·렌즈·프리즘 등)과 Tape(모바일 OLED용·이차전지용)의 두 축으로 구성되며, 38기 사업부문별 매출비중은 광학 Film 약 90%, Tape 약 10%입니다. 주요 원재료로는 PEN Film, PET Film 및 Chemical이 큰 비중을 차지하며, 고기능성 코팅·포뮬레이션 기술과 광폭 코팅 설비를 기반으로 고객 맞춤형 제품을 공급합니다.",
+    "main_customers": "광학 Film — TV·LCD 패널 제조사 및 패널업체 / Tape — 스마트폰·태블릿·노트북 제조사 및 이차전지(배터리) 제조사",
+    "price_factors": [
+      {
+        "factor": "원자재비",
+        "detail": "글로벌 공급망 병목과 에너지 분쟁으로 물류비·원자재비가 상승하면 원가 부담 증가로 실적에 부정적 영향을 미칩니다."
+      },
+      {
+        "factor": "디스플레이수요",
+        "detail": "평판 TV 시장의 성장 둔화나 프리미엄 제품 수요 변동은 광학 Film의 수요 및 매출에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "중국경쟁",
+        "detail": "중국 코팅 업체들과의 경쟁 심화는 가격 경쟁과 수주에 영향을 미쳐 마진 압력으로 작용할 수 있습니다."
+      },
+      {
+        "factor": "제품고도화",
+        "detail": "자동차용 대형·다기능 디스플레이와 고기능성 복합시트 수요 확대는 고부가 제품 비중 확대에 유리하게 작용합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "[DART 사업보고서 — 영업 현황]",
+        "evidence_text": "당사는 TFT-LCD에 적용되는 광학 Film(일반복합필름, QD필름, DBEF 복합, ND필름)을 제조 및 판매하고 있으며 광학 Film 사업부문에서 축적된 기술력을 바탕으로스마트폰, 태블릿 PC, 노트북 등 모바일 기기에 적용되는 Mobile OLED용 Tape 및 이차전지용 Tape를 제조 및 판매하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[DART 사업보고서 — 영업 현황]",
+        "evidence_text": "당사는 광학 Film 제조 및 판매를 주력 사업으로 영위하고 있으며, 광학 Film 매출 비중은 전체 매출액의 약 90% 수준을 차지하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "[DART 사업보고서 — 영업 현황]",
+        "evidence_text": "글로벌 공급망 병목현상과 에너지 수출국 간 분쟁 등의 영향으로물류비 및 원자재 비용을 포함한 전반적인 비용 부담이 증가하면서 원가 상승 압력이확대되고 있는 상황입니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "[DART 사업보고서 — 영업 현황]",
+        "evidence_text": "기존 사업인 디스플레이 시장은 성장 둔화와 중국 코팅 업체들의 경쟁 심화로 시장 환경이 점차 어려워지고 있는 상황입니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5054,
+    "completion_tokens": 3857,
+    "reasoning_tokens": 2944,
+    "output_tokens": 913
+  },
+  "warnings": []
+}

@@ -1,0 +1,88 @@
+{
+  "stock_code": "001440",
+  "corp_name": "대한전선",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 17:27",
+  "meta": {
+    "wics": "전기장비",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "대한전선은 1941년 조선전선에서 시작한 전선 제조업체로 전력선·통신케이블·초고압케이블 등 케이블 전반을 생산하는 기업입니다. 2025년 연결기준 매출은 3조 6,360억원으로 역대 최대 실적을 기록하며 해저케이블과 HVDC 등 고부가가치 분야 경쟁력을 강화하고 있습니다.",
+    "business_model": "대한전선 및 종속회사는 전선부문을 단일 사업부문으로 운영하며(초고압케이블, 전력선, 통신케이블 등), 원재료(전기동·알루미늄) 조달과 국내외 생산설비 운영을 통해 제조·공급 및 전기공사까지 종합 솔루션(토털 서비스)을 제공합니다. 수주형 프로젝트(초고압·HVDC·해저케이블) 중심의 맞춤형 생산이 핵심 수익원입니다.",
+    "main_customers": "전선부문 — 전력·통신·산업설비 등 다양한 산업 분야 / 통신케이블 — 통신 산업 / 공사 — 각종 전기공사 발주처",
+    "price_factors": [
+      {
+        "factor": "원자재가격",
+        "detail": "전기동(구리)·알루미늄 가격 변동이 제품 원가와 영업이익에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "수주구조",
+        "detail": "프로젝트 단위 수주 중심 구조로 수주 실적 변동이 매출과 이익 변동성으로 이어집니다."
+      },
+      {
+        "factor": "고부가수요",
+        "detail": "초고압·HVDC·해저케이블 등 고부가가치 제품 수요 확대가 매출 성장과 수익성 개선에 영향을 줍니다."
+      },
+      {
+        "factor": "통합역량",
+        "detail": "설계·제조·포설·시험 등을 포함한 Turn‑key(일괄수행) 역량 보유 여부가 수주경쟁력과 실적에 직결됩니다."
+      },
+      {
+        "factor": "정책투자",
+        "detail": "공공 전력망 투자 및 에너지 전환 정책 방향이 전력 인프라 수요 규모에 직접적인 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "당사는 1941년에 세워진 대한민국 최초의 조선전선에서 시작하였으며"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "2025년 연결재무제표 기준 매출 3조 6,360억원"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "대한전선 주식회사 및 종속회사는 전선부문 단일 사업부문으로 이루어져 있으며"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "전력·통신·산업설비 등 다양한 산업 분야에 필수적으로 사용됩니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "원자재 가격 변동이 제품 가격 및 수익성에 영향을 미치는 구조를 가지고"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "프로젝트 단위로 수주가 이루어지는 특성을 보입니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "고부가가치 제품의 수요 비중이 확대되는 추세입니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4837,
+    "completion_tokens": 4843,
+    "reasoning_tokens": 3840,
+    "output_tokens": 1003
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

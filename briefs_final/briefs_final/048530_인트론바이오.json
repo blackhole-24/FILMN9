@@ -1,0 +1,72 @@
+{
+  "stock_code": "048530",
+  "corp_name": "인트론바이오",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 02:30",
+  "meta": {
+    "wics": "생명과학도구및서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "인트론바이오는 박테리오파지와 엔도리신(Endolysin) 기반 기술을 중심으로 신약을 연구·개발하는 코스닥 상장(2011년 01월) 바이오기업입니다. itLysin®과 IMPA™ 양대 플랫폼을 바탕으로 감염질환과 면역·마이크로바이옴 관련 신약 개발에 주력하는 한편, 분자진단(DR) 사업을 통해 제품을 국내외에 공급하고 있습니다.",
+    "business_model": "사업은 신약파트(7.8%)와 DR파트(92.2%)로 구성되며, 신약파트는 엔도리신·박테리오파지 플랫폼 기반의 신약 R&D와 기술수출·연구용역·로열티 및 동물용 항생제대체재 분야에서 수익을 창출합니다. DR파트는 PCR·qPCR 기반의 분자진단키트(예: COVID-19·폐렴구균 등)를 개발·생산해 국내 및 해외에 판매하며 캐시카우(현금창출원) 역할을 하고 있습니다.",
+    "main_customers": "신약파트 — 기술수출·연구용역 파트너 및 동물용 제품 구매처 / DR파트 — 국내 및 해외 판매처",
+    "price_factors": [
+      {
+        "factor": "특허집약성",
+        "detail": "특허·기술 확보가 핵심인 산업 특성상 기술이전·허가 성과 여부가 실적에 큰 영향을 미칩니다."
+      },
+      {
+        "factor": "R&D리스크",
+        "detail": "신약 개발은 장기간과 대규모 투자가 필요해 개발 성공 여부에 따른 실적 변동성이 큽니다."
+      },
+      {
+        "factor": "해외수요",
+        "detail": "DR 제품은 국내외 각국 상황과 시장 여건에 따라 가격과 매출이 결정되어 수익에 직접 영향을 줍니다."
+      },
+      {
+        "factor": "환경규제",
+        "detail": "환경법규 준수 및 ISO14001 등 인증 관련 운영 방식이 생산·비용 구조에 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "코스닥에 상장 (2011년 01월)한 바이오기업으로서"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "신약파트: 445,200 (7.8%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "DR파트: 5,295,041 (92.2%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "국내 및 해외에 판매하고 있으며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "특허기술집약적 산업"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4868,
+    "completion_tokens": 4799,
+    "reasoning_tokens": 4032,
+    "output_tokens": 767
+  },
+  "warnings": []
+}

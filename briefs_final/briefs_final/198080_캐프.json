@@ -1,0 +1,69 @@
+{
+  "stock_code": "198080",
+  "corp_name": "캐프",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:24",
+  "meta": {
+    "wics": "핸드셋",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "캐프는 전기·전자 업종의 핸드셋 관련 기업으로, 연결종속회사와 함께 스마트폰용 FPCA를 생산하는 SMT사업과 자동차용 와이퍼 블레이드 사업을 함께 영위하고 있습니다. 사업보고서상 주요 제품은 OLED 패널용 FPCA와 와이퍼 블레이드로 구분되며, 스마트폰 부품과 자동차 부품이라는 서로 다른 시장에 동시에 대응하고 있습니다.",
+    "business_model": "캐프의 핵심 사업은 SMT(표면실장기술, 부품을 기판 표면에 실장하는 방식) 기반의 FPCA 생산과 자동차용 와이퍼 블레이드 생산입니다. SMT사업부문에서는 AMOLED(능동형 유기발광다이오드) 패널 모듈에 부착하는 Main FPCA와 TSP FPCA를 만들고, 와이퍼 사업부문에서는 일반·플랫·하이브리드·후방 와이퍼 블레이드를 생산해 판매합니다. 다만 제공된 자료에는 사업부문별 매출 비율이 없어 비중 수치 없이 서술만 가능합니다.",
+    "main_customers": "SMT 사업부문 — 삼성디스플레이, 삼성전자, 중화권 스마트폰 제조사(화웨이, Oppo, Vivo, Xiaomi 등) / 와이퍼 사업부문 — 애프터마켓(교체 수요) 고객 및 자동차 유리창용 와이퍼 수요처",
+    "price_factors": [
+      {
+        "factor": "OLED 확대",
+        "detail": "스마트폰에서 OLED 패널 적용이 늘수록 FPCA 수요가 증가해 SMT사업부문 매출에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "수주변동",
+        "detail": "전자기기 시장의 신제품 출시와 수급 변동이 빠르면 부품 주문량도 변동해 실적 흐름이 달라질 수 있습니다."
+      },
+      {
+        "factor": "원가경쟁력",
+        "detail": "해외공장 생산 확대를 통한 원가 절감과 물류비 안정화는 매출과 이익 개선에 직접 연결될 수 있습니다."
+      },
+      {
+        "factor": "자동차교체",
+        "detail": "와이퍼 블레이드는 애프터마켓(교체 수요) 비중이 있어 차량 유지보수 수요가 실적에 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 1. 사업의 개요",
+        "evidence_text": "스마트폰에 사용되는 FPCA를 생산 및 판매하는 SMT사업부문과 자동차용 와이퍼 블레이드의 생산 및  판매 사업을 영위"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 1. 사업의 개요",
+        "evidence_text": "당사는 SMT 기술을 이용하여 AMOLED 패널 묘듈에 부착하는 FPCA(Assembly)를 생산"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 1. 사업의 개요",
+        "evidence_text": "당사 와이퍼 블레이드 주요 생산제품은 일반와이퍼 블레이드, 플랫와이퍼 블레이드"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 1. 사업의 개요",
+        "evidence_text": "삼성디스플레이에 납품되어 ... 최종 스마트폰 제조사인 삼성전자 및 중화권 업체"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 3714,
+    "completion_tokens": 840,
+    "reasoning_tokens": 0,
+    "output_tokens": 840
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

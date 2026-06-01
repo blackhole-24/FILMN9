@@ -1,0 +1,87 @@
+{
+  "stock_code": "131180",
+  "corp_name": "딜리",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 09:41",
+  "meta": {
+    "wics": "컴퓨터와주변기기",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "딜리는 잉크젯 원천 기술을 바탕으로 산업용 디지털 인쇄기 및 프린터를 개발·제조하는 디지털 인쇄 솔루션 프로바이더입니다. 수성 잉크젯과 UV 경화 기술을 통해 친환경 고해상도 출력 솔루션을 제공하며, 산업용 디지털 UV 인쇄 시장에서 약 7% 내외의 세계 시장 점유율을 보유하고 있습니다.",
+    "business_model": "FY2025 기준 사업부문별 영업수익 구성은 제품 및 상품 74.4%, 직수출 13.2%, 내수 12.4%로 구성됩니다. 핵심 수익원은 네오 피카소 등 라벨 프레스 제품군과 수성·UV 기반 산업용 장비 판매이며, 소프트웨어 최적화와 AI 알고리즘 고도화로 장비 운용 편의성과 부가가치 창출에 주력하고 있습니다.",
+    "main_customers": "제품 및 상품 — 건축·인테리어·가전 등 산업용 제조업체 / 직수출 — 유럽·미주 등 해외 기업 및 현지 고객 / 내수 — 국내 산업현장 및 제조업체",
+    "price_factors": [
+      {
+        "factor": "기술경쟁력",
+        "detail": "잉크젯 원천기술과 소프트웨어·AI 고도화는 진입장벽으로 작용해 실적 유지에 긍정적으로 작용합니다."
+      },
+      {
+        "factor": "수출환경",
+        "detail": "글로벌 보호무역 기조와 통상 환경 변화는 직수출 비중(13.2%)이 높은 매출에 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "친환경규제",
+        "detail": "휘발성 유기화합물 발생이 없는 UV·수성 기술은 유럽·미주 등 ESG(환경·사회·지배구조) 중심 시장에서 경쟁력으로 작용합니다."
+      },
+      {
+        "factor": "투자심리",
+        "detail": "글로벌 투자 심리 위축 시 고가의 산업용 장비 구매 결정이 지연되어 매출·실적에 부정적 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 업계의 현황",
+        "evidence_text": "디지털 인쇄 솔루션 프로바이더로서"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "약 7% 내외의 세계 시장 점유율"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "제품 및 상품 (74.4%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "직수출 (13.2%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "내수 (12.4%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "(1) 영업개황 및 라벨 프레스 전략",
+        "evidence_text": "라벨 프레스 라인업인 네오 피카소 시리즈"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 업계의 현황",
+        "evidence_text": "건축, 인테리어, 가전 제품 등"
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. 업계의 현황",
+        "evidence_text": "휘발성 유기화합물 발생이 없는 UV 경화 방식"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3839,
+    "completion_tokens": 4308,
+    "reasoning_tokens": 3392,
+    "output_tokens": 916
+  },
+  "warnings": []
+}

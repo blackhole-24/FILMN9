@@ -1,0 +1,66 @@
+{
+  "stock_code": "038060",
+  "corp_name": "루멘스",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 09:58",
+  "meta": {
+    "wics": "디스플레이장비및부품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "루멘스는 전기·전자 업종의 디스플레이장비및부품 기업으로, LED 사업과 LGP(도광판) 사업, 전장사업을 주요 축으로 운영하고 있습니다. 2007년부터 중대형 LCD BLU(백라이트 유닛)용 LED 시장에 참여해 기술을 축적해 왔고, 베트남 현지법인과 중국 현지법인을 활용해 생산과 매출 기반을 넓혀 왔습니다.",
+    "business_model": "사업부문별 영업수익은 LED 모듈외가 104,544로 82.2%, LGP 외가 37,705로 17.5%, 투자수익이 101로 0.1%를 차지합니다. 핵심은 LED 패키지·모듈·광학렌즈·도광판 기술을 바탕으로 한 LED 사업이며, LED TV용 부품 공급과 함께 조명 및 전장용 LED로 적용 범위를 넓히고 있습니다. LGP(도광판) 사업은 BLU(백라이트 유닛) 수요와 연동되는 구조로, LED TV 대형화에 맞춘 생산공정 개선과 원가구조 개선을 진행 중입니다.",
+    "main_customers": "LED 모듈외 — LED TV, 모니터 등 디스플레이 관련 고객사 / LGP 외 — LED TV 관련 고객사 / 전장사업 — 자동차 전장 관련 고객사",
+    "price_factors": [
+      {
+        "factor": "TV수요",
+        "detail": "TV, 모니터 등 글로벌 IT 수요가 약해지면 LED 모듈과 LGP 수요도 함께 둔화되어 실적에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "공급과잉",
+        "detail": "후발업체들의 과도한 설비투자로 공급이 수요를 초과하면 LED 시장 경쟁이 심해져 수익성에 부담이 될 수 있습니다."
+      },
+      {
+        "factor": "원가변동",
+        "detail": "매출원가 상승은 영업이익을 직접 압박하며, 고객사의 단가 인상도 수익성에 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "환율변동",
+        "detail": "EUR, USD, JPY 환율 변동은 수출입 거래와 외환손익에 영향을 주어 순이익 변동성으로 이어질 수 있습니다."
+      },
+      {
+        "factor": "전장확대",
+        "detail": "전장사업은 헤드램프와 주간상시등 제품군을 중심으로 성장 중이라 시장 수요 확대 여부가 실적 방향에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 1. LED 사업 부문",
+        "evidence_text": "당사는 2007년부터 중대형 LCD BLU 용 LED 시장의 도입에 선도적으로 참여"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "LED 모듈외: 104,544 (82.2%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 3. 전장사업부문",
+        "evidence_text": "주요관계사의 영업 및 생산기반에 더불어 중국현지법인의 생산능력을 활용"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4520,
+    "completion_tokens": 818,
+    "reasoning_tokens": 0,
+    "output_tokens": 818
+  },
+  "warnings": []
+}

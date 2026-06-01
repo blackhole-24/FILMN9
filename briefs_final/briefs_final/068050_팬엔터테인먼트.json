@@ -1,0 +1,79 @@
+{
+  "stock_code": "068050",
+  "corp_name": "팬엔터테인먼트",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 13:08",
+  "meta": {
+    "wics": "방송과엔터테인먼트",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "팬엔터테인먼트는 방송영상 콘텐츠 제작을 중심으로 드라마를 기획·제작하여 방송사 및 OTT 플랫폼에 공급하는 콘텐츠 제작 기업입니다. 자회사들을 통해 영화 배급, 음반 제작 및 외식업 등 콘텐츠 연계 부가사업을 영위하고 있습니다.",
+    "business_model": "핵심 사업은 방송프로그램 제작(드라마)이며, 이와 연계된 음반(OST) 제작·공급, 영화 제작·투자·배급, 매니지먼트 및 기타(임대·외식) 사업으로 수익이 구성됩니다. 제작한 방송 콘텐츠는 재방송·해외 판매·OTT 유통 등을 통해 추가 매출(콘텐츠의 장기적 수익화)을 창출합니다.",
+    "main_customers": "방송프로그램 제작 — 방송사·OTT 플랫폼 / 음반 제작·공급 — 음반 유통사·해외 음원 플랫폼 / 영화 제작·배급 — 극장·글로벌 OTT·해외 바이어 / 매니지먼트 — (보고서에 구체적 고객군 미기재) / 외식(팬에프앤비) — (보고서에 구체적 고객군 미기재)",
+    "price_factors": [
+      {
+        "factor": "OTT 투자",
+        "detail": "글로벌 OTT 플랫폼의 투자 전략 변화는 제작 발주 규모와 방식(IP 공동제작·외주 등)에 직접 영향을 미쳐 실적 변동성을 키울 수 있습니다."
+      },
+      {
+        "factor": "제작비 상승",
+        "detail": "콘텐츠 제작비 상승은 제작사(당사)의 원가 부담 증가와 수익성 압박으로 연결될 수 있습니다."
+      },
+      {
+        "factor": "제작인력 확보",
+        "detail": "경쟁 환경에서 경쟁력 있는 작가·감독·출연진 확보 여부가 콘텐츠 흥행과 제작 수주에 중요한 영향을 미칩니다."
+      },
+      {
+        "factor": "IP·해외유통",
+        "detail": "IP(지식재산) 확보 및 글로벌 유통 역량이 해외 판매 및 OTT 유통을 통한 추가 매출 창출에 중요합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "당사는 방송영상 콘텐츠 제작을 중심으로 드라마를 기획 및 제작하여 방송사 및 OTT 플랫폼 등에 공급하는 콘텐츠 제작 기업입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 방송영상물사업",
+        "evidence_text": "방송 콘텐츠는 제작 및 공급 이후에도 재방송, 해외 판매, OTT 서비스 등을 통해 지속적인 매출이 발생하는 특성이 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 방송영상물사업[국 내]",
+        "evidence_text": "당사는 방송사 및 OTT 플랫폼과의 협의를 통해 방송영상물 제작을 진행하고 있으며,"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 경쟁 상황",
+        "evidence_text": "OTT 플랫폼의 콘텐츠 투자 확대에 따라 제작사들은 단순 외주 제작을 넘어 IP 확보, 공동 제작(Co-production), 글로벌 유통 등을 통한 사업 모델 다각화를 추진하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 음반사업",
+        "evidence_text": "당사는 드라마 OST 제작을 중심으로 음반 사업을 영위하고 있으며,"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 영화사업",
+        "evidence_text": "당사는 영화 제작, 투자 및 배급 등 영화 관련 사업을 추진하고 있습니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4462,
+    "completion_tokens": 4737,
+    "reasoning_tokens": 3840,
+    "output_tokens": 897
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

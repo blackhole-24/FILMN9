@@ -1,0 +1,57 @@
+{
+  "stock_code": "490470",
+  "corp_name": "세미파이브",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 21:01",
+  "meta": {
+    "wics": "반도체와반도체장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "세미파이브는 2019년 설립된 시스템반도체 설계서비스 전문기업으로, ‘New Global Hub of Custom Silicon’ 비전 아래 전용(커스텀) 반도체의 설계·개발을 지원하는 Turn‑key(설계부터 생산·후공정까지 일괄 제공) 엔지니어링 서비스를 제공합니다. 2025년 코스닥 상장을 계기로 자산·자본이 크게 증가했습니다.",
+    "business_model": "핵심 수익은 고객 요청에 따른 설계·개발 용역매출(Turn‑key 및 레이아웃 디자인 등)이며, 제품 설계부터 파운드리·후공정 관리까지 전 과정을 B2B(기업 간 거래) 형태로 제공합니다. 공시된 사업부문별 영업수익 구성은 78.0%, 22.0%, 0%(3.0%)로 보고되어 있습니다.",
+    "main_customers": "용역매출 — 팹리스(반도체 설계기업)·AI반도체 스타트업·세트업체(OEM)",
+    "price_factors": [
+      {
+        "factor": "맞춤형 수요",
+        "detail": "생성형 AI·엣지컴퓨팅 확대로 전용(커스텀) 반도체 수요가 증가하면 설계 용역 수주가 확대될 가능성이 큽니다."
+      },
+      {
+        "factor": "설계 병목",
+        "detail": "설계 단계의 비효율성(재설계 반복)은 공급 병목을 유발해 설계서비스 수요·단가에 영향 줄 수 있습니다."
+      },
+      {
+        "factor": "기술경쟁",
+        "detail": "반도체 분야의 지속적 기술 경쟁(미세공정·3D‑IC 등) 수준이 높아지면 선행 R&D 투자와 인력 확보 부담이 커집니다."
+      },
+      {
+        "factor": "수주·프로젝트 집중",
+        "detail": "대형 글로벌 수주나 특정 프로젝트 비중 확대 시 매출·수익 변동성이 커질 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "당사는 시스템 반도체 개발을 위한 종합적인 설계 엔지니어링 서비스를 제공합니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "78% (78.0%)"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5444,
+    "completion_tokens": 3880,
+    "reasoning_tokens": 3264,
+    "output_tokens": 616
+  },
+  "warnings": []
+}

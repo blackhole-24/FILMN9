@@ -1,0 +1,67 @@
+{
+  "stock_code": "017900",
+  "corp_name": "광전자",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 22:12",
+  "meta": {
+    "wics": "전자장비와기기",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "광전자는 Discrete 반도체, 광센서, LED 등 폭넓은 전자부품을 제조하는 기업으로, 한국·중국·일본 네트워크를 기반으로 글로벌 시장에서 성장하고 있습니다. 고성능·저전력 제품을 주력으로 다양한 IT 기기와 신산업 분야의 핵심 소자를 공급하고 있습니다.",
+    "business_model": "FY2025 사업부문별 영업수익은 전자부품제조가 78.7%, FAB가 21.1%, 기타가 0.2%로 구성되어 있습니다. 주력 제품군(Discrete 반도체·광센서·LED)을 중심으로 광센서는 다품종 소량 생산, Discrete 반도체는 효율적 대량생산 체제로 수익을 창출하고 있습니다.",
+    "main_customers": "전자부품제조 — 모바일기기·자동차·디지털가전 및 로봇·전장·의료기기 제조사 / FAB — 반도체 관련 제조업체 / 기타 — 기타 산업 및 고객",
+    "price_factors": [
+      {
+        "factor": "가격변동",
+        "detail": "품목 내 가격대별 매출수량 변화에 따라 평균단가가 변동하여 매출 및 이익에 직접 영향이 발생합니다."
+      },
+      {
+        "factor": "글로벌수요",
+        "detail": "글로벌 반도체 시장 규모 변동은 매출 증가·감소로 직결되며 기업 실적에 중요한 영향을 미칩니다."
+      },
+      {
+        "factor": "통상정책",
+        "detail": "보호무역주의 확산과 통상 질서 재편 등 대외 불확실성은 공급망과 수출입 환경에 영향을 주어 실적 변동 요인이 됩니다."
+      },
+      {
+        "factor": "기술개발",
+        "detail": "차세대 반도체·센서 개발 성과는 제품 경쟁력과 신시장 진입 능력에 영향을 주어 중장기 실적과 기업가치에 의미가 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 전자부품 제조 업체로써"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "전자부품제조: 104,391 (78.7%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "모바일 기기, 자동차, 디지털 가전 등"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "보호무역주의 확산과 통상 질서의 재편"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3661,
+    "completion_tokens": 4093,
+    "reasoning_tokens": 3392,
+    "output_tokens": 701
+  },
+  "warnings": []
+}

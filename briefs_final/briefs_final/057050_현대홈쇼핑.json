@@ -1,0 +1,83 @@
+{
+  "stock_code": "057050",
+  "corp_name": "현대홈쇼핑",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 12:23",
+  "meta": {
+    "wics": "인터넷과카탈로그소매",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "현대홈쇼핑은 TV홈쇼핑과 인터넷쇼핑몰을 주력으로 하는 유통 계열사로, 연결기준으로 다양한 계열사를 거느린 지주회사(2025년 지주회사 전환) 체제로 전환하였습니다. 그룹 내에는 건축자재(현대엘앤씨), 디지털·IT(현대퓨처넷), 의류(한섬) 등 다각화된 사업회사가 포함되어 있습니다.",
+    "business_model": "핵심 사업은 TV홈쇼핑과 인터넷쇼핑몰(현대Hmall)로, 방송·인터넷을 통한 상품 소싱·기획·판매와 물류·고객관리(CRM)를 결합하여 수익을 창출합니다. 25년 연결기준 매출은 3조 7,898억원이며, 보고서상 홈쇼핑업 매출은 1조 899억원(방송판매 5,600억원, 인터넷 판매 3,636억원, 기타 1,663억원)이고 건축자재·의류 등 계열사 매출도 주요 수익원으로 기재되어 있습니다.",
+    "main_customers": "홈쇼핑업 — TV 시청자 및 온라인 소비자 / 인터넷쇼핑몰 — 온라인 소비자 / 건축자재업 — 건설사(특판) 및 개별 리모델링 수요자 / 의류 제조도소매업 — 여성 의류 구매자",
+    "price_factors": [
+      {
+        "factor": "경쟁심화",
+        "detail": "홈쇼핑과 e-커머스 간 경계 붕괴(빅블러)와 기업 간 경쟁 심화는 매출 성장과 마진에 부담을 줄 수 있습니다."
+      },
+      {
+        "factor": "시장성숙",
+        "detail": "TV홈쇼핑 시장의 성숙은 외형 성장 둔화를 초래해 질적 성장(컨텐츠·CRM)에 대한 비중을 높이게 합니다."
+      },
+      {
+        "factor": "온라인경쟁",
+        "detail": "오픈마켓·소셜커머스 등 온라인 채널의 가격경쟁과 시장구조 변화는 인터넷쇼핑 부문의 수익성에 직접 영향을 미칩니다."
+      },
+      {
+        "factor": "규제/승인",
+        "detail": "TV홈쇼핑은 방송채널사용사업자 승인(매 5년 재승인)이 필요해 규제·허가 이슈가 영업에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "디지털전환",
+        "detail": "데이터방송·모바일 개인화(쇼라·쇼핑라이브 등) 확산은 고객유입과 매출 채널 다변화에 중요한 요인입니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "■ 주요 제품 및 서비스",
+        "evidence_text": "당사 (주)현대홈쇼핑은 TV홈쇼핑, 인터넷쇼핑몰 사업을 주로 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 매출 현황",
+        "evidence_text": "25년 계속영업 매출액은 연결기준 3조 7,898억원"
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 매출 현황",
+        "evidence_text": "홈쇼핑업은 1조 899억원"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "다. 시장여건 및 영업의 개황 (1) 산업의 특성",
+        "evidence_text": "TV매체를 통해 상품정보를 시청자에게 제공하고"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나. 관련 법령 또는 정부의 규제 등에 관한 사항",
+        "evidence_text": "매 5년마다 재승인을 받아야 합니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "[경영진 실적·전략 요약 (MD&A)]",
+        "evidence_text": "성숙기로 접어든 홈쇼핑업과 e-커머스 시장 구조의 재개편"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 5729,
+    "completion_tokens": 5140,
+    "reasoning_tokens": 4160,
+    "output_tokens": 980
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

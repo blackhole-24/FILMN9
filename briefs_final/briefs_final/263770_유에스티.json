@@ -1,0 +1,66 @@
+{
+  "stock_code": "263770",
+  "corp_name": "유에스티",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 14:18",
+  "meta": {
+    "wics": "철강",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "유에스티는 스테인리스 강관을 주력으로 생산하는 철강업체로, 국내 스테인리스 강관 시장에서 주요 공급자 위치를 유지하고 있습니다. 품질 강화·설비투자·연구개발을 통해 다양한 규격 제품과 빠른 납기로 고객 대응력을 갖추고 있습니다.",
+    "business_model": "주요 사업은 스테인리스 강관(매출의 93.2%)이 중심이며, 고순도 청정관(3.0%), 임가공(0.9%), 기타(2.9%) 순으로 매출이 구성됩니다. 다품종 소량생산 특성에 대응하기 위해 재고 운용과 전국 6개 영업점, 포항의 3개 공장 등으로 주문 대응력을 확보하고 있습니다.",
+    "main_customers": "스테인리스 강관 — 건설·조선·해양플랜트·석유화학·제지·자동차부품·식음료·반도체·바이오 등 구축물 및 제조설비의 배관용 / 고순도 청정관 — 자료에 구체적 고객군 미제공 / 임가공 — 자료에 구체적 고객군 미제공 / 기타 — 자료에 구체적 고객군 미제공",
+    "price_factors": [
+      {
+        "factor": "원자재(니켈)",
+        "detail": "국제 니켈가격 변동이 제품의 원가와 판매가격에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "수요처 다양성",
+        "detail": "건설·조선·플랜트 등 수요산업이 다양해 경기 변동에 따른 수요 충격이 상대적으로 작습니다."
+      },
+      {
+        "factor": "진입장벽",
+        "detail": "설비투자 및 고객별 인증 필요로 신규업체 진입이 제한되며, 이는 기존업체의 시장지위에 영향합니다."
+      },
+      {
+        "factor": "환율",
+        "detail": "원/달러 환율 변동은 수출입 원가와 해외 매출의 원화 환산에 영향을 줍니다."
+      },
+      {
+        "factor": "친환경 규제",
+        "detail": "친환경 에너지 사용의무 등으로 생산단가가 상승할 경우 수익성에 부담이 될 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "나. 회사의 현황 > (1) 영업개황",
+        "evidence_text": "당사는 국내 스테인리스 강관 시장에서 주요 공급자의 위치를 유지하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "스테인리스 강관: 54,042 (93.2%)"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "국제니켈가격 변동에 영향을 받으며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3476,
+    "completion_tokens": 3614,
+    "reasoning_tokens": 2880,
+    "output_tokens": 734
+  },
+  "warnings": []
+}

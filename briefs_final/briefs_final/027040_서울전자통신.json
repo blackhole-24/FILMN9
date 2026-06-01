@@ -1,0 +1,84 @@
+{
+  "stock_code": "027040",
+  "corp_name": "서울전자통신",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 23:19",
+  "meta": {
+    "wics": "전자장비와기기",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "서울전자통신은 1983년 설립된 전원용 전자부품 제조업체로, 전원 TRANSFORMER 및 SMPS 등 전압변경이 필요한 전원기기용 부품을 주로 생산합니다. 1999년 코스닥에 상장했고, 이후 ODM(Original Development Manufacturing) 분야로 사업을 확장하여 KIOSK 및 노트북 Touch Pad 등 다양한 전자제품도 제조하고 있습니다. 경영진은 2026년 사업연도에 매출 회복과 수익성 향상을 목표로 전 임직원이 노력을 기울이고 있습니다.",
+    "business_model": "핵심 사업은 전원 TRANSFORMER, SMPS(SWITCHING MODE POWER SUPPLY), A/C ADAPTOR, BATTERY CHARGER 등의 제조·판매이며, 제품판매가 주된 수익원입니다. 또한 ODM분야를 통해 KIOSK 및 노트북 Touch Pad 등 전자제품 제작을 병행하여 매출 채널을 다각화하고 있습니다. 전원부품 특성상 안전 규격(인증) 확보가 제품 채택과 수출에 중요한 요소입니다.",
+    "main_customers": "전원사업부문 — 가전업체(오디오·TV·냉장고 등)·통신기기 제조사·산업·의료기기 제조사 / ODM — KIOSK·노트북 관련 제조·유통처",
+    "price_factors": [
+      {
+        "factor": "수요(가전·IT)",
+        "detail": "노트북·휴대통신·디지털카메라 등 관련 기기 수요 변동이 전원부품 수요와 실적에 직접 영향."
+      },
+      {
+        "factor": "안전인증",
+        "detail": "전원부품은 안전 규격 승인이 필요해 인증·신뢰성 문제가 제품 채택과 수출에 직결됨."
+      },
+      {
+        "factor": "경기민감",
+        "detail": "가전제품 수요가 경기변동과 계절성에 민감해 전반적 경기하락 시 매출에 부담이 될 수 있음."
+      },
+      {
+        "factor": "경쟁요소",
+        "detail": "외형상 경쟁이 치열하지만 제품 신뢰성·A/S·커스터마이즈 역량이 경쟁력 차별요인으로 작용함."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "1983년 06월 17일에 설립되었으며"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "1999년 12월 01일 코스닥 시장에 상장"
+      },
+      {
+        "field": "business_model",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "전원 TRANSFORMER 및 SMPS(SWITCHING MODE POWER SUPPLY)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "ODM분야(Original  Development  Manufacturing)로 사업을 확장하여"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 전원사업부문 > 1) 산업의 특성",
+        "evidence_text": "가정용 전자제품(AUDIO, TV, VTR 등)"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 전원사업부문 > 4) 경쟁요소",
+        "evidence_text": "안전규격에 대한 신뢰성과"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 전원사업부문 > 3) 경기변동의 특성",
+        "evidence_text": "일반적인 경기변동과 깊은 관계를 갖고 있습니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 3793,
+    "completion_tokens": 5311,
+    "reasoning_tokens": 4352,
+    "output_tokens": 959
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

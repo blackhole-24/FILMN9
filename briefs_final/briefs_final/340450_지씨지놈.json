@@ -1,0 +1,67 @@
+{
+  "stock_code": "340450",
+  "corp_name": "지씨지놈",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 16:55",
+  "meta": {
+    "wics": "생명과학도구및서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "지씨지놈은 2013년 설립된 임상유전체 분석 전문 기업으로, 개인 유전체 빅데이터를 분석해 질병의 조기 선별·예측과 맞춤형 치료에 활용하는 정밀의료 기업입니다. 국내 상급종합병원 47개 기관을 포함한 약 1,000여 곳의 병·의원에 유전체 서비스를 공급하며 국내외 시장으로 사업을 확장하고 있습니다.",
+    "business_model": "주력 사업은 산과검사, 암검사, 유전희귀질환 검사, 검진(건강검진) 등 4대 검사 서비스로 구성되어 있으며, FY2025 기준 암검사가 37.4%로 매출 비중이 가장 높습니다. 검사 과정은 DNA 추출 후 차세대 염기서열분석(NGS, 차세대 염기서열 분석)으로 염기서열을 얻고 생물정보학(BI)과 인공지능(AI) 기반 분석 및 임상적 판독을 통해 결과지를 병원에 전달하는 방식입니다.",
+    "main_customers": "산과검사 — 산부인과·산모 / 암검사 — 병원·암 환자 / 유전희귀질환 — 병원·희귀질환 환자 / 검진 — 건강검진 대상자·병·의원",
+    "price_factors": [
+      {
+        "factor": "보험적용",
+        "detail": "NGS 패널·염색체 검사 등의 보험 적용 확대는 검사 수요를 늘려 매출에 긍정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "규제신고",
+        "detail": "검사 신고 수리 보류 시 서비스 제공에 제약이 발생해 실적에 부정적 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "시장성장",
+        "detail": "정밀의료·유전체 검사 시장의 빠른 성장(높은 연평균 성장률)은 수혜 요인으로 작용합니다."
+      },
+      {
+        "factor": "품질관리",
+        "detail": "검사실 인증 및 품질관리 역량이 신뢰도와 경쟁력 확보에 직접적인 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "당사는 2013년에 설립된 임상유전체 분석 전문 기업입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "암검사: 11,805 (37.4%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 주요 제품등의 현황",
+        "evidence_text": "병원에서 환자, 건강검진 대상자, 산모의 혈액"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "마. 경쟁 현황",
+        "evidence_text": "임상 유전체 검사 서비스 시장은 일반적으로 과점 구조를 형성하고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5026,
+    "completion_tokens": 3936,
+    "reasoning_tokens": 3200,
+    "output_tokens": 736
+  },
+  "warnings": []
+}

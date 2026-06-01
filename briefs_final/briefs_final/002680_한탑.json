@@ -1,0 +1,71 @@
+{
+  "stock_code": "002680",
+  "corp_name": "한탑",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 18:07",
+  "meta": {
+    "wics": "식품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "한탑(종목코드 002680)은 제분사업과 사료사업을 주력으로 영위하는 식품업체로, 연결기준 매출액 824억원, 영업이익 29억원, 당기순이익 21억원을 기록하였습니다. 국내 제분시장에서는 약 4%대의 시장점유율을 유지하며 안정적인 B2B(기업간 거래) 영업을 이어가고 있습니다.",
+    "business_model": "핵심 사업은 제분사업부와 사료사업부로 구성되며, FY2025 기준 제분사업부가 매출의 99.1%를 차지하고 사료사업부가 0.9%를 차지합니다. 제분제품(예: '해바라기표')과 사료제품(예: '피크앤', '알맥', '알샘')을 브랜드별로 관리하면서 주로 기업 간 거래(B2B)를 통해 제과·제빵·제면업체 등에 공급하는 구조입니다.",
+    "main_customers": "제분사업부 — 대규모 제과·제빵·제면업체 / 사료사업부 — 기업 대상 사료 납품처(거래처 중심)",
+    "price_factors": [
+      {
+        "factor": "원재료가격",
+        "detail": "원재료인 밀을 대부분 수입에 의존하므로 국제곡물가격 변동이 실적에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "환율",
+        "detail": "원재료 도입의 대부분이 수입인 만큼 환율 변동 시 원가와 수익성에 민감하게 작용합니다."
+      },
+      {
+        "factor": "전방수요",
+        "detail": "매출의 상당 부분이 제과·제빵·제면 등 2차 가공업체에 공급되므로 이들 업종의 생산량 변화가 실적에 직결됩니다."
+      },
+      {
+        "factor": "운송비·수출제약",
+        "detail": "부피가 큰 제품 특성상 운송비 부담이 크고 수출물량이 거의 없어 내수 수요에 주로 의존합니다."
+      },
+      {
+        "factor": "시장점유율",
+        "detail": "국내 제분업 경쟁은 소수 업체 중심으로 안정적이나 당사의 약 4%대 점유율은 업황 변화에 따라 실적 변동 요인이 될 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "당사는 제분사업과 사료사업을 주 사업으로 영위하고 있으며,"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "제분사업부: 71,141 (99.1%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "사료사업부: 640 (0.9%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "나. 고객관리 정책",
+        "evidence_text": "대규모의 제과, 제빵 및 제면업체 중심으로 판매활동을 영위하고 있는 당사는"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4010,
+    "completion_tokens": 3684,
+    "reasoning_tokens": 2880,
+    "output_tokens": 804
+  },
+  "warnings": []
+}

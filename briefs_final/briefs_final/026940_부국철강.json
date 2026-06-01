@@ -1,0 +1,72 @@
+{
+  "stock_code": "026940",
+  "corp_name": "부국철강",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 23:17",
+  "meta": {
+    "wics": "철강",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "부국철강은 1976년 법인 설립 이후 POSCO의 지정판매점으로 선정되는 등 제2차 가공업체로서 철강제품의 제조·판매를 주력으로 영위하고 있으며, 광주·전북 익산·전남 순천에 생산공장을 운영하고 있습니다.",
+    "business_model": "핵심 사업은 열연·냉연 등 철강 판재와 강관·성형제품의 제조·판매이며, 주요 설비로 열연·냉연 절단설비 및 강관 제조·성형 설비를 보유하고 있습니다. FY2025 사업부문별 영업수익에서 1차금속제조업이 21.8%를 차지합니다.",
+    "main_customers": "열연·냉연판재 — 자동차 관련업체(기아자동차 포함) / 열연·냉연판재 — 가전업체(삼성전자 광주공장 포함) / 강관·성형제품 — 농협경제지주 및 기타 철강유통업체",
+    "price_factors": [
+      {
+        "factor": "수요산업 경기",
+        "detail": "자동차·가전·건설 등 철강 수요산업 경기 변동에 따라 제품 수요와 실적이 직접 영향을 받습니다."
+      },
+      {
+        "factor": "공급과잉",
+        "detail": "국내외 공급과잉과 저가제품의 유입은 가격 약세로 이어져 실적에 부담을 줄 수 있습니다."
+      },
+      {
+        "factor": "수입저가공세",
+        "detail": "중국·인도 등 후발국의 저가 저품질 제품 유입은 국내 시장 경쟁을 심화시켜 마진 압박 요인이 됩니다."
+      },
+      {
+        "factor": "원재료수급",
+        "detail": "당사는 주요 구매처인 포스코의 원재료 수급정책에 따라 원가와 공급 안정성에 큰 영향을 받습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "주요사업의 내용",
+        "evidence_text": "당사는 철강제품의 제조 및 판매사업을 주요사업으로 영위하는 회사로서"
+      },
+      {
+        "field": "business_model",
+        "source_section": "주요사업의 내용",
+        "evidence_text": "주요설비로는 열연 및 냉연 절단설비 및 강관제조 및 성형제품 제로설비를 보유하고 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "주요사업의 내용",
+        "evidence_text": "주요매출은 기아자동차를 포함한 자동차 관련업체"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "2025년 철강시장은 국내외적으로 공급과잉 현상이 계속되고 있으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "1차금속제조업: 39,247 (21.8%)"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3211,
+    "completion_tokens": 3712,
+    "reasoning_tokens": 2944,
+    "output_tokens": 768
+  },
+  "warnings": []
+}

@@ -1,0 +1,74 @@
+{
+  "stock_code": "365550",
+  "corp_name": "ESR켄달스퀘어리츠",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 17:53",
+  "meta": {
+    "wics": "부동산",
+    "market": "KOSPI",
+    "has_revenue_data": false,
+    "tier": 4,
+    "tier_mode": "best_effort_summary",
+    "corp_type": "reit"
+  },
+  "brief": {
+    "company_overview": "ESR켄달스퀘어리츠는 2020년 '부동산투자회사법'에 따라 설립된 위탁관리형 리츠로, 2020년 12월 23일 한국거래소 유가증권시장에 상장되었습니다. 본점은 서울 영등포구 여의도에 위치하며(사무실 주소가 사업보고서에 기재됨), 부동산 자산을 투자·운용하여 그 수익을 주주에게 배당하는 구조입니다.",
+    "business_model": "단일 사업으로서 부동산의 취득·관리·개량·처분 및 임대차와 집합투자증권·지분증권 등의 투자를 통해 자산을 운용합니다. 현재 이에스알켄달스퀘어에셋1·2·3호 등의 지분증권 및 부동산투자신탁 수익증권에 투자하고, 발생하는 임대수익·배당수익을 재원으로 주주에게 배당합니다.",
+    "main_customers": "부동산임대 — 임차인(법인 및 개인) / 투자운용 — 주주 및 투자자",
+    "price_factors": [
+      {
+        "factor": "규제·제도",
+        "detail": "퇴직연금·연금저축 등 제도 변경으로 공모상장 리츠에 대한 투자 허용 범위가 확대되어 시장 규모와 수요에 영향."
+      },
+      {
+        "factor": "상장리츠 시장",
+        "detail": "2018년 이후 공모상장 리츠가 본격 출시되며 일반투자자 참여가 확대되는 추세가 회사의 자금조달 및 투자자 구성에 영향을 미침."
+      },
+      {
+        "factor": "금리(대출비용)",
+        "detail": "회사 보유 한도대출과 변동금리 대출이 존재하므로 시장금리 변동 시 이자비용과 현금흐름에 직접적 영향."
+      },
+      {
+        "factor": "임대수익",
+        "detail": "임대수익 및 배당수익이 주주배당의 재원인 만큼 임대료 수준 및 공실률 변동이 실적과 배당에 직접적 영향."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "나. 회사의 현황 (1) 영업개황",
+        "evidence_text": "당사는 2020년 12월 23일 한국거래소 유가증권 시장에 상장되었습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "나. 회사의 현황 (1) 영업개황",
+        "evidence_text": "당사는 현재 부동산업의 단일사업을 영위하고 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "나. 회사의 현황 (1) 영업개황",
+        "evidence_text": "임대수익 및 배당수익"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 업계의 현황 (2) 리츠 산업의 성장성",
+        "evidence_text": "공모상장 리츠가 본격적으로 출시 되기 시작하여 일반 국민의 리츠투자 기회가 계속 확대될 것으로 기대하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나. 회사의 현황 (1) 영업개황 (대출약정)",
+        "evidence_text": "한도대출 20,000,000,000원금리: 연 3.8%(고정금리)"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 6452,
+    "completion_tokens": 4641,
+    "reasoning_tokens": 3776,
+    "output_tokens": 865
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

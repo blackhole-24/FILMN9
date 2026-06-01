@@ -1,0 +1,76 @@
+{
+  "stock_code": "221840",
+  "corp_name": "하이즈항공",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:28",
+  "meta": {
+    "wics": "우주항공과국방",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "하이즈항공은 항공기 기체구조물인 주익과 후방동체 부품의 조립·가공을 전문으로 하는 항공기 종합 부품기업입니다. B787, B737, B767 등 보잉(Boeing) 기종 부품을 주력으로 생산하며, 각 프로그램에서 Tier 1~3(공급망 단계) 형태로 부품을 생산·인도하고 있습니다.",
+    "business_model": "매출은 조립사업부와 부품사업부, 기타매출로 구성되며, 2025년도 개별 재무제표 기준 4분기에는 조립사업부 182억원, 부품사업부 382억원, 기타매출 43백만원이었습니다. 사업부문별 매출 구성에서는 조립 부문이 B787 Sec.11 Center Wing Box 10.87%, B787 Sec.15 Fixed Trailing Edge 6.85%, B767 Sec.48 AFT Body Tail cone 3.58%, B737 FTE Assembly 4.37%로 나타나며, 부품 부문은 B787 Ti Foil 등 38.87%, B737 MAX Chord 13.99%를 차지합니다. 기계가공, 판금성형, 표면처리, 조립을 한 번에 수행하는 ONE STOP SERVICE(일괄 생산 체계)와 복합재 가공 역량이 핵심 수익 구조입니다.",
+    "main_customers": "조립사업부 — Boeing 관련 프로그램 고객 / 부품사업부 — Boeing, ACM, COMAC, BTC / 국내 고객 — 한국항공우주(KAI), 대한항공(KAL)",
+    "price_factors": [
+      {
+        "factor": "항공기발주",
+        "detail": "보잉기종 문제 해소와 항공기 제작 수요 회복은 부품 발주 증가로 이어져 실적에 직접 영향을 줍니다."
+      },
+      {
+        "factor": "여행수요",
+        "detail": "세계 여행객 수가 늘면 항공운항 확대와 항공기 조달이 늘어 부품 수요가 함께 증가할 수 있습니다."
+      },
+      {
+        "factor": "공급망",
+        "detail": "항공산업은 공급망 불안정에 민감해 고객 발주와 납품 일정이 흔들리면 매출과 생산 계획에 영향을 받습니다."
+      },
+      {
+        "factor": "단일공급",
+        "detail": "Sole source(단일 공급자)와 Dual source(이중 공급자) 품목 비중은 장기 물량 안정성과 수주 경쟁 구조에 영향을 줍니다."
+      },
+      {
+        "factor": "정부정책",
+        "detail": "우주항공청(KASA) 설립과 같은 정책 지원은 국내 항공·우주 산업의 연구개발과 제조역량 확대에 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "항공기 기체구조물(주익) 및 후방동체의 부품을 조립/가공을 전문으로 하는 항공기 종합 부품기업입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "조립 | B787 Sec.11 Center Wing Box | 6,133 (10.87%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "부품 | B787 Ti Foil, Fesher Wing to Body FairingMetal,Wing Spar Rib Post 등 | 21,920 (38.87%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "대표 고객사로는 보잉(Boeing-BCA, BDS, BGS 모두 포함), ACM..."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "보잉기종의 문제가 해결됨에 따라 항공기제작사들의 발주가 팬데믹 이전의 수준으로 빠르게 회복"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5294,
+    "completion_tokens": 1005,
+    "reasoning_tokens": 0,
+    "output_tokens": 1005
+  },
+  "warnings": []
+}

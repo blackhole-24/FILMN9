@@ -1,0 +1,66 @@
+{
+  "stock_code": "034730",
+  "corp_name": "SK",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 00:09",
+  "meta": {
+    "wics": "석유와가스",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "SK주식회사는 1991년 최초 설립된 후 2015년 구 SK주식회사를 흡수합병하며 현재의 사명으로 변경된 SK그룹의 지주회사입니다. 투자포트폴리오 관리(투자부문)와 AI/Digital 기반의 종합 IT 서비스(사업부문)를 양대 축으로 운영하며, 2025년 별도 기준 영업수익은 3조 6,123억원입니다.",
+    "business_model": "사업부문별로 2025년 영업수익은 투자부문 24.0%와 사업부문 76.0%로 구성되어 있으며, 투자부문은 종속회사 지분을 통해 배당수익과 브랜드 사용수익 등이 주요 수익원입니다. 사업부문은 시스템 통합(SI), IT아웃소싱(ITO), Agentic AI, Digital Factory, Multi-Cloud 등 기업 대상 디지털 전환(디지털 트랜스포메이션) 서비스 제공이 핵심 수익원입니다.",
+    "main_customers": "투자부문 — 종속회사 및 기타 투자회사 / 사업부문 — 기업 고객(ERP·CRM·MIS 등 시스템 도입 수요 기업) 및 제조업(반도체·배터리·에너지·화학 공정) 관련 고객",
+    "price_factors": [
+      {
+        "factor": "재생에너지",
+        "detail": "RE100 가입 및 Net Zero 목표에 따른 재생에너지 전환비중 변화는 ESG 평가와 에너지 비용 구조에 영향을 미쳐 실적·주가에 반영될 수 있습니다."
+      },
+      {
+        "factor": "데이터센터",
+        "detail": "데이터센터 전력 사용 비중이 높아 에너지 효율화 투자·전력비 변화가 사업부문 원가와 수익성에 직접적 영향을 줍니다."
+      },
+      {
+        "factor": "부채비율제한",
+        "detail": "지주회사 제도로서 부채비율 규제(부채비율 200% 이내)는 자본조달과 배당·투자 정책에 제약을 주어 재무전략에 영향을 미칩니다."
+      },
+      {
+        "factor": "포트폴리오",
+        "detail": "Portfolio Rebalancing(투자·매각 등)과 자회사 구조조정은 투자부문의 수익원 구성과 현금흐름을 변화시킵니다."
+      },
+      {
+        "factor": "지정학리스크",
+        "detail": "글로벌 지정학적·국내 정세 불안은 투자자산 가치와 자회사 실적의 변동성 확대를 통해 실적·주가에 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "SK주식회사(이하 \"당사\")는 1991년 최초 설립 이후, 2015년 8월 1일을 기준일로 舊 SK주식회사를 흡수합병하며 사명을 에스케이씨앤씨 주식회사에서 SK주식회사로 변경하였습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "2025년 별도 재무제표 기준 영업수익은 3조 6,123억원이며, 투자부문의 영업수익은 8,656억원(24.0%), 사업부문의 영업수익은 2조 7,467억원(76.0%)입니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "투자부문의 영업수익은 종속회사 및 기타 투자회사로부터 수취하는 배당수익, 브랜드 사용수익에 기반하고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5883,
+    "completion_tokens": 4958,
+    "reasoning_tokens": 4032,
+    "output_tokens": 926
+  },
+  "warnings": []
+}

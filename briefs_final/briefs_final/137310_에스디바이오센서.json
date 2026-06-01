@@ -1,0 +1,101 @@
+{
+  "stock_code": "137310",
+  "corp_name": "에스디바이오센서",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 09:53",
+  "meta": {
+    "wics": "건강관리장비와용품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "에스디바이오센서는 체외진단(IVD) 의료기기와 시약을 기반으로 감염병 및 만성질환 진단 수요에 대응하는 기업입니다. 면역·분자·임상화학 등 다양한 기술 플랫폼을 결합한 포트폴리오와 WHO PQ, CE-IVD/IVDR, FDA 등 글로벌 인증을 바탕으로 병원·공공조달 시장에서 경쟁력을 확보하고 있습니다.",
+    "business_model": "주요 수익원은 장비 기반의 진단 제품군과 반복성 시약(소모품) 매출이며, 사업부문별로 제품 19.8%, 분자진단 2.7%, 자가혈당측정 12.5%, 기타 제품 41.6%, 기타(상품·용역) 23.4%로 구성되어 있습니다. 장비 설치 후 시약·소모품의 반복 사용으로 매출 가시성이 높고 검사 메뉴 확장 시 장비 교체 없이 추가 매출이 가능한 확장성을 보유하고 있습니다.",
+    "main_customers": "제품 — 중·대형 병원 검사실·병·의원·공공검진 및 연구기관·신흥국 공공조달 / 분자진단 — 의료기관·전문검진센터 / 자가혈당측정 — 의료기관·전문검진센터 / 기타 제품 — 의료기관·검사실 / 기타 (상품, 용역 등) — 공공조달·의료기관",
+    "price_factors": [
+      {
+        "factor": "인허가(규제)",
+        "detail": "의료기기 인증·임상평가·보험 등재에 수개월에서 수년이 소요되어 신제품 출시와 매출화에 직접적인 영향이 있습니다."
+      },
+      {
+        "factor": "반복매출",
+        "detail": "장비 설치 이후 시약·소모품의 반복 구매 구조는 매출 안정성과 가시성에 긍정적 영향을 줍니다."
+      },
+      {
+        "factor": "공공조달",
+        "detail": "WHO·Global Fund·UNICEF 등 국제 공공조달 채널에서의 경쟁력은 해외 수요 및 매출에 영향을 미칩니다."
+      },
+      {
+        "factor": "시장신뢰성",
+        "detail": "의료기관이 신뢰성을 중시해 오랜 기간 신뢰를 쌓은 업체들이 우위를 점하는 경쟁구도로 실적 변동에 영향을 줍니다."
+      },
+      {
+        "factor": "검사환경변화",
+        "detail": "POCT(현장진단) 및 현장 분자진단 확대로 고부가 영역 수요 확대가 실적에 영향을 미칠 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "체외진단(IVD) 의료기기 및 시약을 기반으로 감염병과 만성질환 진단 수요에 대응하는 사업을 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "제품: 140,395 (19.8%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "분자진단: 19,278 (2.7%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "자가혈당측정: 88,654 (12.5%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "기타 제품: 295,985 (41.6%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "기타 (상품, 용역 등): 166,269 (23.4%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "2. 주요 제품에 대한 내용(1) 면역진단(면역화학/면역반응) 제품군",
+        "evidence_text": "주로 중·대형 병원 민 전문 검사실을 대상으로 한 정량 면역진단 자동화 시스템입니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "2. 주요 제품에 대한 내용(1) 면역진단(면역화학/면역반응) 제품군",
+        "evidence_text": "공공검진, 대규모 스크리닝 및 연구기관을 주요 대상으로 공급되고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "제품 등록 절차 및 소요 기간, 비용 등 역시 신규 진입 업체들에게 진입장벽으로 작용한다고 업계는 판단하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "장비 설치 이후 시약·소모품이 반복적으로 사용되는 비즈니스 모델을 통해 매출 가시성을 높이고,"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4539,
+    "completion_tokens": 5345,
+    "reasoning_tokens": 4096,
+    "output_tokens": 1249
+  },
+  "warnings": []
+}

@@ -1,0 +1,73 @@
+{
+  "stock_code": "090410",
+  "corp_name": "덕신이피씨",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 07:02",
+  "meta": {
+    "wics": "건축자재",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "덕신이피씨는 1990년에 설립되어 데크플레이트(건축용 바닥 거푸집재)의 생산 및 시공을 주요사업으로 하는 코스닥 상장법인입니다. 일체형 데크플레이트를 중심으로 건설 현장에 자재를 공급하는 전문 기업입니다.",
+    "business_model": "핵심 제품은 일체형 데크플레이트(스피드데크 등), 탈형 데크플레이트(에코데크), 단열 일체형 데크플레이트(인슈데크), 그리고 폼데크 및 기타 부자재로 구성됩니다. 매출의 대부분이 일체형 데크플레이트에서 발생하며(주문생산형 제품), 연구개발비를 투입하여 기술·품질 개선과 관련 특허(국내 및 국제)를 확보하고 있습니다.",
+    "main_customers": "일체형 데크플레이트 — 건축 시공사(일반건물·대형고층건물·교량 시공업체) / 폼데크·기타 부자재 — 건설현장 및 중소형 건설사",
+    "price_factors": [
+      {
+        "factor": "시장성장",
+        "detail": "연평균 성장률 확대(제공 데이터: 연평균 10% 신장)는 전체 수요 증가로 매출 확대에 긍정적 영향을 미칩니다."
+      },
+      {
+        "factor": "고층화 트렌드",
+        "detail": "신축건물의 고층화 및 공기 단축 수요 확대는 일체형 데크플레이트 채용 확대를 촉진해 수주에 유리하게 작용합니다."
+      },
+      {
+        "factor": "수주·주문생산 특성",
+        "detail": "설계 확정 후 주문생산하는 구조로 발주 지연이나 설계 변경은 생산·매출 시점에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "계절·기후 요인",
+        "detail": "혹한기·강우 등 기후 영향으로 납품 및 시공 지연이 발생할 수 있어 실적 변동 요인이 됩니다."
+      },
+      {
+        "factor": "경쟁구도",
+        "detail": "약 8개 업체가 경쟁하는 시장구조는 가격·수주 경쟁에 따른 수익성 변화 요인이 됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 1990년 11월 10일에 설립되어"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 2. 주요 제품 및 서비스",
+        "evidence_text": "매출의 대부분은 일체형 데크플레이트 제품이 차지하고 있으며"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용",
+        "evidence_text": "일반건물, 대형고층건물, 교량 등의 시공 시"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "연평균 10%가 신장해 왔습니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 5032,
+    "completion_tokens": 4120,
+    "reasoning_tokens": 3328,
+    "output_tokens": 792
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

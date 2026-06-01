@@ -1,0 +1,62 @@
+{
+  "stock_code": "389260",
+  "corp_name": "대명에너지",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 18:41",
+  "meta": {
+    "wics": "에너지장비및서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "대명에너지는 태양광·풍력을 중심으로 신·재생에너지 사업의 개발부터 설계, 조달, 시공 및 운영관리까지 전 단계를 직접 수행하는 기업입니다. 독자적인 EPCM(설계·조달·시공관리) 역량과 ESS(에너지저장시스템)·에너지관리시스템을 바탕으로 신재생에너지 분야 경쟁력을 확보하고 있습니다.",
+    "business_model": "사업부문별로 EPC가 매출의 75.7%로 가장 큰 비중을 차지하고, 발전 20.1%, O&M 서비스 3.2%, 기타 1.1%로 구성되어 있습니다 (FY2025 기준). 개발단계에서는 사전개발 용역과 EPC공사를 수행하고, 운영단계에서는 O&M과 발전(전력 판매)을 통해 수익을 창출합니다.",
+    "main_customers": "발전 — 전력 구매자(전력 판매 계약 상대방, 예: RPS 의무공급자) / O&M 서비스 — 발전소 소유주·운영사 / EPC — 발전소 건설 발주처(개발사·사업주) / 기타 — 관련 용역·서비스 제공처",
+    "price_factors": [
+      {
+        "factor": "규제·인허가",
+        "detail": "건설 인허가와 관련 법률(국토계획법, 건축법, 산지관리법 등)이 프로젝트 착수와 공정에 직접적 영향을 줍니다."
+      },
+      {
+        "factor": "정부정책",
+        "detail": "2050 탄소중립 및 전력수급기본계획상의 재생에너지 확대 정책이 중장기 발전량과 수요 환경을 좌우합니다."
+      },
+      {
+        "factor": "기상변동",
+        "detail": "발전량은 매년 기상 상황에 따라 변동하므로 태양광·풍력의 출력 변동이 실적에 직접 영향을 미칩니다."
+      },
+      {
+        "factor": "공사비·자재",
+        "detail": "공사별 설계 물량과 기자재 사양에 따라 공사비가 결정되어 EPC 수익성 변동성이 존재합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "[DART 사업보고서 — 영업 현황]",
+        "evidence_text": "사업개발부터 설계, 조달, 시공 및 운영관리까지 전 단계를 직접 수행하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "EPC: 99,113,658 (75.7%)"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나. 주요 제품 및 서비스의 가격 변동 추이",
+        "evidence_text": "RPS 의무공급자와 SMP+REC 단가에 대하여 20년 장기 단가계약"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4222,
+    "completion_tokens": 4162,
+    "reasoning_tokens": 3456,
+    "output_tokens": 706
+  },
+  "warnings": []
+}

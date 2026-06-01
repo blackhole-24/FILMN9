@@ -1,0 +1,62 @@
+{
+  "stock_code": "024850",
+  "corp_name": "HLB이노베이션",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 22:57",
+  "meta": {
+    "wics": "반도체와반도체장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "HLB이노베이션은 리드프레임(LEAD FRAME)을 중심으로 반도체 부품 토탈 솔루션을 제공하는 기업입니다. 1978년 설립 이후 전장·산업용 부품과 테스트 소켓 부품을 공급하며 글로벌 거래처를 확보해 왔습니다.",
+    "business_model": "주요 수익원은 반도체용 리드프레임(일반용·프리몰드·파워모듈용)과 테스트용 컨택핀(컨택핀은 테스트 소켓 부품) 생산·판매입니다. 사업부문별 영업수익 구성은 원화 49.0%와 외화 51.0%입니다.",
+    "main_customers": "리드프레임 — 국내외 주요 반도체 제조 및 패키징 전문 업체 / 컨택핀 — 반도체 조립 및 테스트용 소켓 생산 고객사",
+    "price_factors": [
+      {
+        "factor": "전기차 수요",
+        "detail": "전기차 확산은 메탈 리드프레임 등 제품 수요에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "AI·자율주행",
+        "detail": "AI 기술 확산과 자율주행 성장에 따라 센서·테스트 소켓 등 제품 수요가 변동할 수 있습니다."
+      },
+      {
+        "factor": "친환경 수요",
+        "detail": "친환경·고효율 제품 개발 흐름은 파워모듈용 리드프레임 수요에 영향을 줍니다."
+      },
+      {
+        "factor": "외화비중",
+        "detail": "매출의 외화 비중(51.0%)은 환율 변동이 실적 변동성에 영향을 미칠 수 있음을 시사합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "1992년 QFP 100PIN을 국내 최초로 개발해 기술력을 입증하였으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "원화 (49.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가-1. 리드프레임(LEAD FRAME) 사업 (1) 일반용 리드프레임",
+        "evidence_text": "국내외 주요 반도체 제조 및 패키징 전문 업체와 활발히 거래하고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3338,
+    "completion_tokens": 4578,
+    "reasoning_tokens": 3968,
+    "output_tokens": 610
+  },
+  "warnings": []
+}

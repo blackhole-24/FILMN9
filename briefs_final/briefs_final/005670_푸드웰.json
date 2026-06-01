@@ -1,0 +1,77 @@
+{
+  "stock_code": "005670",
+  "corp_name": "푸드웰",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 13:02",
+  "meta": {
+    "wics": "식품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "푸드웰은 음식료품의 제조·도소매 및 수출입을 영위하는 기업으로, 시럽류·음료류·밤 제품 등을 주요 제품군으로 하고 있습니다. 제59기 연결 매출액은 320,328백만원으로 전년 대비 증가한 실적을 보였습니다.",
+    "business_model": "제조 중심의 식품회사로 주요 제품별 매출 비중은 만두류 19.5%, 건강식품 및 건강기능식품 19.2%, 잼/시럽류 19.1%, 냉동품/퓨레 13.4%, 음료류 6.2%, 가정간편식 4.7%, 음료베이스 4.3%, 통조림류 3.5%, 기타 10.1%를 차지합니다(합계 100.0%). 시럽·음료류는 주로 1차 원료 가공·대기업의 OEM(주문자상표부착생산) 방식으로 생산하며, 밤제품은 국내산 밤을 수매해 제조·가공 후 일본 등지로 수출합니다.",
+    "main_customers": "시럽·음료 — 대기업(OEM 방식) / 밤제품 — 일본 등 수출시장 / 냉동만두·냉동식품·HMR(가정간편식) — 국내 도·소매 및 해외현지 판매처",
+    "price_factors": [
+      {
+        "factor": "원재료(작황)",
+        "detail": "주요 원재료가 농산물인 만큼 작황 및 수매상황 변화가 원가와 실적에 직접적으로 영향을 줍니다."
+      },
+      {
+        "factor": "내수 수요",
+        "detail": "식음료는 내수 비중이 크고 생필품 성격이 있어 경기변동에 따른 판매량 변동이 실적에 영향을 미칩니다."
+      },
+      {
+        "factor": "수출·환율",
+        "detail": "밤제품 등 수출 품목은 일본 경기와 환율 변화에 민감해 수출 실적과 수익성에 영향을 줍니다."
+      },
+      {
+        "factor": "규제·안전",
+        "detail": "식품안전·위생 관련 감독이 강화되면 품질관리 비용 및 준수 부담이 증가할 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 회사의 현황 (1) 영업개황",
+        "evidence_text": "당사는 음식료품의 제조 및 도소매, 수출입을 영위하는 기업으로서"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "320,328(100.0)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 회사의 현황 (1) 영업개황",
+        "evidence_text": "대기업의 OEM방식으로 제품을 생산하고 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 회사의 현황 (1) 영업개황",
+        "evidence_text": "밤제품의 경우 국내산의 밤을 수매하여 제조,가공후 일본등지로 수출하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 업계의 현황 (3) 자원조달의 특성",
+        "evidence_text": "농산물의 작황 및 수매상황에 민감합니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 업계의 현황 (4) 관련 법령 또는 정부의 규제 및 지원",
+        "evidence_text": "감시감독이 더욱 강화되고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5223,
+    "completion_tokens": 4872,
+    "reasoning_tokens": 3968,
+    "output_tokens": 904
+  },
+  "warnings": []
+}

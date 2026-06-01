@@ -1,0 +1,69 @@
+{
+  "stock_code": "373220",
+  "corp_name": "LG에너지솔루션",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 12:29",
+  "meta": {
+    "wics": "전기제품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "LG에너지솔루션은 배터리 기술 개발을 핵심 전략으로 삼아 EV(전기차), ESS(에너지저장장치), IT기기 등 다양한 용도의 전지를 연구·개발·제조·판매하는 글로벌 기업입니다. 미국·폴란드·중국 등 주요 거점에 생산·판매·R&D 네트워크를 구축하고 있으며, 연결 기준 2025년 누계 매출 약 23조 6,718억원과 연결 영업이익 약 1조 3,461억원을 기록하였습니다.",
+    "business_model": "에너지솔루션 단일 사업부문으로 배터리 셀과 관련 솔루션을 공급하는 것이 핵심이며, 제품 적용처는 EV, ESS, IT기기, 전동공구, LEV 등입니다. 제품은 국내 공장 및 해외 생산법인에서 생산되며 본사 및 해외 생산법인(또는 해외 판매법인)을 통해 판매되고, 매출 대부분은 본사 및 해외 생산법인 직접 판매로 발생하고 있습니다.",
+    "main_customers": "EV용 배터리 — 전기차(전동차) 시장 / ESS — 신재생에너지 보급처 및 전력수요 기업(데이터센터·대형사업자 등) / IT기기 — IT기기 제조사 / 전동공구·LEV — 관련 제조사 및 경량 전동 이동수단 시장",
+    "price_factors": [
+      {
+        "factor": "환율",
+        "detail": "해외 매출·원화 환산과 해외 사업장의 환노출이 있어 달러화 등 환율 변동이 실적에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "수요(시장)",
+        "detail": "EV·ESS 등 최종 수요 산업의 성장세(전기차 보급, 신재생 확대 등)에 따라 배터리 수요와 매출이 변동합니다."
+      },
+      {
+        "factor": "기술경쟁력",
+        "detail": "에너지 밀도·안전성 등 기술 수준과 신제품 개발 속도가 경쟁력 및 수익성에 직결됩니다."
+      },
+      {
+        "factor": "설비투자",
+        "detail": "대규모 생산능력(공장·생산법인) 확보에 따른 규모의 경제 및 가동률이 원가와 실적에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "에너지솔루션 단일 사업부문으로 구성되어 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "매출 대부분은 본사 및 해외 생산법인 직접 판매로 발생하고 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "EV(Electric Vehicle), ESS(Energy Storage System), IT기기, 전동공구, LEV(Light Electric Vehicle)"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "연결회사는 국제적으로 영업활동을 영위하고 있어 외환위험, 특히 미국 달러화와 관련된 환율변동위험에 노출되어 있습니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4886,
+    "completion_tokens": 4402,
+    "reasoning_tokens": 3584,
+    "output_tokens": 818
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

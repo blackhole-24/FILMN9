@@ -1,0 +1,67 @@
+{
+  "stock_code": "109610",
+  "corp_name": "에스와이",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 08:38",
+  "meta": {
+    "wics": "건축자재",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "에스와이는 조립식 샌드위치패널 제조·판매를 주사업으로 하는 건축자재(패널) 전문기업으로, 국내외에 생산·유통망을 보유하며 패널시장에서 독보적 1위 지위를 확보하고 있습니다. 국내 12개, 해외 5개 사업장을 기반으로 한 대규모 생산라인과 수직계열화 구조를 통해 시장점유율을 확대해 왔습니다.",
+    "business_model": "핵심 사업은 샌드위치패널 제품군(난연EPS, G/W, 우레탄, EPS) 제조·판매이며, 사업부문별 매출 비중은 G/W 패널 23.1%, 우레탄 패널 6.9%, 난연EPS 패널 2.4%, EPS 패널 1.7%입니다. 또한 CCL(컬러강판) 설비투자 등 수직계열화를 통해 원재료(컬러강판)를 직접 생산하며 원가경쟁력과 제품대응력을 확보하고 있습니다.",
+    "main_customers": "난연EPS 패널 — 공장·창고·대형매장·병원·학교·주거용 건축 / G/W 패널 — 공장·창고·대형매장·병원·학교·주거용 건축 / 우레탄 패널 — 공장·창고·대형매장·병원·학교·주거용 건축 / EPS 패널 — 공장·창고·대형매장·병원·학교·주거용 건축",
+    "price_factors": [
+      {
+        "factor": "단열규제 강화",
+        "detail": "정부의 단열기준 강화는 고성능 단열재 수요를 확대해 해당 제품의 매출과 시장성장에 직접 영향을 미칩니다."
+      },
+      {
+        "factor": "화재안전 규제",
+        "detail": "화재안전 기준 강화로 EPS 수요가 감소하고 난연·무기질·우레탄계 제품 수요가 증가하여 제품믹스와 수익성에 영향을 줍니다."
+      },
+      {
+        "factor": "제품믹스 전환",
+        "detail": "저성능 EPS에서 우레탄·그라스울 등 고기능 제품으로의 수요 전환은 평균판매단가(ASP)와 마진구조 변화를 초래합니다."
+      },
+      {
+        "factor": "수직계열화 원가",
+        "detail": "컬러강판(CCL) 자체생산 등 수직계열화는 원가경쟁력 확보로 실적에 긍정적 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 조립식 샌드위치패널 제조 및 판매를 주요사업으로 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "높은 시장점유율을 갖춘 독보적 1위 기업입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[표] 가. 주요 제품 등의 현황",
+        "evidence_text": "G/W 패널 | 115,751(23.1%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황 > 가. 산업의 특성",
+        "evidence_text": "공장, 창고에 주로 쓰였으나 지금은 대형매장, 병원, 학교"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4995,
+    "completion_tokens": 3687,
+    "reasoning_tokens": 2816,
+    "output_tokens": 871
+  },
+  "warnings": []
+}

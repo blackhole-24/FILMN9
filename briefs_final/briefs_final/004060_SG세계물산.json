@@ -1,0 +1,91 @@
+{
+  "stock_code": "004060",
+  "corp_name": "SG세계물산",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 18:42",
+  "meta": {
+    "wics": "섬유,의류,신발,호화품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "SG세계물산은 유통업·섬유·의류 부문을 영위하는 기업으로, 의류수출과 자체 패션 브랜드 사업을 주요 축으로 하고 있습니다. 의류수출은 주로 미국 대형 바이어 대상 OEM(주문자상표부착방식)으로 공급하며, 베트남 본공장(종속회사 SSV) 및 협력공장을 통해 우븐 의류를 생산합니다.",
+    "business_model": "FY2025 기준 사업부문별 영업수익은 의류수출 16.9%(22,354), 패션사업 60.8%(80,498), 기타 1.4%(1,843)로 구성되어 있습니다. 의류수출은 OEM 방식으로 미국 대형 바이어에 공급하는 것이 핵심 수익원이고, 패션사업은 BASSO·ab.f.z 등 자체 브랜드를 백화점·아울렛·대리점과 명품 피혁류는 백화점의 해외수입관·명품관을 통해 판매하여 수익을 창출합니다.",
+    "main_customers": "의류수출 — 미국 대형 바이어(GAP그룹, MACY'S) / 패션사업 — 국내 백화점·아울렛·대리점 및 백화점 내 해외수입관·명품관(콜롬보 판매처) / 기타 — 부동산 임대를 통한 임대수익",
+    "price_factors": [
+      {
+        "factor": "미국 경기",
+        "detail": "의류수출은 주요 수출시장인 미국의 경기와 소비 심리에 중대한 영향을 받아 매출 변동성이 큽니다."
+      },
+      {
+        "factor": "관세·통상",
+        "detail": "미국의 관세 인상 등 통상 환경 악화는 의류수출부문의 원가 부담을 증가시켜 수익성에 부정적 영향을 미칩니다."
+      },
+      {
+        "factor": "OEM 경쟁",
+        "detail": "OEM은 진입장벽이 높지 않아 경쟁이 치열하며, 규모의 경제와 납기·품질 경쟁력이 실적에 중요합니다."
+      },
+      {
+        "factor": "유통 효율",
+        "detail": "유통망 정리와 탄력적 원가 관리는 패션사업의 수익성 개선에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "명품 수요",
+        "detail": "명품 피혁류 사업은 소비 양극화와 명품 시장 부진 시 수요 위축으로 실적 악화가 나타납니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "의류수출부문은 주로 OEM 방식으로"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "베트남 본공장(종속회사 SSV) 및 협력공장을 통해 우븐(WOVEN)의류를 생산하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "의류수출부문의 매출 비중은 37.8%입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "패션사업부문의 매출 비중은 60.8%입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "연결회사의 매출액 대비 매출 비중은 1.4%입니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "GAP그룹(GAP,BANANA REPUBLIC), MACY'S 등 주로 미국 대형 바이어에"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "원가 부담을 가중시켜 적자 폭이 확대되는 결과로 이어졌습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "철저한 비효율 유통망 정리와 탄력적인 원가 관리를 통해"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4309,
+    "completion_tokens": 5456,
+    "reasoning_tokens": 4352,
+    "output_tokens": 1104
+  },
+  "warnings": []
+}

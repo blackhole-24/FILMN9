@@ -1,0 +1,72 @@
+{
+  "stock_code": "192440",
+  "corp_name": "슈피겐코리아",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 11:21",
+  "meta": {
+    "wics": "핸드셋",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "슈피겐코리아는 온라인 세일즈 역량을 바탕으로 아마존 등 글로벌 온라인 채널을 통해 스마트폰 액세서리 사업을 영위하는 기업입니다. 스마트폰 케이스·보호필름·기타 모바일 액세서리를 주력으로 하며 글로벌 브랜드 파워를 기반으로 다수 국가에서 판매를 확대하고 있습니다.",
+    "business_model": "핵심 사업은 스마트폰 케이스(53.8%), 보호필름(28.2%), 기타(18.0%) 판매로 구성되며, 2025년 누적 매출은 4,637억원입니다. 아마존 등 글로벌 온라인 플랫폼 및 국가별 로컬 이커머스에 집중해 B2C(기업→소비자) 중심으로 판매하고, 위탁생산(Outsourcing Production)으로 재고 부담을 낮추며 제품 개발(자체 금형·특허)과 온라인 마케팅으로 경쟁우위를 추구합니다.",
+    "main_customers": "케이스 — 글로벌 온라인 플랫폼을 이용하는 일반 소비자(B2C(기업→소비자)) / 보호필름 — 글로벌 온라인 플랫폼을 이용하는 일반 소비자(B2C(기업→소비자)) / 기타 — 글로벌 온라인 플랫폼을 이용하는 일반 소비자(B2C(기업→소비자))",
+    "price_factors": [
+      {
+        "factor": "온라인유통",
+        "detail": "아마존·로컬 이커머스 의존도가 높아 온라인 판매 추세와 플랫폼 경쟁력 변화가 매출에 직접적 영향을 미칩니다."
+      },
+      {
+        "factor": "스마트폰보급",
+        "detail": "스마트폰 보급 및 프리미엄화는 액세서리 수요를 확대해 실적에 긍정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "제품트렌드",
+        "detail": "액세서리 시장은 수명주기가 짧고 트렌드 민감성이 높아 신제품 대응 속도가 실적에 중요한 변수입니다."
+      },
+      {
+        "factor": "대외환경",
+        "detail": "글로벌 통화긴축 및 원자재 수급 불안 등 대외 불확실성은 원가와 마진에 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사의 주요 제품은 스마트폰 케이스와 보호필름, 기타 모바일 액세서리이며,"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "케이스 2,494억원(53.8%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "보호필름: 130,809,611 (28.2%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "MD&A(경영진 실적·전략 요약)",
+        "evidence_text": "B2C 중심의 사업을 영위하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 업계의 현황",
+        "evidence_text": "온라인 판매는 전 세계적으로 가장 인기 있는 유통 채널이 되고 있으며,"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5182,
+    "completion_tokens": 5472,
+    "reasoning_tokens": 4672,
+    "output_tokens": 800
+  },
+  "warnings": []
+}

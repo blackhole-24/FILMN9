@@ -1,0 +1,62 @@
+{
+  "stock_code": "014280",
+  "corp_name": "금강공업",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 21:28",
+  "meta": {
+    "wics": "건축제품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "금강공업은 1979년 설립되어 1980년 사명을 금강공업㈜로 변경한 이후 배관용·구조용 강관 제조 및 폼웍시스템(알루미늄폼 등) 제조·임대 등을 영위하는 강관 및 건설용 가설자재 종합 메이커입니다. 연결기준으로 판넬, 가설재, 사료, 선박엔진, 단조, 모듈러 등 다수 사업부문을 보유하고 있습니다.",
+    "business_model": "주요 매출원은 강관 부문이며, 공개된 사업부문별 구성에 따르면 강관 매출 비중은 11.7%이고 부산물·원재료 항목은 3.0%입니다. 그 외 판넬(폼웍) 임대·판매, 가설재 제조·판매, 사료 제조·판매, 선박엔진·단조·모듈러 등 복수의 제조·임대 사업부문을 통해 매출을 창출합니다.",
+    "main_customers": "강관 — 건설·조선·자동차·기계 등 산업 전반 / 판넬(폼웍) — 건축·토목공사 현장 / 가설재 — 조선사(선박 건조 현장) / 사료 — 축산업체·육가공업체 / 선박엔진 — 조선·선박업체 / 단조 — 자동차·중장비·조선 등 제조업체 / 모듈러 — 건설사(모듈러 공법 적용)",
+    "price_factors": [
+      {
+        "factor": "건설경기",
+        "detail": "건설경기 침체 시 강관·판넬·임대 수요가 감소해 매출과 이익에 직접적인 부담을 줄 수 있습니다."
+      },
+      {
+        "factor": "원재료(코일)",
+        "detail": "원재료인 HR COIL 조달능력이 떨어지거나 가격이 상승하면 제조원가가 올라 수익성에 악영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "중국산 저가",
+        "detail": "중국산 저가 철강재 유입이 지속되면 국내 판매단가와 시장점유율 압박으로 이어질 수 있습니다."
+      },
+      {
+        "factor": "관세정책",
+        "detail": "정부의 반덤핑·관세 조치 변화는 수입 경쟁 및 국내 가격 수준에 영향을 주어 실적 변동 요인이 됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "[DART 사업보고서 — 영업 현황]",
+        "evidence_text": "강관 및 건설용 가설자재 종합 메이커 업체입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "강 관: 91,496 (11.7%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "다. 사업부문별 현황 (1) 강관부문",
+        "evidence_text": "최대 수요 산업은 건설과 조선업이며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5580,
+    "completion_tokens": 3583,
+    "reasoning_tokens": 2816,
+    "output_tokens": 767
+  },
+  "warnings": []
+}

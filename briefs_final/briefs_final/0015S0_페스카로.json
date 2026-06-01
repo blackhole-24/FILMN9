@@ -1,0 +1,67 @@
+{
+  "stock_code": "0015S0",
+  "corp_name": "페스카로",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 17:35",
+  "meta": {
+    "wics": "자동차부품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "페스카로는 2016년 자동차 전장 SW 개발자와 화이트 해커가 공동 설립한 국내 자동차 사이버보안 전문기업으로 출발했습니다. 전장 시스템과 사이버보안 역량을 기반으로 SDV(소프트웨어 정의 차량) 등 미래 모빌리티용 종합 소프트웨어 솔루션 기업으로 도약하고 있습니다.",
+    "business_model": "주력 사업은 임베디드사이버보안사업과 차량전장솔루션 사업으로 구성되며, FY2025 기준 임베디드사이버보안사업이 매출의 87.7%, 차량전장솔루션 사업이 12.3%를 차지합니다. 전장부품 보안솔루션과 차량통신 보안솔루션, 규제 대응 IT 보안솔루션 및 SDV용 전장 제어기 소프트웨어·하드웨어 개발을 통해 차량 생애주기 전반의 보안 관리와 전장 제어 솔루션을 제공합니다.",
+    "main_customers": "임베디드사이버보안사업 — 자동차 제조사·부품사(특히 중소규모 업체) / 차량전장솔루션 사업 — 완성차 제조사·부품사",
+    "price_factors": [
+      {
+        "factor": "규제·인증",
+        "detail": "UNECE·ISO/SAE 21434 등 규제와 인증 요구로 인증 확보가 수요 발생의 핵심 요인이 됩니다."
+      },
+      {
+        "factor": "SDV전환",
+        "detail": "SDV(소프트웨어 정의 차량) 전환 가속화로 기술 복잡도와 해킹 위협이 증가하여 보안 수요가 확대됩니다."
+      },
+      {
+        "factor": "시장선점",
+        "detail": "경쟁 강도가 낮고 시장 선점을 통한 기대 부가가치가 높아 선점 여부가 실적에 영향을 줍니다."
+      },
+      {
+        "factor": "원가·리소스",
+        "detail": "고객사들이 인증 획득과 함께 리소스 효율화·원가 절감을 요구해 비용효율적인 솔루션 공급이 중요합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "국내 최초 자동차 사이버보안 전문기업으로 출발했습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "임베디드사이버보안사업: 4,906,418 (87.7%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "차량전장솔루션 사업: 2,045,470 (12.3%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "완성차 제조사와 부품사"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4857,
+    "completion_tokens": 3870,
+    "reasoning_tokens": 3136,
+    "output_tokens": 734
+  },
+  "warnings": []
+}

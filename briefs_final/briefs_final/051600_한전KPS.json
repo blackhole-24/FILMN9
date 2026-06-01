@@ -1,0 +1,67 @@
+{
+  "stock_code": "051600",
+  "corp_name": "한전KPS",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 12:27",
+  "meta": {
+    "wics": "전기유틸리티",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "한전KPS는 한국전력공사가 전액 출자하여 발전설비 정비를 전담해 온 전문회사로, 51년간 국내외 발전설비의 정비와 가동률 향상을 지원해 왔습니다. 고급 정비기술과 첨단 장비를 바탕으로 UAE·남아프리카공화국·우루과이 등 해외시장도 개척해 왔습니다.",
+    "business_model": "주력 사업은 화력·원자력·양수·송변전 등 발전·송변전 설비에 대한 정비서비스(설비점검·예방정비·예측정비·개보수) 제공이며, 발전설비를 소유하지 않고 고객 설비 관리를 수행하는 서비스형(무자산) 비즈니스입니다. 2025년 영업수익 구성은 화력 34.2%, 원자력/양수 40.0%, 송변전 7.1%, 대외 8.2%, 해외 8.5%로 원자력/양수와 화력이 매출의 큰 비중을 차지합니다.",
+    "main_customers": "화력 — 발전회사(한전 및 6개 발전사 등) / 원자력/양수 — 발전회사·원전 운영사 / 송변전 — 전력회사·송변전 설비 소유자 / 대외·해외 — 해외 발전사 및 국내 민간발전사",
+    "price_factors": [
+      {
+        "factor": "원전 비중",
+        "detail": "원자력 발전 비중이 증가하면 원전정비 물량이 늘어 관련 매출·수익 확대에 직접 영향"
+      },
+      {
+        "factor": "계절성",
+        "detail": "수주·매출에 계절적 변동이 있어 하절기·동절기 등 분기별 실적 변동성이 존재"
+      },
+      {
+        "factor": "기술경쟁력",
+        "detail": "정비국산화와 축적된 기술력은 해외수주 및 경쟁우위 확보에 중요한 요인"
+      },
+      {
+        "factor": "정책·규제",
+        "detail": "전기사업법·원자력안전법 등 관련 법규 준수 여부가 영업범위 및 비용구조에 영향"
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "한국전력공사가 전액 출자한 발전설비정비 전문회사로 설립되어"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "원자력/양수: 630,624 (40.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "발전설비를 소유하지 않고 고객의 설비관리를 주 업무로 하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "당사는 수주 및 매출의 계절적 변동요인이 존재합니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5545,
+    "completion_tokens": 4559,
+    "reasoning_tokens": 3776,
+    "output_tokens": 783
+  },
+  "warnings": []
+}

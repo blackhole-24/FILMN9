@@ -1,0 +1,77 @@
+{
+  "stock_code": "143160",
+  "corp_name": "아이디스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 10:14",
+  "meta": {
+    "wics": "전자장비와기기",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "아이디스는 1997년 설립된 영상보안(감시 카메라·레코더·VMS) 전문 기업으로, DVR 시대부터 기술과 품질로 글로벌 시장에서 인정받아 왔습니다. 현재는 IP 카메라·NVR·VMS 등을 포함한 영상보안 토탈 솔루션을 개발·생산·판매하며 국내외 거래선을 통해 브랜드 매출을 확대하고 있습니다.",
+    "business_model": "사업부문별 영업수익 구성(FY2025)은 영상보안 27.6%, 제품 49.8%, 제품·상품·용역·기타 22.6%로 제품 비중이 가장 큰 구조이며(%) 네트워크 제품(IP 카메라·NVR 등)을 중심으로 판매가 집중되어 있습니다. 생산은 MTO(주문생산)와 MTS(재고생산) 방식을 병행하며 대전 본사 생산라인을 통해 Recorder·Camera 등 생산 CAPA를 확보하고 있습니다.",
+    "main_customers": "영상보안 — 국내 경비업체·국내 대리점·SI 사업자 / 제품 — 신축 건축물 및 기존 건축물의 교체 수요처(건물·시설) / 제품,상품,용역,기타 — 국내외 거래선 및 해외 바이어",
+    "price_factors": [
+      {
+        "factor": "기술 전환",
+        "detail": "아날로그에서 IP 기반(NVR·IP Camera)으로의 전환 속도에 따라 제품 수요 구조와 매출 구성이 빠르게 바뀝니다."
+      },
+      {
+        "factor": "제품별 ASP",
+        "detail": "아날로그·네트워크·VMS 등 제품군별 평균판매가격 변화는 실적(매출·이익)에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "고해상도·기능 경쟁",
+        "detail": "4K, 멀티이미저, 저조도·AI 영상분석 등 성능 고도화 경쟁이 기술개발 비용과 시장 점유율에 영향을 줍니다."
+      },
+      {
+        "factor": "글로벌 판매채널",
+        "detail": "과거 ODM 중심에서 자사 브랜드 직접판매로의 전환은 매출 규모와 마진 구조에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "영상보안 토탈 솔루션을 개발, 생산, 판매하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "영상보안: 58,838 (27.6%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "제품: 106,000 (49.8%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "제품,상품,용역,기타: 48,106 (22.6%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "당사는 자체 개발, 생산한 영상보안장치를 국내 경비업체와 당사의 국내 대리점을 통해 공급하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "Recorder 11만대, Camera 83만대, 기타 25만대 수준의 생산 CAPA를 확보"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4981,
+    "completion_tokens": 4409,
+    "reasoning_tokens": 3520,
+    "output_tokens": 889
+  },
+  "warnings": []
+}

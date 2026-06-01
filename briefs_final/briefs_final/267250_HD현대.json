@@ -1,0 +1,97 @@
+{
+  "stock_code": "267250",
+  "corp_name": "HD현대",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 14:27",
+  "meta": {
+    "wics": "조선",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "HD현대는 2017년 4월 HD한국조선해양(구 현대중공업)의 인적분할로 출범한 지주회사로, 조선·정유·엔진·그린에너지 등 다양한 자회사를 보유한 대형 그룹 지주사입니다. 2025년 연결기준 매출액 71조 2,594억으로 역대 최고 매출을 달성했습니다.",
+    "business_model": "지주회사로서 자회사들(조선, 해양플랜트, 엔진기계, 그린에너지, 정유·석유화학 등)의 주식을 소유하여 배당·상표권 사용·임대수익 등을 통해 별도 영업수익을 확보합니다. FY2025 사업부문별 영업수익 구성은 정유 86.0%, 윤활 4.0%, 석유화학 10.0%로 정유부문이 수익의 대부분을 차지합니다.",
+    "main_customers": "조선해양 — 발주처(선박 발주사) / 정유 — 국내 석유제품 수요(내수) 및 해외 수입국·수출시장 / 엔진기계 — 선박용 엔진 구매자(선주·엔지니어링 발주사)",
+    "price_factors": [
+      {
+        "factor": "유가 변동",
+        "detail": "석유화학·정유 부문은 국제유가 변동에 민감하여 유가 하락·상승이 매출과 마진에 직접적 영향을 줍니다."
+      },
+      {
+        "factor": "납사 가격",
+        "detail": "석유화학은 납사(Naphtha)를 원료로 사용하므로 납사 가격 변동이 원가와 수익성에 큰 영향을 미칩니다."
+      },
+      {
+        "factor": "수주 잔량",
+        "detail": "조선부문은 충분한 수주 잔량이 선가 하락 속도를 완화하는 등 수주잔량과 선가가 실적에 영향을 줍니다."
+      },
+      {
+        "factor": "정제설비",
+        "detail": "정유부문은 정제설비 가동 상황과 경질유 제품 크랙(정제마진)이 실적 변동성을 결정합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "지주회사(持株會社, Holding Company)입니다."
+      },
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "2025년 연결기준 매출액 71조 2,594억"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "정유: 24,173,400 (86.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "윤활: 987,472 (4.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "석유화학: 2,864,052 (10.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "조선해양 부문",
+        "evidence_text": "선박 계약가격은 발주처의 요구사항을 반영하여"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "정유부문",
+        "evidence_text": "총 생산량의 50% 이상을 수출하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "석유화학부문",
+        "evidence_text": "원료로 사용하는 산업 특성상 유가 변동에 민감하게 반응"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "조선해양 부문",
+        "evidence_text": "조선소의 충분한 수주 잔량이 선가 하락 속도를 완화"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "정유부문",
+        "evidence_text": "OPEC+의 감산 완화에 따른 공급 확대로 하락세를 기록했습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4877,
+    "completion_tokens": 6187,
+    "reasoning_tokens": 5120,
+    "output_tokens": 1067
+  },
+  "warnings": []
+}

@@ -1,0 +1,66 @@
+{
+  "stock_code": "001820",
+  "corp_name": "삼화콘덴서",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 09:40",
+  "meta": {
+    "wics": "전기제품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "삼화콘덴서는 국내 유일의 콘덴서 종합 메이커로, 삼화전기가 생산하는 전해콘덴서를 제외한 대부분의 콘덴서를 생산하고 있습니다. 전기·전자 부품 가운데 필름 콘덴서, 단층 세라믹 콘덴서(DCC), 적층형 콘덴서(MLCC) 등을 다루며, 해외 매출 비중이 높은 수출형 사업 구조를 갖고 있습니다.",
+    "business_model": "FY2025 사업부문별 영업수익은 콘덴서 외 46.1%, F C 15.1%, DC-LINK 19.5%, D C C 8.3%, C I 1.3%, 기타 9.7%로 구성되어 있습니다. 회사는 FILM 콘덴서(전력용·전장용), 단층 세라믹 콘덴서, 적층형 콘덴서(MLCC)를 중심으로 고부가가치 부품을 생산하며, AI 서버·온디바이스 AI, 친환경차 전장화, 전력 효율화 수요 확대에 맞춰 사업을 운영하고 있습니다.",
+    "main_customers": "F C — 전력송배전·친환경에너지·자동차 전장 관련 업체 / DC-LINK — 전력변환 시스템 및 전장 부품 수요처 / D C C — 전자기기 및 부품 수요처 / 콘덴서 외 — 관련 전자부품 및 기타 수요처",
+    "price_factors": [
+      {
+        "factor": "원자재",
+        "detail": "주요 원재료의 수급 안정성과 가격 변동이 제품 원가와 수익성에 직접 영향을 줍니다."
+      },
+      {
+        "factor": "전장수요",
+        "detail": "친환경차와 전장화(차량 전자화) 확대가 전장용 콘덴서 수요를 늘리는 요인으로 작용합니다."
+      },
+      {
+        "factor": "AI확산",
+        "detail": "AI 서버와 온디바이스 AI 확산은 고용량·초소형 부품 수요를 키워 관련 제품 매출에 영향을 줍니다."
+      },
+      {
+        "factor": "전력효율",
+        "detail": "전력 효율 증대와 대체 에너지 확대는 필름 콘덴서 수요 증가와 연결됩니다."
+      },
+      {
+        "factor": "경쟁심화",
+        "detail": "국내외 경쟁사와 저가 수입품이 늘어날수록 가격과 점유율 경쟁이 심화될 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 국내 유일의 콘덴서 종합 메이커로서"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "■ 사업부문별 영업수익 구성 (FY2025)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "[경쟁 환경 및 시장 특성 — price_factors 참고용]",
+        "evidence_text": "주요 원재료의 장기 공급선 확보와 협력사와의 전략적 파트너십"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4977,
+    "completion_tokens": 788,
+    "reasoning_tokens": 0,
+    "output_tokens": 788
+  },
+  "warnings": []
+}

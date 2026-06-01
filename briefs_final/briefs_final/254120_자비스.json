@@ -1,0 +1,66 @@
+{
+  "stock_code": "254120",
+  "corp_name": "자비스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 13:52",
+  "meta": {
+    "wics": "전자장비와기기",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "자비스(사업명 XAVIS)는 2002년 설립되어 X-ray와 머신비전, 공장자동화(FA) 소프트웨어를 기반으로 검사장비를 개발해 온 기업입니다. 2019년 코스닥에 상장했으며, 이차전지(배터리), 반도체, 식품 및 산업용 부품의 내부 결함을 비파괴 방식으로 검사하는 엑스레이 솔루션을 공급하고 있습니다.",
+    "business_model": "사업부문별로 Xscan_2차전지(13.2%), Xscan_PCB 등(35.9%), Fscan(식품이물검사, 50.9%)으로 구성되어 있으며, Fscan(식품 이물검사)이 매출 비중에서 가장 큽니다. 핵심 수익원은 X-ray 기반의 비파괴 검사장비와 여기에 적용되는 머신비전·FA 소프트웨어로, 배터리·반도체·PCB·식품 분야의 인라인 검사장비 공급이 주요 비즈니스입니다.",
+    "main_customers": "Xscan_2차전지 — 자동차/ESS용 2차전지 제조사 / Xscan_PCB 등 — PCB·전자기기 제조사 / Fscan — 식품 제조·가공업체",
+    "price_factors": [
+      {
+        "factor": "배터리수요",
+        "detail": "전기차·ESS 수요와 탄소중립 정책에 따른 2차전지 제조 설비 증감이 장비 수주와 매출에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "반도체패키징",
+        "detail": "TGV 등 첨단 패키징 공법 확산은 고정밀 검사장비 수요를 늘려 관련 매출에 긍정적 영향을 줍니다."
+      },
+      {
+        "factor": "PCB성장",
+        "detail": "PCB 시장의 지속적 성장과 소형화 추세는 정밀 인라인 X-ray 검사장비 수요를 증가시킵니다."
+      },
+      {
+        "factor": "식품규제",
+        "detail": "소비자 인식 제고와 HACCP 등 규제 강화로 식품 이물 선별 장비 수요가 견조하게 유지됩니다."
+      },
+      {
+        "factor": "수주변동",
+        "detail": "국내외 장비 수주의 지연 또는 가속은 매출 실적 변동성을 키우는 요인입니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 회사의 현황",
+        "evidence_text": "2019년 코스닥 시장에 상장하며 기술력을 인정받았으며,"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "Fscan: 10,225,802 (50.9%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 시장 현황 (1) 시장의 특성 (가) 주요 목표시장",
+        "evidence_text": "자동차/ESS용 2차전지 제조사를 주요 목표 시장"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4379,
+    "completion_tokens": 3381,
+    "reasoning_tokens": 2624,
+    "output_tokens": 757
+  },
+  "warnings": []
+}

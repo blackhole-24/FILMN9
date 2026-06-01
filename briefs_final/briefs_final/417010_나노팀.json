@@ -1,0 +1,87 @@
+{
+  "stock_code": "417010",
+  "corp_name": "나노팀",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 19:10",
+  "meta": {
+    "wics": "전자장비와기기",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "나노팀은 열관리 소재의 개발·제조·판매를 주력으로 하는 기업으로, 전기차 배터리팩 등 전동화 부품과 IT 전자기기용 방열소재를 공급합니다. 방열소재 분야에서 국내 1위의 시장점유율을 보유하며 소품종 대량생산 특성을 가진 제품을 양산하고 있습니다.",
+    "business_model": "핵심 제품군은 갭필러(액상형), 갭패드(고체형) 등 열관리 소재이며, FY2025 기준 매출 구성은 갭필러 76.9%, 갭패드 14.2%, 기타 8.5%, 상품 0.4%로 갭필러 중심의 매출 구조를 보입니다. 제품은 주로 전기차 배터리팩(갭필러)과 전장·IT용 부품(갭패드)에 공급되어 자동차 플랫폼 기반의 소품종 대량생산 특성을 갖습니다.",
+    "main_customers": "갭필러 — 전기차 배터리팩 제조사 및 완성차 플랫폼 기반 고객 / 갭패드 — 전장부품·IT 전자기기 제조사 / 기타·상품 — 전장·IT 관련 부품업체",
+    "price_factors": [
+      {
+        "factor": "전기차 수요",
+        "detail": "전기차 시장 성장 둔화는 완성차 생산량과 연동되어 매출에 직접적 영향을 미칩니다."
+      },
+      {
+        "factor": "원가압박",
+        "detail": "완성차업체의 원가절감 요구는 저가격 제품으로의 교체 수요를 촉진해 실적에 영향을 줍니다."
+      },
+      {
+        "factor": "계절성",
+        "detail": "완성차업체의 휴가·연휴 시기에는 매출이 다소 감소하고 4분기 생산량 증가 시 매출이 늘어나는 경향이 있습니다."
+      },
+      {
+        "factor": "경쟁구도",
+        "detail": "기존 글로벌 소재업체와의 가격·기술 경쟁 및 신규 진입 장벽(특히 방염소재 도입기)이 실적 변동 요인입니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "당사는 열관리 소재의 개발, 제조 및 판매를 주요 사업으로 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "갭필러: 31,002,296 (76.9%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "갭패드: 5,735,661 (14.2%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "기타: 3,344,768 (8.5%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "상품: 174,193 (0.4%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "당사의 열관리 소재 제품은 주로 배터리팩, ICCU, OBC 등 전기차의 핵심부품에 사용되고 있으며,"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "최근 시장에서 우려하고 있는 전기차시장의 성장둔화는"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "마. 사업의 특성, 시장의 여건에 관한 사항",
+        "evidence_text": "당사의 제품은 전기차, IT 전자기기 등에 사용되는 열관리 소재이므로 일반적으로 경기변동에 민감하게 반응하며,"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5329,
+    "completion_tokens": 4484,
+    "reasoning_tokens": 3456,
+    "output_tokens": 1028
+  },
+  "warnings": []
+}

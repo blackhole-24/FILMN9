@@ -1,0 +1,67 @@
+{
+  "stock_code": "086280",
+  "corp_name": "현대글로비스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 06:34",
+  "meta": {
+    "wics": "항공화물운송과물류",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "현대글로비스는 종합물류업, 유통판매업, 해운업을 영위하는 종합 물류기업으로, 2025년 연결 매출 29조 5,664억원을 기록했습니다. 주요 매출처로는 현대자동차(주)와 기아(주)가 있습니다.",
+    "business_model": "핵심 사업부문은 물류(종합물류업), 유통(유통판매업), 해운(해운업)으로 구성되며, FY2025 기준 매출 비중은 물류 34.1%, 유통 47.6%, 해운 18.3%입니다. 종합물류는 국내·해외물류, 수출입·완성차·부품·벌크 물류를 포괄하고, 유통판매는 CKD(반제품 부품 공급), 중고차 경매·수출, 트레이딩(원자재 수출입)을 포함하며, 해운은 자동차선(PCTC)과 벌크선을 통한 화물 운송을 주요 활동으로 합니다.",
+    "main_customers": "종합물류업 — 화물 보유 고객(완성차·부품·수출입 기업) / 유통판매업(CKD) — 현대자동차·기아 중심의 부품 발주처 / 유통판매업(중고차) — 개인·법인(신차구입자 등), 렌터카·리스 운용 업체",
+    "price_factors": [
+      {
+        "factor": "글로벌 경기",
+        "detail": "국제 교역량과 물동량 변동에 따라 물류 수요가 변동하여 실적에 직접 영향이 발생합니다."
+      },
+      {
+        "factor": "통상·지정학",
+        "detail": "관세·보호무역 강화 및 지정학적 리스크는 공급망과 운송 환경의 불확실성을 키워 수익성에 영향을 미칩니다."
+      },
+      {
+        "factor": "경쟁·기술혁신",
+        "detail": "대형 유통기업의 물류 진출과 자동화·디지털 전환 가속은 비용구조와 서비스 경쟁력에 영향합니다."
+      },
+      {
+        "factor": "고객집중",
+        "detail": "주요 매출처(현대차·기아) 의존도는 이들사의 수요 변화에 실적 민감도를 높입니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "<사업의 개요>",
+        "evidence_text": "당사가 영위하는 사업은 종합물류업과 유통판매업, 해운업입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "물류: 10,082,590 (34.1%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "<사업의 개요>",
+        "evidence_text": "당사의 주요 매출처는 현대자동차(주)와 기아(주)입니다."
+      },
+      {
+        "field": "md&a",
+        "source_section": "[경영진 실적·전략 요약 (MD&A)]",
+        "evidence_text": "2년 연속 사상 최대 매출을 달성하였으며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5014,
+    "completion_tokens": 3795,
+    "reasoning_tokens": 3008,
+    "output_tokens": 787
+  },
+  "warnings": []
+}

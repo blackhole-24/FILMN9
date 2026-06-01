@@ -1,0 +1,72 @@
+{
+  "stock_code": "469610",
+  "corp_name": "이노테크",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 20:35",
+  "meta": {
+    "wics": "디스플레이장비및부품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "이노테크는 신뢰성 환경시험 장비 및 특수 시험장비의 개발·제작에 특화된 복합 신뢰성 환경시험 장비 전문 기업으로, 디스플레이·반도체·2차전지 등 전자 분야의 국내외 고객사에 맞춤형 장비를 공급합니다. 납품 이후 장비의 유지보수까지 포함한 토탈 솔루션(납품부터 유지보수)을 제공하는 점이 특징입니다.",
+    "business_model": "주요 수익원은 사업부문별로 수처리약품 63.4%, 디스플레이 32.3%, 반도체 4.3%, 기타(2차전지·전기전자·자동차 등) 0.0%로 구성되어 있습니다. 당사는 발주처 요구사양에 맞춰 수주형(프로젝트별)으로 장비를 제작하고, 납품 후 유지보수까지 제공하는 Total Solution(토탈 솔루션: 장비 납품부터 유지보수)을 통해 수익을 창출합니다.",
+    "main_customers": "디스플레이 — Cell·Module 제조사 및 Set 메이커 / 반도체 — SSD·D램 제품 제조사 / 기타(2차전지, 전기전자, 자동차 등) — 국내외 고객사 / 수처리약품 — 고객 유형 미기재",
+    "price_factors": [
+      {
+        "factor": "사양·입찰",
+        "detail": "제품은 발주처 요구사양과 입찰 상황에 따라 가격이 변동되어 실적과 직결됩니다."
+      },
+      {
+        "factor": "산업경쟁",
+        "detail": "산업의 시장 경쟁상황에 따라 가격민감도가 높아져 수익성에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "주요산업수요",
+        "detail": "디스플레이·반도체 등 주요 고객 산업의 투자·수요 변동이 수주량과 실적에 영향합니다."
+      },
+      {
+        "factor": "장기신뢰성",
+        "detail": "반도체용 장기 신뢰성 테스트 요구는 장비 성능·사양을 좌우해 매출구성에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 사업현황",
+        "evidence_text": "당사는 신뢰성 환경시험 장비 및 특수 시험장비의 개발 및 제작에 특화된 ‘복합 신뢰성 환경시험 장비 전문 기업’입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "디스플레이: 24,456,244 (32.3%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "수처리약품: 46,708,376 (63.4%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 사업현황",
+        "evidence_text": "당사는 Cell, Module, 그리고 Set까지 모든 디스플레이 제조공정 부분에서 신뢰성 검사를 수행할 수 있는 기술과 노하우를 보유하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "다. 주요 제품 등의 가격 변동 추이",
+        "evidence_text": "제품의 가격은 각 프로젝트의 요구사양 및 입찰 상황에 따라 변동됩니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3275,
+    "completion_tokens": 4819,
+    "reasoning_tokens": 3968,
+    "output_tokens": 851
+  },
+  "warnings": []
+}

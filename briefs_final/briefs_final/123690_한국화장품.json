@@ -1,0 +1,67 @@
+{
+  "stock_code": "123690",
+  "corp_name": "한국화장품",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 09:24",
+  "meta": {
+    "wics": "화장품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "한국화장품은 2010년 5월 인적분할로 설립된 종합 화장품회사로, 기초·색조를 포함한 700여 종의 제품을 판매하고 있습니다. 주요 사업은 화장품판매와 부동산임대이며 온·오프라인과 방문판매 등 다양한 유통채널을 통해 제품을 유통합니다.",
+    "business_model": "매출의 대부분(화장품판매 99.99%)이 화장품 판매에서 발생하며, 기타 매출은 0.01%에 그칩니다(사업부문별 매출: 화장품판매 85,024(99.99), 기타 8(0.01)). 주요 유통경로는 시판사업부(인터넷·홈쇼핑·총판), H&B사업부(방문판매), 자회사(브랜드숍) 및 2020년 설립한 온라인 채널을 통해 이루어집니다.",
+    "main_customers": "화장품판매 — 인터넷·홈쇼핑·총판·방문판매 채널 이용 고객 및 브랜드숍 고객 / 기타 — 가맹점(가맹매출)",
+    "price_factors": [
+      {
+        "factor": "진입경쟁",
+        "detail": "시장진입장벽이 낮아 신규 브랜드 증가 시 경쟁 심화로 매출·이익에 부담을 줄 수 있습니다."
+      },
+      {
+        "factor": "온라인채널",
+        "detail": "온라인 채널 강세가 지속되면 온라인 판매 비중이 높은 품목에서 수익 변동성이 확대될 수 있습니다."
+      },
+      {
+        "factor": "제품트렌드",
+        "detail": "클린뷰티·기능성(미백·주름개선) 등 소비자 선호 변화가 제품수요와 신제품 개발 성과에 영향합니다."
+      },
+      {
+        "factor": "경기민감도",
+        "detail": "내수 경기 및 소비심리 둔화 시 온·오프라인 매출 감소로 실적 하방압력이 발생할 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "700여 종류의 화장품판매를 영위하는 종합 화장품회사입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[표] 가. 주요 제품 등의 현황",
+        "evidence_text": "화장품판매 85,024(99.99)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 2. 주요 제품 및 서비스",
+        "evidence_text": "주요 유통경로는 시판사업부(인터넷, 홈쇼핑, 총판)"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 나. 산업의 특성",
+        "evidence_text": "시장진입장벽이 낮아 신규업체의 진출이 활발합니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4958,
+    "completion_tokens": 3733,
+    "reasoning_tokens": 3008,
+    "output_tokens": 725
+  },
+  "warnings": []
+}

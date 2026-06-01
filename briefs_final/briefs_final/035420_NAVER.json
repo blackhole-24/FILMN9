@@ -1,0 +1,74 @@
+{
+  "stock_code": "035420",
+  "corp_name": "NAVER",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 00:17",
+  "meta": {
+    "wics": "양방향미디어와서비스",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "네이버는 '팀네이버'라는 호칭으로 불리며 대한민국을 대표하는 IT 테크 기업으로, 국내 1위 검색 포털 NAVER를 기반으로 광고·커머스 등 다양한 서비스로 매출을 창출합니다. 초거대 AI 'HyperCLOVA X' 등 기술 투자를 통해 검색·커머스·광고·콘텐츠 등에서 경쟁력을 강화하고 있습니다.",
+    "business_model": "당사는 단일 영업부문으로 보고되지만 서비스별로 서치플랫폼, 커머스, 핀테크, 콘텐츠, 엔터프라이즈 등으로 나누어 영업수익을 창출합니다. 서치플랫폼은 검색과 디스플레이 광고 중심으로, 커머스는 광고·중개·수수료·멤버십으로, 핀테크는 네이버페이 및 디지털금융 서비스로, 콘텐츠와 엔터프라이즈는 각각 콘텐츠 서비스 및 기업용 솔루션을 통해 수익을 얻습니다.",
+    "main_customers": "서치플랫폼 — 검색 이용자 및 광고주 / 커머스 — 브랜드·SME(중소상공인) 판매자 및 소비자 / 핀테크 — SME, 씬파일러 및 일반 이용자(결제·금융 서비스 사용자) / 콘텐츠 — 콘텐츠 이용자(웹툰·스노우 등 서비스 사용자) / 엔터프라이즈 — 기업 고객(솔루션 도입 기업)",
+    "price_factors": [
+      {
+        "factor": "광고 경기 민감성",
+        "detail": "경기 침체 시 광고주가 마케팅비를 축소하면 광고 수익이 감소하며, 경기 회복 시 수익이 개선될 수 있습니다."
+      },
+      {
+        "factor": "광고 상품별 계절성",
+        "detail": "검색광고는 계절 변동성이 낮은 반면 디스플레이는 분기별·대형 캠페인에 따라 실적 변동이 발생할 수 있습니다."
+      },
+      {
+        "factor": "규제·개인정보 이슈",
+        "detail": "개인정보보호법 등 관련 규제 준수가 미흡하면 제재나 신뢰도 하락으로 실적·평판에 부정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "글로벌 광고·이벤트 영향",
+        "detail": "글로벌 온라인 광고 시장과 대형 이벤트(예: 올림픽, 선거 등)는 광고 수요에 유의미한 영향을 미칠 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 - 영업 현황",
+        "evidence_text": "'팀네이버'는 대한민국의 대표적인 IT 테크 기업으로 끊임없는 도전과 성장을 이뤄가고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 - 2. 주요제품 및 서비스",
+        "evidence_text": "네이버 및 종속회사의 서비스는 서치플랫폼, 커머스, 핀테크, 콘텐츠, 엔터프라이즈로 구성되어 있으며,"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 - 영업 현황",
+        "evidence_text": "브랜드와 SME를 포함한 다양한 판매자들과 함께 성장해온 네이버 커머스는,"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "광고는 경기와 움직임을 함께 하는 산업으로,"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 - 영업 현황",
+        "evidence_text": "초거대 AI 'HyperCLOVA X'를 중심으로 검색, 커머스, 광고, 콘텐츠 등 다양한 영역에서 AI 기반 기술을 고도화하며,"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4805,
+    "completion_tokens": 3858,
+    "reasoning_tokens": 2944,
+    "output_tokens": 914
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

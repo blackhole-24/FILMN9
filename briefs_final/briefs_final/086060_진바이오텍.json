@@ -1,0 +1,67 @@
+{
+  "stock_code": "086060",
+  "corp_name": "진바이오텍",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 06:34",
+  "meta": {
+    "wics": "제약",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "진바이오텍은 기능성 첨가제 및 동물약품(동물용 의약품/의약외품)을 생산·판매하는 기업으로, 첨가제와 동물약품 두 부문으로 사업을 구분하여 운영하고 있습니다. 축산용 사료첨가제와 반려동물 관련 제품 수요 확대로 기술·상품 개발에 대응하고 있습니다.",
+    "business_model": "회사는 첨가제부문과 동물약품부문을 중심으로 사업을 영위하며, 제품은 축산업과 반려동물 시장을 대상으로 공급됩니다. [사업부문별 매출 구성]에 따르면 '상품' 항목이 매출의 100.0%를 차지하고 있어(상품: 41,886,814 (100.0%)), 실적은 제품판매 및 상품유통 구조에 크게 의존합니다.",
+    "main_customers": "첨가제 부문 — 사료 제조업체·축산업체 / 동물약품 부문 — 축산농가 및 반려동물 관련 시장(사료·간식·영양제)",
+    "price_factors": [
+      {
+        "factor": "곡물가",
+        "detail": "발효제품 원재료인 곡물가 하락·상승이 첨가제 판가와 마진에 직접 영향을 미칩니다."
+      },
+      {
+        "factor": "환율",
+        "detail": "환율 상승 시 상품 매입가격이 올라 판가 인상 및 마진 변동으로 실적에 영향을 줍니다."
+      },
+      {
+        "factor": "입찰경쟁",
+        "detail": "동물약품(비타민·미네랄) 대부분은 입찰 경쟁으로 가격이 결정되어 수익성 변동성이 존재합니다."
+      },
+      {
+        "factor": "상품구성",
+        "detail": "상품군 중 특정 품목(예: 불산) 유통 증가가 전체 상품 판가 하락에 영향을 미칠 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "1. 사업의 현황",
+        "evidence_text": "첨가제부문과 동물약품 부문으로 사업을 구분하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "상품: 41,886,814 (100.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "1. 사업의 현황",
+        "evidence_text": "애완동물사료 및 간식,영양제 분야에 대한 사회적 요구가 증가되고 있어"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "주요 가격변동원인",
+        "evidence_text": "상품은 환율상승으로 인해 매입가격이 상승함에 따라 판가가 인상되었습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4353,
+    "completion_tokens": 4091,
+    "reasoning_tokens": 3392,
+    "output_tokens": 699
+  },
+  "warnings": []
+}

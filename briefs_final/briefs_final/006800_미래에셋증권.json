@@ -1,0 +1,73 @@
+{
+  "stock_code": "006800",
+  "corp_name": "미래에셋증권",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 19:39",
+  "meta": {
+    "wics": "증권",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "미래에셋증권은 글로벌 투자전문기업으로, 해외와 국내를 아우르는 광범위한 네트워크를 바탕으로 종합 금융서비스를 제공합니다. 국내외 고객자산이 2025년 말 기준 602조 원에 달할 정도의 대형 증권사로 자리잡고 있습니다.",
+    "business_model": "사업은 해외사업(Global Business), 투자은행(Investment Banking), 트레이딩(Sales & Trading), 자산관리(Wealth Management), 자기자본 투자(Principal Investment) 등 5개 분야로 구성되어 있으며, 각 부문에서 IB 딜·트레이딩·자산관리 수수료와 투자평가이익이 주요 수익원입니다. AI 기반 투자정보와 WealthTech 등 디지털 역량을 활용해 WM(자산관리)과 브로커리지 수익을 확대하고, IB·Trading·PI를 통해 투자·운용 성과를 창출하고 있습니다.",
+    "main_customers": "해외사업 — 현지 시장 참여자 및 해외법인 협업 / 투자은행(IB) — 상장·자금조달을 추진하는 기업 / 트레이딩(S&T) — 국내외 투자자(기관·거래상대) / 자산관리(WM) — 연금 고객 및 거액자산가 / 자기자본 투자(PI) — 글로벌 혁신기업 및 성장산업 관련 기업",
+    "price_factors": [
+      {
+        "factor": "국내외 증시",
+        "detail": "국내외 증시 상승 시 WM 브로커리지·금융상품 판매 등 수수료 수익이 증가하여 실적에 긍정적 영향을 미칩니다."
+      },
+      {
+        "factor": "금리·환율 변동성",
+        "detail": "금리·환율 변동성 확대는 운용환경 불확실성을 높여 트레이딩과 투자자산 평가에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "해외법인 실적",
+        "detail": "해외법인의 성과(예: 뉴욕법인 실적)는 전사 세전이익과 수익구조에 큰 비중으로 반영됩니다."
+      },
+      {
+        "factor": "연금 시장 기조",
+        "detail": "저축에서 투자로의 연금 전환 기조는 DC 적립금 증가와 WM의 연금 관련 수수료·자산관리 수요를 확대합니다."
+      },
+      {
+        "factor": "부동산·PF 시장",
+        "detail": "상업용 부동산 시장 회복과 PF(프로젝트파이낸싱) 모니터링은 IB·PI 관련 평가손익 및 수수료에 영향합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "미래에셋증권은 글로벌 투자전문기업으로서 고객의 니즈에 맞는 전문화된 금융서비스를 제공하여 고객의 성공적 자산운용과 평안한 노후를 위해 기여하고자 합니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황",
+        "evidence_text": "주요 비즈니스는 크게 해외사업(Global Business), 투자은행(Investment Banking), 트레이딩(Sales & Trading), 자산관리(Wealth Management), 자기자본 투자(Principal Investment), 총 5개 분야로 구성되어 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "투자은행(Investment Banking)",
+        "evidence_text": "미래에셋증권은 기업공개(IPO), 비상장주식(Pre-IPO), 메자닌, 유상증자, 회사채, 인수금융, 프로젝트파이낸싱(PF) 등 기업들의 다양한 니즈에 맞는 최적의 금융솔루션과 국내외 부동산, 인프라(에너지) 등 우량 대체자산 관련 투자금융솔루션을 제공합니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "트레이딩(Sales & Trading) 및 자기자본 투자(Principal Investment)",
+        "evidence_text": "금리·환율 변동성 확대 등으로 운용환경의 불확실성이 지속되고 있으나, 비즈니스 및 투자 포트폴리오의 다각화를 추구하며 수익의 안정성을 제고하고 있습니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4144,
+    "completion_tokens": 4416,
+    "reasoning_tokens": 3392,
+    "output_tokens": 1024
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

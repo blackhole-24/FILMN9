@@ -1,0 +1,67 @@
+{
+  "stock_code": "340570",
+  "corp_name": "티앤엘",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 16:56",
+  "meta": {
+    "wics": "건강관리장비와용품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "티앤엘은 고기능성소재 기술을 의료용 분야에 적용해 창상피복재, 마이크로니들, 정형외과용 고정재 등을 제조·판매하는 고기능성소재 전문 기업입니다. 현재 창상피복재를 주력 사업으로 영위하고 있으며, 고분자 소재 기술을 바탕으로 코스메틱 등 제품군도 개발·판매하고 있습니다.",
+    "business_model": "주요 수익원은 창상피복재로, 2025 회계연도 기준 창상피복재가 영업수익의 89.5%를 차지합니다(창상피복재: 123,573 (89.5%)). 나머지는 정형외과용고정제 5.4%와 기타 5.1%로 구성되며, 창상피복재의 고분자 기술을 활용해 마이크로니들 및 코스메틱 제품도 생산·판매하고 있습니다.",
+    "main_customers": "창상피복재 — 의료기관(병원·클리닉) 및 일반 소비자(트러블케어) / 정형외과용고정제 — 병원·정형외과(의료기관) / 기타 — 코스메틱 유통업체 및 소비자",
+    "price_factors": [
+      {
+        "factor": "인허가 규제",
+        "detail": "식품의약품안전처의 의료기기 인허가 절차로 제품 출시·유통이 지연되거나 비용이 발생할 수 있습니다."
+      },
+      {
+        "factor": "소모품 구조",
+        "detail": "창상피복재는 소모품 성격으로 반복 구매가 발생해 수요가 비교적 안정적이며 실적 변동성이 낮습니다."
+      },
+      {
+        "factor": "판촉 규제",
+        "detail": "의료인·의료기관 대상 경제적 이익 제공 제한으로 영업·마케팅 활동이 규제되어 판촉 전략에 제약이 생깁니다."
+      },
+      {
+        "factor": "대외환경",
+        "detail": "미국 등 해외 관세·통관 환경 변화는 수출·주문 지연과 매출에 단기적 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 고기능성소재 전문 기업으로"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "창상피복재: 123,573 (89.5%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "주로 삼출액(진물)이 적은 찰과상 등의 가벼운 상처"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 규제환경",
+        "evidence_text": "모든 의료기기는 시장 유통을 위해서는 식품의약품안전처의 인허가 과정을 거쳐야 합니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4989,
+    "completion_tokens": 3837,
+    "reasoning_tokens": 3072,
+    "output_tokens": 765
+  },
+  "warnings": []
+}

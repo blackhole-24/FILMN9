@@ -1,0 +1,78 @@
+{
+  "stock_code": "003280",
+  "corp_name": "흥아해운",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 09:42",
+  "meta": {
+    "wics": "해운사",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "흥아해운은 해운·물류를 영위하는 운송·창고 업종의 해운사로, 해상 물동량과 세계 경기 흐름의 영향을 크게 받는 사업 구조를 갖고 있습니다. 2025년에는 별도재무제표 기준 매출액 1,555억 원, 영업이익 108억 원, 당기순이익 303억 원을 기록했습니다.",
+    "business_model": "공개된 사업부문별 매출 비율 자료가 없어 부문별 비중은 확인되지 않습니다. 다만 회사는 해운을 중심으로, 기타 사업으로 부동산 임대 관련과 해운 대리·선박관리 관련 업무를 함께 영위하고 있습니다. 또한 3.5K급 소형선 매각, 26K급 친환경 스테인리스 선박 신조 발주 추진, 해외 전진배치 네트워크 구축 등을 통해 선대 운영과 물류 대응력을 강화하려는 흐름을 보입니다.",
+    "main_customers": "해운 — 화물 운송을 필요로 하는 고객 / 해운대리·선박관리 — 선박 운영 관련 서비스 이용 고객 / 부동산 임대 — 임차 수요자",
+    "price_factors": [
+      {
+        "factor": "운임시장",
+        "detail": "하반기 경기침체처럼 운임 시장이 약해지면 해운 수익성이 둔화될 수 있습니다."
+      },
+      {
+        "factor": "물동량",
+        "detail": "세계 해상 물동량이 늘면 해운 수요가 확대되어 실적에 긍정적으로 작용할 수 있습니다."
+      },
+      {
+        "factor": "환율",
+        "detail": "재무제표가 US Dollar를 기능통화로 작성되는 만큼 환율 변동은 외화 자산·부채 평가와 실적에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "선대구성",
+        "detail": "소형선 매각과 신조 발주, 추가 도입 여부에 따라 운항 효율과 자금 구조가 달라질 수 있습니다."
+      },
+      {
+        "factor": "에너지전환",
+        "detail": "친환경 선박과 대체 연료 중심의 산업 변화는 향후 선박 투자와 운영 방향에 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "기업 기본 정보",
+        "evidence_text": "업종 / WICS 섹터: 운송·창고 / 해운사"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "MD&A",
+        "evidence_text": "별도재무제표 기준 매출액 1,555억 원, 영업이익 108억 원"
+      },
+      {
+        "field": "business_model",
+        "source_section": "MD&A",
+        "evidence_text": "기타는 부동산 임대관련분과 해운대리 및 선박관리분에 대한 것입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "MD&A",
+        "evidence_text": "26K급 친환경 스테인리스 선박 3~4척의 신조 발주"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "세계 경기 변동과 밀접한 관계를 맺고 있어"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 3997,
+    "completion_tokens": 807,
+    "reasoning_tokens": 0,
+    "output_tokens": 807
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

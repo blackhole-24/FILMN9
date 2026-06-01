@@ -1,0 +1,82 @@
+{
+  "stock_code": "431190",
+  "corp_name": "케이쓰리아이",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 19:30",
+  "meta": {
+    "wics": "IT서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "케이쓰리아이는 2000년도 설립 후 웹 기반 시스템통합(SI) 사업을 중심으로 성장하다가 2011년부터 AR·VR·MR 등 XR 기술 연구개발을 통해 사업화에 성공한 XR 서비스 구축 전문기업입니다. 국내 최초의 증강현실 엔진(MovAR SDK)과 저작도구(MovAR Studio)를 포함한 XR 미들웨어(Universe XR Framework)를 보유하고 공공·민간 분야의 다양한 XR 서비스 개발에 참여하고 있습니다.",
+    "business_model": "주요 수익은 내수(83.8%)와 디지털트윈 및 기타(16.2%)로 구성되어 있으며(FY2025 기준), 주력은 Universe XR Framework(XR 미들웨어) 기반의 XR 서비스 제공입니다. 또한 SI(시스템통합) 및 유지보수 서비스를 통해 계약 기반 매출을 확보하고 있습니다.",
+    "main_customers": "내수 — 공공·민간(교육·훈련·관광·문화·의료·제조·엔터테인먼트) / 디지털트윈 및 기타 — SI·유지보수 계약 고객",
+    "price_factors": [
+      {
+        "factor": "시장성장",
+        "detail": "글로벌 XR 시장의 연평균 성장(문서상 25%)으로 수요가 늘면 내수 기반의 매출 확대 기회가 증가할 수 있습니다."
+      },
+      {
+        "factor": "정부투자",
+        "detail": "디지털 뉴딜 등 대규모 정부 투자(문서상 ’25년까지 58.2조원)는 공공 발주 확대를 통해 내수 실적에 우호적으로 작용할 가능성이 있습니다."
+      },
+      {
+        "factor": "경쟁심화",
+        "detail": "글로벌 플랫폼 기업들의 개발도구 보급과 경쟁 가속화는 기술·기능 요구를 복잡하게 하여 기술 경쟁력이 실적에 직접적인 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "HW·AI융합",
+        "detail": "XR 기기 보급과 AI 에이전트 융합은 서비스의 부가가치를 높여 수주 경쟁력 및 콘텐츠 수요에 긍정적 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "XR 서비스 구축 전문기업입니다."
+      },
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "국내 최초로 증강현실 엔진(MovAR SDK)과 저작도구(MovAR Studio) 기술을 개발"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "내수: 10,082 (83.8%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "디지털트윈 및 기타: 2,701 (16.2%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "공공 및 민간에서 요구하는 교육ㆍ훈련, 관광ㆍ문화, 의료, 제조, 엔터테인먼트 분야"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "MD&A",
+        "evidence_text": "XR시장은 세계시장을 기준으로 연평균 25%로 성장하여"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "디지털 뉴딜은 '25년까지 58.2조원(국비 44.8조 원)을 투자"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4479,
+    "completion_tokens": 4546,
+    "reasoning_tokens": 3648,
+    "output_tokens": 898
+  },
+  "warnings": []
+}

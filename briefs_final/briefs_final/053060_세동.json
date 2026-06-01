@@ -1,0 +1,82 @@
+{
+  "stock_code": "053060",
+  "corp_name": "세동",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 03:06",
+  "meta": {
+    "wics": "자동차부품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "세동은 1986년 설립되어 2001년 코스닥에 상장된 자동차 외장부품 제조업체로, 도어벨트·몰딩·사출부품 등 외장재를 주력으로 생산합니다. 국내 완성차(현대·기아)를 주요 고객으로 두고 있으며, 국내 기반을 유지하면서 브라질 등 해외로 사업영역을 확장하고 있습니다.",
+    "business_model": "주력 제품은 금속·플라스틱 압출 및 사출 방식의 차량 외장부품(도어벨트, 도어프레임 가니쉬, 몰딩 등) 제조·판매이며, 주요 매출은 국내 완성차향 부품 공급에서 발생합니다. 제품별 매출 구성을 보면 일반사출물 36.95%, 도어벨트 31.15%, 몰딩 11.50%, 일반압출물 5.55%, 가스사출물 4.40%, 해외공장 제품 6.82%, 기타 3.60%, 가변압출물 0.02% 등으로 구성되어 있습니다.",
+    "main_customers": "압출·도어벨트 제품 — 국내 글로벌 완성차 제조업체(현대/기아차 등) / 사출(가니쉬) 제품 — 국내 완성차업체 / 해외공장 제품 — 브라질 등 해외 완성차업체 및 현지법인",
+    "price_factors": [
+      {
+        "factor": "완성차수요",
+        "detail": "완성차 생산량과 시장 경기 변동에 따라 수주·매출이 직접적으로 변동합니다."
+      },
+      {
+        "factor": "환율",
+        "detail": "환율 변동은 매출 및 원가에 영향을 주어 실적 민감도를 높입니다."
+      },
+      {
+        "factor": "전동화",
+        "detail": "하이브리드·전기차 전환 추세에 맞춘 제품 고급화·경량화 수요가 실적에 영향을 미칩니다."
+      },
+      {
+        "factor": "수주의존",
+        "detail": "완성차업체에 대한 수주 의존도가 높아 특정 고객사의 수요 변화에 취약합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "1986년 2월 설립되어 2001년 8월 코스닥에 상장"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "현대/기아차 등에 공급을 하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성 (표)",
+        "evidence_text": "59,013(31.15%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "국내를 기반으로 브라질까지 사업영역을 확장하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 다. 업계의 현황 (1) 산업의 특성",
+        "evidence_text": "완성차 업체 및 시장 경기에 직접적으로 영향을 받고"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 다. 업계의 현황 (1) 산업의 특성",
+        "evidence_text": "환율, 경제성장율 등이 매출에 미치는 영향이 매우 큽니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "하이브리드, 전기차 등의 전기동력차의 전환이 빠르게 이루어지고"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5197,
+    "completion_tokens": 4648,
+    "reasoning_tokens": 3712,
+    "output_tokens": 936
+  },
+  "warnings": []
+}

@@ -1,0 +1,72 @@
+{
+  "stock_code": "007590",
+  "corp_name": "동방아그로",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 19:50",
+  "meta": {
+    "wics": "화학",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "동방아그로는 1971년에 설립된 농업용 약제(농약) 제조업체로, 유액제·수화제·입제 등 다양한 제형의 농약 및 비료를 생산·공급합니다. 자동화 생산체계를 갖추고 다기능·친환경 제품 개발에 주력하고 있습니다.",
+    "business_model": "사업부문별 매출 비중은 농약 제조 29.9%, 수화제 7.8%, 분제 0.4%, 입제 11.8%, 기타 0.2%로 표기되어 있으며(사업부문별 매출 구성), 유액제와 입제가 매출의 50% 이상을 차지하는 제형 중심의 생산·판매가 핵심 수익원입니다.",
+    "main_customers": "농약 제조·제형(유액제·수화제·입제) — 농가·농작물 재배자",
+    "price_factors": [
+      {
+        "factor": "원재료·환율",
+        "detail": "원재료 대부분을 수입에 의존하므로 원자재 가격 상승 및 환율 상승 시 비용 증가로 실적에 부정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "기상변화",
+        "detail": "기상변화와 병충해 발생에 따라 수요가 크게 변동하여 판매와 재고에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "규제·환경",
+        "detail": "환경·안전 관련 규제와 허가기준 준수가 강제되어 생산·유통 비용 및 영업활동에 영향이 있을 수 있습니다."
+      },
+      {
+        "factor": "국제경쟁",
+        "detail": "국내 시장이 다국적 기업과 국내 기업으로 양분되어 과점적 구조를 형성하고 있어 기술·자본을 가진 외국계와의 경쟁압력이 존재합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "농업용 약제의 제조 및 가공판매업을 주사업 목적으로"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "농약 제조: 98,087,364 (29.9%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황",
+        "evidence_text": "유액제와 입제가 매출의 50%이상을 차지하고 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "시장 여건 및 영업의 개황",
+        "evidence_text": "농약산업은 국내의 식량자급 및 농가소득과 밀접한 산업"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "영업 현황",
+        "evidence_text": "원재료의 가격변화 및 환율의 상승이 가격변동의 주요 원인입니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5362,
+    "completion_tokens": 4569,
+    "reasoning_tokens": 3840,
+    "output_tokens": 729
+  },
+  "warnings": []
+}

@@ -1,0 +1,67 @@
+{
+  "stock_code": "024120",
+  "corp_name": "KB오토시스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 22:52",
+  "meta": {
+    "wics": "자동차부품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "KB오토시스는 1985년 설립된 자동차 제동부품(브레이크 패드·라이닝) 전문 제조기업으로 단일 사업부문을 바탕으로 사업을 영위하고 있습니다. 한국 본사를 거점으로 중국 장가항, 인도 첸나이, 미국 조지아에 생산법인을 두고 미국 디트로이트의 연구법인을 통해 글로벌 고객 대응을 하고 있습니다.",
+    "business_model": "핵심 사업은 자동차용 브레이크 패드 및 라이닝의 제조·판매이며 제조부문(브레이크 패드·라이닝)이 매출의 99.4%를 차지하고 기타가 0.6%를 차지합니다. 주로 OEM(완성차사 납품)과 AM(애프터마켓)용 제품을 공급하며, 생산공정 자동화와 신소재(친환경 마찰재) 개발을 통한 경쟁력 확보에 주력하고 있습니다.",
+    "main_customers": "제조부문 — 완성차업체 및 글로벌 OEM(현대자동차, 기아자동차, 현대모비스, HL만도, GM 등)",
+    "price_factors": [
+      {
+        "factor": "모업체 생산",
+        "detail": "완성차 제조사의 생산량 변화에 따라 매출이 직접적으로 증감하므로 자동차 업황에 민감하게 반응합니다."
+      },
+      {
+        "factor": "환율(원·외화)",
+        "detail": "원자재 상당부분을 수입하고 있어 달러·엔 등 환율 변동이 원가와 영업외손익에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "원가(임금)",
+        "detail": "임금(노무비) 인상 및 공정 합리화 비용이 제품 단가와 수익성에 영향을 줍니다."
+      },
+      {
+        "factor": "OEM 인증/품질",
+        "detail": "OEM 납품을 위한 초기 설계·실차시험·승인 과정이 길어 품질·기술 경쟁력이 실적 지속성에 중요한 변수입니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 1. 사업의 개요",
+        "evidence_text": "단일 사업부문으로 구성된 자동차 부품 기업입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 2. 주요 제품 및 서비스",
+        "evidence_text": "회사의 주요 제품은 BRAKE PAD, LINING 등으로"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "현재 현대자동차, 기아자동차, GM 등 글로벌OEM 업체로부터 꾸준한 수주를 하고"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 경쟁 환경 및 시장 특성",
+        "evidence_text": "원자재의 상당부분을 외국에서 수입하고 있어 외환위험에 노출되어 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5088,
+    "completion_tokens": 3048,
+    "reasoning_tokens": 2304,
+    "output_tokens": 744
+  },
+  "warnings": []
+}

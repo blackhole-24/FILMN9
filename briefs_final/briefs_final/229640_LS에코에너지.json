@@ -1,0 +1,72 @@
+{
+  "stock_code": "229640",
+  "corp_name": "LS에코에너지",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 13:04",
+  "meta": {
+    "wics": "전기장비",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "LS에코에너지는 외국법인의 사업을 지배하는 지주회사로, 주로 자회사 배당금과 용역 제공에 따른 수익을 핵심 수익원으로 삼고 있습니다. 베트남에 전력·통신 케이블 생산 법인을 두고 있으며, LS-VINA는 베트남 전력 케이블 시장에서 1위를 차지하고 있습니다.",
+    "business_model": "지주회사로서 자회사들이 제조하는 전력·통신 케이블 및 핵심 소재를 통해 배당금 및 용역 수익을 확보하는 구조이며, FY2025 기준 사업부문별 영업수익은 LS-VINA가 79.0%, LS Cable & System Vietnam이 21.0%를 차지합니다. 자회사는 고압·중압·저압 전력케이블, 통신케이블, Cu/Al 로드 등 제품을 생산합니다.",
+    "main_customers": "LS-VINA Cable & System Joint Stock Co. — 베트남 전력시장 수요(전력케이블 수요자) / LS Cable & System Vietnam Co., Ltd — 통신 부문: 북미 데이터센터·인프라 프로젝트 수주처",
+    "price_factors": [
+      {
+        "factor": "데이터센터 수요",
+        "detail": "대규모 데이터센터 투자 확대는 고용량·고부가 케이블 수요를 늘려 실적에 긍정적 영향을 미칩니다."
+      },
+      {
+        "factor": "원자재(동)",
+        "detail": "제조 원가에서 동(Copper) 등 원재료 비중이 높아 국제 원자재 가격 변동이 수익성에 직접 영향을 줍니다."
+      },
+      {
+        "factor": "설비·규모의 경제",
+        "detail": "대규모 설비투자와 생산효율이 경쟁력 핵심이어서 설비투자 부담이나 가동률 변화가 실적에 영향을 줍니다."
+      },
+      {
+        "factor": "정치·지정학 리스크",
+        "detail": "미얀마 등 일부 지역의 정치·경제 불안은 자산손상과 영업제약으로 이어질 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 외국기업의 사업을 지배하는 지주회사로서"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "LS-VINA Cable & System Joint Stock Co.: 988,957 (79.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "북미 시장의 데이터센터 투자 확대"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "(1) 산업의 특성 등[전선산업]",
+        "evidence_text": "제조 원가 중 동(Copper) 등 원재료가 차지하는 비중이 매우 높아"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "미얀마 군부 쿠데타로 정치·경제적 불안이 지속"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4936,
+    "completion_tokens": 3873,
+    "reasoning_tokens": 3072,
+    "output_tokens": 801
+  },
+  "warnings": []
+}

@@ -1,0 +1,72 @@
+{
+  "stock_code": "389680",
+  "corp_name": "유디엠텍",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 18:43",
+  "meta": {
+    "wics": "IT서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "유디엠텍은 2007년 설립되어 기계어처리(MLP; Machine Language Processing) 원천기술을 바탕으로 자동화시스템용 AI솔루션과 통합 디지털제조 플랫폼을 제공하는 기업입니다. CPS(사이버물리시스템), Digital Twin 등 제조업의 스마트화 영역에 적용 가능한 기술을 보유하고 있으며, 2024년 11월 20일 코스닥에 상장하였습니다.",
+    "business_model": "주력 제품은 OPTRA Black-box 등 자동화시스템 AI솔루션이며, 사업부문별로 OPTRA Black-box 29.5%, UXIM Analyzer 17.1%, 용역 17.0%, 기타 5.9% 등으로 매출이 구성되어 있습니다(전사 30.4%). OPTRA Black-box는 설비 고장 분석·예지보전·공정 운영재현 등 제조 현장의 운영·진단을 목적으로 제공됩니다.",
+    "main_customers": "OPTRA Black-box — 자동차·2차전지·전기·전자 등 제조업체 / UXIM Analyzer — 제조업체(자동화시스템 운영처) / 용역 — 제조업체 대상 프로젝트형 용역 고객",
+    "price_factors": [
+      {
+        "factor": "수요성장",
+        "detail": "정부의 스마트팩토리 지원 및 시장 성장으로 솔루션 도입 수요가 늘면 실적에 긍정적 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "전방투자",
+        "detail": "2차전지 등 전방산업의 투자 축소 시 설비 도입·업그레이드 수요 감소로 매출에 부정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "경쟁심화",
+        "detail": "AI 산업 경쟁 심화는 기술·가격 경쟁을 촉발하여 영업환경에 부담을 줄 수 있습니다."
+      },
+      {
+        "factor": "지식재산",
+        "detail": "보유 특허 및 상표 출원은 기술적 진입장벽을 강화해 경쟁력 유지에 기여할 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "기계어처리(MLP; Machine Language Processing)라는 기술을 개발하여"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "OPTRA Black-box: 2,191 (29.5%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "전체 매출의 약 75%를 차지합니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "현재까지 적용된 주요 산업분야는 자동차, 2차전지, 전기/전자 영역이 있으며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "AI산업의 경쟁 심화는 당사에 위협이 될 것으로 보입니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4687,
+    "completion_tokens": 4579,
+    "reasoning_tokens": 3776,
+    "output_tokens": 803
+  },
+  "warnings": []
+}

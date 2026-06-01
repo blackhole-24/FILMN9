@@ -1,0 +1,69 @@
+{
+  "stock_code": "014440",
+  "corp_name": "영보화학",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 21:28",
+  "meta": {
+    "wics": "화학",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "영보화학은 가교발포 Polyolefin Foam(폴리올레핀 폼)을 주력으로 생산하는 화학업체로, PE·PP 기반의 환경친화적 폼을 자동차 내장재와 산업자재 등 광범위한 용도로 공급하고 있습니다. 자동차용 부품 공급(현대·기아 등)과 일반소재 사업을 병행하며, 2025년 말 총자산은 2,107억원, 자본은 1,913억원을 기록했습니다.",
+    "business_model": "핵심 제품인 가교발포 Polyolefin Foam의 성형성·완충성·단열성·부력성 등 물성을 활용해 자동차 내장재와 IT용 완충재·포장재 등 다양한 중간재를 제조·판매합니다. 연결종속기업의 매출 변동이 전체 매출에 영향을 미치며, 고부가가치 초박판 Foam 등 제품 포트폴리오에 따라 실적 변동성이 나타납니다.",
+    "main_customers": "자동차 내장재 — 현대·기아 등 자동차 제조사 / 산업자재 — IT기기 제조사 및 포장·신발·문구 제조업체",
+    "price_factors": [
+      {
+        "factor": "원재료비",
+        "detail": "주원료가 석유화학 범용수지(PE·PP)로 국제유가 변동 시 원가와 매출단가에 직접적 영향이 발생합니다."
+      },
+      {
+        "factor": "자동차수요",
+        "detail": "자동차 내장재 비중이 높아 완성차 수요 변동은 매출에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "대체재경쟁",
+        "detail": "PU·PS·PVC 등 경쟁제품과의 대체성에 따라 제품 수요와 가격경쟁력이 달라집니다."
+      },
+      {
+        "factor": "진입장벽",
+        "detail": "초기투자와 기술축적이 큰 자본·기술집약 산업 특성으로 경쟁구도가 과점화되어 가격·생산기반에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 가. 업계의 현황 (1) 산업의 특성",
+        "evidence_text": "경기 사이클상으로 아직은 시장 확장기에 있으며,"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "당사는 Polyolefin Foam이 가진 특성(성형성, 완충성, 단열성, 부력성)을 최대한 이용해 다음의 제품을 생산 판매하고 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "자동차 내장재 분야 : 현대, 기아에서 생산되는 주요 차량에"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 가. 업계의 현황 > 5) 자원조달의 특성",
+        "evidence_text": "국제유가의 변동에 따라 가격변동이 초래될 수 있으며"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 5047,
+    "completion_tokens": 3803,
+    "reasoning_tokens": 3008,
+    "output_tokens": 795
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

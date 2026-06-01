@@ -1,0 +1,77 @@
+{
+  "stock_code": "161890",
+  "corp_name": "한국콜마",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 10:37",
+  "meta": {
+    "wics": "화장품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "한국콜마는 화장품 ODM(Original Development & Design Manufacturing) 방식을 국내에 정착시키며 업계 선도 지위를 유지하는 기업입니다. 자회사 ㈜연우(패키징)와 에이치케이이노엔(전문의약품)을 보유해 화장품 중심의 사업 포트폴리오를 다각화하고 있습니다.",
+    "business_model": "FY2025 기준 색조 매출은 13.5%이고 기타는 0.0%를 차지합니다(사업부문별 영업수익 구성). 화장품 부문은 당사 연구개발과 처방 소유 하의 ODM 방식이 매출의 95% 이상을 차지하며, 패키징(용기 제조)과 전문의약품(의약품 R&D·생산) 사업을 통해 수직적·수평적 연계를 도모합니다.",
+    "main_customers": "화장품 — 애터미, 카버코리아, 씨제이올리브영 및 약 900여개 이상의 국내외 고객사 / 패키징(㈜연우) — 국내: 아모레퍼시픽, LG생활건강, 인디브랜드; 해외: 북미 Sales Partner 및 글로벌 화장품 브랜드 / 전문의약품 — 명시된 고객 정보 없음",
+    "price_factors": [
+      {
+        "factor": "유통채널",
+        "detail": "온라인·비대면 채널 확대는 고객사의 유통전략 변화를 유발해 매출 구성에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "소비트렌드",
+        "detail": "비건·더마·인디브랜드 등 트렌드 변화는 제품 수요와 R&D 요구에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "원부자재",
+        "detail": "부재료를 매입하는 형태에 따라 판매가격의 변화가 심하므로 원가·마진에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "경쟁구도",
+        "detail": "국내 ODM/OEM 시장에서 상위 3사(한국콜마·코스맥스·코스메카코리아) 점유율이 약 40%대로 경쟁 구도가 실적 변수입니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "3) 영업의 개황 등",
+        "evidence_text": "ODM/OEM업계 선도업체로서 그 지위를 유지하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황",
+        "evidence_text": "당사 화장품 부문 매출의 95% 이상이 이에 해당됩니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "색조: 368,653 (13.5%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "3) 영업의 개황 등",
+        "evidence_text": "약 900여개 이상의 고객사와 거래하고 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "국내 고객사는 아모레퍼시픽과 LG생활건강"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 산업분석",
+        "evidence_text": "온라인, 홈쇼핑 등 비대면 채널은 상대적으로 빠르게 성장하였습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4512,
+    "completion_tokens": 5582,
+    "reasoning_tokens": 4736,
+    "output_tokens": 846
+  },
+  "warnings": []
+}

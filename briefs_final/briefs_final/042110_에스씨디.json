@@ -1,0 +1,76 @@
+{
+  "stock_code": "042110",
+  "corp_name": "에스씨디",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 01:38",
+  "meta": {
+    "wics": "전기제품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "에스씨디는 전기·전자 업종의 전기제품 제조기업으로, 냉장고·에어컨 등 가전용 부품을 주로 생산합니다. 2025년 매출은 2024년 대비 약 1% 증가한 2,161억원이며, 영업이익과 당기순이익은 감소했습니다.",
+    "business_model": "핵심 사업은 전동기 및 모터류 등 가전용 부품 공급이며, FY2025 기준 전동기모터外이 매출의 91.4%를 차지하고 기타가 8.6%를 차지합니다. 주요 제품은 냉장고 관련부품(타이머, 냉매벨브, 댐퍼, 아이스메이커)과 에어콘 관련부품(BLDC모타) 등으로 가전 제조업체 대상 부품 납품이 핵심 수익원입니다.",
+    "main_customers": "전동기모터外 — 가전제품 제조사(냉장고·에어컨 제조업체) / 기타 — 기타 전자·가전 부품 수요처(ODM/OEM 포함)",
+    "price_factors": [
+      {
+        "factor": "외산·가격경쟁",
+        "detail": "외산 유입과 유통가격 경쟁 심화가 수익성(마진)에 직접적인 압박을 줄 수 있습니다."
+      },
+      {
+        "factor": "중국 저가경쟁",
+        "detail": "중국 등 로컬업체의 중저가 제품 확대로 가격경쟁이 심화되어 매출과 마진에 부정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "제품수명단축",
+        "detail": "가전제품의 라이프사이클이 짧아 신제품 대응에 실패하면 수요 감소로 실적이 영향을 받을 수 있습니다."
+      },
+      {
+        "factor": "경기민감도",
+        "detail": "수출의존도가 높은 가전산업 특성상 해외 및 국내 경기변동 시 실적 변동성이 커질 수 있습니다."
+      },
+      {
+        "factor": "기술·OEM",
+        "detail": "핵심부품 기술력과 OEM·제휴 경쟁이 제품 경쟁력을 좌우해 기술경쟁에서 밀릴 경우 불리해질 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "[경영진 실적·전략 요약 (MD&A)]",
+        "evidence_text": "매출액은 2024년 대비 약 1% 증가한 2,161억원"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[경영진 실적·전략 요약 (MD&A)]",
+        "evidence_text": "냉장고 관련부품(타이머, 냉매벨브, 댐퍼, 아이스메이커)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "전동기모터外: 197,565 (91.4%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "기 타: 18,572 (8.6%)"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "3) 시장의 특성",
+        "evidence_text": "국내 가전제품시장은 외산유입의 증가 및 유통가격의 경쟁심화 등"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3953,
+    "completion_tokens": 4121,
+    "reasoning_tokens": 3264,
+    "output_tokens": 857
+  },
+  "warnings": []
+}

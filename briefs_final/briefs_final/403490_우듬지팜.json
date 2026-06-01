@@ -1,0 +1,69 @@
+{
+  "stock_code": "403490",
+  "corp_name": "우듬지팜",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 18:54",
+  "meta": {
+    "wics": "식품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "우듬지팜은 부여군에 11.1ha 규모의 스마트팜 온실을 보유·운영하며 스테비아 토마토(브랜드: 토망고)를 개발·양산한 농업·식품 기업입니다. 2019년 스테비아 토마토 양산과 토망고 런칭 이후 매출이 성장하여 별도기준 2020년 232억원에서 2024년 626억원으로 확대되었습니다.",
+    "business_model": "핵심은 스마트팜 기반의 수직적 융복합 비즈니스로, 스마트팜 기획·설계·시공·재배 기술자문 및 운영을 제공하는 스마트팜 부문과, 스테비아 기술을 적용해 토마토를 재배·가공·유통하는 융복합사업 부문으로 구성됩니다. 자체 생산 물량 외에 계약농가·협력농가로부터 원물을 매입해 대형유통사 및 도매망을 통해 판매하는 유통 연계 구조가 수익 모델의 중심입니다.",
+    "main_customers": "스마트팜 부문 — 지자체 및 스마트팜 구축 수요자(기술이전·설계·시공) / 융복합사업(원물) — 일반 식자재 공급업체·대형유통사·전국 도매시장 및 중소형마트 / 융복합사업(가공·브랜드) — 대형 유통사를 중심으로 한 납품처",
+    "price_factors": [
+      {
+        "factor": "경매가격",
+        "detail": "토마토 원물은 시장 경매가격에 의해 단가가 결정되어 가격 변동성이 실적에 직접 영향을 줍니다."
+      },
+      {
+        "factor": "기후변화",
+        "detail": "기후변화로 인한 원물 수급 불안정과 원가 상승이 판매가격 및 수익성에 부담을 줄 수 있습니다."
+      },
+      {
+        "factor": "규제·위생",
+        "detail": "토망고 등 가공품은 해썹(HACCP) 인증과 폐수 관리 등 준수 의무로 생산비용과 관리 부담이 발생합니다."
+      },
+      {
+        "factor": "유통계약 의존",
+        "detail": "대형유통사 등 계약처 중심의 판매구조는 안정적 공급에는 유리하지만 특정 채널 의존도가 높아 채널 변화에 민감합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "business_model",
+        "source_section": "가. 영위 사업의 개요",
+        "evidence_text": "당사의 비즈니스는 스마트팜을 바탕으로 재배, 생산, 유통까지 연결하는 융복합 사업입니다."
+      },
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 부여군 스마트팜 원예단지내 전체 면적 11.1ha 스마트팜 온실을 직접 재배 생산하고 있으며,"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "마. 시장여건 및 영업의 개황 2) 토망고",
+        "evidence_text": "토망고는 국내시장 점유율은 80%수준에 달하고 있으며,"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "다. 법률/규정 등에 의한 규제사항 2)",
+        "evidence_text": "당사는 해썹 시설인증을 취득하였으며"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 5325,
+    "completion_tokens": 4757,
+    "reasoning_tokens": 3904,
+    "output_tokens": 853
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

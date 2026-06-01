@@ -1,0 +1,76 @@
+{
+  "stock_code": "003480",
+  "corp_name": "한진중공업홀딩스",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 09:42",
+  "meta": {
+    "wics": "가스유틸리티",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "한진중공업홀딩스는 다른 회사의 주식을 소유해 지배하는 것을 목적으로 하는 순수지주회사입니다. 자회사로 ㈜대륜E&S, ㈜대륜발전, ㈜한일레저 등을 두고 있으며, 지주회사로서 브랜드 관리와 자회사 운영을 중심으로 사업을 이어가고 있습니다. 주요 수익은 자회사 배당금, 상표권사용수익, 임대사업수익 등으로 구성됩니다.",
+    "business_model": "FY2025 사업부문별 영업수익은 도시가스공급업 64.8%, 발전전기업 32.5%, 골프장사업 1.8%, 투자 및 기타 0.9%로 구성됩니다. 회사 자체는 별도 사업을 영위하지 않는 순수지주회사이며, 자회사 사업을 통해 연결 실적이 만들어지는 구조입니다. 또한 브랜드 사용계약을 통한 상표권사용수익과 부동산 임대사업수익도 함께 발생합니다.",
+    "main_customers": "도시가스공급업 — 서울 및 경기북부 지역 약 110만 가구 / 골프장사업 — 골프장 이용 고객 / 발전전기업 — 전력 관련 사업 운영 대상",
+    "price_factors": [
+      {
+        "factor": "도시가스요금",
+        "detail": "도시가스요금은 도매요금 변동의 영향을 크게 받아, 요금 체계 변화가 도시가스공급업 수익성에 직접 영향을 줍니다."
+      },
+      {
+        "factor": "연료전지입찰",
+        "detail": "연료전지 발전사업 입찰 성과가 늘면 발전전기업의 물량 확보와 수익 기반 확대에 도움이 됩니다."
+      },
+      {
+        "factor": "LNG단가",
+        "detail": "LNG매입단가가 하락하면 발전부문 원가율이 개선되어 연결 영업이익에 긍정적으로 작용할 수 있습니다."
+      },
+      {
+        "factor": "골프수요",
+        "detail": "국내 골프 수요가 감소하면 골프장사업의 이용률과 수익성이 흔들릴 수 있습니다."
+      },
+      {
+        "factor": "임대수익",
+        "detail": "서울 강남구 삼성동 건물 임대와 같은 안정적 임대수익은 지주회사 영업수익의 보완 역할을 합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 다른회사의 주식을 소유함으로써 그 회사를 지배하는 것을 목적으로 하는 지주회사로서"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "도시가스공급업: 776,145 (64.8%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "발전전기업: 386,612 (32.5%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "골프장사업: 22,317 (1.8%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "약 110만 가구에 청정연료인 LNG를 연료원으로 하는 도시가스를 공급"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5476,
+    "completion_tokens": 851,
+    "reasoning_tokens": 0,
+    "output_tokens": 851
+  },
+  "warnings": []
+}

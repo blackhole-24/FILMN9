@@ -1,0 +1,81 @@
+{
+  "stock_code": "044450",
+  "corp_name": "KSS해운",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 01:55",
+  "meta": {
+    "wics": "해운사",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "KSS해운은 운송·창고(해운) 업종의 해상운송 서비스 제공 기업입니다. FY2025 기준 가스(GAS) 부문 중심의 매출 구조를 보유하며, VLGC 등 가스 운송 자산을 운용하고 장기계약 중심의 안정적 수익 구조를 유지하고 있습니다. 또한 국내 유일의 암모니아 운송 선사로서 친환경 연료 운송 수요에 대비하고 있습니다.",
+    "business_model": "FY2025 기준 사업부문별 영업수익은 GAS 86.0%, PRODUCT 8.1%, CHEMICAL 6.0%, 기타 0.1%로 GAS가 핵심 수익원입니다. 장기계약 중심의 영업과 VLGC 선박 운용을 통해 안정적 수익을 확보하고, 암모니아 운송 역량을 바탕으로 친환경 에너지 운송 수요에 대응하고 있습니다.",
+    "main_customers": "GAS — 에너지·LPG 화주(석유·화학 관련 기업) / PRODUCT — 석유제품·일반 화주(제조업체·무역업자) / CHEMICAL — 화학제품 화주(화학업체) / 기타 — 기타 해상운송 수요",
+    "price_factors": [
+      {
+        "factor": "선복공급(탄력성)",
+        "detail": "선복공급이 비탄력적이어서 공급 변화에 따른 운임 변동이 실적에 직접 영향을 미칩니다."
+      },
+      {
+        "factor": "국제교역 변동",
+        "detail": "미·중 통상갈등 등 글로벌 교역 불확실성은 운송 수요와 운임 변동성을 키워 실적에 영향을 줍니다."
+      },
+      {
+        "factor": "원자재·LPG 수요",
+        "detail": "LPG·원유 등 다운스트림 수요 약화는 해상운임과 운송물량 감소로 실적에 부정적 영향을 미칩니다."
+      },
+      {
+        "factor": "금리·자본비용",
+        "detail": "선박 보유·매입 등 자본집약적 구조로 금리 변동에 따라 이자비용 및 재무비용이 실적에 영향을 줍니다."
+      },
+      {
+        "factor": "장기계약 비중",
+        "detail": "장기계약 중심의 영업구조는 운임 하락기에도 비교적 수익 안정성을 제공하여 실적 변동성을 완화합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "다. 사업부문별 현황",
+        "evidence_text": "이들 사업부문은 해운업 단일 업종입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "GAS: 482,699 (86.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "PRODUCT: 45,317 (8.1%)"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 해운업의 특성 (해운업)",
+        "evidence_text": "선복공급면에서 상당히 비탄력적인 시장을 형성하는"
+      },
+      {
+        "field": "business_model",
+        "source_section": "1) GAS TANKER",
+        "evidence_text": "당사는 장기계약 중심의 안정적인 사업 구조를 통해 견조한 실적을 유지했습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "1) GAS TANKER",
+        "evidence_text": "국내 유일의 암모니아 운송 선사로서 축적된 역량을 바탕으로"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4141,
+    "completion_tokens": 5224,
+    "reasoning_tokens": 4288,
+    "output_tokens": 936
+  },
+  "warnings": []
+}

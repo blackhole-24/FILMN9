@@ -1,0 +1,67 @@
+{
+  "stock_code": "246250",
+  "corp_name": "에스엘에스바이오",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 13:39",
+  "meta": {
+    "wics": "제약",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "에스엘에스바이오는 2007년 설립된 의약품 품질관리, 신약개발지원 및 체외진단기기 사업을 영위하는 기업입니다. 전문 연구원들이 연구개발 성과를 쌓아 국내외 의약품 품질관리 및 신약개발지원 분야와 체외진단 검사키트 개발을 통해 치료·예방 의학에 기여하고자 합니다.",
+    "business_model": "주요 사업은 의약품 품질관리(수탁 시험), 신약개발지원(후보물질 탐색·평가 지원) 및 체외진단기기 개발로 구성되어 있으며, FY2025 기준 영업수익의 97.0%가 용역(수탁 시험 등)에서 발생합니다. 자체 NTMD 기술 기반 진단키트 개발을 통한 글로벌 진단 전문회사 도약을 목표로 하고 있습니다.",
+    "main_customers": "의약품 품질관리 — 자가품질관리를 할 수 없는 고객사(제약사·의약품 수입자) / 신약개발지원 — 신약개발 기업(후보물질 탐색·평가 수요자) / 체외진단기기 — 검사키트 도입 수요처",
+    "price_factors": [
+      {
+        "factor": "규제지정",
+        "detail": "식약처 지정 여부가 수탁기관 자격과 사업수주에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "진입장벽",
+        "detail": "장비·인력 투자와 꾸준한 품질관리 실적이 필요해 신규진입이 제한적이며 기존 업체에 유리합니다."
+      },
+      {
+        "factor": "수탁수요",
+        "detail": "자가품질관리 불가능한 고객사의 위탁 수요 증감이 매출 변화로 연결됩니다."
+      },
+      {
+        "factor": "현금흐름",
+        "detail": "최근 현금성자산 감소는 단기 재무여력과 영업집행에 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "의약품 품질관리, 신약개발지원 및 체외진단기기 사업을 영위"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "용역: 3,864,887,751 (97.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "자가품질관리를 할 수 없는 고객사의 품질 관리 업무를 수탁"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "식품의약품안전처로부터 지정 받은 회사입니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3399,
+    "completion_tokens": 3662,
+    "reasoning_tokens": 2944,
+    "output_tokens": 718
+  },
+  "warnings": []
+}

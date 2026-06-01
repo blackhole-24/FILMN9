@@ -1,0 +1,79 @@
+{
+  "stock_code": "214270",
+  "corp_name": "FSN",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 12:11",
+  "meta": {
+    "wics": "양방향미디어와서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "FSN은 기획·제작·매체운영·데이터분석을 아우르는 통합 디지털 마케팅(One-Stop) 서비스를 제공하는 기업으로, 국내 디지털 마케팅 시장에서 선도적 위치를 확보하고 있습니다. 2024년 광고 취급액 5,693억 원을 달성하며 국내 주요 광고대행사 Top 5에 진입했고, 다수의 전문 자회사를 통해 통합 마케팅 역량을 강화하고 있습니다.",
+    "business_model": "핵심은 전 영역의 디지털 마케팅 서비스(기획·제작·매체 운영·데이터 분석)를 통합 제공하는 광고마케팅 사업이며, 브랜드 및 플랫폼(예: 부스터즈 중심) 사업을 병행해 수익을 창출합니다. 또한 애드쿠아인터렉티브, 마더브레인, 넥스트미디어그룹, 레코벨, 카울리 등 전문 자회사 포트폴리오를 통해 통합 마케팅·플랫폼 역량을 강화하고 있습니다. (사업부문별 표기는: 브랜드 및 플랫폼 / 기타)",
+    "main_customers": "마케팅 — 광고주(기업 광고주) / 브랜드 및 플랫폼 — 파트너 브랜드 및 자사몰·네이버 스마트스토어를 통한 소비자",
+    "price_factors": [
+      {
+        "factor": "광고집행 규모",
+        "detail": "광고 취급액 변화는 광고대행 수익에 직접 연결되어 실적·주가에 영향이 큽니다."
+      },
+      {
+        "factor": "브랜드 성장",
+        "detail": "브랜드·플랫폼 부문 성장세는 매출과 영업이익에 큰 영향을 미칩니다."
+      },
+      {
+        "factor": "자회사 역량",
+        "detail": "자회사 포트폴리오의 성과와 기술력은 수익성 개선 및 경쟁력에 직결됩니다."
+      },
+      {
+        "factor": "해외 진출",
+        "detail": "일본 등 해외 성과가 확대되면 매출 확대와 성장성 평가에 긍정적 요인이 됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "(1) 마케팅",
+        "evidence_text": "전 영역의 디지털 마케팅 서비스를 통합적으로 제공하는 One-Stop 사업 구조"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "(1) 마케팅",
+        "evidence_text": "광고 취급액 5,693억 원을 달성하며 국내 주요 광고대행사 Top 5에 진입하였으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "(1) 마케팅",
+        "evidence_text": "주요 자회사로는 통합 마케팅... '애드쿠아인터렉티브', 퍼포먼스 마케팅 솔루션 기업 '마더브레인'"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "(1) 마케팅",
+        "evidence_text": "광고주에게 차별화된 마케팅 솔루션을 제공하며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[경영진 실적·전략 요약 (MD&A)]",
+        "evidence_text": "연결기준 매출액 2,723억 원, 영업이익 305억 원"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[경영진 실적·전략 요약 (MD&A)]",
+        "evidence_text": "브랜드 및 플랫폼 사업 부문의 고속 성장"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 3443,
+    "completion_tokens": 4624,
+    "reasoning_tokens": 3776,
+    "output_tokens": 848
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

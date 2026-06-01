@@ -1,0 +1,81 @@
+{
+  "stock_code": "005720",
+  "corp_name": "넥센",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 09:44",
+  "meta": {
+    "wics": "자동차부품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "넥센은 지주회사로서 자동차타이어 등 고무제품을 중심으로 여러 사업을 함께 운영하고 있습니다. 연결 기준 2025년 12월 31일 매출액은 35,865억원이며, 고무부문과 물류부문이 전체 실적을 이끄는 구조입니다.",
+    "business_model": "사업부문별 매출 구성은 고무부문 97.8%, 물류부문 10.3%, 임대부문 0.1%, 기타 0.8%입니다. 핵심은 자동차타이어 등 고무제품의 제조·판매이며, 수출입물류 서비스, 부동산 임대·매매, 자동차타이어용 몰드 판매, 골프장 운영도 함께 영위합니다. 회사는 지주회사 및 경영컨설팅 서비스와 함께 관계회사 지분법 수익도 매출 구성에 포함되는 구조입니다.",
+    "main_customers": "고무부문 — 완성차 업체, 타이어 구매 고객 / 물류부문 — 수출입 물류 이용 기업 / 임대부문 — 부동산 임차 수요처 / 기계부문 — 자동차타이어용 몰드 수요 기업 / 골프장부문 — 골프장 이용 고객",
+    "price_factors": [
+      {
+        "factor": "타이어수요",
+        "detail": "타이어산업은 자동차산업의 후방산업이라 신차 생산과 차량 운행이 늘수록 OE(신차용)·RE(교체용) 수요가 함께 영향을 받습니다."
+      },
+      {
+        "factor": "원재료",
+        "detail": "천연고무와 석유화학제품의 해외 의존도가 높아 국제 원자재 시황과 환율 변동이 수익성에 직접적인 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "보호무역",
+        "detail": "주요국의 보호무역주의가 강화되면 매출원가와 비용이 늘어 영업이익에 부담이 될 수 있습니다."
+      },
+      {
+        "factor": "프리미엄OE",
+        "detail": "프리미엄 완성차 업체 중심의 신차용 타이어 공급 확대는 고무부문 판매량과 실적 개선에 긍정적으로 작용합니다."
+      },
+      {
+        "factor": "물류수요",
+        "detail": "3PL(제3자 물류)과 해외법인 영업이 확대되면 물류부문 매출이 늘 수 있지만, 선임 하락은 수익성에 부담이 될 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 지주회사이며 고무, 물류, 임대 부문등으로 구분됩니다."
+      },
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "2025년 12월 31일기준 35,865억원의 매출액을 실현하였습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "고무부문 | 3,516,098,677"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "물류부문 | 369,464,090"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "임대부문 | 3,684,836"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "기타 | 28,763,591"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5809,
+    "completion_tokens": 911,
+    "reasoning_tokens": 0,
+    "output_tokens": 911
+  },
+  "warnings": []
+}

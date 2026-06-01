@@ -1,0 +1,71 @@
+{
+  "stock_code": "002920",
+  "corp_name": "유성기업",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 18:17",
+  "meta": {
+    "wics": "자동차부품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "유성기업은 자동차 엔진용 내연기관 부품을 주로 생산·판매하는 기업으로, 연결대상 종속회사들과 함께 피스턴링, 실린더라이너, 캠샤프트 등 엔진부품을 주요 제품으로 취급합니다. 이들 내연기관 부품 사업의 매출액과 자산이 회사 및 종속회사 전체의 대부분을 차지합니다.",
+    "business_model": "핵심 사업은 '내연기관부품제조및 판매'로, 피스턴링·실린더라이너 등 엔진 부품을 OEM(주문자상표부착생산) 및 보수용으로 납품하는 구조입니다. 사업부문별 매출 비중은 피스턴링외 11.55%, 실린더라이너외 16.27%, 상품(피스턴·S/P라이너) 32.62%, HLA·발브시트외 39.08%, 설물·기타 0.48%로 구성되어 있습니다.",
+    "main_customers": "내연기관부품제조및 판매 — 국내 현대·기아 등 완성차업체, 중장비·농기계업체 및 내연기관 생산업체 / 해외 — 미국·동남아·중동 등지의 보수용 수요처",
+    "price_factors": [
+      {
+        "factor": "완성차 생산",
+        "detail": "국내 완성차사 생산상황 변화에 따라 부품 수요가 직·간접적으로 영향을 받습니다."
+      },
+      {
+        "factor": "경기민감도",
+        "detail": "자동차 수요는 경기변동에 민감해 경기침체 시 부품 판매가 감소할 수 있습니다."
+      },
+      {
+        "factor": "원가상승",
+        "detail": "매출원가 등의 상승은 실적과 이익률에 직접적인 압박을 줍니다."
+      },
+      {
+        "factor": "환경규제",
+        "detail": "환경규제 강화에 대응한 설비·관리 비용이 발생할 수 있습니다."
+      },
+      {
+        "factor": "노사이슈",
+        "detail": "과거 노조 파업 및 소송 사례처럼 노사관계는 생산차질과 비용 증가 요인이 됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "[DART 사업보고서 — 영업 현황]",
+        "evidence_text": "자동차부품(내연기관부품)을 생산하여"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "119,029,671(39.08)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "[DART 사업보고서 — 영업 현황]",
+        "evidence_text": "주로 국내 현대ㆍ기아자동차를 비롯한 국내자동차회사"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "[DART 사업보고서 — 영업 현황]",
+        "evidence_text": "ISO14001시스템을 도입하여"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4372,
+    "completion_tokens": 4710,
+    "reasoning_tokens": 3968,
+    "output_tokens": 742
+  },
+  "warnings": []
+}

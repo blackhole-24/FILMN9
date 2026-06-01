@@ -1,0 +1,67 @@
+{
+  "stock_code": "041830",
+  "corp_name": "인바디",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 01:33",
+  "meta": {
+    "wics": "건강관리장비와용품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "인바디는 1996년 설립된 글로벌 의료기기 제조기업으로 본사는 서울에 있습니다. 체성분분석기, 자동혈압계, 신장계, 소프트웨어 등 진단용 전자의료기기를 주력으로 하며 국내 4개, 해외 14개 법인 등 총 18개 종속회사를 통해 전 세계 시장에 제품을 공급하고 있습니다.",
+    "business_model": "핵심 수익원은 전문가용 체성분분석기로, 사업부문별 매출 구성에서 전문가용 제품이 69.4%를 차지하며 소모품·자재·결과지 등은 8.5%를 차지합니다. 제품 판매는 직판 및 국내외 대리점망을 통해 이뤄지며, 해외 매출비중이 높아(해외 83%, 국내 17%) 글로벌 B2B 채널(병원·피트니스·클리닉)을 중심으로 수익을 창출합니다.",
+    "main_customers": "전문가용 체성분분석기 — 양방/한방 병원·피트니스센터·비만클리닉·건강검진센터 / 소모품·가정용 제품 — 학교·군부대·기업·일반 소비자",
+    "price_factors": [
+      {
+        "factor": "해외매출 비중",
+        "detail": "해외 매출비중(83%)이 높아 달러/원 환율 변동 및 수출국 통상정책(관세 등)이 실적에 직접적 영향을 미칩니다."
+      },
+      {
+        "factor": "규제·인증",
+        "detail": "FDA, CE, MHLW 등 인증 확보가 필수여서 규제변화나 인증비용 증가가 제품 출시와 비용 구조에 영향을 줍니다."
+      },
+      {
+        "factor": "수요환경",
+        "detail": "고령화·건강관심 증대 및 비만클리닉·피트니스 수요 확대로 전문가용 장비 수요가 변동합니다."
+      },
+      {
+        "factor": "기술·개발비",
+        "detail": "전자의료기기는 기술집약적이며 제품 라이프사이클이 짧아 R&D 투자와 신제품 개발 비용이 실적에 부담이 될 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "당사는 1996년 회사 설립 이후 서울에 본사를 두고"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "162,365,464 (69.4%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "19,992,041 (8.5%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "주요 매출처는 양방/한방 병원, 피트니스센터, 비만클리닉"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4943,
+    "completion_tokens": 4284,
+    "reasoning_tokens": 3520,
+    "output_tokens": 764
+  },
+  "warnings": []
+}

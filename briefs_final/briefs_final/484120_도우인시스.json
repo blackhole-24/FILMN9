@@ -1,0 +1,67 @@
+{
+  "stock_code": "484120",
+  "corp_name": "도우인시스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 20:52",
+  "meta": {
+    "wics": "디스플레이장비및부품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "도우인시스는 폴더블 스마트폰용 UTG(Ultra Thin Glass, 초박형 강화유리)를 주력으로 연구·제조·판매하는 전문 기업으로, 플렉시블 디스플레이 패널에 사용되는 기능성 유리를 공급합니다. 삼성디스플레이의 1차 협력사로서 삼성전자 등 글로벌 폴더블 스마트폰 제조사에 적용되는 UTG를 납품하고 있습니다.",
+    "business_model": "핵심 수익원은 제품(주로 UTG) 판매이며, FY2025 기준 사업부문별 영업수익 구성은 제품 85.5%, 제품외 14.5%, 기타 0.0%로 제품 매출 비중이 높습니다. 당사는 UTG의 설계·강화·양산 기술을 바탕으로 삼성디스플레이에 전량 공급하고, 최종적으로 삼성전자·구글·샤오미·비보·오포 등 폴더블 스마트폰 제조사에 적용되는 제품을 모듈 형태로 제공하고 있습니다.",
+    "main_customers": "제품 — 삼성디스플레이(전량 공급) 및 최종 스마트폰 제조사(삼성전자, 구글, 샤오미, 비보, 오포) / 제품외 — (보고서에 별도 고객명시 없음)",
+    "price_factors": [
+      {
+        "factor": "고객집중",
+        "detail": "삼성디스플레이 등 주요 패널사에 대한 매출 집중은 특정 고객의 발주 변동에 따라 실적에 큰 영향을 미칩니다."
+      },
+      {
+        "factor": "패널과점",
+        "detail": "SDC·BOE의 과점 구조로 공급처 다변화가 어렵고, 패널사 전략 변화가 매출에 직접적 영향을 줍니다."
+      },
+      {
+        "factor": "폴더블수요",
+        "detail": "폴더블 디스플레이 패널의 생산량이 UTG 수요를 결정하므로 패널 출하량 변동이 실적에 직결됩니다."
+      },
+      {
+        "factor": "판가하락",
+        "detail": "보고서상 판가 하락과 판매수량 감소가 매출 및 수익성 축소의 직접적 원인으로 지적되었습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "플렉시블 디스플레이 패널에 사용되는 기능성 유리를 제조 판매하는 전문 기업입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "- 제 품: 81,262 (85.5%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "나. 주요 제품 등의 내용",
+        "evidence_text": "당사가 생산하는 UTG는 삼성디스플레이에 전량 공급하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "SDC가 43%, BOE테크놀로지그룹(이하 'BOE')이 34%의 점유율"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5406,
+    "completion_tokens": 3849,
+    "reasoning_tokens": 3072,
+    "output_tokens": 777
+  },
+  "warnings": []
+}

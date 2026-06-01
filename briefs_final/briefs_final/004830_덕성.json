@@ -1,0 +1,67 @@
+{
+  "stock_code": "004830",
+  "corp_name": "덕성",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 18:55",
+  "meta": {
+    "wics": "섬유,의류,신발,호화품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "덕성은 합성피혁을 주력으로 생산하는 화학업체로, 합성수지도 자체 생산하여 합성피혁의 원료를 내부조달하는 구조를 갖추고 있습니다. 합성피혁은 의류·신발·스포츠용품·가구·IT·잡화 등 다양한 용도로 쓰이는 소재입니다.",
+    "business_model": "주요 매출은 합성피혁(68.3%)이 중심이며, 합성수지(7.3%)는 합성피혁의 원료로 사용되고 기타 품목이 24.4%를 차지합니다. 자체 생산한 합성수지를 통해 원가 안정성과 조달 안정성을 확보하면서 합성피혁 판매가 핵심 수익원입니다.",
+    "main_customers": "합성피혁 — 의류·신발·스포츠용품·가구·내장재·IT·잡화 제조업체 / 합성수지 — 합성피혁 원료(내부조달) / 기타 — 제품·상품 관련 유통 및 기타 산업",
+    "price_factors": [
+      {
+        "factor": "원자재비",
+        "detail": "원재료비 상승 시 매입원가가 올라 영업이익이 감소할 가능성이 있습니다."
+      },
+      {
+        "factor": "환율",
+        "detail": "환율 변동은 내수·수출단가와 외환손익에 영향을 주어 실적 변동성을 키울 수 있습니다."
+      },
+      {
+        "factor": "계절성",
+        "detail": "용도별 계절적 수요 변동으로 매출이 계절에 따라 등락을 보일 수 있습니다."
+      },
+      {
+        "factor": "경쟁강도",
+        "detail": "국내외 다수 업체와의 경쟁으로 제품가격과 마진에 압박이 될 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "사업부문별 현황",
+        "evidence_text": "합성피혁은 공급에 한계가 있는 천연피혁을 대체하기 위하여 개발된 소재로서"
+      },
+      {
+        "field": "business_model",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "당사의 매출제품은 합성피혁이 68.3%, 합성수지가 7.3%, 그 외 기타가 24.4%를    차지하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "사업부문별 현황",
+        "evidence_text": "합성피혁의 내수, 수출단가는 하락하였습니다. 변동요인은 세부품목의 변동 및 환율 변동입니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "사업부문별 현황",
+        "evidence_text": "합성피혁의 세계시장은 대한민국,중국, 일본,대만이 주도 하고 있으며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4515,
+    "completion_tokens": 4175,
+    "reasoning_tokens": 3456,
+    "output_tokens": 719
+  },
+  "warnings": []
+}

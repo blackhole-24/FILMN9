@@ -1,0 +1,77 @@
+{
+  "stock_code": "179290",
+  "corp_name": "엠아이텍",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 10:53",
+  "meta": {
+    "wics": "건강관리장비와용품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "엠아이텍은 비혈관용(소화기내과용) 스텐트를 국내 최초로 개발한 의료기기 제조업체로, 정밀한 수작업 공정을 포함한 제조 방식으로 제품을 생산합니다. 제품군 다각화와 수출을 통해 국내외 시장에 진출해 있으며, 2020년부터는 후지필름 소화기 내시경 장비의 국내 수입·유통을 시작해 유통 기반을 확대했습니다.",
+    "business_model": "사업부문별 영업수익은 스텐트가 81.6%로 가장 큰 비중을 차지하고, 내시경(상품)이 9.4%, 기타가 9.1%를 차지합니다. 핵심 수익원은 비혈관 스텐트의 설계·제조·수출이며, CE MDR 등 글로벌 인허가 취득과 임상·연구개발을 통해 고부가가치 제품(예: 생분해성·약물방출형 스텐트) 개발을 추진하고 있습니다.",
+    "main_customers": "스텐트 — 소화기내과·의료기관(내시경 시술 중심) / 내시경 (상품) — 병원·임상현장(내시경 장비 사용자) / 기타 — 대리점·해외 유통망(수출 국가의 의료기관·판매채널)",
+    "price_factors": [
+      {
+        "factor": "시장성장",
+        "detail": "전 세계 비혈관 스텐트 시장의 연평균 성장 전망(약 4.9% CAGR)은 매출 확대에 우호적입니다."
+      },
+      {
+        "factor": "고령화",
+        "detail": "글로벌 인구 고령화는 소화기 질환 환자 증가로 스텐트 수요를 장기적으로 견인합니다."
+      },
+      {
+        "factor": "기술혁신",
+        "detail": "생분해성·약물방출형 등 차세대 스텐트 기술은 고부가가치 제품 수요를 창출합니다."
+      },
+      {
+        "factor": "규제인증",
+        "detail": "CE MDR·UKCA 등 강화된 인허가 요건은 초기 비용 부담을 키우지만, 인증 확보 시 유럽 등 시장 접근성이 개선됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 소화기 내과 사업",
+        "evidence_text": "당사는 비혈관용 스텐트(소화기내과용)를 국내 최초로 개발하였으며,"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "스텐트: 54,783,488 (81.6%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "내시경 (상품): 6,329,945 (9.4%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "기타: 6,106,851 (9.1%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "다. 소화기 내과 사업부문의 시장여건 및 영업의 개황",
+        "evidence_text": "소화기내과 중심의 시술로 변화하였습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "다. 소화기 내과 사업부문의 시장여건 및 영업의 개황 > 2) 산업의 성장성",
+        "evidence_text": "연평균 4.9% 이상의 성장률(CAGR)을 지속하여"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4625,
+    "completion_tokens": 4669,
+    "reasoning_tokens": 3776,
+    "output_tokens": 893
+  },
+  "warnings": []
+}

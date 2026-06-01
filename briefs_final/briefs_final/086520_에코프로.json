@@ -1,0 +1,76 @@
+{
+  "stock_code": "086520",
+  "corp_name": "에코프로",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:12",
+  "meta": {
+    "wics": "화학",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "에코프로는 2021년 11월 지주회사 체제를 구축한 에코프로 그룹의 지주회사로, 전지재료사업과 환경사업을 축으로 그룹을 이끌고 있습니다. 이차전지 핵심소재와 환경 솔루션을 중심으로 자회사들의 미래전략 수립과 신성장동력 발굴 역할에 집중하고 있습니다.",
+    "business_model": "FY2025 사업부문별 영업수익 구성은 무역사업 78.4%, 지주회사 21.6%입니다. 지주회사 부문은 자회사에 대한 업무대행 서비스, 배당수익, CI 사용수익(브랜드 사용 대가) 등을 바탕으로 수익을 창출하고, 무역사업은 해외 투자과정에서 확보한 주요 광물의 조달 및 판매를 통해 수익을 냅니다. 그룹 차원에서는 전지재료사업부문과 환경사업부문을 주요 축으로 두고, 리사이클(재활용), 전구체(양극재 원재료), 수산화리튬 공급, 대기오염물질 제거 및 수처리 솔루션을 함께 영위하고 있습니다.",
+    "main_customers": "무역사업 — 자회사 및 해외 광물 수요처 / 지주회사 — 자회사 / 전지재료사업부문 — 이차전지 소재 고객사 / 환경사업부문 — 반도체·디스플레이·중공업·화학 산업 고객사",
+    "price_factors": [
+      {
+        "factor": "전기차수요",
+        "detail": "전기차 보급 확대가 이어지면 이차전지 수요가 늘어 전지재료사업부문의 매출 환경에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "ESS확대",
+        "detail": "AI 인프라 확대에 따른 ESS(에너지저장장치) 수요 증가는 전지재료사업부문의 추가 수요 요인이 됩니다."
+      },
+      {
+        "factor": "광물가격",
+        "detail": "양극재, 전구체, 리튬 등 주요 원재료 가격과 계약 조건 변화가 전지재료사업부문의 가격 변동성에 영향을 줍니다."
+      },
+      {
+        "factor": "중국저가",
+        "detail": "중국의 저가 공세는 산업 전반의 경쟁을 심화시켜 수익성과 판매 환경에 부담이 될 수 있습니다."
+      },
+      {
+        "factor": "반도체투자",
+        "detail": "반도체 산업 고객사의 투자계획이 조정되면 환경사업부문의 매출에도 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "2021년 11월 지주회사 체제를 구축하였으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "지주회사: 1,962 (21.6%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "무역사업: 198,691 (78.4%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "[전지재료사업부문]",
+        "evidence_text": "고객 수요에 대응하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "[경영진 실적·전략 요약 (MD&A)]",
+        "evidence_text": "중국의 저가 공세가 산업 전반에 영향을 미치며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5657,
+    "completion_tokens": 876,
+    "reasoning_tokens": 0,
+    "output_tokens": 876
+  },
+  "warnings": []
+}

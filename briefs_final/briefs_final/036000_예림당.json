@@ -1,0 +1,72 @@
+{
+  "stock_code": "036000",
+  "corp_name": "예림당",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 12:41",
+  "meta": {
+    "wics": "출판",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "예림당은 아동출판을 중심으로 오랜 노하우와 기획력을 바탕으로 시장에서 자리잡은 출판사입니다. 대표작인 \"Why?\" 시리즈가 다수 판매되며 전자출판·애니메이션·저작권관리 등 출판 관련 사업으로 확장을 추진하고 있습니다.",
+    "business_model": "주요 수익원은 출판(83.9%)으로 전체 매출의 대부분을 차지하며, 임대(9.3%)와 물류(0.3%)가 그 뒤를 잇습니다; 출판 부문을 중심으로 전자출판·애니메이션·저작권매니지먼트로 사업 확장을 모색하고 있습니다.",
+    "main_customers": "출판 — 온라인서점·홈쇼핑·대형마트·대형서점·직거래서점·전시회 행사 방문자 / 임대 — 임차인(임대시설 이용자) / 물류 — 출판물 유통·배송 관련 채널",
+    "price_factors": [
+      {
+        "factor": "저출산",
+        "detail": "아동인구 감소는 아동서적 수요를 장기적으로 축소시켜 실적에 부정적 영향이 있을 수 있습니다."
+      },
+      {
+        "factor": "전자출판",
+        "detail": "전자책 및 대여형 서비스 확산은 종이출판 매출을 압박하지만 전자출판 전환 시 신규 매출 기회가 생깁니다."
+      },
+      {
+        "factor": "계절성",
+        "detail": "방학 시즌과 신학년 초에 매출이 집중되는 계절적 패턴으로 분기별 실적 변동성이 존재합니다."
+      },
+      {
+        "factor": "경쟁심화",
+        "detail": "진입 장벽이 낮은 도서출판 시장 특성상 경쟁 심화는 마진 압박과 시장점유율 변동 요인이 됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "아동서적 시장 최고의 베스트셀러인 \"Why?\" 시리즈를 발간하여"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "출판: 8,605 (83.9%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "임대: 953 (9.3%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "물류: 30 (0.3%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "온라인서점, 홈쇼핑, 대형마트, 대형서점, 직거래서점, 전시회"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4133,
+    "completion_tokens": 2837,
+    "reasoning_tokens": 2112,
+    "output_tokens": 725
+  },
+  "warnings": []
+}

@@ -1,0 +1,81 @@
+{
+  "stock_code": "064550",
+  "corp_name": "바이오니아",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 04:21",
+  "meta": {
+    "wics": "생물공학",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "바이오니아는 핵심 생명공학 기술을 바탕으로 연구용 제품, 분자진단, 프로바이오틱스, RNA 간섭(RNAi) 기반 신약 개발 등을 영위하는 바이오헬스케어 기업입니다. 1992년 설립 이후 유전자 합성·PCR·siRNA 등 유전자 관련 연구기자재를 개발·공급하며 연구용 장비와 시약을 국내외 연구기관에 제공해 왔습니다.",
+    "business_model": "핵심 사업은 생명과학 연구용 제품, 분자진단, 프로바이오틱스(건강기능식품), RNAi 기반 신약 개발이며, FY2025 사업부문별로 제품이 5.0%, 제품 및 상품이 93.0%를 차지합니다(사업부문별 매출 구성). 연구장비·시약·키트와 함께 올리고합성, 유전자·mRNA 합성, 단백질 합성 등 서비스형 비즈니스도 제공합니다.",
+    "main_customers": "생명과학 연구용 제품 — 대학·정부연구소·기업연구소·공공기관 / 산업용 분자진단 키트 — 가축·수산·식품안전 관련 기업·검역기관 / 프로바이오틱스(건강기능식품) — 일반 소비자·면세점·온라인·홈쇼핑 채널",
+    "price_factors": [
+      {
+        "factor": "분자진단 성장",
+        "detail": "분자진단 시장의 장기적 성장(고령화·진단 중심 전환)은 진단장비·키트 매출에 긍정적 영향을 줍니다."
+      },
+      {
+        "factor": "프로바이오틱스 수요",
+        "detail": "마이크로바이옴 관련 연구·제품 수요 확대는 프로바이오틱스(건강기능식품) 매출 증가로 연결됩니다."
+      },
+      {
+        "factor": "정부예산 변동",
+        "detail": "정부 R&D 정책 및 예산의 급격한 변동성은 연구개발 의존 사업부문의 실적 변동성을 키울 수 있습니다."
+      },
+      {
+        "factor": "무역환경",
+        "detail": "글로벌 관세전쟁·보호무역주의 확산은 수출 중심 사업의 대외 불확실성을 높입니다."
+      },
+      {
+        "factor": "팬데믹 리스크",
+        "detail": "코로나19 등의 팬데믹 상황은 진단 수요와 매출에 일시적 기복을 초래할 가능성이 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "생명과학 연구용 제품, 분자진단, 프로바이오틱스, RNA 간섭(RNAi) 기반 신약 개발"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "제품 및 상품: 307,034 (93.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "제품: 17,295 (5.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 생명과학 연구용제품 사업",
+        "evidence_text": "대학, 정부연구소, 기업연구소, 공공기관 등에 고객들을 확보하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 업계의 현황",
+        "evidence_text": "분자진단 시장은 계속해서 성장하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "MD&A (경영진 실적·전략 요약)",
+        "evidence_text": "정부 R&D 정책 및 예산의 급격한 변동성"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5783,
+    "completion_tokens": 4800,
+    "reasoning_tokens": 3840,
+    "output_tokens": 960
+  },
+  "warnings": []
+}

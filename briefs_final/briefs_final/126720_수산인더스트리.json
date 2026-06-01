@@ -1,0 +1,72 @@
+{
+  "stock_code": "126720",
+  "corp_name": "수산인더스트리",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 09:31",
+  "meta": {
+    "wics": "에너지장비및서비스",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "수산인더스트리는 발전설비 정비용역을 주력으로 하는 건설업체로, 원자력·화력·신재생 발전소의 기계·전기·계측 분야 정비와 운전업무를 수행합니다. 연결대상 법인으로 MMIS 제조·공급 및 계측제어 정비를 수행하는 계열사와 태양광 사업을 영위하는 종속회를 포함하고 있습니다.",
+    "business_model": "핵심 수익원은 발전설비 대상의 경상정비·계획예방정비 등 정비용역(서비스 제공)이며, 2025년 연결기준 사업부문별 매출 비중은 원자력 52.4%, 화력 28.3%, 신재생 8.1%, 기타 11.2%입니다. 사업은 주로 발전공기업·민간발전기업 발주에 따른 경쟁입찰 또는 수의계약 형태로 수주하여 계약금액을 확정하는 구조입니다.",
+    "main_customers": "원자력 — 발전공기업·민간발전기업 / 화력 — 발전공기업·민간발전기업 / 신재생 — 발전공기업·민간발전기업 / 기타 — 발전공기업·민간발전기업",
+    "price_factors": [
+      {
+        "factor": "입찰구조",
+        "detail": "발전소 발주는 경쟁입찰 또는 수의계약으로 이루어져 수주 성사 여부와 낙찰가가 실적에 직접 영향합니다."
+      },
+      {
+        "factor": "환율",
+        "detail": "달러화 등 환율 변동은 해외사업 관련 수익과 자본에 영향(재무성과 변동)을 미칩니다."
+      },
+      {
+        "factor": "인건비·경비",
+        "detail": "해외사업 확대에 따른 인력 채용 및 경비 증가가 영업이익에 부담으로 작용할 수 있습니다."
+      },
+      {
+        "factor": "정책변화",
+        "detail": "탄소중립·에너지전환 정책 등 시장 구조 변화가 사업 부문별 수요 배분에 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A) > 가. 업무현황 및 실적",
+        "evidence_text": "당사는 국내외 전력 발전설비를 대상으로 한 정비사업을 영위하고 있으며,"
+      },
+      {
+        "field": "business_model",
+        "source_section": "가-1. 사업부문별 매출현황(연결기준)",
+        "evidence_text": "사업부문별 매출 비중은 원자력 52.4%, 화력 28.3%, 신재생 8.1%, 기타 11.2%로"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "나. 주요 서비스 등의 가격변동추이 및 가격변동원인",
+        "evidence_text": "발전공기업 및 민간발전기업을 대상으로만 서비스를 제공하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A) > 가. 업무현황 및 실적",
+        "evidence_text": "영업이익 감소 요인은 해외사업 확대에 따른 인력 채용 및 경비 등이 증가하였습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "다. 환율변동 영향 등 금융위험",
+        "evidence_text": "연결회사는 주로 달러화와 관련된 환율변동위험에 노출되어 있으며,"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4543,
+    "completion_tokens": 4141,
+    "reasoning_tokens": 3264,
+    "output_tokens": 877
+  },
+  "warnings": []
+}

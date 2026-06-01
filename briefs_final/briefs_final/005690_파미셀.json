@@ -1,0 +1,77 @@
+{
+  "stock_code": "005690",
+  "corp_name": "파미셀",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 19:17",
+  "meta": {
+    "wics": "화학",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "파미셀은 세계 최초의 줄기세포치료제(Hearticellgram-AMI)를 개발한 바이오 제약 전문기업으로, 바이오메디컬 사업부와 바이오케미컬 사업부 등 2개 사업부를 운영하고 있습니다. 바이오메디컬에서는 줄기세포 치료제 개발과 성체줄기세포 보관, 줄기세포 배양액 함유 화장품 판매를, 바이오케미컬에서는 정밀화학 및 전자소재 생산을 주요 사업으로 영위합니다.",
+    "business_model": "FY2025 기준 사업부문별 영업수익 구성은 바이오메디컬사업부 0.8%, 바이오케미컬사업부 4.8%로 보고되어 있으며, 바이오메디컬은 줄기세포치료제 개발·성체줄기세포 보관·줄기세포 배양액 함유 화장품 판매가 핵심 수익원입니다. 바이오케미컬은 저유전율 전자소재, 뉴클레오시드, mPEG(의약중간체), 친환경 인계난연제 등 정밀화학제품의 제조·판매를 통해 안정적 매출을 창출합니다.",
+    "main_customers": "바이오메디컬 — 의료기관·개인(줄기세포치료제·보관서비스) / 바이오메디컬(화장품) — 일반 소비자 / 바이오케미컬 — 제약사·전자업체·섬유·기타 제조업체(정밀화학제품 공급)",
+    "price_factors": [
+      {
+        "factor": "규제·임상",
+        "detail": "줄기세포치료제는 인허가·임상 리스크가 크며 개발 실패 시 막대한 손실이 발생할 수 있어 실적과 주가에 민감하게 작용합니다."
+      },
+      {
+        "factor": "시장성장",
+        "detail": "글로벌 줄기세포 시장 성장성이 클 경우 바이오메디컬의 장기적 수요 확대가 기대되지만, 현재 상용화 장벽이 존재합니다."
+      },
+      {
+        "factor": "AI소재수요",
+        "detail": "AI 산업 확대에 따른 저유전율 전자소재 매출 증가는 바이오케미컬 사업부 실적에 긍정적 영향을 미칩니다."
+      },
+      {
+        "factor": "사업구조",
+        "detail": "매출과 이익이 바이오케미컬에 집중된 구조로 바이오케미컬 실적 변동이 전체 실적에 큰 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 세계 최초의 줄기세포치료제(Hearticellgram-AMI)를 개발한 바이오 제약 전문기업이며 2개의 사업부(바이오메디컬 사업부, 바이오케미컬 사업부)를 두고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "바이오메디컬사업부: 975 (0.8%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "바이오케미컬사업부: 5,501 (4.8%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "바이오메디컬 사업부는 줄기세포치료제 개발을 핵심사업으로 하며 ... 성체줄기세포 보관사업도 수행하고 있으며 ... 화장품을 개발해 판매하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "사업부문별 현황",
+        "evidence_text": "바이오메디컬 사업부의 줄기세포치료제는 계속적으로 신약개발의 연구개발을 진행하고 있으며 이에 따른 신약개발 비용이 많이 투입되면서 적자가 지속되고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "MD&A",
+        "evidence_text": "글로벌 AI 산업 확대로 인해, 당사가 개발한 AI 가속기용 핵심 소재인 저유전율 전자소재의 매출이 지속적으로 확대될 전망입니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5146,
+    "completion_tokens": 4462,
+    "reasoning_tokens": 3392,
+    "output_tokens": 1070
+  },
+  "warnings": []
+}

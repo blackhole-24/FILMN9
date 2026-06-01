@@ -1,0 +1,66 @@
+{
+  "stock_code": "105550",
+  "corp_name": "엣지파운드리",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 08:25",
+  "meta": {
+    "wics": "자동차부품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "엣지파운드리는 센서 전문 기업으로 인쇄전자기술·전자기응용기술·열영상 적외선 기술을 바탕으로 자동차용 페달·브레이크 센서와 적외선 열영상 센서 및 모듈을 개발·제조·공급합니다. 2025년 연결 기준 매출액은 364억원이며, 자동차 1차 벤더와의 거래를 중심으로 사업을 전개하고 있습니다.",
+    "business_model": "주요 수익은 자동차용 센서 제품군과 일부 적외선 열영상 장비에서 발생하며, FY2025 사업부문별 영업수익 구성은 제품(10.2%), 전자식 Inductive 센서 Asic II(24.2%), Controller(11.2%), Solenoid(10.1%)입니다. 또한 적외선 열영상 카메라 사업은 한화시스템과의 135억원 규모 공급계약 등으로 라인업을 확대하며 핵심 부품의 수직화(모듈·시스템화)를 추진하고 있습니다.",
+    "main_customers": "전자식 Inductive 센서 Asic II — 자동차 1차 Vendor·글로벌 자동차부품회사 및 완성차 업체 / Controller — 자동차 HVAC 시스템을 사용하는 자동차 제조사·1차 Vendor / Solenoid — 엔진·변속 관련 부품을 사용하는 자동차 제조사·1차 Vendor / 적외선 열영상 카메라 — 한화시스템 등 국내·해외 업체",
+    "price_factors": [
+      {
+        "factor": "전기차 보급",
+        "detail": "전기차·친환경차 보급 확대는 APS·BPS·SLS 등 자동차용 센서 수요를 증가시켜 실적에 긍정적 영향을 미칩니다."
+      },
+      {
+        "factor": "품질·내구성",
+        "detail": "자동차 환경의 열악함으로 높은 정밀도와 10~15년 내구성을 요구해 기술력과 품질 경쟁력이 실적 변수로 작용합니다."
+      },
+      {
+        "factor": "원가경쟁",
+        "detail": "센서 시장의 가격 하락 압력은 원가·수율 개선 여부에 따라 마진에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "열영상 경쟁",
+        "detail": "비냉각식 적외선 시장은 미국·중국 공급사가 양분하고 있어 기술·원가 경쟁이 시장점유율에 영향을 줍니다."
+      },
+      {
+        "factor": "제조수율",
+        "detail": "적외선 열영상 센서의 고수율·저원가 구현은 대량생산과 민수용 확대로 이어져 실적에 중요한 요인입니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "당사는 센서전문기업으로서 인쇄전자기술, 전자기응용기술, 열영상 적외선 기술 등을 보유하여 엑셀, 브레이크 페달 센서, 적외선 열영상 센서 및 모듈 등을 개발, 제조 및 공급하는 업체입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "■ 사업부문별 영업수익 구성 (FY2025)  - 제품 (10.2%)  - 전자식 Inductive 센서 Asic II (24.2%)  - Controller (11.2%)  - Solenoid (10.1%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "자동차(자율주행차 및 친환경차 HEV/EV)에 적용되는 APS (Accelrator Pedal Sensor), BPS(Brake  Pedal Sensor), SLS(Stop Lamp Switch)를 자동차 1차 Vendor를 고객으로 공급 중에 있으며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5898,
+    "completion_tokens": 3374,
+    "reasoning_tokens": 2432,
+    "output_tokens": 942
+  },
+  "warnings": []
+}

@@ -1,0 +1,67 @@
+{
+  "stock_code": "009180",
+  "corp_name": "한솔로지스틱스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 13:38",
+  "meta": {
+    "wics": "항공화물운송과물류",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "한솔로지스틱스는 컨테이너·트럭 운송, 해상·항공 포워딩, W&D(보관·유통) 등 종합물류서비스(TPL)를 제공하는 운송·창고업체입니다. 2025년 연결기준 매출은 6,746억원, 자산총계는 2,618억원으로 다수의 종속회사를 통해 글로벌 네트워크를 운영하고 있습니다.",
+    "business_model": "핵심 수익원은 물류관련서비스로 FY2025 기준 해당 부문이 전체의 55.5%를 차지합니다. 주요 사업은 컨테이너운송, 트럭운송, 해상·항공 포워딩, W&D, 물류시스템·산업별 물류서비스 등으로 화주의 물류 수요를 대행(3PL/TPL)하는 방식으로 수익을 창출합니다.",
+    "main_customers": "컨테이너운송사업 — 화주(물류 의뢰 기업) / 트럭운송사업 — 화주(지역·내륙 운송 의뢰 기업) / 해상&항공 포워딩사업 — 국제물류를 필요로 하는 화주 / W&D(보관·유통) — 재고 보관·유통 대행을 요구하는 기업",
+    "price_factors": [
+      {
+        "factor": "물동량",
+        "detail": "국내외 경기와 계절성에 따라 물동량이 변동하면 매출과 수익성이 직접 흔들립니다."
+      },
+      {
+        "factor": "유가",
+        "detail": "유가 상승은 연료비 등 비용을 높여 영업이익률을 압박합니다."
+      },
+      {
+        "factor": "선복공급",
+        "detail": "대형선 투입 확대 등 선복(운송공급) 과잉은 운임 하락으로 이어져 수익성에 부정적입니다."
+      },
+      {
+        "factor": "항공공급",
+        "detail": "여객기 Belly Capacity 회복 및 화물기 공급 확대는 항공운임 약세로 연결될 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "(1) 사업의 정의",
+        "evidence_text": "종합물류서비스(TPL) 사업을 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "물류관련서비스: 374,712 (55.5%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "(1) 사업의 정의",
+        "evidence_text": "화주의 수요에 따라 유상으로 물류활동을 영위"
+      },
+      {
+        "field": "financials",
+        "source_section": "나. 영업실적(요약연결손익계산서)",
+        "evidence_text": "2025년 연결기준 매출액은 6,746억으로 전년대비 1.81% 감소"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3833,
+    "completion_tokens": 4701,
+    "reasoning_tokens": 3968,
+    "output_tokens": 733
+  },
+  "warnings": []
+}

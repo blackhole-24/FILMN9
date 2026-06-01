@@ -1,0 +1,82 @@
+{
+  "stock_code": "010120",
+  "corp_name": "LS ELECTRIC",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 20:32",
+  "meta": {
+    "wics": "전기장비",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "LS ELECTRIC은 전력기기와 전기장비를 중심으로 전력·자동화·금속·IT 사업을 영위하는 기업입니다. 2025년 연결기준 매출액은 4조 9,658억원, 영업이익은 4,264억원으로 사상 최대 실적을 기록했습니다.",
+    "business_model": "사업부문은 전력(101.2%), 자동화(11.7%), 금속(13.0%), IT(2.8%)으로 구성되며 전력부문이 핵심 수익원입니다. 전력부문은 전력기기, 전력IT, 태양광·ESS·철도 시스템 EPC 등에서, 자동화부문은 PLC·INVERTER·자동화시스템에서, 금속부문은 동관·STS관 제조·판매에서, IT부문은 ERP·데이터센터·스마트팩토리 서비스에서 수익을 창출합니다.",
+    "main_customers": "전력 — 한국전력·특약점·에너지 다소비 기업 / 자동화 — 자동차·전자·반도체·디스플레이 등 생산설비업체, IT기업·Smart Factory 업체, 지자체·수자원공사·에너지효율 전문기업 / 금속 — 에어컨·공조기 제조사, 건설회사, 조선회사 / IT — LS 그룹사 등",
+    "price_factors": [
+      {
+        "factor": "전력투자",
+        "detail": "송·변전 및 배전 인프라 투자 확대는 전력기기와 EPC 수요를 늘려 실적에 긍정적 영향을 줍니다."
+      },
+      {
+        "factor": "데이터센터수요",
+        "detail": "AI·클라우드 확산에 따른 데이터센터 전력수요 증가는 고신뢰 전력기기와 전력시스템 매출을 견인합니다."
+      },
+      {
+        "factor": "원자재·환율",
+        "detail": "환율 및 원자재 가격 변동성 확대는 부품 원가와 수익성에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "산업투자지연",
+        "detail": "전방 산업의 설비투자 지연은 자동화부문 매출에 부정적 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "연결기준 매출액은 4조 9,658억원"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사의 사업구분을 전력, 자동화, 금속, IT부문으로 세분하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당기 매출액은 5,023,408백만원으로 전체의 101.2%를 차지하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당기매출액은 579,190백만원으로 전체의 11.7%를 차지하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당기 매출액은 643,469백만원으로 전체의 13.0%를 차지하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당기 매출액은 136,933백만원으로 전체의 2.8%를 차지하고 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "주요 고객으로는 한국전력, 특약점, 에너지 다소비 기업 등이 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5271,
+    "completion_tokens": 4697,
+    "reasoning_tokens": 3712,
+    "output_tokens": 985
+  },
+  "warnings": []
+}

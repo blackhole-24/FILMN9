@@ -1,0 +1,67 @@
+{
+  "stock_code": "032750",
+  "corp_name": "삼진",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 23:45",
+  "meta": {
+    "wics": "전자제품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "삼진은 본사와 종속기업으로 구성된 글로벌 전기·전자 기업으로, 국내 및 해외에 생산공장을 보유하고 있는 제조업체입니다. 리모컨·스피커·스마트 홈 관련 제품을 중심으로 영상·음향기기 분야에 주력하고 있습니다.",
+    "business_model": "매출 구성에서 '기타'가 100.0%를 차지합니다(매출 항목 표기 기준). 주요 제품은 TV용 리모컨을 중심으로 한 리모컨 부문과 스피커, 스마트 홈(허브·센서류) 등으로, 리모컨은 가전메이커의 주문자상표부착(OEM) 방식으로 생산·납품하는 구조입니다.",
+    "main_customers": "리모컨 — TV·에어컨·위성수신 셋탑박스 제조사(가전메이커, OEM 방식) / 스피커 — 영상·음향기기 제조사 / 스마트 홈 — 허브·센서 등 IoT 관련 제품 수요처 및 신규 고객",
+    "price_factors": [
+      {
+        "factor": "TV 수요",
+        "detail": "리모컨 실적은 TV 판매량과 직접적인 관계가 있어 TV 판매 감소 시 매출에 직접적 영향을 미칩니다."
+      },
+      {
+        "factor": "경쟁심화",
+        "detail": "TV 리모컨 시장의 성장세 둔화와 경쟁 심화는 가격 경쟁과 물량 감소로 매출과 마진에 부담을 줍니다."
+      },
+      {
+        "factor": "원가 상승",
+        "detail": "원가율 상승은 영업이익률 및 순이익률 하락으로 연결되어 수익성에 부정적 영향을 미칩니다."
+      },
+      {
+        "factor": "생산거점",
+        "detail": "생산을 중국·인도네시아·태국 현지법인에서 수행함에 따라 수주·물류·생산원가에 따른 배분이 실적에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "국내 및 해외에 생산공장을 보유하고 있으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. 업계의 현황 (1) 리모컨 부문",
+        "evidence_text": "리모콘 제품은 TV, 에어컨, 위성수신 셋탑박스 등에 주로 사용되고 있으며"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "최대 거래처는 삼성전자와 삼성전자의 해외 현지법인들 입니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "TV 리모컨 시장의 성장세 둔화와 경쟁 심화"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3670,
+    "completion_tokens": 3920,
+    "reasoning_tokens": 3200,
+    "output_tokens": 720
+  },
+  "warnings": []
+}

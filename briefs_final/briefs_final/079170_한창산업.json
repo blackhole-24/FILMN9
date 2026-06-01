@@ -1,0 +1,67 @@
+{
+  "stock_code": "079170",
+  "corp_name": "한창산업",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 05:55",
+  "meta": {
+    "wics": "비철금속",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "한창산업은 비철금속(금속) 업종의 제조업체로, 아연말·인산아연·LiBr(리튬브로마이드)·제올라이트를 생산·판매하고 있습니다. 이들 제품은 방청용 도료의 원료, 중앙집중 냉·난방 흡수제, 산소제조용 흡착제 등 산업용 소재로 사용됩니다.",
+    "business_model": "FY2025 기준 매출 구성은 아연말/인산아연 67.8%, LiBr 6.9%, 제올라이트 21.8%, 기타 3.4%로 아연계 제품이 주력(67.8%)입니다. 아연계 제품은 방청도료 원료로, LiBr은 대형건물의 중앙집중 냉·난방용 흡수제로, 제올라이트는 산소제조장치(PSA)용 분자체로 주로 판매됩니다.",
+    "main_customers": "아연말/인산아연 — 도료업체(예: KCC) 및 조선·컨테이너·철 구조물 관련 업체 / LIBr — 건축물 냉·난방 설비 설치업체(엘에스 전선, 삼중테크, 캐리어 등) / 제올라이트 — 산소제조장치(PSA) 제조업체",
+    "price_factors": [
+      {
+        "factor": "조선·철수요",
+        "detail": "조선·컨테이너·철 구조물 산업의 성장 동향에 따라 아연말·인산아연 수요가 직접 증감합니다."
+      },
+      {
+        "factor": "건설경기",
+        "detail": "대형건물 신축과 계절성(하절기·동절기)에 따라 LiBr(흡수제) 수요가 민감하게 변동합니다."
+      },
+      {
+        "factor": "원자재가격",
+        "detail": "아연계 원료(아연괴)는 국제비철시장(LME) 수급에 따른 가격 영향을 받아 제품 원가와 이익률에 영향이 있습니다."
+      },
+      {
+        "factor": "가격경쟁",
+        "detail": "제품 간 품질 차이가 크지 않아 가격경쟁이 심한 구조는 마진(이익률)에 하방 압력을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 아연말, 인산아연, LiBr,제올라이트를 생산 판매 하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "아연말/인산아연: 66,831,425 (67.8%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "산업의 성장성 > 수급상황",
+        "evidence_text": "KCC를 비롯한 도료업체에 당사와 SBC, 티앤씨 등의 업체가 납품하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁상황",
+        "evidence_text": "동 산업의 경우 품질에 큰 차이가 없는 상황이며 가격경쟁이 심한 편입니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4136,
+    "completion_tokens": 4971,
+    "reasoning_tokens": 4160,
+    "output_tokens": 811
+  },
+  "warnings": []
+}

@@ -1,0 +1,91 @@
+{
+  "stock_code": "0009K0",
+  "corp_name": "에임드바이오",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 17:12",
+  "meta": {
+    "wics": "생물공학",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "에임드바이오는 삼성서울병원에서 스핀오프해 설립된 ADC(항체-약물 접합체) 기반 항암제 개발 글로벌 혁신 신약개발 바이오텍입니다. 환자유래세포(PDC)·환자유래 이종이식모델(PDX) 등 환자유래 모델을 활용한 항체 발굴 역량과 P-ADC™ 플랫폼(정밀 최적화 기반)을 핵심 강점으로 보유하고 있습니다.",
+    "business_model": "주요 수익원은 기술이전(99.1%)과 공동연구용역(0.9%)으로 구성되어 있으며, 기술이전은 글로벌 제약사와의 라이선스·공동개발을 통해 발생합니다. 연구개발은 P-ADC™ 플랫폼을 통해 표적 발굴부터 ADC 정밀 최적화, 전임상·임상 설계까지 통합적으로 수행하는 원스톱(One-Stop) 방식입니다.",
+    "main_customers": "기술이전 — 글로벌 제약사 및 바이오기업(라이선스·공동개발 파트너) / 공동연구용역 — 제약사·연구기관(공동연구·용역 의뢰처)",
+    "price_factors": [
+      {
+        "factor": "ADC시장 성장",
+        "detail": "전세계 ADC 시장의 급격한 확장은 ADC 기술 보유 기업의 기술이전 수요와 계약 규모에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "규제 승인 속도",
+        "detail": "미국 FDA·유럽 EMA의 신속 승인 제도 활용 증가는 신약 상용화 속도와 기술이전 가능성에 영향을 줍니다."
+      },
+      {
+        "factor": "빅파마 경쟁",
+        "detail": "글로벌 빅파마의 조기 파이프라인 확보 경쟁은 기술이전 계약 규모와 협상력에 영향을 미칩니다."
+      },
+      {
+        "factor": "지적재산권",
+        "detail": "강력한 특허 포트폴리오 보유는 기술이전·공동개발 협상에서 우위로 작용할 수 있습니다."
+      },
+      {
+        "factor": "기술이전 실적",
+        "detail": "대형 기술이전·라이선스 계약은 단기 실적(선급금·마일스톤)과 회사 현금흐름에 직접적인 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "당사는 항체-약물 접합체(ADC, Antibody-Drug Conjugate) 기반 항암제를 개발하는 글로벌 혁신 신약개발 바이오텍 기업입니다."
+      },
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "당사는 삼성서울병원에서 스핀오프하여 설립되었으며,"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "기술이전: 46,841 (99.1%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "공동연구용역: 437 (0.9%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "이러한 기반을 토대로 당사는 글로벌 제약사와의 협력을 통해 성과를 창출하였습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나. 산업의 현황 및 전망",
+        "evidence_text": "전 세계 ADC 시장은 2019년 약 10억 달러 수준에서 시작하여, 2028년에는 약 300억 달러에 이를 것으로 전망됩니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 지적재산권 현황",
+        "evidence_text": "현재까지 총 114건(등록 56건, 출원 55건, 가출원 3건)의 특허를 보유하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "첫째, 성공적인 기술이전(License-Out) 실적입니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5500,
+    "completion_tokens": 4194,
+    "reasoning_tokens": 3136,
+    "output_tokens": 1058
+  },
+  "warnings": []
+}

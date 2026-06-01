@@ -1,0 +1,59 @@
+{
+  "stock_code": "288980",
+  "corp_name": "모아데이타",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 15:08",
+  "meta": {
+    "wics": "소프트웨어",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "모아데이타는 2014년 설립된 AI(인공지능) 기반 이상탐지 전문기업으로, 2015년 국내 최초로 AIOps(인공지능 IT 운영 자동화 시스템) 제품을 상용화하며 ICT 장애 예측·탐지 시장을 개척했습니다. 2023년에는 디지털 헬스케어 전문기업 메디에이지를 인수해 헬스케어 영역으로 사업을 확장하고 있습니다.",
+    "business_model": "핵심 수익원은 AI 이상탐지 솔루션 '페타온 포캐스터'를 통한 AIOps 사업이며, 고객사 대상 라이선스·구축·서비스 형태로 매출을 창출합니다. 추가적으로 2023년 인수한 종속회사 메디에이지를 통해 디지털 헬스케어(헬스 데이터 기반 서비스)를 영위하며, 디지털 헬스케어 부문 매출은 종속회사(주)메디에이지의 매출입니다. 회사는 2026년 생성형 AI 플랫폼 'ThinkOn.AI'와 AI 거버넌스 플랫폼 'EyeOn.AI' 출시에 따른 신규 매출 확대를 추진 중입니다.",
+    "main_customers": "AIOps — 그룹사·대형기관·공공기관 / 디지털 헬스케어 — 보험사·의료기관(아시아 최대 의료기관 테스트 진행)·물류기업(H사)",
+    "price_factors": [
+      {
+        "factor": "공공입찰 규제",
+        "detail": "공공기관 발주사업 참여 자격·금액 제한이 있어 입찰 가능 사업 범위와 매출에 직접적 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "중소·중견지위 변화",
+        "detail": "매출 규모 변화로 중소기업에서 중견기업으로 지위 변경 시 소규모 공공사업 참여 제한으로 수주 여건이 달라질 수 있습니다."
+      },
+      {
+        "factor": "기술 경쟁력",
+        "detail": "자체 알고리즘의 특허·논문 기반 우수성은 차별화 요소이나 경쟁사 기술 발전 시 경쟁 압력이 증가할 수 있습니다."
+      },
+      {
+        "factor": "사업 지연·고객 위험",
+        "detail": "주력제품 사업지연이나 일부 고객사의 부실은 실적 변동성 및 일회성 손실 발생 요인이 됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. AI 이상탐지 사업부문",
+        "evidence_text": "매년 매출이 지속해서 증가하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황",
+        "evidence_text": "(주1) 디지털 헬스케어 사업부문의 매출은 종속회사 (주)메디에이지의 매출입니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4772,
+    "completion_tokens": 4593,
+    "reasoning_tokens": 3904,
+    "output_tokens": 689
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

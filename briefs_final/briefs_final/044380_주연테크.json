@@ -1,0 +1,81 @@
+{
+  "stock_code": "044380",
+  "corp_name": "주연테크",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:00",
+  "meta": {
+    "wics": "컴퓨터와주변기기",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "주연테크는 국내 PC 시장에서 38년간 PC 제품을 제조·판매해 온 기업으로, 가격 대비 우수한 사양과 성능을 바탕으로 제품 인지도와 신뢰성을 쌓아왔습니다. PC 제조뿐 아니라 PC 주변기기 판매, AI 소프트웨어 탑재 제품 확대 등으로 사업 영역을 넓히고 있습니다. 다양한 유통채널과 서비스센터 운영을 통해 국내 소비자 접점을 강화하고 있습니다.",
+    "business_model": "주연테크의 매출은 PC부문 30.4%, 상품 34.8%, 기타매출 0.1%로 구성되어 있습니다. 핵심은 PC 제조·판매와 주변기기 유통이며, 대리점·홈쇼핑·인터넷쇼핑몰 등 여러 채널을 통해 판매를 확대하고 있습니다. 또한 AI 기능을 적용한 PC와 맞춤형 제품 구성을 강화해 시장 변화에 대응하고 있습니다.",
+    "main_customers": "PC부문 — 국내 개인소비자, 공공시장 수요처 / 상품 — PC 주변기기 구매 고객, 유통채널 이용 일반 소비자 / 기타매출 — 제공된 데이터상 고객 유형 특정 불가",
+    "price_factors": [
+      {
+        "factor": "가격경쟁",
+        "detail": "PC 업계의 치열한 가격경쟁이 지속되어 원가와 판매가격 관리가 실적과 수익성에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "원가상승",
+        "detail": "물가 상승, 원재료 가격 상승, 환율변동은 원가 부담을 키워 영업이익에 압박 요인으로 작용합니다."
+      },
+      {
+        "factor": "공공수요",
+        "detail": "데스크톱 컴퓨터의 중소기업자간 경쟁제품 재지정은 공공시장 매출 확대 가능성과 연결됩니다."
+      },
+      {
+        "factor": "민수성장",
+        "detail": "모니터 성장, 데스크탑 브랜드 PC 안정화, TV 매출 증가가 민수시장 매출 신장에 영향을 줍니다."
+      },
+      {
+        "factor": "AI수요",
+        "detail": "AI 기능, 보안성, 맞춤형 제품 구성 수요가 커지면서 AI PC 관련 제품 경쟁력이 중요해지고 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 1. 영업개황",
+        "evidence_text": "당사는 국내 PC 시장에서 38년간 PC 제품을 제조, 판매하여 왔습니다."
+      },
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 1. 영업개황",
+        "evidence_text": "“긱스타” 브랜드를 활용한 조립PC 라인업을 구축하여 판매하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "PC부문: 20,245,665 (30.4%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "상품: 23,203,830 (34.8%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 1. 영업개황",
+        "evidence_text": "대리점, 홈쇼핑, 양판점, 할인점, 인터넷쇼핑몰"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "데스크톱 컴퓨터 품목이 중소기업자간 경쟁제품으로 재지정"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3886,
+    "completion_tokens": 884,
+    "reasoning_tokens": 0,
+    "output_tokens": 884
+  },
+  "warnings": []
+}

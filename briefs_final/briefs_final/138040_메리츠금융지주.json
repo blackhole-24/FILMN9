@@ -1,0 +1,73 @@
+{
+  "stock_code": "138040",
+  "corp_name": "메리츠금융지주",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 09:57",
+  "meta": {
+    "wics": "증권",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "reit"
+  },
+  "brief": {
+    "company_overview": "메리츠금융지주는 국내에서 유일한 보험지주회사로, 자회사 지배 및 경영관리 업무를 주된 사업으로 합니다. 그룹은 손해보험(메리츠화재), 금융투자(메리츠증권), 여신전문금융(메리츠캐피탈) 등 자회사를 통해 보험·증권·여신 영역에 광범위하게 참여하고 있습니다.",
+    "business_model": "지주회사로서 별도기준에서는 자회사 배당금 등 제한적인 수익구조를 가지며, 연결기준에서는 자회사의 보험수익·증권영업이 주요 수익원이 되어 수익 구조를 다각화합니다. 메리츠증권은 Sales&Trading, 기업금융, 리테일, 여신전문금융 등 다수의 영업부문을 운영하고 메리츠화재는 장기보험·자동차보험·일반보험 중심의 보험수익을 창출합니다.",
+    "main_customers": "손해보험업(메리츠화재) — 보험계약자(개인·법인) / 금융투자업(Sales&Trading) — 주식·채권·파생상품 거래 주체(기관·개인) / 기업금융 — 자금조달이 필요한 기업 / 리테일 — 개인 및 법인고객 / 여신전문금융(메리츠캐피탈) — 설비·할부 등 금융수요자",
+    "price_factors": [
+      {
+        "factor": "금리",
+        "detail": "금리 변동은 채권 운용성과에 직결되어 Sales&Trading부문 실적에 영향을 미칩니다."
+      },
+      {
+        "factor": "손해율",
+        "detail": "의료비 상승 등 보험 손해율 증가 시 메리츠화재의 수익성에 부정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "기업금융",
+        "detail": "기업금융 딜(수수료·인수 등)의 증가·감소가 연결 실적 변동성을 확대합니다."
+      },
+      {
+        "factor": "거래량",
+        "detail": "ETF 거래량 등 중개·LP업무 증가 시 Sales&Trading 관련 수익이 개선됩니다."
+      },
+      {
+        "factor": "프로모션",
+        "detail": "제로 수수료 프로모션 등 판관비 증가는 리테일부문 손익에 부담으로 작용합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "지배회사에 관한 사항_메리츠금융지주",
+        "evidence_text": "보험지주회사는 당사가 유일합니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "금융투자업 부문_메리츠증권",
+        "evidence_text": "연결기업의 주요 영업부문은 Sales&Trading부문"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "금융투자업 부문_메리츠증권",
+        "evidence_text": "리테일부문은 개인 및 법인고객 위탁 영업"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "금융투자업 부문_메리츠증권",
+        "evidence_text": "금리 상승으로 채권 운용에서 다소 부진한 실적을 보였지만"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 5148,
+    "completion_tokens": 5551,
+    "reasoning_tokens": 4736,
+    "output_tokens": 815
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

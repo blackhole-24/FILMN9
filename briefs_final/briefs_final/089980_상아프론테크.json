@@ -1,0 +1,82 @@
+{
+  "stock_code": "089980",
+  "corp_name": "상아프론테크",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 06:57",
+  "meta": {
+    "wics": "전자장비와기기",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "상아프론테크는 슈퍼엔지니어링 플라스틱(고내열·고기능성 플라스틱)을 기반으로 부품·소재·장비를 제조하는 전문 기업입니다. 자체 혼합·중합 등 원천기술과 ONE-STOP 생산시스템(설비·금형 자체제작 포함)을 통해 반도체·디스플레이·프린터 등 산업용 고기능성 제품을 공급하고 있습니다.",
+    "business_model": "FY2025 기준 사업부문별 매출 비중은 부품사업 50.6%, 소재사업 36.3%, 장비사업 5.7%, 기타 7.4%로 구성되어 있습니다. 부품사업(주로 2차전지·자동차·의료기기용 부품)과 소재사업(프린터·반도체 패키징·PCB·멤브레인 등)이 매출의 큰 축을 이루며, ONE-STOP 생산과 자체 R&D(원료 혼합·중합·합성 기술)를 바탕으로 고부가가치 제품을 공급합니다.",
+    "main_customers": "부품사업 — 2차전지·자동차·의료기기 제조업체 / 소재사업 — 프린터·반도체·PCB·멤브레인 관련 제조업체 / 장비사업 — 반도체·태양광·디스플레이 장비를 운용하거나 도입하는 고객사",
+    "price_factors": [
+      {
+        "factor": "산업수요",
+        "detail": "자동차·반도체·2차전지·디스플레이 등 최종 산업의 수요 변동이 매출에 직접적 영향을 미칩니다."
+      },
+      {
+        "factor": "원자재·환율",
+        "detail": "원자재 가격 상승과 환율 변동은 원가와 설비투자비를 높여 수익성에 부담을 줄 수 있습니다."
+      },
+      {
+        "factor": "무역환경",
+        "detail": "글로벌 보호무역·관세 정책 등 대외 무역환경 악화는 수출 및 공급망에 불확실성을 증가시킬 수 있습니다."
+      },
+      {
+        "factor": "기술경쟁",
+        "detail": "혼합·중합 등 원천기술과 특허·제품 차별화 수준이 경쟁우위와 마진에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 주요 제품 등의 현황",
+        "evidence_text": "당사는 부품사업, 소재사업, 장비사업의 제품을 공급하고 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 주요 제품 등의 현황",
+        "evidence_text": "부품사업은 2차전지(GASKET, INSULATOR), 자동차(SEAL RING), 의료기기(NEEDLE, INFUSION SET)제품의 부품을 공급하고 있으며,"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "부품사업: 99,097,092 (50.6%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "소재사업: 71,196,508 (36.3%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "장비사업: 11,148,762 (5.7%)"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 업계의 현황",
+        "evidence_text": "슈퍼엔지니어링 플라스틱의 세계시장은 지속적으로 성장하고 있으며,"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "여기에 환율 상승까지 더해지며 원자재 및 설비 투자비, 금융 비용이 증가하는 등 기업의 수익성에 부담이 가중되었습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5035,
+    "completion_tokens": 4338,
+    "reasoning_tokens": 3328,
+    "output_tokens": 1010
+  },
+  "warnings": []
+}

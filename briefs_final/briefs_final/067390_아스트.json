@@ -1,0 +1,67 @@
+{
+  "stock_code": "067390",
+  "corp_name": "아스트",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 04:55",
+  "meta": {
+    "wics": "우주항공과국방",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "아스트는 민항기용 구조물·동체와 항공기 부품을 제조하는 기업으로, 항공기 동체와 도어 등 주요 부품을 생산합니다. 항공기 제작사(원청업체)에 납품하는 공급망에 위치해 있으며, 항공기 개조(Conversion) 사업도 수행하고 있습니다.",
+    "business_model": "주요 매출원은 항공기동체 및 부품 제조로, 사업부문별 매출은 Section48(후미 동체) 33.21%, Fuselage(E-Jet II 동체) 33.10%, 기타(스킨·도어 등) 23.06%, Bulkhead 5.82%, U/L Deck 3.65%, Stringer 1.15% 등으로 구성되어 있습니다. 민항기 동체(기체 격막·후미 동체 등) 생산이 매출의 큰 비중을 차지하며, MDCD 등 화물기 개조용 도어 공급과 골격재·꼬리동체 부품 납품이 핵심 제품군입니다.",
+    "main_customers": "항공기동체 — 보잉·엠브라에르 등 원청업체 / 항공기부품 — 원청업체(항공기 제조사) / 항공기 개조 — 화물기 개조를 발주하는 사업자",
+    "price_factors": [
+      {
+        "factor": "장기계약",
+        "detail": "대형 항공기 관련 납품은 10~30년의 장기 공급관계가 형성되어 수주 확보가 실적에 장기적 영향을 미칩니다."
+      },
+      {
+        "factor": "여객수요",
+        "detail": "항공 여객수송량이 세계 경기·여행수요에 따라 변동하므로 수요 회복 또는 둔화가 실적에 직접 영향을 줍니다."
+      },
+      {
+        "factor": "안전·인증",
+        "detail": "항공기 안전성·인증(원청·NADCAP·FAA) 이슈 발생 시 납품 제한이나 인증비용 증가로 실적이 영향을 받을 수 있습니다."
+      },
+      {
+        "factor": "원자재",
+        "detail": "알루미늄 등 원자재의 가격·조달 상황이 부품 제조 원가에 직결되어 수익성에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "항공기부품 제조하는 업체"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "Section48 84,872(33.21%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "엠브라에르社 E-Jet II의 항공기 동체"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "항공기 제조 산업은 주문에서 인도까지 평균 3~4년이 소요되고"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4212,
+    "completion_tokens": 5004,
+    "reasoning_tokens": 4224,
+    "output_tokens": 780
+  },
+  "warnings": []
+}

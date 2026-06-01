@@ -1,0 +1,67 @@
+{
+  "stock_code": "012450",
+  "corp_name": "한화에어로스페이스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 21:02",
+  "meta": {
+    "wics": "우주항공과국방",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "한화에어로스페이스는 고도의 정밀기계 기술을 바탕으로 항공, 방산, 해양, IT서비스, 항공우주 등 다양한 사업 포트폴리오를 가진 기업입니다. 가스터빈엔진·엔진부품과 자주포·장갑차 등 군수장비, 선박 및 발사체·위성 등 다양한 고부가가치 제품을 생산합니다.",
+    "business_model": "FY2025 기준 매출 구성은 항공 9.4%, 방산 38.9%, 해양 54.5%, IT서비스 등 2.5%, 항공우주 1.2%로 방산과 해양이 매출 대부분을 차지합니다. 항공·항공우주 및 정밀기계 사업은 핵심기술의 진입장벽이 높고 장기간 개발과 투자가 필요한 특성이 있어 AM(Aftermarket, 정비·부품) 및 대형 수출계약이 수익성에 중요한 역할을 합니다.",
+    "main_customers": "항공 — 정부 및 국내외 항공기업체·해외 엔진 제작업체 / 방산 — 국내 군·정부 및 해외 국방 당국 / 해양 — 해양에너지 개발·해운·수산 등 전방 산업 / IT서비스 — 기업 고객(전산시스템 설계·구축 대상) / 항공우주 — 국내외 정부 및 다양한 고객(발사체·위성 대상)",
+    "price_factors": [
+      {
+        "factor": "개발투자",
+        "detail": "장기간의 개발기간과 높은 초기투자 필요 — 개발 지연·투자비 증가 시 실적에 부담."
+      },
+      {
+        "factor": "품질·납기",
+        "detail": "품질·납기·가격 경쟁력이 수주와 평판에 직접 영향 — 품질 문제 시 수주 감소 위험."
+      },
+      {
+        "factor": "방산수출",
+        "detail": "대형 방산수출계약이 매출 변동성에 큰 영향 — 수출 확대 시 실적 개선에 기여."
+      },
+      {
+        "factor": "사업구성(해양비중)",
+        "detail": "해양 매출 비중(54.5%)이 높아 해양사업의 실적 변동이 전체 매출에 큰 영향."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 사업의 개요",
+        "evidence_text": "다양한 사업 포트폴리오를 구성하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "항공: 2,519,663 (9.4%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "(1) 항공사업 [국내외 시장여건]",
+        "evidence_text": "정부 및 국내외 항공기업체"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "(1) 항공사업 [경쟁우위요소]",
+        "evidence_text": "항공사업 경쟁력은 품질, 납기, 가격에서 좌우되며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4913,
+    "completion_tokens": 4985,
+    "reasoning_tokens": 4224,
+    "output_tokens": 761
+  },
+  "warnings": []
+}

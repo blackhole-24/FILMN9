@@ -1,0 +1,71 @@
+{
+  "stock_code": "398120",
+  "corp_name": "에스지헬스케어",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 18:51",
+  "meta": {
+    "wics": "건강관리장비와용품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "에스지헬스케어는 2009년 7월 설립된 의료용 영상진단기기 제조·판매 회사로, X-ray·C-arm·CT/MRI·초음파 등 다양한 영상진단 장비를 전문으로 생산합니다. 당사 제품군은 국내외 병원 등 의료기관에서 인체 및 반려동물의 의료 검진 목적으로 주로 활용되고 있습니다.",
+    "business_model": "주력 수익원은 의료영상 진단기기 판매이며, 2025년 매출에서 해외매출(의료영상 진단기기)이 99.1%를 차지하고, 국내매출이 0.6%, 용역(CS)이 0.1%, IAI(SW)가 0.2%를 차지합니다. 또한 2021년 자회사 ㈜민트랩스를 설립해 의료기기 전문 AI 소프트웨어(IAI)를 개발·상용화하여 하드웨어 판매 외에 소프트웨어 기반 사업도 병행하고 있습니다.",
+    "main_customers": "해외매출(의료영상 진단기기) — 해외 병원·의료기관(인체 및 반려동물 검진 목적) / 국내매출(의료영상 진단기기) — 국내 병·의원 등 의료기관 / 용역(CS) — 의료기관(장비 유지·관리 관련 서비스) / IAI(SW) — 병원·영상진단센터 등 의료현장",
+    "price_factors": [
+      {
+        "factor": "수출의존",
+        "detail": "해외매출 비중이 매우 높아(2025년 약 99.1%) 환율·해외수요 변동이 실적에 큰 영향을 미칩니다."
+      },
+      {
+        "factor": "인증·규제",
+        "detail": "MFDS 및 주요 수출국(FDA·CE 등) 인증 요구가 엄격하여 인증 획득 지연이나 기준 변화가 사업에 영향합니다."
+      },
+      {
+        "factor": "기술경쟁",
+        "detail": "디지털화·AI 등 신기술 도입 속도에 따라 제품 경쟁력과 시장점유율이 좌우됩니다."
+      },
+      {
+        "factor": "국내수요",
+        "detail": "국내 의료환경·정치적 이슈(예: 의료대란)로 국내 장비 수요가 급감하면 전체 실적에 부담이 될 수 있습니다."
+      },
+      {
+        "factor": "제품가격변동",
+        "detail": "고객별 사양 차이에 따른 가격 편차가 크므로 수주 구성에 따라 매출총이익률 변동성이 커질 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "당사는 2009년 07월 17일 설립되어 현재 의료용 영상진단기기 제조 및 판매를 주요 사업으로 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[표] 가. 매출실적",
+        "evidence_text": "해외매출 | 의료영상 진단기기 | 24,384"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "당사 제품군은 국내외 병원 등 의료기관에서 인체 및 반려동물의 의료 검진 목적으로 주로 활용되고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 다. 산업 및 시장 개요",
+        "evidence_text": "디지털 X-ray 및 AI를 활용한 3D 이미징 등 관련 분야에 신기술 도입을 통한 산업 변혁이 이루어지고 있어"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5582,
+    "completion_tokens": 4301,
+    "reasoning_tokens": 3392,
+    "output_tokens": 909
+  },
+  "warnings": []
+}

@@ -1,0 +1,72 @@
+{
+  "stock_code": "033790",
+  "corp_name": "피노",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 00:02",
+  "meta": {
+    "wics": "전기제품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "피노는 '글로벌 신에너지 소재 과학 기업'을 전략 목표로 삼아 저탄소·친환경 중심의 신재생에너지 소재 생태계 구축을 추진하고 있습니다. 주력은 신에너지 배터리용 양극재 및 전구체의 연구개발(R&D(연구개발)), 생산 및 판매입니다.",
+    "business_model": "사업부문별 매출은 신에너지사업이 99.72%, 통신장비사업이 0.27%, 게임사업이 0.01%를 차지합니다. 핵심 수익원은 니켈계·코발트계·인계·나트륨계 전구체 및 양극재의 생산·판매로, 전기차(EV), ESS, 소비자 전자제품 등 다양한 산업 분야에 공급됩니다.",
+    "main_customers": "신에너지사업 — 전기차 제조사·ESS 사업자·소비자 전자제품 업체 및 드론·UAM·AI·로봇 관련 기업 / 통신장비사업 — 통신사업자 및 중계기 유지보수 수요처 / 게임사업 — 모바일게임 관련 매출처",
+    "price_factors": [
+      {
+        "factor": "원자재 시세·공급",
+        "detail": "국제 광물자원 가격과 원자재 공급 안정성은 제품 원가와 마진에 직접적 영향을 미칩니다."
+      },
+      {
+        "factor": "전기차 수요",
+        "detail": "글로벌 전기차 판매 증가에 따라 니켈계 삼원 소재 등 핵심 제품 수요가 확대되어 실적에 영향을 줍니다."
+      },
+      {
+        "factor": "LFP(인계) 채택",
+        "detail": "리튬인산철(LFP) 배터리 채택 확대는 인계 소재 수요를 견인하여 관련 매출에 영향을 미칩니다."
+      },
+      {
+        "factor": "환율",
+        "detail": "환율 변동은 수출입 원가와 매출 환산에 영향을 주어 실적 변동성을 높일 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "글로벌 신에너지 소재 과학 기업"
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황",
+        "evidence_text": "양극재 및 전구체의 연구개발(R&D), 생산, 판매"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "264,022,639(99.72)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "전기차(EV), 에너지저장장치(ESS)"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "주요 제품 등의 가격변동추이",
+        "evidence_text": "국제 광물자원 시세 및 환율 변동"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4658,
+    "completion_tokens": 3360,
+    "reasoning_tokens": 2624,
+    "output_tokens": 736
+  },
+  "warnings": []
+}

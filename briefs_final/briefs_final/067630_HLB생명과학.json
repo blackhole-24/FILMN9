@@ -1,0 +1,67 @@
+{
+  "stock_code": "067630",
+  "corp_name": "HLB생명과학",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 04:56",
+  "meta": {
+    "wics": "건강관리장비와용품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "HLB생명과학은 제약·의료기기 중심으로 사업구조를 전환한 기업으로, 연결회사들은 메디케어, 바이오개발, 의료기기, 에너지 등 총 4개 사업부문 체제로 운영되고 있습니다. 메디칼 부품·완제품 제조와 신약 파이프라인 개발을 병행하며 사업 포트폴리오 다각화를 추진하고 있습니다.",
+    "business_model": "핵심 수익원은 메디케어(체외진단용 의료기기·OEM/ODM), 의료기기(주사기·의료용구 제조·판매), 바이오개발(신약·바이오소재 개발), 건설업 및 엔지니어링(태양광 EPC 등)으로 구성되며, FY2025 기준 사업부문별 매출 비중은 메디케어 37.6%, 의료기기 39.0%, 바이오개발 0.1%, 건설업 및 엔지니어링 20.1%, 기타 3.2%입니다. OEM/ODM(위탁생산)과 TPM(Third Party Manufacturing) 계약을 통해 글로벌 파트너사 대상 위탁생산을 수행하고 있습니다.",
+    "main_customers": "메디케어 — 연구소·의료시설·제조사 및 Abbott·SD BIOSENSOR·Roche 등 / 의료기기 — 의료기관·유통업체(주사기·의료용구 대상) / 바이오개발 — 신약·바이오 연구·개발 관련 분야",
+    "price_factors": [
+      {
+        "factor": "체외진단 수요",
+        "detail": "감염병 유행이나 인구구조 변화에 따른 체외진단(IVD) 수요 변동이 메디케어 매출과 실적에 직결됩니다."
+      },
+      {
+        "factor": "OEM/ODM 산업흐름",
+        "detail": "화장품·의료기기 OEM/ODM 수요 확대 시 위탁생산 매출이 증대되어 수익성에 긍정적 영향을 미칩니다."
+      },
+      {
+        "factor": "원가 상승",
+        "detail": "원가 상승은 주력 제품의 마진을 압박하여 영업실적에 부정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "해외시장 개척",
+        "detail": "주사기 등 의료기기 제품의 해외(예: 미국) 진입 성과는 매출 다각화와 수익성 개선에 기여할 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 - 영업 현황",
+        "evidence_text": "총 4개 사업부문 체제로 운영되고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "메디케어: 17,218 (37.6%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 메디케어사업 부문",
+        "evidence_text": "주요 고객사는 Abbott, SD BIOSENSOR 등 이며,"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "COVID-19 엔더믹으로 인해 당사의 주력 제품인 체외진단기기의 매출 감소 및 원가 상승"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5569,
+    "completion_tokens": 4539,
+    "reasoning_tokens": 3712,
+    "output_tokens": 827
+  },
+  "warnings": []
+}

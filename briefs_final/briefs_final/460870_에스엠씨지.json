@@ -1,0 +1,72 @@
+{
+  "stock_code": "460870",
+  "corp_name": "에스엠씨지",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 20:16",
+  "meta": {
+    "wics": "포장재",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "에스엠씨지는 1989년 12월 30일에 설립된 화장품용 유리용기 전문기업으로, 유리 기반의 화장품 용기 전체 패키지(Full package)를 제조·판매하는 것을 주력으로 하고 있습니다. 약 30년에 가까운 유리용기 제조 경험을 바탕으로 국내외 다양한 고객사에 제품을 공급하고 있습니다.",
+    "business_model": "핵심 제품은 초자용기(투명·유색 유리용기)와 캡·펌프·스포이드 등 부자재이며, ODM(제조자 개발/설계 생산)을 통해 고객 맞춤형 용기를 개발·공급합니다. 매출 구성은 부자재 등으로 100.0%를 차지하며, 자체 몰드(약 800품목)와 free Mold 제공을 통해 신생 브랜드의 초기 진입을 지원하는 것이 특징입니다.",
+    "main_customers": "초자용기 — 화장품 제조사(국내외 브랜드 및 신생업체) / 부자재 — 화장품 제조사(캡·펌프·스포이드 등 맞춤형 부자재 수요)",
+    "price_factors": [
+      {
+        "factor": "진입장벽",
+        "detail": "부자재는 높은 진입장벽과 기술력 요구로 주문이 상위 업체에 집중되면 실적 안정성에 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "K-뷰티",
+        "detail": "K-Beauty 확산으로 해외 수요가 증가하면 수주 확대와 매출 성장에 긍정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "온라인채널",
+        "detail": "온라인·소셜미디어 기반 채널 확대로 신생 브랜드가 늘어나면 다품종 소량 공급 수요가 증가합니다."
+      },
+      {
+        "factor": "친환경성",
+        "detail": "환경친화적·재활용 가능한 유리소재 선호가 확대되면 유리용기 수요 확대에 유리하게 작용할 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "당사는 1989년 12월 30일에 설립되었습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 화장품 유리용기 분야의 ODM 사업을 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "부자재 등: 9,625 (100.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "현재 국내외 다양 고객사에 제품을 공급하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "부자재는 산업 내 ODM 다음으로 높은 진입장벽을 가지고 있으며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5496,
+    "completion_tokens": 4483,
+    "reasoning_tokens": 3712,
+    "output_tokens": 771
+  },
+  "warnings": []
+}

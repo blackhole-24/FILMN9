@@ -1,0 +1,67 @@
+{
+  "stock_code": "413390",
+  "corp_name": "엠오티",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 19:06",
+  "meta": {
+    "wics": "전기제품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "엠오티는 2019년 3월 이차전지 및 자동차부품 생산자동화 장비 제조를 목적으로 설립된 기업으로, 창업자 마점래 대표 및 삼성SDI 출신 핵심 인력 중심의 기술진을 보유하고 있습니다. 레이저 기반의 조립공정 자동화 장비를 주력으로 국내외 이차전지 제조사에 설비를 공급하는 기업입니다.",
+    "business_model": "주요 사업은 이차전지 조립공정용 자동화 장비 공급으로 FY2025 기준 이차전지제조장비가 49.1%, Jelly Roll Insert가 16.4%, Can Cap Welding이 18.3%, 기타가 15.5%를 차지합니다. 회사는 탭 웰딩(Tab Welding, 탭을 레이저로 접합하는 공정), 젤리롤 인서트(Jelly Roll Insert, 전극조립체를 Can에 삽입하는 공정), 캔캡 웰딩(Can Cap Welding, Can과 Cap을 레이저로 밀봉하는 공정) 등 레이저 기반 핵심 장비를 중심으로 기술지원과 현장 대응을 제공하고 있습니다.",
+    "main_customers": "이차전지제조장비 — 이차전지 제조업체(국내·해외, 예: 삼성SDI·SK온 등) / Jelly Roll Insert — 이차전지 제조업체 / Can Cap Welding — 이차전지 제조업체 / 자동차 부품 제조장비 — 완성차·부품업체",
+    "price_factors": [
+      {
+        "factor": "설비투자",
+        "detail": "고객사의 설비투자 집행 시기 변화(지연·조정)는 매출 발생 시점과 규모에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "전기차수요",
+        "detail": "전기차 수요의 단기적 정체(캐즘)로 EV용 배터리 설비투자가 위축되면 실적에 부정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "ESS수요",
+        "detail": "북미 중심의 ESS(에너지저장장치)용 배터리 수요 확대는 LFP 등 대체 배터리 라인 전환 수요를 통해 중장기 수요처가 될 수 있습니다."
+      },
+      {
+        "factor": "환율",
+        "detail": "글로벌 영업으로 인한 외화거래가 많아 환율 변동은 매출·비용의 원화 환산과 손익에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 2019년 3월 이차전지 및 자동차부품 생산자동화 장비 제조를 목적으로 설립되었습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "이차전지제조장비: 37,075 (49.1%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "Jelly Roll Insert: 12,406 (16.4%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "나. 시장여건 및 영업의 개황 (1) 시장 개요(가) 주요 목표시장",
+        "evidence_text": "당사의 주요 목표시장은 이차전지 제조업체입니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4899,
+    "completion_tokens": 5160,
+    "reasoning_tokens": 4288,
+    "output_tokens": 872
+  },
+  "warnings": []
+}

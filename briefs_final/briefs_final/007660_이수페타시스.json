@@ -1,0 +1,81 @@
+{
+  "stock_code": "007660",
+  "corp_name": "이수페타시스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 19:51",
+  "meta": {
+    "wics": "전자장비와기기",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "이수페타시스는 인쇄회로기판(PCB)을 전문으로 생산하는 기업으로, 한국 본사에 4개의 공장 및 연구소를 운영하고 있습니다. 해외에는 중국 생산공장과 판매법인(미국·태국), 영업사무소(대만·상해)를 보유하고 있으며, 2025년 연결기준 매출액은 10,880억을 기록했습니다.",
+    "business_model": "사업부문별로 PCB사업이 매출의 95.09%, 기타가 4.91%를 차지하며 주력 제품은 인쇄회로기판(PCB)입니다. 특히 초고다층 인쇄회로기판(Ultra High Layer PCB) 등 고다층·고부가가치 제품 중심의 생산역량을 강화하고 제5공장 증설 등을 통해 공급능력 확대에 주력하고 있습니다.",
+    "main_customers": "PCB사업 — 글로벌 AI·빅테크와 네트워크 장비업체, 첨단 IT 장비업체 / 기타 — 전자부품 관련 고객",
+    "price_factors": [
+      {
+        "factor": "기술력",
+        "detail": "고다층(초고다층) PCB에 대한 기술 요구가 높아 기술 우위 보유 여부가 실적과 시장지위에 큰 영향을 미칩니다."
+      },
+      {
+        "factor": "AI수요",
+        "detail": "AI 데이터센터·서버·네트워크 장비 투자 확대는 초고사양 PCB 수요를 증대시켜 매출에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "제조원가",
+        "detail": "다중적층 MLB 등 고다층 제품은 제작비와 공정 난도가 높아 원가 관리가 수익성에 중요한 변수입니다."
+      },
+      {
+        "factor": "환경규제",
+        "detail": "국제 환경 규제(예: RoHS·REACH)와 친환경 공정 요구 확대는 소재·공정 대응 비용 및 경쟁력 요인이 됩니다."
+      },
+      {
+        "factor": "환율",
+        "detail": "환율 변동은 연결회사의 자본과 손익에 직접적인 영향을 미치므로 실적 민감도 요인입니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "Ⅱ. 사업의 내용 > 영업의 현황",
+        "evidence_text": "인쇄회로기판(PCB)을 전문으로 생산하고 있으며"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "Ⅱ. 사업의 내용 > 영업의 현황",
+        "evidence_text": "4개의 공장 및 연구소를 운영하고 있습니다."
+      },
+      {
+        "field": "company_overview",
+        "source_section": "Ⅱ. 사업의 내용 > 영업의 현황",
+        "evidence_text": "연결기준 매출액은 2025년(제54기) 10,880억을 기록하였습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "1,034,652 (95.09)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "초고다층 인쇄회로기판(Ultra High Layer PCB) 전문 생산기업"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "세계적인 네트워크 장비업체들을 비롯한 첨단 IT 장비업체들"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4847,
+    "completion_tokens": 4843,
+    "reasoning_tokens": 3968,
+    "output_tokens": 875
+  },
+  "warnings": []
+}

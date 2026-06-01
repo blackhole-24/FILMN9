@@ -1,0 +1,84 @@
+{
+  "stock_code": "214450",
+  "corp_name": "파마리서치",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 12:17",
+  "meta": {
+    "wics": "건강관리장비와용품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "파마리서치는 2001년 설립되어 의약품·의료기기 등의 수입·유통과 컨설팅으로 출발했으며, PDRN/PN 기반 재생의학 원료를 활용한 의약품·의료기기·화장품 개발과 제조로 사업 영역을 확장했습니다. 2013년 강릉에 GMP 공장을 설립하고 2019년 제2공장 준공을 통해 생산 기반을 갖추었으며, 주요 종속회사 파마리서치바이오를 통해 보툴리눔 톡신 사업을 영위하고 국내·해외 시장으로 판매를 확대하고 있습니다. 2025년 연결기준 매출액 5,363억원, 영업이익 2,144억원, 당기순이익 1,683억원을 기록했습니다.",
+    "business_model": "핵심은 PDRN(재생 촉진 물질)과 PN(고분자 폴리뉴클레오타이드) 기술을 기반으로 한 제품 포트폴리오로, 의약품(주사제·점안액 등), 의료기기(리쥬란·관절강 주사 등), 화장품 등으로 수익을 창출합니다. 또한 초기의 의약품 수입·유통 경험을 바탕으로 국내 판권 확보 및 해외 수출을 병행하며, 종속회사를 통한 보툴리눔 톡신 생산·수출과 2024년 국내 품목허가를 계기로 국내 판매를 병행하고 있습니다.",
+    "main_customers": "의약품 — 국내 유통망 및 해외 바이어 / 의료기기 — 국내 유통 및 판매 채널 / 화장품 — 국내·해외 판매 채널 / 보툴리눔 톡신 — 해외 수출처 및 국내 시장",
+    "price_factors": [
+      {
+        "factor": "원료공급",
+        "detail": "PDRN·PN은 연어 유래 원재료를 기반으로 하므로 원료의 안정적 확보와 품질이 실적에 영향 미칩니다."
+      },
+      {
+        "factor": "허가·규제",
+        "detail": "의약품·의료기기 품목허가(예: 리엔톡주 허가) 여부가 상용화 시점과 매출 발생에 직접적 영향을 줍니다."
+      },
+      {
+        "factor": "해외유통",
+        "detail": "중국·일본·동남아·북미 등 해외 유통망 확장이 수출과 매출 성장에 직결됩니다."
+      },
+      {
+        "factor": "환율",
+        "detail": "외화로 체결된 매입계약과 수출입 활동에서 환율 변동이 비용과 이익에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 사업의 개요 (1) 기업 개요",
+        "evidence_text": "당사는 2001년 3월 의약품, 의료기기 등의 개발, 인허가 등록 컨설팅 서비스 회사로 창업하여"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "가. 사업의 개요 (1) 기업 개요",
+        "evidence_text": "또한 2013년 강릉에 GMP 인증공장을 설립하여"
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. 사업의 개요 (2) 보유기술",
+        "evidence_text": "PDRN/PN 관련 기술은 당사의 핵심 사업 역량으로"
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. 사업의 개요 (1) 기업 개요",
+        "evidence_text": "㈜ 파마리서치바이오는 2017년 보툴리눔 톡신 전용공장을 준공"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 사업의 개요 (1) 기업 개요",
+        "evidence_text": "중국 및 일본 중심의 아시아 시장과 유럽, 북미 시장을 통한 글로벌 시장진출 계획을 수립하여"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "마. 환율변동 영향",
+        "evidence_text": "환율 변동 위험에 노출되어 있습니다."
+      },
+      {
+        "field": "company_overview",
+        "source_section": "나. 영업실적",
+        "evidence_text": "2025년 연결기준 매출액 5,363억원, 영업이익 2,144억원"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 3946,
+    "completion_tokens": 4290,
+    "reasoning_tokens": 3200,
+    "output_tokens": 1090
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

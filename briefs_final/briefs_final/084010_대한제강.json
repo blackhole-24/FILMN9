@@ -1,0 +1,67 @@
+{
+  "stock_code": "084010",
+  "corp_name": "대한제강",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 12:40",
+  "meta": {
+    "wics": "철강",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "대한제강은 철근의 제조·판매를 주력으로 하는 국내 철강업체로, 연결기준 매출의 대부분이 철근 부문에서 발생합니다. 2020년 와이케이스틸 지분을 인수해 70%의 지배력을 확보하여 철스크랩 구매력과 판매 협상력을 강화함으로써 국내 철근 생산 능력 3위의 위치를 유지하고 있습니다.",
+    "business_model": "핵심은 제강/압연(철스크랩으로 빌릿(반제품)을 생산하고 이를 압연해 철근을 제조하는 공정) 중심의 제조·판매이며, 연결 매출의 95% 이상이 철근 제조·판매부문에서 발생합니다. 이외에 물류 매출과 고철 및 비철 상품매출이 발생하며, 와이케이스틸 지분 인수를 통해 원료 확보와 시장 지배력을 강화한 점이 특징입니다.",
+    "main_customers": "제강/압연 — 건설사·유통사·관급(조달청) / 기타부문 — 보고서에 구체 고객 미기재",
+    "price_factors": [
+      {
+        "factor": "철스크랩 가격",
+        "detail": "철스크랩은 원가의 핵심(약 70%)으로 가격 변동이 원가와 수익성에 직접적 영향을 미칩니다."
+      },
+      {
+        "factor": "건설경기",
+        "detail": "전기로 제강업의 주요 제품이 건설용 자재인 만큼 국내 건설경기 변동이 판매량과 실적에 큰 영향을 줍니다."
+      },
+      {
+        "factor": "원자재·에너지",
+        "detail": "원자재 가격 및 에너지 비용 상승은 매출원가 부담을 가중시켜 영업이익에 부정적 영향을 미칩니다."
+      },
+      {
+        "factor": "환경규제",
+        "detail": "글로벌 탄소중립 및 관련 법규 강화(예: 배출권·K-스틸법)는 친환경 생산기술 도입과 비용구조에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "연결회사는 철근의 제조,판매를 주 업으로 하고있으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황",
+        "evidence_text": "전체 연결 매출의 95% 이상을 철근 제조, 판매부문에서 발생하고 있어"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황 > 1) 시장의 특성",
+        "evidence_text": "주요 수요업체는 건설사, 유통사 그리고 관급(조달청)이며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "영업 현황 > 5) 자원조달상의 특성",
+        "evidence_text": "전기로 제강사의 경우 철근 원가의 약 70%를 차지하는 철스크랩이 핵심 원재료입니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4695,
+    "completion_tokens": 3310,
+    "reasoning_tokens": 2560,
+    "output_tokens": 750
+  },
+  "warnings": []
+}

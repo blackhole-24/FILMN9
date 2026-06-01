@@ -1,0 +1,67 @@
+{
+  "stock_code": "038390",
+  "corp_name": "레드캡투어",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 11:38",
+  "meta": {
+    "wics": "도로와철도운송",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "레드캡투어는 렌터카(자동차 대여)를 중심으로 일반여행업, 항공운송 대리점업, 중고자동차 판매업 등을 영위하는 종합 서비스회사입니다. 전국 25개 지점과 150개 정비 네트워크, 연중무휴 24시간 콜센터 등 운용·정비 인프라를 갖추고 있습니다.",
+    "business_model": "핵심 사업은 렌터카(장기대여)와 여행사업(일반여행·항공운송대리), 중고자동차 판매로 구성되어 있습니다. 2025년 연결 기준 영업수익은 3,656억원(전년비 1.9% 증가), 영업이익은 468억원(전년비 7.4% 증가)으로 보고되었고, 렌터카부문은 수익성 중심의 영업전략으로 수익이 소폭 증가했습니다. 여행부문은 매출은 감소했으나 비용절감 등으로 영업이익이 개선되었습니다.",
+    "main_customers": "장기대여(렌터카) — 기업체·공공기관·금융권·개인사업자 / 여행사업 — 여행자 및 여행 관련 시설 이용자",
+    "price_factors": [
+      {
+        "factor": "렌터카 성장",
+        "detail": "렌터카 인가대수의 연평균 성장(연평균성장률 4.3%)은 렌터카 수요 확대를 통해 렌터카 부문 실적에 영향을 미칩니다."
+      },
+      {
+        "factor": "법령·규제",
+        "detail": "자동차대여업은 여객자동차운수사업법 등 관련 규정의 영향으로 등록기준·대여기간·차종 규제가 영업에 직접적 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "정비 인프라",
+        "detail": "자체 경정비센터와 전국 정비 네트워크, 24시간 콜센터 등 서비스 인프라는 사고 대응·차량 가동률에 영향을 주어 운영 안정성에 기여합니다."
+      },
+      {
+        "factor": "계절성",
+        "detail": "여행사업은 계절적 변동이 크므로 성수기·비수기에 따른 수익 변동성이 실적에 반영됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "자동차 대여사업, 중고자동차 판매업 등을 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "4) 사업부별 내용 ① 렌터카사업부문",
+        "evidence_text": "렌터카사업은 수익성 중심의 영업전략 시행"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "주요 고객층은 주로 기업체, 공공기관, 금융권, 개인사업자 등"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "연평균성장률 4.3%를 나타내고"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 3296,
+    "completion_tokens": 5727,
+    "reasoning_tokens": 4928,
+    "output_tokens": 799
+  },
+  "warnings": []
+}

@@ -1,0 +1,67 @@
+{
+  "stock_code": "096610",
+  "corp_name": "알에프세미",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 07:39",
+  "meta": {
+    "wics": "반도체와반도체장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "알에프세미는 전기·전자 분야의 반도체 기업으로 ECM(마이크로폰용 반도체), TVS(서지 보호 소자) 및 LED 조명용 모듈·완제품을 주요 사업으로 영위하고 있습니다. 본사를 중심으로 한국 및 해외 2개 종속기업을 통해 사업을 운영하고 있습니다.",
+    "business_model": "매출은 사업부문별로 ECM(마이크로폰용 반도체) 약 80%, TVS(서지보호 반도체) 약 15%, LED 조명 약 5%로 구성되어 있습니다. ECM은 휴대폰·이어폰·AI 스피커 등 음성 입력 기기에, TVS는 스마트폰·전자기기의 서지 보호용으로 공급되며 LED 부문은 자사 기술을 활용한 모듈 및 완제품 생산이 수익을 보조합니다.",
+    "main_customers": "ECM — 휴대폰·이어폰·블루투스 헤드셋·AI 스피커 및 음성인식 기기 제조사 / TVS — 스마트폰 및 전자기기 제조사 / LED 조명 — LED Module·완제품을 구매하는 조명 관련 기업",
+    "price_factors": [
+      {
+        "factor": "ECM 수요",
+        "detail": "음성인식 기능 확대에 따라 ECM 수요가 늘어나면 실적에 긍정적 영향을 미칩니다."
+      },
+      {
+        "factor": "스마트폰 트렌드",
+        "detail": "스마트폰의 슬림화·소형화 추세는 소형·고성능 TVS 제품 수요에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "제품 경쟁력",
+        "detail": "노이즈 성능과 단가 경쟁력은 MEMS 대비 시장 대체 속도와 수익성에 영향을 줍니다."
+      },
+      {
+        "factor": "고객 채택",
+        "detail": "주요 고객사의 채택 방향 변화는 TVS 제품의 수요 구성과 매출에 즉시 반영됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "당사는 본사를 거점으로 한국 및 해외 2개 종속기업이 사업을 운영하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황",
+        "evidence_text": "ECM 반도체 부문 약 80%, TVS 반도체 부문 약 15%, LED 조명 부문 약 5%"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가) ECM(Electret Capacitor Microphone)용 반도체",
+        "evidence_text": "ECM용 반도체는 음성신호를 전기신호로 변환시키는 반도체 칩으로"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나) TVS(Transient Voltage Suppressor) 반도체",
+        "evidence_text": "스마트폰의 슬림화로 인해 패키지(PKG)의 두께도 얇아지고 있어"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3168,
+    "completion_tokens": 4398,
+    "reasoning_tokens": 3648,
+    "output_tokens": 750
+  },
+  "warnings": []
+}

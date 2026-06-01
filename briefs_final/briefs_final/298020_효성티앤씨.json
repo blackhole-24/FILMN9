@@ -1,0 +1,69 @@
+{
+  "stock_code": "298020",
+  "corp_name": "효성티앤씨",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 15:30",
+  "meta": {
+    "wics": "섬유,의류,신발,호화품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "효성티앤씨는 2018년 6월 1일 섬유·무역 부문을 인적분할하여 신설된 기업으로, 섬유 소재(스판덱스·나이론·폴리에스터 등)와 무역(철강·화학·특수가스 등)을 핵심 사업으로 영위합니다. 연결 기준 2025년 누적 매출액은 7조 6,948억원으로 대규모 판매기반을 보유하고 있습니다.",
+    "business_model": "사업부문은 섬유 부문과 무역 등 부문으로 나뉘며, 섬유는 스판덱스·나이론원사·폴리에스터원사·PTMG 등을 생산하고 무역 등은 철강 및 화학제품 Trading과 NF3 등 특수가스·타이어보강재를 취급합니다. 연결 기준 2025년 매출은 섬유부문 2조 9,627억원, 무역 등 부문 4조 7,321억원으로 집계되어 두 부문이 매출을 분담하고 있습니다.",
+    "main_customers": "섬유 — Local 및 직수출·내수직판을 통한 제조·유통 고객 / 무역 등 — 철강·화학제품 및 특수가스를 필요로 하는 국내외 거래처",
+    "price_factors": [
+      {
+        "factor": "원자재·시황",
+        "detail": "시황과 원료가격 변동분을 판가에 반영해 제품 가격과 매출이 변동합니다."
+      },
+      {
+        "factor": "브랜드 전략",
+        "detail": "CREORA·regen 브랜드 통합으로 프리미엄·친환경 제품 포지셔닝이 시장점유율에 영향합니다."
+      },
+      {
+        "factor": "공급망 안정성",
+        "detail": "무역부문의 생산 거점 다각화와 글로벌 네트워크가 공급 안정성과 실적에 영향을 미칩니다."
+      },
+      {
+        "factor": "생산가동률",
+        "detail": "섬유부문 가동률(예: 87.9%) 수준이 생산실적과 수익성에 직접 연동됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 영업 현황",
+        "evidence_text": "2018년 6월 1일을 분할기일로 하여 신설되었습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 영업 현황",
+        "evidence_text": "당사의 사업부문은 섬유 부문과 무역 등 부문으로 나누어져 있으며,"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 영업 현황",
+        "evidence_text": "당사의 판매경로는 Local 및 직수출, 내수직판으로 구분되어 있으며,"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 영업 현황",
+        "evidence_text": "시황에 따른 시장가격 변동 및 원료가 변동분을 판가에 반영하여"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4128,
+    "completion_tokens": 3843,
+    "reasoning_tokens": 3072,
+    "output_tokens": 771
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

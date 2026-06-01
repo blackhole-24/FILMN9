@@ -1,0 +1,96 @@
+{
+  "stock_code": "168330",
+  "corp_name": "내츄럴엔도텍",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 10:40",
+  "meta": {
+    "wics": "화장품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "내츄럴엔도텍은 천연자원·자연친화적 원료를 바탕으로 한 바이오 연구를 수행하는 헬스케어 기업입니다. 독창적인 천연물 연구와 바이오기술을 결합해 건강기능식품, 코스메슈티컬(기능성 화장품) 및 자회사 엔도더마를 통한 경피약물전달시스템(TDDS, Transdermal Drug Delivery System) 기반 마이크로니들 패치를 개발·공급합니다.",
+    "business_model": "FY2025 기준 사업부문별 영업수익 비중은 백수오 21.2%, 식품 5.2%, 화장품 66.2%, 기타 7.3%로 화장품(코스메슈티컬) 사업이 매출의 큰 부분을 차지합니다. 핵심 수익원은 천연물 기반 기능성 원료를 활용한 건강기능식품(원료 매출)과 자사·타사 브랜드를 통한 화장품 판매, 그리고 종속회사의 패치 OEM·바이오메디컬 솔루션입니다.",
+    "main_customers": "백수오 — 해외 거래처(캐나다·미국·동남아시아) / 식품 — 자사 브랜드(니드인) 소비자 및 타사 브랜드에 공급하는 기업(B2B) / 화장품 — 자사 브랜드(니들리) 소비자 및 타사 브랜드에 공급하는 기업 / 패치(OEM) — 종속회사를 통한 타기업 대상 공급",
+    "price_factors": [
+      {
+        "factor": "수요 확장",
+        "detail": "고령화와 건강 인식 제고로 건강기능식품 수요가 증가하면 원료·완제품 매출에 긍정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "수출 의존도",
+        "detail": "백수오 등 원료의 해외 판매 비중이 있어 해외 수요 변동은 헬스케어 수출액 및 실적에 직접 영향을 미칩니다."
+      },
+      {
+        "factor": "지식재산(특허)",
+        "detail": "보유 특허는 제품·기술 차별화 수단이므로 특허 포트폴리오 변화는 경쟁력과 수익성에 영향합니다."
+      },
+      {
+        "factor": "마케팅비",
+        "detail": "광고선전비 증감은 브랜드 인지도와 판매에 영향을 주며, 광고비 축소는 손실 개선으로 연결될 수 있습니다."
+      },
+      {
+        "factor": "재무·손상 위험",
+        "detail": "차입 증가 및 자산 손상 인식은 재무구조와 이익변동성에 부정적 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "(1) 사업 개요",
+        "evidence_text": "주식회사 내츄럴엔도텍(Naturalendo Tech)은 천연자원 및 자연친화적 원료를 기반으로 한 바이오 연구를 수행하며, 항노화 및 건강 증진을 목표로 하는 헬스케어 기업입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "■ 사업부문별 영업수익 구성 (FY2025)  - 백수오: 4,721 (21.2%)  - 식품: 1,165 (5.2%)  - 화장품: 14,710 (66.2%)  - 기타: 1,631 (7.3%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "(3) 연구개발(R&D) 및 기술력",
+        "evidence_text": "(*1) 백수오 품목은 캐나다, 미국, 동남아시아 등 해외거래처에 주로 판매하고 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "(3) 연구개발(R&D) 및 기술력",
+        "evidence_text": "(*2) 식품 품목은 당사 브랜드(니드인) 제품과 타기업에 공급하는 타사 브랜드 제품 등으로 이루어져 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "(3) 연구개발(R&D) 및 기술력",
+        "evidence_text": "(*3) 화장품 품목은 당사 브랜드(니들리) 제품과 타기업에 공급하는 타사 브랜드 제품 등으로 이루어져 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "(2) 주요 사업 영역",
+        "evidence_text": "제출일 기준 당사 보유중인 국내외 특허는 총 62건(등록 : 45건, 출원 : 17건)입니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "[경영진 실적·전략 요약 (MD&A)]",
+        "evidence_text": "백수오등복합추출물 시장의 확대로 인해 연결기준 헬스케어 수출액이 전 년 24억원에서 92.87% 증가한 45억원으로 증가하였습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "[경영진 실적·전략 요약 (MD&A)]",
+        "evidence_text": "그러나 전년도에 자사 브랜드인 니들리에 대한 해외 인지도를 높이기 위해 공격적인 글로벌 마케팅을 진행하며 증가시켰던 광고선전비를 소폭 감소시켜 손실 규모를 개선하였습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "[경영진 실적·전략 요약 (MD&A)]",
+        "evidence_text": "2025년말 연결 부채 총계는 126억원으로 전기 말 대비 94.43% 증가하였습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5787,
+    "completion_tokens": 5285,
+    "reasoning_tokens": 3904,
+    "output_tokens": 1381
+  },
+  "warnings": []
+}

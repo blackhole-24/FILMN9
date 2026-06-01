@@ -1,0 +1,72 @@
+{
+  "stock_code": "076610",
+  "corp_name": "해성옵틱스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 05:40",
+  "meta": {
+    "wics": "핸드셋",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "해성옵틱스는 2002년 설립된 광학 전자제품 전문 제조기업으로 출발하여 캠코더·디지털카메라용 렌즈와 모바일용 카메라 모듈 등을 생산해왔습니다. 2021년 렌즈모듈·카메라모듈 사업을 중단한 이후 현재는 OIS 액츄에이터(VCM) 사업을 주력으로 하고 있으며, 2023년 말 해화비나 인수로 OIS 사업 확대를 추진하고 있습니다.",
+    "business_model": "사업부문별로 VCM(OIS)사업이 매출의 56.2%로 핵심 수익원이며, S/W·H/W 솔루션 개발 사업은 1.2%, 차량용 제습제 등 기타 사업이 42.5%를 차지합니다. VCM 사업은 SUB1·SUB2 단품 납품부터 Main Assy(조립품) 및 렌즈모듈 조립을 포함한 다양한 형태로 공급되며, 고객사 선정과 경쟁에 따라 판매가격이 변동하는 구조입니다.",
+    "main_customers": "VCM(OIS)사업 — 국내 대기업(외주 부품공급업체로 선정된 고객) / S/W, H/W 솔루션 개발 사업 — 사업보고서상 특정 고객 미기재 / 차량용 제습제·물 관련 사업 외 — 사업보고서상 특정 고객 미기재",
+    "price_factors": [
+      {
+        "factor": "가격 경쟁",
+        "detail": "국내 대기업 벤더들 간 경쟁 심화로 평균판매단가(ASP)가 지속 하락하여 매출단가와 이익률에 압박을 줄 수 있습니다."
+      },
+      {
+        "factor": "제품 구성",
+        "detail": "SUB1·SUB2 단품부터 Main Assy·완제품 조립형태에 따라 판매가격 차이가 커 제품별 판매비중에 따라 평균 판매단가가 변동합니다."
+      },
+      {
+        "factor": "원재료 가격",
+        "detail": "원재료 가격 변동 시 고객사 요구에 따라 판매가격을 주기적으로 인하하는 구조로, 원가 변동이 실적에 직접 영향합니다."
+      },
+      {
+        "factor": "수요 환경",
+        "detail": "5G 확대·폴더블폰 등 트렌드와 카메라 탑재 수 증가로 액츄에이터 수요는 증가하나, 수요 구조 변화에 따라 실적 민감도가 달라질 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 2002년 3월 광학 전자제품 전문 제조 법인으로 설립되었으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "현재는 OIS 액츄에이터를 제조하는 VCM(OIS)사업을 주력으로 하고 있으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "VCM(OIS)사업: 90,184 (56.2%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "AF/OIS액츄에이터의 수요처인 국내 대기업은 당사를 포함한 몇개 업체를 외주 부품공급업체로 선정하여 물량을 배분하고 있으며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "국내 대기업 벤더들간의 가격 경쟁 심화로 평균판매단가가 지속 하락하고 있으며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4062,
+    "completion_tokens": 3731,
+    "reasoning_tokens": 2816,
+    "output_tokens": 915
+  },
+  "warnings": []
+}

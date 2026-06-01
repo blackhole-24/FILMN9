@@ -1,0 +1,76 @@
+{
+  "stock_code": "058430",
+  "corp_name": "포스코스틸리온",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 03:43",
+  "meta": {
+    "wics": "비철금속",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "포스코스틸리온은 표면처리강판 제조전문기업으로 단일사업을 영위하며, 도금강판과 컬러강판을 중심으로 강건재·가전·자동차 시장에 제품을 공급하고 있습니다. 포스코의 고품질 소재와 기술협력체계를 바탕으로 표면처리 분야에서 경쟁우위를 확보하고 있습니다.",
+    "business_model": "단일사업으로 도금강판(43.6%), 컬러강판(52.2%), 기타매출(4.2%)의 매출구조를 갖추고 있으며(도금강판 490,657(43.6); 컬러강판 587,256(52.2)), ALCOSTA·ALZASTA·MACOSTA 등 도금강판과 프린트·Lami 등 고급 컬러강판을 중심으로 고부가가치 제품 위주로 수익을 창출합니다.",
+    "main_customers": "도금강판 — 자동차 제조사·가전업체·건자재업체 / 컬러강판 — 건축용 판넬·가전 제조사 / 기타매출(임가공) — 자동차 및 건자재 관련 기업",
+    "price_factors": [
+      {
+        "factor": "수요산업 경기",
+        "detail": "자동차·건설·가전 등 수요산업의 수급 상황에 따라 실적이 직접 영향을 받습니다."
+      },
+      {
+        "factor": "중국산 저가공세",
+        "detail": "범용재 시장에서 중국산 저가재 유입으로 경쟁이 치열해지면 수익성 및 판매량에 부담이 됩니다."
+      },
+      {
+        "factor": "고부가화 집중",
+        "detail": "고급재(프린트·Lami·기능성 강판) 판매 비중 확대는 평균판매단가 및 수익성 개선에 기여합니다."
+      },
+      {
+        "factor": "원가경쟁 심화",
+        "detail": "원가 경쟁 심화 시 비용절감과 생산합리화 노력이 실적 방어의 핵심 요인이 됩니다."
+      },
+      {
+        "factor": "무역·관세 이슈",
+        "detail": "글로벌 보호무역·관세정책 심화는 수출입 경쟁력과 해외사업 환경에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 표면처리강판 제조전문기업으로 단일사업을 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[표] 가. 주요 제품 등의 현황",
+        "evidence_text": "도금강판 490,657(43.6)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[표] 가. 주요 제품 등의 현황",
+        "evidence_text": "컬러강판 587,256(52.2)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "강건재, 가전, 자동차 시장에 공급하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "표면처리강판 시장은 고급재와 범용재 시장으로 양분되어 있으며,"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5118,
+    "completion_tokens": 4866,
+    "reasoning_tokens": 4032,
+    "output_tokens": 834
+  },
+  "warnings": []
+}

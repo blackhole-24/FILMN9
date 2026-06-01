@@ -1,0 +1,81 @@
+{
+  "stock_code": "036670",
+  "corp_name": "삼양케이씨아이",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 09:57",
+  "meta": {
+    "wics": "화학",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "삼양케이씨아이는 화장품원료와 생활용품원료에 쓰이는 폴리머 및 계면활성제를 주력으로 하는 화학기업입니다. 2001년 1월 코스닥 상장 이후 다국적 기업들과의 거래를 확대해 왔으며, 글로벌 시장을 중심으로 수출을 늘려가고 있습니다.",
+    "business_model": "사업부문별 매출은 화장품원료 55.8%, 폴리머 23.6%, 기타 18.4%, 상품 2.4%로 구성됩니다. 샴푸·린스·화장품 등의 원료를 만드는 폴리머와 양이온계면활성제가 핵심 사업이며, 메틸글루세스와 MPC유도체도 화장품 및 관련 소재로 활용됩니다. 회사는 자체 연구소의 기술개발과 품질 경쟁력을 바탕으로 글로벌 제조사 생산공장에 제품을 공급하는 구조입니다.",
+    "main_customers": "폴리머 — 글로벌 제조사 생산공장 / 양이온계면활성제 — 다국적기업 / 메틸글루세스 — 샴푸·셰이빙크림·샤워젤 관련 제조업체 / MPC유도체 — 화장품용 원료 및 관련 소재 수요처",
+    "price_factors": [
+      {
+        "factor": "세계시장",
+        "detail": "현재 시장이 국내보다 세계시장에서 더 넓게 형성되어 있어, 해외 거래 확대가 실적에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "대체제",
+        "detail": "양이온 폴리머의 대체 제품 상용화가 미미해 기존 제품의 경쟁력이 유지되는 점이 실적에 영향을 줍니다."
+      },
+      {
+        "factor": "친환경",
+        "detail": "천연원료나 자연 분해 가능한 친환경 원료 개발이 활발해지며, 신제품 수요와 경쟁 구도가 함께 바뀔 수 있습니다."
+      },
+      {
+        "factor": "전방산업",
+        "detail": "퍼스널케어(화장품) 산업 성장성이 높을수록 원재료 소재 수요도 함께 늘어나는 구조입니다."
+      },
+      {
+        "factor": "경기민감도",
+        "detail": "생활용품 원료는 경기 변동과 계절 변화에 덜 민감해 수요가 비교적 안정적인 편입니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "마. 영업개황",
+        "evidence_text": "2001년 1월 코스닥 상장 이후"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "가. 산업의 현황",
+        "evidence_text": "생활용품(샴푸, 린스, 화장품 등)원재료 소재산업"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[표] 마. 매출구분",
+        "evidence_text": "화장품원료 | 제품 | 계면활성제 | 65,099"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[표] 마. 매출구분",
+        "evidence_text": "폴리머 | 27,508 | 25,425 | 21,634"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 공시대상 사업부문의 구분",
+        "evidence_text": "현재 대부분 글로벌 제조사 생산공장에 판매"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 공시대상 사업부문의 구분",
+        "evidence_text": "다국적기업으로의 꾸준한 매출신장이 되고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4553,
+    "completion_tokens": 897,
+    "reasoning_tokens": 0,
+    "output_tokens": 897
+  },
+  "warnings": []
+}

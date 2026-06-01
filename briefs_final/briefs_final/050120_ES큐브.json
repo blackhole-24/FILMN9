@@ -1,0 +1,71 @@
+{
+  "stock_code": "050120",
+  "corp_name": "ES큐브",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 02:47",
+  "meta": {
+    "wics": "레저용장비와제품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "ES큐브는 1977년 설립된 텐트 전문 제조업체로, ODM(제조업자 개발 생산)·OEM(주문자 상표 부착 생산) 방식으로 국내외 아웃도어 브랜드에 제품을 공급하는 기업입니다. 주로 일본·북미·국내시장에 수출하며 고기능성 텐트 중심의 생산 역량을 보유하고 있습니다.",
+    "business_model": "핵심 사업은 텐트사업부문으로, [사업부문별 매출 구성]상 텐트사업부문 매출 비중이 100.00%를 차지합니다. ODM·OEM 방식으로 브랜드(판매사)를 통해 제품을 납품하며 원단 및 폴(기둥) 등 원자재를 사용하고, 중국·베트남 현지법인의 연구개발·생산 역량을 활용해 수출을 진행합니다.",
+    "main_customers": "텐트사업부문 — 국내외 아웃도어 브랜드(수출 대상, 예: SNOW PEAK·OGAWA·HELINOX 등)",
+    "price_factors": [
+      {
+        "factor": "생산기지",
+        "detail": "중국·동남아 등 해외 생산기지 변동(인건비·무역정책)은 원가와 경쟁력에 직접적 영향을 미칩니다."
+      },
+      {
+        "factor": "원자재",
+        "detail": "원단 및 폴 등 주요 원자재 가격 상승은 제조원가를 높여 실적에 부담을 줄 수 있습니다."
+      },
+      {
+        "factor": "수요",
+        "detail": "글로벌 소비심리와 캠핑 인기도 변화는 제품 수요 변동으로 매출에 즉각적 영향을 줍니다."
+      },
+      {
+        "factor": "환경규제",
+        "detail": "PFAS 등 친환경 규제 강화는 원부자재 전환과 제품개발 비용 증가로 이어질 수 있습니다."
+      },
+      {
+        "factor": "시장구분",
+        "detail": "중저가·고가 시장의 구분과 각국 수요 수준 변화는 판매 믹스와 마진에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "당사는 1977년 설립되어 40년이상의 업력을 가진 회사로,"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "텐트사업부문 100.00"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "주로 일본, 북미 및 국내시장에 수출하는 ODM과 OEM 전문업체입니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "다. 시장여건 및 영업의 개황",
+        "evidence_text": "텐트시장은 중저가 시장과 고가 시장으로 양분되어 있으며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5748,
+    "completion_tokens": 4777,
+    "reasoning_tokens": 4032,
+    "output_tokens": 745
+  },
+  "warnings": []
+}

@@ -1,0 +1,71 @@
+{
+  "stock_code": "068940",
+  "corp_name": "셀피글로벌",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 05:08",
+  "meta": {
+    "wics": "상업서비스와공급품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "셀피글로벌은 스마트카드(신용·체크·교통·ID카드 등) 제조를 주력으로 하는 전기·전자 업종 기업으로, 전자카드 제조가 전체 매출의 큰 비중을 차지합니다. VISA·MasterCard·JCB 등 주요 제조인증을 확보하고 카드사·겸영은행에 제품을 납품하고 있습니다.",
+    "business_model": "핵심 사업은 카드사업부로, FY2025 기준 카드사업부가 영업수익의 95.2%를 차지합니다. 수익은 스마트카드의 COS(Chip Operating System) 개발과 카드 제조(프로젝트별 사양 맞춤 납품)에서 발생하며 신용카드·체크카드·교통카드·ID카드 등 제품군이 주를 이룹니다.",
+    "main_customers": "카드사업부 — 겸영은행·카드사",
+    "price_factors": [
+      {
+        "factor": "매출집중",
+        "detail": "카드사업부에 매출이 95.2%로 집중되어 있어 카드 발주 변동이 실적에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "국내성장둔화",
+        "detail": "국내 스마트카드 시장의 성장성 둔화는 기존 내수 기반 매출 성장에 제약을 줄 수 있습니다."
+      },
+      {
+        "factor": "칩공급집중",
+        "detail": "칩 원천기술과 생산이 NXP, 인피니언, 삼성전자 등 대기업 중심인 점은 공급·가격 측면의 외부 리스크 요인입니다."
+      },
+      {
+        "factor": "핀테크경쟁",
+        "detail": "대형 핀테크 기업(네이버·카카오 등)의 간편결제 성장과 카드수수료 인하 압력은 카드 수요 및 마진에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "해외확장",
+        "detail": "해외시장 개척(예: 미국 현지법인 설립) 성과가 국내 성장 둔화에 대한 대응과 매출 다변화에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "당사 매출액의 95%이상의 매출비중을 차지하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "이는 스마트카드와 관련된 COS(Chip Operating System)와 제조 부문으로 나눌수 있으며"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "스마트카드 제품을 제조하여 고객사(주로 겸영은행 및 카드사) 에 납품하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "카드사업부: 31,419,433 (95.2%)"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3584,
+    "completion_tokens": 3217,
+    "reasoning_tokens": 2432,
+    "output_tokens": 785
+  },
+  "warnings": []
+}

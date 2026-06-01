@@ -1,0 +1,67 @@
+{
+  "stock_code": "308170",
+  "corp_name": "씨티알모빌리티",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 15:55",
+  "meta": {
+    "wics": "자동차부품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "씨티알모빌리티는 구동장치와 현가장치를 생산·납품하는 자동차 부품사로, 울산·대구·서산 등 자체 생산공장과 종속회사 밀양공장을 운영합니다. 주요 납품처는 현대차그룹을 비롯한 국내외 완성차 업체 및 자동차 부품업체입니다. 2025년 연결매출은 약 4,614억원을 기록했습니다.",
+    "business_model": "사업은 구동부품과 현가부품 중심으로 구성되며, FY2025 기준 구동부분이 64.0%, 현가부분이 35.8%를 차지하고 기타가 1.0%입니다. 주력 품목으로는 로터샤프트, 이너레이스, 오디 클러치보스, 볼스크류, 프로펠라샤프트, 엑슬 및 종속회사의 컨트롤 암 등을 완성차 및 부품업체에 납품하는 방식으로 수익을 창출합니다.",
+    "main_customers": "구동부분 — 현대차그룹 및 국내외 완성차 업체·자동차 부품업체 / 현가부분 — 현대차그룹 및 국내외 완성차 업체·자동차 부품업체",
+    "price_factors": [
+      {
+        "factor": "완성차 의존도",
+        "detail": "완성차 업체에 대한 높은 실적 의존성으로 해당 업체의 수요 변동이 실적에 직접 영향을 미칩니다."
+      },
+      {
+        "factor": "부품 모듈화",
+        "detail": "완성차의 모듈화 요구가 강화되면 모듈 공급 역량이 있는 업체에 유리하고, 단순 가공 위주의 업체는 수익성 확보가 어려워집니다."
+      },
+      {
+        "factor": "글로벌 경쟁",
+        "detail": "해외 글로벌 부품업체의 국내 진입 및 완성차의 글로벌 소싱 확대가 경쟁을 심화시켜 가격·수주에 영향합니다."
+      },
+      {
+        "factor": "수요 변동성",
+        "detail": "자동차 산업의 경기·계절적 변동과 내수·수출 흐름에 따라 생산·매출이 변동됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "당사는 울산공장(본사), 대구공장, 서산공장의 생산시설을 운영하고"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "- 구동부분: 295,209 (64.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "- 현가부분: 165,231 (35.8%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "주요 납품처인 현대차그룹과 자동차 부품업체"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4014,
+    "completion_tokens": 4582,
+    "reasoning_tokens": 3840,
+    "output_tokens": 742
+  },
+  "warnings": []
+}

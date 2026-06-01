@@ -1,0 +1,76 @@
+{
+  "stock_code": "263690",
+  "corp_name": "디알젬",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 14:14",
+  "meta": {
+    "wics": "건강관리장비와용품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "디알젬은 2003년 설립되어 병원 및 의원용 진단용 엑스선촬영장치의 연구개발·제조·판매를 주력으로 하는 전문 제조업체입니다. 제너레이터·튜브·영상소프트웨어 등 핵심 부품을 자체 설계·제조하며 전세계 약 120개국에 250개 딜러를 통해 제품을 공급하고 있습니다.",
+    "business_model": "주요 수익은 제품 판매에 집중되어 있으며, 사업부문별로 제품이 매출의 98.9%, 용역이 1.1%를 차지합니다. 핵심 경쟁력은 엑스선 발생부·기구부·영상소프트웨어 등 주요 부품을 자체 개발·제조하고 OEM(주문자생산)을 통해 고객 맞춤형 시스템을 제공하는 점입니다.",
+    "main_customers": "제품 — 병원·의원(의료기관) / 용역 — 병원·의원(장비 운영·유지보수 등 서비스 대상)",
+    "price_factors": [
+      {
+        "factor": "디지털 전환",
+        "detail": "검출기 가격 하락과 DR(디지털) 전환 가속화는 제품 수요를 늘려 실적에 긍정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "글로벌 경쟁",
+        "detail": "Siemens·GE 등 상위 5개사가 약 70% 점유하는 경쟁 환경은 가격·시장 진입에 부담으로 작용할 수 있습니다."
+      },
+      {
+        "factor": "기술·규제",
+        "detail": "의료기기 안전성과 규제 요건이 엄격해 기술력 확보와 인증 지연이 실적에 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "생산 구조",
+        "detail": "다품종 소량생산 특성상 제품 개발·생산 비용과 납기 관리가 실적 변동성 요인이 됩니다."
+      },
+      {
+        "factor": "서비스 역량",
+        "detail": "설치 후 유지보수·엔지니어 교육이 중요해 고객 지원 역량이 경쟁력과 매출 지속성에 직결됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "진단용 엑스선촬영장치를 연구개발, 제조 및 판매하는 회사입니다."
+      },
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "전세계 약 120개국에 250개의 딜러를 통하여 판매하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "제품: 92,199 (98.9%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "용역: 1,233 (1.1%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황",
+        "evidence_text": "당사의 강점은 주요 핵심 부품을 직접 설계 및 제조"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5014,
+    "completion_tokens": 3784,
+    "reasoning_tokens": 3008,
+    "output_tokens": 776
+  },
+  "warnings": []
+}

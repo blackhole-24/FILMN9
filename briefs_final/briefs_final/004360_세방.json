@@ -1,0 +1,72 @@
+{
+  "stock_code": "004360",
+  "corp_name": "세방",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 18:45",
+  "meta": {
+    "wics": "항공화물운송과물류",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "세방은 항만 하역과 운송·물류를 주요 사업으로 영위하는 기업으로, 벌크·컨테이너·중량물 운송 및 물류센터 운영을 핵심으로 합니다. 벌크부문에서 연간 4천200만톤 이상을 처리하는 등 전국 주요 항만을 기반으로 한 운송·하역 네트워크를 보유하고 있습니다.",
+    "business_model": "FY2025 기준 매출은 7,555억원이며, 사업부문별로 운송부문이 61.2%, 항만하역(하역부문)이 22.9%, 보관(CY/CFS/일반창고)이 12.7%, 임대 외 기타가 3.2%를 차지합니다. 핵심 수익원은 컨테이너·벌크 운송 및 항만 하역 서비스이며, 트랙터·트레일러·하역장비·SPMT·Flat Barge 등 자체 장비를 활용한 일괄운송과 중량물 운송·설치, 물류센터 기반 보관·풀필먼트 서비스가 결합된 비즈니스 모델입니다.",
+    "main_customers": "벌크 하역 — 국내 대형 화주 / 컨테이너 운송 — 수출입 고객(수출입 기업) / 벌크 및 내수운송 — 사료·곡물·목재·철강재 등 화주(제조·유통업체) / 중량물 운송 및 설치 — 발전소·석유화학공장·선박기자재·중공업체 / 물류센터 운영 — 위험물 및 일반 화물 보유 화주·온라인 물류 고객",
+    "price_factors": [
+      {
+        "factor": "세계 경기",
+        "detail": "세계 경기 흐름에 따라 컨테이너 수출입 물동량이 변동하여 실적에 직간접적 영향을 미칩니다."
+      },
+      {
+        "factor": "항만간 경쟁",
+        "detail": "신규 민자부두 및 임대부두 확대로 부두운영사 간 경쟁이 심화되면 화주 유치와 운임·수수료에 영향이 발생합니다."
+      },
+      {
+        "factor": "정부정책·인프라",
+        "detail": "정부의 항만 개발·배후단지 정책과 민간 투자 유도는 장기적 수요와 운송 인프라 환경에 영향을 줍니다."
+      },
+      {
+        "factor": "장비·운영 역량",
+        "detail": "하역·중량물 운송을 위한 장비 현대화와 IT 시스템(실시간 화물추적 등) 도입 수준이 경쟁력과 원가구조에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "벌크 하역",
+        "evidence_text": "연간 4천 200만톤 이상의 벌크화물을 처리하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "'25년말 실적 요약",
+        "evidence_text": "운송부문 4,626억원 61.2%"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "벌크 하역",
+        "evidence_text": "당사는 국내 대형 화주물량을 안정적으로 확보하고 있으며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경기변동의 특성",
+        "evidence_text": "세계 경기의 흐름에 따라 컨테이너부문의 수출입 물동량이 결정되기 때문에"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "국내외 시장여건",
+        "evidence_text": "임대부두와 민자부두 간 과당경쟁이 예상되어"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4446,
+    "completion_tokens": 3656,
+    "reasoning_tokens": 2752,
+    "output_tokens": 904
+  },
+  "warnings": []
+}

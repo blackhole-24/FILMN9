@@ -1,0 +1,67 @@
+{
+  "stock_code": "020150",
+  "corp_name": "롯데에너지머티리얼즈",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 22:31",
+  "meta": {
+    "wics": "전자장비와기기",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "롯데에너지머티리얼즈는 1987년 설립된 기업으로, Elecfoil(동박) 등 전지·전자용 핵심소재를 주력으로 하는 소재부문과 Curtain Wall 등 건설부문을 함께 운영하는 기업입니다. 2011년 유가증권시장에 상장되어 연결기준 사업을 영위하고 있습니다.",
+    "business_model": "핵심 사업은 Elecfoil(동박) 제조·판매를 중심으로 한 소재부문이며, 건설부문(외벽공사·건설공사)이 병행되어 있습니다. 2025년 연결기준 매출 구성은 소재부문이 약 88.4%, 건설부문이 약 24.4%이며, 연결조정이 -12.8%로 집계되었습니다. 당사는 또한 황화물계 고체전해질 및 LFP 양극활물질 등 차세대 배터리소재의 파일럿 공장을 완공하는 등 제품 포트폴리오 다각화를 추진하고 있습니다.",
+    "main_customers": "소재부문 — 전기차·ESS·AI용 가속기·TV·컴퓨터·스마트폰 등 전방 산업(배터리·전자기기 관련 제조업체) / 건설부문 — 고층건물 외벽공사 수요자(건설사·건축주)",
+    "price_factors": [
+      {
+        "factor": "전방수요",
+        "detail": "전기차·2차전지·AI·IT 산업의 수요 변동이 Elecfoil 수요와 실적에 직접적 영향을 미칩니다."
+      },
+      {
+        "factor": "원자재가격",
+        "detail": "구리 등 원자재 가격 변동은 제조원가에 즉각적 영향을 주어 실적 변동성 요인이 됩니다."
+      },
+      {
+        "factor": "국제정세",
+        "detail": "국제 정치 불안 및 보호무역주의 등은 수출·공급망에 영향을 주어 실적에 부정적 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "기술·특허",
+        "detail": "다수의 국내외 특허 보유는 제품·사업 보호와 경쟁력 확보에 중요한 요인입니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "롯데에너지머티리얼즈는 1987년 설립 후"
+      },
+      {
+        "field": "business_model",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "Elecfoil을 제조·판매하는 소재부문과 Curtain Wall공사"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 3. 시장여건 및 영업의 개황",
+        "evidence_text": "전기차, ESS등 2차전지에 사용되는 전지박"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 3. 시장여건 및 영업의 개황",
+        "evidence_text": "구리 등 원자재 가격 변동 및 국제 정치 상황"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5021,
+    "completion_tokens": 4818,
+    "reasoning_tokens": 4032,
+    "output_tokens": 786
+  },
+  "warnings": []
+}

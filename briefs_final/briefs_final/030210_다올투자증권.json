@@ -1,0 +1,72 @@
+{
+  "stock_code": "030210",
+  "corp_name": "다올투자증권",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 23:31",
+  "meta": {
+    "wics": "증권",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "다올투자증권은 연결재무제표 기준으로 다올자산운용㈜, ㈜다올저축은행, Daol (Thailand) PCL 등 다수의 종속회사를 보유한 증권사로, 금융투자업과 집합투자업 등을 영위하고 있습니다. 2025 회계연도 연결기준 자산총계는 10조 4,567억원으로 전기 대비 8.89% 증가하는 등 중견 규모의 금융그룹입니다.",
+    "business_model": "당사는 투자중개, 투자매매(자기매매), 인수주선, 자기자본투자, 자산관리 등 증권업 전반의 영업활동을 통해 수수료·운용수익·투자수익을 창출합니다. 사업부문별 영업수익 구성은 자본(13.2%), 예수부채(4.0%), 금융부채(7.8%), 차입부채(67.4%), 기타부채(7.7%)로 표기되어 있으며, 연결 종속회사(자산운용·저축은행·해외법인)를 통한 포트폴리오 다각화가 특징입니다.",
+    "main_customers": "IB/인수주선 — 기업 / 투자중개(채권중개) — 기업·금융기관 / 리테일(자산관리) — 개인 투자자 / 자산운용 — 다수의 투자자(위탁자금 보유자)",
+    "price_factors": [
+      {
+        "factor": "부동산PF",
+        "detail": "부동산 PF 시장 회복 지연은 인수주선 실적 악화 및 대손충당금 부담으로 실적에 부정적 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "지정학리스크",
+        "detail": "지정학적 리스크 확대 시 증권업 전반의 불확실성이 커져 영업환경이 악화될 수 있습니다."
+      },
+      {
+        "factor": "금리환경",
+        "detail": "금리 관련 기대(예: 금리인하 기대감) 변화는 채권중개 등 투자중개 수익에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "증시변동성",
+        "detail": "증권시장 변동성 증가는 자기매매(주식운용) 수익 변동성을 확대시켜 실적에 영향을 미칠 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "금융투자업, 집합투자업 등의 사업을 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "자본: 400,745 (13.2%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "개인에게는 투자의 기회를 제공하고 기업에게는 필요자금을 조달하여"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "부동산 PF 시장의 회복지연과 지정학적 리스크에 따라"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "영업 실적(투자중개)",
+        "evidence_text": "하반기 금리인하 기대감 축소 등 비우호적 영업환경"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4450,
+    "completion_tokens": 4756,
+    "reasoning_tokens": 3904,
+    "output_tokens": 852
+  },
+  "warnings": []
+}

@@ -1,0 +1,71 @@
+{
+  "stock_code": "004870",
+  "corp_name": "티웨이홀딩스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 18:56",
+  "meta": {
+    "wics": "건축자재",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "티웨이홀딩스는 1966년 설립되어 1977년 유가증권시장에 상장한 기업으로, 수차례의 경영권 변동과 사명 변경을 거쳐 현재의 사업구조를 확립하였습니다. 2013년 관계회사인 티웨이항공을 인수한 이후 현재는 PHC 파일 제조 및 유통사업(원기둥 형태의 콘크리트 말뚝)을 중심으로 사업을 영위하고 있습니다.",
+    "business_model": "핵심 사업은 PHC 파일 제조·유통으로, 2025년 기준 제품/상품 매출이 5,035백만원(100.0%)을 차지하는 단일사업 구조입니다. PHC 파일은 아파트·플랜트·산업시설 등 대형 건설 프로젝트의 기초자재로 사용되며, 당사는 대구경 제품 중심의 생산능력을 바탕으로 대형 프로젝트 수주 확대에 주력하고 있습니다.",
+    "main_customers": "PHC 파일 — 아파트·주택건설사 / PHC 파일 — 플랜트·산업시설 건설사 / PHC 파일 — SOC(사회간접자본) 및 대형 인프라 발주처",
+    "price_factors": [
+      {
+        "factor": "건설경기",
+        "detail": "국내 건설투자와 수주 감소 시 PHC 파일 수요가 직접 감소하여 매출·실적에 큰 영향을 미칩니다."
+      },
+      {
+        "factor": "공공투자",
+        "detail": "신공항·산단·SOC 등 대형 프로젝트가 진행되면 대형 PHC 파일 수요가 증가하여 안정적 수익 기반을 지원합니다."
+      },
+      {
+        "factor": "원자재·운반비",
+        "detail": "콘크리트 원재료와 운반비 비중이 높아 원자재 가격 상승 및 물류비 증가가 매출원가와 이익률에 부정적 영향을 미칩니다."
+      },
+      {
+        "factor": "경쟁강도",
+        "detail": "중소업체 다수 참여로 경쟁이 심해지면 판매가격과 수주 확보에 압박이 가해질 수 있습니다."
+      },
+      {
+        "factor": "계절성",
+        "detail": "건설공사 계절적 편차로 봄·가을 수요 증가, 동절기 수요 감소가 실적 변동성을 높입니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "현재는 PHC 파일 제조 및 유통사업을 중심으로 사업을 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 실적",
+        "evidence_text": "■ 사업부문별 영업수익 구성 (FY2025)  - 제품/상품: 5,035 (100.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "PHC 파일은 연약지반에서의 기초공사에 필수적으로 사용되며, 아파트 등 주택건설과 플랜트, 산업시설 등 대규모 건설 프로젝트와 밀접한 관련성을 가지고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "파일사업은 건설업 경기와 밀접한 연관성을 가지며, 건설투자 및 건설수주 등 주요 지표의변동에 따라 수요가 영향을 받는 산업입니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5083,
+    "completion_tokens": 4146,
+    "reasoning_tokens": 3264,
+    "output_tokens": 882
+  },
+  "warnings": []
+}

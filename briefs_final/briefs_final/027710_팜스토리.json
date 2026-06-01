@@ -1,0 +1,67 @@
+{
+  "stock_code": "027710",
+  "corp_name": "팜스토리",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 23:23",
+  "meta": {
+    "wics": "식품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "팜스토리는 1991년 설립된 종합 농축산 기업으로, 코스닥 상장 이후 수차례 인수·합병을 통해 성장해 왔습니다. 현재 사료, 육가공, 가금 등 축산 전반을 아우르는 수직계열화를 기반으로 연매출 약 3조 3,889억원 규모로 성장했습니다.",
+    "business_model": "핵심 사업은 사료사업부(FB), 육가공사업부(LB), 가금사업부(PB) 및 기타사업부로 구성되며, FY2025 기준 매출 비중은 사료사업부 49.7%, 육가공사업부 42.0%, 가금사업부 6.4%, 기타사업부 1.8%입니다. 사료(원료조달·배합)부터 농가·도축·가공·유통까지 연결한 수직계열화(사료→농가→도축·가공·판매)가 수익 구조의 핵심입니다.",
+    "main_customers": "사료사업부(FB) — 양돈·산란·육계·오리·축우 농가 및 축산업체 / 육가공사업부(LB) — 육가공업체 및 대형유통점 / 가금사업부(PB) — 계육 가공식품 유통채널 및 최종 소비자",
+    "price_factors": [
+      {
+        "factor": "곡물가격",
+        "detail": "국제곡물가 변동은 사료 판매 단가와 매출에 직접적인 영향을 미쳐 실적 변동성을 키웁니다."
+      },
+      {
+        "factor": "질병관리",
+        "detail": "구제역 등 가축 질병 발생 시 원재료(생축) 공급이 감소하고 원재료 가격 상승으로 이어질 수 있습니다."
+      },
+      {
+        "factor": "수직계열화",
+        "detail": "사료부터 도축·가공·판매까지의 수직계열화는 원가 경쟁력과 판매 채널 확보에 영향을 줍니다."
+      },
+      {
+        "factor": "환경규제",
+        "detail": "분뇨 등 환경문제에 대한 규제 강화는 처리비용 증가로 이어져 육가공·사육 부문의 비용 부담을 높입니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "[경영진 실적·전략 요약 (MD&A)]",
+        "evidence_text": "연결기업은 1991년 4월에 설립되어 2003년 8월에 (주)이지홀딩스 계열에 편입되었습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "사료사업부(FB): 822,643 (49.7%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 사업부문별 영업개황",
+        "evidence_text": "현재에도 양돈, 산란, 육계, 오리, 축우산업 발전에 공헌"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 산업의 특성",
+        "evidence_text": "축산업 생산비 중 큰 비중을 차지하고 있어"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5572,
+    "completion_tokens": 3994,
+    "reasoning_tokens": 3200,
+    "output_tokens": 794
+  },
+  "warnings": []
+}

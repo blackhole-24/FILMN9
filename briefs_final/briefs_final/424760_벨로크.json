@@ -1,0 +1,71 @@
+{
+  "stock_code": "424760",
+  "corp_name": "벨로크",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 19:24",
+  "meta": {
+    "wics": "IT서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "벨로크는 정보보안 솔루션과 보안서비스를 제공하는 기업으로, 네트워크 보안, 보안 운영관리 시스템 및 정보보호 서비스를 포트폴리오로 보유한 보안 전문업체입니다. 특히 에너지·전력 분야에 확보한 레퍼런스를 바탕으로 공공기관·금융기관·민간기업을 주요 고객으로 둔 안정적 사업 기반을 갖추고 있습니다.",
+    "business_model": "FY2025 기준 사업부문별 영업수익은 보안솔루션 68.1%, 보안서비스 31.6%, 상품 0.3%로 구성되어 있습니다. 주력은 보안 솔루션의 공급·구축·유지보수와 보안 제품 판매·유통이며, 자체 개발한 FOCS, i-object track, B-CMS, B-SOP, B-Aegis 등 솔루션을 통해 기술 경쟁력을 확보하고 있습니다.",
+    "main_customers": "보안솔루션 — 공공기관(에너지·전력 계열), 금융기관, 민간기업 / 보안서비스 — 공공기관, 금융기관, 민간기업",
+    "price_factors": [
+      {
+        "factor": "사이버 위협",
+        "detail": "AI(인공지능) 기반 공격 확산 등 위협 고도화는 통합 관제·위협 대응 솔루션 수요를 늘려 실적에 긍정적 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "입찰 규격",
+        "detail": "국가정보원 등 고보안 기관의 엄격한 규격은 공급 자격과 준비도를 요구해 수주 성사에 직접적 영향을 미칩니다."
+      },
+      {
+        "factor": "OT/ICS 수요",
+        "detail": "OT(운영기술)/ICS(산업제어시스템) 융합 취약점 확대는 에너지·전력 분야 특화 솔루션 수요를 증가시켜 매출 기회를 확대할 수 있습니다."
+      },
+      {
+        "factor": "입찰 경쟁",
+        "detail": "입찰에 다수 업체가 참여하는 구조는 수주 경쟁을 심화시켜 수주확률과 수익성에 변동성을 줄 수 있습니다."
+      },
+      {
+        "factor": "해외 확장",
+        "detail": "해외 파트너와의 협력을 통한 수출형 솔루션 개발은 매출 다변화와 장기 성장동력 확보에 기여할 가능성이 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 정보보안 분야의 선도기업으로서"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "보안솔루션: 17,980,912 (68.1%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "주요 고객으로는 한국전력공사의 발전 자회사"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "라. 시장여건 및 영업의 개황",
+        "evidence_text": "최근 사이버 위협은 AI 기반 공격 기법 확산"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5897,
+    "completion_tokens": 4002,
+    "reasoning_tokens": 3200,
+    "output_tokens": 802
+  },
+  "warnings": []
+}

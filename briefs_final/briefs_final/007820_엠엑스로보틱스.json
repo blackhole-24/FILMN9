@@ -1,0 +1,87 @@
+{
+  "stock_code": "007820",
+  "corp_name": "엠엑스로보틱스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 19:57",
+  "meta": {
+    "wics": "기계",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "엠엑스로보틱스는 자동화창고 시스템 및 주변설비를 제작·납품하는 자동화 설비 기업으로, 제조업·물류 산업의 디지털 전환과 자동화 수요 확대 속에서 사업을 영위하고 있습니다. AI·IoT 등 정보통신기술을 접목한 스마트팩토리·물류 고도화 흐름이 사업 배경입니다.",
+    "business_model": "핵심 사업은 자동화설비(automated warehouse 및 주변 이송·분류 설비)이며, [사업부문별 매출 구성]에 따르면 자동화설비는 매출의 81.3% 및 93.8%를 차지합니다. 제품은 고객 요구에 따른 주문제작 방식(수주산업)으로 공급되며, Stacker Crane·RGV 등 개별품목 조합으로 설비 구성이 결정됩니다.",
+    "main_customers": "자동화설비 — 타이어·석유화학·제약·식음료·자동차·화장품 등 제조·물류업체 / 반도체 자동화 — 반도체 제조업체(전·후공정 이송장비 수요) / 2차전지 관련 — 국내외 배터리 제조사",
+    "price_factors": [
+      {
+        "factor": "수요증가",
+        "detail": "제조·물류의 디지털 전환과 스마트팩토리 도입 확대는 자동화설비 수요 증가로 실적에 긍정적 영향을 미칩니다."
+      },
+      {
+        "factor": "원자재비",
+        "detail": "원자재 수급 불안정 및 인플레이션은 자동화설비 공사금액 상승(원가 증가)으로 실적에 영향을 줍니다."
+      },
+      {
+        "factor": "환율",
+        "detail": "수출이 수입보다 많은 구조에서 원화 강세 시 현금흐름에 부정적 영향을 줄 수 있어 환율변동이 실적에 영향합니다."
+      },
+      {
+        "factor": "수주변동",
+        "detail": "수주산업 특성상 상반기 수주 감소는 매출 및 영업이익 변동으로 연결됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 업계의 현황",
+        "evidence_text": "이에 따라 당사가 영위하고 있는 사업의 현황은 다음과 같습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "- 81.3%"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "- 93.8%"
+      },
+      {
+        "field": "business_model",
+        "source_section": "나. 주요 제품 등의 가격변동추이",
+        "evidence_text": "당사가 영위하는 자동화창고 시스템 및 주변설비 산업은"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 업계의 현황 > ① 일반물류 자동화",
+        "evidence_text": "타이어, 석유화학, 제약, 식음료, 자동차, 화장품 등"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 업계의 현황 > ③ 2차전지",
+        "evidence_text": "국내외 주요 배터리 제조사들은 생산능력 확대와"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나. 영업실적",
+        "evidence_text": "제54기 당사의 매출액은 상반기 수주 감소의 영향으로 인해 전기 대비 8.7% 감소하였습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "다. 환율변동 영향",
+        "evidence_text": "당사는 영업활동으로 인하여 미화(USD) 등 환율 위험에 노출되어 있으며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3812,
+    "completion_tokens": 5058,
+    "reasoning_tokens": 4096,
+    "output_tokens": 962
+  },
+  "warnings": []
+}

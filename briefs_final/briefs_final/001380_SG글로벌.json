@@ -1,0 +1,81 @@
+{
+  "stock_code": "001380",
+  "corp_name": "SG글로벌",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 09:40",
+  "meta": {
+    "wics": "자동차부품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "SG글로벌은 자동차부품 업종에 속한 기업으로, 연결실체 기준 자동차시트커버(Seat Trim Cover) 제조 및 판매와 자동차시트(Car Seat) 제조 및 판매를 주력사업으로 하고 있습니다. 자동차산업의 전방인 완성차 생산·판매와 후방의 부품 산업이 긴밀히 연결된 구조 속에서 사업을 영위하고 있습니다.",
+    "business_model": "사업부문별 영업수익은 시트부품사업 51.4%, 시트사업 25.8%, 디스플레이사업 1.6%, 기타 5.6%로 구성되어 있습니다. 핵심 수익은 시트부품과 시트사업에서 나오며, 자동차시트커버와 자동차시트를 제조·판매하는 구조입니다. 디스플레이사업과 기타 부문도 함께 운영하고 있습니다.",
+    "main_customers": "시트부품사업 — 완성차업체 및 자동차부품 거래처 / 시트사업 — 완성차업체 및 차량용 시트 관련 거래처 / 디스플레이사업 — 관련 부품 수요처",
+    "price_factors": [
+      {
+        "factor": "완성차생산",
+        "detail": "전방산업인 완성차제조업의 생산 및 판매량이 자동차부품 수요에 큰 영향을 미쳐 실적 변동으로 이어질 수 있습니다."
+      },
+      {
+        "factor": "원가경쟁",
+        "detail": "세계 자동차 시장 경쟁 심화로 기술력과 원가 경쟁력이 핵심이어서, 원가 부담이 커지면 수익성에 압박이 생길 수 있습니다."
+      },
+      {
+        "factor": "환율변동",
+        "detail": "회사는 환율을 주요 리스크로 언급하고 있어, 환율 변화는 수익성과 원재료 조달 부담에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "원자재가",
+        "detail": "미·중 무역분쟁과 전쟁 등 대외 충격으로 수입 원자재 가격이 오르면 생산비용 증가와 수익 감소 우려가 커질 수 있습니다."
+      },
+      {
+        "factor": "납품구조",
+        "detail": "특정 완성차업체에 종속된 전속 납품 구조는 거래선 이탈 위험과 단가 인하 압력으로 이어질 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "MD&A",
+        "evidence_text": "연결실체는 자동차시트커버(Seat Trim Cover)제조 및 판매와 자동차시트(Car Seat)제조 및 판매를 주력사업으로 하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "시트부품사업: 48,084,891 (51.4%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "시트사업: 24,140,976 (25.8%)"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 시장여건 및 영업의 개황 등 (1) 산업의 특성",
+        "evidence_text": "전방산업인 완성차제조업의 생산 및 판매량이 후방산업인 자동차 부품산업에 큰 영향을 미치며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 시장여건 및 영업의 개황 등 (1) 산업의 특성",
+        "evidence_text": "기술력과 원가 경쟁력이 자동차 산업의 핵심 경쟁력으로 자리잡았고"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "MD&A",
+        "evidence_text": "회사는 이러한 국내·외 경제 상황 변화 속에서도"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4060,
+    "completion_tokens": 917,
+    "reasoning_tokens": 0,
+    "output_tokens": 917
+  },
+  "warnings": []
+}

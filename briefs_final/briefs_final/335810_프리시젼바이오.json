@@ -1,0 +1,76 @@
+{
+  "stock_code": "335810",
+  "corp_name": "프리시젼바이오",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:37",
+  "meta": {
+    "wics": "생명과학도구및서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "프리시젼바이오는 2009년 테라웨이브㈜로 출발해 첨단 광학분석기기 제작 기술을 발전시켜 온 체외진단(IVD, 체외진단) 전문기업입니다. 2015년 미국 나노디텍(Nano-Ditech)을 100% 자회사로 편입하면서 글로벌 체외진단 업체로의 기반을 마련했고, 현재는 면역진단과 임상화학진단 제품을 함께 다루고 있습니다.",
+    "business_model": "회사의 핵심 매출은 면역진단 제품과 임상화학 제품에서 발생합니다. FY2025 사업부문별 영업수익 구성은 임상화학 제품 60.0%, 면역진단 제품 38.0%, 상품 및 용역 2.0%로, 임상화학진단이 가장 큰 비중을 차지합니다. 주요 제품은 현장진단(POCT, 현장에서 바로 검사하는 방식) 환경에 맞게 설계돼 10~20분 이내 결과를 제공하고, 병원 시스템으로 자동 전송되는 네트워크 연결성도 갖추고 있습니다.",
+    "main_customers": "면역진단 제품 — 병원, 의료현장, 진단검사 수요처 / 임상화학 제품 — 사람용·동물용 진단검사 수요처 / 자회사 제품 — 현장진단 장비와 카트리지를 사용하는 의료기관 및 검사 수요처",
+    "price_factors": [
+      {
+        "factor": "규제인증",
+        "detail": "체외진단의료기기법, CE, FDA 등 인허가 여부가 제품 판매 가능 범위와 속도에 직접 영향을 줍니다."
+      },
+      {
+        "factor": "해외계약",
+        "detail": "북미 파트너사 및 기존 계약의 유지·연장이 판매 채널 확대와 매출 안정성에 영향을 줍니다."
+      },
+      {
+        "factor": "진단수요",
+        "detail": "심근경색, 감염성 질환처럼 빠른 검사와 저농도 검출이 필요한 진단 수요가 늘면 핵심 제품의 활용도가 높아집니다."
+      },
+      {
+        "factor": "연구개발",
+        "detail": "CLIA(면역화학발광)와 디지털 헬스케어 플랫폼 개발 성과가 향후 사업 확장 기대를 좌우합니다."
+      },
+      {
+        "factor": "재무구조",
+        "detail": "유상증자, 전환사채 상환 등 자금 조달·상환 흐름은 부채비율과 손익 구조에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "2009년 테라웨이브㈜를 설립하여"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "미국 나노디텍(Nano-Ditech)을 100% 자회사로 편입"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "면역진단 제품: 7,606 (38.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "임상화학 제품: 11,836 (60.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "병원 시스템 등에 자동으로 결과가 전송"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5470,
+    "completion_tokens": 889,
+    "reasoning_tokens": 0,
+    "output_tokens": 889
+  },
+  "warnings": []
+}

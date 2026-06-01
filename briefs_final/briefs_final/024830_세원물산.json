@@ -1,0 +1,86 @@
+{
+  "stock_code": "024830",
+  "corp_name": "세원물산",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 09:53",
+  "meta": {
+    "wics": "자동차부품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "세원물산은 1985년 2월 대구시 북구 태전동에 설립된 자동차부품 제조업체로, 현대자동차와 거래관계를 유지하며 차체부품을 납품해 왔습니다. 현대자동차 및 현대계열회사의 여러 차종에 대해 양산 납품을 하고 있으며, 현대자동차 지정 LEVEL-1 공장이라고 공시하고 있습니다.",
+    "business_model": "단일사업부문인 자동차 차체부품 제조와 이에 수반되는 금형제조업을 영위합니다. 사업부문별 매출 구성은 자동차 차체부품 376,832, 부산물 10,257, 기타 33,598로 제시되어 있으며, 순매출 기준으로는 내수제품매출 1,598억원(41.3%), 수출제품매출 2,273억원(58.7%)입니다. 주요 제품은 REAR FLOOR COMPL, FENDER APRON, MBR FRONT SIDE, SIDE INR, REF ASSY-SID OTR, DASH PANEL 등 차체보강판넬류입니다.",
+    "main_customers": "자동차 차체부품 — 현대자동차 및 현대계열 완성차업체 / 금형제조업 — 자동차 부품 생산 관련 수요처",
+    "price_factors": [
+      {
+        "factor": "완성차수요",
+        "detail": "완성차 업체의 생산·판매 동향에 직접 연동되어 차량 판매와 생산이 늘면 부품 수주와 실적에 영향을 줍니다."
+      },
+      {
+        "factor": "원재료가격",
+        "detail": "양산 단계에서 원재료(COIL) 가격 변동이 판매가격에 영향을 주어 수익성에 영향을 미칩니다."
+      },
+      {
+        "factor": "고객의존",
+        "detail": "주요 매출이 특정 완성차 업체로부터 발생하는 구조라 고객사의 정책 변화와 수주 물량 변동에 민감합니다."
+      },
+      {
+        "factor": "환율변동",
+        "detail": "자동차 부품산업은 환율에 민감하다고 공시되어 있어 수출 비중과 원가 구조에 따라 실적 변동이 생길 수 있습니다."
+      },
+      {
+        "factor": "전동화전환",
+        "detail": "전동화 및 친환경차 확대, 차량 전자화 등 산업 변화에 대응하는 기술·생산성 확보가 중요한 변수로 언급됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 1. 영업의 개황",
+        "evidence_text": "당사는 1985년 02월 대구시 북구 태전동에 설립되어"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 1. 영업의 개황",
+        "evidence_text": "현대자동차와 거래관계를 유지하며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 2. 공시대상 사업부문의 구분",
+        "evidence_text": "자동차 부품을 제조하는 단일사업부문"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 가. 주요 제품 등의 현황",
+        "evidence_text": "내수제품매출은 1,598억원(41.3%), 수출제품매출은 2,273억원(58.7%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 1. 영업의 개황",
+        "evidence_text": "현대자동차와 거래관계를 유지하며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 가. 주요 가격변동원인",
+        "evidence_text": "원재료(COIL) 가격변동"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "III. 재무에 관한 사항 > 1. 요약재무정보",
+        "evidence_text": "총제품매출구성은 제품 3,871억원"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4495,
+    "completion_tokens": 991,
+    "reasoning_tokens": 0,
+    "output_tokens": 991
+  },
+  "warnings": []
+}

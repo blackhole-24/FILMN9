@@ -1,0 +1,71 @@
+{
+  "stock_code": "038070",
+  "corp_name": "서린바이오",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 00:52",
+  "meta": {
+    "wics": "생물공학",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "서린바이오는 생명과학 및 헬스케어 분야의 Total Solutions 제공을 지향하는 기업으로, 바이오 산업 관련 제품과 서비스를 공급하고 위생·살균 솔루션과 AI 기반 바이오 분석서비스 등을 영위합니다. 자회사들을 통해 헬스케어 사업 영역을 확장하며 연구용 시약·장비와 바이오의약품 개발 원부재료 공급을 핵심으로 하고 있습니다.",
+    "business_model": "핵심 수익원은 연구·전임상·임상 및 생산공정에 필요한 시약·기기·원부재료 공급으로, FY2025 기준 해당 부문 매출 비중이 97.2%입니다. 이 외에 피부미용의료기기(2.4%), 임대(0.3%), 위생·살균 장치(0.0%) 등이 부수적 사업으로 구성되어 있습니다.",
+    "main_customers": "바이오 의약품·기초연구 관련 제품 — 바이오의약품 개발 및 생산 고객, 대학·병원·연구기관 및 바이오기업 / 위생·살균 솔루션 — 공공시설, 의료기관, 사업장 / 피부미용의료기기 — 고객 유형 명시 없음 / 임대 매출 — 고객 유형 명시 없음",
+    "price_factors": [
+      {
+        "factor": "규제·품질기준",
+        "detail": "GMP 등 글로벌 규제와 품질관리 기준 수준이 공급업체 경쟁력과 수주에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "연구개발 예산",
+        "detail": "대학·공공연구기관 및 기업의 R&D 예산 축소·증가에 따라 시약·장비 수요가 변동합니다."
+      },
+      {
+        "factor": "원가 상승",
+        "detail": "보고서상 원가 상승이 영업이익 감소로 이어진 바 있어 원자재·조달비 변동이 실적에 영향합니다."
+      },
+      {
+        "factor": "환율 변동",
+        "detail": "USD·EUR·JPY 등 환율 변동이 수입·수출 거래의 손익 변동으로 이어질 수 있습니다."
+      },
+      {
+        "factor": "재무조달·유동성",
+        "detail": "전환사채·교환사채 등 자금조달은 유동부채 증가로 재무구조와 자금유동성에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "Bio industry Total Solutions 제공 사업과 함께"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "74,933 (97.2%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "Bio industry total solutions 사업",
+        "evidence_text": "당사는 바이오의약품 개발 및 생산 고객을 대상으로"
+      },
+      {
+        "field": "financials",
+        "source_section": "3-2. 영업실적",
+        "evidence_text": "연결 기준 매출액은 77,091백만원"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5506,
+    "completion_tokens": 3715,
+    "reasoning_tokens": 2944,
+    "output_tokens": 771
+  },
+  "warnings": []
+}

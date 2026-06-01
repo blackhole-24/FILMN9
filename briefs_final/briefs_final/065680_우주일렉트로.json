@@ -1,0 +1,66 @@
+{
+  "stock_code": "065680",
+  "corp_name": "우주일렉트로",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 04:34",
+  "meta": {
+    "wics": "핸드셋",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "우주일렉트로는 초정밀 커넥터를 생산·판매하는 전기·전자 기업으로 IT 사업(모바일·디스플레이용)과 AD 사업(차량용)을 국내외(베트남, 중국) 사업장에서 영위하고 있습니다. 2025년 연결 기준 매출액은 1,864억원, 영업이익은 218억원으로 보고되었습니다.",
+    "business_model": "주요 사업부문은 IT사업과 AD사업이며, 2025회계연도 기준 IT사업이 10.0%, AD사업이 12.0%의 영업수익 비중을 차지합니다. IT사업은 스마트폰·태블릿·디스플레이용 초정밀 커넥터 생산에, AD사업은 차량용 커넥터 생산에 집중하고 있습니다.",
+    "main_customers": "IT 사업 — 스마트폰·태블릿·TV 제조사 등 전자기기 제조업체 / AD 사업 — 자동차 제조사 및 전장부품업체",
+    "price_factors": [
+      {
+        "factor": "전방수요",
+        "detail": "스마트폰·태블릿·TV·자동차 등의 수요 변동에 따라 실적이 민감하게 영향을 받습니다."
+      },
+      {
+        "factor": "제품개발력",
+        "detail": "단기간에 맞춘 신제품 개발 및 고객 맞춤형 대응 능력이 경쟁우위와 수주에 직접 영향합니다."
+      },
+      {
+        "factor": "원재료",
+        "detail": "Resin·Strip 등 주요 원재료 조달 상황(해외수입 비중)이 원가와 생산에 영향을 미칩니다."
+      },
+      {
+        "factor": "환율리스크",
+        "detail": "외화표시 자산·부채의 환율 변동이 실적에 영향을 주며 통화선도 등으로 위험을 관리하고 있습니다."
+      },
+      {
+        "factor": "스마트폰출하",
+        "detail": "글로벌 스마트폰 출하량 증감(예: 2025년 전망치)은 IT사업 실적에 직간접적 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > (1) 산업의 특성",
+        "evidence_text": "당사는 초정밀 커넥터 생산 및 판매 회사로"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "IT사업: 93,242 (10.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > (2) 시장의 성장성",
+        "evidence_text": "당사의 제품은 스마트폰, 태블릿PC 등 모바일 기기"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3538,
+    "completion_tokens": 3107,
+    "reasoning_tokens": 2432,
+    "output_tokens": 675
+  },
+  "warnings": []
+}

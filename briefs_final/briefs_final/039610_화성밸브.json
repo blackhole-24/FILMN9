@@ -1,0 +1,71 @@
+{
+  "stock_code": "039610",
+  "corp_name": "화성밸브",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 01:13",
+  "meta": {
+    "wics": "기계",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "화성밸브는 1987년 설립된 국내 주요 배관용 밸브 전문제조업체로, LPG용기용 밸브·플랜지볼밸브·매몰용접형 밸브 등 가스·화학약품용 차단밸브를 주력으로 생산합니다. 다수의 국제 인증(ISO9001(품질경영시스템 인증), ISO14001(환경경영시스템 인증) 등)을 보유하고 있으며, 수출도 병행하나 수출실적은 3% 미만입니다.",
+    "business_model": "사업은 제조업 중심이며 사업부문별 매출 비중은 플랜지식밸브 37.1%, 나사식밸브 22.1%, 상품외(기타) 19.7%, LPG용기용밸브 10.8%, 매몰용접형밸브 8.5%, 버터플라이밸브 1.8%로 구성됩니다. 대부분의 가공공정은 본사 및 2·3·4공장에서 직접 수행하며, 일부 품목은 연간 10-15% 가량 완제품을 매입하여 판매합니다.",
+    "main_customers": "LPG용기용밸브 — LPG충전소 및 LPG제조업체 / 나사식·플랜지·절연밸브 등 — 전국 약 350여개 대리점 및 33개의 도시가스사 배관업체 / 플랜트용 제품 — 건설·대형 플랜트 현장 및 석유·화학 업계 (SK가스, E1 등 전통적 에너지 유통망 포함)",
+    "price_factors": [
+      {
+        "factor": "안전성",
+        "detail": "밸브는 작은 결함도 대형사고로 이어질 수 있어 성능·안전 검증이 가격보다 우선되어 실적에 직결됩니다."
+      },
+      {
+        "factor": "원자재값",
+        "detail": "글로벌 원자재 가격 상승은 매출원가율을 높여 영업이익률에 부정적 영향을 미칩니다."
+      },
+      {
+        "factor": "인증·규제",
+        "detail": "한국가스공사 등 주요 수요처가 요구하는 국제·안전 인증(API·ISO 등) 확보 여부가 수주에 영향합니다."
+      },
+      {
+        "factor": "수출비중",
+        "detail": "현재 수출비중이 3% 미만으로 낮아 해외 수요 변동이 실적에 미치는 영향은 제한적입니다."
+      },
+      {
+        "factor": "유지보수수요",
+        "detail": "도시가스·플랜트의 교체·유지보수 수요는 경기 영향이 적은 안정적 수요로 작용합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "지배회사 사업의 개요",
+        "evidence_text": "당사는 국내 주요 배관용 밸브 전문제조업체로"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[표] 1. 주요 제품 등의 현황",
+        "evidence_text": "30,197(37.1)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "지배회사 사업의 개요",
+        "evidence_text": "전국 약 350여개 대리점 및 33개의 도시가스사"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "글로벌 원자재 가격 상승에 따른 매출원가율 상승"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4751,
+    "completion_tokens": 4466,
+    "reasoning_tokens": 3584,
+    "output_tokens": 882
+  },
+  "warnings": []
+}

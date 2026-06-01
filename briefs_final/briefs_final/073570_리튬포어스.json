@@ -1,0 +1,71 @@
+{
+  "stock_code": "073570",
+  "corp_name": "리튬포어스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 05:34",
+  "meta": {
+    "wics": "핸드셋",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "리튬포어스는 1998년 5월 23일 반도체 검사장비 등 개발·제조를 목적으로 설립된 기업으로, 사업 다각화 과정에서 2019년 ㈜위드모바일을 합병하고 2023년 사명을 리튬포어스로 변경했습니다. 현재는 IP(지적재산권)을 활용한 콘텐츠·모바일·테크 액세서리 제조·판매를 주된 사업으로 영위하면서 이차전지용 리튬 소재 제조 사업을 신규 추진하고 있습니다.",
+    "business_model": "주요 수익원은 IP(지적재산권) 기반의 제품 제조·판매로, 2025회계연도 기준 사업부문별 영업수익은 IP사업 98.5%, 리튬사업 0.1%, 기타 1.4%로 IP사업 비중이 압도적입니다. IP사업에서는 KAKAO FRIENDS 등 라이선스를 바탕으로 모바일·테크 액세서리와 소형가전 브랜드(BELUGA, CELIVE)를 기획·생산하며, 별도로 새만금에 리튬 소재 제조공장 건설을 추진해 리튬사업 확대를 시도하고 있습니다.",
+    "main_customers": "IP사업 — 유통처(리테일) 및 최종 소비자 / 리튬사업 — 이차전지 제조업체·소재 수요자 / 기타 — 제휴·OEM 거래처",
+    "price_factors": [
+      {
+        "factor": "IP시장 성장",
+        "detail": "글로벌·국내 캐릭터·라이선스 시장의 성장세는 IP사업 매출에 긍정적 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "유통 다변화",
+        "detail": "대형 리테일 협업 및 소셜커머스 등 유통구조 변화가 제품 판매 경로와 매출에 직접적으로 작용할 수 있습니다."
+      },
+      {
+        "factor": "원자재 리스크",
+        "detail": "리튬사업은 원자재 공급 편중과 조달 안정성 문제가 실적과 사업진행에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "자금조달",
+        "detail": "새만금공장 관련 외부 자금조달 불확실성은 공장 건설 일정과 리튬사업 진행에 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "매출 집중",
+        "detail": "IP사업 비중(98.5%)이 높아 해당 부문 실적 변동이 회사 전체 실적에 큰 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "[DART 사업보고서 — 영업 현황]",
+        "evidence_text": "1998년 5월 23일에 설립되었습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "IP사업: 9,515 (98.5%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[DART 사업보고서 — 영업 현황]",
+        "evidence_text": "리튬 소재를 생산하는 신규사업을 추진 중에 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "[DART 사업보고서 — 영업 현황]",
+        "evidence_text": "모바일 악세서리, 테크 액세서리 및 소형가전"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4670,
+    "completion_tokens": 3648,
+    "reasoning_tokens": 2816,
+    "output_tokens": 832
+  },
+  "warnings": []
+}

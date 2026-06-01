@@ -1,0 +1,72 @@
+{
+  "stock_code": "188040",
+  "corp_name": "바이오포트",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 11:10",
+  "meta": {
+    "wics": "식품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "바이오포트는 스낵류, 액상차, 음료 등 식품·음료의 제조 및 판매를 영위하는 기업으로, 부산·경남 지역에 3개의 자체 공장을 보유하고 대형 국내외 유통사에 납품하는 B2B 중심 사업을 전개합니다. 자체 브랜드(NB)와 전자상거래 채널을 통해 소비자 직접 판매도 병행하고 있습니다.",
+    "business_model": "사업부문별로 스낵 28.3%, 액상차 25.0%, 음료 18.3%, 건기식 1.1%, 기타 0.8%, 상품 26.5%로 FY2025 매출이 구성되어 있습니다. 주요 수익원은 대형 유통사 맞춤형 ODM(제조자개발생산)·PB(유통사 자체브랜드) 공급과 자체 브랜드 판매, 전자상거래 채널을 결합한 구조입니다.",
+    "main_customers": "스낵 — 국내·해외 코스트코, GS리테일, BGF리테일, 이마트24 등 대형 B2C 유통회사 / 액상차 — 국내·해외 코스트코, GS리테일, BGF리테일, 이마트24 등 대형 B2C 유통회사 / 음료 — 국내·해외 코스트코, GS리테일, BGF리테일, 이마트24 등 대형 B2C 유통회사",
+    "price_factors": [
+      {
+        "factor": "규제·인증",
+        "detail": "HACCP·FSSC22000 등 인증 취득 여부가 대형 유통업체 납품 조건에 직결되어 인증 미비 시 실적과 주가에 부정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "유통사 의존도",
+        "detail": "국내외 코스트코 등 대형 유통사와의 거래 비중이 높아 유통사 수요 변화·조건 변경이 실적에 큰 영향을 미칩니다."
+      },
+      {
+        "factor": "통상정책",
+        "detail": "미국 우선주의 관세 정책 등 대외 통상 리스크는 수출 여건을 악화시켜 실적 변동성과 주가 변동성을 높일 수 있습니다."
+      },
+      {
+        "factor": "수요 계절성",
+        "detail": "액상차와 음료 등 제품군은 타겟 시장과 계절성 차이가 있어 계절적 수요 변동이 실적에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 스낵류, 액상차, 음료 등 식품 및 음료 제조, 판매 사업을 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "스낵: 17,111 (28.3%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "주요 고객사로는 국내 및 해외 코스트코, GS리테일, BGF리테일, 이마트24 등"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 HACCP의무적용 대상에 해당됩니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "2025년 매출액은 전년대비 3.4% 감소한 70,880백만원"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5575,
+    "completion_tokens": 4364,
+    "reasoning_tokens": 3456,
+    "output_tokens": 908
+  },
+  "warnings": []
+}

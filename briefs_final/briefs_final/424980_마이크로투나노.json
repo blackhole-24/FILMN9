@@ -1,0 +1,66 @@
+{
+  "stock_code": "424980",
+  "corp_name": "마이크로투나노",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 19:26",
+  "meta": {
+    "wics": "반도체와반도체장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "마이크로투나노는 MEMS(Micro-Electro Mechanical Systems) 기술을 기반으로 반도체 테스트 공정에 사용되는 프로브카드와 파운드리 서비스를 제공하는 전문기업입니다. 핵심 제품인 프로브카드는 웨이퍼상의 칩과 테스트 장비를 연결해 불량을 선별하는 역할을 하며, 메모리 분야에서 높은 점유율과 SK하이닉스 등 주요 고객과의 거래 관계를 바탕으로 사업을 전개하고 있습니다.",
+    "business_model": "주요 수익원은 프로브카드 제조로, FY2025 기준 프로브카드 매출 비중이 89.9%로 압도적이며, 파운드리(9.8%)와 상품 등 기타매출(0.3%)이 그 외를 구성합니다. MEMS 기반의 정밀 설계·제조 역량과 연구개발(R&D) 투자를 통해 메모리용(NAND·DRAM)과 비메모리용 프로브카드 및 파운드리 제품을 공급하는 것이 핵심 비즈니스 모델입니다.",
+    "main_customers": "프로브카드 — 메모리·비메모리 반도체 제조업체(예: SK하이닉스) / 파운드리 — 의료·센서·광통신 등 다양한 산업의 국내·해외 수요처",
+    "price_factors": [
+      {
+        "factor": "반도체 업황",
+        "detail": "전방 반도체 수요 변동에 따라 프로브카드 발주가 크게 흔들려 실적에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "기술 고도화",
+        "detail": "미세화·고집적화 추세에 맞춘 MEMS 기술과 고정밀 제품 개발 능력이 경쟁력과 매출 확보에 결정적입니다."
+      },
+      {
+        "factor": "고객 의존도",
+        "detail": "특정 주요 고객(예: SK하이닉스) 의존도가 높아 해당 고객의 발주 변화가 매출 변동성으로 연결됩니다."
+      },
+      {
+        "factor": "품질·납기",
+        "detail": "정기적 품질평가에서의 등급과 납기 대응력이 고객사의 물량 배분 및 거래지속성에 영향을 줍니다."
+      },
+      {
+        "factor": "해외 경쟁",
+        "detail": "해외(특히 중국) 시장의 경쟁 심화는 글로벌 고객 확보와 가격·기술 경쟁력에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 영업 현황",
+        "evidence_text": "당사는 MEMS(Micro-Electro Mechanical Systems) 기술을 기반으로 반도체 테스트 공정에 사용되는 프로브카드 및 파운드리 서비스를 제공하는 전문 기업입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "프로브카드: 19,969,184 (89.9%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "특히 국내 종합반도체 기업인 SK하이닉스의 주요 비즈니스 파트너사(BP)로서"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4934,
+    "completion_tokens": 3239,
+    "reasoning_tokens": 2432,
+    "output_tokens": 807
+  },
+  "warnings": []
+}

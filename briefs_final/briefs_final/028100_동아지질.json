@@ -1,0 +1,66 @@
+{
+  "stock_code": "028100",
+  "corp_name": "동아지질",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 23:27",
+  "meta": {
+    "wics": "건설",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "동아지질은 지반조사·시험·계측·설계·시공을 엮은 토탈서비스(조사·설계·시공을 일괄 제공)를 핵심 경쟁력으로 하는 건설업체입니다. 토질·암석 시험실과 시험장비를 갖추고 지반 관련 데이터를 장기간 축적·확보해왔다는 점이 회사 정체성의 핵심입니다.",
+    "business_model": "주요 수익은 토목부문에 집중되어 있으며, FY2025 기준 토목부문이 영업수익의 100.0%를 차지하고 기타부문은 0.0%입니다. 회사는 지반조사·시험·계측·설계·시공을 통합 제공하는 토탈서비스(조사·설계·시공을 일괄 제공)를 통해 설계 참여부터 시공까지 고객 요구를 반영한 경제적·안정적 설계·시공을 수익원으로 삼고 있습니다.",
+    "main_customers": "토목부문 — 공사 발주자 및 설계·시공 관계자 / 기타부문 — 기타 사업 관련 고객",
+    "price_factors": [
+      {
+        "factor": "공공발주",
+        "detail": "공공부문 발주 확대 시 수주 증가로 실적에 직접적인 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "민간주택",
+        "detail": "민간 주택경기 회복 지연은 민간 수주 감소로 연결되어 실적에 부담을 줄 수 있습니다."
+      },
+      {
+        "factor": "공사비",
+        "detail": "높은 공사비는 사업비 증가로 수익성 악화 요인이 될 수 있습니다."
+      },
+      {
+        "factor": "경기민감성",
+        "detail": "건설산업의 경기변동성(경기선도·후행성)에 따라 수주와 실적이 크게 변동할 수 있습니다."
+      },
+      {
+        "factor": "토탈서비스",
+        "detail": "지반조사·시험 설비 보유 등 전문역량이 경쟁력으로 작용해 수주 경쟁에서 유리할 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "토질/암석 시험실 및 시험장비 시스템을 갖추어"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "토목부문: 467,626 (100.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "설계에 참여하여 고객의 요구를 적극 수용"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3857,
+    "completion_tokens": 2980,
+    "reasoning_tokens": 2304,
+    "output_tokens": 676
+  },
+  "warnings": []
+}

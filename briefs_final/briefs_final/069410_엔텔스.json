@@ -1,0 +1,86 @@
+{
+  "stock_code": "069410",
+  "corp_name": "엔텔스",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:08",
+  "meta": {
+    "wics": "IT서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "엔텔스는 2024년 5월 2일 사명을 (주)엔컴즈에서 (주)엔텔스랩스로 변경한 IT 서비스 기업입니다. 유무선 통신사업자와 방송사업자, e-Business 관련 사업자를 대상으로 서비스 운영에 필요한 통합 비즈니스 플랫폼을 제공하고 있습니다. 통신 인프라 고도화와 디지털 전환 확산 속에서 통신 중심 솔루션을 넘어 Cloud, AI DC Infra, AI Platform, Solution 분야로 사업을 넓히고 있습니다.",
+    "business_model": "핵심 사업은 통합운영지원솔루션이 42.87%로 가장 크며, 비즈니스지원시스템이 23.04%, 서비스제공플랫폼이 21.78%를 차지합니다. 나머지 12.31%는 기타(SI, 장비 공급)로 구성되어 있습니다. 이 회사는 서비스 개통, 과금, 고객·상품 정보 관리, 콘텐츠관리, 사용자 인증 등 통신 서비스 운영에 필요한 기능을 통합 플랫폼 형태로 제공하는 구조입니다.",
+    "main_customers": "통합운영지원솔루션 — 유무선 통신사업자, 방송사업자 / 비즈니스지원시스템 — 서비스 사업자의 고객·과금·정산 담당 부문 / 서비스제공플랫폼 — 콘텐츠·인증·서비스 운영이 필요한 사업자 / 기타 — 시스템통합(SI) 및 장비 공급 수요처",
+    "price_factors": [
+      {
+        "factor": "통신투자",
+        "detail": "기업과 통신사업자의 IT 투자 계획에 따라 실적이 영향을 받으며, 투자 집행이 늦어지면 매출 인식도 지연될 수 있습니다."
+      },
+      {
+        "factor": "DX수요",
+        "detail": "디지털 전환(DX) 확산으로 통합 운영관리와 AI 기반 자동화 솔루션 수요가 늘면 사업 기회가 확대될 수 있습니다."
+      },
+      {
+        "factor": "5G·IoT",
+        "detail": "5G 상용화와 사물인터넷(IoT) 확산으로 데이터 트래픽과 운영 복잡성이 커지면 관련 솔루션 수요가 증가할 수 있습니다."
+      },
+      {
+        "factor": "클라우드",
+        "detail": "클라우드 전환이 진행될수록 클라우드 네이티브 환경에 맞는 운영 솔루션과 플랫폼 수요가 커질 수 있습니다."
+      },
+      {
+        "factor": "경쟁력",
+        "detail": "기술력, 프로젝트 수행 경험, 장기 협력관계, 시스템 안정성, 유지보수 역량이 경쟁의 핵심이라 수주 경쟁에 직접 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "2024년 5월 2일 사명을 (주)엔컴즈에서 (주)엔텔스랩스로 변경하였습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "통합운영지원솔루션... 27,656,167(42.87%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "비즈니스지원시스템 ... 14,865,694(23.04%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "서비스제공플랫폼 ... 14,047,848(21.78%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "기타 ... 7,943,639(12.31%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "유무선 통신사업자, 유무선 방송사업자, e-Business"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 주요 제품 등의 가격 변동 추이",
+        "evidence_text": "표준화된 시장가격이 없습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3331,
+    "completion_tokens": 1014,
+    "reasoning_tokens": 0,
+    "output_tokens": 1014
+  },
+  "warnings": []
+}

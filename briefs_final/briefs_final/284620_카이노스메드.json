@@ -1,0 +1,67 @@
+{
+  "stock_code": "284620",
+  "corp_name": "카이노스메드",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 14:58",
+  "meta": {
+    "wics": "제약",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "카이노스메드는 생명공학 기술을 바탕으로 신약 연구개발을 수행하는 제약기업으로, 파킨슨병 등 뇌퇴행성 질환과 항바이러스·항암제 개발에 주력하고 있습니다. 미국 자회사 FAScinate를 통해 임상을 진행하는 등 해외 임상·기술이전(라이선스아웃)을 핵심 사업모델로 삼고 있습니다.",
+    "business_model": "주요 수익원은 신약후보물질의 기술이전(라이선스아웃, License-Out)과 이에 따른 로열티(특히 중국 파트너사로부터의 로열티)이며, 2025년 매출 기준으로 로열티 약 97.0%, 용역매출(리테이너 등) 약 3.0%, 라이센스아웃 수익은 0% 수준입니다. 연구개발(R&D) 중심의 파이프라인(파킨슨병 KM-819, 에이즈 KM-023 등)을 진행하며, 성공 시 기술이전과 로열티로 수익을 창출하는 구조입니다.",
+    "main_customers": "로열티 — 기술이전 파트너(예: Jiangsu Aidea Pharm.) 및 중국 의료(처방)시장 / 용역매출 — 파트너사 대상 용역(리테이너 수수료 등)",
+    "price_factors": [
+      {
+        "factor": "임상·허가",
+        "detail": "임상진행 결과 및 식약처·FDA 허가 여부가 실적과 가치에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "중국시장",
+        "detail": "중국 파트너의 품목허가·보험 등재 여부가 로열티 수익과 매출 증가에 직접 연결됩니다."
+      },
+      {
+        "factor": "파트너 의존",
+        "detail": "기술이전·상용화 과정에서 파트너사의 개발·재무상황 변화는 진행 지연 또는 로열티 변동으로 이어질 수 있습니다."
+      },
+      {
+        "factor": "R&D 비용",
+        "detail": "신약개발의 장기·고비용 구조로 인해 연구개발비 부담이 지속하면 당사의 손익에 압박을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "퇴행성 뇌질환 치료제, 항바이러스제, 항암제 개발에 주력하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황",
+        "evidence_text": "신약후보물질로 License-Out 함으로써 수익을 창출"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출",
+        "evidence_text": "총합계 1,171,632"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 주요 제품 등의 현황",
+        "evidence_text": "ACC007(단일제,Ainuovirine)을 중국에서 2021년도에 품목허가(NDA)를 받고"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5359,
+    "completion_tokens": 4536,
+    "reasoning_tokens": 3776,
+    "output_tokens": 760
+  },
+  "warnings": []
+}

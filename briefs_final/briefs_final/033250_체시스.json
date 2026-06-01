@@ -1,0 +1,62 @@
+{
+  "stock_code": "033250",
+  "corp_name": "체시스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 23:54",
+  "meta": {
+    "wics": "자동차부품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "체시스는 1989년 설립된 자동차 부품 제조업체로, 리어액슬을 비롯한 현가장치(서스펜션) 및 샤시 부품을 전문적으로 생산하여 국내외 완성차에 주문생산 방식으로 공급해왔습니다. GM대우, 현대자동차 등 다수 완성차에 장기간 부품을 납품한 이력이 있습니다.",
+    "business_model": "핵심 사업은 자동차부품 제조로, FY2025 기준 사업부문 영업수익에서 자동차부품이 100.0%를 차지합니다. 주요 제품은 리어액슬, 크로스멤버, 토션빔·트레일링암 등 섀시(차대) 관련 부품이며, 기술연구소 설립과 U-O TYPE 프레스 공법 등으로 제품경쟁력을 확보해 완성차사에 납품하는 구조입니다.",
+    "main_customers": "자동차부품 — 완성차 제조사(현대자동차, GM대우·GM, VW, 제규어, Mahindra 등)",
+    "price_factors": [
+      {
+        "factor": "아웃소싱 확대",
+        "detail": "완성차 업체의 외부 조달(아웃소싱) 비중이 높아지면 체시스의 수주 기회가 늘어나 실적에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "경기 민감성",
+        "detail": "자동차 수요는 경기변동에 민감하여 경기 침체 시 완성차 생산 감소로 부품 수요가 줄어들 수 있습니다."
+      },
+      {
+        "factor": "수출환경",
+        "detail": "미국 등 주요국의 무역정책(고관세 등)과 해외 공장 가동 등 대외 여건 변화는 수출과 매출에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "전기차 전환",
+        "detail": "전기차 배터리 모듈 크로스멤버 등 전기차 관련 수주 확대는 제품 다변화와 신규 시장 진출에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "당사는 1989년 설립된 이래"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "자동차부품: 77,066 (100.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "현대자동차 엘란트라 리어액슬 생산을 시작으로"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4522,
+    "completion_tokens": 4195,
+    "reasoning_tokens": 3520,
+    "output_tokens": 675
+  },
+  "warnings": []
+}

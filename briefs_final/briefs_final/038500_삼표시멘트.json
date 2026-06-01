@@ -1,0 +1,71 @@
+{
+  "stock_code": "038500",
+  "corp_name": "삼표시멘트",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 00:55",
+  "meta": {
+    "wics": "건축자재",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "삼표시멘트는 강원도 삼척의 삼척공장에서 시멘트를 생산하여 전국 출하기지를 통해 판매하는 국내 건축자재(시멘트) 업체입니다. 석회석 광산과 항구가 인접한 입지를 바탕으로 물류·원료 측면의 경쟁력을 갖추고 있습니다.",
+    "business_model": "주요 수익원은 시멘트 사업으로, 2025회계연도 기준 시멘트 사업 매출 비중이 94.2%이며 레미콘 사업이 5.8%를 차지합니다. 2021년 8월 삼표시멘트가 100% 출자해 삼표레미콘을 설립하고 지역별 레미콘 공장(여주, 당진, 아산, 대전, 군산)을 인수하여 레미콘의 제조·판매를 병행하고 있습니다.",
+    "main_customers": "시멘트 — 국내 건설현장·건설사 / 레미콘 — 지역 건설현장",
+    "price_factors": [
+      {
+        "factor": "건설경기",
+        "detail": "부동산 정책과 건설경기 침체는 내수 위주인 매출과 영업실적에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "운반비·물류",
+        "detail": "생산지와 소비지 간 물류 효율성이 수익성에 큰 영향을 미치며 운반비 절감이 경쟁요인입니다."
+      },
+      {
+        "factor": "에너지비용",
+        "detail": "주원료(석회석) 외에 주연료인 유연탄 등 에너지 비용 비중이 커 에너지비용 변동이 원가에 영향을 줍니다."
+      },
+      {
+        "factor": "환경규제",
+        "detail": "저탄소·친환경 시멘트 수요와 탄소배출 규제가 기술개발 및 설비투자(저탄소 제품·순환자원 처리)에 영향을 미칩니다."
+      },
+      {
+        "factor": "환율",
+        "detail": "수입 비중이 높은 구조에서 원화 약세 시 현금흐름에 부정적 영향을 받을 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "강원도 삼척시 소재 삼척공장에서 시멘트를 생산하여"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성 (FY2025)",
+        "evidence_text": "시멘트 사업 (94.2%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "시멘트 사업부문 매출은 대부분 국내에서 이루어 졌으며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "당사의 사업은 내수 위주의 사업이며, 부동산 정책과 밀접한 관련이 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4190,
+    "completion_tokens": 3563,
+    "reasoning_tokens": 2816,
+    "output_tokens": 747
+  },
+  "warnings": []
+}

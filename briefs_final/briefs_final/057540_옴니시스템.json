@@ -1,0 +1,83 @@
+{
+  "stock_code": "057540",
+  "corp_name": "옴니시스템",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:03",
+  "meta": {
+    "wics": "전자장비와기기",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "옴니시스템은 1997년 2월 설립된 기업으로, 디지털 전력량계와 원격검침 기술을 기반으로 한 종합 에너지관리 전문기업입니다. 국내 최초로 원격검침이 가능한 디지털 전력량계를 개발해 국내 원격검침 시장을 선도해 왔으며, 전기·가스·수도·온수·열량계 등으로 사업 영역을 넓혀 왔습니다.",
+    "business_model": "핵심 사업은 MMV사업(디지털계측기)이며, 디지털 전력량계와 원격검침 시스템, 에너지관리시스템(EMS, 에너지 사용을 측정·분석하는 시스템) 등을 통해 수익을 창출하는 구조입니다. 2025년 연결기준 매출은 총 99,068백만원이며, 사업부문별 매출은 MMV부문이 54,495,571,847원으로 가장 큰 비중을 차지합니다. 또한 이너렉스 흡수합병을 통해 신용카드 제조 사업부를 보유하고, 종속회사를 통해 조명사업도 영위하고 있습니다.",
+    "main_customers": "MMV사업(디지털계측기) — 건설사, 한국전력, 민수시장·관수시장 고객 / 원격검침 시스템 — 원격검침을 도입하는 전력 관련 고객 / 조명사업 — 호텔, 백화점, 아파트, 컨벤션 센터, 리조트 등 건축물 수요처 / 신용카드 제조 — 카드 제조 관련 수요처",
+    "price_factors": [
+      {
+        "factor": "디지털화",
+        "detail": "전력계량기와 검침시스템의 디지털 전환이 빠르게 진행될수록 회사의 주력 제품 수요가 늘어날 수 있습니다."
+      },
+      {
+        "factor": "원격검침",
+        "detail": "비대면 검침 선호가 커질수록 원격검침 가능한 디지털 전력량계의 채택 가능성이 높아집니다."
+      },
+      {
+        "factor": "한전정책",
+        "detail": "한국전력의 전자식 전력량계 도입 정책과 형식인증·업체등록 여부가 관수시장 진입에 영향을 줍니다."
+      },
+      {
+        "factor": "해외수출",
+        "detail": "베트남·태국·미얀마 등 수출 지역의 수요와 현지 사업 진행 상황이 실적에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "조명사업",
+        "detail": "종속회사의 LED·경관조명 사업 확대 여부가 연결 실적에 추가적인 변수가 됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "1997년 2월 옴니시스템(주) 설립 이후 꾸준한 기술연구와 신제품 개발로"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "국내최초로 디지털 전력량계를 생산하였습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성] > [표] 1) 매출에 관한 사항 ① 매출실적(연결)",
+        "evidence_text": "MMV부문 | 상품"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "옴니시스템의 2025년 연결기준 총 매출액은 99,068백만원입니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "베트남, 태국, 미얀마등 개도국에 수출을 하고 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "호텔, 백화점, 아파트, 컨벤션 센터, 리조트등"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4411,
+    "completion_tokens": 1001,
+    "reasoning_tokens": 0,
+    "output_tokens": 1001
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "stock_code": "039310",
+  "corp_name": "세중",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 01:06",
+  "meta": {
+    "wics": "소프트웨어",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "세중은 에스앤씨(BPO), 여행, PLM 영업 등 세 가지 사업부문을 영위하는 IT서비스·소프트웨어 기업입니다. 2025년말 자산총계는 1,152억원, 자본총계는 994억원이며 부채비율 16%로 재무건전성을 유지하고 있습니다.",
+    "business_model": "사업부문별로 에스앤씨사업부가 매출의 48.0%, 여행사업부가 25.0%, PLM 영업부가 27.0%를 차지합니다. 에스앤씨사업부는 BPO(업무 프로세스 아웃소싱) 및 RMS·디지털 POP 등 솔루션 기반 서비스, 여행사업부는 항공권·호텔·렌터카 등 여행 알선 서비스, PLM 영업부는 NX·SolidEdge·TeamCenter 등 제품수명주기관리(PLM) 솔루션 판매가 핵심 수익원입니다.",
+    "main_customers": "에스앤씨사업부 — 기업의 문서·업무 프로세스 담당 부서 / 여행사업부 — 법인·공공기관·온라인·오프라인 고객 / PLM 영업부 — 제품개발·설계·제조 관련 기업",
+    "price_factors": [
+      {
+        "factor": "대기업 경쟁",
+        "detail": "대기업 중심의 시장진입 가속화는 에스앤씨사업부의 수주경쟁을 심화시켜 실적에 하방압력을 줄 수 있습니다."
+      },
+      {
+        "factor": "계절성·외부충격",
+        "detail": "여행사업부는 계절성과 국제정세·환율 등 외부 요인에 민감해 수요 변동이 실적에 직접 반영됩니다."
+      },
+      {
+        "factor": "BPO 수요",
+        "detail": "기업의 외부 아웃소싱 수요 확대는 에스앤씨사업부의 매출 성장에 긍정적 영향으로 작용할 수 있습니다."
+      },
+      {
+        "factor": "솔루션 채택",
+        "detail": "PLM 제품(설계·제조 통합 솔루션) 채택 확대는 PLM 영업부의 신규 고객 확보와 매출 확대에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 업계의 현황",
+        "evidence_text": "마케팅 효과 향상, 비용 절감, 업무 효율화, 핵심 업무 집중 등의 가치를 제공합니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "에스앤씨사업부: 16,982,444 (48.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "여행사업부문 > 1) 시장의 특성",
+        "evidence_text": "당사의 주 수요 고객층은 법인, 공공기관, ON-LINE, OFF-LINE"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5139,
+    "completion_tokens": 3159,
+    "reasoning_tokens": 2432,
+    "output_tokens": 727
+  },
+  "warnings": []
+}

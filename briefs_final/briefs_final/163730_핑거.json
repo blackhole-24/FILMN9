@@ -1,0 +1,72 @@
+{
+  "stock_code": "163730",
+  "corp_name": "핑거",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 11:08",
+  "meta": {
+    "wics": "IT서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "핑거는 핀테크 기술과 금융업무 노하우를 바탕으로 금융기관 대상의 스마트 금융 플랫폼과 솔루션을 제공하는 IT서비스 기업입니다. 직·간접적으로 금융 서비스를 이용하는 천만 이상의 개인 스마트뱅킹 사용자와 누적 10만 이상의 CMS 사용 기업을 기반으로 비금융 영역(이커머스·모빌리티)까지 사업을 확장하고 있습니다.",
+    "business_model": "수익의 핵심은 플랫폼 사업으로, 플랫폼은 2025년 누적 매출액 기준 전체의 74.95%를 차지합니다(플랫폼 사업: 74.95%). 솔루션 사업은 동일 기간 누적 매출의 1.22%를 차지하고, 그 외 수수료·결제·클라우드형 ERP('파로스') 등 서비스가 나머지 매출을 구성합니다(퍼센트 수치는 보고서 기재 기준).",
+    "main_customers": "플랫폼 — 제1·2금융권 및 다양한 금융기관, 공공기관, 빅테크·핀테크, 개인 스마트뱅킹 사용자 / 솔루션 — 금융기관·빅테크·핀테크 기업 / 수수료·결제·ERP — 학교·유치원, 고속도로 통행 관련 기관, 중소기업(통합자금관리·전자결제 PG·스마트 ERP 이용)",
+    "price_factors": [
+      {
+        "factor": "경쟁심화",
+        "detail": "빅테크·핀테크 기업의 금융영역 진출로 플랫폼·솔루션 수주 경쟁이 심화되면 수주·수익성에 직접 영향이 있습니다."
+      },
+      {
+        "factor": "규제변화",
+        "detail": "STO·스테이블코인 등 관련 법제화·가이드라인 변화는 해당 신사업의 상용화 속도와 매출 전개에 영향을 미칩니다."
+      },
+      {
+        "factor": "프로젝트특성",
+        "detail": "플랫폼 사업은 프로젝트별 인원·기간에 따라 매출과 원가 구조가 달라져 실적 변동성이 커질 수 있습니다."
+      },
+      {
+        "factor": "디지털전환",
+        "detail": "모바일·클라우드·AI 기반 금융 수요 확대는 플랫폼·SaaS 수요 증가로 연결되어 실적에 긍정적 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황 > (1) 플랫폼",
+        "evidence_text": "스마트 금융 플랫폼을 제공하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황 > (1) 플랫폼",
+        "evidence_text": "전체 매출액의 74.95%를 차지하는"
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황 > (2) 솔루션",
+        "evidence_text": "전체 매출액의 1.22%를 차지하고 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황 > (1) 플랫폼",
+        "evidence_text": "제1,2금융권을 비롯한 다양한 금융기관들에게"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "영업 현황 > (1) 플랫폼",
+        "evidence_text": "평균적인 제품의 가격 및 변동추이를 산출하기는 어렵지만"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5295,
+    "completion_tokens": 4927,
+    "reasoning_tokens": 4096,
+    "output_tokens": 831
+  },
+  "warnings": []
+}

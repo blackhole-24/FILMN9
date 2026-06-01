@@ -1,0 +1,76 @@
+{
+  "stock_code": "086900",
+  "corp_name": "메디톡스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 06:39",
+  "meta": {
+    "wics": "생물공학",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "메디톡스는 보툴리눔 A형 독소(Clostridium botulinum Toxin Type A)를 기반으로 한 바이오 의약품의 연구·개발·제조·판매를 주요 사업으로 하는 제약·생명공학 기업입니다. 제26기 연결기준 매출 약 2,473억원 중 메디톡신 등 주요제품이 매출의 큰 비중을 차지하고 있으며, 국내 생산시설(오창·오송)을 보유하고 있습니다.",
+    "business_model": "핵심 수익원은 보툴리눔 톡신 제제(보툴리눔톡신필러)이며, 연결기준으로 제품 매출이 전체의 86.8%를 차지합니다. 그 외 의료기기 등 상품 매출이 1.6%, 기술이전·임대 등 기타 매출이 11.6%를 구성하며(사업부문별 매출 구성), 자체 보툴리눔 균주 보유와 제조시설을 바탕으로 제품 연구개발과 생산·수출을 병행하고 있습니다.",
+    "main_customers": "제품(보툴리눔톡신필러) — 의료기관(안과·신경과 등 진료처) 및 미용·성형시술용 클리닉 / 상품(의료기기 등) — 의료기관·클리닉 / 기타(용역 매출 등) — 기술이전 계약 상대방 및 임대차 계약자",
+    "price_factors": [
+      {
+        "factor": "가격 변동성",
+        "detail": "국내 시장 상황 변화와 해외 공급계약에 따라 제품 가격이 변동하면 실적에 직접적 영향을 미칩니다."
+      },
+      {
+        "factor": "원재료 안정성",
+        "detail": "보툴리눔 균주 보유 여부가 원재료 조달 리스크를 좌우하므로 공급 안정성은 실적·신뢰성에 중요합니다."
+      },
+      {
+        "factor": "규제·허가",
+        "detail": "KGMP 승인 및 품목허가 등 규제 승인 상태가 생산·수출 가능성과 매출에 직결됩니다."
+      },
+      {
+        "factor": "해외 채널 확대",
+        "detail": "약 30여개국 수출과 판매 조직 확대 계획은 해외 매출 비중 및 성장에 중요한 변수입니다."
+      },
+      {
+        "factor": "신제품 개발",
+        "detail": "액상형·프리필드·유전자재조합 제품 등 신제품의 개발·허가 성과가 중장기 매출 구조에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "바이오 의약품의 연구ㆍ개발 및 제조ㆍ판매를 주요 사업으로 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "214,555,229(86.8%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "안검경련 및 반측안면경련"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "원재료 조달과 관련된 위험요소가 없습니다."
+      },
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "2004년 11월 생물학적제제공장으로 KGMP 승인을 받고"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4455,
+    "completion_tokens": 4741,
+    "reasoning_tokens": 3840,
+    "output_tokens": 901
+  },
+  "warnings": []
+}

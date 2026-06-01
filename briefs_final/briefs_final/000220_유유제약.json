@@ -1,0 +1,68 @@
+{
+  "stock_code": "000220",
+  "corp_name": "유유제약",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 16:41",
+  "meta": {
+    "wics": "제약",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "유유제약은 1941년 설립된 의약품 및 건강기능식품 제조·판매 기업으로, 충북 제천에 제조공장을 보유하고 있습니다. 전문의약품을 국내 병의원에 공급하고 수탁생산(타사 위탁제조)과 완제의약품 수출을 통해 사업을 확장해 왔습니다.",
+    "business_model": "주력은 전문의약품 제조·판매와 건강기능식품 사업이며, 타사 의약품을 위탁생산(수탁사업)하고 동남아시아·남미 등으로 완제의약품을 수출합니다. 연결대상 종속회사로는 건강기능식품 OEM/ODM을 담당하는 유유헬스케어, 의료기기 판매·도매 유유메디컬스, 투자회사 YUYU VENTURES, 동물신약 연구 YUYU BIO, 동물건기능 판매 MERVYNS PETCARE 등이 있어 사업 포트폴리오가 다각화되어 있습니다.",
+    "main_customers": "유유제약(의약품) — 국내 병의원 / 수탁사업 대상 — 국내 제약사(제조납품 의뢰기업) / 수출물량 — 동남아시아·남미 등 해외 바이어 및 유통망 / 유유헬스케어(건강기능식품) — OEM·ODM 의뢰기업 / 유유메디컬스(의료기기) — 의료기관·도매업체",
+    "price_factors": [
+      {
+        "factor": "경기 민감도",
+        "detail": "전문의약품은 필수재 성격으로 경기변동에 비교적 둔감하지만 일반의약품은 계절성과 경기 영향을 받을 수 있습니다."
+      },
+      {
+        "factor": "정부 약가정책",
+        "detail": "리베이트 근절 및 일괄약가인하제도 등 정부 정책이 제약사의 수익성과 가격 구조에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "경쟁 심화",
+        "detail": "다국적사 직접 진출과 국내 대기업의 제약업 진출로 경쟁 강도가 심화되어 영업력과 가격경쟁에 부담이 됩니다."
+      },
+      {
+        "factor": "원료 의존도",
+        "detail": "원료의약품의 해외 의존도가 높은 편이어서 원가 및 공급망 리스크가 실적에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "글로벌 경기·환율",
+        "detail": "환율 불안 및 무역분쟁 등 글로벌 환경 악화는 수출과 원가에 영향을 미칠 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 지배기업의 현황",
+        "evidence_text": "충북 제천에 제조공장을 보유하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. 지배기업의 현황",
+        "evidence_text": "완제의약품을 수출하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁상황",
+        "evidence_text": "제약업체간의 경쟁은 더욱 격화되고 있습니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 3690,
+    "completion_tokens": 4045,
+    "reasoning_tokens": 3264,
+    "output_tokens": 781
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "stock_code": "037560",
+  "corp_name": "LG헬로비전",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 00:50",
+  "meta": {
+    "wics": "방송과엔터테인먼트",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "LG헬로비전은 케이블TV, 초고속인터넷, 인터넷전화(VoIP), MVNO(가상이동통신망사업자) 등 유·무선 융합 서비스와 렌탈·할부판매를 제공하는 종합유선방송사업자입니다. 전국 23개 권역에서 방송사업자 및 기간통신사업자 허가를 받아 지역 채널과 B2B 솔루션을 기반으로 사업을 전개하고 있습니다.",
+    "business_model": "핵심 수익원은 유선(방송·인터넷·인터넷전화)과 무선(MVNO), 그리고 생활·프리미엄 가전 렌탈·할부판매이며, 지역채널을 통한 콘텐츠 제작·광고와 지자체·기업 대상 솔루션(B2B)도 주요 수익원입니다. 오리지널·대표 콘텐츠 투자로 지역 채널 인지도를 높이고, IPTV급 화질 등 서비스 고도화로 가입자 확보에 주력하고 있습니다.",
+    "main_customers": "유선(방송·인터넷·전화) — 가정용 가입자 및 권역 내 소비자 / MVNO — 개인 모바일 이용자 / 렌탈·할부판매 — 가정용 소비자 / 지역채널·기업솔루션 — 지자체·지역기업·광고주",
+    "price_factors": [
+      {
+        "factor": "경쟁미디어",
+        "detail": "IPTV·위성방송 등 경쟁 매체 확대는 케이블 가입자 수 감소로 이어져 유료방송 매출에 압력을 줄 수 있습니다."
+      },
+      {
+        "factor": "광고경기",
+        "detail": "경기 침체 시 광고 매출이 줄어들면 지역채널·프로그램 관련 수익이 동반 하락할 수 있습니다."
+      },
+      {
+        "factor": "기술전환",
+        "detail": "UHD·IP 기반의 고화질·양방향 서비스 전환은 서비스 경쟁력 제고에 유리하나 투자비 부담이 수반됩니다."
+      },
+      {
+        "factor": "지역사업권",
+        "detail": "권역 기반 허가·지역사업권 구조는 시장 확장과 진입장벽에 직접적인 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "케이블TV, 초고속인터넷, 인터넷전화(VoIP), MVNO(모바일서비스) 등을 제공하는"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "지역채널을 통한 콘텐츠 제작과 광고"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황 > 가. 케이블TV (2) 시장의 현황",
+        "evidence_text": "경쟁 매체의 영향으로 시장 경쟁 심화"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4580,
+    "completion_tokens": 3789,
+    "reasoning_tokens": 3072,
+    "output_tokens": 717
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

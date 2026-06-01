@@ -1,0 +1,62 @@
+{
+  "stock_code": "219420",
+  "corp_name": "링크제니시스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 12:33",
+  "meta": {
+    "wics": "소프트웨어",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "링크제니시스는 생산정보 자동화와 시스템 검증 자동화를 주력으로 하는 소프트웨어(software) 전문기업으로, 반도체·디스플레이 분야의 설비 통신 표준을 지원하는 제품과 검증 도구를 공급합니다. XComPro, XGemPro, MAT 등 제품군과 개발SI(시스템 통합)·CIM(공장 정보화) 용역을 바탕으로 관련 장비·공정 자동화 시장에서 활동하고 있습니다.",
+    "business_model": "주요 수익원은 반도체SW(생산정보 자동화) 제품 매출과 시스템 검증 자동화 서비스로 구성되며, 경영실적상 반도체SW 사업부문 매출이 84.28%를 차지하고 검증자동화가 15.72%를 차지합니다. 제품판매(예: XComPro/XGemPro/MAT)와 개발SI·렌탈·HW 제품·용역을 결합한 형태로 수익을 창출하며, 2024년에는 EDA 사업을 종료하고 XGate 제품을 포함시키는 제품구조 조정을 진행했습니다.",
+    "main_customers": "생산정보 자동화(반도체SW) — 반도체·디스플레이 제조업체 및 생산장비 제조사 / 시스템 검증 자동화 — 완성제품 제조사(자동차 등) 및 소프트웨어 개발 고객",
+    "price_factors": [
+      {
+        "factor": "반도체 투자",
+        "detail": "대형 반도체·디스플레이 업체의 설비투자 규모(수요)가 축소되면 관련 소프트웨어 수요가 직접 감소하여 실적에 영향이 있습니다."
+      },
+      {
+        "factor": "검증 항목",
+        "detail": "제품 기능 증가에 따라 검증 항목이 늘어나면 검증자동화 수익이 비례해 증가하는 구조입니다."
+      },
+      {
+        "factor": "장비 표준화",
+        "detail": "SEMI 등 통신 표준 채택 수준에 따라 장비-호스트 통신 소프트웨어 수요와 제품 채용이 좌우됩니다."
+      },
+      {
+        "factor": "스마트팩토리",
+        "detail": "스마트팩토리·IoT 도입 확산 시 생산정보 자동화 솔루션 수요가 반도체·비반도체 분야로 확대될 가능성이 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 업계의 현황 (1) 산업의 특성",
+        "evidence_text": "당사의 주력 사업은 생산정보 자동화 사업과 시스템 검증 자동화 사업 입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "경영진 실적·전략 요약 (MD&A) > 나. 영업실적",
+        "evidence_text": "반도체SW 사업부문 매출은 143억원으로 총액대비 84.28% 차지"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 업계의 현황 (1) 산업의 특성",
+        "evidence_text": "최근 국내외적으로 산업계에서는 스마트팩토리 및 IoT 도입이 확산되고 있으며,"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4973,
+    "completion_tokens": 3908,
+    "reasoning_tokens": 3136,
+    "output_tokens": 772
+  },
+  "warnings": []
+}

@@ -1,0 +1,69 @@
+{
+  "stock_code": "060280",
+  "corp_name": "큐렉소",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 03:57",
+  "meta": {
+    "wics": "건강관리장비와용품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "큐렉소는 의료로봇의 연구개발 및 판매를 주력으로 하는 의료로봇 전문기업으로, 정형외과 수술로봇과 재활로봇을 중심으로 사업을 영위하고 있습니다. 주요 제품으로 인공관절 수술로봇 '큐비스-조인트', 척추수술로봇 '큐비스-스파인', 재활로봇 '모닝워크' 등을 보유하며 국내 상급종합병원 및 전문병원을 주요 고객으로 삼고 있습니다.",
+    "business_model": "핵심 사업은 의료로봇 사업부문으로, 정형외과 수술로봇과 재활로봇의 장비(하드웨어), 소모품, 서비스를 통해 매출을 창출합니다. 제조는 외주생산(OEM) 방식으로 운영하여 고정비 부담을 낮추고 연구개발(R&D)과 영업 역량에 집중하는 구조를 유지하며, 임플란트 유통(인공관절 보형물)과 발효유·음료·라면용 원재료 무역사업을 병행하고 있습니다.",
+    "main_customers": "의료로봇사업부문 — 국내 상급종합병원 및 전문병원 / 임플란트사업부문 — 병원(인공관절 보형물 구매처) / 무역사업부문 — 발효유·음료·라면 제조업체(원재료 구매처)",
+    "price_factors": [
+      {
+        "factor": "수술로봇 시장 성장",
+        "detail": "글로벌 수술용 로봇 시장의 높은 성장률은 장비·소모품·서비스 수요 확대를 통해 실적 개선으로 이어질 가능성이 큽니다."
+      },
+      {
+        "factor": "정형외과 수요 증가",
+        "detail": "인공관절 수술 수요의 장기적 증가는 큐비스-조인트 등 정형외과 로봇의 판매 확대와 매출 성장에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "글로벌 경쟁",
+        "detail": "다빈치(연조직 분야) 및 Stryker(Mako) 등 전문 경쟁사의 존재는 기술 경쟁과 시장 점유율 확보 난이도에 영향을 줍니다."
+      },
+      {
+        "factor": "재활로봇 시장 특성",
+        "detail": "재활로봇은 아직 시장 형성 초기이나 고성장 전망으로 장기적으로 사업 확장 기회가 있으나 단기 매출 비중은 제한적일 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 > 영업 현황",
+        "evidence_text": "의료로봇의 연구개발 및 판매를 주력으로 하는 의료로봇 전문기업으로"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 > 영업 현황",
+        "evidence_text": "제조는 외주생산(OEM) 방식으로 운영하며 고정비 부담을 최소화하고"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 > 영업 현황",
+        "evidence_text": "국내 상급종합병원 및 전문병원을 주요 고객으로 하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 > 영업 현황",
+        "evidence_text": "글로벌 수술용 로봇 시장의 연평균 성장률(CAGR)은 26.5%를 기록하며"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4814,
+    "completion_tokens": 3609,
+    "reasoning_tokens": 2752,
+    "output_tokens": 857
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

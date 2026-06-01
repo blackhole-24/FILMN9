@@ -1,0 +1,67 @@
+{
+  "stock_code": "054210",
+  "corp_name": "이랜텍",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 03:24",
+  "meta": {
+    "wics": "핸드셋",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "이랜텍은 휴대폰용 배터리팩·Case(플라스틱 및 메탈)·충전기 등 휴대폰 부품과 전동공구·노트북용·청소기용·ESS용 배터리팩을 생산하여 글로벌 완성품업체에 공급하는 전기·전자(핸드셋) 분야 제조기업입니다. 베트남·인도·말레이시아 등 해외 생산기지를 보유하며, 삼성전자·삼성SDI·KT&G 등 대형 고객사에 납품하고 있습니다.",
+    "business_model": "주요 제품별 매출 비중은 휴대폰용 Case 39.55%, 배터리팩(휴대폰용) 9.60%, 궐련형 전자담배 27.21%, 전자담배카트리지 2.45%, ESS 배터리팩 0.03%, 충전기 1.78%, 전동공구 배터리팩 1.98%, 기타 17.40%로 구성되어 있습니다. 본사는 중대형 및 연구개발 중심의 배터리팩을 담당하고, 베트남과 인도 등 해외법인에서 휴대폰용 Case·배터리팩·충전기 등을 생산하는 제조 중심의 수익구조입니다.",
+    "main_customers": "휴대폰용 Case — 삼성전자(삼성 갤럭시) / 휴대폰용 Battery Pack — 삼성전자(삼성 갤럭시) / 전자담배(디바이스) — KT&G / ESS Battery Pack — LG전자 / 충전기 — 삼성전자 / 전동공구 Battery Pack — 삼성SDI를 통한 전동공구 메이커",
+    "price_factors": [
+      {
+        "factor": "스마트폰 수요",
+        "detail": "세계 휴대폰 시장의 보급률 상승에 따른 정체는 휴대폰용 부품 수요 둔화로 실적에 영향을 미칩니다."
+      },
+      {
+        "factor": "배터리 전환",
+        "detail": "2차전지 산업의 중심이 모바일에서 EV(전기차)·ESS로 이동하면 중대형·E/V 배터리팩 수요 변화가 실적에 연동됩니다."
+      },
+      {
+        "factor": "원자재 가격",
+        "detail": "2차전지 시장은 원자재 가격 변동에 매우 민감하게 반응하여 배터리 원가와 수익성에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "고객집중",
+        "detail": "삼성전자 등 주요 고객사 출하량 변동은 매출에 직접적인 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "연결회사는 휴대폰 부품인 배터리팩, Case(플라스틱 및 메탈), 충전기를 생산하여 글로벌 휴대폰 업체에 공급하고 있으며, 전동공구, 노트북용, 청소기용, ESS 등의 배터리팩을 완성품 업체에 공급하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "휴대폰용 Case 297,886(39.55%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "삼성전자 및 삼성SDI로의 매출이 전체의 58% 내외를 차지하며, KT&G로의 매출액이 29%내외를 차지합니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 시장여건",
+        "evidence_text": "세계 휴대폰 시장은 보급률이 높아지며, 정체기에 들어섰습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4554,
+    "completion_tokens": 5029,
+    "reasoning_tokens": 4096,
+    "output_tokens": 933
+  },
+  "warnings": []
+}

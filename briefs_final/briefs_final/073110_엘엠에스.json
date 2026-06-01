@@ -1,0 +1,62 @@
+{
+  "stock_code": "073110",
+  "corp_name": "엘엠에스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 05:31",
+  "meta": {
+    "wics": "디스플레이장비및부품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "엘엠에스는 1999년 2월 13일 설립된 기능성 나노 광학 부품·소재 전문기업으로, 프리즘시트(디스플레이용)와 IR Cut-off Filter(광정보용) 등 광학요소의 연구개발·제조·판매를 주력으로 하고 있습니다. 최근 연결기준 매출액은 69,574백만원(약 696억원) 수준입니다.",
+    "business_model": "주요 사업부문은 디스플레이사업부(프리즘시트 등, 매출 37.3%)와 광정보사업부(IR Cut-off Filter 등, 매출 12.7%)로 구성되며, 해당 수치는 보고서의 [사업부문별 매출 구성]에 기반합니다. 프리즘시트는 LCD BLU(백라이트유닛)의 핵심 광학부품이고, IR Cut-off Filter는 카메라 모듈의 화질을 좌우하는 핵심 부품으로 연구개발(KOITA 인정 기업부설연구소) 역량을 활용해 제품 라인업을 확장 중입니다.",
+    "main_customers": "디스플레이 — LCD BLU·디스플레이 패널 제조업체 / 광정보 — 스마트폰 등 카메라 모듈 제조업체 및 카메라 탑재 기기 제조업체",
+    "price_factors": [
+      {
+        "factor": "시장집중도",
+        "detail": "프리즘시트 시장에서 3M 등 강력한 경쟁사의 점유율 변동은 수주와 실적에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "제품믹스",
+        "detail": "중소형·대형 판매비중 변동은 평균판매단가에 영향을 주어 매출과 이익률 변동을 초래합니다."
+      },
+      {
+        "factor": "경기민감도",
+        "detail": "장치산업 특성상 디스플레이·모바일 수요 사이클에 따른 경기 변동이 실적 변동성으로 연결됩니다."
+      },
+      {
+        "factor": "카메라트렌드",
+        "detail": "듀얼·트리플·고화소 등 카메라 모듈 트렌드는 IR Cut-off Filter 수요와 제품 사양에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용",
+        "evidence_text": "1999년 2월 13일 설립되어 광학렌즈 및 광학요소의 연구개발"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 2. 주요 제품 및 서비스",
+        "evidence_text": "프리즘시트를 제조, 판매하는 디스플레이 사업부문"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 사업현황 1) 산업의 특성 및 성장성",
+        "evidence_text": "카메라 모듈에서 화상(이미지)의 품질을 결정하는 핵심 부품입니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5083,
+    "completion_tokens": 3690,
+    "reasoning_tokens": 2944,
+    "output_tokens": 746
+  },
+  "warnings": []
+}

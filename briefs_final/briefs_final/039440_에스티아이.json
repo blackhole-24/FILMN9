@@ -1,0 +1,79 @@
+{
+  "stock_code": "039440",
+  "corp_name": "에스티아이",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 01:09",
+  "meta": {
+    "wics": "반도체와반도체장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "에스티아이는 반도체·디스플레이 장비를 개발·생산하는 기업으로, 고순도 약액 공급장치(C.C.S.S.)와 WET System 등을 주력 제품으로 공급합니다. 2025년 연결기준 매출은 약 3,280억원이며, 중국·싱가포르·미국 등 해외지사를 통해 글로벌 영업을 전개하고 있습니다.",
+    "business_model": "주요 수익원은 반도체 및 디스플레이 장비의 제조·공급으로, 구체적 제품으로는 C.C.S.S.(Central Chemical Supply System), WET System, 반도체 패키징용 무연납 진공 리플로우장비, 잉크젯 프린터 등이 있습니다. 제품별로는 C.C.S.S 2,995억원, WET System 133억원을 포함한 총 3,280억원(연결 기준)의 매출이 보고되어 있습니다.",
+    "main_customers": "반도체·디스플레이 장비 — 삼성전자·에스케이하이닉스 (주요 매출처)",
+    "price_factors": [
+      {
+        "factor": "반도체수요",
+        "detail": "AI 및 데이터센터 수요 확대에 따른 글로벌 반도체 시장 성장(2025~2026년 전망)이 장비 수요에 직결될 수 있습니다."
+      },
+      {
+        "factor": "메모리·로직",
+        "detail": "보고서에서 메모리와 로직 부문이 성장을 주도한다고 제시되어 관련 장비 수요 변동이 실적에 영향을 줍니다."
+      },
+      {
+        "factor": "OLED전환",
+        "detail": "IT용 OLED로의 세대교체 및 대형 OLED 출하 증가가 디스플레이 장비의 수요 확대 요인으로 작용할 수 있습니다."
+      },
+      {
+        "factor": "잉크젯도입",
+        "detail": "잉크젯 프린팅 기술의 OLED 공정 도입 확대는 에스티아이의 잉크젯 프린터 사업 기회와 연결될 가능성이 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "당사의 사업부문은 반도체 및 디스플레이 장비로"
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황",
+        "evidence_text": "고순도 약액 공급장치인 C.C.S.S. 및 WET System"
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황",
+        "evidence_text": "매출액은 C.C.S.S 2,995억원, Wet System 133억원 포함"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "당분기 주요 매출처로는 삼성전자, 에스케이하이닉스 등이 있으며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "AI 및 데이터센터 수요 확대를 기반으로"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "잉크젯 프린터는 OLED의 화소 형성 공정"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4532,
+    "completion_tokens": 4209,
+    "reasoning_tokens": 3392,
+    "output_tokens": 817
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

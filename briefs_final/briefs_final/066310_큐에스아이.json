@@ -1,0 +1,67 @@
+{
+  "stock_code": "066310",
+  "corp_name": "큐에스아이",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 04:39",
+  "meta": {
+    "wics": "반도체와반도체장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "큐에스아이는 반도체 레이저(Laser Diode)와 광반도체 관련 제품의 제조·판매를 주력으로 하는 기업입니다. Total Solution(고객 맞춤형 통합솔루션) 구축을 통해 개별 고객 맞춤형 제품 대응을 강점으로 내세우고 있습니다.",
+    "business_model": "주요 제품은 Laser Diode(LD)이며, FY2025 기준 사업부문별 영업수익 구성은 LD 9.0%, 기타 6.5%로 보고되었습니다. 회사는 제품 시장의 다원화와 공급 안정성 확보를 통해 매출 기반을 강화하고 신기술 적용 신제품 개발에 자원을 투입하는 전략을 병행하고 있습니다.",
+    "main_customers": "LD — 차량용 Particle Sensor 및 Laser Printer 시장의 제조업체·브랜드",
+    "price_factors": [
+      {
+        "factor": "수요 변동",
+        "detail": "전 세계 경기 위축 시 모든 제품군 수요가 감소하여 매출 급감(2023년) — 경기 회복 시 실적에 회복압력이 발생합니다."
+      },
+      {
+        "factor": "환율",
+        "detail": "미국 달러화 노출이 있어 환율 변동 시 외화환산손익에 따라 세전이익이 변동합니다."
+      },
+      {
+        "factor": "신기술 속도",
+        "detail": "LD 신기술 적용 시장 변화가 빠르므로 신기술 개발·투입 속도가 실적 영향 요인입니다."
+      },
+      {
+        "factor": "중국 수요",
+        "detail": "차량용 Particle Sensor와 Laser Printer에서 중국 브랜드 수요 확대가 매출 증가로 연결되었습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "연결회사는 반도체 레이저, 광반도체 관련 제품 등의 제조, 판매 등을 주요사업으로 하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "LD: 2,090,494 (9.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "주요 매출 증가는 차량용 Particle Sensor 시장과 Laser Printer 시장에서 발생하였습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "(3) 환율변동이 회사에 미치는 영향",
+        "evidence_text": "연결회사가 노출되어 있는 주요 통화는 미국 달러화입니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 2755,
+    "completion_tokens": 2697,
+    "reasoning_tokens": 2048,
+    "output_tokens": 649
+  },
+  "warnings": []
+}

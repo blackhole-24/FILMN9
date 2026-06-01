@@ -1,0 +1,77 @@
+{
+  "stock_code": "031440",
+  "corp_name": "신세계푸드",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 23:37",
+  "meta": {
+    "wics": "호텔,레스토랑,레저",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "신세계푸드는 가정간편식(HMR) 제조·판매, 식재 유통, 베이커리 및 외식 가맹을 영위하는 종합 푸드서비스 기업입니다. 2025년 연결기준 매출은 1조2,332억원으로 대형 유통 채널과 온·오프라인을 중심으로 사업을 전개하고 있습니다.",
+    "business_model": "주요 수익원은 매입유통(식재유통·HMR)과 제조서비스(베이커리·외식 가맹)로 구성되며, 2025년 매출의 73%는 매입유통, 25%는 제조서비스, 2%는 기타에서 발생했습니다. 제품·상품 구성 측면에서는 매출 중 제품 비중이 67%, 상품 비중이 31%, 기타 비중이 2%로 나타나며(직접 개발·생산한 HMR 브랜드와 이마트·백화점·이커머스 채널을 통한 판매가 핵심입니다).",
+    "main_customers": "매입유통 — 대형마트·할인점·식음업체 / 제조서비스(베이커리·HMR) — 이마트 내 점포·백화점 고객·온라인(이커머스) 소비자 / 외식 가맹 — 프랜차이즈 가맹점주 및 최종 외식 이용 고객",
+    "price_factors": [
+      {
+        "factor": "원자재·환율",
+        "detail": "국제 곡물가와 환율 변동이 원가에 직접 영향을 주어 실적 변동성을 높일 수 있습니다."
+      },
+      {
+        "factor": "HMR 수요",
+        "detail": "가정간편식(HMR) 등 성장 카테고리의 수요 변화가 매출 성장에 중요한 영향을 미칩니다."
+      },
+      {
+        "factor": "외식 트렌드",
+        "detail": "프랜차이즈·베이커리·콤팩트 매장 수요의 변화로 외식 부문의 수익성이 좌우될 수 있습니다."
+      },
+      {
+        "factor": "경기·소비심리",
+        "detail": "내수 경기 둔화 및 소비심리 약화 시 외식·프리미엄 제품 수요가 축소될 가능성이 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "가정간편식(HMR) 제품의 제조 및 판매"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "연결기준 매출 1조2,332억원"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "매출의 73%는 식재유통, HMR 등을 운영하는 매입유통 부문에서 발생"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "매출 중 제품 비중은 67%, 상품 비중은 31%, 기타 비중이 2% 입니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "대형마트 및 이커머스 등 온ㆍ오프라인에서 판매"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "국제 곡물가, 환율 등 원자재 가격 변동에 따라"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5206,
+    "completion_tokens": 5252,
+    "reasoning_tokens": 4352,
+    "output_tokens": 900
+  },
+  "warnings": []
+}

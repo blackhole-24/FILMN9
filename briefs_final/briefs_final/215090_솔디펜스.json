@@ -1,0 +1,67 @@
+{
+  "stock_code": "215090",
+  "corp_name": "솔디펜스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 12:18",
+  "meta": {
+    "wics": "우주항공과국방",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "솔디펜스는 방위산업 분야의 의료·정밀기기 계열 기업으로, 제품을 군용과 민수용으로 구분하여 개발·생산합니다. 주요 군용 제품으로는 다연장로켓용 GCU(유도제어컴퓨터)와 항공전자용 제어보드·그래픽 회로카드 등 부품을 공급하며, 체계업체의 국산화 사업에 참여하여 부품을 납품하고 있습니다.",
+    "business_model": "사업부문별 영업수익은 'A사' 단일 부문으로 4,006,058원(100.0%)이며, 매출은 주로 군용(유도무기용 GCU, 항공전자 부품 등)과 일부 민수용 제품의 개발·생산·납품에서 발생합니다. 회사는 체계업체(예: 한화시스템)와의 협업을 통한 부품 납품 및 국산화 참여를 통해 수익을 창출합니다.",
+    "main_customers": "군용제품 — 방위사업청·각 군·국방과학연구소·체계업체(예: 한화시스템) / 민수용 — 사업보고서에 별도 고객군 미기재",
+    "price_factors": [
+      {
+        "factor": "정부수요",
+        "detail": "국가 주도의 방위사업 특성상 정부의 방위투자·조달 정책 변화가 수주와 실적에 직접적 영향을 미칩니다."
+      },
+      {
+        "factor": "법·규제",
+        "detail": "방위사업법·군사기밀보호법 등 관련 규제 준수가 계약수행과 납품에 필수적이며 규제 변경 시 영업에 영향이 있습니다."
+      },
+      {
+        "factor": "기술투자",
+        "detail": "첨단화·시스템화 경향으로 R&D(연구개발) 및 기술투자가 부족하면 경쟁력 저하로 이어질 수 있습니다."
+      },
+      {
+        "factor": "계약관계",
+        "detail": "체계업체 및 방위사업청과의 계약 구조와 납품 일정·국산화 참여 여부가 매출 실현에 중요한 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 산업의 개요",
+        "evidence_text": "당사의 주요 제품은 크게 (1)군용, (2)민수용으로 크게 2가지로 분류되며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "A사: 4,006,058 (100.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 산업의 개요",
+        "evidence_text": "방위사업청은 각 군에서 요구하는 무기체계를 조달"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 산업의 개요",
+        "evidence_text": "방위산업은 첨단기술이 결집되고 대규모 자본이 투하되며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4122,
+    "completion_tokens": 4039,
+    "reasoning_tokens": 3264,
+    "output_tokens": 775
+  },
+  "warnings": []
+}

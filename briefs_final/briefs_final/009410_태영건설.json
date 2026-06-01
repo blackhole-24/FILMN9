@@ -1,0 +1,73 @@
+{
+  "stock_code": "009410",
+  "corp_name": "태영건설",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 20:22",
+  "meta": {
+    "wics": "건설",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "태영건설은 건설을 중심으로 레저·임대·기타 사업을 영위하는 건설업체입니다. 2025년 연결기준 매출은 2조 1,745억원, 연결총자산은 4조 1,271억원 수준이며, 2024년 워크아웃 절차를 시작해 기업개선계획을 이행하고 있습니다.",
+    "business_model": "핵심은 건설사업으로 토목·환경·플랜트·건축·주택건설 등 다양한 공종을 수행하며, 레저(자동차 경주장·호텔), 임대(주택·상가 임대), 기타(자산관리·운영) 부문을 병행합니다. 수주형 구조(발주자 중심)의 프로젝트 수행과 임대수익·레저 운영에서 매출이 발생하며, 2025년 연결 매출은 2조 1,745억원입니다.",
+    "main_customers": "건설사업부문 — 정부 및 민간 발주자 / 토목·환경 — 공공기관 및 민간 발주자 / 레저사업부문 — 시설 이용자·투숙객 / 임대사업부문 — 주택·상가 임차인 / 기타사업부문 — 자산 소유주·운영 대상",
+    "price_factors": [
+      {
+        "factor": "원자재가격",
+        "detail": "원자재 가격 상승은 공사원가를 높여 이익률에 직접적인 하방 압력을 가합니다."
+      },
+      {
+        "factor": "금리(이자)",
+        "detail": "고금리 지속은 금융비용 증가로 자금조달 부담을 키우고 재무구조에 부정적 영향을 줍니다."
+      },
+      {
+        "factor": "수주환경",
+        "detail": "민간 건설투자 감소와 수주산업 특성상 수주량 변동이 매출에 직결됩니다."
+      },
+      {
+        "factor": "PF(프로젝트파이낸싱)",
+        "detail": "PF 우발채무 이슈는 재무안정성과 신용에 리스크를 초래할 수 있습니다."
+      },
+      {
+        "factor": "거시·정치리스크",
+        "detail": "중동전쟁 등 외부 리스크 확대는 건설·부동산 시장 전반의 불확실성을 높입니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "당사의 사업부문은 건설, 레저, 임대, 기타로 구분할 수 있으며,"
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황",
+        "evidence_text": "건설사업부문에서는 토목,환경, 플랜트, 건축, 주택건설 등,"
+      },
+      {
+        "field": "business_model",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "2025년 매출액은 2조 1,745억원으로"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "워크아웃에 돌입하게 되었습니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 5511,
+    "completion_tokens": 4372,
+    "reasoning_tokens": 3584,
+    "output_tokens": 788
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

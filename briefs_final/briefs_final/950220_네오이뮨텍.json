@@ -1,0 +1,72 @@
+{
+  "stock_code": "950220",
+  "corp_name": "네오이뮨텍",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 21:18",
+  "meta": {
+    "wics": "제약",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "네오이뮨텍은 T 세포 기반 면역치료제를 연구 개발하는 생명공학 기업으로, 장기 지속형 IL-7 계열의 T 세포 증폭제 NT-I7을 핵심 파이프라인으로 보유하고 있습니다. NT-I7을 중심으로 급성 방사선 증후군(ARS) 치료제와 CAR-T(세포치료제) 병용요법을 주요 연구축으로 진행하며, 북미 지역에서 희귀질환 치료제 엔다리(Endari®)의 독점 라이선스 및 유통권을 확보해 상업화도 병행하고 있습니다.",
+    "business_model": "주요 수익원은 신약개발(연구용역)로, 2025년 매출의 약 100%를 차지합니다(원문 매출표 기준). 현재 제품 판매에 따른 직접적인 매출은 발생하지 않으며, 기술이전(Licensing-out), 공동개발(Partnership), 정부 공급계약 등을 통한 수익화와 엔다리의 북미 유통을 통한 상업화 병행이 핵심 사업모델입니다.",
+    "main_customers": "신약개발 — 제넥신·글로벌 연구기관·정부기관 / 엔다리 상업화 — 북미 현지 파트너사",
+    "price_factors": [
+      {
+        "factor": "임상진행",
+        "detail": "NT-I7의 임상 단계 진전(혹은 지연)이 실적과 기업가치에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "기술이전",
+        "detail": "기술이전(Licensing-out) 및 공동개발 성사 여부가 매출 발생과 상업화 속도를 좌우합니다."
+      },
+      {
+        "factor": "제품상업화",
+        "detail": "엔다리(Endari®)의 북미 유통을 통한 상업화 진행 상황이 매출 발생의 핵심 변수입니다."
+      },
+      {
+        "factor": "규제·승인",
+        "detail": "임상·허가·정부 조달 관련 규제·승인 절차 결과가 상업화 가능성과 계약 기회를 결정합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 회사 사업 개요",
+        "evidence_text": "T 세포 기반 면역치료제를 연구 개발하는 생명공학 기업"
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. 회사 사업 개요",
+        "evidence_text": "기술이전(Licensing-out), 공동개발(Partnership), 정부 공급계약"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 회사 사업 개요",
+        "evidence_text": "글로벌 연구기관 및 정부기관과의 협력을 통해"
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. 주요 제품, 서비스 등의 관한 사항",
+        "evidence_text": "제품 판매에 따른 직접적인 매출은 발생하지 않고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "신약개발 | 연구용역 | 제넥신 | 66,673"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3786,
+    "completion_tokens": 4301,
+    "reasoning_tokens": 3520,
+    "output_tokens": 781
+  },
+  "warnings": []
+}

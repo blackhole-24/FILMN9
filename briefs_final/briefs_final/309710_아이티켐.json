@@ -1,0 +1,77 @@
+{
+  "stock_code": "309710",
+  "corp_name": "아이티켐",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 15:57",
+  "meta": {
+    "wics": "제약",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "아이티켐은 2005년 설립된 정밀화학(유기합성) 기반의 소재기업으로, API(원료의약품) 및 OLED 등 전자재료 분야를 중심으로 글로벌 고객사에 양산(Scale-up) 수준의 제품을 공급해온 기업입니다. 20여년의 연구개발·생산 역량을 바탕으로 주요 고객사들의 '최우선 협력업체'로 자리매김하고 있습니다.",
+    "business_model": "핵심 사업은 의약품 원료(29.0%), 디스플레이(13.0%), 상품(28.0%), 기타(4.0%) 등으로 구성되며, 의약품 원료 부문은 K-GMP(우수 의약품 제조·관리 기준)에 기반한 의약품중간체 및 API(원료의약품) 생산을 포함합니다. 회사의 경쟁력은 합성공정 개발과 고객사와의 공동개발을 양산(Scale-up)에 적용하는 공정기술 및 높은 수율(Yield)을 확보하는 양산 Know-how에 있습니다.",
+    "main_customers": "의약품 원료 — 글로벌 제약사 / 디스플레이 — 글로벌 디스플레이 패널 업체 / 기타(OPC 등) — 프린터 카트리지용 감광재료 관련 중국향 고객",
+    "price_factors": [
+      {
+        "factor": "공정수율",
+        "detail": "의약품 소재는 높은 수율 확보가 수익성에 직결되므로 공정수율 변동이 실적에 직접 영향을 미칩니다."
+      },
+      {
+        "factor": "규제·인증",
+        "detail": "DMF(원료 파일)·GMP 등 규제·인증 준수 여부가 거래선 확보와 납품 가능성에 영향을 줍니다."
+      },
+      {
+        "factor": "글로벌 제약수요",
+        "detail": "글로벌 제약사의 외주화(CMO/CDMO) 확대와 전반적 제약산업 성장에 따라 의약품 소재 수요가 좌우됩니다."
+      },
+      {
+        "factor": "OLED 계절성",
+        "detail": "OLED 관련 출하량은 연말(4분기) 증가 경향이 있어 계절적 수요 변동이 매출에 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "2005년 설립된 이후 20여년간의 업력을 바탕으로"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "정밀화학제품을 공급하는 소재기업으로"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "최종 고객사는 글로벌 제약사 및 글로벌 디스플레이 패널 업체"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "의약품 원료: 16,803 (29.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "디스플레이: 1,316 (13.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "상품: 16,127 (28.0%)"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5099,
+    "completion_tokens": 4251,
+    "reasoning_tokens": 3392,
+    "output_tokens": 859
+  },
+  "warnings": []
+}

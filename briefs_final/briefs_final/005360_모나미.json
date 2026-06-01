@@ -1,0 +1,86 @@
+{
+  "stock_code": "005360",
+  "corp_name": "모나미",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 11:45",
+  "meta": {
+    "wics": "문구류",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "모나미는 문구류 중심의 유통 기업으로 문구, 컴퓨터소모품, 기타 등 3개 사업부문을 영위합니다. 네임펜·보드마카 등 마카류에서 국내 높은 점유율을 보유하고 있으며, 2025년도 연결매출액 1,310억원을 기록하였습니다.",
+    "business_model": "주요 수익은 문구류(순매출 기준 약 74.1%), 컴퓨터소모품류(약 19.1%), 기타(약 6.8%)로 구성되어 있으며(순매출 합계 131,024,332천원 기준), 문구류 중심의 제조는 아웃소싱 및 다품종 소량 생산 체계를 통해 비용·품질 경쟁력을 확보하고 있습니다. 컴퓨터소모품 부문은 총판형 영업을 통해 유통 채널을 확대하고, 기타 부문은 특판·온라인·코스메틱 관련 매출이 포함됩니다.",
+    "main_customers": "문구류 — 도매상·오피스체인(문구프랜차이즈)·대형소매·할인점/편의점·B2B·온라인 / 컴퓨터소모품류 — 소비자 채널 및 총판(유통업체) / 기타 — 특판 고객·온라인 소비자 및 코스메틱 채널",
+    "price_factors": [
+      {
+        "factor": "품질·디자인",
+        "detail": "문구업계는 품질과 디자인 경쟁력이 핵심이라 품질·디자인 우위가 매출 및 마진에 직접적 영향을 미칩니다."
+      },
+      {
+        "factor": "유통구조",
+        "detail": "대형소매·오프라인 체인·온라인 등 채널 특성에 따라 판매비중이 변동하여 실적에 영향이 발생합니다."
+      },
+      {
+        "factor": "계절성",
+        "detail": "학기초 등 계절적 수요와 사무용품의 연중 수요 차이가 실적 변동성을 일부 결정합니다."
+      },
+      {
+        "factor": "출력기기환경",
+        "detail": "스마트기기 대중화로 컴퓨터소모품의 출력기기 성장에 한계가 있어 관련 매출 성장성이 제약될 수 있습니다."
+      },
+      {
+        "factor": "원가·경기",
+        "detail": "원가 상승과 경기 불안정에 따른 소비심리 위축은 수익성 및 성장성 지표에 부정적 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "나. 영업의 개황 문구",
+        "evidence_text": "2025년도 (연결)매출액 1,310억원을 달성하였습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 (원문 테이블)",
+        "evidence_text": "순매출액 97,087,298"
+      },
+      {
+        "field": "business_model",
+        "source_section": "나. 영업의 개황 문구",
+        "evidence_text": "생산부문의 아웃소싱 및 다품종 소량 생산 체계를 구축하여"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "나. 영업의 개황 문구",
+        "evidence_text": "도매상, 오피스체인(문구프랜차이즈), 대형소매"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "라. 경쟁요소",
+        "evidence_text": "가장 중요한 경쟁요소는 품질과 가격경쟁력으로 파악되며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 산업의 특성",
+        "evidence_text": "출력기기의 지속적인 성장에는 한계를보이고"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "원가 상승 요소는 증가하였고"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5079,
+    "completion_tokens": 5970,
+    "reasoning_tokens": 4992,
+    "output_tokens": 978
+  },
+  "warnings": []
+}

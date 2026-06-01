@@ -1,0 +1,71 @@
+{
+  "stock_code": "037330",
+  "corp_name": "인지디스플레",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 09:57",
+  "meta": {
+    "wics": "디스플레이장비및부품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "인지디스플레이는 디스플레이장비및부품과 자동차 부품을 함께 영위하는 기업입니다. 2025년 연결 기준 매출 7,218억원, 영업이익 171억원을 기록했으며, 매출은 디스플레이사업부와 자동차사업부를 중심으로 구성되어 있습니다.",
+    "business_model": "사업부문별 영업수익 구성은 해외사업부 59.3%, 자동차사업부 35.7%, 디스플레이사업부 5.0%입니다. 디스플레이사업부는 TV 패널 모듈에 사용되는 TOP CHASSIS류와 BTM CHASSIS류를, 자동차사업부는 엔진/변속기 알루미늄 다이캐스팅 부품인 CRANK CASE, LF/YG HEV MOTOR & HOUSING 등을 주로 생산합니다.",
+    "main_customers": "디스플레이사업부 — TV 패널 모듈 관련 고객 / 자동차사업부 — 엔진·변속기 및 HEV(하이브리드 전기차) 부품 수요처 / 해외사업부 — 해외 고객",
+    "price_factors": [
+      {
+        "factor": "TV수요",
+        "detail": "디스플레이 사업은 전방 산업의 경기변동에 직접 영향을 받기 때문에 TV 수요가 늘거나 줄면 실적에도 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "기술변화",
+        "detail": "LCD에서 OLED(유기발광다이오드)로의 기술 변화처럼 디스플레이 산업은 변화 속도가 빨라 제품 경쟁력에 영향을 줍니다."
+      },
+      {
+        "factor": "수율",
+        "detail": "OLED는 수율(양품 비율)이 낮을 수 있어 제조 단가와 가격 경쟁력에 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "원가부담",
+        "detail": "OLED TV는 원자재와 제작비용이 높다고 제시되어 있어 원가 부담이 커질수록 수익성에 부담이 될 수 있습니다."
+      },
+      {
+        "factor": "기술장벽",
+        "detail": "OLED TV 제조에는 1조 원 이상의 개발비가 필요하다고 제시되어 있어 높은 기술장벽이 경쟁 구도를 좌우할 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 2025년 연결 기준 7,218억원의 매출과 171억원의 영업이익을 달성하였으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "디스플레이사업부: 35,026 (5.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "해외사업부: 412,868 (59.3%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "자동차사업부: 248,264 (35.7%)"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3628,
+    "completion_tokens": 763,
+    "reasoning_tokens": 0,
+    "output_tokens": 763
+  },
+  "warnings": []
+}

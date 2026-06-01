@@ -1,0 +1,62 @@
+{
+  "stock_code": "043220",
+  "corp_name": "티에스넥스젠",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 01:46",
+  "meta": {
+    "wics": "기계",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "티에스넥스젠은 발전플랜트용 댐퍼(Damper), 선박용 탈황설비(SOx Damper), 전력배전설비 부스웨이(Busway)를 제조·판매하고 있으며, 자회사 뉴로소나를 통해 집속초음파 기반 의료기기 개발도 진행하고 있는 기계·장비 제조업체입니다. 연결 기준 자산총계 및 자본총계 등 재무규모를 공시하고 있습니다.",
+    "business_model": "사업부문별로 산업설비사업부가 매출의 74.2%로 가장 큰 비중을 차지하고, 에너지사업부가 16.7%, 의료기기사업본부가 0.6%, 기타가 8.6%를 차지합니다. 핵심 제품은 발전플랜트용 댐퍼(공기·가스 흐름 제어 장치), 선박용 SOx Damper(탈황장치), Busway(전력배전설비)이며, 의료기기사업에서는 집속초음파(초음파 기반 치료기기)를 개발·판매하고 있습니다.",
+    "main_customers": "산업설비사업부 — 발전소 운영사(원자력·화력·복합화력) / 선박용 탈황설비 — 선주·운항사(소형·중형 선박의 스크러버 설치 수요) / 에너지사업부 — 대형건물·공장·플랜트 및 공공기관·민간 발주자 / 의료기기사업본부 — 의료기관·미용업체·재활·물리치료센터",
+    "price_factors": [
+      {
+        "factor": "정부투자",
+        "detail": "발전플랜트 및 전력배전설비 수주는 정부의 사회간접자본 투자정책과 건설경기의 영향을 많이 받아 실적에 직결됩니다."
+      },
+      {
+        "factor": "국제규제",
+        "detail": "IMO의 황산화물 규제 강화는 선박용 탈황설비 수요를 증가시켜 회사의 SOx Damper 매출에 영향을 줍니다."
+      },
+      {
+        "factor": "건설경기",
+        "detail": "Busway(전력배전설비)는 대형건물·공장·플랜트 수주에 따라 수요가 좌우되어 건설경기 변동에 민감합니다."
+      },
+      {
+        "factor": "규제·허가",
+        "detail": "집속초음파 등 의료기기는 각국의 규제·인허가 절차와 높은 기술진입장벽으로 상용화·매출화 속도가 영향을 받습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "[경영진 실적·전략 요약 (MD&A)]",
+        "evidence_text": "당사는 발전플랜트설비 댐퍼(Damper) 및 선박용 탈황설비(SOx Damper)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "- 산업설비사업부: 10,171,801 (74.2%)"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "[에너지사업부]",
+        "evidence_text": "Busway system은 대형건물, 공장, 플랜트 등에 수요가 이루어지고"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4504,
+    "completion_tokens": 4533,
+    "reasoning_tokens": 3712,
+    "output_tokens": 821
+  },
+  "warnings": []
+}

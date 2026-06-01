@@ -1,0 +1,67 @@
+{
+  "stock_code": "016580",
+  "corp_name": "환인제약",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 21:48",
+  "meta": {
+    "wics": "제약",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "환인제약은 의약품을 제조하여 병원 등에 판매하는 제약사로, 회사 매출의 80% 이상이 정신신경용제 매출로 구성되어 있습니다. 2024년 IMS DATA 기준 국내 정신치료 약물시장 점유율 1위로 보고되며, 대부분의 영업활동은 국내에서 이루어집니다.",
+    "business_model": "단일의 의약품 부문이 핵심 사업부문이며, 제품별 매출 구성은 정신신경용제가 82.78%, 해열소염진통제가 8.55%, 순환기질환치료제가 4.33%, 소화성궤양치료제가 1.74%, 골다공증치료제가 0.75%, 기타가 1.85%를 차지합니다. 주요 품목으로는 쿠에타핀·에프람 등 정신신경용제 중심의 포트폴리오와 병원·유통 채널을 통한 판매가 수익의 기반입니다.",
+    "main_customers": "의약품부문 — 병원·의료기관 등",
+    "price_factors": [
+      {
+        "factor": "약가·제도 리스크",
+        "detail": "보험 약가 인하나 기등재의약품 경제성평가 등 정책 변화는 매출과 이익에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "규제·품질관리",
+        "detail": "약사법·향정신성의약품 관리법·KGMP 등 관련 법규·허가·품질 기준이 엄격해 생산·출시·유통에 제약을 줄 수 있습니다."
+      },
+      {
+        "factor": "제품 집중도",
+        "detail": "정신신경용제 매출 비중이 높아 해당 시장 수요·경쟁 변동에 따른 실적 변동성이 큽니다."
+      },
+      {
+        "factor": "보건정책·수요",
+        "detail": "치매국가책임제 등 보건정책과 고령화는 관련 치료제 수요 확대라는 구조적 요인으로 작용합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "회사 전체 매출액 중 80%이상이 정신신경용제 매출이 차지하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "정신신경용제 구성비 82.78"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "의약품을 제조하여 병원 등에 판매를 주요사업으로 하고 있으며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "법률/규정 등에 의한 규제사항",
+        "evidence_text": "약사법, 마약류관리에 관한 법률, ... 등의 관련 법규의 규제를 받고 있으며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4581,
+    "completion_tokens": 3098,
+    "reasoning_tokens": 2368,
+    "output_tokens": 730
+  },
+  "warnings": []
+}

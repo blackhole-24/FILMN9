@@ -1,0 +1,76 @@
+{
+  "stock_code": "032820",
+  "corp_name": "우리기술",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 09:55",
+  "meta": {
+    "wics": "우주항공과국방",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "우리기술은 1993년 설립 이후 30년 이상 원자력발전소 감시·제어시스템을 자체 기술로 개발해 공급해 온 기업입니다. 원전 핵심 설비인 계측제어설비(MMIS)를 국산화했고, 신한울1·2호기와 신고리5·6호기에 공급한 이력이 있습니다. 현재는 원전 정비용역과 방위산업장비, 폐기물재활용사업도 함께 영위하고 있습니다.",
+    "business_model": "연결 후 기준 매출은 제어시스템 42,367,008,849원, 방위산업장비 38,382,771,246원, 폐기물재활용사업 3,501,715,178원, 기타 2,883,900,116원으로 구성됩니다. 이를 매출 비율로 보면 제어시스템 약 48.6%, 방위산업장비 약 44.0%, 폐기물재활용사업 약 4.0%, 기타 약 3.3%입니다. 제어시스템은 원전 감시·경보·제어시스템과 정비용역을 중심으로 하고, 방위산업장비는 군용 공조시스템과 런플랫(Run-Flat, 타이어 이탈을 막는 보조장치) 같은 장비를 공급하는 구조입니다.",
+    "main_customers": "제어시스템 — 원자력발전소 운영사, 신규 원전사업 추진처 / 방위산업장비 — 군용 차량 및 방산 전력 운영 관련 고객 / 폐기물재활용사업 — 사업 보고서상 구체 고객 미기재",
+    "price_factors": [
+      {
+        "factor": "원전수주",
+        "detail": "국내외 신규 원전사업 수주 여부에 따라 제어시스템 공급 확대 가능성이 달라집니다."
+      },
+      {
+        "factor": "정비용역",
+        "detail": "원전 및 발전소 정비용역 계약이 늘면 반복적인 서비스 매출 확보에 영향을 줍니다."
+      },
+      {
+        "factor": "방산수요",
+        "detail": "차륜형장갑차와 전차·장갑차 관련 방위산업장비 수요가 실적에 직접 영향을 줍니다."
+      },
+      {
+        "factor": "SMR진전",
+        "detail": "SMR(소형 모듈 원자로) 관련 시험용 DCS 개발 성과가 향후 시장 진입 기반과 연결됩니다."
+      },
+      {
+        "factor": "품질인증",
+        "detail": "ISO9001 등 품질방침과 정비적격업체 인증은 수주와 고객 신뢰에 중요한 요소입니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "1993년 회사 설립부터 현재까지 원자력발전소의 감시, 경보, 제어시스템을 100% 자체 기술로 개발하여 공급하고 있습니다."
+      },
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "신한울1,2호기 및 신고리5,6호기에 성공적으로 공급함으로써"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "제어시스템 | 42,367,008,849"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "방위산업장비 | 38,382,771,246"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "국내는 물론 폴란드와 체코에서 추진 중인 신규 원전사업 수주를 목표로"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4891,
+    "completion_tokens": 942,
+    "reasoning_tokens": 0,
+    "output_tokens": 942
+  },
+  "warnings": []
+}

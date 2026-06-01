@@ -1,0 +1,67 @@
+{
+  "stock_code": "289930",
+  "corp_name": "웨이비스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 15:10",
+  "meta": {
+    "wics": "우주항공과국방",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "웨이비스는 GaN RF(질화갈륨 고주파) 반도체 칩과 그 응용제품의 제조기술을 보유한 국내 전문기업으로, 칩-패키지트랜지스터-모듈의 가치사슬을 수직 내재화한 국내 유일의 GaN RF 반도체 전문기업입니다. 분할 설립 전인 2011년부터 첨단 무기체계용 GaN PA 기술개발에 참여하며 기술력을 축적해 왔습니다.",
+    "business_model": "주요 제품은 GaN RF 반도체 칩(Bare Die), 패키지트랜지스터(Packaged Transistor) 및 모듈(Module)로, 이들 제품을 개발·양산·판매하는 제조·공급 중심의 사업구조입니다. FY2025 사업부문별 영업수익 구성은 상품 0.8%, 기타 0.3%로 보고되었습니다.",
+    "main_customers": "칩/패키지트랜지스터/모듈 — 첨단무기체계 제조사(국내 Tier‑1 포함) / 국방기관 및 방산 체계업체 — 레이더·감시정찰 등 군수 시스템 고객 / 위성·우주항공 및 이동통신 인프라 관련 업체",
+    "price_factors": [
+      {
+        "factor": "수급불균형",
+        "detail": "세계적으로 GaN 칩 공급이 소수국가·업체에 집중되어 수급 불안정이 지속되면 매출·납기·단가에 영향이 클 수 있습니다."
+      },
+      {
+        "factor": "수출통제",
+        "detail": "미국·일본 등 주요국의 수출통제 정책은 외산 의존 완화를 촉진하지만, 동시에 글로벌 공급망 불확실성으로 실적 변동성을 키울 수 있습니다."
+      },
+      {
+        "factor": "국가정책·방산수요",
+        "detail": "국가적 자주국방·국산화 정책과 방산 수요 증가는 국산 GaN 솔루션에 대한 안정적 수요로 연결될 가능성이 있습니다."
+      },
+      {
+        "factor": "산업용 수요확대",
+        "detail": "안티드론·이동통신 인프라·위성 등 다양한 첨단 분야의 고주파·고효율 수요 증가는 제품 수요 확대에 직결될 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "국내 최초,유일 국산화에 성공한 GaN RF 반도체 칩"
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. 주요 제품 및 서비스의 현황",
+        "evidence_text": "GaN RF 반도체 칩, 패키지트랜지스터 및 모듈을 판매"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 주요 제품 및 서비스의 현황",
+        "evidence_text": "국내 Top-Tier 체계업체의 해당 제품 핵심 공급사"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 주요 제품 및 서비스의 현황",
+        "evidence_text": "글로벌 수급난이 지속 악화되고 있는 상황"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4573,
+    "completion_tokens": 3170,
+    "reasoning_tokens": 2368,
+    "output_tokens": 802
+  },
+  "warnings": []
+}

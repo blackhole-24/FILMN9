@@ -1,0 +1,74 @@
+{
+  "stock_code": "226400",
+  "corp_name": "오스테오닉",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 12:54",
+  "meta": {
+    "wics": "건강관리장비와용품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "오스테오닉은 정형외과용 의료기기(임플란트)를 생산·판매하는 기업으로, 인체의 대부분 뼈의 접합·대체·조정 목적의 제품을 제조합니다. 최근 바이오소재 제품의 비중이 늘고 있으며, 수출비중은 2023년 41.28%, 2024년 43.05%, 2025년 47.43%로 높은 편입니다.",
+    "business_model": "핵심 사업은 금속소재 기반 제품(스테인레스스틸·티타늄)과 바이오소재(Peek, Biocomposite 등) 기반 제품의 설계·제조·판매로 구성됩니다. 적용 분야는 두개·구강악안면(CMF), 외상·상하지(Trauma & Extremities), 척추(Spine), 관절보존(Sports Medicine) 등으로 나뉘며, 바이오소재는 2차 수술이 불필요하다는 장점과 강도 제한에 따른 사용처 제약이 공존합니다.",
+    "main_customers": "두개·구강악안면(CMF) — 신경외과·구강외과·성형외과·안과 / 외상·상하지(Trauma&Extremities) — 정형외과·신경외과·성형외과 / 관절보존(Sports Medicine) — 정형외과 / 치과(Dental) — 치과의사·치과병원 / 미용(Aesthetic) — 성형외과·미용 관련 의료기관",
+    "price_factors": [
+      {
+        "factor": "수출·환율",
+        "detail": "수출비중이 높아 환율 변동은 매출과 수익성에 직접적 영향을 미칩니다."
+      },
+      {
+        "factor": "규제·허가",
+        "detail": "국내외 의료기기 인허가에 많은 시간과 비용이 소요되어 신제품 출시와 매출화 시점에 영향을 줍니다."
+      },
+      {
+        "factor": "바이오소재 한계",
+        "detail": "바이오소재는 2차 수술 불필요 등의 장점이 있으나 강도 제한으로 적용 범위가 제한되어 수요 확대에 제약이 될 수 있습니다."
+      },
+      {
+        "factor": "정형외과 수요",
+        "detail": "고령화와 정형외과 질환 증가 등 시장 수요 변화는 제품 개발 및 판매 확대에 중요한 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "접합(Fixation), 대체(Replacement) 및 조정(Adjustment)을 목적으로 사용"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "바이오소재 (Peek, Biocomposite등)의 사용이 늘고 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "병원 해당 과는 신경외과, 구강외과, 성형외과 안과등이 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "당사의 수출비중은 2025년(47.43%),  2024년(43.05%), 2023년(41.28%)"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "제품허가를 받기 위해서는 많은 시간과 비용이 투입되며"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 3857,
+    "completion_tokens": 5076,
+    "reasoning_tokens": 4160,
+    "output_tokens": 916
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

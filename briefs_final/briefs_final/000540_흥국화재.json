@@ -1,0 +1,76 @@
+{
+  "stock_code": "000540",
+  "corp_name": "흥국화재",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 16:54",
+  "meta": {
+    "wics": "손해보험",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "insurance"
+  },
+  "brief": {
+    "company_overview": "흥국화재는 일반보험(화재·해상·특종), 자동차보험, 장기보험을 취급하는 손해보험사입니다. 2025년 기준 운용자산은 11조 8,114억원이고 당기순이익은 1,517억원을 시현했으며, 신용평가에서 A+(안정적)를 받았습니다.",
+    "business_model": "사업부문별 영업수익 구성은 화재 0.1%, 해상 0.4%, 자동차 4.1%, 특종 3.8%, 장기 91.3%, 개인연금 0.3%로 장기보험(보험기간 3년 이상)이 압도적 비중을 차지합니다. 주요 수익원은 보험영업수익(2025년 2조 8,165억원)과 투자영업수익(2025년 7,164억원)이며, 보험서비스비용·투자영업비용이 실적에 영향을 미칩니다.",
+    "main_customers": "화재 — 화재보험 가입자(개인·법인) / 해상 — 해상보험 가입자(화물·선주 등) / 자동차 — 자동차보험 가입자(개인·법인) / 특종 — 특수위험 관련 보험가입자 / 장기 — 장기보험 가입 개인(상해·질병·저축 등) / 개인연금 — 연금 가입 개인",
+    "price_factors": [
+      {
+        "factor": "장기보험 비중",
+        "detail": "매출의 91.3%가 장기보험으로, 장기상품의 손해율·사업비 변동이 실적에 큰 영향을 미칩니다."
+      },
+      {
+        "factor": "투자수익",
+        "detail": "투자영업수익(7,164억원)과 투자손익(443억원)이 당기순이익에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "보험영업손익",
+        "detail": "보험영업수익(2조 8,165억원)과 보험서비스비용(2조 6,733억원)의 차이가 보험부문 이익을 결정합니다."
+      },
+      {
+        "factor": "자산건전성",
+        "detail": "보고서에서 언급된 '자산건전성 및 자본적정성 관리 부담'은 지급여력과 신용평가에 영향합니다."
+      },
+      {
+        "factor": "신용평가",
+        "detail": "A+ 등급(안정적)은 시장 평가 및 자금 조달 여건에 영향을 미칠 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "당기순이익은 1,517억원을 시현하였습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "장기: 31,637 (91.3%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "일반보험(화재, 해상, 기타 특종), 자동차보험, 장기보험"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "A+등급(안정적, 한국신용평가 및 NICE신용평가, 2025년 4월 기준)"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "투자손익은 443억원"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3079,
+    "completion_tokens": 4937,
+    "reasoning_tokens": 4032,
+    "output_tokens": 905
+  },
+  "warnings": []
+}

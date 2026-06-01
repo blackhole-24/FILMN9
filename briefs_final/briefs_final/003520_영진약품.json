@@ -1,0 +1,78 @@
+{
+  "stock_code": "003520",
+  "corp_name": "영진약품",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 18:32",
+  "meta": {
+    "wics": "제약",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "영진약품은 '생명을 위한 의약'이라는 창업 정신을 바탕으로 국민 보건 향상과 제약산업 발전에 기여해 온 국내 제약회사입니다. KT&G그룹의 핵심 계열사로 그룹 내 바이오·제약 부문에서 중추적 역할을 수행하며, 2025년 매출액은 2,543억 원, 영업이익은 34억 원을 기록했습니다.",
+    "business_model": "주요 수익원은 국내영업(만성질환·호흡기계 제품 중심의 판매 확대)과 글로벌영업(항생주사제 및 원료의약품 중심의 수출)이며, CMO(위탁생산) 사업 영역 확장과 연구개발(R&D) 역량 강화로 파이프라인 관리를 통한 성장동력 확보에 집중하고 있습니다.",
+    "main_customers": "국내영업 — 보고서에 구체적 고객군 미기재 / 글로벌영업 — 보고서에 구체적 고객군 미기재 / CMO — 보고서에 구체적 고객군 미기재",
+    "price_factors": [
+      {
+        "factor": "약가정책",
+        "detail": "정부의 약가 정책(사용량-약가연동제 등)이 의약품 가격을 결정·통제하여 매출과 수익성에 직접 영향"
+      },
+      {
+        "factor": "경쟁심화",
+        "detail": "제네릭(복제약) 증가로 인한 과당경쟁은 가격·마진 압박으로 이어질 가능성"
+      },
+      {
+        "factor": "수출환경",
+        "detail": "글로벌 경기 변동과 주요 거래처 환경 변화가 수출 실적과 영업성장에 영향을 미침"
+      },
+      {
+        "factor": "원료의존",
+        "detail": "원료의약품 수입 의존도와 환율 변동이 수익성 변동성을 확대할 수 있음"
+      },
+      {
+        "factor": "인구구조",
+        "detail": "고령화로 만성질환 수요는 꾸준히 증가해 국내영업의 안정적 수요 기반이 될 수 있음"
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "선도적 제약회사입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "KT&G그룹의 핵심 계열사로서"
+      },
+      {
+        "field": "business_model",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "매출액은 2,543억 원"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "의약품(급여) 가격은 정부의 약가 정책에 의해 결정"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "유사의약품의 증가로 과당경쟁 벌어지고 있는 상황"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 5020,
+    "completion_tokens": 4110,
+    "reasoning_tokens": 3328,
+    "output_tokens": 782
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

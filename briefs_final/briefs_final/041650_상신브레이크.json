@@ -1,0 +1,72 @@
+{
+  "stock_code": "041650",
+  "corp_name": "상신브레이크",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 01:33",
+  "meta": {
+    "wics": "자동차부품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "상신브레이크는 제동제품(패드 등)과 제동제품 제조 전용설비를 제조·판매하는 자동차부품업체로, 제동부문과 설비부문을 주된 사업으로 영위합니다. 연결기준 매출 542,261백만원을 기록했고, 수출 비중이 높아(수출 73%, 내수 27%) 글로벌 고객을 대상으로 사업을 전개하고 있습니다.",
+    "business_model": "사업은 제동 부문(73.5%)과 설비 부문(0.9%)으로 구성되며 제동 부문이 핵심 수익원입니다. 제동 부문은 OE(주문자생산방식, 신차조립용) 및 RE(국내외 보수용) 시장에 패드·라이닝·어셈블리류를 납품하고, 설비 부문은 고객주문형 전용설비와 시험장비를 국내외에 제작·판매하여 수익을 창출합니다. 당기 매출액의 약 3.5%인 18,934백만원을 연구개발비로 지출하고 있습니다.",
+    "main_customers": "제동 부문 — 완성차 업체의 OEM/OES(신차 조립용) 및 국내외 보수용(Aftermarket) / 설비 부문 — 고객주문형 설비를 구매하는 국내외 기업",
+    "price_factors": [
+      {
+        "factor": "수출 의존도",
+        "detail": "수출 비중(73%)이 높아 글로벌 수요 및 통상환경 변동에 따라 매출·실적 변동성이 커집니다."
+      },
+      {
+        "factor": "원가 압박",
+        "detail": "원가율 급등(경영진 언급)과 원자재 가격 변화가 수익성에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "경기 민감성",
+        "detail": "브레이크 마찰재 업계는 일반 경기 및 완성차업체 생산 변동에 민감해 실적이 경기 흐름에 연동됩니다."
+      },
+      {
+        "factor": "OEM 진입장벽",
+        "detail": "OEM 시장은 품질·시험·납품승인에 긴 기간이 소요되어(입찰·승인 장벽) 신규 경쟁 진입이 제한적입니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 영업 현황",
+        "evidence_text": "연결기준 542,261백만원의 매출을달성하였습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "제동 부문: 398,588 (73.5%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 영업 현황",
+        "evidence_text": "당기 매출액의 약 3.5%에 해당하는 18,934백만원의 연구개발비용을 지출하고 있으며"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 영업 현황",
+        "evidence_text": "OE(주문자생산방식) 시장 및 RE(국내외 보수용) 시장"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "다. 사업부문별 현황",
+        "evidence_text": "브레이크 마찰재업계는 일반경기변동과 모업체의 경기변동에 대하여 민감한 반응을받는 편이고"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5803,
+    "completion_tokens": 3757,
+    "reasoning_tokens": 2880,
+    "output_tokens": 877
+  },
+  "warnings": []
+}

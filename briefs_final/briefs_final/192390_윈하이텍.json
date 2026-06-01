@@ -1,0 +1,72 @@
+{
+  "stock_code": "192390",
+  "corp_name": "윈하이텍",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 11:18",
+  "meta": {
+    "wics": "건축자재",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "윈하이텍은 데크플레이트 등 금속 건축자재의 제조·판매와 강구조 전문 건설, 종합건설 및 부동산 개발사업을 영위하는 기업입니다. 주력 제품은 데크플레이트와 무해체 거푸집 보 등이며 현재는 내수매출이 주를 이루고 있습니다.",
+    "business_model": "주요 수익원은 데크플레이트 관련 제품 판매와 데크 설치형 공사로 구성되며, 당기 데크플레이트 매출액이 전체 매출에서 대부분을 차지합니다; 제품매출(데크납품외)이 전체매출의 42.8%를 차지하고 건설형공사매출액(데크설치)이 전체매출의 57.1%를 차지합니다. 제품 가격은 원재료 및 물가상승, 수주 현장별 설계·경쟁입찰·거래처 예산 등에 따라 변동합니다.",
+    "main_customers": "제품매출(데크납품) — 건축물 시공 현장·시공사 / 건설형공사(데크설치) — 발주처·시공사",
+    "price_factors": [
+      {
+        "factor": "원자재 물가",
+        "detail": "제품 가격은 주요 원재료 및 물가상승률에 따라 변동되어 실적에 직접 영향."
+      },
+      {
+        "factor": "수주경쟁",
+        "detail": "경쟁입찰 방식과 수주경쟁률, 거래처의 실행예산에 따라 매출과 이익률이 달라짐."
+      },
+      {
+        "factor": "노무·인건비",
+        "detail": "인력난 및 인건비 상승과 기능인력 부족은 합판거푸집 대체 수요를 확대시키는 요인으로 작용함."
+      },
+      {
+        "factor": "공법 전환",
+        "detail": "OSC(공장 제작·현장 조립) 확산과 안전·공기단축 요구는 데크플레이트 수요를 견인함."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "현재는 내수매출이 주를 이루고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "제품매출(데크납품외)이 32,171백만원으로 전체매출액의 42.8%를 차지하고 있으며,"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "건설형공사매출액(데크설치)은 42,936백만원으로 전체 매출액 중 57.1%를 차지하고 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "수주 현장별 건축물의 설계 및 특성과 경쟁입찰 방식에서의 수주경쟁률 및 거래처의 실행예산 등에 따라 큰 영향을 받습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > (4) 업계의 현황",
+        "evidence_text": "데크플레이트 산업은 ... 인력난 및 인건비 상승, 산업재해 예방, 목재가격 상승, 기능인력 부족, 공기단축의 필요성 등과 맞물려 시장규모 확대가 예상되고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4818,
+    "completion_tokens": 3835,
+    "reasoning_tokens": 2944,
+    "output_tokens": 891
+  },
+  "warnings": []
+}

@@ -1,0 +1,67 @@
+{
+  "stock_code": "018670",
+  "corp_name": "SK가스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 22:21",
+  "meta": {
+    "wics": "가스유틸리티",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "SK가스는 1985년 LPG 수입산업의 합리화를 위해 설립되어 LPG 등 화학제품의 수입·저장·판매를 주요 사업으로 영위하고 있습니다. 2025년 누적 회사 매출액의 90%인 7조원을 LPG 가스사업에서 창출했으며, 국내 매출과 해외수출 비중은 각각 약 54.4%·45.6%입니다.",
+    "business_model": "사업부문별 매출 구성은 기타가 100.0%로 보고되어 있으며, 핵심은 해외 도입(LPG Trading)·대규모 저장·국내 유통을 통한 LPG 판매입니다. 당사는 사우디·쿠웨이트·아랍에미레이트·미국 등에서 LPG를 도입하고 48만톤 규모의 저장기지로 충전소·석유화학·산업체 등에 공급하며, 울산지피에스의 발전사업 매출도 연결되어 있습니다.",
+    "main_customers": "수송용 LPG — 택시·여객·화물차 등 차량 소유자 및 운수사업자 / 석유화학용 LPG — 석유화학업체(예: ㈜효성, 태광산업) / 산업용 LPG — 산업체(공장 등) / 가정상업용 LPG — 일반 가정·상업시설",
+    "price_factors": [
+      {
+        "factor": "국제가격",
+        "detail": "국제 LPG 도입비용 변동이 국내 판매가에 탄력적으로 반영되어 실적에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "수요구성",
+        "detail": "용도별로 석유화학용 비중이 높아(55.7%) 석화 수요 변동이 매출과 실적에 큰 영향을 줍니다."
+      },
+      {
+        "factor": "저장설비",
+        "detail": "48만톤 규모의 저장기지는 공급 안정성과 유통 경쟁력 확보로 실적 방어에 기여합니다."
+      },
+      {
+        "factor": "정책·규제",
+        "detail": "2019년 연료사용제한 삭제 등 정책 변화는 Autogas(수송용 LPG) 수요 확대를 촉진할 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 > 영업 현황",
+        "evidence_text": "당사는 LPG 수입산업의 합리화를 위해 1985년 설립되어"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "기타: 6,992,257 (100.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 > 주요 제품 및 서비스 현황",
+        "evidence_text": "석유화학용 LPG는 석유화학업체에서 석유화학제품을 제조하는 원료로"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 > 영업 현황",
+        "evidence_text": "당사의 LPG저장기지는 총 48만톤 규모로"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 6194,
+    "completion_tokens": 4297,
+    "reasoning_tokens": 3520,
+    "output_tokens": 777
+  },
+  "warnings": []
+}

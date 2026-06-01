@@ -1,0 +1,318 @@
+{
+  "total_stocks": 2588,
+  "total_sectors": 78,
+  "sectors": [
+    {
+      "sector_name": "반도체와반도체장비",
+      "count": 162
+    },
+    {
+      "sector_name": "제약",
+      "count": 160
+    },
+    {
+      "sector_name": "자동차부품",
+      "count": 148
+    },
+    {
+      "sector_name": "화학",
+      "count": 113
+    },
+    {
+      "sector_name": "IT서비스",
+      "count": 106
+    },
+    {
+      "sector_name": "전자장비와기기",
+      "count": 102
+    },
+    {
+      "sector_name": "기계",
+      "count": 97
+    },
+    {
+      "sector_name": "건강관리장비와용품",
+      "count": 89
+    },
+    {
+      "sector_name": "식품",
+      "count": 79
+    },
+    {
+      "sector_name": "섬유,의류,신발,호화품",
+      "count": 79
+    },
+    {
+      "sector_name": "소프트웨어",
+      "count": 72
+    },
+    {
+      "sector_name": "디스플레이장비및부품",
+      "count": 69
+    },
+    {
+      "sector_name": "건설",
+      "count": 68
+    },
+    {
+      "sector_name": "전기제품",
+      "count": 66
+    },
+    {
+      "sector_name": "화장품",
+      "count": 59
+    },
+    {
+      "sector_name": "핸드셋",
+      "count": 58
+    },
+    {
+      "sector_name": "방송과엔터테인먼트",
+      "count": 55
+    },
+    {
+      "sector_name": "생물공학",
+      "count": 54
+    },
+    {
+      "sector_name": "철강",
+      "count": 53
+    },
+    {
+      "sector_name": "통신장비",
+      "count": 50
+    },
+    {
+      "sector_name": "건축자재",
+      "count": 43
+    },
+    {
+      "sector_name": "비철금속",
+      "count": 40
+    },
+    {
+      "sector_name": "생명과학도구및서비스",
+      "count": 37
+    },
+    {
+      "sector_name": "게임엔터테인먼트",
+      "count": 33
+    },
+    {
+      "sector_name": "부동산",
+      "count": 33
+    },
+    {
+      "sector_name": "우주항공과국방",
+      "count": 32
+    },
+    {
+      "sector_name": "조선",
+      "count": 31
+    },
+    {
+      "sector_name": "전기장비",
+      "count": 30
+    },
+    {
+      "sector_name": "상업서비스와공급품",
+      "count": 30
+    },
+    {
+      "sector_name": "건강관리업체및서비스",
+      "count": 27
+    },
+    {
+      "sector_name": "에너지장비및서비스",
+      "count": 26
+    },
+    {
+      "sector_name": "증권",
+      "count": 26
+    },
+    {
+      "sector_name": "포장재",
+      "count": 25
+    },
+    {
+      "sector_name": "컴퓨터와주변기기",
+      "count": 22
+    },
+    {
+      "sector_name": "교육서비스",
+      "count": 22
+    },
+    {
+      "sector_name": "가정용기기와용품",
+      "count": 20
+    },
+    {
+      "sector_name": "호텔,레스토랑,레저",
+      "count": 19
+    },
+    {
+      "sector_name": "창업투자",
+      "count": 19
+    },
+    {
+      "sector_name": "광고",
+      "count": 18
+    },
+    {
+      "sector_name": "양방향미디어와서비스",
+      "count": 16
+    },
+    {
+      "sector_name": "전자제품",
+      "count": 15
+    },
+    {
+      "sector_name": "복합기업",
+      "count": 15
+    },
+    {
+      "sector_name": "석유와가스",
+      "count": 13
+    },
+    {
+      "sector_name": "건강관리기술",
+      "count": 12
+    },
+    {
+      "sector_name": "건축제품",
+      "count": 12
+    },
+    {
+      "sector_name": "가스유틸리티",
+      "count": 12
+    },
+    {
+      "sector_name": "음료",
+      "count": 12
+    },
+    {
+      "sector_name": "백화점과일반상점",
+      "count": 12
+    },
+    {
+      "sector_name": "판매업체",
+      "count": 12
+    },
+    {
+      "sector_name": "종이와목재",
+      "count": 12
+    },
+    {
+      "sector_name": "레저용장비와제품",
+      "count": 11
+    },
+    {
+      "sector_name": "가구",
+      "count": 11
+    },
+    {
+      "sector_name": "해운사",
+      "count": 11
+    },
+    {
+      "sector_name": "은행",
+      "count": 11
+    },
+    {
+      "sector_name": "항공화물운송과물류",
+      "count": 11
+    },
+    {
+      "sector_name": "손해보험",
+      "count": 10
+    },
+    {
+      "sector_name": "자동차",
+      "count": 9
+    },
+    {
+      "sector_name": "가정용품",
+      "count": 8
+    },
+    {
+      "sector_name": "인터넷과카탈로그소매",
+      "count": 8
+    },
+    {
+      "sector_name": "출판",
+      "count": 8
+    },
+    {
+      "sector_name": "운송인프라",
+      "count": 8
+    },
+    {
+      "sector_name": "도로와철도운송",
+      "count": 7
+    },
+    {
+      "sector_name": "항공사",
+      "count": 7
+    },
+    {
+      "sector_name": "식품과기본식료품소매",
+      "count": 7
+    },
+    {
+      "sector_name": "무역회사와판매업체",
+      "count": 6
+    },
+    {
+      "sector_name": "전문소매",
+      "count": 6
+    },
+    {
+      "sector_name": "디스플레이패널",
+      "count": 5
+    },
+    {
+      "sector_name": "기타금융",
+      "count": 5
+    },
+    {
+      "sector_name": "전기유틸리티",
+      "count": 5
+    },
+    {
+      "sector_name": "생명보험",
+      "count": 5
+    },
+    {
+      "sector_name": "무선통신서비스",
+      "count": 4
+    },
+    {
+      "sector_name": "다각화된통신서비스",
+      "count": 2
+    },
+    {
+      "sector_name": "사무용전자제품",
+      "count": 1
+    },
+    {
+      "sector_name": "문구류",
+      "count": 1
+    },
+    {
+      "sector_name": "다각화된소비자서비스",
+      "count": 1
+    },
+    {
+      "sector_name": "복합유틸리티",
+      "count": 1
+    },
+    {
+      "sector_name": "담배",
+      "count": 1
+    },
+    {
+      "sector_name": "카드",
+      "count": 1
+    }
+  ]
+}

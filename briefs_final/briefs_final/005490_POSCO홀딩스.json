@@ -1,0 +1,64 @@
+{
+  "stock_code": "005490",
+  "corp_name": "POSCO홀딩스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 19:14",
+  "meta": {
+    "wics": "철강",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "포스코홀딩스는 2022년 3월 지주회사로 전환하여 그룹 전반의 성장 전략을 수립하고 신사업 발굴·포트폴리오 관리를 수행하는 회사입니다. 연결대상 회사는 2025년말 기준 포스코홀딩스를 제외한 총 198개사에 이릅니다.",
+    "business_model": "사업구조는 철강부문, 인프라(무역·건설·물류)부문, 이차전지소재부문, 기타부문 등으로 구성되어 있으며, 지주회사 특성상 자회사의 배당금·브랜드 사용료·임대료 등으로 주요 수입이 발생합니다. 각 사업부문은 계열사를 통해 제품 생산·무역·건설·물류·배터리소재 공급 등으로 수익을 창출합니다.",
+    "main_customers": "철강부문 — 자동차·조선·가전 등 제조업체 / 인프라(무역)부문 — 무역·자원개발·발전시설·LNG 터미널 관련 수요처 / 건설부문 — 에너지·환경·산업플랜트·주거·초고층·도시개발 프로젝트 발주자 / 물류 등 부문 — 철강원료·제품·곡물·천연가스 운송 수요처 / 이차전지소재부문 — EV 배터리 소재를 필요로 하는 배터리·전기차 관련 제조사",
+    "price_factors": [
+      {
+        "factor": "자회사 의존도",
+        "detail": "자회사·관계회사 실적이 악화되면 배당·사용료 수입 감소로 지주사 실적에 직접 영향이 미칩니다."
+      },
+      {
+        "factor": "전방수요",
+        "detail": "건설·제조업 등 전방 산업의 수요 부진은 철강제품 수요와 가격에 부정적 영향을 줍니다."
+      },
+      {
+        "factor": "원자재·에너지",
+        "detail": "광물 자원 수급, 유가·전력 비용, 환율 변동 등이 철강·무역·이차전지소재의 원가와 가격에 영향을 줍니다."
+      },
+      {
+        "factor": "공정거래 리스크",
+        "detail": "지주회사 관련 행위제한 위반 시 과징금·벌칙 부과로 재무적 부담이 발생할 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "회사의 연결대상 회사는 2025년말 기준 포스코홀딩스를 제외한 총 198개사로"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "지주회사인 포스코홀딩스의 주요 수입은 배당금 수익, 브랜드 사용료 및 임대료 등으로 구성되어 있어"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "철강부문은 자동차, 조선, 가전 등 산업에 철강제품을 공급하고 있으며,"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 5086,
+    "completion_tokens": 5977,
+    "reasoning_tokens": 5184,
+    "output_tokens": 793
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

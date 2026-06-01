@@ -1,0 +1,67 @@
+{
+  "stock_code": "484590",
+  "corp_name": "삼양컴텍",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 20:53",
+  "meta": {
+    "wics": "우주항공과국방",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "삼양컴텍은 1973년 방산업체로 지정되어 지상·항공 분야의 방탄·방호 제품과 복합소재를 연구·개발·양산하는 기업입니다. 2025년 매출은 1,546억원(154,607백만원)이며 주요 시장은 국내외 방위산업 시장으로 소재개발부터 설계·제조·검사·시험평가를 자체 수행하는 점이 특징입니다.",
+    "business_model": "사업은 방산사업(전투용 장갑 및 항공기 부품 등) 단일 부문으로 구성되며, 2025년 매출은 방산사업이 약 100%를 차지합니다. 주력 제품으로 K2전차 특수장갑, 차륜형 장갑차용 부가장갑, 소형 전술차량 방호 킷 및 항공기 관련 방호부품 등을 제조하며, KOLAS 국제공인시험기관 인정(2013년)을 통해 자체 성능시험이 가능한 점을 경쟁력으로 보유하고 있습니다.",
+    "main_customers": "방산사업 — 국내외 방위산업 시장(정부 기관 및 방위 관련 수요처)",
+    "price_factors": [
+      {
+        "factor": "국방예산",
+        "detail": "국가의 국방예산 변동이 매출과 장기계약 규모에 직접적 영향을 미칩니다."
+      },
+      {
+        "factor": "지정학적 긴장",
+        "detail": "러시아-우크라이나·중동 등 지정학적 갈등 증가는 글로벌 방산 수요 확대를 통해 수출기회로 연결됩니다."
+      },
+      {
+        "factor": "규제·보안",
+        "detail": "군사기밀 및 수출 규제 등 규제요건과 높은 진입장벽이 사업환경과 경쟁구도를 결정합니다."
+      },
+      {
+        "factor": "연구개발·투자",
+        "detail": "고도 기술개발과 대규모 설비투자가 필요한 제품 특성상 R&D와 설비투자 수준이 원가·수익성에 영향합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "나. 회사의 현황",
+        "evidence_text": "당사는 1973년 방산업체로 지정되어"
+      },
+      {
+        "field": "business_model",
+        "source_section": "나. 회사의 현황",
+        "evidence_text": "주력 제품인 K2전차 특수장갑"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 업계의 현황",
+        "evidence_text": "주요 시장은 국내외 방위산업 시장입니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "다. 시장여건 및 영업의 개황",
+        "evidence_text": "정부의 국방예산은 꾸준히 증액되는 추세로"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4886,
+    "completion_tokens": 4423,
+    "reasoning_tokens": 3712,
+    "output_tokens": 711
+  },
+  "warnings": []
+}

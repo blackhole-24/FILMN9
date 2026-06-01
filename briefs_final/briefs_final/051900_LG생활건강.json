@@ -1,0 +1,67 @@
+{
+  "stock_code": "051900",
+  "corp_name": "LG생활건강",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 02:54",
+  "meta": {
+    "wics": "화장품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "LG생활건강은 화장품·생활용품·음료를 주력으로 삼는 국내 대표 생활문화 기업으로, 다양한 럭셔리·프리미엄 브랜드와 강력한 생활용품 포트폴리오를 보유하고 있습니다. HDB(생활용품) 부문은 국내에서 굳건한 1위 지위를 차지하고 있으며, 2025년 연결 기준 매출은 6조 3,555억원으로 집계되었습니다.",
+    "business_model": "핵심 사업부문은 Beauty(화장품), HDB(생활용품, Home Care & Daily Beauty), Refreshment(음료)로 구성되며, 2025년 기준 매출 비중은 Beauty(37%), HDB(35%), Refreshment(28%)입니다. Beauty는 더후·숨37˚·오휘·빌리프·CNP·더페이스샵 등 럭셔리·프리미엄 브랜드를 중심으로, HDB는 Daily Beauty(샴푸·바디워시·치약 등)와 Home Care(세탁·청소용 제품) 및 관련 B2B 원료 판매, Refreshment는 코카콜라음료를 통한 TCCC 보틀링 사업을 통해 수익을 창출합니다.",
+    "main_customers": "Beauty — 국내외 소비자 및 면세·해외 유통 채널 / HDB — 일반 소비자(데일리뷰티 사용자) 및 가정(홈케어)·B2B(생활용품 원료 구매기업) / Refreshment — 국내 음료 소비자 및 코카콜라 유통 채널(TCCC 관련)",
+    "price_factors": [
+      {
+        "factor": "수요(내수)",
+        "detail": "내수 경기 침체와 소비심리 약화는 Beauty·Refreshment 매출에 직접적인 하방 압력을 줍니다."
+      },
+      {
+        "factor": "계절성",
+        "detail": "Refreshment는 여름 성수기, Beauty는 겨울 성수기가 있어 상호 보완적으로 연중 매출 변동성을 완화합니다."
+      },
+      {
+        "factor": "원가(환율·물가)",
+        "detail": "고환율·고물가 환경은 원재료·제조비 부담을 키워 Refreshment 등 사업부 영업이익에 부정적 영향을 미칩니다."
+      },
+      {
+        "factor": "브랜드·트렌드",
+        "detail": "코스메슈티컬·클린뷰티 등 소비 트렌드 변화는 럭셔리·프리미엄 브랜드의 제품 전략과 해외 성장에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "환경 관련 규제 준수사항",
+        "evidence_text": "화장품, 생활용품, 음료를 생산, 전 세계에 공급하는 글로벌 생활문화 기업"
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황",
+        "evidence_text": "Beauty(37%), HDB(35%), Refreshment(28%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "Home Care는 집안 청소와 의류 세탁에 사용되는 생활용품"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "고환율/고물가 등으로 원가 부담 확대"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5476,
+    "completion_tokens": 4350,
+    "reasoning_tokens": 3520,
+    "output_tokens": 830
+  },
+  "warnings": []
+}

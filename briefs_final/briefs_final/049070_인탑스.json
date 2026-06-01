@@ -1,0 +1,67 @@
+{
+  "stock_code": "049070",
+  "corp_name": "인탑스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 02:35",
+  "meta": {
+    "wics": "핸드셋",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "인탑스는 전기·전자(핸드셋) 분야의 조립(ASS'Y) 전문 기업으로, IT 디바이스·가전 ASS'Y·자동차 부품·금형·유통·서비스 등 다섯 개 부문을 운영하고 있습니다. 본사를 중심으로 한국, 중국, 베트남, 미국 등지에 글로벌 생산·개발 기반을 둔 9개의 종속회사를 보유하고 있으며, 국내 사업장은 안양 본사와 구미·수원·안산 등에 위치합니다.",
+    "business_model": "주요 매출은 IT 디바이스 부문이 70.4%로 가장 큰 비중을 차지하며, 그 외에 자동차 부품 15.3%, 가전제품 ASS'Y 11.7%, 유통 및 서비스 1.8%, 금형 및 기타 0.8%로 구성되어 있습니다. IT 디바이스(휴대폰 ASS'Y 등)와 가전·자동차 부품의 조립·생산을 핵심으로 하되, 인탑스인베스트먼트를 통한 신기술사업금융·에너지 사업 등으로 수익 다각화를 추진하고 있습니다.",
+    "main_customers": "IT 디바이스 — 휴대폰·완제품 제조업체 / 가전제품 ASS'Y — 냉장고·세탁기 등 가전 제조업체 / 자동차 부품 — 완성차 제조업체 및 자동차 부품사 / 금형 및 기타 — 제조업체 및 신사업 수요처 / 유통 및 서비스 — 투자대상 기술기업(스마트공장 등), 에너지 수요자 및 임차인",
+    "price_factors": [
+      {
+        "factor": "글로벌수요",
+        "detail": "글로벌 경기 둔화 시 제품 소비 심리 위축으로 매출 감소(해외 수주 물량에도 영향)."
+      },
+      {
+        "factor": "가격경쟁",
+        "detail": "단가 경쟁 심화는 매출 단가 하락과 마진 악화로 연결될 수 있습니다."
+      },
+      {
+        "factor": "생산수율",
+        "detail": "해외사업장 수율 저하 시 원가 상승과 영업이익 감소에 직접적인 영향이 발생합니다."
+      },
+      {
+        "factor": "무역·관세",
+        "detail": "미국 관세 정책 등 무역 환경 변화는 주 고객사 생산량 및 수주에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 본사를 거점으로 한국, 중국, 베트남, 미국 등에 9개의 종속회사가 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "IT 디바이스: 416,007 (70.4%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "휴대폰 ASS'Y 부문은 주요 부품의 연구개발에서 공급망 관리까지 고객사와 상호 유기적 연관성이 필요합니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "이는 글로벌 경기 불확실성 증대에 따른 전반적인 제품 소비 심리 위축, 해외사업장 수주 물량 감소에 따른 영향입니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5150,
+    "completion_tokens": 3209,
+    "reasoning_tokens": 2368,
+    "output_tokens": 841
+  },
+  "warnings": []
+}

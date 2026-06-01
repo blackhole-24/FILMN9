@@ -1,0 +1,67 @@
+{
+  "stock_code": "048830",
+  "corp_name": "엔피케이",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 02:33",
+  "meta": {
+    "wics": "화학",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "엔피케이는 합성수지(플라스틱 컴파운드) 제조를 주력으로 하는 화학업체로, ABS·PP·PC·PE 등을 원재료로 한 다양한 기능성 컴파운드를 생산합니다. 제39기 연결 기준 매출액은 83,822백만원이며, 국내외 사업장 기준 약 30만톤의 생산능력을 보유하고 있습니다.",
+    "business_model": "핵심 사업은 합성수지사업으로, FY2025 기준 합성수지사업이 전체 영업수익의 92.7%를 차지합니다(합성수지사업: 77,712 (92.7%)). 주력 제품인 컴파운드는 범용 플라스틱 원료에 첨가제를 혼합해 전기·전자·자동차 부품용 등 다양한 물성을 구현하며, 임가공 원청사, 직판 및 대리점 경로로 국내외에 판매됩니다.",
+    "main_customers": "합성수지사업 — 전기·전자·자동차 부품 제조사 및 임가공 원청사/대리점",
+    "price_factors": [
+      {
+        "factor": "국제유가·환율",
+        "detail": "원자재(석유화학) 가격과 환율 변동이 원가 구조에 직접 영향을 주어 실적 변동성을 키울 수 있습니다."
+      },
+      {
+        "factor": "경기민감도",
+        "detail": "전방산업(전기·전자·자동차) 수요에 민감해 경기하강 시 판매량과 실적이 동반 하락할 수 있습니다."
+      },
+      {
+        "factor": "경쟁구도",
+        "detail": "국내에 다수의 컴파운드 업체가 존재하고 규모의 경제가 중요해 가격·수주 경쟁이 실적에 영향합니다."
+      },
+      {
+        "factor": "해외수요",
+        "detail": "동남아·중국·인도 등 해외 인프라 및 제조업 수요 변화가 수출과 생산가동에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 영업 현황",
+        "evidence_text": "회사 및 그 종속회사는 합성수지사업을 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 2. 주요 제품 및 서비스",
+        "evidence_text": "주요 생산 품목인컴파운드는 ABS, PP, PC, PE"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "합성수지사업: 77,712 (92.7%)"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "합성수지사업은 특히 국제유가, 환율 등 거시경제요인 등의 영향을 민감하게 받습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3926,
+    "completion_tokens": 3231,
+    "reasoning_tokens": 2496,
+    "output_tokens": 735
+  },
+  "warnings": []
+}

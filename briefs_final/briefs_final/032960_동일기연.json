@@ -1,0 +1,67 @@
+{
+  "stock_code": "032960",
+  "corp_name": "동일기연",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 23:48",
+  "meta": {
+    "wics": "전자장비와기기",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "동일기연은 EMI 필터 등 전자부품과 제전기·의료기기를 생산하는 전기·전자 업체로, 전자부품 사업부문과 산업용제품 사업부문으로 구성되어 있습니다. 2025년 연결기준 매출은 전기대비 약 10% 감소한 215억원을 기록했으며, 축적된 기술과 시장지배력을 바탕으로 소량 다품종 생산체계를 운영하고 있습니다.",
+    "business_model": "핵심 수익원은 전자부품(EMI필터 등, 전자파 잡음 제거)으로 전체 매출의 80.05%를 차지하며, 산업용·의료기(제전기·스마트카메라·의료기기 등)가 약 14.99%를 차지합니다. 그 밖에 상품 매출이 2.85%, 용역 및 임대 등 기타가 2.14%로 구성되어 있으며(사업부문별 매출 구성 기준), 전자제품 설계단계부터 참여해 맞춤형 소량 다품종 생산을 하는 점이 특징입니다.",
+    "main_customers": "전자부품 — 가전제품·자동차·기계장치 업체 / 산업용, 의료기 — 제조 공정 담당업체·의료시설",
+    "price_factors": [
+      {
+        "factor": "산업수요",
+        "detail": "EMI필터 수요는 정보·통신·가전 등 전자제품 시장 상황에 따라 변동하여 실적에 영향합니다."
+      },
+      {
+        "factor": "재고누적",
+        "detail": "전자제품의 재고 누적에 따른 수요감소는 매출 감소로 연결될 수 있습니다."
+      },
+      {
+        "factor": "신제품수주",
+        "detail": "2차전지 장비향 신규수주 및 HIFU 소자 등 신제품 판매는 실적 변동성을 완화할 수 있습니다."
+      },
+      {
+        "factor": "제품집중도",
+        "detail": "전자부품 비중(약 80%)이 높아 전자부품 시장 변동이 회사 실적에 큰 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 공시대상 사업부문의 구분",
+        "evidence_text": "전자부품 사업부문과 산업용제품 사업부문로 구성"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "전자부품 17,251(80.05)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 공시대상 사업부문의 구분",
+        "evidence_text": "가전제품, 자동차, 기계장치 등에 사용되는"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "매출액은 전기대비 약 10% 감소한 215억원"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3576,
+    "completion_tokens": 3933,
+    "reasoning_tokens": 3200,
+    "output_tokens": 733
+  },
+  "warnings": []
+}

@@ -1,0 +1,67 @@
+{
+  "stock_code": "069510",
+  "corp_name": "에스텍",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 05:12",
+  "meta": {
+    "wics": "전자장비와기기",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "에스텍은 스피커 및 스피커 관련 부품을 주로 생산·판매하는 전자장비 생산업체로, 차량용 스피커·TV용 스피커 등 음향기기를 핵심 제품으로 삼고 있습니다. 현재 베트남·중국 등을 포함한 세계 5개국에 설립된 6개의 완전자회사를 보유하며, 2025년 연결 기준 매출액 4,682억원, 당기순이익 416억원을 기록했습니다.",
+    "business_model": "사업부문별 매출은 CAR(차량용스피커)이 80.1%, TV용이 16.5%, AUDIO/기타 및 부품이 3.4%로 구성되어 있어 차량용 스피커 중심의 OEM(주문자상표부착생산) 공급이 주요 수익원입니다. TV용과 기타 부품은 대형 TV·가전 시장과 전자제품용 부품 수요에 연동된 매출을 창출합니다.",
+    "main_customers": "CAR — 자동차 제조사(OEM) / TV — 대형 TV 제조사(OEM) / AUDIO/기타 및 부품 — 전자기기 제조사(OEM)",
+    "price_factors": [
+      {
+        "factor": "수요(전장·TV)",
+        "detail": "OLED/QLED 등 프리미엄 TV 시장 확대와 친환경·커넥티드카 확산은 고성능 스피커 수요를 늘려 실적에 긍정적 영향을 줍니다."
+      },
+      {
+        "factor": "원자재 공급",
+        "detail": "자석·금속·제지·화학소재 등 다양한 원자재 의존도가 높아 원재료 가격·공급 불안은 원가와 실적에 직접적 영향을 미칩니다."
+      },
+      {
+        "factor": "글로벌 경기·무역",
+        "detail": "수출 중심 산업 특성상 해외 경기 둔화나 보호무역 강화 등 글로벌 환경 변화는 매출과 수익성에 민감한 요인입니다."
+      },
+      {
+        "factor": "경쟁 심화",
+        "detail": "중국·대만 등 경쟁업체(예: AAC, GGEC 등)와의 경쟁 심화는 가격·수주에 영향을 미쳐 실적 변동성을 키울 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 영업 현황",
+        "evidence_text": "당사는 각종 스피커 및 스피커 관련부품을 포함한 음향기기의 제조 및 판매를 목적으로 설립되었습니다."
+      },
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 영업 현황",
+        "evidence_text": "현재 베트남, 중국을 포함한 세계 5개국에 설립된 6개의 완전자회사를 소유하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[표] 가. 주요 제품 등의 현황",
+        "evidence_text": "375,454(80.1%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "[표] 가. 주요 제품 등의 현황",
+        "evidence_text": "OEM"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4506,
+    "completion_tokens": 3916,
+    "reasoning_tokens": 3136,
+    "output_tokens": 780
+  },
+  "warnings": []
+}

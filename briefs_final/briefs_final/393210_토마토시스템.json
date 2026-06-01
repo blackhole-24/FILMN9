@@ -1,0 +1,72 @@
+{
+  "stock_code": "393210",
+  "corp_name": "토마토시스템",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 18:44",
+  "meta": {
+    "wics": "IT서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "토마토시스템은 2000년 설립된 국내 IT/솔루션 전문기업으로, 대학 정보화 사업에서 독보적인 위치를 차지하고 있습니다. 국내 100여 곳 이상의 대학을 레퍼런스로 보유하고 있으며 공공·기업·금융·제조 등 다양한 분야에도 솔루션을 제공하고 있습니다.",
+    "business_model": "주요 수익은 솔루션 개발·도입과 유지보수(용역수입)에 집중되어 있으며, 자체 UI/UX 플랫폼(eXBuilder6) 등 제품군을 통해 소프트웨어(SW) 사업으로 비즈니스 축을 전환하고 있습니다. 사업부문별 FY2025 영업수익 구성은 솔루션진행매출 46.1%, 용역수입 40.7%, eXBuilder6 9.7%, eXERD 1.0%, eXPortal 1.0%, 기타 0.8%, 기타 매출 0.6%, 상품매출 0.1%입니다.",
+    "main_customers": "대학ERP(ERP) — 국내 대학(레퍼런스 100여 곳) / AI·SW 및 솔루션 — 공공기관·기업·금융·제조",
+    "price_factors": [
+      {
+        "factor": "학령인구 감소",
+        "detail": "학령인구 감소는 대학 재정 압박으로 대학 ERP 도입·교체 수요에 하방 압력을 줄 수 있습니다."
+      },
+      {
+        "factor": "대학 구조조정",
+        "detail": "정부의 정원감축·구조조정은 대학의 IT 투자 우선순위와 예산 배분에 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "기술 변화",
+        "detail": "AI·빅데이터 등 지능정보 기술 발전은 AI 융합형 제품에 대한 수요를 촉진할 수 있습니다."
+      },
+      {
+        "factor": "제품 성장",
+        "detail": "주력 제품인 eXBuilder6의 성장 여부는 제품 기반 매출 확대에 직접적인 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 사업 개황",
+        "evidence_text": "현재 국내 100여 곳 이상의 대학을 고객사로 두고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "솔루션진행매출: 12,570,180 (46.1%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "eXBuilder6의 폭발적인 성장을 바탕으로 매출 증대를 기대하고 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "당사는 대학 정보화 사업 분야에서 독보적인 위치를 차지하고 있으며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나. 시장 현황",
+        "evidence_text": "① 저출산 고령화 사회, 학령인구의 감소"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5788,
+    "completion_tokens": 4871,
+    "reasoning_tokens": 4096,
+    "output_tokens": 775
+  },
+  "warnings": []
+}

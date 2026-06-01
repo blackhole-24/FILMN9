@@ -1,0 +1,67 @@
+{
+  "stock_code": "060980",
+  "corp_name": "HL홀딩스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 04:05",
+  "meta": {
+    "wics": "자동차부품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "HL홀딩스는 2014년 인적분할로 지주회사로 전환한 사업지주회사로, 자회사 지분 보유를 통해 배당수익과 상표권 수익을 확보하고 자동차부품 유통 및 물류서비스를 주로 영위하고 있습니다. 한라마이스터 흡수합병 이후 사업지주회사로서 유통·물류와 지주 역할을 병행하고 있습니다.",
+    "business_model": "FY2025 기준 사업부문별 영업수익은 상품 67.0%, 제품 4.0%, 기타 29.0%로 구성되어 있으며(상품·제품·기타 비중 명시), 핵심 수익원은 자동차부품 유통·물류(상품 매출), 지분법이익(자회사 배당) 및 상표권 사용수익(상표권 수수료)과 3PL(제3자 물류) 등 부가 물류서비스입니다.",
+    "main_customers": "유통·물류(상품) — 부품대리점·대량소비자·정비업체·부품 도·소매상 / 지주부문 — 자회사·기타투자회사(상표권 사용·배당 수익 제공 주체)",
+    "price_factors": [
+      {
+        "factor": "경기민감도",
+        "detail": "자동차 산업 경기 흐름에 따라 부품 수요가 변동하여 매출·실적에 직접 영향을 미칩니다."
+      },
+      {
+        "factor": "주요매출처",
+        "detail": "글로벌 완성차(예: 현대자동차그룹)와의 거래 관계가 안정적 매출처 역할을 하므로 해당 업체의 생산·판매 변동이 실적에 영향합니다."
+      },
+      {
+        "factor": "환율변동",
+        "detail": "미화(USD) 등 환율 변동은 수입·수출 및 외화표시 자산·부채에 영향을 주어 실적 변동 요인이 됩니다."
+      },
+      {
+        "factor": "지분법·상표수익",
+        "detail": "지분법이익 및 상표권 수수료 비중이 있어 계열사 실적과 상표권 활용 상태가 회사 영업수익에 직결됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "지주회사로 전환하였습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "상품: 893,203 (67.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "전국 30여개의 유통 네트워크를 통하여 안정적으로 공급 판매하고 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "부품대리점, 대량소비자, 정비업체, 기타 부품 도소매상 등에게"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4933,
+    "completion_tokens": 4605,
+    "reasoning_tokens": 3840,
+    "output_tokens": 765
+  },
+  "warnings": []
+}

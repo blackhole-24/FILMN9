@@ -1,0 +1,71 @@
+{
+  "stock_code": "088280",
+  "corp_name": "쏘닉스",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:13",
+  "meta": {
+    "wics": "핸드셋",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "쏘닉스는 2000년 10월 현 대표이사가 설립한 RF(무선주파수) 부품 회사로, 초기에는 SAW(표면탄성파) 필터의 설계·생산·판매로 출발했습니다. 이후 5G 스마트폰 확산과 함께 RF 프론트 엔드모듈용 필터 파운드리(위탁생산) 전문회사로 사업구조를 전환했으며, 현재는 RF 필터 파운드리와 산업용 무선통신기기용 필터를 중심으로 사업을 이어가고 있습니다.",
+    "business_model": "회사의 핵심 사업은 파운드리(위탁생산)와 필터 제품 사업이며, FY2025 기준 사업부문별 영업수익은 제품매출 96.0%, 기타매출 4.0%로 구성됩니다. 파운드리 사업은 4인치 LT(리튬탄탈레이트) 웨이퍼를 기반으로 고객사 주문형 설계 또는 자체 설계에 따라 RF 필터, 듀플렉서, DiFEM(필터·스위치 결합 모듈)용 칩을 제공하는 구조입니다. 또한 TF-SAW(박막 표면탄성파) 기술을 바탕으로 통신반도체 팹리스(반도체 설계 전문회사) 고객사와 협업하며 성장하고 있습니다.",
+    "main_customers": "파운드리 — 미국 및 중화권 통신반도체 팹리스 거래선 / 필터제품 — 산업용 무선통신기기 수요처 / 파운드리 — 스마트폰용 RF 필터·모듈 제조 관련 고객사",
+    "price_factors": [
+      {
+        "factor": "스마트폰수요",
+        "detail": "스마트폰 전방시장의 업황이 좋아지면 RF 필터와 파운드리 수요가 늘어 실적에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "5G확산",
+        "detail": "5G에서는 기기당 RF 필터 채용량이 늘어나기 때문에 5G 스마트폰 확대가 회사 사업 기회와 연결됩니다."
+      },
+      {
+        "factor": "고객관계",
+        "detail": "파운드리는 고객사와의 설계-제조 협업이 중요해 기존 거래선 유지와 신규 고객 확보가 실적 변동에 큰 영향을 줍니다."
+      },
+      {
+        "factor": "설비투자",
+        "detail": "선제적 시설투자와 생산라인 증설은 향후 수요 대응에 도움이 되지만, 단기적으로는 비용 증가와 손실 확대 요인이 될 수 있습니다."
+      },
+      {
+        "factor": "해외수주",
+        "detail": "중국 반도체 수주 증가나 미국 양산 파운드리 확대는 매출 성장에 영향을 주는 핵심 변수입니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "현 대표이사가 2000년 10월에 설립하여"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "제품매출: 12,335 (96.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "미국 및 중화권의 20여개 이상의 통신반도체 팹리스 거래선들"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "다. 시장여건 및 영업의 개황",
+        "evidence_text": "5G 시스템의 경우 최소 60개로 증가하고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4845,
+    "completion_tokens": 899,
+    "reasoning_tokens": 0,
+    "output_tokens": 899
+  },
+  "warnings": []
+}

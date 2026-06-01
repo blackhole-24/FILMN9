@@ -1,0 +1,66 @@
+{
+  "stock_code": "008060",
+  "corp_name": "대덕",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 20:00",
+  "meta": {
+    "wics": "전자장비와기기",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "대덕은 자회사의 주식 또는 지분을 취득·소유해 경영을 지배·지도하는 순수지주회사로, 대덕전자(주), (주)와이솔, 엔알랩(주) 등 3개 국내 자회사를 보유하고 있습니다. 연결기준으로는 PCB·RF 사업을 주요 계열사를 통해 영위하며 2025년 연결 매출은 1조 3,850억원 수준입니다.",
+    "business_model": "주수입원은 자회사로부터 받는 배당수익과 경영자문료, 브랜드(상표권) 사용수익이며, 별도 기준 매출품목별 비중은 배당수익 63%, 경영자문료 19%, 브랜드로열티 18%입니다. 연결 기준으로는 PCB사업(인쇄회로기판)이 72%, RF사업(SAW Filter·RF module)이 21%, 기타사업이 7%로 계열사 제품판매가 실적의 핵심입니다.",
+    "main_customers": "PCB사업 — 반도체·전자기기·정보통신 제조업체 / RF사업 — 휴대폰 제조사 및 RF 모듈 수요처 / 기타사업(지주) — 자회사(배당·경영자문·상표권 사용계약 상대)",
+    "price_factors": [
+      {
+        "factor": "반도체 수요",
+        "detail": "PCB사업(반도체 Package용 substrate 등)이 반도체 시장 수요 회복에 민감해 반도체 수요 변동이 실적에 직접 영향합니다."
+      },
+      {
+        "factor": "무선단말 수요",
+        "detail": "와이솔의 SAW Filter·RF 모듈은 휴대폰·통신 단말 수요에 연동되어 이동통신 세대 전환(예: 5G)과 단말 출하량이 실적에 영향합니다."
+      },
+      {
+        "factor": "대외정책·지정학",
+        "detail": "미국의 관세정책·지역 분쟁 등 대외 불확실성 및 보호무역 기조는 공급망과 수요에 영향을 주어 연결실적 변동요인이 됩니다."
+      },
+      {
+        "factor": "배당정책",
+        "detail": "지주회사는 별도 매출에서 배당수익 비중(63%)이 크므로 자회사 배당 수준과 정책 변화가 당사 실적에 중요한 요인입니다."
+      },
+      {
+        "factor": "품질인증",
+        "detail": "차량 전장용 부품 확대와 관련해 IATF16949 등 품질경쟁력 확보가 사업확대 및 매출처 확보에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 > 영업 현황",
+        "evidence_text": "대덕전자(주), (주)와이솔, 엔알랩(주) 총 3개의 국내 자회사를 보유하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 > 영업 현황",
+        "evidence_text": "매출품목별 매출비중은 배당수익 63%, 경영자문료 19%, 브랜드로열티 18% 입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 > 영업 현황",
+        "evidence_text": "사업부문별 매출비중은 PCB사업 72%, RF사업 21%, 기타사업 7% 입니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4270,
+    "completion_tokens": 3924,
+    "reasoning_tokens": 3072,
+    "output_tokens": 852
+  },
+  "warnings": []
+}

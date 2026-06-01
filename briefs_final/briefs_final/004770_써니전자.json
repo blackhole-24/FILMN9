@@ -1,0 +1,76 @@
+{
+  "stock_code": "004770",
+  "corp_name": "써니전자",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 09:43",
+  "meta": {
+    "wics": "전자장비와기기",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "써니전자는 수정진동자 및 응용제품 등 정밀공업용제품을 제조·판매하는 전자부품 기업입니다. 사업부문은 수정진동자사업부문 단일로 운영되며, 본사는 충주공장에 생산 기반을 두고 있습니다. 주요 원·부자재는 수입 비중이 높고, 특히 대일 의존도가 70~90% 수준입니다.",
+    "business_model": "써니전자는 수정진동자사업부가 매출의 41.1%를 차지하고, 해외 부문이 58.9%를 차지하는 구조입니다. 수정진동자는 주파수를 발생시키거나 특정 주파수 대역의 신호를 걸러주는 핵심 부품으로, 전자제품에 들어가는 정밀 부품 수요에 따라 실적이 영향을 받습니다. 당기 매출은 수출 73억, 내수 51억으로 구성되었습니다.",
+    "main_customers": "수정진동자 사업부 — 삼성전자, 엘지전자 등 국내 주요 세트업체 / 해외 — 각 고객사의 해외 생산공장 및 수출 대상 거래처",
+    "price_factors": [
+      {
+        "factor": "스마트기기",
+        "detail": "스마트폰, 태블릿, 노트북 보급이 늘면 수정진동자와 수정발진기 수요가 커져 실적에 영향을 줍니다."
+      },
+      {
+        "factor": "5G확산",
+        "detail": "5G 기지국과 소형 기지국, CPE(가정용 단말 장비) 확대는 고급 수정진동자·수정발진기 수요를 늘릴 수 있습니다."
+      },
+      {
+        "factor": "저가공세",
+        "detail": "중국, 동남아, 일본 업체의 저가공세와 국내 세트업체의 단가인하 압력은 판매단가 하락으로 이어질 수 있습니다."
+      },
+      {
+        "factor": "원부자재",
+        "detail": "원석과 I.C(집적회로) 등 주요 원·부자재를 수입에 의존해 조달하므로 공급 여건이 실적에 영향을 줍니다."
+      },
+      {
+        "factor": "산업경기",
+        "detail": "전자통신 및 반도체 제품 제조 산업의 경기 흐름이 수정진동자 산업 매출에 직접적인 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 수정진동자 및 응용제품 등 정밀공업용제품을 제조 및 매입ㆍ판매하고 있습니다."
+      },
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "회사의 사업부문은 수정진동자사업부문 단일의 사업부문입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "수정진동자 사업부: 5,078 (41.1%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "해외: 7,283 (58.9%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "주요 고객은 삼성전자, 엘지전자 등 국내 주요 세트업체"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4294,
+    "completion_tokens": 854,
+    "reasoning_tokens": 0,
+    "output_tokens": 854
+  },
+  "warnings": []
+}

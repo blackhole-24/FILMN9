@@ -1,0 +1,76 @@
+{
+  "stock_code": "322780",
+  "corp_name": "코퍼스코리아",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 16:32",
+  "meta": {
+    "wics": "방송과엔터테인먼트",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "코퍼스코리아는 2005년 7월 설립된 콘텐츠 배급 및 제작 전문기업으로, 연결회사는 배급사업과 제작사업 등 2개 사업부 체제로 운영됩니다. 일본 시장 및 글로벌 OTT를 대상으로 한 해외 배급을 주력으로 하며, 2022년 김종학프로덕션 인수와 2024년 4분기 ㈜하이퍼에픽 설립 등으로 제작역량과 숏폼 사업 영역을 확장하고 있습니다.",
+    "business_model": "FY2025 기준 사업부문별 영업수익 구성은 배급 35.0%, 제작 64.4%, 기타 0.6%로 제작부문이 매출의 대부분을 차지합니다. 배급사업은 확보한 라이선스를 자체적으로 커스터마이징(영상·음향·자막 등)해 일본의 방송사·DVD유통사·OTT·인터넷 플랫폼에 공급하고, 제작사업은 드라마·웹툰·웹소설 등 다양한 장르의 기획·제작과 글로벌 공동제작(예: 넷플릭스 오리지널 공동 제작)을 통해 수익을 창출합니다.",
+    "main_customers": "배급 — 일본의 주요 방송사·DVD유통사·OTT 및 인터넷 플랫폼 사업자 / 제작 — 방송사·글로벌 OTT(넷플릭스 등)",
+    "price_factors": [
+      {
+        "factor": "콘텐츠 퀄리티",
+        "detail": "창의성과 품질 완성도가 수익성과 직결되어, 퀄리티 저하는 배급·시청 수요 감소로 이어질 수 있습니다."
+      },
+      {
+        "factor": "플랫폼 경쟁",
+        "detail": "플랫폼 중심 경쟁 심화와 편성 축소는 배급·제작 수요와 수익성에 압박을 줄 수 있습니다."
+      },
+      {
+        "factor": "해외 수요",
+        "detail": "일본 시장과 글로벌 OTT의 콘텐츠 수요 변화는 배급 매출에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "제작비 부담",
+        "detail": "제작비 부담 증가는 수익성 악화 요인이며, 비용 구조 개선 노력이 실적에 중요한 변수입니다."
+      },
+      {
+        "factor": "저작권 계약",
+        "detail": "저작권자와 사용권 계약의 조건·비밀성은 콘텐츠 확보와 배급에 영향을 미칠 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 2005년 7월 설립한 콘텐츠 배급 및 제작 전문기업입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "배급: 11,521,823 (35.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "제작: 21,181,810 (64.4%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "일본의 주요 방송사, DVD유통사, OTT 및 인터넷 플랫폼 사업자"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나. 사업부문의 시장상황 및 영업의 개황",
+        "evidence_text": "콘텐츠 산업은 지난 몇 십 년 동안 꾸준한 성장을 거듭해왔습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4741,
+    "completion_tokens": 4445,
+    "reasoning_tokens": 3584,
+    "output_tokens": 861
+  },
+  "warnings": []
+}

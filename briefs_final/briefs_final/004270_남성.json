@@ -1,0 +1,67 @@
+{
+  "stock_code": "004270",
+  "corp_name": "남성",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 12:32",
+  "meta": {
+    "wics": "전자장비와기기",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "남성은 1965년 설립된 전자·전장 제품 수출 기업으로, 디지털 오디오·비디오 제품과 자동차 관련 전장품을 미국·캐나다 등에 수출하고 있습니다. Namsung America, Inc.(지분 99.77%)와 (주)남성 에이엠디(지분 100%) 등 종속기업을 보유하며 부동산 임대(자산관리) 사업도 병행하고 있습니다.",
+    "business_model": "핵심 수익원은 디지털전자사업으로 2025년 연간 매출의 92.7%를 차지하고 자산관리(부동산 임대)사업이 7.3%를 차지합니다. 제품별로는 DIGITAL SPEAKER/AMP(18.5%), GPS 수신기·SMART KEY 외(4.9%), ACC'Y SPARE PARTS 외(2.4%) 등으로 매출이 구성되어 있으며, 해외 유통업체(미국 중심)를 통해 수출하는 구조입니다.",
+    "main_customers": "디지털전자사업부문 — 미국·캐나다 등 해외 유통업체(예: Wal-Mart, Amazone, Autozone 등) / 자산관리사업부문 — 부동산 임대 관련 고객(임차인 등)",
+    "price_factors": [
+      {
+        "factor": "수출지역수요",
+        "detail": "아세안·북미·유럽 등 지역별 수요 변화가 매출 변동으로 직결되어 실적에 큰 영향을 미칩니다."
+      },
+      {
+        "factor": "무역·지정학",
+        "detail": "무역 불확실성과 지정학적 긴장은 수출환경을 악화시켜 매출 성장률을 제약할 수 있습니다."
+      },
+      {
+        "factor": "규제(환경)",
+        "detail": "RoHS·WEEE 등 환경규제 강화는 제품 설계·원가에 영향을 주어 수익성에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "제품경쟁력",
+        "detail": "경쟁사 신제품 출시와 자사 신제품 채택 여부가 평균판매단가와 점유율에 직접적인 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "지배기업 (주)남성은 1965년 6월 10일 설립되었으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "디지털전자사업부문이 92.7%이며 자산관리사업부문이 7.3%입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "DIGITAL SPEAKER/AMP: 14,326,091 (18.5%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "디지털전자사업부문의 주요 바이어로는 Wal-Mart, Amazone,"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4889,
+    "completion_tokens": 4227,
+    "reasoning_tokens": 3456,
+    "output_tokens": 771
+  },
+  "warnings": []
+}

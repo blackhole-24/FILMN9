@@ -1,0 +1,67 @@
+{
+  "stock_code": "474610",
+  "corp_name": "RF시스템즈",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 20:38",
+  "meta": {
+    "wics": "우주항공과국방",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "RF시스템즈는 딥 브레이징(Deep Brazing) 등 금속 특수접합 기술과 방산 무기체계 설계 역량을 바탕으로 레이다·안테나·환경제어 시스템을 개발·공급하는 방산 전문기업입니다. LIG넥스원 등 다수의 방산기업에 부품과 시스템을 제공하며 민수(원자현미경 등) 분야로 사업 영역을 확장하고 있습니다.",
+    "business_model": "핵심 사업은 레이다시스템, 안테나시스템, 환경제어시스템 등 방산(제품)과 민수(원자현미경 등)이며, 2025년 매출 비중은 안테나시스템 약 39.7%, 레이다시스템 약 33.9%, 환경제어시스템 약 12.0%, 민수(제품) 약 11.5%입니다. 상품매출과 기타는 각각 약 0.01%, 약 2.9%를 차지하며, 딥 브레이징 등 정밀접합 기술과 전공정 품질관리(설계·생산·시험·검사)가 수익 기반입니다.",
+    "main_customers": "방산(레이다·안테나·환경제어) — 방산체계종합업체 및 방산기업(예: LIG넥스원) / 민수(원자현미경 등) — 원자현미경 제조사 및 연구·산업 분야 고객(P사 등)",
+    "price_factors": [
+      {
+        "factor": "국방예산·정책",
+        "detail": "국방정책과 방위력개선비 변동에 따라 수요가 직접 변동되어 실적에 영향."
+      },
+      {
+        "factor": "국제정세(군비경쟁)",
+        "detail": "글로벌 군비 증가와 지정학적 리스크 확대는 방산 수요 증대로 연결될 가능성이 있음."
+      },
+      {
+        "factor": "수출규제·승인",
+        "detail": "방산제품은 수출 시 정부의 승인·규제가 필요해 해외매출과 수출시점에 제약이 발생할 수 있음."
+      },
+      {
+        "factor": "부품 국산화 정책",
+        "detail": "정부의 부품 국산화 요구와 군 요구사항(품질·기밀)에 부합하면 수주 기회와 경쟁력이 개선됨."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "LIG넥스원을 비롯하여 다수의 방산기업에 공급하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "소 계 | 37,079 | 28,494 | 29,823"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "원자현미경의 대표기업인 P사에 2002년도부터 원자현미경 부품을 납품하며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황 (법률/규정 등)",
+        "evidence_text": "방산제품은 정부 수출규제 품목"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 6051,
+    "completion_tokens": 5485,
+    "reasoning_tokens": 4672,
+    "output_tokens": 813
+  },
+  "warnings": []
+}

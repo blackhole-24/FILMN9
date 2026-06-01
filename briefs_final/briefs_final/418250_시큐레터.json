@@ -1,0 +1,62 @@
+{
+  "stock_code": "418250",
+  "corp_name": "시큐레터",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 19:15",
+  "meta": {
+    "wics": "소프트웨어",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "시큐레터는 2015년 9월 설립된 보안 소프트웨어 전문 기업으로, 독자 개발한 리버스 엔지니어링 기반의 보안 위협 진단 플랫폼을 보유하고 있습니다. MARS(Malware Analysis Reengineering System) 플랫폼을 기반으로 이메일·파일·문서 무해화 등 기업 환경의 다양한 채널에서 유입되는 위협을 탐지·차단하는 제품과 서비스를 제공합니다.",
+    "business_model": "사업부문별 영업수익 구성(FY2025)은 상품 29.9%, 제품 39.0%, 용역 31.2%로 나타납니다. 핵심 수익원은 MARS 플랫폼 기반의 이메일 보안, 파일 보안, 콘텐츠 무해화(CDR) 솔루션과 클라우드 지원 보안 서비스이며, 어플라이언스는 옵션별 가격 책정, 클라우드 서비스는 종량제 과금 구조를 통해 판매됩니다.",
+    "main_customers": "이메일 보안사업 — 공공·금융·기업 / 망간 자료전송·파일 보안사업 — 공공·금융·기업 / 클라우드 지원 보안·CDR 사업 — 공공·금융·기업",
+    "price_factors": [
+      {
+        "factor": "법규·규제 의무화",
+        "detail": "정보보호 관련 법·지침으로 공공·금융기관의 보안 예산과 도입 의무화가 수요를 견조하게 만듭니다."
+      },
+      {
+        "factor": "Unknown-Detection 확장",
+        "detail": "Unknown-Detection(알려지지 않은 위협)과 XDR 전환 추세는 MARS 기반 탐지 기술 수요를 증가시킵니다."
+      },
+      {
+        "factor": "계절성(연말 집중)",
+        "detail": "보안 예산 배정 특성상 사업계획 확정 이후 연말에 매출이 집중되어 분기별 실적 변동성이 발생합니다."
+      },
+      {
+        "factor": "클라우드·원격 근무 확산",
+        "detail": "클라우드 생태계 확산 및 원격근무 확대는 클라우드 지원 보안과 파일 무해화 수요를 촉진합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 사업의 내용 요약",
+        "evidence_text": "당사는 2015년 9월 설립된 보안 소프트웨어 전문 기업으로"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "제품: 101,391 (39.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "나. 산업관련 법령 및 정부규제 사항",
+        "evidence_text": "공공, 금융, 기업을 대상으로 공급하고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4399,
+    "completion_tokens": 4598,
+    "reasoning_tokens": 3904,
+    "output_tokens": 694
+  },
+  "warnings": []
+}

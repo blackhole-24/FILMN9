@@ -1,0 +1,92 @@
+{
+  "stock_code": "032790",
+  "corp_name": "엠젠솔루션",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 13:23",
+  "meta": {
+    "wics": "컴퓨터와주변기기",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "엠젠솔루션은 1973년 9월 21일 전자부품(고주파 코일·트랜스포머) 제조를 목적으로 설립되었으며, 1997년 6월 26일 코스닥시장에 상장되었습니다. 이후 다수의 합병을 통해 사업영역을 확장하여 현재 ICT, 전기전자, BIO 등으로 구성된 다각적 사업구조를 갖추고 있습니다.",
+    "business_model": "FY2025 기준 사업부문별 영업수익은 금액 19,261(98.8%), BIO 부문 341(1.2%)로 구성되어 있습니다. 핵심 사업은 ICT사업(광대역통합망(BcN), AI 영상분석, 홈IoT, 소방전기 등)을 통한 시스템 설치·유지보수 및 솔루션 납품과, 전기전자부문을 통한 트랜스·인덕터 등 부품 생산·납품이며, BIO는 조직공학연구소를 통한 첨단의료기기 개발을 진행하고 있습니다.",
+    "main_customers": "ICT사업 — 공공기관(방범 관제 시스템 발주) 및 직방(구.삼성SDS) / 전기전자사업 — 글로벌 가전 회사들 / BIO — 연구개발 중심(구체적 거래처 미기재)",
+    "price_factors": [
+      {
+        "factor": "공공수주",
+        "detail": "공공기관 방범 관제 시스템 공사 수주에 따라 ICT사업 실적 변동이 발생할 수 있습니다."
+      },
+      {
+        "factor": "기술보유",
+        "detail": "인공지능 CCTV 영상관제·광전송통신망 관련 특허 및 기술 보유는 수주 경쟁력과 사업확대에 영향을 줍니다."
+      },
+      {
+        "factor": "주요거래처",
+        "detail": "홈IoT의 경우 직방(구.삼성SDS)과의 거래관계가 있어 해당 고객 발주에 따른 실적 영향이 큽니다."
+      },
+      {
+        "factor": "화재감지수요",
+        "detail": "전기차충전소·물류센터 등 고위험 시설 중심의 AI 기반 화재감지 수요가 소방전기 사업 확대와 연동됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "1997년 6월 26일에 코스닥시장에 상장되었습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "현재 당사가 영위하고 있는 사업은 크게 ICT사업, 전기전자사업, BIO 사업을 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "금액: 19,261 (98.8%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "BIO 부문: 341 (1.2%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "공공기관의 방범 관제 시스템 공사를 수주하고 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "직방(구.삼성SDS)를 주 거래처로 하여"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "글로벌 가전 회사들에 납품하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "특화된 인공지능 CCTV 영상관제 기술, 광전송통신망/인공지능 관련 특허 및 기술을 다수 보유하고있어"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "AI 화재탐지 및 자동진압 시스템"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4975,
+    "completion_tokens": 4434,
+    "reasoning_tokens": 3392,
+    "output_tokens": 1042
+  },
+  "warnings": []
+}

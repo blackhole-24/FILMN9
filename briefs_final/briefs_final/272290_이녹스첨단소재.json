@@ -1,0 +1,71 @@
+{
+  "stock_code": "272290",
+  "corp_name": "이녹스첨단소재",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 14:38",
+  "meta": {
+    "wics": "디스플레이장비및부품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "이녹스첨단소재는 고분자 합성·배합 기술을 바탕으로 반도체 패키지·회로기판·디스플레이 OLED 등 IT 소재를 개발·제조하는 전문 소부장(소재·부품·장비) 기업입니다. 한국·중국·베트남에 생산법인을 두고 수출을 주력으로 하며(해외 매출 비중 91.5%), Full 생산 기준 약 7,760만㎡의 생산능력을 보유하고 있습니다.",
+    "business_model": "주요 매출은 디스플레이 OLED 소재가 중심으로, 사업부문별 구성은 IT소재 8.3%, 디스플레이 OLED 소재 66.3%, 회로기판 소재 25.4%로 이루어져 있습니다. OLED 소재(INNOLED)는 핵심 캐시카우 역할을 하며, 반도체 패키지 소재(INNOSEM)와 회로기판 소재가 보완적 수익원을 제공합니다.",
+    "main_customers": "반도체 패키지 소재 — 글로벌 반도체 제조사 / 디스플레이 OLED 소재 — 디스플레이 제조사 / 회로기판 소재 — 회로기판 제조사",
+    "price_factors": [
+      {
+        "factor": "고객집중도",
+        "detail": "상위 10개 고객사 매출 비중이 약 80%로 높은 집중도는 특정 고객사 수요 변동 시 실적 변동성을 키울 수 있습니다."
+      },
+      {
+        "factor": "해외매출·환율",
+        "detail": "해외 매출 비중이 91.5%에 달해 환율 변동이 매출 및 이익에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "원재료 가격",
+        "detail": "PI필름·PET 등 특수필름 및 접착제 원재료 가격 변동은 제품 원가와 마진에 영향을 줍니다."
+      },
+      {
+        "factor": "기술경쟁/국산화",
+        "detail": "반도체·기판 소재는 고도화된 기술 경쟁이 핵심이며, 일본 기업 독점 분야의 국산화 진전은 사업 기회와 경쟁구도 변화를 초래합니다."
+      },
+      {
+        "factor": "OLED 평균판매가",
+        "detail": "OLED 소재의 평균 판매가격이 전년 대비 하락(약 10% 초반)해 해당 부문 수익성에 직접적인 영향이 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 수출을 주력으로 하는 기업으로서 2025년 연간 누적 해외 매출 비중은 91.5% 입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "디스플레이 OLED 소재: 291,464 (66.3%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "상위 10개 고객사향 매출이 전체 매출의 약 80%를 차지하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "원재료 가격은 시장의 수급 상황, 당사의 구매 물량 변화에 따라 변동될 수 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5166,
+    "completion_tokens": 4365,
+    "reasoning_tokens": 3520,
+    "output_tokens": 845
+  },
+  "warnings": []
+}

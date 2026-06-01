@@ -1,0 +1,72 @@
+{
+  "stock_code": "004720",
+  "corp_name": "팜젠사이언스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 18:53",
+  "meta": {
+    "wics": "제약",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "팜젠사이언스는 신약개발과 기존 의약품의 개량(품질 개선)을 중심으로 제약사업을 영위하는 국내 제약기업입니다. 회사는 2025년 제약사업 매출 1,654억원을 기록했으며, 같은 해 재무제표 기준 총매출은 1,731억원이었습니다.",
+    "business_model": "사업보고서의 사업부문별 영업수익 구성(FY2025)에 따르면 제약사업은 영업수익의 6.3%를 차지합니다. 핵심 수익원은 신약개발, 퍼스트 제네릭(우선판매품목허가 제품) 및 개량신약 개발을 통한 의약품 판매이며, 그 외 건강기능식품·뷰티 중심의 헬스케어사업과 보유 부동산 임대업을 통해 수익을 창출합니다. (헬스케어 2025년 매출 65억원, 회사 전체 매출 1,731억원 근거 포함)",
+    "main_customers": "제약사업 — 병의원·원외처방을 통한 의료기관·처방의사 / 헬스케어 — 건강기능식품·뷰티 소비자 및 유통채널 / 기타(임대) — 건물 임차인",
+    "price_factors": [
+      {
+        "factor": "약가인하",
+        "detail": "지속적인 약가 인하 정책은 제품의 판매가격과 마진에 직접적인 하방 압력이 되어 실적에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "제네릭경쟁",
+        "detail": "동일 성분 다수 품목 경쟁 구조로 인해 가격 및 영업 경쟁이 치열해져 수익성에 부담을 줄 수 있습니다."
+      },
+      {
+        "factor": "R&D성과",
+        "detail": "신약 개발과 개량신약(First Generic) 등의 성공 여부가 중장기 성장과 매출 확대를 좌우합니다."
+      },
+      {
+        "factor": "시장성장",
+        "detail": "고령화 및 의약품 시장의 꾸준한 성장(예: 의약품 시장 규모 약 30.6조원)은 수요 측면에서 우호적입니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 > 가. 제약사업",
+        "evidence_text": "2025년 매출 1,654억원을 달성하였습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "제약사업: 10,814 (6.3%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "MD&A",
+        "evidence_text": "병의원 부문 점유율 1위"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 > 1. 업계의 현황 > 나. 산업의 성장성",
+        "evidence_text": "의약품 시장 규모가 약 30.6조"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 > 1. 업계의 현황 > 다. 경기변동의 특성",
+        "evidence_text": "지속적인 약가 인하 시행"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4894,
+    "completion_tokens": 3812,
+    "reasoning_tokens": 3008,
+    "output_tokens": 804
+  },
+  "warnings": []
+}

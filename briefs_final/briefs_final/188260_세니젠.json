@@ -1,0 +1,62 @@
+{
+  "stock_code": "188260",
+  "corp_name": "세니젠",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 11:11",
+  "meta": {
+    "wics": "건강관리장비와용품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "세니젠은 2005년 09월 28일 설립된 식품안전 전문 기업으로, PCR(유전자 증폭 기술)과 NGS(차세대 염기서열 분석) 등 분자진단 및 유전체분석 기술을 핵심으로 식품 제조업체에 식품안전 토탈솔루션을 제공하고 있습니다. 2023년 합병을 통해 코스닥시장에 상장하며 조직과 내부통제를 정비했습니다.",
+    "business_model": "사업부문별 영업수익은 제품(9.6%), 미생물배양(5.0%), 살균(6.2%), 용역(7.5%), 기타(0.1%), 상품(71.7%)으로 구성되어 상품 매출 비중이 큽니다. 핵심 수익원은 Real-time PCR 및 NGS 기반의 진단제품(예: Genelix, GeNext)과 식품안전 분석서비스(Geneka)이며, 유전자마커 발굴 플랫폼(HBI Core Platform)을 통해 진단 정확도(민감도·특이도)를 높여 식품안전 전주기 제품·서비스를 제공합니다.",
+    "main_customers": "제품 — 국내·외 식품 제조업체 및 식품안전 담당자 / 미생물배양 — 식품 제조업체·시험실 / 살균 — 식품 제조업체(살균제 수요처) / 용역 — 식품업체의 분석·검사 의뢰처 / 상품 — 유통·식품 제조업체",
+    "price_factors": [
+      {
+        "factor": "상품매출 집중",
+        "detail": "상품 매출 비중이 71.7%로 높은 만큼 상품 판매 변동이 실적에 큰 영향을 미칩니다."
+      },
+      {
+        "factor": "식품안전 인식",
+        "detail": "보고서에 따르면 식품 안전에 대한 인식 강화 시 매출 증가가 나타나며 수요에 직결됩니다."
+      },
+      {
+        "factor": "진단정확도(위양성)",
+        "detail": "시장에 공급된 기존 제품들의 위양성 문제와 자사 HBI 플랫폼의 정확도 개선 여부가 수요와 경쟁력에 영향을 줍니다."
+      },
+      {
+        "factor": "정책·시장 성장",
+        "detail": "정부의 식품산업 육성 기조에 따라 전반적 시장 규모 확대가 실적의 기회 또는 환경 요인이 됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 사업의 개요",
+        "evidence_text": "당사는 2005년 09월 28일 설립되었으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "상품: 11,005 (71.7%)"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "식품 안전에 대한 인식 강화로 매출이 증가하였으며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 6565,
+    "completion_tokens": 4523,
+    "reasoning_tokens": 3776,
+    "output_tokens": 747
+  },
+  "warnings": []
+}

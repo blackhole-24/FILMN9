@@ -1,0 +1,62 @@
+{
+  "stock_code": "260930",
+  "corp_name": "씨티케이",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 14:06",
+  "meta": {
+    "wics": "화장품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "씨티케이는 제품 기획에서 생산·마케팅·물류에 이르는 전 과정을 통합 지원하는 화장품 플랫폼 기업으로, 풀 턴키(Full-Turnkey) 방식의 서비스와 무공장(Fabless) 사업모델을 기반으로 운영됩니다. 2021년 디지털 뷰티 플랫폼 CTKCLIP을 론칭해 온라인 기반 고객 접점을 확대했으며, 2025년에는 북미 OTC(일반의약품) 대응을 위해 미국 내 FDA 등록 OTC 제조시설을 확보했습니다.",
+    "business_model": "주요 매출은 CTKCLIP 사업부(제품 기획·브랜딩·R&D·물류·유통)가 중심으로, 연결 기준 순매출의 약 94.5%를 차지하며(CTKCLIP 94.5%, 친환경 1.2%, 기타 4.3%), CTKCLIP을 통해 글로벌·인디 브랜드 등의 맞춤형 OEM/ODM 서비스를 제공합니다. 친환경 사업부는 생분해성 원료 연구개발을 담당하고, 기타 부문은 연결 종속법인 등으로 구성되어 그룹 차원의 밸류체인 연계를 지원합니다.",
+    "main_customers": "CTKCLIP 사업부 — 글로벌 화장품 브랜드, 인디 브랜드 및 스타트업 / 친환경 사업부 — 생분해성 소재 연구개발 관련 그룹·연구 기능(내부 중심) / 기타 — 기타 사업부 및 연결 종속법인 관련 거래처",
+    "price_factors": [
+      {
+        "factor": "미국 규제",
+        "detail": "FDA의 OTC 규제·라벨링 요건 준수 여부가 북미 시장 진출과 생산·유통에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "글로벌 수요·경쟁",
+        "detail": "해외 유수 브랜드 대응 경험은 강점이나 글로벌 시장의 경쟁 심화는 수주와 마진에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "무공장(외주) 의존",
+        "detail": "무공장(Fabless) 모델은 유연성을 제공하는 반면 협력사 네트워크의 안정성·품질 관리가 실적에 중요한 변수입니다."
+      },
+      {
+        "factor": "플랫폼 확장성",
+        "detail": "CTKCLIP 등 디지털 플랫폼의 고객 확보 및 운영 고도화가 매출 확대 및 영업효율성에 기여합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "풀 턴키(Full-Turnkey) 형태로 제공하는 화장품 플랫폼 기업"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사의 연결회사 수익 구조는 CTKCLIP 사업부, 친환경 사업부, 기타 부문으로 구성됩니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "2025년 연결 기준 매출액 892.3억원, 영업이익 -5.7억원"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5175,
+    "completion_tokens": 3524,
+    "reasoning_tokens": 2752,
+    "output_tokens": 772
+  },
+  "warnings": []
+}

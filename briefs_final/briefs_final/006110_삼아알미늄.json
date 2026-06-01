@@ -1,0 +1,86 @@
+{
+  "stock_code": "006110",
+  "corp_name": "삼아알미늄",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 09:44",
+  "meta": {
+    "wics": "비철금속",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "삼아알미늄은 1969년 설립된 알루미늄박 전문 기업으로, 알루미늄박 국산화 실현을 목표로 사업을 시작했습니다. 현재는 압연, 가공, 전자부품판매의 3개 사업부 체제로 운영되며, 알루미늄박과 포장용 가공 제품, 전자부품 유통까지 함께 하고 있습니다.",
+    "business_model": "사업부문별 매출은 압연 55.4%, 가공 22.5%, 전자부품판매 22.1%로 구성되어 있습니다. 압연 부문은 LIB(리튬이온배터리)용 Foil과 연포장용 Foil을 생산하고, 가공 부문은 레토르트 포장재·제약용 ALU-ALU·산업/건축용 제품 등을 만듭니다. 전자부품판매 부문은 샌디스크 제품을 수입해 유통 및 서비스 판매하는 구조입니다.",
+    "main_customers": "압연 — LIB(리튬이온배터리) 관련 산업, 포장재·가전·제약 업계 / 가공 — 포장재·제약·산업/건축 관련 산업 / 전자부품판매 — 샌디스크 제품을 찾는 유통·서비스 수요처",
+    "price_factors": [
+      {
+        "factor": "전방수요",
+        "detail": "알루미늄박은 중간재 성격이 강해 전기차·포장재 등 전방 산업의 수요 변화가 실적에 직접 영향을 줍니다."
+      },
+      {
+        "factor": "원자재",
+        "detail": "주원료인 알루미늄 INGOT를 전량 수입에 의존해 원자재 가격 변동이 수익성에 큰 영향을 줍니다."
+      },
+      {
+        "factor": "환율",
+        "detail": "수입 원재료 비중이 높아 환율과 글로벌 공급망 변화가 원가 부담과 실적 변동성을 키울 수 있습니다."
+      },
+      {
+        "factor": "경쟁심화",
+        "detail": "국내외 알루미늄박 업체 간 경쟁이 치열해지면서 가격 경쟁과 납기 대응 능력이 중요한 변수로 작용합니다."
+      },
+      {
+        "factor": "배터리",
+        "detail": "EV(전기차)와 ESS(에너지저장장치) 시장 흐름이 배터리용 알루미늄박 수요에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "알루미늄박 국산화 실현이라는 가치를 바탕으로 1969년 설립"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "연결회사는 압연, 가공, 전자부품판매 사업부문의 총 3개 사업부 체제로 운영되고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "압 연: 150,304,637 (55.4%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "가 공: 61,190,705 (22.5%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "전자부품판매: 59,963,310 (22.1%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "샌디스크 제품 수입 판매 업체"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 사업부문별 현황 (1) 압연사업부문",
+        "evidence_text": "전방 산업의 경기 변동에 영향을 크게 받습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4758,
+    "completion_tokens": 988,
+    "reasoning_tokens": 0,
+    "output_tokens": 988
+  },
+  "warnings": []
+}

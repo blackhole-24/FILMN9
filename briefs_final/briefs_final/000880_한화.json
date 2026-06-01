@@ -1,0 +1,81 @@
+{
+  "stock_code": "000880",
+  "corp_name": "한화",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 17:07",
+  "meta": {
+    "wics": "복합기업",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "한화는 화약, 방산, 항공엔진, 산업용 기계 등 다수의 사업부문을 보유한 복합기업으로, 화약 제조와 방산·항공 분야에서 핵심 역량을 보유하고 있습니다. 산업용 화약 부문에서는 국내외 시장에서 선도적 입지를 유지하고 있습니다.",
+    "business_model": "FY2025 기준 사업부문별 영업수익 구성은 방산 10.1%, 항공엔진 2.7%, 화약 제조업 0.9%, 시큐리티 1.1%, 산업용 기계 0.6%, 도소매업 2.4%, 백화점·도소매 0.7%, 시큐리티 제품 해외판매·종합서비스 1.0%로 방산 부문이 상대적으로 큰 비중을 차지합니다. 방산·항공엔진 등 고부가가치 방위·항공사업과 안정적 수요 기반의 산업용 화약 및 산업용 기계, 브랜드·유통(도소매·백화점) 등이 결합된 다각적 수익 구조를 갖추고 있습니다.",
+    "main_customers": "산업용 화약 — 정부 SOC 투자 및 민간 건설사업 현장 / 방산 — 국가(군)·해외 수출처 / 항공엔진 — 내수 및 수출 기반의 항공 관련 수요처 / 산업용 기계 — 이차전지·디스플레이·공장 자동화 업체 / 시큐리티(브랜드·제품) — 영상감시장비·보안 솔루션 수요처 및 브랜드 라이선스 계약회사",
+    "price_factors": [
+      {
+        "factor": "원자재비",
+        "detail": "원자재가격 급등은 화약 등 원가구조를 악화시켜 실적에 부정적 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "건설경기",
+        "detail": "정부 SOC 투자·민간 건설사업의 변동은 산업용 화약 수요에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "방산 수요(내수·수출)",
+        "detail": "국가 방위 정책·수출 환경 변화는 방산 매출(내수·수출 비중)에 민감하게 작용합니다."
+      },
+      {
+        "factor": "기술·투자 장벽",
+        "detail": "항공엔진 등은 높은 기술 진입장벽과 장기 투자가 필요해 투자·개발 리스크가 존재합니다."
+      },
+      {
+        "factor": "규제·안전 법규",
+        "detail": "중대재해처벌법 등 안전·무역 규제는 제조·수출 프로세스 및 비용에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 화약제조업 > (1) 산업용 화약",
+        "evidence_text": "산업용 화약사업은 정부 SOC 투자 및 민간 건설 사업 현장을 주요 수요처로 하고 있으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "방산: 7,537,339 (10.1%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 화약제조업 > (1) 산업용 화약",
+        "evidence_text": "산업용 화약사업은 정부SOC 투자 및 민간건설사업 현장을 주요 수요처"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 화약제조업 > (1) 산업용 화약",
+        "evidence_text": "원자재가격 급등에 의한 원가구조 악화가 잠재적인 위협 요인"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 화약제조업 > (3) 항공기 엔진",
+        "evidence_text": "핵심기술의 진입장벽이 높은 산업"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "다. 법률, 규정 등에 의한 규제사항",
+        "evidence_text": "‘중대재해 처벌 등에 관한 법률’의 적용도 받습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5575,
+    "completion_tokens": 3843,
+    "reasoning_tokens": 2816,
+    "output_tokens": 1027
+  },
+  "warnings": []
+}

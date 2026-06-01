@@ -1,0 +1,67 @@
+{
+  "stock_code": "298830",
+  "corp_name": "슈어소프트테크",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 15:34",
+  "meta": {
+    "wics": "소프트웨어",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "슈어소프트테크는 Mission Critical Software(고신뢰 고위험 소프트웨어)의 안전성을 검증하기 위한 자동화 도구 개발·공급과 3자 검증 서비스를 제공하는 소프트웨어 자동화 검증 플랫폼 기업입니다. 특히 자동차 소프트웨어 분야를 핵심 성장 영역으로 삼아 검증 솔루션과 검증 서비스를 통해 국내 시장 점유율을 확대하고 있습니다.",
+    "business_model": "주요 수익원은 시험검증 자동화 솔루션의 라이선스·유지보수 및 기간단위 구독(subscription) 방식으로, 제품별 매출 비중은 소프트웨어 자동화 검증 플랫폼 46.9%, 시스템 검증 솔루션 23.4%, 모델 검증 솔루션 8.9%, 미래 기술 검증 솔루션 14.8%, AI Ops 6.0%, 기타 0.0%입니다. 또한 고위험·고신뢰 소프트웨어 특성상 개발자와 별도의 3자 검증 수요를 대상으로 자사 솔루션을 활용한 검증 서비스(서비스형 V&V)를 함께 제공하는 구조입니다.",
+    "main_customers": "소프트웨어 자동화 검증 플랫폼 — 자동차·국방·원자력 및 에너지·철도/항공/조선/로봇 분야의 국내 선두 기업 / 검증 서비스 — 개발자와 별도의 3자 검증이 필요한 고신뢰 소프트웨어 개발 기업",
+    "price_factors": [
+      {
+        "factor": "규제·표준",
+        "detail": "국제 표준 및 국내법(기능안전 기준) 시행 여부가 강화되면 V&V(검증) 수요가 증가하여 실적에 긍정적 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "자동차 SDV",
+        "detail": "자동차의 SDV(Software Defined Vehicle) 전환은 자동차 제어기 소프트웨어 검증 수요를 확대하여 당사의 핵심 사업 성장과 직결됩니다."
+      },
+      {
+        "factor": "임베디드 시장 성장",
+        "detail": "임베디드·소프트웨어 시장의 장기 성장(보고서 기반)은 소프트웨어 테스팅 수요 증가로 이어져 매출 확대 요인이 될 수 있습니다."
+      },
+      {
+        "factor": "사업다각화",
+        "detail": "모비젠 인수로 빅데이터·AI 역량을 편입한 점은 제품 포트폴리오 확장과 신규 시장 진입을 통한 수익 기반 변화에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "당사는 고신뢰 고위험 소프트웨어, 즉 Mission Critical Software의 안전성을 검증하기 위한 자동화 도구 개발 및 공급과 3자 검증 서비스를 제공하는 소프트웨어 자동화 검증 플랫폼 회사입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황",
+        "evidence_text": "당사는 시험검증 자동화 솔루션을 라이선스 및 유지보수(license and maintenance), 기간단위 구독 방식(subscription)으로 자동차, 국방, 원자력 및 에너지, 철도/항공/조선/로봇 분야의 국내 선두 기업에 공급하고 있으며 고위험 고신뢰 소프트웨어 특성상 개발자와 별도의 3자 검증이 필요한 고객들을 대상으로 자사 솔루션을 활용한 검증 서비스도 제공하고 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "자동차, 국방, 원자력 및 에너지, 철도/항공/조선/로봇 분야의 국내 선두 기업에 공급하고 있으며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "법률/규정 등에 의한 규제사항",
+        "evidence_text": "Mission Critical 산업 분야의 소프트웨어 V&V 시장의 수요는 국제 표준 및 국내법의 시행 여부에 영향을 받고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5128,
+    "completion_tokens": 4742,
+    "reasoning_tokens": 3776,
+    "output_tokens": 966
+  },
+  "warnings": []
+}

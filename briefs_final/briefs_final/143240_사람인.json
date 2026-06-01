@@ -1,0 +1,77 @@
+{
+  "stock_code": "143240",
+  "corp_name": "사람인",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 10:15",
+  "meta": {
+    "wics": "상업서비스와공급품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "사람인은 2005년 설립된 채용 플랫폼 기업으로, 커리어플랫폼·채용컨설팅·아웃소싱 등 채용 관련 사업을 영위하고 있습니다. 월순방문자수 1위를 지속적으로 유지하는 등 업계 내 높은 트래픽과 시장지배력을 보유하고 있습니다.",
+    "business_model": "주요 수익원은 커리어플랫폼(채용광고 등, 54.5%), 아웃소싱(인력파견, 29.6%), 채용컨설팅(채용대행 등, 15.9%)으로 구성되어 있습니다. 커리어플랫폼은 방대한 공고·구직자 데이터와 인공지능 매칭알고리즘을 기반으로 기업의 채용공고 게재 및 매칭서비스를 제공하며, ATS(지원자관리시스템) 등 기업용 솔루션도 함께 운영합니다.",
+    "main_customers": "커리어플랫폼 — 구인회사·구직자 / 채용컨설팅 — 공공부문(공기업·공공기관) / 아웃소싱 — 기업 고객",
+    "price_factors": [
+      {
+        "factor": "수시채용 증가",
+        "detail": "수시채용 확대로 계절적 요인이 약화되어 연중 채용광고·매칭 수요가 안정적으로 유지되면 실적에 긍정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "AI·데이터",
+        "detail": "자체 인공지능 매칭알고리즘과 빅데이터 활용 수준이 높을수록 매칭 정확도 및 유료화(프리미엄 상품 등) 가능성이 높아져 수익성에 기여합니다."
+      },
+      {
+        "factor": "모바일 전환",
+        "detail": "트래픽의 PC→모바일 전환이 진행됨에 따라 모바일 환경 최적화와 사용자 확보가 실적·이용률에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "경쟁심화",
+        "detail": "대규모 트래픽을 보유하지 못한 신규 경쟁사들이 독자적 모델로 성장 중이어서 시장점유율과 광고단가에 부담을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "2005년 설립된 (주)사람인은"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "월순방문자수 1위를 지속적으로 유지"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "커리어플랫폼 66,047 (54.5%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "아웃소싱 35,922 (29.6%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "[채용컨설팅 사업]",
+        "evidence_text": "채용컨설팅 사업은 공공부문(공기업 및 공공기관)을 중심으로"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[커리어플랫폼 사업] (회사의 경쟁력)",
+        "evidence_text": "업계에서 최초로 개발한 채용전문 인공지능 매칭알고리즘"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4660,
+    "completion_tokens": 4123,
+    "reasoning_tokens": 3264,
+    "output_tokens": 859
+  },
+  "warnings": []
+}

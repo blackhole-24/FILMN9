@@ -1,0 +1,77 @@
+{
+  "stock_code": "004440",
+  "corp_name": "삼일씨엔에스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 11:26",
+  "meta": {
+    "wics": "건축자재",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "삼일씨엔에스는 콘크리트파일·PC(Precast Concrete) 제품과 해상풍력 트랜지션피스 등 스틸(강구조) 사업, 골재를 포함한 건축자재를 주력으로 하는 기업입니다. 콘크리트 파일과 프리캐스트(공장에서 사전 제작) 공법, 풍력·강교용 스틸 구조물 제작 등 건설·인프라 관련 제품을 중심으로 사업을 영위합니다.",
+    "business_model": "사업부문별 매출 비중은 콘크리트 43.0%, 풍력.스틸 49.0%, 골재 8.0%로 나타나며(사업부문별 영업수익 구성), 콘크리트 부문은 콘크리트파일과 PC공법(Precast Concrete: 공장에서 사전 제작해 현장 조립하는 방식)이 핵심 수익원이고, 풍력·스틸 부문은 해상풍력용 트랜지션피스 및 강교 등 대형 강구조물 제작·납품이 주된 매출원입니다.",
+    "main_customers": "콘크리트 — 사회 인프라 사업자·철강·석유화학 플랜트·주거용 건설사 / 풍력.스틸 — 발전사업자·터빈 제조사·기초구조물 발주사 및 운송·설치사 / 강교·골재 — 중앙정부·지자체(관급) 및 주요 대형 건설사(민자)",
+    "price_factors": [
+      {
+        "factor": "수주구조",
+        "detail": "해상풍력·강교 등 프로젝트형 수주 방식 특성상 대형 프로젝트 수주 증가 여부가 실적에 직결됩니다."
+      },
+      {
+        "factor": "인증·품질",
+        "detail": "해상 구조물은 국제 인증·품질검증 절차가 필수적이어서 인증 획득과 품질관리 성과가 수주 경쟁력에 영향합니다."
+      },
+      {
+        "factor": "정부 SOC",
+        "detail": "강교·인프라 관련 발주는 정부 예산(SOC)과 지자체 예산집행에 따라 수요가 창출되어 실적 변동에 민감합니다."
+      },
+      {
+        "factor": "운송 인프라",
+        "detail": "대형 구조물의 경우 접안부두 등 운송 여건 보유 여부가 공사 수주 및 납품 경쟁력에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황 > 가. 콘크리트사업부",
+        "evidence_text": "콘크리트파일 : 건축물의 하중을 지반으로 전달해주는 원기둥 모양의 필수 기초 건자재입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "콘크리트: 95,330 (43.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "풍력.스 틸: 109,024 (49.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "골재: 18,775 (8.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황 > 다. 골재 사업부",
+        "evidence_text": "대부분의 발주는 국가 정책에 의해 이루어지는 특성이 있으며,"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "영업 현황 > 나. 풍력.스틸 사업부",
+        "evidence_text": "해상 구조물 특성상 국제 인증기관의 설계 승인 및 품질검증 절차가 필수적이며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4243,
+    "completion_tokens": 5623,
+    "reasoning_tokens": 4672,
+    "output_tokens": 951
+  },
+  "warnings": []
+}

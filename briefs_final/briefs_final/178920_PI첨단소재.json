@@ -1,0 +1,73 @@
+{
+  "stock_code": "178920",
+  "corp_name": "PI첨단소재",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:23",
+  "meta": {
+    "wics": "화학",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "PI첨단소재는 2008년 PI필름 사업부를 분할·합병해 설립된 국내 유일의 PI필름 제조사입니다. 2014년부터 글로벌 PI필름 시장 점유율 1위 지위를 유지하고 있으며, 2023년 12월에는 최대주주가 (주)아케마코리아홀딩으로 변경되었습니다.",
+    "business_model": "회사는 PI필름(폴리이미드 필름), PI바니쉬, PI파우더/성형품 및 관련 가공제품을 제조·판매합니다. 매출 기준으로는 PI 제품 수출 178,070백만원, 내수 85,352백만원, 합계 263,421백만원으로 구성되며, FPCB(연성회로기판)용 소재가 핵심 수요처입니다. PI필름은 FCCL(연성동박적층판), 커버레이(회로 보호용 덮개), 보강판 등 전기전자 부품 소재로 주로 쓰입니다.",
+    "main_customers": "FPCB 용도 — FCCL 제조업체 / 첨단산업용 — 모바일·디스플레이·반도체·2차전지 관련 산업 고객 / 산업공정용·반도체용 — 산업공정 및 반도체 분야 고객",
+    "price_factors": [
+      {
+        "factor": "FPCB수요",
+        "detail": "모바일 기기와 전자부품 수요가 늘수록 FPCB용 PI필름 수요가 함께 증가해 실적에 직접 영향을 줍니다."
+      },
+      {
+        "factor": "방열시트",
+        "detail": "On-device AI 채택 확대에 따른 발열 관리 수요가 커지면 방열시트용 매출이 늘어나는 구조입니다."
+      },
+      {
+        "factor": "전방산업",
+        "detail": "EV/2차전지 수요가 둔화되면 관련 필름 수요가 감소하고, 반대로 반도체·산업공정용 수요가 늘면 실적에 긍정적입니다."
+      },
+      {
+        "factor": "원가경쟁력",
+        "detail": "제조원가 절감과 생산성 향상은 경쟁력 있는 단가로 이어져 수익성에 영향을 줍니다."
+      },
+      {
+        "factor": "원재료수급",
+        "detail": "원부재료의 안정적 확보와 구매단가 변화가 제품 원가와 수익성에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "Ⅱ. 사업의 내용 > 2. 사업개황",
+        "evidence_text": "국내 유일의 PI필름 제조사인 당사"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "Ⅱ. 사업의 내용 > 2. 사업개황",
+        "evidence_text": "당사는 2014년부터 글로벌 PI필름 시장 점유율 1위"
+      },
+      {
+        "field": "business_model",
+        "source_section": "Ⅱ. 사업의 내용 > [사업부문별 매출 구성]",
+        "evidence_text": "제 품 PI(Polyimide) 수출 178,070 내수 85,352"
+      },
+      {
+        "field": "business_model",
+        "source_section": "Ⅱ. 사업의 내용 > 1. FPCB 용도",
+        "evidence_text": "당사 제품의 직접 고객사는 FCCL 제조 업체"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5492,
+    "completion_tokens": 820,
+    "reasoning_tokens": 0,
+    "output_tokens": 820
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

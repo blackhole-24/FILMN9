@@ -1,0 +1,64 @@
+{
+  "stock_code": "235980",
+  "corp_name": "메드팩토",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 13:19",
+  "meta": {
+    "wics": "제약",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "메드팩토는 2013년 테라젠이텍스의 신약연구소가 분리·독립해 설립된 기업으로, 유전체 해독과 생명정보를 바탕으로 정밀의학과 혁신 신약 개발에 주력하고 있습니다. 난치성 암과 만성질환을 대상으로 바이오마커(약물 반응을 측정하는 지표) 기반 개인맞춤형 치료제 개발을 목표로 하고 있습니다.",
+    "business_model": "주요 활동은 첨단 유전체 분석 기술을 활용한 신약 후보 타깃 발굴 및 저분자 화합물·항체·Fc 융합 의약품 등의 혁신신약 개발이며, 자체 동물실을 통한 비임상 효능 검증과 미국·한국에서의 임상개발을 통해 기술이전(라이선스 아웃)을 추진하고 있습니다. 사업부문 표기에는 '유통'이 있으나 비율은 불명확하게 기재되어 있습니다.",
+    "main_customers": "유통 — 본문에 별도 명시된 고객군 없음",
+    "price_factors": [
+      {
+        "factor": "규제 강도",
+        "detail": "임상·허가 절차가 엄격하여 개발기간·비용이 실적과 기업 가치에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "신약개발 트렌드",
+        "detail": "ADC·세포·유전자 치료제·AI 기반 신약개발 등 기술 변화가 경쟁구도와 개발 효율에 영향합니다."
+      },
+      {
+        "factor": "글로벌 지정학",
+        "detail": "약가 정책 변화·미·중 분쟁 등 글로벌 환경 변화는 지역별 전략과 기술이전 기회에 영향을 줍니다."
+      },
+      {
+        "factor": "연구인력 역량",
+        "detail": "핵심 연구인력 확보 여부가 신약 후보물질 개발 성공과 성과에 결정적 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "테라젠이텍스에서 신약연구소가 분리 독립하여 만들어진 회사입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "저분자 화합물, 항체 및 Fc 융합 의약품 등"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "제약산업은 인간의 생명과 보건에 관련된 제품을 생산하는"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 5472,
+    "completion_tokens": 3542,
+    "reasoning_tokens": 2880,
+    "output_tokens": 662
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

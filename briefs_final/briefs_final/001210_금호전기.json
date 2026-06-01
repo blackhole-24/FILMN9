@@ -1,0 +1,87 @@
+{
+  "stock_code": "001210",
+  "corp_name": "금호전기",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 11:39",
+  "meta": {
+    "wics": "디스플레이장비및부품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "금호전기는 전문 조명 제조업체로 일반조명과 LED조명 등을 생산·판매합니다. '번개표' 브랜드를 기반으로 약 90년의 업력을 보유하고 전국 단위 유통망을 강점으로 하고 있습니다.",
+    "business_model": "주요 매출은 LED조명(79.2%)에 집중되어 있으며, 조명사업이 15.1%를 차지합니다. 그 외에는 기타(0.1%), 기  타(3.0%), 임대수익(1.1%), 서비스(1.6%) 등으로 구성되어 있습니다.",
+    "main_customers": "LED조명 — 가정, 기업, 산업체, 공동주택·상업시설·공공시설 / 일반조명 — 기존 설비의 유지·보수 및 잔존 교체 수요(주거·상업·공공 분야 중심)",
+    "price_factors": [
+      {
+        "factor": "규제(형광램프)",
+        "detail": "정부의 형광램프 교체 정책(2027년까지)은 일반조명 수요 축소와 LED 전환 가속으로 실적 영향 요인이 됩니다."
+      },
+      {
+        "factor": "가격경쟁",
+        "detail": "LED 시장의 기술 성숙과 가격 경쟁 심화는 제품 단가와 마진에 직접적인 압박을 줄 수 있습니다."
+      },
+      {
+        "factor": "교체수요",
+        "detail": "시장 성장이 기존 조명 교체와 노후 시설 개선 중심인 만큼 교체 수요 흐름이 매출 변동에 중요한 변수입니다."
+      },
+      {
+        "factor": "서비스경쟁",
+        "detail": "시공 품질·유지관리·장기보증 등 서비스 요소 경쟁이 강화되면 수주 경쟁 및 비용 구조에 영향을 미칠 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "나. 회사의 현황 > (1) 영업개황 및 사업부문의 구분",
+        "evidence_text": "당사는 전문 조명제조업체로 직관·환형·전구식형광램프등"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "LED조명: 40,893 (79.2%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "조명사업: 7,773 (15.1%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "[경쟁 환경 및 시장 특성 — (3) 시장의 특성 > 2) LED조명 시장]",
+        "evidence_text": "공동주택, 상업시설, 공공시설을 중심으로 수요가 지속되고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "[경쟁 환경 및 시장 특성 — (3) 시장의 특성 > 1) 일반조명시장]",
+        "evidence_text": "정부는 2027년까지 형광램프를 LED 조명으로 전환한다고 밝혔습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "[경쟁 환경 및 시장 특성 — (3) 시장의 특성 > 2) LED조명 시장]",
+        "evidence_text": "가격 경쟁이 심화되고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "[경쟁 환경 및 시장 특성 — (3) 시장의 특성 > 2) LED조명 시장]",
+        "evidence_text": "기존 조명의 LED 교체 수요와 노후 시설 개선을 중심으로 이루어지고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "[경쟁 환경 및 시장 특성 — (3) 시장의 특성 > 2) LED조명 시장]",
+        "evidence_text": "시공 품질, 유지관리 편의성, 장기 보증 및 사후관리 체계 등 서비스 요소를 포함한 종합 경쟁으로 전환되는 추세입니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4230,
+    "completion_tokens": 5262,
+    "reasoning_tokens": 4288,
+    "output_tokens": 974
+  },
+  "warnings": []
+}

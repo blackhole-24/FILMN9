@@ -1,0 +1,82 @@
+{
+  "stock_code": "378340",
+  "corp_name": "필에너지",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 18:26",
+  "meta": {
+    "wics": "전기제품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "필에너지는 이차전지 조립 공정용 핵심 설비를 개발·공급하는 기계·장비(전기제품) 업체입니다. Laser Notching(레이저 노칭), Stacking(셀 적층) 설비와 권취기(와인딩 장비) 등을 주력 제품으로 하며, 유럽·미주 고객사에도 설비를 공급해 온 기업입니다.",
+    "business_model": "주요 수익원은 이차전지 공정장비이며 FY2025 기준 이차전지 공정장비 매출이 81.9%, 기타가 18.1%를 차지합니다. 핵심 제품군은 Tab을 형성하는 Laser Notching 장비, Jelly Roll을 만드는 Stacking 설비, 원통형 배터리 권취기 등으로서 고객사 양산 라인과 파일럿 라인에 설비를 공급하는 방식으로 매출이 발생합니다.",
+    "main_customers": "이차전지 공정장비 — 배터리 제조사(양산 공장·파일럿 라인) / 기타 — 유럽·미주 고객사",
+    "price_factors": [
+      {
+        "factor": "시장수요",
+        "detail": "전기차·ESS·IT 기기용 배터리 수요 변화가 설비 수요와 실적에 직접 영향을 미칩니다."
+      },
+      {
+        "factor": "경쟁강도",
+        "detail": "유럽 보조금 정책 변화와 중국업체와의 경쟁 격화는 고객사 투자와 가격경쟁에 영향을 줍니다."
+      },
+      {
+        "factor": "원자재비",
+        "detail": "원자재(리튬·니켈 등) 가격 변동은 배터리 고객사의 원가 구조에 영향을 주어 설비투자 결정을 좌우할 수 있습니다."
+      },
+      {
+        "factor": "투자지연",
+        "detail": "전기차 캐즘(수요 정체)으로 인한 배터리 업계의 설비투자 지연은 단기 실적에 부정적 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 이차전지의 조립 공정 중 핵심 설비를 제작하는 기업으로써"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "이차전지 공정장비: 27,175 (81.9%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "고객사 양산 라인에 대량 공급한 바 있으며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나. 시장여건 및 영업의 개황",
+        "evidence_text": "유럽 일부 국가들의 보조금 중단, 중국업체들과의 경쟁 격화"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나. 시장여건 및 영업의 개황",
+        "evidence_text": "특정 핵심 원자재에 대한 의존도가 높은 산업"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나. 시장여건 및 영업의 개황",
+        "evidence_text": "2030년까지 연간 4,270GWh 규모가 될 것으로 전망하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "전기차 캐즘 장기화에 따른 이차전지 산업의 설비투자 지연"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4954,
+    "completion_tokens": 5388,
+    "reasoning_tokens": 4480,
+    "output_tokens": 908
+  },
+  "warnings": []
+}

@@ -1,0 +1,69 @@
+{
+  "stock_code": "049080",
+  "corp_name": "기가레인",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 02:36",
+  "meta": {
+    "wics": "통신장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "기가레인은 RF통신사업과 반도체 공정장비 및 나노패턴솔루션을 주력으로 하는 전기·전자 분야 기업입니다. 이동통신 기지국 장비, Open-RAN 통신 장비, RF 안테나 모듈 및 반도체·디스플레이용 나노임프린터와 공정소재를 개발·공급하고 있으며, 2025년 말 기준 국내법인 1개사와 해외법인 2개사를 보유하고 있습니다.",
+    "business_model": "핵심 사업은 RF통신사업과 반도체 공정장비·나노패턴솔루션사업으로 구성되며, RF 부문에서는 이동통신 기지국·오픈랜 장비와 RF 케이블·커넥터 등을 개발·제조하고, 반도체 장비 부문에서는 ICP/DRIE 식각장비와 나노임프린터 및 임프린트용 소재(레진)를 개발·공급합니다. 반도체 장비 사업은 전방 산업의 투자 사이클(반도체·디스플레이 투자)에 민감하여 실적 변동성이 클 수 있습니다.",
+    "main_customers": "RF통신사업 — 이동통신사·국방·항공·모바일기기 제조사 / 반도체 공정장비 및 나노패턴솔루션사업 — 반도체·디스플레이·XR·Micro/Nano LED 제조사",
+    "price_factors": [
+      {
+        "factor": "전방산업 경기",
+        "detail": "반도체·디스플레이 업종의 설비투자 부진 시 장비 매출이 감소하여 실적에 직접적인 악영향을 미칩니다."
+      },
+      {
+        "factor": "오픈랜 확산",
+        "detail": "Open-RAN(개방형 무선랜) 채택 확대는 RF 통신장비 수요를 늘려 매출 성장 요인이 될 수 있습니다."
+      },
+      {
+        "factor": "중국영업확대",
+        "detail": "중국 현지 생산·R&D 법인 신설은 현지 수요 대응력과 매출 기반 강화를 기대하게 하나 초기 투자 비용이 발생할 수 있습니다."
+      },
+      {
+        "factor": "환율·원자재",
+        "detail": "환율 변동성과 원자재 수급 불안정은 원가와 매출 실현에 부정적 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "RF통신사업과 반도체 공정장비 및 나노패턴솔루션사업을 주력으로 하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "RF통신사업은 이동통신 기지국 장비, 오픈랜(Open-RAN) 통신 장비, 무선통신(RF) 안테나 모듈, 국방/항공 및 모바일 기기 분야에 사용되는 무선통신(RF) 케이블/커넥터를 개발, 제조하고 있습니다."
+      },
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "2025년 12월말 기준 으로 국내법인 1개사와 해외법인 2개사를 보유하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "2025년 연결 기준 실적은 매출액 403억 원, 영업손실 124억 원을 기록하였습니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4525,
+    "completion_tokens": 3975,
+    "reasoning_tokens": 3072,
+    "output_tokens": 903
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

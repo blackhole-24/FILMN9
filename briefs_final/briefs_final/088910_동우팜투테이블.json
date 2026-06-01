@@ -1,0 +1,67 @@
+{
+  "stock_code": "088910",
+  "corp_name": "동우팜투테이블",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 06:47",
+  "meta": {
+    "wics": "식품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "동우팜투테이블은 계열화사업을 바탕으로 종계·부화·사육·도계·유통을 통합하는 Farm to Plate(농장에서 식탁까지)와 One day(당일생산·당일출하), Cold Chain(냉장유통)을 도입한 식품(닭고기) 전문기업입니다. 2025년 기준 총매출은 3,255억원, 매출은 100% 내수로 형성되어 있으며 계열사 포함 도계물량 기준 국내 시장점유율은 약 15.4%입니다.",
+    "business_model": "주요 수익원은 자체 생산한 제품(가공·부분육 등)으로, FY2025 기준 제품이 매출의 84.0%를 차지하고 상품이 2.0%, 기타가 12.0%를 차지합니다. 계열화와 위탁사육(계약사육)을 통해 병아리·사료 등을 공급하고 도계·유통까지 일괄관리함으로써 원재료 조달과 당일 출하·냉장유통을 결합한 밸류체인을 운영합니다.",
+    "main_customers": "제품 — 프랜차이즈·패스트푸드·외식업체·대형마트·단체급식소 / 상품 — 재래시장·유통판매업체 / 기타 — 최종 소비자(내수 시장)",
+    "price_factors": [
+      {
+        "factor": "수요구조변화",
+        "detail": "부분육·절단육 선호 증가로 고부가가치 제품 비중 확대 여부가 실적에 영향"
+      },
+      {
+        "factor": "유통채널",
+        "detail": "대형마트·단체급식소 등 유통구조 변화가 판매채널과 판가(판매가격)에 직결"
+      },
+      {
+        "factor": "계열화구조",
+        "detail": "위탁사육·계열화 관리 수준이 원재료 안정성·원가 구조에 직접적인 영향"
+      },
+      {
+        "factor": "수입개방",
+        "detail": "과거 수입개방·정책 변화가 경쟁구도에 영향을 미친 사례처럼 수입·정책 이슈에 민감"
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "Farm to Plate System(농장에서 소비자 식탁까지)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "제품: 274,854 (84.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "프랜차이즈와 패스트푸드와 같은 외식업체"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "100%내수시장 매출입니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4261,
+    "completion_tokens": 3831,
+    "reasoning_tokens": 3072,
+    "output_tokens": 759
+  },
+  "warnings": []
+}

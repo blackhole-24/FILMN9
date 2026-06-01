@@ -1,0 +1,62 @@
+{
+  "stock_code": "331920",
+  "corp_name": "셀레믹스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 16:41",
+  "meta": {
+    "wics": "생물공학",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "셀레믹스는 NGS(차세대염기서열분석) 기반의 핵심 소재와 서비스를 만드는 바이오 기업으로, MSSIC 기반 차세대 클로닝 기술을 보유해 DNA 처리 기술을 핵심 경쟁력으로 삼고 있습니다. 2020년 8월 코스닥에 상장했으며 Target Capture 키트를 주력 제품으로 공급합니다.",
+    "business_model": "매출은 제품(주로 Target Capture 키트)이 65.52%, 서비스(NGS 기반 분석 서비스)가 34.19%로 구성되어 있으며, 기타가 0.29%를 차지합니다. 핵심 수익원은 Probe 등 Target Capture 키트(핵심 소재) 판매이며, 이 소재는 전세계 소수(6개) 기업만 생산 가능한 희소성을 가집니다.",
+    "main_customers": "Target Capture 키트 — IVD(체외진단)·Bioinformatics(바이오인포매틱스) 기업 및 병원 / NGS 서비스 — 병원, 연구소, 일반 소비자 대상 유전체 분석 서비스",
+    "price_factors": [
+      {
+        "factor": "경쟁심화",
+        "detail": "유전체 분석 시장 전반의 경쟁은 심화되고 있으나 Target Capture 키트 분야는 소수 기업(약 6개)이 공급을 장악해 수익성에 차별적 영향을 줍니다."
+      },
+      {
+        "factor": "규제변화",
+        "detail": "체외진단의료기기법 제정으로 등급분류·제조허가 등 요건이 강화되면 일부 제품의 시장진입에 허들이 될 수 있습니다."
+      },
+      {
+        "factor": "환율변동",
+        "detail": "원재료 일부를 해외에서 수입하고 해외 매출 비중이 있어 환율 변동은 매출과 비용, 자산·부채에 영향을 미칩니다."
+      },
+      {
+        "factor": "공공R&D",
+        "detail": "정부 연구개발(R&D) 예산 축소 등 공공 수주 감소는 국내 매출에 직접적인 영향(예: 질병관리청향 매출 감소)을 미칠 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "당사는 2020년 8월 21일 코스닥시장에 상장한 기업으로"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "Target Capture 키트를 주 영업으로 하고 있으며"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "다. 산업의 Value Chain 및 시장 특성",
+        "evidence_text": "Bioinfomatics 회사, IVD회사, 병원"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5148,
+    "completion_tokens": 4716,
+    "reasoning_tokens": 4032,
+    "output_tokens": 684
+  },
+  "warnings": []
+}

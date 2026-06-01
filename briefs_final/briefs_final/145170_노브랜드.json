@@ -1,0 +1,76 @@
+{
+  "stock_code": "145170",
+  "corp_name": "노브랜드",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:21",
+  "meta": {
+    "wics": "섬유,의류,신발,호화품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "노브랜드는 40여 개 글로벌 패션 브랜드의 의류를 직접 디자인해 수출하는 디자인 플랫폼 하우스입니다. 주로 북미, 유럽, 국내 유수 브랜드와 OEM(주문자상표부착생산)·ODM(제조자개발생산) 방식으로 거래하며, 2024년 10월 유니코글로벌을 인수해 아웃도어 의류까지 사업 영역을 넓혔습니다.",
+    "business_model": "노브랜드의 사업은 글로벌 브랜드 주문을 받아 니트(Knit)와 우븐(Woven) 중심 의류를 설계·생산·납품하는 OEM(주문자상표부착생산)·ODM(제조자개발생산) 구조입니다. FY2025 사업부문별 영업수익은 Old Navy, Kohl's, MLB, Aritzia, Banana Republic, Gap이 320,037로 67.0%, JCPenney, Gap, Old Navy, Target, Kohl's, Aritzia, Banana Republic이 155,920으로 33.0%를 차지합니다. 자체 디자인 역량과 해외 생산기지, 고객사와의 장기 거래를 바탕으로 수익을 만드는 방식입니다.",
+    "main_customers": "Old Navy, Kohl's, MLB, Aritzia, Banana Republic, Gap — 글로벌 대량생산 및 브랜드 고객 / JCPenney, Gap, Old Navy, Target, Kohl's, Aritzia, Banana Republic — 글로벌 유통·브랜드 고객",
+    "price_factors": [
+      {
+        "factor": "브랜드 주문",
+        "detail": "Gap, Target, J.C. Penney 등 주요 고객사의 발주량 변화가 매출과 실적에 직접 영향을 줍니다."
+      },
+      {
+        "factor": "관세정책",
+        "detail": "트럼프 행정부의 관세 정책 같은 보호무역 변화는 고객사 수요와 매출 감소로 이어질 수 있습니다."
+      },
+      {
+        "factor": "환율변동",
+        "detail": "주요 매출처가 미국 등 해외에 있어 환율 변동이 매출과 수익성에 영향을 줍니다."
+      },
+      {
+        "factor": "제품구성",
+        "detail": "프리미엄 브랜드의 우븐(Woven) 오더 비중이 늘면 매출 단가가 상승하는 구조입니다."
+      },
+      {
+        "factor": "원가구조",
+        "detail": "해외 생산설비와 원가 구조 개선 여부가 고물가·고환율 환경에서 수익성에 중요한 변수입니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 40여 개 글로벌 패션 브랜드로부터"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "Old Navy, Kohl's, MLB, Aritzia, Banana Republic, Gap: 320,037 (67.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "JCPenney, Gap, Old Navy, Target, Kohl's, Aritzia, Banana Republic: 155,920 (33.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "Gap, J.C. Penney, Target 등 대량생산 상품 중심의 고객사들"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "트럼프 행정부의 관세 정책 영향으로 고객사에 따라 매출이 감소"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4534,
+    "completion_tokens": 902,
+    "reasoning_tokens": 0,
+    "output_tokens": 902
+  },
+  "warnings": []
+}

@@ -1,0 +1,74 @@
+{
+  "stock_code": "008500",
+  "corp_name": "일정실업",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 20:09",
+  "meta": {
+    "wics": "자동차부품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "일정실업은 섬유·의류 업종에 속하며 자동차부품(시트 원단) 분야에 제품을 공급하는 기업입니다. 제공된 자료는 산업 전반에 대한 설명을 중심으로 회사의 개별 규모나 연혁 정보는 포함하고 있지 않습니다.",
+    "business_model": "주요 사업부문은 자동차시트용원단, LAMI FABRIC, 인조가죽 등 섬유·원단 위주의 제품군으로 구성되어 있습니다. 자동차용 소재 산업 특성상 엄격한 품질 규격과 사전 승인 절차를 통과해야만 양산 적용이 가능하여, 완성차·시트 제조사 대상 공급(부품 소재 납품)이 핵심 수익원입니다.",
+    "main_customers": "자동차시트용원단 — 완성차 제조사 및 자동차 시트 제조사 / LAMI FABRIC — 완성차 제조사 및 자동차 시트 제조사 / 인조가죽 — 완성차 제조사 및 자동차 시트 제조사 / 그 외 — 완성차 제조사 및 자동차 시트 제조사",
+    "price_factors": [
+      {
+        "factor": "전기차 확산",
+        "detail": "전기차·친환경 차량 확대에 따라 경량화·촉감·친환경 소재 수요 변화가 실적에 영향"
+      },
+      {
+        "factor": "품질규격",
+        "detail": "엄격한 품질 규격과 사전 승인 절차로 신규 채택 시 장기간 안정적 납품이 이어질 수 있음"
+      },
+      {
+        "factor": "가격경쟁",
+        "detail": "완성차 업체의 원가 절감 기조 및 가격 경쟁 심화는 수익성 개선 속도를 제한할 수 있음"
+      },
+      {
+        "factor": "경기민감도",
+        "detail": "완성차 생산량이 경기변동에 민감해 생산 감소 시 시트 원단 수요도 감소 가능"
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 업계의 현황 1) 산업의 특성",
+        "evidence_text": "완성차 제조사 및 자동차 시트 제조사를 주요 고객으로 하는"
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. 업계의 현황 1) 산업의 특성",
+        "evidence_text": "엄격한 품질 규격과 사전 승인 절차를 거쳐야만 양산 적용이 가능한 특징이 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "자동차시트용원단 제품"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 업계의 현황 2) 산업의 성장성",
+        "evidence_text": "재활용 원사 및 친환경 공정을 적용한 소재에 대한 수요 증가는"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 업계의 현황 3) 경기변동의 특성",
+        "evidence_text": "자동차는 내구 소비재 중 가장 고가품으로 경기변동과 밀접한 연관을 맺고 있습니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 2775,
+    "completion_tokens": 5124,
+    "reasoning_tokens": 4352,
+    "output_tokens": 772
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

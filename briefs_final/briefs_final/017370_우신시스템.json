@@ -1,0 +1,66 @@
+{
+  "stock_code": "017370",
+  "corp_name": "우신시스템",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 09:51",
+  "meta": {
+    "wics": "자동차부품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "우신시스템은 자동차부품과 자동화설비를 함께 영위하는 기계·장비 업종 기업입니다. 사업은 차체자동화라인 제조와 전기차 배터리 설비, 자동차 Door·안전벨트·내장부품 제조, 기타 임대·금형매출 등 총 3개 부문으로 구성되어 있습니다.",
+    "business_model": "FY2025 사업부문별 영업수익 구성은 자동차부품부문 59.1%, 자동화설비부문 37.7%, 기타부문 3.3%입니다. 자동차부품부문은 Door, 안전벨트, 내장부품을 공급하고, 자동화설비부문은 차체자동화라인 제조와 전기차 Battery 설비 제조를 담당하는 구조입니다. 자동화설비는 프로젝트성 주문 생산 방식이며, 자동차부품은 완성차 생산·판매량과 고객사 모델에 영향을 받는 사업입니다.",
+    "main_customers": "자동화설비부문 — 자동차 메이커, 배터리 제조사 / 자동차부품부문 — 완성차 업체, 고객사의 주력 SUV 및 모델별 자동차사 / 기타부문 — 임대 이용처, 금형 관련 거래처",
+    "price_factors": [
+      {
+        "factor": "전기차투자",
+        "detail": "전기차 시장 확대와 배터리 제조사의 투자 증가가 전기차 배터리 설비 수요를 키워 실적에 영향을 줍니다."
+      },
+      {
+        "factor": "완성차판매",
+        "detail": "자동차부품은 완성차 업체의 생산·판매량에 영향을 받아 고객사 판매 흐름이 매출에 직접 연결됩니다."
+      },
+      {
+        "factor": "안전규제",
+        "detail": "자동차 안전 규제 강화와 안전 의식 향상은 안전벨트 등 안전부품 수요 확대에 영향을 줍니다."
+      },
+      {
+        "factor": "모델변경",
+        "detail": "자동화설비와 내장부품은 신차 개발과 차종 변경 주기에 따라 신규 수주와 설비 변경 수요가 발생합니다."
+      },
+      {
+        "factor": "수출수요",
+        "detail": "자동화설비 매출의 약 70% 이상이 수출에서 발생해 해외 자동차 메이커의 설비 투자 변화가 실적에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 사업의 개요",
+        "evidence_text": "당사의 사업은 총3개의 사업부문으로 구성되어 있으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "자동차부품부문: 229,559,560 (59.1%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 사업부문별 현황 (1) 산업의 특성",
+        "evidence_text": "차체 부품을 용접하는 TOOL(자동화 라인 설비)을 제공합니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3914,
+    "completion_tokens": 731,
+    "reasoning_tokens": 0,
+    "output_tokens": 731
+  },
+  "warnings": []
+}

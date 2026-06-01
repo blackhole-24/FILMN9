@@ -1,0 +1,66 @@
+{
+  "stock_code": "000680",
+  "corp_name": "LS네트웍스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 12:38",
+  "meta": {
+    "wics": "증권",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "LS네트웍스는 LS그룹 계열의 소비재 중심 기업으로, 브랜드 사업과 유통사업, 임대사업 등을 영위합니다. PRO-SPECS 등 스포츠 브랜드를 기반으로 브랜드·유통·임대 포트폴리오를 운영하며, 최근 LS증권 지배력 확보를 통해 금융업을 연결대상으로 포함하고 있습니다.",
+    "business_model": "사업부문별 매출 구성은 비금융업 4.3%, 유통 사업 6.1%, 임대 사업 1.8%, 기타 0.3%, 금융업 87.8%로 금융업(LS증권)이 연결 매출의 대부분을 차지합니다. 비금융업 측면에서는 브랜드(PRO-SPECS, MBK 통한 mont-bell 국내 사업)와 글로벌 상사·자전거·자동차·모터사이클 유통, 그리고 LS용산타워 등 부동산 임대로 수익을 냅니다.",
+    "main_customers": "브랜드 사업 — 대리점·직영점·백화점 등을 통해 상품을 구매하는 일반 소비자 / 유통 사업 — 전력 인프라·산업 기자재·신재생 에너지 분야 기업 및 자전거·자동차·모터사이클 구매 고객 / 임대 사업 — 사무실·상가·창고 임차인(입주사) / 금융업 — LS증권 관련 이해관계자 및 증권업 연관 고객",
+    "price_factors": [
+      {
+        "factor": "소비심리",
+        "detail": "물가 상승과 환 부담으로 선택적 소비재(의류·신발) 수요가 약화되면 브랜드·유통 매출에 직접적인 하방 압력이 발생합니다."
+      },
+      {
+        "factor": "글로벌경쟁",
+        "detail": "글로벌 스포츠·패션 브랜드의 자본력과 공격적 마케팅은 토종 브랜드의 점유율에 하방 압력을 가할 수 있습니다."
+      },
+      {
+        "factor": "환율·물가",
+        "detail": "환율과 물가 변동은 원가와 소비자 구매력에 영향을 주어 전반적인 패션 소비 회복을 지연시킬 수 있습니다."
+      },
+      {
+        "factor": "금융업 비중",
+        "detail": "연결 매출에서 금융업 비중(87.8%)이 매우 커 금융업(LS증권) 실적 변동이 회사 전체 실적·주가 민감도에 큰 영향을 미칩니다."
+      },
+      {
+        "factor": "브랜드 마케팅",
+        "detail": "스폰서십·스포츠 마케팅 성과에 따라 PRO-SPECS 등 브랜드 인지도와 매출 회복 속도가 달라질 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "LS그룹 내에서 소비재 부문 핵심 기업이며,"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "금융업: 2,295,339 (87.8%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "대리점 및 직영점, 백화점 등의 다양한 유통형태"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4465,
+    "completion_tokens": 4720,
+    "reasoning_tokens": 3904,
+    "output_tokens": 816
+  },
+  "warnings": []
+}

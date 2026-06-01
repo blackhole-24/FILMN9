@@ -1,0 +1,91 @@
+{
+  "stock_code": "015360",
+  "corp_name": "INVENI",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 09:50",
+  "meta": {
+    "wics": "가스유틸리티",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "INVENI는 2018년 4월 1일 지주회사 체제 전환을 위해 물적분할을 거쳐 시작된 회사로, 기존 도시가스 사업과 투자 기능을 분리해 운영해왔습니다. 2021년부터는 단순한 지주회사를 넘어 투자 자체를 주된 사업으로 하는 방향을 추진했고, 2025년 3월에는 사명을 INVENI Co., Ltd.로 변경하며 투자전문회사 정체성을 강화했습니다.",
+    "business_model": "매출 구성은 도시가스 부문이 1,187,413,376으로 가장 크고, 투자 및 지주부문이 155,430,751, 기타부문(CNG충전 등)이 17,451,638입니다. 비율로 보면 도시가스 부문이 약 89.4%, 투자 및 지주부문이 약 11.7%, 기타부문이 약 1.3%이며, 연결조정은 제외한 연결 매출 기준입니다. 투자 부문은 투자수익을 금융수익으로 계상하고 있으며, 도시가스 부문은 지역별 독점사업권과 규제된 요금 체계 아래 운영됩니다.",
+    "main_customers": "투자 및 지주부문 — 투자 자산의 지분 보유·운용 대상 / 도시가스 부문 — 서울 지역 일반 가정 및 지역 내 가스 수요처 / 기타부문 — CNG충전 이용 수요처",
+    "price_factors": [
+      {
+        "factor": "도시가스요금",
+        "detail": "도시가스 매출 대부분이 원료비 연동제와 지자체가 정하는 소매공급비용에 따라 결정되어, 요금 체계 변화가 실적에 직접 영향을 줍니다."
+      },
+      {
+        "factor": "동절기수요",
+        "detail": "난방용 도시가스는 11월~3월 겨울철에 사용량이 집중되어 계절적 수요 변화가 매출에 큰 영향을 줍니다."
+      },
+      {
+        "factor": "공급권역",
+        "detail": "지역별 독점사업권과 공급의무를 보유한 구조여서, 공급권역 내 수요와 보급률이 사업 안정성에 영향을 줍니다."
+      },
+      {
+        "factor": "AUM확대",
+        "detail": "투자부문은 AUM(총관리자산) 확대를 추진하고 있어, 운용자산 증가가 투자수익 성장과 연결될 수 있습니다."
+      },
+      {
+        "factor": "투자성과",
+        "detail": "Core Strategy(안정적 이자·배당 추구)와 Growth Strategy(자본차익 추구)의 성과에 따라 투자수익 변동성이 달라집니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "투자 및 지주부문 가. 사업의 연혁",
+        "evidence_text": "당사는 지주회사 체제 전환을 위해 2018년 4월 1일 사업회사 지분의 관리를 주된 목적으로 하는 투자 및 지주부문"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "투자 및 지주부문 가. 사업의 연혁",
+        "evidence_text": "당사는 제44기 정기주주총회(2025.03.20)에서 '투자전문회사(Investment Firm)로 사업 전략방향에 맞는 Identity 정립'을 위해 사명을 INVENI Co., Ltd.로 변경하였습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "투자 및 지주부문 | 투자업, 지주사업 | 155,430,751"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "도시가스 부문 | 도시가스 등 | 1,187,413,376"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "사업회사 - 도시가스 부문",
+        "evidence_text": "도시가스사업은 국민생활에 직접적으로 영향을 미치는 특성"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "사업회사 - 도시가스 부문",
+        "evidence_text": "도시가스요금은 원료비 연동제에 따라"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "사업회사 - 도시가스 부문",
+        "evidence_text": "가스매출량은 동절기인 11월~3월에 집중"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나. 사업의 비전 - 가. 투자 현황",
+        "evidence_text": "공정가치 평가를 반영한 AUM은 8,370억입니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4803,
+    "completion_tokens": 1164,
+    "reasoning_tokens": 0,
+    "output_tokens": 1164
+  },
+  "warnings": []
+}

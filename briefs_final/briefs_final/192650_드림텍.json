@@ -1,0 +1,76 @@
+{
+  "stock_code": "192650",
+  "corp_name": "드림텍",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:24",
+  "meta": {
+    "wics": "핸드셋",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "드림텍은 스마트폰, 웨어러블 기기, 데이터센터·서버 등에 쓰이는 각종 PBA 모듈을 개발·공급하는 전자부품 기업입니다. 사업은 IMC, BHC, CCM 세 부문으로 나뉘며, 해외생산법인인 Dreamtech Vietnam Co., Ltd.가 지배회사의 임가공과 현지거래처 매출을 담당하고 있습니다.",
+    "business_model": "핵심 사업은 IMC(IT기기·메모리 모듈), BHC(생체인식·헬스케어·컨버전스), CCM(카메라모듈)로 구성됩니다. 사업부문별 매출은 IMC 575,742, BHC 194,939, CCM 459,842, 기타 99로, 합계 1,230,622 중 IMC 46.8%, BHC 15.8%, CCM 37.4%, 기타 0.0%를 차지합니다. 각 제품은 최종 Set maker(완제품 제조사)의 요구에 맞춰 커스터마이징(맞춤화)되어 공급되는 구조입니다.",
+    "main_customers": "IMC — 스마트폰·웨어러블·태블릿·데이터센터·서버 관련 Set maker와 IT기기 시장 / BHC — 스마트폰, 도어락, 의료기기, 영상AI 솔루션 관련 고객 / CCM — 스마트폰·태블릿·노트북·가전·AR/VR·로봇·자율주행·드론 관련 고객",
+    "price_factors": [
+      {
+        "factor": "맞춤생산",
+        "detail": "제품이 Set maker 요구에 따라 개별 사양으로 공급되어 표준 가격이 없어, 판매 단가와 수익성은 고객 주문 조건에 따라 달라집니다."
+      },
+      {
+        "factor": "스마트폰",
+        "detail": "주요 전방시장이 스마트폰이어서 스마트폰 판매량과 교체수요가 늘면 IMC, BHC, CCM 수요에도 영향을 줍니다."
+      },
+      {
+        "factor": "삼성전자",
+        "detail": "주요 매출처인 삼성전자의 글로벌 스마트폰 판매와 모델 전략 변화가 드림텍의 수요와 실적에 직접 연결됩니다."
+      },
+      {
+        "factor": "경쟁심화",
+        "detail": "경기 침체와 기존 사업분야의 경쟁 심화가 지속된다고 밝혀, 시장 경쟁 강도는 실적 변동 요인으로 작용합니다."
+      },
+      {
+        "factor": "신사업",
+        "detail": "회사가 신규사업 실적 가시화를 추진하고 있어, 신사업 진행 속도와 성과가 향후 실적 기대에 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 사업의 구성 및 세부 내용",
+        "evidence_text": "스마트폰, 웨어러블 기기 등 IT기기와 데이터센터, 서버 등에 사용되는 각종 PBA 모듈"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "가. 사업의 구성 및 세부 내용",
+        "evidence_text": "사업부문은 ... IMC ... BHC ... CCM 으로 구분할 수 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "IMC | 소계 | 575,742"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "BHC | 소계 | 194,939"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "CCM | 소계 | 459,842"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4647,
+    "completion_tokens": 908,
+    "reasoning_tokens": 0,
+    "output_tokens": 908
+  },
+  "warnings": []
+}

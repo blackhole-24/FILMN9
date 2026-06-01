@@ -1,0 +1,86 @@
+{
+  "stock_code": "010470",
+  "corp_name": "오리콤",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 09:47",
+  "meta": {
+    "wics": "광고",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "오리콤은 광고와 매거진을 함께 영위하는 일반서비스 기업입니다. 2015년 광고대행업체 한컴 지분 100%를 취득해 종합콘텐츠 그룹으로 성장했고, 현재는 오리콤과 한컴이 함께 광고대행 사업을 담당하고 있습니다. 매거진 부문에서는 Vogue, GQ, Allure, W 등의 잡지를 발행하고 있습니다.",
+    "business_model": "오리콤의 사업은 광고 부문과 매거진 부문으로 구성되어 있습니다. FY2025 사업부문별 영업수익은 매거진 부문 37.2%, 오리콤 34.2%, 한컴 29.0%로 나뉘며, 광고 부문은 광고물 제작·매체집행·시장조사·전시 및 이벤트 등을, 매거진 부문은 잡지 및 정기 간행물 발행을 통해 수익을 올립니다. 광고업은 경기와 광고 집행 강도에 영향을 많이 받고, 매거진 부문은 디지털 콘텐츠 경쟁력을 바탕으로 상품 다각화와 판매 확대를 추진하고 있습니다.",
+    "main_customers": "광고 부문 — 광고주, 기업 마케팅 담당자, 전시·이벤트 참여 수요처 / 매거진 부문 — 잡지 독자, 정기 간행물 구독자",
+    "price_factors": [
+      {
+        "factor": "경기변동",
+        "detail": "광고업은 경기호황 때 마케팅 예산이 늘고 경기침체 때 먼저 축소되는 경향이 있어 실적 변동성이 큽니다."
+      },
+      {
+        "factor": "디지털광고",
+        "detail": "모바일과 SNS를 비롯한 뉴미디어 광고시장이 성장하면 광고부문의 수주와 매출 확대에 도움이 됩니다."
+      },
+      {
+        "factor": "BTL시장",
+        "detail": "대형 전시회와 박람회 등 BTL(미디어를 매개하지 않은 프로모션) 시장이 커질수록 행사·프로모션 관련 수요가 늘어납니다."
+      },
+      {
+        "factor": "계절성",
+        "detail": "광고시장은 2분기와 4분기에 마케팅 활동이 활발해지는 성수기 영향으로 실적 흐름이 달라질 수 있습니다."
+      },
+      {
+        "factor": "디지털콘텐츠",
+        "detail": "매거진 부문은 디지털 콘텐츠 경쟁력 강화와 상품 다각화가 매출 확대에 직접적인 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사의 사업 영역은 광고 부문과 매거진 부문으로 구성되어 있습니다."
+      },
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "주식회사 한컴은 당사가 지분 100%를 취득함에 따라 2015년 8월 주요종속회사로 편입 되었으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "오리콤: 9,810 (34.2%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "매거진 부문: 84,733 (37.2%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "한컴: 8,980 (29.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "각종 광고물의 제작ㆍ매체집행ㆍ출판ㆍ시장조사"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "Vogue, GQ, Allure, W 등과 같은 잡지를 출판"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4227,
+    "completion_tokens": 990,
+    "reasoning_tokens": 0,
+    "output_tokens": 990
+  },
+  "warnings": []
+}

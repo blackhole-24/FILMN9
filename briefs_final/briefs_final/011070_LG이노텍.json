@@ -1,0 +1,81 @@
+{
+  "stock_code": "011070",
+  "corp_name": "LG이노텍",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 09:47",
+  "meta": {
+    "wics": "전자장비와기기",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "LG이노텍은 1970년 창립한 글로벌 소재·부품 전문기업으로, 모바일·자동차·디스플레이·반도체·사물인터넷 분야의 부품과 모듈을 폭넓게 다루고 있습니다. 국내외 8개 생산기반과 8개 판매거점을 갖추고 있으며, 광학솔루션 사업에서 글로벌 일등 지위를 유지하고 있습니다.",
+    "business_model": "회사는 현재 광학솔루션, 패키지솔루션, 모빌리티솔루션의 3개 사업부 체제로 운영됩니다. FY2025 기준 매출 비중은 광학솔루션 83.6%, 패키지솔루션 7.9%, 모빌리티솔루션 8.5%이며, 광학솔루션은 고사양 카메라 모듈, 패키지솔루션은 반도체기판과 POLED(플라스틱 유기발광다이오드) 관련 제품, 모빌리티솔루션은 차량용 부품 중심으로 구성됩니다. 회사는 AI(인공지능)·로봇·자율주행 등 고부가 응용처에 맞춘 차별화 기술과 자동화 공정 고도화를 통해 사업 경쟁력을 강화하고 있습니다.",
+    "main_customers": "광학솔루션 — 스마트폰 등 모바일 기기 제조사 / 패키지솔루션 — 모바일·IT·반도체 관련 고객사, 글로벌 전략 거래선 / 모빌리티솔루션 — 자동차 및 모빌리티 관련 고객사",
+    "price_factors": [
+      {
+        "factor": "카메라수요",
+        "detail": "고사양 카메라 모듈 채용이 늘면 광학솔루션 매출과 가격에 긍정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "기판수요",
+        "detail": "모바일 시장 수요 회복과 고성능·고집적 기판 수요 증가는 패키지솔루션 실적에 직접 영향을 줍니다."
+      },
+      {
+        "factor": "판가압력",
+        "detail": "고객사의 판가인하 요구가 커지면 제품 평균 판매가격과 수익성에 부담이 생길 수 있습니다."
+      },
+      {
+        "factor": "경쟁심화",
+        "detail": "시장경쟁이 심화되면 제품 가격 변동성이 커지고 사업부별 성장 속도에도 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "환율변동",
+        "detail": "환율 변동은 주요 제품의 가격 변동원인 중 하나로, 원가와 매출에 동시에 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "MD&A",
+        "evidence_text": "1970년 창립 이래 전자부품산업의 기술 발전을 선도해온 글로벌 소재·부품전문기업"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "광학솔루션 사업부문은 ... 글로벌 일등 지위를 유지하였습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "광학솔루션: 18,318,459 (83.6%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "패키지솔루션: 1,720,017 (7.9%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "모빌리티솔루션: 1,858,127 (8.5%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "스마트폰, 자동차, 반도체 및 IT, 가전 산업 등의 글로벌 전략 고객을 확대 발굴"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5013,
+    "completion_tokens": 970,
+    "reasoning_tokens": 0,
+    "output_tokens": 970
+  },
+  "warnings": []
+}

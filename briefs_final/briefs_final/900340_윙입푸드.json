@@ -1,0 +1,66 @@
+{
+  "stock_code": "900340",
+  "corp_name": "윙입푸드",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:48",
+  "meta": {
+    "wics": "식품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "윙입푸드는 중국 내수시장에서 육가공 식품을 제조·판매하는 기업으로, 전통식품·간편식품·냉동식품을 주요 제품으로 두고 있습니다. 4대째 구축해온 유통망과 67개의 대리상, 텐마오몰·징동 같은 온라인 채널을 통해 판매망을 넓히고 있으며, 대형마트 진출로 브랜드 인지도를 높이고 있습니다.",
+    "business_model": "사업은 전통식품, 간편식품, 냉동식품으로 나뉘며, FY2025 사업부문별 영업수익은 매출 574,543,609(73.4%)로 제시되어 있습니다. 제품은 100% 중국 내수시장에서 판매되며, 판매단가는 원재료 가격변동과 시장상황에 따라 달라집니다. 대형마트, 체인점, 전자상거래 등 다양한 유통경로를 활용하는 것이 수익 구조의 핵심입니다.",
+    "main_customers": "전통식품 — 화남·화동·서남지역의 30대 이상 성인 및 주부 / 간편식품 — 중국 내수시장 일반 소비자 / 냉동식품 — 중국 내수시장 일반 소비자",
+    "price_factors": [
+      {
+        "factor": "원재료",
+        "detail": "판매단가가 원재료 가격변동에 따라 달라져, 원재료 비용 상승은 실적에 부담이 될 수 있습니다."
+      },
+      {
+        "factor": "시장상황",
+        "detail": "시장상황 변화에 따라 판매단가가 변동해 매출과 수익성에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "내수수요",
+        "detail": "제품이 100% 중국 내수시장에서 판매되므로 중국 내 소비 수요 변화가 실적에 직접 연결됩니다."
+      },
+      {
+        "factor": "유통확대",
+        "detail": "대형마트, 체인점, 전자상거래로 판매망이 넓어질수록 제품 접근성이 높아져 판매에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "경쟁구도",
+        "detail": "중국 육가공 시장이 완전경쟁 상태라 경쟁이 치열하며, 유통과 브랜드 인지도가 중요하게 작용합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 ... 육가공 업체입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "■ 사업부문별 영업수익 구성 (FY2025) - 매출: 574,543,609 (73.4%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "주 고객층은 30대 이상 성인 및 주부입니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4065,
+    "completion_tokens": 729,
+    "reasoning_tokens": 0,
+    "output_tokens": 729
+  },
+  "warnings": []
+}

@@ -1,0 +1,71 @@
+{
+  "stock_code": "364950",
+  "corp_name": "에이아이코리아",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 17:49",
+  "meta": {
+    "wics": "전자장비와기기",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "에이아이코리아는 2차전지용 중앙전해액공급시스템(CESS)과 프로세스파이핑(배관 설계·제작·시공)을 주력으로 하는 기계·장비 기업으로, 반도체·디스플레이용 건식세정장비도 함께 공급합니다. 국내 배터리 제조사의 설비 구축 수요에 맞춰 설계·시공·유지보수까지 제공하는 핵심 공급자 위치를 차지하고 있습니다.",
+    "business_model": "수익 구조는 인프라(2차전지 CESS·프로세스파이핑)가 핵심으로, 시스템(건식세정장비)과 기타가 뒤따릅니다; 사업부문별 영업수익 구성은 인프라 91.4%, 시스템 7.7%, 기타 0.9%입니다. CESS(중앙전해액공급시스템)는 설계·시공·유지보수와 배관(프로세스파이핑) 공급을 통해 수주·시공 형태로 매출을 창출합니다.",
+    "main_customers": "인프라 — LG에너지솔루션·삼성SDI·SK온 등 2차전지 제조사 / 시스템 — 반도체·디스플레이 및 2차전지 생산공정 업체",
+    "price_factors": [
+      {
+        "factor": "전기차 수요",
+        "detail": "전기차 보급 확대에 따라 전기차용 배터리 제조시설 증설이 늘면 CESS 수요가 증가합니다."
+      },
+      {
+        "factor": "고객 신뢰",
+        "detail": "배터리 제조사는 안전성을 최우선으로 하여 경험과 레퍼런스를 보유한 공급사를 선호해 수주에 유리합니다."
+      },
+      {
+        "factor": "CESS 도입 비용구조",
+        "detail": "CESS는 초기 설치비용이 높지만 설치 후 운영비용이 낮아 대량 투입 프로젝트에서 채택 가능성이 큽니다."
+      },
+      {
+        "factor": "전방 투자변동",
+        "detail": "전방 산업의 투자 축소·지연 시 수주가 감소하여 매출에 직접적인 하방 압력이 생깁니다."
+      },
+      {
+        "factor": "환율",
+        "detail": "국제 영업활동으로 환율 변동에 노출되어 있어 환율 변동은 실적에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황 > 가. 인프라사업",
+        "evidence_text": "당사는 현재 국내 배터리 3사에 모두 CESS를 공급하는 핵심 업체이며,"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "인프라: 46,504,032 (91.4%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황 > 라. 산업 및 시장 개요",
+        "evidence_text": "LG에너지솔루션, 삼성SDI, SK온 등 2차전지 제조사 등이 주요 고객사입니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "이에 따른 수주 감소로 매출이 전년 대비 감소하였습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5210,
+    "completion_tokens": 6079,
+    "reasoning_tokens": 5248,
+    "output_tokens": 831
+  },
+  "warnings": []
+}

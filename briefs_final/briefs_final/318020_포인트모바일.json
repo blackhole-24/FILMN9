@@ -1,0 +1,72 @@
+{
+  "stock_code": "318020",
+  "corp_name": "포인트모바일",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 16:23",
+  "meta": {
+    "wics": "전자장비와기기",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "포인트모바일은 2006년 설립된 산업용 모바일 컴퓨터(PDA)의 개발·제조·판매 전문 기업으로, 자체 브랜드로 전 세계에 제품을 공급하는 수출 주도형 글로벌 기업입니다. 전체 매출의 85% 이상을 수출로 달성하며 글로벌 물류·유통 분야에 제품을 공급하고 있습니다.",
+    "business_model": "핵심 사업은 산업용 모바일 컴퓨터(PDA)를 중심으로 EDA, PDT, POS 단말기, 태블릿 PC 및 액세서리 등으로 구성되며, 세부 매출 비중은 EDA 42.9%, PDT 16.9%, 기타(액세서리 등) 23.3%, TABLET 3.1%, POS 1.0%입니다. 매출은 제품매출(87.2%)이 주를 이루며, 상품매출(5.9%)과 Warranty/A/S 등 용역매출(6.9%)로 구성되고, PMDM(MDM software) 등 단말기 관리 솔루션도 제공하고 있습니다.",
+    "main_customers": "PDT — 창고·물류·재고관리·의료관리 등 기업 고객 / EDA — 매장·현장 운영을 하는 기업 고객(리테일·현장관리 등) / POS — 유통·외식업 매장 운영자 / TABLET — 산업·상업 현장 및 외식업 매장 운영자 / 기타(ACC 등) — 단말기 확장 기능을 필요로 하는 기존 단말기 사용자 기업",
+    "price_factors": [
+      {
+        "factor": "수출비중",
+        "detail": "전체 매출의 85% 이상이 수출이어서 글로벌 수요 변동이 실적에 직결됩니다."
+      },
+      {
+        "factor": "기술융합",
+        "detail": "바코드·RFID 등 데이터 캡처와 AI/머신러닝 융합에 대한 경쟁력 확보가 제품 차별화에 영향을 줍니다."
+      },
+      {
+        "factor": "디지털전환",
+        "detail": "물류·유통 등의 디지털 전환 확대는 단말기 수요 확대와 실적 개선에 연동됩니다."
+      },
+      {
+        "factor": "보안규제",
+        "detail": "데이터 캡처 및 처리 관련 보안·개인정보 보호 규제 강화는 제품 설계·비용에 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "전체 매출의 85% 이상을 수출로 달성"
+      },
+      {
+        "field": "business_model",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "제품매출이 87.2%를 차지하고 있으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사의 주요 사업은 산업용 모바일 컴퓨터(PDA)를 중심으로"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 주요 제품 등의 현황",
+        "evidence_text": "주로 창고ㆍ재고관리ㆍ물류ㆍ의료관리 등의 분야에서 사용"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 산업의 특성 [AIDC 산업]",
+        "evidence_text": "바코드, QR 코드, RFID 등의 데이터 캡처 기술"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4928,
+    "completion_tokens": 4619,
+    "reasoning_tokens": 3776,
+    "output_tokens": 843
+  },
+  "warnings": []
+}

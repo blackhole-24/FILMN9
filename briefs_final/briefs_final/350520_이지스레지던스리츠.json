@@ -1,0 +1,69 @@
+{
+  "stock_code": "350520",
+  "corp_name": "이지스레지던스리츠",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 17:15",
+  "meta": {
+    "wics": "부동산",
+    "market": "KOSPI",
+    "has_revenue_data": false,
+    "tier": 4,
+    "tier_mode": "best_effort_summary",
+    "corp_type": "reit"
+  },
+  "brief": {
+    "company_overview": "이지스레지던스리츠는 2020년 2월 3일 설립된 부동산투자회사(REIT)로, 국토교통부 영업인가를 획득하고 2020년 8월 5일 한국거래소 유가증권시장에 상장한 회사입니다. 주로 부동산 자산을 운용해 그 수익을 주주에게 배당하는 것을 목적으로 합니다.",
+    "business_model": "이지스레지던스리츠는 부동산임대업을 단일사업으로 영위하며, 부동산의 취득·개발·관리·개량 및 처분 등을 통해 자산을 투자·운용하고 그 수익을 주주에게 배당합니다. 사업보고서상 사업부문별 매출 구성은 별도로 제시되지 않습니다.",
+    "main_customers": "부동산임대업 — 임차인(임대료 지불자)",
+    "price_factors": [
+      {
+        "factor": "경기상황",
+        "detail": "일반적으로 경기 상승 시 수익 창출이 확대되고 경기 하락 시 수익이 감소하는 경향이 있어 임대수익에 직접 영향합니다."
+      },
+      {
+        "factor": "정부정책",
+        "detail": "리츠 관련 규제 완화 및 활성화 정책은 리츠 산업의 성장 전망에 긍정적으로 작용합니다."
+      },
+      {
+        "factor": "임대수입 의존",
+        "detail": "대부분 리츠가 임대료를 수입의 기반으로 하고 있어 임대료 수준과 공실률 변동이 실적에 직접적 영향을 미칩니다."
+      },
+      {
+        "factor": "투자자확대",
+        "detail": "공모상장 리츠의 확대는 기관 중심에서 개인 투자자로 투자자 범위가 확대되는 점이 수요 기반에 영향을 미칠 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "다. 영업의 개요",
+        "evidence_text": "회사는 2020년 2월 3일 설립된 부동산투자회사로, 2020년 4월 3일 국토교통부의 영업인가를 득하였습니다."
+      },
+      {
+        "field": "company_overview",
+        "source_section": "다. 영업의 개요",
+        "evidence_text": "회사는 2020년 8월 5일자로 한국거래소 유가증권시장에 상장하였습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "다. 영업의 개요",
+        "evidence_text": "회사는 현재 부동산임대업(부동산 취득, 관리, 개량 및 처분 등)의 단일사업을 영위하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나. 리츠 산업의 특성",
+        "evidence_text": "리츠 시장의 경기변동 특성 및 계절성은 명확히 확인된 바 없으나, ... 경기 상승시 수익 창출이 확대 되며, 경기 하락시 수익이 감소하는 경향이 있을 것으로 보입니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4179,
+    "completion_tokens": 5436,
+    "reasoning_tokens": 4672,
+    "output_tokens": 764
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

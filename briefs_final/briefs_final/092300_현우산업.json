@@ -1,0 +1,67 @@
+{
+  "stock_code": "092300",
+  "corp_name": "현우산업",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 07:19",
+  "meta": {
+    "wics": "전자장비와기기",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "현우산업은 인쇄회로기판(PCB)을 주요 제품으로 생산·판매하는 전자부품 전문회사로, 자동차 전장 및 전기차, 디스플레이, 정보통신 분야의 국내외 고객사에 PCB를 공급하고 있습니다. 매출은 내수 53.0%, 수출(직수출 및 LOCAL) 47.0%의 구성을 보입니다.",
+    "business_model": "핵심 사업은 PCB 제조·공급으로 단일 사업부문(PCB사업) 중심의 매출 구조이며, FY2025 기준 PCB사업 매출 비중은 8.9%입니다. 주문자형(고객 설계 수주) 생산 방식을 바탕으로 자동차 전장·디스플레이·정보통신용 고정밀 PCB를 공급하며, 설비투자와 공정관리(환경·배출물 관리)가 중요한 자본집약적 사업입니다.",
+    "main_customers": "PCB사업 — 자동차·전기차 전장 분야의 국내외 주요 고객사 / 디스플레이 분야 — 국내외 주요 고객사 / 정보통신 분야 — 국내외 주요 고객사",
+    "price_factors": [
+      {
+        "factor": "기술경쟁력",
+        "detail": "첨단 PCB(고밀도·RF 등) 기술 확보 여부가 품질·수주에 직결되어 실적 변동성을 좌우합니다."
+      },
+      {
+        "factor": "주문·납기",
+        "detail": "주문자형 생산 특성상 고객 발주량과 납기 준수가 매출과 고객관계에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "환율노출",
+        "detail": "수출 비중이 높은 구조로 환율 변동(USD·JPY 등)이 매출과 현금흐름에 민감하게 작용합니다."
+      },
+      {
+        "factor": "환경규제",
+        "detail": "PCB 제조공정의 배출물 관리 및 방지시설 운영이 비용과 생산조건에 영향을 미칠 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "당사는 인쇄회로기판(PCB)을 주요제품으로 생산 및 판매하는 전자부품 전문회사입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "PCB사업: 21,050 (8.9%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "자동차 및 전기차전장 분야, 디스플레이 분야, 정보통신 분야"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "당사의 PCB는 자동차와 디스플레이산업 및 정보통신의 경기와 밀접한 관련이 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4230,
+    "completion_tokens": 3425,
+    "reasoning_tokens": 2688,
+    "output_tokens": 737
+  },
+  "warnings": []
+}

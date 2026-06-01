@@ -1,0 +1,67 @@
+{
+  "stock_code": "119650",
+  "corp_name": "KC코트렐",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 11:54",
+  "meta": {
+    "wics": "상업서비스와공급품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "KC코트렐은 1973년 설립된 대기환경 엔지니어링 전문업체로, 2010년 지주회사 체제 전환에 따라 KC그린홀딩스와 인적 분할되어 사업회사로 환경엔지니어링 사업을 영위하고 있습니다. 국내외 다수의 환경설비 프로젝트를 수행하며 대기오염 저감 설비 공급·운영을 핵심 사업으로 삼고 있습니다.",
+    "business_model": "주요 사업은 환경엔지니어링사업부문(대기환경설비 공급·유지보수·운영관리 및 기술컨설팅)으로 구성되며, 사업부문별 매출에서 해당 부문 비중은 제16기에 매출액 192,873백만원으로 매출의 100%를 차지합니다. CCUS(이산화탄소 포집·활용) 등 연구사업과 설비의 유지보수·운영관리도 수익원으로 포함됩니다.",
+    "main_customers": "환경엔지니어링사업부문 — 석탄화력발전소·제철소·시멘트·석유화학 업종 등 대규모 배출사업장",
+    "price_factors": [
+      {
+        "factor": "규제 준수",
+        "detail": "대기환경보전법 등 환경·안전 관련 법규 미준수 시 입찰 제한·성능보증 실패로 영업 손실이 발생할 수 있습니다."
+      },
+      {
+        "factor": "프로젝트 의존",
+        "detail": "대형 환경설비 프로젝트 수주·완료 실적에 따라 매출이 큰 폭으로 변동할 수 있습니다."
+      },
+      {
+        "factor": "환경시장 수요",
+        "detail": "세계 환경시장과 아시아 신흥국의 성장 추세가 장기 수요에 영향을 미쳐 실적에 플러스 요인이 될 수 있습니다."
+      },
+      {
+        "factor": "재무 여건",
+        "detail": "누적 적자·재무적 어려움은 회사의 사업 지속성과 신규 수주 여건에 부담을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "KC코트렐㈜는 1973년 대기환경엔지니어링 전문업체로 설립되어"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[표] 가. 주요제품 등의 현황",
+        "evidence_text": "환경엔지니어링사업부문 ... 192,873 | 100"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "주요 고객은 석탄화력발전소, 제철소, 시멘트, 석유화학 업종"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "회사 자체의 존폐 위기에까지 몰렸었습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4592,
+    "completion_tokens": 3637,
+    "reasoning_tokens": 2880,
+    "output_tokens": 757
+  },
+  "warnings": []
+}

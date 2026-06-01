@@ -1,0 +1,67 @@
+{
+  "stock_code": "001130",
+  "corp_name": "대한제분",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 17:17",
+  "meta": {
+    "wics": "식품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "대한제분은 1953년 소맥분 제조 및 판매를 목적으로 설립된 제분업체로, 밀가루 브랜드 '곰표' 등 다수의 지적재산권을 보유하고 있습니다. 제분업계 가공량 및 시장점유율 1위를 달성하며 업계 내 리더십을 확보하고 있습니다.",
+    "business_model": "주요 사업은 소맥분(밀가루) 제조·도매로, 제품군에는 소맥분·프리믹스·각종 사료·반려동물 사료·식음료 등이 포함되며, [사업부문별 매출 구성]상 제조·도매(소맥분외) 매출이 100%를 차지합니다. 대표 브랜드 '곰표' 등 보유 상표를 통해 제품을 판매하는 것이 핵심 수익원입니다.",
+    "main_customers": "제조·도매 — 제과·제면업체, 제빵(베이커리)·라면 제조업체, 축산·사료업체 및 반려동물 관련 사업자, 음료·외식업체",
+    "price_factors": [
+      {
+        "factor": "원맥가격",
+        "detail": "주원료인 원맥의 대부분을 수입에 의존하므로 국제곡물 가격과 환율 변동이 원가 및 실적에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "가동률",
+        "detail": "시설 과잉과 가동률 저하로 고정비 부담이 커져 수익성이 악화될 수 있습니다."
+      },
+      {
+        "factor": "가격민감도",
+        "detail": "정부·소비자단체의 가격 민감성과 대형 거래처의 구매 교섭력 강화로 제품 가격의 탄력성이 낮아져 수익에 제약이 발생할 수 있습니다."
+      },
+      {
+        "factor": "사료수요",
+        "detail": "저급 제품·부산물 수요가 축산업 및 사료산업 동향에 연동되어 수익성 변동 요인이 됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 소맥분 제조 및 판매 등을 영위할 목적으로 1953년 설립되었습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "456,570(100%)"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "[경영진 실적·전략 요약 (MD&A)]",
+        "evidence_text": "제분업계 가공량 및 시장점유율 1위를 달성"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "[경쟁 환경 및 시장 특성 — price_factors 참고용]",
+        "evidence_text": "주원료인 원맥의 국내 생산량은 전체 소요량의 2% 미만"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4146,
+    "completion_tokens": 3741,
+    "reasoning_tokens": 3008,
+    "output_tokens": 733
+  },
+  "warnings": []
+}

@@ -1,0 +1,66 @@
+{
+  "stock_code": "024740",
+  "corp_name": "한일단조",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 22:54",
+  "meta": {
+    "wics": "자동차부품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "한일단조는 단조(금속을 불에 달구어 두들겨 성형하는 공정) 전문 기업으로, 자동차 동력 전달 장치와 산업장비 부품 및 방산 관련 품목을 공급하는 제조업체입니다. 2025년 연결 매출은 1,266억원이며, 국내와 태국 법인을 통해 글로벌 생산기반을 운영하고 있습니다.",
+    "business_model": "핵심 수익원은 단조부품 제조·납품으로, 사업부문별 FY2025 영업수익 구성은 한일단조공업(주)이 46.4%, HANIL FORGING(THAILAND) Co., Ltd가 25.3%를 차지합니다. 주요 제품은 자동차 동력전달용 기어류 및 산업·방산용 단조부품이며, 주문생산 기반으로 거래선과의 장기 협력이 중요합니다.",
+    "main_customers": "자동차 부품 — 완성차업체 / 산업장비 부품 — 제조업·플랜트 업체 / 방산품 — 방위사업 관련 발주처",
+    "price_factors": [
+      {
+        "factor": "원자재 수급",
+        "detail": "탄소강·합금강 수급 불안 및 가격 변동이 원가에 직접 영향을 미칩니다."
+      },
+      {
+        "factor": "완성차 수요",
+        "detail": "완성차업체의 생산·판매 변동에 따라 매출과 가동률이 민감하게 변화합니다."
+      },
+      {
+        "factor": "환율 변동",
+        "detail": "판매단가가 환율에 연동되어 있어 환율 변화가 원화 매출에 영향을 줍니다."
+      },
+      {
+        "factor": "납품단가 압력",
+        "detail": "발주처의 원가절감 요구로 납품단가 인하 압력이 실적에 부담을 줄 수 있습니다."
+      },
+      {
+        "factor": "규제·환경",
+        "detail": "소음·진동 관리, 방산 관련 보안 통제, 환경인증 유지 등이 사업 운영 리스크 및 비용요인입니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "당사는 단조 회사로 자동차 동력 전달 장치, 산업장비 부품공급, 방산산업을 영위하는 회사입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "한일단조공업(주): 58,769 (46.4%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 1. 업계의 현황",
+        "evidence_text": "국내 단조산업은 자동차 및 산업장비 부품공급 산업으로"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4261,
+    "completion_tokens": 4095,
+    "reasoning_tokens": 3392,
+    "output_tokens": 703
+  },
+  "warnings": []
+}

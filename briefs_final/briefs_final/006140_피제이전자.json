@@ -1,0 +1,62 @@
+{
+  "stock_code": "006140",
+  "corp_name": "피제이전자",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 19:31",
+  "meta": {
+    "wics": "건강관리장비와용품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "피제이전자는 EMS(전자제품 위탁생산) 개념을 1990년대 중반 도입한 국내의 선도적인 EMS 서비스 회사로, 초음파진단기를 중심으로 한 의료용기기와 자동차 전장 부품 등의 제조를 수행하고 있습니다. 보고서는 생산장비의 우수성과 부품 구매력을 바탕으로 국내에서 상위권의 생산능력을 유지하고 있다고 설명합니다.",
+    "business_model": "핵심은 EMS(전자제품 위탁생산)로, 기획·개발을 제외한 구매·생산·유지보수 등 제조 전(全) 밸류체인을 제공하는 사업구조입니다. 사업부문별 매출 구성은 제품(초음파진단장비 등) 96.3%, 상품 1.6%, 임가공·기타 2.1%로 제품 매출이 대부분을 차지합니다.",
+    "main_customers": "의료기기 — GE, SIEMENS, SAMSUNG MEDISON / 자동차전장 — Hyundai Mobis, INFAC",
+    "price_factors": [
+      {
+        "factor": "기술개발 속도",
+        "detail": "제품 기술 개발 속도가 빠를수록 신제품 수주 경쟁력에 직접 영향을 미쳐 실적 변동성이 커질 수 있습니다."
+      },
+      {
+        "factor": "생산설비 투자",
+        "detail": "생산장비의 우수성 및 교체·확충 수준이 생산능력과 품질 확보에 직결되어 수주 확보에 영향을 줍니다."
+      },
+      {
+        "factor": "부품구매력",
+        "detail": "우수한 부품 구매력을 통한 원가 경쟁력이 확보되면 이익률 방어에 유리합니다."
+      },
+      {
+        "factor": "대형고객 수주",
+        "detail": "GE·SIEMENS·SAMSUNG MEDISON 등 대형 의료기기 고객의 수주 변동이 매출에 큰 영향을 미칠 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "나. 회사의 현황",
+        "evidence_text": "국내의 선도적인 EMS 서비스 회사입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "172,018(96.3%) 2,796(1.6%) 3,738(2.1%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "나. 회사의 현황 (1) 영업개황 및 사업부문의 구분",
+        "evidence_text": "당사는 GE, SIEMENS 및 SAMSUNG MEDISON BRAND로"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3875,
+    "completion_tokens": 3405,
+    "reasoning_tokens": 2752,
+    "output_tokens": 653
+  },
+  "warnings": []
+}

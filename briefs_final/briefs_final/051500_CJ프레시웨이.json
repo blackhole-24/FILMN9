@@ -1,0 +1,67 @@
+{
+  "stock_code": "051500",
+  "corp_name": "CJ프레시웨이",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 12:13",
+  "meta": {
+    "wics": "식품과기본식료품소매",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "1988년 설립된 CJ프레시웨이는 대한민국을 대표하는 식자재 유통 및 푸드서비스(단체급식) 기업으로, 전국 규모의 콜드체인 물류망과 위생·안전 시스템을 보유하고 있습니다. 전사적 디지털 전환과 밸류체인별 혁신을 통해 푸드 비즈니스 파트너로서 고객 맞춤형 솔루션을 제공하고 있습니다.",
+    "business_model": "주된 수익원은 가공상품(47.6%), 제품(23.9%), 농산물(10.9%), 축산물(10.3%), 수산물(6.3%), 기타(1.0%) 등 상품 판매 및 유통이며(사업부문별 매출 구성 기준), 식자재유통과 단체급식(푸드서비스)을 중심으로 물류·IT 기반의 O2O(Online to Offline) 유통과 제조(프레시플러스)를 연계하여 부가서비스(메뉴·조리·위생교육·컨설팅 등)를 제공합니다.",
+    "main_customers": "식자재유통 — 식품대리점·급식업체·체인레스토랑·일반식당·호텔 / 푸드서비스 — 산업체·오피스·병원·골프장·컨세션 등 전국 600여 개 사업장 / 제조 — CJ프레시웨이의 유통·푸드서비스 부문(프레시플러스 중심)",
+    "price_factors": [
+      {
+        "factor": "외식경기",
+        "detail": "외식 산업의 침체(외식 경기 둔화)는 식자재 유통 및 단체급식 수요에 직접적인 하방 압력을 줄 수 있습니다."
+      },
+      {
+        "factor": "원재료가격",
+        "detail": "농·수·축산물 가격(원가) 변동은 마진과 비용구조에 영향을 미쳐 실적 변동성을 키울 수 있습니다."
+      },
+      {
+        "factor": "물류인프라",
+        "detail": "콜드체인 및 물류 역량 경쟁은 공급 안정성과 비용 효율성에 직결되어 영업성과에 영향을 줍니다."
+      },
+      {
+        "factor": "O2O·디지털",
+        "detail": "O2O(온라인→오프라인) 주문·데이터 역량 강화는 고객 맞춤화와 운영 효율성에 영향을 주어 수익구조 개선 요인이 될 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "CJ프레시웨이는 대한민국 대표 식자재유통 및 푸드서비스(단체급식) 기업입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "가공상품: 1,655,685 (47.6%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "(1) 식자재유통 사업",
+        "evidence_text": "식품대리점, 급식업체, 체인레스토랑, 일반식당, 호텔"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "외식 경기 둔화와 고물가 환경 지속"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5315,
+    "completion_tokens": 4791,
+    "reasoning_tokens": 3968,
+    "output_tokens": 823
+  },
+  "warnings": []
+}

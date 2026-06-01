@@ -1,0 +1,77 @@
+{
+  "stock_code": "340810",
+  "corp_name": "시선AI",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 16:56",
+  "meta": {
+    "wics": "소프트웨어",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "시선AI는 Vision AI(영상 기반 인공지능) 기술을 핵심으로 얼굴인식·객체인식·지속인증 솔루션을 개발하는 소프트웨어 중심의 기업입니다. 공항·공공기관·금융권 등 물리·논리 보안 영역을 중심으로 대외 레퍼런스를 확보하고 자회사 협력을 통해 로봇·핀테크 등으로 사업 포트폴리오를 확장하고 있습니다.",
+    "business_model": "주요 수익원은 얼굴인식·인증 및 객체인식 솔루션과 SI(시스템 통합) 사업으로 구성되며, 제품군으로는 SEEU ON(지속인증 화면정보 보호), SEEU ID(본인인증), SEEU FACE(출입관리), SEEU LINE(공항 신원확인), SEEU X-RAY(휴대 수하물 보안) 등이 있습니다. 사업부문별 FY2025 영업수익 구성은 AI 얼굴인식 시스템 29.0%, AI 얼굴인증 솔루션 31.0%, AI 객체인식 솔루션 4.0%, AI 로봇 솔루션 6.0%, SI사업 24.0%, 기타 7.0%로 나타났습니다.",
+    "main_customers": "AI 얼굴인식 시스템 — 공항·항만·정부청사 등 공공 인프라 / AI 얼굴인증 솔루션 — 금융권·비금융권(고객·회원 인증) / AI 객체인식 솔루션 — 공항 보안(X-Ray 기반) 및 보안 담당 기관 / AI 로봇 솔루션 — 피지컬 AI 시장(유온로보틱스와 협력) / SI사업 — 공공기관(철도·교통 등) / 기타 — 대기업·공공기관 등",
+    "price_factors": [
+      {
+        "factor": "개인정보 규제",
+        "detail": "얼굴인식 정보가 민감정보로 분류되어 관련 법(개인정보 보호법) 준수·동의 절차가 강화되면 사업 도입과 데이터 활용에 제약이 생겨 실적에 영향이 될 수 있습니다."
+      },
+      {
+        "factor": "공공 발주·예산",
+        "detail": "공공기관 예산 감축 및 발주 지연은 기존 물리보안·SI 중심 매출이 줄어드는 요인으로 작용합니다."
+      },
+      {
+        "factor": "대기업 참여 규정",
+        "detail": "공공 소프트웨어 사업에서의 대기업 참여 제한 규정은 중소 소프트웨어 사업자인 당사에 수주 기회를 유리하게 만들거나, 관련 규정 변화 시 경쟁 구도가 달라질 수 있습니다."
+      },
+      {
+        "factor": "보안사고 증가",
+        "detail": "개인정보·기업 정보 유출 사고 증가로 지속인증 등 논리보안 수요가 확대되어 논리보안 제품 매출 확장에 긍정적 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "Vision AI에 집중하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "AI 얼굴인증 솔루션: 4,337 (31.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "대기업, 공공기관 등을 대상으로 사업을 확대하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "산업 법령 및 정부 규제",
+        "evidence_text": "얼굴인식 정보를 민감정보로 규정하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "대기업 참여를 제한하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "2025년 당사의 매출액은 전년 대비 감소하였으며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5839,
+    "completion_tokens": 4649,
+    "reasoning_tokens": 3648,
+    "output_tokens": 1001
+  },
+  "warnings": []
+}

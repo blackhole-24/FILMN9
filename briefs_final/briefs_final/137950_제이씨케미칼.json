@@ -1,0 +1,62 @@
+{
+  "stock_code": "137950",
+  "corp_name": "제이씨케미칼",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 09:56",
+  "meta": {
+    "wics": "에너지장비및서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "제이씨케미칼은 바이오디젤·바이오중유 등 신재생에너지형 바이오연료를 제조·판매하는 기업입니다. 국내 최초 연속식 바이오디젤 생산공정을 자체 설계해 생산능력을 확대해 왔으며, 울산 신항공장 등 물류·정제 인프라를 확보해 원가경쟁력을 강화했습니다.",
+    "business_model": "주요 사업은 바이오연료(바이오디젤, 바이오중유)와 팜 플랜테이션(CPO, PK)으로 구성되며, 2025년 PTU(전처리 폐식용유) 생산 능력 증설 등 원료 전처리·제품 다변화로 수익구조를 강화하고 있습니다. 재무실적 기준으로는 바이오연료 매출이 전체의 약 80.5%, Palm Plantation 매출이 약 19.5%를 차지합니다.",
+    "main_customers": "바이오연료 — 정유사·발전사·Global 수요처 / Palm Plantation — CPO·PK 구매자(개별 거래처 미기재)",
+    "price_factors": [
+      {
+        "factor": "의무혼합율",
+        "detail": "정부의 수송용 연료 RFS(의무혼합) 비율 상향은 바이오디젤 수요 확대를 통해 실적에 긍정적 영향을 미칩니다."
+      },
+      {
+        "factor": "원료 다변화",
+        "detail": "저가 원재료의 탈산·전처리 설비와 PTU 생산 확대는 원가경쟁력 개선으로 영업이익에 직접 영향합니다."
+      },
+      {
+        "factor": "저장·물류비용",
+        "detail": "울산 신항공장 탱크터미널 보유로 임차료와 입출하 비용 절감이 가능해 수익성에 유리하게 작용합니다."
+      },
+      {
+        "factor": "글로벌 수요",
+        "detail": "PTU 및 고품질 바이오디젤에 대한 해외 수요 확대는 수출 매출 확대와 실적 변동성에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황 > 가. 바이오연료",
+        "evidence_text": "당사는 신재생에너지인 바이오연료 중 바이오디젤 및 바이오중유 등을 제조ㆍ판매 하는 기업으로서"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황 > [사업부문별 주요제품 및 실적]",
+        "evidence_text": "바이오연료 295,817,002"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "정유사에 바이오디젤(BD100)을 안정적으로 공급하고 있고"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3924,
+    "completion_tokens": 3740,
+    "reasoning_tokens": 3008,
+    "output_tokens": 732
+  },
+  "warnings": []
+}

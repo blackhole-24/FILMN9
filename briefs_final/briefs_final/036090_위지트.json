@@ -1,0 +1,66 @@
+{
+  "stock_code": "036090",
+  "corp_name": "위지트",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 09:57",
+  "meta": {
+    "wics": "디스플레이장비및부품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "위지트는 반도체 및 디스플레이 제조용 장비 핵심부품을 만드는 기업입니다. 1997년 국내 최초로 디스플레이 소모성 부품인 상부전극의 국산화 개발에 성공한 이후, 수입 부품의 국산화와 성능 개선을 이어오며 기술력과 생산 인프라를 쌓아왔습니다.",
+    "business_model": "주요 매출은 Display 장비부품 71.0%, 반도체 장비부품 27.0%, 기타 2.0%로 구성됩니다. 디스플레이와 반도체 제조 공정에 쓰이는 소모성 부품(일정 기간 사용 후 교체·재생하는 부품)을 정밀가공, 표면처리, 클린룸(청정 생산시설) 기반으로 생산하며, 국내외 제조업체에 공급하는 구조입니다.",
+    "main_customers": "Display 장비부품 — 국내외 디스플레이 제조업체 / 반도체 장비부품 — 국내외 반도체 제조업체 / 기타 — 제공된 데이터에서 고객 유형 미기재",
+    "price_factors": [
+      {
+        "factor": "설비투자",
+        "detail": "반도체·디스플레이 제조사의 설비투자 계획이 늘면 부품 수요가 함께 증가할 수 있습니다."
+      },
+      {
+        "factor": "업황변동",
+        "detail": "LCD, OLED 등 전방 디스플레이 업황이 둔화되면 장비부품 수요도 영향을 받을 수 있습니다."
+      },
+      {
+        "factor": "공급난",
+        "detail": "반도체 시장의 공급난과 성장 국면은 관련 장비부품 매출 확대에 직접적인 변수로 작용합니다."
+      },
+      {
+        "factor": "규제비용",
+        "detail": "환경 관련 규제 대응이 필요해 운영비용과 관리 부담이 실적에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "품질진입",
+        "detail": "품질인증에 6개월~1년 이상 걸리는 특성 때문에 신규 경쟁사의 진입이 어려워 기존 공급사의 지위에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황 > 1) 회사의 현황",
+        "evidence_text": "당사는 반도체 및 디스플레이 제조용 장비 핵심부품 제조 전문기업입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "Display 장비부품: 25,607,634 (71.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황 > 1) 회사의 현황",
+        "evidence_text": "국내외 유수의 반도체 및 디스플레이 제조 업체에 공급하고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4299,
+    "completion_tokens": 713,
+    "reasoning_tokens": 0,
+    "output_tokens": 713
+  },
+  "warnings": []
+}

@@ -1,0 +1,67 @@
+{
+  "stock_code": "083470",
+  "corp_name": "이엠앤아이",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 06:20",
+  "meta": {
+    "wics": "디스플레이장비및부품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "이엠앤아이는 OLED 소재를 중심으로 연구·설계·합성·양산 역량을 보유한 화학업체입니다. 2020년 OLED 소재 전문기업 ㈜이엠인덱스를 흡수합병하여 OLED 소재 전과정을 수행할 수 있는 능력을 확보했으며, 팹리스(생산 일부를 외주화하는 경영방식)로 원가 경쟁력과 기민한 대응력을 추구하고 있습니다.",
+    "business_model": "주력 사업은 OLED 소재로 FY2025 영업수익의 95.0%를 차지하며, 나머지 프로세스 솔루션 사업외가 5.0%를 구성합니다. 당사는 발광층용 레드호스트 공급과 글로벌 파트너(썸머스프라우트)와의 협력, 중수소화(중수소로 치환해 소자 수명·안정성·효율을 개선) 특허 기술 및 AI 기반 디지털 신소재 연구 플랫폼을 통해 제품 개발과 생산 효율을 강화하고 있습니다.",
+    "main_customers": "OLED — 디스플레이 패널 제조사 및 글로벌 파트너사(예: 썸머스프라우트) / 프로세스 솔루션 사업외 — 인도 지역 배터리 관련 기업 및 유통(예: LG에너지솔루션의 NMC 배터리 공식 판매 대리점 역할)",
+    "price_factors": [
+      {
+        "factor": "원재료비",
+        "detail": "원부재료 및 인건비 상승은 제품 단가와 수익성에 직접적인 영향을 미치며, 회사는 원가절감 활동으로 대응하고 있습니다."
+      },
+      {
+        "factor": "기술개발",
+        "detail": "OLED 소재는 지속적 소재 혁신이 수요와 마진을 좌우하므로 신소재(중수소화 등) 개발 성과가 실적에 중요하게 작용합니다."
+      },
+      {
+        "factor": "경쟁심화",
+        "detail": "글로벌 기업들의 기술·생산 능력 확대는 가격경쟁과 시장점유율에 영향을 주어 회사의 영업전략과 수익성에 변동을 줄 수 있습니다."
+      },
+      {
+        "factor": "수요변동",
+        "detail": "스마트폰·TV 등 전자기기용 OLED 채택 확대 또는 축소는 소재 수요와 매출에 직접적인 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "OLED 소재의 설계-합성-양산 전과정을 수행할 수 있는 역량"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "OLED: 17,383 (95.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 각 사업부문의 시장여건 및 영업의 개황 (1) OLED 산업 개요",
+        "evidence_text": "● 스마트폰 ● 테블릿 PC ● 노트북 ● TV ● 차량용 디스플레이"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나. 주요 제품의 가격 변동 추이",
+        "evidence_text": "주된 가격변동 추이는 원부재료의 상승과 인건비 상승"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4496,
+    "completion_tokens": 3513,
+    "reasoning_tokens": 2688,
+    "output_tokens": 825
+  },
+  "warnings": []
+}

@@ -1,0 +1,67 @@
+{
+  "stock_code": "357230",
+  "corp_name": "에이치피오",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 17:36",
+  "meta": {
+    "wics": "건강관리업체및서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "에이치피오는 북유럽 철학을 담은 프리미엄 브랜드 Denps를 기반으로 아시아·유럽에서 건강기능식품의 개발·제조·판매를 주력으로 하는 기업입니다. 2016년 덴마크 현지법인 설립과 2019년 ㈜비오팜 인수로 제조 역량을 확보해 자체 브랜드 운영과 생산을 병행하고 있습니다.",
+    "business_model": "수익 구조는 건강기능식품(80.3%)을 중심으로 상품매출(11.5%), 주니어 라이프(6.6%), 임가공매출(1.2%), 기타(0.4%)로 구성됩니다. Denps 브랜드의 제품 기획·브랜딩을 통해 최종 소비자(브랜드회사 포함)에 판매하는 한편, ㈜비오팜을 통한 제조 내재화로 자체생산과 외부 임가공(제조 수주)을 병행하는 모델입니다.",
+    "main_customers": "건강기능식품 — 브랜드회사(자체 브랜드 포함) 및 최종 소비자 / 임가공매출 — 다수의 브랜드회사(제조의뢰 고객) / 주니어 라이프 — 주니어·패밀리 소비자",
+    "price_factors": [
+      {
+        "factor": "소비심리",
+        "detail": "국내 소비심리 위축은 건강기능식품 전반의 수요 감소로 매출에 직결될 수 있습니다."
+      },
+      {
+        "factor": "원료집중도",
+        "detail": "프로바이오틱스·비타민 등 상위 원료 비중이 높아 관련 원료 경쟁과 트렌드 변화에 민감합니다."
+      },
+      {
+        "factor": "환율·원가",
+        "detail": "수입 원가 상승과 외환 위험 노출은 원가 부담을 높여 수익성에 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "임가공수요",
+        "detail": "비오팜의 외부거래 비중이 높아(외부 수주 변동)에 따라 제조 부문 실적 변동성이 발생할 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "프리미엄 브랜드 『Denps』를 기반으로"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "건강기능식품: 186,328 (80.3%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "나. 시장의 현황",
+        "evidence_text": "당사의 주요사업은 건강기능식품 사업, 주니어라이프 사업으로 구성되어 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나. 시장의 현황",
+        "evidence_text": "소비 심리가 위축되고 물가 부담이 지속"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4977,
+    "completion_tokens": 4963,
+    "reasoning_tokens": 4224,
+    "output_tokens": 739
+  },
+  "warnings": []
+}

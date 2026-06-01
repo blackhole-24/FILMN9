@@ -1,0 +1,91 @@
+{
+  "stock_code": "105740",
+  "corp_name": "디케이락",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 08:27",
+  "meta": {
+    "wics": "기계",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "디케이락은 계장용 Fittings·Valves를 정밀 가공해 국내외에 공급하는 기계부품 전문기업으로, 자체 브랜드 DK-Lok으로 Exxon Mobil, DOW, 현대중공업 등 약 300여개 거래처에 제품을 공급합니다. 전체 매출의 76%가 수출로 이루어져 수출 중심의 매출구조를 가지고 있습니다.",
+    "business_model": "주요 제품은 Fitting(매출의 56.13%), Valve(29.67%)이며, 이 외에 상품(11.17%)과 기타(3.03%)가 있습니다(합계 111,617백만원). Fitting과 Valve는 배관·유체제어용 정밀부품으로 플랜트·조선·발전 등 광범위한 전방산업에 주문생산 방식으로 공급되어 안정적인 부가가치가 형성됩니다.",
+    "main_customers": "제품(Fitting/Valve) — Offshore/Onshore, 석유·정유·화학, CNG/NGV, 조선엔진 등 전방산업 / 수출 고객 — 다국적 정유·플랜트·조선업체(Exxon Mobil, DOW, 현대중공업 등)",
+    "price_factors": [
+      {
+        "factor": "원자재가격",
+        "detail": "원자재 가격 변동이 판매가격과 수익성에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "수출의존도",
+        "detail": "전체 매출의 높은 수출 비중으로 해외 수요·환율 변동에 실적 민감도가 큽니다."
+      },
+      {
+        "factor": "인증·품질",
+        "detail": "선급·시스템 인증과 품질·안전성 인지도가 확보 여부에 따라 거래선 확대가 좌우됩니다."
+      },
+      {
+        "factor": "경쟁강도",
+        "detail": "국제적 강자인 SWAGELOK·PARKER 등과의 경쟁에서 가격·기술 경쟁이 실적에 영향합니다."
+      },
+      {
+        "factor": "전방산업수요",
+        "detail": "조선·플랜트·발전 등 전방산업의 투자 흐름이 제품 수요에 직결됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 회사의 현황",
+        "evidence_text": "전체 매출의 76%는 수출입니다."
+      },
+      {
+        "field": "company_overview",
+        "source_section": "가. 회사의 현황",
+        "evidence_text": "Exxon Mobil, DOW, 현대중공업 등 300여개 거래처에"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "DK-LOKFitting 62,655(56.13)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "DK-LOKValve 33,121(29.67)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "나. 시장여건 및 영업개황",
+        "evidence_text": "Offshore/Onshore, 석유/정유/화학, CNG/NGV, 조선엔진 등"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 회사의 현황",
+        "evidence_text": "원자재 가격의 변동성에 따라 판매가격의 변화가 심하게 나타나는 특징"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나. 시장여건 및 영업개황",
+        "evidence_text": "정밀 가공할 수 있는 기계장치 확보가 필수적인 요소"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나. 시장여건 및 영업개황",
+        "evidence_text": "미국의 SWAGELOK사와 PARKER사가 시장점유율 1~2위를 보이고"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5423,
+    "completion_tokens": 5588,
+    "reasoning_tokens": 4608,
+    "output_tokens": 980
+  },
+  "warnings": []
+}

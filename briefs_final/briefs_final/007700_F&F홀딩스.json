@@ -1,0 +1,67 @@
+{
+  "stock_code": "007700",
+  "corp_name": "F&F홀딩스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 19:54",
+  "meta": {
+    "wics": "섬유,의류,신발,호화품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "F&F홀딩스는 2021년 패션사업부문을 분할하여 지주회사로 전환한 기업으로, 지분관리와 투자를 주된 사업으로 영위합니다. 보고서 작성 기준일 현재 15개의 종속회사와 총 21개의 계열회사를 두고 있으며 F&F 브랜드 권리(상표권) 보유로 사용수익과 자회사로부터의 배당수익, 보유 건물 임대료를 매출로 인식하고 있습니다.",
+    "business_model": "주요 사업부문은 지주부문(3.0%), 물류부문(0.5%), 투자부문(0.0%)으로 구성되어 있으며(사업부문별 영업수익 구성 기준), 지주부문은 자회사 지분관리 및 배당·상표권 사용수익이 핵심 수익원이고 물류부문은 계열회사 등으로부터 의뢰받는 종합물류서비스 제공을 통해 수익을 창출합니다.",
+    "main_customers": "지주부문 — 자회사·피투자회사 / 물류부문 — 계열회사 등(화주) / 투자부문 — 상표권 사용자·건물 임차인",
+    "price_factors": [
+      {
+        "factor": "자회사 실적",
+        "detail": "자회사·피투자회사의 이익 변동은 배당수익과 지주부문 실적에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "화주 확보",
+        "detail": "물류부문은 안정적 화주(거래처) 확보 여부에 따라 물동량과 수익성 변동성이 커집니다."
+      },
+      {
+        "factor": "e‑커머스 성장",
+        "detail": "온라인 쇼핑 및 옴니채널 확대는 물동량 증가로 물류 서비스 수요와 매출에 긍정적 영향을 줍니다."
+      },
+      {
+        "factor": "물류 자동화 투자",
+        "detail": "WMS·RFID 등 IT·설비 투자 필요성은 비용과 경쟁력에 영향을 미쳐 장기적 수익성 요인이 됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "보고서 작성 기준일 현재 15개의 종속회사를 포함, 총 21개의 계열회사를 두고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "지주부문: 28,195 (3.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "물류부문: 10,347 (0.5%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "물류부문 가. 영업개황",
+        "evidence_text": "계열회사 등이 의뢰한 상ㆍ제품의 입고, 출고, 보관, 검수"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5563,
+    "completion_tokens": 3809,
+    "reasoning_tokens": 3072,
+    "output_tokens": 737
+  },
+  "warnings": []
+}

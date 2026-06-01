@@ -1,0 +1,71 @@
+{
+  "stock_code": "036030",
+  "corp_name": "케이티알파",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 00:29",
+  "meta": {
+    "wics": "인터넷과카탈로그소매",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "케이티알파는 1991년 한국PC통신 주식회사로 시작해 인터넷포털, 모바일, ICT 등 영역을 거쳐 T커머스와 모바일상품권을 주력으로 영위하는 기업입니다. 국내 최초 데이터방송 T커머스 채널 'KT알파 쇼핑'을 운영하며 2025년 매출액 3,959억원, 영업이익 442억원, 당기순이익 436억원을 기록했습니다.",
+    "business_model": "핵심 사업은 T커머스(유료방송 기반 TV커머스)와 모바일상품권(기프티쇼)으로, 2025년 기준 매출 구성은 T커머스 67.8%, 모바일상품권 32.2%입니다. T커머스는 IPTV/위성/케이블 채널을 통해 영상 기반으로 상품을 판매하고 계절·프로그램 편성에 따른 매출 변동이 있으며, 모바일상품권은 디지털 전송을 통해 B2B(기업용 프로모션·복지)와 개인(소액선물) 수요를 동시에 충족하는 비대면 유통 서비스입니다.",
+    "main_customers": "T커머스 — 유료방송 가입 가구 및 일반 소비자 / 모바일상품권 — 기업(B2B·마케팅·복지) 및 개인(선물·소액 결제)",
+    "price_factors": [
+      {
+        "factor": "계절성",
+        "detail": "연말 성수기(4분기)에 매출이 집중되는 구조로 계절적 수요 변동이 실적에 직접 영향을 미칩니다."
+      },
+      {
+        "factor": "유료방송 가입자",
+        "detail": "유료방송 가입자 수가 기반 고객층 규모를 결정해 T커머스의 잠재 매출 범위에 영향을 줍니다."
+      },
+      {
+        "factor": "소비심리(경기)",
+        "detail": "경기 둔화 시 소비재 수요가 약화되어 T커머스 매출과 수익성에 부정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "B2B 수요",
+        "detail": "기업의 마케팅·복지 예산과 프로모션 수요가 모바일상품권 매출 변동성에 중요한 역할을 합니다."
+      },
+      {
+        "factor": "법적 안정성",
+        "detail": "T커머스는 과기정통부 인가 기반으로 운영되어 제도적 안정성이 사업 지속성에 기여합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "1991년 한국PC통신 주식회사로 사업을 시작한 이래"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "T커머스 67.8%, 모바일상품권 32.2%"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "유료방송(IPTV, 위성방송, 케이블TV)을 가입한 전체 가구를 대상으로"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나. 각 사업부문의 시장여건 및 영업의 개황",
+        "evidence_text": "계절적 요인과 경기변동의 영향을 받는 구조로"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5180,
+    "completion_tokens": 4109,
+    "reasoning_tokens": 3264,
+    "output_tokens": 845
+  },
+  "warnings": []
+}

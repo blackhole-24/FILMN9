@@ -1,0 +1,71 @@
+{
+  "stock_code": "236810",
+  "corp_name": "엔비티",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 13:22",
+  "meta": {
+    "wics": "광고",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "엔비티는 리워드 기반 모바일 광고·앱테크 서비스를 제공하는 기업으로, 2012년 '캐시슬라이드' 출시 이후 모바일 포인트 생태계를 구축해 왔습니다. 애디슨 오퍼월을 중심으로 국내 주요 플랫폼과 연계한 오퍼월 네트워크(약 1,100만 MAU)를 보유하며 국내 오퍼월 시장에서 주요 사업자 지위를 확보하고 있습니다.",
+    "business_model": "핵심 수익원은 B2B 오퍼월 광고이며, 2025년 기준 광고 매출이 전체의 95.4%를 차지합니다(광고: 95.4%, 쇼핑: 0.8%, 광고물 제작 및 대행: 2.3%, 기타: 1.4%). B2C 측면에서는 캐시슬라이드·캐시피드·칩스 등 리워드 앱을 통해 사용자 참여를 유도하고, 포인트 적립·소비를 연결해 광고·커머스 연계 수익을 창출합니다.",
+    "main_customers": "광고(애디슨 오퍼월) — 광고주·플랫폼(네이버웹툰·네이버페이·토스 등) / 쇼핑·커머스(칩스 등) — 제휴 쇼핑몰·일반 이용자 / 광고물 제작·대행 — 광고주",
+    "price_factors": [
+      {
+        "factor": "광고시장",
+        "detail": "광고 수요 위축 시 엔비티 매출(광고 비중 95.4%)에 직접적인 하방 압력이 발생합니다."
+      },
+      {
+        "factor": "사용자참여",
+        "detail": "플랫폼 경쟁 심화로 사용자 확보·리텐션(유지율)이 떨어지면 오퍼월 성과와 연동된 수익성이 약화됩니다."
+      },
+      {
+        "factor": "정치·대외리스크",
+        "detail": "정치적 불확실성 등으로 광고 집행이 줄어들면 단기 매출 감소로 연결될 수 있습니다."
+      },
+      {
+        "factor": "글로벌투자",
+        "detail": "해외 진출은 중장기 성장 동력이지만 초기 투자 비용과 낮은 초기 매출 비중(2025년 약 4%)이 실적에 부담이 될 수 있습니다."
+      },
+      {
+        "factor": "비용구조",
+        "detail": "운영비·판관비 증가는 실적을 악화시킬 수 있으나, 자산 매각으로 유동성·부채비율 개선 효과가 실적 안정성에 기여합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 주요 서비스에 관한 내용",
+        "evidence_text": "약 1,100만 MAU 규모의 오퍼월 네트워크를 보유"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "광고: 79,397,316 (95.4%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 주요 서비스에 관한 내용",
+        "evidence_text": "네이버웹툰, 네이버페이, 토스, 배달의민족, 카카오T"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "[경영진 실적·전략 요약 (MD&A)]",
+        "evidence_text": "2025년 매출액은 전년 대비 12.18% 감소한 923억 원"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5693,
+    "completion_tokens": 4115,
+    "reasoning_tokens": 3264,
+    "output_tokens": 851
+  },
+  "warnings": []
+}

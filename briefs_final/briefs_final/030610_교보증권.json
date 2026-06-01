@@ -1,0 +1,72 @@
+{
+  "stock_code": "030610",
+  "corp_name": "교보증권",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 23:34",
+  "meta": {
+    "wics": "증권",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "교보증권은 증권업에 속한 금융투자회사로, 위탁매매·자기매매·장내외파생상품·투자은행(IB) 등 5개 부문을 운영하며 수익다변화와 디지털 전환에 주력하고 있습니다. 2025년 연결기준으로 영업이익과 당기순이익이 전년 대비 증가했고, 높은 순자본비율 등 우수한 재무건전성을 유지하고 있습니다.",
+    "business_model": "주요 사업부문은 위탁매매(브로커리지), 자기매매(트레이딩), 장내외파생상품, 투자은행(IB) 및 기타로 구성되며, FY2025 영업수익 구성은 자본 12.3%, 예수부채 8.4%, 차입부채 71.8%, 기타부채 7.6%로 보고되고 있습니다. 전통적 중개·트레이딩 수익에 더해 IB·DCM(채권발행 주관) 등으로 수익원을 다변화하고, 토큰증권·마이데이터·디지털 플랫폼 등 디지털 신사업을 육성하고 있습니다.",
+    "main_customers": "위탁매매 — 개인·기관 투자자 / 자기매매 — 내부 트레이딩 및 기관투자자 / 장내외파생상품 — 파생상품 참여자(전문·기관투자자) / 투자은행 — 자금조달·M&A 등을 추진하는 기업 / 기타 — 디지털 플랫폼 및 제휴사·신사업 관련 고객",
+    "price_factors": [
+      {
+        "factor": "금리",
+        "detail": "금리 변동은 보유 채권의 평가손익과 FIS(금융상품) 관련 실적에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "주가지수·거래대금",
+        "detail": "주식시장 호황 시 위탁매매 수수료와 트레이딩 기회가 늘어나 실적 개선에 기여합니다."
+      },
+      {
+        "factor": "법적·제도 변화",
+        "detail": "금융규제나 제도 변경은 영업행태와 상품공급에 영향을 주어 수익구조 변동을 초래할 수 있습니다."
+      },
+      {
+        "factor": "인적자원",
+        "detail": "금융투자업에서 인적역량은 핵심 경쟁력으로, 우수 인력 확보 여부가 영업성과에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "자본: 569,815 (12.3%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "예수부채: 1,401,938 (8.4%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "차입부채: 147,500 (71.8%)"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "⑴ 영업개황",
+        "evidence_text": "당사는 영업활동의 행태에 따라 위탁매매업, 자기매매업, 장내외파생상품업, 투자은행업, 기타의 5개 부문으로 구성되며,"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "⑴ 영업개황",
+        "evidence_text": "당사는 2025년 연결기준으로 영업이익은 1,904억원, 당기순이익 1,429억원으로 전기 대비 각각 67.2%, 21.4% 증가하였습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3712,
+    "completion_tokens": 4875,
+    "reasoning_tokens": 3968,
+    "output_tokens": 907
+  },
+  "warnings": []
+}

@@ -1,0 +1,62 @@
+{
+  "stock_code": "044990",
+  "corp_name": "에이치엔에스하이텍",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 01:59",
+  "meta": {
+    "wics": "전자장비와기기",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "에이치엔에스하이텍은 1995년 12월 설립된 전기·전자 소재·부품 기업으로, ACF(이방성전도필름) 제조를 중심으로 하는 소재사업부와 수정진동자·발진기 등 주파수 제어 부품을 생산하는 전자사업부를 영위하고 있습니다. 전자사업부는 2020년 국내시장 점유율 1위에 도약한 바 있습니다.",
+    "business_model": "주력은 ACF를 생산하는 소재사업부와 수정진동자·발진기를 생산·판매하는 전자사업부로 수익이 구성됩니다. 2025년 기준 소재사업부 매출이 69.93%를 차지(주요 제품: CM 45.73%, PWB 17.05%, TOUCH 2.92%, 기타 4.21%), 전자사업부(제품) 4.86%, 전자사업부(상품) 25.21%로 집계되어 소재사업부 중심의 매출 구조를 보이고 있습니다.",
+    "main_customers": "소재사업부 — TV·Mobile 등 디스플레이 제조사 / 전자사업부 — TV, 셋톱박스, 컴퓨터 및 각종 통신·전자기기 제조사",
+    "price_factors": [
+      {
+        "factor": "디스플레이 수요",
+        "detail": "슬림화·고화질 등 디스플레이 기술 발전과 수요 확대가 ACF 수요와 실적에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "제품구성",
+        "detail": "고부가가치 수정진동자는 가격이 상승하는 반면 저부가 상품은 가격경쟁으로 하락해 실적에 상반된 영향을 미칩니다."
+      },
+      {
+        "factor": "환율",
+        "detail": "생산시설의 해외 이전과 해외 출하 확대에 따라 환율 변동이 매출과 원가에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "환경규제",
+        "detail": "EU RoHS·REACH 등 유해물질 규제 준수 여부가 제품 판매와 비용 구조에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "ACF(Anisotropic Conductive Film, 이방성전도필름)제조를 주력으로 하는 소재사업부문"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[표] 가. 주요 제품 등의 현황",
+        "evidence_text": "37,450(45.73%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[표] 가. 주요 제품 등의 현황",
+        "evidence_text": "합계 | 81,887(100.00%)"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4814,
+    "completion_tokens": 4077,
+    "reasoning_tokens": 3392,
+    "output_tokens": 685
+  },
+  "warnings": []
+}

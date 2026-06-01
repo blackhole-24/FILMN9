@@ -1,0 +1,66 @@
+{
+  "stock_code": "900300",
+  "corp_name": "오가닉티코스메틱",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 21:12",
+  "meta": {
+    "wics": "화장품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "오가닉티코스메틱은 홍콩에 설립된 비금융 지주회사로, 자회사를 통해 신발 제품과 유아용 화장품의 판매를 주요 사업으로 영위합니다. 주력 신발사업은 중국·인도네시아 시장을 중심으로 진행되며, 화장품은 중국 내수에서 판매되고 있습니다.",
+    "business_model": "자회사를 통해 신발과 차(茶) 추출물을 원료로 한 유아용 화장품을 제조·판매하는 것이 핵심 사업모델이며, 화장품은 '티 베이비(Tea Baby)' 브랜드로 전문 매장·약국 등에서 유통됩니다. 회사는 2025년 매출액이 전년대비 6.43% 증가한 9.3억 위안을 기록했으며, 같은 해 매출총이익률은 38.49%였습니다.",
+    "main_customers": "신발 — 중국·인도네시아 시장의 현지 소비자 / 화장품 — 중국 내 약국·유아용 전문점·대리상(유통업체)을 통한 소비자",
+    "price_factors": [
+      {
+        "factor": "중국 내수 의존",
+        "detail": "매출이 중국 내수에 집중되어 있어 중국 소비 둔화 시 실적에 직접적인 영향이 예상됩니다."
+      },
+      {
+        "factor": "규제·표준 미비",
+        "detail": "중국의 유아용 화장품에 대한 전문 산업표준 부재는 제품 안전성·규제 이슈가 실적 변동 요인이 될 수 있습니다."
+      },
+      {
+        "factor": "천연성분 선호",
+        "detail": "중국 소비자들의 천연성분 선호 강화는 차 추출물 등 원료 기반 제품의 수요에 긍정적 또는 경쟁 심화 시에는 비용·마케팅 부담으로 연결될 수 있습니다."
+      },
+      {
+        "factor": "계절성",
+        "detail": "유아용 화장품 수요는 계절적 요인의 영향을 받는 산업 특성상 특정 계절에 매출 변동성이 커질 수 있습니다."
+      },
+      {
+        "factor": "유통망 의존",
+        "detail": "대리상 중심의 유통 구조로 채널 확보·유지 비용과 대리상 실적 변동이 매출에 영향을 미칠 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 홍콩에 설립된 비금융 지주회사로서"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "신발 제품과 화장품의 판매를 핵심 사업으로 영위하고 있고"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "2~3선 도시에 위치한 약국과 유아용 전문점을 위주로"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 3872,
+    "completion_tokens": 4389,
+    "reasoning_tokens": 3648,
+    "output_tokens": 741
+  },
+  "warnings": []
+}

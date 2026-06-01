@@ -1,0 +1,62 @@
+{
+  "stock_code": "049480",
+  "corp_name": "오픈베이스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 02:39",
+  "meta": {
+    "wics": "컴퓨터와주변기기",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "오픈베이스는 1992년 9월 설립된 IT 서비스 기업으로, 컴퓨터 주변기기와 통신장비 판매 및 소프트웨어 개발·공급을 중심으로 영업하고 있습니다. 연결회사로서 7개의 종속기업을 포함하고 있으며, 제공하는 제품과 솔루션은 인터넷을 활용하는 기업·기관을 주요 고객으로 삼고 있습니다.",
+    "business_model": "매출의 대부분(98.0%)은 '컴퓨터 통신장비판매업과 소프트웨어개발'에서 발생하며, 부동산 임대업(1.1%)과 기타(0.9%)가 소액을 차지합니다. 핵심 사업으로는 ADC 및 네트워크 인프라(로드밸런싱·DNS·IP관리·SASE 등) 공급, 보안 솔루션(안티-APT·XDR·SIEM/SOAR·WAF 등) 및 2024년 개소한 보안관제센터(SOC)를 통한 관제 서비스, 하이브리드·멀티클라우드 관련 서비스 제공이 있습니다.",
+    "main_customers": "ADC 및 네트워크 인프라 사업 — 인터넷을 활용하는 모든 기업 및 기관 / 보안 솔루션 사업 — 인터넷을 활용하는 모든 기업 및 기관 / 하이브리드-멀티클라우드 서비스 — 인터넷을 활용하는 모든 기업 및 기관",
+    "price_factors": [
+      {
+        "factor": "AI 인프라 수요",
+        "detail": "AI 전환(AI Transformation)에 따른 AI-Native 네트워크 및 고성능 인프라 수요 증가는 네트워크·클라우드 관련 제품·서비스 매출에 직접 영향을 미칩니다."
+      },
+      {
+        "factor": "보안 위협 증가",
+        "detail": "랜섬웨어·DDoS 등 사이버 위협의 증가는 보안 솔루션 및 SOC(보안관제) 수요를 확대하여 관련 매출에 영향을 줍니다."
+      },
+      {
+        "factor": "하이브리드 클라우드 확산",
+        "detail": "온프레미스와 멀티클라우드를 결합한 수요 증가는 SASE 등 네트워크·보안 통합 솔루션의 수익성에 영향을 미칩니다."
+      },
+      {
+        "factor": "환율 변동",
+        "detail": "미달러·위안화 등 외화 관련 환율 변동은 해외 거래 및 외화 표시 자산·부채의 가치에 영향을 미쳐 실적에 반영될 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 회사의 현황",
+        "evidence_text": "연결회사는 컴퓨터 주변기기와 통신장비 판매업 및 소프트웨어 개발 및 공급업을 중심으로 사업을 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "컴퓨터 통신장비판매업과소프트웨어개발: 199,961 (98.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 회사의 현황",
+        "evidence_text": "당사가 제공하는 제품 및 솔루션은 인터넷을 활용하는 모든 기업 및 기관이 고객대상이 됩니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5393,
+    "completion_tokens": 3091,
+    "reasoning_tokens": 2304,
+    "output_tokens": 787
+  },
+  "warnings": []
+}

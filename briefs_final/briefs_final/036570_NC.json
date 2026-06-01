@@ -1,0 +1,66 @@
+{
+  "stock_code": "036570",
+  "corp_name": "NC",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 13:14",
+  "meta": {
+    "wics": "게임엔터테인먼트",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "NC는 한국을 대표하는 게임사로 모바일·PC 플랫폼 중심의 게임 개발과 서비스를 제공하고 있으며, 연결 기준 2025년 매출액은 1조 5,069억원입니다. 이 중 약 38%는 아시아·북미·유럽 등 해외(로열티 포함)에서 발생했습니다.",
+    "business_model": "부분유료화(게임 내 과금)를 기반으로 모바일 및 PC 게임을 서비스하면서 매출을 창출합니다. 2025년 사업부문별 영업수익 구성은 리니지M 29.0%, 리니지2M 12.0%, 리니지W 12.0%, 아이온2 5.0%, PC 게임 23.0%, 로열티 12.0%, 기타 7.0%로 구성됩니다.",
+    "main_customers": "모바일 게임 — 모바일 플랫폼 이용 게이머 / PC 게임 — PC 온라인·MMORPG 이용 게이머 / 로열티 — 해외 등 로열티 발생처",
+    "price_factors": [
+      {
+        "factor": "글로벌 시장 성장",
+        "detail": "글로벌 게임시장 규모 확대는 해외 매출(약 38%) 확대 가능성으로 실적에 긍정적 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "신작 성과",
+        "detail": "아이온2 등 대형 신작과 2026년 출시 예정작들의 흥행 여부가 매출 변동성에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "경쟁 심화",
+        "detail": "글로벌 경쟁 심화는 이용자 유치 비용 증가와 시장 점유율 유지 부담으로 이어질 수 있습니다."
+      },
+      {
+        "factor": "플랫폼·기술 변화",
+        "detail": "IT 하드웨어·네트워크 및 생성형 AI 등 기술 변화는 게임 개발·운영 비용과 기회에 모두 영향을 줍니다."
+      },
+      {
+        "factor": "규제 환경",
+        "detail": "게임산업 관련 법규 준수 의무는 서비스 운영과 과금정책에 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "NC는 즐거움으로 연결된 새로운 세상을 꿈꾸며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "리니지M: 432,977 (29.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "모바일/PC 게임의 개발 및 서비스 제공"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4244,
+    "completion_tokens": 4119,
+    "reasoning_tokens": 3456,
+    "output_tokens": 663
+  },
+  "warnings": []
+}

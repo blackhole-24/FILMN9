@@ -1,0 +1,86 @@
+{
+  "stock_code": "371950",
+  "corp_name": "풍원정밀",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 18:03",
+  "meta": {
+    "wics": "디스플레이장비및부품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "풍원정밀은 1996년 1월 설립된 금속박판가공기술 기반의 첨단 디스플레이 부품 제조회사입니다. 지난 28년간 약 1만4천여 종의 제품을 개발·생산하여 약 180여 개 기업에 공급했으며, 2022년 2월 28일 코스닥에 상장하였습니다.",
+    "business_model": "주요 수익원은 맞춤형 OLED/AMOLED 증착용 금속마스크 등 '제품'이며, 2025 회계연도 기준 제품 매출이 전체의 92.7%를 차지하고 임가공(단순 가공·위탁)이 7.3%를 차지합니다. 핵심 제품은 파인메탈마스크(FMM)를 포함한 OMM(오픈메탈마스크), SBM(스틱바마스크), ACC(악세서리 스틱) 등 OLED 증착 공정용 금속마스크이며, 생산능력 확대와 기술 개발을 통해 양산을 수행하고 있습니다.",
+    "main_customers": "제품 — OLED·AMOLED 증착 공정을 수행하는 디스플레이 패널 제조사 / 임가공 — 금속박막봉지·편광판 등 임가공을 의뢰하는 전자·디스플레이 관련 제조업체",
+    "price_factors": [
+      {
+        "factor": "단가협의",
+        "detail": "제품이 주문자 맞춤형이라 공정시장가격이 없고 고객사와의 협의에 의해 단가가 결정되어 단가 협상력이 실적에 직접 영향합니다."
+      },
+      {
+        "factor": "원자재가",
+        "detail": "원자재 가격 변동 시 고객사와의 정기 단가 협의를 통해 가격에 반영되므로 원재료 가격 변동이 매출원가와 수익성에 영향을 미칩니다."
+      },
+      {
+        "factor": "생산능력",
+        "detail": "노광기·신규라인 투자로 생산능력(G6H 기준 총 166.6K장/월)을 확보한 만큼 수주 대응력과 매출 규모에 영향을 줍니다."
+      },
+      {
+        "factor": "경쟁·국산화",
+        "detail": "기존 일본 업체(DNP) 독점 구조와 2019년 수출규제 이후 파인메탈마스크의 국산화·공급안정성 이슈가 시장 구조와 수요에 영향을 미칩니다."
+      },
+      {
+        "factor": "연구개발비",
+        "detail": "FMM 등 기술개발을 위한 연구비 증가가 단기적인 비용 부담으로 영업이익에 영향을 주고 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "1996년 1월에 설립되었습니다."
+      },
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "총 1만 4천여 종류의 제품을 개발,생산하여 총 180여기업에 공급해왔습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "제품: 30,000 (92.7%) - 임가공: 2,373 (7.3%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "파인메탈마스크(Fine Metal Mask, FMM)를 주력으로 개발 및 양산하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "3. 주요 제품 등의 가격변동 추이",
+        "evidence_text": "공정시장가격은 없으며, 고객사와의 협의에 의해 단가가 결정됩니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "다이닛폰인쇄(Dai Nippon Printing, DNP)가 독점하고 있는 파인메탈마스크 시장"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "G6H 기준 총 166.6K장/월의 생산능력을 갖추었습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3737,
+    "completion_tokens": 5687,
+    "reasoning_tokens": 4608,
+    "output_tokens": 1079
+  },
+  "warnings": []
+}

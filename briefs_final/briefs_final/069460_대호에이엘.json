@@ -1,0 +1,76 @@
+{
+  "stock_code": "069460",
+  "corp_name": "대호에이엘",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:08",
+  "meta": {
+    "wics": "비철금속",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "대호에이엘은 2002년 10월 1일 인적분할로 신설된 알미늄 소재 기업입니다. 과거 전량 수입에 의존하던 고급 알미늄 판재류를 국산으로 대체했고, 고가판재류 시장에서 높은 시장점유율을 보유하고 있습니다. 판재공장과 환절판 생산능력을 바탕으로 알미늄 전문 소재 기업으로 성장해 왔습니다.",
+    "business_model": "주요 제품은 알미늄판재, 반제품, 기타로 구성되며, 사업부문별 매출은 알미늄판재 13.15%, 반제품 79.16%, 기타 7.69%입니다. 반제품은 AL COIL(코일 형태의 알미늄 소재)로 전기·전자·자동차 등 산업재에 쓰이고, 알미늄판재는 주방용품, 기타는 철도차량 구조물 등에 활용됩니다. 회사는 주방기물용 고급 환절판과 산업재용 알미늄 소재를 함께 생산하는 구조입니다.",
+    "main_customers": "알미늄판재 — 주방용품 제조 관련 수요처 / 반제품 — 전기·전자·자동차 등 산업재 수요처 / 기타 — 철도차량 구조물 관련 수요처",
+    "price_factors": [
+      {
+        "factor": "원재료",
+        "detail": "알미늄 시장의 원재료 가격 상승은 제조원가를 높여 수익성에 직접적인 부담이 됩니다."
+      },
+      {
+        "factor": "LME시세",
+        "detail": "LME(런던금속거래소) 시세 변동성이 커지면 알미늄 가격과 실적 변동 폭도 함께 커질 수 있습니다."
+      },
+      {
+        "factor": "환율변동",
+        "detail": "환율 변동은 외화자산·외화부채 평가손익에 영향을 주어 당기 손익이 흔들릴 수 있습니다."
+      },
+      {
+        "factor": "수출수요",
+        "detail": "생산제품의 30% 이상을 동남아 등지로 수출하고 있어 해외 수요 변화가 매출에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "철도수주",
+        "detail": "철도차량사업부문 수주는 현대로템 등 발주처의 주문 물량에 따라 매출이 달라질 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "3. 회사의 현황(1) 영업개황",
+        "evidence_text": "2002년 10월 1일 인적분할로 신설된 대호에이엘은"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "3. 회사의 현황(1) 영업개황",
+        "evidence_text": "고가판재류 시장에서 높은 시장점유율을 차지하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[표] 1). 주요 제품 등의 현황",
+        "evidence_text": "알미늄판재 13.15, 반제품 79.16, 기타 7.69"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[표] 1). 주요 제품 등의 현황",
+        "evidence_text": "AL COIL | 전기.전자.자동차등"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "[표] 1). 주요 제품 등의 현황",
+        "evidence_text": "AL CIRCLE | 주방용품"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5403,
+    "completion_tokens": 871,
+    "reasoning_tokens": 0,
+    "output_tokens": 871
+  },
+  "warnings": []
+}

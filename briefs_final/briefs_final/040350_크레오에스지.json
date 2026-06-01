@@ -1,0 +1,81 @@
+{
+  "stock_code": "040350",
+  "corp_name": "크레오에스지",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 09:59",
+  "meta": {
+    "wics": "IT서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "크레오에스지는 솔루션 사업, 바이오 사업, 부동산 운영 사업으로 나뉘어 사업을 영위하는 기업입니다. 2005년 6월 에프엔에스닷컴(주)와의 합병을 통해 솔루션을 보유한 SI(시스템 통합) 업체로서 출발했으며, 금융기관 대상 코어뱅킹 솔루션과 바이오 연구, 부동산 임대·운영을 함께 추진하고 있습니다.",
+    "business_model": "핵심 수익은 솔루션사업에서 나오며, FY최신 기준 솔루션사업이 49.9%, 유통사업이 0.1%를 차지합니다. 솔루션사업은 은행 등 금융기관에 코어뱅킹 솔루션 BANCS-K 프레임워크와 BANCS-K Package를 공급하고, 금융컨설팅과 소프트웨어 개발, 전산시스템 구축·유지보수·마이그레이션(노후 시스템 전환) 사업을 수행합니다. 바이오사업은 AIDS 백신, COVID19 백신, 슈퍼항생제 연구개발을 진행하지만 현재 매출은 없으며, 부동산 운영사업은 종속회사 (주)크레오에스테이트를 통해 부동산 운영 및 임대를 담당합니다.",
+    "main_customers": "솔루션사업 — 은행, 제2금융권, 금융기관 / 바이오사업 — 백신 및 항생제 개발 관련 연구·협력 대상 / 부동산 운영사업 — 부동산 임대·운영 이용 고객",
+    "price_factors": [
+      {
+        "factor": "금융수요",
+        "detail": "은행과 제2금융권의 차세대 시스템 교체 수요가 늘수록 솔루션사업 수주와 매출 확대에 영향을 줍니다."
+      },
+      {
+        "factor": "프로젝트",
+        "detail": "대형 프로젝트 수주 여부에 따라 금융기관용 코어뱅킹 구축 실적과 매출 변동이 커질 수 있습니다."
+      },
+      {
+        "factor": "마이그레이션",
+        "detail": "노후 전산시스템을 새 기술로 바꾸는 마이그레이션 사업이 늘면 안정적인 수익 확보에 도움이 됩니다."
+      },
+      {
+        "factor": "백신개발",
+        "detail": "바이오사업의 백신·항생제 개발 진척은 연구개발 성과 기대와 연결되지만, 현재는 매출이 없어 직접적인 실적 기여는 제한적입니다."
+      },
+      {
+        "factor": "임대운영",
+        "detail": "부동산 운영 및 임대사업의 안정성은 종속회사의 운영 수익에 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "솔루션 사업부문과 바이오 사업부문, 종속회사의 부동산 운영사업 부문"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "2. 회사의 현황 > (1) 영업개황 및 사업부문의 구분",
+        "evidence_text": "2005년 6월 30일자로...합병으로"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "솔루션사업: 9,731,231 (49.9%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "유통사업: 24,987 (0.1%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "바이오 사업은 현재 매출이 없습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "은행 및 제2금융권에 코어뱅킹 솔루션"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4658,
+    "completion_tokens": 974,
+    "reasoning_tokens": 0,
+    "output_tokens": 974
+  },
+  "warnings": []
+}

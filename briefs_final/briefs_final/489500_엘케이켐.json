@@ -1,0 +1,72 @@
+{
+  "stock_code": "489500",
+  "corp_name": "엘케이켐",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 21:00",
+  "meta": {
+    "wics": "반도체와반도체장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "엘케이켐은 반도체 박막 증착 공정에 사용되는 프리커서 및 리간드(증착용 화학물질)를 전문적으로 개발·제조·판매하는 화학업체입니다. ALD(원자층증착) 공정용 High-k·Low-k 등 정밀화학 소재와 기타 정밀화학 제품을 주요 품목으로 보유하고 있습니다.",
+    "business_model": "2025회계연도 기준 사업부문별로 매출은 Low-k가 60.4%로 가장 큰 비중을 차지하며, 반도체 박막증착 소재(31.9%), 기타소재(4.5%), 상품(3.2%) 순으로 구성됩니다. 주력은 ALD(원자층증착) 공정용 High-k·Low-k 프리커서 및 이들의 합성에 필요한 리간드 공급이며, 페로브스카이트 등 정밀화학 제품도 소규모로 판매합니다.",
+    "main_customers": "반도체 박막증착 소재 — 국내외 반도체 제조사 및 반도체 소재업체 / Low-k — 시스템·메모리용 반도체 소자 제조업체 / 기타소재 — 디스플레이·태양전지·이차전지 재활용 및 기타 정밀화학 제품을 필요로 하는 소재업체",
+    "price_factors": [
+      {
+        "factor": "기술력",
+        "detail": "반도체용 프리커서 시장은 진입장벽이 높아(기술력 확보 시) 거래 지속성·수익성에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "공급 안정성",
+        "detail": "합성·정제 기술 수준과 안정적 공급능력이 확보돼야 대형 고객사 납품과 장기계약 유지에 유리합니다."
+      },
+      {
+        "factor": "고객 맞춤화",
+        "detail": "소자별·공정별 최적화(커스터마이징) 대응력과 사후관리 능력이 실적 변동에 영향을 줍니다."
+      },
+      {
+        "factor": "주요고객 수요",
+        "detail": "삼성·SK하이닉스 등 대형 반도체업체의 공정 변화 및 수요에 따라 제품 주문량과 판매단가가 변동될 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "프리커서 및 리간드"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "반도체 박막증착 소재: 6,439 (31.9%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "Low-k: 12,182 (60.4%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "나. 목표 시장",
+        "evidence_text": "국내외 반도체 소재업체들에 판매되고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 시장 현황",
+        "evidence_text": "반도체용 프리커서 시장은 진입장벽이 높으며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5252,
+    "completion_tokens": 4325,
+    "reasoning_tokens": 3520,
+    "output_tokens": 805
+  },
+  "warnings": []
+}

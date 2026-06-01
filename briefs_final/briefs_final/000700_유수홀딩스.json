@@ -1,0 +1,79 @@
+{
+  "stock_code": "000700",
+  "corp_name": "유수홀딩스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 16:59",
+  "meta": {
+    "wics": "항공화물운송과물류",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "유수홀딩스는 자회사의 주식을 확보·유지·관리하는 지주회사 성격의 기업으로, IT와 종합물류 계열사를 중심으로 그룹 사업을 운영하고 있습니다. 2025년 연결기준 매출액은 4,185억원, 영업이익 212억원, 당기순이익 168억원을 달성했습니다.",
+    "business_model": "주된 수익원은 임대사업수익과 배당수익 등 지주회사형 수익구조이며, 연결 기준으로는 자회사인 싸이버로지텍의 IT 솔루션(시스템 구축·유지보수·클라우드/SaaS)과 유수로지스틱스의 포워딩·계약물류 서비스가 실질적 매출을 창출합니다. IT부문은 소프트웨어 패키지 판매와 안정적 유지보수 매출을 바탕으로 신기술(클라우드·SaaS 등) 도입을 통해 시장을 확대하고 있습니다.",
+    "main_customers": "IT — 터미널·해운·물류 기업 / 종합물류 — 의류·패션잡화 제조사 및 온라인 유통 사업자",
+    "price_factors": [
+      {
+        "factor": "해상운임",
+        "detail": "해상 운임 약세 시 유수로지스틱스의 운송 마진 및 매출에 부정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "IT수요",
+        "detail": "생성형 AI·클라우드 중심의 글로벌 IT 지출 확대는 IT부문의 솔루션·서비스 수요를 높일 가능성이 있습니다."
+      },
+      {
+        "factor": "지주구조",
+        "detail": "지주회사 특성상 배당·임대수익 비중이 높아 자회사 실적 변동이 당사 실적에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "경쟁심화",
+        "detail": "물류 시장의 경쟁 심화는 운임 압력과 고객 확보 부담으로 수익성에 부정적 요인이 될 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "나. 사업 부문별 현황(1) 지주회사 개요",
+        "evidence_text": "주된 영업수익은 임대사업수익, 배당수익 등으로 구성되어 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "<지배회사>",
+        "evidence_text": "(주)싸이버로지텍(소프트웨어 개발 및 판매)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "<지배회사>",
+        "evidence_text": "(주)유수로지스틱스(화물운송 중개, 대리 및 관련서비스업)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "■ IT 부문",
+        "evidence_text": "터미널, 해운, 물류 기업에 IT 기술을 활용"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "가. 2025년 주요 영업실적",
+        "evidence_text": "연결기준 매출액은 4,185억원, 영업이익 212억원, 당기순이익 168억원을 달성하였습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 2025년 주요 영업실적",
+        "evidence_text": "해상 운임 약세와 시장 경쟁 심화"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 5157,
+    "completion_tokens": 5905,
+    "reasoning_tokens": 5056,
+    "output_tokens": 849
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

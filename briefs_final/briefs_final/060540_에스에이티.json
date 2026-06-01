@@ -1,0 +1,64 @@
+{
+  "stock_code": "060540",
+  "corp_name": "에스에이티",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 04:00",
+  "meta": {
+    "wics": "핸드셋",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "에스에이티는 ITS(지능형 교통시스템) 장비 제조·설치·유지보수와 모바일 관련 부품 공급, 부동산 임대 등을 영위하는 기업으로, 의료·정밀기기(핸드셋) 섹터에 속해 있습니다. 최근 제28기 기준 매출액은 159,732,944,193원으로(약 1,597억 원) 주요 사업은 ITS와 모바일 부품 중심의 제조·공급입니다.",
+    "business_model": "핵심 사업은 ITS 사업(과적차량 단속장비 등)과 모바일 관련 부품 공급, 임대사업이며, 종속회사를 통해 건설폐기물 중간처리, 수축필름·코팅·식품 제조·유통 등으로 사업 포트폴리오를 다각화하고 있습니다. ITS 부문은 제작·설치·유지관리와 교정사업을 통해 공공기관 중심의 안정적 수익을 창출하며, 모바일 부문은 다이컷팅·인쇄 등 부자재를 납품하는 구조입니다.",
+    "main_customers": "ITS — 한국도로공사·국토부 산하 국도관리사무소·지자체(공공기관) / 모바일 관련 부품 — 소수의 다수 납품처(다이컷팅·인쇄 납품업체 약 10개사) / 임대·기타 — 부동산 임대 및 종속회사 거래처",
+    "price_factors": [
+      {
+        "factor": "공공기관 수주",
+        "detail": "주요 매출처가 공공기관 중심이어서 정부 예산·발주 변동이 실적에 직접적 영향을 미칩니다."
+      },
+      {
+        "factor": "기술 경쟁력",
+        "detail": "국산화·다차선용 상용화 등 기술 우위로 고정식 축중기 시장 점유율이 높아 실적 안정성에 기여합니다."
+      },
+      {
+        "factor": "해외 확장성",
+        "detail": "캄보디아·방글라데시 등 동남아 수출 실적이 있어 해당 지역 수요 변동이 성장에 영향줄 수 있습니다."
+      },
+      {
+        "factor": "납품처 집중도",
+        "detail": "모바일 부품의 경우 소수 납품처에 의존하는 구조로 특정 고객 의존도가 실적 변동성을 키울 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "1. 사업 부문",
+        "evidence_text": "ITS 사업(교통 관련 장비 제조/설치 및 유지보수)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "ITS 사업",
+        "evidence_text": "전국에 설치된 고정식 축중기의 70% 이상을 제조 및 납품하였습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "주요 매출처가 한국도로공사, 국토부 산하 국도관리사무소, 지자체 등 공공기관이 대부분이며"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4403,
+    "completion_tokens": 3969,
+    "reasoning_tokens": 3200,
+    "output_tokens": 769
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "stock_code": "475960",
+  "corp_name": "토모큐브",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 20:44",
+  "meta": {
+    "wics": "생명과학도구및서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "토모큐브는 홀로토모그래피(HT) 기반의 3차원 세포 이미징 장비(예: HT-X1)를 개발·공급하는 기업으로, 바이오메디컬 연구와 진단 분야에서 제품을 제공하고 있습니다. 당기 연결기준 누적 매출은 11,307백만원 수준이며, HT 제품군이 매출의 핵심을 차지합니다.",
+    "business_model": "주력은 HT(홀로토모그래피) 기반 연구용 이미징 장비 판매로, HT 제품군 매출 비중이 약 93.3%이고 기타 소모품 및 서비스가 약 6.7%를 차지합니다. 매출은 국내 약 24.1%, 해외수출 약 75.9%로 해외 비중이 높으며, 연구용 제품 판매와 신제품·ASP(평균판매가격) 상승이 수익성에 영향을 미칩니다.",
+    "main_customers": "HT 제품군 — 대학·연구기관(예: MIT, 하버드 의대, ETH) 및 제약·바이오 기업(신약 개발·진단 관련) / 기타(소모품·서비스) — 연구소·기업의 소모품 및 서비스 수요",
+    "price_factors": [
+      {
+        "factor": "시장성",
+        "detail": "HT 기반 이미징 시장은 막 개화한 신시장으로 성장률과 수요 확대 여부가 실적 흐름에 큰 영향을 미칩니다."
+      },
+      {
+        "factor": "해외의존도",
+        "detail": "매출의 약 75.9%가 해외수출인 만큼 해외 수요 변동이 매출과 실적 변동성으로 직결됩니다."
+      },
+      {
+        "factor": "경쟁사",
+        "detail": "글로벌 공급사(예: 스위스 N사)와의 기술·제품 차별성 경쟁이 시장 점유율과 가격 결정에 영향을 줍니다."
+      },
+      {
+        "factor": "특허보유",
+        "detail": "총 92건의 국내외 특허 보유는 기술적 우위와 진입장벽으로 작용해 장기적 경쟁력에 영향을 미칩니다."
+      },
+      {
+        "factor": "신제품·ASP",
+        "detail": "신제품 효과와 ASP 상승은 매출총이익 개선으로 이어져 영업손실 축소에 기여할 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 홀로토모그래피(HT) 기술을 기반으로 HT-X1 등의 고급 세포 이미징 장비를 개발"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "HT 제품군 매출 비중이 약 93.3%"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "국내 매출은 약 24.1%, 해외수출은 약 75.9%"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "해외 A사, 국내 B사 등 다수의 기업들 또한 토모큐브의 주요 고객"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나. 영업의 개황(1) 시장 규모 및 전망",
+        "evidence_text": "HT 기술을 활용한 이미징 시장은 막 개화하기 시작한 새로운 시장으로"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 지적재산권 현황",
+        "evidence_text": "당사가 권리를 보유한 특허는 국내외를 포함하여 총 92건"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5265,
+    "completion_tokens": 5727,
+    "reasoning_tokens": 4800,
+    "output_tokens": 927
+  },
+  "warnings": []
+}

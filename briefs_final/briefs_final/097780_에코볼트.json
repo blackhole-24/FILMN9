@@ -1,0 +1,72 @@
+{
+  "stock_code": "097780",
+  "corp_name": "에코볼트",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 07:43",
+  "meta": {
+    "wics": "자동차부품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "에코볼트(구 에스맥)는 2004년 11월 설립된 기업으로 자동차용 전구류·전장부품 등 전자부품의 제조·판매를 주요사업으로 영위하고 있습니다. 2023년 상호를 에스맥에서 에코볼트로 변경하고 본사를 평택에서 충남 아산으로 이전하였습니다.",
+    "business_model": "매출의 핵심은 자동차용 조명부품으로, 제22기 기준 매출의 81.3%를 차지합니다. 그 외에 의약품 도매업(13.2%), 플라스틱 필름 등(5.4%), 휴대폰용 터치스크린 모듈(0.1%)이 복수의 사업부문을 구성하고 있습니다.",
+    "main_customers": "자동차용 조명부품 — 완성차 업체 / 의약품 도매업 — 의약품 유통 시장(도매) / 대전방지·플라스틱 필름 — IT 제품군 제조업체(포장자재 수요처) / 터치스크린 모듈 — 모바일기기 제조업체",
+    "price_factors": [
+      {
+        "factor": "완성차 의존도",
+        "detail": "완성차 업체와의 수주·협력관계에 따라 매출 변동이 크며 특정 차종 단종 시 수주가 줄어들 수 있습니다."
+      },
+      {
+        "factor": "경기민감도",
+        "detail": "자동차 수요는 경기후행적이고 민감하여 경기침체 시 차량 수요 감소가 부품사 실적에 직접 영향을 줍니다."
+      },
+      {
+        "factor": "기술경쟁력",
+        "detail": "조명·전장부품 분야는 연구개발·품질검증이 필수여서 기술력과 개발참여 여부가 수주 경쟁력에 영향을 줍니다."
+      },
+      {
+        "factor": "환율변동",
+        "detail": "국제영업으로 인해 환율 변동 위험에 노출되어 있으며 환율 변화가 실적에 영향을 미칠 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "2004년 11월에 설립되어"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "자동차용 조명부품 비율 81.3"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "완성차 기업과 협력관계"
+      },
+      {
+        "field": "financials",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "매출은 전년대비 7.15% 증가"
+      },
+      {
+        "field": "risk_management",
+        "source_section": "바. 환율변동의 영향",
+        "evidence_text": "다양한 환율변동위험에 노출되어 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4882,
+    "completion_tokens": 4411,
+    "reasoning_tokens": 3648,
+    "output_tokens": 763
+  },
+  "warnings": []
+}

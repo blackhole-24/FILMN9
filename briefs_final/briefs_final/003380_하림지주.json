@@ -1,0 +1,78 @@
+{
+  "stock_code": "003380",
+  "corp_name": "하림지주",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 18:30",
+  "meta": {
+    "wics": "식품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "하림지주는 글로벌 푸드&애그리비즈니스 기업을 지향하는 지주회사로, 그룹의 사업 포트폴리오 관리와 자회사 전략수립·M&A 등 그룹의 최종 조정자 역할을 수행합니다. 닭고기·돈육·사료·해상운송·유통 등 식품 가치사슬을 통합적으로 관리하는 다수의 핵심 계열사를 보유하고 있습니다.",
+    "business_model": "지주회사로서 그룹의 포트폴리오 관리와 자회사 성장지원이 주된 사업모델이며, 계열사를 통해 곡물(해운)→사료→축산(가금·양돈)→도축가공→식품제조→유통판매로 이어지는 가치사슬을 통합 관리합니다. 지주회사 수익원은 브랜드수익·배당수익·공동경비 인식 등이 있으며, 2025년 기준 브랜드수익 93억원, 배당수익 721억원, 공동경비 156억원을 시현하였습니다.",
+    "main_customers": "닭고기·브랜드 돈육 — 일반 소비자(하림 브랜드를 통한 소비자 수요) / 사료 제조판매 — 국내 축산농가 및 동아시아 지역 거래처(베트남·필리핀·중국 등) / 홈쇼핑&신유통 — TV 홈쇼핑 시청자 및 인터넷·모바일 쇼핑 이용자 / 해상운송&곡물유통 — 포스코·발전자회사·중국의 주요 제철소 등 기업 고객",
+    "price_factors": [
+      {
+        "factor": "곡물가",
+        "detail": "사료 원재료를 대부분 수입에 의존하므로 국제 곡물가 변동이 사료부문 원가와 실적에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "유가",
+        "detail": "국제유가 상승은 사료 원가 및 물류비용 등 전반적 원가 상승으로 연결되어 실적에 부정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "환율",
+        "detail": "원재료 수입 의존도가 높아 환율 변동이 원가와 매출환산에 영향을 미쳐 실적 변동성을 키울 수 있습니다."
+      },
+      {
+        "factor": "운임(BDI)",
+        "detail": "벌크해상 운송은 BDI(벌크운임지수) 등 운임지표의 영향을 받아 해상운송부문 수익성에 직접적인 영향을 받습니다."
+      },
+      {
+        "factor": "유통채널 변화",
+        "detail": "온라인·모바일 중심의 유통 확대는 홈쇼핑·신유통 채널의 매출 구성과 판매 방식에 변화를 가져올 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "지주회사로 그룹의 사업 포트폴리오 관리"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "곡물(해운) - 사료 - 축산(가금/양돈) - 도축가공 - 식품제조 - 유통판매"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "포스코, 발전자회사, 중국의 주요 제철소"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "국제 곡물가, 국제 유가, 환율에 주요한 영향을 받고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "주 영업수입원은 기존 브랜드수익과 배당수익"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 5210,
+    "completion_tokens": 5187,
+    "reasoning_tokens": 4224,
+    "output_tokens": 963
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

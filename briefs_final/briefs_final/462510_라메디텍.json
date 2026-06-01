@@ -1,0 +1,72 @@
+{
+  "stock_code": "462510",
+  "corp_name": "라메디텍",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 20:22",
+  "meta": {
+    "wics": "건강관리장비와용품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "라메디텍은 초소형 고출력 레이저 원천기술과 이를 바탕으로 한 초소형 레이저 플랫폼을 보유한 레이저 전문 헬스케어 기업입니다. 레이저 기반 피부 미용·의료기기와 레이저 채혈기 등 제품을 개발·생산하여 국내외 시장에 공급하고 있습니다.",
+    "business_model": "핵심 수익원은 전문가용 및 개인용 레이저 피부미용기기(퓨라셀 시리즈 등), 치료용 레이저기기(케어빔·레이벳), 레이저 채혈기(핸디레이 군) 및 글로벌 유통회사 대상 ODM 생산과 AS매출 등으로 구성됩니다. 2025년 매출액은 7,187백만원으로 전년 대비 9.3% 증가하였으며(영업손실·당기순손실은 발생), 제품 개발·인허가·마케팅 활동을 통한 국내외 시장 확대를 추진하고 있습니다.",
+    "main_customers": "퓨라셀·케어빔 군 — 전문가용(의료·미용업체) 및 개인 소비자 / 핸디레이 등 채혈기 — 의료기관 및 개인용 사용자 / ODM 제품 — 글로벌 유통회사 / AS매출 — 기존 고객 대상 유지보수·서비스",
+    "price_factors": [
+      {
+        "factor": "인허가 규제",
+        "detail": "식약처의 의료기기 인허가 및 해외 CE·FDA 인증 요구가 시장진입과 판매확대에 직접적 영향을 미칩니다."
+      },
+      {
+        "factor": "기술력",
+        "detail": "초소형·고출력 레이저 및 소형화 기술 경쟁력이 제품 차별화와 시장수용성에 중요한 요소입니다."
+      },
+      {
+        "factor": "홈뷰티 수요",
+        "detail": "홈뷰티와 K-뷰티 확산, 고령화에 따른 미용기기 수요 확대는 매출 성장에 긍정적 영향을 줍니다."
+      },
+      {
+        "factor": "R&D·임상비",
+        "detail": "신제품 개발·임상·인허가·마케팅 비용 증가가 단기적 수익성에 부담을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "[DART 사업보고서 — 영업 현황]",
+        "evidence_text": "'초소형 고출력 레이저에 대한 원천기술'을 보유하고 있는 기업입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[DART 사업보고서 — 영업 현황]",
+        "evidence_text": "레이저 채혈기를 개발하여 관련 사업을 영위하고 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "[DART 사업보고서 — 영업 현황]",
+        "evidence_text": "퓨라셀 ME로 개인소비자에게 판매하고 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "[DART 사업보고서 — 영업 현황]",
+        "evidence_text": "의료기관용 핸디레이, 핸디레이프로와 개인용 채혈기 핸디레이 라이트를 제조 및 판매하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "[DART 사업보고서 — 영업 현황]",
+        "evidence_text": "의료기기법 등 관련 법령에 따라"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 5120,
+    "completion_tokens": 5949,
+    "reasoning_tokens": 5120,
+    "output_tokens": 829
+  },
+  "warnings": []
+}

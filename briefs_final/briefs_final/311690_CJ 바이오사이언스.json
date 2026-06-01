@@ -1,0 +1,76 @@
+{
+  "stock_code": "311690",
+  "corp_name": "CJ 바이오사이언스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 16:06",
+  "meta": {
+    "wics": "생명과학도구및서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "CJ 바이오사이언스는 AI 기반 마이크로바이옴 분석 플랫폼(Ez-Mx®)을 중심으로 마이크로바이옴 신약 개발, 미생물 유전체 생명정보 플랫폼 및 솔루션, 그리고 마이크로바이옴 기반 헬스앤웰니스(Health & Wellness) 사업을 병행·연계하는 사업 포트폴리오를 운영하는 기업입니다. 최근에는 신약 중심의 장기 R&D 구조에서 벗어나 Health & Wellness 사업(GUT INSIDE, SMILE GUT 등)을 핵심 성장축으로 강화하는 전략적 전환을 추진하고 있습니다.",
+    "business_model": "주요 매출은 용역(NGS/BI 통합 분석 등) 중심으로 구성되며, [사업부문별 매출 구성]에 따르면 용역 매출이 95.4%를 차지하고 마이크로바이옴 기반 헬스앤웰니스가 4.6%를 차지합니다. 회사는 EzBioCloud 기반의 One-Stop 분석 서비스(NGS/BI 통합 솔루션)와 의료기관 대상 GUT INSIDE, 일반 소비자용 SMILE GUT 등 헬스앤웰니스 서비스로 수익을 창출하고 있으며, 여기에 마이크로바이옴 치료제 파이프라인(CJRB-101, CJRB-201 등)의 임상 진행이 장기적 가치 기여를 기대하는 구조입니다.",
+    "main_customers": "마이크로바이옴 치료제 — 임상시험 단계(의료기관·연구기관 대상) / 미생물 유전체 플랫폼 및 솔루션 — 대학·국가기관·기업·의료기관 / 마이크로바이옴 기반 헬스앤웰니스 — 의료기관(것인사이드)·일반 소비자(스마일 것)",
+    "price_factors": [
+      {
+        "factor": "규제정책",
+        "detail": "생균치료제 법적 근거 및 임상시험 가이드라인 제정은 제품화 가능성과 규제 정합성에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "임상 성과",
+        "detail": "CJRB-101·CJRB-201 등 파이프라인의 임상 진행 결과는 장기적 가치와 투자심리에 영향을 미칩니다."
+      },
+      {
+        "factor": "시장 성장성",
+        "detail": "글로벌 마이크로바이옴 시장의 고성장 전망은 헬스앤웰니스 및 분석 서비스 수요 확대에 긍정적입니다."
+      },
+      {
+        "factor": "유동성·자금조달",
+        "detail": "지속적 R&D 투자와 경기 불확실성 속에서 유동성 확보 여부는 영업 및 연구활동에 중요한 변수입니다."
+      },
+      {
+        "factor": "환율(외환위험)",
+        "detail": "국제 영업과 해외 임상·거래에서 달러화 등 환율 변동은 손익에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "AI 기반 마이크로바이옴 분석 플랫폼(Ez-Mx®)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "용역: 4,465,715 (95.4%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "마이크로바이옴 기반 헬스앤웰니스: 215,012 (4.6%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "이 솔루션은 대학, 국가기관, 기업, 의료기관 등 다양한 분야에서 활용되고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "2024년 6월 식약처가 '생균치료제 임상시험 가이드라인'을 제정함으로써"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5960,
+    "completion_tokens": 3834,
+    "reasoning_tokens": 2816,
+    "output_tokens": 1018
+  },
+  "warnings": []
+}

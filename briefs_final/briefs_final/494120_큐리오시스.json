@@ -1,0 +1,77 @@
+{
+  "stock_code": "494120",
+  "corp_name": "큐리오시스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 21:05",
+  "meta": {
+    "wics": "생명과학도구및서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "큐리오시스는 2015년 설립된 랩오토메이션(Lab automation) 분야 바이오 소부장(소재·부품·장비) 기업으로, 바이오 연구장비와 실험실 자동화 제품 및 의료기기를 자체 개발하고 자체 공장에서 제조·생산·판매하고 있습니다. 라이브셀 이미징, 세포 분리·농축 장비 등 세포 기반 장비를 중심으로 기술력과 디자인 수상 실적으로 인지도를 쌓아가고 있습니다.",
+    "business_model": "주요 수익은 제품판매에 집중되며, FY2025 기준 제품(생명과학기기·의료기기·랩오토메이션 등)이 매출의 85.4%를 차지하고 기타가 14.6%를 차지합니다. 제품 라인업에는 Celloger®(라이브셀 이미징), Cellpuri®(세포 농축·분리) 및 합성생물학용 콜로니피킹 시스템(CPX®-α) 등이 포함되며, 기존 지역대리점 판매와 함께 ODM(제조자개발생산) 공급 등 판매채널을 확장하고 있습니다.",
+    "main_customers": "제품 — 세포 연구 기관·신약 개발 기관·진단 기관 / 기타 — 각 국가별 지역대리점·ODM 계약을 통한 기업고객",
+    "price_factors": [
+      {
+        "factor": "지식재산",
+        "detail": "특허 포트폴리오(Patent Thicket)와 영업비밀 관리는 경쟁사 모방 차단과 플랫폼 지배력에 영향을 줍니다."
+      },
+      {
+        "factor": "자동화 수요",
+        "detail": "대용량 처리(High-throughput)와 자동화 수요 증가는 장비 판매 확대와 실적 개선으로 연결될 수 있습니다."
+      },
+      {
+        "factor": "해외·ODM 채널",
+        "detail": "해외 대리점 및 ODM 공급 확대는 매출 다변화와 외형 성장을 좌우합니다."
+      },
+      {
+        "factor": "R&D 비용",
+        "detail": "신제품 개발을 위한 연구개발비 증가는 단기적 비용 부담으로 이익률에 영향을 미칠 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "[DART 사업보고서 — 영업 현황]",
+        "evidence_text": "랩오토메이션(Lab automation)분야에 혁신적 솔루션을 공급하는 바이오 소부장 기업으로"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "제품 (생명과학기기, 의료기기,랩오토메이션 등): 5,820 (85.4%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "[DART 사업보고서 — 영업 현황]",
+        "evidence_text": "세포 연구, 신약 개발, 진단 등에 사용되고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "[경쟁 환경 및 시장 특성]",
+        "evidence_text": "당사는 특허 덤불 전략(Patent Thicket Strategy)을 채택하여"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "[DART 사업보고서 — 영업 현황]",
+        "evidence_text": "대용량 처리요구(High-throughput) 요구 또한 폭발적으로 증가하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "[경영진 실적·전략 요약 (MD&A)]",
+        "evidence_text": "ODM공급계약 체결을 통하여 라이브셀이미징 장비의 매출이 발생하기 시작하였습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4784,
+    "completion_tokens": 5256,
+    "reasoning_tokens": 4352,
+    "output_tokens": 904
+  },
+  "warnings": []
+}

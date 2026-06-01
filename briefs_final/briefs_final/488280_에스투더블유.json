@@ -1,0 +1,72 @@
+{
+  "stock_code": "488280",
+  "corp_name": "에스투더블유",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 20:57",
+  "meta": {
+    "wics": "IT서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "에스투더블유는 대규모 비정형 데이터를 수집·분석해 인사이트를 제공하는 AI 빅데이터 기반 데이터 인텔리전스 기업입니다. 멀티도메인 데이터 교차분석 기술과 지식그래프, 도메인 특화 언어모델을 핵심 역량으로 공공기관과 산업계에 솔루션을 공급하고 있습니다.",
+    "business_model": "주요 제품은 QUAXAR(사이버 위협 인텔리전스), XARVIS(국가안보·범죄수사 빅데이터 플랫폼), 그리고 온톨로지 기반 서비스 등으로 구성되며, 2025년 영업수익 구성은 QUAXAR 46.7%, XARVIS 42.6%, 기타 10.7%입니다. 구독형 매출(ARR) 기반의 반복매출 비중이 증가하고 있으며, SAIP 등 온톨로지 플랫폼은 플랫폼 고도화 단계에 있습니다.",
+    "main_customers": "QUAXAR — 공공·정부기관 및 기업 보안 담당자 / XARVIS — 국가기관(안보·수사) 및 공공기관 / 기타 — 제조·금융·커머스 등 산업의 대기업 및 공공기관",
+    "price_factors": [
+      {
+        "factor": "IT예산",
+        "detail": "기업들의 IT 예산 보수적 집행이 지속될 경우 프로젝트 수주와 매출 성장에 제약을 줄 수 있습니다."
+      },
+      {
+        "factor": "AI경쟁",
+        "detail": "생성형 AI 시장에서의 저가 수주 경쟁이 심화되면 수익성(고마진 수주)이 압박을 받을 수 있습니다."
+      },
+      {
+        "factor": "구독매출",
+        "detail": "구독형 매출(ARR) 성장 및 높은 고객 유지율은 매출 안정성과 예측 가능성에 긍정적 영향을 미칩니다."
+      },
+      {
+        "factor": "R&D고정비",
+        "detail": "플랫폼 개발을 위한 선(先)투자 성격의 고정비 증가는 단기적 영업손실 확대 요인이 될 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "AI 빅데이터 분석 기반 데이터 인텔리전스 기업입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "QUAXAR: 4,712 (46.7%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "XARVIS: 4,294 (42.6%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "국내외 주요 공공 및 정부기관"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "MD&A",
+        "evidence_text": "기업들의 IT 예산 보수적 집행"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4445,
+    "completion_tokens": 5753,
+    "reasoning_tokens": 4992,
+    "output_tokens": 761
+  },
+  "warnings": []
+}

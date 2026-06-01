@@ -1,0 +1,71 @@
+{
+  "stock_code": "000810",
+  "corp_name": "삼성화재",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 17:04",
+  "meta": {
+    "wics": "손해보험",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "insurance"
+  },
+  "brief": {
+    "company_overview": "삼성화재해상보험(주)는 국내외 손해보험업을 영위하는 대형 손해보험사로, FY'25 기준 18조 3,041억원의 보험수익을 기록하고 당기순이익 1조 6,909억원을 달성했습니다. 지급여력비율과 국제 신용등급에서 업계 최고 수준을 유지하며 보험업계 리딩 컴퍼니로 자리잡고 있습니다.",
+    "business_model": "회사는 크게 장기손해보험과 일반손해보험(일반보험·자동차보험 등)을 중심으로 수익을 창출하며, FY2025 기준 장기손해보험이 70.9%, 일반손해보험이 29.1%의 영업수익 구성비를 차지합니다. 장기손해보험(장기보험·연금 등)은 안정적 수익 축적의 축을 이루고, 일반손해보험은 자동차·일반보험을 통해 손해율 관리와 채널별 매출 비중을 관리하는 구조입니다.",
+    "main_customers": "장기손해보험 — 개인(장기보험·연금 가입자) / 일반손해보험 — 산업체 및 개인 / 해외사업 — 현지 개인 및 기업고객",
+    "price_factors": [
+      {
+        "factor": "보험금 상승",
+        "detail": "보험금(손해율) 상승은 보험손익 악화로 실적에 직접적인 부정적 영향을 미칩니다."
+      },
+      {
+        "factor": "경쟁 심화",
+        "detail": "시장 경쟁 격화는 요율·판매구조 압박으로 수익성에 부담을 줄 수 있습니다."
+      },
+      {
+        "factor": "투자수익률",
+        "detail": "투자이익률 변동은 투자이익 규모에 직접 영향을 미쳐 전반적인 이익에 연동됩니다."
+      },
+      {
+        "factor": "규제·수수료",
+        "detail": "판매수수료 개편 및 자본 규제 강화는 영업비용과 경쟁구도에 영향을 줍니다."
+      },
+      {
+        "factor": "온라인 비중",
+        "detail": "온라인 채널의 매출 비중 증가는 유통구조와 상품 수익성에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 가. 영업의 현황",
+        "evidence_text": "당기순이익은 1조 6,909억원을 달성하였습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "일반손해보험: 62,422 (29.1%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "장기손해보험: 12,819,028 (70.9%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 가. 영업의 현황",
+        "evidence_text": "현지 개인 및 기업고객을 대상으로 손해보험 상품 판매를 확대하고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4702,
+    "completion_tokens": 3966,
+    "reasoning_tokens": 3200,
+    "output_tokens": 766
+  },
+  "warnings": []
+}

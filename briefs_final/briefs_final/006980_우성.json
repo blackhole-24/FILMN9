@@ -1,0 +1,62 @@
+{
+  "stock_code": "006980",
+  "corp_name": "우성",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 19:41",
+  "meta": {
+    "wics": "식품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "우성은 배합사료 전문 제조·판매 기업으로 가축용 배합사료와 양어(양식)·반려동물 사료를 주요 사업으로 영위하고 있습니다. 연결 기준 매출액은 약 6,130억원이며, 이중 배합사료 제품 매출액은 6,070억원으로 전체의 약 99.0%를 차지합니다. ISO9001·HACCP 인증 보유와 함께 중국·베트남 등지에 진출한 이력이 있습니다.",
+    "business_model": "핵심 사업은 가축용 배합사료 및 양어·반려동물 사료의 제조·판매이며, 배합사료 제품 매출액은 6,070억으로 전체 매출액 대비 약 99.0%입니다. 사업부문별 영업수익 구성에는 '농 협 외 (6.5%)'가 표기되어 있으며, 주요 판매경로는 축산업자·양식업자와의 직거래 및 대리점·농/축협을 통한 유통입니다. 품질(ISO9001, HACCP)과 해외 기술제휴를 통해 차별화된 경쟁력을 확보하고자 하고 있습니다.",
+    "main_customers": "배합사료(가축·양어·반려동물) — 축산업자·양식업자(사양가) 직거래 / 대리점·농/축협을 통한 판매",
+    "price_factors": [
+      {
+        "factor": "원재료·환율",
+        "detail": "주요 원재료를 수입에 의존하므로 원재료 단가와 환율 변동이 제품 가격과 수익성에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "축산물시세",
+        "detail": "축산물 시세 변동은 제품 가격에 직·간접적 영향을 미쳐 매출과 마진에 영향을 줍니다."
+      },
+      {
+        "factor": "질병·계절성",
+        "detail": "가축 관련 질병 발생이나 계절적 요인은 축산업 생산량과 수요에 영향을 주어 판매량 변동 요인이 됩니다."
+      },
+      {
+        "factor": "경쟁심화",
+        "detail": "국내 배합사료 시장이 거의 완전경쟁 상태여서 품질·원가 경쟁과 M&A·해외진출 전략이 실적에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사 및 종속기업은 배합사료 전문 업체로"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "배합사료 제품 매출액은 6,070억으로 전체 매출액 대비 약 99.0%입니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "축산물 시세 또한 제품/상품의 가격에 직, 간접적인 영향을 줍니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4741,
+    "completion_tokens": 4406,
+    "reasoning_tokens": 3648,
+    "output_tokens": 758
+  },
+  "warnings": []
+}

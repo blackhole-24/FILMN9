@@ -1,0 +1,71 @@
+{
+  "stock_code": "023600",
+  "corp_name": "삼보판지",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 09:52",
+  "meta": {
+    "wics": "포장재",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "삼보판지는 1973년 3월 골판지와 골판지상자의 제조·판매를 목적으로 설립됐고, 1981년 7월 법인으로 전환한 뒤 현재까지 관련 사업을 이어오고 있습니다. 골판지와 골판지용 원지를 함께 다루는 구조를 바탕으로, 포장재 산업 내에서 수직계열화를 통해 안정적인 영업망과 원재료 수급을 추구하고 있습니다.",
+    "business_model": "사업부문별 매출 구성은 제조업 69.1%, 골판지 원지 30.9%입니다. 제조업 부문은 공산품·식품·의약품·농수산물 등의 외부포장에 쓰이는 골판지와 골판지상자를 100% 주문생산·판매하는 구조이며, 골판지 원지 부문은 골판지 제조에 필요한 표면지·이면지·골심지를 생산합니다. 주문생산(고객 요구에 맞춰 생산)과 수직계열화(원재료부터 완제품까지 연계 운영)가 핵심 특징입니다.",
+    "main_customers": "제조업 — 공산품·식품·의약품·농·수산물 등 포장 수요 기업 / 골판지 원지 — 골판지 제조 관련 수요처",
+    "price_factors": [
+      {
+        "factor": "포장수요",
+        "detail": "농·수산물 포장, 전자상거래, 홈쇼핑 증가로 포장 수요가 늘면 골판지와 골판지상자 판매에 긍정적으로 작용합니다."
+      },
+      {
+        "factor": "경기변동",
+        "detail": "골판지포장산업은 전체 산업경기 변동에 민감해 경기 둔화 시 내수 수요가 줄어들 수 있습니다."
+      },
+      {
+        "factor": "단가변동",
+        "detail": "골판지 및 골판지원지의 판매단가 하락은 매출과 수익성에 직접적인 부담으로 이어집니다."
+      },
+      {
+        "factor": "원가절감",
+        "detail": "정확한 품질, 납기관리, 원가절감이 경쟁력을 좌우해 생산 효율과 수익성에 영향을 줍니다."
+      },
+      {
+        "factor": "설비수급",
+        "detail": "골판지원지사는 설비 완료 때 공급이 급증해 수급불균형과 가격변동성이 나타날 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "[골판지 부문] 가. 영업개황",
+        "evidence_text": "1973年 3月 골판지 및 골판지상자의 제조, 판매를 목적으로"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "제조업: 454,748,474 (69.1%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "골판지 원지: 203,590,710 (30.9%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "[주요 제품등의 현황]",
+        "evidence_text": "공산품, 식품, 의약품 및 농ㆍ수산물"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4552,
+    "completion_tokens": 813,
+    "reasoning_tokens": 0,
+    "output_tokens": 813
+  },
+  "warnings": []
+}

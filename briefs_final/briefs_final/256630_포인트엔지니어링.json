@@ -1,0 +1,62 @@
+{
+  "stock_code": "256630",
+  "corp_name": "포인트엔지니어링",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 13:57",
+  "meta": {
+    "wics": "디스플레이장비및부품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "포인트엔지니어링은 반도체·디스플레이용 알루미늄(Al) 전기전자 부품의 제작·가공·표면처리를 주력으로 하는 표면처리 전문기술 업체입니다. 양극산화피막 기술을 기반으로 AAO Platform을 활용한 Pin Foundry 사업과 신규 소재사업으로 사업영역을 확장하고 있습니다.",
+    "business_model": "핵심 수익원은 디스플레이용 소모성 부품(DIFFUSER, SUSCEPTOR, SHADOW FRAME)과 반도체용 부품(Face Plate, SV Gate, 기타)이며, FY2025 기준 DIFFUSER 36.1%, SUSCEPTOR 17.5%, SHADOW FRAME 1.4%, Face Plate 12.0%, SV Gate 3.7%, 기타 29.3%의 매출구성을 보입니다. 특히 PECVD(플라즈마를 활용한 화학증착) 등 장비에 장착되는 표면처리된 부품을 공급하며 수출 비중이 높은 구조입니다.",
+    "main_customers": "디스플레이 부품 — 글로벌 탑티어 장비업체 / 반도체 부품 — 반도체 제조장비업체",
+    "price_factors": [
+      {
+        "factor": "OLED전환",
+        "detail": "OLED 채택 확대 시 디스플레이용 부품 수요 증가가 실적에 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "반도체수요",
+        "detail": "SEMI의 장비시장 성장 전망에 따라 반도체 장비부품 수요가 실적에 직접 연결됩니다."
+      },
+      {
+        "factor": "표면처리기술",
+        "detail": "공정 미세화로 특수표면처리의 중요성이 높아져 기술력 차이가 수주 및 품질에 영향합니다."
+      },
+      {
+        "factor": "환율·수출",
+        "detail": "수출 비중이 큰 구조여서 환율 변동은 매출에 직접적인 영향요인이 됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 라. 회사의 현황",
+        "evidence_text": "성장하고 있는 표면처리 전문기술 업체입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "DIFFUSER (디스플레이): 12,997 (36.1%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "글로벌 탑티어 고객사와 거래를 하고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5238,
+    "completion_tokens": 4507,
+    "reasoning_tokens": 3840,
+    "output_tokens": 667
+  },
+  "warnings": []
+}

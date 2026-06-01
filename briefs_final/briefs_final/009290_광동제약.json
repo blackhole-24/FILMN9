@@ -1,0 +1,67 @@
+{
+  "stock_code": "009290",
+  "corp_name": "광동제약",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 20:19",
+  "meta": {
+    "wics": "제약",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "광동제약은 제약과 식음료(F&B) 사업을 병행하는 기업으로, 제약(전문의약품)과 제주삼다수·비타500 등 음료 브랜드를 보유하고 있습니다. 2025년 매출은 10,110억을 달성했으며, 매출의 98.6%가 내수시장으로 발생하고 있습니다.",
+    "business_model": "핵심 사업부문은 약국영업(OTC), 병원영업(ETC), F&B영업으로 구성되며, FY2025 기준 약국영업 2.5%, 병원영업 11.6%, F&B영업 8.1%, 기타 23.9%의 영업수익 구성을 보입니다. 제약제품과 음료를 자체 GMP 생산시설에서 제조하고 일부는 OEM(위탁생산) 방식으로 생산하는 통합형 사업구조입니다.",
+    "main_customers": "약국영업 — 약국·일반소비자 / 병원영업 — 병원·의료기관 / F&B영업 — 유통업체·일반소비자",
+    "price_factors": [
+      {
+        "factor": "약가정책",
+        "detail": "약가 인하 정책(실거래가 조사 등)은 제약부문 매출과 수익성에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "규제강화",
+        "detail": "KGMP·KGSP 등 제조·유통 기준 강화는 생산·유통 비용과 준법(컴플라이언스) 부담을 높일 수 있습니다."
+      },
+      {
+        "factor": "제네릭경쟁",
+        "detail": "제네릭(복제약) 난립과 차별화 없는 경쟁은 가격 압박으로 이어져 수익성에 부정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "혁신지원",
+        "detail": "혁신형 제약기업 인증 등 정부의 연구개발 지원은 신제품 개발과 장기적 경쟁력에 긍정적 요인으로 작용할 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "2025년 매출은 10,110억을 달성하였습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "약국영업: 25,592 (2.5%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "영업부문은 약국영업부문(OTC), 병원영업부문(ETC), F&B영업부문"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "다. 관련법령 또는 정부의 규제 등",
+        "evidence_text": "약가일괄인하 제도"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3937,
+    "completion_tokens": 3682,
+    "reasoning_tokens": 2944,
+    "output_tokens": 738
+  },
+  "warnings": []
+}

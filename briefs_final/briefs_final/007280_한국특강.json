@@ -1,0 +1,66 @@
+{
+  "stock_code": "007280",
+  "corp_name": "한국특강",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 09:45",
+  "meta": {
+    "wics": "철강",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "한국특강은 철 스크랩을 원료로 전기로 제강을 통해 BILLET과 봉형강제품을 생산하는 철강업체입니다. 철강산업은 건설, 조선, 자동차, 기계 등 다양한 수요산업에 기초소재를 공급하는 국가기간산업이며, 한국특강은 최신 설비와 다품종 특화전략을 바탕으로 경기 변동에 대응하고 있습니다.",
+    "business_model": "회사는 사업부문별 영업수익 기준으로 철근이 59.6%로 가장 큰 비중을 차지하고, 제1차철강제조업이 37.0%, 기타가 3.4%를 차지합니다. 철 스크랩을 원료로 BILLET을 만들고 이를 다시 가열·압연·냉각해 다양한 규격의 봉형강제품을 생산하는 구조이며, 2022년 3분기부터는 신규압연공장 가동도 시작했습니다.",
+    "main_customers": "철근 — 건설, 조선, 자동차, 기계산업 등 수요산업 / 제1차철강제조업 — 철강제품을 사용하는 산업 전반 / 기타 — 제공된 데이터에 고객 유형이 구체적으로 제시되지 않음",
+    "price_factors": [
+      {
+        "factor": "건설경기",
+        "detail": "철근 수요는 건설 경기와 직접 연결돼 있어, 건설 투자 축소 시 매출과 가동률에 부담이 커질 수 있습니다."
+      },
+      {
+        "factor": "원가부담",
+        "detail": "환율 상승, 전기요금 인상, 원자재 수입 비용 증가는 철강 제조 원가를 높여 수익성에 영향을 줍니다."
+      },
+      {
+        "factor": "철강수요",
+        "detail": "글로벌 철강 수요의 저성장과 역성장은 봉형강 중심 기업의 외형 성장에 제약으로 작용할 수 있습니다."
+      },
+      {
+        "factor": "관세정책",
+        "detail": "미국의 철강 관세와 중국의 생산·수출 정책 변화는 철강 수급과 수출환경을 흔들 수 있습니다."
+      },
+      {
+        "factor": "설비효율",
+        "detail": "최신 설비와 생산공정 효율화는 원가 절감과 품질 개선에 영향을 줘 경쟁력 유지의 핵심 요소입니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "회사는 철 스크랩을 원료로 전기로 제강을 거쳐 각종 철강제품에 사용되는 BILLET 및 그 BILLET을 가열, 압연, 냉각하여 다양한 규격의 봉형강제품을 생산하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "제1차철강제조업: 283,738,185,865 (37.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "주요 수요산업은 건설, 조선, 자동차, 기계산업 등입니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4071,
+    "completion_tokens": 792,
+    "reasoning_tokens": 0,
+    "output_tokens": 792
+  },
+  "warnings": []
+}

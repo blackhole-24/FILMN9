@@ -1,0 +1,71 @@
+{
+  "stock_code": "417860",
+  "corp_name": "오브젠",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 19:14",
+  "meta": {
+    "wics": "소프트웨어",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "오브젠은 2000년 4월 창립된 AI 데이터 플랫폼 기업으로, 고객 정보와 행동 데이터를 분석해 맞춤형 마케팅 인사이트를 제공하는 고객 데이터 플랫폼(CDP) 사업을 주력으로 하고 있습니다. 국내 금융 및 리테일 분야에서 세일즈포스·어도비 등 글로벌 기업과 경쟁하며 솔루션 공급률 1위 자리를 유지해왔습니다.",
+    "business_model": "FY2025 기준 제품 매출이 26.7%(제품: 6,413), 서비스 매출이 73.3%(서비스: 13,657)를 차지합니다; 제품은 Obzen CDXP+, Obzen Sales Cloud 등 소프트웨어 제품군이고, 서비스는 구축형(온프레미스)·구독형(SaaS) 제공과 컨설팅·구축 프로젝트 중심의 수익 구조입니다. 2025년 하반기 출시한 오브젠 퀘이사(Agentic AI) 등 AI 플랫폼을 통해 제품·서비스 결합형(풀스택) 솔루션으로 확장하고 있습니다.",
+    "main_customers": "제품 — 금융·리테일·제조·공공의 기업 고객 / 서비스 — 금융사(은행·증권·카드) 및 대형 리테일사 (예: KB카드, KB증권, IBK기업은행 등 프로젝트 수주 사례 존재)",
+    "price_factors": [
+      {
+        "factor": "글로벌 경쟁",
+        "detail": "구글·마이크로소프트·오라클·어도비·세일즈포스 등의 AI 에이전트·플랫폼 경쟁 심화는 가격·기술 경쟁 압력으로 실적 변동성에 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "대형 프로젝트 수주",
+        "detail": "삼성, KB, IBK 등 대형 금융사 프로젝트 수주는 실적과 매출 가시성에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "제품·서비스 구성",
+        "detail": "서비스 비중(73.3%)이 높아 구축·구독 수주 변동이 실적에 민감하게 작용할 수 있습니다."
+      },
+      {
+        "factor": "규제·데이터 관리",
+        "detail": "개인정보보호법 등 데이터 관련 법률은 운영·컴플라이언스 비용과 서비스 제공 방식에 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "인수·통합 리스크",
+        "detail": "잘레시아 인수·합병으로 인한 통합 과정과 기대 시너지가 실적 변동 요인으로 작용할 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "라. 영업개황",
+        "evidence_text": "고객 데이터 플랫폼 사업을 주력으로 하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "제품: 6,413 (26.7%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "서비스: 13,657 (73.3%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "라. 영업개황",
+        "evidence_text": "국내 금융 및 리테일 분야에서"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4771,
+    "completion_tokens": 4580,
+    "reasoning_tokens": 3776,
+    "output_tokens": 804
+  },
+  "warnings": []
+}

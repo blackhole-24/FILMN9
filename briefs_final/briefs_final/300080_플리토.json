@@ -1,0 +1,86 @@
+{
+  "stock_code": "300080",
+  "corp_name": "플리토",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 15:37",
+  "meta": {
+    "wics": "양방향미디어와서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "플리토는 AI 기반 언어 모델의 학습용 데이터 판매와 번역 플랫폼, 실시간 통번역 솔루션을 주력으로 하는 IT 서비스 기업입니다. 연결기준으로 데이터 판매가 매출의 큰 축을 차지하고 있으며, 일본 자회사 플리토 재팬도 유사 사업을 영위하고 있습니다.",
+    "business_model": "주요 사업부문은 데이터 판매(연결기준 매출액의 60.52%: 수출 52.10%, 내수 8.42%), 플랫폼 서비스(연결기준 매출액의 18.05%: 수출 12.77%, 내수 5.28%), 솔루션(연결기준 매출액의 13.64%: 수출 1.42%, 내수 12.22%) 등으로 구성되며, 이 밖에 정부보조금 등 기타(7.79%)가 존재합니다. 데이터는 AI 학습용(학습 데이터 판매)을 중심으로 수출 비중이 높고, 플랫폼과 솔루션은 번역·통번역 서비스를 통해 수익을 창출합니다.",
+    "main_customers": "데이터 판매 — 글로벌 빅테크 등 AI 솔루션 학습용 데이터 수요처 / 플랫폼 서비스 — 웹툰·K-콘텐츠 등 전문번역 수요자 및 다국어 콘텐츠 사업자 / 솔루션 — 글로벌 컨퍼런스·세미나·기업의 실시간 통번역 수요처",
+    "price_factors": [
+      {
+        "factor": "데이터품질",
+        "detail": "학습 데이터 품질이 AI 성능에 직접 연동되어 고품질 데이터 확보 여부가 실적과 경쟁력에 영향"
+      },
+      {
+        "factor": "다국어지원",
+        "detail": "다양한 언어·방언·문화 뉘앙스 지원 능력이 글로벌 수출 비중 및 수주에 영향을 미침"
+      },
+      {
+        "factor": "기술혁신",
+        "detail": "AI 엔진·모델의 지속적 개선 속도가 솔루션 성능과 플랫폼 경쟁력에 직결됨"
+      },
+      {
+        "factor": "글로벌수요",
+        "detail": "글로벌 비즈니스 확장과 컨퍼런스 증가 등으로 번역·통번역 수요 확대 시 매출에 긍정적 영향"
+      },
+      {
+        "factor": "음성데이터수요",
+        "detail": "피지컬 AI 고도화로 음성데이터 수요가 늘어나면 데이터 포트폴리오 및 매출 구성 변화가 발생함"
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "당사는 AI 기반 언어 모델의 연구 및 개발용 데이터 판매"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "데이터 판매, 연결기준 매출액의 60.52%"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "플랫폼 서비스, 연결기준 매출액의 18.05%"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "솔루션, 연결기준 매출액의 13.64%"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "글로벌 빅테크 기업들의 AI 솔루션 학습용 데이터 수요가 증가"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나. 각 사업부문의 시장여건 및 영업의 개황 등 1) 산업의 특성",
+        "evidence_text": "데이터 품질의 중요성 : AI 모델 성능이 학습 데이터의 품질에 크게 의존함"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나. 각 사업부문의 시장여건 및 영업의 개황 등 1) 산업의 특성",
+        "evidence_text": "AI 기술의 발전과 함께 고품질의 언어 데이터에 대한 수요가 급증하고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4889,
+    "completion_tokens": 5661,
+    "reasoning_tokens": 4608,
+    "output_tokens": 1053
+  },
+  "warnings": []
+}

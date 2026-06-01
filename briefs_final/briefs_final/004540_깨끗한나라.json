@@ -1,0 +1,72 @@
+{
+  "stock_code": "004540",
+  "corp_name": "깨끗한나라",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 18:50",
+  "meta": {
+    "wics": "종이와목재",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "깨끗한나라는 PS(Paper Solution, 산업용 포장지) 사업부와 HL(Home & Life, 생활용품) 사업부로 구성된 제지·생활용품 기업입니다. HL사업부가 회사 매출의 약 50.31%를 차지하고 있으며, 내수(72.1%)와 해외(27.7%) 판로를 통해 수익을 창출하고 있습니다.",
+    "business_model": "사업은 PS사업부(포장재·백판지 생산)와 HL사업부(두루마리 화장지·티슈·기저귀 등 생활용품)로 나뉘며, HL사업부 매출 비중은 약 50.31%입니다. FY2025 기준 내수 매출이 72.1%, 해외 매출이 27.7%로 구성되어 있으며, PS사업부는 백판지 시장 침체로 매출이 감소한 반면 HL사업부는 신제품 출시와 마케팅으로 매출이 소폭 증가했습니다.",
+    "main_customers": "PS — 산업용 포장재를 구매하는 제조업체 및 해외거래처 / HL — 일반 소비자(온라인·유통 채널을 통한 최종 소비자)",
+    "price_factors": [
+      {
+        "factor": "원자재(펄프)",
+        "detail": "주요 원재료인 펄프 조달과 가격 변동은 원가 경쟁력에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "에너지비용",
+        "detail": "제지·제조 공정은 에너지 소비가 크므로 전력·에너지 가격 상승이 실적에 부담을 줄 수 있습니다."
+      },
+      {
+        "factor": "수요(내수·수출)",
+        "detail": "백판지의 내수·수출 출하량 감소는 PS사업부 매출에 직접적인 하방 압력으로 작용합니다."
+      },
+      {
+        "factor": "물류비·부피",
+        "detail": "원료와 제품의 부피·중량 특성상 물류비 비중이 높아 물류비용 상승 시 수익성에 악영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "내수 (72.1%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "해외 (27.7%)"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > HL(Home & Life)사업부",
+        "evidence_text": "회사 매출의 약 50.31%를 차지하고 있으며,"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > PS(Paper Solution)사업부",
+        "evidence_text": "PS사업부는 주로 포장재로 사용되는 제/상품을 판매하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "원료 및 제품의 부피와 중량이 커서 물류비용의 비중이 타업종에 비해 높습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5419,
+    "completion_tokens": 4754,
+    "reasoning_tokens": 3968,
+    "output_tokens": 786
+  },
+  "warnings": []
+}

@@ -1,0 +1,67 @@
+{
+  "stock_code": "068290",
+  "corp_name": "삼성출판사",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 12:41",
+  "meta": {
+    "wics": "출판",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "삼성출판사는 출판사업과 임대사업을 영위하는 기업으로, 유아동 교육 출판(영어교재 등)을 주축으로 사업을 운영하고 있습니다. 제24기 매출은 40,291백만원으로 대부분 내수에서 발생하며, 제작은 외주를 통해 이루어집니다.",
+    "business_model": "주요 수익원은 출판부문(제24기 매출 비중 약 93.0%)이며, 임대부문이 약 7.0%를 차지합니다. 출판부문은 직영매장 도서·완구, 유아동 도서·성인교양물, 유치원·초등 영어교재 등으로 구성되며, 판매는 서점·온라인·직영매장 등 다양한 채널을 통해 이루어지고 제작은 외주생산 방식입니다.",
+    "main_customers": "출판 — 유아동·초중등 학습자 및 일반 독자 / 임대 — 사무실·창고 공간을 임차하는 기업 및 기관",
+    "price_factors": [
+      {
+        "factor": "저출산",
+        "detail": "저출산으로 유아동 시장규모가 축소되면 출판(유아동·영어교재) 매출에 직접적 하방 압력이 발생합니다."
+      },
+      {
+        "factor": "소비심리",
+        "detail": "고물가·소비지출 감소는 제24기 매출 감소(전기대비 0.7% 감소)에 영향을 준 것으로 나타나 실적 변동 요인이 됩니다."
+      },
+      {
+        "factor": "원가상승",
+        "detail": "유가 및 인건비 상승은 도서 제작원가와 전반적 원가를 높여 영업이익 악화로 연결될 수 있습니다."
+      },
+      {
+        "factor": "디지털전환",
+        "detail": "스마트폰·태블릿 등 신규 미디어 확산은 디지털 콘텐츠 수요를 증가시켜 출판물 유통·상품구성 전략에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "회사는 출판사업, 임대사업으로 구성되어 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "중단영업손익 제외 전 합계 | 40,291"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "임대 | 사무실 및 창고 임대 등 | 2,817"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "서점 및 할인점, 인터넷 쇼핑몰, 소셜, 마이리틀타이거직영매장 등의 채널을 통해 유아동 제품을 판매하고"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5354,
+    "completion_tokens": 4376,
+    "reasoning_tokens": 3648,
+    "output_tokens": 728
+  },
+  "warnings": []
+}

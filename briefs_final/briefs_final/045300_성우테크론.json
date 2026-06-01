@@ -1,0 +1,76 @@
+{
+  "stock_code": "045300",
+  "corp_name": "성우테크론",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 02:02",
+  "meta": {
+    "wics": "반도체와반도체장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "성우테크론은 반도체용 검사장비와 반도체 부품(리드프레임, PCB)을 주력으로 하는 전기·전자업체입니다. 초정밀 메카트로닉스와 비전기술 기반의 검사 알고리즘 개발 역량을 바탕으로 반도체 검사장비와 임가공(위탁생산) 부품 공급을 영위하고 있습니다.",
+    "business_model": "사업은 장비사업부(검사·가공장비)와 부품사업부(리드프레임·PCB 임가공)로 나뉘며, FY2025 기준 장비사업부가 매출의 31.6%, 부품사업부가 매출의 47.4%를 차지합니다. 장비사업부는 검사장비 개발과 납품을 통해 수익을 창출하고, 부품사업부는 리드프레임·PCB 등 반도체 부품의 임가공과 외주생산을 통해 매출을 확보합니다.",
+    "main_customers": "장비사업부 — 반도체 제조업체(소자생산업체) / 부품사업부 — 반도체 제조업체 및 외주협력업체(해성디에스 관련)",
+    "price_factors": [
+      {
+        "factor": "반도체 경기",
+        "detail": "반도체 시장의 경기변동에 따라 검사장비 수주 및 부품 수요가 크게 변동하여 실적에 직접 영향합니다."
+      },
+      {
+        "factor": "고객 투자 지연",
+        "detail": "고객사의 설비투자 지연 시 장비사업부의 매출 감소로 이어질 수 있습니다."
+      },
+      {
+        "factor": "원가(임금·원재료)",
+        "detail": "임금 상승과 원재료 가격 변동은 제조원가를 높여 영업이익에 부담을 줄 수 있습니다."
+      },
+      {
+        "factor": "기술경쟁 속도",
+        "detail": "차세대 검사기술·정밀가공 기술 확보 여부가 고부가가치 초기 수요와 시장 선점에 영향을 미칩니다."
+      },
+      {
+        "factor": "외주처 정책",
+        "detail": "주요 고객사의 외주 정책 변화는 부품사업부의 생산물량과 매출에 직접적인 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "Leadframe은 반도체 IC를 구성하는 핵심 부품으로서"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "장비사업부: 12,935,452 (31.6%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "부품사업부: 19,372,784 (47.4%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "해성디에스의 외주 정책에 따라 외주협력업체에 생산량 증대시키는 정책을 수립하였습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "리드프레임과 PCB 반도체 부문에서는 임가공 물량이 회복되어 매출이 증가하였습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3883,
+    "completion_tokens": 3043,
+    "reasoning_tokens": 2176,
+    "output_tokens": 867
+  },
+  "warnings": []
+}

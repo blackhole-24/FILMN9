@@ -1,0 +1,86 @@
+{
+  "stock_code": "032980",
+  "corp_name": "바이온",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 23:49",
+  "meta": {
+    "wics": "조선",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "바이온은 바이오의료·화장품·유류판매·기타(자동차부품) 등으로 사업영역을 구성한 기업으로, 바이오 원료 유통과 화장품 제조·유통, 지역 주유소 운영 등을 영위하고 있습니다. 바이오의료 부문은 초고압 기술로 가공한 홍삼 원재료를 국내 기업에 공급하고, 화장품은 외주생산을 통해 다양한 상품군을 매입·유통합니다.",
+    "business_model": "사업부문별 영업수익 구성은 바이오의료 0.1%, 유류판매 29.5%, 선박부품 49.4%, 유압모터 0.4%, 기타 1.2%입니다. 핵심 수익원은 선박부품과 유류판매가 큰 비중을 차지하며, 바이오의료 부문은 홍삼 가공 원료 유통과 의료기기(GMP(우수 의약품 제조 및 품질관리 기준) 시설 구축) 생산 추진, 화장품은 외주생산 방식으로 약 60여종의 상품군을 유통하는 구조입니다.",
+    "main_customers": "바이오의료 — 국내 대기업·제약회사 / 화장품 — GS홈쇼핑·온라인·오프라인 매장·국내외 면세점 / 유류판매 — 충청북도 음성지역 주유소 최종고객 / 기타(자동차부품) — 북경원일차식유한공사",
+    "price_factors": [
+      {
+        "factor": "약가·규제",
+        "detail": "정부의 엄격한 의약품 허가·제조·유통 규제는 바이오의료 사업의 출시 시점과 비용에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "연구개발",
+        "detail": "바이오 산업은 연구개발 비중이 높아 R&D 투자 성과에 따라 경쟁력과 수익성이 달라집니다."
+      },
+      {
+        "factor": "글로벌 수요",
+        "detail": "세계적 고령화 및 기술 발전으로 글로벌 바이오 시장 수요가 확대되어 외형 성장에 영향을 미칩니다."
+      },
+      {
+        "factor": "내수 둔화",
+        "detail": "국내 제약시장의 내수소비 둔화와 규제 지속은 국내 기반 매출 성장에 제약요인으로 작용합니다."
+      },
+      {
+        "factor": "유통·지역 수요",
+        "detail": "화장품은 홈쇼핑·면세채널 성과에, 유류판매는 충청북도 음성지역의 주유 수요에 따라 매출 변동성이 발생합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "당사의 사업영역은 바이오의료 사업부문, 화장품 사업부문"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "선박부품: 10,181 (49.4%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "유류판매: 6,072 (29.5%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "바이오의료: 23 (0.1%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "국내 대기업 및 제약회사에 유통 공급"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "GS홈쇼핑, 온라인과 오프라인 매장, 국내외 사전/후 면세점"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "충청북도 음성지역에서 주유소를 운영해 최종고객에게 판매"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3948,
+    "completion_tokens": 5646,
+    "reasoning_tokens": 4608,
+    "output_tokens": 1038
+  },
+  "warnings": []
+}

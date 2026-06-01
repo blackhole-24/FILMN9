@@ -1,0 +1,81 @@
+{
+  "stock_code": "252990",
+  "corp_name": "샘씨엔에스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 13:49",
+  "meta": {
+    "wics": "반도체와반도체장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "샘씨엔에스는 반도체 프로브카드용 세라믹STF(Space Transformer)를 제작·납품하는 전기·전자업체로, 다층 세라믹 기판(MLC, Multi Layer Ceramic) 제조에 특화되어 있습니다. 2025년 재무제표 기준 매출액 780억원, 영업이익 147억원을 기록했으며, 기술집약적 세라믹 소재 기업으로서 시장점유율을 확대하고 있습니다.",
+    "business_model": "핵심 사업은 반도체 웨이퍼 테스트용 프로브카드에 탑재되는 세라믹STF(MLC)를 제조·판매하는 것입니다. FY2025 기준 제품 부문은 영업수익의 29.0%를 차지하고(제품: 21,335 (29.0%)), 자체 설계·생산과 다수의 특허(등록 94건)를 바탕으로 고부가가치 맞춤형 기판을 공급합니다.",
+    "main_customers": "세라믹STF(제품) — 국내/외 프로브카드사 / 최종수요 — 반도체 제조회사(프로브카드 사용자)",
+    "price_factors": [
+      {
+        "factor": "반도체 사이클",
+        "detail": "세계 반도체 경기 변동에 따라 수요가 직접 영향을 받아 실적 변동성이 발생합니다."
+      },
+      {
+        "factor": "프로브 수요",
+        "detail": "프로브카드 발주량과 연동되어 세라믹 기판의 매출이 증감합니다."
+      },
+      {
+        "factor": "MEMS 수요",
+        "detail": "MEMS 프로브카드의 비중 확대는 고층화된 세라믹 기판 수요 증가로 연결됩니다."
+      },
+      {
+        "factor": "공법 경쟁력",
+        "detail": "당사의 저온소성(LTCC) 공법은 고다층화 요구에 대응하는 경쟁우위로 작용합니다."
+      },
+      {
+        "factor": "수율 리스크",
+        "detail": "다층 연결의 극한 수율 요구로 제조불량 발생 시 제품 전체 손실이 발생할 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "세라믹STF(Space Transformer)를 제작하여 납품하고 있습니다."
+      },
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "매출액 780억원, 영업이익은 147억원을 기록하였습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "제품: 21,335 (29.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 가. 지적재산권 보유현황",
+        "evidence_text": "총 94의 특허가 등록되어 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 라. 시장여건 및 영업의 개황 > 1) 산업의 현황",
+        "evidence_text": "당사 세라믹 기판은 국내/외 프로브카드사에 판매되고 있으며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 라. 시장여건 및 영업의 개황 / 3) 경기변동의 특성",
+        "evidence_text": "반도체 산업의 경기와 밀접한 관계를 맺고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5124,
+    "completion_tokens": 3206,
+    "reasoning_tokens": 2304,
+    "output_tokens": 902
+  },
+  "warnings": []
+}

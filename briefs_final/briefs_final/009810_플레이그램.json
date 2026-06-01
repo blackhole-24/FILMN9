@@ -1,0 +1,62 @@
+{
+  "stock_code": "009810",
+  "corp_name": "플레이그램",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 12:45",
+  "meta": {
+    "wics": "판매업체",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "플레이그램은 지배회사를 중심으로 엠알오(MRO) 사업과 영상콘텐츠사업을 영위하는 기업집단입니다. 지배회사는 엠알오와 영상콘텐츠를 핵심 분야로 두고 여러 계열사를 통해 제작·유통·IT·모빌리티 등 다각적인 사업 활동을 하고 있습니다.",
+    "business_model": "주요 사업부문은 엠알오사업(기업 운영용 부자재·유지보수자재·포장물류자재·연구재료 등 공급)과 영상콘텐츠사업(영화·드라마 기획·제작·투자·배급·유통 및 아티스트 매니지먼트)으로 구성됩니다. [사업부문별 영업수익 구성(FY2025)] 지배회사: 56,136 (22.4%), 종속회사: 33 (0.0%)로 보고되어 있으며, 지배회사를 중심으로 MRO와 콘텐츠 관련 수익이 발생합니다.",
+    "main_customers": "엠알오사업 — 국내외 제조업·유통업·금융업·공공 및 연구기관 / 영상콘텐츠사업 — 방송사·영화·배급사·공연기획사 및 콘텐츠 투자자·아티스트 매니지먼트 수요처",
+    "price_factors": [
+      {
+        "factor": "플랫폼 기술",
+        "detail": "B2B 전자상거래 플랫폼과 AI·VR 등 신기술 도입 수준에 따라 서비스 차별화 및 수주 확대 가능성이 달라집니다."
+      },
+      {
+        "factor": "제조업 수요",
+        "detail": "제조업체의 생산량 변화는 엠알오 대상품 사용량을 직접적으로 좌우해 매출 변동으로 이어집니다."
+      },
+      {
+        "factor": "공공·연구 수요",
+        "detail": "공공기관·연구기관은 경기변동 민감도가 낮아 안정적 수요처로서 실적의 하방 리스크를 완화합니다."
+      },
+      {
+        "factor": "콘텐츠 흥행성",
+        "detail": "영화·드라마 등 제작물의 상업적 성과에 따라 영상콘텐츠사업의 수익성·현금흐름이 크게 달라질 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "사업의 현황",
+        "evidence_text": "지배회사는 2개 사업부문(엠알오사업, 영상콘텐츠사업)으로 구성되어 있으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "지배회사: 56,136 (22.4%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "국내외 모든 제조업, 유통업, 금융업, 공공 및 연구기관 등을 고객의 대상으로 하고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4819,
+    "completion_tokens": 4562,
+    "reasoning_tokens": 3840,
+    "output_tokens": 722
+  },
+  "warnings": []
+}

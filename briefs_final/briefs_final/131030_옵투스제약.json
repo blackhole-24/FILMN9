@@ -1,0 +1,81 @@
+{
+  "stock_code": "131030",
+  "corp_name": "옵투스제약",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 09:39",
+  "meta": {
+    "wics": "제약",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "옵투스제약은 안구 건조증, 녹내장, 항염증 치료 등 안과 질환 치료제의 개발·생산·판매에 집중하는 제약회사입니다. 티어린프리점안액·하메론점안액 등 무방부제 점안제를 포함한 제품군으로 국내 안과 시장에서 입지를 다지고 있으며, 충청북도 오송의 생산시설과 수원 중앙연구소를 기반으로 품질 관리와 신제품 개발에 주력하고 있습니다.",
+    "business_model": "사업부문은 안과, CMO/CDMO, GLOBAL Business, OUE&으로 구분되며, 제품 매출이 FY2025 기준 전체의 98.2%를 차지하고 상품·기타 매출은 각각 0.3%, 1.5%를 차지합니다. 안과사업부문은 전문의약품(ETC)을 병·의원 대상으로 공급하고, CMO/CDMO는 고객사 요청에 따른 위탁개발·생산을 수행하며, GLOBAL Business는 수출, OUE&은 OTC(일반의약품) 기반의 브랜드 사업을 담당합니다.",
+    "main_customers": "안과 — 병·의원 / CMO/CDMO — 제품 개발·생산을 위탁하는 고객사 / GLOBAL Business — 해외 수입업체·유통사 / OUE& — OTC 시장의 일반 소비자 및 유통업체",
+    "price_factors": [
+      {
+        "factor": "보험약가",
+        "detail": "건강보험심사평가원 고시 보험약가 변동이 제품 판매가격을 결정하므로 매출과 수익성에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "생산능력",
+        "detail": "신공장 건설로 일회용 점안제 생산능력 확대가 계획되어 공급량과 원가 구조에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "CMO 계약",
+        "detail": "수탁생산 계약 확보와 고객사의 허가 진행 상황이 CMO 매출 증감에 직접적으로 연결됩니다."
+      },
+      {
+        "factor": "신제품 개발",
+        "detail": "수원 중앙연구소의 품질 개선·신제품 개발 성과가 중장기 성장 동력(제품 파이프라인)에 영향을 미칩니다."
+      },
+      {
+        "factor": "글로벌 수출",
+        "detail": "GLOBAL Business의 수출 확대는 해외 수요 변동과 수출 네트워크 구축 여부에 따라 실적에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "옵투스제약은 안구 건조증, 녹내장, 항염증 치료 등 안과 질환 치료제의 개발,생산,판매에 집중하는 제약 기업입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "제품 매출: 85,566,107 (98.2%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사의 사업부문은 안과, CMO/CDMO, GLOBAL Business, OUE&으로 구분하고 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "안과사업부문은 병 · 의원을 대상으로"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "Total Eye Care 브랜드 OUE&을 론칭"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "연간 4억 7천만관의 일회용 점안제 생산능력"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4215,
+    "completion_tokens": 3131,
+    "reasoning_tokens": 2176,
+    "output_tokens": 955
+  },
+  "warnings": []
+}

@@ -1,0 +1,76 @@
+{
+  "stock_code": "336680",
+  "corp_name": "탑런토탈솔루션",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 16:49",
+  "meta": {
+    "wics": "자동차부품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "탑런토탈솔루션은 전기·전자(자동차부품) 분야에서 부품, 장비, 소재를 아우르는 사업을 영위하는 기업으로, 글로벌 고객을 대상으로 디스플레이·전장 관련 솔루션을 공급합니다. 2025년 연결 기준 매출은 550,111백원, 영업이익은 8,900백원을 기록했습니다.",
+    "business_model": "핵심 사업부문은 전장솔루션, 자동차 부품(P-Injection), IT솔루션, 배터리(P-Injection) 및 해외(베트남) 매출 등으로 구성되며, FY2025 기준 전장솔루션(34.4%), TOP RUN VIETNAM HAIPHONG(9.1%), 자동차 부품(P-Injection)(19.3%), 배터리(P-Injection)(0.6%), IT솔루션(2.0%) 순으로 매출이 배분되어 있습니다. 제품은 대부분 고객사 요구 사양에 따라 맞춤 생산되며, 장비·소재 부문 역시 고객별 사양에 따라 가격과 구성이 달라집니다.",
+    "main_customers": "전장솔루션 — 글로벌 유수 기업(차량용 디스플레이·전장 수요처) / TOP RUN VIETNAM HAIPHONG — 해외(베트남) 관련 거래처 / 자동차 부품(P-Injection) — 글로벌 유수 기업(자동차 관련 부품 수요처) / 배터리(P-Injection) — 배터리 관련 수요처 / IT솔루션 — 디스플레이·TV 관련 부품 수요처",
+    "price_factors": [
+      {
+        "factor": "OLED 채택 확대",
+        "detail": "OLED 매출 비중이 확대되면 소재·장비 수요 증가로 실적에 긍정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "차량용 디스플레이 수요",
+        "detail": "자율주행 등 전장화에 따라 차량용 디스플레이 적용 부위가 확대되면 전장솔루션 매출 증가로 연결됩니다."
+      },
+      {
+        "factor": "원가(인플레이션)",
+        "detail": "글로벌 인플레이션에 따른 원가 부담 상승은 영업이익률을 압박할 수 있습니다."
+      },
+      {
+        "factor": "환율(외환위험)",
+        "detail": "외화표시 거래 및 보유 자산·부채로 인해 환율 변동이 재무실적에 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "고객별 맞춤 사양",
+        "detail": "제품이 고객 요구 사양별로 가격 차이가 발생하므로 대형 고객의 주문 구조에 따라 매출·마진이 변동될 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 3) 시장 여건 및 영업 개황",
+        "evidence_text": "당사는 글로벌 유수 기업들을 고객사로 하여 사업을 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "전장솔루션: 188,986 (34.4%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 3) 시장 여건 및 영업 개황",
+        "evidence_text": "부품 부문에서 전장솔루션은 차량용 디스플레이 BLU"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "전체 디스플레이 시장 내 OLED 매출 비중은 2024년 40.1%"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "글로벌 인플레이션에 따른 원가 부담 상승"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4730,
+    "completion_tokens": 4021,
+    "reasoning_tokens": 3072,
+    "output_tokens": 949
+  },
+  "warnings": []
+}

@@ -1,0 +1,71 @@
+{
+  "stock_code": "380550",
+  "corp_name": "뉴로핏",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 18:29",
+  "meta": {
+    "wics": "건강관리기술",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "뉴로핏은 딥러닝 기반 뇌영상 분석 기술로 뇌질환의 진단·치료 설계 및 의료기기 솔루션을 개발하는 전문기업으로, 알츠하이머병 등 신경퇴행성 질환 영역에 집중하고 있습니다. MRI·PET 영상을 통합해 진단부터 치료 효과 정량화, 부작용 모니터링까지 지원하는 소프트웨어 의료기기를 주요 제품으로 상용화했습니다.",
+    "business_model": "주력은 뇌 MRI·PET 기반의 AI 의료기기 소프트웨어로, 제품별 FY2025 매출 비중은 Neurophet AQUA 17.3%, Neurophet AQUA AD 14.2%, Neurophet SCALE PET 13.7%, Imaging CRO 서비스 26.7%, 기타 5.1%입니다. 의료기기 산업 특성상 임상시험·인허가·글로벌 규제 인증 과정이 길어 상용화까지 시간이 소요되는 사업구조입니다.",
+    "main_customers": "Neurophet AQUA — 병원·대학병원 등 의료기관 / Neurophet AQUA AD — 항아밀로이드 치료제 처방·모니터링을 수행하는 의료기관(대학병원 포함) / Neurophet SCALE PET — 핵의학·영상 전문 의료기관 / Imaging CRO 서비스 — 의료기관(임상·영상 관련 기관)",
+    "price_factors": [
+      {
+        "factor": "치료제 승인",
+        "detail": "FDA 승인 등으로 알츠하이머 치료 환경이 바뀌면 관련 영상진단 수요가 빠르게 확대되어 실적에 긍정적 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "규제·인허가",
+        "detail": "의료기기 인허가와 임상시험·급여화 절차가 길어 승인 지연 시 제품 상용화 및 매출 발생 시점이 늦어집니다."
+      },
+      {
+        "factor": "병원예산(계절성)",
+        "detail": "고가 의료기기 성격상 병원 예산 집행이 4분기에 집중되어 매출이 계절적으로 편중될 가능성이 있습니다."
+      },
+      {
+        "factor": "국내외 경쟁",
+        "detail": "국내 다수 경쟁업체와 해외 후발주자 경쟁 심화는 시장 점유율·가격 경쟁력에 영향을 줍니다."
+      },
+      {
+        "factor": "환율 변동",
+        "detail": "미국·일본 등 외화 표시 거래가 있어 원화 환율 변동은 손익에 직접적인 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "당사는 딥러닝 기반의 뇌영상 분석 기술을 활용하여 뇌질환의 진단, 치료 설계 및 치료용 의료기기 솔루션을 개발하는 전문 기업입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "Neurophet AQUA: 452,453 (17.3%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "(4) 경쟁상황 (가) 제품",
+        "evidence_text": "또한 당사는 우리나라에서 유일하게 다발성 경화증 분석 기술을 보유함으로써, 다발성 경화증 진단과 치료가 행해지는 주요 대학병원을 대상으로 큰 경쟁 우위를 차지한 상황입니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "('24.10) FDA 승인으로 새로운 시장 재편이 기대되며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5701,
+    "completion_tokens": 4603,
+    "reasoning_tokens": 3712,
+    "output_tokens": 891
+  },
+  "warnings": []
+}

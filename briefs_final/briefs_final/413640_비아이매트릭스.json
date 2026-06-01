@@ -1,0 +1,72 @@
+{
+  "stock_code": "413640",
+  "corp_name": "비아이매트릭스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 19:07",
+  "meta": {
+    "wics": "IT서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "비아이매트릭스는 2005년 설립된 Business Intelligence(데이터 기반 의사결정) 솔루션 전문기업으로, 빅데이터 처리와 AI 모델링을 결합한 예측 분석 영역으로 사업을 확장해 왔습니다. 현재까지 약 750여 개의 기업·공공기관·금융기관에 솔루션을 제공하며 시장 신뢰를 쌓아왔습니다.",
+    "business_model": "핵심 사업은 데이터분석 솔루션 제품 판매와 PoC·시스템 구축 등의 서비스, 그리고 유지보수(계약 기반)로 구성되며(FY2025 기준) 제품 41.1%, 서비스매출 45.8%, 유지보수 13.1%의 매출 비중을 보입니다. 제품 측면에서는 G-MATRIX, TRINITY, AUD 등 AI·Ontology 기반 솔루션을 상용화했고, Low-code·SW 로봇과 자체 sLLM(사내 대형언어모델) 연계를 통해 On-Premise(폐쇄형) 환경을 지원합니다.",
+    "main_customers": "제품 — 기업·공공기관·금융기관 / 서비스매출 — PoC 및 솔루션 구축을 의뢰하는 기업·공공기관 / 유지보수 — 기존 솔루션 도입 고객(유지보수계약)",
+    "price_factors": [
+      {
+        "factor": "생성형AI 관심",
+        "detail": "생성형 AI에 대한 높은 산업적 관심은 PoC·파일럿 프로젝트 수요를 늘려 단기적 매출 기회로 연결될 수 있습니다."
+      },
+      {
+        "factor": "정부정책",
+        "detail": "데이터산업 관련 법·정책(디지털플랫폼 정부 등) 추진은 공공·민간의 데이터 사업 확대를 촉진해 수요 증가로 이어질 수 있습니다."
+      },
+      {
+        "factor": "데이터 보안 선호",
+        "detail": "국내 고객의 폐쇄형(On-Premise) AI 시스템 선호는 자체 sLLM 및 온프레미스 지원 역량을 가진 회사에 유리하게 작용할 수 있습니다."
+      },
+      {
+        "factor": "경쟁구도",
+        "detail": "글로벌 BI·데이터 분석 솔루션(예: Tableau 등)과의 경쟁 및 국내 시장 참가자 지위는 기술·가격·고객 확보 측면에서 실적 변동 요인이 됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 나. 사업개요",
+        "evidence_text": "비아이매트릭스는 2005년 설립 이래 고객의 데이터를 가장 가치 있는 자산으로 여기며"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 나. 사업개요",
+        "evidence_text": "현재까지 약 750여 개 기업·공공기관·금융기관에 솔루션을 제공하며 신뢰를 쌓아왔습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "제품(주1): 3,348 (41.1%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "서비스매출(주2): 1,772 (45.8%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "유지보수(주3): 3,401 (13.1%)"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4947,
+    "completion_tokens": 4708,
+    "reasoning_tokens": 3840,
+    "output_tokens": 868
+  },
+  "warnings": []
+}

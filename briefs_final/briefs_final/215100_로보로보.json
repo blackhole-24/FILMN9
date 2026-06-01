@@ -1,0 +1,67 @@
+{
+  "stock_code": "215100",
+  "corp_name": "로보로보",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 12:20",
+  "meta": {
+    "wics": "교육서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "로보로보는 2000년 청소용·보안용 로봇 개발로 시작해 2005년부터 교육용 로봇 사업으로 진출한 교육용 로봇·에듀테크 기업입니다. 방과후 교육 위탁서비스와 학원운영을 담당하는 4개의 종속기업을 거느린 연결기준 기업으로, 로보키트·아이키로·유아로 등 제품군과 교육 서비스로 국내외 판매 인프라를 확보하고 있습니다.",
+    "business_model": "FY2025 기준 사업부문별로 제품매출 29.2%, 상품매출 2.1%, 용역매출 34.0%로 구성되어 있으며, 하드웨어(로봇 제품) 판매와 교육용 서비스(용역)가 핵심 수익원입니다. 교육 콘텐츠·직무연수 등 서비스와 신규 AI·피지컬AI 제품 개발을 통한 에듀테크 전환을 병행하고 있습니다.",
+    "main_customers": "로보키트 — 초등학교·중등·대학교 학생 및 교육기관 / 아이키로 — 교육기관·로봇대회 참가자 및 교육기관 / 유아로 — 유치원·유아 교육 기관 / 용역(방과후 위탁·학원운영) — 학교 및 학원·교육기관",
+    "price_factors": [
+      {
+        "factor": "법규·정책",
+        "detail": "초·중등교육법 등 학교 운영 방침 변화나 정부의 AI 교육 정책 시행은 교육용 제품·서비스 수요에 직간접적 영향을 줍니다."
+      },
+      {
+        "factor": "인증 규격",
+        "detail": "KC·CE·CPSIA·CCC 등의 국내외 안전·인증 기준 충족 여부가 국내 판매와 수출 진입에 영향을 미칩니다."
+      },
+      {
+        "factor": "오프라인 수요",
+        "detail": "COVID-19로 인한 오프라인 교육 수요 감소는 제품 판매와 용역 매출에 부정적 영향을 끼칠 수 있습니다."
+      },
+      {
+        "factor": "피지컬AI",
+        "detail": "피지컬AI(로봇+AI) 트렌드 확대는 관련 제품 문의와 수요 증가로 실적에 긍정적 영향을 줄 가능성이 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "로보키트는 초등학교부터 대학교까지 코딩부터 과학까지 학습 가능한 교육용 로봇 교구입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "제품매출: 3,908,021 (29.2%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "당사는 계속하여 유치원 및 유아 교육 기관 서비스 강화를 통해 매출 증대를 목표로 하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "다. 법규상의 규제에 관한 사항",
+        "evidence_text": "대표적인 인증 규격은 유럽의 CE, 미국의 CPSIA, 중국의 CCC 등이 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5434,
+    "completion_tokens": 5710,
+    "reasoning_tokens": 4928,
+    "output_tokens": 782
+  },
+  "warnings": []
+}

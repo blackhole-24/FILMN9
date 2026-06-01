@@ -1,0 +1,62 @@
+{
+  "stock_code": "317770",
+  "corp_name": "엑스페릭스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 16:20",
+  "meta": {
+    "wics": "전자장비와기기",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "엑스페릭스는 바이오 정보를 등록·인증·활용하는 데 필요한 디바이스와 솔루션을 자체 개발·생산·판매하는 전자장비업체로, 주요 사업 부문에는 Biometric Solutions와 eDocument Solutions가 있습니다. 인도, 유럽, 아시아, 아프리카 등 주요 시장에서 전자주민증 등록·인증 및 전자여권 발급 사업 수주가 이루어지고 있습니다.",
+    "business_model": "FY2025 기준 사업부문별 영업수익은 Biometric Solutions 70.9%, eDocument Solutions 4.7%, 소재사업 0.7%, 휴대폰액세서리 17.9%, 기타 5.8%로 구성되어 있습니다. 핵심은 지문 등록·인증 등 Biometric 기기와 여권판독기·장문스캐너 같은 eDocument 제품 판매이며, AI 기반 위조 지문 검출·OCR 등 코어기술을 통해 솔루션과 제품을 결합한 수익모델을 확대하고 있습니다.",
+    "main_customers": "Biometric Solutions — 출입국 관리 기관·eID 시스템 사업자 / eDocument Solutions — 전자여권·문서 발급 기관·공공기관 / 휴대폰액세서리 — (원문에 별도 고객군 미기재)",
+    "price_factors": [
+      {
+        "factor": "인증·표준 요구",
+        "detail": "엄격한 영상 품질·보안 표준과 인증 요구가 강화되면 제품 개발 비용 및 인증 획득 기간이 실적에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "제품인증",
+        "detail": "국가별 CE/FCC/UL/BIS 등 인증 보유 여부가 입찰 참여 및 수주 경쟁력에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "M&A 구조변화",
+        "detail": "글로벌 바이오인식 분야의 인수합병으로 경쟁구조와 시장지배력이 변화하면 수주 환경과 가격경쟁에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "지정학·정책리스크",
+        "detail": "글로벌 지정학적 불확실성과 보호무역·제도 변화(EU-EES 등)는 해외 수요와 입찰 일정에 변동을 초래할 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 주요 제품 및 서비스",
+        "evidence_text": "주요 사업 부문에는 Biometric Solutions와 eDocument Solutions가 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "Biometric Solutions: 15,228 (70.9%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "다. 주요 제품 등 관련 소비자 불만사항 등",
+        "evidence_text": "국내외 출입국, eID시스템 구축 및 발급"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5334,
+    "completion_tokens": 4050,
+    "reasoning_tokens": 3328,
+    "output_tokens": 722
+  },
+  "warnings": []
+}

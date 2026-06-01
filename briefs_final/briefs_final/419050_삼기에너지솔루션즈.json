@@ -1,0 +1,67 @@
+{
+  "stock_code": "419050",
+  "corp_name": "삼기에너지솔루션즈",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 19:19",
+  "meta": {
+    "wics": "자동차부품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "삼기에너지솔루션즈는 이차전지(배터리) 부품을 제조하는 기업으로, 엔드플레이트(End-Plate)와 BMS용 센싱 케이블을 주력 제품으로 생산합니다. 주요 고객으로는 LG에너지솔루션을 포함한 글로벌 배터리·완성차 계열이 있어 수출 중심의 공급 구조를 가지고 있습니다.",
+    "business_model": "사업부문별로 기구부품(End-Plate)과 전장부품(BMS 케이블)을 중심으로 매출을 창출하며, 보고서 기준 FY2025에서 기구부품이 70.6%, 전장부품이 35.8%를 차지합니다. 기구부품은 알루미늄 소재의 경량·기계적 보호 부품을 공급하고, 전장부품은 자체 개발한 FF-PCB(평탄·유연 PCB) 공법 기반의 BMS 케이블을 양산하여 공급합니다.",
+    "main_customers": "기구부품 — LG에너지솔루션 및 완성차(예: VW, Porsche) / 전장부품 — LG에너지솔루션(미시건 공장) 및 중간고객사",
+    "price_factors": [
+      {
+        "factor": "알루미늄 가격",
+        "detail": "원자재인 알루미늄 가격 변동은 공급가격에 영향이 있으나 업계의 원재료 가격 연동제로 위험이 일부 완화됩니다."
+      },
+      {
+        "factor": "환율",
+        "detail": "수출 대금이 달러로 지급되기 때문에 원·달러 환율 변동이 매출 및 공급가에 직접적 영향을 줍니다."
+      },
+      {
+        "factor": "해상운임",
+        "detail": "대부분 제품은 FOB 조건으로 해상운임 영향이 적으나, 일부 DAP 품목은 운임 변동에 노출됩니다."
+      },
+      {
+        "factor": "전기차 수요",
+        "detail": "글로벌 전기차 판매량 증가는 End-Plate 수요에 긍정적 영향을 미치며, 주요 End User인 유럽 완성차 증가가 수혜 요인입니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "3-3. 신규 사업",
+        "evidence_text": "당사는 이차전지 부품 전문회사로 성장하기 위하여"
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "기구부품: 66,510,493 (70.6%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "7-2. 시장현황",
+        "evidence_text": "당사의 End User 가운데 폭스바겐 그룹의 VW, Porsche 등이 큰 비중을 차지하고 있어"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "2-2. 주요제품 등의 가격변동추이",
+        "evidence_text": "원자재인 알루미늄 가격의 변동이 있으나"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4613,
+    "completion_tokens": 3895,
+    "reasoning_tokens": 3136,
+    "output_tokens": 759
+  },
+  "warnings": []
+}

@@ -1,0 +1,67 @@
+{
+  "stock_code": "183300",
+  "corp_name": "코미코",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 11:00",
+  "meta": {
+    "wics": "반도체와반도체장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "코미코는 2013년 물적분할로 설립된 반도체 공정 장비용 정밀세정·특수코팅 및 세라믹 부품 전문기업으로, 글로벌 칩메이커와 장비사를 대상으로 사업을 전개합니다. 대한민국을 포함해 미국, 중국, 대만, 일본, 싱가포르 등에서 근거리 서비스를 제공하며 고부가가치 고객군을 주요 대상으로 하고 있습니다.",
+    "business_model": "핵심 사업부문은 세정, 코팅, 부품으로 구성되며(2025년 연결 매출 6,041억원), 부문별 매출 비중은 세정 21.8%, 코팅 28.1%, 부품 50.1%입니다. 정밀세정 및 특수코팅은 미세오염 제어와 부품 재생을 통해 고객의 공정수율을 개선하고 원가 절감에 기여하며, 세라믹 부품 제작은 장비용 핵심 부품 공급을 통해 안정적 매출을 창출합니다.",
+    "main_customers": "세정·코팅 — Chip Maker 및 국내외 장비사 / 부품 — Chip Maker 및 국내외 장비사 (예: Samsung, SK hynix, Intel, Micron, TSMC, UMC, GlobalFoundries)",
+    "price_factors": [
+      {
+        "factor": "경기 민감도",
+        "detail": "사업 특성상 전반적으로 '경기에 민감하지 않음'이 실적 안정성에 기여합니다."
+      },
+      {
+        "factor": "원가절감 수요",
+        "detail": "전방 산업의 원가절감 추세 시 신규 부품 대신 세정·코팅 수요가 늘어 실적에 긍정적 영향을 줍니다."
+      },
+      {
+        "factor": "진입장벽",
+        "detail": "다년간 축적된 노하우와 설비가 필요해 경쟁자의 진입이 어렵고 시장 지위를 방어하는 요인입니다."
+      },
+      {
+        "factor": "고객구조",
+        "detail": "대형 고객사와의 거래 중심으로 매출채권회전이 우수해 현금흐름과 실적 변동성에 영향 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "총 6개국에서 Chip Maker 및 국내외 장비사를 대상으로"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "세정 1,316억원(21.8%), 코팅 1,698억원(28.1%), 부품 3,027억원(50.1%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "Samsung, SK hynix, Intel, Micron, TSMC, UMC, GlobalFoundries"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "시장여건 및 영업의 개황",
+        "evidence_text": "경기에 민감하지 않으며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5032,
+    "completion_tokens": 3975,
+    "reasoning_tokens": 3200,
+    "output_tokens": 775
+  },
+  "warnings": []
+}

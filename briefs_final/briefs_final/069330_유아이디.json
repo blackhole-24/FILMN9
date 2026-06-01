@@ -1,0 +1,67 @@
+{
+  "stock_code": "069330",
+  "corp_name": "유아이디",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 05:10",
+  "meta": {
+    "wics": "디스플레이장비및부품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "유아이디는 디스플레이 장비·부품을 주력으로 영위하는 기업으로, ITO 코팅(투명전도막), 라미네이션(Lamination) 및 LCD 식각 등 디스플레이 관련 임가공(가공 서비스)을 제공합니다. 연결기준 매출액은 497억원이며(전년 대비 7% 감소), 주로 디스플레이 및 터치패널 관련 수요에 의존하는 구조입니다.",
+    "business_model": "사업부문별 매출은 ITO 코팅(ITO) 28.6%, 라미네이션(DM) 33.8%, LCD 식각(LCD) 36.3%, 기타(부동산) 1.3%로 구성되어 있으며, 각 부문은 임가공(가공 서비스)을 통해 매출을 창출합니다. ITO는 터치패널 등 투명전도막(ITO: Indium-Tin Oxide) 제품을, DM은 유리 라미네이션을, LCD는 패널 식각 서비스를 주로 공급합니다.",
+    "main_customers": "ITO — 테블릿·게임기·휴대전화 제조사(터치패널용) / DM — 사무용 비품·건축용 내장재·옥외광고판 관련 업체 / LCD — 3.5세대 및 5세대 디스플레이 패널 제조사 / 기타 — 부동산 분양·임대 수요처",
+    "price_factors": [
+      {
+        "factor": "전방수요변동",
+        "detail": "스마트폰·태블릿·노트북 등 전방 산업의 수요 변동은 ITO·LCD 부문 물량과 실적에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "거래처 리스크",
+        "detail": "일부 거래처의 영업환경 변화나 영업중단은 특정 부문 물량 감소로 이어져 매출 변동성을 키웁니다."
+      },
+      {
+        "factor": "원가구조",
+        "detail": "원가절감 노력은 영업이익 개선과 연결되므로 원가 변동(재료·공정)에 따라 수익성에 큰 영향이 있습니다."
+      },
+      {
+        "factor": "설비투자·대형화",
+        "detail": "대형화되는 디스플레이 시장 대응을 위한 대형·정밀 Laminator 등 설비투자는 매출 확대와 수익성 개선에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "ITO는 Indium-Tin Oxide의 줄인 말로 투명하면서 전기가 통합니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "합 계 49,690,517,317(100%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "테블릿 PC,  게임기휴대전화, 스마트폰"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "원가절감 노력 및 수익성 개선에 따라 영업이익은 전년 대비 443% 증가한 13억원을 기록하였습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3804,
+    "completion_tokens": 4279,
+    "reasoning_tokens": 3456,
+    "output_tokens": 823
+  },
+  "warnings": []
+}

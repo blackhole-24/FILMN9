@@ -1,0 +1,82 @@
+{
+  "stock_code": "222080",
+  "corp_name": "씨아이에스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 12:39",
+  "meta": {
+    "wics": "전기제품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "씨아이에스는 리튬 이차전지 전극 공정장비의 설계·제조·공급을 주요사업으로 하는 기업입니다. Coater(코터), Calender(캘린더), Slitter(슬리터) 등 전극 공정 핵심 장비를 주력으로 보유하고 있습니다.",
+    "business_model": "주요 수익원은 전극 공정장비 제조·판매이며, 사업부문별 매출 구성은 Calender 51.57%, Coater 11.31%, Slitter 2.59%, 증착 및 검사·측정장비 15.90%로 표에 기재되어 있습니다. 핵심 제품군(코터·캘린더·슬리터)은 전극의 코팅, 압연, 절단 공정에 특화된 장비로, 제조사에 장비를 납품하는 방식으로 수익을 창출합니다.",
+    "main_customers": "Calender — 셀 제조업체 / Coater — 셀 제조업체 / Slitter — 셀 제조업체 / 증착 및 검사·측정장비 — 디스플레이 제조업체",
+    "price_factors": [
+      {
+        "factor": "수요(전기차·ESS)",
+        "detail": "전기차(EV)·에너지저장장치(ESS) 보급 확대는 전극 공정 장비 수요 증가로 실적에 직접적 영향을 미칩니다."
+      },
+      {
+        "factor": "국가정책",
+        "detail": "미국 IRA·EU 배터리 규정·한국의 K-배터리 전략 등 각국의 정책은 배터리 투자와 공급망에 영향을 주어 장비 수요 변동을 초래합니다."
+      },
+      {
+        "factor": "기술혁신",
+        "detail": "고에너지밀도·저비용 배터리 기술(예: LFP, 고니켈) 발전은 장비 사양 변화를 유도해 수주·교체 수요에 영향을 줍니다."
+      },
+      {
+        "factor": "경기·투자사이클",
+        "detail": "글로벌 경기·금리 변화 및 보조금 정책 변화는 배터리 업체의 설비투자 조정으로 단기적 수주 변동성을 높일 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "리튬 이차전지 셀 제조라인의 전극 공정장비 제조업"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "209,990,251(51.57%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "46,037,685(11.31%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "10,532,082(2.59%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "64,738,598(15.90%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "셀 제조업체별로"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "디스플레이 증착 및 검사ㆍ측정장비"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4677,
+    "completion_tokens": 3965,
+    "reasoning_tokens": 3072,
+    "output_tokens": 893
+  },
+  "warnings": []
+}

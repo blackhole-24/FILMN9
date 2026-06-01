@@ -1,0 +1,72 @@
+{
+  "stock_code": "291810",
+  "corp_name": "핀텔",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 13:04",
+  "meta": {
+    "wics": "소프트웨어",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "핀텔은 고해상도 AI 영상분석 기술을 기반으로 '에이전틱 AI'(맥락을 이해하고 대응 시나리오를 제안하는 AI) 역량을 보유한 기업으로, 스마트시티·커넥티드 모빌리티·예측형 스마트 안전 등 지능형 도시운영 분야에서 활동하고 있습니다. 대표 제품인 PREVAX 플랫폼을 중심으로 온디바이스(초저전력) 및 멀티 NPU 환경을 겨냥한 Full-Stack AI 솔루션을 공급하고 있습니다.",
+    "business_model": "주요 사업부문은 '자사제품'(AI 소프트웨어 플랫폼 PREVAX 시리즈)과 '용역'(프로젝트 기반 시스템 구축·연계 등)으로 구성되어 있으며, 제품 판매와 프로젝트 수행을 병행하는 구조입니다. 차세대 PREVAX 고도화와 플랫폼 경쟁력 강화를 위해 연구개발 투자를 확대했고, 2025년 연구개발비 61.6억원 중 90.1%인 55.5억원은 정부보조금으로 충당되었습니다(연구개발비 출처: II. 사업의 내용 - 6. 주요계약 및 연구개발활동 - (2) 연구개발비용).",
+    "main_customers": "자사제품 — 공공기관·지방자치단체(스마트시티·교통·보안 분야) / 용역 — 공공 발주기관 및 프로젝트 발주처",
+    "price_factors": [
+      {
+        "factor": "공공발주 지연",
+        "detail": "주요 공공 프로젝트 발주 지연 시 매출 인식 시점이 미뤄져 실적에 즉각적 하방 압력을 줄 수 있습니다."
+      },
+      {
+        "factor": "규제·성능기준",
+        "detail": "개인정보보호법·AI 윤리 흐름과 발주기관의 성능 검증 기준이 까다로우면 공공사업 참여와 수주에 제약이 생깁니다."
+      },
+      {
+        "factor": "하드웨어 전환",
+        "detail": "중앙집중형 GPU에서 초저전력 온디바이스(NPU) 중심으로 전환되면, 멀티 NPU 호환성과 경량화 기술이 경쟁력에 직결됩니다."
+      },
+      {
+        "factor": "표준·시스템 통합",
+        "detail": "ONVIF 등 표준 기반의 시스템 통합 역량이 떨어지면 대규모 도시운영 플랫폼 도입 경쟁에서 불리해질 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "AI 기술 선도 기업입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 가. 주요 제품의 현황 및 설명",
+        "evidence_text": "당사의 대표 제품인 PREVAX는 AI 기반 고해상도 영상분석 기술을 활용하여 지속적으로 발전해 왔습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > (MD&A)",
+        "evidence_text": "국가시범도시, 지능형교통체계(ITS), 스마트 교차로, 스마트 스쿨존, 지능형 선별관제, 도시재난안전 시스템"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 나. 규제 현황",
+        "evidence_text": "기술 자체에 대한 직접 규제는 제한적입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 - 6. 주요계약 및 연구개발활동 - (2) 연구개발비용",
+        "evidence_text": "연구개발비는 61.6억원이며 이 중 90.1%인 55.5억원은 정부보조금으로 충당되었습니다"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 5964,
+    "completion_tokens": 5367,
+    "reasoning_tokens": 4416,
+    "output_tokens": 951
+  },
+  "warnings": []
+}

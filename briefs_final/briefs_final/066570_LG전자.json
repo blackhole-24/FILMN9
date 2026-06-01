@@ -1,0 +1,67 @@
+{
+  "stock_code": "066570",
+  "corp_name": "LG전자",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 04:42",
+  "meta": {
+    "wics": "전자제품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "LG전자는 HS(생활가전), MS(영상기기), VS(차량부품), ES(공조) 등으로 구성된 글로벌 전기·전자 기업으로, 가전·영상·자동차 부품 등을 생산·판매합니다. 2025년(제24기) 연결 기준 매출은 전년 대비 1.7% 증가한 89조2,009억원으로 사상 최대치를 기록하였습니다.",
+    "business_model": "사업별로는 HS·ES 등 가전·공조와 MS(영상기기), VS(차량용부품) 등이 주요 수익원이며, 연결 자회사인 LG이노텍의 광학솔루션 매출도 큰 비중을 차지합니다. 공시된 FY2025 구성에서는 납품(44.2%)과 해외종속기업 매출(54.1%)이 보고되었고, HS·ES 합산 매출 비중은 약 39.8%, MS는 약 21.8%, VS는 약 12.5%, LG이노텍 매출 비중은 24.5%로 제시되어 있습니다.",
+    "main_customers": "HS — 가정용 소비자 / MS — 영상기기 사용자(가전·상업용 포함) / VS — 자동차 제조사 및 관련 부품 수요처 / LG이노텍 — 광학모듈·부품 구매기업",
+    "price_factors": [
+      {
+        "factor": "경쟁 심화",
+        "detail": "중국 브랜드의 추격과 기술 혁신 한계로 경쟁 강도가 높아지면 마케팅·개발 등 비용 투입 증가로 수익성이 압박받을 수 있습니다."
+      },
+      {
+        "factor": "원자재비",
+        "detail": "Steel·Resin·Copper 등 주요 원재료 가격 상승 시 제품 원가가 올라가며 마진에 부정적 영향을 미칩니다."
+      },
+      {
+        "factor": "미국 관세",
+        "detail": "미국 관세 정책 변화는 수출입 비용과 이익구조에 직접적인 부담으로 작용할 수 있습니다."
+      },
+      {
+        "factor": "판매가격 추세",
+        "detail": "TV·냉장고·세탁기 등 주요 제품의 평균 판매가격 하락은 매출총이익에 직접적인 하방 압력이 됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "HS사업부문과 ES사업부문은 냉장고, 세탁기, 청소기, 에어컨 등을 생산ㆍ판매하며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "- 납품 (44.2%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "- 해외종속기업 매출 (54.1%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "연간 4조원 이상의 연구개발비를 지출하고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5504,
+    "completion_tokens": 5448,
+    "reasoning_tokens": 4672,
+    "output_tokens": 776
+  },
+  "warnings": []
+}

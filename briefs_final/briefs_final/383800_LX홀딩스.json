@@ -1,0 +1,71 @@
+{
+  "stock_code": "383800",
+  "corp_name": "LX홀딩스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 18:35",
+  "meta": {
+    "wics": "무역회사와판매업체",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "LX홀딩스는 공정거래법상 지주회사로 2025년 12월 31일 기준 LX인터내셔널, LX하우시스, LX세미콘 등 총 6개의 국내자회사를 보유하고 있으며 지배구조 관리를 통해 그룹의 사업포트폴리오를 고도화하는 역할을 합니다. 별도 재무제표 기준 당기말 영업수익은 1,041억원이며, 연결 기준에서는 지분법 손익이 주요 지표로 작용합니다.",
+    "business_model": "별도 기준 수익구조는 자회사로부터의 배당수익과 상표권 사용수익이 핵심으로, 배당수익·상표권 사용수익 등이 주요한 현금흐름을 형성합니다. FY2025 사업부문별 영업수익 구성은 지주회사 90.7%, 교육 및경영자문 8.6%, 벤처투자 0.7%로 지주사업(지분·배당 중심)이 대부분을 차지합니다.",
+    "main_customers": "지주회사 — 자회사(배당·상표권 제공 대상) / 교육 및경영자문 — 계열사(그룹 임직원 및 계열사 대상 컨설팅) / 벤처투자 — 벤처투자 대상 기업(투자처)",
+    "price_factors": [
+      {
+        "factor": "계열사 실적",
+        "detail": "주요 자회사의 실적 변동이 연결실적과 지분법이익에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "배당·상표 의존",
+        "detail": "별도 영업수익에서 배당수익과 상표권 사용수익의 비중이 높아 이들 수입원 변동이 실적에 즉각 반영됩니다."
+      },
+      {
+        "factor": "원자재 가격",
+        "detail": "LX인터내셔널 등 트레이딩·자원 부문은 석탄 등 원자재 가격 변동에 민감합니다."
+      },
+      {
+        "factor": "건설·산업수요",
+        "detail": "LX하우시스의 업황(건설 경기 등) 및 LX세미콘의 자동차용 수요 등 산업수요 변화가 그룹 실적에 영향합니다."
+      },
+      {
+        "factor": "공정거래 규제",
+        "detail": "지주회사로서 공정거래법상 소유·지배 관련 규제는 사업전략과 자회사 지분구조에 제약요인으로 작용합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당기말 별도재무제표 기준 영업수익은 총 1,041억원이며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "지주회사: 72,563 (90.7%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "영업수익은 자회사로부터의 배당수익"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성 — price_factors 참고용",
+        "evidence_text": "배당금수익 69.7%, 상표권 사용수익 29.7%"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5201,
+    "completion_tokens": 4309,
+    "reasoning_tokens": 3456,
+    "output_tokens": 853
+  },
+  "warnings": []
+}

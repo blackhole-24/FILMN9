@@ -1,0 +1,67 @@
+{
+  "stock_code": "318160",
+  "corp_name": "셀바이오휴먼텍",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 16:25",
+  "meta": {
+    "wics": "화장품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "셀바이오휴먼텍은 2015년 설립된 셀룰로스 분자 제어 기술 기반의 마스크팩 소재 개발·제조기업으로, 국내 마스크팩 섬유소재 시장의 국산화·고급화에 주력하고 있습니다. 2025년 하반기부터 시트 마스크팩·패드·하이드로겔 등 화장품 OEM 제조사업을 신규로 시작하며 사업 영역을 소재 제조에서 화장품 제조·판매로 확장하고 있습니다.",
+    "business_model": "주력 제품은 PT Cell 기반 마스크팩 시트와 SEMI GEL 등 고급 마스크 소재이며, FY2025 기준 사업부문별 매출은 PT Cell 류(47.8%), SEMI GEL 류(19.5%), 기타류(8.6%), 화장품제조판매(24.0%)로 구성되어 있습니다. 소재 연구개발(셀룰로스 개질)과 하이드로콜로이드·하이드로겔 등 신소재 양산, 그리고 2025년 개시한 OEM(제조자개발생산) 사업이 수익 구조의 핵심입니다.",
+    "main_customers": "PT Cell 류 — 마스크팩 제조업체(국내·해외) / SEMI GEL 류 — 고급 마스크·패치 개발사(화장품사) / 기타류 — 패치·기초 화장품용 구매처 / 화장품제조판매 — OEM·ODM 고객사 및 브랜드사",
+    "price_factors": [
+      {
+        "factor": "지적재산권",
+        "detail": "특허·상표 보호 여부(분쟁 등)는 제품 출시·수출과 매출에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "글로벌수요",
+        "detail": "K-뷰티 확산 및 미주·일본·동남아 시장 확대는 소재와 OEM 매출 성장에 영향을 줍니다."
+      },
+      {
+        "factor": "친환경·기능성",
+        "detail": "생분해성·비건 등 친환경·기능성 트렌드는 고부가가치 소재 수요를 견인합니다."
+      },
+      {
+        "factor": "인증·설비",
+        "detail": "CGMP 인증 및 제조설비 보유 여부는 OEM 수주 확보와 생산확장에 중요한 변수입니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "셀룰로스 분자 제어 기술을 적용한 마스크팩 소재를 개발 및 제조"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "PT Cell 류: 24,419,472,649 (47.8%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "당사가 주력으로 판매하고 있는 제품은 마스크팩 시트이며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "다. 법률/규정 등에 의한 규제사항",
+        "evidence_text": "상표법, 특허법, 디자인보호법이 적용되어"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5343,
+    "completion_tokens": 3746,
+    "reasoning_tokens": 2944,
+    "output_tokens": 802
+  },
+  "warnings": []
+}

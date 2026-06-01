@@ -1,0 +1,79 @@
+{
+  "stock_code": "376180",
+  "corp_name": "피코그램",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 18:14",
+  "meta": {
+    "wics": "가정용기기와용품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "피코그램은 2002년 비데용 필터 개발을 출발점으로 필터조립체와 정수기, 세척용 제품을 제조해 온 기업입니다. 국내 최초로 원터치 체결방식 필터를 상용화했으며, 냉온정수기 같은 가전제품형 정수기까지 직접 생산하고 일본·미국·태국 등으로 수출을 진행해 왔습니다.",
+    "business_model": "주요 사업은 정수기 및 필터 제조·판매를 중심으로 카본블록 등 정수소재의 제조(소재판매 포함), 생활가전(냉온정수기) 완제품 생산, 화장품·부동산임대·상품매출 등으로 구성됩니다. 특히 카본블록은 자체제품 적용을 통해 성능을 검증하고 2019년부터 자사 정수기 필터를 당사 카본블록으로 전량 대체하는 등 원재료(소재) 판매와 완제품 공급이 결합된 구조입니다.",
+    "main_customers": "정수기 및 필터 — 정수기 제조업체(대·중견·중소, 예: LG·교원) / 카본블록(소재) — 필터 생산업체 및 정수기 제조사 / 생활가전(정수기 완제품) — 자사 브랜드 '퓨리얼' 관련 고객 및 국내 유통채널 / 해외수출 — 일본·미국·태국 등 해외 거래처",
+    "price_factors": [
+      {
+        "factor": "인증 규제",
+        "detail": "환경부 중심의 인증·안전기준 강화로 제품의 인증 획득 비용과 시점이 실적에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "원자재가",
+        "detail": "활성탄 가격 상승 시 입상활성탄에서 카본블록으로의 전환이 발생하여 당사 카본블록 수요와 매출에 영향을 미칩니다."
+      },
+      {
+        "factor": "시장 집중도",
+        "detail": "카본블록 시장에서 약 80%를 차지하는 경쟁사 독점구조로 인해 시장 점유율 확대에는 경쟁적 도전이 수반됩니다."
+      },
+      {
+        "factor": "교체수요",
+        "detail": "정수기 보급과 필터 교체 주기(4~6개월)가 꾸준한 소모품 수요로 연결되어 매출의 반복성에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황 (가) 정수기 및 필터 사업",
+        "evidence_text": "주식회사 피코그램(이하 당사)은 필터조립체, 정수기, 세척용 제품을 제조하여 시장에 공급하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황 (가) 정수기 및 필터 사업",
+        "evidence_text": "현재는 가전제품형태의 냉온정수기까지 직접 제조생산하고 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황 (나) 정수기용 카본블럭 사업",
+        "evidence_text": "LG, 교원 등의 대/중견기업"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황 (나) 정수기용 카본블럭 사업",
+        "evidence_text": "현재 카본블록 시장의 80% 정도는 A업체에서 독점형태로 공급 되는 것으로 추정됩니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황 (나) 정수기용 카본블럭 사업",
+        "evidence_text": "활성탄(Activated Carbon) 가격 상승이 지속되면서... 카본블록 형태로 전환하는 사례가 증가"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황 > 나. 규제사항 등",
+        "evidence_text": "국내유통에 있어, 정수기, 필터류에 대한 규제는 인증제도로 진행되고 있습니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4444,
+    "completion_tokens": 4294,
+    "reasoning_tokens": 3264,
+    "output_tokens": 1030
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

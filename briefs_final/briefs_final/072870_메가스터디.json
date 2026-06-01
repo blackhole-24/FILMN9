@@ -1,0 +1,67 @@
+{
+  "stock_code": "072870",
+  "corp_name": "메가스터디",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 05:29",
+  "meta": {
+    "wics": "교육서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "메가스터디는 본사 및 9개 종속회사를 통해 투자·교육·출판·급식·레저(골프장 운영) 사업을 영위하는 기업입니다. 2025년 연결기준 자산총계 5,472억원, 부채비율 46.6% 등 건실한 재무구조를 유지하고 있습니다.",
+    "business_model": "사업부문별 영업수익 구성은 투자 및 기타사업 11.4%, 교육사업 27.2%, 출판사업 18.2%, 급식사업 20.1%, 레저사업 27.5%로 구성되어 있습니다. 교육사업은 온라인·학원 강의 브랜드('메가로스쿨, 메가로이어스, 메가변리사, 메가랜드')를 통한 수강료가 주요 수익원이며, 투자 및 기타사업은 벤처투자·펀드투자·임대·브랜드관리 등에서 수익을 창출합니다.",
+    "main_customers": "투자 및 기타사업 — 메가스터디그룹 계열회사 및 투자대상 / 교육사업 — 법학전문대학원·변호사시험·변리사시험·부동산 자격증 준비생 등(대학생 및 일반성인) / 출판사업 — 중·고등·유초등 학습자 및 일반 독자 / 급식사업 — 메가스터디 그룹 내 학원 재원생 및 구내식당 이용 직장인 / 레저사업 — 골프장 이용객",
+    "price_factors": [
+      {
+        "factor": "인구감소",
+        "detail": "보고서에서 지적한 '인구감소 및 경기침체'는 전 사업부 매출 감소로 이어질 수 있어 실적에 부정적 영향을 미칩니다."
+      },
+      {
+        "factor": "원가상승",
+        "detail": "식재료비·인건비 등 원가 상승은 급식사업의 마진 압박으로 이어질 수 있습니다."
+      },
+      {
+        "factor": "급식경쟁",
+        "detail": "편의점 도시락·간편식의 성장과 대기업급식업체의 경쟁 심화는 급식사업의 매출 확보에 부담을 줄 수 있습니다."
+      },
+      {
+        "factor": "학원수요변동",
+        "detail": "급식사업 매출은 '학원의 수강생 모집 실적'에 따라 변동성이 발생할 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 1. 사업의 개요",
+        "evidence_text": "당사는 현재 본사 및 9개 종속회사를 통해"
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "교육사업: 34,591,357 (27.2%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "나. 교육사업부문",
+        "evidence_text": "대학생 및 일반성인 대상의 교육 사업을 영위하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나. 영업실적",
+        "evidence_text": "인구감소 및 경기침체 등의 사업환경 악화"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5369,
+    "completion_tokens": 4828,
+    "reasoning_tokens": 4032,
+    "output_tokens": 796
+  },
+  "warnings": []
+}

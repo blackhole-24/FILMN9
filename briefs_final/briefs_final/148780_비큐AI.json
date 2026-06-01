@@ -1,0 +1,66 @@
+{
+  "stock_code": "148780",
+  "corp_name": "비큐AI",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:21",
+  "meta": {
+    "wics": "소프트웨어",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "비큐AI는 합법적으로 확보한 데이터를 바탕으로 데이터 수집부터 AI 서비스 제공까지를 하나로 묶는 'AI Full-Stack 파이프라인'을 구축한 IT 서비스 기업입니다. 약 20여 년간 축적한 데이터 처리 역량을 기반으로 뉴스와 멀티모달 데이터, AI 기술을 결합한 데이터 서비스와 플랫폼 사업을 전개하고 있습니다. 주요 서비스로는 AISURFER, RDPLINE, WIGOVIEW, AIROOT 등이 있습니다.",
+    "business_model": "회사는 원천 데이터 수집·가공부터 AI 학습데이터 공급, AI 서비스 플랫폼 제공까지 단계별 서비스를 운영하며, 데이터·AI 기술·서비스를 통합한 구조를 갖추고 있습니다. 사업부문별 영업수익 구성(FY2025)은 RDPLINE 6.0%, 기타 3.0%로 제시되어 있으며, AISURFER와 같은 뉴스 데이터 기반 서비스, RDPLINE 같은 실시간 데이터 공급 플랫폼, AIROOT·WIGOVIEW 같은 데이터·클라우드 뷰어 서비스가 핵심입니다. RAG(Retrieval-Augmented Generation)와 sLLM(Small Large Language Model) 기반 추론 엔진을 활용해 특정 도메인에 맞춘 AI 서비스를 제공합니다.",
+    "main_customers": "AISURFER — 주요 언론사 및 다양한 산업군 내 기업 / RDPLINE — AI 기업, 산업별 플랫폼 기업 / WIGOVIEW·JCopilot — 기업 고객 및 데이터 활용이 필요한 고객군",
+    "price_factors": [
+      {
+        "factor": "규제환경",
+        "detail": "AI 관련 규제와 저작권 환경 변화가 데이터 확보 방식과 서비스 운영에 직접 영향을 줍니다."
+      },
+      {
+        "factor": "데이터수요",
+        "detail": "기업들의 AI 도입이 확산될수록 검증된 원천 데이터와 실시간 데이터 공급 수요가 늘어날 수 있습니다."
+      },
+      {
+        "factor": "뉴스활용",
+        "detail": "뉴스 및 멀티모달 데이터의 수집·가공 역량이 서비스 경쟁력과 고객 이탈 여부에 영향을 줍니다."
+      },
+      {
+        "factor": "고객이탈",
+        "detail": "주요 서비스 고객 이탈이 발생하면 AISURFER 같은 기존 매출원 감소로 이어질 수 있습니다."
+      },
+      {
+        "factor": "해외환율",
+        "detail": "해외 자회사 관련 외주용역 거래가 있어 환율 변동이 원가와 실적에 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "약 20여 년간 축적한 데이터 처리 역량과 기술을 기반으로"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "RDPLINE: 1,086 (6.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "주요 언론사 및 다양한 산업군 내의 기업들을 대상으로 공급"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4835,
+    "completion_tokens": 753,
+    "reasoning_tokens": 0,
+    "output_tokens": 753
+  },
+  "warnings": []
+}

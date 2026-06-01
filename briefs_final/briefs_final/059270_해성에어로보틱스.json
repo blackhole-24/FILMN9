@@ -1,0 +1,67 @@
+{
+  "stock_code": "059270",
+  "corp_name": "해성에어로보틱스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 03:53",
+  "meta": {
+    "wics": "기계",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "해성에어로보틱스는 1991년(개인회사, 1997년 법인 전환) 설립 이후 감속기(회전속도를 줄이는 기어장치) 및 Gear의 설계·제조에 전념해온 전문 제조사입니다. 승강기용 권상기(엘리베이터 구동장치) 분야에서 품질과 시장점유율로 국내 1위 지위를 차지하고 있으며, 일본·미국·중국·동남아 등 해외시장을 개척하며 사업을 확장하고 있습니다.",
+    "business_model": "주요 매출원은 승강기용 감속기(권상기)와 산업용 감속기, 로봇용 감속기(제조 로봇용 고정밀 Cycloid 감속기)이며, 2025년 기준 승강기용 감속기가 74.7%, 산업용 감속기가 19.1%, 로봇용 감속기가 6.2%를 차지합니다. Worm Gear에 대한 당사 독자기술(특허)과 Cycloid 감속기(싸이클로이드 방식 감속기)의 양산체제 구축을 바탕으로 기술력 중심의 제조·판매 구조를 유지하고 있습니다.",
+    "main_customers": "승강기용 감속기 — 엘리베이터·에스컬레이터 제조사 및 설치업체 / 산업용 감속기 — 제철·화학계열의 제조회사 / 로봇용 감속기 — 제조용 로봇 제조사 및 관련 산업체",
+    "price_factors": [
+      {
+        "factor": "판매가격",
+        "detail": "제품의 판매가격은 각 국가별 시장 상황과 계약조건에 따라 결정되므로 계약 구조 변화가 실적에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "해외수주",
+        "detail": "국내시장의 한계를 극복하기 위해 해외 바이어(일본·미국·중국·동남아 등)를 발굴 중이어서 해외 판로 확보 여부가 매출 성장에 중요합니다."
+      },
+      {
+        "factor": "기술경쟁력",
+        "detail": "Worm Gear 특허와 고내구성 제품 등 기술우위는 경쟁사 대비 제품가격·수주경쟁력에 긍정적 영향을 줍니다."
+      },
+      {
+        "factor": "표준부재",
+        "detail": "로봇용 고정밀 감속기는 국내·국제 규격이 없고 제조사 표준으로 운영되는 특성이 있어, 고객사(로봇 제조사)의 요구사양 충족이 수주에 중요합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 사업 개황",
+        "evidence_text": "1991년(개인회사, 1997년 법인 전환)부터 현재까지"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "승강기용 감속기: 11,266 (74.7%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "산업용 감속기는 제철, 화학계열의 제조회사에 특화된 제품을 생산및 판매하고 있고"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "다. 성장과정 (1) 주요제품 등의 가격변동 추이",
+        "evidence_text": "각 국가별 시장 상황 및 해외, 국내 사업 파트너와의 계약 조건에 따라 판매가격이 결정되고 있으며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4292,
+    "completion_tokens": 4460,
+    "reasoning_tokens": 3584,
+    "output_tokens": 876
+  },
+  "warnings": []
+}

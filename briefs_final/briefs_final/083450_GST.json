@@ -1,0 +1,72 @@
+{
+  "stock_code": "083450",
+  "corp_name": "GST",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 06:19",
+  "meta": {
+    "wics": "반도체와반도체장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "GST는 반도체·디스플레이 제조공정에서 배출되는 유해가스를 정화하는 Scrubber(가스정화장비)와 공정 온도유지를 위한 Chiller(온도조절장비)를 제조하는 기업으로, 연결기준 매출액 3,472억원·영업이익 592억원(2025년)을 기록하는 중견 장비업체입니다. 11개의 종속회사와 4개의 관계기업을 포함한 총 15개 계열사를 보유하고 있으며, 주요종속회사인 (주)이에스티에 대한 지분율은 92.96%입니다.",
+    "business_model": "핵심 제품은 Scrubber와 Chiller로, 제품매출(스크러버·칠러)이 전체 매출의 상당 부분을 차지하며 사업부문별로는 반도체제조용장비 매출 비중이 65.1%입니다. 매출 구성은 제품매출액 79.3%, 용역매출 18.4%, 상품매출 2.3%로, 연구개발(R&D)과 고객 맞춤형 옵션을 통한 제품 고도화와 해외(중화권) 판매망 확대를 병행하고 있습니다.",
+    "main_customers": "반도체제조용장비(스크러버·칠러) — 반도체 및 디스플레이 제조업체 / 용역(서비스) — 설비 관련 서비스 제공처",
+    "price_factors": [
+      {
+        "factor": "반도체 수요",
+        "detail": "AI·서버·고성능 컴퓨팅 수요 변동에 따라 반도체 장비 수요가 변동해 실적에 직접 영향이 있습니다."
+      },
+      {
+        "factor": "제품단가",
+        "detail": "스크러버의 대당 단가는 고객사·옵션에 따라 변동성이 있어 매출과 이익률에 영향을 미칩니다."
+      },
+      {
+        "factor": "원재료가",
+        "detail": "캐비넷 ASS'Y·MFC 등 주요부품 가격 변동이 원가와 이익률에 즉각적인 영향을 줍니다."
+      },
+      {
+        "factor": "기술전환",
+        "detail": "플라즈마 방식 등 친환경·고효율 기술로의 전환과 ESG 요구가 제품 수요 구조를 바꿀 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "가스정화장비인 Scrubber와 반도체 및 디스플레이"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "연결기준 매출액은 347,159백만원, 영업이익은 59,172백만원"
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황",
+        "evidence_text": "제품매출액은 79.3%, 용역매출 18.4%, 상품매출 2.3%"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "반도체제조용장   비: 226,109,624 (65.1%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황",
+        "evidence_text": "매출액대비 5.2%인 17,415 백만원"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5104,
+    "completion_tokens": 4552,
+    "reasoning_tokens": 3712,
+    "output_tokens": 840
+  },
+  "warnings": []
+}

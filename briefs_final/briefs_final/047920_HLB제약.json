@@ -1,0 +1,74 @@
+{
+  "stock_code": "047920",
+  "corp_name": "HLB제약",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 02:26",
+  "meta": {
+    "wics": "제약",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "HLB제약은 1998년 ㈜씨트리로 설립되어 2020년 HLB그룹에 편입되며 현재 사명으로 변경된 제약회사입니다. 전문의약품 제조·판매와 위수탁(CMO) 사업, 건강기능식품 판매를 주력으로 하며, 2025년 연결기준 매출은 2,055억원이고 최근 5개년 연평균 성장률(CAGR)은 약 34%입니다.",
+    "business_model": "핵심 사업부문은 의약품제조판매와 2025년 편입된 의약품 유통 부문으로 구성되어 있으며(사업부문 표기는 비율 미제공), 전문의약품 중심의 위수탁(CMO) 사업과 판매위탁(위탁영업)을 통해 제품을 유통·판매합니다. 또한 동탄·군포 등 연구조직을 통해 장기지속형 주사제(DDS, Drug Delivery System) 플랫폼 연구개발을 진행하고, 2023년에는 건강기능식품 브랜드 '콴첼'을 런칭해 사업다각화를 추진하고 있습니다.",
+    "main_customers": "전문의약품 — 의사의 처방에 의한 환자·의료기관 / 일반의약품 — 약국을 통해 구매하는 일반 소비자 / 의약품 유통 — 의약품 유통 관련 거래처",
+    "price_factors": [
+      {
+        "factor": "규제강화",
+        "detail": "임상·인허가·제조·유통 전 과정의 엄격한 규제는 개발·출시 일정과 비용에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "경쟁강도",
+        "detail": "국내 약 400여 개 제약사의 경쟁 심화는 제네릭 중심 품목에서 수익성 압박을 초래할 수 있습니다."
+      },
+      {
+        "factor": "약가정책",
+        "detail": "정부의 약가 차등 산정·규제기조는 제품별 수익성 및 매출 구성에 영향을 미칩니다."
+      },
+      {
+        "factor": "공급망비용",
+        "detail": "원료의약품(API)·부자재 가격 상승 및 유통 질서 변화는 제조원가와 공급 안정성에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "1998년 ㈜씨트리로 설립되었으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황",
+        "evidence_text": "전문의약품의 제조·판매, 위수탁(CMO) 사업"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "의사의 처방에 의한 전문의약품과"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "의약품 제조판매부문",
+        "evidence_text": "국내 제약시장은 약 400여 개 제약사가 경쟁하는 구조로"
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황",
+        "evidence_text": "플랫폼 기술 관련 특허를 20개 이상 등록했으며"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 5115,
+    "completion_tokens": 4646,
+    "reasoning_tokens": 3840,
+    "output_tokens": 806
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

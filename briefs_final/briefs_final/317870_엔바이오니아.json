@@ -1,0 +1,62 @@
+{
+  "stock_code": "317870",
+  "corp_name": "엔바이오니아",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 16:22",
+  "meta": {
+    "wics": "가정용기기와용품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "엔바이오니아는 습식(Wet-Laid) 제조공정 기반의 첨단 부직포 제조기술을 보유한 기업으로, 양전하 고성능 정수용 나노필터와 2차전지 열폭주방지소재 등 복합소재를 개발·생산합니다. 연결종속회사 ㈜세프라텍을 통해 분리막·막모듈·막제조설비 관련 제품도 취급합니다.",
+    "business_model": "주력 제품은 가정·산업용 양전하 필터와 2차전지 열폭주방지소재를 포함한 복합소재로 구성되며, 양전하 필터 매출이 핵심 수익원입니다; 양전하 필터(정수) 관련 매출은 약 72%를 차지합니다. 제품은 고객사 모델별 성능 스펙에 따라 단가를 협의하고, 규격에 맞춘 맞춤 공급을 통해 안정적 거래관계를 유지하는 구조입니다.",
+    "main_customers": "양전하 필터 — 정수기 제조사 (가정용·산업용) / 분리막·멤브레인 및 관련장치 — 산업용 제조사 및 설비 수요처",
+    "price_factors": [
+      {
+        "factor": "정수기 규제",
+        "detail": "먹는물관리법 등 정수기 품질 규제 강화는 고성능 필터 수요를 촉진해 실적에 영향을 미칩니다."
+      },
+      {
+        "factor": "제품 경쟁구도",
+        "detail": "기존 R/O 멤브레인과의 대체·보완 관계 변화는 양전하 필터의 시장점유율과 매출에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "기술경쟁력",
+        "detail": "습식공정·고기능성 부직포 기술 및 자동화·공정개선은 제품 균일성과 원가 경쟁력에 영향을 미칩니다."
+      },
+      {
+        "factor": "환경규제·관리",
+        "detail": "제조공정상 폐수·유해물질 배출 관리는 환경설비 운영비 및 규제 준수 비용으로 실적에 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 - 2. 영업의 현황",
+        "evidence_text": "당사는 제품의 상용화 및 기술보호를 위하여 특허권, 상표권 등의 지식재산권을 보유하고 있으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 - 2. 영업의 현황",
+        "evidence_text": "양전하 필터(정수)관련 매출은 약 102억원으로 전체 매출의 약 72%를 차지합니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 - 2. 영업의 현황",
+        "evidence_text": "양전하 필터는 섬유 부직포 표면에 양전하를 부가한 정전하 방식의 흡착필터로 가정용 및 산업용 정수필터로 사용됩니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4427,
+    "completion_tokens": 5330,
+    "reasoning_tokens": 4544,
+    "output_tokens": 786
+  },
+  "warnings": []
+}

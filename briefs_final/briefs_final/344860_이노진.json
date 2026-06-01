@@ -1,0 +1,77 @@
+{
+  "stock_code": "344860",
+  "corp_name": "이노진",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 17:01",
+  "meta": {
+    "wics": "화장품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "이노진은 탈모와 문제성 피부/재생을 전문으로 하는 코스메슈티컬 기업으로, 홈케어·두피관리기기·건강기능식품·의약품을 포함한 토탈 솔루션을 국내 병·의원에 제공하고 여러 국가로 수출합니다. 2025년 매출은 82억 원 수준이며 탈모·피부미용 제품을 주력으로 하고 있습니다.",
+    "business_model": "사업부문별 매출 구성은 상품 69(1.6%), 미용기기 10(0.2%), 건강기능식품 74(1.7%)으로 표기되어 있으며, 핵심 제품군은 탈모제품군과 피부미용제품군으로 병·의원 납품(B2B)과 해외 수출을 중심으로 매출을 창출합니다.",
+    "main_customers": "탈모제품군 — 국내 병·의원 및 해외 수입·유통업체 / 피부미용제품군 — 자사 브랜드를 구매하는 일반 소비자 및 병·의원 / 미용기기 — 병·의원 및 해외 바이어",
+    "price_factors": [
+      {
+        "factor": "규제·인허가",
+        "detail": "기능성 화장품·기기는 안전성·유효성 관련 인허가가 필수여서 규제 강화 시 신제품 상용화 지연으로 실적에 부정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "글로벌수요",
+        "detail": "K-뷰티 등 글로벌 수요 변화와 수출 채널 확대는 매출 성장의 기회이나 현지 인증·허가 취득 여부에 따라 성과가 달라집니다."
+      },
+      {
+        "factor": "구매자 협상력",
+        "detail": "소매·유통 채널의 구매자 협상력이 높아지면 가격 경쟁 압력이 커져 매출·이익 변동성이 증가할 수 있습니다."
+      },
+      {
+        "factor": "대체재 경쟁",
+        "detail": "피부·모발 치료나 수술 등 대체재의 존재 및 글로벌 대형 업체의 시장 진입 가능성은 수요에 하방 리스크로 작용할 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 - 영업 현황",
+        "evidence_text": "탈모와 문제성피부/재생 분야의 코스메슈티컬 기업"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "영업실적",
+        "evidence_text": "당기 매출액은 82억 원으로"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "상품: 69 (1.6%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "미용기기: 10 (0.2%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "건강기능식품: 74 (1.7%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 - 영업 현황",
+        "evidence_text": "토탈 솔루션을 국내 병의원에 제공하고"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4765,
+    "completion_tokens": 4414,
+    "reasoning_tokens": 3584,
+    "output_tokens": 830
+  },
+  "warnings": []
+}

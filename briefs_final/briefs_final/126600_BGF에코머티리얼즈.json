@@ -1,0 +1,91 @@
+{
+  "stock_code": "126600",
+  "corp_name": "BGF에코머티리얼즈",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:19",
+  "meta": {
+    "wics": "화학",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "BGF에코머티리얼즈는 고기능성 폴리머(고분자) 소재를 생산·판매하는 화학 기업으로, 자동차·전기전자·가구 등 다양한 전방산업에 소재를 공급하고 있습니다. 사업보고서 기준으로 국내 화성·청라공장과 해외 미국·중국·인도 생산설비를 운영하고 있으며, 2025년 연결기준 매출 3,979억원, 영업이익 173억원을 기록했습니다.",
+    "business_model": "회사의 핵심 사업은 엔지니어링 플라스틱 소재·화학 사업이며, 원부재료인 Base Resin(PA66, PA6, PP 등)과 Filler(GF, MF, CF 등)를 배합해 용도별 기능성 소재를 만듭니다. FY2025 사업부문별 영업수익은 PA66 32.4%, PA6 22.5%, PP 28.2%, 기타 16.9%로 구성되어 있습니다. 또한 (주)케이엔더블유 및 종속회사는 전자부품소재, 자동차부품소재, 반도체소재 사업을 함께 영위하고 있습니다.",
+    "main_customers": "엔지니어링 플라스틱 소재·화학 — 자동차, 전기·전자, 가구 등 전방산업 / 전자, 자동차 부품 소재 및 반도체 소재 — 국내외 자동차메이커, 전자 분야, 반도체 및 2차전지 분야 고객",
+    "price_factors": [
+      {
+        "factor": "전방산업",
+        "detail": "자동차·전기전자 산업의 수요가 늘면 고기능성 폴리머 소재의 출하와 실적이 함께 개선될 수 있습니다."
+      },
+      {
+        "factor": "원유가격",
+        "detail": "기초 원료가 원유가격에 연동되는 특성이 있어 원유가격 변동이 제품 원가와 가격에 영향을 줍니다."
+      },
+      {
+        "factor": "환율변동",
+        "detail": "수출과 내수시장이 모두 환율변동에 민감해 원화 약세·강세가 실적에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "차량경량화",
+        "detail": "자동차 경량화와 탄소배출 저감 규제가 강화될수록 금속 대체 소재 수요가 늘어날 수 있습니다."
+      },
+      {
+        "factor": "기술개발",
+        "detail": "신규소재 연구개발과 제품 고도화가 지속되면 전기차·수소차·우주항공 등 신규 적용처 확대에 도움이 됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "나. 사업의 개요",
+        "evidence_text": "당사는 21세기 첨단 소재 산업인 고기능성 폴리머 소재를 생산ㆍ판매하고 있습니다."
+      },
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "2025년 연결기준 매출 3,979억원, 영업이익 173억원"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "PA66: 102,770 (32.4%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "PA6: 71,321 (22.5%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "PP: 89,281 (28.2%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "기타: 53,455 (16.9%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "나. 사업의 개요",
+        "evidence_text": "자동차 분야, 전기ㆍ전자 분야 및 가구 분야"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "나. 사업의 개요",
+        "evidence_text": "국내외 자동차메이커에 공급되는 자동차용 내장재"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5048,
+    "completion_tokens": 1040,
+    "reasoning_tokens": 0,
+    "output_tokens": 1040
+  },
+  "warnings": []
+}

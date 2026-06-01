@@ -1,0 +1,71 @@
+{
+  "stock_code": "081180",
+  "corp_name": "쎄크",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 06:10",
+  "meta": {
+    "wics": "전자장비와기기",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "쎄크는 전자빔 원천기술을 기반으로 핵심부품과 이를 활용한 검사장비를 개발·제조·판매하는 회사입니다. 자체 생산한 X-ray Tube 등을 바탕으로 반도체·배터리 산업용 검사솔루션에서 전체 매출의 과반 이상을 창출하고 있습니다.",
+    "business_model": "사업부문별로 X-ray System (반도체) 36.0%, X-ray System (배터리) 24.0%, LINAC 23.0%, Tabletop SEM 8.0%, 기타 9.0%의 매출 비중을 보유합니다. AXI(자동 검사장비)와 Manual(수동) 검사장비 판매를 중심으로 하드웨어 매출과 함께 AI·Deep-learning 기반의 검사 소프트웨어·서비스를 결합한 솔루션으로 수익을 창출합니다.",
+    "main_customers": "X-ray System (반도체) — 반도체 제조업체·글로벌 End User / X-ray System (배터리) — 배터리 제조업체 / LINAC — 방위 산업체(로켓 추진체·탄두 등 대형제품 검사) / Tabletop SEM — 소재·바이오·화학·약품 분야의 연구기관 및 기업 / 기타 — 다양한 전방산업",
+    "price_factors": [
+      {
+        "factor": "수요주기",
+        "detail": "반도체·배터리 산업의 투자 사이클(예: 전기차·배터리 수요 정체)은 장비 수요와 판매 단가에 직접 영향."
+      },
+      {
+        "factor": "기술개발비",
+        "detail": "고정밀 3D X-ray·LINAC·SEM 등 기술 집약적 제품 특성상 R&D 투자 확대가 비용·수익성에 영향."
+      },
+      {
+        "factor": "경쟁심화",
+        "detail": "장비업체 간 수주 경쟁 심화 시 제품 판매 단가 하락과 수익성 저하 압력이 발생."
+      },
+      {
+        "factor": "정부보조금",
+        "detail": "정부보조금 변동(예: 보조금 감소)은 판매비·관리비 및 영업이익에 영향."
+      },
+      {
+        "factor": "지정학리스크",
+        "detail": "지정학적 불안 등 글로벌 리스크는 전방산업 투자와 공급망에 영향을 미쳐 실적 변동 요인이 됨."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 > 영업 현황",
+        "evidence_text": "주식회사 쎄크는 전자빔 원천기술 기반의 핵심부품 및 이를 활용한 검사장비를 개발, 제조, 판매하는 회사입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "- X-ray System (반도체): 21,226 (36.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 > 영업 현황",
+        "evidence_text": "당사는 자체 생산한 세계 최고 수준의 X-ray Tube를 활용하여 전체 매출의 과반 이상을 반도체 및 배터리 산업용 검사 솔루션에서 창출 하고 있습니다."
+      },
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "당사는 이러한 경제여건에서 2025년 매출 592억원, 영업손실 30억원을 기록하였습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5064,
+    "completion_tokens": 4965,
+    "reasoning_tokens": 4096,
+    "output_tokens": 869
+  },
+  "warnings": []
+}

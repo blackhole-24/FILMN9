@@ -1,0 +1,76 @@
+{
+  "stock_code": "456040",
+  "corp_name": "OCI",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:45",
+  "meta": {
+    "wics": "화학",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "OCI는 오랜 기간 무기화학과 유기화학, 카본소재를 생산·개발해 온 화학 기업으로, 우리나라 화학산업을 선도해 왔다고 설명하고 있습니다. 최근에는 축적한 기술력과 공정 노하우를 바탕으로 반도체 공정용 화학 소재와 이차전지 소재로 사업을 넓히고 있습니다.",
+    "business_model": "사업은 크게 베이직케미컬, 카본케미컬, 에너지솔루션, 기타로 나뉘며, FY2025 사업부문별 영업수익 구성은 베이직케미컬 37.0%, 카본케미컬 62.0%, 기타 1.0%입니다. 핵심 매출은 반도체용 폴리실리콘, 과산화수소, TDI 같은 베이직케미컬과 카본블랙, BTX, 가소제, PA 등 카본케미컬 제품에서 발생합니다. 에너지솔루션 부문은 태양광 발전 사업을 영위하고 있습니다.",
+    "main_customers": "베이직케미컬 — 반도체·디스플레이·이차전지·식품첨가물·산업용 소재 수요처 / 카본케미컬 — 화학·산업용 원재료 수요처 / 에너지솔루션 — 태양광 발전 관련 수요처",
+    "price_factors": [
+      {
+        "factor": "반도체 수요",
+        "detail": "반도체 시장과 AI·데이터센터 투자 흐름이 폴리실리콘, 인산, 과산화수소 수요에 영향을 줍니다."
+      },
+      {
+        "factor": "원재료",
+        "detail": "나프타, 천연가스, 인광석 등 원재료 가격 변동이 제조원가와 제품 가격에 직접 영향을 줍니다."
+      },
+      {
+        "factor": "환율변동",
+        "detail": "해외 매출 비중이 있어 환율이 바뀌면 원화 환산 매출과 원재료 비용에 동시에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "산업가동률",
+        "detail": "2차전지, 섬유, 제지 등 주요 전방 산업의 가동률이 낮으면 과산화수소 등 관련 제품 수요도 둔화될 수 있습니다."
+      },
+      {
+        "factor": "무역갈등",
+        "detail": "글로벌 무역 갈등과 기술 패권 경쟁은 반도체 소재 시장의 변동성을 키워 실적 불확실성을 높입니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "오랜기간 무기화학 및 유기화학, 카본소재 등 다양한 화학 제품의 생산과 개발"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "베이직케미컬 (37.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "카본케미컬 (62.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "기타 (1.0%)"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 사업 부문별 시장여건 및 영업의 개황",
+        "evidence_text": "2024년부터 AI 및 데이터센터 중심의 메모리 수요 증가"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5728,
+    "completion_tokens": 880,
+    "reasoning_tokens": 0,
+    "output_tokens": 880
+  },
+  "warnings": []
+}

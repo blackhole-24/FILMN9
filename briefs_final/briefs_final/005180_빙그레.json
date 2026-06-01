@@ -1,0 +1,72 @@
+{
+  "stock_code": "005180",
+  "corp_name": "빙그레",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 19:07",
+  "meta": {
+    "wics": "식품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "빙그레는 유가공 단일 부문을 영위하는 식품회사로, 바나나맛우유·요플레·투게더 등 식음료·빙과 브랜드를 보유하고 있습니다. 연결기준 매출은 1조 4,896억원(전년대비 1.8% 증가) 규모입니다.",
+    "business_model": "사업은 냉장품목군(우유·유음료 등)과 냉동 및 기타품목군(아이스크림 등)으로 나뉘며, 사업부문별 매출 비중은 냉장품목군 39.49%, 냉동 및 기타품목군 60.51%입니다. 주원료인 원유는 국내산지 직접조달 및 낙농진흥회를 통한 구매로 조달하며, 연결종속회사를 통한 수출·유통 채널을 보유하고 있습니다.",
+    "main_customers": "냉장 품목군 — 일반 소비자(우유·발효유 등) / 냉동 및 기타품목군 — 일반 소비자(아이스크림 등) 및 유통·수출 채널",
+    "price_factors": [
+      {
+        "factor": "원유가격",
+        "detail": "원유 등 원재료 가격 상승은 제조원가를 높여 영업이익에 직접적인 부담을 줄 수 있습니다."
+      },
+      {
+        "factor": "환율변동",
+        "detail": "수입 원부자재 비용과 해외 수출의 원화 환산 실적이 환율 변동에 민감하게 영향을 받습니다."
+      },
+      {
+        "factor": "계절성",
+        "detail": "아이스크림 등 냉동 품목군은 계절적 수요 변동이 실적 변동성으로 연결될 수 있습니다."
+      },
+      {
+        "factor": "브랜드경쟁",
+        "detail": "브랜드 충성도와 판매망 구축 수준이 경쟁 심화 시 매출에 직접적 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "Ⅱ. 사업의 내용 > 2. 주요 제품 및 서비스",
+        "evidence_text": "국내 No.1 가공유 '바나나맛우유'"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "냉장품목군 588,268(39.49%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "냉동 및 기타품목군 901,319(60.51%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "라. 시장여건 및 영업의 개황 등",
+        "evidence_text": "우유 및 발효유 부문은 건강식품 인식으로 안정적인 수요를 가지고있으며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "라. 시장여건 및 영업의 개황 등",
+        "evidence_text": "국제 농수축산물의 작황, 환율변동, 고유가, 관세정책"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5355,
+    "completion_tokens": 4678,
+    "reasoning_tokens": 3904,
+    "output_tokens": 774
+  },
+  "warnings": []
+}

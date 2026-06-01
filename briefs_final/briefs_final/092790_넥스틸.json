@@ -1,0 +1,71 @@
+{
+  "stock_code": "092790",
+  "corp_name": "넥스틸",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 07:22",
+  "meta": {
+    "wics": "철강",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "넥스틸은 강관의 생산과 판매를 주력으로 하는 철강업체로, API(미국석유협회) 인증 유정관(OCTG)과 송유관(Line Pipe) 등을 생산하여 미국을 포함한 전 세계에 수출하고 있습니다. 국내외 고품질 원소재를 사용한 전기용접강관 생산을 통해 한국을 대표하는 강관업체로 자리잡고 있습니다.",
+    "business_model": "핵심 사업은 '강관' 제조·판매로, 2025년 기준 강관 매출이 전체의 99.9%를 차지하고 기타가 0.1%를 차지합니다. 주요 제품은 API 인증 유정관(OCTG Pipe), 송유관(Line Pipe) 및 배관용·구조용 강관이며, 원재료로 열연코일(HRC)을 사용하고 대구경(26Inch) ERW 설비와 스테인리스 강관 생산 등으로 포트폴리오 다각화를 추진하고 있습니다.",
+    "main_customers": "강관(에너지용/API·송유관) — 석유·가스(정유·에너지) 업체 및 해외 바이어(미국 등) / 강관(배관·구조용) — 조선, 건설 및 기계장치 업체",
+    "price_factors": [
+      {
+        "factor": "관세 부담",
+        "detail": "미국 등 주요 시장의 고율 철강 관세 부과로 수출비용이 증가하여 실적에 부정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "전방 수요",
+        "detail": "에너지(정유·가스) 및 건설·조선 업황 둔화 시 강관 수요가 감소하여 매출에 직접적 영향을 미칩니다."
+      },
+      {
+        "factor": "원재료 가격",
+        "detail": "주원재인 열연코일(HRC) 가격 변동은 매출원가와 이익률에 즉각적인 영향을 줍니다."
+      },
+      {
+        "factor": "지정학 리스크",
+        "detail": "국제 정세(전쟁·분쟁)로 인한 에너지·원자재 가격 변동 및 수요 불확실성이 실적 변동성을 키웁니다."
+      },
+      {
+        "factor": "계절성·물류",
+        "detail": "수출은 운송·납기 및 연중 수요 변동에 따라 탄력적으로 조정되며, 내수는 계절적 수요 변화(7~8월 등)에 영향받습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 '강관의 생산과 판매'를 주요사업으로 영위하고 있으며,"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "미국석유협회인증(API) 유정관(OCTG Pipe), 송유관(Line Pipe)을 제조하여 미국 등 전 세계에 수출ㆍ판매하고 있으며,"
+      },
+      {
+        "field": "business_model",
+        "source_section": "다. 시장여건 및 영업의 개황",
+        "evidence_text": "당사의 제품은 전기용접강관입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "강관: 543,899 (99.9%)"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4339,
+    "completion_tokens": 2959,
+    "reasoning_tokens": 2112,
+    "output_tokens": 847
+  },
+  "warnings": []
+}

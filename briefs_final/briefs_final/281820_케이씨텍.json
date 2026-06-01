@@ -1,0 +1,64 @@
+{
+  "stock_code": "281820",
+  "corp_name": "케이씨텍",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 14:55",
+  "meta": {
+    "wics": "반도체와반도체장비",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "케이씨텍은 2017년 11월 1일 인적분할로 설립된 반도체·디스플레이 장비 및 소재 전문 기업으로, CMP·Wet Cleaning 등 반도체 장비와 Wet Station·CO2 Cleaner·Coater 등 디스플레이 장비 및 Ceria·Silica 등 소재를 생산합니다. 반도체와 디스플레이 제조 공정에 필요한 장비·소재를 공급하는 기업 정체성을 가지고 있습니다.",
+    "business_model": "핵심 수익원은 반도체 장비(예: CMP, Wet Cleaning System), 디스플레이 장비(예: Wet Station, CO2 Cleaner, Coater) 및 소재(예: Ceria Slurry, Silica Slurry, Zirconia, Hollow Silica) 판매입니다. 장비는 세정·연마·코팅 등 제조 공정용 장비를, 소재는 CMP 공정과 디스플레이·광학 부품용 현탁액 및 기능성 소재를 제공하여 매출을 창출합니다.",
+    "main_customers": "반도체 장비 — 반도체 제조업체 / 디스플레이 장비 — 디스플레이 제조업체(LCD·OLED 등) / 소재 — 반도체 CMP 공정 사용자 및 디스플레이·광학·FPCB 관련 부품 제조업체",
+    "price_factors": [
+      {
+        "factor": "반도체 설비투자",
+        "detail": "반도체 제조사들의 설비투자(투자계획)에 따라 장비·소재 수요가 크게 변동하여 실적에 직접 영향합니다."
+      },
+      {
+        "factor": "국산화 경쟁력",
+        "detail": "국내 장비업체의 기술수준 향상에 따른 국산화 확대는 수주 기회 및 매출 구조에 영향을 줍니다."
+      },
+      {
+        "factor": "맞춤기술수요",
+        "detail": "회로 고집적화에 따라 고객의 맞춤형 소재·장비 요구가 늘어나면 기술개발과 제품공급 역량이 실적에 영향을 미칩니다."
+      },
+      {
+        "factor": "디스플레이 전환",
+        "detail": "OLED 등 차세대 디스플레이 채용 확대는 디스플레이 장비 및 관련 소재 수요에 긍정적 또는 구조적 변화를 일으킬 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "당사는 2017년 11월 1일을 분할기일로 하여 주식회사 케이씨(구, 주식회사 케이씨텍)로부터 반도체 장비, 디스플레이 장비 및 소재 사업부문이 인적분할되어 설립되었습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "반도체 장비 제품으로는 CMP, Wet Cleaning System이 있으며, 디스플레이장비는 Wet Station, APP, CO2 Cleaner, Coater가 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "반도체 제조장비 산업은 반도체 소자 업체의 설비투자 계획에 따라 국내외 반도체 제조장비 시장이 형성되는 의존도가 매우 높은 산업이며 매출 또한 유동적인 모습을 보이고 있습니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4379,
+    "completion_tokens": 3989,
+    "reasoning_tokens": 3136,
+    "output_tokens": 853
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

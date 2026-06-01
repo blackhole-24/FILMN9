@@ -1,0 +1,76 @@
+{
+  "stock_code": "043710",
+  "corp_name": "코스리거글로벌",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:00",
+  "meta": {
+    "wics": "건강관리업체및서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "코스리거글로벌은 헬스케어사업(보툴리눔톡신·필러 등 유통)과 화장품사업(제조 및 도소매)을 함께 영위하는 기업입니다. 2025년 연결기준 매출은 357억원이며, 이 가운데 화장품사업이 178억원, 헬스케어사업이 156억원을 차지했습니다. 최근에는 화장품 ODM(제조자개발생산)과 브랜드 인수를 통해 사업 재편을 마무리한 점이 특징입니다.",
+    "business_model": "회사의 핵심 수익 구조는 의약품 및 의료기기 유통과 화장품 사업으로 나뉘며, FY2025 사업부문별 영업수익 기준으로 화장품 40.0%, 의약품 및 의료기기 27.3%, 음식물처리기 5.3%, 당 관련 제품·건기식 제품 외 1.1%를 차지합니다. 헬스케어 부문에서는 자사브랜드 BONETTA, LEXYAL, Bijunel뿐 아니라 휴젤, 동국제약 등이 생산하는 보툴리눔톡신과 필러, 스킨부스터를 유통하고 있습니다. 화장품 부문은 코스리거 제조공장과 모먼츠컴퍼니의 브랜드 역량을 결합해 기획부터 제조, 유통까지 아우르는 구조로 확장했습니다.",
+    "main_customers": "헬스케어 사업 — 미용의료 병의원 및 유통상 / 화장품 사업 — K-뷰티 소비자 및 인디브랜드 관련 시장 / 그린테크 사업 — 업소용·가정용 친환경음식물처리기 수요처 / 뉴미디어마케팅 사업 — 국내외 인플루언서 및 관련 제품 판매 채널",
+    "price_factors": [
+      {
+        "factor": "K-뷰티",
+        "detail": "한국 화장품 수출이 세계 2위를 기록할 정도로 K-뷰티 위상이 높아져 화장품 사업 확대 기대와 연결됩니다."
+      },
+      {
+        "factor": "보툴리눔",
+        "detail": "보툴리눔톡신과 필러는 미용의료에서 사용이 지속 증가하고 있어 헬스케어 유통 실적에 영향을 줍니다."
+      },
+      {
+        "factor": "브랜드력",
+        "detail": "모먼츠컴퍼니의 강한 브랜드 팬덤은 화장품 판매와 신규 브랜드 확장에 중요한 변수가 됩니다."
+      },
+      {
+        "factor": "ODM전환",
+        "detail": "외부 OEM(주문자상표부착생산) 의존에서 벗어나 ODM(제조자개발생산) 중심으로 바뀌며 제조 경쟁력이 실적에 반영될 수 있습니다."
+      },
+      {
+        "factor": "인플루언서",
+        "detail": "국내외 인플루언서와 연계한 미디어커머스 확대가 당 관련 제품과 미용·패션제품 판매에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "회사는 헬스케어사업(보톨리눔톡신/필러 등 유통), 화장품사업(화장품 등 제조 및 도소매) 등을 주요사업으로 영위하고 있습니다."
+      },
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "2025년은 연결기준으로 357억원의 매출을 하였으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "의약품 및의료기기 (27.3%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "화장품 (40.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "미용의료 병의원 및 유통상에 필요한 의약품을 유통하고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4482,
+    "completion_tokens": 1024,
+    "reasoning_tokens": 0,
+    "output_tokens": 1024
+  },
+  "warnings": []
+}

@@ -1,0 +1,67 @@
+{
+  "stock_code": "488900",
+  "corp_name": "비츠로넥스텍",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 20:58",
+  "meta": {
+    "wics": "우주항공과국방",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "비츠로넥스텍은 우주항공·핵융합·가속기·플라즈마 분야의 부품과 시스템을 연구개발 프로젝트 중심으로 설계·제작·납품하는 기업입니다. 한국형 우주발사체(누리호) 엔진 컴포넌트 납품과 K-STAR·ITER 관련 장치 제작 등 국가·국제 연구 프로젝트에 참여하고 있습니다.",
+    "business_model": "사업부문별 영업수익은 우주항공 36.8%, 핵융합에너지 34.7%, 가속기 14.4%, 플라즈마 14.2%로 구성되어 있습니다. 핵심적으로는 연구개발 프로젝트에 따른 부품·컴포넌트의 설계·정밀가공·특수접합 및 시스템 납품(시험·검증 포함)을 통해 수익을 창출합니다.",
+    "main_customers": "우주항공 — 발사체 개발 프로젝트의 원청업체 및 연구·개발 기관 / 핵융합에너지 — K-STAR·ITER 등 국내외 핵융합 연구기관 및 프로젝트 / 가속기 — 과학 연구소(가속기·XFEL 등) 및 해외 연구소 / 플라즈마 — 원전 운영·해체 관련 기관 및 환경·산업 분야 기업",
+    "price_factors": [
+      {
+        "factor": "정부 R&D 예산",
+        "detail": "정부의 핵심 연구·발사 예산 배정과 프로젝트 채택 여부가 수주와 매출에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "프로젝트 수주",
+        "detail": "대형 연구사업(누리호, ITER, 가속기 등) 수주·유지 여부가 실적 변동을 좌우합니다."
+      },
+      {
+        "factor": "기술검증·시험",
+        "detail": "연소시험 등 성능·안전성 검증의 결과가 납품 확정 및 추가 계약으로 연결됩니다."
+      },
+      {
+        "factor": "국제협력·수출",
+        "detail": "국제 프로젝트(ITER 등) 및 해외 연구소 향 납품 성사 여부가 매출 다변화에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "한국형 우주발사체(누리호) 엔진 컴포넌트의 납품"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "우주항공: 13,275 (36.8%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "핵융합에너지: 12,755 (34.7%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "주요제품 설명",
+        "evidence_text": "포항가속기연구소 PLS-II 업그레이드 프로젝트"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4025,
+    "completion_tokens": 5030,
+    "reasoning_tokens": 4288,
+    "output_tokens": 742
+  },
+  "warnings": []
+}

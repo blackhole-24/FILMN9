@@ -1,0 +1,67 @@
+{
+  "stock_code": "105560",
+  "corp_name": "KB금융",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 08:25",
+  "meta": {
+    "wics": "은행",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "KB금융은 지배·경영관리와 종속회사 자금지원 등을 주요사업으로 하는 순수 지주회사로, 은행·금융투자·보험·여신전문 등 금융 전 영역을 포괄하는 그룹을 이끕니다. 국내 최대 고객 기반을 바탕으로 그룹 내 계열사 간 시너지를 통해 안정적인 수익 창출과 성장에 집중하고 있습니다.",
+    "business_model": "지주회사로서 핵심 역할은 그룹사에 대한 지배·경영관리 및 자금지원(그룹 재무관리)이며, 사업부문별 영업수익 구성은 조달 10.5%, 외화 자금 10.1%, 원가성 자금계 87.2%로 보고되어 있습니다. 또한 은행 중심의 수익구조에서 벗어나 증권·보험·카드 등 비은행과 자산관리·중소기업 분야로 포트폴리오를 다각화하고 있습니다.",
+    "main_customers": "지주회사 — 그룹 내 계열사 / 은행·비은행 부문(은행업·금융투자업·보험업 등) — 국내 고객 기반",
+    "price_factors": [
+      {
+        "factor": "시장금리",
+        "detail": "시장금리 변동은 대출·자산의 이자이익과 금융자산 평가에 직접적인 영향을 미쳐 실적에 중요합니다."
+      },
+      {
+        "factor": "환율 변동",
+        "detail": "환율 변동성 확대는 대외영업과 외화 관련 손익에 영향을 주며 대외변수의 영향력을 키웁니다."
+      },
+      {
+        "factor": "경기 둔화",
+        "detail": "경기 회복 지연은 자산건전성 부담을 증가시켜 충당금 및 이익에 부정적 요인이 될 수 있습니다."
+      },
+      {
+        "factor": "디지털·AI 전환",
+        "detail": "AI·디지털 전환 속도는 플랫폼 경쟁력과 비용구조에 영향을 미치며 장기적 성장동력 확보에 직결됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 사업의 내용(요약)",
+        "evidence_text": "순수 지주회사로서, 금융의 새로운 패러다임을 제시하고"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "조달: 10,813,731 (10.5%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 사업의 내용(요약)",
+        "evidence_text": "국내 최대 고객 기반을 바탕으로"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "환율과 시장금리의 변동성이 확대되면서"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3471,
+    "completion_tokens": 3907,
+    "reasoning_tokens": 3200,
+    "output_tokens": 707
+  },
+  "warnings": []
+}

@@ -1,0 +1,92 @@
+{
+  "stock_code": "462870",
+  "corp_name": "시프트업",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 20:25",
+  "meta": {
+    "wics": "게임엔터테인먼트",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "시프트업은 2013년 설립된 글로벌 게임 개발사로, 대표 IP로 <승리의 여신: 니케>와 <스텔라 블레이드>를 보유하고 있습니다. 2025년 연결 기준 영업수익 2,945억원과 창사 이래 최고의 실적을 기록하며 글로벌 플랫폼에서 활동하고 있습니다.",
+    "business_model": "단일 사업부문(게임개발) 중심으로, 주요 수익원은 IP(지식재산권)를 활용한 라이브 서비스(모바일·PC)와 콘솔 패키지 판매입니다. 2025년 영업수익은 승리의 여신: 니케 56.1%, 스텔라 블레이드 39.9%, 기타 3.9%로 구성되어 있습니다.",
+    "main_customers": "게임개발부문 — 글로벌 퍼블리셔 및 최종 이용자(국내·해외) / 승리의 여신: 니케 — 글로벌·중국 퍼블리셔 및 모바일·PC 이용자 / 스텔라 블레이드 — 글로벌 퍼블리셔(Sony) 및 콘솔·PC 이용자",
+    "price_factors": [
+      {
+        "factor": "경쟁 심화",
+        "detail": "글로벌 시장 내 경쟁 심화는 신규 IP의 시장 진입 장벽을 높여 신작 성과의 불확실성을 키울 수 있습니다."
+      },
+      {
+        "factor": "IP 가치",
+        "detail": "강력한 팬덤과 IP(지식재산권)의 고도화는 라이브 서비스의 수명 연장과 수익 안정성에 직결됩니다."
+      },
+      {
+        "factor": "플랫폼 확장",
+        "detail": "모바일·PC·콘솔 간 플랫폼 확장은 이용자층 확대와 매출 다변화에 영향을 줍니다."
+      },
+      {
+        "factor": "규제 리스크",
+        "detail": "게임 관련 법령(등급분류·제작업 등록 등)은 서비스·유통 절차와 비용에 영향을 미칠 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "2013년 12월 2일 설립된 글로벌 게임 개발사"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "승리의 여신: 니케: 165,319 (56.1%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "스텔라 블레이드: 117,609 (39.9%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "기타: 11,618 (3.9%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "글로벌 퍼블리셔를 통해 국내 및 해외에 서비스하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "게임 산업은 글로벌 시장 내 경쟁 구조가 갈수록 심화되고 있고"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "강력한 팬덤을 보유한 IP의 가치는 더욱 중요해지고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "2023년 2월에는 글로벌 PC 버전을 확장하며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나. 법률, 규정 등에 의한 규제사항",
+        "evidence_text": "게임산업진흥에 관한 법률"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5669,
+    "completion_tokens": 5449,
+    "reasoning_tokens": 4480,
+    "output_tokens": 969
+  },
+  "warnings": []
+}

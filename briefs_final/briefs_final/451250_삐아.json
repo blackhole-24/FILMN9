@@ -1,0 +1,69 @@
+{
+  "stock_code": "451250",
+  "corp_name": "삐아",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 19:50",
+  "meta": {
+    "wics": "화장품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "삐아는 2004년 스카이공공칠로로 설립되어 2022년 사명을 (주)삐아로 변경한 화장품 브랜드사로, 삐아·어바웃톤·에딧비·이글립스·에이쁘 등 5개 브랜드를 보유하고 색조 중심의 제품 라인을 제공하고 있습니다. 제품 개발과 브랜드 운영을 주력으로 하며 생산은 OEM/ODM 방식으로 외주생산을 진행합니다.",
+    "business_model": "핵심 사업은 색조 화장품(립 메이크업, 아이 메이크업, 베이스 메이크업)과 기초화장품이며, 브랜드별로 제품을 기획·책임판매하는 브랜드사(자사 브랜드 중심) 구조입니다. 생산은 OEM/ODM업체에 위탁하고, 온라인·소셜커머스 채널 및 해외 파트너사(총판)를 통해 유통 영역을 확대하고 있습니다.",
+    "main_customers": "립·아이·베이스 색조 — 온라인·소셜커머스 이용 일반 소비자(특히 MZ세대) / 베이스·기초화장품 — 어바웃톤·에딧비 브랜드를 선호하는 일반 소비자 / 해외판매 — 해외파트너사(총판)를 통한 현지 소비자",
+    "price_factors": [
+      {
+        "factor": "규제(화장품법)",
+        "detail": "화장품법 위반 시 판매금지 등 법적 제재와 평판 훼손이 발생하여 매출에 중대한 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "유행 민감도",
+        "detail": "제품 라이프사이클이 짧고 트렌드에 민감해 신제품 수요 변동이 실적에 빠르게 반영됩니다."
+      },
+      {
+        "factor": "OEM/ODM 경쟁",
+        "detail": "생산을 외주에 의존하는 구조로 인해 OEM/ODM 기반의 진입장벽이 낮아 가격·마케팅 경쟁 압력이 큽니다."
+      },
+      {
+        "factor": "유통 채널 확대",
+        "detail": "글로벌 온라인 플랫폼 및 해외총판과의 협업 성과가 해외 매출 성장과 실적에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "2004년 (주)스카이공공칠로 설립되어 2022년 현재 사명인 (주) 삐아로 변경하였으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "제품의 생산은 OEM/ODM업체를 통해 외주생산을 진행하고 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "쿠팡, 위메프 등 소셜 커머스 위주의 판매를 진행할 목적으로"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "법률/규정 등에 의한 규제사항",
+        "evidence_text": "판매금지 등의 법적 제재를 받게 됩니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4507,
+    "completion_tokens": 3861,
+    "reasoning_tokens": 3072,
+    "output_tokens": 789
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

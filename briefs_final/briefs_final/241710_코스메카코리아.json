@@ -1,0 +1,86 @@
+{
+  "stock_code": "241710",
+  "corp_name": "코스메카코리아",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 13:34",
+  "meta": {
+    "wics": "화장품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "코스메카코리아는 화장품 ODM/OEM 기업으로, 자체 연구개발 역량을 바탕으로 글로벌 브랜드를 고객사로 확보한 제조전문 업체입니다. 연구개발 인력이 전체 인력의 약 40%를 차지하며, 2018년 잉글우드랩 인수로 한국·중국·미국에 생산거점을 확보해 글로벌 생산망을 갖추고 있습니다.",
+    "business_model": "주요 사업은 ODM(연구개발 기반의 토털 화장품 개발·생산)·OEM(주문생산)이며, OGM(판매국가 맞춤형 글로벌 서비스)과 CPS(자동화 생산 시스템)를 통해 제품기획부터 출하까지 서비스를 제공합니다. FY2025 기준 사업부문별 영업수익 구성은 수출 22.7%, 상품 0.2%, 기타 1.2%로 수출 비중이 눈에 띕니다.",
+    "main_customers": "ODM/OEM — 국내외 화장품 브랜드 업체(글로벌 선두 포함) / 수출 — 해외 바이어·브랜드",
+    "price_factors": [
+      {
+        "factor": "ODM 수요 확대",
+        "detail": "글로벌 브랜드와 인디 브랜드의 아웃소싱 확대로 ODM 주문과 매출 확대에 직접적 영향을 미칩니다."
+      },
+      {
+        "factor": "유통채널 다변화",
+        "detail": "온라인 중심의 유통채널 다변화로 신생 브랜드가 ODM을 활용할 가능성이 커져 고객층 확대로 연결됩니다."
+      },
+      {
+        "factor": "규모의 경제",
+        "detail": "상위 ODM의 생산확대는 단가 경쟁력 강화와 브랜드에 대한 가격협상력 상승으로 수익성에 영향을 줍니다."
+      },
+      {
+        "factor": "글로벌 경기 변동",
+        "detail": "세계 경제·정치 불확실성은 수출 수요와 원가·환율 변동을 통해 실적에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "R&D 경쟁력",
+        "detail": "연구개발 인력 비중과 특허·기능성 허가 보유는 신제형 개발로 제품 경쟁력 및 수주에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "코스메카코리아는 화장품 ODM/OEM 기업으로서,"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "연구개발 인력이 전체 인력의 약 40%에 달하며,"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "수 출: 72,710 (22.7%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "상품: 1,015 (0.2%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "기타: 7,808 (1.2%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "국내외 다수의 화장품 브랜드 업체를 고객사로 확보하고 있습니다."
+      },
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "2018년 미국 뉴저지에 본사를 두고 있는 잉글우드랩을 인수하며,"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4817,
+    "completion_tokens": 3467,
+    "reasoning_tokens": 2560,
+    "output_tokens": 907
+  },
+  "warnings": []
+}

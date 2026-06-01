@@ -1,0 +1,64 @@
+{
+  "stock_code": "005940",
+  "corp_name": "NH투자증권",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 19:25",
+  "meta": {
+    "wics": "증권",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "NH투자증권은 금융투자업을 영위하는 증권사로, 연결기준으로 다양한 영업부문을 통해 사업을 운영하고 있습니다. 2025년 연결기준 자산 총계와 자기자본이 증가했으며, 수익성 측면에서도 전년대비 크게 개선된 실적을 기록했습니다.",
+    "business_model": "핵심 사업부문은 Brokerage(주식 중개), 금융상품판매(펀드·랩·신탁 등), IB(인수·주선·M&A 등) 및 Trading 등으로 구성되어 있으며, 회사는 수수료수지·운용손익·이자수지 등을 통해 수익을 창출합니다. 2025회계연도 수수료수지는 1조 2,117억원을 기록했고, Brokerage 수수료수지는 6,470억원, 금융상품판매는 1,175억원, IB 수수료수지는 4,371억원 등으로 세부 수익원이 보고되어 있습니다.",
+    "main_customers": "Brokerage — 국내·해외 주식 투자자 / 금융상품판매 — 펀드·랩·신탁 가입자(개인·법인 투자자) / IB — 자금조달 및 M&A를 추진하는 기업(대형 딜 수행 기업) / Retail(자산관리) — 고액 자산가 / Trading·기관영업 — 기관투자자",
+    "price_factors": [
+      {
+        "factor": "규제환경",
+        "detail": "금융당국의 건전성 관리·투자자 보호 강화는 규제비용을 증가시켜 실적·영업활동에 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "시장거래대금",
+        "detail": "시장 일평균거래대금 변동은 Brokerage 수수료수지에 직접적 영향을 주어 수익성 변동을 유발합니다."
+      },
+      {
+        "factor": "금리환경",
+        "detail": "글로벌 금리 변화는 운용손익 및 이자수지에 영향을 주어 전반적 수익성에 영향을 미칩니다."
+      },
+      {
+        "factor": "핀테크 경쟁",
+        "detail": "빅테크·핀테크의 금융영역 진출은 업권 간 경쟁을 심화시켜 기존 비즈니스의 수익구조에 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "2025년 연결기준 자산 총계는 83조 3,854억원, 자기자본은 9조 4,381억원으로 전년대비 증가하였으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. 금융투자산업의 특성",
+        "evidence_text": "당사의 연결기업 보고부문은 Sales, IB, Trading,본사 및 기타 부문으로 구성됩니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 금융투자산업의 특성",
+        "evidence_text": "금융투자업은 정부와 금융당국의 정책에 영향을 많이 받는 대표적인 규제산업입니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4673,
+    "completion_tokens": 5064,
+    "reasoning_tokens": 4288,
+    "output_tokens": 776
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "stock_code": "317400",
+  "corp_name": "자이에스앤디",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 16:17",
+  "meta": {
+    "wics": "건설",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "자이에스앤디는 첨단공장·데이터센터(IDC)·연구시설·오피스 등 산업·업무용 건축과 주택 개발, 스마트홈·시설관리 등 Home Solution을 중심으로 사업을 영위하는 건설업체이며, 제26기말 연결기준 매출 1조 3,876억원을 기록했습니다. 기술집약적 하이테크 건축과 주택 개발을 병행하는 점이 회사의 정체성입니다.",
+    "business_model": "회사는 건축사업(첨단공장·데이터센터·플랜트 등), 주택사업(개발형 및 도급형 재건축·단지개발), Home Solution(스마트홈·아파트 AS·환기형 공기청정기 시공·부동산 임대·시설관리) 등 3개 부문으로 수익을 창출하며, FY2025 기준으로 건축사업 67.3%, 주택사업 9.5%, Home Solution 23.2%의 매출 비중을 기록했습니다. 건축부문은 설계·시공·EPC(설계·조달·시공)를 포함한 일괄수행으로 고부가가치 프로젝트를 수주하는 구조입니다.",
+    "main_customers": "건축사업 — 배터리·가전 등 산업용 제조사 및 R&D/오피스 발주처 / 주택사업 — 토지 소유자·주택조합·시행사(발주처) / Home Solution — 아파트 입주민 및 건물 소유자·임대운영·시설관리 수요처",
+    "price_factors": [
+      {
+        "factor": "데이터센터 수요",
+        "detail": "AI·클라우드 성장에 따른 대규모 데이터센터 발주 확대는 건축부문 수주와 실적에 직접적인 영향(수주 증가 기반)."
+      },
+      {
+        "factor": "부동산 경기",
+        "detail": "부동산시장 침체와 금융 규제는 주택사업의 분양·착공·매출에 민감하게 작용하여 실적 변동성을 키웁니다."
+      },
+      {
+        "factor": "환경·ESG 투자",
+        "detail": "발주처의 친환경·재생 설비 투자 확대는 하이테크·플랜트 관련 수주 기회를 증가시킬 수 있습니다."
+      },
+      {
+        "factor": "진입장벽",
+        "detail": "클린룸·플랜트·데이터센터 등 하이테크 건축은 기술·실적 기반의 높은 진입장벽으로 경쟁구도가 제한되어 수주 경쟁력에 유리하게 작용할 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "자이에스앤디 연결회사는 ... 'Home Solution 사업부문'의 3개 부문으로 구성되어 있으며, 제26기말 현재 별도기준 4,539억원, 연결기준 13,876억원의 매출을 달성하였습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "제26기말 현재 건축사업부문의 매출액은 9,337억원으로 전체 매출의 67.3%를 차지합니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "제26기말 현재 주택사업부문의 매출액은 1,315억원으로 전체 매출의 9.5%를 차지합니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "Home  Solution 사업: 322,429 (23.2%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "건축 사업부문",
+        "evidence_text": "건축사업은 배터리 생산공장, 가전제품 생산공장 등 산업용 제조시설과 오피스, 연구개발(R&D) 시설 등 일반건축물을 중심으로 수행되고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "하이테크사업",
+        "evidence_text": "최근 AI, 클라우드 산업의 성장에 따른 대규모 데이터센터 수요 증가"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "영업개황",
+        "evidence_text": "'25년 부동산 환경은 ... 부동산시장 침체 국면에서 빠져나오지 못하고 있는 실정입니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5255,
+    "completion_tokens": 4243,
+    "reasoning_tokens": 3136,
+    "output_tokens": 1107
+  },
+  "warnings": []
+}

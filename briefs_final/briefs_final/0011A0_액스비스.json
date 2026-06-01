@@ -1,0 +1,67 @@
+{
+  "stock_code": "0011A0",
+  "corp_name": "액스비스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 17:18",
+  "meta": {
+    "wics": "전자장비와기기",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "액스비스는 광학기술과 소프트웨어 융합을 기반으로 첨단 산업에 특화된 지능형 광학장비 및 솔루션을 제공하는 기업입니다. 첨단 모빌리티(친환경차·자율주행), 배터리, 카메라 모듈 등 제조 공정에 최적화된 지능형 고출력 레이저 장비를 공급하며 성장해왔습니다.",
+    "business_model": "주요 매출은 수주형 맞춤 제작(고객별 사양 기반) 방식으로 발생하며, 제품군별로 AXWELD(62.5%), AXCUT(16.0%), AXSURF(14.2%), AXVIEW(6.8%), 기타(0.5%)로 구성됩니다. 하드웨어뿐 아니라 비전스캔·전용 소프트웨어·공정 통합(턴키) 솔루션을 결합해 제조사 생산성 향상과 품질 고도화를 지원하는 것이 핵심 수익 구조입니다.",
+    "main_customers": "AXWELD — 첨단 모빌리티(모터·액츄에이터) 및 카메라 모듈 제조업체 / AXCUT — 배터리 전극 제조업체 / AXSURF — 첨단 모빌리티·배터리 등 정밀 표면처리 수요 제조업체 / AXVIEW — 제조업체의 품질관리·공정 모니터링 부문 / 기타 — 기타 산업용 제조업체",
+    "price_factors": [
+      {
+        "factor": "수주형 제작",
+        "detail": "제품이 고객사별 맞춤 수주로 공급되므로 개별 프로젝트 조건에 따라 제품 단가와 수익성이 크게 달라질 수 있습니다."
+      },
+      {
+        "factor": "산업 수요(모빌리티·배터리)",
+        "detail": "친환경차·배터리 등 첨단 산업의 공정 정밀화가 가속화되면 레이저 장비 수요가 증가해 실적에 긍정적 영향을 줍니다."
+      },
+      {
+        "factor": "턴키 경쟁",
+        "detail": "레이저·비전·소프트웨어 통합(턴키) 제공 능력이 경쟁우위가 되어 수주 확보와 마진에 직접 영향합니다."
+      },
+      {
+        "factor": "원가·환율",
+        "detail": "영업외비용 항목에서 환율 변동이 비용에 영향을 미친다고 보고되어 환율 변동이 실적 변동 요인이 될 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "광학기술과 소프트웨어 융합을 기반으로"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "지능형고출력 레이저 솔루션을 지속적으로 공급하며 성장해왔습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "AXWELD: 34,123,902 (62.5%)"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "Turn-key 솔루션 중심으로 빠르게 재편되고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5300,
+    "completion_tokens": 3447,
+    "reasoning_tokens": 2624,
+    "output_tokens": 823
+  },
+  "warnings": []
+}

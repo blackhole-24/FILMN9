@@ -1,0 +1,76 @@
+{
+  "stock_code": "032940",
+  "corp_name": "원익",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 23:48",
+  "meta": {
+    "wics": "화장품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "원익은 전자부품 제조(OEM), 통상(석영유리·조명·계측장비) 및 헬스케어(더마 코스메틱·의료장비) 등을 영위하는 복합 사업회사로, 원익 그룹의 모회사 역할을 하고 있습니다. 전자부품에서는 HIC(Hybrid IC) 위탁생산과 저압 압력센서 사업이 주요 축이며, 헬스케어 자회사 씨엠에스랩을 통해 병의원·면세점 등 유통 채널도 보유하고 있습니다.",
+    "business_model": "사업부문별 영업수익 구성은 상품 14.8%, 의료기기 8.1%, 상품·제품 74.0%, 상품·기타 3.1%로 나타나며([사업부문별 매출 구성] 기준), 전자부품부문 내에서는 매출의 90%이상이 Hybrid IC 관련 매출(저압 압력센서 중심)을 차지합니다. 통상부문은 석영유리(반도체 공정용), LED·조명 및 계측장비 유통을 통해 수익을 올리고, 헬스케어부문은 더마 코스메틱 브랜드와 의료기기 공급으로 매출을 확보합니다.",
+    "main_customers": "전자부품 — Honeywell·ALL Sensor·Amphenol·SMI·Analog 등 압력센서 메이커 / 통상 — 반도체 제조업체(석영유리 사용처), 조명·산업재 구매처 및 계측장비 사용자 / 헬스케어 — 종합병원·병의원, 면세점·H&B스토어·온라인몰",
+    "price_factors": [
+      {
+        "factor": "저압센서수요",
+        "detail": "공정 자동화 확대로 저압센서 수요가 늘면 전자부품부문 매출에 직접 영향이 있습니다."
+      },
+      {
+        "factor": "쿼츠시장",
+        "detail": "글로벌 쿼츠(석영) 시장 성장에 따라 통상부문의 석영유리 제품 매출이 변동될 수 있습니다."
+      },
+      {
+        "factor": "조달의존",
+        "detail": "Hybrid IC 구성품의 수입 의존도가 높아 주요 공급국 상황에 따른 원가·공급 리스크가 발생할 수 있습니다."
+      },
+      {
+        "factor": "규제(RoHS)",
+        "detail": "전자부품 관련 유해물질 규제(RoHS) 변화는 제품 설계·원가에 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "LED수요",
+        "detail": "LED 시장 확대는 통상부문의 조명 제품 판매에 긍정적 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "브랜드 관리에 관한 중요한 정책",
+        "evidence_text": "당사는 원익 그룹의 모회사로서"
+      },
+      {
+        "field": "business_model",
+        "source_section": "(1) 전자부품부문",
+        "evidence_text": "매출의 90%이상이 Hybrid IC 관련 매출이며,"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "- 상품, 제품: 86,608 (74.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "(1) 전자부품부문",
+        "evidence_text": "Honeywell, ALL Sensor, Amphenol, SMI, Analog 등"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "(3) 헬스케어부문",
+        "evidence_text": "종합병원을 포함한 국내 3,000여개의 병의원과"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5123,
+    "completion_tokens": 3599,
+    "reasoning_tokens": 2688,
+    "output_tokens": 911
+  },
+  "warnings": []
+}

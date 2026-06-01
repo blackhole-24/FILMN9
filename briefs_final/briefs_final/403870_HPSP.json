@@ -1,0 +1,62 @@
+{
+  "stock_code": "403870",
+  "corp_name": "HPSP",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 18:56",
+  "meta": {
+    "wics": "반도체와반도체장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "HPSP는 고압 수소 어닐링(High Pressure Annealing, HPA) 장비의 연구·개발, 제조 및 판매를 전문으로 하는 반도체 전공정(Front-End) 장비업체입니다. 당사의 GENI-SYS 장비는 전 세계 고압 관련 인증을 획득한 유일한 고압 수소 어닐링 장비로 글로벌 메이저 반도체 업체의 양산 Fab에서 가동 중입니다.",
+    "business_model": "주력 제품은 고유전율(High-K) 절연막을 사용하는 트랜지스터의 계면 결함을 개선하는 고압 수소 어닐링 장비(GENI-SYS)이며, FY2025 기준 제품매출이 89.1%이고 기타매출이 10.9%로 매출의 대부분을 제품매출이 차지합니다. 장비 판매를 통해 반도체 미세화(28/32㎚ 이하 공정) 수요에 대응하는 것이 핵심 수익원입니다.",
+    "main_customers": "제품매출 — 글로벌 메이저 반도체 업체의 Fab / 기타매출 — 기타 거래처",
+    "price_factors": [
+      {
+        "factor": "공정 미세화",
+        "detail": "공정이 28/32㎚ 이하로 미세화될수록 HPA 장비 수요가 상대적으로 증가하여 실적에 긍정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "설비투자 변동",
+        "detail": "글로벌 반도체 업체의 설비투자 규모 변동은 장비 수주와 매출 변동으로 직결됩니다."
+      },
+      {
+        "factor": "기술 진입장벽",
+        "detail": "고압 관련 인증과 기술 난이도로 인해 경쟁 진입장벽이 높아 외부 경쟁에 따른 영향은 제한적일 수 있습니다."
+      },
+      {
+        "factor": "수요처 다변화",
+        "detail": "메모리·비메모리 등 전방산업의 수요 변화(예: AI·데이터센터 수요)는 장비 수요의 회복·확대에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "고압 수소 어닐링 장비의 연구개발, 제조 및 판매를 전문으로 하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "GENI-SYS 장비는 전 세계 고압 관련 인증을 획득한 유일한 고압 수소 어닐링 장비"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "제품매출: 154,092,928 (89.1%)"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5033,
+    "completion_tokens": 2954,
+    "reasoning_tokens": 2240,
+    "output_tokens": 714
+  },
+  "warnings": []
+}

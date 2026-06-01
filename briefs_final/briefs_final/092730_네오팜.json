@@ -1,0 +1,71 @@
+{
+  "stock_code": "092730",
+  "corp_name": "네오팜",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 07:21",
+  "meta": {
+    "wics": "화장품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "네오팜은 민감성·더모(피부장벽) 중심의 화장품 브랜드를 보유한 국내 화장품 기업으로, 아토팜·리얼베리어·더마비·티엘스·제로이드 등을 주요 브랜드로 운영하고 있습니다. 2025년 별도 기준 매출액 132,105백만원, 당기순이익 27,906백만원을 기록했고, 아토팜은 '민감성 스킨케어 부문'에서 2007년~2025년까지 19년 연속 1위를 차지했습니다.",
+    "business_model": "주요 사업은 화장품 중심이며 용품/벌크, 상제품 등도 사업부문으로 기재되어 있습니다. 제품은 독자적 제형 기술인 MLE(피부지질구조 유사 제형)를 바탕으로 더마(의학적 피부관리)·민감성 보습 제품에 집중하며, 매출은 국내 82%, 수출 18%로 구성되고 온라인 플랫폼 매출이 전체의 10% 이상을 차지합니다.",
+    "main_customers": "화장품 — 민감성 피부 소비자 / 온라인 플랫폼 채널 — 온라인 구매 이용자",
+    "price_factors": [
+      {
+        "factor": "제품력(품질)",
+        "detail": "민감성 보습제 시장은 품질로 차별화되지 않으면 마케팅만으로 성공하기 어려워 제품력(제형·효능)이 실적에 직결됩니다."
+      },
+      {
+        "factor": "클린뷰티 수요",
+        "detail": "젊은층 중심의 클린뷰티·가치소비 확산은 관련 카테고리 매출 확대에 긍정적 영향을 미칩니다."
+      },
+      {
+        "factor": "계절성",
+        "detail": "보습제 수요는 동절기에 증가하고 하절기에 감소하는 계절적 흐름이 매출 변동 요인으로 작용합니다."
+      },
+      {
+        "factor": "경쟁심화",
+        "detail": "OEM/ODM 기반 진입장벽이 낮고 타업종의 진출이 늘어나면 시장 경쟁이 심화되어 수익성에 부담을 줄 수 있습니다."
+      },
+      {
+        "factor": "유통구조(온라인)",
+        "detail": "온라인 플랫폼 매출 비중 확대는 판매확대에 유리하나 채널별 가격·판촉 영향으로 수익성 변동요인이 됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "[DART 사업보고서 — 영업 현황]",
+        "evidence_text": "민감피부 전문 스킨케어 '아토팜'"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[DART 사업보고서 — 영업 현황]",
+        "evidence_text": "당사 독자적 제형 기술인 MLE를 기반으로"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "전체 매출액의 10% 이상을 차지하는 주요 매출처는 온라인 플랫폼 매출입니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "[DART 사업보고서 — 영업 현황] 1. 업계의 현황",
+        "evidence_text": "클린뷰티 카테고리 시장의 성장이 예상되며"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4063,
+    "completion_tokens": 4280,
+    "reasoning_tokens": 3456,
+    "output_tokens": 824
+  },
+  "warnings": []
+}

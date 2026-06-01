@@ -1,0 +1,86 @@
+{
+  "stock_code": "218150",
+  "corp_name": "미래생명자원",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:28",
+  "meta": {
+    "wics": "식품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "미래생명자원은 사료 부문과 식품 부문을 함께 영위하는 기업으로, 보고서 기준 총 10건의 국내 특허와 4건의 전용실시권을 보유하고 있습니다. 사료첨가제와 반려동물 관련 사업, 식품 유통 및 제조까지 넓게 다루며, 최근에는 종속회사 인수와 수출 확대를 통해 사업 영역을 넓히고 있습니다.",
+    "business_model": "FY2025 사업부문별 영업수익 기준으로 사료부문이 13.8%, 식품부문이 18.2%를 차지합니다. 사료부문에서는 특수가공원료(EP), 기능성 원료, 기능성 첨가제, 프리믹스 첨가제와 반려동물 건강기능식품·프리미엄 용품을 다루고, 식품부문에서는 식용란 선별 포장과 유통, 기능성소재 및 건강기능식품, 영유아식, 비알코올 음료 제조·유통을 영위합니다. 사료 원료 수입 비중이 높아 환율 변동과 원재료 가격 변화의 영향을 받고, 축산물 가격과 사육두수 변화도 수요에 영향을 줍니다.",
+    "main_customers": "사료부문 — 축산 관련 기업, 사료 사용 축산농가 / 반려동물 사업 — 반려동물 양육자, ODM·OEM 거래처 / 식품부문 — 식용란 유통 거래처, 주요 유통 채널, OEM 공급 거래처",
+    "price_factors": [
+      {
+        "factor": "축산물가격",
+        "detail": "축산물 가격이 높아지면 출하가 빨라지고 사료 투입액도 늘어 사료첨가제 수요에 영향을 줍니다."
+      },
+      {
+        "factor": "사육두수",
+        "detail": "축종별 사육두수 변화가 배합사료 생산량과 출하에 직접 연결되어 실적 변동 요인이 됩니다."
+      },
+      {
+        "factor": "환율변동",
+        "detail": "수입 원재료와 상품 비중이 있어 환율이 변하면 공급 측면 비용과 매출 규모에 영향을 줍니다."
+      },
+      {
+        "factor": "질병위험",
+        "detail": "구제역 같은 축산 질병이 발생하면 수요와 공급이 동시에 위축될 수 있습니다."
+      },
+      {
+        "factor": "반려동물시장",
+        "detail": "반려동물 수와 양육자의 지출이 늘수록 반려동물 건강기능식품과 용품 사업 확대에 유리합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 지적재산권 관련",
+        "evidence_text": "총 10건의 국내 특허를 보유하고있으며"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "가. 지적재산권 관련",
+        "evidence_text": "4건의 국내 특허에 대한 전용실시권을 확보하였습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "사료부문: 9,311,933,021 (13.8%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "식품부문: 12,285,034,001 (18.2%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "[사료 부문]",
+        "evidence_text": "축종 및 각 축종별 성장 단계에 따라"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "[사료 부문]",
+        "evidence_text": "반려동물 양육자가 반려동물에 지출하는 비용 규모"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "[식품 부문]",
+        "evidence_text": "식용란 선별 포장업 및 유통"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5217,
+    "completion_tokens": 988,
+    "reasoning_tokens": 0,
+    "output_tokens": 988
+  },
+  "warnings": []
+}

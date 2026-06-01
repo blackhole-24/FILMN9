@@ -1,0 +1,67 @@
+{
+  "stock_code": "383930",
+  "corp_name": "디티앤씨알오",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 18:35",
+  "meta": {
+    "wics": "생명과학도구및서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "디티앤씨알오는 의약품·의료기기·건강기능식품·화장품 등 다수 분야에서 비임상시험과 임상시험을 제공하는 Full-Service CRO(임상시험수탁기관)입니다. 비임상·임상 전주기를 아우르는 정부 인증 인프라와 자동화·전산화 시스템을 보유하고 PK/PD센터 등 분석 역량을 확대한 점이 특징입니다.",
+    "business_model": "핵심 사업은 임상(임상시험 설계·수행), 안전성(독성·안전성 비임상시험), 분석(검체분석·PK/TK 등) 및 효능(효능평가시험)으로 구성되며, FY2025 기준 임상 30.7%, 안전성 44.0%, 분석 12.5%, 효능 12.8%의 매출 비중을 보입니다. GLP(우수실험실기준)·GCP(임상시험관리기준) 기반의 규제준수 서비스와 PK/PD, ADME/DMPK 등 고부가가치 분석서비스가 수익의 핵심입니다.",
+    "main_customers": "임상 — 제약사·의료기기 제조업체·바이오벤처 / 안전성 — 제약사·건강기능식품 개발사·연구기관 / 분석 — 국내외 제약사·바이오기업 / 효능 — 대학·연구소·바이오벤처·제약사",
+    "price_factors": [
+      {
+        "factor": "규제강도",
+        "detail": "의약품·식품·의료기기 등 전방산업의 엄격한 안전성·허가 기준은 시험 수요를 유지시키지만 규제 변경 시 시험 항목·비용에 영향이 생깁니다."
+      },
+      {
+        "factor": "해외경쟁",
+        "detail": "해외 대형 CRO와의 치열한 경쟁은 수주 단가와 해외 진출 전략에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "아웃소싱 추세",
+        "detail": "신약개발사의 개발비 절감 및 전문화로 CRO에 대한 위탁 수요가 확대되면 매출 성장에 긍정적 영향을 줍니다."
+      },
+      {
+        "factor": "국내성장속도",
+        "detail": "국내 제약산업 성장 속도가 북미·유럽보다 더뎌 업계 전체의 성장 속도와 수주 확대에 제약이 될 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "Full-Service CRO입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "임상: 14,690,924 (30.7%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "제약사나 의료기기 제조업체, 건강기능식품 개발사 또는 연구기관"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "해외 대형 CRO와의 치열한 경쟁"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4845,
+    "completion_tokens": 2989,
+    "reasoning_tokens": 2176,
+    "output_tokens": 813
+  },
+  "warnings": []
+}

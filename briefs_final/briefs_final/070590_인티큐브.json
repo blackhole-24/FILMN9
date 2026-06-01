@@ -1,0 +1,72 @@
+{
+  "stock_code": "070590",
+  "corp_name": "인티큐브",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 05:19",
+  "meta": {
+    "wics": "IT서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "인티큐브(한솔인티큐브)는 2003년 설립된 AI 기반 고객 커뮤니케이션 전문 기업으로, AI·클라우드·콜인프라 기술을 바탕으로 컨택센터 및 경험기반 고객서비스체계(CS)를 제공합니다. 다년간의 현장경험과 200여개의 레퍼런스를 보유하며 국내 컨택센터 업계에서 리딩 포지션을 유지하고 있습니다.",
+    "business_model": "주요 수익원은 AI기반디지털컨택센터로, 최신 FY 매출 구성에서 해당 부문이 매출의 100.0%를 차지합니다. 자체 개발한 Inticube ISAC를 중심으로 컨설팅, On-Prem/Cloud 구축, SaaS(서비스형 솔루션), 개발 및 유지보수까지 AICC(인공지능 컨택센터) 토탈서비스를 제공하며, Genesys·Avaya·Salesforce 등 글로벌 파트너와의 협력으로 솔루션 경쟁력을 확보하고 있습니다.",
+    "main_customers": "AI기반디지털컨택센터 — 금융권 고객사 / AI기반디지털컨택센터 — 대표온라인 쇼핑몰 및 커머스업체 / AI기반디지털컨택센터 — 기업·공공기관 / 메세징 사업 — 이동통신사업자",
+    "price_factors": [
+      {
+        "factor": "AICC시장성장",
+        "detail": "글로벌 컨택센터 시장 확대로 AI 컨택센터 수요가 증가하면 매출 성장에 긍정적 영향을 미칩니다."
+      },
+      {
+        "factor": "경기·투자심리",
+        "detail": "컨택센터 도입은 기업 투자여건에 따라 결정되므로 경기 둔화 시 수주가 지연될 수 있습니다."
+      },
+      {
+        "factor": "통신망 전환",
+        "detail": "이동통신사의 All‑IP/VoLTE 등 기술 전환과 과점적 시장구조는 메시징·모바일솔루션 수요와 경쟁구도에 영향합니다."
+      },
+      {
+        "factor": "레퍼런스·계약구조",
+        "detail": "대형 금융·커머스 레퍼런스와 장기간 계약은 안정적 매출 기여와 신규 수주 시 신뢰도로 작용합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "Ⅱ. 사업의 내용 > 2. 사업부문별 사업의 개요 가. AI기반 디지털 컨택센터",
+        "evidence_text": "한솔인티큐브는 AI 기반의 고객 커뮤니케이션 전문 기업으로서,"
+      },
+      {
+        "field": "business_model",
+        "source_section": "Ⅱ. 사업의 내용 > (1) 컨택센터 사업",
+        "evidence_text": "AICC 토탈서비스를 제공하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "AI기반디지털컨택센터: 37,350 (100.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "Ⅱ. 사업의 내용 > 2. 사업부문별 사업의 개요",
+        "evidence_text": "국내 금융사, 대표온라인 쇼핑몰 등에 옴니채널 클라우드 컨택센터를 구축"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "3. 사업부문의 시장여건 및 영업의 개황 > 나. 산업의 성장성(1) AICC",
+        "evidence_text": "컨택센터 글로벌 시장 규모가 2027년까지 성장할 것으로 예상"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4879,
+    "completion_tokens": 4581,
+    "reasoning_tokens": 3712,
+    "output_tokens": 869
+  },
+  "warnings": []
+}

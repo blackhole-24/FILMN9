@@ -1,0 +1,67 @@
+{
+  "stock_code": "254490",
+  "corp_name": "미래반도체",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 13:52",
+  "meta": {
+    "wics": "반도체와반도체장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "미래반도체는 1996년 설립된 반도체 유통 전문 기업으로, 삼성전자 출신 인력들이 모여 설립되었으며 설립과 동시에 삼성전자 반도체 대리점으로 등록되어 현재까지 거래를 유지하고 있습니다. DRAM·NAND·SSD 등 메모리와 터치컨트롤러·이미지센서·PMIC 등 시스템반도체를 주로 취급하며, 삼성전자와의 메모리 AS(애프터서비스) 대행 계약을 통해 세계 유일의 메모리 AS센터를 운영하고 있습니다.",
+    "business_model": "FY2025 기준 사업부문별 영업수익은 전자부품 등 유통업이 99.9%, 기타매출이 0.1%를 차지하여 유통업 중심의 수익 구조를 보입니다. 제품 소싱의 대부분(약 99%)을 삼성전자에서 매입하고(공급망 계약 기반), 주요 취급품목은 DRAM, NAND Flash, SSD 등의 메모리와 Touch controller IC, Camera Image Sensor, PMIC 등 시스템반도체이며 일부 제품은 파운드리(위탁생산) 형태로도 공급합니다.",
+    "main_customers": "전자부품 등 유통업 — 데이터센터·자동차·스마트폰·가전·데스크탑 등 최종제품 제조업체 및 국내 휴대폰·컴퓨터 제조업체 / 기타매출 — 메모리 AS 서비스 수요처",
+    "price_factors": [
+      {
+        "factor": "공급망",
+        "detail": "글로벌 공급망 병목이나 자연재해 발생 시 부품 공급 차질로 재고·납기·매출에 직접 영향이 발생합니다."
+      },
+      {
+        "factor": "수요주기",
+        "detail": "반도체 업계의 4년 주기적 호황·불황(수요 변동)에 따라 거래량과 판매단가가 크게 변동할 수 있습니다."
+      },
+      {
+        "factor": "국가정책",
+        "detail": "국가 차원의 반도체 산업 육성·보호 정책은 인프라·세제 지원 등으로 생태계 수요를 늘려 유통업체에 긍정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "환율",
+        "detail": "외화 변동은 수출입 대금 및 외화자산·부채의 환산이익·손실에 영향을 미치며 회사는 통화선도거래로 환율 위험을 관리합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 가. 사업의 내용",
+        "evidence_text": "1996년 1월에 설립되었습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 다. 원재료 및 생산설비",
+        "evidence_text": "당사는 메모리, 시스템반도체 등 상품의 99%를 삼성전자에서 매입하고"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "전자부품 등 유통업: 635,257 (99.9%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 라. 시장여건 및 영업개황",
+        "evidence_text": "주요 목표시장은 국내 휴대폰 및 컴퓨터 제조업체를 비롯하여"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4992,
+    "completion_tokens": 3396,
+    "reasoning_tokens": 2560,
+    "output_tokens": 836
+  },
+  "warnings": []
+}

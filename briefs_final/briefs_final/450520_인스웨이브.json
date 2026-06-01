@@ -1,0 +1,71 @@
+{
+  "stock_code": "450520",
+  "corp_name": "인스웨이브",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:44",
+  "meta": {
+    "wics": "소프트웨어",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "인스웨이브는 2002년 설립된 응용 소프트웨어 개발 및 공급 기업으로, 국내 최초로 웹 표준 UI/UX 개발 플랫폼을 출시한 회사입니다. 웹 표준 기술을 바탕으로 WebSquare5와 금융 단말 솔루션 WebTop을 공급해 왔으며, 최근에는 AI와 생성형 AI를 결합한 지능형 소프트웨어로 사업을 확장하고 있습니다.",
+    "business_model": "2025년 사업부문별 매출은 금융 단말 솔루션 58.7%, UI/UX 개발 플랫폼 37.3%, 서버 개발 플랫폼 4.0%로 구성됩니다. 핵심은 웹 기반 UI/UX 개발 플랫폼과 금융권용 단말 솔루션이며, 최근에는 AI 에이전트(업무를 대신 수행하는 AI)와 코파일럿(Copilot, 개발 보조 AI)을 결합해 개발 생산성을 높이는 방향으로 진화하고 있습니다.",
+    "main_customers": "UI/UX 개발 플랫폼 — 국내 주요 금융기관, 일반 기업, 공공기관 / 금융 단말 솔루션 — 시중은행, 저축은행, 카드사 등 금융기관 / 서버 개발 플랫폼 — 기업용 소프트웨어 이용 고객",
+    "price_factors": [
+      {
+        "factor": "DX·AX 수요",
+        "detail": "기업들의 디지털 트랜스포메이션(DX, 디지털 전환)과 인공지능 전환(AX) 확대가 UI/UX 플랫폼과 AI 개발 도구 수요를 키우는 요인입니다."
+      },
+      {
+        "factor": "금융투자",
+        "detail": "금융권의 차세대 시스템 구축과 웹 단말 솔루션 도입이 늘수록 금융기관 대상 매출이 확대될 수 있습니다."
+      },
+      {
+        "factor": "프로젝트",
+        "detail": "프로젝트·컨설팅 수주가 실적을 좌우하는 구조라서 고객사 IT 투자 재개 여부가 매출 변동에 직접 영향을 줍니다."
+      },
+      {
+        "factor": "AI경쟁",
+        "detail": "AI 에이전트와 자체 LLM(거대언어모델) 경쟁력이 높아질수록 시장 내 기술적 우위를 유지하는 데 도움이 됩니다."
+      },
+      {
+        "factor": "반복매출",
+        "detail": "유지보수처럼 반복 매출(Recurring Revenue)이 늘수록 실적의 예측 가능성이 높아지는 구조입니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "2002년 설립 이후 웹 표준 기술에 대한 선제적인 연구개발"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "■ 사업부문별 영업수익 구성 (FY2025)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "금융 단말 솔루션: 5,520 (58.7%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "국내 주요 금융기관, 일반 기업 및 공공기관을 핵심 고객사로 확보"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5174,
+    "completion_tokens": 790,
+    "reasoning_tokens": 0,
+    "output_tokens": 790
+  },
+  "warnings": []
+}

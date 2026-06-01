@@ -1,0 +1,81 @@
+{
+  "stock_code": "002350",
+  "corp_name": "넥센타이어",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 09:41",
+  "meta": {
+    "wics": "자동차부품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "넥센타이어는 국내 본사를 중심으로 중국, 미주, 유럽, 중동, 동남아, 오세아니아 등 글로벌 판매 네트워크를 통해 타이어를 제조·판매하는 기업입니다. 국내 양산·창녕과 해외 중국 청도, 체코 자테츠에 생산기지를 보유하고 있으며, 국내외 4개 공장에서 모두 ISO 14001 인증을 획득했습니다. 타이어 산업은 장치산업(대규모 설비가 필요한 산업)인 동시에 기술집약적 산업으로, 넥센타이어는 연구개발과 해외 생산 확대를 함께 추진하고 있습니다.",
+    "business_model": "사업부문별 영업수익 구성(FY2025) 기준으로 타이어 부문이 95.1%, 비타이어 부문이 0.2%를 차지합니다. 타이어 부문은 OE(Original Equipment, 신차용 타이어)와 RE(Replacement Equipment, 교체용 타이어) 시장을 대상으로 제품을 제조·판매하는 구조이며, 비타이어 부문은 작성기준일 현재 영위하고 있지 않습니다. 회사는 글로벌 R&D 네트워크와 친환경 제품 개발을 통해 제품 경쟁력을 높이는 데 집중하고 있습니다.",
+    "main_customers": "타이어(OE) — 완성차 업체 / 타이어(RE) — 차량 보유 고객, 교체 수요 고객 / 글로벌 판매 — 중국·미주·유럽·중동·동남아·오세아니아 지역 고객",
+    "price_factors": [
+      {
+        "factor": "신차수요",
+        "detail": "OE(신차용 타이어) 수요는 자동차 생산량과 연동되어 경기와 신차 판매 흐름이 실적에 영향을 줍니다."
+      },
+      {
+        "factor": "교체수요",
+        "detail": "RE(교체용 타이어)는 차량 등록대수와 운행거리에 따라 꾸준히 발생해 경기 영향을 상대적으로 덜 받습니다."
+      },
+      {
+        "factor": "원가변동",
+        "detail": "천연고무와 석유화학 원재료의 해외의존도가 높아 환율과 국제시황 변화가 원가 부담에 직접 영향을 줍니다."
+      },
+      {
+        "factor": "친환경전환",
+        "detail": "전동화와 환경규제 강화가 이어지면 친환경 타이어와 관련한 OE 수요 확대가 기대됩니다."
+      },
+      {
+        "factor": "경쟁구도",
+        "detail": "국내 시장은 주요 업체 과점 구조이고 해외는 선진국·신흥국 업체 간 경쟁이 치열해 판매 확대에 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 1. 회사의 개요",
+        "evidence_text": "국내 본사를 중심으로 중국, 미주, 유럽, 중동, 동남아, 오세아니아 등 글로벌판매네트워크를 통해 타이어를 제조, 판매하는 기업입니다."
+      },
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 1. 회사의 개요",
+        "evidence_text": "국내에서 양산 및 창녕, 해외에서 중국 청도 및 체코 자테츠에 생산기지를 보유하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "타이어: 3,032,934 (95.1%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "비타이어: 7,009 (0.2%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "당사는 친환경 제품을 개발하기 위하여 연구개발에 힘쓰고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 3. 업계의 현황",
+        "evidence_text": "신차용 타이어(OE)시장은 경기변동의 영향을 비교적 크게 받는 특성이 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4342,
+    "completion_tokens": 1000,
+    "reasoning_tokens": 0,
+    "output_tokens": 1000
+  },
+  "warnings": []
+}

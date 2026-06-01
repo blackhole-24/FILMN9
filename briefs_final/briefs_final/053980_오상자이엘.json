@@ -1,0 +1,81 @@
+{
+  "stock_code": "053980",
+  "corp_name": "오상자이엘",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:02",
+  "meta": {
+    "wics": "소프트웨어",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "오상자이엘은 IT와 농업 포장재를 함께 영위하는 기업으로, 본사를 거점으로 국내 생산·판매 법인 등 3개의 종속회사를 두고 있습니다. 사업은 IT부문의 PLM(제품수명주기관리)·SI(시스템 통합)와 BT부문의 화장품, 신소재, 과수포장재 생산·판매로 나뉘어 있습니다.",
+    "business_model": "사업부문별 매출은 IT부문이 130,435백만원으로 전체의 약 95.7%, BT부문 포장재가 5,916백만원으로 약 4.3%를 차지합니다. IT부문 안에서는 PLM(Product Life Cycle Management, 제품수명주기관리)과 SI(System Integration, 시스템 통합) 사업을 통해 CAD(컴퓨터 지원 설계), CAM(컴퓨터 지원 제조), CAE(컴퓨터 지원 공학), PDM(제품 데이터 관리) 솔루션과 엔지니어링 컨설팅, 카티아 교육을 제공하고 있습니다. BT부문은 과수포장재를 생산·판매하며, 회사는 화장품과 신소재 제조·판매도 신규사업으로 추진하고 있습니다.",
+    "main_customers": "PLM — 엔지니어링·제조·건설 분야 업체 / SI — 서버·스토리지·네트워크·보안 관련 수요 기업 / BT 포장재 — 과수포장재 수요처",
+    "price_factors": [
+      {
+        "factor": "제조AI",
+        "detail": "정부의 ‘제조 AI 대전환’과 AI 기반 자동화 확대는 PLM 수요를 자극해 IT부문 성장에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "산업투자",
+        "detail": "경기 침체로 기술·설비투자가 줄면 PLM 수요가 감소해 매출에 부담이 될 수 있습니다."
+      },
+      {
+        "factor": "클라우드",
+        "detail": "클라우드 SW 전환과 SW 플랫폼 매출 확대는 IT부문 실적 개선에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "주력산업",
+        "detail": "반도체·조선 등 주력 산업의 고도화가 진행될수록 PLM 관련 수요가 늘어날 가능성이 있습니다."
+      },
+      {
+        "factor": "포장재수요",
+        "detail": "과수포장재 수요는 BT부문 매출에 연결되어 해당 사업의 실적 변동에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "IT  및 농업 포장재 전문기업입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 주요 제품 및 실적요약]",
+        "evidence_text": "IT부문 | PLM | CAD,CAE,CAM,PDM 등 | 130,435"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 주요 제품 및 실적요약]",
+        "evidence_text": "BT부문 | 포장재 | 과수포장재 | 5,916"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "엔지니어링, 제조, 건설 분야의 업체들이 주 수요자"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "[경쟁 환경 및 시장 특성 — price_factors 참고용]",
+        "evidence_text": "정부의 ‘제조 AI 대전환’ 정책이 성장을 견인"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "경기가 침체되어 기술 및 설비투자가 감소되면 그 수요가 줄어듭니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4094,
+    "completion_tokens": 947,
+    "reasoning_tokens": 0,
+    "output_tokens": 947
+  },
+  "warnings": []
+}

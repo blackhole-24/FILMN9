@@ -1,0 +1,67 @@
+{
+  "stock_code": "215000",
+  "corp_name": "골프존",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 12:19",
+  "meta": {
+    "wics": "호텔,레스토랑,레저",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "골프존은 2015년 3월 (구)골프존의 사업분할로 스크린골프 사업부문을 이관 받아 설립된 사업회사로, 본사를 거점으로 국내 4개 법인 및 해외 14개 법인 등 종속회사로 구성되어 있습니다. 주력은 골프 시뮬레이터를 중심으로 한 스크린골프 사업과 유지보수·고객지원 서비스입니다.",
+    "business_model": "핵심 사업은 스크린골프 사업부문으로, 스크린 골프방·실내골프연습장 등 골프 시뮬레이터 기반의 다양한 서비스를 제공하고 가맹사업과 직영 아카데미 운영을 병행합니다. 또 비즈몰을 통한 A/S·매장운영 지원과 유지보수자재 공급을 하는 유지보수사업부문이 안정적 수익을 지원합니다. 주력 제품인 Twovision NX의 국내 가맹점 비중은 80%를 넘어섰습니다.",
+    "main_customers": "스크린골프 — 스크린 골프방 및 실내골프연습장 운영자 / 유지보수 — 골프방 창업자 및 매장 운영자",
+    "price_factors": [
+      {
+        "factor": "기술력",
+        "detail": "S/W·H/W 및 R&D 경쟁력이 떨어지면 시뮬레이터 성능 경쟁에서 밀려 실적에 부정적 영향을 받을 수 있습니다."
+      },
+      {
+        "factor": "센서정확도",
+        "detail": "볼 인식·스핀·궤적 정확도가 낮으면 제품 경쟁력 약화로 판매 및 가맹 확장에 제약이 생깁니다."
+      },
+      {
+        "factor": "부품원가",
+        "detail": "PC 부품(CPU·그래픽 등) 원가 상승은 제조원가 증가로 공급가 인상 압력으로 연결됩니다."
+      },
+      {
+        "factor": "인건비",
+        "detail": "유지보수·서비스 인력의 인건비 상승은 유지보수 사업부문의 비용 부담 및 공급가 조정 요인이 됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "스크린골프 사업부문을 이관 받아 신규 설립된 사업회사입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황",
+        "evidence_text": "스크린골프 유지보수사업부문은 A/S, 매장운영 지원 등 고객지원서비스를 제공하고 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "산업의 특성",
+        "evidence_text": "스크린 골프방을 운영하는 고객에게는 창업 및 운영에 관한 부가서비스의 질이 매우 중요합니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "산업의 특성",
+        "evidence_text": "S/W, H/W 기술 및 R&D 역량의 중요성"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 5282,
+    "completion_tokens": 3877,
+    "reasoning_tokens": 3136,
+    "output_tokens": 741
+  },
+  "warnings": []
+}

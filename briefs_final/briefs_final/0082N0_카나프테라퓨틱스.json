@@ -1,0 +1,67 @@
+{
+  "stock_code": "0082N0",
+  "corp_name": "카나프테라퓨틱스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 20:03",
+  "meta": {
+    "wics": "제약",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "카나프테라퓨틱스는 인간 유전체 기반 약물 개발 기술을 바탕으로 항암제 및 안과 질환 치료제를 개발하는 혁신 신약 개발기업입니다. 이중항체·ADC(항체-약물 접합체)·합성신약 등 다양한 모달리티의 후보물질을 보유하고 초기 임상 중심의 전주기 연구개발 역량을 갖추고 있습니다.",
+    "business_model": "당사는 기초 연구부터 임상 초기 단계까지 신약 개발에 집중하고, 비임상·임상 초기 단계에서 국내외 제약사를 대상으로 조기 기술이전(license) 및 공동개발을 주요 사업모델로 운영합니다. 기술이전을 통한 수익을 연구개발에 재투자하는 선순환 구조를 유지하며, 누적계약금 159억원 및 총 계약금액 7,748억원의 실적을 확보하였고(FY2025 매출액: 5,250 (100.0%)), 항암 중심의 파이프라인(총 7건)을 기반으로 포트폴리오를 다각화하고 있습니다.",
+    "main_customers": "기술이전·공동개발 — 국내외 제약사 및 바이오텍 / 위탁연구·공동개발 — 위탁개발·생산업체(CDMO, 위탁개발·생산업체) 및 연구기관(예: 롯데바이오로직스)",
+    "price_factors": [
+      {
+        "factor": "항암제 경쟁구도",
+        "detail": "VEGF·EGFR 등 표적항암제와 면역항암제의 기존 점유율이 높아 신모달리티의 시장 진입 경쟁이 심화될 수 있습니다."
+      },
+      {
+        "factor": "ADC 성장세",
+        "detail": "ADC 항암제는 2018~2022년 65% 성장률을 보였으며, ADC 파이프라인 보유는 기업 가치에 긍정적 요인일 수 있습니다."
+      },
+      {
+        "factor": "면역항암 승인",
+        "detail": "anti-PD-1 계열 등 면역항암제의 승인 확대는 관련 치료제 시장 구도를 빠르게 변화시킬 수 있습니다."
+      },
+      {
+        "factor": "임상 자본부담",
+        "detail": "임상 후기 단계의 대규모 자본 소요로 인해 조기 기술이전 및 파트너링 전략이 실적·재무에 직접적 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "인간 유전체 기반 약물 개발 기술을 바탕으로"
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황",
+        "evidence_text": "조기 기술이전 및 공동개발을 주요 사업모델로 운영하고 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "국내 주요 제약사와의 기술이전 및 공동개발"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "매출액: 5,250 (100.0%)"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4947,
+    "completion_tokens": 4702,
+    "reasoning_tokens": 3904,
+    "output_tokens": 798
+  },
+  "warnings": []
+}

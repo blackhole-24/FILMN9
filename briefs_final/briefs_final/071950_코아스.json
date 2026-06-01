@@ -1,0 +1,68 @@
+{
+  "stock_code": "071950",
+  "corp_name": "코아스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 05:24",
+  "meta": {
+    "wics": "가구",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "코아스는 사무용 가구의 제조·판매를 주력으로 하는 기타제조업체로, 가구(WICS 섹터) 분야에 속해 있습니다. 사업보고서상으로 당사는 사무환경에 적합한 책상·의자·서랍·캐비닛 등 사무용 가구를 중심으로 영업을 하고 있습니다.",
+    "business_model": "핵심 사업은 사무용 가구의 제조·판매이며, 사업부문별 매출 구성에는 '사무용 가구 - 547,950'로 기재되어 있습니다. 제품은 기능성과 디자인이 강조되는 시스템 가구 중심으로 기업·공공기관 수요를 대상으로 B2B(기업 간 거래) 형태로 공급됩니다.",
+    "main_customers": "사무용 가구 — 기업체·공공기관·교육시장(학교)·병원·군부대",
+    "price_factors": [
+      {
+        "factor": "경기 민감성",
+        "detail": "사무용 가구는 기업·공공기관의 교체·신규 도입에 좌우되어 경기 흐름에 따라 실적 변동성이 큽니다."
+      },
+      {
+        "factor": "원자재비",
+        "detail": "목재·철재·플라스틱·MDF 등 원재료 비용 상승은 제조원가와 마진에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "노동비용",
+        "detail": "사무용 가구는 노동집약적 요소가 있어 인건비 상승 시 원가 부담이 증가합니다."
+      },
+      {
+        "factor": "제품 차별화",
+        "detail": "디자인과 기능성(시스템 가구) 경쟁력이 약화되면 고부가가치 제품 판매에 불리합니다."
+      },
+      {
+        "factor": "B2B 의존도",
+        "detail": "매출의 상당 부분이 기업·공공기관 중심인 만큼 해당 수요처의 예산·투자 축소가 실적에 직접적 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 업계의 현황 (가) 산업의 개요",
+        "evidence_text": "당사가 제조, 판매를 영위하고 있는 사무용 가구는"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "사무용  가구 - 547,950"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 업계의 현황 (가) 산업의 개요",
+        "evidence_text": "기업이나 관공서이며 최근에는 학교 등 교육시장"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 3105,
+    "completion_tokens": 2961,
+    "reasoning_tokens": 2304,
+    "output_tokens": 657
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

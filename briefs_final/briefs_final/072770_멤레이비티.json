@@ -1,0 +1,67 @@
+{
+  "stock_code": "072770",
+  "corp_name": "멤레이비티",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 05:28",
+  "meta": {
+    "wics": "IT서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "멤레이비티는 1998년 설립된 임베디드 소프트웨어 개발·공급 업체로, 2007년 코스닥에 상장되었습니다. 현재 스토리지, 서버, 백업 및 관리 솔루션의 공급과 이에 따른 유지보수를 주력사업으로 하고 있습니다.",
+    "business_model": "핵심 사업은 스토리지·서버·백업·관리 솔루션의 공급 및 유지보수(서비스)이며, FY2025 기준 '상 품' 부문이 매출의 64.5%를 차지합니다(상품 매출 비중: 64.5%). 제품이 정형화된 제조품이 아니어서 가격변동추세 제시는 제한적이며, 일부 용역 및 정비 서비스 매출은 과학기술정보통신부 단가의 영향을 받습니다.",
+    "main_customers": "상품(스토리지·서버·백업 솔루션) — 증권사·이동통신사·기업(데이터센터 등) / 용역·정비 서비스 — 공공부문(과학기술정보통신부 관련 단가 적용 대상) 및 기업",
+    "price_factors": [
+      {
+        "factor": "데이터수요",
+        "detail": "데이터 생성 증가(기업의 정보관리·AI·빅데이터 수요 확산)는 스토리지·서버 솔루션 수요와 실적에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "AI·빅데이터",
+        "detail": "AI·빅데이터 처리 수요 확대는 고성능 서버·스토리지 솔루션에 대한 수요를 늘려 매출에 유리하게 작용할 수 있습니다."
+      },
+      {
+        "factor": "공공단가",
+        "detail": "컴퓨터주변기기판매 부문의 용역 및 통신·정비 서비스 매출은 과학기술정보통신부 단가 영향을 받아 수익성에 변동을 초래할 수 있습니다."
+      },
+      {
+        "factor": "비대면 확산",
+        "detail": "코로나19 이후 비대면(언택트) 확산은 기업의 IT 인프라 투자 수요를 높여 스토리지·서버 시장 성장으로 연결됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "1998년 3월 3일에 설립되었으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황",
+        "evidence_text": "스토리지, 서버, 백업 및 관리 솔루션의 공급"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "상  품: 45,164 (64.5%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "Ⅰ. 사업 및 시장의 개요",
+        "evidence_text": "2002년 국내 증권사의 백업센터 구축 의무화"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3862,
+    "completion_tokens": 3166,
+    "reasoning_tokens": 2432,
+    "output_tokens": 734
+  },
+  "warnings": []
+}

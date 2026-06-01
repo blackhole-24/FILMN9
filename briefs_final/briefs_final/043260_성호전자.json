@@ -1,0 +1,67 @@
+{
+  "stock_code": "043260",
+  "corp_name": "성호전자",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 01:47",
+  "meta": {
+    "wics": "전기제품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "성호전자는 파워(전원공급장치)와 필름콘덴서(전자부품)를 주력으로 하는 전기·전자 업체로, 파워사업과 콘덴서사업 등 2개 사업부 체제로 운영됩니다. 필름콘덴서 사업은 42년간의 제조기술을 기반으로 디스플레이용 콘덴서에서 강한 입지를 유지해왔습니다.",
+    "business_model": "2025년 기준 매출에서 파워사업이 약 67.8%, 필름·콘덴서사업이 약 32.2%를 차지하며(별도 기준), 두 사업부가 회사 매출을 주도합니다. 파워사업은 프린터·복합기·가전·LED·전기차 충전장치 등 다수의 전원응용처에 부품을 공급하고, 필름콘덴서사업은 증착필름을 자체 생산하는 경쟁력을 바탕으로 디스플레이·가전·데이터센터·ESS·전기차용 콘덴서를 공급합니다.",
+    "main_customers": "파워사업부 — 프린터·복합기·가전 제조사(예: HP, 신도리코 및 대만·중국 로컬 메이커) / 필름·콘덴서사업부 — TV·디스플레이 및 글로벌 전자업체(예: 삼성전자, 도시바, 애플 등)",
+    "price_factors": [
+      {
+        "factor": "제품수요",
+        "detail": "디지털 TV, 프린터, 데이터센터, ESS, 전기차 등 적용처의 수요 변동이 매출에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "주요고객집중",
+        "detail": "대형 OEM(예: 삼성전자, 프린터 메이커) 대상 납품 비중 변동은 주문·실적 변동성을 키울 수 있습니다."
+      },
+      {
+        "factor": "공정·원재료",
+        "detail": "증착필름 등 핵심 원재료의 자체 생산 여부와 제조설비 능력은 공급안정성과 원가에 영향합니다."
+      },
+      {
+        "factor": "품질경쟁력",
+        "detail": "품질·가격 경쟁력이 높아야 해외 대형 고객 확보와 매출 확대에 유리하게 작용합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "당사는 파워사업과 콘덴서사업 등 크게 2개 사업부 체제로 운영되고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "필름콘덴서의 핵심 원료인 증착필름을 직접 생산하는 게 핵심 경쟁력 중 하나입니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "2005년부터 D-TV용 Film Capacitor를 삼성전자에 독점 공급하는 등"
+      },
+      {
+        "field": "business_model",
+        "source_section": "1) 매출현황(별도기준)",
+        "evidence_text": "합   계 | 81,356,208"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3906,
+    "completion_tokens": 4016,
+    "reasoning_tokens": 3200,
+    "output_tokens": 816
+  },
+  "warnings": []
+}

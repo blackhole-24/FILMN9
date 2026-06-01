@@ -1,0 +1,87 @@
+{
+  "stock_code": "041590",
+  "corp_name": "플래스크",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 01:32",
+  "meta": {
+    "wics": "건설",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "플래스크는 인테리어 디자인·시공·가구 디자인·제작·설치 등 실내건축(건축 사업)과 게임 채널링을 포함한 IT 사업을 영위하는 건설업체입니다. 2025년 연결 기준 매출액은 172억원으로 전년동기 대비 31% 증가하였습니다.",
+    "business_model": "사업부문별 영업수익 구성(FY2025)은 건축 사업 95.3%, IT 사업 4.2%, 임대사업 0.4%로 건축 사업(인테리어 디자인·시공·가구 제작·설치)이 핵심 수익원이며, IT 사업은 2025년 게임 채널링 인수를 통해 플랫폼 중심의 채널링(게임 유통) 모델로 전환하고 있습니다.",
+    "main_customers": "건축 사업 — 호텔·고급 주거 시설·스포츠·문화시설·쇼핑 시설·기업 사무공간 / IT 사업 — 외부 게임 개발사 및 플랫폼 이용자",
+    "price_factors": [
+      {
+        "factor": "건설경기",
+        "detail": "건설 경기 변동에 따라 실내건축(신규 인테리어) 수요가 변화하여 실적에 직접 영향이 있습니다."
+      },
+      {
+        "factor": "원가 상승",
+        "detail": "원가 상승은 마진 압박으로 이어져 영업수익성에 부담을 줄 수 있습니다."
+      },
+      {
+        "factor": "리모델링 수요",
+        "detail": "기존 건축물의 리모델링 수요는 상대적으로 안정적이어서 매출의 하방을 일부 완충할 수 있습니다."
+      },
+      {
+        "factor": "게임채널링",
+        "detail": "채널링 모델은 개발 리스크를 낮추고 다양한 콘텐츠로 이용자 유입을 확대하여 IT 부문의 성장성에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용",
+        "evidence_text": "당사의 사업 부문은 인테리어 디자인, 시공, 가구 디자인, 제작 및 설치, 건축 설계 시공 사업을 영위하는 건축 사업 부문, 게임 채널링 사업을 영위하는 IT 사업 부문으로 나눌 수 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "건축 사업: 17,164,007 (95.3%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "IT 사업: 762,059 (4.2%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "임대사업: 79,142 (0.4%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용",
+        "evidence_text": "건축 사업 부문은 국내 유수의 호텔, 고급 주거 시설, 스포츠 문화시설, 쇼핑 시설, 기업 사무공간 등의 인테리어 디자인, 시공, 가구 디자인 제작 설치를 수행하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "건설 경기 위축 및 원가 상승 등 어려운 환경에도 불구하고"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용",
+        "evidence_text": "최근에는 수요가 늘고 있는 건물 리모델링 프로젝트를 다수 수행하였습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용",
+        "evidence_text": "IT 사업 부문은 2025년 6월 게임 채널링 사업을 인수하여"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4838,
+    "completion_tokens": 4408,
+    "reasoning_tokens": 3456,
+    "output_tokens": 952
+  },
+  "warnings": []
+}

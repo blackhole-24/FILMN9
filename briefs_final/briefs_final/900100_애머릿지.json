@@ -1,0 +1,72 @@
+{
+  "stock_code": "900100",
+  "corp_name": "애머릿지",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 21:08",
+  "meta": {
+    "wics": "섬유,의류,신발,호화품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "애머릿지는 1978년 5월 1일 Diablo Diary, Inc로 설립되었고, 2010년 4월 21일 코스닥에 상장된 기업입니다. 연결회사는 현재 의류 사업부문과 카나비스 사업부문을 주요 사업으로 영위하고 있습니다.",
+    "business_model": "주요 사업부문은 의류 도매(브랜드 dba EK Line 운영)와 카나비스 사업이며, FY2025 기준 의류 등 매출 비중은 55.1%, 카나비스 사업은 21.6%로 보고되고 있습니다. 의류 도매는 도·소매업체에 대량 납품하는 유통 구조를 통해 매출을 창출합니다.",
+    "main_customers": "의류 등 — 미국 내 도·소매업체 (현재 미국 내 20여개사에 납품) / 카나비스 사업 — 문서상 별도 고객 정보 없음",
+    "price_factors": [
+      {
+        "factor": "물류·원가",
+        "detail": "중국·베트남 등 해외 생산 비중이 커서 유가 및 물류비·관세 변화가 원가와 마진에 직접적인 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "패션 트렌드",
+        "detail": "빠르게 변하는 유행을 선점하지 못하면 재고 부담과 판매 손실로 이어질 가능성이 큽니다."
+      },
+      {
+        "factor": "재고 회전율",
+        "detail": "도매업 특성상 높은 재고를 유지해야 하며, 재고 회전이 느려지면 자금 부담과 비용 증가로 실적에 부정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "미국 소매업황",
+        "detail": "일반 소매업체의 파산 증가 등 미국 유통업 취약성은 납품처의 수요와 안정적 거래에 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 사업의 내용(요약)",
+        "evidence_text": "연결회사의 현재 주요 사업은 의류 사업부문, 카나비스 사업부문으로 구성되어 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "의류 등: 2,456,895 (55.1%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "카나비스 사업: 965,318 (21.6%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "【의류 도매 사업부문】 (6) 영업개황",
+        "evidence_text": "현재 미국 내 20여개의 도,소매업체에 납품하고 있으며, 장기간 신뢰를 가지고 거래를 진행하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "【의류 도매 사업부문】 (5) 자원조달의 특성",
+        "evidence_text": "중국, 베트남 등 해외 생산 비중이 큰 만큼 유가 및 물류비의 변화에 민감하며, 관세정책에 많은 영향을 받고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4479,
+    "completion_tokens": 3420,
+    "reasoning_tokens": 2624,
+    "output_tokens": 796
+  },
+  "warnings": []
+}

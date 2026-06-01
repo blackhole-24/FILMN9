@@ -1,0 +1,67 @@
+{
+  "stock_code": "059120",
+  "corp_name": "아진엑스텍",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 03:51",
+  "meta": {
+    "wics": "반도체와반도체장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "아진엑스텍은 비메모리 반도체 설계기술을 바탕으로 산업용 모터 제어 원천기술을 ASIC/SoC 형태의 모션제어칩으로 구현하고, 이를 기반으로 모션제어 모듈·시스템·로봇제어기 등을 자체 개발·제조·판매·서비스하는 범용 모션제어 전문기업입니다. 주요 제품은 반도체 장비·스마트폰 장비·이차전지 장비 등 제조·검사 자동화 장비에 적용되는 핵심부품입니다.",
+    "business_model": "주요 수익원은 모션제어 칩(ASIC/SoC), 모듈 및 시스템 등 제품 매출이며, FY2025 기준 제품 매출이 전체의 약 98.2%를 차지하고 용역(서비스)이 약 1.8%를 차지합니다. 자체 설계한 CAMC 시리즈 모션제어용 칩을 중심으로 범용(Commercial) 제품과 고객 맞춤형(Customized) 제어기를 병행 공급하며, 연구개발을 통해 기술 차별화와 신규 로봇 OEM 등 사업 다각화에 집중하고 있습니다.",
+    "main_customers": "제품 — 제조·검사 자동화 장비 제조업체(맞춤형 고객 포함: ASM Korea(ASMK), 삼성전자(가전사업부), 세메스, 원익IPS, 쎄믹스 등) / 용역 — 범용(Commercial) 제품을 납품받는 약 380여개 고객사",
+    "price_factors": [
+      {
+        "factor": "반도체업황",
+        "detail": "글로벌 반도체 회복 시 장비 및 제어기 수요가 동반 성장하여 실적에 긍정적 영향을 미칩니다."
+      },
+      {
+        "factor": "설비투자(CAPEX)",
+        "detail": "전방 산업의 설비투자에 의존도가 있어 CAPEX 확대·축소가 실적 변동성으로 연결됩니다."
+      },
+      {
+        "factor": "지정학·물류",
+        "detail": "지정학 리스크와 에너지·물류비 변동은 제조업 투자심리에 영향을 주어 실적 불확실성을 키웁니다."
+      },
+      {
+        "factor": "스마트폰수요",
+        "detail": "스마트폰 출하량 정체는 성장 탄력을 제한하나 프리미엄 교체 수요는 일부 회복 요인이 됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 비메모리 반도체 설계기술을 이용하여 산업용 모터 제어 원천기술을 개발하고, 이를 ASIC/SoC 형태로 모션제어칩(Chip)화하고, 이들 칩을 사용하여 산업자동화 현장의 고객이 원하는 다양한 모션제어 모듈, 모션제어 시스템, 로봇제어기 제품을 자체 기술로 개발, 제조, 판매, 서비스하는 범용 모션제어 전문기업입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "■ 사업부문별 영업수익 구성 (FY2025)\n  - 제 품: 21,586,241 (98.2%)\n  - 용역: 448,184 (1.8%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 380여개 고객사에 범용(Commercial) 제품을 납품하고 있으며, 맞춤형/주문형(Customized) 고객으로는 ASM Korea(ASMK), 삼성전자(가전사업부), 세메스, 원익IPS, 쎄믹스 등이 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "본 산업은 전방산업의 설비투자(CAPEX)에 어느 정도 의존도를 가지며, 경기 민감도가 높은 특성이 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5679,
+    "completion_tokens": 4074,
+    "reasoning_tokens": 3072,
+    "output_tokens": 1002
+  },
+  "warnings": []
+}

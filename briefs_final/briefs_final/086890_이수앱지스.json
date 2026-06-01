@@ -1,0 +1,87 @@
+{
+  "stock_code": "086890",
+  "corp_name": "이수앱지스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 06:39",
+  "meta": {
+    "wics": "제약",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "이수앱지스는 제약사업이라는 단일 사업부문을 영위하는 제약회사로, 주요 매출품목으로 애브서틴·파바갈·클로티냅 등을 보유하고 있습니다. 2025년 매출액은 전년 대비 약 6% 감소한 567억원입니다.",
+    "business_model": "핵심 수익원은 제품매출로, 애브서틴(67.4%), 파바갈(17.4%), 클로티냅(9.3%) 등 특정 품목에 의존하는 구조이며 제품매출이 전체 매출의 큰 비중을 차지합니다(제품매출 533억원, 매출비중 94.0%).",
+    "main_customers": "제약사업 — 국내 의료기관·의약품 유통업체 및 해외 파트너(수출처)",
+    "price_factors": [
+      {
+        "factor": "제품집중",
+        "detail": "애브서틴 등 몇몇 품목에 매출이 집중되어 있어 특정 제품의 수요 변동이 실적에 바로 영향을 줍니다."
+      },
+      {
+        "factor": "임상리스크",
+        "detail": "임상·개발비 손상 발생 시(예: 클로티냅 관련 손상차손) 일시적 비용 인식으로 실적이 악화될 수 있습니다."
+      },
+      {
+        "factor": "글로벌성장",
+        "detail": "글로벌 제약시장 확대로 장기적 수요 확대가 가능하지만, 이는 치료 분야별 경쟁력에 따라 차별적 영향을 줍니다."
+      },
+      {
+        "factor": "제네릭경쟁",
+        "detail": "특허 만료 및 제네릭·바이오시밀러 경쟁 심화는 기존 제품의 시장점유율과 매출에 하방 압력을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "당사는 제약사업이라는 단일 사업부문을 영위중입니다."
+      },
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "2025년 매출액은 전년 대비 약 6% 감소한 567억원"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "애브서틴: 38,181 (67.4%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "파바갈: 9,836 (17.4%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "클로티냅: 5,262 (9.3%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "2015년에는 해외 초도 수출이 발생하였습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 업계의 현황 (1) 산업의 특성",
+        "evidence_text": "글로벌 제약시장 규모는 1.7조 달러('24년, 한화 2,464조원)"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "라. 자산손상",
+        "evidence_text": "해당 차액인 953백만원을 손상차손으로 인식하였습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4432,
+    "completion_tokens": 3838,
+    "reasoning_tokens": 2944,
+    "output_tokens": 894
+  },
+  "warnings": []
+}

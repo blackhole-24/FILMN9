@@ -1,0 +1,62 @@
+{
+  "stock_code": "092870",
+  "corp_name": "엑시콘",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 07:23",
+  "meta": {
+    "wics": "반도체와반도체장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "엑시콘은 반도체 검사장비(ATE, Automatic Test Equipment)를 개발·공급하는 기업으로, 메모리(DDR 계열) 테스트 장비와 SSD 테스트 장비, 번인(Burn-in) 테스터 등을 주력 제품으로 보유하고 있습니다. 고속·고용량 제품에 대응하는 장비 개발과 국산화 전략을 통해 국내외 반도체 제조사에 장비를 공급하고 있습니다.",
+    "business_model": "주요 사업은 반도체 검사장비(ATE) 판매로, FY2025 기준 반도체 부문이 영업수익의 89.3%를 차지합니다(반도체 부문: 58,933 (89.3%)). 제품별로는 DDR 시리즈 메모리 테스트 장비, SSD Tester, 고용량 번인테스터 등으로 수익을 창출하며 소프트웨어(S/W) 기술을 활용한 고성능 장비 공급을 핵심으로 합니다.",
+    "main_customers": "반도체 부문 — 메모리·SSD 제조업체(국내 및 중국·필리핀·태국·브라질 등 해외고객, Kioxia 등 포함)",
+    "price_factors": [
+      {
+        "factor": "SSD 수요",
+        "detail": "데이터센터·AI·서버용 SSD 수요 확대는 PCIe Gen5/Gen6 등 차세대 SSD Tester 매출에 긍정적 영향을 줍니다."
+      },
+      {
+        "factor": "CXL 도입",
+        "detail": "CXL 등 차세대 프로토콜의 상용화 시점(문서상 2026년말~2027년 상반기 전망)은 관련 검사장비 수요 확대 시점을 좌우합니다."
+      },
+      {
+        "factor": "비메모리 국산화",
+        "detail": "비메모리 테스트 시장의 외산 의존 구조는 국산 장비의 경쟁력 확보 시 시장점유율 확대 기회를 제공합니다."
+      },
+      {
+        "factor": "설비투자 특성",
+        "detail": "테스트 장비 산업은 초기 투자와 추가 설비투자가 수요를 결정하므로 반도체 생산 투자(캐파) 변동이 실적에 직접 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 회사의 현황 > 1) 영업개황",
+        "evidence_text": "당사는 반도체의 성능 및 신뢰성을 검사하는 반도체 검사장비 사업을 영위하고 있으며,"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "- 반도체 부문: 58,933 (89.3%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "나. 판매에 관한 사항 > 3) 판매전략 (가) 반도체 부문",
+        "evidence_text": "국내와 중국, 필리핀, 태국, 브라질 등 해외고객에게 제공해 나가고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4933,
+    "completion_tokens": 3869,
+    "reasoning_tokens": 3136,
+    "output_tokens": 733
+  },
+  "warnings": []
+}

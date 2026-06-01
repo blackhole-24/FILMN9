@@ -1,0 +1,69 @@
+{
+  "stock_code": "159010",
+  "corp_name": "아스플로",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 10:32",
+  "meta": {
+    "wics": "기계",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "아스플로는 2001년 설립되어 반도체 공정용 고청정 튜브를 국내 최초로 국산화한 이후 극청정 파이프, 밸브, 레귤레이터, 필터 등 반도체용 핵심 부품을 단품 및 모듈 형태로 공급하는 부품소재 전문기업입니다. 삼성전자·SK하이닉스 등 국내 반도체 제조사와 글로벌 장비사(AMAT) 대상 공급 실적을 보유하고 있으며, 2025년 연결기준 매출액은 679.2억원으로 전년대비 약 18.8% 감소했습니다.",
+    "business_model": "핵심 제품군은 튜브/파이프(강관류), 피팅, 밸브/레귤레이터, 디퓨저/필터 등으로, 극청정 표면처리·정밀가공·특수용접·금속분말 응용기술을 결합한 일괄 생산 체계를 통해 반도체 공정용 부품 및 모듈을 제조·공급합니다. 또한 글로벌 장비사에 대한 OEM 공급과 반도체 제조사·장비업체 대상 모듈형 제품 공급을 병행하며 제품 신뢰성(품질인증)과 생산능력 확보를 통한 경쟁력을 유지하고 있습니다.",
+    "main_customers": "튜브/파이프 — 반도체 제조사(삼성전자·SK하이닉스) 및 반도체 장비업체 / 피팅 — 반도체 제조사 및 장비업체 / 밸브/레귤레이터 — 반도체 제조사·장비업체(장비용 고부가가치 제품 대상) / 디퓨저/필터 — 반도체 제조사 및 장비업체 / 상품·기타 — 국내외 반도체 장비용 부품 제작업체",
+    "price_factors": [
+      {
+        "factor": "공급자 인증",
+        "detail": "주요 고객사의 공급자 품질인증(평가·등록) 필요로 인증 지연 시 수주·매출이 지연될 수 있습니다."
+      },
+      {
+        "factor": "검증기간",
+        "detail": "장기간의 신뢰성 평가 요구로 신규 제품·신규 고객 거래 시작까지 수년의 검증기간이 필요해 매출반영 시점이 늦어질 수 있습니다."
+      },
+      {
+        "factor": "설비투자 변동",
+        "detail": "주요 고객사의 설비투자(신규 FAB·라인 업그레이드) 선택적·집중적으로 이루어지면 수주·매출 변동성이 확대될 수 있습니다."
+      },
+      {
+        "factor": "원가·고정비",
+        "detail": "원자재 가격 상승 및 고정비 부담 증가는 수익성 악화로 이어질 가능성이 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "당사는 2001년 설립되어"
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황",
+        "evidence_text": "AMAT에 OEM 부품공급자로 등록되어 제품을 공급함"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "삼성전자에 중ㆍ소구경 시공부품을 공급하기 시작하여"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "시장경쟁현황",
+        "evidence_text": "공급자 품질인증 필요"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 5281,
+    "completion_tokens": 5344,
+    "reasoning_tokens": 4480,
+    "output_tokens": 864
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

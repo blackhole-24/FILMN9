@@ -1,0 +1,71 @@
+{
+  "stock_code": "046440",
+  "corp_name": "KG파이낸셜",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 02:13",
+  "meta": {
+    "wics": "IT서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "KG파이낸셜은 2000년 설립된 모바일결제 전문기업으로, 유무선 기반의 결제서비스를 바탕으로 성장해왔습니다. 2020년 KG올앳과의 합병을 통해 신용카드 PG(Payment Gateway) 사업에 본격 진출했으며, 약 27,500여개 가맹점과 계약(보통 1년, 자동갱신)을 유지하고 있습니다.",
+    "business_model": "핵심 사업은 전자결제(PG: Payment Gateway)로 당기 매출의 약 87.8%를 차지하고, 교육사업이 약 5.6%, IT사업 약 3.6%, 이러닝 약 3.1%를 구성합니다. 신용카드PG·휴대폰결제·선불카드 등 다양한 결제수단을 제공하며 24시간 운영 인프라를 통해 결제장애 대응과 가맹점 지원을 수행합니다.",
+    "main_customers": "전자결제사업부문 — 은행·카드사 등 금융기관 및 쇼핑몰(가맹점) / 교육사업부문 — 온라인 교육 이용 고객 / IT사업부문 — IT서비스 수요 고객 / 이러닝사업부문 — 이러닝 서비스 이용 고객",
+    "price_factors": [
+      {
+        "factor": "시장과점",
+        "detail": "신용카드·휴대폰 결제 시장의 상위 사업자 집중(상위3사 점유 높음)은 경쟁 강도와 수수료 환경에 영향을 줍니다."
+      },
+      {
+        "factor": "가맹점 확보",
+        "detail": "가맹점 수와 계약 유지(약 27,500개, 1년 자동갱신)는 매출 안정성에 직접 연결됩니다."
+      },
+      {
+        "factor": "통신사제휴",
+        "detail": "휴대폰결제 신규 진입의 어려움(이동통신사 파트너십 필요)은 기존 사업자의 시장 지위를 지지합니다."
+      },
+      {
+        "factor": "운영가용성",
+        "detail": "365일·24시간 운영 인프라와 장애대응체계는 서비스 가용성과 운영비용에 영향을 미칩니다."
+      },
+      {
+        "factor": "결제보안",
+        "detail": "휴대폰결제의 2중 보안 및 한도 운영(월 100만원 등)은 이용자 신뢰와 거래규모에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "유무선전화결제사업을 영위하기 위해 설립된"
+      },
+      {
+        "field": "business_model",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "신용카드PG(Payment Gateway)사업에 본격적으로 진출하였습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "1-1. 사업의 내용",
+        "evidence_text": "은행, 카드사 등 금융기관과 쇼핑몰, 소비자 사이에서"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "7-2. 산업의 성장성",
+        "evidence_text": "당사는 중위 사업자로 약 6%의 시장점유율을 보이고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5028,
+    "completion_tokens": 4848,
+    "reasoning_tokens": 4032,
+    "output_tokens": 816
+  },
+  "warnings": []
+}

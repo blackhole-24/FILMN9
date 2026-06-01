@@ -1,0 +1,67 @@
+{
+  "stock_code": "113810",
+  "corp_name": "디젠스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 08:45",
+  "meta": {
+    "wics": "자동차부품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "디젠스는 자동차용 배기계시스템의 핵심 구성품인 소음기(Muffler)를 개발·제조하는 단일 사업부문 회사입니다. 전방산업은 자동차 산업 및 자동차부품 산업으로, 자동차 제조사들과의 B2B 관계가 사업의 기반입니다.",
+    "business_model": "핵심 사업은 머플러(Muffler) 제조이며, [표] 가. 품목별 매출실적 기준으로 머플러 매출 비중은 100%입니다. 완성차업체에 OEM(주문자상표부착생산) 형태로 부품을 공급하며, 원재료 가격과 설계사양 변경이 납품단가에 영향을 미칩니다.",
+    "main_customers": "Muffler — 완성차업체(완성차에 OEM 방식으로 공급)",
+    "price_factors": [
+      {
+        "factor": "완성차 생산량",
+        "detail": "자동차 생산량 감소는 머플러 수요 축소로 실적에 직접적 영향을 미칩니다."
+      },
+      {
+        "factor": "원재료 가격",
+        "detail": "원재료 비용 변동이 납품단가에 반영되므로 원자재 상승 시 수익성에 부담이 될 수 있습니다."
+      },
+      {
+        "factor": "제품 모듈화",
+        "detail": "완성차업체의 모듈화 요구 확대는 기술·모듈 공급 능력에 따라 가격과 수익구조에 영향을 줍니다."
+      },
+      {
+        "factor": "설계·사양 변경",
+        "detail": "차종별 설계 변경 및 추가 사양 발생 시 단가 변동으로 매출에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 주요 제품 등의 현황",
+        "evidence_text": "당사는 현재 단일 사업부문(머플러제조)으로 운영되고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[표] 가. 품목별 매출실적",
+        "evidence_text": "제품 | Muffler | 80,356,641"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 산업의 현황 및 특성",
+        "evidence_text": "자동차 부품제조업체의 사업은 B2B 시장에서 자동차 생산량과 밀접한 연관성을 가지고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나. 주요 제품 등의 가격변동추이",
+        "evidence_text": "원재료의 가격 변동이 납품단가에 반영되기 때문에 정확한 변동 추이를 파악하기 어렵습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4343,
+    "completion_tokens": 4055,
+    "reasoning_tokens": 3392,
+    "output_tokens": 663
+  },
+  "warnings": []
+}

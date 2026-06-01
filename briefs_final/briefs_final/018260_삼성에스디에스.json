@@ -1,0 +1,67 @@
+{
+  "stock_code": "018260",
+  "corp_name": "삼성에스디에스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 22:16",
+  "meta": {
+    "wics": "IT서비스",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "삼성에스디에스는 IT서비스와 물류를 주력으로 하는 기업으로, 연결종속회사를 통해 두 개의 사업부문을 영위합니다. 2025년 연결기준 매출은 13조 9,299억원을 기록하였습니다.",
+    "business_model": "주요 사업은 IT서비스(클라우드·SI·ITO)와 물류로 구성되며, 2025년 기준 IT서비스가 전체 매출의 47.0%를 차지하고 물류가 53.0%를 차지합니다. IT서비스 내 클라우드는 전체 매출의 19.2%(CSP(Cloud Service Provider), MSP(Managed Service Provider), SaaS(Software as a Service) 등)를 차지하며, 생성형 AI와 GPUaaS(GPU as a Service) 등 AI 풀스택 역량을 성장 동력으로 삼고 있습니다.",
+    "main_customers": "IT서비스 — 기업 고객(기업향 클라우드·엔터프라이즈 SaaS·SI·ITO 수요) 및 공공기관·금융업종 / 물류 — 해상·항공·내륙·창고 운송 서비스를 이용하는 기업 고객(화주 등)",
+    "price_factors": [
+      {
+        "factor": "클라우드·AI 수요",
+        "detail": "클라우드와 생성형 AI 수요 확대시 클라우드 매출과 관련 서비스 이익이 증가합니다."
+      },
+      {
+        "factor": "해상운임·물동량",
+        "detail": "해상 운임 하락과 글로벌 물동량 감소는 물류 매출에 직접적인 하방 압력을 줍니다."
+      },
+      {
+        "factor": "파트너십·투자",
+        "detail": "글로벌 파트너십과 데이터센터 투자는 클라우드 사업의 성장 동력과 수익성에 영향을 미칩니다."
+      },
+      {
+        "factor": "특허·기술경쟁",
+        "detail": "AI·Cloud 관련 특허 확보는 경쟁사 대비 사업보호 및 기술경쟁력에 기여합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "MD&A",
+        "evidence_text": "2025년 연결기준 매출 13조 9,299억원을 기록"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 > 영업 현황",
+        "evidence_text": "당사가 제공하는 IT서비스는 크게 클라우드 서비스, SI, ITO의 3개 분야입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "클라우드 | 2,680,239(19.2%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "물류 | 7,386,380(53.0%)"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5190,
+    "completion_tokens": 4675,
+    "reasoning_tokens": 3968,
+    "output_tokens": 707
+  },
+  "warnings": []
+}

@@ -1,0 +1,62 @@
+{
+  "stock_code": "000440",
+  "corp_name": "중앙에너비스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 16:49",
+  "meta": {
+    "wics": "석유와가스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "중앙에너비스는 1946년 설립된 석유류 판매업체로, 1972년 SK에너지와 대리점 계약을 통해 휘발유·경유·LPG(액화석유가스) 등을 매입·판매해 왔습니다. 서울·경기·인천 지역을 중심으로 도매 및 직영 주유소 8개, LPG충전소 1개, 저유소 1개, 휴게소 1개를 운영하며, 연결 종속회사는 태양광 전기발전을 영위하고 있습니다.",
+    "business_model": "매출의 대부분은 유류 판매(유류판매부문外)가 차지하며, FY2025 기준 유류판매부문이 95.6%, 용역수익부문이 2.1%, 임대부문이 2.3%를 기록했습니다. 핵심 수익원은 주유소·충전소 등 판매망을 통한 고급휘발유·보통휘발유·경유·등유·LPG 공급이며, 연결 종속회사의 태양광 전기발전이 일부 사업 다각화 역할을 하고 있습니다.",
+    "main_customers": "유류판매부문 — 일반 고객 및 운수회사 / 용역수익부문 — 명시되지 않음 / 임대부문 — 명시되지 않음",
+    "price_factors": [
+      {
+        "factor": "대체에너지",
+        "detail": "태양광·원자력 등 대체에너지 개발로 석유 의존도가 장기적으로 낮아지면 유류 수요 감소에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "유가·환율",
+        "detail": "유가 및 환율 변동성 확대는 조달원가와 판매가격에 직접적인 영향을 미쳐 실적 변동성을 키웁니다."
+      },
+      {
+        "factor": "가격민감도",
+        "detail": "고객의 가격 민감도 증가로 유통업체 간 가격 경쟁이 심화되면 마진 압력이 발생할 수 있습니다."
+      },
+      {
+        "factor": "환경규제",
+        "detail": "정부의 환경 규제 강화는 제품 수요 구조와 운용비용에 변화를 초래할 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "당사는 1946년 10월 8일 석유류 판매등을 영업목적으로 설립되었으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "유류판매부문外: 47,416,744 (95.6%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "일반 고객 및 운수회사 등에 공급하고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4990,
+    "completion_tokens": 3593,
+    "reasoning_tokens": 2880,
+    "output_tokens": 713
+  },
+  "warnings": []
+}

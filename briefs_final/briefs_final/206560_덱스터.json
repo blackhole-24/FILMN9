@@ -1,0 +1,67 @@
+{
+  "stock_code": "206560",
+  "corp_name": "덱스터",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 11:50",
+  "meta": {
+    "wics": "방송과엔터테인먼트",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "덱스터는 VFX(시각특수효과)와 후반작업을 핵심으로 하는 올인원 종합콘텐츠스튜디오로, VFX·DI(색보정)·실감콘텐츠 등 7개 사업본부와 5개 계열회사로 구성되어 있습니다. 영상 전·후반 작업에 이르는 모든 라인업을 구축한 국내 선두 스튜디오입니다.",
+    "business_model": "주요 수익원은 영화·드라마·CF 등의 VFX 제작 수주와 후반공정 서비스이며, FY2025 사업부문별 영업수익 구성은 내수 25,416(97.9%), 덱스터 스튜디오 570(1.0%), 광고제작사업 579(1.0%)로 집계되어 있습니다. 또한 프로젝트 기획 단계에서 계약을 체결하고 수행 중 발생원가 범위에서 수익을 인식하는 방식으로 매출을 인식합니다.",
+    "main_customers": "VFX/후반공정 — 영화·드라마·CF 제작사(제작 수주처) / 콘텐츠 제작 — 방송사·OTT(콘텐츠 방영처) / 광고제작사업 — CF(광고) 제작 의뢰처 / 미디어아트 전시 — 일반 관람객",
+    "price_factors": [
+      {
+        "factor": "홀드백",
+        "detail": "국내 유통에서 최소 6개월 홀드백 인식은 극장·유통 회수 시점에 영향을 줘 실적 변동성을 키울 수 있습니다."
+      },
+      {
+        "factor": "흥행불확실",
+        "detail": "영화산업이 흥행작 중심(hit-driven) 구조라 흥행 성적에 따라 매출 변동성이 크게 나타납니다."
+      },
+      {
+        "factor": "투자회수",
+        "detail": "손익분기점을 넘기지 못하는 작품이 많아 투자 회수가 어려워지면 제작·제작수주 환경이 위축될 수 있습니다."
+      },
+      {
+        "factor": "OTT경쟁",
+        "detail": "글로벌 OTT·미디어 그룹의 구조 재편은 콘텐츠 유통·수익 구조에 영향을 미쳐 제작·판권 수익성에 변수로 작용합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "영상 전·후반 작업에 이르는 모든 라인업을 구축한 국내 선두 스튜디오입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성 (FY2025)",
+        "evidence_text": "내수: 25,416 (97.9%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황 > 가. 주요 제품",
+        "evidence_text": "주요 생산제품은 당사가 제작한 VFX (시각효과)가 포함된 영상 미디어라고 볼 수 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "국내에서는 최소 6개월의 홀드백이 필요하다는 인식이 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5030,
+    "completion_tokens": 3788,
+    "reasoning_tokens": 3008,
+    "output_tokens": 780
+  },
+  "warnings": []
+}

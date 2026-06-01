@@ -1,0 +1,67 @@
+{
+  "stock_code": "452190",
+  "corp_name": "한빛레이저",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 19:53",
+  "meta": {
+    "wics": "전기제품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "한빛레이저는 산업용 레이저 가공 장비를 개발·제조하는 기업으로, 자동차·이차전지·마이크로 일렉트로닉스 등 다양한 제조업 공정에 적용되는 레이저 솔루션을 제공합니다. 자체 소프트웨어와 비전(영상인식) 기술을 융복합한 맞춤형 장비 설계 역량을 보유하고 있습니다.",
+    "business_model": "주요 매출은 자동차(전기차) 제조장비(40.4%), 기타(반도체·전기전자) 제조장비(32.2%), 이차전지 제조장비(25.0%), 기타(2.4%)로 구성되어 있습니다. 자체 개발한 레이저 장비와 전용 S/W를 결합한 고객 맞춤형 공급, 자동화(대량생산)에 최적화된 솔루션 제공이 핵심 수익원입니다.",
+    "main_customers": "이차전지 제조장비 — 배터리 제조업체 / 자동차(전기차) 제조장비 — 완성차·자동차부품 업체 / 기타(반도체·전기전자) 제조장비 — 반도체·전기전자 제조사",
+    "price_factors": [
+      {
+        "factor": "전방경기",
+        "detail": "전방산업(이차전지·자동차·마이크로일렉트로닉스) 수요가 둔화되면 장비 주문이 감소하여 실적에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "기술수요",
+        "detail": "스마트팩토리 확산과 신소재 가공 수요 등 기술혁신은 장비 수요 확대를 촉진합니다."
+      },
+      {
+        "factor": "가격경쟁력",
+        "detail": "국산화로 원가절감이 가능할 경우 수입대체 효과로 가격경쟁력이 개선되어 수주에 유리하게 작용합니다."
+      },
+      {
+        "factor": "품질·안정성",
+        "detail": "고객은 가공품질과 장비의 안정성을 중시하므로 품질 우수성은 수주에 결정적 요인입니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 업계의 현황",
+        "evidence_text": "레이저가공의 최고의 장점은 첫번째 비접촉방식"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "자동차(전기차) 제조장비: 9,760,699 (40.4%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "나. 회사의 현황 > 1) 영업개황",
+        "evidence_text": "주로 자동차부품, 이차전지, 소재부품 등"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 업계의 현황 > 2) 산업의 성장성",
+        "evidence_text": "국내시장규모는 2023년 대략 1.7조원 정도로 예상하고 있으며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4810,
+    "completion_tokens": 6275,
+    "reasoning_tokens": 5504,
+    "output_tokens": 771
+  },
+  "warnings": []
+}

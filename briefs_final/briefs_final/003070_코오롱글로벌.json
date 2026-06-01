@@ -1,0 +1,71 @@
+{
+  "stock_code": "003070",
+  "corp_name": "코오롱글로벌",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 18:22",
+  "meta": {
+    "wics": "건설",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "코오롱글로벌은 주택 브랜드 '코오롱하늘채'와 '린든그로브' 등을 바탕으로 주택·건축, 토목·SOC, 환경 및 신재생에너지 등을 포괄하는 종합 건설업을 영위하는 기업입니다. 상사·레저·AM(자산관리) 등 다각적 사업포트폴리오를 통해 건설 중심의 계열 사업을 운영하고 있습니다.",
+    "business_model": "2025년 연결기준 영업수익 구성은 건설 85.7%, 상사 11.3%, 레저 2.8%, AM 0.2%로 건설부문이 핵심 수익원입니다. 건설부문은 주택·건축(브랜드 기반)과 토목·SOC, 환경(해외 상하수도 시공) 및 풍력 등 신재생사업을 포함하며, AM은 시설 운영·유지관리(FM) 중심의 자산관리 서비스를 제공합니다.",
+    "main_customers": "건설 — 주택·건축 발주처 및 공공 인프라 발주처(도로·교량·SOC 등) / 상사 — 철강·화학 등 주요품목의 수요처 / 레저 — 호텔·휴게소·식음료 이용 고객 및 골프·리조트 회원 / AM — 부동산 자산 소유자 및 시설 운영 수요처 (FM 서비스 대상)",
+    "price_factors": [
+      {
+        "factor": "정부정책",
+        "detail": "정부의 투자정책과 국토관리 정책이 건설수요를 좌우해 매출·실적에 직접 영향(공공 발주 변화에 민감)."
+      },
+      {
+        "factor": "주택시장 변동",
+        "detail": "주택 부문 비중이 큰만큼 금리·부동산 규제 등에 따른 분양률 저조와 수요 위축이 실적 변동성을 확대함."
+      },
+      {
+        "factor": "원가·금리",
+        "detail": "공사원가 상승 및 금리·금융여건 악화는 공사 수익성 저하와 프로젝트 파이낸싱 제약으로 이어짐."
+      },
+      {
+        "factor": "해외발주",
+        "detail": "중동·아프리카·동남아 등 해외 인프라 발주 증가로 수주 기회 확대가 실적에 긍정적 요인으로 작용할 수 있음."
+      },
+      {
+        "factor": "친환경수요",
+        "detail": "풍력 등 친환경 에너지 관련 발주 확대는 신재생 부문 수주와 장기 성장성에 영향을 미침."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "건설사업부문은 '코오롱하늘채'."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "- 건설: 2,301,244 (85.7%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "상사사업부문은 철강, 화학, 군수, 친환경 산업차량, 안전용품 그리고 생활가전 등이 주요품목입니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 1) 건설사업부문 (b) 산업의 성장성",
+        "evidence_text": "기반시설 및 풍력 에너지 생산 시설 개량등 발주 물량이 증가할 것으로 전망됩니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4995,
+    "completion_tokens": 4991,
+    "reasoning_tokens": 4096,
+    "output_tokens": 895
+  },
+  "warnings": []
+}

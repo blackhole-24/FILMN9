@@ -1,0 +1,73 @@
+{
+  "stock_code": "072950",
+  "corp_name": "빛샘전자",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 05:30",
+  "meta": {
+    "wics": "전자장비와기기",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "빛샘전자는 LED 전광판의 모듈화부터 전광판 제작까지 수직계열화된 제조기술을 보유한 전기·전자 장비 기업입니다. LED 디스플레이, 광통신 부품, 네트워크 장비, 솔더(납땜재)와 최근 인수된 방산사업 등 다각화된 사업구조를 바탕으로 다양한 산업용 제품을 공급하고 있습니다.",
+    "business_model": "핵심 사업부문은 LED사업부(전광판·모듈), 광통신사업부(광접속·분배 장치), 네트워크사업부(HFC·CATV 장비), 솔더사업부(납땜재)와 방산사업부(케이블 조립체·하네스)로 구성되어 있습니다. 최근 실적 기준으로 솔더부문과 방산부문이 큰 매출을 기록했고, 네트워크·LED·광통신 부문이 안정적 매출을 보이며 제조·시스템 구축과 소재 공급을 통해 수익을 창출하고 있습니다.",
+    "main_customers": "LED사업부 — 경기장 운영자·광고주·도로관리 기관 / 광통신사업부 — 국내 통신 3사(KT, SKT, LGU+) 및 해외 통신사업자 / 네트워크사업부 — LG헬로비전, SK브로드밴드, 딜라이브, CMB, ktHCN 등 SO(System Operator) / 솔더사업부 — 가전·자동차 전장·태양광·디스플레이·반도체 제조업체 / 방산사업부 — 방위산업 관련 수요처 및 수출시장",
+    "price_factors": [
+      {
+        "factor": "경기변동",
+        "detail": "광고·공공 인프라 투자 축소 시 LED 전광판 수요가 줄어 실적에 부정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "계절성·이벤트",
+        "detail": "스포츠 이벤트, 전시회, SOC 예산 집행 등 시기적 수요가 매출 변동을 유발합니다."
+      },
+      {
+        "factor": "국제경쟁(저가공세)",
+        "detail": "중국 등 저가 공세가 심화되면 고품질·차별화 제품 위주의 경쟁 압력이 증가합니다."
+      },
+      {
+        "factor": "원자재 가격",
+        "detail": "비철금속 등 원자재 가격 변동은 솔더사업부의 원가와 수익성에 직접적 영향을 줍니다."
+      },
+      {
+        "factor": "네트워크 인프라 수요",
+        "detail": "5G·클라우드 확산에 따른 네트워크 장비 수요 증가는 광통신·네트워크부문 매출에 긍정적입니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "[사업부문별 사업개요]",
+        "evidence_text": "당사는 LED 소자의 모듈화 및 전광판 제작까지 수직계열화 된 제조기술을 가진 회사이며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[경영진 실적·전략 요약 (MD&A)]",
+        "evidence_text": "솔더사업부는 전년 대비 22.5% 증가한 약 548억 원의 매출을 기록하며"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "[사업부문별 사업개요]",
+        "evidence_text": "국내 통신 3사(KT, SKT, LGU+)와 해외 약 50개국 통신사업자들에게 광케이블 보호, 절체, 연결용 자재를 공급하며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "[경영진 실적·전략 요약 (MD&A)]",
+        "evidence_text": "LED사업부의 매출액은 지난해 대비 6.8% 감소한 약 69억 원을 기록하였으며, 지속되는 시장 경쟁 심화가 주요 원인입니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4987,
+    "completion_tokens": 3790,
+    "reasoning_tokens": 2816,
+    "output_tokens": 974
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

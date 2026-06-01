@@ -1,0 +1,67 @@
+{
+  "stock_code": "213500",
+  "corp_name": "한솔제지",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 12:07",
+  "meta": {
+    "wics": "종이와목재",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "한솔제지는 한솔홀딩스(구 한솔제지)에서 제지사업부문을 이어받아 설립된 종합 제지기업으로, 인쇄용지·특수지·산업용지의 제조·판매와 환경플랜트 사업을 영위합니다. 감열지 생산능력 확대를 통해 국내 감열지 수요의 대다수를 공급하고 북미·유럽·남미·동남아 등으로 수출하고 있습니다.",
+    "business_model": "주요 수익원은 제지사업부문으로 2025년 매출의 65.71%를 차지하며(인쇄용지·특수지 포함), 산업용지·기타가 26.51%를 차지합니다. 환경사업부문은 공사(5.99%)와 운영 등(1.79%)으로 구성되며, 고수익·고성장 지종 확대와 나노셀룰로스(Duracle) 등 신소재 개발을 통해 제품 포트폴리오 고도화를 추진하고 있습니다.",
+    "main_customers": "제지사업부문 — 제지 가공업체·유통업체 및 해외 바이어(북미·유럽·남미·동남아) / 산업용지사업부문 — 의약품·제과·생활용품 제조업체 및 전자상거래·택배 관련 포장 수요자 / 환경사업부문 — 공공기관 및 EPC(설계·조달·시공) 발주처",
+    "price_factors": [
+      {
+        "factor": "관세·수출",
+        "detail": "미국 등 수출국의 관세 부과가 있으면 인력·수익성에 직접적인 악영향을 주며 특정 지역 손익이 악화됩니다."
+      },
+      {
+        "factor": "중국산 경쟁",
+        "detail": "산업용지·수출 시장에서 중국산 저가 경쟁이 심화되면 판가와 마진이 하락할 수 있습니다."
+      },
+      {
+        "factor": "원재료(펄프)",
+        "detail": "펄프 등 원재료 가격 변동은 인쇄용지·특수지의 판매가격과 이익률에 즉각적인 영향을 미칩니다."
+      },
+      {
+        "factor": "전자상거래 수요",
+        "detail": "홈쇼핑·전자상거래 성장으로 포장재 수요가 증가하면 산업용지 판매에 긍정적 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 영업 현황",
+        "evidence_text": "당사는 2017년 3월 1일자로 한솔아트원제지를 흡수 합병하였고,"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "매출비중(%) 65.71"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 영업 현황",
+        "evidence_text": "북미지역을 중심으로 유럽, 남미, 동남아시아 등 다양한 지역에 감열지를 수출하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "미국시장 상호관세 부과로 인하여 인쇄/감열지의 수익 악화"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5559,
+    "completion_tokens": 4420,
+    "reasoning_tokens": 3584,
+    "output_tokens": 836
+  },
+  "warnings": []
+}

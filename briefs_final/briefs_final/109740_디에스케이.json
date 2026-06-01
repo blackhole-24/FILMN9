@@ -1,0 +1,76 @@
+{
+  "stock_code": "109740",
+  "corp_name": "디에스케이",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 08:38",
+  "meta": {
+    "wics": "전자장비와기기",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "디에스케이는 1995년 2월 창업한 제조 기반의 기계·장비 기업으로, 주 사업장은 경기도 안산에 위치해 있습니다. 이차전지 장비, 카메라모듈 장비, FPD용 Bonding·In-line 시스템 등 정밀 메카트로닉스(기계+전자 공학) 장비를 주력으로 제조·공급합니다.",
+    "business_model": "2025회계연도 기준 제조부문 매출이 전체의 85.5%로 주된 수익원이며, 기타 부문이 4.8%를 차지합니다. 핵심 수익은 이차전지 제조장비와 디스플레이·카메라 모듈용 자동화·정밀장비의 제조·판매에서 발생하며, 고객 맞춤형(배터리·디스플레이 제조사 요구에 따른) 장비 개발 능력이 경쟁력입니다.",
+    "main_customers": "이차전지 장비 — 배터리 제조사(예: LG에너지솔루션, 삼성SDI, SK온 등) / 디스플레이 장비 — 디스플레이 패널 제조사(예: LG Display, 삼성전자 등) / 카메라모듈·FA 장비 — 모바일·카메라 모듈 제조업체 및 자동화 설비 도입 기업",
+    "price_factors": [
+      {
+        "factor": "전방수요(전기차·ESS)",
+        "detail": "전기차·ESS 등 전방 산업의 수요 확대가 이차전지 장비 수요로 직결되어 실적에 큰 영향을 미칩니다."
+      },
+      {
+        "factor": "정책·보조금",
+        "detail": "미국 IRA 개정이나 유럽·중국의 보조금 변화는 단기 수요 둔화와 불확실성 확대 요인으로 작용할 수 있습니다."
+      },
+      {
+        "factor": "고객 맞춤형 기술",
+        "detail": "배터리 제조사의 공정 특성에 맞춘 맞춤형 장비 개발 능력이 수주·매출 확보의 핵심 변수입니다."
+      },
+      {
+        "factor": "디스플레이 구매선 계열화",
+        "detail": "국내 디스플레이 업계의 구매선 계열화 경향은 장비 공급의 판로 제한 또는 확대 가능성에 영향을 미칩니다."
+      },
+      {
+        "factor": "원자재·원가 변동",
+        "detail": "원자재 가격 변동과 원가 구조는 매출 증가에도 불구하고 수익성에 직접적인 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 주요 제품 매출",
+        "evidence_text": "당사는 1995년 2월에 창업하여 31년의 업력이 있으며, 주 사업장은 안산 사업장(안산시 상록구)으로 이차전지장비, 카메라모듈장비, FPD(Flat Panel Display평판디스플레이)용 Bonding System 및 In-line System, Linear System, Probe, Laser System, 산업용로보트가 주요제품입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "제조부문: 36,934,517 (85.5%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "기타: 2,094,112 (4.8%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 사업부문별 현황(산업의 특성 등)(1) 이차전지 장비산업",
+        "evidence_text": "따라서 LG에너지솔루션, 삼성SDI, SK온 등 글로벌 배터리 제조업체와의 협업이 핵심이며, 선도 기업들과의 장기적인 파트너십 구축이 중요한 요소로 작용합니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 업계의 현황 (1) 이차전지 장비 산업",
+        "evidence_text": "다만, 2024~2025년 단기적으로는 미국 IRA 개정, 유럽·중국의 보조금 축소, 전기차 시장의 성숙기 진입 등으로 인해 수요 둔화 및 시장 불확실성 확대가 예상됩니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4790,
+    "completion_tokens": 4264,
+    "reasoning_tokens": 3200,
+    "output_tokens": 1064
+  },
+  "warnings": []
+}

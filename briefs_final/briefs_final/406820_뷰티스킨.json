@@ -1,0 +1,81 @@
+{
+  "stock_code": "406820",
+  "corp_name": "뷰티스킨",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 19:00",
+  "meta": {
+    "wics": "화장품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "뷰티스킨은 OEM/ODM 기반의 화장품 기업으로, 자체 생산시설과 브랜드·유통을 아우르는 Total-Value Chain(전 밸류체인)을 보유하고 있습니다. ㈜제이에스글로벌과의 합병을 통해 원진 브랜드를 편입하며 중국 시장 진출을 시작했고, 기존에 북미향 유통사업 경험도 보유하고 있습니다.",
+    "business_model": "FY2025 연결 기준 매출은 화장품 제품(55.8%), 화장품 상품(26.6%), 기타 매출(15.3%), 화장품 제조 임가공(2.3%)으로 구성되어 있습니다. 핵심은 자체 생산시설을 바탕으로 한 제조(OEM/ODM), 자사·인수 브랜드(원진·URIID) 운영 및 북미·중국 등 해외 유통을 통한 매출 창출입니다.",
+    "main_customers": "화장품 상품 — 온라인몰·오픈마켓·홈쇼핑 및 중국 유통 채널 / 화장품 제품 — OEM/ODM 의뢰기업 및 북미향 유통처 / 화장품 제조 임가공 — 타 화장품사(제조 의뢰 고객) / 기타 매출(주1) — 기타 유통·서비스 관련 고객",
+    "price_factors": [
+      {
+        "factor": "중국경쟁",
+        "detail": "중국 시장에서 일본·유럽 등 외국 브랜드의 진입이 늘면 매출 성장 속도 및 시장 점유율에 부담을 줄 수 있습니다."
+      },
+      {
+        "factor": "환율변동",
+        "detail": "달러 등 주요 통화 환율 변동은 해외 매출과 실적 변동성에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "위생허가",
+        "detail": "중국 CFDA(위생허가) 절차 진행 상황이 제품의 현지 판매 가능 시점과 매출 인식에 영향을 줍니다."
+      },
+      {
+        "factor": "유통구조",
+        "detail": "홈쇼핑 매출 기여도가 감소하는 등 유통 채널 구성 변화는 매출 믹스와 비용 구조에 영향을 미칩니다."
+      },
+      {
+        "factor": "제조인프라",
+        "detail": "자체 생산시설 보유 여부는 상품개발 역량과 제품 공급 안정성, 원가 경쟁력에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 회사의 현황",
+        "evidence_text": "당사는 '제조, 브랜드, 유통' 이라는 Total-Value Chain을 보유하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "화장품 제품: 30,643 (55.8%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 브랜드(율리아엘, URIID) ① 브랜드 개요",
+        "evidence_text": "네이버 스마트스토어 내 자사몰 런칭을 시작으로"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "목표시장 내 경쟁이 심화되고 있는 것 또한 사실입니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "당사는 글로벌 영업활동을 수행함에 따라 다양한 통화의 환율변동위험에 노출되어 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 관계회사 합병 계획에 관한 사항",
+        "evidence_text": "원진제품에 대한 위생 허가 절차가 진행 중에 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4092,
+    "completion_tokens": 5776,
+    "reasoning_tokens": 4864,
+    "output_tokens": 912
+  },
+  "warnings": []
+}

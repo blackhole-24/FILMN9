@@ -1,0 +1,66 @@
+{
+  "stock_code": "008250",
+  "corp_name": "이건산업",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 20:01",
+  "meta": {
+    "wics": "건축자재",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "이건산업은 합판과 마루제품을 제조·판매하고 목재 무역을 영위하는 목재종합건자재 전문회사로, 솔로몬군도와 칠레에 해외사업장을 보유하고 있습니다. 또한 바이오에너지사업을 영위하는 이건에너지(주)를 주요 자회사로 두고 있습니다.",
+    "business_model": "사업은 목재(합판·마루 등), 조림(원목·베니어), 에너지(열병합발전) 세 부문으로 구성되며, FY2025 기준으로 목재 85.9%, 조림 2.9%, 에너지 11.2%의 매출 비중을 차지합니다. 목재부문은 국내 건축용 자재와 마루제품 생산·판매가 핵심이고, 칠레법인을 통한 원재료 조달 및 수출 판로를 보유하며 에너지부문은 열·전기 판매로 수익을 창출합니다.",
+    "main_customers": "목재부문 — 건축자재 제조업체·주택건설업체 / 조림부문 — 원목·베니어 구매자(목재가공업체 등) / 에너지부문 — 계열사 및 인근공장·한국전력거래소",
+    "price_factors": [
+      {
+        "factor": "수입경쟁",
+        "detail": "동남아·중국 등 수입합판과 저가 대체재의 증가는 국내 판매와 마진에 압력을 줄 수 있습니다."
+      },
+      {
+        "factor": "대체재확산",
+        "detail": "PB·MDF·PVC 등 비교적 저가 소재의 확산은 합판·마루의 수요 구조에 영향을 미칩니다."
+      },
+      {
+        "factor": "원자재가",
+        "detail": "원목 가격 변동과 조림자원 확보 상황은 목재 부문의 원가와 수익성에 직접적 영향을 미칩니다."
+      },
+      {
+        "factor": "글로벌환경",
+        "detail": "지정학적 갈등·통화정책 불확실성 등은 에너지·원자재·인건비 상승으로 경영여건을 악화시킬 수 있습니다."
+      },
+      {
+        "factor": "칠레우위",
+        "detail": "칠레법인의 낮은 인건비와 다수의 FTA 체결은 수출 판로와 원가 경쟁력에 긍정적 요인입니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "목재종합건자재 전문회사"
+      },
+      {
+        "field": "business_model",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "목재부문이 85.9%, 조림부문이 2.9%, 에너지부문이 11.2%입니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "계열사 및 인근회사의 공장, 한국전력거래소 등에 판매하고"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5774,
+    "completion_tokens": 3536,
+    "reasoning_tokens": 2752,
+    "output_tokens": 784
+  },
+  "warnings": []
+}

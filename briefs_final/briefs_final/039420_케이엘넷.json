@@ -1,0 +1,66 @@
+{
+  "stock_code": "039420",
+  "corp_name": "케이엘넷",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 09:59",
+  "meta": {
+    "wics": "IT서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "케이엘넷은 물류 분야를 중심으로 전자문서중계서비스(EDI, 전자자료교환)를 기반으로 한 전자물류서비스를 제공하는 IT서비스 기업입니다. 여기에 시스템통합(SI), 솔루션 판매, IT아웃소싱까지 더해 물류IT 분야의 토털 서비스를 운영하고 있습니다.",
+    "business_model": "사업부문별 매출은 부가통신 27,001,010천원, SI 3,871,730천원, SM 11,729,212천원, 기타 481,456천원으로 구성됩니다. 이를 합치면 총 43,083,408천원이며, 비중은 부가통신 약 62.7%, SI 약 9.0%, SM 약 27.2%, 기타 약 1.1%입니다. 부가통신 부문은 EDI 서비스가 중심이고, SI는 정보시스템 설계·구축, SM은 정보시스템 운영·유지보수 중심의 아웃소싱(업무 외주) 서비스입니다.",
+    "main_customers": "부가통신 — 해운·항만 관련 물류기업, 관세청·출입국·검역소·철도공사 / SI — 해운·항만 물류관련 공공기관 및 일반기업 / SM — 물류관련 공공기관 및 기업 / 기타 — 본사 사옥 등 잔여 공간 임대 수요처",
+    "price_factors": [
+      {
+        "factor": "물동량",
+        "detail": "대정부 신고 분야(B2G) EDI 매출은 수출입 물동량 증감과 관련이 있어 해운·항만 물동량 변화가 실적에 영향을 줍니다."
+      },
+      {
+        "factor": "전산화",
+        "detail": "기업 간 전자거래 분야(B2B) 매출은 해운·항만 관련 물류기업의 전산화 정도가 높아질수록 확대될 수 있습니다."
+      },
+      {
+        "factor": "공공발주",
+        "detail": "공공시장의 전자정부 투자 계획과 대형 프로젝트 발주 여부가 SI·SM 매출 변동에 영향을 줍니다."
+      },
+      {
+        "factor": "경기변동",
+        "detail": "정보통신 산업은 기업의 설비 투자와 밀접해 국내외 경기변동에 영향을 받습니다."
+      },
+      {
+        "factor": "기술전환",
+        "detail": "EDI가 ebXML·웹 서비스 형태로 전환되는 흐름이 있어, 기술 변화에 맞춘 서비스 대응이 중요합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 업계의 현황",
+        "evidence_text": "물류분야를 중심으로 전자문서중계서비스(EDI)를 기반으로 한 전자물류서비스"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "부가통신 27,001,010 / SI 3,871,730 / SM 11,729,212"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 업계의 현황",
+        "evidence_text": "관세청, 출입국, 검역소, 철도공사에 통합된 서식의 전자자료교환"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4590,
+    "completion_tokens": 796,
+    "reasoning_tokens": 0,
+    "output_tokens": 796
+  },
+  "warnings": []
+}

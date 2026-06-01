@@ -1,0 +1,62 @@
+{
+  "stock_code": "377450",
+  "corp_name": "리파인",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 18:23",
+  "meta": {
+    "wics": "상업서비스와공급품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "리파인은 2000년 한국감정원 사내벤처로 출발해 2002년 독립법인으로 설립된 권리조사 전문회사로, RPA(로봇 프로세스 자동화)를 기반으로 부동산 금융 관련 비즈니스모델(BM)을 최초로 상용화한 기업입니다. 당기말 자산총계 2,349억원 등 견실한 재무구조를 유지하고 있습니다.",
+    "business_model": "핵심은 금융기관·보증기관 대상의 권리조사와 관련 서비스 제공으로, 전월세보증금대출 서비스가 전체 영업수익의 90.5%로 주력 수익원이며, 담보대출 서비스(4.6%), 전세보증금반환보증 서비스(4.5%), 기타 수수료(0.4%)가 뒤를 잇습니다. 내부 RPA 시스템과 특허 기반의 BM으로 권리조사와 통지·판매지원 업무를 지원합니다.",
+    "main_customers": "전월세보증금대출 서비스 — 금융기관·보증기관 / 담보대출 서비스 — 권리보험사·금융기관 / 전세보증금반환보증 서비스 — 위탁을 의뢰하는 기관(통지·판매지원 의뢰처)",
+    "price_factors": [
+      {
+        "factor": "시장점유구조",
+        "detail": "전세자금대출용 권리보험의 높은 점유율 변화는 매출 고정성에 직접 영향(전세자금대출용 비중이 압도적임)."
+      },
+      {
+        "factor": "권리보험제휴",
+        "detail": "8개 국내 권리보험사 및 외국계 협약으로 입찰·제휴 구조가 매출 기회 및 경쟁조건을 좌우합니다."
+      },
+      {
+        "factor": "입찰경쟁",
+        "detail": "대출 금융기관의 상품 선정을 입찰화하는 추세는 수주 경쟁력과 단가에 직접 영향합니다."
+      },
+      {
+        "factor": "법률·규제",
+        "detail": "민법·부동산등기법·개인정보보호법 등 관련 법령 변화는 권리조사 업무 범위 및 절차에 영향합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "III. 경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "당기말 자산총계는 2,349억원으로 전기 대비 532억원 증가하였습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "전월세보증금대출 서비스: 52,752,338 (90.5%)"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "점유비율로는 전세자금대출용 〉 저당권용 〉 임차권용 〉 소유권용 순입니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5473,
+    "completion_tokens": 4388,
+    "reasoning_tokens": 3648,
+    "output_tokens": 740
+  },
+  "warnings": []
+}

@@ -1,0 +1,62 @@
+{
+  "stock_code": "123750",
+  "corp_name": "알톤",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 09:25",
+  "meta": {
+    "wics": "레저용장비와제품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "알톤은 자전거 및 자전거 부품의 제조·판매를 주된 사업으로 영위하는 기업으로, 전기자전거 등 스마트 퍼스널 모빌리티 제품군을 포함한 다양한 자전거를 보유하고 있습니다. 최근 경영 체질 개선과 제품 경쟁력 강화로 외형 성장과 흑자전환을 달성하였다는 점을 사업보고서에서 밝히고 있습니다.",
+    "business_model": "주요 수익원은 레저부문으로, FY2025 기준 레저부문이 영업수익의 90.2%를 차지하며 기타 부문은 1.0%를 차지합니다. 제품 포트폴리오는 전기자전거(E-Bike), 공유자전거, 생활용 자전거, 경주용 자전거 및 특수 자전거 등으로 구성되며, A/S 네트워크 고도화와 스마트 퍼스널 모빌리티 라인업 확대를 통해 시장 변화에 대응하고 있습니다.",
+    "main_customers": "레저부문 — 개인 소비자(B2C) 및 공유 플랫폼·공공 수요(B2B/B2G) / 기타 — 보고서에 구체적 기재 없음",
+    "price_factors": [
+      {
+        "factor": "기술전환",
+        "detail": "전기자전거(E-Bike) 등 기술집약화가 가속화되면 제품 경쟁력과 개발·제조 비용 구조가 실적에 직접 영향을 미칩니다."
+      },
+      {
+        "factor": "경기·계절성",
+        "detail": "자전거 수요는 경기 변동과 계절적 요인에 따라 변동성이 커 매출과 수익성에 영향을 줍니다."
+      },
+      {
+        "factor": "공유수요",
+        "detail": "B2B·B2G 기반의 공유 모빌리티 수요 확대는 대규모 공급과 계약 기반 매출로 연결될 수 있습니다."
+      },
+      {
+        "factor": "정책지원",
+        "detail": "국가·지자체의 자전거 인프라 투자 및 탄소중립(예: Net-Zero) 기조는 중장기적 수요 확대 요인입니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 영업 현황",
+        "evidence_text": "당사는 자전거 및 자전거 부품 제조 및 판매 등을 주된 사업으로 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "레저부문: 29,020 (90.2%)"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 산업의 개요와 특성",
+        "evidence_text": "전기자전거(E-Bike)를 중심으로 한 기술적 첨단화가 가속화되며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4782,
+    "completion_tokens": 3142,
+    "reasoning_tokens": 2432,
+    "output_tokens": 710
+  },
+  "warnings": []
+}

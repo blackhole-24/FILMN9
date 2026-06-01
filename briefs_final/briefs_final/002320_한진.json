@@ -1,0 +1,92 @@
+{
+  "stock_code": "002320",
+  "corp_name": "한진",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 17:57",
+  "meta": {
+    "wics": "항공화물운송과물류",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "한진은 1945년 창립 이후 80년간 축적한 운송·물류 경험을 바탕으로 컨테이너 터미널, 물류센터, 택배 인프라를 운영하는 종합물류기업입니다. 국내 최대·최고의 컨테이너 터미널 운영사이자 택배 Mega-Hub 등 국내외 네트워크를 보유하고 있습니다.",
+    "business_model": "주요 사업은 물류(3PL 및 항만하역), 택배, 글로벌 포워딩 및 에너지 관련 사업으로 구성되며, FY2025 기준 매출 구성은 물류 22.8%, 택배 56.5%, 글로벌 11.6%, 에너지 9.1%로 택배 부문이 가장 큰 비중을 차지합니다. 물류부문은 컨테이너·벌크 하역·보관·운송과 정비서비스를, 글로벌부문은 통관·풀필먼트·해외 포워딩과 프로젝트 화물 토탈서비스를 제공합니다.",
+    "main_customers": "물류 — 산업재 제조사, 군·관(공공)기관, 소비재 기업 / 택배 — 개인 소비자(익일·새벽·당일 배송 이용자), B2B 셀러 / 글로벌 — 프로젝트 화물 의뢰 기업(스포츠·전시·기업 이전 등), 해외 진출을 원하는 국내 셀러 / 에너지 — (자료에 고객 유형 명시 없음)",
+    "price_factors": [
+      {
+        "factor": "물동량 변동",
+        "detail": "수출입 물동량과 내수 경기 변동에 따라 화물량이 줄어들면 실적에 직접 영향을 미칩니다."
+      },
+      {
+        "factor": "이커머스 성장",
+        "detail": "글로벌 이커머스와 국내 온라인 쇼핑 확대로 택배·풀필먼트 수요가 늘어나 실적에 우호적으로 작용합니다."
+      },
+      {
+        "factor": "경쟁 심화",
+        "detail": "대형 유통·제조업체의 물류 진출과 IT 기반 물류업체 간 경쟁 심화는 서비스 차별화와 비용구조에 영향을 줍니다."
+      },
+      {
+        "factor": "운임·원가",
+        "detail": "국제운임·원자재·물류 설비 비용 변동은 해상·육상 운송과 하역비용에 영향을 미쳐 수익성 변동 요인이 됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 물류사업",
+        "evidence_text": "1945년 창립이래 80년간 쌓아온 운송 노하우"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "가. 물류사업",
+        "evidence_text": "국내 최대·최고의 컨테이너 터미널 운영사"
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "물류: 544,210 (22.8%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "택배: 1,351,238 (56.5%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "글로벌: 277,444 (11.6%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "에너지: 216,689 (9.1%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 물류사업",
+        "evidence_text": "산업재부터 군/관수, 소비재까지"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "나. 택배사업",
+        "evidence_text": "일평균 214만Box의 택배화물을 소비자에게 전달하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 산업의 특성",
+        "evidence_text": "글로벌 이커머스 등 온라인 쇼핑 시장의 성장으로"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4585,
+    "completion_tokens": 4775,
+    "reasoning_tokens": 3712,
+    "output_tokens": 1063
+  },
+  "warnings": []
+}

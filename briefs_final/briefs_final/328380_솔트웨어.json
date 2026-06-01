@@ -1,0 +1,72 @@
+{
+  "stock_code": "328380",
+  "corp_name": "솔트웨어",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 16:35",
+  "meta": {
+    "wics": "IT서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "솔트웨어는 공공기관·대학·금융·제조·스타트업 등 다양한 분야의 정보시스템 구축 및 운영에 필요한 클라우드 기반 IT 서비스를 전문으로 제공하는 종합 IT서비스 기업입니다. HW/SW 인프라 구축과 통합 전산시스템 구축을 기반으로 자체 포털 솔루션(BIPS/enView)과 스마트팜 등 융복합 솔루션을 보유하고 있으며, AWS 공인 파트너로 클라우드 설계·구축·운영 전주기 서비스를 제공합니다.",
+    "business_model": "2025 회계연도 기준으로 용역 매출이 전체의 93.8%를 차지하는 서비스 기반 수익 구조이며, 시스템통합이 3.4%, 기타가 2.9%를 차지합니다(용역에는 AWS Cloud 판매/구축, 관리서비스, 인프라·솔루션 유지보수가 포함됨). 핵심은 클라우드(프라이빗·퍼블릭) 설계·구축·운영과 엔터프라이즈 포털·스마트팜 등 소프트웨어 솔루션 제공입니다.",
+    "main_customers": "용역 — 공공기관·대학·금융·제조·스타트업 / 시스템통합 — 공공·민간 기업 고객 / 기타 — 포털구축·스마트팜 관련 고객",
+    "price_factors": [
+      {
+        "factor": "클라우드 수요",
+        "detail": "클라우드 전환(프라이빗·퍼블릭) 수요가 늘면 용역(주수익) 매출이 직접 증가합니다."
+      },
+      {
+        "factor": "환율(달러)",
+        "detail": "AWS 등 해외 결제 비중이 있어 원/달러 환율 상승 시 비용 증가로 수익성에 부정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "데이터 플랫폼",
+        "detail": "비정형 데이터 증가로 통합 플랫폼·AI 연동 수요가 커지면 솔트웨어의 플랫폼·컨설팅 수주 기회가 확대됩니다."
+      },
+      {
+        "factor": "보안·컴플라이언스",
+        "detail": "금융·공공 고객 대상 보안·컴플라이언스 역량은 계약 수주 및 운영 유지에 중요한 경쟁 요소입니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 솔트웨어 사업개요",
+        "evidence_text": "클라우드 기반 IT 서비스를 전문적으로 제공하고 있는 종합 IT서비스 기업입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "용역: 59,708 (93.8%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. 솔트웨어 사업개요",
+        "evidence_text": "주1) AWS Cloud 판매/구축 매출, 관리서비스 매출, 인프라유지보수, 솔루션유지보수를 합산한 금액입니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 솔트웨어 사업개요",
+        "evidence_text": "공공기관, 대학, 금융, 제조, 스타트업"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "마. 시장여건 및 영업의 개황",
+        "evidence_text": "통합 플랫폼 수요가 가파르게 증가하고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4484,
+    "completion_tokens": 4423,
+    "reasoning_tokens": 3584,
+    "output_tokens": 839
+  },
+  "warnings": []
+}

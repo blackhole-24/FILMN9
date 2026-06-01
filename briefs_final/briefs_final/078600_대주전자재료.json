@@ -1,0 +1,67 @@
+{
+  "stock_code": "078600",
+  "corp_name": "대주전자재료",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 05:50",
+  "meta": {
+    "wics": "전자장비와기기",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "대주전자재료는 전자재료 분야에서 다양한 소재를 개발·생산하는 기업으로, 유·무기 재료를 포함한 기술집약적 산업에서 활동하고 있습니다. 연구개발(R&D)을 통해 전자부품·신재생에너지·자동차 전장 분야에 활용 가능한 소재를 공급하고 있습니다.",
+    "business_model": "사업부문별로 전자재료(42.5%), 태양전지전극재료(8.6%), 고분자재료(12.3%), 형광체재료(17.2%), 이차전지용음극재료(18.7%), 기타제품(0.7%)으로 구성되어 있으며, 전도성 페이스트·태양전지 페이스트·실리콘계 음극재 등 소재 공급이 핵심 수익원입니다.",
+    "main_customers": "전자재료 — 스마트폰·PC·노트북용 전자부품 제조업체(MLCC·칩콘덴서 등) / 태양전지전극재료 — 태양광 모듈 제조사 / 고분자재료 — 산업용 소재 수요업체 / 형광체재료 — 패키징업체 및 자동차 조명 제조사 / 이차전지용음극재료 — 이차전지(배터리) 제조사 및 전기차 배터리 업체 / 기타제품 — 기타 산업 고객",
+    "price_factors": [
+      {
+        "factor": "원자재(귀금속)",
+        "detail": "은(Silver), Pd, Pt 등 귀금속 가격 변동이 제품 원가와 판매가격에 직접적 영향을 줍니다."
+      },
+      {
+        "factor": "환율",
+        "detail": "USD·CNY 등 환율 변동이 해외 매출 및 외화표시 자산·부채의 가치에 영향을 미칩니다."
+      },
+      {
+        "factor": "수요 변동성",
+        "detail": "제품 라이프사이클이 짧고 고객 요구가 다양해 고객 일정 지연이나 시장 둔화가 매출에 즉각 반영됩니다."
+      },
+      {
+        "factor": "R&D·특허 경쟁",
+        "detail": "선행 특허와 기술 개발 수준이 제품 경쟁력과 시장 진입장벽을 좌우합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 전자재료 분야에서 다양한 소재를 개발·생산하는 기업으로"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "전자재료: 108,233 (42.5%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "다양한 칩 부품에 적용됩니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "(2) 주요 가격변동원인",
+        "evidence_text": "동 품목의 주요 원재료는 Silver, Pd, Pt 등의 귀금속입니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4556,
+    "completion_tokens": 4087,
+    "reasoning_tokens": 3328,
+    "output_tokens": 759
+  },
+  "warnings": []
+}

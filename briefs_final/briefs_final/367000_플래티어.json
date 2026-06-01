@@ -1,0 +1,73 @@
+{
+  "stock_code": "367000",
+  "corp_name": "플래티어",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 17:55",
+  "meta": {
+    "wics": "IT서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "플래티어는 2005년 설립된 엔터프라이즈 B2B 소프트웨어 전문기업으로, 버티컬 AI/DX(디지털전환) 솔루션을 바탕으로 이커머스·마케팅 등 기업 업무와 시스템을 설계·운영해온 경험을 보유하고 있습니다. AX Foundry라는 실행 구조를 통해 기업 환경에서 AI가 실제 업무를 수행하도록 연결하는 것을 핵심 정체성으로 삼고 있습니다.",
+    "business_model": "핵심은 'AX Foundry' 기반의 솔루션 포트폴리오로, Enterprise AX(기업형 에이전틱 AI), Commerce AX Engineering(이커머스 플랫폼 개발·운영), AI CX(생성형 AI 기반 커머스 경험), Intelligent DX(지능형 디지털전환·운영자동화) 등 4개 축으로 수익을 창출합니다. 제품(예: XGEN, X2BEE, genser, groobee, Matilda)과 맞춤형 IT서비스(프로젝트·온프레미스 연동)를 결합해 반복성 매출을 확대하는 구조를 지향합니다.",
+    "main_customers": "Enterprise AX — 엔터프라이즈 기업(레거시 시스템 보유 기업) / Commerce AX Engineering — 이커머스 기업·대형 플랫폼·B2B·버티컬 사업자 / AI CX — 온라인 쇼핑몰 운영자·리테일 기업 / Intelligent DX — 공공·금융·방산 등 보안·신뢰가 중요한 산업",
+    "price_factors": [
+      {
+        "factor": "온라인시장 성장",
+        "detail": "국내 온라인 쇼핑 거래액의 꾸준한 성장(연평균 상승)은 플래티어의 이커머스 솔루션 수요에 우호적으로 작용합니다."
+      },
+      {
+        "factor": "경쟁 재편",
+        "detail": "오픈마켓·종합몰 중심의 경쟁 재편과 중국 플랫폼의 진출은 고객의 플랫폼 전략 변화 및 가격경쟁 압력을 높일 수 있습니다."
+      },
+      {
+        "factor": "D2C·자사몰 확산",
+        "detail": "브랜드의 자사몰(D2C) 구축 증가로 맞춤형 커머스 솔루션 수요가 늘어나는 한편, 고객 획득 및 유지 방식의 변화가 사업 모델에 영향을 미칩니다."
+      },
+      {
+        "factor": "대형 고객 IT투자 변동",
+        "detail": "대형 고객사의 IT 투자 축소는 수주·매출에 단기적 영향을 줄 수 있어 실적 변동성 요인이 됩니다."
+      },
+      {
+        "factor": "엔터프라이즈 보안 수요",
+        "detail": "온프레미스·프라이빗 모델 등 보안 요구가 높아질수록 보안 중심 솔루션의 경쟁력이 실적에 긍정적 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 버티컬 AI/DX 솔루션을 제공하는 엔터프라이즈 B2B 소프트웨어 전문기업으로서"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "AX Foundry는 4개 사업 축으로 확장됩니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "다. 주요 제품 등의 상세 내용",
+        "evidence_text": "유연한 확장성을 통해 대형 플랫폼부터 B2B/버티컬 시장까지 신속하게 대응합니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나. 주요사업의 시장여건 및 영업의 개황",
+        "evidence_text": "국내 온라인 쇼핑 거래액은 해마다 꾸준히 증가하여"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 5238,
+    "completion_tokens": 3419,
+    "reasoning_tokens": 2496,
+    "output_tokens": 923
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

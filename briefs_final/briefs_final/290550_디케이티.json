@@ -1,0 +1,73 @@
+{
+  "stock_code": "290550",
+  "corp_name": "디케이티",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 15:15",
+  "meta": {
+    "wics": "핸드셋",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "디케이티는 2012년 6월 설립된 전자부품 제조기업으로, FPCA(Flexible Printed Circuit Assembly) 모듈을 개발·생산하여 스마트폰·웨어러블·자동차·배터리 관련 산업에 공급하고 있습니다. 베트남 생산체계 안정화 등을 통해 생산 경쟁력을 확보하고 있으며, 스마트기기용 및 자동차·BMS 응용시장 확대를 추진하고 있습니다.",
+    "business_model": "핵심 사업은 FPCA 모듈의 개발·생산으로, 주요 제품은 스마트폰·스마트와치·자동차 전장·BMS용 FPCA입니다. 생산은 고정밀 전자부품 실장(칩·MLCC 등)과 대규모 설비투자가 수반되는 제조 중심이며, 제품·상품·임가공 형태로 매출이 발생합니다.",
+    "main_customers": "스마트폰 FPCA — 스마트폰 제조업체(완제품 업체) / 스마트와치 FPCA — 웨어러블 제조업체 / 자동차 전장 FPCA — 완성차 업체 및 차량용 모듈 탑재사 / BMS FPCA — 배터리·ESS(에너지저장장치) 관련 제조업체",
+    "price_factors": [
+      {
+        "factor": "트렌드 변화",
+        "detail": "스마트폰 등 전방 기기 사양 변화에 민감하여 제품 트렌드(예: Y-OCTA 등)에 따라 수요와 ASP(평균판매단가)가 변동합니다."
+      },
+      {
+        "factor": "자동차 수요",
+        "detail": "완성차 판매·모델 채택 추이 및 정부 정책에 따라 자동차 전장부문 수요와 실적이 좌우됩니다."
+      },
+      {
+        "factor": "BMS·전기차",
+        "detail": "전기차·ESS 보급 확대와 배터리 규제 강화는 BMS 관련 모듈 수요에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "공급망 연계",
+        "detail": "휴대폰 제조업체의 글로벌 생산체제에 맞춘 SCM(공급망) 대응 능력이 공급계약 유지와 실적에 중요합니다."
+      },
+      {
+        "factor": "설비투자",
+        "detail": "FPCA 생산에는 고가 장비투자가 필요해 설비투자 규모와 수율 관리가 원가·이익률에 큰 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "당사의 주요 제품은 스마트폰, 스마트 와치 및 자동차 전장, BMS(Battery Management System)용 FPCA 모듈입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황",
+        "evidence_text": "FPCA는 FPCB에 MLCC, IC-Chip 등 각종 부품을 실장하여 전기적 신호 전달 및 제어 기능을 수행하는 핵심 전자부품 모듈로"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "다. 산업의 특성",
+        "evidence_text": "자동차 부품은 완성차 업체의 실적, 지역별 차량 판매량 변동과 밀접한 관계를 갖고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "다. 산업의 특성",
+        "evidence_text": "시장 트렌드 변화에 민감"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 5370,
+    "completion_tokens": 4670,
+    "reasoning_tokens": 3840,
+    "output_tokens": 830
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

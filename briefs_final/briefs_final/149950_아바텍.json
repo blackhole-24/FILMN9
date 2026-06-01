@@ -1,0 +1,71 @@
+{
+  "stock_code": "149950",
+  "corp_name": "아바텍",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:21",
+  "meta": {
+    "wics": "디스플레이장비및부품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "아바텍은 코팅 및 식각 기술을 활용해 디스플레이 관련 부품과 원재료를 공급하는 전기·전자 기업입니다. 주요 제품인 Glass Slimming, ITO코팅, Metal 코팅을 기반으로 디스플레이 산업과 연관된 사업을 영위하며, MLCC(적층세라믹콘덴서)도 함께 생산하고 있습니다. 사업보고서 기준으로 Display 사업부문과 MLCC 사업부문을 함께 운영하고 있습니다.",
+    "business_model": "아바텍의 사업은 제품 부문과 MLCC 부문으로 구성되며, FY2025 기준 제품이 72,370으로 89.4%, MLCC가 8,574로 10.6%를 차지합니다. Display 사업부문에서는 패널 Glass를 얇게 만드는 식각공정 후 ITO 코팅(도전막 형성)과 Metal 코팅(금속 증착)을 수행하고, MLCC 사업부문에서는 전장용·산업용·IT용 제품을 양산해 납품하고 있습니다. 즉, 디스플레이 소재·가공과 전자부품 공급이 함께 매출을 만드는 구조입니다.",
+    "main_customers": "Display — 휴대폰·TV·태블릿 PC 등 디스플레이 및 가전제품 생산 기업 / MLCC — 전자기기, IT, 자동차 전장, 신재생에너지 분야 고객사",
+    "price_factors": [
+      {
+        "factor": "디스플수요",
+        "detail": "디스플레이 산업은 경기변동에 민감해 스마트폰·TV·태블릿 수요와 패널 투자 흐름이 실적에 영향을 줍니다."
+      },
+      {
+        "factor": "기술경쟁",
+        "detail": "기술 및 자본 집약 산업이라 식각·코팅 기술과 생산 경쟁력이 높을수록 수주와 공급 확대에 유리합니다."
+      },
+      {
+        "factor": "패널투자",
+        "detail": "패널 업체들의 설비투자 확대와 가동률 조정은 부품·소재 수요를 흔들어 매출 변동 요인이 됩니다."
+      },
+      {
+        "factor": "OLED확대",
+        "detail": "OLED 패널 채용 확대는 디스플레이 산업 구조 변화와 맞물려 관련 부품·가공 수요에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "전장수요",
+        "detail": "MLCC가 자동차 전장과 신재생에너지 분야에 공급되므로 해당 산업의 수요 확대가 매출에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "코팅 및 식각 기술을 활용하여"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "제품: 72,370 (89.4%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "MLCC: 8,574 (10.6%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "휴대폰, TV, 태블릿 PC 등의 디스플레이 관련제품"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5209,
+    "completion_tokens": 810,
+    "reasoning_tokens": 0,
+    "output_tokens": 810
+  },
+  "warnings": []
+}

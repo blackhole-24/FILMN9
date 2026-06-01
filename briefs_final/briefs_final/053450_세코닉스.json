@@ -1,0 +1,71 @@
+{
+  "stock_code": "053450",
+  "corp_name": "세코닉스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 03:13",
+  "meta": {
+    "wics": "전자장비와기기",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "세코닉스는 핵심사업인 광학부문에 전념하는 기업으로, 차량용 카메라 렌즈·모듈·램프 등 전장 광학 제품에서 기술 경쟁력을 확보하고 있습니다. 2025년 연결 매출은 4,349억원으로 보고되었습니다.",
+    "business_model": "사업의 전부문이 광학부문으로 구성되어 있으며(25년도 매출비중: 광학부문 100.0%, 4,349억), 모바일용 카메라 렌즈와 차량용 카메라 렌즈·모듈, 차량용 램프 등을 주력 제품으로 합니다. 회사는 ADAS(첨단운전자보조시스템)용 카메라, DMS(운전자 모니터링 시스템) 광학부품 등 고부가가치 전장 제품과 고해상도·저조도 기술에 대한 R&D를 확대하고 있습니다.",
+    "main_customers": "전장(차량용 카메라·램프) — 주요 완성차 업체 / 모바일 광학 — 스마트폰 제조사 / 로봇·AI 광학 — 로봇·모빌리티 업체",
+    "price_factors": [
+      {
+        "factor": "ADAS 보급",
+        "detail": "ADAS·자율주행 확산은 차량당 카메라 채택 수를 늘려 차량용 광학 제품 수요를 확대합니다."
+      },
+      {
+        "factor": "원자재·환율",
+        "detail": "원자재 가격·환율·물류비 변동성은 매출원가와 수익성에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "스마트폰 수요",
+        "detail": "스마트폰 수요 둔화와 경쟁 심화는 모바일 광학의 단가와 수량에 부정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "공급망 변화",
+        "detail": "고객사 모델 전환 및 공급망 변화는 생산 조정과 납기·수주 타이밍에 영향을 줍니다."
+      },
+      {
+        "factor": "기술·신뢰성",
+        "detail": "고신뢰성·클린 공정 역량은 진입장벽으로 작용해 기술 우위를 가진 기업의 경쟁력을 유지시킵니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "나. 산업의 위치",
+        "evidence_text": "당사는 핵심사업인 광학부문에 전념하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "광학부문 ... 4,349억(100.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "전장 부문은 주요 완성차 업체의 전동화 및 ADAS 투자 기조와 차량 내 반도체 및 카메라 채용 확대에 힘입어 전반적으로 견조한 수요를 유지하였습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 산업의 특성",
+        "evidence_text": "원자재·물류비·환율 등 외부 변수에 따른 수익성 변동성이 큰 산업구조를 보입니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5366,
+    "completion_tokens": 3176,
+    "reasoning_tokens": 2368,
+    "output_tokens": 808
+  },
+  "warnings": []
+}

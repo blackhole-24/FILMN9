@@ -1,0 +1,83 @@
+{
+  "stock_code": "009970",
+  "corp_name": "영원무역홀딩스",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 09:47",
+  "meta": {
+    "wics": "섬유,의류,신발,호화품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "영원무역홀딩스는 2009년 7월 1일 회사 분할을 통해 지주회사로 전환된 기업으로, 다른 회사의 주식을 소유해 자회사를 지배하는 순수 지주회사입니다. 주요 수입원은 자회사로부터 받는 배당금, IT서비스 수수료, 임대료, 경영관리 수수료이며, 자회사들을 통해 제조·유통·브랜드·공단개발·투자 사업을 함께 운영하고 있습니다.",
+    "business_model": "영원무역홀딩스는 지주회사로서 자회사 지분을 보유하며 배당금수익과 경영관리 관련 수수료를 받는 구조입니다. 2025년 연결 기준 영업수익 153,579백만원 가운데 배당금수익이 130,354백만원, 기타가 23,225백만원을 차지했고, 영업이익은 123,082백만원이었습니다. 자회사인 영원무역은 OEM(주문자상표부착생산) 제조·수출을, 영원아웃도어는 노스페이스 리테일 사업을, KEPZ는 공단개발을 담당합니다.",
+    "main_customers": "지주회사 수익 — 자회사 / 제조 OEM — 해외 유명 바이어 / 브랜드·리테일 — 국내 노스페이스 브랜드 소비자 / 공단개발 — 신발·의류 생산 관련 기업 / 자전거 유통 — SCOTT 자전거 국내 수요처 / 투자사업 — 성장 잠재력 있는 스타트업",
+    "price_factors": [
+      {
+        "factor": "바이어오더",
+        "detail": "해외 바이어의 주문 증가 여부가 영원무역 OEM 사업의 매출과 이익에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "원가상승",
+        "detail": "방글라데시의 전기·가스 인프라 제약과 최저임금 인상은 생산원가를 높여 수익성에 부담이 될 수 있습니다."
+      },
+      {
+        "factor": "산업수요",
+        "detail": "아웃도어·스포츠 활동 관련 수요가 늘면 OEM 생산과 브랜드 리테일 사업 모두에 긍정적으로 작용합니다."
+      },
+      {
+        "factor": "경기불확실",
+        "detail": "글로벌 경제 불확실성과 전방산업 수요둔화는 오더 감소로 이어져 실적 변동성을 키울 수 있습니다."
+      },
+      {
+        "factor": "자전거수요",
+        "detail": "SCOTT 자전거 사업은 글로벌 자전거 시장 수요 둔화 여부에 따라 손익 개선 속도가 달라질 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "2009년 7월 1일 회사 분할을 통해 지주회사로서 존속"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "배당금, IT서비스 수수료, 임대료, 및 경영관리 수수료를 주 수입원"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "배당금수익 130,354 / 기타 23,225"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "사업회사인 ㈜영원무역을 통해 아웃도어 및 스포츠 의류"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "40 여개의 해외 유명 바이어들로부터"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "국내에서 노스페이스 브랜드 리테일 사업"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5902,
+    "completion_tokens": 978,
+    "reasoning_tokens": 0,
+    "output_tokens": 978
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

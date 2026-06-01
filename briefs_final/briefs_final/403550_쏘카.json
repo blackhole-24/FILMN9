@@ -1,0 +1,87 @@
+{
+  "stock_code": "403550",
+  "corp_name": "쏘카",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 18:54",
+  "meta": {
+    "wics": "도로와철도운송",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "쏘카는 '모든 사람이 자유롭고 행복하게 이동하는 세상을 만듭니다'라는 미션 아래 전국 단위의 카셰어링 사업을 영위하는 모빌리티 플랫폼 기업입니다. 2025년 연결 기준 매출액은 4,707억원이며, 단기카셰어링을 주력으로 국내 시장점유율 1위를 유지하고 있습니다.",
+    "business_model": "핵심 사업은 카셰어링(단기대여)이며, 월단위 구독형 서비스인 쏘카플랜과 플랫폼 주차 등 플랫폼 부문을 함께 운영합니다. 사업부문별 FY2025 영업수익 구성은 카셰어링 74.8%, 플랫폼 6.7%, 기타 18.5%로 카셰어링에 의존하는 구조이며(부문별 비중 포함), 쏘카플랜은 25년말 기준 약 3,900대의 차량을 운영하며 장·단기 차량을 유기적으로 전환해 차량 1대당 효율성(유닛 이코노믹스)을 높이고 있습니다.",
+    "main_customers": "카셰어링 — 운전면허를 보유한 개인(앱 가입자) / 쏘카플랜 — 월단위 구독 형태로 차량을 이용하는 개인 고객 / 플랫폼 부문 — 플랫폼 기반 주차서비스 이용자 및 관련 수요",
+    "price_factors": [
+      {
+        "factor": "법규·규제",
+        "detail": "여객자동차운수사업법 준수 여부와 P2P 방식 제한 등 규제 환경이 영업 범위와 사업 모델에 직접적 영향을 미칩니다."
+      },
+      {
+        "factor": "계절성·수요변동",
+        "detail": "날씨·휴일·계절과 경기 상황에 따라 이용률이 변동하여 매출과 실적에 단기적 영향을 줍니다."
+      },
+      {
+        "factor": "차량 운영효율",
+        "detail": "운영차량 수와 유닛 이코노믹스(차량 1대당 효율성)가 손익성에 직결되며 쏘카플랜의 차량 운영 규모가 수익성에 영향합니다."
+      },
+      {
+        "factor": "플랫폼·기술 경쟁",
+        "detail": "앱·IoT 기반 접근성(비대면 예약·스마트키 등)과 플랫폼 서비스 고도화가 이용자 확보와 비용구조에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 영업 현황",
+        "evidence_text": "당사는 '모든 사람이 자유롭고 행복하게 이동하는 세상을 만듭니다'라는 미션 아래, 전국 단위의 카셰어링 사업을 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "카셰어링 부문: 352,218 (74.8%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "플랫폼 부문: 31,352 (6.7%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "기타: 87,133 (18.5%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 2. 주요 제품 및 서비스",
+        "evidence_text": "공시서류 작성 기준일인 25년말 기준 약 3,900대의 차량을 운영하고 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 2. 주요 제품 및 서비스",
+        "evidence_text": "소비자는 운전면허증 및 결제카드를 등록하여 쏘카 회원가입을 완료한 후,"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 법규 및 정부 규제에 관한 사항",
+        "evidence_text": "「여객자동차운수사업법」을 준수하여야 합니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "라. 사업부문별 현황 > 경기변동의 특성 및 계절성",
+        "evidence_text": "날씨, 휴일, 계절과 같은 단기적 요인과 경제상황"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4913,
+    "completion_tokens": 4414,
+    "reasoning_tokens": 3328,
+    "output_tokens": 1086
+  },
+  "warnings": []
+}

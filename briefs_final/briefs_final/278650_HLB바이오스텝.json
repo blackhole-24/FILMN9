@@ -1,0 +1,72 @@
+{
+  "stock_code": "278650",
+  "corp_name": "HLB바이오스텝",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 14:49",
+  "meta": {
+    "wics": "생명과학도구및서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "HLB바이오스텝은 비임상 CRO(신약 후보물질의 동물실험을 통한 유효성·독성 평가)를 주력으로 하는 기업으로, 유효성 평가 서비스와 동물실험, 실험시설 구축, 반려동물 의약품 유통·연구개발 등을 영위하고 있습니다. 특히 중대동물(돼지, 비글 등)을 이용한 실험을 국내에서 독보적으로 많이 수행하며, 2024년 5월 GLP 독성시험 전문기업을 종속회사로 인수해 GLP 독성시험 제공 체계를 갖추게 되었습니다.",
+    "business_model": "사업부문별로 비임상CRO가 매출의 19.6%, 바이오인프라가 51.1%, 펫메디칼이 17.6%를 차지합니다. 비임상CRO는 유효성 평가(효과성 검증)와 동물실험을 중심으로, 바이오인프라는 실험실 구축·유지보수 및 시약·기자재 납품을, 펫메디칼은 자회사를 통한 동물의약품 유통 및 반려동물 의약품 공동개발을 핵심 수익원으로 하고 있습니다.",
+    "main_customers": "비임상CRO — 제약사·바이오벤처·신약개발업자 / 바이오인프라 — 바이오벤처·제약사(실험실 구축·기자재 수요) / 펫메디칼 — 동물병원·실험기관",
+    "price_factors": [
+      {
+        "factor": "첨단장비",
+        "detail": "LC-MS/MS, HPLC 등 첨단 분석장비 보유 수준에 따라 생체시료 분석·서비스 수주와 단가에 직접 영향이 있습니다."
+      },
+      {
+        "factor": "GLP확대",
+        "detail": "GLP 독성시험 제공 범위 확대로 예비독성에서 일반독성·면역독성·유전독성까지 수주 영역이 확대되어 실적에 긍정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "AI협력",
+        "detail": "HLB그룹과의 AI 신약개발 플랫폼 협력은 AI 기반 신약사와의 연구·투자 연계를 통해 중장기적 수요와 파이프라인 연계 기회를 늘릴 수 있습니다."
+      },
+      {
+        "factor": "시설수요",
+        "detail": "바이오벤처의 실험실 확장·최신화 수요가 클수록 실험실 구축·유지보수 및 기자재 납품 매출에 직접적인 영향이 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 물질의 효과성을 검증하는 유효성 평가 서비스를 주력으로 하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "- 비임상CRO: 14,548 (19.6%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "- 바이오인프라: 37,857 (51.1%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "- 펫메디칼: 13,001 (17.6%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "동물의약품 사업은 동물병원 및 실험기관을 대상으로 동물용의약품 및 기자재를 공급하는 사업입니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4016,
+    "completion_tokens": 6299,
+    "reasoning_tokens": 5376,
+    "output_tokens": 923
+  },
+  "warnings": []
+}

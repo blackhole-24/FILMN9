@@ -1,0 +1,77 @@
+{
+  "stock_code": "304840",
+  "corp_name": "피플바이오",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 15:45",
+  "meta": {
+    "wics": "건강관리장비와용품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "피플바이오는 혈액 기반 알츠하이머병 진단용 체외진단 의료기기를 개발·상용화한 제약(건강관리장비) 기업입니다. 당사는 세계 최초로 알츠하이머병 혈액검사를 상용화하였고 국내 주요 검진센터·의료기관 중심으로 검사 서비스 네트워크를 구축하고 있습니다.",
+    "business_model": "핵심 수익은 제품매출이며 FY2025 기준 제품매출이 90.1%로 가장 큰 비중을 차지하고, 상품매출 9.4%, 수출 0.5%, 기타매출 0.3%로 구성되어 있습니다. 주력 제품은 SI-MDS(Spiking & Incubation Multimer Detection System) 기술이 적용된 올리고머화 베타-아밀로이드(OAβ, AlzOn) 혈액검사로, ELISA(효소면역흡착검사법) 기반으로 고가의 분석장비 없이 검사 가능한 점을 특징으로 합니다.",
+    "main_customers": "제품매출 — 의료기관·건강검진센터·상급종합병원 / 수출 — 해외 파트너사(필리핀) / 상품매출 — 사업파트너와의 공급계약처",
+    "price_factors": [
+      {
+        "factor": "고령화",
+        "detail": "국내 고령화로 치매 환자 수가 증가하면 혈액 기반 조기진단 수요 확대가 실적에 긍정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "원천기술",
+        "detail": "MDS·SI-MDS 원천기술 및 특허는 경쟁우위 및 진입장벽으로 작용해 제품 차별화에 영향을 미칩니다."
+      },
+      {
+        "factor": "규제·인증",
+        "detail": "식약처 품목허가·CE·CE‑IVDR 등 인증 취득 여부가 해외시장 접근성과 매출 확대에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "가격구조",
+        "detail": "진단제품은 공정가격이 형성되지 않으며 사업파트너와의 공급계약에 따라 가격이 결정되어 수익성에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "당사는 세계 최초로 알츠하이머병 혈액검사를 상용화하고 있으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "제품매출: 4,012,600 (90.1%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "전국 1,000여 개 이상의 의료기관에 공급되며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "다. 회사의 현황(2) 기술의 확장성",
+        "evidence_text": "원천특허를 확보한 MDS 기술"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나. 주요 제품 등의 가격변동추이",
+        "evidence_text": "당사의 진단제품은 시장에서 형성되는 공정가격이 없으며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "다. 주요 제품 등 관련 각종 산업표준",
+        "evidence_text": "CE-IVDR 인증을 2025년 11월 최종 획득하였습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 6118,
+    "completion_tokens": 4916,
+    "reasoning_tokens": 4032,
+    "output_tokens": 884
+  },
+  "warnings": []
+}

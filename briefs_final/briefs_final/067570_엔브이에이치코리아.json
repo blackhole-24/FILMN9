@@ -1,0 +1,67 @@
+{
+  "stock_code": "067570",
+  "corp_name": "엔브이에이치코리아",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 04:56",
+  "meta": {
+    "wics": "자동차부품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "엔브이에이치코리아는 ODM(생산자개발방식) 방식으로 내장재 부품(HEADLINER, NVH부품, DOOR TRIM 등)과 엔진룸 흡차음재를 생산·공급하는 자동차부품 전문 기업이며, 국내외 법인을 통해 내장재 부문을 영위하고 있습니다. 2018년 클린룸 사업 진출, 2019년 교량거더 사업 인수, 2024년 전동화 사업부를 종속회사에 양도하는 등 사업 포트폴리오를 확장해 왔습니다.",
+    "business_model": "핵심 사업은 자동차 부품(내장재·NVH·엔진룸 흡차음재)과 환경에너지(클린룸·드라이룸 등)로 구성되며, FY2025 기준 매출 구성은 자동차 부품 43.3%, 환경에너지 18.2%이고 나머지는 인도 11.9%, 미국 11.5%, 폴란드 8.0%, 기타 7.0%, 중국 0.3%로 집계됩니다. 주요 수익원은 자동차 내장재 매출과 프로젝트 기반 환경에너지 사업이며, 해외법인을 통한 지역별 매출도 주요 비중을 차지합니다.",
+    "main_customers": "자동차 부품 — 자동차 제조사(ODM 납품처) / 환경에너지 — 반도체·디스플레이·바이오 클린룸 발주처(대형 사업주) / 해외법인(인도·미국·폴란드·중국) — 현지 내장재 부문 고객",
+    "price_factors": [
+      {
+        "factor": "완성차 수요",
+        "detail": "글로벌 자동차 판매 둔화 시 자동차부품(매출의 43.3%)에 직접적인 매출 영향이 발생합니다."
+      },
+      {
+        "factor": "전동화 변동성",
+        "detail": "전기차 시장의 불확실성은 전동화 사업의 구조 변화와 관련 투자·매출 변동을 초래할 수 있습니다."
+      },
+      {
+        "factor": "프로젝트수주",
+        "detail": "환경에너지 프로젝트는 사양·시공방법이 사업주별로 달라 가격·매출인식 변동성이 큽니다."
+      },
+      {
+        "factor": "클린룸 입찰",
+        "detail": "클린룸은 소수의 대형 발주처 중심 제한적 경쟁입찰 구조로 수주·수익성에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "ODM(생산자개발방식)으로 납품이 이루어지는"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "자동차  부품: 702,592,397 (43.3%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "해외법인은 내장재 부품 사업 부문을 영위하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "전후방 산업의 연관성이 매우 큽니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4756,
+    "completion_tokens": 4984,
+    "reasoning_tokens": 4160,
+    "output_tokens": 824
+  },
+  "warnings": []
+}

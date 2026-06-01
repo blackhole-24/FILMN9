@@ -1,0 +1,86 @@
+{
+  "stock_code": "950200",
+  "corp_name": "소마젠",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:49",
+  "meta": {
+    "wics": "생명과학도구및서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "소마젠은 NGS(차세대 염기서열 분석)와 CES(모세관 전기영동 시퀀싱)를 중심으로 유전체 분석 서비스를 제공하는 생명과학도구및서비스 기업입니다. 2025년 연결 재무제표 기준 매출 4,162만 달러를 기록해 회사 설립 이래 최대 매출을 달성했으며, 미국 정부기관과 재단 등으로부터의 대규모 프로젝트 수주가 실적을 이끌었습니다.",
+    "business_model": "주요 사업부문별 매출 구성은 용역 56.0%, CES 7.1%, DTC/Microbiome 29.2%, NGS 기타 7.7%입니다. NGS는 Whole-genome, RNA/Transcriptome, Single-cell analysis 등 다양한 분석을 수행하는 핵심 사업이고, CES는 정확성과 비용 효율성을 앞세운 시퀀싱 서비스입니다. DTC/Microbiome은 keanhealth.com 등 유통 채널을 통한 소비자 직접 유전자·장내미생물 검사 서비스로, 신규 사업 성격의 성장 축입니다.",
+    "main_customers": "용역 — 미국 정부기관, 마이클 J. 폭스 재단 등 대규모 프로젝트 발주처 / CES — 염기서열 검증이 필요한 고객 / DTC/Microbiome — 개인 소비자, keanhealth.com 및 유통 채널 이용 고객 / NGS 기타 — 연구기관, 임상 연구자, 대용량 유전체 분석 수요처",
+    "price_factors": [
+      {
+        "factor": "NGS수요",
+        "detail": "Next Generation Sequencing은 성장 단계에 있어 관련 분석 수요가 늘어날수록 매출 확대에 직접 영향을 줍니다."
+      },
+      {
+        "factor": "DTC성장",
+        "detail": "DTC(소비자 직접 의뢰) 유전자 검사 시장이 Introduction 단계에서 성장 중이어서 신규 고객 확대가 실적에 영향을 줍니다."
+      },
+      {
+        "factor": "대형수주",
+        "detail": "미국 정부기관 등으로부터의 대규모 프로젝트 수주 여부가 용역 매출 변동의 핵심 요인입니다."
+      },
+      {
+        "factor": "규제변화",
+        "detail": "DTC 유전자 검사와 LDT(실험실 자체 개발 검사) 관련 규제 변화는 사업 확장 속도에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "환율변동",
+        "detail": "미국 달러 매출을 원화로 전환하는 구조라 원/달러 환율 변동이 실적과 자본에 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "다. 사업의 세부내용 > MD&A",
+        "evidence_text": "2025년 연결 재무제표 기준으로 전기 대비 약 30% 성장한 4,162만 달러"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업분야 데이터 등급(tier) > 사업부문별 매출 구성",
+        "evidence_text": "■ 주요 사업부문 (비율 불명확)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업분야 데이터 등급(tier) > 사업부문별 매출 구성",
+        "evidence_text": "- 용역 - CES - DTC/Microbiome - NGS 기타"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "다. 사업의 세부내용 > MD&A",
+        "evidence_text": "미국 정부기관 및 마이클 J. 폭스 재단 등"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "Next Generation Sequencing의 라이프사이클은 한창 성장하고 있는 중인 Growth 단계"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "DTC 유전체 검사의 라이프사이클은 Introduction 단계"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "다. 사업의 세부내용 > MD&A",
+        "evidence_text": "원화에 대한 환율 10% 변동 시"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 5510,
+    "completion_tokens": 952,
+    "reasoning_tokens": 0,
+    "output_tokens": 952
+  },
+  "warnings": []
+}

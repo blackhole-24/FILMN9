@@ -1,0 +1,76 @@
+{
+  "stock_code": "039840",
+  "corp_name": "디오",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 01:16",
+  "meta": {
+    "wics": "건강관리장비와용품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "디오는 치과용 임플란트와 관련 의료기기를 주로 제조·판매하는 기업으로, 전 공정에 디지털 솔루션을 적용한 '풀 디지털 시스템'을 구축하여 차별화된 경쟁우위를 확보하고 있습니다. 2025년 연결기준 매출은 1,641억, 영업이익은 101억을 기록하였습니다.",
+    "business_model": "주요 수익은 제품(의료기기) 판매와 상품(유통용 의료기기) 판매로 구성되며, 제38기 기준 의료기기(제품)가 매출의 약 87.3%를 차지하고 상품이 약 12.7%를 차지합니다. 또한 수출 비중이 높아 제38기 합계 매출에서 수출이 전체의 약 83.6%를 차지하는 구조이며(수출 중심의 제조·수출 비즈니스), 연구개발(R&D) 투자로 제품경쟁력을 유지·강화하고 있습니다.",
+    "main_customers": "의료기기(제품) — 치과의원·치과병원(임플란트 시술자) / 상품(유통) — 국내외 의료기기 유통업체·딜러",
+    "price_factors": [
+      {
+        "factor": "원재료가격",
+        "detail": "티타늄 가격 상승(전년대비 18.5%↑)은 제조원가를 높여 영업이익에 직접적인 부담이 될 수 있습니다."
+      },
+      {
+        "factor": "수출 의존도",
+        "detail": "수출 비중이 높은 구조는 해외 수요·환율 변동에 실적이 민감하게 반응함을 의미합니다."
+      },
+      {
+        "factor": "경쟁 심화",
+        "detail": "국내 약 40여 개 제조업체 간 경쟁 심화와 공급 과잉은 제품 가격 하방 압력으로 수익성에 부정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "디지털 전환",
+        "detail": "풀 디지털 시스템 등 기술 경쟁력은 제품 차별화로 이어져 시장점유율과 마진에 긍정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "보험·수요 환경",
+        "detail": "지르코니아 보철 보험 적용(예정)·고령화 등은 장기적인 임플란트 수요 확대 요인으로 작용할 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 가. 사업부문별 영업 개황 및 산업분석",
+        "evidence_text": "당사는 전 공정에 디지털 솔루션을 적용한 ‘풀 디지털 시스템’을 구축하고 있는 대표적인 기업으로"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "소 계 | 143,311"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "소 계 | 20,767"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 3. 원재료 및 생산설비",
+        "evidence_text": "티타늄의 가격은 205,984원/kg 수준으로 전년대비 18.5% 상승하였으며"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "연결회사는 제38기말 기준 4,143백만원의 연구개발비용을 지출하고 있습니다.."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4744,
+    "completion_tokens": 5814,
+    "reasoning_tokens": 4928,
+    "output_tokens": 886
+  },
+  "warnings": []
+}

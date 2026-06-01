@@ -1,0 +1,67 @@
+{
+  "stock_code": "139990",
+  "corp_name": "아주스틸",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 10:03",
+  "meta": {
+    "wics": "철강",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "아주스틸은 1999년 10월 경상북도 구미시에 설립된 컬러강판(표면 가공을 통해 색상·무늬와 기능을 부여한 강판) 생산업체로, 가전·건축자재·자동차 부품 등 다양한 산업에 고품질 컬러강판을 공급하고 있습니다. Roll-to-Roll 디지털 프린팅 등 표면처리 기술을 바탕으로 고부가가치 제품을 제조합니다.",
+    "business_model": "사업부문별 영업수익은 건재가 42.6%로 가장 큰 비중을 차지하고, 생활가전 19.7%, 자동차 부품 7.5%, 기타 3.8%로 구성되어 있습니다. 건재 부문은 건축용 외장·내장재와 태양광 구조물 등을 원스톱 공급하는 설계·제조 역량을 바탕으로 성장하고, 생활가전 부문은 삼성전자·LG전자 등 가전사에 프리미엄 외장재를 공급하는 것이 핵심 수익원입니다.",
+    "main_customers": "생활가전 — 삼성전자·LG전자 등 가전업체 / 건재 — 건설사·건축 프로젝트(외장·내장) / 자동차 부품 — 자동차 제조사 및 부품업체",
+    "price_factors": [
+      {
+        "factor": "경기민감성",
+        "detail": "가전·건설 등 전방산업의 수요 변동에 따라 컬러강판 수요가 탄력적으로 변해 실적에 민감하게 영향을 줍니다."
+      },
+      {
+        "factor": "중국 저가 경쟁",
+        "detail": "범용재 시장에서는 중국산 저가재 유입으로 경쟁이 심화되어 가격·마진 압박이 발생할 수 있습니다."
+      },
+      {
+        "factor": "자본집약성",
+        "detail": "설비투자와 개보수 등 장기적 설비비용이 발생하여 투자 여부와 시기에 따라 비용구조에 영향이 있습니다."
+      },
+      {
+        "factor": "제품수명주기",
+        "detail": "가전제품의 짧은 제품수명주기(1~5년)에 맞춘 신모델 대응 능력이 공급 기회 및 수요 창출에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "1999년 10월 경상북도 구미시에 설립된 철강제조기업"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "건재: 289,323 (42.6%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "주요고객사인 삼성전자와 LG전자"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "사업의 내용(상세)가. 업계의 현황",
+        "evidence_text": "철강산업 역시 경기변동에 민감한 영향을 받습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4690,
+    "completion_tokens": 3407,
+    "reasoning_tokens": 2624,
+    "output_tokens": 783
+  },
+  "warnings": []
+}

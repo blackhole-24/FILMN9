@@ -1,0 +1,76 @@
+{
+  "stock_code": "476060",
+  "corp_name": "온코닉테라퓨틱스",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:47",
+  "meta": {
+    "wics": "제약",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "온코닉테라퓨틱스는 미충족 의료 수요가 큰 위산 유발 소화기질환과 항암 분야의 글로벌 혁신 신약을 연구개발하는 회사입니다. 저분자 화합물(Small molecule) 기반 신약에 집중하고 있으며, 국산신약 37호 자큐보정을 보유하고 있습니다.",
+    "business_model": "핵심 사업은 위산 유발 소화기질환 치료 신약 자큐보정(Zastaprazan)과 차세대 표적항암제 Nesuparib(JPI-547) 개발·상업화입니다. 사업부문별 매출 구성은 [제공된 FY최신 수치 기준] 매출 21,056,033이 50.0%, 합계 21,056,033이 50.0%로 제시되어 있으며, 회사는 기술이전(Milestone, 단계별 기술료) 수익과 제품 매출을 함께 확대하는 구조로 설명하고 있습니다. 자큐보정은 P-CAB(Potassium-Competitive Acid Blocker, 칼륨 경쟁적 위산분비 차단제) 기전의 신약입니다.",
+    "main_customers": "자큐보정 — 위식도역류질환·위궤양 환자 / Nesuparib — 항암 치료가 필요한 환자군 / 기술이전(Milestone) — 제약·바이오 협력사",
+    "price_factors": [
+      {
+        "factor": "GERD수요",
+        "detail": "위식도역류질환(GERD) 치료 수요가 장기적으로 유지되면 자큐보정 처방 확대와 실적 개선 기대가 커집니다."
+      },
+      {
+        "factor": "PCAB확산",
+        "detail": "빠른 약효와 복용 편의성이 강점인 PCAB 계열 처방 비중이 늘수록 자큐보정의 시장 침투 가능성이 높아집니다."
+      },
+      {
+        "factor": "특허기간",
+        "detail": "물질특허 존속기간 연장은 독점적 권리 기간을 길게 가져가게 해 제품 경쟁력에 중요한 영향을 줍니다."
+      },
+      {
+        "factor": "기술료변동",
+        "detail": "기술이전 수익은 계약 조건과 개발 단계에 따라 변동할 수 있어 실적의 변동성을 키울 수 있습니다."
+      },
+      {
+        "factor": "임상비용",
+        "detail": "다수 파이프라인이 임상 2상에 진입하면 임상 관련 비용이 늘어 수익성 지표가 흔들릴 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "미충족 의료 수요(Unmet medical needs)가 큰 위산 유발 소화기질환 및 항암 분야"
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. 주요 제품 등의 현황",
+        "evidence_text": "당사의 제품은 1) 위산 유발 소화기질환 치료 신약인 P-CAB기전의 자큐보정"
+      },
+      {
+        "field": "business_model",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "자큐보정 매출 및 기술이전(Milestone) 수익의 증가"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "위산 유발 소화기질환은 한국을 비롯하여 전 세계에 많은 환자가"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "다. 산업의 현황 및 전망",
+        "evidence_text": "국내 치료제 시장은 약 1조원 내외 규모"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 5206,
+    "completion_tokens": 917,
+    "reasoning_tokens": 0,
+    "output_tokens": 917
+  },
+  "warnings": []
+}

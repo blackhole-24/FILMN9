@@ -1,0 +1,71 @@
+{
+  "stock_code": "038290",
+  "corp_name": "마크로젠",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 09:58",
+  "meta": {
+    "wics": "생명과학도구및서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "마크로젠은 1997년 설립된 유전체 분석 기반 정밀의학 생명공학기업입니다. 전 세계 주요 도시별 지놈센터 거점을 바탕으로 유전체 분석 시장에서 사업을 이어가고 있으며, 2024년 기준 ESG평가에서 A등급을 획득했습니다.",
+    "business_model": "마크로젠의 핵심 사업은 유전체 분석 서비스로, 연결기준 매출의 88.95%에 해당하는 1,737억 원을 차지하며 전체 매출의 약 90% 수준을 담당합니다. 나머지는 Oligo합성 4.90%, Microarray 분석 3.66%, 유전자변형 마우스 0.83%, 기타 제품 및 상품 등 1.66%로 구성되어 있습니다. 유전체 분석은 CES(Capillary Electrophoresis Sequencing, 1세대 유전자분석)와 NGS(Next Generation Sequencing, 차세대 염기서열분석) 두 축으로 운영되고 있습니다.",
+    "main_customers": "유전체 분석 서비스 — 연구자, 병원, 임상진단 관련 고객 / Oligo합성 — 유전체 연구 및 분석 수요 고객 / Microarray 분석 — 유전체 분석 및 연구 고객 / 유전자변형 마우스 — 생명과학 연구기관 및 연구자",
+    "price_factors": [
+      {
+        "factor": "정밀의학",
+        "detail": "유전체 기반 맞춤 의료 수요가 커질수록 유전체 분석 서비스와 임상진단 관련 서비스 매출 확대에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "연구예산",
+        "detail": "주요 고객이 연구자 고객인 만큼 정부예산과 기관 지원금 규모가 수요와 매출 안정성에 영향을 줍니다."
+      },
+      {
+        "factor": "임상확대",
+        "detail": "연구용 중심에서 임상 시장으로 적용 범위가 넓어질수록 사업 범위와 고객층이 확대될 수 있습니다."
+      },
+      {
+        "factor": "데이터AI",
+        "detail": "유전체 데이터와 AI 결합 역량이 강화될수록 고해상도 분석 서비스와 플랫폼 사업 경쟁력에 영향을 줍니다."
+      },
+      {
+        "factor": "규제정책",
+        "detail": "유전자 분석 관련 법·제도와 정부 육성 정책 변화가 기업의 사업 확대 속도에 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "1997년 설립된 마크로젠은 유전체 분석 기반 정밀의학 생명공학기업"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "용역매출: 173,696,707 (89.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "Oligo: 9,565,530 (4.9%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "Microarray: 7,137,655 (3.7%)"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5611,
+    "completion_tokens": 790,
+    "reasoning_tokens": 0,
+    "output_tokens": 790
+  },
+  "warnings": []
+}

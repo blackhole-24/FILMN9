@@ -1,0 +1,69 @@
+{
+  "stock_code": "086710",
+  "corp_name": "선진뷰티사이언스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 06:37",
+  "meta": {
+    "wics": "화장품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "선진뷰티사이언스는 화장품 원료(소재) 제조를 전문으로 하는 기업으로, 자외선 차단 소재·마이크로비드·스킨케어 소재 등 다양한 기능성 소재를 생산합니다. 회사는 수출 지향적 구조로 2025년 기준 매출의 82% 이상을 해외에서 올리고 있으며, FDA의 NAI 등급 통과 등 국제 규제 대응 능력을 보유하고 있습니다.",
+    "business_model": "핵심 사업은 자외선 차단 소재(무기계 자외선 차단제 생산 및 유기계 차단제 캡슐화 가공), 마이크로비드(화장품 사용감 개선 소재), 스킨케어 소재(Hectorite·Aqua Series) 등 화장품 소재의 연구개발 및 제조·판매입니다. 또한 FDA 승인 원료를 바탕으로 OTC(일반의약품) 분류 제품 생산이 가능한 전용 공장을 통해 OEM/ODM(위탁생산·제조자개발생산) 사업을 확대하고 있습니다.",
+    "main_customers": "자외선 차단 소재 — 화장품 완제품 업체(자외선 차단제 제조사) / 마이크로비드·스킨케어 소재 — 화장품 제조사 및 OEM·ODM 파트너",
+    "price_factors": [
+      {
+        "factor": "미국 규제",
+        "detail": "미국의 유기계 자외선차단제 규제 확대로 무기계 자외선 차단 소재 수요가 상대적으로 증가할 수 있습니다."
+      },
+      {
+        "factor": "수출 의존",
+        "detail": "매출의 상당 부분(2025년 기준 82% 이상)이 해외에서 발생하므로 해외 수요와 무역 환경 변화에 실적이 민감합니다."
+      },
+      {
+        "factor": "진입장벽",
+        "detail": "화장품 기능성 소재는 효능·안전성 검증이 필요해 진입장벽이 높아 장기적 경쟁우위에 영향을 줍니다."
+      },
+      {
+        "factor": "글로벌 경쟁",
+        "detail": "글로벌 대형 소재업체(BASF, DSM, Symrise 등)와의 경쟁 속에서 기술력·인증 확보가 실적에 중요한 변수입니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "선진 뷰티사이언스는 화장품 소재 제조 전문 회사입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 2025년 기준 매출액의 82% 이상이 해외 수출입니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "부품소재 산업은 전형적인 B2B산업으로"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "유기계 자외선 차단제의 사용을 금지하기로 하였습니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4606,
+    "completion_tokens": 3977,
+    "reasoning_tokens": 3200,
+    "output_tokens": 777
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

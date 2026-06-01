@@ -1,0 +1,73 @@
+{
+  "stock_code": "145990",
+  "corp_name": "삼양사",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 10:21",
+  "meta": {
+    "wics": "식품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "삼양사는 식품부문과 화학부문을 주력으로 하는 기업으로, 식품은 설탕·밀가루·전분당·유지 등 식품소재를, 화학은 엔지니어링 플라스틱·PET 용기·이온교환수지 등 첨단소재를 생산합니다. 2026년 연결기준 매출액은 2조 5,625억원으로 전년 대비 감소했으며, 내수경기 침체와 석유화학 공급과잉 등으로 실적에 어려움이 있었습니다.",
+    "business_model": "사업은 식품부문과 화학부문으로 구분되며, 식품부문은 설탕·밀가루·전분당·유지 등 원재료·식품소재를 B2B(기업 간 거래)로 공급하는 것이 핵심입니다. 화학부문은 엔지니어링 플라스틱, PET 용기, 이온교환수지 등 중간재·고기능성 소재를 제조하여 전기·전자·자동차·의료 등 다양한 산업의 고객사에 공급하는 구조입니다.",
+    "main_customers": "식품부문 — 실수요업체(B2B) / 화학부문 — 전기·전자·자동차·의료 등 제조업체 및 음료·제병업체",
+    "price_factors": [
+      {
+        "factor": "원재료·환율",
+        "detail": "옥수수·원당·원맥 등 대부분을 수입하므로 국제 곡물가·해상운임·환율 변동이 매출원가와 수익성에 직접 영향합니다."
+      },
+      {
+        "factor": "석유화학 업황",
+        "detail": "석유화학 공급과잉 시 엔지니어링 플라스틱 등 화학제품의 가격·수요가 압박을 받아 실적에 부정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "계절성 수요",
+        "detail": "PET 용기 수요는 음료 성수기(3~9월)에 집중되므로 계절적 판매 변동이 실적에 반영됩니다."
+      },
+      {
+        "factor": "설비투자·진입장벽",
+        "detail": "대규모 초기 투자와 기술력 요구로 신규 진입이 제한되어 장기적 수익선 확보에는 유리하지만, 설비투자 부담이 재무에 영향줄 수 있습니다."
+      },
+      {
+        "factor": "규제·과징금 리스크",
+        "detail": "공정거래 관련 과징금 등 규제 이슈가 반영될 경우 일회성 비용으로 손익에 큰 영향을 미칠 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사 및 연결대상 종속회사의 사업은 크게 식품부문과 화학부문으로 나뉩니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "식품부문의 주요 제품으로는 설탕, 밀가루, 전분당, 유지 등이 있으며"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "실수요업체와의 직거래(B2B) 위주로 운영되고"
+      },
+      {
+        "field": "financials",
+        "source_section": "MD&A",
+        "evidence_text": "내수경기 침체와 석유화학 공급과잉이 지속되면서 어려움이 많았고"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4731,
+    "completion_tokens": 4220,
+    "reasoning_tokens": 3328,
+    "output_tokens": 892
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

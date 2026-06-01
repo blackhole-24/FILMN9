@@ -1,0 +1,78 @@
+{
+  "stock_code": "003100",
+  "corp_name": "선광",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 18:24",
+  "meta": {
+    "wics": "운송인프라",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "선광은 1948년 창립된 종합물류기업으로, 인천·군산·평택 등을 거점으로 하역·보관·운송 서비스를 제공하는 항만하역 전문 기업입니다. 연결기준으로 싸이로(곡물 저장)와 컨테이너 터미널 등 시설을 보유한 종속회사들과 함께 운영되고 있습니다.",
+    "business_model": "사업부문은 크게 하역사업과 임대사업으로 구성되며, 하역사업은 싸이로 하역(양곡 전용 터미널), 컨테이너 하역, 일반 하역 등 품목별로 세분화되어 수출·입 화물의 하역·보관·운송 서비스를 제공합니다. 임대사업은 보유 터미널·창고 등 시설을 기반으로 한 임대수익이 일부를 구성합니다.",
+    "main_customers": "하역사업 — 수입·수출 화물의 화주(곡물·컨테이너·일반화물) / 임대사업 — 시설 임차자(원문에 구체적 고객 미기재)",
+    "price_factors": [
+      {
+        "factor": "물동량",
+        "detail": "국내외 경기변동에 따른 수출·입 물동량 감소는 하역 물량과 매출에 직접적인 하방압력으로 작용할 수 있습니다."
+      },
+      {
+        "factor": "국제환경",
+        "detail": "탈세계화·보호무역·지역적 긴장 고조 등 대외불확실성은 글로벌 교역 흐름을 흔들어 운임·물동량 변동성을 높일 수 있습니다."
+      },
+      {
+        "factor": "비용구조",
+        "detail": "인건비 및 운반비 등 비용 상승 시 영업이익률을 압박할 가능성이 있습니다."
+      },
+      {
+        "factor": "설비경쟁력",
+        "detail": "싸이로·컨테이너 터미널 등 대형·자동화 설비 보유는 생산성 우위로 이어지지만, 설비투자·유지비 부담도 존재합니다."
+      },
+      {
+        "factor": "시장진입구조",
+        "detail": "TOC 등 부두운영제도와 등록·허가 구조는 신규진입을 제한해 시장 경쟁구도가 고착될 경우 가격·수익성에 영향을 미칠 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 영업 현황",
+        "evidence_text": "당사는 1948년 창립이래"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 2. 주요 제품 및 서비스",
+        "evidence_text": "연결회사의 사업 부문은 크게 하역사업과 임대사업으로 구성되어 있으며"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 영업 현황",
+        "evidence_text": "화주들에게 수입 양곡 화물의 하역, 보관서비스를 제공하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 가. 시장여건 및 영업의 개황 (3) 경기변동의 특성",
+        "evidence_text": "항만하역사업은 국내 경기변동에 따른 수출ㆍ입 물동량의 변화에 따라 영향을 받는 산업"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 경쟁 환경 및 시장 특성 (6) 회사의 경쟁우위요소",
+        "evidence_text": "총 94만톤의 곡물 일시 저장 능력을 갖추었습니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4854,
+    "completion_tokens": 4539,
+    "reasoning_tokens": 3648,
+    "output_tokens": 891
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "stock_code": "148150",
+  "corp_name": "세경하이테크",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 10:23",
+  "meta": {
+    "wics": "핸드셋",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "세경하이테크는 2006년 설립된 필름 전문기업으로, 사출필름을 시작으로 광학필름, 데코필름, 폴더블 특수보호필름 등 기능성 필름을 제조·판매합니다. 경기도 수원에 국내 사업장(1공장·2공장)과 베트남 자회사 등을 보유하며 국내외 스마트폰·디스플레이 업체를 주요 고객으로 확보하고 있습니다.",
+    "business_model": "핵심은 스마트폰·디스플레이용 기능성 필름(사출필름, 광학필름, 데코필름, PCPMMA, 폴더블특수보호필름) 제조 및 공급으로, 연구개발(R&D)과 현지 생산기지(베트남 등)를 통한 고객 대응을 강조합니다. 사업부문별 매출 구성은 34.87%, 37.59%, 27.49%, 0.05%로 표기되어 있습니다.",
+    "main_customers": "기능성 필름(광학·폴더블 등) — 국내외 스마트폰 제조사 및 디스플레이 업체 / 사출필름(범용품) — 고객사 내 주요 벤더",
+    "price_factors": [
+      {
+        "factor": "기술 민감성",
+        "detail": "디스플레이·스마트폰은 고부가·기술집약 산업으로 기술 진화에 따라 제품 교체주기와 수익성에 민감하게 반응합니다."
+      },
+      {
+        "factor": "폴더블 수요",
+        "detail": "폴더블 스마트폰·기기의 확대는 당사의 폴더블 특수필름 수요 증가로 실적에 직접 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "환율·수출",
+        "detail": "전방산업의 수출 의존도로 인해 환율 변동이 매출 및 수익성에 간접적인 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "고객 단가압박",
+        "detail": "고객사의 완제품 사양 변경 및 판가 인하 요구 등으로 제품 가격과 수익성 변동 위험이 존재합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 가. 사업의 내용",
+        "evidence_text": "2006년 1월에 설립하여 사출필름 생산을 시작으로"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 가. 사업의 내용",
+        "evidence_text": "국내외 스마트폰 제조사 및 디스플레이 업체를 주요 고객사로 확보하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "34.87%, 37.59%, 27.49%, 0.05%"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 가. 사업의 내용",
+        "evidence_text": "2019년부터 독점 공급하고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5070,
+    "completion_tokens": 3692,
+    "reasoning_tokens": 2944,
+    "output_tokens": 748
+  },
+  "warnings": []
+}

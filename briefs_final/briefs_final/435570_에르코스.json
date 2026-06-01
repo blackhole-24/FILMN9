@@ -1,0 +1,67 @@
+{
+  "stock_code": "435570",
+  "corp_name": "에르코스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 19:35",
+  "meta": {
+    "wics": "식품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "2014년 5월 설립된 ㈜에르코스 농업회사법인은 영유아식품을 출발점으로 대체식품·고령친화식품 등으로 사업을 확장해 온 푸드테크 기업입니다. 대표 브랜드 '루솔'을 중심으로 이유식·유아반찬·베이커리 등을 생산하며 온가족 푸드솔루션(고른 영양과 편한 섭취를 위한 돌봄 식단)을 지향합니다.",
+    "business_model": "사업부문별로 영유아식품(50.7%), 대체식품(3.7%), 고령친화식품(0.7%), 기타(6.1%), 상품(38.8%)로 구성되어 있으며, 영유아식품이 핵심 수익원입니다. 온라인(쿠팡, 11번가, 지마켓 등) 중심의 D2C·오픈마켓 유통과 함께 오프라인·해외 수출 채널을 통해 매출을 다각화하고 있습니다.",
+    "main_customers": "영유아식품 — 영유아 부모·일반 소비자(온라인·오프라인 유통) / 대체식품 — 일반 소비자(B2C) 및 향후 B2B 파트너 / 고령친화식품 — 일반 소비자(B2C) 및 향후 B2B 파트너",
+    "price_factors": [
+      {
+        "factor": "품질·안전",
+        "detail": "영유아식품은 소비자의 품질·안전 민감도가 높아 품질 문제 발생 시 매출과 브랜드 신뢰도에 직접적 영향이 발생합니다."
+      },
+      {
+        "factor": "유통채널",
+        "detail": "온라인(오픈마켓·플랫폼)과 오프라인·홈쇼핑 등 채널 확장 정도가 제품 노출과 매출 증감에 영향을 미칩니다."
+      },
+      {
+        "factor": "해외수출",
+        "detail": "중국·동남아 등 수출국 확대는 추가 수요 확보로 실적에 기여할 수 있으나 지역별 유통정책과 가격정책에 민감합니다."
+      },
+      {
+        "factor": "신제품·원료",
+        "detail": "실크단백질 등 기능성 원료 적용과 대체식품(국산 TVP 등) 기술투자는 제품 경쟁력과 원가구조에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 사업의 개요",
+        "evidence_text": "'온가족 푸드솔루션'을 제공하는 푸드테크 기업입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "영유아식품: 18,071 (50.7%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "7-3. 시장여건 및 영업의 개황 (1) 국내영업",
+        "evidence_text": "B2C를 시작으로 B2B 채널까지 영업영역을 확장해 나가고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "2-1. 주요 제품 (1) 영유아식품",
+        "evidence_text": "영유아식품은 제품의 안전성, 품질에 대한 소비자의 민감도가 높은시장으로"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5872,
+    "completion_tokens": 5056,
+    "reasoning_tokens": 4224,
+    "output_tokens": 832
+  },
+  "warnings": []
+}

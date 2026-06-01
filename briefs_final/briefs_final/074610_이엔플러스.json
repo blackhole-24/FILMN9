@@ -1,0 +1,87 @@
+{
+  "stock_code": "074610",
+  "corp_name": "이엔플러스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 05:37",
+  "meta": {
+    "wics": "기계",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "이엔플러스는 소방자동차(특장차)와 2차전지용 방열제품을 주력으로 하는 기업으로, 국내 소방자동차 시장에서 많은 물량을 생산·판매하고 있습니다. 소방차 분야에서 세계 최초 수준의 방수 압력조절시스템 기술을 보유하는 등 기술 개발에도 집중하고 있습니다.",
+    "business_model": "매출은 소방부문(소방차)이 70.58%, 2차전지(방열제품 등)가 29.42%로 구성되어 있으며(사업부문별 매출 구성), 소방차는 공공 입찰(경쟁입찰)에 선별적으로 참여해 납품하는 방식이 핵심 수익원입니다. 해외 영업을 통해 수출도 진행하고 있으며, 제품별로는 소방펌프차·물탱크차·화학차·구조공작차 등 다양한 특장차와 2차전지용 방열제품을 판매합니다.",
+    "main_customers": "소방부문 — 조달청·소방본부 등 정부 및 공공기관 / 2차전지 — (보고서에 특정 주요 고객 미기재)",
+    "price_factors": [
+      {
+        "factor": "정부예산",
+        "detail": "주요 수요처가 정부·공공기관이므로 예산 편성 변화가 매출(입찰 수주)과 교체 시점에 직접적 영향을 줍니다."
+      },
+      {
+        "factor": "법규강화",
+        "detail": "소방법 개정 등 규제 강화는 소방장비의 수요 증가로 연결될 수 있어 실적에 영향을 미칩니다."
+      },
+      {
+        "factor": "교체주기",
+        "detail": "소방차의 교체주기가 10~20년으로 길어 교체 시점에 따른 변동성(시기 집중)이 실적 변동 요인이 됩니다."
+      },
+      {
+        "factor": "가격경쟁",
+        "detail": "국내 시장은 가격 경쟁력이 중요한 시장이어서 원가·단가 관리가 수익성에 큰 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 소방부문 (2) 시장점유율",
+        "evidence_text": "현재는 국내 소방자동차 시장에서 가장 많은 차량을 생산/판매하고 있습니다."
+      },
+      {
+        "field": "company_overview",
+        "source_section": "가. 소방부문 (1) 사업의 내용",
+        "evidence_text": "소방차 방수 압력조절시스템의 경우 세계 최초 기술을 개발하였고"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[표] (1) 주요 제품  현황",
+        "evidence_text": "소방부문 | 20,762,799,163 | 70.58"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[표] (1) 주요 제품  현황",
+        "evidence_text": "2차전지 | 8,656,535,325 | 29.42"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "신소재 부문 1. 소방부문 나. 산업의 성장성",
+        "evidence_text": "소방차 산업은 주로 국가를 주요 수요처로 하고 있어"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 산업의 특성",
+        "evidence_text": "소방시장의 성장성은 관련 소방법 개정 등의 요인으로 계속적으로 증대되고 있는 상황입니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "다. 경기변동의 특성",
+        "evidence_text": "소방차의 교체 주기가 10년에서 20년으로 길기 때문에"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나. 산업의 성장성",
+        "evidence_text": "국내 소방산업의 경쟁 요소는 고성능 제품보다는 가격 경쟁력이 중요한 시장입니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5064,
+    "completion_tokens": 5586,
+    "reasoning_tokens": 4608,
+    "output_tokens": 978
+  },
+  "warnings": []
+}

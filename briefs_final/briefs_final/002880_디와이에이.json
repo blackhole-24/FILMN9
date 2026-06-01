@@ -1,0 +1,66 @@
+{
+  "stock_code": "002880",
+  "corp_name": "디와이에이",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 09:41",
+  "meta": {
+    "wics": "자동차부품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "디와이에이는 자동차부품시장에 진출한 뒤 시트사업을 핵심 성장동력으로 키워 온 자동차 SEAT ASS'Y 부품 제조업체입니다. 2025년도 연결기준 매출액은 6,334억원이며, 기아·KG모빌리티 등 완성차 업체에 시트를 공급하는 구조를 갖고 있습니다.",
+    "business_model": "사업부문별 영업수익 구성(FY2025)을 보면 AX(캐스퍼)가 20.4%, Y400(렉스턴)이 9.4%, 기타차종SEATPAD매출이 53.4%를 차지합니다. 광주시트사업부는 스포티지, 셀토스, 봉고, EV5, 캐스퍼 등 차종의 SEAT를 공급하고, 화성시트사업부는 무쏘 스포츠, 렉스턴, K9, EV9, 아이오닉 9, PV5 등의 SEAT를 납품하는 방식으로 완성차 생산계획에 맞춰 실시간 공급하는 구조입니다. 완성차업체의 기술개발능력, 품질, 납기, 가격 요구를 충족하는 것이 핵심이며, 신규 차종 수주를 통해 생산·공급 역량을 넓혀가고 있습니다.",
+    "main_customers": "광주시트사업부 — 기아 광주사업장, 광주글로벌모터스 / 화성시트사업부 — KG모빌리티, 기아 소하리사업장 / 신규 차종 수주 — 인주공장, 울산공장",
+    "price_factors": [
+      {
+        "factor": "완성차생산",
+        "detail": "시트 판매량이 완성차업체의 생산계획과 실적에 연동되기 때문에 기아·KG모빌리티 생산 변화가 실적에 직접 영향을 줍니다."
+      },
+      {
+        "factor": "신차수주",
+        "detail": "PV7, 코나 후속 같은 신규 차종 수주가 늘면 공급 차종이 확대돼 매출 기반이 넓어질 수 있습니다."
+      },
+      {
+        "factor": "친환경차",
+        "detail": "EV5, EV9, 아이오닉 9처럼 친환경·미래형 차종 공급이 늘수록 산업 변화 흐름에 맞춘 수요가 확대될 수 있습니다."
+      },
+      {
+        "factor": "품질평가",
+        "detail": "완성차의 품질·납기·가격 기준을 충족해야 하므로 품질 경쟁력과 납품 안정성이 수주 유지에 중요합니다."
+      },
+      {
+        "factor": "노사안정",
+        "detail": "24년간 무분규 실현 등 안정적인 노사문화는 생산 차질을 줄이고 안정적인 공급 체계 유지에 도움이 됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 자동차부품시장에 신규 진출한 이후 시트사업을 핵심 성장동력으로 육성하며안정적인 공급체계를 구축해 왔습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "■ 사업부문별 영업수익 구성 (FY2025)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "광주시트사업부는 ... 기아 광주사업장에 독점 공급하고 있으며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5208,
+    "completion_tokens": 846,
+    "reasoning_tokens": 0,
+    "output_tokens": 846
+  },
+  "warnings": []
+}

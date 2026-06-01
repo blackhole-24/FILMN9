@@ -1,0 +1,72 @@
+{
+  "stock_code": "052900",
+  "corp_name": "KX하이텍",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:02",
+  "meta": {
+    "wics": "반도체와반도체장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "KX하이텍은 반도체재료사업과 SSD Case 사업을 중심으로 영위하는 기업입니다. 사업보고서에 따르면 반도체부품소재 및 SSD Case 관련 사업이 본업이며, 연결법인까지 포함해 매출을 구성하고 있습니다. 2025년 연결기준 매출액은 1,263억원입니다.",
+    "business_model": "주요 사업은 반도체재료사업부문(33.2%)과 SSD사업부문(36.2%)이며, 연결법인 매출(30.7%)도 함께 실적에 반영됩니다. 반도체재료사업부문은 IC-Tray, Module-Tray, Carrier Tape, Blank Mask Box/Wafer Ring Carrier 등 반도체 패키징·보관용 제품을 다루고, SSD사업부문은 SSD Case와 Turnkey Box를 공급합니다. 연결법인은 Set-top Box를 생산·판매합니다.",
+    "main_customers": "반도체재료사업부문 — 반도체 및 전자부품 관련 기업 / SSD사업부문 — SSD(반도체 저장장치) 제조·조립 관련 고객 / 연결법인 — 위성방송수신기(Set-top Box) 관련 수요처",
+    "price_factors": [
+      {
+        "factor": "AI수요",
+        "detail": "AI, HPC(고성능 컴퓨팅), 데이터센터 확대로 반도체 수요가 늘면 패키징 소재와 SSD 관련 제품 수요도 함께 영향을 받습니다."
+      },
+      {
+        "factor": "HBM확대",
+        "detail": "HBM(고대역폭 메모리) 등 고성능 반도체 비중이 커질수록 열 관리와 첨단 패키징용 소재의 중요성이 높아집니다."
+      },
+      {
+        "factor": "공급망",
+        "detail": "반도체 공급망 재편과 자국화 정책이 이어지면 소재·장비 산업의 전략적 중요성이 커져 사업 환경에 영향을 줍니다."
+      },
+      {
+        "factor": "수급밸런스",
+        "detail": "메모리 반도체 업황의 수급 균형과 증설 기조 변화가 SSD Case 등 관련 제품 수요와 실적에 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황 > 나. 경영진 실적·전략 요약",
+        "evidence_text": "원사업인 반도체부품소재 및 SSD Case 관련 사업 매출액은"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성] > [표] 가. 주요제품",
+        "evidence_text": "반도체재료사업부문|IC-Tray|...|41,895(33.2%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성] > [표] 가. 주요제품",
+        "evidence_text": "SSD사업부문|SSD Case|...|45,675(36.2%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성] > [표] 가. 주요제품",
+        "evidence_text": "연결법인|Set-top Box|위성방송수신기|38,706(30.7%)"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황 > 나. 경영진 실적·전략 요약",
+        "evidence_text": "2025년 연결기준 매출액은 1,263억원"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3739,
+    "completion_tokens": 872,
+    "reasoning_tokens": 0,
+    "output_tokens": 872
+  },
+  "warnings": []
+}

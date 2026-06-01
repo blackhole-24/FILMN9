@@ -1,0 +1,76 @@
+{
+  "stock_code": "066430",
+  "corp_name": "아이로보틱스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 04:41",
+  "meta": {
+    "wics": "화학",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "아이로보틱스(구 와이오엠)는 1999년 설립되어 폴리에틸렌(PE) 원료 유통과 산업용 PE 필름 제조를 핵심 사업으로 하는 기업입니다. 가전·자동차용 포장재 등 다양한 산업용 필름을 제조·공급하며 주요 고객사로 현대자동차·LG전자를 확보하고 있습니다.",
+    "business_model": "주력 사업은 원료 유통과 필름 제조로 구성되며, 사업부문별로 유통부문이 61.0%, 제조부문이 37.6%, 임가공이 1.5%를 차지합니다. 유통부문은 Blown 필름용·Paper Coating용·Injection용 PE 원료의 국내·수입 판매를 담당하고, 제조부문은 주문생산 방식의 PE 필름(예: LDPE·HDPE·LLDPE, VCI 방청필름)을 롤 형태로 생산해 재단 후 납품합니다.",
+    "main_customers": "유통부문 — 포장·필름·사출용 원료 구매 기업(가전·자동차 관련 제조사) / 제조부문 — 주문생산을 의뢰하는 산업체(가전·자동차 부품 등) / 임가공 — 재단·가공 의뢰 고객",
+    "price_factors": [
+      {
+        "factor": "원재료가",
+        "detail": "에틸렌 등 원재료 가격 상승은 제품 원가를 높여 수익성에 직접적인 압박을 줍니다."
+      },
+      {
+        "factor": "수입경쟁",
+        "detail": "수입 PE 제품의 가격경쟁력 확대는 국내 판매 마진을 축소시키지만, 납기·품질로 차별화할 여지는 남습니다."
+      },
+      {
+        "factor": "수요성장",
+        "detail": "전 세계 PE 수요 증가 추세는 장기적인 수요 기반을 제공하나 생산증가에 따른 가격 변동성도 존재합니다."
+      },
+      {
+        "factor": "무역정책",
+        "detail": "미국 등 주요국의 관세·무역제제는 수급 불안과 비용 변동을 유발하여 실적에 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "고객산업",
+        "detail": "가전·자동차 등 주요 수요 산업의 경기 변동은 PE 제품 수요와 직결되어 실적 변동 요인이 됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "당사는 PE(폴리에틸렌) 원료 유통과 산업용 PE 필름의 제조 사업을 운영하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "유통부문: 22,203,075 (61.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "제조부문: 13,579,197 (37.6%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "현대자동차(주)와 LG전자 등 협력업체"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "미국정부의 관세정책에서 비롯된 무역제제는 자유무역경제 체제를 위태롭게하여"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5645,
+    "completion_tokens": 4747,
+    "reasoning_tokens": 3840,
+    "output_tokens": 907
+  },
+  "warnings": []
+}

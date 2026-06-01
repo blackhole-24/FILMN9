@@ -1,0 +1,62 @@
+{
+  "stock_code": "210120",
+  "corp_name": "캔버스엔",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 12:01",
+  "meta": {
+    "wics": "방송과엔터테인먼트",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "캔버스엔은 드라마 제작을 주력으로 하는 콘텐츠 기업으로, 작가 섭외·기획·배우 캐스팅을 통해 방송사 및 유통플랫폼에 콘텐츠를 제공하는 드라마제작 전문 기업입니다. 자산총액은 35,778백만원으로 기재되어 있으며 일부 작품은 해외 판권을 직접 계약해 수출한 경험을 보유하고 있습니다.",
+    "business_model": "당사는 드라마 기획·제작을 통해 방송사 및 OTT·유통플랫폼에 콘텐츠를 제공하고 사용료(로열티)·상품매출·임대수입·음반 등의 수익을 확보합니다. 사업부문별 FY2025 영업수익 구성은 사용료 78.9%, 상품매출 16.1%, 임대수입 5.0%, 음반 0.1%로 사용료(78.9%)가 핵심 수익원입니다.",
+    "main_customers": "사용료 — 방송사 및 다양한 유통플랫폼(OTT 포함) / 상품매출 — 콘텐츠 관련 상품을 구매하는 소비자 및 유통채널 / 임대수입 — 임차인(임대 이용자) / 음반 — 음반 소비자 및 유통채널",
+    "price_factors": [
+      {
+        "factor": "OTT확산",
+        "detail": "OTT 플랫폼의 다변화는 사용료 수요를 증가시켜 사용료 비중이 큰 실적에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "글로벌수요",
+        "detail": "해외시장 구매력과 판권 수출은 해외 매출과 수익성에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "제작경쟁력",
+        "detail": "우수한 기획력·제작능력은 양질의 작품 확보로 안정적인 외형확대와 수익창출에 유리합니다."
+      },
+      {
+        "factor": "규제·심의",
+        "detail": "방송광고 및 방송심의 관련 규제는 유통과 수익 구조에 제약을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 나. 시장여건 및 영업의 개황",
+        "evidence_text": "드라마제작 전문 기업입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "사용료: 3,153 (78.9%)"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "II. 사업의 내용 > 나. 시장여건 및 영업의 개황",
+        "evidence_text": "OTT 플랫폼의 다변화 및 구매력 강화는 활발한 제작비 투자로 이어져"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5175,
+    "completion_tokens": 3682,
+    "reasoning_tokens": 3008,
+    "output_tokens": 674
+  },
+  "warnings": []
+}

@@ -1,0 +1,64 @@
+{
+  "stock_code": "013580",
+  "corp_name": "계룡건설",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 21:17",
+  "meta": {
+    "wics": "건설",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "계룡건설은 건축·토목·분양·유통·레저 등 다섯 개 사업부문을 영위하는 종합 건설기업으로, 건축·주택사업과 인프라(토목) 공사를 포함한 수주형 사업을 중심으로 운영됩니다. 연결기준 자산총계는 약 3조 2,248억원으로 보고되어 규모 면에서도 중견 이상의 건설회사에 해당합니다.",
+    "business_model": "핵심 사업은 건축계약공사와 토목계약공사, 아파트 분양을 포함한 주택사업이며, 여기에 패션 아울렛·휴게소 등 유통사업과 골프장 등 레저사업이 더해져 수익원을 다각화하고 있습니다. 건설업 특성상 수주에 크게 의존하며, 분양사업은 엘리프(ELIF)·리슈빌(Richeville) 브랜드를 기반으로 진행됩니다(수주·시공·분양을 통한 매출 발생).",
+    "main_customers": "건축 — 공공기관·기업·주거용 발주처 / 토목 — 국가기관·공공발주처(국토개발·항만·도로·철도 분야) / 분양 — 아파트 구매자(일반 주택 수요층) / 유통 — 일반 소비자·고속도로 이용객·도소매업자 / 레져 — 골프장 이용 고객(일반 대중제 골퍼)",
+    "price_factors": [
+      {
+        "factor": "부동산 규제",
+        "detail": "청약가점제 등 정부의 부동산 규제정책 변화는 분양 실적과 분양가·수익성에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "수주환경",
+        "detail": "건설업이 수주산업인 특성상 발주처의 공사 발주량과 경기 변동이 수익과 수주잔고에 큰 영향을 줍니다."
+      },
+      {
+        "factor": "환경규제",
+        "detail": "시공과정에서 대기·수질·소음·건설폐기물 관련 규제 준수 의무가 비용과 일정에 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "경쟁력(기술·브랜드)",
+        "detail": "견실한 재무구조와 시공능력, 브랜드(엘리프·리슈빌 등) 수준이 양질의 수주 확보에 중요한 요인입니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "영위하는 사업부문은 건축,토목, 분양, 유통, 레져 등으로 분류되고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황",
+        "evidence_text": "주택사업을 포함합니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "정부는 민간부문에서 청약가점제 등과 같은 부동산 규제정책을 유지하고 있으며"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4222,
+    "completion_tokens": 4604,
+    "reasoning_tokens": 3840,
+    "output_tokens": 764
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

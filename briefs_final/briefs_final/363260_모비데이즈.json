@@ -1,0 +1,69 @@
+{
+  "stock_code": "363260",
+  "corp_name": "모비데이즈",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 17:47",
+  "meta": {
+    "wics": "광고",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "모비데이즈는 온라인 광고대행업을 주력으로 하는 광고회사로, 모바일 RTB(실시간경매입찰) 기반 퍼포먼스 마케팅을 중심으로 사업을 전개하고 있습니다. 2022년 SPAC 합병으로 코스닥시장에 상장했으며, 2025년 연결기준 매출액은 444억원을 기록했습니다.",
+    "business_model": "주요 수익은 퍼포먼스 마케팅(모바일 RTB, DA/동영상)과 미디어렙(종합광고대행사 대상)에서 발생하며, 자체 애드테크·데이터 솔루션(모비커넥트, 모비원, 모비DMP, 모비링크, 모비AI 등)을 통해 광고집행·분석·자동화 서비스를 제공합니다. 이 외에 콘텐츠·교육·인력매칭·콘퍼런스 등 마케팅 관련 유관 사업도 운영하며, 영업수익은 일부 항목을 순액으로 인식합니다.",
+    "main_customers": "퍼포먼스 마케팅 — 광고주 / 미디어렙 — 종합광고대행사 / K-POP 콘텐츠 유통·판매 — 해외 팬 / 마케팅 교육·매칭 서비스 — 마케터·기업",
+    "price_factors": [
+      {
+        "factor": "모바일 성장",
+        "detail": "모바일 광고 비중 확대(시장 성장)가 매출 확대의 직접적 기회가 됩니다."
+      },
+      {
+        "factor": "AI·기술 고도화",
+        "detail": "생성형 AI 등 기술 도입으로 광고효율성이 개선되면 자사 애드테크 경쟁력이 실적에 긍정적 영향을 줍니다."
+      },
+      {
+        "factor": "광고주 수요",
+        "detail": "경기 둔화 시 광고주가 즉시 성과를 요구하는 퍼포먼스 광고로 예산을 이동하면 매출에 우호적입니다."
+      },
+      {
+        "factor": "경쟁강도",
+        "detail": "네이버·구글·페이스북 등 플랫폼과 대기업 계열 디지털대행사들의 경쟁 심화는 수익성에 부담이 될 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 사업의 개황",
+        "evidence_text": "당사는 온라인 광고대행업을 주사업으로 운영하고 있습니다."
+      },
+      {
+        "field": "company_overview",
+        "source_section": "(경영진 실적·전략 요약 (MD&A))",
+        "evidence_text": "당사는 2022년 SPAC 합병으로 코스닥시장에 상장하였습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "나. 주요 서비스 개황",
+        "evidence_text": "당사는 퍼포먼스 마케팅(Performance Marketing) 서비스를 광고주와 종합광고대행사에 제공하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "(1) 시장의 현황 및 특성",
+        "evidence_text": "온라인 광고시장은 생성형 AI와 같은 첨단 기술이 적용되면서 광고 효율성이 크게 향상되었습니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 5576,
+    "completion_tokens": 4668,
+    "reasoning_tokens": 3904,
+    "output_tokens": 764
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

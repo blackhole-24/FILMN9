@@ -1,0 +1,69 @@
+{
+  "stock_code": "017390",
+  "corp_name": "서울가스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 22:02",
+  "meta": {
+    "wics": "가스유틸리티",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "서울가스는 서울과 경기 일부 지역에 도시가스를 공급하는 가스 유틸리티 회사로, 공급권역은 서울 11개구와 경기 3개시 등 총 1,337.2㎢이며 공급가능 가구수는 약 260만 가구입니다. 수도권 시장에서 의미 있는 점유율을 보유하고(수도권 17.6%, 전국 8.0%) 도시가스 소매(최종 소비자 공급)를 핵심 사업으로 운영하고 있습니다.",
+    "business_model": "주요 사업은 도시가스공급(소매), 해외자원개발, 그리고 부동산 임대 매출로 구성됩니다. 도시가스는 도매(도입·도매)는 한국가스공사가 담당하고 최종 소비자에게는 당사가 배관을 통해 소매 공급하며, 해외자원개발은 탐사·개발·생산을 통해 원유·천연가스를 생산하는 활동이나 현재 추가 투자는 고려하지 않고 콘소시엄 형태의 배당수익 중심으로 운영하고 있습니다.",
+    "main_customers": "도시가스공급 — 가정용·일반용·업무용·산업용·수송용 등 최종소비자 / 해외자원개발 — 탐사·개발 콘소시엄 및 지분참여 파트너 / 부동산 임대 — 오피스텔·상가 등의 임차인(임대수입 기반)",
+    "price_factors": [
+      {
+        "factor": "요금규제",
+        "detail": "정부가 판매단가를 규제하므로 요금 정책 변화는 매출·이익률에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "국제유가",
+        "detail": "원재료인 LNG를 전량 수입하므로 국제유가와 환율 변동이 판매단가와 원가에 영향을 줍니다."
+      },
+      {
+        "factor": "계절성",
+        "detail": "난방 수요에 따른 계절적 변동(동절기 매출 집중)이 매출과 실적에 큰 편차를 만듭니다."
+      },
+      {
+        "factor": "지역난방",
+        "detail": "공급권역 내 지역난방(집단에너지) 보급 확대는 도시가스 수요에 대한 경쟁요인으로 작용합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "나. 사업부문별 현황 (마) 시장점유율 등",
+        "evidence_text": "당사의 도시가스 판매점유율은 수도권지역에서 17.6%, 전국기준으로 8.0%입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "나. 사업부문별 현황 (1) 도시가스공급 사업부문",
+        "evidence_text": "(1) 도시가스공급 사업부문"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "나. 사업부문별 현황 (나) 산업의 성장성",
+        "evidence_text": "가정용은 42.4%"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나. 사업부문별 현황 (가) 산업의 특성",
+        "evidence_text": "정부에서는 독점사업권을 인정하는 대신 판매단가를 규제하고 있으며"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4084,
+    "completion_tokens": 5486,
+    "reasoning_tokens": 4672,
+    "output_tokens": 814
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

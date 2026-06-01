@@ -1,0 +1,76 @@
+{
+  "stock_code": "005880",
+  "corp_name": "대한해운",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 12:49",
+  "meta": {
+    "wics": "해운사",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "대한해운은 벌크선·LNG선·탱커선을 중심으로 철광석, 천연가스, 원유 등의 원자재 해상운송을 주된 사업으로 영위하는 국내 해운사입니다. 관리중인 선박은 55척 규모이며, 포스코·한국가스공사·한국전력공사 등과 장기운송계약을 체결해 안정적 화주 기반을 확보하고 있습니다.",
+    "business_model": "FY2025 기준 사업부문별 영업수익 비중은 벌크선 50.0%, LNG선 25.0%, 탱커선 4.0%, 무역업 1.0%, 광산업 2.0%, 건설업 2.0%, 기타 16.0%로 벌크·LNG 중심의 선박운송(해상화물운송)이 핵심 수익원이며, 전용선(장기계약) 영업 위주로 시장 변동성을 완화하는 영업구조를 운영하고 있습니다.",
+    "main_customers": "벌크선 — 원자재 수요처(예: ㈜포스코) / LNG선 — 에너지회사(예: 한국가스공사) / 탱커선 — 에너지·공공기관(예: 한국전력공사)",
+    "price_factors": [
+      {
+        "factor": "선대투자",
+        "detail": "선박 확보에 대규모 자본 투입이 필요하여 운임하락 시 고정비 부담과 재무구조 영향을 받을 수 있습니다."
+      },
+      {
+        "factor": "운임시황",
+        "detail": "BDI(운임지수) 등 운임 변동성이 실적에 직결되어 시황 하락 시 수익성이 빠르게 악화될 수 있습니다."
+      },
+      {
+        "factor": "환경규제",
+        "detail": "평형수 규제·EEXI·CII 등 환경 규제 대응 비용(장치 설치·운영)이 비용항목으로 실적에 영향합니다."
+      },
+      {
+        "factor": "주요화주의존",
+        "detail": "포스코 등 대형 화주와의 장기계약은 안정성 제공하지만 특정 화주·품목 의존도가 높아지면 수요 변동에 취약합니다."
+      },
+      {
+        "factor": "글로벌수요",
+        "detail": "중국 철강 수요·세계 경기·지정학 리스크 등 글로벌 수요 변화가 물동량과 운임에 직접적인 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "당사는 벌크선, LNG선, 탱커선 등을 통하여 철광석, 천연가스, 원유 등의 원자재를 선박으로 운송하는 해상화물운송을 주된 사업으로 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "벌크선: 628,272,889 (50.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "LNG선: 321,795,168 (25.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "당사는 주요 거래처인 ㈜포스코, 한국가스공사, 한국전력공사 등 우량화주들과 장기운송계약을 체결하여 안정적인 영업과 이익의 극대화를 실현하고자..."
+      },
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "재무적인 측면으로는 연결기준 부채비율 70%, 자기자본비율 59%"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4982,
+    "completion_tokens": 5005,
+    "reasoning_tokens": 4032,
+    "output_tokens": 973
+  },
+  "warnings": []
+}

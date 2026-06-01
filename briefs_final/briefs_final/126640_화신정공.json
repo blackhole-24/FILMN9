@@ -1,0 +1,78 @@
+{
+  "stock_code": "126640",
+  "corp_name": "화신정공",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 09:31",
+  "meta": {
+    "wics": "자동차부품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "화신정공은 국내 완성차업체에 자동차용 부품을 공급하는 자동차부품전문 업체로, 2025년 매출액은 3,789억원 규모입니다. 샤시류·정밀가공부품·보수용부품 등 모듈품 및 개별품 형태로 납품하며 기업부설연구소를 중심으로 산학연 기술컨소시엄과 정부 연구개발사업에 참여하고 있습니다.",
+    "business_model": "핵심 사업은 샤시류, 정밀가공부품, 보수용부품(모듈품 및 개별품)과 기타·슬리팅 제품으로 구성되며, 2025년 연결기준 매출은 3,789억원입니다. 완성차업체의 신차종 양산에 따른 설비 매출 및 관련 상품 매출이 실적에 직접 반영되며, 1차 부품협력업체에 원소재 가공 판매도 수행합니다.",
+    "main_customers": "샤시류 — 국내 완성차업체 및 그 계열사 / 정밀가공부품 — 국내 완성차업체 및 1차 부품협력업체 / 보수용부품 — 국내 완성차업체 및 1차 부품협력업체 / 기타·슬리팅 제품 — 1차 부품협력업체",
+    "price_factors": [
+      {
+        "factor": "수주경쟁",
+        "detail": "입찰가·품질·기술점수가 수주결정요소이므로 수주 확보 여부가 실적에 직접 영향."
+      },
+      {
+        "factor": "신차개발",
+        "detail": "완성차 신차 개발 단계와의 협업이 필요해 신차 양산 시 매출 증가가 기대됨."
+      },
+      {
+        "factor": "원자재비",
+        "detail": "후방의 비철금속·전자·소재 산업 영향으로 원가 변동이 수익성에 영향."
+      },
+      {
+        "factor": "친환경전환",
+        "detail": "경량화·전동화 트렌드에 따른 부품 수요 변화가 기술력 보유 기업에 기회로 작용."
+      },
+      {
+        "factor": "설비투자",
+        "detail": "신규 차종 양산을 위한 설비투자 및 차입 증가가 비용·재무구조에 영향."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "판매하는 자동차부품전문 업체입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "모듈품 또는 개별품 형태로 생산하여 납품하고"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "국내 완성차업체와 그 계열사에"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "산업의 특성",
+        "evidence_text": "입찰가와 품질, 기술점수 등이 수주의 결정요소입니다."
+      },
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "당사의 2025년 매출액은 3,789억원"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4177,
+    "completion_tokens": 6100,
+    "reasoning_tokens": 5248,
+    "output_tokens": 852
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

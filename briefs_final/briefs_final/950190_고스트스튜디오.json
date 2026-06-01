@@ -1,0 +1,68 @@
+{
+  "stock_code": "950190",
+  "corp_name": "고스트스튜디오",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:48",
+  "meta": {
+    "wics": "게임엔터테인먼트",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "고스트스튜디오는 2016년 9월 설립된 홍콩 법인으로, 모바일 게임 소프트웨어의 제작·개발·서비스를 주 사업으로 하고 있습니다. Google Play, Apple App Store, Facebook, Amazon 등 다양한 플랫폼에서 캐주얼 게임을 서비스하며, 게임 포트폴리오를 넓히는 동시에 미디어 콘텐츠 사업으로도 영역을 확장하고 있습니다.",
+    "business_model": "주력 사업은 캐주얼 슬롯 게임과 캐주얼 카드·퍼즐·경영 시뮬레이션 게임 서비스입니다. 보고서 기준일 현재 25개 이상의 캐주얼 슬롯 게임과 10여 개 이상의 솔리테르 게임을 운영하고 있으며, 트라이픽스는 인앱구매(IAP: In-App Purchase, 앱 안에서 결제하는 방식)와 광고매출을 함께 활용하는 구조입니다. 또한 (주)미툰앤노벨, (주)블루픽, (주)고스트스튜디오 지분 취득을 통해 웹툰·웹소설 및 영상 콘텐츠 사업도 함께 키우고 있습니다.",
+    "main_customers": "캐주얼 슬롯/카드/퍼즐 게임 — Google Play, Apple App Store, Facebook, Amazon 이용 글로벌 모바일 게임 이용자 / 웹툰·웹소설 — 네이버웹툰, 카카오페이지 등 메이저 플랫폼 이용자 / 영상 콘텐츠 — 넷플릭스 오리지널 등 콘텐츠 수요처",
+    "price_factors": [
+      {
+        "factor": "신작 흥행",
+        "detail": "신규 게임 출시 성과가 이용자 유입과 광고·결제 매출에 직접 연결되어 실적 변동에 큰 영향을 줍니다."
+      },
+      {
+        "factor": "마케팅비",
+        "detail": "모바일 게임 시장은 CPI(Cost Per Install, 설치당 광고비) 상승 영향이 커서 신규 유저 확보 비용이 실적에 부담이 될 수 있습니다."
+      },
+      {
+        "factor": "경쟁심화",
+        "detail": "캐주얼 게임 업체가 늘어날수록 진입과 운영 경쟁이 치열해져 기존 업체의 노하우와 데이터 활용이 중요해집니다."
+      },
+      {
+        "factor": "플랫폼의존",
+        "detail": "Google Play, Apple App Store, Facebook, Amazon 등 주요 플랫폼을 통해 서비스하므로 플랫폼 환경 변화가 이용자 확보에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "IP확장",
+        "detail": "보유 IP(지식재산권)를 게임과 미디어 콘텐츠로 확장하는 전략은 사업 영역 확대와 수익원 다각화에 연결됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "당사는 홍콩 법인이며 2016년 9월에 설립되었습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "다. 사업의 개요",
+        "evidence_text": "25개 이상의 캐주얼 슬롯 게임을 서비스하고 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "(1) 캐주얼 게임 가) 캐주얼 클래식 카드 게임 솔리테르",
+        "evidence_text": "미국, 영국, 캐나다, 일본, 러시아 등"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 5908,
+    "completion_tokens": 785,
+    "reasoning_tokens": 0,
+    "output_tokens": 785
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

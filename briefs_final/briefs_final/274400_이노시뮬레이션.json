@@ -1,0 +1,64 @@
+{
+  "stock_code": "274400",
+  "corp_name": "이노시뮬레이션",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 14:42",
+  "meta": {
+    "wics": "소프트웨어",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "이노시뮬레이션은 국방 가상훈련시스템을 공급하는 디지털 트윈 기반의 XR(확장현실) 솔루션 기업으로, 국방을 비롯해 자동차·철도·중장비·항공·해양선박 등 다양한 산업에 시뮬레이션 기술을 제공하고 있습니다. 디지털 트윈과 AI·로보틱스를 결합한 몰입형 시뮬레이션 기술을 핵심 역량으로 보유하고 있습니다.",
+    "business_model": "핵심 사업은 Virtual Training(가상훈련시스템)과 Virtual Testing(스마트 모빌리티 시뮬레이터)으로 나뉘며, 국방용 XR 시뮬레이터와 자동차·중장비·철도 등 민수 분야 교육훈련용 시뮬레이터를 공급합니다. 또한 자율주행 검증 등 실차 검증을 위한 VILS(Vehicle-in-the-Loop Simulation) 등 스마트 모빌리티 테스트 플랫폼을 통해 완성차 및 연구기관 대상 솔루션을 제공합니다.",
+    "main_customers": "Virtual Training — 국방(군 기관) 및 자동차·철도·중장비·항공·해양 관련 기업 / Virtual Testing — 완성차 메이커·자동차 부품업체·국공립연구소",
+    "price_factors": [
+      {
+        "factor": "5G확산",
+        "detail": "5G 상용화에 따라 XR의 대중화와 산업 적용이 확대되면 제품 수요 증가로 실적에 긍정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "R&D투자",
+        "detail": "XR·디지털트윈은 기술집약적 분야여서 지속적 연구개발 투자와 인력 확보 여부가 경쟁력과 실적에 직접적 영향을 미칩니다."
+      },
+      {
+        "factor": "진입장벽",
+        "detail": "군사 기밀 유지와 높은 정확도 요구로 진입장벽이 높아 기술 우위를 유지하면 안정적 수주에 유리합니다."
+      },
+      {
+        "factor": "글로벌투자",
+        "detail": "글로벌 ICT 대기업과 주요 국가의 투자 확대는 시장 성장을 촉진해 수출 및 사업확장에 기회로 작용합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 국방 가상훈련 시스템 및 디지털 트윈 기술 리더",
+        "evidence_text": "디지털 트윈 기반의 XR 솔루션 기업입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. 국방 가상훈련 시스템 및 디지털 트윈 기술 리더",
+        "evidence_text": "방위산업 특화 XR 가상훈련 시스템을 중심으로"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "나. 주요 제품에 대한 내용",
+        "evidence_text": "완성차 메이커, 자동차 부품업체, 국공립연구소 등에 공급"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 5473,
+    "completion_tokens": 3289,
+    "reasoning_tokens": 2560,
+    "output_tokens": 729
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

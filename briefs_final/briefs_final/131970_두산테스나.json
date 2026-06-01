@@ -1,0 +1,66 @@
+{
+  "stock_code": "131970",
+  "corp_name": "두산테스나",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:20",
+  "meta": {
+    "wics": "반도체와반도체장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "두산테스나는 2002년에 설립된 반도체 후공정 전문 기업으로, 시스템 반도체의 테스트 사업을 중심으로 성장해 왔습니다. 반도체 제조 과정에서 웨이퍼 테스트와 패키징 테스트를 수행하며, 테스트가 완료된 웨이퍼를 재배열하고 분류하는 DP(Die Preparation) 사업도 함께 영위합니다.",
+    "business_model": "사업 포트폴리오는 테스트사업이 중심이며, 2025년 매출 기준 웨이퍼 테스트 92.5%, PKGTest 5.9%, DP사업부 1.6%로 구성됩니다. 테스트사업은 웨이퍼 단계와 패키징 후 출하 전 단계에서 기능 이상 여부를 검사하는 서비스이고, DP사업은 테스트를 마친 웨이퍼를 고객 요구에 맞게 배열·분류하는 공정입니다. 제품군은 SoC(System on Chip), CIS(CMOS Image Sensor), MCU(Micro Controller Unit), Smartcard IC로 나뉘며, 최근에는 SiC(실리콘카바이드) 등 차량용 전력반도체 분야로도 진출하고 있습니다.",
+    "main_customers": "테스트사업 — 시스템 반도체 고객사 / DP사업 — 스마트폰·모바일·차량용 반도체 고객사",
+    "price_factors": [
+      {
+        "factor": "수요둔화",
+        "detail": "전방시장 수요가 둔화되면 테스트 물량이 줄어 매출 감소로 이어질 수 있습니다."
+      },
+      {
+        "factor": "CIS경쟁",
+        "detail": "중화권 이미지센서(CIS) 경쟁이 심화되면 관련 제품의 가동률과 수익성에 부담이 생길 수 있습니다."
+      },
+      {
+        "factor": "전기차",
+        "detail": "전기차 수요 변화는 ADAS(첨단운전자보조시스템)와 차량용 전력반도체 관련 사업 기회에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "환율변동",
+        "detail": "미국달러와 일본엔화 환율 변동은 주요 유형자산 구매 비용과 손익에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "설비효율",
+        "detail": "장비 효율화와 적시투자는 테스트 생산성 및 수익구조 개선에 직접적인 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 2002년에 설립되어 시스템 반도체 후공정 중 테스트 사업을 전문적으로 영위해 온 기업입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[표] 가. 매출실적",
+        "evidence_text": "웨이퍼 테스트 92.5%, PKGTest 5.9%, DP사업부 1.6%"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 웨이퍼 테스트 및 패키징 테스트 사업과"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4723,
+    "completion_tokens": 748,
+    "reasoning_tokens": 0,
+    "output_tokens": 748
+  },
+  "warnings": []
+}

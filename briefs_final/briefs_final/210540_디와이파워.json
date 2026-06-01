@@ -1,0 +1,91 @@
+{
+  "stock_code": "210540",
+  "corp_name": "디와이파워",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 12:02",
+  "meta": {
+    "wics": "기계",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "당사는 2014년 12월 (구)동양기전에서 인적분할하여 출발한 유압기기 전문 기업으로, Dongyang Mechatronics Jingyin Co., Ltd.와 DY POWER INDIA Pvt. 2개 주요 종속회사를 포함하여 사업을 영위하고 있습니다. 2025사업연도 연결매출은 3,827억원, 영업이익은 304억원을 기록했습니다.",
+    "business_model": "핵심 사업은 유압기기(유체의 압력을 이용하는 기능부품)이며, 2025회계연도 기준 영업수익에서 유압기기가 96.3%를 차지합니다. 그 외 상품(2.5%)과 기타(1.2%)로 구성되며, 주로 건설중장비·산업차량·특장차 등 전방산업에 공급하는 것이 수익구조의 핵심입니다.",
+    "main_customers": "유압기기 — 건설중장비·공작기계·수송기계·특장차 제조업체",
+    "price_factors": [
+      {
+        "factor": "건설경기",
+        "detail": "건설 및 산업용 기계의 투자·가동률 변화에 따라 수요가 크게 오르내려 실적에 직접 영향합니다."
+      },
+      {
+        "factor": "환율",
+        "detail": "환율 변동은 국가별 가격 경쟁력을 좌우해 수출 및 해외수익성에 영향을 줍니다."
+      },
+      {
+        "factor": "원자재(강재)",
+        "detail": "주요 원재료인 강재 가격 변동은 원가와 수익성에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "국제경쟁",
+        "detail": "KYB, HENGLI, WIPRO 등 글로벌 경쟁사와의 가격·공급 경쟁 심화가 실적 변동 요인이 됩니다."
+      },
+      {
+        "factor": "계절성",
+        "detail": "건설산업의 계절적 특성(3~6월 성수기, 7~9월 비수기)이 매출·생산에 주기적 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황 (DART 사업보고서)",
+        "evidence_text": "당사 및 주요 종속회사는 현재 유압기기 사업을 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "유압기기: 380,206 (96.3%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "상   품: 9,940 (2.5%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "기   타: 4,756 (1.2%)"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 시장여건 및 영업의 개황 > 3. 경기변동의 특성",
+        "evidence_text": "환율 변동으로 국가별 가격 경쟁력이 결정되므로"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 시장여건 및 영업의 개황 > 3. 경기변동의 특성",
+        "evidence_text": "주요 원재료인 강재의 가격 변동 역시 영향을 미칩니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 시장여건 및 영업의 개황 > 4. 계절성",
+        "evidence_text": "특히 건설 및 토목 산업이 가장 활발한 3월~6월을 성수기로, 7월~9월을 계절적 비수기로 볼 수 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 시장여건 및 영업의 개황 > 6. 경쟁상황",
+        "evidence_text": "KYB(일본), HENGLI(중국), WIPRO(인도)"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3931,
+    "completion_tokens": 4168,
+    "reasoning_tokens": 3136,
+    "output_tokens": 1032
+  },
+  "warnings": []
+}

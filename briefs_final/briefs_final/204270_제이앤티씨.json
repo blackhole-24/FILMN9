@@ -1,0 +1,67 @@
+{
+  "stock_code": "204270",
+  "corp_name": "제이앤티씨",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 11:44",
+  "meta": {
+    "wics": "핸드셋",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "제이앤티씨는 첨단소재와 고정밀 부품을 생산하는 전기·전자 계열 기업으로, 강화유리(커버글라스)와 반도체용 유리기판 및 휴대폰용 커넥터를 주요 제품으로 합니다. 해외생산법인 JNTC VINA가 첨단소재 및 강화유리 제조를 담당하며 제품 포트폴리오 다변화를 추진하고 있습니다.",
+    "business_model": "사업부문은 첨단소재(54.0%)와 커넥터(46.0%)로 구성되어 있으며, 54.0%의 첨단소재 부문은 커버글라스, 반도체용 TGV 유리기판(반도체 기판용 유리) 및 HDD용 유리플래터(하드디스크 플래터) 등을 생산합니다. 46.0%의 커넥터 부문은 주로 C-Type 방수형 커넥터(USB-C 규격)를 중심으로 안정적 매출을 창출하고 있습니다.",
+    "main_customers": "첨단소재 — 디스플레이·반도체·HDD 제조사 / 커넥터 — 휴대폰 제조사(중화권 포함)",
+    "price_factors": [
+      {
+        "factor": "중화권 의존",
+        "detail": "중화권 최종 고객사의 수요 변동(미·중 분쟁 등)은 강화유리 매출에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "Chip 수급",
+        "detail": "중화권 고객사의 Chip 수급 이슈로 모바일 제품 물량이 감소하면 강화유리 실적 악화로 이어집니다."
+      },
+      {
+        "factor": "제품 다변화",
+        "detail": "반도체용 TGV 유리기판·HDD 플래터 등으로 포트폴리오 다변화가 실적 안정성 및 성장성에 영향을 줍니다."
+      },
+      {
+        "factor": "첨단소재 수요",
+        "detail": "디스플레이·반도체 등 IT 디바이스 확대는 첨단소재(고강도 유리) 수요 증가로 연결될 가능성이 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "나. 회사의 현황 (1) 사업의 특성",
+        "evidence_text": "당사는 첨단소재 및 고정밀 부품을 생산하는 업체로서"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 영업수익 구성 (FY2025)]",
+        "evidence_text": "커넥터: 85,349 (46.0%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 영업수익 구성 (FY2025)]",
+        "evidence_text": "첨단소재: 100,304 (54.0%)"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "첨단소재 사업",
+        "evidence_text": "중화권 최종 고객사의 미.중 분쟁으로 인한 판매실적 감소"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3040,
+    "completion_tokens": 5306,
+    "reasoning_tokens": 4544,
+    "output_tokens": 762
+  },
+  "warnings": []
+}

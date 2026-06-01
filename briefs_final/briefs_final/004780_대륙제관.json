@@ -1,0 +1,67 @@
+{
+  "stock_code": "004780",
+  "corp_name": "대륙제관",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 13:21",
+  "meta": {
+    "wics": "포장재",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "대륙제관은 1966년 설립된 금속제 캔 제조업체로 윤활유관, 식용유관, 페인트관 등 일반관과 휴대용 부탄가스·에어졸관을 주력으로 생산해 온 기업입니다. 일반관 부문에서 국내 시장 지배력을 가진 선두기업으로 소개되고 있습니다.",
+    "business_model": "매출은 에어졸관(헤어스프레이 등)이 63.55%, 일반관(윤활유관 등)이 32.32%, 기타가 4.13%로 구성되어 있어 제조(금속캔 생산)와 납품(B2B)이 핵심 수익원입니다. 휴대용 부탄가스는 자체 브랜드(MAX 등)를 생산하여 판매회사인 (주)맥선을 통해 유통하는 사업구조도 보유하고 있습니다.",
+    "main_customers": "일반관 — 국내 대형 정유사 등 기업(장기공급계약 대상) / 에어졸관 — 생활용품·화장품·살충제 제조사 및 판매회사(예: (주)맥선) / 기타 — 각종 산업용 고객",
+    "price_factors": [
+      {
+        "factor": "원재료가격",
+        "detail": "수입 원재료 가격 인상은 원가율 상승으로 이어져 실적에 직접적 부담을 줄 수 있습니다."
+      },
+      {
+        "factor": "수요회복",
+        "detail": "경기 회복과 소비 증가 시 윤활유관·에어졸 등 수요가 회복되어 매출 개선에 기여할 수 있습니다."
+      },
+      {
+        "factor": "제품차별화",
+        "detail": "Necked-In 등 용기 구조나 스파우트 같은 기술개발이 매출과 경쟁력에 영향을 미칩니다."
+      },
+      {
+        "factor": "안전기술",
+        "detail": "폭발방지 기술(C.R.V.) 등 안전성 개선은 휴대용 부탄가스 시장에서 수요와 거래처 확보에 긍정적 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "1966년에 대륙제관공업주식회사로 설립되었다"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "일반관 32.32%, 에어졸관 63.55%, 기타 4.13%"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "일반관의 경우 국내시장의 약 60% 이상을 선점하고 있는 선두기업"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "국내 대형 정유사들과 장기공급계약에 의한 납품"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4956,
+    "completion_tokens": 3564,
+    "reasoning_tokens": 2816,
+    "output_tokens": 748
+  },
+  "warnings": []
+}

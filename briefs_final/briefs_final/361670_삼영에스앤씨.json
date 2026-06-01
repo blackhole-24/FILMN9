@@ -1,0 +1,72 @@
+{
+  "stock_code": "361670",
+  "corp_name": "삼영에스앤씨",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 17:44",
+  "meta": {
+    "wics": "전자장비와기기",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "삼영S&C는 2000년에 설립된 센서 전문 기업으로, 온도·습도·압력 등 환경센서와 응용제품을 개발·생산합니다. 자체 소재 합성, MEMS(초소형 반도체 공정), SIP(System In Package) 형태의 칩형 센서 HumiChip® 양산 및 대량 캘리브레이션(교정) 역량을 보유하고 있습니다.",
+    "business_model": "핵심 사업은 칩형 온습도센서(HumiChip®)를 중심으로 차량용 압력센서, 산업용 트랜스미터 및 정밀 노점계(초저습 측정기기) 등 센서 및 계측장비의 개발·양산·납품입니다. FY2025 사업부문별 영업수익 구성은 매출 26.9%, 당사고객 10.0%, 국내 63.0%로 보고되었습니다.",
+    "main_customers": "칩형 온습도센서 — 자동차용 공조모듈 OEM 및 글로벌 센서기업(ODM) / 차량용 압력센서 — 완성차 제조사 및 자동차부품업체 / 노점계·산업용 트랜스미터 — 배터리·반도체·디스플레이 등 제조업체 및 산업현장",
+    "price_factors": [
+      {
+        "factor": "초정밀 수요",
+        "detail": "배터리·반도체 등 초저습 환경의 정밀 계측 수요 확대 시 노점계 및 고정밀 센서 매출 증가에 긍정적 영향을 미칩니다."
+      },
+      {
+        "factor": "중국 저가 경쟁",
+        "detail": "중국 저가 센서의 시장 진입은 범용·저가 센서 가격과 물량에 부정적 압력을 가해 관련 제품군 실적에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "전방산업(전기차) 변화",
+        "detail": "전기차 시장의 변화는 내연기관용 센서 수요에 직간접적 영향을 주어 기존 제품 매출 변동성을 높일 수 있습니다."
+      },
+      {
+        "factor": "환율(수출비중)",
+        "detail": "매출 비중이 수출 쪽으로 높아 환율 변동(원화 강세/약세)에 따라 환차손익 및 실적 변동성이 커질 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "2000년에 설립된 국내 센서 전문 기업으로"
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황",
+        "evidence_text": "칩형 온습도 센서 HumiChip®"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "매출: 2,954,118,109 (26.9%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "영업 현황",
+        "evidence_text": "미국 Ford 자동차 공조 장치 제어용(In-Car) 센서로 채택"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "당사의 매출은 수출비중이 높으며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5632,
+    "completion_tokens": 3707,
+    "reasoning_tokens": 2880,
+    "output_tokens": 827
+  },
+  "warnings": []
+}

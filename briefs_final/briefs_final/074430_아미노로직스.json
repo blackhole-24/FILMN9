@@ -1,0 +1,69 @@
+{
+  "stock_code": "074430",
+  "corp_name": "아미노로직스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 05:35",
+  "meta": {
+    "wics": "제약",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "아미노로직스는 제약 업종에 속한 기업으로 원료의약품과 아미노산 관련 사업을 핵심으로 영위하고 있습니다. 2015년에는 최대주주로부터 6개 원료의약품에 대한 국내 사업권을 인수했으며, 다수의 국내 제약 완제회사에 원료를 공급하고 있습니다.",
+    "business_model": "핵심 사업은 원료의약품 사업부문과 아미노산 사업부문으로 구성되어 있으며, 원료의약품은 국내 완제의약품 제조사에 공급하는 B2B(기업간거래)가 주된 수익원입니다. 아미노산 부문은 연구개발을 통해 다양한 아미노산 및 유도체를 개발하고 외부 위탁생산을 통해 상용화·공급하는 모델로 운영되고 있습니다.",
+    "main_customers": "원료의약품 — 다수의 국내 제약 완제 회사 / 아미노산 — 외부 위탁생산을 맡기는 외부 업체 및 글로벌 수요처",
+    "price_factors": [
+      {
+        "factor": "규제·허가",
+        "detail": "의약품은 허가·보험 약가 등 정부 규제의 영향을 많이 받아 허가·약가 변화가 실적에 직결될 수 있습니다."
+      },
+      {
+        "factor": "내수 중심 시장",
+        "detail": "국내 의약품 생산은 내수 완제품 중심이어서 수출이 제한적일 경우 해외 수요 변동에 의한 추가 성장 여력은 제한될 수 있습니다."
+      },
+      {
+        "factor": "경쟁 과당",
+        "detail": "중소 제조업체가 많고 상위 기업으로의 시장 집중이 진행되고 있어 가격·수주 경쟁이 실적에 부담이 될 수 있습니다."
+      },
+      {
+        "factor": "공급처 신뢰성",
+        "detail": "글로벌 수요처로부터 품질을 인정받아 추가 개발 요청을 받는 등 주요 수요처와의 신뢰 구축이 장기 공급과 수익성에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A) > 원료의약품 사업부문",
+        "evidence_text": "현재 뇌졸증, 안질환, 피부염, 화장품 등의 원료의약품을 다수의 국내 제약 완제 회사에 공급하고 있습니다."
+      },
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A) > 원료의약품 사업부문",
+        "evidence_text": "당사는 2015 년 중 자산양수도 방식에 따라 ... 인수하였습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "경영진 실적·전략 요약 (MD&A) > 아미노산 사업부문",
+        "evidence_text": "아미노산과 아민계 화합물의 연구개발, 제조 및 판매 사업을 추진하였습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "영업 현황 > 원료의약품 사업부문",
+        "evidence_text": "의약품 가격은 비탄력적인 특성을 갖습니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4000,
+    "completion_tokens": 4317,
+    "reasoning_tokens": 3520,
+    "output_tokens": 797
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "stock_code": "263600",
+  "corp_name": "덕우전자",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 14:14",
+  "meta": {
+    "wics": "핸드셋",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "덕우전자는 1992년 설립된 전기·전자 부품 제조업체로 경북 구미와 김천에 생산거점을 두고 있습니다. 모바일 카메라모듈용 정밀부품과 자동차용 이차전지 및 전장부품을 생산하며, 2025년 연결 기준 매출액 1,769억, 영업이익 15.8억원을 기록했습니다.",
+    "business_model": "핵심 사업은 모바일 카메라모듈용 정밀부품(스티프너, 브라켓 등)과 자동차용 이차전지·전장부품(ABS·EPS용 모터 부품 등) 생산이며, 2025년 사업부문별로 Stiffener·Bracket 등은 매출의 0.1%를, 부산물은 매출의 2.8%를 차지합니다. 고객사 설계·요구 스펙에 맞춘 주문생산(맞춤형 금속 부품) 구조가 수익 기반이며, 해외 종속법인을 통해 자동차 전장부품 생산을 병행하고 있습니다.",
+    "main_customers": "모바일 카메라모듈용 정밀부품 — 카메라모듈 고객사 / 이차전지·자동차 전장부품 — 자동차용 전장부품 고객사",
+    "price_factors": [
+      {
+        "factor": "수요 민감성",
+        "detail": "모바일 기기 수요 변동에 따라 카메라모듈 관련 매출이 민감하게 변동할 수 있습니다."
+      },
+      {
+        "factor": "설계의존성",
+        "detail": "고객사 설계·요구 스펙에 맞춘 주문생산 구조로 고객사 수주 변동이 실적에 직접 영향합니다."
+      },
+      {
+        "factor": "수출·통관규제",
+        "detail": "해외 종속회사와의 거래에서 외국환거래법·관세법 등 규제 변화가 비용·공급에 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "전기차 수요",
+        "detail": "2차전지·전장부품 수요는 전기차 보급 확대에 따라 실적에 긍정적 또는 변동 요인이 될 수 있습니다."
+      },
+      {
+        "factor": "환경규제",
+        "detail": "제품 전 주기 환경규제 및 생산장비 관련 규제 준수가 원가와 생산체계에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 1992년 8월에 설립되어"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "Stiffener,Bracket 등: 258,491 (0.1%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "부산물: 4,970,731 (2.8%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "구미 사업장에서는 모바일 카메라모듈에 장착되는 정밀부품을"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "고객사의 설계 및 요구 스팩에 맞춰 생산됩니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 산업의 현황",
+        "evidence_text": "모바일 기기의 짧은 교체주기와 고성능화"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 산업의 현황",
+        "evidence_text": "'탈(脫)탄소화' 라는 트렌드 속에서"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4628,
+    "completion_tokens": 4231,
+    "reasoning_tokens": 3264,
+    "output_tokens": 967
+  },
+  "warnings": []
+}

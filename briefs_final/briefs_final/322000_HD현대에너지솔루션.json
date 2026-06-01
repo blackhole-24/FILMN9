@@ -1,0 +1,66 @@
+{
+  "stock_code": "322000",
+  "corp_name": "HD현대에너지솔루션",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 16:30",
+  "meta": {
+    "wics": "에너지장비및서비스",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "HD현대에너지솔루션은 태양광 셀·모듈의 자체 생산을 기반으로 한 태양광 전문기업으로, 충북 음성공장에서 셀과 모듈을 생산하며 글로벌 파트너십을 통해 공급능력을 확보하고 있습니다. 고효율 TOPCon 모듈과 인버터 확대를 통해 태양광 제품과 솔루션을 공급하며 태양광 에너지 산업에서의 입지를 강화하고 있습니다.",
+    "business_model": "주요 수익원은 그린 에너지(태양광 모듈) 판매로, 사업부문별 매출은 그린 에너지 374,156(75.9%), 제어시스템(PCS·ESS) 85,198(17.3%), 수주계약 28,584(5.8%), 기타 4,722(1.0%)으로 구성됩니다. 모듈(제품판매)이 핵심이며, 인버터(제어시스템), 수주·설치 및 O&M(운영·유지보수) 용역을 통해 사업 다각화를 추진합니다.",
+    "main_customers": "그린 에너지 — 주택용·상업용 모듈 수요자 및 해외 바이어 / 제어시스템 — 발전소 운영자 및 시스템 수요자 / 수주계약 — 발전사업자·발주처 / 기타 — 발전소 설치·유지관리 수요자",
+    "price_factors": [
+      {
+        "factor": "기술경쟁",
+        "detail": "제품 효율(셀·모듈) 경쟁력에 따라 수익성과 시장지위가 좌우되어 R&D 투자 성과가 실적에 직접 영향."
+      },
+      {
+        "factor": "정책·수요",
+        "detail": "재생에너지 보급 정책과 에너지 안보 기조 변화가 시장 수요에 영향을 미쳐 매출 변동성을 유발할 수 있습니다."
+      },
+      {
+        "factor": "원자재·환율",
+        "detail": "원자재 가격 상승과 USD·EUR·CNY 등 통화 변동성은 원가와 수출입 손익에 직접적인 영향을 줍니다."
+      },
+      {
+        "factor": "시장경쟁",
+        "detail": "하위 밸류체인으로 갈수록 경쟁강도가 높아져 가격경쟁 심화는 마진 압박으로 연결될 수 있습니다."
+      },
+      {
+        "factor": "수요구조",
+        "detail": "전력망 포화와 ESS 연계·리파워링 등 수요의 고도화는 제품 포트폴리오와 서비스 경쟁력의 중요성을 확대합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "세계 최고 수준의 태양광 셀과 모듈을 생산 및 공급하고 있으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "태양광 모듈 판매 비중이 전체 매출액의 75%를 차지합니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "374,156 (75.9%)"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5270,
+    "completion_tokens": 4306,
+    "reasoning_tokens": 3520,
+    "output_tokens": 786
+  },
+  "warnings": []
+}

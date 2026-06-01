@@ -1,0 +1,73 @@
+{
+  "stock_code": "475580",
+  "corp_name": "에이럭스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 20:42",
+  "meta": {
+    "wics": "교육서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "에이럭스는 2015년 설립된 로봇·드론 제조 전문 기업으로, 교육용 드론과 로봇을 중심으로 교육 콘텐츠·플랫폼·서비스까지 결합한 융합형 사업을 전개하고 있습니다. 자체 제조 인프라 확보와 수직계열화(지에듀 인수 등)를 통해 하드웨어 생산에서 교육 서비스·공간 운영까지 사업 범위를 확장했습니다.",
+    "business_model": "핵심은 교육용 드론·로봇의 개발·제조(HW)와 교육 콘텐츠·플랫폼·용역(SW/서비스)의 결합을 통한 통합 사업모델이며, 제품 공급에 더해 체험 공간 기획·운영까지 포함한 공간 기반 플랫폼 사업을 추진합니다. 기체·비행제어장치(FC), 전자식 변속기(ESC), BLDC 모터 등 주요 부품을 자체 설계·내재화하고 ODM(주문자상표부착생산) 납품도 병행해 제조·부품·서비스가 결합된 수익 구조를 갖추고 있습니다.",
+    "main_customers": "코딩드론 — 코딩 교육 시장·방과후 교육기관 / CONNECT·TECHNIC(로봇) — 유아·저연령층 대상 교육기관 및 교육서비스 제공자 / 드론(나노·상업용) — 정찰·보안·물류·환경 모니터링 등 산업·상업용 수요처 / 해외(수출) — 북미 등 해외 바이어 / 방산 부문 — 국내 방산 수요처·정부·방위사업체 / 부품(ODM) — OEM·납품처(예: D-soccer)",
+    "price_factors": [
+      {
+        "factor": "시장성장",
+        "detail": "소형·나노 드론 시장의 고성장이 실적 확대 기회가 되어 매출에 긍정적 영향을 미칩니다."
+      },
+      {
+        "factor": "규제·탈중국",
+        "detail": "미국 등 주요국의 중국산 드론 배제·250g 규제 공백은 비중국산 대안으로 수혜가 될 수 있습니다."
+      },
+      {
+        "factor": "공급망국산화",
+        "detail": "국토교통부의 공급망 인정과 자체 부품 내재화는 생산안정성과 원가경쟁력에 직접적 영향을 줍니다."
+      },
+      {
+        "factor": "환율·원가",
+        "detail": "환율 변동과 수입 관세 등은 매출원가와 매출총이익에 실질적 영향을 미칩니다."
+      },
+      {
+        "factor": "방산정책",
+        "detail": "국가 방산정책과 국산화 로드맵 확대는 방산 드론 수요와 수주 기회에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 2015년에 설립된 로봇 및 드론 제조 전문 기업으로"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "하드웨어-소프트웨어 통합 사업모델을 전개하고 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "설립 초기에는 코딩 교육 시장을 중심으로 성장하였으며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나. 산업에 관한 사항",
+        "evidence_text": "250g 미만 '규제 프리' 구간에서 거대한 시장 공백이 발생하고 있습니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 6122,
+    "completion_tokens": 4107,
+    "reasoning_tokens": 3200,
+    "output_tokens": 907
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

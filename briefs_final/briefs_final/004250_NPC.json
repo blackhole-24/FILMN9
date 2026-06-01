@@ -1,0 +1,67 @@
+{
+  "stock_code": "004250",
+  "corp_name": "NPC",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 18:44",
+  "meta": {
+    "wics": "포장재",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "NPC(004250)는 플라스틱 사출제품을 중심으로 하는 화학·포장재 업체로, 연결기준으로 사출제품 제조판매를 지배적 단일사업으로 영위하고 있습니다. 2025년 연결기준 매출은 450,320백만원, 영업이익은 23,574백만원을 기록했습니다.",
+    "business_model": "핵심 사업은 사출제품제조판매로, 2025년 기준 해당 부문 매출 비중은 100%입니다. 매출총이익률(매출에서 원가를 뺀 비율)은 17.1%로 원재료 비용 변화와 판매단가에 민감한 구조입니다.",
+    "main_customers": "사출제품제조판매 — 가정용기류·포장용 제품·건설자재·산업용기류·물류제품·의료기기·가전제품·자동차부품",
+    "price_factors": [
+      {
+        "factor": "원재료가격",
+        "detail": "국제원유가 및 환율 변동이 원재료 가격을 움직여 제품 단가와 수익성에 영향을 줍니다."
+      },
+      {
+        "factor": "내수경기",
+        "detail": "프라스틱 업계는 내수 경기와 연동성이 강해 내수 침체 시 수요와 매출이 감소할 수 있습니다."
+      },
+      {
+        "factor": "경쟁심화",
+        "detail": "진입장벽이 낮아 군소업체가 다수 존재하며 가격경쟁이 심해지면 마진 압박이 커집니다."
+      },
+      {
+        "factor": "규제부담",
+        "detail": "포장용플라스틱 폐기물부담금제도로 인한 비용 부담이 실적에 영향을 줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 사업부문별 현황",
+        "evidence_text": "지배적 단일사업을 영위하고 있으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 (원문 테이블)",
+        "evidence_text": "사출제품제조판매 | 매출액 | 450,319,620"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 업계의 현황 > 1. 프라스틱 산업의 특성",
+        "evidence_text": "가정용기류, 포장용 제품, 건설자재, 산업용기류"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "가. 업계의 현황 > 4. 경쟁요소",
+        "evidence_text": "진입장벽이 매우 낮아져 많은 군소업체들이 난립"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4298,
+    "completion_tokens": 3818,
+    "reasoning_tokens": 3136,
+    "output_tokens": 682
+  },
+  "warnings": []
+}

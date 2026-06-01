@@ -1,0 +1,62 @@
+{
+  "stock_code": "463480",
+  "corp_name": "모티브링크",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 20:26",
+  "meta": {
+    "wics": "자동차부품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "모티브링크는 1977년 전압·전류 제어용 변압기(Transformer) 전문업체로 출발해 가전용 부품에서 자동차 전장용 변압기·코일 중심의 제조사로 전환한 기업입니다. 전동화(전기차) 시장용 OBC(탑재형 충전기), LDC(저전압 DC-DC 컨버터) 등 전력변환 핵심 자성(자기) 부품을 주력으로 생산합니다.",
+    "business_model": "핵심 제품군은 Transformer(변압기)와 Coil(코일) 등 전장용 소자로, 이들 제품은 ICCU, OBC, LDC 등의 전력변환·충전 시스템에 사용됩니다. 2025회계연도 사업부문별 영업수익 구성은 제품 78.1%, 상품 21.4%, 기타 0.5%로 제품(제조) 매출이 대부분을 차지합니다.",
+    "main_customers": "제품 — 주요 완성차 업체 및 전장부품 제조사(예: A사, B그룹사) / 상품 — 완성차 및 부품 구매처 / 기타 — 인공위성·드론·국방·UAM·로봇 관련 산업체",
+    "price_factors": [
+      {
+        "factor": "납품·장기계약",
+        "detail": "완성차 납품사 선정 후 장기간 독점 공급 구조(통상 수년)는 매출 안정성에 직접적 영향을 미칩니다."
+      },
+      {
+        "factor": "품질·인증",
+        "detail": "전장부품은 안전·품질 인증(VDA6.3 등)이 중요해 인증 확보 여부가 수주 및 매출에 직결됩니다."
+      },
+      {
+        "factor": "글로벌 경쟁",
+        "detail": "Pulse electronics 등 기술·가격 경쟁력을 가진 해외업체와의 경쟁은 가격과 시장 점유율에 영향을 줍니다."
+      },
+      {
+        "factor": "전기차 수요",
+        "detail": "EV·PHEV·HEV 시장 성장에 따른 전력변환 부품 수요 증가는 매출 확대 요인입니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 영업 현황",
+        "evidence_text": "1977년 전압, 전류제어용 변압기(Transformer) 전문업체로 설립되었습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "제품: 31,690 (78.1%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경쟁 환경 및 시장 특성 > 라. 경쟁 현황",
+        "evidence_text": "주요 완성차 업체에 부품을 공급"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5494,
+    "completion_tokens": 4212,
+    "reasoning_tokens": 3520,
+    "output_tokens": 692
+  },
+  "warnings": []
+}

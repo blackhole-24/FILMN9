@@ -1,0 +1,57 @@
+{
+  "stock_code": "001340",
+  "corp_name": "PKC",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 17:22",
+  "meta": {
+    "wics": "화학",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "PKC는 염화나트륨을 원료로 알칼리와 염소를 생산하는 무기화학제품 제조업체로, CA(Chlor-Alkali) 사업을 주축으로 한 화공사업이 전체 매출의 대부분을 차지합니다. 소재(특수가스)와 식품첨가제 등으로 사업을 다각화하며 안정적 매출 구조를 유지하고 있습니다.",
+    "business_model": "주요 사업은 CA(Chlor-Alkali), 소재(특수가스), 식품첨가제 및 기타로 구성되며, FY2025 기준 매출 비중은 화공사업 70.0%, 소재(특수가스) 13.8%, 식품첨가제 12.8%, 기타 3.4%입니다. CA는 염소·가성소다 등 기초·중간재를, 소재사업은 반도체·디스플레이용 고순도 특수가스를, 식품첨가제는 솔비톨·말티톨을 각각 생산합니다.",
+    "main_customers": "CA — 기초·중간재 수요 산업(정폐수처리, 제지, 식품가공, 섬유, 석유화학, 첨단소재 등) / 소재(특수가스) — 반도체·디스플레이 공정업체 / 식품첨가제 — 제과·식품·수산물가공·치약·화장품·의약품 관련 업체 / 기타 — 스포츠사업 등 관련 고객",
+    "price_factors": [
+      {
+        "factor": "에너지 가격",
+        "detail": "글로벌 에너지 가격 상승은 가성소다(제품) 국제공급과 가격에 직접 영향을 주어 실적 변동성을 확대합니다."
+      },
+      {
+        "factor": "석유화학 가동률",
+        "detail": "석유화학업계의 가동률 저하 시 CA사업 판매가 주춤해져 매출과 수익성에 부정적 영향을 미칩니다."
+      },
+      {
+        "factor": "반도체 수요",
+        "detail": "반도체·디스플레이 투자가 확대되면 소재(특수가스) 매출이 증가하는 등 실적에 긍정적 영향을 줍니다."
+      },
+      {
+        "factor": "설비 비탄력성",
+        "detail": "설비증설·축소의 비탄력성으로 수요 급변 시 신속한 대응이 어려워 실적 변동성이 커질 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "(1) 사업의 내용",
+        "evidence_text": "당사는 염화나트륨을 원료로 하여 산업 전반에 걸쳐 다양한 용도로 사용되는 알칼리와 염소를 생산하는 무기화학제품 제조업체입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "화공사업: 188,384 (70.0%)"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3966,
+    "completion_tokens": 4699,
+    "reasoning_tokens": 3968,
+    "output_tokens": 731
+  },
+  "warnings": []
+}

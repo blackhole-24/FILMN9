@@ -1,0 +1,72 @@
+{
+  "stock_code": "039200",
+  "corp_name": "오스코텍",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 01:04",
+  "meta": {
+    "wics": "제약",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "오스코텍은 연구중심의 신약개발 및 바이오 기업으로, 관절염·항암제 등 합성신약 개발에 주력해 왔으며 기능성 소재와 치과용 골이식재의 사업화를 통해 사업모델을 확장해 왔습니다. 현재 신약개발을 중심으로 기술도입·공동연구를 진행하며 연구개발 전문 바이오의약품 기업으로 확장하고 있습니다.",
+    "business_model": "핵심 사업은 신약개발사업과 기능성 소재 및 관련제품 사업, 치과용 골이식재 사업으로 구성되어 있으며, 신약개발은 기술이전·마일스톤·로열티(판매 관련 계약수익)를 통해 수익을 창출합니다. FY2025 사업부문별 매출 구성은 치과용 이식재 사업이 0.8%, 기능성 소재 및 관련제품 사업이 0.3%를 차지하고 있습니다.",
+    "main_customers": "신약개발사업 — 국내·해외 제약사(기술이전·공동개발 파트너) / 기능성 소재 및 관련제품 사업 — 건강기능식품 제조업체(소재 구매처) / 치과용 골이식재 사업 — 치과(임상·시술용 제품 사용자)",
+    "price_factors": [
+      {
+        "factor": "기술이전·마일스톤",
+        "detail": "기술이전 또는 마일스톤 유입 시 단기간 매출·이익이 크게 확대되어 실적 변동성이 커집니다."
+      },
+      {
+        "factor": "자가면역 시장 성장",
+        "detail": "류마티스관절염 등 자가면역질환의 환자 증가(시장 성장)는 장기적으로 신약개발의 시장 가치를 높입니다."
+      },
+      {
+        "factor": "경쟁약물의 특성",
+        "detail": "DMARD·생물학제제의 가격·안전성 문제는 신약의 채택과 포지셔닝에 영향을 미쳐 수익성에 직결됩니다."
+      },
+      {
+        "factor": "치과 시장 경쟁력",
+        "detail": "치과용 이식재는 가격경쟁력과 해외진출 여부가 매출 확대에 중요한 변수가 됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 연구중심의 신약개발 및 바이오 기업으로서"
+      },
+      {
+        "field": "business_model",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 주력인 1)신약개발사업(합성신약) 2)기능성 소재 및 관련 제품사업, 3)치과용 골이식재 사업을 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "치과용 이식재 사업: 816 (0.8%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "기능성 소재 및  관련제품 사업: 283 (0.3%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "골이식재 사업 및 차폐막 사업은 주로 치과를 대상으로 한 제품으로,"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4785,
+    "completion_tokens": 3985,
+    "reasoning_tokens": 3136,
+    "output_tokens": 849
+  },
+  "warnings": []
+}

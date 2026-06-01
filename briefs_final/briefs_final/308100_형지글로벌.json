@@ -1,0 +1,71 @@
+{
+  "stock_code": "308100",
+  "corp_name": "형지글로벌",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 10:35",
+  "meta": {
+    "wics": "섬유,의류,신발,호화품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "형지글로벌은 2016년 8월 패션그룹형지㈜의 물적분할을 통해 설립된 회사로, 2014년 인수한 '까스텔바작' 상표권을 바탕으로 골프웨어 사업을 전개해 왔습니다. 프랑스 PMJC社 인수를 통해 '까스텔바작'의 글로벌 상표권을 확보했고, 대만과 중화권으로도 사업을 넓히고 있습니다.",
+    "business_model": "사업부문별 영업수익은 제/상품이 95.2%, 기타가 4.8%로 구성되어 있으며, 핵심은 의류 관련 제품과 상품 판매입니다. 회사는 골프웨어를 중심으로 브랜드를 운영하면서, 제화·잡화·화장품 등으로 브랜드 포트폴리오를 다각화하고 온라인 커머스와 디지털플랫폼에도 힘을 싣고 있습니다. 온라인 사업이 성장함에 따라 개인정보보호 의식도 강화하고 있습니다.",
+    "main_customers": "제/상품 — 골프웨어 및 패션 제품 구매 고객 / 기타 — 온라인 사업 및 부가 서비스 관련 이용자",
+    "price_factors": [
+      {
+        "factor": "골프 수요",
+        "detail": "국내 골프인구와 골프의류 수요 변화가 매출에 직접 영향을 주며, 골프 붐 둔화 시 성장세가 약해질 수 있습니다."
+      },
+      {
+        "factor": "소비심리",
+        "detail": "패션산업은 경기변동과 소비심리에 민감해, 소비심리가 회복되면 패션·골프웨어 수요도 함께 개선될 수 있습니다."
+      },
+      {
+        "factor": "시장경쟁",
+        "detail": "신규 브랜드와 기존 브랜드 간 경쟁이 심화되면 판매 확대와 수익성 확보가 더 어려워질 수 있습니다."
+      },
+      {
+        "factor": "계절성",
+        "detail": "패션 의류는 계절 영향을 크게 받아 특정 시기에 판매가 몰리거나 줄어드는 특성이 있습니다."
+      },
+      {
+        "factor": "온라인전환",
+        "detail": "디지털플랫폼과 온라인 커머스 확대는 판매 채널을 넓히는 요인이지만, 온라인 경쟁도 함께 커질 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "2016년 8월 패션그룹형지㈜로부터 물적분할을 통해 ㈜까스텔바작이 설립되었습니다."
+      },
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 법인설립 이후 프랑스 PMJC社를 인수해 '까스텔바작' 글로벌 상표권을 확보하여"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "제/상품: 29,468,464 (95.2%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "기타: 1,796,966 (4.8%)"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3994,
+    "completion_tokens": 787,
+    "reasoning_tokens": 0,
+    "output_tokens": 787
+  },
+  "warnings": []
+}

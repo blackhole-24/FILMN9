@@ -1,0 +1,76 @@
+{
+  "stock_code": "007110",
+  "corp_name": "일신석재",
+  "_llm_model": "gpt-5.4-mini",
+  "_generated_at": "2026-05-26 09:45",
+  "meta": {
+    "wics": "건축자재",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "일신석재는 원석 채취부터 석재·타일 등 건자재의 가공과 유통, 석공사 시공까지 아우르는 종합 석재 및 인테리어 솔루션 기업입니다. 경기도 포천의 자체 석산, 이천 물류센터 내 가공 시설, 전국 8개 영업지점과 서울 강남의 신성장사업본부를 기반으로 사업을 운영하고 있습니다.",
+    "business_model": "FY2025 기준 석재제조/유통업이 매출의 68.6%로 가장 크고, 석공사업이 30.1%, 임대매출이 1.4%를 차지합니다. 회사는 원석 채취에서 가공·유통, 전문 석공사 시공까지 연결되는 구조이며, 석재산업 특성상 채석업(원자재 생산), 제조업(가공), 유통업(판매·무역), 건설업(시공)이 함께 얽혀 있습니다. 최근에는 인테리어 및 리모델링 수요와 고부가가치 마감재 전환에 대응해 상품 라인업과 유통을 강화하고 있습니다.",
+    "main_customers": "석공사업 — 대형 건설사, 관급 공사 발주처 / 석재제조·유통업 — 건축 마감재 수요처, 온·오프라인 거래처 / 임대매출 — 임차인",
+    "price_factors": [
+      {
+        "factor": "건설경기",
+        "detail": "국내 건축 마감재와 석공사 수요가 건설 경기 흐름에 직접 연결돼 있어, 업황 부진 시 매출과 수주 물량이 줄 수 있습니다."
+      },
+      {
+        "factor": "원자재가",
+        "detail": "고환율과 원자재 가격 상승은 원가 부담을 키워 수익성에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "규제허가",
+        "detail": "채석허가와 석공사 시공은 산지관리법, 건설산업기본법 등의 규제를 받아 인허가와 준수 비용이 중요합니다."
+      },
+      {
+        "factor": "환경관리",
+        "detail": "산림훼손, 발파 소음, 분진 등 환경 이슈는 적지복구비 예치와 공법 개선 부담으로 이어질 수 있습니다."
+      },
+      {
+        "factor": "인테리어수요",
+        "detail": "인테리어·리모델링 시장 확대와 고부가가치 마감재 선호는 석재제조/유통과 시공 수요에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "MD&A",
+        "evidence_text": "원석 채취부터 석재 및 타일 등 건자재의 가공·유통, 그리고 전문 석공사 시공까지 전 과정을 아우르는 종합 석재 및 인테리어 솔루션 기업입니다."
+      },
+      {
+        "field": "company_overview",
+        "source_section": "MD&A",
+        "evidence_text": "경기도 포천 소재의 자체 석산을 통해 고품질 원석을 직접 생산하고 있으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "석공사업: 16,387,153 (30.1%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "석재제조/유통업: 37,371,365 (68.6%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "임대매출: 744,807 (1.4%)"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3688,
+    "completion_tokens": 933,
+    "reasoning_tokens": 0,
+    "output_tokens": 933
+  },
+  "warnings": []
+}

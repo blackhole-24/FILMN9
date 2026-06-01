@@ -268,3 +268,48 @@ check_sector*.py
 # data 배포용 zip 패키지 (Google Drive 전달, GitHub 금지)
 FILMN9_DATA_*.zip
 
+
+
+# 실제 비밀키(DART/OpenAI/MONGO) 포함 개인 환경 인수인계서 — 커밋 절대 금지
+개인PC_개발환경동기화_*.txt
+개인PC_개발환경동기화_CLAUDECODE_인수인계서.txt
+
+
+# ════════════════════════════════════════════════════════════
+# 2026-06-01 GitHub push 제외 분류 (X 항목)
+# ════════════════════════════════════════════════════════════
+# 인수인계서: 개발환경_통합/ 의 팀원 인수인계서 1개만 유지, 나머지 전부 제외
+/팀원_개발환경통합_CLAUDECODE_인수인계서.txt
+휘주님_CLAUDECODE_인수인계서.txt
+휘주님_MongoDB_환경구축_가이드.md
+FILMN9_인수인계서_20260518.txt
+FILMN9_종합_개발환경_인수인계서_최종.txt
+docs/인수인계서_20260522.txt
+handover/
+generate_handover_index.py
+
+# 구버전 (로컬 보관, push 제외)
+/frontend/
+FILMN9_WBS_업데이트_v4.xlsx
+make_schedule_v2.py
+FILMN9_스케줄_v2_AI_Code분업.docx
+FILMN9_스케줄_5월29일_6월5일.pdf
+
+# 작업 로그
+download_log.txt
+parse_log.txt
+fix_audit_log.txt
+redownload_log.txt
+logs/
+
+# 일회성 디버그/탐색 스크립트
+probe_*.py
+debug_xml_parse.py
+diagnose_problem.py
+check_fd.py
+inspect_xml.py
+delete_2022.py
+test_health.py
+test_realtime.py
+_reorg.py
+_list_handover.py

@@ -1,0 +1,67 @@
+{
+  "stock_code": "146320",
+  "corp_name": "비씨엔씨",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 10:22",
+  "meta": {
+    "wics": "반도체와반도체장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "비씨엔씨는 반도체 제조공정에 사용되는 합성쿼츠·천연쿼츠·실리콘·세라믹 기반 소모성 부품을 제조·개발하는 기업입니다. QD9+ 합성쿼츠와 CD9 신소재, 단결정·다결정 실리콘 잉곳 등 국산화 및 양산 공급에 성공하여 반도체 소자업체와 장비사에 제품을 공급하고 있습니다.",
+    "business_model": "핵심 제품은 식각(Etching) 및 박막 증착 공정에 쓰이는 쿼츠·실리콘·세라믹 부품(예: Ring, Tube, Dome 등)으로 고부가가치 소모성 부품을 공급합니다. 2025년 연결기준 소재별 매출비중은 QD9 및 QD9+(합성쿼츠) 부품 67%, 천연쿼츠 부품 17%, 실리콘부품 7%, 세라믹부품 5%, 기타 4%입니다.",
+    "main_customers": "직납(부품 공급) — 반도체 제조회사(소자업체) / 장비사 납품 — 반도체 장비회사",
+    "price_factors": [
+      {
+        "factor": "미세공정 수요",
+        "detail": "10nm 이하 공정 확산으로 초고순도(금속불순물·기공 없음) 합성쿼츠 수요가 증가하면 실적에 긍정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "수요 사이클",
+        "detail": "반도체 업황은 경기와 수급에 민감해 전방 소자업체의 생산계획 변화가 매출 변동으로 직결됩니다."
+      },
+      {
+        "factor": "원재료 국산화",
+        "detail": "합성쿼츠·실리콘 잉곳의 국산화는 공급 안정성과 납기 대응력을 높여 영업 안정성에 기여합니다."
+      },
+      {
+        "factor": "정책·환율",
+        "detail": "보호무역주의 확산과 환율 변동은 수출·공급망과 원가에 영향을 미쳐 실적 변동성 요인이 됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "반도체 제조공정에 사용되는 소모성 부품"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "QD9 및 QD9+(합성쿼츠) 부품 67%"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 2. 영업의 현황",
+        "evidence_text": "반도체 제조회사에 599억 원(68.5%)"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "다. 산업의 현황 및 전망",
+        "evidence_text": "반도체 시장은 연평균 7.6%로 지속 확대"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5804,
+    "completion_tokens": 3981,
+    "reasoning_tokens": 3200,
+    "output_tokens": 781
+  },
+  "warnings": []
+}

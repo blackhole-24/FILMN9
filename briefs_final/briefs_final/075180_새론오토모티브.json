@@ -1,0 +1,67 @@
+{
+  "stock_code": "075180",
+  "corp_name": "새론오토모티브",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 05:38",
+  "meta": {
+    "wics": "자동차부품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "새론오토모티브는 1999년 설립된 자동차 브레이크 전문 제조업체로, Brake Pad(앞·뒤), Brake Lining, Rotor Facing 등 브레이크용 마찰재와 관련 부품을 생산·판매합니다. 자동차 브레이크의 핵심 소재인 마찰재 기술을 바탕으로 부품을 공급하는 기업입니다.",
+    "business_model": "FY2025 연결 영업수익 구성은 상신브레이크 51.0%, KB오토시스 24.0%, 새론오토모티브 14.0%, 기타 11.0%로 보고되며(사업부문별 매출 비중), 회사는 Brake Pad·Brake Lining·Rotor Facing의 제조·공급이 핵심 수익원입니다. 제품별로 프론트·리어 패드와 라이닝 등 자동차 제동(브레이크)용 마찰재 생산이 주된 사업입니다.",
+    "main_customers": "Brake Pad(Front) — 자동차 제조업체 / Brake Pad(Rear) — 자동차 제조업체 / Brake Lining — 자동차 제조업체",
+    "price_factors": [
+      {
+        "factor": "원재료 가격",
+        "detail": "원부재료 단가 상승은 제품 원가를 높여 실적에 부정적 영향을 미칩니다."
+      },
+      {
+        "factor": "판매단가 압력",
+        "detail": "매년 고객의 판매단가 인하가 발생하면 회사의 판매단가와 마진이 하락할 수 있습니다."
+      },
+      {
+        "factor": "환율 변동",
+        "detail": "매출·매입에서 USD, JPY, EUR 노출이 있어 환율 변동 시 수익성에 영향이 발생합니다."
+      },
+      {
+        "factor": "환경규제·처리비용",
+        "detail": "유해물질 규제와 폐수·폐기물 관리 의무 등으로 설비투자 및 운영비용이 증가할 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "1999년 설립된 당사는"
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "새론오토모티브㈜: 1,029 (14.0%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황 > 주2) 구체적 용도",
+        "evidence_text": "Brake Pad(Front) : 자동차 앞바퀴 브레이크부품으로"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나. 주요 제품 등의 가격변동추이",
+        "evidence_text": "원부재료의 단가상승"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5156,
+    "completion_tokens": 3519,
+    "reasoning_tokens": 2816,
+    "output_tokens": 703
+  },
+  "warnings": []
+}

@@ -1,0 +1,71 @@
+{
+  "stock_code": "307930",
+  "corp_name": "컴퍼니케이",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 15:51",
+  "meta": {
+    "wics": "창업투자",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "컴퍼니케이는 중소·벤처기업에 대한 지분투자를 주력으로 하는 벤처캐피탈(VC)로, 조합 결성을 통한 펀드 운용과 투자회수를 통해 수익을 창출합니다. 2025년 말 기준 총자산은 약 874.9억 원으로 운용자산 규모가 확대되고 있습니다.",
+    "business_model": "핵심 수익원은 조합 결성(자금모집) 후 벤처·중소기업에 대한 투자 및 관리, 그리고 M&A·IPO 등 회수를 통한 투자이익 실현(지분법손익 등)이며, FY2025 영업수익 구성은 투자조합수익 51.6%, 조합출자금처분이익 41.3%, 운용투자수익 5.4%, 기타영업수익 1.7%로 구성됩니다.",
+    "main_customers": "펀드조성(자금모집) — 조합원(정책기관·금융기관·연기금·지방단체·일반법인·개인·기관투자자) / 투자집행 — 성장유망 벤처기업·중소기업 / 운용·회수 관련 — 투자조합 및 출자자",
+    "price_factors": [
+      {
+        "factor": "금리·투심",
+        "detail": "고금리 장기화와 투자 심리 위축은 벤처투자 유입과 회수(IPO·M&A) 환경을 악화시켜 펀드결성·회수 시점의 실적 변동성에 영향합니다."
+      },
+      {
+        "factor": "정책자금 의존",
+        "detail": "정책기관(모태펀드 등)의 출자가 펀드조성에서 큰 비중을 차지하므로 정책지원 변화는 자금조달 여건과 조합결성에 직접적 영향을 미칩니다."
+      },
+      {
+        "factor": "출자구성",
+        "detail": "금융기관·일반법인 등 출자자 구성비(예: 금융기관 22.9%, 모태펀드 17.9%)가 조성 안정성에 영향을 미쳐 운용여력과 수수료수익에 연결됩니다."
+      },
+      {
+        "factor": "회수환경",
+        "detail": "IPO·M&A 등 회수시장의 호황·부진은 조합출자금처분이익과 지분법손익에 큰 폭의 실적 변동을 초래합니다."
+      },
+      {
+        "factor": "자산평가",
+        "detail": "투자자산(상장주식 등) 평가가치 상승·하락은 지분법손익을 통해 영업수익에 직접적으로 반영됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 가. 사업 개황",
+        "evidence_text": "당사는 중소·벤처기업에 대한 투자금융을 제공하는 벤처캐피탈"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A) > 가. 재무상태",
+        "evidence_text": "총자산은 약 874.9억 원을 기록하며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "투자조합수익: 10,585,623 (51.6%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 나. 사업의 구조 > (1) 펀드조성(자금모집) 방식",
+        "evidence_text": "조합원은 정책기관, 금융기관 등으로 구분할 수 있으며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3802,
+    "completion_tokens": 5139,
+    "reasoning_tokens": 4224,
+    "output_tokens": 915
+  },
+  "warnings": []
+}

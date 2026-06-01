@@ -1,0 +1,67 @@
+{
+  "stock_code": "052710",
+  "corp_name": "아모텍",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 03:01",
+  "meta": {
+    "wics": "핸드셋",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "아모텍은 세라믹 칩 부품, 안테나 부품 및 BLDC 모터를 주력으로 하는 전기·전자 부품 제조기업입니다. 칩 바리스터(Chip Varistor), EMI 필터(EMI Filter) 등 보호용 부품과 안테나, 자동차용 BLDC 모터를 주요 제품으로 생산하며 MLCC(적층세라믹콘덴서) 등 신규 제품의 양산도 진행하고 있습니다.",
+    "business_model": "FY2025 기준 사업부문 영업수익 구성은 전사 93.5%, 상품 1.8%, 용역 3.0%, 기타 1.7%로 보고되었습니다. 핵심 수익원은 세라믹 칩 부품, 안테나 부품 및 BLDC 모터의 제품 매출이며, 당사는 MLCC 등 고신뢰성 부품의 양산을 통해 자동차·통신·반도체 등 적용 영역 확대를 추진하고 있습니다.",
+    "main_customers": "세라믹 칩 부품 — 국내·해외 휴대폰 제조사 및 디스플레이·가전·산업용 기업 / 안테나 부품 — IT기기 및 자동차 제조사 / BLDC 모터 — 자동차 전장업체 및 소형 팬 적용 기업",
+    "price_factors": [
+      {
+        "factor": "휴대폰 경기",
+        "detail": "휴대폰 등 전방산업의 경기 변동이 세라믹 칩 부문 매출에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "전장 수요",
+        "detail": "자동차 전장용 BLDC 모터와 고신뢰성 MLCC 수요 확대가 실적에 유의미한 영향을 줍니다."
+      },
+      {
+        "factor": "제품 소형화",
+        "detail": "부품의 소형화·고집적화 추세는 최소형 바리스타·소형 CMF 등 제품 채용 증가로 연결됩니다."
+      },
+      {
+        "factor": "고객 다변화",
+        "detail": "국내외 휴대폰 Major로의 공급 확대는 매출 기반의 안정성에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "당사는 세라믹칩, 안테나 및 모터 사업 부문으로 구성되어 있으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "전사: 237,285,713 (93.5%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 사업부문별 현황 ① 세라믹 칩 부품",
+        "evidence_text": "당사는 국내 휴대폰 업체 뿐만 아니라 해외 휴대폰 Major 업체로의 공급"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나. 시장현황 ① 세라믹 칩 부품",
+        "evidence_text": "핸드폰 등 전방산업의 경기에 크게 영향 을 받고 있으며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5546,
+    "completion_tokens": 3387,
+    "reasoning_tokens": 2624,
+    "output_tokens": 763
+  },
+  "warnings": []
+}

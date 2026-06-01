@@ -1,0 +1,81 @@
+{
+  "stock_code": "115610",
+  "corp_name": "이미지스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 08:58",
+  "meta": {
+    "wics": "핸드셋",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "이미지스는 팹리스(설계전문) 반도체 기업으로, 반도체 생산라인을 보유하지 않고 설계와 응용 개발을 수행하며 파운드리(생산위탁)로 생산을 담당하는 소규모 전문업체입니다. 최근 공시 기준 매출은 132억원, 자산총계는 135.54억원 수준으로 재무구조는 비교적 건전합니다.",
+    "business_model": "핵심 제품은 Touch Controller IC(터치 컨트롤러), GRIP Sensor IC(그립 센서), Haptic/MST 등으로 구성되며, 생산은 외부 파운드리에 위탁하는 팹리스 모델(생산 아웃소싱)이 핵심입니다. 사업부문별 매출 비중은 Touch가 50.7%, GRIP가 30.4%, 기타(Haptic/MST)가 18.9%로 집계되어 있습니다.",
+    "main_customers": "Touch — 모바일·노트북·가전제품 제조업체(국내·해외, 예: 삼성전자) / GRIP — 모바일 제조업체(국내·해외) / 기타(Haptic/MST) — 노트북·가전·향후 자동차용 반도체 수요가 있는 제조업체",
+    "price_factors": [
+      {
+        "factor": "제품수명주기",
+        "detail": "반도체 제품의 짧은 수명주기 때문에 신제품 개발 및 출시 속도가 실적에 직접적 영향을 미칩니다."
+      },
+      {
+        "factor": "파운드리 의존",
+        "detail": "자체 생산라인이 없어 파운드리 가동률·수급·가격 변동에 따라 원가와 공급에 영향이 발생합니다."
+      },
+      {
+        "factor": "고객집중도",
+        "detail": "주요 고객(예: 삼성전자 등) 수요 변동이나 거래처 다변화 여부가 매출 변동성에 큰 영향을 줍니다."
+      },
+      {
+        "factor": "제품다각화",
+        "detail": "노트북·가전 외 자동차용 반도체 등 신규 시장 진입은 매출처 다변화 및 수익성 개선에 영향합니다."
+      },
+      {
+        "factor": "기술경쟁력",
+        "detail": "240Hz 이상 터치샘플링 등 기술 우위 유지가 수주 경쟁력과 가격 협상력에 직결됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 산업의 특성",
+        "evidence_text": "반도체 개발 전문 업체입니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "6,597(50.7%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "3,964(30.4%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "2,661(18.9%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "삼성전자 등의 국내업체 및 해외업체에 공급"
+      },
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "매출액 132억원"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3340,
+    "completion_tokens": 3988,
+    "reasoning_tokens": 3136,
+    "output_tokens": 852
+  },
+  "warnings": []
+}

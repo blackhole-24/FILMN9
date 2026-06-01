@@ -1,0 +1,71 @@
+{
+  "stock_code": "079550",
+  "corp_name": "LIG디펜스앤에어로스페이스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 13:15",
+  "meta": {
+    "wics": "우주항공과국방",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "LIG디펜스앤에어로스페이스는 모태인 금성정밀공업이 1976년 설립된 이후 정밀유도무기, 감시정찰, 지휘통제·통신, 항공전자, 전자전 등 다양한 첨단 무기체계를 연구·개발·양산해 온 종합방위산업체입니다. 해외수출을 통해 방산 위상을 알리며 무인화·드론·로봇·인공지능·사이버전 등 미래기술 확보에도 주력하고 있습니다.",
+    "business_model": "FY2025 기준 사업부문별 영업수익 구성은 PGM 47.2%, ISR 12.1%, AEW 13.1%, C4I 24.7%, 기타 2.9%로 구성되어 있으며, 정밀타격(PGM)과 지휘통제·통신(C4I)이 주요 매출 축을 이룹니다. 제품 포트폴리오는 유도무기·탐색기·레이더·전자전장비·통신단말 등 군(軍)용 체계의 설계·개발·양산 및 일부 부품·장비의 외부 공급으로 이뤄집니다.",
+    "main_customers": "PGM — 육군·해군·공군 및 방위사업 기관 / ISR — 군(감시·정찰 임무) 및 방위연구기관 / AEW — 항공·함정 플랫폼 운용 부대 및 방산사업자 / C4I — 지휘통제·통신 운영 주체(군·방위기관) / 기타 — 연구기관·방산업체",
+    "price_factors": [
+      {
+        "factor": "방위예산",
+        "detail": "국가의 대형 방위사업 수주와 예산 배정이 실적과 매출에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "기술수준",
+        "detail": "정밀타격·감시·C4I 등 분야는 최첨단 기술이 요구되어 연구개발 성과가 경쟁력으로 연결됩니다."
+      },
+      {
+        "factor": "환경규제",
+        "detail": "유해화학물질 취급과 배출 규제 강화는 설비투자 및 운영비용에 영향을 줍니다."
+      },
+      {
+        "factor": "개발기간·투자",
+        "detail": "장기간의 개발기간과 대규모 시설투자가 필요해 수익화 시점이 지연될 수 있습니다."
+      },
+      {
+        "factor": "수출동향",
+        "detail": "해외수출 확대 여부가 장기 성장성 및 외형 확대에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "[지배회사의 내용]",
+        "evidence_text": "금성정밀공업은 1976년 자주국방의 기치 아래 설립되었습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "PGM: 2,033,526 (47.2%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "[지배회사의 내용]",
+        "evidence_text": "방위사업청, 국방과학연구소, 국방기술품질원"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "다. 환경물질의 배출 또는 환경보호 관련 정부 규제",
+        "evidence_text": "환경관리 규제를 지속 강화해 나가고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5194,
+    "completion_tokens": 4699,
+    "reasoning_tokens": 3840,
+    "output_tokens": 859
+  },
+  "warnings": []
+}

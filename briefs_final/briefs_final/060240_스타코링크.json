@@ -1,0 +1,72 @@
+{
+  "stock_code": "060240",
+  "corp_name": "스타코링크",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 03:55",
+  "meta": {
+    "wics": "조선",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "스타코링크는 2024년 스타코㈜를 흡수합병하여 조선 선실 사업과 모듈러 건축(Module House) 사업을 핵심으로 영위하는 기업입니다. 조선 선실 모듈 제작을 바탕으로 설계·제작·설치·시운전까지 제공하는 Total Turnkey(일괄공급) 방식을 주력으로 하고 있으며, 모바일 게임 부문은 IP 로열티 중심으로 구조를 재편하고 있습니다.",
+    "business_model": "주요 수익원은 조선 및 해양플랜트 사업으로, 2025년 연결기준으로 조선 및 해양플랜트 사업부문이 92.1%, 모바일 게임 사업부문이 7.2%, 기타 매출이 0.7%를 차지합니다. 제품 측면에서는 FY2025 기준 상품 매출(16.5%), 수수료 매출(0.8%), 임대매출 등(0.7%)으로 구성되며, 조선 선실의 WALL PANEL·CEILING PANEL·UNIT CABIN 등 핵심 기자재를 TOTAL TURNKEY 방식으로 공급하고 IP 로열티(지식재산권 사용료) 수익을 병행합니다.",
+    "main_customers": "조선 및 해양플랜트 — 국내외 조선소 및 해양 에너지 기업 (예: 한화오션, 삼성중공업, Jamestown Metal, Chevron 등) / MODULE HOUSE(모듈러 건축) — 모듈러 건축 수요처(건설·프로젝트 발주처) / 모바일 게임(IP 로열티) — IP 관련 계약처 및 서비스 플랫폼",
+    "price_factors": [
+      {
+        "factor": "단가 압력",
+        "detail": "고객사의 단가 인하 요청이나 생산회사 간 경쟁 심화 시 수익성 악화로 실적에 부정적 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "해외시장 진출",
+        "detail": "미국 등 해외 조선소 등록과 MRO(유지보수·수리) 진출은 신규 매출 기반을 마련해 실적에 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "모듈러 경쟁",
+        "detail": "모듈러 건축 시장에 대기업 참여 및 정부정책 연동으로 경쟁이 심화되면 수주·마진에 영향이 있을 수 있습니다."
+      },
+      {
+        "factor": "원가구조 개선",
+        "detail": "중국 OEM 협약을 통한 원가 절감은 물량 확보와 수익성 개선에 긍정적 영향을 미칠 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황 > 가. 조선 및 해양플랜트 사업",
+        "evidence_text": "조선 선실 사업에서는 선박 내부 거주 공간을 구성하는 기자재를 제조 및 공급하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "경영진 실적·전략 요약 (MD&A) > 가. 진단 내용",
+        "evidence_text": "조선 및 해양플랜트 사업부문은 92.1%"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "상품 매출: 4,084 (16.5%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황 > 가. 조선 및 해양플랜트 사업 (2) 주요 거래처 및 실적",
+        "evidence_text": "당사의 주요 고객은 국내외 조선소 및 해양 에너지 기업입니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황 > 가. 조선 및 해양플랜트 사업 (1) 조선 선실 모듈 제작 기술 및 Turnkey 사업 확대",
+        "evidence_text": "고객사의 단가 인하 요청이나, 생산회사들 간의 경쟁이 심화할 경우 수익성에 악영향을 미칠 수 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4731,
+    "completion_tokens": 4762,
+    "reasoning_tokens": 3776,
+    "output_tokens": 986
+  },
+  "warnings": []
+}

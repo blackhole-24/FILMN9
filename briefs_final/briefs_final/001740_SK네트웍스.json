@@ -1,0 +1,92 @@
+{
+  "stock_code": "001740",
+  "corp_name": "SK네트웍스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 17:38",
+  "meta": {
+    "wics": "복합기업",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "SK네트웍스는 1953년 직물 회사로 창립한 이후 무역·유통을 중심으로 ICT 디바이스 유통, 글로벌 트레이딩, 모빌리티, 환경가전 렌털, 호텔·리조트 등으로 사업영역을 확장해 온 복합기업입니다. 정보통신 유통에서 국내 1위 지위를 보유하고, 데이터·AI 역량을 내재화해 AI 컴퍼니로의 전환을 모색하고 있습니다.",
+    "business_model": "FY2025 기준 사업부문별 영업수익 구성은 정보통신 68.2%, SK인텔릭스(구: SK매직) 12.5%, 트레이딩 8.9%, 스피드메이트 5.2%, 워커힐 4.8%로 정보통신(휴대전화 단말기 도매·ICT 디바이스 유통)이 핵심 수익원입니다. 그 외에 렌털(환경가전·헬스 플랫폼), 자동차 경정비·부품 유통, 글로벌 트레이딩, 호텔·리조트 운영 및 데이터·AI 서비스 등으로 포트폴리오를 다각화하고 있습니다.",
+    "main_customers": "정보통신 — 이동통신사업자·제조사(단말기 도매) / SK네트웍스서비스 — 통신사 및 사업자(네트워크 운영·IT 솔루션) / 민팃(리사이클) — 전국 4,800여 개 생활 거점 및 일반 소비자 / 스피드메이트 — 차량 소유자(일반 및 수입차) / 워커힐 — 호텔·리조트 이용 고객",
+    "price_factors": [
+      {
+        "factor": "단통법 규제",
+        "detail": "단통법 폐지로 이동통신사업자·대리점 간 보조금·요금 경쟁이 재편되며 단말기 유통 마진과 판매 조건에 영향이 생길 수 있습니다."
+      },
+      {
+        "factor": "AI·디바이스",
+        "detail": "단말기 경쟁 포인트가 하드웨어에서 AI 기능·서비스 연동으로 이동함에 따라 제품 구색과 판매 전략이 바뀌어 유통 수요에 영향이 생깁니다."
+      },
+      {
+        "factor": "교체주기·자급제",
+        "detail": "휴대전화 교체주기 연장과 자급제 시장 확대로 전통적 단말기 교체 수요가 둔화될 가능성이 있습니다."
+      },
+      {
+        "factor": "친환경·리사이클",
+        "detail": "중고단말기 리사이클(민팃)과 렌털·ESG 관련 소비 트렌드 확대는 리사이클·렌털 사업의 성장 기회와 브랜드 가치에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "1953년 직물 회사로 창립한 후"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "정보통신 (68.2%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "SK인텔릭스(구 : SK매직) (12.5%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "트레이딩 (8.9%), 스피드메이트 (5.2%), 워커힐 (4.8%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "국내 1위 이동통신 유통사업자"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "전국 4,800여 개 생활 거점"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "전국 570여 개의 매장을 보유한"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "단통법이 폐지되면서"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "단말기 시장의 주요 경쟁 포인트는 AI 기술의 탑재"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5273,
+    "completion_tokens": 6887,
+    "reasoning_tokens": 5760,
+    "output_tokens": 1127
+  },
+  "warnings": []
+}

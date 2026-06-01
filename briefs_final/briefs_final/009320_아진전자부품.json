@@ -1,0 +1,62 @@
+{
+  "stock_code": "009320",
+  "corp_name": "아진전자부품",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 20:21",
+  "meta": {
+    "wics": "자동차부품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "아진전자부품은 2010년 아진산업(주)에 인수된 후 전장부품 중심으로 사업구조를 전환한 자동차 전장 부품 전문업체입니다. 국내 주요 부품사와 완성차 협력망을 기반으로 전기차용 히터류 등 전장제품을 주로 생산하며 해외 거래처도 보유하고 있습니다.",
+    "business_model": "매출은 자동차부문과 콘덴서부문으로 구분되며, FY2025 기준 자동차부문이 96.4%를 차지하고 콘덴서부문이 0.1%를 차지합니다. 핵심 제품은 전기차용 배터리 승온히터·PTC 히터 등 전장부품으로, 완성차(및 부품사)에 납품하는 B2B(기업간 거래) 구조가 주된 수익원입니다.",
+    "main_customers": "자동차부문 — 한온시스템·에이치엘만도·현대모비스 등 국내 부품사 및 Borgwarner·Ficosa 등 해외 거래처",
+    "price_factors": [
+      {
+        "factor": "전기차 수요",
+        "detail": "전기차 보급 확대 시 Heater류 수요 증가로 매출에 직결됩니다."
+      },
+      {
+        "factor": "완성차 연동",
+        "detail": "완성차 개발 일정과 요구사항 변화에 따라 수주와 생산이 직접 영향을 받습니다."
+      },
+      {
+        "factor": "환율·원가",
+        "detail": "환율 및 원가 변동은 수출 이익 및 매출원가율에 즉각적인 영향을 미칩니다."
+      },
+      {
+        "factor": "글로벌 경쟁",
+        "detail": "해외 현지생산 증가와 글로벌 부품사 경쟁 심화는 수주 경쟁력에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 2010년 아진산업(주)에 인수되어"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "자동차부문: 146,338 (96.4%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "국내 주요거래처로는 한온시스템, 에이치엘만도 주식회사, 현대모비스 등이 있으며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4996,
+    "completion_tokens": 3511,
+    "reasoning_tokens": 2880,
+    "output_tokens": 631
+  },
+  "warnings": []
+}

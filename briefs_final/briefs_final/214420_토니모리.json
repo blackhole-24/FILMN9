@@ -1,0 +1,62 @@
+{
+  "stock_code": "214420",
+  "corp_name": "토니모리",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 12:14",
+  "meta": {
+    "wics": "화장품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "토니모리는 2006년 설립된 화장품 브랜드샵 전문기업으로 'Be uncommon'이라는 브랜드 아이덴티티를 바탕으로 기초·색조 화장품을 판매하고 있습니다. (주)토니모리와 8개의 연결회사를 통해 화장품과 반려동물 간식 제조·판매 및 신기술사업금융업을 영위합니다.",
+    "business_model": "핵심 사업은 자체 브랜드 중심의 화장품 판매로, 대표 브랜드는 '토니모리'이며 2021년 런칭한 클린뷰티 브랜드 '튠나인'을 보유하고 있습니다. 제조·생산은 주요 종속회사인 ㈜메가코스와의 협업 및 OEM(주문자상표부착생산)·ODM(제조자개발생산)을 통해 이루어지며, 반려동물 간식 부문(캣찹 등)은 FY2025 영업수익의 2.7%를 차지합니다.",
+    "main_customers": "화장품 — 20~40대 여성 소비자 / 반려동물 간식 — OEM·ODM 방식으로 제품을 공급받는 국내외 고객사",
+    "price_factors": [
+      {
+        "factor": "화장품 규제",
+        "detail": "화장품법과 전성분 표시제도 등 규제 변화는 제품 개발·허가·유통 과정에 영향을 미쳐 실적 변동 요인이 됩니다."
+      },
+      {
+        "factor": "수출 다변화",
+        "detail": "글로벌 채널 확대와 수출국 다변화는 지역별 수요 변화에 따라 매출과 공급망 리스크에 영향을 줍니다."
+      },
+      {
+        "factor": "OEM·ODM 경쟁",
+        "detail": "메가코스·오션 등 제조 역량에 따른 수주 변동은 매출과 원가구조에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "원가구조",
+        "detail": "원가율 변동은 영업이익률에 곧바로 연결되므로 원가율 상승은 수익성 하락 요인이 됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "당사는 2006년 설립된 화장품 브랜드샵 전문기업으로"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "캣찹,바이독 건강동결, 마시꾸냥: 5,976 (2.7%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "당사의 주요 고객층인 20~40대 여성"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5102,
+    "completion_tokens": 4150,
+    "reasoning_tokens": 3456,
+    "output_tokens": 694
+  },
+  "warnings": []
+}

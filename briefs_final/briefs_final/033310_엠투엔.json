@@ -1,0 +1,91 @@
+{
+  "stock_code": "033310",
+  "corp_name": "엠투엔",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 23:56",
+  "meta": {
+    "wics": "자동차부품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "엠투엔은 스틸드럼 제조·전장부품 생산과 신약개발을 병행하는 기업으로, 스틸드럼·전장·신약개발 총 3개 사업을 영위하고 있습니다. 스틸드럼 제조를 기반으로 전장사업(자동차·가전 부품)을 확대했으며, 바이오 분야는 개발단계에서 임상과 FDA 승인 추진을 병행하고 있습니다.",
+    "business_model": "주요 수익원은 전장사업과 스틸드럼사업이며, FY2025 기준 전장 사업부가 58.9%를 차지하고 스틸드럼 사업부가 39.9%를 차지합니다. 바이오(신약개발)는 현재 개발단계로 비용 발생 중심이나 향후 License-Out(기술수출) 등을 통한 매출 전환을 목표로 하고 있습니다.",
+    "main_customers": "스틸드럼 — 석유화학업체(석유화학단지 내 고객) / 전장 — 자동차 HVAC 생산업체·자동차 완성업체·해외(동남아) 바이어 / 가전용 부품 — 에어컨·냉장고 등 완성품 생산업체 / 바이오 — 현재는 개발단계로 매출처 미확정(임상·승인 단계)",
+    "price_factors": [
+      {
+        "factor": "석유화학 수요",
+        "detail": "스틸드럼 매출이 석유화학 시장의 경기흐름에 직접적으로 연동되어 수요 변동이 실적에 영향합니다."
+      },
+      {
+        "factor": "철강(냉연)價",
+        "detail": "스틸드럼 수익성은 원재료인 냉연철강 가격 변동에 민감해 원자재비 상승 시 마진이 악화됩니다."
+      },
+      {
+        "factor": "원자재 수급",
+        "detail": "전장사업은 동·반도체 소자 등 원자재 수급과 국제 원자재 가격 변동이 원가율에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "수주구조",
+        "detail": "스틸드럼은 고객사와 1~2년 단위 수주 계약의 100% 주문생산 구조로 수주 안정성이 실적 변동성을 완화합니다."
+      },
+      {
+        "factor": "가격경쟁",
+        "detail": "스틸드럼 산업은 원가절감을 통한 판매단가 경쟁력이 핵심 경쟁요소여서 원가 관리가 실적에 결정적입니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "당사는 스틸드럼사업, 전장사업, 신약개발사업  총 3개의 사업을 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "- 스틸드럼 사업부: 34,571,549 (39.9%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 사업부문별 영업수익 구성 (FY2025)",
+        "evidence_text": "- 전장 사업부: 50,937,424 (58.9%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "스틸드럼을 제조 및 판매하는 사업입니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "해외 동남아 시장으로 수출판매도 이루어 지고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "DART 사업보고서 — 영업 현황",
+        "evidence_text": "수익성은 원재료인 철강(냉연)가격에 영향을 받습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "100% 주문생산 하고 있으며"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "원가절감을 통한 판매단가의 가격경쟁력이 최대 경쟁요소로 작용하고 있으나"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4570,
+    "completion_tokens": 6708,
+    "reasoning_tokens": 5632,
+    "output_tokens": 1076
+  },
+  "warnings": []
+}

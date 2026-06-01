@@ -1,0 +1,64 @@
+{
+  "stock_code": "014130",
+  "corp_name": "한익스프레스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 12:48",
+  "meta": {
+    "wics": "항공화물운송과물류",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "한익스프레스는 1979년 설립된 종합물류기업으로, 특수화물자동차 운송을 주력으로 합니다. 1989년 증권시장에 상장되었고, 중국·베트남·싱가포르 등 3개 해외 법인과 3개의 국내 자회사 및 베트남 손자회사를 보유하고 있습니다.",
+    "business_model": "핵심 사업은 국내 화물운송(특수화물 포함), 유통물류(3PL), 국제물류(수출입 알선 및 국제복합운송), 창고업 및 물류 도급·용역 등으로 구성되어 있습니다. 또한 물류컨설팅과 물류정보시스템 제공 등 종합물류 솔루션을 통해 고객사의 운송·보관·유통가공 수요를 지원합니다.",
+    "main_customers": "국내운송부문 — 대형 화주(기업 화물) / 유통물류부문 — 유통사·제조사 등 고객사 / 국제물류부문 — 수출입 기업 및 화주 / 창고부문 — 재고 보관이 필요한 제조·유통사 / 용역부문 — 물류 도급을 의뢰하는 기업",
+    "price_factors": [
+      {
+        "factor": "경쟁 심화",
+        "detail": "중소형 물류업체의 난립으로 수익성이 저하되면 운임과 마진에 부정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "제조업 물동량",
+        "detail": "제조업과 수출입 물동량 변동에 따라 운송 수요가 직접 영향을 받아 실적 변동성이 발생합니다."
+      },
+      {
+        "factor": "3PL 수요 증가",
+        "detail": "고객사의 물류 아웃소싱 확대는 3PL·유통물류 부문 매출 확대 가능성을 높입니다."
+      },
+      {
+        "factor": "정책 지원",
+        "detail": "정부의 물류 산업 육성 정책과 인증제도는 종합물류기업의 성장과 서비스 차별화에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "(1) 일반적 사항",
+        "evidence_text": "1979년 5월 설립되어 특수화물자동차 운송업을 주요 사업으로 영위하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "(2) 사업의 개요",
+        "evidence_text": "물류컨설팅 및 물류정보시스템까지 제공하는 종합물류기업입니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "[국내운송부문] (산업의 특성)",
+        "evidence_text": "화물자동차 운송사업은 주로 대형 화주 업체 중심의 기업 화물 운송이 이루어지며"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 3286,
+    "completion_tokens": 4349,
+    "reasoning_tokens": 3648,
+    "output_tokens": 701
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

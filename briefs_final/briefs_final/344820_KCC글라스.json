@@ -1,0 +1,79 @@
+{
+  "stock_code": "344820",
+  "corp_name": "KCC글라스",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 17:00",
+  "meta": {
+    "wics": "건축자재",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "KCC글라스는 2020년 케이씨씨로부터 인적분할 방식으로 신설된 건축자재·유리 전문기업으로, 2020년 코리아오토글라스 흡수합병을 통해 자동차용 유리 역량을 보강했습니다. 2021년 인도네시아 법인 설립 후 2024년 12월부터 현지에서 건축용 유리의 상업 생산을 시작하며 글로벌 판로를 확대하고 있습니다.",
+    "business_model": "주력 사업은 유리(건축용·자동차용), 상품(상재), 인테리어 및 유통(홈씨씨), 파일사업(콘크리트 파일)으로 구성되며, 건축용 유리가 핵심 제품입니다. 홈씨씨를 통한 직영 매장·온라인 판매 및 건설업체·인테리어 파트너를 통한 B2B 유통을 병행하며, 2020년 분할과 2020년 흡수합병을 통해 사업 전문성 및 공급 역량을 강화하였습니다.",
+    "main_customers": "유리(건축용·자동차용) — 건축물(건축용)·국내 자동차업체(자동차용) / 상품(상재) — 주거용·상업용 건축 부문 / 인테리어및 유통(홈씨씨) — 주요 건설업체·인테리어 파트너점·직접 소비자 / 파일사업 — 아파트·학교 등 다중이용시설 및 토목·플랜트 부문",
+    "price_factors": [
+      {
+        "factor": "수입유리 유입",
+        "detail": "말레이시아 등 저가 동남아 수입유리의 국내 유입 확대는 가격경쟁을 심화시켜 마진 압박으로 이어질 수 있습니다."
+      },
+      {
+        "factor": "건설경기",
+        "detail": "국내 건설경기 악화 시 저단가 원재료 수요 증가와 함께 저가제품 경쟁이 강화되어 실적에 부정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "제품 가격 하락",
+        "detail": "건축용 유리 등 주요 제품의 평균 판매가격 하락은 매출 및 이익 수준에 직접적인 하방 요인으로 작용합니다."
+      },
+      {
+        "factor": "고부가 코팅유리 수요",
+        "detail": "로이유리 등 에너지 절약형·코팅유리 수요 확대는 고마진 제품 판매 확대의 기회가 될 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 사업의 개요",
+        "evidence_text": "인적분할 방식으로 주식회사 케이씨씨로부터 분할ㆍ신설되었습니다."
+      },
+      {
+        "field": "company_overview",
+        "source_section": "가. 사업의 개요",
+        "evidence_text": "코리아오토글라스 주식회사를 흡수합병하여"
+      },
+      {
+        "field": "business_model",
+        "source_section": "가. 사업의 개요",
+        "evidence_text": "건축용 유리는 당사의 주력 제품입니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 사업의 개요",
+        "evidence_text": "자동차용 유리는 국내 자동차업체에 최고 품질의 자동차용 안전유리를 공급하고 있습니다."
+      },
+      {
+        "field": "price_factors",
+        "source_section": "나. 주요 제품 등의 가격 변동 현황",
+        "evidence_text": "건축용 유리의 평균 판매 가격은 2024년은 2023년 대비 14.6% 하락하였고"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "라. 시장여건 및 영업의 개황 등",
+        "evidence_text": "수입유리는 말레이시아 등 저가 동남아 수입유리의 국내 유입량이 늘어나고 있습니다."
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 3806,
+    "completion_tokens": 5887,
+    "reasoning_tokens": 4928,
+    "output_tokens": 959
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}

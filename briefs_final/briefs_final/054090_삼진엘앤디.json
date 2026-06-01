@@ -1,0 +1,62 @@
+{
+  "stock_code": "054090",
+  "corp_name": "삼진엘앤디",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 03:22",
+  "meta": {
+    "wics": "전자장비와기기",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "삼진엘앤디는 ESS 케이스와 2차전지용 가스켓 등 부품과 OA(사무기기) 제품을 생산·판매하는 기타제조업체로, 제품사업과 부품사업을 양대 축으로 영업합니다. 본사 별도 기준 매출액은 963억 원을 기록하는 등 중견 규모의 제조사업을 영위하고 있습니다.",
+    "business_model": "사업부문별로 제품사업이 매출의 59.9%(제 품: 81,736), 부품사업이 38.5%(부 품: 52,483), 기타사업이 1.6%(기 타: 2,123)를 차지하며, OA 제품(제품사업)과 ESS/2차전지 부품(부품사업)이 핵심 수익원입니다. 기타사업은 고객사 요청 품목을 보완 공급하는 역할을 합니다.",
+    "main_customers": "부품사업 — ESS·2차전지 완제품 제조사 / 제품사업 — OA 제품 수요처(복사기 주변기기 등) / 기타사업 — 삼성전자 협력사",
+    "price_factors": [
+      {
+        "factor": "디스플레이 경쟁",
+        "detail": "OLED·TFT-LCD 중심의 경쟁 심화와 중국업체의 저가 공세는 디스플레이 부품 가격과 수요에 영향을 미쳐 실적 변동성을 키울 수 있습니다."
+      },
+      {
+        "factor": "2차전지(ESS) 수요",
+        "detail": "신재생 확대에 따른 ESS 수요 증가는 ESS 케이스·가스켓 등 부품사업의 중장기 성장에 긍정적 영향을 줍니다."
+      },
+      {
+        "factor": "전기차 수요 변동",
+        "detail": "'캐즘(Chasm)' 구간에 따른 전기차 수요 정체는 2차전지 관련 부품 수요에 단기적 불확실성을 야기할 수 있습니다."
+      },
+      {
+        "factor": "생산능력 확장",
+        "detail": "글로벌 배터리·소재 업체의 대규모 Capa 증설은 공급망과 원가 구조 변화를 촉발해 부품 공급사 실적에 영향줄 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "본사 별도 기준 매출액은 963억 원을 기록하였으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "부 품: 52,483 (38.5%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 기타사업 부문",
+        "evidence_text": "금형제품은 삼성전자 협력사를 대상으로 공급하는 제품으로 삼성전자의 시장지배력에 맞춰 수요가 결정됩니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4583,
+    "completion_tokens": 5197,
+    "reasoning_tokens": 4480,
+    "output_tokens": 717
+  },
+  "warnings": []
+}

@@ -1,0 +1,62 @@
+{
+  "stock_code": "003310",
+  "corp_name": "대주산업",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 18:28",
+  "meta": {
+    "wics": "식품",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "대주산업은 배합사료를 주력으로 하는 식품(사료)업체로, 연결대상 종속회사로 (주)남전물산을 두고 있습니다. 주로 축산용 사료 생산에 집중하고 있으며 배합사료 매출이 회사 실적의 대부분을 차지합니다.",
+    "business_model": "매출의 대부분(배합사료 99.9%)이 배합사료 판매에서 발생하고, 상품 매출은 소량(0.1%)에 그칩니다. 핵심 수익원은 축종별(양계·양돈 등) 사료 제조 및 판매이며 원료 수입 의존도가 높아 원가 변동성이 수익성에 직접 영향을 미칩니다.",
+    "main_customers": "배합사료 — 양계용·양돈용·기타 축산 사육농가 / 상품 — 자료에 구체적 고객 미기재",
+    "price_factors": [
+      {
+        "factor": "원재료 의존",
+        "detail": "원재료의 대부분을 수입에 의존해 환율·세계기후 등 외부요인에 따른 원가 변동성이 실적에 직접 영향합니다."
+      },
+      {
+        "factor": "수입산 경쟁",
+        "detail": "수입산 축산물이 가격경쟁력을 내세워 유입되면 국내 사료 수요와 가격이 압박을 받아 실적에 부정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "경쟁 심화",
+        "detail": "대기업 계열과 다수의 중소기업 참여로 가격·품질·유통 경쟁이 심화되어 마케팅·설비 투자가 실적 변동요인이 됩니다."
+      },
+      {
+        "factor": "펫푸드 수요",
+        "detail": "펫푸드 시장 성장과 소비자의 영양성분·기호 중심 구매 경향이 제품 포트폴리오 및 매출 구성에 영향을 미칠 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 업계의 현황",
+        "evidence_text": "원재료 수입 의존도가 높아 수익성 변동이 심합니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "■ 매출 구성 (FY최신)",
+        "evidence_text": "배합사료: 104,876 (99.9%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "가. 업계의 현황",
+        "evidence_text": "국내 배합사료 시장은 양계용, 양돈용, 기타 동물용 등으로 세밀하게 분류되고"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3696,
+    "completion_tokens": 3336,
+    "reasoning_tokens": 2688,
+    "output_tokens": 648
+  },
+  "warnings": []
+}

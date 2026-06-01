@@ -1,0 +1,67 @@
+{
+  "stock_code": "002150",
+  "corp_name": "도화엔지니어링",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 17:48",
+  "meta": {
+    "wics": "건설",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "도화엔지니어링은 1957년 창사한 국내 종합 엔지니어링사로, 토목설계 중심의 기술력과 인재를 바탕으로 국내 선도적 지위를 갖추고 있습니다. 물산업·도시·교통·에너지 등 SOC(사회간접자본) 전 분야에서 설계·건설기술·유지관리·신재생에너지사업을 수행하고 있습니다.",
+    "business_model": "핵심은 SOC 전 분야의 엔지니어링(설계·조사·사업타당성·시공관리 등)이며, 전력판매(태양광)와 ESS(에너지저장장치) 사업도 운영합니다. FY2025 사업부문별 영업수익 구성은 CM 22.1%, 해외 18.4%, 에너지 14.8%, 인프라 14.2%, 물산업 13.6%, 도시 8.7%, 교통 7.9%, 기타 0.1%, 전력판매 0.1%, ESS 0.2%로 CM과 해외·에너지 부문 비중이 큽니다.",
+    "main_customers": "엔지니어링부문 — 국가·지방자치단체(관급) 및 민간 건설사·사업시행자 / 전력판매부문 — 현지 국가 등 전력 구매자 / ESS부문 — 산업체(공장 등) 및 전력사용자",
+    "price_factors": [
+      {
+        "factor": "정부 SOC 예산",
+        "detail": "관급 수주 비중이 높아 정부의 SOC 예산 증감이 수주와 실적에 직접적 영향을 미칩니다."
+      },
+      {
+        "factor": "관급 의존도",
+        "detail": "수주의 대부분이 관급이기 때문에 발주처 정책·우선순위 변화에 따라 매출 변동성이 생깁니다."
+      },
+      {
+        "factor": "BIM 의무화",
+        "detail": "BIM·스마트건설 의무화가 확대되면 설계 방식의 디지털 전환이 가속되어 기술력·투자에 따른 경쟁력 차별화가 발생합니다."
+      },
+      {
+        "factor": "환율변동",
+        "detail": "USD·JPY·PEN 등 외화 노출이 있어 환율 변동은 재무제표 환산 및 해외사업 성과에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "당사는 1957년 8월 15일 창사"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "CM: 154,860 (22.1%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "DART 사업보고서 — 영업 현황 (1) 엔지니어링부문",
+        "evidence_text": "주로 국가 및 지방자치단체 등에서 발주하는 관급사업을 수행"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "수주의 대부분이 관급이기 때문에 정부의 SOC 사업예산 변동에 따라 기업실적에 영향을 미치고 있습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4824,
+    "completion_tokens": 4017,
+    "reasoning_tokens": 3200,
+    "output_tokens": 817
+  },
+  "warnings": []
+}

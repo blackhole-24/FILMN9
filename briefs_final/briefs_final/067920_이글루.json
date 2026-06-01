@@ -1,0 +1,67 @@
+{
+  "stock_code": "067920",
+  "corp_name": "이글루",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 05:01",
+  "meta": {
+    "wics": "IT서비스",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "이글루는 1999년 11월 설립된 정보보안 전문기업으로, 보안정보 및 이벤트 관리(SIEM, Security Information and Event Management) 분야를 국내에서 개척해 왔습니다. 자사 SIEM 솔루션은 20년 넘게 국내 시장점유율 1위를 유지하는 등 통합보안관리와 보안서비스를 핵심 역량으로 보유하고 있습니다.",
+    "business_model": "사업은 크게 서비스사업(보안관제·컨설팅 등)과 솔루션·네트워크/보안사업(통합보안관리솔루션 및 네트워크 장비)으로 구성되며, 2025년 매출구조는 서비스매출이 78.1%, 솔루션 및 네트워크/보안 매출이 21.9%를 차지합니다. 서비스사업은 24시간 모니터링·원격·파견 방식의 보안서비스 및 보안컨설팅(취약점 진단, ISMS 등)을 제공하고, 솔루션부문은 SPiDER Ex, SPiDER SOAR, ADC, HCI 등 제품군을 통해 통합관리 플랫폼(SIEM 등)을 공급합니다.",
+    "main_customers": "서비스사업부문 — 기업 및 공공기관 / 솔루션 및 네트워크/보안사업 — 데이터센터·기업 및 공공기관",
+    "price_factors": [
+      {
+        "factor": "서비스비중",
+        "detail": "서비스매출 비중(78.1%)이 높아 관제·유지보수 수요 변동이 실적에 직접적 영향을 미칩니다."
+      },
+      {
+        "factor": "기술변화",
+        "detail": "AI·클라우드·IoT 등 보안 기술 변화(제로트러스트·통합보안 전환)는 제품·서비스 경쟁력과 수주에 영향을 줍니다."
+      },
+      {
+        "factor": "정부정책",
+        "detail": "정부의 정보보호 산업 육성정책과 국가망(N2SF) 등 정책은 공공 수요 확대와 시장 성장성에 직결됩니다."
+      },
+      {
+        "factor": "경쟁심화",
+        "detail": "글로벌·국내 보안기업 간 주도권 경쟁과 협업·제휴 확대는 제품가격과 영업환경에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 지배회사의 내용",
+        "evidence_text": "당사는 글로벌 정보보안기업을 목표로 1999년 11월 설립되었습니다."
+      },
+      {
+        "field": "company_overview",
+        "source_section": "가. 지배회사의 내용",
+        "evidence_text": "SIEM솔루션은 ... 20년 넘게 국내 시장점유율 1위를 차지하고 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "2025년 매출구조는 서비스매출이 78.1%, 솔루션 및 네트워크/보안 등 매출이 21.9%를 차지하고 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "나. 주요종속회사의 내용",
+        "evidence_text": "기업 및 공공기관 대상의 원격·파견 보안서비스"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5763,
+    "completion_tokens": 3947,
+    "reasoning_tokens": 3136,
+    "output_tokens": 811
+  },
+  "warnings": []
+}

@@ -1,0 +1,77 @@
+{
+  "stock_code": "004080",
+  "corp_name": "신흥",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-22 11:22",
+  "meta": {
+    "wics": "건강관리장비와용품",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "신흥은 치과 의료기기·치과재료 및 기타 치과 관련 용품의 제조·판매·유통을 하는 전문 기업으로 전국 지점·유통·A/S망과 제조공장·물류센터를 보유하고 있습니다. 2025년 사업연도(별도) 기준 총 매출은 1,042억원으로 제품 제조와 유통을 결합한 사업구조를 운영합니다.",
+    "business_model": "사업부문별로 상품(유통)이 핵심 수익원이며, FY2025 기준 제품 23.7%, 상품 71.8%, 기타 4.5%로 구성되어 있습니다. 자체 임플란트 제조(신흥MST)와 덴탈비타민 플랫폼·DVmall 등 온·오프라인 유통, 아시아 규모의 통합물류센터와 전국 영업망을 결합한 제조·유통·교육·A/S 통합 모델이 핵심입니다.",
+    "main_customers": "제품 — 치과 의료기관·치과의사 (임플란트·치과기구) / 상품 — 개인치과의원·대학·종합병원·관공서 / 기타 — 치과의사 대상 금융서비스 및 보수·수리(A/S) 서비스",
+    "price_factors": [
+      {
+        "factor": "진입장벽",
+        "detail": "다품종 소량생산과 인증요건으로 신규 사업자 진입이 어렵다는 점이 중장기적 수익성 방어 요인이 됩니다."
+      },
+      {
+        "factor": "임플란트수요",
+        "detail": "임플란트 시장의 지속 성장(생산·수출 증가)은 관련 제품 매출과 수출 확대에 긍정적 영향을 미칩니다."
+      },
+      {
+        "factor": "가격경쟁",
+        "detail": "글로벌 인플레이션 및 경기 둔화 속에서 업체 간 가격경쟁 심화는 마진 압박으로 이어질 수 있습니다."
+      },
+      {
+        "factor": "규제인증",
+        "detail": "의료기기법·KGMP·국가별 인증 요구는 해외 수출과 제품 출시 일정·원가에 직접적인 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "치과의료기기 제조 및 관련 기자재 유통 회사로"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 영업수익 구성 (FY2025)]",
+        "evidence_text": "제품: 3,557 (23.7%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 영업수익 구성 (FY2025)]",
+        "evidence_text": "상품: 74,840 (71.8%)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 영업수익 구성 (FY2025)]",
+        "evidence_text": "기타: 4,663 (4.5%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "□ 주식회사 신흥 > 라. 시장의 안정성",
+        "evidence_text": "개인치과의원 및 대학, 종합병원, 관공서를 대상으로"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "□ 주식회사 신흥 > 마. 경쟁 상황",
+        "evidence_text": "경쟁상황은 매우 치열한 상태입니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5566,
+    "completion_tokens": 4376,
+    "reasoning_tokens": 3520,
+    "output_tokens": 856
+  },
+  "warnings": []
+}

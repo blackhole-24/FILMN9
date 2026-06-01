@@ -1,0 +1,71 @@
+{
+  "stock_code": "340440",
+  "corp_name": "세림B&G",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 16:54",
+  "meta": {
+    "wics": "포장재",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "세림B&G는 진공성형 식품포장용기와 친환경 생분해 필름·봉투를 주력으로 하는 화학(포장재) 기업입니다. 진공성형 제품은 유통사·식품 제조사에 공급되고, 친환경 제품은 소재 개발과 봉투 중심으로 ESG(환경·사회·지배구조) 관련 수요를 공략하고 있습니다.",
+    "business_model": "주요 사업은 진공성형 식품포장용기와 친환경 생분해 필름 및 봉투의 제조·판매이며, FY2025 기준 사업부문별 영업수익 구성에서 PP가 33.3%, 기타가 9.0%로 표기되어 있습니다. 진공성형은 MAP 포장(가스치환)·레토르팅(살균처리) 등 기능성 포장과 대형 유통사 공급을 통해 수익을 창출하고, 친환경 부문은 생분해 소재 개발과 봉투류 판매로 성장 모멘텀을 확보하려는 전략을 병행하고 있습니다.",
+    "main_customers": "진공성형 — 국내 대형마트·할인점, 육가공·제과 등 식품 제조업체 / 친환경 생분해 — 유통업체(마트·편의점) 및 브랜드 친환경화를 추진하는 기업고객, 최종 소비자",
+    "price_factors": [
+      {
+        "factor": "원재료 비용",
+        "detail": "원료가 상승하면 진공성형 사업부의 수익성에 직접적인 압박을 줍니다."
+      },
+      {
+        "factor": "환경 규제",
+        "detail": "『자원의 절약과 재활용 촉진에 관한 법률』 등 규제 강화는 1회용품 매출 구조에 영향을 미칠 수 있습니다."
+      },
+      {
+        "factor": "대형 고객 의존",
+        "detail": "대형 유통사와의 계약 확보 여부가 안정적 판매물량과 수익성에 결정적입니다."
+      },
+      {
+        "factor": "친환경 수요",
+        "detail": "기업들의 친환경 브랜드 전략 확대로 생분해 제품 수요 증가가 매출에 긍정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "경쟁구조",
+        "detail": "포장 용기 시장의 중소·대형 이원화와 설비투자 필요성으로 경쟁 및 수익성 구조가 좌우됩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "진공성형 식품포장용기와 친환경 생분해 필름 및 봉투"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "PP: 16,002,053 (33.3%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 영업 현황",
+        "evidence_text": "특히 국내 대형마트에 납품하는 육가공 용기"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "「자원의 절약과 재활용 촉진에 관한 법률」 등 환경 관련 법률"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4067,
+    "completion_tokens": 3628,
+    "reasoning_tokens": 2816,
+    "output_tokens": 812
+  },
+  "warnings": []
+}

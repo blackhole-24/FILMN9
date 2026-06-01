@@ -1,0 +1,62 @@
+{
+  "stock_code": "014790",
+  "corp_name": "HL D&I",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 21:33",
+  "meta": {
+    "wics": "건설",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "HL D&I는 아파트·오피스텔·주상복합 등 주택 및 건축과 항만·도로·철도 등 토목 분야를 아우르는 종합건설회사입니다. 주거 브랜드로 한라비발디와 2024년 런칭한 에피트(EFETE)를 보유하고, 물류단지 운영·임대·항만·해상운송·폐기물·수처리 등 기타사업도 영위하고 있습니다.",
+    "business_model": "주요 수익원은 건설사업이며 2025 회계연도 기준 건설부문이 매출의 68.7%를 차지합니다. 그 외 토목 16.0%, 자체 9.9%, 기타부문 5.4%가 뒤를 이루며(자체는 자체 개발사업, 기타부문은 물류·해상운송·폐기물·수처리 등), 기본적으로 발주를 받아 시공하는 수주산업(주문형 시공)이 핵심 비즈니스 구조입니다.",
+    "main_customers": "건설부문 — 민간·공공 발주자(주택·건축 관련 발주자) / 토목 — 정부·공공기관 발주자(항만·도로·철도 등) / 자체 — 자체 개발사업의 최종 수요자(분양·임차 대상) / 기타부문 — 물류단지 임차인·해상운송·폐기물·수처리 서비스 수요처",
+    "price_factors": [
+      {
+        "factor": "수주환경",
+        "detail": "정부 재정투자 규모와 발주처 수요 변화에 따라 토목·건설 수주와 실적이 직접 영향을 받습니다."
+      },
+      {
+        "factor": "경기변동성",
+        "detail": "건설·주택사업은 경기순환에 민감하여 경기하강 시 수주·분양·매출이 감소할 수 있습니다."
+      },
+      {
+        "factor": "원가경쟁력",
+        "detail": "시장 진입이 용이하고 경쟁이 치열해 원가경쟁력이 약화되면 수익성에 부정적 영향을 줄 수 있습니다."
+      },
+      {
+        "factor": "기술·브랜드 차별화",
+        "detail": "설계·친환경·스마트홈 등 차별화된 기술·브랜드 요소가 경쟁우위 및 분양 매력에 기여합니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "가. 사업부문의 구분",
+        "evidence_text": "건설사업부문은 아파트/오피스텔/주상복합 등"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "건설부문: 1,195,914 (68.7%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "경쟁 환경 및 시장 특성",
+        "evidence_text": "주로 발주자로부터 주문을 받아 생산활동에 착수하고"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 3682,
+    "completion_tokens": 3369,
+    "reasoning_tokens": 2624,
+    "output_tokens": 745
+  },
+  "warnings": []
+}

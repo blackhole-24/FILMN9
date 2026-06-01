@@ -247,13 +247,41 @@ const SCENARIO_CONFIG = [
   },
 ];
 
+/** 상장폐지·거래정지·관리종목 배너 (주가차트/재무탭 빈 영역 대체) */
+function ListingStatusBanner({ s, compact = false }: { s: any; compact?: boolean }) {
+  if (!s || s.status === 'NORMAL' || !s.label) return null;
+  const theme: Record<string, { box: string; emoji: string }> = {
+    DELISTED: { box: 'bg-rose-50 border-rose-300 text-rose-800',     emoji: '🚫' },
+    HALT:     { box: 'bg-amber-50 border-amber-300 text-amber-800',  emoji: '⏸️' },
+    ADMIN:    { box: 'bg-yellow-50 border-yellow-300 text-yellow-800',emoji: '⚠️' },
+  };
+  const t = theme[s.status] || theme.HALT;
+  return (
+    <div className={`flex items-start gap-3 border rounded-lg ${t.box} ${compact ? 'px-4 py-3' : 'px-5 py-6 justify-center text-center flex-col items-center'}`}>
+      <div className={compact ? 'text-xl' : 'text-3xl'}>{t.emoji}</div>
+      <div>
+        <div className={`font-bold ${compact ? 'text-sm' : 'text-base'}`}>{s.label}</div>
+        {s.reason && <div className="text-xs mt-1 opacity-80">사유: {s.reason}</div>}
+        {s.ref_date && (
+          <div className="text-xs mt-1 opacity-70">
+            {s.status === 'DELISTED' ? `상장폐지일: ${s.ref_date}` :
+             s.status === 'ADMIN'    ? `지정일: ${s.ref_date}` :
+             s.status === 'HALT'     ? `거래정지일: ${s.ref_date}` : ''}
+          </div>
+        )}
+        {!compact && <div className="text-[11px] mt-2 opacity-60">출처: 한국거래소</div>}
+      </div>
+    </div>
+  );
+}
+
 export default function StockPage() {
   const { code } = useParams<{ code: string }>();
   const router = useRouter();
 
   // ─── 상태 ─────────────────────────────────────────────────────
   const [mainTab,  setMainTab]  = useState<MainTab>('overview');
-  const [finTab,   setFinTab]   = useState<FinTab>('BS');
+  const [finTab,   setFinTab]   = useState<FinTab>('SANKEY');
   const [valTab,   setValTab]   = useState<ValTab>('dcf');
   const [period,   setPeriod]   = useState('3M');
   const [dark,     setDark]     = useState(false);
@@ -270,7 +298,201 @@ export default function StockPage() {
   const [credit,       setCredit]       = useState<any[]>([]);
   const [realtime,     setRealtime]     = useState<any>(null);
   const [news,         setNews]         = useState<any[]>([]);
+  const [listStatus,   setListStatus]   = useState<any>(null);  // 상장폐지/거래정지 상태
   const [loadingMain,  setLoadingMain]  = useState(true);
+  // 서비스 내 DART 뷰어 (다중 탭 + 드래그 + 리사이즈 + 전체화면)
+  type DartTab = { rcept_no: string; title: string };
+  type DartViewerState = {
+    tabs: DartTab[];
+    activeIdx: number;
+    pos: { x: number; y: number };
+    size: { w: number; h: number };
+    isFullscreen: boolean;
+  };
+  const [dartViewer, setDartViewer] = useState<DartViewerState | null>(null);
+  // 분리된 독립 팝업들 (하이브리드)
+  type DetachedDart = { id: string; rcept_no: string; title: string; pos: {x:number,y:number}; size: {w:number,h:number}; isFullscreen: boolean };
+  const [detachedDarts, setDetachedDarts] = useState<DetachedDart[]>([]);
+  const dartDragRef = useRef<{
+    startX:number, startY:number,
+    origPos:{x:number,y:number},
+    mode:'drag'|'resize'|null,
+    edge?:string,
+    origSize?:{w:number,h:number},
+    target:'main' | string,   // 'main' = 메인 팝업, string = detached id
+  } | null>(null);
+
+  const openDart = (item: DartTab) => {
+    setDartViewer(prev => {
+      if (typeof window === 'undefined') return prev;
+      if (!prev) {
+        const w = Math.min(1100, window.innerWidth - 80);
+        const h = Math.min(720, window.innerHeight - 80);
+        return {
+          tabs: [item], activeIdx: 0,
+          pos: { x: Math.max(20, (window.innerWidth - w) / 2), y: Math.max(20, (window.innerHeight - h) / 2) },
+          size: { w, h }, isFullscreen: false,
+        };
+      }
+      const existing = prev.tabs.findIndex(t => t.rcept_no === item.rcept_no);
+      if (existing >= 0) return { ...prev, activeIdx: existing };
+      // 최대 5개 제한 (메모리 부담 방지)
+      if (prev.tabs.length >= 5) {
+        alert('최대 5개까지만 동시에 열 수 있습니다. 일부 탭을 닫아주세요.');
+        return prev;
+      }
+      return { ...prev, tabs: [...prev.tabs, item], activeIdx: prev.tabs.length };
+    });
+  };
+
+  const closeDartTab = (idx: number) => {
+    setDartViewer(prev => {
+      if (!prev) return null;
+      if (prev.tabs.length === 1) return null;
+      const newTabs = prev.tabs.filter((_, i) => i !== idx);
+      const newActive = idx < prev.activeIdx ? prev.activeIdx - 1
+                       : idx === prev.activeIdx ? Math.min(idx, newTabs.length - 1)
+                       : prev.activeIdx;
+      return { ...prev, tabs: newTabs, activeIdx: Math.max(0, newActive) };
+    });
+  };
+
+  const toggleDartFullscreen = () => {
+    setDartViewer(prev => prev ? { ...prev, isFullscreen: !prev.isFullscreen } : prev);
+  };
+
+  // 메인·분리 팝업 공통 드래그·리사이즈
+  useEffect(() => {
+    const onMove = (e: MouseEvent) => {
+      const d = dartDragRef.current;
+      if (!d || !d.mode) return;
+      const dx = e.clientX - d.startX;
+      const dy = e.clientY - d.startY;
+      const applyToMain = (prev: DartViewerState | null) => {
+        if (!prev) return prev;
+        if (d.mode === 'drag') return { ...prev, pos: { x: d.origPos.x + dx, y: d.origPos.y + dy } };
+        if (d.mode === 'resize' && d.origSize && d.edge) {
+          let newW = d.origSize.w, newH = d.origSize.h, newX = d.origPos.x, newY = d.origPos.y;
+          if (d.edge.includes('e')) newW = Math.max(400, d.origSize.w + dx);
+          if (d.edge.includes('w')) { newW = Math.max(400, d.origSize.w - dx); newX = d.origPos.x + dx; }
+          if (d.edge.includes('s')) newH = Math.max(300, d.origSize.h + dy);
+          if (d.edge.includes('n')) { newH = Math.max(300, d.origSize.h - dy); newY = d.origPos.y + dy; }
+          return { ...prev, size: { w: newW, h: newH }, pos: { x: newX, y: newY } };
+        }
+        return prev;
+      };
+      const applyToDetached = (arr: DetachedDart[]) => arr.map(p => {
+        if (p.id !== d.target) return p;
+        if (d.mode === 'drag') return { ...p, pos: { x: d.origPos.x + dx, y: d.origPos.y + dy } };
+        if (d.mode === 'resize' && d.origSize && d.edge) {
+          let newW = d.origSize.w, newH = d.origSize.h, newX = d.origPos.x, newY = d.origPos.y;
+          if (d.edge.includes('e')) newW = Math.max(400, d.origSize.w + dx);
+          if (d.edge.includes('w')) { newW = Math.max(400, d.origSize.w - dx); newX = d.origPos.x + dx; }
+          if (d.edge.includes('s')) newH = Math.max(300, d.origSize.h + dy);
+          if (d.edge.includes('n')) { newH = Math.max(300, d.origSize.h - dy); newY = d.origPos.y + dy; }
+          return { ...p, size: { w: newW, h: newH }, pos: { x: newX, y: newY } };
+        }
+        return p;
+      });
+      if (d.target === 'main') setDartViewer(applyToMain);
+      else setDetachedDarts(applyToDetached);
+    };
+    const onUp = () => { if (dartDragRef.current) dartDragRef.current.mode = null; };
+    window.addEventListener('mousemove', onMove);
+    window.addEventListener('mouseup', onUp);
+    return () => {
+      window.removeEventListener('mousemove', onMove);
+      window.removeEventListener('mouseup', onUp);
+    };
+  }, []);
+
+  const startDartDrag = (e: React.MouseEvent) => {
+    if (!dartViewer || dartViewer.isFullscreen) return;
+    dartDragRef.current = { startX: e.clientX, startY: e.clientY, origPos: dartViewer.pos, mode: 'drag', target: 'main' };
+  };
+
+  const startDartResize = (edge: string) => (e: React.MouseEvent) => {
+    if (!dartViewer || dartViewer.isFullscreen) return;
+    e.stopPropagation();
+    dartDragRef.current = {
+      startX: e.clientX, startY: e.clientY,
+      origPos: dartViewer.pos, origSize: dartViewer.size,
+      mode: 'resize', edge, target: 'main',
+    };
+  };
+
+  const startDetachedDrag = (id: string) => (e: React.MouseEvent) => {
+    const p = detachedDarts.find(x => x.id === id);
+    if (!p || p.isFullscreen) return;
+    dartDragRef.current = { startX: e.clientX, startY: e.clientY, origPos: p.pos, mode: 'drag', target: id };
+  };
+
+  const startDetachedResize = (id: string, edge: string) => (e: React.MouseEvent) => {
+    const p = detachedDarts.find(x => x.id === id);
+    if (!p || p.isFullscreen) return;
+    e.stopPropagation();
+    dartDragRef.current = {
+      startX: e.clientX, startY: e.clientY,
+      origPos: p.pos, origSize: p.size,
+      mode: 'resize', edge, target: id,
+    };
+  };
+
+  // 탭을 별도 팝업으로 분리
+  const detachTab = (idx: number) => {
+    if (!dartViewer) return;
+    const tab = dartViewer.tabs[idx];
+    if (!tab) return;
+    const offset = detachedDarts.length * 32;
+    const w = 800, h = 560;
+    const newPopup: DetachedDart = {
+      id: `${tab.rcept_no}_${Date.now()}`,
+      rcept_no: tab.rcept_no, title: tab.title,
+      pos: { x: 80 + offset, y: 80 + offset },
+      size: { w, h }, isFullscreen: false,
+    };
+    setDetachedDarts(prev => [...prev, newPopup]);
+    // 메인 팝업에서 탭 제거 (마지막이면 메인 팝업 자체 닫음)
+    setDartViewer(prev => {
+      if (!prev) return null;
+      if (prev.tabs.length === 1) return null;
+      const newTabs = prev.tabs.filter((_, i) => i !== idx);
+      const newActive = idx < prev.activeIdx ? prev.activeIdx - 1
+                       : idx === prev.activeIdx ? Math.min(idx, newTabs.length - 1)
+                       : prev.activeIdx;
+      return { ...prev, tabs: newTabs, activeIdx: Math.max(0, newActive) };
+    });
+  };
+
+  const closeDetached = (id: string) =>
+    setDetachedDarts(prev => prev.filter(p => p.id !== id));
+
+  const toggleDetachedFullscreen = (id: string) =>
+    setDetachedDarts(prev => prev.map(p => p.id === id ? { ...p, isFullscreen: !p.isFullscreen } : p));
+  // 공시 탭 (전자공시 / 공급계약)
+  const [discTab, setDiscTab] = useState<'dart'|'supply'>('dart');
+  const [supplyContracts, setSupplyContracts] = useState<any[]>([]);
+  const [supplyLoading, setSupplyLoading] = useState(false);
+  // 고객사·경쟁사 (히스토리 브리핑 3번)
+  const [peers, setPeers] = useState<any>(null);
+  // 전자공시 (DART 실시간)
+  const [dartList, setDartList] = useState<any>(null);
+  const [dartLoading, setDartLoading] = useState(false);
+  const [dartPeriod, setDartPeriod] = useState<'1m'|'6m'|'1y'|'3y'|'5y'|'10y'>('1y');
+  const [dartTypes, setDartTypes] = useState<Set<string>>(new Set());  // 빈 set = 전체
+  const [dartPage, setDartPage] = useState(1);
+  const [dartPageSize, setDartPageSize] = useState(15);
+
+  // 전자공시 조회 함수
+  const fetchDartList = (period=dartPeriod, types=dartTypes, page=dartPage, pageSize=dartPageSize) => {
+    setDartLoading(true);
+    const typesParam = types.size > 0 ? `&types=${Array.from(types).join(',')}` : '';
+    fetch(`${API}/api/dart_disclosures/${code}?period=${period}&page=${page}&page_count=${pageSize}${typesParam}`)
+      .then(r => r.json())
+      .then(d => setDartList(d))
+      .catch(() => setDartList({items:[], total_count:0, total_page:0}))
+      .finally(() => setDartLoading(false));
+  };
 
   const [miniSearch,   setMiniSearch]   = useState('');
   const [miniResults,  setMiniResults]  = useState<any[]>([]);
@@ -434,6 +656,12 @@ export default function StockPage() {
         fetch(`${API}/api/health/${code}`).then(r=>r.json()).then(setHealth).catch(()=>{}),
         fetch(`${API}/api/credit/${code}`).then(r=>r.json()).then(d=>setCredit(d.items||[])).catch(()=>{}),
         fetch(`${API}/api/news/${code}?limit=6`).then(r=>r.json()).then(d=>setNews(d.items||[])).catch(()=>{}),
+        // 전자공시 초기 로드 (1년, 15건)
+        fetch(`${API}/api/dart_disclosures/${code}?period=1y&page=1&page_count=15`).then(r=>r.json()).then(setDartList).catch(()=>setDartList({items:[],total_count:0,total_page:0})),
+        // 고객사·경쟁사
+        fetch(`${API}/api/peers/${code}`).then(r=>r.json()).then(setPeers).catch(()=>{}),
+        // 상장 상태 (상장폐지/거래정지/관리종목)
+        fetch(`${API}/api/stock_status/${code}`).then(r=>r.json()).then(setListStatus).catch(()=>{}),
       ]);
       setLoadingMain(false);
     };
@@ -468,6 +696,29 @@ export default function StockPage() {
       setMiniResults(res.results||[]);
       setMiniOpen(true);
     } catch {}
+  };
+
+  // 엔터로 즉시 이동: 입력값을 코드로 해석해 바로 종목 페이지로 push
+  const goMiniSearch = async () => {
+    const q = miniSearch.trim();
+    if (!q) return;
+    // 6자리 종목코드를 그대로 입력한 경우
+    if (/^[0-9A-Z]{6}$/.test(q)) { router.push(`/stock/${q}`); setMiniOpen(false); return; }
+    // 이미 받아온 결과가 있으면 우선 사용 (정확한 기업명 일치 → 없으면 첫 결과)
+    let list = miniResults;
+    if (!list.length) {
+      try {
+        const res = await fetch(`${API}/api/search?q=${encodeURIComponent(q)}&limit=8`).then(r=>r.json());
+        list = res.results || [];
+      } catch {}
+    }
+    if (!list.length) return;
+    const exact = list.find((r:any)=> (r.corp_name||'').replace(/\s/g,'') === q.replace(/\s/g,''))
+               || list.find((r:any)=> r.stock_code === q);
+    const target = exact || list[0];
+    router.push(`/stock/${target.stock_code}`);
+    setMiniOpen(false);
+    setMiniSearch('');
   };
 
   // ─── 파생 데이터 ─────────────────────────────────────────────
@@ -526,11 +777,11 @@ export default function StockPage() {
     year: String(r.year), num: GRADE_TO_NUM[r.grade]||0, grade: r.grade
   }));
 
-  // 건전성 바 설정
-  const healthMetaMap: Record<string,{label:string;max:number}> = {
-    debt_ratio:    { label:'부채비율',   max:300 },
-    current_ratio: { label:'유동비율',   max:300 },
-    op_margin:     { label:'영업이익률', max:30  },
+  // 건전성 바 설정 + 의미 설명
+  const healthMetaMap: Record<string,{label:string;max:number;hint:string}> = {
+    debt_ratio:    { label:'부채비율',   max:300, hint:'부채/자본 (100% 이하 우량, 200% 초과 주의)' },
+    current_ratio: { label:'유동비율',   max:300, hint:'유동자산/유동부채 (150% 이상 우량)' },
+    op_margin:     { label:'영업이익률', max:30 , hint:'영업이익/매출 (10% 이상 우량)' },
   };
   const gradeColor: Record<string,string> = {
     green: 'bg-emerald-100 text-emerald-700',
@@ -647,6 +898,154 @@ export default function StockPage() {
   return (
     <div className="min-h-screen bg-slate-50 dark:bg-slate-900">
 
+      {/* ── DART 뷰어 팝업 (드래그·8방향 리사이즈·전체화면·다중탭) ── */}
+      {dartViewer && (() => {
+        const fs = dartViewer.isFullscreen;
+        const activeTab = dartViewer.tabs[dartViewer.activeIdx];
+        const style: React.CSSProperties = fs
+          ? { position: 'fixed', top: 0, left: 0, width: '100vw', height: '100vh', zIndex: 110 }
+          : { position: 'fixed', top: dartViewer.pos.y, left: dartViewer.pos.x,
+              width: dartViewer.size.w, height: dartViewer.size.h, zIndex: 110 };
+        return (
+          <>
+            {!fs && <div className="fixed inset-0 z-[105] bg-black/20 pointer-events-none" />}
+            <div style={style}
+                 className="bg-white dark:bg-slate-800 rounded-xl shadow-2xl flex flex-col border-2 border-indigo-500/40 overflow-hidden">
+              {/* 헤더 (드래그 영역) */}
+              <div className={`flex items-center px-4 py-2 border-b border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-900 ${fs ? '' : 'cursor-move'} select-none`}
+                   onMouseDown={fs ? undefined : startDartDrag}>
+                <span className="px-2 py-0.5 bg-indigo-100 text-indigo-700 dark:bg-indigo-900 dark:text-indigo-300 text-xs font-bold rounded flex-shrink-0">DART 공시</span>
+                <span className="ml-2 text-xs text-slate-500 hidden sm:inline">
+                  {dartViewer.tabs.length > 1 ? `${dartViewer.tabs.length}개 동시 열림 (최대 5)` : (fs ? '전체화면' : '드래그·모서리 리사이즈 가능')}
+                </span>
+                <div className="ml-auto flex items-center gap-1 flex-shrink-0" onMouseDown={(e)=>e.stopPropagation()}>
+                  <a href={`https://dart.fss.or.kr/dsaf001/main.do?rcpNo=${activeTab.rcept_no}`}
+                     target="_blank" rel="noreferrer"
+                     className="text-xs text-slate-500 hover:text-indigo-600 px-2 py-1 rounded border border-slate-200 dark:border-slate-600">
+                    새 탭 ↗
+                  </a>
+                  <button onClick={toggleDartFullscreen}
+                          title={fs ? '원래 크기' : '전체화면'}
+                          className="w-8 h-8 rounded hover:bg-slate-200 dark:hover:bg-slate-700 flex items-center justify-center text-slate-600 dark:text-slate-300 text-base">
+                    {fs ? '⊟' : '⛶'}
+                  </button>
+                  <button onClick={()=>setDartViewer(null)}
+                          title="모두 닫기"
+                          className="w-8 h-8 rounded-full hover:bg-red-100 hover:text-red-700 dark:hover:bg-red-900 flex items-center justify-center text-slate-500 font-bold">
+                    ✕
+                  </button>
+                </div>
+              </div>
+
+              {/* 탭 바 (공시 여러 개) */}
+              <div className="flex items-stretch gap-0.5 px-2 py-1 bg-slate-100 dark:bg-slate-900/50 overflow-x-auto border-b border-slate-200 dark:border-slate-700"
+                   onMouseDown={(e)=>e.stopPropagation()}>
+                {dartViewer.tabs.map((tab, i) => (
+                  <div key={tab.rcept_no}
+                       className={`flex items-center gap-1 px-3 py-1.5 rounded-t cursor-pointer max-w-[280px] flex-shrink-0 group ${
+                         i === dartViewer.activeIdx
+                           ? 'bg-white dark:bg-slate-800 border-t border-l border-r border-slate-300 dark:border-slate-600 text-slate-800 dark:text-slate-100 font-semibold'
+                           : 'bg-slate-200/60 dark:bg-slate-700/50 text-slate-600 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-700'
+                       }`}
+                       onClick={()=>setDartViewer(prev => prev ? { ...prev, activeIdx: i } : prev)}>
+                    <span className="text-xs truncate" title={tab.title}>{tab.title}</span>
+                    <button onClick={(e)=>{e.stopPropagation(); detachTab(i);}}
+                            title="새 창으로 분리"
+                            className="w-4 h-4 rounded hover:bg-indigo-200 dark:hover:bg-indigo-700 flex items-center justify-center text-indigo-500 text-[10px] opacity-60 group-hover:opacity-100">
+                      🗗
+                    </button>
+                    <button onClick={(e)=>{e.stopPropagation(); closeDartTab(i);}}
+                            title="탭 닫기"
+                            className="w-4 h-4 rounded-full hover:bg-slate-300 dark:hover:bg-slate-600 flex items-center justify-center text-slate-500 text-[10px] opacity-60 group-hover:opacity-100">
+                      ✕
+                    </button>
+                  </div>
+                ))}
+                <div className="flex items-center px-2 text-[10px] text-slate-400 whitespace-nowrap">
+                  💡 새 공시 클릭 → 탭 추가 · 🗗 → 별도 창 분리
+                </div>
+              </div>
+
+              {/* iframe 본문 */}
+              <iframe src={`https://dart.fss.or.kr/dsaf001/main.do?rcpNo=${activeTab.rcept_no}`}
+                      key={activeTab.rcept_no}
+                      className="flex-1 w-full"
+                      style={{border:'none'}}
+                      title={activeTab.title}
+                      sandbox="allow-scripts allow-same-origin allow-forms allow-popups"/>
+
+              {/* 8방향 리사이즈 핸들 (전체화면 아닐 때만) */}
+              {!fs && (
+                <>
+                  <div onMouseDown={startDartResize('nw')} className="absolute top-0 left-0 w-3 h-3 cursor-nwse-resize z-10" />
+                  <div onMouseDown={startDartResize('ne')} className="absolute top-0 right-0 w-3 h-3 cursor-nesw-resize z-10" />
+                  <div onMouseDown={startDartResize('sw')} className="absolute bottom-0 left-0 w-3 h-3 cursor-nesw-resize z-10" />
+                  <div onMouseDown={startDartResize('se')} className="absolute bottom-0 right-0 w-3 h-3 cursor-nwse-resize z-10" />
+                  <div onMouseDown={startDartResize('n')} className="absolute top-0 left-3 right-3 h-1 cursor-ns-resize z-10" />
+                  <div onMouseDown={startDartResize('s')} className="absolute bottom-0 left-3 right-3 h-1 cursor-ns-resize z-10" />
+                  <div onMouseDown={startDartResize('w')} className="absolute left-0 top-3 bottom-3 w-1 cursor-ew-resize z-10" />
+                  <div onMouseDown={startDartResize('e')} className="absolute right-0 top-3 bottom-3 w-1 cursor-ew-resize z-10" />
+                </>
+              )}
+            </div>
+          </>
+        );
+      })()}
+
+      {/* ── 분리된 독립 DART 팝업들 ── */}
+      {detachedDarts.map((p) => {
+        const fs = p.isFullscreen;
+        const style: React.CSSProperties = fs
+          ? { position: 'fixed', top: 0, left: 0, width: '100vw', height: '100vh', zIndex: 115 }
+          : { position: 'fixed', top: p.pos.y, left: p.pos.x, width: p.size.w, height: p.size.h, zIndex: 112 };
+        return (
+          <div key={p.id} style={style}
+               className="bg-white dark:bg-slate-800 rounded-xl shadow-2xl flex flex-col border-2 border-emerald-500/50 overflow-hidden">
+            {/* 헤더 (드래그 영역) */}
+            <div className={`flex items-center px-4 py-2 border-b border-slate-200 dark:border-slate-700 bg-emerald-50 dark:bg-emerald-900/20 ${fs ? '' : 'cursor-move'} select-none`}
+                 onMouseDown={fs ? undefined : startDetachedDrag(p.id)}>
+              <span className="px-2 py-0.5 bg-emerald-100 text-emerald-700 dark:bg-emerald-900 dark:text-emerald-300 text-xs font-bold rounded flex-shrink-0">분리 창</span>
+              <span className="ml-2 font-semibold text-slate-800 dark:text-slate-100 truncate text-xs">{p.title}</span>
+              <div className="ml-auto flex items-center gap-1 flex-shrink-0" onMouseDown={(e)=>e.stopPropagation()}>
+                <a href={`https://dart.fss.or.kr/dsaf001/main.do?rcpNo=${p.rcept_no}`}
+                   target="_blank" rel="noreferrer"
+                   className="text-xs text-slate-500 hover:text-indigo-600 px-2 py-1 rounded border border-slate-200 dark:border-slate-600">
+                  새 탭 ↗
+                </a>
+                <button onClick={()=>toggleDetachedFullscreen(p.id)}
+                        title={fs ? '원래 크기' : '전체화면'}
+                        className="w-8 h-8 rounded hover:bg-slate-200 dark:hover:bg-slate-700 flex items-center justify-center text-slate-600 dark:text-slate-300 text-base">
+                  {fs ? '⊟' : '⛶'}
+                </button>
+                <button onClick={()=>closeDetached(p.id)}
+                        title="닫기"
+                        className="w-8 h-8 rounded-full hover:bg-red-100 hover:text-red-700 dark:hover:bg-red-900 flex items-center justify-center text-slate-500 font-bold">
+                  ✕
+                </button>
+              </div>
+            </div>
+            <iframe src={`https://dart.fss.or.kr/dsaf001/main.do?rcpNo=${p.rcept_no}`}
+                    className="flex-1 w-full"
+                    style={{border:'none'}}
+                    title={p.title}
+                    sandbox="allow-scripts allow-same-origin allow-forms allow-popups"/>
+            {/* 8방향 리사이즈 핸들 */}
+            {!fs && (
+              <>
+                <div onMouseDown={startDetachedResize(p.id, 'nw')} className="absolute top-0 left-0 w-3 h-3 cursor-nwse-resize z-10" />
+                <div onMouseDown={startDetachedResize(p.id, 'ne')} className="absolute top-0 right-0 w-3 h-3 cursor-nesw-resize z-10" />
+                <div onMouseDown={startDetachedResize(p.id, 'sw')} className="absolute bottom-0 left-0 w-3 h-3 cursor-nesw-resize z-10" />
+                <div onMouseDown={startDetachedResize(p.id, 'se')} className="absolute bottom-0 right-0 w-3 h-3 cursor-nwse-resize z-10" />
+                <div onMouseDown={startDetachedResize(p.id, 'n')} className="absolute top-0 left-3 right-3 h-1 cursor-ns-resize z-10" />
+                <div onMouseDown={startDetachedResize(p.id, 's')} className="absolute bottom-0 left-3 right-3 h-1 cursor-ns-resize z-10" />
+                <div onMouseDown={startDetachedResize(p.id, 'w')} className="absolute left-0 top-3 bottom-3 w-1 cursor-ew-resize z-10" />
+                <div onMouseDown={startDetachedResize(p.id, 'e')} className="absolute right-0 top-3 bottom-3 w-1 cursor-ew-resize z-10" />
+              </>
+            )}
+          </div>
+        );
+      })}
+
       {/* ── 헤더 ── */}
       <header className="sticky top-0 z-50 bg-white dark:bg-slate-800 border-b border-slate-200 dark:border-slate-700 h-14 shadow-sm">
         <div className="max-w-7xl mx-auto h-full flex items-center gap-3 px-4">
@@ -661,7 +1060,8 @@ export default function StockPage() {
             <input
               value={miniSearch}
               onChange={e=>{setMiniSearch(e.target.value);doMiniSearch(e.target.value);}}
-              placeholder="다른 종목 검색..."
+              onKeyDown={e=>{ if(e.key==='Enter'){ e.preventDefault(); goMiniSearch(); } }}
+              placeholder="다른 종목 검색... (엔터로 이동)"
               className="text-sm border border-slate-200 rounded-lg px-3 py-1.5 outline-none w-48 bg-slate-50 focus:border-indigo-400 focus:bg-white transition-all dark:bg-slate-700 dark:border-slate-600 dark:text-white"
             />
             {miniOpen && miniResults.length>0 && (
@@ -847,6 +1247,62 @@ export default function StockPage() {
                       <p className="text-sm text-slate-700 dark:text-slate-300 leading-relaxed">{brief.business_model}</p>
                     </div>
                   )}
+                  {/* ── 고객사 & 경쟁사 (히스토리 브리핑 3번) ── */}
+                  {peers && (peers.competitors?.length > 0 || peers.customers) && (
+                    <div className="mb-4">
+                      <div className="text-xs font-semibold text-slate-400 mb-2">🤝 고객사 &amp; 경쟁사</div>
+                      <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+                        {/* 고객사 */}
+                        <div className="bg-slate-50 dark:bg-slate-700 rounded-lg px-3 py-2">
+                          <div className="flex items-center gap-1.5 mb-1">
+                            <span className="text-xs font-semibold text-emerald-600 dark:text-emerald-400">고객사</span>
+                            {peers.customers?.grade_label && (
+                              <span className="text-[10px] px-1.5 py-0.5 rounded bg-emerald-100 text-emerald-700 dark:bg-emerald-900 dark:text-emerald-300">
+                                {peers.customers.grade_label}
+                              </span>
+                            )}
+                          </div>
+                          {peers.customers?.items?.length > 0 ? (
+                            <div className="flex flex-wrap gap-1">
+                              {peers.customers.items.map((c: string, i: number) => (
+                                <span key={i} className="text-xs px-2 py-0.5 rounded-full bg-white dark:bg-slate-600 border border-slate-200 dark:border-slate-500 text-slate-700 dark:text-slate-200">
+                                  {c}
+                                </span>
+                              ))}
+                            </div>
+                          ) : (
+                            <div className="text-xs text-slate-400">정보 없음</div>
+                          )}
+                        </div>
+                        {/* 경쟁사 */}
+                        <div className="bg-slate-50 dark:bg-slate-700 rounded-lg px-3 py-2">
+                          <div className="flex items-center gap-1.5 mb-1">
+                            <span className="text-xs font-semibold text-indigo-600 dark:text-indigo-400">경쟁사</span>
+                            <span className="text-[10px] px-1.5 py-0.5 rounded bg-indigo-100 text-indigo-700 dark:bg-indigo-900 dark:text-indigo-300">
+                              동종업계 · 사업유사도
+                            </span>
+                          </div>
+                          {peers.competitors?.length > 0 ? (
+                            <div className="flex flex-wrap gap-1">
+                              {peers.competitors.map((c: any, i: number) => (
+                                <span key={i} className="text-xs px-2 py-0.5 rounded-full bg-white dark:bg-slate-600 border border-slate-200 dark:border-slate-500 text-slate-700 dark:text-slate-200">
+                                  {c.name}
+                                </span>
+                              ))}
+                            </div>
+                          ) : (
+                            <div className="text-xs text-slate-400">정보 없음</div>
+                          )}
+                        </div>
+                      </div>
+                      {peers.customers?.source_text && (
+                        <div className="text-[10px] text-slate-400 mt-1.5 leading-relaxed line-clamp-2">
+                          📄 {peers.customers.source_text}
+                        </div>
+                      )}
+                    </div>
+                  )}
+
                   {brief.price_factors?.length > 0 && (
                     <div>
                       <div className="text-xs font-semibold text-slate-400 mb-2">📌 주가 영향 요인</div>
@@ -879,7 +1335,7 @@ export default function StockPage() {
                             </svg>
                           </a>
                         ))}
-                        <div className="text-xs text-slate-300 px-2 mt-1">출처: Google News · Yahoo Finance</div>
+                        <div className="text-xs text-slate-300 px-2 mt-1">출처: 네이버 검색 (실패 시 파이낸셜뉴스 · 한국경제)</div>
                       </div>
                     ) : (
                       <div className="text-xs text-slate-400 px-2 py-2 bg-slate-50 dark:bg-slate-700 rounded-lg text-center">
@@ -904,14 +1360,16 @@ export default function StockPage() {
                 <div className="text-xs text-slate-400">MA · 볼린저밴드 · 거래량</div>
               </div>
               <div className="p-3">
-                <FullChart data={ohlcv} />
+                {listStatus && !listStatus.tradable
+                  ? <ListingStatusBanner s={listStatus} />
+                  : <FullChart data={ohlcv} />}
               </div>
             </div>
 
             {/* 재무제표 */}
             <div className="bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-xl p-5">
               <div className="flex gap-1 mb-4 border-b border-slate-100 dark:border-slate-700 pb-3">
-                {(['BS','IS','SANKEY'] as FinTab[]).map(t=>(
+                {(['SANKEY','BS','IS'] as FinTab[]).map(t=>(
                   <button key={t} onClick={()=>setFinTab(t)}
                     className={`px-4 py-1.5 text-xs rounded-full font-semibold transition-colors ${finTab===t
                       ? 'text-white bg-indigo-600'
@@ -920,6 +1378,9 @@ export default function StockPage() {
                   </button>
                 ))}
               </div>
+              {listStatus && !listStatus.tradable && (
+                <div className="mb-3"><ListingStatusBanner s={listStatus} compact /></div>
+              )}
               {finTab==='BS' && <FinTable data={bsData}/>}
               {finTab==='IS' && <FinTable data={isData}/>}
               {finTab==='SANKEY' && (
@@ -995,25 +1456,34 @@ export default function StockPage() {
 
               {/* 경영인 */}
               <div className="bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-xl p-5">
-                <div className="text-sm font-bold text-slate-700 dark:text-slate-200 mb-3">👤 경영인</div>
+                <div className="flex items-center justify-between mb-3">
+                  <div className="text-sm font-bold text-slate-700 dark:text-slate-200">👤 경영인 <span className="text-xs font-normal text-slate-400">({executives.length}명)</span></div>
+                </div>
                 {executives.length>0 ? (
-                  <div className="overflow-x-auto">
-                    <table className="w-full text-xs">
-                      <thead><tr className="border-b border-slate-100 dark:border-slate-700 text-slate-400">
-                        <th className="text-left py-1.5">직위</th>
-                        <th className="text-left py-1.5">이름</th>
-                        <th className="text-right py-1.5">출생연도</th>
-                      </tr></thead>
-                      <tbody>
-                        {executives.slice(0,8).map((e,i)=>(
-                          <tr key={i} className="border-b border-slate-50 dark:border-slate-700 hover:bg-slate-50">
-                            <td className="py-1.5 text-slate-500">{e.position||'—'}</td>
-                            <td className="py-1.5 font-semibold text-slate-800 dark:text-slate-200">{e.name||'—'}</td>
-                            <td className="py-1.5 text-right font-mono text-slate-400">{e.birth_year||'—'}</td>
-                          </tr>
-                        ))}
-                      </tbody>
-                    </table>
+                  <div className="space-y-2 max-h-[420px] overflow-y-auto pr-1">
+                    {executives.map((e,i)=>{
+                      const isInside = (e.role||'').includes('사내') || (e.position||'').match(/사장|회장|부사장|대표/);
+                      const isOutside = (e.role||'').includes('사외');
+                      const age = e.birth_year ? (new Date().getFullYear() - parseInt(e.birth_year)) : null;
+                      return (
+                        <div key={i} className="border border-slate-100 dark:border-slate-700 rounded-lg p-2.5 hover:bg-slate-50 dark:hover:bg-slate-700/50 transition-colors">
+                          <div className="flex items-center gap-2 mb-1">
+                            <span className="font-semibold text-sm text-slate-800 dark:text-slate-100">{e.name||'—'}</span>
+                            <span className="text-xs text-slate-500">{e.position||'—'}</span>
+                            {isInside && <span className="text-[10px] px-1.5 py-0.5 bg-indigo-100 text-indigo-700 dark:bg-indigo-900 dark:text-indigo-300 rounded">사내</span>}
+                            {isOutside && <span className="text-[10px] px-1.5 py-0.5 bg-slate-100 text-slate-600 dark:bg-slate-700 dark:text-slate-300 rounded">사외</span>}
+                            {age && <span className="text-[10px] text-slate-400 ml-auto">{age}세 ({e.birth_year})</span>}
+                          </div>
+                          {e.role && <div className="text-[11px] text-slate-500 mb-1">{e.role}</div>}
+                          {e.career && (
+                            <div className="text-[11px] text-slate-600 dark:text-slate-400 leading-relaxed whitespace-pre-line line-clamp-3">
+                              {e.career.replace(/ㆍ/g, '· ')}
+                            </div>
+                          )}
+                          {e.appointed_at && <div className="text-[10px] text-slate-400 mt-1">재임 {e.appointed_at}</div>}
+                        </div>
+                      );
+                    })}
                   </div>
                 ) : <div className="text-xs text-slate-400 text-center py-4">데이터 없음</div>}
               </div>
@@ -1029,20 +1499,29 @@ export default function StockPage() {
                     {overallLabel[health.overall_grade]||'—'}
                   </span>}
                 </div>
-                <div className="space-y-3">
+                <div className="space-y-4">
                   {health ? Object.entries(health.metrics||{}).map(([k,m]:any)=>{
-                    const meta = healthMetaMap[k] || {label:k,max:100};
+                    const meta = healthMetaMap[k] || {label:k,max:100,hint:''};
                     const pct = m.value!=null ? Math.min(100,(m.value/meta.max)*100) : 0;
                     const barCol = {green:'#10B981',yellow:'#F59E0B',red:'#EF4444',gray:'#CBD5E1'}[m.grade as string]||'#CBD5E1';
+                    const gradeBadge = {green:'우량',yellow:'주의',red:'위험',gray:'—'}[m.grade as string]||'—';
                     return (
-                      <div key={k} className="flex items-center gap-2">
-                        <span className="text-xs text-slate-500 w-20">{meta.label}</span>
-                        <div className="flex-1 bg-slate-100 dark:bg-slate-700 rounded-full h-2">
-                          <div className="h-2 rounded-full transition-all" style={{width:`${pct}%`,background:barCol}}/>
+                      <div key={k}>
+                        <div className="flex items-center gap-2 mb-1">
+                          <span className="text-xs font-semibold text-slate-700 dark:text-slate-200 w-20">{meta.label}</span>
+                          <span className={`text-[10px] px-1.5 py-0.5 rounded font-semibold ${
+                            m.grade==='green'?'bg-emerald-100 text-emerald-700':
+                            m.grade==='yellow'?'bg-yellow-100 text-yellow-700':
+                            m.grade==='red'?'bg-red-100 text-red-700':'bg-slate-100 text-slate-500'
+                          }`}>{gradeBadge}</span>
+                          <span className="ml-auto text-xs font-mono font-bold text-slate-700 dark:text-slate-200">
+                            {m.value!=null?m.value.toFixed(2)+'%':'—'}
+                          </span>
                         </div>
-                        <span className="text-xs font-mono font-semibold w-14 text-right text-slate-600 dark:text-slate-300">
-                          {m.value!=null?m.value.toFixed(1)+'%':'—'}
-                        </span>
+                        <div className="bg-slate-100 dark:bg-slate-700 rounded-full h-1.5">
+                          <div className="h-1.5 rounded-full transition-all" style={{width:`${pct}%`,background:barCol}}/>
+                        </div>
+                        <div className="text-[10px] text-slate-400 mt-1">{meta.hint}</div>
                       </div>
                     );
                   }) : <div className="text-xs text-slate-400 text-center py-2">데이터 없음</div>}
@@ -1051,46 +1530,312 @@ export default function StockPage() {
 
               {/* 주주 구성 */}
               <div className="bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-xl p-5">
-                <div className="text-sm font-bold text-slate-700 dark:text-slate-200 mb-3">🍩 주주 구성</div>
-                {shareholders.slice(0,5).length > 0 ? (
-                  <div className="flex gap-3 items-center">
-                    <PieChart width={120} height={120}>
-                      <Pie data={shareholders.slice(0,5)} dataKey="ratio" cx={55} cy={55} innerRadius={32} outerRadius={52} paddingAngle={2}>
-                        {shareholders.slice(0,5).map((_,i)=><Cell key={i} fill={DONUT_COLORS[i%DONUT_COLORS.length]}/>)}
-                      </Pie>
-                    </PieChart>
-                    <div className="space-y-1.5 flex-1 min-w-0">
-                      {shareholders.slice(0,5).map((r,i)=>(
-                        <div key={i} className="flex items-center gap-1.5 text-xs">
-                          <span className="w-2.5 h-2.5 rounded-full flex-shrink-0" style={{background:DONUT_COLORS[i%DONUT_COLORS.length]}}/>
-                          <span className="flex-1 text-slate-700 dark:text-slate-300 truncate text-xs">{r.name}</span>
-                          <span className="font-mono font-semibold text-xs">{(r.ratio||0).toFixed(1)}%</span>
-                        </div>
-                      ))}
+                <div className="flex items-center justify-between mb-3">
+                  <div className="text-sm font-bold text-slate-700 dark:text-slate-200">🍩 주주 구성</div>
+                  <div className="text-[10px] text-slate-400">출처: DART 사업보고서</div>
+                </div>
+                {(() => {
+                  const list = shareholders.filter(r => (r.ratio||0) > 0).slice(0,8);
+                  if (list.length === 0) return <div className="text-xs text-slate-400 text-center py-4">데이터 없음</div>;
+                  const fmtPct = (v:number) => v >= 1 ? v.toFixed(2) + '%' : v >= 0.01 ? v.toFixed(3) + '%' : v.toFixed(4) + '%';
+                  const relColor = (rel:string) => {
+                    if (rel?.includes('최대주주') && rel?.includes('본인')) return 'bg-red-100 text-red-700 dark:bg-red-900 dark:text-red-300';
+                    if (rel?.includes('5%')) return 'bg-amber-100 text-amber-700 dark:bg-amber-900 dark:text-amber-300';
+                    if (rel?.includes('계열')) return 'bg-indigo-100 text-indigo-700 dark:bg-indigo-900 dark:text-indigo-300';
+                    if (rel?.includes('임원')) return 'bg-emerald-100 text-emerald-700 dark:bg-emerald-900 dark:text-emerald-300';
+                    return 'bg-slate-100 text-slate-600 dark:bg-slate-700 dark:text-slate-300';
+                  };
+                  return (
+                    <div className="flex gap-3 items-start">
+                      <PieChart width={120} height={120}>
+                        <Pie data={list} dataKey="ratio" cx={55} cy={55} innerRadius={32} outerRadius={52} paddingAngle={2}>
+                          {list.map((_,i)=><Cell key={i} fill={DONUT_COLORS[i%DONUT_COLORS.length]}/>)}
+                        </Pie>
+                      </PieChart>
+                      <div className="space-y-1 flex-1 min-w-0">
+                        {list.map((r,i)=>(
+                          <div key={i} className="flex items-center gap-1.5 text-xs">
+                            <span className="w-2.5 h-2.5 rounded-full flex-shrink-0" style={{background:DONUT_COLORS[i%DONUT_COLORS.length]}}/>
+                            <span className="flex-1 text-slate-700 dark:text-slate-300 truncate" title={r.name}>{r.name}</span>
+                            {r.relation && <span className={`text-[9px] px-1 py-0.5 rounded ${relColor(r.relation)}`}>{r.relation.length>6 ? r.relation.slice(0,5)+'…' : r.relation}</span>}
+                            <span className="font-mono font-semibold text-xs w-16 text-right">{fmtPct(r.ratio||0)}</span>
+                          </div>
+                        ))}
+                      </div>
                     </div>
-                  </div>
-                ) : <div className="text-xs text-slate-400 text-center py-4">데이터 없음</div>}
+                  );
+                })()}
               </div>
             </div>
 
-            {/* ── 최근 공시 (full width) ── */}
+            {/* ── 공시 (탭: 전자공시 / 공급계약) ── */}
             <div className="bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-xl p-5">
-              <div className="text-sm font-bold text-slate-700 dark:text-slate-200 mb-3">📰 최근 공시</div>
-              <div className="divide-y divide-slate-100 dark:divide-slate-700">
-                {disclosures.map((d,i)=>(
-                  <div key={i} className="flex items-center gap-3 py-2.5 hover:bg-slate-50 dark:hover:bg-slate-700 px-1 rounded">
-                    <span className="font-mono text-xs text-slate-400 w-20 flex-shrink-0">{d.rcept_dt}</span>
-                    <a href={d.url||'#'} target="_blank" rel="noreferrer"
-                      className="flex-1 text-sm text-slate-700 dark:text-slate-300 hover:text-indigo-600 truncate">{d.report_nm}</a>
-                    <span className="text-xs text-slate-400 flex-shrink-0">{d.flr_nm}</span>
-                    <svg className="w-3 h-3 text-slate-300 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
-                        d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/>
-                    </svg>
-                  </div>
-                ))}
-                {!disclosures.length && <div className="text-xs text-slate-400 text-center py-4">공시 데이터 없음</div>}
+              <div className="flex items-center gap-1 mb-3 border-b border-slate-100 dark:border-slate-700 pb-2">
+                <button onClick={()=>{
+                    setDiscTab('dart'); setDartViewer(null);
+                    if (!dartList) { setDartLoading(true); fetchDartList(); }
+                  }}
+                  className={`px-3 py-1 text-xs rounded-full font-semibold transition-colors ${discTab==='dart'
+                    ? 'bg-indigo-600 text-white'
+                    : 'bg-slate-100 text-slate-600 hover:bg-slate-200 dark:bg-slate-700 dark:text-slate-300'}`}>
+                  📋 전자공시
+                </button>
+                <button onClick={()=>{
+                    setDiscTab('supply');
+                    setDartViewer(null);
+                    if (!supplyContracts.length) {
+                      setSupplyLoading(true);
+                      fetch(`${API}/api/supply_contracts/${code}?years=5`)
+                        .then(r=>r.json())
+                        .then(d=>setSupplyContracts(d.items||[]))
+                        .catch(()=>{})
+                        .finally(()=>setSupplyLoading(false));
+                    }
+                  }}
+                  className={`px-3 py-1 text-xs rounded-full font-semibold transition-colors ${discTab==='supply'
+                    ? 'bg-indigo-600 text-white'
+                    : 'bg-slate-100 text-slate-600 hover:bg-slate-200 dark:bg-slate-700 dark:text-slate-300'}`}>
+                  📑 단일판매ㆍ공급계약
+                </button>
               </div>
+
+              {discTab==='dart' && (() => {
+                const TYPES: [string,string][] = [
+                  ['A','정기공시'], ['B','주요사항'], ['C','발행공시'], ['D','지분공시'], ['E','기타공시'],
+                  ['F','외부감사관련'], ['G','펀드공시'], ['H','자산유동화'], ['I','거래소공시'], ['J','공정위공시'],
+                ];
+                const PERIODS: [string,string][] = [['1m','1개월'],['6m','6개월'],['1y','1년'],['3y','3년'],['5y','5년'],['10y','10년']];
+                const toggleType = (t:string) => {
+                  const next = new Set(dartTypes);
+                  if (next.has(t)) next.delete(t); else next.add(t);
+                  setDartTypes(next);
+                  setDartPage(1);
+                  fetchDartList(dartPeriod, next, 1, dartPageSize);
+                };
+                const changePeriod = (p:any) => {
+                  setDartPeriod(p);
+                  setDartPage(1);
+                  fetchDartList(p, dartTypes, 1, dartPageSize);
+                };
+                const goPage = (p:number) => {
+                  setDartPage(p);
+                  fetchDartList(dartPeriod, dartTypes, p, dartPageSize);
+                };
+
+                const total = dartList?.total_page || 0;
+                const cur = dartPage;
+                // 페이지 번호 (현재 기준 앞뒤 2개씩)
+                const pages: number[] = [];
+                const start = Math.max(1, cur - 2);
+                const end = Math.min(total, start + 4);
+                for (let i = start; i <= end; i++) pages.push(i);
+
+                return (
+                  <div>
+                    {/* DART 헤더 */}
+                    <div className="flex items-center justify-between mb-3 pb-2 border-b border-slate-100 dark:border-slate-700">
+                      <div className="text-sm font-semibold text-slate-700 dark:text-slate-200">📄 공시자료</div>
+                      <div className="text-xs text-slate-400">대한민국 기업정보의 창 DART</div>
+                    </div>
+
+                    {/* 기간 필터 */}
+                    <div className="flex items-center gap-1 mb-2 text-xs flex-wrap">
+                      <span className="text-slate-500 mr-2 font-semibold">기간</span>
+                      {PERIODS.map(([k,lbl])=>(
+                        <button key={k} onClick={()=>changePeriod(k)}
+                          className={`px-2.5 py-1 rounded border ${dartPeriod===k
+                            ? 'bg-indigo-600 text-white border-indigo-600'
+                            : 'bg-white dark:bg-slate-700 text-slate-600 dark:text-slate-300 border-slate-200 dark:border-slate-600 hover:bg-slate-50'}`}>
+                          {lbl}
+                        </button>
+                      ))}
+                    </div>
+
+                    {/* 공시유형 체크박스 */}
+                    <div className="flex items-center gap-2 mb-3 text-xs flex-wrap">
+                      <span className="text-slate-500 mr-1 font-semibold">유형</span>
+                      <button onClick={()=>{setDartTypes(new Set()); setDartPage(1); fetchDartList(dartPeriod, new Set(), 1, dartPageSize);}}
+                        className={`px-2 py-1 rounded border ${dartTypes.size===0
+                          ? 'bg-slate-700 text-white border-slate-700'
+                          : 'bg-white dark:bg-slate-700 border-slate-200 dark:border-slate-600 text-slate-600 dark:text-slate-300'}`}>
+                        전체
+                      </button>
+                      {TYPES.map(([k,lbl])=>(
+                        <label key={k} className={`px-2 py-1 rounded border cursor-pointer ${dartTypes.has(k)
+                          ? 'bg-indigo-100 border-indigo-400 text-indigo-700 dark:bg-indigo-900 dark:text-indigo-200'
+                          : 'bg-white dark:bg-slate-700 border-slate-200 dark:border-slate-600 text-slate-600 dark:text-slate-300 hover:bg-slate-50'}`}>
+                          <input type="checkbox" checked={dartTypes.has(k)} onChange={()=>toggleType(k)}
+                            className="mr-1 align-middle"/>{lbl}
+                        </label>
+                      ))}
+                    </div>
+
+                    {/* 조회건수 + 통계 */}
+                    <div className="flex items-center justify-between mb-2 text-xs">
+                      <div className="flex items-center gap-2">
+                        <span className="text-slate-500">조회건수</span>
+                        <select value={dartPageSize}
+                          onChange={(e)=>{
+                            const ps = parseInt(e.target.value);
+                            setDartPageSize(ps); setDartPage(1);
+                            fetchDartList(dartPeriod, dartTypes, 1, ps);
+                          }}
+                          className="px-2 py-1 border border-slate-200 dark:border-slate-600 rounded bg-white dark:bg-slate-700">
+                          <option value={10}>10</option>
+                          <option value={15}>15</option>
+                          <option value={30}>30</option>
+                          <option value={50}>50</option>
+                        </select>
+                      </div>
+                      <div className="text-slate-500">
+                        총 <span className="font-bold text-slate-700 dark:text-slate-200">{dartList?.total_count || 0}</span>건 ·
+                        <span className="ml-1">{cur}/{total} 페이지</span>
+                      </div>
+                    </div>
+
+                    {/* 테이블 */}
+                    <div className="overflow-x-auto rounded border border-slate-200 dark:border-slate-700">
+                      <table className="w-full text-xs">
+                        <thead className="bg-slate-50 dark:bg-slate-700/50 text-slate-600 dark:text-slate-300">
+                          <tr>
+                            <th className="px-2 py-2 text-center font-semibold w-12">번호</th>
+                            <th className="px-2 py-2 text-left font-semibold w-36">공시대상회사</th>
+                            <th className="px-2 py-2 text-left font-semibold">보고서명</th>
+                            <th className="px-2 py-2 text-left font-semibold w-24">제출인</th>
+                            <th className="px-2 py-2 text-center font-semibold w-24">접수일자</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          {dartLoading && (
+                            <tr><td colSpan={5} className="text-center py-6 text-slate-400">로딩 중...</td></tr>
+                          )}
+                          {!dartLoading && dartList?.items?.length === 0 && (
+                            <tr><td colSpan={5} className="text-center py-6 text-slate-400">공시 데이터 없음</td></tr>
+                          )}
+                          {!dartLoading && dartList?.items?.map((d:any, i:number) => {
+                            const num = (cur - 1) * dartPageSize + i + 1;
+                            const clsColor = d.corp_cls === 'Y' ? 'bg-red-100 text-red-700' :
+                                             d.corp_cls === 'K' ? 'bg-blue-100 text-blue-700' :
+                                             d.corp_cls === 'N' ? 'bg-emerald-100 text-emerald-700' : 'bg-slate-100 text-slate-600';
+                            const clsLabel = {Y:'유', K:'코', N:'넥', E:'기'}[d.corp_cls as 'Y'|'K'|'N'|'E'] || '?';
+                            return (
+                              <tr key={i} className="border-t border-slate-100 dark:border-slate-700 hover:bg-slate-50 dark:hover:bg-slate-700/50">
+                                <td className="px-2 py-2 text-center text-slate-500">{num}</td>
+                                <td className="px-2 py-2">
+                                  <span className={`inline-block px-1.5 py-0.5 rounded text-[10px] font-bold mr-1 ${clsColor}`}>{clsLabel}</span>
+                                  <span className="text-slate-700 dark:text-slate-200">{d.corp_name}</span>
+                                </td>
+                                <td className="px-2 py-2">
+                                  <button onClick={()=>openDart({rcept_no:d.rcept_no, title:d.report_nm})}
+                                    className="text-left text-slate-700 dark:text-slate-200 hover:text-indigo-600 hover:underline">
+                                    {d.report_nm}
+                                  </button>
+                                </td>
+                                <td className="px-2 py-2 text-slate-600 dark:text-slate-300 truncate">{d.flr_nm || '-'}</td>
+                                <td className="px-2 py-2 text-center font-mono text-slate-500">
+                                  {d.rcept_dt ? `${d.rcept_dt.slice(0,4)}.${d.rcept_dt.slice(4,6)}.${d.rcept_dt.slice(6,8)}` : '-'}
+                                </td>
+                              </tr>
+                            );
+                          })}
+                        </tbody>
+                      </table>
+                    </div>
+
+                    {/* 페이지네이션 */}
+                    {total > 1 && (
+                      <div className="flex items-center justify-center gap-1 mt-3 text-xs">
+                        <button onClick={()=>goPage(1)} disabled={cur===1}
+                          className="px-2 py-1 rounded border border-slate-200 dark:border-slate-600 disabled:opacity-30">{'<<'}</button>
+                        <button onClick={()=>goPage(Math.max(1,cur-1))} disabled={cur===1}
+                          className="px-2 py-1 rounded border border-slate-200 dark:border-slate-600 disabled:opacity-30">{'<'}</button>
+                        {pages.map(p=>(
+                          <button key={p} onClick={()=>goPage(p)}
+                            className={`px-2.5 py-1 rounded border ${p===cur
+                              ? 'bg-indigo-600 text-white border-indigo-600 font-semibold'
+                              : 'border-slate-200 dark:border-slate-600 hover:bg-slate-50 dark:hover:bg-slate-700'}`}>{p}</button>
+                        ))}
+                        <button onClick={()=>goPage(Math.min(total,cur+1))} disabled={cur===total}
+                          className="px-2 py-1 rounded border border-slate-200 dark:border-slate-600 disabled:opacity-30">{'>'}</button>
+                        <button onClick={()=>goPage(total)} disabled={cur===total}
+                          className="px-2 py-1 rounded border border-slate-200 dark:border-slate-600 disabled:opacity-30">{'>>'}</button>
+                      </div>
+                    )}
+
+                    <div className="text-[10px] text-slate-400 mt-2 text-center">
+                      출처: 금융감독원 전자공시시스템 (dart.fss.or.kr) 실시간
+                    </div>
+                  </div>
+                );
+              })()}
+
+              {discTab==='supply' && (
+                <div>
+                  {/* 공급계약 헤더 */}
+                  <div className="flex items-center justify-between mb-3 pb-2 border-b border-slate-100 dark:border-slate-700">
+                    <div className="text-sm font-semibold text-slate-700 dark:text-slate-200">📑 단일판매ㆍ공급계약 공시</div>
+                    <div className="text-xs text-slate-400">최근 5년 · 실시간 DART 조회</div>
+                  </div>
+
+                  {/* 통계 */}
+                  <div className="flex items-center justify-end mb-2 text-xs text-slate-500">
+                    총 <span className="font-bold mx-1 text-slate-700 dark:text-slate-200">{supplyContracts.length}</span>건
+                  </div>
+
+                  {/* 테이블 */}
+                  {supplyLoading ? (
+                    <div className="text-xs text-slate-400 text-center py-12 border border-slate-200 dark:border-slate-700 rounded">
+                      DART API 호출 중...
+                    </div>
+                  ) : supplyContracts.length === 0 ? (
+                    <div className="text-sm text-slate-400 text-center py-12 border border-slate-200 dark:border-slate-700 rounded">
+                      최근 5년 내 단일판매ㆍ공급계약 공시 없음
+                    </div>
+                  ) : (
+                    <div className="overflow-x-auto rounded border border-slate-200 dark:border-slate-700">
+                      <table className="w-full text-xs">
+                        <thead className="bg-slate-50 dark:bg-slate-700/50 text-slate-600 dark:text-slate-300">
+                          <tr>
+                            <th className="px-2 py-2 text-center font-semibold w-12">번호</th>
+                            <th className="px-2 py-2 text-center font-semibold w-16">유형</th>
+                            <th className="px-2 py-2 text-left font-semibold">보고서명</th>
+                            <th className="px-2 py-2 text-left font-semibold w-24">제출인</th>
+                            <th className="px-2 py-2 text-center font-semibold w-24">접수일자</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          {supplyContracts.map((d:any, i:number) => (
+                            <tr key={i} className="border-t border-slate-100 dark:border-slate-700 hover:bg-slate-50 dark:hover:bg-slate-700/50">
+                              <td className="px-2 py-2 text-center text-slate-500">{i + 1}</td>
+                              <td className="px-2 py-2 text-center">
+                                <span className={`inline-block px-1.5 py-0.5 rounded text-[10px] font-bold ${
+                                  d.event_type==='체결'
+                                    ? 'bg-emerald-100 text-emerald-700 dark:bg-emerald-900 dark:text-emerald-300'
+                                    : 'bg-red-100 text-red-700 dark:bg-red-900 dark:text-red-300'
+                                }`}>{d.event_type}</span>
+                              </td>
+                              <td className="px-2 py-2">
+                                <button onClick={()=>openDart({rcept_no:d.rcept_no, title:d.report_nm})}
+                                  className="text-left text-slate-700 dark:text-slate-200 hover:text-indigo-600 hover:underline">
+                                  {d.report_nm.trim()}
+                                </button>
+                              </td>
+                              <td className="px-2 py-2 text-slate-600 dark:text-slate-300 truncate">{d.flr_nm || '-'}</td>
+                              <td className="px-2 py-2 text-center font-mono text-slate-500">
+                                {d.rcept_dt ? `${d.rcept_dt.slice(0,4)}.${d.rcept_dt.slice(4,6)}.${d.rcept_dt.slice(6,8)}` : '-'}
+                              </td>
+                            </tr>
+                          ))}
+                        </tbody>
+                      </table>
+                    </div>
+                  )}
+
+                  <div className="text-[10px] text-slate-400 mt-2 text-center">
+                    출처: 금융감독원 전자공시시스템 (dart.fss.or.kr) · 최근 5년
+                  </div>
+                </div>
+              )}
             </div>
           </div>
         </div>

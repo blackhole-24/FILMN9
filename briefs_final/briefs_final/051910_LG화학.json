@@ -1,0 +1,91 @@
+{
+  "stock_code": "051910",
+  "corp_name": "LG화학",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 02:54",
+  "meta": {
+    "wics": "화학",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "LG화학은 2025년 말 기준 약 45조 9,322억원의 매출을 기록한 대형 화학기업으로, 전지·석유화학·첨단소재·생명과학 등 다각적 사업 포트폴리오를 보유하고 있습니다. 2020년 전지사업부문을 분할한 종속기업 (주)LG에너지솔루션을 통해 배터리 사업과 전통적 석유화학 제품을 병행하고 있습니다.",
+    "business_model": "사업부문별 매출 구성은 LG에너지솔루션 51.5%, 석유화학 사업부문 38.2%, 첨단소재 사업부문 5.7%, 생명과학 사업부문 2.9%, 공통 및 기타부문 1.6%로 구성되어 있으며, 전지(배터리) 관련 매출과 석유화학 제품(PE, PVC 등)이 핵심 수익원입니다. 회사는 범용제품의 경쟁력 확보와 함께 고부가·지속가능성(Sustainability) 사업 육성에 주력하고 있습니다.",
+    "main_customers": "LG에너지솔루션 — 전기차(EV), ESS(에너지저장장치), IT기기, 전동공구, LEV 등 전지 응용제품 제조사 / 석유화학 — 건설자재·IT기기·자동차·생활용품 등 제조업체 / 첨단소재 — IT·가전 및 자동차 제조사 / 생명과학 — 당뇨치료제·백신 등 의약품 수요처(의료·제약 관련 시장)",
+    "price_factors": [
+      {
+        "factor": "중국수요",
+        "detail": "석유화학 제품은 중국 수요에 민감하여 중국 경기 둔화 시 매출·수익성에 하방 압력이 발생합니다."
+      },
+      {
+        "factor": "유가·환율",
+        "detail": "납사 등 원재료 가격과 수출 비중이 높아 유가 및 환율 변동이 실적에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "동북아공급",
+        "detail": "동북아 지역 공급 과잉 시 주요 제품의 시황이 부진해져 수익성 악화로 이어질 수 있습니다."
+      },
+      {
+        "factor": "전방수요",
+        "detail": "반도체용·전기차용 등 전방 산업(반도체·EV) 수요 변동은 고부가 제품 매출과 실적에 영향합니다."
+      },
+      {
+        "factor": "고객전략",
+        "detail": "전지소재의 경우 주요 고객의 전동화 전략 변경 등 고객 측 수요 변화가 출하량과 수익성에 영향을 줍니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "당사는 2025년말 기준으로 약 45조 9,322억원의 매출을 달성하였으며"
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황",
+        "evidence_text": "LG에너지솔루션 51.5%"
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황",
+        "evidence_text": "석유화학 사업부문 38.2%"
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황",
+        "evidence_text": "첨단소재 사업부문 5.7%"
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황",
+        "evidence_text": "생명과학 사업부문 2.9%"
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황",
+        "evidence_text": "공통 및 기타부문 1.6%로 구성되어 있습니다."
+      },
+      {
+        "field": "main_customers",
+        "source_section": "LG에너지솔루션",
+        "evidence_text": "EV(Electric Vehicle), ESS(Energy Storage System), IT기기, 전동공구, LEV(Light Electric Vehicle) 등에 적용되는 전지 관련 제품"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "석유화학 사업부문",
+        "evidence_text": "당사의 제품은 건설자재, IT기기, 자동차, 생활용품 등에 다양하게 쓰이며"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4310,
+    "completion_tokens": 4152,
+    "reasoning_tokens": 3072,
+    "output_tokens": 1080
+  },
+  "warnings": []
+}

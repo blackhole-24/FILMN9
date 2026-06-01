@@ -1,0 +1,72 @@
+{
+  "stock_code": "002710",
+  "corp_name": "TCC스틸",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 18:09",
+  "meta": {
+    "wics": "철강",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "TCC스틸은 표면처리강판을 주로 생산하는 기업으로, 국내 주석도금강판 시장에서 안정적인 지위를 유지하고 있습니다. 제68기 연결 기준 매출액은 611,514백만원(약 6,115억원)이며, 별도기준 매출에서 수출 비중이 61%입니다.",
+    "business_model": "핵심 수익원은 표면처리강판 사업부문으로, 해당 부문이 전체 매출의 99.86%를 차지하며(제68기), 임대사업은 0.14% 수준입니다. 주요 제품은 주석도금강판, 전해크롬산처리강판, 니켈도금강판, 동도금강판 등이며 이중 주석도금강판과 전해크롬산처리강판이 총매출의 상당 부분(원문: 71%)을 차지합니다.",
+    "main_customers": "표면처리강판사업부문 — 제관업체·왕관업체·가전업체·자동차부품업체·전지(1·2차)제조사 / 임대사업부문 — 임차인",
+    "price_factors": [
+      {
+        "factor": "대체재 경쟁",
+        "detail": "PET병·알루미늄·종이 포장재 등 대체 소재 확산은 주석도금강판 수요 둔화로 이어질 수 있습니다."
+      },
+      {
+        "factor": "경기 민감성",
+        "detail": "식음료·가전·자동차 등 주요 수요산업의 업황 악화 시 제품 수요가 직격으로 감소합니다."
+      },
+      {
+        "factor": "수출·관세",
+        "detail": "미국 등 해외 수출 환경의 관세 부과 등 통상변화는 매출과 수익성에 직접적인 영향이 있습니다."
+      },
+      {
+        "factor": "원자재·공급망",
+        "detail": "원료 공급망 불안정성과 원재료가 변동은 원가 및 생산 계획에 영향을 미칩니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "표면처리강판 생산기업으로"
+      },
+      {
+        "field": "business_model",
+        "source_section": "사업부문별 매출 구성",
+        "evidence_text": "414,769 (99.86)"
+      },
+      {
+        "field": "business_model",
+        "source_section": "II. 사업의 내용 > 영업의 현황",
+        "evidence_text": "주석도금강판과 전해크롬산처리강판이 총 매출액의 71%을 차지하고 있으며"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "II. 사업의 내용 > 2. 주요 제품 및 서비스",
+        "evidence_text": "주수요자는 제관업체, 왕관업체 및 가전업체 및"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "미국의 고율 관세 부과"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5343,
+    "completion_tokens": 4118,
+    "reasoning_tokens": 3328,
+    "output_tokens": 790
+  },
+  "warnings": []
+}

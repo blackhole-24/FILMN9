@@ -1,0 +1,72 @@
+{
+  "stock_code": "041960",
+  "corp_name": "코미팜",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 01:36",
+  "meta": {
+    "wics": "제약",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 1,
+    "tier_mode": "exact_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "코미팜은 1972년 설립된 동물의약품 제조·판매 회사로, 경기도 시흥과 충남 예산에 생산공장을 보유하고 동물용 백신과 의약품을 생산·판매하며 임상병리검사 분석 대행 서비스도 영위합니다. 또한 항암제 및 암성통증치료제 등 인체신약(PAX-1) 개발을 위한 임상시험을 진행하는 등 신약개발 역량도 보유하고 있습니다.",
+    "business_model": "사업부문별 영업수익은 제조업 18.2%·도소매 0.0%·서비스업 0.8%로 구성되며, 주력은 동물용 백신 등 동물의약품의 제조 및 판매(제조업)입니다. 서비스업은 임상병리검사 분석 대행 등으로 보완적 수익원을 제공하고, 연결종속회사는 신약 개발 관련 임상·허가·해외용역을 담당하고 있습니다.",
+    "main_customers": "제조업 — 축산업계(양축농가·사료업계·가공업체 등) / 도소매 — 수입판매·유통채널 관련 거래처 / 서비스업 — 임상병리검사 분석을 의뢰하는 기관·업체",
+    "price_factors": [
+      {
+        "factor": "규제·허가",
+        "detail": "동물용의약품은 품목허가 및 KVGMP(우수제조시설) 기준 준수가 필요하여 허가 여부가 실적에 직접적 영향을 줍니다."
+      },
+      {
+        "factor": "전염병 발생",
+        "detail": "ASF(아프리카돼지열병) 등 가축 전염병의 확산은 수요 변동을 야기해 매출에 직접적인 영향을 미칩니다."
+      },
+      {
+        "factor": "수출국 인증",
+        "detail": "수출국의 GMP 승인 등 수출 허가·인증 획득 여부가 해외판매 및 매출 확대에 영향을 줍니다."
+      },
+      {
+        "factor": "환율 변동",
+        "detail": "수출가격 산정과 수출입 거래에 환율 변동이 영향을 미치며, 보고서에 연도별 환율 변동이 기재되어 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "1972년9월21일 동물의약품제조 및 판매를 목적으로 설립되어"
+      },
+      {
+        "field": "business_model",
+        "source_section": "[사업부문별 매출 구성]",
+        "evidence_text": "제조업: 9,896,477 (18.2%)"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "사업의 내용 > 산업의 특성",
+        "evidence_text": "축산업계는 양축농가와 사료업계ㆍ가공업계"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "사업의 내용 > 영업 현황",
+        "evidence_text": "동물용의약품의 품목허가(국립수의과학검역원)를 득한"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "당사의 동물약품사업부분의 매출은 전년대비 11% 감소하였습니다."
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 4971,
+    "completion_tokens": 4302,
+    "reasoning_tokens": 3456,
+    "output_tokens": 846
+  },
+  "warnings": []
+}

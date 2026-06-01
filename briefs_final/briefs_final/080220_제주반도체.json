@@ -1,0 +1,67 @@
+{
+  "stock_code": "080220",
+  "corp_name": "제주반도체",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-25 06:04",
+  "meta": {
+    "wics": "반도체와반도체장비",
+    "market": "KOSDAQ",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "제주반도체는 모바일 응용기기에 쓰이는 메모리 반도체 설계(팹리스) 중심의 기업으로, 모바일용 메모리 제품을 주력으로 개발·공급하고 있습니다. FY2025 기준 보고된 매출액은 109,462(단위: 1,000USD)입니다.",
+    "business_model": "주요 수익원은 모바일용 메모리 제품으로, FY2025 매출액 109,462(1,000USD, 99.9%) 중 Nand MCP가 39.24%를 차지합니다. 회사는 자체 제조시설을 보유하지 않고 설계한 제품을 파운드리(위탁생산)에서 가공한 뒤 패키징·테스트를 거쳐 판매하는 팹리스(설계전문) 방식으로 운영됩니다.",
+    "main_customers": "모바일 메모리 — 세계 유수의 휴대폰 제조업체",
+    "price_factors": [
+      {
+        "factor": "AI 수요 편중",
+        "detail": "AI 관련 고용량 메모리 수요에 따라 실적 변동성이 커질 수 있으며, 비AI 수요 약세는 리스크로 작용합니다."
+      },
+      {
+        "factor": "메모리 가격 변동",
+        "detail": "재고·감산 등으로 인한 가격 상승·하락이 매출과 이익에 직접적 영향을 미칩니다."
+      },
+      {
+        "factor": "공급망 병목",
+        "detail": "첨단 공정·패키징·특수가스 등 공급망 병목은 생산·납기 리스크로 연결될 수 있습니다."
+      },
+      {
+        "factor": "글로벌 경쟁 심화",
+        "detail": "중국 등 경쟁업체의 생산 확대와 기술격차 축소는 장기적 가격·시장 점유율 압박 요인입니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "휴대폰 등 모바일 응용기기에 적용되는 메모리 반도체를 개발, 제조하여"
+      },
+      {
+        "field": "business_model",
+        "source_section": "2) 낸드플래시(Nand Flash) 시장",
+        "evidence_text": "전체 제품에서 차지하는 비중은 39.24%로"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "(1) 상표, 고객관리 정책",
+        "evidence_text": "세계 유수의 휴대폰제조업체에 납품을 할 수 있는 벤더로 지정되는"
+      },
+      {
+        "field": "price_factors",
+        "source_section": "(1) 반도체 시장의 현황과 전망",
+        "evidence_text": "2025년 반도체 시장은 AI에 편중되어 성장하였고"
+      }
+    ],
+    "confidence": "high"
+  },
+  "usage": {
+    "prompt_tokens": 5527,
+    "completion_tokens": 3189,
+    "reasoning_tokens": 2496,
+    "output_tokens": 693
+  },
+  "warnings": []
+}

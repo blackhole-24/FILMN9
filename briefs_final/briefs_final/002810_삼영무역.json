@@ -1,0 +1,79 @@
+{
+  "stock_code": "002810",
+  "corp_name": "삼영무역",
+  "_llm_model": "gpt-5-mini",
+  "_generated_at": "2026-05-24 18:13",
+  "meta": {
+    "wics": "화학",
+    "market": "KOSPI",
+    "has_revenue_data": true,
+    "tier": 2,
+    "tier_mode": "calc_pct",
+    "corp_type": "general"
+  },
+  "brief": {
+    "company_overview": "삼영무역은 화공약품 유통, 안경렌즈 수출과 주요 종속회사를 통한 자동차부품 제조를 병행하는 기업입니다. 화학원료 상품의 국내 유통과 해외 수출(렌즈), 그리고 ㈜한국큐빅·삼신화학공업㈜ 등 자회사를 통한 자동차부품 사업으로 구성되어 있습니다.",
+    "business_model": "핵심 사업부문은 화공약품 판매(국내 제조업 대상 유통), 안경렌즈 판매(해외 수출 중심) 및 자동차부품 제조(주요 종속회사 중심)로 나뉩니다. 최근에는 렌즈부문이 수출 증가와 환율 영향으로 매출 성장을 보인 반면, 화공약품과 자동차부문은 물동량·수요 및 시황 악화로 매출 감소를 기록하였습니다.",
+    "main_customers": "화공약품 판매 — 국내 제조업체 / 안경렌즈 판매 — 해외시장(수출 바이어) / 자동차부품 제조 — 자동차 산업 관련 기업",
+    "price_factors": [
+      {
+        "factor": "원유·환율",
+        "detail": "석유화학 원료를 수입하는 구조라 유가·환율 변동이 원가와 수익성에 직접적 영향을 미칩니다."
+      },
+      {
+        "factor": "제조업 경기",
+        "detail": "국내외 제조업 및 석유화학 경기 침체는 화공약품 물동량과 매출에 부정적 영향을 줍니다."
+      },
+      {
+        "factor": "지정학 리스크",
+        "detail": "에너지·원자재 공급망 리스크와 미·중 갈등 등은 공급·수요 변동성을 키워 실적 불확실성을 높입니다."
+      },
+      {
+        "factor": "경쟁 심화",
+        "detail": "내수 케미칼 시장에서 종합상사 간 경쟁 심화는 가격 경쟁과 마진 압박으로 이어질 수 있습니다."
+      }
+    ],
+    "key_evidence": [
+      {
+        "field": "company_overview",
+        "source_section": "영업 현황",
+        "evidence_text": "화공약품 판매업, 안경렌즈 판매업 그리고 ... 자동차부품 제조업부문으로 구성되어 있습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "1-1. 화공약품 판매업",
+        "evidence_text": "매출액은 1,802억원으로 평균단가 하락에 의해 11% 감소하여"
+      },
+      {
+        "field": "business_model",
+        "source_section": "1-2. 안경렌즈 판매업",
+        "evidence_text": "매출액은 89% 증가한 299억원을 기록하였습니다."
+      },
+      {
+        "field": "business_model",
+        "source_section": "영업 현황",
+        "evidence_text": "매출액은 전기대비 10% 감소한 2,272억원을 기록하였습니다."
+      },
+      {
+        "field": "company_overview",
+        "source_section": "경영진 실적·전략 요약 (MD&A)",
+        "evidence_text": "연결기준으로 매출액은 7% 감소한 4,469억원을 기록하였고"
+      },
+      {
+        "field": "main_customers",
+        "source_section": "1-1. 화공약품 판매업",
+        "evidence_text": "국내 제조업체를 대상으로 상품을 유통하는 케미칼 사업부분"
+      }
+    ],
+    "confidence": "medium"
+  },
+  "usage": {
+    "prompt_tokens": 4640,
+    "completion_tokens": 5062,
+    "reasoning_tokens": 4224,
+    "output_tokens": 838
+  },
+  "warnings": [
+    "[QUALITY] business_model에 매출 비율(%)이 없음 — 성과지표 데이터와 비교 필요"
+  ]
+}
