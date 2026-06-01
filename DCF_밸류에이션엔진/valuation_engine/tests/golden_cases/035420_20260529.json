@@ -1,0 +1,31 @@
+{
+  "meta": {
+    "ticker": "035420",
+    "name": "NAVER",
+    "eval_date": "2026-05-29",
+    "snapshot_recorded_at": "2026-05-29",
+    "revision": "Phase1~7 반영 재기록 (8년CAGR·RAG독립·TTM멀티플·net_debt분기 등)",
+    "before": {
+      "fair_price": 304303,
+      "peer_grade": "B",
+      "peer_score": 85
+    },
+    "change_reason": "Phase3+ net_debt분기·TTM멀티플, Phase4 세율·CAGR, Phase5 RAG독립+whitening정규화, Phase7 8년CAGR 누적",
+    "tolerance": {
+      "fair_price_pct": 0.05,
+      "wacc_pp": 0.005,
+      "peer_confidence_score": 10
+    }
+  },
+  "fair_price": 310137.0764374887,
+  "current_price": 205000.0,
+  "upside_pct": 51.28637874999449,
+  "wacc": 0.08232374961359029,
+  "dcf_grade": "B",
+  "industry_category": "growth",
+  "peer_confidence_grade": "B",
+  "peer_confidence_score": 75,
+  "n_peers": 3,
+  "fair_price_low": 262907.009541342,
+  "fair_price_high": 416861.0057048996
+}

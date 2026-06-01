@@ -1,0 +1,25 @@
+# BGE-M3 하이브리드 임베딩 노트북 의존성
+# 설치: pip install -r requirements.txt
+
+# 임베딩 모델 (sentence-transformers 기반 — FlagEmbedding 대비 stable)
+sentence-transformers>=3.0
+torch>=2.0
+transformers>=4.40,<5.0
+sentencepiece>=0.1.99
+
+# 데이터 처리
+numpy>=1.24
+pandas>=2.0
+pyarrow>=14.0
+tqdm>=4.65
+
+# 벡터 DB (영구 저장 + 메타데이터 필터)
+chromadb>=0.5.0
+
+# (선택) 검색 엔진 — 백만 단위 청크 시
+# faiss-cpu>=1.7.4
+# faiss-gpu>=1.7.4
+
+# (선택) 검증·시각화
+# matplotlib
+# seaborn

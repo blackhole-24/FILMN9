@@ -1,0 +1,197 @@
+# ═════════════════════════════════════════════════════════════════
+# 🔴 민감 정보 (절대 업로드 금지)
+# ═════════════════════════════════════════════════════════════════
+
+# API 키 / 인증 정보
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# AWS / 클라우드 자격증명
+.aws/
+credentials
+*.pem
+*.key
+
+# ═════════════════════════════════════════════════════════════════
+# 🔴 외부 API에서 받아온 캐시·결과 (재배포 라이선스 모호 + 재생성 가능)
+# ═════════════════════════════════════════════════════════════════
+
+# peer_beta — KRX OpenAPI 원본 응답 / 정제 패널 / 결과
+peer_beta/data/
+peer_beta/results/
+
+# valuation_engine — DART XBRL 추출물 + WACC/DCF/Equity/최종 산출물
+valuation_engine/data/
+valuation_engine/results/
+
+# 루트 data/ — SQLite DB(valuation.db)·XBRL·report_registry·RAG 캐시 (전부 재생성 가능)
+#   ⚠ valuation.db 에 평가 산출물이 누적되므로 반드시 제외(노출 방지 + repo 경량)
+/data/
+
+# RAG / LLM 캐시 (향후 추가 시)
+**/rag_cache/
+
+# ═════════════════════════════════════════════════════════════════
+# 🟡 외부 데이터 — 사용자가 직접 다운로드 (재배포 라이선스 불명)
+# ═════════════════════════════════════════════════════════════════
+
+# KOFIA 채권시가평가기준수익률 / CP시가평가수익률
+채권시가평가기준수익률*.csv
+채권시가평가기준수익률*.xls
+채권시가평가기준수익률*.xlsx
+cp_수익률*.csv
+
+# 사업보고서 RAG 청크 (대용량, 사용자 각자 보유)
+KOSPI/
+KOSDAQ/
+embedding/data/
+embedding/chunks/
+
+# DART XBRL 샘플 원본 (참고용)
+XBRL/xbrl_amore/
+
+# DART XBRL 추출 결과 캐시 (대용량·재생성 가능 — 수천 파일)
+XBRL/xbrl_results_*/
+XBRL/v3_json/
+**/xbrl_results_2021/
+**/xbrl_results_2022/
+**/xbrl_results_2023/
+**/xbrl_results_2024/
+**/xbrl_results_2025/
+
+# PoC 임베딩 export·DART corp_code 캐시 (재생성 가능 — repo 경량화)
+embedding/corpcode.xml
+embedding/export/
+
+# ═════════════════════════════════════════════════════════════════
+# Python
+# ═════════════════════════════════════════════════════════════════
+
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Test / coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+nosetests.xml
+coverage.xml
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+.conda/
+
+# ═════════════════════════════════════════════════════════════════
+# Jupyter Notebook
+# ═════════════════════════════════════════════════════════════════
+
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+
+# ═════════════════════════════════════════════════════════════════
+# IDE / 에디터
+# ═════════════════════════════════════════════════════════════════
+
+.vscode/
+.idea/
+*.sublime-*
+*.swp
+*.swo
+*~
+
+# ═════════════════════════════════════════════════════════════════
+# OS
+# ═════════════════════════════════════════════════════════════════
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.directory
+
+# ═════════════════════════════════════════════════════════════════
+# 임시·압축·로그
+# ═════════════════════════════════════════════════════════════════
+
+*.log
+*.tmp
+*.bak
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# ═════════════════════════════════════════════════════════════════
+# 원본 설계 압축본 (PDF만 유지)
+# ═════════════════════════════════════════════════════════════════
+
+01_설계서_v4.zip
+
+# ═════════════════════════════════════════════════════════════════
+# 🔴 대용량 벡터DB·원본 (절대 업로드 금지 — 수십 GB)
+# ═════════════════════════════════════════════════════════════════
+
+# 임베딩 벡터DB (ChromaDB, 수십 GB) — 공유 ZIP 으로 별도 배포
+**/chroma_db/
+embedding/chroma_db/
+embedding/*.sqlite3
+
+# DART XBRL 원본 인스턴스 ZIP/파싱본 (대용량·재생성 가능)
+xbrl_raw/
+
+# 레거시 단일추출 캐시
+v3_json/
+
+# ═════════════════════════════════════════════════════════════════
+# 🟡 중복·이미 배포된 것
+# ═════════════════════════════════════════════════════════════════
+
+# 챗봇 — 별도 저장소에 이미 배포됨 (중복 방지)
+embedding/chatbot/
+
+# 배포용 복사본 (원본 valuation_engine/peer_beta 만 유지)
+git_share/
+
+# ═════════════════════════════════════════════════════════════════
+# 작업·세션 임시 (repo 불필요)
+# ═════════════════════════════════════════════════════════════════
+
+.claude/
+_docgen/
+_listup/
+_archive_temp*/
+_chk_*.py
+_chk_*.log
+_record_golden.py
+*.output

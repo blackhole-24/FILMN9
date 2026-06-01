@@ -1,0 +1,31 @@
+{
+  "meta": {
+    "ticker": "035420",
+    "name": "NAVER",
+    "eval_date": "2026-05-30",
+    "snapshot_recorded_at": "2026-05-30",
+    "revision": "v8 βU개선(이상치제외+유사도가중평균+Damodaran혼합)",
+    "before": {
+      "fair_price": 321136.23038090527,
+      "peer_grade": "B",
+      "peer_score": 75
+    },
+    "change_reason": "피어 βU median→이상치제외(MAD/Damodaran배수/D-E극단가드)+사업유사도 가중평균+Damodaran 산업βU gap-aware 혼합(Vasicek). NAVER:SK텔레콤(통신) 제외로 −14%; 고려아연:대창(D/E445%) 제외; 삼성전기·현대重 무영향",
+    "tolerance": {
+      "fair_price_pct": 0.05,
+      "wacc_pp": 0.005,
+      "peer_confidence_score": 10
+    }
+  },
+  "fair_price": 276109.77000880346,
+  "current_price": 234000.0,
+  "upside_pct": 17.99562820889036,
+  "wacc": 0.10113506195209847,
+  "dcf_grade": "B",
+  "industry_category": "growth",
+  "peer_confidence_grade": "B",
+  "peer_confidence_score": 75,
+  "n_peers": 3,
+  "fair_price_low": 243946.72264659984,
+  "fair_price_high": 337597.0333953544
+}

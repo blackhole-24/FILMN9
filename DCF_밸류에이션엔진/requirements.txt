@@ -1,0 +1,35 @@
+# ════════════════════════════════════════════════════════════════
+# 한국 주식 DCF·상대가치 통합 평가 엔진 — Python 의존성
+# Python 3.10+ 권장.  설치:  pip install -r requirements.txt
+# (torch 는 환경/CUDA 에 맞는 빌드를 https://pytorch.org 에서 별도 설치 권장)
+# ════════════════════════════════════════════════════════════════
+
+# ── 데이터·수치 연산 ──
+pandas>=2.0
+numpy>=1.24
+
+# ── 외부 API (DART·KRX·ECOS·KOFIA) ──
+requests>=2.31
+python-dotenv>=1.0
+
+# ── 통계: 베타(β) OLS 시장모형 회귀 ──
+statsmodels>=0.14
+
+# ── XBRL(XML)·엑셀(Damodaran 산업베타) 파싱 ──
+lxml>=5.0
+openpyxl>=3.1
+xlrd>=2.0
+
+# ── LLM: 신용등급·주식수 RAG 추출 (gpt-4o-mini) ──
+openai>=1.30
+
+# ── RAG: BGE-M3 임베딩·검색·재랭킹 ──
+chromadb>=0.5
+transformers>=4.40
+torch>=2.2
+rank-bm25>=0.2
+kiwipiepy>=0.17
+
+# ── API 서버 (FastAPI 백엔드 + 정적 UI) ──
+fastapi>=0.110
+uvicorn>=0.29

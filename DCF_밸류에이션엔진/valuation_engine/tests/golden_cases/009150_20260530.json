@@ -1,0 +1,31 @@
+{
+  "meta": {
+    "ticker": "009150",
+    "name": "삼성전기",
+    "eval_date": "2026-05-30",
+    "snapshot_recorded_at": "2026-05-30",
+    "revision": "v8 βU개선(이상치제외+유사도가중평균+Damodaran혼합)",
+    "before": {
+      "fair_price": 87234.26379489343,
+      "peer_grade": "B",
+      "peer_score": 85
+    },
+    "change_reason": "피어 βU median→이상치제외(MAD/Damodaran배수/D-E극단가드)+사업유사도 가중평균+Damodaran 산업βU gap-aware 혼합(Vasicek). NAVER:SK텔레콤(통신) 제외로 −14%; 고려아연:대창(D/E445%) 제외; 삼성전기·현대重 무영향",
+    "tolerance": {
+      "fair_price_pct": 0.05,
+      "wacc_pp": 0.005,
+      "peer_confidence_score": 10
+    }
+  },
+  "fair_price": 86812.97048856711,
+  "current_price": 2127000.0,
+  "upside_pct": -95.91852512982759,
+  "wacc": 0.11910203741550873,
+  "dcf_grade": "D",
+  "industry_category": "cyclical",
+  "peer_confidence_grade": "B",
+  "peer_confidence_score": 85,
+  "n_peers": 3,
+  "fair_price_low": 77895.08194137318,
+  "fair_price_high": 98077.93237749729
+}

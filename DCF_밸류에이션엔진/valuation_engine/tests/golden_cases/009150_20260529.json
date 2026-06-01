@@ -1,0 +1,31 @@
+{
+  "meta": {
+    "ticker": "009150",
+    "name": "삼성전기",
+    "eval_date": "2026-05-29",
+    "snapshot_recorded_at": "2026-05-29",
+    "revision": "Phase1~7 반영 재기록 (8년CAGR·RAG독립·TTM멀티플·net_debt분기 등)",
+    "before": {
+      "fair_price": 60170,
+      "peer_grade": "B",
+      "peer_score": 85
+    },
+    "change_reason": "Phase3+ net_debt분기·TTM멀티플, Phase4 세율·CAGR, Phase5 RAG독립+whitening정규화, Phase7 8년CAGR 누적",
+    "tolerance": {
+      "fair_price_pct": 0.05,
+      "wacc_pp": 0.005,
+      "peer_confidence_score": 10
+    }
+  },
+  "fair_price": 61832.750788025085,
+  "current_price": 1849000.0,
+  "upside_pct": -96.65588151497971,
+  "wacc": 0.11485853212027397,
+  "dcf_grade": "D",
+  "industry_category": "cyclical",
+  "peer_confidence_grade": "B",
+  "peer_confidence_score": 85,
+  "n_peers": 3,
+  "fair_price_low": 57052.1433461112,
+  "fair_price_high": 67611.99826566051
+}

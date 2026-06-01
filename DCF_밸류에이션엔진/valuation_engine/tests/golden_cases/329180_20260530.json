@@ -1,0 +1,31 @@
+{
+  "meta": {
+    "ticker": "329180",
+    "name": "HD현대중공업",
+    "eval_date": "2026-05-30",
+    "snapshot_recorded_at": "2026-05-30",
+    "revision": "v8 βU개선(이상치제외+유사도가중평균+Damodaran혼합)",
+    "before": {
+      "fair_price": 179597.23032288722,
+      "peer_grade": "C",
+      "peer_score": 70
+    },
+    "change_reason": "피어 βU median→이상치제외(MAD/Damodaran배수/D-E극단가드)+사업유사도 가중평균+Damodaran 산업βU gap-aware 혼합(Vasicek). NAVER:SK텔레콤(통신) 제외로 −14%; 고려아연:대창(D/E445%) 제외; 삼성전기·현대重 무영향",
+    "tolerance": {
+      "fair_price_pct": 0.05,
+      "wacc_pp": 0.005,
+      "peer_confidence_score": 10
+    }
+  },
+  "fair_price": 178398.39864856558,
+  "current_price": 696000.0,
+  "upside_pct": -74.36804617118311,
+  "wacc": 0.08456513961340607,
+  "dcf_grade": "D",
+  "industry_category": "growth",
+  "peer_confidence_grade": "C",
+  "peer_confidence_score": 70,
+  "n_peers": 3,
+  "fair_price_low": 167925.56611234462,
+  "fair_price_high": 191217.00230320054
+}
