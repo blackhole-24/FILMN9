@@ -129,8 +129,8 @@ FILMN9 프로젝트 작업 인수인계서
   1) start.bat 더블클릭 (원클릭 기동)
      또는 수동 실행:
        터미널1: conda activate FILMN9_env
-                uvicorn api.main:app --reload --port 8000
-       터미널2: cd frontend-next && npm run dev
+                uvicorn backend.main:app --reload --port 8000
+       터미널2: cd frontend && npm run dev
 
   2) 브라우저 접속:
        프론트엔드: http://localhost:3000
@@ -177,7 +177,7 @@ FILMN9 프로젝트 작업 인수인계서
   api/main.py                          : FastAPI 앱 + 라우터 등록
   api/routers/valuation.py             : 밸류에이션 API (오늘 전면 재작성)
   api/routers/overview.py              : 종합 데이터 API (히스토리 폴백 추가)
-  frontend-next/app/stock/[code]/page.tsx : 메인 화면 (Tab1·Tab2 수정)
+  frontend/app/stock/[code]/page.tsx : 메인 화면 (Tab1·Tab2 수정)
   data/parsed_history/                 : 히스토리 브리핑 JSON (3종목)
   data/valuation_results/              : 밸류에이션 결과 JSON (3종목 × 6파일)
   data/embeddings/                     : 사업보고서 임베딩 파일 저장 위치

@@ -1,6 +1,6 @@
 import sys
 sys.path.insert(0, r'C:\Users\Admin\FILMN9')
-from api.routers.extras import get_health, get_realtime, get_news
+from backend.routers.extras import get_health, get_realtime, get_news
 
 print('=== 건전성 지표 테스트 ===')
 for code in ['090430', '009150', '035420']:

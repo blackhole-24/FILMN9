@@ -463,7 +463,7 @@ def task_10_api_performance():
 def task_11_code_analysis():
     log("[11/15] 프런트엔드 코드 분석...")
     stats = []
-    base = ROOT / "frontend-next"
+    base = ROOT / "frontend"
     if base.exists():
         for f in base.rglob("*.tsx"):
             if "node_modules" in str(f):

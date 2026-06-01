@@ -15,11 +15,11 @@ FILMN9 프로젝트 인수인계서
 ================================================================
 ROOT     : C:/Users/Admin/FILMN9/
 RAG 데이터: C:/Users/Admin/FILMN9/data/RAG/           ← JSONL 2,596개
-기업개요  : C:/Users/Admin/FILMN9/기업개요_파트/재무정보/
-출력물    : C:/Users/Admin/FILMN9/기업개요_파트/재무정보/outputs/
+기업개요  : C:/Users/Admin/FILMN9/part_company_overview/재무정보/
+출력물    : C:/Users/Admin/FILMN9/part_company_overview/재무정보/outputs/
 
 ================================================================
-■ 주요 파일 구조 (기업개요_파트/재무정보/)
+■ 주요 파일 구조 (part_company_overview/재무정보/)
 ================================================================
 src/
   app_config.py          ← 경로·API키·SECTION 딕셔너리 (ROOT_DIR .parent×4)
@@ -38,7 +38,7 @@ outputs/
   FILMN9_excalidraw.json         ← excalidraw.com 에서 Import 가능
   FILMN9_전체_아키텍처_흐름도.html ← 7레이어 아키텍처 다이어그램
   FILMN9_개발프로세스_로드맵.html  ← Phase1~5 개발 로드맵
-  기업개요_파트_개발로드맵.pdf     ← reportlab 생성 PDF
+  part_company_overview_개발로드맵.pdf     ← reportlab 생성 PDF
 
 C:/Users/Admin/FILMN9/
   FILMN9_기업목록.txt             ← 전체 2,596개 기업 가나다순 목록
@@ -149,7 +149,7 @@ ticker_yf  : 090430.KS
 JSONL 파일 : 090430_아모레퍼시픽_2025_annual_chunks.jsonl
 
 ■ 실행 방법
-  cd C:/Users/Admin/FILMN9/기업개요_파트/재무정보
+  cd C:/Users/Admin/FILMN9/part_company_overview/재무정보
   python generate_report.py
 
 ================================================================

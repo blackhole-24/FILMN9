@@ -13,13 +13,13 @@ KOSPI·KOSDAQ 약 2,700개 상장사를 대상으로 **기업개요·주가·재
 
 | 계층 | 폴더 | 기술 | 역할 |
 |---|---|---|---|
-| **프론트엔드** | `frontend-next/` | Next.js 16 · React 19 · Turbopack (port 3000) | 종목 검색·대시보드 UI |
-| **백엔드 API** | `api/` | FastAPI · Python 3.11 (port 8000) | 20+ REST 엔드포인트 (주가·재무·공시·뉴스·상태 등) |
-| **데이터베이스** | `db/` + `data/`(비공개) | SQLite(filmn9.db) · MongoDB Atlas · Chroma | 스키마·적재 스크립트 / 실데이터 |
-| **데이터 수집** | `data_collection/` | DART OpenAPI · 사업보고서 XML | 원천 데이터 수집·전처리 파이프라인 |
+| **프론트엔드** | `frontend/` | Next.js 16 · React 19 · Turbopack (port 3000) | 종목 검색·대시보드 UI |
+| **백엔드 API** | `backend/` | FastAPI · Python 3.11 (port 8000) | 20+ REST 엔드포인트 (주가·재무·공시·뉴스·상태 등) |
+| **데이터베이스** | `database/` + `data/`(비공개) | SQLite(filmn9.db) · MongoDB Atlas · Chroma | 스키마·적재 스크립트 / 실데이터 |
+| **데이터 수집** | `data_pipeline/` | DART OpenAPI · 사업보고서 XML | 원천 데이터 수집·전처리 파이프라인 |
 | **데이터 파이프라인** | 루트 `*.py` 스크립트 | yfinance · pykrx · FinanceDataReader | 주가·재무·경쟁사·거래상태 적재 (아래 표) |
 
-> 시스템 아키텍처 다이어그램: **`통합_산출물/FILMN9_시스템아키텍처_로컬·AWS.excalidraw`**
+> 시스템 아키텍처 다이어그램: **`deliverables_main/FILMN9_시스템아키텍처_로컬·AWS.excalidraw`**
 
 ---
 
@@ -27,12 +27,12 @@ KOSPI·KOSDAQ 약 2,700개 상장사를 대상으로 **기업개요·주가·재
 
 | 폴더 | 내용 |
 |---|---|
-| `기업개요_파트/` | 기업개요·히스토리 브리핑 (재무정보·MongoDB 브리핑) |
-| `밸류에이션_파트/` | DCF·상대가치·컨센서스 수집(consensus)·peer·XBRL |
+| `part_company_overview/` | 기업개요·히스토리 브리핑 (재무정보·MongoDB 브리핑) |
+| `part_valuation/` | DCF·상대가치·컨센서스 수집(consensus)·peer·XBRL |
 | `ui_share/` | 밸류에이션 UI 공유본 |
 | `docs/` | 기획서·페르소나·프로젝트헌장·설계도·요구사항정의서·AI기능 설계서 |
-| `산출물_문서/` | WBS·발표 스크립트·밸류에이션 해설서·스케줄·기업목록·분석 가이드 |
-| `통합_산출물/` | ★ 시스템 아키텍처 등 대표 최종 산출물 |
+| `deliverables_docs/` | WBS·발표 스크립트·밸류에이션 해설서·스케줄·기업목록·분석 가이드 |
+| `deliverables_main/` | ★ 시스템 아키텍처 등 대표 최종 산출물 |
 
 ---
 
@@ -56,14 +56,14 @@ KOSPI·KOSDAQ 약 2,700개 상장사를 대상으로 **기업개요·주가·재
 
 ```bash
 # 1) 백엔드 (FastAPI)
-uvicorn api.main:app --reload --port 8000
+uvicorn backend.main:app --reload --port 8000
 # 2) 프론트엔드 (Next.js)
-cd frontend-next && npm run dev   # http://localhost:3000
+cd frontend && npm run dev   # http://localhost:3000
 # 또는 원클릭
 start.bat
 ```
 
-- 의존성: `requirements.txt` (Python) / `frontend-next/package.json` (Node)
+- 의존성: `requirements.txt` (Python) / `frontend/package.json` (Node)
 - 환경변수: `.env` (DART/OpenAI/MongoDB 키) — **비공개, 저장소 미포함**
 
 ---

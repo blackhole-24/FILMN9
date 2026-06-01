@@ -289,7 +289,7 @@ def _get_history(stock_code):
 
 ```bash
 # 백엔드 실행
-python -m uvicorn api.main:app --port 8000 --reload
+python -m uvicorn backend.main:app --port 8000 --reload
 
 # 별도 터미널에서 API 호출
 curl http://localhost:8000/api/overview/090430

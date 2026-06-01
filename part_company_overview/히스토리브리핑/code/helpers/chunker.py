@@ -15,11 +15,7 @@ from __future__ import annotations
 import re
 from typing import Optional
 
-# ── 청킹 옵션 (원본 data_pipeline/config.py 에서 인라인) ──
-CHAR_LIMIT           = 1500   # 청크당 최대 글자 (BGE-M3 1024토큰 창에 최적)
-OVERLAP              = 200    # 분할 시 오버랩
-PROSE_CELL_THRESHOLD = 300    # 단일 셀 텍스트가 이보다 길면 prose-table 로 처리
-PROSE_TABLE_TOTAL    = 600    # 1x1, 1x2 표 총 글자
+from .. import config as cfg
 
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -97,9 +93,9 @@ def parse_table(tbl) -> dict:
 def is_prose_table(t: dict) -> bool:
     rows = t["header_rows"] + t["body_rows"]
     if not rows: return False
-    if any(len(c) > PROSE_CELL_THRESHOLD for r in rows for c in r): return True
+    if any(len(c) > cfg.PROSE_CELL_THRESHOLD for r in rows for c in r): return True
     mc = max(len(r) for r in rows)
-    if len(rows) <= 2 and mc <= 2 and sum(len(c) for r in rows for c in r) > PROSE_TABLE_TOTAL:
+    if len(rows) <= 2 and mc <= 2 and sum(len(c) for r in rows for c in r) > cfg.PROSE_TABLE_TOTAL:
         return True
     return False
 
@@ -119,8 +115,8 @@ def table_to_prose(t: dict, caption: Optional[str]) -> str:
 # ─────────────────────────────────────────────────────────────────────────────
 def hard_split(text: str, limit: Optional[int] = None,
                overlap: Optional[int] = None) -> list:
-    limit   = limit   or CHAR_LIMIT
-    overlap = overlap or OVERLAP
+    limit   = limit   or cfg.CHAR_LIMIT
+    overlap = overlap or cfg.OVERLAP
     if len(text) <= limit: return [text]
     out, i = [], 0
     while i < len(text):
@@ -170,12 +166,12 @@ def render_table_chunks(t: dict, caption: Optional[str]) -> list:
         return [prefix] if prefix else []
 
     full = prefix + ("\n" if prefix else "") + "\n".join(body_lines)
-    if len(full) <= CHAR_LIMIT:
+    if len(full) <= cfg.CHAR_LIMIT:
         return [full]
 
     chunks, cur, cur_len = [], [], len(prefix) + 1
     for ln in body_lines:
-        if cur and cur_len + len(ln) + 1 > CHAR_LIMIT:
+        if cur and cur_len + len(ln) + 1 > cfg.CHAR_LIMIT:
             chunks.append(prefix + "\n" + "\n".join(cur))
             cur, cur_len = [ln], len(prefix) + 1 + len(ln) + 1
         else:
@@ -183,7 +179,7 @@ def render_table_chunks(t: dict, caption: Optional[str]) -> list:
     if cur: chunks.append(prefix + "\n" + "\n".join(cur))
     out = []
     for c in chunks:
-        out.extend(hard_split(c) if len(c) > CHAR_LIMIT else [c])
+        out.extend(hard_split(c) if len(c) > cfg.CHAR_LIMIT else [c])
     return out
 
 
@@ -261,7 +257,7 @@ def build_chunks(root, meta: dict) -> list:
             if pbuf: flush()
             ppath = p
             for txt in render_table_chunks(it["data"], it.get("caption")):
-                for piece in (hard_split(txt) if len(txt) > CHAR_LIMIT else [txt]):
+                for piece in (hard_split(txt) if len(txt) > cfg.CHAR_LIMIT else [txt]):
                     chunks.append({"path": list(it["path"]) or ["(문서 본문)"],
                                    "text": piece, "kind": "table"})
     flush()

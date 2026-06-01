@@ -16,7 +16,7 @@
    상태: 완료
 ────────────────────────────────────────────────────────────────
 
-파일: C:/Users/Admin/FILMN9/기업개요_파트/재무정보/build_ohlcv.py
+파일: C:/Users/Admin/FILMN9/part_company_overview/재무정보/build_ohlcv.py
 산출: data/parsed/{stock_code}/ohlcv.json
 
   [✓] pykrx 일봉 OHLCV 수집
@@ -167,7 +167,7 @@ outputs/
 
 | 파일                                            | 종류 | 핵심 내용                                   |
 |-------------------------------------------------|------|---------------------------------------------|
-| 기업개요_파트/재무정보/build_ohlcv.py            | NEW  | pykrx OHLCV 수집기, 청크 분할, --update 모드 |
+| part_company_overview/재무정보/build_ohlcv.py            | NEW  | pykrx OHLCV 수집기, 청크 분할, --update 모드 |
 | api/main.py                                     | NEW  | FastAPI 엔트리, CORS, /api/search, /health  |
 | api/routers/company.py                          | NEW  | company_info / financials / overview        |
 | api/routers/ohlcv.py                            | NEW  | ohlcv / latest (_generated_at 포함)         |
@@ -207,7 +207,7 @@ outputs/
 
 | 증상                              | 원인                                        | 해결                                     |
 |-----------------------------------|---------------------------------------------|------------------------------------------|
-| 차트 빈 화면 (404 분서)           | from routers 임포트 실패                    | from api.routers로 변경                  |
+| 차트 빈 화면 (404 분서)           | from routers 임포트 실패                    | from backend.routers로 변경                  |
 | API 응답 빈 데이터                | _ROOT 경로 계산 오류 (parent 4개)           | 3 parent로 수정                          |
 | 'N/NaN/NaN 날짜 표시              | BusinessDay/timestamp 분기 없음             | 통합 헬퍼로 3가지 포맷 분기              |
 | 정보 패널이 항상 오늘 값만 표시   | _ts2key가 BusinessDay일 때 ts*1000=NaN      | 'year' in t 분기 추가                    |
@@ -313,7 +313,7 @@ outputs/
 
   # FastAPI 서버 실행
   cd C:/Users/Admin/FILMN9
-  uvicorn api.main:app --reload --port 8000
+  uvicorn backend.main:app --reload --port 8000
 
   # 차트 페이지 열기
   start outputs/chart_prototype.html
@@ -334,7 +334,7 @@ outputs/
   │           ├── company_info.json                  ✅
   │           ├── financials.json                    ✅
   │           └── ohlcv.json                         ✅ (오늘 추가)
-  ├── 기업개요_파트/재무정보/
+  ├── part_company_overview/재무정보/
   │   ├── build_corp_code_map.py                     ✅
   │   ├── build_overview.py                          ✅
   │   └── build_ohlcv.py                             ✅ (오늘 추가)

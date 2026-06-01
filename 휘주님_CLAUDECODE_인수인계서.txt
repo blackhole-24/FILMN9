@@ -173,7 +173,7 @@ STEP 6. 폴백 모드 (Mongo 끝까지 연결 불가 시)
   → 2,526개 파일이 있어야 함
 
   ② 백엔드 기동 (백그라운드):
-  > python -m uvicorn api.main:app --port 8000 --reload &
+  > python -m uvicorn backend.main:app --port 8000 --reload &
 
   ③ 폴백 작동 확인:
   > curl http://localhost:8000/api/overview/090430
@@ -264,7 +264,7 @@ python db/load_history_to_mongo.py --list
 python db/load_history_to_mongo.py --find 090430
 
 # 백엔드 기동
-python -m uvicorn api.main:app --port 8000 --reload
+python -m uvicorn backend.main:app --port 8000 --reload
 
 # 폴백 모드 검증
 curl http://localhost:8000/api/overview/090430

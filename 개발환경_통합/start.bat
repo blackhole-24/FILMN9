@@ -19,13 +19,13 @@ if not exist "%PYTHON%" (
 )
 
 echo [1/2] Starting FastAPI server (port 8000)...
-start "FILMN9-API :8000" cmd /k "cd /d "%ROOT%" && "%PYTHON%" -m uvicorn api.main:app --reload --port 8000"
+start "FILMN9-API :8000" cmd /k "cd /d "%ROOT%" && "%PYTHON%" -m uvicorn backend.main:app --reload --port 8000"
 
 timeout /t 3 /nobreak > nul
 
-if exist "%ROOT%frontend-next\node_modules" (
+if exist "%ROOT%frontend\node_modules" (
     echo [2/2] Starting Next.js (port 3000)...
-    start "FILMN9-UI :3000" cmd /k "cd /d "%ROOT%frontend-next" && "%NPM%" run dev"
+    start "FILMN9-UI :3000" cmd /k "cd /d "%ROOT%frontend" && "%NPM%" run dev"
     timeout /t 8 /nobreak > nul
     echo.
     echo Opening browser...

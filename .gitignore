@@ -289,7 +289,7 @@ handover/
 generate_handover_index.py
 
 # 구버전 (로컬 보관, push 제외)
-/frontend/
+/_archive_old_frontend/
 FILMN9_WBS_업데이트_v4.xlsx
 make_schedule_v2.py
 FILMN9_스케줄_v2_AI_Code분업.docx
@@ -313,3 +313,4 @@ test_health.py
 test_realtime.py
 _reorg.py
 _list_handover.py
+_rename_repo.py

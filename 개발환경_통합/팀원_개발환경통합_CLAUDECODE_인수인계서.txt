@@ -80,7 +80,7 @@ STEP 0-B. 표준 경로 결정 + 메인 개발자 폴더 구성 확인
   │       ├── extras.py          ← 보조 데이터 API
   │       └── valuation.py
   │
-  ├── frontend-next/             ← 프런트엔드 (Next.js)
+  ├── frontend/             ← 프런트엔드 (Next.js)
   │   ├── app/
   │   │   ├── layout.tsx
   │   │   ├── page.tsx           ← 홈페이지
@@ -312,8 +312,8 @@ STEP 4. Python 가상환경 + 의존성 설치
 STEP 5. Frontend 의존성 설치
 ================================================================
 
-  ① frontend-next/ 폴더 진입:
-  > cd frontend-next
+  ① frontend/ 폴더 진입:
+  > cd frontend
 
   ② npm install:
   > npm install
@@ -321,7 +321,7 @@ STEP 5. Frontend 의존성 설치
   설치 시간: 약 2-5분 (인터넷 속도 의존)
 
   ③ 설치 확인:
-  > Glob frontend-next/node_modules/.bin/next
+  > Glob frontend/node_modules/.bin/next
   (파일 존재하면 OK)
 
   ④ 루트로 복귀:
@@ -392,8 +392,8 @@ STEP 8. 백엔드 + 프런트엔드 동시 기동
   Mac/Linux 사용자:
   > bash start.sh
   (없으면 별도 터미널 2개에서 각각:)
-    터미널1: python -m uvicorn api.main:app --port 8000 --reload
-    터미널2: cd frontend-next && npm run dev
+    터미널1: python -m uvicorn backend.main:app --port 8000 --reload
+    터미널2: cd frontend && npm run dev
 
   ② 정상 기동 확인:
   > curl http://localhost:8000/         # 백엔드 응답
@@ -466,7 +466,7 @@ Q1. "ModuleNotFoundError: No module named 'fastapi'"
     A. venv 활성화 안 됨. STEP 4-② 다시 수행.
 
 Q2. "npm ERR! ENOENT package.json"
-    A. frontend-next/ 폴더에 있는지 확인. cd frontend-next 필수.
+    A. frontend/ 폴더에 있는지 확인. cd frontend 필수.
 
 Q3. "filmn9.db: no such table"
     A. STEP 6 다시 수행. init_db.py → batch_demo3.py 순서.

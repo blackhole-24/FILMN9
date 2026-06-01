@@ -6,7 +6,7 @@ import time
 from pathlib import Path
 
 sys.path.insert(0, r"C:\Users\Admin\FILMN9")
-import db.build_sankey as BS
+import database.build_sankey as BS
 
 DB = Path(r"C:\Users\Admin\FILMN9\data\filmn9.db")
 
