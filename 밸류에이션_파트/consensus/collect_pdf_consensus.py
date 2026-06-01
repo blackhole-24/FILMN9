@@ -27,7 +27,7 @@ import openai
 urllib3.disable_warnings()
 
 # ── 설정 ───────────────────────────────────────────────────────────
-API_KEY = os.environ.get("OPENAI_API_KEY", "sk-proj-1E1EziY3vTUK4z9Vt_QW...")  # .env에서 복사
+API_KEY = os.environ.get("OPENAI_API_KEY", "")  # .env 의 OPENAI_API_KEY 사용 (코드 하드코딩 금지)
 HK_META_PATH = Path("C:/Users/Admin/FILMN9/data/hankyung/reports_metadata.json")
 OUT_DIR      = Path("C:/Users/Admin/FILMN9/data/naver_consensus/by_stock_code")
 PDF_CACHE    = Path("C:/Users/Admin/FILMN9/data/_pdf_cache")  # PDF 임시 저장
