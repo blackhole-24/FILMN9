@@ -393,8 +393,9 @@ def _build_streamlit_payload(eval_d, beta, wacc, dcf, eqv, multi, unc, ttm_data=
             "rf":               wacc["rf"],
             "ke":               wacc["Ke"],
             "kd_aftertax":      wacc["Kd_after_tax"],
-            # v3 — FCFF 음수 회사 처리 flag
+            # v3 — FCFF 음수 회사 처리 flag / v7 — 투자기 성장주 신호
             "dcf_valid":          dcf.get("dcf_valid", True),
+            "dcf_fcff_y1_negative": dcf.get("dcf_fcff_y1_negative", False),
             "dcf_invalid_reason": dcf.get("dcf_invalid_reason"),
             # v3 — DCF 신뢰도 등급
             "dcf_confidence":     dcf.get("dcf_confidence", "medium"),

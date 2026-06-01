@@ -537,25 +537,31 @@ function showDamodaranModal(){
   const s=(_D&&_D.summary)||{};
   const dmd = s.damodaran_check || {};
   if(!dmd.available){
-    openModal("Damodaran βU 교차검증", `<p>해당 산업의 Damodaran 산업 평균 βU 데이터를 찾지 못했습니다 (매핑 실패). 본 평가는 피어 4사 회귀 βU 중위값만 사용.</p>`);
+    openModal("βU 산출 (Damodaran 미가용)", `<p>해당 산업의 Damodaran 산업 평균 βU 데이터를 찾지 못해(매핑 실패), 본 평가는 <b>피어 회귀 βU</b>(이상치 제외 + 사업유사도 가중평균)만 사용했습니다.</p>`);
     return;
   }
   const peer = (dmd.peer_median_bU*1).toFixed(3);
   const dam = (dmd.damodaran_bU*1).toFixed(3);
   const gap = (dmd.gap*1).toFixed(3);
   const warn = dmd.warn_gt_0p3;
-  openModal("Damodaran βU 교차검증 (보조)", `
-    <p>피어 4사 회귀로 추정한 산업 무차입 베타(βU)를 학계 표준(Damodaran emerging markets)과 비교.</p>
+  const blended = (dmd.blended_bU!=null)?(dmd.blended_bU*1).toFixed(3):null;
+  const wPeer = (dmd.weight_peer!=null)?(dmd.weight_peer*100).toFixed(0):null;
+  const excl = (dmd.excluded_peers&&dmd.excluded_peers.length)?dmd.excluded_peers.join(', '):null;
+  const agg = dmd.agg_method==='similarity_weighted' ? '사업유사도 가중평균' : (dmd.agg_method==='median_fallback'?'중위값':'피어 집계');
+  openModal("βU 산출 — 피어 + Damodaran 혼합", `
+    <p>무차입 베타(βU = 순수 영업위험)를 <b>① 피어 회귀(이상치 제외 후 ${agg}) + ② Damodaran 산업 평균</b>을 혼합해 산출합니다(Vasicek shrinkage).</p>
     <table>
-      <thead><tr><th>출처</th><th>βU (무차입)</th></tr></thead>
+      <thead><tr><th>구성</th><th>βU (무차입)</th></tr></thead>
       <tbody>
-        <tr><td>피어 중위값 (본 평가 사용)</td><td><b>${peer}</b></td></tr>
+        <tr><td>피어 ${agg}</td><td>${peer}</td></tr>
         <tr><td>Damodaran ${dmd.damodaran_sector||'산업 평균'}</td><td>${dam}</td></tr>
-        <tr><td>차이 (피어 − Damodaran)</td><td style="color:${warn?'#dc2626':'#16a34a'}"><b>${gap>=0?'+':''}${gap}</b></td></tr>
+        ${blended!=null?`<tr style="background:#eef6ff"><td><b>혼합 최종 βU</b> (피어 가중 ${wPeer}%)</td><td><b>${blended}</b></td></tr>`:''}
+        <tr><td>피어 − Damodaran 차이</td><td style="color:${warn?'#dc2626':'#16a34a'}">${gap>=0?'+':''}${gap}</td></tr>
       </tbody>
     </table>
-    ${warn ? `<div class="mwarn">⚠ 차이 절댓값 0.3 초과 — 피어 표본이 산업 평균과 크게 다릅니다. 피어 선정·표본 작음을 의심하세요.</div>` : `<div class="mnote">차이 0.3 이내 — 피어 베타가 산업 평균과 정합. 평가 신뢰도 보조 증거.</div>`}
-    <p>이 값은 <b>본 평가의 βU 자체를 대체하지 않습니다</b>(보조 교차검증). 매핑은 한글 업종명 키워드 기반으로 휴리스틱입니다.</p>
+    ${excl?`<div class="mnote">βU 이상치로 제외된 피어: <b>${excl}</b> — 영업위험이 동종과 크게 달라(과부채 등) βU를 왜곡하므로 제외.</div>`:''}
+    ${warn ? `<div class="mwarn">⚠ 차이 0.3 초과 — 차이가 크면 Damodaran 가중을 자동으로 낮춰(부정확한 산업 매핑 회피) 피어 중심으로 혼합합니다.</div>` : `<div class="mnote">차이 0.3 이내 — 피어와 산업 평균이 정합.</div>`}
+    <p style="font-size:12px;color:#888">혼합 가중 w = n/(n+2) (피어 표본 클수록 피어↑) × gap-aware(차이 클수록 Damodaran↓). 산업 매핑은 한글 업종명 키워드 휴리스틱.</p>
   `);
 }
 
@@ -604,6 +610,7 @@ function showGradeModal(){
   openModal("이 종목의 DCF 신뢰도 등급은요…", `
     <p>현재 등급: <b style="color:${m.c}">${m.t}</b></p>
     <p>판정 근거: <b>${reason}</b></p>
+    ${s.dcf_fcff_y1_negative ? `<div class="mnote">💡 이 종목은 <b>투자기 성장주</b>입니다 — 대규모 증설·운전자본 확대로 1년차 잉여현금흐름(FCFF)은 음수지만 기업가치(EV)는 양수라 평가에 포함했습니다(예: 증설기 바이오·소재). 가치가 먼 미래·영구가치에 집중돼 신뢰도 등급이 낮게 나올 수 있습니다.</div>` : ''}
     <h4>5단계 등급의 의미</h4>
     <table>
       <thead><tr><th>등급</th><th>의미</th><th>화면 표시 정책</th></tr></thead>
