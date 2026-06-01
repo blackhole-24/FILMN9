@@ -5,7 +5,7 @@ collect_naver_consensus.py 실행 전, 실제 페이지 구조를 확인.
 005930 (삼성전자) 1개 종목으로 HTML 덤프 + 테이블 파싱 진단.
 
 실행:
-  python part_valuation/debug_naver_structure.py
+  python 밸류에이션_파트/debug_naver_structure.py
 """
 
 import requests, json, re

@@ -6,8 +6,8 @@ Tab1 신규 데이터 수집기 (주주·경영인·공시·재무상세)
 사용법
 ------
 cd C:/Users/Admin/FILMN9
-python part_company_overview/재무정보/build_extras.py 090430
-python part_company_overview/재무정보/build_extras.py 090430 --year 2025
+python 기업개요_파트/재무정보/build_extras.py 090430
+python 기업개요_파트/재무정보/build_extras.py 090430 --year 2025
 
 DART OpenAPI 엔드포인트
 ----------------------

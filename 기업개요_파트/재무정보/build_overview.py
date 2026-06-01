@@ -11,7 +11,7 @@ build_overview.py
 
 사용법
 ------
-  cd C:/Users/Admin/FILMN9/part_company_overview/재무정보
+  cd C:/Users/Admin/FILMN9/기업개요_파트/재무정보
 
   # 종목코드로 검색
   python build_overview.py 090430        # 아모레퍼시픽

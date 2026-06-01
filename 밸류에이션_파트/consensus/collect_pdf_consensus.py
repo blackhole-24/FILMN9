@@ -11,7 +11,7 @@ FILMN9 - 2단계 대안: 한경 PDF → OPENAI API 추정치 추출
 
 실행:
   pip install pdfplumber anthropic requests
-  python part_valuation/collect_pdf_consensus.py
+  python 밸류에이션_파트/collect_pdf_consensus.py
 
 주의:
   ANTHROPIC_API_KEY 환경변수 필요

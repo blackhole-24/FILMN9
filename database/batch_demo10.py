@@ -29,7 +29,7 @@ from datetime import datetime
 
 ROOT = Path(__file__).resolve().parent.parent
 PY   = sys.executable
-FIN  = ROOT / "part_company_overview" / "재무정보"
+FIN  = ROOT / "기업개요_파트" / "재무정보"
 DB   = ROOT / "db"
 
 DEMO_10 = [

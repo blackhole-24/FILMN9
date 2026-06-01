@@ -11,7 +11,7 @@ FILMN9 - 1단계: 한경 컨센서스 스크래퍼
   cd C:/Users/Admin/FILMN9
   conda activate FILMN9_env
   pip install requests beautifulsoup4  (없는 경우)
-  python part_valuation/collect_hankyung.py
+  python 밸류에이션_파트/collect_hankyung.py
 """
 
 import requests, re, json, time, statistics

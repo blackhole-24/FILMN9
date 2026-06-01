@@ -9,7 +9,7 @@ build_ohlcv.py
 
 사용법
 ------
-  cd C:/Users/Admin/FILMN9/part_company_overview/재무정보
+  cd C:/Users/Admin/FILMN9/기업개요_파트/재무정보
 
   python build_ohlcv.py 090430          # 아모레퍼시픽 (종목코드)
   python build_ohlcv.py 삼성전자        # 기업명 검색

@@ -38,7 +38,7 @@ DART corpCode.xml (전체 법인 bulk) + 로컬 JSONL 파일명 매칭
 
 사용
 ----
-  cd C:/Users/Admin/FILMN9/part_company_overview/재무정보
+  cd C:/Users/Admin/FILMN9/기업개요_파트/재무정보
   python build_corp_code_map.py
 """
 

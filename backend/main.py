@@ -32,7 +32,7 @@ import sys
 
 # ─── 경로 설정 ────────────────────────────────────────────────────────────────
 _ROOT = Path(__file__).resolve().parent.parent   # FILMN9/
-_FIN  = _ROOT / "part_company_overview" / "재무정보"
+_FIN  = _ROOT / "기업개요_파트" / "재무정보"
 if str(_FIN) not in sys.path:
     sys.path.insert(0, str(_FIN))
 

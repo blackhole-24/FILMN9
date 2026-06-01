@@ -5,7 +5,7 @@ FILMN9 - 3단계: A2 통합 (DCF 입력값 생성)
 valuation_input/{code}.json 생성.
 
 실행:
-  python part_valuation/build_valuation_input.py
+  python 밸류에이션_파트/build_valuation_input.py
 """
 
 import json

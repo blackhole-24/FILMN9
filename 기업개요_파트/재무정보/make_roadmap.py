@@ -1,7 +1,7 @@
 """
 기업개요 파트 — 개발 단계 로드맵 PDF 생성기
 run: python make_roadmap.py
-output: outputs/part_company_overview_개발로드맵.pdf
+output: outputs/기업개요_파트_개발로드맵.pdf
 """
 
 from pathlib import Path
@@ -180,7 +180,7 @@ def flow_table(rows, col_widths=None):
 # ── PDF 빌드 ─────────────────────────────────────────────────────────────────
 
 def build():
-    out = Path(__file__).parent / "outputs" / "part_company_overview_개발로드맵.pdf"
+    out = Path(__file__).parent / "outputs" / "기업개요_파트_개발로드맵.pdf"
     out.parent.mkdir(exist_ok=True)
 
     doc = SimpleDocTemplate(

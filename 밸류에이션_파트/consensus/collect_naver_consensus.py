@@ -19,7 +19,7 @@ Ajax 불필요. 정적 HTML 파싱.
   - 증권사별 목표가 (gHead01 all-width — 별도 테이블)
 
 실행:
-  python part_valuation/collect_naver_consensus.py
+  python 밸류에이션_파트/collect_naver_consensus.py
 """
 
 import requests, json, time, re, statistics as _stat

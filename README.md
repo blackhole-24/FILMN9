@@ -27,8 +27,8 @@ KOSPI·KOSDAQ 약 2,700개 상장사를 대상으로 **기업개요·주가·재
 
 | 폴더 | 내용 |
 |---|---|
-| `part_company_overview/` | 기업개요·히스토리 브리핑 (재무정보·MongoDB 브리핑) |
-| `part_valuation/` | DCF·상대가치·컨센서스 수집(consensus)·peer·XBRL |
+| `기업개요_파트/` | 기업개요·히스토리 브리핑 (재무정보·MongoDB 브리핑) |
+| `밸류에이션_파트/` | DCF·상대가치·컨센서스 수집(consensus)·peer·XBRL |
 | `ui_share/` | 밸류에이션 UI 공유본 |
 | `docs/` | 기획서·페르소나·프로젝트헌장·설계도·요구사항정의서·AI기능 설계서 |
 | `deliverables_docs/` | WBS·발표 스크립트·밸류에이션 해설서·스케줄·기업목록·분석 가이드 |
