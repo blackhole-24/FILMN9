@@ -68,7 +68,7 @@ python -m uvicorn embedding.chatbot.api:app --host 0.0.0.0 --port 8000
                 ▼
          stub 표 강등 → Top-K
                 ▼
-   생성기(LLM, reasoning=high) ──▶ 스트리밍 답변 + 출처 deep-link
+   생성기(LLM) ──▶ 스트리밍 답변 + 출처 deep-link
 ```
 
 ---
@@ -171,7 +171,7 @@ PowerShell -ExecutionPolicy Bypass -File embedding\register_auto_update.ps1
 
 | 분류 | 선택 | 비고 |
 |---|---|---|
-| LLM | OpenAI **gpt-5.4-mini** (분석·생성 모두) | `reasoning_effort=high` (생성), `medium` (분석) |
+| LLM | OpenAI **gpt-5.4-mini** (분석·생성 모두) | 모델 기본 추론 사용(reasoning_effort 미지정), temperature 0.1 |
 | 임베딩 | **BAAI/bge-m3** (1024차원, CLS, L2 정규화) | GPU FP16 + SDPA |
 | 재랭커 | **BAAI/bge-reranker-v2-m3** | 확장 인지 max-pool |
 | 벡터 DB | **ChromaDB 1.5.9** (PersistentClient) | HNSW |
@@ -179,7 +179,7 @@ PowerShell -ExecutionPolicy Bypass -File embedding\register_auto_update.ps1
 | 검색 | Multi-Query + HyDE + RRF + Cross-encoder rerank + 온톨로지 확장 |  |
 | UI | Vanilla HTML + SSE 스트리밍 | 단계별 진행 + 출처 미리 표시 |
 | API | FastAPI + uvicorn |  |
-| 회사 해석 | rapidfuzz + 한글/영문 변형 + 별칭 + unique substring containment |  |
+| 회사 해석 | rapidfuzz + 한글/영문 변형 + 통칭 별칭 사전 + 엔티티 접미사 가드 + unique substring containment | 예: 현대차→현대자동차, 네이버→NAVER |
 
 ---
 

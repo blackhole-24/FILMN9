@@ -61,6 +61,34 @@ def _query_variants(name: str) -> list[str]:
     return variants
 
 
+# 통칭·약칭 → DART 등록 정식명 별칭 사전.
+# _expand_latin 은 라틴→한글(SK하이닉스→에스케이하이닉스)만 처리하므로,
+# ① 한글통칭→라틴등록명(엘지화학→LG화학), ② 줄임말(삼전→삼성전자),
+# ③ 접미사 다른 동명회사 혼동(현대차→현대자동차, NOT 현대차증권) 을 보완한다.
+# 키는 _normalize 적용형. 값은 DB 실재 종목명(검증됨)이라 exact-match 로 즉시 확정된다.
+_ALIASES: dict[str, str] = {
+    "현대차": "현대자동차",
+    "기아차": "기아",
+    "네이버": "NAVER",
+    "하이닉스": "에스케이하이닉스",
+    "엘지화학": "LG화학",
+    "엘지전자": "LG전자",
+    "엘지에너지솔루션": "LG에너지솔루션",
+    "엘지엔솔": "LG에너지솔루션",
+    "포스코": "POSCO홀딩스",
+    "삼전": "삼성전자",
+    "삼바": "삼성바이오로직스",
+    "한전": "한국전력",
+    "카뱅": "카카오뱅크",
+    "KB금융": "KB금융지주",
+    "신한금융": "신한지주",
+    "하나금융": "하나금융지주",
+    "우리금융": "우리금융지주",
+    "에스케이텔레콤": "SK텔레콤",
+    "삼성에스디아이": "삼성SDI",
+}
+
+
 def _build_from_source() -> dict:
     """jsonl 첫 줄들을 스캔해 회사 인덱스 구성."""
     entries: dict[str, dict] = {}   # ticker -> {ticker, corp_name, corp_code, years}
@@ -146,12 +174,19 @@ def _matched_result(entry: dict) -> dict:
 # 부분문자열 유일 포함 매칭 최소 길이 (사명변경/접두 변형 대응; 짧은 토큰 노이즈 방지)
 _CONTAIN_MIN_LEN = 3
 
+# 엔티티 종류 접미사 — 질의에 이게 붙은 별개 법인(예: 현대차+증권)을 동일시하지 않기 위함.
+# "현대차" ⊂ "현대차증권" 같은 접두 포함은 다른 회사이므로 containment 확정에서 제외한다.
+# 반대로 그룹접두가 '앞에' 붙는 사명변경(현대중공업 ⊂ 에이치디현대중공업)은 영향 없음.
+_ENTITY_SUFFIX = ("증권", "홀딩스", "지주", "금융지주", "금융", "생명", "화재", "손해보험",
+                  "손보", "카드", "캐피탈", "은행", "저축은행", "자산운용", "인베스트먼트")
+
 
 def _unique_containment(names: list[str]) -> Optional[dict]:
     """질의가 '단 하나'의 회사명에 부분문자열로 포함되면 그 회사로 확정.
 
     사명변경·그룹접두 부류 대응(예: "현대중공업" ⊂ "에이치디현대중공업").
     여러 회사가 포함하면(모호) None — 퍼지/되묻기로 넘긴다.
+    엔티티 접미사 가드: 질의가 후보명의 '접두'이고 나머지가 증권/지주 등 별개 법인 접미사면 제외.
     """
     hits: set[str] = set()
     hit_entry: dict = {}
@@ -161,9 +196,15 @@ def _unique_containment(names: list[str]) -> Optional[dict]:
             continue
         for cand in _INDEX["companies"]:
             cn = cand.get("corp_name", "")
-            if len(cn) >= _CONTAIN_MIN_LEN and q in cn:
-                hits.add(cand["ticker"])
-                hit_entry[cand["ticker"]] = cand
+            if len(cn) < _CONTAIN_MIN_LEN or q not in cn:
+                continue
+            # 가드: cn = q + 엔티티접미사 (예: "현대차"+"증권") → 별개 법인이므로 제외
+            if cn != q and cn.startswith(q):
+                rest = cn[len(q):]
+                if any(rest.startswith(suf) for suf in _ENTITY_SUFFIX):
+                    continue
+            hits.add(cand["ticker"])
+            hit_entry[cand["ticker"]] = cand
     if len(hits) == 1:
         return hit_entry[next(iter(hits))]
     return None
@@ -220,6 +261,15 @@ def resolve_any(names: list[str]) -> dict:
     names = [n for n in (names or []) if n and n.strip()]
     if not names:
         return empty
+
+    # 통칭·약칭 별칭 확장 (예: 현대차→현대자동차, 네이버→NAVER, 하이닉스→에스케이하이닉스).
+    # 별칭 값은 DB 실재 정식명이라 아래 _match_one 에서 exact-match 로 즉시 확정된다.
+    expanded = list(names)
+    for nm in names:
+        alias = _ALIASES.get(_normalize(nm))
+        if alias and alias not in expanded:
+            expanded.append(alias)
+    names = expanded
 
     merged: dict[str, float] = {}
     for nm in names:
