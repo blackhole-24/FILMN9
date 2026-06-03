@@ -401,7 +401,10 @@ def compute_dcf(wacc_result: dict, ttm_data: Optional[dict] = None,
     # TTM 노트 + 이격 경고 (warnings 리스트는 위에서 미리 초기화 — B1+/C1 사용 후 추가)
     if _ttm_note:
         warnings.append(_ttm_note)
-    warnings += _check_outliers(opm_series,         "OPM",    valid_years)
+    # Phase(정교화): OPM 이상치 경고를 별도 보관 — 신뢰도 등급의 opm_outliers 는
+    #   정상 정보성 메시지("OPM 수렴/윈도우")가 아닌 '진짜 이격 이상치'만 세야 한다.
+    _opm_outlier_warns = _check_outliers(opm_series, "OPM", valid_years)
+    warnings += _opm_outlier_warns
     warnings += _check_outliers(da_ratio_series,    "D&A율",  valid_years)
     warnings += _check_outliers(capex_ratio_series, "CapEx율", valid_years)
 
@@ -860,28 +863,34 @@ def compute_dcf(wacc_result: dict, ttm_data: Optional[dict] = None,
             f"가치가 명시예측 후반·영구가치에 집중되어 신뢰도 등급(Terminal 비중) 확인 권장.")
 
     # ── ★ DCF 신뢰도 등급 산정 (OPM 이격 + 경고 수 + FCFF 신호) ─
-    opm_outliers   = sum(1 for w in result["warnings"] if "OPM" in w)
+    opm_outliers   = len(_opm_outlier_warns)   # 진짜 이격 이상치만(정보성 'OPM 수렴/윈도우' 제외)
     total_warnings = len(result["warnings"])
-    # 최대 OPM 이격율 추출
+    # 최대 OPM 이격율 — Phase(정교화): 분모폭발 보정. 저마진(|avg OPM|≈0) 종목은
+    #   분모가 0에 가까워 상대이격이 폭발 → 과민 감점. 분모에 floor 3%p 를 둬 방지한다.
     max_opm_dev = 0.0
-    if opm_series and _avg(opm_series) != 0:
-        avg_opm = _avg(opm_series)
-        max_opm_dev = max(abs(v - avg_opm) / abs(avg_opm) for v in opm_series)
-    # Phase 4 (M): OPM 부호반전(흑↔적 혼재) 직접 감지 — 적자전환/턴어라운드는 정상화
-    #   가정의 신뢰도를 크게 훼손한다. 이격율은 avg≈0 일 때 분모가 폭발해 부정확하므로,
-    #   부호 혼재를 별도 신호로 잡아 등급에 반영한다. (cyclical 의 '양수' OPM 변동은
-    #   부호반전이 아니므로 미해당 — 정상 cyclical 을 과도하게 깎지 않는다.)
+    _opm_avg = _avg(opm_series) if opm_series else 0.0
+    if opm_series:
+        _denom = max(abs(_opm_avg), 0.03)        # 분모 floor 3%p (저마진 과민 방지)
+        max_opm_dev = max(abs(v - _opm_avg) / _denom for v in opm_series)
+    # Phase 4 (M): OPM 부호반전(흑↔적 혼재) 감지. + Phase(정교화): 일시 적자(턴어라운드)와
+    #   구조적 적자를 구분한다. '평균 흑자 & 흑자연도 과반'이면 일시 부호반전(very_low→low 완화),
+    #   평균까지 적자면 구조적(very_low 유지). 정상 cyclical(전부 양수)은 미해당.
     opm_sign_flip = bool(opm_series) and (min(opm_series) < 0 < max(opm_series))
+    _opm_pos_ratio = (sum(1 for o in opm_series if o > 0) / len(opm_series)) if opm_series else 0.0
+    opm_transient_loss  = opm_sign_flip and (_opm_avg > 0) and (_opm_pos_ratio >= 0.5)
+    opm_structural_flip = opm_sign_flip and not opm_transient_loss
     result["dcf_opm_sign_flip"] = opm_sign_flip
+    result["dcf_opm_transient"] = opm_transient_loss
 
     if not dcf_valid:
         confidence = "invalid"
         confidence_score = 0
-    elif opm_sign_flip or max_opm_dev > 5.0 or opm_outliers >= 3:
-        # OPM 부호반전(적자전환) / 이격 500%+ / 3년 모두 outlier → 신뢰도 매우 낮음
+    elif opm_structural_flip or max_opm_dev > 5.0 or opm_outliers >= 3:
+        # 구조적 부호반전(평균 적자) / 이격 500%+ / 3년 모두 outlier → 신뢰도 매우 낮음
         confidence = "very_low"
         confidence_score = 1
-    elif max_opm_dev > 2.0 or opm_outliers >= 2:
+    elif opm_transient_loss or max_opm_dev > 2.0 or opm_outliers >= 2:
+        # 일시 적자(평균 흑자) / 이격 200%+ / outlier 2년 → 낮음
         confidence = "low"
         confidence_score = 2
     elif max_opm_dev > 1.0 or total_warnings >= 2:
@@ -909,9 +918,15 @@ def compute_dcf(wacc_result: dict, ttm_data: Optional[dict] = None,
     elif tv_weight > 0.78:       _tv_cap = "B"
     else:                        _tv_cap = "A"
     grade = min(_score_grade, _tv_cap, key=lambda g: _ORD.index(g))   # 둘 중 나쁜 등급
-    _unprofitable = (implied_roic is None) or (implied_roic <= 0) or (invested_capital <= 0)
-    if (not dcf_valid) or _unprofitable:
+    _ic_impaired = (invested_capital is None) or (invested_capital <= 0)
+    _roic_neg    = (implied_roic is None) or (implied_roic <= 0)
+    # Phase(정교화): 자본잠식(IC≤0)·구조적 적자(ROIC≤0 & 평균 OPM≤0)는 E.
+    #   ROIC≤0 이라도 평균 흑자(일시 적자/턴어라운드)면 E 대신 D 상한(점추정 숨김)으로 완화.
+    if (not dcf_valid) or _ic_impaired or (_roic_neg and _opm_avg <= 0):
         grade = "E"
+    elif _roic_neg:
+        grade = min(grade, "D", key=lambda g: _ORD.index(g))
+    _unprofitable = _roic_neg or _ic_impaired   # reason 표기용
     result["dcf_grade"]                = grade
     result["dcf_tv_weight"]            = tv_weight
     result["dcf_show_point_estimate"]  = grade in ("A", "B", "C")   # D·E 점추정 숨김
