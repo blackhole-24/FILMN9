@@ -9,7 +9,7 @@ from __future__ import annotations
 from typing import Iterator, Optional
 
 from .config import (
-    OPENAI_MODEL, OPENAI_TEMPERATURE, OPENAI_TIMEOUT_S,
+    OPENAI_MODEL, OPENAI_TEMPERATURE, OPENAI_TIMEOUT_S, MAX_COMPLETION_TOKENS,
 )
 
 _CLIENT = None
@@ -29,15 +29,19 @@ def _get_client():
 
 
 # 모델별로 미지원할 수 있는 파라미터 (GPT-5/o 계열은 custom temperature 거부 사례)
-_DROPPABLE_PARAMS = ("temperature", "top_p")
+# reasoning_effort/verbosity 는 GPT-5 계열 전용 — 미지원 모델에선 자동 폴백
+# max_completion_tokens 미지원(구형) 모델이면 자동 폴백으로 제거(상한만 사라짐, 호출은 성공)
+_DROPPABLE_PARAMS = ("reasoning_effort", "verbosity", "max_completion_tokens", "temperature", "top_p")
 
 
 def chat_create(*, model, messages, temperature=None, response_format=None,
-                stream=False, stream_options=None):
-    """chat.completions.create 래퍼 — 미지원 파라미터(예: temperature) 자동 폴백.
+                stream=False, stream_options=None,
+                reasoning_effort=None, verbosity=None, max_completion_tokens=None):
+    """chat.completions.create 래퍼 — 미지원 파라미터 자동 폴백.
 
-    GPT-5/o 계열은 custom temperature 를 거부할 수 있어, 해당 오류 시 그 파라미터를
-    제거하고 1회 재시도한다(모델 교체 시 호환성 확보).
+    GPT-5 계열은 reasoning_effort("minimal"/"low"/"medium"/"high")로 추론 깊이 조절,
+    max_completion_tokens 로 추론+출력 토큰 상한 지정(장문 잘림 방지).
+    미지원 모델은 해당 오류 시 그 파라미터만 제거하고 재시도(모델 교체 호환성).
     """
     client = _get_client()
     kwargs: dict = {"model": model, "messages": messages}
@@ -45,6 +49,12 @@ def chat_create(*, model, messages, temperature=None, response_format=None,
         kwargs["response_format"] = response_format
     if temperature is not None:
         kwargs["temperature"] = temperature
+    if reasoning_effort is not None:
+        kwargs["reasoning_effort"] = reasoning_effort
+    if verbosity is not None:
+        kwargs["verbosity"] = verbosity
+    if max_completion_tokens is not None:
+        kwargs["max_completion_tokens"] = max_completion_tokens
     if stream:
         kwargs["stream"] = True
         if stream_options:
@@ -140,10 +150,12 @@ def generate_answer(question: str, context: str,
                     model: str = OPENAI_MODEL,
                     company: Optional[str] = None,
                     coverage: Optional[list[str]] = None) -> str:
-    """논스트리밍 답변 생성."""
+    """논스트리밍 답변 생성. reasoning_effort='high' — 표 독해·수치추출 누락 최소화(미지원 모델 자동 폴백)."""
     resp = chat_create(
         model=model,
         temperature=OPENAI_TEMPERATURE,
+        reasoning_effort="high",
+        max_completion_tokens=MAX_COMPLETION_TOKENS,
         messages=_build_messages(question, context, history, company, coverage),
     )
     return resp.choices[0].message.content or ""
@@ -154,10 +166,12 @@ def stream_answer(question: str, context: str,
                   model: str = OPENAI_MODEL,
                   company: Optional[str] = None,
                   coverage: Optional[list[str]] = None) -> Iterator[str]:
-    """스트리밍 답변 생성 (토큰 단위 yield)."""
+    """스트리밍 답변 생성 (토큰 단위 yield). reasoning_effort='high'."""
     stream = chat_create(
         model=model,
         temperature=OPENAI_TEMPERATURE,
+        reasoning_effort="high",
+        max_completion_tokens=MAX_COMPLETION_TOKENS,
         messages=_build_messages(question, context, history, company, coverage),
         stream=True,
     )

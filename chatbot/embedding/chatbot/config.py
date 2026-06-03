@@ -18,7 +18,10 @@ CHATBOT_DIR = Path(__file__).resolve().parent
 # 비용 ≈ 질의당 10~30원. (gpt-4o-mini 로 되돌리려면 환경변수로 덮어쓰기)
 OPENAI_MODEL          = os.getenv("CHATBOT_OPENAI_MODEL", "gpt-5.4-mini")
 OPENAI_ANALYZER_MODEL = os.getenv("CHATBOT_ANALYZER_MODEL", "gpt-5.4-mini")
-OPENAI_TIMEOUT_S      = 60
+OPENAI_TIMEOUT_S      = 300   # reasoning_effort='high' 는 응답이 느려 충분히 길게(재시도 폭주 방지)
+# 출력 토큰 상한 — reasoning='high'는 추론+출력 토큰을 공유하므로 넉넉히(장문 답변 잘림 방지).
+# 미설정 시 모델 기본 한도에서 긴 나열형 답변이 truncate되는 문제 관찰됨.
+MAX_COMPLETION_TOKENS = 16000
 OPENAI_TEMPERATURE    = 0.1   # 사실 기반 답변 → 낮게 (미지원 모델은 자동 폴백)
 
 # ─────────────────────────────────────────────────────────────
@@ -32,6 +35,21 @@ RERANK_POOL    = 16
 FINAL_TOP_K    = 12
 # RRF 상수 (작을수록 상위 랭크 가중 ↑)
 RRF_K          = 60
+
+# ─────────────────────────────────────────────────────────────
+# 하이브리드 검색 (BM25 키워드 + 벡터) — 옵트인 토글
+# ─────────────────────────────────────────────────────────────
+# 벡터 검색만으로는 "영업이익·수주총액" 같은 정확 용어가 여러 표에 흩어져 top-K 에
+# 안정적으로 안 들어오는 문제가 있음(특히 숫자 재무질문). BM25(키워드 정확매칭)를
+# 종목 단위 코퍼스에 적용해 RRF 로 벡터와 융합 → 정확 용어 청크의 recall 안정화.
+# 종목 필터가 항상 걸리므로(대상 ~수천 청크) 메모리·속도 부담 작음. False 면 기존 벡터-only.
+ENABLE_HYBRID_BM25 = True
+BM25_TOP_N         = 30      # BM25 가 RRF 에 기여할 상위 후보 수
+
+# 단위 머리글 형제 동반 — 분할된 재무제표 청크(영업이익 등)가 단위 라벨을 잃었을 때,
+# 같은 명세서의 머리글 청크('연결 손익계산서 (단위:백만원)')를 컨텍스트에 함께 넣어
+# LLM 이 단위를 근거로 인용하게 함. 데이터 변경/재임베딩 없음(NO-MOCK 안전).
+ENABLE_UNIT_SIBLING = True
 
 # ─────────────────────────────────────────────────────────────
 # Query Transformation

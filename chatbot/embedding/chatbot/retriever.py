@@ -10,14 +10,130 @@ from __future__ import annotations
 
 from typing import Optional
 
+import math
+import re
+
 from ..embedder import embed_texts
 from ..vector_store import get_collection
 from .config import (
     RECALL_TOP_K, RERANK_POOL, FINAL_TOP_K, RRF_K, ENABLE_RERANK,
     ENABLE_EXPANSION_RERANK, RERANK_MAX_QUERIES,
     ENABLE_STUB_DEMOTE, STUB_TABLE_MAX_CHARS, STUB_MIN_DIGITS, STUB_PENALTY,
+    ENABLE_HYBRID_BM25, BM25_TOP_N, ENABLE_UNIT_SIBLING,
 )
 from . import reranker
+
+# 재무제표 명세서 제목(머리글 청크 식별용) + 단위 패턴
+_STMT_TITLE_RE = re.compile(r"(손익계산서|재무상태표|포괄손익|자본변동표|현금흐름표|요약\S*재무)")
+_UNIT_ANY_RE = re.compile(r"\(단위\s*[:：]\s*(백만원|천원)\s*\)")
+_FIN_SEC_KEYS = ("재무", "손익", "현금흐름", "자본변동", "포괄손익")
+
+
+def _augment_unit_siblings(chunks: list[dict]) -> list[dict]:
+    """단위 라벨을 잃은 재무 수치 청크에 대해, 같은 명세서의 '머리글 청크'를 컨텍스트에 동반.
+
+    데이터를 바꾸지 않고(NO-MOCK 안전), 직전 형제 청크(seq-1..3) 중
+    '(단위:백만원)' + 명세서 제목을 가진 머리글을 찾아 컨텍스트에 추가한다.
+    """
+    coll = get_collection()
+    have = {c.get("id") for c in chunks}
+    additions: list[dict] = []
+    for c in chunks:
+        txt = c.get("text", "") or ""
+        if "백만원" in txt or "천원" in txt:
+            continue
+        meta = c.get("metadata", {}) or {}
+        sec = meta.get("section_path_str", "") or meta.get("section_main", "")
+        if not any(k in sec for k in _FIN_SEC_KEYS):
+            continue
+        m = re.match(r"(.+-)(\d+)$", c.get("id", ""))
+        if not m:
+            continue
+        prefix, seq = m.group(1), int(m.group(2))
+        for back in (1, 2, 3):
+            sid = f"{prefix}{seq - back:05d}"
+            if sid in have or any(a["id"] == sid for a in additions):
+                break
+            try:
+                g = coll.get(ids=[sid], include=["documents", "metadatas"])
+            except Exception:
+                break
+            sdocs = g.get("ids") and g.get("documents")
+            if not sdocs:
+                continue
+            sdoc = g["documents"][0] or ""
+            if _UNIT_ANY_RE.search(sdoc[:120]) and _STMT_TITLE_RE.search(sdoc[:160]):
+                additions.append({
+                    "id": sid, "text": sdoc,
+                    "metadata": (g.get("metadatas") or [{}])[0] or {},
+                    "rerank_score": c.get("rerank_score"),
+                    "rrf_score": c.get("rrf_score"),
+                    "_unit_sibling": True,
+                })
+                break
+    return chunks + additions
+
+
+# ── BM25 키워드 검색 (하이브리드용, 종목 단위 코퍼스 · 외부 의존성 없음) ──
+_TOK_RE = re.compile(r"[0-9A-Za-z가-힣]+")
+
+
+def _tokenize(text: str) -> list[str]:
+    """간단 토크나이저: 한글/영숫자 연속을 토큰으로. '영업이익'은 한 토큰으로 보존."""
+    return _TOK_RE.findall((text or "").lower())
+
+
+def _bm25_ranked(query_terms: list[str], where: Optional[dict],
+                 top_n: int, k1: float = 1.5, b: float = 0.75) -> list[dict]:
+    """종목(필터) 코퍼스에 BM25 적용 → 상위 top_n 청크를 벡터와 동일 포맷 랭킹 리스트로.
+
+    종목 메타필터가 걸려 대상이 보통 수천 청크 이하라 매 질의 즉석 색인이 가볍다.
+    """
+    qset = {t for t in query_terms if t}
+    if not qset:
+        return []
+    coll = get_collection()
+    got = coll.get(where=where, include=["documents", "metadatas"])
+    ids = got.get("ids") or []
+    docs = got.get("documents") or []
+    metas = got.get("metadatas") or []
+    n = len(ids)
+    if n == 0:
+        return []
+
+    corpus = [_tokenize(d) for d in docs]
+    dl = [len(c) for c in corpus]
+    avgdl = (sum(dl) / n) if n else 0.0
+    df: dict[str, int] = {}
+    for toks in corpus:
+        for t in set(toks):
+            if t in qset:
+                df[t] = df.get(t, 0) + 1
+    if not df:
+        return []
+
+    scored = []
+    for i, toks in enumerate(corpus):
+        if not toks:
+            continue
+        tf: dict[str, int] = {}
+        for t in toks:
+            if t in qset:
+                tf[t] = tf.get(t, 0) + 1
+        if not tf:
+            continue
+        s = 0.0
+        for t, f in tf.items():
+            idf = math.log(1 + (n - df[t] + 0.5) / (df[t] + 0.5))
+            s += idf * (f * (k1 + 1)) / (f + k1 * (1 - b + b * dl[i] / (avgdl or 1)))
+        if s > 0:
+            scored.append((s, i))
+    scored.sort(reverse=True)
+    out = []
+    for s, i in scored[:top_n]:
+        out.append({"id": ids[i], "text": docs[i], "metadata": metas[i] or {},
+                    "distance": None, "similarity": None, "bm25": s})
+    return out
 
 
 def _is_stub_table(chunk: dict) -> bool:
@@ -147,6 +263,19 @@ def search(queries: list[str],
         if lst:
             ranked_lists.append(lst)
 
+    # 1b) 하이브리드: BM25 키워드 검색 결과를 추가 랭킹 리스트로 융합 (옵트인)
+    #     "영업이익·수주총액" 등 정확 용어가 든 청크의 recall 을 안정화.
+    if ENABLE_HYBRID_BM25 and (ticker or report_kind):
+        try:
+            qterms: list[str] = []
+            for q in qs:
+                qterms.extend(_tokenize(q))
+            bm = _bm25_ranked(qterms, _build_where(ticker, year, report_kind), BM25_TOP_N)
+            if bm:
+                ranked_lists.append(bm)
+        except Exception as e:
+            print(f"[retriever] BM25 스킵 (graceful degrade): {str(e)[:80]}", flush=True)
+
     if not ranked_lists:
         return {"chunks": [], "reranked": False, "pool_size": 0}
 
@@ -173,5 +302,12 @@ def search(queries: list[str],
             pool = pool[:final_top_k]
     else:
         pool = pool[:final_top_k]
+
+    # 4) 단위 머리글 형제 동반 (재무 수치 청크가 단위 라벨을 잃었으면 머리글 청크를 컨텍스트에 추가)
+    if ENABLE_UNIT_SIBLING:
+        try:
+            pool = _augment_unit_siblings(pool)
+        except Exception as e:
+            print(f"[retriever] 단위 형제 동반 스킵: {str(e)[:80]}", flush=True)
 
     return {"chunks": pool, "reranked": reranked, "pool_size": len(ranked_lists)}
