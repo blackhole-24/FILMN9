@@ -196,7 +196,7 @@
 <header>
   <h1>📊 이 주식, 지금 가격이 적당할까?</h1>
   <p>회사의 '진짜 가치'를 계산해서 현재 주가가 비싼지·싼지 쉽게 알려드립니다 · 어려운 용어엔 모두 <b>ⓘ</b> 설명이 있어요 · 투자 권유가 아닌 학습·참고용</p>
-  <p style="margin-top:6px;font-size:11px;opacity:.6;">KPMG AX PoC · DCF + Multiples + Peer 자동 선정 · Model v5 · 서버 기동: <code style="background:rgba(255,255,255,.15);padding:1px 6px;border-radius:4px;">python -m uvicorn valuation_engine.api:app --port 8012</code></p>
+  <p style="margin-top:6px;font-size:11px;opacity:.6;">KPMG AX PoC · DCF + Multiples + Peer 자동 선정 · Model v8 · 서버 기동: <code style="background:rgba(255,255,255,.15);padding:1px 6px;border-radius:4px;">python -m uvicorn valuation_engine.api:app --port 8000</code></p>
 </header>
 <div class="bar">
   <input id="ticker" placeholder="종목코드 또는 회사명 (예: 035420, 삼성전기)" onkeydown="if(event.key==='Enter')go()">
@@ -236,7 +236,7 @@
           <tr><td>DCF (현금흐름할인)</td><td>재무학 표준</td><td>기업가치 = 미래 잉여현금흐름(FCFF)의 현재가치 합</td></tr>
           <tr><td>CAPM</td><td>Sharpe (1964)</td><td>자기자본비용 Ke = 무위험수익률 + β × 시장위험프리미엄</td></tr>
           <tr><td>베타 조정 (Hamada)</td><td>Hamada (1972)</td><td>자본구조(부채비율) 차이를 반영해 피어 베타를 보정</td></tr>
-          <tr><td>베타 안정화 (Blume)</td><td>Blume (1971)</td><td>조정베타 = 0.67×실측 + 0.33×1 (장기적으로 1에 수렴하는 경향 반영)</td></tr>
+          <tr><td>베타 안정화 (Blume)</td><td>Blume (1971)</td><td>조정베타 = ⅔×실측 + ⅓×1 + 이상치 제거(±3σ winsorize) — 장기적으로 1에 수렴하는 경향 반영</td></tr>
           <tr><td>영구가치 (Gordon Growth)</td><td>Gordon (1959)</td><td>예측기간 이후 가치 = NOPAT/(WACC−g), 단 g ≤ 명목 GDP</td></tr>
           <tr><td>지속가능성장률 (SGR)</td><td>Damodaran</td><td>성장률 상한 = ROIC × 재투자율 (펀더멘털 기반 성장)</td></tr>
           <tr><td>EPV (이익창출가치)</td><td>Greenwald (2001)</td><td>성장 0 가정의 본질가치 = NOPAT / WACC</td></tr>
@@ -252,7 +252,7 @@
       <summary>⚙️ 핵심 가정 (투명 공개)</summary>
       <ul class="assume">
         <li><b>시장위험프리미엄(ERP) 8%</b> — 한국 시장 장기 추정치로 고정</li>
-        <li><b>영구성장률 g ≤ 명목 GDP 3%</b> — 어떤 회사도 영원히 경제보다 빨리 클 수 없음 (Damodaran 제약)</li>
+        <li><b>영구성장률 g = 2.5%</b> (≤ 명목 GDP) — 어떤 회사도 영원히 경제보다 빨리 클 수 없음 (Damodaran 제약)</li>
         <li><b>명시적 예측 5년 + 영구가치</b> — 5년간 성장률을 점진 수렴(fade)시킨 뒤 영구가치 결합</li>
         <li><b>지속가능성장률로 성장 상한</b> — 일시적 호황을 영구히 외삽하지 않도록 제어</li>
         <li><b>할인율(WACC)의 자본구조</b> — 회사의 <b>실제 부채비율(D/E)</b>로 계산하되, 일시적 과부채는 산업(동종업계) 평균 상한으로 보정 (distress 왜곡 방지)</li>

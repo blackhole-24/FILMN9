@@ -18,6 +18,7 @@ from __future__ import annotations
 import glob
 import json
 import math
+import numpy as np
 import sys
 import threading
 import time
@@ -119,12 +120,27 @@ def _run_job(job_id: str, ticker: str) -> None:
 
 
 def _sanitize(obj: Any) -> Any:
-    """NaN/Inf → None (표준 JSON 직렬화 안전)."""
+    """numpy 스칼라/배열 → python, NaN/Inf → None (표준 JSON 직렬화 안전).
+
+    numpy.bool_/integer/floating 은 파이썬 기본형이 아니라 json 직렬화에서
+    TypeError 를 낸다(특히 bool_ 은 float 도 아님). 결과 dict 전체를 재귀
+    순회하며 파이썬 기본형으로 변환해, 어느 산출 경로에서 numpy 가 섞여도
+    여기 한 곳에서 안전하게 정화한다.
+    """
+    if isinstance(obj, np.bool_):
+        return bool(obj)
+    if isinstance(obj, np.integer):
+        return int(obj)
+    if isinstance(obj, np.floating):
+        f = float(obj)
+        return None if (math.isnan(f) or math.isinf(f)) else f
+    if isinstance(obj, np.ndarray):
+        return [_sanitize(v) for v in obj.tolist()]
     if isinstance(obj, float):
         return None if (math.isnan(obj) or math.isinf(obj)) else obj
     if isinstance(obj, dict):
         return {k: _sanitize(v) for k, v in obj.items()}
-    if isinstance(obj, list):
+    if isinstance(obj, (list, tuple)):
         return [_sanitize(v) for v in obj]
     return obj
 

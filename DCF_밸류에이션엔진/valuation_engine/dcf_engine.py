@@ -287,7 +287,7 @@ def compute_dcf(wacc_result: dict, ttm_data: Optional[dict] = None,
     nwcs   = [f["nwc_cur"]["NWC"] for f in fins]
 
     # ── 정상화 비율 (3년 평균) ─────────────────────────────────
-    opm_series        = [e/r for e,r in zip(ebits, revs) if r]
+    opm_series        = [float(e/r) for e,r in zip(ebits, revs) if r]
     da_ratio_series   = [d/r for d,r in zip(das,   revs) if r]
     capex_ratio_series= [c/r for c,r in zip(capexs,revs) if r]
     nwc_ratio_series  = [n/r for n,r in zip(nwcs,  revs) if r]
@@ -311,7 +311,7 @@ def compute_dcf(wacc_result: dict, ttm_data: Optional[dict] = None,
             _ttm_opm_source = f"8Q_weighted (4Q={_ttm_opm_4q*100:.2f}% → 8Q={_ttm_opm*100:.2f}%)"
         else:
             _ttm_opm_source = "4Q_TTM"
-        opm_series = opm_series[:-1] + [_ttm_opm]   # 최신연도 OPM → TTM (4Q 또는 8Q)
+        opm_series = opm_series[:-1] + [float(_ttm_opm)]   # 최신연도 OPM → TTM (4Q 또는 8Q)
         revenue_0 = _ttm_rev                          # 예측 시작 매출 = TTM(4Q)
         _ttm_note = (f"손익 TTM 반영({ttm_data.get('as_of_period')}, OPM={_ttm_opm_source}): "
                      f"매출 {_ttm_rev/1e12:.2f}조·OPM {_ttm_opm*100:.2f}% (자본항목 연간 유지)")
