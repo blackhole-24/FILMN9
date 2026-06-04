@@ -1,0 +1,14 @@
+﻿{
+  "total_files": 2599,
+  "classification_counts": {
+    "타법인출자표_스타그래프가능": 1765,
+    "도식신호_원본확인필요": 709,
+    "도식신호+계통도표": 43,
+    "계열데이터_부족": 32,
+    "계열섹션있지만_근거약함": 29,
+    "계통도표_그래프생성최상": 14,
+    "계열회사목록_그룹시각화가능": 5,
+    "출자요약표_보조정보가능": 2
+  },
+  "csv_path": "output\\affiliate_visualization\\affiliate_visual_classification.csv"
+}

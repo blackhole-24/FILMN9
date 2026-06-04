@@ -1,0 +1,103 @@
+{
+  "nodes": [
+    {
+      "id": "KR모터스",
+      "name": "KR모터스",
+      "role": "reporting_company"
+    }
+  ],
+  "edges": [],
+  "supporting_investment_edges": [],
+  "affiliate_companies": [
+    {
+      "name": "☞ 본문 위치로 이동",
+      "listing": "미분류",
+      "source_chunk_id": "000040-2025-annual-00622"
+    },
+    {
+      "name": "KR모터스(주)",
+      "listing": "상장",
+      "source_chunk_id": "000040-2025-annual-00623"
+    },
+    {
+      "name": "Auto World(KOLAO Developing) Co., Ltd.",
+      "listing": "비상장",
+      "source_chunk_id": "000040-2025-annual-00623"
+    },
+    {
+      "name": "GMS Trading Sole Co., Ltd",
+      "listing": "비상장",
+      "source_chunk_id": "000040-2025-annual-00623"
+    },
+    {
+      "name": "LVMC Holdings Singapore Pte.,Ltd.",
+      "listing": "비상장",
+      "source_chunk_id": "000040-2025-annual-00623"
+    },
+    {
+      "name": "Daehan Co., Ltd.",
+      "listing": "비상장",
+      "source_chunk_id": "000040-2025-annual-00623"
+    },
+    {
+      "name": "International KLM Co., Ltd.",
+      "listing": "비상장",
+      "source_chunk_id": "000040-2025-annual-00623"
+    },
+    {
+      "name": "Global KLM Co., Ltd.",
+      "listing": "비상장",
+      "source_chunk_id": "000040-2025-annual-00623"
+    },
+    {
+      "name": "Shwe Daehan Motors Co.Ltd.",
+      "listing": "비상장",
+      "source_chunk_id": "000040-2025-annual-00623"
+    },
+    {
+      "name": "LVMC Investment Limited",
+      "listing": "비상장",
+      "source_chunk_id": "000040-2025-annual-00623"
+    },
+    {
+      "name": "Chongqing Kolao-Yuan R&D Co.,Ltd.",
+      "listing": "비상장",
+      "source_chunk_id": "000040-2025-annual-00623"
+    },
+    {
+      "name": "Chongqing LVMC Yuan Auto Trading Co.,Ltd.",
+      "listing": "비상장",
+      "source_chunk_id": "000040-2025-annual-00623"
+    },
+    {
+      "name": "Daehan Motors Co., Ltd.",
+      "listing": "비상장",
+      "source_chunk_id": "000040-2025-annual-00623"
+    },
+    {
+      "name": "Daehan Motors Trading Joint Stock Company",
+      "listing": "비상장",
+      "source_chunk_id": "000040-2025-annual-00623"
+    },
+    {
+      "name": "KB KOLAO Leasing",
+      "listing": "비상장",
+      "source_chunk_id": "000040-2025-annual-00623"
+    },
+    {
+      "name": "LDK PHARMA FACTORY CO.,LTD",
+      "listing": "비상장",
+      "source_chunk_id": "000040-2025-annual-00623"
+    },
+    {
+      "name": "케이알트레이딩",
+      "listing": "비상장",
+      "source_chunk_id": "000040-2025-annual-00626"
+    },
+    {
+      "name": "주식회사옵티모",
+      "listing": "비상장",
+      "source_chunk_id": "000040-2025-annual-00626"
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1678" height="781" viewBox="0 0 1678 781">
+<defs>
+<marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="strokeWidth">
+<path d="M0,0 L8,4 L0,8 z" fill="#6b7280"/>
+</marker>
+<filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+<feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#000000" flood-opacity="0.13"/>
+</filter>
+</defs>
+<rect width="100%" height="100%" fill="#f8fafc"/>
+<text x="48" y="42" font-family="Malgun Gothic, Arial, sans-serif" font-size="24" font-weight="700" fill="#111827">삼성물산 관계기업 구조 예시</text>
+<text x="48" y="70" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" fill="#64748b">Graphviz dot 적용 방향: rankdir=TB, 지분율별 선 두께, 원본 이미지 없을 때 생성형 SVG</text>
+<text x="1630" y="70" text-anchor="end" font-family="Malgun Gothic, Arial, sans-serif" font-size="12" fill="#64748b">표시 축약: 직접 74개, 하위 0개</text>
+<path d="M 839.0,164.0 C 839.0,259.0 955.0,500.4 955.0,595.4" fill="none" stroke="#1d4ed8" stroke-width="3.0" marker-end="url(#arrow)" opacity="0.9"/>
+<rect x="935.0" y="572.4" width="40" height="16" rx="8" fill="#f8fafc" opacity="0.88"/>
+<text x="955.0" y="585.4" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#1d4ed8">100%</text>
+<path d="M 839.0,164.0 C 839.0,259.0 723.0,500.4 723.0,595.4" fill="none" stroke="#1d4ed8" stroke-width="3.0" marker-end="url(#arrow)" opacity="0.9"/>
+<rect x="703.0" y="572.4" width="40" height="16" rx="8" fill="#f8fafc" opacity="0.88"/>
+<text x="723.0" y="585.4" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#1d4ed8">100%</text>
+<path d="M 839.0,164.0 C 839.0,259.0 491.0,500.4 491.0,595.4" fill="none" stroke="#1d4ed8" stroke-width="3.0" marker-end="url(#arrow)" opacity="0.9"/>
+<rect x="471.0" y="572.4" width="40" height="16" rx="8" fill="#f8fafc" opacity="0.88"/>
+<text x="491.0" y="585.4" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#1d4ed8">100%</text>
+<path d="M 839.0,164.0 C 839.0,259.0 1535.0,386.6 1535.0,481.6" fill="none" stroke="#1d4ed8" stroke-width="3.0" marker-end="url(#arrow)" opacity="0.9"/>
+<rect x="1515.0" y="458.6" width="40" height="16" rx="8" fill="#f8fafc" opacity="0.88"/>
+<text x="1535.0" y="471.6" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#1d4ed8">100%</text>
+<path d="M 839.0,164.0 C 839.0,259.0 1303.0,386.6 1303.0,481.6" fill="none" stroke="#1d4ed8" stroke-width="3.0" marker-end="url(#arrow)" opacity="0.9"/>
+<rect x="1283.0" y="458.6" width="40" height="16" rx="8" fill="#f8fafc" opacity="0.88"/>
+<text x="1303.0" y="471.6" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#1d4ed8">100%</text>
+<path d="M 839.0,164.0 C 839.0,259.0 1071.0,386.6 1071.0,481.6" fill="none" stroke="#1d4ed8" stroke-width="3.0" marker-end="url(#arrow)" opacity="0.9"/>
+<rect x="1051.0" y="458.6" width="40" height="16" rx="8" fill="#f8fafc" opacity="0.88"/>
+<text x="1071.0" y="471.6" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#1d4ed8">100%</text>
+<path d="M 839.0,164.0 C 839.0,259.0 839.0,386.6 839.0,481.6" fill="none" stroke="#1d4ed8" stroke-width="3.0" marker-end="url(#arrow)" opacity="0.9"/>
+<rect x="819.0" y="458.6" width="40" height="16" rx="8" fill="#f8fafc" opacity="0.88"/>
+<text x="839.0" y="471.6" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#1d4ed8">100%</text>
+<path d="M 839.0,164.0 C 839.0,259.0 607.0,386.6 607.0,481.6" fill="none" stroke="#1d4ed8" stroke-width="3.0" marker-end="url(#arrow)" opacity="0.9"/>
+<rect x="587.0" y="458.6" width="40" height="16" rx="8" fill="#f8fafc" opacity="0.88"/>
+<text x="607.0" y="471.6" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#1d4ed8">100%</text>
+<path d="M 839.0,164.0 C 839.0,259.0 375.0,386.6 375.0,481.6" fill="none" stroke="#1d4ed8" stroke-width="3.0" marker-end="url(#arrow)" opacity="0.9"/>
+<rect x="355.0" y="458.6" width="40" height="16" rx="8" fill="#f8fafc" opacity="0.88"/>
+<text x="375.0" y="471.6" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#1d4ed8">100%</text>
+<path d="M 839.0,164.0 C 839.0,259.0 143.0,386.6 143.0,481.6" fill="none" stroke="#1d4ed8" stroke-width="3.0" marker-end="url(#arrow)" opacity="0.9"/>
+<rect x="123.0" y="458.6" width="40" height="16" rx="8" fill="#f8fafc" opacity="0.88"/>
+<text x="143.0" y="471.6" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#1d4ed8">100%</text>
+<path d="M 839.0,164.0 C 839.0,259.0 1535.0,272.8 1535.0,367.8" fill="none" stroke="#1d4ed8" stroke-width="3.0" marker-end="url(#arrow)" opacity="0.9"/>
+<rect x="1515.0" y="344.8" width="40" height="16" rx="8" fill="#f8fafc" opacity="0.88"/>
+<text x="1535.0" y="357.8" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#1d4ed8">100%</text>
+<path d="M 839.0,164.0 C 839.0,259.0 1303.0,272.8 1303.0,367.8" fill="none" stroke="#1d4ed8" stroke-width="3.0" marker-end="url(#arrow)" opacity="0.9"/>
+<rect x="1283.0" y="344.8" width="40" height="16" rx="8" fill="#f8fafc" opacity="0.88"/>
+<text x="1303.0" y="357.8" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#1d4ed8">100%</text>
+<path d="M 839.0,164.0 C 839.0,259.0 1071.0,272.8 1071.0,367.8" fill="none" stroke="#1d4ed8" stroke-width="3.0" marker-end="url(#arrow)" opacity="0.9"/>
+<rect x="1051.0" y="344.8" width="40" height="16" rx="8" fill="#f8fafc" opacity="0.88"/>
+<text x="1071.0" y="357.8" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#1d4ed8">100%</text>
+<path d="M 839.0,164.0 C 839.0,259.0 839.0,272.8 839.0,367.8" fill="none" stroke="#1d4ed8" stroke-width="3.0" marker-end="url(#arrow)" opacity="0.9"/>
+<rect x="819.0" y="344.8" width="40" height="16" rx="8" fill="#f8fafc" opacity="0.88"/>
+<text x="839.0" y="357.8" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#1d4ed8">100%</text>
+<path d="M 839.0,164.0 C 839.0,259.0 607.0,272.8 607.0,367.8" fill="none" stroke="#1d4ed8" stroke-width="3.0" marker-end="url(#arrow)" opacity="0.9"/>
+<rect x="587.0" y="344.8" width="40" height="16" rx="8" fill="#f8fafc" opacity="0.88"/>
+<text x="607.0" y="357.8" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#1d4ed8">100%</text>
+<path d="M 839.0,164.0 C 839.0,259.0 375.0,272.8 375.0,367.8" fill="none" stroke="#1d4ed8" stroke-width="3.0" marker-end="url(#arrow)" opacity="0.9"/>
+<rect x="355.0" y="344.8" width="40" height="16" rx="8" fill="#f8fafc" opacity="0.88"/>
+<text x="375.0" y="357.8" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#1d4ed8">100%</text>
+<path d="M 839.0,164.0 C 839.0,259.0 143.0,272.8 143.0,367.8" fill="none" stroke="#1d4ed8" stroke-width="3.0" marker-end="url(#arrow)" opacity="0.9"/>
+<rect x="123.0" y="344.8" width="40" height="16" rx="8" fill="#f8fafc" opacity="0.88"/>
+<text x="143.0" y="357.8" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#1d4ed8">100%</text>
+<path d="M 839.0,164.0 C 839.0,207.2 1535.0,210.8 1535.0,254.0" fill="none" stroke="#1d4ed8" stroke-width="3.0" marker-end="url(#arrow)" opacity="0.9"/>
+<rect x="1515.0" y="231.0" width="40" height="16" rx="8" fill="#f8fafc" opacity="0.88"/>
+<text x="1535.0" y="244.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#1d4ed8">100%</text>
+<path d="M 839.0,164.0 C 839.0,207.2 1303.0,210.8 1303.0,254.0" fill="none" stroke="#1d4ed8" stroke-width="3.0" marker-end="url(#arrow)" opacity="0.9"/>
+<rect x="1283.0" y="231.0" width="40" height="16" rx="8" fill="#f8fafc" opacity="0.88"/>
+<text x="1303.0" y="244.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#1d4ed8">100%</text>
+<path d="M 839.0,164.0 C 839.0,207.2 1071.0,210.8 1071.0,254.0" fill="none" stroke="#1d4ed8" stroke-width="3.0" marker-end="url(#arrow)" opacity="0.9"/>
+<rect x="1051.0" y="231.0" width="40" height="16" rx="8" fill="#f8fafc" opacity="0.88"/>
+<text x="1071.0" y="244.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#1d4ed8">100%</text>
+<path d="M 839.0,164.0 C 839.0,207.2 839.0,210.8 839.0,254.0" fill="none" stroke="#1d4ed8" stroke-width="3.0" marker-end="url(#arrow)" opacity="0.9"/>
+<rect x="819.0" y="231.0" width="40" height="16" rx="8" fill="#f8fafc" opacity="0.88"/>
+<text x="839.0" y="244.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#1d4ed8">100%</text>
+<path d="M 839.0,164.0 C 839.0,207.2 607.0,210.8 607.0,254.0" fill="none" stroke="#1d4ed8" stroke-width="3.0" marker-end="url(#arrow)" opacity="0.9"/>
+<rect x="587.0" y="231.0" width="40" height="16" rx="8" fill="#f8fafc" opacity="0.88"/>
+<text x="607.0" y="244.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#1d4ed8">100%</text>
+<path d="M 839.0,164.0 C 839.0,207.2 375.0,210.8 375.0,254.0" fill="none" stroke="#1d4ed8" stroke-width="3.0" marker-end="url(#arrow)" opacity="0.9"/>
+<rect x="355.0" y="231.0" width="40" height="16" rx="8" fill="#f8fafc" opacity="0.88"/>
+<text x="375.0" y="244.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#1d4ed8">100%</text>
+<path d="M 839.0,164.0 C 839.0,207.2 143.0,210.8 143.0,254.0" fill="none" stroke="#1d4ed8" stroke-width="3.0" marker-end="url(#arrow)" opacity="0.9"/>
+<rect x="123.0" y="231.0" width="40" height="16" rx="8" fill="#f8fafc" opacity="0.88"/>
+<text x="143.0" y="244.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#1d4ed8">100%</text>
+<path d="M 839.0,164.0 C 839.0,259.0 1187.0,500.4 1187.0,595.4" fill="none" stroke="#9ca3af" stroke-width="1.4" stroke-dasharray="6 4" marker-end="url(#arrow)" opacity="0.9"/>
+<rect x="1170.0" y="572.4" width="34" height="16" rx="8" fill="#f8fafc" opacity="0.88"/>
+<text x="1187.0" y="585.4" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#9ca3af">요약</text>
+<rect x="48.0" y="254.0" width="190" height="58" rx="6" fill="#ffffff" stroke="#b8c2cc" stroke-width="1.4" filter="url(#shadow)"/>
+<text x="143.0" y="262.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">Samsung C&amp;T</text>
+<text x="143.0" y="278.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">Chile Copper</text>
+<text x="143.0" y="294.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">SpA</text>
+<rect x="280.0" y="254.0" width="190" height="58" rx="6" fill="#ffffff" stroke="#b8c2cc" stroke-width="1.4" filter="url(#shadow)"/>
+<text x="375.0" y="262.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">Samsung C&amp;T</text>
+<text x="375.0" y="278.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">Corporation</text>
+<text x="375.0" y="294.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">India Privat…</text>
+<rect x="512.0" y="254.0" width="190" height="58" rx="6" fill="#ffffff" stroke="#b8c2cc" stroke-width="1.4" filter="url(#shadow)"/>
+<text x="607.0" y="262.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">Samsung C&amp;T</text>
+<text x="607.0" y="278.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">Corporation</text>
+<text x="607.0" y="294.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">Poland LLC</text>
+<rect x="744.0" y="254.0" width="190" height="58" rx="6" fill="#ffffff" stroke="#b8c2cc" stroke-width="1.4" filter="url(#shadow)"/>
+<text x="839.0" y="262.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">Samsung C&amp;T</text>
+<text x="839.0" y="278.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">Corporation</text>
+<text x="839.0" y="294.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">Rus LLC</text>
+<rect x="976.0" y="254.0" width="190" height="58" rx="6" fill="#ffffff" stroke="#b8c2cc" stroke-width="1.4" filter="url(#shadow)"/>
+<text x="1071.0" y="262.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">Samsung C&amp;T</text>
+<text x="1071.0" y="278.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">Deutschland</text>
+<text x="1071.0" y="294.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">GmbH</text>
+<rect x="1208.0" y="254.0" width="190" height="58" rx="6" fill="#ffffff" stroke="#b8c2cc" stroke-width="1.4" filter="url(#shadow)"/>
+<text x="1303.0" y="270.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">Samsung C&amp;T</text>
+<text x="1303.0" y="286.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">ECUK Ltd.</text>
+<rect x="1440.0" y="254.0" width="190" height="58" rx="6" fill="#ffffff" stroke="#b8c2cc" stroke-width="1.4" filter="url(#shadow)"/>
+<text x="1535.0" y="262.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">Samsung C&amp;T</text>
+<text x="1535.0" y="278.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">Eng.&amp;Const.</text>
+<text x="1535.0" y="294.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">Mongolia LLC</text>
+<rect x="48.0" y="367.8" width="190" height="58" rx="6" fill="#ffffff" stroke="#b8c2cc" stroke-width="1.4" filter="url(#shadow)"/>
+<text x="143.0" y="375.8" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">Samsung C&amp;T</text>
+<text x="143.0" y="391.8" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">India Private</text>
+<text x="143.0" y="407.8" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">Limited</text>
+<rect x="280.0" y="367.8" width="190" height="58" rx="6" fill="#ffffff" stroke="#b8c2cc" stroke-width="1.4" filter="url(#shadow)"/>
+<text x="375.0" y="375.8" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">Samsung C&amp;T</text>
+<text x="375.0" y="391.8" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">Japan</text>
+<text x="375.0" y="407.8" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">Corporation</text>
+<rect x="512.0" y="367.8" width="190" height="58" rx="6" fill="#ffffff" stroke="#b8c2cc" stroke-width="1.4" filter="url(#shadow)"/>
+<text x="607.0" y="383.8" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">Samsung C&amp;T</text>
+<text x="607.0" y="399.8" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">Lima S.A.C.</text>
+<rect x="744.0" y="367.8" width="190" height="58" rx="6" fill="#ffffff" stroke="#b8c2cc" stroke-width="1.4" filter="url(#shadow)"/>
+<text x="839.0" y="375.8" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">Samsung C&amp;T</text>
+<text x="839.0" y="391.8" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">Malaysia SDN.</text>
+<text x="839.0" y="407.8" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">BHD.</text>
+<rect x="976.0" y="367.8" width="190" height="58" rx="6" fill="#ffffff" stroke="#b8c2cc" stroke-width="1.4" filter="url(#shadow)"/>
+<text x="1071.0" y="375.8" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">Samsung C&amp;T</text>
+<text x="1071.0" y="391.8" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">Renewable</text>
+<text x="1071.0" y="407.8" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">Energy…</text>
+<rect x="1208.0" y="367.8" width="190" height="58" rx="6" fill="#ffffff" stroke="#b8c2cc" stroke-width="1.4" filter="url(#shadow)"/>
+<text x="1303.0" y="375.8" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">Samsung C&amp;T</text>
+<text x="1303.0" y="391.8" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">Singapore</text>
+<text x="1303.0" y="407.8" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">Pte. Ltd.</text>
+<rect x="1440.0" y="367.8" width="190" height="58" rx="6" fill="#ffffff" stroke="#b8c2cc" stroke-width="1.4" filter="url(#shadow)"/>
+<text x="1535.0" y="375.8" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">Samsung C&amp;T</text>
+<text x="1535.0" y="391.8" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">Taiwan Co.,</text>
+<text x="1535.0" y="407.8" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">Ltd.</text>
+<rect x="48.0" y="481.6" width="190" height="58" rx="6" fill="#ffffff" stroke="#b8c2cc" stroke-width="1.4" filter="url(#shadow)"/>
+<text x="143.0" y="497.6" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">Samsung C&amp;T</text>
+<text x="143.0" y="513.6" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">U.K. Ltd.</text>
+<rect x="280.0" y="481.6" width="190" height="58" rx="6" fill="#ffffff" stroke="#b8c2cc" stroke-width="1.4" filter="url(#shadow)"/>
+<text x="375.0" y="497.6" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">Samsung E&amp;C</text>
+<text x="375.0" y="513.6" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">America, INC</text>
+<rect x="512.0" y="481.6" width="190" height="58" rx="6" fill="#ffffff" stroke="#b8c2cc" stroke-width="1.4" filter="url(#shadow)"/>
+<text x="607.0" y="489.6" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">Samsung</text>
+<text x="607.0" y="505.6" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">Fashion</text>
+<text x="607.0" y="521.6" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">Trading</text>
+<rect x="744.0" y="481.6" width="190" height="58" rx="6" fill="#ffffff" stroke="#b8c2cc" stroke-width="1.4" filter="url(#shadow)"/>
+<text x="839.0" y="489.6" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">Samsung</text>
+<text x="839.0" y="505.6" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">Renewable</text>
+<text x="839.0" y="521.6" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">Energy Inc.</text>
+<rect x="976.0" y="481.6" width="190" height="58" rx="6" fill="#ffffff" stroke="#b8c2cc" stroke-width="1.4" filter="url(#shadow)"/>
+<text x="1071.0" y="489.6" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">Vista</text>
+<text x="1071.0" y="505.6" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">Contracting</text>
+<text x="1071.0" y="521.6" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">and…</text>
+<rect x="1208.0" y="481.6" width="190" height="58" rx="6" fill="#ffffff" stroke="#b8c2cc" stroke-width="1.4" filter="url(#shadow)"/>
+<text x="1303.0" y="489.6" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">Whessoe</text>
+<text x="1303.0" y="505.6" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">Engineering</text>
+<text x="1303.0" y="521.6" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">Limited</text>
+<rect x="1440.0" y="481.6" width="190" height="58" rx="6" fill="#ffffff" stroke="#b8c2cc" stroke-width="1.4" filter="url(#shadow)"/>
+<text x="1535.0" y="505.6" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">㈜삼우종합건축사사무소</text>
+<rect x="396.0" y="595.4" width="190" height="58" rx="6" fill="#ffffff" stroke="#b8c2cc" stroke-width="1.4" filter="url(#shadow)"/>
+<text x="491.0" y="619.4" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">㈜서울레이크사이드</text>
+<rect x="1092.0" y="595.4" width="190" height="58" rx="6" fill="#fff7d6" stroke="#d4a72c" stroke-width="1.4" stroke-dasharray="6 4" filter="url(#shadow)"/>
+<text x="1187.0" y="619.4" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#4b5563">기타 직접 투자 74개</text>
+<rect x="744.0" y="106.0" width="190" height="58" rx="6" fill="#1f3a5f" stroke="#1f3a5f" stroke-width="1.4" filter="url(#shadow)"/>
+<text x="839.0" y="130.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#ffffff">삼성물산</text>
+<rect x="628.0" y="595.4" width="190" height="58" rx="6" fill="#ffffff" stroke="#b8c2cc" stroke-width="1.4" filter="url(#shadow)"/>
+<text x="723.0" y="619.4" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">삼성웰스토리㈜</text>
+<rect x="860.0" y="595.4" width="190" height="58" rx="6" fill="#ffffff" stroke="#b8c2cc" stroke-width="1.4" filter="url(#shadow)"/>
+<text x="955.0" y="619.4" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">제일패션리테일㈜</text>
+<line x1="48" y1="755.4" x2="92" y2="755.4" stroke="#1d4ed8" stroke-width="3"/>
+<text x="100" y="759.4" font-family="Malgun Gothic, Arial, sans-serif" font-size="12" fill="#64748b">50% 이상</text>
+<line x1="190" y1="755.4" x2="234" y2="755.4" stroke="#3b82f6" stroke-width="2.2"/>
+<text x="242" y="759.4" font-family="Malgun Gothic, Arial, sans-serif" font-size="12" fill="#64748b">20~50%</text>
+<line x1="324" y1="755.4" x2="368" y2="755.4" stroke="#9ca3af" stroke-width="1.4"/>
+<text x="376" y="759.4" font-family="Malgun Gothic, Arial, sans-serif" font-size="12" fill="#64748b">20% 미만/관계</text>
+</svg>

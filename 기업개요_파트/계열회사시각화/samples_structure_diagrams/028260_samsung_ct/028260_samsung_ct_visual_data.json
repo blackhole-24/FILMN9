@@ -1,0 +1,644 @@
+﻿{
+  "target": {
+    "slug": "028260_samsung_ct",
+    "title": "삼성물산",
+    "mode": "group",
+    "highlight": "삼성물산"
+  },
+  "root": "삼성그룹",
+  "meta": {
+    "source_mode": "samsung_group_core_matrix",
+    "source_codes": [
+      "005930",
+      "028260",
+      "009150",
+      "006400",
+      "018260",
+      "032830",
+      "000810",
+      "028050",
+      "207940"
+    ],
+    "source_paths": [
+      "output\\affiliate_visualization\\005930_삼성전자보통주",
+      "output\\affiliate_visualization\\028260_삼성물산보통주",
+      "output\\affiliate_visualization\\009150_삼성전기보통주",
+      "output\\affiliate_visualization\\006400_삼성SDI보통주",
+      "output\\affiliate_visualization\\018260_삼성에스디에스보통주",
+      "output\\affiliate_visualization\\032830_삼성생명보험보통주",
+      "output\\affiliate_visualization\\000810_삼성화재해상보험보통주",
+      "output\\affiliate_visualization\\028050_삼성E&A보통주",
+      "output\\affiliate_visualization\\207940_삼성바이오로직스"
+    ],
+    "highlight": "삼성물산",
+    "total_edges": 346,
+    "core_edges": 38,
+    "shown_edges": 52
+  },
+  "edges": [
+    {
+      "source": "삼성그룹",
+      "target": "삼성물산",
+      "rate": null,
+      "relation_type": "group_member",
+      "purpose": null,
+      "sources": [],
+      "aggregate": false,
+      "virtual": false
+    },
+    {
+      "source": "삼성물산",
+      "target": "삼성에피스홀딩스",
+      "rate": 43.1,
+      "relation_type": "investment",
+      "purpose": "경영참여",
+      "sources": [
+        "028260-2025-annual-01796"
+      ],
+      "aggregate": false,
+      "virtual": false
+    },
+    {
+      "source": "삼성물산",
+      "target": "삼성바이오로직스",
+      "rate": 43.1,
+      "relation_type": "investment",
+      "purpose": "경영참여",
+      "sources": [
+        "028260-2025-annual-01790"
+      ],
+      "aggregate": false,
+      "virtual": false
+    },
+    {
+      "source": "삼성물산",
+      "target": "삼성생명보험",
+      "rate": 19.3,
+      "relation_type": "investment",
+      "purpose": "경영참여",
+      "sources": [
+        "028260-2025-annual-01791"
+      ],
+      "aggregate": false,
+      "virtual": false
+    },
+    {
+      "source": "삼성물산",
+      "target": "삼성에스디에스",
+      "rate": 17.1,
+      "relation_type": "investment",
+      "purpose": "경영참여",
+      "sources": [
+        "028260-2025-annual-01793"
+      ],
+      "aggregate": false,
+      "virtual": false
+    },
+    {
+      "source": "삼성물산",
+      "target": "삼성이앤에이",
+      "rate": 7.0,
+      "relation_type": "investment",
+      "purpose": "경영참여",
+      "sources": [
+        "028260-2025-annual-01793"
+      ],
+      "aggregate": false,
+      "virtual": false
+    },
+    {
+      "source": "삼성물산",
+      "target": "삼성전자",
+      "rate": 4.4,
+      "relation_type": "investment",
+      "purpose": "경영참여",
+      "sources": [
+        "028260-2025-annual-01790"
+      ],
+      "aggregate": false,
+      "virtual": false
+    },
+    {
+      "source": "삼성물산",
+      "target": "삼성글로벌리서치",
+      "rate": 1.0,
+      "relation_type": "investment",
+      "purpose": "경영참여",
+      "sources": [
+        "028260-2025-annual-01793"
+      ],
+      "aggregate": false,
+      "virtual": false
+    },
+    {
+      "source": "삼성물산",
+      "target": "삼성중공업",
+      "rate": 0.1,
+      "relation_type": "investment",
+      "purpose": "경영참여",
+      "sources": [
+        "028260-2025-annual-01791"
+      ],
+      "aggregate": false,
+      "virtual": false
+    },
+    {
+      "source": "삼성물산",
+      "target": "기타 비핵심 관계 90개",
+      "rate": null,
+      "relation_type": "summary",
+      "purpose": null,
+      "sources": [],
+      "aggregate": false,
+      "virtual": false
+    },
+    {
+      "source": "삼성그룹",
+      "target": "삼성전자",
+      "rate": null,
+      "relation_type": "group_member",
+      "purpose": null,
+      "sources": [],
+      "aggregate": false,
+      "virtual": false
+    },
+    {
+      "source": "삼성전자",
+      "target": "삼성디스플레이",
+      "rate": 84.8,
+      "relation_type": "investment",
+      "purpose": "경영참여",
+      "sources": [
+        "005930-2025-annual-01545"
+      ],
+      "aggregate": false,
+      "virtual": false
+    },
+    {
+      "source": "삼성전자",
+      "target": "삼성에피스홀딩스",
+      "rate": 31.2,
+      "relation_type": "investment",
+      "purpose": "경영참여",
+      "sources": [
+        "005930-2025-annual-01545"
+      ],
+      "aggregate": false,
+      "virtual": false
+    },
+    {
+      "source": "삼성전자",
+      "target": "삼성바이오로직스",
+      "rate": 31.2,
+      "relation_type": "investment",
+      "purpose": "경영참여",
+      "sources": [
+        "005930-2025-annual-01545"
+      ],
+      "aggregate": false,
+      "virtual": false
+    },
+    {
+      "source": "삼성전자",
+      "target": "삼성글로벌리서치",
+      "rate": 29.8,
+      "relation_type": "investment",
+      "purpose": "경영참여",
+      "sources": [
+        "005930-2025-annual-01546"
+      ],
+      "aggregate": false,
+      "virtual": false
+    },
+    {
+      "source": "삼성전자",
+      "target": "제일기획",
+      "rate": 25.2,
+      "relation_type": "investment",
+      "purpose": "경영참여",
+      "sources": [
+        "005930-2025-annual-01545"
+      ],
+      "aggregate": false,
+      "virtual": false
+    },
+    {
+      "source": "삼성전자",
+      "target": "삼성전기",
+      "rate": 23.7,
+      "relation_type": "investment",
+      "purpose": "경영참여",
+      "sources": [
+        "005930-2025-annual-01545"
+      ],
+      "aggregate": false,
+      "virtual": false
+    },
+    {
+      "source": "삼성전자",
+      "target": "삼성에스디에스",
+      "rate": 22.6,
+      "relation_type": "investment",
+      "purpose": "경영참여",
+      "sources": [
+        "005930-2025-annual-01545"
+      ],
+      "aggregate": false,
+      "virtual": false
+    },
+    {
+      "source": "삼성전자",
+      "target": "삼성SDI",
+      "rate": 19.4,
+      "relation_type": "investment",
+      "purpose": "경영참여",
+      "sources": [
+        "005930-2025-annual-01545"
+      ],
+      "aggregate": false,
+      "virtual": false
+    },
+    {
+      "source": "삼성전자",
+      "target": "삼성중공업",
+      "rate": 15.2,
+      "relation_type": "investment",
+      "purpose": "경영참여",
+      "sources": [
+        "005930-2025-annual-01545"
+      ],
+      "aggregate": false,
+      "virtual": false
+    },
+    {
+      "source": "삼성전자",
+      "target": "호텔신라",
+      "rate": 5.1,
+      "relation_type": "investment",
+      "purpose": "경영참여",
+      "sources": [
+        "005930-2025-annual-01545"
+      ],
+      "aggregate": false,
+      "virtual": false
+    },
+    {
+      "source": "삼성전자",
+      "target": "기타 비핵심 관계 91개",
+      "rate": null,
+      "relation_type": "summary",
+      "purpose": null,
+      "sources": [],
+      "aggregate": false,
+      "virtual": false
+    },
+    {
+      "source": "삼성그룹",
+      "target": "삼성생명보험",
+      "rate": null,
+      "relation_type": "group_member",
+      "purpose": null,
+      "sources": [],
+      "aggregate": false,
+      "virtual": false
+    },
+    {
+      "source": "삼성생명보험",
+      "target": "삼성카드",
+      "rate": 71.86,
+      "relation_type": "investment",
+      "purpose": "경영참여",
+      "sources": [
+        "032830-2025-annual-02645"
+      ],
+      "aggregate": false,
+      "virtual": false
+    },
+    {
+      "source": "삼성생명보험",
+      "target": "삼성증권",
+      "rate": 29.39,
+      "relation_type": "investment",
+      "purpose": "경영참여",
+      "sources": [
+        "032830-2025-annual-02644"
+      ],
+      "aggregate": false,
+      "virtual": false
+    },
+    {
+      "source": "삼성생명보험",
+      "target": "삼성화재",
+      "rate": 15.43,
+      "relation_type": "investment",
+      "purpose": "경영참여",
+      "sources": [
+        "032830-2025-annual-02645"
+      ],
+      "aggregate": false,
+      "virtual": false
+    },
+    {
+      "source": "삼성생명보험",
+      "target": "삼성글로벌리서치",
+      "rate": 14.8,
+      "relation_type": "investment",
+      "purpose": "경영참여",
+      "sources": [
+        "032830-2025-annual-02646"
+      ],
+      "aggregate": false,
+      "virtual": false
+    },
+    {
+      "source": "삼성생명보험",
+      "target": "삼성전자",
+      "rate": 8.51,
+      "relation_type": "investment",
+      "purpose": "경영참여",
+      "sources": [
+        "032830-2025-annual-02645"
+      ],
+      "aggregate": false,
+      "virtual": false
+    },
+    {
+      "source": "삼성생명보험",
+      "target": "호텔신라",
+      "rate": 7.3,
+      "relation_type": "investment",
+      "purpose": "경영참여",
+      "sources": [
+        "032830-2025-annual-02645"
+      ],
+      "aggregate": false,
+      "virtual": false
+    },
+    {
+      "source": "삼성생명보험",
+      "target": "에스원",
+      "rate": 5.34,
+      "relation_type": "investment",
+      "purpose": "경영참여",
+      "sources": [
+        "032830-2025-annual-02645"
+      ],
+      "aggregate": false,
+      "virtual": false
+    },
+    {
+      "source": "삼성생명보험",
+      "target": "삼성중공업",
+      "rate": 2.92,
+      "relation_type": "investment",
+      "purpose": "경영참여",
+      "sources": [
+        "032830-2025-annual-02646"
+      ],
+      "aggregate": false,
+      "virtual": false
+    },
+    {
+      "source": "삼성생명보험",
+      "target": "기타 비핵심 관계 29개",
+      "rate": null,
+      "relation_type": "summary",
+      "purpose": null,
+      "sources": [],
+      "aggregate": false,
+      "virtual": false
+    },
+    {
+      "source": "삼성그룹",
+      "target": "삼성SDI",
+      "rate": null,
+      "relation_type": "group_member",
+      "purpose": null,
+      "sources": [],
+      "aggregate": false,
+      "virtual": false
+    },
+    {
+      "source": "삼성SDI",
+      "target": "삼성글로벌리서치 (구, 삼성경제연구소)",
+      "rate": 29.6,
+      "relation_type": "investment",
+      "purpose": "경영참여",
+      "sources": [
+        "006400-2025-annual-01578"
+      ],
+      "aggregate": false,
+      "virtual": false
+    },
+    {
+      "source": "삼성SDI",
+      "target": "삼성디스플레이",
+      "rate": 15.2,
+      "relation_type": "investment",
+      "purpose": "경영참여",
+      "sources": [
+        "006400-2025-annual-01578"
+      ],
+      "aggregate": false,
+      "virtual": false
+    },
+    {
+      "source": "삼성SDI",
+      "target": "삼성E&A(구, 삼성엔지니어링)",
+      "rate": 11.7,
+      "relation_type": "investment",
+      "purpose": "경영참여",
+      "sources": [
+        "006400-2025-annual-01578"
+      ],
+      "aggregate": false,
+      "virtual": false
+    },
+    {
+      "source": "삼성SDI",
+      "target": "에스원",
+      "rate": 11.0,
+      "relation_type": "investment",
+      "purpose": "경영참여",
+      "sources": [
+        "006400-2025-annual-01578"
+      ],
+      "aggregate": false,
+      "virtual": false
+    },
+    {
+      "source": "삼성SDI",
+      "target": "삼성중공업",
+      "rate": 0.4,
+      "relation_type": "investment",
+      "purpose": "경영참여",
+      "sources": [
+        "006400-2025-annual-01578"
+      ],
+      "aggregate": false,
+      "virtual": false
+    },
+    {
+      "source": "삼성SDI",
+      "target": "호텔신라",
+      "rate": 0.1,
+      "relation_type": "investment",
+      "purpose": "경영참여",
+      "sources": [
+        "006400-2025-annual-01578"
+      ],
+      "aggregate": false,
+      "virtual": false
+    },
+    {
+      "source": "삼성SDI",
+      "target": "기타 비핵심 관계 27개",
+      "rate": null,
+      "relation_type": "summary",
+      "purpose": null,
+      "sources": [],
+      "aggregate": false,
+      "virtual": false
+    },
+    {
+      "source": "삼성그룹",
+      "target": "삼성전기",
+      "rate": null,
+      "relation_type": "group_member",
+      "purpose": null,
+      "sources": [],
+      "aggregate": false,
+      "virtual": false
+    },
+    {
+      "source": "삼성전기",
+      "target": "삼성글로벌리서치",
+      "rate": 23.8,
+      "relation_type": "investment",
+      "purpose": "경영참여",
+      "sources": [
+        "009150-2025-annual-01228"
+      ],
+      "aggregate": false,
+      "virtual": false
+    },
+    {
+      "source": "삼성전기",
+      "target": "삼성중공업",
+      "rate": 2.1,
+      "relation_type": "investment",
+      "purpose": "경영참여",
+      "sources": [
+        "009150-2025-annual-01228"
+      ],
+      "aggregate": false,
+      "virtual": false
+    },
+    {
+      "source": "삼성전기",
+      "target": "기타 비핵심 관계 15개",
+      "rate": null,
+      "relation_type": "summary",
+      "purpose": null,
+      "sources": [],
+      "aggregate": false,
+      "virtual": false
+    },
+    {
+      "source": "삼성그룹",
+      "target": "삼성화재해상보험",
+      "rate": null,
+      "relation_type": "group_member",
+      "purpose": null,
+      "sources": [],
+      "aggregate": false,
+      "virtual": false
+    },
+    {
+      "source": "삼성화재해상보험",
+      "target": "삼성전자",
+      "rate": 1.49,
+      "relation_type": "investment",
+      "purpose": "경영참여",
+      "sources": [
+        "000810-2025-annual-02572"
+      ],
+      "aggregate": false,
+      "virtual": false
+    },
+    {
+      "source": "삼성화재해상보험",
+      "target": "에스원",
+      "rate": 0.97,
+      "relation_type": "investment",
+      "purpose": "경영참여",
+      "sources": [
+        "000810-2025-annual-02573"
+      ],
+      "aggregate": false,
+      "virtual": false
+    },
+    {
+      "source": "삼성화재해상보험",
+      "target": "삼성이앤에이",
+      "rate": 0.22,
+      "relation_type": "investment",
+      "purpose": "경영참여",
+      "sources": [
+        "000810-2025-annual-02572"
+      ],
+      "aggregate": false,
+      "virtual": false
+    },
+    {
+      "source": "삼성화재해상보험",
+      "target": "기타 비핵심 관계 12개",
+      "rate": null,
+      "relation_type": "summary",
+      "purpose": null,
+      "sources": [],
+      "aggregate": false,
+      "virtual": false
+    },
+    {
+      "source": "삼성그룹",
+      "target": "삼성바이오로직스",
+      "rate": null,
+      "relation_type": "group_member",
+      "purpose": null,
+      "sources": [],
+      "aggregate": false,
+      "virtual": false
+    },
+    {
+      "source": "삼성바이오로직스",
+      "target": "삼성바이오에피스",
+      "rate": 100.0,
+      "relation_type": "investment",
+      "purpose": "경영참여",
+      "sources": [
+        "207940-2025-annual-01276"
+      ],
+      "aggregate": false,
+      "virtual": false
+    },
+    {
+      "source": "삼성바이오로직스",
+      "target": "기타 비핵심 관계 3개",
+      "rate": null,
+      "relation_type": "summary",
+      "purpose": null,
+      "sources": [],
+      "aggregate": false,
+      "virtual": false
+    }
+  ],
+  "files": {
+    "structure_svg": "output\\affiliate_structure_samples\\028260_samsung_ct\\028260_samsung_ct_affiliate_structure.svg",
+    "graphviz_dot": "output\\affiliate_structure_samples\\028260_samsung_ct\\028260_samsung_ct_graphviz.dot",
+    "graphviz_svg": "",
+    "networkx_png": "output\\affiliate_structure_samples\\028260_samsung_ct\\028260_samsung_ct_networkx.png",
+    "sankey_html": "output\\affiliate_structure_samples\\028260_samsung_ct\\028260_samsung_ct_sankey.html"
+  },
+  "used_graphviz_dot": false
+}

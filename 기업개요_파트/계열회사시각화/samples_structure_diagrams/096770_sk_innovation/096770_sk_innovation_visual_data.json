@@ -1,0 +1,157 @@
+﻿{
+  "target": {
+    "slug": "096770_sk_innovation",
+    "title": "SK이노베이션",
+    "mode": "single",
+    "code": "096770",
+    "highlight": "SK이노베이션"
+  },
+  "root": "SK이노베이션",
+  "meta": {
+    "source_mode": "single_company",
+    "source_code": "096770",
+    "source_path": "output\\affiliate_visualization\\096770_SK이노베이션_보통주",
+    "total_edges": 69,
+    "shown_edges": 11
+  },
+  "edges": [
+    {
+      "source": "SK이노베이션",
+      "target": "행복키움",
+      "rate": 100.0,
+      "relation_type": "investment",
+      "purpose": "경영참여",
+      "sources": [
+        "096770-2025-annual-02892"
+      ],
+      "aggregate": false,
+      "virtual": false
+    },
+    {
+      "source": "SK이노베이션",
+      "target": "해쌀태양광",
+      "rate": 100.0,
+      "relation_type": "investment",
+      "purpose": "경영참여",
+      "sources": [
+        "096770-2025-annual-02896"
+      ],
+      "aggregate": false,
+      "virtual": false
+    },
+    {
+      "source": "SK이노베이션",
+      "target": "이엔에스시티가스부산",
+      "rate": 100.0,
+      "relation_type": "investment",
+      "purpose": "경영참여",
+      "sources": [
+        "096770-2025-annual-02899"
+      ],
+      "aggregate": false,
+      "virtual": false
+    },
+    {
+      "source": "SK이노베이션",
+      "target": "이엔에스시티가스",
+      "rate": 100.0,
+      "relation_type": "investment",
+      "purpose": "경영참여",
+      "sources": [
+        "096770-2025-annual-02899"
+      ],
+      "aggregate": false,
+      "virtual": false
+    },
+    {
+      "source": "SK이노베이션",
+      "target": "엔솔브",
+      "rate": 100.0,
+      "relation_type": "investment",
+      "purpose": "경영참여",
+      "sources": [
+        "096770-2025-annual-02897"
+      ],
+      "aggregate": false,
+      "virtual": false
+    },
+    {
+      "source": "SK이노베이션",
+      "target": "에스케이지오센트릭",
+      "rate": 100.0,
+      "relation_type": "investment",
+      "purpose": "경영참여",
+      "sources": [
+        "096770-2025-annual-02891"
+      ],
+      "aggregate": false,
+      "virtual": false
+    },
+    {
+      "source": "SK이노베이션",
+      "target": "에스케이엔텀",
+      "rate": 100.0,
+      "relation_type": "investment",
+      "purpose": "경영참여",
+      "sources": [
+        "096770-2025-annual-02891"
+      ],
+      "aggregate": false,
+      "virtual": false
+    },
+    {
+      "source": "SK이노베이션",
+      "target": "에스케이어스온",
+      "rate": 100.0,
+      "relation_type": "investment",
+      "purpose": "경영참여",
+      "sources": [
+        "096770-2025-annual-02891"
+      ],
+      "aggregate": false,
+      "virtual": false
+    },
+    {
+      "source": "SK이노베이션",
+      "target": "아이지이",
+      "rate": 100.0,
+      "relation_type": "investment",
+      "purpose": "경영참여",
+      "sources": [
+        "096770-2025-annual-02897"
+      ],
+      "aggregate": false,
+      "virtual": false
+    },
+    {
+      "source": "SK이노베이션",
+      "target": "아리울 행복솔라",
+      "rate": 100.0,
+      "relation_type": "investment",
+      "purpose": "경영참여",
+      "sources": [
+        "096770-2025-annual-02897"
+      ],
+      "aggregate": false,
+      "virtual": false
+    },
+    {
+      "source": "SK이노베이션",
+      "target": "기타 직접 투자 59개",
+      "rate": null,
+      "relation_type": "summary",
+      "purpose": null,
+      "sources": [],
+      "aggregate": false,
+      "virtual": false
+    }
+  ],
+  "files": {
+    "structure_svg": "output\\affiliate_structure_samples\\096770_sk_innovation\\096770_sk_innovation_affiliate_structure.svg",
+    "graphviz_dot": "output\\affiliate_structure_samples\\096770_sk_innovation\\096770_sk_innovation_graphviz.dot",
+    "graphviz_svg": "",
+    "networkx_png": "output\\affiliate_structure_samples\\096770_sk_innovation\\096770_sk_innovation_networkx.png",
+    "sankey_html": "output\\affiliate_structure_samples\\096770_sk_innovation\\096770_sk_innovation_sankey.html"
+  },
+  "used_graphviz_dot": false
+}

@@ -1,0 +1,125 @@
+﻿{
+  "source_type": "generated_affiliate_directory",
+  "visual_file_type": "svg",
+  "visual_path": "output\\affiliate_visualization\\000040_KR모터스보통주\\affiliate_directory.svg",
+  "has_original_image": false,
+  "has_ownership_rate": false,
+  "nodes": [
+    {
+      "id": "KR모터스",
+      "name": "KR모터스",
+      "role": "reporting_company"
+    }
+  ],
+  "edges": [],
+  "supporting_investment_edges": [],
+  "investment_edges_total": 0,
+  "visual_edges_total": 0,
+  "affiliate_companies": [
+    {
+      "name": "☞ 본문 위치로 이동",
+      "listing": "미분류",
+      "source_chunk_id": "000040-2025-annual-00622"
+    },
+    {
+      "name": "KR모터스(주)",
+      "listing": "상장",
+      "source_chunk_id": "000040-2025-annual-00623"
+    },
+    {
+      "name": "Auto World(KOLAO Developing) Co., Ltd.",
+      "listing": "비상장",
+      "source_chunk_id": "000040-2025-annual-00623"
+    },
+    {
+      "name": "GMS Trading Sole Co., Ltd",
+      "listing": "비상장",
+      "source_chunk_id": "000040-2025-annual-00623"
+    },
+    {
+      "name": "LVMC Holdings Singapore Pte.,Ltd.",
+      "listing": "비상장",
+      "source_chunk_id": "000040-2025-annual-00623"
+    },
+    {
+      "name": "Daehan Co., Ltd.",
+      "listing": "비상장",
+      "source_chunk_id": "000040-2025-annual-00623"
+    },
+    {
+      "name": "International KLM Co., Ltd.",
+      "listing": "비상장",
+      "source_chunk_id": "000040-2025-annual-00623"
+    },
+    {
+      "name": "Global KLM Co., Ltd.",
+      "listing": "비상장",
+      "source_chunk_id": "000040-2025-annual-00623"
+    },
+    {
+      "name": "Shwe Daehan Motors Co.Ltd.",
+      "listing": "비상장",
+      "source_chunk_id": "000040-2025-annual-00623"
+    },
+    {
+      "name": "LVMC Investment Limited",
+      "listing": "비상장",
+      "source_chunk_id": "000040-2025-annual-00623"
+    },
+    {
+      "name": "Chongqing Kolao-Yuan R&D Co.,Ltd.",
+      "listing": "비상장",
+      "source_chunk_id": "000040-2025-annual-00623"
+    },
+    {
+      "name": "Chongqing LVMC Yuan Auto Trading Co.,Ltd.",
+      "listing": "비상장",
+      "source_chunk_id": "000040-2025-annual-00623"
+    },
+    {
+      "name": "Daehan Motors Co., Ltd.",
+      "listing": "비상장",
+      "source_chunk_id": "000040-2025-annual-00623"
+    },
+    {
+      "name": "Daehan Motors Trading Joint Stock Company",
+      "listing": "비상장",
+      "source_chunk_id": "000040-2025-annual-00623"
+    },
+    {
+      "name": "KB KOLAO Leasing",
+      "listing": "비상장",
+      "source_chunk_id": "000040-2025-annual-00623"
+    },
+    {
+      "name": "LDK PHARMA FACTORY CO.,LTD",
+      "listing": "비상장",
+      "source_chunk_id": "000040-2025-annual-00623"
+    },
+    {
+      "name": "케이알트레이딩",
+      "listing": "비상장",
+      "source_chunk_id": "000040-2025-annual-00626"
+    },
+    {
+      "name": "주식회사옵티모",
+      "listing": "비상장",
+      "source_chunk_id": "000040-2025-annual-00626"
+    }
+  ],
+  "stock_code": "000040",
+  "corp_name": "KR모터스보통주",
+  "corp_code": "00112378",
+  "display_corp_name": "KR모터스",
+  "report_nm": "사업보고서 (2025.12)",
+  "report_kind": "2025-annual",
+  "rcept_no": "20260320001257",
+  "rcept_dt": "20260320",
+  "source_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320001257",
+  "rag_file": "RAG\\000040_KR모터스보통주_2025_annual_chunks.jsonl",
+  "metadata_path": "output\\affiliate_visualization\\000040_KR모터스보통주\\affiliate_visual_metadata.json",
+  "extracted_data_path": "output\\affiliate_visualization\\000040_KR모터스보통주\\affiliate_visual_data.json",
+  "errors": [],
+  "created_at": "2026-05-28T17:00:32",
+  "cache_hit": false
+}

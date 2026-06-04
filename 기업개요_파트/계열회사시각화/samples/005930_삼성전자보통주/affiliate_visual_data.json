@@ -1,0 +1,3785 @@
+{
+  "nodes": [
+    {
+      "id": "삼성전자",
+      "name": "삼성전자",
+      "role": "reporting_company"
+    },
+    {
+      "id": "삼성전기㈜",
+      "name": "삼성전기㈜",
+      "role": "company"
+    },
+    {
+      "id": "삼성SDI㈜",
+      "name": "삼성SDI㈜",
+      "role": "company"
+    },
+    {
+      "id": "삼성중공업㈜",
+      "name": "삼성중공업㈜",
+      "role": "company"
+    },
+    {
+      "id": "㈜호텔신라",
+      "name": "㈜호텔신라",
+      "role": "company"
+    },
+    {
+      "id": "㈜제일기획",
+      "name": "㈜제일기획",
+      "role": "company"
+    },
+    {
+      "id": "삼성에스디에스㈜",
+      "name": "삼성에스디에스㈜",
+      "role": "company"
+    },
+    {
+      "id": "삼성바이오로직스㈜",
+      "name": "삼성바이오로직스㈜",
+      "role": "company"
+    },
+    {
+      "id": "삼성디스플레이㈜",
+      "name": "삼성디스플레이㈜",
+      "role": "company"
+    },
+    {
+      "id": "삼성에피스홀딩스㈜",
+      "name": "삼성에피스홀딩스㈜",
+      "role": "company"
+    },
+    {
+      "id": "스테코㈜",
+      "name": "스테코㈜",
+      "role": "company"
+    },
+    {
+      "id": "세메스㈜",
+      "name": "세메스㈜",
+      "role": "company"
+    },
+    {
+      "id": "삼성전자서비스㈜",
+      "name": "삼성전자서비스㈜",
+      "role": "company"
+    },
+    {
+      "id": "삼성전자판매㈜",
+      "name": "삼성전자판매㈜",
+      "role": "company"
+    },
+    {
+      "id": "삼성전자로지텍㈜",
+      "name": "삼성전자로지텍㈜",
+      "role": "company"
+    },
+    {
+      "id": "삼성메디슨㈜",
+      "name": "삼성메디슨㈜",
+      "role": "company"
+    },
+    {
+      "id": "㈜삼성글로벌리서치",
+      "name": "㈜삼성글로벌리서치",
+      "role": "company"
+    },
+    {
+      "id": "삼성벤처투자㈜",
+      "name": "삼성벤처투자㈜",
+      "role": "company"
+    },
+    {
+      "id": "SVIC_21호_신기술투자조합",
+      "name": "SVIC 21호 신기술투자조합",
+      "role": "company"
+    },
+    {
+      "id": "SVIC_22호_신기술투자조합",
+      "name": "SVIC 22호 신기술투자조합",
+      "role": "company"
+    },
+    {
+      "id": "SVIC_26호_신기술투자조합",
+      "name": "SVIC 26호 신기술투자조합",
+      "role": "company"
+    },
+    {
+      "id": "SVIC_28호_신기술투자조합",
+      "name": "SVIC 28호 신기술투자조합",
+      "role": "company"
+    },
+    {
+      "id": "SVIC_32호_신기술투자조합",
+      "name": "SVIC 32호 신기술투자조합",
+      "role": "company"
+    },
+    {
+      "id": "SVIC_33호_신기술투자조합",
+      "name": "SVIC 33호 신기술투자조합",
+      "role": "company"
+    },
+    {
+      "id": "SVIC_42호_신기술투자조합",
+      "name": "SVIC 42호 신기술투자조합",
+      "role": "company"
+    },
+    {
+      "id": "SVIC_45호_신기술투자조합",
+      "name": "SVIC 45호 신기술투자조합",
+      "role": "company"
+    },
+    {
+      "id": "SVIC_52호_신기술투자조합",
+      "name": "SVIC 52호 신기술투자조합",
+      "role": "company"
+    },
+    {
+      "id": "SVIC_56호_신기술투자조합",
+      "name": "SVIC 56호 신기술투자조합",
+      "role": "company"
+    },
+    {
+      "id": "SVIC_57호_신기술투자조합",
+      "name": "SVIC 57호 신기술투자조합",
+      "role": "company"
+    },
+    {
+      "id": "SVIC_74호_신기술투자조합",
+      "name": "SVIC 74호 신기술투자조합",
+      "role": "company"
+    },
+    {
+      "id": "SVIC_76호_신기술투자조합",
+      "name": "SVIC 76호 신기술투자조합",
+      "role": "company"
+    },
+    {
+      "id": "반도체성장_전문투자형_사모_투자신탁",
+      "name": "반도체성장 전문투자형 사모 투자신탁",
+      "role": "company"
+    },
+    {
+      "id": "시스템반도체_상생_전문투자형_사모_투자신탁",
+      "name": "시스템반도체 상생 전문투자형 사모 투자신탁",
+      "role": "company"
+    },
+    {
+      "id": "㈜희망별숲",
+      "name": "㈜희망별숲",
+      "role": "company"
+    },
+    {
+      "id": "㈜레인보우로보틱스",
+      "name": "㈜레인보우로보틱스",
+      "role": "company"
+    },
+    {
+      "id": "㈜아이마켓코리아",
+      "name": "㈜아이마켓코리아",
+      "role": "company"
+    },
+    {
+      "id": "㈜원익홀딩스",
+      "name": "㈜원익홀딩스",
+      "role": "company"
+    },
+    {
+      "id": "㈜원익아이피에스",
+      "name": "㈜원익아이피에스",
+      "role": "company"
+    },
+    {
+      "id": "㈜동진쎄미켐",
+      "name": "㈜동진쎄미켐",
+      "role": "company"
+    },
+    {
+      "id": "솔브레인㈜",
+      "name": "솔브레인㈜",
+      "role": "company"
+    },
+    {
+      "id": "㈜에스앤에스텍",
+      "name": "㈜에스앤에스텍",
+      "role": "company"
+    },
+    {
+      "id": "㈜와이씨",
+      "name": "㈜와이씨",
+      "role": "company"
+    },
+    {
+      "id": "㈜케이씨텍",
+      "name": "㈜케이씨텍",
+      "role": "company"
+    },
+    {
+      "id": "㈜엘오티베큠",
+      "name": "㈜엘오티베큠",
+      "role": "company"
+    },
+    {
+      "id": "㈜뉴파워프라즈마",
+      "name": "㈜뉴파워프라즈마",
+      "role": "company"
+    },
+    {
+      "id": "㈜에프에스티",
+      "name": "㈜에프에스티",
+      "role": "company"
+    },
+    {
+      "id": "㈜디엔에프",
+      "name": "㈜디엔에프",
+      "role": "company"
+    },
+    {
+      "id": "㈜미코세라믹스",
+      "name": "㈜미코세라믹스",
+      "role": "company"
+    },
+    {
+      "id": "SEA",
+      "name": "SEA",
+      "role": "company"
+    },
+    {
+      "id": "SECA",
+      "name": "SECA",
+      "role": "company"
+    },
+    {
+      "id": "SEDA",
+      "name": "SEDA",
+      "role": "company"
+    },
+    {
+      "id": "SEM",
+      "name": "SEM",
+      "role": "company"
+    },
+    {
+      "id": "SELA",
+      "name": "SELA",
+      "role": "company"
+    },
+    {
+      "id": "SEASA",
+      "name": "SEASA",
+      "role": "company"
+    },
+    {
+      "id": "SECH",
+      "name": "SECH",
+      "role": "company"
+    },
+    {
+      "id": "SEUK",
+      "name": "SEUK",
+      "role": "company"
+    },
+    {
+      "id": "SEL",
+      "name": "SEL",
+      "role": "company"
+    },
+    {
+      "id": "SEHG",
+      "name": "SEHG",
+      "role": "company"
+    },
+    {
+      "id": "SEF",
+      "name": "SEF",
+      "role": "company"
+    },
+    {
+      "id": "SEI",
+      "name": "SEI",
+      "role": "company"
+    },
+    {
+      "id": "SESA",
+      "name": "SESA",
+      "role": "company"
+    },
+    {
+      "id": "SEP",
+      "name": "SEP",
+      "role": "company"
+    },
+    {
+      "id": "SEH",
+      "name": "SEH",
+      "role": "company"
+    },
+    {
+      "id": "SELS",
+      "name": "SELS",
+      "role": "company"
+    },
+    {
+      "id": "SEBN",
+      "name": "SEBN",
+      "role": "company"
+    },
+    {
+      "id": "SEEH",
+      "name": "SEEH",
+      "role": "company"
+    },
+    {
+      "id": "SENA",
+      "name": "SENA",
+      "role": "company"
+    },
+    {
+      "id": "SESK",
+      "name": "SESK",
+      "role": "company"
+    },
+    {
+      "id": "SEPOL",
+      "name": "SEPOL",
+      "role": "company"
+    },
+    {
+      "id": "SEAG",
+      "name": "SEAG",
+      "role": "company"
+    },
+    {
+      "id": "SERC",
+      "name": "SERC",
+      "role": "company"
+    },
+    {
+      "id": "SERK",
+      "name": "SERK",
+      "role": "company"
+    },
+    {
+      "id": "SGE",
+      "name": "SGE",
+      "role": "company"
+    },
+    {
+      "id": "SEEG",
+      "name": "SEEG",
+      "role": "company"
+    },
+    {
+      "id": "SSA",
+      "name": "SSA",
+      "role": "company"
+    },
+    {
+      "id": "SAPL",
+      "name": "SAPL",
+      "role": "company"
+    },
+    {
+      "id": "SME",
+      "name": "SME",
+      "role": "company"
+    },
+    {
+      "id": "SDMA",
+      "name": "SDMA",
+      "role": "company"
+    },
+    {
+      "id": "SEMA",
+      "name": "SEMA",
+      "role": "company"
+    },
+    {
+      "id": "SAVINA",
+      "name": "SAVINA",
+      "role": "company"
+    },
+    {
+      "id": "SEIN",
+      "name": "SEIN",
+      "role": "company"
+    },
+    {
+      "id": "TSE",
+      "name": "TSE",
+      "role": "company"
+    },
+    {
+      "id": "SEAU",
+      "name": "SEAU",
+      "role": "company"
+    },
+    {
+      "id": "SIEL",
+      "name": "SIEL",
+      "role": "company"
+    },
+    {
+      "id": "SRI-Bangalore",
+      "name": "SRI-Bangalore",
+      "role": "company"
+    },
+    {
+      "id": "SJC",
+      "name": "SJC",
+      "role": "company"
+    },
+    {
+      "id": "SRJ",
+      "name": "SRJ",
+      "role": "company"
+    },
+    {
+      "id": "SCIC",
+      "name": "SCIC",
+      "role": "company"
+    },
+    {
+      "id": "SEHK",
+      "name": "SEHK",
+      "role": "company"
+    },
+    {
+      "id": "SET",
+      "name": "SET",
+      "role": "company"
+    },
+    {
+      "id": "SSEC",
+      "name": "SSEC",
+      "role": "company"
+    },
+    {
+      "id": "SESC",
+      "name": "SESC",
+      "role": "company"
+    },
+    {
+      "id": "TSTC",
+      "name": "TSTC",
+      "role": "company"
+    },
+    {
+      "id": "SSS",
+      "name": "SSS",
+      "role": "company"
+    },
+    {
+      "id": "SCS",
+      "name": "SCS",
+      "role": "company"
+    },
+    {
+      "id": "SSCX",
+      "name": "SSCX",
+      "role": "company"
+    },
+    {
+      "id": "SESS",
+      "name": "SESS",
+      "role": "company"
+    },
+    {
+      "id": "TSLED",
+      "name": "TSLED",
+      "role": "company"
+    },
+    {
+      "id": "SSCR",
+      "name": "SSCR",
+      "role": "company"
+    },
+    {
+      "id": "TSST_Japan",
+      "name": "TSST Japan",
+      "role": "company"
+    },
+    {
+      "id": "STE",
+      "name": "STE",
+      "role": "company"
+    },
+    {
+      "id": "One-Blue,_LLC",
+      "name": "One-Blue, LLC",
+      "role": "company"
+    }
+  ],
+  "edges": [
+    {
+      "from": "삼성전자",
+      "to": "삼성전기㈜",
+      "ownership_rate": 23.7,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01545",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "삼성SDI㈜",
+      "ownership_rate": 19.4,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01545",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "삼성중공업㈜",
+      "ownership_rate": 15.2,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01545",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "㈜호텔신라",
+      "ownership_rate": 5.1,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01545",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "㈜제일기획",
+      "ownership_rate": 25.2,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01545",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "삼성에스디에스㈜",
+      "ownership_rate": 22.6,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01545",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "삼성바이오로직스㈜",
+      "ownership_rate": 31.2,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01545",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "삼성디스플레이㈜",
+      "ownership_rate": 84.8,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01545",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "삼성에피스홀딩스㈜",
+      "ownership_rate": 31.2,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01545",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "스테코㈜",
+      "ownership_rate": 70.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01545",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "세메스㈜",
+      "ownership_rate": 91.5,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01546",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "삼성전자서비스㈜",
+      "ownership_rate": 99.3,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01546",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "삼성전자판매㈜",
+      "ownership_rate": 100.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01546",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "삼성전자로지텍㈜",
+      "ownership_rate": 100.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01546",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "삼성메디슨㈜",
+      "ownership_rate": 68.5,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01546",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "㈜삼성글로벌리서치",
+      "ownership_rate": 29.8,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01546",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "삼성벤처투자㈜",
+      "ownership_rate": 16.3,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01546",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SVIC 21호 신기술투자조합",
+      "ownership_rate": 99.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01546",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SVIC 22호 신기술투자조합",
+      "ownership_rate": 99.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01546",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SVIC 26호 신기술투자조합",
+      "ownership_rate": 99.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01546",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SVIC 28호 신기술투자조합",
+      "ownership_rate": 99.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01546",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SVIC 32호 신기술투자조합",
+      "ownership_rate": 99.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01547",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SVIC 33호 신기술투자조합",
+      "ownership_rate": 99.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01547",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SVIC 42호 신기술투자조합",
+      "ownership_rate": 99.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01547",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SVIC 45호 신기술투자조합",
+      "ownership_rate": 99.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01547",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SVIC 52호 신기술투자조합",
+      "ownership_rate": 99.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01547",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SVIC 56호 신기술투자조합",
+      "ownership_rate": 99.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01547",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SVIC 57호 신기술투자조합",
+      "ownership_rate": 99.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01547",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SVIC 74호 신기술투자조합",
+      "ownership_rate": 99.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01547",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SVIC 76호 신기술투자조합",
+      "ownership_rate": 66.7,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01547",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "반도체성장 전문투자형 사모 투자신탁",
+      "ownership_rate": 66.7,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01547",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "시스템반도체 상생 전문투자형 사모 투자신탁",
+      "ownership_rate": 62.5,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01548",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "㈜희망별숲",
+      "ownership_rate": 100.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01548",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "㈜레인보우로보틱스",
+      "ownership_rate": 35.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01548",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "㈜아이마켓코리아",
+      "ownership_rate": 1.9,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01548",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "㈜원익홀딩스",
+      "ownership_rate": 2.3,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01548",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "㈜원익아이피에스",
+      "ownership_rate": 3.8,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01548",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "㈜동진쎄미켐",
+      "ownership_rate": 4.8,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01549",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "솔브레인㈜",
+      "ownership_rate": 5.6,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01549",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "㈜에스앤에스텍",
+      "ownership_rate": 8.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01549",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "㈜와이씨",
+      "ownership_rate": 11.7,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01549",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "㈜케이씨텍",
+      "ownership_rate": 4.9,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01549",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "㈜엘오티베큠",
+      "ownership_rate": 7.1,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01549",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "㈜뉴파워프라즈마",
+      "ownership_rate": 4.9,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01549",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "㈜에프에스티",
+      "ownership_rate": 7.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01549",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "㈜디엔에프",
+      "ownership_rate": 7.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01549",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "㈜미코세라믹스",
+      "ownership_rate": 13.7,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01550",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SEA",
+      "ownership_rate": 100.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01551",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SECA",
+      "ownership_rate": 100.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01551",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SEDA",
+      "ownership_rate": 87.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01551",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SEM",
+      "ownership_rate": 63.6,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01551",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SELA",
+      "ownership_rate": 100.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01551",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SEASA",
+      "ownership_rate": 98.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01551",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SECH",
+      "ownership_rate": 4.1,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01551",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SEUK",
+      "ownership_rate": 100.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01552",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SEL",
+      "ownership_rate": 100.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01552",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SEHG",
+      "ownership_rate": 100.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01552",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SEF",
+      "ownership_rate": 100.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01552",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SEI",
+      "ownership_rate": 100.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01552",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SESA",
+      "ownership_rate": 100.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01552",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SEP",
+      "ownership_rate": 100.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01552",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SEH",
+      "ownership_rate": 100.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01552",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SELS",
+      "ownership_rate": 100.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01552",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SEBN",
+      "ownership_rate": 100.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01552",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SEEH",
+      "ownership_rate": 100.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01552",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SENA",
+      "ownership_rate": 100.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01553",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SESK",
+      "ownership_rate": 51.4,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01553",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SEPOL",
+      "ownership_rate": 100.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01553",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SEAG",
+      "ownership_rate": 100.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01553",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SERC",
+      "ownership_rate": 100.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01553",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SERK",
+      "ownership_rate": 100.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01553",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SGE",
+      "ownership_rate": 100.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01553",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SEEG",
+      "ownership_rate": 0.1,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01553",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SSA",
+      "ownership_rate": 100.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01553",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SAPL",
+      "ownership_rate": 100.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01553",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SME",
+      "ownership_rate": 100.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01553",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SDMA",
+      "ownership_rate": 75.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01553",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SEMA",
+      "ownership_rate": 100.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01554",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SAVINA",
+      "ownership_rate": 100.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01554",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SEIN",
+      "ownership_rate": 100.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01554",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "TSE",
+      "ownership_rate": 91.8,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01554",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SEAU",
+      "ownership_rate": 100.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01554",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SIEL",
+      "ownership_rate": 100.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01554",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SRI-Bangalore",
+      "ownership_rate": 100.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01554",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SJC",
+      "ownership_rate": 100.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01554",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SRJ",
+      "ownership_rate": 100.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01554",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SCIC",
+      "ownership_rate": 100.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01554",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SEHK",
+      "ownership_rate": 100.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01554",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SET",
+      "ownership_rate": 100.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01555",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SSEC",
+      "ownership_rate": 69.1,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01555",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SESC",
+      "ownership_rate": 73.7,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01555",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "TSTC",
+      "ownership_rate": 90.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01555",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SSS",
+      "ownership_rate": 100.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01555",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SCS",
+      "ownership_rate": 100.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01555",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SSCX",
+      "ownership_rate": 100.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01555",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SESS",
+      "ownership_rate": 100.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01555",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "TSLED",
+      "ownership_rate": 100.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01555",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SSCR",
+      "ownership_rate": 100.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01555",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "TSST Japan",
+      "ownership_rate": 49.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01555",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "STE",
+      "ownership_rate": 49.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01555",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "One-Blue, LLC",
+      "ownership_rate": 16.7,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01556",
+      "listing": null,
+      "purpose": "경영참여"
+    }
+  ],
+  "supporting_investment_edges": [
+    {
+      "from": "삼성전자",
+      "to": "삼성전기㈜",
+      "ownership_rate": 23.7,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01545",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "삼성SDI㈜",
+      "ownership_rate": 19.4,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01545",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "삼성중공업㈜",
+      "ownership_rate": 15.2,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01545",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "㈜호텔신라",
+      "ownership_rate": 5.1,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01545",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "㈜제일기획",
+      "ownership_rate": 25.2,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01545",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "삼성에스디에스㈜",
+      "ownership_rate": 22.6,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01545",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "삼성바이오로직스㈜",
+      "ownership_rate": 31.2,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01545",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "삼성디스플레이㈜",
+      "ownership_rate": 84.8,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01545",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "삼성에피스홀딩스㈜",
+      "ownership_rate": 31.2,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01545",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "스테코㈜",
+      "ownership_rate": 70.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01545",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "세메스㈜",
+      "ownership_rate": 91.5,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01546",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "삼성전자서비스㈜",
+      "ownership_rate": 99.3,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01546",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "삼성전자판매㈜",
+      "ownership_rate": 100.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01546",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "삼성전자로지텍㈜",
+      "ownership_rate": 100.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01546",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "삼성메디슨㈜",
+      "ownership_rate": 68.5,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01546",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "㈜삼성글로벌리서치",
+      "ownership_rate": 29.8,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01546",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "삼성벤처투자㈜",
+      "ownership_rate": 16.3,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01546",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SVIC 21호 신기술투자조합",
+      "ownership_rate": 99.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01546",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SVIC 22호 신기술투자조합",
+      "ownership_rate": 99.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01546",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SVIC 26호 신기술투자조합",
+      "ownership_rate": 99.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01546",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SVIC 28호 신기술투자조합",
+      "ownership_rate": 99.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01546",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SVIC 32호 신기술투자조합",
+      "ownership_rate": 99.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01547",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SVIC 33호 신기술투자조합",
+      "ownership_rate": 99.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01547",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SVIC 42호 신기술투자조합",
+      "ownership_rate": 99.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01547",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SVIC 45호 신기술투자조합",
+      "ownership_rate": 99.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01547",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SVIC 52호 신기술투자조합",
+      "ownership_rate": 99.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01547",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SVIC 56호 신기술투자조합",
+      "ownership_rate": 99.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01547",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SVIC 57호 신기술투자조합",
+      "ownership_rate": 99.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01547",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SVIC 74호 신기술투자조합",
+      "ownership_rate": 99.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01547",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SVIC 76호 신기술투자조합",
+      "ownership_rate": 66.7,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01547",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "반도체성장 전문투자형 사모 투자신탁",
+      "ownership_rate": 66.7,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01547",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "시스템반도체 상생 전문투자형 사모 투자신탁",
+      "ownership_rate": 62.5,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01548",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "㈜희망별숲",
+      "ownership_rate": 100.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01548",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "㈜레인보우로보틱스",
+      "ownership_rate": 35.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01548",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "㈜아이마켓코리아",
+      "ownership_rate": 1.9,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01548",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "㈜케이티스카이라이프",
+      "ownership_rate": 0.5,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01548",
+      "listing": null,
+      "purpose": "단순투자"
+    },
+    {
+      "from": "삼성전자",
+      "to": "모나용평㈜",
+      "ownership_rate": 0.8,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01548",
+      "listing": null,
+      "purpose": "단순투자"
+    },
+    {
+      "from": "삼성전자",
+      "to": "에이테크솔루션㈜",
+      "ownership_rate": 15.9,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01548",
+      "listing": null,
+      "purpose": "단순투자"
+    },
+    {
+      "from": "삼성전자",
+      "to": "㈜원익홀딩스",
+      "ownership_rate": 2.3,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01548",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "㈜원익아이피에스",
+      "ownership_rate": 3.8,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01548",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "㈜동진쎄미켐",
+      "ownership_rate": 4.8,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01549",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "솔브레인㈜",
+      "ownership_rate": 5.6,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01549",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "㈜에스앤에스텍",
+      "ownership_rate": 8.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01549",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "㈜와이씨",
+      "ownership_rate": 11.7,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01549",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "㈜케이씨텍",
+      "ownership_rate": 4.9,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01549",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "㈜엘오티베큠",
+      "ownership_rate": 7.1,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01549",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "㈜뉴파워프라즈마",
+      "ownership_rate": 4.9,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01549",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "㈜에프에스티",
+      "ownership_rate": 7.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01549",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "㈜디엔에프",
+      "ownership_rate": 7.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01549",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SoundHound Inc.",
+      "ownership_rate": 0.9,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01549",
+      "listing": null,
+      "purpose": "단순투자"
+    },
+    {
+      "from": "삼성전자",
+      "to": "한국경제신문㈜",
+      "ownership_rate": 0.4,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01550",
+      "listing": null,
+      "purpose": "단순투자"
+    },
+    {
+      "from": "삼성전자",
+      "to": "㈜한국비즈니스금융대부",
+      "ownership_rate": 17.2,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01550",
+      "listing": null,
+      "purpose": "단순투자"
+    },
+    {
+      "from": "삼성전자",
+      "to": "㈜싸이버뱅크",
+      "ownership_rate": 7.5,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01550",
+      "listing": null,
+      "purpose": "단순투자"
+    },
+    {
+      "from": "삼성전자",
+      "to": "화인칩스㈜",
+      "ownership_rate": 3.3,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01550",
+      "listing": null,
+      "purpose": "단순투자"
+    },
+    {
+      "from": "삼성전자",
+      "to": "인텔렉추얼디스커버리㈜",
+      "ownership_rate": 10.7,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01550",
+      "listing": null,
+      "purpose": "단순투자"
+    },
+    {
+      "from": "삼성전자",
+      "to": "㈜말타니",
+      "ownership_rate": 15.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01550",
+      "listing": null,
+      "purpose": "단순투자"
+    },
+    {
+      "from": "삼성전자",
+      "to": "㈜팬택자산관리",
+      "ownership_rate": 10.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01550",
+      "listing": null,
+      "purpose": "단순투자"
+    },
+    {
+      "from": "삼성전자",
+      "to": "㈜인공지능연구원",
+      "ownership_rate": 14.3,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01550",
+      "listing": null,
+      "purpose": "단순투자"
+    },
+    {
+      "from": "삼성전자",
+      "to": "㈜미코세라믹스",
+      "ownership_rate": 13.7,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01550",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "㈜인희",
+      "ownership_rate": 0.1,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01551",
+      "listing": null,
+      "purpose": "단순투자"
+    },
+    {
+      "from": "삼성전자",
+      "to": "JNT(반도체펀드)",
+      "ownership_rate": 24.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01551",
+      "listing": null,
+      "purpose": "단순투자"
+    },
+    {
+      "from": "삼성전자",
+      "to": "베어포트리조트",
+      "ownership_rate": 0.5,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01551",
+      "listing": null,
+      "purpose": "단순투자"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SEA",
+      "ownership_rate": 100.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01551",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SECA",
+      "ownership_rate": 100.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01551",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SEDA",
+      "ownership_rate": 87.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01551",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SEM",
+      "ownership_rate": 63.6,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01551",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SELA",
+      "ownership_rate": 100.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01551",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SEASA",
+      "ownership_rate": 98.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01551",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SECH",
+      "ownership_rate": 4.1,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01551",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SEUK",
+      "ownership_rate": 100.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01552",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SEL",
+      "ownership_rate": 100.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01552",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SEHG",
+      "ownership_rate": 100.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01552",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SEF",
+      "ownership_rate": 100.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01552",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SEI",
+      "ownership_rate": 100.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01552",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SESA",
+      "ownership_rate": 100.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01552",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SEP",
+      "ownership_rate": 100.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01552",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SEH",
+      "ownership_rate": 100.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01552",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SELS",
+      "ownership_rate": 100.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01552",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SEBN",
+      "ownership_rate": 100.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01552",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SEEH",
+      "ownership_rate": 100.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01552",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SENA",
+      "ownership_rate": 100.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01553",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SESK",
+      "ownership_rate": 51.4,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01553",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SEPOL",
+      "ownership_rate": 100.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01553",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SEAG",
+      "ownership_rate": 100.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01553",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SERC",
+      "ownership_rate": 100.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01553",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SERK",
+      "ownership_rate": 100.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01553",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SGE",
+      "ownership_rate": 100.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01553",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SEEG",
+      "ownership_rate": 0.1,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01553",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SSA",
+      "ownership_rate": 100.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01553",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SAPL",
+      "ownership_rate": 100.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01553",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SME",
+      "ownership_rate": 100.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01553",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SDMA",
+      "ownership_rate": 75.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01553",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SEMA",
+      "ownership_rate": 100.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01554",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SAVINA",
+      "ownership_rate": 100.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01554",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SEIN",
+      "ownership_rate": 100.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01554",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "TSE",
+      "ownership_rate": 91.8,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01554",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SEAU",
+      "ownership_rate": 100.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01554",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SIEL",
+      "ownership_rate": 100.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01554",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SRI-Bangalore",
+      "ownership_rate": 100.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01554",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SJC",
+      "ownership_rate": 100.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01554",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SRJ",
+      "ownership_rate": 100.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01554",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SCIC",
+      "ownership_rate": 100.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01554",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SEHK",
+      "ownership_rate": 100.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01554",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SET",
+      "ownership_rate": 100.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01555",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SSEC",
+      "ownership_rate": 69.1,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01555",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SESC",
+      "ownership_rate": 73.7,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01555",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "TSTC",
+      "ownership_rate": 90.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01555",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SSS",
+      "ownership_rate": 100.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01555",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SCS",
+      "ownership_rate": 100.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01555",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SSCX",
+      "ownership_rate": 100.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01555",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SESS",
+      "ownership_rate": 100.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01555",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "TSLED",
+      "ownership_rate": 100.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01555",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "SSCR",
+      "ownership_rate": 100.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01555",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "TSST Japan",
+      "ownership_rate": 49.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01555",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "STE",
+      "ownership_rate": 49.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01555",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "Semiconductor Portal Inc.",
+      "ownership_rate": 1.2,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01556",
+      "listing": null,
+      "purpose": "단순투자"
+    },
+    {
+      "from": "삼성전자",
+      "to": "One-Blue, LLC",
+      "ownership_rate": 16.7,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01556",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼성전자",
+      "to": "Sentiance NV",
+      "ownership_rate": 7.2,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01556",
+      "listing": null,
+      "purpose": "단순투자"
+    },
+    {
+      "from": "삼성전자",
+      "to": "Mantis Vision Ltd.",
+      "ownership_rate": 2.1,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01556",
+      "listing": null,
+      "purpose": "단순투자"
+    },
+    {
+      "from": "삼성전자",
+      "to": "Leman Micro Devices SA",
+      "ownership_rate": 3.4,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01556",
+      "listing": null,
+      "purpose": "단순투자"
+    },
+    {
+      "from": "삼성전자",
+      "to": "Sensifree LTD",
+      "ownership_rate": 9.5,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01556",
+      "listing": null,
+      "purpose": "단순투자"
+    },
+    {
+      "from": "삼성전자",
+      "to": "Unispectral Ltd.",
+      "ownership_rate": 7.9,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01556",
+      "listing": null,
+      "purpose": "단순투자"
+    },
+    {
+      "from": "삼성전자",
+      "to": "Quobyte, Inc.",
+      "ownership_rate": 11.8,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01556",
+      "listing": null,
+      "purpose": "단순투자"
+    },
+    {
+      "from": "삼성전자",
+      "to": "Afero, Inc.",
+      "ownership_rate": 5.5,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01556",
+      "listing": null,
+      "purpose": "단순투자"
+    },
+    {
+      "from": "삼성전자",
+      "to": "Fasetto, Inc.",
+      "ownership_rate": 5.1,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "005930-2025-annual-01556",
+      "listing": null,
+      "purpose": "단순투자"
+    }
+  ],
+  "affiliate_companies": [
+    {
+      "name": "☞ 본문 위치로 이동",
+      "listing": "미분류",
+      "source_chunk_id": "005930-2025-annual-01513"
+    },
+    {
+      "name": "삼성물산(주)",
+      "listing": "상장",
+      "source_chunk_id": "005930-2025-annual-01514"
+    },
+    {
+      "name": "삼성바이오로직스(주)",
+      "listing": "상장",
+      "source_chunk_id": "005930-2025-annual-01514"
+    },
+    {
+      "name": "삼성생명보험(주)",
+      "listing": "상장",
+      "source_chunk_id": "005930-2025-annual-01514"
+    },
+    {
+      "name": "삼성에스디아이(주)",
+      "listing": "상장",
+      "source_chunk_id": "005930-2025-annual-01514"
+    },
+    {
+      "name": "삼성에스디에스(주)",
+      "listing": "상장",
+      "source_chunk_id": "005930-2025-annual-01514"
+    },
+    {
+      "name": "삼성에프엔위탁관리부동산투자회사(주)",
+      "listing": "상장",
+      "source_chunk_id": "005930-2025-annual-01514"
+    },
+    {
+      "name": "삼성에피스홀딩스(주)",
+      "listing": "상장",
+      "source_chunk_id": "005930-2025-annual-01514"
+    },
+    {
+      "name": "삼성이앤에이(주)",
+      "listing": "상장",
+      "source_chunk_id": "005930-2025-annual-01514"
+    },
+    {
+      "name": "삼성전기(주)",
+      "listing": "상장",
+      "source_chunk_id": "005930-2025-annual-01514"
+    },
+    {
+      "name": "삼성전자(주)",
+      "listing": "상장",
+      "source_chunk_id": "005930-2025-annual-01514"
+    },
+    {
+      "name": "삼성중공업(주)",
+      "listing": "상장",
+      "source_chunk_id": "005930-2025-annual-01514"
+    },
+    {
+      "name": "삼성증권(주)",
+      "listing": "상장",
+      "source_chunk_id": "005930-2025-annual-01514"
+    },
+    {
+      "name": "삼성카드(주)",
+      "listing": "상장",
+      "source_chunk_id": "005930-2025-annual-01514"
+    },
+    {
+      "name": "삼성화재해상보험(주)",
+      "listing": "상장",
+      "source_chunk_id": "005930-2025-annual-01514"
+    },
+    {
+      "name": "(주)멀티캠퍼스",
+      "listing": "상장",
+      "source_chunk_id": "005930-2025-annual-01514"
+    },
+    {
+      "name": "(주)에스원",
+      "listing": "상장",
+      "source_chunk_id": "005930-2025-annual-01514"
+    },
+    {
+      "name": "(주)제일기획",
+      "listing": "상장",
+      "source_chunk_id": "005930-2025-annual-01514"
+    },
+    {
+      "name": "(주)호텔신라",
+      "listing": "상장",
+      "source_chunk_id": "005930-2025-annual-01514"
+    },
+    {
+      "name": "디앤엠세일즈앤마케팅코리아(주)",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01514"
+    },
+    {
+      "name": "삼성노블라이프(주)",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01514"
+    },
+    {
+      "name": "삼성디스플레이(주)",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01514"
+    },
+    {
+      "name": "삼성메디슨(주)",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01514"
+    },
+    {
+      "name": "삼성바이오에피스(주)",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01514"
+    },
+    {
+      "name": "삼성벤처투자(주)",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01514"
+    },
+    {
+      "name": "삼성생명서비스손해사정(주)",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01514"
+    },
+    {
+      "name": "삼성선물(주)",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01514"
+    },
+    {
+      "name": "삼성액티브자산운용(주)",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01514"
+    },
+    {
+      "name": "삼성에스알에이자산운용(주)",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01514"
+    },
+    {
+      "name": "삼성웰스토리(주)",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01514"
+    },
+    {
+      "name": "삼성자산운용(주)",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01514"
+    },
+    {
+      "name": "삼성전자로지텍(주)",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01514"
+    },
+    {
+      "name": "삼성전자서비스(주)",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01514"
+    },
+    {
+      "name": "삼성전자서비스씨에스(주)",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01514"
+    },
+    {
+      "name": "삼성전자판매(주)",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01514"
+    },
+    {
+      "name": "삼성카드고객서비스(주)",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01514"
+    },
+    {
+      "name": "삼성코닝어드밴스드글라스(유)",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01514"
+    },
+    {
+      "name": "삼성헤지자산운용(주)",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01514"
+    },
+    {
+      "name": "삼성화재서비스손해사정(주)",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01514"
+    },
+    {
+      "name": "삼성화재애니카손해사정(주)",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01515"
+    },
+    {
+      "name": "세메스(주)",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01515"
+    },
+    {
+      "name": "수원삼성축구단(주)",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01515"
+    },
+    {
+      "name": "스테코(주)",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01515"
+    },
+    {
+      "name": "신라에이치엠(주)",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01515"
+    },
+    {
+      "name": "에스디플렉스(주)",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01515"
+    },
+    {
+      "name": "에스비티엠(주)",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01515"
+    },
+    {
+      "name": "에스원씨알엠(주)",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01515"
+    },
+    {
+      "name": "에스유머티리얼스(주)",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01515"
+    },
+    {
+      "name": "에스코어(주)",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01515"
+    },
+    {
+      "name": "에스티엠(주)",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01515"
+    },
+    {
+      "name": "에이치디씨신라면세점(주)",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01515"
+    },
+    {
+      "name": "에피스넥스랩(주)",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01515"
+    },
+    {
+      "name": "오픈핸즈(주)",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01515"
+    },
+    {
+      "name": "제일패션리테일(주)",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01515"
+    },
+    {
+      "name": "(주)미라콤아이앤씨",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01515"
+    },
+    {
+      "name": "(주)미래로시스템",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01515"
+    },
+    {
+      "name": "(주)삼성글로벌리서치",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01515"
+    },
+    {
+      "name": "(주)삼성라이온즈",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01515"
+    },
+    {
+      "name": "(주)삼성생명금융서비스",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01515"
+    },
+    {
+      "name": "(주)삼성화재금융서비스보험대리점",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01515"
+    },
+    {
+      "name": "(주)삼우종합건축사사무소",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01515"
+    },
+    {
+      "name": "(주)서울레이크사이드",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01515"
+    },
+    {
+      "name": "(주)시큐아이",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01515"
+    },
+    {
+      "name": "(주)씨브이네트",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01515"
+    },
+    {
+      "name": "(주)에스에이치피코퍼레이션",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01515"
+    },
+    {
+      "name": "(주)하만인터내셔널코리아",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01515"
+    },
+    {
+      "name": "(주)휴먼티에스에스",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01515"
+    },
+    {
+      "name": "(주)희망별숲",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01515"
+    },
+    {
+      "name": "SAMOO AUSTIN INC",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01516"
+    },
+    {
+      "name": "삼성전기㈜",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01545"
+    },
+    {
+      "name": "삼성SDI㈜",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01545"
+    },
+    {
+      "name": "삼성중공업㈜",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01545"
+    },
+    {
+      "name": "㈜호텔신라",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01545"
+    },
+    {
+      "name": "㈜제일기획",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01545"
+    },
+    {
+      "name": "삼성에스디에스㈜",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01545"
+    },
+    {
+      "name": "삼성바이오로직스㈜",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01545"
+    },
+    {
+      "name": "삼성디스플레이㈜",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01545"
+    },
+    {
+      "name": "삼성에피스홀딩스㈜",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01545"
+    },
+    {
+      "name": "스테코㈜",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01545"
+    },
+    {
+      "name": "세메스㈜",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01546"
+    },
+    {
+      "name": "삼성전자서비스㈜",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01546"
+    },
+    {
+      "name": "삼성전자판매㈜",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01546"
+    },
+    {
+      "name": "삼성전자로지텍㈜",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01546"
+    },
+    {
+      "name": "삼성메디슨㈜",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01546"
+    },
+    {
+      "name": "㈜삼성글로벌리서치",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01546"
+    },
+    {
+      "name": "삼성벤처투자㈜",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01546"
+    },
+    {
+      "name": "SVIC 21호 신기술투자조합",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01546"
+    },
+    {
+      "name": "SVIC 22호 신기술투자조합",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01546"
+    },
+    {
+      "name": "SVIC 26호 신기술투자조합",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01546"
+    },
+    {
+      "name": "SVIC 28호 신기술투자조합",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01546"
+    },
+    {
+      "name": "SVIC 32호 신기술투자조합",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01547"
+    },
+    {
+      "name": "SVIC 33호 신기술투자조합",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01547"
+    },
+    {
+      "name": "SVIC 42호 신기술투자조합",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01547"
+    },
+    {
+      "name": "SVIC 45호 신기술투자조합",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01547"
+    },
+    {
+      "name": "SVIC 52호 신기술투자조합",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01547"
+    },
+    {
+      "name": "SVIC 56호 신기술투자조합",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01547"
+    },
+    {
+      "name": "SVIC 57호 신기술투자조합",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01547"
+    },
+    {
+      "name": "SVIC 74호 신기술투자조합",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01547"
+    },
+    {
+      "name": "SVIC 76호 신기술투자조합",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01547"
+    },
+    {
+      "name": "반도체성장 전문투자형 사모 투자신탁",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01547"
+    },
+    {
+      "name": "시스템반도체 상생 전문투자형 사모 투자신탁",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01548"
+    },
+    {
+      "name": "㈜희망별숲",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01548"
+    },
+    {
+      "name": "㈜레인보우로보틱스",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01548"
+    },
+    {
+      "name": "㈜아이마켓코리아",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01548"
+    },
+    {
+      "name": "㈜케이티스카이라이프",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01548"
+    },
+    {
+      "name": "모나용평㈜",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01548"
+    },
+    {
+      "name": "에이테크솔루션㈜",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01548"
+    },
+    {
+      "name": "㈜원익홀딩스",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01548"
+    },
+    {
+      "name": "㈜원익아이피에스",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01548"
+    },
+    {
+      "name": "㈜동진쎄미켐",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01549"
+    },
+    {
+      "name": "솔브레인㈜",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01549"
+    },
+    {
+      "name": "㈜에스앤에스텍",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01549"
+    },
+    {
+      "name": "㈜와이씨",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01549"
+    },
+    {
+      "name": "㈜케이씨텍",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01549"
+    },
+    {
+      "name": "㈜엘오티베큠",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01549"
+    },
+    {
+      "name": "㈜뉴파워프라즈마",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01549"
+    },
+    {
+      "name": "㈜에프에스티",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01549"
+    },
+    {
+      "name": "㈜디엔에프",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01549"
+    },
+    {
+      "name": "Marvell",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01549"
+    },
+    {
+      "name": "SoundHound Inc.",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01549"
+    },
+    {
+      "name": "한국경제신문㈜",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01550"
+    },
+    {
+      "name": "㈜한국비즈니스금융대부",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01550"
+    },
+    {
+      "name": "㈜싸이버뱅크",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01550"
+    },
+    {
+      "name": "화인칩스㈜",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01550"
+    },
+    {
+      "name": "㈜인켈",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01550"
+    },
+    {
+      "name": "인텔렉추얼디스커버리㈜",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01550"
+    },
+    {
+      "name": "㈜말타니",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01550"
+    },
+    {
+      "name": "㈜팬택자산관리",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01550"
+    },
+    {
+      "name": "㈜인공지능연구원",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01550"
+    },
+    {
+      "name": "㈜미코세라믹스",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01550"
+    },
+    {
+      "name": "㈜우방",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01550"
+    },
+    {
+      "name": "㈜삼보컴퓨터",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01550"
+    },
+    {
+      "name": "대우산업개발㈜",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01550"
+    },
+    {
+      "name": "대우송도개발㈜",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01551"
+    },
+    {
+      "name": "자일자동차㈜",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01551"
+    },
+    {
+      "name": "㈜인희",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01551"
+    },
+    {
+      "name": "JNT(반도체펀드)",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01551"
+    },
+    {
+      "name": "베어포트리조트",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01551"
+    },
+    {
+      "name": "SEA",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01551"
+    },
+    {
+      "name": "SECA",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01551"
+    },
+    {
+      "name": "SEDA",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01551"
+    },
+    {
+      "name": "SEM",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01551"
+    },
+    {
+      "name": "SELA",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01551"
+    },
+    {
+      "name": "SEASA",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01551"
+    },
+    {
+      "name": "SECH",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01551"
+    },
+    {
+      "name": "SEUK",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01552"
+    },
+    {
+      "name": "SEL",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01552"
+    },
+    {
+      "name": "SEHG",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01552"
+    },
+    {
+      "name": "SEF",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01552"
+    },
+    {
+      "name": "SEI",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01552"
+    },
+    {
+      "name": "SESA",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01552"
+    },
+    {
+      "name": "SEP",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01552"
+    },
+    {
+      "name": "SEH",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01552"
+    },
+    {
+      "name": "SELS",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01552"
+    },
+    {
+      "name": "SEBN",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01552"
+    },
+    {
+      "name": "SEEH",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01552"
+    },
+    {
+      "name": "SENA",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01553"
+    },
+    {
+      "name": "SESK",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01553"
+    },
+    {
+      "name": "SEPOL",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01553"
+    },
+    {
+      "name": "SEAG",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01553"
+    },
+    {
+      "name": "SERC",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01553"
+    },
+    {
+      "name": "SERK",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01553"
+    },
+    {
+      "name": "SGE",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01553"
+    },
+    {
+      "name": "SEEG",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01553"
+    },
+    {
+      "name": "SSA",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01553"
+    },
+    {
+      "name": "SAPL",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01553"
+    },
+    {
+      "name": "SME",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01553"
+    },
+    {
+      "name": "SDMA",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01553"
+    },
+    {
+      "name": "SEMA",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01554"
+    },
+    {
+      "name": "SAVINA",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01554"
+    },
+    {
+      "name": "SEIN",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01554"
+    },
+    {
+      "name": "TSE",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01554"
+    },
+    {
+      "name": "SEAU",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01554"
+    },
+    {
+      "name": "SIEL",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01554"
+    },
+    {
+      "name": "SRI-Bangalore",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01554"
+    },
+    {
+      "name": "SJC",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01554"
+    },
+    {
+      "name": "SRJ",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01554"
+    },
+    {
+      "name": "SCIC",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01554"
+    },
+    {
+      "name": "SEHK",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01554"
+    },
+    {
+      "name": "SET",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01555"
+    },
+    {
+      "name": "SSEC",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01555"
+    },
+    {
+      "name": "SESC",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01555"
+    },
+    {
+      "name": "TSTC",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01555"
+    },
+    {
+      "name": "SSS",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01555"
+    },
+    {
+      "name": "SCS",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01555"
+    },
+    {
+      "name": "SSCX",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01555"
+    },
+    {
+      "name": "SESS",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01555"
+    },
+    {
+      "name": "TSLED",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01555"
+    },
+    {
+      "name": "SSCR",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01555"
+    },
+    {
+      "name": "TSST Japan",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01555"
+    },
+    {
+      "name": "STE",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01555"
+    },
+    {
+      "name": "Semiconductor Portal Inc.",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01556"
+    },
+    {
+      "name": "One-Blue, LLC",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01556"
+    },
+    {
+      "name": "Sentiance NV",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01556"
+    },
+    {
+      "name": "Mantis Vision Ltd.",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01556"
+    },
+    {
+      "name": "Leman Micro Devices SA",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01556"
+    },
+    {
+      "name": "Sensifree LTD",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01556"
+    },
+    {
+      "name": "Unispectral Ltd.",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01556"
+    },
+    {
+      "name": "Quobyte, Inc.",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01556"
+    },
+    {
+      "name": "Afero, Inc.",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01556"
+    },
+    {
+      "name": "Fasetto, Inc.",
+      "listing": "비상장",
+      "source_chunk_id": "005930-2025-annual-01556"
+    }
+  ]
+}

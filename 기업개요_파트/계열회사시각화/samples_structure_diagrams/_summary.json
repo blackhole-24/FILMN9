@@ -1,0 +1,82 @@
+﻿[
+  {
+    "slug": "005930_samsung_electronics",
+    "title": "삼성전자",
+    "root": "삼성그룹",
+    "mode": "group",
+    "total_edges": 346,
+    "shown_edges": 52,
+    "used_graphviz_dot": false,
+    "files": {
+      "structure_svg": "output\\affiliate_structure_samples\\005930_samsung_electronics\\005930_samsung_electronics_affiliate_structure.svg",
+      "graphviz_dot": "output\\affiliate_structure_samples\\005930_samsung_electronics\\005930_samsung_electronics_graphviz.dot",
+      "graphviz_svg": "",
+      "networkx_png": "output\\affiliate_structure_samples\\005930_samsung_electronics\\005930_samsung_electronics_networkx.png",
+      "sankey_html": "output\\affiliate_structure_samples\\005930_samsung_electronics\\005930_samsung_electronics_sankey.html"
+    }
+  },
+  {
+    "slug": "028260_samsung_ct",
+    "title": "삼성물산",
+    "root": "삼성그룹",
+    "mode": "group",
+    "total_edges": 346,
+    "shown_edges": 52,
+    "used_graphviz_dot": false,
+    "files": {
+      "structure_svg": "output\\affiliate_structure_samples\\028260_samsung_ct\\028260_samsung_ct_affiliate_structure.svg",
+      "graphviz_dot": "output\\affiliate_structure_samples\\028260_samsung_ct\\028260_samsung_ct_graphviz.dot",
+      "graphviz_svg": "",
+      "networkx_png": "output\\affiliate_structure_samples\\028260_samsung_ct\\028260_samsung_ct_networkx.png",
+      "sankey_html": "output\\affiliate_structure_samples\\028260_samsung_ct\\028260_samsung_ct_sankey.html"
+    }
+  },
+  {
+    "slug": "000070_samyang_holdings",
+    "title": "삼양홀딩스",
+    "root": "삼양홀딩스",
+    "mode": "single",
+    "total_edges": 26,
+    "shown_edges": 26,
+    "used_graphviz_dot": false,
+    "files": {
+      "structure_svg": "output\\affiliate_structure_samples\\000070_samyang_holdings\\000070_samyang_holdings_affiliate_structure.svg",
+      "graphviz_dot": "output\\affiliate_structure_samples\\000070_samyang_holdings\\000070_samyang_holdings_graphviz.dot",
+      "graphviz_svg": "",
+      "networkx_png": "output\\affiliate_structure_samples\\000070_samyang_holdings\\000070_samyang_holdings_networkx.png",
+      "sankey_html": "output\\affiliate_structure_samples\\000070_samyang_holdings\\000070_samyang_holdings_sankey.html"
+    }
+  },
+  {
+    "slug": "096770_sk_innovation",
+    "title": "SK이노베이션",
+    "root": "SK이노베이션",
+    "mode": "single",
+    "total_edges": 69,
+    "shown_edges": 11,
+    "used_graphviz_dot": false,
+    "files": {
+      "structure_svg": "output\\affiliate_structure_samples\\096770_sk_innovation\\096770_sk_innovation_affiliate_structure.svg",
+      "graphviz_dot": "output\\affiliate_structure_samples\\096770_sk_innovation\\096770_sk_innovation_graphviz.dot",
+      "graphviz_svg": "",
+      "networkx_png": "output\\affiliate_structure_samples\\096770_sk_innovation\\096770_sk_innovation_networkx.png",
+      "sankey_html": "output\\affiliate_structure_samples\\096770_sk_innovation\\096770_sk_innovation_sankey.html"
+    }
+  },
+  {
+    "slug": "005490_posco_holdings",
+    "title": "POSCO홀딩스",
+    "root": "POSCO홀딩스",
+    "mode": "single",
+    "total_edges": 64,
+    "shown_edges": 11,
+    "used_graphviz_dot": false,
+    "files": {
+      "structure_svg": "output\\affiliate_structure_samples\\005490_posco_holdings\\005490_posco_holdings_affiliate_structure.svg",
+      "graphviz_dot": "output\\affiliate_structure_samples\\005490_posco_holdings\\005490_posco_holdings_graphviz.dot",
+      "graphviz_svg": "",
+      "networkx_png": "output\\affiliate_structure_samples\\005490_posco_holdings\\005490_posco_holdings_networkx.png",
+      "sankey_html": "output\\affiliate_structure_samples\\005490_posco_holdings\\005490_posco_holdings_sankey.html"
+    }
+  }
+]

@@ -1,0 +1,157 @@
+﻿{
+  "target": {
+    "slug": "005490_posco_holdings",
+    "title": "POSCO홀딩스",
+    "mode": "single",
+    "code": "005490",
+    "highlight": "POSCO홀딩스"
+  },
+  "root": "POSCO홀딩스",
+  "meta": {
+    "source_mode": "single_company",
+    "source_code": "005490",
+    "source_path": "output\\affiliate_visualization\\005490_POSCO홀딩스",
+    "total_edges": 64,
+    "shown_edges": 11
+  },
+  "edges": [
+    {
+      "source": "POSCO홀딩스",
+      "target": "포스코플로우 주식회사",
+      "rate": 100.0,
+      "relation_type": "investment",
+      "purpose": "경영참여",
+      "sources": [
+        "005490-2025-annual-01970"
+      ],
+      "aggregate": false,
+      "virtual": false
+    },
+    {
+      "source": "POSCO홀딩스",
+      "target": "포스코인재창조원",
+      "rate": 100.0,
+      "relation_type": "investment",
+      "purpose": "경영참여",
+      "sources": [
+        "005490-2025-annual-01971"
+      ],
+      "aggregate": false,
+      "virtual": false
+    },
+    {
+      "source": "POSCO홀딩스",
+      "target": "포스코와이드",
+      "rate": 100.0,
+      "relation_type": "investment",
+      "purpose": "경영참여",
+      "sources": [
+        "005490-2025-annual-01971"
+      ],
+      "aggregate": false,
+      "virtual": false
+    },
+    {
+      "source": "POSCO홀딩스",
+      "target": "포스코아이에이치",
+      "rate": 100.0,
+      "relation_type": "investment",
+      "purpose": "경영참여",
+      "sources": [
+        "005490-2025-annual-01971"
+      ],
+      "aggregate": false,
+      "virtual": false
+    },
+    {
+      "source": "POSCO홀딩스",
+      "target": "포스코실리콘솔루션",
+      "rate": 100.0,
+      "relation_type": "investment",
+      "purpose": "경영참여",
+      "sources": [
+        "005490-2025-annual-01971"
+      ],
+      "aggregate": false,
+      "virtual": false
+    },
+    {
+      "source": "POSCO홀딩스",
+      "target": "포스코세이프티솔루션",
+      "rate": 100.0,
+      "relation_type": "investment",
+      "purpose": "경영참여",
+      "sources": [
+        "005490-2025-annual-01973"
+      ],
+      "aggregate": false,
+      "virtual": false
+    },
+    {
+      "source": "POSCO홀딩스",
+      "target": "포스코리튬솔루션 주식회사",
+      "rate": 100.0,
+      "relation_type": "investment",
+      "purpose": "경영참여",
+      "sources": [
+        "005490-2025-annual-01970"
+      ],
+      "aggregate": false,
+      "virtual": false
+    },
+    {
+      "source": "POSCO홀딩스",
+      "target": "포스코기술투자",
+      "rate": 100.0,
+      "relation_type": "investment",
+      "purpose": "경영참여",
+      "sources": [
+        "005490-2025-annual-01970"
+      ],
+      "aggregate": false,
+      "virtual": false
+    },
+    {
+      "source": "POSCO홀딩스",
+      "target": "포스코경영연구원",
+      "rate": 100.0,
+      "relation_type": "investment",
+      "purpose": "경영참여",
+      "sources": [
+        "005490-2025-annual-01971"
+      ],
+      "aggregate": false,
+      "virtual": false
+    },
+    {
+      "source": "POSCO홀딩스",
+      "target": "포스코",
+      "rate": 100.0,
+      "relation_type": "investment",
+      "purpose": "경영참여",
+      "sources": [
+        "005490-2025-annual-01970"
+      ],
+      "aggregate": false,
+      "virtual": false
+    },
+    {
+      "source": "POSCO홀딩스",
+      "target": "기타 직접 투자 54개",
+      "rate": null,
+      "relation_type": "summary",
+      "purpose": null,
+      "sources": [],
+      "aggregate": false,
+      "virtual": false
+    }
+  ],
+  "files": {
+    "structure_svg": "output\\affiliate_structure_samples\\005490_posco_holdings\\005490_posco_holdings_affiliate_structure.svg",
+    "graphviz_dot": "output\\affiliate_structure_samples\\005490_posco_holdings\\005490_posco_holdings_graphviz.dot",
+    "graphviz_svg": "",
+    "networkx_png": "output\\affiliate_structure_samples\\005490_posco_holdings\\005490_posco_holdings_networkx.png",
+    "sankey_html": "output\\affiliate_structure_samples\\005490_posco_holdings\\005490_posco_holdings_sankey.html"
+  },
+  "used_graphviz_dot": false
+}

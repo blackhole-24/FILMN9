@@ -1,0 +1,813 @@
+{
+  "nodes": [
+    {
+      "id": "삼양홀딩스",
+      "name": "삼양홀딩스",
+      "role": "reporting_company"
+    },
+    {
+      "id": "(주)삼양홀딩스",
+      "name": "(주)삼양홀딩스",
+      "role": "company"
+    },
+    {
+      "id": "(주)삼양사",
+      "name": "(주)삼양사",
+      "role": "company"
+    },
+    {
+      "id": "삼남석유화학(주)",
+      "name": "삼남석유화학(주)",
+      "role": "company"
+    },
+    {
+      "id": "삼양데이타시스템(주)",
+      "name": "삼양데이타시스템(주)",
+      "role": "company"
+    },
+    {
+      "id": "삼양이노켐(주)",
+      "name": "삼양이노켐(주)",
+      "role": "company"
+    },
+    {
+      "id": "(주)삼양에프앤비",
+      "name": "(주)삼양에프앤비",
+      "role": "company"
+    },
+    {
+      "id": "(주)삼양엔씨켐",
+      "name": "(주)삼양엔씨켐",
+      "role": "company"
+    },
+    {
+      "id": "(주)우리",
+      "name": "(주)우리",
+      "role": "company"
+    },
+    {
+      "id": "Samyang_Holdings_USA,_LLC",
+      "name": "Samyang Holdings USA, LLC",
+      "role": "company"
+    },
+    {
+      "id": "(주)삼양패키징",
+      "name": "(주)삼양패키징",
+      "role": "company"
+    },
+    {
+      "id": "(주)삼양케이씨아이",
+      "name": "(주)삼양케이씨아이",
+      "role": "company"
+    },
+    {
+      "id": "삼양화인테크놀로지(주)",
+      "name": "삼양화인테크놀로지(주)",
+      "role": "company"
+    },
+    {
+      "id": "삼양공정소료(상해)유한공사",
+      "name": "삼양공정소료(상해)유한공사",
+      "role": "company"
+    },
+    {
+      "id": "삼양EP헝가리",
+      "name": "삼양EP헝가리",
+      "role": "company"
+    },
+    {
+      "id": "삼양EP베트남",
+      "name": "삼양EP베트남",
+      "role": "company"
+    },
+    {
+      "id": "(주)삼양에코테크",
+      "name": "(주)삼양에코테크",
+      "role": "company"
+    },
+    {
+      "id": "삼양화성(주)",
+      "name": "삼양화성(주)",
+      "role": "company"
+    },
+    {
+      "id": "Samyang_HoldingsUSA,_LLC",
+      "name": "Samyang HoldingsUSA, LLC",
+      "role": "company"
+    },
+    {
+      "id": "Samyang_Biopharm_USA,_Inc",
+      "name": "Samyang Biopharm USA, Inc",
+      "role": "company"
+    },
+    {
+      "id": "Samyang_Biopharm_Hungary",
+      "name": "Samyang Biopharm Hungary",
+      "role": "company"
+    },
+    {
+      "id": "Samyang_Specialty_Solutions,_LLC",
+      "name": "Samyang Specialty Solutions, LLC",
+      "role": "company"
+    },
+    {
+      "id": "Samyang_SpecialtySolutions,_LLC",
+      "name": "Samyang SpecialtySolutions, LLC",
+      "role": "company"
+    },
+    {
+      "id": "Verdant_Specialty_Solutions_Global_Holding_Corp",
+      "name": "Verdant Specialty Solutions Global Holding Corp",
+      "role": "company"
+    },
+    {
+      "id": "Verdant_SpecialtySolutions_GlobalHolding_Corp",
+      "name": "Verdant SpecialtySolutions GlobalHolding Corp",
+      "role": "company"
+    },
+    {
+      "id": "Verdant_Specialty_Solutions_US_LLC",
+      "name": "Verdant Specialty Solutions US LLC",
+      "role": "company"
+    },
+    {
+      "id": "Verdant_Specialty_Solutions_GmbH",
+      "name": "Verdant Specialty Solutions GmbH",
+      "role": "company"
+    },
+    {
+      "id": "Verdant_Specialty_Solutions_Halifax_Limited",
+      "name": "Verdant Specialty Solutions Halifax Limited",
+      "role": "company"
+    },
+    {
+      "id": "Verdant_Specialty_Solutions_Kimya_Ticaret_VE_S.A._Sirketi",
+      "name": "Verdant Specialty Solutions Kimya Ticaret VE S.A. Sirketi",
+      "role": "company"
+    },
+    {
+      "id": "Verdant_Specialty_Solutions_Canada_Limited",
+      "name": "Verdant Specialty Solutions Canada Limited",
+      "role": "company"
+    },
+    {
+      "id": "Verdant_Reactor_Real_Estate,_LLC",
+      "name": "Verdant Reactor Real Estate, LLC",
+      "role": "company"
+    }
+  ],
+  "edges": [
+    {
+      "from": "(주)삼양홀딩스",
+      "to": "(주)삼양사",
+      "ownership_rate": 61.83,
+      "relation_type": "ownership",
+      "source": "출자계통도",
+      "source_chunk_id": "000070-2025-annual-01400"
+    },
+    {
+      "from": "(주)삼양홀딩스",
+      "to": "삼남석유화학(주)",
+      "ownership_rate": 40.0,
+      "relation_type": "ownership",
+      "source": "출자계통도",
+      "source_chunk_id": "000070-2025-annual-01400"
+    },
+    {
+      "from": "(주)삼양홀딩스",
+      "to": "삼양데이타시스템(주)",
+      "ownership_rate": 100.0,
+      "relation_type": "ownership",
+      "source": "출자계통도",
+      "source_chunk_id": "000070-2025-annual-01400"
+    },
+    {
+      "from": "(주)삼양홀딩스",
+      "to": "삼양이노켐(주)",
+      "ownership_rate": 100.0,
+      "relation_type": "ownership",
+      "source": "출자계통도",
+      "source_chunk_id": "000070-2025-annual-01400"
+    },
+    {
+      "from": "(주)삼양홀딩스",
+      "to": "(주)삼양에프앤비",
+      "ownership_rate": 100.0,
+      "relation_type": "ownership",
+      "source": "출자계통도",
+      "source_chunk_id": "000070-2025-annual-01400"
+    },
+    {
+      "from": "(주)삼양홀딩스",
+      "to": "(주)삼양엔씨켐",
+      "ownership_rate": 59.97,
+      "relation_type": "ownership",
+      "source": "출자계통도",
+      "source_chunk_id": "000070-2025-annual-01400"
+    },
+    {
+      "from": "(주)우리",
+      "to": "(주)삼양엔씨켐",
+      "ownership_rate": 4.14,
+      "relation_type": "ownership",
+      "source": "출자계통도",
+      "source_chunk_id": "000070-2025-annual-01400"
+    },
+    {
+      "from": "(주)삼양홀딩스",
+      "to": "Samyang Holdings USA, LLC",
+      "ownership_rate": 100.0,
+      "relation_type": "ownership",
+      "source": "출자계통도",
+      "source_chunk_id": "000070-2025-annual-01400"
+    },
+    {
+      "from": "(주)삼양사",
+      "to": "(주)삼양패키징",
+      "ownership_rate": 72.72,
+      "relation_type": "ownership",
+      "source": "출자계통도",
+      "source_chunk_id": "000070-2025-annual-01400"
+    },
+    {
+      "from": "(주)삼양사",
+      "to": "(주)삼양케이씨아이",
+      "ownership_rate": 50.02,
+      "relation_type": "ownership",
+      "source": "출자계통도",
+      "source_chunk_id": "000070-2025-annual-01400"
+    },
+    {
+      "from": "(주)삼양사",
+      "to": "삼양화인테크놀로지(주)",
+      "ownership_rate": 50.0,
+      "relation_type": "ownership",
+      "source": "출자계통도",
+      "source_chunk_id": "000070-2025-annual-01400"
+    },
+    {
+      "from": "(주)삼양사",
+      "to": "삼양공정소료(상해)유한공사",
+      "ownership_rate": 100.0,
+      "relation_type": "ownership",
+      "source": "출자계통도",
+      "source_chunk_id": "000070-2025-annual-01400"
+    },
+    {
+      "from": "(주)삼양사",
+      "to": "삼양EP헝가리",
+      "ownership_rate": 100.0,
+      "relation_type": "ownership",
+      "source": "출자계통도",
+      "source_chunk_id": "000070-2025-annual-01400"
+    },
+    {
+      "from": "(주)삼양사",
+      "to": "삼양EP베트남",
+      "ownership_rate": 100.0,
+      "relation_type": "ownership",
+      "source": "출자계통도",
+      "source_chunk_id": "000070-2025-annual-01400"
+    },
+    {
+      "from": "(주)삼양패키징",
+      "to": "(주)삼양에코테크",
+      "ownership_rate": 100.0,
+      "relation_type": "ownership",
+      "source": "출자계통도",
+      "source_chunk_id": "000070-2025-annual-01400"
+    },
+    {
+      "from": "삼양이노켐(주)",
+      "to": "삼양화성(주)",
+      "ownership_rate": 50.0,
+      "relation_type": "ownership",
+      "source": "출자계통도",
+      "source_chunk_id": "000070-2025-annual-01400"
+    },
+    {
+      "from": "Samyang HoldingsUSA, LLC",
+      "to": "Samyang Biopharm USA, Inc",
+      "ownership_rate": 100.0,
+      "relation_type": "ownership",
+      "source": "출자계통도",
+      "source_chunk_id": "000070-2025-annual-01400"
+    },
+    {
+      "from": "Samyang HoldingsUSA, LLC",
+      "to": "Samyang Biopharm Hungary",
+      "ownership_rate": 100.0,
+      "relation_type": "ownership",
+      "source": "출자계통도",
+      "source_chunk_id": "000070-2025-annual-01400"
+    },
+    {
+      "from": "Samyang HoldingsUSA, LLC",
+      "to": "Samyang Specialty Solutions, LLC",
+      "ownership_rate": 100.0,
+      "relation_type": "ownership",
+      "source": "출자계통도",
+      "source_chunk_id": "000070-2025-annual-01400"
+    },
+    {
+      "from": "Samyang SpecialtySolutions, LLC",
+      "to": "Verdant Specialty Solutions Global Holding Corp",
+      "ownership_rate": 100.0,
+      "relation_type": "ownership",
+      "source": "출자계통도",
+      "source_chunk_id": "000070-2025-annual-01400"
+    },
+    {
+      "from": "Verdant SpecialtySolutions GlobalHolding Corp",
+      "to": "Verdant Specialty Solutions US LLC",
+      "ownership_rate": 100.0,
+      "relation_type": "ownership",
+      "source": "출자계통도",
+      "source_chunk_id": "000070-2025-annual-01400"
+    },
+    {
+      "from": "Verdant SpecialtySolutions GlobalHolding Corp",
+      "to": "Verdant Specialty Solutions GmbH",
+      "ownership_rate": 100.0,
+      "relation_type": "ownership",
+      "source": "출자계통도",
+      "source_chunk_id": "000070-2025-annual-01400"
+    },
+    {
+      "from": "Verdant SpecialtySolutions GlobalHolding Corp",
+      "to": "Verdant Specialty Solutions Halifax Limited",
+      "ownership_rate": 100.0,
+      "relation_type": "ownership",
+      "source": "출자계통도",
+      "source_chunk_id": "000070-2025-annual-01401"
+    },
+    {
+      "from": "Verdant SpecialtySolutions GlobalHolding Corp",
+      "to": "Verdant Specialty Solutions Kimya Ticaret VE S.A. Sirketi",
+      "ownership_rate": 100.0,
+      "relation_type": "ownership",
+      "source": "출자계통도",
+      "source_chunk_id": "000070-2025-annual-01401"
+    },
+    {
+      "from": "Verdant SpecialtySolutions GlobalHolding Corp",
+      "to": "Verdant Specialty Solutions Canada Limited",
+      "ownership_rate": 100.0,
+      "relation_type": "ownership",
+      "source": "출자계통도",
+      "source_chunk_id": "000070-2025-annual-01401"
+    },
+    {
+      "from": "Verdant SpecialtySolutions GlobalHolding Corp",
+      "to": "Verdant Reactor Real Estate, LLC",
+      "ownership_rate": 100.0,
+      "relation_type": "ownership",
+      "source": "출자계통도",
+      "source_chunk_id": "000070-2025-annual-01401"
+    }
+  ],
+  "supporting_investment_edges": [
+    {
+      "from": "삼양홀딩스",
+      "to": "삼양사",
+      "ownership_rate": 61.83,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "000070-2025-annual-01431",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼양홀딩스",
+      "to": "삼양이노켐",
+      "ownership_rate": 100.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "000070-2025-annual-01431",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼양홀딩스",
+      "to": "삼양데이타시스템",
+      "ownership_rate": 100.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "000070-2025-annual-01431",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼양홀딩스",
+      "to": "삼남석유화학",
+      "ownership_rate": 40.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "000070-2025-annual-01431",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼양홀딩스",
+      "to": "삼양에프앤비",
+      "ownership_rate": 100.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "000070-2025-annual-01431",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼양홀딩스",
+      "to": "삼양엔씨켐",
+      "ownership_rate": 59.97,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "000070-2025-annual-01431",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼양홀딩스",
+      "to": "Samyang Holdings USA",
+      "ownership_rate": 100.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "000070-2025-annual-01431",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼양홀딩스",
+      "to": "경원건설",
+      "ownership_rate": 23.22,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "000070-2025-annual-01431",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼양홀딩스",
+      "to": "경방",
+      "ownership_rate": 10.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "000070-2025-annual-01431",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼양홀딩스",
+      "to": "부천소사PFV(주)",
+      "ownership_rate": 15.0,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "000070-2025-annual-01431",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼양홀딩스",
+      "to": "휴비스",
+      "ownership_rate": 25.5,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "000070-2025-annual-01432",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼양홀딩스",
+      "to": "대덕바이오",
+      "ownership_rate": 5.85,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "000070-2025-annual-01432",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼양홀딩스",
+      "to": "AKINA",
+      "ownership_rate": 22.54,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "000070-2025-annual-01432",
+      "listing": null,
+      "purpose": "경영참여"
+    },
+    {
+      "from": "삼양홀딩스",
+      "to": "바이오폴리메드",
+      "ownership_rate": 17.3,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "000070-2025-annual-01432",
+      "listing": null,
+      "purpose": "일반투자"
+    },
+    {
+      "from": "삼양홀딩스",
+      "to": "DI동일",
+      "ownership_rate": 3.1,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "000070-2025-annual-01432",
+      "listing": null,
+      "purpose": "단순투자"
+    },
+    {
+      "from": "삼양홀딩스",
+      "to": "SK에코플랜트",
+      "ownership_rate": 0.11,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "000070-2025-annual-01432",
+      "listing": null,
+      "purpose": "단순투자"
+    },
+    {
+      "from": "삼양홀딩스",
+      "to": "자본재공제조합",
+      "ownership_rate": null,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "000070-2025-annual-01432",
+      "listing": null,
+      "purpose": "단순투자"
+    },
+    {
+      "from": "삼양홀딩스",
+      "to": "팜캐드",
+      "ownership_rate": 2.23,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "000070-2025-annual-01432",
+      "listing": null,
+      "purpose": "단순투자"
+    },
+    {
+      "from": "삼양홀딩스",
+      "to": "엠큐렉스",
+      "ownership_rate": 3.8,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "000070-2025-annual-01432",
+      "listing": null,
+      "purpose": "단순투자"
+    },
+    {
+      "from": "삼양홀딩스",
+      "to": "IBKC데일리바이오",
+      "ownership_rate": 13.1,
+      "relation_type": "investment",
+      "source": "타법인출자 현황(상세)",
+      "source_chunk_id": "000070-2025-annual-01432",
+      "listing": null,
+      "purpose": "단순투자"
+    }
+  ],
+  "affiliate_companies": [
+    {
+      "name": "☞ 본문 위치로 이동",
+      "listing": "미분류",
+      "source_chunk_id": "000070-2025-annual-01426"
+    },
+    {
+      "name": "(주)삼양홀딩스",
+      "listing": "상장",
+      "source_chunk_id": "000070-2025-annual-01427"
+    },
+    {
+      "name": "(주)삼양사",
+      "listing": "상장",
+      "source_chunk_id": "000070-2025-annual-01427"
+    },
+    {
+      "name": "(주)삼양패키징",
+      "listing": "상장",
+      "source_chunk_id": "000070-2025-annual-01427"
+    },
+    {
+      "name": "(주)삼양케이씨아이",
+      "listing": "상장",
+      "source_chunk_id": "000070-2025-annual-01427"
+    },
+    {
+      "name": "(주)삼양엔씨켐",
+      "listing": "상장",
+      "source_chunk_id": "000070-2025-annual-01427"
+    },
+    {
+      "name": "삼남석유화학(주)",
+      "listing": "비상장",
+      "source_chunk_id": "000070-2025-annual-01427"
+    },
+    {
+      "name": "삼양화성(주)",
+      "listing": "비상장",
+      "source_chunk_id": "000070-2025-annual-01427"
+    },
+    {
+      "name": "(주)삼양에프앤비",
+      "listing": "비상장",
+      "source_chunk_id": "000070-2025-annual-01427"
+    },
+    {
+      "name": "삼양데이타시스템(주)",
+      "listing": "비상장",
+      "source_chunk_id": "000070-2025-annual-01427"
+    },
+    {
+      "name": "(주)삼양에코테크",
+      "listing": "비상장",
+      "source_chunk_id": "000070-2025-annual-01427"
+    },
+    {
+      "name": "삼양이노켐(주)",
+      "listing": "비상장",
+      "source_chunk_id": "000070-2025-annual-01427"
+    },
+    {
+      "name": "삼양화인테크놀로지(주)",
+      "listing": "비상장",
+      "source_chunk_id": "000070-2025-annual-01427"
+    },
+    {
+      "name": "(주)우리",
+      "listing": "비상장",
+      "source_chunk_id": "000070-2025-annual-01427"
+    },
+    {
+      "name": "삼양EP헝가리",
+      "listing": "비상장",
+      "source_chunk_id": "000070-2025-annual-01427"
+    },
+    {
+      "name": "삼양EP베트남",
+      "listing": "비상장",
+      "source_chunk_id": "000070-2025-annual-01427"
+    },
+    {
+      "name": "삼양공정소료(상해)유한공사",
+      "listing": "비상장",
+      "source_chunk_id": "000070-2025-annual-01427"
+    },
+    {
+      "name": "Samyang Holdings USA, LLC",
+      "listing": "비상장",
+      "source_chunk_id": "000070-2025-annual-01427"
+    },
+    {
+      "name": "Samyang Biopharm USA, Inc",
+      "listing": "비상장",
+      "source_chunk_id": "000070-2025-annual-01427"
+    },
+    {
+      "name": "Samyang Biopharm Hungary",
+      "listing": "비상장",
+      "source_chunk_id": "000070-2025-annual-01427"
+    },
+    {
+      "name": "Samyang Specialty Solutions, LLC",
+      "listing": "비상장",
+      "source_chunk_id": "000070-2025-annual-01427"
+    },
+    {
+      "name": "Verdant Specialty Solutions Global Holding Corp",
+      "listing": "비상장",
+      "source_chunk_id": "000070-2025-annual-01427"
+    },
+    {
+      "name": "Verdant Specialty Solutions US LLC",
+      "listing": "비상장",
+      "source_chunk_id": "000070-2025-annual-01427"
+    },
+    {
+      "name": "Verdant Specialty Solutions GmbH",
+      "listing": "비상장",
+      "source_chunk_id": "000070-2025-annual-01427"
+    },
+    {
+      "name": "Verdant Specialty Solutions Halifax Limited",
+      "listing": "비상장",
+      "source_chunk_id": "000070-2025-annual-01427"
+    },
+    {
+      "name": "Verdant Specialty Solutions Kimya Ticaret VE S.A Sirketi",
+      "listing": "비상장",
+      "source_chunk_id": "000070-2025-annual-01427"
+    },
+    {
+      "name": "Verdant Specialty Solutions Canada Limited",
+      "listing": "비상장",
+      "source_chunk_id": "000070-2025-annual-01427"
+    },
+    {
+      "name": "Verdant Reactor Real Estate, LLC",
+      "listing": "비상장",
+      "source_chunk_id": "000070-2025-annual-01427"
+    },
+    {
+      "name": "삼양사",
+      "listing": "비상장",
+      "source_chunk_id": "000070-2025-annual-01431"
+    },
+    {
+      "name": "삼양이노켐",
+      "listing": "비상장",
+      "source_chunk_id": "000070-2025-annual-01431"
+    },
+    {
+      "name": "삼양데이타시스템",
+      "listing": "비상장",
+      "source_chunk_id": "000070-2025-annual-01431"
+    },
+    {
+      "name": "삼남석유화학",
+      "listing": "비상장",
+      "source_chunk_id": "000070-2025-annual-01431"
+    },
+    {
+      "name": "삼양에프앤비",
+      "listing": "비상장",
+      "source_chunk_id": "000070-2025-annual-01431"
+    },
+    {
+      "name": "삼양엔씨켐",
+      "listing": "비상장",
+      "source_chunk_id": "000070-2025-annual-01431"
+    },
+    {
+      "name": "Samyang Holdings USA",
+      "listing": "비상장",
+      "source_chunk_id": "000070-2025-annual-01431"
+    },
+    {
+      "name": "경원건설",
+      "listing": "비상장",
+      "source_chunk_id": "000070-2025-annual-01431"
+    },
+    {
+      "name": "경방",
+      "listing": "비상장",
+      "source_chunk_id": "000070-2025-annual-01431"
+    },
+    {
+      "name": "부천소사PFV(주)",
+      "listing": "비상장",
+      "source_chunk_id": "000070-2025-annual-01431"
+    },
+    {
+      "name": "휴비스",
+      "listing": "비상장",
+      "source_chunk_id": "000070-2025-annual-01432"
+    },
+    {
+      "name": "대덕바이오",
+      "listing": "비상장",
+      "source_chunk_id": "000070-2025-annual-01432"
+    },
+    {
+      "name": "AKINA",
+      "listing": "비상장",
+      "source_chunk_id": "000070-2025-annual-01432"
+    },
+    {
+      "name": "바이오폴리메드",
+      "listing": "비상장",
+      "source_chunk_id": "000070-2025-annual-01432"
+    },
+    {
+      "name": "DI동일",
+      "listing": "비상장",
+      "source_chunk_id": "000070-2025-annual-01432"
+    },
+    {
+      "name": "SK에코플랜트",
+      "listing": "비상장",
+      "source_chunk_id": "000070-2025-annual-01432"
+    },
+    {
+      "name": "자본재공제조합",
+      "listing": "비상장",
+      "source_chunk_id": "000070-2025-annual-01432"
+    },
+    {
+      "name": "팜캐드",
+      "listing": "비상장",
+      "source_chunk_id": "000070-2025-annual-01432"
+    },
+    {
+      "name": "엠큐렉스",
+      "listing": "비상장",
+      "source_chunk_id": "000070-2025-annual-01432"
+    },
+    {
+      "name": "IBKC데일리바이오",
+      "listing": "비상장",
+      "source_chunk_id": "000070-2025-annual-01432"
+    }
+  ]
+}

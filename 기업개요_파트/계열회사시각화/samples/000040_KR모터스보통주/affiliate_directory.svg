@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="754" viewBox="0 0 1120 754">
+<style>
+  .title { font: 700 26px 'Malgun Gothic', Arial, sans-serif; fill: #0f172a; }
+  .note { font: 400 13px 'Malgun Gothic', Arial, sans-serif; fill: #475569; }
+  .node-title { font: 700 15px 'Malgun Gothic', Arial, sans-serif; fill: #0f172a; }
+  .node-sub { font: 400 11px 'Malgun Gothic', Arial, sans-serif; fill: #64748b; }
+  .group-title { font: 700 15px 'Malgun Gothic', Arial, sans-serif; fill: #0f172a; }
+  .item { font: 400 12px 'Malgun Gothic', Arial, sans-serif; fill: #334155; }
+  .footer { font: 400 13px 'Malgun Gothic', Arial, sans-serif; fill: #64748b; }
+</style>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="40" y="46" class="title">KR모터스 계열회사 구성도</text>
+<text x="40" y="70" class="note">계열회사 목록 기반 생성 - 지분율/소유관계는 공시 본문에서 확인된 범위가 아님</text>
+<rect x='420.0' y='92' width='280' height='66' rx='6' fill='#eff6ff' stroke='#2563eb' stroke-width='1.5'/>
+<text x='560.0' y='114' text-anchor='middle' class='node-title'><tspan x='560.0' dy='0'>KR모터스</tspan></text>
+<text x='560.0' y='146' text-anchor='middle' class='node-sub'>기업집단</text>
+<path d='M 560.0 158.0 C 560.0 186, 202.0 186, 202.0 230.0' fill='none' stroke='#94a3b8' stroke-width='1.3' stroke-dasharray='5 5'/><rect x='42.0' y='230' width='320' height='98' rx='6' fill='#f8fafc' stroke='#cbd5e1'/><text x='60.0' y='260' class='group-title'>상장 계열회사 (1개)</text><text x='60.0' y='292' class='item'>KR모터스(주)</text><path d='M 560.0 158.0 C 560.0 186, 560.0 186, 560.0 230.0' fill='none' stroke='#94a3b8' stroke-width='1.3' stroke-dasharray='5 5'/><rect x='400.0' y='230' width='320' height='458' rx='6' fill='#f8fafc' stroke='#cbd5e1'/><text x='418.0' y='260' class='group-title'>비상장 계열회사 (16개)</text><text x='418.0' y='292' class='item'>Auto World(KOLAO Developing) Co., Ltd.</text><text x='418.0' y='316' class='item'>GMS Trading Sole Co., Ltd</text><text x='418.0' y='340' class='item'>LVMC Holdings Singapore Pte.,Ltd.</text><text x='418.0' y='364' class='item'>Daehan Co., Ltd.</text><text x='418.0' y='388' class='item'>International KLM Co., Ltd.</text><text x='418.0' y='412' class='item'>Global KLM Co., Ltd.</text><text x='418.0' y='436' class='item'>Shwe Daehan Motors Co.Ltd.</text><text x='418.0' y='460' class='item'>LVMC Investment Limited</text><text x='418.0' y='484' class='item'>Chongqing Kolao-Yuan R&amp;D Co.,Ltd.</text><text x='418.0' y='508' class='item'>Chongqing LVMC Yuan Auto Trading Co.,Ltd.</text><text x='418.0' y='532' class='item'>Daehan Motors Co., Ltd.</text><text x='418.0' y='556' class='item'>Daehan Motors Trading Joint Stock Company</text><text x='418.0' y='580' class='item'>KB KOLAO Leasing</text><text x='418.0' y='604' class='item'>LDK PHARMA FACTORY CO.,LTD</text><text x='418.0' y='628' class='item'>케이알트레이딩</text><text x='418.0' y='652' class='item'>주식회사옵티모</text><path d='M 560.0 158.0 C 560.0 186, 918.0 186, 918.0 230.0' fill='none' stroke='#94a3b8' stroke-width='1.3' stroke-dasharray='5 5'/><rect x='758.0' y='230' width='320' height='98' rx='6' fill='#f8fafc' stroke='#cbd5e1'/><text x='776.0' y='260' class='group-title'>미분류 계열회사 (1개)</text><text x='776.0' y='292' class='item'>☞ 본문 위치로 이동</text></svg>

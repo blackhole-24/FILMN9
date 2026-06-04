@@ -1,0 +1,77 @@
+﻿[
+  {
+    "stock_code": "000070",
+    "title": "삼양홀딩스",
+    "source_dir": "output\\affiliate_visualization\\000070_삼양홀딩스보통주",
+    "source_type": "generated_ownership_graph",
+    "total_edges": 26,
+    "shown_edges": 26,
+    "omitted": {
+      "direct": 0,
+      "child": 0
+    },
+    "dot_path": "output\\affiliate_visualization_graphviz_samples\\000070_삼양홀딩스_graphviz_style.dot",
+    "svg_path": "output\\affiliate_visualization_graphviz_samples\\000070_삼양홀딩스_graphviz_style.svg",
+    "used_graphviz_dot": false
+  },
+  {
+    "stock_code": "005930",
+    "title": "삼성전자",
+    "source_dir": "output\\affiliate_visualization\\005930_삼성전자보통주",
+    "source_type": "generated_control_investment_graph",
+    "total_edges": 101,
+    "shown_edges": 25,
+    "omitted": {
+      "direct": 77,
+      "child": 0
+    },
+    "dot_path": "output\\affiliate_visualization_graphviz_samples\\005930_삼성전자_graphviz_style.dot",
+    "svg_path": "output\\affiliate_visualization_graphviz_samples\\005930_삼성전자_graphviz_style.svg",
+    "used_graphviz_dot": false
+  },
+  {
+    "stock_code": "028260",
+    "title": "삼성물산",
+    "source_dir": "output\\affiliate_visualization\\028260_삼성물산보통주",
+    "source_type": "generated_control_investment_graph",
+    "total_edges": 98,
+    "shown_edges": 25,
+    "omitted": {
+      "direct": 74,
+      "child": 0
+    },
+    "dot_path": "output\\affiliate_visualization_graphviz_samples\\028260_삼성물산_graphviz_style.dot",
+    "svg_path": "output\\affiliate_visualization_graphviz_samples\\028260_삼성물산_graphviz_style.svg",
+    "used_graphviz_dot": false
+  },
+  {
+    "stock_code": "096770",
+    "title": "SK이노베이션",
+    "source_dir": "output\\affiliate_visualization\\096770_SK이노베이션_보통주",
+    "source_type": "generated_control_investment_graph",
+    "total_edges": 69,
+    "shown_edges": 25,
+    "omitted": {
+      "direct": 45,
+      "child": 0
+    },
+    "dot_path": "output\\affiliate_visualization_graphviz_samples\\096770_SK이노베이션_graphviz_style.dot",
+    "svg_path": "output\\affiliate_visualization_graphviz_samples\\096770_SK이노베이션_graphviz_style.svg",
+    "used_graphviz_dot": false
+  },
+  {
+    "stock_code": "005490",
+    "title": "POSCO홀딩스",
+    "source_dir": "output\\affiliate_visualization\\005490_POSCO홀딩스",
+    "source_type": "generated_control_investment_graph",
+    "total_edges": 64,
+    "shown_edges": 25,
+    "omitted": {
+      "direct": 40,
+      "child": 0
+    },
+    "dot_path": "output\\affiliate_visualization_graphviz_samples\\005490_POSCO홀딩스_graphviz_style.dot",
+    "svg_path": "output\\affiliate_visualization_graphviz_samples\\005490_POSCO홀딩스_graphviz_style.svg",
+    "used_graphviz_dot": false
+  }
+]

@@ -1,0 +1,310 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1632" height="4378" viewBox="0 0 1632 4378">
+<defs>
+<marker id="arrowBlue" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L8,4 L0,8 z" fill="#0646ff"/></marker>
+<marker id="arrowRed" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L8,4 L0,8 z" fill="#dc2626"/></marker>
+<marker id="arrowGreen" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L8,4 L0,8 z" fill="#16a34a"/></marker>
+<marker id="arrowGray" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L8,4 L0,8 z" fill="#64748b"/></marker>
+<filter id="shadow" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#000000" flood-opacity="0.16"/></filter>
+</defs>
+<rect width="100%" height="100%" fill="#f8fafc"/>
+<text x="54" y="38" font-family="Malgun Gothic, Arial, sans-serif" font-size="26" font-weight="800" fill="#07111f">삼성물산 관계기업 구조도</text>
+<text x="54" y="66" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" fill="#52637a">Branch layout: 세로 기준선에서 자회사로 분기, 하위 자회사는 오른쪽 화살표로 확장</text>
+<text x="1578" y="66" text-anchor="end" font-family="Malgun Gothic, Arial, sans-serif" font-size="12" fill="#52637a">총 edge 346개 중 표시 52개</text>
+<rect x="82.0" y="96.0" width="188" height="56" rx="5" fill="#102f5f" stroke="#102f5f" stroke-width="1.5" filter="url(#shadow)"/>
+<text x="176.0" y="120.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#ffffff">삼성그룹</text>
+<path d="M 176.0,152.0 V 4068.0" fill="none" stroke="#111827" stroke-width="1.8" opacity="0.82"/>
+<path d="M 176.0,252.0 H 356.0" fill="none" stroke="#64748b" stroke-width="1.4" stroke-dasharray="4 3" marker-end="url(#arrowGray)" opacity="0.96"/>
+<rect x="213.0" y="231.0" width="34" height="16" rx="8" fill="#f8fafc" opacity="0.92"/>
+<text x="230.0" y="243.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#64748b">관계</text>
+<rect x="356.0" y="224.0" width="188" height="56" rx="5" fill="#dff2d9" stroke="#2f7d32" stroke-width="1.5" filter="url(#shadow)"/>
+<text x="450.0" y="248.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">삼성물산</text>
+<path d="M 544.0,252.0 H 572.0" fill="none" stroke="#64748b" stroke-width="1.4" opacity="0.78"/>
+<path d="M 572.0,252.0 V 924.0" fill="none" stroke="#64748b" stroke-width="1.4" opacity="0.78"/>
+<path d="M 572.0,252.0 H 630.0" fill="none" stroke="#dc2626" stroke-width="2.2" marker-end="url(#arrowRed)" opacity="0.96"/>
+<rect x="574.6" y="231.0" width="47" height="16" rx="8" fill="#f8fafc" opacity="0.92"/>
+<text x="598.1" y="243.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#dc2626">43.1%</text>
+<rect x="630.0" y="224.0" width="188" height="56" rx="5" fill="#ffffff" stroke="#9aa8b6" stroke-width="1.5" filter="url(#shadow)"/>
+<text x="724.0" y="248.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">삼성에피스홀딩스</text>
+<path d="M 572.0,336.0 H 630.0" fill="none" stroke="#dc2626" stroke-width="2.2" marker-end="url(#arrowRed)" opacity="0.96"/>
+<rect x="574.6" y="315.0" width="47" height="16" rx="8" fill="#f8fafc" opacity="0.92"/>
+<text x="598.1" y="327.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#dc2626">43.1%</text>
+<rect x="630.0" y="308.0" width="188" height="56" rx="5" fill="#e8f4e4" stroke="#8bb47d" stroke-width="1.5" filter="url(#shadow)"/>
+<text x="724.0" y="332.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">삼성바이오로직스</text>
+<path d="M 572.0,420.0 H 630.0" fill="none" stroke="#16a34a" stroke-width="1.5" marker-end="url(#arrowGreen)" opacity="0.96"/>
+<rect x="574.6" y="399.0" width="47" height="16" rx="8" fill="#f8fafc" opacity="0.92"/>
+<text x="598.1" y="411.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#16a34a">19.3%</text>
+<rect x="630.0" y="392.0" width="188" height="56" rx="5" fill="#e8f4e4" stroke="#8bb47d" stroke-width="1.5" filter="url(#shadow)"/>
+<text x="724.0" y="416.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">삼성생명보험</text>
+<path d="M 572.0,504.0 H 630.0" fill="none" stroke="#16a34a" stroke-width="1.5" marker-end="url(#arrowGreen)" opacity="0.96"/>
+<rect x="574.6" y="483.0" width="47" height="16" rx="8" fill="#f8fafc" opacity="0.92"/>
+<text x="598.1" y="495.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#16a34a">17.1%</text>
+<rect x="630.0" y="476.0" width="188" height="56" rx="5" fill="#ffffff" stroke="#9aa8b6" stroke-width="1.5" filter="url(#shadow)"/>
+<text x="724.0" y="500.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">삼성에스디에스</text>
+<path d="M 572.0,588.0 H 630.0" fill="none" stroke="#16a34a" stroke-width="1.5" marker-end="url(#arrowGreen)" opacity="0.96"/>
+<rect x="581.1" y="567.0" width="34" height="16" rx="8" fill="#f8fafc" opacity="0.92"/>
+<text x="598.1" y="579.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#16a34a">7%</text>
+<rect x="630.0" y="560.0" width="188" height="56" rx="5" fill="#ffffff" stroke="#9aa8b6" stroke-width="1.5" filter="url(#shadow)"/>
+<text x="724.0" y="584.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">삼성이앤에이</text>
+<path d="M 572.0,672.0 H 630.0" fill="none" stroke="#16a34a" stroke-width="1.5" marker-end="url(#arrowGreen)" opacity="0.96"/>
+<rect x="578.1" y="651.0" width="40" height="16" rx="8" fill="#f8fafc" opacity="0.92"/>
+<text x="598.1" y="663.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#16a34a">4.4%</text>
+<rect x="630.0" y="644.0" width="188" height="56" rx="5" fill="#e8f4e4" stroke="#8bb47d" stroke-width="1.5" filter="url(#shadow)"/>
+<text x="724.0" y="668.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">삼성전자</text>
+<path d="M 572.0,756.0 H 630.0" fill="none" stroke="#16a34a" stroke-width="1.5" marker-end="url(#arrowGreen)" opacity="0.96"/>
+<rect x="581.1" y="735.0" width="34" height="16" rx="8" fill="#f8fafc" opacity="0.92"/>
+<text x="598.1" y="747.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#16a34a">1%</text>
+<rect x="630.0" y="728.0" width="188" height="56" rx="5" fill="#ffffff" stroke="#9aa8b6" stroke-width="1.5" filter="url(#shadow)"/>
+<text x="724.0" y="752.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">삼성글로벌리서치</text>
+<path d="M 572.0,840.0 H 630.0" fill="none" stroke="#16a34a" stroke-width="1.5" marker-end="url(#arrowGreen)" opacity="0.96"/>
+<rect x="578.1" y="819.0" width="40" height="16" rx="8" fill="#f8fafc" opacity="0.92"/>
+<text x="598.1" y="831.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#16a34a">0.1%</text>
+<rect x="630.0" y="812.0" width="188" height="56" rx="5" fill="#ffffff" stroke="#9aa8b6" stroke-width="1.5" filter="url(#shadow)"/>
+<text x="724.0" y="836.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">삼성중공업</text>
+<path d="M 572.0,924.0 H 630.0" fill="none" stroke="#64748b" stroke-width="1.4" stroke-dasharray="4 3" marker-end="url(#arrowGray)" opacity="0.96"/>
+<rect x="581.1" y="903.0" width="34" height="16" rx="8" fill="#f8fafc" opacity="0.92"/>
+<text x="598.1" y="915.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#64748b">관계</text>
+<rect x="630.0" y="896.0" width="188" height="56" rx="5" fill="#ffffff" stroke="#9aa8b6" stroke-width="1.5" filter="url(#shadow)"/>
+<text x="724.0" y="913.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">기타 비핵심 관계</text>
+<text x="724.0" y="928.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">90개</text>
+<path d="M 176.0,1042.0 H 356.0" fill="none" stroke="#64748b" stroke-width="1.4" stroke-dasharray="4 3" marker-end="url(#arrowGray)" opacity="0.96"/>
+<rect x="213.0" y="1021.0" width="34" height="16" rx="8" fill="#f8fafc" opacity="0.92"/>
+<text x="230.0" y="1033.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#64748b">관계</text>
+<rect x="356.0" y="1014.0" width="188" height="56" rx="5" fill="#e8f4e4" stroke="#8bb47d" stroke-width="1.5" filter="url(#shadow)"/>
+<text x="450.0" y="1038.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">삼성전자</text>
+<path d="M 544.0,1042.0 H 572.0" fill="none" stroke="#64748b" stroke-width="1.4" opacity="0.78"/>
+<path d="M 572.0,1042.0 V 1882.0" fill="none" stroke="#64748b" stroke-width="1.4" opacity="0.78"/>
+<path d="M 572.0,1042.0 H 630.0" fill="none" stroke="#0646ff" stroke-width="3.0" marker-end="url(#arrowBlue)" opacity="0.96"/>
+<rect x="574.6" y="1021.0" width="47" height="16" rx="8" fill="#f8fafc" opacity="0.92"/>
+<text x="598.1" y="1033.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#0646ff">84.8%</text>
+<rect x="630.0" y="1014.0" width="188" height="56" rx="5" fill="#ffffff" stroke="#9aa8b6" stroke-width="1.5" filter="url(#shadow)"/>
+<text x="724.0" y="1038.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">삼성디스플레이</text>
+<path d="M 572.0,1126.0 H 630.0" fill="none" stroke="#dc2626" stroke-width="2.2" marker-end="url(#arrowRed)" opacity="0.96"/>
+<rect x="574.6" y="1105.0" width="47" height="16" rx="8" fill="#f8fafc" opacity="0.92"/>
+<text x="598.1" y="1117.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#dc2626">31.2%</text>
+<rect x="630.0" y="1098.0" width="188" height="56" rx="5" fill="#ffffff" stroke="#9aa8b6" stroke-width="1.5" filter="url(#shadow)"/>
+<text x="724.0" y="1122.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">삼성에피스홀딩스</text>
+<path d="M 572.0,1210.0 H 630.0" fill="none" stroke="#dc2626" stroke-width="2.2" marker-end="url(#arrowRed)" opacity="0.96"/>
+<rect x="574.6" y="1189.0" width="47" height="16" rx="8" fill="#f8fafc" opacity="0.92"/>
+<text x="598.1" y="1201.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#dc2626">31.2%</text>
+<rect x="630.0" y="1182.0" width="188" height="56" rx="5" fill="#e8f4e4" stroke="#8bb47d" stroke-width="1.5" filter="url(#shadow)"/>
+<text x="724.0" y="1206.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">삼성바이오로직스</text>
+<path d="M 572.0,1294.0 H 630.0" fill="none" stroke="#dc2626" stroke-width="2.2" marker-end="url(#arrowRed)" opacity="0.96"/>
+<rect x="574.6" y="1273.0" width="47" height="16" rx="8" fill="#f8fafc" opacity="0.92"/>
+<text x="598.1" y="1285.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#dc2626">29.8%</text>
+<rect x="630.0" y="1266.0" width="188" height="56" rx="5" fill="#ffffff" stroke="#9aa8b6" stroke-width="1.5" filter="url(#shadow)"/>
+<text x="724.0" y="1290.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">삼성글로벌리서치</text>
+<path d="M 572.0,1378.0 H 630.0" fill="none" stroke="#dc2626" stroke-width="2.2" marker-end="url(#arrowRed)" opacity="0.96"/>
+<rect x="574.6" y="1357.0" width="47" height="16" rx="8" fill="#f8fafc" opacity="0.92"/>
+<text x="598.1" y="1369.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#dc2626">25.2%</text>
+<rect x="630.0" y="1350.0" width="188" height="56" rx="5" fill="#ffffff" stroke="#9aa8b6" stroke-width="1.5" filter="url(#shadow)"/>
+<text x="724.0" y="1374.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">제일기획</text>
+<path d="M 572.0,1462.0 H 630.0" fill="none" stroke="#dc2626" stroke-width="2.2" marker-end="url(#arrowRed)" opacity="0.96"/>
+<rect x="574.6" y="1441.0" width="47" height="16" rx="8" fill="#f8fafc" opacity="0.92"/>
+<text x="598.1" y="1453.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#dc2626">23.7%</text>
+<rect x="630.0" y="1434.0" width="188" height="56" rx="5" fill="#e8f4e4" stroke="#8bb47d" stroke-width="1.5" filter="url(#shadow)"/>
+<text x="724.0" y="1458.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">삼성전기</text>
+<path d="M 572.0,1546.0 H 630.0" fill="none" stroke="#dc2626" stroke-width="2.2" marker-end="url(#arrowRed)" opacity="0.96"/>
+<rect x="574.6" y="1525.0" width="47" height="16" rx="8" fill="#f8fafc" opacity="0.92"/>
+<text x="598.1" y="1537.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#dc2626">22.6%</text>
+<rect x="630.0" y="1518.0" width="188" height="56" rx="5" fill="#ffffff" stroke="#9aa8b6" stroke-width="1.5" filter="url(#shadow)"/>
+<text x="724.0" y="1542.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">삼성에스디에스</text>
+<path d="M 572.0,1630.0 H 630.0" fill="none" stroke="#16a34a" stroke-width="1.5" marker-end="url(#arrowGreen)" opacity="0.96"/>
+<rect x="574.6" y="1609.0" width="47" height="16" rx="8" fill="#f8fafc" opacity="0.92"/>
+<text x="598.1" y="1621.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#16a34a">19.4%</text>
+<rect x="630.0" y="1602.0" width="188" height="56" rx="5" fill="#e8f4e4" stroke="#8bb47d" stroke-width="1.5" filter="url(#shadow)"/>
+<text x="724.0" y="1626.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">삼성SDI</text>
+<path d="M 572.0,1714.0 H 630.0" fill="none" stroke="#16a34a" stroke-width="1.5" marker-end="url(#arrowGreen)" opacity="0.96"/>
+<rect x="574.6" y="1693.0" width="47" height="16" rx="8" fill="#f8fafc" opacity="0.92"/>
+<text x="598.1" y="1705.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#16a34a">15.2%</text>
+<rect x="630.0" y="1686.0" width="188" height="56" rx="5" fill="#ffffff" stroke="#9aa8b6" stroke-width="1.5" filter="url(#shadow)"/>
+<text x="724.0" y="1710.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">삼성중공업</text>
+<path d="M 572.0,1798.0 H 630.0" fill="none" stroke="#16a34a" stroke-width="1.5" marker-end="url(#arrowGreen)" opacity="0.96"/>
+<rect x="578.1" y="1777.0" width="40" height="16" rx="8" fill="#f8fafc" opacity="0.92"/>
+<text x="598.1" y="1789.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#16a34a">5.1%</text>
+<rect x="630.0" y="1770.0" width="188" height="56" rx="5" fill="#ffffff" stroke="#9aa8b6" stroke-width="1.5" filter="url(#shadow)"/>
+<text x="724.0" y="1794.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">호텔신라</text>
+<path d="M 572.0,1882.0 H 630.0" fill="none" stroke="#64748b" stroke-width="1.4" stroke-dasharray="4 3" marker-end="url(#arrowGray)" opacity="0.96"/>
+<rect x="581.1" y="1861.0" width="34" height="16" rx="8" fill="#f8fafc" opacity="0.92"/>
+<text x="598.1" y="1873.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#64748b">관계</text>
+<rect x="630.0" y="1854.0" width="188" height="56" rx="5" fill="#ffffff" stroke="#9aa8b6" stroke-width="1.5" filter="url(#shadow)"/>
+<text x="724.0" y="1871.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">기타 비핵심 관계</text>
+<text x="724.0" y="1886.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">91개</text>
+<path d="M 176.0,2000.0 H 356.0" fill="none" stroke="#64748b" stroke-width="1.4" stroke-dasharray="4 3" marker-end="url(#arrowGray)" opacity="0.96"/>
+<rect x="213.0" y="1979.0" width="34" height="16" rx="8" fill="#f8fafc" opacity="0.92"/>
+<text x="230.0" y="1991.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#64748b">관계</text>
+<rect x="356.0" y="1972.0" width="188" height="56" rx="5" fill="#e8f4e4" stroke="#8bb47d" stroke-width="1.5" filter="url(#shadow)"/>
+<text x="450.0" y="1996.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">삼성생명보험</text>
+<path d="M 544.0,2000.0 H 572.0" fill="none" stroke="#64748b" stroke-width="1.4" opacity="0.78"/>
+<path d="M 572.0,2000.0 V 2672.0" fill="none" stroke="#64748b" stroke-width="1.4" opacity="0.78"/>
+<path d="M 572.0,2000.0 H 630.0" fill="none" stroke="#0646ff" stroke-width="3.0" marker-end="url(#arrowBlue)" opacity="0.96"/>
+<rect x="571.1" y="1979.0" width="54" height="16" rx="8" fill="#f8fafc" opacity="0.92"/>
+<text x="598.1" y="1991.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#0646ff">71.86%</text>
+<rect x="630.0" y="1972.0" width="188" height="56" rx="5" fill="#ffffff" stroke="#9aa8b6" stroke-width="1.5" filter="url(#shadow)"/>
+<text x="724.0" y="1996.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">삼성카드</text>
+<path d="M 572.0,2084.0 H 630.0" fill="none" stroke="#dc2626" stroke-width="2.2" marker-end="url(#arrowRed)" opacity="0.96"/>
+<rect x="571.1" y="2063.0" width="54" height="16" rx="8" fill="#f8fafc" opacity="0.92"/>
+<text x="598.1" y="2075.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#dc2626">29.39%</text>
+<rect x="630.0" y="2056.0" width="188" height="56" rx="5" fill="#ffffff" stroke="#9aa8b6" stroke-width="1.5" filter="url(#shadow)"/>
+<text x="724.0" y="2080.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">삼성증권</text>
+<path d="M 572.0,2168.0 H 630.0" fill="none" stroke="#16a34a" stroke-width="1.5" marker-end="url(#arrowGreen)" opacity="0.96"/>
+<rect x="571.1" y="2147.0" width="54" height="16" rx="8" fill="#f8fafc" opacity="0.92"/>
+<text x="598.1" y="2159.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#16a34a">15.43%</text>
+<rect x="630.0" y="2140.0" width="188" height="56" rx="5" fill="#ffffff" stroke="#9aa8b6" stroke-width="1.5" filter="url(#shadow)"/>
+<text x="724.0" y="2164.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">삼성화재</text>
+<path d="M 572.0,2252.0 H 630.0" fill="none" stroke="#16a34a" stroke-width="1.5" marker-end="url(#arrowGreen)" opacity="0.96"/>
+<rect x="574.6" y="2231.0" width="47" height="16" rx="8" fill="#f8fafc" opacity="0.92"/>
+<text x="598.1" y="2243.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#16a34a">14.8%</text>
+<rect x="630.0" y="2224.0" width="188" height="56" rx="5" fill="#ffffff" stroke="#9aa8b6" stroke-width="1.5" filter="url(#shadow)"/>
+<text x="724.0" y="2248.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">삼성글로벌리서치</text>
+<path d="M 572.0,2336.0 H 630.0" fill="none" stroke="#16a34a" stroke-width="1.5" marker-end="url(#arrowGreen)" opacity="0.96"/>
+<rect x="574.6" y="2315.0" width="47" height="16" rx="8" fill="#f8fafc" opacity="0.92"/>
+<text x="598.1" y="2327.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#16a34a">8.51%</text>
+<rect x="630.0" y="2308.0" width="188" height="56" rx="5" fill="#e8f4e4" stroke="#8bb47d" stroke-width="1.5" filter="url(#shadow)"/>
+<text x="724.0" y="2332.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">삼성전자</text>
+<path d="M 572.0,2420.0 H 630.0" fill="none" stroke="#16a34a" stroke-width="1.5" marker-end="url(#arrowGreen)" opacity="0.96"/>
+<rect x="578.1" y="2399.0" width="40" height="16" rx="8" fill="#f8fafc" opacity="0.92"/>
+<text x="598.1" y="2411.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#16a34a">7.3%</text>
+<rect x="630.0" y="2392.0" width="188" height="56" rx="5" fill="#ffffff" stroke="#9aa8b6" stroke-width="1.5" filter="url(#shadow)"/>
+<text x="724.0" y="2416.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">호텔신라</text>
+<path d="M 572.0,2504.0 H 630.0" fill="none" stroke="#16a34a" stroke-width="1.5" marker-end="url(#arrowGreen)" opacity="0.96"/>
+<rect x="574.6" y="2483.0" width="47" height="16" rx="8" fill="#f8fafc" opacity="0.92"/>
+<text x="598.1" y="2495.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#16a34a">5.34%</text>
+<rect x="630.0" y="2476.0" width="188" height="56" rx="5" fill="#ffffff" stroke="#9aa8b6" stroke-width="1.5" filter="url(#shadow)"/>
+<text x="724.0" y="2500.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">에스원</text>
+<path d="M 572.0,2588.0 H 630.0" fill="none" stroke="#16a34a" stroke-width="1.5" marker-end="url(#arrowGreen)" opacity="0.96"/>
+<rect x="574.6" y="2567.0" width="47" height="16" rx="8" fill="#f8fafc" opacity="0.92"/>
+<text x="598.1" y="2579.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#16a34a">2.92%</text>
+<rect x="630.0" y="2560.0" width="188" height="56" rx="5" fill="#ffffff" stroke="#9aa8b6" stroke-width="1.5" filter="url(#shadow)"/>
+<text x="724.0" y="2584.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">삼성중공업</text>
+<path d="M 572.0,2672.0 H 630.0" fill="none" stroke="#64748b" stroke-width="1.4" stroke-dasharray="4 3" marker-end="url(#arrowGray)" opacity="0.96"/>
+<rect x="581.1" y="2651.0" width="34" height="16" rx="8" fill="#f8fafc" opacity="0.92"/>
+<text x="598.1" y="2663.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#64748b">관계</text>
+<rect x="630.0" y="2644.0" width="188" height="56" rx="5" fill="#ffffff" stroke="#9aa8b6" stroke-width="1.5" filter="url(#shadow)"/>
+<text x="724.0" y="2661.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">기타 비핵심 관계</text>
+<text x="724.0" y="2676.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">29개</text>
+<path d="M 176.0,2790.0 H 356.0" fill="none" stroke="#64748b" stroke-width="1.4" stroke-dasharray="4 3" marker-end="url(#arrowGray)" opacity="0.96"/>
+<rect x="213.0" y="2769.0" width="34" height="16" rx="8" fill="#f8fafc" opacity="0.92"/>
+<text x="230.0" y="2781.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#64748b">관계</text>
+<rect x="356.0" y="2762.0" width="188" height="56" rx="5" fill="#e8f4e4" stroke="#8bb47d" stroke-width="1.5" filter="url(#shadow)"/>
+<text x="450.0" y="2786.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">삼성SDI</text>
+<path d="M 544.0,2790.0 H 572.0" fill="none" stroke="#64748b" stroke-width="1.4" opacity="0.78"/>
+<path d="M 572.0,2790.0 V 3294.0" fill="none" stroke="#64748b" stroke-width="1.4" opacity="0.78"/>
+<path d="M 572.0,2790.0 H 630.0" fill="none" stroke="#dc2626" stroke-width="2.2" marker-end="url(#arrowRed)" opacity="0.96"/>
+<rect x="574.6" y="2769.0" width="47" height="16" rx="8" fill="#f8fafc" opacity="0.92"/>
+<text x="598.1" y="2781.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#dc2626">29.6%</text>
+<rect x="630.0" y="2762.0" width="188" height="56" rx="5" fill="#ffffff" stroke="#9aa8b6" stroke-width="1.5" filter="url(#shadow)"/>
+<text x="724.0" y="2772.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">삼성글로벌리서치</text>
+<text x="724.0" y="2787.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">(구,</text>
+<text x="724.0" y="2802.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">삼성경제연구소)</text>
+<path d="M 572.0,2874.0 H 630.0" fill="none" stroke="#16a34a" stroke-width="1.5" marker-end="url(#arrowGreen)" opacity="0.96"/>
+<rect x="574.6" y="2853.0" width="47" height="16" rx="8" fill="#f8fafc" opacity="0.92"/>
+<text x="598.1" y="2865.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#16a34a">15.2%</text>
+<rect x="630.0" y="2846.0" width="188" height="56" rx="5" fill="#ffffff" stroke="#9aa8b6" stroke-width="1.5" filter="url(#shadow)"/>
+<text x="724.0" y="2870.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">삼성디스플레이</text>
+<path d="M 572.0,2958.0 H 630.0" fill="none" stroke="#16a34a" stroke-width="1.5" marker-end="url(#arrowGreen)" opacity="0.96"/>
+<rect x="574.6" y="2937.0" width="47" height="16" rx="8" fill="#f8fafc" opacity="0.92"/>
+<text x="598.1" y="2949.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#16a34a">11.7%</text>
+<rect x="630.0" y="2930.0" width="188" height="56" rx="5" fill="#ffffff" stroke="#9aa8b6" stroke-width="1.5" filter="url(#shadow)"/>
+<text x="724.0" y="2947.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">삼성E&amp;A(구,</text>
+<text x="724.0" y="2962.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">삼성엔지니어링)</text>
+<path d="M 572.0,3042.0 H 630.0" fill="none" stroke="#16a34a" stroke-width="1.5" marker-end="url(#arrowGreen)" opacity="0.96"/>
+<rect x="581.1" y="3021.0" width="34" height="16" rx="8" fill="#f8fafc" opacity="0.92"/>
+<text x="598.1" y="3033.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#16a34a">11%</text>
+<rect x="630.0" y="3014.0" width="188" height="56" rx="5" fill="#ffffff" stroke="#9aa8b6" stroke-width="1.5" filter="url(#shadow)"/>
+<text x="724.0" y="3038.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">에스원</text>
+<path d="M 572.0,3126.0 H 630.0" fill="none" stroke="#16a34a" stroke-width="1.5" marker-end="url(#arrowGreen)" opacity="0.96"/>
+<rect x="578.1" y="3105.0" width="40" height="16" rx="8" fill="#f8fafc" opacity="0.92"/>
+<text x="598.1" y="3117.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#16a34a">0.4%</text>
+<rect x="630.0" y="3098.0" width="188" height="56" rx="5" fill="#ffffff" stroke="#9aa8b6" stroke-width="1.5" filter="url(#shadow)"/>
+<text x="724.0" y="3122.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">삼성중공업</text>
+<path d="M 572.0,3210.0 H 630.0" fill="none" stroke="#16a34a" stroke-width="1.5" marker-end="url(#arrowGreen)" opacity="0.96"/>
+<rect x="578.1" y="3189.0" width="40" height="16" rx="8" fill="#f8fafc" opacity="0.92"/>
+<text x="598.1" y="3201.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#16a34a">0.1%</text>
+<rect x="630.0" y="3182.0" width="188" height="56" rx="5" fill="#ffffff" stroke="#9aa8b6" stroke-width="1.5" filter="url(#shadow)"/>
+<text x="724.0" y="3206.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">호텔신라</text>
+<path d="M 572.0,3294.0 H 630.0" fill="none" stroke="#64748b" stroke-width="1.4" stroke-dasharray="4 3" marker-end="url(#arrowGray)" opacity="0.96"/>
+<rect x="581.1" y="3273.0" width="34" height="16" rx="8" fill="#f8fafc" opacity="0.92"/>
+<text x="598.1" y="3285.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#64748b">관계</text>
+<rect x="630.0" y="3266.0" width="188" height="56" rx="5" fill="#ffffff" stroke="#9aa8b6" stroke-width="1.5" filter="url(#shadow)"/>
+<text x="724.0" y="3283.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">기타 비핵심 관계</text>
+<text x="724.0" y="3298.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">27개</text>
+<path d="M 176.0,3412.0 H 356.0" fill="none" stroke="#64748b" stroke-width="1.4" stroke-dasharray="4 3" marker-end="url(#arrowGray)" opacity="0.96"/>
+<rect x="213.0" y="3391.0" width="34" height="16" rx="8" fill="#f8fafc" opacity="0.92"/>
+<text x="230.0" y="3403.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#64748b">관계</text>
+<rect x="356.0" y="3384.0" width="188" height="56" rx="5" fill="#e8f4e4" stroke="#8bb47d" stroke-width="1.5" filter="url(#shadow)"/>
+<text x="450.0" y="3408.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">삼성전기</text>
+<path d="M 544.0,3412.0 H 572.0" fill="none" stroke="#64748b" stroke-width="1.4" opacity="0.78"/>
+<path d="M 572.0,3412.0 V 3580.0" fill="none" stroke="#64748b" stroke-width="1.4" opacity="0.78"/>
+<path d="M 572.0,3412.0 H 630.0" fill="none" stroke="#dc2626" stroke-width="2.2" marker-end="url(#arrowRed)" opacity="0.96"/>
+<rect x="574.6" y="3391.0" width="47" height="16" rx="8" fill="#f8fafc" opacity="0.92"/>
+<text x="598.1" y="3403.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#dc2626">23.8%</text>
+<rect x="630.0" y="3384.0" width="188" height="56" rx="5" fill="#ffffff" stroke="#9aa8b6" stroke-width="1.5" filter="url(#shadow)"/>
+<text x="724.0" y="3408.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">삼성글로벌리서치</text>
+<path d="M 572.0,3496.0 H 630.0" fill="none" stroke="#16a34a" stroke-width="1.5" marker-end="url(#arrowGreen)" opacity="0.96"/>
+<rect x="578.1" y="3475.0" width="40" height="16" rx="8" fill="#f8fafc" opacity="0.92"/>
+<text x="598.1" y="3487.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#16a34a">2.1%</text>
+<rect x="630.0" y="3468.0" width="188" height="56" rx="5" fill="#ffffff" stroke="#9aa8b6" stroke-width="1.5" filter="url(#shadow)"/>
+<text x="724.0" y="3492.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">삼성중공업</text>
+<path d="M 572.0,3580.0 H 630.0" fill="none" stroke="#64748b" stroke-width="1.4" stroke-dasharray="4 3" marker-end="url(#arrowGray)" opacity="0.96"/>
+<rect x="581.1" y="3559.0" width="34" height="16" rx="8" fill="#f8fafc" opacity="0.92"/>
+<text x="598.1" y="3571.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#64748b">관계</text>
+<rect x="630.0" y="3552.0" width="188" height="56" rx="5" fill="#ffffff" stroke="#9aa8b6" stroke-width="1.5" filter="url(#shadow)"/>
+<text x="724.0" y="3569.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">기타 비핵심 관계</text>
+<text x="724.0" y="3584.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">15개</text>
+<path d="M 176.0,3698.0 H 356.0" fill="none" stroke="#64748b" stroke-width="1.4" stroke-dasharray="4 3" marker-end="url(#arrowGray)" opacity="0.96"/>
+<rect x="213.0" y="3677.0" width="34" height="16" rx="8" fill="#f8fafc" opacity="0.92"/>
+<text x="230.0" y="3689.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#64748b">관계</text>
+<rect x="356.0" y="3670.0" width="188" height="56" rx="5" fill="#e8f4e4" stroke="#8bb47d" stroke-width="1.5" filter="url(#shadow)"/>
+<text x="450.0" y="3694.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">삼성화재해상보험</text>
+<path d="M 544.0,3698.0 H 572.0" fill="none" stroke="#64748b" stroke-width="1.4" opacity="0.78"/>
+<path d="M 572.0,3698.0 V 3950.0" fill="none" stroke="#64748b" stroke-width="1.4" opacity="0.78"/>
+<path d="M 572.0,3698.0 H 630.0" fill="none" stroke="#16a34a" stroke-width="1.5" marker-end="url(#arrowGreen)" opacity="0.96"/>
+<rect x="574.6" y="3677.0" width="47" height="16" rx="8" fill="#f8fafc" opacity="0.92"/>
+<text x="598.1" y="3689.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#16a34a">1.49%</text>
+<rect x="630.0" y="3670.0" width="188" height="56" rx="5" fill="#e8f4e4" stroke="#8bb47d" stroke-width="1.5" filter="url(#shadow)"/>
+<text x="724.0" y="3694.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">삼성전자</text>
+<path d="M 572.0,3782.0 H 630.0" fill="none" stroke="#16a34a" stroke-width="1.5" marker-end="url(#arrowGreen)" opacity="0.96"/>
+<rect x="574.6" y="3761.0" width="47" height="16" rx="8" fill="#f8fafc" opacity="0.92"/>
+<text x="598.1" y="3773.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#16a34a">0.97%</text>
+<rect x="630.0" y="3754.0" width="188" height="56" rx="5" fill="#ffffff" stroke="#9aa8b6" stroke-width="1.5" filter="url(#shadow)"/>
+<text x="724.0" y="3778.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">에스원</text>
+<path d="M 572.0,3866.0 H 630.0" fill="none" stroke="#16a34a" stroke-width="1.5" marker-end="url(#arrowGreen)" opacity="0.96"/>
+<rect x="574.6" y="3845.0" width="47" height="16" rx="8" fill="#f8fafc" opacity="0.92"/>
+<text x="598.1" y="3857.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#16a34a">0.22%</text>
+<rect x="630.0" y="3838.0" width="188" height="56" rx="5" fill="#ffffff" stroke="#9aa8b6" stroke-width="1.5" filter="url(#shadow)"/>
+<text x="724.0" y="3862.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">삼성이앤에이</text>
+<path d="M 572.0,3950.0 H 630.0" fill="none" stroke="#64748b" stroke-width="1.4" stroke-dasharray="4 3" marker-end="url(#arrowGray)" opacity="0.96"/>
+<rect x="581.1" y="3929.0" width="34" height="16" rx="8" fill="#f8fafc" opacity="0.92"/>
+<text x="598.1" y="3941.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#64748b">관계</text>
+<rect x="630.0" y="3922.0" width="188" height="56" rx="5" fill="#ffffff" stroke="#9aa8b6" stroke-width="1.5" filter="url(#shadow)"/>
+<text x="724.0" y="3939.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">기타 비핵심 관계</text>
+<text x="724.0" y="3954.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">12개</text>
+<path d="M 176.0,4068.0 H 356.0" fill="none" stroke="#64748b" stroke-width="1.4" stroke-dasharray="4 3" marker-end="url(#arrowGray)" opacity="0.96"/>
+<rect x="213.0" y="4047.0" width="34" height="16" rx="8" fill="#f8fafc" opacity="0.92"/>
+<text x="230.0" y="4059.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#64748b">관계</text>
+<rect x="356.0" y="4040.0" width="188" height="56" rx="5" fill="#e8f4e4" stroke="#8bb47d" stroke-width="1.5" filter="url(#shadow)"/>
+<text x="450.0" y="4064.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">삼성바이오로직스</text>
+<path d="M 544.0,4068.0 H 572.0" fill="none" stroke="#64748b" stroke-width="1.4" opacity="0.78"/>
+<path d="M 572.0,4068.0 V 4152.0" fill="none" stroke="#64748b" stroke-width="1.4" opacity="0.78"/>
+<path d="M 572.0,4068.0 H 630.0" fill="none" stroke="#0646ff" stroke-width="3.0" marker-end="url(#arrowBlue)" opacity="0.96"/>
+<rect x="578.1" y="4047.0" width="40" height="16" rx="8" fill="#f8fafc" opacity="0.92"/>
+<text x="598.1" y="4059.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#0646ff">100%</text>
+<rect x="630.0" y="4040.0" width="188" height="56" rx="5" fill="#ffffff" stroke="#9aa8b6" stroke-width="1.5" filter="url(#shadow)"/>
+<text x="724.0" y="4064.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">삼성바이오에피스</text>
+<path d="M 572.0,4152.0 H 630.0" fill="none" stroke="#64748b" stroke-width="1.4" stroke-dasharray="4 3" marker-end="url(#arrowGray)" opacity="0.96"/>
+<rect x="581.1" y="4131.0" width="34" height="16" rx="8" fill="#f8fafc" opacity="0.92"/>
+<text x="598.1" y="4143.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#64748b">관계</text>
+<rect x="630.0" y="4124.0" width="188" height="56" rx="5" fill="#ffffff" stroke="#9aa8b6" stroke-width="1.5" filter="url(#shadow)"/>
+<text x="724.0" y="4141.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">기타 비핵심 관계</text>
+<text x="724.0" y="4156.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">3개</text>
+<line x1="54" y1="4334" x2="96" y2="4334" stroke="#0646ff" stroke-width="3"/>
+<text x="106" y="4338" font-family="Malgun Gothic, Arial, sans-serif" font-size="12" fill="#52637a">50% 이상</text>
+<line x1="204" y1="4334" x2="246" y2="4334" stroke="#dc2626" stroke-width="2.2"/>
+<text x="256" y="4338" font-family="Malgun Gothic, Arial, sans-serif" font-size="12" fill="#52637a">20~50%</text>
+<line x1="354" y1="4334" x2="396" y2="4334" stroke="#16a34a" stroke-width="1.5"/>
+<text x="406" y="4338" font-family="Malgun Gothic, Arial, sans-serif" font-size="12" fill="#52637a">20% 미만</text>
+<line x1="504" y1="4334" x2="546" y2="4334" stroke="#64748b" stroke-width="1.4" stroke-dasharray="6 4"/>
+<text x="556" y="4338" font-family="Malgun Gothic, Arial, sans-serif" font-size="12" fill="#52637a">관계/요약</text>
+<rect x="1377" y="4316" width="18" height="18" rx="3" fill="#dff2d9" stroke="#2f7d32"/>
+<text x="1404" y="4330" font-family="Malgun Gothic, Arial, sans-serif" font-size="12" fill="#52637a">조회 기업 강조</text>
+</svg>

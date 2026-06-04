@@ -1,0 +1,30 @@
+digraph affiliate_structure {
+  graph [rankdir=TB, splines=ortho, bgcolor="#f8fafc", pad=0.35, nodesep=0.45, ranksep=0.9];
+  node [shape=box, style="rounded,filled", fontname="Malgun Gothic", margin="0.12,0.08"];
+  edge [fontname="Malgun Gothic", fontsize=10, arrowsize=0.7];
+  label="POSCO홀딩스 관계기업 구조도";
+  labelloc=t;
+  "POSCO홀딩스" [fillcolor="#102f5f", color="#102f5f", fontcolor="#ffffff", style="rounded,filled"];
+  "기타 직접 투자 54개" [fillcolor="#ffffff", color="#9aa8b6", fontcolor="#111827", style="rounded,filled"];
+  "포스코" [fillcolor="#ffffff", color="#9aa8b6", fontcolor="#111827", style="rounded,filled"];
+  "포스코경영연구원" [fillcolor="#ffffff", color="#9aa8b6", fontcolor="#111827", style="rounded,filled"];
+  "포스코기술투자" [fillcolor="#ffffff", color="#9aa8b6", fontcolor="#111827", style="rounded,filled"];
+  "포스코리튬솔루션 주식회사" [fillcolor="#ffffff", color="#9aa8b6", fontcolor="#111827", style="rounded,filled"];
+  "포스코세이프티솔루션" [fillcolor="#ffffff", color="#9aa8b6", fontcolor="#111827", style="rounded,filled"];
+  "포스코실리콘솔루션" [fillcolor="#ffffff", color="#9aa8b6", fontcolor="#111827", style="rounded,filled"];
+  "포스코아이에이치" [fillcolor="#ffffff", color="#9aa8b6", fontcolor="#111827", style="rounded,filled"];
+  "포스코와이드" [fillcolor="#ffffff", color="#9aa8b6", fontcolor="#111827", style="rounded,filled"];
+  "포스코인재창조원" [fillcolor="#ffffff", color="#9aa8b6", fontcolor="#111827", style="rounded,filled"];
+  "포스코플로우 주식회사" [fillcolor="#ffffff", color="#9aa8b6", fontcolor="#111827", style="rounded,filled"];
+  "POSCO홀딩스" -> "포스코플로우 주식회사" [label="100%", color="#0646ff", penwidth=3.0, style="solid"];
+  "POSCO홀딩스" -> "포스코인재창조원" [label="100%", color="#0646ff", penwidth=3.0, style="solid"];
+  "POSCO홀딩스" -> "포스코와이드" [label="100%", color="#0646ff", penwidth=3.0, style="solid"];
+  "POSCO홀딩스" -> "포스코아이에이치" [label="100%", color="#0646ff", penwidth=3.0, style="solid"];
+  "POSCO홀딩스" -> "포스코실리콘솔루션" [label="100%", color="#0646ff", penwidth=3.0, style="solid"];
+  "POSCO홀딩스" -> "포스코세이프티솔루션" [label="100%", color="#0646ff", penwidth=3.0, style="solid"];
+  "POSCO홀딩스" -> "포스코리튬솔루션 주식회사" [label="100%", color="#0646ff", penwidth=3.0, style="solid"];
+  "POSCO홀딩스" -> "포스코기술투자" [label="100%", color="#0646ff", penwidth=3.0, style="solid"];
+  "POSCO홀딩스" -> "포스코경영연구원" [label="100%", color="#0646ff", penwidth=3.0, style="solid"];
+  "POSCO홀딩스" -> "포스코" [label="100%", color="#0646ff", penwidth=3.0, style="solid"];
+  "POSCO홀딩스" -> "기타 직접 투자 54개" [label="관계", color="#64748b", penwidth=1.4, style="dashed"];
+}

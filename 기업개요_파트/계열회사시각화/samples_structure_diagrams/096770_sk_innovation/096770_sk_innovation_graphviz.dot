@@ -1,0 +1,30 @@
+digraph affiliate_structure {
+  graph [rankdir=TB, splines=ortho, bgcolor="#f8fafc", pad=0.35, nodesep=0.45, ranksep=0.9];
+  node [shape=box, style="rounded,filled", fontname="Malgun Gothic", margin="0.12,0.08"];
+  edge [fontname="Malgun Gothic", fontsize=10, arrowsize=0.7];
+  label="SK이노베이션 관계기업 구조도";
+  labelloc=t;
+  "SK이노베이션" [fillcolor="#102f5f", color="#102f5f", fontcolor="#ffffff", style="rounded,filled"];
+  "기타 직접 투자 59개" [fillcolor="#ffffff", color="#9aa8b6", fontcolor="#111827", style="rounded,filled"];
+  "아리울 행복솔라" [fillcolor="#ffffff", color="#9aa8b6", fontcolor="#111827", style="rounded,filled"];
+  "아이지이" [fillcolor="#ffffff", color="#9aa8b6", fontcolor="#111827", style="rounded,filled"];
+  "에스케이어스온" [fillcolor="#ffffff", color="#9aa8b6", fontcolor="#111827", style="rounded,filled"];
+  "에스케이엔텀" [fillcolor="#ffffff", color="#9aa8b6", fontcolor="#111827", style="rounded,filled"];
+  "에스케이지오센트릭" [fillcolor="#ffffff", color="#9aa8b6", fontcolor="#111827", style="rounded,filled"];
+  "엔솔브" [fillcolor="#ffffff", color="#9aa8b6", fontcolor="#111827", style="rounded,filled"];
+  "이엔에스시티가스" [fillcolor="#ffffff", color="#9aa8b6", fontcolor="#111827", style="rounded,filled"];
+  "이엔에스시티가스부산" [fillcolor="#ffffff", color="#9aa8b6", fontcolor="#111827", style="rounded,filled"];
+  "해쌀태양광" [fillcolor="#ffffff", color="#9aa8b6", fontcolor="#111827", style="rounded,filled"];
+  "행복키움" [fillcolor="#ffffff", color="#9aa8b6", fontcolor="#111827", style="rounded,filled"];
+  "SK이노베이션" -> "행복키움" [label="100%", color="#0646ff", penwidth=3.0, style="solid"];
+  "SK이노베이션" -> "해쌀태양광" [label="100%", color="#0646ff", penwidth=3.0, style="solid"];
+  "SK이노베이션" -> "이엔에스시티가스부산" [label="100%", color="#0646ff", penwidth=3.0, style="solid"];
+  "SK이노베이션" -> "이엔에스시티가스" [label="100%", color="#0646ff", penwidth=3.0, style="solid"];
+  "SK이노베이션" -> "엔솔브" [label="100%", color="#0646ff", penwidth=3.0, style="solid"];
+  "SK이노베이션" -> "에스케이지오센트릭" [label="100%", color="#0646ff", penwidth=3.0, style="solid"];
+  "SK이노베이션" -> "에스케이엔텀" [label="100%", color="#0646ff", penwidth=3.0, style="solid"];
+  "SK이노베이션" -> "에스케이어스온" [label="100%", color="#0646ff", penwidth=3.0, style="solid"];
+  "SK이노베이션" -> "아이지이" [label="100%", color="#0646ff", penwidth=3.0, style="solid"];
+  "SK이노베이션" -> "아리울 행복솔라" [label="100%", color="#0646ff", penwidth=3.0, style="solid"];
+  "SK이노베이션" -> "기타 직접 투자 59개" [label="관계", color="#64748b", penwidth=1.4, style="dashed"];
+}

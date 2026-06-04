@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1632" height="1774" viewBox="0 0 1632 1774">
+<defs>
+<marker id="arrowBlue" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L8,4 L0,8 z" fill="#0646ff"/></marker>
+<marker id="arrowRed" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L8,4 L0,8 z" fill="#dc2626"/></marker>
+<marker id="arrowGreen" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L8,4 L0,8 z" fill="#16a34a"/></marker>
+<marker id="arrowGray" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L8,4 L0,8 z" fill="#64748b"/></marker>
+<filter id="shadow" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#000000" flood-opacity="0.16"/></filter>
+</defs>
+<rect width="100%" height="100%" fill="#f8fafc"/>
+<text x="54" y="38" font-family="Malgun Gothic, Arial, sans-serif" font-size="26" font-weight="800" fill="#07111f">삼양홀딩스 관계기업 구조도</text>
+<text x="54" y="66" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" fill="#52637a">Branch layout: 세로 기준선에서 자회사로 분기, 하위 자회사는 오른쪽 화살표로 확장</text>
+<text x="1578" y="66" text-anchor="end" font-family="Malgun Gothic, Arial, sans-serif" font-size="12" fill="#52637a">총 edge 26개 중 표시 26개</text>
+<rect x="82.0" y="96.0" width="188" height="56" rx="5" fill="#102f5f" stroke="#102f5f" stroke-width="1.5" filter="url(#shadow)"/>
+<text x="176.0" y="120.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#ffffff">삼양홀딩스</text>
+<path d="M 176.0,152.0 V 1380.0" fill="none" stroke="#111827" stroke-width="1.8" opacity="0.82"/>
+<path d="M 176.0,252.0 H 356.0" fill="none" stroke="#0646ff" stroke-width="3.0" marker-end="url(#arrowBlue)" opacity="0.96"/>
+<rect x="203.0" y="231.0" width="54" height="16" rx="8" fill="#f8fafc" opacity="0.92"/>
+<text x="230.0" y="243.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#0646ff">61.83%</text>
+<rect x="356.0" y="224.0" width="188" height="56" rx="5" fill="#e8f4e4" stroke="#8bb47d" stroke-width="1.5" filter="url(#shadow)"/>
+<text x="450.0" y="248.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">삼양사</text>
+<path d="M 544.0,252.0 H 572.0" fill="none" stroke="#64748b" stroke-width="1.4" opacity="0.78"/>
+<path d="M 572.0,252.0 V 672.0" fill="none" stroke="#64748b" stroke-width="1.4" opacity="0.78"/>
+<path d="M 572.0,252.0 H 630.0" fill="none" stroke="#0646ff" stroke-width="3.0" marker-end="url(#arrowBlue)" opacity="0.96"/>
+<rect x="578.1" y="231.0" width="40" height="16" rx="8" fill="#f8fafc" opacity="0.92"/>
+<text x="598.1" y="243.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#0646ff">100%</text>
+<rect x="630.0" y="224.0" width="188" height="56" rx="5" fill="#ffffff" stroke="#9aa8b6" stroke-width="1.5" filter="url(#shadow)"/>
+<text x="724.0" y="241.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">삼양공정소료(상해)유</text>
+<text x="724.0" y="256.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">한공사</text>
+<path d="M 572.0,336.0 H 630.0" fill="none" stroke="#0646ff" stroke-width="3.0" marker-end="url(#arrowBlue)" opacity="0.96"/>
+<rect x="578.1" y="315.0" width="40" height="16" rx="8" fill="#f8fafc" opacity="0.92"/>
+<text x="598.1" y="327.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#0646ff">100%</text>
+<rect x="630.0" y="308.0" width="188" height="56" rx="5" fill="#ffffff" stroke="#9aa8b6" stroke-width="1.5" filter="url(#shadow)"/>
+<text x="724.0" y="332.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">삼양EP헝가리</text>
+<path d="M 572.0,420.0 H 630.0" fill="none" stroke="#0646ff" stroke-width="3.0" marker-end="url(#arrowBlue)" opacity="0.96"/>
+<rect x="578.1" y="399.0" width="40" height="16" rx="8" fill="#f8fafc" opacity="0.92"/>
+<text x="598.1" y="411.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#0646ff">100%</text>
+<rect x="630.0" y="392.0" width="188" height="56" rx="5" fill="#ffffff" stroke="#9aa8b6" stroke-width="1.5" filter="url(#shadow)"/>
+<text x="724.0" y="416.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">삼양EP베트남</text>
+<path d="M 572.0,504.0 H 630.0" fill="none" stroke="#0646ff" stroke-width="3.0" marker-end="url(#arrowBlue)" opacity="0.96"/>
+<rect x="571.1" y="483.0" width="54" height="16" rx="8" fill="#f8fafc" opacity="0.92"/>
+<text x="598.1" y="495.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#0646ff">72.72%</text>
+<rect x="630.0" y="476.0" width="188" height="56" rx="5" fill="#e8f4e4" stroke="#8bb47d" stroke-width="1.5" filter="url(#shadow)"/>
+<text x="724.0" y="500.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">삼양패키징</text>
+<path d="M 818.0,504.0 H 846.0" fill="none" stroke="#64748b" stroke-width="1.4" opacity="0.78"/>
+<path d="M 846.0,504.0 V 504.0" fill="none" stroke="#64748b" stroke-width="1.4" opacity="0.78"/>
+<path d="M 846.0,504.0 H 904.0" fill="none" stroke="#0646ff" stroke-width="3.0" marker-end="url(#arrowBlue)" opacity="0.96"/>
+<rect x="852.1" y="483.0" width="40" height="16" rx="8" fill="#f8fafc" opacity="0.92"/>
+<text x="872.1" y="495.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#0646ff">100%</text>
+<rect x="904.0" y="476.0" width="188" height="56" rx="5" fill="#ffffff" stroke="#9aa8b6" stroke-width="1.5" filter="url(#shadow)"/>
+<text x="998.0" y="500.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">삼양에코테크</text>
+<path d="M 572.0,588.0 H 630.0" fill="none" stroke="#0646ff" stroke-width="3.0" marker-end="url(#arrowBlue)" opacity="0.96"/>
+<rect x="571.1" y="567.0" width="54" height="16" rx="8" fill="#f8fafc" opacity="0.92"/>
+<text x="598.1" y="579.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#0646ff">50.02%</text>
+<rect x="630.0" y="560.0" width="188" height="56" rx="5" fill="#ffffff" stroke="#9aa8b6" stroke-width="1.5" filter="url(#shadow)"/>
+<text x="724.0" y="584.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">삼양케이씨아이</text>
+<path d="M 572.0,672.0 H 630.0" fill="none" stroke="#0646ff" stroke-width="3.0" marker-end="url(#arrowBlue)" opacity="0.96"/>
+<rect x="581.1" y="651.0" width="34" height="16" rx="8" fill="#f8fafc" opacity="0.92"/>
+<text x="598.1" y="663.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#0646ff">50%</text>
+<rect x="630.0" y="644.0" width="188" height="56" rx="5" fill="#ffffff" stroke="#9aa8b6" stroke-width="1.5" filter="url(#shadow)"/>
+<text x="724.0" y="668.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">삼양화인테크놀로지</text>
+<path d="M 176.0,790.0 H 356.0" fill="none" stroke="#dc2626" stroke-width="2.2" marker-end="url(#arrowRed)" opacity="0.96"/>
+<rect x="213.0" y="769.0" width="34" height="16" rx="8" fill="#f8fafc" opacity="0.92"/>
+<text x="230.0" y="781.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#dc2626">40%</text>
+<rect x="356.0" y="762.0" width="188" height="56" rx="5" fill="#ffffff" stroke="#9aa8b6" stroke-width="1.5" filter="url(#shadow)"/>
+<text x="450.0" y="786.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">삼남석유화학</text>
+<path d="M 176.0,908.0 H 356.0" fill="none" stroke="#0646ff" stroke-width="3.0" marker-end="url(#arrowBlue)" opacity="0.96"/>
+<rect x="210.0" y="887.0" width="40" height="16" rx="8" fill="#f8fafc" opacity="0.92"/>
+<text x="230.0" y="899.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#0646ff">100%</text>
+<rect x="356.0" y="880.0" width="188" height="56" rx="5" fill="#ffffff" stroke="#9aa8b6" stroke-width="1.5" filter="url(#shadow)"/>
+<text x="450.0" y="904.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">삼양데이타시스템</text>
+<path d="M 176.0,1026.0 H 356.0" fill="none" stroke="#0646ff" stroke-width="3.0" marker-end="url(#arrowBlue)" opacity="0.96"/>
+<rect x="210.0" y="1005.0" width="40" height="16" rx="8" fill="#f8fafc" opacity="0.92"/>
+<text x="230.0" y="1017.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#0646ff">100%</text>
+<rect x="356.0" y="998.0" width="188" height="56" rx="5" fill="#e8f4e4" stroke="#8bb47d" stroke-width="1.5" filter="url(#shadow)"/>
+<text x="450.0" y="1022.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">삼양이노켐</text>
+<path d="M 544.0,1026.0 H 572.0" fill="none" stroke="#64748b" stroke-width="1.4" opacity="0.78"/>
+<path d="M 572.0,1026.0 V 1026.0" fill="none" stroke="#64748b" stroke-width="1.4" opacity="0.78"/>
+<path d="M 572.0,1026.0 H 630.0" fill="none" stroke="#0646ff" stroke-width="3.0" marker-end="url(#arrowBlue)" opacity="0.96"/>
+<rect x="581.1" y="1005.0" width="34" height="16" rx="8" fill="#f8fafc" opacity="0.92"/>
+<text x="598.1" y="1017.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#0646ff">50%</text>
+<rect x="630.0" y="998.0" width="188" height="56" rx="5" fill="#ffffff" stroke="#9aa8b6" stroke-width="1.5" filter="url(#shadow)"/>
+<text x="724.0" y="1022.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">삼양화성</text>
+<path d="M 176.0,1144.0 H 356.0" fill="none" stroke="#0646ff" stroke-width="3.0" marker-end="url(#arrowBlue)" opacity="0.96"/>
+<rect x="210.0" y="1123.0" width="40" height="16" rx="8" fill="#f8fafc" opacity="0.92"/>
+<text x="230.0" y="1135.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#0646ff">100%</text>
+<rect x="356.0" y="1116.0" width="188" height="56" rx="5" fill="#ffffff" stroke="#9aa8b6" stroke-width="1.5" filter="url(#shadow)"/>
+<text x="450.0" y="1140.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">삼양에프앤비</text>
+<path d="M 176.0,1262.0 H 356.0" fill="none" stroke="#0646ff" stroke-width="3.0" marker-end="url(#arrowBlue)" opacity="0.96"/>
+<rect x="203.0" y="1241.0" width="54" height="16" rx="8" fill="#f8fafc" opacity="0.92"/>
+<text x="230.0" y="1253.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#0646ff">59.97%</text>
+<rect x="356.0" y="1234.0" width="188" height="56" rx="5" fill="#ffffff" stroke="#9aa8b6" stroke-width="1.5" filter="url(#shadow)"/>
+<text x="450.0" y="1258.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">삼양엔씨켐</text>
+<path d="M 176.0,1380.0 H 356.0" fill="none" stroke="#0646ff" stroke-width="3.0" marker-end="url(#arrowBlue)" opacity="0.96"/>
+<rect x="210.0" y="1359.0" width="40" height="16" rx="8" fill="#f8fafc" opacity="0.92"/>
+<text x="230.0" y="1371.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#0646ff">100%</text>
+<rect x="356.0" y="1352.0" width="188" height="56" rx="5" fill="#e8f4e4" stroke="#8bb47d" stroke-width="1.5" filter="url(#shadow)"/>
+<text x="450.0" y="1362.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">Samyang</text>
+<text x="450.0" y="1377.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">Holdings</text>
+<text x="450.0" y="1392.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">USA, LLC</text>
+<path d="M 544.0,1380.0 H 572.0" fill="none" stroke="#64748b" stroke-width="1.4" opacity="0.78"/>
+<path d="M 572.0,1380.0 V 1548.0" fill="none" stroke="#64748b" stroke-width="1.4" opacity="0.78"/>
+<path d="M 572.0,1380.0 H 630.0" fill="none" stroke="#0646ff" stroke-width="3.0" marker-end="url(#arrowBlue)" opacity="0.96"/>
+<rect x="578.1" y="1359.0" width="40" height="16" rx="8" fill="#f8fafc" opacity="0.92"/>
+<text x="598.1" y="1371.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#0646ff">100%</text>
+<rect x="630.0" y="1352.0" width="188" height="56" rx="5" fill="#e8f4e4" stroke="#8bb47d" stroke-width="1.5" filter="url(#shadow)"/>
+<text x="724.0" y="1362.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">Samyang</text>
+<text x="724.0" y="1377.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">Specialty</text>
+<text x="724.0" y="1392.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">Solutions,…</text>
+<path d="M 818.0,1380.0 H 846.0" fill="none" stroke="#64748b" stroke-width="1.4" opacity="0.78"/>
+<path d="M 846.0,1380.0 V 1380.0" fill="none" stroke="#64748b" stroke-width="1.4" opacity="0.78"/>
+<path d="M 846.0,1380.0 H 904.0" fill="none" stroke="#0646ff" stroke-width="3.0" marker-end="url(#arrowBlue)" opacity="0.96"/>
+<rect x="852.1" y="1359.0" width="40" height="16" rx="8" fill="#f8fafc" opacity="0.92"/>
+<text x="872.1" y="1371.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#0646ff">100%</text>
+<rect x="904.0" y="1352.0" width="188" height="56" rx="5" fill="#e8f4e4" stroke="#8bb47d" stroke-width="1.5" filter="url(#shadow)"/>
+<text x="998.0" y="1362.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">Verdant</text>
+<text x="998.0" y="1377.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">Specialty</text>
+<text x="998.0" y="1392.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">Solutions…</text>
+<path d="M 572.0,1464.0 H 630.0" fill="none" stroke="#0646ff" stroke-width="3.0" marker-end="url(#arrowBlue)" opacity="0.96"/>
+<rect x="578.1" y="1443.0" width="40" height="16" rx="8" fill="#f8fafc" opacity="0.92"/>
+<text x="598.1" y="1455.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#0646ff">100%</text>
+<rect x="630.0" y="1436.0" width="188" height="56" rx="5" fill="#ffffff" stroke="#9aa8b6" stroke-width="1.5" filter="url(#shadow)"/>
+<text x="724.0" y="1446.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">Samyang</text>
+<text x="724.0" y="1461.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">Biopharm</text>
+<text x="724.0" y="1476.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">USA, Inc</text>
+<path d="M 572.0,1548.0 H 630.0" fill="none" stroke="#0646ff" stroke-width="3.0" marker-end="url(#arrowBlue)" opacity="0.96"/>
+<rect x="578.1" y="1527.0" width="40" height="16" rx="8" fill="#f8fafc" opacity="0.92"/>
+<text x="598.1" y="1539.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#0646ff">100%</text>
+<rect x="630.0" y="1520.0" width="188" height="56" rx="5" fill="#ffffff" stroke="#9aa8b6" stroke-width="1.5" filter="url(#shadow)"/>
+<text x="724.0" y="1530.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">Samyang</text>
+<text x="724.0" y="1545.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">Biopharm</text>
+<text x="724.0" y="1560.0" text-anchor="middle" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">Hungary</text>
+<line x1="54" y1="1730" x2="96" y2="1730" stroke="#0646ff" stroke-width="3"/>
+<text x="106" y="1734" font-family="Malgun Gothic, Arial, sans-serif" font-size="12" fill="#52637a">50% 이상</text>
+<line x1="204" y1="1730" x2="246" y2="1730" stroke="#dc2626" stroke-width="2.2"/>
+<text x="256" y="1734" font-family="Malgun Gothic, Arial, sans-serif" font-size="12" fill="#52637a">20~50%</text>
+<line x1="354" y1="1730" x2="396" y2="1730" stroke="#16a34a" stroke-width="1.5"/>
+<text x="406" y="1734" font-family="Malgun Gothic, Arial, sans-serif" font-size="12" fill="#52637a">20% 미만</text>
+<line x1="504" y1="1730" x2="546" y2="1730" stroke="#64748b" stroke-width="1.4" stroke-dasharray="6 4"/>
+<text x="556" y="1734" font-family="Malgun Gothic, Arial, sans-serif" font-size="12" fill="#52637a">관계/요약</text>
+<rect x="1377" y="1712" width="18" height="18" rx="3" fill="#dff2d9" stroke="#2f7d32"/>
+<text x="1404" y="1726" font-family="Malgun Gothic, Arial, sans-serif" font-size="12" fill="#52637a">조회 기업 강조</text>
+</svg>

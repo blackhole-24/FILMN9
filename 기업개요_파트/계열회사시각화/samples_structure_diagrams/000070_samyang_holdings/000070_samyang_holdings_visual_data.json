@@ -1,0 +1,339 @@
+﻿{
+  "target": {
+    "slug": "000070_samyang_holdings",
+    "title": "삼양홀딩스",
+    "mode": "single",
+    "code": "000070",
+    "highlight": "삼양홀딩스"
+  },
+  "root": "삼양홀딩스",
+  "meta": {
+    "source_mode": "single_company",
+    "source_code": "000070",
+    "source_path": "output\\affiliate_visualization\\000070_삼양홀딩스보통주",
+    "total_edges": 26,
+    "shown_edges": 26
+  },
+  "edges": [
+    {
+      "source": "삼양홀딩스",
+      "target": "삼양사",
+      "rate": 61.83,
+      "relation_type": "ownership",
+      "purpose": null,
+      "sources": [
+        "000070-2025-annual-01400"
+      ],
+      "aggregate": false,
+      "virtual": false
+    },
+    {
+      "source": "삼양홀딩스",
+      "target": "삼남석유화학",
+      "rate": 40.0,
+      "relation_type": "ownership",
+      "purpose": null,
+      "sources": [
+        "000070-2025-annual-01400"
+      ],
+      "aggregate": false,
+      "virtual": false
+    },
+    {
+      "source": "삼양홀딩스",
+      "target": "삼양데이타시스템",
+      "rate": 100.0,
+      "relation_type": "ownership",
+      "purpose": null,
+      "sources": [
+        "000070-2025-annual-01400"
+      ],
+      "aggregate": false,
+      "virtual": false
+    },
+    {
+      "source": "삼양홀딩스",
+      "target": "삼양이노켐",
+      "rate": 100.0,
+      "relation_type": "ownership",
+      "purpose": null,
+      "sources": [
+        "000070-2025-annual-01400"
+      ],
+      "aggregate": false,
+      "virtual": false
+    },
+    {
+      "source": "삼양홀딩스",
+      "target": "삼양에프앤비",
+      "rate": 100.0,
+      "relation_type": "ownership",
+      "purpose": null,
+      "sources": [
+        "000070-2025-annual-01400"
+      ],
+      "aggregate": false,
+      "virtual": false
+    },
+    {
+      "source": "삼양홀딩스",
+      "target": "삼양엔씨켐",
+      "rate": 59.97,
+      "relation_type": "ownership",
+      "purpose": null,
+      "sources": [
+        "000070-2025-annual-01400"
+      ],
+      "aggregate": false,
+      "virtual": false
+    },
+    {
+      "source": "우리",
+      "target": "삼양엔씨켐",
+      "rate": 4.14,
+      "relation_type": "ownership",
+      "purpose": null,
+      "sources": [
+        "000070-2025-annual-01400"
+      ],
+      "aggregate": false,
+      "virtual": false
+    },
+    {
+      "source": "삼양홀딩스",
+      "target": "Samyang Holdings USA, LLC",
+      "rate": 100.0,
+      "relation_type": "ownership",
+      "purpose": null,
+      "sources": [
+        "000070-2025-annual-01400"
+      ],
+      "aggregate": false,
+      "virtual": false
+    },
+    {
+      "source": "삼양사",
+      "target": "삼양패키징",
+      "rate": 72.72,
+      "relation_type": "ownership",
+      "purpose": null,
+      "sources": [
+        "000070-2025-annual-01400"
+      ],
+      "aggregate": false,
+      "virtual": false
+    },
+    {
+      "source": "삼양사",
+      "target": "삼양케이씨아이",
+      "rate": 50.02,
+      "relation_type": "ownership",
+      "purpose": null,
+      "sources": [
+        "000070-2025-annual-01400"
+      ],
+      "aggregate": false,
+      "virtual": false
+    },
+    {
+      "source": "삼양사",
+      "target": "삼양화인테크놀로지",
+      "rate": 50.0,
+      "relation_type": "ownership",
+      "purpose": null,
+      "sources": [
+        "000070-2025-annual-01400"
+      ],
+      "aggregate": false,
+      "virtual": false
+    },
+    {
+      "source": "삼양사",
+      "target": "삼양공정소료(상해)유한공사",
+      "rate": 100.0,
+      "relation_type": "ownership",
+      "purpose": null,
+      "sources": [
+        "000070-2025-annual-01400"
+      ],
+      "aggregate": false,
+      "virtual": false
+    },
+    {
+      "source": "삼양사",
+      "target": "삼양EP헝가리",
+      "rate": 100.0,
+      "relation_type": "ownership",
+      "purpose": null,
+      "sources": [
+        "000070-2025-annual-01400"
+      ],
+      "aggregate": false,
+      "virtual": false
+    },
+    {
+      "source": "삼양사",
+      "target": "삼양EP베트남",
+      "rate": 100.0,
+      "relation_type": "ownership",
+      "purpose": null,
+      "sources": [
+        "000070-2025-annual-01400"
+      ],
+      "aggregate": false,
+      "virtual": false
+    },
+    {
+      "source": "삼양패키징",
+      "target": "삼양에코테크",
+      "rate": 100.0,
+      "relation_type": "ownership",
+      "purpose": null,
+      "sources": [
+        "000070-2025-annual-01400"
+      ],
+      "aggregate": false,
+      "virtual": false
+    },
+    {
+      "source": "삼양이노켐",
+      "target": "삼양화성",
+      "rate": 50.0,
+      "relation_type": "ownership",
+      "purpose": null,
+      "sources": [
+        "000070-2025-annual-01400"
+      ],
+      "aggregate": false,
+      "virtual": false
+    },
+    {
+      "source": "Samyang Holdings USA, LLC",
+      "target": "Samyang Biopharm USA, Inc",
+      "rate": 100.0,
+      "relation_type": "ownership",
+      "purpose": null,
+      "sources": [
+        "000070-2025-annual-01400"
+      ],
+      "aggregate": false,
+      "virtual": false
+    },
+    {
+      "source": "Samyang Holdings USA, LLC",
+      "target": "Samyang Biopharm Hungary",
+      "rate": 100.0,
+      "relation_type": "ownership",
+      "purpose": null,
+      "sources": [
+        "000070-2025-annual-01400"
+      ],
+      "aggregate": false,
+      "virtual": false
+    },
+    {
+      "source": "Samyang Holdings USA, LLC",
+      "target": "Samyang Specialty Solutions, LLC",
+      "rate": 100.0,
+      "relation_type": "ownership",
+      "purpose": null,
+      "sources": [
+        "000070-2025-annual-01400"
+      ],
+      "aggregate": false,
+      "virtual": false
+    },
+    {
+      "source": "Samyang Specialty Solutions, LLC",
+      "target": "Verdant Specialty Solutions Global Holding Corp",
+      "rate": 100.0,
+      "relation_type": "ownership",
+      "purpose": null,
+      "sources": [
+        "000070-2025-annual-01400"
+      ],
+      "aggregate": false,
+      "virtual": false
+    },
+    {
+      "source": "Verdant Specialty Solutions Global Holding Corp",
+      "target": "Verdant Specialty Solutions US LLC",
+      "rate": 100.0,
+      "relation_type": "ownership",
+      "purpose": null,
+      "sources": [
+        "000070-2025-annual-01400"
+      ],
+      "aggregate": false,
+      "virtual": false
+    },
+    {
+      "source": "Verdant Specialty Solutions Global Holding Corp",
+      "target": "Verdant Specialty Solutions GmbH",
+      "rate": 100.0,
+      "relation_type": "ownership",
+      "purpose": null,
+      "sources": [
+        "000070-2025-annual-01400"
+      ],
+      "aggregate": false,
+      "virtual": false
+    },
+    {
+      "source": "Verdant Specialty Solutions Global Holding Corp",
+      "target": "Verdant Specialty Solutions Halifax Limited",
+      "rate": 100.0,
+      "relation_type": "ownership",
+      "purpose": null,
+      "sources": [
+        "000070-2025-annual-01401"
+      ],
+      "aggregate": false,
+      "virtual": false
+    },
+    {
+      "source": "Verdant Specialty Solutions Global Holding Corp",
+      "target": "Verdant Specialty Solutions Kimya Ticaret VE S.A. Sirketi",
+      "rate": 100.0,
+      "relation_type": "ownership",
+      "purpose": null,
+      "sources": [
+        "000070-2025-annual-01401"
+      ],
+      "aggregate": false,
+      "virtual": false
+    },
+    {
+      "source": "Verdant Specialty Solutions Global Holding Corp",
+      "target": "Verdant Specialty Solutions Canada Limited",
+      "rate": 100.0,
+      "relation_type": "ownership",
+      "purpose": null,
+      "sources": [
+        "000070-2025-annual-01401"
+      ],
+      "aggregate": false,
+      "virtual": false
+    },
+    {
+      "source": "Verdant Specialty Solutions Global Holding Corp",
+      "target": "Verdant Reactor Real Estate, LLC",
+      "rate": 100.0,
+      "relation_type": "ownership",
+      "purpose": null,
+      "sources": [
+        "000070-2025-annual-01401"
+      ],
+      "aggregate": false,
+      "virtual": false
+    }
+  ],
+  "files": {
+    "structure_svg": "output\\affiliate_structure_samples\\000070_samyang_holdings\\000070_samyang_holdings_affiliate_structure.svg",
+    "graphviz_dot": "output\\affiliate_structure_samples\\000070_samyang_holdings\\000070_samyang_holdings_graphviz.dot",
+    "graphviz_svg": "",
+    "networkx_png": "output\\affiliate_structure_samples\\000070_samyang_holdings\\000070_samyang_holdings_networkx.png",
+    "sankey_html": "output\\affiliate_structure_samples\\000070_samyang_holdings\\000070_samyang_holdings_sankey.html"
+  },
+  "used_graphviz_dot": false
+}
