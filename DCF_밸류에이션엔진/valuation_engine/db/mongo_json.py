@@ -1,17 +1,12 @@
-"""텍스트 데이터 → MongoDB-ready JSONL 저장소.
+"""텍스트 데이터 저장소 — SQLite 백엔드(조회 O(log n)) + JSONL(대용량 append).
 
-설계(사용자 결정): 텍스트 데이터는 MongoDB 에 담을 수 있도록 JSON 파일로 저장.
-  · 형식: JSONL(한 줄당 한 문서) — `mongoimport --collection X --file X.jsonl` 호환.
-  · 위치: data/mongo/<collection>.jsonl
-  · 멱등성: 문서에 `_id` 부여, 같은 _id 재적재 시 교체(append 후 dedup 보장은
-            upsert_doc 가 처리 — 파일 전체를 _id 기준으로 재기록).
-
-컬렉션:
-  · report_chunks     — 사업보고서 청크(원문 텍스트). _id = 청크 id.
-  · valuation_results — 통합 평가 결과(텍스트 포함 전체 문서). _id = "<ticker>_<eval_date>".
-
-대용량 report_chunks 는 append-only 로 적재(중복 시 _id dedup 은 migrate 단계에서
-회사·연도 단위로 관리). valuation_results 는 소량이라 upsert(전체 재기록) 사용.
+설계:
+  · valuation_results(통합 결과 doc, 조회 빈번) → SQLite `mongo_docs` 테이블.
+      PK (collection, doc_id) 인덱스로 get_doc 이 O(log n) — 기존 JSONL 전수 스캔(O(n)) 제거.
+  · report_chunks(원문 청크, 대용량 append·조회 드묾) → JSONL(data/mongo/*.jsonl).
+  · 인터페이스(get_doc/upsert_doc/iter_docs/existing_ids/count)는 동일 →
+    호출부(save_valuation_result / get_latest_result) 변경 없음.
+  · JSONL 은 mongoimport 호환 유지(report_chunks).
 """
 from __future__ import annotations
 
@@ -23,6 +18,8 @@ _VAR_ROOT = Path(__file__).resolve().parent.parent.parent
 MONGO_DIR = _VAR_ROOT / "data" / "mongo"
 
 COLLECTIONS = ("report_chunks", "valuation_results")
+# 조회가 잦은 컬렉션은 SQLite 백엔드(인덱스 조회). 그 외는 JSONL.
+_SQLITE_COLLECTIONS = {"valuation_results"}
 
 
 def _path(collection: str) -> Path:
@@ -32,11 +29,17 @@ def _path(collection: str) -> Path:
     return MONGO_DIR / f"{collection}.jsonl"
 
 
-def append_docs(collection: str, docs: Iterable[dict]) -> int:
-    """문서 다건을 JSONL 에 append (중복 검사 없음 — 대량 적재용).
+def _is_sqlite(collection: str) -> bool:
+    return collection in _SQLITE_COLLECTIONS
 
-    Returns: append 한 문서 수.
-    """
+
+def append_docs(collection: str, docs: Iterable[dict]) -> int:
+    """문서 다건 적재. SQLite 컬렉션은 _id 기준 upsert, JSONL 은 append."""
+    if _is_sqlite(collection):
+        n = 0
+        for d in docs:
+            upsert_doc(collection, d); n += 1
+        return n
     p = _path(collection)
     n = 0
     with p.open("a", encoding="utf-8") as f:
@@ -47,7 +50,12 @@ def append_docs(collection: str, docs: Iterable[dict]) -> int:
 
 
 def iter_docs(collection: str) -> Iterator[dict]:
-    """JSONL 스트리밍 읽기 (대용량 안전)."""
+    """전체 문서 스트리밍."""
+    if _is_sqlite(collection):
+        from . import store
+        for r in store.query("SELECT doc FROM mongo_docs WHERE collection=?", (collection,)):
+            yield json.loads(r["doc"])
+        return
     p = _path(collection)
     if not p.exists():
         return
@@ -59,20 +67,24 @@ def iter_docs(collection: str) -> Iterator[dict]:
 
 
 def upsert_doc(collection: str, doc: dict, id_field: str = "_id") -> None:
-    """단일 문서 upsert — 같은 _id 가 있으면 교체, 없으면 append.
-
-    소량 컬렉션(valuation_results)용. 전체를 읽어 _id 기준 교체 후 재기록.
-    """
+    """단일 문서 upsert — 같은 _id 교체, 없으면 삽입."""
     if id_field not in doc:
         raise ValueError(f"문서에 '{id_field}' 필요")
+    if _is_sqlite(collection):
+        from . import store
+        store.upsert("mongo_docs", {
+            "collection": collection,
+            "doc_id": str(doc[id_field]),
+            "doc": doc,   # store._encode 가 dict→JSON TEXT 로 직렬화(numpy 정화 포함)
+        })
+        return
     p = _path(collection)
     docs: list[dict] = []
     replaced = False
     if p.exists():
         for d in iter_docs(collection):
             if d.get(id_field) == doc[id_field]:
-                docs.append(doc)
-                replaced = True
+                docs.append(doc); replaced = True
             else:
                 docs.append(d)
     if not replaced:
@@ -85,6 +97,13 @@ def upsert_doc(collection: str, doc: dict, id_field: str = "_id") -> None:
 
 
 def get_doc(collection: str, doc_id: str, id_field: str = "_id") -> Optional[dict]:
+    """단일 문서 조회. SQLite 컬렉션은 PK 인덱스로 O(log n)."""
+    if _is_sqlite(collection):
+        from . import store
+        r = store.query_one(
+            "SELECT doc FROM mongo_docs WHERE collection=? AND doc_id=?",
+            (collection, str(doc_id)))
+        return json.loads(r["doc"]) if r else None
     for d in iter_docs(collection):
         if d.get(id_field) == doc_id:
             return d
@@ -92,18 +111,20 @@ def get_doc(collection: str, doc_id: str, id_field: str = "_id") -> Optional[dic
 
 
 def existing_ids(collection: str, id_field: str = "_id") -> set[str]:
+    if _is_sqlite(collection):
+        from . import store
+        return {r["doc_id"] for r in
+                store.query("SELECT doc_id FROM mongo_docs WHERE collection=?", (collection,))}
     return {d.get(id_field) for d in iter_docs(collection) if d.get(id_field) is not None}
 
 
 def count(collection: str) -> int:
+    if _is_sqlite(collection):
+        from . import store
+        r = store.query_one("SELECT COUNT(*) AS n FROM mongo_docs WHERE collection=?", (collection,))
+        return int(r["n"]) if r else 0
     return sum(1 for _ in iter_docs(collection))
 
 
 def counts() -> dict[str, int]:
     return {c: count(c) for c in COLLECTIONS}
-
-
-if __name__ == "__main__":
-    print(f"Mongo-JSON 디렉터리: {MONGO_DIR}")
-    for c, n in counts().items():
-        print(f"  {c:22s} {n:>8d}")

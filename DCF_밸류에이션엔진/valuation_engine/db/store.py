@@ -274,6 +274,17 @@ CREATE TABLE IF NOT EXISTS valuation_runs (
 CREATE INDEX IF NOT EXISTS idx_financials_sc ON financials(stock_code);
 CREATE INDEX IF NOT EXISTS idx_runs_sc        ON valuation_runs(stock_code, eval_date);
 CREATE INDEX IF NOT EXISTS idx_credit_sc      ON credit_ratings(stock_code);
+
+-- 통합 결과 doc(텍스트 포함 전체) — JSONL 전체 스캔(O(n)) 제거용 SQLite 백엔드.
+--   (collection, doc_id) PK 인덱스로 get_doc 이 O(log n) 조회. UI 응답 속도가
+--   종목 수에 무관해진다(기존 mongo_json.get_doc 은 매 조회 JSONL 전수 파싱).
+CREATE TABLE IF NOT EXISTS mongo_docs (
+    collection  TEXT,
+    doc_id      TEXT,
+    doc         TEXT,
+    updated_at  TEXT,
+    PRIMARY KEY (collection, doc_id)
+);
 """
 
 # 테이블별 PK 컬럼 (upsert 충돌 키)
@@ -293,6 +304,7 @@ _PK = {
     "shares":              ["stock_code", "fiscal_year"],
     "market_snapshot":     ["stock_code", "snap_date"],
     "valuation_runs":      ["run_id"],
+    "mongo_docs":          ["collection", "doc_id"],
 }
 
 
