@@ -18,6 +18,7 @@ from __future__ import annotations
 import json
 import sqlite3
 import threading
+import numpy as np
 from datetime import datetime
 from pathlib import Path
 from typing import Any, Iterable, Optional
@@ -327,12 +328,38 @@ def _ensure_init() -> None:
         _INITIALIZED = True
 
 
+def _np_default(o: Any) -> Any:
+    """json.dumps 내부의 numpy 스칼라/배열 처리 — dict/list 안에 섞인 numpy 대비."""
+    if isinstance(o, np.bool_):
+        return bool(o)
+    if isinstance(o, np.integer):
+        return int(o)
+    if isinstance(o, np.floating):
+        return float(o)
+    if isinstance(o, np.ndarray):
+        return o.tolist()
+    raise TypeError(f"not JSON serializable: {type(o)}")
+
+
 def _encode(v: Any) -> Any:
-    """dict/list → JSON 문자열, 그 외는 그대로. bool → int."""
+    """dict/list → JSON 문자열, numpy 스칼라/배열 → python, bool → int.
+
+    numpy.bool_/integer/floating 은 sqlite3 바인딩이 막혀 upsert 가 예외로 죽고,
+    run_valuation 의 guarded DB 저장이 통째로 스킵돼 valuation_runs 가 누락되던
+    문제를 여기 한 곳에서 정화한다(api._sanitize 와 동일 취지).
+    """
+    if isinstance(v, np.bool_):
+        return int(v)
+    if isinstance(v, np.integer):
+        return int(v)
+    if isinstance(v, np.floating):
+        return float(v)
+    if isinstance(v, np.ndarray):
+        return json.dumps(v.tolist(), ensure_ascii=False)
     if isinstance(v, bool):
         return int(v)
     if isinstance(v, (dict, list)):
-        return json.dumps(v, ensure_ascii=False)
+        return json.dumps(v, ensure_ascii=False, default=_np_default)
     return v
 
 
