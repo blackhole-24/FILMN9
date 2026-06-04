@@ -10,8 +10,10 @@ from pathlib import Path as _Path
 try:
     from dotenv import load_dotenv as _load_dotenv
 
-    _VAR_ROOT = _Path(__file__).resolve().parent.parent.parent  # embedding/chatbot → VAR
-    _load_dotenv(_VAR_ROOT / ".env")
+    _VAR_ROOT = _Path(__file__).resolve().parent.parent.parent  # embedding/chatbot → VAR(=chatbot)
+    _load_dotenv(_VAR_ROOT / ".env")            # chatbot/.env (있으면)
+    # 프로젝트 루트 FILMN9/.env 도 로드 (OPENAI_API_KEY 가 여기 저장됨; 키 값은 옮기지 않고 위치만 지정)
+    _load_dotenv(_VAR_ROOT.parent / ".env")
 except ImportError:
     # python-dotenv 미설치 시: 환경변수에 직접 설정돼 있으면 그대로 동작.
     pass

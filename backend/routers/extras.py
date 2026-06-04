@@ -594,20 +594,32 @@ def get_financial_detail(stock_code: str, statement_type: str, scope: str = "연
 
     placeholders = ",".join("?" * len(st_filter))
 
+    _sql = (
+        f"SELECT fiscal_year, account_id, account_nm, amount, "
+        f"       statement_scope, statement_type, display_order "
+        f"FROM financial_detail "
+        f"WHERE stock_code = ? AND statement_type IN ({placeholders}) "
+        f"  AND statement_scope = ? "
+        f"ORDER BY fiscal_year DESC, display_order"
+    )
+    used_scope = scope
+    scope_fallback = False
     with _conn() as conn:
-        rows = conn.execute(
-            f"SELECT fiscal_year, account_id, account_nm, amount, "
-            f"       statement_scope, statement_type, display_order "
-            f"FROM financial_detail "
-            f"WHERE stock_code = ? AND statement_type IN ({placeholders}) "
-            f"  AND statement_scope = ? "
-            f"ORDER BY fiscal_year DESC, display_order",
-            (stock_code, *st_filter, scope)).fetchall()
+        rows = conn.execute(_sql, (stock_code, *st_filter, scope)).fetchall()
+        # 요청 scope에 데이터 없으면 반대 scope로 자동 폴백.
+        # (연결 없는 비연결 기업 → 별도가 유일한 정식 재무제표. 임의 생성 아닌 실데이터 폴백)
+        if not rows:
+            other = "별도" if scope == "연결" else "연결"
+            alt = conn.execute(_sql, (stock_code, *st_filter, other)).fetchall()
+            if alt:
+                rows = alt
+                used_scope = other
+                scope_fallback = True
         unit = _detect_fd_unit(conn, stock_code)   # 종목별 단위 감지
 
     if not rows:
         raise HTTPException(404,
-            f"{stock_code} {st} ({scope}) 데이터 없음")
+            f"{stock_code} {st} 데이터 없음 (연결·별도 모두)")
 
     # pivot — account_id 기준 (계정명이 같아도 ID 다르면 별개 행)
     years = sorted({r["fiscal_year"] for r in rows}, reverse=True)
@@ -671,7 +683,9 @@ def get_financial_detail(stock_code: str, statement_type: str, scope: str = "연
     return {
         "stock_code": stock_code,
         "statement_type": st,
-        "scope": scope,
+        "scope": used_scope,            # 실제 사용된 scope (폴백 시 반대값)
+        "scope_requested": scope,       # 요청한 scope
+        "scope_fallback": scope_fallback,
         "fiscal_years": [str(y) for y in years],
         "unit": unit,
         "items": items,

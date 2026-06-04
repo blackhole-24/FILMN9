@@ -1,0 +1,114 @@
+================================================================================
+  FILMN9 — 밸류에이션 취합 스펙 & 팀원 합의서  (작성 2026-06-02)
+  목적: 6/4 밸류에이션 취합을 "폴더 복사만으로 끝"내기 위한 정확한 데이터 계약(contract)
+  근거: backend/routers/valuation.py + 검증된 데모 3종목 실제 파일에서 추출 (Mock 아님)
+================================================================================
+
+[ 결론 한 줄 ]
+  팀원(유태상)이 종목별로 아래 "6개 파일"을 아래 스키마대로 만들어
+  data/valuation_results/{종목코드}_{종목명}/ 에 넣으면, 서버 재시작 없이 화면이 실데이터로 자동 전환된다.
+
+
+────────────────────────────────────────────────────────────────────────────────
+1. 취합 구조 (이미 동작 검증됨)
+────────────────────────────────────────────────────────────────────────────────
+  - 폴더 위치:  C:\Users\Admin\FILMN9\data\valuation_results\{종목코드}_{종목명}\
+       예) 090430_아모레퍼시픽 / 009150_삼성전기 / 035420_NAVER  ← 이 3개는 이미 실데이터로 동작 중
+  - 폴더명 규칙: 코드 + "_" 로 시작하면 됨(뒤 이름은 자유). 같은 코드 폴더 여러 개면 "수정시각 최신" 우선.
+  - 화면 위치: 종목상세 '밸류에이션' 탭.  엔드포인트: GET /api/valuation/{code}
+  - 폴더 없으면 → is_mock:true 반환 → 프론트가 하드코딩 Mock 표시(현재 대부분 종목 상태).
+  - 즉 "폴더 복사 = 실데이터 전환". 서버 재시작 불필요.
+
+
+────────────────────────────────────────────────────────────────────────────────
+2. ★중요★ 스키마 불일치 (= 6/4 합의 핵심)
+────────────────────────────────────────────────────────────────────────────────
+  - 팀원 엔진 run_valuation.py 는 결과를 "합본 1개 파일"로 저장함:
+        valuation_engine/results/valuation_<YYYYMMDD>.json  (Streamlit용 스키마, 한글 키)
+  - 그러나 백엔드가 읽는 형식은 "6개 분리 파일"(영문 snake_case 키)임. 둘은 키 이름·구조·단위가 다름.
+  - repo 전체 검색 결과, 이 6개 파일을 "생성하는" 스크립트는 없음(backend만 '소비').
+    → 데모 3종목의 6개 파일은 누군가 수동/비공개 스크립트로 만든 것으로 추정.
+
+  ⇒ 따라서 합의 필요: "합본 → 6개 파일" 변환(=split/export) 을 누가/어떻게 할지.
+     [권장] 팀원이 데모 3종목 6개 파일을 만든 그 스크립트(또는 방법)를 공유 → 전 종목에 돌리면 끝.
+     (대안: 우리 쪽에서 변환기 작성. 단 합본 파일은 일부 단위·키가 달라 손실 가능 → 팀원 원본 export가 정확)
+
+
+────────────────────────────────────────────────────────────────────────────────
+3. 6개 파일 정확 스키마 (데모 090430 실제 파일 기준 — 이게 정답 템플릿)
+────────────────────────────────────────────────────────────────────────────────
+  ※ 단위 표기 주의: "billion" = 십억원 (백엔드가 ×10 해서 '억원'으로 표시). 주가류는 '원'.
+
+ (1) dcf_result.json
+     stock_code, as_of_date, currency, dcf_valid(bool), dcf_invalid_reason,
+     fair_value_per_share(원), current_price(원), upside_pct,
+     equity_value_billion(십억), ev_billion(십억), net_debt_billion(십억),
+     noa_billion, minority_interest_billion, implied_roic_pct, wacc_pct,
+     roic_minus_wacc_pct, dcf_confidence,
+     scenarios{ bear:{fair_value(원)...}, base:{...}, bull:{...} },
+     g_terminal_pct, validation{ g_lt_rf_lt_wacc, roic_gt_wacc, capex_normalized }
+     ※ 필수: 이 파일과 fcff_result.json 둘 중 하나라도 없으면 500 에러.
+
+ (2) fcff_result.json
+     stock_code, as_of_date, currency, unit("billion"),
+     fiscal_years[ "...","...","TV" ], revenue_growth_pct[], revenue[], ebit[],
+     opm_pct[], tax[], tax_rate_pct[], da[], capex_net[], delta_nwc[],
+     fcff[], discount_factor[], pv[], ev_total_billion, model_version
+     ※ 연도 배열은 5개 + "TV". 금액 배열 단위 = 십억원.
+
+ (3) wacc_result.json
+     stock_code, as_of_date,
+     components{ rf_pct, erp_pct, beta_levered_target, srp_pct, crp_pct,
+                 ke_pct, credit_rating, kd_pct, (weight_equity_pct, weight_debt_pct,
+                 tax_rate_pct, wacc_pct 도 백엔드가 읽음) },
+     peer_capital_structure[ {name, beta_l, de_pct, tax_pct, beta_u} ],
+     peer_median{ beta_l, de_pct, beta_u }, target_beta_u_method, hamada_formula,
+     sources{ rf, kd, srp, credit_rating }
+
+ (4) multiples_result.json
+     stock_code, as_of_date,
+     multiples[ {metric, peer_median, peer_p25, peer_p75, target_value,
+                 implied_per_share(원), vs_current_pct, in_range(bool)} ],
+     average_implied_per_share, average_upside_pct
+
+ (5) peer_beta_result.json
+     stock_code, as_of_date, method, window,
+     peer_betas[ {name, n_weeks, beta_raw, beta_adj, r_squared, warnings[]} ]
+     ※ peer_betas[0] = 분석 대상 종목 본인(백엔드가 isSelf=true 처리).
+
+ (6) uncertainty_result.json
+     stock_code, as_of_date,
+     sensitivity_matrix{ rows[ "WACC -1%p","WACC (Base)","WACC +1%p" ],
+                         cols[ "g = 1.5%","g = 2.0%","g = 2.5%" ],
+                         values[[...]], unit },
+     tornado[ {variable, neg, pos} ]   ※ neg/pos = 원/주
+
+
+────────────────────────────────────────────────────────────────────────────────
+4. 팀원에게 보낼 합의 메시지 (그대로 복사해 전달)
+────────────────────────────────────────────────────────────────────────────────
+  안녕하세요. 밸류에이션 취합 관련해서 우리 백엔드 연동 구조를 확인했습니다.
+
+  - 우리 화면은 종목별로 아래 6개 JSON 파일을 읽어 '밸류에이션 탭'에 자동 표시합니다.
+    (dcf_result / fcff_result / wacc_result / multiples_result / peer_beta_result / uncertainty_result)
+    폴더 data/valuation_results/{코드}_{이름}/ 에 넣기만 하면 서버 재시작 없이 실데이터로 바뀝니다.
+  - 데모 3종목(아모레/삼성전기/NAVER)은 이미 이 6개 파일 형식으로 들어와 정상 동작합니다.
+    → 이 3개 폴더가 "정답 템플릿"입니다. 같은 키·단위로 나머지 종목을 만들어 주시면 됩니다.
+
+  [요청 1] run_valuation.py 는 합본(valuation_<날짜>.json) 1개로 저장하는데,
+           데모 3종목의 "6개 분리 파일"을 만든 스크립트(또는 export 방법)를 공유해 주실 수 있을까요?
+           그걸 전 종목에 돌리면 취합이 끝납니다.
+  [요청 2] 6/4까지 우선 데모/시연 핵심 종목 위주로 6개 파일 폴더를 전달해 주시면,
+           우리가 data/valuation_results/ 에 넣어 바로 반영하겠습니다.
+  [참고]   단위는 금액=십억원(billion), 주가=원 기준으로 맞춰 주세요(데모 파일과 동일).
+
+
+────────────────────────────────────────────────────────────────────────────────
+5. 우리 쪽 To-Do (6/4)
+────────────────────────────────────────────────────────────────────────────────
+  - 팀원이 6개 파일 폴더 전달 → data/valuation_results/{코드}_{이름}/ 에 복사 → 화면 자동 반영 확인.
+  - 종목상세 '밸류에이션' 탭에서 is_mock=false 인지, 적정가/DCF표/WACC/멀티플/민감도/토네이도 정상 표시 확인.
+  - 안 들어온 종목은 그대로 Mock 표시되므로, NO-MOCK 원칙상 시연은 '실데이터 들어온 종목' 위주로.
+
+  [제약] 우리가 임의로 밸류에이션 숫자를 만들지 않는다(NO-MOCK). 팀원 산출 실데이터만 반영.
+================================================================================

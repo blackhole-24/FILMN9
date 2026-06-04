@@ -16,6 +16,7 @@ const CandlestickChart = dynamic(() => import('@/components/candlestick-chart'),
 const FullChart = dynamic(() => import('@/components/full-chart'), { ssr: false });
 
 const API = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000';
+const CHAT_API = process.env.NEXT_PUBLIC_CHAT_API_URL || 'http://localhost:8800';  // RAG 챗봇 서버
 
 // ─── 색상·상수 ────────────────────────────────────────────────────
 const DONUT_COLORS = ['#6366F1', '#3B82F6', '#10B981', '#8B5CF6', '#F59E0B', '#6B7280'];
@@ -500,7 +501,7 @@ export default function StockPage() {
   const [recent,       setRecent]       = useState<{stock_code:string;corp_name:string}[]>([]);
   const [chatInput,    setChatInput]    = useState('');
   const [chatMessages, setChatMessages] = useState<{text:string;isUser:boolean}[]>([
-    { text:'안녕하세요! DART 2024 사업보고서 기반으로 답변드립니다.\n아래 추천 질문을 클릭하시거나 직접 질문해주세요. (PoC 데모용 · 사전 매핑 답변)', isUser:false }
+    { text:'안녕하세요! DART 사업보고서를 실시간 검색(RAG)해 답변드립니다.\n아래 추천 질문을 클릭하거나 직접 질문해주세요. (답변에 10~30초 소요)', isUser:false }
   ]);
 
   const miniRef    = useRef<HTMLDivElement>(null);
@@ -776,7 +777,8 @@ export default function StockPage() {
     '26110': '반도체 제조',
     '26210': '디스플레이 제조',
   };
-  const industryName = SECTOR_MAP[String(company.sector)] || company.industry || (company.sector ? `업종코드 ${company.sector}` : '—');
+  // 업종명: 코드매핑 → WICS(peers, 전 종목 보유) → DART industry → 코드 표기 순
+  const industryName = SECTOR_MAP[String(company.sector)] || peers?.wics || company.industry || (company.sector ? `업종코드 ${company.sector}` : '—');
 
   // ─── 시총 추정 (주주 데이터 기반: 최대주주 지분율 역산) ─────────
   // 출처: DART 주주현황(shareholders) + OHLCV 종가
@@ -821,16 +823,33 @@ export default function StockPage() {
   const overallColor = gradeColor[health?.overall_grade] || gradeColor.gray;
   const overallLabel: Record<string,string> = {green:'우량 🟢',yellow:'주의 🟡',red:'위험 🔴',gray:'데이터없음'};
 
-  // 챗봇 — 종목별 RAG 응답 (키워드 매칭)
-  const sendChat = (text?: string) => {
+  // 챗봇 — 진짜 RAG 응답 (사업보고서 기반, 8800 서버). NO-MOCK
+  const sendChat = async (text?: string) => {
     const msg = text || chatInput;
     if (!msg.trim()) return;
-    setChatMessages(prev=>[...prev,{text:msg,isUser:true}]);
+    // 사용자 메시지 + 임시 로딩 메시지 추가
+    setChatMessages(prev=>[...prev,
+      {text:msg, isUser:true},
+      {text:'⏳ 사업보고서를 검색하고 있어요… (10~30초)', isUser:false}]);
     setChatInput('');
-    setTimeout(()=>{
-      const ans = findAnswer(msg);
-      setChatMessages(prev=>[...prev,{text:ans,isUser:false}]);
-    }, 800);
+    try {
+      const res = await fetch(`${CHAT_API}/chat`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ message: msg, ticker: code, current_year: 2026 }),
+      });
+      const d = await res.json();
+      let ans = d.answer || '답변을 생성하지 못했습니다.';
+      const srcs = (d.sources || []).slice(0,3)
+        .map((s:any)=>`· ${s.corp_name||''} ${s.year||''} ${s.section||s.title||''}`.trim())
+        .filter(Boolean).join('\n');
+      if (srcs) ans += `\n\n📄 출처\n${srcs}`;
+      // 로딩 메시지를 실제 답변으로 교체
+      setChatMessages(prev=>[...prev.slice(0,-1), {text:ans, isUser:false}]);
+    } catch {
+      setChatMessages(prev=>[...prev.slice(0,-1),
+        {text:'⚠️ 챗봇 서버에 연결하지 못했습니다. (RAG 서버 8800 확인 필요)', isUser:false}]);
+    }
   };
 
   // 종목별 추천 질문 칩 (3개씩)
@@ -1552,7 +1571,7 @@ export default function StockPage() {
                     className={`px-4 py-1.5 text-xs rounded-full font-semibold transition-colors ${finTab===t
                       ? 'text-white bg-indigo-600'
                       : 'bg-slate-100 text-slate-600 hover:bg-slate-200 dark:bg-slate-700 dark:text-slate-300'}`}>
-                    {t==='BS'?'재무상태표(연결)':t==='IS'?'손익계산서(연결)':'손익흐름도'}
+                    {t==='BS'?`재무상태표(${bsData?.scope||'연결'})`:t==='IS'?`손익계산서(${isData?.scope||'연결'})`:'손익흐름도'}
                   </button>
                 ))}
               </div>
@@ -1577,7 +1596,7 @@ export default function StockPage() {
                     ['업종',     industryName],
                     ['대표이사', company.ceo || '—'],
                     ['결산월',   company.fiscal_month ? company.fiscal_month+'월' : '—'],
-                    ['상장일',   company.listing_date || company.listed_date || '—'],
+                    ['상장일',   (()=>{ const d=String(company.listing_date||company.listed_date||''); const m=d.match(/^(\d{4})(\d{2})(\d{2})$/); return m?`${m[1]}-${m[2]}-${m[3]}`:(d||'—'); })()],
                     ['주소',     company.address ? company.address.slice(0,18)+'…' : '—'],
                     ['홈페이지', company.homepage || '—'],
                     ['전화',     company.phone || '—'],
@@ -1899,7 +1918,20 @@ export default function StockPage() {
       )}
 
       {/* ═══ TAB2: 밸류에이션 ═══ */}
-      {!loadingMain && mainTab === 'valuation' && (
+      {/* 밸류에이션 실데이터 없음 → 가짜 숫자(Mock) 대신 정직하게 안내 (NO-MOCK) */}
+      {!loadingMain && mainTab === 'valuation' && (!valData || valData.is_mock) && (
+        <div className="max-w-2xl mx-auto px-4 py-20 text-center">
+          <div className="text-5xl mb-4">🧮</div>
+          <h2 className="text-xl font-bold text-slate-700 dark:text-slate-200 mb-2">밸류에이션 데이터 준비 중</h2>
+          <p className="text-sm text-slate-500 dark:text-slate-400 leading-relaxed">
+            이 종목은 아직 밸류에이션 <b>실데이터가 산출되지 않았습니다.</b><br/>
+            정확한 적정주가는 데이터 취합 후 제공됩니다. (임의 추정치는 표시하지 않습니다)
+          </p>
+          <p className="mt-3 text-xs text-slate-400">현재 실데이터 보유: 데모 종목(아모레퍼시픽·삼성전기·NAVER) 등 취합 완료분</p>
+        </div>
+      )}
+
+      {!loadingMain && mainTab === 'valuation' && valData && !valData.is_mock && (
         <div className="max-w-7xl mx-auto px-4 py-6 space-y-5">
 
           {/* Hero */}
@@ -2329,7 +2361,7 @@ export default function StockPage() {
                       ? 'text-white bg-indigo-600'
                       : 'bg-white dark:bg-slate-700 border border-slate-200 dark:border-slate-600 text-slate-700 dark:text-slate-300'}`}>
                       {m.text}
-                      {!m.isUser && i > 0 && <div className="text-[10px] text-slate-400 mt-2 pt-2 border-t border-slate-100 dark:border-slate-600">📄 PoC 데모용 · DART 사업보고서 사전 매핑 응답</div>}
+                      {!m.isUser && i > 0 && <div className="text-[10px] text-slate-400 mt-2 pt-2 border-t border-slate-100 dark:border-slate-600">🔎 DART 사업보고서 실시간 검색(RAG) · gpt-5-mini</div>}
                     </div>
                   </div>
                 ))}

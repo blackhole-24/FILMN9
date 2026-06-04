@@ -20,6 +20,7 @@ from pathlib import Path
 from typing import Optional
 
 from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import StreamingResponse, HTMLResponse
 from pydantic import BaseModel
 
@@ -47,6 +48,14 @@ async def lifespan(app: "FastAPI"):
 
 
 app = FastAPI(title="사업보고서 RAG 챗봇", version="1.0", lifespan=lifespan)
+
+# CORS — 프론트(localhost:3000)에서 직접 호출 가능하도록
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 _INDEX_HTML = Path(__file__).resolve().parent / "static" / "index.html"
 

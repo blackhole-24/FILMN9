@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ko"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FILMN9 개발 프로세스 — 워터폴 / 에자일 (WBS 역설계)</title>
+<style>
+ *{box-sizing:border-box;margin:0;padding:0}
+ body{font-family:'Malgun Gothic','Apple SD Gothic Neo',sans-serif;background:#0f172a;color:#e2e8f0;padding:24px;line-height:1.5}
+ h1{font-size:1.5rem;color:#fff;margin-bottom:4px}
+ .sub{color:#94a3b8;font-size:.85rem;margin-bottom:6px}
+ .note{background:#1e293b;border:1px solid #334155;border-left:4px solid #6366f1;border-radius:8px;padding:11px 15px;margin:12px 0 18px;font-size:.82rem;color:#cbd5e1}
+ /* 탭 */
+ .tabs{display:flex;gap:8px;margin:10px 0 18px}
+ .tab{padding:10px 22px;border-radius:10px 10px 0 0;border:1px solid #334155;border-bottom:none;background:#1e293b;color:#94a3b8;font-weight:700;cursor:pointer;font-size:.92rem}
+ .tab.active{background:#312e81;color:#fff;border-color:#6366f1}
+ .tab.a.active{background:#14532d;border-color:#22c55e}
+ .panel{display:none}.panel.show{display:block}
+ h2{font-size:1.1rem;color:#fff;margin:8px 0 4px}
+ .desc{color:#94a3b8;font-size:.82rem;margin-bottom:14px}
+ /* 워터폴 가로 흐름 */
+ .wf{display:flex;flex-wrap:wrap;align-items:stretch}
+ .wf-step{flex:1;min-width:165px;background:#1e293b;border:1px solid #334155;border-radius:10px;padding:12px;margin:6px}
+ .wf-step .ph{font-size:.7rem;color:#818cf8;font-weight:700}
+ .wf-step .dt{font-size:.66rem;color:#64748b}
+ .wf-step .ti{font-size:.92rem;color:#fff;font-weight:700;margin:3px 0 7px}
+ .wf-step ul{list-style:none;font-size:.73rem;color:#cbd5e1}
+ .wf-step li{padding:2px 0 2px 11px;position:relative}
+ .wf-step li:before{content:'▸';position:absolute;left:0;color:#6366f1}
+ .wf-arrow{align-self:center;color:#6366f1;font-size:1.3rem;font-weight:700}
+ /* 에자일 스프린트 */
+ .ag{display:grid;grid-template-columns:repeat(auto-fit,minmax(215px,1fr));gap:11px}
+ .sp{background:#14210f;border:1px solid #2f4a1e;border-radius:10px;padding:13px}
+ .sp .sh{font-size:.74rem;color:#86efac;font-weight:700}
+ .sp .dt{font-size:.66rem;color:#5f8a4a}
+ .sp .st{font-size:.9rem;color:#fff;font-weight:700;margin:3px 0 7px}
+ .sp ul{list-style:none;font-size:.74rem;color:#cbd5e1}
+ .sp li{padding:2px 0 2px 11px;position:relative}
+ .sp li:before{content:'•';position:absolute;left:0;color:#22c55e}
+ .sp .mt{margin-top:6px;font-size:.68rem;color:#fbbf24}
+ .loop{background:#0b1220;border:1px dashed #475569;border-radius:10px;padding:11px 15px;margin:14px 0;font-size:.8rem;color:#cbd5e1}
+ .loop b{color:#fbbf24}
+ /* 공통 */
+ .parts{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:10px;margin-top:8px}
+ .part{background:#111c33;border:1px solid #1e293b;border-radius:9px;padding:11px}
+ .part .pn{font-size:.82rem;color:#60a5fa;font-weight:700}
+ .part .pd{font-size:.73rem;color:#cbd5e1;margin-top:3px}
+ .cmp{width:100%;border-collapse:collapse;margin-top:10px;font-size:.78rem}
+ .cmp th{background:#1d2b45;color:#cbd5e1;padding:7px;text-align:left}
+ .cmp td{border-top:1px solid #1e293b;padding:7px;color:#cbd5e1;vertical-align:top}
+ footer{margin-top:22px;color:#64748b;font-size:.72rem;border-top:1px solid #1e293b;padding-top:10px}
+</style></head><body>
+
+<h1>🗂️ FILMN9 개발 프로세스 — 워터폴 / 에자일 (WBS 역설계)</h1>
+<div class="sub">KPMG AI Lab · KOSPI/KOSDAQ ~3,000개 기업 AI 분석 플랫폼 · 킥오프 04/22 → 최종발표 06/20</div>
+<div class="note">
+  📌 이 문서는 <b>실제 WBS(킥오프~Sprint5)</b>를 기준으로 개발 과정을 정리한 것입니다.
+  실제 진행은 화면(HTML) 중심 반복 개선에 가까웠고(=에자일), 발표용으로는 전통적 단계(=워터폴)로도 설명할 수 있습니다.
+  아래 <b>두 탭</b>으로 같은 프로젝트를 두 관점에서 봅니다.
+</div>
+
+<div class="tabs">
+  <button class="tab active" id="t-wf" onclick="show('wf')">🌊 워터폴 버전</button>
+  <button class="tab a" id="t-ag" onclick="show('ag')">🔁 에자일 버전 (실제 진행)</button>
+</div>
+
+<!-- ════════ 워터폴 ════════ -->
+<div class="panel show" id="p-wf">
+  <h2>워터폴 — 단계별 순차 진행 (발표용 정석 서술)</h2>
+  <div class="desc">요구사항 → 설계 → 구현 → 통합 → 검증 → 배포/발표. 각 단계는 WBS의 실제 작업·날짜로 채움.</div>
+  <div class="wf">
+    <div class="wf-step"><div class="ph">PHASE 1</div><div class="dt">04/22 ~ 04/28 (킥오프·S1)</div><div class="ti">요구사항 분석</div>
+      <ul><li>주제선정·팀빌딩·그라운드룰</li><li>프로젝트 기획서</li><li>페르소나 3종</li><li>프로젝트 헌장서</li><li>요구사항정의서</li><li>WBS 작성</li></ul></div>
+    <div class="wf-arrow">→</div>
+    <div class="wf-step"><div class="ph">PHASE 2</div><div class="dt">04/29 ~ 05/09 (S2)</div><div class="ti">설계</div>
+      <ul><li>개발환경·DB(DDL) 설계</li><li>ERD(9테이블·Sankey)</li><li>밸류 알고리즘 설계(WACC·DCF)</li><li>Figma 와이어프레임</li><li>데이터 소스 정의(ECOS·KOFIA·KRX)</li></ul></div>
+    <div class="wf-arrow">→</div>
+    <div class="wf-step"><div class="ph">PHASE 3</div><div class="dt">05/06 ~ 06/05 (S2~S4)</div><div class="ti">구현 (파트별)</div>
+      <ul><li>데이터 수집·파이프라인</li><li>밸류에이션 엔진(DCF/WACC/멀티플/Beta)</li><li>기업개요·재무·주가</li><li>히스토리브리핑(LLM)</li><li>AI 챗봇(RAG)·UI(Next16)</li></ul></div>
+    <div class="wf-arrow">→</div>
+    <div class="wf-step"><div class="ph">PHASE 4</div><div class="dt">05/12 ~ 06/05 (S3~S4)</div><div class="ti">통합</div>
+      <ul><li>DB 적재(SQLite 9테이블·MongoDB)</li><li>FastAPI 15+ 엔드포인트</li><li>파트별 산출물 취합</li><li>GitHub·팀원 PC 환경 통일</li><li>3,000종목 전수화</li></ul></div>
+    <div class="wf-arrow">→</div>
+    <div class="wf-step"><div class="ph">PHASE 5</div><div class="dt">06/08 ~ 06/19 (S5)</div><div class="ti">검증 / QA</div>
+      <ul><li>테스트케이스 30개+</li><li>통합테스트·버그수정</li><li>신뢰도 검증(원본 대조)</li><li>비기능 검증(응답10초·보안·면책)</li></ul></div>
+    <div class="wf-arrow">→</div>
+    <div class="wf-step"><div class="ph">PHASE 6</div><div class="dt">05/26 ~ 06/20</div><div class="ti">배포 / 발표</div>
+      <ul><li>AWS 배포(EC2·S3·RDS·Secrets·Route53)</li><li>관리자 페이지(기본+신뢰도검증)</li><li>산출물 패키징·제출</li><li>최종 발표(6/20)</li></ul></div>
+  </div>
+</div>
+
+<!-- ════════ 에자일 ════════ -->
+<div class="panel" id="p-ag">
+  <h2>에자일 — 스프린트 반복 (실제 진행 방식)</h2>
+  <div class="desc">킥오프 후 스프린트마다 화면·데이터·기능을 붙여 개선. 멘토링으로 피드백 반영. WBS 실제 날짜 기준.</div>
+  <div class="ag">
+    <div class="sp"><div class="sh">킥오프</div><div class="dt">04/22 ~ 04/24</div><div class="st">팀빌딩·헌장</div>
+      <ul><li>주제선정·역할·그라운드룰</li><li>프로젝트 헌장·범위</li><li>페르소나·WBS</li></ul></div>
+    <div class="sp"><div class="sh">SPRINT 1</div><div class="dt">04/27 ~ 04/28</div><div class="st">기획·정의</div>
+      <ul><li>기획서·요구사항정의서</li><li>노션·GitHub 생성</li><li>산출물 저장소</li></ul></div>
+    <div class="sp"><div class="sh">SPRINT 2</div><div class="dt">04/29 ~ 05/09</div><div class="st">기반·밸류엔진</div>
+      <ul><li>개발환경·DB(DDL)</li><li>데이터 수집(ECOS·KOFIA·KRX)</li><li>WACC·FCF·DCF·멀티플 구현</li><li>Figma 와이어프레임</li></ul>
+      <div class="mt">🎓 1차 멘토링 05/09 · MVP 범위 확정</div></div>
+    <div class="sp"><div class="sh">SPRINT 3</div><div class="dt">05/12 ~ 05/22</div><div class="st">기업개요·AI·UI</div>
+      <ul><li>기업개요 탭·DART 수집</li><li>히스토리브리핑(gpt-5-mini·142종목)</li><li>밸류 LLM·Beta·DCF 고도화</li><li>UI(Next16·3탭)·FastAPI·1차 배포</li></ul>
+      <div class="mt">🎓 2차 멘토링 05/16</div></div>
+    <div class="sp"><div class="sh">SPRINT 4</div><div class="dt">05/26 ~ 06/05</div><div class="st">전수화·통합·데모</div>
+      <ul><li>재무 정확성(2,695 전종목 100%)</li><li>AI 브리핑 확장(2,526)·1d 요인분석</li><li>밸류 통합(6탭·4-Way 내재가치)</li><li>UI/UX 고도화·AWS 배포·RAG 챗봇</li></ul>
+      <div class="mt">🎓 3차 멘토링 05/30 · 🎯 데모 06/05</div></div>
+    <div class="sp"><div class="sh">SPRINT 5</div><div class="dt">06/08 ~ 06/19</div><div class="st">QA·배포·발표</div>
+      <ul><li>QA(테스트케이스·통합테스트)</li><li>신뢰도 검증·비기능 검증</li><li>3차 배포·README·산출물 패키징</li><li>최종 발표 PPT·리허설</li></ul>
+      <div class="mt">🎓 4차 멘토링 06/13 · 🏁 최종발표 06/20</div></div>
+  </div>
+  <div class="loop">
+    🔁 <b>각 스프린트 내부 루프(실제 방식):</b>
+    화면 구현(HTML/Next) → 데이터·API 연결 → 멘토·본인 피드백 → 개선 → 다음 기능.
+    <br>※ ERD·DB·아키텍처 문서는 화면이 잡힌 뒤 "역으로" 정리 (전통 순서와 반대 = 바이브 코딩 → 본 문서가 그 역설계).
+  </div>
+</div>
+
+<!-- 파트 분배 (공통) -->
+<h2 style="margin-top:26px">👥 파트 분배 (WBS 담당 기준)</h2>
+<div class="parts">
+  <div class="part"><div class="pn">이형주 (기업개요·종목상세·인프라)</div><div class="pd">재무·주가·재무건전성·Sankey·공시·UI·DB 적재·데이터 파이프라인</div></div>
+  <div class="part"><div class="pn">고휘주 (히스토리브리핑·AI)</div><div class="pd">DART RAG·LLM 브리핑·신뢰도 등급·주가 1d 요인분석·MongoDB 적재</div></div>
+  <div class="part"><div class="pn">유태상 (밸류에이션 엔진)</div><div class="pd">WACC·DCF·멀티플·피어 Beta·EPV·Reverse DCF·4-Way 내재가치</div></div>
+  <div class="part"><div class="pn">손소희 (기획·디자인)</div><div class="pd">페르소나·요구사항정의서·Figma 와이어프레임·밸류 LLM/Beta 보조</div></div>
+  <div class="part"><div class="pn">전원</div><div class="pd">개발환경·DB 설계·UI/UX 고도화·AWS 배포·QA·발표</div></div>
+</div>
+
+<!-- 비교 -->
+<h2 style="margin-top:26px">⚖️ 워터폴 vs 에자일 — 우리 프로젝트 관점</h2>
+<table class="cmp">
+ <tr><th>구분</th><th>워터폴</th><th>에자일 (실제)</th></tr>
+ <tr><td>진행</td><td>요구→설계→구현→검증→배포 순차</td><td>킥오프 후 Sprint마다 반복·멘토링 피드백</td></tr>
+ <tr><td>강점</td><td>문서·단계 명확, 발표 서술 쉬움</td><td>빠른 시제품, 변경 즉시 반영</td></tr>
+ <tr><td>FILMN9</td><td>발표용 "정석 서술"에 적합</td><td>3주~8주 PoC·잦은 변경에 실제 부합</td></tr>
+ <tr><td>리스크</td><td>초기 요구 확정 어려움</td><td>ERD/DB/문서 후행 → PM 산출물 역정리 필요(본 문서가 그 작업)</td></tr>
+</table>
+
+<footer>
+  FILMN9 개발 프로세스 역설계 · 워터폴/에자일 2버전(탭) · WBS 기준 · 생성 2026-06-02 ·
+  발표(6/20)용 — PM 업무로 계속 보강. 모든 내용 실제 WBS 기반(임의 생성 없음).
+</footer>
+
+<script>
+function show(v){
+  document.getElementById('p-wf').classList.toggle('show', v==='wf');
+  document.getElementById('p-ag').classList.toggle('show', v==='ag');
+  document.getElementById('t-wf').classList.toggle('active', v==='wf');
+  document.getElementById('t-ag').classList.toggle('active', v==='ag');
+}
+</script>
+</body></html>

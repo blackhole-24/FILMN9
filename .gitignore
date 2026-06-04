@@ -314,3 +314,14 @@ test_realtime.py
 _reorg.py
 _list_handover.py
 _rename_repo.py
+
+# 로컬 전용 아카이브 (GitHub 푸시 금지 — 과거 인수인계 합본 + A삭제 근거기록 보관)
+_archive_local/
+
+# C그룹 스크래치/확인용 (푸시 금지)
+_diag.py
+_research_b2c.py
+deliverables_docs/FILMN9_GitHub_전체파일_트리맵.html
+deliverables_docs/_make_repo_index_html.py
+deliverables_docs/_make_targets_outputs.py
+deliverables_docs/_repo_index_data.txt

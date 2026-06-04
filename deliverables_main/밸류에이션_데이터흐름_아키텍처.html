@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FILMN9 · 밸류에이션 데이터 흐름 아키텍처</title>
+<style>
+  :root{
+    --bg:#0f172a; --panel:#1e293b; --panel2:#27364d; --line:#334155;
+    --ink:#e2e8f0; --sub:#94a3b8; --mut:#64748b;
+    --indigo:#6366f1; --indigo2:#818cf8; --cyan:#22d3ee; --green:#34d399;
+    --amber:#fbbf24; --red:#f87171; --violet:#a78bfa; --pink:#f472b6;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:'Segoe UI','Malgun Gothic',sans-serif;background:linear-gradient(160deg,#0b1220,#0f172a 40%,#111c33);color:var(--ink);line-height:1.65;padding:0 0 80px}
+  .wrap{max-width:1100px;margin:0 auto;padding:0 24px}
+  /* 헤더 */
+  header{padding:48px 0 32px;text-align:center;border-bottom:1px solid var(--line);margin-bottom:40px;
+    background:radial-gradient(ellipse at top,rgba(99,102,241,.18),transparent 60%)}
+  header .tag{display:inline-block;font-size:12px;letter-spacing:2px;color:var(--indigo2);
+    border:1px solid var(--indigo);border-radius:999px;padding:4px 14px;margin-bottom:18px}
+  header h1{font-size:30px;font-weight:800;background:linear-gradient(90deg,#a5b4fc,#22d3ee);
+    -webkit-background-clip:text;background-clip:text;color:transparent;margin-bottom:10px}
+  header p{color:var(--sub);font-size:15px}
+  /* 결론 박스 */
+  .verdict{background:linear-gradient(135deg,rgba(52,211,153,.12),rgba(34,211,238,.08));
+    border:1px solid rgba(52,211,153,.4);border-radius:16px;padding:24px 26px;margin-bottom:40px}
+  .verdict h2{font-size:18px;color:var(--green);margin-bottom:14px;display:flex;align-items:center;gap:8px}
+  .verdict .row{display:flex;gap:14px;margin-bottom:10px;align-items:flex-start}
+  .verdict .row:last-child{margin-bottom:0}
+  .verdict .k{flex-shrink:0;width:130px;font-weight:700;color:var(--cyan);font-size:14px}
+  .verdict .v{font-size:14.5px;color:var(--ink)}
+  .verdict b{color:var(--amber)}
+  .verdict s{color:var(--red);text-decoration:line-through;opacity:.8}
+  /* 섹션 */
+  section{margin-bottom:48px}
+  .sec-title{font-size:20px;font-weight:800;margin-bottom:6px;display:flex;align-items:center;gap:10px}
+  .sec-title .num{display:inline-flex;align-items:center;justify-content:center;width:30px;height:30px;
+    border-radius:9px;background:var(--indigo);color:#fff;font-size:15px;font-weight:800}
+  .sec-sub{color:var(--sub);font-size:14px;margin-bottom:22px;padding-left:40px}
+  /* 아키텍처 흐름 */
+  .flow{display:flex;flex-direction:column;gap:0}
+  .layer{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:18px 20px;position:relative}
+  .layer + .arrow{height:34px;display:flex;align-items:center;justify-content:center}
+  .arrow svg{width:24px;height:34px}
+  .arrow .lbl{position:absolute;font-size:11px;color:var(--mut);background:var(--bg);padding:0 8px;transform:translateX(70px)}
+  .layer .head{display:flex;align-items:center;gap:10px;margin-bottom:6px}
+  .layer .badge{font-size:11px;font-weight:700;padding:3px 9px;border-radius:7px;flex-shrink:0}
+  .layer h3{font-size:16px;font-weight:700}
+  .layer .desc{font-size:13.5px;color:var(--sub);margin-top:4px}
+  .layer .pills{display:flex;flex-wrap:wrap;gap:7px;margin-top:12px}
+  .pill{font-size:12px;background:var(--panel2);border:1px solid var(--line);border-radius:8px;padding:5px 10px;color:var(--ink)}
+  .pill .s{color:var(--mut);font-size:11px}
+  .b-src{background:rgba(34,211,238,.16);color:var(--cyan);border:1px solid rgba(34,211,238,.4)}
+  .b-eng{background:rgba(167,139,250,.16);color:var(--violet);border:1px solid rgba(167,139,250,.4)}
+  .b-out{background:rgba(251,191,36,.16);color:var(--amber);border:1px solid rgba(251,191,36,.4)}
+  .b-api{background:rgba(99,102,241,.18);color:var(--indigo2);border:1px solid rgba(99,102,241,.45)}
+  .b-fe{background:rgba(52,211,153,.16);color:var(--green);border:1px solid rgba(52,211,153,.4)}
+  /* Phase 타임라인 */
+  .phases{display:grid;grid-template-columns:1fr;gap:0;margin-top:6px}
+  .ph{display:grid;grid-template-columns:90px 1fr;gap:16px;padding:14px 0;border-bottom:1px dashed var(--line)}
+  .ph:last-child{border-bottom:none}
+  .ph .pn{font-size:12px;font-weight:800;color:var(--violet);padding-top:2px}
+  .ph .pt{font-size:14.5px;font-weight:700;margin-bottom:3px}
+  .ph .pd{font-size:13px;color:var(--sub)}
+  .ph .out{font-size:11.5px;color:var(--amber);margin-top:5px;font-family:'Consolas',monospace}
+  /* 표 */
+  table{width:100%;border-collapse:collapse;font-size:13.5px;margin-top:4px;overflow:hidden;border-radius:12px}
+  th,td{padding:11px 14px;text-align:left;border-bottom:1px solid var(--line)}
+  th{background:var(--panel2);color:var(--indigo2);font-weight:700;font-size:12.5px;letter-spacing:.3px}
+  td{background:var(--panel)}
+  tr:last-child td{border-bottom:none}
+  td .src{color:var(--cyan);font-size:12px}
+  /* 실제값 카드 */
+  .grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:6px}
+  .vcard{background:var(--panel);border:1px solid var(--line);border-radius:13px;padding:16px 18px}
+  .vcard .vl{font-size:12px;color:var(--mut);margin-bottom:6px}
+  .vcard .vv{font-size:22px;font-weight:800}
+  .vcard .vx{font-size:12px;color:var(--sub);margin-top:4px}
+  .pos{color:var(--green)} .neg{color:var(--red)}
+  .scn{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:14px}
+  .scn .s{border-radius:11px;padding:13px 15px;border:1px solid var(--line);background:var(--panel)}
+  .scn .st{font-size:12px;font-weight:700;margin-bottom:5px}
+  .scn .sv{font-size:18px;font-weight:800}
+  .scn.bear .st{color:var(--red)} .scn.base .st{color:var(--amber)} .scn.bull .st{color:var(--green)}
+  /* 분기 박스 */
+  .branch{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:8px}
+  .br{border-radius:13px;padding:18px 20px}
+  .br.ok{background:rgba(52,211,153,.08);border:1px solid rgba(52,211,153,.35)}
+  .br.no{background:rgba(248,113,113,.07);border:1px solid rgba(248,113,113,.3)}
+  .br h4{font-size:15px;margin-bottom:8px;display:flex;align-items:center;gap:8px}
+  .br.ok h4{color:var(--green)} .br.no h4{color:var(--red)}
+  .br p{font-size:13px;color:var(--sub)}
+  .br code{background:#0b1220;padding:2px 7px;border-radius:5px;font-size:12px;color:var(--cyan);font-family:Consolas,monospace}
+  .note{background:rgba(99,102,241,.08);border-left:3px solid var(--indigo);padding:14px 18px;border-radius:0 10px 10px 0;margin-top:18px;font-size:13.5px;color:var(--sub)}
+  .note b{color:var(--ink)}
+  footer{text-align:center;color:var(--mut);font-size:12px;margin-top:50px;padding-top:24px;border-top:1px solid var(--line)}
+  @media(max-width:720px){.grid3,.scn,.branch,.phases .ph{grid-template-columns:1fr}.ph{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <span class="tag">FILMN9 · SYSTEM ARCHITECTURE</span>
+    <h1>밸류에이션 파트 — 데이터 흐름 아키텍처</h1>
+    <p>지난 데모에서 밸류에이션 값은 어디서, 어떻게 계산되어 화면에 떴는가</p>
+    <p style="font-size:13px;color:var(--mut);margin-top:6px">기준일 2026-05-22 · 데모 3종목(아모레퍼시픽·삼성전기·NAVER) · 작성 2026-06-04</p>
+  </div>
+</header>
+
+<div class="wrap">
+
+  <!-- 한줄 결론 -->
+  <div class="verdict">
+    <h2>✅ 한 줄 결론</h2>
+    <div class="row"><div class="k">계산 주체</div><div class="v">값은 <b>로컬 PC에서 직접 계산</b>했습니다. GitHub에서 "값"을 받아온 게 <s>아닙니다</s>.</div></div>
+    <div class="row"><div class="k">GitHub의 역할</div><div class="v">GitHub(git_share)로 공유받은 건 <b>계산 엔진 "코드"</b>뿐입니다 (유태상님 작 <code style="color:var(--violet)">valuation_engine</code>).</div></div>
+    <div class="row"><div class="k">계산 방식</div><div class="v">그 엔진을 로컬에서 돌려 <b>실제 데이터</b>(DART 재무·ECOS 금리·KOFIA·사업보고서 RAG 등)로 <b>DCF 밸류에이션</b>을 7단계 계산 → <b>JSON 6개</b> 산출.</div></div>
+    <div class="row"><div class="k">화면 표시</div><div class="v">그 JSON을 <code>data/valuation_results/</code>에 넣어 두면 → 백엔드가 읽어 → 프론트가 렌더. 데모 <b>3종목만</b> 미리 계산해 둠.</div></div>
+    <div class="row"><div class="k">"데이터 준비중"</div><div class="v">나머지 ~2,580종목은 JSON 폴더가 없어서 → 정직하게 <b>"데이터 준비 중"</b> 표시 (예전 하드코딩 가짜값은 제거 · NO-MOCK).</div></div>
+  </div>
+
+  <!-- 1. 전체 아키텍처 흐름 -->
+  <section>
+    <div class="sec-title"><span class="num">1</span>전체 데이터 흐름 (데이터 → 화면)</div>
+    <div class="sec-sub">5개 계층을 한 방향으로 통과합니다. 왼쪽 색 배지 = 계층 종류.</div>
+
+    <div class="flow">
+      <!-- L1 데이터 소스 -->
+      <div class="layer">
+        <div class="head"><span class="badge b-src">① 데이터 소스</span><h3>실데이터 원천 (외부 공공·시장 데이터)</h3></div>
+        <div class="desc">밸류에이션 계산에 들어가는 모든 입력값의 출처. 임의 생성 없음 — 전부 외부 검증 데이터.</div>
+        <div class="pills">
+          <span class="pill">DART XBRL <span class="s">기업 재무(매출·EBIT·자산)</span></span>
+          <span class="pill">ECOS API <span class="s">무위험수익률 Rf (한국은행)</span></span>
+          <span class="pill">KOFIA <span class="s">회사채 금리 Kd (금융투자협회)</span></span>
+          <span class="pill">한공회 가이던스 <span class="s">규모프리미엄 SRP</span></span>
+          <span class="pill">사업보고서 RAG <span class="s">신용등급 (ChromaDB+키워드)</span></span>
+          <span class="pill">피어 주가 <span class="s">베타 회귀용 일별 수익률</span></span>
+        </div>
+      </div>
+      <div class="arrow"><svg viewBox="0 0 24 34"><path d="M12 0 V26 M5 19 L12 28 L19 19" stroke="#475569" stroke-width="2" fill="none"/></svg></div>
+
+      <!-- L2 엔진 -->
+      <div class="layer" style="border-color:rgba(167,139,250,.4)">
+        <div class="head"><span class="badge b-eng">② 계산 엔진</span><h3>valuation_engine — DCF 밸류에이션 엔진 <span style="font-size:12px;color:var(--mut);font-weight:400">(유태상님 작 · GitHub git_share로 코드 공유)</span></h3></div>
+        <div class="desc">로컬에서 실행(conda <code style="color:var(--cyan)">dart-rag</code> 환경). Phase 1~7을 순차 계산. <b style="color:var(--violet)">바로 이 단계에서 모든 숫자가 "계산"됩니다.</b></div>
+        <div class="pills">
+          <span class="pill">peer_beta · run_beta</span>
+          <span class="pill">wacc_engine</span>
+          <span class="pill">dcf_engine</span>
+          <span class="pill">equity_value</span>
+          <span class="pill">multiples_engine</span>
+          <span class="pill">uncertainty_engine</span>
+          <span class="pill">run_valuation.py <span class="s">통합 진입점</span></span>
+        </div>
+      </div>
+      <div class="arrow"><svg viewBox="0 0 24 34"><path d="M12 0 V26 M5 19 L12 28 L19 19" stroke="#475569" stroke-width="2" fill="none"/></svg></div>
+
+      <!-- L3 산출물 -->
+      <div class="layer" style="border-color:rgba(251,191,36,.4)">
+        <div class="head"><span class="badge b-out">③ 산출물 (JSON)</span><h3>종목별 JSON 6개 → <code style="color:var(--amber)">data/valuation_results/{코드}_{이름}/</code></h3></div>
+        <div class="desc">엔진 출력물을 FILMN9 프로젝트 폴더에 복사. <b>데모 3종목만</b> 사전 계산 완료 (090430·009150·035420).</div>
+        <div class="pills">
+          <span class="pill">dcf_result.json <span class="s">적정가·시나리오</span></span>
+          <span class="pill">fcff_result.json <span class="s">연도별 현금흐름</span></span>
+          <span class="pill">wacc_result.json <span class="s">할인율 구성</span></span>
+          <span class="pill">multiples_result.json <span class="s">멀티플 역산</span></span>
+          <span class="pill">peer_beta_result.json <span class="s">피어 베타</span></span>
+          <span class="pill">uncertainty_result.json <span class="s">민감도·토네이도</span></span>
+        </div>
+      </div>
+      <div class="arrow"><svg viewBox="0 0 24 34"><path d="M12 0 V26 M5 19 L12 28 L19 19" stroke="#475569" stroke-width="2" fill="none"/></svg></div>
+
+      <!-- L4 백엔드 -->
+      <div class="layer" style="border-color:rgba(99,102,241,.45)">
+        <div class="head"><span class="badge b-api">④ 백엔드 API</span><h3>FastAPI · <code style="color:var(--indigo2)">GET /api/valuation/{code}</code> <span style="font-size:12px;color:var(--mut);font-weight:400">(backend/routers/valuation.py)</span></h3></div>
+        <div class="desc">JSON 6개를 <b>읽기(read-only)</b> → 화면용(Tab2) 포맷으로 변환(단위 십억원→억원 등). <b>계산은 안 함, 변환만.</b> 폴더 없으면 <code>is_mock:true</code> 반환.</div>
+      </div>
+      <div class="arrow"><svg viewBox="0 0 24 34"><path d="M12 0 V26 M5 19 L12 28 L19 19" stroke="#475569" stroke-width="2" fill="none"/></svg></div>
+
+      <!-- L5 프론트 -->
+      <div class="layer" style="border-color:rgba(52,211,153,.4)">
+        <div class="head"><span class="badge b-fe">⑤ 프론트엔드</span><h3>Next.js · 종목 상세 "밸류에이션" 탭 <span style="font-size:12px;color:var(--mut);font-weight:400">(stock/[code]/page.tsx)</span></h3></div>
+        <div class="desc">API 응답을 받아 적정가 배너·DCF 표·WACC·멀티플·민감도·피어비교를 그림. <code>is_mock:false</code>면 <b style="color:var(--green)">"✓ 실데이터" 배지</b> 표시.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2. 엔진 7단계 -->
+  <section>
+    <div class="sec-title"><span class="num">2</span>계산 엔진 내부 — Phase 1~7</div>
+    <div class="sec-sub">화면 숫자가 만들어지는 실제 계산 순서 (run_valuation.py).</div>
+    <div class="layer" style="border-color:rgba(167,139,250,.3)">
+      <div class="phases">
+        <div class="ph"><div class="pn">Phase 1-A</div><div><div class="pt">피어 베타 회귀 (Winsorize)</div><div class="pd">동종업계 비교기업들의 주가 수익률을 시장지수에 회귀 → 베타(β) 추정. 이상치는 winsorize로 보정.</div><div class="out">→ peer_beta_result.json</div></div></div>
+        <div class="ph"><div class="pn">Phase 1-B</div><div><div class="pt">XBRL 재무 추출 (4사 × 3년)</div><div class="pd">DART 전자공시 XBRL에서 대상기업+피어의 매출·영업이익·자산·부채를 추출 (캐시).</div></div></div>
+        <div class="ph"><div class="pn">Phase 2</div><div><div class="pt">보통주 시가총액 E 산출</div><div class="pd">기준일 주가 × 발행주식수 → 자기자본 시장가치 E. (자본구조 가중치 계산용)</div></div></div>
+        <div class="ph"><div class="pn">Phase 3</div><div><div class="pt">WACC — Hamada Unlever/Relever + Rf + 가중평균</div><div class="pd">피어 베타를 부채영향 제거(Unlever)→대상 자본구조로 재반영(Relever). Ke = Rf + β·ERP + SRP, Kd(세후), E/D 가중 → WACC.</div><div class="out">→ wacc_result.json</div></div></div>
+        <div class="ph"><div class="pn">Phase 4</div><div><div class="pt">DCF — FCFF 5년 Fade-out + Terminal Value</div><div class="pd">향후 5년 잉여현금흐름(FCFF)을 점감(fade-out) 추정 → WACC로 할인 → 영구가치(TV, g=2%) 합산 = 기업가치(EV).</div><div class="out">→ fcff_result.json · dcf_result.json</div></div></div>
+        <div class="ph"><div class="pn">Phase 5</div><div><div class="pt">EV → Equity Value → 주당 적정가</div><div class="pd">EV − 순부채 − 소수주주지분 + 비영업자산(NOA) = 자기자본가치 → ÷ 주식수 = 주당 적정가.</div></div></div>
+        <div class="ph"><div class="pn">Phase 6</div><div><div class="pt">멀티플 역산 적정가</div><div class="pd">피어 PER·EV/EBITDA 중앙값을 대상 실적에 적용 → 상대가치 기반 적정가 (DCF 교차검증).</div><div class="out">→ multiples_result.json</div></div></div>
+        <div class="ph"><div class="pn">Phase 7</div><div><div class="pt">불확실성 — 시나리오 + 민감도 + 토네이도</div><div class="pd">Bear/Base/Bull 3시나리오, WACC×성장률(g) 민감도 매트릭스, 변수별 영향도 토네이도 차트.</div><div class="out">→ uncertainty_result.json</div></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. 입력 데이터 출처 표 -->
+  <section>
+    <div class="sec-title"><span class="num">3</span>입력값별 데이터 출처 (NO-MOCK 근거)</div>
+    <div class="sec-sub">아모레퍼시픽 wacc_result.json에 기록된 실제 출처. 모든 입력값이 외부 검증 데이터에서 옴.</div>
+    <table>
+      <tr><th>입력 변수</th><th>값(아모레 예시)</th><th>데이터 출처</th></tr>
+      <tr><td>무위험수익률 (Rf)</td><td>4.17%</td><td class="src">ECOS API · 한국은행</td></tr>
+      <tr><td>타인자본비용 (Kd)</td><td>4.55%</td><td class="src">KOFIA · 금융투자협회</td></tr>
+      <tr><td>규모 프리미엄 (SRP)</td><td>−0.36%</td><td class="src">한공회 가이던스 (2025-06-10)</td></tr>
+      <tr><td>신용등급</td><td>AA−</td><td class="src">사업보고서 RAG (ChromaDB + 키워드 union)</td></tr>
+      <tr><td>주식위험프리미엄 (ERP)</td><td>8.0%</td><td class="src">시장 표준 가정</td></tr>
+      <tr><td>대상 베타 (βL)</td><td>0.725</td><td class="src">피어 주가 회귀 + Hamada Relever</td></tr>
+      <tr><td>기업 재무 (매출·EBIT 등)</td><td>—</td><td class="src">DART 전자공시 XBRL</td></tr>
+    </table>
+  </section>
+
+  <!-- 4. 실제 계산 결과 -->
+  <section>
+    <div class="sec-title"><span class="num">4</span>실제 화면에 떴던 값 (아모레퍼시픽 · 090430)</div>
+    <div class="sec-sub">dcf_result.json / wacc_result.json 실측치. 화면의 적정가 배너가 이 값입니다.</div>
+    <div class="grid3">
+      <div class="vcard"><div class="vl">주당 적정가 (Base)</div><div class="vv">₩114,766</div><div class="vx">DCF 산출 적정주가</div></div>
+      <div class="vcard"><div class="vl">현재가 (기준일)</div><div class="vv">₩117,300</div><div class="vx">2026-05-22</div></div>
+      <div class="vcard"><div class="vl">상승여력</div><div class="vv neg">−2.2%</div><div class="vx">적정가 대비 현재가 고평가</div></div>
+    </div>
+    <div class="grid3" style="margin-top:14px">
+      <div class="vcard"><div class="vl">WACC (할인율)</div><div class="vv">9.25%</div><div class="vx">Ke 9.62% · Kd 4.55%</div></div>
+      <div class="vcard"><div class="vl">기업가치 EV</div><div class="vv">₩5.29조</div><div class="vx">자기자본가치 6,706억(십억) 단위</div></div>
+      <div class="vcard"><div class="vl">자본구조 (E비중)</div><div class="vv">94.3%</div><div class="vx">부채 5.7% · 영구성장 g 2.0%</div></div>
+    </div>
+    <div class="scn">
+      <div class="s bear"><div class="st">▼ Bear (보수)</div><div class="sv">₩74,650</div><div class="vx" style="color:var(--mut)">−36.4% · 성장·마진 최저</div></div>
+      <div class="s base"><div class="st">● Base (기준)</div><div class="sv">₩112,677</div><div class="vx" style="color:var(--mut)">−3.9% · 평균 가정</div></div>
+      <div class="s bull"><div class="st">▲ Bull (낙관)</div><div class="sv">₩148,472</div><div class="vx" style="color:var(--mut)">+26.6% · 성장·마진 최고</div></div>
+    </div>
+  </section>
+
+  <!-- 5. 분기 -->
+  <section>
+    <div class="sec-title"><span class="num">5</span>왜 지금은 "데이터 준비 중"이 뜨나?</div>
+    <div class="sec-sub">백엔드는 종목 폴더 존재 여부로 분기합니다. 데모 3종목만 폴더가 있습니다.</div>
+    <div class="branch">
+      <div class="br ok">
+        <h4>✓ 폴더 있음 → 실데이터</h4>
+        <p>아모레(090430)·삼성전기(009150)·NAVER(035420)는 <code>data/valuation_results/</code>에 JSON 6개가 있어 → 밸류 전체 화면 + <b style="color:var(--green)">"✓ 실데이터" 배지</b> 표시.</p>
+      </div>
+      <div class="br no">
+        <h4>✗ 폴더 없음 → 준비 중</h4>
+        <p>나머지 ~2,580종목은 엔진을 아직 안 돌려 폴더가 없음 → API가 <code>is_mock:true</code> 반환 → 프론트가 <b style="color:var(--red)">"밸류에이션 데이터 준비 중"</b> 표시.</p>
+      </div>
+    </div>
+    <div class="note">
+      <b>왜 가짜값을 안 보여주나?</b> — 예전 코드엔 모든 종목에 아모레 값을 그대로 박아 보여주는 하드코딩 Mock(<code>MOCK_VAL</code>)이 있었습니다. 이는 <b>NO-MOCK 원칙 위반</b>(틀린 숫자 = 할루시네이션)이라, 폴더가 없으면 가짜 대신 <b>"데이터 준비 중"으로 정직하게 표기</b>하도록 바꿨습니다. 즉 화면이 "줄어든" 게 아니라 <b>거짓을 제거</b>한 것입니다.
+    </div>
+    <div class="note" style="border-left-color:var(--amber)">
+      <b>전 종목으로 확장하려면?</b> — 밸류 엔진(<code>run_valuation.py</code>)을 종목별로 실행해 JSON 6개를 <code>data/valuation_results/{코드}_{이름}/</code>에 채우기만 하면, <b>서버 재시작 없이</b> 해당 종목이 자동으로 실데이터로 전환됩니다(백엔드가 폴더를 매 요청마다 탐색).
+    </div>
+  </section>
+
+  <footer>
+    FILMN9 · 밸류에이션 데이터 흐름 아키텍처 · 데모 기준일 2026-05-22 · 문서 작성 2026-06-04<br>
+    근거 파일: backend/routers/valuation.py · valuation_engine/run_valuation.py · data/valuation_results/{종목}/*.json
+  </footer>
+</div>
+</body>
+</html>
