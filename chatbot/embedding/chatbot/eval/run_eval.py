@@ -113,11 +113,13 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--limit", type=int, default=0, help="앞 N개만 실행")
     ap.add_argument("--tag", default="", help="결과 파일 태그 (results_<tag>.json)")
+    ap.add_argument("--golden", default="", help="골든셋 파일명(기본 golden_set.json)")
     args = ap.parse_args()
 
     from embedding.chatbot import pipeline
 
-    data = json.loads(GOLDEN.read_text(encoding="utf-8"))
+    golden_path = (EVAL_DIR / args.golden) if args.golden else GOLDEN
+    data = json.loads(golden_path.read_text(encoding="utf-8"))
     questions = data["questions"]
     if args.limit > 0:
         questions = questions[:args.limit]

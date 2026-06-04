@@ -150,15 +150,27 @@ def generate_answer(question: str, context: str,
                     model: str = OPENAI_MODEL,
                     company: Optional[str] = None,
                     coverage: Optional[list[str]] = None) -> str:
-    """논스트리밍 답변 생성. reasoning_effort='high' — 표 독해·수치추출 누락 최소화(미지원 모델 자동 폴백)."""
-    resp = chat_create(
-        model=model,
-        temperature=OPENAI_TEMPERATURE,
-        reasoning_effort="high",
-        max_completion_tokens=MAX_COMPLETION_TOKENS,
-        messages=_build_messages(question, context, history, company, coverage),
-    )
-    return resp.choices[0].message.content or ""
+    """논스트리밍 답변 생성. reasoning_effort='high' — 표 독해·수치추출 누락 최소화.
+
+    빈 응답 자동 복구(3단계, 추론 high 기본 유지):
+      1~2차: reasoning='high'로 시도(산발 빈응답은 재시도로 대부분 복구)
+      3차(최후): high가 2회 연속 빈응답인 무거운 질문에 한해 reasoning='medium' 폴백
+                 → '빈 답변'보다 medium 답변이 낫다(데모 치명적 빈응답 방지). 평소엔 high 유지.
+    """
+    msgs = _build_messages(question, context, history, company, coverage)
+    content = ""
+    for effort in ("high", "high", "medium"):
+        resp = chat_create(
+            model=model,
+            temperature=OPENAI_TEMPERATURE,
+            reasoning_effort=effort,
+            max_completion_tokens=MAX_COMPLETION_TOKENS,
+            messages=msgs,
+        )
+        content = resp.choices[0].message.content or ""
+        if content.strip():
+            break
+    return content
 
 
 def stream_answer(question: str, context: str,
@@ -166,7 +178,11 @@ def stream_answer(question: str, context: str,
                   model: str = OPENAI_MODEL,
                   company: Optional[str] = None,
                   coverage: Optional[list[str]] = None) -> Iterator[str]:
-    """스트리밍 답변 생성 (토큰 단위 yield). reasoning_effort='high'."""
+    """스트리밍 답변 생성 (토큰 단위 yield). reasoning_effort='high'.
+
+    빈 응답 자동 복구: 스트림이 토큰을 하나도 못 내면(산발 빈응답), 논스트리밍
+    generate_answer(자체 재시도 포함)로 폴백해 그 결과를 한 번에 yield.
+    """
     stream = chat_create(
         model=model,
         temperature=OPENAI_TEMPERATURE,
@@ -175,9 +191,16 @@ def stream_answer(question: str, context: str,
         messages=_build_messages(question, context, history, company, coverage),
         stream=True,
     )
+    emitted = False
     for chunk in stream:
         if not chunk.choices:
             continue
         delta = chunk.choices[0].delta.content
         if delta:
+            emitted = True
             yield delta
+    # 산발 빈응답 폴백: 토큰이 하나도 안 나왔으면 논스트리밍(재시도 포함)으로 복구
+    if not emitted:
+        fb = generate_answer(question, context, history, model, company, coverage)
+        if fb.strip():
+            yield fb
