@@ -60,6 +60,7 @@ DART 사업보고서 JSONL 데이터를 기반으로 기업의 계열회사 정�
     classify_affiliate_visual_sources.py
     refresh_affiliate_original_image_candidates.py
     sync_affiliate_visualizations_to_mongo.py
+    validate_affiliate_graph_outputs.py
   notebooks/
     05_affiliate_visualization_probe.py
   docs/
@@ -134,6 +135,28 @@ python 계열회사시각화\scripts\sync_affiliate_visualizations_to_mongo.py
 python 계열회사시각화\scripts\sync_affiliate_visualizations_to_mongo.py --dry-run --stock-code 030200
 python 계열회사시각화\scripts\sync_affiliate_visualizations_to_mongo.py --stock-code 030200
 python 계열회사시각화\scripts\sync_affiliate_visualizations_to_mongo.py --find --stock-code 030200
+```
+
+그래프 품질 검증은 다음 명령으로 실행합니다.
+
+```powershell
+python 계열회사시각화\scripts\validate_affiliate_graph_outputs.py --stock-code 000590 --strict
+python 계열회사시각화\scripts\validate_affiliate_graph_outputs.py
+```
+
+검증 스크립트는 다음 문제를 자동으로 찾습니다.
+
+- `산`, `스`, `재`처럼 한 글자로 잘린 회사명
+- `CO.,LTD`, `Ltd.`처럼 법인격 접미사만 남은 회사명
+- `본문으로 이동`, `합계`, `수량`, `금액` 같은 표/문서 노이즈
+- metadata/data/SVG 파일 누락
+- edge 수와 메타데이터 count 불일치
+
+검증 결과는 기본적으로 다음 파일에 저장됩니다.
+
+```text
+output/affiliate_validation_report.json
+output/affiliate_validation_issues.csv
 ```
 
 계열회사 구조도 배치만 다시 만들 때는 다음 명령을 사용합니다.
@@ -271,6 +294,7 @@ python 계열회사시각화\scripts\build_affiliate_visual_manifest.py
 python 계열회사시각화\scripts\refresh_affiliate_original_image_candidates.py --sleep 0.25 --progress-every 50
 python 계열회사시각화\scripts\build_affiliate_visual_manifest.py
 python 계열회사시각화\scripts\sync_affiliate_visualizations_to_mongo.py --dry-run
+python 계열회사시각화\scripts\validate_affiliate_graph_outputs.py --strict
 python 계열회사시각화\scripts\sync_affiliate_visualizations_to_mongo.py
 ```
 

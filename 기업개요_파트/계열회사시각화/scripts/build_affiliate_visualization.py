@@ -245,6 +245,48 @@ def try_download_original_image(meta: dict[str, Any], out_dir: Path) -> dict[str
     }
 
 
+def find_existing_original_image(out_dir: Path) -> Path | None:
+    for ext in (".png", ".jpg", ".jpeg", ".gif", ".webp"):
+        path = out_dir / f"original_affiliate_diagram{ext}"
+        if path.exists() and path.stat().st_size > 0:
+            return path
+    return None
+
+
+def reuse_existing_original_image(meta: dict[str, Any], out_dir: Path) -> dict[str, Any] | None:
+    image_path = find_existing_original_image(out_dir)
+    if image_path is None:
+        return None
+
+    previous: dict[str, Any] = {}
+    metadata_path = out_dir / "affiliate_visual_metadata.json"
+    if metadata_path.exists():
+        try:
+            with metadata_path.open("r", encoding="utf-8") as f:
+                previous = json.load(f)
+        except (OSError, json.JSONDecodeError):
+            previous = {}
+
+    rcept_no = str(meta.get("rcept_no") or "")
+    return {
+        "source_type": "original_dart_image",
+        "visual_file_type": image_path.suffix.lstrip("."),
+        "visual_path": str(image_path),
+        "has_original_image": True,
+        "has_ownership_rate": None,
+        "dart_main_url": f"{DART_BASE_URL}/dsaf001/main.do?rcpNo={rcept_no}" if rcept_no else "",
+        "dart_section_url": previous.get("dart_section_url", ""),
+        "dart_image_url": previous.get("dart_image_url", ""),
+        "image_alt": previous.get("image_alt", ""),
+        "image_mime": previous.get("image_mime", ""),
+        "image_size_bytes": image_path.stat().st_size,
+        "cached_original_image": True,
+        "nodes": [],
+        "edges": [],
+        "affiliate_companies": [],
+    }
+
+
 def parse_markdown_rows(text: str) -> list[list[str]]:
     rows: list[list[str]] = []
     for line in text.splitlines():
@@ -271,13 +313,79 @@ def parse_percent(value: str) -> float | None:
     return None
 
 
+def normalize_purpose(value: str) -> str:
+    return re.sub(r"\s+", "", clean_cell(value))
+
+
+def company_core_text(value: str) -> str:
+    value = clean_cell(value)
+    value = re.sub(r"\(주\)|㈜|주식회사|유한회사|회사|법인", "", value, flags=re.I)
+    value = re.sub(
+        r"(?i)[\s.,]*(?:company|co|ltd|limited|inc|corp|corporation|llc|l\.l\.c|gmbh)\.?,?$",
+        "",
+        value,
+    )
+    return re.sub(r"[^가-힣A-Za-z0-9]", "", value)
+
+
 def looks_like_company_name(value: str) -> bool:
+    value = clean_cell(value)
     if not value:
         return False
-    bad_words = ("합 계", "합계", "계 ", "수량", "금액", "법인명", "회사명", "상장여부", "구분", "거래상대방 합계")
-    if any(word == value or word in value for word in bad_words):
+    exact_bad_words = {
+        "합 계",
+        "합계",
+        "계",
+        "외",
+        "상장",
+        "비상장",
+        "국내",
+        "해외",
+        "기타",
+    }
+    if value in exact_bad_words:
+        return False
+    contains_bad_words = (
+        "합 계",
+        "합계",
+        "수량",
+        "금액",
+        "법인명",
+        "회사명",
+        "상장여부",
+        "구분",
+        "거래상대방 합계",
+        "출자사",
+        "피출자사",
+        "지분율",
+        "당사 지분율",
+        "소유지분율",
+        "기준일",
+        "본문으로 이동",
+        "금리 Reset",
+        "국고채",
+        "사채권자",
+        "자기주식",
+        "의결권 주식",
+        "장부금액",
+        "당기 중",
+        "매입하였습니다",
+    )
+    if any(word in value for word in contains_bad_words):
+        return False
+    if re.search(r"\d{4}년|\d{1,2}월(?:\s+\d{1,2}일)?|\d+(?:\.\d+)?\s*%", value):
         return False
     if re.fullmatch(r"[-\d.,()%\s]+", value):
+        return False
+    if re.fullmatch(
+        r"(?:Co\.?|Co\.?,?\s*Ltd\.?|Ltd\.?|Limited|Inc\.?|Corp\.?|Corporation|Company|LLC\.?|L\.L\.C|GmbH)",
+        value,
+        flags=re.I,
+    ):
+        return False
+    if len(company_core_text(value)) <= 1:
+        return False
+    if re.fullmatch(r"[a-z]{1,3}\s*(?:LLC\.?|Co\.?|Co\.?,?\s*Ltd\.?|Inc\.?|Corp\.?|GmbH)", value, flags=re.I):
         return False
     return bool(re.search(r"[가-힣A-Za-z㈜]", value))
 
@@ -329,6 +437,31 @@ def parse_direct_matrix_edges(chunks: list[dict[str, Any]]) -> list[dict[str, An
     edges: list[dict[str, Any]] = []
     seen: set[tuple[str, str, float]] = set()
 
+    def add_edge(investor: str, investee: str, rate: float | None, chunk: dict[str, Any]) -> None:
+        if rate is None or rate <= 0:
+            return
+        if not looks_like_company_name(investor) or not looks_like_company_name(investee):
+            return
+        if investor.lower() == investee.lower():
+            return
+        key = (investor.lower(), investee.lower(), rate)
+        if key in seen:
+            return
+        seen.add(key)
+        edges.append(
+            {
+                "from": investor,
+                "to": investee,
+                "ownership_rate": rate,
+                "relation_type": "ownership",
+                "source": "출자계통도",
+                "source_chunk_id": chunk.get("id", ""),
+            }
+        )
+
+    row_table_active = False
+    current_row_investor: str | None = None
+
     for chunk in chunks:
         path = str(chunk.get("section_path_str") or "")
         text = str(chunk.get("text") or "")
@@ -339,8 +472,39 @@ def parse_direct_matrix_edges(chunks: list[dict[str, Any]]) -> list[dict[str, An
         for cells in rows:
             if not cells:
                 continue
-            if "피출자사" in cells[0] or "출자사" in cells[0]:
-                investors = [normalize_company_name(cell) for cell in cells[1:]]
+
+            header_text = normalize_purpose(" ".join(cells[:4]))
+            if "출자사" in header_text and "피출자사" in header_text and "지분율" in header_text:
+                row_table_active = True
+                investors = []
+                current_row_investor = None
+                continue
+
+            if row_table_active:
+                if len(cells) >= 4 and cells[1] in {"상장", "비상장"}:
+                    current_row_investor = normalize_company_name(cells[0])
+                    add_edge(
+                        current_row_investor,
+                        normalize_company_name(cells[2]),
+                        parse_percent(cells[3]),
+                        chunk,
+                    )
+                    continue
+                if current_row_investor and len(cells) >= 2 and all(not clean_cell(cell) for cell in cells[2:]):
+                    add_edge(
+                        current_row_investor,
+                        normalize_company_name(cells[0]),
+                        parse_percent(cells[1]),
+                        chunk,
+                    )
+                    continue
+
+            if "피출자사" in cells[0]:
+                investors = [
+                    investor
+                    for investor in (normalize_company_name(cell) for cell in cells[1:])
+                    if looks_like_company_name(investor)
+                ]
                 continue
             if not investors:
                 continue
@@ -348,23 +512,7 @@ def parse_direct_matrix_edges(chunks: list[dict[str, Any]]) -> list[dict[str, An
             if not looks_like_company_name(investee):
                 continue
             for investor, cell in zip(investors, cells[1:]):
-                rate = parse_percent(cell)
-                if rate is None or rate <= 0 or not looks_like_company_name(investor):
-                    continue
-                key = (investor.lower(), investee.lower(), rate)
-                if key in seen:
-                    continue
-                seen.add(key)
-                edges.append(
-                    {
-                        "from": investor,
-                        "to": investee,
-                        "ownership_rate": rate,
-                        "relation_type": "ownership",
-                        "source": "출자계통도",
-                        "source_chunk_id": chunk.get("id", ""),
-                    }
-                )
+                add_edge(investor, investee, parse_percent(cell), chunk)
     return edges
 
 
@@ -396,7 +544,7 @@ def parse_investment_edges(chunks: list[dict[str, Any]], corp_name: str) -> list
             company = normalize_company_name(cells[0])
             if not looks_like_company_name(company):
                 continue
-            purpose = cells[3] if len(cells) >= 4 and cells[1] in {"상장", "비상장"} else cells[1]
+            purpose = normalize_purpose(cells[3] if len(cells) >= 4 and cells[1] in {"상장", "비상장"} else cells[1])
             if purpose and not any(word in purpose for word in PURPOSE_WORDS):
                 continue
             rate = infer_investment_rate(cells)
@@ -435,7 +583,7 @@ def parse_investment_edges(chunks: list[dict[str, Any]], corp_name: str) -> list
             body_end = anchors[index + 1].start() if index + 1 < len(anchors) else len(text)
             body = text[body_start:body_end]
             company = normalize_company_name(match.group("company"))
-            purpose = match.group("purpose")
+            purpose = normalize_purpose(match.group("purpose"))
             if not looks_like_company_name(company):
                 continue
             if purpose and not any(word in purpose for word in PURPOSE_WORDS):
@@ -484,6 +632,14 @@ def parse_percent_owner(value: str) -> tuple[float | None, str | None]:
 def looks_like_subsidiary_company_name(value: str) -> bool:
     value = clean_cell(value)
     if not looks_like_company_name(value):
+        return False
+    if re.fullmatch(r"(?:Co\.?|Co\.?,?\s*Ltd\.?|Ltd\.?|Limited|Inc\.?|Corp\.?|Corporation)", value, flags=re.I):
+        return False
+    if re.match(r"^[a-z]", value):
+        return False
+    if re.search(r"\d+(?:\.\d+)?\s*%|\d{1,2}월|지분율|자기주식|당기 중|매입하였습니다|의결권 주식", value):
+        return False
+    if len(company_core_text(value)) <= 1:
         return False
     if value in {"금융업", "비금융업", "상장", "비상장", "국내", "해외", "기타"}:
         return False
@@ -540,7 +696,11 @@ def looks_like_numeric_subsidiary_company_name(value: str) -> bool:
         return False
     if any(word in value for word in ("지분율", "소유지분율", "지배지분율", "장부가액", "요약재무정보")):
         return False
+    if re.search(r"\d{1,2}월|제조|판매업|대행업|연구|재무현황", value) and re.search(r"\d", value):
+        return False
     if value.count(")") > value.count("("):
+        return False
+    if len(company_core_text(value)) <= 1:
         return False
     return True
 
@@ -549,7 +709,7 @@ def parse_plain_subsidiary_detail_edges(chunks: list[dict[str, Any]], corp_name:
     edges: list[dict[str, Any]] = []
     seen: set[tuple[str, str]] = set()
 
-    segment_anchor_pattern = re.compile(rf"(?={PLAIN_DETAIL_COMPANY_PATTERN}\s+)", flags=re.I)
+    segment_anchor_pattern = re.compile(rf"(?<![가-힣A-Za-z0-9])(?={PLAIN_DETAIL_COMPANY_PATTERN}\s+)", flags=re.I)
     line_pattern = re.compile(
         rf"(?P<company>{PLAIN_DETAIL_COMPANY_PATTERN})\s+.+?(?:{PLAIN_DETAIL_COUNTRY_PATTERN}|〃)\s+"
         r"(?:.+?\s+)?(?P<rate>[0-9]+(?:\.[0-9]+)?)\s*%(?P<tail>.*)$",
@@ -597,7 +757,7 @@ def parse_plain_subsidiary_detail_edges(chunks: list[dict[str, Any]], corp_name:
                     owner_rate = parse_percent(owner_match.group("rate"))
                     if owner == "〃":
                         owner = last_owner or ""
-                    if looks_like_company_name(owner) and len(owner) <= 80:
+                    if looks_like_subsidiary_company_name(owner) and len(owner) <= 80:
                         parent = owner
                         last_owner = owner
                         if owner_rate is not None:
@@ -844,7 +1004,7 @@ def parse_subsidiary_edges(chunks: list[dict[str, Any]], corp_name: str) -> list
 
 
 def is_structural_investment_edge(edge: dict[str, Any]) -> bool:
-    purpose = str(edge.get("purpose") or "")
+    purpose = normalize_purpose(str(edge.get("purpose") or ""))
     if "경영참여" in purpose or "계열회사" in purpose:
         return True
     if "일반투자" in purpose or "단순투자" in purpose:
@@ -1606,9 +1766,9 @@ def build_for_rag_file(
         cached["cache_hit"] = True
         return cached
 
-    result: dict[str, Any] | None = None
+    result: dict[str, Any] | None = reuse_existing_original_image(meta, out_dir)
     errors: list[str] = []
-    if try_dart_image:
+    if try_dart_image and result is None:
         try:
             result = try_download_original_image(meta, out_dir)
         except Exception as exc:
