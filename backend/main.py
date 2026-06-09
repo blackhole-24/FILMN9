@@ -61,6 +61,9 @@ from backend.routers.extras    import router as extras_router
 from backend.routers.valuation import router as valuation_router
 from backend.routers.sectors   import router as sectors_router
 from backend.routers.morning   import router as morning_router
+from backend.routers.valuation_summary import router as valuation_summary_router
+from backend.routers.affiliate  import router as affiliate_router
+from backend.routers.admin      import router as admin_router
 
 # ─── 앱 생성 ──────────────────────────────────────────────────────────────────
 app = FastAPI(
@@ -90,6 +93,19 @@ app.include_router(extras_router,    prefix="/api")
 app.include_router(valuation_router, prefix="/api")
 app.include_router(sectors_router,   prefix="/api")
 app.include_router(morning_router,   prefix="/api")
+app.include_router(valuation_summary_router, prefix="/api")
+app.include_router(affiliate_router, prefix="/api")
+app.include_router(admin_router,     prefix="/api")
+
+
+# ─── 기동 시 모닝 위젯 캐시 자동 갱신 시작 (콜드 스타트 영구 제거, 옵션 A+B) ──
+@app.on_event("startup")
+def _start_morning_auto_refresh():
+    """서버 기동 직후 모닝 위젯 캐시를 prewarm하고, 이후 14분마다 백그라운드로
+    자동 갱신한다(TTL 15분 직전 갱신). → 첫 사용자도, 15분 갱신 순간의 사용자도
+    콜드 스타트(yfinance ~3.6초)를 절대 겪지 않는다. 기동 자체는 막지 않음."""
+    from backend.routers.morning import start_auto_refresh
+    start_auto_refresh()
 
 
 # ─── 기업 검색 엔드포인트 (corp_code_map 활용) ────────────────────────────────

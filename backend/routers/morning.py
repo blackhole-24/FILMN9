@@ -12,6 +12,7 @@ GET /api/morning   23개 글로벌 지표(yfinance) + 상관관계 기반 신호
 """
 from __future__ import annotations
 
+import threading
 import time
 from datetime import datetime
 
@@ -319,3 +320,37 @@ def morning():
     _CACHE["ts"] = now
     _CACHE["data"] = data
     return {**data, "cached": False}
+
+
+def warm_cache() -> None:
+    """서버 기동 시 캐시 prewarm — 콜드 스타트(yfinance ~3.6초)를 첫 사용자가
+    겪지 않도록 미리 _build() 결과를 캐시에 채운다. 실패해도 서비스 영향 없음."""
+    try:
+        data = _build()
+        _CACHE["ts"]   = time.time()
+        _CACHE["data"] = data
+        print("[morning] 캐시 prewarm 완료 (콜드 스타트 제거)")
+    except Exception as e:
+        print(f"[morning] prewarm 실패(무시): {e}")
+
+
+_AUTO_REFRESH_STARTED = False
+
+def start_auto_refresh(interval_sec: int = 840) -> None:
+    """[옵션 B] 기동 직후 1회 prewarm + 이후 interval(기본 14분)마다 백그라운드 갱신.
+    TTL(900초=15분)보다 짧은 주기로 미리 새로고침 → 캐시가 만료될 틈이 없어
+    어떤 사용자도 콜드 스타트를 겪지 않는다(항상 따뜻한 캐시). daemon 스레드라
+    서버 종료 시 함께 정리되고, 실패해도 서비스에 영향 없음."""
+    global _AUTO_REFRESH_STARTED
+    if _AUTO_REFRESH_STARTED:
+        return
+    _AUTO_REFRESH_STARTED = True
+
+    def _loop():
+        warm_cache()                 # 기동 직후 1회 (prewarm)
+        while True:
+            time.sleep(interval_sec)  # 14분 대기
+            warm_cache()              # 만료 직전 미리 갱신
+
+    threading.Thread(target=_loop, daemon=True, name="morning-auto-refresh").start()
+    print(f"[morning] 자동 주기 갱신 시작 (매 {interval_sec//60}분, TTL 15분 직전 갱신)")
