@@ -37,6 +37,7 @@ def retrieve(query: str,
              ticker: Optional[str] = None,
              year: Optional[int] = None,
              section_main: Optional[str] = None,
+             report_type: Optional[str] = None,
              top_k: int = 10) -> list[dict]:
     """벡터 검색 + 메타데이터 필터.
 
@@ -63,6 +64,9 @@ def retrieve(query: str,
         where["year"] = year
     if section_main:
         where["section_main"] = section_main
+    # 선택적 필터 — 기본 None 이면 미적용(report_type 메타 없는 구 청크도 검색됨)
+    if report_type:
+        where["report_type"] = report_type
 
     # ChromaDB where 조건이 빈 dict 면 None 으로
     where_filter = where if where else None
