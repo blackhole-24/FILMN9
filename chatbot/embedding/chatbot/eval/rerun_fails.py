@@ -54,7 +54,9 @@ def main():
             "answer": r.get("answer", ""),
             "sources_n": len(r.get("sources") or []),
             "source_reports": [s.get("report", "") for s in (r.get("sources") or [])],
-            "meta": {k: (r.get("meta", {}) or {}).get(k) for k in ("corp_name", "ticker", "year", "period_label")},
+            "meta": {k: (r.get("meta", {}) or {}).get(k) for k in
+                     ("corp_name", "ticker", "year", "period_label",
+                      "intent", "search_query", "queries_used", "ontology_concepts")},
             "rerun": True,
         })
         mark = "✅PASS" if passed else "❌FAIL"

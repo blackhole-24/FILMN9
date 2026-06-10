@@ -92,6 +92,10 @@ def score_one(q: dict, res: dict) -> tuple[bool, dict]:
         checks["found"] = (found == exp["found"])
     for kw in exp.get("keywords", []):
         checks[f"kw:{kw}"] = (kw in ans)
+    # 동의어 허용: 나열한 표현 중 하나라도 있으면 통과(업종 용어 차이 흡수, 예 양극재=양극활물질)
+    ka = exp.get("keywords_any")
+    if ka:
+        checks["kw_any"] = any(k in ans for k in ka)
     for num in exp.get("numbers", []):
         checks[f"num:{num}"] = _num_present(num, ans)
     if exp.get("numeric"):
@@ -149,7 +153,9 @@ def main():
             "answer": res.get("answer", ""),
             "sources_n": len(res.get("sources") or []),
             "source_reports": [s.get("report", "") for s in (res.get("sources") or [])],
-            "meta": {k: res.get("meta", {}).get(k) for k in ("corp_name", "ticker", "year", "period_label")},
+            "meta": {k: res.get("meta", {}).get(k) for k in
+                     ("corp_name", "ticker", "year", "period_label",
+                      "intent", "search_query", "queries_used", "ontology_concepts")},
         })
 
     elapsed = time.time() - t_all

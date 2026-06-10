@@ -15,14 +15,14 @@ EVAL = Path(__file__).resolve().parent
 sys.path.insert(0, str(EVAL))
 import run_eval as R
 
-REPORT_DATE = "2026-06-04"
-OUT = Path(r"C:\Users\Admin\Desktop\챗봇_정확도_평가보고서_v2.pdf")
+REPORT_DATE = "2026-06-05"
+OUT = Path(r"C:\Users\Admin\Desktop\챗봇_정확도_평가보고서_v3.pdf")
 
 from reportlab.lib.pagesizes import A4
 from reportlab.lib import colors
 from reportlab.lib.units import mm
 from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
-from reportlab.platypus import (SimpleDocTemplate, Paragraph, Spacer, Table, TableStyle, PageBreak)
+from reportlab.platypus import (SimpleDocTemplate, Paragraph, Spacer, Table, TableStyle, PageBreak, HRFlowable)
 from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.ttfonts import TTFont
 
@@ -36,6 +36,11 @@ BODY = ParagraphStyle("BODY", parent=ss["Normal"], fontName="Malgun", fontSize=9
 SMALL = ParagraphStyle("SMALL", parent=ss["Normal"], fontName="Malgun", fontSize=8, leading=10.5)
 CELL = ParagraphStyle("CELL", parent=ss["Normal"], fontName="Malgun", fontSize=8, leading=10.5)
 CELLC = ParagraphStyle("CELLC", parent=CELL, alignment=1)
+# 문항별 상세 블록용 — 제목줄(QH) + 필드(QF)
+QH = ParagraphStyle("QH", parent=BODY, fontName="MalgunB", fontSize=9.5, leading=13,
+                    spaceBefore=4, spaceAfter=3, textColor=colors.HexColor("#1f3a5f"))
+QF = ParagraphStyle("QF", parent=ss["Normal"], fontName="Malgun", fontSize=8.5, leading=12,
+                    leftIndent=6, spaceAfter=2)
 
 # ── 층화표본 메타(종목·시장·층) ──
 STRAT_META = {
@@ -84,6 +89,89 @@ def pass_badge(p):
     return Paragraph(f'<font color="{"#0a7d28" if p else "#c0152f"}"><b>{"PASS" if p else "FAIL"}</b></font>', CELLC)
 
 
+def esc(s):
+    """reportlab Paragraph 안전화 — 동적 텍스트의 마크업 문자 이스케이프."""
+    return str(s).replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+
+
+def fmt_label(expect):
+    """골든셋 expect → 사람이 읽는 '정답 라벨'(NO-MOCK: 검증된 기준만)."""
+    expect = expect or {}
+    parts = []
+    if "found" in expect:
+        parts.append("정보 있음(답변 기대)" if expect["found"]
+                     else "정보 없음(부정 케이스 — '찾을 수 없음'이 정답)")
+    if expect.get("keywords"):
+        parts.append("필수 키워드: " + esc(", ".join(expect["keywords"])))
+    if expect.get("numbers"):
+        parts.append("필수 실측 수치: " + esc(", ".join(map(str, expect["numbers"]))))
+    if expect.get("numeric"):
+        parts.append("실적 숫자 1개 이상")
+    if expect.get("report_contains"):
+        parts.append("보고서 표기 '" + esc(expect["report_contains"]) + "'")
+    if expect.get("unit_ok"):
+        parts.append("금액 단위 표기 필수")
+    return " · ".join(parts) if parts else "(정보 제공 여부만 평가)"
+
+
+def fmt_queries(meta):
+    """meta → 'LLM이 생성/확장한 쿼리'. 구버전 결과(미수집)면 안내 문구."""
+    meta = meta or {}
+    sq = meta.get("search_query")
+    qs = meta.get("queries_used") or []
+    oc = meta.get("ontology_concepts") or []
+    intent = meta.get("intent")
+    if not (sq or qs or oc):
+        return '<font color="#999">(미수집 — 본 항목은 재실행하면 채워집니다)</font>'
+    lines = []
+    if intent:
+        lines.append("의도: " + esc(intent))
+    if sq:
+        lines.append("핵심 검색질의: " + esc(sq))
+    if qs:
+        lines.append("실제 검색 쿼리 %d개 (LLM 변형·HyDE·온톨로지 확장 포함):" % len(qs))
+        for i, q in enumerate(qs, 1):
+            qq = esc(q)
+            if len(qq) > 150:
+                qq = qq[:150] + "…"
+            lines.append("&nbsp;&nbsp;%d) %s" % (i, qq))
+    if oc:
+        lines.append("온톨로지 개념: " + esc(", ".join(map(str, oc))))
+    return "<br/>".join(lines)
+
+
+def fmt_answer(ans):
+    ans = (ans or "").strip()
+    if not ans:
+        return '<font color="#c0152f">(빈 응답)</font>'
+    a = esc(ans).replace("\n", "<br/>")
+    if len(a) > 2400:
+        a = a[:2400] + ' <font color="#999">…(이하 생략)</font>'
+    return a
+
+
+def qa_section(el, rows, name_fn, title):
+    """문항별 상세 블록 — 정답라벨 · LLM쿼리 · 챗봇답변 · 판정."""
+    el.append(Paragraph(title, H2))
+    el.append(Paragraph("각 문항: 정답 라벨(골든 검증기준) · LLM이 생성/확장한 쿼리 · 챗봇이 찾은 답변.", SMALL))
+    el.append(Spacer(1, 6))
+    for r in rows:
+        nm = name_fn(r)
+        meta = r.get("meta") or {}
+        col = "#0a7d28" if r["passed"] else "#c0152f"
+        el.append(Paragraph(
+            '<b>[%s]</b> %s &nbsp; <font color="%s"><b>%s</b></font> '
+            '<font color="#888">(%ds)</font>'
+            % (esc(nm), esc(r["question"]), col, "PASS" if r["passed"] else "FAIL",
+               r.get("latency_s", 0)), QH))
+        el.append(Paragraph("<b>정답 라벨</b> · " + fmt_label(r.get("expect", {})), QF))
+        el.append(Paragraph("<b>LLM 쿼리</b> · " + fmt_queries(meta), QF))
+        el.append(Paragraph("<b>챗봇 답변</b> · " + fmt_answer(r.get("answer")), QF))
+        el.append(Paragraph("<b>판정</b> · " + esc(note_for(r)), QF))
+        el.append(HRFlowable(width="100%", thickness=0.4, color=colors.HexColor("#dddddd"),
+                             spaceBefore=4, spaceAfter=8))
+
+
 def main():
     broad = load_and_rescore("golden_set.json", "results_broad.json")
     strat = load_and_rescore("golden_strat.json", "results_strat.json")
@@ -127,11 +215,16 @@ def main():
     ]))
     el.append(t)
     el.append(Spacer(1, 8))
+    empties_desc = (
+        "reasoning=high의 산발적 0토큰 출력(토큰 소진 아님 — 6장 참조). high 재시도→medium 폴백 적용 후 잔존분."
+        if empties else
+        "high 재시도→medium 폴백으로 전부 복구(토큰 소진이 아닌 산발 현상이었음)."
+    )
     el.append(Paragraph(
         f"• <b>과적합 검증</b>: 대기업({bp/bn*100:.0f}%)과 생소한 중소형주 층화표본({sp/sn*100:.0f}%)의 정확도가 유사 → "
         f"특정 대형주에 과적합되지 않고 전 규모·업종에 일반화됨.<br/>"
         f"• <b>할루시네이션 0</b>: 없는 정보 질문은 전부 '찾을 수 없음'으로 정직 처리.<br/>"
-        f"• <b>빈 응답 {empties}건</b>: reasoning=high가 토큰예산을 추론에 소진해 출력이 비는 사례(품질 실패 아님, 아래 한계 참조).", BODY))
+        f"• <b>빈 응답 {empties}건</b>: {empties_desc}", BODY))
     el.append(PageBreak())
 
     # ── 표 빌더 ──
@@ -167,8 +260,18 @@ def main():
                  "3. 대기업 표본 상세 (대형주 14종목, 다업종)")
     el.append(PageBreak())
 
+    # ── 4·5. 문항별 상세 (LLM 쿼리 · 답변 · 정답 라벨) ──
+    qa_section(el, strat,
+               lambda r: STRAT_META.get((r.get("meta") or {}).get("ticker", ""), ("(별칭/기타)",))[0],
+               "4. 층화 표본 — 문항별 상세 (LLM 쿼리 · 챗봇 답변 · 정답 라벨)")
+    el.append(PageBreak())
+    qa_section(el, broad,
+               lambda r: BROAD_NAME.get((r.get("meta") or {}).get("ticker", ""), "(별칭/기타)"),
+               "5. 대기업 표본 — 문항별 상세 (LLM 쿼리 · 챗봇 답변 · 정답 라벨)")
+    el.append(PageBreak())
+
     # ── 한계 ──
-    el.append(Paragraph("4. 발견된 한계 및 권고", H2))
+    el.append(Paragraph("6. 발견된 한계 및 권고", H2))
     el.append(Paragraph(
         "<b>① 단위 미확인 (재무 수치 일부)</b><br/>"
         "DART 재무제표가 길어 분할되면 '(단위: 백만원)' 머리글이 일부 청크에서 누락 → reasoning=high가 단위를 "
@@ -180,9 +283,17 @@ def main():
         f"재시도를 적용해 다수 복구되나, 무거운 질문에서는 재시도 후에도 잔존하는 경우가 있음(본 평가 잔존 {empties}건). "
         "권고: 잔존 빈 응답에 한해 reasoning=medium 폴백(추론 high 기본 유지).<br/><br/>"
         "<b>③ 응답 속도</b><br/>"
-        "reasoning=high라 복잡 질문은 60~250초 소요(정확도 우선 트레이드오프). 데모 시 대기 안내 권장.", BODY))
+        "reasoning=high라 복잡 질문은 60~250초 소요(정확도 우선 트레이드오프). 데모 시 대기 안내 권장.<br/><br/>"
+        "<b>④ 다부문 기업의 손익계산서 검색 라우팅 (검증 중 발견 → <font color='#0a7d28'>해결</font>)</b><br/>"
+        "정유·화학·지주처럼 'II.사업의 내용 &gt; 매출 및 수주상황·주요 제품'이 품목별로 수십 건(예: SK이노베이션 "
+        "2026 1분기 <b>62건</b>)으로 쪼개지는 회사는, '매출액·영업이익' 질의에서 이 매출실적 표가 검색 상위를 독점해 "
+        "손익계산서(III.재무 &gt; 요약재무정보·연결재무제표) 청크가 상위에 못 들던 문제(DB 직접조회로 데이터 존재 확인 "
+        "= 순수 랭킹 문제, 단일사업사는 미발생). <b>수정</b>: P&amp;L 지표 질의 감지 시 DART 보편 섹션 구조로 "
+        "손익계산서 청크를 결정적으로 후보 편입(섹션 직접 추출 + 매출실적 과다점유 캡 + 재랭킹 후 강제포함). "
+        "특정 회사 튜닝이 아닌 구조 기반이라 <b>6개 업종(정유·화학·전자·식품·철강·중공업) 전부 손익계산서 검색 "
+        "진입 확인</b>(과적합 아님). SK이노 end-to-end 매출액·영업이익+단위 정상화.", BODY))
     el.append(Spacer(1, 8))
-    el.append(Paragraph("5. 결론", H2))
+    el.append(Paragraph("7. 결론", H2))
     el.append(Paragraph(
         f"전체 {total_p}/{total_n}문항({total_p/total_n*100:.0f}%) 통과. 대형주와 중소형주 정확도가 유사해 "
         "회사 해석·보고서 라우팅·표 독해가 규모/업종에 일반화됨을 확인. 할루시네이션은 0건으로 NO-MOCK 원칙을 준수. "

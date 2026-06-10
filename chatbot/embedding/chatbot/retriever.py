@@ -20,13 +20,80 @@ from .config import (
     ENABLE_EXPANSION_RERANK, RERANK_MAX_QUERIES,
     ENABLE_STUB_DEMOTE, STUB_TABLE_MAX_CHARS, STUB_MIN_DIGITS, STUB_PENALTY,
     ENABLE_HYBRID_BM25, BM25_TOP_N, ENABLE_UNIT_SIBLING,
+    ENABLE_FINSTMT_ROUTING, FINSTMT_FETCH_N, FINSTMT_RESERVE, FINSTMT_FLOOD_CAP,
 )
 from . import reranker
 
 # 재무제표 명세서 제목(머리글 청크 식별용) + 단위 패턴
 _STMT_TITLE_RE = re.compile(r"(손익계산서|재무상태표|포괄손익|자본변동표|현금흐름표|요약\S*재무)")
-_UNIT_ANY_RE = re.compile(r"\(단위\s*[:：]\s*(백만원|천원)\s*\)")
+_UNIT_ANY_RE = re.compile(r"\(단위\s*[:：]\s*(백만원|천원|억원|원)\s*\)")
 _FIN_SEC_KEYS = ("재무", "손익", "현금흐름", "자본변동", "포괄손익")
+
+# 재무제표 라우팅: P&L(손익) 지표 질의 / 손익계산서·요약재무 섹션 / 매출실적 섹션 식별
+_FINSTMT_Q_RE = re.compile(
+    r"(매출액|영업이익|영업손실|당기순이익|순이익|매출총이익|영업수익|총포괄손익|판매비와관리비)")
+_FINSTMT_SEC_RE = re.compile(r"(요약\S*재무|연결재무제표|재무제표|손익계산서|포괄손익)")
+# 다부문사에서 검색을 점유하는 품목·매출 표 섹션(매출 및 수주상황 + 주요 제품 및 서비스)
+_FLOOD_SEC_RE = re.compile(r"매출\s*및\s*수주|주요\s*제품")
+
+
+def _is_finstmt_query(text: str) -> bool:
+    """매출액·영업이익 등 손익계산서 라인아이템을 묻는 질의인지."""
+    return bool(_FINSTMT_Q_RE.search(text or ""))
+
+
+def _is_finstmt_section(sec: str) -> bool:
+    """섹션 경로가 손익계산서/요약재무/연결재무제표인지(주석은 제외)."""
+    sec = sec or ""
+    return bool(_FINSTMT_SEC_RE.search(sec)) and ("주석" not in sec)
+
+
+def _sec_of(c: dict) -> str:
+    return (c.get("metadata") or {}).get("section_path_str", "") or ""
+
+
+def _reserve_finstmt(pool: list[dict], final_top_k: int,
+                     reserve: int = FINSTMT_RESERVE) -> list[dict]:
+    """재랭킹된 풀에서 재무제표 섹션 청크 상위 reserve개를 최종 컨텍스트에 강제 포함.
+
+    재랭커가 RRF 부스트를 무시하고 매출실적 표를 손익계산서보다 위로 올리는 문제 보정.
+    재무제표 청크를 앞쪽에 배치 → 컨텍스트 길이 절단(MAX_CONTEXT_CHARS)으로부터도 보호.
+    데이터 변경 없음(NO-MOCK 안전) — 순위/포함만 조정.
+    """
+    # 손익 라인아이템(영업이익·매출액 등)이 실제로 든 재무청크를 우선 예약(재무상태표 등보다)
+    fin_pl = [c for c in pool if _is_finstmt_section(_sec_of(c)) and _FINSTMT_Q_RE.search(c.get("text", ""))]
+    seen = {c.get("id") for c in fin_pl}
+    fin_other = [c for c in pool if _is_finstmt_section(_sec_of(c)) and c.get("id") not in seen]
+    fin = (fin_pl + fin_other)[:reserve]
+    fin_ids = {c.get("id") for c in fin}
+    keep = list(fin)
+    for c in pool:
+        if c.get("id") in fin_ids:
+            continue
+        keep.append(c)
+        if len(keep) >= final_top_k:
+            break
+    return keep[:final_top_k]
+
+
+def _cap_flood_sections(fused: list[dict]) -> list[dict]:
+    """매출실적·주요제품 등 '점유 섹션' 표의 RRF 풀 점유를 상한으로 제한 → 손익계산서 후보가
+    재랭킹 풀에 들어갈 자리를 확보(다부문사에서 품목표 수십 건이 풀을 독점하는 문제 방지).
+
+    fused 는 RRF 점수 내림차순. 점유 섹션 청크는 상위 FINSTMT_FLOOD_CAP 건만 유지하고
+    나머지는 풀 뒤로 미룬다(순서 보존). 데이터 변경 없음(NO-MOCK 안전).
+    """
+    flood_seen = 0
+    kept: list[dict] = []
+    capped: list[dict] = []
+    for c in fused:
+        if _FLOOD_SEC_RE.search(_sec_of(c)):
+            flood_seen += 1
+            if flood_seen > FINSTMT_FLOOD_CAP:
+                capped.append(c)
+                continue
+        kept.append(c)
+    return kept + capped
 
 
 def _augment_unit_siblings(chunks: list[dict]) -> list[dict]:
@@ -50,10 +117,12 @@ def _augment_unit_siblings(chunks: list[dict]) -> list[dict]:
         if not m:
             continue
         prefix, seq = m.group(1), int(m.group(2))
-        for back in (1, 2, 3):
+        for back in range(1, 7):   # 직전 1~6 형제까지 (긴 명세서 분할 대비)
+            if seq - back < 0:
+                break
             sid = f"{prefix}{seq - back:05d}"
             if sid in have or any(a["id"] == sid for a in additions):
-                break
+                continue   # 이미 포함된 형제는 건너뛰고 머리글을 더 거슬러 탐색
             try:
                 g = coll.get(ids=[sid], include=["documents", "metadatas"])
             except Exception:
@@ -83,24 +152,15 @@ def _tokenize(text: str) -> list[str]:
     return _TOK_RE.findall((text or "").lower())
 
 
-def _bm25_ranked(query_terms: list[str], where: Optional[dict],
-                 top_n: int, k1: float = 1.5, b: float = 0.75) -> list[dict]:
-    """종목(필터) 코퍼스에 BM25 적용 → 상위 top_n 청크를 벡터와 동일 포맷 랭킹 리스트로.
+def _bm25_score(ids: list, docs: list, metas: list, qset: set,
+                top_n: int, k1: float = 1.5, b: float = 0.75) -> list[dict]:
+    """주어진 (ids, docs, metas) 코퍼스에 BM25 적용 → 상위 top_n 청크 랭킹 리스트.
 
-    종목 메타필터가 걸려 대상이 보통 수천 청크 이하라 매 질의 즉석 색인이 가볍다.
+    코퍼스를 인자로 받는 순수 함수 — 하이브리드 BM25와 재무제표 라우팅이 공용.
     """
-    qset = {t for t in query_terms if t}
-    if not qset:
-        return []
-    coll = get_collection()
-    got = coll.get(where=where, include=["documents", "metadatas"])
-    ids = got.get("ids") or []
-    docs = got.get("documents") or []
-    metas = got.get("metadatas") or []
     n = len(ids)
-    if n == 0:
+    if n == 0 or not qset:
         return []
-
     corpus = [_tokenize(d) for d in docs]
     dl = [len(c) for c in corpus]
     avgdl = (sum(dl) / n) if n else 0.0
@@ -133,6 +193,40 @@ def _bm25_ranked(query_terms: list[str], where: Optional[dict],
     for s, i in scored[:top_n]:
         out.append({"id": ids[i], "text": docs[i], "metadata": metas[i] or {},
                     "distance": None, "similarity": None, "bm25": s})
+    return out
+
+
+def _bm25_ranked(query_terms: list[str], where: Optional[dict],
+                 top_n: int, k1: float = 1.5, b: float = 0.75) -> list[dict]:
+    """종목(필터) 코퍼스를 1회 로드해 BM25 적용(코퍼스 직접 로드 래퍼)."""
+    qset = {t for t in query_terms if t}
+    if not qset:
+        return []
+    got = get_collection().get(where=where, include=["documents", "metadatas"])
+    return _bm25_score(got.get("ids") or [], got.get("documents") or [],
+                       got.get("metadatas") or [], qset, top_n, k1, b)
+
+
+def _finstmt_candidates(ids: list, docs: list, metas: list, qset: set,
+                        top_n: int) -> list[dict]:
+    """[재무제표 결정적 라우팅] 종목 코퍼스에서 손익계산서/요약재무 섹션 청크만 골라
+    질의어 BM25 상위 top_n 반환.
+
+    매출실적 표가 아무리 많아도(다부문사) 손익계산서를 '섹션 구조'로 직접 후보에 보장.
+    회사·업종 무관 — 모든 DART 보고서가 공유하는 섹션 스키마에만 의존(과적합 없음).
+    """
+    fi = [i for i in range(len(ids))
+          if _is_finstmt_section((metas[i] or {}).get("section_path_str", ""))]
+    if not fi:
+        return []
+    # '연결재무제표' 섹션엔 손익계산서 외 재무상태표·현금흐름표도 섞임 → 실제로 손익 라인아이템
+    # (영업이익·매출액 등)이 든 청크를 우선(포괄손익계산서·요약재무). 없으면 전체 재무 섹션 폴백.
+    pl = [i for i in fi if _FINSTMT_Q_RE.search(docs[i] or "")]
+    use = pl if pl else fi
+    out = _bm25_score([ids[i] for i in use], [docs[i] for i in use],
+                      [metas[i] for i in use], qset, top_n)
+    for c in out:
+        c["_finstmt"] = True
     return out
 
 
@@ -234,6 +328,10 @@ def search(queries: list[str],
     if not qs:
         return {"chunks": [], "reranked": False, "pool_size": 0}
 
+    # P&L(손익) 지표 질의 여부 — 손익계산서를 '섹션 구조'로 직접 후보에 넣을지 결정(아래 1b).
+    fin_q = bool(ENABLE_FINSTMT_ROUTING and (ticker or report_kind) and (
+        _is_finstmt_query(rerank_query) or any(_is_finstmt_query(q) for q in qs)))
+
     embs = embed_texts(qs, show_progress=False)
     coll = get_collection()
     res = coll.query(
@@ -263,24 +361,41 @@ def search(queries: list[str],
         if lst:
             ranked_lists.append(lst)
 
-    # 1b) 하이브리드: BM25 키워드 검색 결과를 추가 랭킹 리스트로 융합 (옵트인)
-    #     "영업이익·수주총액" 등 정확 용어가 든 청크의 recall 을 안정화.
-    if ENABLE_HYBRID_BM25 and (ticker or report_kind):
+    # 1b) 종목 코퍼스 1회 로드 → ①하이브리드 BM25(정확 용어 recall 안정화)
+    #     ②P&L 질의면 재무제표 섹션 청크를 '구조적으로' 직접 추출(매출실적 표 무관, 회사 무관).
+    fin_cands: list[dict] = []
+    if (ENABLE_HYBRID_BM25 and (ticker or report_kind)) or fin_q:
         try:
-            qterms: list[str] = []
+            cg = coll.get(where=_build_where(ticker, year, report_kind),
+                          include=["documents", "metadatas"])
+            c_ids = cg.get("ids") or []
+            c_docs = cg.get("documents") or []
+            c_metas = cg.get("metadatas") or []
+            qset: set = set()
             for q in qs:
-                qterms.extend(_tokenize(q))
-            bm = _bm25_ranked(qterms, _build_where(ticker, year, report_kind), BM25_TOP_N)
-            if bm:
-                ranked_lists.append(bm)
+                qset.update(_tokenize(q))
+            if ENABLE_HYBRID_BM25 and (ticker or report_kind):
+                bm = _bm25_score(c_ids, c_docs, c_metas, qset, BM25_TOP_N)
+                if bm:
+                    ranked_lists.append(bm)
+            if fin_q:
+                fin_cands = _finstmt_candidates(c_ids, c_docs, c_metas, qset, FINSTMT_FETCH_N)
+                if fin_cands:
+                    ranked_lists.append(fin_cands)
         except Exception as e:
-            print(f"[retriever] BM25 스킵 (graceful degrade): {str(e)[:80]}", flush=True)
+            print(f"[retriever] 코퍼스/BM25/재무라우팅 스킵: {str(e)[:80]}", flush=True)
 
     if not ranked_lists:
         return {"chunks": [], "reranked": False, "pool_size": 0}
 
-    # 2) RRF 융합
-    pool = _rrf_fuse(ranked_lists)[:RERANK_POOL]
+    # 2) RRF 융합 → (P&L질의면) 점유섹션 캡으로 자리 확보 → 재무제표 후보를 재랭킹 풀에 강제 편입
+    fused = _rrf_fuse(ranked_lists)
+    if fin_q:
+        fused = _cap_flood_sections(fused)
+    pool = fused[:RERANK_POOL]
+    if fin_q and fin_cands:
+        have = {c["id"] for c in pool}
+        pool = pool + [c for c in fin_cands if c["id"] not in have]
 
     # 3) 재랭킹 (실패 시 RRF 순서 유지)
     #    확장 인지: [원본 질문] + [온톨로지 개념어]로 각각 채점 후 청크별 max
@@ -293,9 +408,10 @@ def search(queries: list[str],
                     rerank_qs.append(q.strip())
         rerank_qs = rerank_qs[:RERANK_MAX_QUERIES]
         try:
-            # 전체 풀을 재랭킹(절단X) → stub 강등 후 재정렬 → 최종 절단
+            # 전체 풀을 재랭킹(절단X) → stub 강등 후 재정렬 → (P&L질의면 재무제표 강제포함) → 최종 절단
             pool = reranker.rerank(rerank_qs, pool, top_k=len(pool))
-            pool = _demote_stubs(pool)[:final_top_k]
+            pool = _demote_stubs(pool)
+            pool = _reserve_finstmt(pool, final_top_k) if fin_q else pool[:final_top_k]
             reranked = True
         except reranker.RerankUnavailable as e:
             print(f"[retriever] 재랭킹 스킵 (graceful degrade): {e}", flush=True)

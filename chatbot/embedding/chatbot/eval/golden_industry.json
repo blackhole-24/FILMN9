@@ -1,0 +1,639 @@
+{
+  "_meta": {
+    "purpose": "산업 세분화 × 코스피·코스닥 대표 2종목 — 업종 전반 일반화 검증",
+    "markets": "KOSPI 6산업12종목 + KOSDAQ 6산업12종목",
+    "per_company": "사업개요(키워드) + 2025 연간 매출액(숫자)",
+    "verified": "티커 24/24 company index 매핑 확인"
+  },
+  "questions": [
+    {
+      "id": "ind-005930-biz",
+      "question": "삼성전자 주요 사업은 무엇인가요?",
+      "ticker": "005930",
+      "name": "삼성전자",
+      "market": "KOSPI",
+      "industry": "반도체",
+      "expect": {
+        "found": true,
+        "keywords": [
+          "반도체"
+        ]
+      }
+    },
+    {
+      "id": "ind-005930-rev",
+      "question": "삼성전자의 2025년 연간 매출액은 얼마인가요?",
+      "ticker": "005930",
+      "name": "삼성전자",
+      "market": "KOSPI",
+      "industry": "반도체",
+      "expect": {
+        "found": true,
+        "numeric": true
+      }
+    },
+    {
+      "id": "ind-000660-biz",
+      "question": "SK하이닉스 주요 사업은 무엇인가요?",
+      "ticker": "000660",
+      "name": "SK하이닉스",
+      "market": "KOSPI",
+      "industry": "반도체",
+      "expect": {
+        "found": true,
+        "keywords": [
+          "반도체"
+        ]
+      }
+    },
+    {
+      "id": "ind-000660-rev",
+      "question": "SK하이닉스의 2025년 연간 매출액은 얼마인가요?",
+      "ticker": "000660",
+      "name": "SK하이닉스",
+      "market": "KOSPI",
+      "industry": "반도체",
+      "expect": {
+        "found": true,
+        "numeric": true
+      }
+    },
+    {
+      "id": "ind-373220-biz",
+      "question": "LG에너지솔루션 주요 사업은 무엇인가요?",
+      "ticker": "373220",
+      "name": "LG에너지솔루션",
+      "market": "KOSPI",
+      "industry": "2차전지",
+      "expect": {
+        "found": true,
+        "keywords": [
+          "전지"
+        ]
+      }
+    },
+    {
+      "id": "ind-373220-rev",
+      "question": "LG에너지솔루션의 2025년 연간 매출액은 얼마인가요?",
+      "ticker": "373220",
+      "name": "LG에너지솔루션",
+      "market": "KOSPI",
+      "industry": "2차전지",
+      "expect": {
+        "found": true,
+        "numeric": true
+      }
+    },
+    {
+      "id": "ind-006400-biz",
+      "question": "삼성SDI 주요 사업은 무엇인가요?",
+      "ticker": "006400",
+      "name": "삼성SDI",
+      "market": "KOSPI",
+      "industry": "2차전지",
+      "expect": {
+        "found": true,
+        "keywords": [
+          "전지"
+        ]
+      }
+    },
+    {
+      "id": "ind-006400-rev",
+      "question": "삼성SDI의 2025년 연간 매출액은 얼마인가요?",
+      "ticker": "006400",
+      "name": "삼성SDI",
+      "market": "KOSPI",
+      "industry": "2차전지",
+      "expect": {
+        "found": true,
+        "numeric": true
+      }
+    },
+    {
+      "id": "ind-005380-biz",
+      "question": "현대차 주요 사업은 무엇인가요?",
+      "ticker": "005380",
+      "name": "현대차",
+      "market": "KOSPI",
+      "industry": "자동차",
+      "expect": {
+        "found": true,
+        "keywords": [
+          "자동차"
+        ]
+      }
+    },
+    {
+      "id": "ind-005380-rev",
+      "question": "현대차의 2025년 연간 매출액은 얼마인가요?",
+      "ticker": "005380",
+      "name": "현대차",
+      "market": "KOSPI",
+      "industry": "자동차",
+      "expect": {
+        "found": true,
+        "numeric": true
+      }
+    },
+    {
+      "id": "ind-000270-biz",
+      "question": "기아 주요 사업은 무엇인가요?",
+      "ticker": "000270",
+      "name": "기아",
+      "market": "KOSPI",
+      "industry": "자동차",
+      "expect": {
+        "found": true,
+        "keywords_any": [
+          "자동차",
+          "완성차",
+          "승용"
+        ]
+      }
+    },
+    {
+      "id": "ind-000270-rev",
+      "question": "기아의 2025년 연간 매출액은 얼마인가요?",
+      "ticker": "000270",
+      "name": "기아",
+      "market": "KOSPI",
+      "industry": "자동차",
+      "expect": {
+        "found": true,
+        "numeric": true
+      }
+    },
+    {
+      "id": "ind-207940-biz",
+      "question": "삼성바이오로직스 주요 사업은 무엇인가요?",
+      "ticker": "207940",
+      "name": "삼성바이오로직스",
+      "market": "KOSPI",
+      "industry": "바이오제약",
+      "expect": {
+        "found": true,
+        "keywords": [
+          "바이오"
+        ]
+      }
+    },
+    {
+      "id": "ind-207940-rev",
+      "question": "삼성바이오로직스의 2025년 연간 매출액은 얼마인가요?",
+      "ticker": "207940",
+      "name": "삼성바이오로직스",
+      "market": "KOSPI",
+      "industry": "바이오제약",
+      "expect": {
+        "found": true,
+        "numeric": true
+      }
+    },
+    {
+      "id": "ind-068270-biz",
+      "question": "셀트리온 주요 사업은 무엇인가요?",
+      "ticker": "068270",
+      "name": "셀트리온",
+      "market": "KOSPI",
+      "industry": "바이오제약",
+      "expect": {
+        "found": true,
+        "keywords": [
+          "의약품"
+        ]
+      }
+    },
+    {
+      "id": "ind-068270-rev",
+      "question": "셀트리온의 2025년 연간 매출액은 얼마인가요?",
+      "ticker": "068270",
+      "name": "셀트리온",
+      "market": "KOSPI",
+      "industry": "바이오제약",
+      "expect": {
+        "found": true,
+        "numeric": true
+      }
+    },
+    {
+      "id": "ind-035420-biz",
+      "question": "NAVER 주요 사업은 무엇인가요?",
+      "ticker": "035420",
+      "name": "NAVER",
+      "market": "KOSPI",
+      "industry": "인터넷플랫폼",
+      "expect": {
+        "found": true,
+        "keywords": [
+          "플랫폼"
+        ]
+      }
+    },
+    {
+      "id": "ind-035420-rev",
+      "question": "NAVER의 2025년 연간 매출액은 얼마인가요?",
+      "ticker": "035420",
+      "name": "NAVER",
+      "market": "KOSPI",
+      "industry": "인터넷플랫폼",
+      "expect": {
+        "found": true,
+        "numeric": true
+      }
+    },
+    {
+      "id": "ind-035720-biz",
+      "question": "카카오 주요 사업은 무엇인가요?",
+      "ticker": "035720",
+      "name": "카카오",
+      "market": "KOSPI",
+      "industry": "인터넷플랫폼",
+      "expect": {
+        "found": true,
+        "keywords": [
+          "플랫폼"
+        ]
+      }
+    },
+    {
+      "id": "ind-035720-rev",
+      "question": "카카오의 2025년 연간 매출액은 얼마인가요?",
+      "ticker": "035720",
+      "name": "카카오",
+      "market": "KOSPI",
+      "industry": "인터넷플랫폼",
+      "expect": {
+        "found": true,
+        "numeric": true
+      }
+    },
+    {
+      "id": "ind-005490-biz",
+      "question": "POSCO홀딩스 주요 사업은 무엇인가요?",
+      "ticker": "005490",
+      "name": "POSCO홀딩스",
+      "market": "KOSPI",
+      "industry": "철강소재",
+      "expect": {
+        "found": true,
+        "keywords": [
+          "철강"
+        ]
+      }
+    },
+    {
+      "id": "ind-005490-rev",
+      "question": "POSCO홀딩스의 2025년 연간 매출액은 얼마인가요?",
+      "ticker": "005490",
+      "name": "POSCO홀딩스",
+      "market": "KOSPI",
+      "industry": "철강소재",
+      "expect": {
+        "found": true,
+        "numeric": true
+      }
+    },
+    {
+      "id": "ind-004020-biz",
+      "question": "현대제철 주요 사업은 무엇인가요?",
+      "ticker": "004020",
+      "name": "현대제철",
+      "market": "KOSPI",
+      "industry": "철강소재",
+      "expect": {
+        "found": true,
+        "keywords": [
+          "철강"
+        ]
+      }
+    },
+    {
+      "id": "ind-004020-rev",
+      "question": "현대제철의 2025년 연간 매출액은 얼마인가요?",
+      "ticker": "004020",
+      "name": "현대제철",
+      "market": "KOSPI",
+      "industry": "철강소재",
+      "expect": {
+        "found": true,
+        "numeric": true
+      }
+    },
+    {
+      "id": "ind-247540-biz",
+      "question": "에코프로비엠 주요 사업은 무엇인가요?",
+      "ticker": "247540",
+      "name": "에코프로비엠",
+      "market": "KOSDAQ",
+      "industry": "2차전지소재",
+      "expect": {
+        "found": true,
+        "keywords": [
+          "양극재"
+        ]
+      }
+    },
+    {
+      "id": "ind-247540-rev",
+      "question": "에코프로비엠의 2025년 연간 매출액은 얼마인가요?",
+      "ticker": "247540",
+      "name": "에코프로비엠",
+      "market": "KOSDAQ",
+      "industry": "2차전지소재",
+      "expect": {
+        "found": true,
+        "numeric": true
+      }
+    },
+    {
+      "id": "ind-066970-biz",
+      "question": "엘앤에프 주요 사업은 무엇인가요?",
+      "ticker": "066970",
+      "name": "엘앤에프",
+      "market": "KOSDAQ",
+      "industry": "2차전지소재",
+      "expect": {
+        "found": true,
+        "keywords_any": [
+          "양극재",
+          "양극활물질"
+        ]
+      }
+    },
+    {
+      "id": "ind-066970-rev",
+      "question": "엘앤에프의 2025년 연간 매출액은 얼마인가요?",
+      "ticker": "066970",
+      "name": "엘앤에프",
+      "market": "KOSDAQ",
+      "industry": "2차전지소재",
+      "expect": {
+        "found": true,
+        "numeric": true
+      }
+    },
+    {
+      "id": "ind-196170-biz",
+      "question": "알테오젠 주요 사업은 무엇인가요?",
+      "ticker": "196170",
+      "name": "알테오젠",
+      "market": "KOSDAQ",
+      "industry": "바이오",
+      "expect": {
+        "found": true,
+        "keywords": [
+          "바이오"
+        ]
+      }
+    },
+    {
+      "id": "ind-196170-rev",
+      "question": "알테오젠의 2025년 연간 매출액은 얼마인가요?",
+      "ticker": "196170",
+      "name": "알테오젠",
+      "market": "KOSDAQ",
+      "industry": "바이오",
+      "expect": {
+        "found": true,
+        "numeric": true
+      }
+    },
+    {
+      "id": "ind-141080-biz",
+      "question": "리가켐바이오 주요 사업은 무엇인가요?",
+      "ticker": "141080",
+      "name": "리가켐바이오",
+      "market": "KOSDAQ",
+      "industry": "바이오",
+      "expect": {
+        "found": true,
+        "keywords": [
+          "바이오"
+        ]
+      }
+    },
+    {
+      "id": "ind-141080-rev",
+      "question": "리가켐바이오의 2025년 연간 매출액은 얼마인가요?",
+      "ticker": "141080",
+      "name": "리가켐바이오",
+      "market": "KOSDAQ",
+      "industry": "바이오",
+      "expect": {
+        "found": true,
+        "numeric": true
+      }
+    },
+    {
+      "id": "ind-058470-biz",
+      "question": "리노공업 주요 사업은 무엇인가요?",
+      "ticker": "058470",
+      "name": "리노공업",
+      "market": "KOSDAQ",
+      "industry": "반도체장비",
+      "expect": {
+        "found": true,
+        "keywords": [
+          "반도체"
+        ]
+      }
+    },
+    {
+      "id": "ind-058470-rev",
+      "question": "리노공업의 2025년 연간 매출액은 얼마인가요?",
+      "ticker": "058470",
+      "name": "리노공업",
+      "market": "KOSDAQ",
+      "industry": "반도체장비",
+      "expect": {
+        "found": true,
+        "numeric": true
+      }
+    },
+    {
+      "id": "ind-039030-biz",
+      "question": "이오테크닉스 주요 사업은 무엇인가요?",
+      "ticker": "039030",
+      "name": "이오테크닉스",
+      "market": "KOSDAQ",
+      "industry": "반도체장비",
+      "expect": {
+        "found": true,
+        "keywords": [
+          "반도체"
+        ]
+      }
+    },
+    {
+      "id": "ind-039030-rev",
+      "question": "이오테크닉스의 2025년 연간 매출액은 얼마인가요?",
+      "ticker": "039030",
+      "name": "이오테크닉스",
+      "market": "KOSDAQ",
+      "industry": "반도체장비",
+      "expect": {
+        "found": true,
+        "numeric": true
+      }
+    },
+    {
+      "id": "ind-263750-biz",
+      "question": "펄어비스 주요 사업은 무엇인가요?",
+      "ticker": "263750",
+      "name": "펄어비스",
+      "market": "KOSDAQ",
+      "industry": "게임",
+      "expect": {
+        "found": true,
+        "keywords": [
+          "게임"
+        ]
+      }
+    },
+    {
+      "id": "ind-263750-rev",
+      "question": "펄어비스의 2025년 연간 매출액은 얼마인가요?",
+      "ticker": "263750",
+      "name": "펄어비스",
+      "market": "KOSDAQ",
+      "industry": "게임",
+      "expect": {
+        "found": true,
+        "numeric": true
+      }
+    },
+    {
+      "id": "ind-293490-biz",
+      "question": "카카오게임즈 주요 사업은 무엇인가요?",
+      "ticker": "293490",
+      "name": "카카오게임즈",
+      "market": "KOSDAQ",
+      "industry": "게임",
+      "expect": {
+        "found": true,
+        "keywords": [
+          "게임"
+        ]
+      }
+    },
+    {
+      "id": "ind-293490-rev",
+      "question": "카카오게임즈의 2025년 연간 매출액은 얼마인가요?",
+      "ticker": "293490",
+      "name": "카카오게임즈",
+      "market": "KOSDAQ",
+      "industry": "게임",
+      "expect": {
+        "found": true,
+        "numeric": true
+      }
+    },
+    {
+      "id": "ind-041510-biz",
+      "question": "에스엠 주요 사업은 무엇인가요?",
+      "ticker": "041510",
+      "name": "에스엠",
+      "market": "KOSDAQ",
+      "industry": "엔터",
+      "expect": {
+        "found": true,
+        "keywords": [
+          "음악"
+        ]
+      }
+    },
+    {
+      "id": "ind-041510-rev",
+      "question": "에스엠의 2025년 연간 매출액은 얼마인가요?",
+      "ticker": "041510",
+      "name": "에스엠",
+      "market": "KOSDAQ",
+      "industry": "엔터",
+      "expect": {
+        "found": true,
+        "numeric": true
+      }
+    },
+    {
+      "id": "ind-035900-biz",
+      "question": "JYP 주요 사업은 무엇인가요?",
+      "ticker": "035900",
+      "name": "JYP",
+      "market": "KOSDAQ",
+      "industry": "엔터",
+      "expect": {
+        "found": true,
+        "keywords_any": [
+          "음악",
+          "음반",
+          "엔터"
+        ]
+      }
+    },
+    {
+      "id": "ind-035900-rev",
+      "question": "JYP의 2025년 연간 매출액은 얼마인가요?",
+      "ticker": "035900",
+      "name": "JYP",
+      "market": "KOSDAQ",
+      "industry": "엔터",
+      "expect": {
+        "found": true,
+        "numeric": true
+      }
+    },
+    {
+      "id": "ind-214150-biz",
+      "question": "클래시스 주요 사업은 무엇인가요?",
+      "ticker": "214150",
+      "name": "클래시스",
+      "market": "KOSDAQ",
+      "industry": "미용의료기기",
+      "expect": {
+        "found": true,
+        "keywords": [
+          "의료기기"
+        ]
+      }
+    },
+    {
+      "id": "ind-214150-rev",
+      "question": "클래시스의 2025년 연간 매출액은 얼마인가요?",
+      "ticker": "214150",
+      "name": "클래시스",
+      "market": "KOSDAQ",
+      "industry": "미용의료기기",
+      "expect": {
+        "found": true,
+        "numeric": true
+      }
+    },
+    {
+      "id": "ind-214450-biz",
+      "question": "파마리서치 주요 사업은 무엇인가요?",
+      "ticker": "214450",
+      "name": "파마리서치",
+      "market": "KOSDAQ",
+      "industry": "미용의료기기",
+      "expect": {
+        "found": true,
+        "keywords": [
+          "의료기기"
+        ]
+      }
+    },
+    {
+      "id": "ind-214450-rev",
+      "question": "파마리서치의 2025년 연간 매출액은 얼마인가요?",
+      "ticker": "214450",
+      "name": "파마리서치",
+      "market": "KOSDAQ",
+      "industry": "미용의료기기",
+      "expect": {
+        "found": true,
+        "numeric": true
+      }
+    }
+  ]
+}
