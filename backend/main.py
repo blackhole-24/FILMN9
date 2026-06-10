@@ -61,6 +61,7 @@ from backend.routers.extras    import router as extras_router
 from backend.routers.valuation import router as valuation_router
 from backend.routers.sectors   import router as sectors_router
 from backend.routers.morning   import router as morning_router
+from backend.routers.admin     import router as admin_router
 
 # ─── 앱 생성 ──────────────────────────────────────────────────────────────────
 app = FastAPI(
@@ -90,6 +91,7 @@ app.include_router(extras_router,    prefix="/api")
 app.include_router(valuation_router, prefix="/api")
 app.include_router(sectors_router,   prefix="/api")
 app.include_router(morning_router,   prefix="/api")
+app.include_router(admin_router,     prefix="/api")
 
 
 # ─── 기업 검색 엔드포인트 (corp_code_map 활용) ────────────────────────────────
