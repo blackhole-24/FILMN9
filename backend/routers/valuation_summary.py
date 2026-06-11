@@ -35,26 +35,41 @@ _COLS = ("stock_code, corp_name, market, industry, dcf_grade, dcf_confidence, "
 
 # DCF 등급 정렬 우선순위 (A 최상)
 _GRADE_RANK = {"A": 0, "B": 1, "C": 2, "D": 3, "E": 4}
+# DCF 신뢰도 정렬 우선순위 (엔진 산출값 high~invalid) — dcf_grade(A~E) 없는 6파일 대응
+_CONF_RANK = {"high": 0, "medium": 1, "low": 2, "very_low": 3, "invalid": 4}
 
 
 def _conn():
-    c = sqlite3.connect(_DB)
-    c.row_factory = sqlite3.Row
-    return c
+    from backend.db import connect
+    return connect()
 
 
 def _enrich(d: dict) -> dict:
-    """WACC 소수(0.082) → % 편의 필드 추가."""
+    """WACC %편의 + 현재가를 ohlcv 최신 종가로 교체 후 상승여력 재계산.
+
+    valuation_summary.current_price 는 산출시점(예 6/1) 스냅샷이라 실제 현재가와
+    괴리(일부 극단값). ohlcv 최신 종가(=realtime과 일치 검증됨)로 덮어쓰고
+    upside_pct 를 재계산한다(NO-MOCK: 근거 있는 실제 최신가 사용).
+    """
     w = d.get("wacc")
     d["wacc_pct"] = round(w * 100, 2) if isinstance(w, (int, float)) else None
+    live = d.pop("live_price", None)
+    if live:
+        d["current_price"] = live
+        fp = d.get("fair_price")
+        d["upside_pct"] = round((fp - live) / live * 100, 1) if fp else None
     return d
 
 
 def _fetch_all() -> list[dict]:
     try:
         with _conn() as con:
-            rows = con.execute(f"SELECT {_COLS} FROM valuation_summary").fetchall()
-    except sqlite3.OperationalError:
+            rows = con.execute(
+                f"SELECT {_COLS}, "
+                "(SELECT close FROM ohlcv o WHERE o.stock_code = valuation_summary.stock_code "
+                " ORDER BY date DESC LIMIT 1) AS live_price "
+                "FROM valuation_summary").fetchall()
+    except Exception:
         return []   # 테이블 없음 → 빈 결과
     return [_enrich(dict(r)) for r in rows]
 
@@ -72,8 +87,8 @@ def list_summary(sort: str = "upside"):
             "_note": "valuation_summary 테이블/데이터 없음 — `python load_valuation_summary.py` 실행 필요",
         }
 
-    if sort == "grade":
-        data.sort(key=lambda r: (_GRADE_RANK.get(r.get("dcf_grade"), 9), r.get("corp_name") or ""))
+    if sort in ("grade", "confidence"):
+        data.sort(key=lambda r: (_CONF_RANK.get(r.get("dcf_confidence"), 9), r.get("corp_name") or ""))
     elif sort == "wacc":
         data.sort(key=lambda r: (r.get("wacc") is None, r.get("wacc") or 0))
     elif sort == "name":

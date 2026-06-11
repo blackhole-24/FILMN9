@@ -55,13 +55,30 @@ export default function SectorsPage() {
 
   return (
     <main className="min-h-screen bg-gradient-to-br from-slate-950 via-indigo-950 to-slate-900">
-      {/* 상단 바 */}
-      <header className="flex items-center justify-between px-6 py-4">
-        <button onClick={() => router.push('/')} className="flex items-center gap-2 text-white hover:opacity-80 transition">
-          <span className="text-2xl font-extrabold tracking-tight">FILMN9</span>
+      {/* 좌우 빈 공간 전체 클릭 = 뒤로 / 앞으로 가기 (큰 화살표, 콘텐츠 옆 빈 공간 전부) */}
+      <button onClick={() => router.back()} aria-label="뒤로 가기"
+        className="hidden lg:flex fixed left-0 top-16 bottom-0 w-[calc((100vw-64rem)/2)] items-center justify-center group z-20 hover:bg-white/[0.04] transition-colors cursor-pointer">
+        <span className="flex flex-col items-center gap-1 text-slate-600 group-hover:text-indigo-300 transition-colors">
+          <span className="text-8xl leading-none font-light">‹</span>
+          <span className="text-base font-semibold opacity-60 group-hover:opacity-100 transition-opacity">뒤로</span>
+        </span>
+      </button>
+      <button onClick={() => router.forward()} aria-label="앞으로 가기"
+        className="hidden lg:flex fixed right-0 top-16 bottom-0 w-[calc((100vw-64rem)/2)] items-center justify-center group z-20 hover:bg-white/[0.04] transition-colors cursor-pointer">
+        <span className="flex flex-col items-center gap-1 text-slate-600 group-hover:text-indigo-300 transition-colors">
+          <span className="text-8xl leading-none font-light">›</span>
+          <span className="text-base font-semibold opacity-60 group-hover:opacity-100 transition-opacity">앞으로</span>
+        </span>
+      </button>
+
+      {/* 상단 바 — FILMN9 중앙(홈 버튼) */}
+      <header className="relative flex items-center justify-center px-6 py-4 z-30">
+        <button onClick={() => router.push('/')} aria-label="홈으로"
+          className="flex items-center gap-2 text-white hover:opacity-80 transition">
+          <span className="text-2xl font-extrabold tracking-tight">FINSIGHT</span>
           <span className="text-xs px-2 py-0.5 rounded-full bg-indigo-500/30 text-indigo-300 font-medium border border-indigo-500/40">PoC</span>
         </button>
-        <span className="text-xs text-slate-400 hidden sm:block">산업 분류 (WICS)</span>
+        <span className="absolute right-6 text-xs text-slate-400 hidden sm:block">산업 분류 (WICS)</span>
       </header>
 
       <div className="max-w-5xl mx-auto px-4 pb-16">
@@ -114,8 +131,9 @@ export default function SectorsPage() {
         )}
       </div>
 
-      <footer className="text-center py-4 text-xs text-slate-600 border-t border-white/5">
-        FILMN9 PoC · 산업 분류(WICS) · 데이터: ticker_universe (SPAC·우선주 제외)
+      <footer className="text-center py-5 border-t border-white/5">
+        <div className="text-xs text-slate-600">FINSIGHT · 산업 분류(WICS) · 데이터: ticker_universe (SPAC·우선주 제외)</div>
+        <div className="text-sm font-bold text-slate-100 tracking-[0.18em] mt-2">FILMN9&nbsp;Inc.</div>
       </footer>
     </main>
   );

@@ -1,0 +1,947 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KPMG AX PoC · 기업가치 평가 시스템</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<style>
+  :root{--navy:#1b3a5b;--blue:#2d6cb5;--green:#16a34a;--red:#dc2626;--amber:#d97706;
+        --gray:#64748b;--lgray:#f1f5f9;--bd:#e2e8f0;}
+  *{box-sizing:border-box;margin:0;padding:0;}
+  body{font-family:'Malgun Gothic','Segoe UI',sans-serif;background:#f8fafc;color:#1e293b;line-height:1.5;}
+  header{background:var(--navy);color:#fff;padding:18px 28px;}
+  header h1{font-size:20px;font-weight:700;}
+  header p{font-size:12px;opacity:.8;margin-top:3px;}
+  .bar{background:#fff;border-bottom:1px solid var(--bd);padding:16px 28px;display:flex;gap:10px;align-items:center;flex-wrap:wrap;}
+  .bar input{padding:10px 14px;border:1px solid var(--bd);border-radius:8px;font-size:15px;width:240px;}
+  .bar button{padding:10px 22px;background:var(--blue);color:#fff;border:none;border-radius:8px;font-size:15px;font-weight:600;cursor:pointer;}
+  .bar button:hover{background:var(--navy);}
+  .bar .recent{font-size:12px;color:var(--gray);}
+  .bar .recent a{color:var(--blue);cursor:pointer;margin-right:8px;text-decoration:none;}
+  main{max-width:1180px;margin:0 auto;padding:24px 28px 60px;}
+  .hint{color:var(--gray);font-size:13px;padding:40px;text-align:center;}
+  #loading{display:none;text-align:center;padding:50px;color:var(--blue);font-size:16px;}
+  .spin{display:inline-block;width:22px;height:22px;border:3px solid var(--bd);border-top-color:var(--blue);
+        border-radius:50%;animation:s 1s linear infinite;vertical-align:middle;margin-right:10px;}
+  @keyframes s{to{transform:rotate(360deg)}}
+  .grid{display:grid;gap:16px;}
+  .g2{grid-template-columns:1fr 1fr;} .g3{grid-template-columns:1fr 1fr 1fr;}
+  @media(max-width:900px){.g2,.g3{grid-template-columns:1fr;}}
+  .card{background:#fff;border:1px solid var(--bd);border-radius:12px;padding:18px 20px;}
+  .card h3{font-size:13px;color:var(--gray);font-weight:600;margin-bottom:10px;text-transform:uppercase;letter-spacing:.3px;}
+  .headline{background:linear-gradient(135deg,#1b3a5b,#2d6cb5);color:#fff;border-radius:12px;padding:22px 24px;margin-bottom:18px;}
+  .headline .verdict{font-size:13px;opacity:.85;margin-bottom:6px;}
+  .headline .txt{font-size:17px;font-weight:600;line-height:1.5;}
+  .big{font-size:30px;font-weight:800;}
+  .sub{font-size:13px;color:var(--gray);}
+  .pos{color:var(--green);} .neg{color:var(--red);} .neu{color:var(--gray);}
+  .diag{display:grid;grid-template-columns:repeat(5,1fr);gap:12px;margin-bottom:18px;}
+  @media(max-width:900px){.diag{grid-template-columns:1fr 1fr;}}
+  .dcard{background:#fff;border:1px solid var(--bd);border-radius:12px;padding:16px;text-align:center;border-top:4px solid var(--gray);}
+  .dcard .lbl{font-size:11px;color:var(--gray);font-weight:600;}
+  .dcard .val{font-size:22px;font-weight:800;margin:6px 0 3px;}
+  .dcard .desc{font-size:11px;color:var(--gray);line-height:1.35;}
+  table{width:100%;border-collapse:collapse;font-size:13px;}
+  th,td{padding:7px 9px;text-align:right;border-bottom:1px solid var(--bd);}
+  th:first-child,td:first-child{text-align:left;}
+  th{color:var(--gray);font-weight:600;font-size:11px;text-transform:uppercase;}
+  .tag{display:inline-block;padding:2px 9px;border-radius:20px;font-size:11px;font-weight:700;}
+  .tag.u{background:#dcfce7;color:var(--green);} .tag.o{background:#fee2e2;color:var(--red);} .tag.n{background:#f1f5f9;color:var(--gray);}
+  canvas{max-height:280px;}
+  .err{background:#fef2f2;border:1px solid #fecaca;color:var(--red);padding:16px;border-radius:10px;}
+  .footnote{font-size:11px;color:var(--gray);margin-top:6px;}
+  /* ── 일반투자자용 설명 요소 ── */
+  .tip{position:relative;display:inline-block;margin-left:5px;width:16px;height:16px;line-height:16px;
+       text-align:center;border-radius:50%;background:#94a3b8;color:#fff;font-size:11px;font-weight:700;
+       cursor:help;vertical-align:middle;}
+  .tip .tiptext{visibility:hidden;opacity:0;position:absolute;z-index:60;bottom:150%;left:50%;
+       transform:translateX(-50%);width:240px;max-width:78vw;background:#1e293b;color:#f1f5f9;text-align:left;
+       border-radius:9px;padding:11px 13px;font-size:12.5px;font-weight:400;line-height:1.55;
+       box-shadow:0 8px 24px rgba(0,0,0,.28);transition:opacity .15s;white-space:normal;}
+  .tip .tiptext b{color:#fbbf24;}
+  .tip .tiptext::after{content:"";position:absolute;top:100%;left:50%;margin-left:-6px;border:6px solid transparent;border-top-color:#1e293b;}
+  .tip:hover .tiptext,.tip:focus .tiptext{visibility:visible;opacity:1;}
+  .plain{background:#f0f9ff;border:1px solid #bae6fd;border-left:5px solid var(--blue);border-radius:10px;
+         padding:16px 18px;margin-bottom:18px;}
+  .plain h4{font-size:14px;color:#0369a1;margin-bottom:9px;}
+  .plain p{font-size:14px;line-height:1.75;color:#1e3a5f;margin:6px 0;}
+  .plain .em{font-weight:700;color:#0c4a6e;}
+  .guide{background:#fffbeb;border:1px solid #fde68a;border-radius:10px;padding:14px 18px;margin-top:18px;
+         font-size:13px;line-height:1.7;color:#78350f;}
+  .guide b{color:#92400e;}
+  .legend{display:flex;gap:18px;flex-wrap:wrap;font-size:12px;color:var(--gray);margin:8px 0 2px;}
+  .legend span{display:inline-flex;align-items:center;gap:5px;}
+  .dot{width:11px;height:11px;border-radius:3px;display:inline-block;}
+  .glossary{margin-top:20px;background:#fff;border:1px solid var(--bd);border-radius:10px;padding:4px 18px;}
+  .glossary summary{cursor:pointer;font-weight:700;color:var(--navy);padding:12px 0;font-size:14px;}
+  .glossary dl{display:grid;grid-template-columns:150px 1fr;gap:9px 14px;font-size:13px;padding:6px 0 14px;}
+  .glossary dt{font-weight:700;color:var(--blue);}
+  .glossary dd{color:#475569;line-height:1.6;margin:0;}
+  @media(max-width:700px){.glossary dl{grid-template-columns:1fr;}.glossary dt{margin-top:6px;}}
+  .disclaimer{font-size:11px;color:var(--gray);text-align:center;margin-top:26px;padding-top:14px;border-top:1px solid var(--bd);line-height:1.6;}
+  /* ── 피어 모달 테이블 ── */
+  .mtable{width:100%;border-collapse:collapse;font-size:13px;margin:10px 0;}
+  .mtable th,.mtable td{padding:8px 10px;text-align:left;border-bottom:1px solid var(--bd);vertical-align:top;}
+  .mtable th{color:var(--gray);font-size:11px;text-transform:uppercase;font-weight:600;}
+  .mtable td:first-child{font-weight:700;color:var(--blue);white-space:nowrap;}
+  /* ── 미지원 종목 안내 배너 ── */
+  .unsup{background:#f0f9ff;border:1px solid #bae6fd;border-left:5px solid #0ea5e9;border-radius:12px;padding:22px 24px;}
+  /* ── 이론·데이터·가정 (신뢰성 근거) ── */
+  .method{margin-top:34px;border-top:3px solid var(--navy);padding-top:20px;}
+  .method > h2{font-size:18px;color:var(--navy);margin-bottom:4px;}
+  .method > .lead{font-size:13px;color:var(--gray);margin-bottom:16px;line-height:1.6;}
+  .srcgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:14px;}
+  @media(max-width:800px){.srcgrid{grid-template-columns:1fr 1fr;}}
+  .srccard{background:#fff;border:1px solid var(--bd);border-radius:10px;padding:14px;text-align:center;}
+  .srccard .ic{font-size:24px;}
+  .srccard .nm{font-weight:700;color:var(--navy);font-size:13px;margin-top:6px;}
+  .srccard .dt{font-size:11px;color:var(--gray);margin-top:3px;line-height:1.4;}
+  .method details{background:#fff;border:1px solid var(--bd);border-radius:10px;padding:2px 16px;margin-top:10px;}
+  .method summary{cursor:pointer;font-weight:700;color:var(--navy);padding:12px 0;font-size:14px;}
+  .thy{width:100%;border-collapse:collapse;font-size:12.5px;margin-bottom:10px;}
+  .thy th,.thy td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--bd);vertical-align:top;}
+  .thy th{color:var(--gray);font-size:11px;text-transform:uppercase;}
+  .thy td:first-child{font-weight:700;color:var(--blue);white-space:nowrap;}
+  .thy td:nth-child(2){color:var(--gray);white-space:nowrap;}
+  .flow{display:flex;flex-wrap:wrap;align-items:center;gap:6px;padding:12px 0;}
+  .flow .step{background:#eff6ff;border:1px solid #bfdbfe;color:#1e40af;border-radius:8px;padding:8px 11px;font-size:12px;font-weight:600;}
+  .flow .arr{color:#94a3b8;font-weight:700;}
+  .assume{font-size:13px;line-height:1.85;color:#334155;margin:6px 0 10px;padding-left:18px;}
+  .assume li{margin-bottom:3px;}
+  .assume b{color:var(--navy);}
+  /* ── 머티리얼 모달 (자세한 설명 팝업) ── */
+  .modal-ov{position:fixed;inset:0;background:rgba(15,23,42,.55);display:none;z-index:200;
+            align-items:center;justify-content:center;padding:18px;backdrop-filter:blur(2px);}
+  .modal-ov.open{display:flex;}
+  .modal{background:#fff;border-radius:16px;max-width:580px;width:100%;max-height:86vh;overflow-y:auto;
+         box-shadow:0 24px 64px rgba(0,0,0,.34);animation:mup .22s cubic-bezier(.2,.8,.2,1);}
+  @keyframes mup{from{opacity:0;transform:translateY(26px) scale(.97)}to{opacity:1;transform:none}}
+  .modal .mhead{padding:20px 24px 14px;border-bottom:1px solid var(--bd);display:flex;align-items:flex-start;
+       justify-content:space-between;gap:12px;position:sticky;top:0;background:#fff;border-radius:16px 16px 0 0;}
+  .modal .mhead h3{font-size:18px;color:var(--navy);font-weight:800;text-transform:none;letter-spacing:0;line-height:1.4;}
+  .modal .mclose{cursor:pointer;border:none;background:var(--lgray);width:32px;height:32px;border-radius:50%;
+       font-size:17px;color:var(--gray);flex-shrink:0;line-height:1;}
+  .modal .mclose:hover{background:#e2e8f0;color:#1e293b;}
+  .modal .mbody{padding:18px 24px 26px;font-size:14px;line-height:1.78;color:#334155;}
+  .modal .mbody p{margin:9px 0;}
+  .modal .mbody b{color:var(--navy);}
+  .modal .mbody .hl{background:#fef9c3;padding:1px 5px;border-radius:4px;font-weight:700;color:#854d0e;}
+  .modal .mbody h4{font-size:13.5px;color:#0369a1;margin:16px 0 6px;}
+  .modal .mbody ul{padding-left:20px;margin:8px 0;}
+  .modal .mbody li{margin:5px 0;}
+  .modal .mbody table{margin:10px 0;}
+  .modal .mbody td,.modal .mbody th{padding:8px 10px;}
+  .modal .mnote{background:#f0f9ff;border:1px solid #bae6fd;border-radius:9px;padding:11px 14px;
+       font-size:12.5px;color:#0c4a6e;margin-top:14px;line-height:1.6;}
+  .modal .mwarn{background:#fffbeb;border:1px solid #fde68a;border-radius:9px;padding:11px 14px;
+       font-size:12.5px;color:#78350f;margin-top:12px;line-height:1.6;}
+  .more{display:inline-flex;align-items:center;gap:4px;cursor:pointer;border:1px solid var(--bd);background:#fff;
+       color:var(--blue);border-radius:20px;padding:3px 11px;font-size:12px;font-weight:600;}
+  .more:hover{background:#eff6ff;border-color:#bfdbfe;}
+  /* ── 적정가 범위 막대 ── (라벨 겹침 방지: 위·아래 여백 확보) */
+  .rng{margin:34px 0 12px;}
+  .rng .track{position:relative;height:14px;border-radius:8px;
+       background:linear-gradient(90deg,#fca5a5,#fde68a,#86efac);}
+  .rng .band{position:absolute;top:0;height:14px;background:rgba(45,108,181,.30);
+       border-left:2px solid var(--blue);border-right:2px solid var(--blue);}
+  .rng .mk{position:absolute;top:-5px;width:0;height:24px;}
+  .rng .mk.fair{border-left:2px dashed var(--navy);}
+  .rng .mk.cur{border-left:2px solid var(--red);}
+  .rng .mkl{position:absolute;font-size:10px;font-weight:700;white-space:nowrap;transform:translateX(-50%);
+       line-height:1.2;background:rgba(255,255,255,.82);padding:0 2px;border-radius:3px;}
+  .rng .ends{display:flex;justify-content:space-between;font-size:10.5px;color:var(--gray);margin-top:34px;}
+  /* ── 고부채 보정 경고 배너 ── */
+  .alert{display:flex;align-items:center;gap:12px;background:#fff7ed;border:1px solid #fed7aa;
+       border-left:5px solid var(--amber);border-radius:11px;padding:13px 16px;margin-bottom:18px;}
+  .alert .ai{font-size:22px;}
+  .alert .atx{flex:1;font-size:13.5px;color:#7c2d12;line-height:1.5;}
+  .alert .atx b{color:#9a3412;}
+  .relbadge{display:inline-block;padding:2px 10px;border-radius:20px;font-size:11px;font-weight:700;
+       background:#fef3c7;color:#92400e;}
+  /* A2: DCF 신뢰도 등급 배지 */
+  .gbadge{display:inline-block;margin-left:8px;padding:2px 9px;border-radius:6px;font-size:11px;font-weight:800;
+       color:#fff;vertical-align:middle;cursor:pointer;}
+  .gbadge:hover{filter:brightness(1.08);}
+  .hide-point{font-size:15px;font-weight:700;margin:6px 0 4px;}
+  /* A5: Reverse DCF 메인 패널 */
+  .reverse-hero{background:linear-gradient(135deg,#fffbeb,#fef3c7);
+       border:1px solid #fde68a;border-left:5px solid #d97706;border-radius:13px;
+       padding:18px 22px 14px;margin-bottom:18px;}
+  .reverse-hero .rh-tag{font-size:11.5px;color:#92400e;font-weight:800;letter-spacing:.5px;}
+  .reverse-hero .rh-lead{font-size:14.5px;color:#451a03;margin:6px 0 12px;line-height:1.6;}
+  .reverse-hero .rh-foot{font-size:12px;color:#78350f;margin-top:10px;line-height:1.5;}
+  /* C1: 산업 분류 배지 + C3: Damodaran 교차검증 + B1+: OPM 윈도우 메타 */
+  .ibadge{display:inline-block;margin-left:6px;padding:2px 9px;border-radius:12px;font-size:11px;font-weight:700;
+       border:1px solid;cursor:pointer;vertical-align:middle;}
+  .ibadge.cyc{background:#fef3c7;color:#92400e;border-color:#fde68a;}
+  .ibadge.mat{background:#dcfce7;color:#166534;border-color:#bbf7d0;}
+  .ibadge.gro{background:#dbeafe;color:#1e3a8a;border-color:#bfdbfe;}
+  .ibadge.unk{background:#f1f5f9;color:#475569;border-color:#cbd5e1;}
+  .ibadge:hover{filter:brightness(0.96);}
+  .opm-meta{display:inline-block;margin-left:6px;padding:1px 7px;border-radius:10px;font-size:10.5px;
+       background:#eef2ff;color:#3730a3;border:1px solid #c7d2fe;cursor:pointer;vertical-align:middle;}
+  .opm-meta:hover{background:#e0e7ff;}
+  .dmd-warn{display:inline-block;margin-left:6px;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:700;
+       background:#fee2e2;color:#991b1b;border:1px solid #fecaca;cursor:pointer;vertical-align:middle;}
+  .dmd-warn:hover{background:#fecaca;}
+  /* D-1 (Phase 1): 피어셋 신뢰도 배지 */
+  .pbadge{display:inline-block;margin-left:6px;padding:2px 9px;border-radius:6px;font-size:11px;font-weight:800;
+       color:#fff;vertical-align:middle;cursor:pointer;}
+  .pbadge:hover{filter:brightness(1.08);}
+  .pbadge.A{background:#16a34a;} .pbadge.B{background:#2d6cb5;}
+  .pbadge.C{background:#d97706;} .pbadge.D{background:#ea580c;} .pbadge.E{background:#dc2626;}
+</style>
+</head>
+<body>
+<header>
+  <h1>📊 이 주식, 지금 가격이 적당할까?</h1>
+  <p>회사의 '진짜 가치'를 계산해서 현재 주가가 비싼지·싼지 쉽게 알려드립니다 · 어려운 용어엔 모두 <b>ⓘ</b> 설명이 있어요 · 투자 권유가 아닌 학습·참고용</p>
+  <p style="margin-top:6px;font-size:11px;opacity:.6;">KPMG AX PoC · DCF + Multiples + Peer 자동 선정 · Model v8 · 서버 기동: <code style="background:rgba(255,255,255,.15);padding:1px 6px;border-radius:4px;">python -m uvicorn valuation_engine.api:app --port 8000</code></p>
+</header>
+<!-- 검색바 제거: 종목 상세화면에 임베드되어 ?code= 로 자동 로드 -->
+<input type="hidden" id="ticker">
+<span id="recent" style="display:none"></span>
+<main>
+  <div id="hint" class="hint">종목을 입력하고 평가를 누르세요. 처음 보는 종목은 수 분 소요될 수 있습니다(분기보고서 임베딩·피어 수집).</div>
+  <div id="loading">
+    <div><span class="spin"></span><span id="loadtxt">평가 중…</span></div>
+    <div id="progwrap" style="display:none;max-width:440px;margin:18px auto 0;">
+      <div style="background:var(--bd);border-radius:8px;height:10px;overflow:hidden;">
+        <div id="progbar" style="background:var(--blue);height:100%;width:0%;transition:width .5s ease;"></div>
+      </div>
+      <div id="progpct" style="font-size:12px;color:var(--gray);margin-top:7px;">0%</div>
+    </div>
+  </div>
+  <div id="result" style="display:none;"></div>
+
+  <!-- ── 신뢰성 근거: 이론·데이터·가정·한계 (평가와 무관하게 상시 노출) ── -->
+  <section class="method">
+    <h2>🔬 이 분석은 어떤 근거로 만들어졌나요?</h2>
+    <div class="lead">모든 수치는 <b>공식·공개 데이터</b>와 <b>재무학 표준 이론</b>에 기반합니다. 임의의 값 없이, 사용한 출처·이론·가정·한계를 투명하게 공개합니다.</div>
+
+    <div class="srcgrid">
+      <div class="srccard"><div class="ic">🏛️</div><div class="nm">DART</div><div class="dt">금융감독원 전자공시<br>재무제표·사업보고서</div></div>
+      <div class="srccard"><div class="ic">📈</div><div class="nm">KRX</div><div class="dt">한국거래소<br>주가·시가총액·상장정보</div></div>
+      <div class="srccard"><div class="ic">🏦</div><div class="nm">ECOS</div><div class="dt">한국은행 경제통계<br>무위험수익률(국고채)</div></div>
+      <div class="srccard"><div class="ic">📊</div><div class="nm">KOFIA</div><div class="dt">금융투자협회<br>채권시가평가수익률</div></div>
+    </div>
+
+    <details open>
+      <summary>📐 이론적 토대 (재무학 표준 모델)</summary>
+      <table class="thy">
+        <thead><tr><th>이론 / 모델</th><th>출처</th><th>우리 모델에서의 역할</th></tr></thead>
+        <tbody>
+          <tr><td>DCF (현금흐름할인)</td><td>재무학 표준</td><td>기업가치 = 미래 잉여현금흐름(FCFF)의 현재가치 합</td></tr>
+          <tr><td>CAPM</td><td>Sharpe (1964)</td><td>자기자본비용 Ke = 무위험수익률 + β × 시장위험프리미엄</td></tr>
+          <tr><td>베타 조정 (Hamada)</td><td>Hamada (1972)</td><td>자본구조(부채비율) 차이를 반영해 피어 베타를 보정</td></tr>
+          <tr><td>베타 안정화 (Blume)</td><td>Blume (1971)</td><td>조정베타 = ⅔×실측 + ⅓×1 + 이상치 제거(±3σ winsorize) — 장기적으로 1에 수렴하는 경향 반영</td></tr>
+          <tr><td>영구가치 (Gordon Growth)</td><td>Gordon (1959)</td><td>예측기간 이후 가치 = NOPAT/(WACC−g), 단 g ≤ 명목 GDP</td></tr>
+          <tr><td>지속가능성장률 (SGR)</td><td>Damodaran</td><td>성장률 상한 = ROIC × 재투자율 (펀더멘털 기반 성장)</td></tr>
+          <tr><td>EPV (이익창출가치)</td><td>Greenwald (2001)</td><td>성장 0 가정의 본질가치 = NOPAT / WACC</td></tr>
+          <tr><td>Reverse DCF (함의성장률)</td><td>Damodaran</td><td>현재 주가를 정당화하는 영구성장률을 역산</td></tr>
+          <tr><td>기대 투자 (Expectations)</td><td>Rappaport & Mauboussin (2001)</td><td>시장 함의 성장 vs 회사 펀더멘털 실력의 격차</td></tr>
+          <tr><td>안전마진 (Margin of Safety)</td><td>Graham</td><td>본질가치 대비 현재가 할인폭 = 하방 방어막</td></tr>
+          <tr><td>피어 선정 원칙</td><td>Damodaran</td><td>동일 사업·규모·위험·성장 기준의 가중 점수화</td></tr>
+        </tbody>
+      </table>
+    </details>
+
+    <details>
+      <summary>⚙️ 핵심 가정 (투명 공개)</summary>
+      <ul class="assume">
+        <li><b>시장위험프리미엄(ERP) 8%</b> — 한국 시장 장기 추정치로 고정</li>
+        <li><b>영구성장률 g = 2.5%</b> (≤ 명목 GDP) — 어떤 회사도 영원히 경제보다 빨리 클 수 없음 (Damodaran 제약)</li>
+        <li><b>명시적 예측 5년 + 영구가치</b> — 5년간 성장률을 점진 수렴(fade)시킨 뒤 영구가치 결합</li>
+        <li><b>지속가능성장률로 성장 상한</b> — 일시적 호황을 영구히 외삽하지 않도록 제어</li>
+        <li><b>할인율(WACC)의 자본구조</b> — 회사의 <b>실제 부채비율(D/E)</b>로 계산하되, 일시적 과부채는 산업(동종업계) 평균 상한으로 보정 (distress 왜곡 방지)</li>
+        <li><b>한계세율 적용</b> — 과세구간별 실효세율로 세후이익 산출</li>
+        <li><b>TTM 하이브리드</b> — 손익은 최근 4분기로 최신화, 자본·부채 항목은 연간 기준 유지</li>
+        <li><b>비영업자산(NOA) 장부가</b> — 공정가 데이터 부재로 보수적 장부가 사용</li>
+        <li><b>멀티플은 trailing·피어 중위값</b> — 이상치에 강한 중위값으로 교차검증</li>
+      </ul>
+    </details>
+
+    <details>
+      <summary>🧭 평가 방법론 흐름</summary>
+      <div class="flow">
+        <span class="step">① 공시·시장 데이터 수집</span><span class="arr">→</span>
+        <span class="step">② 유사기업 자동 선정</span><span class="arr">→</span>
+        <span class="step">③ 베타·WACC 산출</span><span class="arr">→</span>
+        <span class="step">④ DCF 적정주가</span><span class="arr">→</span>
+        <span class="step">⑤ 멀티플 교차검증</span><span class="arr">→</span>
+        <span class="step">⑥ 현재가 적절성 진단 5종</span>
+      </div>
+      <div class="footnote">미래 예측(DCF)과 예측이 거의 없는 현재가치(EPV·역산 진단)를 <b>함께</b> 제시해 한쪽에 치우치지 않도록 설계했습니다.</div>
+    </details>
+
+    <details>
+      <summary>⚠️ 한계 (정직한 고지)</summary>
+      <ul class="assume">
+        <li>미래 현금흐름은 <b>예측</b>이므로 실제와 다를 수 있습니다 (특히 경기민감·고성장주).</li>
+        <li>경영진 역량·산업 구조 변화 등 <b>정성 요인</b>은 수치에 직접 반영되지 않습니다.</li>
+        <li>결과는 공시 데이터의 <b>품질·시점</b>에 의존합니다.</li>
+        <li>본 결과는 <b>참고 자료</b>이며 특정 종목의 매수·매도 권유가 아닙니다.</li>
+      </ul>
+    </details>
+  </section>
+</main>
+
+<!-- 머티리얼 모달 (자세한 설명) -->
+<div class="modal-ov" id="modal" onclick="if(event.target===this)closeModal()">
+  <div class="modal" role="dialog" aria-modal="true">
+    <div class="mhead"><h3 id="mTitle"></h3><button class="mclose" onclick="closeModal()" aria-label="닫기">✕</button></div>
+    <div class="mbody" id="mBody"></div>
+  </div>
+</div>
+
+<script>
+// ── 서버 주소 설정 ─────────────────────────────────────────────────────
+// 임베드 모드: ?api= 파라미터로 백엔드 주소 전달 (기본 8090)
+const _QS = new URLSearchParams(location.search);
+const API_BASE = _QS.get('api') || 'http://localhost:8090';
+// ─────────────────────────────────────────────────────────────────────────
+
+const W = (n,d=0)=> n==null?'—':Number(n).toLocaleString('ko-KR',{maximumFractionDigits:d});
+const PCT = (x,d=1)=> x==null?'—':(x*100).toFixed(d)+'%';
+const SPCT = (x,d=1)=> x==null?'—':((x>=0?'+':'')+(x*100).toFixed(d)+'%');
+let charts=[];
+function clearCharts(){charts.forEach(c=>c.destroy());charts=[];}
+
+async function loadRecent(){
+  try{const r=await fetch(API_BASE+'/api/recent');const d=await r.json();
+    document.getElementById('recent').innerHTML='최근: '+d.slice(0,6).map(x=>`<a onclick="quick('${x.ticker}')">${x.name}</a>`).join('');
+  }catch(e){}
+}
+function quick(t){document.getElementById('ticker').value=t;go();}
+
+let pollTimer=null;
+function setLoad(msg,pct){
+  document.getElementById('loading').style.display='block';
+  document.getElementById('loadtxt').textContent=msg;
+  const pw=document.getElementById('progwrap');
+  if(pct==null){pw.style.display='none';}
+  else{pw.style.display='block';
+       document.getElementById('progbar').style.width=pct+'%';
+       document.getElementById('progpct').textContent=pct+'%  (예상 진행률)';}
+}
+function finishLoad(){document.getElementById('loading').style.display='none';
+  if(pollTimer){clearInterval(pollTimer);pollTimer=null;}}
+function showErr(m){finishLoad();
+  document.getElementById('result').innerHTML=`<div class="err">⚠ ${m}</div>`;
+  document.getElementById('result').style.display='block';}
+
+async function go(){
+  const t=document.getElementById('ticker').value.trim();
+  if(!t)return;
+  const force=0;   // 일반투자자용: 항상 캐시 우선(빠름). 신규 종목은 자동 평가.
+  if(pollTimer){clearInterval(pollTimer);pollTimer=null;}
+  document.getElementById('hint').style.display='none';
+  document.getElementById('result').style.display='none';
+  setLoad('평가/조회 요청 중…',null);
+  try{
+    const r=await fetch(API_BASE+`/api/evaluate?ticker=${encodeURIComponent(t)}&force=${force}`);
+    if(!r.ok){const e=await r.json();throw new Error(e.detail||'평가 실패');}
+    const d=await r.json();
+    if(d.status==='done'){finishLoad();render(d.result);return;}
+    // queued/running → 폴링 시작
+    if((d.queue_ahead||0)>1) setLoad(`대기 중… (앞에 ${d.queue_ahead-1}건 처리 중)`,null);
+    pollStatus(d.job_id,t);
+  }catch(e){showErr(e.message);}
+}
+
+function pollStatus(jobId,label){
+  pollTimer=setInterval(async()=>{
+    try{
+      const r=await fetch(API_BASE+`/api/status/${jobId}`);
+      if(!r.ok){const e=await r.json();throw new Error(e.detail||'상태 조회 실패');}
+      const d=await r.json();
+      if(d.status==='queued'){
+        setLoad('대기 중… (앞 작업 완료를 기다립니다)',null);
+      }else if(d.status==='running'){
+        const sec=Math.round(d.elapsed||0);
+        const mm=String(Math.floor(sec/60)).padStart(2,'0'),ss=String(sec%60).padStart(2,'0');
+        setLoad(`${label} 평가 중…  경과 ${mm}:${ss}  (처음 보는 종목은 수 분 소요)`,
+                Math.round((d.progress||0)*100));
+      }else if(d.status==='done'){
+        finishLoad();render(d.result);
+      }else if(d.status==='error'){
+        showErr(d.error||'평가 실패');
+      }
+    }catch(e){showErr(e.message);}
+  },2000);
+}
+
+function sign(x){return x==null?'neu':(x>0?'pos':(x<0?'neg':'neu'));}
+
+// ⓘ 툴팁 — 어려운 용어에 쉬운 설명을 붙인다. tabindex로 모바일 탭도 지원.
+function tip(txt){return `<span class="tip" tabindex="0">ⓘ<span class="tiptext">${txt}</span></span>`;}
+
+// ── 머티리얼 모달 (자세한 설명 팝업) ──
+let _D=null;
+function openModal(title,html){
+  document.getElementById('mTitle').innerHTML=title;
+  document.getElementById('mBody').innerHTML=html;
+  document.getElementById('modal').classList.add('open');
+  document.body.style.overflow='hidden';
+}
+function closeModal(){
+  document.getElementById('modal').classList.remove('open');
+  document.body.style.overflow='';
+}
+document.addEventListener('keydown',e=>{if(e.key==='Escape')closeModal();});
+
+// 적정가 범위 막대 — 보수(low) ~ 낙관(high) 밴드 + 적정(점선) + 현재가(빨강 실선)
+function fairRangeBar(s){
+  const lo=s.fair_price_low, hi=s.fair_price_high, fair=s.fair_price, cur=s.current_price;
+  if(lo==null||hi==null||fair==null||hi<=lo) return '';
+  const vals=[lo,hi,fair]; if(cur!=null)vals.push(cur);
+  let dmin=Math.min(...vals), dmax=Math.max(...vals);
+  const pad=(dmax-dmin)*0.14||dmax*0.1; dmin-=pad; dmax+=pad;
+  const span=(dmax-dmin)||1;
+  const P=v=>Math.max(0,Math.min(100,(v-dmin)/span*100));
+  const bl=P(lo), bw=P(hi)-P(lo), fp=P(fair), cp=(cur!=null)?P(cur):null;
+  return `<div class="rng">
+    <div class="track">
+      <div class="band" style="left:${bl}%;width:${bw}%"></div>
+      <div class="mk fair" style="left:${fp}%"></div>
+      <div class="mkl" style="left:${fp}%;top:-19px;color:var(--navy)">적정 ₩${W(fair)}</div>
+      ${cp!=null?`<div class="mk cur" style="left:${cp}%"></div>
+        <div class="mkl" style="left:${cp}%;top:25px;color:var(--red)">현재 ₩${W(cur)}</div>`:''}
+    </div>
+    <div class="ends"><span>보수 ₩${W(lo)}</span><span>낙관 ₩${W(hi)}</span></div>
+  </div>`;
+}
+
+// 모달 1 — 적정주가 '범위'의 의미·근거
+function showRangeModal(){
+  const s=(_D&&_D.summary)||{};
+  const lo=s.fair_price_low, hi=s.fair_price_high, fair=s.fair_price, cur=s.current_price;
+  const wl=s.WACC_low, wh=s.WACC_high, w=s.wacc;
+  let posTxt='';
+  if(cur!=null && lo!=null && hi!=null){
+    if(cur<lo) posTxt=`현재 주가(₩${W(cur)})는 적정가 범위의 <span class="hl">아래</span>에 있어요 — 저평가(싼) 신호로 볼 수 있습니다.`;
+    else if(cur>hi) posTxt=`현재 주가(₩${W(cur)})는 적정가 범위의 <span class="hl">위</span>에 있어요 — 고평가(비싼) 신호로 볼 수 있습니다.`;
+    else posTxt=`현재 주가(₩${W(cur)})는 적정가 범위 <span class="hl">안</span>에 있어요 — 대체로 적정 수준입니다.`;
+  }
+  const wrange=(wl!=null&&wh!=null)?`${PCT(wl,1)}~${PCT(wh,1)}`:'피어 베타의 흔들림 + 시장위험프리미엄 7~9%';
+  openModal("적정주가는 왜 하나가 아니라 '범위'일까요?", `
+    <p>적정주가는 <b>딱 떨어지는 하나의 숫자가 아니라</b>, 어떤 가정을 쓰느냐에 따라 달라지는 추정치예요. 그래서 저희는 정직하게 <b>범위</b>로 보여드립니다.</p>
+    <h4>가장 큰 변수 — 할인율(WACC)</h4>
+    <p>미래에 벌 돈을 '오늘의 가치'로 바꿀 때 쓰는 비율이 WACC인데, 이 값이 조금만 달라져도 결과가 크게 바뀝니다.</p>
+    <ul>
+      <li><b>WACC가 낮으면</b> → 미래 이익을 덜 깎음 → 적정가가 <b>높아짐</b> (낙관: ₩${W(hi)})</li>
+      <li><b>WACC가 높으면</b> → 미래 이익을 더 깎음 → 적정가가 <b>낮아짐</b> (보수: ₩${W(lo)})</li>
+    </ul>
+    <p>저희는 WACC의 합리적 상·하단(${wrange})을 적용해 적정가 범위 <span class="hl">₩${W(lo)} ~ ₩${W(hi)}</span>를 계산했어요. 가운데 추정 WACC ${PCT(w,1)} 기준값이 <b>₩${W(fair)}</b>입니다.</p>
+    ${posTxt?`<h4>그래서 지금은?</h4><p>${posTxt}</p>`:''}
+    <div class="mnote">📚 <b>학술 근거</b> — Fernandez(IESE, 2019)는 "WACC의 불확실성을 하나의 숫자로 숨기면 오히려 오해를 부른다"며 범위 제시를 권합니다. 저희는 베타의 표준편차와 ERP 범위를 결합(RSS)해 구간을 산출합니다.</div>
+    <div class="mwarn">⚠ 범위 안에 있다고 '정답'은 아닙니다. 미래 예측이 포함된 <b>참고용</b>이며, 한 지표보다 여러 신호를 함께 보세요.</div>
+  `);
+}
+
+// 모달 2 — 고부채 보정(레버리지 캡)의 의미·주의
+function showLeverageModal(){
+  const s=(_D&&_D.summary)||{};
+  const own=s.DE_own_pct, cap=s.DE_cap_pct, med=s.DE_peer_median_pct;
+  const disc=s.leverage_disclosure||'';
+  const f1=x=>x==null?'—':x.toFixed(0)+'%';
+  openModal("이 종목은 '고부채 보정'이 적용됐어요", `
+    <p>이 회사는 <b>실제 부채비율(D/E)이 동종업계 기준보다 훨씬 높아</b>, 할인율(WACC) 계산에 <b>보정</b>을 적용했습니다.</p>
+    <h4>왜 보정하나요? — distress 역설</h4>
+    <p>이상하게도, 부채가 아주 많은 회사는 계산식상 WACC가 <b>오히려 낮아져</b> 기업가치가 부풀려지는 모순이 생겨요(빌린 돈은 주주 돈보다 '싸게' 계산되기 때문). 이 왜곡을 막으려고 부채비율을 <b>업계 상한선까지만</b> 인정합니다.</p>
+    <table>
+      <thead><tr><th>구분</th><th style="text-align:right">부채비율(D/E)</th></tr></thead>
+      <tbody>
+        <tr><td>이 회사 <b>실제</b></td><td style="text-align:right;color:var(--red);font-weight:700">${f1(own)}</td></tr>
+        <tr><td>계산에 <b>적용</b>(상한)</td><td style="text-align:right;font-weight:700">${f1(cap)}</td></tr>
+        <tr><td>동종업계 중위값</td><td style="text-align:right;color:var(--gray)">${f1(med)}</td></tr>
+      </tbody>
+    </table>
+    <h4>그래서 무엇을 주의해야 하나요?</h4>
+    <p>이 적정주가는 <b>"재무구조가 정상 수준으로 회복된다"는 가정</b> 하의 값이에요. <span class="hl">실제 과도한 부채에서 오는 위험(이자 부담·부도 가능성)은 별도로 확인</span>하셔야 합니다.</p>
+    ${disc?`<div class="mwarn">${disc}</div>`:''}
+    <div class="mnote">이런 종목은 자본구조 보정이 들어가 <b>추정 불확실성이 더 큽니다</b>. 적정가는 더 넓은 범위로 받아들이세요.</div>
+  `);
+}
+
+// 모달 7 — 피어셋 신뢰도(D-1) 설명
+function showPeerConfidenceModal(){
+  const s=(_D&&_D.summary)||{};
+  const c=(_D&&_D.peer_confidence)||{};
+  const g = s.peer_confidence_grade || c.grade || 'B';
+  const score = s.peer_confidence_score ?? c.score ?? 75;
+  const meta = {
+    'A':{t:'A — 정밀',   c:'#16a34a', d:'피어 3개 이상 + 모두 본격 + 같은 소섹터 다수 + 시총·OPM·매출 양호'},
+    'B':{t:'B — 양호',   c:'#2d6cb5', d:'약간의 감점 (피어 일부 시총 차이, 매출 차이 등)'},
+    'C':{t:'C — 주의',   c:'#d97706', d:'다수 감점 (PARTIAL 피어, 같은 소섹터 부족 등)'},
+    'D':{t:'D — 곤란',   c:'#ea580c', d:'심각한 감점 — 피어 선정 신뢰도 낮음'},
+    'E':{t:'E — 부적합', c:'#dc2626', d:'피어 없음 또는 사실상 불가'},
+  }[g] || {t:'B', c:'#2d6cb5', d:''};
+  const deductions = (c.deductions || []).map(d =>
+    `<tr><td>${d.delta>0?'+':''}${d.delta}점</td><td>${d.reason}</td></tr>`
+  ).join('');
+  openModal("피어셋 신뢰도 — 왜 이 등급인가요?", `
+    <p style="color:var(--gray);font-size:13px;">‘피어셋’은 이 회사와 사업·규모가 비슷해 비교 기준으로 고른 동종 회사들이에요. 얼마나 잘 맞는 비교군인지를 100점 만점에서 감점 방식으로 평가합니다.</p>
+    <p>현재 등급: <b style="color:${meta.c}">${meta.t}</b>  ·  점수: <b>${score}/100</b></p>
+    <p>${meta.d}</p>
+    <h4>감점 내역</h4>
+    ${deductions ? `<table class="mtable"><thead><tr><th>감점</th><th>사유</th></tr></thead><tbody>${deductions}</tbody></table>` : '<p>감점 없음 — 만점에 가까운 피어셋입니다.</p>'}
+    <h4>등급별 의미</h4>
+    <table class="mtable">
+      <thead><tr><th>등급</th><th>점수</th><th>해석</th></tr></thead>
+      <tbody>
+        <tr><td><b style="color:#16a34a">A</b></td><td>≥90</td><td>피어 매우 적합 — 동종업계 표준에 가까움</td></tr>
+        <tr><td><b style="color:#2d6cb5">B</b></td><td>75~89</td><td>양호 — 작은 차이 (시총·매출 분산 약간)</td></tr>
+        <tr><td><b style="color:#d97706">C</b></td><td>60~74</td><td>주의 — 일부 PARTIAL 또는 같은 소섹터 부족</td></tr>
+        <tr><td><b style="color:#ea580c">D</b></td><td>40~59</td><td>곤란 — 피어 신뢰도 낮음, 결과 주의해서 해석</td></tr>
+        <tr><td><b style="color:#dc2626">E</b></td><td>&lt;40</td><td>부적합 — 멀티플·DCF 비교가능성 거의 없음</td></tr>
+      </tbody>
+    </table>
+    <div class="mnote">📚 피어 선정은 동종업계 비교(βU·D/E·OPM·ROIC·멀티플)의 기준이라 신뢰도가 평가 전체에 영향을 줍니다.</div>
+  `);
+}
+
+// 모달 4 — 산업 분류(C1) 설명
+function showIndustryModal(){
+  const s=(_D&&_D.summary)||{};
+  const cat = s.industry_category || 'unknown';
+  const ind = s.industry_name || '—';
+  const meta = {
+    'cyclical':{t:'경기민감(cyclical)', d:'반도체·화학·철강·조선·자동차 등 매크로 사이클에 노출. 호황/불황 양방향 OPM 변동 큼 → 8년 평균으로 평탄화.', c:'#92400e'},
+    'mature':  {t:'성숙안정(mature)',  d:'통신·유틸리티·은행·식음료 등 수요 비탄력 산업. 변동 작음 → 3년 평균이 충분.', c:'#166534'},
+    'growth':  {t:'성장·기타(growth)', d:'IT 플랫폼·바이오·콘텐츠 등. 사업모델 진화 빠를 수 있어 옛 데이터 오염 회피 위해 3년 우선.', c:'#1e3a8a'},
+    'unknown': {t:'미분류',            d:'산업 정보 불충분 — 보수적으로 3년 적용.', c:'#475569'},
+  };
+  const m = meta[cat] || meta['unknown'];
+  openModal("산업 분류 (3분류)", `
+    <p>이 종목의 산업 분류: <b style="color:${m.c}">${m.t}</b></p>
+    <p>업종 분류: <b>${ind}</b></p>
+    <h4>분류가 적정주가에 어떻게 영향을 주나요?</h4>
+    <p>${m.d}</p>
+    <table>
+      <thead><tr><th>분류</th><th>OPM 정상화 윈도우</th><th>예시 업종</th></tr></thead>
+      <tbody>
+        <tr><td><b style="color:#92400e">경기민감</b></td><td>8년 (사이클 평탄화)</td><td>반도체·화학·조선·자동차</td></tr>
+        <tr><td><b style="color:#166534">성숙안정</b></td><td>3년</td><td>통신·은행·식음료</td></tr>
+        <tr><td><b style="color:#1e3a8a">성장·기타</b></td><td>3년 (사업진화 보호)</td><td>IT 플랫폼·바이오</td></tr>
+      </tbody>
+    </table>
+    <div class="mnote">분류는 한국표준산업분류 + 회사명 보정 휴리스틱. 일부 복합기업은 수동 매핑(삼성전자=cyclical 등). 산출물 메타 키워드 인식이라 100% 정확하진 않습니다.</div>
+  `);
+}
+
+// 모달 5 — Damodaran 산업 βU 교차검증(C3) 결과
+function showDamodaranModal(){
+  const s=(_D&&_D.summary)||{};
+  const dmd = s.damodaran_check || {};
+  if(!dmd.available){
+    openModal("βU 산출 (Damodaran 미가용)", `<p>해당 산업의 Damodaran 산업 평균 βU 데이터를 찾지 못해(매핑 실패), 본 평가는 <b>피어 회귀 βU</b>(이상치 제외 + 사업유사도 가중평균)만 사용했습니다.</p>`);
+    return;
+  }
+  const peer = (dmd.peer_median_bU*1).toFixed(3);
+  const dam = (dmd.damodaran_bU*1).toFixed(3);
+  const gap = (dmd.gap*1).toFixed(3);
+  const warn = dmd.warn_gt_0p3;
+  const blended = (dmd.blended_bU!=null)?(dmd.blended_bU*1).toFixed(3):null;
+  const wPeer = (dmd.weight_peer!=null)?(dmd.weight_peer*100).toFixed(0):null;
+  const excl = (dmd.excluded_peers&&dmd.excluded_peers.length)?dmd.excluded_peers.join(', '):null;
+  const agg = dmd.agg_method==='similarity_weighted' ? '사업유사도 가중평균' : (dmd.agg_method==='median_fallback'?'중위값':'피어 집계');
+  openModal("βU 산출 — 피어 + Damodaran 혼합", `
+    <p>무차입 베타(βU = 순수 영업위험)를 <b>① 피어 회귀(이상치 제외 후 ${agg}) + ② Damodaran 산업 평균</b>을 혼합해 산출합니다(Vasicek shrinkage).</p>
+    <table>
+      <thead><tr><th>구성</th><th>βU (무차입)</th></tr></thead>
+      <tbody>
+        <tr><td>피어 ${agg}</td><td>${peer}</td></tr>
+        <tr><td>Damodaran ${dmd.damodaran_sector||'산업 평균'}</td><td>${dam}</td></tr>
+        ${blended!=null?`<tr style="background:#eef6ff"><td><b>혼합 최종 βU</b> (피어 가중 ${wPeer}%)</td><td><b>${blended}</b></td></tr>`:''}
+        <tr><td>피어 − Damodaran 차이</td><td style="color:${warn?'#dc2626':'#16a34a'}">${gap>=0?'+':''}${gap}</td></tr>
+      </tbody>
+    </table>
+    ${excl?`<div class="mnote">βU 이상치로 제외된 피어: <b>${excl}</b> — 영업위험이 동종과 크게 달라(과부채 등) βU를 왜곡하므로 제외.</div>`:''}
+    ${warn ? `<div class="mwarn">⚠ 차이 0.3 초과 — 차이가 크면 Damodaran 가중을 자동으로 낮춰(부정확한 산업 매핑 회피) 피어 중심으로 혼합합니다.</div>` : `<div class="mnote">차이 0.3 이내 — 피어와 산업 평균이 정합.</div>`}
+    <p style="font-size:12px;color:#888">혼합 가중 w = n/(n+2) (피어 표본 클수록 피어↑) × gap-aware(차이 클수록 Damodaran↓). 산업 매핑은 한글 업종명 키워드 휴리스틱.</p>
+  `);
+}
+
+// 모달 6 — OPM 정상화 윈도우(B1+) 사용 내역
+function showOpmWindowModal(){
+  const s=(_D&&_D.summary)||{};
+  const w = s.opm_window_used || '3yr';
+  const p = s.opm_pattern || 'stable';
+  const o3 = s.opm_3yr_avg; const o8 = s.opm_8yr_avg;
+  const fmt = (x)=>x==null?'—':(x*100).toFixed(2)+'%';
+  const desc = {
+    '8yr_cyclical_both':       {c:'#92400e', t:'8년 (산업·OPM 모두 사이클)', d:'산업 분류와 OPM 패턴이 모두 cyclical → 8년 평균으로 평탄화. 정점·바닥 외삽 위험을 가장 적극적으로 차단.'},
+    '8yr_cyclical_opm_only':   {c:'#92400e', t:'8년 (OPM 사이클)',           d:'산업 분류는 cyclical 아님이나 OPM 시계열이 양방향 변동 → 보수적으로 8년 적용.'},
+    '3yr_evolution_over_industry': {c:'#1e3a8a', t:'3년 (회사 진화)',        d:'산업은 cyclical이지만 OPM이 단방향 drift (사업모델 진화) → 옛 데이터 오염 회피 위해 3년 우선.'},
+    '3yr_evolution':           {c:'#1e3a8a', t:'3년 (진화)',                d:'OPM이 단방향으로 일관 변동 → 최근 3년이 더 현실적.'},
+    '3yr_stable':              {c:'#475569', t:'3년 (안정)',                d:'OPM 변동성이 작음 → 윈도우 길이 차이 무의미. 3년 사용.'},
+    '3yr':                     {c:'#475569', t:'3년 (기본)',                d:'데이터 부족(8년 history 미달) — 기본 3년 적용.'},
+  }[w] || {c:'#475569', t:w, d:'기본 윈도우 적용'};
+  openModal("OPM 정상화 윈도우 자동 선택", `
+    <p>적정주가 계산의 출발 영업이익률(OPM)을 어떤 기간 평균으로 잡았는지: <b style="color:${desc.c}">${desc.t}</b></p>
+    <p>${desc.d}</p>
+    <table>
+      <thead><tr><th>구분</th><th>OPM 평균</th></tr></thead>
+      <tbody>
+        <tr><td>최근 3년</td><td>${fmt(o3)}</td></tr>
+        <tr><td>최근 8년</td><td>${fmt(o8)}</td></tr>
+        <tr><td>패턴 분석</td><td><b>${p}</b></td></tr>
+      </tbody>
+    </table>
+    <div class="mnote">사이클성 종목은 호황·불황을 모두 포함한 평균이 더 정상치에 가깝습니다 (한 사이클 ~3~10년). 단순 진화 종목은 옛 데이터 오염을 피해 최근 3년이 낫습니다.</div>
+  `);
+}
+
+// 모달 3 — DCF 신뢰도 등급(A~E)의 의미·산정근거 (A2)
+function showGradeModal(){
+  const s=(_D&&_D.summary)||{};
+  const g = s.dcf_grade || 'B';
+  const reason = s.dcf_grade_reason || '—';
+  const tvw = s.dcf_tv_weight; const tvTxt = tvw!=null?(tvw*100).toFixed(0)+'%':'—';
+  const meta = {
+    'A':{c:'#16a34a',t:'A · 정밀'}, 'B':{c:'#2d6cb5',t:'B · 양호'},
+    'C':{c:'#d97706',t:'C · 주의'}, 'D':{c:'#ea580c',t:'D · 점추정 곤란'},
+    'E':{c:'#dc2626',t:'E · DCF 부적합'},
+  };
+  const m = meta[g] || meta['B'];
+  openModal("이 종목의 DCF 신뢰도 등급은요…", `
+    <p>현재 등급: <b style="color:${m.c}">${m.t}</b></p>
+    <p>판정 근거: <b>${reason}</b></p>
+    ${s.dcf_fcff_y1_negative ? `<div class="mnote">💡 이 종목은 <b>투자기 성장주</b>입니다 — 대규모 증설·운전자본 확대로 1년차 잉여현금흐름(FCFF)은 음수지만 기업가치(EV)는 양수라 평가에 포함했습니다(예: 증설기 바이오·소재). 가치가 먼 미래·영구가치에 집중돼 신뢰도 등급이 낮게 나올 수 있습니다.</div>` : ''}
+    <h4>5단계 등급의 의미</h4>
+    <table>
+      <thead><tr><th>등급</th><th>의미</th><th>화면 표시 정책</th></tr></thead>
+      <tbody>
+        <tr><td><b style="color:#16a34a">A</b></td><td>정상화·Terminal 안정</td><td>적정가 + 범위 모두 표시</td></tr>
+        <tr><td><b style="color:#2d6cb5">B</b></td><td>대체로 양호</td><td>적정가 + 범위 표시</td></tr>
+        <tr><td><b style="color:#d97706">C</b></td><td>이격·Terminal 의존 큼</td><td>적정가 + 범위 (주의 표기)</td></tr>
+        <tr><td><b style="color:#ea580c">D</b></td><td>점추정 신뢰 곤란 (이격·일시 적자)</td><td><b>점추정 숨김 · 범위만</b></td></tr>
+        <tr><td><b style="color:#dc2626">E</b></td><td>구조적 적자·자본잠식·EV음수</td><td><b>DCF 비표시</b> (조건부 노출)</td></tr>
+      </tbody>
+    </table>
+    <p>모델 내부 지표(Terminal Value 비중 <b>${tvTxt}</b>, OPM 이격, 흑자 여부 등)로 자동 산정합니다.</p>
+    <div class="mnote">📚 점추정 단일 숫자에 사용자가 과도하게 앵커링(anchoring)되지 않도록 'D'부터 점추정을 의도적으로 숨깁니다 (Tversky & Kahneman 1974). 'E'는 적자·턴어라운드 보호를 위해 '조건부 표시' 옵션을 둡니다.</div>
+  `);
+}
+
+// 숫자들을 평범한 말로 풀어주는 '쉽게 말하면' 문단 생성
+function plainLanguage(d){
+  const s=d.summary||{}, dg=d.valuation_diagnostics||{};
+  const cur=s.current_price, fair=s.fair_price;
+  const gp=dg.growth_premium, ig=dg.implied_growth, mos=dg.margin_of_safety;
+  const name=d.company?.name||'이 회사';
+  const lines=[];
+  // 1) 현재가 vs 적정가
+  if(cur!=null && fair!=null){
+    if(cur>fair){const pct=Math.round((cur/fair-1)*100);
+      lines.push(`지금 <b>${name}</b> 주가는 <span class="em">₩${W(cur)}</span>인데, 우리가 계산한 '적정 가격'은 <span class="em">₩${W(fair)}</span>이에요. 즉 지금은 적정가보다 <span class="em">약 ${pct}% 비싼</span> 편입니다.`);}
+    else{const pct=Math.round((1-cur/fair)*100);
+      lines.push(`지금 <b>${name}</b> 주가는 <span class="em">₩${W(cur)}</span>인데, 우리가 계산한 '적정 가격'은 <span class="em">₩${W(fair)}</span>이에요. 즉 지금은 적정가보다 <span class="em">약 ${pct}% 싼</span> 편입니다.`);}
+  } else if(cur!=null){
+    lines.push(`지금 <b>${name}</b> 주가는 <span class="em">₩${W(cur)}</span>입니다. 이 회사는 미래 이익을 예측하기 불안정해 '적정 가격'을 숫자로 못 냈어요. 대신 아래 '성장 기대' 지표로 판단해 보세요.`);
+  }
+  // 2) 성장 기대분 (성장 프리미엄)
+  if(gp!=null && dg.epv_price!=null){
+    if(gp>0.05){lines.push(`지금 주가에는 "<b>앞으로 더 크게 성장할 것</b>"이라는 기대가 <span class="em">약 ${Math.round(gp*100)}%</span> 들어 있어요. 만약 성장이 멈추고 지금 버는 만큼만 계속 번다면, 한 주의 값어치는 <span class="em">₩${W(dg.epv_price)}</span> 정도예요.`);}
+    else if(gp<-0.05){lines.push(`특이하게도 지금 주가는 회사가 <b>더 성장하지 않아도</b> 될 만큼 낮아요. 성장이 0이어도 값어치(₩${W(dg.epv_price)})가 현재가보다 높습니다 — 싸게 거래되고 있다는 신호일 수 있어요.`);}
+    else{lines.push(`지금 주가는 회사의 '현재 버는 힘'에 거의 딱 맞는 수준이에요(성장 기대가 크지 않음). 본질 값어치는 한 주당 <span class="em">₩${W(dg.epv_price)}</span> 정도입니다.`);}
+  }
+  // 3) 그 기대가 현실적인가 (implied growth)
+  if(ig!=null && dg.implied_growth_verdict){
+    lines.push(`그 기대가 현실적인지 보려면: 지금 주가가 맞으려면 회사가 <span class="em">매년 ${SPCT(ig)}씩 영원히</span> 커져야 해요. 우리나라 경제 성장률(약 ${PCT(dg.gdp_growth_ref,0)})과 견주면 <span class="em">${dg.implied_growth_verdict}</span>입니다.`);
+  }
+  return lines;
+}
+
+// 주가가 요구하는 성장 속도 — 안정적 HTML 막대 게이지(초록/노랑/빨강 + 위치 마커)
+function gaugeHtml(d){
+  const dg=d.valuation_diagnostics||{}, s=d.summary||{};
+  const ig=dg.implied_growth, gdp=dg.gdp_growth_ref||0.03, wacc=s.wacc||0.12;
+  const lo=-0.10, hi=Math.max(wacc, gdp*2+0.02, 0.12), span=hi-lo;
+  const col = ig==null?'#94a3b8':(ig<=gdp?'#16a34a':(ig<=gdp*2?'#d97706':'#dc2626'));
+  const verdict = dg.implied_growth_verdict||'';
+  const gw=Math.max(0,(gdp-lo)/span), yw=Math.max(0,(Math.min(gdp*2,hi)-gdp)/span), rw=Math.max(0,1-gw-yw);
+  const pct = ig==null?null:Math.max(0,Math.min(1,(ig-lo)/span))*100;
+  const valTxt = ig==null?'산출 불가':SPCT(ig);
+  return `
+   <div style="text-align:center;margin:6px 0 2px;">
+     <div style="font-size:34px;font-weight:800;color:${col};line-height:1.1;">${valTxt}</div>
+     <div style="font-size:12.5px;color:#64748b;margin-top:3px;line-height:1.4;">매년 영원히 이만큼 성장해야<br>지금 주가가 정당화돼요${verdict?` · <b style="color:${col}">${verdict}</b>`:''}</div>
+   </div>
+   <div style="position:relative;margin:34px 10px 2px;">
+     ${pct==null?'':`<div style="position:absolute;left:${pct}%;top:-24px;transform:translateX(-50%);font-size:12.5px;font-weight:700;color:#1e293b;white-space:nowrap;">▼ 이 종목</div>`}
+     <div style="display:flex;height:15px;border-radius:8px;overflow:hidden;">
+       <div style="flex:${gw};background:#16a34a;"></div>
+       <div style="flex:${yw};background:#d97706;"></div>
+       <div style="flex:${rw};background:#dc2626;"></div>
+     </div>
+     <div style="display:flex;justify-content:space-between;font-size:10.5px;color:#94a3b8;margin-top:5px;">
+       <span>현실적</span><span>경제성장 ${PCT(gdp,0)}</span><span>비현실적</span>
+     </div>
+   </div>`;
+}
+
+function render(d){
+  clearCharts();
+  _D=d;
+  const el=document.getElementById('result');
+
+  // ── 금융·보험·지주 등 DCF 미지원 종목 ─────────────────────────────
+  if(d.status==='unsupported'){
+    const kindMap={financial:'DDM(배당할인) · RIM(잔여이익) · P-B-ROE', holding:'NAV(순자산합산) · SOTP(사업부별 합산)'};
+    const alt=kindMap[d.unsupported_kind]||'별도 평가 모델 필요';
+    el.innerHTML=`<div class="unsup">
+      <h3 style="font-size:17px;color:#0369a1;margin-bottom:10px;">⚠ ${d.company?.name||'이 종목'}은(는) 현금흐름 평가(DCF) 대상이 아닙니다</h3>
+      <p style="font-size:14px;line-height:1.75;color:#1e3a5f">${d.unsupported_reason||'이 종목은 일반 현금흐름 방식이 맞지 않습니다.'}</p>
+      <p style="margin-top:12px;font-size:13px;color:#0c4a6e">💡 <b>권장 평가 방법:</b> ${alt}</p>
+    </div>`;
+    el.style.display='block';
+    return;
+  }
+
+  const s=d.summary||{}, dg=d.valuation_diagnostics||{};
+  const cur=s.current_price, fair=s.fair_price, up=s.upside_pct;
+
+  // ── 분류 배지 + 맥락 주석 (성장프리미엄 기반) ──────────────
+  const gp = dg.growth_premium;
+  let badge='', bcol='#64748b', dcfNote='';
+  if(gp!=null){
+    if(gp>1){ badge='🚀 성장 기대주'; bcol='#d97706';
+      dcfNote='현재가의 대부분이 <b>미래 성장 기대분</b>입니다. DCF 적정주가는 현재 펀더멘털 기준 <b>보수적 하한</b>이며, 시장은 미래 성장을 추가로 반영합니다. → 핵심은 아래 ‘시장함의 성장률’이 현실적인지 보는 것.'; }
+    else if(gp<-0.1){ badge='💰 가치주 (저평가 신호)'; bcol='#16a34a';
+      dcfNote='성장이 전혀 없어도 현재가가 본질가치(EPV)보다 낮습니다 — <b>하방 안전마진</b>이 존재합니다.'; }
+    else { badge='⚖️ 펀더멘털 근접'; bcol='#2d6cb5';
+      dcfNote='현재가가 본질가치(EPV)와 비슷한 수준입니다.'; }
+  }
+  const badgeHtml = badge ? ` · <span style="background:${bcol};color:#fff;padding:2px 11px;border-radius:20px;font-weight:700;font-size:12px">${badge}</span>` : '';
+
+  // ── A2: DCF 신뢰도 A~E 등급 — 점추정 노출 차등 ─────────────────
+  const grade = s.dcf_grade || 'B';
+  const showPoint = s.dcf_show_point_estimate !== false;
+  const G_META = {
+    'A': {color:'#16a34a', label:'A · 정밀'},
+    'B': {color:'#2d6cb5', label:'B · 양호'},
+    'C': {color:'#d97706', label:'C · 주의'},
+    'D': {color:'#ea580c', label:'D · 점추정 곤란'},
+    'E': {color:'#dc2626', label:'E · DCF 부적합'},
+  };
+  const gMeta = G_META[grade] || G_META['B'];
+  const gradeBadge = `<span class="gbadge" style="background:${gMeta.color}" onclick="showGradeModal()" title="${s.dcf_grade_reason||''}">${gMeta.label}</span>`;
+
+  // C1 산업 배지 + B1+ OPM 윈도우 + C3 Damodaran 경고
+  const indCat = s.industry_category || 'unknown';
+  const indClass = {cyclical:'cyc', mature:'mat', growth:'gro'}[indCat] || 'unk';
+  const indLabel = {cyclical:'경기민감', mature:'성숙안정', growth:'성장', unknown:'미분류'}[indCat] || '미분류';
+  const industryBadge = `<span class="ibadge ${indClass}" onclick="showIndustryModal()">🏭 ${indLabel}</span>`;
+  const opmW = s.opm_window_used;
+  const opmBadge = opmW ? `<span class="opm-meta" onclick="showOpmWindowModal()" title="OPM 정상화 윈도우">OPM ${opmW.startsWith('8yr')?'8년':'3년'}</span>` : '';
+  const dmd = s.damodaran_check;
+  const dmdBadge = (dmd && dmd.available && dmd.warn_gt_0p3)
+    ? `<span class="dmd-warn" onclick="showDamodaranModal()" title="피어 βU 가 산업 평균과 0.3+ 차이">⚠ βU 산업 평균과 이격</span>`
+    : (dmd && dmd.available ? `<span class="opm-meta" onclick="showDamodaranModal()" title="피어 βU vs Damodaran 산업 평균">βU ✓</span>` : '');
+
+  // D-1: 피어셋 신뢰도 배지 (A~E)
+  const pcGrade = s.peer_confidence_grade || (d.peer_confidence && d.peer_confidence.grade);
+  const pcScore = s.peer_confidence_score ?? (d.peer_confidence && d.peer_confidence.score);
+  const pcBadge = pcGrade
+    ? `<span class="pbadge ${pcGrade}" onclick="showPeerConfidenceModal()" title="피어셋 신뢰도 ${pcScore}/100">👥 피어 ${pcGrade}</span>`
+    : '';
+
+  const plainLines = plainLanguage(d);
+  const plainHtml = plainLines.length
+    ? `<div class="plain"><h4>🗣️ 쉽게 말하면</h4>${plainLines.map(l=>`<p>${l}</p>`).join('')}</div>` : '';
+
+  // 고부채 보정(레버리지 캡) 경고 배너 — 적정가가 '정상화 가정' 임을 고지
+  const alertHtml = s.leverage_cap_applied ? `
+    <div class="alert"><div class="ai">⚠️</div>
+      <div class="atx"><b>고부채 보정 적용</b> — 이 종목은 실제 부채비율이 업계 상한을 초과해, 적정가가 '재무구조 정상화' 가정을 포함합니다. 실제 부채위험은 별도로 확인하세요.</div>
+      <span class="more" onclick="showLeverageModal()">자세히</span></div>` : '';
+
+  let html = `
+  <div class="headline">
+    <div class="verdict">${d.company?.name||''} (${d.company?.ticker||''}) · 평가일 ${d.as_of_date||''} ${d.model_version?'· '+d.model_version:''} ${d._cache?'· 캐시':''}${badgeHtml}</div>
+    <div class="txt">${dg.headline||'현재가 적절성 진단 데이터 없음'}</div>
+  </div>
+  ${alertHtml}
+  ${plainHtml}
+  <div class="grid g3" style="margin-bottom:18px;">
+    <div class="card"><h3>현재 주가 ${tip('지금 증권시장에서 거래되는 1주의 가격이에요. 평가 기준일의 종가(마감 가격)입니다.')}</h3>
+      <div class="big">₩${W(cur)}</div><div class="sub">시장이 매기는 값</div></div>
+    <div class="card"><h3>적정주가 ${tip('우리 계산기가 회사의 미래 현금흐름을 예측해 추정한 1주의 정당한 가격이에요(DCF 방식). 현재가가 이보다 높으면 비싼 편, 낮으면 싼 편. 미래 예측이라 오차가 있어 절대적 정답은 아니고 참고용입니다.')}${gradeBadge}${pcBadge}${industryBadge}${opmBadge}${dmdBadge}</h3>
+      ${(showPoint && fair!=null) ? `
+        <div class="big">₩${W(fair)}</div>
+        <div class="sub ${sign(up)}">${up==null?'계산 불가':'상승여력 '+SPCT(up/100)} ${up==null?'':tip('현재가가 적정주가까지 오를(+) 또는 내릴(−) 여지를 %로 본 거예요. +면 저평가, −면 고평가 신호.')}</div>
+      ` : `
+        <div class="hide-point" style="color:${gMeta.color}">${grade==='E'?'⚠ DCF 부적합':'⚠ 점추정 신뢰 어려움'}</div>
+        <div class="sub" style="line-height:1.5">${grade==='E'?'적자 또는 영업투하자본 비정상으로 현금흐름 기반 평가가 곤란합니다. 멀티플·EPV·5종 진단을 참고하세요.':'정상화·Terminal 가정의 작은 변동에도 결과가 크게 흔들립니다. 점추정 대신 아래 추정 범위와 5종 진단으로 판단하세요.'} <span class="more" style="margin-left:4px;padding:1px 9px" onclick="showGradeModal()">왜 숨겼나요?</span>
+          ${(grade==='E' && fair!=null) ? `<a class="more" style="margin-left:4px;padding:1px 9px;color:#dc2626" onclick="this.outerHTML='<span style=\\'font-size:13px;opacity:.6\\'>(조건부 표시 — 참고만) ₩${W(fair)}</span>'">↓ 그래도 보기</a>` : ''}
+        </div>
+      `}
+      ${(fair!=null&&s.fair_price_low!=null&&s.fair_price_high!=null)?
+        `<div class="sub" style="margin-top:9px;display:flex;align-items:center;gap:8px;flex-wrap:wrap">
+           추정 범위 <b>₩${W(s.fair_price_low)} ~ ₩${W(s.fair_price_high)}</b>
+           <span class="more" style="padding:1px 9px" onclick="showRangeModal()">왜 범위인가요?</span>
+         </div>
+         ${fairRangeBar(s)}`:''}
+      ${dcfNote?`<div class="footnote" style="margin-top:8px;color:${bcol};line-height:1.4">${dcfNote}</div>`:''}</div>
+    <div class="card"><h3>WACC ${tip('회사가 돈(주주 자본+빌린 돈)을 쓰는 데 드는 평균 비용률이에요. 미래의 돈을 현재 가치로 환산할 때 쓰는 할인율로, 높을수록 미래 이익을 더 깐깐하게 깎아서 봅니다. 보통 8~13%.')}</h3>
+      <div class="big">${PCT(s.wacc,2)}</div>
+      <div class="sub">자금 조달 비용 · Ke ${PCT(s.ke,2)} · Rf ${PCT(s.rf,2)}</div></div>
+  </div>
+  ${(dg.implied_growth!=null)?`
+  <div class="reverse-hero">
+    <div class="rh-tag">📊 시장이 요구하는 성장 속도 · REVERSE DCF</div>
+    <div class="rh-lead">지금 주가가 정당하려면 <b>${d.company?.name||'이 회사'}</b>는(은) <b>매년 영원히 ${SPCT(dg.implied_growth)}</b> 성장해야 해요. 경제성장률 ${PCT(dg.gdp_growth_ref||0.03,0)}과 비교하면 <b>${dg.implied_growth_verdict||'—'}</b>입니다.</div>
+    ${gaugeHtml(d)}
+    <div class="rh-foot">💡 적정주가 추정이 불확실해도, 이 '필요 성장률' 한 숫자만으로 거품/저평가 신호를 즉시 판별할 수 있어요. (적정주가에 의존하지 않는 1차 진단)</div>
+  </div>`:''}
+  <div class="guide">
+    <b>📖 결과 보는 법 (3단계)</b><br>
+    ① 위 <b>🗣️ 쉽게 말하면</b>으로 큰 그림을 잡고, <b>적정주가 vs 현재 주가</b>로 비싼지·싼지 봅니다.<br>
+    ② 아래 <b>5가지 진단</b>의 신호등 색(<b style="color:#16a34a">초록=유리</b> / <b style="color:#dc2626">빨강=주의</b>)으로 교차 확인하세요.<br>
+    ③ 한 지표만 보지 말고 <b>여러 신호가 같은 방향</b>일 때 더 믿을 만합니다. ⚠ 미래 예측이 포함돼 <b>정답이 아닌 참고용</b>이에요.
+  </div>`;
+
+  // ── 현재가 적절성 진단 5종 ──
+  if(dg.valid){
+    const gp=dg.growth_premium, ig=dg.implied_growth, eg=dg.expectations_gap, mos=dg.margin_of_safety;
+    const bt=(x,inv=false)=>{ // 신호등: inv=true면 음수가 좋음
+      if(x==null)return'var(--gray)';
+      const good = inv? x<0 : x>0;
+      return good?'var(--green)':'var(--red)';
+    };
+    html += `<h3 style="font-size:15px;color:var(--navy);margin:6px 0 4px;font-weight:700;">🔍 지금 가격, 5가지로 진단해 봤어요</h3>
+    <div class="legend">
+      <span><i class="dot" style="background:var(--green)"></i> 초록 = 투자자에게 유리한 신호(싸거나 안전)</span>
+      <span><i class="dot" style="background:var(--red)"></i> 빨강 = 주의 신호(비싸거나 기대 과함)</span>
+      <span><i class="dot" style="background:var(--gray)"></i> 회색 = 중립/판단 보류</span>
+    </div>
+    <div class="diag">
+      <div class="dcard" style="border-top-color:var(--blue)"><div class="lbl">① 본질 값어치 ${tip('EPV. 회사가 지금 버는 만큼만 앞으로도 번다고 가정(성장 0)했을 때의 1주 값어치예요. 미래 장밋빛 예측을 빼고 보수적으로 본 바닥 가치입니다.')}</div>
+        <div class="val">₩${W(dg.epv_price)}</div><div class="desc">성장 0 가정<br>(보수적 바닥값)</div></div>
+      <div class="dcard" style="border-top-color:${bt(gp,true)}"><div class="lbl">② 성장 기대분 ${tip('성장 프리미엄. 현재 주가 중에서 앞으로 더 성장할 거라는 기대가 차지하는 비율이에요. +50%면 주가의 절반이 미래 기대. 너무 높으면 거품 위험.')}</div>
+        <div class="val" style="color:${bt(gp,true)}">${SPCT(gp)}</div><div class="desc">주가에 섞인 기대<br>(낮을수록 안전)</div></div>
+      <div class="dcard" style="border-top-color:var(--gray)"><div class="lbl">③ 필요 성장률 ${tip('시장 함의 성장률. 지금 주가가 정당하려면 회사가 매년 몇 %씩 영원히 성장해야 하는지 거꾸로 계산한 값이에요. 경제성장률(약 3%)보다 훨씬 높으면 비현실적입니다.')}</div>
+        <div class="val">${SPCT(ig)}</div><div class="desc">${dg.implied_growth_verdict||''}<br>(경제성장 ${PCT(dg.gdp_growth_ref,0)} 대비)</div></div>
+      <div class="dcard" style="border-top-color:${bt(eg,true)}"><div class="lbl">④ 기대 vs 실력 ${tip('기대 격차. 시장이 요구하는 성장률(③)에서 회사가 스스로 벌어 성장할 수 있는 실력(SGR)을 뺀 값이에요. 양수면 시장 기대가 회사 실력보다 앞서간 것(과열).')}</div>
+        <div class="val" style="color:${bt(eg,true)}">${SPCT(eg)}</div><div class="desc">시장 기대 − 회사 실력<br>(양수=과열)</div></div>
+      <div class="dcard" style="border-top-color:${bt(mos)}"><div class="lbl">⑤ 안전마진 ${tip('Margin of Safety. 본질 값어치(①)보다 현재가가 얼마나 더 싼지예요. +30%면 가치보다 30% 싸게 사는 셈이라 하락 방어막이 있고, 음수면 방어막이 없습니다.')}</div>
+        <div class="val" style="color:${bt(mos)}">${SPCT(mos)}</div><div class="desc">본질가치 대비 할인<br>(+면 하락 방어막)</div></div>
+    </div>`;
+  }
+
+  // ── 결과 시각화 (여러 방법 가격대 — 성장속도는 위 Reverse-DCF hero 로 격상됨, A5) ──
+  html += `<div class="card" style="margin-top:16px"><h3>여러 방법으로 본 가격대 ${tip('한 가지 방법만 믿지 않도록, 보수적 가치(본질값어치)·낙관/비관 시나리오·동종업계 비교 등 여러 잣대로 추정한 가격을 한눈에 모았어요. 빨간 선이 현재가입니다.')}</h3><canvas id="cRange"></canvas>
+    <div class="footnote">막대 = 방법별 추정 가격 / 빨간 점선 = 현재 주가. 현재가가 막대들보다 위면 비싼 편.</div></div>`;
+
+  // ── 용어 사전 (계산 근거를 보기 전에 먼저) ──
+  html += `<details class="glossary">
+    <summary>📚 용어가 어렵다면 — 쉬운 풀이 펼치기</summary>
+    <dl>
+      <dt>적정주가 (DCF)</dt><dd>회사가 미래에 벌 현금을 예측해 오늘 가치로 환산한, 1주의 ‘정당한’ 가격. 현재가와 비교해 비싼지·싼지 가늠합니다.</dd>
+      <dt>WACC (할인율)</dt><dd>회사가 돈을 쓰는 평균 비용률. 미래의 돈을 오늘 가치로 깎을 때 쓰는 비율로, 높을수록 미래 이익을 깐깐하게 봅니다.</dd>
+      <dt>본질 값어치 (EPV)</dt><dd>회사가 지금 버는 만큼만 계속 번다고 볼 때(성장 0)의 보수적인 1주 가치. 미래 장밋빛 가정을 뺀 ‘바닥값’.</dd>
+      <dt>성장 기대분</dt><dd>현재 주가 중 ‘앞으로 더 클 것’이라는 기대가 차지하는 비율. 높을수록 기대에 기댄 가격(거품 위험↑).</dd>
+      <dt>필요 성장률</dt><dd>지금 주가가 맞으려면 회사가 매년 몇 %씩 영원히 커져야 하는지. 경제성장률(약 3%)보다 크게 높으면 비현실적.</dd>
+      <dt>안전마진</dt><dd>본질 값어치보다 현재가가 얼마나 더 싼지. 클수록 하락에 대한 방어막이 두텁습니다.</dd>
+      <dt>베타</dt><dd>시장이 1% 움직일 때 이 주식이 몇 % 움직이는지. 1보다 크면 시장보다 변동이 크다는 뜻.</dd>
+      <dt>멀티플</dt><dd>비슷한 회사들이 시장에서 받는 가격 배수(PER 등)를 적용해 본 가격. 다른 각도의 교차 검증용.</dd>
+      <dt>피어셋 (비교 대상)</dt><dd>이 회사와 사업·규모가 비슷해 비교 기준으로 고른 동종 회사들. 신뢰도 등급(A~E)으로 얼마나 잘 맞는 비교군인지 표시합니다.</dd>
+      <dt>사업 유사도</dt><dd>사업보고서 내용을 AI로 비교해 ‘하는 일이 얼마나 비슷한가’를 0~1로 점수화한 값. 높을수록 진짜 동종업계.</dd>
+      <dt>영업이익률 (OPM)</dt><dd>매출 100원당 본업에서 남기는 이익(원). 회사의 ‘장사 수익성’으로, 멀티플·적정가에 큰 영향을 줍니다.</dd>
+      <dt>순부채</dt><dd>갚을 빚(이자 내는 차입금)에서 보유 현금을 뺀 ‘실질 빚’. 기업가치에서 이걸 빼야 주주 몫이 남습니다.</dd>
+      <dt>지주회사</dt><dd>직접 장사보다 자회사 지분 보유가 주업인 회사. 일반 현금흐름 평가(DCF) 대신 자회사 가치 합산(NAV) 방식이 맞습니다.</dd>
+      <dt>동종 상·하위 25% (P75·P25)</dt><dd>비교 회사들을 배수 순으로 줄 세웠을 때 위·아래 1/4 지점. 이 회사가 상위 25%보다 비싸면 ‘동종 대비 고평가’ 신호입니다.</dd>
+    </dl>
+  </details>`;
+
+  // ── 구분선 + 계산 근거 (결과가 어떻게 나왔는지) ──
+  html += `<div style="margin:22px 0 12px;border-top:1px dashed var(--bd);padding-top:16px;font-size:13.5px;color:var(--gray);font-weight:700;">🧮 아래는 위 결과가 <b>어떻게 나왔는지</b> 보여주는 계산 근거예요 (자세히 보고 싶을 때만)</div>
+  <div class="grid g2">
+    <div class="card"><h3>동종업계와 비교한 적정가 ${tip('비슷한 회사들이 시장에서 받는 가격 배수(PER·EV/EBITDA 등)를 이 회사에 적용하면 얼마가 나오는지예요. DCF와 다른 각도의 교차 검증.')}</h3><div id="multTbl"></div></div>
+    <div class="card"><h3>주가 변동성(베타) 비교 ${tip('베타는 시장이 1% 움직일 때 이 주식이 몇 % 움직이는지예요. 1보다 크면 시장보다 출렁임이 크고, 위험이 커 할인율(WACC)도 올라갑니다.')}</h3><div id="peerTbl"></div></div>
+  </div>
+  <div class="grid" style="margin-top:16px;">
+    <div class="card"><h3>할인율(WACC)은 어떻게 나왔나 ${tip('미래 현금을 깎는 비율(WACC)이 어떤 재료로 계산됐는지 보여줘요: 안전한 국채금리(Rf), 주식 위험 보상, 빌린 돈 이자 등.')}</h3><div id="waccTbl"></div></div>
+  </div>
+  <div class="disclaimer">
+    본 결과는 공개된 재무·공시 데이터를 바탕으로 한 <b>자동 추정치</b>이며, 미래 예측이 포함되어 오차가 있을 수 있습니다.<br>
+    특정 종목의 매수·매도를 권유하지 않으며, 투자 판단과 책임은 투자자 본인에게 있습니다. (학습·참고용)
+  </div>`;
+
+  el.innerHTML=html;
+  el.style.display='block';
+  drawRange(d); fillWacc(d); fillMult(d); fillPeer(d);
+}
+
+function drawRange(d){
+  const s=d.summary||{}, dg=d.valuation_diagnostics||{}, sc=d.scenarios||{};
+  const labels=[], vals=[], colors=[];
+  if(dg.epv_price){labels.push('EPV(성장0)');vals.push(dg.epv_price);colors.push('#94a3b8');}
+  if(sc.Bear)  {labels.push('Bear');vals.push(sc.Bear.price);colors.push('#f87171');}
+  if(sc.Base)  {labels.push('Base');vals.push(sc.Base.price);colors.push('#60a5fa');}
+  if(sc.Bull)  {labels.push('Bull');vals.push(sc.Bull.price);colors.push('#34d399');}
+  if(s.fair_price){labels.push('DCF적정');vals.push(s.fair_price);colors.push('#2d6cb5');}
+  const cur=s.current_price;
+  const ctx=document.getElementById('cRange');
+  charts.push(new Chart(ctx,{type:'bar',data:{labels,datasets:[{data:vals,backgroundColor:colors,borderRadius:5}]},
+    options:{plugins:{legend:{display:false},
+      annotation:{}, tooltip:{callbacks:{label:c=>'₩'+W(c.raw)}}},
+      scales:{y:{ticks:{callback:v=>'₩'+W(v)}}},
+      onResize:()=>{}}}));
+  // 현재가 수평선 (커스텀 플러그인 대신 별도 데이터셋)
+  if(cur){
+    const c=charts[charts.length-1];
+    c.options.plugins.tooltip.callbacks.title=()=>'';
+    c.data.datasets.push({type:'line',label:'현재가',data:labels.map(()=>cur),
+      borderColor:'#dc2626',borderWidth:2,borderDash:[6,4],pointRadius:0});
+    c.update();
+  }
+}
+
+function fillWacc(d){
+  const rows=(d.wacc_breakdown||[]).map(r=>`<tr><td>${r[0]}</td><td>${r[1]}</td><td style="color:#64748b;font-size:11px">${r[2]||''}</td></tr>`).join('');
+  document.getElementById('waccTbl').innerHTML=`<table><thead><tr><th>항목</th><th>값</th><th>근거</th></tr></thead><tbody>${rows}</tbody></table>`;
+}
+
+function fillMult(d){
+  const cur=d.summary?.current_price;
+  const rows=(d.multiples||[]).map(m=>{
+    const v=m['역산가'], vs=cur?((v/cur-1)*100):null;
+    const tg=vs==null?'n':(vs>0?'u':'o');
+    return `<tr><td>${m['멀티플']}</td><td>${m['피어 중위']||''}</td><td>₩${W(v)}</td>
+      <td><span class="tag ${tg}">${vs==null?'—':(vs>0?'+':'')+vs.toFixed(0)+'%'}</span></td></tr>`;
+  }).join('');
+  document.getElementById('multTbl').innerHTML=`<table><thead><tr><th>멀티플</th><th>피어중위</th><th>역산가</th><th>vs 현재</th></tr></thead><tbody>${rows}</tbody></table>`;
+}
+
+function fillPeer(d){
+  const rows=(d.peer_beta||[]).map(p=>`<tr><td>${p['회사']}</td><td>${p['β_adj']??'—'}</td>
+    <td>${p['R²']??'—'}</td><td style="color:#d97706;font-size:11px">${p['warn']==='-'?'':p['warn']||''}</td></tr>`).join('');
+  document.getElementById('peerTbl').innerHTML=`<table><thead><tr><th>회사</th><th>β(adj)</th><th>R²</th><th>경고</th></tr></thead><tbody>${rows}</tbody></table>`;
+}
+
+// ── 임베드 자동 로드: ?code= 의 합본 평가 JSON 을 받아 그대로 render ──
+(async function autoLoad(){
+  const code = _QS.get('code');
+  const hint = document.getElementById('hint');
+  if(!code){ hint.textContent='종목코드(?code=)가 없습니다.'; return; }
+  hint.style.display='none';
+  setLoad('밸류에이션 불러오는 중…', null);
+  try{
+    const r = await fetch(API_BASE + `/api/valuation-full/${encodeURIComponent(code)}`);
+    if(!r.ok){ const e = await r.json().catch(()=>({})); throw new Error(e.detail || '데이터 없음'); }
+    const d = await r.json();
+    finishLoad();
+    render(d);              // 합본 JSON 은 render() 가 먹는 포맷 그대로
+  }catch(e){
+    finishLoad();
+    hint.style.display='block';
+    hint.innerHTML = '이 종목은 아직 밸류에이션 평가 데이터가 없습니다.<br><span style="font-size:12px;color:#94a3b8">(현재 산업 대표 20종만 제공 — 확장 예정)</span>';
+  }
+})();
+</script>
+</body>
+</html>

@@ -276,6 +276,104 @@ function ListingStatusBanner({ s, compact = false }: { s: any; compact?: boolean
   );
 }
 
+// 계열회사 시각화 — 접이식 토글 (기업개요 탭: 최신뉴스 다음 · 주가차트 앞)
+function AffiliateToggle({ code }: { code: string }) {
+  const [open, setOpen]     = useState(false);
+  const [meta, setMeta]     = useState<any>(null);
+  const [loaded, setLoaded] = useState(false);
+  useEffect(() => {
+    let alive = true;
+    fetch(`${API}/api/affiliate/${code}`)
+      .then(r => r.json())
+      .then(d => { if (alive) setMeta(d); })
+      .catch(() => { if (alive) setMeta({ available: false }); })
+      .finally(() => { if (alive) setLoaded(true); });
+    return () => { alive = false; };
+  }, [code]);
+
+  const available = meta?.available;
+  return (
+    <div className="bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-xl overflow-hidden">
+      <button onClick={() => setOpen(o => !o)}
+        className="w-full px-5 py-3.5 flex items-center justify-between hover:bg-slate-50 dark:hover:bg-slate-700/40 transition-colors text-left">
+        <span className="flex items-center gap-2">
+          <span className="text-sm font-bold text-slate-700 dark:text-slate-200">🏢 계열회사 구조</span>
+          {loaded && (available
+            ? <span className="text-[11px] px-2 py-0.5 rounded-full bg-emerald-50 dark:bg-emerald-900/30 text-emerald-600 dark:text-emerald-400 font-medium">
+                {meta.source_type === 'original_dart_image' ? 'DART 원본' : '구조도'}
+              </span>
+            : <span className="text-[11px] text-slate-400">데이터 준비중</span>)}
+        </span>
+        <svg className={`w-4 h-4 text-slate-400 transition-transform ${open ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7"/>
+        </svg>
+      </button>
+      {open && (
+        <div className="px-5 pb-5 border-t border-slate-100 dark:border-slate-700">
+          {available ? (
+            <div className="pt-4">
+              <div className="rounded-lg bg-white border border-slate-100 overflow-auto max-h-[70vh]">
+                <img src={`${API}${meta.file_url}`} alt={`${code} 계열회사 구조`}
+                  className="w-full h-auto block" loading="lazy" />
+              </div>
+              <div className="text-[11px] text-slate-400 mt-1.5 text-right">↕ 스크롤하여 전체 구조 보기</div>
+              <div className="text-[11px] text-slate-400 mt-2">
+                출처: DART 사업보고서 계열회사 시각화 · {meta.label} ({meta.source_type})
+              </div>
+            </div>
+          ) : (
+            <div className="py-10 text-center text-sm text-slate-400 leading-relaxed">
+              계열회사 시각화 데이터 준비 중<br/>
+              <span className="text-xs">(현재 샘플 종목만 제공 — 전 종목 적용 예정)</span>
+            </div>
+          )}
+        </div>
+      )}
+    </div>
+  );
+}
+
+// AI 탭 = 팀원 RAG 챗봇 화면(8800) 전체를 iframe으로 임베드 (AI 종합분석 제거, 챗봇만)
+function AIChatbotTab() {
+  const [status, setStatus] = useState<'checking' | 'up' | 'down'>('checking');
+  useEffect(() => {
+    let alive = true;
+    fetch(`${CHAT_API}/health`)
+      .then(r => { if (alive) setStatus(r.ok ? 'up' : 'down'); })
+      .catch(() => { if (alive) setStatus('down'); });
+    return () => { alive = false; };
+  }, []);
+
+  // 탭 바(상단 100px = 헤더56 + 탭44) 아래를 꽉 채움
+  const H = 'calc(100vh - 100px)';
+  if (status === 'checking') {
+    return <div style={{ height: H }} className="flex items-center justify-center bg-[#0f1115] text-slate-400 text-sm">AI 챗봇 연결 확인 중…</div>;
+  }
+  if (status === 'down') {
+    return (
+      <div style={{ height: H }} className="flex flex-col items-center justify-center bg-[#0f1115] text-center px-4">
+        <div className="text-4xl mb-3">💬</div>
+        <div className="text-base font-bold text-slate-100 mb-2">AI 챗봇 서버가 꺼져 있습니다</div>
+        <div className="text-sm text-slate-400 mb-5">DART 사업보고서 RAG 챗봇(포트 8800)을 켜면 여기에서 바로 대화할 수 있어요.</div>
+        <div className="text-xs text-slate-300 bg-[#171a21] border border-[#2a2f3a] rounded-lg p-4 inline-block text-left font-mono leading-relaxed">
+          cd C:\Users\Admin\FILMN9\chatbot<br/>
+          conda activate FILMN9_chatbot_env<br/>
+          python -m uvicorn embedding.chatbot.api:app --port 8800
+        </div>
+        <div className="text-[11px] text-slate-500 mt-4">※ 서버를 켠 뒤 이 탭을 다시 누르면 챗봇 화면이 나타납니다.</div>
+      </div>
+    );
+  }
+  return (
+    <iframe
+      src={CHAT_API}
+      title="DART 사업보고서 RAG 챗봇"
+      className="w-full block border-0"
+      style={{ height: H, background: '#0f1115' }}
+    />
+  );
+}
+
 export default function StockPage() {
   const { code } = useParams<{ code: string }>();
   const router = useRouter();
@@ -1105,7 +1203,7 @@ export default function StockPage() {
 
           {/* 로고 */}
           <Link href="/" className="text-xl font-extrabold text-indigo-600 hover:text-indigo-700 transition-colors flex-shrink-0">
-            FILMN9
+            FINSIGHT
           </Link>
 
           {/* 미니 검색 */}
@@ -1189,7 +1287,7 @@ export default function StockPage() {
       <div className="sticky top-14 z-40 bg-white dark:bg-slate-800 border-b border-slate-200 dark:border-slate-700 shadow-sm">
         <div className="max-w-7xl mx-auto px-4 flex h-11">
           {(['overview','valuation','ai'] as MainTab[]).map(t => {
-            const label = {overview:'기업개요', valuation:'밸류에이션', ai:'AI분석'}[t];
+            const label = {overview:'기업개요', valuation:'밸류에이션', ai:'AI 챗봇'}[t];
             return (
               <button key={t} onClick={() => setMainTab(t)}
                 className={`px-5 text-sm h-full border-b-2 transition-colors whitespace-nowrap ${mainTab===t
@@ -1424,6 +1522,9 @@ export default function StockPage() {
                 </div>
               );
             })()}
+
+            {/* 계열회사 구조 — 접이식 토글 (히스토리·최신뉴스 다음, 주가차트 앞) */}
+            <AffiliateToggle code={code} />
 
             {/* 주가 차트 - full width */}
             <div className="bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-xl overflow-hidden">
@@ -1917,21 +2018,21 @@ export default function StockPage() {
         </div>
       )}
 
-      {/* ═══ TAB2: 밸류에이션 ═══ */}
-      {/* 밸류에이션 실데이터 없음 → 가짜 숫자(Mock) 대신 정직하게 안내 (NO-MOCK) */}
-      {!loadingMain && mainTab === 'valuation' && (!valData || valData.is_mock) && (
-        <div className="max-w-2xl mx-auto px-4 py-20 text-center">
-          <div className="text-5xl mb-4">🧮</div>
-          <h2 className="text-xl font-bold text-slate-700 dark:text-slate-200 mb-2">밸류에이션 데이터 준비 중</h2>
-          <p className="text-sm text-slate-500 dark:text-slate-400 leading-relaxed">
-            이 종목은 아직 밸류에이션 <b>실데이터가 산출되지 않았습니다.</b><br/>
-            정확한 적정주가는 데이터 취합 후 제공됩니다. (임의 추정치는 표시하지 않습니다)
-          </p>
-          <p className="mt-3 text-xs text-slate-400">현재 실데이터 보유: 데모 종목(아모레퍼시픽·삼성전기·NAVER) 등 취합 완료분</p>
+      {/* ═══ TAB2: 밸류에이션 — DCF 엔진 v8 대시보드(index.html) 임베드 ═══ */}
+      {/* 합본 평가 JSON(/api/valuation-full)을 받아 엔진 원본 대시보드를 그대로 렌더. 산업 대표 20종 지원, 그 외 자동 "준비중" 안내. */}
+      {mainTab === 'valuation' && (
+        <div className="w-full">
+          <iframe
+            src={`/valuation-dashboard.html?code=${code}&api=${encodeURIComponent(API)}`}
+            title="밸류에이션 대시보드"
+            className="w-full block"
+            style={{ height: 'calc(100vh - 110px)', minHeight: '880px', border: 'none', background: '#f8fafc' }}
+          />
         </div>
       )}
 
-      {!loadingMain && mainTab === 'valuation' && valData && !valData.is_mock && (
+      {/* (구) 6분리 파일 기반 밸류 렌더 — 대시보드로 대체됨(비활성). 추후 정리 예정. */}
+      {false && !loadingMain && mainTab === 'valuation' && valData && !valData.is_mock && (
         <div className="max-w-7xl mx-auto px-4 py-6 space-y-5">
 
           {/* Hero */}
@@ -2306,80 +2407,18 @@ export default function StockPage() {
         </div>
       )}
 
-      {/* ═══ TAB3: AI 종합분석 ═══ */}
+      {/* ═══ TAB3: AI 챗봇 (탭 아래 전체 검은 배경 · 챗봇 화면 풀블리드) ═══ */}
       {!loadingMain && mainTab === 'ai' && (
-        <div className="max-w-7xl mx-auto px-4 py-6">
-          <div className="space-y-5">
-            {/* SWOT */}
-            <div className="bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-xl p-5">
-              <div className="text-sm font-bold text-slate-700 dark:text-slate-200">🤖 AI 종합 분석</div>
-              <div className="text-xs text-slate-400 mb-4">{corpName} 종합 진단 (gpt-4o-mini)</div>
-              <div className="grid grid-cols-2 gap-3">
-                {[
-                  {bg:'bg-green-50 dark:bg-green-900/20',tc:'text-green-700 dark:text-green-400',icon:'💪',title:'Strengths',
-                    items:['글로벌 뷰티 브랜드 포트폴리오','아시아 시장 브랜드 인지도','R&D 기반 신제품 경쟁력']},
-                  {bg:'bg-yellow-50 dark:bg-yellow-900/20',tc:'text-yellow-700 dark:text-yellow-400',icon:'⚠️',title:'Weaknesses',
-                    items:['중국 매출 의존도 과다','영업이익률 하락 추세','온라인 채널 대응 지연']},
-                  {bg:'bg-indigo-50 dark:bg-indigo-900/20',tc:'text-indigo-700 dark:text-indigo-400',icon:'🚀',title:'Opportunities',
-                    items:['인도·동남아 신흥시장','K-뷰티 글로벌 트렌드','면세점·해외직구 성장']},
-                  {bg:'bg-red-50 dark:bg-red-900/20',tc:'text-red-700 dark:text-red-400',icon:'🔻',title:'Threats',
-                    items:['중국 소비 경기 침체','글로벌 브랜드 경쟁 심화','원자재 비용 상승']},
-                ].map(q=>(
-                  <div key={q.title} className={`rounded-xl p-3 ${q.bg}`}>
-                    <div className={`text-xs font-bold mb-2 ${q.tc}`}>{q.icon} {q.title}</div>
-                    <ul className={`text-xs space-y-1 list-disc list-inside ${q.tc}`}>
-                      {q.items.map(item=><li key={item}>{item}</li>)}
-                    </ul>
-                  </div>
-                ))}
-              </div>
-              <div className="mt-3 flex justify-between items-center">
-                <span className="text-xs text-slate-400">📅 2026-05-22 생성 · Mock 데이터</span>
-                <button className="text-xs px-3 py-1 rounded-full border border-slate-200 dark:border-slate-600 text-slate-500 hover:bg-slate-50 dark:hover:bg-slate-700">
-                  🔄 새로고침
-                </button>
-              </div>
-            </div>
-
-            {/* RAG 챗봇 */}
-            <div className="bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-xl p-5 flex flex-col" style={{height:560}}>
-              <div className="text-sm font-bold text-slate-700 dark:text-slate-200">💬 사업보고서에게 물어보세요</div>
-              <div className="text-xs text-slate-400 mb-3">{corpName} 2024 사업보고서 기반 RAG 검색</div>
-              <div className="flex flex-wrap gap-1.5 mb-3">
-                {suggestedQuestions.map(q=>(
-                  <button key={q} onClick={()=>sendChat(q)}
-                    className="text-xs px-3 py-1 rounded-full border border-slate-200 dark:border-slate-600 text-slate-600 dark:text-slate-400 hover:bg-indigo-50 dark:hover:bg-indigo-900/30 hover:border-indigo-300 hover:text-indigo-700 transition-colors">
-                    {q}
-                  </button>
-                ))}
-              </div>
-              <div className="flex-1 overflow-y-auto space-y-3 mb-3 pr-1">
-                {chatMessages.map((m,i)=>(
-                  <div key={i} className={`flex gap-2 ${m.isUser?'justify-end':''}`}>
-                    {!m.isUser && <span className="text-lg flex-shrink-0">📚</span>}
-                    <div className={`text-xs rounded-xl px-3 py-2 max-w-2xl whitespace-pre-line leading-relaxed ${m.isUser
-                      ? 'text-white bg-indigo-600'
-                      : 'bg-white dark:bg-slate-700 border border-slate-200 dark:border-slate-600 text-slate-700 dark:text-slate-300'}`}>
-                      {m.text}
-                      {!m.isUser && i > 0 && <div className="text-[10px] text-slate-400 mt-2 pt-2 border-t border-slate-100 dark:border-slate-600">🔎 DART 사업보고서 실시간 검색(RAG) · gpt-5-mini</div>}
-                    </div>
-                  </div>
-                ))}
-                <div ref={chatEndRef}/>
-              </div>
-              <div className="flex gap-2 mt-auto">
-                <input value={chatInput} onChange={e=>setChatInput(e.target.value)}
-                  onKeyDown={e=>{if(e.key==='Enter') sendChat();}}
-                  placeholder="예: 이 회사의 주요 사업 부문은?"
-                  className="flex-1 text-xs border border-slate-200 dark:border-slate-600 dark:bg-slate-700 dark:text-white rounded-xl px-3 py-2 outline-none focus:border-indigo-400 transition-colors"/>
-                <button onClick={()=>sendChat()}
-                  className="px-4 py-2 rounded-xl text-white text-xs font-semibold bg-indigo-600 hover:bg-indigo-700 transition-colors">
-                  전송
-                </button>
-              </div>
-            </div>
-          </div>
+        <div className="bg-[#0f1115]">
+          <AIChatbotTab />
         </div>
+      )}
+
+      {/* 페이지 하단 회사 크레딧 (AI 챗봇 탭은 풀스크린이라 숨김) */}
+      {mainTab !== 'ai' && (
+        <footer className="text-center py-4 border-t border-slate-200 dark:border-white/5 mt-2">
+          <div className="text-sm font-bold text-slate-900 dark:text-slate-100 tracking-[0.18em]">FILMN9&nbsp;Inc.</div>
+        </footer>
       )}
     </div>
   );

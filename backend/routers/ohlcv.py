@@ -18,14 +18,9 @@ _DB_PATH = _ROOT / "data" / "filmn9.db"
 
 
 def _conn():
-    if not _DB_PATH.exists():
-        raise HTTPException(
-            status_code=500,
-            detail="filmn9.db 없음. db/init_db.py 실행 필요"
-        )
-    c = sqlite3.connect(_DB_PATH)
-    c.row_factory = sqlite3.Row
-    return c
+    """DB 연결 (DB_BACKEND 로 SQLite/Postgres 자동 전환)."""
+    from backend.db import connect
+    return connect()
 
 
 @router.get("/ohlcv/{stock_code}")

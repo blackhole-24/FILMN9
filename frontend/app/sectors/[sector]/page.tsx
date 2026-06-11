@@ -43,14 +43,24 @@ export default function SectorStocksPage() {
 
   return (
     <main className="min-h-screen bg-gradient-to-br from-slate-950 via-indigo-950 to-slate-900">
-      <header className="flex items-center justify-between px-6 py-4">
-        <button onClick={() => router.push('/sectors')} className="flex items-center gap-2 text-white hover:opacity-80 transition text-sm">
-          <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7"/>
-          </svg>
-          산업 분류로
+      {/* 좌측 빈 공간 전체 클릭 = 뒤로 가기 (큰 화살표) — 종목 리스트는 앞으로가기 없음 */}
+      <button onClick={() => router.back()} aria-label="뒤로 가기"
+        className="hidden lg:flex fixed left-0 top-16 bottom-0 w-[calc((100vw-48rem)/2)] items-center justify-center group z-20 hover:bg-white/[0.04] transition-colors cursor-pointer">
+        <span className="flex flex-col items-center gap-1 text-slate-600 group-hover:text-indigo-300 transition-colors">
+          <span className="text-8xl leading-none font-light">‹</span>
+          <span className="text-base font-semibold opacity-60 group-hover:opacity-100 transition-opacity">뒤로</span>
+        </span>
+      </button>
+
+      {/* 상단 바 — FILMN9 중앙(홈 버튼) */}
+      <header className="relative flex items-center justify-center px-6 py-4 z-30">
+        <button onClick={() => router.push('/')} aria-label="홈으로"
+          className="flex items-center gap-2 text-white hover:opacity-80 transition">
+          <span className="text-2xl font-extrabold tracking-tight">FINSIGHT</span>
+          <span className="text-xs px-2 py-0.5 rounded-full bg-indigo-500/30 text-indigo-300 font-medium border border-indigo-500/40">PoC</span>
         </button>
-        <span className="text-xs text-slate-400 hidden sm:block">WICS 업종</span>
+        <button onClick={() => router.push('/sectors')}
+          className="absolute right-6 text-xs text-slate-400 hover:text-white transition hidden sm:block">산업 분류 ↑</button>
       </header>
 
       <div className="max-w-3xl mx-auto px-4 pb-16">
@@ -97,8 +107,9 @@ export default function SectorStocksPage() {
         )}
       </div>
 
-      <footer className="text-center py-4 text-xs text-slate-600 border-t border-white/5">
-        FILMN9 PoC · 산업 분류(WICS)
+      <footer className="text-center py-5 border-t border-white/5">
+        <div className="text-xs text-slate-600">FINSIGHT · 산업 분류(WICS)</div>
+        <div className="text-sm font-bold text-slate-100 tracking-[0.18em] mt-2">FILMN9&nbsp;Inc.</div>
       </footer>
     </main>
   );

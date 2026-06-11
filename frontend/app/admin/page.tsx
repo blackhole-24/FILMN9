@@ -2,10 +2,11 @@
 
 import { useState, useEffect, useCallback } from 'react';
 import Link from 'next/link';
+import { ValAdminTab, ValTestTab } from './valuation-console';
 
 const API = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000';
 
-type MainTab = 'monitor' | 'verify';
+type MainTab = 'monitor' | 'val-admin' | 'verify' | 'val-test';
 
 const fetchJSON = (path: string, opt?: RequestInit) =>
   fetch(`${API}${path}`, opt).then((r) => r.json());
@@ -14,7 +15,8 @@ const fetchJSON = (path: string, opt?: RequestInit) =>
 function Info({ text, w = 'w-80' }: { text: string; w?: string }) {
   return (
     <span className="relative inline-flex group align-middle">
-      <span className="ml-1 w-[15px] h-[15px] inline-flex items-center justify-center rounded-full bg-slate-300 text-white text-[10px] font-bold cursor-help leading-none select-none">i</span>
+      {/* title 속성 = OS 기본 툴팁(커스텀이 안 떠도 무조건 글이 보이도록 이중 보장) */}
+      <span title={text} className="ml-1 w-[15px] h-[15px] inline-flex items-center justify-center rounded-full bg-slate-300 text-white text-[10px] font-bold cursor-help leading-none select-none">i</span>
       <span className={`pointer-events-none absolute left-1/2 -translate-x-1/2 top-full mt-1.5 z-50 hidden group-hover:block ${w} max-w-[85vw] bg-slate-900 text-white text-[11px] leading-relaxed rounded-lg px-3 py-2 shadow-xl whitespace-pre-line text-left font-normal`}>
         {text}
       </span>
@@ -447,15 +449,20 @@ export default function AdminPage() {
           <Link href="/" className="text-xl font-extrabold text-indigo-600">FINSIGHT</Link>
           <span className="text-slate-300">|</span>
           <span className="text-sm font-bold text-slate-700 flex items-center">관리자<Info w="w-80" text="FINSIGHT 내부 운영 도구. 모든 값은 실시간으로 실제 DB·파일·포트를 조회한 실측값(NO-MOCK). 각 항목의 ⓘ에 계산식·출처가 있습니다." /></span>
-          <span className="ml-auto text-[11px] text-slate-400">운영 모니터링 · 신뢰도 검증</span>
+          <span className="ml-auto text-[11px] text-slate-400">기업개요(운영·검증) + 밸류·챗봇(관리자·QA) 통합 콘솔</span>
         </div>
-        <div className="max-w-6xl mx-auto px-4 flex gap-1 h-11 items-stretch">
-          <button onClick={() => setTab('monitor')} className={`px-5 text-sm border-b-2 ${tab === 'monitor' ? 'border-indigo-600 text-indigo-600 font-bold' : 'border-transparent text-slate-500'}`}>🖥️ 운영 모니터링</button>
-          <button onClick={() => setTab('verify')} className={`px-5 text-sm border-b-2 ${tab === 'verify' ? 'border-indigo-600 text-indigo-600 font-bold' : 'border-transparent text-slate-500'}`}>✅ 신뢰도 검증</button>
+        <div className="max-w-6xl mx-auto px-4 flex gap-1 h-11 items-stretch overflow-x-auto">
+          <button onClick={() => setTab('monitor')} className={`px-4 text-sm whitespace-nowrap border-b-2 ${tab === 'monitor' ? 'border-indigo-600 text-indigo-600 font-bold' : 'border-transparent text-slate-500'}`}>🖥️ 기업개요 · 운영</button>
+          <button onClick={() => setTab('val-admin')} className={`px-4 text-sm whitespace-nowrap border-b-2 ${tab === 'val-admin' ? 'border-amber-500 text-amber-600 font-bold' : 'border-transparent text-slate-500'}`}>💰 밸류·챗봇 · 관리자</button>
+          <button onClick={() => setTab('verify')} className={`px-4 text-sm whitespace-nowrap border-b-2 ${tab === 'verify' ? 'border-indigo-600 text-indigo-600 font-bold' : 'border-transparent text-slate-500'}`}>✅ 기업개요 · 검증</button>
+          <button onClick={() => setTab('val-test')} className={`px-4 text-sm whitespace-nowrap border-b-2 ${tab === 'val-test' ? 'border-amber-500 text-amber-600 font-bold' : 'border-transparent text-slate-500'}`}>🧪 밸류·챗봇 · 테스트</button>
         </div>
       </header>
       <main className="max-w-6xl mx-auto px-4 py-5">
-        {tab === 'monitor' ? <MonitorTab /> : <VerifyTab />}
+        {tab === 'monitor' && <MonitorTab />}
+        {tab === 'val-admin' && <ValAdminTab />}
+        {tab === 'verify' && <VerifyTab />}
+        {tab === 'val-test' && <ValTestTab />}
       </main>
       <footer className="text-center py-6 text-[11px] text-slate-400">FINSIGHT 관리자 · NO-MOCK 운영 도구 · <span className="tracking-widest">FILMN9 Inc.</span></footer>
     </div>

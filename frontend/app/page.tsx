@@ -23,12 +23,39 @@ const DEMO_STOCKS = [
   { code: '035420', name: 'NAVER',        market: 'KOSPI', tag: '인터넷' },
 ];
 
-// 슬라이드 캐러셀 첫 화면(고정 3종목) — 이후 랜덤 풀이 이어 붙음
-const FIXED3 = [
-  { stock_code: '090430', corp_name: '아모레퍼시픽', tag: '화장품' },
-  { stock_code: '009150', corp_name: '삼성전기',     tag: '전자부품' },
-  { stock_code: '035420', corp_name: 'NAVER',        tag: '인터넷' },
+// 슬라이드 캐러셀 시작 종목 — 밸류에이션 데이터 보유 20종(산업 대표주).
+// 진입 시 이 20개를 랜덤 순서로 먼저 보여주고, 다 지나가면 3,000개 랜덤 풀로 이어짐.
+const VAL20 = [
+  { stock_code: '000250', corp_name: '삼천당제약',       tag: '의약품' },
+  { stock_code: '000660', corp_name: 'SK하이닉스',       tag: '반도체' },
+  { stock_code: '000720', corp_name: '현대건설',         tag: '건설' },
+  { stock_code: '003230', corp_name: '삼양식품',         tag: '식품' },
+  { stock_code: '003490', corp_name: '대한항공',         tag: '항공' },
+  { stock_code: '004020', corp_name: '현대제철',         tag: '철강' },
+  { stock_code: '004170', corp_name: '신세계',           tag: '유통' },
+  { stock_code: '009150', corp_name: '삼성전기',         tag: '전자부품' },
+  { stock_code: '010130', corp_name: '고려아연',         tag: '비철금속' },
+  { stock_code: '012330', corp_name: '현대모비스',       tag: '자동차부품' },
+  { stock_code: '017670', corp_name: 'SK텔레콤',         tag: '통신' },
+  { stock_code: '034020', corp_name: '두산에너빌리티',   tag: '기계' },
+  { stock_code: '035420', corp_name: 'NAVER',            tag: '인터넷' },
+  { stock_code: '042700', corp_name: '한미반도체',       tag: '반도체장비' },
+  { stock_code: '051910', corp_name: 'LG화학',           tag: '화학' },
+  { stock_code: '207940', corp_name: '삼성바이오로직스', tag: '바이오' },
+  { stock_code: '278470', corp_name: '에이피알',         tag: '화장품' },
+  { stock_code: '307950', corp_name: '현대오토에버',     tag: 'SW' },
+  { stock_code: '373220', corp_name: 'LG에너지솔루션',   tag: '이차전지' },
+  { stock_code: '402340', corp_name: 'SK스퀘어',         tag: '지주' },
 ];
+// Fisher-Yates 셔플 (원본 불변)
+function shuffle<T>(arr: T[]): T[] {
+  const a = [...arr];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
 const SLIDE_STEP = 204;   // 카드폭 192 + gap 12 (px)
 
 
@@ -49,15 +76,18 @@ export default function HomePage() {
   }, []);
 
   // 추천 종목 슬라이드 캐러셀 (3개 노출 · 4초마다 한 칸씩 왼쪽으로)
-  const [rotation, setRotation] = useState<any[]>(FIXED3);
+  // 시작: 밸류 20종 랜덤순서 → 다 지나가면 3,000개 랜덤 풀
+  const [rotation, setRotation] = useState<any[]>(VAL20);  // 초기 SSR은 정적(셔플 X, 하이드레이션 안전)
   const [slidePos, setSlidePos] = useState(0);
   const [sliding,  setSliding]  = useState(false);
   const slidePausedRef = useRef(false);
-  useEffect(() => {   // 고정 3개 + 랜덤 60개 풀 로드
-    fetch(`${API}/api/featured?n=60`).then(r=>r.json()).then(d=>{
-      const pool = (d.stocks || []);
-      if (pool.length) setRotation([...FIXED3, ...pool]);
-    }).catch(()=>{});
+  useEffect(() => {   // 클라이언트에서 20종 셔플 + 3000개 랜덤 풀(120) 이어붙임
+    const head = shuffle(VAL20);   // 20개 랜덤 순서
+    fetch(`${API}/api/featured?n=120`).then(r=>r.json()).then(d=>{
+      const codes20 = new Set(VAL20.map(v => v.stock_code));
+      const pool = (d.stocks || []).filter((s: any) => !codes20.has(s.stock_code)); // 20종 중복 제거
+      setRotation([...head, ...pool]);   // 20종 먼저 → 그다음 3000 랜덤
+    }).catch(() => setRotation(head));    // 풀 실패 시 20종만이라도 셔플 노출
   }, []);
   useEffect(() => {   // 4초마다 한 칸 슬라이드 트리거
     if (rotation.length < 4) return;
@@ -137,7 +167,7 @@ export default function HomePage() {
       {/* 상단 바 */}
       <header className="flex items-center justify-between px-6 py-4">
         <div className="flex items-center gap-2">
-          <span className="text-2xl font-extrabold text-white tracking-tight">FILMN9</span>
+          <span className="text-2xl font-extrabold text-white tracking-tight">FINSIGHT</span>
           <span className="text-xs px-2 py-0.5 rounded-full bg-indigo-500/30 text-indigo-300 font-medium border border-indigo-500/40">PoC</span>
         </div>
         <div className="flex items-center gap-3">
@@ -237,16 +267,44 @@ export default function HomePage() {
             })}
           </div>
         </div>
-        <div className="text-[11px] text-slate-500 mb-6">🔀 3,000개 기업 중 랜덤 추천 · 4초마다 자동 전환 · 마우스 올리면 멈춤 · 클릭하면 상세분석</div>
+        <div className="mb-7"></div>
 
-        {/* 산업 분류 입구 */}
-        <button onClick={() => router.push('/sectors')}
-          className="group inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/5 hover:bg-white/15 border border-white/15 hover:border-indigo-400/60 text-slate-300 hover:text-white text-sm transition-all">
-          🏭 산업(업종)별로 탐색하기
-          <svg className="w-4 h-4 text-slate-500 group-hover:text-indigo-300 transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7"/>
-          </svg>
-        </button>
+        {/* 산업 분류 입구 (가운데 정렬, 크게) — 밸류에이션 요약 버튼은 일단 숨김 */}
+        <div className="flex items-center justify-center">
+          <button onClick={() => router.push('/sectors')}
+            className="group inline-flex items-center gap-2.5 px-8 py-4 rounded-full bg-white/10 hover:bg-white/20 border border-white/20 hover:border-indigo-400/70 text-slate-100 hover:text-white text-lg font-bold transition-all hover:scale-105 shadow-lg shadow-indigo-900/20">
+            🏭 산업(업종)별 탐색
+            <svg className="w-6 h-6 text-slate-300 group-hover:text-indigo-300 transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M9 5l7 7-7 7"/>
+            </svg>
+          </button>
+          {/* 밸류에이션 요약 버튼 — 일단 숨김 (복원하려면 아래 주석 해제)
+          <button onClick={() => router.push('/valuation')}
+            className="group inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/5 hover:bg-white/15 border border-white/15 hover:border-indigo-400/60 text-slate-300 hover:text-white text-sm transition-all">
+            💰 밸류에이션 요약 (산업 대표주)
+            <svg className="w-4 h-4 text-slate-500 group-hover:text-indigo-300 transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7"/>
+            </svg>
+          </button>
+          */}
+        </div>
+
+        {/* 모닝 위젯 로딩 스켈레톤 — 데이터 도착 전 자리 유지 (콜드 시 자연스럽게) */}
+        {!morning?.overall && (
+          <div className="hidden lg:block fixed left-[9%] top-1/2 -translate-y-1/2 w-80 z-30 bg-white/5 border border-white/10 rounded-2xl p-5 backdrop-blur text-left">
+            <div className="text-lg font-bold text-white">📡 글로벌 마켓 시그널</div>
+            <div className="text-[11px] text-slate-500 mb-3 flex items-center gap-1.5">
+              <span className="inline-block w-3 h-3 border-2 border-slate-500 border-t-transparent rounded-full animate-spin"></span>
+              실시간 시황 불러오는 중…
+            </div>
+            <div className="h-16 rounded-xl bg-white/10 animate-pulse mb-4"></div>
+            <div className="space-y-2">
+              {[0,1,2,3,4,5].map(i => (
+                <div key={i} className="h-9 rounded-lg bg-white/10 animate-pulse"></div>
+              ))}
+            </div>
+          </div>
+        )}
 
         {/* 🌅 모닝루틴 위젯 — 좌측 빈공간 가운데 세로 패널 (fixed 라 중앙 검색란 영향 없음) */}
         {morning?.overall && (
@@ -311,8 +369,9 @@ export default function HomePage() {
 
       </div>
 
-      <footer className="text-center py-4 text-xs text-slate-600 border-t border-white/5">
-        FILMN9 PoC &nbsp;·&nbsp; KPMG AI Lab &nbsp;·&nbsp; 2026-05-26 데모
+      <footer className="text-center py-5 border-t border-white/5">
+        <div className="text-xs text-slate-600">FINSIGHT &nbsp;·&nbsp; KPMG AI Lab &nbsp;·&nbsp; 2026-05-26 데모</div>
+        <div className="text-sm font-bold text-slate-100 tracking-[0.18em] mt-2">FILMN9&nbsp;Inc.</div>
       </footer>
     </main>
   );

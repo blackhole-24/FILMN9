@@ -1,0 +1,147 @@
+================================================================================
+ [V2·간결판] FINSIGHT 데이터베이스 ERD — Claude Design 작성 프롬프트
+ (개정 2026-06-10 · 서비스명 FINSIGHT, 운영사 FILMN9 Inc.)
+ ※ 실제 운영 DB(filmn9.db, 16개 테이블) 스키마 그대로 — NO-MOCK(가짜 테이블 금지).
+   이번 버전 목표 = company_info 중심 허브 구조 + 두 파트(기업개요/밸류) 그룹핑이
+   한눈에 보이고, 관계선(까마귀발)이 명확한 1장.
+================================================================================
+
+[이 프롬프트 사용법]
+Claude Design 채팅에 아래 "■ 프롬프트 본문"을 그대로 붙여넣으세요.
+스키마 전체가 본문에 들어 있어 별도 DB 첨부 없이도 정확히 그릴 수 있습니다.
+
+
+================================================================================
+■ 프롬프트 본문 (이 아래부터 Claude Design 에 붙여넣기)
+================================================================================
+
+당신은 오라클·구글 출신 40년차 데이터 모델러(DBA)이자 데이터베이스를 가르치는
+컴퓨터공학과 교수입니다. 아래 실제 운영 스키마로 **ERD(개체-관계도)** 를
+데이터베이스 교과서 수준의 정석으로 1장 그려주세요.
+(excalidraw / 손그림 톤, IE(까마귀발·Crow's Foot) 표기법)
+
+★★ 이번 그림의 1순위 목표 ★★
+"6자리 종목코드(stock_code) 하나로, 가운데 마스터 테이블 company_info 에서
+모든 자식 테이블이 어떻게 뻗어나가 연결되는가" 라는 **허브-스포크 관계
+구조**를, 그 누구도 한눈에 이해할 수 있게 **명확한 관계선 + 카디널리티
+기호**로 표현하는 것입니다. → 관계선(화살표/까마귀발)이 주인공입니다.
+
+[정석 ERD 필수 규칙]
+1. 까마귀발(Crow's Foot)로 모든 관계선에 카디널리티(1:1, 1:N, N:M)와
+   선택성(필수=‖, 선택=○) 표시.
+2. 각 엔티티 박스 3단 구성: [테이블명] / [PK(밑줄·열쇠)] / [주요 속성].
+   FK는 (FK) 표기, 복합 PK는 묶어서.
+3. 중심 허브 company_info(stock_code=전사 공통키)를 **정중앙**에 크게,
+   자식 테이블이 방사형으로 연결.
+4. 식별관계(자식 PK가 부모 PK 포함)=실선 / 비식별=점선.
+5. 한 줄 주석: "종목코드 중심의 3정규형 지향".
+
+★ 이번 버전 핵심: 자식 테이블을 **두 파트 색 그룹**으로 묶어 배치
+   - [기업개요 파트] 색 묶음(예: 하늘색) : 재무·주가·주주·경영인·공시·분류 계열
+   - [밸류에이션 파트] 색 묶음(예: 보라색) : 밸류 요약·상세·피어 계열
+   → 어느 테이블이 어느 서비스 파트에 쓰이는지 한눈에.
+
+[공통 키] 거의 모든 테이블의 1차 식별자 = 6자리 종목코드 stock_code.
+company_info.stock_code 가 마스터(부모), 나머지는 이를 참조(FK).
+
+────────────────────────────────────────────────────────────
+■ 마스터 / 허브 (정중앙)
+────────────────────────────────────────────────────────────
+1) company_info  (기업 기본정보) ★중심 허브★
+   PK: stock_code
+   속성: corp_name, legal_name, market, sector, listing_date, ceo,
+        employees, homepage, address, phone, fiscal_month, source
+
+──────────────── [기업개요 파트] 색 그룹 (하늘색) ────────────────
+[company_info 와 1:1 (자식은 선택적 0..1)]
+2) ticker_suffix     PK: stock_code | suffix, market
+3) stock_status      PK: stock_code | status, label, reason, ref_date
+4) company_customers PK: stock_code | customer_type, customers, channels
+
+[company_info 1 : N(다) 자식]
+5) financials        PK: stock_code, fiscal_year
+   | revenue, op_income, net_income, assets, liabilities, equity,
+     debt_ratio, cashflow_op/inv/fin, unit         ← 재무 요약
+6) financial_detail  PK: stock_code, fiscal_year, statement_type,
+   account_id, statement_scope | account_nm, amount, unit, display_order
+                                                     ← 재무 상세(계정단위)
+7) ohlcv             PK: stock_code, date | open, high, low, close, volume
+                                                     ← 주가 일봉
+8) shareholders      PK: stock_code, fiscal_year, rank | name, relation,
+   shares, ratio                                     ← 주주구성
+9) executives        PK: stock_code, fiscal_year, rank | name, position,
+   role, birth_year, career, shares                  ← 경영인
+10) disclosures      PK: stock_code, rcept_no | report_nm, flr_nm,
+    rcept_dt, rm, url                                 ← 전자공시(DART)
+11) dart_halt_events PK: stock_code, rcept_no | rcept_dt, state, report_nm
+                                                     ← 거래정지 이벤트
+12) credit_ratings   PK: stock_code, rating_year, agency | rating,
+    rating_score, outlook, rating_date  (설계/적재예정 뱃지)
+
+[룩업 / 코드성]
+13) wics_keywords    PK: wics_name, keyword | keyword_norm
+    ※ company_info.sector(WICS 업종명) 과 N:1 (검색 유사어 사전,
+      stock_code 미보유 → 업종명으로 조인)
+
+──────────────── [밸류에이션 파트] 색 그룹 (보라색) ────────────────
+[company_info 와 1:1]
+14) valuation_summary PK: stock_code | corp_name, market, industry,
+    dcf_grade, dcf_confidence, peer_confidence_grade, fair_price,
+    current_price, upside_pct, wacc, as_of_date, model_version
+                                          ← 밸류 요약(산업대표 20종 적재)
+15) valuations        PK: stock_code | fair_price_avg/min/max, upside_pct,
+    analyst_count, dcf_value, wacc, perpetual_growth, roic, ...
+    (설계/적재예정 뱃지)
+
+[자기참조 N:M — 교차(연결) 엔티티]
+16) peer_competitors PK: stock_code, competitor_code
+    | rank, competitor_name, wics, basis, similarity
+    ※ stock_code → company_info, competitor_code → company_info
+      ("종목-경쟁사" 자기참조 N:M. 교차 엔티티로 표현)
+
+────────────────────────────────────────────────────────────
+■ 관계 요약 (이 카디널리티대로 선 연결)
+────────────────────────────────────────────────────────────
+- company_info (1) ── (0..1) : ticker_suffix · stock_status ·
+  company_customers · valuation_summary · valuations          [1:1]
+- company_info (1) ── (N)    : financials · financial_detail · ohlcv ·
+  shareholders · executives · disclosures · dart_halt_events ·
+  credit_ratings                                               [1:N]
+- company_info (1) ──(N) peer_competitors (N)──(1) company_info  [자기참조 N:M]
+- company_info.sector (N) ── (1) wics_keywords.wics_name        [업종명 룩업]
+
+────────────────────────────────────────────────────────────
+■ RDB 밖의 데이터 저장소 (점선 박스 + "외부 저장소" 별도 표기)
+────────────────────────────────────────────────────────────
+정석 ERD 본체(RDB 16종)와 시각적으로 구분하되, 같은 stock_code 로 연결됨을
+점선 관계선으로 표현:
+- MongoDB : histories(히스토리 브리핑 문서) — key: stock_code   [기업개요 파트]
+- ChromaDB: 사업보고서 임베딩(약 377만 청크) — meta: stock_code [챗봇]
+- 파일/Object: Sankey HTML · 밸류 JSON · 계열사 SVG — 파일명: stock_code
+※ 비정형/대용량이라 RDB 가 아닌 별도 스토어에 둠을 한 줄 주석으로.
+
+────────────────────────────────────────────────────────────
+■ 관리자 페이지 연계 (신규 반영 — 작은 주석으로)
+────────────────────────────────────────────────────────────
+- 관리자 페이지는 새 테이블을 만들지 않고 위 기존 테이블들을 "읽기"만 함:
+  · 운영 모니터링 = company_info·financials·ohlcv·valuation_summary 등 COUNT/
+    최신일자 집계
+  · 검증(NO-MOCK) = financials(요약) ↔ financial_detail(XBRL 원문) 단위보정
+    대조, disclosures 로 DART 원문 대조.
+- ERD 우측에 "관리자 페이지 = 읽기 전용 집계/검증(쓰기 없음)" 점선 주석 1개.
+
+────────────────────────────────────────────────────────────
+■ 디자인 요구
+────────────────────────────────────────────────────────────
+- ★반드시 한국어로 그려주세요(테이블명·영문 컬럼명은 그대로 두되 설명은 한글).
+- 손그림(excalidraw) 톤. 중앙 company_info 는 크고 진하게.
+- 두 파트 색 그룹: 기업개요=하늘색 묶음, 밸류에이션=보라색 묶음 (배경 음영).
+- 관계 유형별 색: 1:1=초록, 1:N=파랑, N:M=주황 + 좌하단 [범례] 박스
+  (까마귀발 기호 의미 + 색 의미 + 식별/비식별 점선 설명).
+- 속성은 핵심만, 많으면 "… 외 N개"로 축약. 과밀 금지, 글자 크게.
+- 빈 테이블(credit_ratings·valuations)은 "(설계/적재예정)" 작은 뱃지.
+- 최종: DB를 모르는 사람도 "종목코드 하나로 다 엮여 있구나" 를 한눈에 이해.
+
+================================================================================
+■ 끝 — 위 본문을 Claude Design 에 붙여넣으세요. (스키마 포함, 별도 첨부 불필요)
+================================================================================

@@ -38,14 +38,18 @@ _BASE_UNIVERSE = 2580
 
 
 def _conn():
-    c = sqlite3.connect(_DB)
-    c.row_factory = sqlite3.Row
-    return c
+    from backend.db import connect
+    return connect()
 
 
 def _tables(cur):
-    return [r[0] for r in cur.execute(
-        "SELECT name FROM sqlite_master WHERE type='table' ORDER BY name")]
+    # SQLite=sqlite_master / PostgreSQL=pg_tables (DB_BACKEND 분기)
+    from backend.db import DB_BACKEND
+    if DB_BACKEND == "postgres":
+        sql = "SELECT tablename AS name FROM pg_tables WHERE schemaname='public' ORDER BY tablename"
+    else:
+        sql = "SELECT name FROM sqlite_master WHERE type='table' ORDER BY name"
+    return [r["name"] for r in cur.execute(sql)]
 
 
 def _port_up(host: str, port: int, timeout: float = 0.6):
@@ -659,4 +663,78 @@ def admin_verify_affiliate():
         "samples": sorted(found.keys()),
         "verdict": "샘플 무결성 정상" if not broken else f"손상 {len(broken)}건",
         "note": "현재 GitHub 샘플만 적재(전종목은 output/affiliate_visualization 드라이브 수령 후). 낮은 커버리지는 정상.",
+    }
+
+
+# ═════════════ [밸류·챗봇 관리자/QA 콘솔 메타] — 유태상 파트 통합 ═════════════
+# 출처: feat/admin-qa-console 브랜치 (커밋 8918cac) backend/routers/admin.py
+# 평가 기준일·모델버전·데이터 출처 일자·규모를 valuation.db / filmn9.db 에서 집계.
+import json as _vjson
+import os as _vos
+from datetime import datetime as _vdt
+
+_VAL_DB = Path(_vos.getenv("VALUATION_DB_PATH", str(_ROOT / "data" / "valuation.db")))
+
+
+def _vq1(db: Path, sql: str, params: tuple = ()):
+    """단일행 조회(없으면/에러면 None) — graceful."""
+    if not db.exists():
+        return None
+    try:
+        conn = sqlite3.connect(str(db), timeout=10.0)
+        conn.row_factory = sqlite3.Row
+        row = conn.execute(sql, params).fetchone()
+        conn.close()
+        return dict(row) if row else None
+    except sqlite3.Error:
+        return None
+
+
+def _vg(r, k, default=None):
+    return r.get(k) if r else default
+
+
+@router.get("/admin/meta")
+def admin_meta():
+    """평가에 사용된 데이터 기준일·규모·출처 일자 요약 (실데이터 · 유태상 파트)."""
+    # ── 밸류에이션 (valuation.db) ──
+    v: dict = {"db_exists": _VAL_DB.exists()}
+    cnt = _vq1(_VAL_DB, "SELECT COUNT(DISTINCT stock_code) AS n, COUNT(*) AS runs, "
+                        "COUNT(DISTINCT eval_date) AS dates, MAX(eval_date) AS latest "
+                        "FROM valuation_runs")
+    v["n_stocks"] = _vg(cnt, "n")
+    v["n_runs"] = _vg(cnt, "runs")
+    v["n_eval_dates"] = _vg(cnt, "dates")
+    v["latest_eval_date"] = _vg(cnt, "latest")
+    v["rf"] = _vq1(_VAL_DB, "SELECT rate_date, rf, source FROM rf_rates ORDER BY rate_date DESC LIMIT 1")
+    v["kofia_latest"] = _vg(_vq1(_VAL_DB, "SELECT MAX(yield_date) AS d FROM kofia_bond_yields"), "d")
+    v["market_snapshot_latest"] = _vg(_vq1(_VAL_DB, "SELECT MAX(snap_date) AS d FROM market_snapshot"), "d")
+    v["xbrl_years"] = [
+        _vg(_vq1(_VAL_DB, "SELECT MIN(fiscal_year) AS y FROM financials"), "y"),
+        _vg(_vq1(_VAL_DB, "SELECT MAX(fiscal_year) AS y FROM financials"), "y"),
+    ]
+    mv = _vq1(_VAL_DB, "SELECT doc FROM mongo_docs WHERE collection='valuation_results' "
+                       "ORDER BY updated_at DESC LIMIT 1")
+    try:
+        v["model_version"] = _vjson.loads(mv["doc"]).get("model_version") if mv else None
+    except Exception:
+        v["model_version"] = None
+
+    # ── 기업개요 (filmn9.db) ──
+    co: dict = {"db_exists": _DB.exists()}
+    co["company_info"] = _vg(_vq1(_DB, "SELECT COUNT(*) AS n FROM company_info"), "n")
+    co["ohlcv_latest"] = _vg(_vq1(_DB, "SELECT MAX(date) AS d FROM ohlcv"), "d")
+    co["ohlcv_rows"] = _vg(_vq1(_DB, "SELECT COUNT(*) AS n FROM ohlcv"), "n")
+    fy = _vq1(_DB, "SELECT MIN(fiscal_year) AS mn, MAX(fiscal_year) AS mx FROM financials")
+    co["fiscal_years"] = [_vg(fy, "mn"), _vg(fy, "mx")]
+    co["financial_detail_rows"] = _vg(_vq1(_DB, "SELECT COUNT(*) AS n FROM financial_detail"), "n")
+    co["financial_detail_stocks"] = _vg(
+        _vq1(_DB, "SELECT COUNT(DISTINCT stock_code) AS n FROM financial_detail"), "n")
+
+    return {
+        "generated_at": _vdt.now().strftime("%Y-%m-%d %H:%M:%S"),
+        "valuation": v,
+        "company": co,
+        "ports": {"frontend": 3000, "backend": 8090, "chatbot": 8800},
+        "policy": {"no_mock": True, "note": "실데이터 100% — 데이터 없으면 가짜 숫자 대신 '미평가/준비중' 표시"},
     }

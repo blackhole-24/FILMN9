@@ -84,11 +84,8 @@ def _get_mongo_collection():
 
 # ─── SQLite 연결 ──────────────────────────────────────────────────────────────
 def _conn():
-    if not _DB_PATH.exists():
-        raise HTTPException(status_code=500, detail="filmn9.db 없음. db/init_db.py 실행 필요")
-    c = sqlite3.connect(_DB_PATH)
-    c.row_factory = sqlite3.Row
-    return c
+    from backend.db import connect
+    return connect()
 
 
 # ─── 섹션별 헬퍼 ──────────────────────────────────────────────────────────────

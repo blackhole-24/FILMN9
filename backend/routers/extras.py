@@ -49,11 +49,8 @@ def _load_corp_code(stock_code: str) -> str | None:
 
 
 def _conn():
-    if not _DB.exists():
-        raise HTTPException(500, "filmn9.db 없음")
-    c = sqlite3.connect(_DB)
-    c.row_factory = sqlite3.Row
-    return c
+    from backend.db import connect
+    return connect()
 
 
 @router.get("/stock_status/{stock_code}")
@@ -120,11 +117,11 @@ def get_shareholders(stock_code: str):
     """주주 구성 (최신 회계연도 기준)."""
     with _conn() as conn:
         row = conn.execute(
-            "SELECT MAX(fiscal_year) FROM shareholders WHERE stock_code = ?",
+            "SELECT MAX(fiscal_year) AS latest FROM shareholders WHERE stock_code = ?",
             (stock_code,)).fetchone()
-        if not row or row[0] is None:
+        if not row or row["latest"] is None:
             raise HTTPException(404, f"{stock_code} 주주 데이터 없음")
-        latest_year = row[0]
+        latest_year = row["latest"]
 
         rows = conn.execute(
             "SELECT rank, name, relation, shares, ratio "
@@ -162,11 +159,11 @@ def get_executives(stock_code: str):
     """경영인 리스트 (최신 회계연도)."""
     with _conn() as conn:
         row = conn.execute(
-            "SELECT MAX(fiscal_year) FROM executives WHERE stock_code = ?",
+            "SELECT MAX(fiscal_year) AS latest FROM executives WHERE stock_code = ?",
             (stock_code,)).fetchone()
-        if not row or row[0] is None:
+        if not row or row["latest"] is None:
             raise HTTPException(404, f"{stock_code} 경영인 데이터 없음")
-        latest_year = row[0]
+        latest_year = row["latest"]
 
         rows = conn.execute(
             "SELECT rank, name, position, role, birth_year, career, "
@@ -540,14 +537,14 @@ def _detect_fd_unit(conn, stock_code: str) -> str:
         "SELECT amount FROM financial_detail "
         "WHERE stock_code=? AND statement_type='BS' AND account_nm LIKE '%자산총계%' AND amount>0 "
         "ORDER BY (statement_scope='연결') DESC, fiscal_year DESC LIMIT 1", (stock_code,)).fetchone()
-    if not fd or not fd[0]:
+    if not fd or not fd["amount"]:
         return "원"
-    fdv = float(fd[0])
+    fdv = float(fd["amount"])
     fa = conn.execute(
         "SELECT assets FROM financials WHERE stock_code=? AND assets IS NOT NULL "
         "ORDER BY fiscal_year DESC LIMIT 1", (stock_code,)).fetchone()
-    if fa and fa[0]:
-        true_won = float(fa[0]) * 1e6          # DART assets(백만) → 원
+    if fa and fa["assets"]:
+        true_won = float(fa["assets"]) * 1e6          # DART assets(백만) → 원
         ratio = true_won / fdv                 # financial_detail × ratio ≈ 원
         for mult, label in ((1, "원"), (1e3, "천원"), (1e6, "백만원")):
             if 0.3 <= ratio / mult <= 3:       # 연도차 ±3배 허용
@@ -837,7 +834,7 @@ def _ohlcv_last_close(stock_code: str):
             r = conn.execute(
                 "SELECT close FROM ohlcv WHERE stock_code=? ORDER BY date DESC LIMIT 1",
                 (stock_code,)).fetchone()
-        return float(r[0]) if r and r[0] else None
+        return float(r["close"]) if r and r["close"] else None
     except Exception:
         return None
 

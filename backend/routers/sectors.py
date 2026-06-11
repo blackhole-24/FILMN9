@@ -39,8 +39,9 @@ def _truthy(v) -> bool:
 def _valid_codes() -> set[str]:
     """company_info(데이터 보유) 종목코드 집합. 산업분류에 데이터 없는 코드(우선주 등) 제외용."""
     try:
-        con = sqlite3.connect(_DB)
-        codes = {r[0] for r in con.execute("SELECT stock_code FROM company_info")}
+        from backend.db import connect
+        con = connect()
+        codes = {r["stock_code"] for r in con.execute("SELECT stock_code FROM company_info")}
         con.close()
         return codes
     except Exception:
