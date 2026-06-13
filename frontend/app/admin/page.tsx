@@ -75,6 +75,8 @@ const COV_INFO: Record<string, string> = {
   '경영인 (executives)': 'COUNT(DISTINCT stock_code) FROM executives\n= 임원현황 보유 종목수. 출처: DART 임원현황.',
   '밸류 요약 (valuation_summary)': 'COUNT(*) FROM valuation_summary\n= 밸류 산출 완료 종목. 현재 산업 대표 20종만 → 0.8%. 출처: DCF 엔진 v8 → load_valuation_summary.py.',
   '손익흐름도 Sankey (파일)': 'outputs/sankey/*_sankey.html 파일 수(사전생성). 출처: build_sankey_v3.py(Plotly). 종목상세 손익흐름도에 그대로 서빙.',
+  '재무제표 연결 (financial_detail·BS)': "COUNT(DISTINCT stock_code) WHERE statement_type='BS' AND scope='연결'\n= 연결 재무상태표 보유 종목. 재무제표 표(BS/IS)·Sankey의 원천. 출처: DART 파싱 financial_detail.",
+  'Sankey 완전도 (영업이익 매칭)': "CIS(연결)에서 '영업이익' 포함매칭되는 종목수\n= 손익흐름도가 매출~영업이익까지 완전히 그려질 수 있는 종목. 계정명 정규화(로마숫자 접두사 제거) 후 기준.",
   '계열사 시각화 (샘플)': '계열회사시각화 폴더의 샘플 디렉터리/SVG 수. 현재 GitHub 샘플만(전종목 미수령). 출처: 기업개요_파트/계열회사시각화/.',
 };
 
@@ -152,6 +154,16 @@ function MonitorTab() {
           ))}
         </div>
         <div className="text-[11px] text-slate-400 mt-2">※ %가 100%여도 일부 종목은 결측 가능(분모=기준 2,580). 밸류·계열사가 낮은 건 사전계산/샘플만 적용됐기 때문(정상).</div>
+        {cov?.sankey_meta && (
+          <div className="mt-3 p-3 rounded-lg bg-indigo-50 border border-indigo-100 text-[11px] text-slate-600 space-y-0.5">
+            <div className="font-bold text-indigo-700 mb-1">📐 손익흐름도(Sankey) 데이터 흐름 · 원천</div>
+            <div>· <b>원천</b>: {cov.sankey_meta['원천']}</div>
+            <div>· <b>추출값(10계정)</b>: {cov.sankey_meta['추출값']}</div>
+            <div>· <b>생성방식</b>: {cov.sankey_meta['생성방식']}</div>
+            <div>· <b>저장위치</b>: {cov.sankey_meta['저장위치']}</div>
+            {cov['재무하이라이트_원천'] && <div className="mt-1 pt-1 border-t border-indigo-100">· <b>재무하이라이트 원천</b>: {cov['재무하이라이트_원천']}</div>}
+          </div>
+        )}
       </Card>
 
       <div className="grid md:grid-cols-2 gap-4">
@@ -453,8 +465,8 @@ export default function AdminPage() {
         </div>
         <div className="max-w-6xl mx-auto px-4 flex gap-1 h-11 items-stretch overflow-x-auto">
           <button onClick={() => setTab('monitor')} className={`px-4 text-sm whitespace-nowrap border-b-2 ${tab === 'monitor' ? 'border-indigo-600 text-indigo-600 font-bold' : 'border-transparent text-slate-500'}`}>🖥️ 기업개요 · 운영</button>
-          <button onClick={() => setTab('val-admin')} className={`px-4 text-sm whitespace-nowrap border-b-2 ${tab === 'val-admin' ? 'border-amber-500 text-amber-600 font-bold' : 'border-transparent text-slate-500'}`}>💰 밸류·챗봇 · 관리자</button>
           <button onClick={() => setTab('verify')} className={`px-4 text-sm whitespace-nowrap border-b-2 ${tab === 'verify' ? 'border-indigo-600 text-indigo-600 font-bold' : 'border-transparent text-slate-500'}`}>✅ 기업개요 · 검증</button>
+          <button onClick={() => setTab('val-admin')} className={`px-4 text-sm whitespace-nowrap border-b-2 ${tab === 'val-admin' ? 'border-amber-500 text-amber-600 font-bold' : 'border-transparent text-slate-500'}`}>💰 밸류·챗봇 · 관리자</button>
           <button onClick={() => setTab('val-test')} className={`px-4 text-sm whitespace-nowrap border-b-2 ${tab === 'val-test' ? 'border-amber-500 text-amber-600 font-bold' : 'border-transparent text-slate-500'}`}>🧪 밸류·챗봇 · 테스트</button>
         </div>
       </header>

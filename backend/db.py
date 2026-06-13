@@ -97,7 +97,10 @@ elif DB_BACKEND == "postgres":
             self._raw = raw
 
         def execute(self, sql, params=()):
-            return self._raw.execute(sql.replace("?", "%s"), params)
+            # 리터럴 %(LIKE '%키워드%' 등)를 %% 로 이스케이프한 뒤 ? → %s 변환.
+            # (psycopg3는 % 를 placeholder 로 해석 → LIKE 패턴이 500 에러 유발)
+            sql2 = sql.replace("%", "%%").replace("?", "%s")
+            return self._raw.execute(sql2, params)
 
         def cursor(self, *a, **k):
             return self._raw.cursor(*a, **k)

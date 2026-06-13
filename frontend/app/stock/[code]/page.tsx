@@ -856,7 +856,13 @@ export default function StockPage() {
   const fins: any[] = overview?.tab1?.financials || [];
   const hdr      = overview?.header || {};
   const latest   = fins[0] || {};
-  const prev     = fins[1] || {};
+  // YoY는 같은 보고서 유형(분기/연간)끼리, 직전 연도와 비교 (fins는 fiscal_year DESC 정렬).
+  // 분기 데이터에 연간 데이터가 섞여 있어도(예: 2025 연간+2025 1분기) 같은 reprt_code의 전년 행만 집음.
+  const prev     = fins.find((f: any) => f.reprt_code === latest.reprt_code && f.fiscal_year < latest.fiscal_year) || {};
+  // 분기/연간 라벨 (reprt_code: 11013=1분기·11012=반기·11014=3분기·그외=연간)
+  const _RC: Record<string,string> = {'11013':'1분기','11012':'반기','11014':'3분기'};
+  const finLabel = latest.fiscal_year ? `${latest.fiscal_year}${_RC[latest.reprt_code] ? ' '+_RC[latest.reprt_code] : ''}` : '';
+  const finSameType = !!prev.reprt_code && latest.reprt_code === prev.reprt_code;  // 전년 동기(같은 유형)가 있을 때만 YoY
   const corpName = company.corp_name || code;
 
   // ─── 업종명 매핑 (DART KSIC 코드 → 한글 업종명) ──────────────
@@ -1549,14 +1555,16 @@ export default function StockPage() {
                   {label:'당기순이익',key:'net_income', icon:'💵'},
                 ].map(({label,key,icon})=>{
                   const v = latest[key], pv = prev[key];
-                  const yoy = pv ? (v-pv)/Math.abs(pv)*100 : null;
+                  const yoy = (finSameType && pv) ? (v-pv)/Math.abs(pv)*100 : null;
                   return (
                     <div key={key} className="flex items-center justify-between p-3 bg-slate-50 dark:bg-slate-700 rounded-xl">
                       <div>
-                        <div className="text-xs text-slate-400">{icon} {label} ({latest.fiscal_year})</div>
+                        <div className="text-xs text-slate-400">{icon} {label} ({finLabel})</div>
                         <div className="text-lg font-extrabold text-slate-800 dark:text-white font-mono mt-0.5">{fmtAmt(v)}원</div>
                       </div>
-                      <div className={`text-xs font-bold px-2 py-1 rounded-full ${yoy!=null && yoy>=0 ? 'bg-red-50 text-red-600' : 'bg-blue-50 text-blue-600'}`}>
+                      <div
+                        title={yoy!=null ? `전년 동기(${prev.fiscal_year} ${_RC[prev.reprt_code]||'연간'}) 대비` : '전년 동기 데이터 없음'}
+                        className={`text-xs font-bold px-2 py-1 rounded-full ${yoy!=null && yoy>=0 ? 'bg-red-50 text-red-600' : 'bg-blue-50 text-blue-600'}`}>
                         {yoyText(yoy) || '—'}
                       </div>
                     </div>

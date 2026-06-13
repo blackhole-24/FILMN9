@@ -135,9 +135,15 @@ def _get_company(conn, stock_code: str) -> dict | None:
 
 
 def _get_financials_list(conn, stock_code: str) -> list:
-    """재무요약 — 프론트 배열 형식 (최근연도 먼저)."""
+    """재무요약 — 프론트 배열 형식 (최근연도 먼저).
+    한 연도에 연간(11011)+분기(11013 등)가 공존하므로 정렬을 결정적으로:
+    연도 DESC, 같은 연도 내에선 연간 > 3분기 > 반기 > 1분기 순(완전성 우선).
+    → 프론트 latest=fins[0]가 흔들리지 않고, YoY는 같은 reprt_code 전년 행과 비교."""
     rows = conn.execute(
-        "SELECT * FROM financials WHERE stock_code = ? ORDER BY fiscal_year DESC",
+        "SELECT * FROM financials WHERE stock_code = ? "
+        "ORDER BY fiscal_year DESC, "
+        "CASE reprt_code WHEN '11011' THEN 4 WHEN '11014' THEN 3 "
+        "WHEN '11012' THEN 2 WHEN '11013' THEN 1 ELSE 0 END DESC",
         (stock_code,)
     ).fetchall()
     return [dict(r) for r in rows]

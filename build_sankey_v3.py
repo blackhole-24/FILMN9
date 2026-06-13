@@ -22,11 +22,13 @@ OUT  = ROOT / "outputs" / "sankey"
 
 
 def norm(nm):
-    return re.sub(r"\(.*?\)", "", nm or "").replace(" ", "").replace("(", "").replace(")", "").strip()
+    # 로마숫자/번호 접두사 제거 (Ⅴ.영업이익·XI.당기순이익 → 영업이익·당기순이익)
+    nm = re.sub(r"^\s*[ⅠⅡⅢⅣⅤⅥⅦⅧⅨⅩⅪⅫXVIxvi0-9]+\s*[.)]\s*", "", nm or "")
+    return re.sub(r"\(.*?\)", "", nm).replace(" ", "").replace("(", "").replace(")", "").strip()
 
 
 ACC = {
-    "rev":     ["매출액", "영업수익", "매출", "수익"],
+    "rev":     ["매출액", "영업수익", "매출및기타수익", "매출", "수익"],
     "cogs":    ["매출원가"],
     "gp":      ["매출총이익"],
     "sga":     ["판매비와관리비"],
@@ -72,11 +74,17 @@ def ncolor(n, v=None):
 
 
 def fmt(v):
-    """억 단위 포매팅, 음수 유지"""
+    """백만원 → 조/억 (앱 fmtAmt와 동일 표기). '원'은 호출부에서 붙임. 음수 유지.
+    예: 45,932,167백만원 → '45.93조' / 977,063 → '9,771억' / 16,000 → '160억'."""
     if v is None:
         return ""
     sign = "-" if v < 0 else ""
-    return f"{sign}{abs(v) / 100:,.0f}억"
+    a = abs(v)
+    if a >= 1_000_000:        # 1조 = 1,000,000 백만원
+        return f"{sign}{a / 1_000_000:,.2f}조"
+    if a >= 100:              # 1억 = 100 백만원
+        return f"{sign}{a / 100:,.0f}억"
+    return f"{sign}{a:,.0f}백만"
 
 
 def pick(bag, keys):
@@ -88,9 +96,9 @@ def pick(bag, keys):
 
 
 def scale_div(rev):
-    a = abs(rev or 0)
-    if a >= 1e9: return 1_000_000
-    if a >= 1e6: return 1_000
+    # 2026-06-13: financial_detail·financials를 DART에서 백만원으로 통일 재구축 →
+    # 더 이상 단위 분할 불필요(과거엔 원 단위 raw 혼재라 adaptive 분할했음). 항상 1.
+    # fmt()가 백만원 → 억(÷100) 변환을 담당.
     return 1
 
 
@@ -279,8 +287,11 @@ def main():
     conn  = sqlite3.connect(DB)
     names = dict(conn.execute("SELECT stock_code, corp_name FROM company_info").fetchall())
     fin   = {}
+    # financials가 다년·다보고서(2024/2025/2026·연간/분기)로 확장됨 → Sankey는 financial_detail
+    # (연간 2023~2025)과 짝이 맞는 2025 연간(11011)만 요약 폴백으로 사용. 임의 행 선택 방지.
     for r in conn.execute(
-        "SELECT stock_code,fiscal_year,revenue,op_income,net_income FROM financials"
+        "SELECT stock_code,fiscal_year,revenue,op_income,net_income FROM financials "
+        "WHERE fiscal_year=2025 AND reprt_code='11011'"
     ):
         fin[r[0]] = {"fy": r[1], "revenue": r[2], "op_income": r[3], "net_income": r[4]}
 

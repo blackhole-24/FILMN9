@@ -171,7 +171,17 @@ def admin_coverage():
              "count": cnt("SELECT COUNT(DISTINCT stock_code) FROM executives")},
             {"part": "밸류 요약 (valuation_summary)",
              "count": cnt("SELECT COUNT(*) FROM valuation_summary")},
+            {"part": "재무제표 연결 (financial_detail·BS)",
+             "count": cnt("SELECT COUNT(DISTINCT stock_code) FROM financial_detail WHERE statement_type='BS' AND statement_scope='연결'")},
         ]
+        # Sankey 완전도(영업이익까지 매칭 가능) — LIKE % 는 con.execute 로(db.py %% 이스케이프)
+        try:
+            sk = con.execute("SELECT COUNT(DISTINCT stock_code) FROM financial_detail "
+                             "WHERE statement_type='CIS' AND statement_scope='연결' "
+                             "AND account_nm LIKE '%영업이익%'").fetchone()[0]
+            rows.append({"part": "Sankey 완전도 (영업이익 매칭)", "count": sk})
+        except Exception:
+            pass
         con.close()
     # 파일 기반 자산
     if _SANKEY.exists():
@@ -187,7 +197,17 @@ def admin_coverage():
     for r in rows:
         r["base"] = base
         r["pct"] = round(min(r["count"], base) / base * 100, 1) if base else 0
-    return {"base_universe": base, "rows": rows}
+    return {
+        "base_universe": base, "rows": rows,
+        "sankey_meta": {
+            "원천": "financial_detail (DART 파싱 손익계산서 CIS/IS) 10계정",
+            "추출값": "매출액·매출원가·매출총이익·판관비·영업이익·영업외수익/비용·세전이익·법인세·당기순이익",
+            "생성방식": "build_sankey_v3.py 로 사전생성(그때그때 X)",
+            "저장위치": "outputs/sankey/{종목코드}_sankey.html (파일·DB 아님, 화면은 불러오기만)",
+            "비고": "계정명 정규화(로마숫자 접두사 제거) 적용 시 완전도 대폭 향상",
+        },
+        "재무하이라이트_원천": "financials 테이블(요약) · /api/overview tab1.financials · DART API→DB 저장값 조회(실시간 아님)",
+    }
 
 
 _SMOKE_CODES = ["005930", "000720", "028260", "035420"]
