@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FINSIGHT · PM 다이어그램 5종</title>
+<style>
+  :root{
+    --bg:#f5f7fb; --card:#fff; --ink:#1e293b; --sub:#64748b; --line:#e3e8f0;
+    --indigo:#6366f1; --indigo-soft:#eef2ff;
+    --blue:#2563eb; --blue-soft:#dbeafe;
+    --orange:#f97316; --orange-soft:#ffedd5;
+    --green:#16a34a; --green-soft:#dcfce7;
+    --teal:#0d9488; --teal-soft:#ccfbf1;
+    --pink:#db2777; --pink-soft:#fce7f3;
+    --amber:#d97706; --amber-soft:#fef3c7;
+    --violet:#7c3aed; --violet-soft:#ede9fe;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:'Segoe UI','Malgun Gothic',sans-serif;background:var(--bg);color:var(--ink);line-height:1.55;padding:26px 16px 70px}
+  .wrap{max-width:1200px;margin:0 auto}
+  h1{font-size:29px;font-weight:800;letter-spacing:-.5px}
+  h1 .a{color:var(--indigo)}
+  .lead{color:var(--sub);font-size:14.5px;margin-top:6px}
+  .stamp{display:inline-block;margin-top:10px;font-size:12px;color:var(--sub);background:#fff;border:1px solid var(--line);padding:4px 12px;border-radius:20px}
+  .toc{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}
+  .toc a{font-size:12.5px;font-weight:700;text-decoration:none;color:var(--indigo);background:var(--indigo-soft);border:1px solid #c7d2fe;padding:6px 12px;border-radius:9px}
+  section{margin-top:34px;scroll-margin-top:16px}
+  .sec-h{display:flex;align-items:center;gap:11px;font-size:20px;font-weight:800;margin-bottom:4px}
+  .sec-h .num{background:var(--indigo);color:#fff;width:30px;height:30px;border-radius:9px;display:grid;place-items:center;font-size:14px}
+  .sec-sub{color:var(--sub);font-size:13px;margin:0 0 14px 41px}
+  .panel{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 1px 3px rgba(15,23,42,.04)}
+  /* 레이어 박스 (시스템 아키텍처) */
+  .layer{border-radius:13px;padding:13px 16px;margin-bottom:12px;border:1px solid var(--line);position:relative}
+  .layer .ltitle{font-size:12px;font-weight:800;letter-spacing:.5px;text-transform:uppercase;color:var(--sub);margin-bottom:9px}
+  .row{display:flex;flex-wrap:wrap;gap:9px}
+  .box{border-radius:10px;padding:9px 13px;font-size:13px;font-weight:600;border:1px solid transparent;flex:1;min-width:130px}
+  .box b{font-weight:800} .box .m{font-size:11px;opacity:.8;display:block;margin-top:1px}
+  .b-user{background:var(--violet-soft);border-color:#ddd6fe;color:#5b21b6}
+  .b-front{background:var(--indigo-soft);border-color:#c7d2fe;color:#3730a3}
+  .b-api{background:var(--orange-soft);border-color:#fed7aa;color:#9a3412}
+  .b-rds{background:var(--blue-soft);border-color:#bfdbfe;color:#1e40af}
+  .b-vec{background:var(--amber-soft);border-color:#fde68a;color:#92400e}
+  .b-mongo{background:var(--teal-soft);border-color:#99f6e4;color:#0f766e}
+  .b-s3{background:var(--green-soft);border-color:#bbf7d0;color:#166534}
+  .b-ext{background:#f1f5f9;border-color:#e2e8f0;color:#475569}
+  .down{text-align:center;color:#94a3b8;font-size:18px;margin:-4px 0 8px}
+  .aws-band{background:linear-gradient(90deg,#fff7ed,#fffbeb);border:1px dashed var(--orange);border-radius:13px;padding:10px 16px;margin-top:6px;font-size:12.5px;color:#9a3412}
+  .aws-band b{color:#7c2d12}
+  /* 서비스 아키텍처 카드 */
+  .svc-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:13px}
+  .svc{border-radius:13px;padding:15px 17px;border:1px solid var(--line);border-top:4px solid var(--indigo)}
+  .svc h4{font-size:15px;font-weight:800;margin-bottom:8px}
+  .svc ul{list-style:none;font-size:12.5px;color:#334155}
+  .svc li{padding:3px 0;padding-left:16px;position:relative}
+  .svc li::before{content:'▸';position:absolute;left:0;color:var(--indigo)}
+  .svc .src{margin-top:9px;font-size:11px;color:var(--sub);border-top:1px dashed var(--line);padding-top:7px}
+  .svc.s1{border-top-color:var(--blue)} .svc.s2{border-top-color:var(--green)}
+  .svc.s3{border-top-color:var(--orange)} .svc.s4{border-top-color:var(--pink)}
+  /* 파이프라인 */
+  .pipe{display:flex;align-items:stretch;gap:0;flex-wrap:wrap}
+  .stage{flex:1;min-width:150px;background:#fff;border:1px solid var(--line);border-radius:12px;padding:13px;text-align:center;position:relative}
+  .stage .st-h{font-size:13px;font-weight:800;margin-bottom:7px}
+  .stage .st-i{font-size:11.5px;color:#475569;text-align:left}
+  .stage .st-i div{padding:2px 0}
+  .pipe .gt{display:flex;align-items:center;color:var(--orange);font-size:22px;font-weight:800;padding:0 4px}
+  .ico{font-size:20px;display:block;margin-bottom:4px}
+  /* ERD */
+  .erd-legend{display:flex;gap:14px;flex-wrap:wrap;font-size:12px;color:var(--sub);margin-bottom:14px}
+  .erd-legend b{color:var(--ink)}
+  .erd{display:grid;grid-template-columns:repeat(4,1fr);gap:11px}
+  .ent{border-radius:11px;border:1px solid var(--line);overflow:hidden;font-size:11.5px}
+  .ent .eh{padding:7px 10px;font-weight:800;font-size:12.5px;color:#fff;display:flex;justify-content:space-between;align-items:center}
+  .ent .eb{padding:8px 10px;background:#fff;color:#475569}
+  .ent .eb .k{color:var(--indigo);font-weight:700}
+  .ent .eb .pk{color:#b45309;font-weight:700}
+  .ent .cnt{font-size:10px;font-weight:600;opacity:.9}
+  .hub .eh{background:var(--violet)} .dom-fin .eh{background:var(--blue)}
+  .dom-price .eh{background:#0891b2} .dom-people .eh{background:var(--pink)}
+  .dom-val .eh{background:var(--green)} .dom-disc .eh{background:var(--amber)}
+  .dom-etc .eh{background:#64748b}
+  .erd-hubrow{display:flex;justify-content:center;margin-bottom:13px}
+  .erd-hubrow .ent{width:280px;box-shadow:0 4px 14px rgba(124,58,237,.18)}
+  .grouplabel{grid-column:1/-1;font-size:11.5px;font-weight:800;color:var(--sub);margin-top:6px;text-transform:uppercase;letter-spacing:.5px}
+  /* 데이터 아키텍처 */
+  .da-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:13px}
+  .da{border-radius:14px;padding:16px;border:1px solid var(--line);border-top:5px solid var(--blue)}
+  .da h4{font-size:14.5px;font-weight:800;display:flex;align-items:center;gap:6px}
+  .da .loc{font-size:11px;color:var(--sub);margin:2px 0 9px}
+  .da ul{list-style:none;font-size:12px;color:#334155}
+  .da li{padding:2.5px 0;padding-left:14px;position:relative}
+  .da li::before{content:'•';position:absolute;left:2px;color:var(--blue)}
+  .da.d-rds{border-top-color:var(--blue)} .da.d-vec{border-top-color:var(--amber)}
+  .da.d-mongo{border-top-color:var(--teal)} .da.d-s3{border-top-color:var(--green)}
+  .da .badge{margin-top:9px;font-size:10.5px;font-weight:700;padding:3px 9px;border-radius:7px;display:inline-block}
+  .note{font-size:13px;color:#334155;margin-top:12px;background:#f8fafc;border:1px solid var(--line);border-radius:10px;padding:11px 14px}
+  .foot{margin-top:42px;text-align:center;font-size:11px;color:#94a3b8;letter-spacing:.25em;font-weight:300}
+  @media(max-width:880px){.svc-grid,.erd,.da-grid{grid-template-columns:1fr 1fr}.pipe{flex-direction:column}.pipe .gt{justify-content:center;transform:rotate(90deg)}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1><span class="a">FINSIGHT</span> · PM 다이어그램 5종</h1>
+  <p class="lead">시스템 아키텍처 · 서비스 아키텍처 · 데이터 파이프라인 · ERD · 데이터 아키텍처 — 현재 상태 + AWS 배포 반영</p>
+  <span class="stamp">2026-06-14 · 실제 DB 16테이블 1,175만행 반영 (NO-MOCK)</span>
+  <div class="toc">
+    <a href="#d1">① 시스템 아키텍처</a><a href="#d2">② 서비스 아키텍처</a>
+    <a href="#d3">③ 데이터 파이프라인</a><a href="#d4">④ ERD</a><a href="#d5">⑤ 데이터 아키텍처</a>
+  </div>
+
+  <!-- ① 시스템 아키텍처 -->
+  <section id="d1">
+    <div class="sec-h"><span class="num">1</span>시스템 아키텍처</div>
+    <p class="sec-sub">사용자부터 데이터까지의 계층 구조 + AWS 인프라 배치</p>
+    <div class="panel">
+      <div class="layer"><div class="ltitle">① 사용자</div>
+        <div class="row"><div class="box b-user"><b>일반 투자자</b><span class="m">웹 브라우저로 접속</span></div></div>
+      </div>
+      <div class="down">▼</div>
+      <div class="layer"><div class="ltitle">② 프론트엔드 (EC2 / S3+CloudFront)</div>
+        <div class="row">
+          <div class="box b-front"><b>Next.js 16</b><span class="m">기업개요·밸류·AI챗봇 탭 · :3000</span></div>
+          <div class="box b-front"><b>관리자 페이지</b><span class="m">/admin · 운영·검증 2탭</span></div>
+        </div>
+      </div>
+      <div class="down">▼ REST API</div>
+      <div class="layer"><div class="ltitle">③ 백엔드 (EC2) · FastAPI :8090</div>
+        <div class="row">
+          <div class="box b-api">overview</div><div class="box b-api">financial_detail</div>
+          <div class="box b-api">valuation</div><div class="box b-api">sectors</div>
+          <div class="box b-api">affiliate</div><div class="box b-api">morning</div><div class="box b-api">admin</div>
+        </div>
+        <div class="row" style="margin-top:9px"><div class="box b-api"><b>AI 챗봇 서버 :8800</b><span class="m">RAG · ChromaDB 검색 + LLM (별도 프로세스)</span></div></div>
+      </div>
+      <div class="down">▼</div>
+      <div class="layer"><div class="ltitle">④ 데이터 계층</div>
+        <div class="row">
+          <div class="box b-rds"><b>RDS · PostgreSQL</b><span class="m">관계형 16테이블 1,175만행</span></div>
+          <div class="box b-vec"><b>EC2(GPU) · ChromaDB</b><span class="m">벡터 ~40GB · 377만 청크</span></div>
+          <div class="box b-mongo"><b>MongoDB Atlas</b><span class="m">히스토리브리핑 ~2,600종</span></div>
+          <div class="box b-s3"><b>S3</b><span class="m">Sankey·밸류JSON·계열사 이미지</span></div>
+        </div>
+      </div>
+      <div class="down">▼ 외부 데이터원</div>
+      <div class="layer"><div class="ltitle">⑤ 외부 소스</div>
+        <div class="row">
+          <div class="box b-ext"><b>DART OpenAPI</b><span class="m">재무·공시·지분</span></div>
+          <div class="box b-ext"><b>yfinance / pykrx</b><span class="m">주가·실시간 시세</span></div>
+          <div class="box b-ext"><b>ECOS·WICS</b><span class="m">금리·산업분류</span></div>
+          <div class="box b-ext"><b>OpenAI API</b><span class="m">챗봇 LLM 답변</span></div>
+        </div>
+      </div>
+      <div class="aws-band">☁️ <b>AWS Infra</b> — 위 ②③④는 VPC 내부. EC2(앱+GPU) · RDS · S3 · 보안그룹 · ALB(HTTPS) · 도메인. MongoDB는 Atlas(외부 매니지드) 연결.</div>
+    </div>
+  </section>
+
+  <!-- ② 서비스 아키텍처 -->
+  <section id="d2">
+    <div class="sec-h"><span class="num">2</span>서비스 아키텍처</div>
+    <p class="sec-sub">사용자가 보는 기능(서비스)과 각 기능이 쓰는 데이터</p>
+    <div class="panel">
+      <div class="svc-grid">
+        <div class="svc s1"><h4>📊 기업개요</h4>
+          <ul><li>기업정보·재무 하이라이트(2026 1분기·YoY)</li><li>재무상태표·손익계산서 3년치</li><li>손익흐름도(Sankey)·주주구성·경영인</li><li>히스토리브리핑·계열사·최신뉴스·주가차트</li></ul>
+          <div class="src">데이터: company_info · financials · financial_detail · ohlcv · shareholders · executives · Atlas(히스토리)</div>
+        </div>
+        <div class="svc s2"><h4>💰 밸류에이션</h4>
+          <ul><li>DCF 적정가·WACC·멀티플·시나리오</li><li>산업 대표주 밸류 요약 랭킹</li><li>신뢰도 등급(높음~평가불가)</li></ul>
+          <div class="src">데이터: valuation_summary · S3(밸류 결과 JSON 13,344)</div>
+        </div>
+        <div class="svc s3"><h4>🤖 AI 챗봇</h4>
+          <ul><li>회사 입력 → RAG 기반 자연어 Q&A</li><li>출처 카드·DART 링크·세션 유지</li><li>(예정) 채널톡 형식 UI 전환</li></ul>
+          <div class="src">데이터: ChromaDB(EC2 GPU) · OpenAI API · :8800</div>
+        </div>
+        <div class="svc s4"><h4>🛠 관리자 페이지</h4>
+          <ul><li>운영 모니터링·커버리지·원천 명시</li><li>신뢰도 검증(원본 대조)</li><li>(예정) 데이터관리·AWS 비용</li></ul>
+          <div class="src">데이터: 전 테이블 집계 · admin 라우터</div>
+        </div>
+      </div>
+      <div class="note">🔎 <b>산업탐색(WICS)·모닝 마켓시그널</b> 위젯은 홈/탐색에서 별도 제공 — sectors · ticker_universe · 모닝(yfinance 실시간).</div>
+    </div>
+  </section>
+
+  <!-- ③ 데이터 파이프라인 -->
+  <section id="d3">
+    <div class="sec-h"><span class="num">3</span>데이터 파이프라인 (수집 → 화면)</div>
+    <p class="sec-sub">외부 원천에서 수집해 가공·적재하고 화면까지 가는 흐름</p>
+    <div class="panel">
+      <div class="pipe">
+        <div class="stage"><span class="ico">🌐</span><div class="st-h">1. 수집(원천)</div>
+          <div class="st-i"><div>DART(재무·공시·지분)</div><div>yfinance·pykrx(주가)</div><div>ECOS(금리)·WICS</div></div></div>
+        <div class="gt">›</div>
+        <div class="stage"><span class="ico">⚙️</span><div class="st-h">2. 가공/파싱</div>
+          <div class="st-i"><div>fnlttSinglAcntAll 파싱</div><div>3년치·백만원 통일</div><div>계정 정규화·DCF 엔진</div></div></div>
+        <div class="gt">›</div>
+        <div class="stage"><span class="ico">🗄️</span><div class="st-h">3. 적재(DB)</div>
+          <div class="st-i"><div>Postgres 16테이블</div><div>ChromaDB(임베딩)</div><div>Atlas(히스토리)</div></div></div>
+        <div class="gt">›</div>
+        <div class="stage"><span class="ico">🧱</span><div class="st-h">4. 산출물(파일)</div>
+          <div class="st-i"><div>Sankey HTML 2,691</div><div>밸류 JSON 13,344</div><div>계열사 이미지</div></div></div>
+        <div class="gt">›</div>
+        <div class="stage"><span class="ico">🖥️</span><div class="st-h">5. API→화면</div>
+          <div class="st-i"><div>FastAPI 라우터</div><div>Next.js 렌더</div><div>RAG 챗봇 응답</div></div></div>
+      </div>
+      <div class="note">⏱ <b>자동화:</b> 주가 OHLCV는 매 거래일 16:00 스케줄러 자동 동기화 · 모닝 위젯 15분 캐시. 사업보고서 갱신 자동화는 (예정·#25).</div>
+    </div>
+  </section>
+
+  <!-- ④ ERD -->
+  <section id="d4">
+    <div class="sec-h"><span class="num">4</span>ERD (개체-관계도)</div>
+    <p class="sec-sub">company_info(종목코드)를 허브로 15개 테이블이 연결 · 실제 행수 표기</p>
+    <div class="panel">
+      <div class="erd-legend"><span>🔑 <b class="pk" style="color:#b45309">PK</b> 기본키</span><span>🔗 <b class="k" style="color:#6366f1">stock_code</b> 연결키</span><span><b>1:1</b> 종목당 1행</span><span><b>1:N</b> 종목당 여러 행(연도·순위 등)</span></div>
+      <!-- 허브 -->
+      <div class="erd-hubrow">
+        <div class="ent hub"><div class="eh">company_info <span class="cnt">3,965행 · 허브</span></div>
+          <div class="eb"><span class="pk">PK stock_code</span> · corp_name · market · sector · ceo · address …</div></div>
+      </div>
+      <!-- 도메인별 -->
+      <div class="erd">
+        <div class="grouplabel">📈 재무 (1:N)</div>
+        <div class="ent dom-fin"><div class="eh">financials <span class="cnt">10,882</span></div><div class="eb"><span class="pk">PK code+연도+보고서</span><br><span class="k">매출·영업익·순익</span> (3년·분기)</div></div>
+        <div class="ent dom-fin"><div class="eh">financial_detail <span class="cnt">956,125</span></div><div class="eb"><span class="pk">PK code+연도+제표+계정+범위</span><br>BS/IS/CIS 3년치 표준계정</div></div>
+        <div class="ent dom-price"><div class="eh">ohlcv <span class="cnt">10,678,102</span></div><div class="eb"><span class="pk">PK code+date</span><br>일봉 시가·고저·종가·거래량</div></div>
+        <div class="ent dom-etc"><div class="eh">credit_ratings <span class="cnt">0</span></div><div class="eb"><span class="pk">PK code+연도+기관</span><br>신용등급(수집 예정)</div></div>
+
+        <div class="grouplabel">👥 지분·인물 (1:N)</div>
+        <div class="ent dom-people"><div class="eh">shareholders <span class="cnt">47,001</span></div><div class="eb"><span class="pk">PK code+연도+순위</span><br>주주명·지분율</div></div>
+        <div class="ent dom-people"><div class="eh">executives <span class="cnt">34,966</span></div><div class="eb"><span class="pk">PK code+연도+순위</span><br>경영인·직책·이력</div></div>
+        <div class="ent dom-people"><div class="eh">company_customers <span class="cnt">2,455</span></div><div class="eb"><span class="pk">PK code</span><br>주요 고객·매출처</div></div>
+        <div class="ent dom-etc"><div class="eh">peer_competitors <span class="cnt">3,282</span></div><div class="eb"><span class="pk">PK code+경쟁사</span><br>피어 비교군</div></div>
+
+        <div class="grouplabel">💰 밸류 (1:1)</div>
+        <div class="ent dom-val"><div class="eh">valuation_summary <span class="cnt">2,224</span></div><div class="eb"><span class="pk">PK code</span><br>적정가·WACC·신뢰도등급</div></div>
+        <div class="ent dom-val"><div class="eh">valuations <span class="cnt">0</span></div><div class="eb"><span class="pk">PK code</span><br>상세 밸류(JSON파일 사용중)</div></div>
+
+        <div class="grouplabel">📰 공시·상태 (혼합)</div>
+        <div class="ent dom-disc"><div class="eh">disclosures <span class="cnt">90</span></div><div class="eb"><span class="pk">PK code+접수번호</span><br>공시 메타(라이브 조회 위주)</div></div>
+        <div class="ent dom-disc"><div class="eh">dart_halt_events <span class="cnt">2,580</span></div><div class="eb"><span class="pk">PK code+접수번호</span><br>거래정지·관리종목</div></div>
+        <div class="ent dom-etc"><div class="eh">stock_status <span class="cnt">4,082</span></div><div class="eb"><span class="pk">PK code</span> 상장·거래상태(1:1)</div></div>
+        <div class="ent dom-etc"><div class="eh">ticker_suffix <span class="cnt">2,877</span></div><div class="eb"><span class="pk">PK code</span> yfinance 접미사(1:1)</div></div>
+
+        <div class="grouplabel">🏷️ 산업분류 (독립)</div>
+        <div class="ent dom-etc"><div class="eh">wics_keywords <span class="cnt">565</span></div><div class="eb"><span class="pk">PK 업종명+키워드</span><br>WICS 검색 유사어 (종목 무관)</div></div>
+      </div>
+      <div class="note">🔗 <b>관계 요약:</b> company_info 1행(종목) ── (1:N) ── 재무·주가·주주·경영인·공시 (연도/순위별 여러 행) · ── (1:1) ── 밸류요약·상태·접미사. 모든 연결은 <b class="k" style="color:#6366f1">stock_code</b> 기준.</div>
+    </div>
+  </section>
+
+  <!-- ⑤ 데이터 아키텍처 -->
+  <section id="d5">
+    <div class="sec-h"><span class="num">5</span>데이터 아키텍처 (어디에 무엇이)</div>
+    <p class="sec-sub">데이터 성격별로 어떤 저장소(AWS 자원)에 사는지 — 하이브리드</p>
+    <div class="panel">
+      <div class="da-grid">
+        <div class="da d-rds"><h4>🟦 RDS · PostgreSQL</h4><div class="loc">관계형(정형) — 현재 Supabase → AWS RDS</div>
+          <ul><li>company_info / financials / financial_detail</li><li>ohlcv(1천만행) / shareholders / executives</li><li>valuation_summary / disclosures …</li></ul>
+          <span class="badge" style="background:var(--blue-soft);color:var(--blue)">16테이블 · 1,175만행</span></div>
+        <div class="da d-vec"><h4>🟧 EC2(GPU) · ChromaDB</h4><div class="loc">벡터(비정형) — 챗봇 RAG</div>
+          <ul><li>사업보고서 임베딩 청크</li><li>임베딩+리랭킹 GPU 연산</li><li>RDS로 못 옮김(전용 EC2)</li></ul>
+          <span class="badge" style="background:var(--amber-soft);color:var(--amber)">~40GB · 377만 청크</span></div>
+        <div class="da d-mongo"><h4>🟩 MongoDB Atlas</h4><div class="loc">문서(서술형) — 이미 클라우드</div>
+          <ul><li>히스토리브리핑 본문</li><li>기업 연혁·서술형 요약</li><li>EC2에서 그대로 연결</li></ul>
+          <span class="badge" style="background:var(--teal-soft);color:var(--teal)">~2,600종 · 유지</span></div>
+        <div class="da d-s3"><h4>🟢 S3 · 정적 파일</h4><div class="loc">파일(산출물) — 정적 서빙</div>
+          <ul><li>Sankey HTML 2,691개</li><li>밸류 결과 JSON 13,344개</li><li>계열사 시각화 이미지</li></ul>
+          <span class="badge" style="background:var(--green-soft);color:var(--green)">파일 ~16,000개</span></div>
+      </div>
+      <div class="note">💡 <b>왜 나눠 담나:</b> 표(RDS)·벡터(Chroma)·문서(Mongo)·파일(S3)은 성격이 달라 각자 잘하는 저장소에 둡니다. "DB 전부 RDS"가 아니라 <b>4종 하이브리드</b>입니다.</div>
+    </div>
+  </section>
+
+  <div class="foot">FILMN9 Inc.</div>
+</div>
+</body>
+</html>
