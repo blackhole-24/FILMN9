@@ -23,7 +23,9 @@ import sqlite3
 from datetime import datetime
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve()   # 위치 무관: data/filmn9.db 있는 레포 루트까지 위로 탐색
+while ROOT != ROOT.parent and not (ROOT / "data" / "filmn9.db").exists():
+    ROOT = ROOT.parent
 DB   = ROOT / "data" / "filmn9.db"
 CSV  = ROOT / "data" / "valuation_inbox" / "repr20_export" / "summary.csv"
 

@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>FINSIGHT 시스템 아키텍처 — 가로형 미리보기 (excalidraw 스타일)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Gaegu:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#2b2b40; --line:#3a3a55; --navy:#1f3a5f;
+    --fe:#e7f0ff; --fe-b:#5b8def; --be:#fff4d6; --be-b:#e0a93b;
+    --db:#e6f7ee; --db-b:#3aa776; --ext:#f3e8ff; --ext-b:#9b6cf0;
+    --bot:#ffe9e4; --bot-b:#e8745a; --infra:#fde8c8; --infra-b:#d98a2b;
+    --user:#eef2f6; --user-b:#7b8aa0;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:#faf8f3;color:var(--ink);
+    font-family:'Gaegu','Nanum Pen Script',cursive;}
+  .wrap{max-width:1500px;margin:0 auto;padding:22px 26px 60px;}
+  h1{font-family:'Gaegu';font-size:30px;font-weight:700;margin:6px 0 2px;color:var(--navy);}
+  .sub{font-size:18px;color:#6a6a80;margin-bottom:4px;}
+  .legend{display:flex;gap:16px;flex-wrap:wrap;font-size:16px;margin:10px 0 18px;align-items:center;}
+  .lg{display:inline-flex;align-items:center;gap:6px;}
+  .sw{width:18px;height:14px;border:2px solid;border-radius:4px;display:inline-block;}
+  .tag{font-size:14px;background:#1f3a5f;color:#fff;border-radius:10px;padding:2px 9px;}
+
+  /* 손그림 박스 공통 */
+  .box{border:2.5px solid var(--line);border-radius:12px;background:#fff;
+    box-shadow:3px 4px 0 rgba(40,40,60,.10);padding:10px 12px;position:relative;}
+  .box.tilt{transform:rotate(-.4deg);}
+  .hd{font-weight:700;font-size:19px;color:var(--navy);margin-bottom:5px;display:flex;align-items:center;gap:7px;}
+  .pill{font-size:13px;font-weight:700;color:#444;background:#f0eee6;border:1.5px solid #cfc9ba;border-radius:20px;padding:1px 8px;}
+  ul{margin:4px 0 0;padding-left:18px;}
+  li{font-size:16px;line-height:1.45;margin:1px 0;}
+  .mini{border:2px solid var(--line);border-radius:9px;background:#fff;padding:5px 8px;font-size:15px;margin:5px 0;box-shadow:2px 2px 0 rgba(40,40,60,.08);}
+
+  /* 가로 흐름 그리드 */
+  .flow{display:grid;grid-template-columns:96px 1fr 1.15fr 1fr;gap:14px;align-items:stretch;}
+  .col{display:flex;flex-direction:column;gap:10px;}
+  .colhd{font-size:14px;font-weight:700;letter-spacing:.04em;color:#fff;background:var(--navy);
+    border-radius:8px;padding:4px 8px;text-align:center;}
+  .arrowrow{display:flex;align-items:center;justify-content:center;font-size:30px;color:var(--be-b);}
+
+  /* 외부 API 띠 (상단, 백엔드로 유입) */
+  .ext{background:var(--ext);border-color:var(--ext-b);}
+  .extgrid{display:flex;gap:8px;flex-wrap:wrap;}
+  .extgrid .mini{border-color:var(--ext-b);background:#faf5ff;}
+
+  /* 인프라 띠 (하단, 백엔드 바깥) */
+  .infra{background:var(--infra);border-color:var(--infra-b);margin-top:16px;}
+  .infgrid{display:flex;gap:8px;flex-wrap:wrap;margin-top:4px;}
+  .infgrid .mini{border-color:var(--infra-b);background:#fffaf0;}
+
+  .fe{background:var(--fe);border-color:var(--fe-b);}
+  .be{background:var(--be);border-color:var(--be-b);}
+  .db{background:var(--db);border-color:var(--db-b);}
+  .bot{background:var(--bot);border-color:var(--bot-b);}
+  .user{background:var(--user);border-color:var(--user-b);text-align:center;}
+  .user .emoji{font-size:34px;}
+
+  .note{font-size:15px;color:#8a6d2b;background:#fff8e8;border:1.5px dashed #d9b25b;border-radius:8px;padding:3px 8px;display:inline-block;margin-top:6px;}
+  .hostarrow{text-align:center;font-size:22px;color:var(--infra-b);margin:2px 0;}
+  .band-hd{font-weight:700;font-size:18px;color:#8a5a12;display:flex;align-items:center;gap:8px;}
+  .strip{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px;}
+  .strip .box{flex:1 1 320px;}
+  .devops{background:#eef6ff;border-color:#5b8def;}
+  .sec{background:#fdeef0;border-color:#d96a78;}
+  .fb{font-size:13px;color:#1f7a4d;background:#e6f7ee;border:1.5px solid #3aa776;border-radius:6px;padding:0 6px;margin-left:6px;}
+  .foot{margin-top:26px;font-size:15px;color:#888;text-align:center;}
+  .modeswitch{font-size:14px;color:#666;margin-bottom:10px;}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>FINSIGHT 시스템 아키텍처 <span style="font-size:18px;color:#888">— AWS 배포 버전</span></h1>
+  <div class="sub">가로형(좌→우 5계층) · excalidraw 손그림 톤 미리보기 · 선생님 피드백 반영본 <span class="tag">내일 Claude Design으로 정식 excalidraw 작업 예정</span></div>
+  <div class="legend">
+    <span class="lg"><span class="sw" style="border-color:var(--user-b);background:var(--user)"></span>User</span>
+    <span class="lg"><span class="sw" style="border-color:var(--fe-b);background:var(--fe)"></span>Frontend</span>
+    <span class="lg"><span class="sw" style="border-color:var(--be-b);background:var(--be)"></span>Backend</span>
+    <span class="lg"><span class="sw" style="border-color:var(--bot-b);background:var(--bot)"></span>AI 챗봇(분리)</span>
+    <span class="lg"><span class="sw" style="border-color:var(--db-b);background:var(--db)"></span>Data Platform</span>
+    <span class="lg"><span class="sw" style="border-color:var(--ext-b);background:var(--ext)"></span>External API</span>
+    <span class="lg"><span class="sw" style="border-color:var(--infra-b);background:var(--infra)"></span>AWS Infra</span>
+  </div>
+
+  <!-- 외부 API 띠 (백엔드로 유입) -->
+  <div class="box ext tilt" style="margin-bottom:6px;">
+    <div class="hd">⑤ External API <span class="pill">외부 데이터 원천 → Backend로 유입</span></div>
+    <div class="extgrid">
+      <div class="mini"><b>DART OpenAPI</b> · 사업보고서·공시(XBRL)</div>
+      <div class="mini"><b>OpenAI</b> · gpt-5-mini(RAG)·gpt-4o-mini</div>
+      <div class="mini"><b>yfinance·KRX(pykrx)</b> · 주가/시세</div>
+      <div class="mini"><b>ECOS·KOFIA</b> · 금리</div>
+      <div class="mini"><b>네이버</b> · 뉴스·환율·원자재</div>
+      <div class="mini"><b>WICS(FnGuide)</b> · 78업종 분류</div>
+    </div>
+  </div>
+  <div style="text-align:center;font-size:22px;color:var(--ext-b);margin:-2px 0 8px;">⬇ Backend로 유입</div>
+
+  <!-- 메인 가로 흐름 -->
+  <div class="flow">
+    <div class="colhd">① User</div>
+    <div class="colhd">② Frontend (화면)</div>
+    <div class="colhd">③ Backend (API)</div>
+    <div class="colhd">④ Data Platform (DB)</div>
+
+    <!-- User -->
+    <div class="col">
+      <div class="box user tilt" style="flex:1;display:flex;flex-direction:column;justify-content:center;">
+        <div class="emoji">🧑‍💻</div>
+        <div style="font-weight:700;font-size:18px;color:var(--navy)">일반투자자</div>
+        <div style="font-size:14px;color:#777">(단일 사용자)</div>
+        <div class="fb">피드백: 1종만</div>
+      </div>
+    </div>
+
+    <!-- Frontend -->
+    <div class="col">
+      <div class="box fe tilt">
+        <div class="hd">Next.js 16 <span class="pill">React19·TS·Tailwind · S3+CloudFront</span></div>
+        <div class="mini"><b>메인 홈</b> · 통합검색(기업+업종)·추천종목·업종 둘러보기·관심종목·📡글로벌 마켓시그널</div>
+        <div class="mini"><b>산업(업종) 탐색</b> · WICS 78업종 → 종목 리스트</div>
+        <div class="mini"><b>종목 상세 3탭</b>
+          <ul>
+            <li>Tab1 기업개요: 히스토리브리핑·뉴스·계열사·주가차트·재무하이라이트·손익흐름도·주주·경영인·공시</li>
+            <li>Tab2 밸류에이션: DCF 대시보드(적정가·WACC·멀티플·시나리오·민감도·4-Way)</li>
+            <li>Tab3 AI 챗봇: RAG 챗봇 임베드 → 8800</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Backend -->
+    <div class="col">
+      <div class="box be tilt">
+        <div class="hd">FastAPI · 8090 <span class="pill">Python 3.11 · EC2 + ALB</span></div>
+        <div class="mini"><b>Routers</b> (요청 입구) · 종목종합/재무·주가/산업분류/밸류/모닝시그널/계열사/Sankey/검색 <span class="fb">그룹만</span></div>
+        <div class="mini"><b>Services</b> (로직) · 데이터 조회·가공/신호등 집계/밸류 요약/Sankey 렌더/폴백·정합성</div>
+        <div class="mini"><b>Repositories</b> (데이터 접근) · RDS·Mongo·Chroma·S3</div>
+      </div>
+      <!-- AI 챗봇 분리 마이크로서비스 -->
+      <div class="box bot tilt">
+        <div class="hd">🤖 AI RAG 챗봇 <span class="pill">FastAPI · 8800 · 별도 EC2(GPU)</span></div>
+        <ul>
+          <li>BGE-M3 임베딩 + bge-reranker-v2-m3 + gpt-5-mini, SSE 스트리밍</li>
+          <li>Tab3 ↔ 8800 ↔ ChromaDB(벡터)</li>
+        </ul>
+        <div class="fb">피드백: 메인 API와 분리(마이크로서비스)</div>
+      </div>
+    </div>
+
+    <!-- Data Platform -->
+    <div class="col">
+      <div class="box db tilt">
+        <div class="hd">RELATIONAL <span class="pill">AWS RDS PostgreSQL</span></div>
+        <div style="font-size:15px">기업개요·재무요약/상세·주가일봉·주주·경영인·공시·신용등급·WICS유사어·밸류요약·거래상태</div>
+      </div>
+      <div class="box db tilt">
+        <div class="hd">DOCUMENT <span class="pill">MongoDB Atlas</span></div>
+        <div style="font-size:15px">히스토리 브리핑(LLM 기업스토리, histories)</div>
+      </div>
+      <div class="box db tilt">
+        <div class="hd">VECTOR <span class="pill">ChromaDB · BGE-M3 1024d</span></div>
+        <div style="font-size:15px">사업보고서+1분기보고서 임베딩(약 192만 청크) → 챗봇 RAG</div>
+      </div>
+      <div class="box db tilt">
+        <div class="hd">OBJECT <span class="pill">AWS S3</span></div>
+        <div style="font-size:15px">손익흐름도 Sankey HTML(~2,600)·밸류 결과 JSON·계열사 구조도 SVG</div>
+      </div>
+      <div class="fb">피드백: 각 DB가 "무엇을 담는지" 명시</div>
+    </div>
+  </div>
+
+  <!-- 호스팅 화살표 -->
+  <div class="hostarrow">⬆ &nbsp; AWS 인프라가 위 애플리케이션 계층을 호스팅·보호 &nbsp; ⬆</div>
+
+  <!-- AWS 인프라 띠 (백엔드 바깥, 가로로 길게) -->
+  <div class="box infra">
+    <div class="band-hd">⑥ AWS Infrastructure <span class="fb">피드백: Backend 박스 "바깥"으로</span></div>
+    <div class="infgrid">
+      <div class="mini"><b>VPC</b> 10.0.0.0/16</div>
+      <div class="mini"><b>IAM Role</b> 최소권한</div>
+      <div class="mini"><b>Security Group</b> 443·8090</div>
+      <div class="mini"><b>Route53 / ACM / WAF</b> (Edge·HTTPS)</div>
+      <div class="mini"><b>CloudWatch</b> 모니터링</div>
+      <div class="mini"><b>NAT Gateway</b></div>
+      <div class="mini" style="border-color:#3aa776;background:#eafaf2"><b>현재 라이브</b> https://43.203.94.124.nip.io (nginx+Let's Encrypt)</div>
+    </div>
+  </div>
+
+  <!-- DevOps + Security 띠 -->
+  <div class="strip">
+    <div class="box devops">
+      <div class="band-hd" style="color:#1f4f9a">⚙️ DevOps / CI·CD</div>
+      <div style="font-size:16px;margin-top:3px">GitHub → (CI: lint·test) → Build → Deploy(S3/CloudFront·EC2) → Monitor(CloudWatch)</div>
+    </div>
+    <div class="box sec">
+      <div class="band-hd" style="color:#a83246">🔒 Security</div>
+      <div style="font-size:16px;margin-top:3px">HTTPS(ACM)·WAF·Security Group·IAM 최소권한·.env 시크릿 분리(코드/Git 금지)·CORS 제한</div>
+    </div>
+  </div>
+
+  <!-- 운영/캐싱/배치 -->
+  <div class="box tilt" style="margin-top:14px;background:#f4f0ff;border-color:#9b6cf0">
+    <div class="band-hd" style="color:#5b2fb0">🧠 전문성 요소 (교과서 정석)</div>
+    <ul style="columns:2">
+      <li>계층 분리(3-tier) · 마이크로서비스(메인 8090 vs RAG 8800)</li>
+      <li>관심사 분리(Repository 패턴)</li>
+      <li>캐싱: 모닝 위젯 15분 캐시·prewarm</li>
+      <li>배치 파이프라인: 주가 16:00 스케줄러·Sankey/밸류 사전생성</li>
+      <li>데이터 신선도: 주가=매 거래일 / 공시·재무=시즌 갱신 / 계열사·밸류=배치</li>
+      <li>"실시간 vs 배치" 구분 표기</li>
+    </ul>
+  </div>
+
+  <div class="note">※ 로컬 버전: 인프라 레이어 대신 <b>Local Runtime</b>(conda FINSIGHT_env/chatbot_env · GPU RTX 4060 · Windows 작업스케줄러 일배치) · 외곽 빨강 / AWS=주황(amber). 정식 2장은 내일 Claude Design 작업.</div>
+
+  <div class="foot">FINSIGHT · FILMN9 Inc. · 가로형 미리보기 (HTML) — 정식 excalidraw 작업 전 검토용</div>
+</div>
+</body>
+</html>
