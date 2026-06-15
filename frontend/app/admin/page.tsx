@@ -8,8 +8,14 @@ const API = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000';
 
 type MainTab = 'monitor' | 'val-admin' | 'verify' | 'val-test';
 
-const fetchJSON = (path: string, opt?: RequestInit) =>
-  fetch(`${API}${path}`, opt).then((r) => r.json());
+const adminToken = () => (typeof window !== 'undefined' ? sessionStorage.getItem('adminToken') || '' : '');
+
+const fetchJSON = (path: string, opt: RequestInit = {}) =>
+  fetch(`${API}${path}`, { ...opt, headers: { ...(opt.headers || {}), 'X-Admin-Token': adminToken() } })
+    .then((r) => {
+      if (r.status === 401) { sessionStorage.removeItem('adminToken'); location.reload(); throw new Error('unauthorized'); }
+      return r.json();
+    });
 
 // ───────────────────────── (ⓘ) 툴팁 ─────────────────────────
 function Info({ text, w = 'w-80' }: { text: string; w?: string }) {
@@ -81,6 +87,113 @@ const COV_INFO: Record<string, string> = {
 };
 
 // ───────────────────────── 탭1 · 운영 모니터링 ─────────────────────────
+// ── 기능 모듈 운영 현황 (2026-06-14 고도화) — 서비스 구조대로 원천→화면 + 상태 ──
+const ST_STYLE: Record<string, string> = {
+  ok: 'bg-emerald-50 border-emerald-200', warn: 'bg-amber-50 border-amber-200',
+  down: 'bg-rose-50 border-rose-200', realtime: 'bg-indigo-50 border-indigo-200',
+};
+const ST_DOT: Record<string, string> = { ok: 'bg-emerald-500', warn: 'bg-amber-500', down: 'bg-rose-500', realtime: 'bg-indigo-500' };
+const ST_LABEL: Record<string, string> = { ok: '정상', warn: '부분', down: '점검필요', realtime: '실시간' };
+
+function ModuleOpsCard() {
+  const [data, setData] = useState<any>(null);
+  useEffect(() => { fetchJSON('/api/admin/modules').then(setData).catch(() => {}); }, []);
+  if (!data) return <Card title="🗺️ 기능 모듈 운영 현황"><div className="text-sm text-slate-400 py-4">불러오는 중…</div></Card>;
+  return (
+    <Card title="🗺️ 기능 모듈 운영 현황" sub="각 기능이 어느 원천→어떻게 화면까지 + 지금 정상 작동 중인지"
+      info={'서비스 화면의 각 기능 모듈(재무하이라이트·손익흐름도 등)이 어느 DB/파일에서 나와 어떤 API로 화면까지 오는지와, 지금 데이터를 정상 보유 중인지(실측 종목수)를 보여줍니다. 출처: /api/admin/modules'}>
+      {(data.groups || []).map((g: string) => (
+        <div key={g} className="mb-3">
+          <div className="text-xs font-bold text-slate-500 mb-1.5">{g}</div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+            {(data.modules || []).filter((m: any) => m.group === g).map((m: any) => (
+              <div key={m.id} className={`rounded-lg border p-2.5 ${ST_STYLE[m.status] || 'bg-slate-50 border-slate-200'}`}>
+                <div className="flex items-center justify-between">
+                  <span className="text-sm font-bold text-slate-700">{m.name}</span>
+                  <span className="text-[11px] font-bold flex items-center gap-1">
+                    <span className={`w-2 h-2 rounded-full ${ST_DOT[m.status] || 'bg-slate-400'}`}></span>
+                    {ST_LABEL[m.status] || m.status} {m.count !== '' && <b>{typeof m.count === 'number' ? m.count.toLocaleString() : m.count}{m.unit}</b>}
+                  </span>
+                </div>
+                <div className="text-[11px] text-slate-500 mt-1 leading-relaxed">
+                  <b>원천</b> {m.source} <span className="text-slate-300">›</span> <b>저장</b> {m.store}<br/>
+                  <span className="font-mono text-[10px] text-blue-600">{m.api}</span> <span className="text-slate-300">·</span> {m.auto}
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      ))}
+    </Card>
+  );
+}
+
+function QADashboardCard() {
+  const [res, setRes] = useState<any>(null);
+  const [running, setRunning] = useState(false);
+  const run = () => { setRunning(true); fetchJSON('/api/admin/qa/run').then(setRes).finally(() => setRunning(false)); };
+  useEffect(() => { run(); }, []);
+  const pct = res ? Math.round(res.passed / res.total * 100) : 0;
+  return (
+    <Card title="🧪 QA 테스트 대시보드" sub="핵심 기능 모듈 데이터 정량 테스트"
+      info={'전수 데이터의 핵심 조건(분석가능 종목수·재무 3년·손익흐름도·이상치 0 등)을 자동 테스트해 통과/실패를 집계합니다. 출처: /api/admin/qa/run'}>
+      <div className="flex items-center gap-3 mb-3">
+        <button onClick={run} disabled={running} className="text-xs px-3 py-1.5 rounded-lg bg-indigo-600 text-white disabled:opacity-50">{running ? '실행 중…' : '▶ 테스트 실행'}</button>
+        {res && <span className="text-sm font-bold">{res.passed}/{res.total} 통과 <span className={pct === 100 ? 'text-emerald-600' : 'text-amber-600'}>({pct}%)</span></span>}
+      </div>
+      {res && (
+        <div className="space-y-1">
+          {res.tests.map((t: any, i: number) => (
+            <div key={i} className={`flex items-center justify-between rounded-lg px-3 py-2 text-sm border ${t.pass ? 'bg-emerald-50 border-emerald-200' : 'bg-rose-50 border-rose-200'}`}>
+              <span className="flex items-center gap-2">{t.pass ? '✅' : '❌'} {t.test}</span>
+              <span className="text-xs text-slate-500 font-mono">{t.detail}</span>
+            </div>
+          ))}
+        </div>
+      )}
+    </Card>
+  );
+}
+
+function DataMgmtCard() {
+  const [d, setD] = useState<any>(null);
+  useEffect(() => { fetchJSON('/api/admin/data-management').then(setD).catch(() => {}); }, []);
+  if (!d) return null;
+  return (
+    <Card title="🗃️ 데이터 관리 (신선도·갱신 시점)" sub="각 데이터가 언제 기준·어디서·자동/수동 갱신인지"
+      info={'사업보고서 등 원천 데이터의 최신 기준시점, 출처, 갱신 자동화 여부를 보여줍니다. 출처: /api/admin/data-management'}>
+      <div className="overflow-x-auto"><table className="w-full text-xs">
+        <thead><tr className="border-b border-slate-100 text-slate-400"><th className="text-left py-1.5">데이터</th><th className="text-left">기준 시점</th><th className="text-left">출처</th><th className="text-left">갱신</th></tr></thead>
+        <tbody>{(d.items || []).map((it: any, i: number) => (
+          <tr key={i} className="border-b border-slate-50"><td className="py-1.5 font-semibold text-slate-700">{it.name}</td><td className="text-slate-600">{it['기준']}</td><td className="text-slate-500">{it['출처']}</td><td className={it['자동화'].includes('✅') ? 'text-emerald-600 font-semibold' : 'text-slate-500'}>{it['자동화']}</td></tr>
+        ))}</tbody></table></div>
+      <div className="text-[11px] text-amber-600 mt-2">{d.note}</div>
+    </Card>
+  );
+}
+
+function AwsCostCard() {
+  const [d, setD] = useState<any>(null);
+  useEffect(() => { fetchJSON('/api/admin/aws-cost').then(setD).catch(() => {}); }, []);
+  if (!d) return null;
+  return (
+    <Card title="☁️ AWS 비용·리소스" sub="배포 인프라 사용량·요금"
+      info={'AWS Cost Explorer + 리소스 스냅샷. 로컬 _aws_cost_snapshot.py로 생성. 출처: /api/admin/aws-cost'}>
+      {d.available === false ? <div className="text-sm text-slate-400 py-2">{d.note}</div> : (
+        <div>
+          <div className="flex gap-3 flex-wrap mb-2">
+            <div className="bg-emerald-50 border border-emerald-200 rounded-lg px-4 py-2"><div className="text-[11px] text-slate-500">{d.month} 비용</div><div className="text-xl font-extrabold text-emerald-600">${d.cost_usd}</div></div>
+            {Object.entries(d.resources || {}).map(([k, v]: any) => (
+              <div key={k} className="bg-slate-50 border border-slate-200 rounded-lg px-3 py-2"><div className="text-[11px] text-slate-500">{k}</div><div className="text-lg font-bold text-slate-700">{v}</div></div>
+            ))}
+          </div>
+          <div className="text-[11px] text-slate-500">{d.note} <span className="text-slate-400">· 스냅샷 {d.generated_at}</span></div>
+        </div>
+      )}
+    </Card>
+  );
+}
+
 function MonitorTab() {
   const [health, setHealth] = useState<any>(null);
   const [db, setDb] = useState<any>(null);
@@ -118,6 +231,12 @@ function MonitorTab() {
         </span>
         <button onClick={load} className="text-xs px-3 py-1.5 rounded-lg bg-slate-800 text-white hover:bg-slate-700">↻ 새로고침</button>
       </div>
+
+      {/* 기능 모듈 운영 현황 + QA + 데이터관리 + AWS비용 (2026-06-14~15 고도화) */}
+      <ModuleOpsCard />
+      <QADashboardCard />
+      <DataMgmtCard />
+      <AwsCostCard />
 
       {/* 서버 생존 */}
       <Card title="🖥️ 서비스 생존 (Liveness)" sub="포트 연결 + 응답시간"
@@ -451,9 +570,53 @@ function VerifyTab() {
   );
 }
 
+// ───────────────────────── 로그인 게이트 ─────────────────────────
+function AdminLogin({ onOk }: { onOk: () => void }) {
+  const [pw, setPw] = useState('');
+  const [err, setErr] = useState('');
+  const [busy, setBusy] = useState(false);
+  const submit = async () => {
+    setBusy(true); setErr('');
+    try {
+      const r = await fetch(`${API}/api/admin/health`, { headers: { 'X-Admin-Token': pw } });
+      if (r.ok) { sessionStorage.setItem('adminToken', pw); onOk(); }
+      else setErr('비밀번호가 올바르지 않습니다');
+    } catch { setErr('서버에 연결할 수 없습니다'); }
+    setBusy(false);
+  };
+  return (
+    <div className="min-h-screen bg-slate-50 flex items-center justify-center px-4">
+      <div className="bg-white border border-slate-200 rounded-2xl shadow-sm p-8 w-[340px]">
+        <div className="text-xl font-extrabold text-indigo-600 mb-1">FINSIGHT 관리자</div>
+        <div className="text-xs text-slate-400 mb-5">접근하려면 관리자 비밀번호를 입력하세요</div>
+        <input type="password" value={pw} onChange={(e) => setPw(e.target.value)}
+          onKeyDown={(e) => e.key === 'Enter' && submit()} placeholder="비밀번호" autoFocus
+          className="w-full border border-slate-300 rounded-lg px-3 py-2 text-sm mb-2 outline-none focus:border-indigo-500" />
+        {err && <div className="text-xs text-rose-500 mb-2">{err}</div>}
+        <button onClick={submit} disabled={busy}
+          className="w-full bg-indigo-600 text-white rounded-lg py-2 text-sm font-bold disabled:opacity-50">
+          {busy ? '확인 중…' : '입장'}
+        </button>
+      </div>
+    </div>
+  );
+}
+
 // ───────────────────────── 페이지 ─────────────────────────
 export default function AdminPage() {
   const [tab, setTab] = useState<MainTab>('monitor');
+  const [authed, setAuthed] = useState(false);
+  const [checking, setChecking] = useState(true);
+  useEffect(() => {
+    const t = typeof window !== 'undefined' ? sessionStorage.getItem('adminToken') : '';
+    if (!t) { setChecking(false); return; }
+    fetch(`${API}/api/admin/health`, { headers: { 'X-Admin-Token': t } })
+      .then((r) => { if (r.ok) setAuthed(true); else sessionStorage.removeItem('adminToken'); })
+      .catch(() => {})
+      .finally(() => setChecking(false));
+  }, []);
+  if (checking) return <div className="min-h-screen bg-slate-50 flex items-center justify-center text-slate-400 text-sm">확인 중…</div>;
+  if (!authed) return <AdminLogin onOk={() => setAuthed(true)} />;
   return (
     <div className="min-h-screen bg-slate-50">
       <header className="bg-white border-b border-slate-200 sticky top-0 z-20">

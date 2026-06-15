@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ko"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>FINSIGHT 시스템 아키텍처 전체 설명서</title>
+<style>
+:root{--ink:#1e293b;--sub:#64748b;--line:#e2e8f0;--indigo:#6366f1;--soft:#eef2ff;--blue:#2563eb;--orange:#f97316;--green:#16a34a;--teal:#0d9488}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI','Malgun Gothic',sans-serif;background:#f5f7fb;color:var(--ink);line-height:1.7;padding:28px 18px 60px}
+.wrap{max-width:920px;margin:0 auto}
+h1{font-size:28px;font-weight:800} h1 .a{color:var(--indigo)}
+.lead{color:var(--sub);font-size:14.5px;margin-top:6px}
+.stamp{display:inline-block;margin-top:10px;font-size:12px;color:var(--sub);background:#fff;border:1px solid var(--line);padding:4px 12px;border-radius:20px}
+h2{font-size:20px;font-weight:800;margin:30px 0 10px;display:flex;align-items:center;gap:9px}
+h2 .n{background:var(--indigo);color:#fff;width:28px;height:28px;border-radius:8px;display:grid;place-items:center;font-size:14px}
+.card{background:#fff;border:1px solid var(--line);border-radius:14px;padding:18px 22px;margin-top:10px;box-shadow:0 1px 3px rgba(15,23,42,.04)}
+.card p{margin:8px 0} .card b{color:#0f172a}
+.big{font-size:16px;background:var(--soft);border:1px solid #c7d2fe;border-radius:12px;padding:14px 18px;font-weight:600;color:#3730a3}
+.layer{border-radius:11px;padding:12px 15px;margin:8px 0;border:1px solid var(--line)}
+.l1{background:#ede9fe;border-color:#ddd6fe} .l2{background:#ffedd5;border-color:#fed7aa} .l3{background:#dbeafe;border-color:#bfdbfe}
+.layer b{font-size:15px} .layer .m{font-size:13px;color:#475569}
+.flow{display:flex;align-items:center;gap:6px;flex-wrap:wrap;font-size:13px;margin:10px 0}
+.flow .s{background:#f8fafc;border:1px solid var(--line);border-radius:8px;padding:8px 11px;flex:1;min-width:90px;text-align:center}
+.flow .s b{display:block;color:var(--indigo);font-size:12.5px} .flow .s span{font-size:11px;color:var(--sub)}
+.flow .ar{color:var(--orange);font-weight:800}
+.ex{background:#f0fdf4;border:1px solid #bbf7d0;border-radius:10px;padding:12px 16px;margin-top:10px;font-size:13.5px}
+.ex .t{font-weight:800;color:#166534;margin-bottom:4px}
+table{width:100%;border-collapse:collapse;font-size:13px;margin-top:6px}
+th,td{padding:8px 10px;border-bottom:1px solid var(--line);text-align:left} th{background:#f8fafc;font-size:12px;color:var(--sub)}
+.mono{font-family:Consolas,monospace;font-size:12px;color:var(--blue)}
+.tip{background:#fffbeb;border:1px solid #fde68a;border-radius:10px;padding:10px 14px;font-size:13px;color:#92400e;margin-top:10px}
+ul{margin:6px 0 6px 20px} li{margin:4px 0}
+footer{text-align:center;margin-top:40px;font-size:11px;color:#94a3b8;letter-spacing:.2em}
+</style></head><body><div class="wrap">
+
+<h1><span class="a">FINSIGHT</span> 시스템 아키텍처 전체 설명서</h1>
+<p class="lead">비개발자도 발표할 수 있게 — "데이터가 어디서 와서 어떻게 화면까지 오는가"를 쉬운 말로</p>
+<span class="stamp">2026-06-14 · 운영 FILMN9 Inc. · 발표/이해용</span>
+
+<h2><span class="n">1</span>한 문장 요약</h2>
+<div class="card"><p class="big">FINSIGHT는 <b>국내 상장사 약 2,600개의 재무·기업가치·AI 분석을 한 화면에서 보여주는 서비스</b>입니다. 모든 숫자는 DART 같은 <b>공식 출처에서 자동으로 끌어와</b> 데이터베이스에 쌓아두고, 사용자가 종목을 열면 그 데이터를 꺼내 화면에 그립니다. (검증 안 된 값은 만들지 않는다 = NO-MOCK)</p></div>
+
+<h2><span class="n">2</span>3개의 층으로 나뉘어 있습니다</h2>
+<div class="card">
+  <p>건물처럼 층이 나뉘어 있다고 생각하면 쉽습니다. 각 층은 자기 일만 합니다.</p>
+  <div class="layer l1"><b>① 프론트엔드 (화면 층) — Next.js</b><div class="m">사용자가 보는 웹 화면. 종목 페이지의 3개 탭(기업개요·밸류에이션·AI챗봇). 데이터를 직접 안 만들고, 아래 백엔드에 "이 종목 데이터 줘"라고 요청해서 받은 걸 예쁘게 그립니다. (포트 3000)</div></div>
+  <div class="layer l2"><b>② 백엔드 (중간 다리 층) — FastAPI</b><div class="m">화면과 데이터 사이의 다리. 프론트가 요청하면 데이터베이스·파일에서 꺼내 <b>가공(계산·정렬·없으면 폴백)</b>해서 JSON으로 돌려줍니다. 예: "부채비율" 같은 건 여기서 계산. (포트 8090)</div></div>
+  <div class="layer l3"><b>③ 데이터 층 — DB 4종 + 파일</b><div class="m">실제 데이터가 사는 곳. 성격이 달라서 4가지로 나눠 저장합니다(아래 4번).</div></div>
+  <div class="tip">💡 왜 나눌까? 화면 바꾼다고 데이터가 깨지지 않고, AI(무거운 챗봇)가 본 서비스를 느리게 하지 않도록 <b>분리</b>해서 안정성과 비용을 통제하기 위해서입니다.</div>
+</div>
+
+<h2><span class="n">3</span>데이터가 화면까지 오는 길</h2>
+<div class="card">
+  <div class="flow">
+    <div class="s"><b>원천</b><span>DART·yfinance 등</span></div><span class="ar">▶</span>
+    <div class="s"><b>수집·파싱</b><span>스크립트가 받아 정리</span></div><span class="ar">▶</span>
+    <div class="s"><b>DB 적재</b><span>Postgres/Mongo/Chroma</span></div><span class="ar">▶</span>
+    <div class="s"><b>FastAPI</b><span>꺼내 가공→JSON</span></div><span class="ar">▶</span>
+    <div class="s"><b>화면</b><span>Next.js가 그림</span></div>
+  </div>
+  <div class="ex"><div class="t">예시 A — 손익흐름도(Sankey): "미리 그려둔 그림"</div>
+  매번 그리면 느리니까, <span class="mono">build_sankey_v3.py</span>가 <b>전 종목 2,654개를 HTML 그림으로 미리 만들어</b> <span class="mono">outputs/sankey/{종목}_sankey.html</span>에 저장해둡니다. 사용자가 손익흐름도 탭을 열면 FastAPI(<span class="mono">/sankey/{종목}</span>)가 <b>그 파일을 그대로 보내고</b>, 화면은 그걸 표시합니다. → "그때그때 그리는 게 아니라, 이미 그려둔 파일을 꺼내 보여주는 것".</div>
+  <div class="ex"><div class="t">예시 B — 재무제표 3년치: "실시간 DB 조회"</div>
+  DART에서 받은 재무를 <span class="mono">financial_detail</span> 테이블(95.6만 행)에 쌓아둡니다. 재무상태표 탭을 열면 FastAPI(<span class="mono">/api/financial_detail/{종목}/BS</span>)가 그 종목의 3개년(2025/24/23)을 <b>그 자리에서 꺼내 표로 정리</b>해 보냅니다.</div>
+  <p style="margin-top:10px;font-size:13px;color:var(--sub)">→ 즉 기능마다 방식이 다릅니다: <b>사전생성(파일)</b> vs <b>실시간 조회(DB)</b> vs <b>외부 실시간 호출(주가·뉴스)</b>. 어느 방식인지는 데이터 원천 지도 v2에 모듈별로 표기돼 있습니다.</p>
+</div>
+
+<h2><span class="n">4</span>DB가 왜 4종인가 (하이브리드)</h2>
+<div class="card"><table>
+  <tr><th>종류</th><th>담는 것</th><th>왜 이 DB</th></tr>
+  <tr><td><b>PostgreSQL</b><br><span style="font-size:11px;color:var(--sub)">로컬=SQLite / AWS=RDS</span></td><td>표 형태 데이터 16테이블(재무·주가·주주·밸류·공시 등, 1,175만 행)</td><td>정형(행·열) 데이터에 최적, 빠른 조회·집계</td></tr>
+  <tr><td><b>MongoDB Atlas</b></td><td>히스토리 브리핑(서술형 문서)</td><td>긴 문장·자유 구조 문서에 적합</td></tr>
+  <tr><td><b>ChromaDB</b></td><td>사업보고서 임베딩(벡터, 377만 청크)</td><td>AI 챗봇이 "의미로 검색"하려면 벡터DB 필요</td></tr>
+  <tr><td><b>S3 / 파일</b></td><td>Sankey HTML·밸류 JSON·계열사 이미지</td><td>완성된 파일은 그냥 파일로 두는 게 빠름</td></tr>
+</table>
+  <p style="margin-top:8px;font-size:13px"><b>핵심:</b> "한 DB로 다 하지 않는다." 표는 표 DB, 문서는 문서 DB, 벡터는 벡터 DB, 파일은 파일 — 각자 잘하는 곳에.</p>
+</div>
+
+<h2><span class="n">5</span>로컬 vs AWS — 왜 둘 다 켜져 있나</h2>
+<div class="card"><table>
+  <tr><th></th><th>💻 로컬(내 PC)</th><th>☁️ AWS(클라우드)</th></tr>
+  <tr><td>주소</td><td class="mono">localhost:3000</td><td class="mono">43.203.94.124:3000</td></tr>
+  <tr><td>용도</td><td>개발·검증(나만)</td><td>데모(전세계 공개)</td></tr>
+  <tr><td>관계형 DB</td><td>SQLite 파일</td><td>RDS PostgreSQL</td></tr>
+  <tr><td>특징</td><td>인터넷 없어도 됨</td><td>내 PC 꺼도 24시간 작동</td></tr>
+</table>
+  <p style="margin-top:8px;font-size:13px">같은 코드를 두 곳에 띄운 것뿐입니다. 데이터는 동일(이전 완료). 로컬은 검증용, AWS는 발표/공유용.</p>
+</div>
+
+<h2><span class="n">6</span>개발 과정 — 왜 이 순서로 만들었나</h2>
+<div class="card">
+  <ul>
+    <li><b>킥오프~S1</b>(4/22~): 헌장·페르소나·기획서·요구사항 — "무엇을 누구를 위해"</li>
+    <li><b>S2</b>(4/29~5/9): 밸류에이션 엔진 MVP(WACC·DCF·멀티플) — <b>가장 어려운 계산부터</b></li>
+    <li><b>S3</b>(5/12~5/22): 기업개요·AI 히스토리 브리핑·화면(Next.js)·API(FastAPI)·1차 배포</li>
+    <li><b>S4</b>(5/26~6/5): 재무 정확성(3개년)·전수화·관리자 페이지</li>
+    <li><b>S5</b>(6/8~6/19): <b>DB 클라우드 이관·NO-MOCK 전수검증·AWS 배포</b> — 신뢰성과 배포</li>
+  </ul>
+  <p style="font-size:13px"><b>전략:</b> 리스크 큰 것(밸류 계산) → 데이터 신뢰성 → 클라우드 순. "되는지부터 증명하고, 정확하게 만들고, 세상에 올린다."</p>
+</div>
+
+<h2><span class="n">7</span>관통하는 원칙 — NO-MOCK</h2>
+<div class="card"><p class="big">검증 안 된 숫자·문장은 <b>단 하나도 만들지 않는다.</b> 모든 값은 DART 등 출처 기반. 없으면 "데이터 없음"으로 정직하게 표기. → 이게 FINSIGHT의 최대 차별점이자, 관리자 페이지(신뢰도 검증)로 직접 증명하는 부분입니다.</p></div>
+
+<footer>FILMN9 Inc. · 시스템 아키텍처 전체 설명서 · 비개발자 발표/이해용</footer>
+</div></body></html>

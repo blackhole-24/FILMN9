@@ -66,7 +66,9 @@ const mono = (v: React.ReactNode) => <span style={{ fontFamily: T.mono, fontSize
 async function tfetch(url: string, opts: RequestInit = {}, ms = 6000) {
   const ctl = new AbortController();
   const t = setTimeout(() => ctl.abort(), ms);
-  try { const r = await fetch(url, { ...opts, signal: ctl.signal }); return await r.json(); }
+  // 관리자 인증 토큰 주입(/api/admin/* 보호용, 다른 엔드포인트엔 무해)
+  const tok = typeof window !== 'undefined' ? sessionStorage.getItem('adminToken') || '' : '';
+  try { const r = await fetch(url, { ...opts, signal: ctl.signal, headers: { ...(opts.headers || {}), 'X-Admin-Token': tok } }); return await r.json(); }
   finally { clearTimeout(t); }
 }
 

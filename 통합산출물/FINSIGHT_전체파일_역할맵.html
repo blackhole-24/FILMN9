@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ko"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>FINSIGHT 전체 파일 역할맵</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI','Malgun Gothic',sans-serif;background:#f5f7fb;color:#1e293b;line-height:1.55;padding:26px 18px 60px}
+.wrap{max-width:1000px;margin:0 auto}
+h1{font-size:26px;font-weight:800} h1 .a{color:#6366f1}
+.lead{color:#64748b;font-size:14px;margin-top:5px}
+.stamp{display:inline-block;margin-top:9px;font-size:12px;color:#64748b;background:#fff;border:1px solid #e2e8f0;padding:4px 12px;border-radius:20px}
+h2{font-size:18px;font-weight:800;margin:26px 0 8px;display:flex;align-items:center;gap:8px}
+.card{background:#fff;border:1px solid #e2e8f0;border-radius:12px;padding:6px 4px;margin-top:8px;box-shadow:0 1px 3px rgba(15,23,42,.04);overflow:hidden}
+table{width:100%;border-collapse:collapse;font-size:13px}
+th,td{padding:8px 12px;border-bottom:1px solid #eef2f7;text-align:left;vertical-align:top}
+th{background:#f8fafc;font-size:12px;color:#64748b}
+.f{font-family:Consolas,monospace;font-size:12px;color:#2563eb;font-weight:600;white-space:nowrap}
+.tip{background:#fffbeb;border:1px solid #fde68a;border-radius:10px;padding:10px 14px;font-size:13px;color:#92400e;margin-top:10px}
+.note{font-size:12.5px;color:#64748b;margin-top:6px}
+footer{text-align:center;margin-top:36px;font-size:11px;color:#94a3b8;letter-spacing:.2em}
+</style></head><body><div class="wrap">
+
+<h1><span class="a">FINSIGHT</span> 전체 파일 역할맵</h1>
+<p class="lead">FILMN9 폴더의 주요 파일이 각각 무슨 역할을 하는지 한 줄로 — 코드 해석이 아니라 "큰 흐름"용</p>
+<span class="stamp">2026-06-14 · 발표/이해용 · 상세 데이터흐름은 데이터원천지도 v2 참조</span>
+
+<div class="tip">💡 읽는 법: <b>backend</b>=데이터를 꺼내주는 서버, <b>frontend</b>=화면, <b>루트 스크립트</b>=데이터를 모아 DB에 쌓는 도구(대부분 1회 실행). 파일명 앞 단어가 보통 역할(build=생성, fetch/load=수집·적재, parse=파싱, check=점검).</div>
+
+<h2>🖥️ 백엔드 (FastAPI · 데이터를 꺼내 가공해 주는 서버 :8090)</h2>
+<div class="card"><table>
+<tr><th>파일</th><th>역할</th></tr>
+<tr><td class="f">backend/main.py</td><td>서버 진입점. 모든 라우터를 등록하고, 손익흐름도 HTML(<span class="f">/sankey/{code}</span>)을 직접 서빙. CORS 설정.</td></tr>
+<tr><td class="f">backend/db.py</td><td>★DB 연결 추상화. <b>SQLite(로컬)↔PostgreSQL(AWS)</b>를 .env의 DB_BACKEND로 전환. psycopg 래퍼(? →%s 변환 등).</td></tr>
+<tr><td class="f">routers/overview.py</td><td>기업개요 종합(<span class="f">/api/overview</span>). 재무 하이라이트·건전성·주주·경영인 + Mongo 히스토리브리핑을 한 번에 묶어 반환.</td></tr>
+<tr><td class="f">routers/extras.py</td><td>재무제표 상세(<span class="f">/api/financial_detail/{code}/BS·IS</span>, 3개년 피벗) + 공급계약 등 부가.</td></tr>
+<tr><td class="f">routers/valuation.py</td><td>밸류 상세(<span class="f">/api/valuation·valuation-full</span>) — 엔진 합본 JSON 반환(대시보드 iframe용).</td></tr>
+<tr><td class="f">routers/valuation_summary.py</td><td>밸류 요약 랭킹(<span class="f">/api/valuation-summary</span>) — 2,224종 적정가·신뢰도·현재가 정렬.</td></tr>
+<tr><td class="f">routers/sectors.py</td><td>산업분류 탐색(<span class="f">/api/sectors</span>) + 메인 추천 캐러셀(<span class="f">/featured</span>).</td></tr>
+<tr><td class="f">routers/morning.py</td><td>글로벌 마켓 시그널(<span class="f">/api/morning</span>) — yfinance 41지표 실시간+캐시·자동갱신.</td></tr>
+<tr><td class="f">routers/ohlcv.py</td><td>주가 일봉 차트 데이터(<span class="f">/api/ohlcv/{code}</span>).</td></tr>
+<tr><td class="f">routers/admin.py</td><td>관리자(운영 모니터링·신뢰도 검증) + <b>verify_admin</b> 비밀번호 인증(X-Admin-Token).</td></tr>
+<tr><td class="f">routers/affiliate.py</td><td>계열회사 구조 SVG/이미지(<span class="f">/api/affiliate/{code}</span>).</td></tr>
+<tr><td class="f">routers/company.py</td><td>회사 기본정보 조회.</td></tr>
+</table></div>
+
+<h2>🎨 프론트엔드 (Next.js · 사용자 화면 :3000)</h2>
+<div class="card"><table>
+<tr><th>파일</th><th>역할</th></tr>
+<tr><td class="f">app/page.tsx</td><td>메인 홈 — 글로벌 마켓 시그널·밸류 요약·추천 캐러셀·검색.</td></tr>
+<tr><td class="f">app/stock/[code]/page.tsx</td><td>★종목 상세(가장 큰 화면) — 기업개요·밸류에이션·AI챗봇 3탭 전체. 재무 하이라이트·Sankey·재무제표·주주·계열사 등.</td></tr>
+<tr><td class="f">app/valuation/page.tsx</td><td>밸류에이션 요약 랭킹 페이지.</td></tr>
+<tr><td class="f">app/sectors/page.tsx<br>app/sectors/[sector]/page.tsx</td><td>산업(업종) 탐색 → 업종별 종목 리스트.</td></tr>
+<tr><td class="f">app/admin/page.tsx<br>app/admin/valuation-console.tsx</td><td>관리자 페이지(운영·검증·밸류관리자·밸류테스트 4탭) + 로그인 게이트.</td></tr>
+<tr><td class="f">app/layout.tsx</td><td>공통 레이아웃(헤더·푸터·폰트).</td></tr>
+<tr><td class="f">next.config.ts</td><td>빌드 설정(EC2 배포용 standalone 출력).</td></tr>
+</table></div>
+
+<h2>⚙️ 핵심 데이터 파이프라인 스크립트 (DB에 데이터 쌓는 도구)</h2>
+<div class="card"><table>
+<tr><th>파일</th><th>역할</th></tr>
+<tr><td class="f">통합산출물/.../_rebuild_financial_detail_dart.py</td><td>★재무제표 3개년을 <b>DART API에서 직접 재구축</b>→financial_detail(현행 정본).</td></tr>
+<tr><td class="f">통합산출물/.../_fetch_financials_2026q1.py<br>_refetch_financials_2025.py · _migrate_financials_pk.py</td><td>재무 하이라이트(2026 1분기·2025·2024) 수집 + PK 3컬럼 확장(분기·연간 공존).</td></tr>
+<tr><td class="f">build_sankey_v3.py</td><td>★손익흐름도(Sankey) HTML <b>전 종목 사전생성</b>(2,654개)→outputs/sankey/.</td></tr>
+<tr><td class="f">ohlcv_daily_sync.py</td><td>주가 일봉 동기화 — <b>매 거래일 16:00 작업스케줄러 자동</b> 실행.</td></tr>
+<tr><td class="f">load_valuation_summary.py</td><td>밸류 엔진 산출 summary.csv → valuation_summary 테이블 적재.</td></tr>
+<tr><td class="f">load_all_extras_dart.py · build_competitors.py · build_customers.py · build_stock_status.py · dart_halt_scan.py</td><td>공시·임원·주주·경쟁사·고객·거래정지 등 부가 데이터 DART 수집·적재.</td></tr>
+<tr><td class="f">load_wics_dict.py · build_ticker_suffix.py</td><td>산업분류(WICS) 사전·yfinance 티커 접미사 구축.</td></tr>
+<tr><td class="f">healthcheck_full.py · check_data_freshness.py · coverage_report.py</td><td>전수 검수·데이터 신선도·커버리지 점검 도구.</td></tr>
+</table>
+<p class="note">※ 루트의 나머지 스크립트(backfill_*, fix_*, parse_*, debug_*, inspect_* 등 ~50개)는 대부분 <b>1회성 빌드·백필·디버그 유틸</b>입니다. 데이터는 이미 DB에 적재돼 있어 평소엔 안 돌립니다. (구 parse_business_report_xml.py는 DART API 재구축으로 대체됨)</p></div>
+
+<h2>🤖 챗봇 · 🗄️ 데이터 · ☁️ 배포</h2>
+<div class="card"><table>
+<tr><th>파일/폴더</th><th>역할</th></tr>
+<tr><td class="f">chatbot/embedding/chatbot/api.py</td><td>AI 챗봇 서버(:8800) — RAG 검색+LLM 답변(별도 마이크로서비스).</td></tr>
+<tr><td class="f">chatbot/embedding/chroma_db/</td><td>벡터 DB(사업보고서 임베딩 377만 청크, ~40GB).</td></tr>
+<tr><td class="f">data/filmn9.db</td><td>로컬 관계형 DB(SQLite, 16테이블). AWS에선 RDS PostgreSQL.</td></tr>
+<tr><td class="f">data/ticker_universe.csv</td><td>상장 종목 마스터(코드·이름·WICS업종).</td></tr>
+<tr><td class="f">.env</td><td>★비밀키·DB접속·ADMIN_TOKEN(절대 Git 금지). 코드는 여기서 읽기만.</td></tr>
+<tr><td class="f">통합산출물/AWS배포/</td><td>AWS 배포 가이드·S3 업로드 스크립트.</td></tr>
+<tr><td class="f">handover/ · docs/ · 통합산출물/</td><td>인수인계·PM 산출물·설명서·리포트(이 파일 포함).</td></tr>
+</table></div>
+
+<footer>FILMN9 Inc. · 전체 파일 역할맵 · 코드 한 줄 해석은 추후 개별 문의</footer>
+</div></body></html>

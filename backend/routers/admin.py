@@ -24,9 +24,20 @@ import sqlite3
 import time
 from pathlib import Path
 
-from fastapi import APIRouter, Body
+import os
+from fastapi import APIRouter, Body, Header, HTTPException, Depends
 
-router = APIRouter()
+
+def verify_admin(x_admin_token: str = Header(default="")):
+    """관리자 인증 — .env의 ADMIN_TOKEN과 X-Admin-Token 헤더 일치 시에만 통과.
+    ADMIN_TOKEN 미설정이면 전부 401(안전 기본값). 값은 코드/Git에 두지 않고 .env에서만 읽음."""
+    expected = os.getenv("ADMIN_TOKEN", "")
+    if not expected or x_admin_token != expected:
+        raise HTTPException(status_code=401, detail="관리자 인증이 필요합니다")
+
+
+# 모든 /admin/* 라우트에 인증 의존성 적용
+router = APIRouter(dependencies=[Depends(verify_admin)])
 
 _ROOT = Path(__file__).resolve().parent.parent.parent
 _DB = _ROOT / "data" / "filmn9.db"
@@ -758,3 +769,145 @@ def admin_meta():
         "ports": {"frontend": 3000, "backend": 8090, "chatbot": 8800},
         "policy": {"no_mock": True, "note": "실데이터 100% — 데이터 없으면 가짜 숫자 대신 '미평가/준비중' 표시"},
     }
+
+
+# ───────────────────────── 기능 모듈 운영 현황 (2026-06-14 고도화) ─────────────────────────
+# 각 기능 모듈이 어느 원천(DB/파일)에서 → 어떻게 화면까지 오는지 + 실시간 상태(데이터 보유수).
+# ID = 데이터 원천 지도 번호. UI는 서비스(메인/기업개요/밸류) 그룹 순서로 배치.
+def _cnt(sql: str) -> int:
+    try:
+        con = _conn(); cur = con.cursor()
+        n = cur.execute(sql).fetchone()[0]
+        con.close()
+        return int(n)
+    except Exception:
+        return -1
+
+
+@router.get("/admin/modules")
+def admin_modules():
+    """기능 모듈별 원천→흐름→자동화→실시간 상태. 운영 대시보드용."""
+    sankey_n = len(list(_SANKEY.glob("*_sankey.html"))) if _SANKEY.exists() else 0
+    vres = _ROOT / "data" / "valuation_results"
+    vres_n = len([d for d in vres.iterdir() if d.is_dir()]) if vres.exists() else 0
+    affil_n = 0
+    for sub in ("samples", "samples_structure_diagrams", "samples_graphviz_style"):
+        p = _AFFIL / sub
+        if p.exists():
+            affil_n += len(list(p.glob("*")))
+
+    def card(idn, group, name, source, store, api, auto, status, count, unit="종"):
+        return {"id": idn, "group": group, "name": name, "source": source, "store": store,
+                "api": api, "auto": auto, "status": status, "count": count, "unit": unit}
+
+    def st(n, warn=1, good=2000):
+        if n < 0: return "down"
+        if n == 0: return "down"
+        if n < good: return "warn"
+        return "ok"
+
+    mods = []
+    # 메인
+    mods.append(card("3", "메인", "글로벌 마켓 시그널", "yfinance 41지표+네이버(금/금리)", "DB 미적재(메모리 캐시)",
+                     "GET /api/morning", "실시간 호출·15분 캐시·자동 갱신", "realtime", "실시간", ""))
+    mods.append(card("2", "메인", "산업 탐색(WICS)", "KRX WICS 분류", "RDS/SQLite company_info.sector + wics_keywords",
+                     "GET /api/sectors", "사전 적재", st(_cnt("SELECT COUNT(*) FROM company_info")), _cnt("SELECT COUNT(*) FROM company_info")))
+    mods.append(card("5A", "메인", "밸류 요약 랭킹", "DCF 엔진 v8 산출", "RDS/SQLite valuation_summary",
+                     "GET /api/valuation-summary", "summary.csv→적재", st(_cnt("SELECT COUNT(*) FROM valuation_summary")), _cnt("SELECT COUNT(*) FROM valuation_summary")))
+    # 기업개요
+    mods.append(card("6", "기업개요", "히스토리 브리핑", "DART 사업보고서+LLM", "MongoDB Atlas filmn9.histories",
+                     "GET /api/overview(brief)", "8단계 LLM 파이프라인 사전생성", "ok", "Atlas", ""))
+    mods.append(card("7", "기업개요", "주가차트(OHLCV)", "KRX(yfinance/pykrx)", "RDS/SQLite ohlcv",
+                     "GET /api/ohlcv/{code}", "매 거래일 16:00 스케줄러 자동", st(_cnt("SELECT COUNT(DISTINCT stock_code) FROM ohlcv")), _cnt("SELECT COUNT(DISTINCT stock_code) FROM ohlcv")))
+    mods.append(card("8", "기업개요", "손익흐름도(Sankey)", "DART 재무(IS/CIS)", "파일 outputs/sankey/*.html",
+                     "GET /sankey/{code}", "build_sankey_v3 전수 사전생성", st(sankey_n), sankey_n, "개"))
+    mods.append(card("9", "기업개요", "재무제표 BS/IS(3년)", "DART API fnlttSinglAcntAll", "RDS/SQLite financial_detail",
+                     "GET /api/financial_detail/{code}/{BS|IS}", "DART 3년치 직접 재구축", st(_cnt("SELECT COUNT(DISTINCT stock_code) FROM financial_detail")), _cnt("SELECT COUNT(DISTINCT stock_code) FROM financial_detail")))
+    mods.append(card("12", "기업개요", "재무 하이라이트/건전성", "DART API 재무", "RDS/SQLite financials",
+                     "GET /api/overview", "2026 1분기·YoY 수집", st(_cnt("SELECT COUNT(DISTINCT stock_code) FROM financials")), _cnt("SELECT COUNT(DISTINCT stock_code) FROM financials")))
+    mods.append(card("11", "기업개요", "주주 구성", "DART 최대주주·5%이상", "RDS/SQLite shareholders",
+                     "GET /api/shareholders/{code}", "사전 적재", st(_cnt("SELECT COUNT(DISTINCT stock_code) FROM shareholders")), _cnt("SELECT COUNT(DISTINCT stock_code) FROM shareholders")))
+    mods.append(card("10", "기업개요", "경영인", "DART 임원현황", "RDS/SQLite executives",
+                     "GET /api/executives/{code}", "사전 적재", st(_cnt("SELECT COUNT(DISTINCT stock_code) FROM executives")), _cnt("SELECT COUNT(DISTINCT stock_code) FROM executives")))
+    mods.append(card("13", "기업개요", "최근 공시", "DART list.json", "RDS/SQLite disclosures + 실시간",
+                     "GET /api/disclosures/{code}", "일부 적재+실시간", st(_cnt("SELECT COUNT(*) FROM disclosures"), good=50), _cnt("SELECT COUNT(*) FROM disclosures"), "건"))
+    mods.append(card("15A", "기업개요", "계열회사 구조", "DART 소유지분도", "파일(SVG/이미지)",
+                     "GET /api/affiliate/{code}", "사전 생성(현재 샘플)", st(affil_n, good=5), affil_n, "파일"))
+    # 밸류
+    mods.append(card("16", "밸류에이션", "밸류 대시보드(DCF)", "DCF 엔진 v8(태상)", "파일 valuation_results/*.json",
+                     "GET /api/valuation-full/{code}", "엔진 산출 합본JSON", st(vres_n), vres_n))
+    # 챗봇
+    mods.append(card("18", "AI챗봇", "RAG 챗봇", "DART 사업보고서 임베딩", "ChromaDB(별도 :8800)",
+                     "POST :8800/chat/stream", "BGE-M3+리랭커 GPU+LLM", "ok" if _port_up("127.0.0.1", 8800) else "down", "8800", ""))
+    groups = ["메인", "기업개요", "밸류에이션", "AI챗봇"]
+    return {"generated_at": _vdt.now().strftime("%Y-%m-%d %H:%M:%S"), "groups": groups, "modules": mods}
+
+
+@router.get("/admin/qa/run")
+def admin_qa_run():
+    """QA 테스트 — 핵심 기능 모듈의 데이터 보유를 정량 테스트하고 통과/실패 집계."""
+    tests = []
+    def t(name, ok, detail=""):
+        tests.append({"test": name, "pass": bool(ok), "detail": detail})
+    n_an = _cnt("SELECT COUNT(*) FROM (SELECT f.stock_code FROM financials f JOIN ohlcv o ON f.stock_code=o.stock_code WHERE f.revenue IS NOT NULL GROUP BY f.stock_code)")
+    t("분석가능 종목 ≥ 2,500 (재무+주가)", n_an >= 2500, f"{n_an}종")
+    n_fd3 = _cnt("SELECT COUNT(*) FROM (SELECT stock_code FROM financial_detail GROUP BY stock_code HAVING COUNT(DISTINCT fiscal_year)>=3)")
+    t("재무제표 3년치 ≥ 2,500종", n_fd3 >= 2500, f"{n_fd3}종")
+    n_sk = len(list(_SANKEY.glob("*_sankey.html"))) if _SANKEY.exists() else 0
+    t("손익흐름도 파일 ≥ 2,500개", n_sk >= 2500, f"{n_sk}개")
+    n_sh = _cnt("SELECT COUNT(DISTINCT stock_code) FROM shareholders")
+    t("주주구성 ≥ 2,500종", n_sh >= 2500, f"{n_sh}종")
+    n_val = _cnt("SELECT COUNT(*) FROM valuation_summary")
+    t("밸류 요약 ≥ 2,000종", n_val >= 2000, f"{n_val}종")
+    n_q1 = _cnt("SELECT COUNT(*) FROM financials WHERE reprt_code='11013' AND fiscal_year=2026")
+    t("2026 1분기 재무 ≥ 2,500종", n_q1 >= 2500, f"{n_q1}종")
+    n_neg = _cnt("SELECT COUNT(*) FROM financials WHERE revenue<0")
+    t("매출 음수(이상치) = 0", n_neg == 0, f"{n_neg}건")
+    passed = sum(1 for x in tests if x["pass"])
+    return {"generated_at": _vdt.now().strftime("%Y-%m-%d %H:%M:%S"),
+            "total": len(tests), "passed": passed, "failed": len(tests) - passed, "tests": tests}
+
+
+@router.get("/admin/data-management")
+def admin_data_management():
+    """데이터 관리 — 각 데이터의 최신 기준시점·적재출처·갱신 자동화 여부(#17·#25)."""
+    def one(sql):
+        try:
+            con = _conn(); v = con.cursor().execute(sql).fetchone(); con.close()
+            return v[0] if v else None
+        except Exception:
+            return None
+    fy_max = one("SELECT MAX(fiscal_year) FROM financials")
+    ohlcv_max = one("SELECT MAX(date) FROM ohlcv")
+    items = [
+        {"name": "재무 하이라이트(financials)", "기준": f"최신 {fy_max}년 / 분기보고서 포함",
+         "출처": "DART fnlttSinglAcntAll", "자동화": "수동(분기·연간 보고서 공시 시 재수집)", "갱신주기": "분기"},
+        {"name": "재무제표 3개년(financial_detail)", "기준": "2025·2024·2023 (사업보고서 당기/전기/전전기)",
+         "출처": "DART API 직접 재구축", "자동화": "수동(사업보고서 갱신 시)", "갱신주기": "연 1회(3월 전후)"},
+        {"name": "주가(ohlcv)", "기준": f"최신 거래일 {ohlcv_max}",
+         "출처": "yfinance/pykrx (KRX)", "자동화": "✅ 매 거래일 16:00 작업스케줄러 자동", "갱신주기": "매일"},
+        {"name": "주주·경영인·공시", "기준": "최신 사업보고서 기준",
+         "출처": "DART OpenAPI", "자동화": "수동", "갱신주기": "연 1회"},
+        {"name": "히스토리 브리핑", "기준": "2025 사업보고서",
+         "출처": "DART RAG + LLM", "자동화": "수동(LLM 파이프라인 실행)", "갱신주기": "연 1회"},
+        {"name": "밸류에이션", "기준": "엔진 v8 산출분",
+         "출처": "DCF 엔진(export_poc)", "자동화": "수동(엔진 배치)", "갱신주기": "분기/수시"},
+    ]
+    return {"generated_at": _vdt.now().strftime("%Y-%m-%d %H:%M:%S"),
+            "items": items,
+            "note": "사업보고서 갱신 자동화(예: 신규 공시 감지→재수집)는 향후 과제(#25). 현재 주가만 완전 자동."}
+
+
+@router.get("/admin/aws-cost")
+def admin_aws_cost():
+    """AWS 비용·리소스 스냅샷(#17). 로컬 _aws_cost_snapshot.py가 생성한 data/aws_snapshot.json 표시."""
+    import json as _json
+    f = _ROOT / "data" / "aws_snapshot.json"
+    if not f.exists():
+        return {"available": False, "note": "스냅샷 없음. 로컬에서 _aws_cost_snapshot.py 실행 후 data/aws_snapshot.json 생성/업로드 필요."}
+    try:
+        snap = _json.loads(f.read_text(encoding="utf-8"))
+        snap["available"] = True
+        return snap
+    except Exception as e:
+        return {"available": False, "note": f"스냅샷 읽기 실패: {e}"}
