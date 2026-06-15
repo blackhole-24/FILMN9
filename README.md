@@ -1,74 +1,157 @@
-# FILMN9 — AI 기반 KOSPI/KOSDAQ 종목 분석 플랫폼
+<div align="center">
 
-KOSPI·KOSDAQ 약 2,700개 상장사를 대상으로 **기업개요·주가·재무·밸류에이션·거래상태**를
-한 화면에서 제공하는 웹 서비스. (KPMG AI Lab 1차 POC)
+# 📊 FINSIGHT
 
-종목을 검색하면 기업개요·히스토리 브리핑·주가차트·재무제표(B/S·I/S·손익흐름 Sankey)·
-주주·경영인·전자공시·경쟁사/고객사·밸류에이션이 한 번에 표시되며,
-상장폐지·거래정지 종목은 한국거래소(KRX)·DART 기반으로 자동 식별해 상태를 안내한다.
+### AI 기반 기업분석 · 밸류에이션 종합 플랫폼
 
----
+**"기업 분석, 이제 5분 만에"**
+DART 공시 + LLM + DCF 모델링으로, 개인 투자자도 기관 수준의 분석을 한 화면에서.
 
-## 🏗️ 시스템 아키텍처 (폴더 = 구성요소)
+🔒 **Live Demo** — https://43.203.94.124.nip.io
+KPMG AI Lab 프로젝트 · 운영 FILMN9 Inc. · 분석 대상 KOSPI·KOSDAQ 약 2,600개 상장사
 
-| 계층 | 폴더 | 기술 | 역할 |
-|---|---|---|---|
-| **프론트엔드** | `frontend/` | Next.js 16 · React 19 · Turbopack (port 3000) | 종목 검색·대시보드 UI |
-| **백엔드 API** | `backend/` | FastAPI · Python 3.11 (port 8000) | 20+ REST 엔드포인트 (주가·재무·공시·뉴스·상태 등) |
-| **데이터베이스** | `database/` + `data/`(비공개) | SQLite(filmn9.db) · MongoDB Atlas · Chroma | 스키마·적재 스크립트 / 실데이터 |
-| **데이터 수집** | `data_pipeline/` | DART OpenAPI · 사업보고서 XML | 원천 데이터 수집·전처리 파이프라인 |
-| **데이터 파이프라인** | 루트 `*.py` 스크립트 | yfinance · pykrx · FinanceDataReader | 주가·재무·경쟁사·거래상태 적재 (아래 표) |
-
-> 시스템 아키텍처 다이어그램: **`deliverables_main/FILMN9_시스템아키텍처_로컬·AWS.excalidraw`**
+</div>
 
 ---
 
-## 📂 파트별 산출물
+## 📌 프로젝트 기획
 
-| 폴더 | 내용 |
+개인 투자자는 정보의 바다에서 길을 잃습니다. 재무제표는 DART에 있지만 전문가용이라 어렵고,
+증권앱은 시세 중심이며, AI 요약은 그럴듯하지만 **출처가 불투명**해 믿기 어렵습니다.
+적정주가 계산은 복잡하고요.
+
+> **목표** — 흩어진 *재무 · 기업가치 · 뉴스 · AI 분석*을 **한 화면에서, 신뢰할 수 있게** 보여주는
+> 서비스. "쉬움"과 "신뢰"를 동시에 주는, 시장의 빈틈을 채우는 플랫폼.
+
+## 👤 페르소나
+
+> **"스스로 공부하는 개인 투자자"**
+> — 남이 찍어주는 종목이 아니라, 기업의 재무·가치·스토리를 **직접 근거를 보고** 판단하려는 사람.
+> 전문 용어와 복잡한 계산 없이, 출처가 분명한 분석을 한곳에서 보길 원한다.
+
+## 🎯 핵심 원칙 — NO-MOCK
+
+> **"추정하지 않는다. 출처로 말한다."**
+
+화면의 모든 수치·문장은 **DART 공시·실데이터**에 근거하며, 검증되지 않은 값은 가짜로 채우지 않고
+**"데이터 없음 / 검증중"**으로 정직하게 표기합니다. 이 원칙이 FINSIGHT의 **최대 차별점**입니다.
+
+## ✨ 주요 기능
+
+| 영역 | 기능 |
 |---|---|
-| `기업개요_파트/` | 기업개요·히스토리 브리핑 (재무정보·MongoDB 브리핑) |
-| `밸류에이션_파트/` | DCF·상대가치·컨센서스 수집(consensus)·peer·XBRL |
-| `ui_share/` | 밸류에이션 UI 공유본 |
-| `docs/` | 기획서·페르소나·프로젝트헌장·설계도·요구사항정의서·AI기능 설계서 |
-| `deliverables_docs/` | WBS·발표 스크립트·밸류에이션 해설서·스케줄·기업목록·분석 가이드 |
-| `deliverables_main/` | ★ 시스템 아키텍처 등 대표 최종 산출물 |
+| **🏠 메인** | 통합 스마트검색(기업+업종을 한 검색창에서 · "방산"→우주항공과국방) · 추천종목 캐러셀 · 업종 둘러보기 · 관심종목(★) · 글로벌 마켓 시그널(실시간 지표 신호등·종합판정) |
+| **🏢 기업개요** | 재무 하이라이트(YoY) · 재무 건전성 · 손익흐름도(Sankey) · 3개년 재무제표 · **AI 히스토리 브리핑** · **계열회사 시각화(2,362종)** · 주주·경영인·공시·뉴스 |
+| **💰 밸류에이션** | DCF 적정주가(Bear/Base/Bull) · WACC · 멀티플 · 민감도·토네이도 · 4-Way 내재가치 · **신뢰도 등급**(못 믿는 값은 "검증중" 정직 표기) |
+| **🤖 AI 챗봇** | 사업보고서 RAG 챗봇 — 답변마다 **출처 카드·DART 링크**(환각 대신 근거) |
+| **🛠 관리자** | 운영 모니터링 · 신뢰도 검증(원본 대조 오류율) · 데이터 신선도 · AWS 비용 (토큰 인증) |
 
----
+## 🏗 시스템 아키텍처
 
-## ⚙️ 핵심 데이터 파이프라인 스크립트 (루트)
+좌→우 5계층(사용자 → 화면 → API → 데이터) + 외부 데이터 유입 + 인프라가 전 계층을 호스팅.
+**계층 분리(3-tier)** 와 **마이크로서비스**(메인 API ↔ RAG 챗봇 분리)를 적용했습니다.
 
-| 스크립트 | 역할 |
-|---|---|
-| `unified_financial_loader.py` | 재무제표(B/S·I/S·CIS) 통합 적재 (사업보고서 XML + DART API) |
-| `parse_jsonl_chunks_to_db.py` | 외감법인 재무 JSONL 파싱·적재 |
-| `load_all_extras_dart.py` | 주주·경영인·기업개요 DART 일괄 적재 |
-| `ohlcv_daily_sync.py` / `backfill_price.py` | 주가(OHLCV) 동기화·백필 (yfinance) |
-| `build_competitors.py` / `build_customers.py` / `rerank_competitors.py` | 경쟁사·고객사 추출 (WICS + TF-IDF) |
-| `build_sankey_all.py` | 손익흐름 Sankey 다이어그램 생성 |
-| `build_stock_status.py` + `halt_sources.py` + `dart_halt_scan.py` | 상장폐지·거래정지 상태 판정 (KRX/KIND + DART 3년 공시 + 거래량) |
-| `build_analyst_targets.py` | 애널리스트 리포트 FCFF 타깃 선정 |
-| `daily_status_update.py` | 위 적재·상태 갱신 일일 자동 실행 (18:30 스케줄) |
-
----
-
-## ▶️ 실행
-
-```bash
-# 1) 백엔드 (FastAPI)
-uvicorn backend.main:app --reload --port 8000
-# 2) 프론트엔드 (Next.js)
-cd frontend && npm run dev   # http://localhost:3000
-# 또는 원클릭
-start.bat
+```mermaid
+flowchart LR
+    U(["🧑‍💻 일반투자자"]) --> FE["② Frontend<br/>Next.js 16<br/>S3 + CloudFront"]
+    FE <-->|REST| BE["③ Backend<br/>FastAPI · EC2<br/>Routers→Services→Repos"]
+    FE -.Tab3.-> BOT["🤖 AI RAG 챗봇<br/>FastAPI :8800<br/>별도 EC2 · GPU"]
+    EXT["⑤ External API<br/>DART · OpenAI · yfinance<br/>ECOS · WICS · 네이버"] --> BE
+    BE --> RDS[("RELATIONAL<br/>AWS RDS<br/>PostgreSQL")]
+    BE --> MG[("DOCUMENT<br/>MongoDB Atlas<br/>히스토리 브리핑")]
+    BE --> S3OBJ[("OBJECT<br/>AWS S3<br/>Sankey·밸류·계열사")]
+    BOT --> VDB[("VECTOR<br/>ChromaDB<br/>BGE-M3 임베딩")]
+    INFRA["⑥ AWS Infrastructure — VPC · IAM · Security Group · ACM/HTTPS · CloudWatch"]
+    INFRA -.호스팅·보호.-> FE
+    INFRA -.호스팅·보호.-> BE
 ```
 
-- 의존성: `requirements.txt` (Python) / `frontend/package.json` (Node)
-- 환경변수: `.env` (DART/OpenAI/MongoDB 키) — **비공개, 저장소 미포함**
+## 🔄 데이터 파이프라인
+
+공식 원천 → 수집 → 정제·표준화·LLM 요약 → 하이브리드 DB 적재 → API → 화면.
+주가는 **매 거래일 자동 동기화(16:00 스케줄러)**, 손익흐름도·밸류·계열사는 **배치 사전생성**합니다.
+
+```mermaid
+flowchart LR
+    A["📥 원천<br/>DART·yfinance/KRX<br/>ECOS·WICS·네이버"] --> B["⚙️ 수집<br/>data_pipeline/"]
+    B --> C["🧹 정제·표준화<br/>재무 3개년·단위 통일<br/>LLM 히스토리 요약<br/>RAG 임베딩(BGE-M3)"]
+    C --> D[("🗄 적재<br/>RDS·Mongo·Chroma·S3")]
+    D --> E["🔌 FastAPI"] --> F["🖥 화면"]
+    S["⏰ 스케줄러<br/>주가 일배치 16:00"] --> B
+```
+
+## 📋 요구사항 정의서
+
+| 구분 | 항목 |
+|---|---|
+| **기능 요구** | 종목·산업 탐색 / 3개년 재무 조회 / DCF 밸류에이션 / AI 히스토리 브리핑 / RAG 챗봇 / 관리자 신뢰도 검증 / 관심종목 |
+| **비기능 요구** | **성능**: 캐싱(모닝 위젯 15분)·사전생성으로 빠른 응답 · **보안**: `.env` 시크릿 분리(코드/Git 금지)·HTTPS·CORS·관리자 토큰 인증 · **신뢰성**: NO-MOCK 데이터 품질·면책 고지 · **데이터원**: DART 등 **공식 출처만** |
+
+## 🧰 기술 스택
+
+| 구분 | 기술 |
+|---|---|
+| Frontend | Next.js 16 · React 19 · TypeScript · Tailwind |
+| Backend | FastAPI · Python 3.11 (Routers → Services → Repositories) |
+| AI / RAG | OpenAI gpt-5-mini · BGE-M3 임베딩 · bge-reranker-v2-m3 · ChromaDB |
+| Database | AWS RDS PostgreSQL · MongoDB Atlas · ChromaDB · AWS S3 |
+| Infra / DevOps | AWS EC2·RDS·S3 · nginx(리버스 프록시) · Let's Encrypt(HTTPS) · systemd · GitHub |
+
+## 🌐 데이터 원천
+
+**DART OpenAPI**(재무·공시 XBRL) · **yfinance·KRX(pykrx)**(주가) · **ECOS·KOFIA**(금리) ·
+**WICS(FnGuide)**(78업종 분류) · **네이버**(뉴스·환율) · **OpenAI**(RAG·요약) — 전부 공식 출처.
+
+## 📅 프로젝트 스토리 (WBS)
+
+> 킥오프(4/22) → 최종 발표(6/20) · **5개 스프린트** ·
+> 전략: *"리스크 큰 것부터 증명하고, 정확히 만들고, 세상에 올린다."*
+
+| 스프린트 | 기간 | 핵심 |
+|---|---|---|
+| 킥오프·S1 | 4/22~4/28 | 팀빌딩·프로젝트 헌장·페르소나·기획서·**요구사항 정의서** |
+| **S2** | 4/29~5/9 | **가장 어려운 밸류에이션 엔진부터** — DCF 3시나리오·WACC·멀티플·피어 선정 |
+| S3 | 5/12~5/22 | 기업개요·AI 히스토리 브리핑(RAG)·Next.js UI·1차 로컬 배포 |
+| S4 | 5/26~6/5 | 재무 정확성(XBRL 3개년)·AI 브리핑 전수화·UI/UX 고도화·관리자 페이지 |
+| **S5** | 6/8~6/19 | **DB 클라우드 이관(→AWS RDS)·계열사 전종목·메인 리디자인·AWS 배포 + HTTPS**·QA |
+
+## 📂 디렉터리 구조
+
+```
+FINSIGHT/
+├─ frontend/             # Next.js 화면 (메인·종목상세 3탭·산업탐색·관리자)
+├─ backend/              # FastAPI (routers · services)
+├─ chatbot/              # RAG 챗봇 마이크로서비스 (:8800)
+├─ data_pipeline/        # 데이터 수집·적재 스크립트
+├─ DCF_밸류에이션엔진/    # 밸류에이션 엔진 (DCF·WACC·멀티플)
+├─ 기업개요_파트/         # 재무·히스토리 브리핑·계열사 모듈
+├─ database/             # 스키마·적재
+├─ docs/                 # PM 산출물 (기획·요구사항·WBS·아키텍처·ERD)
+└─ 통합산출물/            # 발표 자료·다이어그램·검수 리포트
+```
+
+## 🚀 시작하기
+
+```bash
+# Backend (FastAPI :8090)
+python -m uvicorn backend.main:app --app-dir . --port 8090
+
+# Frontend (Next.js :3000)
+cd frontend && npm install && npm run dev
+#  → http://localhost:3000   (Live: https://43.203.94.124.nip.io)
+```
+
+- 의존성: `requirements.txt`(Python) · `frontend/package.json`(Node)
+- 환경변수: `.env`(DART·OpenAI·MongoDB 키) — **비공개, 저장소 미포함**
+- 비공개 항목(용량·보안): 실데이터 `data/`(약 40GB) · 벡터DB · `.env` — Git 제외, 별도 전달
+
+## 👥 팀 · 역할
+
+**기업개요·재무 파트** · **밸류에이션 파트** · **AI 챗봇 파트** · **PM/공통**
+KPMG AI Lab 교육 프로젝트 (운영: FILMN9 Inc.)
 
 ---
 
-## 🔒 비공개 항목 (저장소 제외)
-
-용량·보안상 다음은 Git에 포함하지 않는다: 실데이터(`data/`, 42GB)·데이터 백업 zip·
-`.env`(API 키)·`node_modules`·빌드 캐시. 데이터는 별도 전달.
+<div align="center">
+<sub><b>FINSIGHT</b> · FILMN9 Inc. · KPMG AI Lab · <b>NO-MOCK</b>: 추정하지 않는다, 출처로 말한다</sub>
+</div>
