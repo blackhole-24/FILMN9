@@ -29,6 +29,9 @@ router = APIRouter()
 
 _ROOT = Path(__file__).resolve().parent.parent.parent
 _BASE = _ROOT / "기업개요_파트" / "계열회사시각화"
+# 전 종목 배치 산출물(2026-06-15 전수 생성). 샘플에 없으면 여기서 찾음.
+_OUT_BATCH = _ROOT / "output" / "affiliate_structure_batch"        # 구조도 SVG (2단계)
+_OUT_VIS = _ROOT / "output" / "affiliate_visualization"            # 투자관계 그래프 (1단계)
 
 _MEDIA = {
     ".svg": "image/svg+xml", ".jpg": "image/jpeg", ".jpeg": "image/jpeg",
@@ -40,8 +43,7 @@ def _find(code: str):
     """종목코드로 최적 시각화 파일 1개 탐색. (품질 우선순위: 원본이미지 > 구조도 > graphviz > 기본생성)
     반환: (Path, source_type) 또는 (None, None)."""
     code = code.strip()
-    if not _BASE.exists():
-        return None, None
+    # ※ _BASE(기업개요_파트)가 없어도(예: EC2엔 미배포) 배치 폴더(output/*)는 확인해야 하므로 조기 종료하지 않음.
 
     # 1) DART 원본 이미지 (최우선)
     sdir = _BASE / "samples"
@@ -51,10 +53,17 @@ def _find(code: str):
                 for img in sorted(d.glob("original_affiliate_diagram.*")):
                     return img, "original_dart_image"
 
-    # 2) 계열회사 구조도(개선판) SVG
+    # 2) 계열회사 구조도(개선판) SVG — 샘플
     stdir = _BASE / "samples_structure_diagrams"
     if stdir.exists():
         for d in sorted(stdir.glob(f"{code}_*")):
+            if d.is_dir():
+                for svg in sorted(d.glob("*_affiliate_structure.svg")):
+                    return svg, "structure_diagram"
+
+    # 2b) 전 종목 배치 구조도 SVG (output/affiliate_structure_batch)
+    if _OUT_BATCH.exists():
+        for d in sorted(_OUT_BATCH.glob(f"{code}_*")):
             if d.is_dir():
                 for svg in sorted(d.glob("*_affiliate_structure.svg")):
                     return svg, "structure_diagram"
@@ -70,6 +79,13 @@ def _find(code: str):
         for d in sorted(sdir.glob(f"{code}_*")):
             if d.is_dir():
                 for svg in sorted(d.glob("affiliate_*.svg")):
+                    return svg, "generated_svg"
+
+    # 4b) 전 종목 1단계 투자관계 그래프 (output/affiliate_visualization)
+    if _OUT_VIS.exists():
+        for d in sorted(_OUT_VIS.glob(f"{code}_*")):
+            if d.is_dir():
+                for svg in sorted(d.glob("affiliate_investment_graph.svg")):
                     return svg, "generated_svg"
 
     return None, None
