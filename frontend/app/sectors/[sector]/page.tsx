@@ -64,7 +64,15 @@ export default function SectorStocksPage() {
       </header>
 
       <div className="max-w-3xl mx-auto px-4 pb-16">
-        <div className="mt-6 mb-6">
+        {/* 브레드크럼 (홈 › 산업지도 › 종목) */}
+        <nav className="flex items-center gap-1.5 text-[13px] text-slate-500 mt-2">
+          <button onClick={() => router.push('/')} className="hover:text-slate-200 transition-colors">홈</button>
+          <span className="opacity-50">›</span>
+          <button onClick={() => router.push('/sectors')} className="hover:text-slate-200 transition-colors">산업지도</button>
+          <span className="opacity-50">›</span>
+          <span className="text-slate-200 font-semibold">{sectorName}</span>
+        </nav>
+        <div className="mt-4 mb-6">
           <h1 className="text-2xl sm:text-3xl font-extrabold text-white tracking-tight">{sectorName}</h1>
           <p className="text-slate-400 text-sm mt-1">{loading ? '…' : `${stocks.length} 종목`} · 종목을 누르면 상세 분석으로 이동</p>
         </div>

@@ -14,7 +14,7 @@ data/valuation_results/{code}_{name}/   ← run_valuation.py 출력 서브폴더
     uncertainty_result.json  : 민감도 매트릭스 + 토네이도
 
 폴더 없으면 is_mock=true 반환 → 프론트가 MOCK_VAL 사용.
-태상님 결과 폴더 복사만 하면 서버 재시작 없이 실데이터 자동 전환.
+밸류에이션 파트 결과 폴더 복사만 하면 서버 재시작 없이 실데이터 자동 전환.
 """
 from __future__ import annotations
 

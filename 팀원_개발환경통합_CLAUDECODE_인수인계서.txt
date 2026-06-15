@@ -270,7 +270,7 @@ STEP 3. .env 파일 생성 (사용자 입력 필수)
 
   ③ MongoDB URI 요청 메시지 템플릿 (사용자에게 안내):
 
-    팀원 → 메인 개발자(이형주) 슬랙 DM 예시:
+    팀원 → 메인 개발자(기업개요 파트) 슬랙 DM 예시:
     "FILMN9 환경 구축 중입니다. .env 입력을 위해 MONGO_URI 부탁드립니다.
      입력 후 절대 GitHub 커밋하지 않겠습니다."
 
@@ -473,7 +473,7 @@ Q3. "filmn9.db: no such table"
 
 Q4. MongoDB TLSV1_ALERT 에러
     A. 폴백 모드로 진행. STEP 7 분기 처리 참조.
-       자세한 해결은 휘주님_MongoDB_환경구축_가이드.md 참조.
+       자세한 해결은 기업개요 파트_MongoDB_환경구축_가이드.md 참조.
 
 Q5. 포트 충돌 (3000 or 8000 already in use)
     A. Windows: netstat -ano | findstr ":3000"
@@ -509,7 +509,7 @@ Q7. 한글 깨짐 (Windows PowerShell)
 ├── 폴더구조_가이드.md             ← 전체 폴더 구조 설명
 ├── 시스템아키텍쳐_최종.html       ← 시스템 아키텍처 다이어그램
 ├── mermaid_erd_prompt.md          ← ERD 작성 프롬프트
-├── 휘주님_MongoDB_환경구축_가이드.md ← MongoDB 상세 가이드
+├── 기업개요 파트_MongoDB_환경구축_가이드.md ← MongoDB 상세 가이드
 ├── setup.bat                      ← Windows 자동 셋업
 ├── setup.sh                       ← Mac/Linux 자동 셋업
 ├── start.bat / start.sh           ← 원클릭 기동

@@ -25,6 +25,10 @@ TICKERS = {
     "ES=F":     {"label": "S&P500 선물", "section": "futures",     "desc": "미국 대표 주가지수 선물. KOSPI와 가장 강하게 동행하는 선행지표."},
     "NQ=F":     {"label": "나스닥 선물",  "section": "futures",     "desc": "기술주 중심 선물. 반도체·IT주와 KOSDAQ에 직결."},
     "YM=F":     {"label": "다우 선물",    "section": "futures",     "desc": "전통 산업주 중심 선물. 미국 투자심리 가늠자."},
+    # ─── 미국 3대 지수(현물·간밤 마감) ───
+    "^GSPC":    {"label": "S&P500 지수",  "section": "us_index",    "desc": "미국 대표 주가지수(현물). 간밤 미국장 최종 마감 결과."},
+    "^IXIC":    {"label": "나스닥 종합",  "section": "us_index",    "desc": "나스닥 종합지수(현물). 기술주 중심 미국장 마감."},
+    "^DJI":     {"label": "다우존스 지수", "section": "us_index",    "desc": "다우존스 산업평균지수(현물). 전통 대형주 미국장 마감."},
     "^VIX":     {"label": "VIX 공포지수", "section": "futures",     "desc": "시장 불안 정도. 낮을수록 안전(외국인 매수), 20↑ 주의·30↑ 위험."},
     "DX-Y.NYB": {"label": "달러인덱스",   "section": "fx",          "desc": "달러 강세 정도. 오르면 원화 약세·외국인 이탈 압력."},
     "KRW=X":    {"label": "원/달러",      "section": "fx",          "desc": "환율. 오르면(원화 약세) 외국인 매도 압력이 커짐."},
@@ -39,6 +43,7 @@ TICKERS = {
     "^KQ11":    {"label": "KOSDAQ",       "section": "asia",        "desc": "중소·성장주 중심 한국 지수."},
     "^N225":    {"label": "닛케이",       "section": "asia",        "desc": "일본 대표지수. 아시아 리스크온/오프 신호."},
     "^HSI":     {"label": "항셍",         "section": "asia",        "desc": "홍콩 지수. 중국 경기·대중 수출주 방향."},
+    "000001.SS":{"label": "상해종합",     "section": "asia",        "desc": "중국 상해종합지수. 중국 본토 증시·대중 수출주 방향."},
     "EWY":      {"label": "EWY(야간한국)", "section": "asia",        "desc": "미국 상장 한국 ETF. 미국 야간장의 한국 전망 선행."},
     "XLK":      {"label": "IT",           "section": "sectors",     "desc": "미국 IT 섹터 ETF 등락률."},
     "XLF":      {"label": "금융",         "section": "sectors",     "desc": "미국 금융 섹터 ETF 등락률."},
@@ -88,7 +93,8 @@ def _fmt_price(ticker: str, price) -> str:
         return f"{price:.2f}%"
     if ticker == "KRW=X":
         return f"₩{price:,.1f}"
-    if ticker in ("^KS11", "^KQ11", "^N225", "^HSI"):
+    if ticker in ("^KS11", "^KQ11", "^N225", "^HSI", "000001.SS",
+                  "^DJI", "^IXIC", "^GSPC"):
         return f"{price:,.0f}"
     if ticker == "HG=F":
         return f"${price:.3f}"
@@ -215,6 +221,44 @@ def _krx_gold() -> dict | None:
         return None
 
 
+def _fear_greed() -> dict | None:
+    """미국 공포·탐욕지수(CNN Fear & Greed Index, 0~100) — CNN 공개 API.
+    실패하면 None(미표시) — NO-MOCK상 임의값 만들지 않음."""
+    import urllib.request, json
+    hdr = {
+        "User-Agent": ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+                       "(KHTML, like Gecko) Chrome/124.0 Safari/537.36"),
+        "Accept": "application/json, text/plain, */*",
+        "Referer": "https://edition.cnn.com/markets/fear-and-greed",
+        "Origin": "https://edition.cnn.com",
+    }
+    try:
+        url = "https://production.dataviz.cnn.io/index/fearandgreed/graphdata"
+        raw = urllib.request.urlopen(
+            urllib.request.Request(url, headers=hdr), timeout=6).read()
+        fg = json.loads(raw).get("fear_and_greed", {})
+        score = fg.get("score")
+        if score is None:
+            return None
+        score = round(float(score))
+        rating = fg.get("rating", "")
+        kor = {"extreme fear": "극단적 공포", "fear": "공포", "neutral": "중립",
+               "greed": "탐욕", "extreme greed": "극단적 탐욕"}.get(rating, rating)
+        prev = fg.get("previous_close")
+        delta = (score - round(float(prev))) if prev is not None else None
+        return {
+            "ticker": "FEAR_GREED", "label": "공포·탐욕지수(CNN)", "section": "sentiment",
+            "desc": "미국 시장 심리 0~100(0=극단적 공포·100=극단적 탐욕). 출처: CNN Fear & Greed Index.",
+            "price": score, "change_pct": (delta or 0), "m1_low": None, "m1_high": None, "trend": None,
+            "price_str": f"{score} {kor}".strip(),
+            "delta_str": (f"{'+' if delta >= 0 else ''}{delta}" if delta is not None else ""),
+            "m1_low_str": "", "m1_high_str": "",
+            "range_str": f"현재 {score}/100 — {kor}" if kor else f"현재 {score}/100",
+        }
+    except Exception:
+        return None
+
+
 def _naver_bonds() -> dict:
     """한국 시중금리(국고채·회사채·CD) — 네이버금융 국내금리 스크래핑(현재 금리)."""
     import urllib.request, re
@@ -277,6 +321,11 @@ def _build() -> dict:
     # 한국 시중금리 (국고채·회사채·CD) — 네이버 스크래핑
     for k, v in _naver_bonds().items():
         data[k] = v
+
+    # 미국 공포·탐욕지수 (CNN) — 실패 시 미표시(NO-MOCK)
+    fg = _fear_greed()
+    if fg:
+        data["FEAR_GREED"] = fg
 
     signals, green, red, yellow = [], 0, 0, 0
     for cfg in SIGNALS:

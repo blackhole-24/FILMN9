@@ -222,7 +222,7 @@
           <tr>
             <td><strong>④ 밸류에이션 AI 어시스트</strong></td>
             <td>GPT-4o + 구조화 프롬프트</td>
-            <td>valuation JSON (태상님)</td>
+            <td>valuation JSON (밸류에이션 파트)</td>
             <td><span class="status status-future">JSON 수령 후 연결</span></td>
             <td>run_valuation.py 결과 JSON</td>
           </tr>
@@ -436,7 +436,7 @@
         <div class="flow-arrow">→</div>
         <div class="flow-box src">Vector DB<br>(18GB)</div>
       </div>
-      <div style="margin:12px 0;font-size:12px;color:var(--slate);">위: 오프라인 사전 구축 (휘주님 팀) ↑ | 아래: 런타임 검색 ↓</div>
+      <div style="margin:12px 0;font-size:12px;color:var(--slate);">위: 오프라인 사전 구축 (기업개요 파트 팀) ↑ | 아래: 런타임 검색 ↓</div>
       <div class="flow">
         <div class="flow-box src">사용자<br>질문</div>
         <div class="flow-arrow">→</div>
@@ -685,7 +685,7 @@
         <li><span class="phase-num green">4</span><div><strong>FastAPI 엔드포인트</strong> — 조회 + 강제 생성 API (30분)</div></li>
         <li><span class="phase-num green">5</span><div><strong>홈 화면 연결</strong> — <code>page.tsx</code> 모닝루틴 섹션에서 /api/briefing/today 호출 (30분)</div></li>
       </ul>
-      <div class="note"><strong>PoC 현황:</strong> 홈 화면(page.tsx)에 "모닝루틴 — 준비 중" placeholder 존재. 스케줄러·API 연결 필요. MongoDB 히스토리 데이터(휘주님) 도착 시 full 구현 가능.</div>
+      <div class="note"><strong>PoC 현황:</strong> 홈 화면(page.tsx)에 "모닝루틴 — 준비 중" placeholder 존재. 스케줄러·API 연결 필요. MongoDB 히스토리 데이터(기업개요 파트) 도착 시 full 구현 가능.</div>
     </div>
   </div>
 
@@ -708,7 +708,7 @@
     <div class="grid-2" style="margin-bottom:16px;">
       <div class="card card-blue">
         <div class="card-title">기능 개요</div>
-        <p>태상님 <code>run_valuation.py</code>가 산출한 DCF·WACC 결과 JSON을 컨텍스트로 제공하여, <strong>"왜 이 적정가가 나왔나?", "WACC가 높으면 어떻게 되나?", "Bear case 가정은?"</strong> 등 일반투자자의 자연어 질문에 GPT-4o가 구체적으로 답변한다.<br><br>
+        <p>밸류에이션 파트 <code>run_valuation.py</code>가 산출한 DCF·WACC 결과 JSON을 컨텍스트로 제공하여, <strong>"왜 이 적정가가 나왔나?", "WACC가 높으면 어떻게 되나?", "Bear case 가정은?"</strong> 등 일반투자자의 자연어 질문에 GPT-4o가 구체적으로 답변한다.<br><br>
         복잡한 재무 모델을 비전문가도 이해할 수 있도록 쉽게 설명하는 것이 핵심 목적.</p>
       </div>
       <div class="card card-blue">
@@ -809,7 +809,7 @@
 
     <!-- 구현 단계 -->
     <div class="card">
-      <div class="card-title">구현 단계 (태상님 JSON 수령 후)</div>
+      <div class="card-title">구현 단계 (밸류에이션 파트 JSON 수령 후)</div>
       <ul class="phase-list">
         <li><span class="phase-num blue">1</span><div><strong>JSON 로더</strong> — <code>valuation_{code}_{date}.json</code> 파싱 + 섹션 분리 (30분)</div></li>
         <li><span class="phase-num blue">2</span><div><strong>의도 분류기</strong> — 키워드 매칭으로 참조 섹션 선택 (30분)</div></li>
@@ -859,7 +859,7 @@
           <tr>
             <td><strong>④ 밸류에이션 AI 어시스트</strong></td>
             <td><span class="status status-future">미구현</span></td>
-            <td>태상님 JSON 수령 후<br>챗봇 UI + API 연결<br><span class="tag tag-orange">예상 3시간</span></td>
+            <td>밸류에이션 파트 JSON 수령 후<br>챗봇 UI + API 연결<br><span class="tag tag-orange">예상 3시간</span></td>
             <td>멀티 종목 비교 Q&A<br>시나리오 시뮬레이션</td>
           </tr>
         </tbody>

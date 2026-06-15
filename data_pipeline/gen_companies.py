@@ -4,7 +4,7 @@ sys.stdout.reconfigure(encoding='utf-8')
 
 path = r'C:\Users\Admin\Documents\KPMG\FILMN9\데이터 수집\kospi_kosdaq_team_assignment.xlsx'
 sheets = pd.read_excel(path, sheet_name=None)
-df4 = sheets['팀원4 이형주']
+df4 = sheets['팀원4 기업개요 파트']
 
 col_corp = df4.columns[9]
 col_code = df4.columns[8]
@@ -18,7 +18,7 @@ for _, row in df4.iterrows():
     code = code.zfill(6)
     lines.append(f'    ("팀원4", "{code}", "{name}"),')
 
-content = '"""\n팀원4 이형주 — 담당 기업 목록 (693개)\nKOSPI: 237개 / KOSDAQ: 456개\n"""\n\nCOMPANIES = [\n'
+content = '"""\n팀원4 기업개요 파트 — 담당 기업 목록 (693개)\nKOSPI: 237개 / KOSDAQ: 456개\n"""\n\nCOMPANIES = [\n'
 content += '\n'.join(lines)
 content += '\n]\n\nif __name__ == "__main__":\n    print(f"총 {len(COMPANIES)}개 기업")\n    for c in COMPANIES[:5]:\n        print(c)\n    print("...")\n'
 

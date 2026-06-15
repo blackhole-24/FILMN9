@@ -1,13 +1,13 @@
 """
 db/load_history_to_mongo.py
 ============================
-휘주님 history JSON 파일(data/parsed_history/*.json)을
+기업개요 파트 history JSON 파일(data/parsed_history/*.json)을
 MongoDB Atlas(filmn9.histories)에 일괄 업로드.
 
 특징
 ----
 - 파일명에서 stock_code, corp_name 자동 추출
-- 본문에 누락된 4개 필드 자동 보강 (휘주님 스키마 정합 작업 대행)
+- 본문에 누락된 4개 필드 자동 보강 (기업개요 파트 스키마 정합 작업 대행)
 - upsert (이미 있으면 업데이트, 없으면 삽입)
 - --dry-run 시뮬레이션 모드
 - 실패 종목은 별도 로그
@@ -35,7 +35,7 @@ from pathlib import Path
 ROOT       = Path(__file__).resolve().parent.parent
 HIST_DIR   = ROOT / "data" / "parsed_history"
 ENV_PATH   = ROOT / ".env"
-LLM_MODEL  = "gpt-5-mini"   # 휘주님 사용 모델 (변경 시 .env에서 덮어쓰기 가능)
+LLM_MODEL  = "gpt-5-mini"   # 기업개요 파트 사용 모델 (변경 시 .env에서 덮어쓰기 가능)
 
 
 # ─── .env 로드 ────────────────────────────────────────────────────────────────
@@ -88,10 +88,10 @@ def parse_filename(filename: str) -> tuple[str, str] | None:
     return m.group(1), m.group(2)
 
 
-# ─── 본문 정합 (휘주님 스키마 보강) ──────────────────────────────────────────
+# ─── 본문 정합 (기업개요 파트 스키마 보강) ──────────────────────────────────────────
 def normalize(data: dict, stock_code: str, corp_name: str) -> dict:
     """
-    휘주님 인수인계서의 4개 필드 자동 추가 (이미 있으면 유지).
+    기업개요 파트 인수인계서의 4개 필드 자동 추가 (이미 있으면 유지).
       - stock_code
       - corp_name
       - _llm_model
@@ -231,7 +231,7 @@ def cmd_clear():
 
 # ─── 메인 ─────────────────────────────────────────────────────────────────────
 def main():
-    p = argparse.ArgumentParser(description="휘주님 history JSON → MongoDB Atlas 적재")
+    p = argparse.ArgumentParser(description="기업개요 파트 history JSON → MongoDB Atlas 적재")
     p.add_argument("--dry-run", action="store_true", help="실행 안 하고 시뮬레이션만")
     p.add_argument("--list",    action="store_true", help="적재된 종목 목록")
     p.add_argument("--find",    type=str,            help="특정 종목 조회")

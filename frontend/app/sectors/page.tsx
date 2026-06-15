@@ -82,8 +82,14 @@ export default function SectorsPage() {
       </header>
 
       <div className="max-w-5xl mx-auto px-4 pb-16">
+        {/* 브레드크럼 (홈 › 산업지도) */}
+        <nav className="flex items-center gap-1.5 text-[13px] text-slate-500 mt-2">
+          <button onClick={() => router.push('/')} className="hover:text-slate-200 transition-colors">홈</button>
+          <span className="opacity-50">›</span>
+          <span className="text-slate-200 font-semibold">산업지도</span>
+        </nav>
         {/* 타이틀 */}
-        <div className="text-center mt-6 mb-8">
+        <div className="text-center mt-4 mb-8">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-indigo-500/20 border border-indigo-500/40 text-indigo-300 text-xs font-medium mb-4">
             🏭 산업(업종)별 탐색
           </div>

@@ -35,7 +35,7 @@ DB 분리 정책
 -----------
 - 정형 데이터 5종     → SQLite (이 파일)
 - 히스토리 브리핑     → MongoDB Atlas (filmn9.histories collection)
-- 휘주님 LLM 산출물은 중첩 JSON 구조라 MongoDB가 자연스러움
+- 기업개요 파트 LLM 산출물은 중첩 JSON 구조라 MongoDB가 자연스러움
 - FastAPI에서 두 DB 동시 조회 (sqlite3 + pymongo)
 
 참고
@@ -131,7 +131,7 @@ CREATE INDEX IF NOT EXISTS idx_ohlcv_date ON ohlcv(date);
 
 -- ===================================================================
 -- (4. histories 테이블 제거됨 — MongoDB Atlas에서 관리)
---     filmn9.histories collection 에 휘주님 산출물 저장
+--     filmn9.histories collection 에 기업개요 파트 산출물 저장
 --     FastAPI 의 /api/history/{stock_code} 는 pymongo 로 조회
 -- ===================================================================
 

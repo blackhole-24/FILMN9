@@ -114,7 +114,7 @@
   <div class="verdict">
     <h2>✅ 한 줄 결론</h2>
     <div class="row"><div class="k">계산 주체</div><div class="v">값은 <b>로컬 PC에서 직접 계산</b>했습니다. GitHub에서 "값"을 받아온 게 <s>아닙니다</s>.</div></div>
-    <div class="row"><div class="k">GitHub의 역할</div><div class="v">GitHub(git_share)로 공유받은 건 <b>계산 엔진 "코드"</b>뿐입니다 (유태상님 작 <code style="color:var(--violet)">valuation_engine</code>).</div></div>
+    <div class="row"><div class="k">GitHub의 역할</div><div class="v">GitHub(git_share)로 공유받은 건 <b>계산 엔진 "코드"</b>뿐입니다 (밸류에이션 파트님 작 <code style="color:var(--violet)">valuation_engine</code>).</div></div>
     <div class="row"><div class="k">계산 방식</div><div class="v">그 엔진을 로컬에서 돌려 <b>실제 데이터</b>(DART 재무·ECOS 금리·KOFIA·사업보고서 RAG 등)로 <b>DCF 밸류에이션</b>을 7단계 계산 → <b>JSON 6개</b> 산출.</div></div>
     <div class="row"><div class="k">화면 표시</div><div class="v">그 JSON을 <code>data/valuation_results/</code>에 넣어 두면 → 백엔드가 읽어 → 프론트가 렌더. 데모 <b>3종목만</b> 미리 계산해 둠.</div></div>
     <div class="row"><div class="k">"데이터 준비중"</div><div class="v">나머지 ~2,580종목은 JSON 폴더가 없어서 → 정직하게 <b>"데이터 준비 중"</b> 표시 (예전 하드코딩 가짜값은 제거 · NO-MOCK).</div></div>
@@ -143,7 +143,7 @@
 
       <!-- L2 엔진 -->
       <div class="layer" style="border-color:rgba(167,139,250,.4)">
-        <div class="head"><span class="badge b-eng">② 계산 엔진</span><h3>valuation_engine — DCF 밸류에이션 엔진 <span style="font-size:12px;color:var(--mut);font-weight:400">(유태상님 작 · GitHub git_share로 코드 공유)</span></h3></div>
+        <div class="head"><span class="badge b-eng">② 계산 엔진</span><h3>valuation_engine — DCF 밸류에이션 엔진 <span style="font-size:12px;color:var(--mut);font-weight:400">(밸류에이션 파트님 작 · GitHub git_share로 코드 공유)</span></h3></div>
         <div class="desc">로컬에서 실행(conda <code style="color:var(--cyan)">dart-rag</code> 환경). Phase 1~7을 순차 계산. <b style="color:var(--violet)">바로 이 단계에서 모든 숫자가 "계산"됩니다.</b></div>
         <div class="pills">
           <span class="pill">peer_beta · run_beta</span>

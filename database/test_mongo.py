@@ -14,7 +14,7 @@ MongoDB Atlas 연결 테스트 + 샘플 데이터 삽입/조회.
 목적
 ----
 - Atlas 클러스터 정상 작동 확인
-- 휘주님이 데이터 적재하기 전 채널 점검
+- 기업개요 파트이 데이터 적재하기 전 채널 점검
 - FastAPI 시작 전 사전 검증
 """
 from __future__ import annotations

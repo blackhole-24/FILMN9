@@ -235,7 +235,7 @@
       <div class="step src">← 종목별 JSON 파일(dcf_result.json 등) — 밸류에이션팀 산출 종목만</div>
       <div class="step">DB <code>valuations</code> 테이블 = 0개 (미사용)</div>
     </div>
-    <div class="cov r">🔴 처리된 소수 종목 외 빈값. 6/3 태상님 산출물 수령 후 전수화 예정.</div>
+    <div class="cov r">🔴 처리된 소수 종목 외 빈값. 6/3 밸류에이션 파트 산출물 수령 후 전수화 예정.</div>
   </div>
 
 </div>
@@ -245,7 +245,7 @@
   <h3>🔴 "랜덤 종목 빈칸" 원인 & 처방</h3>
   <ul>
     <li><b>1. 재무 하이라이트 (최우선)</b> — <code>financials</code> 테이블 23개뿐. → <b>financial_detail(2,708)에서 매출·영업이익·순이익 요약을 추출해 financials 테이블 전수 생성</b>하면 해결. (스크립트 1개로 가능)</li>
-    <li><b>2. 밸류에이션</b> — valuations 테이블 0 + JSON 소수. → 6/3 태상님 SQLite 수령 후 전수 적재.</li>
+    <li><b>2. 밸류에이션</b> — valuations 테이블 0 + JSON 소수. → 6/3 밸류에이션 파트 SQLite 수령 후 전수 적재.</li>
     <li><b>3. 손익흐름도(Sankey)</b> — 1,861개. → IS/CIS 없는 기업은 BS 기반 대체 또는 "데이터 없음" 안내.</li>
     <li><b>4. 재무정보 BS/IS</b> — 2,708개. → 누락 ~160개(신규상장·미제출)은 거래상태/신규상장 안내로 대체.</li>
     <li><b>5. 전자공시·뉴스·실시간</b> — 외부 LIVE라 간헐적. → 자주 쓰는 건 DB 캐시 적재 검토(6/4 성능).</li>

@@ -3,7 +3,7 @@
 import * as React from "react";
 
 /* ────────────────────────────────────────────────────────────────────────
-   밸류에이션 · AI 챗봇 — 관리자/QA 콘솔 (유태상 파트, 통합본)
+   밸류에이션 · AI 챗봇 — 관리자/QA 콘솔 (밸류에이션 파트 파트, 통합본)
    출처: feat/admin-qa-console 브랜치 frontend/app/admin/page.tsx (커밋 8918cac)
    통합 변경점(최소):
      1) 단일 페이지(2탭) → ValAdminTab / ValTestTab 컴포넌트로 분리 export
@@ -130,14 +130,14 @@ function useConsoleData() {
   return { meta, beHealth, cbHealth, cbErr };
 }
 
-// 다크 컨테이너 (태상님 페이지 톤 보존)
+// 다크 컨테이너 (밸류에이션 파트 페이지 톤 보존)
 function Dark({ subtitle, children }: { subtitle: string; children: React.ReactNode }) {
   return (
     <div style={{ background: T.bg, color: T.text, fontFamily: "'Noto Sans KR', sans-serif", padding: "20px 22px", borderRadius: 14 }}>
       <p style={{ color: T.sub, fontSize: 12.5, margin: "0 0 14px" }}>{subtitle}</p>
       {children}
       <div style={{ textAlign: "center", marginTop: 8, paddingTop: 12, borderTop: `1px dashed #475569`, color: "#64748B", fontSize: 11 }}>
-        밸류에이션 · AI 챗봇 파트(유태상) · NO-MOCK(실데이터 100%) 원칙 · 평가위원 검토용
+        밸류에이션 · AI 챗봇 파트(밸류에이션 파트) · NO-MOCK(실데이터 100%) 원칙 · 평가위원 검토용
       </div>
     </div>
   );

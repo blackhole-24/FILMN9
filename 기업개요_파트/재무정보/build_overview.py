@@ -37,7 +37,7 @@ financials   : stock_code / fiscal_years / revenue / op_income / net_income
 
 주의
 ----
-- history.json 은 휘주님 파트 → 이 스크립트에서 건드리지 않는다
+- history.json 은 기업개요 파트 파트 → 이 스크립트에서 건드리지 않는다
 - 수치는 Python 계산만, LLM 환각 금지
 - 값은 전부 JSON 경유, 코드 하드코딩 금지
 """

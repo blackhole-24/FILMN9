@@ -49,4 +49,4 @@ cd frontend && npm run dev
 ## 6. git / 환경
 - remote: github.com/blackhole-24/FILMN9 (branch main)
 - `.gitignore`: data/, *.jsonl, .env, node_modules, 인수인계서류 제외
-- 더 깊은 환경구축(MongoDB 등)은 `휘주님_MongoDB_환경구축_가이드.md` 참조
+- 더 깊은 환경구축(MongoDB 등)은 `기업개요 파트_MongoDB_환경구축_가이드.md` 참조

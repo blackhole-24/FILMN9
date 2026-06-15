@@ -5,7 +5,7 @@ api/routers/affiliate.py
 
 데이터 소스
 ----------
-  기업개요_파트/계열회사시각화/  (휘주님 모듈, Git 추적 샘플)
+  기업개요_파트/계열회사시각화/  (기업개요 파트 모듈, Git 추적 샘플)
     samples/{code}_*/original_affiliate_diagram.*   ← DART 원본 이미지(최우선)
     samples_structure_diagrams/{code}_*/*_affiliate_structure.svg
     samples_graphviz_style/{code}_*_graphviz_style.svg

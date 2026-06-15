@@ -279,7 +279,7 @@ def get_overview(stock_code: str):
 
         # ── 탭1: 기업개요·재무 ──
         "tab1": {
-            "history"      : history,            # MongoDB · 휘주님
+            "history"      : history,            # MongoDB · 기업개요 파트
             "ohlcv"        : None,               # 별도 /api/ohlcv/{code} 호출 (경량화)
             "company"      : company,            # SQLite · 본인
             "financials"   : financials,         # SQLite · 본인 (배열, 최근연도 먼저)

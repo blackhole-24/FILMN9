@@ -108,17 +108,33 @@ def list_stocks_in_sector(sector_name: str):
     }
 
 
+def _valuation_pool() -> list[dict]:
+    """밸류에이션·DCF가 충실히 산출된 종목 풀 (valuation_summary 적정가 보유 = 정보 부실 종목 제외).
+    캐러셀에 '정보 빠진 종목'이 안 나오게 하기 위함."""
+    try:
+        from backend.db import connect
+        con = connect()
+        rows = con.execute(
+            "SELECT stock_code, corp_name, market, industry FROM valuation_summary "
+            "WHERE fair_price IS NOT NULL AND corp_name IS NOT NULL"
+        ).fetchall()
+        con.close()
+        wics = {r["stock_code"]: r["wics"] for r in _load()}   # 코드→WICS 업종명
+        return [{"stock_code": r["stock_code"], "corp_name": r["corp_name"],
+                 "market": r["market"] or "", "tag": wics.get(r["stock_code"], "")} for r in rows]
+    except Exception:
+        return []
+
+
 @router.get("/featured")
-def featured(n: int = 60):
-    """메인 슬라이드 캐러셀용 랜덤 추천 종목 풀 (데이터 보유 종목 중). 매 호출마다 다른 종목."""
-    rows = _load()
-    k = min(n, len(rows))
-    sample = random.sample(rows, k) if rows else []
-    return {
-        "count": k,
-        "stocks": [
-            {"stock_code": r["stock_code"], "corp_name": r["corp_name"],
-             "market": r["market"], "tag": r["wics"]}
-            for r in sample
-        ],
-    }
+def featured(n: int = 60, source: str = "val"):
+    """메인 슬라이드 캐러셀용 랜덤 추천 종목 풀. 매 호출마다 다른 종목.
+    source=val(기본): 밸류에이션·DCF 충실 종목만(적정가 보유 1,308종) → 정보 부실 종목 제외.
+    source=all: 기존(데이터 보유 전 종목)."""
+    pool = _valuation_pool() if source == "val" else []
+    if not pool:                       # 밸류 풀 비었으면 폴백(전 종목)
+        pool = [{"stock_code": r["stock_code"], "corp_name": r["corp_name"],
+                 "market": r["market"], "tag": r["wics"]} for r in _load()]
+    k = min(n, len(pool))
+    sample = random.sample(pool, k) if pool else []
+    return {"count": k, "stocks": sample}

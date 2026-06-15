@@ -1,9 +1,9 @@
-# 🍃 휘주님 환경에서 MongoDB Atlas 연결 + 로컬 적재 가이드
+# 🍃 기업개요 파트 환경에서 MongoDB Atlas 연결 + 로컬 적재 가이드
 
 > **작성자**: FILMN9 팀
 > **작성일**: 2026-05-26
-> **대상**: 휘주님 (또는 동일 환경 구축이 필요한 팀원)
-> **목적**: 제 컴퓨터에서 작동하는 MongoDB Atlas 연결 + 2,526개 히스토리 적재 환경을 휘주님 PC에서 그대로 재현
+> **대상**: 기업개요 파트 (또는 동일 환경 구축이 필요한 팀원)
+> **목적**: 제 컴퓨터에서 작동하는 MongoDB Atlas 연결 + 2,526개 히스토리 적재 환경을 기업개요 파트 PC에서 그대로 재현
 
 ---
 
@@ -21,7 +21,7 @@
 
 ## 🎯 1. 현재 상황 정리
 
-### 휘주님 환경 이슈
+### 기업개요 파트 환경 이슈
 - **TCP 27017 도달**: ✅ 가능
 - **TLS Handshake**: ❌ `TLSV1_ALERT_INTERNAL_ERROR` (서버측 거부)
 - **시도**: WiFi · 핸드폰 핫스팟 모두 동일 증상
@@ -33,7 +33,7 @@
 - **스키마**: `stock_code`, `corp_name`, `brief`, `_llm_model`, `_generated_at`, `meta`, `usage`, `warnings`
 
 ### 목표
-1. 휘주님 PC에서 Atlas 연결 복구
+1. 기업개요 파트 PC에서 Atlas 연결 복구
 2. 2,526개 JSON을 `filmn9.histories` 컬렉션에 적재
 3. 연결 안 되면 로컬 파일 폴백 모드로 운영
 
@@ -42,7 +42,7 @@
 ## 📁 2. 전체 폴더 구조 (관련 파일만)
 
 ```
-C:\Users\<휘주님>\FILMN9\          ← 동일하게 구축
+C:\Users\<기업개요 파트>\FILMN9\          ← 동일하게 구축
 ├── .env                              ⭐ MongoDB URI 등 환경변수
 ├── requirements.txt                  ⭐ pymongo 등 의존성
 ├── start.bat                         원클릭 기동
@@ -80,7 +80,7 @@ C:\Users\<휘주님>\FILMN9\          ← 동일하게 구축
 ### Step 1. Python 의존성 설치
 
 ```bash
-cd C:\Users\<휘주님>\FILMN9
+cd C:\Users\<기업개요 파트>\FILMN9
 python -m venv venv
 venv\Scripts\activate
 pip install -r requirements.txt
@@ -121,7 +121,7 @@ OPENAI_API_KEY=<API_키>
 3. **IP Access List** 확인
    - `0.0.0.0/0` (모든 IP 허용)이 **Active** 상태인지 확인
    - `Inactive` 또는 `Expired`면 → **Edit** → **No time limit** 설정
-4. 또는 휘주님 현재 공인 IP만 추가:
+4. 또는 기업개요 파트 현재 공인 IP만 추가:
    - 본인 IP 확인: https://www.whatismyip.com/
    - **+ ADD IP ADDRESS** → **ADD CURRENT IP ADDRESS** 클릭
 
@@ -191,7 +191,7 @@ Atlas 대시보드 **Connect** → **Drivers** → **Connection String Only** �
 
 ```bash
 # 압축 풀 위치
-cd C:\Users\<휘주님>\FILMN9\data\parsed_history
+cd C:\Users\<기업개요 파트>\FILMN9\data\parsed_history
 
 # briefs_final.zip을 위 폴더에 옮긴 뒤
 # (윈도우 탐색기에서 우클릭 → 압축풀기 OK)
@@ -202,7 +202,7 @@ cd C:\Users\<휘주님>\FILMN9\data\parsed_history
 ### Step 2. 적재 실행 (DRY-RUN 먼저)
 
 ```bash
-cd C:\Users\<휘주님>\FILMN9
+cd C:\Users\<기업개요 파트>\FILMN9
 python db/load_history_to_mongo.py --dry-run
 ```
 
@@ -299,9 +299,9 @@ curl http://localhost:8000/api/overview/090430
 
 ---
 
-## 📞 휘주님 → FILMN9 팀 보고용 체크리스트
+## 📞 기업개요 파트 → FILMN9 팀 보고용 체크리스트
 
-휘주님 환경에서 시도 후 결과를 알려주세요:
+기업개요 파트 환경에서 시도 후 결과를 알려주세요:
 
 - [ ] `python db/test_mongo.py` → 성공 / 실패 (에러 메시지)
 - [ ] Atlas 콘솔 Network Access 0.0.0.0/0 상태 (Active/Inactive)

@@ -1,4 +1,4 @@
-"""휘주님 142개 history 실제 스키마 확인용"""
+"""기업개요 파트 142개 history 실제 스키마 확인용"""
 import json
 from pathlib import Path
 
@@ -6,7 +6,7 @@ from pathlib import Path
 sample_codes = ['030200', '002790', '033780', '034220', '138930']
 hist_dir = Path('C:/Users/Admin/FILMN9/data/parsed_history')
 
-print('=== 휘주님 brief 스키마 (5개 샘플) ===\n')
+print('=== 기업개요 파트 brief 스키마 (5개 샘플) ===\n')
 for code in sample_codes:
     files = list(hist_dir.glob(f'{code}_*.json'))
     if not files:

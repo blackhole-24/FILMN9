@@ -697,7 +697,7 @@ def admin_verify_affiliate():
     }
 
 
-# ═════════════ [밸류·챗봇 관리자/QA 콘솔 메타] — 유태상 파트 통합 ═════════════
+# ═════════════ [밸류·챗봇 관리자/QA 콘솔 메타] — 밸류에이션 파트 파트 통합 ═════════════
 # 출처: feat/admin-qa-console 브랜치 (커밋 8918cac) backend/routers/admin.py
 # 평가 기준일·모델버전·데이터 출처 일자·규모를 valuation.db / filmn9.db 에서 집계.
 import json as _vjson
@@ -727,7 +727,7 @@ def _vg(r, k, default=None):
 
 @router.get("/admin/meta")
 def admin_meta():
-    """평가에 사용된 데이터 기준일·규모·출처 일자 요약 (실데이터 · 유태상 파트)."""
+    """평가에 사용된 데이터 기준일·규모·출처 일자 요약 (실데이터 · 밸류에이션 파트 파트)."""
     # ── 밸류에이션 (valuation.db) ──
     v: dict = {"db_exists": _VAL_DB.exists()}
     cnt = _vq1(_VAL_DB, "SELECT COUNT(DISTINCT stock_code) AS n, COUNT(*) AS runs, "
@@ -834,7 +834,7 @@ def admin_modules():
     mods.append(card("15A", "기업개요", "계열회사 구조", "DART 소유지분도", "파일(SVG/이미지)",
                      "GET /api/affiliate/{code}", "사전 생성(현재 샘플)", st(affil_n, good=5), affil_n, "파일"))
     # 밸류
-    mods.append(card("16", "밸류에이션", "밸류 대시보드(DCF)", "DCF 엔진 v8(태상)", "파일 valuation_results/*.json",
+    mods.append(card("16", "밸류에이션", "밸류 대시보드(DCF)", "DCF 엔진 v8(밸류에이션 파트)", "파일 valuation_results/*.json",
                      "GET /api/valuation-full/{code}", "엔진 산출 합본JSON", st(vres_n), vres_n))
     # 챗봇
     mods.append(card("18", "AI챗봇", "RAG 챗봇", "DART 사업보고서 임베딩", "ChromaDB(별도 :8800)",

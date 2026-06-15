@@ -56,8 +56,8 @@ update_display_names.py ||| company_info 표시명을 KRX 종목명으로 통일
 validate_financials.py ||| 재무 내부 일관성 7룰 검증+DART 표본 대조 ||| 적재 재무 정확도 검증 ||| 자산=부채+자본 등 룰 통과율 집계 ||| 데이터 품질 리포트 산출
 verify_2025.py ||| 데모 3종목 FY2023~2025 재무 적재 건수·샘플 확인 ||| 재무 적재 결과 빠른 검증 ||| statement_type/scope별 카운트 출력 ||| 파싱 결과 육안 점검
 팀원_개발환경통합_CLAUDECODE_인수인계서.txt ||| 루트 사본—팀원 환경 통합 구축 인계 ||| 환경 구축 인계(루트 배포본) ||| STEP별 셋업 절차 ||| 동일 환경 재현
-휘주님_CLAUDECODE_인수인계서.txt ||| 휘주님 Mongo Atlas 구축·적재 Claude Code 지침서 ||| 특정 팀원 자동 작업 지침 ||| 환경정보·적재·폴백 절차 ||| Mongo 복구·적재 자동 수행
-휘주님_MongoDB_환경구축_가이드.md ||| 루트 사본—Mongo 연결·적재·TLS 가이드 ||| Mongo 환경 구축 가이드(루트본) ||| 4단계 셋업·장애대응 ||| 히스토리 적재 환경 재현
+기업개요 파트_CLAUDECODE_인수인계서.txt ||| 기업개요 파트 Mongo Atlas 구축·적재 Claude Code 지침서 ||| 특정 팀원 자동 작업 지침 ||| 환경정보·적재·폴백 절차 ||| Mongo 복구·적재 자동 수행
+기업개요 파트_MongoDB_환경구축_가이드.md ||| 루트 사본—Mongo 연결·적재·TLS 가이드 ||| Mongo 환경 구축 가이드(루트본) ||| 4단계 셋업·장애대응 ||| 히스토리 적재 환경 재현
 auto_reports/00_MASTER_REPORT.md ||| 무인 자동분석 15개 작업 종합결과(OpenAI $0, 444초) ||| 자동 QA 파이프라인 전체 결과 요약 ||| 15개 검증작업 상태·산출물 인덱스 ||| 데이터 품질 현황 즉시 파악
 auto_reports/00_RUN_LOG.txt ||| 15개 작업 타임스탬프별 실행 로그 ||| 자동분석 실행 추적 ||| 단계별 시작·완료·결과 기록 ||| 디버깅·소요시간 분석 근거
 auto_reports/01_이상치_보고서.csv ||| 매출 음수 이상치 2건(089470,211270) ||| 비정상 재무수치 탐지 ||| 종목·계정·금액 이상 목록 ||| 데이터 오류 사전 발견
@@ -140,7 +140,7 @@ database/batch_demo10.py ||| 시연10종목 overview+ohlcv 빌드→load_to_db �
 database/batch_demo3.py ||| 데모3종목 overview/ohlcv/extras→load 풀자동(재실행안전) ||| 핵심3종목 Tab1 전체데이터 적재 ||| 확장 파이프라인 러너 ||| extras까지 포함 풀세트 적재
 database/build_sankey.py ||| financial_detail(IS/CIS)→Plotly 손익흐름 Sankey HTML 생성 ||| 손익 시각화 HTML 사전 생성 ||| Sankey 빌더(음수안전처리) ||| /sankey/{code} 서빙 정적 HTML 산출
 database/check_demo10.py ||| 시연10종목 corp_code·JSONL·적재 가용성 점검 ||| 적재 전 데이터 준비상태 확인 ||| 사전 점검 진단 스크립트 ||| 누락 종목 빠르게 식별
-database/check_history_schema.py ||| 휘주님 history JSON brief 스키마 샘플 확인 ||| 히스토리 데이터 구조 파악 ||| 스키마 탐색 진단 ||| 적재 전 필드구조 검증
+database/check_history_schema.py ||| 기업개요 파트 history JSON brief 스키마 샘플 확인 ||| 히스토리 데이터 구조 파악 ||| 스키마 탐색 진단 ||| 적재 전 필드구조 검증
 database/init_db.py ||| SQLite 9테이블 스키마 생성(IF NOT EXISTS)·reset/verify ||| filmn9.db 초기화 ||| DB 스키마 부트스트랩 ||| 재실행 안전한 테이블·인덱스 구축
 database/load_extras.py ||| build_extras 산출 4종 JSON upsert 적재 ||| Tab1 보조데이터 DB 적재 ||| extras 로더 ||| ON CONFLICT 업서트 재실행 안전
 database/load_history_to_mongo.py ||| parsed_history/*.json→MongoDB histories upsert ||| 히스토리 브리핑 Mongo 적재 ||| 히스토리 업로더(dry-run/find) ||| 142종목 히스토리 클라우드 적재
@@ -228,7 +228,7 @@ ui_share/index_standalone.html ||| 3종목 내장 오프라인 밸류에이션 U
 개발환경_통합/start.bat ||| FastAPI:8000+Next.js:3000 원클릭 기동 배치 ||| 데모 환경 일괄 실행 ||| 서버 기동·브라우저 오픈 ||| 시연 준비 자동화
 개발환경_통합/시스템아키텍쳐_최종.html ||| 시스템 아키텍처 다이어그램(통합폴더 사본) ||| 구조 시각화 사본 ||| 계층 다이어그램 ||| 팀 배포용 아키텍처 공유
 개발환경_통합/팀원_개발환경통합_CLAUDECODE_인수인계서.txt ||| 클론~data~.env~가상환경 자동구축 다단계 지침 ||| 팀원 환경 통합 구축 인계 ||| STEP별 셋업 절차 ||| 동일 개발환경 자동 재현
-개발환경_통합/휘주님_MongoDB_환경구축_가이드.md ||| Mongo Atlas 연결+적재+TLS·폴백 가이드 ||| 특정 팀원 Mongo 환경 구축 ||| 4단계 셋업·장애대응 ||| 히스토리 적재 환경 재현
+개발환경_통합/기업개요 파트_MongoDB_환경구축_가이드.md ||| Mongo Atlas 연결+적재+TLS·폴백 가이드 ||| 특정 팀원 Mongo 환경 구축 ||| 4단계 셋업·장애대응 ||| 히스토리 적재 환경 재현
 브리핑정리/result_charts/01_phase_scores.png ||| Phase A~D 점수 막대차트 (바이너리—미파싱) ||| 품질 차원별 점수 시각화 ||| 평가 Phase 점수 그래프 ||| 품질 분석 발표
 브리핑정리/result_charts/02_adopt_ratio.png ||| 1pass/2pass 채택비율 차트 (바이너리—미파싱) ||| best-of-two 채택 시각화 ||| 모델별 채택 비율 그래프 ||| 재생성 효과 입증
 브리핑정리/result_charts/03_sector_scores.png ||| 섹터별 품질점수 차트 (바이너리—미파싱) ||| 섹터별 품질 시각화 ||| 섹터 점수 비교 그래프 ||| 약점 섹터 식별
@@ -313,38 +313,38 @@ ui_share/index_standalone.html ||| 3종목 내장 오프라인 밸류에이션 U
 밸류에이션_파트/xbrl_data/run_all_2024.py ||| 전종목리스트.csv 읽어 target_year 재무 일괄 추출·저장 ||| 연도별 전종목 일괄 수집 ||| CSV 순회·예외처리·딜레이 ||| 전종목 재무 JSON 일괄 생성
 밸류에이션_파트/xbrl_data/xbrl_data.py ||| DART XBRL+택사노미로 손익/NWC/CAPEX/IBD/NOA/FCFF 범용 추출(v3) ||| XBRL 재무지표 추출 엔진 ||| context 폴백·IBD 이중방지·NOA 5분류 ||| 연결우선 핵심 재무지표 dict/JSON 산출
 밸류에이션_파트/xbrl_data/전종목리스트.csv ||| 추출 대상 종목명 줄단위 목록 ||| run_all 일괄추출 입력 ||| 종목명 순회 입력 ||| 일괄 재무추출 대상 명단
-밸류에이션_파트/유태상/git_share/01_설계서_v4.1.md ||| DCF·WACC·FCFF 평가 시스템 전체 수식·결정 설계서(v4.1) ||| 가치평가 알고리즘 명세 ||| WACC/DCF/불확실성/멀티플 수식 정의 ||| 임의값금지·매년세율갱신 등 확정 기준
-밸류에이션_파트/유태상/git_share/02_데이터_명세서_v1.1.md ||| 외부 API·CSV·캐시·결과파일·환경변수 전체 명세 ||| 데이터 소스·산출물 명세 ||| KRX/ECOS/DART/RAG 소스·필드 정의 ||| 입출력 데이터 계약·흐름 다이어그램
-밸류에이션_파트/유태상/git_share/03_서비스_플로우_v1.1.md ||| Phase 0~7 단계별 실행흐름(베타→재무→E→WACC→DCF→Equity→멀티플→불확실성) ||| 서비스 실행 플로우 문서 ||| Phase별 모듈·수식·산출물 정리 ||| 통합진입점·실행순서·갱신항목 제시
-밸류에이션_파트/유태상/git_share/README.md ||| 한국상장사 DCF 평가 시스템 빠른시작·폴더·환경변수 가이드 ||| 프로젝트 최상위 README ||| 설치·실행·산출물·면책 안내 ||| 클론~Streamlit 전체 사용 경로 안내
-밸류에이션_파트/유태상/git_share/XBRL/CLAUDE.md ||| LLM 코딩 행동지침(가정명시·단순화·외과적변경) ||| 코드작업 가이드라인 ||| LLM 협업 실수 감소 규칙 ||| 과설계 억제용 행동 규범
-밸류에이션_파트/유태상/git_share/XBRL/xbrl_financials.py ||| DART XBRL 재무추출 모듈 초기버전 ||| XBRL 추출 모듈(구버전) ||| extract_company 파이프라인 함수화 ||| 종목+연도로 재무 dict/JSON(v4 이전)
-밸류에이션_파트/유태상/git_share/XBRL/xbrl_financials_v4.py ||| 비표준 태그 대응 확장 XBRL 추출 모듈 v4(현재 사용) ||| XBRL 추출 모듈(운영버전) ||| IBD 확장·범용 태그판단·세율 제공 ||| valuation_engine가 import하는 재무·세율 엔진
-밸류에이션_파트/유태상/git_share/XBRL/서비스화 단계에서 데이터 관리.txt ||| POC는 JSON, 서비스화는 SQLite→PostgreSQL 권장 메모 ||| 데이터 저장 전략 메모 ||| 테이블 스키마·raw_json 보관 제안 ||| 서비스 단계 영속화 설계 가이드
-밸류에이션_파트/유태상/git_share/peer_beta/__init__.py ||| peer_beta 패키지 진입점(설계 요약·설정 export) ||| 피어 베타 패키지 초기화 ||| docstring·공개 심볼 노출 ||| Levered Beta 회귀 모듈 안내·설정 export
-밸류에이션_파트/유태상/git_share/peer_beta/beta_calculator.py ||| 주간 로그수익률 OLS 회귀로 β·Blume조정·Winsorize ||| 베타 회귀 순수계산 ||| run_ols·blume·compute_beta ||| β_raw/β_adjusted/R²/이상치처리 산출
-밸류에이션_파트/유태상/git_share/peer_beta/calendar_utils.py ||| 직전 N년 금요일·직전영업일 후보 생성 유틸 ||| 주간 종가 기준일 계산 ||| weekly_friday_dates·영업일 폴백 ||| 베타 회귀용 주간 날짜·휴장 대체
-밸류에이션_파트/유태상/git_share/peer_beta/config.py ||| DEFAULT_PEERS·BETA_CONFIG·경로·env키 ||| 피어 베타 설정 중앙화 ||| 피어목록·회귀파라미터·임계 정의 ||| 대상변경·정책조정 단일 지점
-밸류에이션_파트/유태상/git_share/peer_beta/krx_client.py ||| KRX OpenAPI 주식/지수 일별가→주간 종가 시계열·캐시 ||| KRX 주가·지수 수집 ||| 호출·코드변환·영업일 폴백·캐시 ||| 베타 회귀 입력 주간 종가/지수 제공
-밸류에이션_파트/유태상/git_share/peer_beta/requirements.txt ||| peer_beta 의존성 명세 ||| 베타 모듈 환경 ||| 패키지 목록 ||| 베타 회귀 실행 라이브러리 정의
-밸류에이션_파트/유태상/git_share/peer_beta/run_beta.py ||| 기준일 4사 베타 회귀 실행·결과/패널 저장 메인 ||| 피어 베타 산출 진입점 ||| KRX수집·compute_beta·저장 ||| peer_beta_<T>.json 생성(WACC가 호출)
-밸류에이션_파트/유태상/git_share/poc_valuation_roadmap_v3.1.md ||| POC 완료현황·8개 결정·확장계획·실행매뉴얼 ||| 로드맵/완료 매트릭스 ||| Phase별 Done·미구현·실행순서 ||| 진척·잔여과제·확장 방향 제시
-밸류에이션_파트/유태상/git_share/valuation_engine/__init__.py ||| valuation_engine 패키지 모듈 구성 docstring ||| 가치평가 패키지 초기화 ||| 모듈 역할 주석 ||| 통합 DCF 시스템 구성 개요
-밸류에이션_파트/유태상/git_share/valuation_engine/compute_equity.py ||| 종가×(발행−자기주식)으로 시가총액 E 산출(주식수 RAG) ||| Phase2 자본구조 E 산출 ||| KRX종가·청크 RAG·gpt-4o-mini 주식수 ||| E_market_cap/유통주식수 산출
-밸류에이션_파트/유태상/git_share/valuation_engine/config.py ||| TARGET/PEERS·ERP/CRP·SRP·Fade-out·경로·env키 상수 ||| 가치평가 통합 설정 ||| match_srp·세율구간·디렉토리 정의 ||| 대상교체·WACC/DCF 파라미터 단일 지점
-밸류에이션_파트/유태상/git_share/valuation_engine/cp_loader.py ||| KOFIA CP 시가평가수익률 CSV(5사평균) 파싱 ||| CP 수익률 로더 ||| CSV 탐색·as_of·하드코드 폴백 ||| Kd CP폴백 산정용 CP 1년 yield 제공
-밸류에이션_파트/유태상/git_share/valuation_engine/cp_to_bond_converter.py ||| CP 1년 yield→회사채5년 등가 yield 변환 ||| CP→회사채 수익률 변환 ||| 등급매핑·만기/신용 스프레드 분해 ||| 회사채 등급 부재 시 Kd 산정용 변환
-밸류에이션_파트/유태상/git_share/valuation_engine/cp_yield_data.py ||| KOFIA CP 5사평균 참조 yield 하드코드(A1/A2+/A3+) ||| CP yield 폴백 데이터 ||| CSV 부재 시 상수 제공 ||| cp_loader 폴백·CP등급 검증
-밸류에이션_파트/유태상/git_share/valuation_engine/dcf_engine.py ||| 3년 정상화+Fade-out 5년 FCFF·매년세율갱신·Gordon TV→EV ||| Phase4 DCF 엔진 ||| OPM/DA/CapEx/NWC율·성장률 fade·TV/PV·검증 ||| 타겟 EV·fcff_table·implied_roic 산출
-밸류에이션_파트/유태상/git_share/valuation_engine/ecos_client.py ||| ECOS 국고채10년 SPOT 금리를 Rf로 조회 ||| Phase3 무위험수익률 수집 ||| 일별 호출·직전영업일 폴백 ||| WACC용 실시간 Rf 제공
-밸류에이션_파트/유태상/git_share/valuation_engine/equity_value.py ||| EV−NetDebt+NOA−비지배지분→Equity·주당가·상승여력 ||| Phase5 주당가치 산출 ||| 현금 이중차감 방지·NOA 정제 ||| 타겟 적정주가·상승여력 산출
-밸류에이션_파트/유태상/git_share/valuation_engine/fetch_credit_rating.py ||| 사업보고서 RAG+gpt-4o-mini로 신용등급 추출(임의값금지) ||| Phase3 Kd용 신용등급 추출 ||| 회사채>CP 우선·엄격매칭·변환연계 ||| WACC Kd 산정용 등급 정보 제공
-밸류에이션_파트/유태상/git_share/valuation_engine/fetch_peers_financials.py ||| xbrl_financials_v4로 타겟+피어 4사×3년 재무 추출·캐시 ||| Phase1 피어 재무 수집 ||| extract_company 호출·통합인덱스 ||| WACC/DCF/멀티플 공통 재무 소스
-밸류에이션_파트/유태상/git_share/valuation_engine/kd_loader.py ||| KOFIA 채권시가평가(회사채I 무보증 5년) 등급별 Kd 파싱 ||| 회사채 Kd 로더 ||| 파일탐색·as_of·등급 엄격매칭 ||| WACC Kd 산정용 회사채5년 yield
-밸류에이션_파트/유태상/git_share/valuation_engine/multiples_engine.py ||| 피어3사 EV/EBITDA·EV/Sales·PER 중위값×타겟→역산가 ||| Phase6 멀티플 역산 ||| 중위값·백분위·역산 주당가치 ||| DCF 대비 참고 멀티플 적정가(PBR 미산정)
-밸류에이션_파트/유태상/git_share/valuation_engine/requirements.txt ||| valuation_engine 의존성(pandas/statsmodels/streamlit/openai) ||| 패키지 의존성 명세 ||| 실행환경 설치 목록 ||| 가치평가·대시보드·RAG 실행 라이브러리
-밸류에이션_파트/유태상/git_share/valuation_engine/run_valuation.py ||| Phase1~7 순차 실행 통합진입점 ||| 메인 오케스트레이터 ||| 각 엔진 호출·결과결합·JSON 저장 ||| Streamlit이 읽는 통합 평가결과 JSON
-밸류에이션_파트/유태상/git_share/valuation_engine/streamlit_app.py ||| valuation JSON→적정가·시나리오·민감도 시각화 대시보드 ||| 결과 시각화 대시보드 ||| CSS/Hero·plotly·JSON 로드 ||| 평가 결과 일반투자자용 웹 표시
-밸류에이션_파트/유태상/git_share/valuation_engine/uncertainty_engine.py ||| Bear/Base/Bull·WACC×g 3×3 민감도·토네이도 산출 ||| Phase7 불확실성 표현 ||| 단순화 DCF 재계산·변수 단독변동 ||| 적정가 범위·민감도·영향도 제공
-밸류에이션_파트/유태상/git_share/valuation_engine/wacc_engine.py ||| 피어 Hamada Unlever→중위 βU·D/E Relever→Ke·Kd(RAG등급)·목표자본구조 WACC ||| Phase3 WACC 산출 ||| Unlever/Relever·Ke·Kd·가중 ||| 하드코드 제거된 동적 WACC 산출
-밸류에이션_파트/유태상/readme.md ||| 빈 파일(내용 없음) ||| 유태상 작업폴더 안내 자리 ||| placeholder README ||| 정보 제공 없음
+밸류에이션_파트/밸류에이션 파트/git_share/01_설계서_v4.1.md ||| DCF·WACC·FCFF 평가 시스템 전체 수식·결정 설계서(v4.1) ||| 가치평가 알고리즘 명세 ||| WACC/DCF/불확실성/멀티플 수식 정의 ||| 임의값금지·매년세율갱신 등 확정 기준
+밸류에이션_파트/밸류에이션 파트/git_share/02_데이터_명세서_v1.1.md ||| 외부 API·CSV·캐시·결과파일·환경변수 전체 명세 ||| 데이터 소스·산출물 명세 ||| KRX/ECOS/DART/RAG 소스·필드 정의 ||| 입출력 데이터 계약·흐름 다이어그램
+밸류에이션_파트/밸류에이션 파트/git_share/03_서비스_플로우_v1.1.md ||| Phase 0~7 단계별 실행흐름(베타→재무→E→WACC→DCF→Equity→멀티플→불확실성) ||| 서비스 실행 플로우 문서 ||| Phase별 모듈·수식·산출물 정리 ||| 통합진입점·실행순서·갱신항목 제시
+밸류에이션_파트/밸류에이션 파트/git_share/README.md ||| 한국상장사 DCF 평가 시스템 빠른시작·폴더·환경변수 가이드 ||| 프로젝트 최상위 README ||| 설치·실행·산출물·면책 안내 ||| 클론~Streamlit 전체 사용 경로 안내
+밸류에이션_파트/밸류에이션 파트/git_share/XBRL/CLAUDE.md ||| LLM 코딩 행동지침(가정명시·단순화·외과적변경) ||| 코드작업 가이드라인 ||| LLM 협업 실수 감소 규칙 ||| 과설계 억제용 행동 규범
+밸류에이션_파트/밸류에이션 파트/git_share/XBRL/xbrl_financials.py ||| DART XBRL 재무추출 모듈 초기버전 ||| XBRL 추출 모듈(구버전) ||| extract_company 파이프라인 함수화 ||| 종목+연도로 재무 dict/JSON(v4 이전)
+밸류에이션_파트/밸류에이션 파트/git_share/XBRL/xbrl_financials_v4.py ||| 비표준 태그 대응 확장 XBRL 추출 모듈 v4(현재 사용) ||| XBRL 추출 모듈(운영버전) ||| IBD 확장·범용 태그판단·세율 제공 ||| valuation_engine가 import하는 재무·세율 엔진
+밸류에이션_파트/밸류에이션 파트/git_share/XBRL/서비스화 단계에서 데이터 관리.txt ||| POC는 JSON, 서비스화는 SQLite→PostgreSQL 권장 메모 ||| 데이터 저장 전략 메모 ||| 테이블 스키마·raw_json 보관 제안 ||| 서비스 단계 영속화 설계 가이드
+밸류에이션_파트/밸류에이션 파트/git_share/peer_beta/__init__.py ||| peer_beta 패키지 진입점(설계 요약·설정 export) ||| 피어 베타 패키지 초기화 ||| docstring·공개 심볼 노출 ||| Levered Beta 회귀 모듈 안내·설정 export
+밸류에이션_파트/밸류에이션 파트/git_share/peer_beta/beta_calculator.py ||| 주간 로그수익률 OLS 회귀로 β·Blume조정·Winsorize ||| 베타 회귀 순수계산 ||| run_ols·blume·compute_beta ||| β_raw/β_adjusted/R²/이상치처리 산출
+밸류에이션_파트/밸류에이션 파트/git_share/peer_beta/calendar_utils.py ||| 직전 N년 금요일·직전영업일 후보 생성 유틸 ||| 주간 종가 기준일 계산 ||| weekly_friday_dates·영업일 폴백 ||| 베타 회귀용 주간 날짜·휴장 대체
+밸류에이션_파트/밸류에이션 파트/git_share/peer_beta/config.py ||| DEFAULT_PEERS·BETA_CONFIG·경로·env키 ||| 피어 베타 설정 중앙화 ||| 피어목록·회귀파라미터·임계 정의 ||| 대상변경·정책조정 단일 지점
+밸류에이션_파트/밸류에이션 파트/git_share/peer_beta/krx_client.py ||| KRX OpenAPI 주식/지수 일별가→주간 종가 시계열·캐시 ||| KRX 주가·지수 수집 ||| 호출·코드변환·영업일 폴백·캐시 ||| 베타 회귀 입력 주간 종가/지수 제공
+밸류에이션_파트/밸류에이션 파트/git_share/peer_beta/requirements.txt ||| peer_beta 의존성 명세 ||| 베타 모듈 환경 ||| 패키지 목록 ||| 베타 회귀 실행 라이브러리 정의
+밸류에이션_파트/밸류에이션 파트/git_share/peer_beta/run_beta.py ||| 기준일 4사 베타 회귀 실행·결과/패널 저장 메인 ||| 피어 베타 산출 진입점 ||| KRX수집·compute_beta·저장 ||| peer_beta_<T>.json 생성(WACC가 호출)
+밸류에이션_파트/밸류에이션 파트/git_share/poc_valuation_roadmap_v3.1.md ||| POC 완료현황·8개 결정·확장계획·실행매뉴얼 ||| 로드맵/완료 매트릭스 ||| Phase별 Done·미구현·실행순서 ||| 진척·잔여과제·확장 방향 제시
+밸류에이션_파트/밸류에이션 파트/git_share/valuation_engine/__init__.py ||| valuation_engine 패키지 모듈 구성 docstring ||| 가치평가 패키지 초기화 ||| 모듈 역할 주석 ||| 통합 DCF 시스템 구성 개요
+밸류에이션_파트/밸류에이션 파트/git_share/valuation_engine/compute_equity.py ||| 종가×(발행−자기주식)으로 시가총액 E 산출(주식수 RAG) ||| Phase2 자본구조 E 산출 ||| KRX종가·청크 RAG·gpt-4o-mini 주식수 ||| E_market_cap/유통주식수 산출
+밸류에이션_파트/밸류에이션 파트/git_share/valuation_engine/config.py ||| TARGET/PEERS·ERP/CRP·SRP·Fade-out·경로·env키 상수 ||| 가치평가 통합 설정 ||| match_srp·세율구간·디렉토리 정의 ||| 대상교체·WACC/DCF 파라미터 단일 지점
+밸류에이션_파트/밸류에이션 파트/git_share/valuation_engine/cp_loader.py ||| KOFIA CP 시가평가수익률 CSV(5사평균) 파싱 ||| CP 수익률 로더 ||| CSV 탐색·as_of·하드코드 폴백 ||| Kd CP폴백 산정용 CP 1년 yield 제공
+밸류에이션_파트/밸류에이션 파트/git_share/valuation_engine/cp_to_bond_converter.py ||| CP 1년 yield→회사채5년 등가 yield 변환 ||| CP→회사채 수익률 변환 ||| 등급매핑·만기/신용 스프레드 분해 ||| 회사채 등급 부재 시 Kd 산정용 변환
+밸류에이션_파트/밸류에이션 파트/git_share/valuation_engine/cp_yield_data.py ||| KOFIA CP 5사평균 참조 yield 하드코드(A1/A2+/A3+) ||| CP yield 폴백 데이터 ||| CSV 부재 시 상수 제공 ||| cp_loader 폴백·CP등급 검증
+밸류에이션_파트/밸류에이션 파트/git_share/valuation_engine/dcf_engine.py ||| 3년 정상화+Fade-out 5년 FCFF·매년세율갱신·Gordon TV→EV ||| Phase4 DCF 엔진 ||| OPM/DA/CapEx/NWC율·성장률 fade·TV/PV·검증 ||| 타겟 EV·fcff_table·implied_roic 산출
+밸류에이션_파트/밸류에이션 파트/git_share/valuation_engine/ecos_client.py ||| ECOS 국고채10년 SPOT 금리를 Rf로 조회 ||| Phase3 무위험수익률 수집 ||| 일별 호출·직전영업일 폴백 ||| WACC용 실시간 Rf 제공
+밸류에이션_파트/밸류에이션 파트/git_share/valuation_engine/equity_value.py ||| EV−NetDebt+NOA−비지배지분→Equity·주당가·상승여력 ||| Phase5 주당가치 산출 ||| 현금 이중차감 방지·NOA 정제 ||| 타겟 적정주가·상승여력 산출
+밸류에이션_파트/밸류에이션 파트/git_share/valuation_engine/fetch_credit_rating.py ||| 사업보고서 RAG+gpt-4o-mini로 신용등급 추출(임의값금지) ||| Phase3 Kd용 신용등급 추출 ||| 회사채>CP 우선·엄격매칭·변환연계 ||| WACC Kd 산정용 등급 정보 제공
+밸류에이션_파트/밸류에이션 파트/git_share/valuation_engine/fetch_peers_financials.py ||| xbrl_financials_v4로 타겟+피어 4사×3년 재무 추출·캐시 ||| Phase1 피어 재무 수집 ||| extract_company 호출·통합인덱스 ||| WACC/DCF/멀티플 공통 재무 소스
+밸류에이션_파트/밸류에이션 파트/git_share/valuation_engine/kd_loader.py ||| KOFIA 채권시가평가(회사채I 무보증 5년) 등급별 Kd 파싱 ||| 회사채 Kd 로더 ||| 파일탐색·as_of·등급 엄격매칭 ||| WACC Kd 산정용 회사채5년 yield
+밸류에이션_파트/밸류에이션 파트/git_share/valuation_engine/multiples_engine.py ||| 피어3사 EV/EBITDA·EV/Sales·PER 중위값×타겟→역산가 ||| Phase6 멀티플 역산 ||| 중위값·백분위·역산 주당가치 ||| DCF 대비 참고 멀티플 적정가(PBR 미산정)
+밸류에이션_파트/밸류에이션 파트/git_share/valuation_engine/requirements.txt ||| valuation_engine 의존성(pandas/statsmodels/streamlit/openai) ||| 패키지 의존성 명세 ||| 실행환경 설치 목록 ||| 가치평가·대시보드·RAG 실행 라이브러리
+밸류에이션_파트/밸류에이션 파트/git_share/valuation_engine/run_valuation.py ||| Phase1~7 순차 실행 통합진입점 ||| 메인 오케스트레이터 ||| 각 엔진 호출·결과결합·JSON 저장 ||| Streamlit이 읽는 통합 평가결과 JSON
+밸류에이션_파트/밸류에이션 파트/git_share/valuation_engine/streamlit_app.py ||| valuation JSON→적정가·시나리오·민감도 시각화 대시보드 ||| 결과 시각화 대시보드 ||| CSS/Hero·plotly·JSON 로드 ||| 평가 결과 일반투자자용 웹 표시
+밸류에이션_파트/밸류에이션 파트/git_share/valuation_engine/uncertainty_engine.py ||| Bear/Base/Bull·WACC×g 3×3 민감도·토네이도 산출 ||| Phase7 불확실성 표현 ||| 단순화 DCF 재계산·변수 단독변동 ||| 적정가 범위·민감도·영향도 제공
+밸류에이션_파트/밸류에이션 파트/git_share/valuation_engine/wacc_engine.py ||| 피어 Hamada Unlever→중위 βU·D/E Relever→Ke·Kd(RAG등급)·목표자본구조 WACC ||| Phase3 WACC 산출 ||| Unlever/Relever·Ke·Kd·가중 ||| 하드코드 제거된 동적 WACC 산출
+밸류에이션_파트/밸류에이션 파트/readme.md ||| 빈 파일(내용 없음) ||| 밸류에이션 파트 작업폴더 안내 자리 ||| placeholder README ||| 정보 제공 없음

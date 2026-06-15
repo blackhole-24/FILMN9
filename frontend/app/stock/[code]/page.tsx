@@ -1562,10 +1562,13 @@ export default function StockPage() {
                         <div className="text-xs text-slate-400">{icon} {label} ({finLabel})</div>
                         <div className="text-lg font-extrabold text-slate-800 dark:text-white font-mono mt-0.5">{fmtAmt(v)}원</div>
                       </div>
-                      <div
-                        title={yoy!=null ? `전년 동기(${prev.fiscal_year} ${_RC[prev.reprt_code]||'연간'}) 대비` : '전년 동기 데이터 없음'}
-                        className={`text-xs font-bold px-2 py-1 rounded-full ${yoy!=null && yoy>=0 ? 'bg-red-50 text-red-600' : 'bg-blue-50 text-blue-600'}`}>
-                        {yoyText(yoy) || '—'}
+                      <div className="flex flex-col items-end gap-0.5 shrink-0"
+                        title={yoy!=null ? `전년 동기(${prev.fiscal_year} ${_RC[prev.reprt_code]||'연간'}) 대비 증감률` : '전년 동기 데이터 없음'}>
+                        <span className="text-[9px] leading-none text-slate-400 font-semibold tracking-wide">YoY <span className="font-normal">(전년比)</span></span>
+                        <div
+                          className={`text-xs font-bold px-2 py-1 rounded-full ${yoy!=null && yoy>=0 ? 'bg-red-50 text-red-600' : 'bg-blue-50 text-blue-600'}`}>
+                          {yoyText(yoy) || '—'}
+                        </div>
                       </div>
                     </div>
                   );
