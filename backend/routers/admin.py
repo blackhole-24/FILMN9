@@ -849,7 +849,7 @@ def admin_qa_run():
     tests = []
     def t(name, ok, detail=""):
         tests.append({"test": name, "pass": bool(ok), "detail": detail})
-    n_an = _cnt("SELECT COUNT(*) FROM (SELECT f.stock_code FROM financials f JOIN ohlcv o ON f.stock_code=o.stock_code WHERE f.revenue IS NOT NULL GROUP BY f.stock_code)")
+    n_an = _cnt("SELECT COUNT(*) FROM company_info ci WHERE EXISTS(SELECT 1 FROM financials f WHERE f.stock_code=ci.stock_code AND f.revenue IS NOT NULL) AND EXISTS(SELECT 1 FROM ohlcv o WHERE o.stock_code=ci.stock_code)")
     t("분석가능 종목 ≥ 2,500 (재무+주가)", n_an >= 2500, f"{n_an}종")
     n_fd3 = _cnt("SELECT COUNT(*) FROM (SELECT stock_code FROM financial_detail GROUP BY stock_code HAVING COUNT(DISTINCT fiscal_year)>=3)")
     t("재무제표 3년치 ≥ 2,500종", n_fd3 >= 2500, f"{n_fd3}종")
