@@ -53,17 +53,17 @@ KPMG AI Lab 프로젝트 · 운영 FILMN9 Inc. · 분석 대상 KOSPI·KOSDAQ �
 
 ```mermaid
 flowchart LR
-    U(["🧑‍💻 일반투자자"]) --> FE["② Frontend<br/>Next.js 16<br/>S3 + CloudFront"]
-    FE <-->|REST| BE["③ Backend<br/>FastAPI · EC2<br/>Routers→Services→Repos"]
-    FE -.Tab3.-> BOT["🤖 AI RAG 챗봇<br/>FastAPI :8800<br/>별도 EC2 · GPU"]
-    EXT["⑤ External API<br/>DART · OpenAI · yfinance<br/>ECOS · WICS · 네이버"] --> BE
-    BE --> RDS[("RELATIONAL<br/>AWS RDS<br/>PostgreSQL")]
-    BE --> MG[("DOCUMENT<br/>MongoDB Atlas<br/>히스토리 브리핑")]
-    BE --> S3OBJ[("OBJECT<br/>AWS S3<br/>Sankey·밸류·계열사")]
-    BOT --> VDB[("VECTOR<br/>ChromaDB<br/>BGE-M3 임베딩")]
-    INFRA["⑥ AWS Infrastructure — VPC · IAM · Security Group · ACM/HTTPS · CloudWatch"]
-    INFRA -.호스팅·보호.-> FE
-    INFRA -.호스팅·보호.-> BE
+    U["일반투자자"] --> FE["Frontend<br/>Next.js 16<br/>S3 + CloudFront"]
+    FE <-->|REST| BE["Backend<br/>FastAPI / EC2<br/>Routers · Services · Repos"]
+    FE -.Tab3.-> BOT["AI RAG 챗봇<br/>FastAPI 8800<br/>별도 EC2 / GPU"]
+    EXT["External API<br/>DART · OpenAI · yfinance<br/>ECOS · WICS · 네이버"] --> BE
+    BE --> RDS[("RDS PostgreSQL<br/>관계형 데이터")]
+    BE --> MG[("MongoDB Atlas<br/>히스토리 브리핑")]
+    BE --> S3OBJ[("AWS S3<br/>Sankey · 밸류 · 계열사")]
+    BOT --> VDB[("ChromaDB<br/>벡터 임베딩")]
+    INFRA["AWS Infrastructure<br/>VPC · IAM · Security Group · HTTPS · CloudWatch"]
+    INFRA -.호스팅.-> FE
+    INFRA -.호스팅.-> BE
 ```
 
 ## 🔄 데이터 파이프라인
@@ -73,11 +73,11 @@ flowchart LR
 
 ```mermaid
 flowchart LR
-    A["📥 원천<br/>DART·yfinance/KRX<br/>ECOS·WICS·네이버"] --> B["⚙️ 수집<br/>data_pipeline/"]
-    B --> C["🧹 정제·표준화<br/>재무 3개년·단위 통일<br/>LLM 히스토리 요약<br/>RAG 임베딩(BGE-M3)"]
-    C --> D[("🗄 적재<br/>RDS·Mongo·Chroma·S3")]
-    D --> E["🔌 FastAPI"] --> F["🖥 화면"]
-    S["⏰ 스케줄러<br/>주가 일배치 16:00"] --> B
+    A["원천<br/>DART · yfinance/KRX<br/>ECOS · WICS · 네이버"] --> B["수집<br/>data_pipeline"]
+    B --> C["정제 · 표준화<br/>재무 3개년 · 단위 통일<br/>LLM 요약 · RAG 임베딩"]
+    C --> D[("적재<br/>RDS · Mongo · Chroma · S3")]
+    D --> E["FastAPI"] --> F["화면"]
+    S["스케줄러<br/>주가 일배치 16:00"] --> B
 ```
 
 ## 📋 요구사항 정의서
