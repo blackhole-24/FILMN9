@@ -71,10 +71,40 @@ const COV_INFO: Record<string, string> = {
   '주가 (ohlcv)': 'COUNT(DISTINCT stock_code) FROM ohlcv\n= 일봉 보유 종목수. 출처: yfinance/pykrx.',
   '주주 (shareholders)': 'COUNT(DISTINCT stock_code) FROM shareholders\n= 주주현황 보유 종목수. 출처: DART 주주현황.',
   '경영인 (executives)': 'COUNT(DISTINCT stock_code) FROM executives\n= 임원현황 보유 종목수. 출처: DART 임원현황.',
-  '밸류 요약 (valuation_summary)': 'COUNT(*) FROM valuation_summary\n= 밸류 산출 완료 종목. 현재 산업 대표 20종만 → 0.8%. 출처: DCF 엔진 v8 → load_valuation_summary.py.',
+  '밸류 요약 (valuation_summary)': 'COUNT(*) FROM valuation_summary\n= (구) 기업개요 사이드카드용 밸류 요약(산업 대표 20종). \n※ 종목상세 밸류 탭이 쓰는 통합 밸류에이션은 별도 valuation.db에 2,224종 — 아래 "💹 밸류에이션(통합 엔진 v8)" 카드 참고. 출처: DCF 엔진 v8.',
   '손익흐름도 Sankey (파일)': 'outputs/sankey/*_sankey.html 파일 수(사전생성). 출처: build_sankey_v3.py(Plotly). 종목상세 손익흐름도에 그대로 서빙.',
   '계열사 시각화 (샘플)': '계열회사시각화 폴더의 샘플 디렉터리/SVG 수. 현재 GitHub 샘플만(전종목 미수령). 출처: 기업개요_파트/계열회사시각화/.',
 };
+
+// 우리 개선: 통합 밸류에이션(valuation.db) 최신 현황 — /api/valuation-admin/meta
+function ValuationMetaCard() {
+  const [m, setM] = useState<any>(null);
+  useEffect(() => { fetchJSON('/api/valuation-admin/meta').then(setM).catch(() => setM({ error: true })); }, []);
+  const v = m?.valuation;
+  return (
+    <Card title="💹 밸류에이션 (통합 엔진 v8)" sub={v ? `${v.n_evaluated?.toLocaleString()}종 평가 · ${v.eval_date_latest || ''}` : '불러오는 중…'}
+      info={'종목상세 밸류 탭이 쓰는 통합 밸류에이션(valuation.db)의 최신 현황입니다(실측, NO-MOCK).\n방법: DCF(FCFF) + EPV + 멀티플(4종) + 시나리오. 출처: GET /api/valuation-admin/meta → backend/routers/valuation_admin.py.\n※ 위 "커버리지"의 밸류 20종은 구(舊) valuation_summary(기업개요 사이드카드용)이고, 통합 밸류는 여기 2,224종입니다.'}>
+      {m?.error ? <div className="text-rose-500 text-sm">메타 조회 실패 (백엔드 8090 · /api/valuation-admin/meta)</div>
+       : !v ? <div className="text-sm text-slate-400">불러오는 중…</div>
+       : (
+        <div>
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
+            <div className="rounded-lg p-3 bg-emerald-50 text-center"><div className="text-xs text-emerald-500 flex items-center justify-center">평가 종목<Info w="w-64" text="통합 밸류에이션 평가 완료 종목 수(valuation.db). DCF 엔진 v8." /></div><div className="text-2xl font-extrabold font-mono text-emerald-600">{v.n_evaluated?.toLocaleString()}</div></div>
+            <div className="rounded-lg p-3 bg-slate-50 text-center"><div className="text-xs text-slate-400 flex items-center justify-center">최신 평가일<Info w="w-64" text="증분 평가로 갱신된 가장 최근 평가 기준일(신규 공시 감지 시 해당 종목만 재평가)." /></div><div className="text-sm font-bold mt-1.5 font-mono">{v.eval_date_latest || '—'}</div></div>
+            <div className="rounded-lg p-3 bg-slate-50 text-center"><div className="text-xs text-slate-400 flex items-center justify-center">벌크 평가일<Info w="w-64" text="전 종목 일괄(벌크) 재평가를 마지막으로 돌린 기준일." /></div><div className="text-sm font-bold mt-1.5 font-mono">{v.eval_date_bulk || '—'}</div></div>
+            <div className="rounded-lg p-3 bg-slate-50 text-center"><div className="text-xs text-slate-400">모델</div><div className="text-sm font-bold mt-1.5">{v.model_version || '—'}</div></div>
+          </div>
+          <div className="mt-3 space-y-1 text-[12px] text-slate-600">
+            <div>무위험수익률(Rf): <b>{v.rf?.pct}%</b> <span className="text-slate-400">· {v.rf?.date} · {v.rf?.name} ({v.rf?.source})</span></div>
+            <div>방법론: <span className="text-slate-500">{v.methodology}</span></div>
+            <div className="flex flex-wrap items-center gap-1 pt-1"><span className="text-slate-400 mr-1">데이터 출처:</span>{(v.data_sources || []).map((s: string, i: number) => <span key={i} className="text-[10.5px] px-2 py-0.5 rounded bg-slate-100 text-slate-500">{s}</span>)}</div>
+          </div>
+          <Link href="/admin/valuation" className="inline-block mt-3 text-xs px-3 py-1.5 rounded-lg bg-indigo-600 text-white hover:bg-indigo-700">밸류·챗봇 상세 운영/테스트 →</Link>
+        </div>
+      )}
+    </Card>
+  );
+}
 
 // ───────────────────────── 탭1 · 운영 모니터링 ─────────────────────────
 function MonitorTab() {
@@ -149,8 +179,11 @@ function MonitorTab() {
             </div>
           ))}
         </div>
-        <div className="text-[11px] text-slate-400 mt-2">※ %가 100%여도 일부 종목은 결측 가능(분모=기준 2,580). 밸류·계열사가 낮은 건 사전계산/샘플만 적용됐기 때문(정상).</div>
+        <div className="text-[11px] text-slate-400 mt-2">※ %가 100%여도 일부 종목은 결측 가능(분모=기준 2,580). 밸류·계열사가 낮은 건 사전계산/샘플만 적용됐기 때문(정상). 통합 밸류는 아래 별도 카드(2,224종).</div>
       </Card>
+
+      {/* 우리 개선: 통합 밸류에이션 최신 현황 */}
+      <ValuationMetaCard />
 
       <div className="grid md:grid-cols-2 gap-4">
         {/* DB 현황 */}
