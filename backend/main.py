@@ -64,6 +64,7 @@ from backend.routers.morning   import router as morning_router
 from backend.routers.valuation_summary import router as valuation_summary_router
 from backend.routers.affiliate  import router as affiliate_router
 from backend.routers.admin      import router as admin_router
+from backend.routers.valuation_admin import router as valuation_admin_router
 
 # ─── 앱 생성 ──────────────────────────────────────────────────────────────────
 app = FastAPI(
@@ -96,6 +97,7 @@ app.include_router(morning_router,   prefix="/api")
 app.include_router(valuation_summary_router, prefix="/api")
 app.include_router(affiliate_router, prefix="/api")
 app.include_router(admin_router,     prefix="/api")
+app.include_router(valuation_admin_router, prefix="/api")
 
 
 # ─── 기동 시 모닝 위젯 캐시 자동 갱신 시작 (콜드 스타트 영구 제거, 옵션 A+B) ──

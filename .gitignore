@@ -326,3 +326,6 @@ deliverables_docs/_make_repo_index_html.py
 deliverables_docs/_make_targets_outputs.py
 deliverables_docs/_repo_index_data.txt
 output/
+
+# 애널리스트 리포트 PDF(저작권·비공개) — git 제외
+DCF_밸류에이션엔진/에널리스트 리포트 모음/
