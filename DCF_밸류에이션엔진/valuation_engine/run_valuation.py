@@ -13,6 +13,7 @@
 from __future__ import annotations
 
 import json
+import os
 import sys
 from datetime import date, datetime
 from pathlib import Path
@@ -64,6 +65,8 @@ def run(eval_date: Optional[date] = None,
     #   재무 수치(분기·반기 변동)는 Phase 4-pre 의 TTM 으로 별도 최신화한다.
     # 이미 임베딩된 청크는 skip_existing 으로 즉시 통과 (최초 1회만 비용).
     try:
+        if os.getenv("SKIP_REPORT_EMBED") == "1":
+            raise RuntimeError("SKIP_REPORT_EMBED=1 — 종가·금리 최신화 모드(기존 임베딩 재사용, 다운로드·청크화 생략)")
         sys.path.insert(0, str(_VAR_ROOT / "XBRL"))
         from .report_detector import detect_new, mark_processed
         from .report_ingest import ingest_report
@@ -286,14 +289,15 @@ def run(eval_date: Optional[date] = None,
         # report_registry sync — mark_processed 는 첫 XBRL 수집 때만 적재하므로
         #   캐시 skip(skip_existing) 종목이 DB 에 누락됨 → 매 평가 시 registry 전체
         #   백필(멱등 upsert)로 일관성 회복. 실패해도 파일 registry 가 원본.
-        try:
+        if os.getenv("SKIP_REGISTRY_BACKFILL") != "1":
+          try:
             from . import report_detector as _rd
             _reg = _rd.load_registry()
             for _rtk, _node in (_reg or {}).items():
                 _cc = _node.get("corp_code")
                 for _period, _rec in (_node.get("reports") or {}).items():
                     _db.save_registry_entry(_rtk, _period, {**_rec, "corp_code": _cc})
-        except Exception:
+          except Exception:
             pass
     except Exception as _e:
         if verbose:
