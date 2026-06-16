@@ -28,6 +28,8 @@ _ROOT = Path(__file__).resolve().parent.parent.parent
 _DB   = _ROOT / "data" / "filmn9.db"
 # 엔진 v8 합본(통합) JSON — index.html 대시보드가 그대로 소비하는 포맷
 _FULL_DIR = _ROOT / "data" / "valuation_inbox" / "repr20_export" / "data"
+# 전 종목(2,224+) 통합 JSON 원본 — repr20에 없으면 여기서 찾음. 파일명 valuation_{code}_{YYYYMMDD}.json
+_ENGINE_RESULTS = _ROOT / "DCF_밸류에이션엔진" / "valuation_engine" / "results"
 
 _COLS = ("stock_code, corp_name, market, industry, dcf_grade, dcf_confidence, "
          "peer_confidence_grade, fair_price, current_price, upside_pct, wacc, "
@@ -132,11 +134,13 @@ def get_full(code: str):
     없으면 404 → 프론트가 "데이터 준비중" 표시.
     """
     code = code.strip()
-    if not _FULL_DIR.exists():
-        raise HTTPException(status_code=404, detail="valuation_inbox 폴더 없음")
-    matches = sorted(_FULL_DIR.glob(f"{code}_*.json"))
+    # 1) repr20_export (산업 대표 20종) 우선
+    matches = sorted(_FULL_DIR.glob(f"{code}_*.json")) if _FULL_DIR.exists() else []
+    # 2) 없으면 전 종목 엔진 통합 JSON (valuation_{code}_{YYYYMMDD}.json) — 최신 날짜 우선
+    if not matches and _ENGINE_RESULTS.exists():
+        matches = sorted(_ENGINE_RESULTS.glob(f"valuation_{code}_*.json"), reverse=True)
     if not matches:
-        raise HTTPException(status_code=404, detail=f"{code} 평가 데이터 없음 (산업 대표 20종만 제공)")
+        raise HTTPException(status_code=404, detail=f"{code} 평가 데이터 없음 (밸류에이션 미산출 종목)")
     try:
         return json.loads(matches[0].read_text(encoding="utf-8"))
     except Exception as e:

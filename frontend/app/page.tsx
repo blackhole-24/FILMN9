@@ -15,6 +15,9 @@ const SIGNAL_CATS: { id: string; name: string; tickers: string[] }[] = [
   { id: 'commodity', name: '원자재',      tickers: ['CL=F','BZ=F','GC=F','KRX_GOLD','SI=F','HG=F','NG=F','URA','LIT','SLX','BDRY','ZW=F','ZC=F','ZS=F'] },
   { id: 'sentiment', name: '심리 · 테마',  tickers: ['^VIX','FEAR_GREED','BTC-USD','^SOX','NVDA','TSM','MU','XLK','XLF','XLV','XLE','XLY','XLI'] },
 ];
+// 지표 기본 순서(드래그 순서변경의 기준) — localStorage에 사용자 순서 저장
+const M_DEFAULT_ORDER: string[] = SIGNAL_CATS.flatMap(c => c.tickers);
+const MORDER_KEY = 'finsight_morning_order';
 
 interface SearchResult { stock_code: string; corp_name: string; market: string; has_data: boolean; }
 interface WatchItem { code: string; name: string; market: string; }
@@ -59,6 +62,9 @@ export default function HomePage() {
   const [watch, setWatch] = useState<WatchItem[]>([]);
   // 시그널 카테고리 열림 상태
   const [catOpen, setCatOpen] = useState<Record<string, boolean>>({ index: true, fxrate: false, commodity: false, sentiment: false });
+  // 지표 드래그 순서변경 (localStorage 저장)
+  const [mOrder, setMOrder] = useState<string[]>(M_DEFAULT_ORDER);
+  const [mDrag,  setMDrag]  = useState<string | null>(null);
 
   // ── 초기 로드 ──
   useEffect(() => {
@@ -76,6 +82,11 @@ export default function HomePage() {
     }).catch(()=>{});
     try { const s = localStorage.getItem(WATCH_KEY); if (s) setWatch(JSON.parse(s)); } catch {}
     try { const c = localStorage.getItem(CATS_KEY); if (c) setCatOpen(JSON.parse(c)); } catch {}
+    try {
+      const o = localStorage.getItem(MORDER_KEY);
+      if (o) { const arr = JSON.parse(o) as string[];
+        setMOrder([...arr.filter(t=>M_DEFAULT_ORDER.includes(t)), ...M_DEFAULT_ORDER.filter(t=>!arr.includes(t))]); }
+    } catch {}
   }, []);
 
   // 업종 칩 회전 (3.5초마다 한 칸)
@@ -115,6 +126,16 @@ export default function HomePage() {
     const next = { ...catOpen, [id]: !catOpen[id] };
     setCatOpen(next);
     try { localStorage.setItem(CATS_KEY, JSON.stringify(next)); } catch {}
+  };
+  // 지표 드래그 순서변경
+  const mSaveOrder = (arr: string[]) => { setMOrder(arr); try { localStorage.setItem(MORDER_KEY, JSON.stringify(arr)); } catch {} };
+  const mOnDrop = (target: string) => {
+    if (!mDrag || mDrag === target) { setMDrag(null); return; }
+    const arr = [...mOrder];
+    const from = arr.indexOf(mDrag), to = arr.indexOf(target);
+    if (from < 0 || to < 0) { setMDrag(null); return; }
+    arr.splice(from, 1); arr.splice(to, 0, mDrag);
+    mSaveOrder(arr); setMDrag(null);
   };
 
   const toggleDark = () => { document.documentElement.classList.toggle('dark'); setDark(d => !d); };
@@ -180,7 +201,10 @@ export default function HomePage() {
       const tip = `${e.label}\n${e.desc||''}\n📊 ${e.range_str||''}`;
       const isAdd = M_ADDITIONAL.includes(e.ticker);
       return (
-        <div key={e.ticker} className="flex items-center gap-1.5 py-1.5 px-1 border-t border-white/5 first:border-t-0">
+        <div key={e.ticker} draggable
+          onDragStart={()=>setMDrag(e.ticker)} onDragOver={(ev)=>ev.preventDefault()} onDrop={()=>mOnDrop(e.ticker)}
+          className={`flex items-center gap-1.5 py-1.5 px-1 border-t border-white/5 first:border-t-0 cursor-grab active:cursor-grabbing hover:bg-white/[0.04] rounded ${mDrag===e.ticker?'opacity-40':''}`}>
+          <span className="text-slate-600 text-[12px] select-none flex-shrink-0" title="드래그로 순서 변경">⠿</span>
           {isAdd && <span className="text-[8px] text-amber-400 flex-shrink-0" title="추가지표">●</span>}
           <span className="flex-1 text-[12px] text-slate-100 truncate" title={tip}>{e.label}</span>
           <span className="text-[12px] font-mono text-white text-right w-14 truncate" title={tip}>{e.price_str}</span>
@@ -188,6 +212,7 @@ export default function HomePage() {
         </div>
       );
     };
+    const orderIdx = (tk: string) => { const i = mOrder.indexOf(tk); return i < 0 ? 999 : i; };
     return (
       <div className="bg-white/5 border border-white/10 rounded-2xl p-5">
         <div className="text-base font-bold text-white">📡 글로벌 마켓 시그널</div>
@@ -202,7 +227,7 @@ export default function HomePage() {
         {/* 카테고리 접기/펴기 */}
         <div className="space-y-1">
           {cats.map(cat => {
-            const rows = cat.tickers.map(tk => flat[tk]).filter(Boolean);
+            const rows = cat.tickers.slice().sort((a,b)=>orderIdx(a)-orderIdx(b)).map(tk => flat[tk]).filter(Boolean);
             if (!rows.length) return null;
             const isOpen = catOpen[cat.id] ?? false;
             return (
@@ -217,7 +242,7 @@ export default function HomePage() {
             );
           })}
         </div>
-        <div className="text-[10px] text-slate-500 mt-3 pt-2 border-t border-white/10"><span className="text-amber-400">●</span> 추가지표 · 이름 위 마우스=설명·한달범위 · 투자 참고용</div>
+        <div className="text-[10px] text-slate-500 mt-3 pt-2 border-t border-white/10"><span className="text-amber-400">●</span> 추가지표 · <span className="text-slate-400">⠿ 드래그로 순서변경</span> · 이름 위 마우스=설명 · 투자 참고용</div>
       </div>
     );
   };
@@ -264,12 +289,12 @@ export default function HomePage() {
           <h1 className="text-4xl sm:text-5xl font-extrabold text-white tracking-tight text-center mb-4">
             기업 분석, 이제 <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-purple-400">5분 만에</span>
           </h1>
-          <p className="text-slate-400 text-base sm:text-lg text-center max-w-lg mb-8">
+          <p className="text-slate-400 text-base sm:text-lg text-center max-w-lg mb-10">
             <b className="text-slate-200 font-bold">DART 공시 + LLM + DCF 모델링</b>으로<br/>개인 투자자도 기관 수준의 분석을 한 화면에서
           </p>
 
           {/* 통합 스마트 검색 */}
-          <div className="relative w-full max-w-2xl mb-5" ref={wrapRef}>
+          <div className="relative w-full max-w-2xl mb-14" ref={wrapRef}>
             <div className="flex items-center bg-white/[0.06] border-2 rounded-2xl px-5 h-16 shadow-2xl shadow-indigo-900/40 transition-all" style={{ borderColor: open ? '#8b5cf6' : 'rgba(255,255,255,0.14)' }}>
               <svg className="w-5 h-5 text-indigo-400 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-4.35-4.35M17 11A6 6 0 1 1 5 11a6 6 0 0 1 12 0z"/></svg>
               <input ref={inputRef} value={query} onChange={handleInput} onFocus={()=>{ if(query) setOpen(true); }} onKeyDown={e => { if (e.key === 'Enter') onEnter(); }}
@@ -321,9 +346,11 @@ export default function HomePage() {
             )}
           </div>
 
-          {/* 추천 종목 캐러셀 (검색란 바로 밑, 밸류·DCF 충실 종목만) */}
+          {/* 추천 종목 캐러셀 — 명칭 '추천 종목' (밸류·DCF 충실 종목 랜덤 회전) */}
           {rotation.length >= 4 && (
-            <div className="overflow-hidden mb-7" style={{ width: '624px', maxWidth: '92vw' }}>
+            <div className="w-full flex flex-col items-center mb-16">
+              <div className="text-[13px] font-bold text-slate-400 mb-3">✨ 추천 종목 <span className="font-normal text-slate-600">· 밸류 분석된 종목 둘러보기</span></div>
+              <div className="overflow-hidden" style={{ width: '624px', maxWidth: '92vw' }}>
               <div className="flex gap-3"
                 onMouseEnter={()=>{ slidePausedRef.current = true; }} onMouseLeave={()=>{ slidePausedRef.current = false; }}
                 style={{ transform: sliding ? `translateX(-${SLIDE_STEP}px)` : 'translateX(0)', transition: sliding ? 'transform 0.8s ease-in-out' : 'none' }}>
@@ -342,12 +369,13 @@ export default function HomePage() {
                   );
                 })}
               </div>
+              </div>
             </div>
           )}
 
           {/* 업종 둘러보기 (랜덤 회전) + 전체 78업종 */}
-          <div className="w-full flex flex-wrap items-center gap-2 mb-2">
-            <span className="text-[13px] font-bold text-slate-500 mr-1">업종 둘러보기</span>
+          <div className="w-full flex flex-wrap items-center justify-center gap-2">
+            <span className="w-full text-center text-[13px] font-bold text-slate-400 mb-2">🏭 업종 둘러보기</span>
             {sectorWindow.map(s => s && (
               <button key={s.name} onClick={()=>goSector(s.name)}
                 className="inline-flex items-center gap-2 px-3.5 py-2 rounded-full text-[13.5px] font-semibold text-slate-300 border border-white/10 bg-white/5 hover:text-white hover:border-indigo-400/50 hover:bg-indigo-500/10 transition-colors">
@@ -361,13 +389,13 @@ export default function HomePage() {
           </div>
 
           {/* 내 관심종목 */}
-          <div className="w-full mt-8">
-            <div className="flex items-center gap-2 mb-3">
+          <div className="w-full mt-16">
+            <div className="flex items-center justify-center gap-2 mb-3">
               <span className="text-amber-400">★</span>
               <span className="text-[14px] font-bold text-slate-300">내 관심종목</span>
               <span className="text-[12px] text-slate-500">· 로그인 없이 이 브라우저에 저장</span>
             </div>
-            <div className="flex flex-wrap items-center gap-2.5">
+            <div className="flex flex-wrap items-center justify-center gap-2.5">
               {watch.map(w => (
                 <div key={w.code} onClick={()=>goStock(w.code)} className="inline-flex items-center gap-2 px-3.5 py-2 rounded-xl border border-white/10 bg-white/5 hover:bg-white/10 cursor-pointer transition-colors">
                   <span className="text-amber-400 text-[13px]">★</span>

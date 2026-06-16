@@ -628,8 +628,8 @@ export default function AdminPage() {
         </div>
         <div className="max-w-6xl mx-auto px-4 flex gap-1 h-11 items-stretch overflow-x-auto">
           <button onClick={() => setTab('monitor')} className={`px-4 text-sm whitespace-nowrap border-b-2 ${tab === 'monitor' ? 'border-indigo-600 text-indigo-600 font-bold' : 'border-transparent text-slate-500'}`}>🖥️ 기업개요 · 운영</button>
-          <button onClick={() => setTab('val-admin')} className={`px-4 text-sm whitespace-nowrap border-b-2 ${tab === 'val-admin' ? 'border-amber-500 text-amber-600 font-bold' : 'border-transparent text-slate-500'}`}>💰 밸류에이션 · 운영</button>
           <button onClick={() => setTab('verify')} className={`px-4 text-sm whitespace-nowrap border-b-2 ${tab === 'verify' ? 'border-emerald-600 text-emerald-600 font-bold' : 'border-transparent text-slate-500'}`}>✅ 기업개요 · 검증</button>
+          <button onClick={() => setTab('val-admin')} className={`px-4 text-sm whitespace-nowrap border-b-2 ${tab === 'val-admin' ? 'border-amber-500 text-amber-600 font-bold' : 'border-transparent text-slate-500'}`}>💰 밸류에이션 · 운영</button>
           <button onClick={() => setTab('val-test')} className={`px-4 text-sm whitespace-nowrap border-b-2 ${tab === 'val-test' ? 'border-amber-500 text-amber-600 font-bold' : 'border-transparent text-slate-500'}`}>🧪 밸류에이션 · 테스트</button>
         </div>
       </header>
