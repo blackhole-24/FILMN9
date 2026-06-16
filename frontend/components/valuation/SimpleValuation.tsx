@@ -56,11 +56,11 @@ const EXPLAIN: Record<string, { title: string; body: React.ReactNode }> = {
       {Pp(<>• <b>1배 아래</b> = 재산보다 싸게 거래(저평가 신호 가능) · 은행·건설처럼 <b>자산 중요 업종</b>에 의미.</>)}
       <Warn>장부 재산이 실제 팔 때 가치와 다를 수 있어 참고로 봐요.</Warn>
     </div>) },
-  "peer": { title: "피어(Peer) — 쉽게 알아보기", body: (
+  "peer": { title: "비교 회사 — 쉽게 알아보기", body: (
     <div className="text-[13px] text-slate-700">
-      {Pp(<>피어는 <b>&lsquo;비교 친구들&rsquo;</b>이에요.</>)}
+      {Pp(<>비교 회사는 <b>&lsquo;비교 친구들&rsquo;</b>이에요.</>)}
       <Ex>📝 <b>예시</b>: 내 시험이 <b>80점</b>인데 잘한 건지 혼자선 몰라요. 반 평균이 <b>60점</b>이면 잘한 거, <b>95점</b>이면 못한 거! 주식도 똑같아요.</Ex>
-      {Pp(<>피어 = 사업·규모가 비슷한 <b>같은 업종 회사들</b>. 이들이 받는 가격과 비교해 우리 회사가 비싼지 싼지 가늠해요.</>)}
+      {Pp(<>즉 사업·규모가 비슷한 <b>같은 업종 회사들</b>. 이들이 받는 가격과 비교해 우리 회사가 비싼지 싼지 가늠해요.</>)}
       {Pp(<><b>신뢰도 등급(A~E)</b> = 얼마나 비슷한 친구들을 잘 골랐나. <b>A면 아주 잘</b> 고른 거예요.</>)}
     </div>) },
 };
@@ -78,7 +78,7 @@ function dcfDetail(d: ValuationData): { title: string; body: React.ReactNode } {
     body: (
       <>
         <div className="mb-3 rounded-lg border px-3 py-2.5 text-[12.5px] leading-6" style={{ background: "#fffbeb", borderColor: "#fde68a", color: "#78350f" }}>
-          ⚠ <b>DCF</b>는 미래 현금흐름을 추정해 &lsquo;오늘 가치&rsquo;로 환산하는 <b>장기 내재가치</b> 평가예요. 가정에 민감해 <b>현재 시장가와 차이가 클 수 있어</b>, &lsquo;적정가&rsquo;가 아니라 <b>참고 지표</b>로만 보세요.
+          ⚠ <b>DCF</b>는 회사가 앞으로 벌 돈을 &lsquo;오늘 값&rsquo;으로 따져본 <b>진짜 가치(내재가치)</b>예요. 미래를 가정하다 보니 <b>지금 주가와 차이가 클 수 있어</b>, &lsquo;정답 가격&rsquo;이 아니라 <b>참고</b>로만 보세요.
         </div>
         {s.fair_price != null && <Row k="내재가치(DCF) 추정" v={`₩${won(s.fair_price)}`} sub={s.fair_price_low != null ? `범위 ₩${won(s.fair_price_low)} ~ ₩${won(s.fair_price_high)}` : undefined} />}
         {dg.epv_price != null && <Row k="본질가치 (성장 0 가정)" v={`₩${won(dg.epv_price)}`} sub="가장 보수적인 바닥값" />}
@@ -91,21 +91,71 @@ function dcfDetail(d: ValuationData): { title: string; body: React.ReactNode } {
   };
 }
 
+/** 피어(비교 회사) 선정 기준·가중치 + 이 종목 피어셋 품질 — 팝업. */
+function peerDetail(d: ValuationData): { title: string; body: React.ReactNode } {
+  const pc: any = d.peer_confidence || {};
+  const W: [string, number, string][] = [
+    ["같은 업종인가", 18, "세부 업종이 같은 회사인가"],
+    ["회사 크기 (시가총액)", 15, "덩치(시가총액)가 비슷한가"],
+    ["사업 내용 (AI 비교)", 10, "사업보고서 내용이 닮았나 — AI가 글로 비교"],
+    ["매출 크기", 10, "매출 규모가 비슷한가"],
+    ["수익성 (남기는 비율)", 10, "버는 힘이 비슷한가 — 가장 중요한 변수"],
+    ["성장 속도", 10, "최근 3년 매출이 비슷하게 컸나"],
+    ["빚 비중", 8, "빚을 비슷하게 졌나 (부채÷자본)"],
+    ["경기 흐름", 7, "경기를 타는 정도가 비슷한가"],
+    ["사업 방식", 7, "장사하는 방식(사업모델)이 같은가"],
+    ["돈 버는 효율", 5, "맡긴 돈을 얼마나 잘 굴려 버나"],
+  ];
+  const partial = (pc.n_partial ?? 0) + (pc.n_below_min ?? 0);
+  const good = pc.grade === "A" || pc.grade === "B";
+  return {
+    title: "비교 회사는 어떻게 골랐나요?",
+    body: (
+      <div className="text-[13px] text-slate-700">
+        {Pp(<>쉽게 말해 <b>&lsquo;비교 친구들&rsquo;</b>이에요. 우리 회사가 비싼지·싼지 견줘볼, <b>비슷한 회사들</b>이죠. 아래 <b>10가지 &lsquo;닮은 정도&rsquo;</b>를 점수로 매겨, 가장 닮은 순으로 <b>자동으로 골라요.</b></>)}
+        <div className="mt-3 text-[13px] font-bold" style={{ color: C.navy }}>① 무엇을 보고 고르나 (중요도 %)</div>
+        <div className="mt-2 space-y-1.5">
+          {W.map(([label, w, desc]) => (
+            <div key={label} title={desc} className="flex items-center gap-2">
+              <div className="w-32 flex-none text-[12px] font-semibold text-slate-600">{label}</div>
+              <div className="h-3.5 flex-1 overflow-hidden rounded-full bg-slate-100">
+                <div className="h-full rounded-full" style={{ width: `${Math.round((w / 18) * 100)}%`, background: C.blue }} />
+              </div>
+              <div className="w-9 flex-none text-right text-[12.5px] font-extrabold" style={{ color: C.blue }}>{w}%</div>
+            </div>
+          ))}
+        </div>
+        <div className="mt-2 text-[11.5px] leading-5 text-slate-400">※ 위 점수들을 합쳐 <b>일정 기준</b>을 넘는 회사만 비교 대상으로 뽑아요. 단순히 <b>덩치만 비슷한</b> 회사가 끼지 않게 업종·수익성·사업 내용을 함께 봅니다. (해외 가치평가 교과서 방식을 따랐어요.)</div>
+        {pc.grade && (<>
+          <div className="mt-4 text-[13px] font-bold" style={{ color: C.navy }}>② 이 종목은 비교 회사를 얼마나 잘 골랐나</div>
+          <div className="mt-2 grid grid-cols-2 gap-2 text-[12.5px]">
+            <div className="rounded-lg border px-3 py-2" style={{ borderColor: C.bd }}>신뢰도 <b style={{ color: good ? C.green : "#b45309" }}>{pc.grade}등급 ({pc.score}점)</b></div>
+            <div className="rounded-lg border px-3 py-2" style={{ borderColor: C.bd }}>비교 회사 <b>{pc.n_peers ?? "—"}개</b> · 같은 업종 <b>{pc.n_same_sector ?? "—"}개</b></div>
+          </div>
+          {Array.isArray(pc.deductions) && pc.deductions.length > 0
+            ? <div className="mt-2 rounded-lg border px-3 py-2 text-[12px] leading-5" style={{ background: "#fffbeb", borderColor: "#fde68a", color: "#78350f" }}>감점 사유: {pc.deductions.join(", ")}{partial ? ` · 인접/미달 ${partial}개` : ""}</div>
+            : <div className="mt-2 rounded-lg border px-3 py-2 text-[12px] leading-5" style={{ background: "#ecfdf3", borderColor: "#bbf7d0", color: "#15803d" }}>감점 사유 없음 — 잘 골라진 비교 회사들이에요{partial ? ` (인접/미달 ${partial}개 포함)` : ""}.</div>}
+        </>)}
+      </div>
+    ),
+  };
+}
+
 type DirKey = "up" | "hold" | "down";
 type CharKey = "growth" | "stable" | "value" | "unknown";
 
 function classifyDir(cur: number | null, lo?: number, hi?: number): { key: DirKey; e: string; t: string; c: string; bg: string } {
-  if (cur == null || lo == null || hi == null) return { key: "hold", e: "➡️", t: "적정 수준 (유지)", c: "#b45309", bg: "#fffbeb" };
-  if (cur < lo * 0.93) return { key: "up", e: "📈", t: "상승 여력 있음", c: "#15803d", bg: "#ecfdf3" };
-  if (cur > hi * 1.07) return { key: "down", e: "📉", t: "조정 위험 있음", c: "#b91c1c", bg: "#fef2f2" };
-  return { key: "hold", e: "➡️", t: "적정 수준 (유지)", c: "#b45309", bg: "#fffbeb" };
+  if (cur == null || lo == null || hi == null) return { key: "hold", e: "➡️", t: "적정 수준", c: "#b45309", bg: "#fffbeb" };
+  if (cur < lo * 0.93) return { key: "up", e: "📈", t: "오를 여지 있음", c: "#15803d", bg: "#ecfdf3" };
+  if (cur > hi * 1.07) return { key: "down", e: "📉", t: "내릴 위험 있음", c: "#b91c1c", bg: "#fef2f2" };
+  return { key: "hold", e: "➡️", t: "적정 수준", c: "#b45309", bg: "#fffbeb" };
 }
 
 function classifyChar(dg: any): { key: CharKey; e: string; t: string; c: string; d: string } {
   const igv = String(dg.implied_growth_verdict || ""), gp = dg.growth_premium, ig = dg.implied_growth;
-  if (!igv && gp == null && ig == null) return { key: "unknown", e: "❔", t: "판단 보류", c: "#64748b", d: "평가 지표가 부족해 성격을 단정하기 어려워요. 위 멀티플·재무를 참고하세요." };
-  if (/쇠퇴/.test(igv) || (gp != null && gp < -0.1)) return { key: "value", e: "💎", t: "가치형", c: "#15803d", d: "시장이 성장 기대를 거의 안 해, 펀더멘털 대비 싸게 거래될 수 있어요." };
-  if (/낙관/.test(igv)) { const v = /매우/.test(igv); return { key: "growth", e: "🚀", t: "성장형", c: "#1d4ed8", d: v ? "시장이 미래 성장을 매우 크게 기대해요 — 기대가 큰 만큼 변동성도 커요." : "시장이 성장을 기대하는 회사예요." }; }
+  if (!igv && gp == null && ig == null) return { key: "unknown", e: "❔", t: "판단 보류", c: "#64748b", d: "평가 지표가 부족해 성격을 단정하기 어려워요. 위 동종업계 비교·재무를 참고하세요." };
+  if (/쇠퇴/.test(igv) || (gp != null && gp < -0.1)) return { key: "value", e: "💎", t: "가치형", c: "#15803d", d: "시장이 성장을 거의 기대 안 해서, 실제 실력 대비 싸게 거래될 수 있어요." };
+  if (/낙관/.test(igv)) { const v = /매우/.test(igv); return { key: "growth", e: "🚀", t: "성장형", c: "#1d4ed8", d: v ? "시장이 미래 성장을 매우 크게 기대해요 — 기대가 큰 만큼 주가 오르내림도 클 수 있어요." : "시장이 성장을 기대하는 회사예요." }; }
   return { key: "stable", e: "⚖️", t: "안정형", c: "#b45309", d: "성장 기대가 과하지 않고 현재 실력에 맞게 안정적이에요." };
 }
 
@@ -121,7 +171,7 @@ function synthesize(dir: DirKey, char: CharKey, veryOpt: boolean, cyclical: bool
   let guide: string;
   if (dir === "down" && char === "growth") guide = "비싼 데다 기대도 높게 반영돼 있어, 신중히 접근하세요.";
   else if (dir === "up" && char === "value") guide = "저평가 기회일 수 있지만, 시장이 왜 신중한지(업황 등)도 꼭 확인하세요.";
-  else if (veryOpt) guide = "성장 기대가 큰 만큼, 실적이 기대에 못 미치면 변동성에 유의하세요.";
+  else if (veryOpt) guide = "성장 기대가 큰 만큼, 실적이 기대에 못 미치면 주가가 출렁일 수 있어요.";
   else if (cyclical) guide = "경기에 따라 실적이 오르내리는 업종이라, 한 시점보다 추세로 보세요.";
   else if (dir === "up") guide = "단, 동종 대비 싸다고 반드시 오르는 건 아니에요 — 실적·뉴스도 함께 보세요.";
   else if (dir === "down") guide = "한 지표만 믿지 말고, 재무 건전성·뉴스도 함께 확인하세요.";
@@ -143,14 +193,14 @@ function MultCard({ m, primary, onInfo }: { m: any; primary: boolean; onInfo: ()
   const sig = vs == null ? "" : vs > 8 ? "이 기준으론 싼 편" : vs < -8 ? "이 기준으론 비싼 편" : "현재가와 비슷";
   const vsTxt = vs == null ? "" : Math.abs(vs) > 500 ? (vs > 0 ? "+500%↑" : "−99%") : `${vs > 0 ? "+" : ""}${vs.toFixed(0)}%`;
   return (
-    <div className="rounded-xl border bg-white p-3.5" style={{ borderColor: primary ? "#bfdbfe" : C.bd, borderTop: `4px solid ${primary ? C.blue : "#cbd5e1"}` }}>
+    <div className="rounded-xl border bg-white p-4" style={{ borderColor: primary ? "#bfdbfe" : C.bd, borderTop: `5px solid ${primary ? C.blue : "#cbd5e1"}` }}>
       <div className="flex items-center justify-between">
-        <span className="text-[13.5px] font-bold text-slate-700">{name}<Info onClick={onInfo} /></span>
-        <span className="rounded-full px-2 py-0.5 text-[10px] font-bold" style={{ background: primary ? "#dbeafe" : "#f1f5f9", color: primary ? "#1d4ed8" : "#64748b" }}>{primary ? "이익 기준 · 신뢰" : "참고"}</span>
+        <span className="text-[16px] font-extrabold text-slate-700">{name}<Info onClick={onInfo} /></span>
+        <span className="rounded-full px-2.5 py-1 text-[12px] font-bold" style={{ background: primary ? "#dbeafe" : "#f1f5f9", color: primary ? "#1d4ed8" : "#64748b" }}>{primary ? "이익 기준 · 신뢰" : "참고"}</span>
       </div>
-      <div className="mt-1.5 text-[12px] text-slate-500">동종 평균 <b>{peer}</b></div>
-      <div className="text-[18px] font-extrabold" style={{ color: valid ? C.navy : C.gray }}>{valid ? manWon(imp) : "산출 불가"}</div>
-      {valid && vs != null && <div className="text-[12px] font-semibold" style={{ color: vcol }}>{sig} ({vsTxt})</div>}
+      <div className="mt-2 text-[14px] text-slate-500">동종 평균 <b>{peer}</b></div>
+      <div className="text-[27px] font-extrabold leading-tight" style={{ color: valid ? C.navy : C.gray }}>{valid ? manWon(imp) : "산출 불가"}</div>
+      {valid && vs != null && <div className="text-[15px] font-bold" style={{ color: vcol }}>{sig} ({vsTxt})</div>}
     </div>
   );
 }
@@ -173,33 +223,59 @@ function meterPos(cur: number, lo: number, hi: number): number {
 }
 
 /** 가치 미터 — 저평가↔고평가 3색 막대 + 현재가 마커. (PeerBand 진화형) */
-function ValueMeter({ cur, lo, hi, single }: { cur: number; lo: number; hi: number; single?: boolean }) {
-  const pos = meterPos(cur, lo, hi);
-  const lbl = pos < 18 ? { left: 0 } : pos > 82 ? { right: 0 } : { left: `${pos}%`, transform: "translateX(-50%)" };
+function ValueMeter({ cur, lo, hi, single, mid }: { cur: number; lo: number; hi: number; single?: boolean; mid?: number }) {
+  const posC = Math.max(3, Math.min(97, meterPos(cur, lo, hi)));
+  const posM = mid != null ? Math.max(3, Math.min(97, meterPos(mid, lo, hi))) : null;
+  // 라벨은 가장자리에서 잘리지 않게 좌/우 정렬, 화살표는 항상 정확한 위치(translateX -50%)
+  const lblAt = (p: number): React.CSSProperties => (p < 17 ? { left: "0%" } : p > 83 ? { right: "0%" } : { left: `${p}%`, transform: "translateX(-50%)" });
   return (
-    <div className="mt-4">
-      <div className="mb-1 flex justify-between text-[11px] font-semibold text-slate-400">
-        <span>싸다 · 저평가</span><span>적정</span><span>비싸다 · 고평가</span>
+    <div className="mt-5">
+      <div className="mb-1.5 flex justify-between text-[14px] font-bold text-slate-500">
+        <span>← 싸다 · 저평가</span><span>적정</span><span>비싸다 · 고평가 →</span>
       </div>
-      <div className="relative">
-        <div className="flex h-3.5 overflow-hidden rounded-full">
-          <div style={{ flex: 36, background: "#bbf7d0" }} />
-          <div style={{ flex: 28, background: "#fde68a" }} />
-          <div style={{ flex: 36, background: "#fecaca" }} />
-        </div>
-        <div className="absolute -translate-x-1/2" style={{ left: `${pos}%`, top: -5 }}>
-          <div style={{ width: 0, height: 0, borderLeft: "6px solid transparent", borderRight: "6px solid transparent", borderTop: `9px solid ${C.navy}` }} />
-        </div>
-        <div className="absolute whitespace-nowrap text-[11px] font-extrabold" style={{ top: 15, color: C.navy, ...lbl }}>현재 ₩{won(cur)}</div>
+      {/* 동종 기준 가치 마커 (위 · 아래로 향한 화살표) */}
+      <div className="relative" style={{ height: 40 }}>
+        {posM != null && (<>
+          <div className="absolute whitespace-nowrap text-[13px] font-extrabold" style={{ top: 0, color: C.blue, ...lblAt(posM) }}>동종 기준 가치 {manWon(mid)}</div>
+          <div className="absolute -translate-x-1/2" style={{ left: `${posM}%`, bottom: 0 }}>
+            <div style={{ width: "2.5px", height: "13px", background: C.blue, margin: "0 auto" }} />
+            <div style={{ width: 0, height: 0, borderLeft: "7px solid transparent", borderRight: "7px solid transparent", borderTop: `10px solid ${C.blue}`, margin: "0 auto" }} />
+          </div>
+        </>)}
       </div>
-      <div className="mt-7 text-center text-[12px] text-slate-500">동종업계 기준 <b style={{ color: C.navy }}>{single ? manWon(lo) : `${manWon(lo)} ~ ${manWon(hi)}`}</b></div>
+      {/* 막대 */}
+      <div className="flex h-7 overflow-hidden rounded-lg">
+        <div style={{ flex: 36, background: "#86efac" }} />
+        <div style={{ flex: 28, background: "#fcd34d" }} />
+        <div style={{ flex: 36, background: "#fca5a5" }} />
+      </div>
+      {/* 현재가 마커 (아래 · 위로 향한 화살표) */}
+      <div className="relative" style={{ height: 44 }}>
+        <div className="absolute -translate-x-1/2" style={{ left: `${posC}%`, top: 0 }}>
+          <div style={{ width: 0, height: 0, borderLeft: "7px solid transparent", borderRight: "7px solid transparent", borderBottom: `10px solid ${C.navy}`, margin: "0 auto" }} />
+          <div style={{ width: "2.5px", height: "13px", background: C.navy, margin: "0 auto" }} />
+        </div>
+        <div className="absolute whitespace-nowrap text-[14px] font-extrabold" style={{ top: 25, color: C.navy, ...lblAt(posC) }}>현재 ₩{won(cur)}</div>
+      </div>
+      <div className="text-center text-[15px] text-slate-600">동종업계 기준 <b style={{ color: C.navy }}>{single ? manWon(lo) : `${manWon(lo)} ~ ${manWon(hi)}`}</b></div>
+    </div>
+  );
+}
+
+/** DCF 상세 행 — 인라인 표시용 (큰 글씨). */
+function DcfRow({ k, v, sub }: { k: string; v: string; sub?: string }) {
+  return (
+    <div className="rounded-lg border bg-white px-3.5 py-2.5" style={{ borderColor: "#fde68a" }}>
+      <div className="text-[13px] font-semibold text-slate-500">{k}</div>
+      <div className="text-[20px] font-extrabold leading-tight" style={{ color: C.navy }}>{v}</div>
+      {sub && <div className="mt-0.5 text-[12px] leading-snug text-slate-400">{sub}</div>}
     </div>
   );
 }
 
 export function SimpleValuation({ d, expert, onToggle }: { d: ValuationData; expert?: boolean; onToggle?: () => void }) {
   const [mk, setMk] = React.useState<string | null>(null);
-  const [showMults, setShowMults] = React.useState(false);
+  const [showMults, setShowMults] = React.useState(true);
   const s = d.summary || {}, dg = d.valuation_diagnostics || {};
   const cur = s.current_price, name = d.company?.name || "이 회사";
   const ticker = d.stock_code || d.company?.ticker;
@@ -225,6 +301,8 @@ export function SimpleValuation({ d, expert, onToggle }: { d: ValuationData; exp
   const lo = usePrices[0], hi = usePrices[usePrices.length - 1];
   const single = hasBand && lo === hi;
   const mid = median(usePrices);
+  // 동종 기준 밴드에 실제로 쓰인 멀티플 이름 (1번 UI 표시용)
+  const bandMultNames = (earnBasis ? earnRows : rows).filter((m) => validImp(m) != null).map((m) => String(m["멀티플"]));
 
   const dir = classifyDir(cur ?? null, lo, hi);
   const INSUF = { key: "hold" as DirKey, c: "#64748b", bg: "#f8fafc", e: "ℹ️", t: "비교 정보 부족" };
@@ -242,105 +320,161 @@ export function SimpleValuation({ d, expert, onToggle }: { d: ValuationData; exp
   const pcGrade = d.peer_confidence?.grade || s.peer_confidence_grade;
   const peerGood = pcGrade === "A" || pcGrade === "B";
 
-  const modalContent = mk === "dcf" ? dcfDetail(d) : mk ? EXPLAIN[mk] : null;
+  const modalContent = mk === "dcf" ? dcfDetail(d) : mk === "peer" ? peerDetail(d) : mk ? EXPLAIN[mk] : null;
   const subTxt = dir.key === "up" ? "동종 대비 싼 편" : dir.key === "down" ? "동종 대비 비싼 편" : "동종과 비슷한 수준";
 
   return (
     <div className="text-slate-800">
       {/* ── 한눈 스코어카드 ── */}
-      <div className="mb-4 rounded-2xl border-2 bg-white p-5" style={{ borderColor: v.c }}>
+      <div className="mb-5 rounded-2xl border-2 bg-white p-5 sm:p-6" style={{ borderColor: v.c }}>
         {/* 헤더: 종목명 + 칩(성격·신뢰도) */}
-        <div className="flex flex-wrap items-center justify-between gap-x-2 gap-y-1.5">
-          <div className="flex items-baseline gap-2">
-            <span className="whitespace-nowrap text-[16px] font-extrabold text-slate-800">{name}</span>
-            {ticker && <span className="text-[12px] text-slate-400">{ticker}</span>}
+        <div className="flex flex-wrap items-center justify-between gap-x-3 gap-y-2">
+          <div className="flex items-baseline gap-2.5">
+            <span className="whitespace-nowrap text-[21px] font-extrabold text-slate-800">{name}</span>
+            {ticker && <span className="text-[14px] font-semibold text-slate-400">{ticker}</span>}
           </div>
-          <div className="flex flex-wrap justify-end gap-1.5">
-            {char.key !== "unknown" && <span className="rounded-md px-2 py-0.5 text-[11px] font-bold" style={{ background: char.c + "1a", color: char.c }}>{char.e} {char.t}</span>}
-            {pcGrade && <span className="rounded-md px-2 py-0.5 text-[11px] font-bold" style={{ background: "#f1f5f9", color: peerGood ? C.green : "#b45309" }}>신뢰 {pcGrade}</span>}
+          <div className="flex flex-wrap justify-end gap-2">
+            {char.key !== "unknown" && <span className="rounded-lg px-3 py-1 text-[13.5px] font-bold" style={{ background: char.c + "1a", color: char.c }}>{char.e} {char.t}</span>}
+            {pcGrade && <span className="rounded-lg px-3 py-1 text-[13.5px] font-bold" style={{ background: "#f1f5f9", color: peerGood ? C.green : "#b45309" }}>신뢰 {pcGrade}</span>}
           </div>
         </div>
 
+        {/* 현재 실제주가 — 크게 */}
+        {cur != null && (
+          <div className="mt-3.5 grid grid-cols-2 gap-3 border-b pb-3.5" style={{ borderColor: "#eef2f7" }}>
+            <div>
+              <div className="text-[15px] font-bold text-slate-500">현재 주가</div>
+              <div className="text-[37px] font-extrabold leading-none" style={{ color: C.navy }}>₩{won(cur)}</div>
+            </div>
+            {hasBand && mid != null ? (
+              <div className="border-l pl-3" style={{ borderColor: "#eef2f7" }}>
+                <div className="text-[15px] font-bold" style={{ color: C.blue }}>동종업계 기준 가치</div>
+                <div className="text-[37px] font-extrabold leading-none" style={{ color: C.blue }}>{manWon(mid)}</div>
+                {(() => { const g = Math.round((mid / cur - 1) * 100); const up = g >= 0; return <div className="mt-1 text-[13.5px] font-bold" style={{ color: up ? C.green : C.red }}>{up ? "▲" : "▼"} 현재가보다 {up ? "+" : ""}{g}%</div>; })()}
+              </div>
+            ) : <div />}
+          </div>
+        )}
+
         {/* 결론: 아이콘 원 + 큰 결론 */}
-        <div className="mt-3 flex items-center gap-3">
-          <div className="flex h-12 w-12 flex-none items-center justify-center rounded-full text-[26px]" style={{ background: v.c + "1a" }}>{v.e}</div>
+        <div className="mt-4 flex items-center gap-4">
+          <div className="flex h-16 w-16 flex-none items-center justify-center rounded-full text-[36px]" style={{ background: v.c + "1a" }}>{v.e}</div>
           <div>
-            <div className="text-[22px] font-extrabold leading-tight" style={{ color: v.c }}>{v.t}</div>
-            {cur != null && <div className="text-[13px] text-slate-600">현재 <b>₩{won(cur)}</b>{hasBand && <span className="text-slate-400"> · {subTxt}</span>}</div>}
+            <div className="text-[31px] font-extrabold leading-tight" style={{ color: v.c }}>{v.t}</div>
+            {hasBand && <div className="text-[16px] font-bold text-slate-500">{subTxt}</div>}
           </div>
         </div>
 
         {hasBand && cur != null ? (
           <>
-            <ValueMeter cur={cur} lo={lo} hi={hi} single={single} />
+            <ValueMeter cur={cur} lo={lo} hi={hi} single={single} mid={mid} />
+            {bandMultNames.length > 0 && (
+              <div className="mt-2 text-center text-[13.5px] text-slate-500">
+                비교에 쓴 지표: {bandMultNames.map((nm, i) => (
+                  <React.Fragment key={nm}>{i > 0 ? " · " : ""}<button onClick={() => { if (EXPLAIN[nm]) setMk(nm); }} className="font-bold" style={{ color: C.blue, textDecoration: "underline", textUnderlineOffset: 3 }}>{nm}</button></React.Fragment>
+                ))}
+                <span className="text-slate-400"> {earnBasis ? "(이익 기준 · 신뢰)" : "(자산·매출 기준 · 참고)"}</span>
+              </div>
+            )}
             {(divHigh || !earnBasis) && (
-              <div className="mt-3 rounded-lg border px-3 py-2 text-[11.5px] leading-5" style={{ background: "#fffbeb", borderColor: "#fde68a", color: "#78350f" }}>
-                {divHigh && divRatio != null && <>⚠️ 동종 기준가가 <b>현재가와 약 {Math.round(divRatio)}배</b> 차이 — 가치 함정·데이터 특이일 수 있어 <b>신뢰도 낮음</b>. </>}
+              <div className="mt-4 rounded-lg border px-4 py-3 text-[14px] leading-6" style={{ background: "#fffbeb", borderColor: "#fde68a", color: "#78350f" }}>
+                {divHigh && divRatio != null && <>⚠️ 동종 기준 가치가 <b>현재가와 약 {Math.round(divRatio)}배</b>나 벌어져 있어요 — 숫자가 특이하거나 &lsquo;싼 데는 이유가 있는&rsquo; 경우일 수 있어 <b>신뢰도 낮음</b>.</>}
                 {!earnBasis && <>⚠️ 이익 기준(PER·EV/EBITDA) 지표가 없어 <b>자산·매출 기준 추정</b> — 신뢰도 낮음.</>}
               </div>
             )}
-            <div className="mt-3 flex items-start gap-2 rounded-xl border px-3.5 py-2.5" style={{ borderColor: v.c + "44", background: "#fbfdff" }}>
-              <span className="flex-none text-[15px]" style={{ marginTop: 1 }}>💡</span>
-              <div className="text-[13px] leading-6"><span className="text-slate-800">{syn.sentence}</span> <span style={{ color: dir.c }}>{syn.guide}</span></div>
+            <div className="mt-4 flex items-start gap-2.5 rounded-xl border px-4 py-3.5" style={{ borderColor: v.c + "44", background: "#fbfdff" }}>
+              <span className="flex-none text-[20px]" style={{ marginTop: 1 }}>💡</span>
+              <div className="text-[16px] leading-7"><span className="text-slate-800">{syn.sentence}</span> <span className="font-bold" style={{ color: dir.c }}>{syn.guide}</span></div>
             </div>
           </>
         ) : (
-          <div className="mt-3 rounded-xl border px-4 py-3 text-[13px] leading-6 text-slate-600" style={{ borderColor: v.c + "44", background: "#fbfdff" }}>
-            이 종목은 <b>동종업계 비교에 쓸 지표(멀티플)가 부족</b>해 방향을 단정하기 어려워요. 아래 <b>회사 성격</b>·<b>다음에 볼 것</b>을 참고하세요.
+          <div className="mt-4 rounded-xl border px-4 py-3.5 text-[16px] leading-7 text-slate-600" style={{ borderColor: v.c + "44", background: "#fbfdff" }}>
+            이 종목은 <b>동종업계 비교에 쓸 지표가 부족</b>해 방향을 단정하기 어려워요. 아래 <b>회사 성격</b>·<b>다음에 볼 것</b>을 참고하세요.
           </div>
         )}
-        <div className="mt-2.5 text-center text-[10.5px] text-slate-400">※ 가격 예측이 아니라 동종업계 비교상 &lsquo;여지·위험&rsquo; · 참고용 (투자 권유 아님)</div>
+        <div className="mt-3 text-center text-[12.5px] text-slate-400">※ 가격 예측이 아니라 동종업계 비교상 &lsquo;여지·위험&rsquo; · 참고용 (투자 권유 아님)</div>
       </div>
 
-      {/* ── 동종업계 비교 자세히 (접기) ── */}
+      {/* ── 동종업계 비교 (기본 펼침) ── */}
       {rows.length > 0 && (
-        <div className="mb-4 rounded-xl border bg-white p-4" style={{ borderColor: C.bd }}>
-          <button onClick={() => setShowMults((x) => !x)} className="flex w-full items-center justify-between text-[13.5px] font-bold" style={{ color: C.navy }}>
-            <span>🏢 동종업계 비교 자세히 <span className="text-[11px] font-normal text-slate-400">멀티플 {rows.length}종</span></span>
-            <span style={{ color: C.blue }}>{showMults ? "접기 ▴" : "펼치기 ▾"}</span>
+        <div className="mb-5 rounded-xl border bg-white p-5" style={{ borderColor: C.bd }}>
+          <button onClick={() => setShowMults((x) => !x)} className="flex w-full items-center justify-between text-[17px] font-extrabold" style={{ color: C.navy }}>
+            <span>🏢 동종업계 비교 <span className="text-[13px] font-semibold text-slate-400">비교 지표 {rows.length}종</span></span>
+            <span className="text-[14px]" style={{ color: C.blue }}>{showMults ? "접기 ▴" : "펼치기 ▾"}</span>
           </button>
           {showMults && (
-            <div className="mt-3">
-              {!hasBand && <div className="mb-3 rounded-lg border px-3 py-2 text-[12px] leading-5 text-slate-500" style={{ borderColor: C.bd, background: "#f8fafc" }}>유효한 비교 가격을 산출하지 못했어요(역산가 비정상). 개별 지표는 참고용으로만 보세요.</div>}
+            <div className="mt-4">
+              <div className="mb-3 rounded-lg border px-4 py-3 text-[13.5px] leading-7" style={{ borderColor: "#bfdbfe", background: "#f5f9ff" }}>
+                <div className="font-extrabold" style={{ color: C.blue }}>📖 동종업계 비교, 이렇게 읽어요</div>
+                <ul className="mt-1.5 space-y-1 text-slate-700">
+                  <li>• <b>동종 기준 가치 &gt; 현재가</b> → 동종 대비 <b style={{ color: C.green }}>싼 편</b>(오를 여지). 단 &lsquo;반드시 오른다&rsquo;는 아니에요.</li>
+                  <li>• <b>동종 기준 가치 &lt; 현재가</b> → <b style={{ color: C.red }}>비싼 편</b>(내릴 위험). 시장이 더 기대 중일 수도 있어요.</li>
+                  <li>• <b>믿을 조건</b>: 같은 업종 · 이익이 안정적 · 여러 지표가 같은 방향일 때 신뢰도↑.</li>
+                  <li>• 적자·고성장주는 이익이 흔들려 이 값도 출렁여요 → <b>DCF·재무</b>도 함께 보세요.</li>
+                </ul>
+              </div>
+              {!hasBand && <div className="mb-3 rounded-lg border px-4 py-3 text-[14px] leading-6 text-slate-500" style={{ borderColor: C.bd, background: "#f8fafc" }}>유효한 비교 가격을 계산하지 못했어요(숫자가 비정상). 개별 지표는 참고용으로만 보세요.</div>}
               {earnRows.length > 0 && (<>
-                <div className="mb-1.5 text-[12.5px] font-bold" style={{ color: C.blue }}>💰 이익 기준 (가장 신뢰) — 각 지표 ⓘ 설명</div>
-                <div className="grid grid-cols-2 gap-2.5">{earnRows.map((m, i) => <MultCard key={i} m={m} primary onInfo={() => setMk(String(m["멀티플"]))} />)}</div>
+                <div className="mb-2 text-[15px] font-bold" style={{ color: C.blue }}>💰 이익 기준 (가장 신뢰) — 각 지표 ⓘ 설명</div>
+                <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">{earnRows.map((m, i) => <MultCard key={i} m={m} primary onInfo={() => setMk(String(m["멀티플"]))} />)}</div>
               </>)}
               {otherRows.length > 0 && (<>
-                <div className="mb-1.5 mt-3.5 text-[12.5px] font-bold text-slate-500">📦 자산·매출 기준 (참고 — 편차 큼)</div>
-                <div className="grid grid-cols-2 gap-2.5">{otherRows.map((m, i) => <MultCard key={i} m={m} primary={false} onInfo={() => setMk(String(m["멀티플"]))} />)}</div>
+                <div className="mb-2 mt-4 text-[15px] font-bold text-slate-500">📦 자산·매출 기준 (참고 — 편차 큼)</div>
+                <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">{otherRows.map((m, i) => <MultCard key={i} m={m} primary={false} onInfo={() => setMk(String(m["멀티플"]))} />)}</div>
               </>)}
             </div>
           )}
         </div>
       )}
 
-      {/* ── 피어 (compact) ── */}
+      {/* ── 피어 ── */}
       {peerNames.length > 0 && (
-        <div className="mb-4 rounded-xl border bg-white p-4" style={{ borderColor: C.bd }}>
-          <div className="flex items-center justify-between">
-            <span className="text-[13px] font-bold text-slate-700">👥 비교한 회사들 ({peerNames.length})<Info onClick={() => setMk("peer")} /></span>
-            {pcGrade && <span className="text-[11.5px] text-slate-500">신뢰도 <b style={{ color: peerGood ? C.green : "#b45309" }}>{pcGrade}</b></span>}
+        <div className="mb-5 rounded-xl border bg-white p-5" style={{ borderColor: C.bd }}>
+          <div className="flex flex-wrap items-center justify-between gap-2">
+            <span className="text-[17px] font-extrabold text-slate-700">👥 비교한 회사들 ({peerNames.length})<Info onClick={() => setMk("peer")} /></span>
+            {pcGrade && <span className="text-[15px] text-slate-500">신뢰도 <b style={{ color: peerGood ? C.green : "#b45309" }}>{pcGrade}</b></span>}
           </div>
-          <div className="mt-2 flex flex-wrap gap-1.5">
-            {peerNames.slice(0, 8).map((n, i) => <span key={i} className="rounded-full border px-2.5 py-0.5 text-[12px] font-semibold" style={{ borderColor: "#bfdbfe", background: "#eff6ff", color: "#1d4ed8" }}>{n}</span>)}
+          <div className="mt-3 flex flex-wrap gap-2">
+            {peerNames.slice(0, 8).map((n, i) => <span key={i} className="rounded-full border px-4 py-1.5 text-[15.5px] font-bold" style={{ borderColor: "#bfdbfe", background: "#eff6ff", color: "#1d4ed8" }}>{n}</span>)}
           </div>
-          <div className="mt-2 text-[11px] leading-5 text-slate-400">⚠️ 자동 선정이라 가끔 업종이 다른 회사가 섞일 수 있어요 {peerGood ? "(이 종목은 비교적 잘 골라진 편)" : "(참고만 하세요)"}.</div>
+          <div className="mt-3 text-[13.5px] leading-6" style={{ color: "#b45309" }}>⚠️ 자동 선정이라 가끔 업종이 다른 회사가 섞일 수 있어요 {peerGood ? "(이 종목은 비교적 잘 골라진 편)" : "(참고만 하세요)"}.</div>
         </div>
       )}
 
-      {/* ── 회사 성격 설명 + DCF (참고) ── */}
-      <div className="mb-4 rounded-xl border bg-white p-4" style={{ borderColor: C.bd, borderLeft: `5px solid ${char.c}` }}>
-        <div className="text-[13px] font-bold text-slate-700">📊 회사 성격 — <span style={{ color: char.c }}>{char.e} {char.t}</span> <span className="text-[11px] font-normal text-slate-400">(참고)</span></div>
-        <p className="mt-1 text-[12.5px] leading-6 text-slate-600">{char.d}</p>
-        {cyclical && <p className="mt-1 text-[11.5px] text-slate-400">🔄 경기에 따라 실적이 오르내리는 경기민감 업종이에요.</p>}
-        <button onClick={() => setMk("dcf")} className="mt-2.5 rounded-lg border px-3 py-1.5 text-[12px] font-bold" style={{ borderColor: C.bd, color: C.blue, background: "#f8fafc" }}>🔢 DCF 적정주가·계산값 (참고) →</button>
+      {/* ── 회사 성격 + DCF (인라인 전부 표시) ── */}
+      <div className="mb-5 rounded-xl border bg-white p-5" style={{ borderColor: C.bd, borderLeft: `6px solid ${char.c}` }}>
+        <div className="text-[17px] font-extrabold text-slate-700">📊 회사 성격 — <span style={{ color: char.c }}>{char.e} {char.t}</span></div>
+        <p className="mt-2 text-[15.5px] leading-7 text-slate-600">{char.d}</p>
+        {cyclical && <p className="mt-1.5 text-[13.5px] text-slate-400">🔄 경기에 따라 실적이 오르내리는 경기민감 업종이에요.</p>}
+
+        {(s.fair_price != null || dg.epv_price != null || dg.implied_growth != null || s.wacc != null) && (
+          <div className="mt-4 rounded-xl border p-4" style={{ borderColor: "#fde68a", background: "#fffdf5" }}>
+            <div className="text-[16px] font-extrabold" style={{ color: "#92400e" }}>🔢 DCF로 따져본 회사 가치 <span className="text-[13px] font-semibold text-slate-400">참고용 · 현재가와 차이 클 수 있음</span></div>
+            <p className="mt-2 text-[14px] leading-7" style={{ color: "#78350f" }}>DCF는 <b>회사가 앞으로 벌 돈</b>을 &lsquo;오늘 값&rsquo;으로 따져본 <b>진짜 가치(내재가치)</b>예요. 미래를 가정하다 보니 지금 주가와 차이가 클 수 있어, &lsquo;정답 가격&rsquo;이 아니라 <b>참고</b>로만 보세요.</p>
+            <div className="mt-3 grid grid-cols-1 gap-3 sm:grid-cols-2">
+              {s.fair_price != null && <DcfRow k="DCF로 계산한 가치" v={`₩${won(s.fair_price)}`} sub={s.fair_price_low != null ? `범위 ₩${won(s.fair_price_low)} ~ ₩${won(s.fair_price_high)}` : undefined} />}
+              {dg.epv_price != null && <DcfRow k="바닥 가치 (안 커도 이만큼)" v={`₩${won(dg.epv_price)}`} sub="성장을 0으로 본 가장 보수적인 값" />}
+              {dg.implied_growth != null && <DcfRow k="시장이 기대하는 성장" v={spct(dg.implied_growth)} sub={dg.implied_growth_verdict ? `${dg.implied_growth_verdict} · 매년 이만큼 커야 지금 주가가 맞아요` : "매년 이만큼 커야 지금 주가가 맞아요"} />}
+              {s.wacc != null && <DcfRow k="할인율 (WACC)" v={pct(s.wacc, 1)} sub="미래의 돈을 오늘 값으로 깎는 비율" />}
+              {s.dcf_grade && <DcfRow k="DCF 믿음 정도" v={`${s.dcf_grade}등급`} sub={s.dcf_grade_reason || undefined} />}
+            </div>
+            {cur != null && s.fair_price != null && <p className="mt-3 text-[14px] leading-7 text-slate-500">→ 현재가 <b>₩{won(cur)}</b>와의 차이는 &lsquo;오류&rsquo;가 아니라 <b>시장이 반영한 성장 기대</b>예요.</p>}
+            <div className="mt-3 rounded-lg border px-4 py-3 text-[13.5px] leading-7" style={{ borderColor: "#fde68a", background: "#fffbeb" }}>
+              <div className="font-extrabold" style={{ color: "#92400e" }}>📖 DCF 결과, 이렇게 읽어요</div>
+              <ul className="mt-1.5 space-y-1" style={{ color: "#78350f" }}>
+                <li>• 미래 가정(성장률·할인율)이 많아 현재가와 차이가 클 수 있어요 → <b>&lsquo;적정가&rsquo;로 못 박지 마세요.</b></li>
+                <li>• <b>진짜 가치 &gt; 현재가</b> → 시장이 보수적(기회일 수도) · <b>진짜 가치 &lt; 현재가</b> → 시장이 이미 낙관(거품 주의).</li>
+                <li>• 더 단단한 신호 = <b>시장 기대 성장률</b>: 경제성장률(약 3%)보다 너무 높으면 거품, 낮으면 저평가 신호.</li>
+              </ul>
+            </div>
+          </div>
+        )}
       </div>
 
       {/* ── 다음에 볼 것 ── */}
-      <div className="mb-4 rounded-xl border bg-white p-4" style={{ borderColor: C.bd }}>
-        <div className="text-[13px] font-bold text-slate-700">🧭 다음엔 이걸 보면 좋아요</div>
-        <ul className="mt-2 space-y-1 text-[12px] text-slate-600">
+      <div className="mb-5 rounded-xl border bg-white p-5" style={{ borderColor: C.bd }}>
+        <div className="text-[16px] font-extrabold text-slate-700">🧭 다음엔 이걸 보면 좋아요</div>
+        <ul className="mt-2.5 space-y-1.5 text-[14.5px] leading-7 text-slate-600">
           <li>📈 <b>과거 매출·이익 추세</b> — 회사가 크고 있는지 <span className="text-slate-400">(기업개요 탭)</span></li>
           <li>💪 <b>재무 건전성</b> — 빚이 너무 많진 않은지 <span className="text-slate-400">(기업개요 탭)</span></li>
           <li>📰 <b>최신 뉴스</b> — 최근 무슨 일이 있었는지 <span className="text-slate-400">(기업개요 탭)</span></li>
@@ -349,14 +483,14 @@ export function SimpleValuation({ d, expert, onToggle }: { d: ValuationData; exp
       </div>
 
       {/* ── 한계 ── */}
-      <div className="rounded-xl border px-4 py-2.5 text-[12px] leading-5" style={{ background: "#fffbeb", borderColor: "#fde68a", color: "#78350f" }}>
+      <div className="rounded-xl border px-4 py-3.5 text-[14px] leading-7" style={{ background: "#fffbeb", borderColor: "#fde68a", color: "#78350f" }}>
         ⚠️ <b>참고용이에요.</b> &lsquo;정답 가격&rsquo;이나 &lsquo;반드시 오른다/내린다&rsquo;가 아니라, 동종업계 비교로 <b>판단 근거</b>를 돕는 정보예요. (투자 권유 아님)
       </div>
 
       {/* ── 전문가용 ── */}
       {onToggle && (
         <button onClick={onToggle} className="mt-4 w-full rounded-xl border py-3 text-[13.5px] font-bold" style={{ borderColor: C.bd, color: C.blue, background: "#f8fafc" }}>
-          {expert ? "🔬 전문가용 상세 접기 ▴" : "🔬 전문가용 자세히 — 멀티플·필요성장률·기대분석·WACC ▾"}
+          {expert ? "🔬 전문가용 상세 접기 ▴" : "🔬 전문가용 자세히 — 동종비교·필요성장률·기대분석·WACC ▾"}
         </button>
       )}
 

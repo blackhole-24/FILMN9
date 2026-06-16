@@ -15,6 +15,14 @@ function manWon(n: number | null | undefined): string {
   if (m >= 1) return `약 ${Math.round(m * 10) / 10}만원`;
   return `약 ${(Math.round(n / 100) * 100).toLocaleString()}원`;
 }
+/** 큰 금액(원 단위) → 조/억 (예: 12.08조 → "약 12.1조원", 5,017억 → "약 5,017억원"). */
+function bigWon(n: number | null | undefined): string {
+  if (n == null) return "—";
+  const a = Math.abs(n);
+  if (a >= 1e12) return `약 ${(n / 1e12).toFixed(1)}조원`;
+  if (a >= 1e8) return `약 ${Math.round(n / 1e8).toLocaleString()}억원`;
+  return manWon(n);
+}
 
 function SectionTitle({ children, sub }: { children: React.ReactNode; sub?: string }) {
   return (
@@ -175,20 +183,88 @@ export function ExpertView({ d }: { d: ValuationData }) {
         </div>
       </div>
 
-      {/* 3. WACC 개념 (R²·Hamada 등 제거, 개념만) */}
-      {s.wacc != null && (
-        <div className="mb-5 rounded-xl border bg-white p-5" style={{ borderColor: C.bd }}>
-          <SectionTitle sub="미래의 1만원은 지금 1만원보다 가치가 작아요(기다림+불확실). 그 깎는 비율이 WACC(할인율)입니다.">⚙️ 할인율(WACC) — 미래의 돈을 깎는 비율</SectionTitle>
-          <div className="flex flex-wrap items-end gap-x-7 gap-y-2">
-            <div><div className="text-[11.5px] text-slate-500">할인율 (WACC)</div><div className="text-[26px] font-extrabold" style={{ color: C.navy }}>{pct(s.wacc, 1)}</div></div>
-            {s.rf != null && <div><div className="text-[11.5px] text-slate-500">기본 금리 (국채 Rf)</div><div className="text-[18px] font-bold text-slate-600">{pct(s.rf, 1)}</div></div>}
-            {s.ke != null && <div><div className="text-[11.5px] text-slate-500">자기자본 비용 (Ke)</div><div className="text-[18px] font-bold text-slate-600">{pct(s.ke, 1)}</div></div>}
+      {/* 3. WACC 개념 + 자본구조(이자발생부채·자기자본 크기) */}
+      {s.wacc != null && (() => {
+        const kd = numv(s.kd_aftertax);
+        // 자기자본(E·시가총액)·이자발생부채(D)는 peer_capital_detail의 TARGET 행 = WACC에 실제 투입된 값
+        const pcd = (d.peer_capital_detail as any[]) || [];
+        const tgt = pcd.find((r: any) => String(r?.tag ?? "").includes("TARGET")) || pcd.find((r: any) => { const c = String(r?.["회사"] ?? ""); return !!c && (c === name || name.includes(c) || c.includes(name)); });
+        const eqMkt = tgt ? numv(tgt["E (시총)"]) : null;
+        const dPcd = tgt ? numv(tgt["D (IBD)"]) : null;
+        const floatSh = tgt ? numv(tgt["유통주식"]) : null;
+        const closePx = tgt ? numv(tgt["종가"]) : null;
+        // 이자발생부채 상세(차입금·사채·리스) — ibd_breakdown (백만원 단위)
+        const ibdRows = (d.ibd_breakdown as any[]) || [];
+        const myIbd = ibdRows.find((r: any) => { const c = String(r?.["회사"] ?? ""); return !!c && (c === name || name.includes(c) || c.includes(name)); });
+        const ibdSumWon = myIbd ? ((numv(myIbd["합계"]) ?? 0) * 1e6) : null;
+        const sumKeys = (ks: string[]) => myIbd ? ks.reduce((acc, k) => acc + (numv(myIbd[k]) ?? 0), 0) * 1e6 : 0;
+        const borrow = sumKeys(["단기차입금", "유동성장기차입금", "장기차입금"]);
+        const bond = sumKeys(["유동성사채", "비유동사채", "사채"]);
+        const lease = sumKeys(["유동리스부채", "비유동리스부채", "리스부채"]);
+        const debtWon = ibdSumWon != null ? ibdSumWon : dPcd;
+        const spotDE = (eqMkt != null && eqMkt > 0 && debtWon != null) ? (debtWon / eqMkt * 100) : null;
+        const wb = d.wacc_breakdown || [];
+        const wRow = (kw: string) => wb.find((r) => String(r?.[0] ?? "").replace(/\s/g, "").includes(kw));
+        const eWeight = wRow("E비중")?.[1] ?? null;
+        const dWeight = wRow("D비중")?.[1] ?? null;
+        const showWhy = s.ke != null && s.wacc != null && s.ke > s.wacc && !!dWeight;
+        const bigGap = s.ke != null && s.wacc != null && (s.ke - s.wacc) >= 0.01;
+        const hasCap = eqMkt != null || debtWon != null;
+        return (
+          <div className="mb-5 rounded-xl border bg-white p-5" style={{ borderColor: C.bd }}>
+            <SectionTitle sub="미래의 1만원은 지금 1만원보다 가치가 작아요(기다림+불확실). 그 깎는 비율이 WACC(할인율)입니다.">⚙️ 할인율(WACC) — 미래의 돈을 깎는 비율</SectionTitle>
+            <div className="flex flex-wrap items-end gap-x-7 gap-y-2">
+              <div><div className="text-[11.5px] text-slate-500">할인율 (WACC)</div><div className="text-[26px] font-extrabold" style={{ color: C.navy }}>{pct(s.wacc, 1)}</div></div>
+              {s.rf != null && <div><div className="text-[11.5px] text-slate-500">기본 금리 (국채 Rf)</div><div className="text-[18px] font-bold text-slate-600">{pct(s.rf, 1)}</div></div>}
+              {s.ke != null && <div><div className="text-[11.5px] text-slate-500">자기자본 비용 (Ke)</div><div className="text-[18px] font-bold text-slate-600">{pct(s.ke, 1)}</div></div>}
+              {kd != null && <div><div className="text-[11.5px] text-slate-500">세후 빚이자 (Kd)</div><div className="text-[18px] font-bold text-slate-600">{pct(kd, 1)}</div></div>}
+            </div>
+
+            {hasCap && (
+              <div className="mt-4 rounded-xl border p-4" style={{ borderColor: "#dbeafe", background: "#f8fbff" }}>
+                <div className="text-[13.5px] font-extrabold" style={{ color: C.navy }}>🏗️ 자본 구조 — WACC를 섞는 비율의 근거</div>
+                <p className="mt-1 text-[12px] leading-6 text-slate-500">WACC는 <b>자기자본의 비용(Ke)</b>과 <b>빚의 비용(Kd)</b>을, 회사가 실제로 쓰는 <b>자기자본·빚의 크기 비율</b>대로 섞은 값이에요.</p>
+                <div className="mt-3 space-y-2 text-[13px]">
+                  {eqMkt != null && eqMkt > 0 && (
+                    <div>
+                      <div className="flex items-center justify-between gap-3">
+                        <span className="font-semibold text-slate-700">자기자본 <span className="text-[11px] font-normal text-slate-400">(E · 시가총액)</span></span>
+                        <span className="whitespace-nowrap font-extrabold" style={{ color: C.navy }}>{bigWon(eqMkt)}</span>
+                      </div>
+                      {floatSh != null && closePx != null && <div className="mt-0.5 text-right text-[11px] text-slate-400">유통주식 {Math.round(floatSh / 1e6).toLocaleString()}백만주 × {Math.round(closePx).toLocaleString()}원</div>}
+                    </div>
+                  )}
+                  {debtWon != null && (
+                    <div>
+                      <div className="flex items-center justify-between gap-3">
+                        <span className="font-semibold text-slate-700">이자발생부채 <span className="text-[11px] font-normal text-slate-400">(D · 이자 내는 빚)</span></span>
+                        <span className="whitespace-nowrap font-extrabold" style={{ color: C.navy }}>{bigWon(debtWon)}</span>
+                      </div>
+                      {(borrow > 0 || bond > 0 || lease > 0) && (
+                        <div className="mt-0.5 text-right text-[11px] text-slate-400">{[borrow > 0 ? `차입금 ${bigWon(borrow)}` : null, bond > 0 ? `사채 ${bigWon(bond)}` : null, lease > 0 ? `리스 ${bigWon(lease)}` : null].filter(Boolean).join(" · ")}</div>
+                      )}
+                    </div>
+                  )}
+                  {(eWeight || dWeight) && (
+                    <div className="flex items-center justify-between gap-3 border-t pt-2" style={{ borderColor: "#dbeafe" }}>
+                      <span className="font-semibold text-slate-700">WACC 적용 비중 <span className="text-[11px] font-normal text-slate-400">(목표 자본구조)</span></span>
+                      <span className="whitespace-nowrap font-extrabold" style={{ color: C.navy }}>{eWeight && <>자기자본 {eWeight}</>}{eWeight && dWeight ? " · " : ""}{dWeight && <>부채 {dWeight}</>}</span>
+                    </div>
+                  )}
+                </div>
+                {showWhy && (
+                  <p className="mt-3 rounded-lg px-3 py-2 text-[12px] leading-6" style={{ background: "#eff6ff", color: "#1e3a5f" }}>💡 WACC <b>{pct(s.wacc, 1)}</b>가 자기자본 비용 <b>{pct(s.ke, 1)}</b>보다 {bigGap ? "꽤" : "조금"} 낮은 건, <b>빚의 이자(세후 Kd {kd != null ? pct(kd, 1) : "—"})</b>가 자기자본보다 싸서 <b>부채 비중 {dWeight}</b>만큼 섞였기 때문이에요.</p>
+                )}
+                <p className="mt-1.5 text-[11px] leading-5 text-slate-400">※ <b>적용 비중</b>은 일시적 변동에 흔들리지 않도록 비슷한 회사들과 함께 <b>장기 목표 자본구조</b>로 정규화한 값이에요{spotDE != null ? <> — 이 회사의 현재 빚 비율(D/E)은 <b>약 {spotDE < 10 ? spotDE.toFixed(1) : Math.round(spotDE).toLocaleString()}%</b>입니다.</> : <>.</>}</p>
+              </div>
+            )}
+
+            <p className="mt-3 text-[12.5px] leading-7 text-slate-500">
+              <b>구성</b>: ① <b>국채금리(Rf)</b> — 가장 안전한 기본 수익률 · ② <b>주식 위험 보상</b> — 이 회사 주가가 시장보다 얼마나 출렁이는지에 따라 더 얹어요 · ③ <b>빚 이자(Kd)</b> — 빌린 돈의 비용(세후). 보통 <b>8~13%</b>이고, <b>높을수록</b> 미래 이익을 더 깐깐하게(작게) 봐서 내재가치가 낮아집니다.
+            </p>
           </div>
-          <p className="mt-3 text-[12.5px] leading-7 text-slate-500">
-            <b>구성</b>: ① <b>국채금리(Rf)</b> — 가장 안전한 기본 수익률 · ② <b>주식 위험 보상</b> — 이 회사 주가가 시장보다 얼마나 출렁이는지에 따라 더 얹어요 · ③ <b>빚 이자</b> — 빌린 돈의 비용. 보통 <b>8~13%</b>이고, <b>높을수록</b> 미래 이익을 더 깐깐하게(작게) 봐서 내재가치가 낮아집니다.
-          </p>
-        </div>
-      )}
+        );
+      })()}
 
       {/* 4. 신뢰도 + 한계 + 용어 + 출처 */}
       <div className="mb-2 rounded-xl border bg-white p-5" style={{ borderColor: C.bd }}>
@@ -203,7 +279,7 @@ export function ExpertView({ d }: { d: ValuationData }) {
         <div className="rounded-lg border px-4 py-3 text-[12.5px] leading-7" style={{ background: "#fffbeb", borderColor: "#fde68a", color: "#78350f" }}>
           <b>⚠️ 한계 (정직하게)</b>
           <ul className="mt-1 list-disc pl-5">
-            <li>미래 현금흐름은 <b>예측</b>이라 실제와 다를 수 있어요 (특히 경기민감·고성장주).</li>
+            <li>미래에 벌 돈은 <b>예측</b>이라 실제와 다를 수 있어요 (특히 경기 타는 회사·고성장주).</li>
             <li>경영진 역량·산업 변화처럼 <b>숫자로 안 잡히는 요인</b>은 반영이 어려워요.</li>
             <li>결과는 공시 데이터의 <b>품질·시점</b>에 의존해요. <b>참고용</b>이며 매수·매도 권유가 아닙니다.</li>
           </ul>
