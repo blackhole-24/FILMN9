@@ -38,6 +38,7 @@ from .dcf_engine import compute_dcf
 from .equity_value import compute_equity_value
 from .multiples_engine import compute_multiples
 from .uncertainty_engine import run_scenarios
+from .overvaluation_guard import apply_overvaluation_guard
 
 
 def run(eval_date: Optional[date] = None,
@@ -233,6 +234,9 @@ def run(eval_date: Optional[date] = None,
 
     # ── 통합 결과 (Streamlit 포맷) ──────────────────────────────
     output = _build_streamlit_payload(eval_d, beta, wacc, dcf, eqv, multi, unc, ttm_data)
+    # DCF 과대 가드 — 적정가가 현재가의 N배 초과 시 점추정 숨김·등급 하향(범위·진단 유도).
+    #   저장(JSON·DB) 전에 summary 를 보정해 모든 산출물에 일관 반영.
+    apply_overvaluation_guard(output["summary"])
     output["valuation_diagnostics"] = diagnostics
     output["model_version"] = MODEL_VERSION   # C.2: 캐시 무효화 — 구버전 결과는 자동 재평가
 
