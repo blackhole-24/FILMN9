@@ -15,7 +15,7 @@ from __future__ import annotations
 import re
 from typing import Optional
 
-# ── 청킹 옵션 (원본 data_pipeline/config.py 에서 인라인) ──
+# ── 청킹 옵션 (원본 data_collection/config.py 에서 인라인) ──
 CHAR_LIMIT           = 1500   # 청크당 최대 글자 (BGE-M3 1024토큰 창에 최적)
 OVERLAP              = 200    # 분할 시 오버랩
 PROSE_CELL_THRESHOLD = 300    # 단일 셀 텍스트가 이보다 길면 prose-table 로 처리

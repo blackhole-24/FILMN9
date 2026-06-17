@@ -329,3 +329,32 @@ output/
 
 # 애널리스트 리포트 PDF(저작권·비공개) — git 제외
 DCF_밸류에이션엔진/에널리스트 리포트 모음/
+
+# ════════════════════════════════════════════════════════════
+# 2026-06-17 밸류·챗봇 최신화 — lib 예외 + 엔진/챗봇 데이터·캐시 차단
+# ════════════════════════════════════════════════════════════
+
+# frontend/lib 는 앱 소스 (위 Python 'lib/' 규칙의 예외 — 빌드 필수)
+!frontend/lib/
+!frontend/lib/**
+
+# 챗봇/엔진 대용량·생성물 — 코드만 올리고 데이터·DB·벡터·캐시는 제외
+**/chroma_db/
+*.db
+*.sqlite3
+*.jsonl
+corpcode.xml
+**/corpcode.xml
+**/dart_toc_cache.json
+
+# chatbot/ 아래 새 엔진의 산출·캐시 디렉토리 (코드 외 데이터 차단)
+chatbot/valuation_engine/data/
+chatbot/valuation_engine/results/
+chatbot/peer_beta/data/
+chatbot/peer_beta/results/
+chatbot/XBRL/xbrl_raw/
+chatbot/XBRL/xbrl_results_2025/
+chatbot/XBRL/xbrl_amore/
+chatbot/XBRL/v3_json/
+chatbot/embedding/export/
+chatbot/embedding/_duplicate_jsonl_backup/
