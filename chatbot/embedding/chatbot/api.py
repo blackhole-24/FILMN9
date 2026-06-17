@@ -43,6 +43,20 @@ async def lifespan(app: "FastAPI"):
         except reranker.RerankUnavailable as e:
             print(f"[api] reranker unavailable: {e}", flush=True)
         _ci._ensure_loaded()                            # 회사 인덱스 로드
+        # 검색 경로 전체(ChromaDB coll.get + brute-force + 재랭킹)를 startup 으로 콜드로딩 당김.
+        # chatbot search()는 종목필터 시 coll.get 기반(brute-force) — 이 경로의 대용량 인덱스
+        # 콜드로딩이 첫 사용자 질의를 수분 멈추게 한다. dummy 질의로 그 비용을 startup 1회로 옮긴다.
+        # (GPU 무관 — ChromaDB 는 CPU/RAM 전용. VRAM 8GB 엔 대용량 인덱스가 안 들어감)
+        try:
+            import time as _t
+            from . import retriever as _rt
+            _s = _t.time()
+            print("[api] warming up retrieval path (ChromaDB 대용량 인덱스 — 1~3분 소요)...", flush=True)
+            _rt.search(queries=["워밍업"], rerank_query="워밍업",
+                       ticker="005930", year=2025, final_top_k=3)
+            print(f"[api] retrieval path warm ({_t.time() - _s:.0f}s)", flush=True)
+        except Exception as e:
+            print(f"[api] retrieval warmup skipped: {e}", flush=True)
         print("[api] warmup done.", flush=True)
     except Exception as e:
         print(f"[api] warmup skipped: {e}", flush=True)

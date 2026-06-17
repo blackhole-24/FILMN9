@@ -334,47 +334,51 @@ def search(queries: list[str],
 
     embs = embed_texts(qs, show_progress=False)
     coll = get_collection()
-    res = coll.query(
-        query_embeddings=[e.tolist() for e in embs],
-        n_results=RECALL_TOP_K,
-        where=_build_where(ticker, year, report_kind),
-    )
+    where = _build_where(ticker, year, report_kind)
 
-    ids_all   = res.get("ids", []) or []
-    docs_all  = res.get("documents", []) or []
-    metas_all = res.get("metadatas", []) or []
-    dists_all = res.get("distances", []) or []
-
-    ranked_lists = []
-    for qi in range(len(ids_all)):
-        ids = ids_all[qi]
-        lst = []
-        for i, cid in enumerate(ids):
-            dist = float(dists_all[qi][i]) if qi < len(dists_all) and i < len(dists_all[qi]) else 1.0
-            lst.append({
-                "id": cid,
-                "text": docs_all[qi][i] if qi < len(docs_all) and i < len(docs_all[qi]) else "",
-                "metadata": metas_all[qi][i] if qi < len(metas_all) and i < len(metas_all[qi]) else {},
-                "distance": dist,
-                "similarity": 1.0 - dist,
-            })
-        if lst:
-            ranked_lists.append(lst)
-
-    # 1b) 종목 코퍼스 1회 로드 → ①하이브리드 BM25(정확 용어 recall 안정화)
-    #     ②P&L 질의면 재무제표 섹션 청크를 '구조적으로' 직접 추출(매출실적 표 무관, 회사 무관).
+    ranked_lists: list[list[dict]] = []
     fin_cands: list[dict] = []
-    if (ENABLE_HYBRID_BM25 and (ticker or report_kind)) or fin_q:
+
+    if ticker:
+        # ── 종목 필터 검색 (brute-force) ──
+        # ChromaDB 메타필터 벡터쿼리 coll.query(where=) 는 4.2M 중 1종목(<0.1%)만 거르는
+        # 희소필터라 HNSW 그래프를 거의 다 훑어 100초+ 걸린다(실측 115s). 대신 종목 코퍼스를
+        # 1회 로드(수초)해 그 부분집합(수천 벡터)에 직접 코사인으로 벡터검색 + BM25 + 재무라우팅을
+        # 모두 수행한다 → 동일 품질, 매 질의 100초+ → 수초. (느린 필터 HNSW 쿼리 회피)
         try:
-            cg = coll.get(where=_build_where(ticker, year, report_kind),
-                          include=["documents", "metadatas"])
+            cg = coll.get(where=where, include=["documents", "metadatas", "embeddings"])
             c_ids = cg.get("ids") or []
             c_docs = cg.get("documents") or []
             c_metas = cg.get("metadatas") or []
+            _ce = cg.get("embeddings")
+            c_embs = _ce if _ce is not None else []
+        except Exception as e:
+            print(f"[retriever] 코퍼스 로드 실패: {str(e)[:80]}", flush=True)
+            c_ids, c_docs, c_metas, c_embs = [], [], [], []
+
+        # 벡터검색: 부분집합 코사인 (numpy brute-force, 수천 벡터라 즉시)
+        if c_ids and len(c_embs) == len(c_ids):
+            import numpy as _np
+            _M = _np.asarray(c_embs, dtype=_np.float32)
+            _M /= (_np.linalg.norm(_M, axis=1, keepdims=True) + 1e-9)
+            for _e in embs:
+                _qv = _np.asarray(_e, dtype=_np.float32)
+                _qv /= (_np.linalg.norm(_qv) + 1e-9)
+                _sims = _M @ _qv
+                _order = _np.argsort(-_sims)[:RECALL_TOP_K]
+                lst = [{
+                    "id": c_ids[i], "text": c_docs[i], "metadata": c_metas[i] or {},
+                    "distance": float(1.0 - _sims[i]), "similarity": float(_sims[i]),
+                } for i in _order]
+                if lst:
+                    ranked_lists.append(lst)
+
+        # BM25 + 재무라우팅 (같은 코퍼스 재사용)
+        if c_ids:
             qset: set = set()
             for q in qs:
                 qset.update(_tokenize(q))
-            if ENABLE_HYBRID_BM25 and (ticker or report_kind):
+            if ENABLE_HYBRID_BM25:
                 bm = _bm25_score(c_ids, c_docs, c_metas, qset, BM25_TOP_N)
                 if bm:
                     ranked_lists.append(bm)
@@ -382,8 +386,29 @@ def search(queries: list[str],
                 fin_cands = _finstmt_candidates(c_ids, c_docs, c_metas, qset, FINSTMT_FETCH_N)
                 if fin_cands:
                     ranked_lists.append(fin_cands)
-        except Exception as e:
-            print(f"[retriever] 코퍼스/BM25/재무라우팅 스킵: {str(e)[:80]}", flush=True)
+    else:
+        # ── 필터(종목) 없음: 전체 HNSW 검색(빠름) ──
+        res = coll.query(
+            query_embeddings=[e.tolist() for e in embs],
+            n_results=RECALL_TOP_K, where=where)
+        ids_all   = res.get("ids", []) or []
+        docs_all  = res.get("documents", []) or []
+        metas_all = res.get("metadatas", []) or []
+        dists_all = res.get("distances", []) or []
+        for qi in range(len(ids_all)):
+            ids = ids_all[qi]
+            lst = []
+            for i, cid in enumerate(ids):
+                dist = float(dists_all[qi][i]) if qi < len(dists_all) and i < len(dists_all[qi]) else 1.0
+                lst.append({
+                    "id": cid,
+                    "text": docs_all[qi][i] if qi < len(docs_all) and i < len(docs_all[qi]) else "",
+                    "metadata": metas_all[qi][i] if qi < len(metas_all) and i < len(metas_all[qi]) else {},
+                    "distance": dist,
+                    "similarity": 1.0 - dist,
+                })
+            if lst:
+                ranked_lists.append(lst)
 
     if not ranked_lists:
         return {"chunks": [], "reranked": False, "pool_size": 0}

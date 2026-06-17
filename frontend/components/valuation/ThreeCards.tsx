@@ -149,7 +149,7 @@ export function ThreeCards({ d, onInfo }: { d: ValuationData; onInfo?: (k: InfoK
             </div>
             <div className="text-[13px] leading-snug text-slate-500">
               {grade === "E"
-                ? "적자 또는 영업투하자본 비정상으로 현금흐름 기반 평가가 곤란합니다. 멀티플·EPV·5종 진단을 참고하세요."
+                ? (s.dcf_invalid_reason || "적자 또는 영업투하자본 비정상으로 현금흐름 기반 평가가 곤란합니다. 멀티플·EPV·5종 진단을 참고하세요.")
                 : "정상화·Terminal 가정의 작은 변동에도 결과가 크게 흔들립니다. 점추정 대신 아래 추정 범위와 5종 진단으로 판단하세요."}
             </div>
           </>

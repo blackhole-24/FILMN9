@@ -92,7 +92,7 @@ def valuation_admin_meta():
 
     # model_version + 종목별 data_sources (mongo doc 1건 파싱)
     model_version, doc_sources = "v8", []
-    doc = _q1(_VDB, "SELECT doc FROM mongo_docs WHERE collection='valuation_results' LIMIT 1")
+    doc = _q1(_VDB, "SELECT doc FROM mongo_docs WHERE collection='valuation_results' ORDER BY rowid DESC LIMIT 1")
     if doc:
         try:
             dd = json.loads(doc)

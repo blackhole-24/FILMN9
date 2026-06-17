@@ -39,7 +39,7 @@ try:
 except Exception:
     pass
 
-VAR_ROOT = Path(r"C:\Users\Admin\Desktop\VAR")
+VAR_ROOT = Path(__file__).resolve().parents[1]  # embedding/ 의 부모 = VAR (절대경로 하드코딩 제거)
 sys.path.insert(0, str(VAR_ROOT))
 from dotenv import load_dotenv
 
@@ -56,8 +56,9 @@ from embedding.vector_store import get_collection, get_stats, add_batch
 
 # ── 파라미터 ──────────────────────────────────────────────────────────
 KOSPI_DIR, KOSDAQ_DIR = VAR_ROOT / "KOSPI", VAR_ROOT / "KOSDAQ"
-CSV_KOSPI = r"C:\Users\Admin\Downloads\data_1426_20260527.csv"
-CSV_KOSDAQ = r"C:\Users\Admin\Downloads\data_1439_20260527.csv"
+# 종목 유니버스 CSV — 환경변수로 override 가능(이식성), 미설정 시 기존 경로 폴백
+CSV_KOSPI = os.getenv("UNIVERSE_CSV_KOSPI", r"C:\Users\Admin\Downloads\data_1426_20260527.csv")
+CSV_KOSDAQ = os.getenv("UNIVERSE_CSV_KOSDAQ", r"C:\Users\Admin\Downloads\data_1439_20260527.csv")
 CORPCODE_CACHE = VAR_ROOT / "embedding" / "corpcode.xml"
 LOG_FILE = VAR_ROOT / "embedding" / "auto_update.log"
 
@@ -108,17 +109,56 @@ def with_retry(fn, *a, tries=5, base=1.0, **k):
 
 # ── 유니버스 · corp_code ──────────────────────────────────────────────
 def load_universe() -> list[dict]:
-    files = {"KOSPI": CSV_KOSPI, "KOSDAQ": CSV_KOSDAQ}
+    """코스피·코스닥 전종목(보통주) 유니버스.
+
+    1순위: KRX OpenAPI(fetch_isu_base_info) — 호출 시점의 최신 전종목.
+           6개월 편입·편출이 자동 반영되어 정적 CSV의 stale 문제를 근본 해소.
+    폴백: 정적 CSV (OpenAPI 실패 시).
+    필터: 증권구분='주권' AND 주식종류='보통주' (우선주·ETF·스팩 제외).
+    """
     rows, seen = [], set()
-    for market, p in files.items():
-        with open(p, encoding="cp949", newline="") as f:
-            for r in csv.DictReader(f):
-                code = (r.get("단축코드") or "").strip().zfill(6)
-                if (code and (r.get("증권구분") or "").strip() == "주권"
-                        and (r.get("주식종류") or "").strip() == "보통주" and code not in seen):
+
+    # ── 1순위: KRX OpenAPI 실시간 전종목 ──
+    try:
+        from datetime import date, timedelta
+        from peer_beta.krx_client import fetch_isu_base_info
+        for market in ("KOSPI", "KOSDAQ"):
+            recs = None
+            for back in range(0, 8):          # 비영업일이면 직전 영업일로 후행
+                try:
+                    recs = list(fetch_isu_base_info(market, date.today() - timedelta(days=back)))
+                except Exception:
+                    recs = None
+                if recs:
+                    break
+            for r in (recs or []):
+                code = (r.get("ticker") or "").strip().zfill(6)
+                if (code and (r.get("secugrp") or "").strip() == "주권"
+                        and (r.get("stkcert_tp") or "").strip() == "보통주" and code not in seen):
                     seen.add(code)
                     rows.append({"stock_code": code, "market": market,
-                                 "corp_name": (r.get("한글 종목약명") or "").strip()})
+                                 "corp_name": (r.get("name") or "").strip()})
+        if rows:
+            log(f"유니버스(KRX OpenAPI 실시간): {len(rows)}종목 — 편입·편출 자동 반영")
+            return rows
+    except Exception as e:
+        log(f"KRX OpenAPI 유니버스 실패 → 정적 CSV 폴백: {str(e)[:90]}")
+
+    # ── 폴백: 정적 CSV ──
+    files = {"KOSPI": CSV_KOSPI, "KOSDAQ": CSV_KOSDAQ}
+    for market, p in files.items():
+        try:
+            with open(p, encoding="cp949", newline="") as f:
+                for r in csv.DictReader(f):
+                    code = (r.get("단축코드") or "").strip().zfill(6)
+                    if (code and (r.get("증권구분") or "").strip() == "주권"
+                            and (r.get("주식종류") or "").strip() == "보통주" and code not in seen):
+                        seen.add(code)
+                        rows.append({"stock_code": code, "market": market,
+                                     "corp_name": (r.get("한글 종목약명") or "").strip()})
+        except Exception as e:
+            log(f"CSV 폴백 실패({market}): {str(e)[:80]}")
+    log(f"유니버스(정적 CSV 폴백): {len(rows)}종목")
     return rows
 
 

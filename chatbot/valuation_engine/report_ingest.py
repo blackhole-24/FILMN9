@@ -28,7 +28,7 @@ sys.path.insert(0, str(_VAR_ROOT))
 _DOC_API = "https://opendart.fss.or.kr/api/document.xml"
 _MIN_CHAR_LEN = 30                       # 팀원 config 와 동일 (짧은 청크 제외)
 _MAX_CHARS = 1800                        # 너무 긴 본문은 분할 (임베딩 토큰 안정)
-_PERIOD_LABEL = {"03": "q1", "06": "q2", "09": "q3", "12": "annual"}
+_PERIOD_LABEL = {"03": "q1", "06": "h1", "09": "q3", "12": "annual"}  # 반기=h1 (auto_update·dc_chunker와 통일)
 
 
 def _dart_key() -> str:
@@ -109,6 +109,9 @@ def parse_chunks(xml_text: str, meta: dict) -> list[dict]:
                     "rcept_no":         meta["rcept_no"],
                     "rcept_dt":         meta["rcept_dt"],
                     "parse_mode":       "ingest_v1",
+                    # 메타 스키마 통일 (auto_update 청크와 동일 — 선택적 report_type 필터 지원)
+                    "report_type":      "annual" if meta["period_label"] == "annual" else "quarterly",
+                    "report_kind":      f"{meta['year']}-{meta['period_label']}",
                 },
             })
 
