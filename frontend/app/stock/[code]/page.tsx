@@ -56,158 +56,8 @@ function yoyText(v: number|null): string {
   return (v>=0?'+':'')+v.toFixed(1)+'%';
 }
 
-// ─── Mock 밸류에이션 데이터 ──────────────────────────────────────
-const _sens = (base: number, w0: number, g0: number, wR: number[], gR: number[]) =>
-  wR.map(w => gR.map(g => Math.round(base * (w0 - g0) / (w - g) / 1000) * 1000));
-
-const MOCK_VAL: Record<string, any> = {
-  '090430': {
-    equityValueLabel: '₩11.7조',
-    fairPrices: { bear: 142000, base: 199800, bull: 251000 },
-    upsides:    { bear: '+9.7%', base: '+54.4%', bull: '+93.9%' },
-    dcfYears: ['2025E','2026E','2027E','2028E','2029E'],
-    dcfRows: [
-      { label:'매출액 (억원)',    values:[34800,37200,39600,42100,44700], bold:true },
-      { label:'성장률 (%)',       values:[2.1,6.9,6.5,6.3,6.2],          fmt:'pct' },
-      { label:'EBIT (억원)',      values:[1980,2380,2780,3120,3450] },
-      { label:'EBIT Margin (%)',  values:[5.7,6.4,7.0,7.4,7.7],          fmt:'pct' },
-      { label:'NOPAT (억원)',     values:[1544,1856,2168,2434,2691] },
-      { label:'D&A (억원)',       values:[1450,1520,1590,1660,1730] },
-      { label:'CapEx (억원)',     values:[-1200,-1280,-1350,-1410,-1470] },
-      { label:'ΔNWC (억원)',      values:[-420,-310,-280,-250,-220] },
-      { label:'FCFF (억원)',      values:[1374,1786,2128,2434,2731], bold:true },
-      { label:'할인계수',         values:[0.924,0.854,0.789,0.729,0.673], fmt:'decimal3' },
-      { label:'PV of FCFF (억원)',values:[1270,1526,1679,1774,1838], bold:true },
-    ],
-    dcfSummary: { pvFCFF:8087, pvTerminalValue:27700, enterpriseValue:35800, netDebt:4500, equityValue:31300, shares:1566 },
-    wacc: { rf:3.5, beta:0.85, erp:5.0, ke:7.8, kd:4.2, tax:22.0, eWeight:75, dWeight:25, wacc:8.2, terminalG:2.0 },
-    multiples: [
-      { metric:'EV/EBITDA',  peerAvg:'12.3x', implied:'₩213,000', impliedAmt:213000, current:'9.2x',  premium:'+63.8%' },
-      { metric:'P/E (NTM)',  peerAvg:'22.4x', implied:'₩196,000', impliedAmt:196000, current:'18.3x', premium:'+50.8%' },
-      { metric:'P/B',        peerAvg:'2.8x',  implied:'₩187,000', impliedAmt:187000, current:'2.3x',  premium:'+43.8%' },
-      { metric:'EV/Revenue', peerAvg:'1.9x',  implied:'₩208,000', impliedAmt:208000, current:'1.5x',  premium:'+60.0%' },
-    ],
-    sensitivityWacc:[7.2,7.7,8.2,8.7,9.2], sensitivityG:[1.0,1.5,2.0,2.5,3.0],
-    sensitivityPrices: _sens(199800,8.2,2.0,[7.2,7.7,8.2,8.7,9.2],[1.0,1.5,2.0,2.5,3.0]),
-    tornado: [
-      { variable:'WACC (±1%)',           low:-28400, high:33600 },
-      { variable:'터미널 성장률 (±0.5%)', low:-18200, high:22100 },
-      { variable:'매출 성장률 (±5%)',     low:-15300, high:17800 },
-      { variable:'EBIT 마진 (±2%)',       low:-12400, high:14200 },
-      { variable:'베타 (±0.2)',           low:-9800,  high:10500 },
-      { variable:'D&A (±10%)',            low:-4200,  high:4600  },
-      { variable:'CapEx (±10%)',          low:-3800,  high:4100  },
-      { variable:'ΔNWC (±10%)',           low:-2100,  high:2300  },
-    ],
-    peers: [
-      { name:'아모레퍼시픽', ticker:'090430', beta:0.85, evEbitda:'9.2x',  pe:'18.3x', pb:'2.3x', roe:'8.4%',  isSelf:true },
-      { name:'LG생활건강',   ticker:'051900', beta:0.72, evEbitda:'8.4x',  pe:'16.2x', pb:'1.9x', roe:'11.2%' },
-      { name:'코스맥스',     ticker:'192820', beta:0.91, evEbitda:'13.8x', pe:'24.6x', pb:'3.4x', roe:'14.8%' },
-      { name:'한국콜마',     ticker:'161890', beta:0.88, evEbitda:'11.2x', pe:'20.1x', pb:'2.8x', roe:'13.9%' },
-      { name:'Shiseido',     ticker:'4911.T', beta:0.79, evEbitda:'14.1x', pe:'25.3x', pb:'2.6x', roe:'10.4%' },
-      { name:'Estée Lauder', ticker:'EL',     beta:1.12, evEbitda:'15.6x', pe:'28.4x', pb:'4.2x', roe:'18.3%' },
-    ],
-  },
-  '009150': {
-    equityValueLabel: '₩15.2조',
-    fairPrices: { bear: 162000, base: 220000, bull: 285000 },
-    upsides:    { bear: '+9.5%', base: '+48.6%', bull: '+92.6%' },
-    dcfYears: ['2025E','2026E','2027E','2028E','2029E'],
-    dcfRows: [
-      { label:'매출액 (억원)',    values:[92800,98100,104000,110200,116800], bold:true },
-      { label:'성장률 (%)',       values:[1.9,5.7,6.0,6.0,5.9],             fmt:'pct' },
-      { label:'EBIT (억원)',      values:[4640,5390,6240,7160,8170] },
-      { label:'EBIT Margin (%)',  values:[5.0,5.5,6.0,6.5,7.0],             fmt:'pct' },
-      { label:'NOPAT (억원)',     values:[3619,4204,4867,5585,6373] },
-      { label:'D&A (억원)',       values:[4200,4400,4600,4800,5000] },
-      { label:'CapEx (억원)',     values:[-5100,-5400,-5700,-6000,-6300] },
-      { label:'ΔNWC (억원)',      values:[-800,-650,-600,-550,-500] },
-      { label:'FCFF (억원)',      values:[1919,2554,3167,3835,4573], bold:true },
-      { label:'할인계수',         values:[0.917,0.840,0.770,0.706,0.647], fmt:'decimal3' },
-      { label:'PV of FCFF (억원)',values:[1759,2145,2439,2707,2959], bold:true },
-    ],
-    dcfSummary: { pvFCFF:12009, pvTerminalValue:33800, enterpriseValue:45800, netDebt:7200, equityValue:38600, shares:1752 },
-    wacc: { rf:3.5, beta:1.05, erp:5.0, ke:8.8, kd:4.8, tax:22.0, eWeight:70, dWeight:30, wacc:9.1, terminalG:2.5 },
-    multiples: [
-      { metric:'EV/EBITDA',  peerAvg:'9.8x',  implied:'₩235,000', impliedAmt:235000, current:'7.2x',  premium:'+58.8%' },
-      { metric:'P/E (NTM)',  peerAvg:'18.6x', implied:'₩214,000', impliedAmt:214000, current:'14.1x', premium:'+44.6%' },
-      { metric:'P/B',        peerAvg:'2.1x',  implied:'₩198,000', impliedAmt:198000, current:'1.6x',  premium:'+33.8%' },
-      { metric:'EV/Revenue', peerAvg:'1.4x',  implied:'₩207,000', impliedAmt:207000, current:'1.1x',  premium:'+39.9%' },
-    ],
-    sensitivityWacc:[8.1,8.6,9.1,9.6,10.1], sensitivityG:[1.5,2.0,2.5,3.0,3.5],
-    sensitivityPrices: _sens(220000,9.1,2.5,[8.1,8.6,9.1,9.6,10.1],[1.5,2.0,2.5,3.0,3.5]),
-    tornado: [
-      { variable:'WACC (±1%)',           low:-32000, high:39000 },
-      { variable:'터미널 성장률 (±0.5%)', low:-19500, high:24200 },
-      { variable:'매출 성장률 (±5%)',     low:-16800, high:19400 },
-      { variable:'EBIT 마진 (±2%)',       low:-14200, high:16600 },
-      { variable:'베타 (±0.2)',           low:-11200, high:12100 },
-      { variable:'D&A (±10%)',            low:-5100,  high:5600  },
-      { variable:'CapEx (±10%)',          low:-4700,  high:5200  },
-      { variable:'ΔNWC (±10%)',           low:-2400,  high:2600  },
-    ],
-    peers: [
-      { name:'삼성전기',  ticker:'009150', beta:1.05, evEbitda:'7.2x',  pe:'14.1x', pb:'1.6x', roe:'11.4%', isSelf:true },
-      { name:'LG이노텍', ticker:'011070', beta:1.18, evEbitda:'8.9x',  pe:'16.8x', pb:'2.1x', roe:'12.6%' },
-      { name:'삼성SDI',  ticker:'006400', beta:0.95, evEbitda:'9.2x',  pe:'17.4x', pb:'1.8x', roe:'10.8%' },
-      { name:'무라타',   ticker:'6981.T', beta:0.88, evEbitda:'11.2x', pe:'20.3x', pb:'2.3x', roe:'13.2%' },
-      { name:'TDK',      ticker:'6762.T', beta:0.92, evEbitda:'10.4x', pe:'18.9x', pb:'2.0x', roe:'10.6%' },
-      { name:'Amphenol', ticker:'APH',    beta:1.21, evEbitda:'15.3x', pe:'28.1x', pb:'4.8x', roe:'20.4%' },
-    ],
-  },
-  '035420': {
-    equityValueLabel: '₩52.4조',
-    fairPrices: { bear: 220000, base: 320000, bull: 420000 },
-    upsides:    { bear: '+12.8%', base: '+64.1%', bull: '+115.4%' },
-    dcfYears: ['2025E','2026E','2027E','2028E','2029E'],
-    dcfRows: [
-      { label:'매출액 (억원)',    values:[108000,119000,131000,144000,158000], bold:true },
-      { label:'성장률 (%)',       values:[6.9,10.2,10.1,9.9,9.7],             fmt:'pct' },
-      { label:'EBIT (억원)',      values:[18360,21420,26200,31680,37920] },
-      { label:'EBIT Margin (%)',  values:[17.0,18.0,20.0,22.0,24.0],          fmt:'pct' },
-      { label:'NOPAT (억원)',     values:[14321,16708,20436,24710,29578] },
-      { label:'D&A (억원)',       values:[5200,5600,6100,6700,7300] },
-      { label:'CapEx (억원)',     values:[-7800,-8500,-9200,-9900,-10600] },
-      { label:'ΔNWC (억원)',      values:[-1200,-1100,-1000,-900,-800] },
-      { label:'FCFF (억원)',      values:[10521,12708,16336,20610,25478], bold:true },
-      { label:'할인계수',         values:[0.907,0.823,0.747,0.678,0.615], fmt:'decimal3' },
-      { label:'PV of FCFF (억원)',values:[9543,10459,12203,13974,15669], bold:true },
-    ],
-    dcfSummary: { pvFCFF:61848, pvTerminalValue:227000, enterpriseValue:288800, netDebt:12400, equityValue:276400, shares:1641 },
-    wacc: { rf:3.5, beta:1.32, erp:5.0, ke:10.1, kd:4.5, tax:22.0, eWeight:85, dWeight:15, wacc:10.2, terminalG:3.5 },
-    multiples: [
-      { metric:'EV/EBITDA',  peerAvg:'22.4x', implied:'₩312,000', impliedAmt:312000, current:'16.8x', premium:'+60.0%' },
-      { metric:'P/E (NTM)',  peerAvg:'36.8x', implied:'₩298,000', impliedAmt:298000, current:'28.1x', premium:'+52.8%' },
-      { metric:'P/B',        peerAvg:'4.2x',  implied:'₩284,000', impliedAmt:284000, current:'3.2x',  premium:'+45.6%' },
-      { metric:'EV/Revenue', peerAvg:'3.8x',  implied:'₩328,000', impliedAmt:328000, current:'2.9x',  premium:'+68.2%' },
-    ],
-    sensitivityWacc:[9.2,9.7,10.2,10.7,11.2], sensitivityG:[2.5,3.0,3.5,4.0,4.5],
-    sensitivityPrices: _sens(320000,10.2,3.5,[9.2,9.7,10.2,10.7,11.2],[2.5,3.0,3.5,4.0,4.5]),
-    tornado: [
-      { variable:'WACC (±1%)',           low:-52000, high:68000 },
-      { variable:'터미널 성장률 (±0.5%)', low:-38000, high:48000 },
-      { variable:'매출 성장률 (±5%)',     low:-28000, high:33000 },
-      { variable:'EBIT 마진 (±2%)',       low:-22000, high:26000 },
-      { variable:'베타 (±0.2)',           low:-18000, high:21000 },
-      { variable:'D&A (±10%)',            low:-7800,  high:8400  },
-      { variable:'CapEx (±10%)',          low:-6900,  high:7500  },
-      { variable:'ΔNWC (±10%)',           low:-3100,  high:3400  },
-    ],
-    peers: [
-      { name:'NAVER',    ticker:'035420',  beta:1.32, evEbitda:'16.8x', pe:'28.1x', pb:'3.2x', roe:'11.4%', isSelf:true },
-      { name:'카카오',   ticker:'035720',  beta:1.41, evEbitda:'18.4x', pe:'31.2x', pb:'3.8x', roe:'12.2%' },
-      { name:'크래프톤', ticker:'259960',  beta:1.08, evEbitda:'19.8x', pe:'22.4x', pb:'2.9x', roe:'13.1%' },
-      { name:'카카오페이',ticker:'377300', beta:1.65, evEbitda:'28.2x', pe:'48.6x', pb:'4.1x', roe:'8.6%'  },
-      { name:'Tencent',  ticker:'0700.HK', beta:0.98, evEbitda:'23.4x', pe:'38.2x', pb:'4.8x', roe:'21.4%' },
-      { name:'Meta',     ticker:'META',    beta:1.24, evEbitda:'25.6x', pe:'42.8x', pb:'6.2x', roe:'28.6%' },
-    ],
-  },
-};
-
-// ─── 탭 타입 ──────────────────────────────────────────────────────
 type MainTab = 'overview' | 'valuation' | 'ai';
 type FinTab  = 'BS' | 'IS' | 'SANKEY';
-type ValTab  = 'dcf' | 'wacc' | 'multiples' | 'sensitivity' | 'tornado' | 'peers';
 
 // ─── Bear/Base/Bull 설정 ──────────────────────────────────────────
 const SCENARIO_CONFIG = [
@@ -382,7 +232,6 @@ export default function StockPage() {
   // ─── 상태 ─────────────────────────────────────────────────────
   const [mainTab,  setMainTab]  = useState<MainTab>('overview');
   const [finTab,   setFinTab]   = useState<FinTab>('SANKEY');
-  const [valTab,   setValTab]   = useState<ValTab>('dcf');
   const [period,   setPeriod]   = useState('3M');
   const [dark,     setDark]     = useState(false);
 
@@ -849,8 +698,6 @@ export default function StockPage() {
   };
 
   // ─── 파생 데이터 ─────────────────────────────────────────────
-  const mv = MOCK_VAL[code || '090430'] || MOCK_VAL['090430'];
-  const vd = (valData && valData.is_mock === false) ? valData : mv;
   const company  = overview?.tab1?.company || {};
   const fins: any[] = overview?.tab1?.financials || [];
   const hdr      = overview?.header || {};
