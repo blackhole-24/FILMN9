@@ -17,6 +17,7 @@ from pathlib import Path
 _VAR_ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(_VAR_ROOT))
 
+from . import config
 from .config import TARGET
 from .fetch_peers_financials import load_all as load_xbrl
 from .compute_equity import load_latest as load_equity
@@ -175,6 +176,54 @@ def compute_equity_value(dcf_result: dict, current_price: float = 0,
         current_price = equity["companies"][target_name]["close_price"]
     upside_pct = (fair_price / current_price - 1) * 100 if current_price > 0 else 0
 
+    # NOA 과대 가드 — 비영업자산(NOA)이 시가총액의 3배를 초과하면 자산·지주회사 성격
+    #   (영업가치 < 보유자산). DCF 는 영업 현금흐름 평가라 이 경우 과대평가된다
+    #   (예: 다우데이타 = 키움증권 모회사, NOA 에 금융자회사 자산 75조 → fair 168만원).
+    #   정상 영업주는 NOA/시총 < 1 이라 안 걸린다. NAV/SOTP 대체모형 권장.
+    _mktcap = current_price * common_float
+    if equity_value_valid and _mktcap > 0 and noa_clean > _mktcap * 3:
+        equity_value_valid = False
+        equity_invalid_reason = (
+            f"비영업자산(NOA ₩{noa_clean/1e12:.1f}조)이 시가총액(₩{_mktcap/1e12:.1f}조)의 "
+            f"3배를 초과 — 자산·지주회사 성격이라 DCF 부적합. 자회사 가치 합산(NAV/SOTP) 권장")
+
+    # ── 주식수 단위오류 가드 (① 시총/자본총계 자릿수 + ③ 역산 적정주가 자릿수) ──────
+    # 발행/유통주식수가 천주·백만주 단위로 과소 추출되면(예: 현대로템 109,142천주→109,142)
+    #   자기자본가치는 그대로인데 유통주식이 ×1000 작아져 적정주가가 폭등한다
+    #   (적정주가 9,328만원, upside +43,692%). compute_equity 의 추출검산이 1차 방어선이고,
+    #   여기(재무·종가 확정 시점)는 자본총계로 교차검증하는 최종 안전망이다. 실패 시
+    #   fair_price 무효화(평가 불가) → 임의값 금지. NOA 지주사 케이스(위)는 역산 주식수가
+    #   정상이라 안 걸리고, 이 가드는 '유통주식수 자릿수'만 본다(둘은 독립 신호).
+    book_equity_ref = None
+    for _k in ("equity_parent", "equity_total"):
+        _v = fin.get(_k)
+        if isinstance(_v, (int, float)) and _v > 0:
+            book_equity_ref = float(_v); break
+    share_sanity = {"ok": True, "pb": None, "fair_price": fair_price,
+                    "book_equity_ref": book_equity_ref, "reasons": []}
+    if equity_value_valid and common_float > 0:
+        # ① 시가총액(종가×유통주식) / 자본총계(P/B) 자릿수 — 단위오류면 P/B 가 ×1000 어긋남
+        if book_equity_ref and _mktcap > 0:
+            _pb = _mktcap / book_equity_ref
+            share_sanity["pb"] = _pb
+            if _pb < config.SHARES_PB_FLOOR or _pb > config.SHARES_PB_CEIL:
+                share_sanity["ok"] = False
+                share_sanity["reasons"].append(
+                    f"시총/자본총계 P/B={_pb:.4g} 가 정상범위({config.SHARES_PB_FLOOR}~{config.SHARES_PB_CEIL}) 밖")
+        # ③ 역산 적정주가(=자기자본가치/유통주식) 자릿수 — 유통주식 과소면 폭등
+        if fair_price and fair_price > config.FAIR_PRICE_SANITY_CEIL_WON:
+            share_sanity["ok"] = False
+            share_sanity["reasons"].append(
+                f"역산 적정주가 ₩{fair_price:,.0f}/주 > 상한 ₩{config.FAIR_PRICE_SANITY_CEIL_WON:,}")
+        if not share_sanity["ok"]:
+            equity_value_valid = False
+            equity_invalid_reason = (
+                f"유통주식수({common_float:,})가 천주/백만주 단위로 과소 추출된 것으로 의심 — "
+                + "; ".join(share_sanity["reasons"])
+                + f". 시가총액 ₩{_mktcap/1e12:.3f}조"
+                + (f" vs 자본총계 ₩{book_equity_ref/1e12:.3f}조" if book_equity_ref else "")
+                + ". 주식수 재추출 필요(적정주가 산출 불가)")
+
     if verbose:
         print(f"\n  IBD       = ₩{IBD/1e12:.3f}조")
         print(f"  현금성    = ₩{cash/1e12:.3f}조")
@@ -183,6 +232,9 @@ def compute_equity_value(dcf_result: dict, current_price: float = 0,
         print(f"  비지배지분 = ₩{minority_interest/1e12:.3f}조 (출처: {nci_source})")
         print(f"  Equity Value = EV − Net Debt + NOA − 비지배 = ₩{equity_value/1e12:.3f}조")
         print(f"  유통주식수    = {common_float:,}")
+        if not share_sanity["ok"]:
+            _pb_s = f"{share_sanity['pb']:.4g}" if share_sanity.get("pb") else "n/a"
+            print(f"  [주식수 자릿수 검산] ⚠ 실패 (P/B={_pb_s}) — {'; '.join(share_sanity['reasons'])}")
         if equity_value_valid:
             print(f"\n  ★ 적정주가 = ₩{fair_price:,.0f}/주")
             print(f"  현재 주가  = ₩{current_price:,.0f}/주")
@@ -220,5 +272,6 @@ def compute_equity_value(dcf_result: dict, current_price: float = 0,
         "dcf_valid":          dcf_valid,
         "equity_value_valid": equity_value_valid,                  # Phase 1: 음수 equity 가드
         "equity_invalid_reason": equity_invalid_reason,
+        "share_sanity":       share_sanity,   # 주식수 자릿수 검산(① P/B · ③ 적정주가) 결과
         "dcf_invalid_reason": dcf_result.get("dcf_invalid_reason"),
     }

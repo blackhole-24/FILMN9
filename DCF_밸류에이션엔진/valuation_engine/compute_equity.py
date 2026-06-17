@@ -84,15 +84,33 @@ _SHARES_KEYWORDS = [
 
 _RAG_SYSTEM_PROMPT = """당신은 한국 사업보고서를 정확히 읽고 데이터를 추출하는 분석가입니다.
 - 임의 추정 절대 금지. 본문에 없는 숫자는 null로 반환.
-- 단위: 주 (예: 58,492,759주 → 58492759)
 - 보통주(또는 기명식 보통주식)만 사용. 우선주는 제외.
 - 자기주식은 보통주 자기주식만 (우선주 자기주식 제외).
 - "보통주식", "기명식 보통주식", "의결권 있는 보통주" 모두 보통주로 간주.
-응답은 반드시 다음 JSON 스키마 그대로:
+
+★★ 단위(unit) 환산 — 가장 흔한 오류, 반드시 확인 ★★
+- 최종 출력은 **실제 '주' 단위 정수**여야 한다 (예: 58,492,759주 → 58492759).
+- '주식의 총수' / '자본금 변동' 표는 **천주(1,000주)·백만주(1,000,000주) 단위**로
+  표기되는 경우가 많다. 표 제목·헤더·단위행에 "(단위: 천주)", "(단위: 백만주)",
+  "단위: 천주" 등이 있으면 **반드시 환산**하라(천주=값×1000, 백만주=값×1000000).
+- 단위 표기가 누락돼도, 발행주식수가 수십만 이하로 비정상적으로 작으면 천주 단위를 의심하라.
+
+★★ 자본금 교차검증 — 단위오류를 스스로 잡는 방법 ★★
+- 항등식:  보통주 발행주식총수 = 보통주 자본금 ÷ 1주당 액면가.
+- 청크에 '자본금'(또는 '보통주자본금')과 '액면가(1주당 액면금액)'가 있으면 이 식으로
+  발행주식수를 검산하라. 단위를 원으로 통일하라(자본금이 '천원'이면 ×1000, '백만원'이면 ×1000000).
+  예) 보통주자본금 545,711,465천원, 액면가 5,000원 → 545,711,465,000 ÷ 5,000 = 109,142,293주.
+- '주식의 총수' 표 값과 '자본금÷액면가' 결과가 ~1000배(또는 ~100배) 어긋나면 표가 천주/백만주
+  단위인 것이다. 이때는 **자본금÷액면가 결과(실제 주 단위)를 채택**하라.
+- 주주현황(주주명·보유주식수 합계)이 실제 '주' 단위로 있으면(예: 합계 109,142,293) 그 값을 우선하라.
+
+응답은 반드시 다음 JSON 스키마 그대로 (모든 주식수는 실제 '주' 단위 정수):
 {
   "common_issued":   <보통주 발행주식 총수, 정수>,
   "common_treasury": <보통주 자기주식수, 정수, 없으면 0>,
   "common_float":    <유통주식수 = 발행 − 자기주식, 정수>,
+  "unit_detected":   "주" | "천주" | "백만주",   <표에서 감지한 원단위(환산 전)>
+  "capital_crosscheck": "<자본금÷액면가 검산 결과 또는 '근거없음'>",
   "source_quote":    "<원문 인용 50자 이내>",
   "confidence":      "high" | "medium" | "low"
 }"""
@@ -183,15 +201,278 @@ def _mirror_shares_to_db(ticker: str, year: int, data: dict) -> None:
         pass
 
 
-def fetch_shares_via_rag(ticker: str, name: str, year: int,
-                          market: str = "KOSPI",
-                          model: str = "gpt-4o-mini",
-                          verbose: bool = False,
-                          use_cache: bool = True) -> dict:
-    """발행/자기주식수 RAG — 사업보고서 단위(ticker+year) 캐시 래퍼.
+def _load_prior_issued(ticker: str, year: int) -> Optional[int]:
+    """직전 연도(최대 2년 소급) 보통주 발행주식 총수 — 파일 캐시 우선, DB 폴백.
 
+    검산 ②(직전연도 대비 이상 배수) 용. 없으면 None(검산 스킵).
+    주의: 같은 단위오류가 과거에도 반복됐다면 배수≈1 로 통과한다(이건 ①·③이 잡음).
+    """
+    cache_dir = _VAR_ROOT / "data" / "rag_cache"
+    for y in (year - 1, year - 2):
+        p = cache_dir / f"shares_{ticker}_{y}.json"
+        if p.exists():
+            try:
+                with p.open("r", encoding="utf-8") as f:
+                    v = json.load(f).get("common_issued")
+                if isinstance(v, (int, float)) and v > 0:
+                    return int(v)
+            except Exception:
+                pass
+        try:
+            from valuation_engine import db
+            s = db.get_shares(ticker, y)
+            if s and s.get("common_issued"):
+                return int(s["common_issued"])
+        except Exception:
+            pass
+    return None
+
+
+def _load_book_equity(ticker: str, name: str, year: int) -> Optional[float]:
+    """자본총계(지배지분 우선) — 시총/자본 자릿수 검산(①) 의 분모. DB 우선 + 파일 폴백.
+
+    값(원). 지배주주지분(equity_parent)을 우선(시가총액=모회사 보통주 청구권과 정합),
+    없으면 자본총계(equity_total). 양수만 반환, 없으면 None(① 검산 스킵).
+    """
+    def _pick(fin: dict) -> Optional[float]:
+        for k in ("equity_parent", "equity_total"):
+            v = fin.get(k)
+            if isinstance(v, (int, float)) and v > 0:
+                return float(v)
+        return None
+
+    # 1) DB 우선
+    try:
+        from valuation_engine import db
+        d = db.get_financials(ticker, year)
+        if d:
+            v = _pick(d.get("financials", {}) or {})
+            if v:
+                return v
+    except Exception:
+        pass
+    # 2) 파일 폴백 — data/xbrl/<회사명>_<year>.json (config.XBRL_RESULTS)
+    try:
+        from .config import XBRL_RESULTS
+        p = XBRL_RESULTS / f"{name}_{year}.json"
+        if p.exists():
+            with p.open("r", encoding="utf-8") as f:
+                v = _pick((json.load(f).get("financials", {}) or {}))
+                if v:
+                    return v
+    except Exception:
+        pass
+    return None
+
+
+def _validate_share_count(name: str, issued: int, treasury: int, *,
+                          close_price: Optional[float] = None,
+                          book_equity: Optional[float] = None,
+                          prior_issued: Optional[int] = None) -> list[str]:
+    """발행/자기주식수 검산 — 이상 항목 메시지 리스트 반환(빈 리스트=정상). 예외 안 던짐.
+
+    검산 항목:
+      (a) 발행주식수 합리범위 (10만~100억주)             — 기존
+      (b) 자기주식 음수 불가 / 발행주식 초과 불가          — 기존
+      (①) 시가총액(종가×유통주식) / 자본총계(P/B) 자릿수   — 신규 (단위오류 핵심)
+      (②) 직전연도 발행주식 대비 이상 배수                 — 신규
+    임계값은 config 의 SHARES_* 상수(자릿수 수준의 넉넉한 밴드: 단위오류만 탐지).
+    """
+    from .config import (SHARES_PB_FLOOR, SHARES_PB_CEIL,
+                         SHARES_YOY_RATIO_LOW, SHARES_YOY_RATIO_HIGH)
+    problems: list[str] = []
+
+    # (a) 발행주식수 합리 범위 — 한국 상장사 통상 10만 ~ 100억주
+    if not (100_000 <= issued <= 10_000_000_000):
+        problems.append(f"발행주식 총수 {issued:,} 가 합리범위(10만~100억주) 밖")
+
+    # (b) 자기주식 음수 불가 + 발행주식 초과 불가
+    if treasury < 0:
+        problems.append(f"자기주식수 음수: {treasury:,}")
+    elif treasury >= issued:
+        problems.append(f"자기주식({treasury:,}) ≥ 발행주식({issued:,}) (우선주 혼입 등 의심)")
+
+    float_shares = max(0, issued - treasury)
+
+    # (①) 시가총액 / 자본총계 자릿수 — 종가·자본총계가 주어졌을 때만.
+    #   주식수가 천주/백만주 단위로 ×1000/×100 과소 추출되면 시총이 그만큼 작아져
+    #   P/B 가 비현실적으로 낮아진다(현대로템: 0.0076). 정상 P/B 는 [0.05,50] 안.
+    if close_price and book_equity and book_equity > 0 and float_shares > 0:
+        mktcap = close_price * float_shares
+        pb = mktcap / book_equity
+        if pb < SHARES_PB_FLOOR or pb > SHARES_PB_CEIL:
+            problems.append(
+                f"시총/자본총계(P/B)={pb:.4g} 가 정상범위({SHARES_PB_FLOOR}~{SHARES_PB_CEIL}) 밖 "
+                f"— 시총 ₩{mktcap/1e12:.4f}조 vs 자본 ₩{book_equity/1e12:.4f}조: 주식수 단위오류(천주/백만주) 의심")
+
+    # (②) 직전연도 발행주식 대비 이상 배수
+    if prior_issued and prior_issued > 0:
+        ratio = issued / prior_issued
+        if ratio < SHARES_YOY_RATIO_LOW or ratio > SHARES_YOY_RATIO_HIGH:
+            problems.append(
+                f"직전연도 발행주식 {prior_issued:,} 대비 {ratio:.3g}배 "
+                f"(허용 {SHARES_YOY_RATIO_LOW}~{SHARES_YOY_RATIO_HIGH}) — 단위오류/오추출 의심")
+
+    return problems
+
+
+# ─────────────────────────────────────────────────────────────────────
+# ★ 발행/유통주식수 1차 소스 = DART OpenAPI (stockTotqySttus, 주식의 총수 현황)
+#
+# RAG/LLM 추출은 '주식의 총수' 표가 천주/백만주 단위이거나 자릿수를 잘못 옮기면
+# 발행주식수가 ×1000/×10 어긋난다(현대로템 109,142천주→109,142, 두산 16,193,835→167,000,000).
+# DART API 는 같은 표를 **실제 '주' 단위 정수**로 직접 제공하므로 환각·단위함정이 없다.
+# → API 를 1차 소스로 쓰고, 실패(미공시·한도초과·corp_code 부재) 시에만 RAG 로 폴백.
+#
+# 가이드: https://opendart.fss.or.kr/guide/detail.do?apiGrpCd=DS002&apiId=2020002
+# ─────────────────────────────────────────────────────────────────────
+
+DART_STOCK_TOTQY_URL = f"{DART_BASE}/stockTotqySttus.json"
+_CORP_CODE_MAP: Optional[dict] = None   # 종목코드(6) → corp_code(8) 로컬 매핑 캐시
+
+
+def _resolve_corp_code(ticker: str) -> Optional[str]:
+    """6자리 종목코드 → 8자리 DART corp_code.
+
+    로컬 corpCode.xml 캐시(embedding/corpcode.xml) 우선 — corpCode.xml API 는 별도
+    호출한도(020)에 자주 걸리므로 다운로드를 피한다. 미스 시 xbrl_financials_v4 폴백.
+    """
+    global _CORP_CODE_MAP
+    tk = str(ticker).zfill(6)
+    if _CORP_CODE_MAP is None:
+        _CORP_CODE_MAP = {}
+        try:
+            import pandas as pd
+            local = _VAR_ROOT / "embedding" / "corpcode.xml"
+            if local.exists():
+                _df = pd.read_xml(local, dtype=str)
+                for _, r in _df.iterrows():
+                    sc = str(r.get("stock_code") or "").strip()
+                    cc = str(r.get("corp_code") or "").strip()
+                    if sc and sc.lower() != "nan" and cc and cc.lower() != "nan":
+                        _CORP_CODE_MAP[sc.zfill(6)] = cc.zfill(8)
+        except Exception:
+            pass
+    if tk in _CORP_CODE_MAP:
+        return _CORP_CODE_MAP[tk]
+    # 폴백 — xbrl_financials_v4.get_corp_code (corpCode.xml 다운로드; 한도 시 실패)
+    try:
+        sys.path.insert(0, str(_VAR_ROOT / "XBRL"))
+        from xbrl_financials_v4 import get_corp_code
+        r = get_corp_code(tk)
+        cc = r.get("corp_code") if isinstance(r, dict) else r
+        if cc:
+            _CORP_CODE_MAP[tk] = str(cc).zfill(8)
+            return _CORP_CODE_MAP[tk]
+    except Exception:
+        pass
+    return None
+
+
+def _to_int_shares(v) -> int:
+    """'109,142,000' / '-' / '' / None → int. 음수·파싱불가는 0."""
+    if v is None:
+        return 0
+    s = str(v).replace(",", "").strip()
+    if not s or s == "-":
+        return 0
+    try:
+        return max(0, int(float(s)))
+    except (ValueError, TypeError):
+        return 0
+
+
+def fetch_shares_via_api(corp_code: str, year: int, *,
+                         api_key: Optional[str] = None,
+                         verbose: bool = False) -> Optional[dict]:
+    """DART stockTotqySttus(주식의 총수 현황) 로 보통주 발행/자기/유통주식수 조회.
+
+    Returns: RAG 결과와 동일 스키마 dict. 실패(미공시·한도초과·corp_code 부재·보통주행 없음)
+             시 None → 호출자가 RAG 로 폴백.
+
+    구현 메모:
+      · se(구분) 라벨은 회사마다 '보통주' 또는 '보통주식' 으로 달라 부분일치('보통주' in se).
+      · reprt_code 는 사업(11011)→3분기(11014)→반기(11012)→1분기(11013) 순으로 시도
+        (주식 총수는 분기간 거의 불변 → 가장 최근 공시본 확보). status 013(미공시)이면 다음 시도.
+      · 값은 실제 '주' 단위 정수 문자열('109,142,000') → 콤마 제거 후 int.
+    """
+    if not corp_code:
+        return None
+    key = api_key or os.getenv(ENV_KEY_DART)
+    if not key:
+        return None
+    for reprt in ("11011", "11014", "11012", "11013"):
+        # 연결 끊김(RemoteDisconnected 등 throttle 시 빈번)·타임아웃은 짧게 1회 재시도.
+        data = None
+        for _try in range(2):
+            try:
+                resp = requests.get(DART_STOCK_TOTQY_URL, params={
+                    "crtfc_key": key, "corp_code": corp_code,
+                    "bsns_year": str(year), "reprt_code": reprt}, timeout=20)
+                data = resp.json()
+                break
+            except Exception as e:
+                if verbose:
+                    print(f"   [주식수 API] 요청 실패 (reprt={reprt}, {_try+1}/2): {str(e)[:60]}")
+                if _try == 0:
+                    import time as _t; _t.sleep(0.5)
+        if data is None:
+            continue
+        status = data.get("status")
+        if status == "013":          # 해당 보고서 미공시 → 다음 reprt
+            continue
+        if status != "000":          # 020(한도)·010(키)·기타 → RAG 폴백
+            if verbose:
+                print(f"   [주식수 API] status={status} ({data.get('message')}) — RAG 폴백")
+            return None
+        rows = data.get("list") or []
+        common = next((r for r in rows
+                       if "보통주" in (r.get("se") or "").replace(" ", "")), None)
+        if not common:
+            if verbose:
+                print(f"   [주식수 API] 보통주 행 없음 (reprt={reprt}) — 다음 시도")
+            continue
+        issued = _to_int_shares(common.get("istc_totqy"))         # 발행주식의 총수(Ⅳ)
+        treasury = _to_int_shares(common.get("tesstk_co"))        # 자기주식수(Ⅴ)
+        float_api = _to_int_shares(common.get("distb_stock_co"))  # 유통주식수(Ⅵ)
+        if issued <= 0:
+            continue
+        common_float = float_api if float_api > 0 else max(0, issued - treasury)
+        if verbose:
+            print(f"   [주식수 API] {corp_code} FY{year} reprt={reprt}: "
+                  f"발행 {issued:,} / 자기 {treasury:,} / 유통 {common_float:,}")
+        return {
+            "common_issued":   issued,
+            "common_treasury": treasury,
+            "common_float":    common_float,
+            "corp_code":       corp_code,
+            "rcept_no":        common.get("rcept_no"),
+            "source":          f"DART API stockTotqySttus (reprt={reprt})",
+            "source_quote":    (f"se={common.get('se')} 발행={common.get('istc_totqy')} "
+                                f"유통={common.get('distb_stock_co')} (결산일 {common.get('stlm_dt')})"),
+            "confidence":      "high",
+            "validated":       True,
+        }
+    return None
+
+
+def fetch_shares(ticker: str, name: str, year: int,
+                 market: str = "KOSPI",
+                 model: str = "gpt-4o-mini",
+                 verbose: bool = False,
+                 use_cache: bool = True,
+                 close_price: Optional[float] = None,
+                 book_equity: Optional[float] = None) -> dict:
+    """발행/자기/유통주식수 — 사업보고서 단위(ticker+year) 캐시 래퍼.
+
+    소스 우선순위:  ① DART API(stockTotqySttus, 권위·실주단위)  →  ② RAG/LLM(폴백).
     발행/자기주식수는 사업보고서 신규 공시 전까지 불변 → eval_date 무관 캐시.
-    캐시 hit: LLM 호출 0. miss: _impl 호출 후 저장.
+      캐시 hit: 외부호출 0. miss: API 우선, 실패 시 RAG.
+
+    ★ 캐시 hit 에도 경량 검산(외부호출 없이: 범위·자기주식·직전연도·P/B) 을 수행한다.
+      과거에 단위오류로 잘못 저장된 RAG 캐시(예: 현대로템 109,142, 두산 167,000,000)를
+      다음 평가 때 스스로 탐지해 재조회(self-heal)한다. close_price·book_equity 가
+      주어지면 P/B(①) 검산까지 적용된다.
     """
     cache_dir = _VAR_ROOT / "data" / "rag_cache"
     cache_dir.mkdir(parents=True, exist_ok=True)
@@ -200,14 +481,42 @@ def fetch_shares_via_rag(ticker: str, name: str, year: int,
         try:
             with cache_path.open("r", encoding="utf-8") as f:
                 cached = json.load(f)
-            if verbose:
-                print(f"   [주식수 RAG] 캐시 hit ({ticker}_{year}): "
-                      f"유통 {cached.get('common_float'):,}")
-            _mirror_shares_to_db(ticker, year, cached)   # DB 미러 백필(멱등)
-            return cached
+            problems = _validate_share_count(
+                name, int(cached.get("common_issued") or 0),
+                int(cached.get("common_treasury") or 0),
+                close_price=close_price, book_equity=book_equity,
+                prior_issued=_load_prior_issued(ticker, year))
+            if problems:
+                # 캐시가 검산 실패 → 무효화하고 재조회(아래로 fall-through).
+                if verbose:
+                    print(f"   [주식수] 캐시 검산 실패 ({ticker}_{year}) → 재조회: "
+                          f"{'; '.join(problems)}")
+            else:
+                if verbose:
+                    print(f"   [주식수] 캐시 hit ({ticker}_{year}): "
+                          f"유통 {cached.get('common_float'):,} [{cached.get('source','?')[:20]}]")
+                _mirror_shares_to_db(ticker, year, cached)   # DB 미러 백필(멱등)
+                return cached
         except Exception:
             pass
-    result = _fetch_shares_via_rag_impl(ticker, name, year, market, model, verbose)
+
+    # ① DART API 우선 (corp_code 해석 가능 시). 권위 데이터라 환각·단위함정 없음.
+    result = None
+    corp_code = _resolve_corp_code(ticker)
+    if corp_code:
+        try:
+            result = fetch_shares_via_api(corp_code, year, verbose=verbose)
+        except Exception as e:
+            if verbose:
+                print(f"   [주식수 API] 예외 → RAG 폴백: {str(e)[:80]}")
+    elif verbose:
+        print(f"   [주식수] corp_code 미해석({ticker}) → RAG")
+
+    # ② API 실패 → RAG/LLM 폴백 (검산·재추출 내장)
+    if result is None:
+        result = _fetch_shares_via_rag_impl(ticker, name, year, market, model, verbose,
+                                            close_price=close_price, book_equity=book_equity)
+
     try:
         with cache_path.open("w", encoding="utf-8") as f:
             json.dump(result, f, ensure_ascii=False, indent=2)
@@ -217,15 +526,26 @@ def fetch_shares_via_rag(ticker: str, name: str, year: int,
     return result
 
 
+# 하위호환 별칭 — 기존 호출부(있다면)·외부 스크립트가 옛 이름을 계속 쓰도록.
+#   이제 내부적으로 DART API 1차 + RAG 폴백이다(이름은 역사적 잔재).
+fetch_shares_via_rag = fetch_shares
+
+
 def _fetch_shares_via_rag_impl(ticker: str, name: str, year: int,
                           market: str = "KOSPI",
                           model: str = "gpt-4o-mini",
-                          verbose: bool = False) -> dict:
+                          verbose: bool = False,
+                          close_price: Optional[float] = None,
+                          book_equity: Optional[float] = None,
+                          _attempt: int = 1) -> dict:
     """사업보고서 청크에서 RAG + LLM(GPT-4o-mini)으로 발행/자기주식수 추출.
 
     명세서 §A-5: E = T일 보통주 종가 × (보통주 발행주식 총수 − 자기주식수)
 
     임의값 절대 금지 — LLM 응답에서 null 또는 추출 실패 시 RuntimeError.
+
+    검산(_validate_share_count): 범위·자기주식·P/B(①)·직전연도배수(②). 실패 시 단위경고를
+    강화해 1회 재추출(_attempt=2)하고, 그래도 실패하면 RuntimeError(평가 불가) — 임의값 금지.
     """
     try:
         from openai import OpenAI
@@ -289,10 +609,20 @@ def _fetch_shares_via_rag_impl(ticker: str, name: str, year: int,
         context_lines.append(f"[청크 {i}] section={sec} kind={kind}\n{c.get('text', '')}")
     context = "\n\n---\n\n".join(context_lines)
 
+    # 재추출(_attempt>1) 시 단위오류 경고 강화 — 직전 추출이 검산 실패한 경우.
+    retry_warn = ""
+    if _attempt > 1:
+        retry_warn = (
+            "\n\n⚠️ 직전 추출이 '주식수 단위오류(천주/백만주를 환산하지 않음)'로 의심되어 재요청합니다.\n"
+            "  1) '주식의 총수'/'자본금 변동' 표의 단위 표기를 다시 확인하고 천주=×1000, 백만주=×1000000 로 환산하세요.\n"
+            "  2) '보통주 자본금 ÷ 1주당 액면가'(단위 원으로 통일)로 발행주식수를 검산해 실제 '주' 단위 정수로 보고하세요.\n"
+            "  3) 주주현황(주주명·보유주식수 합계)이 실제 '주' 단위로 있으면 그 합계를 우선 채택하세요.\n"
+        )
     user_prompt = (
         f"회사: {name} ({ticker})\n"
         f"회계연도: FY{year}\n\n"
         f"아래 청크에서 보통주 발행주식 총수와 자기주식수를 추출하세요.\n"
+        f"{retry_warn}"
         f"===\n{context}\n===\n\n"
         f"JSON으로만 응답:"
     )
@@ -329,20 +659,27 @@ def _fetch_shares_via_rag_impl(ticker: str, name: str, year: int,
     issued = int(issued)
     treasury = int(treasury) if treasury is not None else 0
 
-    # ── 출력 검산 (LLM 환각 차단) ──────────────────────────────
-    # (a) 발행주식수 합리 범위 — 한국 상장사 통상 10만 ~ 100억주
-    if not (100_000 <= issued <= 10_000_000_000):
+    # ── 출력 검산 (LLM 환각·단위오류 차단) ──────────────────────────────
+    #   범위(a)·자기주식(b)·시총/자본 P/B(①)·직전연도배수(②) 를 한곳에서 검사.
+    #   실패 시 단위경고 강화 재추출 1회 → 그래도 실패면 RuntimeError(평가 불가, 임의값 금지).
+    prior_issued = _load_prior_issued(ticker, year)
+    problems = _validate_share_count(
+        name, issued, treasury,
+        close_price=close_price, book_equity=book_equity, prior_issued=prior_issued)
+    if problems:
+        if _attempt < 2:
+            if verbose:
+                print(f"   [주식수 RAG] 검산 실패 → 재추출({_attempt + 1}회차): "
+                      f"{'; '.join(problems)}")
+            return _fetch_shares_via_rag_impl(
+                ticker, name, year, market, model, verbose,
+                close_price=close_price, book_equity=book_equity, _attempt=_attempt + 1)
         raise RuntimeError(
-            f"[{name}] 발행주식 총수 {issued:,} 가 합리 범위(10만~100억주) 밖 — "
-            f"LLM 오추출 의심. 응답: {raw}"
-        )
-    # (b) 자기주식 음수 불가 + 발행주식 초과 불가
-    if treasury < 0:
-        raise RuntimeError(f"[{name}] 자기주식수 음수: {treasury:,}")
-    if treasury >= issued:
-        raise RuntimeError(
-            f"[{name}] 자기주식({treasury:,}) ≥ 발행주식({issued:,}) — "
-            f"LLM 오추출(우선주 혼입 등) 의심. 응답: {raw}"
+            f"[{name}] 발행/유통주식수 검산 실패 (재추출 후에도 비정상 — 평가 불가):\n"
+            f"  · " + "\n  · ".join(problems) + "\n"
+            f"  추출값: 발행 {issued:,} / 자기 {treasury:,}  "
+            f"(감지단위={result.get('unit_detected', '?')}, 자본금검산={result.get('capital_crosscheck', '?')})\n"
+            f"  응답: {raw[:400]}"
         )
 
     # 메타데이터 — chroma 분기 / jsonl 분기 모두 안전
@@ -356,6 +693,9 @@ def _fetch_shares_via_rag_impl(ticker: str, name: str, year: int,
         "source":          f"RAG (chroma·jsonl) + LLM({model})",
         "source_quote":    result.get("source_quote", ""),
         "confidence":      result.get("confidence", "medium"),
+        "unit_detected":   result.get("unit_detected"),       # 감사용: 표 원단위(주/천주/백만주)
+        "capital_crosscheck": result.get("capital_crosscheck"),  # 감사용: 자본금÷액면가 검산
+        "validated":       True,                              # 검산 통과 표시(캐시 self-heal 판단용)
     }
 
 
@@ -418,9 +758,13 @@ def compute_all(eval_date: Optional[date] = None,
         name = comp["name"]
         close, actual_date = fetch_close_from_cache(
             comp["ticker"], comp["market"], eval_d)
-        shares = fetch_shares_via_rag(
+        # 자본총계(자릿수 검산 ① 용) — best-effort. XBRL 수집이 병렬이라 아직 없을 수
+        #   있으므로(race) None 허용. 그 경우 ① 은 스킵되고 직전연도(②)·범위 검산만 적용.
+        book_equity = _load_book_equity(comp["ticker"], name, fiscal_year)
+        shares = fetch_shares(
             ticker=comp["ticker"], name=name, year=fiscal_year,
-            market=comp["market"], verbose=verbose)
+            market=comp["market"], verbose=verbose,
+            close_price=close, book_equity=book_equity)
         E = close * shares["common_float"]
         rec = {
             "ticker": comp["ticker"], "market": comp["market"],

@@ -105,6 +105,30 @@ def get_ttm(ticker: str, period: Optional[str] = None) -> Optional[dict]:
         "SELECT * FROM ttm_financials WHERE stock_code=? ORDER BY period DESC LIMIT 1", (tk,))
 
 
+# ─────────────────────────────────────────────────────────────
+# quarterly_standalone (분기 단독 손익 — corp_code 기준 영구 캐시)
+#   분기 단독값은 공시 확정 후 불변(정정 제외) → 재평가 시 DART 재호출 제거.
+# ─────────────────────────────────────────────────────────────
+def save_quarter_standalone(corp_code: str, year: int, quarter: int,
+                            revenue: Optional[float], ebit: Optional[float]) -> None:
+    """분기 단독 손익(3개월) → quarterly_standalone. (corp_code, 연도, 분기) 키."""
+    if not corp_code:
+        return
+    store.upsert("quarterly_standalone", {
+        "corp_code": corp_code, "fiscal_year": int(year), "quarter": int(quarter),
+        "revenue": revenue, "ebit": ebit})
+
+
+def get_quarter_standalone(corp_code: str, year: int, quarter: int) -> Optional[dict]:
+    """분기 단독 손익 조회 — {revenue, ebit} 또는 None(미수집)."""
+    if not corp_code:
+        return None
+    return store.query_one(
+        "SELECT revenue, ebit FROM quarterly_standalone "
+        "WHERE corp_code=? AND fiscal_year=? AND quarter=?",
+        (corp_code, int(year), int(quarter)))
+
+
 def has_financials(ticker: str, year: int) -> bool:
     r = store.query_one(
         "SELECT 1 FROM financials WHERE stock_code=? AND fiscal_year=?",

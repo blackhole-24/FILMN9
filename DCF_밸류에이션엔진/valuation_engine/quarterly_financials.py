@@ -100,10 +100,24 @@ def _fetch_income(corp_code: str, year: int, reprt_code: str
 
 
 def _quarter_standalone(corp_code: str, year: int, q: int) -> tuple[Optional[float], Optional[float]]:
-    """특정 (연도, 분기) 단독 손익 (3개월). 4Q는 연간 − (1Q+2Q+3Q)."""
+    """특정 (연도, 분기) 단독 손익 (3개월). 4Q는 연간 − (1Q+2Q+3Q).
+
+    ★ 분기 단독값은 공시 확정 후 불변 → DB(quarterly_standalone) 영구 캐시.
+      조회 순서: 메모리(_Q_CACHE) → DB → DART. DB hit 시 DART 호출 0 (재평가 비용 절감).
+    """
     ck = (corp_code, year, q)
     if ck in _Q_CACHE:
         return _Q_CACHE[ck]
+    # DB 영구 캐시 조회 — 값이 하나라도 있으면 확정 수집분 → 재사용(DART 0)
+    try:
+        from valuation_engine import db as _db
+        _row = _db.get_quarter_standalone(corp_code, year, q)
+        if _row is not None and (_row.get("revenue") is not None or _row.get("ebit") is not None):
+            res = (_row.get("revenue"), _row.get("ebit"))
+            _Q_CACHE[ck] = res
+            return res
+    except Exception:
+        pass
     if q in (1, 2, 3):
         r, e, _ = _fetch_income(corp_code, year, _RC[q])
         res = (r, e)
@@ -122,6 +136,13 @@ def _quarter_standalone(corp_code: str, year: int, q: int) -> tuple[Optional[flo
                 sr += r; se += e
             res = (fy_r - sr, (fy_e - se) if (fy_e is not None and ok) else None) if ok else (None, None)
     _Q_CACHE[ck] = res
+    # DB 영구 캐시 저장 — 값이 있을 때만(None 은 다음 재시도 여지 남김)
+    if res[0] is not None or res[1] is not None:
+        try:
+            from valuation_engine import db as _db
+            _db.save_quarter_standalone(corp_code, year, q, res[0], res[1])
+        except Exception:
+            pass
     return res
 
 

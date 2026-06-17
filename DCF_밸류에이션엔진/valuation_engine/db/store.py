@@ -106,6 +106,20 @@ CREATE TABLE IF NOT EXISTS ttm_financials (
     PRIMARY KEY (stock_code, period)
 );
 
+-- quarterly_standalone: 분기 단독 손익(3개월) 영구 캐시 — corp_code 기준.
+--   분기 단독값은 공시 확정 후 불변(정정 제외)이라 (corp_code,연도,분기) 키로
+--   영구 보관 가능. compute_ttm / 8Q 가중평균이 공통으로 거치는 _quarter_standalone
+--   이 이 표를 먼저 보고 hit 시 DART 호출 0 → 재평가 시 분기손익 재수집 제거.
+CREATE TABLE IF NOT EXISTS quarterly_standalone (
+    corp_code    TEXT,
+    fiscal_year  INTEGER,
+    quarter      INTEGER,
+    revenue      REAL,
+    ebit         REAL,
+    updated_at   TEXT,
+    PRIMARY KEY (corp_code, fiscal_year, quarter)
+);
+
 CREATE TABLE IF NOT EXISTS beta_results (
     stock_code     TEXT,
     eval_date      TEXT,
@@ -292,6 +306,7 @@ _PK = {
     "companies":           ["stock_code"],
     "financials":          ["stock_code", "fiscal_year"],
     "ttm_financials":      ["stock_code", "period"],
+    "quarterly_standalone": ["corp_code", "fiscal_year", "quarter"],
     "beta_results":        ["stock_code", "eval_date"],
     "wacc_results":        ["stock_code", "eval_date"],
     "dcf_results":         ["stock_code", "eval_date"],
