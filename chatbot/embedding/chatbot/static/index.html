@@ -39,6 +39,20 @@
                gap:10px; flex-wrap:wrap; align-items:center; }
   .meta-line a { color:var(--accent); text-decoration:none; }
   .meta-line a:hover { text-decoration:underline; }
+  /* RAG 미검색 시 AI 일반지식 답변 경고배지 (DART 근거 아님 명시) */
+  .gk-badge { font-size:12.5px; line-height:1.5; color:#8a5a00; background:#fff6e0;
+    border:1px solid #f0c869; border-radius:8px; padding:8px 11px; margin:2px 2px 9px; }
+  /* 첨부파일(이미지/PDF) UI + 첨부기반 답변 배지 */
+  .attach-bar:not(:empty) { padding:6px 14px 0; }
+  .attach-chip { display:inline-flex; align-items:center; gap:8px; font-size:12.5px; color:#334;
+    background:#eef2f7; border:1px solid var(--border); border-radius:14px; padding:4px 10px; }
+  .attach-chip button { border:none; background:transparent; cursor:pointer; font-size:15px;
+    color:var(--muted); padding:0; line-height:1; }
+  #attach { background:var(--panel); border:1px solid var(--border); border-radius:8px;
+    cursor:pointer; font-size:18px; padding:0 10px; }
+  #attach:hover { background:#eef2f7; }
+  .attach-badge { font-size:12.5px; color:#1f5d3a; background:#e8f6ee; border:1px solid #a8dcc0;
+    border-radius:8px; padding:7px 10px; margin:2px 2px 8px; }
   .src-title { font-size:12.5px; color:var(--muted); margin:10px 2px 4px; font-weight:600; }
   .src { border:1px solid var(--border); border-radius:9px; padding:8px 10px; margin:6px 0;
          background:#1b1f29; font-size:12.5px; }
@@ -126,8 +140,11 @@
     </div>
   </div>
 
+  <div id="attachBar" class="attach-bar"></div>
   <footer>
-    <textarea id="q" placeholder='질문을 입력하세요. "1분기"·"사업보고서" 키워드로 보고서 종류 지정 가능 (Enter 전송 · Shift+Enter 줄바꿈)'></textarea>
+    <input type="file" id="fileInput" accept=".pdf,.png,.jpg,.jpeg,.webp,.gif,application/pdf,image/*" hidden />
+    <button id="attach" title="PDF·이미지 첨부 (이미지 / 텍스트 PDF)">📎</button>
+    <textarea id="q" placeholder='질문을 입력하세요. "1분기"·"사업보고서" 키워드로 보고서 종류 지정 · 📎로 PDF·이미지 첨부 (Enter 전송 · Shift+Enter 줄바꿈)'></textarea>
     <button id="send">전송</button>
   </footer>
 
@@ -325,6 +342,11 @@ async function askQuestion(text, ticker, displayText) {
             renderCandidates(bubble, payload.candidates);
           } else if (payload.meta) {
             renderMetaLine(metaSlot, payload.meta);    // meta 라인을 답변 전에 표시
+            if (payload.meta.mode === "general_knowledge") {   // RAG 미검색 → AI 일반지식 경고배지
+              const warn = el("div", "gk-badge",
+                "⚠ 이 답변은 DART 보고서 근거가 아니라 AI 일반 지식입니다. 구체 수치·최신 정보는 직접 확인하세요.");
+              metaSlot.parentNode.insertBefore(warn, metaSlot);
+            }
           }
         } else if (event === "sources") {
           // 답변 토큰 도착 전에 출처가 먼저 도착 → 사용자가 미리 읽음
@@ -401,8 +423,66 @@ function renderSourcesBlock(slot, sources, meta) {
   });
 }
 
+// ── 첨부파일(이미지 / 텍스트 PDF) ──
+const fileInput = document.getElementById("fileInput");
+const attachBtn = document.getElementById("attach");
+const attachBar = document.getElementById("attachBar");
+let pendingFile = null;
+attachBtn.onclick = () => fileInput.click();
+fileInput.onchange = () => { pendingFile = fileInput.files[0] || null; renderAttachChip(); };
+function renderAttachChip() {
+  attachBar.innerHTML = "";
+  if (!pendingFile) return;
+  const chip = el("span", "attach-chip");
+  chip.appendChild(el("span", null, "📎 " + pendingFile.name));
+  const x = el("button", null, "×"); x.title = "첨부 제거";
+  x.onclick = () => { pendingFile = null; fileInput.value = ""; renderAttachChip(); };
+  chip.appendChild(x);
+  attachBar.appendChild(chip);
+}
+
+async function askWithAttachment(text, file) {
+  if (busy) return;
+  busy = true; send.disabled = true;
+  addRow("user").textContent = (text ? text + "  " : "") + "📎 " + file.name;
+  const bubble = addRow("assistant");
+  const stage = el("div", "stage-banner", "📎 첨부 분석 중…");
+  const body = el("div", "answer-body cursor");
+  bubble.append(stage, body);
+  scroll();
+  try {
+    const fd = new FormData();
+    fd.append("message", text || "");
+    fd.append("session_id", sessionId);
+    fd.append("file", file);
+    const resp = await fetch("/chat/attach", { method: "POST", body: fd });
+    const d = await resp.json();
+    stage.remove();
+    body.classList.remove("cursor");
+    const meta = d.meta || {};
+    if (meta.mode === "attachment") {
+      let bt = "📎 첨부 기반 답변" + (meta.filename ? " (" + meta.filename + ")" : "");
+      if (meta.note) bt += " · " + meta.note;
+      bubble.insertBefore(el("div", "attach-badge", bt), body);
+    }
+    body.innerHTML = formatAnswer(d.answer || "(빈 응답)");
+  } catch (e) {
+    stage.remove(); body.classList.remove("cursor");
+    body.textContent = "⚠ 첨부 처리 오류: " + e.message;
+  } finally {
+    busy = false; send.disabled = false;
+    pendingFile = null; fileInput.value = ""; renderAttachChip();
+    scroll(); qEl.focus();
+  }
+}
+
 function submit() {
   const text = qEl.value.trim();
+  if (pendingFile) {                 // 첨부가 있으면 멀티모달 경로(/chat/attach)
+    qEl.value = "";
+    askWithAttachment(text, pendingFile);
+    return;
+  }
   if (!text) return;
   qEl.value = "";
   askQuestion(text);
