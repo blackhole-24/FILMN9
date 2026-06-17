@@ -393,7 +393,6 @@ export default function StockPage() {
   const [isData,       setIsData]       = useState<any>(null);
   const [shareholders, setShareholders] = useState<any[]>([]);
   const [executives,   setExecutives]   = useState<any[]>([]);
-  const [disclosures,  setDisclosures]  = useState<any[]>([]);
   const [health,       setHealth]       = useState<any>(null);
   const [credit,       setCredit]       = useState<any[]>([]);
   const [realtime,     setRealtime]     = useState<any>(null);
@@ -753,7 +752,6 @@ export default function StockPage() {
         fetch(`${API}/api/financial_detail/${code}/IS`).then(r=>r.json()).then(setIsData).catch(()=>{}),
         fetch(`${API}/api/shareholders/${code}`).then(r=>r.json()).then(d=>setShareholders(d.items||[])).catch(()=>{}),
         fetch(`${API}/api/executives/${code}`).then(r=>r.json()).then(d=>setExecutives(d.items||[])).catch(()=>{}),
-        fetch(`${API}/api/disclosures/${code}?limit=10`).then(r=>r.json()).then(d=>setDisclosures(d.items||[])).catch(()=>{}),
         fetch(`${API}/api/health/${code}`).then(r=>r.json()).then(setHealth).catch(()=>{}),
         fetch(`${API}/api/credit/${code}`).then(r=>r.json()).then(d=>setCredit(d.items||[])).catch(()=>{}),
         fetch(`${API}/api/news/${code}?limit=6`).then(r=>r.json()).then(d=>setNews(d.items||[])).catch(()=>{}),
