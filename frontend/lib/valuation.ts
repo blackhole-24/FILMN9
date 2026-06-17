@@ -42,6 +42,11 @@ export interface ValSummary {
   dcf_show_point_estimate?: boolean;
   dcf_tv_weight?: number | null;
   dcf_fcff_y1_negative?: boolean;
+  // v9 추가 필드 (DCF 적합성·신뢰도·비영업자산)
+  dcf_valid?: boolean;
+  dcf_invalid_reason?: string | null;
+  dcf_confidence?: string;
+  noa_won?: number | null;
   industry_category?: string;
   industry_name?: string;
   opm_window_used?: string;
