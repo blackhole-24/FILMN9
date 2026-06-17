@@ -204,3 +204,111 @@ def stream_answer(question: str, context: str,
         fb = generate_answer(question, context, history, model, company, coverage)
         if fb.strip():
             yield fb
+
+
+# ─────────────────────────────────────────────────────────────
+# 지식 폴백 (RAG 미검색 시 일반지식 답변) — DART 근거가 아님을 명확히 분리
+# ─────────────────────────────────────────────────────────────
+FALLBACK_SYSTEM_PROMPT = """당신은 한국 기업·금융·회계 전반에 밝은 AI 어시스턴트입니다.
+지금은 사용자의 질문에 대해 DART 사업보고서에서 근거 자료를 찾지 못한 상황입니다.
+당신의 일반 지식으로 도움을 주되, 다음을 반드시 지키십시오.
+
+1. 이 답변은 DART 보고서에서 검증된 것이 아닙니다. **특정 회사의 구체적 재무 수치(매출액·영업이익·
+   부채 등)를 보고서에서 확인한 것처럼 단정하지 마십시오.** 확실하지 않으면 "정확한 수치는 해당 기업의
+   공시·DART 전자공시에서 확인하시기 바랍니다"라고 안내하십시오.
+2. 일반 개념·정의·제도·업계 상식·계산 방법 등은 아는 범위에서 명확하고 정확하게 설명하십시오.
+3. 시점에 따라 달라지는 정보(주가·환율·최근 실적·인사 등)는 추정하지 말고 한계를 밝히십시오.
+4. 모르면 모른다고 정직하게 말하십시오(없는 사실을 지어내지 마십시오).
+5. 마크다운 기호(별표·우물정·표기호 등) 없이 평문으로, 한국어로 간결·정확하게 답하십시오.
+"""
+
+
+def _build_fallback_messages(question: str, history: Optional[list[dict]] = None) -> list[dict]:
+    msgs = [{"role": "system", "content": FALLBACK_SYSTEM_PROMPT}]
+    if history:
+        msgs.extend(history)
+    msgs.append({"role": "user", "content": question})
+    return msgs
+
+
+def generate_fallback_answer(question: str, history: Optional[list[dict]] = None,
+                             model: str = OPENAI_MODEL) -> str:
+    """일반지식 답변(논스트리밍). DART 근거가 아니므로 호출부에서 경고 라벨을 함께 표시한다."""
+    msgs = _build_fallback_messages(question, history)
+    content = ""
+    for effort in ("high", "medium"):
+        resp = chat_create(model=model, temperature=OPENAI_TEMPERATURE, reasoning_effort=effort,
+                           max_completion_tokens=MAX_COMPLETION_TOKENS, messages=msgs)
+        content = resp.choices[0].message.content or ""
+        if content.strip():
+            break
+    return content
+
+
+def stream_fallback_answer(question: str, history: Optional[list[dict]] = None,
+                           model: str = OPENAI_MODEL) -> Iterator[str]:
+    """일반지식 답변(스트리밍). 무토큰 시 논스트리밍으로 폴백."""
+    stream = chat_create(model=model, temperature=OPENAI_TEMPERATURE, reasoning_effort="high",
+                         max_completion_tokens=MAX_COMPLETION_TOKENS,
+                         messages=_build_fallback_messages(question, history), stream=True)
+    emitted = False
+    for chunk in stream:
+        if not chunk.choices:
+            continue
+        delta = chunk.choices[0].delta.content
+        if delta:
+            emitted = True
+            yield delta
+    if not emitted:
+        fb = generate_fallback_answer(question, history, model)
+        if fb.strip():
+            yield fb
+
+
+# ─────────────────────────────────────────────────────────────
+# 첨부파일(PDF 추출텍스트 / 이미지) 멀티모달 답변
+# ─────────────────────────────────────────────────────────────
+ATTACHMENT_SYSTEM_PROMPT = """당신은 사용자가 첨부한 자료(PDF에서 추출한 텍스트, 이미지)를 읽고 질문에
+답하는 어시스턴트입니다. 다음을 지키십시오.
+1. 첨부된 내용에 근거해 답하십시오. 첨부에 없는 사실을 지어내지 마십시오(없으면 "첨부 자료에서 찾을 수 없습니다").
+2. 표·수치는 정확히 인용하고, 단위가 있으면 함께 표기하십시오. 이미지의 글자·표·차트도 최대한 정확히 읽으십시오.
+3. 질문이 비어 있으면 첨부 자료의 핵심을 요약하십시오.
+4. 마크다운 기호 없이 평문으로, 한국어로 간결·정확하게 답하십시오.
+5. "[비교용 DART 보고서 발췌]"가 함께 제공되면, 첨부 자료의 수치·내용을 그 DART 발췌와 비교·대조해
+   차이를 설명하십시오. 어느 값이 첨부 자료이고 어느 값이 DART인지 출처를 구분해 인용하십시오.
+"""
+
+
+def generate_attachment_answer(question: str, pdf_text: Optional[str] = None,
+                               images: Optional[list] = None,
+                               dart_context: Optional[str] = None,
+                               history: Optional[list[dict]] = None,
+                               model: str = OPENAI_MODEL) -> str:
+    """첨부(PDF 추출텍스트/이미지) 기반 멀티모달 답변.
+
+    images: [(base64_str, mime_type), ...]  — 비전 입력으로 전달.
+    pdf_text: PDF에서 추출한 텍스트(있으면 질문과 함께 텍스트 파트로 전달).
+    dart_context: 첨부+DART 비교용 보고서 발췌(있으면 비교 답변).
+    """
+    q = (question or "").strip() or "첨부한 자료의 핵심 내용을 분석해 요약해 주세요."
+    text_part = q
+    if pdf_text:
+        text_part += "\n\n[첨부 PDF에서 추출한 텍스트]\n" + pdf_text
+    if dart_context:
+        text_part += "\n\n[비교용 DART 보고서 발췌]\n" + dart_context
+    content: list = [{"type": "text", "text": text_part}]
+    for b64, mime in (images or []):
+        content.append({"type": "image_url",
+                        "image_url": {"url": f"data:{mime};base64,{b64}"}})
+    msgs = [{"role": "system", "content": ATTACHMENT_SYSTEM_PROMPT}]
+    if history:
+        msgs.extend(history)
+    msgs.append({"role": "user", "content": content})
+    out = ""
+    for effort in ("high", "medium"):
+        resp = chat_create(model=model, temperature=OPENAI_TEMPERATURE, reasoning_effort=effort,
+                           max_completion_tokens=MAX_COMPLETION_TOKENS, messages=msgs)
+        out = resp.choices[0].message.content or ""
+        if out.strip():
+            break
+    return out

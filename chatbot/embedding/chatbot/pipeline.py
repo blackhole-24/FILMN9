@@ -14,6 +14,7 @@ from ..retrieval import format_chunks_for_llm
 from .config import (
     MAX_CONTEXT_CHARS, FINAL_TOP_K,
     ENABLE_ONTOLOGY, ONTOLOGY_MAX_TERMS, MAX_TOTAL_QUERIES,
+    ENABLE_KNOWLEDGE_FALLBACK,
 )
 from . import query_analyzer, company_index, retriever, llm_client, dart_links, ontology_b
 from .session import Session, STORE
@@ -197,6 +198,32 @@ def _prepare(question: str, session: Session, current_year: int,
     }
 
 
+def _fallback_answer(question: str, session: Session, prep: Optional[dict] = None) -> dict:
+    """RAG 미검색 시 LLM 일반지식 답변(논스트리밍). meta.mode='general_knowledge'로 경고 표시."""
+    ans = llm_client.generate_fallback_answer(question, history=session.history)
+    session.add_turn(question, ans)
+    if prep:
+        session.update_context(prep["ticker"], prep["corp_name"], prep["year"])
+    meta = _meta(prep) if prep else {}
+    meta["mode"] = "general_knowledge"
+    return {"session_id": session.id, "status": "ok", "answer": ans, "sources": [], "meta": meta}
+
+
+def _fallback_stream(question: str, session: Session, meta: Optional[dict] = None) -> Iterator[dict]:
+    """RAG 미검색 시 LLM 일반지식 답변(스트리밍 이벤트). 프론트는 mode로 경고배지를 띄운다."""
+    meta = dict(meta or {})
+    meta["mode"] = "general_knowledge"
+    yield {"type": "head", "session_id": session.id, "status": "ok", "meta": meta}
+    yield {"type": "sources", "sources": [], "report_url": None}
+    yield {"type": "stage", "label": "💡 DART 미검색 — 일반 지식으로 답변 중…"}
+    buf: list[str] = []
+    for tok in llm_client.stream_fallback_answer(question, history=session.history):
+        buf.append(tok)
+        yield {"type": "token", "t": tok}
+    session.add_turn(question, "".join(buf))
+    yield {"type": "done"}
+
+
 def answer(question: str, session_id: Optional[str] = None,
            current_year: int = 2025, ticker: Optional[str] = None) -> dict:
     """논스트리밍 end-to-end 답변."""
@@ -204,10 +231,15 @@ def answer(question: str, session_id: Optional[str] = None,
     prep = _prepare(question, session, current_year, forced_ticker=ticker)
 
     if prep["status"] != "ok":
+        # 회사 미특정(needs_company)은 일반지식 폴백. 후보 여럿(needs_clarification)은 되묻기 유지.
+        if prep["status"] == "needs_company" and ENABLE_KNOWLEDGE_FALLBACK:
+            return _fallback_answer(question, session)
         return {"session_id": session.id, **prep}
 
     chunks = prep["search"]["chunks"]
     if not chunks:
+        if ENABLE_KNOWLEDGE_FALLBACK:   # 검색 0건 → 일반지식 답변(경고배지)
+            return _fallback_answer(question, session, prep)
         msg = "제공된 보고서에서 해당 정보를 찾을 수 없습니다."
         session.add_turn(question, msg)
         session.update_context(prep["ticker"], prep["corp_name"], prep["year"])
@@ -276,6 +308,9 @@ def answer_stream(question: str, session_id: Optional[str] = None,
             return
 
     if not ticker_resolved:
+        if ENABLE_KNOWLEDGE_FALLBACK:   # 회사 미특정 → 일반지식 답변(경고배지)
+            yield from _fallback_stream(question, session)
+            return
         yield {"type": "head", "session_id": session.id, "status": "needs_company",
                "analysis": analysis,
                "message": "어떤 회사에 대한 질문인지 알려주세요 (회사명 또는 6자리 종목코드)."}
@@ -339,6 +374,10 @@ def answer_stream(question: str, session_id: Optional[str] = None,
     }
 
     if not chunks:
+        if ENABLE_KNOWLEDGE_FALLBACK:   # 검색 0건 → 일반지식 답변(경고배지)
+            session.update_context(ticker_resolved, corp_name, year)
+            yield from _fallback_stream(question, session, meta=_meta(prep))
+            return
         msg = "제공된 보고서에서 해당 정보를 찾을 수 없습니다."
         session.add_turn(question, msg)
         session.update_context(ticker_resolved, corp_name, year)
