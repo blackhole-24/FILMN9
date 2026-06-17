@@ -20,15 +20,42 @@ api/routers/affiliate.py
 """
 from __future__ import annotations
 
+import os
 from pathlib import Path
 
 from fastapi import APIRouter, HTTPException
-from fastapi.responses import FileResponse
+from fastapi.responses import FileResponse, Response
 
 router = APIRouter()
 
 _ROOT = Path(__file__).resolve().parent.parent.parent
 _BASE = _ROOT / "기업개요_파트" / "계열회사시각화"
+
+# ─── S3 정적 파일 (환경변수로 켜짐). 설정 시 S3 우선, 실패 시 로컬 폴백. ───
+_S3_BUCKET = os.getenv("S3_STATIC_BUCKET", "").strip()
+_s3_client = None
+
+
+def _s3():
+    global _s3_client
+    if _s3_client is None:
+        import boto3
+        _s3_client = boto3.client("s3", region_name=os.getenv("AWS_REGION", "ap-northeast-2"))
+    return _s3_client
+
+
+def _find_s3(code: str):
+    """S3 affiliate/{code}_*/*_affiliate_structure.svg 키 탐색. 반환: key 또는 None."""
+    if not _S3_BUCKET:
+        return None
+    try:
+        resp = _s3().list_objects_v2(Bucket=_S3_BUCKET, Prefix=f"affiliate/{code.strip()}_")
+        for o in resp.get("Contents", []):
+            if o["Key"].endswith("_affiliate_structure.svg"):
+                return o["Key"]
+    except Exception:
+        return None
+    return None
 # 전 종목 배치 산출물(2026-06-15 전수 생성). 샘플에 없으면 여기서 찾음.
 _OUT_BATCH = _ROOT / "output" / "affiliate_structure_batch"        # 구조도 SVG (2단계)
 _OUT_VIS = _ROOT / "output" / "affiliate_visualization"            # 투자관계 그래프 (1단계)
@@ -101,26 +128,50 @@ _LABEL = {
 
 @router.get("/affiliate/{code}")
 def affiliate_meta(code: str):
-    """계열회사 시각화 메타. 없으면 available:false."""
+    """계열회사 시각화 메타. 없으면 available:false. (S3 우선 → 로컬 폴백)"""
+    code = code.strip()
+    # ① S3 우선
+    s3key = _find_s3(code)
+    if s3key:
+        return {
+            "available":   True,
+            "stock_code":  code,
+            "source_type": "structure_diagram",
+            "label":       _LABEL.get("structure_diagram", "계열회사 구조"),
+            "kind":        "svg",
+            "file_url":    f"/api/affiliate/{code}/file",
+            "file_name":   s3key.split("/")[-1],
+        }
+    # ② 로컬 폴백
     path, stype = _find(code)
     if path is None:
-        return {"available": False, "stock_code": code.strip(),
+        return {"available": False, "stock_code": code,
                 "_note": "계열회사 시각화 데이터 없음 (현재 샘플 종목만 제공)"}
     is_image = path.suffix.lower() in (".jpg", ".jpeg", ".png", ".gif")
     return {
         "available":   True,
-        "stock_code":  code.strip(),
+        "stock_code":  code,
         "source_type": stype,
         "label":       _LABEL.get(stype, "계열회사 구조"),
         "kind":        "image" if is_image else "svg",
-        "file_url":    f"/api/affiliate/{code.strip()}/file",
+        "file_url":    f"/api/affiliate/{code}/file",
         "file_name":   path.name,
     }
 
 
 @router.get("/affiliate/{code}/file")
 def affiliate_file(code: str):
-    """계열회사 시각화 실제 파일(SVG/이미지) 반환."""
+    """계열회사 시각화 실제 파일(SVG/이미지) 반환. (S3 우선 → 로컬 폴백)"""
+    code = code.strip()
+    # ① S3 우선
+    s3key = _find_s3(code)
+    if s3key:
+        try:
+            obj = _s3().get_object(Bucket=_S3_BUCKET, Key=s3key)
+            return Response(content=obj["Body"].read(), media_type="image/svg+xml")
+        except Exception:
+            pass  # S3 오류 → 로컬 폴백
+    # ② 로컬 폴백
     path, _ = _find(code)
     if path is None or not path.exists():
         raise HTTPException(status_code=404, detail=f"{code} 계열회사 시각화 없음")

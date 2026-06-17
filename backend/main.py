@@ -190,13 +190,39 @@ def root():
 # ─── Sankey HTML 서빙 ─────────────────────────────────────────────────────────
 _SANKEY_DIR = _ROOT / "outputs" / "sankey"
 
+# S3 정적 파일 버킷 (환경변수로 켜짐). 설정 시 S3 우선, 실패 시 로컬 폴백.
+# 로컬 개발에선 환경변수 미설정 → 기존처럼 로컬 파일만 사용(동작 변화 없음).
+_S3_STATIC_BUCKET = os.getenv("S3_STATIC_BUCKET", "").strip()
+_s3_client = None
+
+
+def _s3():
+    """boto3 S3 클라이언트(지연 생성). 자격증명은 EC2 IAM 역할에서 자동 획득."""
+    global _s3_client
+    if _s3_client is None:
+        import boto3  # 지연 import: S3 미사용 환경에선 의존성 불필요
+        _s3_client = boto3.client("s3", region_name=os.getenv("AWS_REGION", "ap-northeast-2"))
+    return _s3_client
+
+
 @app.get("/sankey/{stock_code}", response_class=HTMLResponse)
 def get_sankey(stock_code: str):
     """
     사전 생성된 Plotly Sankey HTML 반환.
-    파일 없으면 404.
-    실행: python db/build_sankey.py {code}
+    우선순위: ① S3(sankey/{code}_sankey.html) → ② EC2 로컬 파일 → ③ 404.
+    실행(로컬 생성): python db/build_sankey.py {code}
     """
+    # ① S3 우선 (버킷 설정 시)
+    if _S3_STATIC_BUCKET:
+        try:
+            obj = _s3().get_object(
+                Bucket=_S3_STATIC_BUCKET, Key=f"sankey/{stock_code}_sankey.html"
+            )
+            return HTMLResponse(content=obj["Body"].read().decode("utf-8"))
+        except Exception:
+            pass  # S3 미스/오류 → 로컬 폴백 (데모 안정성)
+
+    # ② 로컬 폴백
     html_path = _SANKEY_DIR / f"{stock_code}_sankey.html"
     if not html_path.exists():
         raise HTTPException(

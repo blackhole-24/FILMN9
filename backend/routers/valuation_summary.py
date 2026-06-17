@@ -17,6 +17,7 @@ api/routers/valuation_summary.py
 from __future__ import annotations
 
 import json
+import os
 import sqlite3
 from pathlib import Path
 
@@ -30,6 +31,40 @@ _DB   = _ROOT / "data" / "filmn9.db"
 _FULL_DIR = _ROOT / "data" / "valuation_inbox" / "repr20_export" / "data"
 # 전 종목(2,224+) 통합 JSON 원본 — repr20에 없으면 여기서 찾음. 파일명 valuation_{code}_{YYYYMMDD}.json
 _ENGINE_RESULTS = _ROOT / "DCF_밸류에이션엔진" / "valuation_engine" / "results"
+
+# ─── S3 정적 파일 (환경변수로 켜짐). 통합 JSON을 S3에서 우선 읽고, 실패 시 로컬 폴백. ───
+#   S3 구조: valuation_full/repr20/{code}_{명}.json · valuation_full/engine/valuation_{code}_{날짜}.json
+_S3_BUCKET = os.getenv("S3_STATIC_BUCKET", "").strip()
+_s3_client = None
+
+
+def _s3():
+    global _s3_client
+    if _s3_client is None:
+        import boto3
+        _s3_client = boto3.client("s3", region_name=os.getenv("AWS_REGION", "ap-northeast-2"))
+    return _s3_client
+
+
+def _s3_full_json(code: str):
+    """S3에서 통합 평가 JSON 1건 로드. repr20 우선 → engine(최신). 없으면 None."""
+    if not _S3_BUCKET:
+        return None
+    try:
+        cli = _s3()
+        # 1) repr20 (산업 대표 20종)
+        r = cli.list_objects_v2(Bucket=_S3_BUCKET, Prefix=f"valuation_full/repr20/{code}_")
+        keys = [o["Key"] for o in r.get("Contents", []) if o["Key"].endswith(".json")]
+        # 2) 없으면 engine 전 종목 (최신 날짜 우선)
+        if not keys:
+            r = cli.list_objects_v2(Bucket=_S3_BUCKET, Prefix=f"valuation_full/engine/valuation_{code}_")
+            keys = sorted([o["Key"] for o in r.get("Contents", []) if o["Key"].endswith(".json")], reverse=True)
+        if not keys:
+            return None
+        obj = cli.get_object(Bucket=_S3_BUCKET, Key=keys[0])
+        return json.loads(obj["Body"].read().decode("utf-8"))
+    except Exception:
+        return None
 
 _COLS = ("stock_code, corp_name, market, industry, dcf_grade, dcf_confidence, "
          "peer_confidence_grade, fair_price, current_price, upside_pct, wacc, "
@@ -134,9 +169,13 @@ def get_full(code: str):
     없으면 404 → 프론트가 "데이터 준비중" 표시.
     """
     code = code.strip()
-    # 1) repr20_export (산업 대표 20종) 우선
+    # ① S3 우선 (버킷 설정 시): valuation_full/repr20 → engine
+    s3data = _s3_full_json(code)
+    if s3data is not None:
+        return s3data
+    # ② 로컬 폴백 — repr20_export(산업 대표 20종) 우선
     matches = sorted(_FULL_DIR.glob(f"{code}_*.json")) if _FULL_DIR.exists() else []
-    # 2) 없으면 전 종목 엔진 통합 JSON (valuation_{code}_{YYYYMMDD}.json) — 최신 날짜 우선
+    # ③ 없으면 전 종목 엔진 통합 JSON (valuation_{code}_{YYYYMMDD}.json) — 최신 날짜 우선
     if not matches and _ENGINE_RESULTS.exists():
         matches = sorted(_ENGINE_RESULTS.glob(f"valuation_{code}_*.json"), reverse=True)
     if not matches:
