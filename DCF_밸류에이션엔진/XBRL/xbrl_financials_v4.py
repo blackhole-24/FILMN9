@@ -261,25 +261,32 @@ def billions(val) -> float:
 #  1. corp_code 조회  (종목명 또는 종목코드 -> 8자리 고유번호)
 # ════════════════════════════════════════════════════════════════════
 
+_CORP_DF = None  # 모듈 전역 corp_code 테이블 캐시 (프로세스당 1회 로드)
+
+
 def get_corp_code(name_or_code: str, api_key: str | None = None) -> dict:
     """
     종목명 또는 6자리 종목코드로 DART corp_code(8자리) 를 찾는다.
 
     Returns: {"corp_code", "corp_name", "stock_code"}
+
+    corpCode.xml(수만 기업)은 거의 불변이므로 프로세스 전역(_CORP_DF)에 1회만
+    로드해 재사용한다. (이전엔 종목마다 다운로드+pd.read_xml 로 ~10초씩 소요했음.)
     """
-    key = _get_api_key(api_key)
-    res = requests.get(f"{DART_BASE}/corpCode.xml", params={"crtfc_key": key}, timeout=60)
-    res.raise_for_status()
-
-    z = zipfile.ZipFile(io.BytesIO(res.content))
-    xml_data = z.read(z.namelist()[0])
-    df = pd.read_xml(io.BytesIO(xml_data), dtype=str)
-
-    # 컬럼 정리
-    for col in ("corp_code", "corp_name", "stock_code"):
-        if col in df.columns:
-            df[col] = df[col].fillna("").astype(str).str.strip()
-    df["corp_code"] = df["corp_code"].str.zfill(8)
+    global _CORP_DF
+    if _CORP_DF is None:
+        key = _get_api_key(api_key)
+        res = requests.get(f"{DART_BASE}/corpCode.xml", params={"crtfc_key": key}, timeout=60)
+        res.raise_for_status()
+        z = zipfile.ZipFile(io.BytesIO(res.content))
+        xml_data = z.read(z.namelist()[0])
+        _df = pd.read_xml(io.BytesIO(xml_data), dtype=str)
+        for col in ("corp_code", "corp_name", "stock_code"):
+            if col in _df.columns:
+                _df[col] = _df[col].fillna("").astype(str).str.strip()
+        _df["corp_code"] = _df["corp_code"].str.zfill(8)
+        _CORP_DF = _df
+    df = _CORP_DF
 
     query = str(name_or_code).strip()
 
