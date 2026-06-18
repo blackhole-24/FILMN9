@@ -259,6 +259,29 @@ export function ExpertView({ d }: { d: ValuationData }) {
               </div>
             )}
 
+            {(() => {
+              const roic = numv(s.implied_roic), ic = numv(s.invested_capital);
+              if (!(roic != null && roic > 0 && ic != null && ic > 0)) return null;   // 적자·투하자본 비정상 종목은 숨김
+              const ev = numv(s.eva_spread);
+              const spread = ev != null ? ev : (s.wacc != null ? roic - s.wacc : null);
+              const creates = spread != null && spread > 0;
+              return (
+                <div className="mt-4 rounded-xl border p-4" style={{ borderColor: creates ? "#bbf7d0" : "#fecaca", background: creates ? "#f0fdf4" : "#fef2f2" }}>
+                  <div className="text-[13.5px] font-extrabold" style={{ color: creates ? C.green : C.red }}>📊 ROIC vs WACC — 회사가 자본 비용을 넘는가</div>
+                  <div className="mt-2.5 flex flex-wrap items-end gap-x-6 gap-y-1">
+                    <div><div className="text-[11.5px] text-slate-500">ROIC (자본 굴린 수익률)</div><div className="text-[23px] font-extrabold" style={{ color: C.navy }}>{pct(roic, 1)}</div></div>
+                    <div className="pb-1.5 text-[18px] font-bold text-slate-400">vs</div>
+                    <div><div className="text-[11.5px] text-slate-500">WACC (자본 비용)</div><div className="text-[23px] font-extrabold" style={{ color: C.navy }}>{pct(s.wacc, 1)}</div></div>
+                    <div className="ml-auto text-right"><div className="text-[11.5px] text-slate-500">차이 (ROIC − WACC)</div><div className="text-[23px] font-extrabold" style={{ color: creates ? C.green : C.red }}>{spct(spread)}</div></div>
+                  </div>
+                  <p className="mt-2.5 text-[12px] leading-6 text-slate-600">{creates
+                    ? <>회사가 자본을 굴려 버는 수익률(ROIC)이 자본 비용(WACC)보다 <b style={{ color: C.green }}>높아 가치를 창출</b>하고 있어요 — &lsquo;돈 버는 효율이 자본 비용을 넘는다&rsquo;는 좋은 신호예요.</>
+                    : <>ROIC가 WACC보다 <b style={{ color: C.red }}>낮아 가치를 까먹는</b> 상태예요 — 자본 비용만큼도 못 벌고 있다는 뜻이에요.</>}</p>
+                  <p className="mt-1.5 text-[11px] leading-5 text-slate-400">※ 이 문턱(WACC)은 <b>회사가 사업으로 넘어야 할 기준</b>이에요. <b>주주 개인의 최소 요구수익률은 WACC가 아니라 Ke(자기자본비용{s.ke != null ? ` ${pct(s.ke, 1)}` : ""})</b>이며, 보통 Ke가 WACC보다 높습니다.</p>
+                </div>
+              );
+            })()}
+
             <p className="mt-3 text-[12.5px] leading-7 text-slate-500">
               <b>구성</b>: ① <b>국채금리(Rf)</b> — 가장 안전한 기본 수익률 · ② <b>주식 위험 보상</b> — 이 회사 주가가 시장보다 얼마나 출렁이는지에 따라 더 얹어요 · ③ <b>빚 이자(Kd)</b> — 빌린 돈의 비용(세후). 보통 <b>8~13%</b>이고, <b>높을수록</b> 미래 이익을 더 깐깐하게(작게) 봐서 내재가치가 낮아집니다.
             </p>
