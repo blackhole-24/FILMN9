@@ -123,36 +123,157 @@ def _load_map() -> dict:
     return _map_cache
 
 
+# 음차(한글 발음) 별칭 — 영문 약칭 회사명을 한글로 쳐도 매칭되게 한다.
+# 예) "에스케이" → "sk"  ⇒  "SK하이닉스"(소문자화 "sk하이닉스")에 매치.
+_HANGUL_ALIASES = {
+    "에스케이씨": "skc", "에이치디씨": "hdc", "에이치엠엠": "hmm",
+    "케이씨씨": "kcc", "오씨아이": "oci", "비지에프": "bgf",
+    "에스케이": "sk", "엘지": "lg", "케이티": "kt", "지에스": "gs",
+    "케이비": "kb", "엔에이치": "nh", "씨제이": "cj", "디비": "db",
+    "에이치디": "hd", "에이치엘": "hl", "디엘": "dl", "엘에스": "ls",
+    "제이비": "jb", "디지비": "dgb", "비엔케이": "bnk", "케이지": "kg",
+    "엘엑스": "lx", "에스엘": "sl", "포스코": "posco", "케이씨": "kc",
+}
+
+
+def _norm(s: str) -> str:
+    return s.strip().lower()
+
+
+def _query_forms(q: str) -> set:
+    """정규화(소문자) + 음차 별칭 확장한 후보 질의 문자열 집합."""
+    base = _norm(q)
+    forms = {base}
+    for ko, en in _HANGUL_ALIASES.items():
+        if ko in base:
+            forms.add(base.replace(ko, en))
+    return {f for f in forms if f}
+
+
+_search_rows = None
+
+
+def _search_index_rows() -> list:
+    """corp_name 을 미리 소문자화한 검색 인덱스(1회 캐시)."""
+    global _search_rows
+    if _search_rows is None:
+        rows = []
+        for it in _load_map().get("search_index", []):
+            name = it.get("corp_name", "")
+            rows.append({
+                "stock_code": it.get("stock_code", ""),
+                "corp_name":  name,
+                "name_lower": name.lower(),
+                "market":     it.get("market", ""),
+                "has_data":   it.get("has_jsonl", False),
+            })
+        _search_rows = rows
+    return _search_rows
+
+
+_liquidity = None
+
+
+def _liquidity_map() -> dict:
+    """종목별 최근 거래대금(close×volume) — 대장주 우선 정렬용(1회 캐시).
+    시가총액 컬럼이 없어, 인기·유동성을 반영하는 실데이터 거래대금으로 랭킹."""
+    global _liquidity
+    if _liquidity is None:
+        _liquidity = {}
+        # 공용 connect() — sqlite/postgres 둘 다 동작('?'→'%s' 자동변환, row["col"] 접근).
+        try:
+            from backend.db import connect
+            con = connect()
+            mx_row = con.execute("SELECT MAX(date) AS d FROM ohlcv").fetchone()
+            mx = mx_row["d"] if mx_row else None
+            if mx:
+                for row in con.execute(
+                    "SELECT stock_code, close, volume FROM ohlcv WHERE date = ?", (mx,)
+                ).fetchall():
+                    c, v = row["close"], row["volume"]
+                    if c and v:
+                        _liquidity[row["stock_code"]] = c * v
+            con.close()
+        except Exception:
+            pass
+    return _liquidity
+
+
+def _match_score(row: dict, forms: set, raw_q: str) -> float:
+    """매치 품질 점수(클수록 상위).
+    티어(정확5000>접두4000>코드3500>부분3000)는 1000 간격으로 떨어져 있어,
+    거래대금·데이터보유 가점(<수백)이 티어를 넘지 않고 '같은 티어 내 순서'만 정한다."""
+    import math
+    nl = row["name_lower"]
+    best = 0.0
+    for f in forms:
+        if not f:
+            continue
+        if nl == f:
+            best = max(best, 5000)
+        elif nl.startswith(f):
+            best = max(best, 4000)
+        elif f in nl:
+            best = max(best, 3000)
+    if raw_q and row["stock_code"].startswith(raw_q):
+        best = max(best, 3500)
+    if best <= 0:
+        return 0.0
+    liq = _liquidity_map().get(row["stock_code"], 0)
+    if liq > 0:
+        best += math.log10(liq) * 15        # 거래대금 클수록 상위(대장주 먼저)
+    if row["has_data"]:
+        best += 50
+    return best
+
+
 @app.get("/api/search")
 def search_company(
-    q:     str = Query(..., description="종목코드 또는 기업명 (부분 일치)"),
+    q:     str = Query(..., description="종목코드 또는 기업명 (대소문자·음차 무관, 오타 허용)"),
     limit: int = Query(10,  description="최대 결과 수"),
 ):
     """
     기업명 또는 종목코드로 검색. 자동완성 드롭다운용.
 
-    예: /api/search?q=삼성
-        /api/search?q=005930
+    어떻게 입력해도 매칭:
+      소문자 sk · 대문자 SK · 음차 에스케이 · 부분명 하이닉스 → 모두 SK하이닉스
+    예: /api/search?q=sk  /api/search?q=에스케이  /api/search?q=005930
     """
-    cmap  = _load_map()
-    index = cmap.get("search_index", [])
-    q     = q.strip()
+    raw_q = q.strip()
+    forms = _query_forms(raw_q)
+    rows  = _search_index_rows()
 
-    results = []
-    for item in index:
-        name_match = q in item.get("corp_name", "")
-        code_match = item.get("stock_code", "").startswith(q)
-        if name_match or code_match:
-            results.append({
-                "stock_code": item["stock_code"],
-                "corp_name" : item["corp_name"],
-                "market"    : item.get("market", ""),
-                "has_data"  : item.get("has_jsonl", False),
-            })
-        if len(results) >= limit:
-            break
+    scored = []
+    for row in rows:
+        s = _match_score(row, forms, raw_q)
+        if s > 0:
+            scored.append((s, row))
 
-    return {"query": q, "count": len(results), "results": results}
+    # 직접 매치가 부족하면 difflib(표준 라이브러리)로 오타 허용 보강
+    base = _norm(raw_q)
+    if len(scored) < 3 and len(base) >= 2:
+        import difflib
+        seen = {row["stock_code"] for _, row in scored}
+        for row in rows:
+            if row["stock_code"] in seen:
+                continue
+            ratio = difflib.SequenceMatcher(None, base, row["name_lower"]).ratio()
+            if ratio >= 0.6:
+                # 오타 매치는 부분일치(3000) 아래 티어. 그 안에서 유사도·거래대금 순.
+                import math
+                liq = _liquidity_map().get(row["stock_code"], 0)
+                sc = ratio * 1000 + (math.log10(liq) * 15 if liq > 0 else 0)
+                scored.append((sc, row))
+
+    scored.sort(key=lambda x: x[0], reverse=True)
+    results = [{
+        "stock_code": r["stock_code"],
+        "corp_name":  r["corp_name"],
+        "market":     r["market"],
+        "has_data":   r["has_data"],
+    } for _, r in scored[:limit]]
+
+    return {"query": raw_q, "count": len(results), "results": results}
 
 
 # ─── 헬스체크 ─────────────────────────────────────────────────────────────────

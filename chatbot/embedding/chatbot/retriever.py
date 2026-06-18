@@ -302,6 +302,33 @@ def _rrf_fuse(ranked_lists: list[list[dict]], k: int = RRF_K) -> list[dict]:
     return sorted(fused.values(), key=lambda x: x["rrf_score"], reverse=True)
 
 
+# ── 종목 코퍼스 캐시 (CPU 병목 해소) ───────────────────────────────────────
+# coll.get(where=ticker) 가 대용량 컬렉션(377만)에서 메타필터 brute-force 라 CPU상 수십초.
+# 같은 (ticker,year,report_kind) 코퍼스를 메모리에 캐시 → 2번째 질의부터 즉시.
+# 데모 종목을 미리 1회 워밍하면 시연 시 빠름. (LRU 상한으로 메모리 보호)
+_CORPUS_CACHE: dict = {}
+_CORPUS_ORDER: list = []
+_CORPUS_CACHE_MAX = 60
+
+
+def _corpus_cached(coll, where):
+    """(ids, docs, metas, embeddings) 코퍼스를 where 기준 1회 로드 후 캐시."""
+    import json as _json
+    key = _json.dumps(where, sort_keys=True, ensure_ascii=False)
+    hit = _CORPUS_CACHE.get(key)
+    if hit is not None:
+        return hit
+    cg = coll.get(where=where, include=["documents", "metadatas", "embeddings"])
+    _ce = cg.get("embeddings")
+    val = (cg.get("ids") or [], cg.get("documents") or [],
+           cg.get("metadatas") or [], _ce if _ce is not None else [])
+    _CORPUS_CACHE[key] = val
+    _CORPUS_ORDER.append(key)
+    if len(_CORPUS_ORDER) > _CORPUS_CACHE_MAX:
+        _CORPUS_CACHE.pop(_CORPUS_ORDER.pop(0), None)
+    return val
+
+
 def search(queries: list[str],
            rerank_query: str,
            ticker: Optional[str] = None,
@@ -332,7 +359,9 @@ def search(queries: list[str],
     fin_q = bool(ENABLE_FINSTMT_ROUTING and (ticker or report_kind) and (
         _is_finstmt_query(rerank_query) or any(_is_finstmt_query(q) for q in qs)))
 
+    import time as _T; _t0 = _T.time()
     embs = embed_texts(qs, show_progress=False)
+    print(f"[T] embed {_T.time()-_t0:.1f}s", flush=True)
     coll = get_collection()
     where = _build_where(ticker, year, report_kind)
 
@@ -346,12 +375,8 @@ def search(queries: list[str],
         # 1회 로드(수초)해 그 부분집합(수천 벡터)에 직접 코사인으로 벡터검색 + BM25 + 재무라우팅을
         # 모두 수행한다 → 동일 품질, 매 질의 100초+ → 수초. (느린 필터 HNSW 쿼리 회피)
         try:
-            cg = coll.get(where=where, include=["documents", "metadatas", "embeddings"])
-            c_ids = cg.get("ids") or []
-            c_docs = cg.get("documents") or []
-            c_metas = cg.get("metadatas") or []
-            _ce = cg.get("embeddings")
-            c_embs = _ce if _ce is not None else []
+            c_ids, c_docs, c_metas, c_embs = _corpus_cached(coll, where)
+            print(f"[T] corpus({len(c_ids)}) {_T.time()-_t0:.1f}s", flush=True)
         except Exception as e:
             print(f"[retriever] 코퍼스 로드 실패: {str(e)[:80]}", flush=True)
             c_ids, c_docs, c_metas, c_embs = [], [], [], []
@@ -413,6 +438,7 @@ def search(queries: list[str],
     if not ranked_lists:
         return {"chunks": [], "reranked": False, "pool_size": 0}
 
+    print(f"[T] search+bm25 {_T.time()-_t0:.1f}s", flush=True)
     # 2) RRF 융합 → (P&L질의면) 점유섹션 캡으로 자리 확보 → 재무제표 후보를 재랭킹 풀에 강제 편입
     fused = _rrf_fuse(ranked_lists)
     if fin_q:
@@ -451,4 +477,5 @@ def search(queries: list[str],
         except Exception as e:
             print(f"[retriever] 단위 형제 동반 스킵: {str(e)[:80]}", flush=True)
 
+    print(f"[T] rerank+done {_T.time()-_t0:.1f}s", flush=True)
     return {"chunks": pool, "reranked": reranked, "pool_size": len(ranked_lists)}

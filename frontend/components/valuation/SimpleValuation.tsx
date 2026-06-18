@@ -83,7 +83,7 @@ function dcfDetail(d: ValuationData): { title: string; body: React.ReactNode } {
         {s.fair_price != null && <Row k="내재가치(DCF) 추정" v={`₩${won(s.fair_price)}`} sub={s.fair_price_low != null ? `범위 ₩${won(s.fair_price_low)} ~ ₩${won(s.fair_price_high)}` : undefined} />}
         {dg.epv_price != null && <Row k="본질가치 (성장 0 가정)" v={`₩${won(dg.epv_price)}`} sub="가장 보수적인 바닥값" />}
         {dg.implied_growth != null && <Row k="시장 기대 성장률" v={spct(dg.implied_growth)} sub={dg.implied_growth_verdict || undefined} />}
-        {s.wacc != null && <Row k="할인율 (WACC)" v={pct(s.wacc, 1)} sub="미래 돈을 깎는 비율" />}
+        {s.wacc != null && <Row k="WACC (가중평균 자기자본비용)" v={pct(s.wacc, 1)} sub="자기자본·부채 비용을 비중대로 섞은 할인율" />}
         {s.dcf_grade && <Row k="DCF 신뢰도 등급" v={`${s.dcf_grade}등급`} sub={s.dcf_grade_reason || undefined} />}
         {s.current_price != null && <p className="mt-3 text-[12px] leading-6 text-slate-500">→ 현재가 <b>₩{won(s.current_price)}</b>와의 차이는 &lsquo;오류&rsquo;가 아니라 <b>시장이 반영한 성장 기대</b>예요.</p>}
       </>
@@ -180,12 +180,12 @@ function synthesize(dir: DirKey, char: CharKey, veryOpt: boolean, cyclical: bool
 }
 
 function Info({ onClick }: { onClick: () => void }) {
-  return <button onClick={onClick} className="ml-1 inline-flex h-4 w-4 items-center justify-center rounded-full text-[10px] font-bold align-middle" style={{ background: "#e0e7ff", color: "#4338ca" }} aria-label="설명">i</button>;
+  return <button onClick={onClick} title="클릭하면 계산식·출처·해석 자세히 (또는 상단 '📚 튜토리얼' 참고)" className="ml-1 inline-flex h-5 w-5 items-center justify-center rounded-full text-[12px] font-bold align-middle cursor-help" style={{ background: "#e0e7ff", color: "#4338ca" }} aria-label="설명">i</button>;
 }
 
 function MultCard({ m, primary, onInfo }: { m: any; primary: boolean; onInfo: () => void }) {
   const name = String(m["멀티플"] ?? "");
-  const peer = String(m["피어 중위"] ?? "—");
+  const peer = String(m["피어 중위"] ?? "—").replace(/[×xX]/g, "배");
   const imp = numv(m["역산가"]);
   const valid = imp != null && imp > 0;
   const vs = numv(m["vs 현재"] ?? m["vs현재"]);
@@ -195,10 +195,10 @@ function MultCard({ m, primary, onInfo }: { m: any; primary: boolean; onInfo: ()
   return (
     <div className="rounded-xl border bg-white p-4" style={{ borderColor: primary ? "#bfdbfe" : C.bd, borderTop: `5px solid ${primary ? C.blue : "#cbd5e1"}` }}>
       <div className="flex items-center justify-between">
-        <span className="text-[16px] font-extrabold text-slate-700">{name}<Info onClick={onInfo} /></span>
+        <span className="text-[16px] font-extrabold text-slate-700">{name} <span style={{ color: C.blue }}>{peer}</span><Info onClick={onInfo} /></span>
         <span className="rounded-full px-2.5 py-1 text-[12px] font-bold" style={{ background: primary ? "#dbeafe" : "#f1f5f9", color: primary ? "#1d4ed8" : "#64748b" }}>{primary ? "이익 기준 · 신뢰" : "참고"}</span>
       </div>
-      <div className="mt-2 text-[14px] text-slate-500">동종 평균 <b>{peer}</b></div>
+      <div className="mt-2 text-[14px] text-slate-500">동종 평균 <b>{peer}</b> 배수 적용 시 적정가</div>
       <div className="text-[27px] font-extrabold leading-tight" style={{ color: valid ? C.navy : C.gray }}>{valid ? manWon(imp) : "산출 불가"}</div>
       {valid && vs != null && <div className="text-[15px] font-bold" style={{ color: vcol }}>{sig} ({vsTxt})</div>}
     </div>
@@ -273,11 +273,14 @@ function DcfRow({ k, v, sub }: { k: string; v: string; sub?: string }) {
   );
 }
 
-export function SimpleValuation({ d, expert, onToggle }: { d: ValuationData; expert?: boolean; onToggle?: () => void }) {
+export function SimpleValuation({ d, realtimePrice, expert, onToggle }: { d: ValuationData; realtimePrice?: number | null; expert?: boolean; onToggle?: () => void }) {
   const [mk, setMk] = React.useState<string | null>(null);
   const [showMults, setShowMults] = React.useState(true);
   const s = d.summary || {}, dg = d.valuation_diagnostics || {};
-  const cur = s.current_price, name = d.company?.name || "이 회사";
+  // 현재 주가는 헤더와 동일한 '실시간가(realtime)'로 통일 — 엔진 산출값(역산가·DCF 적정가·밴드)은 그대로 두어 DCF가 깨지지 않게 함.
+  // 대부분 종목은 realtime ≈ summary.current_price 라 변화 없음. 데이터 글리치 종목만 헤더와 같은 정상가로 표시됨.
+  const cur = (realtimePrice != null && realtimePrice > 0) ? realtimePrice : s.current_price;
+  const name = d.company?.name || "이 회사";
   const ticker = d.stock_code || d.company?.ticker;
 
   const rows = (d.multiples || []) as any[];
@@ -399,7 +402,7 @@ export function SimpleValuation({ d, expert, onToggle }: { d: ValuationData; exp
       {rows.length > 0 && (
         <div className="mb-5 rounded-xl border bg-white p-5" style={{ borderColor: C.bd }}>
           <button onClick={() => setShowMults((x) => !x)} className="flex w-full items-center justify-between text-[17px] font-extrabold" style={{ color: C.navy }}>
-            <span>🏢 동종업계 비교 <span className="text-[13px] font-semibold text-slate-400">비교 지표 {rows.length}종</span></span>
+            <span>🏢 동종업계 비교 <span className="text-[13px] font-semibold text-slate-400">(멀티플)</span></span>
             <span className="text-[14px]" style={{ color: C.blue }}>{showMults ? "접기 ▴" : "펼치기 ▾"}</span>
           </button>
           {showMults && (
@@ -454,8 +457,8 @@ export function SimpleValuation({ d, expert, onToggle }: { d: ValuationData; exp
             <div className="mt-3 grid grid-cols-1 gap-3 sm:grid-cols-2">
               {s.fair_price != null && <DcfRow k="DCF로 계산한 가치" v={`₩${won(s.fair_price)}`} sub={s.fair_price_low != null ? `범위 ₩${won(s.fair_price_low)} ~ ₩${won(s.fair_price_high)}` : undefined} />}
               {dg.epv_price != null && <DcfRow k="바닥 가치 (안 커도 이만큼)" v={`₩${won(dg.epv_price)}`} sub="성장을 0으로 본 가장 보수적인 값" />}
-              {dg.implied_growth != null && <DcfRow k="시장이 기대하는 성장" v={spct(dg.implied_growth)} sub={dg.implied_growth_verdict ? `${dg.implied_growth_verdict} · 매년 이만큼 커야 지금 주가가 맞아요` : "매년 이만큼 커야 지금 주가가 맞아요"} />}
-              {s.wacc != null && <DcfRow k="할인율 (WACC)" v={pct(s.wacc, 1)} sub="미래의 돈을 오늘 값으로 깎는 비율" />}
+              {dg.implied_growth != null && <DcfRow k="시장이 기대하는 성장률" v={spct(dg.implied_growth)} sub={dg.implied_growth_verdict ? `${dg.implied_growth_verdict} · 매년 이만큼 커야 지금 주가가 맞아요` : "매년 이만큼 커야 지금 주가가 맞아요"} />}
+              {s.wacc != null && <DcfRow k="WACC (가중평균 자기자본비용)" v={pct(s.wacc, 1)} sub="자기자본·부채 비용을 비중대로 섞은 할인율" />}
               {s.dcf_grade && <DcfRow k="DCF 믿음 정도" v={`${s.dcf_grade}등급`} sub={s.dcf_grade_reason || undefined} />}
             </div>
             {cur != null && s.fair_price != null && <p className="mt-3 text-[14px] leading-7 text-slate-500">→ 현재가 <b>₩{won(cur)}</b>와의 차이는 &lsquo;오류&rsquo;가 아니라 <b>시장이 반영한 성장 기대</b>예요.</p>}

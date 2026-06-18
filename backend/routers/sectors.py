@@ -48,6 +48,51 @@ def _valid_codes() -> set[str]:
         return set()   # DB 불가 시 필터 미적용(fail-open)
 
 
+_LIQ_CACHE = None
+_HALT_CACHE = None
+
+
+def _liquidity() -> dict:
+    """종목별 최근 거래대금(close×volume) — 인기/규모(시총 대용) 정렬용. 1회 캐시."""
+    global _LIQ_CACHE
+    if _LIQ_CACHE is None:
+        _LIQ_CACHE = {}
+        try:
+            from backend.db import connect
+            con = connect()
+            mx_row = con.execute("SELECT MAX(date) AS d FROM ohlcv").fetchone()
+            mx = mx_row["d"] if mx_row else None
+            if mx:
+                for r in con.execute(
+                    "SELECT stock_code, close, volume FROM ohlcv WHERE date = ?", (mx,)
+                ).fetchall():
+                    c, v = r["close"], r["volume"]
+                    if c and v:
+                        _LIQ_CACHE[r["stock_code"]] = c * v
+            con.close()
+        except Exception:
+            pass
+    return _LIQ_CACHE
+
+
+def _halted() -> set:
+    """거래 불가 종목(거래정지 HALT·상장폐지 DELISTED·관리종목 ADMIN) — 추천에서 제외용. 1회 캐시."""
+    global _HALT_CACHE
+    if _HALT_CACHE is None:
+        _HALT_CACHE = set()
+        try:
+            from backend.db import connect
+            con = connect()
+            for r in con.execute(
+                "SELECT stock_code FROM stock_status WHERE status IN ('HALT','DELISTED','ADMIN')"
+            ).fetchall():
+                _HALT_CACHE.add(r["stock_code"])
+            con.close()
+        except Exception:
+            pass
+    return _HALT_CACHE
+
+
 def _load() -> list[dict]:
     """ticker_universe.csv 로드 (SPAC·우선주·섹터없음 제외). 1회 캐시."""
     global _cache
@@ -82,7 +127,13 @@ def list_sectors():
     """WICS 섹터 목록 + 섹터별 종목 수 (종목 수 내림차순)."""
     rows = _load()
     counts = Counter(r["wics"] for r in rows)
-    sectors = [{"sector_name": k, "count": v} for k, v in counts.most_common()]
+    liq = _liquidity()
+    sector_liq: dict = {}
+    for r in rows:
+        sector_liq[r["wics"]] = sector_liq.get(r["wics"], 0) + liq.get(r["stock_code"], 0)
+    # 업종을 총 거래대금(시총 대용) 내림차순으로 정렬
+    order = sorted(counts.keys(), key=lambda s: sector_liq.get(s, 0), reverse=True)
+    sectors = [{"sector_name": k, "count": counts[k]} for k in order]
     return {
         "total_stocks" : len(rows),
         "total_sectors": len(sectors),
@@ -97,7 +148,8 @@ def list_stocks_in_sector(sector_name: str):
     subset = [r for r in rows if r["wics"] == sector_name]
     if not subset:
         raise HTTPException(status_code=404, detail=f"섹터 '{sector_name}' 없음")
-    subset.sort(key=lambda r: r["stock_code"])
+    liq = _liquidity()
+    subset.sort(key=lambda r: liq.get(r["stock_code"], 0), reverse=True)   # 거래대금(시총 대용) 높은 순
     return {
         "sector_name": sector_name,
         "count"      : len(subset),
@@ -135,6 +187,9 @@ def featured(n: int = 60, source: str = "val"):
     if not pool:                       # 밸류 풀 비었으면 폴백(전 종목)
         pool = [{"stock_code": r["stock_code"], "corp_name": r["corp_name"],
                  "market": r["market"], "tag": r["wics"]} for r in _load()]
-    k = min(n, len(pool))
-    sample = random.sample(pool, k) if pool else []
-    return {"count": k, "stocks": sample}
+    halted = _halted()
+    pool = [p for p in pool if p["stock_code"] not in halted]              # 거래정지·상폐·관리 제외
+    liq = _liquidity()
+    pool.sort(key=lambda p: liq.get(p["stock_code"], 0), reverse=True)     # 거래대금(인기) 높은 순
+    sample = pool[:min(n, len(pool))]
+    return {"count": len(sample), "stocks": sample}

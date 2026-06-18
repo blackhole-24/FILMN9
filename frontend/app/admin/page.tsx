@@ -224,6 +224,60 @@ function AwsCostCard() {
   );
 }
 
+// AI 챗봇(RAG) 운영 현황 — 상태·구성·인프라·비용 (실측, NO-MOCK)
+function ChatbotOpsCard() {
+  const [d, setD] = useState<any>(null);
+  useEffect(() => { fetchJSON('/api/admin/chatbot-status').then(setD).catch(() => setD({ error: true })); }, []);
+  if (!d) return <Card title="🤖 AI 챗봇 운영 (RAG)"><div className="text-sm text-slate-400 py-4">불러오는 중…</div></Card>;
+  if (d.error) return <Card title="🤖 AI 챗봇 운영 (RAG)"><div className="text-sm text-rose-500 py-4">상태 조회 실패 (/api/admin/chatbot-status)</div></Card>;
+  const SM: Record<string, { c: string; t: string }> = {
+    ready:   { c: 'bg-emerald-500', t: '🟢 가동 중 (준비 완료)' },
+    warming: { c: 'bg-amber-500',   t: '🟡 워밍업 중 (~6분)' },
+    off:     { c: 'bg-slate-400',   t: '⚫ 정지 (GPU 꺼짐)' },
+  };
+  const sm = SM[d.state] || SM.off;
+  const rows: [string, any][] = [
+    ['LLM 모델', d.config?.llm],
+    ['추론 깊이(reasoning)', d.config?.reasoning],
+    ['임베딩 모델', d.config?.embed_model],
+    ['재랭커', d.config?.reranker],
+    ['검색 방식', d.config?.retrieval],
+    ['청크 수', d.config?.chunks?.toLocaleString?.()],
+    ['인스턴스', d.infra?.instance],
+    ['저장소', d.infra?.storage],
+    ['워밍업', `~${Math.round((d.infra?.warmup_sec || 0) / 60)}분`],
+    ['운영 방식', d.infra?.ops_mode],
+    ['GPU 비용', `$${d.cost?.gpu_usd_per_hour}/시간`],
+    ['질의당 비용', `~${d.cost?.per_query_krw}원 (LLM만 유료)`],
+  ];
+  return (
+    <Card title="🤖 AI 챗봇 운영 (RAG)" sub={`${d.host} · 답변 평균 ${d.answer_speed_sec}초`}
+      info={'AI 챗봇(RAG) 서버의 실시간 상태·구성·인프라·비용입니다(실측, NO-MOCK).\nstate: ready(준비완료)/warming(워밍업)/off(GPU정지). 챗봇 위치는 env CHATBOT_HOST(로컬 127.0.0.1 / AWS GPU 프라이빗IP).\n출처: /api/admin/chatbot-status → backend/routers/admin.py'}>
+      <div className="flex items-center gap-3 mb-3 flex-wrap">
+        <span className={`text-[11px] font-bold px-2.5 py-1 rounded-full text-white ${sm.c}`}>{sm.t}</span>
+        {d.ms != null && <span className="text-xs text-slate-400 font-mono">{d.ms}ms</span>}
+        <span className="text-xs text-slate-500">{d.config?.coverage}</span>
+      </div>
+      <div className="grid sm:grid-cols-2 gap-x-6 text-xs">
+        {rows.map(([k, v]) => (
+          <div key={k} className="flex justify-between gap-2 border-b border-slate-100 py-1">
+            <span className="text-slate-500 flex-shrink-0">{k}</span>
+            <span className="font-mono text-slate-700 text-right truncate">{v ?? '—'}</span>
+          </div>
+        ))}
+      </div>
+      <div className="mt-3 flex flex-wrap gap-1.5">
+        {(d.features || []).map((f: string) => (
+          <span key={f} className="text-[11px] px-2 py-0.5 rounded-full bg-indigo-50 text-indigo-700 border border-indigo-100">{f}</span>
+        ))}
+      </div>
+      <div className="mt-2 text-[11px] text-amber-800 bg-amber-50 border border-amber-100 rounded-lg px-3 py-2">
+        ⚠️ 라이브 웹 검색은 제공하지 않습니다 — 답변은 ‘사업보고서 RAG + LLM 일반지식 보강 + 첨부파일 분석’ 기반입니다.
+      </div>
+    </Card>
+  );
+}
+
 function MonitorTab() {
   const [health, setHealth] = useState<any>(null);
   const [db, setDb] = useState<any>(null);
@@ -267,6 +321,7 @@ function MonitorTab() {
       <QADashboardCard />
       <DataMgmtCard />
       <AwsCostCard />
+      <ChatbotOpsCard />
 
       {/* 서버 생존 */}
       <Card title="🖥️ 서비스 생존 (Liveness)" sub="포트 연결 + 응답시간"

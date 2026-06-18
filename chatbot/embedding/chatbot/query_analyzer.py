@@ -72,6 +72,7 @@ def analyze(question: str,
         resp = chat_create(
             model=OPENAI_ANALYZER_MODEL,
             temperature=0.2,
+            reasoning_effort="minimal",   # 구조화 JSON 추출 — 깊은 추론 불필요(속도)
             response_format={"type": "json_object"},
             messages=[
                 {"role": "system", "content": system},

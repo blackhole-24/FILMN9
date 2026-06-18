@@ -905,6 +905,64 @@ def get_realtime(stock_code: str):
         raise HTTPException(503, f"실시간 데이터 조회 실패: {e}")
 
 
+@router.get("/watchlist-quote")
+def watchlist_quote(codes: str = Query("", description="쉼표구분 종목코드 (최대 20)")):
+    """관심종목 박스용 — 여러 종목의 현재가·시총·등락률·PER·PBR (실측, NO-MOCK).
+
+    가격·시총: yfinance fast_info(~15분 지연). 등락률: 현재가 vs 최신 일봉 종가.
+    PER=시총/순이익, PBR=시총/자본 (financials 최신연도, 백만원→원). 적자/결측은 null('—').
+    """
+    import yfinance as yf
+    from backend.db import connect
+
+    code_list = [c.strip() for c in (codes or "").split(",") if c.strip()][:20]
+    if not code_list:
+        return {"items": []}
+
+    fin: dict = {}   # code -> (net_income, equity, unit)
+    try:
+        con = connect()
+        for c in code_list:
+            r = con.execute(
+                "SELECT net_income, equity, unit FROM financials WHERE stock_code = ? "
+                "ORDER BY fiscal_year DESC LIMIT 1", (c,)).fetchone()
+            if r:
+                fin[c] = (r["net_income"], r["equity"], r["unit"])
+        con.close()
+    except Exception:
+        pass
+
+    items = []
+    for c in code_list:
+        it = {"stock_code": c, "price": None, "market_cap": None,
+              "change_pct": None, "per": None, "pbr": None}
+        try:
+            t = yf.Ticker(_yf_ticker(c))
+            fi = t.fast_info
+            price = fi.last_price
+            mc = fi.market_cap
+            prev = _ohlcv_last_close(c)
+            # 안전장치: yfinance 가격이 일봉 종가와 50%↑ 벗어나면(글리치) 종가 사용 + 시총 무효화
+            if prev and (not price or abs(price - prev) / prev > 0.5):
+                price = prev
+                mc = None
+            it["price"] = round(price) if price else None
+            it["market_cap"] = round(mc) if mc else None
+            if price and prev and price != prev:
+                it["change_pct"] = round((price - prev) / prev * 100, 2)
+            if mc and c in fin:
+                ni, eq, unit = fin[c]
+                mult = 1_000_000 if (unit and "백만" in str(unit)) else 1
+                if ni and ni > 0:
+                    it["per"] = round(mc / (ni * mult), 1)
+                if eq and eq > 0:
+                    it["pbr"] = round(mc / (eq * mult), 2)
+        except Exception:
+            pass
+        items.append(it)
+    return {"items": items}
+
+
 # ─── 최신 뉴스 (Google News RSS, 한국어) ────────────────────────────────────
 
 _CORP_NAME_MAP: dict[str, str] = {

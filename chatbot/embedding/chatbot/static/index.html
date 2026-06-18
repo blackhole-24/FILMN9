@@ -5,8 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>사업보고서 RAG 챗봇</title>
 <style>
-  :root { --bg:#0f1115; --panel:#171a21; --bubble-u:#2563eb; --bubble-a:#232733;
-          --text:#e7e9ee; --muted:#9aa3b2; --border:#2a2f3a; --accent:#38bdf8; }
+  :root { --bg:#F4F6FC; --panel:#FFFFFF; --bubble-u:#6366F1; --bubble-a:#FFFFFF;
+          --text:#1E2236; --muted:#6B7088; --border:#E6E8F2; --accent:#4F46E5; }
   * { box-sizing: border-box; }
   body { margin:0; font-family: "Segoe UI", system-ui, sans-serif; background:var(--bg);
          color:var(--text); height:100vh; display:flex; flex-direction:column; }
@@ -15,69 +15,70 @@
   header h1 { font-size:16px; margin:0; font-weight:600; }
   header .meta { font-size:12px; color:var(--muted); margin-left:auto; }
   #reset { margin-left:12px; padding:5px 12px; border-radius:8px; border:1px solid var(--border);
-           background:#1f2430; color:var(--text); font-size:12.5px; cursor:pointer; }
+           background:#EEF2FF; color:var(--text); font-size:13.5px; cursor:pointer; }
   #reset:hover { border-color:var(--accent); }
   #chat { flex:1; overflow-y:auto; padding:18px; display:flex; flex-direction:column; gap:14px; }
   .row { display:flex; }
   .row.user { justify-content:flex-end; }
   .bubble { max-width:760px; padding:11px 14px; border-radius:12px; line-height:1.55;
-            white-space:pre-wrap; word-break:break-word; font-size:14.5px; }
-  .user .bubble { background:var(--bubble-u); color:#fff; border-bottom-right-radius:3px; }
+            white-space:pre-wrap; word-break:break-word; font-size:16.5px; }
+  .user .bubble { background:var(--bubble-u); color:#fff; border-bottom-right-radius:3px; font-weight:600; }
   .assistant .bubble { background:var(--bubble-a); border:1px solid var(--border);
                        border-bottom-left-radius:3px; }
-  .sysnote { align-self:center; color:var(--muted); font-size:12.5px; }
-  .intro { align-self:center; max-width:760px; width:100%; background:var(--panel);
-           border:1px solid var(--border); border-radius:12px; padding:16px 20px; }
+  .sysnote { align-self:center; color:var(--muted); font-size:13.5px; }
+  .intro { align-self:center; max-width:760px; width:100%; background:#EEF2FF;
+           border:1px solid #C7D2FE; border-radius:12px; padding:16px 20px; }
   .intro-h { font-size:15px; font-weight:700; }
-  .intro-sub { color:var(--muted); font-size:13px; margin-top:4px; }
-  .intro-title { margin:14px 0 4px; font-weight:600; font-size:13px; color:var(--accent); }
-  .intro-title.warn { color:#fbbf24; }
+  .intro-sub { color:#3E3A78; font-size:14.5px; margin-top:4px; }
+  .intro-title { margin:14px 0 4px; font-weight:600; font-size:14.5px; color:var(--accent); }
+  .intro-title.warn { color:#b45309; }
   .intro ul { margin:4px 0 0; padding-left:18px; }
-  .intro li { font-size:13px; line-height:1.6; color:#cdd3dd; margin:3px 0; }
+  .intro li { font-size:14.5px; line-height:1.6; color:#3E3A78; margin:3px 0; }
   .intro b { color:var(--text); }
   .meta-line { font-size:12px; color:var(--muted); margin:6px 2px 0; display:flex;
                gap:10px; flex-wrap:wrap; align-items:center; }
   .meta-line a { color:var(--accent); text-decoration:none; }
   .meta-line a:hover { text-decoration:underline; }
   /* RAG 미검색 시 AI 일반지식 답변 경고배지 (DART 근거 아님 명시) */
-  .gk-badge { font-size:12.5px; line-height:1.5; color:#8a5a00; background:#fff6e0;
+  .gk-badge { font-size:13.5px; line-height:1.5; color:#8a5a00; background:#fff6e0;
     border:1px solid #f0c869; border-radius:8px; padding:8px 11px; margin:2px 2px 9px; }
   /* 첨부파일(이미지/PDF) UI + 첨부기반 답변 배지 */
   .attach-bar:not(:empty) { padding:6px 14px 0; }
-  .attach-chip { display:inline-flex; align-items:center; gap:8px; font-size:12.5px; color:#334;
+  .attach-chip { display:inline-flex; align-items:center; gap:8px; font-size:13.5px; color:#334;
     background:#eef2f7; border:1px solid var(--border); border-radius:14px; padding:4px 10px; }
   .attach-chip button { border:none; background:transparent; cursor:pointer; font-size:15px;
     color:var(--muted); padding:0; line-height:1; }
   #attach { background:var(--panel); border:1px solid var(--border); border-radius:8px;
     cursor:pointer; font-size:18px; padding:0 10px; }
   #attach:hover { background:#eef2f7; }
-  .attach-badge { font-size:12.5px; color:#1f5d3a; background:#e8f6ee; border:1px solid #a8dcc0;
+  .attach-badge { font-size:13.5px; color:#1f5d3a; background:#e8f6ee; border:1px solid #a8dcc0;
     border-radius:8px; padding:7px 10px; margin:2px 2px 8px; }
-  .src-title { font-size:12.5px; color:var(--muted); margin:10px 2px 4px; font-weight:600; }
-  .src { border:1px solid var(--border); border-radius:9px; padding:8px 10px; margin:6px 0;
-         background:#1b1f29; font-size:12.5px; }
+  .src-title { font-size:13.5px; color:var(--muted); margin:10px 2px 4px; font-weight:600; }
+  .src { border:1px solid #E0E4F3; border-radius:9px; padding:8px 10px; margin:6px 0;
+         background:#F7F8FD; font-size:13.5px; }
   .src .head { display:flex; gap:8px; align-items:center; margin-bottom:3px; }
   .badge { font-size:11px; padding:1px 7px; border-radius:10px; font-weight:600; }
-  .badge.table { background:#3b2f12; color:#fbbf24; }
-  .badge.text  { background:#13314a; color:#7dd3fc; }
-  .badge.report { background:#1f3b2a; color:#86efac; }
+  .badge.table { background:#E0F2FE; color:#0369A1; }
+  .badge.text  { background:#EEF2FF; color:#4F46E5; }
+  .badge.report { background:#DCFCE7; color:#15803D; }
   .src .ttl { font-weight:600; color:var(--text); }
   .src .sec { color:var(--muted); margin-top:2px; }
-  .src .snip { color:#aeb6c2; margin-top:4px; line-height:1.4;
+  .src .snip { color:var(--muted); margin-top:4px; line-height:1.4;
                overflow:hidden; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; }
   .src a.dart { color:var(--accent); text-decoration:none; font-size:11.5px; margin-left:auto; }
   .src a.dart:hover { text-decoration:underline; }
   .cands { display:flex; flex-wrap:wrap; gap:6px; margin-top:8px; }
-  .cand { background:#1f2430; border:1px solid var(--border); color:var(--text);
-          border-radius:14px; padding:4px 10px; font-size:12.5px; cursor:pointer; }
+  .cand { background:#EEF2FF; border:1px solid var(--border); color:var(--text);
+          border-radius:14px; padding:4px 10px; font-size:13.5px; cursor:pointer; }
   .cand:hover { border-color:var(--accent); }
   footer { padding:12px 16px; border-top:1px solid var(--border); background:var(--panel);
            display:flex; gap:10px; }
   #q { flex:1; resize:none; height:44px; max-height:140px; padding:11px 12px; border-radius:10px;
-       border:1px solid var(--border); background:#0c0e13; color:var(--text); font-size:14.5px;
+       border:1px solid var(--border); background:#F4F6FC; color:var(--text); font-size:16.5px;
        font-family:inherit; }
   #send { padding:0 20px; border:none; border-radius:10px; background:var(--bubble-u);
-          color:#fff; font-size:14.5px; font-weight:600; cursor:pointer; }
+          color:#fff; font-size:16.5px; font-weight:600; cursor:pointer; }
+  #send:hover:not(:disabled) { background:#4F46E5; }
   #send:disabled { opacity:.5; cursor:default; }
   .cursor::after { content:"▋"; animation:blink 1s steps(1) infinite; color:var(--accent); }
   @keyframes blink { 50% { opacity:0; } }
@@ -89,8 +90,8 @@
   .answer-body .li .mk { color:var(--accent); flex-shrink:0; }
   .answer-body .li > span:last-child { flex:1; }
   /* 단계 진행띠 + 슬롯 (A1/A2: 진행감 + 출처 미리보기) */
-  .stage-banner { font-size:12px; color:var(--accent); background:#0e1d2b;
-                  border:1px solid #1d3a55; border-radius:8px; padding:5px 10px;
+  .stage-banner { font-size:13.5px; color:#4338CA; background:#EEF2FF;
+                  border:1px solid #C7D2FE; border-radius:8px; padding:5px 10px;
                   margin:0 0 8px; display:inline-flex; align-items:center; gap:7px;
                   max-width:fit-content; }
   .stage-banner::before { content:""; width:6px; height:6px; border-radius:50%;
@@ -101,7 +102,7 @@
                               border-bottom:1px dashed var(--border); }
   .src .src-link { color:var(--accent); text-decoration:none; font-size:12px; margin-left:auto; }
   .src .src-link:hover { text-decoration:underline; }
-  .src .snippet { color:#aeb6c2; margin-top:4px; line-height:1.4;
+  .src .snippet { color:var(--muted); margin-top:4px; line-height:1.4;
                   overflow:hidden; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; }
 </style>
 </head>

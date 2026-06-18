@@ -145,6 +145,12 @@ def _build_messages(question: str, context: str,
     return msgs
 
 
+# 추론 깊이(reasoning_effort) — 데모 속도용 env 조절. 기본 'low'(high는 정확하나 느림 20~40s).
+# CHATBOT_REASONING_EFFORT=minimal|low|medium|high
+import os as _os
+_REASONING = _os.getenv("CHATBOT_REASONING_EFFORT", "low")
+
+
 def generate_answer(question: str, context: str,
                     history: Optional[list[dict]] = None,
                     model: str = OPENAI_MODEL,
@@ -159,7 +165,7 @@ def generate_answer(question: str, context: str,
     """
     msgs = _build_messages(question, context, history, company, coverage)
     content = ""
-    for effort in ("high", "high", "medium"):
+    for effort in (_REASONING, _REASONING, "medium"):
         resp = chat_create(
             model=model,
             temperature=OPENAI_TEMPERATURE,
@@ -186,7 +192,7 @@ def stream_answer(question: str, context: str,
     stream = chat_create(
         model=model,
         temperature=OPENAI_TEMPERATURE,
-        reasoning_effort="high",
+        reasoning_effort=_REASONING,
         max_completion_tokens=MAX_COMPLETION_TOKENS,
         messages=_build_messages(question, context, history, company, coverage),
         stream=True,

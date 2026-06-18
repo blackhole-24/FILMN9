@@ -4,6 +4,7 @@ import * as React from "react";
 import { ValuationData } from "@/lib/valuation";
 import { SimpleValuation } from "./SimpleValuation";
 import { ExpertView } from "./ExpertView";
+import { ValuationTutorial } from "./ValuationTutorial";
 
 /** 미평가 종목 안내 (NO-MOCK — 가짜 숫자 미표시). */
 function NotEvaluated({ code }: { code?: string }) {
@@ -47,7 +48,7 @@ function Unsupported({ d }: { d: ValuationData }) {
  * '전문가용 자세히'를 누르면 ExpertView(한 걸음 더, 고등~대학 수준)가 펼쳐진다.
  *  - 현재가와 괴리 큰 가격(DCF 적정주가·EPV·시나리오)은 숫자로 내세우지 않고 설명·방향으로 제공.
  */
-export function ValuationTab({ data }: { data: ValuationData | null }) {
+export function ValuationTab({ data, realtimePrice, tutOpen, onTutChange }: { data: ValuationData | null; realtimePrice?: number | null; tutOpen?: boolean; onTutChange?: (v: boolean) => void }) {
   const [expert, setExpert] = React.useState(false);
 
   if (!data) {
@@ -63,7 +64,7 @@ export function ValuationTab({ data }: { data: ValuationData | null }) {
   return (
     <div className="text-slate-800">
       {/* ── 일반 투자자용 단순 화면 (기본) ── */}
-      <SimpleValuation d={data} expert={expert} onToggle={() => setExpert((v) => !v)} />
+      <SimpleValuation d={data} realtimePrice={realtimePrice} expert={expert} onToggle={() => setExpert((v) => !v)} />
 
       {/* ── 전문가용 상세 (접기/펼치기) ── */}
       {expert && (
@@ -72,6 +73,9 @@ export function ValuationTab({ data }: { data: ValuationData | null }) {
           <ExpertView d={data} />
         </div>
       )}
+
+      {/* ── 튜토리얼 패널 (우측 슬라이드) — 버튼은 상단 탭바(page.tsx)에 위치 ── */}
+      <ValuationTutorial data={data} realtimePrice={realtimePrice} open={!!tutOpen} onClose={() => onTutChange?.(false)} />
     </div>
   );
 }
