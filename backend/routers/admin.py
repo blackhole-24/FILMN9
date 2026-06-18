@@ -91,6 +91,57 @@ def admin_health():
     }
 
 
+@router.get("/admin/chatbot-status")
+def admin_chatbot_status():
+    """AI 챗봇(RAG) 운영 현황 — 상태·구성·인프라·비용(실측, NO-MOCK).
+
+    챗봇 서버 위치는 env CHATBOT_HOST/PORT 로 지정(로컬=127.0.0.1, AWS=GPU 프라이빗IP).
+    state: ready(워밍업완료·200) / warming(포트열림·미응답) / off(포트닫힘=GPU정지).
+    """
+    import urllib.request
+
+    host = os.getenv("CHATBOT_HOST", "127.0.0.1")
+    port = int(os.getenv("CHATBOT_PORT", "8800"))
+    up, ms = _port_up(host, port, timeout=1.2)
+    ready = False
+    if up:
+        try:
+            with urllib.request.urlopen(f"http://{host}:{port}/", timeout=2.5) as r:
+                ready = (getattr(r, "status", 200) == 200)
+        except Exception:
+            ready = False
+    state = "ready" if ready else ("warming" if up else "off")
+
+    return {
+        "state": state, "up": up, "ready": ready, "ms": ms,
+        "host": f"{host}:{port}",
+        "config": {
+            "llm": os.getenv("CHATBOT_OPENAI_MODEL", "gpt-5-mini"),
+            "reasoning": os.getenv("CHATBOT_REASONING_EFFORT", "low"),
+            "embed_model": "BAAI/bge-m3 (1024차원)",
+            "reranker": "BAAI/bge-reranker-v2-m3 (cross-encoder)",
+            "retrieval": "하이브리드(BM25 + 벡터) + 재랭킹",
+            "chunks": 3774758,                               # 실측 2026-06-18
+            "coverage": "2025 사업보고서 + 2026 1분기보고서",
+        },
+        "infra": {
+            "instance": "g4dn.2xlarge (vCPU 8 · RAM 32GB · GPU NVIDIA T4)",
+            "warmup_sec": 360,                               # EBS 인덱스 적재 ~6분
+            "storage": "EBS 영구 (인덱스 ~15GB)",
+            "ops_mode": "데모 시에만 가동(PoC) · 평소 정지",
+        },
+        "cost": {
+            "gpu_usd_per_hour": 0.94,
+            "per_query_krw": 5,                              # gpt-5-mini 질의당 ~5원
+            "note": "임베딩·리랭킹=로컬 GPU(무료), LLM만 유료",
+        },
+        "answer_speed_sec": 13,                              # 실측 평균(첫글자 ~8.8초·스트리밍)
+        "features": ["사업보고서 RAG", "LLM 답변 생성", "첨부파일(PDF·이미지) 분석",
+                     "지식 폴백(RAG 미검색 시 LLM 일반지식 + '검증 안 됨' 표시)"],
+        "web_search": False,                                 # 라이브 웹검색 없음(정직)
+    }
+
+
 @router.get("/admin/db-stats")
 def admin_db_stats():
     """SQLite 테이블별 행수 + 빈 테이블."""

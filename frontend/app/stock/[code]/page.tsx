@@ -148,7 +148,7 @@ function AffiliateToggle({ code }: { code: string }) {
       <button onClick={() => setOpen(o => !o)}
         className="w-full px-5 py-3.5 flex items-center justify-between hover:bg-slate-50 dark:hover:bg-slate-700/40 transition-colors text-left">
         <span className="flex items-center gap-2">
-          <span className="text-sm font-bold text-slate-700 dark:text-slate-200">🏢 계열회사 구조</span>
+          <span className="text-sm font-bold text-slate-700 dark:text-slate-200">🏢 계열사 관계도</span>
           {loaded && (available
             ? <span className="text-[11px] px-2 py-0.5 rounded-full bg-emerald-50 dark:bg-emerald-900/30 text-emerald-600 dark:text-emerald-400 font-medium">
                 {meta.source_type === 'original_dart_image' ? 'DART 원본' : '구조도'}
@@ -164,7 +164,7 @@ function AffiliateToggle({ code }: { code: string }) {
           {available ? (
             <div className="pt-4">
               <div className="rounded-lg bg-white border border-slate-100 overflow-auto max-h-[70vh]">
-                <img src={`${API}${meta.file_url}`} alt={`${code} 계열회사 구조`}
+                <img src={`${API}${meta.file_url}`} alt={`${code} 계열사 관계도`}
                   className="w-full h-auto block" loading="lazy" />
               </div>
               <div className="text-[11px] text-slate-400 mt-1.5 text-right">↕ 스크롤하여 전체 구조 보기</div>
@@ -189,29 +189,30 @@ function AIChatbotTab() {
   const [status, setStatus] = useState<'checking' | 'up' | 'down'>('checking');
   useEffect(() => {
     let alive = true;
-    fetch(`${CHAT_API}/health`)
+    // 챗봇은 /health 엔드포인트가 없어 루트(/)로 가용성 확인 (200이면 up)
+    fetch(`${CHAT_API}/`)
       .then(r => { if (alive) setStatus(r.ok ? 'up' : 'down'); })
       .catch(() => { if (alive) setStatus('down'); });
     return () => { alive = false; };
   }, []);
 
-  // 탭 바(상단 100px = 헤더56 + 탭44) 아래를 꽉 채움
-  const H = 'calc(100vh - 100px)';
+  // 탭 바(상단 112px = 헤더68 + 탭44) 아래를 꽉 채움
+  const H = 'calc(100vh - 112px)';
   if (status === 'checking') {
-    return <div style={{ height: H }} className="flex items-center justify-center bg-[#0f1115] text-slate-400 text-sm">AI 챗봇 연결 확인 중…</div>;
+    return <div style={{ height: H }} className="flex items-center justify-center bg-[#F4F6FC] text-slate-500 text-sm">AI 챗봇 연결 확인 중…</div>;
   }
   if (status === 'down') {
     return (
-      <div style={{ height: H }} className="flex flex-col items-center justify-center bg-[#0f1115] text-center px-4">
+      <div style={{ height: H }} className="flex flex-col items-center justify-center bg-[#F4F6FC] text-center px-4">
         <div className="text-4xl mb-3">💬</div>
-        <div className="text-base font-bold text-slate-100 mb-2">AI 챗봇 서버가 꺼져 있습니다</div>
-        <div className="text-sm text-slate-400 mb-5">DART 사업보고서 RAG 챗봇(포트 8800)을 켜면 여기에서 바로 대화할 수 있어요.</div>
-        <div className="text-xs text-slate-300 bg-[#171a21] border border-[#2a2f3a] rounded-lg p-4 inline-block text-left font-mono leading-relaxed">
+        <div className="text-base font-bold text-slate-700 mb-2">AI 챗봇 서버가 꺼져 있습니다</div>
+        <div className="text-sm text-slate-500 mb-5">DART 사업보고서 RAG 챗봇(포트 8800)을 켜면 여기에서 바로 대화할 수 있어요.</div>
+        <div className="text-xs text-slate-700 bg-[#EEF2FF] border border-[#C7D2FE] rounded-lg p-4 inline-block text-left font-mono leading-relaxed">
           cd C:\Users\Admin\FILMN9\chatbot<br/>
           conda activate FILMN9_chatbot_env<br/>
           python -m uvicorn embedding.chatbot.api:app --port 8800
         </div>
-        <div className="text-[11px] text-slate-500 mt-4">※ 서버를 켠 뒤 이 탭을 다시 누르면 챗봇 화면이 나타납니다.</div>
+        <div className="text-[11px] text-slate-400 mt-4">※ 서버를 켠 뒤 이 탭을 다시 누르면 챗봇 화면이 나타납니다.</div>
       </div>
     );
   }
@@ -220,7 +221,7 @@ function AIChatbotTab() {
       src={CHAT_API}
       title="DART 사업보고서 RAG 챗봇"
       className="w-full block border-0"
-      style={{ height: H, background: '#0f1115' }}
+      style={{ height: H, background: '#F4F6FC' }}
     />
   );
 }
@@ -231,6 +232,7 @@ export default function StockPage() {
 
   // ─── 상태 ─────────────────────────────────────────────────────
   const [mainTab,  setMainTab]  = useState<MainTab>('overview');
+  const [valTut,   setValTut]   = useState(false);   // 밸류에이션 튜토리얼 패널 (버튼은 탭바)
   const [finTab,   setFinTab]   = useState<FinTab>('SANKEY');
   const [period,   setPeriod]   = useState('3M');
   const [dark,     setDark]     = useState(false);
@@ -446,6 +448,7 @@ export default function StockPage() {
   const [miniResults,  setMiniResults]  = useState<any[]>([]);
   const [miniOpen,     setMiniOpen]     = useState(false);
   const [recent,       setRecent]       = useState<{stock_code:string;corp_name:string}[]>([]);
+  const [watch,        setWatch]        = useState<{code:string;name:string;market:string}[]>([]);  // 관심종목(메인과 동일 finsight_watchlist 키)
   const [chatInput,    setChatInput]    = useState('');
   const [chatMessages, setChatMessages] = useState<{text:string;isUser:boolean}[]>([
     { text:'안녕하세요! DART 사업보고서를 실시간 검색(RAG)해 답변드립니다.\n아래 추천 질문을 클릭하거나 직접 질문해주세요. (답변에 10~30초 소요)', isUser:false }
@@ -633,6 +636,22 @@ export default function StockPage() {
   useEffect(() => {
     try { setRecent(JSON.parse(localStorage.getItem('filmn9_recent') || '[]')); } catch {}
   }, []);
+
+  // 관심종목 로드/토글 (메인 페이지와 동일 키 'finsight_watchlist' 공유)
+  useEffect(() => {
+    try { const s = localStorage.getItem('finsight_watchlist'); if (s) setWatch(JSON.parse(s)); } catch {}
+  }, []);
+  const inWatch = watch.some(w => w.code === code);
+  const toggleWatch = () => {
+    setWatch(prev => {
+      const exists = prev.some(w => w.code === code);
+      const next = exists
+        ? prev.filter(w => w.code !== code)
+        : [...prev, { code, name: corpName, market: company.market || '' }];
+      try { localStorage.setItem('finsight_watchlist', JSON.stringify(next)); } catch {}
+      return next;
+    });
+  };
 
   // 현재 종목을 최근 검색에 저장 (기업명 확보 시)
   useEffect(() => {
@@ -1050,7 +1069,7 @@ export default function StockPage() {
       })}
 
       {/* ── 헤더 ── */}
-      <header className="sticky top-0 z-50 bg-white dark:bg-slate-800 border-b border-slate-200 dark:border-slate-700 h-14 shadow-sm">
+      <header className="sticky top-0 z-50 bg-white dark:bg-slate-800 border-b border-slate-200 dark:border-slate-700 h-[68px] shadow-sm">
         <div className="max-w-7xl mx-auto h-full flex items-center gap-3 px-4">
 
           {/* 로고 */}
@@ -1096,8 +1115,13 @@ export default function StockPage() {
 
           {/* 종목 정보 + 실시간 주가 */}
           <div className="flex items-center gap-2 flex-1 min-w-0">
-            <span className="font-mono text-xs text-slate-400 hidden sm:inline">{code}</span>
-            <span className="font-bold text-slate-800 dark:text-white text-sm truncate">{corpName}</span>
+            <span className="font-mono text-sm text-slate-400 hidden sm:inline flex-shrink-0">{code}</span>
+            <span className="font-bold text-slate-800 dark:text-white text-xl whitespace-nowrap flex-shrink-0">{corpName}</span>
+            {/* 관심종목 별표 토글 (기업명↔현재가 사이) — 메인과 동일 저장소 공유 */}
+            <button onClick={toggleWatch} title={inWatch ? '관심종목 해제' : '관심종목 추가'} aria-label="관심종목 토글"
+              className={`flex-shrink-0 grid place-items-center w-8 h-8 rounded-md transition-colors ${inWatch ? 'text-amber-400 hover:text-amber-300' : 'text-slate-300 hover:text-amber-400 dark:text-slate-500'}`}>
+              <span className="text-2xl leading-none">{inWatch ? '★' : '☆'}</span>
+            </button>
             {company.market && (
               <span className="text-xs px-2 py-0.5 rounded-full font-medium text-white bg-blue-600 flex-shrink-0">{company.market}</span>
             )}
@@ -1107,17 +1131,17 @@ export default function StockPage() {
               </span>
             )}
             {(realtime?.price || hdr.current_price) && (
-              <div className="hidden md:flex items-center gap-1.5 ml-2 flex-wrap">
-                <span className="font-mono text-sm font-extrabold text-slate-800 dark:text-white">
+              <div className="hidden md:flex items-center gap-1.5 ml-auto min-w-0 justify-end">
+                <span className="font-mono text-xl font-extrabold text-slate-800 dark:text-white flex-shrink-0">
                   {fmtPrice(realtime?.price || hdr.current_price)}
                 </span>
                 {hdr.change != null && (
-                  <span className={`text-xs font-semibold ${hdr.change>=0?'text-red-500':'text-blue-500'}`}>
+                  <span className={`text-sm font-semibold flex-shrink-0 ${hdr.change>=0?'text-red-500':'text-blue-500'}`}>
                     {hdr.change>=0?'+':''}{hdr.change?.toLocaleString()} ({hdr.change>=0?'+':''}{hdr.change_pct?.toFixed(1)}%)
                   </span>
                 )}
-                {/* 출처·기준시점 */}
-                <span className="text-xs text-slate-400 font-normal">
+                {/* 출처·기준시점 (긴 문구 — lg 이상에서만, 넘치면 잘라서 다크모드 버튼과 안 겹치게) */}
+                <span className="text-xs text-slate-400 font-normal hidden lg:inline truncate min-w-0">
                   {realtime?.price_time
                     ? `(Yahoo Finance ${realtime.price_time} KST, ~15분 지연${realtime.is_market_open ? ' · 장중' : ' · 장마감'})`
                     : '(KRX 전일 종가)'}
@@ -1126,9 +1150,9 @@ export default function StockPage() {
             )}
           </div>
 
-          {/* 다크모드 토글 */}
+          {/* 다크모드 토글 — 항상 헤더 맨 오른쪽 고정 */}
           <button onClick={toggleDark}
-            className="w-8 h-8 rounded-full bg-slate-100 hover:bg-slate-200 dark:bg-slate-700 dark:hover:bg-slate-600 flex items-center justify-center transition-colors flex-shrink-0"
+            className="ml-2 w-8 h-8 rounded-full bg-slate-100 hover:bg-slate-200 dark:bg-slate-700 dark:hover:bg-slate-600 flex items-center justify-center transition-colors flex-shrink-0"
             title="다크모드 토글">
             <span className="text-sm">{dark ? '☀️' : '🌙'}</span>
           </button>
@@ -1136,8 +1160,8 @@ export default function StockPage() {
       </header>
 
       {/* ── 탭 바 (헤더 바로 아래, sticky) ── */}
-      <div className="sticky top-14 z-40 bg-white dark:bg-slate-800 border-b border-slate-200 dark:border-slate-700 shadow-sm">
-        <div className="max-w-7xl mx-auto px-4 flex h-11">
+      <div className="sticky top-[68px] z-40 bg-white dark:bg-slate-800 border-b border-slate-200 dark:border-slate-700 shadow-sm">
+        <div className="max-w-7xl mx-auto px-4 flex h-11 items-stretch">
           {(['overview','valuation','ai'] as MainTab[]).map(t => {
             const label = {overview:'기업개요', valuation:'밸류에이션', ai:'AI 챗봇'}[t];
             return (
@@ -1149,6 +1173,15 @@ export default function StockPage() {
               </button>
             );
           })}
+          {/* 밸류에이션 튜토리얼 버튼 — 탭과 같은 높이, 우측 고정 (밸류 탭에서만 노출) */}
+          {mainTab === 'valuation' && (
+            <button onClick={() => setValTut(true)}
+              className="ml-auto my-1.5 inline-flex items-center gap-1.5 rounded-full border px-3.5 text-[13px] font-bold shadow-sm transition-colors hover:brightness-95 dark:border-slate-600"
+              style={{ borderColor: '#bfdbfe', background: '#eff6ff', color: '#1d4ed8' }}
+              title="이 탭의 모든 값 — 계산식·출처·해석을 풀어주는 튜토리얼">
+              📚 밸류에이션 튜토리얼
+            </button>
+          )}
         </div>
       </div>
 
@@ -1157,7 +1190,7 @@ export default function StockPage() {
 
       {/* ═══ TAB1: 기업개요 ═══ */}
       {!loadingMain && mainTab === 'overview' && (
-        <div className="max-w-7xl mx-auto px-4 py-6 space-y-5">
+        <div className="fs-boost max-w-7xl mx-auto px-4 py-6 space-y-5">
 
           {/* Hero 배너 */}
           <div className="rounded-2xl p-6 text-white" style={{background:'linear-gradient(135deg,#0A1628,#1E3A8A)'}}>
@@ -1375,25 +1408,12 @@ export default function StockPage() {
               );
             })()}
 
-            {/* 계열회사 구조 — 접이식 토글 (히스토리·최신뉴스 다음, 주가차트 앞) */}
+            {/* 계열사 관계도 — 접이식 토글 (히스토리·최신뉴스 다음) */}
             <AffiliateToggle code={code} />
 
-            {/* 주가 차트 - full width */}
-            <div className="bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-xl overflow-hidden">
-              <div className="px-5 pt-4 pb-2 flex items-center justify-between border-b border-slate-100">
-                <span className="text-sm font-bold text-slate-700">📈 주가 차트</span>
-                <div className="text-xs text-slate-400">MA · 볼린저밴드 · 거래량</div>
-              </div>
-              <div className="p-3">
-                {listStatus && !listStatus.tradable
-                  ? <ListingStatusBanner s={listStatus} />
-                  : <FullChart data={ohlcv} />}
-              </div>
-            </div>
-
-            {/* ── 재무 하이라이트 (주가차트 바로 아래, full width) ── */}
-            <div className="bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-xl p-5">
-              <div className="text-sm font-bold text-slate-700 dark:text-slate-200 mb-3">💰 재무 하이라이트 <span className="text-xs font-normal text-slate-400">(연결 기준)</span></div>
+            {/* ── 재무 하이라이트 (계열사 관계도와 주가차트 사이, full width) ── */}
+            <div className="bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-xl p-6">
+              <div className="text-sm font-bold text-slate-700 dark:text-slate-200 mb-4">💰 재무 하이라이트 <span className="text-xs font-normal text-slate-400">(연결 기준)</span></div>
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
                 {[
                   {label:'매출액',    key:'revenue',    icon:'💰'},
@@ -1403,10 +1423,10 @@ export default function StockPage() {
                   const v = latest[key], pv = prev[key];
                   const yoy = (finSameType && pv) ? (v-pv)/Math.abs(pv)*100 : null;
                   return (
-                    <div key={key} className="flex items-center justify-between p-3 bg-slate-50 dark:bg-slate-700 rounded-xl">
+                    <div key={key} className="flex items-center justify-between px-4 py-6 bg-slate-50 dark:bg-slate-700 rounded-xl">
                       <div>
                         <div className="text-xs text-slate-400">{icon} {label} ({finLabel})</div>
-                        <div className="text-lg font-extrabold text-slate-800 dark:text-white font-mono mt-0.5">{fmtAmt(v)}원</div>
+                        <div className="text-lg font-extrabold text-slate-800 dark:text-white font-mono mt-1">{fmtAmt(v)}원</div>
                       </div>
                       <div className="flex flex-col items-end gap-0.5 shrink-0"
                         title={yoy!=null ? `전년 동기(${prev.fiscal_year} ${_RC[prev.reprt_code]||'연간'}) 대비 증감률` : '전년 동기 데이터 없음'}>
@@ -1419,6 +1439,19 @@ export default function StockPage() {
                     </div>
                   );
                 })}
+              </div>
+            </div>
+
+            {/* 주가 차트 - full width */}
+            <div className="bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-xl overflow-hidden">
+              <div className="px-5 pt-4 pb-2 flex items-center justify-between border-b border-slate-100">
+                <span className="text-sm font-bold text-slate-700">📈 주가 차트</span>
+                <div className="text-xs text-slate-400">MA · 볼린저밴드 · 거래량</div>
+              </div>
+              <div className="p-3">
+                {listStatus && !listStatus.tradable
+                  ? <ListingStatusBanner s={listStatus} />
+                  : <FullChart data={ohlcv} />}
               </div>
             </div>
 
@@ -1877,14 +1910,14 @@ export default function StockPage() {
 
       {/* ═══ TAB2: 밸류에이션 (EPV/통합평가 — ui_preview 설계, valuation-full) ═══ */}
       {!loadingMain && mainTab === 'valuation' && (
-        <div className="max-w-5xl mx-auto px-4 py-6">
-          <ValuationTab data={valData} />
+        <div className="max-w-7xl mx-auto px-4 py-6">
+          <ValuationTab data={valData} realtimePrice={realtime?.price ?? hdr?.current_price} tutOpen={valTut} onTutChange={setValTut} />
         </div>
       )}
 
       {/* ═══ TAB3: AI 챗봇 (탭 아래 전체 검은 배경 · 챗봇 화면 풀블리드) ═══ */}
       {!loadingMain && mainTab === 'ai' && (
-        <div className="bg-[#0f1115]">
+        <div className="fs-boost bg-[#F4F6FC]">
           <AIChatbotTab />
         </div>
       )}

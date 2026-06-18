@@ -150,3 +150,11 @@
   background: linear-gradient(90deg, #1e293b 25%, #334155 50%, #1e293b 75%);
   background-size: 200% 100%;
 }
+
+/* ── 폰트 확대 부스트 (.fs-boost 컨테이너 내부만) — 기업개요 등 탭 전반 가독성 ──
+   언레이어드 규칙이라 Tailwind 레이어 유틸리티를 항상 덮어씀(탭 안에서만 적용). */
+.fs-boost .text-xs   { font-size: 13.5px; line-height: 1.35rem; }
+.fs-boost .text-sm   { font-size: 15.5px; line-height: 1.6rem; }
+.fs-boost .text-base { font-size: 17.5px; line-height: 1.75rem; }
+.fs-boost .text-lg   { font-size: 20px; }
+.fs-boost .text-xl   { font-size: 22px; }
