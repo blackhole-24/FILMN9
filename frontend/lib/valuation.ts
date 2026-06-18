@@ -35,6 +35,9 @@ export interface ValSummary {
   wacc?: number | null;
   ke?: number | null;
   rf?: number | null;
+  implied_roic?: number | null;      // ROIC (정상화 NOPAT ÷ 투하자본)
+  eva_spread?: number | null;        // ROIC − WACC (양수=가치 창출)
+  invested_capital?: number | null;  // 투하자본
   WACC_low?: number | null;
   WACC_high?: number | null;
   dcf_grade?: string;
