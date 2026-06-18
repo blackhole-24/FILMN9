@@ -6,7 +6,7 @@ import { ValAdminTab, ValTestTab } from './valuation-console';
 
 const API = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000';
 
-type MainTab = 'monitor' | 'val-admin' | 'verify' | 'val-test';   // 4탭: 기업개요운영·밸류운영·기업개요검증·밸류테스트
+type MainTab = 'monitor' | 'val-admin' | 'verify' | 'val-test';   // 4탭: 기업분석운영·밸류운영·기업분석검증·밸류테스트
 
 const adminToken = () => (typeof window !== 'undefined' ? sessionStorage.getItem('adminToken') || '' : '');
 
@@ -712,11 +712,11 @@ export default function AdminPage() {
           <Link href="/" className="text-xl font-extrabold text-indigo-600">FINSIGHT</Link>
           <span className="text-slate-300">|</span>
           <span className="text-sm font-bold text-slate-700 flex items-center">관리자<Info w="w-80" text="FINSIGHT 내부 운영 도구. 모든 값은 실시간으로 실제 DB·파일·포트를 조회한 실측값(NO-MOCK). 각 항목의 ⓘ에 계산식·출처가 있습니다." /></span>
-          <span className="ml-auto text-[11px] text-slate-400">기업개요·밸류 운영/검증 통합 콘솔 (4탭)</span>
+          <span className="ml-auto text-[11px] text-slate-400">기업분석·밸류 운영/검증 통합 콘솔 (4탭)</span>
         </div>
         <div className="max-w-6xl mx-auto px-4 flex gap-1 h-11 items-stretch overflow-x-auto">
-          <button onClick={() => setTab('monitor')} className={`px-4 text-sm whitespace-nowrap border-b-2 ${tab === 'monitor' ? 'border-indigo-600 text-indigo-600 font-bold' : 'border-transparent text-slate-500'}`}>🖥️ 기업개요 · 운영</button>
-          <button onClick={() => setTab('verify')} className={`px-4 text-sm whitespace-nowrap border-b-2 ${tab === 'verify' ? 'border-emerald-600 text-emerald-600 font-bold' : 'border-transparent text-slate-500'}`}>✅ 기업개요 · 검증</button>
+          <button onClick={() => setTab('monitor')} className={`px-4 text-sm whitespace-nowrap border-b-2 ${tab === 'monitor' ? 'border-indigo-600 text-indigo-600 font-bold' : 'border-transparent text-slate-500'}`}>🖥️ 기업분석 · 운영</button>
+          <button onClick={() => setTab('verify')} className={`px-4 text-sm whitespace-nowrap border-b-2 ${tab === 'verify' ? 'border-emerald-600 text-emerald-600 font-bold' : 'border-transparent text-slate-500'}`}>✅ 기업분석 · 검증</button>
           <button onClick={() => setTab('val-admin')} className={`px-4 text-sm whitespace-nowrap border-b-2 ${tab === 'val-admin' ? 'border-amber-500 text-amber-600 font-bold' : 'border-transparent text-slate-500'}`}>💰 밸류에이션 · 운영</button>
           <button onClick={() => setTab('val-test')} className={`px-4 text-sm whitespace-nowrap border-b-2 ${tab === 'val-test' ? 'border-amber-500 text-amber-600 font-bold' : 'border-transparent text-slate-500'}`}>🧪 밸류에이션 · 테스트</button>
         </div>

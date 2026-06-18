@@ -127,7 +127,7 @@ function ListingStatusBanner({ s, compact = false }: { s: any; compact?: boolean
   );
 }
 
-// 계열회사 시각화 — 접이식 토글 (기업개요 탭: 최신뉴스 다음 · 주가차트 앞)
+// 계열회사 시각화 — 접이식 토글 (기업분석 탭: 최신뉴스 다음 · 주가차트 앞)
 function AffiliateToggle({ code }: { code: string }) {
   const [open, setOpen]     = useState(false);
   const [meta, setMeta]     = useState<any>(null);
@@ -1163,7 +1163,7 @@ export default function StockPage() {
       <div className="sticky top-[68px] z-40 bg-white dark:bg-slate-800 border-b border-slate-200 dark:border-slate-700 shadow-sm">
         <div className="max-w-7xl mx-auto px-4 flex h-11 items-stretch">
           {(['overview','valuation','ai'] as MainTab[]).map(t => {
-            const label = {overview:'기업개요', valuation:'밸류에이션', ai:'AI 챗봇'}[t];
+            const label = {overview:'기업분석', valuation:'밸류에이션', ai:'AI 챗봇'}[t];
             return (
               <button key={t} onClick={() => setMainTab(t)}
                 className={`px-5 text-sm h-full border-b-2 transition-colors whitespace-nowrap ${mainTab===t
@@ -1188,7 +1188,7 @@ export default function StockPage() {
       {/* ═══ 로딩 중 ═══ */}
       {loadingMain && <LoadingSkeleton />}
 
-      {/* ═══ TAB1: 기업개요 ═══ */}
+      {/* ═══ TAB1: 기업분석 ═══ */}
       {!loadingMain && mainTab === 'overview' && (
         <div className="fs-boost max-w-7xl mx-auto px-4 py-6 space-y-5">
 

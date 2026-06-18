@@ -824,7 +824,7 @@ def admin_meta():
 
 # ───────────────────────── 기능 모듈 운영 현황 (2026-06-14 고도화) ─────────────────────────
 # 각 기능 모듈이 어느 원천(DB/파일)에서 → 어떻게 화면까지 오는지 + 실시간 상태(데이터 보유수).
-# ID = 데이터 원천 지도 번호. UI는 서비스(메인/기업개요/밸류) 그룹 순서로 배치.
+# ID = 데이터 원천 지도 번호. UI는 서비스(메인/기업분석/밸류) 그룹 순서로 배치.
 def _cnt(sql: str) -> int:
     try:
         con = _conn(); cur = con.cursor()
@@ -865,24 +865,24 @@ def admin_modules():
                      "GET /api/sectors", "사전 적재", st(_cnt("SELECT COUNT(*) FROM company_info")), _cnt("SELECT COUNT(*) FROM company_info")))
     mods.append(card("5A", "메인", "밸류 요약 랭킹", "DCF 엔진 v8 산출", "RDS/SQLite valuation_summary",
                      "GET /api/valuation-summary", "summary.csv→적재", st(_cnt("SELECT COUNT(*) FROM valuation_summary")), _cnt("SELECT COUNT(*) FROM valuation_summary")))
-    # 기업개요
-    mods.append(card("6", "기업개요", "히스토리 브리핑", "DART 사업보고서+LLM", "MongoDB Atlas filmn9.histories",
+    # 기업분석
+    mods.append(card("6", "기업분석", "히스토리 브리핑", "DART 사업보고서+LLM", "MongoDB Atlas filmn9.histories",
                      "GET /api/overview(brief)", "8단계 LLM 파이프라인 사전생성", "ok", "Atlas", ""))
-    mods.append(card("7", "기업개요", "주가차트(OHLCV)", "KRX(yfinance/pykrx)", "RDS/SQLite ohlcv",
+    mods.append(card("7", "기업분석", "주가차트(OHLCV)", "KRX(yfinance/pykrx)", "RDS/SQLite ohlcv",
                      "GET /api/ohlcv/{code}", "매 거래일 16:00 스케줄러 자동", st(_cnt("SELECT COUNT(DISTINCT stock_code) FROM ohlcv")), _cnt("SELECT COUNT(DISTINCT stock_code) FROM ohlcv")))
-    mods.append(card("8", "기업개요", "손익흐름도(Sankey)", "DART 재무(IS/CIS)", "파일 outputs/sankey/*.html",
+    mods.append(card("8", "기업분석", "손익흐름도(Sankey)", "DART 재무(IS/CIS)", "파일 outputs/sankey/*.html",
                      "GET /sankey/{code}", "build_sankey_v3 전수 사전생성", st(sankey_n), sankey_n, "개"))
-    mods.append(card("9", "기업개요", "재무제표 BS/IS(3년)", "DART API fnlttSinglAcntAll", "RDS/SQLite financial_detail",
+    mods.append(card("9", "기업분석", "재무제표 BS/IS(3년)", "DART API fnlttSinglAcntAll", "RDS/SQLite financial_detail",
                      "GET /api/financial_detail/{code}/{BS|IS}", "DART 3년치 직접 재구축", st(_cnt("SELECT COUNT(DISTINCT stock_code) FROM financial_detail")), _cnt("SELECT COUNT(DISTINCT stock_code) FROM financial_detail")))
-    mods.append(card("12", "기업개요", "재무 하이라이트/건전성", "DART API 재무", "RDS/SQLite financials",
+    mods.append(card("12", "기업분석", "재무 하이라이트/건전성", "DART API 재무", "RDS/SQLite financials",
                      "GET /api/overview", "2026 1분기·YoY 수집", st(_cnt("SELECT COUNT(DISTINCT stock_code) FROM financials")), _cnt("SELECT COUNT(DISTINCT stock_code) FROM financials")))
-    mods.append(card("11", "기업개요", "주주 구성", "DART 최대주주·5%이상", "RDS/SQLite shareholders",
+    mods.append(card("11", "기업분석", "주주 구성", "DART 최대주주·5%이상", "RDS/SQLite shareholders",
                      "GET /api/shareholders/{code}", "사전 적재", st(_cnt("SELECT COUNT(DISTINCT stock_code) FROM shareholders")), _cnt("SELECT COUNT(DISTINCT stock_code) FROM shareholders")))
-    mods.append(card("10", "기업개요", "경영인", "DART 임원현황", "RDS/SQLite executives",
+    mods.append(card("10", "기업분석", "경영인", "DART 임원현황", "RDS/SQLite executives",
                      "GET /api/executives/{code}", "사전 적재", st(_cnt("SELECT COUNT(DISTINCT stock_code) FROM executives")), _cnt("SELECT COUNT(DISTINCT stock_code) FROM executives")))
-    mods.append(card("13", "기업개요", "최근 공시", "DART list.json", "RDS/SQLite disclosures + 실시간",
+    mods.append(card("13", "기업분석", "최근 공시", "DART list.json", "RDS/SQLite disclosures + 실시간",
                      "GET /api/disclosures/{code}", "일부 적재+실시간", st(_cnt("SELECT COUNT(*) FROM disclosures"), good=50), _cnt("SELECT COUNT(*) FROM disclosures"), "건"))
-    mods.append(card("15A", "기업개요", "계열회사 구조", "DART 소유지분도", "파일(SVG/이미지)",
+    mods.append(card("15A", "기업분석", "계열회사 구조", "DART 소유지분도", "파일(SVG/이미지)",
                      "GET /api/affiliate/{code}", "사전 생성(현재 샘플)", st(affil_n, good=5), affil_n, "파일"))
     # 밸류
     mods.append(card("16", "밸류에이션", "밸류 대시보드(DCF)", "DCF 엔진 v8(밸류에이션 파트)", "파일 valuation_results/*.json",
@@ -890,7 +890,7 @@ def admin_modules():
     # 챗봇
     mods.append(card("18", "AI챗봇", "RAG 챗봇", "DART 사업보고서 임베딩", "ChromaDB(별도 :8800)",
                      "POST :8800/chat/stream", "BGE-M3+리랭커 GPU+LLM", "ok" if _port_up("127.0.0.1", 8800) else "down", "8800", ""))
-    groups = ["메인", "기업개요", "밸류에이션", "AI챗봇"]
+    groups = ["메인", "기업분석", "밸류에이션", "AI챗봇"]
     return {"generated_at": _vdt.now().strftime("%Y-%m-%d %H:%M:%S"), "groups": groups, "modules": mods}
 
 

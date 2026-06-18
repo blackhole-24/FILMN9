@@ -149,7 +149,7 @@ export default function ValuationAdminPage() {
                 <KV k="무위험금리 Rf" v={v.rf ? `${v.rf.pct}%` : "—"} sub={v.rf ? `${v.rf.date} · ${v.rf.name}` : "ECOS"} accent={T.blue} />
                 <KV k="회사채 Kd (KOFIA)" v={v.kofia?.date} sub={`${(v.kofia?.n ?? 0).toLocaleString()}건 수익률`} />
                 <KV k="주가·시가총액" v={v.market?.date} sub={`${(v.market?.n ?? 0).toLocaleString()}종 스냅샷`} accent={T.green} />
-                <KV k="재무·주가 (기업개요)" v={meta?.ohlcv_date} sub="DART XBRL · KRX 일봉" />
+                <KV k="재무·주가 (기업분석)" v={meta?.ohlcv_date} sub="DART XBRL · KRX 일봉" />
                 <KV k="챗봇 사업보고서" v="2025연간 + 2026 1Q" sub={chunks ? `${chunks.toLocaleString()} 청크` : "임베딩 기준"} accent={T.purple} />
               </div>
             </Section>

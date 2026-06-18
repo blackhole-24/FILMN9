@@ -7,7 +7,7 @@ import * as React from "react";
    출처: feat/admin-qa-console 브랜치 frontend/app/admin/page.tsx (커밋 8918cac)
    통합 변경점(최소):
      1) 단일 페이지(2탭) → ValAdminTab / ValTestTab 컴포넌트로 분리 export
-        (기업개요 관리자 페이지의 4탭 구조에 끼움)
+        (기업분석 관리자 페이지의 4탭 구조에 끼움)
      2) 밸류 QA: /api/valuation/{code}가 구 6파일 포맷(summary 없음)이면
         /api/valuation-full/{code}(엔진 v8 통합 JSON)로 자동 폴백
      3) is_mock 판정: === false → !== true (통합 JSON에 is_mock 필드 없음 호환)
@@ -171,7 +171,7 @@ export function ValAdminTab() {
               </div>
             )}
           </VCard>
-          <VCard title={<>📋 기업개요 <Tag k="sqlite">filmn9.db</Tag></>}>
+          <VCard title={<>📋 기업분석 <Tag k="sqlite">filmn9.db</Tag></>}>
             <KV k="주가(OHLCV)">{mono(dash(co.ohlcv_latest))} <span style={{ color: T.sub }}>({dash(co.ohlcv_rows?.toLocaleString?.() ?? co.ohlcv_rows)}행)</span></KV>
             <KV k="재무연도">{mono(`FY${dash(co.fiscal_years?.[0])}~${dash(co.fiscal_years?.[1])}`)}</KV>
             <KV k="기업정보">{mono(`${dash(co.company_info)} 종목`)}</KV>

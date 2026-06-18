@@ -478,10 +478,10 @@ export function SimpleValuation({ d, realtimePrice, expert, onToggle }: { d: Val
       <div className="mb-5 rounded-xl border bg-white p-5" style={{ borderColor: C.bd }}>
         <div className="text-[16px] font-extrabold text-slate-700">🧭 다음엔 이걸 보면 좋아요</div>
         <ul className="mt-2.5 space-y-1.5 text-[14.5px] leading-7 text-slate-600">
-          <li>📈 <b>과거 매출·이익 추세</b> — 회사가 크고 있는지 <span className="text-slate-400">(기업개요 탭)</span></li>
-          <li>💪 <b>재무 건전성</b> — 빚이 너무 많진 않은지 <span className="text-slate-400">(기업개요 탭)</span></li>
-          <li>📰 <b>최신 뉴스</b> — 최근 무슨 일이 있었는지 <span className="text-slate-400">(기업개요 탭)</span></li>
-          <li>💬 <b>AI에게 질문</b> — 사업보고서에 직접 <span className="text-slate-400">(AI분석 탭)</span></li>
+          <li>📈 <b>과거 매출·이익 추세</b> — 회사가 크고 있는지 <span className="text-slate-400">(기업분석 탭)</span></li>
+          <li>💪 <b>재무 건전성</b> — 빚이 너무 많진 않은지 <span className="text-slate-400">(기업분석 탭)</span></li>
+          <li>📰 <b>최신 뉴스</b> — 최근 무슨 일이 있었는지 <span className="text-slate-400">(기업분석 탭)</span></li>
+          <li>💬 <b>AI에게 질문</b> — 사업보고서에 직접 <span className="text-slate-400">(AI 챗봇 탭)</span></li>
         </ul>
       </div>
 
