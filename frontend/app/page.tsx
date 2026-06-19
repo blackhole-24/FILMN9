@@ -218,15 +218,15 @@ export default function HomePage() {
 
   // ── 관심종목 패널 (좌측, 시그널 박스와 동일 스타일) ──
   const WatchlistPanel = () => (
-    <div className="bg-white/5 border border-white/10 rounded-2xl p-5">
+    <div className="bg-white border border-slate-200 shadow-sm rounded-2xl p-5">
       <div className="flex items-center gap-2">
-        <span className="text-base font-bold text-white">★ 내 관심종목</span>
+        <span className="text-base font-bold text-slate-900">★ 내 관심종목</span>
         <span className="text-[11px] font-bold text-slate-900 bg-amber-300 rounded-full px-1.5 min-w-[18px] text-center">{watch.length}</span>
       </div>
       <div className="text-[11px] text-slate-500 mb-3">로그인 없이 이 브라우저에 저장 · 시세 ~15분 지연</div>
       {watch.length === 0 ? (
-        <div className="text-[12px] text-slate-500 py-10 text-center border border-dashed border-white/10 rounded-xl leading-relaxed">
-          검색에서 <span className="text-amber-300">☆</span> 를 눌러<br/>관심종목을 추가하세요
+        <div className="text-[12px] text-slate-500 py-10 text-center border border-dashed border-slate-200 rounded-xl leading-relaxed">
+          검색에서 <span className="text-amber-500">☆</span> 를 눌러<br/>관심종목을 추가하세요
         </div>
       ) : (
         <div className="space-y-2">
@@ -236,31 +236,31 @@ export default function HomePage() {
             return (
               <div key={w.code}
                 onDragOver={(ev)=>ev.preventDefault()} onDrop={()=>wOnDrop(w.code)}
-                className={`p-3 rounded-xl bg-white/[0.04] hover:bg-white/[0.09] border border-white/10 transition-colors ${wDrag===w.code?'opacity-40':''}`}>
+                className={`p-3 rounded-xl bg-slate-50 hover:bg-indigo-50 border border-slate-200 transition-colors ${wDrag===w.code?'opacity-40':''}`}>
                 <div className="flex items-center gap-1.5">
                   <span draggable onDragStart={(ev)=>{ ev.stopPropagation(); setWDrag(w.code); }}
                     className="text-slate-600 text-[13px] cursor-grab active:cursor-grabbing select-none flex-shrink-0" title="드래그로 순서 변경">⠿</span>
-                  <span onClick={()=>goStock(w.code)} className="text-[15px] font-bold text-white truncate cursor-pointer flex-1">{w.name}</span>
+                  <span onClick={()=>goStock(w.code)} className="text-[15px] font-bold text-slate-900 truncate cursor-pointer flex-1">{w.name}</span>
                   <button onClick={(e)=>{ e.stopPropagation(); toggleWatch(w); }} title="해제"
-                    className="text-slate-600 hover:text-rose-400 text-[13px] flex-shrink-0">✕</button>
+                    className="text-slate-600 hover:text-rose-600 text-[13px] flex-shrink-0">✕</button>
                 </div>
                 <div onClick={()=>goStock(w.code)} className="flex items-center justify-between mt-1 cursor-pointer">
-                  <span className="font-mono text-[17px] font-bold text-white">{q?.price ? '₩'+q.price.toLocaleString() : '—'}</span>
-                  <span className={`font-mono text-[13.5px] font-semibold ${up==null?'text-slate-500':up>=0?'text-emerald-400':'text-rose-400'}`}>
+                  <span className="font-mono text-[17px] font-bold text-slate-900">{q?.price ? '₩'+q.price.toLocaleString() : '—'}</span>
+                  <span className={`font-mono text-[13.5px] font-semibold ${up==null?'text-slate-500':up>=0?'text-emerald-600':'text-rose-600'}`}>
                     {up==null ? '—' : (up>=0?'▲ +':'▼ ')+up+'%'}
                   </span>
                 </div>
                 <div className="flex items-center gap-3 mt-1.5 text-[12px] text-slate-400">
-                  <span>시총 <b className="text-slate-200">{fmtCap(q?.market_cap)}</b></span>
-                  <span>PER <b className="text-slate-200">{q?.per ?? '—'}</b></span>
-                  <span>PBR <b className="text-slate-200">{q?.pbr ?? '—'}</b></span>
+                  <span>시총 <b className="text-slate-700">{fmtCap(q?.market_cap)}</b></span>
+                  <span>PER <b className="text-slate-700">{q?.per ?? '—'}</b></span>
+                  <span>PBR <b className="text-slate-700">{q?.pbr ?? '—'}</b></span>
                 </div>
               </div>
             );
           })}
         </div>
       )}
-      <div className="text-[10px] text-slate-500 mt-3 pt-2 border-t border-white/10">시총·PER·PBR=최신 재무·시세 기준 · 적자 등은 — 표기</div>
+      <div className="text-[10px] text-slate-500 mt-3 pt-2 border-t border-slate-200">시총·PER·PBR=최신 재무·시세 기준 · 적자 등은 — 표기</div>
     </div>
   );
 
@@ -268,13 +268,13 @@ export default function HomePage() {
   const SignalPanel = () => {
     if (!morning?.overall) {
       return (
-        <div className="bg-white/5 border border-white/10 rounded-2xl p-5">
-          <div className="text-base font-bold text-white">📡 글로벌 마켓 시그널</div>
+        <div className="bg-white border border-slate-200 shadow-sm rounded-2xl p-5">
+          <div className="text-base font-bold text-slate-900">📡 글로벌 마켓 시그널</div>
           <div className="text-[11px] text-slate-500 mb-3 flex items-center gap-1.5">
             <span className="inline-block w-3 h-3 border-2 border-slate-500 border-t-transparent rounded-full animate-spin"></span>실시간 시황 불러오는 중…
           </div>
-          <div className="h-16 rounded-xl bg-white/10 animate-pulse mb-4"></div>
-          <div className="space-y-2">{[0,1,2,3,4,5].map(i => <div key={i} className="h-9 rounded-lg bg-white/10 animate-pulse"></div>)}</div>
+          <div className="h-16 rounded-xl bg-slate-200 animate-pulse mb-4"></div>
+          <div className="space-y-2">{[0,1,2,3,4,5].map(i => <div key={i} className="h-9 rounded-lg bg-slate-200 animate-pulse"></div>)}</div>
         </div>
       );
     }
@@ -294,33 +294,33 @@ export default function HomePage() {
       return (
         <div key={e.ticker}
           onDragOver={(ev)=>ev.preventDefault()} onDrop={()=>mOnDrop(e.ticker)}
-          className={`flex items-center gap-1.5 py-1.5 px-1 border-t border-white/5 first:border-t-0 hover:bg-white/[0.04] rounded ${mDrag===e.ticker?'opacity-40':''}`}>
+          className={`flex items-center gap-1.5 py-1.5 px-1 border-t border-slate-100 first:border-t-0 hover:bg-slate-50 rounded ${mDrag===e.ticker?'opacity-40':''}`}>
           <span draggable onDragStart={(ev)=>{ ev.stopPropagation(); setMDrag(e.ticker); }}
             className="text-slate-600 text-[13px] cursor-grab active:cursor-grabbing select-none flex-shrink-0" title="드래그로 순서 변경">⠿</span>
           {isAdd && <span className="text-[8px] text-amber-400 flex-shrink-0" title="추가지표">●</span>}
-          <span className="text-[13.5px] text-slate-100 truncate min-w-0" title={tip}>{e.label}</span>
+          <span className="text-[13.5px] text-slate-800 truncate min-w-0" title={tip}>{e.label}</span>
           <span className="text-slate-500 hover:text-indigo-300 text-[12px] leading-none cursor-help flex-shrink-0" title={tip}>ⓘ</span>
           <button onClick={(ev)=>{ ev.stopPropagation(); toggleSigFav(e.ticker); }}
             title={sigFav.includes(e.ticker) ? '즐겨찾기 해제' : '즐겨찾기 추가'}
-            className={`text-[12px] leading-none flex-shrink-0 ${sigFav.includes(e.ticker) ? 'text-amber-400' : 'text-slate-600 hover:text-amber-300'}`}>
+            className={`text-[12px] leading-none flex-shrink-0 ${sigFav.includes(e.ticker) ? 'text-amber-400' : 'text-slate-600 hover:text-amber-500'}`}>
             {sigFav.includes(e.ticker) ? '★' : '☆'}
           </button>
           <span className="flex-1" />
-          <span className="text-[13.5px] font-mono font-semibold text-white text-right w-[88px] flex-shrink-0" title={tip}>{e.price_str}</span>
-          <span className={`text-[12.5px] font-mono w-[58px] text-right flex-shrink-0 ${e.change_pct>=0?'text-emerald-400':'text-rose-400'}`}>{e.delta_str}</span>
+          <span className="text-[13.5px] font-mono font-semibold text-slate-900 text-right w-[88px] flex-shrink-0" title={tip}>{e.price_str}</span>
+          <span className={`text-[12.5px] font-mono w-[58px] text-right flex-shrink-0 ${e.change_pct>=0?'text-emerald-600':'text-rose-600'}`}>{e.delta_str}</span>
         </div>
       );
     };
     const orderIdx = (tk: string) => { const i = mOrder.indexOf(tk); return i < 0 ? 999 : i; };
     return (
-      <div className="bg-white/5 border border-white/10 rounded-2xl p-5">
-        <div className="text-base font-bold text-white">📡 글로벌 마켓 시그널</div>
+      <div className="bg-white border border-slate-200 shadow-sm rounded-2xl p-5">
+        <div className="text-base font-bold text-slate-900">📡 글로벌 마켓 시그널</div>
         <div className="text-[11px] text-slate-500 mb-3">개장 전 글로벌 시황 → 한국장 방향 · {morning.as_of}</div>
-        <div className="flex items-center gap-3 mb-4 p-3 rounded-xl bg-white/5 border border-white/10">
+        <div className="flex items-center gap-3 mb-4 p-3 rounded-xl bg-slate-50 border border-slate-200">
           <span className="text-3xl">{morning.overall.icon}</span>
           <div className="flex-1">
             <div className="flex items-center gap-1.5">
-              <span className="text-[15px] font-semibold text-white leading-snug">{morning.overall.text}</span>
+              <span className="text-[15px] font-semibold text-slate-900 leading-snug">{morning.overall.text}</span>
               <span className="text-slate-400 hover:text-indigo-300 text-[12px] leading-none cursor-help flex-shrink-0"
                 title={`글로벌 23개 지표(미 선물·금리·환율·아시아 지수 등)의 간밤 등락을, 각 지표의 KOSPI와의 과거 상관관계로 신호등(🟢/🔴) 채점해 합산한 종합 판정입니다.\n규칙: 🟢4↑ "상승 우호" · 🔴4↑ "하락 위험" · 🟢>🔴 "소폭 상승 가능성" · 그 외 "혼조세".\n현재 🟢${morning.overall.green} 🟡${morning.overall.yellow} 🔴${morning.overall.red}.\n※ 정교한 예측 모델이 아니라 글로벌 지표 종합 신호등(참고용)입니다.`}>ⓘ</span>
             </div>
@@ -334,9 +334,9 @@ export default function HomePage() {
             if (!rows.length) return null;
             const isOpen = catOpen[cat.id] ?? false;
             return (
-              <div key={cat.id} className="border-t border-white/10 first:border-t-0">
-                <button onClick={()=>toggleCat(cat.id)} className="w-full flex items-center gap-2 py-2.5 hover:bg-white/[0.03] rounded transition-colors">
-                  <span className="text-[13px] font-bold text-slate-200 flex-1 text-left">{cat.name}</span>
+              <div key={cat.id} className="border-t border-slate-200 first:border-t-0">
+                <button onClick={()=>toggleCat(cat.id)} className="w-full flex items-center gap-2 py-2.5 hover:bg-slate-50 rounded transition-colors">
+                  <span className="text-[13px] font-bold text-slate-700 flex-1 text-left">{cat.name}</span>
                   <span className="text-[11px] text-slate-500">{rows.length}</span>
                   <span className={`text-slate-500 text-[12px] transition-transform ${isOpen?'':'-rotate-90'}`}>▾</span>
                 </button>
@@ -345,7 +345,7 @@ export default function HomePage() {
             );
           })}
         </div>
-        <div className="text-[10px] text-slate-500 mt-3 pt-2 border-t border-white/10"><span className="text-amber-400">●</span> 추가지표 · <span className="text-slate-400">⠿ 순서변경</span> · <span className="text-slate-400">ⓘ 추세·설명</span> · <span className="text-amber-400">★ 즐겨찾기</span> · 참고용</div>
+        <div className="text-[10px] text-slate-500 mt-3 pt-2 border-t border-slate-200"><span className="text-amber-400">●</span> 추가지표 · <span className="text-slate-400">⠿ 순서변경</span> · <span className="text-slate-400">ⓘ 추세·설명</span> · <span className="text-amber-400">★ 즐겨찾기</span> · 참고용</div>
       </div>
     );
   };
@@ -354,23 +354,23 @@ export default function HomePage() {
     const on = inWatch(item.code);
     return (
       <button onClick={(e)=>{ e.stopPropagation(); toggleWatch(item); }} title={on ? '관심종목 해제' : '관심종목 추가'} aria-label="관심종목"
-        className={`flex-shrink-0 grid place-items-center rounded-md transition-colors ${on?'text-amber-400':'text-slate-500 hover:text-amber-300'}`} style={{ width: size+14, height: size+14 }}>
+        className={`flex-shrink-0 grid place-items-center rounded-md transition-colors ${on?'text-amber-400':'text-slate-500 hover:text-amber-500'}`} style={{ width: size+14, height: size+14 }}>
         <span style={{ fontSize: size }}>{on ? '★' : '☆'}</span>
       </button>
     );
   };
 
   return (
-    <main className="min-h-screen bg-gradient-to-br from-slate-950 via-indigo-950 to-slate-900 flex flex-col">
+    <main className="min-h-screen bg-gradient-to-b from-indigo-50 via-white to-white flex flex-col">
 
       {/* ── 상단 고정 네비게이션 ── */}
-      <header className="sticky top-0 z-40 flex items-center gap-5 px-6 h-16 border-b border-white/10 bg-slate-950/70 backdrop-blur-md">
+      <header className="sticky top-0 z-40 flex items-center gap-5 px-6 h-16 border-b border-slate-200 bg-white/85 backdrop-blur-md">
         <button onClick={()=>router.push('/')} className="flex items-center gap-2 flex-shrink-0" title="홈으로">
-          <span className="text-xl font-extrabold text-white tracking-tight">FINSIGHT</span>
-          <span className="text-[11px] px-2 py-0.5 rounded-full bg-indigo-500/30 text-indigo-300 font-medium border border-indigo-500/40">PoC</span>
+          <span className="text-2xl font-extrabold text-indigo-700 tracking-tight">FINSIGHT</span>
+          <span className="text-[11px] px-2 py-0.5 rounded-full bg-indigo-100 text-indigo-700 font-semibold border border-indigo-200">PoC</span>
         </button>
         <div className="flex items-center gap-3 flex-shrink-0 ml-auto">
-          <span className="text-[12px] text-slate-500 hidden lg:block">KPMG AI Lab · 2026-06-15</span>
+          <span className="text-[13px] text-slate-500 hidden lg:block">KPMG AI Lab · 2026-06-20</span>
         </div>
       </header>
 
@@ -384,44 +384,44 @@ export default function HomePage() {
 
         {/* 중앙 메인 */}
         <div className="flex flex-col items-center">
-          <div className="mt-6 mb-7 text-5xl sm:text-6xl font-black tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-indigo-300 via-white to-purple-300 select-none">
+          <div className="mt-8 mb-6 text-6xl sm:text-7xl font-black tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-indigo-700 via-indigo-600 to-purple-600 select-none">
             FINSIGHT
           </div>
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-indigo-500/20 border border-indigo-500/40 text-indigo-300 text-xs font-medium mb-7">
+          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-indigo-100 border border-indigo-200 text-indigo-700 text-sm font-semibold mb-7">
             🤖 AI 기반 기업 분석 자동화
           </div>
-          <h1 className="text-3xl sm:text-4xl font-extrabold text-white tracking-tight text-center mb-6 leading-snug">
-            기업 분석, 이제 <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-purple-400">5분 만에</span>
+          <h1 className="text-4xl sm:text-5xl font-extrabold text-slate-900 tracking-tight text-center mb-6 leading-snug">
+            기업 분석, 이제 <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 to-purple-600">5분 만에</span>
           </h1>
-          <p className="text-slate-400 text-base sm:text-lg text-center max-w-lg mb-10">
-            <b className="text-slate-200 font-bold">DART 공시 + LLM + DCF 모델링</b>으로<br/>개인 투자자도 기관 수준의 분석을 한 화면에서
+          <p className="text-slate-600 text-lg sm:text-xl text-center max-w-xl mb-10">
+            <b className="text-slate-900 font-bold">DART 공시 + LLM + DCF 모델링</b>으로<br/>개인 투자자도 기관 수준의 분석을 한 화면에서
           </p>
 
           {/* 통합 스마트 검색 */}
           <div className="relative w-full max-w-2xl mb-14" ref={wrapRef}>
-            <div className="flex items-center bg-white/[0.06] border-2 rounded-2xl px-5 h-16 shadow-2xl shadow-indigo-900/40 transition-all" style={{ borderColor: open ? '#8b5cf6' : 'rgba(255,255,255,0.14)' }}>
-              <svg className="w-5 h-5 text-indigo-400 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-4.35-4.35M17 11A6 6 0 1 1 5 11a6 6 0 0 1 12 0z"/></svg>
+            <div className="flex items-center bg-white border-2 rounded-2xl px-5 h-[68px] shadow-xl shadow-indigo-200/60 transition-all" style={{ borderColor: open ? '#6366f1' : '#cbd5e1' }}>
+              <svg className="w-6 h-6 text-indigo-500 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-4.35-4.35M17 11A6 6 0 1 1 5 11a6 6 0 0 1 12 0z"/></svg>
               <input ref={inputRef} value={query} onChange={handleInput} onFocus={()=>{ if(query) setOpen(true); }} onKeyDown={e => { if (e.key === 'Enter') onEnter(); }}
-                placeholder="기업명 · 종목코드 · 업종을 한 번에  (예: 삼성전자, 005930, 방산)" className="flex-1 outline-none text-white placeholder-slate-500 bg-transparent text-[15px] font-medium" autoComplete="off"/>
+                placeholder="기업명 · 종목코드 · 업종을 한 번에  (예: 삼성전자, 005930, 방산)" className="flex-1 outline-none text-slate-900 placeholder-slate-400 bg-transparent text-[16px] font-medium" autoComplete="off"/>
               {loading && <div className="w-4 h-4 border-2 border-indigo-400 border-t-transparent rounded-full animate-spin ml-2"/>}
             </div>
 
             {open && (
-              <div className="absolute top-full left-0 right-0 mt-3 bg-[#16132e] border border-white/15 rounded-2xl shadow-2xl shadow-black/60 z-50 overflow-hidden">
+              <div className="absolute top-full left-0 right-0 mt-3 bg-white border border-slate-200 rounded-2xl shadow-2xl shadow-slate-400/30 z-50 overflow-hidden">
                 {sectorHits.length > 0 && (
                   <>
                     <div className="flex items-center gap-2 px-5 pt-3.5 pb-2 text-[12px] font-bold tracking-wide uppercase text-slate-500">
                       산업 <span className="text-[11px] font-bold tracking-normal normal-case px-2 py-0.5 rounded-full text-indigo-300 bg-indigo-500/15 border border-indigo-500/40">업종 {sectorHits.length}건</span>
                     </div>
                     {sectorHits.map(name => (
-                      <button key={name} onClick={()=>goSector(name)} className="w-full flex items-center gap-3 px-5 py-2.5 hover:bg-indigo-500/10 transition-colors text-left">
-                        <span className="w-9 h-9 rounded-lg grid place-items-center bg-indigo-500/15 border border-indigo-500/40 text-indigo-300 flex-shrink-0">🏭</span>
-                        <span className="flex-1 text-[15px] font-bold text-white">{name}</span>
-                        {sectorCount[name] != null && <span className="text-[11px] font-bold px-2 py-0.5 rounded-full text-purple-200 bg-purple-500/15 border border-purple-500/40">{sectorCount[name]}종목</span>}
-                        <span className="text-slate-500">›</span>
+                      <button key={name} onClick={()=>goSector(name)} className="w-full flex items-center gap-3 px-5 py-3 hover:bg-indigo-50 transition-colors text-left">
+                        <span className="w-9 h-9 rounded-lg grid place-items-center bg-indigo-50 border border-indigo-200 text-indigo-600 flex-shrink-0">🏭</span>
+                        <span className="flex-1 text-[15px] font-bold text-slate-900">{name}</span>
+                        {sectorCount[name] != null && <span className="text-[11px] font-bold px-2 py-0.5 rounded-full text-purple-700 bg-purple-50 border border-purple-200">{sectorCount[name]}종목</span>}
+                        <span className="text-slate-400">›</span>
                       </button>
                     ))}
-                    {results.length > 0 && <div className="h-px bg-white/10 mx-2 my-1"/>}
+                    {results.length > 0 && <div className="h-px bg-slate-100 mx-2 my-1"/>}
                   </>
                 )}
                 {results.length > 0 && (
@@ -430,10 +430,10 @@ export default function HomePage() {
                   </div>
                 )}
                 {results.map(r => (
-                  <button key={r.stock_code} onClick={()=>goStock(r.stock_code)} className="w-full flex items-center gap-3 px-5 py-2.5 hover:bg-indigo-500/10 transition-colors text-left">
-                    <span className="w-9 h-9 rounded-lg grid place-items-center bg-white/5 border border-white/10 text-slate-300 font-bold flex-shrink-0">{r.corp_name.slice(0,1)}</span>
-                    <span className="flex-1 text-[15px] font-bold text-white truncate">{r.corp_name}</span>
-                    <span className="font-mono text-[13px] text-slate-400">{r.stock_code}</span>
+                  <button key={r.stock_code} onClick={()=>goStock(r.stock_code)} className="w-full flex items-center gap-3 px-5 py-3 hover:bg-indigo-50 transition-colors text-left">
+                    <span className="w-9 h-9 rounded-lg grid place-items-center bg-slate-100 border border-slate-200 text-slate-600 font-bold flex-shrink-0">{r.corp_name.slice(0,1)}</span>
+                    <span className="flex-1 text-[15px] font-bold text-slate-900 truncate">{r.corp_name}</span>
+                    <span className="font-mono text-[13px] text-slate-500">{r.stock_code}</span>
                     <span className="text-[11px] px-2 py-0.5 rounded-full font-bold" style={{ color: r.market==='KOSPI'?'#cfe0ff':'#e3d4ff', background: r.market==='KOSPI'?'rgba(79,140,247,.18)':'rgba(155,108,240,.18)', border: `1px solid ${r.market==='KOSPI'?'rgba(79,140,247,.4)':'rgba(155,108,240,.4)'}` }}>{r.market}</span>
                     <Star item={{ code: r.stock_code, name: r.corp_name, market: r.market }} size={17}/>
                   </button>
@@ -441,10 +441,10 @@ export default function HomePage() {
                 {!loading && results.length === 0 && sectorHits.length === 0 && (
                   <div className="px-5 py-4 text-sm text-slate-400 text-center">검색 결과 없음</div>
                 )}
-                <div className="flex items-center gap-4 px-5 py-2.5 text-[12px] text-slate-500 border-t border-white/10">
-                  <span><kbd className="px-1.5 py-0.5 rounded bg-white/5 border border-white/10 text-slate-300">Enter</kbd> 열기</span>
-                  <span><kbd className="px-1.5 py-0.5 rounded bg-white/5 border border-white/10 text-slate-300">★</kbd> 관심종목</span>
-                  {sectorHits[0] && <button onClick={()=>goSector(sectorHits[0])} className="ml-auto text-indigo-300 font-semibold hover:underline">'{sectorHits[0]}' 업종 전체 보기 →</button>}
+                <div className="flex items-center gap-4 px-5 py-2.5 text-[12px] text-slate-500 border-t border-slate-100 bg-slate-50">
+                  <span><kbd className="px-1.5 py-0.5 rounded bg-white border border-slate-200 text-slate-600">Enter</kbd> 열기</span>
+                  <span><kbd className="px-1.5 py-0.5 rounded bg-white border border-slate-200 text-slate-600">★</kbd> 관심종목</span>
+                  {sectorHits[0] && <button onClick={()=>goSector(sectorHits[0])} className="ml-auto text-indigo-600 font-semibold hover:underline">'{sectorHits[0]}' 업종 전체 보기 →</button>}
                 </div>
               </div>
             )}
@@ -453,12 +453,12 @@ export default function HomePage() {
           {/* 추천 종목 캐러셀 — 정확히 3개 표시(잘림 없음) + 좌우 화살표로 왔다갔다 */}
           {rotation.length >= 4 && (
             <div className="w-full flex flex-col items-center mb-16">
-              <div className="text-base font-bold text-slate-300 mb-3">✨ 추천 종목 <span className="text-[13px] font-normal text-slate-500">· 거래대금 상위 인기 종목</span></div>
+              <div className="text-lg font-bold text-slate-800 mb-3">✨ 추천 종목 <span className="text-[14px] font-normal text-slate-500">· 거래대금 상위 인기 종목</span></div>
               <div className="flex items-center gap-2.5"
                 onMouseEnter={()=>{ slidePausedRef.current = true; }} onMouseLeave={()=>{ slidePausedRef.current = false; }}>
                 {/* 이전 */}
                 <button onClick={()=>setSlidePos(p => (p - 1 + rotation.length) % rotation.length)} aria-label="이전 추천 종목"
-                  className="flex-shrink-0 w-9 h-9 grid place-items-center rounded-full bg-white/8 hover:bg-white/20 border border-white/15 hover:border-indigo-400/60 text-slate-400 hover:text-white transition-colors">
+                  className="flex-shrink-0 w-9 h-9 grid place-items-center rounded-full bg-white hover:bg-indigo-50 border border-slate-200 hover:border-indigo-400 text-slate-500 hover:text-indigo-600 shadow-sm transition-colors">
                   <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7"/></svg>
                 </button>
                 {/* 카드 3개 (잘림 없음) */}
@@ -468,19 +468,19 @@ export default function HomePage() {
                     if (!s) return null;
                     return (
                       <button key={`${slidePos}-${i}`} onClick={()=>goStock(s.stock_code)}
-                        className="group flex items-center gap-2 px-4 py-3 rounded-xl bg-white/10 hover:bg-white/20 border border-white/20 hover:border-indigo-400/60 text-white transition-colors flex-shrink-0" style={{ width: '220px' }}>
+                        className="group flex items-center gap-2 px-4 py-3.5 rounded-xl bg-white hover:bg-indigo-50 border border-slate-200 hover:border-indigo-400 text-slate-900 shadow-sm transition-colors flex-shrink-0" style={{ width: '230px' }}>
                         <div className="text-left overflow-hidden">
-                          <div className="text-sm font-semibold truncate">{s.corp_name}</div>
-                          <div className="text-xs text-slate-400 font-mono truncate">{s.stock_code} · {s.tag}</div>
+                          <div className="text-[15px] font-bold truncate">{s.corp_name}</div>
+                          <div className="text-xs text-slate-500 font-mono truncate">{s.stock_code} · {s.tag}</div>
                         </div>
-                        <svg className="w-4 h-4 text-slate-400 group-hover:text-indigo-300 ml-auto transition-colors flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7"/></svg>
+                        <svg className="w-4 h-4 text-slate-400 group-hover:text-indigo-500 ml-auto transition-colors flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7"/></svg>
                       </button>
                     );
                   })}
                 </div>
                 {/* 다음 */}
                 <button onClick={()=>setSlidePos(p => (p + 1) % rotation.length)} aria-label="다음 추천 종목"
-                  className="flex-shrink-0 w-9 h-9 grid place-items-center rounded-full bg-white/8 hover:bg-white/20 border border-white/15 hover:border-indigo-400/60 text-slate-400 hover:text-white transition-colors">
+                  className="flex-shrink-0 w-9 h-9 grid place-items-center rounded-full bg-white hover:bg-indigo-50 border border-slate-200 hover:border-indigo-400 text-slate-500 hover:text-indigo-600 shadow-sm transition-colors">
                   <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7"/></svg>
                 </button>
               </div>
@@ -490,17 +490,17 @@ export default function HomePage() {
           {/* 업종 둘러보기 (랜덤 회전) + 전체 78업종 */}
           <div className="w-full flex flex-col items-center gap-3">
             <div className="flex items-center justify-center gap-3">
-              <span className="text-base font-bold text-slate-300">🏭 업종 둘러보기</span>
+              <span className="text-lg font-bold text-slate-800">🏭 업종 둘러보기</span>
               <button onClick={()=>router.push('/sectors')}
-                className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full text-[13px] font-semibold text-indigo-300 border border-indigo-500/40 bg-indigo-500/15 hover:bg-indigo-500/25 transition-colors">
+                className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full text-[14px] font-semibold text-indigo-700 border border-indigo-200 bg-indigo-50 hover:bg-indigo-100 transition-colors">
                 전체 78업종 ›
               </button>
             </div>
             <div className="flex flex-wrap items-center justify-center gap-2">
               {sectorWindow.map(s => s && (
                 <button key={s.name} onClick={()=>goSector(s.name)}
-                  className="inline-flex items-center gap-2 px-4 py-2.5 rounded-full text-[14.5px] font-semibold text-slate-300 border border-white/10 bg-white/5 hover:text-white hover:border-indigo-400/50 hover:bg-indigo-500/10 transition-colors">
-                  {s.name}<span className="text-[12px] font-bold text-slate-500">{s.count}</span>
+                  className="inline-flex items-center gap-2 px-4 py-2.5 rounded-full text-[15px] font-semibold text-slate-700 border border-slate-200 bg-white shadow-sm hover:text-indigo-700 hover:border-indigo-400 hover:bg-indigo-50 transition-colors">
+                  {s.name}<span className="text-[12.5px] font-bold text-slate-400">{s.count}</span>
                 </button>
               ))}
             </div>
@@ -510,19 +510,19 @@ export default function HomePage() {
           <div className="w-full mt-16 lg:hidden">
             <div className="flex items-center justify-center gap-2 mb-3">
               <span className="text-amber-400">★</span>
-              <span className="text-[14px] font-bold text-slate-300">내 관심종목</span>
+              <span className="text-[14px] font-bold text-slate-700">내 관심종목</span>
               <span className="text-[12px] text-slate-500">· 로그인 없이 이 브라우저에 저장</span>
             </div>
             <div className="flex flex-wrap items-center justify-center gap-2.5">
               {watch.map(w => (
-                <div key={w.code} onClick={()=>goStock(w.code)} className="inline-flex items-center gap-2 px-3.5 py-2 rounded-xl border border-white/10 bg-white/5 hover:bg-white/10 cursor-pointer transition-colors">
+                <div key={w.code} onClick={()=>goStock(w.code)} className="inline-flex items-center gap-2 px-3.5 py-2 rounded-xl border border-slate-200 bg-slate-50 hover:bg-slate-200 cursor-pointer transition-colors">
                   <span className="text-amber-400 text-[13px]">★</span>
-                  <span className="text-[14px] font-bold text-white">{w.name}</span>
+                  <span className="text-[14px] font-bold text-slate-900">{w.name}</span>
                   <span className="font-mono text-[11px] text-slate-500">{w.code}</span>
-                  <button onClick={(e)=>{ e.stopPropagation(); toggleWatch(w); }} className="text-slate-600 hover:text-rose-400 text-[13px] ml-0.5" title="해제">✕</button>
+                  <button onClick={(e)=>{ e.stopPropagation(); toggleWatch(w); }} className="text-slate-600 hover:text-rose-600 text-[13px] ml-0.5" title="해제">✕</button>
                 </div>
               ))}
-              <span className="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-xl border border-dashed border-white/15 text-[13px] text-slate-500">
+              <span className="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-xl border border-dashed border-slate-300 text-[13px] text-slate-500">
                 {watch.length === 0 ? '검색에서 ☆ 눌러 관심종목을 추가하세요' : '+ 검색에서 ☆ 추가'}
               </span>
             </div>
@@ -535,9 +535,9 @@ export default function HomePage() {
         </aside>
       </div>
 
-      <footer className="text-center py-6 border-t border-white/5">
-        <div className="text-xs text-slate-600">FINSIGHT · KPMG AI Lab · 2026-06-15 데모 · NO-MOCK: 추정하지 않는다, 출처(DART 공시)로 말한다</div>
-        <div className="text-sm font-bold text-slate-100 tracking-[0.18em] mt-2">FILMN9&nbsp;Inc.</div>
+      <footer className="text-center py-6 border-t border-slate-200">
+        <div className="text-xs text-slate-500">FINSIGHT · KPMG AI Lab · 2026-06-20 데모 · NO-MOCK: 추정하지 않는다, 출처(DART 공시)로 말한다</div>
+        <div className="text-sm font-bold text-slate-600 tracking-[0.18em] mt-2">FILMN9&nbsp;Inc.</div>
       </footer>
     </main>
   );
