@@ -53,6 +53,12 @@ def _conn():
     return connect()
 
 
+def _have_db():
+    """DB 사용 가능? postgres(RDS)면 항상 True, sqlite면 파일 존재 여부."""
+    from backend.db import DB_BACKEND
+    return DB_BACKEND == "postgres" or _DB.exists()
+
+
 def _tables(cur):
     # SQLite=sqlite_master / PostgreSQL=pg_tables (DB_BACKEND 분기)
     from backend.db import DB_BACKEND
@@ -145,7 +151,7 @@ def admin_chatbot_status():
 @router.get("/admin/db-stats")
 def admin_db_stats():
     """SQLite 테이블별 행수 + 빈 테이블."""
-    if not _DB.exists():
+    if not _have_db():
         return {"tables": [], "total_rows": 0, "empty": [], "error": "DB 없음"}
     con = _conn()
     cur = con.cursor()
@@ -171,7 +177,7 @@ def admin_db_stats():
 def admin_freshness():
     """배치별 최신 동기화 시각."""
     items = []
-    if _DB.exists():
+    if _have_db():
         con = _conn(); cur = con.cursor()
 
         def q1(sql):
@@ -211,7 +217,7 @@ def admin_coverage():
     """기준 종목수 대비 파트별 보유율."""
     base = _BASE_UNIVERSE
     rows = []
-    if _DB.exists():
+    if _have_db():
         con = _conn(); cur = con.cursor()
 
         def cnt(sql):
@@ -279,7 +285,7 @@ _SMOKE_CODES = ["005930", "000720", "028260", "035420"]
 def admin_smoke():
     """샘플 종목 핵심 데이터 작동 확인(읽기)."""
     checks = []
-    if not _DB.exists():
+    if not _have_db():
         return {"checks": [], "ok": 0, "fail": 1, "error": "DB 없음"}
     con = _conn(); cur = con.cursor()
     for code in _SMOKE_CODES:
@@ -323,7 +329,7 @@ _LAST_REPORT: dict = {}
 def _rand_codes(cur, table: str, n: int):
     try:
         rows = cur.execute(
-            f'SELECT DISTINCT stock_code FROM "{table}" '
+            f'SELECT stock_code FROM (SELECT DISTINCT stock_code FROM "{table}") AS _t '
             f'ORDER BY RANDOM() LIMIT ?', (n,)).fetchall()
         return [r[0] for r in rows]
     except Exception:
@@ -339,7 +345,7 @@ def admin_verify_sample(payload: dict = Body(...)):
     part = (payload or {}).get("part", "financials")
     n = int((payload or {}).get("n", 10))
     n = max(1, min(n, 50))
-    if not _DB.exists():
+    if not _have_db():
         return {"part": part, "error": "DB 없음"}
 
     con = _conn(); cur = con.cursor()
@@ -440,7 +446,7 @@ def admin_verify_report():
 def admin_verify_full(payload: dict = Body(...)):
     """샘플이 아닌 전 종목 대상 내부 정합성 검증(배치)."""
     part = (payload or {}).get("part", "financials")
-    if not _DB.exists():
+    if not _have_db():
         return {"part": part, "error": "DB 없음"}
     con = _conn(); cur = con.cursor()
     checked = 0; failures = []; method = ""
@@ -597,7 +603,7 @@ def admin_verify_dart(payload: dict = Body(...)):
     full = bool((payload or {}).get("full", False))
     n = int((payload or {}).get("n", 20))
     n = max(1, min(n, 100))
-    if not _DB.exists():
+    if not _have_db():
         return {"error": "DB 없음"}
     con = _conn(); cur = con.cursor()
     base = ("SELECT f.stock_code,f.fiscal_year,f.revenue,f.op_income,f.net_income,"

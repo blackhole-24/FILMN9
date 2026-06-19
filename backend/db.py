@@ -85,6 +85,21 @@ elif DB_BACKEND == "postgres":
 
     dict_row = _hybrid_row  # connect() 에서 사용
 
+    class _PgCursor:
+        """psycopg3 커서 래퍼 — con.cursor().execute('...?...') 에서도 '?'→'%s' 변환.
+        (기존엔 _PgConn.execute 에만 변환이 있어, cursor 경유 쿼리는 postgres에서 실패했음)"""
+        def __init__(self, raw):
+            self._raw = raw
+        def execute(self, sql, params=()):
+            sql2 = sql.replace("%", "%%").replace("?", "%s")
+            self._raw.execute(sql2, params)
+            return self  # sqlite3 처럼 체이닝 가능 (cur.execute(...).fetchone())
+        def fetchone(self): return self._raw.fetchone()
+        def fetchall(self): return self._raw.fetchall()
+        def fetchmany(self, *a, **k): return self._raw.fetchmany(*a, **k)
+        def __iter__(self): return iter(self._raw)
+        def __getattr__(self, n): return getattr(self._raw, n)  # description·rowcount·close 등 위임
+
     class _PgConn:
         """sqlite3.Connection 과 유사한 최소 인터페이스 래퍼.
 
@@ -103,7 +118,7 @@ elif DB_BACKEND == "postgres":
             return self._raw.execute(sql2, params)
 
         def cursor(self, *a, **k):
-            return self._raw.cursor(*a, **k)
+            return _PgCursor(self._raw.cursor(*a, **k))
 
         def commit(self):
             return self._raw.commit()
