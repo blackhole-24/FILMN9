@@ -802,16 +802,15 @@ def admin_meta():
     except Exception:
         v["model_version"] = None
 
-    # ── 기업개요 (filmn9.db) ──
-    co: dict = {"db_exists": _DB.exists()}
-    co["company_info"] = _vg(_vq1(_DB, "SELECT COUNT(*) AS n FROM company_info"), "n")
-    co["ohlcv_latest"] = _vg(_vq1(_DB, "SELECT MAX(date) AS d FROM ohlcv"), "d")
-    co["ohlcv_rows"] = _vg(_vq1(_DB, "SELECT COUNT(*) AS n FROM ohlcv"), "n")
-    fy = _vq1(_DB, "SELECT MIN(fiscal_year) AS mn, MAX(fiscal_year) AS mx FROM financials")
-    co["fiscal_years"] = [_vg(fy, "mn"), _vg(fy, "mx")]
-    co["financial_detail_rows"] = _vg(_vq1(_DB, "SELECT COUNT(*) AS n FROM financial_detail"), "n")
-    co["financial_detail_stocks"] = _vg(
-        _vq1(_DB, "SELECT COUNT(DISTINCT stock_code) AS n FROM financial_detail"), "n")
+    # ── 기업개요 (DB_BACKEND 인식: 로컬 sqlite / AWS RDS) ──
+    co: dict = {"db_exists": True}
+    co["company_info"] = _cnt("SELECT COUNT(*) FROM company_info")
+    co["ohlcv_latest"] = _val("SELECT MAX(date) FROM ohlcv")
+    co["ohlcv_rows"] = _cnt("SELECT COUNT(*) FROM ohlcv")
+    co["fiscal_years"] = [_val("SELECT MIN(fiscal_year) FROM financials"),
+                          _val("SELECT MAX(fiscal_year) FROM financials")]
+    co["financial_detail_rows"] = _cnt("SELECT COUNT(*) FROM financial_detail")
+    co["financial_detail_stocks"] = _cnt("SELECT COUNT(DISTINCT stock_code) FROM financial_detail")
 
     return {
         "generated_at": _vdt.now().strftime("%Y-%m-%d %H:%M:%S"),
@@ -833,6 +832,17 @@ def _cnt(sql: str) -> int:
         return int(n)
     except Exception:
         return -1
+
+
+def _val(sql: str):
+    """단일 값 조회 (DB_BACKEND 인식: 로컬 sqlite / AWS RDS). 없으면 None."""
+    try:
+        con = _conn(); cur = con.cursor()
+        row = cur.execute(sql).fetchone()
+        con.close()
+        return row[0] if row else None
+    except Exception:
+        return None
 
 
 @router.get("/admin/modules")
