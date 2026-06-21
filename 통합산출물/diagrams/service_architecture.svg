@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 760" font-family="Malgun Gothic, sans-serif" role="img">
+  <title>FINSIGHT 서비스 아키텍처</title>
+  <desc>도메인 계층 구조. 클라이언트에서 API 라우터, 도메인 서비스, 저장소 계층으로 요청이 흐르며 AI 챗봇은 별도 경로를 가진다.</desc>
+  <defs>
+    <marker id="arr3" markerWidth="12" markerHeight="12" refX="9" refY="5" orient="auto">
+      <path d="M0,0 L9,5 L0,10 z" fill="#475569"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="1280" height="760" fill="#ffffff"/>
+  <text x="36" y="40" fill="#1f3a5f" font-size="22" font-weight="800">FINSIGHT · 서비스 아키텍처</text>
+  <text x="36" y="60" fill="#64748b" font-size="12">도메인 계층(Client → Router → Service → Storage) · 캐시·폴백 전략 · AI 챗봇 별도 경로</text>
+
+  <!-- Client 계층 -->
+  <rect x="40" y="90" width="1200" height="90" rx="10" fill="#1f3a5f"/>
+  <text x="60" y="115" fill="#fff" font-size="13" font-weight="700">CLIENT · 사용자 진입점</text>
+  <g font-size="11" text-anchor="middle">
+    <rect x="70" y="128" width="180" height="38" rx="6" fill="#fff"/><text x="160" y="152" fill="#0f172a">종목 검색 / 자동완성</text>
+    <rect x="270" y="128" width="180" height="38" rx="6" fill="#fff"/><text x="360" y="152" fill="#0f172a">산업(업종) 탐색</text>
+    <rect x="470" y="128" width="180" height="38" rx="6" fill="#fff"/><text x="560" y="152" fill="#0f172a">글로벌 마켓 시그널</text>
+    <rect x="670" y="128" width="180" height="38" rx="6" fill="#fff"/><text x="760" y="152" fill="#0f172a">종목 상세(3탭)</text>
+    <rect x="870" y="128" width="150" height="38" rx="6" fill="#fff"/><text x="945" y="152" fill="#0f172a">관리자 페이지</text>
+    <rect x="1040" y="128" width="180" height="38" rx="6" fill="#fde68a"/><text x="1130" y="152" fill="#92400e">AI 챗봇</text>
+  </g>
+
+  <!-- Router 계층 -->
+  <rect x="40" y="220" width="1000" height="110" rx="10" fill="#eff6ff" stroke="#bfdbfe"/>
+  <text x="60" y="244" fill="#2563eb" font-size="13" font-weight="700">API 라우터 (FastAPI · 도메인별 엔드포인트)</text>
+  <g font-size="10.5" text-anchor="middle">
+    <rect x="60" y="258" width="150" height="56" rx="6" fill="#fff" stroke="#cbd5e1"/><text x="135" y="282" fill="#0f172a">/api/overview</text><text x="135" y="300" fill="#64748b">기업개요·재무</text>
+    <rect x="222" y="258" width="150" height="56" rx="6" fill="#fff" stroke="#cbd5e1"/><text x="297" y="282" fill="#0f172a">/api/valuation</text><text x="297" y="300" fill="#64748b">밸류·스코어카드</text>
+    <rect x="384" y="258" width="150" height="56" rx="6" fill="#fff" stroke="#cbd5e1"/><text x="459" y="282" fill="#0f172a">/api/sectors</text><text x="459" y="300" fill="#64748b">산업분류</text>
+    <rect x="546" y="258" width="150" height="56" rx="6" fill="#fff" stroke="#cbd5e1"/><text x="621" y="282" fill="#0f172a">/api/morning</text><text x="621" y="300" fill="#64748b">마켓 시그널</text>
+    <rect x="708" y="258" width="150" height="56" rx="6" fill="#fff" stroke="#cbd5e1"/><text x="783" y="282" fill="#0f172a">/api/dart_*</text><text x="783" y="300" fill="#64748b">공시·공급계약</text>
+    <rect x="870" y="258" width="150" height="56" rx="6" fill="#fff" stroke="#cbd5e1"/><text x="945" y="282" fill="#0f172a">/api/affiliate</text><text x="945" y="300" fill="#64748b">계열사</text>
+  </g>
+
+  <!-- 챗봇 별도 라우터 -->
+  <rect x="1060" y="220" width="180" height="110" rx="10" fill="#fef3c7" stroke="#fcd34d"/>
+  <text x="1150" y="244" fill="#92400e" font-size="12" font-weight="700" text-anchor="middle">챗봇 API (8800)</text>
+  <text x="1150" y="272" fill="#0f172a" font-size="10.5" text-anchor="middle">/chat/stream (SSE)</text>
+  <text x="1150" y="292" fill="#0f172a" font-size="10.5" text-anchor="middle">/session</text>
+  <text x="1150" y="314" fill="#64748b" font-size="10" text-anchor="middle">GPU EC2 · 별도 경로</text>
+
+  <!-- Service 계층 -->
+  <rect x="40" y="370" width="1000" height="120" rx="10" fill="#eef2ff" stroke="#c7d2fe"/>
+  <text x="60" y="394" fill="#4f46e5" font-size="13" font-weight="700">도메인 서비스 (비즈니스 로직)</text>
+  <g font-size="10.5" text-anchor="middle">
+    <rect x="60" y="408" width="170" height="64" rx="6" fill="#fff" stroke="#cbd5e1"/><text x="145" y="432" fill="#0f172a" font-weight="700">조회·집계</text><text x="145" y="452" fill="#64748b">DB 쿼리·정합성</text>
+    <rect x="244" y="408" width="170" height="64" rx="6" fill="#fff" stroke="#cbd5e1"/><text x="329" y="432" fill="#0f172a" font-weight="700">밸류 엔진 연계</text><text x="329" y="452" fill="#64748b">DCF·4-Way 결과</text>
+    <rect x="428" y="408" width="170" height="64" rx="6" fill="#fff" stroke="#cbd5e1"/><text x="513" y="432" fill="#0f172a" font-weight="700">캐시 생성</text><text x="513" y="452" fill="#64748b">15분 TTL·prewarm</text>
+    <rect x="612" y="408" width="170" height="64" rx="6" fill="#fff" stroke="#cbd5e1"/><text x="697" y="432" fill="#0f172a" font-weight="700">폴백·적재 생성</text><text x="697" y="452" fill="#64748b">결측 시 대체 경로</text>
+    <rect x="796" y="408" width="224" height="64" rx="6" fill="#fff" stroke="#cbd5e1"/><text x="908" y="432" fill="#0f172a" font-weight="700">검증·모니터링</text><text x="908" y="452" fill="#64748b">원본대조·오류율·헬스체크</text>
+  </g>
+  <!-- 챗봇 서비스 -->
+  <rect x="1060" y="370" width="180" height="120" rx="10" fill="#f5f3ff" stroke="#ddd6fe"/>
+  <text x="1150" y="394" fill="#7c3aed" font-size="12" font-weight="700" text-anchor="middle">RAG 서비스</text>
+  <text x="1150" y="420" fill="#0f172a" font-size="10.5" text-anchor="middle">임베딩 검색</text>
+  <text x="1150" y="440" fill="#0f172a" font-size="10.5" text-anchor="middle">리랭킹</text>
+  <text x="1150" y="460" fill="#0f172a" font-size="10.5" text-anchor="middle">LLM 생성·출처</text>
+
+  <!-- Storage 계층 -->
+  <rect x="40" y="530" width="1200" height="120" rx="10" fill="#f0fdf4" stroke="#bbf7d0"/>
+  <text x="60" y="554" fill="#15803d" font-size="13" font-weight="700">STORAGE · 저장소 (4-DB 폴리글랏)</text>
+  <g font-size="11" text-anchor="middle">
+    <rect x="60" y="568" width="260" height="64" rx="6" fill="#fff" stroke="#cbd5e1"/><rect x="60" y="568" width="260" height="24" rx="6" fill="#1f3a5f"/><text x="190" y="585" fill="#fff" font-weight="700">RDS PostgreSQL</text><text x="190" y="616" fill="#0f172a">기업개요·재무·밸류·종목</text>
+    <rect x="336" y="568" width="280" height="64" rx="6" fill="#fff" stroke="#cbd5e1"/><rect x="336" y="568" width="280" height="24" rx="6" fill="#10654a"/><text x="476" y="585" fill="#fff" font-weight="700">MongoDB Atlas</text><text x="476" y="616" fill="#0f172a">히스토리 브리핑</text>
+    <rect x="632" y="568" width="280" height="64" rx="6" fill="#fff" stroke="#cbd5e1"/><rect x="632" y="568" width="280" height="24" rx="6" fill="#7c3aed"/><text x="772" y="585" fill="#fff" font-weight="700">ChromaDB</text><text x="772" y="616" fill="#0f172a">사업보고서 벡터(RAG)</text>
+    <rect x="928" y="568" width="280" height="64" rx="6" fill="#fff" stroke="#cbd5e1"/><rect x="928" y="568" width="280" height="24" rx="6" fill="#b45309"/><text x="1068" y="585" fill="#fff" font-weight="700">S3</text><text x="1068" y="616" fill="#0f172a">Sankey·밸류·계열사 파일</text>
+  </g>
+
+  <!-- 화살표 -->
+  <g stroke="#475569" stroke-width="2" marker-end="url(#arr3)">
+    <line x1="540" y1="180" x2="540" y2="218"/>
+    <line x1="540" y1="330" x2="540" y2="368"/>
+    <line x1="540" y1="490" x2="540" y2="528"/>
+  </g>
+  <g stroke="#b45309" stroke-width="1.8" marker-end="url(#arr3)" stroke-dasharray="5 4">
+    <line x1="1150" y1="180" x2="1150" y2="218"/>
+    <line x1="1150" y1="330" x2="1150" y2="368"/>
+    <line x1="1150" y1="490" x2="1150" y2="528"/>
+  </g>
+</svg>

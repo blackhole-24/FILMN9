@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 760" font-family="Malgun Gothic, sans-serif" role="img">
+  <title>FINSIGHT 개발 프로세스</title>
+  <desc>워터폴과 애자일 하이브리드 개발 프로세스. 상단은 워터폴 단계, 하단은 스프린트 반복 루프와 타임라인.</desc>
+  <defs>
+    <marker id="arr4" markerWidth="12" markerHeight="12" refX="9" refY="5" orient="auto">
+      <path d="M0,0 L9,5 L0,10 z" fill="#475569"/>
+    </marker>
+    <marker id="arr4b" markerWidth="12" markerHeight="12" refX="9" refY="5" orient="auto">
+      <path d="M0,0 L9,5 L0,10 z" fill="#7c3aed"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="1280" height="760" fill="#ffffff"/>
+  <text x="36" y="40" fill="#1f3a5f" font-size="22" font-weight="800">FINSIGHT · 개발 프로세스 (워터폴 + 애자일 하이브리드)</text>
+  <text x="36" y="60" fill="#64748b" font-size="12">큰 틀은 워터폴(단계적 설계) · 실행은 애자일(스프린트 반복) · 멘토링 피드백 루프</text>
+
+  <!-- 워터폴 (상단) -->
+  <text x="40" y="110" fill="#1f3a5f" font-size="14" font-weight="700">① 워터폴 — 단계별 산출물 (전체 골격)</text>
+  <g font-size="12" text-anchor="middle">
+    <rect x="40"  y="125" width="170" height="70" rx="8" fill="#1f3a5f"/><text x="125"  y="158" fill="#fff" font-weight="700">기획</text><text x="125" y="178" fill="#cbd5e1" font-size="10">헌장·기획서</text>
+    <rect x="240" y="125" width="170" height="70" rx="8" fill="#27496b"/><text x="325" y="158" fill="#fff" font-weight="700">요구사항 정의</text><text x="325" y="178" fill="#cbd5e1" font-size="10">기능·비기능·페르소나</text>
+    <rect x="440" y="125" width="170" height="70" rx="8" fill="#2f5f8a"/><text x="525" y="158" fill="#fff" font-weight="700">설계</text><text x="525" y="178" fill="#cbd5e1" font-size="10">아키텍처·ERD·WBS</text>
+    <rect x="640" y="125" width="170" height="70" rx="8" fill="#3a72a8"/><text x="725" y="158" fill="#fff" font-weight="700">구현</text><text x="725" y="178" fill="#dbeafe" font-size="10">프론트·백엔드·데이터</text>
+    <rect x="840" y="125" width="170" height="70" rx="8" fill="#4a86c5"/><text x="925" y="158" fill="#fff" font-weight="700">테스트</text><text x="925" y="178" fill="#dbeafe" font-size="10">QA·전수검수</text>
+    <rect x="1040" y="125" width="170" height="70" rx="8" fill="#2563eb"/><text x="1125" y="158" fill="#fff" font-weight="700">배포·운영</text><text x="1125" y="178" fill="#dbeafe" font-size="10">AWS·모니터링</text>
+  </g>
+  <g stroke="#475569" stroke-width="2" marker-end="url(#arr4)">
+    <line x1="210" y1="160" x2="238" y2="160"/><line x1="410" y1="160" x2="438" y2="160"/>
+    <line x1="610" y1="160" x2="638" y2="160"/><line x1="810" y1="160" x2="838" y2="160"/>
+    <line x1="1010" y1="160" x2="1038" y2="160"/>
+  </g>
+
+  <!-- 애자일 (중단) -->
+  <text x="40" y="260" fill="#7c3aed" font-size="14" font-weight="700">② 애자일 — 스프린트 반복 루프 (매주 개선)</text>
+  <g>
+    <circle cx="300" cy="400" r="115" fill="none" stroke="#ddd6fe" stroke-width="2"/>
+    <g font-size="11.5" text-anchor="middle">
+      <rect x="240" y="270" width="120" height="40" rx="6" fill="#7c3aed"/><text x="300" y="295" fill="#fff" font-weight="700">계획 (Plan)</text>
+      <rect x="430" y="375" width="120" height="40" rx="6" fill="#8b5cf6"/><text x="490" y="400" fill="#fff" font-weight="700">개발 (Build)</text>
+      <rect x="240" y="490" width="120" height="40" rx="6" fill="#a78bfa"/><text x="300" y="515" fill="#fff" font-weight="700">리뷰 (Review)</text>
+      <rect x="50" y="375" width="140" height="40" rx="6" fill="#7c3aed"/><text x="120" y="400" fill="#fff" font-weight="700">멘토링 피드백</text>
+    </g>
+    <g stroke="#7c3aed" stroke-width="1.8" fill="none" marker-end="url(#arr4b)">
+      <path d="M360,295 C420,310 440,350 480,373"/>
+      <path d="M470,415 C440,470 380,500 362,510"/>
+      <path d="M240,508 C170,490 140,450 125,417"/>
+      <path d="M150,378 C180,330 210,305 238,295"/>
+    </g>
+  </g>
+
+  <!-- 타임라인 (하단) -->
+  <text x="640" y="290" fill="#1f3a5f" font-size="14" font-weight="700">③ 스프린트 타임라인 (킥오프 → 최종 발표)</text>
+  <g font-size="11">
+    <rect x="640" y="310" width="600" height="36" rx="6" fill="#eff6ff" stroke="#bfdbfe"/>
+    <text x="652" y="333" fill="#0f172a">킥오프(4/22) · S1 기획 · S2 밸류엔진 · S3 기업개요·브리핑</text>
+    <rect x="640" y="354" width="600" height="36" rx="6" fill="#eef2ff" stroke="#c7d2fe"/>
+    <text x="652" y="377" fill="#0f172a">S4 재무정확성·UI·관리자 · 1차 데모(6/5)</text>
+    <rect x="640" y="398" width="600" height="36" rx="6" fill="#f0fdf4" stroke="#bbf7d0"/>
+    <text x="652" y="421" fill="#0f172a">S5 DB 클라우드 이관 · AWS 배포 · 전수검수 · 챗봇</text>
+    <rect x="640" y="442" width="600" height="40" rx="6" fill="#1f3a5f"/>
+    <text x="652" y="467" fill="#fff" font-weight="700">🎯 최종 발표 (6/20)</text>
+  </g>
+  <g font-size="11">
+    <rect x="640" y="510" width="600" height="120" rx="8" fill="#f8fafc" stroke="#e2e8f0"/>
+    <text x="656" y="533" fill="#1f3a5f" font-weight="700">하이브리드를 택한 이유</text>
+    <text x="656" y="557" fill="#0f172a">· 워터폴: 기획·요구사항·아키텍처를 먼저 확정해 방향성·산출물 일관성 확보</text>
+    <text x="656" y="579" fill="#0f172a">· 애자일: 스프린트마다 구현·검증·멘토링으로 빠르게 개선·리스크 조기 발견</text>
+    <text x="656" y="601" fill="#0f172a">· 멘토링 4회 피드백을 다음 스프린트 백로그에 반영(피드백 루프)</text>
+    <text x="656" y="623" fill="#64748b" font-size="10">총 5개 스프린트 · 88개 작업(WBS v8) · 완료 81 · 진행중 6 · 예정 1</text>
+  </g>
+</svg>
