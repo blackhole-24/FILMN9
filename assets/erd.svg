@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1300 748" font-family="Malgun Gothic, sans-serif" role="img">
+  <title>FINSIGHT 데이터 ERD - RDS 컨테이너 + 13개 테이블</title>
+  <desc>AWS RDS PostgreSQL 컨테이너 안에 company_info 루트와 13개 운영 테이블이 stock_code로 연결되고, 비관계형 3저장소와 점선으로 논리 연결된다.</desc>
+  <defs>
+    <marker id="crow" markerWidth="20" markerHeight="20" refX="18" refY="10" orient="auto"><path d="M18,10 L3,4 M18,10 L3,16 M18,10 L3,10" stroke="#475569" stroke-width="1.3" fill="none"/></marker>
+    <marker id="one" markerWidth="12" markerHeight="14" refX="3" refY="7" orient="auto"><path d="M6,2 L6,12" stroke="#475569" stroke-width="1.5"/></marker>
+  </defs>
+  <rect x="0" y="0" width="1300" height="748" fill="#ffffff"/>
+  <text x="36" y="34" fill="#1f3a5f" font-size="21" font-weight="800">FINSIGHT · 데이터 ERD  (DB 소속 표시 · 운영 13개 테이블)</text>
+  <text x="36" y="55" fill="#64748b" font-size="12.5">RDS 컨테이너로 소속 표시 · 루트 company_info → stock_code(FK)로 연결 · 비관계형은 점선 논리연결</text>
+
+  <!-- ===== AWS RDS 컨테이너 ===== -->
+  <rect x="26" y="70" width="1274" height="524" rx="12" fill="none" stroke="#1f3a5f" stroke-width="2"/>
+  <rect x="26" y="70" width="1274" height="28" rx="12" fill="#1f3a5f"/>
+  <text x="44" y="89" fill="#fff" font-size="13.5" font-weight="700">■ AWS RDS PostgreSQL  ·  관계형 코어 (16개 테이블 · 운영 13개)</text>
+
+  <!-- ROOT -->
+  <rect x="44" y="272" width="232" height="156" rx="7" fill="#fff" stroke="#1f3a5f" stroke-width="2"/>
+  <rect x="44" y="272" width="232" height="28" rx="7" fill="#1f3a5f"/>
+  <text x="56" y="292" fill="#fff" font-size="13.5" font-weight="700">company_info  ★루트</text>
+  <text x="264" y="292" fill="#cbd5e1" font-size="9.5" text-anchor="end">3,965행</text>
+  <text x="56" y="325" fill="#b45309" font-size="12.5" font-weight="700">PK  stock_code  (종목코드)</text>
+  <text x="56" y="347" fill="#0f172a" font-size="11.5">corp_name · market · sector</text>
+  <text x="56" y="368" fill="#0f172a" font-size="11.5">ceo · address · phone</text>
+  <text x="56" y="389" fill="#0f172a" font-size="11.5">listing_date (상장일)</text>
+  <text x="56" y="414" fill="#64748b" font-size="10.5">1 종목 = 1 행 · 전 테이블의 부모</text>
+
+  <text x="44" y="452" fill="#1f3a5f" font-size="11" font-weight="700">관계: company_info(1) ─&lt; 각 테이블(N)</text>
+  <text x="44" y="470" fill="#64748b" font-size="10">모든 자식이 stock_code를 FK로 참조</text>
+  <line x1="56" y1="490" x2="96" y2="490" stroke="#475569" stroke-width="1.3" marker-start="url(#one)" marker-end="url(#crow)"/>
+  <text x="104" y="494" fill="#0f172a" font-size="10">1 : N (crow's foot)</text>
+  <text x="44" y="518" fill="#b45309" font-size="10" font-weight="700">PK</text><text x="66" y="518" fill="#64748b" font-size="10">기본키</text>
+  <text x="120" y="518" fill="#2563eb" font-size="10" font-weight="700">FK</text><text x="142" y="518" fill="#64748b" font-size="10">외래키</text>
+
+  <!-- 관계선 3개 -->
+  <line x1="276" y1="350" x2="296" y2="178" stroke="#475569" stroke-width="1.3" marker-start="url(#one)" marker-end="url(#crow)"/>
+  <line x1="276" y1="350" x2="296" y2="344" stroke="#475569" stroke-width="1.3" marker-start="url(#one)" marker-end="url(#crow)"/>
+  <line x1="276" y1="350" x2="296" y2="510" stroke="#475569" stroke-width="1.3" marker-start="url(#one)" marker-end="url(#crow)"/>
+
+  <!-- Band A -->
+  <rect x="296" y="104" width="992" height="148" rx="9" fill="#eff6ff" stroke="#bfdbfe"/>
+  <text x="308" y="122" fill="#2563eb" font-size="12.5" font-weight="700">A. 재무 · 가치 · 산업</text>
+  <rect x="305" y="128" width="225" height="116" rx="5" fill="#fff" stroke="#cbd5e1"/><rect x="305" y="128" width="225" height="24" rx="5" fill="#1f3a5f"/>
+  <text x="314" y="145" fill="#fff" font-size="12" font-weight="700">financials</text><text x="522" y="145" fill="#cbd5e1" font-size="9" text-anchor="end">10,933</text>
+  <text x="314" y="174" fill="#2563eb" font-size="11" font-weight="700">FK stock_code</text>
+  <text x="314" y="196" fill="#0f172a" font-size="10.5">year / quarter</text>
+  <text x="314" y="217" fill="#0f172a" font-size="10.5">매출·영업이익·순이익</text>
+  <rect x="542" y="128" width="225" height="116" rx="5" fill="#fff" stroke="#cbd5e1"/><rect x="542" y="128" width="225" height="24" rx="5" fill="#1f3a5f"/>
+  <text x="551" y="145" fill="#fff" font-size="12" font-weight="700">financial_detail</text><text x="759" y="145" fill="#cbd5e1" font-size="9" text-anchor="end">956,125</text>
+  <text x="551" y="174" fill="#2563eb" font-size="11" font-weight="700">FK stock_code</text>
+  <text x="551" y="196" fill="#0f172a" font-size="10.5">year / account</text>
+  <text x="551" y="217" fill="#0f172a" font-size="10.5">B/S·I/S 계정 상세값</text>
+  <rect x="779" y="128" width="225" height="116" rx="5" fill="#fff" stroke="#cbd5e1"/><rect x="779" y="128" width="225" height="24" rx="5" fill="#1f3a5f"/>
+  <text x="788" y="145" fill="#fff" font-size="12" font-weight="700">valuation_summary</text><text x="996" y="145" fill="#cbd5e1" font-size="9" text-anchor="end">2,224</text>
+  <text x="788" y="174" fill="#2563eb" font-size="11" font-weight="700">FK stock_code</text>
+  <text x="788" y="196" fill="#0f172a" font-size="10.5">fair_price · grade</text>
+  <text x="788" y="217" fill="#0f172a" font-size="10.5">wacc · upside_pct</text>
+  <rect x="1016" y="128" width="225" height="116" rx="5" fill="#fff" stroke="#cbd5e1"/><rect x="1016" y="128" width="225" height="24" rx="5" fill="#1f3a5f"/>
+  <text x="1025" y="145" fill="#fff" font-size="12" font-weight="700">wics_keywords</text><text x="1233" y="145" fill="#cbd5e1" font-size="9" text-anchor="end">565</text>
+  <text x="1025" y="174" fill="#b45309" font-size="11" font-weight="700">업종 키</text>
+  <text x="1025" y="196" fill="#0f172a" font-size="10.5">산업분류 키워드</text>
+  <text x="1025" y="217" fill="#0f172a" font-size="10.5">(업종 ↔ 종목 매핑)</text>
+
+  <!-- Band B -->
+  <rect x="296" y="270" width="992" height="148" rx="9" fill="#f0fdf4" stroke="#bbf7d0"/>
+  <text x="308" y="288" fill="#15803d" font-size="12.5" font-weight="700">B. 인물 · 관계</text>
+  <rect x="305" y="294" width="225" height="116" rx="5" fill="#fff" stroke="#cbd5e1"/><rect x="305" y="294" width="225" height="24" rx="5" fill="#1f3a5f"/>
+  <text x="314" y="311" fill="#fff" font-size="12" font-weight="700">shareholders</text><text x="522" y="311" fill="#cbd5e1" font-size="9" text-anchor="end">47,001</text>
+  <text x="314" y="340" fill="#2563eb" font-size="11" font-weight="700">FK stock_code</text>
+  <text x="314" y="362" fill="#0f172a" font-size="10.5">주주명 · 지분율</text>
+  <text x="314" y="383" fill="#0f172a" font-size="10.5">(최대주주·지분구조)</text>
+  <rect x="542" y="294" width="225" height="116" rx="5" fill="#fff" stroke="#cbd5e1"/><rect x="542" y="294" width="225" height="24" rx="5" fill="#1f3a5f"/>
+  <text x="551" y="311" fill="#fff" font-size="12" font-weight="700">executives</text><text x="759" y="311" fill="#cbd5e1" font-size="9" text-anchor="end">34,966</text>
+  <text x="551" y="340" fill="#2563eb" font-size="11" font-weight="700">FK stock_code</text>
+  <text x="551" y="362" fill="#0f172a" font-size="10.5">임원명 · 직위</text>
+  <text x="551" y="383" fill="#0f172a" font-size="10.5">(경영진)</text>
+  <rect x="779" y="294" width="225" height="116" rx="5" fill="#fff" stroke="#cbd5e1"/><rect x="779" y="294" width="225" height="24" rx="5" fill="#1f3a5f"/>
+  <text x="788" y="311" fill="#fff" font-size="12" font-weight="700">peer_competitors</text><text x="996" y="311" fill="#cbd5e1" font-size="9" text-anchor="end">3,282</text>
+  <text x="788" y="340" fill="#2563eb" font-size="11" font-weight="700">FK stock_code</text>
+  <text x="788" y="362" fill="#0f172a" font-size="10.5">경쟁사(피어) 목록</text>
+  <text x="788" y="383" fill="#0f172a" font-size="10.5">(밸류 피어 선정)</text>
+  <rect x="1016" y="294" width="225" height="116" rx="5" fill="#fff" stroke="#cbd5e1"/><rect x="1016" y="294" width="225" height="24" rx="5" fill="#1f3a5f"/>
+  <text x="1025" y="311" fill="#fff" font-size="12" font-weight="700">company_customers</text><text x="1233" y="311" fill="#cbd5e1" font-size="9" text-anchor="end">2,455</text>
+  <text x="1025" y="340" fill="#2563eb" font-size="11" font-weight="700">FK stock_code</text>
+  <text x="1025" y="362" fill="#0f172a" font-size="10.5">고객사 목록</text>
+  <text x="1025" y="383" fill="#0f172a" font-size="10.5">(주요 매출처)</text>
+
+  <!-- Band C -->
+  <rect x="296" y="436" width="992" height="148" rx="9" fill="#fef9ef" stroke="#f1d9a8"/>
+  <text x="308" y="454" fill="#b45309" font-size="12.5" font-weight="700">C. 주가 · 시장</text>
+  <rect x="305" y="460" width="225" height="116" rx="5" fill="#fff" stroke="#cbd5e1"/><rect x="305" y="460" width="225" height="24" rx="5" fill="#1f3a5f"/>
+  <text x="314" y="477" fill="#fff" font-size="12" font-weight="700">ohlcv</text><text x="522" y="477" fill="#cbd5e1" font-size="9" text-anchor="end">10,688,415</text>
+  <text x="314" y="506" fill="#2563eb" font-size="11" font-weight="700">FK stock_code</text>
+  <text x="314" y="528" fill="#0f172a" font-size="10.5">date</text>
+  <text x="314" y="549" fill="#0f172a" font-size="10.5">O · H · L · C · V (일봉)</text>
+  <rect x="542" y="460" width="225" height="116" rx="5" fill="#fff" stroke="#cbd5e1"/><rect x="542" y="460" width="225" height="24" rx="5" fill="#1f3a5f"/>
+  <text x="551" y="477" fill="#fff" font-size="12" font-weight="700">stock_status</text><text x="759" y="477" fill="#cbd5e1" font-size="9" text-anchor="end">4,083</text>
+  <text x="551" y="506" fill="#2563eb" font-size="11" font-weight="700">FK stock_code</text>
+  <text x="551" y="528" fill="#0f172a" font-size="10.5">상장 · 관리 상태</text>
+  <text x="551" y="549" fill="#0f172a" font-size="10.5">(거래 가능 여부)</text>
+  <rect x="779" y="460" width="225" height="116" rx="5" fill="#fff" stroke="#cbd5e1"/><rect x="779" y="460" width="225" height="24" rx="5" fill="#1f3a5f"/>
+  <text x="788" y="477" fill="#fff" font-size="12" font-weight="700">dart_halt_events</text><text x="996" y="477" fill="#cbd5e1" font-size="9" text-anchor="end">2,594</text>
+  <text x="788" y="506" fill="#2563eb" font-size="11" font-weight="700">FK stock_code</text>
+  <text x="788" y="528" fill="#0f172a" font-size="10.5">거래정지 일자 · 사유</text>
+  <text x="788" y="549" fill="#0f172a" font-size="10.5">(DART 정지 이벤트)</text>
+  <rect x="1016" y="460" width="225" height="116" rx="5" fill="#fff" stroke="#cbd5e1"/><rect x="1016" y="460" width="225" height="24" rx="5" fill="#1f3a5f"/>
+  <text x="1025" y="477" fill="#fff" font-size="12" font-weight="700">ticker_suffix</text><text x="1233" y="477" fill="#cbd5e1" font-size="9" text-anchor="end">2,877</text>
+  <text x="1025" y="506" fill="#b45309" font-size="11" font-weight="700">stock_code</text>
+  <text x="1025" y="528" fill="#0f172a" font-size="10.5">우선주 · 접미사 분류</text>
+  <text x="1025" y="549" fill="#0f172a" font-size="10.5">(보통주/우선주 식별)</text>
+
+  <!-- RDS ↔ 비관계형 점선 논리연결 -->
+  <line x1="663" y1="594" x2="663" y2="624" stroke="#94a3b8" stroke-width="1.4" stroke-dasharray="5 4"/>
+  <text x="675" y="613" fill="#94a3b8" font-size="10">stock_code로 논리적 연결</text>
+
+  <!-- 각주 -->
+  <text x="26" y="612" fill="#94a3b8" font-size="10" font-style="italic">※ valuations·credit_ratings·disclosures 테이블도 DB에 존재하나 비어있음/미사용이라 제외.</text>
+
+  <!-- 비관계형 저장소 -->
+  <rect x="26" y="624" width="1274" height="104" rx="9" fill="#f8fafc" stroke="#cbd5e1" stroke-dasharray="6 4"/>
+  <text x="44" y="648" fill="#1f3a5f" font-size="13" font-weight="700">비관계형 저장소 (RDS 아님 · 데이터 성격에 따라 분리)</text>
+  <rect x="80" y="664" width="375" height="56" rx="6" fill="#fff" stroke="#cbd5e1"/><rect x="80" y="664" width="9" height="56" rx="3" fill="#10654a"/>
+  <text x="102" y="686" fill="#0f172a" font-size="12" font-weight="700">MongoDB Atlas</text><text x="102" y="706" fill="#64748b" font-size="10.5">histories — AI 히스토리 브리핑</text>
+  <rect x="475" y="664" width="375" height="56" rx="6" fill="#fff" stroke="#cbd5e1"/><rect x="475" y="664" width="9" height="56" rx="3" fill="#7c3aed"/>
+  <text x="497" y="686" fill="#0f172a" font-size="12" font-weight="700">ChromaDB</text><text x="497" y="706" fill="#64748b" font-size="10.5">embeddings — 사업보고서 벡터(RAG)</text>
+  <rect x="870" y="664" width="398" height="56" rx="6" fill="#fff" stroke="#cbd5e1"/><rect x="870" y="664" width="9" height="56" rx="3" fill="#b45309"/>
+  <text x="892" y="686" fill="#0f172a" font-size="12" font-weight="700">AWS S3</text><text x="892" y="706" fill="#64748b" font-size="10.5">Sankey HTML · 밸류 JSON · 계열사 이미지</text>
+</svg>
